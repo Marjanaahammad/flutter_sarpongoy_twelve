@@ -1,0 +1,21403 @@
+import '../model/quiz_model.dart';
+
+final QuizModel defaultQuizData = QuizModel(
+  audioPath: 'assets/audio/ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In which of these places is a formal register required?",
+      options: [
+        "A football match with friends",
+        "A family dinner at home",
+        "A job interview at a bank",
+        "Playing games at the park",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A job interview is an official setting requiring professional language.",
+    ),
+    QuizQuestion(
+      question: "2. Which word best describes the 'pace' of your voice?",
+      options: [
+        "How loud you are",
+        "How fast you speak",
+        "How high your voice is",
+        "How angry you sound",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pace refers to the speed of delivery.",
+    ),
+    QuizQuestion(
+      question: "3. What is 'Voice Modulation'?",
+      options: [
+        "Changing your voice to suit the situation",
+        "Speaking as loudly as possible",
+        "Whispering so no one hears",
+        "Using a microphone to speak",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modulation involves adjusting volume, tone, and pace for effect.",
+    ),
+    QuizQuestion(
+      question: "4. Which is a non-verbal cue to show you are listening?",
+      options: [
+        "Saying \"Yes\"",
+        "Asking a question",
+        "Nodding your head",
+        "Telling a joke",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Nodding is a physical action that does not involve speaking.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When speaking to an elder in Ghana, what is a sign of respect?",
+      options: [
+        "Shouting loudly",
+        "Maintaining polite eye contact",
+        "Looking away constantly",
+        "Interrupting their sentences",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Eye contact combined with a respectful posture is key in communication.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If you use slang like 'Chale' in a letter to the President, which rule are you breaking?",
+      options: [
+        "Voice modulation",
+        "Eye contact",
+        "Formal register",
+        "Non-verbal cues",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Slang is only appropriate for informal registers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How should you say the noun 'PRO-ject' differently from the verb 'pro-JECT'?",
+      options: [
+        "By changing the volume",
+        "By changing which part is stressed",
+        "By saying it faster",
+        "By closing your eyes",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Word stress changes based on whether the word is a noun or a verb.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A student is speaking so quietly the class cannot hear. What does the student need to adjust?",
+      options: ["Register", "Volume", "Vocabulary", "Eye contact"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Volume is the loudness of the voice.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do we use verbal cues like \"I see\" during a conversation?",
+      options: [
+        "To stop the person from talking",
+        "To show we are still listening",
+        "To change the topic",
+        "To prove we are smarter",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Verbal cues encourage the speaker to continue.",
+    ),
+    QuizQuestion(
+      question: "10. Which setting allows for the most informal language?",
+      options: [
+        "At a funeral service",
+        "Inside the classroom",
+        "During a school assembly",
+        "At a Saturday market with friends",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Markets and friend groups are typical informal settings.",
+    ),
+  ],
+);
+
+final QuizModel ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which term describes two buildings facing each other across a street?",
+      options: ["Adjacent", "Opposite", "Behind", "Inside"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Opposite means facing across a gap or road.",
+    ),
+    QuizQuestion(
+      question: "2. Why is a 'filling station' a good landmark?",
+      options: [
+        "It moves around.",
+        "It is a permanent, well-known location.",
+        "It sells snacks.",
+        "It has many cars.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Landmarks must be permanent and easily recognised.",
+    ),
+    QuizQuestion(
+      question: "3. Complete the direction: '_____ right at the roundabout.'",
+      options: ["Go", "Turn", "See", "Walked"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Turn' is the standard imperative verb for changing direction.",
+    ),
+    QuizQuestion(
+      question: "4. If a shop is 'adjacent to the lorry station,' where is it?",
+      options: [
+        "Right next to it",
+        "Across the road from it",
+        "Two miles away",
+        "Behind the school",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Adjacent means side-by-side.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is the most precise distance?",
+      options: ["A little bit", "Twenty metres", "Not too far", "Just there"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Twenty metres' is a specific, measurable distance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When following directions, what should you do if you see a 'junction'?",
+      options: [
+        "Stop and go home",
+        "Look for a tall tree",
+        "Look for where two or more roads meet",
+        "Turn around immediately",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A junction is where roads intersect.",
+    ),
+    QuizQuestion(
+      question:
+          "7. 'The church is 100 metres past the football pitch.' This means:",
+      options: [
+        "The church is before the pitch.",
+        "The church is inside the pitch.",
+        "You must walk beyond the pitch to find the church.",
+        "The pitch is 100 metres away from the school.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Past' indicates moving beyond a specific point.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which is a 'non-verbal' way to help someone follow directions?",
+      options: [
+        "Speaking slowly",
+        "Using big words",
+        "Pointing clearly in the correct direction",
+        "Shouting",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Gestures like pointing are non-verbal aids.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If you are told to 'Continue straight for two minutes,' what are you being told?",
+      options: [
+        "Turn at the next corner",
+        "Keep walking in the same direction",
+        "Stop and check your watch",
+        "Find a taxi",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Continue straight' means do not turn.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which landmark is most likely to be found in a Ghanaian town?",
+      options: [
+        "An iceberg",
+        "A Point of Sale (POS) container",
+        "A subway station",
+        "A skyscraper",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "POS containers are common, recognisable landmarks in local communities.",
+    ),
+  ],
+);
+
+final QuizModel ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tense should you use to describe what you are doing right now?",
+      options: [
+        "Past Tense",
+        "Future Tense",
+        "Present Continuous",
+        "Ancient Tense",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Present continuous describes actions happening now (e.g., 'I am speaking').",
+    ),
+    QuizQuestion(
+      question:
+          "2. Identify the adjective in this sentence: 'The brave hunter entered the forest.'",
+      options: ["Hunter", "Entered", "Brave", "Forest"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Brave' describes the noun 'hunter'.",
+    ),
+    QuizQuestion(
+      question: "3. Which of these is a metaphor?",
+      options: [
+        "He is as strong as an ox.",
+        "Education is the key to success.",
+        "She runs very fast.",
+        "The water was cold.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It compares education to a key without using 'like' or 'as'.",
+    ),
+    QuizQuestion(
+      question:
+          "4. To describe a person moving with no speed, which adverb is best?",
+      options: ["Quickly", "Slowly", "Loudly", "Happily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Slowly' describes a lack of speed.",
+    ),
+    QuizQuestion(
+      question: "5. Which noun is the most specific for a medical setting?",
+      options: ["Thing", "Building", "Thermometer", "Person"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A thermometer is a specific medical tool.",
+    ),
+    QuizQuestion(
+      question:
+          "6. 'The waves danced across the shore.' This is an example of:",
+      options: [
+        "A list",
+        "Figurative language",
+        "A boring sentence",
+        "A command",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This uses personification (giving waves human actions).",
+    ),
+    QuizQuestion(
+      question: "7. Which sentence uses a variety of sentence structures?",
+      options: [
+        "I went. I saw. I left.",
+        "I went to the shop. I bought bread.",
+        "After a long walk, I finally reached the shop; I was exhausted but happy.",
+        "Shop. Bread. Walk.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "It combines clauses and varied structure.",
+    ),
+    QuizQuestion(
+      question:
+          "8. 'The bank manager spoke ______ to the customer.' Which adverb fits a formal setting?",
+      options: ["Rudely", "Professionally", "Silly", "Noisily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Professionally' is appropriate in a formal context.",
+    ),
+    QuizQuestion(
+      question: "9. What does a simile always include?",
+      options: [
+        "The words 'like' or 'as'",
+        "A verb",
+        "A person's name",
+        "A question mark",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Similes compare using 'like' or 'as'.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When describing a trip to a 'station,' which noun adds more Ghanaian context?",
+      options: [
+        "Lorry park",
+        "Train platform",
+        "Underground tube",
+        "Space port",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Lorry park' is the common Ghanaian term.",
+    ),
+  ],
+);
+
+final QuizModel ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/ss1_l4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tense should you use to describe what you are doing right now?",
+      options: [
+        "Past Tense",
+        "Future Tense",
+        "Present Continuous",
+        "Ancient Tense",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Present continuous describes actions happening now (e.g., 'I am speaking').",
+    ),
+    QuizQuestion(
+      question:
+          "2. Identify the adjective in this sentence: 'The brave hunter entered the forest.'",
+      options: ["Hunter", "Entered", "Brave", "Forest"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Brave' describes the noun 'hunter'.",
+    ),
+    QuizQuestion(
+      question: "3. Which of these is a metaphor?",
+      options: [
+        "He is as strong as an ox.",
+        "Education is the key to success.",
+        "She runs very fast.",
+        "The water was cold.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It compares education to a key without using 'like' or 'as'.",
+    ),
+    QuizQuestion(
+      question:
+          "4. To describe a person moving with no speed, which adverb is best?",
+      options: ["Quickly", "Slowly", "Loudly", "Happily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Slowly' describes a lack of speed.",
+    ),
+    QuizQuestion(
+      question: "5. Which noun is the most specific for a medical setting?",
+      options: ["Thing", "Building", "Thermometer", "Person"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A thermometer is a specific medical tool.",
+    ),
+    QuizQuestion(
+      question:
+          "6. 'The waves danced across the shore.' This is an example of:",
+      options: [
+        "A list",
+        "Figurative language",
+        "A boring sentence",
+        "A command",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This uses personification (giving waves human actions).",
+    ),
+    QuizQuestion(
+      question: "7. Which sentence uses a variety of sentence structures?",
+      options: [
+        "I went. I saw. I left.",
+        "I went to the shop. I bought bread.",
+        "After a long walk, I finally reached the shop; I was exhausted but happy.",
+        "Shop. Bread. Walk.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "It combines clauses and varied structure.",
+    ),
+    QuizQuestion(
+      question:
+          "8. 'The bank manager spoke ______ to the customer.' Which adverb fits a formal setting?",
+      options: ["Rudely", "Professionally", "Silly", "Noisily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Professionally' is appropriate in a formal context.",
+    ),
+    QuizQuestion(
+      question: "9. What does a simile always include?",
+      options: [
+        "The words 'like' or 'as'",
+        "A verb",
+        "A person's name",
+        "A question mark",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Similes compare using 'like' or 'as'.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When describing a trip to a 'station,' which noun adds more Ghanaian context?",
+      options: [
+        "Lorry park",
+        "Train platform",
+        "Underground tube",
+        "Space port",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Lorry park' is the common Ghanaian term.",
+    ),
+  ],
+);
+
+final QuizModel ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/ss2_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A teacher explains the rules of the new ICT lab. What is the purpose?",
+      options: ["To persuade", "To instruct", "To entertain", "To complain"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Explaining rules is a form of giving instructions.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A speaker says, 'Our local cocoa farmers work hard to bring us chocolate. We should pay them fair prices.' What is the main idea?",
+      options: [
+        "How to make chocolate",
+        "The history of farming in Ghana",
+        "The price of cocoa on the world market",
+        "Supporting cocoa farmers with fair pay",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The central message is about paying farmers fairly for their work.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which word best describes a speaker who is shouting and jumping while talking about a football goal?",
+      options: ["Bored", "Enthusiastic", "Angry", "Instructive"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Shouting and jumping show excitement and enthusiasm.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In a talk about 'Healthy Eating,' which is a supporting point?",
+      options: [
+        "Food is expensive in the market",
+        "Eating fruits like mangoes provides vitamins",
+        "Many people enjoy cooking on Sundays",
+        "The kitchen is the heart of the home",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Mentioning vitamins supports the idea of healthy eating.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If a politician is giving a speech to get your vote, what is their intent?",
+      options: ["To instruct", "To inform", "To persuade", "To narrate"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "They are trying to convince the audience to support them.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Identify the main idea: 'Reading every day improves your vocabulary, helps you do well in exams, and makes you smarter.'",
+      options: [
+        "Exams are very difficult",
+        "The benefits of daily reading",
+        "How to find a library",
+        "Why teachers give homework",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "All points describe benefits of reading.",
+    ),
+    QuizQuestion(
+      question: "7. A speaker's 'tone' refers to...",
+      options: [
+        "The emotion or attitude in their voice",
+        "The speed of the internet connection",
+        "The number of pages in their speech",
+        "The color of the clothes they are wearing",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Tone is the vocal expression of feeling or intent.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these purposes matches a weather forecast?",
+      options: ["To persuade", "To instruct", "To inform", "To argue"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A weather forecast provides information to the public.",
+    ),
+    QuizQuestion(
+      question: "9. If you 'cross-check' information, what are you doing?",
+      options: [
+        "Deleting the information",
+        "Writing it down twice",
+        "Verifying the facts are correct",
+        "Changing the speaker's mind",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Cross-checking means verifying facts.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A radio host talks about the Black Stars' history and their famous victories. What is the supporting point?",
+      options: [
+        "Winning the AFCON trophy four times",
+        "The Black Stars are a football team",
+        "Football is played with a round ball",
+        "Ghana is located in West Africa",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Winning trophies supports the idea of famous victories.",
+    ),
+  ],
+);
+
+final QuizModel ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/ss2_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the first step before forming an opinion on a speech?",
+      options: [
+        "Identifying the key points",
+        "Closing your eyes",
+        "Arguing with your neighbor",
+        "Changing the channel",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "You must understand the facts before you can judge them.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A speaker says, 'Mobile money is better than carrying cash because it is safer.' What is the key point?",
+      options: [
+        "Mobile money provides better safety",
+        "Cash is colorful",
+        "Everyone has a phone",
+        "Banks are too far away",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The speaker clearly links mobile money to safety.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a discussion, what should you do if you don't understand a point the speaker made?",
+      options: [
+        "Make up your own fact",
+        "Ask a clarifying question",
+        "Tell them they are confusing",
+        "Ignore that part of the speech",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Asking questions helps ensure understanding.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which phrase is best for starting a respectful disagreement?",
+      options: [
+        "That is a bad idea.",
+        "I see your point, however...",
+        "You don't know what you are saying.",
+        "Stop talking now.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It shows respect before sharing a different opinion.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When taking notes on a speech about Kejetia Market, why should you use symbols or short words?",
+      options: [
+        "To make your notes look like a secret code",
+        "To save space in your notebook",
+        "To keep up with the speed of the speaker",
+        "Because your teacher told you to",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Short notes help you listen and write at the same time.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If a speaker is very passionate about a topic, your opinion should...",
+      options: [
+        "Always be the same as theirs",
+        "Always be the opposite of theirs",
+        "Be based on the facts they provided, regardless of their passion",
+        "Be based only on how loud they yelled",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Opinions should be based on evidence, not emotion.",
+    ),
+    QuizQuestion(
+      question: "7. What does it mean to 'discuss ideas'?",
+      options: [
+        "Talking at the same time as someone else",
+        "Giving and receiving different viewpoints on a topic",
+        "Memorizing a speech",
+        "Writing a poem about the speaker",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Discussion involves sharing and considering ideas.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A classmate says, 'We should have school on Saturdays to finish the syllabus.' Which is a valid opinion?",
+      options: [
+        "I disagree because students need rest to stay healthy.",
+        "Saturday is the day after Friday.",
+        "The syllabus is a thick book.",
+        "I like Saturdays because I play football.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "A valid opinion includes a logical reason.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of these is a 'Key Information' point from a talk on 'Clean Water'?",
+      options: [
+        "Water is wet and clear",
+        "Boiling water kills germs that cause disease",
+        "I like to drink water",
+        "The ocean is very big",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This is a factual and useful health-related point.",
+    ),
+    QuizQuestion(
+      question:
+          "10. To 'share an opinion from a level-appropriate text' means you are...",
+      options: [
+        "Reading the text aloud to a baby",
+        "Critically thinking about a text meant for your age group",
+        "Drawing a picture of the book cover",
+        "Buying the book at the store",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It involves evaluating information using age-appropriate understanding.",
+    ),
+  ],
+);
+
+final QuizModel ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/ss3_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word contains a short /ɪ/ sound?",
+      options: ["Team", "Tin", "Time", "Teak"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Tin' uses a short /ɪ/ sound.",
+    ),
+    QuizQuestion(
+      question: "2. The word 'fly' contains which type of sound?",
+      options: ["Long vowel", "Short vowel", "Diphthong", "Triphthong"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Fly' glides from /a/ to /ɪ/, making it a diphthong.",
+    ),
+    QuizQuestion(
+      question: "3. Identify the word with a long /u:/ sound.",
+      options: ["Book", "Foot", "Blue", "Put"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Blue' has the long /u:/ sound.",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following is a centring diphthong?",
+      options: ["Out", "Near", "Boy", "Say"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Near' glides toward the schwa sound.",
+    ),
+    QuizQuestion(
+      question: "5. In the word 'bet,' the vowel is:",
+      options: ["Short", "Long", "A diphthong", "Silent"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Bet' has a short /e/ vowel sound.",
+    ),
+    QuizQuestion(
+      question: "6. Which word's vowel sound matches 'part'?",
+      options: ["Pat", "Paid", "Pet", "Palm"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Palm' and 'part' both use the long /a:/ sound.",
+    ),
+    QuizQuestion(
+      question: "7. The sound in 'now' is a:",
+      options: [
+        "Short vowel",
+        "Long vowel",
+        "Closing diphthong",
+        "Centring diphthong",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "It glides and closes toward the /ʊ/ sound.",
+    ),
+    QuizQuestion(
+      question: "8. Which word has a different vowel length than 'sheep'?",
+      options: ["Ship", "Sleep", "Deep", "Keep"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Ship' has a short vowel, while the others are long.",
+    ),
+    QuizQuestion(
+      question: "9. Identify the short vowel in this list:",
+      options: ["Tool", "Talk", "Team", "Ten"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "'Ten' has a short /e/ sound.",
+    ),
+    QuizQuestion(
+      question: "10. The word 'pair' contains which sound?",
+      options: [
+        "Short /a/",
+        "Long /a:/",
+        "Centring diphthong",
+        "Closing diphthong",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Pair' glides from /e/ to /ə/ (centring diphthong).",
+    ),
+  ],
+);
+
+final QuizModel s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/s2_ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the main goal of 'mental visualisation' while reading?",
+      options: [
+        "To memorize every word in the text",
+        "To create a mental picture to aid understanding",
+        "To count how many bold words are on the page",
+        "To skip over difficult sentences",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Visualisation helps you 'see' the story, making it easier to understand.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a typographical feature?",
+      options: [
+        "A map of Ghana",
+        "Italicized words",
+        "A drawing of a school",
+        "A photograph of a market",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Typographical features relate to how text is printed, such as italics or bolding.",
+    ),
+    QuizQuestion(
+      question:
+          "3. If a text explains that 'Because there was a drought, the maize crop failed,' what is the structure?",
+      options: [
+        "Sequence",
+        "Description",
+        "Cause and effect",
+        "Compare and contrast",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It explains a cause (drought) and a result (crop failure).",
+    ),
+    QuizQuestion(
+      question:
+          "4. To predict what a text is about using 'prior knowledge,' a student should:",
+      options: [
+        "Only look at the pictures",
+        "Ignore their own experiences",
+        "Think about what they already know about the topic",
+        "Read the entire text three times",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Prior knowledge uses your own experiences to understand new information.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When a student reads fluently to build confidence, they are:",
+      options: [
+        "Monitoring for understanding",
+        "Engaging with the text",
+        "Using a graphic organiser",
+        "Identifying text structure",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Reading smoothly and confidently shows engagement with the text.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A text that describes the physical appearance of the Elmina Castle is using which structure?",
+      options: [
+        "Sequence",
+        "Problem and solution",
+        "Cause and effect",
+        "Description",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Description provides details about a person, place, or thing.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which feature would help a student find a specific location mentioned in a travel article?",
+      options: ["Bold print", "A map", "A glossary", "Italics"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A map is a visual feature used to provide geographic information.",
+    ),
+    QuizQuestion(
+      question: "8. Why should a reader 'monitor for understanding'?",
+      options: [
+        "To finish reading as fast as possible",
+        "To ensure they understand the meaning and self-correct if needed",
+        "To make sure they are holding the book correctly",
+        "To count the number of pages in the chapter",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Monitoring helps you catch and fix misunderstandings.",
+    ),
+    QuizQuestion(
+      question:
+          "9. 'First, the weaver gathers the threads. Then, he sets up the loom. Finally, he begins the Kente cloth.' This is an example of:",
+      options: [
+        "Compare and contrast",
+        "Cause and effect",
+        "Sequence",
+        "Description",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The words 'First', 'Then', and 'Finally' show step-by-step order.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Using 'text features' like titles and sub-headings helps a reader to:",
+      options: [
+        "Write a brand new story",
+        "Read without thinking",
+        "Ignore the main idea",
+        "Form ideas and ask questions about the text",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Text features guide thinking and help readers ask questions.",
+    ),
+  ],
+);
+
+final QuizModel s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/s2_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A character 'slammed the door and stomped up the stairs.' What is the implicit meaning?",
+      options: [
+        "The character is very happy",
+        "The character is angry",
+        "The character is trying to wake someone up",
+        "The door is broken",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Slamming and stomping are physical clues for anger.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it important to 'read closely'?",
+      options: [
+        "To see the small font better",
+        "To find implicit meanings and details",
+        "To read faster than anyone else",
+        "To avoid reading the whole page",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Close reading allows you to see clues you might otherwise miss.",
+    ),
+    QuizQuestion(
+      question: "3. When should you generate questions to help you read?",
+      options: [
+        "Only after finishing the book",
+        "Only if you fail a test",
+        "Before, during, and after reading",
+        "Never",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Questioning is a continuous process that guides understanding.",
+    ),
+    QuizQuestion(
+      question: "4. If you identify the 'main idea,' you have found:",
+      options: [
+        "The author's name",
+        "The longest word",
+        "The central message of the text",
+        "The price of the book",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The main idea is the overall point of the passage.",
+    ),
+    QuizQuestion(
+      question:
+          "5. 'The teacher smiled and nodded as Kofi spoke.' What can you infer?",
+      options: [
+        "The teacher is confused",
+        "The teacher is bored",
+        "The teacher agrees or approves",
+        "The teacher has a headache",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Smiling and nodding are signs of approval or agreement.",
+    ),
+    QuizQuestion(
+      question: "6. To 'interpret evidence' means to:",
+      options: [
+        "Copy the sentence",
+        "Explain how the evidence supports your answer",
+        "Delete the sentence",
+        "Translate it",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          " Interpretation involves explaining why the evidence matters.",
+    ),
+    QuizQuestion(
+      question: "7. Which question best helps find the main idea?",
+      options: [
+        "What colour was the shirt?",
+        "How many pages?",
+        "What is most important and why?",
+        "Where was it printed?",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Focusing on the \"what\" and \"why\" leads to the main idea.",
+    ),
+    QuizQuestion(
+      question:
+          "8. 'I wish I had listened to my mother.' What is the implicit meaning?",
+      options: [
+        "The character is happy",
+        "The character wants to sleep",
+        "The mother is not home",
+        "The character is in trouble",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Regret implies that a different choice would have had a better result.",
+    ),
+    QuizQuestion(
+      question: "9. What does 'link with the text' mean?",
+      options: [
+        "Using a bookmark",
+        "Connecting your question to the text",
+        "Sharing online",
+        "Reading two books",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Creating a link ensures your understanding is grounded in the text.",
+    ),
+    QuizQuestion(
+      question: "10. Descriptive words help a reader to:",
+      options: [
+        "Understand mood and meaning",
+        "Count adjectives",
+        "Skip chapters",
+        "Draw maps",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Word choice contributes significantly to the meaning and feel of a story.",
+    ),
+  ],
+);
+
+final QuizModel s2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/jhs2_s2_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where do you usually find the topic sentence that gives a clue to the text structure?",
+      options: [
+        "At the very end of the chapter",
+        "Usually at the beginning of a paragraph",
+        "In the table of contents only",
+        "In the glossary",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Topic sentences typically introduce the main point and structure.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. \"The harvest was small this year due to the lack of rain.\" This sentence shows:",
+      options: [
+        "A sequence",
+        "A solution",
+        "A cause and effect",
+        "A comparison",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Due to\" signals a cause-and-effect relationship.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which graphic organiser is best for a text listing the kings of the Ashanti Kingdom in order?",
+      options: [
+        "A Venn diagram",
+        "A timeline or sequence chart",
+        "A cause-and-effect arrow",
+        "A descriptive web",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Chronological lists require a sequence structure.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. \"Unlike the coastal regions, the northern part of Ghana has a single rainy season.\" What is the author doing?",
+      options: [
+        "Describing a problem",
+        "Sequencing events",
+        "Comparing and contrasting",
+        "Offering a solution",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Unlike\" is a signal word for contrast.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A text structure that describes a challenge and how it was overcome is:",
+      options: [
+        "Sequence",
+        "Problem and Solution",
+        "Description",
+        "Cause and effect",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "This structure focuses on resolving issues.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Why does identifying text structure help you read independently?",
+      options: [
+        "It makes the text shorter",
+        "It helps you understand how the information is organized",
+        "It teaches you how to spell difficult words",
+        "It allows you to skip the topic sentences",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Understanding the \"map\" makes the content clearer.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. \"First, wash the cocoa beans. Second, dry them in the sun.\" This is:",
+      options: [
+        "Description",
+        "Cause and effect",
+        "Sequence",
+        "Problem and solution",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The words \"First\" and \"Second\" indicate a sequence.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which of these is a signal word for a \"Description\" structure?",
+      options: ["Because", "For example", "However", "Therefore"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "\"For example\" provides descriptive details.",
+    ),
+
+    QuizQuestion(
+      question: "9. A Venn diagram is most useful for which indicator?",
+      options: [
+        "B7/JHS1.2.1.1",
+        "B7/JHS1.2.1.4 (Compare and Contrast)",
+        "B7/JHS1.2.1.3",
+        "None of the above",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Venn diagrams are the standard organiser for comparison.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. If a topic sentence says \"There are several differences between a forest and a savannah,\" you expect the structure to be:",
+      options: [
+        "Sequence",
+        "Description",
+        "Problem and Solution",
+        "Compare and Contrast",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The word \"differences\" signals a contrast structure.",
+    ),
+  ],
+);
+final QuizModel s2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/jhs2_s2_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which question best helps you find the main idea of a text?",
+      options: [
+        "How many words are in the first paragraph?",
+        "What is the very last word of the passage?",
+        "Who is the most famous person in the story?",
+        "What is the whole write-up about?",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Asking what the whole text is about focuses your mind on the central theme.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Passage: \"The Great Adomi Bridge spans the Volta River. It is a vital link for traders moving goods between the Eastern and Volta regions. Without it, travel would take much longer.\" What is the central idea?",
+      options: [
+        "The bridge is made of very strong steel.",
+        "Trading is a popular job in the Volta region.",
+        "The Adomi Bridge is an essential transport link.",
+        "The Volta River is the largest river in Ghana.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The text focuses on the bridge's importance for travel and trade.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In the passage about the Adomi Bridge, which is a supporting detail?",
+      options: [
+        "The bridge connects the Eastern and Volta regions.",
+        "Bridges are better than boats for crossing rivers.",
+        "Ghana needs more bridges to help all traders.",
+        "Travel is important for the growth of Africa.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "This is a specific fact that supports the idea of the bridge being a vital link.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does it mean to \"restate the gist\"?",
+      options: [
+        "To copy the first two sentences of a story.",
+        "To read the passage out loud very quickly.",
+        "To give a brief summary of the main points.",
+        "To write down every single word the author used.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The 'gist' is the essence or main point of the text.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Passage: \"Proper sanitation in our schools prevents the spread of diseases. When students wash their hands with soap and keep their compounds clean, everyone stays healthy.\" What is the main idea?",
+      options: [
+        "Soap is expensive in some local markets.",
+        "Cleanliness in schools promotes good health.",
+        "Students enjoy cleaning the school compound.",
+        "Teachers should check students' hands every day.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The passage links sanitation/cleanliness directly to staying healthy.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. If you are \"analysing what is important\" in a text, what are you doing?",
+      options: [
+        "Counting the number of commas in the text.",
+        "Looking for the author's name and age.",
+        "Deciding which facts are needed for a summary.",
+        "Translating the text into a different language.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Analysis involves evaluating which information is central versus secondary.",
+    ),
+
+    QuizQuestion(
+      question: "7. A summary should be ______ than the original text.",
+      options: [
+        "Much longer",
+        "Exactly the same length",
+        "Shorter and more concise",
+        "Written in a different language",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A summary distills information into a shorter, clearer version.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Passage: \"Planting trees helps protect our environment. Trees provide shade, improve the air we breathe, and prevent soil erosion during heavy rains in the rainy season.\" Which of these is a supporting detail?",
+      options: [
+        "We must protect the environment at all costs.",
+        "Trees help prevent the soil from washing away.",
+        "Nature is a gift that we should all appreciate.",
+        "The rainy season in Ghana starts in April.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This is a specific benefit listed in the text to support the main idea of tree planting.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. When you \"put up a defence\" for your summary choice, you are:",
+      options: [
+        "Arguing with your classmate about the answer.",
+        "Explaining why your summary is accurate.",
+        "Writing the summary in very large letters.",
+        "Deleting the parts you do not like.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Defending a choice means providing the reasoning behind why you identified certain points as the main ones.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which is the best way to start a summary of a story about a boy named Kwesi who learned to play the fontomfrom drum?",
+      options: [
+        "There once was a boy who lived in a very large house.",
+        "Drums are made from wood and animal skins.",
+        "Kwesi gained the skill of playing the traditional drum.",
+        "I like the sound of the fontomfrom during festivals.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This sentence captures the main action and subject of the story in a summary format.",
+    ),
+  ],
+);
+
+final QuizModel s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/s3_ss1_l1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. If the rain ________, the farmers will be happy.",
+      options: ["fall", "falls", "falling", "will fall"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Use simple present for the 'if' clause.",
+    ),
+
+    QuizQuestion(
+      question: "2. We ________ the game if we practice every day.",
+      options: ["win", "winning", "will win", "won"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Use the future tense for the result clause.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. \"If the teacher comes, we will stop talking.\" Identify the subordinate clause.",
+      options: [
+        "If the teacher comes",
+        "we will stop",
+        "stop talking",
+        "the teacher",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The 'if' clause is the subordinate clause.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Choose the correct ending: \"If you go to Kejetia Market...\"",
+      options: [
+        "you saw many people.",
+        "you see many people.",
+        "you will see many people.",
+        "you are seeing many people.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The result needs the future tense 'will'.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"You will get a gift if you ________ first in class.\"",
+      options: ["come", "will come", "coming", "comes"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Use simple present 'come' for the 'if' clause (subject 'you').",
+    ),
+
+    QuizQuestion(
+      question: "6. Which sentence describes a possible future result?",
+      options: [
+        "If I was tall, I played basketball.",
+        "If I am tall, I play basketball.",
+        "If I am tall, I will play basketball.",
+        "I played basketball if I was tall.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This follows the Present Simple + Future Simple structure.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Change the order: \"If the light goes out, I will use a torch.\"",
+      options: [
+        "I use a torch if the light goes out.",
+        "I will use a torch if the light goes out.",
+        "I will used a torch if the light go out.",
+        "I use a torch if the light will go out.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Moving the main clause to the front requires keeping its future tense.",
+    ),
+
+    QuizQuestion(
+      question: "8. If Kwesi ________ his chores, his mother will be angry.",
+      options: ["not do", "does not do", "will not do", "did not do"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Use negative simple present for the condition.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Identify the main clause: \"When the bell rings, the students will go home.\"",
+      options: [
+        "When the bell rings",
+        "the bell rings",
+        "the students will go home",
+        "go home",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The result ('the students will go home') is the main clause.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"If the GPRTU drivers strike, people ________ to walk.\"",
+      options: ["have", "having", "had", "will have"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The result of the strike is expressed in the future tense.",
+    ),
+  ],
+);
+
+final QuizModel s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/s3_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Identify the voice: \"The students swept the compound.\"",
+      options: ["Passive", "Active", "Imperative", "Question"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The students (subject) are doing the action.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. \"The old bridge was washed away by the flood.\" What is the object receiving the action?",
+      options: ["The flood", "Washed away", "By", "The old bridge"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The bridge is the thing the action happened to.",
+    ),
+
+    QuizQuestion(
+      question: "3. Convert to Active: \"The cake was eaten by the children.\"",
+      options: [
+        "The children eat the cake.",
+        "The children are eating cake.",
+        "The children ate the cake.",
+        "Eating the cake was the children.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Ate' is the past tense form matching 'was eaten'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which is a use of the passive voice?",
+      options: [
+        "To make sentences shorter.",
+        "To describe a process or formal event.",
+        "To show who is the strongest.",
+        "To ask a direct question.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Passive voice is ideal for processes and reports.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"The chief ________ a speech at the durbar.\" (Active)",
+      options: ["was delivered", "delivering", "delivered", "is delivered"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Delivered' is the correct active past tense verb.",
+    ),
+
+    QuizQuestion(
+      question: "6. Change to Passive: \"The police caught the thief.\"",
+      options: [
+        "The thief was caught by the police.",
+        "The thief caught the police.",
+        "The police were caught by the thief.",
+        "The thief is caught.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Swaps the subject and object correctly using 'was caught'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. \"The gold was mined in Obuasi.\" Why is the \"doer\" missing here?",
+      options: [
+        "It is a mistake.",
+        "The doer is not important; the process is.",
+        "The sentence is too long.",
+        "Gold cannot be mined.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "In industrial processes, the action is often more important than the specific workers.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Choose the correct passive form: \"The tailor is sewing the kente.\"",
+      options: [
+        "The kente was sewn by the tailor.",
+        "The kente is being sewn by the tailor.",
+        "The kente is sewn.",
+        "The tailor was sewing the kente.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "For present continuous ('is sewing'), we use 'is being sewn'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Identify the error: \"The car was repair by the mechanic.\"",
+      options: [
+        "The word 'car' is wrong.",
+        "'Repair' should be 'repaired'.",
+        "'By' should be 'from'.",
+        "There is no error.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Passive voice requires the past participle (repaired).",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. In the sentence \"The prize was awarded to Ama,\" who is the doer?",
+      options: ["Ama", "The prize", "It is not mentioned", "Awarded"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "This is a passive sentence where the doer is omitted.",
+    ),
+  ],
+);
+
+final QuizModel s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/s3_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"I am busy,\" she said. Report this correctly.",
+      options: [
+        "She said she is busy.",
+        "She said she was busy.",
+        "She said I was busy.",
+        "She said she will be busy.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Present simple 'am' becomes past simple 'was'.",
+    ),
+
+    QuizQuestion(
+      question: "2. In Reported Speech, \"we\" usually changes to ________.",
+      options: ["us", "they", "them", "you"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Pronouns change to match the third-person perspective of the reporter.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. \"He reported that the car ________ the tree.\" (Direct: \"The car hit the tree.\")",
+      options: ["hits", "hitting", "had hit", "was hit"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Past simple 'hit' moves back to past perfect 'had hit'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sentence uses Direct Speech correctly?",
+      options: [
+        "Kofi said he was hungry.",
+        "Kofi said, \"I am hungry.\"",
+        "\"Kofi said I am hungry.\"",
+        "Kofi said that \"I am hungry.\"",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Direct speech requires a comma and quotation marks around the exact words.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"She admitted that there ________ no homework.\"",
+      options: ["is", "were", "was", "will be"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Matches the past tense reporting verb 'admitted'.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"I can help you,\" said the prefect. Report this.",
+      options: [
+        "The prefect said he can help me.",
+        "The prefect said he could help me.",
+        "The prefect says he could help me",
+        "The prefect said I could help him.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Can' changes to 'could' in reported speech.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does \"tomorrow\" change in reported speech?",
+      options: ["the day before", "that day", "the next day", "yesterday"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'The next day' or 'the following day' is the standard shift.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Identify the reporting verb: \"He regretted that he was busy on Saturday.\"",
+      options: ["busy", "that", "regretted", "Saturday"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "'Regretted' is the verb used to introduce the reported statement.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. \"You admitted there wasn't any homework.\" What is the reporting verb?",
+      options: ["was", "admitted", "any", "homework"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Admitted' shows the manner in which the speech was delivered.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Report this: \"We are walking along the road,\" they said.",
+      options: [
+        "They said they were walking along the road.",
+        "They said they are walking along the road.",
+        "They said they had been walking along the road.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Present progressive 'are walking' becomes past progressive 'were walking'.",
+    ),
+  ],
+);
+
+final QuizModel s3ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/s3_ss1_l4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"She's older than me, ________?\"",
+      options: ["is she", "isn't she", "doesn't she", "was she"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Positive 'is' matches with negative 'isn't'.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"You like tea, ________?\"",
+      options: ["don't you", "do you", "aren't you", "like you"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Positive simple present 'like' uses 'don't' in the tag.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"You're not going to play football today, ________?\"",
+      options: ["aren't you", "are you", "do you", "will you"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Negative 'are not' requires a positive 'are you' tag.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"The headmaster will speak today, ________?\"",
+      options: ["will he", "won't he", "doesn't he", "isn't he"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Positive 'will' becomes 'won't'.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"We have enough Cedis for the fare, ________?\"",
+      options: ["do we", "haven't we", "don't we", "have we"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Have' is the auxiliary here, so the negative tag is 'haven't we'.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"Ama doesn't sell tomatoes at the market, ________?\"",
+      options: ["does she", "doesn't she", "is she", "do she"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Negative 'doesn't' matches with positive 'does she'.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"The students were quiet during the lesson, ________?\"",
+      options: ["were they", "weren't they", "was they", "didn't they"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Were' (positive) matches with 'weren't' (negative).",
+    ),
+
+    QuizQuestion(
+      question: "8. \"You didn't see the accident, ________?\"",
+      options: ["did you", "didn't you", "do you", "was you"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Negative past 'didn't' requires positive 'did you'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. \"Let's go to the beach, ________?\" (Special rule for 'Let's')",
+      options: ["don't we", "will we", "shall we", "aren't we"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Suggestions starting with 'Let's' almost always use 'shall we?'.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Nothing is wrong, ________?\"",
+      options: ["isn't it", "is it", "is nothing", "doesn't it"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Nothing' makes the sentence negative, so the tag must be positive 'is it?'.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/s3_ss1_l5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Identify the subject: \"The bright sun rose over the hills.\"",
+      options: [
+        "rose over the hills",
+        "sun",
+        "The bright sun",
+        "over the hills",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"The bright sun\" is the complete subject.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the predicate: \"We are learning English today.\"",
+      options: ["We", "are learning English today", "English", "today"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The predicate starts with the auxiliary verb 'are'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What is the simple predicate in: \"Kojo plays football every Saturday\"?",
+      options: ["Kojo", "plays", "football", "every Saturday"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Plays' is the main action verb.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. \"A beautiful butterfly landed on the flower.\" What is the complete subject?",
+      options: [
+        "A beautiful butterfly",
+        "butterfly",
+        "landed on the flower",
+        "the flower",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Includes the noun and its adjectives.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. \"The mangoes on the tree are ripe.\" What is the complete predicate?",
+      options: ["are ripe", "The mangoes on the tree", "ripe", "the tree"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The predicate starts with the linking verb 'are'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Find the simple subject: \"The red car sped down the road.\"",
+      options: ["car", "red", "sped", "road"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Car' is the core noun performing the action.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Identify the predicate: \"The market at Kejetia is very large.\"",
+      options: [
+        "is very large",
+        "The market at Kejetia",
+        "very large",
+        "Kejetia",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'is very large' describes the subject.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. \"The brave firemen extinguished the fire.\" What is the complete subject?",
+      options: [
+        "firemen",
+        "extinguished the fire",
+        "The brave firemen",
+        "the fire",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "This is the full 'who' of the sentence.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which part of this sentence is the predicate: \"My grandmother tells the best stories\"?",
+      options: [
+        "My grandmother",
+        "tells the best stories",
+        "tells",
+        "the best stories",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Starts from the verb 'tells' to the end.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. In the sentence \"Ghana is a beautiful country,\" what is the simple predicate?",
+      options: ["Ghana", "is", "beautiful", "country"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'is' is the linking verb that serves as the simple predicate.",
+    ),
+  ],
+);
+
+///Religious & Moral Education
+final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are 'Attributes' of God?",
+      options: [
+        "God's physical body parts",
+        "Qualities that define His nature",
+        "Names of different churches",
+        "Laws written in the desert",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Attributes are the qualities or titles that define God's nature.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which attribute means God is everywhere at the same time?",
+      options: ["Omnipotent", "Omniscient", "Omnipresent", "Invisible"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Omnipresent means God is present in all places at all times.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Akan attribute 'Tweduampɔn' means God is:",
+      options: [
+        "The Giver of rain",
+        "The Dependable God",
+        "The Creator of all",
+        "The Great One",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tweduampɔn describes God as one who is reliable and dependable.",
+    ),
+
+    QuizQuestion(
+      question: "4. In Islam, Allah is called 'Al-Razzaq' because He is:",
+      options: [
+        "The Holy One",
+        "The Provider",
+        "The Everlasting",
+        "The Forgiving",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Al-Razzaq refers to God's nature as the one who provides for our needs.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which group calls God 'Binnamadaana'?",
+      options: ["Dagomba", "Fante", "Ga-Adangme", "Nzema"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Dagomba people (who speak Dagbani) use the name Binnamadaana.",
+    ),
+
+    QuizQuestion(
+      question: "6. Christians believe God is 'Eternal' because:",
+      options: [
+        "He lives in a big house",
+        "He has no beginning or end",
+        "He is very old",
+        "He knows our secrets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Eternal means God exists forever without beginning or end.",
+    ),
+
+    QuizQuestion(
+      question: "7. The name 'Mawu Sogbolisa' is an attribute used by the:",
+      options: ["Akans", "Nzemas", "Ewes", "Gonjas"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mawu Sogbolisa is an Ewe attribute meaning 'The Father'.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Al-Ghaffar' is an Arabic name meaning Allah is:",
+      options: [
+        "Ever-Forgiving",
+        "The Strong One",
+        "The Wise One",
+        "The Truthful One",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Al-Ghaffar refers to God's attribute of being ever-forgiving.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why do Traditionalists call God 'Oboadee'?",
+      options: [
+        "Because He is a king",
+        "Because He is the Creator",
+        "Because He is merciful",
+        "Because He is invisible",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Oboadee literally means 'The Creator' in the Akan language.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which attribute shows that God is morally upright and good?",
+      options: ["Holy", "Powerful", "Righteous", "Mighty"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Being Righteous means God is morally good and upright.",
+    ),
+  ],
+);
+final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Why are humans able to show attributes like love and mercy?",
+      options: [
+        "Because they are all-powerful",
+        "Because humans created the world",
+        "Because humans are invisible",
+        "Because these are communicable attributes",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Communicable attributes are shared by God and humans.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. A student who does not lie to their teacher is reflecting God's:",
+      options: ["Patience", "Love", "Justice", "Faithfulness"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "God is faithful and does not lie; humans reflect this by being truthful.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which attribute allows us to live with people who have different beliefs?",
+      options: ["Holiness", "Tolerance", "Omnipotence", "Creation"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tolerance is the quality of allowing others to behave as they like even if we disagree.",
+    ),
+
+    QuizQuestion(
+      question: "4. Being \"impartial\" in a disagreement is an act of:",
+      options: ["Love", "Justice", "Mercy", "Patience"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Justice requires us to be fair and impartial to everyone.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which attribute is shown when we wait for our turn at the borehole?",
+      options: ["Patience", "Faithfulness", "Love", "Holiness"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Patience involves waiting and persevering during difficult or slow times.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"Incommunicable\" attributes are those that:",
+      options: [
+        "Only humans have",
+        "Only God possesses",
+        "Are shared by both",
+        "No one possesses",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Incommunicable attributes belong to God alone.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Forgiving a friend who accidentally tore your book is an example of:",
+      options: ["Omnipotence", "Mercy", "Faithfulness", "Justice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Mercy involves forgiving those who wrong us.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. God's love is described as 'unconditional'. This means we should:",
+      options: [
+        "Love everybody regardless of who they are",
+        "Love only our family",
+        "Love only people who give us gifts",
+        "Love only our teachers",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Unconditional love means loving everyone without setting conditions.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which of the following is an attribute humans should exhibit?",
+      options: ["Omniscience", "Omnipotence", "Righteousness", "Self-creation"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Righteousness (being morally upright) is an attribute humans can and should exhibit.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the result of demonstrating God's attributes in our lives?",
+      options: [
+        "We become gods ourselves",
+        "We live in a peaceful and better society",
+        "We get more money than others",
+        "We never have problems again",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Exhibiting these attributes helps us live peacefully and correctly with our neighbours.",
+    ),
+  ],
+);
+final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which title describes the 'Everlasting' nature of God in the Indigenous Akan religion?",
+      options: ["Oboadee", "Tetekwaframoa", "Amowia", "Otumfuo"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Muslims and Christians both believe God is 'Omnipotent'. This means He is:",
+      options: ["All-Knowing", "All-Powerful", "Everywhere", "Visible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The names 'Jehovah-Jireh' and 'Al-Razzaq' show that both religions see God as:",
+      options: ["The Creator", "The Provider", "The Judge", "The Holy One"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question: "4. What does 'Alpha and Omega' signify in Christianity?",
+      options: [
+        "God is the source of sunlight",
+        "God is the beginning and the end",
+        "God is the most merciful",
+        "God is a dependable rock",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which indigenous attribute matches the Islamic belief in God as the 'Giver of Rain' (Sustainer)?",
+      options: ["Oboadee", "Amosu", "Otumfuo", "Tweduampɔn"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. 'Al-Khaliq' in Islam and 'Oboadee' in Akan religion both mean:",
+      options: ["The Mighty", "The Creator", "The Wise", "The Merciful"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which religion uses the title 'Al-Awwalu wal A'khirun' to describe God's eternal nature?",
+      options: ["Christianity", "Islam", "Indigenous Religion", "Buddhism"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question: "8. The Ewe name for the Almighty God is:",
+      options: ["Otumfuo", "Mawu", "Nyɔnmo", "Binnamdanana"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. What is the main similarity between 'El-Shaddai' and 'Azza wa Jalla'?",
+      options: [
+        "Both refer to God as the Provider",
+        "Both refer to God as the Almighty",
+        "Both refer to God as the Creator",
+        "Both refer to God as the Father",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Recognizing similarities in God's attributes helps Ghanaians to:",
+      options: [
+        "Argue about religion",
+        "Promote religious tolerance and peace",
+        "Change their religion",
+        "Forget their local languages",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Worship is the ________ to the will of God or Allah.",
+      options: ["resistance", "submission", "ignorance", "opposition"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Worship is defined as submission to the will of the Supreme Being.",
+    ),
+
+    QuizQuestion(
+      question: "2. Individual worship is also known as:",
+      options: [
+        "Private worship",
+        "Group worship",
+        "Public worship",
+        "Social worship",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Individual or family worship is categorised as private worship.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is a common place for Christian congregational worship?",
+      options: [
+        "The Kejetia Market",
+        "A Church",
+        "A Cinema",
+        "A football stadium",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Christians typically meet in churches for congregational worship.",
+    ),
+
+    QuizQuestion(
+      question: "4. Muslims meet for their main congregational worship on:",
+      options: ["Saturdays", "Tuesdays", "Fridays", "Mondays"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Friday is the day set aside for congregational worship in the mosque for Muslims.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which type of worship helps an individual or family draw closer to God?",
+      options: [
+        "Political worship",
+        "Private worship",
+        "Market worship",
+        "Secret worship",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Private worship draws individuals or families closer to God.",
+    ),
+
+    QuizQuestion(
+      question: "6. Traditionalists often come together for worship during:",
+      options: [
+        "Mathematical competitions",
+        "Special festival days",
+        "Football matches",
+        "School lunch breaks",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional believers often gather for congregational worship on special or festival days.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the main difference between private and congregational worship?",
+      options: [
+        "The language spoken during prayer",
+        "The number of people involved",
+        "The amount of money spent",
+        "The type of food eaten afterwards",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Private worship is for individuals/families, while congregational worship involves large groups.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which religion uses a shrine for congregational worship?",
+      options: [
+        "Islam",
+        "Christianity",
+        "Indigenous African Religion",
+        "Hinduism",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Traditionalists worship at shrines or places prepared for religious activities.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. In congregational worship, believers have the opportunity to:",
+      options: [
+        "Sleep loudly",
+        "Hear the word of God preached",
+        "Play video games",
+        "Argue about politics",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Hearing the word of God is a key part of congregational worship.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Worship involves offering ________ to an object of worship.",
+      options: ["insults", "honour and adoration", "criticism", "anger"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Worship is defined as offering honour and adoration to God or an object of worship.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does \"Wudu\" mean in Islamic practice?",
+      options: [
+        "Standing to pray",
+        "Ritual washing before prayer",
+        "Giving to the poor",
+        "Visiting Mecca",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Wudu is the ritual purification Muslims perform before Salat.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is a Christian sacrament of initiation?",
+      options: ["Libation", "Baptism", "Divination", "Incantation"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Baptism is a Christian rite indicating purification and the start of a new life.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The act of offering an animal to a deity in Traditional Religion is called:",
+      options: ["Offertory", "Sacrifice", "Communion", "Sadaqah"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Sacrifice involves offering something precious, like an animal, to a deity.",
+    ),
+
+    QuizQuestion(
+      question: "4. In which direction do Muslims face while performing Salat?",
+      options: ["The North", "The West", "The Ka’bah in the East", "The South"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Muslims face the Ka'bah (Qibla) in Mecca during prayer.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Thinking deeply about the word of God in Christianity is known as:",
+      options: ["Singing", "Meditation", "Dancing", "Drumming"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Meditation helps Christians focus on God and His word.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which ritual involves pouring schnapps or water to pray to ancestors?",
+      options: ["Ablution", "Libation", "Tithe", "Baptism"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Libation is the traditional mode of communicating with ancestors and the Supreme Being.",
+    ),
+
+    QuizQuestion(
+      question: "7. The Islamic month of fasting is called:",
+      options: ["Eid-ul-Fitr", "Ramadan", "Jumu'ah", "Hajj"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Ramadan is the month during which Muslims perform the pillar of Sawm (fasting).",
+    ),
+
+    QuizQuestion(
+      question: "8. In Traditional Religion, \"Incantations\" refer to:",
+      options: [
+        "Cooking food for the gods",
+        "Spells or magical formulas chanted during rituals",
+        "Cleaning the shrine",
+        "Singing gospel songs",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Incantations are chanted formulas intended to have a spiritual effect.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Sadaqah\" in Islam refers to:",
+      options: [
+        "Compulsory tax",
+        "Voluntary charity to the needy",
+        "The call to prayer",
+        "Friday sermon",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Unlike Zakat, Sadaqah is a voluntary act of charity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which posture in Salat involves bowing at the waist with hands on the knees?",
+      options: ["Sajda", "Ruku’u", "Takbir", "Salam"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Ruku'u is the bowing position during Islamic formal prayers.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/s2_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is a primary moral lesson learned from congregational worship?",
+      options: [
+        "Individualism",
+        "Togetherness and Unity",
+        "Competition",
+        "Isolation",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Group worship is designed to foster unity among believers.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which religious practice specifically teaches the lesson of charity in Islam?",
+      options: ["Salat", "Zakat", "Sawm", "Hajj"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Zakat is the act of giving to the poor, which teaches kindness and charity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Worship helps to prevent \"social vices.\" What does this mean?",
+      options: [
+        "It encourages people to steal",
+        "It helps people behave in ways that are good for society",
+        "It makes people stop talking to their neighbours",
+        "It encourages people to be lazy",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Worship discourages bad behaviours like stealing or cheating.",
+    ),
+
+    QuizQuestion(
+      question: "4. Following the rules of a religious ritual is a lesson in:",
+      options: ["Chaos", "Discipline", "Wealth", "Magic"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Rituals require order and adherence to rules, which builds discipline.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. When a person realizes they have done something wrong and prays for help to change, they are seeking:",
+      options: ["Punishment", "Moral Uprightness", "More money", "Fame"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Worship encourages believers to improve their character and live upright lives.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which moral value teaches us that we are not better than anyone else?",
+      options: ["Humility", "Pride", "Greed", "Ambition"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Humility is the recognition that all humans are equal before God.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does worship help a student facing an exam?",
+      options: [
+        "It does the exam for them",
+        "It gives them confidence and peace of mind",
+        "It tells them the answers in a dream",
+        "It makes the exam disappear",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Worship provides spiritual strength and confidence to face life's tasks.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. The lesson of \"Intercession\" (praying for others) teaches us to be:",
+      options: ["Self-centered", "Caring and empathetic", "Nosy", "Angry"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Praying for the needs of others shows we care about their well-being.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. In Traditional Religion, performing a \"Thank-offering\" teaches:",
+      options: ["Greed", "Gratitude", "Forgetfulness", "Fear"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Offering thanks through worship teaches us to appreciate the blessings we receive.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Worship acts as a \"framework\" for a believer’s life. This means it provides:",
+      options: [
+        "A set of rules for good living",
+        "A physical house to live in",
+        "A way to avoid school",
+        "Free food every day",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Religious practices provide a structure or guide for how to behave morally.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Prayer is defined as ________ between the worshipper and the object of worship.",
+      options: ["an argument", "communication", "a business deal", "a secret"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Prayer is the primary way worshippers talk to and hear from God.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of these is a similarity in prayer among the three major religions?",
+      options: [
+        "They all use a prayer mat",
+        "They all pour libation",
+        "They all use prayer to give thanks",
+        "They all pray facing the East",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "All three religions use prayer as a means of expressing gratitude to the Divine.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Friday congregational prayer in Islam is called:",
+      options: ["Zuhr", "Jumu'ah", "Asr", "Isha"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Jumu'ah is the obligatory Friday afternoon prayer that replaces Zuhr.",
+    ),
+
+    QuizQuestion(
+      question: "4. In Christianity, a prayer of \"Confession\" is used to:",
+      options: [
+        "Ask for more money",
+        "Ask for forgiveness for sins",
+        "Pray for the sick",
+        "Praise God's greatness",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Confession is the act of admitting sins to God to receive forgiveness.",
+    ),
+
+    QuizQuestion(
+      question: "5. Traditional worshippers believe prayer can be used to:",
+      options: [
+        "Only talk to themselves",
+        "Invoke curses on enemies or seek blessings",
+        "Avoid doing any work",
+        "Only pray on Sundays",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional prayer can involve both seeking blessings for loved ones and protection against enemies.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which Islamic prayer is performed during an eclipse of the sun?",
+      options: [
+        "Salat-al-Kusuf",
+        "Salat-al-Khusuf",
+        "Salat-al-Istisqa",
+        "Salat-al-Janazah",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Salat-al-Kusuf is a special prayer offered during a solar eclipse.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does prayer help in \"spiritual growth\"?",
+      options: [
+        "It makes a person grow taller",
+        "It helps a person become more like their Creator",
+        "It gives a person more physical strength",
+        "It helps a person win at sports",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Through prayer, believers align their character with the values of their faith.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the \"Adhan\" in Islam?",
+      options: [
+        "The end of the prayer",
+        "The call to prayer",
+        "The washing ritual",
+        "The Friday sermon",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Adhan is the call made by the Muezzin to assemble Muslims for prayer.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which posture in Salat signifies the end of the worship?",
+      options: ["Takbir", "Ruku'u", "Salam", "Sajda"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "The Salam (turning the head right and left) is the final act of the formal prayer.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Prayer helps a believer to feel ________ against evil forces.",
+      options: ["afraid", "secured and protected", "confused", "lonely"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "One significance of prayer is providing a sense of divine protection.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Music that expresses the belief of worshippers and their dependence on God is called?",
+      options: ["Highlife", "Social music", "Religious songs", "Pop songs"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "This is the core definition of a religious song.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Non-religious songs are primarily used for which of the following?",
+      options: [
+        "Worshipping the Supreme Being",
+        "Entertainment and education",
+        "Praying for rain",
+        "Reciting scripture",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "They serve social purposes like entertainment.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which song is an example of an Islamic religious song?",
+      options: ["One Corner", "Alhamdulillah", "Ghana Mbaa", "Iron Boy"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Alhamdulillah is a song of praise to Allah.",
+    ),
+
+    QuizQuestion(
+      question: "4. Non-religious songs focus on:",
+      options: [
+        "Salvation",
+        "The Holy Spirit",
+        "Social and political matters",
+        "Divine attributes",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "These songs reflect human society rather than divinity.",
+    ),
+
+    QuizQuestion(
+      question: "5. Religious songs are said to give ____ to the hopeless.",
+      options: ["Money", "Hope", "Food", "Problems"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Religious music provides spiritual encouragement.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"Abin wa ha\" is classified as what type of song?",
+      options: [
+        "Christian song",
+        "Islamic song",
+        "Traditional religious song",
+        "Non-religious song",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "This is a social song listed as non-religious.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a common theme in Christian religious songs?",
+      options: [
+        "Praising Jesus Christ",
+        "Discussing the national budget",
+        "Criticizing neighbors",
+        "Selling products",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Christian songs often focus on Jesus and God.",
+    ),
+
+    QuizQuestion(
+      question: "8. Unlike non-religious songs, religious songs seek to:",
+      options: [
+        "Please a specific group of people",
+        "Show the mood of the person",
+        "Praise and worship God",
+        "Report the news",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The primary goal of religious music is worship.",
+    ),
+
+    QuizQuestion(
+      question: "9. Traditional religious songs might be sung during:",
+      options: [
+        "A football match",
+        "Pouring of libation or worship",
+        "Watching a movie",
+        "A shopping trip",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "These songs are part of traditional worship acts.",
+    ),
+
+    QuizQuestion(
+      question: "10. A song used to communicate with Allah or the gods is:",
+      options: ["Secular", "Non-religious", "Religious", "Political"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Communication with the Divine is the essence of religious songs.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a major Christian recitation?",
+      options: [
+        "Al-Fatihah",
+        "The Lord’s Prayer",
+        "A Ga proverb",
+        "Kitabullah",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The Lord's Prayer is the central recitation for Christians.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Surah 112, which says \"He is God, the One,\" is also known as:",
+      options: ["Al-Fil", "Al-Ikhlas", "Al-Fatihah", "Al-Baqarah"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Surah Al-Ikhlas emphasizes the oneness of God.",
+    ),
+
+    QuizQuestion(
+      question: "3. Oral traditions in Traditional religion are primarily:",
+      options: [
+        "Written in Latin",
+        "Passed down by word of mouth",
+        "Only for chiefs",
+        "Sung in English",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "They are passed from generation to generation orally.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. The proverb \"A crab does not beget a bird\" is from which Ghanaian language?",
+      options: ["Ewe", "Dagaari", "Ga", "Dagbani"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This is a common Ga proverb about heritage.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Where do Christians find the recitations they use for worship?",
+      options: [
+        "The Qur'an",
+        "The Bible",
+        "The Oral traditions",
+        "The School textbooks",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The Bible is the source of Christian sacred text.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What does the Akan proverb \"One head does not hold council\" teach?",
+      options: [
+        "To be lonely",
+        "The importance of cooperation",
+        "To have a big head",
+        "To ignore advice",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It teaches that teamwork and consultation are necessary.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which religious group recites the Ten Commandments?",
+      options: ["Muslims", "Christians", "Traditionalists", "Buddhists"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The Ten Commandments are a core Biblical recitation for Christians.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. \"Naazorabataa bin\" is a proverb from which Northern Ghanaian group?",
+      options: ["Akan", "Ewe", "Dagaari", "Ga"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This is a Dagaari proverb about consistency.",
+    ),
+
+    QuizQuestion(
+      question: "9. The first chapter of the Qur'an recited by Muslims is:",
+      options: ["Surah 105", "Al-Ikhlas", "Al-Fatihah", "The Lord's Prayer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Al-Fatihah is known as \"The Opening.\"",
+    ),
+
+    QuizQuestion(
+      question: "10. Oral traditions include which of the following?",
+      options: [
+        "Only music",
+        "Myths, folktales, and proverbs",
+        "Written laws only",
+        "Modern news",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "These are the various forms that oral traditions take.",
+    ),
+  ],
+);
+final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which value is expressed when we acknowledge that God is more powerful than humans?",
+      options: ["Pride", "Humility", "Wealth", "Anger"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Humility involves recognizing a higher power and not being arrogant.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. The Islamic song \"Alhamdulillah\" primarily teaches believers to be:",
+      options: ["Rich", "Grateful", "Famous", "Fast"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The song is a repeated expression of thanks to Allah.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which value helps a student stay focused on their studies despite challenges?",
+      options: ["Greed", "Perseverance", "Laziness", "Cruelty"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Perseverance is the act of persisting through difficulties.",
+    ),
+
+    QuizQuestion(
+      question: "4. The proverb \"One (bad) nut spoils all\" warns us about:",
+      options: ["Cooking", "Bad influence/Conduct", "Farming", "Selling nuts"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It teaches that one person's bad behavior can affect the whole group.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Christian songs often teach \"Love your neighbour.\" This is a value of:",
+      options: ["Kindness", "Hatred", "Business", "Sports"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Loving others is the foundation of kindness and brotherly love.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Being sincere and telling the truth at all times is the moral value of:",
+      options: ["Contentment", "Honesty", "Humility", "Patience"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Honesty is defined as being sincere and avoiding lies.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a moral significance of religious songs?",
+      options: [
+        "They make people rich",
+        "They provide motivation and hope",
+        "They help people sleep",
+        "They win football matches",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Religious songs motivate believers to trust God and stay hopeful.",
+    ),
+
+    QuizQuestion(
+      question: "8. Contentment teaches us to avoid:",
+      options: ["Prayer", "Greed and selfishness", "Reading", "Singing"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Contentment is being satisfied so that you do not covet what belongs to others.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. What moral value is shown when a person waits calmly for their turn in a queue?",
+      options: ["Honesty", "Patience", "Bravery", "Wisdom"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Patience is the ability to exercise restraint and not rush.",
+    ),
+
+    QuizQuestion(
+      question: "10. Religious recitations teach us that the Supreme Being is:",
+      options: [
+        "Not important",
+        "The source of all wisdom and power",
+        "A human being",
+        "Only for adults",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Recitations acknowledge the supremacy and power of God.",
+    ),
+  ],
+);
+
+final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the basic unit of society?",
+      options: ["The School", "The Market", "The Family", "The Church"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The family is the fundamental social unit that builds the community.",
+    ),
+
+    QuizQuestion(
+      question: "2. The nuclear family is made up of...",
+      options: [
+        "Grandparents and cousins.",
+        "Parents and their children.",
+        "Uncles and aunties.",
+        "Friends and neighbors.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The nuclear family is the small unit of parents and children.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In the extended family, who is often the head of the family in many Ghanaian cultures?",
+      options: [
+        "The youngest child",
+        "The family head or Abusuapanin",
+        "A family friend",
+        "The local shopkeeper",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended families are often headed by an elder like the Abusuapanin.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which is a demerit of the extended family system?",
+      options: [
+        "It promotes effective supervision of children.",
+        "It can encourage laziness in some members.",
+        "It is very small.",
+        "It provides security.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Relying on many relatives can sometimes lead to laziness.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A child who is legally taken in and cared for as a family member is related by...",
+      options: ["Marriage", "Blood", "Adoption", "Errands"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Adoption is a legal way to become part of a family.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which system allows for more privacy?",
+      options: [
+        "Extended family",
+        "Nuclear family",
+        "Community system",
+        "Large family",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Smaller nuclear families generally have more privacy.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does an extended family help during a naming ceremony?",
+      options: [
+        "They stay away to give privacy.",
+        "They pool resources and provide support.",
+        "They only watch from a distance.",
+        "They do not participate.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended families help each other during important events like ceremonies.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these describes a merit of the nuclear family?",
+      options: [
+        "There is a lack of support if parents die.",
+        "It is easier to provide for the family's needs.",
+        "It is prone to interference from relatives.",
+        "It promotes the sharing of property among many people.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "With fewer members, it is often easier for parents to meet basic needs.",
+    ),
+
+    QuizQuestion(
+      question: "9. The term \"Extended Family\" includes...",
+      options: [
+        "Only siblings.",
+        "Only your best friends.",
+        "Relatives from both maternal and paternal sides.",
+        "Only your classmates.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The extended family covers all relatives from both parents' sides.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is effective supervision easier in a nuclear family?",
+      options: [
+        "Because the family is very large.",
+        "Because there are fewer children to monitor.",
+        "Because aunties are always around.",
+        "Because children don't go to school.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Fewer children allow parents to keep a closer eye on them.",
+    ),
+  ],
+);
+final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Provision of 'basic needs' means providing:",
+      options: [
+        "Toys and games only.",
+        "Food, clothing, and shelter.",
+        "Mobile phones for everyone.",
+        "Cinema tickets.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Basic needs are the essentials required for survival.",
+    ),
+
+    QuizQuestion(
+      question: "2. Children help their mothers by:",
+      options: [
+        "Paying the electricity bills.",
+        "Running errands and helping with cooking.",
+        "Deciding which house to buy.",
+        "Working as the head of the family.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Errand running is a key duty for children.",
+    ),
+
+    QuizQuestion(
+      question: "3. An 'Abusuapanin' or family head is responsible for:",
+      options: [
+        "Doing the children's homework.",
+        "Leading and making decisions for the extended family.",
+        "Cleaning the local school.",
+        "Buying clothes for neighbors.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The family head leads the larger extended family group.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which is a role of a mother in a typical Ghanaian home?",
+      options: [
+        "Keeping the house neat and decent.",
+        "Refusing to cook for the family.",
+        "Ignoring the children's health.",
+        "Only watching television.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mothers often take charge of household management and neatness.",
+    ),
+
+    QuizQuestion(
+      question: "5. When grandparents act as 'nannies', they are:",
+      options: [
+        "Learning how to go to school.",
+        "Helping to take care of their grandchildren.",
+        "Working at a bank.",
+        "Selling items at the market.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Grandparents often provide childcare support.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is the result of parents failing to provide for their children?",
+      options: [
+        "The children will be very successful.",
+        "The children may suffer and lack basic necessities.",
+        "The community will be happy.",
+        "Nothing will happen.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Neglect of parental roles leads to hardship for children.",
+    ),
+
+    QuizQuestion(
+      question: "7. A father shows commitment by:",
+      options: [
+        "Spending all his money on himself.",
+        "Providing financial and material needs for the family.",
+        "Leaving all the work to the children.",
+        "Not talking to the family members.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Fathers are typically expected to be the main providers.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Teaching children how to pray or read holy books is a role of:",
+      options: [
+        "Only the children themselves.",
+        "Only people on the internet.",
+        "The local bread seller.",
+        "Parents and elders.",
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Moral and religious training is a parental duty.",
+    ),
+
+    QuizQuestion(
+      question: "9. Helping younger siblings with their studies is a role for:",
+      options: [
+        "The baby of the house.",
+        "Only the teacher.",
+        "Strangers.",
+        "Older children in the family.",
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "Older siblings are expected to help care for and guide younger ones.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why are roles important in a family?",
+      options: [
+        "To make sure some people do all the work.",
+        "To ensure peace, order, and the well-being of all members.",
+        "To see who is the strongest.",
+        "To make the children tired.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Clear roles help the family function effectively and stay united.",
+    ),
+  ],
+);
+final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which behavior involves accepting other people's views and mistakes?",
+      options: ["Pride", "Tolerance", "Greed", "Stubbornness"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Tolerance involves respecting other people’s views and accepting their imperfections.",
+    ),
+
+    QuizQuestion(
+      question: "2. A \"Sense of Belonging\" means a family member feels:",
+      options: [
+        "Like a stranger in the house.",
+        "Happy to be part of a group that is reliable and supportive.",
+        "That they should live alone.",
+        "That they are better than everyone else.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "A healthy family makes members feel they belong to a group they can rely on.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is NOT a factor that promotes good family relationships?",
+      options: [
+        "Forgiveness",
+        "Transparency",
+        "False Accusations",
+        "Appreciation",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "False accusations lead to suspicion and destroy trust.",
+    ),
+
+    QuizQuestion(
+      question: "4. Self-examination helps an individual to:",
+      options: [
+        "Become more boastful.",
+        "Get more money from parents.",
+        "Find ways to blame others.",
+        "Avoid repeating past mistakes.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Looking at our own actions helps us learn and avoid the same errors.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. When family members relate well, they can pool resources for a project. This is called:",
+      options: [
+        "Procreation",
+        "Intervention",
+        "Self-centeredness",
+        "Resource mobilization",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A united family can easily bring resources together for the family's progress.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Why should we avoid third-party intervention in family matters?",
+      options: [
+        "Because outsiders always have the best advice.",
+        "To prevent unnecessary consultations and keep family matters private.",
+        "Because we don't want to talk to anyone.",
+        "To make the problem bigger.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Resolving issues internally helps maintain privacy and avoid unnecessary interference.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does \"Appreciation\" help a family?",
+      options: [
+        "It makes members feel valued and encourages them to do more good.",
+        "It makes members feel lazy.",
+        "It causes arguments over who is better.",
+        "It costs too much money.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Saying 'thank you' and showing kindness promotes healthy relationships.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Unity of Purpose\" in a family results in:",
+      options: [
+        "Everyone doing their own thing.",
+        "Members working together to achieve a common goal.",
+        "More conflicts and misunderstandings.",
+        "The family becoming poor.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Unity of purpose means there is no division in the family's goals.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. The phrase \"Taking full responsibility for one's actions\" means:",
+      options: [
+        "Running away when you make a mistake.",
+        "Owning up to what you did and accepting the consequences.",
+        "Asking your brother to take the blame for you.",
+        "Denying everything until people stop asking.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Responsibility is a key part of self-examination and mature behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. A peaceful family contributes to the nation of Ghana by:",
+      options: [
+        "Producing responsible and law-abiding citizens.",
+        "Making everyone live in the same house.",
+        "Preventing people from working.",
+        "Creating more markets.",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Healthy families build the character of individuals who contribute to a peaceful nation.",
+    ),
+  ],
+);
+
+final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In which town was Jesus Christ born?",
+      options: ["Nazareth", "Bethlehem", "Galilee", "Jerusalem"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Jesus was born in Bethlehem of Judea during the reign of King Herod.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. What was the name of the cave where Muhammad received his first revelation?",
+      options: ["Hira", "Sinai", "Gethsemane", "Toha"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Muhammad was meditating in Cave Hira when he received his call.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which indigenous leader was born with cowry shells in his hands?",
+      options: ["Togbe Tsali", "Toha Zie", "Okomfo Anokye", "Tweneboa Kodua"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Okomfo Anokye was born with bundles of cowry shells around his wrists and ankles.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. How many days did Jesus fast in the desert during his temptation?",
+      options: ["7", "12", "30", "40"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Jesus fasted for 40 days and nights in the desert.",
+    ),
+
+    QuizQuestion(
+      question: "5. What title was given to Muhammad because of his honesty?",
+      options: ["Al-Sadiq", "Al-Amin", "Khalifa", "Imam"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Muhammad was called Al-Amin, which means the Trustworthy One.",
+    ),
+
+    QuizQuestion(
+      question: "6. Toha Zie is a legendary leader from which part of Ghana?",
+      options: [
+        "Southern Ghana",
+        "Eastern Region",
+        "Northern Ghana",
+        "Fante land",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Toha Zie was a very important leader among the people of Northern Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. Who was the mother of Jesus Christ?",
+      options: ["Amina", "Elizabeth", "Mary", "Khadijah"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Mary was the mother of Jesus Christ.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which angel appeared to Muhammad in Cave Hira?",
+      options: ["Gabriel (Jibril)", "Michael", "Raphael", "Uriel"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Angel Jibril brought the first revelation to Prophet Muhammad.",
+    ),
+
+    QuizQuestion(
+      question: "9. On which day of the week was Okomfo Anokye born?",
+      options: ["Friday", "Sunday", "Saturday", "Monday"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Okomfo Anokye was born on a Saturday in the 1660s.",
+    ),
+
+    QuizQuestion(
+      question: "10. What was the first temptation of Jesus by the devil?",
+      options: [
+        "To jump from a high building",
+        "To turn stones into bread",
+        "To worship the devil",
+        "To become a king",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "The devil first asked Jesus to turn stones into bread because He was hungry.",
+    ),
+  ],
+);
+final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the word \"Parable\" mean?",
+      options: [
+        "A long law",
+        "A short story with a moral lesson",
+        "A powerful miracle",
+        "A type of prayer",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "A parable uses earthly stories to explain heavenly or moral meanings.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which miracle did Jesus perform at a wedding in Cana?",
+      options: [
+        "Healed a blind man",
+        "Calmed a storm",
+        "Turned water into wine",
+        "Walked on water",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This was the first miracle Jesus performed during his earthly ministry.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. According to Prophet Muhammad's Farewell Sermon, what makes one person superior to another?",
+      options: ["Wealth", "Race", "Piety and good action", "Political power"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "He taught that equality is key and only righteousness (piety) sets people apart.",
+    ),
+
+    QuizQuestion(
+      question: "4. How did Togbe Tsali trick the enemies of the Anlo people?",
+      options: [
+        "He called down fire",
+        "He turned footprints backwards",
+        "He built a giant wall",
+        "He gave them gold",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "By turning footprints backwards, he confused the enemies about which direction his people fled.",
+    ),
+
+    QuizQuestion(
+      question: "5. Who helped Jesus carry the cross to Golgotha?",
+      options: [
+        "Joseph of Arimathea",
+        "Simon Peter",
+        "Simon of Cyrene",
+        "John the Baptist",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Simon of Cyrene was ordered to help Jesus carry the heavy cross.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. The Abohaa festival is celebrated by the Fantes to honor who?",
+      options: ["Okomfo Anokye", "Egya Ahor", "Toha Zie", "T.S. Eliot"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Abohaa commemorates the selfless sacrifice of Egya Ahor to save the people.",
+    ),
+
+    QuizQuestion(
+      question: "7. What was the \"Triumphant Entry\" of Jesus?",
+      options: [
+        "When he entered Jerusalem on a colt",
+        "When he was born in Bethlehem",
+        "When he rose from the dead",
+        "When he was baptized",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Jesus rode into Jerusalem on a donkey as the people waved palm branches.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which book in the Bible contains the Sermon on the Mount?",
+      options: ["Genesis", "Matthew", "Exodus", "Revelation"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "The teachings of the Sermon on the Mount are found in Matthew chapters 5 to 7.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the \"Last Supper\" important in Jesus's ministry?",
+      options: [
+        "It was his first meal as a leader",
+        "It was the meal before he went to the cross",
+        "It was a miracle where he fed 5000",
+        "It was a wedding feast",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "During this meal, Jesus instituted the bread and wine as symbols of his body and blood.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Toha Zie saved his people by killing a beast at which location?",
+      options: [
+        "A mountain top",
+        "A deep cave",
+        "A water pond",
+        "A king's palace",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "He defeated a beast that was preventing the villagers from getting water.",
+    ),
+  ],
+);
+final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What moral lesson do we learn from Jesus forgiving those who crucified Him?",
+      options: [
+        "We should always fight back.",
+        "We should forgive those who wrong us.",
+        "We should ignore our enemies.",
+        "We should seek help from the police.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Jesus's prayer on the cross is a ultimate example of forgiving enemies.",
+    ),
+
+    QuizQuestion(
+      question: "2. Prophet Muhammad's title \"Al-Sadiq\" means what?",
+      options: ["The Brave", "The Wealthy", "The Truthful", "The Fast"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Along with Al-Amin, he was called Al-Sadiq because of his truthfulness.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which Ghanaian leader is remembered for his \"Patriotism\" by sacrificing his life during the Asante-Denkyira war?",
+      options: ["Toha Zie", "Tweneboa Kodua", "Togbe Tsali", "Okomfo Anokye"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tweneboa Kodua's sacrifice led to the victory of his people.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does \"Humility\" mean in leadership?",
+      options: [
+        "Thinking you are better than everyone.",
+        "Using your power to command people.",
+        "Being modest and serving others.",
+        "Having the most expensive clothes.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Humility is shown when a leader puts the needs of others before their own status.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which indigenous leader showed \"Perseverance\" by helping his people escape King Agorkoli?",
+      options: ["Egya Ahor", "Togbe Tsali", "Toha Zie", "Okomfo Damoah"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Togbe Tsali used his powers persistently to lead his people to freedom.",
+    ),
+
+    QuizQuestion(
+      question: "6. Following the \"Golden Rule\" taught by Jesus means:",
+      options: [
+        "Keeping all the gold for yourself.",
+        "Treating others as you want to be treated.",
+        "Making sure you are always first.",
+        "Following only the richest people.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The Golden Rule is a core teaching on caring for other people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Muhammad's migration (Hijra) to Madinah teaches us the moral lesson of:",
+      options: [
+        "Giving up easily.",
+        "Endurance in the face of hardship.",
+        "Fighting everyone you meet.",
+        "Being afraid of enemies.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The migration required great endurance and faith during a difficult time.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. What can students learn from Okomfo Anokye’s role as an advisor to the King?",
+      options: [
+        "To always argue with elders.",
+        "To use their knowledge to help leaders.",
+        "To try and become the King.",
+        "To keep their ideas to themselves.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Anokye used his wisdom to provide meaningful advice for the nation's growth.",
+    ),
+
+    QuizQuestion(
+      question: "9. The life of Toha Zie teaches us to be:",
+      options: [
+        "Selfless in protecting our community.",
+        "Afraid of wild animals.",
+        "Angry with our neighbors.",
+        "Greedy with our food.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "He risked his life to ensure his community had access to water.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is \"Honesty\" important in a community?",
+      options: [
+        "It makes people fear you.",
+        "It builds trust between people.",
+        "It helps you get more money.",
+        "It makes you the most famous.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Honesty, as shown by the Prophet, is the foundation of trust in any society.",
+    ),
+  ],
+);
+
+final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Manners are behaviours that are ________ in a society.",
+      options: ["Desirable", "Forbidden", "Secret", "Dangerous"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Manners are desirable or acceptable behaviours.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a form of greeting common in Ghana?",
+      options: [
+        "Turning your back to an elder.",
+        "Removing your cap when greeting a chief.",
+        "Whistling loudly to get someone's attention.",
+        "Hiding when you see a family friend.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Removing a cap is a sign of respect during greeting in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "3. A child who shows comportment will...",
+      options: [
+        "Get angry and fight when teased.",
+        "Control their temper when provoked.",
+        "Cry loudly when they don't get their way.",
+        "Ignore their parents' instructions.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Controlling one's temper is a key part of comportment.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word describes being polite and showing respect?",
+      options: ["Courtesy", "Cruelty", "Curiosity", "Clumsiness"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Courtesy is defined as a polite way of showing respect.",
+    ),
+
+    QuizQuestion(
+      question: "5. Decent dressing involves considering...",
+      options: [
+        "Only how much the clothes cost.",
+        "If the clothes are from a foreign country.",
+        "The occasion and the culture of the people.",
+        "If the clothes are the brightest colour available.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Occasion and culture are key factors to consider in decent dressing.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is an example of \"Bad Manners\"?",
+      options: [
+        "Murmuring and complaining when asked to do a chore.",
+        "Sharing your snack with a hungry friend.",
+        "Waiting for your turn at the school borehole.",
+        "Offering your seat to a pregnant woman on a bus.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Murmuring and complaining is an example of bad manners.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Why is it important to say \"Thank you\" after being served?",
+      options: [
+        "To show that you are very hungry.",
+        "To show appreciation and good training.",
+        "To make the person give you more food.",
+        "To show that you are better than the server.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Saying \"Thank you\" shows appreciation and decency.",
+    ),
+
+    QuizQuestion(
+      question: "8. When is it most important to show comportment?",
+      options: [
+        "Only when you are alone in your room.",
+        "At social gatherings like funerals and festivals.",
+        "When you are sleeping at night.",
+        "When you are playing a video game by yourself.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Comportment should be shown at social gatherings and in public.",
+    ),
+
+    QuizQuestion(
+      question: "9. Honesty and humility are examples of...",
+      options: ["Bad manners", "Pride", "Indiscipline", "Decency"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Decency includes qualities like honesty and humility.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which action brings \"displeasure\" to society?",
+      options: [
+        "Greeting elders respectfully.",
+        "Helping a blind person cross the road.",
+        "Dressing modestly for church.",
+        "Gossiping about other people.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Gossiping is listed as a bad manner that is undesirable in society.",
+    ),
+  ],
+);
+final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Greetings are important in Ghana because they...",
+      options: [
+        "Open up conversations and build friendships.",
+        "Help identify who is the richest.",
+        "Are only for people we know well.",
+        "Prove that we are better than others.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Greetings are a way to start conversations and build unity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is a \"moral benefit\" of showing good manners?",
+      options: [
+        "Attracting blessings from God.",
+        "Receiving a cash prize every day.",
+        "Getting out of doing house chores.",
+        "Being allowed to break school rules.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Good manners are often seen as a religious requirement that brings blessings.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Before dressing for an event, you should primarily consider the...",
+      options: [
+        "Cost of the fabric.",
+        "Occasion and the audience.",
+        "Weather in a different country.",
+        "Brightness of the lights.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Occasion and audience are key factors in decent dressing.",
+    ),
+
+    QuizQuestion(
+      question: "4. Removing your hat when greeting an elder is an act of...",
+      options: ["Fear.", "Confusion.", "Laziness.", "Good manners."],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Removing a cap shows respect and training.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A person who comports themselves well is often trusted with...",
+      options: [
+        "Punishing others.",
+        "Avoiding their duties.",
+        "Breaking the law.",
+        "Leadership positions.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Comportment leads society to entrust individuals with responsibility.",
+    ),
+
+    QuizQuestion(
+      question: "6. Using the left hand to greet a Chief is considered...",
+      options: [
+        "Modern and trendy.",
+        "Highly disrespectful.",
+        "A sign of great courage.",
+        "Acceptable if you are tired.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The left hand is traditionally not used for greetings in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does decency help a student in school?",
+      options: [
+        "It makes them the most popular bully.",
+        "It makes teachers and peers respect them.",
+        "It allows them to skip classes.",
+        "It ensures they never have to study.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Decent behaviour attracts respect and goodwill.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a factor to consider when greeting?",
+      options: [
+        "The age of the person.",
+        "The colour of the person's car.",
+        "The size of the person's house.",
+        "The person's favourite food.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Age is a primary factor in determining the level of respect in a greeting.",
+    ),
+
+    QuizQuestion(
+      question: "9. Decent dressing can help prevent...",
+      options: [
+        "Passing your exams.",
+        "Social embarrassment and abuse.",
+        "Growing taller.",
+        "Making new friends.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dressing well protects one’s dignity and avoids negative attention.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Showing appreciation by saying \"Thank you\" is important because it...",
+      options: [
+        "Is a sign of weakness.",
+        "Shows you are well-brought-up.",
+        "Makes the other person feel bad.",
+        "Is only for small children.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Appreciation is a sign of good training and decency.",
+    ),
+  ],
+);
+final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Chastity is the abstinence from sex before...",
+      options: ["Marriage.", "Graduation.", "Employment.", "Puberty."],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "In Ghanaian society and religion, chastity refers to abstinence until marriage.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which factor can often lead a young person into \"immoral behaviour\"?",
+      options: [
+        "Influence from bad peers or friends.",
+        "Listening to a parent's advice.",
+        "Studying hard for an RME test.",
+        "Attending a religious service.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Peer influence is a common cause of immorality.",
+    ),
+
+    QuizQuestion(
+      question: "3. A chaste person is safe from...",
+      options: [
+        "Unwanted pregnancies.",
+        "Doing homework.",
+        "Rainy weather.",
+        "Growing older.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Abstinence is the only 100% way to prevent unwanted pregnancy.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the meaning of \"immorality\"?",
+      options: [
+        "Being very smart in school.",
+        "The inability to follow acceptable moral standards.",
+        "Helping the elderly cross the road.",
+        "Dressing neatly for a festival.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Immorality is acting contrary to the accepted norms of society.",
+    ),
+
+    QuizQuestion(
+      question: "5. To remain chaste, one should avoid watching...",
+      options: [
+        "Educational documentaries.",
+        "News about Ghana.",
+        "Pornographic materials.",
+        "Football matches.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Such materials can destroy good moral values.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which of these is a \"health problem\" caused by immoral behavior?",
+      options: [
+        "Strong muscles.",
+        "HIV/AIDS.",
+        "Better eyesight.",
+        "Improved memory.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Immoral sexual behaviour exposes one to STDs and HIV.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Who should you seek knowledge from to stay pure and chaste?",
+      options: [
+        "People who show bad manners.",
+        "Religious leaders and parents.",
+        "Strangers at the lorry station.",
+        "Movies that show violence.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Religious and family guidance is key to a chaste life.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. One importance of living a chaste life is that you remain ______ and holy.",
+      options: ["Angry.", "Pure.", "Famous.", "Wealthy."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Chastity is often viewed as a spiritual requirement for purity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Teen pregnancy often leads to \"school drop-out.\" This is an effect of...",
+      options: ["Chastity.", "Immorality.", "Decency.", "Courtesy."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Immoral behavior often results in interrupted education.",
+    ),
+
+    QuizQuestion(
+      question: "10. A \"good name\" is better than...",
+      options: ["Riches.", "Manners.", "Health.", "Family."],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "This Ghanaian proverb emphasizes that your reputation is your most valuable asset.",
+    ),
+  ],
+);
+final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which religion traditionally expects adolescents to refrain from sex until after puberty rites?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Buddhism",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This is a traditional Ghanaian practice linked to IAR.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Qur'an 25:63 encourages believers to be ______ even in their walking.",
+      options: ["Fast", "Humble", "Loud", "Proud"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Qur'an teaches humility in all actions, including walking.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The Christian Bible warns against \"adultery\" in which book?",
+      options: ["Titus", "Matthew", "Exodus", "Corinthians"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The commandment \"Thou shalt not commit adultery\" is in Exodus 20:14.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Tasty soup draws seat\" is a proverb teaching that...",
+      options: [
+        "You should eat a lot.",
+        "Good behavior draws people to you.",
+        "You should be a good cook.",
+        "Sitting is better than standing.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "This IAR proverb means that good character makes people want to be near you.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Christian women are specifically taught to dress in a ______ way.",
+      options: ["Expensive", "Modest", "Flashy", "Foreign"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "1 Timothy 2:9-10 emphasizes modesty in dressing.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which religion teaches that \"Whatever a man sows, that he reaps\"?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "All of the above (Note: While present in others, IAR uses it for social guidance)",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This is used in IAR to teach that actions have consequences.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Muslims are warned against ______ and ridiculing others in Qur'an 49:11.",
+      options: ["Helping", "Insulting", "Greeting", "Forgiving"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Insulting others is considered bad manners in Islam.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. The Bible verse 1 Corinthians 6:18 tells Christians to \"flee from\" what?",
+      options: [
+        "Sexual immorality.",
+        "Their enemies.",
+        "Hard work.",
+        "Their parents.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "This verse is a key teaching on chastity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Traditional believers are taught that \"God hates ______\".",
+      options: ["Evil.", "Poverty.", "Wealth.", "Laughter."],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "This is a core moral teaching in Indigenous African Religion.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important source of morality in Islam?",
+      options: [
+        "The Newspaper.",
+        "The Qur'an.",
+        "The School Rules.",
+        "The Internet.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The Qur'an is the primary guide for Muslim life and morals.",
+    ),
+  ],
+);
+
+final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Substance abuse is also known as:",
+      options: ["Drug therapy", "Drug abuse", "Medication", "Pharmacy"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Substance abuse and drug abuse are used interchangeably to mean the misuse of substances.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is NOT a cause of substance abuse?",
+      options: [
+        "Curiosity",
+        "Peer influence",
+        "Following medical advice",
+        "Lack of self-control",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Following medical advice is the correct way to use drugs, not a cause of abuse.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Substances that increase body activity and alertness are called:",
+      options: ["Sedatives", "Vaccines", "Antibiotics", "Stimulants"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Stimulants affect the central nervous system to increase alertness.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Taking 5 tablets of a painkiller instead of the 2 prescribed by a doctor is:",
+      options: [
+        "Smart thinking",
+        "Substance abuse",
+        "Faster healing",
+        "Good health practice",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Excessive use of drugs beyond the prescription is substance abuse.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which of the following is a legal sedative used in some Ghanaian communities?",
+      options: ["Cocaine", "Marijuana", "Heroin", "Pito"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pito and palm wine are local sedatives mentioned in the text.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do some students use drugs due to 'Ignorance'?",
+      options: [
+        "They are too rich",
+        "They don't know the harmful effects",
+        "They want to rebel against teachers",
+        "They are following a doctor's order",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ignorance means a lack of information about the dangers involved.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A drug used to relax the nerves and help a person sleep is a:",
+      options: ["Stimulant", "Sedative", "Hard drug", "Common drug"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sedatives have calming or soothing effects.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Wee' is a local Ghanaian name for:",
+      options: ["Tobacco", "Alcohol", "Marijuana", "Coffee"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Marijuana is locally referred to as 'wee' or 'ganja'.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is a common drug?",
+      options: ["Heroin", "Cocaine", "Vitamin B Complex", "Tramadol"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Vitamin B Complex is a common legal medicine.",
+    ),
+
+    QuizQuestion(
+      question: "10. Media advertisements can lead to substance abuse by:",
+      options: [
+        "Warning people about diseases",
+        "Making drug use look appealing",
+        "Teaching students how to pray",
+        "Showing the prices of food",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Persuasive adverts can make substances like alcohol seem attractive to the youth.",
+    ),
+  ],
+);
+final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which organ is most likely to be damaged by heart-related diseases due to drug abuse?",
+      options: ["Stomach", "Ears", "Skin", "Heart"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Substance abuse is a direct cause of heart-related diseases.",
+    ),
+
+    QuizQuestion(
+      question: "2. A person who abuses drugs is likely to show:",
+      options: [
+        "Increased politeness",
+        "Improved self-control",
+        "Better grades in RME",
+        "Disrespect for authority",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Behavioral changes include rebellion and disrespect.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What is the effect of substance abuse on a person's vision?",
+      options: [
+        "It makes it sharper",
+        "It causes poor vision",
+        "It has no effect",
+        "It helps them see in the dark",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Poor vision is a physical consequence of drug abuse.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Stigmatization\" in society means being:",
+      options: [
+        "Honoured",
+        "Treated with disrespect or shame",
+        "Promoted",
+        "Given a gift",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Abusers often face social shame and ridicule.",
+    ),
+
+    QuizQuestion(
+      question: "5. How does drug abuse affect national development?",
+      options: [
+        "It builds more schools",
+        "It reduces productive manpower",
+        "It makes the streets safer",
+        "It helps the economy grow",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A drugged youth cannot contribute effectively to building the nation.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which of the following is a behavioral effect of drug addiction?",
+      options: [
+        "Truthfulness",
+        "Regular sleep patterns",
+        "Addiction and loss of control",
+        "Punctuality",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Addiction makes it difficult for the user to stop even when they want to.",
+    ),
+
+    QuizQuestion(
+      question: "7. Financial hardship caused by drugs can lead to:",
+      options: ["Poverty", "Savings", "Investment", "High salary"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Economic problems and hardship are direct results of spending money on substances.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Substance abuse can lead to 'abnormal behavior' because it:",
+      options: [
+        "Improves the brain",
+        "Blocks the ability to make sound judgment",
+        "Makes people more peaceful",
+        "Increases intelligence",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Drugs interfere with the brain’s ability to think clearly and make good decisions.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Lung cancer is most commonly associated with which type of substance abuse?",
+      options: [
+        "Taking too many vitamins",
+        "Smoking tobacco or marijuana",
+        "Drinking too much water",
+        "Eating too much food",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Smoking substances is a primary cause of lung cancer.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why do drug users often lose their friends?",
+      options: [
+        "Because they are too busy working",
+        "Because of poor relationships and bad behavior",
+        "Because they moved to a new city",
+        "Because they became too wealthy",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Changes in behavior often destroy social bonds.",
+    ),
+  ],
+);
+final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Proverbs 20:1 describes wine as a:",
+      options: ["Healer", "Mocker", "Teacher", "Blessing"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Bible warns that alcohol mocks those who use it.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which defensive skill involves managing your time properly?",
+      options: [
+        "Self-medication",
+        "Following a study timetable",
+        "Ignoring the news",
+        "Buying expired drugs",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A personal timetable helps students stay focused on goals rather than drugs.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The Qur'an (5:90-91) tells believers to stay away from intoxicants to:",
+      options: [
+        "Attain true success",
+        "Save money",
+        "Look younger",
+        "Win an argument",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Avoiding these sins is seen as the path to spiritual and life success.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. \"A man is called a drunkard when he misbehaves\" is a teaching from:",
+      options: [
+        "Science books",
+        "Indigenous African Religion",
+        "Foreign movies",
+        "Social media",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This is part of Ghanaian traditional moral lessons on temperance.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. What should you check before taking any common medicine at home?",
+      options: [
+        "The color of the bottle",
+        "The price tag",
+        "The expiry date",
+        "The name of the shop",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Using expired drugs is a form of substance abuse.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is an example of \"Bad Company\"?",
+      options: [
+        "Friends who study together at the library",
+        "Friends who encourage you to skip class and smoke",
+        "Friends who play football after school",
+        "Friends who attend church or mosque with you",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bad company influences you to engage in immoral or illegal acts.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. In 1 Corinthians 3:17, what does the Bible say happens to those who defile God's temple?",
+      options: [
+        "They will be given a reward",
+        "Nothing will happen",
+        "They will become famous",
+        "God will destroy them",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "This scripture emphasizes the severity of harming the body God created.",
+    ),
+
+    QuizQuestion(
+      question: "8. When you refuse drugs, you are showing the moral value of:",
+      options: ["Cowardice", "Laziness", "Greed", "Self-control"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Self-control is the ability to master your desires and say no to harm.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Why does Indigenous African Religion discourage \"drinking to drown sorrows\"?",
+      options: [
+        "Because pito is expensive",
+        "Because \"sorrow knows how to swim\"",
+        "Because it makes you too happy",
+        "Because water is better than pito",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "This means alcohol does not solve problems; the problems remain after the drink.",
+    ),
+
+    QuizQuestion(
+      question: "10. A \"Counsellor\" is someone who:",
+      options: [
+        "Sells drugs at the station",
+        "Gives professional advice and help",
+        "Forces you to do things",
+        "Only talks to adults",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Counselors are trusted individuals who help students navigate difficulties.",
+    ),
+  ],
+);
+
+final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Work is defined as an activity aimed at...",
+      options: [
+        "Only earning money",
+        "Producing something or achieving a result",
+        "Entertainment and play",
+        "Avoiding school chores",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Work is any physical or mental effort intended to produce a result.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a characteristic of entrepreneurship?",
+      options: [
+        "Waiting for a salary from the state",
+        "Setting up a new business",
+        "Doing household chores",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Setting up and controlling a new business is core to entrepreneurship.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Cleaning the gutters in your neighborhood during a communal labor day is...",
+      options: [
+        "School work",
+        "Occupational work",
+        "Community work",
+        "Domestic work",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Community work involves activities done for the benefit of the public.",
+    ),
+
+    QuizQuestion(
+      question: "4. Social security is often backed by...",
+      options: [
+        "Family promises",
+        "Individual savings only",
+        "Law",
+        "School rules",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Social security is often a programme backed by law to provide monetary assistance.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A teacher, a nurse, and a carpenter are all examples of what kind of work?",
+      options: ["Domestic", "Occupational", "Academic", "Religious"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Occupational work is done for livelihood or to earn a living.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Washing the dishes after a meal at home is an example of...",
+      options: [
+        "Domestic work",
+        "Community work",
+        "Religious work",
+        "Occupational work",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Chores within the home are classified as domestic work.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which term describes a person who identifies a business opportunity and takes a risk?",
+      options: ["Employee", "Entrepreneur", "Social worker", "Priest"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "An entrepreneur seizes opportunities and takes risks for profit.",
+    ),
+
+    QuizQuestion(
+      question: "8. Non-academic school work includes...",
+      options: [
+        "Writing an essay",
+        "Solving math problems",
+        "Weeding the school garden",
+        "Reading in the library",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Non-academic school work involves physical chores like cleaning or gardening.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is social security important?",
+      options: [
+        "It helps people start a business",
+        "It provides help during old age or sickness",
+        "It pays for daily groceries",
+        "It is used to pay school fees",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It provides income protection for old age, invalidity, or sickness.",
+    ),
+
+    QuizQuestion(
+      question: "10. Religious work is primarily performed by...",
+      options: [
+        "Business owners",
+        "Students",
+        "Clergy like Pastors and Imams",
+        "Government officials",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Religious work is the service provided by religious leaders and administrators.",
+    ),
+  ],
+);
+final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. One major reason humans work is to...",
+      options: [
+        "Win a lottery",
+        "Cater for basic needs like food and shelter",
+        "Avoid talking to neighbors",
+        "Become popular in the city",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Work enables us to earn income for our basic survival.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a negative attitude toward work?",
+      options: ["Commitment", "Punctuality", "Procrastination", "Honesty"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Procrastination (putting off work) is a negative work ethic.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The \"Parable of the Talents\" in the Bible teaches us to be...",
+      options: [
+        "Lazy with our gifts",
+        "Productive and dedicated to our work",
+        "Afraid of taking risks",
+        "Greedy with money",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The parable encourages using our talents and being dedicated to our tasks.",
+    ),
+
+    QuizQuestion(
+      question: "4. Hard work helps to reduce crime because...",
+      options: [
+        "Workers are too tired to move",
+        "It keeps people busy and productive",
+        "The government pays everyone the same",
+        "It makes everyone stay at home",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Busy, productive people are less likely to engage in social vices like robbery.",
+    ),
+
+    QuizQuestion(
+      question: "5. A positive attitude toward work includes...",
+      options: [
+        "Lateness",
+        "Reporting for work only when you feel like it",
+        "Being regular and avoiding absenteeism",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Regularity and avoiding absenteeism are key positive work ethics.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does Islam teach about hard work?",
+      options: [
+        "It is a waste of time",
+        "It is a form of worship",
+        "Only religious work is important",
+        "Begging is better than working",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Islamic teachings emphasize that honest labor is a spiritual duty.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which habit involves finishing your work within the stipulated time?",
+      options: [
+        "Honesty",
+        "Loyalty",
+        "Efficiency/Organizing time",
+        "Religious work",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Organizing and planning your activities ensures work is done on time.",
+    ),
+
+    QuizQuestion(
+      question: "8. Laziness at the workplace leads to...",
+      options: [
+        "High productivity",
+        "Promotion",
+        "Low productivity and poverty",
+        "Good health",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Negative attitudes like laziness result in failure and lack of progress.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. The Ghanaian proverb \"One achieves success by taking care of another person's work\" teaches...",
+      options: [
+        "To only work for yourself",
+        "Dedication even to work that isn't yours",
+        "To steal from your boss",
+        "To be lazy when the boss is away",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It teaches us to be dedicated to every task, even when working for others.",
+    ),
+
+    QuizQuestion(
+      question: "10. A person who is 'reliable' at work is someone who...",
+      options: [
+        "Can be trusted by others to do their job",
+        "Always tells lies",
+        "Sleeps at the workplace",
+        "Leaves work before closing time",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Reliability means others can rely on you to fulfill your responsibilities.",
+    ),
+  ],
+);
+final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The first step to becoming a successful entrepreneur is...",
+      options: [
+        "Hiring 100 people",
+        "Setting personal goals and a mission",
+        "Buying an expensive car",
+        "Going on a holiday",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Clearly defining goals and a mission is the starting point for a future business.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a way to get 'Capital'?",
+      options: [
+        "Sleeping at the workplace",
+        "Getting a loan from a bank",
+        "Studying for school exams",
+        "Avoiding the nature of business",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Capital can come from personal income, bank loans, or relatives.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does it mean to have a 'Mission' for your business?",
+      options: [
+        "Knowing how you plan to achieve your goals",
+        "Having a lot of money in the bank",
+        "Hiring your family members",
+        "Selling only to people you know",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A mission is the plan for how you intend to achieve your set goals or vision.",
+    ),
+
+    QuizQuestion(
+      question: "4. Marketing should be focused on which group?",
+      options: [
+        "The entrepreneur's friends only",
+        "The target audience",
+        "People who don't need the product",
+        "The government",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A marketing strategy must focus on the specific group of people likely to buy the product.",
+    ),
+
+    QuizQuestion(
+      question: "5. Innovation helps a business to...",
+      options: [
+        "Stay competitive and respond to changes",
+        "Pay less for raw materials",
+        "Close down early",
+        "Work without human resources",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Innovation allows a business to improve and respond to market changes.",
+    ),
+
+    QuizQuestion(
+      question: "6. Trusting your own skills and abilities is called...",
+      options: ["Human resources", "Self-belief", "Marketing", "Capital"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Self-belief is trusting in yourself and your skills.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Before starting, an entrepreneur should identify the 'Nature of business.' This means...",
+      options: [
+        "The type of field they will work in",
+        "The names of all their customers",
+        "The price of every item in Ghana",
+        "The location of the nearest school",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Identifying the nature of business means choosing the specific field or type of work to start.",
+    ),
+
+    QuizQuestion(
+      question: "8. Human resources are important because they...",
+      options: [
+        "Provide the money for the business",
+        "Make up the workforce of the company",
+        "Buy the products from the entrepreneur",
+        "Write the marketing strategy",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Human resources refers to the set of people who make up the workforce.",
+    ),
+
+    QuizQuestion(
+      question: "9. To be a risk-taker, an entrepreneur must...",
+      options: [
+        "Be afraid of uncertainty",
+        "Invest resources to produce something new",
+        "Always work for a boss",
+        "Only do domestic work",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Entrepreneurship involves taking risks and investing resources to create new products or methods for profit.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is a 'Target Audience'?",
+      options: [
+        "The people you hire to work",
+        "The people you want to sell your products to",
+        "The people who lend you money",
+        "The people who teach you in school",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The target audience is the specific group of people a business aims to reach with its products and marketing.",
+    ),
+  ],
+);
+final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Entrepreneurship allows a person to pursue their own...",
+      options: [
+        "Basic needs only",
+        "Vision and interest",
+        "Taxes",
+        "Social security",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "It allows one to do their own thing and pursue areas of interest.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Private businesses contribute to nation building primarily through...",
+      options: [
+        "Buying expensive tools",
+        "Paying taxes to the government",
+        "Hiring only relatives",
+        "Working on weekends",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Business taxes provide revenue for government projects.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of the following is an advantage of being your own boss?",
+      options: [
+        "You don't have to serve customers",
+        "You can take initiatives without being stopped",
+        "You never have to pay taxes",
+        "You don't need any skills",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Being the boss allows you to take initiatives freely.",
+    ),
+
+    QuizQuestion(
+      question: "4. Creating jobs for others helps the society by...",
+      options: [
+        "Increasing the number of shops",
+        "Reducing social vices like robbery",
+        "Making everyone an entrepreneur",
+        "Closing down schools",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Employment reduces the likelihood of people engaging in crime.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"Flexibility of time\" means an entrepreneur can...",
+      options: [
+        "Work only one hour a week",
+        "Choose to work earlier or later as they see fit",
+        "Arrive late to every meeting",
+        "Ignore their customers",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "It gives the owner more control over their daily schedule.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is the result of people patronizing an entrepreneur's products?",
+      options: [
+        "The entrepreneur feels a sense of pride",
+        "The entrepreneur loses money",
+        "The business must close down",
+        "The customers become the boss",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Seeing products being patronized brings joy and pride to the founder.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The tax paid on goods and services produced by a business is called...",
+      options: [
+        "V.A.T. (Value Added Tax)",
+        "Income Tax",
+        "Social Security",
+        "Personal Savings",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "VAT is a specific tax on goods and services that aids nation building.",
+    ),
+
+    QuizQuestion(
+      question: "8. Being a leader in a business involves...",
+      options: [
+        "Doing all the work alone",
+        "Deciding what employees will do",
+        "Avoiding all risks",
+        "Working only for religious reasons",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Leadership includes directing employees and the affairs of the business.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which of these is a personal (not social) benefit of entrepreneurship?",
+      options: [
+        "Helping in nation building",
+        "Freedom to pursue one's vision",
+        "Providing jobs to others",
+        "Paying taxes to the state",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Pursuing a personal vision is an individual benefit.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is taking initiative important for an entrepreneur?",
+      options: [
+        "It helps them wait for others to decide",
+        "It replaces the need for capital",
+        "It makes work slower",
+        "It allows them to act quickly to improve the business",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Initiative allows for quick, independent action to grow the business.",
+    ),
+  ],
+);
+
+///jhs2
+final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/RME JHS2 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. According to the Bible, the world was created in how many days?",
+      options: ["4 days", "5 days", "6 days", "7 days"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "God worked for six days and rested on the seventh.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which religion teaches that man was created in stages, starting from a sperm drop and a blood clot?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Buddhism",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Qur'an describes the systematic stages of human development.",
+    ),
+
+    QuizQuestion(
+      question: "3. In Akan traditional belief, who is the Creator?",
+      options: ["Mawu", "Nawuni", "Onyankopon", "Allah"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Onyankopon is the Akan name for the Supreme Creator.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Why does the Ewe myth say God uses the bodies of the dead to create new people?",
+      options: [
+        "Because clay became scarce",
+        "To make children look like parents",
+        "Because God moved to the sky",
+        "To protect them from evil spirits",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "The tradition says God used dead bodies because of a scarcity of clay.",
+    ),
+
+    QuizQuestion(
+      question: "5. On the first day of creation in the Bible, God commanded:",
+      options: [
+        "\"Let there be light\"",
+        "\"Let the dry land appear\"",
+        "\"Let there be fish\"",
+        "\"Let there be plants\"",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Light was the very first thing God created on Day One.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. According to the Dagomba myth, who acts as messengers between Nawuni and humans?",
+      options: [
+        "The Court Crier",
+        "Lesser gods (bola)",
+        "The Drummer",
+        "The Ancestors",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Nawuni created lesser gods (bola) to be intermediaries.",
+    ),
+
+    QuizQuestion(
+      question: "7. Muslims believe that humankind was created to:",
+      options: [
+        "Rule over the angels",
+        "Serve and worship Allah",
+        "Name all the animals",
+        "Build the first city",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The creation story teaches that man was created to serve and obey Allah.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the Christian story, Eve was created from Adam's:",
+      options: ["Hair", "Foot", "Rib", "Hand"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "God took a rib from Adam during a deep sleep to create Eve.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. According to the Akan myth, what was the last thing created?",
+      options: ["Plants", "Death", "Animals", "The Sky"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "The myth states that finally, God created Death as the end of life on earth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What do all three major religions in Ghana have in common regarding creation?",
+      options: [
+        "They all believe in multiple creators",
+        "They believe the world was created by chance",
+        "They believe there is only one God who created everything",
+        "They believe the world has no beginning",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "All three religions agree there is one Supreme Being who is the Creator.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/RME JHS2 S1 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which value teaches us to plan our schoolwork and follow a timetable?",
+      options: ["Creativity", "Giving", "Orderliness", "Patience"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Orderliness involves following a process and planning well.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. The Christian story teaches that after a hard day's work, an individual should:",
+      options: [
+        "Keep working through the night",
+        "Have enough rest",
+        "Go to a party",
+        "Start a new job immediately",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "God resting on the seventh day teaches the importance of rest after labor.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which religion specifically emphasizes that humankind was created to serve and worship the Creator?",
+      options: [
+        "Indigenous African Religion",
+        "Christianity",
+        "Islam",
+        "None of the above",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Islam teaches that the primary purpose of creation is to serve and obey Allah.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Creativity\" as a moral value from creation means:",
+      options: [
+        "Copying someone else's drawing",
+        "Inventing new things to solve problems",
+        "Buying new clothes",
+        "Watching television",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "God's creativity inspires us to be innovative and solve problems.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. In the Ewe tradition, God is seen as the \"Final Judge.\" This teaches us to:",
+      options: [
+        "Lead good lives",
+        "Be afraid of everyone",
+        "Never make decisions",
+        "Hide our actions",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Knowing God will judge our deeds encourages us to live righteously.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which value is shown when a farmer shares his harvest with the poor, based on the belief that God is a provider?",
+      options: ["Hard work", "Giving", "Orderliness", "Intelligence"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Sharing reflects the attribute of God as a generous provider.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The Akan belief in God as \"Oboadee\" (Creator) who is still creating encourages humans to be:",
+      options: ["Lazy", "Destructive", "Creative and innovative", "Quiet"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Since God is still creating, humans are encouraged to also create new things.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Caring for the environment and animals is a moral lesson derived from:",
+      options: [
+        "Only the Christian story",
+        "Only the Islamic story",
+        "All three major religions",
+        "None of the religions",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "All three religions teach that God cares for His creation and humans must do the same.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. According to the Dagomba myth, why should we obey the laws and principles given by Nawuni?",
+      options: [
+        "To become rich",
+        "To avoid being punished and to lead righteous lives",
+        "To become famous",
+        "To rule over others",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Laws are given to guide humankind to avoid sin and be rewarded.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the main reason we study these moral values?",
+      options: [
+        "To pass exams only",
+        "To become better and more useful citizens",
+        "To learn how to argue",
+        "To memorize names of gods",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Applying these values helps students become honest and hardworking members of society.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary purpose of a naming ceremony?",
+      options: [
+        "To show off new clothes.",
+        "To give the child an identity and a name.",
+        "To collect money from guests.",
+        "To celebrate the mother's health.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "A naming ceremony is the first rite of passage that gives a child a name and identity within their family and community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. In Akan tradition, a boy born on a Friday is usually named:",
+      options: ["Kwadwo.", "Kwabena.", "Kofi.", "Yaw."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "According to the Akan day-naming system, a male child born on Friday is named Kofi.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which religious leader whispers the call to prayer into a newborn's ear?",
+      options: ["A Priest.", "An Imam.", "A Traditional Priest.", "An Elder."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "In Islam, the Imam or Mallam whispers the Adhan and Iqamah into the baby's ears.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. At what age is the naming ceremony usually performed in most Ghanaian traditional societies?",
+      options: [
+        "On the 14th day.",
+        "On the 1st day.",
+        "On the 8th day.",
+        "On the 30th day.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Most traditional Ghanaian societies outdoor the baby on the eighth day after birth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. What does the use of water and wine in traditional rites teach the child?",
+      options: [
+        "To like drinking water.",
+        "To be a successful trader.",
+        "To be truthful throughout life.",
+        "To respect their elders.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The ritual of \"Wuse nsu a nsu\" (if you say water, let it be water) is meant to instill the value of truthfulness.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which of the following is a factor considered when choosing a name for a child?",
+      options: [
+        "The weight of the baby.",
+        "The circumstances surrounding the birth.",
+        "The hospital where the baby was born.",
+        "The color of the baby's eyes.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Names are often chosen based on birth circumstances, such as being a twin or being born after a period of hardship.",
+    ),
+
+    QuizQuestion(
+      question: "7. Christian naming ceremonies often include:",
+      options: [
+        "Slaughtering a sheep.",
+        "Bible reading and prayers.",
+        "Pouring libation to ancestors.",
+        "Shaving the baby's head.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Christian ceremonies focus on scripture, hymns, and blessing the child through prayer.",
+    ),
+
+    QuizQuestion(
+      question: "8. The Ewe name for a naming ceremony is:",
+      options: ["Vihehedgo.", "Kpodziemo.", "Abadinto.", "Sunna."],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The Ewes call the outdooring ceremony Vihehedgo.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Why is a person of \"good character\" chosen to perform traditional naming rites?",
+      options: [
+        "So the child will copy their good traits.",
+        "Because they have a loud voice.",
+        "Because they are the wealthiest in the family.",
+        "So they can buy gifts for the baby.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "It is believed that the child may take after the character of the person who names them.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which religion emphasizes the \"Aqiqah\" during the naming process?",
+      options: [
+        "Christianity.",
+        "Indigenous African Religion.",
+        "Islam.",
+        "Buddhism.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Aqiqah is the Islamic term for the sacrifice and celebration performed when a child is named.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S2 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Puberty is best described as a transition from:",
+      options: [
+        "Birth to early childhood.",
+        "Adulthood to old age.",
+        "Childhood to adulthood.",
+        "Infancy to toddlerhood.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Puberty is the stage that ushers an individual from childhood into adulthood.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which organ produces oestrogen in girls?",
+      options: ["The Heart", "The Testes", "The Ovaries", "The Liver"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Oestrogen is secreted by the ovaries in girls.",
+    ),
+
+    QuizQuestion(
+      question: "3. A sign of puberty that occurs in both boys and girls is:",
+      options: [
+        "Broadening of hips.",
+        "Growth of beards.",
+        "Growth of pubic hair.",
+        "Breaking of the voice.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Both sexes develop pubic and armpit hair during puberty.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Mood swings\" mean an adolescent might:",
+      options: [
+        "Sleep for 12 hours straight.",
+        "Change from happy to sad quickly.",
+        "Lose their sense of taste.",
+        "Grow taller very fast.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Mood swings involve rapid changes in emotions caused by hormones.",
+    ),
+
+    QuizQuestion(
+      question: "5. Broadening of shoulders is a characteristic of:",
+      options: [
+        "Puberty in girls.",
+        "Puberty in boys.",
+        "Early childhood.",
+        "Old age.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Broader chests and shoulders are physical changes in boys.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Adolescents become 'adventurous' during puberty. This means they:",
+      options: [
+        "Always stay at home.",
+        "Want to explore and try new things.",
+        "Fear everything around them.",
+        "Stop talking to their friends.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Curiosity and a desire for adventure are common emotional traits at this stage.",
+    ),
+
+    QuizQuestion(
+      question: "7. Acne and pimples on the face are caused by:",
+      options: [
+        "Using too much soap.",
+        "Hormonal changes.",
+        "Reading too many books.",
+        "Sleeping too much.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Hormonal shifts often trigger skin changes like acne.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why is personal hygiene very important during puberty?",
+      options: [
+        "To make clothes last longer.",
+        "To prevent body odour and infections.",
+        "To grow taller.",
+        "To improve your grades.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Increased sweat and hormonal changes require extra cleanliness to stay healthy.",
+    ),
+
+    QuizQuestion(
+      question: "9. Sperm production in boys is triggered by:",
+      options: ["Oestrogen.", "Exercise.", "Vitamin C.", "Testosterone."],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Testosterone triggers the development of sperm in the testes.",
+    ),
+
+    QuizQuestion(
+      question: "10. Feeling a desire for independence from parents is a/an:",
+      options: [
+        "Physical change.",
+        "Sign of being a child.",
+        "Disease.",
+        "Emotional change.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Seeking independence and maturity are emotional characteristics of puberty.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S2 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Puberty rites are meant to usher an individual from:",
+      options: [
+        "Adulthood to old age.",
+        "Birth to childhood.",
+        "Childhood to adulthood.",
+        "Marriage to death.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "These rites mark the transition into adult life.",
+    ),
+
+    QuizQuestion(
+      question: "2. An Akan girl undergoing puberty rites is called:",
+      options: ["Brani.", "Dipoyo.", "Ohoho.", "Sunna."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The initiate is referred to as Brani or Sakyima.",
+    ),
+
+    QuizQuestion(
+      question: "3. The sacred stone ceremony of the Krobo is known as:",
+      options: ["Te-kwomi.", "Anoka.", "Ti-yi.", "Ndaase."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Te-kwomi is the climax of the Dipo where the girl sits on the stone.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of these is a moral lesson taught during puberty rites?",
+      options: [
+        "How to get rich quickly.",
+        "Chastity until marriage.",
+        "How to win an argument.",
+        "Pride in one's beauty.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Chastity is highly valued and promoted during these rites.",
+    ),
+
+    QuizQuestion(
+      question: "5. The Sodji-Wi is a puberty rite for boys among the:",
+      options: ["Akans.", "Chala.", "Ga.", "Dagombas."],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Sodji-Wi is the male initiation rite for the Chala people.",
+    ),
+
+    QuizQuestion(
+      question: "6. During Bragoro, the ritual bath usually takes place at:",
+      options: [
+        "The marketplace.",
+        "The church.",
+        "A stream or river.",
+        "The school.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The initiate is taken to the riverside for the ritual bath.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does the Queen Mother's physical examination prove?",
+      options: [
+        "The girl's strength.",
+        "The girl's virginity.",
+        "The girl's height.",
+        "The girl's age.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The examination ensures the girl has maintained her purity.",
+    ),
+
+    QuizQuestion(
+      question: "8. The mashed yam used in Akan rites is called:",
+      options: ["Fufuo.", "Banku.", "Ɛto.", "Jollof."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Ɛto is the traditional mashed yam served during the ceremony.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Who provides the primary training for boys during Sisala initiation?",
+      options: [
+        "The Queen Mother.",
+        "The Priestess.",
+        "Fathers and male relatives.",
+        "Teachers at school.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Boys learn from their fathers and male elders.",
+    ),
+
+    QuizQuestion(
+      question: "10. A girl who successfully completes puberty rites:",
+      options: [
+        "Is allowed to stay a child.",
+        "Is recognized as a responsible adult.",
+        "Must leave the village.",
+        "Can no longer see her parents.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Completion marks her as a fully-fledged member of the adult community.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/4. RME JHS2 S2 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Marriage is a union between:",
+      options: [
+        "Just the man and the woman.",
+        "The man and his boss.",
+        "Two friends only.",
+        "Two people and their families.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "In Ghana, marriage involves both the couple and their respective families.",
+    ),
+
+    QuizQuestion(
+      question: "2. The knocking ceremony is performed to:",
+      options: [
+        "Start the wedding feast.",
+        "Name a child.",
+        "Pay the final bride price.",
+        "Formally announce the man's intention to marry.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "It is the first formal step to inform the woman's family of the man's interest.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Tiri Nsa' literally means:",
+      options: [
+        "Hand drinks.",
+        "Marriage wine.",
+        "Wedding water.",
+        "Head drinks.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tiri Nsa is the customary drink that traditionally seals the marriage contract.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is courtship important in Christian marriage?",
+      options: [
+        "To plan the party.",
+        "To allow the couple to study each other.",
+        "To buy the wedding rings.",
+        "To show off new clothes.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Courtship allows the man and woman to learn about each other before committing.",
+    ),
+
+    QuizQuestion(
+      question: "5. In Islam, the 'Walima' is:",
+      options: [
+        "The marriage contract.",
+        "The bride price.",
+        "The marriage feast or party.",
+        "The call to prayer.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Walima is the merry-making and feasting that follows the Al-Nikah.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which family member usually represents the bride in Islamic rites?",
+      options: [
+        "Her best friend.",
+        "The Wali (matrimonial guardian).",
+        "Her younger sister.",
+        "Her grandmother.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Wali is the legal representative of the bride in Islam.",
+    ),
+
+    QuizQuestion(
+      question: "7. The 'Tiri Nsa' traditionally consists of:",
+      options: [
+        "Water only.",
+        "Palm wine or schnapps.",
+        "Soft drinks.",
+        "Fruit juice.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Customary rites usually involve palm wine or schnapps for libation.",
+    ),
+
+    QuizQuestion(
+      question: "8. One importance of marriage rites is to:",
+      options: [
+        "Discourage irresponsible sexual behaviour.",
+        "Make the families rich.",
+        "Spend as much money as possible.",
+        "Avoid going to work.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Marriage rites encourage moral behaviour and responsible parenthood.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Among the Akans, the secret meeting between a man and woman is called:",
+      options: ["Opon-akyibɔ.", "Kasaasie.", "Tiri Nsa.", "Abadinto."],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Kasaasie is the initial stage where the couple discusses their intentions privately.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is 'Akontagye sekán'?",
+      options: [
+        "A gift for the bride's father.",
+        "A fee given to the bride's brothers.",
+        "The church wedding fee.",
+        "The name of the wedding cake.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "This is a customary gift or fee provided to the brothers of the bride.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/5. RME JHS2 S2 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Death is considered a 'Rite of Passage' because it is a transition from:",
+      options: [
+        "Childhood to adulthood.",
+        "This world to the next world.",
+        "Marriage to old age.",
+        "School to work.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Death is the final transition in the human life cycle on earth.",
+    ),
+
+    QuizQuestion(
+      question: "2. The Islamic Janazah prayer is performed:",
+      options: [
+        "At the hospital.",
+        "After the body is buried.",
+        "Before the body is taken for burial.",
+        "Only on the 40th day.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The prayer is said after ritual bath and before the burial.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Asaase Yaa' refers to:",
+      options: [
+        "The sky god.",
+        "The earth goddess.",
+        "A female ancestor.",
+        "A type of funeral song.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of these is a cause of death mentioned in the curriculum?",
+      options: [
+        "Natural old age.",
+        "Traveling to a new city.",
+        "Going to a naming ceremony.",
+        "Getting married.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Old age is considered a natural cause of death.",
+    ),
+
+    QuizQuestion(
+      question: "5. In Christianity, a 'wake keeping' is usually held on:",
+      options: [
+        "Monday morning.",
+        "Friday night.",
+        "Sunday afternoon.",
+        "Saturday evening.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Wake keeping is typically the Friday night service before the Saturday funeral.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do Muslims wrap the deceased in plain white calico?",
+      options: [
+        "Because they ran out of colorful cloth.",
+        "To symbolize purity and simplicity.",
+        "To keep the body warm.",
+        "It is the most expensive cloth.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islam teaches simplicity and that all people return to Allah in the same way.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
+      options: [
+        "To spend money.",
+        "To help the dead join the ancestors.",
+        "To stop the family from crying.",
+        "To choose a new Chief.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rites ensure the spirit is welcomed in the ancestral world.",
+    ),
+
+    QuizQuestion(
+      question: "8. Christian funeral donations are meant to:",
+      options: [
+        "Buy new cars for the family.",
+        "Purchase food for the guests only.",
+        "Pay the priest a salary.",
+        "Help defray the funeral expenses.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Donations from sympathizers help support the bereaved family.",
+    ),
+
+    QuizQuestion(
+      question: "9. The 40th-day prayer is a characteristic of:",
+      options: [
+        "Christian rites.",
+        "Traditional puberty rites.",
+        "Islamic death rites.",
+        "Naming ceremonies.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
+      options: [
+        "The person was a barber.",
+        "The spirit has contact with the living.",
+        "To prevent witches from using them.",
+        "To keep the town clean.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Such rites signify the unbroken relationship between the dead and the living.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/6. RME JHS2 S2 SS1 L6/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Death is considered a 'Rite of Passage' because it is a transition from:",
+      options: [
+        "Childhood to adulthood.",
+        "This world to the next world.",
+        "Marriage to old age.",
+        "School to work.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Death is the final transition in the human life cycle on earth.",
+    ),
+
+    QuizQuestion(
+      question: "2. The Islamic Janazah prayer is performed:",
+      options: [
+        "At the hospital.",
+        "After the body is buried.",
+        "Before the body is taken for burial.",
+        "Only on the 40th day.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The prayer is said after ritual bath and before the burial.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Asaase Yaa' refers to:",
+      options: [
+        "The sky god.",
+        "The earth goddess.",
+        "A female ancestor.",
+        "A type of funeral song.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of these is a cause of death mentioned in the curriculum?",
+      options: [
+        "Natural old age.",
+        "Traveling to a new city.",
+        "Going to a naming ceremony.",
+        "Getting married.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Old age is considered a natural cause of death.",
+    ),
+
+    QuizQuestion(
+      question: "5. In Christianity, a 'wake keeping' is usually held on:",
+      options: [
+        "Monday morning.",
+        "Friday night.",
+        "Sunday afternoon.",
+        "Saturday evening.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Wake keeping is typically the Friday night service before the Saturday funeral.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do Muslims wrap the deceased in plain white calico?",
+      options: [
+        "Because they ran out of colorful cloth.",
+        "To symbolize purity and simplicity.",
+        "To keep the body warm.",
+        "It is the most expensive cloth.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islam teaches simplicity and that all people return to Allah in the same way.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
+      options: [
+        "To spend money.",
+        "To help the dead join the ancestors.",
+        "To stop the family from crying.",
+        "To choose a new Chief.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rites ensure the spirit is welcomed in the ancestral world.",
+    ),
+
+    QuizQuestion(
+      question: "8. Christian funeral donations are meant to:",
+      options: [
+        "Buy new cars for the family.",
+        "Purchase food for the guests only.",
+        "Pay the priest a salary.",
+        "Help defray the funeral expenses.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Donations from sympathizers help support the bereaved family.",
+    ),
+
+    QuizQuestion(
+      question: "9. The 40th-day prayer is a characteristic of:",
+      options: [
+        "Christian rites.",
+        "Traditional puberty rites.",
+        "Islamic death rites.",
+        "Naming ceremonies.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
+      options: [
+        "The person was a barber.",
+        "The spirit has contact with the living.",
+        "To prevent witches from using them.",
+        "To keep the town clean.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Such rites signify the unbroken relationship between the dead and the living.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the best definition of authority?",
+      options: [
+        "The ability to shout the loudest.",
+        "The legal right to give orders and make decisions.",
+        "Having more money than your neighbours.",
+        "Being the tallest person in the classroom.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Authority is legitimate power over others.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which group of people gets authority through tradition?",
+      options: [
+        "Police Officers",
+        "Chiefs and Queen Mothers",
+        "Doctors and Nurses",
+        "Shopkeepers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional leaders gain power through customs and bloodlines.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. An official who uses their position to help only their friends is guilty of:",
+      options: [
+        "Right use of authority.",
+        "Proper leadership skills.",
+        "Wrong use of authority.",
+        "Showing community spirit.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Helping only relatives and friends is a misuse of power.",
+    ),
+
+    QuizQuestion(
+      question: "4. The President of Ghana derives his authority from the:",
+      options: [
+        "School Rules",
+        "Church Elders",
+        "National Constitution",
+        "Family Tree",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The Constitution defines the powers of national leaders.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do we say parents have authority at home?",
+      options: [
+        "Because they provide care and guidance.",
+        "Because they are the strongest in the house.",
+        "Because they were voted in by the children.",
+        "Because they own a television.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Parenthood involves bringing up and caring for others.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which source of authority is based on the Holy Books?",
+      options: ["Elections", "Scriptures", "The Constitution", "Tradition"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Scriptures like the Bible and Qur'an provide authority for religious leaders.",
+    ),
+
+    QuizQuestion(
+      question: "7. A leader who acts as a role model for others is:",
+      options: [
+        "Misusing their power.",
+        "Using authority correctly.",
+        "Trying to be famous.",
+        "Wasting their time.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Being a role model is a positive and right use of authority.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is an example of authority in the school?",
+      options: [
+        "The School Prefect",
+        "A first-year student",
+        "A visitor at the gate",
+        "A local shop owner",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Prefects are recognized authorities within the school setting.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. 'Amassing wealth at the expense of others' is a wrong use of authority because:",
+      options: [
+        "It makes the leader too busy.",
+        "It hurts the people the leader should protect.",
+        "It is only allowed on weekends.",
+        "It helps the country grow faster.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Selfish gain at the expense of others is a direct violation of the purpose of authority.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. How does an Assembly Member typically get their authority?",
+      options: [
+        "By being the oldest person in the village.",
+        "Through a religious vision.",
+        "By being elected by the community.",
+        "By inheriting it from their father.",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Local government representatives like Assembly Members are chosen through elections.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S3 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the result of obeying authority in society?",
+      options: [
+        "More arguments.",
+        "Peaceful co-existence.",
+        "Higher prices in the market.",
+        "Everyone becomes a teacher.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Obedience prevents conflicts and allows people to live together in peace.",
+    ),
+
+    QuizQuestion(
+      question: "2. In RME, we learn that the Holy Quran (4:59) tells us to:",
+      options: [
+        "Only obey people we like.",
+        "Obey God, the Prophet, and those in authority.",
+        "Travel to other countries.",
+        "Build many schools.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Quran explicitly commands obedience to God and those in leadership.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of the following is a consequence of DISOBEYING authority?",
+      options: [
+        "Achieving your life goals faster.",
+        "Earning the respect of your elders.",
+        "Chaos and lack of progress in society.",
+        "Getting better grades in school.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Disobedience leads to disorder and hinders the development of a community.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do we obey school rules?",
+      options: [
+        "To ensure we have a good environment for learning.",
+        "To make the teachers do all the work.",
+        "To avoid eating lunch.",
+        "To keep the school gate closed.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "School rules are meant to ensure good behavior and proper conditions for learning.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which Ghanaian proverb emphasizes the importance of authority?",
+      options: [
+        "'A bird in the hand is worth two in the bush.'",
+        "'Woe to a person who has no elder.'",
+        "'Slow but sure wins the race.'",
+        "'All that glitters is not gold.'",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Without the guidance of elders or authority, one may face trouble.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does obedience to parents benefit a child?",
+      options: [
+        "It makes the child taller.",
+        "It provides the child with guidance and protection.",
+        "It means the child never has to go to school.",
+        "It makes the child's friends jealous.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Parents use their authority and experience to guide and protect their children.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A person who apologizes for committing an offence is showing that they are:",
+      options: [
+        "Weak.",
+        "Intelligent.",
+        "Obedient or law-abiding.",
+        "Forgetful.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Acknowledging a mistake shows respect for law and authority.",
+    ),
+
+    QuizQuestion(
+      question: "8. Obedience to the laws of the state helps us become:",
+      options: [
+        "Fearful and quiet.",
+        "Patriotic and good citizens.",
+        "Rich and famous.",
+        "Angry and frustrated.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Following national laws shows love and respect for one's country.",
+    ),
+
+    QuizQuestion(
+      question: "9. Conflict in society is best resolved by:",
+      options: [
+        "Being authoritative and proud.",
+        "Tolerating and forgiving others.",
+        "Refusing to talk to anyone.",
+        "Fighting for your rights only.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Tolerance and forgiveness help maintain peace in society.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the primary reason the Bible advises us to obey authority (Romans 13:1)?",
+      options: [
+        "Because leaders are always perfect.",
+        "Because all authority is established by God.",
+        "Because it helps us get jobs.",
+        "Because it is a tradition in Ghana.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Authority is ordained by God, making obedience a religious duty.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S3 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which action is a rule at home?",
+      options: [
+        "Paying taxes to the government.",
+        "Performing household chores.",
+        "Singing the national anthem.",
+        "Obeying traffic lights.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Household chores are a standard responsibility for children at home.",
+    ),
+
+    QuizQuestion(
+      question: "2. How do we show respect for the Ghanaian currency?",
+      options: [
+        "Writing our names on the notes.",
+        "Crumpling the notes in our pockets.",
+        "Handling the Cedi with care and respect.",
+        "Using it to make paper planes.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Respect for national symbols includes the proper handling of currency.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. A student who attends all school gatherings like assembly is being:",
+      options: [
+        "Lazy.",
+        "Disobedient.",
+        "Law-abiding and disciplined.",
+        "Forgetful.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Regular attendance at school meetings is a sign of discipline.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a religious regulation?",
+      options: [
+        "Sweeping the market square.",
+        "Obeying traffic rules.",
+        "Dressing appropriately for worship.",
+        "Doing your homework.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Proper dress code is an important regulation for religious gatherings.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why should we avoid littering our neighbourhoods?",
+      options: [
+        "To save money on bins.",
+        "To keep the community clean and healthy.",
+        "Because the wind will blow it away.",
+        "To make the ground look colourful.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Not littering helps maintain a safe and healthy environment.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does it mean to 'defend the constitution' of Ghana?",
+      options: [
+        "Tearing up the book.",
+        "Following and protecting the laws of the land.",
+        "Only obeying rules you like.",
+        "Painting the constitution book.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Citizens must uphold and protect the supreme law of the country.",
+    ),
+
+    QuizQuestion(
+      question: "7. Showing respect for the elderly in the community includes:",
+      options: [
+        "Walking past them without greeting.",
+        "Running errands for them when they need help.",
+        "Arguing with them in public.",
+        "Ignoring their advice.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Helping elders is a key cultural value in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "8. Punctuality to work or school is important because it:",
+      options: [
+        "Makes you the first person to eat lunch.",
+        "Ensures progress and efficiency.",
+        "Lets you talk to your friends more.",
+        "Makes the clock move faster.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Being on time ensures proper progress in school or work.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is an example of 'communal work'?",
+      options: [
+        "Cleaning your own bedroom.",
+        "Helping neighbours to clear a choked gutter.",
+        "Cooking dinner for your parents.",
+        "Writing a letter to a friend.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Communal work benefits the whole community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. A child who refuses to bully their younger siblings is applying:",
+      options: [
+        "School rules.",
+        "National rules.",
+        "Home and family rules.",
+        "Traffic rules.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Respecting siblings is an important family rule.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S4 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the meaning of the name 'Moses'?",
+      options: [
+        "Father of many",
+        "Drawn out of water",
+        "Comfort or rest",
+        "Faithful servant",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Moses' name means 'drawn out of water' because he was found in the Nile.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a core role of a prophet?",
+      options: [
+        "To collect taxes for the King",
+        "To act as an intermediary between God and humans",
+        "To build large cities and markets",
+        "To lead armies into war for gold",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A prophet delivers God's message to people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Why did God decide to send the great flood in the time of Noah?",
+      options: [
+        "The earth was too dry",
+        "People were too many",
+        "The earth was corrupt and evil",
+        "To test if the Ark would float",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "God saw that the wickedness of man was great and the earth was corrupt.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Who was the brother God gave to Moses to help him speak to Pharaoh?",
+      options: ["Ishmael", "Isaac", "Aaron", "Joshua"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "God sent Aaron to help Moses speak because Moses felt he was not eloquent.",
+    ),
+
+    QuizQuestion(
+      question: "5. What was the name of Abraham's wife?",
+      options: ["Miriam", "Sarah", "Zipporah", "Hagar"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Abraham’s wife Sarai was later called Sarah.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. The story of Prophet Noah can be found in which two holy books?",
+      options: [
+        "The Vedas and the Torah",
+        "The Bible and the Quran",
+        "The Bible and the Bhagavad Gita",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Noah’s story appears in both the Bible and the Quran.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many plagues did God perform in Egypt through Moses?",
+      options: ["Five", "Seven", "Ten", "Twelve"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "God sent ten plagues to Egypt to force Pharaoh to release the Israelites.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does the name 'Abraham' mean?",
+      options: [
+        "Friend of God",
+        "Father of many nations",
+        "The one who laughs",
+        "Prince of Peace",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "God renamed Abram to Abraham meaning 'father of many nations'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which prophet was asked by God to sacrifice his only son as a test?",
+      options: ["Noah", "Moses", "Abraham", "Elijah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "God tested Abraham’s faith by asking him to sacrifice his son.",
+    ),
+
+    QuizQuestion(
+      question: "10. What was Moses doing when he saw the burning bush?",
+      options: [
+        "Building a temple",
+        "Fishing in the Nile",
+        "Tending a flock of sheep",
+        "Praying in a mosque",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Moses was tending his father-in-law’s sheep at Mount Horeb.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S4 SS1 L2/10. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The Arabic word Khalifah literally means:",
+      options: ["Teacher", "Successor", "Servant", "King"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Khalifah means a successor or leader of the community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. How many 'Rightly Guided Caliphs' are recognised in mainstream Islamic history?",
+      options: ["Two", "Three", "Four", "Five"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The four rightly guided Caliphs are Abu Bakr, Umar, Usman, and Ali.",
+    ),
+
+    QuizQuestion(
+      question: "3. Abu Bakr was given the title 'Al-Saddiq' because of his:",
+      options: [
+        "Bravery in battle",
+        "Wealth and business",
+        "Truthfulness and sincerity",
+        "Skill in writing",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Al-Saddiq means the most truthful and sincere person.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which Caliph was the father-in-law of Prophet Muhammad?",
+      options: [
+        "Abu Bakr",
+        "Ali Ibn Abi Talib",
+        "Umar Ibn Al-Khattab",
+        "Both A and C",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Both Abu Bakr and Umar were fathers-in-law of the Prophet.",
+    ),
+
+    QuizQuestion(
+      question: "5. What was a major contribution of Caliph Usman Ibn Affan?",
+      options: [
+        "Creating the first police force",
+        "Standardising the Quranic text",
+        "Inventing the Arabic alphabet",
+        "Moving the capital to Accra",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Usman ensured a uniform version of the Holy Quran.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which Caliph is known for his excellence in Arabic scholarship and writing?",
+      options: [
+        "Abu Bakr",
+        "Umar Ibn Al-Khattab",
+        "Usman Ibn Affan",
+        "Ali Ibn Abi Talib",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Ali was known for his deep knowledge and eloquence.",
+    ),
+
+    QuizQuestion(
+      question: "7. Who served as the second Caliph?",
+      options: [
+        "Usman Ibn Affan",
+        "Umar Ibn Al-Khattab",
+        "Ali Ibn Abi Talib",
+        "Abu Bakr",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Umar succeeded Abu Bakr as the second Caliph.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Before becoming Caliph, Abu Bakr was famous for being a successful:",
+      options: ["Fisherman", "Farmer", "Businessman", "Teacher"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Abu Bakr was a respected and honest businessman.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which Caliph was given the nickname 'Owner of Two Lights'?",
+      options: [
+        "Abu Bakr",
+        "Umar Ibn Al-Khattab",
+        "Usman Ibn Affan",
+        "Ali Ibn Abi Talib",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Usman married two daughters of the Prophet, earning this title.",
+    ),
+
+    QuizQuestion(
+      question: "10. What did Caliph Umar do to ensure fair governance?",
+      options: [
+        "He consulted a council of elders",
+        "He made all decisions alone",
+        "He stopped people from praying",
+        "He moved the treasury to his house",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Umar established a consultative council (Shura) for decision-making.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S4 SS1 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which virtue describes Noah's 120 years of building the Ark?",
+      options: ["Greed", "Perseverance", "Impatience", "Pride"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Noah showed great perseverance by working on the Ark for many years until it was finished.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why is Caliph Abu Bakr considered a model of sacrifice?",
+      options: [
+        "He gave all his wealth for the service of Allah",
+        "He moved away from his friends",
+        "He stopped working as a businessman",
+        "He refused to lead the community",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Abu Bakr was known for his selflessness and giving everything he had to support Islam.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which leader taught us to be 'peace lovers' by avoiding conflicts and settling disputes?",
+      options: ["Pharaoh", "Abraham", "The magicians", "The taskmasters"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abraham was known for his peaceful nature and resolving conflicts quietly.",
+    ),
+
+    QuizQuestion(
+      question: "4. Caliph Usman's nickname, 'Ghani', refers to his:",
+      options: [
+        "Bravery in war",
+        "Great wealth and generosity",
+        "Skill in writing",
+        "Age",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Usman was called 'Ghani' because of his wealth and generosity in helping others.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Moses' refusal to accept the injustice done to his people is an example of:",
+      options: ["Courage", "Selfishness", "Laziness", "Forgetfulness"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Moses showed courage by standing up against Pharaoh for justice.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which of these is a lesson we can learn from the life of Caliph Ali?",
+      options: [
+        "Retaliate against everyone",
+        "Be pious, wise, and brave",
+        "Always seek power first",
+        "Only care for yourself",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Ali was known for his wisdom, piety, and bravery.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A person who remains calm and waits for God's timing, like Abraham waiting for a son, shows:",
+      options: ["Humility", "Patience", "Greed", "Speed"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Patience is a key virtue shown by prophets during difficult times.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which leader's life teaches us to be truthful and honest in our business dealings?",
+      options: ["Abu Bakr", "Usman", "Umar", "All of the above"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "All the Rightly Guided Caliphs were known for honesty and sincerity.",
+    ),
+
+    QuizQuestion(
+      question: "9. The rainbow given to Noah is a symbol of a:",
+      options: [
+        "War agreement",
+        "Covenant of peace and promise",
+        "Sign of wealth",
+        "Weather report",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The rainbow represents God's promise of peace to humanity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the most important reason for JHS students to study these leaders?",
+      options: [
+        "To pass exams only",
+        "To copy their names",
+        "To adopt their good moral values in daily life",
+        "To learn how to build boats",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The goal is to apply moral lessons and become responsible citizens.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which commandment carries a specific promise of long life?",
+      options: [
+        "You shall not steal",
+        "Honour your father and mother",
+        "Remember the Sabbath Day",
+        "You shall not murder",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This commandment is known for its promise of long life in the land.",
+    ),
+
+    QuizQuestion(
+      question: "2. In Islam, 'Social Justice' means that:",
+      options: [
+        "Only the wealthy deserve rights",
+        "Everyone deserves equal opportunities",
+        "You should only be kind to your friends",
+        "Lawbreakers should not be punished",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Islam teaches fairness and equal rights for all people in society.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is an example of a 'Royal Taboo' in Ghana?",
+      options: [
+        "Not eating pork",
+        "A chief walking barefooted in public",
+        "Fishing on a Tuesday",
+        "Whistling at night",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It is a taboo for a chief to walk barefooted as it preserves dignity and respect.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Jesus taught that his followers should be 'Salt' and 'Light' to:",
+      options: [
+        "Make their food taste better",
+        "Show off their wealth",
+        "Guide others through good deeds",
+        "Hide from the world",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Being 'light' means letting good actions guide others toward righteousness.",
+    ),
+
+    QuizQuestion(
+      question: "5. The proverb 'Two heads are better than one' emphasizes:",
+      options: [
+        "Having a big family",
+        "Using your intelligence",
+        "Cooperation and consultation",
+        "Physical strength",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Working together leads to better ideas and solutions.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which religious book contains the teaching 'Surely Allah enjoys justice, kindness, and the doing of good'?",
+      options: [
+        "The Bible",
+        "The Qur’an",
+        "The Book of Proverbs",
+        "The Oral Traditions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This teaching is found in Surah 16:90 of the Holy Qur’an.",
+    ),
+
+    QuizQuestion(
+      question: "7. A 'taboo' can best be described as:",
+      options: [
+        "A traditional dance",
+        "A story with a happy ending",
+        "An action that is forbidden by society",
+        "A type of religious clothing",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Taboos are actions that are socially or culturally forbidden.",
+    ),
+
+    QuizQuestion(
+      question: "8. The Parable of the Prodigal Son primarily teaches:",
+      options: [
+        "How to farm successfully",
+        "The importance of travel",
+        "Forgiveness and repentance",
+        "How to manage money",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The story shows forgiveness and acceptance after repentance.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why are 'Sacred Place Taboos' important?",
+      options: [
+        "They make people afraid",
+        "They protect sites like shrines and rivers",
+        "They help people find gold",
+        "They are only for old people",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "These taboos protect sacred places from disrespect and harm.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which value is shared by all three major religions in Ghana?",
+      options: [
+        "Respect for humanity and life",
+        "Praying five times a day",
+        "Sacrificing animals at the shrine",
+        "Observing the Sabbath on Saturday",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "All major religions promote respect for human life and dignity.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A student who refuses to join a group to steal mangoes from a neighbour's farm is applying the commandment:",
+      options: [
+        "You shall not murder",
+        "You shall not steal",
+        "Remember the Sabbath",
+        "You shall not covet",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Choosing not to take what isn't yours is the direct application of 'You shall not steal'.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. In the 'Salt and Light' teaching, how does a student show they are 'Salt'?",
+      options: [
+        "By being very quiet in class",
+        "By making the lives of others better and more joyful",
+        "By eating healthy Ghanaian food",
+        "By wearing a very bright uniform",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Salt adds value, so students should positively impact others' lives.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which action shows the application of the proverb 'Unity is strength'?",
+      options: [
+        "Studying alone for every exam",
+        "Working with classmates to finish a group project",
+        "Keeping your ideas to yourself",
+        "Competing to be the best student",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Working together leads to stronger results.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. How can a student apply Islamic teachings on 'Duty to Parents' at home?",
+      options: [
+        "By asking for expensive gifts",
+        "By only doing what they are told when they get a reward",
+        "By using respectful language like 'Please' and 'Thank you'",
+        "By staying in their room all day",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Islam emphasizes respect, kindness, and good manners toward parents.",
+    ),
+
+    QuizQuestion(
+      question: "5. Respecting a 'Sacred Place Taboo' might involve:",
+      options: [
+        "Playing football near a shrine",
+        "Taking pictures of every sacred river",
+        "Not littering or entering a protected forest area",
+        "Cutting down trees in a reserved grove",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Sacred taboos protect important spiritual and environmental areas.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. If someone insults you, applying the 'Sermon on the Mount' means you should:",
+      options: [
+        "Insult them back even louder",
+        "Report them to every teacher",
+        "Respond with kindness or stay calm",
+        "Plan a way to get revenge later",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Jesus taught love, forgiveness, and responding peacefully to wrongdoing.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A student who uses their pocket money to buy a sachet of water for a thirsty beggar is demonstrating:",
+      options: ["Greed", "Generosity and Mercy", "Laziness", "Royal Taboos"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Helping others in need reflects kindness, generosity, and compassion.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Following the 'Food Taboo' of not eating pork if it is against your religion shows:",
+      options: [
+        "You are a picky eater",
+        "You are obedient to your religious laws",
+        "You do not like Ghanaian food",
+        "You are being difficult at a party",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Obeying dietary laws is part of religious discipline and faith.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. The proverb 'Had I known is always at last' warns us to apply:",
+      options: ["Speed", "Bravery", "Regret", "Forethought and Diligence"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "It teaches us to think carefully before acting to avoid future regret.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the ultimate benefit of everyone applying these moral teachings in Ghana?",
+      options: [
+        "People will become very rich",
+        "Everyone will travel abroad",
+        "Schools will have no more exams",
+        "There will be peace and harmony in society",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Moral living leads to unity, peace, and national development.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S6 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Anything generally accepted as payment for goods and services is called:",
+      options: ["Barter", "Wealth", "Money", "Trade"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Money is defined as anything accepted as a medium of exchange.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is the highest denomination of cedi notes in Ghana?",
+      options: ["GH₵50", "GH₵100", "GH₵200", "GH₵500"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The 200 cedi note is currently the highest denomination in circulation.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Legal tender' means that:",
+      options: [
+        "Money is soft and easy to fold",
+        "The law requires it to be accepted for trade",
+        "Only banks are allowed to touch it",
+        "It can only be used in big cities",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Legal tender is money that must be accepted by law in payment of debts.",
+    ),
+
+    QuizQuestion(
+      question: "4. Money must be able to last a long time. This is known as:",
+      options: ["Portability", "Acceptability", "Scarcity", "Durability"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Durability ensures money does not wear out easily.",
+    ),
+
+    QuizQuestion(
+      question: "5. How does money help the government or religious groups?",
+      options: [
+        "By making leaders rich",
+        "By funding projects like building schools and hospitals",
+        "By stopping people from working",
+        "By replacing the need for prayer",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Money supports development and charitable activities.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is NOT a Ghanaian coin?",
+      options: ["10 Pesewas", "25 Pesewas", "50 Pesewas", "1 Cedi"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ghana uses coins like 1, 5, 10, 20, and 50 pesewas—not 25 pesewas.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Using money to buy a school uniform is an example of using money for:",
+      options: ["God's work", "Motivation", "Education", "Entertainment"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "School expenses fall under educational use of money.",
+    ),
+
+    QuizQuestion(
+      question: "8. When money is scarce, it means:",
+      options: [
+        "It is available to everyone for free",
+        "It is limited in supply and retains value",
+        "It is hidden under the ground",
+        "It is only made of gold",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Scarcity means limited supply, which helps maintain value.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is 'Acceptability' important for money?",
+      options: [
+        "So that people can choose to reject it",
+        "So that it can be used to buy things anywhere in the country",
+        "Because it makes the notes look beautiful",
+        "Because it helps the money grow in the bank",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Money must be accepted by people to function effectively.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. In the olden days, before modern money, what did people in Ghana use?",
+      options: [
+        "Plastic cards",
+        "Cowry shells and gold dust",
+        "Paper from trees",
+        "Mobile money",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Traditional forms of money included cowries and gold dust.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S6 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Why is money believed to be a gift from God in all three major religions?",
+      options: [
+        "Because it falls from the sky",
+        "Because God gives humankind the power to create wealth",
+        "Because only religious people are rich",
+        "Because you don't have to work for it",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Religions teach that God provides the ability, skills, and resources needed to earn wealth.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does 'Sakawa' refer to in the Ghanaian context?",
+      options: [
+        "A traditional dance",
+        "A type of local food",
+        "Dishonest acquisition of money through cyber fraud",
+        "A way of saving money in a box",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Sakawa refers to cyber-related fraud and dishonest ways of making money.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. According to the Qur'an (53:39-41), what is the reward for a hardworking person?",
+      options: [
+        "They will be punished",
+        "They will be recompensed with the fullest recompense",
+        "They should give all their money away",
+        "They should stop working",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Qur'an promises full reward for those who strive and work hard.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of 'Stewardship'?",
+      options: [
+        "Finding money and keeping it",
+        "Managing a friend's shop honestly while they are away",
+        "Asking for money on the street",
+        "Winning a lottery",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Stewardship means responsibly taking care of what belongs to others.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. The Akan proverb 'One cannot be feasting and at the same time become rich' encourages:",
+      options: ["Laziness", "Greed", "Prudence and saving", "Stealing"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It teaches delaying pleasure and saving for the future.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Why does dishonest acquisition of money bring 'chaos' to society?",
+      options: [
+        "It makes everyone happy",
+        "It destroys trust and leads to crime",
+        "It makes the market prices go down",
+        "It helps the government",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dishonesty breaks trust and causes disorder in society.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Muslims are generally warned against which of the following unless it is very necessary?",
+      options: ["Working", "Investing", "Begging", "Saving"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Islam discourages begging and encourages self-reliance through work.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. 'Poverty causes one to think creatively.' This teaching encourages people to:",
+      options: [
+        "Give up hope",
+        "Use their imagination to produce wealth",
+        "Complain to the government",
+        "Wait for a miracle",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Creativity helps people find solutions and improve their situation.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the Christian view on gambling?",
+      options: [
+        "It is a good way to help the church",
+        "Christians are warned against it as it relates to greed",
+        "It is mandatory for all adults",
+        "It is the same as hard work",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Christian teachings warn against greed and dishonest gain.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Failing to pay an employee's social security (SSNIT) is dishonest because:",
+      options: [
+        "It takes away their future income when they retire",
+        "It makes the office look bad",
+        "It is too much paperwork",
+        "Employees don't need money when they are old",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "It deprives workers of their rightful retirement benefits and security.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S6 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A plan that shows how money will be spent is called a:",
+      options: ["Budget", "Receipt", "Loan", "Bank"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A budget is a plan for how income will be used.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. According to religious teachings, why should children take care of their parents?",
+      options: [
+        "Because they want an inheritance",
+        "Because parents cared for them from infancy",
+        "Because the law forces them to",
+        "Because it is a way to show off",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Religions teach gratitude and caring for parents who raised us.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of the following is an appropriate way to use money to promote God's work?",
+      options: [
+        "Buying a luxury car for yourself",
+        "Funding the building of a mosque or church",
+        "Spending money at a cinema",
+        "Betting on football matches",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Supporting religious activities and infrastructure is considered a good use of money.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does 'lavish spending' mean?",
+      options: [
+        "Saving half of your salary",
+        "Spending recklessly and extravagantly",
+        "Buying only what you need",
+        "Giving money to a hospital",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Lavish spending means using money excessively beyond one's needs.",
+    ),
+
+    QuizQuestion(
+      question: "5. To use money wisely, you should avoid buying on:",
+      options: ["Mondays", "Holiday", "Cash", "Credit"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Buying on credit can lead to debt beyond your income.",
+    ),
+
+    QuizQuestion(
+      question: "6. Giving money to build a school is an example of:",
+      options: [
+        "Lavish spending",
+        "Charitable work",
+        "Impulse buying",
+        "Exploitation",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Helping to build schools benefits the community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The phrase 'the father is a shield for the family' comes from:",
+      options: [
+        "The Quran",
+        "The Bible",
+        "Oral Traditions",
+        "The Constitution",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "It is a traditional Ghanaian teaching about family protection.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. When you squander money for heirs to pay off debts, you are:",
+      options: [
+        "Misusing money",
+        "Using money wisely",
+        "Helping the poor",
+        "Planning for the future",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Wasting money irresponsibly creates problems for dependents.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is a priority list important in budgeting?",
+      options: [
+        "To make sure you buy unimportant things first",
+        "To ensure pressing needs are met before money runs out",
+        "To show the shopkeeper you are organized",
+        "To avoid paying taxes",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It helps ensure important needs are met first.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which religion warns against the exploitation of the poor and weak?",
+      options: [
+        "Christianity only",
+        "Islam only",
+        "Indigenous African Religion only",
+        "All three major religions",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "All major religions teach fairness and protecting the vulnerable.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The acronym SSNIT stands for:",
+      options: [
+        "Social Savings and National Investment Trust",
+        "Social Security and National Insurance Trust",
+        "State Security and National Income Trust",
+        "Standard Social and National Insurance Trust",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "SSNIT is the official name of Ghana's national pension scheme.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. What is the total combined contribution rate remitted to SSNIT for a worker's Tier 1 and Tier 2?",
+      options: ["5.5%", "13%", "18.5%", "25%"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "18.5% is the total contribution from employer and employee.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. To qualify for an invalidity pension, a worker must be certified by:",
+      options: [
+        "Their employer",
+        "Their family head",
+        "Their religious leader",
+        "A Medical Board",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Only a certified medical board can confirm inability to work.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of the following is an effect of not paying SSNIT contributions?",
+      options: [
+        "The worker gets more money in the future",
+        "It is an act punishable by law",
+        "The company becomes more successful",
+        "The government gives the worker a bonus",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Failure to pay SSNIT contributions is a legal offense.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. How many months of contributions are required in the last 36 months to qualify for an invalidity pension?",
+      options: ["12 months", "6 months", "24 months", "36 months"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "At least 12 months of contributions are required within the last 36 months.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which role must the employee perform regarding SSNIT?",
+      options: [
+        "Collect money from the boss",
+        "Register and get a social security number",
+        "Invest the funds of the scheme",
+        "Manage records of other members",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Each worker must register and obtain a SSNIT number.",
+    ),
+
+    QuizQuestion(
+      question: "7. The 'Survivors Lump Sum' is paid when:",
+      options: [
+        "A worker retires at age 60",
+        "A worker leaves the country",
+        "A member dies in active service or during retirement",
+        "A worker gets a promotion",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It supports the family after the death of a contributor.",
+    ),
+
+    QuizQuestion(
+      question: "8. SSNIT helps employees lead a better life:",
+      options: [
+        "Only while they are young",
+        "Even after retirement or in old age",
+        "By paying for their wedding",
+        "By giving them free food daily",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "SSNIT provides long-term financial security.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. An employer contributes what percentage from their own funds toward the worker's basic salary?",
+      options: ["13%", "5.5%", "18.5%", "10%"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The employer contributes 13% toward SSNIT.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Why is the SSNIT scheme considered a form of 'stewardship'?",
+      options: [
+        "Because it involves gambling",
+        "Because money is kept and managed carefully for future benefit",
+        "Because it is only for church members",
+        "Because it encourages spending money now",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "SSNIT manages funds responsibly for long-term benefit.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/5. RME JHS2 S6 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of someone who offers a bribe?",
+      options: [
+        "To help the poor",
+        "To pay their debt",
+        "To get an unfair advantage",
+        "To support the government",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Bribery is done to gain dishonest advantage or favors.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. A public official who uses his office to enrich himself is being...",
+      options: ["Corrupt", "Clever", "Resourceful", "Generous"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Corruption involves using power for personal gain.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is a specific example of corruption in the Ghanaian construction sector?",
+      options: [
+        "Using quality cement",
+        "Paying workers' daily wages",
+        "Issuing fake receipts to the state",
+        "Completing a project ahead of time",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Fake receipts are used to steal public funds illegally.",
+    ),
+
+    QuizQuestion(
+      question: "4. Bribery is considered 'immoral' because it...",
+      options: [
+        "Involves a lot of paperwork",
+        "Is a fast way to get rich",
+        "Is dishonest and unethical",
+        "Helps only the government",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Bribery goes against moral and ethical standards.",
+    ),
+
+    QuizQuestion(
+      question: "5. Failing to pay taxes to the state is an act of...",
+      options: [
+        "Bravery",
+        "Bribery and corruption",
+        "Economic freedom",
+        "Saving money",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Tax evasion is considered corruption against the state.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is the term for stealing money from one's own employer?",
+      options: ["Nepotism", "Taxation", "Investment", "Embezzlement"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Embezzlement is theft of funds entrusted to you.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Favoring a friend for a job regardless of merit is called...",
+      options: ["Professionalism", "Hard work", "Favoritism", "Honesty"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Favoritism ignores fairness and merit.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which institution in Ghana handles social security contributions often affected by corruption?",
+      options: ["ECG", "SSNIT", "GWCL", "GCB"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "SSNIT manages workers' pension contributions.",
+    ),
+
+    QuizQuestion(
+      question: "9. Bribery involves persuading someone to do something...",
+      options: ["Efficient", "Helpful", "Dishonest", "Public"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Bribery leads to dishonest or illegal actions.",
+    ),
+
+    QuizQuestion(
+      question: "10. A corrupt person is often described as being...",
+      options: [
+        "Humble and kind",
+        "Greedy and aggressive",
+        "Patient and slow",
+        "Content and peaceful",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Corruption is driven by greed and selfish gain.",
+    ),
+  ],
+);
+final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/6. RME JHS2 S6 SS2 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of these is a major reason why people engage in corruption in the workplace?",
+      options: [
+        "Too much supervision",
+        "High salaries",
+        "Greed and self-centredness",
+        "Love for the country",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Greed is a major internal driver of corrupt behaviour.",
+    ),
+
+    QuizQuestion(
+      question: "2. How does corruption affect state resources?",
+      options: [
+        "It increases them",
+        "It leads to their misuse",
+        "It protects them for the future",
+        "It distributes them equally",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Public funds are often diverted for private use.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. An official who takes money because there is no one to check his work is influenced by...",
+      options: [
+        "High cost of living",
+        "Inadequate supervision",
+        "National pride",
+        "Low dependency ratio",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Lack of oversight encourages corruption.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which effect describes a decrease in the quality and amount of work done in the country?",
+      options: [
+        "High productivity",
+        "National development",
+        "Low productivity",
+        "Fair distribution",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Corruption leads to inefficiency and poor output.",
+    ),
+
+    QuizQuestion(
+      question: "5. A high dependency ratio means...",
+      options: [
+        "A person has a very high salary",
+        "Many people rely on one person for money",
+        "A person has no family to support",
+        "The government provides everything",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Financial pressure can push individuals toward corruption.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Corruption 'tarnishes the reputation' of Ghana. This means...",
+      options: [
+        "The country becomes more famous for sports",
+        "Other countries see Ghana as a dishonest nation",
+        "The country gets more gifts from abroad",
+        "More people want to visit Ghana",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Corruption damages a country's image globally.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The desire to buy a luxury car overnight without working for it is called a...",
+      options: [
+        "Long-term investment",
+        "Get-rich-quick attitude",
+        "National service",
+        "Religious duty",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "This mindset encourages illegal shortcuts.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is NOT an effect of corruption?",
+      options: [
+        "Misuse of state funds",
+        "Retarded national development",
+        "Increased honesty in society",
+        "Widened gap between rich and poor",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Corruption reduces honesty, not increases it.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. When inflation is high and people cannot afford basic goods, this is called...",
+      options: [
+        "High cost of living",
+        "Economic boom",
+        "Low dependency ratio",
+        "Adequate supervision",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "High cost of living increases financial pressure.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Corruption is described as 'retarding' development. What does 'retard' mean here?",
+      options: [
+        "To speed up",
+        "To help or support",
+        "To slow down or delay",
+        "To start or create",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Corruption slows down progress and development.",
+    ),
+  ],
+);
+
+///JHS3
+final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. God created humankind to share in His creative activity through:",
+      options: [
+        "Worshipping other creatures",
+        "Inventing new technology",
+        "Destroying water bodies",
+        "Living alone in the forest",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Humankind has the ability to invent technology, showing we share in God's creative nature.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which animal is commonly used in Ghana for security and protection?",
+      options: ["Goat", "Cow", "Dog", "Chicken"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dogs are widely used by households and security agencies for protection.",
+    ),
+
+    QuizQuestion(
+      question: "3. The moon and stars are useful for:",
+      options: [
+        "Providing energy for photosynthesis",
+        "Drying fishes for preservation",
+        "Calculation of times and seasons",
+        "Mining gold and bauxite",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "They help humans calculate time, seasons, and years.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. What is the purpose of the sun in the process of photosynthesis?",
+      options: [
+        "It provides light for humans to see at night",
+        "It provides energy for plants to produce their own food",
+        "It helps humans extract salt from the sea",
+        "It provides shade for animals",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Plants use the sun’s energy to make food through photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "5. Humankind ensures the 'continuity of human creation' by:",
+      options: [
+        "Working in factories",
+        "Marrying and having children",
+        "Planting more trees",
+        "Building houses on land",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Procreation ensures the continuation of the human race.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is an industrial use of water?",
+      options: [
+        "Cooking and drinking at home",
+        "Watering crops on a farm",
+        "Manufacturing drinks in breweries",
+        "Providing a home for fish",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Industries like breweries use water to manufacture products.",
+    ),
+
+    QuizQuestion(
+      question: "7. Plants like grasses are grown specifically to:",
+      options: [
+        "Provide leather for shoes",
+        "Reduce soil erosion",
+        "Generate electricity",
+        "Provide light during the day",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Grasses help prevent soil erosion.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. According to the curriculum, what is the role of animals like donkeys and bulls?",
+      options: [
+        "They provide light at night",
+        "They are used as a means of transport",
+        "They help in the formation of rain",
+        "They serve as stewards of the earth",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "They are used to transport goods and people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Why did God give humankind 'dominion' over all other creations?",
+      options: [
+        "To destroy nature for money",
+        "To act as a boss who does no work",
+        "To take care of and ensure the upkeep of creation",
+        "To hide the wonders of God from others",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dominion means humans are responsible for caring for the environment.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which part of creation is used for extracting minerals like gold and bauxite?",
+      options: ["Heavenly bodies", "Water bodies", "Land", "Plants"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Minerals are extracted from the earth or land.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S1 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "God created humankind to share in His creative activity through:",
+      options: [
+        "Worshipping other creatures",
+        "Inventing new technology",
+        "Destroying water bodies",
+        "Living alone in the forest",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Humankind has the ability to invent technology, showing we share in God's creative nature.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Which animal is commonly used in Ghana for security and protection?",
+      options: ["Goat", "Cow", "Dog", "Chicken"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Animals like dogs are used by households and security agencies for protection.",
+    ),
+
+    QuizQuestion(
+      question: "The moon and stars are useful for:",
+      options: [
+        "Providing energy for photosynthesis",
+        "Drying fishes for preservation",
+        "Calculation of times and seasons",
+        "Mining gold and bauxite",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The moon and stars help humans calculate years, seasons, and time.",
+    ),
+
+    QuizQuestion(
+      question:
+          "What is the purpose of the sun in the process of photosynthesis?",
+      options: [
+        "It provides light for humans to see at night",
+        "It provides energy for plants to produce their own food",
+        "It helps humans extract salt from the sea",
+        "It provides shade for animals",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Plants use the sun's energy to make food through photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "Humankind ensures the 'continuity of human creation' by:",
+      options: [
+        "Working in factories",
+        "Marrying and having children",
+        "Planting more trees",
+        "Building houses on land",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Procreation allows the human race to continue on earth as God intended.",
+    ),
+
+    QuizQuestion(
+      question: "Which of the following is an industrial use of water?",
+      options: [
+        "Cooking and drinking at home",
+        "Watering crops on a farm",
+        "Manufacturing drinks in breweries",
+        "Providing a home for fish",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Industries like breweries use large amounts of water for production.",
+    ),
+
+    QuizQuestion(
+      question: "Plants like grasses are grown specifically to:",
+      options: [
+        "Provide leather for shoes",
+        "Reduce soil erosion",
+        "Generate electricity",
+        "Provide light during the day",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Grasses help prevent or reduce soil erosion.",
+    ),
+
+    QuizQuestion(
+      question:
+          "According to the curriculum, what is the role of animals like donkeys and bulls?",
+      options: [
+        "They provide light at night",
+        "They are used as a means of transport",
+        "They help in the formation of rain",
+        "They serve as stewards of the earth",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Donkeys and bulls are used to transport goods and people from place to place.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Why did God give humankind 'dominion' over all other creations?",
+      options: [
+        "To destroy nature for money",
+        "To act as a boss who does no work",
+        "To take care of and ensure the upkeep of creation",
+        "To hide the wonders of God from others",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dominion means humans are responsible for caring for and protecting the environment.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Which part of creation is used for extracting minerals like gold and bauxite?",
+      options: ["Heavenly bodies", "Water bodies", "Land", "Plants"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The earth (land) is the source from which minerals are mined.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "What is the term for cutting down trees without replacing them?",
+      options: [
+        "Afforestation",
+        "Reforestation",
+        "Deforestation",
+        "Cultivation",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Deforestation is the removal of forest cover.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Which activity is a major cause of mercury poisoning in Ghanaian rivers?",
+      options: ["Overgrazing", "Galamsey", "Overhunting", "Sand winning"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Illegal miners use mercury which poisons water bodies.",
+    ),
+
+    QuizQuestion(
+      question: "What is the result of weeding too closely to a riverbank?",
+      options: [
+        "The river flows faster",
+        "The water becomes cleaner",
+        "The water evaporates more quickly due to direct sunshine",
+        "More fish come to lay eggs",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Removing vegetation exposes water to sunlight, increasing evaporation.",
+    ),
+
+    QuizQuestion(
+      question: "Why is overgrazing bad for the environment?",
+      options: [
+        "It makes cattle grow too large",
+        "It leaves the land bare and causes erosion",
+        "It causes grass to grow too fast",
+        "It provides too much food for animals",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Overgrazing removes grass cover, exposing soil to erosion.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Using poisonous chemicals like DDT to catch fish is harmful because:",
+      options: [
+        "It makes fish taste better",
+        "It only kills big fish",
+        "It pollutes the water and kills many aquatic organisms",
+        "It is a very cheap way to fish",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Chemicals poison water and kill aquatic life.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Which of the following is an effect of destroying our environment?",
+      options: [
+        "Better rainfall patterns",
+        "Frequent floods and rainstorms",
+        "Plenty of food for everyone",
+        "Cleaner drinking water",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Environmental destruction leads to disasters like floods.",
+    ),
+
+    QuizQuestion(
+      question: "Illegal sand winning usually takes place at:",
+      options: [
+        "The top of mountains",
+        "Inside deep forests",
+        "Beaches and riverbeds",
+        "Local market squares",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sand is commonly taken from beaches and riverbeds.",
+    ),
+
+    QuizQuestion(
+      question:
+          "Hunting during the 'closed season' (when hunting is banned) is called:",
+      options: [
+        "Illegal hunting",
+        "Conservation",
+        "Proper hunting",
+        "Animal care",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Hunting during banned periods is illegal.",
+    ),
+
+    QuizQuestion(
+      question: "How does smoke from bush burning affect God's creation?",
+      options: [
+        "It destroys the ozone layer and pollutes the air",
+        "It helps plants grow faster",
+        "It makes the air cooler",
+        "It protects animals from hunters",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Smoke pollutes the air and harms the environment.",
+    ),
+
+    QuizQuestion(
+      question: "Human beings depend on the environment for:",
+      options: [
+        "Only gold and money",
+        "Nothing, because we make our own food",
+        "Only building factories",
+        "Survival needs like water, air, and food",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Humans rely on natural resources for survival.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s1ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/4. RME JHS3 S1 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which group calls the sea \"Nai\"?",
+      options: ["Ga", "Akan", "Ewe", "Dagomba"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Ga people regard the sea as a god named Nai.",
+    ),
+    QuizQuestion(
+      question: "2. What is a totem?",
+      options: [
+        "A type of traditional farming tool",
+        "An animal or plant related to a clan",
+        "A special song sung during harvest",
+        "A way of cooking traditional food",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Totems are objects from nature that clans have a special relationship with.",
+    ),
+    QuizQuestion(
+      question:
+          "3. The \"Mystic Stone\" that is said to have reappeared when moved for road construction is in:",
+      options: ["Mankessim", "Larabanga", "Techiman", "Dodowa"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Mystic Stone is located at Larabanga in the Northern Region.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does the taboo against defecating near a stream help the environment?",
+      options: [
+        "It keeps the forest quiet",
+        "It prevents the water from being polluted with germs",
+        "It makes the trees grow taller",
+        "It helps the gods to sleep better",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This taboo acts as a traditional health and sanitation rule.",
+    ),
+    QuizQuestion(
+      question: "5. The Fante people refer to the Earth goddess as:",
+      options: ["Asase Afua", "Asase Yaa", "Nyigbla", "Bosompo"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Fante call the Earth Asase Afua.",
+    ),
+    QuizQuestion(
+      question: "6. In the Yeve cult of the Anlo, thunder is revered as:",
+      options: [
+        "A sign of rain",
+        "A warning for war",
+        "Noise from the ancestors",
+        "A deity",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Anlo believe God expresses anger through thunder, which is a revered deity.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is a taboo that protects the forest?",
+      options: [
+        "No farming on sacred days",
+        "No talking while walking in the bush",
+        "No wearing sandals in the market",
+        "No singing while farming",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Setting aside sacred days prevents the forest from being over-exploited.",
+    ),
+    QuizQuestion(
+      question: "8. The Aduana clan revere which animal as their totem?",
+      options: ["Leopard", "Falcon", "Buffalo", "Dog"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The dog and frog are totems for the Aduana clan.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are trees around water bodies not allowed to be felled in traditional culture?",
+      options: [
+        "To provide shade for fishermen",
+        "To prevent the water from evaporating and drying up",
+        "Because the trees are too hard to cut",
+        "To allow birds to build nests for hunting",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Keeping trees near water prevents direct sunshine from drying up the river.",
+    ),
+    QuizQuestion(
+      question: "10. The belief that \"the gods reside in nature\" means:",
+      options: [
+        "We can use nature however we want",
+        "Nature is sacred and must be protected",
+        "The gods are afraid of humans",
+        "Nature has no value to humans",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "If gods live in nature, then destroying nature is an insult to the gods.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s1ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/5. RME JHS3 S1 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is a way of protecting the environment?",
+      options: [
+        "Encouraging galamsey",
+        "Planting more trees",
+        "Throwing rubbish in gutters",
+        "Clearing all vegetation for building",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tree planting (reforestation) is a key way to protect nature.",
+    ),
+    QuizQuestion(
+      question:
+          "2. \"A healthy environment means a healthy human.\" This means:",
+      options: [
+        "We only get sick in the forest",
+        "Protecting nature reduces the risk of diseases",
+        "Only healthy people can plant trees",
+        "Plants are healthier than humans",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Clean environments prevent many health problems.",
+    ),
+    QuizQuestion(
+      question: "3. Indigenous Ghanaians take care of nature to avoid:",
+      options: [
+        "Paying taxes",
+        "Going to school",
+        "Getting tired",
+        "Offending God and the ancestors",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Respecting nature is seen as a religious duty to God.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which activity helps humanity reduce actions that hurt the environment?",
+      options: [
+        "Secret mining",
+        "Overgrazing cattle",
+        "Cutting trees for charcoal",
+        "Public education",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Educating the public helps people understand the effects of their actions.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does the environment help God reveal Himself to humans?",
+      options: [
+        "Through the money we find in the ground",
+        "Through His marvelous creation like plants and water",
+        "By making everyone rich",
+        "By talking to us through the radio",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "God's attributes are seen through the things He created.",
+    ),
+    QuizQuestion(
+      question: "6. One way to protect the air from pollution is to:",
+      options: [
+        "Burn more rubbish",
+        "Use more cars with smoke",
+        "Avoid bush burning and toxic gases",
+        "Cut down all the trees",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Avoiding toxic smoke keeps the air clean.",
+    ),
+    QuizQuestion(
+      question: "7. We are 'obligated' to protect the environment because:",
+      options: [
+        "We are stewards put in charge by God",
+        "It is a way to make the land very expensive",
+        "We want to catch more animals to sell",
+        "The environment is not important to us",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stewardship is a divine obligation given by God.",
+    ),
+    QuizQuestion(
+      question: "8. What should happen to firms that destroy God's creation?",
+      options: [
+        "They should be given prizes",
+        "They should be arrested and fined heavily",
+        "They should be told to move to another village",
+        "Nothing should happen to them",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Law enforcement acts as a deterrent to environmental destruction.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following is NOT a reason to care for God's creation?",
+      options: [
+        "It makes us righteous people",
+        "To show respect for God's gift",
+        "To preserve it for future generations",
+        "Because we are stewards",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "While caring for nature is good, the primary reasons are respect, stewardship, and preservation for the future.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The relationship between humans and the environment is described as:",
+      options: [
+        "Competitive",
+        "Symbiotic (they depend on each other)",
+        "Unimportant",
+        "Only physical",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Humans and the environment benefit from and depend on each other.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a religious festival?",
+      options: [
+        "A monthly meeting for workers",
+        "A time of special importance celebrated once a year",
+        "A weekly market day in the village",
+        "A party held only for children",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious festivals are special occasions celebrated by religious groups once every year.",
+    ),
+    QuizQuestion(
+      question: "2. Why do farmers celebrate Agricultural festivals?",
+      options: [
+        "To sell their farm tools",
+        "To buy new land from the chief",
+        "To thank God for a good harvest",
+        "To celebrate their birthdays",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "These festivals are held to thank God and ancestors for the harvest.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following is an example of an Agricultural festival?",
+      options: [
+        "Eid-ul-Fitr",
+        "Yam Festival (Tɛdudu)",
+        "Christmas",
+        "Hogbetsotso",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Yam festival is a major agricultural celebration in the Volta Region.",
+    ),
+    QuizQuestion(
+      question: "4. The people of Winneba celebrate which festival?",
+      options: ["Homowo", "Odwira", "Damba", "Aboakyer"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Aboakyer festival is celebrated by the Effutu people of Winneba.",
+    ),
+    QuizQuestion(
+      question: "5. Historical festivals are celebrated to remember:",
+      options: [
+        "Future events",
+        "The deeds of past heroes",
+        "The price of goods at Kejetia",
+        "How to build a modern house",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "These festivals remember past deeds of heroes and heroines.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which festival is celebrated by the Anlo people in the Volta Region?",
+      options: ["Bakatue", "Homowo", "Odwira", "Hogbetsotso"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Hogbetsotso commemorates the escape of the Anlo people from Notsie.",
+    ),
+    QuizQuestion(
+      question: "7. What is the meaning of the word 'Odwira'?",
+      options: ["Harvest", "Cleansing", "Sacrifice", "Journey"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Odwira is an Akan word meaning cleansing or purification.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Muslims celebrate Eid-ul-Adha to remember the sacrifice of:",
+      options: [
+        "Prophet Mohammed",
+        "Prophet Ibrahim",
+        "Prophet Isa",
+        "Prophet Nuh",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "This festival remembers Ibrahim’s willingness to sacrifice his son.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of these festivals is celebrated to remember the naming of Prophet Mohammed?",
+      options: ["Eid-ul-Fitr", "Bugum", "Ramadan", "Damba"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Naa Damba part of the festival marks the naming of the Prophet.",
+    ),
+    QuizQuestion(
+      question: "10. The rituals performed during festivals are meant to:",
+      options: [
+        "Scare children in the community",
+        "Show off the wealth of the Chief",
+        "Waste the time of the people",
+        "Honour and thank God and spirit forces",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Rituals are performed to honour and give thanks for past favours.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S2 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the main reason for community clean-up exercises before a festival?",
+      options: [
+        "To find lost items in the town",
+        "To make the environment clean and welcoming",
+        "To exercise for the upcoming dance",
+        "To provide jobs for the youth",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Clean-up exercises ensure the town is physically prepared and beautiful for the celebration.",
+    ),
+    QuizQuestion(
+      question:
+          "2. During Christmas, which day is specifically known for the sharing of gifts and food?",
+      options: ["Good Friday", "Easter Sunday", "Boxing Day", "Palm Sunday"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "December 26th, or Boxing Day, is the traditional day for sharing gifts with loved ones and the poor.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Abstinence from sex is a preparatory act for which group during Ramadan?",
+      options: [
+        "All children in the community",
+        "Only the Chiefs and Queen Mothers",
+        "Muslims who are fasting",
+        "Visitors from foreign countries",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fasting in Islam involves abstaining from food, drink, and sexual relations from dawn to dusk.",
+    ),
+    QuizQuestion(
+      question:
+          "4. At a Grand Durbar, who is usually the central figure surrounded by sub-chiefs?",
+      options: [
+        "The Paramount Chief",
+        "The youngest child in town",
+        "The head of the market traders",
+        "A visiting tourist",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Paramount Chief sits in state, often under a large umbrella, at the climax of the festival.",
+    ),
+    QuizQuestion(
+      question: "5. What is 'Odadaa' in the context of the Homowo festival?",
+      options: [
+        "The ritual that ends the ban on noise",
+        "A type of delicious food",
+        "A special dance performed by women",
+        "The name of the Chief's palace",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Gbese Mantse performs rites to lift the ban on noise, an act known as Odadaa.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which activity allows people who have traveled away to return to their 'roots'?",
+      options: [
+        "Public worship",
+        "Family re-union",
+        "Fasting and sacrifice",
+        "Clean-up exercises",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Festivals provide an avenue for family members to return home and bond.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What color of cloth do many Christians wear on Good Friday to show mourning?",
+      options: [
+        "White and Gold",
+        "Black and Red",
+        "Blue and Yellow",
+        "Green and White",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Black and red are traditional colors used to signify sadness and mourning for the crucifixion of Jesus.",
+    ),
+    QuizQuestion(
+      question:
+          "8. In the Damba festival, what happens during the 'Naa Damba' stage?",
+      options: [
+        "A bull is slaughtered at noon",
+        "People stay inside and remain silent",
+        "Farmers award those with the best crops",
+        "The ban on drumming begins",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Naa Damba is the second part where a bull is slaughtered and people dance the 'Damba beat'.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do people exchange greetings like 'Noowala Homo' during festivals?",
+      options: [
+        "To ask for money from neighbors",
+        "To socialize and wish others well",
+        "To signal the start of a fight",
+        "To tell people to go home",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Exchanging greetings is a major activity that promotes peace and socialization.",
+    ),
+    QuizQuestion(
+      question: "10. What is a 'Grand Durbar' famous for?",
+      options: [
+        "Its absolute silence and fasting",
+        "Displays of rich traditional costumes and Kente",
+        "Being held only in the middle of the night",
+        "Only allowing children to participate",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Grand Durbars are colorful events where traditional richness and culture are displayed.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is a SOCIAL importance of festivals?",
+      options: [
+        "Bringing people together to plan development",
+        "Thanking the ancestors for life",
+        "Fasting for forty days and nights",
+        "Pouring libation to the gods",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Festivals bring people together to plan and support community development.",
+    ),
+    QuizQuestion(
+      question: "2. Festivals help us to 'reconcile.' This means we:",
+      options: [
+        "Buy new clothes for the durbar",
+        "Settle differences and make peace",
+        "Travel to a very far country",
+        "Learn how to play the drums",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Reconciliation means resolving conflicts and restoring peace among people.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What moral value do we learn from the sacrifice of Prophet Ibrahim during Eid-ul-Adha?",
+      options: [
+        "Obedience to God",
+        "How to farm yams",
+        "Traveling to the city",
+        "Trading in the market",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The story teaches obedience and faith in God.",
+    ),
+    QuizQuestion(
+      question:
+          "4. The 'Odadaa' period teaches the value of 'Endurance.' How can a student show endurance?",
+      options: [
+        "By giving up when a math problem is hard",
+        "By continuing to study even when it is difficult",
+        "By sleeping in class during the lesson",
+        "By shouting loudly during the quiet time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Endurance means persisting even when things are difficult.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which importance is shown when a Chief calls for a fund-raiser to build a school?",
+      options: ["Social", "Religious", "Agricultural", "Personal"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fund-raising for community projects shows social importance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is it important for a nation to promote its festivals for tourism?",
+      options: [
+        "To make the citizens tired",
+        "To bring in foreign exchange and investment",
+        "To stop people from working in offices",
+        "To celebrate birthdays for everyone",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Festivals attract tourists and boost the economy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A student who shares his lunch with a hungry classmate is practicing the lesson of:",
+      options: [
+        "Bravery",
+        "Historical remembrance",
+        "Purification",
+        "Kindness and Generosity",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sharing shows kindness and generosity.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which religious act during a festival involves asking for forgiveness from God?",
+      options: [
+        "Dancing at the durbar",
+        "Riding a horse through town",
+        "Wearing expensive jewelry",
+        "Public worship and prayer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Prayer and worship are used to seek forgiveness from God.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the significance of the 'black stool' purification in some traditional festivals?",
+      options: [
+        "To make the stool look shiny",
+        "To spiritually cleanse the community for a new year",
+        "To show that the wood is very strong",
+        "To prepare for a naming ceremony",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It symbolizes spiritual cleansing and renewal of the community.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Festivals remind us that we are one people. This creates a sense of:",
+      options: ["Fear", "Identity and Belonging", "Anger", "Confusion"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Festivals promote unity, identity, and a sense of belonging.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is a SOCIAL importance of festivals?",
+      options: [
+        "Bringing people together to plan development",
+        "Thanking the ancestors for life",
+        "Fasting for forty days and nights",
+        "Pouring libation to the gods",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Festivals bring people together to plan and support community development.",
+    ),
+    QuizQuestion(
+      question: "2. Festivals help us to 'reconcile.' This means we:",
+      options: [
+        "Buy new clothes for the durbar",
+        "Settle differences and make peace",
+        "Travel to a very far country",
+        "Learn how to play the drums",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Reconciliation means resolving conflicts and restoring peace among people.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What moral value do we learn from the sacrifice of Prophet Ibrahim during Eid-ul-Adha?",
+      options: [
+        "Obedience to God",
+        "How to farm yams",
+        "Traveling to the city",
+        "Trading in the market",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The story teaches obedience and faith in God.",
+    ),
+    QuizQuestion(
+      question:
+          "4. The 'Odadaa' period teaches the value of 'Endurance.' How can a student show endurance?",
+      options: [
+        "By giving up when a math problem is hard",
+        "By continuing to study even when it is difficult",
+        "By sleeping in class during the lesson",
+        "By shouting loudly during the quiet time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Endurance means persisting even when things are difficult.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which importance is shown when a Chief calls for a fund-raiser to build a school?",
+      options: ["Social", "Religious", "Agricultural", "Personal"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fund-raising for community projects shows social importance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is it important for a nation to promote its festivals for tourism?",
+      options: [
+        "To make the citizens tired",
+        "To bring in foreign exchange and investment",
+        "To stop people from working in offices",
+        "To celebrate birthdays for everyone",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Festivals attract tourists and boost the economy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A student who shares his lunch with a hungry classmate is practicing the lesson of:",
+      options: [
+        "Bravery",
+        "Historical remembrance",
+        "Purification",
+        "Kindness and Generosity",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sharing shows kindness and generosity.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which religious act during a festival involves asking for forgiveness from God?",
+      options: [
+        "Dancing at the durbar",
+        "Riding a horse through town",
+        "Wearing expensive jewelry",
+        "Public worship and prayer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Prayer and worship are used to seek forgiveness from God.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the significance of the 'black stool' purification in some traditional festivals?",
+      options: [
+        "To make the stool look shiny",
+        "To spiritually cleanse the community for a new year",
+        "To show that the wood is very strong",
+        "To prepare for a naming ceremony",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It symbolizes spiritual cleansing and renewal of the community.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Festivals remind us that we are one people. This creates a sense of:",
+      options: ["Fear", "Identity and Belonging", "Anger", "Confusion"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Festivals promote unity, identity, and a sense of belonging.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S3 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is a SOCIAL importance of festivals?",
+      options: [
+        "Bringing people together to plan development",
+        "Thanking the ancestors for life",
+        "Fasting for forty days and nights",
+        "Pouring libation to the gods",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Festivals bring people together to plan and support community development.",
+    ),
+    QuizQuestion(
+      question: "2. Festivals help us to 'reconcile.' This means we:",
+      options: [
+        "Buy new clothes for the durbar",
+        "Settle differences and make peace",
+        "Travel to a very far country",
+        "Learn how to play the drums",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Reconciliation means resolving conflicts and restoring peace among people.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What moral value do we learn from the sacrifice of Prophet Ibrahim during Eid-ul-Adha?",
+      options: [
+        "Obedience to God",
+        "How to farm yams",
+        "Traveling to the city",
+        "Trading in the market",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The story teaches obedience and faith in God.",
+    ),
+    QuizQuestion(
+      question:
+          "4. The 'Odadaa' period teaches the value of 'Endurance.' How can a student show endurance?",
+      options: [
+        "By giving up when a math problem is hard",
+        "By continuing to study even when it is difficult",
+        "By sleeping in class during the lesson",
+        "By shouting loudly during the quiet time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Endurance means persisting even when things are difficult.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which importance is shown when a Chief calls for a fund-raiser to build a school?",
+      options: ["Social", "Religious", "Agricultural", "Personal"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fund-raising for community projects shows social importance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is it important for a nation to promote its festivals for tourism?",
+      options: [
+        "To make the citizens tired",
+        "To bring in foreign exchange and investment",
+        "To stop people from working in offices",
+        "To celebrate birthdays for everyone",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Festivals attract tourists and boost the economy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A student who shares his lunch with a hungry classmate is practicing the lesson of:",
+      options: [
+        "Bravery",
+        "Historical remembrance",
+        "Purification",
+        "Kindness and Generosity",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sharing shows kindness and generosity.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which religious act during a festival involves asking for forgiveness from God?",
+      options: [
+        "Dancing at the durbar",
+        "Riding a horse through town",
+        "Wearing expensive jewelry",
+        "Public worship and prayer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Prayer and worship are used to seek forgiveness from God.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the significance of the 'black stool' purification in some traditional festivals?",
+      options: [
+        "To make the stool look shiny",
+        "To spiritually cleanse the community for a new year",
+        "To show that the wood is very strong",
+        "To prepare for a naming ceremony",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It symbolizes spiritual cleansing and renewal of the community.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Festivals remind us that we are one people. This creates a sense of:",
+      options: ["Fear", "Identity and Belonging", "Anger", "Confusion"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Festivals promote unity, identity, and a sense of belonging.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S3 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How can sports help religious groups live peacefully?",
+      options: [
+        "By creating a bond of friendship through games.",
+        "By showing which religion has the strongest players.",
+        "By preventing people from going to church or mosque.",
+        "By making everyone support the same professional team.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Shared sports like football or indoor games cement friendships.",
+    ),
+    QuizQuestion(
+      question:
+          "2. According to our lessons, how should we treat the views and rights of others?",
+      options: [
+        "We should respect them with decency and fairness.",
+        "We should ignore them if we disagree.",
+        "We should only respect them if they pay us.",
+        "We should try to change their views immediately.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Peaceful co-existence involves treating everyone’s views with respect.",
+    ),
+    QuizQuestion(
+      question: "3. What is a 'misconception' in a religious context?",
+      options: [
+        "A true story about a religious leader.",
+        "A wrong or mistaken idea about a faith.",
+        "A special type of prayer or song.",
+        "A gift given during a religious festival.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Misconceptions are wrong notions that can be erased through good interaction.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of these is a result of people of diverse backgrounds living in harmony?",
+      options: [
+        "Increased religious tension.",
+        "Unity and togetherness.",
+        "Destruction of property.",
+        "Inter-religious wars.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Living in harmony naturally leads to unity and a sense of togetherness.",
+    ),
+    QuizQuestion(
+      question: "5. Why should we encourage inter-religious marriages?",
+      options: [
+        "To make sure all families look the same.",
+        "To foster peaceful co-existence in the community.",
+        "To stop people from being religious.",
+        "To reduce the cost of wedding ceremonies.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Marriages between different faiths help different parts of society bond together.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Being a member of a 'Keep Fit Club' with people of other religions is an example of:",
+      options: [
+        "Religious intolerance.",
+        "Religious bias.",
+        "Political manipulation.",
+        "Belonging to the same association.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Sharing clubs and associations helps people from different backgrounds live peacefully.",
+    ),
+    QuizQuestion(
+      question: "7. How does RME help the next generation in Ghana?",
+      options: [
+        "It teaches them how to build better houses.",
+        "It helps them appreciate and respect other's faiths.",
+        "It shows them how to become rich quickly.",
+        "It teaches them only about one religion.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "RME provides a practical avenue to understand and respect others.",
+    ),
+    QuizQuestion(
+      question: "8. In a peaceful community, what happens to 'mistrust'?",
+      options: [
+        "It becomes the main way people communicate.",
+        "It is reduced through good interaction.",
+        "It is encouraged by the community leaders.",
+        "It has no effect on how people live.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Regular interaction helps reduce suspicion and mistrust.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of these is a 'developmental project' that benefits from peace?",
+      options: [
+        "A private family argument.",
+        "Buying new clothes for a festival.",
+        "Choosing a personal favorite song.",
+        "Building a community library or clinic.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Projects that help the whole community require unity and peace.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The need for people of diverse backgrounds to live in harmony is to:",
+      options: [
+        "Create a single new religion for everyone.",
+        "Allow people to stop working.",
+        "Make sure everyone speaks the same language.",
+        "Prevent religious tension and conflict.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Harmony is the best tool to prevent unnecessary tension and fighting.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S4 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Who is referred to as a \"medium used by God\" to bring Jesus into the world?",
+      options: ["Deborah", "Khadijah", "Mary", "Oparebea"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mary was the woman through whom God manifested Himself in human form.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which woman provided the strategy that led to victory over King Jabin's army?",
+      options: ["Yaa Asantewaa", "Khadijah", "Aisha", "Deborah"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Deborah's military strategy as a judge led the Israelites to victory.",
+    ),
+    QuizQuestion(
+      question: "3. Nana Akua Oparebea was the High Priestess of which shrine?",
+      options: [
+        "Antoa Nyamaa",
+        "Akonnedi Shrine",
+        "Tigare Shrine",
+        "Nogokpo Shrine",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "She was the famous leader of the Akonnedi Shrine in Larteh.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How many hadiths is Aisha bint Abu Bakr credited with narrating?",
+      options: ["Over 5,000", "Exactly 100", "Over 2,000", "Over 500"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Aisha narrated 2,210 hadiths, making her a primary source of Islamic knowledge.",
+    ),
+    QuizQuestion(
+      question: "5. Khadijah's contribution to Islam was primarily through:",
+      options: [
+        "Financial and emotional support",
+        "Leading battles",
+        "Teaching law to women",
+        "Performing miracles",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Khadijah used her wealth and status to protect and fund the Prophet's mission.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where was Yaa Asantewaa sent after being captured by the British?",
+      options: ["Nigeria", "United Kingdom", "Seychelles", "Sierra Leone"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "She and her advisers were exiled to the Seychelles islands.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which woman is associated with the first miracle performed by Jesus?",
+      options: ["Mary Magdalene", "Martha", "Mary, mother of Jesus", "Deborah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mary interceded at the wedding in Cana, leading to the turning of water into wine.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Okomfo Oparebea was the first president of which association in Ghana?",
+      options: [
+        "Ghana Medical Association",
+        "Ghana Psychic and Traditional Healers Association",
+        "Christian Council of Ghana",
+        "National House of Chiefs",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Dr. Kwame Nkrumah requested the formation of this body, and Oparebea was its first president.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why is Yaa Asantewaa considered a \"protector\" in Indigenous Religion?",
+      options: [
+        "She built many shrines in Ejisu.",
+        "She translated the Golden Stool's history.",
+        "She defended the Golden Stool from foreign capture.",
+        "She taught the Asante Kings how to farm.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Her main mission was to protect the sovereign independence of the Golden Stool.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What role did Aisha play after the death of Prophet Muhammad?",
+      options: [
+        "She became a successful merchant in Syria.",
+        "She continued to teach and support the Muslim community.",
+        "She returned to her father's house and stopped teaching.",
+        "She led the army back to Mecca.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Aisha remained a vital scholar and leader for 44 years after the Prophet's death.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S4 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which woman’s life teaches us to be \"financially independent\" through hard work?",
+      options: ["Mary", "Deborah", "Okomfo Oparebea", "Aisha"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Okomfo Oparebea owned farms and businesses, teaching us that women should be self-sufficient.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student who is \"loyal\" like the women in the three major religions will:",
+      options: [
+        "Only support their friends when things are easy.",
+        "Change their beliefs to fit in with the crowd.",
+        "Have strong support for their religion and community.",
+        "Disobey rules they don't like.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Loyalty refers to having strong support and love for one’s religion and people.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of these is a way to show \"Patriotism\" in Ghana today?",
+      options: [
+        "Moving to another country to work.",
+        "Speaking well of Ghana and defending her.",
+        "Avoiding community cleaning days.",
+        "Buying only foreign-made goods.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism involves showing great love for your state and defending it.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Mother Mary’s acceptance of her role as the mother of Jesus is a lesson in:",
+      options: ["Pride", "Humility", "Leadership", "Wealth"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Mary was very humble and submitted herself completely to God's will.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When a student like Justice Wood acts as a \"choir leader,\" she is demonstrating:",
+      options: [
+        "That she is better than others.",
+        "How to use her talents for God.",
+        "That she only likes music.",
+        "How to avoid hard work.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Justice Georgina Wood served God with her talent as a choir leader, showing we should use our skills for good.",
+    ),
+    QuizQuestion(
+      question:
+          "6. \"Gender sensitivity,\" as shown by Professor Jane Naana Opoku-Agyemang, means:",
+      options: [
+        "Only helping girls to succeed.",
+        "Treating both boys and girls equally without bias.",
+        "Thinking that men are better leaders than women.",
+        "Avoiding working with people of the opposite sex.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Being gender-sensitive means treating both sexes fairly and empowering everyone equally.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A student who practices \"volunteerism\" like Susan Ofori-Atta did in Congo will:",
+      options: [
+        "Help others for free when there is a need.",
+        "Only work if they are paid a lot of money.",
+        "Wait for the teacher to tell them what to do.",
+        "Complain about having to help the community.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Susan Ofori-Atta worked as a volunteer doctor when she was needed, showing the spirit of volunteerism.",
+    ),
+    QuizQuestion(
+      question: "8. Being \"impartial\" like the female judges in Ghana means:",
+      options: [
+        "Dealing fairly with all persons regardless of who they are.",
+        "Helping your friends more than strangers.",
+        "Making decisions quickly without thinking.",
+        "Only listening to people who have money.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Impartiality means treating everyone fairly, no matter their status or gender.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which lesson do we learn from Khadijah enduring hard times with her husband?",
+      options: [
+        "We must also learn to endure during difficult times.",
+        "We should run away when things get difficult.",
+        "We should blame others for our problems.",
+        "Difficult times mean we have done something wrong.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Khadijah’s endurance teaches us to stay strong and committed even during life's challenges.",
+    ),
+    QuizQuestion(
+      question: "10. A \"disciplined\" student like Adjoa Bayor will:",
+      options: [
+        "Only follow rules when the teacher is watching.",
+        "Obey the rules of their sport and their school.",
+        "Try to find ways to break the rules without being caught.",
+        "Think that rules are not for talented people.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Discipline involves obeying rules and authorities in your chosen field.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S4 SS1 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which condition did Susan Ofori-Atta pioneer research into?",
+      options: ["Malaria", "Diabetes", "Kwashiorkor", "Cancer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "She pioneered research into childhood malnutrition and coined the term 'Kwashiorkor'.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Who served as the first female Vice-Chancellor of a state university in Ghana?",
+      options: [
+        "Marian Ewurama Addy",
+        "Nana Aba Appiah Amfo",
+        "Jane Naana Opoku-Agyemang",
+        "Rita Akosua Dickson",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Professor Jane Naana Opoku-Agyemang was the first female Vice-Chancellor of a state university in Ghana.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which Ghanaian woman is known for excellence in science and education?",
+      options: [
+        "Yaa Asantewaa",
+        "Marian Ewurama Addy",
+        "Adjoa Bayor",
+        "Elizabeth Akua Ohene",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Marian Ewurama Addy was a respected scientist and educator in Ghana.",
+    ),
+    QuizQuestion(
+      question: "4. Which field is Rita Akosua Dickson associated with?",
+      options: ["Medicine", "Agriculture", "Science", "Law"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Professor Rita Akosua Dickson is a scientist and academic leader.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Nana Aba Appiah Amfo is best known for her contribution to:",
+      options: ["Sports", "Linguistics and education", "Politics", "Music"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "She is a linguist and academic, contributing greatly to education in Ghana.",
+    ),
+    QuizQuestion(
+      question: "6. Which woman is known for leadership in sports in Ghana?",
+      options: [
+        "Adjoa Bayor",
+        "Jane Naana Opoku-Agyemang",
+        "Marian Addy",
+        "Oparebea",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Adjoa Bayor is a famous Ghanaian footballer known for her achievements.",
+    ),
+    QuizQuestion(
+      question: "7. What makes Adjoa Bayor unique in Ghanaian sports?",
+      options: [
+        "She was the first female referee.",
+        "She is the only sports personality to have won all major awards.",
+        "She coached the national team.",
+        "She introduced football in Ghana.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "She is the only sports personality in Ghana to have won all major awards successfully.",
+    ),
+    QuizQuestion(
+      question: "8. Which sector did Marian Ewurama Addy contribute to most?",
+      options: ["Law", "Science", "Politics", "Religion"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "She made significant contributions in the field of science.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Elizabeth Akua Ohene contributes to Ghana's development through which sector?",
+      options: ["Law", "Health", "Agriculture", "Sports"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "She is a produce farmer who leads a women's farming association in Greater Accra.",
+    ),
+    QuizQuestion(
+      question: "10. What key lesson do we learn from Ghanaian women leaders?",
+      options: [
+        "Women should avoid leadership roles.",
+        "Leadership is only for men.",
+        "Women can contribute greatly to national development.",
+        "Education is not important for women.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Ghanaian women have shown that they can lead and contribute significantly in all sectors.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S5 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is an incentive received in appreciation of a worthy act called?",
+      options: ["Reward", "Punishment", "Repentance", "Bribery"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "A reward is an incentive given to appreciate good behavior.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a good deed related to the environment?",
+      options: [
+        "Planting trees and flowers in the school compound",
+        "Throwing plastic bags into the gutter",
+        "Ignoring a leaking tap in the washroom",
+        "Burning rubbish near people's homes",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Protecting and caring for the environment is an act of a good deed.",
+    ),
+    QuizQuestion(
+      question:
+          "3. According to the NaCCA curriculum, assisting the weak to cross the road is:",
+      options: [
+        "A waste of time",
+        "A good deed",
+        "A type of punishment",
+        "Only for adults",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Assisting the weak is a commended behavior in society.",
+    ),
+    QuizQuestion(
+      question: "4. Which proverb encourages the performance of good deeds?",
+      options: [
+        "One man's meat is another man's poison.",
+        "Good name is better than riches.",
+        "Work and happiness go together.",
+        "A stitch in time saves nine.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This proverb emphasizes the value of having a good reputation through good acts.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When a teacher writes a positive comment about your behavior in your report, it is a:",
+      options: [
+        "Good testimonial",
+        "Physical reward",
+        "Reprimand",
+        "Social ceremony",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A testimonial gives a detailed account of a student's character and conduct.",
+    ),
+    QuizQuestion(
+      question: "6. Performing good deeds makes the doer feel:",
+      options: [
+        "Proud and boastful",
+        "Satisfied and happy",
+        "Tired and angry",
+        "Fearful of others",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Doing good warms the heart and provides personal satisfaction.",
+    ),
+    QuizQuestion(
+      question: "7. A handshake, a hug, or a pat on the back are examples of:",
+      options: [
+        "Monetary rewards",
+        "Formal certificates",
+        "Gestures of appreciation",
+        "Spiritual rituals",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "These are simple physical gestures used to show love and appreciation.",
+    ),
+    QuizQuestion(
+      question: "8. Rewarding people helps society to:",
+      options: [
+        "Become more competitive and aggressive",
+        "Emulate or copy the good behaviors of others",
+        "Stop doing work unless there is a prize",
+        "Divide people into groups",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Rewards encourage others in society to copy the good deeds performed by others.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following is a reason why we should do good deeds?",
+      options: [
+        "To show that we have more money than others",
+        "To draw us closer to God and attract blessings",
+        "To avoid doing our school assignments",
+        "To force people to like us",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "All religions teach that good deeds bring us closer to God.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The incentive given for hard work or success is known as a:",
+      options: ["Fine", "Debt", "Sentence", "Reward"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Rewards are the benefits that go with hard work and success.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S5 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is the best definition of a 'bad deed'?",
+      options: [
+        "An action that is popular on social media.",
+        "An action that makes you work very hard.",
+        "Any action done by a young person.",
+        "A trait that attracts negative reactions from God and society.",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Bad deeds are defined by their negative impact and societal disapproval.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Bringing a \"crib\" or notes into the BECE hall is an example of:",
+      options: [
+        "Examination malpractice.",
+        "Being well-prepared.",
+        "Good luck.",
+        "A social reward.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Carrying unauthorized materials into an exam is a punishable offence.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which punishment is often used in traditional Ghanaian communities for breaking a taboo?",
+      options: [
+        "Naming a monument after the person.",
+        "Giving a certificate.",
+        "Banishment or paying a fine to pacify the gods.",
+        "Promotion to a higher rank.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Traditional authorities use fines or banishment to restore communal order.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the name for punishment that involves the human body, such as caning?",
+      options: [
+        "Psychological punishment.",
+        "Financial punishment.",
+        "Physical or corporal punishment.",
+        "Social punishment.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Corporal punishment specifically targets the physical body.",
+    ),
+    QuizQuestion(
+      question: "5. Punishing someone to maintain \"law and order\" ensures:",
+      options: [
+        "That only the rich follow the rules.",
+        "That there is peace and stability in society.",
+        "That no one ever makes a mistake.",
+        "That the police have a lot of work to do.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rules and consequences help prevent chaos in the community.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of these is a CAUSE of bad deeds according to the textbook?",
+      options: [
+        "Doing communal labour.",
+        "Peer pressure or influence.",
+        "Receiving a good testimonial.",
+        "Helping the elderly.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Associating with people who have bad morals can influence one to do wrong.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If a prefect is removed from their post for being lawless, what type of punishment is this?",
+      options: ["Imprisonment.", "Demotion.", "Banishment.", "Fines."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Demotion is being relieved of a position or rank due to wrongdoing.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following is an effect of bad deeds on the individual?",
+      options: [
+        "It brings a \"good name.\"",
+        "It leads to psychological effects like stress and sadness.",
+        "It attracts God's blessings.",
+        "It makes people want to be your friend.",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Wrongdoing often leads to emotional and mental pain for the person involved.",
+    ),
+    QuizQuestion(
+      question: "9. 'Fitting retribution' means:",
+      options: [
+        "Forgiving the offender without any penalty.",
+        "Giving a reward for a bad deed.",
+        "Making the offender suffer a penalty that matches their action.",
+        "Asking the offender to teach others.",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Retribution is a penalty that serves as a consequence for the bad deed.",
+    ),
+    QuizQuestion(
+      question: "10. A person who engages in \"Sakawa\" (fraud) is likely to:",
+      options: [
+        "Receive a testimonial of good conduct.",
+        "Be praised by the Chief.",
+        "Face imprisonment and shame.",
+        "Live a long and peaceful life.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Illegal acts like fraud lead to legal consequences and loss of respect.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S5 SS1 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Repentance involves being ______ for one's past misconduct.",
+      options: ["Angry", "Proud", "Remorseful", "Happy"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Remorse is a key part of the definition of repentance.",
+    ),
+    QuizQuestion(
+      question:
+          "2. The proverb \"An honest confession is difficult to make but it brings peace of mind\" emphasizes:",
+      options: ["Fear", "Integrity and relief", "Physical strength", "Wealth"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Confessing honestly clears the conscience.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which stage involves asking the offended person for forgiveness?",
+      options: ["Realization", "Request for pardon", "Restitution", "Regret"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Pardon is another word for forgiveness.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In the parable of the Prodigal Son, the father reacted to his son's return by:",
+      options: [
+        "Punishing him severely",
+        "Refusing to talk to him",
+        "Welcoming him with compassion and a feast",
+        "Asking him to pay back all the money",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The father showed total forgiveness and joy.",
+    ),
+    QuizQuestion(
+      question: "5. True repentance leads to:",
+      options: [
+        "God's justice",
+        "Reconciliation and peace",
+        "More bad deeds",
+        "Fear of the community",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It repairs relationships and brings internal peace.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If you steal a mango from Ama and later feel sorry and return it, returning the mango is called:",
+      options: [
+        "Request for pardon",
+        "Restitution",
+        "Realization",
+        "Reprimand",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Fixing the wrong by returning the item is restitution.",
+    ),
+    QuizQuestion(
+      question: "7. Why is it wrong to 'shift the blame' when repenting?",
+      options: [
+        "Because it makes the apology longer",
+        "Because it shows you are not fully accepting responsibility",
+        "Because your friends will be angry",
+        "Because it is a form of reward",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "True repentance requires fully accepting one's own fault.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which religious book contains the teaching \"Whoever repents and does righteous good deeds, then verily, he repents towards Allah\"?",
+      options: ["The Bible", "The Qur'an", "The Vedas", "The Oral Traditions"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "This is a teaching from the Qur'an regarding repentance.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Repentance helps to minimize social ______ in the community.",
+      options: ["Vices", "Rewards", "Testimonials", "Leaders"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "When people repent and change, crimes and bad behaviors decrease.",
+    ),
+    QuizQuestion(
+      question: "10. A person who truly repents should resolve to:",
+      options: [
+        "Never repeat the bad deed",
+        "Never get caught again",
+        "Only do good deeds when people are watching",
+        "Blame someone else next time",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A sincere resolve to change is essential for repentance.",
+    ),
+  ],
+);
+
+final QuizModel RMEjhs3s6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S6 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these units is NOT used to measure time?",
+      options: ["Minutes", "Kilograms", "Seconds", "Hours"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Time is measured in seconds, minutes, and hours, while kilograms measure weight.",
+    ),
+    QuizQuestion(
+      question: "2. According to the curriculum, idleness is the act of:",
+      options: [
+        "Whiling away time or doing nothing.",
+        "Taking a vacation after a long term.",
+        "Planning a daily schedule for school.",
+        "Playing football during the weekend.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Idleness is defined as doing nothing or being lazy when there is work to do.",
+    ),
+    QuizQuestion(
+      question: "3. Leisure is different from idleness because leisure is:",
+      options: [
+        "Sinful and destructive.",
+        "Only for adults and not students.",
+        "A constructive use of time.",
+        "Wasting time during class hours.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Unlike idleness, leisure is a planned and beneficial use of spare time.",
+    ),
+    QuizQuestion(
+      question: "4. What does it mean to say time is \"irrecoverable\"?",
+      options: [
+        "It can be bought back later.",
+        "It can be saved in a bank.",
+        "Once it is wasted, it cannot be regained.",
+        "It only moves forward on digital clocks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Wasted time cannot be recovered, which is why we must use it judiciously.",
+    ),
+    QuizQuestion(
+      question: "5. Which activity is a profitable use of leisure?",
+      options: [
+        "Gossiping with friends for hours.",
+        "Sleeping all day instead of going to school.",
+        "Reading a storybook to refresh the mind.",
+        "Gambling and betting at the station.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Reading for pleasure is a constructive way to use leisure time.",
+    ),
+    QuizQuestion(
+      question: "6. In RME, idleness is often described as:",
+      options: [
+        "A healthy habit.",
+        "A spiritual exercise.",
+        "A sinful act.",
+        "A form of relaxation.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Religious teachings generally view idleness as sinful and unproductive.",
+    ),
+    QuizQuestion(
+      question: "7. Recreation is another name for:",
+      options: ["Hard work", "Leisure", "Idleness", "Homework"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Recreation and leisure both refer to using spare time for enjoyment and rest.",
+    ),
+    QuizQuestion(
+      question: "8. Which of the following is an example of idleness?",
+      options: [
+        "Helping with communal labor on Saturday.",
+        "Visiting a sick relative during the holidays.",
+        "Sitting around doing nothing while others work.",
+        "Practicing the flute after finishing chores.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sitting around doing nothing while work is available is idleness.",
+    ),
+    QuizQuestion(
+      question: "9. Time is described as \"indefinite progress\" because:",
+      options: [
+        "It has a specific end date for everyone.",
+        "It continues from the past into the future.",
+        "It only exists when we look at a clock.",
+        "It stops when we go to sleep at night.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Time is the continued progress of existence through past, present, and future.",
+    ),
+    QuizQuestion(
+      question: "10. Why is time considered \"money\" in Ghana?",
+      options: [
+        "Because you can trade your watch for food.",
+        "Because time is a resource that leads to prosperity.",
+        "Because the Cedi is printed on clocks.",
+        "Because people are paid just for standing around.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Like money, time is a valuable asset that contributes to the progress of society.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S6 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these units is NOT used to measure time?",
+      options: ["Minutes", "Kilograms", "Seconds", "Hours"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Time is measured in seconds, minutes, and hours, while kilograms measure weight.",
+    ),
+    QuizQuestion(
+      question: "2. According to the curriculum, idleness is the act of:",
+      options: [
+        "Whiling away time or doing nothing.",
+        "Taking a vacation after a long term.",
+        "Planning a daily schedule for school.",
+        "Playing football during the weekend.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Idleness is defined as doing nothing or being lazy when there is work to do.",
+    ),
+    QuizQuestion(
+      question: "3. Leisure is different from idleness because leisure is:",
+      options: [
+        "Sinful and destructive.",
+        "Only for adults and not students.",
+        "A constructive use of time.",
+        "Wasting time during class hours.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Unlike idleness, leisure is a planned and beneficial use of spare time.",
+    ),
+    QuizQuestion(
+      question: "4. What does it mean to say time is \"irrecoverable\"?",
+      options: [
+        "It can be bought back later.",
+        "It can be saved in a bank.",
+        "Once it is wasted, it cannot be regained.",
+        "It only moves forward on digital clocks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Wasted time cannot be recovered, which is why we must use it judiciously.",
+    ),
+    QuizQuestion(
+      question: "5. Which activity is a profitable use of leisure?",
+      options: [
+        "Gossiping with friends for hours.",
+        "Sleeping all day instead of going to school.",
+        "Reading a storybook to refresh the mind.",
+        "Gambling and betting at the station.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Reading for pleasure is a constructive way to use leisure time.",
+    ),
+    QuizQuestion(
+      question: "6. In RME, idleness is often described as:",
+      options: [
+        "A healthy habit.",
+        "A spiritual exercise.",
+        "A sinful act.",
+        "A form of relaxation.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Religious teachings generally view idleness as sinful and unproductive.",
+    ),
+    QuizQuestion(
+      question: "7. Recreation is another name for:",
+      options: ["Hard work", "Leisure", "Idleness", "Homework"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Recreation and leisure both refer to using spare time for enjoyment and rest.",
+    ),
+    QuizQuestion(
+      question: "8. Which of the following is an example of idleness?",
+      options: [
+        "Helping with communal labor on Saturday.",
+        "Visiting a sick relative during the holidays.",
+        "Sitting around doing nothing while others work.",
+        "Practicing the flute after finishing chores.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sitting around doing nothing while work is available is idleness.",
+    ),
+    QuizQuestion(
+      question: "9. Time is described as \"indefinite progress\" because:",
+      options: [
+        "It has a specific end date for everyone.",
+        "It continues from the past into the future.",
+        "It only exists when we look at a clock.",
+        "It stops when we go to sleep at night.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Time is the continued progress of existence through past, present, and future.",
+    ),
+    QuizQuestion(
+      question: "10. Why is time considered \"money\" in Ghana?",
+      options: [
+        "Because you can trade your watch for food.",
+        "Because time is a resource that leads to prosperity.",
+        "Because the Cedi is printed on clocks.",
+        "Because people are paid just for standing around.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Like money, time is a valuable asset that contributes to the progress of society.",
+    ),
+  ],
+);
+final QuizModel RMEjhs3s6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S6 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main difference between leisure and idleness?",
+      options: [
+        "Leisure is for children, idleness is for adults.",
+        "There is no difference between them.",
+        "Leisure is accidental, while idleness is planned.",
+        "Leisure is constructive, while idleness is destructive.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Leisure is productive and beneficial, while idleness is wasteful and harmful.",
+    ),
+    QuizQuestion(
+      question: "2. Which of the following is a physical benefit of leisure?",
+      options: [
+        "It makes you lose your memory.",
+        "It makes you spend more money.",
+        "It helps you avoid doing your homework.",
+        "It restores lost energy and strength.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Leisure activities help the body recover energy and stay healthy.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Visiting historical sites like the Manhyia Palace or Elmina Castle is a form of:",
+      options: [
+        "Idleness",
+        "Communal Labour",
+        "Procrastination",
+        "Tourism/Leisure",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Visiting historical places is a leisure and educational activity.",
+    ),
+    QuizQuestion(
+      question: "4. A 'wrong' way to use leisure time is:",
+      options: [
+        "Playing indoor games.",
+        "Gossiping and telling lies.",
+        "Learning a new musical instrument.",
+        "Visiting a sick friend.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Gossiping and lying are negative uses of leisure time.",
+    ),
+    QuizQuestion(
+      question: "5. How does leisure help in 'exercising the body'?",
+      options: [
+        "By sitting in one place for hours.",
+        "By engaging in sports like football or jogging.",
+        "By watching others play sports on TV.",
+        "By sleeping in a comfortable bed.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Physical activities during leisure keep the body fit and healthy.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which activity can a student do during leisure to develop a new vocational skill?",
+      options: [
+        "Reading a textbook.",
+        "Learning dressmaking or pastry making.",
+        "Listening to loud music.",
+        "Sweeping the classroom.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Vocational skills are developed through practical learning activities.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Leisure provides an opportunity for 'reflection on personal life.' This means:",
+      options: [
+        "Thinking about your future and your actions.",
+        "Looking at yourself in a mirror all day.",
+        "Dreaming about becoming a millionaire.",
+        "Complaining about your teachers.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Reflection involves thoughtful consideration of one's life and decisions.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is it important to visit the elderly or grandparents during vacation?",
+      options: [
+        "To ask them for money.",
+        "To learn from their wisdom and traditions.",
+        "To avoid doing chores at home.",
+        "To show off your new school uniform.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Elders pass down knowledge, culture, and life lessons.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is NOT a reason for the need for leisure?",
+      options: [
+        "To relax and refresh the body.",
+        "To promote idleness and laziness.",
+        "To avoid dangerous accidents.",
+        "To restore lost strength.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Leisure is meant to be productive, not to encourage laziness.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The constructive use of time during leisure helps to reduce:",
+      options: [
+        "Academic success.",
+        "Social vices like robbery or violence.",
+        "Personal discipline.",
+        "Physical health.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Positive use of leisure keeps people away from harmful activities.",
+    ),
+  ],
+);
+
+///Social Studies
+final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term 'environment' refer to?",
+      options: [
+        "Everything that surrounds us",
+        "Only the people we live with",
+        "Only the animals in the forest",
+        "Only the buildings in a city",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Environment includes both living and non-living things that surround an organism.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of these is a social interaction within an environment?",
+      options: [
+        "Breathing fresh air",
+        "Swimming in a river",
+        "Learning in a classroom",
+        "Walking on a road",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Education and classroom interactions are part of the social environment.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which cultural practice negatively affects sanitation?",
+      options: [
+        "Using a dustbin for all paper waste",
+        "Believing that only women should sweep the home",
+        "Planting flowers around the house",
+        "Washing hands before eating",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Gender-based restrictions on cleaning can lead to dirtier environments if one group is absent.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the primary purpose of a sewage system?",
+      options: [
+        "To provide electricity to homes",
+        "To carry away human waste safely",
+        "To store rainwater for farming",
+        "To transport people across the city",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Sanitation includes providing sewage systems for the safe disposal of human waste.",
+    ),
+
+    QuizQuestion(
+      question: "5. Soil contamination is often caused by:",
+      options: [
+        "Planting too many trees",
+        "Using solar energy",
+        "Sweeping the streets regularly",
+        "Improper disposal of industrial chemicals",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Hazardous chemicals leaking from landfills contaminate the soil.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which disease is commonly spread by mosquitoes breeding in choked gutters?",
+      options: ["Typhoid", "Cholera", "Malaria", "Polio"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Stagnant water in choked gutters provides a breeding ground for mosquitoes that carry malaria.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A person who refuses to use a public toilet and goes in the bush is practicing:",
+      options: [
+        "Proper hygiene",
+        "Open defecation",
+        "Environmental protection",
+        "Resource conservation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Going to the toilet in the open instead of using a facility is called open defecation.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. What is the role of the Local Government Act (Act 462) regarding sanitation?",
+      options: [
+        "It encourages people to burn all their rubbish",
+        "It requires landlords to provide toilets for tenants",
+        "It bans the use of dustbins in marketplaces",
+        "It prevents people from cleaning their communities",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The law requires landlords to provide basic sanitation facilities for those living in their houses.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why should food sellers not operate near dumping sites?",
+      options: [
+        "Because the food will get too cold",
+        "Because flies from the waste can contaminate the food",
+        "Because customers prefer to eat in the sun",
+        "Because the land is too expensive there",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Rubbish attracts flies and germs that can easily move onto nearby food.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to handle plastic waste in Ghana?",
+      options: [
+        "Throwing it into the sea",
+        "Burning it in the middle of the street",
+        "Recycling it into new products",
+        "Leaving it in the gutters to flow away",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Recycling reduces plastic waste in the streets and water bodies.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S1 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Energy is defined as the capacity to:",
+      options: ["Sleep", "Stay still", "Eat food", "Do work"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Energy is the ability or capacity to perform a function or work.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a non-renewable source of energy?",
+      options: ["Solar", "Wind", "Natural Gas", "Geothermal"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fossil fuels like natural gas are non-renewable and can be exhausted.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Bui Dam is located on which river?",
+      options: ["River Pra", "Black Volta", "River Ankobra", "River Densu"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The Bui Hydroelectric station is built on the Black Volta.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of the following is a way to use energy efficiently in the kitchen?",
+      options: [
+        "Using a large pot for a small amount of food.",
+        "Keeping the burner on after cooking.",
+        "Keeping lids on pans while cooking.",
+        "Cooking with the refrigerator door open.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Keeping lids on pans helps food cook faster and saves energy.",
+    ),
+
+    QuizQuestion(
+      question: "5. One disadvantage of solar energy is:",
+      options: [
+        "It produces a lot of smoke.",
+        "It cannot be produced at night.",
+        "It is a non-renewable source.",
+        "It uses too much water.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Solar energy depends on sunlight and cannot be generated during the night without batteries.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which town is associated with a major solar power station in Ghana?",
+      options: ["Kumasi", "Onyandze", "Koforidua", "Ho"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Onyandze in the Gomoa West District hosts a large solar power station.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the main reason Ghana sometimes imports electricity?",
+      options: [
+        "We have too much water in our dams.",
+        "Low water levels in the dams during the dry season.",
+        "We want to spend more money.",
+        "Solar panels work too well.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Reduced water volume in dams like Akosombo during dry seasons reduces generation capacity.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why is wind energy good for the environment?",
+      options: [
+        "It does not release harmful gases like carbon dioxide.",
+        "It creates loud noise.",
+        "It is very expensive to build.",
+        "It takes up a lot of land.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Wind turbines do not release harmful emissions while generating electricity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is an example of biomass?",
+      options: ["Charcoal", "Crude oil", "Uranium", "Iron ore"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Charcoal and wood are forms of biomass energy derived from organic matter.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What should you do with your computer when you are finished using it?",
+      options: [
+        "Leave it on for the next day.",
+        "Keep the screen brightness at maximum.",
+        "Switch it off and unplug it.",
+        "Leave it on sleep mode forever.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Switching off and unplugging appliances prevents energy wastage.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3.SOCIAL STUDIES JHS1 S1 SS2 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A visual representation of an area on a flat surface is called a...",
+      options: ["Globe", "Photograph", "Map", "Diagram"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "A map is a visual representation of an area or part of the world on a flat surface.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which map feature tells the user exactly what area the map covers?",
+      options: ["The Scale", "The Title", "The Legend", "The Border"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The title summarizes the information contained in the map, such as \"Road Map of Ghana\".",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which professional would use a climatic map to decide the best time for planting?",
+      options: ["A Fisherman", "A Pilot", "A Teacher", "A Farmer"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Farmers use climatic maps to understand rainfall and weather patterns for agriculture.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. On a map, what does the \"North Arrow\" or \"Compass Rose\" indicate?",
+      options: ["Distance", "Elevation", "Direction", "Population"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "These tools show the cardinal directions and which way is North.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. If two towns are 4cm apart on a map with a scale of 1:50,000, what is the actual distance?",
+      options: ["2 kilometres", "200 metres", "4 kilometres", "50 kilometres"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "\$4 \\times 50,000 = 200,000 \\text{ cm}\$. Since \$100,000 \\text{ cm} = 1 \\text{ km}\$, the distance is \$2 \\text{ km}\$.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which type of map shows mountains, rivers, and plateaus?",
+      options: ["Political Map", "Physical Map", "Road Map", "Drainage Map"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Physical maps show natural features of the land like mountains and rivers.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the primary purpose of a map scale?",
+      options: [
+        "To show the beauty of the map",
+        "To represent symbols accurately",
+        "To show the relationship between map distance and ground distance",
+        "To indicate the date the map was made",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Scale allows us to represent large areas on a small sheet of paper accurately.",
+    ),
+
+    QuizQuestion(
+      question: "8. Conventional signs and symbols are explained in the...",
+      options: ["Title", "Index", "Legend", "Scale"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The legend (or key) is the dictionary of the map, explaining what every symbol stands for.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. A map showing the boundaries of the 16 regions of Ghana is a...",
+      options: ["Relief Map", "Political Map", "Vegetation Map", "Street Map"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Political maps show regional, national, and district boundaries.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these is NOT a standard component of a good map?",
+      options: ["Date", "Key", "Landscape photograph", "North Arrow"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "While photos are nice, they are not one of the five essential technical components of a map.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/4. SOCIAL STUDIES JHS1 S1 SS3 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the highest mountain peak in Ghana?",
+      options: [
+        "Mount Kilimanjaro",
+        "Mount Afadjato",
+        "Mount Everest",
+        "Mount Elbert",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Mount Afadjato is the highest point in Ghana, located in the Volta Region.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which feature is a large body of salt water covering much of the Earth?",
+      options: ["River", "Lake", "Ocean", "Pond"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Oceans are the vast salt-water bodies that cover about 70 percent of the Earth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In which part of Ghana would you most likely find a tropical rainforest?",
+      options: [
+        "South-Western part",
+        "North-Eastern part",
+        "Central part",
+        "South-Eastern part",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Ghana’s tropical rainforest is located in the South-Western part, near places like Axim.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which river is the longest within the borders of Ghana?",
+      options: ["Volta", "Nile", "Niger", "Congo"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Volta River is the primary and longest river system in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "5. The Andes mountain range is found on which continent?",
+      options: ["Africa", "Asia", "South America", "Europe"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Andes is the longest continental mountain range, located in South America.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is a major negative effect of plastic pollution on marine life?",
+      options: [
+        "It provides a home for fish.",
+        "Animals can get entangled or eat it.",
+        "It makes the ocean water blue.",
+        "It helps sea turtles swim faster.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Marine animals often eat plastic or get stuck in it, which causes internal health problems or death.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a major mountain range in North America?",
+      options: ["The Alps", "The Himalayas", "The Rockies", "The Andes"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Rockies stretch across Western North America.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which desert is found in Southern Africa?",
+      options: ["Sahara", "Arabian", "Kalahari", "Gobi"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Kalahari is a major desert located in the southern part of Africa.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Why should we avoid using \"bad fishing methods\" like dynamite in our rivers?",
+      options: [
+        "It makes the fish taste better.",
+        "It pollutes the water and kills many fish at once.",
+        "It helps the river flow faster.",
+        "It is the cheapest way to catch fish.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Using chemicals or dynamite pollutes the water and destroys the aquatic habitat.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which mountain feature is located in the North East Region of Ghana?",
+      options: [
+        "Kwahu Plateau",
+        "Gambaga Escarpment",
+        "Akuapim Range",
+        "Togo Range",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Gambaga Escarpment is located in the North East Region of Ghana.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/5. SOCIAL STUDIES JHS1 S1 SS3 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of a natural disaster?",
+      options: [
+        "A planned event for entertainment.",
+        "A sudden event from nature causing harm to society.",
+        "A traditional festival celebrated every year.",
+        "A daily weather change like a small breeze.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Natural disasters are unforeseen occurrences from nature that cause destruction.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of these is a major effect of natural disasters on the government?",
+      options: [
+        "It increases the country's population.",
+        "It reduces the need for hospitals.",
+        "It increases government expenditure to fix infrastructure.",
+        "It makes the environment cleaner.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The government must spend a lot of money to repair roads and help displaced people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which body provides first-aid and health care to victims during a disaster?",
+      options: [
+        "Ghana Meteorological Agency",
+        "Ghana National Fire Service",
+        "Ghana Red Cross Society",
+        "Environmental Protection Agency",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Red Cross Society specializes in health care and first aid for vulnerable people.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a \"Wildfire\"?",
+      options: [
+        "A controlled fire used for cooking.",
+        "An uncontrolled fire that burns in forests or grasslands.",
+        "A fire started by a lightbulb in a house.",
+        "A fire used by a blacksmith.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Wildfires burn uncontrollably in rural areas and savannas.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which disaster is caused by the removal of beach sand by wave action?",
+      options: ["Landslide", "Drought", "Sea Erosion", "Earthquake"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sea erosion happens when waves wash away the shoreline.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Why does the Ghana Meteorological Agency provide a \"daily forecast\"?",
+      options: [
+        "To help people plan their activities and stay safe from storms.",
+        "To tell people which songs to listen to.",
+        "To decide which food farmers should eat.",
+        "To change the direction of the wind.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Weather forecasts allow people to prepare for rain or heat.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is NOT a natural disaster?",
+      options: ["Flood", "Earthquake", "A football match", "Landslide"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A football match is a human-organized event, not a disaster from nature.",
+    ),
+
+    QuizQuestion(
+      question: "8. What happens during an earthquake?",
+      options: [
+        "Water covers the whole land.",
+        "There is a sudden shaking of the earth's crust.",
+        "Trees grow very fast.",
+        "It stops raining for three years.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An earthquake is a vibration of the earth's surface.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. How can we help manage or prevent floods in our communities?",
+      options: [
+        "By throwing more plastic in the gutters.",
+        "By building houses right inside the river.",
+        "By ensuring proper drainage and waste disposal.",
+        "By cutting down all the trees in the town.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Clear drains allow rainwater to flow away without causing floods.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which institution has \"Fire Volunteer Squads\" at the community level?",
+      options: [
+        "NADMO",
+        "Ghana National Fire Service",
+        "Ghana Meteorological Agency",
+        "The Police Service",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Fire Service trains volunteers to help prevent fires in local communities.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is adolescence?",
+      options: [
+        "The transition from childhood to adulthood",
+        "The period of early childhood",
+        "The stage of being an elderly person",
+        "The first year of primary school",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Adolescence is the bridge between childhood and adulthood.",
+    ),
+
+    QuizQuestion(
+      question: "2. A boy's voice deepens during adolescence because:",
+      options: [
+        "His voice box (larynx) grows and breaks",
+        "He is eating too much fufu",
+        "He is shouting too much at school",
+        "He has reached age 25",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Physical changes in boys include a deepening voice due to the growth of the larynx.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is a healthy adolescent behaviour?",
+      options: [
+        "Using drugs like marijuana to feel bold",
+        "Joining a gang to fight peers",
+        "Practicing total abstinence from sex",
+        "Refusing to bath to save water",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Abstinence (chastity) is a key healthy behaviour for reproductive health.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which challenge is often caused by peer pressure?",
+      options: [
+        "Growing pubic hair",
+        "Starting menstruation",
+        "Engaging in drug abuse or smoking",
+        "Getting taller than your father",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Peer pressure often leads adolescents into irresponsible behaviours like drug use.",
+    ),
+
+    QuizQuestion(
+      question: "5. A girl's first menstruation is a sign that:",
+      options: [
+        "She is sick and needs medicine",
+        "Her reproductive system is developing",
+        "She should stop going to school",
+        "She is now 40 years old",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Menstruation is a natural physical change indicating reproductive development in girls.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does 'Reproductive Health' imply?",
+      options: [
+        "Being able to run a marathon",
+        "Physical, mental, and social well-being of the reproductive system",
+        "Having many children at a young age",
+        "Knowing how to cook Ghanaian dishes",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "It is a state of complete well-being in all matters relating to the reproductive system.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. How many times a day should an adolescent ideally brush their teeth?",
+      options: [
+        "Once every week",
+        "Only on Sundays",
+        "At least twice daily",
+        "Only when they eat meat",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Good hygiene requires brushing twice daily to maintain health.",
+    ),
+
+    QuizQuestion(
+      question: "8. Irresponsible adolescent behaviour can lead to:",
+      options: [
+        "Automatic scholarships",
+        "Teenage pregnancy and school drop-out",
+        "Becoming the head of the family",
+        "Improved health and strength",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Irresponsible acts like unprotected sex can lead to pregnancies that end a student's education.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is an emotional change in adolescents?",
+      options: [
+        "Skin becomes oily and pimply",
+        "Shoulders become broader",
+        "Becoming more sensitive to issues and easily hurt",
+        "Increase in height and weight",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Emotional changes include becoming more sensitive or shy.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is healthy adolescent behaviour important for Ghana?",
+      options: [
+        "It ensures a healthy and productive future workforce",
+        "It makes the weather better in Accra",
+        "It helps everyone win the lottery",
+        "It reduces the price of Kenkey automatically",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Healthy adolescents grow into healthy adults who contribute to the nation's development.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S2 SS2-3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Socialisation refers to the process of acquiring...",
+      options: [
+        "Wealth and property",
+        "Physical strength",
+        "Only academic knowledge",
+        "Values and norms of society",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "It is the process of learning culture and acceptable habits.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is the first agency of socialisation?",
+      options: ["The School", "The Peer Group", "The Family", "The Church"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The process starts at home with the family.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is an agent of socialisation?",
+      options: ["The Community", "The School", "The Mother", "The Mass Media"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A mother is a specific person who guides the child.",
+    ),
+
+    QuizQuestion(
+      question: "4. A peer group consists of people who...",
+      options: [
+        "Are from different countries",
+        "Are in the same age group",
+        "Never play together",
+        "Only meet at church",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Peer groups are friends of similar ages who learn from each other.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which agency uses radio and television to socialise people?",
+      options: ["The Family", "The Mosque", "The School", "Mass Media"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Mass media includes radio, TV, and newspapers.",
+    ),
+
+    QuizQuestion(
+      question: "6. One importance of socialisation is that it...",
+      options: [
+        "Encourages people to be selfish",
+        "Maintains the culture of the people",
+        "Makes everyone act exactly the same",
+        "Discourages children from playing",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It passes culture from one generation to the next.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which agent is responsible for teaching students reading and writing?",
+      options: ["The Chief", "The Priest", "The Teacher", "The Sibling"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Teachers are the primary agents in the school agency.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. What is a common challenge associated with socialisation today?",
+      options: [
+        "Learning how to speak",
+        "Negative influence from some media",
+        "Having too many friends",
+        "Growing taller",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "While media is an agency, it can sometimes present negative challenges.",
+    ),
+
+    QuizQuestion(
+      question: "9. In the community agency, children learn...",
+      options: [
+        "To only talk to their parents",
+        "To avoid playing with others",
+        "Behaviours and attitudes from peers",
+        "To stay inside their rooms",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The community provides a space to interact with different people.",
+    ),
+
+    QuizQuestion(
+      question: "10. Socialisation is a process that ends...",
+      options: [
+        "After Primary School",
+        "When a person turns eighteen",
+        "It is a lifelong process",
+        "Only when a person starts working",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "We continue to learn and adapt throughout our lives.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS1 S2 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What was Ghana's approximate population in the year 2021?",
+      options: ["6.7 million", "24.7 million", "30.8 million", "18.9 million"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The 2021 census recorded 30.8 million people.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a component of population growth?",
+      options: [
+        "Weather patterns",
+        "Migration",
+        "Currency exchange",
+        "Type of government",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Births, deaths, and migration are the three components of change.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The number of deaths per 1,000 people in a year is called the:",
+      options: [
+        "Growth rate",
+        "Fertility rate",
+        "Mortality rate",
+        "Census rate",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mortality rate is another name for the death rate.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which Ghanaian region had the lowest population size according to recent data?",
+      options: ["Oti", "Ahafo", "Savanna", "North East"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Ahafo Region recorded the smallest population at approximately 564,536.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why might a country experience a \"negative growth rate\"?",
+      options: [
+        "Many people are moving in",
+        "The death rate is higher than the birth rate",
+        "The population is exactly 30 million",
+        "More babies are being born",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Negative growth happens when the number of people decreases.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a cause of high death rates in Ghana?",
+      options: [
+        "Early marriage",
+        "Malaria and infectious diseases",
+        "High literacy rates",
+        "Use of contraceptives",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Diseases like malaria and cholera contribute to mortality.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Compared to Nigeria's 2.6% growth rate, Ghana's 2.1% rate is:",
+      options: ["Lower", "Higher", "The same"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "2.1% is a smaller percentage than 2.6%.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Fertility rate\" is another term for:",
+      options: ["Death rate", "Migration rate", "Birth rate", "Census rate"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Fertility refers to the number of live births.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the main purpose of a population census?",
+      options: [
+        "To choose a new leader",
+        "To count all people for planning",
+        "To collect taxes from the rich",
+        "To stop people from moving",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A census provides the official count needed for national planning.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which factor is considered a \"social compulsion\" leading to high birth rates in Ghana?",
+      options: [
+        "Road accidents",
+        "Improved sanitation",
+        "Malnutrition",
+        "Early marriage",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Early marriage is often seen as a social requirement in some communities.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Self-identity involves knowing your:",
+      options: [
+        "Neighbour's secrets",
+        "Strengths and weaknesses",
+        "Friend's bank balance",
+        "Teacher's home address",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Self-identity is about knowing one's own skills and limitations.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these enhances your self-worth?",
+      options: [
+        "Comparing yourself negatively to others",
+        "Developing a positive attitude toward life",
+        "Focusing only on your failures",
+        "Avoiding all types of school work",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A positive attitude helps you expect good things and improves self-worth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What is the first step to becoming a better person in society?",
+      options: [
+        "Buying expensive clothes",
+        "Becoming aware of who you are",
+        "Moving to a new city",
+        "Changing your name",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Self-awareness allows you to improve your strengths and work on weaknesses.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. A student who practices the drums every day is developing their capability through:",
+      options: [
+        "Counselling",
+        "Role taking",
+        "Continuous practice",
+        "Education",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Practice is a key way to develop skills over time.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which is an example of a weakness?",
+      options: [
+        "Being helpful to others",
+        "Having a quick temper",
+        "Being a good singer",
+        "Having a can-do spirit",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Weaknesses are negative traits like anger or laziness that need to be managed.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why should we accept other people's views about us?",
+      options: [
+        "To let them control our lives",
+        "To help us identify our hidden weaknesses",
+        "To stop making our own decisions",
+        "To make everyone like us",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Listening to others can help us improve upon weaknesses we might not see ourselves.",
+    ),
+
+    QuizQuestion(
+      question: "7. The \"I can do it\" spirit is most helpful when:",
+      options: [
+        "A task is very easy",
+        "You want to sleep in class",
+        "A subject seems difficult",
+        "You are playing with friends",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The can-do spirit helps students tackle difficult subjects like Math.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is NOT a way to develop your capabilities?",
+      options: [
+        "Education and training",
+        "Laziness and arrogance",
+        "Guidance and counselling",
+        "Setting goals for yourself",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Laziness and arrogance are weaknesses that hinder development.",
+    ),
+
+    QuizQuestion(
+      question: "9. Knowing yourself helps you to:",
+      options: [
+        "Make right and good choices",
+        "Become dependent on others",
+        "Avoid taking any initiatives",
+        "Feel like a nobody",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Self-knowledge helps you think carefully and make independent, good choices.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. In the Ghanaian context, identifying your potential means:",
+      options: [
+        "Finding out what you can contribute to your nation",
+        "Waiting for the government to give you a job",
+        "Copying the identity of a foreign celebrity",
+        "Only caring about your own wealth",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Identifying potential allows an individual to develop skills that serve their community.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S4 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the legal status of a full member of a country called?",
+      options: ["Nationality", "Residency", "Citizenship", "Leadership"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Citizenship is the status of being a full member of a state with rights and duties.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Ama was born in London, but her father is a Ghanaian from Ho. How did Ama get her citizenship?",
+      options: [
+        "By Birth",
+        "By Registration",
+        "By Naturalisation",
+        "By Adoption",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "One can be a citizen by birth if born outside Ghana to a Ghanaian parent.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is NOT a way of acquiring Ghanaian citizenship?",
+      options: ["Naturalisation", "Foundling", "Migration", "Adoption"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Migration is moving to a place, but it is not a legal way to acquire citizenship like the others.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a person obliged to perform as a duty in society?",
+      options: ["Rights", "Responsibilities", "Privileges", "Achievements"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Responsibilities or duties are tasks a person is required to perform for their country.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Why should a citizen protect state property like a government hospital?",
+      options: [
+        "So that they can own it later",
+        "Because it belongs to everyone",
+        "To get a reward from the President",
+        "Because the police are watching",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Public property is built with taxpayers' money and serves the whole nation.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which attitude involves being willing to join others to clean the local market?",
+      options: ["Punctuality", "Honesty", "Communal labour", "Hard work"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Communal labour involves citizens working together for the development of their community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A citizen who reports a crime to the police is demonstrating...",
+      options: [
+        "Disloyalty to their friends",
+        "Fear of the criminals",
+        "Responsibility to the state",
+        "A desire for a police job",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Reporting crime is a duty that helps maintain law and order.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of the following describes \"Naturalisation\"?",
+      options: [
+        "Being born in a local hospital",
+        "A legal process for foreigners to become citizens",
+        "Marrying someone from your own village",
+        "Finding a child at a lorry station",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Naturalisation is the legal process by which a foreigner acquires citizenship.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Why is punctuality important for a student's contribution to Ghana?",
+      options: [
+        "It ensures the student gets the best food",
+        "It prepares the student for a productive future",
+        "It makes the school look more beautiful",
+        "It helps the student win more friends",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Being punctual helps students become reliable and productive workers in the future.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the main purpose of the \"National Anthem\" and \"National Flag\"?",
+      options: [
+        "To decorate government offices",
+        "To serve as symbols of our national identity",
+        "To show that Ghana is better than others",
+        "To provide songs for school ceremonies",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "These symbols represent the identity and pride of the Ghanaian nation.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term 'Human Resource' refer to?",
+      options: [
+        "The natural minerals in a country",
+        "The money in the national bank",
+        "The skills and efforts of the workforce",
+        "The machines used in farming",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Human resource refers to the people and their capabilities used in production.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is NOT a way of developing human resource?",
+      options: [
+        "Education",
+        "Career Counselling",
+        "Selling raw materials",
+        "Training",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Selling raw materials is a trade activity, not a method of developing people's skills.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. When a secretary learns how to use a computer instead of a typewriter, this is:",
+      options: [
+        "Retraining",
+        "Mentoring",
+        "Initial education",
+        "Industrialisation",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Retraining helps workers gain new skills to stay relevant in their jobs.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the main goal of Human Resource Development?",
+      options: [
+        "To make everyone a politician",
+        "To enable people to contribute meaningfully to society",
+        "To reduce the number of people living in villages",
+        "To stop the use of technology",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "HRD aims to increase capacities so people can help develop the society.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A student speaking to a professional about which subjects to choose for SHS is engaging in:",
+      options: [
+        "Mentoring",
+        "Career Counselling",
+        "Retraining",
+        "Apprenticeship",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Career counselling guides individuals to choose paths based on interest and talent.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is a healthy workforce important for Ghana's economy?",
+      options: [
+        "Healthy people don't need to pay taxes",
+        "It ensures higher productivity and fewer accidents",
+        "It means the government can close all hospitals",
+        "It helps the country win more sports trophies",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Good health ensures people are productive and reduces workplace accidents.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which of these involves teaching practical fundamentals of a job to a trainee?",
+      options: [
+        "Mentoring",
+        "Training",
+        "Theoretical education",
+        "General knowledge",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Training allows individuals to acquire practical skills and attitudes for a specific job.",
+    ),
+
+    QuizQuestion(
+      question: "8. Mentoring helps in developing human resource by:",
+      options: [
+        "Giving students free textbooks",
+        "Building new university campuses",
+        "Providing guidance and leadership roles",
+        "Increasing the price of cocoa",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Mentoring involves guidance and performing leadership roles to build experience.",
+    ),
+
+    QuizQuestion(
+      question: "9. In Ghana, 'Human Resource' can be categorized into:",
+      options: [
+        "Rich, poor, and middle class",
+        "Skilled, semi-skilled, and unskilled labour",
+        "Students, teachers, and parents",
+        "Farmers, traders, and drivers",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Labour is often classified by the level of skill and training required.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which of the following is a result of effective human resource development?",
+      options: [
+        "Increase in productivity",
+        "Increase in the price of food",
+        "Decrease in the number of jobs",
+        "Decrease in technology use",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Better skills and education lead to a more efficient use of resources and higher production.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these best defines social security?",
+      options: [
+        "A loan given to workers to buy houses.",
+        "Protection provided by society to ensure income security and healthcare.",
+        "A tax paid only by people living in Accra.",
+        "A bank account for saving daily transport money.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Social security provides protection against economic and social distress caused by the loss of income.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. In the three-tier pension scheme, which tier is voluntary for workers?",
+      options: ["Tier 1", "Tier 2", "Tier 3", "Tier 4"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tier 3 is a voluntary, fully-funded, and privately managed provident fund or personal pension plan.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What percentage of a worker's basic salary is the worker required to contribute themselves?",
+      options: ["13%", "18.5%", "2.5%", "5.5%"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The individual worker contributes 5.5% from their basic salary.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. What is the contribution percentage paid specifically by the employer?",
+      options: ["13%", "5.5%", "17.5%", "11%"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The employer is mandated to pay 13% of the worker's basic salary.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. To qualify for a full old-age pension, how many monthly contributions must a worker have made?",
+      options: ["12 months", "120 months", "180 months", "240 months"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "A worker must have made a minimum of 180 months of contributions to qualify for a full pension.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What part of the SSNIT contribution is transferred to the National Health Authority (NHIA)?",
+      options: ["5%", "2.5%", "13%", "5.5%"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Out of the 13.5% initially given to SSNIT, 2.5% is paid to the NHIA for the member's health insurance.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The benefit paid to the family of a deceased SSNIT member is called...",
+      options: [
+        "Invalidity Benefit",
+        "Old Age Pension",
+        "Survivor's Benefit",
+        "Graduation Grant",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Survivor's Benefit is paid to dependents when a member dies.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which type of scheme involves the state giving income to people from general taxes without them having contributed?",
+      options: [
+        "Contributory Social Insurance Scheme",
+        "Welfare Scheme",
+        "Personal Pension Plan",
+        "Tier 2 Scheme",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In a Welfare Scheme, money comes from taxes paid to the state to support those in need.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. To qualify for an invalidity pension, a member must have contributed for at least how many months in the last 36 months?",
+      options: ["6 months", "18 months", "24 months", "12 months"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A member must have made a minimum contribution of 12 months within the last 36 months to qualify for invalidity benefits.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the maximum age for a person to join the SSNIT scheme?",
+      options: ["60 years", "55 years", "45 years", "50 years"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The minimum age to join is 15 years and the maximum age is 45 years.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Pollution is defined as the introduction of ______ into the environment.",
+      options: ["Oxygen", "Pollutants", "Clean soil", "Pure water"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pollutants are the harmful materials that cause damage.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which Ghanaian river is frequently cited as being affected by galamsey?",
+      options: ["River Nile", "River Pra", "Mississippi River", "River Thames"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Pra is one of the major rivers in Ghana heavily impacted by illegal mining.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is a liquid waste that pollutes water bodies?",
+      options: [
+        "Old car tyres",
+        "Plastic bottles",
+        "Untreated sewage",
+        "Broken glass",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sewage is a form of liquid waste from households and industries.",
+    ),
+
+    QuizQuestion(
+      question: "4. Acid rain is caused by _________.",
+      options: [
+        "Planting too many trees",
+        "Atmospheric pollution from industries",
+        "Using energy-saving bulbs",
+        "Fishing with nets",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Industrial smoke contains particles that mix with water vapour to form acid rain.",
+    ),
+
+    QuizQuestion(
+      question: "5. How does water pollution affect the fishing industry?",
+      options: [
+        "It increases the number of fish.",
+        "It makes fish easier to catch with nets.",
+        "It destroys aquatic life and reduces fish stocks.",
+        "It makes the fish taste better.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Pollution kills fish and destroys their habitat.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which disease is commonly spread through contaminated water?",
+      options: ["Typhoid", "Blindness", "Broken bone", "Earache"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Typhoid is a serious health hazard caused by drinking polluted water.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the best way to handle household rubbish to protect water bodies?",
+      options: [
+        "Throw it in the nearest stream.",
+        "Burn it on the river bank.",
+        "Dispose of it in designated waste bins.",
+        "Pour it into the gutter during rain.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Proper waste disposal prevents rubbish from entering our water systems.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which activity along river banks helps to prevent soil erosion and pollution?",
+      options: [
+        "Clearing all trees for farming",
+        "Dumping scrap metals",
+        "Planting trees and grass",
+        "Building houses in the water",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Plants help hold the soil together and filter runoff.",
+    ),
+
+    QuizQuestion(
+      question: "9. Oil spills are most common in which type of water body?",
+      options: [
+        "Small village wells",
+        "Underground pipes",
+        "Seas and oceans",
+        "School water tanks",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Oil spills usually occur from tankers and ships in large water bodies.",
+    ),
+
+    QuizQuestion(
+      question: "10. Who is responsible for protecting Ghana's water bodies?",
+      options: [
+        "Only the President",
+        "Only the fishermen",
+        "Only the EPA",
+        "Every citizen in the community",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Environmental protection is a collective responsibility for everyone in the community.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S1 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Energy conservation is defined as _________.",
+      options: [
+        "Using energy as fast as possible",
+        "Wasting power during the day",
+        "Using energy wisely and efficiently",
+        "Only using electricity at night",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Conservation means avoiding waste and using what we have efficiently.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of these is a source of renewable energy mentioned in your lessons?",
+      options: ["Petrol", "Solar", "Diesel", "Coal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Solar energy is a clean, renewable source that helps conserve limited resources.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the economic benefit of using LED bulbs?",
+      options: [
+        "They are more beautiful",
+        "They make the room darker",
+        "They save money on electricity bills",
+        "They use more power",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "LEDs use less power, leading to lower costs for the user.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which community member is responsible for buying energy-efficient appliances for the home?",
+      options: ["The President", "The Parent", "The Police", "The Doctor"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parents manage the household and choose which appliances to buy.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Turning off electrical gadgets when not in use helps to _________.",
+      options: [
+        "Increase global warming",
+        "Waste electricity",
+        "Conserve energy for the future",
+        "Break the gadget",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Unplugging or switching off gadgets prevents 'vampire' energy loss.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. How does planting trees around a school help conserve energy?",
+      options: [
+        "Trees provide electricity",
+        "Trees provide shade, reducing the need for fans or AC",
+        "Trees make the school look expensive",
+        "Trees stop the sun from shining",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Natural shade keeps buildings cool, so we use less energy for cooling.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which of these practices is NOT an example of energy conservation?",
+      options: [
+        "Using a coal pot instead of an electric stove",
+        "Leaving the fridge door open for a long time",
+        "Using daylight in the shop",
+        "Ironing clothes in bulk",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Leaving the fridge door open allows cold air to escape, making the motor work harder.",
+    ),
+
+    QuizQuestion(
+      question: "8. Reducing the use of fossil fuels helps to _________.",
+      options: [
+        "Protect the habitats of wildlife",
+        "Create more smoke",
+        "Increase the price of petrol",
+        "Destroy the atmosphere",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Less demand for fossil fuels means less mining and drilling in nature.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. The 'Energy Star' rating system in Ghana is managed by which commission?",
+      options: [
+        "Forestry Commission",
+        "Minerals Commission",
+        "Energy Commission",
+        "Sports Commission",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Energy Commission of Ghana rates appliances for efficiency.",
+    ),
+
+    QuizQuestion(
+      question: "10. A shopkeeper can save energy by _________.",
+      options: [
+        "Keeping the shop lights on 24 hours a day",
+        "Using natural light and switching off empty freezers",
+        "Using the most powerful bulbs available",
+        "Running many fans at the same time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Strategic use of light and cooling saves the shopkeeper money.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How many points are on a standard intermediate compass used in JHS Social Studies?",
+      options: ["Four", "Six", "Eight", "Ten"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "An eight-point compass includes cardinal and intercardinal points.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which direction lies directly opposite North-East?",
+      options: ["South-East", "South-West", "North-West", "North"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "South-West is the exact opposite of North-East on a compass.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In the \"Along the corridor, up the stairs\" rule, what does \"up the stairs\" represent?",
+      options: ["Eastings", "Landmarks", "Northings", "Linear Scale"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Northings are the vertical lines that go \"up\" the map.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. If a map has a scale of 1:100,000, what does 1cm on the map represent on the ground?",
+      options: ["1 kilometre", "10 kilometres", "100 metres", "1 metre"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "100,000 cm equals 1,000 metres, which is 1 kilometre.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a cardinal point?",
+      options: ["South-East", "North-West", "West", "North-East"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "North, South, East, and West are the four cardinal points.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do we use a scale when sketching a map of the school?",
+      options: [
+        "To make the map look colourful",
+        "To represent a large area on a small paper",
+        "To show the direction of the wind",
+        "To identify the names of the teachers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Scale allows us to shrink real-world distances accurately.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A six-figure grid reference is more ________ than a four-figure grid reference.",
+      options: ["Accurate", "Large", "Colourful", "Difficult"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Six-figure references pinpoint a more exact location.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. To draw a rough sketch of your community, what is the first step you should take?",
+      options: [
+        "Draw the final map in ink",
+        "Walk around to identify main features",
+        "Choose a Representative Fraction",
+        "Draw the grid lines",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "You must first observe the area and take notes of prominent features.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which type of scale is shown as a divided straight line?",
+      options: [
+        "Statement Scale",
+        "Representative Fraction",
+        "Linear Scale",
+        "Ratio Scale",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A linear scale is expressed on a straight line.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. If Kofi walks from the Post Office to a bank located at South-East, which way is he heading?",
+      options: [
+        "Between North and East",
+        "Between South and West",
+        "Between South and East",
+        "Between North and West",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "South-East is the direction between South and East.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S1 SS3 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the minimum number of years usually required to determine the climate of a place?",
+      options: ["5 years", "10 years", "20 years", "35 years"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "35 years is the standard duration for recording climate averages.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which instrument is used to measure atmospheric pressure?",
+      options: ["Barometer", "Hygrometer", "Anemometer", "Thermometer"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A barometer measures the weight or pressure of the air.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In which town would you most likely experience the Tropical Continental climate?",
+      options: ["Axim", "Tamale", "Cape Coast", "Kumasi"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tamale is in the northern part of Ghana, which is the Tropical Continental zone.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which element of weather is measured in degrees Celsius?",
+      options: ["Rainfall", "Wind speed", "Temperature", "Air pressure"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Temperature is the degree of hotness or coldness, measured in Celsius.",
+    ),
+
+    QuizQuestion(
+      question: "5. A wind vane is used to show the:",
+      options: [
+        "Strength of the wind",
+        "Speed of the wind",
+        "Direction of the wind",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The wind vane points in the direction from which the wind is blowing.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which factor explains why places near the Equator are generally hotter?",
+      options: ["Altitude", "Latitude", "Ocean currents", "Vegetation"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Latitude determines how much direct sunlight a region receives based on its distance from the Equator.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The Dry Equatorial climate is mostly found in which part of Ghana?",
+      options: [
+        "The Northern region",
+        "The Western coastline",
+        "The South-eastern coast",
+        "The middle forest belt",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The south-eastern coast, including Accra, experiences the Dry Equatorial climate.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which tool is used to measure the amount of moisture or water vapour in the air?",
+      options: ["Barometer", "Rain gauge", "Hygrometer", "Thermometer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A hygrometer measures relative humidity.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. If you are standing on a very high hill, you are likely to feel colder because of:",
+      options: ["Altitude", "Pressure", "Latitude", "Current"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Temperature decreases as height or altitude increases.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of the following is NOT an element of weather?",
+      options: ["Precipitation", "Pressure", "Population", "Humidity"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Population is a human factor, not a physical element of the atmosphere.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S2 SS1-2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A group of people related by blood, marriage, or adoption is a:",
+      options: ["School", "Club", "Family", "Nation"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "This is the basic definition of a family.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is NOT a member of the nuclear family?",
+      options: ["Mother", "Son", "Uncle", "Father"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "An uncle is part of the extended family, not the nuclear family.",
+    ),
+
+    QuizQuestion(
+      question: "3. The role of 'Procreation' in a family refers to:",
+      options: [
+        "Cooking food",
+        "Having children",
+        "Buying a car",
+        "Fixing the roof",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Procreation is the biological function of producing offspring to continue the family.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Who provides emotional security and instils trust in children?",
+      options: [
+        "The Mother",
+        "The Landlord",
+        "The Shopkeeper",
+        "The Neighbour",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The mother’s role often involves providing unconditional love and emotional support.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the Western world, the family system is mostly:",
+      options: ["Extended", "Communal", "Nuclear", "Tribal"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Western societies like the USA focus more on the nuclear family unit.",
+    ),
+
+    QuizQuestion(
+      question: "6. One disadvantage of the extended family system is:",
+      options: [
+        "Children feel lonely",
+        "Lack of support during crisis",
+        "It can lead to laziness in some members",
+        "Parents have too much privacy",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Some members may rely too much on others rather than working hard.",
+    ),
+
+    QuizQuestion(
+      question: "7. Providing school fees and shelter are examples of:",
+      options: [
+        "Religious roles",
+        "Physical needs",
+        "Socialization",
+        "Procreation",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "These are the material or physical requirements for survival and growth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. The process of teaching children the customs and values of society is called:",
+      options: ["Graduation", "Socialization", "Occupation", "Identification"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Socialization is how the family transmits culture to the younger generation.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the nuclear family often considered more 'private'?",
+      options: [
+        "Because they live in the bush",
+        "Because there is less interference from relatives",
+        "Because they do not talk to anyone",
+        "Because they have no children",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Without many relatives living nearby, the couple can make decisions more independently.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which member acts as the 'Religious Leader' in a traditional Ghanaian family?",
+      options: [
+        "The children",
+        "The family head (Abusuapanin)",
+        "The mother",
+        "The youngest uncle",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "The family head often communicates with ancestors through libation.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S2 SS1-2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Inheritance involves passing on which of the following?",
+      options: [
+        "Only debts",
+        "Property, titles, and obligations",
+        "Only the family name",
+        "School certificates only",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Inheritance covers everything from land to traditional titles.",
+    ),
+
+    QuizQuestion(
+      question: "2. The Akan ethnic group is well known for which system?",
+      options: ["Patrilineal", "Matrilineal", "PNDC system", "Multilineal"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Akans traditionally trace their lineage and inheritance through the mother.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a patrilineal system, who is the primary beneficiary?",
+      options: [
+        "The deceased man's children",
+        "The deceased man's uncle",
+        "The deceased man's nephew",
+        "The deceased man's grandmother",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Patrilineal inheritance moves from father to child.",
+    ),
+
+    QuizQuestion(
+      question: "4. A major disadvantage of the matrilineal system is that:",
+      options: [
+        "It is too simple",
+        "It can lead to the neglect of a man's own children",
+        "Only women can own land",
+        "Children get too much money",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Because the nephew inherits, the man's biological children may be left unsupported.",
+    ),
+
+    QuizQuestion(
+      question: "5. PNDC Law 111 was passed in which year?",
+      options: ["1957", "1985", "2001", "1992"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The law was enacted in 1985 to provide a uniform system for intestate succession.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. If a person dies 'intestate' and is survived by a spouse and children, what fraction of the estate goes to the surviving spouse?",
+      options: ["1/8", "3/16", "1/2", "9/16"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "According to the law, the surviving spouse receives 3/16 of the estate.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What fraction of the estate do children receive under the Intestate Succession Law?",
+      options: ["1/8", "3/16", "9/16", "1/4"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Children receive the largest portion, which is 9/16.",
+    ),
+
+    QuizQuestion(
+      question: "8. One positive effect of the patrilineal system is that:",
+      options: [
+        "Property is retained in the nuclear family",
+        "It makes uncles very rich",
+        "It encourages everyone to be lazy",
+        "It prevents children from going to school",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It keeps wealth within the immediate father-child unit.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these can cause enmity (hatred) in a family?",
+      options: [
+        "Sharing food together",
+        "Unfair distribution of property",
+        "Writing a Will",
+        "Obeying the law",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Disputes over who gets what often lead to long-lasting family fights.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is the best way to ensure the surviving spouse and children are not thrown out of their house?",
+      options: [
+        "Selling the house before the father dies",
+        "Following PNDC Law 111 and writing a Will",
+        "Asking the family head to keep all the money",
+        "Moving to another country",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Combining legal protections and personal planning provides the best security.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S2 SS3-4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the \"base\" of a population pyramid represent?",
+      options: [
+        "The oldest people",
+        "The working class",
+        "The youngest age groups",
+        "The total wealth",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The bottom or base of the pyramid represents the infants and children.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. In which type of country would you most likely find a \"conical\" or triangular pyramid?",
+      options: [
+        "High-income country",
+        "Low-income country",
+        "Developed country",
+        "Very old country",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Low-income countries have high birth rates and lower life expectancy, creating a triangle shape.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What percentage of Canada's population was aged 65 and above in 2021?",
+      options: ["4.3%", "12.4%", "18.56%", "40.3%"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Canada has a high percentage of elderly people, reaching 18.56% in 2021.",
+    ),
+
+    QuizQuestion(
+      question: "4. Population structure is the division of population by:",
+      options: [
+        "Occupation and Salary",
+        "Religion and Language",
+        "Age and Sex",
+        "Location and Height",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Population structure specifically looks at age groups and gender.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is China's birth rate currently reduced?",
+      options: [
+        "Lack of hospitals",
+        "Higher standard of living and smaller family sizes",
+        "High death rates",
+        "Lack of schools",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Developed countries like China see reduced birth rates as families choose to have fewer children.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which group in Ghana forms the \"Working Age\" population?",
+      options: ["0–14 years", "15–64 years", "65 years and above", "0–5 years"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The 15–64 age bracket is considered the working group that supports the children and elderly.",
+    ),
+
+    QuizQuestion(
+      question: "7. A broad apex in a pyramid is a sign of:",
+      options: [
+        "Poor healthcare",
+        "High birth rates",
+        "High-quality healthcare",
+        "Large family sizes",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A wide top means more people are surviving into old age due to good health services.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. According to the World Bank, low-income countries have a GNI per capita of:",
+      options: [
+        "12,535 or more",
+        "Exactly 5,000",
+        "1,045 or less",
+        "Between 2,000 and 4,000",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Low-income countries are defined by a GNI per capita of 1,045 or less as of 2021.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Ghana's population pyramid has a broad base. This indicates:",
+      options: [
+        "A youthful population",
+        "An ageing population",
+        "A declining population",
+        "Low birth rates",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A wide base means many children, making the population \"youthful\".",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which country has the world's largest population according to the 2021 data?",
+      options: ["Ghana", "Canada", "China", "Togo"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "China had a population of approximately 1.412 billion in 2021.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S3 SS1-2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary focus of community development?",
+      options: [
+        "Increasing personal wealth.",
+        "Improving the collective life of the community.",
+        "Building high-rise hotels.",
+        "Competing with neighbouring villages.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It focuses on the well-being of the whole group.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is an individual role in the community?",
+      options: [
+        "Reporting crimes to the police.",
+        "Destroying public property.",
+        "Refusing to pay for services.",
+        "Avoiding community meetings.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Individuals help by maintaining law and order.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In the decision-making process, 'investigating' helps you to:",
+      options: [
+        "Spend money faster.",
+        "Understand the root cause of a problem.",
+        "Find someone to blame.",
+        "Ignore the community needs.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Investigation ensures you understand the problem before acting.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a key value for a community leader?",
+      options: ["Dishonesty.", "Integrity.", "Pride.", "Favouritism."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Values like integrity are essential for successful development.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"vision\" for a community means:",
+      options: [
+        "A dream of how the community can improve.",
+        "A map of the entire country.",
+        "A list of all people living in the area.",
+        "The history of how the town started.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Vision is the desired future state of the community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. If a community needs a new well, and they compare the cost of three different drilling companies, which step is this?",
+      options: [
+        "Investigating.",
+        "Evaluating alternatives.",
+        "Creating the problem.",
+        "Celebrating the end.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Comparing options to see which is best is evaluation.",
+    ),
+
+    QuizQuestion(
+      question: "7. Collective action means:",
+      options: [
+        "One person doing all the work.",
+        "People working together for a common goal.",
+        "Doing nothing and hoping for the best.",
+        "Paying someone from another country to work.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Collective\" refers to the group acting together.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a social problem a community might face?",
+      options: [
+        "Having too many trees.",
+        "High rates of school dropouts.",
+        "Beautiful weather.",
+        "New textbooks in the library.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Problems like school dropouts require community intervention.",
+    ),
+
+    QuizQuestion(
+      question: "9. What does 'initiative' mean in community development?",
+      options: [
+        "Taking the first step to help without being told.",
+        "Waiting for a command from the assemblyman.",
+        "Asking for payment before starting a task.",
+        "Quitting a project halfway through.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Initiative is the drive to start an action independently.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. A community where members do not share common goals is likely to:",
+      options: [
+        "Grow very fast.",
+        "Experience slow development.",
+        "Become the capital city.",
+        "Have no problems at all.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Without shared goals, it is hard to take collective action.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S3 SS1-2 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which term describes working for the community without being paid?",
+      options: ["Employment.", "Volunteerism.", "Business.", "Trading."],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Volunteerism is service without financial reward.",
+    ),
+
+    QuizQuestion(
+      question: "2. A volunteer is someone who helps because they:",
+      options: [
+        "Are told they will be arrested if they don't.",
+        "Want to help from their own free will.",
+        "Need to pay off a big debt.",
+        "Were promised a new car.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Free will is the core of being a volunteer.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of the following is a benefit of volunteerism to the individual?",
+      options: [
+        "It makes them lazy.",
+        "It builds interpersonal skills and confidence.",
+        "It takes away their free time for no reason.",
+        "It guarantees they will never have to go to school.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Volunteering helps individuals grow and communicate better.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which group works specifically on environmental pollution in Ghana?",
+      options: [
+        "Otumfuo Osei Tutu II Foundation.",
+        "Green Ghana Cooperation.",
+        "Ghana Red Cross.",
+        "Love Ghana Foundation.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Green Ghana is committed to solving environmental issues.",
+    ),
+
+    QuizQuestion(
+      question: "5. Cleaning choked gutters in your neighbourhood is called:",
+      options: [
+        "A cleanup exercise.",
+        "A sporting activity.",
+        "A private business.",
+        "A school holiday.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Cleanup exercises are common voluntary community tasks.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does volunteerism contribute to the national economy?",
+      options: [
+        "By increasing the price of goods.",
+        "By providing free services that save the country money.",
+        "By encouraging people to stop paying taxes.",
+        "By making sure no one buys anything from shops.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Free voluntary work reduces the financial burden on the state.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which of these is a way a JHS student can volunteer at home?",
+      options: [
+        "Waiting to be forced to sweep.",
+        "Doing household chores willingly.",
+        "Asking for money before washing bowls.",
+        "Leaving all the work for their parents.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Performing chores without being told is a form of volunteering.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. \"Donating slightly used items\" means giving away things that are:",
+      options: [
+        "Completely broken and useless.",
+        "Still in good condition but no longer needed.",
+        "Brand new and very expensive.",
+        "Stolen from a shop.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Donated items should be useful to the receiver.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Volunteerism helps in \"raising social awareness.\" This means:",
+      options: [
+        "Telling people about important issues like crime or health.",
+        "Keeping all information to yourself.",
+        "Making sure no one knows what is happening.",
+        "Charging people money to hear the news.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Volunteers often educate the public on social issues.",
+    ),
+
+    QuizQuestion(
+      question: "10. A community with many active volunteers is likely to be:",
+      options: [
+        "Very dirty and dangerous.",
+        "More developed and united.",
+        "Poorer than other communities.",
+        "Full of people who don't like each other.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Volunteerism builds trust and contributes to development.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S4 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of human rights?",
+      options: [
+        "To help people break laws",
+        "To protect the dignity and worth of every person",
+        "To make everyone rich",
+        "To replace the police force",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Human rights ensure that every individual is treated with respect and fairness.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. The Universal Declaration of Human Rights contains how many articles?",
+      options: ["10", "50", "30", "100"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The UDHR consists of 30 specific articles outlining human rights.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In Ghana, which document is the supreme law that protects our rights?",
+      options: [
+        "The Social Studies Textbook",
+        "The 1992 Constitution",
+        "The District Assembly Bye-laws",
+        "The School Rules",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The 1992 Constitution is the highest law in Ghana and enshrines our rights.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which of the following is a violation of the Right to Life?",
+      options: [
+        "Going to the hospital",
+        "Intentional killing of an individual",
+        "Exercising in the morning",
+        "Eating a balanced diet",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The right to life means no one should be deprived of their life intentionally.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Why is the Right to Education important for Ghana's development?",
+      options: [
+        "It makes school uniforms more expensive",
+        "It ensures citizens gain knowledge to help the country grow",
+        "It allows children to play all day",
+        "It reduces the number of teachers needed",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Education empowers citizens to contribute effectively to the nation's socio-economic development.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. A suspect is arrested by the police. According to the Right to Personal Liberty, what must happen?",
+      options: [
+        "They should be beaten to tell the truth",
+        "They should be kept in a cell forever",
+        "They should be brought before a court within a reasonable time",
+        "They should be made to work on a farm for free",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "The right to liberty protects against unlawful and indefinite detention.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What is the responsibility of a citizen regarding \"Mob Justice\" (lynching)?",
+      options: [
+        "To join the crowd to catch the thief",
+        "To record it on a phone and share it",
+        "To stop it and allow the law to take its course",
+        "To run away and hide",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Every citizen has the responsibility to uphold the law and respect the right to a fair trial.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a duty of a Ghanaian citizen?",
+      options: [
+        "Discriminating against others",
+        "Evading taxes",
+        "Defending the Constitution",
+        "Stealing public property",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Citizens are mandated by law to defend and uphold the Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "9. Freedom of speech means you can:",
+      options: [
+        "Insult anyone you like",
+        "Say things that cause a riot",
+        "Express your opinions peacefully",
+        "Tell lies in a court of law",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Rights must be exercised responsibly without infringing on the rights of others or public order.",
+    ),
+
+    QuizQuestion(
+      question: "10. Human rights are important because they promote:",
+      options: [
+        "Conflict and war",
+        "Inequality and poverty",
+        "Peace, justice, and order",
+        "Laziness in society",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Protecting human rights is essential for maintaining a peaceful and orderly society.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S4 SS2 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Conflict is best defined as a:",
+      options: [
+        "Friendly conversation",
+        "Disagreement between people or groups",
+        "Type of community festival",
+        "Method of building houses",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Conflict is a clash or disagreement arising from different ideas or interests.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Taking steps to stop a conflict before it even starts is known as:",
+      options: [
+        "Conflict Prevention",
+        "Conflict Management",
+        "Conflict Promotion",
+        "Conflict Displacement",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Prevention involves identifying signals to stop a conflict from occurring.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which of these is an example of an economic cause of conflict?",
+      options: [
+        "Disagreement over the location of a new market",
+        "People sharing food at a party",
+        "Students studying for an exam",
+        "A family watching a football match",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Disagreements over the siting of public facilities like markets are common causes of conflict.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. What can happen to people living in a town where there is a violent conflict?",
+      options: [
+        "They become very wealthy",
+        "They are often displaced from their homes",
+        "They enjoy better peace and security",
+        "They build more schools",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Conflict often leads to people running away from their communities to safer places.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A person who listens to both sides of a conflict and makes a final decision that everyone must follow is an:",
+      options: ["Arbitrator", "Mediator", "Negotiator", "Agitator"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "In arbitration, the arbitrator's decision is usually binding on all parties.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which attitude helps to reduce tribalism in Ghana?",
+      options: [
+        "Looking down on minority groups",
+        "Seeing ourselves as one people",
+        "Encouraging ethnic insults",
+        "Promoting only our own culture",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "To prevail, we must learn to bury ethnic pride and see ourselves as one people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. How does conflict affect the education of children in a community?",
+      options: [
+        "It makes them study harder",
+        "It creates an atmosphere of fear and stops school progress",
+        "It provides more textbooks for schools",
+        "It leads to the building of more classrooms",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Conflict creates insecurity, meaning children may not go to school amidst violence.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. When two people in a disagreement talk to each other directly to find a solution, they are:",
+      options: ["Mediating", "Arbitrating", "Negotiating", "Litigating"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Negotiation is where mandated representatives or the parties themselves meet to reach an agreement.",
+    ),
+
+    QuizQuestion(
+      question: "9. The role of women in peacebuilding includes:",
+      options: [
+        "Buying weapons for the community",
+        "Acting as mediators to reconcile parties",
+        "Starting arguments in the market",
+        "Discouraging people from talking",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Women often act as intermediaries and help in the reconciliation process.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which of these values is essential for lasting peace in a Ghanaian community?",
+      options: ["Dishonesty", "Forgiveness", "Greed", "Intolerance"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Learning to forgive those who offend us is a key value for maintaining peace.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which term describes the relationship where one party provides labour for pay?",
+      options: ["Unemployment", "Employment", "Investment", "Volunteerism"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Employment is the formal relationship involving work for pay.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Madam Opeibea employs a cleaner for her house. In this scenario, Madam Opeibea is the...",
+      options: ["Employee", "Nominee", "Employer", "Apprentice"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Since she is the one hiring and paying for the service, she is the employer.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. What is the main institution in Ghana mandated to manage the Tier-1 pension scheme?",
+      options: [
+        "Bank of Ghana",
+        "SSNIT",
+        "Ghana Revenue Authority",
+        "Ministry of Finance",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Social Security and National Insurance Trust (SSNIT) manages the basic national social security scheme.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Under Act 766, social security in Ghana is organized into how many tiers?",
+      options: ["One", "Two", "Three", "Four"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The National Pensions Act makes provision for a 3-tier pension scheme.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. An employer fails to register a new worker. This is a breach of which obligation?",
+      options: [
+        "Employee obligation",
+        "Financial investment",
+        "Employer obligation",
+        "Personal savings",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "It is a mandatory obligation for employers to ensure all workers are registered.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What should an employee receive from SSNIT to track their contributions?",
+      options: [
+        "A new passport",
+        "A bank cheque book",
+        "A social security number and statements",
+        "A monthly salary increase",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Workers must be issued a social security number and receive statements to monitor payments.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The 13% contribution paid by the employer is calculated based on what?",
+      options: [
+        "The worker's total allowance",
+        "The worker's basic salary",
+        "The employer's total profit",
+        "The worker's age",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The contribution is specifically 13% of the worker's basic salary.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Who is responsible for pointing out discrepancies in a pension statement?",
+      options: [
+        "The employer",
+        "The employee",
+        "The bank manager",
+        "The police",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The employee is the best person to know if they are working and must point out any errors.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. What happens if an employer pays the SSNIT contribution on the 20th day of the ensuing month?",
+      options: [
+        "They receive a bonus",
+        "They pay a penalty for late payment",
+        "The employee gets double pay",
+        "Nothing happens",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Payments after the 14th day attract a penalty for being late.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Why are employees encouraged to contribute regularly throughout their working life?",
+      options: [
+        "To pay for their children's current school fees",
+        "To receive a pension during retirement or ill health",
+        "To help the government build more roads",
+        "To get a loan for a new car immediately",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Regular contributions ensure financial support when a person is retired or unable to work due to health.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Where is the Larabanga Mosque located?",
+      options: [
+        "Central Region",
+        "Savannah Region",
+        "Ashanti Region",
+        "Eastern Region",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
+    ),
+
+    QuizQuestion(
+      question: "2. Tourism is an example of which type of economic activity?",
+      options: ["Farming", "Mining", "Service", "Manufacturing"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tourism provides services like transport, accommodation, and entertainment.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which site would you visit to see the final resting place of Dr. Kwame Nkrumah?",
+      options: [
+        "Cape Coast Castle",
+        "Kwame Nkrumah Memorial Park",
+        "Manhyia Palace",
+        "Aburi Botanical Gardens",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "This park in Accra is dedicated to Ghana's first president.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a \"souvenir\" in the context of tourism?",
+      options: [
+        "A type of foreign currency",
+        "A person who travels to a new place",
+        "An item bought as a reminder of a visit",
+        "A vehicle used to transport tourists",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tourists buy crafts and items as souvenirs, supporting local artists.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which activity helps develop new tourist sites?",
+      options: [
+        "Cutting down trees for firewood",
+        "Identifying and promoting natural waterfalls",
+        "Building houses on historical lands",
+        "Pollution of rivers and streams",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Discovering and promoting new natural features helps expand tourism.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. The Manhyia Palace is significant because it is the seat of the:",
+      options: ["President of Ghana", "Asantehene", "Ga Mantse", "Okyenhene"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The palace is the official residence of the Asantehene in Kumasi.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Which of these is a major challenge facing tourism in Ghana?",
+      options: [
+        "Too many beautiful beaches",
+        "Poor maintenance of facilities",
+        "Lack of interesting history",
+        "Having too many different languages",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Many sites need renovation and better maintenance to remain attractive.",
+    ),
+
+    QuizQuestion(
+      question: "8. How does tourism promote \"International Relations\"?",
+      options: [
+        "By closing our borders to visitors",
+        "By encouraging people from different countries to interact",
+        "By making everyone live in the same city",
+        "By stopping all international flights",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "It creates a cultural exchange between Ghanaians and foreigners.",
+    ),
+
+    QuizQuestion(
+      question: "9. Boti Falls is located in which region?",
+      options: [
+        "Western Region",
+        "Eastern Region",
+        "Volta Region",
+        "Bono Region",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Boti Falls is a twin waterfall located in the Eastern Region.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which group of people benefits directly from the \"hospitality\" sector of tourism?",
+      options: ["Miners", "Hotel workers", "Soldiers", "Forest guards"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The hospitality sector includes hotels and restaurants that serve tourists.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S6 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In what year did Ghana become a Republic?",
+      options: ["1951", "1957", "1960", "1969"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ghana became a Republic on 1st July 1960.",
+    ),
+
+    QuizQuestion(
+      question: "2. A constitution is best described as:",
+      options: [
+        "A book of history",
+        "A set of laws and rules for governing a country",
+        "A list of all citizens",
+        "A map of the nation",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A constitution provides the rules by which a nation is ruled.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. How many candidates contested the 1960 presidential election?",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Only Dr Kwame Nkrumah and Dr J.B. Danquah contested.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which party did Dr Kwame Nkrumah lead in 1960?",
+      options: [
+        "United Party (UP)",
+        "Progress Party (PP)",
+        "National Liberation Council (NLC)",
+        "Convention People’s Party (CPP)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Nkrumah was the leader of the CPP.",
+    ),
+
+    QuizQuestion(
+      question: "5. The 1960 referendum asked Ghanaians to vote on the:",
+      options: [
+        "Independence of Ghana",
+        "New Republican Constitution",
+        "Removal of the Chief Justice",
+        "Selection of a new Queen",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The referendum was held to adopt the 1960 Constitution.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Who was the Queen's representative in Ghana before the Republic?",
+      options: [
+        "The President",
+        "The Chief Justice",
+        "The Governor-General",
+        "The Prime Minister",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Governor-General represented the British monarch.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. What was the outcome for the \"Yes\" vote in the 1960 referendum?",
+      options: ["11.53%", "88.47%", "50%", "89.1%"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Over 88% of voters supported the change to a Republic.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why did Ghana want to become a Republic?",
+      options: [
+        "To go back to British rule",
+        "To have the Queen live in Accra",
+        "To be fully independent and choose its own leaders",
+        "To stop holding elections",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A Republic meant Ghana was no longer under foreign influence.",
+    ),
+
+    QuizQuestion(
+      question: "9. Dr J.B. Danquah's percentage of the 1960 vote was:",
+      options: ["89.1%", "10.9%", "88.47%", "11.53%"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Dr Danquah received 10.9% of the total votes cast.",
+    ),
+
+    QuizQuestion(
+      question: "10. Sir Arku Korsah held which position in 1960?",
+      options: [
+        "President",
+        "Minister of Finance",
+        "Chief Justice",
+        "Governor-General",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sir Arku Korsah was the Chief Justice who performed the swearing-in ceremony.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S6 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The 1960 Constitution made Ghana a:",
+      options: ["Monarchy", "Colony", "Unitary State", "Federal State"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Ghana was maintained as a single, unitary state under the 1960 rules.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Who acted as the \"Single Executive\" in the First Republic?",
+      options: [
+        "The Chief Justice",
+        "The President",
+        "The Speaker of Parliament",
+        "The Prime Minister",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "All executive power was vested in the President alone.",
+    ),
+
+    QuizQuestion(
+      question: "3. A \"veto\" allows the President to:",
+      options: [
+        "Create a new political party",
+        "Refuse to sign a law passed by Parliament",
+        "Resign from office",
+        "Appoint a King",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The President could reject or cancel laws he did not like.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which position was abolished by the 1960 Constitution?",
+      options: [
+        "President",
+        "Member of Parliament",
+        "Governor-General",
+        "Chief Justice",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Since Ghana became a Republic, the Queen's representative (Governor-General) was no longer needed.",
+    ),
+
+    QuizQuestion(
+      question: "5. Parliament in the First Republic was known as the:",
+      options: ["House of Lords", "National Assembly", "Senate", "Congress"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The legislative body was called the National Assembly.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. How many houses did the legislature have under the 1960 Constitution?",
+      options: ["One", "Two", "Three", "Four"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It was a unicameral legislature, meaning it had only one house.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. Who performed the duties of the President if he was away or sick?",
+      options: [
+        "The Vice-President",
+        "A Presidential Commission",
+        "The Queen",
+        "The Prime Minister",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Since there was no Vice-President, a commission or assistant was appointed as needed.",
+    ),
+
+    QuizQuestion(
+      question: "8. Ministers in the First Republic were usually:",
+      options: [
+        "From the same political party as the President",
+        "Appointed by the British government",
+        "Chiefs from the Northern Region",
+        "Foreigners living in Ghana",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Ministers were usually chosen from the President's party in Parliament.",
+    ),
+
+    QuizQuestion(
+      question: "9. The 1960 Constitution gave the President power to:",
+      options: [
+        "Change the colors of the flag every day",
+        "Dismiss government officials he did not like",
+        "Move the capital to London",
+        "Rule without any Parliament at all",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The President had increased power over government appointments and dismissals.",
+    ),
+
+    QuizQuestion(
+      question: "10. What was one reason the 1960 Constitution was criticized?",
+      options: [
+        "It gave the President too much power",
+        "It made the Queen too powerful",
+        "It didn't allow for a Parliament",
+        "It was written in a foreign language",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Many felt the concentration of power in one person was risky for democracy.",
+    ),
+  ],
+);
+final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S6 SS1 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The 1966 coup took place on:",
+      options: ["1st July", "24th February", "29th August", "1st October"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The military took over on 24th February 1966.",
+    ),
+
+    QuizQuestion(
+      question: "2. Who was the first Chairman of the NLC?",
+      options: [
+        "Brigadier A.A. Afrifa",
+        "Lieutenant-General J.A. Ankrah",
+        "Dr K.A. Busia",
+        "Mr. J.W.K. Harlley",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "J.A. Ankrah was the initial Chairman of the military council.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. In what month and year were political activities restored by the NLC?",
+      options: ["February 1966", "October 1969", "May 1969", "January 1972"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The ban on politics was lifted in May 1969 to allow for elections.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. The total number of seats contested in the 1969 Parliamentary election was:",
+      options: ["105", "120", "140", "200"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "There were 140 seats available in the National Assembly.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which political party used the slogan \"Progress\"?",
+      options: ["NAL", "PP", "PAP", "UNP"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Progress Party was led by Dr K.A. Busia.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What was a major reason for the 1966 coup according to the military?",
+      options: [
+        "To bring back the Queen",
+        "To end dictatorship and economic hardship",
+        "To stop the 1969 elections",
+        "To move the capital to Kumasi",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The NLC claimed they wanted to restore freedom and fix the economy.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many political parties contested the 1969 elections?",
+      options: ["Two", "Three", "Five", "Ten"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Five main parties including PP, NAL, UNP, PAP, and APRP contested.",
+    ),
+
+    QuizQuestion(
+      question: "8. Who became the Prime Minister of the Second Republic?",
+      options: [
+        "Edward Akufo-Addo",
+        "Dr K.A. Busia",
+        "K.A. Gbedemah",
+        "A.A. Afrifa",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "As leader of the winning party, Dr Busia became Prime Minister.",
+    ),
+
+    QuizQuestion(
+      question: "9. The Second Republic is known as a transition from:",
+      options: [
+        "Colony to Independence",
+        "Republic to Monarchy",
+        "Military rule to Civilian rule",
+        "Democracy to Dictatorship",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "It marked the return to elected government after the NLC's military rule.",
+    ),
+
+    QuizQuestion(
+      question: "10. Who was the leader of the National Alliance of Liberals?",
+      options: [
+        "Dr J.B. Danquah",
+        "Imoru Egala",
+        "K.A. Gbedemah",
+        "Victor Owusu",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "K.A. Gbedemah led the main opposition party (NAL).",
+    ),
+  ],
+);
+final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S6 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The Second Republic's system of sharing power is known as:",
+      options: [
+        "Unicameralism",
+        "Separation of Powers",
+        "One-party rule",
+        "Colonialism",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Power was separated between the President, Prime Minister, and Judiciary.",
+    ),
+
+    QuizQuestion(
+      question: "2. Who chose the Prime Minister in 1969?",
+      options: [
+        "The Queen",
+        "The President",
+        "The majority party in Parliament",
+        "The military",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The leader of the party with the most seats became Prime Minister.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The 1969 Constitution allowed for how many political parties?",
+      options: ["Only one", "Only two", "Multiple parties", "None"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It promoted a multi-party democracy.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which office was created to protect citizens against government unfairness?",
+      options: [
+        "The Prime Minister",
+        "The Ombudsman",
+        "The Governor-General",
+        "The Chief Justice",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Ombudsman handles complaints about government officials.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A major difference between the First and Second Republic was:",
+      options: [
+        "The Second Republic had a Prime Minister",
+        "The First Republic was led by a King",
+        "The Second Republic had no Parliament",
+        "The First Republic used the Cedi",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The First Republic used a Presidential system without a Prime Minister.",
+    ),
+
+    QuizQuestion(
+      question: "6. Independence of the Judiciary means:",
+      options: [
+        "Judges can do whatever they want",
+        "The government cannot tell judges how to decide cases",
+        "All judges must be from the Progress Party",
+        "Judges are elected by the people",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This protects the law from political influence.",
+    ),
+
+    QuizQuestion(
+      question: "7. The Second Republic lasted from 1969 until:",
+      options: ["1970", "1972", "1981", "1992"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "It was ended by another military coup in January 1972.",
+    ),
+
+    QuizQuestion(
+      question: "8. Dr K.A. Busia's official title was:",
+      options: [
+        "President",
+        "Chief Justice",
+        "Prime Minister",
+        "Governor-General",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "He was the Head of Government.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which body was responsible for making laws in the Second Republic?",
+      options: [
+        "The Cabinet",
+        "The National Assembly",
+        "The NLC",
+        "The Supreme Court",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The elected Parliament (National Assembly) made the laws.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Why was the office of the President \"ceremonial\" in 1969?",
+      options: [
+        "He had no power to make government decisions",
+        "He was only a child",
+        "He lived in Britain",
+        "He was not a Ghanaian",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The 1969 President acted as a symbol of the nation, not an executive leader.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are 'air pollutants'?",
+      options: [
+        "Clean gases used for breathing",
+        "Harmful substances in the atmosphere",
+        "Clouds that bring heavy rainfall",
+        "Seeds carried by the wind",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Pollutants are the specific harmful substances that cause pollution.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which gas is a major component of automobile exhaust?",
+      options: ["Oxygen", "Nitrogen", "Carbon monoxide", "Hydrogen"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Vehicles burn fossil fuels which release carbon monoxide into the air.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Which health condition is directly linked to inhaling polluted air?",
+      options: ["Pneumonia", "Malaria", "Broken bones", "Yellow fever"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pollution causes respiratory disorders, including pneumonia and lung cancer.",
+    ),
+
+    QuizQuestion(
+      question: "4. Acid rain is harmful because it:",
+      options: [
+        "Makes the grass grow faster",
+        "Damages buildings and aquatic life",
+        "Provides extra nutrients to the soil",
+        "Keeps the atmosphere very bright",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Acid rain corrodes materials and harms animals living in water.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is a major effect of global warming?",
+      options: [
+        "A decrease in the earth's temperature",
+        "An increase in the earth's temperature",
+        "The air becoming much cleaner",
+        "More oxygen being produced by plants",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Global warming is the gradual increase in the average temperature of the Earth.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a way to prevent air pollution?",
+      options: [
+        "Burning all household waste in the backyard",
+        "Using leaded petrol in all older cars",
+        "Planting more trees (Afforestation)",
+        "Building more factories in city centres",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Plants remove carbon dioxide from the air, acting as natural air cleaners.",
+    ),
+
+    QuizQuestion(
+      question: "7. Ammonia is an air pollutant often associated with:",
+      options: [
+        "Mining activities",
+        "Cooking with gas",
+        "Natural volcanoes",
+        "Agricultural activities",
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "Ammonia is released during the use of fertilizers and pesticides in farming.",
+    ),
+
+    QuizQuestion(
+      question: "8. The ozone layer is important because it:",
+      options: [
+        "Traps heat to keep us warm at night",
+        "Protects the earth from harmful UV radiation",
+        "Provides the smoke needed for rain",
+        "Is the main source of oxygen for humans",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The ozone layer shields the earth from the sun's harmful ultraviolet rays.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which of these is an example of an industrial air pollutant?",
+      options: [
+        "Dust from a classroom floor",
+        "Oxygen from a garden",
+        "Toxic fumes from a factory chimney",
+        "Water vapour from a boiling pot",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Factories release various chemicals and toxic fumes during production.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. A project to educate community members on air pollution should focus on:",
+      options: [
+        "Encouraging more people to buy cars",
+        "Discouraging the open burning of waste",
+        "How to find more gold in the mines",
+        "Why we should use more inorganic fertilizer",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Education should focus on reducing harmful practices like burning trash.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S1 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which country has a significantly high percentage of 'Renewables' in its energy mix?",
+      options: ["Ghana", "Togo", "Nigeria", "Germany"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Germany has made a major shift towards renewable energy sources like wind and solar.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. What is the primary fuel used by most trotros and cars in Ghana?",
+      options: ["Firewood", "Natural gas", "Solar power", "Petrol and Diesel"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Most vehicles in Ghana run on petrol and diesel.",
+    ),
+
+    QuizQuestion(
+      question: "3. Gender issues in energy include which of the following?",
+      options: [
+        "Men and women using exactly the same energy",
+        "Women's vulnerability to indoor pollution from cooking fuels",
+        "Children not being allowed to use electricity",
+        "Only men being allowed to pay electricity bills",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Women are more exposed to indoor air pollution due to cooking with biomass fuels.",
+    ),
+
+    QuizQuestion(
+      question: "4. An 'Analog meter' is identified by its:",
+      options: [
+        "LCD screen",
+        "Real-time internet connection",
+        "Spinning mechanical disc",
+        "Voice command features",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Analog meters use a spinning disc to measure electricity usage.",
+    ),
+
+    QuizQuestion(
+      question: "5. Energy conservation helps the environment by:",
+      options: [
+        "Increasing the amount of smoke in the air",
+        "Reducing the carbon footprint",
+        "Making the weather hotter",
+        "Using up all the water in the dams",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Saving energy reduces greenhouse gas emissions and environmental impact.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which of these is a device used to measure energy in a specific part of a building?",
+      options: ["Submeter", "Smart meter", "Analog meter", "Gas cylinder"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Submeters are used to track consumption in specific departments or floors.",
+    ),
+
+    QuizQuestion(
+      question: "7. In Ghana's energy mix, 'Biomass' mostly refers to:",
+      options: [
+        "Woodfuel and charcoal",
+        "Nuclear power",
+        "Wind turbines",
+        "Large batteries",
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Biomass in Ghana mainly includes woodfuel and charcoal.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Why is it important for women to be represented in the energy sector workforce?",
+      options: [
+        "To ensure they can carry heavy poles",
+        "To bring diverse perspectives to energy policy",
+        "Because women do not use electricity",
+        "To make sure electricity is only used in kitchens",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Women's participation ensures inclusive and effective energy policies.",
+    ),
+
+    QuizQuestion(
+      question: "9. Energy monitors are small devices that help users:",
+      options: [
+        "Generate their own electricity",
+        "Identify which appliances use the most energy",
+        "Fix broken power lines",
+        "Change the colour of the lights",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "They track and display energy usage of different appliances.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. What is a major benefit of saving energy for a Ghanaian household?",
+      options: [
+        "It makes the television play faster",
+        "It makes the house look bigger",
+        "It allows the family to use more water",
+        "It reduces the monthly electricity bill",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Saving energy reduces electricity costs.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S1 SS2 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of a natural resource?",
+      options: [
+        "Anything made in a factory",
+        "Materials provided by nature that are useful to humans",
+        "Money kept in the bank",
+        "Tools used by teachers in school",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Natural resources occur naturally and are useful to people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which of the following is an example of a renewable resource?",
+      options: ["Manganese", "Bauxite", "Solar energy", "Natural gas"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Sunlight is inexhaustible and replaced daily.",
+    ),
+
+    QuizQuestion(
+      question: "3. Bauxite is mainly used to produce which of the following?",
+      options: ["Aluminium", "Jewellery", "Petrol", "Glass"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Bauxite is the primary ore used to make aluminium.",
+    ),
+
+    QuizQuestion(
+      question: "4. Where is bauxite mined in Ghana?",
+      options: ["Akwatia", "Awaso", "Nsuta", "Prestea"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Awaso is a major bauxite mining area.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is \"Value Addition\" in resource exploitation?",
+      options: [
+        "Selling raw timber to Europe",
+        "Processing raw cocoa into chocolate locally",
+        "Digging more gold out of the ground",
+        "Importing more oil from other countries",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Adding value means processing raw materials into finished goods to increase their price.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which resource is used to generate hydroelectric power at Akosombo?",
+      options: ["Wind", "Water", "Coal", "Oil"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Volta River water is used for hydroelectricity.",
+    ),
+
+    QuizQuestion(
+      question: "7. Identify the mineral found in Nsuta.",
+      options: ["Gold", "Diamond", "Manganese", "Salt"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Nsuta is known for manganese deposits.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why are minerals called \"exhaustible\" resources?",
+      options: [
+        "They make workers tired",
+        "They cannot be replaced once used up",
+        "They are found everywhere",
+        "They grow back very quickly",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Non-renewable resources like minerals have a limited supply.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which of these is a major challenge in Ghana's mining sector?",
+      options: [
+        "Lack of natural resources",
+        "High level of local expertise",
+        "Activities of illegal miners (Galamsey)",
+        "Too much modern technology",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Illegal mining or 'galamsey' causes environmental destruction and resource waste.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. How does the environment benefit when we use resources efficiently?",
+      options: [
+        "It leads to more pollution",
+        "It prevents the destruction of forests and water bodies",
+        "It makes the land desert-like",
+        "It reduces the number of animals",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Efficient use ensures sustainability and protects nature.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S1 SS2 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Human Resource includes which of the following?",
+      options: [
+        "Skills, knowledge, and experience of people",
+        "Mountains and valleys",
+        "Tractors and computers",
+        "Gold and bauxite",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Human resources are the mental and physical capabilities of the workforce.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which age group in Ghana is generally considered the \"active\" workforce?",
+      options: [
+        "15 to 64 years",
+        "0 to 5 years",
+        "80 to 95 years",
+        "5 to 10 years",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "This age range represents people capable of working and contributing to the economy.",
+    ),
+
+    QuizQuestion(
+      question: "3. How does formal education improve human resources?",
+      options: [
+        "It makes people taller",
+        "It provides specialized knowledge for development",
+        "It reduces the number of people in the country",
+        "It replaces the need for hospitals",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Education prepares individuals for professional and technical roles.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is health a part of human resource development?",
+      options: [
+        "Because doctors like to work",
+        "Because sick people cannot work effectively",
+        "Because medicine is a natural resource",
+        "Because it makes the map look better",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Physical well-being is essential for maintaining a productive workforce.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Which Ghanaian profession uses their human resource to provide security?",
+      options: ["A police officer", "A baker", "A fisherman", "A florist"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Security personnel use their training to protect the community.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is the result of \"Inadequate Skilled Personnel\" in a country?",
+      options: [
+        "High production of goods",
+        "Dependence on foreign experts",
+        "Fast economic growth",
+        "Efficient use of minerals",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without local experts, countries must pay outsiders to manage their resources.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does a teacher contribute to Ghana's human resource?",
+      options: [
+        "By selling textbooks",
+        "By training the future workforce",
+        "By building school walls",
+        "By fixing school buses",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Teachers develop the skills and knowledge of the next generation.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a way to motivate human resources?",
+      options: [
+        "Giving regular feedback and rewards",
+        "Reducing the number of tools available",
+        "Closing all the schools",
+        "Moving workers to random jobs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Motivation through rewards encourages higher productivity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Using computers to make work faster is an example of...",
+      options: [
+        "Traditional methods",
+        "Capital waste",
+        "Natural resource",
+        "Appropriate technology",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Technology aids human resources in working more efficiently.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Which statement is true about human and natural resources?",
+      options: [
+        "Natural resources are more important than human resources",
+        "Human resources are needed to make natural resources useful",
+        "Humans do not need natural resources to survive",
+        "Gold can manage a business without people",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Human intelligence and labor are required to turn raw nature into useful products.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S2 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of procreation within marriage?",
+      options: [
+        "To gain wealth from children",
+        "To ensure the continuity of humanity",
+        "To make children work on farms",
+        "To compete with neighbours",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Marriage provides a legitimate avenue for children to be born and continue the human race.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which type of marriage is regulated by the Laws of Ghana and registered at the District Assembly?",
+      options: [
+        "Customary Marriage",
+        "Trial Marriage",
+        "Ordinance Marriage",
+        "Secret Marriage",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Marriage under the Ordinance is the civil law marriage of Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "3. The 'bride price' is a feature of which type of marriage?",
+      options: [
+        "Ordinance Marriage",
+        "Customary Marriage",
+        "Foreign Marriage",
+        "School Marriage",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The bride price is a key part of Ghanaian traditional or customary marriage rites.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. What is the 'Kokooko bo' ceremony commonly called in English?",
+      options: ["The Wedding", "The Naming", "The Knocking", "The Parting"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "'Kokooko bo' literally refers to knocking at the door of the bride's family.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A broken marriage can lead to 'streetism'. What does this mean?",
+      options: [
+        "Children living and working on the streets",
+        "Children becoming very wealthy",
+        "Families moving to a new city",
+        "Parents buying new cars",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "When marriages fail, children often lose support and end up on the streets.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a religious marriage rite in Ghana?",
+      options: [
+        "Signing at the High Court",
+        "Islamic marriage (Nikah)",
+        "Only the knocking ceremony",
+        "A school debate",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islamic and Christian weddings are the two main religious marriages in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is companionship important in marriage?",
+      options: [
+        "It helps people stay lonely",
+        "It provides emotional support and friendship",
+        "It makes people argue more",
+        "It is not important at all",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Marriage provides a partner to share life's joys and challenges with.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which of the following can help a couple sustain their marriage?",
+      options: [
+        "Being unfaithful",
+        "Tolerance and forgiveness",
+        "Lack of trust",
+        "Living apart forever",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Showing tolerance and forgiving mistakes helps a marriage last longer.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is one effect of a broken marriage on the society?",
+      options: [
+        "Increase in child delinquency",
+        "More schools being built",
+        "Everyone becoming happier",
+        "Better roads in the village",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Broken homes can lead to children engaging in social vices or criminal behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. In Ghana, customary marriage is a union between:",
+      options: [
+        "Only the man and the woman",
+        "Two different schools",
+        "Two different families",
+        "Two different countries",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Ghanaian tradition sees marriage as the joining of two family trees.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S2 SS1 L2/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Parenting is a process that ends when the child:",
+      options: [
+        "Reaches adulthood",
+        "Turns five years old",
+        "Starts walking",
+        "Gets a new toy",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Parenting is the continuous support of a child from infancy until they become an adult.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which parenting style is generally considered the most effective for raising well-adjusted children?",
+      options: ["Authoritarian", "Permissive", "Authoritative", "Uninvolved"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Authoritative parenting balances high expectations with high support and love.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Failing to provide a child with basic needs like food and shelter is an example of:",
+      options: [
+        "Strict discipline",
+        "Irresponsible parenting",
+        "Teaching independence",
+        "Customary tradition",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Providing basic needs is a fundamental responsibility of every parent.",
+    ),
+
+    QuizQuestion(
+      question: "4. Children of authoritarian parents are often:",
+      options: [
+        "Very creative and loud",
+        "High achievers with high self-esteem",
+        "Obedient but may have low self-esteem",
+        "Given too much freedom",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Strictness can make children follow rules out of fear rather than understanding.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is an example of 'Emotional Needs'?",
+      options: [
+        "Buying a new textbook",
+        "Providing a bed to sleep in",
+        "Paying school fees on time",
+        "Giving a child a hug and encouragement",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Emotional needs involve affection, love, and a sense of belonging.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What can happen if there is constant conflict between parents and children?",
+      options: [
+        "The child becomes more obedient",
+        "It can lead to the child refusing to perform house chores",
+        "The parents become happier",
+        "The house becomes very quiet",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Unresolved conflicts can cause children to become indisciplined or rebellious.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. In Ghana, parents are expected to teach children 'Moral Training.' This includes:",
+      options: [
+        "Learning how to drive a car",
+        "Respecting elders and being honest",
+        "How to use a computer",
+        "How to play football",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Moral training focuses on character and social values.",
+    ),
+
+    QuizQuestion(
+      question: "8. A 'Permissive' parent is often seen by the child as:",
+      options: ["An enemy", "A boss", "A friend", "A stranger"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Permissive parents avoid conflict and discipline, acting more as peers.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which behavior by a child can cause a parent to act inappropriately?",
+      options: [
+        "Studying hard for exams",
+        "Helping with house chores",
+        "Persistent disobedience and truancy",
+        "Respecting the family's visitors",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Extreme negative behavior from children can sometimes lead to parents reacting poorly.",
+    ),
+
+    QuizQuestion(
+      question: "10. The goal of responsible parenting is to produce:",
+      options: [
+        "Children who are afraid of everyone",
+        "Useful and responsible citizens for the nation",
+        "Children who never leave the house",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parenting aims to prepare children to contribute positively to society.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S2 SS2 L1/10. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What shape represents the population structure of Ghana?",
+      options: [
+        "A narrow cylinder",
+        "An inverted triangle",
+        "A broad-based pyramid",
+        "A perfect square",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Ghana has a youthful population, resulting in a wide base at the bottom of the pyramid.",
+    ),
+
+    QuizQuestion(
+      question: "2. Rapid population growth is primarily caused by:",
+      options: [
+        "Increased death rates and low birth rates",
+        "Decreased immigration",
+        "People moving from cities to villages",
+        "High birth rates and decreased death rates",
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "When more people are born and fewer die, the total number increases quickly.",
+    ),
+
+    QuizQuestion(
+      question: "3. The 'dependency ratio' refers to the relationship between:",
+      options: [
+        "Farmers and traders",
+        "Students and teachers",
+        "The working-age group and those too young or old to work",
+        "Men and women in the population",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "It measures how many people the working population must support.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which social problem is directly linked to high unemployment in crowded cities?",
+      options: [
+        "Increase in crime and social vices",
+        "Improved sanitation",
+        "Better housing for everyone",
+        "Lower school fees",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lack of jobs often pushes individuals toward illegal activities.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does rapid population growth lead to food shortages?",
+      options: [
+        "People stop eating local food",
+        "More people eat less food",
+        "The number of people increases faster than food production",
+        "Farmers move to cities to go to school",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "When population grows faster than food supply, scarcity occurs.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. What is an 'upkeep' issue for a large family with low income?",
+      options: [
+        "Buying a second car",
+        "Traveling abroad for holidays",
+        "Difficulty in providing nutritious meals",
+        "Having too much space in the house",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Limited resources must be shared, often leading to poor nutrition.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. How does girl-child education act as a population control measure?",
+      options: [
+        "It teaches girls how to farm",
+        "It delays marriage and childbearing",
+        "It makes girls move to other countries",
+        "It reduces the number of boys in school",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Education provides girls with more life choices, leading to smaller family sizes.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which of these is a way the government can minimise rapid population growth?",
+      options: [
+        "Building more roads",
+        "Reducing taxes for large families",
+        "Public education on the benefits of small family sizes",
+        "Encouraging more people to move to Ghana",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Education helps citizens make informed decisions about family size.",
+    ),
+
+    QuizQuestion(
+      question: "9. The development of slums is a sign of:",
+      options: [
+        "Good government planning",
+        "Pressure on housing and land due to overpopulation",
+        "Wealthy people moving to the city",
+        "A decrease in the national population",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Slums form when there isn't enough affordable housing for the growing number of people.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Economic empowerment of women helps population control because:",
+      options: [
+        "Women will no longer get married",
+        "Women can afford to pay for more children",
+        "Empowered women often prefer smaller, manageable families",
+        "It reduces the number of men in the workforce",
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Financial independence often leads to better family planning.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of national identity?",
+      options: [
+        "Having a passport only",
+        "A sense of belonging to a specific nation",
+        "Knowing how to speak every Ghanaian language",
+        "Living in the capital city, Accra",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "National identity is the feeling of belonging and shared values within a nation.",
+    ),
+
+    QuizQuestion(
+      question: "2. Who designed the Ghana National Flag?",
+      options: [
+        "Dr. Kwame Nkrumah",
+        "Philip Gbeho",
+        "Madam Theodosia Okoh",
+        "Dr. Ephraim Amu",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Madam Theodosia Okoh designed the flag in 1957.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. The motto \"Freedom and Justice\" is found on which national symbol?",
+      options: [
+        "The Mace",
+        "The National Flag",
+        "The President’s Staff",
+        "The Coat of Arms",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Coat of Arms features a ribbon at the bottom with the motto.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does the green colour in the Ghana flag represent?",
+      options: [
+        "Our mineral wealth",
+        "The blood of heroes",
+        "Natural forest resources",
+        "The beauty of the sea",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Green stands for the lush vegetation and forests of Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "5. The Adinkra symbol 'Sankofa' teaches us to:",
+      options: [
+        "Give up on the past",
+        "Learn from the past to build the future",
+        "Fight with our neighbours",
+        "Focus only on money",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Sankofa represents the importance of learning from past experiences.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which patriotic song encourages Ghanaians to build a strong and prosperous nation?",
+      options: [
+        "\"Yen Ara Asaase Ni\"",
+        "\"Oman Ghana\"",
+        "\"Asempa Hymns\"",
+        "All of the above",
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "All these songs promote unity and national development.",
+    ),
+
+    QuizQuestion(
+      question: "7. How do festivals like Homowo promote national identity?",
+      options: [
+        "By encouraging people to stay in their villages",
+        "By celebrating diversity and bringing people together",
+        "By stopping people from working",
+        "By showing which tribe is the strongest",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Festivals celebrate culture while uniting people as one nation.",
+    ),
+
+    QuizQuestion(
+      question: "8. The Mace is carried into the chamber at the beginning of:",
+      options: [
+        "Every football match",
+        "Every church service",
+        "Every parliamentary session",
+        "Every school assembly",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Mace is the symbol of authority in the Ghanaian Parliament.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which of these is a way to defend the integrity of the nation?",
+      options: [
+        "Discouraging inter-marriages",
+        "Respecting the customs of other ethnic groups",
+        "Refusing to sing the national anthem",
+        "Avoiding national service",
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Respecting diverse cultures helps keep the nation united and strong.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. Why are national symbols prominently displayed in public places like schools?",
+      options: [
+        "To make the buildings look colourful",
+        "To remind citizens of their national identity and values",
+        "Because they are for sale",
+        "To show who the headmaster is",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Symbols serve as daily reminders of shared values and pride.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S4 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a Constitution?",
+      options: [
+        "A book of folk tales",
+        "A set of rules to govern a country",
+        "A list of all the towns in Ghana",
+        "A diary of the President",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A constitution provides the framework and rules for governing a nation.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. The 1992 Constitution provides for how many main organs of government?",
+      options: ["Five", "Two", "Three", "Four"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The organs are the Legislature, the Executive, and the Judiciary.",
+    ),
+
+    QuizQuestion(
+      question: "3. Who is the head of the Judiciary in Ghana?",
+      options: [
+        "The President",
+        "The Speaker of Parliament",
+        "The Chief Justice",
+        "The Inspector General of Police",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Chief Justice heads the judicial branch of government.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which organ is responsible for enforcing and implementing laws?",
+      options: [
+        "The Legislature",
+        "The Executive",
+        "The Judiciary",
+        "The Media",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Executive branch, led by the President, puts laws into action.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. Where are the fundamental human rights found in the 1992 Constitution?",
+      options: [
+        "The Preamble",
+        "The First Schedule",
+        "The Bill of Rights (Chapter Five)",
+        "The Appendix",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Chapter Five contains the guarantees for human rights and freedoms.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. The principle that prevents one organ of government from having all the power is called:",
+      options: [
+        "Popularity contest",
+        "Separation of Powers",
+        "Rule of the strongest",
+        "Unicameralism",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This ensures checks and balances between branches.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. How many Members of Parliament (MPs) currently make up the Legislature?",
+      options: ["200", "230", "275", "300"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "There are 275 elected members in the Ghanaian Parliament.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which of these is a significance of the Constitution to national development?",
+      options: [
+        "It encourages people to break laws",
+        "It ensures peaceful transition of power",
+        "It allows only rich people to vote",
+        "It stops all development projects",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Clear rules for elections lead to stability and growth.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Which body is tasked with conducting elections in Ghana according to the Constitution?",
+      options: [
+        "The Police Service",
+        "The Electoral Commission",
+        "The Ghana Bar Association",
+        "The Ministry of Education",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The EC is the independent body created to handle elections.",
+    ),
+
+    QuizQuestion(
+      question: "10. A Presidential term in Ghana can be renewed only:",
+      options: [
+        "Once (maximum of two terms)",
+        "Three times",
+        "Indefinitely",
+        "Every ten years",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A President can serve a maximum of two four-year terms.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S4 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which document protects the rights of children in Ghana?",
+      options: [
+        "A storybook",
+        "The 1992 Constitution",
+        "A grocery list",
+        "A football manual",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Constitution is the supreme law that protects all citizens, including children.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Every child has the right to 'Free, Compulsory Basic Education.' What does 'compulsory' mean?",
+      options: [
+        "It is optional",
+        "You must do it by law",
+        "It is only for boys",
+        "You have to pay for it",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Compulsory means it is required for all children of school-going age.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. Showing respect to the Ghana flag and the National Anthem is a child's:",
+      options: ["Right", "Responsibility", "Hobby", "Choice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Respecting national symbols is a civic responsibility.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of the following is an effect of child abuse?",
+      options: [
+        "High self-esteem",
+        "Better grades in school",
+        "Psychological trauma",
+        "Improved physical health",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Abuse often leads to long-lasting mental and emotional pain.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. A child being forced into marriage before age 18 is an example of:",
+      options: [
+        "A traditional right",
+        "A responsibility",
+        "Child abuse",
+        "Good behavior",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Early marriage is recognized as a form of child abuse under the law.",
+    ),
+
+    QuizQuestion(
+      question: "6. Who is responsible for protecting a child from abuse?",
+      options: [
+        "Only the child",
+        "Parents, teachers, and the government",
+        "No one",
+        "Only the police",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Protection is a shared responsibility of family, school, and the state.",
+    ),
+
+    QuizQuestion(
+      question: "7. The right to 'Dignity' means a child should:",
+      options: [
+        "Never have to work",
+        "Be treated with respect and never humiliated",
+        "Always get whatever toys they want",
+        "Be allowed to skip school",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dignity means being treated as a human being worthy of respect.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. Which responsibility helps a child learn to take care of their environment?",
+      options: [
+        "Eating lunch",
+        "Helping to keep the community clean",
+        "Watching television",
+        "Playing football",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Environmental care is an important responsibility taught to children.",
+    ),
+
+    QuizQuestion(
+      question: "9. If a child is being abused, the best thing to do is:",
+      options: [
+        "Keep it a secret",
+        "Tell a trusted adult immediately",
+        "Run away to another country",
+        "Fight back with violence",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Reporting to a trusted adult is the safest and most effective way to get help.",
+    ),
+
+    QuizQuestion(
+      question: "10. A child's right to 'Health' includes:",
+      options: [
+        "Access to clean water and medical care",
+        "Permission to eat only sweets",
+        "The right to never exercise",
+        "Only being treated when they have a broken bone",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Health rights include overall well-being, clean water, and proper healthcare.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S4 SS2 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which term refers to the absence of violent conflict and the presence of harmony?",
+      options: ["Security", "Law", "Peace", "Order"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Peace is defined as the absence of conflict and harmonious living.",
+    ),
+
+    QuizQuestion(
+      question: "2. When two groups talk to resolve a dispute, they are using:",
+      options: ["Intimidation", "Avoidance", "Force", "Dialogue"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Dialogue involves talking through problems to find peaceful solutions.",
+    ),
+
+    QuizQuestion(
+      question: "3. Road safety measures like zebra crossings are designed to protect:",
+      options: [
+        "Only the drivers",
+        "Only the police",
+        "Pedestrians and road users",
+        "The road surface"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Zebra crossings allow pedestrians to cross safely.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which institution is primarily responsible for maintaining internal security and law?",
+      options: [
+        "The Ghana Library Board",
+        "The Ghana Police Service",
+        "The Ghana Football Association",
+        "The Ghana Health Service"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The police enforce laws and maintain public order.",
+    ),
+
+    QuizQuestion(
+      question: "5. A country destroyed by conflict often suffers from:",
+      options: [
+        "Increased tourism",
+        "Destruction of infrastructure",
+        "Higher investor confidence",
+        "Rapid economic growth"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Conflict leads to the destruction of roads, schools, and buildings.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is fire safety considered part of community security?",
+      options: [
+        "Because fires are very bright",
+        "Because it protects lives and property from harm",
+        "Because firemen wear uniforms",
+        "Because everyone likes to cook with fire"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Security involves protecting resources and people from all types of harm, including fire.",
+    ),
+
+    QuizQuestion(
+      question: "7. The 'confidence' mentioned in community development refers to:",
+      options: [
+        "Being arrogant toward others",
+        "Feeling safe to invest and plan for the future",
+        "Knowing all the answers in a test",
+        "Having a very loud voice"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Peace creates confidence for individuals and investors to grow the economy.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a 'Human Rights' practice that prevents conflict?",
+      options: [
+        "Giving jobs only to your family members",
+        "Treating all citizens equally regardless of their tribe",
+        "Arresting people without a reason",
+        "Preventing girls from going to school"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Promoting equality and rights reduces tensions that cause conflict.",
+    ),
+
+    QuizQuestion(
+      question: "9. What should be the first step if you smell smoke in your house?",
+      options: [
+        "Call your friends to tell them",
+        "Follow your fire escape plan and get to safety",
+        "Go back inside to save your favorite toy",
+        "Hide under the bed"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Knowing and following an escape plan is the safest way to handle a fire.",
+    ),
+
+    QuizQuestion(
+      question: "10. Economic development is difficult without peace because:",
+      options: [
+        "People stop eating during wars",
+        "Money becomes useless",
+        "Instability discourages investment and trade",
+        "There are no more holidays"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Insecurity negatively impacts trade, tourism, and investment.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S4 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The system of government where power is held by the people is called:",
+      options: ["Monarchy", "Democracy", "Dictatorship", "Oligarchy"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Democracy is defined by the involvement of citizens in decision-making.",
+    ),
+
+    QuizQuestion(
+      question: "2. The formal process of choosing leaders through voting is known as:",
+      options: ["An election", "A debate", "An inauguration", "A census"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Elections are the mechanism used to select representatives.",
+    ),
+
+    QuizQuestion(
+      question: "3. In Ghana, if no Presidential candidate receives more than 50% of the votes, what happens next?",
+      options: [
+        "The current President stays in power",
+        "A bye-election is held",
+        "A run-off election is held",
+        "Parliament chooses the winner"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A run-off is required to ensure the winner has majority support.",
+    ),
+
+    QuizQuestion(
+      question: "4. A bye-election is held when an MP:",
+      options: [
+        "Travels abroad for a holiday",
+        "Loses a debate in Parliament",
+        "Resigns or dies before their term ends",
+        "Wins a General Election"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Bye-elections fill unexpected vacancies in a constituency.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is accountability an importance of elections?",
+      options: [
+        "It makes elections expensive",
+        "It forces leaders to answer to the citizens for their actions",
+        "It ensures only one party always wins",
+        "It prevents people from voting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Elections allow citizens to reward or punish leaders based on performance.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is an electoral material used in Ghana?",
+      options: [
+        "School textbook",
+        "Passport",
+        "Ballot box",
+        "National ID card"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ballot boxes are essential for collecting votes.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does democracy promote political stability?",
+      options: [
+        "By allowing peaceful transitions of power",
+        "By banning all opposition parties",
+        "By making sure no one ever votes",
+        "By giving the President total power"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stability comes from having a clear and peaceful way to change leaders.",
+    ),
+
+    QuizQuestion(
+      question: "8. If the government wants to create a new region, they must organize a:",
+      options: [
+        "General Election",
+        "Bye-election",
+        "Referendum",
+        "Run-off"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Major constitutional changes like creating regions require a referendum.",
+    ),
+
+    QuizQuestion(
+      question: "9. In a democracy, the Member of Parliament represents:",
+      options: [
+        "The President only",
+        "The people in their constituency",
+        "Only people who voted for them",
+        "Their own family members"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "MPs represent all people in their constituency.",
+    ),
+
+    QuizQuestion(
+      question: "10. Legitimacy in an election means:",
+      options: [
+        "The election was very expensive",
+        "The winner is accepted by the people as the rightful leader",
+        "Only the military likes the winner",
+        "The results were announced very quickly"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Legitimacy occurs when the process is seen as valid and trusted by the people.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/5. SOCIAL STUDIES JHS3 S4 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The transfer of power from central government to local authorities is:",
+      options: ["Concentration", "Decentralisation", "Election", "Colonization"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Decentralisation distributes power to local levels.",
+    ),
+
+    QuizQuestion(
+      question: "2. The District Assembly is the highest authority in the:",
+      options: ["Region", "Country", "District", "Continent"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Assembly governs its specific local district.",
+    ),
+
+    QuizQuestion(
+      question: "3. How is the District Chief Executive (DCE) chosen?",
+      options: [
+        "They win a marathon",
+        "They are elected by children",
+        "Appointed by the President and approved by the Assembly",
+        "They are the oldest person in the district"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This process ensures both national and local support.",
+    ),
+
+    QuizQuestion(
+      question: "4. The District Assemblies Common Fund is used to:",
+      options: [
+        "Pay for the President's private car",
+        "Fund local development projects like clinics",
+        "Buy toys for every child",
+        "Pay for international flights"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This fund supports development at the district level.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which member of the Assembly does NOT have a vote?",
+      options: [
+        "The DCE",
+        "The Elected Member",
+        "The Member of Parliament (MP)",
+        "The Appointed Member"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The MP participates in discussions but cannot vote on Assembly decisions.",
+    ),
+
+    QuizQuestion(
+      question: "6. A 'bye-law' is a law that applies to:",
+      options: [
+        "Only the DCE",
+        "Only one specific district",
+        "The whole of West Africa",
+        "No one at all"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bye-laws are local regulations for a specific district.",
+    ),
+
+    QuizQuestion(
+      question: "7. Traditional authorities (Chiefs) are involved in the Assembly by:",
+      options: [
+        "Being the only ones who can vote",
+        "Consulting on the appointment of 30% of members",
+        "Cleaning the Assembly office",
+        "Paying all the Assembly's bills"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Chiefs help select some appointed members of the Assembly.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these promotes local economic development?",
+      options: [
+        "Building a new community market",
+        "Changing the national flag",
+        "Printing new textbooks",
+        "Increasing the price of petrol"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Markets create opportunities for trade and local businesses.",
+    ),
+
+    QuizQuestion(
+      question: "9. Decentralisation helps democracy because:",
+      options: [
+        "It makes the President more powerful",
+        "It allows citizens to participate in local decision-making",
+        "It cancels all elections",
+        "It makes the capital city smaller"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Participation at local levels strengthens democracy.",
+    ),
+
+    QuizQuestion(
+      question: "10. The technical head of the District Assembly administration is the:",
+      options: [
+        "Police Commander",
+        "District Coordinating Director",
+        "Assembly Member",
+        "School Prefect"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The Coordinating Director manages the administrative staff.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/6. SOCIAL STUDIES JHS3 S4 SS3 L3/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Investors are more likely to put money into a country that is:",
+      options: ["Unstable", "Stable", "At war", "Changing laws daily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Stability reduces risk and attracts investors.",
+    ),
+
+    QuizQuestion(
+      question: "2. When people take their money and investments to other countries due to fear, it is called:",
+      options: ["Capital flight", "Capital growth", "International trade", "Tourism"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Fear of instability causes investors to move money to safer countries.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which institution is responsible for interpreting laws and settling disputes peacefully?",
+      options: [
+        "The Police",
+        "The Judiciary (Courts)",
+        "The Electoral Commission",
+        "The Football Association"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The judiciary interprets laws and resolves disputes.",
+    ),
+
+    QuizQuestion(
+      question: "4. Economic instability is often caused by:",
+      options: [
+        "High employment",
+        "Low prices",
+        "High inflation and unemployment",
+        "Too much peace"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "High inflation and unemployment weaken the economy.",
+    ),
+
+    QuizQuestion(
+      question: "5. Inclusive political participation means:",
+      options: [
+        "Only the rich can vote",
+        "All groups have a voice in governance",
+        "Only one party is allowed",
+        "No one is allowed to disagree with the President"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Inclusion ensures all citizens are represented and reduces conflict.",
+    ),
+
+    QuizQuestion(
+      question: "6. Vigilantism is the:",
+      options: [
+        "Authorized use of the law",
+        "Unauthorized use of force to enforce the law",
+        "Act of voting in an election",
+        "Process of building a school"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Vigilantism happens outside the formal legal system.",
+    ),
+
+    QuizQuestion(
+      question: "7. A stable political environment encourages:",
+      options: [
+        "Entrepreneurship and risk-taking",
+        "Corruption and bribery",
+        "Violence and strikes",
+        "Fear and panic"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stability builds confidence for business and investment.",
+    ),
+
+    QuizQuestion(
+      question: "8. External interference refers to:",
+      options: [
+        "Helping a neighbor with food",
+        "Foreign meddling in a country's domestic politics",
+        "Watching foreign movies",
+        "Traveling to another country for a holiday"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "External interference can destabilize a country's governance.",
+    ),
+
+    QuizQuestion(
+      question: "9. National development includes improvements in:",
+      options: [
+        "Only the capital city",
+        "Healthcare, education, and infrastructure",
+        "Only the President's house",
+        "Things that don't matter to citizens"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Development improves quality of life for all citizens.",
+    ),
+
+    QuizQuestion(
+      question: "10. To promote stability, we should invest in:",
+      options: [
+        "More weapons for everyone",
+        "Education and civic engagement",
+        "Closing all the borders forever",
+        "Stopping all news reporting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Education helps citizens participate peacefully in democracy.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which law established the Three-Tier Pension Scheme in Ghana?",
+      options: [
+        "PNDC Law 247",
+        "National Pensions Act 766",
+        "The Education Act",
+        "The Labour Act"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Act 766 of 2008 introduced the three-tier pension system.",
+    ),
+
+    QuizQuestion(
+      question: "2. What percentage of a worker's basic salary is contributed by the employer?",
+      options: ["5.5%", "18.5%", "13%", "10%"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The employer contributes 13% of the worker’s salary.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which benefit is paid if a worker can no longer work due to permanent illness?",
+      options: [
+        "Retirement Benefit",
+        "Unemployment Benefit",
+        "Survivors' Benefit",
+        "Invalidity Benefit"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Invalidity benefits support workers unable to work due to illness.",
+    ),
+
+    QuizQuestion(
+      question: "4. Tier 2 of the pension scheme is managed by:",
+      options: [
+        "SSNIT",
+        "Private Pension Fund Managers",
+        "The Ministry of Finance",
+        "The worker's family"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Tier 2 is privately managed under the mandatory scheme.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the minimum age for early voluntary retirement?",
+      options: ["45", "60", "55", "58"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Workers can opt for early retirement at age 55.",
+    ),
+
+    QuizQuestion(
+      question: "6. Out of the 18.5% contribution, what percentage goes directly to SSNIT for Tier 1?",
+      options: ["5%", "13.5%", "13%", "5.5%"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "13.5% goes to SSNIT (Tier 1), while 5% goes to Tier 2.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which document is NOT typically required for a Retirement Benefit claim?",
+      options: [
+        "Valid National ID",
+        "SSNIT Biometric Card",
+        "Birth Certificate",
+        "School Leaving Certificate"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "School certificates are not required for pension claims.",
+    ),
+
+    QuizQuestion(
+      question: "8. Tier 1 is described as a 'defined benefit' scheme. What does this mean?",
+      options: [
+        "You get back exactly what you put in",
+        "Your monthly pension is guaranteed based on a formula",
+        "You only get money if you are sick",
+        "It is a voluntary savings account"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Tier 1 guarantees a monthly pension based on a formula.",
+    ),
+
+    QuizQuestion(
+      question: "9. Who can claim the Survivors' Benefit?",
+      options: [
+        "The worker's former boss",
+        "Nominated dependents or next of kin",
+        "Any friend of the worker",
+        "The NPRA"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Survivors’ benefits go to dependents or next of kin.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the main purpose of social security?",
+      options: [
+        "To pay for children's school fees only",
+        "To provide income security during old age or sickness",
+        "To help people buy expensive cars",
+        "To pay for government roads"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Social security ensures financial support when people can no longer work.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which term refers to the practical application of knowledge to solve problems?",
+      options: ["Culture", "Science", "Technology", "Tradition"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Technology is the application of knowledge for practical purposes.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the primary goal of science?",
+      options: [
+        "To make a lot of profit",
+        "To understand how the world works",
+        "To build the tallest building",
+        "To stop people from asking questions"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Science seeks to understand natural laws and how the world works.",
+    ),
+
+    QuizQuestion(
+      question: "3. In Ghana, how does technology help the energy sector?",
+      options: [
+        "By increasing the price of charcoal",
+        "By promoting solar and wind power",
+        "By discouraging the use of electricity",
+        "By making machines use more fuel"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Technology supports renewable energy like solar and wind power.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which machine is an example of medical technology?",
+      options: [
+        "A sewing machine",
+        "An MRI scanner",
+        "A gasoline pump",
+        "A water filter"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "MRI machines are advanced medical technologies used for diagnosis.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does 'brain drain' mean in the context of science?",
+      options: [
+        "Drinking too much water during an exam",
+        "Scientists moving abroad for better jobs",
+        "Forgetting everything learned in class",
+        "Using a computer for too many hours"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Brain drain is the migration of skilled professionals to other countries.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why are new seed varieties important for Ghanaian farmers?",
+      options: [
+        "They are much smaller than old seeds",
+        "They can resist drought and pests",
+        "They do not need any soil to grow",
+        "They are only used for decoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Improved seeds increase yield and resist diseases and drought.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a way to encourage more innovation in Ghana?",
+      options: [
+        "Investing in science education",
+        "Reducing the number of schools",
+        "Ignoring new scientific research",
+        "Charging higher taxes on computers"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Education drives innovation and scientific advancement.",
+    ),
+
+    QuizQuestion(
+      question: "8. How has technology changed education in Ghana?",
+      options: [
+        "It has made textbooks illegal",
+        "It has made classrooms more crowded",
+        "It has enabled online learning platforms",
+        "It has stopped students from using pens"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Online platforms allow learning anytime and anywhere.",
+    ),
+
+    QuizQuestion(
+      question: "9. A lack of research funding means that:",
+      options: [
+        "Scientists have too much money to spend",
+        "Important experiments cannot be carried out",
+        "No one is allowed to go to school anymore",
+        "Computers will become free for everyone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Without funding, research activities cannot progress.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of the following is a local example of technology?",
+      options: [
+        "The natural flow of the Volta River",
+        "A locally manufactured solar water heater",
+        "The heat coming from the sun",
+        "The way a leaf turns toward the light"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Technology involves human-made tools using knowledge.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who was the leader of the Armed Forces Revolutionary Council (AFRC)?",
+      options: [
+        "Flt. Lt. Jerry John Rawlings",
+        "General I.K. Acheampong",
+        "Dr. Hilla Limann",
+        "General F.W.K. Akuffo"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Jerry John Rawlings led the AFRC after the June 4, 1979 uprising.",
+    ),
+
+    QuizQuestion(
+      question: "2. On what date was the first round of the 1979 presidential elections held?",
+      options: ["June 18th", "June 4th", "July 9th", "September 24th"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The first round was held on June 18, 1979, but no candidate won outright.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which political party won the majority of seats in the 1979 Parliamentary elections?",
+      options: [
+        "Popular Front Party (PFP)",
+        "United National Convention (UNC)",
+        "People’s National Party (PNP)",
+        "Action Congress Party (ACP)"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The PNP, led by Dr. Hilla Limann, won the majority of seats.",
+    ),
+
+    QuizQuestion(
+      question: "4. The 'house-cleaning' exercise was mainly aimed at:",
+      options: [
+        "Building new schools",
+        "Fighting corruption",
+        "Repairing roads",
+        "Changing the national flag"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The AFRC used this exercise to remove corruption and corrupt officials.",
+    ),
+
+    QuizQuestion(
+      question: "5. Who was the runner-up (second place) in the 1979 presidential run-off?",
+      options: [
+        "William Ofori Atta",
+        "Victor Owusu",
+        "John Bilson",
+        "Imoru Ayarna"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Victor Owusu of the PFP contested against Dr. Limann in the run-off.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the term 'Republic' mean in the context of Ghana's government?",
+      options: [
+        "Rule by a King or Queen",
+        "Rule by the military only",
+        "A country where citizens choose leaders through elections",
+        "A country ruled by a foreign nation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A republic is governed by elected representatives chosen by the people.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many seats did the PNP win in the Volta Region during the 1979 elections?",
+      options: ["2", "5", "11", "15"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The PNP secured 11 seats in the Volta Region.",
+    ),
+
+    QuizQuestion(
+      question: "8. The AFRC removed which military government from power?",
+      options: ["CPP", "Progress Party", "SMC II", "PNDC"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The AFRC overthrew the Supreme Military Council II (SMC II).",
+    ),
+
+    QuizQuestion(
+      question: "9. Why was the presidential election of 1979 decided in two rounds?",
+      options: [
+        "The first round was canceled",
+        "To allow more parties to join",
+        "Because no candidate got over 50% in the first round",
+        "The military didn't like the first result"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A run-off was required because no candidate achieved an absolute majority.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which system of government was practiced during the Third Republic?",
+      options: [
+        "Monarchy",
+        "Military Dictatorship",
+        "Presidential System",
+        "Westminster System"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The 1979 Constitution established a Presidential system with executive powers.",
+    ),
+
+    QuizQuestion(
+      question: "2. The Office of the Ombudsman was created to:",
+      options: [
+        "Lead the army",
+        "Protect citizens against administrative injustice",
+        "Write new laws",
+        "Organize the June 1979 elections"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Ombudsman investigated complaints about government misconduct.",
+    ),
+
+    QuizQuestion(
+      question: "3. True or False: The 1979 Constitution allowed Ghana to become a one-party state.",
+      options: [
+        "True",
+        "False",
+        "Only during emergencies",
+        "Only if the President agreed"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Constitution prohibited a one-party state to ensure democracy.",
+    ),
+
+    QuizQuestion(
+      question: "4. Who was the Commander-in-Chief of the Armed Forces in the Third Republic?",
+      options: [
+        "Jerry John Rawlings",
+        "The Chief of Defence Staff",
+        "The President (Dr. Hilla Limann)",
+        "The Ombudsman"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Under the Presidential system, the elected President leads the armed forces.",
+    ),
+
+    QuizQuestion(
+      question: "5. What was a major political achievement of the Third Republic?",
+      options: [
+        "The construction of the Akosombo Dam",
+        "The promotion of national integration and unity",
+        "Becoming a British colony again",
+        "Winning the World Cup"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Multi-party democracy helped promote unity and national integration.",
+    ),
+
+    QuizQuestion(
+      question: "6. The 'Independence of the Judiciary' means that:",
+      options: [
+        "Judges are also soldiers",
+        "The President chooses every court verdict",
+        "Courts can make legal decisions without political interference",
+        "There are no courts in the country"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Judicial independence ensures fair decisions free from political pressure.",
+    ),
+
+    QuizQuestion(
+      question: "7. Fundamental Human Rights in the Third Republic included:",
+      options: [
+        "Freedom of speech",
+        "The right to refuse to pay any taxes",
+        "The right to ignore all laws",
+        "The right to take other people's property"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Freedom of speech is a key democratic right protected by the Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "8. The Council of State consisted of:",
+      options: [
+        "Only young students",
+        "Experienced citizens who advised the President",
+        "Foreign leaders",
+        "Only military officers"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Council of State provides advice and guidance to the President.",
+    ),
+
+    QuizQuestion(
+      question: "9. The Third Republic ended military rule. What does 'civilian rule' mean?",
+      options: [
+        "Rule by doctors only",
+        "Rule by leaders elected by the people",
+        "Rule by a foreign King",
+        "Rule by the police"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Civilian rule refers to governance by elected, non-military leaders.",
+    ),
+
+    QuizQuestion(
+      question: "10. The 1979 Constitution was similar to the 1969 Constitution in that both:",
+      options: [
+        "Allowed military takeovers",
+        "Were based on democratic principles",
+        "Created a one-party state",
+        "Were written in French"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Both constitutions aimed to establish democratic governance in Ghana.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. On what date was the referendum for the 1992 Constitution held?",
+      options: [
+        "4th June 1979",
+        "28th April 1992",
+        "3rd November 1992",
+        "7th January 1993"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The referendum was held on April 28, 1992 to approve the new Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "2. Who won the 1992 Presidential election?",
+      options: [
+        "Dr. Hilla Limann",
+        "Professor Adu Boahen",
+        "Jerry John Rawlings",
+        "John Kufuor"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Jerry John Rawlings won to become the first President of the Fourth Republic.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Fourth Republic started after how many years of military rule under the PNDC?",
+      options: [
+        "2 years",
+        "5 years",
+        "11 years",
+        "20 years"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The PNDC ruled from 1981 to 1993, totaling about 11 years.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these was a candidate for the People's National Convention (PNC) in 1992?",
+      options: [
+        "Albert Adu Boahen",
+        "Dr. Hilla Limann",
+        "Kwabena Darko",
+        "Emmanuel Erskine"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dr. Hilla Limann led the PNC in the 1992 elections.",
+    ),
+
+    QuizQuestion(
+      question: "5. What was the main outcome of the 1992 Referendum?",
+      options: [
+        "A new king was chosen",
+        "The constitution was rejected",
+        "The constitution was approved by a huge majority",
+        "The elections were canceled"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Over 90% of voters approved the 1992 Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "6. The Fourth Republic is different from the Third because:",
+      options: [
+        "It has lasted much longer",
+        "It was started by a King",
+        "It doesn't use a constitution",
+        "It only has one political party"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The Fourth Republic has remained stable since 1993, unlike the short-lived Third Republic.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'Inauguration' mean?",
+      options: [
+        "A type of election",
+        "The official ceremony to start a new government or term",
+        "A military takeover",
+        "A way of counting votes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Inauguration is when a newly elected leader is officially sworn into office.",
+    ),
+
+    QuizQuestion(
+      question: "8. How many people (approximately) voted 'Yes' in the 1992 Referendum?",
+      options: [
+        "1 million",
+        "3.4 million",
+        "8 million",
+        "10 million"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "About 3.4 million people voted 'Yes' to approve the Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these parties formed an alliance with the NDC in 1992?",
+      options: [
+        "NPP",
+        "National Convention Party (NCP)",
+        "PHP",
+        "NIP"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The NDC allied with NCP and EGLE to form the Progressive Alliance.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the current supreme law of Ghana?",
+      options: [
+        "The 1960 Constitution",
+        "The 1979 Constitution",
+        "The 1992 Constitution",
+        "Military Decrees"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The 1992 Constitution is the foundation of Ghana’s Fourth Republic.",
+    ),
+  ],
+);
+final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The Fourth Republic of Ghana was inaugurated on:",
+      options: [
+        "4th June 1979",
+        "31st December 1981",
+        "7th January 1993",
+        "7th January 2001"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "7th January 1993 marks the beginning of Ghana’s Fourth Republic.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a disadvantage of the Executive Presidency?",
+      options: [
+        "It is too expensive",
+        "Decisions are made too slowly",
+        "The President could potentially turn into a dictator",
+        "There is no leader for the army"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Because the President holds significant power, there is a risk of abuse without strong checks and balances.",
+    ),
+
+    QuizQuestion(
+      question: "3. The boycott of the 1992 Parliamentary elections was led by which party?",
+      options: [
+        "NPP",
+        "NDC",
+        "EGLE",
+        "NCP"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The NPP and other opposition parties boycotted the parliamentary elections.",
+    ),
+
+    QuizQuestion(
+      question: "4. How many seats did the NDC win in the First Parliament of the Fourth Republic?",
+      options: [
+        "71",
+        "140",
+        "189",
+        "200"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Due to the boycott, the NDC secured 189 out of 200 seats.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which body interprets the laws and ensures they follow the Constitution?",
+      options: [
+        "Parliament",
+        "The Cabinet",
+        "The Judiciary (Courts)",
+        "The Police"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Judiciary, especially the Supreme Court, interprets laws and ensures constitutional compliance.",
+    ),
+
+    QuizQuestion(
+      question: "6. Under the 1992 Constitution, the President can serve a maximum of how many terms?",
+      options: [
+        "One term",
+        "Two terms",
+        "Three terms",
+        "Unlimited terms"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A President can serve a maximum of two four-year terms.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a feature of the Westminster system NOT found in Ghana?",
+      options: [
+        "A written constitution",
+        "A ceremonial Monarch as Head of State",
+        "Voting in elections",
+        "Having a Parliament"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Westminster system includes a Monarch, while Ghana has an elected President.",
+    ),
+
+    QuizQuestion(
+      question: "8. The 'Kume Preko' demonstration of 1995 is an example of:",
+      options: [
+        "A military coup",
+        "Citizens exercising their right to protest under the Fourth Republic",
+        "A new law being passed",
+        "An election result"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "It was a major public protest, showing democratic freedom of expression.",
+    ),
+
+    QuizQuestion(
+      question: "9. Who acts as the 'referee' to ensure the President and Parliament follow the Constitution?",
+      options: [
+        "The Army",
+        "No one",
+        "The President of another country",
+        "The Judiciary"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The Judiciary ensures all arms of government act within the Constitution.",
+    ),
+
+    QuizQuestion(
+      question: "10. The peaceful transfer of power in 2001 was between which two leaders?",
+      options: [
+        "Rawlings and Limann",
+        "Atta Mills and Mahama",
+        "Kufuor and Atta Mills",
+        "Rawlings and Kufuor"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Power transitioned peacefully from Jerry John Rawlings to John Agyekum Kufuor.",
+    ),
+  ],
+);
+
+///Science
+final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/1. JHS1 S1 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which material is considered a rough solid?",
+      options: [
+        "Polished glass",
+        "A metal needle",
+        "The bark of a tree",
+        "A plastic ruler"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Tree bark has an uneven, rough surface.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is a key characteristic of all liquids?",
+      options: [
+        "They have a fixed shape",
+        "They have a fixed volume",
+        "Their particles cannot move",
+        "They are always very shiny"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Liquids maintain a fixed volume but take the shape of their container.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is an example of a gas?",
+      options: [
+        "Petrol in a container",
+        "Steam from a kettle",
+        "Palm oil in a jar",
+        "Melted shea butter"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Steam is water in its gaseous state.",
+    ),
+
+    QuizQuestion(
+      question: "4. How would you describe the hardness of an iron nail?",
+      options: [
+        "Soft",
+        "Hard",
+        "Liquid",
+        "Smooth"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Iron is a hard material that resists scratching and bending.",
+    ),
+
+    QuizQuestion(
+      question: "5. Particles in a gas move ______ than particles in a solid.",
+      options: [
+        "Much slower",
+        "At the same speed",
+        "Much faster",
+        "In fixed lines"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Gas particles have more energy and move freely and rapidly.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which group contains only solids?",
+      options: [
+        "Stone, Wood, Iron",
+        "Water, Air, Stone",
+        "Milk, Oil, Oxygen",
+        "Wood, Water, Gas"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "All listed materials are solids with fixed shapes and volumes.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why can you compress a gas but not a solid?",
+      options: [
+        "Gas particles are tiny",
+        "Gas particles are far apart",
+        "Solids have no particles",
+        "Solids are always heavy"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Large spaces between gas particles allow compression.",
+    ),
+
+    QuizQuestion(
+      question: "8. A material that reflects light well is described as:",
+      options: [
+        "Dull",
+        "Hard",
+        "Soft",
+        "Shiny"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Shiny materials reflect light and appear bright.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the state of matter of the water in the Volta Lake?",
+      options: [
+        "Solid",
+        "Gas",
+        "Liquid",
+        "Hard"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Water in lakes exists in liquid form.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which describes the particle arrangement in a solid?",
+      options: [
+        "Far apart and moving fast",
+        "Close together and sliding",
+        "Closely packed and fixed",
+        "No particles are present"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Solid particles are tightly packed in fixed positions.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/2. JHS1 S1 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which liquid is essential for the human body to stay hydrated?",
+      options: [
+        "Kerosene",
+        "Alcohol",
+        "Water",
+        "Petrol"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Water is the primary liquid our bodies need to function properly.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the main use of palm oil in a Ghanaian home?",
+      options: [
+        "Washing clothes",
+        "Cooking food",
+        "Fueling cars",
+        "Cleaning floors"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Palm oil is widely used in cooking, especially in soups and stews.",
+    ),
+
+    QuizQuestion(
+      question: "3. Hydro-electric power is generated using the energy of:",
+      options: [
+        "Burning oil",
+        "Flowing water",
+        "Still air",
+        "Hard rocks"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The movement of flowing water in dams produces electricity.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which liquid would you use to keep a squeaky door hinge moving quietly?",
+      options: [
+        "Water",
+        "Orange juice",
+        "Lubricating oil",
+        "Liquid soap"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Lubricating oil reduces friction between moving metal parts.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is it dangerous to pollute our rivers with chemicals from illegal mining (Galamsey)?",
+      options: [
+        "The water becomes tastier",
+        "It makes the water flow faster",
+        "It destroys water for drinking",
+        "It turns the water into petrol"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Pollution makes water unsafe for humans, animals, and crops.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a hospital, liquid vaccines are used primarily to:",
+      options: [
+        "Provide energy",
+        "Prevent diseases",
+        "Wash uniforms",
+        "Cook meals"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Vaccines help the body fight diseases and build immunity.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these liquids is often used as a fuel for lanterns in rural areas?",
+      options: [
+        "Kerosene",
+        "Fruit juice",
+        "Salt water",
+        "Palm oil"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Kerosene is commonly used for lighting and cooking.",
+    ),
+
+    QuizQuestion(
+      question: "8. Water is called a 'universal solvent' because:",
+      options: [
+        "It is very expensive",
+        "It dissolves many substances",
+        "It only exists in Ghana",
+        "It can never be polluted"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Water can dissolve many substances, making it useful in many processes.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which liquid helps a car engine from getting too hot?",
+      options: [
+        "Diesel",
+        "Brake fluid",
+        "Coolant/Water",
+        "Engine oil"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Coolant or water absorbs heat and prevents the engine from overheating.",
+    ),
+
+    QuizQuestion(
+      question: "10. Farmers use liquids like pesticides to:",
+      options: [
+        "Water the plants",
+        "Protect crops from pests",
+        "Make the fruit shiny",
+        "Change the plant's color"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pesticides are used to kill harmful insects and protect crops.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/3. JHS1 S1 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which solid material is used to make iron rods for building?",
+      options: [
+        "Plastic",
+        "Wood",
+        "Metal",
+        "Cotton"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Metals like iron are used in construction because they are very strong.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why do humans eat solid food like cassava?",
+      options: [
+        "To stay thirsty",
+        "To get energy",
+        "To become invisible",
+        "To change their shape"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Solid foods contain nutrients that provide energy for life.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these solids is used to protect our homes from intruders?",
+      options: [
+        "A cotton curtain",
+        "A wooden spoon",
+        "A paper box",
+        "An iron gate"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Iron gates are strong and provide security for homes.",
+    ),
+
+    QuizQuestion(
+      question: "4. Plants need the solid soil because it:",
+      options: [
+        "Keeps them moving",
+        "Holds their roots",
+        "Turns them into liquids",
+        "Makes them disappear"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Soil holds plant roots firmly and provides nutrients.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which solid is commonly used for roofing houses in many Ghanaian communities?",
+      options: [
+        "Metal sheets",
+        "Wool fibres",
+        "Solid food",
+        "Soft sand"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Metal sheets are durable and protect homes from rain.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the purpose of using solid wood for a door?",
+      options: [
+        "To let water flow through",
+        "To provide a soft surface",
+        "To provide security and privacy",
+        "To make the house lighter"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Wood is strong and provides protection and privacy.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student uses a solid pen to write. Which part of the pen is a solid?",
+      options: [
+        "Only the ink",
+        "The plastic case",
+        "The air inside",
+        "No part is solid"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The outer plastic body of the pen is a solid material.",
+    ),
+
+    QuizQuestion(
+      question: "8. How do solid clothes protect us from mosquitoes?",
+      options: [
+        "They attract the insects",
+        "They act as a physical barrier",
+        "They make us stay awake",
+        "They turn the skin into a gas"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Clothes cover the body and prevent mosquito bites.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which group contains only solid materials used in construction?",
+      options: [
+        "Sand, Water, Air",
+        "Stones, Wood, Cement",
+        "Petrol, Iron, Clay",
+        "Wood, Oil, Glass"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Stones, wood, and cement are all solid building materials.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to preserve our solid resources like timber?",
+      options: [
+        "So we can burn them all",
+        "To ensure we have materials for the future",
+        "To turn them all into liquids",
+        "So we don't have to use them"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Preserving resources ensures future generations can use them.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s1ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/4. JHS1 S1 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the chemical symbol for Calcium?",
+      options: [
+        "C",
+        "Cl",
+        "Ca",
+        "K"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Ca is the symbol for Calcium (Atomic Number 20).",
+    ),
+
+    QuizQuestion(
+      question: "2. Which element has the atomic number 1?",
+      options: [
+        "Hydrogen",
+        "Helium",
+        "Lithium",
+        "Carbon"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Hydrogen is the first element on the Periodic Table.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where are the Noble Gases located on the Periodic Table?",
+      options: [
+        "In the first column",
+        "In the middle rows",
+        "In the very last column",
+        "At the very bottom row"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Noble gases like Helium and Neon are in the far-right column.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which symbol represents the element Potassium?",
+      options: [
+        "P",
+        "Po",
+        "K",
+        "Pt"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The symbol K comes from the Latin name 'Kalium'.",
+    ),
+
+    QuizQuestion(
+      question: "5. Elements in the same column (Group) of the table usually have:",
+      options: [
+        "The same colour",
+        "Similar properties",
+        "The same atomic number",
+        "No relationship"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Elements in the same group react in similar ways.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a non-metal found in charcoal?",
+      options: [
+        "Carbon",
+        "Calcium",
+        "Copper",
+        "Chlorine"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Charcoal is mostly made of carbon, a non-metal.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the atomic number of Oxygen?",
+      options: [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Oxygen is the 8th element on the Periodic Table.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which group of elements is known for conducting electricity well?",
+      options: [
+        "Metals",
+        "Non-metals",
+        "Noble gases",
+        "Liquids"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Metals are good conductors of heat and electricity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which element is second on the Periodic Table?",
+      options: [
+        "Hydrogen",
+        "Helium",
+        "Lithium",
+        "Beryllium"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Helium (He) has atomic number 2 and comes after Hydrogen.",
+    ),
+
+    QuizQuestion(
+      question: "10. Chlorine (Cl) is located on the right side of the table. What is it?",
+      options: [
+        "A metal",
+        "A non-metal",
+        "A solid metal",
+        "A noble gas"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Elements on the right side (except noble gases) are non-metals.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/5. JHS1 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part controls the movement of substances in and out?",
+      options: [
+        "Cytoplasm",
+        "Nucleus",
+        "Mitochondria",
+        "Cell membrane"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The cell membrane is semi-permeable and controls what enters and leaves the cell.",
+    ),
+
+    QuizQuestion(
+      question: "2. What structure acts as the 'power house' of the animal cell?",
+      options: [
+        "Mitochondria",
+        "Cytoplasm",
+        "Nucleus",
+        "Vacuole"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mitochondria convert nutrients into energy for the cell.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where are the hereditary structures (chromosomes) located?",
+      options: [
+        "Cytoplasm",
+        "Nucleus",
+        "Membrane",
+        "Vacuole"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The nucleus contains chromosomes which carry genetic information.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the state of a vacuole in a typical animal cell?",
+      options: [
+        "Small and temporary",
+        "Large and permanent",
+        "Large and temporary",
+        "Small and permanent"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Animal cells usually have small, temporary vacuoles.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which part is responsible for the cell's chemical reactions?",
+      options: [
+        "Cell membrane",
+        "Mitochondria",
+        "Cytoplasm",
+        "Nucleus"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The cytoplasm is where most metabolic (chemical) reactions occur.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a cell was a school, which part would be the Principal?",
+      options: [
+        "The playground",
+        "The school gate",
+        "The classroom",
+        "The Principal"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The nucleus acts like the principal, controlling all activities of the cell.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is NOT a main part of an animal cell?",
+      options: [
+        "Cell wall",
+        "Nucleus",
+        "Cytoplasm",
+        "Membrane"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Cell walls are found in plant cells, not animal cells.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the shape of a mitochondrion often described as?",
+      options: [
+        "Sausage-shaped",
+        "Perfectly square",
+        "Large and flat",
+        "Long and thin"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Mitochondria are typically oval or sausage-shaped.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the cell membrane called semi-permeable?",
+      options: [
+        "It lets everything in",
+        "It lets nothing in",
+        "It is very hard",
+        "It is selective"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "It allows only certain substances to pass through.",
+    ),
+
+    QuizQuestion(
+      question: "10. What do we call a living thing made of only one cell?",
+      options: [
+        "Multicellular",
+        "Unicellular",
+        "Non-cellular",
+        "Bi-cellular"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Uni' means one; unicellular organisms consist of a single cell.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/6. JHS1 S1 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which structure is found in a plant cell but NOT in an animal cell?",
+      options: [
+        "Nucleus",
+        "Cytoplasm",
+        "Cell wall",
+        "Mitochondria"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Only plant cells have a rigid cell wall for support.",
+    ),
+
+    QuizQuestion(
+      question: "2. What pigment inside chloroplasts traps sunlight?",
+      options: [
+        "Cellulose",
+        "Chlorophyll",
+        "Cytoplasm",
+        "Sap"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Chlorophyll is the green pigment that absorbs light energy for photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the main function of the large central vacuole?",
+      options: [
+        "Making food",
+        "Control center",
+        "Energy production",
+        "Water storage"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The large vacuole stores water and minerals and helps keep the cell firm.",
+    ),
+
+    QuizQuestion(
+      question: "4. Plant cells usually have a fixed shape. Which part is responsible?",
+      options: [
+        "Cell wall",
+        "Vacuole",
+        "Nucleus",
+        "Chloroplast"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The rigid cell wall maintains the shape of plant cells.",
+    ),
+
+    QuizQuestion(
+      question: "5. If a plant is kept in a dark room, which organelle will be unable to work?",
+      options: [
+        "Nucleus",
+        "Chloroplast",
+        "Cell wall",
+        "Vacuole"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Chloroplasts need light to carry out photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the jelly-like substance in a plant cell called?",
+      options: [
+        "Cellulose",
+        "Chlorophyll",
+        "Cytoplasm",
+        "Membrane"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cytoplasm is the jelly-like substance where cell activities occur.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which part acts as the 'Manager' of the plant cell?",
+      options: [
+        "Cell wall",
+        "Chloroplast",
+        "Vacuole",
+        "Nucleus"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The nucleus controls and coordinates all activities of the cell.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why is the cell wall important when a plant absorbs a lot of water?",
+      options: [
+        "It stops light",
+        "It prevents bursting",
+        "It makes food",
+        "It moves the cell"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The strong cell wall prevents the cell from bursting under pressure.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a similarity between plant and animal cells?",
+      options: [
+        "Both have cell walls",
+        "Both have chloroplasts",
+        "Both have nuclei",
+        "Both have large vacuoles"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Both plant and animal cells contain a nucleus.",
+    ),
+
+    QuizQuestion(
+      question: "10. What would happen if a plant cell had no mitochondria?",
+      options: [
+        "No food made",
+        "No energy released",
+        "No water stored",
+        "No shape kept"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Mitochondria release energy from food; without them, the cell cannot function.",
+    ),
+  ],
+);
+
+///Math
+final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the value of 5 blocks (100m each)?",
+      options: ["500m", "50m", "5m", "5b"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Five times one hundred million is five hundred million.",
+    ),
+
+    QuizQuestion(
+      question: "2. How many GH₵100 notes in GH₵10,000?",
+      options: ["10", "1,000", "50", "100"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ten thousand divided by one hundred is one hundred.",
+    ),
+
+    QuizQuestion(
+      question: "3. Round 0.99 to 1 significant figure.",
+      options: ["1.0", "0.9", "1.1", "0.1"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The first figure is 9; the neighbor 9 rounds it up to 1.0.",
+    ),
+
+    QuizQuestion(
+      question: "4. Sequence: 1,000, 1,250, 1,500, …",
+      options: ["1,750", "1,350", "1,450", "1,550"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Skip counting forward by 250.",
+    ),
+
+    QuizQuestion(
+      question: "5. 3,000,000 ___ 3,000,001.",
+      options: ["=", ">", "≈", "<"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The second number has one more unit.",
+    ),
+
+    QuizQuestion(
+      question: "6. Round 1,243,000 down to nearest 100,000.",
+      options: ["1,200,000", "1,300,000", "1,240,000", "1,000,000"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Keep the 2 and change all digits to the right to zeros.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many significant figures in 0.0007?",
+      options: ["7", "4", "1", "3"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Only the 7 is significant; leading zeros do not count.",
+    ),
+
+    QuizQuestion(
+      question: "8. Round 486.36 to the nearest tenth.",
+      options: ["486.3", "486.0", "486.4", "486.5"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Neighbor 6 rounds the 3 up to 4.",
+    ),
+
+    QuizQuestion(
+      question: "9. 50,000,000 ___ 50,000,000.",
+      options: [">", "<", "=", "≠"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Both sides have the exact same digits and value.",
+    ),
+
+    QuizQuestion(
+      question: "10. Round 64.5 up to the nearest whole number.",
+      options: ["64", "66", "70", "65"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Rounding 'up' always moves to the next higher integer.",
+    ),
+
+    QuizQuestion(
+      question: "11. 25 less than 1,000 is?",
+      options: ["925", "950", "900", "975"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Subtracting 25 from 1,000 results in 975.",
+    ),
+
+    QuizQuestion(
+      question: "12. Round 8,573 to 2 significant figures.",
+      options: ["8,600", "8,500", "8,000", "9,000"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The second figure 5 is rounded to 6 due to the neighbor 7.",
+    ),
+
+    QuizQuestion(
+      question: "13. How many rods (1m) in 1 flat (10m)?",
+      options: ["100", "10", "50", "1"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ten rods grouped together form one flat.",
+    ),
+
+    QuizQuestion(
+      question: "14. Round 0.0605 to 3 decimal places.",
+      options: ["0.06", "0.07", "0.060", "0.061"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The third decimal 0 is rounded to 1 because the neighbor is 5.",
+    ),
+
+    QuizQuestion(
+      question: "15. 500,000 less than 1,500,000 is?",
+      options: ["1,000,000", "1,100,000", "1,200,000", "1,400,000"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Subtract 5 from the hundred-thousands place (5 − 5 = 0).",
+    ),
+
+    QuizQuestion(
+      question: "16. How many significant figures in 7.00?",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "In a decimal, trailing zeros after a non-zero digit are significant.",
+    ),
+
+    QuizQuestion(
+      question: "17. Round 391,000,000 off to nearest 100,000,000.",
+      options: ["300,000,000", "390,000,000", "350,000,000", "400,000,000"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The neighbor 9 rounds the 3 up to 4.",
+    ),
+
+    QuizQuestion(
+      question: "18. Ten flats of 10,000,000 each equals?",
+      options: ["100,000,000", "1,000,000", "1,000,000,000", "10,000,000"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ten times ten million is one hundred million.",
+    ),
+
+    QuizQuestion(
+      question: "19. Round 0.327 to 1 decimal place.",
+      options: ["0.4", "0.33", "0.3", "0.5"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The neighbor 2 is less than 5, so the 3 stays the same.",
+    ),
+
+    QuizQuestion(
+      question: "20. 20,298 ___ 2,328,000.",
+      options: [">", "=", "≈", "<"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A five-digit number is significantly smaller than a seven-digit number.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS1 S1 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Multiply 0.075 by 1,000.",
+      options: ["7.5", "750", "0.75", "75"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "Move the point 3 places right.",
+    ),
+
+    QuizQuestion(
+      question: "2. Solve 8,450 + 1,550.",
+      options: ["10,000", "9,900", "10,100", "9,000"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "8,450 + 1,550 = 10,000.",
+    ),
+
+    QuizQuestion(
+      question: "3. Solve for the LCM of 5 and 7.",
+      options: ["12", "1", "25", "35"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Since they are prime, multiply them.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is 7 x 19 using the strategy (7 x 20) − (7 x 1)?",
+      options: ["133", "140", "139", "147"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "140 − 7 = 133.",
+    ),
+
+    QuizQuestion(
+      question: "5. Express 64 as a power of 4.",
+      options: [r"4^2", r"4^4", r"4^3", r"4^5"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: "4 × 4 × 4 = 64.",
+    ),
+
+    QuizQuestion(
+      question: "6. Find the HCF of 12 and 18.",
+      options: ["36", "2", "6", "3"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: "The highest shared factor is 6.",
+    ),
+
+    QuizQuestion(
+      question: r"7. What is the value of 500^0?",
+      options: ["500", "0", "50", "1"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Any natural number to the power 0 is 1.",
+    ),
+
+    QuizQuestion(
+      question: r"8. What is the value of 3^4?",
+      options: ["12", "81", "27", "64"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation: "3 × 3 × 3 × 3 = 81.",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. A car travels 480 km on 12 litres of petrol. How many km per litre?",
+      options: ["40 km", "30 km", "48 km", "50 km"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "480 ÷ 12 = 40.",
+    ),
+
+    QuizQuestion(
+      question: "10. Find the LCM of 10 and 15.",
+      options: ["5", "30", "25", "150"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation: "The first shared multiple is 30.",
+    ),
+
+    QuizQuestion(
+      question: "11. What is 15.5 − 2.25?",
+      options: ["13.25", "13.35", "12.25", "13.75"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "15.50 − 2.25 = 13.25.",
+    ),
+
+    QuizQuestion(
+      question: "12. Solve 1,200 ÷ 100.",
+      options: ["12", "120", "1.2", "12,000"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Move the decimal two places left.",
+    ),
+
+    QuizQuestion(
+      question: "13. What is the HCF of 7 and 11?",
+      options: ["77", "1", "0", "18"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation: "Prime numbers share only 1.",
+    ),
+
+    QuizQuestion(
+      question: r"14. Solve \left(\frac{1}{2}\right)^3.",
+      options: [r"\frac{1}{6}", r"\frac{3}{2}", r"\frac{1}{8}", r"\frac{1}{4}"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          r"\frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} = \frac{1}{8}.",
+    ),
+
+    QuizQuestion(
+      question: r"15. What is the value of 10^4?",
+      options: ["40", "1,000", "4,000", "10,000"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "1 followed by four zeros.",
+    ),
+
+    QuizQuestion(
+      question: "16. Express 2 × 2 × 3 × 3 × 3 in index form.",
+      options: [r"2^3 × 3^2", "2^2 × 3^3", "6^5", "2^2 + 3^3"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: r"2^2 × 3^3.",
+    ),
+
+    QuizQuestion(
+      question: r"17. In the power 8^2, what is 8 called?",
+      options: ["Exponent", "Product", "Multiple", "Base"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The big number is the base.",
+    ),
+
+    QuizQuestion(
+      question:
+          "18. A square has a side of 12 cm. What is its area in index form?",
+      options: [r"12^2 cm^2", "12^4 cm^2", "24 cm^2", "144^2 cm^2"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "Area is side × side.",
+    ),
+
+    QuizQuestion(
+      question: "19. What is 1,464 + 1,282?",
+      options: ["2,740", "2,646", "2,746", "2,756"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "2,746.",
+    ),
+
+    QuizQuestion(
+      question: "20. Solve 45 × 11 using the distributive property.",
+      options: ["505", "455", "445", "495"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "450 + 45 = 495.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS1 S1 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: r"1. What is the decimal equivalent of \frac{1}{5}?",
+      options: ["0.5", "0.1", "0.2", "0.25"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: r"One-fifth is the same as \frac{2}{10}, which is 0.2.",
+    ),
+
+    QuizQuestion(
+      question: r"2. Solve: \frac{1}{2} + \frac{1}{3}.",
+      options: [r"\frac{2}{5}", r"\frac{5}{6}", r"\frac{1}{6}", r"\frac{2}{6}"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation: r"The LCM is 6. \frac{3}{6} + \frac{2}{6} = \frac{5}{6}.",
+    ),
+
+    QuizQuestion(
+      question: r"3. Find \frac{3}{4} of 200.",
+      options: ["150", "50", "100", "75"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "200 ÷ 4 = 50, and 50 × 3 = 150.",
+    ),
+
+    QuizQuestion(
+      question: r"4. What is the reciprocal of \frac{2}{3}?",
+      options: [r"\frac{1}{3}", "2", r"\frac{3}{2}", "0.66"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: r"Flipping \frac{2}{3} upside down gives \frac{3}{2}.",
+    ),
+
+    QuizQuestion(
+      question: r"5. Calculate 4 ÷ \frac{1}{2}.",
+      options: ["2", r"4\frac{1}{2}", r"\frac{1}{8}", "8"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"Keep 4, Change to ×, Flip to \frac{2}{1}. 4 × 2 = 8.",
+    ),
+
+    QuizQuestion(
+      question:
+          r"6. A board is 10 m long. If 3\frac{1}{2} m is cut off, how much remains?",
+      options: [
+        r"7\frac{1}{2} m",
+        r"13\frac{1}{2} m",
+        "6 m",
+        r"6\frac{1}{2} m",
+      ],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"10 − 3.5 = 6.5, which is 6\frac{1}{2} m.",
+    ),
+
+    QuizQuestion(
+      question: r"7. Identify the percentage equivalent to \frac{1}{4}.",
+      options: ["25%", "40%", "14%", "75%"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "One quarter is exactly one-fourth of 100%, which is 25%.",
+    ),
+
+    QuizQuestion(
+      question: r"8. Solve: \frac{1}{2} × \frac{1}{4}.",
+      options: [r"\frac{2}{6}", r"\frac{1}{6}", r"\frac{1}{2}", r"\frac{1}{8}"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "Multiply top by top (1 × 1) and bottom by bottom (2 × 4).",
+    ),
+
+    QuizQuestion(
+      question: "9. Which decimal is greater: 0.9 or 0.899?",
+      options: ["0.9", "0.899", "They are equal", "0.89"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "0.9 is 0.900, which is more than 0.899.",
+    ),
+
+    QuizQuestion(
+      question:
+          r"10. A tank is \frac{1}{2} full. If \frac{1}{8} is used for bathing, how much is left?",
+      options: [r"\frac{5}{8}", r"\frac{1}{4}", r"\frac{3}{4}", r"\frac{3}{8}"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{4}{8} − \frac{1}{8} = \frac{3}{8}.",
+    ),
+
+    QuizQuestion(
+      question: r"11. Multiply \frac{3}{5} × 10.",
+      options: ["30", "50", "15", "6"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{30}{5} = 6.",
+    ),
+
+    QuizQuestion(
+      question: r"12. Find 1\frac{1}{2} ÷ \frac{1}{2}.",
+      options: ["1", "2", r"\frac{1}{3}", "3"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{3}{2} × \frac{2}{1} = \frac{6}{2} = 3.",
+    ),
+
+    QuizQuestion(
+      question: "13. What is 0.75 as a fraction?",
+      options: [r"\frac{3}{4}", r"\frac{1}{4}", r"\frac{7}{5}", r"\frac{1}{2}"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: r"0.75 is 75/100, which simplifies to \frac{3}{4}.",
+    ),
+
+    QuizQuestion(
+      question: r"14. Add: 1\frac{1}{4} + 2\frac{1}{2}.",
+      options: [
+        r"3\frac{3}{4}",
+        r"3\frac{2}{6}",
+        r"3\frac{1}{4}",
+        r"3\frac{1}{2}",
+      ],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: r"1\frac{1}{4} + 2\frac{1}{4} = 3\frac{3}{4}.",
+    ),
+
+    QuizQuestion(
+      question: r"15. What is \frac{1}{3} of 90?",
+      options: ["27", "30", "33", "10"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "90 divided by 3 is 30.",
+    ),
+
+    QuizQuestion(
+      question: r"16. Find the result of \frac{1}{5} ÷ \frac{1}{10}.",
+      options: [r"\frac{1}{2}", "2", "50", r"\frac{10}/{5}"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation: r"\frac{1}{5} × \frac{10}{1} = 2.",
+    ),
+
+    QuizQuestion(
+      question: "17. Which is the smallest value?",
+      options: [r"\frac{1}{10}", "0.25", "50%", "0.09"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "0.09 (9%) is smaller than 0.1 (10%), 0.25 (25%), or 50%.",
+    ),
+
+    QuizQuestion(
+      question: r"18. Solve: \frac{3}{4} ÷ 3.",
+      options: [r"\frac{1}{4}", r"\frac{9}{4}", "1", r"\frac{3}{12}"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: r"\frac{3}{4} × \frac{1}{3} = \frac{1}{4}.",
+    ),
+
+    QuizQuestion(
+      question:
+          r"19. If you have \frac{2}{3} of a pizza and give away \frac{1}{6}, how much remains?",
+      options: [r"\frac{1}{3}", r"\frac{1}{6}", r"\frac{3}{6}", r"\frac{1}{2}"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation:
+          r"\frac{4}{6} − \frac{1}{6} = \frac{3}{6}, which is \frac{1}{2}.",
+    ),
+
+    QuizQuestion(
+      question: r"20. Multiply \frac{2}{3} × \frac{3}{4}.",
+      options: [
+        r"\frac{5}{7}",
+        r"\frac{6}{12}",
+        r"\frac{1}{2}",
+        r"\frac{2}{4}",
+      ],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: r"\frac{6}{12} simplifies to \frac{1}{2}.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
+  audioPath: 'assets/audio/math/4. JHS1 S1 SS4/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. In a class of 40, the ratio of boys to girls is 1:1. How many girls are there?",
+      options: ["10 girls", "20 girls", "30 girls", "15 girls"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "A 1:1 ratio means the class is split exactly in half. Half of 40 is 20.",
+    ),
+
+    QuizQuestion(
+      question: "2. A car travels 400km in 5 hours. What is the speed in km/h?",
+      options: ["80 km/h", "70 km/h", "90 km/h", "100 km/h"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation:
+          "Divide total distance (400) by total time (5). 400 ÷ 5 = 80.",
+    ),
+
+    QuizQuestion(
+      question: "3. A table shows (3, 9) and (x, 27). What is the value of x?",
+      options: ["6", "12", "9", "15"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation:
+          "The ratio is 3 : 9, meaning the second number is 3 times the first. If the second is 27, x = 27 ÷ 3 = 9.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. Which point lies on a proportional line starting at (0, 0)?",
+      options: [
+        "(1, 3) and (2, 6)",
+        "(1, 3) and (2, 5)",
+        "(0, 5) and (1, 6)",
+        "(2, 4) and (3, 5)",
+      ],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation:
+          "Only (1,3) and (2,6) have the same constant ratio (3 ÷ 1 = 3 and 6 ÷ 2 = 3).",
+    ),
+
+    QuizQuestion(
+      question: "5. What is 20% of 500 Cedis?",
+      options: ["50 Cedis", "200 Cedis", "150 Cedis", "100 Cedis"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "20/100 × 500 = 20 × 5 = 100.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. A salesman makes 300 Cedis commission at a 10% rate. What were his total sales?",
+      options: ["3,000 Cedis", "1,000 Cedis", "2,000 Cedis", "1,500 Cedis"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "If 10% is 300, then 100% is 300 × 10 = 3000.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. The ratio of Kofi's age to Ama's age is 2:3. If Kofi is 12, how old is Ama?",
+      options: ["15 years", "18 years", "20 years", "16 years"],
+      correctIndex: 1,
+      difficulty: "Med",
+      explanation:
+          "Kofi is 2 parts. 12 ÷ 2 = 6. So 1 part is 6. Ama is 3 parts: 3 × 6 = 18.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. A shirt costs 80 Cedis after a 20% discount. What was the original price?",
+      options: ["90 Cedis", "120 Cedis", "100 Cedis", "110 Cedis"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation:
+          "If the discount was 20%, 80 Cedis is 80% of the price. Therefore, 100% is 100 Cedis.",
+    ),
+
+    QuizQuestion(
+      question: r"9. If \frac{x}{5} = \frac{12}{20}, what is the value of x?",
+      options: ["4", "2", "3", "5"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: "20 is 5 times 4. So 12 is x times 4. 12 ÷ 4 = 3.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. A bank pays 5% interest per year. If you save 2,000 Cedis, how much interest do you earn?",
+      options: ["50 Cedis", "150 Cedis", "200 Cedis", "100 Cedis"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{5}{100} × 2000 = 5 × 20 = 100.",
+    ),
+
+    QuizQuestion(
+      question:
+          "11. A recipe uses 3 cups of flour for every 2 cups of sugar. What is the ratio of sugar to flour?",
+      options: ["3:2", "2:3", "3:5", "2:5"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The question asks for sugar first (2) then flour (3).",
+    ),
+
+    QuizQuestion(
+      question: "12. If 10 pens cost 50 Cedis, what is the unit price per pen?",
+      options: ["5 Cedis", "10 Cedis", "2 Cedis", "4 Cedis"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Divide total cost (50) by the number of pens (10). 50 ÷ 10 = 5.",
+    ),
+
+    QuizQuestion(
+      question:
+          "13. A map has a scale of 1cm to 50km. If two towns are 4cm apart on the map, how far are they in reality?",
+      options: ["100 km", "150 km", "250 km", "200 km"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "4 × 50 = 200 km.",
+    ),
+
+    QuizQuestion(
+      question: "14. Which ratio is equivalent to 5:10?",
+      options: ["1:2", "2:1", "5:5", "1:5"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Dividing both numbers in 5:10 by 5 gives 1:2.",
+    ),
+
+    QuizQuestion(
+      question:
+          "15. A student scored 18 out of 20 on a test. What percentage is this?",
+      options: ["80%", "18%", "95%", "90%"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: r"\frac{18}{20} = \frac{90}{100}, which is 90%.",
+    ),
+
+    QuizQuestion(
+      question:
+          "16. A bag contains 8 black stones and 12 white stones. What is the ratio of black to white in simplest form?",
+      options: ["4:6", "2:3", "3:2", "8:12"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Both 8 and 12 can be divided by 4, giving 2:3.",
+    ),
+
+    QuizQuestion(
+      question:
+          "17. A mobile phone regularly costs 600 Cedis but is on sale for 15% off. How much is the discount?",
+      options: ["60 Cedis", "75 Cedis", "80 Cedis", "90 Cedis"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{15}{100} × 600 = 15 × 6 = 90.",
+    ),
+
+    QuizQuestion(
+      question:
+          "18. If the points (1, 5), (2, 10), and (3, 15) are on a graph, what is the value of y when x=4?",
+      options: ["18", "25", "20", "24"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: "The ratio is y = 5x. So 4 × 5 = 20.",
+    ),
+
+    QuizQuestion(
+      question:
+          "19. A farmer has 150 animals. 30% are goats. How many goats does he have?",
+      options: ["30 goats", "50 goats", "40 goats", "45 goats"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: r"\frac{30}{100} × 150 = 3 × 15 = 45.",
+    ),
+
+    QuizQuestion(
+      question:
+          "20. The ratio of milk to water in a mixture is 1:4. If there are 20 litres of water, how much milk is there?",
+      options: ["5 litres", "4 litres", "10 litres", "2 litres"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation:
+          "Water is 4 parts. 20 ÷ 4 = 5 litres per part. Milk is 1 part, so 5 litres.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS1 S2 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the 5th term in the sequence: 2, 5, 8, 11, __?",
+      options: ["13", "14", "15", "16"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The difference is 3. 11 + 3 = 14.",
+    ),
+
+    QuizQuestion(
+      question:
+          "2. Which phrase describes the mapping (1 → 1), (2 → 4), (3 → 9)?",
+      options: [
+        "Twice the number",
+        "The square of the number",
+        "Three more than",
+        "The number itself",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: r"1^2 = 1, 2^2 = 4, 3^2 = 9.",
+    ),
+
+    QuizQuestion(
+      question:
+          "3. If the rule is y = 4x + 2, what is the y-value when x = 10?",
+      options: ["40", "42", "44", "46"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "(4 × 10) + 2 = 42.",
+    ),
+
+    QuizQuestion(
+      question: "4. On a coordinate plane, which axis represents the Domain?",
+      options: ["The x-axis", "The y-axis", "The Origin", "The Grid"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The input (x) is plotted on the horizontal axis.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. What is the next number in the pattern: 100, 95, 90, 85, __?",
+      options: ["80", "75", "70", "81"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The difference is -5. 85 - 5 = 80.",
+    ),
+
+    QuizQuestion(
+      question:
+          "6. Which point is located at the intersection of the x-axis and y-axis?",
+      options: ["(1, 1)", "(0, 1)", "(1, 0)", "(0, 0)"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "This point is called the Origin.",
+    ),
+
+    QuizQuestion(
+      question:
+          "7. A line passes through (1, 3), (2, 6), and (3, 9). What is the rule?",
+      options: ["y = x + 2", "y = 3x", r"y = x^2", "y = 2x + 1"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "3 × 1 = 3, 3 × 2 = 6, 3 × 3 = 9.",
+    ),
+
+    QuizQuestion(
+      question:
+          "8. If you move 6 units West and 4 units North, your coordinates are:",
+      options: ["(6, 4)", "(4, -6)", "(-6, 4)", "(-4, 6)"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "West is −x(-6) and North is +y(4).",
+    ),
+
+    QuizQuestion(
+      question:
+          "9. Predict the 50th term of the sequence where the rule is y = 2x − 1.",
+      options: ["98", "99", "100", "101"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "(2 × 50) − 1 = 99.",
+    ),
+
+    QuizQuestion(
+      question:
+          "10. In the relation y = x + 5, if the co-domain is 20, what is the domain?",
+      options: ["25", "20", "15", "10"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "15 + 5 = 20, so x must be 15.",
+    ),
+
+    QuizQuestion(
+      question:
+          "11. Which coordinate represents moving 2 units East and 5 units South?",
+      options: ["(2, 5)", "(5, 2)", "(2, -5)", "(-2, 5)"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "East is positive x(2) and South is negative y(-5).",
+    ),
+
+    QuizQuestion(
+      question:
+          "12. What is the common difference in the sequence 7, 14, 21, 28?",
+      options: ["06", "07", "08", "09"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "14 − 7 = 7 and 21 − 14 = 7.",
+    ),
+
+    QuizQuestion(
+      question:
+          "13. If the rule is 'thrice the number plus 2', what is y when x is 4?",
+      options: ["12", "10", "14", "16"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "(3 × 4) + 2 = 14.",
+    ),
+
+    QuizQuestion(
+      question: "14. Which phrase describes the rule y = x − 5?",
+      options: [
+        "Five times more",
+        "Five less than",
+        "Five more than",
+        "Divide by five",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Subtracting 5 means the result is \"five less than\" the original",
+    ),
+
+    QuizQuestion(
+      question: r"15. Find the 10th term in the mapping x → X^2 + 1.",
+      options: ["100", "021", "101", "011"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "(10 × 10) + 1 = 101.",
+    ),
+
+    QuizQuestion(
+      question:
+          "16. A line on a graph passes through (0, 2), (1, 3), and (2, 4). What is the rule?",
+      options: ["y = x + 2", "y = 2x", "y = x − 2", "y = 2x + 2"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "0 + 2 = 2, 1 + 2 = 3, 2 + 2 = 4.",
+    ),
+
+    QuizQuestion(
+      question:
+          "17. If you are at point (3, 3) and move 3 units West, what is your new point?",
+      options: ["(3, 0)", "(0, 3)", "(6, 3)", "(3, 6)"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Moving West means subtracting 3 from the x coordinate. 3 − 3 = 0.",
+    ),
+
+    QuizQuestion(
+      question: "18. What is the rule for the sequence: 50, 40, 30, 20?",
+      options: ["Subtract 10", "Add 10", "Multiply 10", "Divide 10"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Each term is 10 smaller than the one before it",
+    ),
+
+    QuizQuestion(
+      question:
+          "19. Which animal is at point (−3, 3) on the school garden map?",
+      options: ["Mango plant", "Cocoa plant", "Orange plant", "Apple plant"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Based on the NaCCA exemplar, the cocoa plant is located at (−3, 3).",
+    ),
+
+    QuizQuestion(
+      question: "20. If y = 5x, and y = 25, what is x?",
+      options: ["02", "03", "04", "05"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "5x = 25, so x = 5.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS1 S2 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Translate \"the sum of x and y multiplied by 5.\"",
+      options: ["x + 5y", "5(x + y)", "5x + y", "5xy"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "We find the sum first, then multiply the whole group by 5.",
+    ),
+
+    QuizQuestion(
+      question: "2. Simplify 3a + 4b − a + 2b.",
+      options: ["2a + 6b", "4a + 6b", "8ab", "2a + 2b"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Grouping the a family  (3a − a) and the b family (4b + 2b).",
+    ),
+
+    QuizQuestion(
+      question: r"3. What is 2m^2 × 5m^4?",
+      options: [r"7m^6", r"10m^8", r"10m^6", r"7m^8"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Multiply the coefficients 2 x 5 and add the powers 2 + 4",
+    ),
+
+    QuizQuestion(
+      question: r"4. Simplify \frac{20ab}{5a}.",
+      options: ["4a", "15b", "4ab", "4b"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Divide 20 by 5 to get 4, and the a on top and bottom cancels out.",
+    ),
+
+    QuizQuestion(
+      question: r"5. Evaluate 2x^2 when x = 5.",
+      options: ["20", "50", "100", "25"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "First square 5 to get 25, then multiply by 2.",
+    ),
+
+    QuizQuestion(
+      question: "6. Expand and simplify: 3(x + 2) − 2x.",
+      options: ["x + 2", "x + 6", "5x + 6", "x − 6"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Expanding gives 3x + 6 - 2x. Subtracting 2x from 3x leaves x.",
+    ),
+
+    QuizQuestion(
+      question: "7. A square has a side of 3n. What is its area?",
+      options: ["6n", "9n", r"9n^2", "12n"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: r"Area = side × side = 3n × 3n = 9n^2.",
+    ),
+
+    QuizQuestion(
+      question: r"8. Find the value of (a + b) / 2 if a = 10 and b = 6.",
+      options: ["8", "16", "4", "12"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "10 + 6 = 16. Dividing 16 by 2 gives 8",
+    ),
+
+    QuizQuestion(
+      question: "9. Simplify 12x − (4x + 2x).",
+      options: ["10x", "6x", "8x", "18x"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Solve inside the brackets first to get 6x, then 12x - 6x = 6x",
+    ),
+
+    QuizQuestion(
+      question: r"10. Simplify \frac{(15x + 10)}{5}.",
+      options: ["3x + 10", "15x + 2", "3x + 2", "5x"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Both terms in the numerator must be divided by 5",
+    ),
+
+    QuizQuestion(
+      question: "11. Translate \"8 more than a number k divided by 3.\"",
+      options: [
+        r"\frac{(k + 8)}{3}",
+        "3k + 8",
+        r"\frac{k}{3} + 8",
+        r"\frac{8k}{3}",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "First divide k by 3, then add the 8.",
+    ),
+
+    QuizQuestion(
+      question: "12. Simplify 5p − 2q + p − 3q.",
+      options: ["6p − 5q", "4p − 1q", "6p + 5q", "4p − 5q"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "5p + p = 6p and −2q − 3q = −5q.",
+    ),
+
+    QuizQuestion(
+      question: "13. Simplify 10ab x 2c.",
+      options: ["12abc", "20abc", "20a + b + c", "102abc"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Multiply the numbers and place all different letters next to each other.",
+    ),
+
+    QuizQuestion(
+      question: "14. Evaluate 3(x − y) if x = 10 and y = 4.",
+      options: ["18", "26", "14", "21"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "10 - 4 = 6, then 3 x 6 = 18.",
+    ),
+
+    QuizQuestion(
+      question: "15. Expand −2(x − 5).",
+      options: ["−2x − 10", "2x + 10", "−2x + 10", "−2x − 7"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Negative 2 times negative 5 becomes positive 10. −2 × −5 = +10 → −2x + 10.",
+    ),
+
+    QuizQuestion(
+      question:
+          "16. If a rectangle has sides 5a and 2a, what is its perimeter?",
+      options: ["14a", r"10a^2", "7a", r"14a^2"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Perimeter = 5a + 2a + 5a + 2a = 14a.",
+    ),
+
+    QuizQuestion(
+      question: "17. Simplify X × X × y × y × y.",
+      options: [r"x^2y^2", r"2x^3y", "5xy", r"x^3y^3"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: r"x appears 3 times and y appears 3 times → x^3y^3.",
+    ),
+
+    QuizQuestion(
+      question: "18. What is the value of m in m = 4a if a = 0.5?",
+      options: ["4.5", "2.0", "20", "4.0"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "4 x 0.5 is half of 4, which is 2",
+    ),
+
+    QuizQuestion(
+      question: "19. Simplify 4x + 3y if x = 1 and y = 1.",
+      options: ["12", "43", "7", "8"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "4(1) + 3(1) = 7.",
+    ),
+
+    QuizQuestion(
+      question: "20. Which of these is a \"Like Term\" to 5ab^2?",
+      options: [r"5a^2b", "2ab", "10ab^2", "5ab"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "To be a like term, the variables and their powers must be exactly the same.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS1 S2 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the inverse operation of division?",
+      options: ["Subtraction", "Addition", "Multiplication", "Division"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Multiplication undoes division.",
+    ),
+
+    QuizQuestion(
+      question: "2. Solve x − 15 = 5.",
+      options: ["x = 20", "x = 10", "x = 3", "x = −10"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "5 + 15 = 20.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"The sum of a number and 8 is 20.\" Write the equation.",
+      options: ["8n = 20", "n − 8 = 20", "n/8 = 20", "n + 8 = 20"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Sum indicates addition.",
+    ),
+
+    QuizQuestion(
+      question:
+          "4. If 5 identical boxes balance with 40kg, how much is one box?",
+      options: ["45kg", "8kg", "35kg", "200kg"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "40 ÷ 5 = 8.",
+    ),
+
+    QuizQuestion(
+      question:
+          "5. On a tile mat, how do you remove 2 yellow tiles from the left side?",
+      options: [
+        "Add 2 green tiles",
+        "Add 2 red tiles",
+        "Add 2 yellow tiles",
+        "Remove 1 green tile",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Adding 2 red tiles creates zero pairs with the yellow tiles.",
+    ),
+
+    QuizQuestion(
+      question: "6. Solve 3x + 2 = 14.",
+      options: ["x = 4", "x = 12", "x = 16", "x = 5"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "14 − 2 = 12, then 12 ÷ 3 = 4.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the value of x in 4x = 3x + 5?",
+      options: ["x = 1", "x = 15", "x = 5", "x = 8"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "4x − 3x = 5, so x = 5.",
+    ),
+
+    QuizQuestion(
+      question: "8. Solve x/3 = 9.",
+      options: ["x = 3", "x = 12", "x = 6", "x = 27"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "9 × 3 = 27.",
+    ),
+
+    QuizQuestion(
+      question: "9. If an equation is 2x − 6 = 2, what is the first step?",
+      options: [
+        "Divide by 2",
+        "Add 6 to both sides",
+        "Subtract 6 from both sides",
+        "Multiply by 6",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Undo subtraction by adding 6.",
+    ),
+
+    QuizQuestion(
+      question: "10. Solve the equation from the previous question: 2x = 8.",
+      options: ["x = 10", "x = 6", "x = 16", "x = 4"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "8 ÷ 2 = 4.",
+    ),
+
+    QuizQuestion(
+      question: "11. Which word represents multiplication in a word problem?",
+      options: ["Product", "Difference", "Sum", "Less than"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Product means multiplication.",
+    ),
+
+    QuizQuestion(
+      question:
+          "12. In a flag diagram, if the forward operation is −7, what is the inverse?",
+      options: ["×7", "−7", "+7", "÷7"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Addition is the inverse of subtraction.",
+    ),
+
+    QuizQuestion(
+      question: "13. Solve 12 + x = 10.",
+      options: ["x = 22", "x = 2", "x = −2", "x = 120"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "10 − 12 = −2.",
+    ),
+
+    QuizQuestion(
+      question: "14. If 2x balances with 10 units, how many units for 3x?",
+      options: ["15 units", "30 units", "5 units", "20 units"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "1x = 5, so 3x = 15.",
+    ),
+
+    QuizQuestion(
+      question: "15. What color is used for negative unit tiles in our model?",
+      options: ["Green", "Yellow", "Blue", "Red"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Red represents −1.",
+    ),
+
+    QuizQuestion(
+      question: "16. Solve x/5 + 1 = 3.",
+      options: ["x = 20", "x = 10", "x = 15", "x = 5"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "3 − 1 = 2, then 2 × 5 = 10.",
+    ),
+
+    QuizQuestion(
+      question: "17. Translate: \"Ten less than a number n is five.\"",
+      options: ["10 − n = 5", "n + 10 = 5", "n − 10 = 5", "10n = 5"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Ten less than\" means subtract 10 from n.",
+    ),
+
+    QuizQuestion(
+      question: "18. Solve 4x = 28.",
+      options: ["x = 32", "x = 24", "x = 112", "x = 7"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "28 ÷ 4 = 7.",
+    ),
+
+    QuizQuestion(
+      question:
+          "19. What happens to a negative term when it moves to the other side?",
+      options: [
+        "It stays negative",
+        "It becomes zero",
+        "It becomes positive",
+        "It becomes a variable",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Signs flip when crossing the equal sign.",
+    ),
+
+    QuizQuestion(
+      question: "20. Solve x + x + 2 = 12.",
+      options: ["x = 5", "x = 7", "x = 10", "x = 12"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "2x + 2 = 12 → 2x = 10 → x = 5.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS1 S3 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the sum of two complementary angles?",
+      options: ["180°", "90°", "360°", "45°"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Complementary angles are defined as two angles that add up to exactly 90°.",
+    ),
+
+    QuizQuestion(
+      question: "2. In construction, the 'X' formed by two arcs is called an:",
+      options: ["Intersection", "Vertex", "Bisector", "Arc"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "An intersection is the exact point where two lines or arcs cross each other.",
+    ),
+
+    QuizQuestion(
+      question: "3. If ∠A = 55°, what is its supplement?",
+      options: ["125°", "35°", "145°", "90°"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Supplementary angles add to 180°. 180 − 55 = 125°.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which angle is constructed by bisecting a 90° angle?",
+      options: ["60°", "30°", "15°", "45°"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "To bisect means to cut in half. Half of 90 is 45.",
+    ),
+
+    QuizQuestion(
+      question: "5. Two lines cross to form an 'X'. If the top angle is 60°, what is the bottom angle?",
+      options: ["120°", "30°", "60°", "90°"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Vertically opposite angles are created by intersecting lines and are always equal.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the first step in constructing a 60° angle?",
+      options: ["Draw a 90° line", "Bisect the line", "Draw an arc from the vertex", "Use a protractor"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Every compass construction starts by drawing an initial arc to establish a reference radius.",
+    ),
+
+    QuizQuestion(
+      question: "7. An angle that measures 179° is classified as:",
+      options: ["Acute", "Right", "Reflex", "Obtuse"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Obtuse angles are greater than 90° but less than 180°.",
+    ),
+
+    QuizQuestion(
+      question: "8. To bisect a line segment, the compass must be opened to:",
+      options: ["Exactly half the length", "Less than half the length", "More than half the length", "The full length of the line"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "If the compass is not open more than halfway, the two arcs will not meet to form an intersection.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which angle is exactly 15° more than 60°?",
+      options: ["45°", "90°", "75°", "30°"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "60 + 15 = 75. In construction, this is done by bisecting the 30° gap between 60 and 90.",
+    ),
+
+    QuizQuestion(
+      question: "10. A carpenter uses a 'Try Square' to check for which angle?",
+      options: ["45°", "60°", "180°", "90°"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Try squares are L-shaped tools designed specifically to check or mark 90-degree right angles.",
+    ),
+
+    QuizQuestion(
+      question: "11. What do we call the point where the two arms of an angle meet?",
+      options: ["Intersection", "Vertex", "Origin", "Segment"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The vertex is the common endpoint of the two rays (arms) that form an angle.",
+    ),
+
+    QuizQuestion(
+      question: "12. If an angle is 310°, it is a ______ angle.",
+      options: ["Obtuse", "Straight", "Reflex", "Acute"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Reflex angles are those that are greater than 180° but less than 360°.",
+    ),
+
+    QuizQuestion(
+      question: "13. Two angles are adjacent if they share a vertex and a ______.",
+      options: ["Protractor", "Bisector", "Common Arm", "Baseline"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Adjacent angles are 'side-by-side' and must share both a vertex and one arm.",
+    ),
+
+    QuizQuestion(
+      question: "14. If you bisect a 30° angle, you get:",
+      options: ["Two 15° angles", "Two 60° angles", "One 15° angle and one 30° angle", "45°"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Bisecting always results in two equal parts. 30 ÷ 2 = 15.",
+    ),
+
+    QuizQuestion(
+      question: "15. A straight line measures exactly:",
+      options: ["90°", "360°", "180°", "0°"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A straight angle represents a half-rotation, which is exactly 180°.",
+    ),
+
+    QuizQuestion(
+      question: "16. To construct a 30° angle, you must first construct a:",
+      options: ["90° angle", "60° angle", "45° angle", "Square"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Since 30 is half of 60, the 60° construction is the required first step.",
+    ),
+
+    QuizQuestion(
+      question: "17. Which angle is smaller than a right angle?",
+      options: ["Obtuse", "Acute", "Reflex", "Straight"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Acute angles range from 1° to 89°, all of which are smaller than 90°.",
+    ),
+
+    QuizQuestion(
+      question: "18. If two lines are perpendicular, they meet at an angle of:",
+      options: ["180°", "45°", "90°", "60°"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Perpendicularity is defined by the intersection of lines at exactly 90 degrees.",
+    ),
+
+    QuizQuestion(
+      question: "19. How many degrees are in a full circle?",
+      options: ["180°", "90°", "360°", "270°"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A full rotation or a complete circle is defined as 360°.",
+    ),
+
+    QuizQuestion(
+      question: "20. When using the 'Same Radius' method to build 60°, the distance from the vertex to point A is the same as the distance from A to the 'X'. This forms an:",
+      options: ["Isosceles triangle", "Equilateral triangle", "Right triangle", "Scalene triangle"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "An equilateral triangle has three equal sides and three 60° angles.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS1 S3 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Convert 1.5 metres into centimetres.",
+      options: ["15 cm", "150 cm", "1,500 cm", "1.50 cm"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "1.5 × 100 = 150 cm.",
+    ),
+
+    QuizQuestion(
+      question: "2. If the radius of a circle is 10 cm, what is the diameter?",
+      options: ["5 cm", "10 cm", "30 cm", "20 cm"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Diameter = 2 × Radius = 20 cm.",
+    ),
+
+    QuizQuestion(
+      question: "3. Find the area of a triangle with base 10 cm and height 6 cm.",
+      options: ["60 cm²", "30 cm²", "16 cm²", "15 cm²"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: r"Area = \frac{1}{2} × 10 × 6 = 30 cm².",
+    ),
+
+    QuizQuestion(
+      question: "4. A bearing of 270° points in which direction?",
+      options: ["East", "North", "South", "West"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "000° North, 090° East, 180° South, 270° West.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the back bearing of 200°?",
+      options: ["020°", "380°", "180°", "000°"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "200 − 180 = 020°.",
+    ),
+
+    QuizQuestion(
+      question: r"6. In the vector \begin{pmatrix} -5 \\  2 \end{pmatrix}, the number -5 tells you to move:",
+      options: ["5 units up", "5 units right", "5 units left", "5 units down"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Negative horizontal value means move left.",
+    ),
+
+    QuizQuestion(
+      question: r"7. Calculate the magnitude of the vector \begin{pmatrix} 6 \\ 8 \end{pmatrix}.",
+      options: ["14", "10", "48", "100"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "√(6² + 8²) = √100 = 10.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which quantity has magnitude but NO direction?",
+      options: ["Velocity", "Scalar", "Vector", "Force"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Scalars only have magnitude.",
+    ),
+
+    QuizQuestion(
+      question: "9. A square on a grid has a side of 5 units. What is its area?",
+      options: [r"10 units^2", r"20 units^2", r"25 units^2", r"15 units^2"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Area = 5 x 5 = 25.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the bearing of a point exactly North-East?",
+      options: ["090°", "180°", "000°", "045°"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Halfway between 000° and 090°.",
+    ),
+
+    QuizQuestion(
+      question: "11. A triangle is always ____ the area of a parallelogram with the same base and height.",
+      options: ["Double", "Half", "Equal to", "Triple"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Triangle area = half of parallelogram.",
+    ),
+
+    QuizQuestion(
+      question: r"12. What is the circumference of a circle with diameter 7 m? (π = \frac{22}{7})",
+      options: ["22 m", "44 m", "11 m", "49 m"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"C = \frac{22}{7} x 7 = 22 m.",
+    ),
+
+    QuizQuestion(
+      question: "13. How is a bearing of 5 degrees written in three-digit form?",
+      options: ["500°", "050°", "005°", "5.00°"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Bearings must have three digits.",
+    ),
+
+    QuizQuestion(
+      question: "14. If you walk 3 km North and 4 km East, what is your displacement magnitude?",
+      options: ["7 km", "12 km", "5 km", "1 km"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "√(3² + 4²) = 5.",
+    ),
+
+    QuizQuestion(
+      question: "15. What is the back bearing of 045°?",
+      options: ["225°", "135°", "315°", "045°"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "45 + 180 = 225°.",
+    ),
+
+    QuizQuestion(
+      question: "16. Which is a vector: \"50 km/h\" or \"50 km/h North\"?",
+      options: ["50 km/h", "50 km/h North", "Both", "Neither"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Vector includes direction.",
+    ),
+
+    QuizQuestion(
+      question: r"17. In the column vector \begin{pmatrix} x \\ y \end{pmatrix}, y represents:",
+      options: ["Left/Right", "Length", "Up/Down", "Bearing"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "y is vertical component.",
+    ),
+
+    QuizQuestion(
+      question: "18. The area of a triangle with base 4m and height 5m is:",
+      options: [r"20 m^2", r"9 m^2", r"10 m^2", r"40 m^2"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"\frac{1}{2} × 4 × 5 = 10 m^2.",
+    ),
+
+    QuizQuestion(
+      question: "19. A vector (0, 0) is called:",
+      options: ["Unit vector", "Resultant vector", "Zero vector", "Scalar"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "No magnitude = zero vector.",
+    ),
+
+    QuizQuestion(
+      question: "20. To find the distance around a compound shape, you find the:",
+      options: ["Area", "Volume", "Perimeter", "Magnitude"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Perimeter = total boundary length.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS1 S3 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which Adinkra symbol typically shows vertical reflectional symmetry?",
+      options: ["A random squiggle", "Sankofa (heart version)", "A single dot", "A staircase"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The heart-shaped Sankofa can be folded vertically down the middle to match.",
+    ),
+
+    QuizQuestion(
+      question: "2.The point (-2, 7) is reflected in the x-axis. The new point is:",
+      options: ["(2, 7)", "(-2, -7)", "(2, -7)", "(7, -2)"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "X stays the same; Y flips sign (7 becomes -7).",
+    ),
+
+    QuizQuestion(
+      question: r"3. What does the vector \begin{pmatrix} 0 \\ -4 \end{pmatrix} tell a shape to do?",
+      options: ["Move 4 units right", "Move 4 units up", "Move 4 units left", "Move 4 units down"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Zero horizontal movement; -4 means move down.",
+    ),
+
+    QuizQuestion(
+      question: "4. If Triangle A is congruent to Triangle B, what must be true?",
+      options: ["They are different sizes", "They have different angles", "They are identical twins", "One is a circle"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Congruent means exactly the same size and shape.",
+    ),
+
+    QuizQuestion(
+      question: r"5. Reflect \begin{pmatrix} 6 \\ 0 \end{pmatrix} in the y-axis.",
+      options: ["(0, 6)", "(6, 0)", "(-6, 0)", "(0, 0)"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Y stays 0; X flips from 6 to -6.",
+    ),
+
+    QuizQuestion(
+      question: "6. A photograph of a house and the actual house are examples of:",
+      options: ["Congruent shapes", "Similar shapes", "Reflected shapes", "Symmetrical shapes"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Same shape, different size → similar.",
+    ),
+
+    QuizQuestion(
+      question: r"7. Translation by \begin{pmatrix} 5 \\ 5 \end{pmatrix} moves a point:",
+      options: ["5 units left and 5 units down", "5 units right and 5 units up", "5 units right and 5 units down", "5 units left and 5 units up"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Both positive → right and up.",
+    ),
+
+    QuizQuestion(
+      question: "8. A scalene triangle (all sides different) has how many lines of symmetry?",
+      options: ["3", "1", "2", "0"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "No equal sides → no symmetry.",
+    ),
+
+    QuizQuestion(
+      question: r"9. In a translation, if the image is at (1, 1) and the vector was \begin{pmatrix} 1 \\ 1 \end{pmatrix}, where was the start?",
+      options: ["(2, 2)", "(0, 0)", "(-1, -1)", "(1, 1)"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Subtract vector: (1,1) − (1,1) = (0,0).",
+    ),
+
+    QuizQuestion(
+      question: "10. The line of symmetry for a human face is usually:",
+      options: ["Horizontal", "Diagonal", "Vertical", "Circular"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Vertical line splits into two equal halves.",
+    ),
+
+    QuizQuestion(
+      question: "11. Reflecting a point (x, y) in the line y = x results in:",
+      options: ["(-x, -y)", "(y, x)", "(-y, -x)", "(x, -y)"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Coordinates swap places.",
+    ),
+
+    QuizQuestion(
+      question: "12. Which of these is NOT a transformation?",
+      options: ["Reflection", "Translation", "Congruence", "Rotation"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Congruence is a property, not a movement.",
+    ),
+
+    QuizQuestion(
+      question: "13. If a shape is similar to another, their corresponding angles are:",
+      options: ["Different", "Doubled", "Equal", "Zero"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Similar shapes have equal angles.",
+    ),
+
+    QuizQuestion(
+      question: r"14. Translate (-5, -5) by vector \begin{pmatrix} 5 \\ 5 \end{pmatrix}.",
+      options: ["(10, 10)", "(-10, -10)", "(0, 0)", "(5, 5)"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "-5 + 5 = 0 for both coordinates.",
+    ),
+
+    QuizQuestion(
+      question: "15. A rectangle has how many lines of symmetry?",
+      options: ["4", "2", "1", "0"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "One horizontal and one vertical.",
+    ),
+
+    QuizQuestion(
+      question: r"16. In the vector \begin{pmatrix} -3 \\ 8 \end{pmatrix}, which way do you move first?",
+      options: ["3 units left", "3 units right", "8 units up", "8 units down"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Top value is -3 → move left first.",
+    ),
+
+    QuizQuestion(
+      question: "17. If you reflect (2, 3) in the x-axis and then the y-axis, you land at:",
+      options: ["(2, 3)", "(-2, 3)", "(2, -3)", "(-2, -3)"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Flip y → (2,-3), then x → (-2,-3).",
+    ),
+
+    QuizQuestion(
+      question: "18. Two congruent triangles must have the same:",
+      options: ["Colour", "Position", "Area", "Name"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Same size → same area.",
+    ),
+
+    QuizQuestion(
+      question: "19. What is the x-coordinate of the origin?",
+      options: ["1", "10", "0", "-1"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Origin is (0, 0).",
+    ),
+
+    QuizQuestion(
+      question: "20. Which vector represents moving 2 units left and 6 units up?",
+      options: [r"\begin{pmatrix} 2 \\ 6 \end{pmatrix}", r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}", r"\begin{pmatrix} 2 \\ -6 \end{pmatrix}", r"\begin{pmatrix} -2 \\ -6 \end{pmatrix}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Left = negative x (-2), up = positive y (6).",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS1 S4 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of 'Data'?",
+      options: ["A list of students", "Facts and observations", "Drawing a bar graph", "The name of a school"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Data is any collection of facts, numbers, or observations used to draw conclusions.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which is an example of Qualitative Data?",
+      options: ["Heights of learners", "Number of desks", "Favourite radio station", "Cost of bus fare"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: " Radio stations are descriptions/qualities, whereas the others are numerical.",
+    ),
+
+    QuizQuestion(
+      question: "3. To find out why a shop is losing money, which is best?",
+      options: ["Observation", "Deep interview", "Data from 2020", "A short tally"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Interviews allow for detailed answers and follow-up questions to understand reasons.",
+    ),
+
+    QuizQuestion(
+      question: "4. A \"leading question\" in a survey is bad because:",
+      options: ["It is too short", "It is too long", "It biases the results", "It uses no ink"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Leading questions suggest a specific answer, which prevents the researcher from getting honest data.",
+    ),
+
+    QuizQuestion(
+      question: "5. How is the number 7 shown in tally marks?",
+      options: ["7 vertical lines", "A bundle and 2 lines", "A bundle and 5 lines", "Two bundles of five"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "One bundle represents 5, plus 2 extra vertical lines equals 7.",
+    ),
+
+    QuizQuestion(
+      question: "6. The horizontal axis (bottom line) is called:",
+      options: ["The y-axis", "The frequency", "The x-axis", "The title"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "In a standard bar graph, the x-axis runs horizontally along the bottom.",
+    ),
+
+    QuizQuestion(
+      question: "7. What must be equal between bars in a bar graph?",
+      options: ["The bar heights", "The space between bars", "The number of tallies", "The color of the bars"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Professional graphs require equal width for bars and equal spacing for clarity.",
+    ),
+
+    QuizQuestion(
+      question: "8. Calculate the Mean of: 6, 8, 10.",
+      options: ["8", "24", "6", "10"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Sum = 24. Count = 3. 24 ÷ 3 = 8.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the Mean score of 10, 20, 30, 40?",
+      options: ["20", "40", "25", "10"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Sum = 100. Count = 4. 100 ÷ 4 = 25.",
+    ),
+
+    QuizQuestion(
+      question: "10. Find the Median of: 5, 2, 9, 1, 7.",
+      options: ["9", "1", "5", "2"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ordered: 1, 2, 5, 7, 9. The middle value is 5.",
+    ),
+
+    QuizQuestion(
+      question: "11. If you have 6 numbers, the Median is:",
+      options: ["The 6th number", "The average of the 3rd and 4th", "The 1st number", "The total sum divided by 6"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "In an even set, you must average the two numbers in the middle positions.",
+    ),
+
+    QuizQuestion(
+      question: "12. Quantitative data is always about:",
+      options: ["Names and places", "Descriptions and smells", "Numbers and counts", "Tally marks only"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Quantitative comes from \"quantity,\" referring to things that can be measured numerically.",
+    ),
+
+    QuizQuestion(
+      question: "13. Which method uses the internet to find data?",
+      options: ["Observation", "Electronic media", "Lab experiment", "Face-to-face interview"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Electronic media includes searching databases and the internet for existing information.",
+    ),
+
+    QuizQuestion(
+      question: "14. A Frequency Table has columns for:",
+      options: ["Name and Address", "Category, Tally, Frequency", "Mean and Median", "Start and End time"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "These three columns are standard for organizing raw data into groups.",
+    ),
+
+    QuizQuestion(
+      question: "15. What is the Median of: 10, 20, 30, 40?",
+      options: ["20", "30", "25", "100"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Two middles are 20 and 30. (20+30) ÷ 2 = 25.",
+    ),
+
+    QuizQuestion(
+      question: "16. To find the total sum from Mean 10 and Count 5:",
+      options: ["Add 10 and 5", "Divide 10 by 5", "Multiply 10 by 5", "Subtract 5 from 10"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Since Mean = Sum ÷ Count, then Sum = Mean x Count.",
+    ),
+
+    QuizQuestion(
+      question: "17. Which is the vertical axis?",
+      options: ["The x-axis", "The Title", "The y-axis", "The Legend"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The y-axis stands vertically and usually shows the frequency.",
+    ),
+
+    QuizQuestion(
+      question: "18. If data set is 5,5,5,5,5, Mean is:",
+      options: ["25", "1", "5", "0"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "25 ÷ 5 = 5. When all values are identical, the mean is that value.",
+    ),
+
+    QuizQuestion(
+      question: "19. Why should you label the x and y axes?",
+      options: ["To make graph busy", "To show what numbers mean", "To practice spelling", "Because teacher said so"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Labels provide context so the reader knows what is being measured and what categories exist.",
+    ),
+
+    QuizQuestion(
+      question: "20. What happens to the Mean if a very high number is added?",
+      options: ["It stays same", "It decreases", "It increases", "It disappears"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Adding a value higher than the current average will always pull the total mean upward.",
+    ),
+  ],
+);
+final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS1 S4 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the probability of rolling a 7 on a six-sided die?",
+      options: ["1.0", "0.5", "0.7", "0.0"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A standard die only has numbers 1–6.",
+    ),
+
+    QuizQuestion(
+      question: r"2. If the probability of rain is \frac{1}{4}, what is this as a percentage?",
+      options: ["25%", "50%", "75%", "10%"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "1 ÷ 4 = 0.25 = 25%.",
+    ),
+
+    QuizQuestion(
+      question: "3. The day after Friday will be Saturday. This event is:",
+      options: ["Possible", "Certain", "Unlikely", "Impossible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This is a fixed fact of the calendar.",
+    ),
+
+    QuizQuestion(
+      question: "4. Rolling a 'Prime Number' (2, 3, 5) on a die. What is the fraction?",
+      options: [r"\frac{1}{3}", r"\frac{2}{3}", r"\frac{1}{2}", r"\frac{1}{6}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"3 outcomes out of 6 simplifies to \frac{1}{2}.",
+    ),
+
+    QuizQuestion(
+      question: "5. A bag has 8 blue pens and 2 red pens. Probability of picking a red pen?",
+      options: ["20%", "80%", "10%", "2%"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"2 out of 10 total is \frac{2}{10} = 20%.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the maximum total you can get when rolling two dice?",
+      options: ["10", "11", "12", "13"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The highest roll is 6 + 6 = 12.",
+    ),
+
+    QuizQuestion(
+      question: "7. An event that has a 0.5 probability is:",
+      options: ["Impossible", "Certain", "Unlikely", "Possible"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Any number between 0 and 1 is possible.",
+    ),
+
+    QuizQuestion(
+      question: "8. Probability of rolling a number less than 3 (1 or 2) on a die:",
+      options: [r"\frac{1}{3}", r"\frac{1}{2}", r"\frac{1}{6}", r"\frac{2}{3}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"2 outcomes out of 6 simplifies to \farc{1}{3}.",
+    ),
+
+    QuizQuestion(
+      question: "9. If P(E) = 1, the event is:",
+      options: ["Possible", "Impossible", "Likely", "Certain"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "In probability, 1 represents 100% certainty.",
+    ),
+
+    QuizQuestion(
+      question: "10. A coin is tossed. What is the probability it lands on 'Tails'?",
+      options: [r"\frac{1}{4}", r"\frac{1}{2}", r"\frac{3}{4}", "1"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: r"There are 2 sides; tails is 1 of them.",
+    ),
+
+    QuizQuestion(
+      question: "11. A bag contains 10 green balls. Picking a red ball is:",
+      options: ["Impossible", "Possible", "Certain", "Unlikely"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "You cannot pick what is not there.",
+    ),
+
+    QuizQuestion(
+      question: "12. Express the probability 0.75 as a simplified fraction.",
+      options: [r"\frac{1}{4}", r"\farc{1}{2}", r"\farc{3}{4}", r"\frac{4}{3}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"0.75 = \frac{75}{100} = \farc{3}{4}.",
+    ),
+
+    QuizQuestion(
+      question: "13. In a ludo game, rolling a number greater than 0 is:",
+      options: ["Impossible", "Possible", "Likely", "Certain"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "All faces (1-6) are greater than 0.",
+    ),
+
+    QuizQuestion(
+      question: "14. Rolling an odd number (1, 3, 5) on a die. What is the percentage?",
+      options: ["50%", "25%", "30%", "60%"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"3 out of 6 is half (50%).",
+    ),
+
+    QuizQuestion(
+      question: "15. The ratio of a 'Certain' event is:",
+      options: ["0:1", "1:1", "1:2", "1:0"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "1 success for 1 trial.",
+    ),
+
+    QuizQuestion(
+      question: "16. If there are 5 apples and 5 oranges, picking an orange is:",
+      options: ["Impossible", "Certain", "Possible", "None"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It could happen, but isn't guaranteed.",
+    ),
+
+    QuizQuestion(
+      question: "17. Probability of rolling a 1 or 6 on a single die:",
+      options: [r"\frac{1}{6}", r"\frac{1}{2}", r"\frac{1}{3}", r"\frac{2}{3}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"2 out of 6 = \frac{1}{3}.",
+    ),
+
+    QuizQuestion(
+      question: "18. Which decimal represents an 'Impossible' event?",
+      options: ["0.0", "1.0", "0.1", "0.5"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "0 means zero chance.",
+    ),
+
+    QuizQuestion(
+      question: "19. If P(E) = 0.2, what is it as a fraction?",
+      options: [r"\frac{1}{2}", r"\farc{1}{4}", r"\frac{2}{5}", r"\farc{1}{5}"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: r"0.2 = \frac{2}{10} = \farc{1}/{5}.",
+    ),
+
+    QuizQuestion(
+      question: "20. Picking a day of the week that ends with the letter 'y':",
+      options: ["Possible", "Certain", "Unlikely", "Impossible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "All 7 days (Monday-Sunday) end in 'y'.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS2 S1 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the value of the 3 in 6,347,218,596?",
+      options: ["30,000,000", "300,000,000", "3,000,000", "3,000,000,000"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The 3 is in the Hundred Millions place.",
+    ),
+
+    QuizQuestion(
+      question: "2. Express 40,000,000 in standard form.",
+      options: [r"4.0 x 10^7", r"4.0 x 10^6", r"4.0 x 10^8", r"40 x 10^6"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The decimal moves 7 places to the left.",
+    ),
+
+    QuizQuestion(
+      question: "3. Round 0.00867 to one significant figure.",
+      options: ["0.008", "0.009", "0.010", "0.0087"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "8 is the first s.f. The neighbour 6 rounds it up.",
+    ),
+
+    QuizQuestion(
+      question: "4. Count forward in 500,000s: 1,000,000; 1,500,000; ...",
+      options: ["1,600,000", "2,000,000", "2,500,000", "3,000,000"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "1.5M + 0.5M = 2M.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which statement is true?",
+      options: ["5,241,036 > 754,123,658", "754,123,658 < 5,241,036", "5,241,036 < 754,123,658", "5,241,036 = 754,123,658"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A 7-digit number is less than a 9-digit number.",
+    ),
+
+    QuizQuestion(
+      question: "6. Express 8,765,049 in standard form to 3 significant figures.",
+      options: [r"8.76 x 10^6", r"8.77 x 10^7", r"8.80 x 10^6", r"8.77 x 10^6"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The decimal jumps 6 places. The 4th digit (5) rounds the 6 to 7.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is 100,000 more than 452,111,036?",
+      options: ["452,211,036", "453,111,036", "452,121,036", "552,111,036"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Add 1 to the hundred-thousands place.",
+    ),
+
+    QuizQuestion(
+      question: "8. How many significant figures are in 0.0402?",
+      options: ["Three", "Two", "Four", "Five"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Zeros at the start don’t count, but zeros between numbers do.",
+    ),
+
+    QuizQuestion(
+      question: "9. Write 'three billion' in standard form.",
+      options: [r"3.0 x 10^9", r"3.0 x 10^6", r"3.0 x 10^{10}", r"3.0 x 10^8"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "3 billion has 9 zeros.",
+    ),
+
+    QuizQuestion(
+      question: "10. Adom earns GH₵ 2,500. Arko earns double. Total monthly?",
+      options: ["GH₵ 5,000", "GH₵ 7,000", "GH₵ 6,000", "GH₵ 7,500"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "2500 + 5000 = 7500.",
+    ),
+
+    QuizQuestion(
+      question: "11. Identify the place value of 7 in 7,432,000.",
+      options: ["Hundred Thousands", "Millions", "Ten Millions", "Billions"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The 7 is in the millions period.",
+    ),
+
+    QuizQuestion(
+      question: "12. Which is 10,000 less than 87,216?",
+      options: ["97,216", "77,216", "86,216", "87,116"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Subtract 1 from the ten-thousands place.",
+    ),
+
+    QuizQuestion(
+      question: "13. Express 0.000641 in standard form.",
+      options: [r"6.41 x 10^{-4}", r"6.41 x 10^{-3}", r"6.41 x 10^4", r"6.41 x 10^3"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The decimal moves 4 places to the right (negative index).",
+    ),
+
+    QuizQuestion(
+      question: "14. Round 312,439 to four significant figures.",
+      options: ["312,400", "312,500", "312,440", "312,000"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "The 5th digit is 3, so the 4 stays the same.",
+    ),
+
+    QuizQuestion(
+      question: r"15. Convert 1.2 × 10^3 to an ordinary number.",
+      options: ["120", "1,200", "12,000", "1.200"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Move the decimal 3 places to the right.",
+    ),
+
+    QuizQuestion(
+      question: r"16. What is 10^0?",
+      options: ["0", "10", "1", "100"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Any non-zero number to the power of zero is 1.",
+    ),
+
+    QuizQuestion(
+      question: "17. Arrange in ascending order: 50,000; 5,000; 500,000.",
+      options: ["5,000; 50,000; 500,000", "500,000; 50,000; 5,000", "50,000; 5,000; 500,000", "5,000; 500,000; 50,000"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Smallest to largest based on digit count.",
+    ),
+
+    QuizQuestion(
+      question: "18. Round 975.8674 to the nearest whole number.",
+      options: ["975", "976", "970", "980"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The first decimal 8 rounds the 5 up to 6.",
+    ),
+
+    QuizQuestion(
+      question: "19. Standard form for 1264.15?",
+      options: ["1.26415 × 10^3", "1.26415 × 10^4", "12.6415 × 10^2", "1.26 × 10^3"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The decimal jumps 3 places left.",
+    ),
+
+    QuizQuestion(
+      question: "20. If a region has 9M people and grows by 100,000, the new total is?",
+      options: ["9,100,000", "10,000,000", "9,010,000", "9,000,100"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "9,000,000 + 100,000 = 9,100,000.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS2 S1 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A sachet of water costs GH₵ 0.50. How much for 100 sachets?",
+      options: ["GH₵ 50.00", "GH₵ 5.00", "GH₵ 500", "GH₵ 0.50"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "0.50 × 100 = 50.",
+    ),
+
+    QuizQuestion(
+      question: r"2. Simplify (x^4 × x^3) ÷ x^2.",
+      options: [r"x^5", r"x^9", r"x^1", r"x^12"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Using laws of indices: (4 + 3) − 2 = 5.",
+    ),
+
+    QuizQuestion(
+      question: r"3. What is the value of 5,000^0?",
+      options: ["0", "5,000", "5", "1"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Any non-zero base to the power of 0 is always 1.",
+    ),
+
+    QuizQuestion(
+      question: r"4. Solve 2^x = \frac{1}{4}.",
+      options: ["x = 2", "x = −2", "x = 0.5", "x = −4"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\frac{1}{4} = 2^-2, so x = −2.",
+    ),
+
+    QuizQuestion(
+      question: "5. Calculate 18 × 5 using halving and doubling.",
+      options: ["80", "95", "100", "90"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Half of 18 is 9, double 5 is 10. 9 x 10 = 90.",
+    ),
+
+    QuizQuestion(
+      question: "6. A budget shows GH₵ 2,940 for painting. If doubled, the cost is:",
+      options: ["GH₵ 5,880", "GH₵ 4,880", "GH₵ 5,940", "GH₵ 6,000"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "2,940 × 2 = 5,880.",
+    ),
+
+    QuizQuestion(
+      question: "7. In an area model for 50 x 20, the result is:",
+      options: ["100", "1,000", "70", "10,000"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "5 x 2 = 10, then add two zeros → 1,000.",
+    ),
+
+    QuizQuestion(
+      question: "8. Evaluate 3^3 + 3^0.",
+      options: ["27", "28", "30", "9"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "27 + 1 = 28.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which shape represents exponential growth?",
+      options: ["A flat line", "A straight diagonal line", "A J-curve", "A circle"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Exponential growth forms a J-shaped curve.",
+    ),
+
+    QuizQuestion(
+      question: "10. A family tree 3 generations back has 2^3 people. How many is that?",
+      options: ["6", "12", "8", "16"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "2 x 2 x 2 = 8.",
+    ),
+
+    QuizQuestion(
+      question: "11. Divide 45.6 ÷ 10.",
+      options: ["456", "4.56", "0.456", "4.65"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Move decimal one place left.",
+    ),
+
+    QuizQuestion(
+      question: "12. Simplify (3y^2)^2.",
+      options: ["6y^4", "9y^2", "9y^4", "3y^4"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "3^2 = 9 and 2x2 = 4 → 9y^4.",
+    ),
+
+    QuizQuestion(
+      question: "13. What is 0.25 expressed as a fraction?",
+      options: [r"\frac{1}{2}", r"\frac{1}{10}", r"\frac{1}{4}", r"\frac{3}{4}"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"0.25 = \frac{1}{4}.",
+    ),
+
+    QuizQuestion(
+      question: "14. Solve 5^x = 125.",
+      options: ["x = 2", "x = 5", "x = 3", "x = 25"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "5 x 5 x 5 = 125 → x = 3.",
+    ),
+
+    QuizQuestion(
+      question: "15. Subtract 193.6 − 37.85 using partitioning.",
+      options: ["155.75", "156.75", "155.85", "155.25"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Partitioning gives 155.75.",
+    ),
+
+    QuizQuestion(
+      question: "16. Find the product of 12 x 25 mentally.",
+      options: ["250", "300", "350", "400"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Half of 12 = 6, double 25 = 50 → 6 x 50 = 300.",
+    ),
+
+    QuizQuestion(
+      question: "17. Which law is a^m ÷ a^n = a^(m−n)?",
+      options: ["Law of Multiplication", "Law of Division", "Power of a Power", "Zero Law"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Indices subtract when dividing.",
+    ),
+
+    QuizQuestion(
+      question: r"18. Evaluate 10^6 ÷ 10^4.",
+      options: ["10", "20", "1,000", "100"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: r"10^(6−4) = 10^2 = 100.",
+    ),
+
+    QuizQuestion(
+      question: r"19. If a rumor triples every hour (3^n), how many know after 2 hours?",
+      options: ["6", "9", "27", "12"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: r"3^2 = 9.",
+    ),
+
+    QuizQuestion(
+      question: "20. Add 896,854 + 76,329 using partitioning.",
+      options: ["973,183", "972,183", "973,283", "973,184"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Adding place values gives 973,183.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS2 S1 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In BODMAS, what is the very first thing you solve?",
+      options: ["Subtraction", "Multiplication", "Division", "Brackets"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Brackets always have the highest priority.",
+    ),
+
+    QuizQuestion(
+      question: r"2. Convert \frac{25}{4} to a mixed number.",
+      options: [r"6\frac{1}{4}", r"5\frac{3}{4}", r"4\frac{1}{4}", r"6\frac{3}{4}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "25 divided by 4 is 6 with a remainder of 1.",
+    ),
+
+    QuizQuestion(
+      question: r"3. Solve \frac{2}{5} ÷ \frac{2}{5}.",
+      options: [r"\frac{4}{25}", r"\frac{1}{1}", "0", "1"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Any number divided by itself equals 1.",
+    ),
+
+    QuizQuestion(
+      question: r"4. A rectangle is 1\frac{1}{2} m long and 2 m wide. What is the perimeter?",
+      options: ["3 m", "7 m", "5 m", "4 m"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "2 x (1.5 + 2) = 2 x 3.5 = 7.",
+    ),
+
+    QuizQuestion(
+      question: r"5. Which percentage is equivalent to the fraction \frac{3}{10}?",
+      options: ["30%", "3%", "10%", "33%"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"\frac{3}{10} x 100 = 30%.",
+    ),
+
+    QuizQuestion(
+      question: r"6. Solve \frac{3}{4} − \frac{1}{4} x 2.",
+      options: ["1", r"\frac{2}{4}", r"\frac{1}{4}", "0"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"Multiply first: \frac{1}{4} x 2 = \frac{2}{4}. Then \frac{3}{4} − \frac{2}{4} = \frac{1}{4}.",
+    ),
+
+    QuizQuestion(
+      question: r"7. In a school of 200 students, \frac{1}{4} are in JHS 1. How many students is that?",
+      options: ["40", "100", "25", "50"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: r"\frac{1}{4} × 200 = 50.",
+    ),
+
+    QuizQuestion(
+      question: r"8. Simplify \frac{15}{45} to its simplest form.",
+      options: [r"\frac{1}{3}", r"\frac{3}{9}", r"\frac{1}{5}", r"\frac{5}{15}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Divide both by 15.",
+    ),
+
+    QuizQuestion(
+      question: r"9. Solve \frac{1}{3} x \frac{1}{2} + \frac{1}{6}.",
+      options: [r"\frac{2}{12}", r"\frac{1}{3}", r"\frac{2}{6}", r"\frac{1}{12}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"Multiply first (\frac{1}{6}), then add \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3}.",
+    ),
+
+    QuizQuestion(
+      question: r"10. What fraction is left if you spend \frac{5}{12} of your money?",
+      options: [r"\frac{1}{12}", r"\frac{6}{12}", r"\frac{5}{7}", r"\frac{7}{12}"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: r"1 − \frac{5}{12} = \frac{7}{12}.",
+    ),
+
+    QuizQuestion(
+      question: r"11. What is the numerator of the fraction \frac{8}{15}?",
+      options: ["15", "8", "7", "23"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The numerator is the top number.",
+    ),
+
+    QuizQuestion(
+      question: r"12. Solve \frac{1}{2} ÷ 2.",
+      options: ["1", "4", r"\frac{1}{4}", r"\frac{2}{2}"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"\frac{1}{2} x \frac{1}{2} = \frac{1}{4}.",
+    ),
+
+    QuizQuestion(
+      question: r"13. Convert 2\frac{3}{5} to an improper fraction.",
+      options: [r"\frac{13}{5}", r"\frac{11}{5}", r"\frac{6}{5}", r"\frac{10}{5}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "(2 x 5) + 3 = 13.",
+    ),
+
+    QuizQuestion(
+      question: "14. What is 50% of 80 Cedis?",
+      options: ["30 Cedis", "40 Cedis", "20 Cedis", "50 Cedis"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "50% is half, and half of 80 is 40.",
+    ),
+
+    QuizQuestion(
+      question: r"15. Solve (\frac{1}{2} + \frac{1}{2}) × 10.",
+      options: ["5", "20", "1", "10"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Brackets equal 1; 1 x 10 = 10.",
+    ),
+
+    QuizQuestion(
+      question: r"16. Simplify \frac{10}{100}.",
+      options: [r"\frac{1}{10}", r"\frac{1}{100}", r"\frac{1}{2}", r"\frac{10}{1}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Divide both by 10.",
+    ),
+
+    QuizQuestion(
+      question: r"17. Which is larger: \frac{1}{2} or \frac{1}{3}?",
+      options: [r"\frac{1}{3}", "They are equal", r"\frac{1}{2}", "Neither"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A half is a bigger portion than a third.",
+    ),
+
+    QuizQuestion(
+      question: r"18. Find the area of a square with a side of \frac{1}{3} m.",
+      options: [r"\frac{1}{6} m^2", r"\frac{1}{3} m^2", r"\frac{2}{3} m^2", r"\frac{1}{9} m^2"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: r"\frac{1}{3} x \frac{1}{3} = \frac{1}{9}.",
+    ),
+
+    QuizQuestion(
+      question: r"19. What is \frac{1}{5} as a percentage?",
+      options: ["10%", "25%", "20%", "5%"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"\frac{1}{5} x 100 = 20%.",
+    ),
+
+    QuizQuestion(
+      question: r"20. Solve \frac{4}{5} − \frac{2}{5}.",
+      options: [r"\frac{6}{5}", r"\frac{2}{5}", r"\frac{2}{10}", r"\frac{1}{5}"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Subtract numerators; keep denominator.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
+  audioPath: 'assets/audio/math/4. JHS2 S1 SS4/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How many metres are in 4.5 kilometres?",
+      options: ["45 m", "450 m", "4,500 m", "45,000 m"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "1 km = 1,000 m. So, 4.5 × 1,000 = 4,500.",
+    ),
+
+    QuizQuestion(
+      question: "2. A point on a proportional graph is (3, 15). What is k?",
+      options: ["3", "5", "15", "45"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "k = y ÷ x, which is 15 ÷ 3 = 5.",
+    ),
+
+    QuizQuestion(
+      question: "3. What happens to the line on a travel graph when a person returns home?",
+      options: ["It goes higher", "It stays flat", "It stops", "It slants down"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Distance from the starting point decreases back to zero.",
+    ),
+
+    QuizQuestion(
+      question: "4. A shop sells 3 bags of sachet water for 12 Cedis. What is the unit rate?",
+      options: ["3 Cedis", "4 Cedis", "6 Cedis", "15 Cedis"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "12 Cedis ÷ 3 bags = 4 Cedis per bag.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which equation represents a proportional relationship?",
+      options: ["y = 10x", "y = 10 + x", "y = 10 − x", r"y = \frac{x}{10} + 5"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It follows the form y = kx with no added constant.",
+    ),
+
+    QuizQuestion(
+      question: "6. An athlete runs 200 metres in 25 seconds. What is the speed?",
+      options: ["4 m/s", "8 m/s", "10 m/s", "12 m/s"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Speed = Distance ÷ Time. 200 ÷ 25 = 8.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many centimetres are in 0.75 metres?",
+      options: ["7.5 cm", "75 cm", "750 cm", "7,500 cm"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "1 m = 100 cm. 0.75 x 100 = 75.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the value of k if an ant travels 1 inch in 20 seconds?",
+      options: ["0.05", "0.5", "20", "40"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "1 ÷ 20 = 0.05 inches per second.",
+    ),
+
+    QuizQuestion(
+      question: "9. If y = 6x, what is y when x = 5?",
+      options: ["11", "25", "30", "60"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Substitute x with 5: 6 x 5 = 30.",
+    ),
+
+    QuizQuestion(
+      question: "10. A travel graph x-axis is labeled from 12:00 to 15:00. How much time has passed?",
+      options: ["1 hour", "2 hours", "3 hours", "4 hours"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The difference between 15:00 and 12:00 is 3 hours.",
+    ),
+
+    QuizQuestion(
+      question: "11. Convert 80 mm to centimetres.",
+      options: ["0.8 cm", "8 cm", "800 cm", "8,000 cm"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "10 mm = 1 cm. 80 ÷ 10 = 8.",
+    ),
+
+    QuizQuestion(
+      question: "12. A car uses 10 litres of fuel to travel 120 km. What is the fuel rate?",
+      options: ["10 km/L", "12 km/L", "110 km/L", "1,200 km/L"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "120 km ÷ 10 L = 12 km per Litre.",
+    ),
+
+    QuizQuestion(
+      question: "13. On a graph, a flat horizontal line for 30 minutes means:",
+      options: ["Constant speed", "Faster speed", "Stopped", "Slowing down"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Distance is not changing as time passes.",
+    ),
+
+    QuizQuestion(
+      question: "14. If x is number of mangoes and y is total cost, find k for (4, 20).",
+      options: ["4", "5", "16", "24"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "20 ÷ 4 = 5 Cedis per mango.",
+    ),
+
+    QuizQuestion(
+      question: "15. Why is a graph starting at (0, 10) non-proportional?",
+      options: ["Not straight", "Too high", "No origin", "Too short"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Proportional graphs must pass through (0, 0).",
+    ),
+
+    QuizQuestion(
+      question: "16. A baker makes 60 buns in 3 hours. How many per hour?",
+      options: ["15", "20", "25", "30"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "60 ÷ 3 = 20.",
+    ),
+
+    QuizQuestion(
+      question: "17. Change 2.5 km to metres.",
+      options: ["25 m", "250 m", "2,500 m", "25,000 m"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Multiply by 1,000.",
+    ),
+
+    QuizQuestion(
+      question: "18. If k = 0.2, what is the equation?",
+      options: ["y = 0.2x", "y = x + 0.2", "y = x ÷ 0.2", "y = 2x"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Standard form is y = kx.",
+    ),
+
+    QuizQuestion(
+      question: "19. In a table (2, 8), (4, 16), (6, 24), the relationship is:",
+      options: ["Non-prop", "Proportional", "Curved", "Stationary"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"The ratio \frac{y}{x} is always 4.",
+    ),
+
+    QuizQuestion(
+      question: "20. A distance of 1,500 m is how many km?",
+      options: ["0.15 km", "1.5 km", "15 km", "150 km"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "1,500 ÷ 1,000 = 1.5.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS2 S2 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
+      options: ["2", "4", "1", "7"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"(9 − 5)/(4 − 2) = \frac{4}{2} = 2.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the equation y = 15x + 30, what does 30 represent?",
+      options: ["The gradient", "The x-axis", "The y-intercept", "The slope"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The constant term is the y-intercept.",
+    ),
+
+    QuizQuestion(
+      question: "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
+      options: ["14 Cedis", "28 Cedis", "35 Cedis", "70 Cedis"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"\frac{140}{10} = 14 per litre. 14 x 2.5 = 35.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which equation matches a line with gradient 3 and intercept -2?",
+      options: ["y = -2x + 3", "y = 3x - 2", "y = 3x + 2", "y = 2x - 3"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Use y = mx + c with m = 3 and c = -2.",
+    ),
+
+    QuizQuestion(
+      question: "5. A car travels at 60km/h. How many hours to travel 150km?",
+      options: ["2.0 hours", "3.0 hours", "1.5 hours", "2.5 hours"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "150 ÷ 60 = 2.5.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the gradient of a vertical line?",
+      options: ["0", "1", "100", "Undefined"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "No change in x makes the slope undefined.",
+    ),
+
+    QuizQuestion(
+      question: "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
+      options: ["60 Cedis", "100 Cedis", "80 Cedis", "120 Cedis"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "40 + (20 x 3) = 100.",
+    ),
+
+    QuizQuestion(
+      question: "8. If x = 0 in a linear relation, what is the value of y?",
+      options: ["The gradient", "The origin", "The intercept", "The x-axis"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "When x = 0, y = c (the intercept).",
+    ),
+
+    QuizQuestion(
+      question: "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
+      options: ["15 Cedis", "35 Cedis", "105 Cedis", "150 Cedis"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "3 weeks = 21 days. 21 x 5 = 105.",
+    ),
+
+    QuizQuestion(
+      question: "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
+      options: ["6", "5", "8", "4"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"Gradient = \farc{10}{5} = 2. So y = 2 x 3 = 6.",
+    ),
+
+    QuizQuestion(
+      question: "11. Identify the gradient from the equation y = -5x + 12.",
+      options: ["12", "5", "-5", "-12"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Coefficient of x is the gradient.",
+    ),
+
+    QuizQuestion(
+      question: "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
+      options: ["y = 15x + 10", "y = 10x + 15", "y = 25x + 0", "y = 10x - 15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "10 is rate (m), 15 is base (c).",
+    ),
+
+    QuizQuestion(
+      question: "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
+      options: ["3", "5", "-4", "0"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "y-intercept is y when x = 0.",
+    ),
+
+    QuizQuestion(
+      question: "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
+      options: ["120 Cedis", "100 Cedis", "140 Cedis", "160 Cedis"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{80}{4} = 20 per kg. 20 x 6 = 120.",
+    ),
+
+    QuizQuestion(
+      question: "15. What is the gradient of a horizontal line?",
+      options: ["0", "1", "10", "Undefined"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "No vertical change means slope = 0.",
+    ),
+
+    QuizQuestion(
+      question: "16. In y = mx + c, what happens to the line if m increases?",
+      options: ["It gets flatter", "It gets steeper", "It moves down", "It moves right"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Higher gradient = steeper line.",
+    ),
+
+    QuizQuestion(
+      question: "17. Calculate the gradient between (1, 2) and (3, 8).",
+      options: ["2", "4", "3", "6"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"\frac{8 − 2}{3 − 1} = \frac{6}{2} = 3.",
+    ),
+
+    QuizQuestion(
+      question: "18. A water tank has 100L and loses 5L per hour. What is the equation?",
+      options: ["y = 5x + 100", "y = 100x - 5", "y = -5x + 100", "y = 5x - 100"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "-5 is rate (loss), 100 is starting value.",
+    ),
+
+    QuizQuestion(
+      question: "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
+      options: ["1", "2", "5", "4"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "y = 5x. So 10 = 5x, which means x=2.",
+    ),
+
+    QuizQuestion(
+      question: "20. Which point is the y-intercept for y = 2x − 6?",
+      options: ["(0, 2)", "(0, 6)", "(0, −6)", "(2, 0)"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "y-intercept is (0, c). Here c = −6.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS2 S2 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
+      options: ["2", "4", "1", "7"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"(9 − 5)/(4 − 2) = \frac{4}{2} = 2.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the equation y = 15x + 30, what does 30 represent?",
+      options: ["The gradient", "The x-axis", "The y-intercept", "The slope"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The constant term is the y-intercept.",
+    ),
+
+    QuizQuestion(
+      question: "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
+      options: ["14 Cedis", "28 Cedis", "35 Cedis", "70 Cedis"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"\frac{140}{10} = 14 per litre. 14 x 2.5 = 35.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which equation matches a line with gradient 3 and intercept -2?",
+      options: ["y = -2x + 3", "y = 3x - 2", "y = 3x + 2", "y = 2x - 3"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Use y = mx + c with m = 3 and c = -2.",
+    ),
+
+    QuizQuestion(
+      question: "5. A car travels at 60km/h. How many hours to travel 150km?",
+      options: ["2.0 hours", "3.0 hours", "1.5 hours", "2.5 hours"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "150 ÷ 60 = 2.5.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the gradient of a vertical line?",
+      options: ["0", "1", "100", "Undefined"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "No change in x makes the slope undefined.",
+    ),
+
+    QuizQuestion(
+      question: "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
+      options: ["60 Cedis", "100 Cedis", "80 Cedis", "120 Cedis"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "40 + (20 x 3) = 100.",
+    ),
+
+    QuizQuestion(
+      question: "8. If x = 0 in a linear relation, what is the value of y?",
+      options: ["The gradient", "The origin", "The intercept", "The x-axis"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "When x = 0, y = c (the intercept).",
+    ),
+
+    QuizQuestion(
+      question: "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
+      options: ["15 Cedis", "35 Cedis", "105 Cedis", "150 Cedis"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "3 weeks = 21 days. 21 x 5 = 105.",
+    ),
+
+    QuizQuestion(
+      question: "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
+      options: ["6", "5", "8", "4"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"Gradient = \farc{10}{5} = 2. So y = 2 x 3 = 6.",
+    ),
+
+    QuizQuestion(
+      question: "11. Identify the gradient from the equation y = -5x + 12.",
+      options: ["12", "5", "-5", "-12"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Coefficient of x is the gradient.",
+    ),
+
+    QuizQuestion(
+      question: "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
+      options: ["y = 15x + 10", "y = 10x + 15", "y = 25x + 0", "y = 10x - 15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "10 is rate (m), 15 is base (c).",
+    ),
+
+    QuizQuestion(
+      question: "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
+      options: ["3", "5", "-4", "0"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "y-intercept is y when x = 0.",
+    ),
+
+    QuizQuestion(
+      question: "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
+      options: ["120 Cedis", "100 Cedis", "140 Cedis", "160 Cedis"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{80}{4} = 20 per kg. 20 x 6 = 120.",
+    ),
+
+    QuizQuestion(
+      question: "15. What is the gradient of a horizontal line?",
+      options: ["0", "1", "10", "Undefined"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "No vertical change means slope = 0.",
+    ),
+
+    QuizQuestion(
+      question: "16. In y = mx + c, what happens to the line if m increases?",
+      options: ["It gets flatter", "It gets steeper", "It moves down", "It moves right"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Higher gradient = steeper line.",
+    ),
+
+    QuizQuestion(
+      question: "17. Calculate the gradient between (1, 2) and (3, 8).",
+      options: ["2", "4", "3", "6"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"\frac{8 − 2}{3 − 1} = \frac{6}{2} = 3.",
+    ),
+
+    QuizQuestion(
+      question: "18. A water tank has 100L and loses 5L per hour. What is the equation?",
+      options: ["y = 5x + 100", "y = 100x - 5", "y = -5x + 100", "y = 5x - 100"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "-5 is rate (loss), 100 is starting value.",
+    ),
+
+    QuizQuestion(
+      question: "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
+      options: ["1", "2", "5", "4"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "y = 5x. So 10 = 5x, which means x=2.",
+    ),
+
+    QuizQuestion(
+      question: "20. Which point is the y-intercept for y = 2x − 6?",
+      options: ["(0, 2)", "(0, 6)", "(0, −6)", "(2, 0)"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "y-intercept is (0, c). Here c = −6.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS2 S2 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"A number x increased by 4 is at most 12.\" Translate this.",
+      options: ["x + 4 ≤ 12", "x + 4 < 12", "4x ≤ 12", "x − 4 ≤ 12"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Increased by' is addition; 'at most' is ≤.",
+    ),
+
+    QuizQuestion(
+      question: "2. Solve for y: y − 7 > 3",
+      options: ["y > −4", "y < 10", "y = 10", "y > 10"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Add 7 to both sides. 3 + 7 = 10.",
+    ),
+
+    QuizQuestion(
+      question: "3. Solve for x: 3x ≤ 15",
+      options: ["x ≤ 5", "x ≥ 5", "x < 5", "x ≤ 45"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Divide by 3. 15 ÷ 3 = 5.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Eight less than twice a number n is greater than 10.\" Translate this.",
+      options: ["8 − 2n > 10", "2n − 8 > 10", "2n − 8 < 10", "2(n − 8) > 10"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'8 less than' means subtract 8 from 2n.",
+    ),
+
+    QuizQuestion(
+      question: "5. Solve: −3x ≥ 9",
+      options: ["x ≥ −3", "x ≤ 3", "x ≤ −3", "x > −3"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Dividing by negative 3 flips the sign.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the solution set for x < 3 in the domain of Whole Numbers?",
+      options: ["{1, 2}", "{0, 1, 2, 3}", "{0, 1, 2}", "{…, −1, 0, 1, 2}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Whole numbers start at 0 and 'less than 3' excludes 3.",
+    ),
+
+    QuizQuestion(
+      question: "7. Solve: 2x + 1 ≤ 7",
+      options: ["x ≤ 3", "x ≤ 4", "x ≥ 3", "x < 3"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "2x ≤ 6, so x ≤ 3.",
+    ),
+
+    QuizQuestion(
+      question: "8. If the domain is {10, 20, 30, 40}, what is the solution set for x/2 > 10?",
+      options: ["{20, 30, 40}", "{30, 40}", "{10, 20}", "{40}"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "x > 20. From the set, only 30 and 40 are larger.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"At least\" corresponds to which symbol?",
+      options: [">", "<", "≤", "≥"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "At least means the value itself or more.",
+    ),
+
+    QuizQuestion(
+      question: "10. Solve: x + 10 < 5",
+      options: ["x < 15", "x < −5", "x > −5", "x ≤ −5"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Subtract 10 from 5 to get −5.",
+    ),
+
+    QuizQuestion(
+      question: "11. \"The product of −4 and x is more than 20.\" Translate.",
+      options: ["−4x > 20", "−4 + x > 20", "−4x ≥ 20", "x − 4 > 20"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Product means multiply.",
+    ),
+
+    QuizQuestion(
+      question: "12. Solve the inequality from question 11: −4x > 20",
+      options: ["x > −5", "x < −5", "x ≥ −5", "x < 5"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Divide by −4 and flip the sign.",
+    ),
+
+    QuizQuestion(
+      question: "13. What is the domain for the set {0, 1, 2, 3…}?",
+      options: ["Negative Integers", "Whole Numbers", "Positive Integers only", "Even Numbers"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Whole numbers start at 0 and go up.",
+    ),
+
+    QuizQuestion(
+      question: "14. Solve 12 − x ≥ 10.",
+      options: ["x ≤ 2", "x ≥ 2", "x ≤ −2", "x ≥ 22"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "−x ≥ −2 → x ≤ 2.",
+    ),
+
+    QuizQuestion(
+      question: "15. If x > −2 and the domain is Whole Numbers, the set is:",
+      options: ["{−1, 0, 1…}", "{0, 1, 2…}", "{1, 2, 3…}", "{−2, −1, 0…}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Whole numbers cannot be negative.",
+    ),
+
+    QuizQuestion(
+      question: "16. \"Five times a number is at most 25.\" Translate.",
+      options: ["5x < 25", "5x ≤ 25", "x + 5 ≤ 25", "5x ≥ 25"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'At most' is the maximum limit (≤).",
+    ),
+
+    QuizQuestion(
+      question: "17. Solve: x/3 + 1 > 2",
+      options: ["x > 3", "x > 1", "x > 9", "x < 3"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "x/3 > 1, so x > 3.",
+    ),
+
+    QuizQuestion(
+      question: "18. Which number is NOT in the solution set of x ≤ 5?",
+      options: ["0", "4", "5", "6"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "6 is greater than 5.",
+    ),
+
+    QuizQuestion(
+      question: "19. Solve: 4x − 2 ≤ 2x + 8",
+      options: ["x ≤ 5", "x ≤ 3", "x ≥ 5", "x ≤ 10"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "2x ≤ 10, so x ≤ 5.",
+    ),
+
+    QuizQuestion(
+      question: "20. \"Ten deducted from w is greater than 15.\" Translate.",
+      options: ["10 − w > 15", "w − 10 > 15", "w + 10 > 15", "10w > 15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Deducted from means subtract from the variable.",
+    ),
+  ],
+);

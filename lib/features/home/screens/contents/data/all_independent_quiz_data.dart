@@ -1,0 +1,8751 @@
+import '../model/independent_practice_model.dart';
+
+final IndependentPracticeModel defaultIndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "Which of these is the most appropriate way to greet a doctor at the Korle-Bu Teaching Hospital?",
+      options: [
+        "Yo, Doc, what's up?",
+        "Good afternoon, Doctor.",
+        "Hey, I need help here.",
+        "Charlie, how you dey?",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using 'Good afternoon, Doctor' is a formal and respectful way to address a medical professional.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "If you are speaking to your classmates during a group project, which register is usually best?",
+      options: [
+        "Very formal",
+        "Strictly professional",
+        "Informal and friendly",
+        "Silent and non-verbal",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Classmates are peers, so an informal and friendly register is most appropriate for a group project.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "Which of these shows you are NOT paying attention to a speaker?",
+      options: [
+        "Making eye contact",
+        "Nodding your head",
+        "Looking at your feet",
+        "Saying \"I see\"",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Looking away, such as at your feet, indicates a lack of engagement and attention.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "In the sentence \"Please record the song,\" the stress is on the second part of the word. What does 'record' act as here?",
+      options: ["A noun", "A verb", "An adjective", "A greeting"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "When the stress is on the second syllable of 'record' (re-CORD), it is acting as a verb.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "Which of these is a clear landmark to use in directions?",
+      options: [
+        "A parked car",
+        "A moving tro-tro",
+        "The District Assembly building",
+        "A person standing on the corner",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Buildings like the District Assembly are permanent and easily recognizable, making them reliable landmarks.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "If you tell someone to \"Take the second turning on your left,\" what should they do?",
+      options: [
+        "Turn left immediately",
+        "Walk past one street on the left and turn at the next one",
+        "Turn right twice",
+        "Stop and wait for a bus",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Taking the second turning means skipping the first street you encounter and turning at the next one.",
+    ),
+    IndependentPracticeQuestion(
+      question: "What does the word \"adjacent\" mean in a set of directions?",
+      options: [
+        "Across the street",
+        "Behind the building",
+        "Next to or beside",
+        "Very far away",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The word 'adjacent' refers to something that is immediately next to or beside another location.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "Which sentence uses an imperative verb correctly for directions?",
+      options: [
+        "You might want to walk.",
+        "Walking is good.",
+        "Walk past the mosque.",
+        "He walked to the school.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "An imperative verb is used to give commands or instructions. 'Walk past the mosque' directly instructs the listener.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "A stranger needs to find a place 500 metres away. What is the best way to describe this?",
+      options: [
+        "It is just small ahead.",
+        "It is about a five-minute walk.",
+        "It is very, very far.",
+        "You can see it from here.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Giving a time estimate, like 'a five-minute walk', provides a clearer expectation of the distance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which adjective best describes a very busy Kejetia Market?",
+      options: ["Silent", "Bustling", "Empty", "Small"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Bustling' describes a place full of activity and people.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Choose the correct past tense verb: 'Yesterday, Ama ______ her grandmother in the village.'",
+      options: ["Visit", "Visiting", "Visited", "Will visit"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Visited' is the correct past tense form of the verb.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these is a simile?",
+      options: [
+        "The man was very tall.",
+        "He slept for ten hours.",
+        "Her smile was like sunshine.",
+        "It is raining in Accra.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A simile compares two things using 'like' or 'as'.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which sentence uses an adverb to describe an action?",
+      options: [
+        "The red car stopped.",
+        "The car stopped abruptly.",
+        "The car is at the station.",
+        "It is a fast car.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Abruptly' is an adverb describing how the car stopped.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. In a description of a football match, which word is a specific noun?",
+      options: ["Play", "Good", "Referee", "Happily"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Referee' is a specific noun referring to a person.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss1_l4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of these words is NOT usually used to elicit elaboration?",
+      options: ["Why", "How", "Did", "Explain"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "'Did' typically leads to short yes/no answers, not elaboration.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. If a friend says 'I am moving to Accra,' which question elicits the most detail?",
+      options: [
+        "Is it far?",
+        "Are you happy?",
+        "What is the reason for your move?",
+        "When are you going?",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asking for the reason encourages a more detailed explanation.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Ama: 'I think we should plant more trees in the school yard.' Aziz: 'Why do you think so?' What is Aziz doing?",
+      options: [
+        "Being rude",
+        "Eliciting elaboration",
+        "Ending the conversation",
+        "Changing the subject",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Aziz is asking for more explanation, which elicits elaboration.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which response to 'Do you like Kenkey?' is an elaborated response?",
+      options: [
+        "Yes, I do.",
+        "No.",
+        "Yes, because it stays in my stomach longer during long classes.",
+        "Kenkey is food.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "An elaborated response includes a reason, not just yes/no.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "\"Explain how you solved that math problem.\" This is a request for:",
+      options: ["A yes or no answer", "Elaboration", "Silence", "A joke"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Explain' asks for detailed steps or reasoning.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss2_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. A student gives a speech during assembly titled 'Why We Should Plant More Trees.' He says trees provide shade, bring rain, and make the school look beautiful. What is his purpose?",
+      options: ["To inform", "To persuade", "To instruct", "To entertain"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The student is giving reasons to convince others, which is persuasion.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of these is a supporting point for the main idea: 'Ghana is a great place for tourists'?",
+      options: [
+        "Tourism is a global industry.",
+        "Many people travel by aeroplane.",
+        "Cape Coast Castle offers a rich history to visitors.",
+        "Ghana uses the Cedi as currency.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This provides a specific example that supports tourism in Ghana.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. If a speaker is talking very slowly, using a low volume and a sad tone, what is most likely true?",
+      options: [
+        "They are very excited about the news.",
+        "They are trying to persuade you to buy a toy.",
+        "The topic is serious or sad.",
+        "They have forgotten what they wanted to say.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Slow speech, low volume, and sad tone suggest a serious or emotional topic.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the 'Main Idea' of a story?",
+      options: [
+        "The name of the person speaking.",
+        "The list of all the facts mentioned.",
+        "The central message or big picture.",
+        "The length of time the person spoke.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The main idea is the overall message or theme of the story.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/ss2_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. You are listening to a radio talk about moving the capital city from Accra to a more central location. Which is the best keyword to write down?",
+      options: [
+        "The radio host's name",
+        "Central location",
+        "The time of day",
+        "The weather in Accra",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Central location' captures the main idea of the discussion.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. A speaker says, 'We should spend more money on local libraries than on football.' You think football is more important. What is the most respectful way to share this opinion?",
+      options: [
+        "You are wrong about libraries.",
+        "I don't like your speech at all.",
+        "I understand the need for libraries, but I believe football brings our nation together.",
+        "Football is better because I said so.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This response shows respect and gives a reason for disagreement.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. If you are 'sharing an opinion,' what are you doing?",
+      options: [
+        "Repeating exactly what the speaker said word-for-word.",
+        "Telling your own thoughts about the information you heard.",
+        "Standing in silence until the teacher speaks.",
+        "Writing a letter to the President.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sharing an opinion means expressing your own thoughts.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. While listening to a presentation on 'Solar Power in Ghana,' you hear that it is 'expensive to install but saves money later.' What is a key point?",
+      options: [
+        "Solar power is only for rich people.",
+        "Solar power is the only way to get light.",
+        "Solar power has high starting costs but long-term savings.",
+        "The sun is very hot in Ghana.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This summarizes the key idea of cost versus long-term benefit.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/ss1_l1/6. Guided Practice.m4a',
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of these words contains a long vowel sound?",
+          options: ["Tap", "Peel", "Net", "Dog"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "'Peel' has a long vowel sound /i:/.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which word features a diphthong?",
+          options: ["Bread", "Moon", "House", "Sit"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "'House' contains the diphthong /aʊ/.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Choose the word with a short /e/ sound.",
+          options: ["Bead", "Bake", "Bell", "Bean"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "'Bell' contains the short /e/ sound.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. In the word 'part,' the vowel sound is:",
+          options: [
+            "A short vowel",
+            "A closing diphthong",
+            "A long vowel",
+            "A centring diphthong",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "'Part' has a long vowel sound /a:/.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s2_ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. You see a heading in bold, capital letters at the top of a page. This is an example of which feature?",
+      options: [
+        "Visual feature",
+        "Typographical feature",
+        "Sequence structure",
+        "Prior knowledge",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bold and capital letters are typographical features used to highlight text.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. While reading, Ama realizes she doesn't understand why the character is angry. She stops and reads the last paragraph again. What is she doing?",
+      options: [
+        "Predicting the ending",
+        "Comparing and contrasting",
+        "Monitoring and self-correcting",
+        "Creating a graphic organiser",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Re-reading to understand shows monitoring and self-correcting.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which text structure would be best for an author writing about the similarities and differences between life in Accra and life in a rural village?",
+      options: [
+        "Sequence",
+        "Description",
+        "Cause and effect",
+        "Compare and contrast",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Comparing similarities and differences uses the compare and contrast structure.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If a student uses a photograph of a tractor to guess that a book is about farming, they are using:",
+      options: [
+        "A visual feature to predict",
+        "A typographical feature to visualise",
+        "A sequence structure to monitor",
+        "Prior knowledge to contrast",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Using images to guess content is using visual features for prediction.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s2_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What does 'implicit meaning' mean?",
+      options: [
+        "Information that is written in bold letters",
+        "Information that is clearly stated in the first sentence",
+        "Information that is suggested but not plainly expressed",
+        "Information that is found only in the dictionary",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Implicit meaning refers to ideas that are hinted at or suggested, not directly stated.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Why should you write questions while you read a fiction text?",
+      options: [
+        "To make the reading take longer",
+        "To guide your reading and increase understanding",
+        "To practice your handwriting",
+        "Because the teacher told you to",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Writing questions helps you stay engaged and understand the text better.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When you use 'textual evidence,' what are you doing?",
+      options: [
+        "Making up a new ending to the story",
+        "Drawing a picture of the main character",
+        "Using a specific part of the text to support your answer",
+        "Counting the number of characters in the story",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Textual evidence means using details from the text to support your ideas.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of these helps you identify the 'main idea' of a story?",
+      options: [
+        "Using the answers to your guided questions",
+        "Only reading the last word of every page",
+        "Counting how many commas are in the text",
+        "Ignoring the title of the book",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Guided questions help you focus on important ideas in the text.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/jhs2_s2_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which structure explains why an event happened?",
+      options: [
+        "Sequence",
+        "Description",
+        "Cause and Effect",
+        "Problem and Solution",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. If you see the words \"similar to,\" \"on the other hand,\" and \"both,\" which structure is the author using?",
+      options: [
+        "Sequence",
+        "Compare and Contrast",
+        "Description",
+        "Problem and Solution",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the purpose of a \"graphic organiser\" in reading?",
+      options: [
+        "To draw pictures for art class",
+        "To make a visual chart of how information is organized",
+        "To write a letter to a friend",
+        "To count the number of pages in a book",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. A paragraph that gives many details about the size, colour, and smell of a market uses which structure?",
+      options: [
+        "Description",
+        "Sequence",
+        "Cause and Effect",
+        "Problem and Solution",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s2_ss2_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. \"Akua saved five Cedis every week from her pocket money. By December, she had enough to buy a beautiful new kente cloth for her grandmother.\"\n\nWhat is the main idea?",
+      options: [
+        "Akua likes wearing kente cloth.",
+        "Akua saved money over time to buy a gift.",
+        "Kente cloth is very expensive in December.",
+        "Akua's grandmother lives in a small village.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following is a \"supporting detail\" for a story about a successful cocoa harvest?",
+      options: [
+        "The farmers were happy with their hard work.",
+        "Agriculture is important for the country.",
+        "The rain fell at the perfect time this year.",
+        "Hard work always leads to great success.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When writing a summary, why should you use your own words?",
+      options: [
+        "Because the author's words are usually too difficult.",
+        "To prove you understand the meaning of the text.",
+        "Because summaries must be longer than the original text.",
+        "To make the story sound more exciting than it is.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Passage: \"Ghana is famous for its hospitality. Visitors are often welcomed with a glass of water and the phrase 'Akwaaba.' This makes foreigners feel very much at home.\"\n\nWhat is the best summary of this text?",
+      options: [
+        "Foreigners like drinking water when they arrive.",
+        "'Akwaaba' is a word used by people in Ghana.",
+        "Ghanaian hospitality makes visitors feel welcome.",
+        "Most visitors to Ghana stay for a long time.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s3_ss1_l1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. If I ________ my lunch, I will be hungry later.",
+      options: ["eat", "will eat", "do not eat", "eating"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Complete the sentence: \"Kojo ________ a new football if he helps his father.\"",
+      options: ["buy", "will buy", "bought", "buying"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of these sentences is a correctly structured Type 1 conditional?",
+      options: [
+        "If it rained, we stay home.",
+        "If it rains, we will stay home.",
+        "If it rains, we stayed home.",
+        "If it will rain, we stay home.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "\"If you cook the jollof, I will wash the dishes.\" What is the main clause?",
+      options: [
+        "If you cook",
+        "the jollof",
+        "I will wash the dishes",
+        "will wash",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s3_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which sentence is in the Active Voice?",
+      options: [
+        "The letter was posted by Esi.",
+        "Esi posted the letter.",
+        "The letter is being posted.",
+        "Was the letter posted?",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Complete the passive sentence: \"The delicious Jollof ________ by my auntie.\"",
+      options: ["cooked", "was cooked", "is cooking", "cooks"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Change \"The Black Stars scored a goal\" into passive voice.",
+      options: [
+        "A goal is scored by the Black Stars.",
+        "A goal was scored by the Black Stars.",
+        "The Black Stars were scoring a goal.",
+        "A goal scores the Black Stars.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. In a formal report about a science experiment, which voice is usually better to use?",
+      options: [
+        "Active Voice",
+        "Passive Voice",
+        "Loud Voice",
+        "First-person Voice",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s3_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Direct: \"I will go to Cape Coast,\" said Yaw.",
+      options: [
+        "Yaw said that I will go to Cape Coast.",
+        "Yaw said that he would go to Cape Coast.",
+        "Yaw said that he will go to Cape Coast.",
+        "Yaw says that he went to Cape Coast.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which reporting verb best fits a situation where someone feels sorry?",
+      options: ["Replied", "Said", "Regretted", "Asked"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Reported: \"The teacher told us that there wasn't any homework.\" What was the teacher's direct speech?",
+      options: [
+        "\"There isn't any homework.\"",
+        "\"There wasn't any homework.\"",
+        "\"There won't be any homework.\"",
+        "\"Is there any homework?\"",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Change \"here\" into Reported Speech.",
+      options: ["now", "there", "that place", "where"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/s3_ss1_l4/7. Independent Practice.m4a',
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. \"You are coming to the park, ________?\"",
+          options: ["are you", "aren't you", "do you", "don't you"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. \"Kwame hasn't finished his homework, ________?\"",
+          options: ["hasn't he", "did he", "has he", "does he"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. \"They live in Kumasi, ________?\"",
+          options: ["don't they", "do they", "aren't they", "didn't they"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "",
+        ),
+        IndependentPracticeQuestion(
+          question:
+              "4. \"I am late, ________?\" (Note: This is a special rule!)",
+          options: ["am not I", "aren't I", "don't I", "isn't it"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s3_ss1_l5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. In the sentence \"Amina sells mangoes,\" what is the subject?",
+      options: ["sells", "mangoes", "Amina", "sells mangoes"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the complete predicate in: \"The clever student won a prize\"?",
+      options: ["The clever student", "won a prize", "won", "prize"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which part of a sentence tells us what the subject is doing?",
+      options: ["The Noun", "The Subject", "The Predicate", "The Adjective"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. \"The small boat sailed across the Volta Lake.\" What is the simple subject?",
+      options: ["small", "boat", "sailed", "Volta Lake"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+
+///Religious & Moral Education
+final IndependentPracticeModel RMEs1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. The Akan name 'Oboadee' means:",
+      options: [
+        "The Dependable God",
+        "The Almighty God",
+        "The Creator",
+        "The Giver of Rain",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. If God is 'Omniscient', it means He:",
+      options: [
+        "Is everywhere at once",
+        "Knows everything",
+        "Is all-powerful",
+        "Never dies",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which language uses 'Mawu Kitikata' to describe God as the source of life?",
+      options: [
+        "Dagbani",
+        "Akan",
+        "Ewe",
+        "Ga",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Muslims use the name 'Al-Khaliq' to describe God as:",
+      options: [
+        "The Just",
+        "The Wise",
+        "The Creator",
+        "The Provider",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which attribute involves being truthful and keeping your promises?",
+      options: [
+        "Faithfulness",
+        "Tolerance",
+        "Mercy",
+        "Omnipotence",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Showing sympathy to a friend who has lost their lunch money is an example of:",
+      options: [
+        "Justice",
+        "Mercy",
+        "Omniscience",
+        "Creation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Tolerance helps Ghanaians to:",
+      options: [
+        "Fight with neighbours",
+        "Live peacefully with others",
+        "Know everything",
+        "Become all-powerful",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is an 'Incommunicable' attribute that humans cannot demonstrate?",
+      options: [
+        "Love",
+        "Mercy",
+        "Omnipresence",
+        "Patience",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s1_ss1_l3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which attribute is shared by the names 'Oboadee', 'Al-Khaliq', and 'Binnamdaana'?",
+      options: [
+        "God as the Sustainer",
+        "God as the Creator",
+        "God as the Everlasting",
+        "God as the Most Holy",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. If a Christian says 'God is the Beginning and the End', which Islamic attribute matches this?",
+      options: [
+        "Al-Razzaq",
+        "Al-Awwalu wal A’khirun",
+        "Al-Khaliq",
+        "Al-Raheem",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. The Akan title 'Otumfuo' and the Christian title 'El-Shaddai' both refer to God's:",
+      options: [
+        "Mercy",
+        "Power",
+        "Patience",
+        "Kindness",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a similarity in how all three religions view God's role in the world?",
+      options: [
+        "God is a human being",
+        "God is the Sustainer of all creation",
+        "God only lives in Ghana",
+        "God has a physical beginning",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "Question 1\n\nIn which religion do believers gather at a mosque for congregational worship?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Buddhism",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 2\n\nWhat is one benefit of congregational worship mentioned in our lesson?",
+      options: [
+        "It allows you to sleep during the service",
+        "It helps believers get to know one another",
+        "It is the only way to get your prayers answered",
+        "It makes you wealthier than your neighbours",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 3\n\nPrivate worship can take place:",
+      options: [
+        "Only on Friday mornings",
+        "Only inside a large cathedral",
+        "At any time of the day or week",
+        "Only when a priest is present",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 4\n\nWhich place is most likely used for congregational worship by Traditionalists?",
+      options: [
+        "A modern computer laboratory",
+        "A family kitchen",
+        "A shrine or designated open space",
+        "A public bus station",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "Question 1\n\nWhich posture in Islamic prayer involves touching the forehead to the ground?",
+      options: [
+        "Takbir",
+        "Ruku’u",
+        "Sajda",
+        "Qiyam",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 2\n\nTraditionalists often use __________ to find out the cause of a person's misfortune.",
+      options: [
+        "Bible reading",
+        "Divination",
+        "Baptism",
+        "Zakat",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 3\n\nThe practice of giving 2.5% of one's accumulated wealth to the poor in Islam is:",
+      options: [
+        "Sawm",
+        "Hajj",
+        "Zakat",
+        "Salat",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Question 4\n\nWhich of the following is a common mode of worship in all three major religions in Ghana?",
+      options: [
+        "Pouring of libation",
+        "Fasting",
+        "Animal sacrifice",
+        "Performing Wudu",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s2_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which value is learned from following a strict schedule for daily prayers?",
+      options: [
+        "Forgetfulness",
+        "Discipline",
+        "Disobedience",
+        "Pride",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. When we bow or prostrate during worship, we are practicing:",
+      options: [
+        "Arrogance",
+        "Physical exercise only",
+        "Humility",
+        "Fear",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Worship gives a believer the __________ to face difficult times in life.",
+      options: [
+        "Fear",
+        "Confidence",
+        "Anger",
+        "Doubt",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Learning to let go of a grudge against a friend after attending a religious service is a lesson in:",
+      options: [
+        "Forgiveness",
+        "Stubbornness",
+        "Hatred",
+        "Pride",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss1_l4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which type of Islamic prayer is performed specifically for the dead?",
+      options: [
+        "Salat-al-Tasbih",
+        "Janazah",
+        "Tarawih",
+        "Eid-ul-Fitr",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Traditionalists often communicate with God through:",
+      options: [
+        "Reading the Bible",
+        "Smaller gods and ancestors",
+        "Singing in a choir",
+        "Using a computer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What moral value is strengthened by praying at five fixed times every day?",
+      options: [
+        "Forgetfulness",
+        "Discipline",
+        "Laziness",
+        "Pride",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A \"Votive\" prayer in Traditional religion is said when:",
+      options: [
+        "A person is angry",
+        "A vow or pledge is fulfilled",
+        "A person wants to travel",
+        "It is raining",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following is an example of a popular non-religious song in Ghana?",
+      options: [
+        "Da n’ase",
+        "Alhamdulillah",
+        "Iron Boy",
+        "Amazing Grace",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Religious songs are often used for:",
+      options: [
+        "Mocking others.",
+        "Political campaigns only.",
+        "Communication with the Supreme Being.",
+        "Purely for physical exercise.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What does a religious song typically express?",
+      options: [
+        "The latest fashion trends.",
+        "The attributes of God.",
+        "The price of goods at the market.",
+        "News about a football match.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of these is an example of a Traditional oral tradition?",
+      options: [
+        "The Ten Commandments",
+        "Surah Al-Ikhlas",
+        "\"A single tree cannot make a forest\"",
+        "The Lord's Prayer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The recitation \"In the name of Allah, the beneficent, the merciful\" belongs to:",
+      options: [
+        "Christianity",
+        "Islam",
+        "Traditional Religion",
+        "Hinduism",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why are traditional oral traditions passed down through proverbs and stories?",
+      options: [
+        "Because they have no holy book",
+        "Because they do not like to talk",
+        "To confuse young people",
+        "To make worship shorter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs2ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s2_ss2_l3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which value teaches us to be satisfied with what we have and avoid being jealous of others?",
+      options: [
+        "Contentment",
+        "Motivation",
+        "Endurance",
+        "Pride",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Traditional proverbs often teach us to respect our elders. This is an example of:",
+      options: [
+        "Political value",
+        "Economic value",
+        "Moral value",
+        "Musical value",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. The value of 'Perseverance' means:",
+      options: [
+        "Giving up when homework is hard.",
+        "Not rushing and being patient.",
+        "Continuing to try until you succeed.",
+        "Telling secrets to friends.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which members are typically part of an extended family in Ghana?",
+      options: [
+        "Only the father and mother.",
+        "Only the children and their teachers.",
+        "Parents, children, grandparents, and other relatives.",
+        "Only people who live in the same neighborhood.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is a common disadvantage of the nuclear family system?",
+      options: [
+        "It encourages laziness among cousins.",
+        "There is too much interference from aunties.",
+        "Children may lack support if parents are absent.",
+        "The family is too large to handle.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In Ghana, what can a person be joined to a family by besides blood and marriage?",
+      options: [
+        "Buying a house",
+        "Adoption",
+        "Going to school",
+        "Working at the market",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a merit of the nuclear family?",
+      options: [
+        "It is easy for parents to supervise their children.",
+        "It has many people to help with farm work.",
+        "It has more elders to tell stories.",
+        "It has less privacy than the extended family.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Who is primarily responsible for paying school fees in the family?",
+      options: [
+        "The children",
+        "The parents",
+        "The younger siblings",
+        "The neighbors",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What might happen if children refuse to perform their duties?",
+      options: [
+        "The family will be very happy.",
+        "There will be a lack of mutual respect and the home may become disorganized.",
+        "The house will stay clean by itself.",
+        "Parents will be very proud.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which member of the family is best known for providing an 'advisory role'?",
+      options: [
+        "The youngest child",
+        "A baby brother",
+        "Grandparents",
+        "A classmate",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Obedience and respect are roles specifically expected from:",
+      options: [
+        "Only the grandparents",
+        "The children towards their elders",
+        "Only people outside the family",
+        "Nobody in the family",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s3_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Why is forgiveness important in a family?",
+      options: [
+        "It makes people do whatever they want.",
+        "It helps heal wounds and reconciles members after a disagreement.",
+        "It allows you to ignore the family rules.",
+        "It ensures that nobody ever talks to each other.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is a major benefit of a healthy family relationship?",
+      options: [
+        "It encourages members to be self-centered.",
+        "It promotes peace, harmony, and progress at home.",
+        "It makes the children stop going to school.",
+        "It causes constant quarreling over trivial issues.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. If something goes wrong in the family, what is the best first step to take?",
+      options: [
+        "Consulting a medium or diviner immediately.",
+        "Blaming the youngest child in the house.",
+        "Self-examination and taking responsibility for one's actions.",
+        "Moving out of the house to live with a friend.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Showing respect to parents and elders in Ghana is a way of:",
+      options: [
+        "Promoting good family relationships.",
+        "Encouraging laziness in the home.",
+        "Making the family very small.",
+        "Avoiding household chores.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. At what age did Prophet Muhammad (SAW) receive his first revelation?",
+      options: [
+        "12",
+        "25",
+        "30",
+        "40",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which leader is known as the 'Red Hunter'?",
+      options: [
+        "Okomfo Anokye",
+        "Toha Zie",
+        "Egya Ahor",
+        "Togbe Tsali",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What sign appeared when Jesus was baptized?",
+      options: [
+        "A burning bush",
+        "A star in the east",
+        "A dove descending",
+        "A bundle of cowries",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Who raised Muhammad after his mother and grandfather passed away?",
+      options: [
+        "His uncle Abu Talib",
+        "Halimah",
+        "Khadijah",
+        "Angel Gibril",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Where did Prophet Muhammad (SAW) deliver his final sermon?",
+      options: [
+        "Mount Sinai",
+        "Mount Arafat",
+        "Mount Calvary",
+        "Mount Galamsey",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which leader sacrificed his life to stop an epidemic in Mankessim?",
+      options: [
+        "Togbe Tsali",
+        "Okomfo Anokye",
+        "Egya Ahor",
+        "Toha Zie",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. How many disciples did Jesus Christ choose for his ministry?",
+      options: [
+        "7",
+        "10",
+        "12",
+        "40",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which leader used magic to help his people escape from King Agorkoli?",
+      options: [
+        "Togbe Tsali",
+        "Tweneboa Kodua",
+        "Okomfo Damoah",
+        "Toha Zie",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s4_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Following the example of Jesus praying in the garden, which virtue should we cultivate?",
+      options: [
+        "Honesty",
+        "Prayerfulness",
+        "Physical strength",
+        "Cleverness",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Okomfo Anokye bringing the Golden Stool to unite the people is an example of:",
+      options: [
+        "Selfishness",
+        "Promoting unity",
+        "Being angry",
+        "Running away",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which virtue is shown when Prophet Muhammad forgave his enemies in Makkah?",
+      options: [
+        "Revenge",
+        "Forgiveness",
+        "Greed",
+        "Fear",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Toha Zie fighting the beast to help the villagers get water shows the virtue of:",
+      options: [
+        "Laziness",
+        "Service to others",
+        "Pride",
+        "Silence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Decency is best described as...",
+      options: [
+        "Behaving in a way that is acceptable to society.",
+        "Wearing the most expensive clothes to church.",
+        "Knowing how to speak many different languages.",
+        "Being the fastest runner in your JHS class.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which of these is a sign of good manners during a meal?",
+      options: [
+        "Talking loudly while chewing your jollof.",
+        "Reaching across someone else's plate for salt.",
+        "Washing your hands with soap and water before eating.",
+        "Licking your fingers loudly after finishing the meat.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. A student shows courtesy by...",
+      options: [
+        "Ignoring a classmate who is crying.",
+        "Apologising immediately after accidentally bumping into someone.",
+        "Keeping a borrowed book until the owner asks for it.",
+        "Shouting for the teacher's attention during a lesson.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which action shows \"Decent Dressing\"?",
+      options: [
+        "Wearing a mini-skirt to a formal traditional wedding.",
+        "Wearing a neatly ironed uniform that covers the body well.",
+        "Wearing a cap while talking to the school headmistress.",
+        "Wearing a torn shirt to a community meeting.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of these is a factor to consider before greeting someone in Ghana?",
+      options: [
+        "The brand of shoes the person is wearing.",
+        "The time of day (morning, afternoon, or evening).",
+        "How much money the person has in their pocket.",
+        "If the person is taller than you.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Comportment is important because it...",
+      options: [
+        "Helps you win fights at school.",
+        "Earns you the trust and respect of the community.",
+        "Makes you the loudest person in the room.",
+        "Means you never have to apologise.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What might happen if a person consistently shows bad manners?",
+      options: [
+        "They will be given many leadership roles.",
+        "They will lose the trust and respect of others.",
+        "They will become more popular with their teachers.",
+        "They will be rewarded by the Chief.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Decent dressing helps to \"cover nakedness\" and...",
+      options: [
+        "Show off your physical strength.",
+        "Win respect and show proper upbringing.",
+        "Hide your identity from your friends.",
+        "Make you look like a famous movie star.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. To live a chaste life, one must...",
+      options: [
+        "Avoid casual sex.",
+        "Speak many languages.",
+        "Be the richest person in town.",
+        "Always travel alone.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which of the following is a consequence of \"immoral behaviour\"?",
+      options: [
+        "Gaining more respect from elders.",
+        "Improving your grades at school.",
+        "Contracting Sexually Transmitted Diseases (STDs).",
+        "Winning a prize for good conduct.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Being \"assertive\" in maintaining chastity means...",
+      options: [
+        "Shouting at everyone you meet.",
+        "Being able to say \"NO\" to peers who encourage bad habits.",
+        "Doing everything your friends tell you to do.",
+        "Never speaking to anyone at school.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a social benefit of chastity?",
+      options: [
+        "Being able to run faster than others.",
+        "Gaining a \"good name\" and being respected in society.",
+        "Getting a free meal at the market.",
+        "Never having to attend community meetings.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss1_l4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. The Bible verse that says \"Let all things be done decently and in order\" is...",
+      options: [
+        "Exodus 20:14",
+        "1 Corinthians 14:40",
+        "Matthew 5:28",
+        "Titus 3:2",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. In Islam, the Qur'an teaches that Allah is pleased with those who...",
+      options: [
+        "Speak loudly in public.",
+        "Restrain their anger and forgive others.",
+        "Enter houses without asking.",
+        "Dress to show off their wealth.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. The proverb \"If you patiently dissect an ant, you can see its intestine\" teaches...",
+      options: [
+        "Cleanliness.",
+        "Patience.",
+        "Bravery.",
+        "Strength.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a shared teaching among all three religions in Ghana?",
+      options: [
+        "Using the left hand to greet.",
+        "Living a chaste and decent life.",
+        "Ignoring the needs of the elderly.",
+        "Talking rudely to classmates.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which substance is often used as a stimulant to stay awake?",
+      options: [
+        "Pito",
+        "Tramadol",
+        "Palm wine",
+        "Valium",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. A person who tries a drug just to see how it feels is motivated by:",
+      options: [
+        "Poverty",
+        "Ignorance",
+        "Curiosity",
+        "Academic success",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these is a common drug that is often abused through self-medication?",
+      options: [
+        "Cocaine",
+        "Heroin",
+        "Amoxicillin",
+        "Tobacco",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the main characteristic of 'hard drugs'?",
+      options: [
+        "They are cheap to buy",
+        "They are highly addictive and dangerous",
+        "They are prescribed by doctors for malaria",
+        "They are used for cooking in Ghana",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of these is a physical health effect mentioned in the text?",
+      options: [
+        "Obedience",
+        "Lung cancer",
+        "Truthfulness",
+        "Wealth",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What kind of social effect does drug abuse have on a family?",
+      options: [
+        "It brings them fame",
+        "It brings them burden and ridicule",
+        "It makes the family richer",
+        "It helps siblings study better",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Substance abuse can lead a person into which of the following?",
+      options: [
+        "Community leadership",
+        "Criminal activities like robbery",
+        "Improved physical fitness",
+        "Religious devotion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What happens to the 'manpower' of a country when many youths abuse drugs?",
+      options: [
+        "It increases",
+        "It stays the same",
+        "It is reduced or weakened",
+        "It becomes more skilled",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s5_ss2_l3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which religious group uses oral traditions to teach that \"sorrow knows how to swim\" to discourage drinking?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Buddhism",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. If you are feeling stressed or pressured by friends, who is the best person to talk to?",
+      options: [
+        "The friend pressuring you",
+        "A trusted teacher or counselor",
+        "No one",
+        "A stranger at the market",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Engaging in which of these activities is a positive way to avoid drug use?",
+      options: [
+        "Staying out late at night",
+        "Joining a school football team",
+        "Watching movies all day",
+        "Stopping your school work",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why is it important to \"read literature\" about drugs?",
+      options: [
+        "To learn how to buy them",
+        "To understand their harmful effects and stay safe",
+        "To pass the time",
+        "To show off to friends",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEs6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Studying for your end-of-term exams is an example of which type of work?",
+      options: [
+        "Religious Work",
+        "School Work",
+        "Occupational Work",
+        "Domestic Work",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. A priest or an imam performing a marriage ceremony is engaged in...",
+      options: [
+        "Community Work",
+        "Academic Work",
+        "Religious Work",
+        "Domestic Work",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of the following is an example of occupational work?",
+      options: [
+        "Sweeping the classroom",
+        "Farming to earn an income",
+        "Helping a neighbor for free",
+        "Washing your own school uniform",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Entrepreneurship always involves which of the following elements?",
+      options: [
+        "Working for the government",
+        "Taking a risk for profit",
+        "Cleaning the community",
+        "Retiring from a job",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which Ghanaian proverb encourages hard work?",
+      options: [
+        "Laziness leads to wealth",
+        "Hard work does not break bones",
+        "Only office work is good",
+        "Don't work if you are tired",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Being honest at the workplace means...",
+      options: [
+        "Arriving at 9:00 AM instead of 8:00 AM",
+        "Not taking bribes or stealing company property",
+        "Arguing with your co-workers",
+        "Doing the work only when the boss is looking",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. How does hard work help the nation of Ghana?",
+      options: [
+        "It increases social vices like robbery",
+        "It makes the country poorer",
+        "It increases productivity and development",
+        "It encourages more people to be lazy",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is 'Punctuality'?",
+      options: [
+        "Being truthful at all times",
+        "Being regular and on time at work",
+        "Helping others with their chores",
+        "Working only for money",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which step involves identifying who will buy your products and how to tell them about it?",
+      options: [
+        "Human Resources",
+        "Setting personal goals",
+        "Marketing strategy",
+        "Taking a risk",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The people an entrepreneur hires to help do the work are called...",
+      options: [
+        "Capital",
+        "Human Resources",
+        "Target audience",
+        "Competitors",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. If an entrepreneur decides to use their own savings to start a shop, they are providing their own...",
+      options: [
+        "Mission",
+        "Capital",
+        "Innovation",
+        "Human resources",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of the following describes a 'Calculative' risk-taker?",
+      options: [
+        "Someone who avoids all risks",
+        "Someone who recognizes and takes risks that benefit the business",
+        "Someone who spends all their money on games",
+        "Someone who doesn't plan for the future",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEs6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/s6_ss1_l4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Being your own boss and not answering to a higher authority is called...",
+      options: [
+        "Independence",
+        "Human Resources",
+        "Capital",
+        "Social Security",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which of these is a social benefit of entrepreneurship?",
+      options: [
+        "Feeling proud of yourself",
+        "Having a flexible schedule",
+        "Reducing social vices by providing jobs",
+        "Taking a nap in the afternoon",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. An entrepreneur who directs the affairs of their employees is providing...",
+      options: [
+        "Capital",
+        "Leadership",
+        "Domestic work",
+        "Religious service",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. The \"incredible feeling of joy\" when a business succeeds is known as...",
+      options: [
+        "A sense of pride",
+        "A marketing strategy",
+        "Financial risk",
+        "Nation building",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+///jhs2
+final IndependentPracticeModel RMEjhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/RME JHS2 S1 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. How many days did Nawuni take to create the world according to the Dagomba myth?",
+      options: [
+        "Three days",
+        "Six days",
+        "Seven days",
+        "Ten days",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The Ewe tradition believes that God (Mawu) created human beings using which materials?",
+      options: [
+        "Dust and breath",
+        "Fire and wind",
+        "Clay and water",
+        "Sand and sea water",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. According to Islamic teaching, who was the first woman created?",
+      options: [
+        "Eve",
+        "Maryam",
+        "Hawa",
+        "Adwoa",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. In the Christian story, on which day were the sun, moon, and stars created?",
+      options: [
+        "Second day",
+        "Third day",
+        "Fourth day",
+        "Fifth day",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/RME JHS2 S1 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. When God looked at His creation and saw that it was \"good,\" which value was He demonstrating?",
+      options: [
+        "Self-appreciation",
+        "Selfishness",
+        "Anger",
+        "Forgetfulness",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. According to the Islamic creation story, Allah creating out of nothing is a lesson in:",
+      options: [
+        "Fear",
+        "Creativity",
+        "Laziness",
+        "Silence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. The Dagomba New Yam Festival is a way of showing which moral value to Nawuni?",
+      options: [
+        "Orderliness",
+        "Responsibility",
+        "Appreciation",
+        "Cleanliness",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. God putting humans in charge of the earth and animals is a lesson in:",
+      options: [
+        "Cruelty",
+        "Responsibility and Caring",
+        "Idleness",
+        "Greed",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the main reason for keeping a baby indoors until the day of the naming ceremony in traditional societies?",
+      options: [
+        "To keep the baby warm.",
+        "Because the baby is considered a stranger until it is named.",
+        "To wait for all relatives to arrive from the village.",
+        "To prevent the baby from catching a cold.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. In an Islamic naming ceremony, what is done with the baby's hair?",
+      options: [
+        "It is plaited beautifully.",
+        "It is covered with a cap.",
+        "It is shaved off.",
+        "It is washed with special oils.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What does the term 'outdooring' literally mean?",
+      options: [
+        "Going to the farm for the first time.",
+        "Bringing the child out to the public for the first time.",
+        "Building a new house for the baby.",
+        "Taking the baby to the market.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these items is often slaughtered during an Islamic naming ceremony?",
+      options: [
+        "A cow.",
+        "A chicken.",
+        "A sheep.",
+        "A goat.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S2 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. At what age range does the WHO say puberty typically occurs?",
+      options: [
+        "5 to 10 years",
+        "10 to 19 years",
+        "20 to 25 years",
+        "2 to 7 years",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which physical change is specific to boys?",
+      options: [
+        "Increase in height and weight",
+        "Development of acne or pimples",
+        "Deepening of the voice",
+        "Growth of armpit hair",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Adolescents often face a 'conflict of identity' because:",
+      options: [
+        "They forgot their names.",
+        "They feel they are neither children nor adults.",
+        "They want to be babies again.",
+        "They are confused about their school subjects.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. To manage physical changes like sweating during puberty, it is recommended to:",
+      options: [
+        "Avoid exercising.",
+        "Bathe at least twice a day.",
+        "Stop drinking water.",
+        "Wear the same clothes for a week.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S2 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which group performs the Baala rite for boys?",
+      options: [
+        "The Akans",
+        "The Krobos",
+        "The Sisala",
+        "The Ewes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the name of the special songs sung during the Akan puberty rites?",
+      options: [
+        "Hayi",
+        "Brannwan",
+        "Adowa",
+        "Agbadza",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In Krobo tradition, what happens during the 'Te-kwomi' ceremony?",
+      options: [
+        "The girl is given a new name.",
+        "The girl sits on a sacred stone.",
+        "The girl goes to the farm.",
+        "The girl is taught how to weave.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is a major purpose of the confinement period during puberty rites?",
+      options: [
+        "To keep the girl away from her friends.",
+        "To allow her to sleep all day.",
+        "To teach her traditional songs, dances, and home management.",
+        "To hide her from the community.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/4. RME JHS2 S2 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the Akan name for the 'Knocking Ceremony'?",
+      options: [
+        "Al-Nikah",
+        "Opon-akyibɔ",
+        "Walima",
+        "Tiri Nsa",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Who leads the Al-Nikah ceremony in Islam?",
+      options: [
+        "The father of the groom.",
+        "A licensed Imam or Mallam.",
+        "The Queen Mother.",
+        "A church elder.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In Christian marriage, how long does counselling usually last?",
+      options: [
+        "One week.",
+        "Two to six months.",
+        "One year.",
+        "Three days.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What signifies the legal union in a modern Ghanaian wedding?",
+      options: [
+        "The number of guests present.",
+        "The amount of food served.",
+        "The signing of a marriage certificate.",
+        "The type of music played.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/5. RME JHS2 S2 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which religion traditionally buries its dead without a coffin?",
+      options: [
+        "Christianity",
+        "Indigenous African Religion",
+        "Islam",
+        "All of the above",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the significance of the \"memorial service\" in Christianity?",
+      options: [
+        "To give the deceased a name.",
+        "To console the family and thank God.",
+        "To pay for the coffin.",
+        "To choose a new family head.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Among traditionalists, who is typically responsible for washing a female corpse?",
+      options: [
+        "The Chief.",
+        "Young children.",
+        "Elderly women in the family.",
+        "A Christian priest.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the traditional land of the spirits called in many Ghanaian cultures?",
+      options: [
+        "Asamando",
+        "Kejetia",
+        "Aqiqah",
+        "Dipo",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/6. RME JHS2 S2 SS1 L6/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Why is a person of 'good character' chosen to name a baby in traditional society?",
+      options: [
+        "Because they are the oldest.",
+        "So the child will follow their good footsteps.",
+        "Because they have a lot of money.",
+        "Because they are the best singers.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Hard work is a key moral lesson. Which rite uses a cutlass or broom to symbolize this?",
+      options: [
+        "Death Rites",
+        "Marriage Rites",
+        "Naming Ceremony",
+        "Puberty Rites",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Death rites remind the living of 'Judgement'. What is the moral lesson here?",
+      options: [
+        "To fear the dark.",
+        "To live a good and upright life while on earth.",
+        "To stop going to school.",
+        "To spend all your money today.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a social benefit of all rites of passage?",
+      options: [
+        "They cause arguments between families.",
+        "They bring people together and unite them.",
+        "They are very quiet events.",
+        "They are only for children.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Who holds authority in a typical Ghanaian home?",
+      options: [
+        "The youngest child",
+        "A visitor from town",
+        "Parents and grandparents",
+        "The school bus driver",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Why is the 1992 Constitution important for authority in Ghana?",
+      options: [
+        "It tells us which food to eat.",
+        "It gives legitimacy to the government.",
+        "It is the only book in the library.",
+        "It belongs to the village chief.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Using authority to 'promote the welfare of others' means you are:",
+      options: [
+        "Helping people in need.",
+        "Taking money from the poor.",
+        "Only helping your own family.",
+        "Forcing people to work for free.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. In Ghana, we respect elders because their authority often comes from:",
+      options: [
+        "Having many cars.",
+        "Their long experience and age.",
+        "Winning a football match.",
+        "Working at a bank.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S3 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the meaning of disobedience?",
+      options: [
+        "Doing your homework early.",
+        "Helping an elderly person cross the street.",
+        "Refusal to carry out an instruction from authority.",
+        "Listening carefully to a speech.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Why should we learn from the experience of people in authority?",
+      options: [
+        "Because they have lived longer and seen more than we have.",
+        "Because they have the loudest voices.",
+        "Because they always wear expensive clothes.",
+        "Because they never make any mistakes.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Obeying authority 'ensures progress' because it:",
+      options: [
+        "Allows everyone to do whatever they want.",
+        "Creates an organized environment for development.",
+        "Means we don't have to work hard.",
+        "Forces everyone to stay at home.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A child who is obedient and lives a good moral life is usually:",
+      options: [
+        "Disliked by their classmates.",
+        "Praised and cherished by society.",
+        "Always tired from doing chores.",
+        "Given a car by the government.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S3 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the correct way to treat younger siblings at home?",
+      options: [
+        "Making them do all your chores for you.",
+        "Bullying them so they fear you.",
+        "Protecting them and avoiding bullying.",
+        "Ignoring them completely.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which action shows respect for communal rules?",
+      options: [
+        "Littering in the neighbourhood.",
+        "Refusing to join communal work.",
+        "Involving yourself in community clean-up exercises.",
+        "Fighting with your neighbours over small issues.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. If you are participating in a public demonstration, national rules say you should:",
+      options: [
+        "Destroy streetlights and public property.",
+        "Avoid the destruction of state properties.",
+        "Stop cars from moving on the road.",
+        "Throw stones at government buildings.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why is it important to do your classwork and homework regularly?",
+      options: [
+        "To make the teacher give you money.",
+        "To ensure you learn and make progress in school.",
+        "So you can stay awake at night.",
+        "To show that you have many pens.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S4 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. A prophet is described as a \"mouthpiece\" because they:",
+      options: [
+        "Sing songs for the community",
+        "Speak for themselves",
+        "Speak God's message to people",
+        "Only talk to kings",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Where did God first call Moses through a burning bush?",
+      options: [
+        "Mount Sinai",
+        "Mount Horeb",
+        "The land of Canaan",
+        "Haran",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What sign did God give to Noah to show He would never destroy the world with a flood again?",
+      options: [
+        "A golden calf",
+        "A burning bush",
+        "A rainbow",
+        "A ram in a bush",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. At what age did God call Abraham to leave his country for Canaan?",
+      options: [
+        "120 years old",
+        "10 years old",
+        "50 years old",
+        "75 years old",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S4 SS1 L2/9. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Who was the third Caliph of Islam, known for his great wealth and generosity?",
+      options: [
+        "Abu Bakr",
+        "Ali Ibn Abi Talib",
+        "Usman Ibn Affan",
+        "Umar Ibn Al-Khattab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The Islamic (Hijrah) calendar was introduced during the reign of which Caliph?",
+      options: [
+        "Umar Ibn Al-Khattab",
+        "Abu Bakr",
+        "Ali Ibn Abi Talib",
+        "Usman Ibn Affan",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which Caliph was the first youth to accept the faith of Islam?",
+      options: [
+        "Abu Bakr",
+        "Ali Ibn Abi Talib",
+        "Usman Ibn Affan",
+        "Umar Ibn Al-Khattab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which Caliph established a public treasury (Bayt al-Mal) to help the poor?",
+      options: [
+        "Ali Ibn Abi Talib",
+        "Usman Ibn Affan",
+        "Abu Bakr",
+        "Umar Ibn Al-Khattab",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S4 SS1 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which leader is best known for his great generosity and for being the 'owner of two lights'?",
+      options: [
+        "Abu Bakr",
+        "Ali",
+        "Umar",
+        "Usman",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Abraham’s willingness to travel to a new land and sacrifice his son shows the lesson of:",
+      options: [
+        "Laziness",
+        "Total trust in God",
+        "Fear of his neighbors",
+        "Searching for gold",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. If a student helps a classmate who is being bullied, which leader's moral lesson are they following?",
+      options: [
+        "The greed of Pharaoh",
+        "The courage and patriotism of Moses",
+        "The silence of the magicians",
+        "The flight of the Egyptians",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What can we learn from Caliph Ali's life about leadership?",
+      options: [
+        "To be proud and loud",
+        "To be kind-hearted and care for the people",
+        "To avoid all battles",
+        "To only help wealthy people",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which Christian teaching promises blessings for those who work for peace?",
+      options: [
+        "The Ten Commandments",
+        "The Beatitudes",
+        "The Parable of the Sower",
+        "The book of Proverbs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which type of taboo prevents people from destroying certain forests or rivers?",
+      options: [
+        "Occupational Taboos",
+        "Royal Taboos",
+        "Environmental Taboos",
+        "Food and Drink Taboos",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. The Islamic teaching of \"Ablution\" is most closely related to which moral value?",
+      options: [
+        "Courage",
+        "Cleanliness",
+        "Justice",
+        "Patience",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the meaning of the proverb \"A bird that does not fly out stays hungry\"?",
+      options: [
+        "Birds should stay in their nests",
+        "It is important to be hardworking",
+        "Eating is the most important thing",
+        "We should wait for food to come to us",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. If a friend tells you a secret and asks you not to tell anyone, which traditional value are you applying by keeping it?",
+      options: [
+        "Courage",
+        "Truthfulness",
+        "Patience",
+        "Humility",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. You are at a shop and the shopkeeper gives you 5 Cedis extra change by mistake. Applying your religious morals, you should:",
+      options: [
+        "Keep the money as a blessing",
+        "Share it with your friends",
+        "Return the extra change immediately",
+        "Buy more items with the money",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When an elder is carrying a heavy load from the market, the most moral action is to:",
+      options: [
+        "Walk faster so you don't have to help",
+        "Offer to help carry the load",
+        "Tell them they should have taken a taxi",
+        "Watch them from a distance",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is the best way to apply the teaching of \"Patience\" when you are waiting in a long queue for water?",
+      options: [
+        "Complaining loudly to everyone",
+        "Pushing your way to the front",
+        "Waiting calmly for your turn",
+        "Leaving your bucket and going home",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS2 S6 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Money is defined as a 'medium of exchange' because:",
+      options: [
+        "It is very difficult to find.",
+        "It is used to pay for goods and services.",
+        "It is made of paper and metal.",
+        "It can be kept in a savings box.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. If you change a 20 Cedi note into four 5 Cedi notes, which characteristic of money are you using?",
+      options: [
+        "Acceptability",
+        "Portability",
+        "Durability",
+        "Divisibility",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why does money motivate people to work?",
+      options: [
+        "Because money is colorful.",
+        "Because it is a sin to be idle.",
+        "Because it provides a reward for their effort.",
+        "Because banks require people to have jobs.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of these is a basic need that money helps us acquire?",
+      options: [
+        "Luxury cars",
+        "Video games",
+        "Shelter",
+        "Cinema tickets",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS2 S6 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which religion teaches its followers to \"learn from the ant\" to avoid laziness?",
+      options: [
+        "Islam",
+        "Indigenous African Religion",
+        "Christianity",
+        "None of the above",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The Parable of the Talents in the Bible teaches Christians about:",
+      options: [
+        "Gambling",
+        "Good stewardship",
+        "Begging",
+        "Tax evasion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In Islamic teaching, what is the view on taking interest on loans?",
+      options: [
+        "It is highly encouraged.",
+        "It is forbidden and should be avoided.",
+        "It is only for rich people.",
+        "It is the best way to get money.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. \"If one takes good care of another’s possession, one also gets possession.\" This proverb teaches:",
+      options: [
+        "Creativity",
+        "Hard work",
+        "Stewardship",
+        "Prudence",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS2 S6 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. If you buy an item just because you saw it at the market, without planning for it, you are:",
+      options: [
+        "Prioritizing",
+        "Budgeting",
+        "Impulse buying",
+        "Investing",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Giving \"Zakat\" or \"Sadaqa\" is an example of which use of money?",
+      options: [
+        "Exploitation",
+        "Helping the poor and needy",
+        "Lavish spending",
+        "Personal ambition",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why do religions advise against using money to exploit others?",
+      options: [
+        "Because it makes the rich person richer.",
+        "Because it is a misuse of wealth and harms the weak.",
+        "Because the government will take the money.",
+        "Because exploitation is too expensive.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. In a personal budget, which items should be at the very top?",
+      options: [
+        "Luxury items",
+        "Urgent needs",
+        "Frivolous things",
+        "Gifts for friends",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What percentage of a worker's basic salary is contributed by the employee themselves?",
+      options: [
+        "2.5%",
+        "5.5%",
+        "13%",
+        "18.5%",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. At what age can a Ghanaian worker choose to retire and begin receiving their SSNIT pension?",
+      options: [
+        "45 years",
+        "50 years",
+        "60 years",
+        "75 years",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of the following is a \"contingency\" or risk that SSNIT protects workers against?",
+      options: [
+        "Buying a new car",
+        "Going on holiday",
+        "Permanent invalidity",
+        "Winning the lottery",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A foreigner who is leaving Ghana permanently is qualified for which benefit?",
+      options: [
+        "Old age pension",
+        "Emigration benefit",
+        "Invalidity pension",
+        "No benefit at all",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs2s6ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/5. RME JHS2 S6 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Bribery is often described as the offering of money to gain...",
+      options: [
+        "New friends",
+        "Unfair advantage",
+        "Honest rewards",
+        "Spiritual blessings",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Using one's position to amass illegal wealth for personal gain is the definition of...",
+      options: [
+        "Corruption",
+        "Promotion",
+        "Hard work",
+        "Trade",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these acts is a form of corruption common in Ghanaian offices?",
+      options: [
+        "Closing on time",
+        "Over-invoicing for supplies",
+        "Attending staff meetings",
+        "Organizing a clean-up exercise",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why is nepotism (favoring relatives for jobs) considered a form of corruption?",
+      options: [
+        "It helps the family save money",
+        "It is a traditional way of life",
+        "It uses a position of power to give an unfair advantage",
+        "It ensures the work is done faster",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs2s6ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/6. RME JHS2 S6 SS2 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of these is a CAUSE of bribery and corruption?",
+      options: [
+        "Misuse of state resources",
+        "Tarnished reputation",
+        "Low wages and salaries",
+        "Low productivity",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. When corruption makes it difficult for a country to build good roads and hospitals, it is...",
+      options: [
+        "Promoting justice",
+        "Retarding national development",
+        "Encouraging hard work",
+        "Creating employment",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. A \"get-rich-quick\" attitude is a cause of corruption linked to...",
+      options: [
+        "Poverty",
+        "Patriotism",
+        "Selfishness and greed",
+        "Honesty",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What happens to the gap between the rich and the poor due to corruption?",
+      options: [
+        "It becomes smaller",
+        "It stays the same",
+        "It is widened",
+        "It disappears",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+///JHS3
+final IndependentPracticeModel RMEjhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S1 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following animal products is used by industries as raw materials to make items like belts and bags?",
+      options: [
+        "Bones and horns.",
+        "Feathers and hides.",
+        "Milk and eggs.",
+        "Meat and wool.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Why did God create the sun for the benefit of Ghanaian farmers?",
+      options: [
+        "To provide light for fishing at night.",
+        "To help in the extraction of gold.",
+        "To provide heat for drying crops like cocoa beans.",
+        "To serve as a habitat for mankind.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these is a religious or cultural use of the moon and stars?",
+      options: [
+        "Generating electricity for homes.",
+        "Calculation of certain religious festivals.",
+        "Providing vitamin D to humans.",
+        "Extraction of common salt.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is a primary use of plants like neem and mahogany in Ghana?",
+      options: [
+        "Providing security for households.",
+        "Serving as a source of medicine.",
+        "Helping in the formation of rain.",
+        "Generating power for industries.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S1 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following animal products is used by industries as raw materials to make items like belts and bags?",
+      options: [
+        "Bones and horns.",
+        "Feathers and hides.",
+        "Milk and eggs.",
+        "Meat and wool.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Why did God create the sun for the benefit of Ghanaian farmers?",
+      options: [
+        "To provide light for fishing at night.",
+        "To help in the extraction of gold.",
+        "To provide heat for drying crops like cocoa beans.",
+        "To serve as a habitat for mankind.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these is a religious or cultural use of the moon and stars?",
+      options: [
+        "Generating electricity for homes.",
+        "Calculation of certain religious festivals.",
+        "Providing vitamin D to humans.",
+        "Extraction of common salt.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is a primary use of plants like neem and mahogany in Ghana?",
+      options: [
+        "Providing security for households.",
+        "Serving as a source of medicine.",
+        "Helping in the formation of rain.",
+        "Generating power for industries.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S1 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. A hunter uses a very small-sized net to catch all the fish in a stream, including the babies. This is an example of:",
+      options: [
+        "Proper farming practice",
+        "A bad fishing practice",
+        "Traditional conservation",
+        "Water purification",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the main negative effect of illegal tree felling for timber?",
+      options: [
+        "It makes the forest too shady",
+        "It leads to the removal of forest cover and erosion",
+        "It increases the number of animals in the area",
+        "It helps the gods to stay in the forest",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "Which of the following activities directly pollutes the air we breathe?",
+      options: [
+        "Overgrazing by cattle",
+        "Sand winning at the beach",
+        "Burning the bush for hunting",
+        "Weeding around water bodies",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. When we throw plastic waste and rubbish into our lagoons and gutters, we are causing:",
+      options: [
+        "Reforestation",
+        "Water pollution",
+        "Soil conservation",
+        "Galamsey",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/4. RME JHS3 S1 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Taboos are rules from the gods and ancestors that:",
+      options: [
+        "Encourage people to cut down sacred forests",
+        "Regulate the behavior of people to protect nature",
+        "Teach people how to mine for gold in rivers",
+        "Forbid the planting of any food crops",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The people of Paga do not kill crocodiles because:",
+      options: [
+        "The crocodiles are too dangerous to catch",
+        "They believe the crocodiles are their totems",
+        "There is no water in the pond to catch them",
+        "The government pays them to keep the crocodiles",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the spiritual reason for pouring libation before farming on a piece of land?",
+      options: [
+        "To make the weeds grow slower",
+        "To show respect to the Earth goddess and ancestors",
+        "To keep the birds away from the seeds",
+        "To make the soil look darker",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A \"Sacred Grove\" is a part of the forest where:",
+      options: [
+        "Anyone can go to cut firewood for charcoal",
+        "Farming and hunting are strictly prohibited",
+        "Large factories are built for the community",
+        "Only children are allowed to play",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s1ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/5. RME JHS3 S1 SS2 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. If we fail to protect the environment, we are said to be:",
+      options: [
+        "Saving money for the future",
+        "Sinning against the Supreme Being (God)",
+        "Helping the animals to find new homes",
+        "Following the rules of the community",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Proper disposal of waste is important because it:",
+      options: [
+        "Makes the rubbish disappear forever",
+        "Prevents pollution and the spread of diseases",
+        "Helps the gods to find their way home",
+        "Is the fastest way to get rid of plastic",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which practice helps to preserve water bodies?",
+      options: [
+        "Weeding all the plants around the river",
+        "Not felling trees around the water banks",
+        "Washing clothes directly in the stream",
+        "Throwing old fishing nets into the lagoon",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Indigenous Ghanaians believe that the gods reside in:",
+      options: [
+        "Only in the big cities",
+        "Only in the clouds",
+        "In plants, animals, rocks, and water",
+        "Inside the computers we use",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the primary reason festivals are celebrated every year in Ghana?",
+      options: [
+        "To make people travel for work",
+        "To punish wrongdoers in the town",
+        "To thank the spirit world for past favours",
+        "To spend all the money in the family",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. The people of Elmina celebrate the Bakatue festival. What type of festival is this?",
+      options: [
+        "Agricultural",
+        "Christian",
+        "Islamic",
+        "Naming",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which festival is celebrated by the Akuapem people and means 'cleansing'?",
+      options: [
+        "Tedudu",
+        "Odwira",
+        "Homowo",
+        "Damba",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A festival celebrated to remember the birth of Jesus Christ is:",
+      options: [
+        "Easter",
+        "Ramadan",
+        "Christmas",
+        "Palm Sunday",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S2 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Why is 'Family Re-union' considered an important activity during Ghanaian festivals?",
+      options: [
+        "It is a time to buy new farm tools",
+        "It allows relatives to settle disputes and interact",
+        "It is the day the ban on noise begins",
+        "It is used to choose a new Chief",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Family reunions help relatives reconnect and resolve conflicts.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "2. Which of these is a preparatory act performed by Christians before the Easter celebration?",
+      options: [
+        "The Odadaa rite",
+        "Observing Lent",
+        "Riding decorated horses",
+        "Sprinkling Kpokpoi",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Christians observe Lent as a period of fasting and preparation before Easter.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "3. The act of 'Public Worship' during festivals usually takes place at:",
+      options: [
+        "The local market",
+        "The Chief's palace only",
+        "Churches, Mosques, or open prayer grounds",
+        "Individual family kitchens",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Public worship is held in religious or communal prayer spaces.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "4. In the Ga-Mashie area, what must be done before the Homowo festival can start?",
+      options: [
+        "A 30-day ban on noise making called Odadaa",
+        "A massive feast with meat for everyone",
+        "A journey to the mountain for 40 days",
+        "The building of new schools",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Odadaa (ban on noise) is observed before Homowo begins.",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S2 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which religious value is shown when a person prays and gives thanks for their health during a festival?",
+      options: [
+        "Greed",
+        "Gratitude",
+        "Laziness",
+        "Selfishness",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Giving thanks through prayer shows gratitude.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "2. If you choose to forgive a friend who offended you because it is Easter, you are practicing:",
+      options: [
+        "A social project",
+        "A moral lesson",
+        "An agricultural rite",
+        "A clean-up exercise",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Forgiveness is a moral value taught during religious celebrations like Easter.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "3. How do festivals promote tourism in Ghana?",
+      options: [
+        "By making everyone stay in their houses",
+        "By attracting foreigners to see our rich culture",
+        "By stopping all cars from moving on the road",
+        "By closing down all the markets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Festivals attract visitors who come to experience culture and traditions.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "4. Which daily habit reflects the preparatory clean-up exercises of festivals?",
+      options: [
+        "Throwing rubbish on the street",
+        "Keeping your classroom neat every day",
+        "Sleeping until the sun is high",
+        "Eating without washing your hands",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Clean-up exercises promote cleanliness, just like keeping your environment neat daily.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1.  Kofi is a Christian who has been invited to an Eid feast by his friend, Ali. Kofi happily accepts. This is an example of:",
+      options: [
+        "Religious intolerance",
+        "Religious tolerance",
+        "Community development",
+        "Social discrimination",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Accepting and respecting other religions shows tolerance.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "2. A community that lacks development because members refuse to work with 'unbelievers' is described as:",
+      options: [
+        "Tolerant",
+        "Peaceful",
+        "Intolerant",
+        "Unified",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Refusing to cooperate with others shows intolerance.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "3. Which of these is a characteristic of an intolerant religious community?",
+      options: [
+        "Inter-religious marriages",
+        "High levels of mistrust",
+        "Development in unity",
+        "Respect for human rights",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Intolerance creates mistrust among people.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "4. Why is a tolerant community usually more developed than an intolerant one?",
+      options: [
+        "Because they receive more money from the government",
+        "Because they have more churches and mosques",
+        "Because all members work together toward a common goal",
+        "Because they do not allow any religious activities",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cooperation and unity lead to development.",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S3 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. When a country's government respects only one religion and ignores others, this is called:",
+      options: [
+        "Political neutrality",
+        "State bias",
+        "Economic development",
+        "Social cohesion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Favoring one religion over others is known as state bias.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "2. Religious intolerance can lead to the destruction of which of the following?",
+      options: [
+        "Hospitals and schools",
+        "Natural rain and sunlight",
+        "The age of the ancestors",
+        "The languages we speak",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Conflicts caused by intolerance can damage important infrastructure like schools and hospitals.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "3. Why does 'not learning about other religions' cause problems?",
+      options: [
+        "It makes our brains too full of information",
+        "It leads to misunderstandings of others' beliefs",
+        "It prevents us from getting high marks in school",
+        "It causes people to forget their own religion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Lack of understanding leads to misconceptions and conflict.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "4. Intra-religious war refers to a conflict between:",
+      options: [
+        "Two different countries",
+        "Members of the same religion",
+        "People of different religions",
+        "Two different political parties",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Intra-religious conflict occurs within the same religion.",
+    ),
+  ],
+);
+final IndependentPracticeModel RMEjhs3s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S3 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. When a Christian and a Muslim get married, it is an example of:",
+      options: [
+        "Religious intolerance",
+        "Inter-religious marriage",
+        "Social discrimination",
+        "Intra-religious conflict",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Marriage between people of different religions is called inter-religious marriage.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "2. Meeting occasionally to discuss issues of mutual concern helps to:",
+      options: [
+        "Increase suspicion between groups",
+        "Reduce mistrust and misunderstandings",
+        "Force everyone to agree on everything",
+        "Stop people from practicing their own religion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dialogue helps reduce misunderstanding and builds trust.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "3. Which of the following encourages unity and togetherness?",
+      options: [
+        "Refusing to help a neighbor of a different faith",
+        "Participating in other people's religious ceremonies",
+        "Speaking evil of traditional festivals",
+        "Living in separate parts of the town",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Participating in others' ceremonies promotes unity and respect.",
+    ),
+
+    IndependentPracticeQuestion(
+      question: "4. Peaceful co-existence helps to 'disabuse wrong notions.' This means:",
+      options: [
+        "It helps people forget their religious history",
+        "It helps erase misconceptions about other faiths",
+        "It makes people stop believing in God",
+        "It forces people to change their traditions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Peaceful coexistence removes false beliefs and misunderstandings.",
+    ),
+  ],
+);
+
+/// RME Models
+
+final IndependentPracticeModel RMEjhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S4 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which biblical woman served as both a prophetess and the only female judge of Israel?",
+      options: [
+        "Miriam",
+        "Deborah",
+        "Mary",
+        "Ruth",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Deborah was both a prophetess and the only female judge in Israel.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which of the following is an important quality of a good leader?",
+      options: [
+        "Pride",
+        "Humility",
+        "Selfishness",
+        "Laziness",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Good leaders show humility and serve others.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why is leadership important in a community?",
+      options: [
+        "To create confusion",
+        "To guide and organize people",
+        "To control only a few people",
+        "To make people afraid",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Leadership helps guide and organize people towards common goals.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which of the following actions shows good leadership?",
+      options: [
+        "Ignoring others",
+        "Helping and guiding others",
+        "Forcing people to obey",
+        "Being unfair",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Good leadership involves helping, guiding, and supporting others.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S4 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Being 'God-fearing' like Justice Georgina Wood means we should:",
+      options: [
+        "Be afraid of everyone in authority",
+        "Use our talents to serve God and others",
+        "Only pray when we have an exam",
+        "Avoid people from other religions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Being God-fearing means using your abilities to serve God and help others.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. How can a student show 'selflessness' in a Ghanaian classroom?",
+      options: [
+        "Keeping all their notes to themselves",
+        "Helping a classmate understand a difficult topic",
+        "Making sure they are the first to get lunch",
+        "Reporting others to the teacher for small mistakes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Selflessness means helping others without thinking only of yourself.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which value did Khadijah show by choosing her husband based on his good character rather than his wealth?",
+      options: [
+        "Bravery",
+        "Virtue",
+        "Patriotism",
+        "Perseverance",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Choosing based on good character reflects virtue.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Applying the lesson of 'Truthfulness' means that when you make a mistake, you should:",
+      options: [
+        "Hide it so you don't get in trouble",
+        "Blame it on your younger brother",
+        "Admit it and try to fix it",
+        "Say nothing and hope no one notices",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Truthfulness involves admitting mistakes and correcting them.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S4 SS1 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which political leader was the first woman to be elected to an African legislative assembly?",
+      options: [
+        "Susanna Alhassan",
+        "Hawa Yakubu",
+        "Mabel Dove Danquah",
+        "Joyce Aryee",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Mabel Dove Danquah was the first woman elected to an African legislative assembly.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Who was the first Ghanaian woman to serve as the country's Chief Nursing Officer?",
+      options: [
+        "Susan Ofori-Atta",
+        "Docia Kisseih",
+        "Elizabeth Akaba",
+        "Mercy Tagoe",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Docia Kisseih was Ghana’s first Chief Nursing Officer.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In the field of sports, who became the first female head coach of the Black Queens and won a trophy with them?",
+      options: [
+        "Adjoa Bayor",
+        "Alice Annum",
+        "Mercy Tagoe-Quarcoe",
+        "Alberta Sackey",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Mercy Tagoe-Quarcoe became the first female head coach of the Black Queens and led them to victory.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which educator founded the Forum for African Women Educationalists (FAWE) to help more girls go to school?",
+      options: [
+        "Vida Yeboah",
+        "Jane Naana Opoku-Agyemang",
+        "Marian Ewurama Addy",
+        "Rosemond Boohene",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Vida Yeboah founded FAWE to promote girls’ education in Africa.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S5 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Abena gives up her seat for a pregnant woman in a trotro. This is an example of:",
+      options: [
+        "A bad deed.",
+        "A reward",
+        "A good deed.",
+        "Repentance.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Praising good actions encourages people to continue doing good.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the main importance of rewarding people for their good work?",
+      options: [
+        "To make them feel better than others.",
+        "To encourage them to do more good deeds.",
+        "To pay them for every single help they give.",
+        "To show that only winners matter.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Helping others selflessly is an act of kindness.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which religious teaching is common to Christianity, Islam, and Traditional Religion regarding good deeds?",
+      options: [
+        "Good deeds should only be done in secret.",
+        "Serving humankind is a service to God.",
+        "Only rich people can do good deeds.",
+        "You only do good to your family members.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "All major religions promote doing good to others.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A handshake from the President of Ghana for an outstanding achievement is what type of reward?",
+      options: [
+        "A physical gift.",
+        "A verbal reward.",
+        "A social reward from a prominent person.",
+        "A spiritual blessing.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Peaceful coexistence builds unity and supports development.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S5 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. A 'bad testimonial' is a punishment because it can:",
+      options: [
+        "Make you pay a lot of money to the school.",
+        "Prevent you from getting a job or further education.",
+        "Force you to leave your community forever.",
+        "Make your friends laugh at you.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A bad testimonial can affect future opportunities like jobs or education.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which bad deed involves destroying things like streetlights or school desks?",
+      options: [
+        "Negligence of duty.",
+        "Disobedience to authority.",
+        "Destruction of public property.",
+        "Internet fraud.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Destroying public items is known as destruction of public property.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. 'Deterrence' as a reason for punishment is meant to:",
+      options: [
+        "Reward the person who was hurt.",
+        "Discourage others from doing the same wrong thing.",
+        "Forgive the offender immediately.",
+        "Make the offender rich.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Deterrence prevents others from repeating the same wrongdoing.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why is 'Sakawa' or internet fraud considered a bad deed?",
+      options: [
+        "It is a very slow way to make money.",
+        "It is an act of stealing and dishonesty.",
+        "It only happens in big cities like Accra.",
+        "It requires using a computer.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Internet fraud is wrong because it involves stealing and dishonesty.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S5 SS1 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Repentance is described as a 'change of thought' because:",
+        options: [
+          "You forget the old thoughts.",
+          "You decide to do things differently and correctly.",
+          "It makes you smarter than others.",
+          "You stop thinking about God."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Repentance means changing your thinking and deciding to do things differently and correctly."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a benefit of repenting to a friend you offended?",
+        options: [
+          "It makes you look weak.",
+          "It helps to restore the broken relationship.",
+          "It proves the friend was wrong too.",
+          "It ensures you get a physical prize."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Repenting to a friend helps restore the broken relationship."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Why should a person 'promise never to repeat' a bad deed?",
+        options: [
+          "To make people stop talking about them.",
+          "To show that their repentance is genuine and sincere.",
+          "Because it is a school rule.",
+          "To avoid paying a fine."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Promising never to repeat the bad deed shows that the repentance is genuine and sincere."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. According to 1 John 1:8-9, what happens if we claim we have no sin?",
+        options: [
+          "We become very holy.",
+          "We deceive ourselves and the truth is not in us.",
+          "God rewards us for our perfection.",
+          "People will respect us more."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to 1 John 1:8-9, if we claim we have no sin, we deceive ourselves and the truth is not in us."
+    ),
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/1. RME JHS3 S6 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the best definition of time?",
+        options: [
+          "A break from school work or chores.",
+          "Doing nothing when you are supposed to be working.",
+          "The continued progress of existence in past, present, and future.",
+          "A plan used to list daily activities and hobbies."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The best definition of time is the continued progress of existence in past, present, and future."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Leisure is often referred to as:",
+        options: [
+          "Wasting time",
+          "Spare time",
+          "Working time",
+          "Busy time"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Leisure is often referred to as spare time."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which term describes a state of 'mental inactivity' and laziness?",
+        options: [
+          "Idleness",
+          "Recreation",
+          "Vacation",
+          "Recovery"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Idleness describes a state of mental inactivity and laziness."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Why is leisure considered 'constructive'?",
+        options: [
+          "Because it involves building houses.",
+          "Because it is used for unproductive ventures.",
+          "Because it helps refresh the body and restore energy.",
+          "Because it is a way of avoiding school work."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Leisure is considered constructive because it helps refresh the body and restore energy."
+    )
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/2. RME JHS3 S6 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to Christian teaching in Proverbs 6:6-8, which insect teaches us to plan for the future?",
+        options: [
+          "The Bee",
+          "The Spider",
+          "The Ant",
+          "The Grasshopper"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "According to Proverbs 6:6-8, the ant teaches us to plan for the future."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. What does the African proverb 'the best way to eat an elephant is to cut it into pieces' mean?",
+        options: [
+          "You should eat a lot of food to have energy.",
+          "Big tasks should be broken down and done bit by bit.",
+          "Planning is only for people who hunt animals.",
+          "You should wait for help before starting a task."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The proverb means big tasks should be broken down and done bit by bit."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. In Islam, the Prophet Muhammad taught that we should take advantage of our free time before:",
+        options: [
+          "We become rich.",
+          "We go to sleep.",
+          "We become preoccupied.",
+          "We finish our prayers."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "We should take advantage of our free time before we become preoccupied."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a direct benefit of effective time management for a student?",
+        options: [
+          "Having more time to gossip.",
+          "Getting higher marks in exams.",
+          "Learning how to cheat during tests.",
+          "Being able to ignore school rules."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Effective time management helps a student get higher marks in exams."
+    )
+  ],
+);
+
+final IndependentPracticeModel RMEjhs3s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S6 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of a 'profitable' use of leisure for a student?",
+        options: [
+          "Gossiping about classmates.",
+          "Learning how to weave kente.",
+          "Watching television for ten hours.",
+          "Sitting at the station doing nothing."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Learning how to weave kente is a profitable use of leisure for a student."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. According to the curriculum, leisure is a 'Divine Law.' This means:",
+        options: [
+          "Only religious leaders should rest.",
+          "Rest is commanded by God or a higher power.",
+          "You should only rest inside a church or mosque.",
+          "It is against the law to work on weekends."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Leisure being a 'Divine Law' means rest is commanded by God or a higher power."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which activity best helps a student acquire more information and knowledge during spare time?",
+        options: [
+          "Playing video games.",
+          "Visiting the library to read.",
+          "Sleeping until noon.",
+          "Telling stories with friends."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Visiting the library to read best helps a student acquire more information and knowledge during spare time."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Leisure is often described as 'recharging your battery.' What does this mean?",
+        options: [
+          "You should play with electronic gadgets.",
+          "It restores lost energy and refreshes the mind.",
+          "You need to sleep near a power outlet.",
+          "It makes you grow taller instantly."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Leisure as 'recharging your battery' means it restores lost energy and refreshes the mind."
+    )
+  ],
+);
+
+/// Social Studies Models
+
+final IndependentPracticeModel SSjhs1s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S1 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which practice is most likely to cause water pollution?",
+        options: [
+          "Sweeping the compound daily",
+          "Planting trees near a river",
+          "Dumping household waste into a stream",
+          "Using a covered dustbin"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Dumping household waste into a stream is most likely to cause water pollution."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Why is open defecation considered a sanitation challenge?",
+        options: [
+          "It provides free fertilizer for the soil",
+          "It leads to the spread of infectious diseases",
+          "It is a modern cultural practice",
+          "It helps to keep the air fresh"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Open defecation is considered a sanitation challenge because it leads to the spread of infectious diseases."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a component of the physical environment?",
+        options: [
+          "Religious beliefs",
+          "Marriage customs",
+          "The atmosphere",
+          "Language"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The atmosphere is a component of the physical environment."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. How does poor sanitation affect Ghana’s economy?",
+        options: [
+          "It attracts more international tourists",
+          "It reduces the cost of healthcare",
+          "It discourages investors from the country",
+          "It makes the land more fertile for farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Poor sanitation discourages investors from the country and negatively affects Ghana’s economy."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S1 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which energy source is found in the Jubilee Field?",
+        options: [
+          "Wood",
+          "Wind",
+          "Petroleum",
+          "Water"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Petroleum is the energy source found in the Jubilee Field."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a disadvantage of using fuel wood (Biomass)?",
+        options: [
+          "It is completely free.",
+          "It leads to deforestation.",
+          "It never produces smoke.",
+          "It makes the air cleaner."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A major disadvantage of using fuel wood (Biomass) is that it leads to deforestation."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. What is a benefit of using LED bulbs?",
+        options: [
+          "They use more electricity.",
+          "They burn out very quickly.",
+          "They are more energy-efficient.",
+          "They only work during the day."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A benefit of using LED bulbs is that they are more energy-efficient."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. In which region of Ghana are most of our oil fields located?",
+        options: [
+          "Greater Accra Region",
+          "Northern Region",
+          "Western Region",
+          "Ashanti Region"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Most of Ghana’s oil fields are located in the Western Region."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS1 S1 SS2 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What colour is traditionally used on Ghanaian topographical maps to represent water bodies like Lake Bosomtwe?",
+        options: [
+          "Green",
+          "Brown",
+          "Blue",
+          "Yellow"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Blue is traditionally used on Ghanaian topographical maps to represent water bodies like Lake Bosomtwe."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a \"cardinal point\" found on a compass rose?",
+        options: [
+          "South-East",
+          "North-West",
+          "South",
+          "North-East"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "South is a cardinal point found on a compass rose."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which of the following is the best definition of a sketch map?",
+        options: [
+          "A map drawn exactly to scale",
+          "A simple drawing showing a few details without a scale",
+          "A map showing only population density",
+          "A map used only by the military"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A sketch map is a simple drawing showing a few details without a scale."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. If the Representative Fraction (RF) scale is 1:100,000, what does 1 centimetre on the map represent on the ground?",
+        options: [
+          "1 metre",
+          "10 kilometres",
+          "100 metres",
+          "1 kilometre"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "If the Representative Fraction (RF) scale is 1:100,000, 1 centimetre on the map represents 1 kilometre on the ground."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS1 S1 SS3 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which ocean is known as the deepest ocean on Earth?",
+        options: [
+          "Atlantic Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean",
+          "Indian Ocean"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Pacific Ocean is known as the deepest ocean on Earth."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is the largest hot desert in the world?",
+        options: [
+          "Kalahari Desert",
+          "Sahara Desert",
+          "Namib Desert",
+          "Gobi Desert"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Sahara Desert is the largest hot desert in the world."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. How long does it typically take for plastic to decompose in the environment?",
+        options: [
+          "40 days",
+          "4 years",
+          "40 years",
+          "400 years"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "It typically takes around 400 years for plastic to decompose in the environment."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Mount Everest, the highest peak in the world, is part of which mountain range?",
+        options: [
+          "The Alps",
+          "The Himalayas",
+          "The Andes",
+          "The Rockies"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Mount Everest is part of the Himalayas mountain range."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s1ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/5. SOCIAL STUDIES JHS1 S1 SS3 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What do we call a long period without enough rain, leading to water and food shortages?",
+        options: [
+          "Flood",
+          "Earthquake",
+          "Drought",
+          "Landslide"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A long period without enough rain, leading to water and food shortages, is called a drought."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. On June 24th, 2020, which natural disaster was experienced in parts of Greater Accra?",
+        options: [
+          "A major wildfire",
+          "A mild earthquake",
+          "A massive landslide",
+          "Severe sea erosion"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "On June 24th, 2020, a mild earthquake was experienced in parts of Greater Accra."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which of these human activities makes flooding worse in Ghanaian cities?",
+        options: [
+          "Planting more trees",
+          "Building houses in waterways",
+          "Listening to weather forecasts",
+          "Using paper bags instead of plastic"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Building houses in waterways makes flooding worse in Ghanaian cities."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. What is the primary job of the Ghana National Fire Service during a disaster?",
+        options: [
+          "Giving out food and water",
+          "Predicting the next earthquake",
+          "Rescue and fire evacuation services",
+          "Building sea walls"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The primary job of the Ghana National Fire Service during a disaster is rescue and fire evacuation services."
+    ),
+    IndependentPracticeQuestion(
+        question: "5. Sea erosion is most likely to destroy buildings in which of these towns?",
+        options: [
+          "Kumasi",
+          "Tamale",
+          "Keta",
+          "Sunyani"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Sea erosion is most likely to destroy buildings in Keta."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why is personal hygiene very important for an adolescent?",
+        options: [
+          "To look taller than your friends",
+          "To prevent body odour and skin diseases",
+          "To pass Social Studies exams easily",
+          "To earn more money in the future"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Personal hygiene is very important for an adolescent to prevent body odour and skin diseases."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which emotional change is common during adolescence?",
+        options: [
+          "Wanting to play with baby toys",
+          "Becoming more dependent on parents for every choice",
+          "A desire for more independence and privacy",
+          "Forgetting how to speak your local language"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A desire for more independence and privacy is a common emotional change during adolescence."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. What is a major risk for adolescents who engage in early, unprotected sex?",
+        options: [
+          "Growing too tall",
+          "Contracting Sexually Transmitted Infections (STIs)",
+          "Improving their school grades",
+          "Becoming a famous role model immediately"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A major risk for adolescents who engage in early, unprotected sex is contracting Sexually Transmitted Infections (STIs)."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. How can a balanced diet help an adolescent?",
+        options: [
+          "It prevents them from ever feeling shy",
+          "It supports rapid growth and development",
+          "It makes their voice stay very high",
+          "It replaces the need for daily bathing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A balanced diet helps an adolescent by supporting rapid growth and development."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S2 SS2-3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of an agency of socialisation?",
+        options: [
+          "An Imam",
+          "A Chief",
+          "The Mass Media",
+          "A Parent"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Mass Media is an example of an agency of socialisation."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Through socialisation at school, students learn to...",
+        options: [
+          "Disobey their elders",
+          "Follow school rules and discipline",
+          "Stay at home all day",
+          "Ignore their classmates"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Through socialisation at school, students learn to follow school rules and discipline."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which agent is most likely to teach a child traditional customs in a Ghanaian village?",
+        options: [
+          "The Television",
+          "A Chief",
+          "A News Reporter",
+          "A Textbook"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A Chief is most likely to teach a child traditional customs in a Ghanaian village."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Socialisation helps a person to...",
+        options: [
+          "Live in isolation",
+          "Acquire skills for future jobs",
+          "Forget their native language",
+          "Avoid going to school"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Socialisation helps a person to acquire skills for future jobs."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS1 S2 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which term describes people moving out of Ghana to live in another country?",
+        options: [
+          "Immigration",
+          "Emigration",
+          "Calculation",
+          "Mortality"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Emigration describes people moving out of Ghana to live in another country."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. According to the 2021 Census, which region became the most populous in Ghana?",
+        options: [
+          "Ashanti Region",
+          "Northern Region",
+          "Greater Accra Region",
+          "Western Region"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "According to the 2021 Census, the Greater Accra Region became the most populous in Ghana."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which factor would cause a decrease in population growth?",
+        options: [
+          "High birth rate",
+          "High immigration",
+          "Improved health care",
+          "High death rate"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A high death rate would cause a decrease in population growth."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. If a country has \"zero growth rate,\" it means:",
+        options: [
+          "No one is living there",
+          "No babies were born",
+          "Births and deaths are equal",
+          "Everyone moved to the city"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Zero population growth rate means births and deaths are equal."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why is it important to identify your weaknesses?",
+        options: [
+          "To feel bad about yourself",
+          "To show off to your friends",
+          "To ignore them and focus on fun",
+          "To overcome them and fit into society"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "It is important to identify your weaknesses so you can overcome them and fit into society."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a way to develop your natural talents?",
+        options: [
+          "Avoiding difficult tasks",
+          "Continuous practice and training",
+          "Waiting for luck to happen",
+          "Hiding your skills from others"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Continuous practice and training is a way to develop your natural talents."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Believing in yourself and your ability to face challenges is called:",
+        options: [
+          "Self-confidence",
+          "Arrogance",
+          "Self-identity",
+          "Education"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Believing in yourself and your ability to face challenges is called self-confidence."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. How can a school counselor help a student’s self-identity?",
+        options: [
+          "By doing their homework for them",
+          "By giving them money for lunch",
+          "By providing guidance and direction",
+          "By telling them to quit school"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A school counselor can help a student’s self-identity by providing guidance and direction."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S4 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A foreigner who marries a Ghanaian and applies for citizenship acquires it through which method?",
+        options: [
+          "Naturalisation",
+          "Birth",
+          "Registration",
+          "Adoption"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A foreigner who marries a Ghanaian acquires citizenship through registration."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. What is the best action to take when you see someone destroying a streetlight?",
+        options: [
+          "Join them in the action",
+          "Report the person to the police",
+          "Walk away and stay silent",
+          "Take a photo and show only friends"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The best action is to report the person to the police."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which of the following is a responsibility of a citizen regarding national symbols?",
+        options: [
+          "Changing the colours of the flag",
+          "Selling the symbols for profit",
+          "Respecting the National Anthem",
+          "Using the symbols for personal jokes"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Respecting the National Anthem is a responsibility of a citizen regarding national symbols."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. How does honesty contribute to the development of Ghana?",
+        options: [
+          "It helps build trust among citizens",
+          "It makes one richer than others",
+          "It allows one to avoid paying taxes",
+          "It helps in winning football matches"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Honesty helps build trust among citizens and contributes to the development of Ghana."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Human Resource Development is the process of:",
+        options: [
+          "Building more roads and bridges",
+          "Increasing the number of children in a family",
+          "Increasing the knowledge and skills of people",
+          "Buying new machines for factories"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Human Resource Development is the process of increasing the knowledge and skills of people."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Providing career counselling in schools helps students to:",
+        options: [
+          "Choose paths that match their passions and talents",
+          "Avoid taking any exams",
+          "Get free food at school",
+          "Become more famous than their friends"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Providing career counselling in schools helps students choose paths that match their passions and talents."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. How does improving the health of the people contribute to human resource development?",
+        options: [
+          "It makes people spend more money",
+          "Healthy people are more productive and can work better",
+          "It reduces the number of schools needed",
+          "It helps people sleep longer"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Improving the health of the people contributes to human resource development because healthy people are more productive and can work better."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Which of these is an example of 'training' for a specific job?",
+        options: [
+          "A student reading a storybook for fun",
+          "An apprentice learning dressmaking from a master tailor",
+          "A person watching a football match",
+          "A child cleaning the house"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An apprentice learning dressmaking from a master tailor is an example of training for a specific job."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the minimum age required for a worker to join the SSNIT social security scheme in Ghana?",
+        options: [
+          "18 years",
+          "20 years",
+          "15 years",
+          "12 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The minimum age required for a worker to join the SSNIT social security scheme in Ghana is 15 years."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which law currently establishes and governs the social security and pension system in Ghana?",
+        options: [
+          "The National Pensions Act, 2008 (Act 766)",
+          "The Labour Act, 2003",
+          "The Companies Act, 2019",
+          "The Constitution of 1992"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The National Pensions Act, 2008 (Act 766) currently establishes and governs the social security and pension system in Ghana."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. If a worker dies while they are still a member of the social security scheme, who receives the support?",
+        options: [
+          "Their employer",
+          "Their bank manager",
+          "Their coworkers",
+          "Their dependents (spouse and children)"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "If a worker dies while they are still a member of the social security scheme, their dependents (spouse and children) receive the support."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. What is the standard compulsory retirement age to receive a full old-age pension from SSNIT?",
+        options: [
+          "55 years",
+          "60 years",
+          "65 years",
+          "50 years"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What are the harmful materials that damage the quality of water called?",
+        options: [
+          "Nutrients",
+          "Fertilizers",
+          "Pollutants",
+          "Minerals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The harmful materials that damage the quality of water are called pollutants."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which agency in Ghana is primarily responsible for protecting the environment from pollution?",
+        options: [
+          "Ghana Post",
+          "Environmental Protection Agency (EPA)",
+          "Ghana Football Association",
+          "Electricity Company of Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Environmental Protection Agency (EPA) is primarily responsible for protecting the environment from pollution in Ghana."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a way to prevent water pollution?",
+        options: [
+          "Dumping plastic waste into gutters",
+          "Farming very close to river banks",
+          "Proper treatment of sewage from homes",
+          "Using chemicals for fishing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proper treatment of sewage from homes is a way to prevent water pollution."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. What happens to the cost of water when our rivers become heavily polluted?",
+        options: [
+          "The cost stays the same.",
+          "The cost decreases.",
+          "Water becomes free for everyone.",
+          "The cost increases due to expensive treatment."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "When rivers become heavily polluted, the cost of water increases due to expensive treatment."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S1 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What does a high 'star rating' on a Ghanaian energy sticker represent?",
+        options: [
+          "The appliance is very expensive",
+          "The appliance is very energy-efficient",
+          "The appliance uses a lot of water",
+          "The appliance is made of gold"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A high 'star rating' on a Ghanaian energy sticker represents that the appliance is very energy-efficient."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a benefit of conserving energy for a family?",
+        options: [
+          "It increases the electricity bill",
+          "It makes the house hotter",
+          "It reduces the cost of living",
+          "It makes gadgets break faster"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A benefit of conserving energy for a family is that it reduces the cost of living."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. How can a headteacher help conserve energy in a school?",
+        options: [
+          "By leaving the computer lab lights on at night",
+          "By encouraging students to plant trees for shade",
+          "By removing all the windows",
+          "By buying the oldest electronics available"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A headteacher can help conserve energy in a school by encouraging students to plant trees for shade."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Why is energy conservation referred to as 'Green Energy'?",
+        options: [
+          "Because all energy-saving bulbs are green",
+          "Because it is environmentally friendly",
+          "Because it is only used for plants",
+          "Because it is the color of the Ghana flag"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy conservation is referred to as 'Green Energy' because it is environmentally friendly."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an example of a Representative Fraction (RF) scale?",
+        options: [
+          "1cm to 5km",
+          "One centimetre represents five kilometres",
+          "1:500,000",
+          "A line divided into kilometres"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An RF scale is written as a ratio without units, such as 1:500,000."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which instrument is used by geographers to find the direction of a place?",
+        options: [
+          "Ruler",
+          "Thermometer",
+          "Compass",
+          "Barometer"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A compass is used to find direction such as North, South, East, and West."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. What do we call a prominent object on land, like a church or a tall building, used to find a location?",
+        options: [
+          "Grid line",
+          "Scale",
+          "Landmark",
+          "Easting"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A landmark is a noticeable feature used to identify locations."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. If the Easting is 15 and the Northing is 36, what is the four-figure grid reference?",
+        options: [
+          "3615",
+          "1536",
+          "1500",
+          "3600"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Grid references are written as Easting first, then Northing → 15 and 36 = 1536."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S1 SS3 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. If it rains suddenly while you are walking to school in Accra, this change is called:",
+        options: [
+          "Climate",
+          "Humidity",
+          "Weather",
+          "Pressure"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Weather refers to short-term atmospheric changes such as sudden rain."
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Which of these is the wettest climatic zone in Ghana?",
+        options: [
+          "Tropical Continental",
+          "South-West Equatorial",
+          "Dry Equatorial",
+          "Wet Semi-Equatorial"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The South-West Equatorial zone receives the highest rainfall in Ghana."
+    ),
+    IndependentPracticeQuestion(
+        question: "3. A farmer needs to measure how much water has fallen on his crops. Which tool does he need?",
+        options: [
+          "Thermometer",
+          "Wind vane",
+          "Barometer",
+          "Rain gauge"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A rain gauge is used to measure the amount of rainfall."
+    ),
+    IndependentPracticeQuestion(
+        question: "4. Humidity is the amount of ______ in the air.",
+        options: [
+          "Dust",
+          "Water vapour",
+          "Wind",
+          "Pressure"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Humidity refers to the amount of water vapour present in the air."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S2 SS1-2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is one advantage of the nuclear family system?",
+        options: [
+          "There is always a large crowd for parties",
+          "It is generally less expensive to manage",
+          "Many relatives live in the same house",
+          "Uncles provide all the food"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It is generally less expensive to manage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which value is highly emphasized in the Ghanaian family system compared to the Western system?",
+        options: [
+          "Individualism",
+          "Group harmony",
+          "Self-expression",
+          "Independence"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Group harmony is highly emphasized in the Ghanaian family system compared to the Western system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A mother acting as a 'financial controller' means she:",
+        options: [
+          "Spends all the money on herself",
+          "Works at a bank in the city",
+          "Manages and controls family spending",
+          "Refuses to give the children food"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Manages and controls family spending."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which family member is traditionally seen as the 'breadwinner' in a nuclear family home?",
+        options: [
+          "The first-born son",
+          "The grandmother",
+          "The father",
+          "The auntie"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The father is traditionally seen as the breadwinner in a nuclear family home."
+    )
+  ],
+);
+final IndependentPracticeModel SSjhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S2 SS1-2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which ethnic group in Ghana traditionally practices the patrilineal system?",
+        options: [
+          "Ashantis",
+          "Fantes",
+          "Ewes",
+          "Akwapims"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Ewes traditionally practice the patrilineal system in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a \"Will\"?",
+        options: [
+          "A type of traditional clothing",
+          "A legal document expressing a person's final wishes",
+          "A name given to the first-born son",
+          "A song sung at funerals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A Will is a legal document expressing a person's final wishes."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Under PNDC Law 111, if a man dies leaving a wife and children, who gets his house?",
+        options: [
+          "His sister's son",
+          "The head of the family (Abusuapanin)",
+          "The surviving spouse and children",
+          "The local chief"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The surviving spouse and children get the house under PNDC Law 111."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is one way to improve the indigenous inheritance system to avoid conflict?",
+        options: [
+          "Hiding property from relatives",
+          "Encouraging parents to write a Will",
+          "Refusing to get married",
+          "Giving all property to friends"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Encouraging parents to write a Will is one way to improve the indigenous inheritance system to avoid conflict."
+    )
+  ],
+);
+final IndependentPracticeModel SSjhs2s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S2 SS3-4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to the 2021 Census, what percentage of Ghana's population is made up of children (0–14 years)?",
+        options: [
+          "4.3%",
+          "60.4%",
+          "35.3%",
+          "15.7%"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "According to the 2021 Census, 35.3% of Ghana's population is made up of children (0–14 years)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which term describes the graphical representation of a country's age and sex distribution?",
+        options: [
+          "Population Census",
+          "Population Pyramid",
+          "Population Growth",
+          "Population Density"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Population Pyramid describes the graphical representation of a country's age and sex distribution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A country with a \"narrow apex\" on its population pyramid likely has:",
+        options: [
+          "High life expectancy",
+          "Low death rates",
+          "Low life expectancy",
+          "Many elderly citizens"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A country with a narrow apex on its population pyramid likely has low life expectancy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of the following is a middle-income country mentioned in your lesson?",
+        options: [
+          "Canada",
+          "Singapore",
+          "Norway",
+          "Nigeria"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Nigeria is a middle-income country mentioned in the lesson."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S3 SS1-2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. When a community identifies a specific need, what is the first step they should take?",
+        options: [
+          "Start building immediately.",
+          "Investigate the problem thoroughly.",
+          "Ask for money from other towns.",
+          "Wait for a year to see if it goes away."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When a community identifies a specific need, the first step they should take is to investigate the problem thoroughly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of a value that helps community development?",
+        options: [
+          "Selfishness.",
+          "Togetherness.",
+          "Laziness.",
+          "Greed."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Togetherness is an example of a value that helps community development."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is 'evaluation' important in the decision-making process?",
+        options: [
+          "To make the process take longer.",
+          "To pick the most effective solution.",
+          "To prevent anyone from helping.",
+          "To keep the problem secret."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Evaluation is important in the decision-making process because it helps to pick the most effective solution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Community development is mainly about",
+        options: [
+          "Only the chiefs making every choice.",
+          "Members taking collective action to solve problems.",
+          "Building individual houses for personal use.",
+          "Buying expensive cars for the community leaders."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Community development is mainly about members taking collective action to solve problems."
+    )
+  ],
+);
+final IndependentPracticeModel SSjhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S3 SS1-2 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which organisation in Ghana focuses on disaster relief and medical help?",
+        options: [
+          "Green Ghana Cooperation.",
+          "The Ghana Red Cross.",
+          "The Forestry Commission.",
+          "The GPRTU."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Ghana Red Cross focuses on disaster relief and medical help in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Helping an elderly person with their shopping is an example of:",
+        options: [
+          "A household chore.",
+          "An act of kindness for a neighbour.",
+          "A government job.",
+          "A waste of time."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Helping an elderly person with their shopping is an example of an act of kindness for a neighbour."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is it important to report crime as a volunteer role?",
+        options: [
+          "To get a reward from the police.",
+          "To help maintain peace and security.",
+          "To make your neighbours fear you.",
+          "To become a famous person."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It is important to report crime as a volunteer role to help maintain peace and security."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What can you do with clothes that are too small for you but still in good condition?",
+        options: [
+          "Throw them in the rubbish bin.",
+          "Donate them to the needy in the community.",
+          "Burn them in the backyard.",
+          "Keep them hidden in a box forever."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "You can donate clothes that are too small for you but still in good condition to the needy in the community."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S4 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why are human rights described as 'inherent'?",
+        options: [
+          "Because you have to buy them with Cedis",
+          "Because you only get them when you turn 18",
+          "Because you are born with them as a human being",
+          "Because only the President can give them to you"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Human rights are described as 'inherent' because you are born with them as a human being."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which chapter of the 1992 Constitution of Ghana is most famous for protecting your freedoms?",
+        options: [
+          "The Preamble",
+          "Fundamental Human Rights and Freedoms",
+          "The List of National Holidays",
+          "The Guide to Farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Chapter on Fundamental Human Rights and Freedoms is most famous for protecting your freedoms in the 1992 Constitution of Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens when a person's right to a fair trial is protected?",
+        options: [
+          "They are allowed to go home immediately without a trial",
+          "They are given a chance to defend themselves in a court of law",
+          "They are punished before the judge arrives",
+          "They are forced to pay the police money"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When a person's right to a fair trial is protected, they are given a chance to defend themselves in a court of law."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Protecting public property, like a school bus or a street light, is an example of:",
+        options: [
+          "A human right",
+          "A civic responsibility",
+          "A international law",
+          "A personal hobby"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Protecting public property is an example of a civic responsibility."
+    )
+  ],
+);
+final IndependentPracticeModel SSjhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S4 SS2 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. When two groups in a school disagree and bring in a teacher to help them talk and find a solution, the teacher is acting as a:",
+        options: [
+          "Negotiator",
+          "Arbitrator",
+          "Mediator",
+          "Litigator"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The teacher is acting as a Mediator."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a common effect of conflict on a community's development?",
+        options: [
+          "Increase in new businesses",
+          "Destruction of public property",
+          "Better health facilities",
+          "Improved student grades"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A common effect of conflict on a community's development is destruction of public property."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why are Queen Mothers and women important in conflict management in Ghana?",
+        options: [
+          "They encourage youth to fight",
+          "They make the laws in court",
+          "They help negotiate and promote non-violence",
+          "They stay away from community issues"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Queen Mothers and women are important in conflict management in Ghana because they help negotiate and promote non-violence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a way to manage an existing conflict?",
+        options: [
+          "Ignoring the problem",
+          "Arbitration",
+          "Spreading rumors",
+          "Promoting tribalism"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Arbitration is a way to manage an existing conflict."
+    )
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is a primary obligation of an employee regarding their pension?",
+        options: [
+          "To pay the salaries of other workers",
+          "To register the company with the Registrar General",
+          "To check contribution statements regularly",
+          "To decide how much the employer should pay"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A primary obligation of an employee regarding their pension is to check contribution statements regularly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of a public sector employer in Ghana?",
+        options: [
+          "A local 'chop bar' owner",
+          "The Ghana Education Service (GES)",
+          "A freelance photographer",
+          "A small family kiosk"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Ghana Education Service (GES) is an example of a public sector employer in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If an employer defaults in paying contributions, what should the employee do?",
+        options: [
+          "Stop going to work immediately",
+          "Notify SSNIT about the default",
+          "Deduct the money from the shop's till",
+          "Keep it a secret to protect their job"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "If an employer defaults in paying contributions, the employee should notify SSNIT about the default."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it important for an employee to update their records with SSNIT?",
+        options: [
+          "To help the employer pay less tax",
+          "To ensure benefits are paid to the right people",
+          "To change their name every year",
+          "To increase their basic salary"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It is important for an employee to update their records with SSNIT to ensure benefits are paid to the right people."
+    )
+  ],
+);
+final IndependentPracticeModel SSjhs2s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How does tourism help to preserve Ghanaian culture?",
+        options: [
+          "It forces everyone to speak English.",
+          "It encourages the protection of historic sites and festivals.",
+          "It stops people from making traditional crafts.",
+          "It replaces local food with foreign food."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Tourism helps preserve culture by encouraging the protection of historic sites and festivals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these people is most likely to find a job because of tourism?",
+        options: [
+          "A fisherman in the deep sea.",
+          "A computer programmer in an office.",
+          "A tour guide at the Elmina Castle.",
+          "A cocoa farmer in the bush."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Tourism creates jobs like tour guiding at popular tourist sites such as Elmina Castle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is \"galamsey\" a threat to tourism in Ghana?",
+        options: [
+          "It makes the tourist sites too crowded.",
+          "It destroys the water bodies and natural beauty.",
+          "It makes the tour guides work too hard.",
+          "It causes the prices of souvenirs to drop."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Galamsey damages the environment, including rivers and landscapes, which reduces tourism appeal."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What do we call the money visitors from other countries spend in Ghana?",
+        options: [
+          "Local debt",
+          "Foreign exchange",
+          "Internal loan",
+          "Trade barter"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Money spent by foreign visitors is called foreign exchange."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs2s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S6 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who was the first President of the Republic of Ghana?",
+        options: [
+          "Dr J.B. Danquah",
+          "Dr Kwame Nkrumah",
+          "Sir Arku Korsah",
+          "Dr K.A. Busia"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dr Kwame Nkrumah was the first President of the Republic of Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Before Ghana became a Republic, who was the official Head of State?",
+        options: [
+          "The President",
+          "The Prime Minister",
+          "The Queen of Britain",
+          "The Governor-General"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Before becoming a republic, Ghana recognized the Queen of Britain as Head of State."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What percentage of the vote did Dr Kwame Nkrumah receive in the 1960 election?",
+        options: [
+          "11.53%",
+          "50.0%",
+          "89.1%",
+          "10.9%"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Dr Kwame Nkrumah received 89.1% of the vote in the 1960 election."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Who swore in the first President of Ghana?",
+        options: [
+          "The Governor-General",
+          "The Queen of Britain",
+          "The Chief Justice",
+          "The Speaker of Parliament"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Chief Justice administered the oath of office to the President."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs2s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S6 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which body was set up to advise the government on traditional laws and customs?",
+        options: [
+          "The British Parliament",
+          "Regional Houses of Chiefs",
+          "The Supreme Court",
+          "The Electoral Commission"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Regional Houses of Chiefs were established to advise the government on traditional laws and customs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How were Cabinet Ministers chosen under the First Republic?",
+        options: [
+          "They were elected by the people",
+          "They were appointed by the Queen",
+          "They were appointed by the President from Parliament",
+          "They were chosen by the Chief Justice"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cabinet Ministers were appointed by the President from members of Parliament."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What power did the 1960 Constitution give the President regarding Parliament?",
+        options: [
+          "He had no power over Parliament",
+          "He could dissolve Parliament",
+          "He had to ask Parliament for permission to speak",
+          "He was a member of the opposition party"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The 1960 Constitution gave the President the power to dissolve Parliament."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The change from a Parliamentary system to a Presidential system meant:",
+        options: [
+          "The Prime Minister gained more power",
+          "The Queen became more involved",
+          "Power was concentrated in the President",
+          "Ghana stopped being a Republic"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The shift to a Presidential system concentrated more power in the hands of the President."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs2s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S6 SS1 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How many seats did the Progress Party win in the 1969 Parliamentary election?",
+        options: [
+          "29",
+          "140",
+          "105",
+          "89"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The Progress Party won 105 seats in the 1969 Parliamentary election."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where was Dr Kwame Nkrumah when the 1966 coup happened?",
+        options: [
+          "Kumasi, Ghana",
+          "Hanoi, Vietnam",
+          "London, England",
+          "Accra, Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dr Kwame Nkrumah was in Hanoi, Vietnam during the 1966 coup."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which party came in second place during the 1969 elections?",
+        options: [
+          "People's Action Party (PAP)",
+          "United Nationalist Party (UNP)",
+          "National Alliance of Liberals (NAL)",
+          "All People's Republican Party (APRP)"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The National Alliance of Liberals (NAL) came second in the 1969 elections."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What was the main purpose of the \"Constituent Assembly\" in 1969?",
+        options: [
+          "To fight a war",
+          "To write a new constitution",
+          "To arrest the former President",
+          "To build new schools"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Constituent Assembly was responsible for drafting a new constitution."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs2s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S6 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which constitution created the office of the Ombudsman?",
+        options: [
+          "1957 Constitution",
+          "1960 Constitution",
+          "1969 Constitution",
+          "1992 Constitution"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The 1969 Constitution established the office of the Ombudsman in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Under the 1969 Constitution, from where were Cabinet Ministers chosen?",
+        options: [
+          "They were appointed from outside the country",
+          "They were chosen from the National Assembly (Parliament)",
+          "They were chosen by the Queen",
+          "They were elected directly by the people"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cabinet Ministers were selected from members of the National Assembly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What system of government did the Second Republic use?",
+        options: [
+          "Presidential System",
+          "Parliamentary System",
+          "Military Rule",
+          "Federal System"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Second Republic operated a Parliamentary System of government."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Who was the President of the Second Republic?",
+        options: [
+          "Dr Kwame Nkrumah",
+          "Dr K.A. Busia",
+          "Edward Akufo-Addo",
+          "J.A. Ankrah"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Edward Akufo-Addo was the President during Ghana’s Second Republic."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S1 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which agricultural activity contributes to air pollution?",
+        options: [
+          "Digging a well for irrigation",
+          "Using a cutlass to weed the farm",
+          "Spraying crops with chemical insecticides",
+          "Planting maize during the rainy season"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Spraying crops with chemical insecticides releases harmful substances into the air."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The release of Chlorofluorocarbons (CFCs) into the air is primarily responsible for:",
+        options: [
+          "The depletion of the ozone layer",
+          "Improving the growth of forest trees",
+          "Reducing the amount of dust in the air",
+          "Making the soil more fertile for farming"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "CFCs damage the ozone layer, leading to its depletion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a natural cause of air pollution?",
+        options: [
+          "Smoke from a bushfire",
+          "Fumes from a mining site",
+          "Volcanic eruptions",
+          "Exhaust from a generator"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Volcanic eruptions are natural events that release gases and ash into the air."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is open burning of rubbish considered harmful?",
+        options: [
+          "It takes too much time to finish",
+          "It releases toxic gases and smoke",
+          "It makes the compound look very neat",
+          "It provides heat for cooking food"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Open burning releases harmful gases and smoke that pollute the air and affect health."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S1 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which energy source is considered a 'renewable' source?",
+        options: [
+          "Crude Oil",
+          "Solar Energy",
+          "Natural Gas",
+          "Coal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Solar energy is a renewable energy source because it is naturally replenished by the sun."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does indoor air pollution specifically affect gender issues in energy?",
+        options: [
+          "It mostly affects men working in offices",
+          "It affects women and girls who cook with firewood",
+          "It only affects people living in the UK",
+          "It has no impact on health at home"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Women and girls are more affected because they are often responsible for cooking using firewood, exposing them to indoor air pollution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main advantage of using a digital meter over an analog one?",
+        options: [
+          "It is much heavier to carry",
+          "It makes a loud noise when power is used",
+          "It provides an easy-to-read electronic display",
+          "It does not require any wires to work"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Digital meters provide a clear and easy-to-read electronic display."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which action is an example of energy conservation?",
+        options: [
+          "Leaving the lights on when you leave the room",
+          "Ironing one shirt every morning",
+          "Turning off electronics when not in use",
+          "Using the oldest appliances available"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Turning off electronics when not in use helps conserve energy and reduce electricity consumption."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S1 SS2 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Resources that can be replaced naturally after use are called...",
+        options: [
+          "Exhaustible resources",
+          "Renewable resources",
+          "Non-renewable resources",
+          "Mineral resources"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Renewable resources can be replaced naturally after use."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which mineral is used as a major raw material for the production of cement?",
+        options: [
+          "Bauxite",
+          "Manganese",
+          "Gold",
+          "Limestone"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Limestone is a key raw material used in cement production."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which region in Ghana is currently the main source of crude oil?",
+        options: [
+          "Western Region",
+          "Greater Accra Region",
+          "Northern Region",
+          "Volta Region"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The Western Region is the main source of crude oil in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it difficult for Ghana to exploit its resources effectively?",
+        options: [
+          "We have too many resources",
+          "Low level of technology and limited capital",
+          "Other countries do not want our resources",
+          "Resources are located too close to the surface"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Limited technology and capital make it difficult to fully exploit resources."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S1 SS2 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The total number of people available and ready to work in a country is called...",
+        options: [
+          "Natural resources",
+          "Capital resources",
+          "Human resources",
+          "Mineral resources"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Human resources refer to the people available and ready to work."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How can a community member use their human resource ability to help their town?",
+        options: [
+          "By leaving litter on the street",
+          "By organizing a free literacy class for children",
+          "By waiting for the government to do everything",
+          "By ignoring community meetings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using skills like teaching helps improve the community."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"Right placement\" in the workforce means...",
+        options: [
+          "Putting every worker in the Western Region",
+          "Giving everyone the same salary",
+          "Matching a person’s job to their specific training and skills",
+          "Making sure everyone works in a factory"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Right placement ensures people are assigned jobs that match their skills."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which factor ensures that human resources stay productive for a long time?",
+        options: [
+          "High taxes",
+          "Good health and nutrition",
+          "Large amounts of crude oil",
+          "Frequent holidays"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Healthy individuals are more productive over time."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What happens when a country has many natural resources but very low human resource development?",
+        options: [
+          "The country becomes the richest in the world",
+          "The resources are often wasted or exploited by others",
+          "Education becomes unnecessary",
+          "Gold turns into timber"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Without skilled people, resources may be poorly managed or exploited by others."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S2 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which ceremony in a customary marriage involves the man's family officially asking for the woman's hand?",
+        options: [
+          "Wedding Ceremony",
+          "Knocking Ceremony",
+          "Naming Ceremony",
+          "Graduation Ceremony"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The knocking ceremony is when the man's family formally asks for the woman's hand in marriage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Marriage under the Ordinance is strictly ________.",
+        options: [
+          "Polygamous",
+          "Informal",
+          "Monogamous",
+          "Temporary"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Marriage under the Ordinance is strictly monogamous, meaning one man and one woman."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a major cause of broken marriages in Ghana?",
+        options: [
+          "Too much communication",
+          "Financial or poverty problems",
+          "Respecting each other",
+          "Eating together"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Financial difficulties are a major cause of marital problems and breakdown."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a way to sustain a marriage?",
+        options: [
+          "Keeping secrets",
+          "Refusing to forgive",
+          "Effective communication",
+          "Ignoring the partner"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Effective communication helps couples understand each other and maintain a healthy relationship."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S2 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kofi’s parents provide him with food and clothes but never talk to him or ask about his schoolwork. Which parenting style is this?",
+        options: [
+          "Authoritative",
+          "Uninvolved",
+          "Authoritarian",
+          "Permissive"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Uninvolved parenting is characterized by providing basic needs but lacking emotional support and communication."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a physical need that a responsible parent must provide?",
+        options: [
+          "A laptop for video games",
+          "Balanced meals and clean water",
+          "Expensive designer shoes",
+          "A trip to London"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Balanced meals and clean water are essential physical needs for a child’s health."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a likely consequence of a parent who is always drunk and neglects their children?",
+        options: [
+          "The child becomes a doctor",
+          "The child performs better in school",
+          "The child may engage in streetism",
+          "The family becomes very wealthy"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Neglect can lead children to seek survival on the streets, known as streetism."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A parent who sets no rules and allows their child to stay out late every night is using which style?",
+        options: [
+          "Permissive",
+          "Authoritative",
+          "Authoritarian",
+          "Strict"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Permissive parenting involves few rules and a high level of freedom for the child."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S2 SS2 L1/9. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which age group represents the 'dependent' population in Ghana?",
+        options: [
+          "15 – 60 years",
+          "18 – 40 years",
+          "0 – 14 years",
+          "20 – 50 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The dependent population includes children aged 0–14 who rely on others for support."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major cause of the development of slums in Ghanaian cities?",
+        options: [
+          "High interest rates",
+          "Unplanned urban expansion due to population growth",
+          "Increased use of technology in farming",
+          "Lack of rainfall in rural areas"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Rapid population growth without proper planning leads to the development of slums."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a positive effect of a growing population?",
+        options: [
+          "Increase in crime rates",
+          "Pressure on hospitals",
+          "Expansion of the local market for goods",
+          "Depletion of forest reserves"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A larger population can increase demand, expanding markets for goods and services."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does a large family size affect a family's savings?",
+        options: [
+          "It increases the money kept in the bank",
+          "It reduces the amount of money available to save for the future",
+          "It has no effect on money",
+          "It makes the family get more loans easily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "More family members increase expenses, reducing the ability to save."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What does the Black Star in the centre of the Ghana flag represent?",
+        options: [
+          "The gold in our mines",
+          "The people of Africa",
+          "The blood of our ancestors",
+          "The forest vegetation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Black Star represents the people of Africa and African freedom."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which symbol represents the authority of the Parliament of Ghana?",
+        options: [
+          "The State Sword",
+          "The National Flag",
+          "The Mace",
+          "The Coat of Arms"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The Mace is the symbol of authority of Parliament."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which Adinkra symbol expresses the supremacy of God?",
+        options: [
+          "Sankofa",
+          "Gye Nyame",
+          "Akoma",
+          "Denkye"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Gye Nyame means 'Except God' and represents the supremacy of God."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main purpose of national ceremonies like Independence Day?",
+        options: [
+          "To stay away from school",
+          "To display military weapons only",
+          "To foster a sense of oneness and national pride",
+          "To celebrate only the leaders of the country"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "National ceremonies promote unity and national pride among citizens."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S4 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How many years is one term of office for a President under the 1992 Constitution?",
+        options: [
+          "Five years",
+          "Six years",
+          "Four years",
+          "Seven years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Under the 1992 Constitution of Ghana, a presidential term lasts four years."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which organ of government is responsible for interpreting the law?",
+        options: [
+          "The Executive",
+          "The Judiciary",
+          "The Legislature",
+          "The Cabinet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Judiciary interprets and applies the law."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which feature of the Constitution ensures that power belongs to the Ghanaian people?",
+        options: [
+          "Popular Sovereignty",
+          "Military Rule",
+          "Decree",
+          "Dictatorship"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Popular sovereignty means that the ultimate power rests with the people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The 1992 Constitution was adopted through which of the following processes?",
+        options: [
+          "A small meeting of chiefs",
+          "A military takeover",
+          "A national referendum",
+          "An appointment by the UN"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The 1992 Constitution of Ghana was approved through a national referendum."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S4 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to the 1992 Constitution, at what age does a person stop being a 'child'?",
+        options: [
+          "16 years",
+          "21 years",
+          "18 years",
+          "12 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Under the 1992 Constitution, a person is no longer considered a child at age 18."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a primary responsibility of a Ghanaian child at school?",
+        options: [
+          "Paying the teachers' salaries",
+          "Respecting school rules and studying hard",
+          "Building new classrooms",
+          "Deciding what subjects will be taught"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Students are expected to follow school rules and focus on their studies."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is 'Neglect' in the context of child abuse?",
+        options: [
+          "Giving a child too many books to read",
+          "Failing to provide basic needs like food and shelter",
+          "Asking a child to wash their own clothes",
+          "Making a child sleep early"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Neglect is when a child is not provided with essential needs like food, shelter, and care."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which article of the 1992 Constitution focuses on the right to education?",
+        options: [
+          "Article 13",
+          "Article 50",
+          "Article 25",
+          "Article 1"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Article 25 of the 1992 Constitution guarantees the right to education."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S4 SS2 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these best describes a state of 'Security'?",
+        options: [
+          "People shouting at each other in the street",
+          "Protecting people and resources from harm",
+          "Having no money to buy food",
+          "Moving to a new town every month"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Security means protecting people and resources from harm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which action promotes peace through 'Tolerance'?",
+        options: [
+          "Forcing everyone to speak the same language",
+          "Ignoring people who are different from you",
+          "Respecting the different religious beliefs of your neighbours",
+          "Building a tall fence around your house"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Tolerance involves respecting and accepting differences among people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a key benefit of having a fire escape plan at home?",
+        options: [
+          "It makes the house look more beautiful",
+          "It helps everyone know exactly how to exit safely during a fire",
+          "It prevents fires from ever starting",
+          "It is a requirement for getting a bank loan"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A fire escape plan ensures safe and quick evacuation during emergencies."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does peace encourage international investors to come to Ghana?",
+        options: [
+          "It makes the weather better for farming",
+          "It creates a stable environment where businesses can grow safely",
+          "It ensures that everyone in Ghana becomes a millionaire",
+          "It means the investors don't have to pay any taxes"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Peace creates a stable environment that attracts investors."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S4 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who described democracy as \"the rule of the people, by the people, and for the people\"?",
+        options: [
+          "Kwame Nkrumah",
+          "Abraham Lincoln",
+          "J.B. Danquah",
+          "John Kufuor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Abraham Lincoln described democracy as government of the people, by the people, and for the people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How often are General Elections held in Ghana?",
+        options: [
+          "Every 2 years",
+          "Every 6 years",
+          "Every 4 years",
+          "Every 5 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "General elections in Ghana are held every four years."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a \"Referendum\"?",
+        options: [
+          "An election for a new Chief",
+          "A vote to replace a dead MP",
+          "A second round of presidential voting",
+          "A vote by the public on a specific national issue or proposal"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "A referendum allows citizens to vote directly on important national issues."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a sign of a \"fair\" election?",
+        options: [
+          "Only rich people are allowed to vote",
+          "Results are changed to favour the ruling party",
+          "Every eligible citizen has one vote that is counted accurately",
+          "Voters are told who to vote for by the police"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A fair election ensures that every eligible citizen votes and each vote is counted properly."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/5. SOCIAL STUDIES JHS3 S4 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main goal of decentralisation?",
+        options: [
+          "To make everyone move to Accra",
+          "To give all power to the President",
+          "To bring government and development closer to the local people",
+          "To close down all local markets"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Decentralisation brings governance and development closer to the people at the local level."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Who is the political head of the District Assembly?",
+        options: [
+          "The Headmaster",
+          "The District Chief Executive (DCE)",
+          "The Chief Justice",
+          "The Regional Minister"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The District Chief Executive (DCE) is the political head of the District Assembly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What percentage of Assembly Members are elected by the local people?",
+        options: [
+          "100%",
+          "Two-thirds (about 70%)",
+          "One-half",
+          "Zero"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "About two-thirds of Assembly Members are elected by the people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a responsibility of the District Assembly?",
+        options: [
+          "Printing the national currency (Cedis)",
+          "Declaring war on other countries",
+          "Building local JHS classroom blocks",
+          "Running the national passport office"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "District Assemblies are responsible for local development such as building schools."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/6. SOCIAL STUDIES JHS3 S4 SS3 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What does \"Political Stability\" mean?",
+        options: [
+          "When the government changes every week",
+          "A peaceful and predictable political environment",
+          "When only one person makes all the rules forever",
+          "When there is no government at all"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Political stability refers to a peaceful and predictable political system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does stability help the health sector?",
+        options: [
+          "It makes medicine more expensive",
+          "It allows the government to focus resources on building clinics",
+          "It stops doctors from working",
+          "It makes people get sick more often"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Stability allows proper planning and investment in healthcare services."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Vigilantism is a threat to stability because it:",
+        options: [
+          "Helps the police do their job",
+          "Follows the laws of Ghana",
+          "Uses unauthorized force and undermines the justice system",
+          "Makes the country very peaceful"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Vigilantism bypasses legal systems and creates disorder."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these promotes national unity?",
+        options: [
+          "Insulting people from other tribes",
+          "Encouraging dialogue and compromise between groups",
+          "Refusing to talk to people who have different religions",
+          "Only helping your own family members"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Unity is strengthened through dialogue, understanding, and compromise."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the total mandatory contribution rate for a worker's pension under Act 766?",
+        options: [
+          "13%",
+          "18.5%",
+          "5.5%",
+          "17.5%"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Under Act 766, the total mandatory pension contribution rate is 18.5%."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which tier of the pension scheme is voluntary for workers in Ghana?",
+        options: [
+          "Tier 1",
+          "Tier 2",
+          "Tier 3",
+          "Tier 4"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Tier 3 is the voluntary part of Ghana’s three-tier pension scheme."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the compulsory retirement age for workers in Ghana?",
+        options: [
+          "50 years",
+          "55 years",
+          "65 years",
+          "60 years"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The compulsory retirement age for workers in Ghana is 60 years."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which organization is responsible for regulating the pension industry in Ghana?",
+        options: [
+          "SSNIT",
+          "NPRA",
+          "GES",
+          "Bank of Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The National Pensions Regulatory Authority (NPRA) regulates the pension industry in Ghana."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of science?",
+        options: [
+          "Building a new bridge over a river",
+          "The systematic study of the natural world",
+          "Selling computers in a local market",
+          "Using a tractor to plough a large farm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Science is the systematic study of the natural world through observation and experimentation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does technology improve the mining sector in Ghana?",
+        options: [
+          "It makes the work slower and harder",
+          "It increases the cost of digging for gold",
+          "It provides 3D imaging for safer mapping",
+          "It replaces all human workers with plants"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Technology like 3D imaging improves safety and efficiency in mining operations."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a major problem impeding science development in Ghana?",
+        options: [
+          "Having too many modern laboratories",
+          "High levels of funding for all researchers",
+          "Inadequate infrastructure and equipment",
+          "Too many students wanting to study science"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Lack of proper infrastructure and equipment slows down scientific development."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which action would best help promote technology in Ghana?",
+        options: [
+          "Discouraging girls from entering science labs",
+          "Closing down all technical universities",
+          "Building innovation hubs and research centers",
+          "Relying only on very old farming methods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Innovation hubs and research centers support technological growth and development."
+    ),
+  ],
+);
+
+final IndependentPracticeModel SSjhs3s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S6 SS1 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which military group handed over power to Dr. Hilla Limann?",
+        options: [
+          "SMC I",
+          "SMC II",
+          "AFRC",
+          "NRC"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The Armed Forces Revolutionary Council (AFRC) handed over power to Dr. Hilla Limann in 1979."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Who was the presidential candidate for the Popular Front Party (PFP) in 1979?",
+        options: [
+          "William Ofori Atta",
+          "Victor Owusu",
+          "Hilla Limann",
+          "Bernasko"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Victor Owusu was the presidential candidate for the PFP in the 1979 elections."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How many days did the AFRC stay in office before the handover?",
+        options: [
+          "100 days",
+          "112 days",
+          "150 days",
+          "200 days"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The AFRC ruled Ghana for 112 days before handing over power."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What percentage of the votes did Dr. Hilla Limann win in the 1979 run-off?",
+        options: [
+          "38%",
+          "50%",
+          "58%",
+          "62%"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Dr. Hilla Limann won 62% of the votes in the 1979 presidential run-off."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S6 SS1 L2/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which body was responsible for advising the President under the 1979 Constitution?",
+        options: [
+          "The Armed Forces",
+          "The Council of State",
+          "The Ombudsman",
+          "The Supreme Military Council"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The Council of State advised the President under the 1979 Constitution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In the Third Republic, what happened if a citizen was treated unfairly by a government department?",
+        options: [
+          "They had to join the military",
+          "They could report it to the Ombudsman",
+          "They were forced to leave the country",
+          "Nothing could be done"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Citizens could report unfair treatment to the Ombudsman."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The 1979 Constitution was the supreme law. This means:",
+        options: [
+          "The President could change it at any time",
+          "Only the military had to follow it",
+          "Everyone, including the President, had to obey it",
+          "It was only used during elections"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "As the supreme law, everyone is subject to the Constitution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The Third Republic promoted 'National Integration' by:",
+        options: [
+          "Forcing everyone to speak one language",
+          "Allowing people from all regions to join different political parties",
+          "Moving the capital city to the center of Ghana",
+          "Closing all the borders"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Allowing participation from all regions helped promote unity and integration."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S6 SS1 L3/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What percentage of voters approved the 1992 Constitution?",
+        options: [
+          "50%",
+          "62%",
+          "92.59%",
+          "100%"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "92.59% of voters approved the 1992 Constitution in the referendum."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which political party was led by Professor Albert Adu Boahen in the 1992 elections?",
+        options: [
+          "NDC",
+          "NPP",
+          "PNC",
+          "CPP"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Professor Albert Adu Boahen was the presidential candidate of the NPP in 1992."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In what year did the Fourth Republic officially begin?",
+        options: [
+          "1979",
+          "1981",
+          "1992",
+          "1993"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The Fourth Republic of Ghana officially began in 1993."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Before the Fourth Republic, Ghana was ruled by which military group?",
+        options: [
+          "AFRC",
+          "SMC",
+          "PNDC",
+          "NRC"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The PNDC ruled Ghana before the start of the Fourth Republic."
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs3s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S6 SS1 L4/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which branch of government is responsible for making the laws in Ghana?",
+        options: [
+          "The Executive",
+          "The Legislature (Parliament)",
+          "The Judiciary",
+          "The Council of State"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Legislature (Parliament) is responsible for making laws in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happened during the 1992 Parliamentary elections that affected the First Parliament?",
+        options: [
+          "There were no elections",
+          "All parties participated",
+          "The main opposition parties boycotted the elections",
+          "The military stopped the voting"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The boycott by opposition parties affected representation in the First Parliament."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How long is a single term of office for a President under the 1992 Constitution?",
+        options: [
+          "2 years",
+          "4 years",
+          "7 years",
+          "8 years"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A presidential term under the 1992 Constitution lasts four years."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Ghana is described as a 'Unitary State.' What does this mean?",
+        options: [
+          "Power is shared equally with other countries",
+          "Each region makes its own supreme laws",
+          "All powers of government belong to a single central authority",
+          "There is only one person living in the country"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "A unitary state has a central government with ultimate authority."
+    ),
+  ],
+);
+
+///Science
+final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/1. JHS1 S1 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these materials is the best example of a \"shiny\" appearance?",
+        options: [
+          "A piece of charcoal",
+          "A new silver spoon",
+          "A heap of dry sand",
+          "A chalkboard eraser"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new silver spoon has a shiny surface that reflects light well."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to a liquid when you pour it from a bottle into a wide bowl?",
+        options: [
+          "Its volume increases",
+          "Its particles stop moving",
+          "It takes the bowl's shape",
+          "It turns into a solid"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Liquids take the shape of their container while keeping the same volume."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which property best describes a cotton wool ball?",
+        options: [
+          "Hard",
+          "Soft",
+          "Shiny",
+          "Liquid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cotton wool is soft to touch."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In which state of matter are particles arranged in a very fixed, orderly pattern?",
+        options: [
+          "Gas",
+          "Liquid",
+          "Plasma",
+          "Solid"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "In solids, particles are tightly packed in a fixed and orderly arrangement."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/2. JHS1 S1 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which liquid is used at the Akosombo Dam to produce electricity?",
+        options: [
+          "Petrol",
+          "Water",
+          "Palm oil",
+          "Kerosene"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Water is used to generate hydroelectric power at the Akosombo Dam."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a medicinal use of a liquid?",
+        options: [
+          "Drinking a sachet of water",
+          "Putting diesel in a truck",
+          "Taking a cough syrup",
+          "Frying plantain in oil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cough syrup is a liquid used for medical treatment."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is irrigation important for farmers in Ghana?",
+        options: [
+          "It makes the soil hard",
+          "It provides water for crops",
+          "It stops the sun from shining",
+          "It turns liquids into solids"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Irrigation supplies water to crops, especially during dry periods."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which liquid provides the energy needed to run a car engine?",
+        options: [
+          "Machine oil",
+          "Distilled water",
+          "Liquid soap",
+          "Petrol"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Petrol is a fuel that provides energy to run car engines."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/3. JHS1 S1 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which solid material is most commonly used to make school desks in Ghana?",
+        options: [
+          "Water",
+          "Wood",
+          "Paper",
+          "Cotton"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Wood is commonly used to make school desks because it is strong and durable."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is soil an important solid for life?",
+        options: [
+          "It provides a place for fish to swim",
+          "It provides nutrients for plants to grow",
+          "It is used to fill balloons",
+          "It turns into a liquid when it rains"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Soil contains nutrients that help plants grow and support life."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main reason we wear clothes made of solid cloth?",
+        options: [
+          "To make us heavy",
+          "To protect our bodies",
+          "To help us swim faster",
+          "To turn us into solids"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Clothes protect our bodies from weather and harm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a solid food that gives us energy?",
+        options: [
+          "Fruit juice",
+          "Plain water",
+          "Boiled yam",
+          "Cooking oil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Boiled yam is a solid food that provides energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/4. JHS1 S1 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the chemical symbol for the element Sodium?",
+        options: [
+          "S",
+          "So",
+          "Na",
+          "Sd"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The chemical symbol for Sodium is Na."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these elements is a Noble Gas?",
+        options: [
+          "Oxygen",
+          "Neon",
+          "Iron",
+          "Hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Neon is a noble gas found in Group 18 of the periodic table."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Elements on the Periodic Table are arranged in order of their:",
+        options: [
+          "Physical size",
+          "Atomic number",
+          "Alphabetical name",
+          "Colour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Elements are arranged based on increasing atomic number."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. On which side of the Periodic Table are most metals found?",
+        options: [
+          "The left side",
+          "The right side",
+          "The very bottom only",
+          "The middle only"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Most metals are located on the left side of the periodic table."
+    ),
+  ],
+);
+
+final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/5. JHS1 S1 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of the animal cell contains the genetic material?",
+        options: [
+          "Cytoplasm",
+          "Vacuole",
+          "Nucleus",
+          "Membrane"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The nucleus contains the genetic material (DNA) of the cell."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main function of the mitochondria?",
+        options: [
+          "To produce energy",
+          "To store water",
+          "To protect cell",
+          "To move the cell"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Mitochondria are responsible for producing energy in the cell."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The jelly-like substance where reactions happen is the:",
+        options: [
+          "Nucleus",
+          "Cytoplasm",
+          "Mitochondria",
+          "Membrane"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The cytoplasm is the jelly-like substance where most chemical reactions occur."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which description best fits an animal cell vacuole?",
+        options: [
+          "Large and permanent",
+          "Small and permanent",
+          "Small and temporary",
+          "Large and temporary"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Animal cell vacuoles are usually small and temporary."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/6. JHS1 S1 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which organelle is responsible for making food in a plant cell?",
+        options: [
+          "Nucleus",
+          "Vacuole",
+          "Chloroplast",
+          "Mitochondria"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Chloroplasts carry out photosynthesis to produce food in plant cells."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The cell wall of a plant is primarily made of which material?",
+        options: [
+          "Cellulose",
+          "Cytoplasm",
+          "Chlorophyll",
+          "Protein"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The plant cell wall is mainly made of cellulose."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does the vacuole in a plant cell differ from an animal cell?",
+        options: [
+          "It is smaller",
+          "It is temporary",
+          "It is green",
+          "It is large"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Plant cells have a large central vacuole, unlike animal cells."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which part provides the fixed, rectangular shape of a plant cell?",
+        options: [
+          "Cell membrane",
+          "Cell wall",
+          "Nucleus",
+          "Cytoplasm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The cell wall gives plant cells their rigid, rectangular shape."
+    ),
+  ],
+);
+
+///Math
+final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Round 0.0605 to 2 decimal places.",
+        options: [
+          "0.06",
+          "0.07",
+          "0.061",
+          "0.10"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The hundredth is 6. The neighbor is 0, which is less than 5, so the 6 remains the same."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Compare 20,298,000 and 20,301,000.",
+        options: [
+          ">",
+          "=",
+          "≈",
+          "<"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Looking at the hundred-thousands place, 2 is less than 3. Therefore, the first number is smaller."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Next in sequence: 1,000, 1,050, 1,100,…",
+        options: [
+          "1,150",
+          "1,200",
+          "1,075",
+          "1,125"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The sequence shows skip counting forward by 50. Adding 50 to 1,100 gives 1,150."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Round 2,846 down to nearest hundred.",
+        options: [
+          "2,840",
+          "2,800",
+          "2,900",
+          "2,000"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Rounding 'down' means we keep the target digit (8) and replace all digits to the right with zeros."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. How many significant figures are in 7.021?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Non-zero digits are significant, and zeros trapped between them are also significant."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "6. Round 0.327 to 2 significant figures.",
+        options: [
+          "0.32",
+          "0.30",
+          "0.327",
+          "0.33"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The first two figures are 3 and 2. The next digit is 7, which rounds the 2 up to 3."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "7. How many GH₵200 notes make GH₵1,000?",
+        options: [
+          "4 notes",
+          "2 notes",
+          "10 notes",
+          "5 notes"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "One thousand divided by two hundred equals five. We need five notes to reach the total."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "8. Round 46.14 to the nearest tenth.",
+        options: [
+          "46.1",
+          "46.2",
+          "46.0",
+          "46.14"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The tenth is 1. The neighbor is 4, which is less than 5, so the 1 stays the same."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "9. Ten blocks of 100,000,000 each equals?",
+        options: [
+          "100,000,000",
+          "10,000,000,000",
+          "1,000,000,000",
+          "100,000,000,000"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Ten groups of one hundred million reach exactly one billion (1,000,000,000)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "10. Round 85,738 to 3 significant figures.",
+        options: [
+          "85,800",
+          "85,700",
+          "86,000",
+          "85,740"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The first three figures are 8, 5, 7. The neighbor is 3, so the 7 remains unchanged."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s1ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS1 S1 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which strategy turns 18 × 5 into 9 × 10?",
+        options: [
+          "Halving and Doubling",
+          "Partitioning",
+          "Distributive Property",
+          "Lattice Method"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: ""
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. What is the value of (150 × 25)^0?",
+        options: [
+          "3,750",
+          "1",
+          "0",
+          "150"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Any non-zero number raised to the power of 0 is 1."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A trader buys 12 boxes of pens. Each box has 144 pens. Total pens?",
+        options: [
+          "1,728",
+          "1,528",
+          "1,628",
+          "1,828"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: ""
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Find the LCM of 4 and 6.",
+        options: [
+          "2",
+          "24",
+          "12",
+          "10"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: ""
+    )
+  ],
+);
+final IndependentPracticeModel MATHjhs1s1ss3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/3. JHS1 S1 SS3/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: r"1. Which is the largest value: \frac{1}{2}, 0.55, or 45%?",
+        options: [
+          r"\frac{1}{2}",
+          "0.55",
+          "45%",
+          "They are all equal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: ""
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. Solve \frac{3}{4} − \frac{1}{2}.",
+        options: [
+          r"\frac{2}{2}",
+          r"\frac{1}{4}",
+          r"\frac{1}{2}",
+          r"\frac{2}{6}"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: ""
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"3. Multiply \frac{2}{5} by \frac{3}{4}.",
+        options: [
+          r"\frac{5}{9}",
+          r"\frac{6}{9}",
+          r"\frac{3}{10}",
+          r"\frac{6}{16}"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: ""
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"4. Find \frac{1}{3} ÷ 2.",
+        options: [
+          r"\frac{2}{3}",
+          r"\frac{1}{6}",
+          "6",
+          r"\frac{1}{5}"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: ""
+    )
+  ],
+);
+final IndependentPracticeModel MATHjhs1s1ss4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/4. JHS1 S1 SS4/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A bag of 5kg of sugar costs 50 Cedis. What is the unit price?",
+        options: [
+          "5 Cedis",
+          "10 Cedis",
+          "15 Cedis",
+          "25 Cedis"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Divide total cost (50) by the total weight (5). 50 ÷ 5 = 10 Cedis per kg."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which ratio is equivalent to 3:4?",
+        options: [
+          "6:10",
+          "9:12",
+          "4:3",
+          "12:15"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "If you multiply both terms of 3:4 by 3, you get 3 × 3 = 9 and 4 × 3 = 12."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a proportional graph passes through (2, 8), what is the y-value when x=5?",
+        options: [
+          "15",
+          "25",
+          "20",
+          "30"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The unit rate is 8 ÷ 2 = 4 (y is 4 times x). So, if x = 5, y is 5 × 4 = 20."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Calculate 15% commission on a sale of 400 Cedis.",
+        options: [
+          "40 Cedis",
+          "50 Cedis",
+          "75 Cedis",
+          "60 Cedis"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"Calculate \frac{15}{100} × 400. This is the same as 15 × 4 = 60."
+    )
+  ],
+);
+
+final IndependentPracticeModel MATHjhs1s2ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS1 S2 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which rule matches the sequence: 4, 7, 10, 13?",
+        options: [
+          "3x + 1",
+          "4x",
+          "x + 3",
+          "2x + 2"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The sequence increases by 3 each time. The rule that fits is 3x + 1."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Describe the relation (2 → 1), (4 → 2), (6 → 3) in words.",
+        options: [
+          "Two less than",
+          "Half of the number",
+          "One less than",
+          "Twice the number"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Each output is half of the input number. For example, 2 → 1, 4 → 2, 6 → 3."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you plot the point (5, −3) on a number plane, you move:",
+        options: [
+          "5 Right, 3 Up",
+          "3 Left, 5 Down",
+          "5 Right, 3 Down",
+          "3 Right, 5 Up"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Move 5 units to the right (positive x) and 3 units down (negative y)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Using the rule y = 10x − 5, what is the 10th term?",
+        options: [
+          "100",
+          "105",
+          "90",
+          "95"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Substitute x = 10 into the rule: y = 10(10) − 5 = 100 − 5 = 95."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s2ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS1 S2 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which expression represents the perimeter of a rectangle with length L and width W?",
+        options: [
+          "LW",
+          "L + W",
+          "2L + 2W",
+          "2LW"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The perimeter of a rectangle is the sum of all sides: 2L + 2W."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. Simplify 15x^6 ÷ 3x^2.",
+        options: [
+          r"5x^4",
+          r"5x^3",
+          r"12x^4",
+          r"5x^8"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Divide coefficients (15 ÷ 3 = 5) and subtract exponents (6 − 2 = 4), giving 5x^4."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Expand 4(2x − 5).",
+        options: [
+          "8x − 5",
+          "6x − 9",
+          "8x − 20",
+          "8x + 20"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Distribute 4: 4 × 2x = 8x and 4 × (−5) = −20, so 8x − 20."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Find the value of 3n + 7 if n = −2.",
+        options: [
+          "13",
+          "1",
+          "-1",
+          "-13"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Substitute n = −2: 3(−2) + 7 = −6 + 7 = 1."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s2ss3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/3. JHS1 S2 SS3/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which equation represents: \"A number y tripled is 27\"?",
+        options: [
+          "y + 3 = 27",
+          "3y = 27",
+          "y − 3 = 27",
+          "y/3 = 27"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Tripled” means multiplied by 3, so the equation is 3y = 27."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Solve x + 12 = 30.",
+        options: [
+          "x = 42",
+          "x = 15",
+          "x = 18",
+          "x = 20"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Subtract 12 from both sides: x = 30 − 12 = 18."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the tile model, what do a yellow tile and a red tile together represent?",
+        options: [
+          "Two",
+          "One",
+          "Zero",
+          "x"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A positive tile and a negative tile cancel each other out, giving zero."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Solve 2x − 4 = 10.",
+        options: [
+          "x = 7",
+          "x = 3",
+          "x = 14",
+          "x = 12"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Add 4 to both sides: 2x = 14, then divide by 2: x = 7."
+    ),
+  ],
+);
+
+final IndependentPracticeModel MATHjhs1s3ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS1 S3 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a reflex angle?",
+        options: [
+          r"95°",
+          "180°",
+          "210°",
+          "45°"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A reflex angle is greater than 180°, so 210° is correct."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If two angles are vertically opposite and one is 125°, the other must be:",
+        options: [
+          "55°",
+          "125°",
+          "180°",
+          "90°"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Vertically opposite angles are always equal."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. To construct a 75° angle, you must find the middle of the gap between which two angles?",
+        options: [
+          "0° and 90°",
+          "30° and 60°",
+          "60° and 90°",
+          "45° and 90°"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "75° lies halfway between 60° and 90°."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the complement of an angle that measures 20°?",
+        options: [
+          "70°",
+          "160°",
+          "90°",
+          "180°"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Complementary angles add up to 90°, so 90 - 20 = 70°."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which tool is used to draw the arcs in a geometric construction?",
+        options: [
+          "Protractor",
+          "Set Square",
+          "Pair of Compasses",
+          "Ruler"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A compass is used to draw arcs in constructions."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS1 S3 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: r"1. A circle has a diameter of 14 cm. What is its circumference? (π = \frac{22}{7})",
+        options: [
+          "22 cm",
+          "44 cm",
+          "88 cm",
+          "28 cm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Circumference = π × diameter = \frac{22}{7} × 14 = 44 cm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a vector quantity?",
+        options: [
+          "5 kg Mass",
+          "10 mins Time",
+          "50 m Distance",
+          "20 N Force Downward"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A vector has both magnitude and direction. Force with direction is a vector."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"3. What is the magnitude of the vector \begin{pmatrix} 3 \\ 4 \end{pmatrix}?",
+        options: [
+          "7",
+          "12",
+          "5",
+          "25"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Magnitude = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s3ss3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/3. JHS1 S3 SS3/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which transformation is a 'slide' using a vector?",
+        options: [
+          "Reflection",
+          "Translation",
+          "Symmetry",
+          "Rotation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A translation moves (slides) a shape using a vector."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If Point A (3, 4) is reflected in the y-axis, where does it land?",
+        options: [
+          "(-3, 4)",
+          "(3, -4)",
+          "(-3, -4)",
+          "(4, 3)"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Reflection in the y-axis changes the sign of x-coordinate: (3,4) → (-3,4)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Two shapes are exactly the same size and shape. They are:",
+        options: [
+          "Similar",
+          "Asymmetrical",
+          "Congruent",
+          "Vectors"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Shapes with the same size and shape are called congruent."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"4. What is the image of (5, 5) after translation by \begin{pmatrix} -2 \\ -3 \end{pmatrix}?",
+        options: [
+          "(7, 8)",
+          "(3, 2)",
+          "(-3, -2)",
+          "(5, 5)"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Add the vector to the point: (5-2, 5-3) = (3,2)."
+    ),
+  ],
+);
+
+final IndependentPracticeModel MATHjhs1s4ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS1 S4 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which method is best for counting cars on a road?",
+        options: [
+          "Interview",
+          "Questionnaire",
+          "Observation",
+          "Experiment"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Observation is best because you directly count cars as they pass."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the mean of 5, 10, 15?",
+        options: [
+          "5",
+          "15",
+          "10",
+          "30"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mean = (5 + 10 + 15) ÷ 3 = 30 ÷ 3 = 10."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a bar graph, where do you put the \"Frequency\"?",
+        options: [
+          "On the x-axis",
+          "In the title",
+          "On the y-axis",
+          "Under the bars"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Frequency is plotted on the vertical (y) axis."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Find the median of 2, 10, 5, 8, 3.",
+        options: [
+          "5",
+          "10",
+          "2",
+          "5.6"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Order the numbers: 2, 3, 5, 8, 10. The middle value is 5."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs1s4ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS1 S4 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. You roll a single die. What is the probability of obtaining a 'factor of 4' (1, 2, or 4)?",
+        options: [
+          r"\frac{1}{6}",
+          r"\frac{1}{3}",
+          r"\frac{1}{2}",
+          r"\frac{2}{3}"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Favourable outcomes are 1, 2, 4 → 3 out of 6 → 3/6 = 1/2."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following represents a 'Certain' event?",
+        options: [
+          "0%",
+          "50%",
+          "0.5",
+          "1.0"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A certain event has probability 1 (or 100%)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A coin is tossed. What is the probability it lands on 'Heads' expressed as a percentage?",
+        options: [
+          "25%",
+          "50%",
+          "75%",
+          "100%"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A fair coin has 1 out of 2 chance → 1/2 = 50%."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Rolling two dice and getting a total of 11.",
+        options: [
+          "Impossible",
+          "Certain",
+          "Possible",
+          "Unlikely"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "You can get 11 with (5,6) or (6,5), so it is possible."
+    ),
+  ],
+);
+
+final IndependentPracticeModel MATHjhs2s1ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS2 S1 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which is the correct standard form for 56,734?",
+        options: [
+          r"5.6734 × 10^3",
+          "5.6734 × 10^4",
+          "56.734 × 10^3",
+          "5.6734 × 10^5"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Standard form requires a number between 1 and 10. 56,734 = 5.6734 × 10^4."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which number is the largest?",
+        options: [
+          "950,000,000",
+          "1,200,000,000",
+          "99,000,000",
+          "1,150,000,000"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "1,200,000,000 is the greatest among the options."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Round 975.8674 to two decimal places.",
+        options: [
+          "975.86",
+          "975.87",
+          "975.90",
+          "976.00"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The third decimal is 7, so we round up → 975.87."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the next number: 1,800,000; 1,700,000; 1,600,000; ...?",
+        options: [
+          "1,550,000",
+          "1,400,000",
+          "1,500,000",
+          "1,600,000"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sequence decreases by 100,000 each time, so next is 1,500,000."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs2s1ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS2 S1 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is 75% of GH₵ 800?",
+        options: [
+          "GH₵ 400",
+          "GH₵ 200",
+          "GH₵ 600",
+          "GH₵ 750"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "75% = 0.75, so 0.75 × 800 = 600."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Solve 123,000 + 45,000 using partitioning.",
+        options: [
+          "168,000",
+          "178,000",
+          "165,000",
+          "158,000"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Add step by step: 123,000 + 45,000 = 168,000."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"3. Simplify y^8 ÷ y^2.",
+        options: [
+          r"y^4",
+          r"y^6",
+          r"y^{10}",
+          r"y^{16}"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Divide powers by subtracting exponents: y^8 ÷ y^2 = y^6."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"4. Evaluate (2^3)^2.",
+        options: [
+          "32",
+          "12",
+          "64",
+          "16"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Power of a power: (2^3)^2 = 2^6 = 64."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs2s1ss3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/3. JHS2 S1 SS3/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: r"1. Simplify \frac{48}{60} to its lowest terms.",
+        options: [
+          r"\frac{12}{15}",
+          r"\frac{4}{5}",
+          r"\frac{8}{10}",
+          r"\frac{2}{3}"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Divide numerator and denominator by 12: \frac{48}{60} = \frac{4}{5}."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. Solve \frac{1}{2} + \frac{1}{2} x \frac{1}{2}.",
+        options: [
+          r"\frac{3}{4}",
+          r"\frac{1}{2}",
+          r"\frac{2}{4}",
+          r"1\frac{1}{2}"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"Apply order of operations: multiply first → \frac{1}{2} x \frac{1}{2} = \frac{1}{4}, then add → \frac{1}{2} + \frac{1}{4} = \frac{3}{4}."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is 75% expressed as a fraction?",
+        options: [
+          r"\frac{1}{4}",
+          r"\frac{1}{2}",
+          r"\frac{3}{4}",
+          r"\frac{2}{3}"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"75% = \frac{75}{100} = \frac{3}{4} after simplifying."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A square has a perimeter of 2 m. What is the length of one side?",
+        options: [
+          "1 m",
+          r"\frac{1}{4} m",
+          r"\frac{1}{2} m",
+          r"\frac{3}{4} m"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Perimeter of a square = 4 × side, so side = 2 ÷ 4 = 1/2 m."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs2s1ss4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/4. JHS2 S1 SS4/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a non-proportional relationship?",
+        options: [
+          "y = 5x",
+          "y = x",
+          "y = 5x + 2",
+          "y = 0.5x"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A non-proportional relationship has a constant term. y = 5x + 2 does not pass through the origin."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A trader stops for 45 minutes. What does this look like on a travel graph?",
+        options: [
+          "A vertical line",
+          "A horizontal line",
+          "A curved line",
+          "A slanting line"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When stopped, distance does not change, so the graph is a horizontal line."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How many millimetres are in 12 cm?",
+        options: [
+          "1.2 mm",
+          "12 mm",
+          "120 mm",
+          "1,200 mm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "1 cm = 10 mm, so 12 cm = 120 mm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If 5 notebooks cost 25 Cedis, what is the constant of proportionality?",
+        options: [
+          "5",
+          "10",
+          "20",
+          "25"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Constant = cost per notebook = 25 ÷ 5 = 5."
+    ),
+  ],
+);
+
+final IndependentPracticeModel MATHjhs2s2ss1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/1. JHS2 S2 SS1/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the gradient of a line with the equation y = 4x − 7?",
+        options: [
+          "-7",
+          "7",
+          "4",
+          "-4"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In the form y = mx + c, the gradient is the coefficient of x, which is 4."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If 5 bags of cement cost 250 Cedis, what is the cost of 1 bag on a linear graph?",
+        options: [
+          "25 Cedis",
+          "50 Cedis",
+          "100 Cedis",
+          "5 Cedis"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cost per bag = 250 ÷ 5 = 50 Cedis."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A line goes through (0, 5) and (1, 8). What is the y-intercept?",
+        options: [
+          "1",
+          "8",
+          "3",
+          "5"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The y-intercept is the value of y when x = 0, which is 5."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A plant is 12 cm tall and grows 3 cm per month. What is its height (h) after (m) months?",
+        options: [
+          "h = 12m + 3",
+          "h = 3m + 12",
+          "h = 15m",
+          "h = 3 + 12"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Initial height is 12 cm and it grows 3 cm per month, so h = 3m + 12."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs2s2ss2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/2. JHS2 S2 SS2/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: r"1. Expand -5(2k - 4)",
+        options: [
+          r"-10k - 20",
+          r"-10k + 20",
+          r"10k - 20",
+          r"-7k + 9"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Distribute -5 across the bracket: -5 × 2k = -10k and -5 × -4 = +20, so the result is -10k + 20."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. Simplify \frac{x}{y} \div \frac{2}{y}",
+        options: [
+          r"\frac{2x}{y^2}",
+          r"\frac{x}{2}",
+          r"\frac{2}{x}",
+          r"\frac{xy}{2y}"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Divide by a fraction by multiplying by its reciprocal: \frac{x}{y} × \frac{y}{2} = \frac{x}{2}."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"3. Factorise 12ax - 4a",
+        options: [
+          r"4(3ax - a)",
+          r"4a(3x - 1)",
+          r"4a(3x)",
+          r"a(12x - 4)"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Take out the common factor 4a: 12ax - 4a = 4a(3x - 1)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"4. Evaluate \frac{m+n}{2} if m = 15 and n = 5",
+        options: [
+          "10",
+          "20",
+          "5",
+          "15"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"Substitute values: \frac{15+5}{2} = \frac{20}{2} = 10."
+    ),
+  ],
+);
+final IndependentPracticeModel MATHjhs2s2ss3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/math/3. JHS2 S2 SS3/4. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: r"1. Which is the correct translation for: Three times a number y is more than 15?",
+        options: [
+          r"3 + y > 15",
+          r"3y ≥ 15",
+          r"3y > 15",
+          r"y - 3 > 15"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Three times y is written as 3y, and 'more than' means >, so 3y > 15."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"2. Solve -2x < 10.",
+        options: [
+          r"x < -5",
+          r"x > -5",
+          r"x > 5",
+          r"x < 5"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Divide both sides by -2 and reverse the inequality: x > -5."
+    ),
+
+    IndependentPracticeQuestion(
+        question: r"3. What is the solution set for x ≤ 2 if the domain is Whole Numbers?",
+        options: [
+          r"{0, 1, 2}",
+          r"{1, 2}",
+          r"{..., -1, 0, 1, 2}",
+          r"{0, 1}"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"Whole numbers are 0, 1, 2, ... so values \le 2 are {0, 1, 2}."
+    ),
+  ],
+);

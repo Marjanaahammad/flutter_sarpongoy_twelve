@@ -1,0 +1,450 @@
+name: flutter_sarpongoy_twelve
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # UI
+  get: ^4.7.3
+  # flutx_core:
+  #   path: ./packages/flutx_core
+  shimmer: ^3.0.0
+  file_picker: ^10.3.8
+  pin_code_fields: ^8.0.1
+  image_picker: ^1.0.0
+
+  # Network and cache
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dio: ^5.9.0
+  json_annotation: ^4.9.0
+  equatable: ^2.0.8
+  dartz: ^0.10.1
+  flutter_secure_storage: ^8.1.0
+  # connectivity_plus: 2.3.9
+  intl: ^0.20.2
+  flutter_svg: ^2.1.0
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+
+  # Video
+  just_audio: ^0.9.42
+  video_player: 2.4.7
+  # flutter_math_fork:
+  #   path: ./packages/flutter_math_fork
+  # flutter_secure_storage:
+  #   path: ./packages/flutter_secure_storage_local
+  tuple: ^2.0.2
+  flutter_animate: ^4.5.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.5
+
+
+  flutter_launcher_icons: "^0.13.1"
+  provider: ^6.1.5+1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/english/s1_ss1_l1/
+    - assets/images/english/s1_ss1_l2/
+    - assets/images/english/s1_ss1_l3/
+    - assets/images/english/s1_ss1_l4/
+    - assets/images/english/s1_ss2_l1/
+    - assets/images/english/s1_ss2_l2/
+    - assets/images/english/s1_ss3_l1/
+    - assets/images/english/s2_ss1_l1/
+    - assets/images/english/s2_ss1_l2/
+    - assets/images/english/s2_ss2_l1/
+    - assets/images/english/s3_ss1_l1/
+    - assets/images/english/s3_ss1_l2/
+    - assets/images/RME/JHS1_S1_SS1_L1/
+    - assets/images/RME/JHS1_S1_SS1_L2/
+    - assets/images/RME/JHS1_S1_SS1_L3/
+    - assets/images/RME/s2_ss1_l1/
+    - assets/images/RME/s2_ss1_l2/
+    - assets/images/RME/jhs2_s2_ss1_l3/
+    - assets/images/RME/jhs2_s2_ss1_l4/
+    - assets/images/RME/jhs2_s2_ss1_l5/
+    - assets/images/RME/jhs2_s2_ss1_l6/
+    - assets/audio/RME/s2_ss2_l1/
+    - assets/audio/RME/s2_ss2_l2/
+    - assets/audio/RME/s2_ss2_l3/
+    - assets/images/RME/S3_SS1_L1/
+    - assets/images/RME/S3_SS1_L2/
+    - assets/images/RME/S3_SS1_L3/
+    - assets/images/RME/s2_ss2_l1/
+    - assets/images/RME/s2_ss2_l2/
+    - assets/images/RME/s2_ss2_l3/
+    - assets/images/RME/RME_JHS1_S4_SS1_L1/
+    - assets/images/RME/RME_JHS1_S4_SS1_L2/
+    - assets/images/RME/RME_JHS1_S4_SS1_L3/
+    - assets/images/RME/RME_JHS1_S5_SS1_L1/
+    - assets/images/RME/RME_JHS1_S5_SS1_L2/
+    - assets/images/RME/RME_JHS1_S5_SS1_L3/
+    - assets/images/RME/RME_JHS1_S5_SS1_L4/
+    - assets/images/RME/RME_JHS1_S5_SS2_L1/
+    - assets/images/RME/RME_JHS1_S5_SS2_L2/
+    - assets/images/RME/RME_JHS1_S5_SS2_L3/
+    - assets/images/RME/RME_JHS1_S6_SS1_L1/
+    - assets/images/RME/RME_JHS1_S6_SS1_L2/
+    - assets/images/RME/RME_JHS1_S6_SS1_L3/
+    - assets/images/RME/RME_JHS1_S6_SS1_L4/
+    - assets/images/RME/jhs2_s2_ss1_l2/
+    - assets/images/RME/jhs2_s1_ss1_l1/
+    - assets/images/RME/jhs2_s2_ss1_l1/
+    - assets/images/RME/jhs2_s1_ss1_l2/
+    - assets/images/RME/jhs2_s3_ss1_l1/
+    - assets/images/RME/jhs2_s3_ss1_l2/
+    - assets/images/RME/jhs2_s3_ss1_l3/
+    - assets/images/RME/jhs2_s4_ss1_l1/
+    - assets/images/RME/jhs2_s4_ss1_l2/
+    - assets/images/RME/jhs2_s4_ss1_l3/
+    - assets/images/RME/jhs2_s5_ss1_l1/
+    - assets/images/RME/jhs2_s5_ss1_l2/
+    - assets/images/RME/jhs2_s6_ss1_l1/
+    - assets/images/RME/jhs2_s6_ss1_l2/
+    - assets/images/RME/jhs2_s6_ss1_l3/
+    - assets/images/RME/jhs2_s6_ss1_l4/
+    - assets/images/RME/jhs2_s6_ss2_l1/
+    - assets/images/RME/jhs2_s6_ss2_l2/
+    - assets/audio/ss1_l1/
+    - assets/audio/ss1_l2/
+    - assets/audio/ss1_l3/
+    - assets/audio/ss1_l4/
+    - assets/audio/ss2_l1/
+    - assets/audio/ss2_l2/
+    - assets/audio/ss3_l1/
+    - assets/audio/s2_ss1_l1/
+    - assets/audio/s2_ss1_l2/
+    - assets/audio/s2_ss2_l1/
+    - assets/audio/s3_ss1_l1/
+    - assets/audio/RME/s1_ss1_l1/
+    - assets/audio/RME/s1_ss1_l2/
+    - assets/audio/RME/s1_ss1_l3/
+    - assets/audio/RME/s2_ss1_l1/
+    - assets/audio/RME/s2_ss1_l2/
+    - assets/audio/RME/s2_ss2_l1/
+    - assets/audio/RME/s2_ss2_l2/
+    - assets/audio/RME/s2_ss2_l3/
+    - assets/audio/RME/s3_ss1_l1/
+    - assets/audio/RME/s3_ss1_l2/
+    - assets/audio/RME/s3_ss1_l3/
+    - assets/audio/RME/s4_ss1_l1/
+    - assets/audio/RME/s4_ss1_l2/
+    - assets/audio/RME/s4_ss1_l3/
+    - assets/audio/RME/s5_ss1_l1/
+    - assets/audio/RME/s5_ss1_l2/
+    - assets/audio/RME/s5_ss1_l3/
+    - assets/audio/RME/s5_ss1_l4/
+    - assets/audio/RME/s5_ss2_l1/
+    - assets/audio/RME/s5_ss2_l2/
+    - assets/audio/RME/s5_ss2_l3/
+    - assets/audio/RME/s6_ss1_l1/
+    - assets/audio/RME/s6_ss1_l2/
+    - assets/audio/RME/s6_ss1_l3/
+    - assets/audio/RME/s6_ss1_l4/
+    - assets/audio/RME/RME JHS2 S1 SS1 L1/
+    - assets/audio/RME/RME JHS2 S1 SS1 L2/
+    - assets/audio/RME/1. RME JHS2 S2 SS1 L1/
+    - assets/audio/RME/2. RME JHS2 S2 SS1 L2/
+    - assets/audio/RME/3. RME JHS2 S2 SS1 L3/
+    - assets/audio/RME/4. RME JHS2 S2 SS1 L4/
+    - assets/audio/RME/5. RME JHS2 S2 SS1 L5/
+    - assets/audio/RME/6. RME JHS2 S2 SS1 L6/
+    - assets/audio/RME/1. RME JHS2 S3 SS1 L1/
+    - assets/audio/RME/2. RME JHS2 S3 SS1 L2/
+    - assets/audio/RME/3. RME JHS2 S3 SS1 L3/
+    - assets/audio/RME/1. RME JHS2 S4 SS1 L1/
+    - assets/audio/RME/2. RME JHS2 S4 SS1 L2/
+    - assets/audio/RME/3. RME JHS2 S4 SS1 L3/
+    - assets/audio/RME/1. RME JHS2 S5 SS1 L1/
+    - assets/audio/RME/2. RME JHS2 S5 SS1 L2/
+    - assets/audio/RME/1. RME JHS2 S6 SS1 L1/
+    - assets/audio/RME/2. RME JHS2 S6 SS1 L2/
+    - assets/audio/RME/3. RME JHS2 S6 SS1 L3/
+    - assets/audio/RME/4. RME JHS2 S6 SS1 L4/
+    - assets/audio/RME/5. RME JHS2 S6 SS2 L1/
+    - assets/audio/RME/6. RME JHS2 S6 SS2 L2/
+    - assets/audio/RME/1. RME JHS3 S1 SS1 L1/
+    - assets/audio/RME/2. RME JHS3 S1 SS1 L2/
+    - assets/images/RME/RME_JHS3_S1_SS1_L1/
+    - assets/images/RME/RME_JHS3_S1_SS1_L2/
+    - assets/audio/RME/3. RME JHS3 S1 SS2 L1/
+    - assets/audio/RME/4. RME JHS3 S1 SS2 L2/
+    - assets/audio/RME/5. RME JHS3 S1 SS2 L3/
+    - assets/images/RME/RME_JHS3_S1_ SS2_L1/
+    - assets/images/RME/RME_JHS3_S1_ SS2_L2/
+    - assets/images/RME/RME_JHS3_S1_ SS2_L3/
+    - assets/audio/RME/1. RME JHS3 S2 SS1 L1/
+    - assets/images/RME/RME_JHS3_S2_SS1_L1/
+    - assets/images/RME/RME_JHS3_S2_SS1_L3/
+    - assets/images/RME/RME_JHS3_S2_SS1_L2/
+    - assets/audio/RME/3. RME JHS3 S2 SS1 L3/
+    - assets/audio/RME/2. RME JHS3 S2 SS1 L2/
+    - assets/audio/RME/2. RME JHS3 S3 SS1 L2/
+    - assets/audio/RME/1. RME JHS3 S3 SS1 L1/
+    - assets/audio/RME/2. RME JHS3 S3 SS1 L2/
+    - assets/audio/RME/3. RME JHS3 S3 SS1 L3/
+    - assets/images/RME/RME_JHS3_S3_SS1_L1/
+    - assets/images/RME/RME_JHS3_S3_SS1_L2/
+    - assets/images/RME/RME_JHS3_S3_SS1_L3/
+    - assets/images/RME/RME_JHS3_S4_SS1_L1/
+    - assets/images/RME/RME_JHS3_S4_SS1_L2/
+    - assets/images/RME/RME_JHS3_S4_SS1_L3/
+    - assets/audio/RME/1. RME JHS3 S4 SS1 L1/
+    - assets/audio/RME/2. RME JHS3 S4 SS1 L2/
+    - assets/audio/RME/3. RME JHS3 S4 SS1 L3/
+    - assets/images/RME/RME_JHS3_S5_SS1_L1/
+    - assets/images/RME/RME_JHS3_S5_SS1_L2/
+    - assets/images/RME/RME_JHS3_S5_SS1_L3/
+    - assets/audio/RME/2. RME JHS3 S5 SS1 L2/
+    - assets/audio/RME/1. RME JHS3 S5 SS1 L1/
+    - assets/audio/RME/3. RME JHS3 S5 SS1 L3/
+    - assets/audio/RME/1. RME JHS3 S6 SS1 L1/
+    - assets/audio/RME/2. RME JHS3 S6 SS1 L2/
+    - assets/audio/RME/3. RME JHS3 S6 SS1 L3/
+    - assets/images/RME/RME_JHS3_S6_SS1_L1/
+    - assets/images/RME/RME_JHS3_S6_SS1_L2/
+    - assets/images/RME/RME_JHS3_S6_SS1_L3/
+    - assets/images/MATH/MATH_JHS1_S1_SS4/
+    - assets/images/MATH/jhs1_s1_ss2/
+    - assets/images/MATH/jhs1_s1_ss1/
+    - assets/images/MATH/MATH_JHS1_S1_SS3/
+    - assets/audio/math/1. JHS1 S1 SS1/
+    - assets/audio/math/2. JHS1 S1 SS2/
+    - assets/audio/math/3. JHS1 S1 SS3/
+    - assets/audio/math/4. JHS1 S1 SS4/
+    - assets/images/MATH/MATH_JHS1_S2_SS1/
+    - assets/audio/math/1. JHS1 S2 SS1/
+    - assets/images/MATH/MATH_JHS1_S2_SS2/
+    - assets/audio/math/2. JHS1 S2 SS2/
+    - assets/audio/math/3. JHS1 S2 SS3/
+    - assets/images/MATH/MATH_JHS1_S2_SS3/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S1 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S1 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S1 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S1 SS1 L2/
+    - assets/audio/social_studies/3.SOCIAL STUDIES JHS1 S1 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S1 SS2 L1/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS1 S1 SS3 L1/
+    - assets/audio/social_studies/5. SOCIAL STUDIES JHS1 S1 SS3 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S1 SS3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S1 SS3 L2/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S2 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S2 SS2-3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S2 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S2 SS2-3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S2 SS4 L1/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS1 S2 SS4 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S3 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S3 SS1 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S4 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S4 SS1 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S1 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS3 L1/
+    - assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S1 SS3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S2 SS1-2 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S2 SS1-2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S2 SS1-2 L2/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S2 SS1-2 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S3 SS1-2 L1/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S2 SS3-4 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S2 SS3-4 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S3 SS1-2 L2/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S3 SS1-2 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S3 SS1-2 L2/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S4 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S4 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S4 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S4 SS2 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S6 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S6 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S6 SS1 L3/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S6 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S6 SS1 L2/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S6 SS1 L3/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS2 S6 SS1 L4/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S6 SS1 L4/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S1 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S1 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S1 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S1 SS1 L2/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S1 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S1 SS4 L1/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S1 SS2 L2/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S2 SS1 L1/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S2_SS1_L1/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S2_SS1_L2/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S2 SS1 L2/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S1_SS2_L2/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S2 SS2 L1/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S2_SS2_L1/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S3_SS1_L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S3 SS1 L1/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S4_SS1_L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S4 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S4 SS1 L2/
+    - assets/images/social_studies/SOCIAL_STUDIES_JHS3_S4_SS1_L2/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S4 SS2 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S4 SS2 L1/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S4 SS3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S4 SS3 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S4 SS3 L2/
+    - assets/audio/social_studies/5. SOCIAL STUDIES JHS3 S4 SS3 L2/
+    - assets/audio/social_studies/6. SOCIAL STUDIES JHS3 S4 SS3 L3/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S4 SS3 L3/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS2 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/
+    - assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S6 SS1 L1/
+    - assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S6 SS1 L2/
+    - assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S6 SS1 L3/
+    - assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S6 SS1 L4/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L1/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L2/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L3/
+    - assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L4/
+    - assets/images/RME/RME JHS1 S2 SS1 L3/
+    - assets/images/RME/s2_ss1_l4/
+    - assets/images/science/SCIENCE JHS1 S1 SS1 L1/
+    - assets/audio/science/1. JHS1 S1 SS1 L1/
+    - assets/images/science/SCIENCE JHS1 S1 SS1 L2/
+    - assets/audio/science/2. JHS1 S1 SS1 L2/
+    - assets/audio/science/3. JHS1 S1 SS1 L3/
+    - assets/images/science/SCIENCE JHS1 S1 SS1 L3/
+    - assets/audio/science/4. JHS1 S1 SS1 L4/
+    - assets/images/science/SCIENCE JHS1 S1 SS1 L4/
+    - assets/audio/science/5. JHS1 S1 SS2 L1/
+    - assets/images/science/SCIENCE JHS1 S1 SS2 L1/
+    - assets/images/science/SCIENCE JHS1 S1 SS2 L2/
+    - assets/audio/science/6. JHS1 S1 SS2 L2/
+    - assets/images/MATH/MATH_JHS1_S3_SS1/
+    - assets/audio/math/1. JHS1 S3 SS1/
+    - assets/images/MATH/MATH_JHS1_S3_SS2/
+    - assets/audio/math/2. JHS1 S3 SS2/
+    - assets/audio/math/3. JHS1 S3 SS3/
+    - assets/images/MATH/MATH_JHS1_S3_SS3/
+    - assets/images/MATH/MATH_JHS1_S4_SS1/
+    - assets/audio/math/1. JHS1 S4 SS1/
+    - assets/audio/math/2. JHS1 S4 SS2/
+    - assets/images/MATH/MATH_JHS1_S4_SS2/
+    - assets/images/MATH/MATH_JHS2_S1_SS1/
+    - assets/audio/math/1. JHS2 S1 SS1/
+    - assets/images/MATH/MATH_JHS2_S1_SS2/
+    - assets/audio/math/2. JHS2 S1 SS2/
+    - assets/images/MATH/MATH_JHS2_S1_SS3/
+    - assets/audio/math/3. JHS2 S1 SS3/
+    - assets/audio/math/4. JHS2 S1 SS4/
+    - assets/images/MATH/MATH_JHS2_S1_SS4/
+    - assets/audio/math/1. JHS2 S2 SS1/
+    - assets/images/MATH/MATH_JHS2_S2_SS1/
+    - assets/images/MATH/MATH_JHS2_S2_SS2/
+    - assets/audio/math/2. JHS2 S2 SS2/
+    - assets/audio/math/3. JHS2 S2 SS3/
+    - assets/images/MATH/MATH_JHS2_S2_SS3/
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
