@@ -62,7 +62,7 @@ dependencies:
 
   # Video
   just_audio: ^0.9.42
-  video_player: 2.4.7
+  video_player: ^2.8.1
   # flutter_math_fork:
   #   path: ./packages/flutter_math_fork
   # flutter_secure_storage:
@@ -420,6 +420,7 @@ flutter:
     - assets/audio/math/2. JHS2 S2 SS2/
     - assets/audio/math/3. JHS2 S2 SS3/
     - assets/images/MATH/MATH_JHS2_S2_SS3/
+    - shorebird.yaml
 
 
 
