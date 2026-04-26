@@ -30,6 +30,10 @@
 	<string>This app needs camera access to take profile pictures.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app needs gallery access to select profile pictures.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs gallery access to save profile pictures.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access for video recording or voice features.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
