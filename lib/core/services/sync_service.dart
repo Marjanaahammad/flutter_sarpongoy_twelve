@@ -102,29 +102,66 @@ class SyncService extends GetxService {
     try {
       final allProgress = await _progressRepo.getAllProgress();
 
-      // Build a structured payload grouping progress by hierarchy
-      Map<String, dynamic> payload = {
-        'timestamp': DateTime.now().toIso8601String(),
-        'grade_name': Get.find<SidebarController>().selectedGrade.value,
-        'progress_data': allProgress.map((p) => p.toMap()).toList(),
-      };
+      // Compute total study minutes
+      final hoursData = Get.find<SidebarController>()
+          .getActivityMinutesAllSubjects(progress: allProgress);
 
-      debugPrint(
-        "Syncing all curriculum data (${allProgress.length} items)...",
-      );
+      const int chunkSize = 50;
 
-      await RequestQueueService().addToQueue(
-        endpoint: '${ApiConstants.baseUrl}/student/activities/sync',
-        method: 'POST',
-        data: payload,
-      );
+      if (allProgress.isEmpty) {
+        // Even if no progress, sync the time/metadata
+        final payload = _buildSyncPayload([], hoursData);
+        await _sendSyncPayload(payload);
+      } else {
+        final totalChunks = (allProgress.length / chunkSize).ceil();
+        for (var i = 0; i < allProgress.length; i += chunkSize) {
+          final chunk = allProgress.sublist(
+            i,
+            i + chunkSize > allProgress.length
+                ? allProgress.length
+                : i + chunkSize,
+          );
 
-      final sync = await syncRepo.syncStudentActivities(payload);
+          final payload = _buildSyncPayload(chunk, hoursData);
+          await _sendSyncPayload(payload);
+
+          debugPrint(
+            "Syncing chunk ${(i / chunkSize).toInt() + 1} of $totalChunks (${chunk.length} items)...",
+          );
+        }
+      }
 
       debugPrint("Full curriculum sync enqueued.");
     } catch (e) {
       debugPrint("Error during full curriculum sync: $e");
     }
+  }
+
+  Map<String, dynamic> _buildSyncPayload(
+    List<ActivityProgress> progress,
+    Map<String, dynamic> hoursData,
+  ) {
+    return {
+      'timestamp': DateTime.now().toIso8601String(),
+      'grade_name': Get.find<SidebarController>().selectedGrade.value,
+      'activityMinutes': hoursData[
+          'activityMinutes'], // total study minutes across all subjects
+      'subject_minutes':
+          hoursData['subject_minutes'], // per-subject minutes breakdown
+      'progress_data': progress.map((p) => p.toMap()).toList(),
+    };
+  }
+
+  Future<void> _sendSyncPayload(Map<String, dynamic> payload) async {
+    // Add to persistent queue for offline/retry support
+    await RequestQueueService().addToQueue(
+      endpoint: '${ApiConstants.baseUrl}/student/activities/sync',
+      method: 'POST',
+      data: payload,
+    );
+
+    // Attempt immediate sync
+    await syncRepo.syncStudentActivities(payload);
   }
 
   // Allow manual trigger

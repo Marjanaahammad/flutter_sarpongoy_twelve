@@ -59,12 +59,12 @@ class GetReadyController extends GetxController {
     lessonNumber = number;
     gradeName = grade;
 
-    // Reset session flags every time we enter the lesson
-    isOverviewFinishedInSession.value = false;
-    isHookFinishedInSession.value = false;
+    // Navigation buttons are now always unlocked by default
+    isOverviewFinishedInSession.value = true;
+    isHookFinishedInSession.value = true;
 
     _loadExistingProgress();
-    loadAudio(model.overviewAudioPath, delayMs: 3500);
+    loadAudio(model.overviewAudioPath, delayMs: 0);
   }
 
   Future<void> _loadExistingProgress() async {
@@ -208,12 +208,12 @@ class GetReadyController extends GetxController {
       return;
     }
     showHook.value = true;
-    loadAudio(model.hookAudioPath, delayMs: 500);
+    loadAudio(model.hookAudioPath, delayMs: 0);
   }
 
   void goBackToOverview() {
     showHook.value = false;
-    loadAudio(model.overviewAudioPath, delayMs: 3500);
+    loadAudio(model.overviewAudioPath, delayMs: 0);
   }
 
   @override

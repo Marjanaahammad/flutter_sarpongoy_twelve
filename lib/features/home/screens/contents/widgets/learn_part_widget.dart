@@ -35,7 +35,8 @@ class LearnPartWidget extends StatelessWidget {
               child: isVideo
                   ? Container(
                       width: MediaQuery.of(context).size.width,
-                      height: MediaQuery.of(context).size.height *.48, // Fixed height to increase size
+                      height: MediaQuery.of(context).size.height *
+                          .48, // Fixed height to increase size
                       color: Colors.black,
                       child: controller.isVideoInitialized.value &&
                               controller.videoController != null
@@ -50,7 +51,8 @@ class LearnPartWidget extends StatelessWidget {
                                         .videoController!.value.size.width,
                                     height: controller
                                         .videoController!.value.size.height,
-                                    child: VideoPlayer(controller.videoController!),
+                                    child: VideoPlayer(
+                                        controller.videoController!),
                                   ),
                                 ),
                                 // Restricted Progress Bar
@@ -59,16 +61,24 @@ class LearnPartWidget extends StatelessWidget {
                                   left: 20,
                                   right: 20,
                                   child: Obx(() {
-                                    final currentPos = controller.position.value.inMilliseconds.toDouble();
-                                    final maxDuration = controller.duration.value.inMilliseconds.toDouble();
-                                    
+                                    final currentPos = controller
+                                        .position.value.inMilliseconds
+                                        .toDouble();
+                                    final maxDuration = controller
+                                        .duration.value.inMilliseconds
+                                        .toDouble();
+
                                     return SliderTheme(
                                       data: SliderTheme.of(context).copyWith(
                                         trackHeight: 2,
-                                        thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 4),
-                                        overlayShape: const RoundSliderOverlayShape(overlayRadius: 10),
+                                        thumbShape: const RoundSliderThumbShape(
+                                            enabledThumbRadius: 4),
+                                        overlayShape:
+                                            const RoundSliderOverlayShape(
+                                                overlayRadius: 10),
                                         activeTrackColor: Colors.green,
-                                        inactiveTrackColor: Colors.white.withOpacity(0.5),
+                                        inactiveTrackColor:
+                                            Colors.white.withOpacity(0.5),
                                         thumbColor: Colors.green,
                                       ),
                                       child: Slider(
@@ -76,10 +86,13 @@ class LearnPartWidget extends StatelessWidget {
                                         min: 0,
                                         max: maxDuration > 0 ? maxDuration : 1,
                                         onChanged: (value) {
-                                          final newPos = Duration(milliseconds: value.toInt());
+                                          final newPos = Duration(
+                                              milliseconds: value.toInt());
                                           // Allow seeking backward only
-                                          if (newPos <= controller.position.value) {
-                                            controller.videoController?.seekTo(newPos);
+                                          if (newPos <=
+                                              controller.position.value) {
+                                            controller.videoController
+                                                ?.seekTo(newPos);
                                           }
                                         },
                                       ),
@@ -134,7 +147,7 @@ class LearnPartWidget extends StatelessWidget {
             ],
           )
               .animate(key: ValueKey('ctrl_$index'))
-              .fadeIn(delay: 2000.ms, duration: 1400.ms)
+              .fadeIn(duration: 1400.ms)
               .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
         ],
       );

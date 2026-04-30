@@ -6,7 +6,6 @@ import 'package:flutter_sarpongoy_twelve/features/profile/screens/Profile_pictur
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/privacy_policy_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/security_question_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/support__screen.dart';
-import 'package:flutter_sarpongoy_twelve/features/splash/screens/splash_screen.dart';
 import 'package:get/get.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -218,9 +217,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
               /// Stats Row
               Row(
                 children: [
-                  Expanded(child: _statCard("92%", "Average Score")),
+                  Expanded(
+                    child: _statCard(
+                      student!.averageScore.toString(),
+                      "Average Score",
+                    ),
+                  ),
                   const SizedBox(width: 12),
-                  Expanded(child: _statCard("12", "Total Number of Hours")),
+                  Expanded(
+                    child: _statCard(
+                      (student.totalNumberOfMinutes / 60).toStringAsFixed(0),
+                      "Total Number of Hours",
+                    ),
+                  ),
                 ],
               ),
 

@@ -27,6 +27,8 @@ class Student {
   final School school;
   final StudentMedia picture;
   final StudentMedia file;
+  final double averageScore;
+  final int totalNumberOfMinutes;
 
   Student({
     required this.id,
@@ -37,6 +39,8 @@ class Student {
     required this.school,
     required this.picture,
     required this.file,
+    required this.averageScore,
+    required this.totalNumberOfMinutes,
   });
 
   factory Student.fromJson(Map<String, dynamic> json) {
@@ -49,6 +53,9 @@ class Student {
       school: School.fromJson(json['school'] ?? {}),
       picture: StudentMedia.fromJson(json['picture'] ?? {}),
       file: StudentMedia.fromJson(json['file'] ?? {}),
+      averageScore: (json['averageScore'] as num?)?.toDouble() ?? 0.0,
+      totalNumberOfMinutes:
+          (json['totalNumberOfMinutes'] as num?)?.toInt() ?? 0,
     );
   }
 
@@ -62,6 +69,8 @@ class Student {
       'school': school.toJson(),
       'picture': picture.toJson(),
       'file': file.toJson(),
+      'averageScore': averageScore,
+      'totalNumberOfMinutes': totalNumberOfMinutes
     };
   }
 }

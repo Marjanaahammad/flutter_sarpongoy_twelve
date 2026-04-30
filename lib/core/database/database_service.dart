@@ -49,7 +49,7 @@ class DatabaseService {
         sync_status INTEGER DEFAULT 0
       )
     ''');
-    
+
     await db.execute('''
       CREATE TABLE user_profile (
         id TEXT PRIMARY KEY,
@@ -64,33 +64,41 @@ class DatabaseService {
         value TEXT
       )
     ''');
-    
+
     DPrint.info('Database tables created');
   }
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     if (oldVersion < 2) {
       // Adding hierarchy metadata columns from v1 to v2
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN course_name TEXT');
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN strand_name TEXT');
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN sub_strand_name TEXT');
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN lesson_number TEXT');
+      await db
+          .execute('ALTER TABLE activity_progress ADD COLUMN course_name TEXT');
+      await db
+          .execute('ALTER TABLE activity_progress ADD COLUMN strand_name TEXT');
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN sub_strand_name TEXT');
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN lesson_number TEXT');
       DPrint.info('Database upgraded to version 2');
     }
     if (oldVersion < 3) {
       // Adding grade_name from v2 to v3
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN grade_name TEXT');
+      await db
+          .execute('ALTER TABLE activity_progress ADD COLUMN grade_name TEXT');
       DPrint.info('Database upgraded to version 3');
     }
     if (oldVersion < 4) {
       // Adding original_score from v3 to v4
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN original_score INTEGER');
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN original_score INTEGER');
       DPrint.info('Database upgraded to version 4');
     }
     if (oldVersion < 5) {
       // Adding practice_original_score and quiz_original_score from v4 to v5
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN practice_original_score INTEGER');
-      await db.execute('ALTER TABLE activity_progress ADD COLUMN quiz_original_score INTEGER');
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN practice_original_score INTEGER');
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN quiz_original_score INTEGER');
       DPrint.info('Database upgraded to version 5');
     }
     if (oldVersion < 6) {

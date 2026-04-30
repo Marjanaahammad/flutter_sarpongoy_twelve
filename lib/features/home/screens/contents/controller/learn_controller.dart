@@ -46,8 +46,7 @@ class LearnController extends GetxController {
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
   bool get isCurrentPartFinished {
-    final idx = currentPartIndex.value;
-    return isPartFinishedInSession[idx] || isPartCompleted[idx];
+    return true; // Always unlocked
   }
 
   // ── Initialisation ───────────────────────────────────────────────────────────
@@ -78,9 +77,9 @@ class LearnController extends GetxController {
 
     _loadExistingProgress();
     if (currentPart.videoPath != null) {
-      loadVideo(currentPart.videoPath!, delayMs: 3500);
+      loadVideo(currentPart.videoPath!, delayMs: 0);
     } else {
-      loadAudio(currentPart.audioPath, delayMs: 3500);
+      loadAudio(currentPart.audioPath, delayMs: 0);
     }
   }
 
@@ -262,8 +261,7 @@ class LearnController extends GetxController {
       isVideoInitialized.value = false;
 
       if (path.startsWith('http')) {
-        videoController =
-            VideoPlayerController.network(Uri.parse(path).toString());
+        videoController = VideoPlayerController.networkUrl(Uri.parse(path));
       } else {
         videoController = VideoPlayerController.asset(path);
       }

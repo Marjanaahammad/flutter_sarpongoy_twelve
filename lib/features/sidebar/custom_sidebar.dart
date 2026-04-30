@@ -56,7 +56,6 @@ class CustomSidebar extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
               ),
             ),
-
             NavigationRailDestination(
               icon: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 40.0),
@@ -79,7 +78,6 @@ class CustomSidebar extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
               ),
             ),
-
             NavigationRailDestination(
               icon: Image.asset(
                 'assets/images/user_456283 1.png',
@@ -133,9 +131,11 @@ class CustomSidebar extends StatelessWidget {
                           child: Column(
                             children: [
                               GestureDetector(
-                                onTap: () {
-                                  controller.changeStrand(index);
-                                },
+                                onTap: strand.isLocked
+                                    ? null
+                                    : () {
+                                        controller.changeStrand(index);
+                                      },
                                 child: _buildStatusIcon(strand),
                               ),
                               if (!isLast)
@@ -151,9 +151,11 @@ class CustomSidebar extends StatelessWidget {
                         // Label
                         Expanded(
                           child: GestureDetector(
-                            onTap: () {
-                              controller.changeStrand(index);
-                            },
+                            onTap: strand.isLocked
+                                ? null
+                                : () {
+                                    controller.changeStrand(index);
+                                  },
                             child: Container(
                               padding: const EdgeInsets.only(bottom: 24),
                               child: Column(
@@ -165,9 +167,11 @@ class CustomSidebar extends StatelessWidget {
                                     style: TextStyle(
                                       fontWeight: FontWeight.w500,
                                       fontSize: 16,
-                                      color: isSelected
-                                          ? const Color(0xFF00A521)
-                                          : Colors.black,
+                                      color: strand.isLocked
+                                          ? Colors.grey
+                                          : (isSelected
+                                              ? const Color(0xFF00A521)
+                                              : Colors.black),
                                     ),
                                   ),
                                   const SizedBox(height: 4),
@@ -175,9 +179,11 @@ class CustomSidebar extends StatelessWidget {
                                     strand.subtitle,
                                     style: TextStyle(
                                       fontSize: 14,
-                                      color: isSelected
-                                          ? const Color(0xFF629D6E)
-                                          : Colors.black,
+                                      color: strand.isLocked
+                                          ? Colors.grey.shade400
+                                          : (isSelected
+                                              ? const Color(0xFF629D6E)
+                                              : Colors.black),
                                       fontWeight: FontWeight.w400,
                                     ),
                                     maxLines: 2,
@@ -243,6 +249,18 @@ class CustomSidebar extends StatelessWidget {
   }
 
   Widget _buildStatusIcon(Strand strand) {
+    if (strand.isLocked) {
+      return Container(
+        width: 32,
+        height: 32,
+        decoration: BoxDecoration(
+          color: Colors.grey.shade300,
+          shape: BoxShape.circle,
+          border: Border.all(color: Colors.grey.shade400, width: 2),
+        ),
+        child: Icon(Icons.lock_outline, size: 18, color: Colors.grey.shade600),
+      );
+    }
     if (strand.isCompleted) {
       return Container(
         width: 32,

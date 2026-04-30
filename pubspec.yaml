@@ -2,7 +2,7 @@ name: flutter_sarpongoy_twelve
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+5
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.5.3
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,7 +30,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -72,7 +71,6 @@ dependencies:
   sqflite: ^2.3.0
   path_provider: ^2.1.5
 
-
   flutter_launcher_icons: "^0.13.1"
   provider: ^6.1.5+1
 
@@ -81,7 +79,6 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/images/app_icon.jpg"
   min_sdk_android: 21 # android min sdk min:16, default 21
-
 
 dev_dependencies:
   flutter_test:
@@ -99,12 +96,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -195,6 +190,7 @@ flutter:
     - assets/audio/RME/s3_ss1_l3/
     - assets/audio/RME/s4_ss1_l1/
     - assets/audio/RME/s4_ss1_l2/
+    - assets/images/RME/s2_ss1_l3/
     - assets/audio/RME/s4_ss1_l3/
     - assets/audio/RME/s5_ss1_l1/
     - assets/audio/RME/s5_ss1_l2/
@@ -323,7 +319,6 @@ flutter:
     - assets/images/social_studies/SOCIAL STUDIES JHS2 S3 SS1-2 L1/
     - assets/audio/social_studies/3. SOCIAL STUDIES JHS2 S2 SS3-4 L1/
     - assets/images/social_studies/SOCIAL STUDIES JHS2 S2 SS3-4 L1/
-    - assets/images/social_studies/SOCIAL STUDIES JHS2 S3 SS1-2 L2/
     - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S3 SS1-2 L1/
     - assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S3 SS1-2 L2/
     - assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S4 SS1 L1/
@@ -413,16 +408,78 @@ flutter:
     - assets/images/MATH/MATH_JHS2_S1_SS3/
     - assets/audio/math/3. JHS2 S1 SS3/
     - assets/audio/math/4. JHS2 S1 SS4/
+    - assets/images/social_studies/SOCIAL STUDIES JHS2 S3 SS1-2 L2/
     - assets/images/MATH/MATH_JHS2_S1_SS4/
     - assets/audio/math/1. JHS2 S2 SS1/
     - assets/images/MATH/MATH_JHS2_S2_SS1/
     - assets/images/MATH/MATH_JHS2_S2_SS2/
     - assets/audio/math/2. JHS2 S2 SS2/
+    - assets/images/MATH/MATH_JHS2_S3_SS3/
+    - assets/images/MATH/MATH_JHS2_S3_SS2/
+    - assets/audio/math/3. JHS2 S3 SS3/
+    - assets/audio/math/2. JHS2 S3 SS2/
     - assets/audio/math/3. JHS2 S2 SS3/
     - assets/images/MATH/MATH_JHS2_S2_SS3/
-    - shorebird.yaml
+    - assets/audio/math/1. JHS2 S4 SS1/
+    - assets/audio/math/2. JHS2 S4 SS2/
+    - assets/images/MATH/MATH_JHS2_S4_SS1/
+    - assets/images/MATH/MATH_JHS2_S4_SS2/
+    - assets/images/MATH/MATH_JHS2_S3_SS1/
+    - assets/audio/math/1. JHS2 S3 SS1/
+    - assets/audio/RME/s2_ss1_l3/
+    - assets/audio/RME/s2_ss1_l4/
+    - assets/images/MATH/MATH_JHS3_S1_SS1/
+    - assets/audio/math/1. JHS3 S1 SS1/
+    - assets/images/MATH/MATH_JHS3_S1_SS2/
+    - assets/audio/math/2. JHS3 S1 SS2/
+    - assets/audio/math/3. JHS3 S1 SS3/
+    - assets/audio/math/4. JHS3 S1 SS4/
+    - assets/images/MATH/MATH_JHS3_S1_SS3/
+    - assets/images/MATH/MATH_JHS3_S1_SS4/
+    - assets/images/MATH/MATH_JHS3_S2_SS1/
+    - assets/audio/math/1. JHS3 S2 SS1/
+    - assets/audio/math/2. JHS3 S2 SS2/
+    - assets/images/MATH/MATH_JHS3_S2_SS2/
+    - assets/audio/math/3. JHS3 S2 SS3/
+    - assets/images/MATH/MATH_JHS3_S2_SS3/
+    - assets/audio/math/1. JHS3 S3 SS1/
+    - assets/images/MATH/MATH_JHS3_S3_SS1/
+    - assets/images/MATH/MATH_JHS3_S3_SS2/
+    - assets/audio/math/2. JHS3 S3 SS2/
+    - assets/images/MATH/MATH_JHS3_S3_SS3/
+    - assets/audio/math/1. JHS3 S4 SS1/
+    - assets/images/MATH/MATH_JHS3_S4_SS1/
+    - assets/images/MATH/MATH_JHS3_S4_SS2/
+    - assets/audio/math/2. JHS3 S4 SS2/
+    - assets/audio/math/3. JHS3 S3 SS3/
+    - assets/audio/science/1. JHS2 S1 SS1 L1/
+    - assets/images/science/SCIENCE JHS2 S1 SS1 L1/
+    - assets/audio/science/2. JHS2 S1 SS1 L2/
+    - assets/images/science/SCIENCE JHS2 S1 SS1 L2/
+    - assets/audio/science/3. JHS2 S1 SS1 L3/
+    - assets/images/science/SCIENCE JHS2 S1 SS1 L3/
+    - assets/audio/science/4. JHS2 S1 SS1 L4/
+    - assets/images/science/SCIENCE JHS2 S1 SS1 L4/
+    - assets/audio/science/5. JHS2 S1 SS2 L1/
+    - assets/audio/science/6. JHS2 S1 SS2 L2/
+    - assets/images/science/SCIENCE JHS2 S1 SS2 L1/
+    - assets/images/science/SCIENCE JHS2 S1 SS2 L2/
+    - assets/images/science/SCIENCE JHS3 S1 SS1 L1/
+    - assets/audio/science/1. JHS3 S1 SS1 L1/
+    - assets/audio/science/2. JHS3 S1 SS1 L2/
+    - assets/images/science/SCIENCE JHS3 S1 SS1 L2/
+    - assets/audio/science/3. JHS3 S1 SS1 L3/
+    - assets/images/science/SCIENCE JHS3 S1 SS1 L3/
+    - assets/audio/science/4. JHS3 S1 SS1 L4/
+    - assets/images/science/SCIENCE JHS3 S1 SS1 L4/
+    - assets/audio/science/5. JHS3 S1 SS2 L1/
+    - assets/images/science/SCIENCE JHS3 S1 SS2 L1/
+    - assets/images/science/SCIENCE JHS3 S1 SS2 L2/
+    - assets/audio/science/6. JHS3 S1 SS2 L2/
+    - assets/audio/science/7. JHS3 S1 SS2 L3/
+    - assets/images/science/SCIENCE JHS3 S1 SS2 L3/
 
-
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -447,5 +504,4 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+  # For details rega

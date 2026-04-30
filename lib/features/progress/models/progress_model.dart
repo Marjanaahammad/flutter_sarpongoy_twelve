@@ -14,6 +14,7 @@ class ActivityProgress {
   final int? score;
   final int? originalScore;
   final int? totalQuestions;
+  final int activityMinutes;
   final DateTime lastUpdated;
   final int syncStatus; // 0: pending, 1: synced
 
@@ -31,6 +32,7 @@ class ActivityProgress {
     this.score,
     this.originalScore,
     this.totalQuestions,
+    this.activityMinutes = 30, // Default 30 mins
     required this.lastUpdated,
     this.syncStatus = 0,
   });
@@ -49,9 +51,11 @@ class ActivityProgress {
       'is_completed': isCompleted ? 1 : 0,
       'score': score,
       'original_score': originalScore,
-      'practice_original_score': activityType == 'independent' ? originalScore : null,
+      'practice_original_score':
+          activityType == 'independent' ? originalScore : null,
       'quiz_original_score': activityType == 'quiz' ? originalScore : null,
       'total_questions': totalQuestions,
+      'activity_minutes': activityMinutes > 0 ? activityMinutes : 30,
       'last_updated': lastUpdated.toIso8601String(),
       'sync_status': syncStatus,
     };
@@ -60,9 +64,10 @@ class ActivityProgress {
   factory ActivityProgress.fromMap(Map<String, dynamic> map) {
     // Handle both local DB (snake_case) and backend (camelCase) keys
     final lessonId = map['lesson_id'] ?? map['lessonId'] ?? "unknown";
-    final activityType = map['activity_type'] ?? map['activityType'] ?? "unknown";
+    final activityType =
+        map['activity_type'] ?? map['activityType'] ?? "unknown";
     final subActivity = map['sub_activity'] ?? map['subActivity'] ?? "unknown";
-    
+
     // Handle is_completed (int from DB) or is_completed/isCompleted/status (from backend)
     bool isCompleted = false;
     if (map['is_completed'] != null) {
@@ -91,10 +96,11 @@ class ActivityProgress {
       score: map['score'],
       originalScore: map['original_score'] ?? map['originalScore'],
       totalQuestions: map['total_questions'] ?? map['totalQuestions'],
-      lastUpdated: map['last_updated'] != null 
-          ? DateTime.parse(map['last_updated']) 
-          : (map['lastUpdated'] != null 
-              ? DateTime.parse(map['lastUpdated']) 
+      activityMinutes: map['activity_minutes'] ?? map['activityMinutes'] ?? 30,
+      lastUpdated: map['last_updated'] != null
+          ? DateTime.parse(map['last_updated'])
+          : (map['lastUpdated'] != null
+              ? DateTime.parse(map['lastUpdated'])
               : DateTime.now()),
       syncStatus: map['sync_status'] ?? map['syncStatus'] ?? 0,
     );
@@ -114,6 +120,7 @@ class ActivityProgress {
     int? score,
     int? originalScore,
     int? totalQuestions,
+    int? activityMinutes,
     DateTime? lastUpdated,
     int? syncStatus,
   }) {
@@ -131,6 +138,7 @@ class ActivityProgress {
       score: score ?? this.score,
       originalScore: originalScore ?? this.originalScore,
       totalQuestions: totalQuestions ?? this.totalQuestions,
+      activityMinutes: activityMinutes ?? this.activityMinutes,
       lastUpdated: lastUpdated ?? this.lastUpdated,
       syncStatus: syncStatus ?? this.syncStatus,
     );

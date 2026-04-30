@@ -1,8 +1,8 @@
 class ApiConstants {
   /// [Base Configuration]
-  // static const String baseDomain = 'http://10.10.5.48:5000'; // Noyon Office
+  static const String baseDomain = 'http://10.10.5.48:5004'; // Noyon Office
   //static const String baseDomain = 'http://10.10.5.33:5004'; // Noyon Office
-  static const String baseDomain = 'https://api.ilearnready.com'; // Noyon Office
+  // static const String baseDomain = 'https://api.ilearnready.com'; // Noyon Office
   static const String baseUrl = '$baseDomain/api/v1';
 
   // /// [Headers]
@@ -17,9 +17,9 @@ class ApiConstants {
   // };
 
   static Map<String, String> get multipartHeaders => {
-    'Accept': 'application/json',
-    // Content-Type will be set automatically for multipart
-  };
+        'Accept': 'application/json',
+        // Content-Type will be set automatically for multipart
+      };
 
   /// [Endpoint Groups
   static AuthEndpoints get auth => AuthEndpoints();
@@ -83,6 +83,7 @@ class SyncEndpoint {
   final String syncStudentActivities = "$_base/activities/sync";
   final String syncGetStudentActivities = "$_base/activities";
 }
+
 class TeacherProfileEndpoints {
   static const String _base = '${ApiConstants.baseUrl}/teacher';
 

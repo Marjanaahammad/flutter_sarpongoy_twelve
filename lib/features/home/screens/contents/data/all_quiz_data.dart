@@ -130,7 +130,6 @@ final QuizModel defaultQuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [
@@ -249,7 +248,6 @@ final QuizModel ss1Lesson2QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l3/8. Quiz.m4a',
   questions: [
@@ -363,7 +361,6 @@ final QuizModel ss1Lesson3QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l4/8. Quiz.m4a',
   questions: [
@@ -477,7 +474,6 @@ final QuizModel ss1Lesson4QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/ss2_l1/8. Quiz.m4a',
   questions: [
@@ -591,7 +587,6 @@ final QuizModel ss2Lesson1QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss2_l1/8. Quiz.m4a',
   questions: [
@@ -727,7 +722,6 @@ final QuizModel ss2Lesson2QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/ss3_l1/8. Quiz.m4a',
   questions: [
@@ -950,7 +944,6 @@ final QuizModel s2ss1Lesson1QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel s2ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/s2_ss1_l2/8. Quiz.m4a',
   questions: [
@@ -1086,7 +1079,6 @@ final QuizModel s2ss1Lesson2QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel s2ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/jhs2_s2_ss1_l3/8. Quiz.m4a',
   questions: [
@@ -1104,7 +1096,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Topic sentences typically introduce the main point and structure.",
     ),
-
     QuizQuestion(
       question:
           "2. \"The harvest was small this year due to the lack of rain.\" This sentence shows:",
@@ -1118,7 +1109,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Due to\" signals a cause-and-effect relationship.",
     ),
-
     QuizQuestion(
       question:
           "3. Which graphic organiser is best for a text listing the kings of the Ashanti Kingdom in order?",
@@ -1132,7 +1122,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Chronological lists require a sequence structure.",
     ),
-
     QuizQuestion(
       question:
           "4. \"Unlike the coastal regions, the northern part of Ghana has a single rainy season.\" What is the author doing?",
@@ -1146,7 +1135,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Unlike\" is a signal word for contrast.",
     ),
-
     QuizQuestion(
       question:
           "5. A text structure that describes a challenge and how it was overcome is:",
@@ -1160,7 +1148,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "This structure focuses on resolving issues.",
     ),
-
     QuizQuestion(
       question:
           "6. Why does identifying text structure help you read independently?",
@@ -1174,7 +1161,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Understanding the \"map\" makes the content clearer.",
     ),
-
     QuizQuestion(
       question:
           "7. \"First, wash the cocoa beans. Second, dry them in the sun.\" This is:",
@@ -1188,7 +1174,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The words \"First\" and \"Second\" indicate a sequence.",
     ),
-
     QuizQuestion(
       question:
           "8. Which of these is a signal word for a \"Description\" structure?",
@@ -1197,7 +1182,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "High",
       explanation: "\"For example\" provides descriptive details.",
     ),
-
     QuizQuestion(
       question: "9. A Venn diagram is most useful for which indicator?",
       options: [
@@ -1210,7 +1194,6 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Venn diagrams are the standard organiser for comparison.",
     ),
-
     QuizQuestion(
       question:
           "10. If a topic sentence says \"There are several differences between a forest and a savannah,\" you expect the structure to be:",
@@ -1243,7 +1226,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Asking what the whole text is about focuses your mind on the central theme.",
     ),
-
     QuizQuestion(
       question:
           "2. Passage: \"The Great Adomi Bridge spans the Volta River. It is a vital link for traders moving goods between the Eastern and Volta regions. Without it, travel would take much longer.\" What is the central idea?",
@@ -1258,7 +1240,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "The text focuses on the bridge's importance for travel and trade.",
     ),
-
     QuizQuestion(
       question:
           "3. In the passage about the Adomi Bridge, which is a supporting detail?",
@@ -1273,7 +1254,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "This is a specific fact that supports the idea of the bridge being a vital link.",
     ),
-
     QuizQuestion(
       question: "4. What does it mean to \"restate the gist\"?",
       options: [
@@ -1286,7 +1266,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The 'gist' is the essence or main point of the text.",
     ),
-
     QuizQuestion(
       question:
           "5. Passage: \"Proper sanitation in our schools prevents the spread of diseases. When students wash their hands with soap and keep their compounds clean, everyone stays healthy.\" What is the main idea?",
@@ -1301,7 +1280,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "The passage links sanitation/cleanliness directly to staying healthy.",
     ),
-
     QuizQuestion(
       question:
           "6. If you are \"analysing what is important\" in a text, what are you doing?",
@@ -1316,7 +1294,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Analysis involves evaluating which information is central versus secondary.",
     ),
-
     QuizQuestion(
       question: "7. A summary should be ______ than the original text.",
       options: [
@@ -1330,7 +1307,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "A summary distills information into a shorter, clearer version.",
     ),
-
     QuizQuestion(
       question:
           "8. Passage: \"Planting trees helps protect our environment. Trees provide shade, improve the air we breathe, and prevent soil erosion during heavy rains in the rainy season.\" Which of these is a supporting detail?",
@@ -1345,7 +1321,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "This is a specific benefit listed in the text to support the main idea of tree planting.",
     ),
-
     QuizQuestion(
       question:
           "9. When you \"put up a defence\" for your summary choice, you are:",
@@ -1360,7 +1335,6 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Defending a choice means providing the reasoning behind why you identified certain points as the main ones.",
     ),
-
     QuizQuestion(
       question:
           "10. Which is the best way to start a summary of a story about a boy named Kwesi who learned to play the fontomfrom drum?",
@@ -1388,7 +1362,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Use simple present for the 'if' clause.",
     ),
-
     QuizQuestion(
       question: "2. We ________ the game if we practice every day.",
       options: ["win", "winning", "will win", "won"],
@@ -1396,7 +1369,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Use the future tense for the result clause.",
     ),
-
     QuizQuestion(
       question:
           "3. \"If the teacher comes, we will stop talking.\" Identify the subordinate clause.",
@@ -1410,7 +1382,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The 'if' clause is the subordinate clause.",
     ),
-
     QuizQuestion(
       question:
           "4. Choose the correct ending: \"If you go to Kejetia Market...\"",
@@ -1424,7 +1395,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The result needs the future tense 'will'.",
     ),
-
     QuizQuestion(
       question: "5. \"You will get a gift if you ________ first in class.\"",
       options: ["come", "will come", "coming", "comes"],
@@ -1433,7 +1403,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Use simple present 'come' for the 'if' clause (subject 'you').",
     ),
-
     QuizQuestion(
       question: "6. Which sentence describes a possible future result?",
       options: [
@@ -1446,7 +1415,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This follows the Present Simple + Future Simple structure.",
     ),
-
     QuizQuestion(
       question:
           "7. Change the order: \"If the light goes out, I will use a torch.\"",
@@ -1461,7 +1429,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Moving the main clause to the front requires keeping its future tense.",
     ),
-
     QuizQuestion(
       question: "8. If Kwesi ________ his chores, his mother will be angry.",
       options: ["not do", "does not do", "will not do", "did not do"],
@@ -1469,7 +1436,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Use negative simple present for the condition.",
     ),
-
     QuizQuestion(
       question:
           "9. Identify the main clause: \"When the bell rings, the students will go home.\"",
@@ -1484,7 +1450,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The result ('the students will go home') is the main clause.",
     ),
-
     QuizQuestion(
       question: "10. \"If the GPRTU drivers strike, people ________ to walk.\"",
       options: ["have", "having", "had", "will have"],
@@ -1494,7 +1459,6 @@ final QuizModel s3ss1Lesson1QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/s3_ss1_l2/8. Quiz.m4a',
   questions: [
@@ -1505,7 +1469,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The students (subject) are doing the action.",
     ),
-
     QuizQuestion(
       question:
           "2. \"The old bridge was washed away by the flood.\" What is the object receiving the action?",
@@ -1514,7 +1477,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The bridge is the thing the action happened to.",
     ),
-
     QuizQuestion(
       question: "3. Convert to Active: \"The cake was eaten by the children.\"",
       options: [
@@ -1527,7 +1489,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'Ate' is the past tense form matching 'was eaten'.",
     ),
-
     QuizQuestion(
       question: "4. Which is a use of the passive voice?",
       options: [
@@ -1540,7 +1501,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Passive voice is ideal for processes and reports.",
     ),
-
     QuizQuestion(
       question: "5. \"The chief ________ a speech at the durbar.\" (Active)",
       options: ["was delivered", "delivering", "delivered", "is delivered"],
@@ -1548,7 +1508,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'Delivered' is the correct active past tense verb.",
     ),
-
     QuizQuestion(
       question: "6. Change to Passive: \"The police caught the thief.\"",
       options: [
@@ -1561,7 +1520,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Swaps the subject and object correctly using 'was caught'.",
     ),
-
     QuizQuestion(
       question:
           "7. \"The gold was mined in Obuasi.\" Why is the \"doer\" missing here?",
@@ -1576,7 +1534,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "In industrial processes, the action is often more important than the specific workers.",
     ),
-
     QuizQuestion(
       question:
           "8. Choose the correct passive form: \"The tailor is sewing the kente.\"",
@@ -1591,7 +1548,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "For present continuous ('is sewing'), we use 'is being sewn'.",
     ),
-
     QuizQuestion(
       question:
           "9. Identify the error: \"The car was repair by the mechanic.\"",
@@ -1605,7 +1561,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Passive voice requires the past participle (repaired).",
     ),
-
     QuizQuestion(
       question:
           "10. In the sentence \"The prize was awarded to Ama,\" who is the doer?",
@@ -1616,7 +1571,6 @@ final QuizModel s3ss1Lesson2QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel s3ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/s3_ss1_l3/8. Quiz.m4a',
   questions: [
@@ -1632,7 +1586,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Present simple 'am' becomes past simple 'was'.",
     ),
-
     QuizQuestion(
       question: "2. In Reported Speech, \"we\" usually changes to ________.",
       options: ["us", "they", "them", "you"],
@@ -1641,7 +1594,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Pronouns change to match the third-person perspective of the reporter.",
     ),
-
     QuizQuestion(
       question:
           "3. \"He reported that the car ________ the tree.\" (Direct: \"The car hit the tree.\")",
@@ -1650,7 +1602,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Past simple 'hit' moves back to past perfect 'had hit'.",
     ),
-
     QuizQuestion(
       question: "4. Which sentence uses Direct Speech correctly?",
       options: [
@@ -1664,7 +1615,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Direct speech requires a comma and quotation marks around the exact words.",
     ),
-
     QuizQuestion(
       question: "5. \"She admitted that there ________ no homework.\"",
       options: ["is", "were", "was", "will be"],
@@ -1672,7 +1622,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Matches the past tense reporting verb 'admitted'.",
     ),
-
     QuizQuestion(
       question: "6. \"I can help you,\" said the prefect. Report this.",
       options: [
@@ -1685,7 +1634,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'Can' changes to 'could' in reported speech.",
     ),
-
     QuizQuestion(
       question: "7. How does \"tomorrow\" change in reported speech?",
       options: ["the day before", "that day", "the next day", "yesterday"],
@@ -1694,7 +1642,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "'The next day' or 'the following day' is the standard shift.",
     ),
-
     QuizQuestion(
       question:
           "8. Identify the reporting verb: \"He regretted that he was busy on Saturday.\"",
@@ -1704,7 +1651,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "'Regretted' is the verb used to introduce the reported statement.",
     ),
-
     QuizQuestion(
       question:
           "9. \"You admitted there wasn't any homework.\" What is the reporting verb?",
@@ -1714,7 +1660,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "'Admitted' shows the manner in which the speech was delivered.",
     ),
-
     QuizQuestion(
       question:
           "10. Report this: \"We are walking along the road,\" they said.",
@@ -1730,7 +1675,6 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel s3ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/s3_ss1_l4/8. Quiz.m4a',
   questions: [
@@ -1741,7 +1685,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Positive 'is' matches with negative 'isn't'.",
     ),
-
     QuizQuestion(
       question: "2. \"You like tea, ________?\"",
       options: ["don't you", "do you", "aren't you", "like you"],
@@ -1749,7 +1692,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Positive simple present 'like' uses 'don't' in the tag.",
     ),
-
     QuizQuestion(
       question: "3. \"You're not going to play football today, ________?\"",
       options: ["aren't you", "are you", "do you", "will you"],
@@ -1757,7 +1699,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Negative 'are not' requires a positive 'are you' tag.",
     ),
-
     QuizQuestion(
       question: "4. \"The headmaster will speak today, ________?\"",
       options: ["will he", "won't he", "doesn't he", "isn't he"],
@@ -1765,7 +1706,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Positive 'will' becomes 'won't'.",
     ),
-
     QuizQuestion(
       question: "5. \"We have enough Cedis for the fare, ________?\"",
       options: ["do we", "haven't we", "don't we", "have we"],
@@ -1774,7 +1714,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       explanation:
           "'Have' is the auxiliary here, so the negative tag is 'haven't we'.",
     ),
-
     QuizQuestion(
       question: "6. \"Ama doesn't sell tomatoes at the market, ________?\"",
       options: ["does she", "doesn't she", "is she", "do she"],
@@ -1782,7 +1721,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Negative 'doesn't' matches with positive 'does she'.",
     ),
-
     QuizQuestion(
       question: "7. \"The students were quiet during the lesson, ________?\"",
       options: ["were they", "weren't they", "was they", "didn't they"],
@@ -1790,7 +1728,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'Were' (positive) matches with 'weren't' (negative).",
     ),
-
     QuizQuestion(
       question: "8. \"You didn't see the accident, ________?\"",
       options: ["did you", "didn't you", "do you", "was you"],
@@ -1798,7 +1735,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Negative past 'didn't' requires positive 'did you'.",
     ),
-
     QuizQuestion(
       question:
           "9. \"Let's go to the beach, ________?\" (Special rule for 'Let's')",
@@ -1808,7 +1744,6 @@ final QuizModel s3ss1Lesson4QuizData = QuizModel(
       explanation:
           "Suggestions starting with 'Let's' almost always use 'shall we?'.",
     ),
-
     QuizQuestion(
       question: "10. \"Nothing is wrong, ________?\"",
       options: ["isn't it", "is it", "is nothing", "doesn't it"],
@@ -1835,7 +1770,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "\"The bright sun\" is the complete subject.",
     ),
-
     QuizQuestion(
       question: "2. Identify the predicate: \"We are learning English today.\"",
       options: ["We", "are learning English today", "English", "today"],
@@ -1843,7 +1777,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The predicate starts with the auxiliary verb 'are'.",
     ),
-
     QuizQuestion(
       question:
           "3. What is the simple predicate in: \"Kojo plays football every Saturday\"?",
@@ -1852,7 +1785,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "'Plays' is the main action verb.",
     ),
-
     QuizQuestion(
       question:
           "4. \"A beautiful butterfly landed on the flower.\" What is the complete subject?",
@@ -1866,7 +1798,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Includes the noun and its adjectives.",
     ),
-
     QuizQuestion(
       question:
           "5. \"The mangoes on the tree are ripe.\" What is the complete predicate?",
@@ -1875,7 +1806,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The predicate starts with the linking verb 'are'.",
     ),
-
     QuizQuestion(
       question:
           "6. Find the simple subject: \"The red car sped down the road.\"",
@@ -1884,7 +1814,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'Car' is the core noun performing the action.",
     ),
-
     QuizQuestion(
       question:
           "7. Identify the predicate: \"The market at Kejetia is very large.\"",
@@ -1898,7 +1827,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'is very large' describes the subject.",
     ),
-
     QuizQuestion(
       question:
           "8. \"The brave firemen extinguished the fire.\" What is the complete subject?",
@@ -1912,7 +1840,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "This is the full 'who' of the sentence.",
     ),
-
     QuizQuestion(
       question:
           "9. Which part of this sentence is the predicate: \"My grandmother tells the best stories\"?",
@@ -1926,7 +1853,6 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Starts from the verb 'tells' to the end.",
     ),
-
     QuizQuestion(
       question:
           "10. In the sentence \"Ghana is a beautiful country,\" what is the simple predicate?",
@@ -1935,6 +1861,1783 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "'is' is the linking verb that serves as the simple predicate.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of turn-taking in a conversation?",
+      options: [
+        "To make sure you speak the most.",
+        "To finish the conversation in the shortest time.",
+        "To win an argument as quickly as possible.",
+        "To ensure everyone has a chance to speak and be heard."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Turn-taking is about balance and mutual respect in communication.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following is a verbal signal that a speaker is finished with their turn?",
+      options: [
+        "They start speaking much faster.",
+        "They look away and start walking.",
+        "They ask a question like, \"What do you think?\"",
+        "They cover their mouth with their hand."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asking a question is a clear \"yield\" signal, passing the turn to the other person.",
+    ),
+    QuizQuestion(
+      question:
+          "3. You are in a heated discussion about which JHS is better at sports. What should you do when you feel frustrated?",
+      options: [
+        "Shout over the other person to make your point.",
+        "Take a deep breath and wait for your turn to speak calmly.",
+        "Turn your back on them while they are still talking.",
+        "Walk away without saying anything."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Effective communication requires patience, even during disagreements.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which body language signal shows you are NOT interested in the conversation?",
+      options: [
+        "Leaning slightly toward the speaker.",
+        "Slumping in your chair and looking at your feet.",
+        "Nodding when the speaker makes a point.",
+        "Keeping your hands still on your lap."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Poor posture and lack of eye contact signal disinterest.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In a formal setting, like a District Conference, how should you usually request a turn to speak?",
+      options: [
+        "Stand up and start talking immediately.",
+        "Wait for the moderator to invite comments and raise your hand.",
+        "Cough loudly until someone looks at you.",
+        "Snap your fingers at the person currently speaking."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Formal settings require structured turn-taking signals like raising a hand.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What does \"listening patiently\" look like in a real conversation?",
+      options: [
+        "Thinking about what you will say next while they talk.",
+        "Interrupting only to correct their mistakes.",
+        "Not cutting the speaker off, even if you disagree.",
+        "Finishing the speaker's sentences for them."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Patient listening means letting the speaker finish their entire thought.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How can you use your \"posture\" to involve others in a group chat?",
+      options: [
+        "Turn your body to face different people as they speak.",
+        "Lean back as far as possible to show you are relaxed.",
+        "Keep your arms crossed tightly over your chest.",
+        "Look only at the person you like the most."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Facing the person speaking includes them in the social circle.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If two people start speaking at the exact same time, what is the polite thing to do?",
+      options: [
+        "Keep talking until the other person gives up.",
+        "Stop and say, \"Oh, sorry, you go ahead.\"",
+        "Close your eyes and wait for silence.",
+        "Point at yourself to show you were first."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Yielding the turn is a sign of good manners and effective discourse.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are \"word cards\" or \"toy microphones\" sometimes used in class discussions?",
+      options: [
+        "To make the lesson feel like a party.",
+        "To act as physical signals for whose turn it is to speak.",
+        "Because the classroom is too large to hear anyone.",
+        "To distract students from the topic."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "These objects are visual \"tokens\" that clearly define the current speaker.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of these is an appropriate way to \"signal interest\" through facial expressions?",
+      options: [
+        "Rolling your eyes when you hear something new.",
+        "Maintaining a blank, expressionless face.",
+        "Raising your eyebrows slightly to show surprise or curiosity.",
+        "Yawning to show you are comfortable."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Animated but respectful facial expressions show you are processing the information.",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/2. JHS2 S1 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What determines the register you should use?",
+      options: [
+        "The person, the place, and the purpose of the talk.",
+        "Only the time of day.",
+        "How much money you have in your pocket.",
+        "The clothes you are wearing that day."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Register is context-dependent based on the listener and the environment.",
+    ),
+    QuizQuestion(
+      question: "2. Which sentence uses an appropriate formal register?",
+      options: [
+        "\"Yo, give me the ticket now.\"",
+        "\"I'm gonna need that bus seat, thanks.\"",
+        "\"Could you please assist me with my reservation?\"",
+        "\"Tell the boss I'm here to see him.\""
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "\"Could you please assist\" is a hallmark of formal, polite register.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When chatting at a fast-food joint, why is informal register okay?",
+      options: [
+        "Because the food is cheap.",
+        "Because it is a relaxed, social setting with peers.",
+        "Because you don't need to be polite to waiters.",
+        "Because formal register is banned in restaurants."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Social settings with friends allow for relaxed, informal communication.",
+    ),
+    QuizQuestion(
+      question: "4. Which word is most likely found in an informal register?",
+      options: ["Furthermore", "Consequently", "Chale", "Nevertheless"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "\"Chale\" is a common Ghanaian informal slang term.",
+    ),
+    QuizQuestion(
+      question:
+          "5. You are inviting the Headteacher to your club meeting. Which is the best register?",
+      options: ["Informal", "Formal", "Slang", "Shouting"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Addressing school authorities requires a formal register.",
+    ),
+    QuizQuestion(
+      question: "6. What is a \"reservation\" in a formal travel context?",
+      options: [
+        "A type of food you eat on a bus.",
+        "An informal chat with a driver.",
+        "An arrangement to save a seat or room in advance.",
+        "A secret code used by tourists."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Booking or reserving is a common formal task in travel.",
+    ),
+    QuizQuestion(
+      question: "7. How would you informally describe a football match?",
+      options: [
+        "\"The sporting event was quite exhilarating.\"",
+        "\"The match was fire! The boys played well.\"",
+        "\"I observed the athletes with great interest.\"",
+        "\"The scoreline reflected the effort of the team.\""
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "\"Fire\" and \"the boys\" are informal expressions suitable for a match.",
+    ),
+    QuizQuestion(
+      question:
+          "8. \"I would be grateful if you could attend...\" is an example of:",
+      options: [
+        "Informal register.",
+        "Fast-food register.",
+        "Rude register.",
+        "Formal register."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "This phrasing is professional and highly formal.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which is the best way to address a tour guide you just met?",
+      options: [
+        "\"Hey you!\"",
+        "\"Excuse me, Sir/Madam.\"",
+        "\"Listen to me.\"",
+        "\"My friend.\""
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using Sir or Madam is the correct formal register for strangers in professional roles.",
+    ),
+    QuizQuestion(
+      question: "10. Why is it important to switch registers correctly?",
+      options: [
+        "To confuse the person you are talking to.",
+        "To get lower prices at the market.",
+        "To make sure you never have to speak to your friends again.",
+        "To show that you are educated and respectful of social norms."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "Adapting language shows social intelligence and respect for others.",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/3. JHS2 S1 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is the best starter for an open-ended question?",
+      options: ["Is", "Do", "How", "Can"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "\"How\" requires an explanation, whereas the others can be answered with \"Yes\" or \"No.\"",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why is Naa’s answer \"I don't know\" considered a \"dead end\" in a conversation?",
+      options: [
+        "Because it gives the other person no information to respond to.",
+        "Because it is a lie.",
+        "Because it is too long.",
+        "Because it is a formal register."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A dead-end response stops the exchange of ideas.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In the text, Tetteh asks about rain in December. This is a discussion about:",
+      options: [
+        "Cultural practices.",
+        "Peace and patriotism.",
+        "Environmental issues/Climate.",
+        "School fees."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Weather patterns are environmental topics that often require elaboration.",
+    ),
+    QuizQuestion(
+      question:
+          "4. \"I believe we should respect our elders because they carry the wisdom of our ancestors.\" This is an example of:",
+      options: [
+        "An elaborated comment on culture.",
+        "A closed question.",
+        "An informal greeting.",
+        "A directions-giving sentence."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "It shares a belief and provides a deep reason based on cultural values.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is a \"closed\" question?",
+      options: [
+        "\"Why did you choose this school?\"",
+        "\"How do you make banku?\"",
+        "\"Do you like banku?\"",
+        "\"What is your best subject?\""
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Do you like banku?\" only requires a \"Yes\" or \"No.\"",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does elaboration help in a discussion about patriotism?",
+      options: [
+        "It makes you talk faster than others.",
+        "It allows you to avoid speaking.",
+        "It helps you win a trophy.",
+        "It allows you to explain the specific ways you care for your country."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Elaboration adds depth to personal and national values.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A friend says: \"The Kejetia market is too crowded.\" Which response shows elaboration?",
+      options: [
+        "\"Yes, it is.\"",
+        "\"I know.\"",
+        "\"I agree; it's especially busy on Saturdays when people from nearby villages come to sell.\"",
+        "\"No, it's not.\""
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "This response adds context (Saturdays) and a reason (villagers selling).",
+    ),
+    QuizQuestion(
+      question:
+          "8. To elaborate, you should often use the word \"_____\" to connect your opinion to a reason.",
+      options: ["But", "Because", "Or", "If"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "\"Because\" is the primary bridge for providing reasons in elaboration.",
+    ),
+    QuizQuestion(
+      question: "9. Which question is best for a student SRC meeting?",
+      options: [
+        "\"Do we need more bins?\"",
+        "\"Who wants a bin?\"",
+        "\"How can we improve waste management on our school compound?\"",
+        "\"Are bins expensive?\""
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "This is a broad, open-ended question that invites multiple suggestions.",
+    ),
+    QuizQuestion(
+      question: "10. What is the benefit of using elaboration in a classroom?",
+      options: [
+        "It makes the teacher tired.",
+        "It shows you have a deep understanding of the topic.",
+        "It helps you finish your work faster.",
+        "It means you don't have to listen to others."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Detailed answers prove that a student has thought critically about the subject.",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/4. JHS2 S1 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is \"sensory language\"?",
+      options: [
+        "Language that is very loud.",
+        "Words that describe what we see, hear, smell, taste, or touch.",
+        "Language used only in science books.",
+        "Words that have no meaning."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Sensory language appeals to the human senses to create imagery.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a simile?",
+      options: [
+        "The moon was a silver plate.",
+        "The moon shone brightly.",
+        "The moon was as white as milk.",
+        "The moon followed us home."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A simile uses \"like\" or \"as\" to compare two things.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which word best describes the \"smell\" of a forest after rain?",
+      options: ["Creepy", "Bumpy", "Staggering", "Earthy"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "\"Earthy\" is a common olfactory adjective for the scent of soil and nature.",
+    ),
+    QuizQuestion(
+      question:
+          "4. \"The Kejetia market is a beehive of activity.\" This is an example of:",
+      options: ["A simile.", "A greeting.", "Sensory language.", "A metaphor."],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "It directly calls the market a \"beehive\" to show how busy it is without using \"like.\"",
+    ),
+    QuizQuestion(
+      question: "5. If a place is \"staggering\" in beauty, it means:",
+      options: [
+        "It is very ugly.",
+        "It is so beautiful it almost makes you fall over in shock.",
+        "It is very small.",
+        "It is located on a hill."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "\"Staggering\" is a descriptive adjective meaning deeply shocking or impressive.",
+    ),
+    QuizQuestion(
+      question: "6. Which sense does the word \"clattering\" appeal to?",
+      options: ["Sight", "Touch", "Hearing", "Taste"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Clattering refers to a series of hard, rattling sounds.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How would you describe a \"solemn\" event like a funeral in a village?",
+      options: [
+        "Joyous and loud.",
+        "Serious, quiet, and respectful.",
+        "Fast and confusing.",
+        "Bright and colourful."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Solemn\" describes a formal and serious atmosphere.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of these describes a \"tactile\" (touch) experience at a durbar?",
+      options: [
+        "The sound of the fontomfrom drums.",
+        "The heavy, cold weight of the gold rings on the Chief's fingers.",
+        "The smell of incense in the air.",
+        "The sight of the red and black cloths."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "\"Heavy\" and \"cold\" are physical sensations felt through touch.",
+    ),
+    QuizQuestion(
+      question:
+          "9. \"The river snaked through the valley.\" This metaphor means:",
+      options: [
+        "There were many snakes in the water.",
+        "The river was very dangerous.",
+        "The river had a winding, curvy shape like a snake.",
+        "The river was green."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This uses the movement of a snake to describe the shape of the river.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should we use descriptive language in everyday discourse?",
+      options: [
+        "To make the listener understand and imagine the experience better.",
+        "To make the story as long as possible.",
+        "To show off that we know many words.",
+        "To confuse people about where we went."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Vivid descriptions create shared understanding and engagement.",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/5. JHS2 S1 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a \"complex route\"?",
+      options: [
+        "A very short walk.",
+        "A road that is closed for repairs.",
+        "A route with multiple turns, street names, and landmarks.",
+        "A map that is written in another language."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Complex routes require detailed instructions to navigate successfully.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which preposition describes something on the other side of a street?",
+      options: ["Inside", "Under", "Opposite", "Among"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "\"Opposite\" or \"Across from\" indicates a location on the facing side of a path.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In the worked example, which road do you take from the airport to Jubilee House?",
+      options: [
+        "Oxford Street",
+        "Spintex Road",
+        "Liberation Road",
+        "Graphic Road"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Liberation Road is the primary route connecting the airport to central Accra.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are \"High-rises\" mentioned in the curriculum as good landmarks?",
+      options: [
+        "Because they are colourful.",
+        "Because they are tall and can be seen from quite a distance.",
+        "Because they have many people inside.",
+        "Because they are expensive."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Height makes a building a prominent visual reference point for navigation.",
+    ),
+    QuizQuestion(
+      question: "5. \"A day's journey\" is a distance marker used for:",
+      options: [
+        "Going to the kitchen.",
+        "Moving between cities or very far regions.",
+        "Walking to the school gate.",
+        "Finding your pen under the desk."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This term indicates a significant distance requiring a full day of travel.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If you are \"adjacent to\" the Jubilee House, where are you?",
+      options: [
+        "Inside it.",
+        "Next to or beside it.",
+        "Far away from it.",
+        "On top of it."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "\"Adjacent\" means lying near or close to; adjoining.",
+    ),
+    QuizQuestion(
+      question: "7. Which is the most \"accurate\" direction?",
+      options: [
+        "\"Go past the hospital and turn left on Commercial Street.\"",
+        "\"Turn near the hospital.\"",
+        "\"The place is after the hospital.\"",
+        "\"Go left somewhere after the hospital.\""
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "It combines a landmark (\"hospital\") with a specific action (\"turn left\") and a street name (\"Commercial Street\").",
+    ),
+    QuizQuestion(
+      question:
+          "8. When following directions, why should you \"identify vocabulary\"?",
+      options: [
+        "To learn how to spell new words.",
+        "To understand exactly what movements or locations the speaker is describing.",
+        "To impress your teacher.",
+        "To finish the walk faster."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Identifying directional vocabulary is key to accurate comprehension of a route.",
+    ),
+    QuizQuestion(
+      question: "9. Which landmark is most likely to be \"permanent\"?",
+      options: [
+        "A political poster on a wall.",
+        "The Korle-Bu Teaching Hospital.",
+        "A heap of coconut husks.",
+        "A temporary \"Sale\" sign."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Large public institutions like hospitals are stable, permanent landmarks.",
+    ),
+    QuizQuestion(
+      question: "10. What should you do if a route is very \"complex\"?",
+      options: [
+        "Give all the directions in one long breath.",
+        "Break the directions into clear, step-by-step instructions with landmarks.",
+        "Tell the person to find a taxi instead.",
+        "Only give the first turn and hope for the best."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Breaking down complex information makes it manageable and easier to remember.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/6. JHS2 S1 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the \"Message\" in a dialogue?",
+      options: [
+        "The feelings of the speakers.",
+        "The main topic being discussed.",
+        "The vocabulary used by the speakers.",
+        "The time the conversation ends."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The message is the central idea or topic.",
+    ),
+    QuizQuestion(
+      question:
+          "2. If a friend says, \"You are a real genius.\" after you accidentally trip over your own feet, what is the tone?",
+      options: ["Sarcastic", "Respectful", "Angry", "Serious"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Calling someone a genius for a mistake is a form of sarcasm.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a discussion about the Black Stars losing a match, the speakers are sighing and speaking slowly. What is the mood?",
+      options: ["Cheerful", "Energetic", "Sad", "Indifferent"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sighing and slow speech usually indicate a sad or disappointed mood.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Identify the implicit meaning: \"It would be a miracle if this old trotro's engine starts today.\"",
+      options: [
+        "The trotro is new.",
+        "The engine is very reliable.",
+        "The engine is in very poor condition.",
+        "The speaker loves miracles."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The speaker implies the car is unlikely to work.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When listening to a news report about a new school building, what is the key information?",
+      options: [
+        "The color of the reporter’s shirt.",
+        "The fact that a new school has been built.",
+        "The time the news started.",
+        "The music playing in the background."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Key information focuses on the main event or fact.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of the following helps you identify implicit meaning?",
+      options: [
+        "Only the dictionary definition of words.",
+        "The speaker's tone and the context.",
+        "The number of words in the sentence.",
+        "Counting how many people are listening."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Context and tone provide clues to hidden meanings.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A father says, \"I see your report card has many 'red' marks again.\" What is he identifying?",
+      options: [
+        "The student's favorite color.",
+        "The teacher's pen choice.",
+        "The student's art project.",
+        "The student's poor grades."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Red marks on a report card implicitly refer to failing or poor grades.",
+    ),
+    QuizQuestion(
+      question: "8. To \"compare issues in a dialogue\" means to:",
+      options: [
+        "Ignore what the second person says.",
+        "Write down every single word spoken.",
+        "Only listen to the person who speaks the loudest.",
+        "Look for similarities and differences in points of view."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Comparing involves looking at different perspectives within the talk.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If two people are arguing about a boundary in a market, the tone is likely to be:",
+      options: ["Calm", "Peaceful", "Hostile", "Friendly"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "An argument usually involves a hostile or aggressive tone.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the first step in listening to a complex discussion?",
+      options: [
+        "Talking over the speakers.",
+        "Identifying the key information and message.",
+        "Closing your eyes and sleeping.",
+        "Counting the number of nouns used."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Identifying the core message is the primary goal of listening comprehension.",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/7. JHS2 S1 SS2 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which \"W\" helps you identify the location of an event in a news story?",
+      options: ["Who", "What", "Where", "Why"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Where\" always refers to the place or location.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A news report says a new library will open in Ho on Saturday. What is the \"When\"?",
+      options: ["Ho", "Saturday", "The library", "The reporter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"When\" refers to the time or day of the event.",
+    ),
+    QuizQuestion(
+      question: "3. What is the difference between a fact and an opinion?",
+      options: [
+        "A fact is true for everyone; an opinion is what someone thinks.",
+        "A fact is always longer than an opinion.",
+        "Facts are only found in books; opinions are only on the radio.",
+        "There is no difference between them."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Facts are objective and verifiable, while opinions are subjective views.",
+    ),
+    QuizQuestion(
+      question:
+          "4. While listening to a talk show about farming, you write down \"Cocoa, high rainfall, Western Region.\" What are you doing?",
+      options: [
+        "Writing a letter.",
+        "Identifying key information.",
+        "Drawing a map.",
+        "Sharing an opinion."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Note-taking key terms is a way to capture essential information.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If a news reporter says, \"The traffic at Kasoa is worse than ever today,\" and you say, \"They should build an interchange,\" what have you done?",
+      options: [
+        "You have ignored the news.",
+        "You have added an opinion to a fact.",
+        "You have changed the subject.",
+        "You have told a lie."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Suggesting a solution is a form of sharing an opinion based on the reported fact.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which media source is best for listening to public opinions on current events?",
+      options: [
+        "A dictionary.",
+        "A phone-in talk show.",
+        "A silent movie.",
+        "An old photograph."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Phone-in shows allow the public to share their views.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A speaker says, \"Our community center is falling apart.\" Which response shows you are discussing the idea?",
+      options: [
+        "\"I like your shoes.\"",
+        "\"How much did it cost?\"",
+        "\"I agree; we should organize a communal labor day to fix it.\"",
+        "\"I am hungry.\""
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "This response engages with the topic and offers an opinionated solution.",
+    ),
+    QuizQuestion(
+      question: "8. Why should you listen \"attentively\" to a news report?",
+      options: [
+        "So you can repeat it exactly like a robot.",
+        "To make sure you don't miss key details needed for a discussion.",
+        "To fall asleep faster.",
+        "Because the teacher said so."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Attentiveness ensures all necessary facts are captured for later use.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If two people on a talk show disagree, what should a good listener do?",
+      options: [
+        "Support the one who shouts the loudest.",
+        "Turn off the radio.",
+        "Analyze the reasons both speakers give for their opinions.",
+        "Tell them both to be quiet."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Critical listening involves evaluating the logic behind different viewpoints.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A report states: \"The Cedi has gained strength against the Dollar.\" An opinion based on this is:",
+      options: [
+        "The Cedi is Ghana's currency.",
+        "I have a ten Cedi note.",
+        "The Dollar is used in America.",
+        "This is good news for traders who import goods."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "This identifies the positive impact of the fact, which is an interpretive opinion.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s1ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/8. JHS2 S1 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which sound is a voiced plosive?",
+      options: ["/s/", "/p/", "/g/", "/f/"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "/g/ is a voiced plosive made at the back of the throat.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens to the airflow when producing a plosive like /t/?",
+      options: [
+        "It flows freely.",
+        "It is partially blocked.",
+        "It is completely stopped and then released.",
+        "It comes through the nose."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Plosives are defined by a total blockage and sudden release of air.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which word contains a voiceless plosive made with the lips?",
+      options: ["Boy", "Pan", "Dog", "Go"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "/p/ in \"Pan\" is voiceless and made with the lips.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Identify the voiced plosive in the sentence: \"The boy went to the store.\"",
+      options: ["/s/", "/n/", "/b/", "/t/"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "/b/ in \"boy\" is a voiced plosive.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is the voiceless partner of the /d/ sound?",
+      options: ["/k/", "/p/", "/t/", "/s/"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "/t/ and /d/ are a pair made at the same location behind the teeth.",
+    ),
+    QuizQuestion(
+      question: "6. In the name \"Abena,\" which sound is a plosive?",
+      options: ["/a/", "/b/", "/e/", "/n/"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The /b/ in Abena is a voiced plosive.",
+    ),
+    QuizQuestion(
+      question: "7. Choose the word that ends with a voiceless plosive.",
+      options: ["Bag", "Mad", "Tap", "Cab"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "\"Tap\" ends with /p/, which is voiceless. The others end in voiced plosives (/g/, /d/, /b/).",
+    ),
+    QuizQuestion(
+      question: "8. Which sound requires the vocal cords to vibrate?",
+      options: ["/k/", "/p/", "/t/", "/d/"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "/d/ is a voiced sound; the others are voiceless.",
+    ),
+    QuizQuestion(
+      question: "9. Where is the plosive sound in the word \"Key\" produced?",
+      options: [
+        "At the lips",
+        "Behind the teeth",
+        "At the back of the throat",
+        "Between the teeth"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The sound /k/ is a velar plosive, made at the back of the throat.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which word starts with a voiced plosive made behind the teeth?",
+      options: ["Tall", "Desk", "Ball", "Gate"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "\"Desk\" starts with /d/, which is voiced and made behind the teeth (alveolar).",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/9. JHS2 S1 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which sound is produced by placing the top teeth on the bottom lip?",
+      options: ["/s/", "/k/", "/f/", "/t/"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "/f/ is a labio-dental fricative made with the teeth and lip.",
+    ),
+    QuizQuestion(
+      question: "2. Is the sound /z/ voiced or voiceless?",
+      options: ["Voiced", "Voiceless", "Neither", "Both"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "/z/ is the voiced version of /s/.",
+    ),
+    QuizQuestion(
+      question: "3. Which word contains the voiceless fricative /ʃ/?",
+      options: ["Sun", "Zebra", "Ghana", "Shilling"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "\"Shilling\" starts with the /ʃ/ sound.",
+    ),
+    QuizQuestion(
+      question: "4. Identify the fricative in the word \"Five.\"",
+      options: ["/p/", "/f/", "/b/", "/m/"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Five\" starts with the voiceless fricative /f/.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In the sentence \"The van is fast,\" which word starts with a voiced fricative?",
+      options: ["The", "Van", "Is", "Fast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "/v/ in \"Van\" is a voiced fricative.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of these is a common characteristic of all fricatives?",
+      options: [
+        "They stop the air completely.",
+        "They create friction as air passes.",
+        "They are all made with the lips.",
+        "They are all voiced."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fricatives are defined by the friction created in a narrow passage.",
+    ),
+    QuizQuestion(
+      question: "7. The name \"Sowah\" starts with which sound?",
+      options: ["/z/", "/ʃ/", "/s/", "/f/"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Sowah\" starts with the voiceless fricative /s/.",
+    ),
+    QuizQuestion(
+      question: "8. Which sound is the voiced partner of /f/?",
+      options: ["/b/", "/v/", "/p/", "/z/"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "/f/ and /v/ are a pair; /v/ is the voiced version.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In the word \"Music,\" the 's' actually sounds like which fricative?",
+      options: ["/s/", "/z/", "/ʃ/", "/f/"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "In \"Music,\" the 's' is pronounced as a voiced /z/.",
+    ),
+    QuizQuestion(
+      question: "10. Which word contains two different fricative sounds?",
+      options: ["Fishes", "Bobo", "Tata", "Koko"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "\"Fishes\" contains /f/ at the start and /ʃ/ (and a hidden /z/ sound at the very end).",
+    ),
+  ],
+);
+final QuizModel jhs2s1ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/10. JHS2 S1 SS3 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which sound is created by air escaping through the nose?",
+      options: ["/p/", "/n/", "/tʃ/", "/f/"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "/n/ is a nasal consonant.",
+    ),
+    QuizQuestion(
+      question:
+          "2. The sound /tʃ/ is a combination of which two types of sounds?",
+      options: [
+        "Two Nasals",
+        "A Plosive and a Fricative",
+        "Two Fricatives",
+        "A Nasal and a Plosive"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Affricates begin as plosives and release as fricatives.",
+    ),
+    QuizQuestion(
+      question: "3. Which word contains a voiced affricate?",
+      options: ["Catch", "Judge", "Month", "Sing"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "\"Judge\" contains the voiced affricate /dʒ/ at both the beginning and end.",
+    ),
+    QuizQuestion(
+      question: "4. Identify the voiceless affricate.",
+      options: ["/m/", "/dʒ/", "/tʃ/", "/n/"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "/tʃ/ is the voiceless partner of /dʒ/.",
+    ),
+    QuizQuestion(
+      question: "5. In the word \"Number,\" which sounds are nasals?",
+      options: ["/b/ and /r/", "/n/ and /m/", "/u/ and /e/", "/n/ and /b/"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Both 'n' and 'm' are nasal sounds.",
+    ),
+    QuizQuestion(
+      question: "6. Which part of the mouth is used to produce the /m/ sound?",
+      options: [
+        "The tongue and teeth",
+        "Both lips",
+        "The throat",
+        "The roof of the mouth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "/m/ is a bilabial nasal, meaning it uses both lips.",
+    ),
+    QuizQuestion(
+      question: "7. The word \"Chain\" starts with which sound?",
+      options: ["/ʃ/", "/s/", "/tʃ/", "/k/"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Chain\" starts with the voiceless affricate /tʃ/.",
+    ),
+    QuizQuestion(
+      question: "8. Is the sound /n/ voiced or voiceless?",
+      options: ["Voiced", "Voiceless", "Neither", "Only voiced in some words"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "All nasal sounds in English (/m/, /n/, /ŋ/) are voiced.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these words ends with a voiceless affricate?",
+      options: ["Man", "Bridge", "Watch", "Rain"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "\"Watch\" ends with /tʃ/. \"Bridge\" ends with a voiced affricate /dʒ/.",
+    ),
+    QuizQuestion(
+      question: "10. How does an affricate differ from a plosive?",
+      options: [
+        "An affricate has a slower, friction-like release.",
+        "An affricate does not stop the air at all.",
+        "An affricate is always voiceless.",
+        "An affricate is made in the nose."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "While both stop the air, a plosive \"pops\" it out instantly, while an affricate releases it through a narrow gap.",
+    ),
+  ],
+);
+
+final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What determines the 'register' you should use?",
+      options: [
+        "The time of day.",
+        "The person you are speaking to and the setting.",
+        "How fast you can speak.",
+        "The length of the sentences."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Register is the level of formality based on the audience and situation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which word is an example of local slang often used in informal register?",
+      options: ["Furthermore.", "Chale.", "Respectfully.", "Therefore."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "\"Chale\" is a common informal Ghanaian slang term.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which question is \"closed\" and should be avoided if you want a long discussion?",
+      options: [
+        "Why do you think sanitation is a problem?",
+        "How can we improve our schools?",
+        "Did you finish your homework?",
+        "What are your views on climate change?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "\"Did you finish your homework?\" only requires a Yes or No answer.",
+    ),
+    QuizQuestion(
+      question:
+          "4. You are discussing \"Youth in Agriculture.\" Which is a national issue for Ghana?",
+      options: [
+        "Exploring space.",
+        "Encouraging young Ghanaians to go into cocoa farming.",
+        "The history of the American Civil War.",
+        "Learning a new dance move."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Agriculture is a key national topic in the Ghanaian curriculum.",
+    ),
+    QuizQuestion(
+      question: "5. Identify the formal register phrase.",
+      options: [
+        "I'm out!",
+        "See ya later.",
+        "I would like to express my gratitude.",
+        "What's up with that?"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "\"I would like to express my gratitude\" uses formal, precise vocabulary.",
+    ),
+    QuizQuestion(
+      question: "6. In a debate, why do we use \"turn-taking\"?",
+      options: [
+        "So we can speak as loud as possible.",
+        "To ensure everyone has a chance to speak and be heard.",
+        "To make the debate end faster.",
+        "To confuse the other team."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Turn-taking is essential for effective and respectful communication.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is a \"Global Issue\"?",
+      options: [
+        "Child trafficking.",
+        "The school canteen menu.",
+        "Your friend's new shoes.",
+        "A local wedding celebration."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Child trafficking is a serious issue that affects many countries globally.",
+    ),
+    QuizQuestion(
+      question: "8. To link your idea to another speaker's idea, you should:",
+      options: [
+        "Interrupt them immediately.",
+        "Listen attentively and then respond to their specific point.",
+        "Talk about something completely different.",
+        "Look at your phone while they speak."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Attentive listening and responding to the speaker are key skills in discussion.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which question encourages a partner to share their opinion?",
+      options: [
+        "Is it raining?",
+        "Do you live in Accra?",
+        "In your opinion, how can we reduce plastic waste?",
+        "Is the teacher here?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asking for an \"opinion\" and \"how\" makes it an open-ended question.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When speaking to your younger brother at home, you are most likely to use:",
+      options: [
+        "Formal register.",
+        "Informal register.",
+        "Academic register.",
+        "Legal register."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Informal register is used with family and close peers.",
+    ),
+  ],
+);
+final QuizModel jhs3s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/2. JHS3 S1 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. According to the curriculum, which is a topic appropriate for argument?",
+      options: [
+        "What color is the sky?",
+        "Whether children should take decisions on matters concerning them.",
+        "The names of the days of the week.",
+        "How to tie a shoelace."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "This is a specific exemplar topic from the NaCCA curriculum.",
+    ),
+    QuizQuestion(
+      question: "2. What does \"Active Listening\" involve?",
+      options: [
+        "Thinking of your next point while the other person speaks.",
+        "Interrupting when you hear something wrong.",
+        "Paying full attention and nodding to show understanding.",
+        "Closing your eyes to concentrate better."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Active listening requires showing the speaker they have your attention.",
+    ),
+    QuizQuestion(
+      question: "3. In a debate, \"Evidence\" is used to:",
+      options: [
+        "Confuse the judges.",
+        "Support your claim with facts or examples.",
+        "Make the speech longer.",
+        "Show off your vocabulary."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Evidence provides the \"why\" behind your \"what\" (claim).",
+    ),
+    QuizQuestion(
+      question: "4. Which is an open-ended question to use during a debate?",
+      options: [
+        "Is that your final answer?",
+        "Do you agree with me?",
+        "What evidence do you have to support that statement?",
+        "Are you finished speaking?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This asks for an explanation, not just a yes/no.",
+    ),
+    QuizQuestion(
+      question: "5. Which transition shows you are about to disagree politely?",
+      options: [
+        "You are wrong because...",
+        "That's a lie...",
+        "I see your point, however..."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "\"However\" is a formal way to introduce a contrasting idea.",
+    ),
+    QuizQuestion(
+      question: "6. Why is formal register preferred in a debate?",
+      options: [
+        "It makes the speaker sound more authoritative and respectful.",
+        "It's the only way to win.",
+        "Because slang is illegal in Ghana.",
+        "It allows you to use more emojis."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Formal language commands respect in academic and public settings.",
+    ),
+    QuizQuestion(
+      question: "7. \"Turn-taking\" is most important when:",
+      options: [
+        "Only one person is speaking.",
+        "Multiple speakers are discussing a topic.",
+        "You are reading a book alone.",
+        "You are writing a letter."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "It manages the flow of conversation between people.",
+    ),
+    QuizQuestion(
+      question: "8. Which is a \"National Issue\" often debated in Ghana?",
+      options: [
+        "The best flavor of ice cream.",
+        "The impact of \"galamsey\" (illegal mining) on water bodies.",
+        "Which Hollywood movie is the best.",
+        "The weather in London."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This is a significant national concern in Ghana.",
+    ),
+    QuizQuestion(
+      question: "9. To \"link ideas\" means to:",
+      options: [
+        "Change the subject quickly.",
+        "Connect your point to what was previously said.",
+        "Repeat the same sentence three times.",
+        "Use as many big words as possible."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Linking ensures the discussion is cohesive.",
+    ),
+    QuizQuestion(
+      question: "10. A \"Counter-argument\" is:",
+      options: [
+        "An argument made against your original claim.",
+        "A person who counts the votes in a debate.",
+        "A table used for debating.",
+        "A way to agree with everyone."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "A counter-argument presents the opposite view to challenge a claim.",
+    ),
+  ],
+);
+final QuizModel jhs3s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/3. JHS3 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which audio-visual text is specifically mentioned in the curriculum for identifying key information?",
+      options: ["Textbooks", "Billboards", "Documentaries", "Newspapers"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Documentaries are a primary example of audio-visual texts used for listening practice.",
+    ),
+    QuizQuestion(
+      question:
+          "2. To understand the intention of a speaker in a video, you often need to:",
+      options: [
+        "Ask them a question directly.",
+        "Make an inference based on clues.",
+        "Read the credits at the end.",
+        "Watch the video with the sound off."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Inferences help us determine purpose and intention.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a discussion about plastic waste in Accra, Ama says, \"We need more bins.\" Ekow says, \"I agree, and we also need to recycle the waste in those bins.\" What is Ekow doing?",
+      options: [
+        "Changing the topic completely.",
+        "Building on Ama's idea.",
+        "Interrupting Ama rudely.",
+        "Ignoring the key issue."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Effective collaboration involves adding value to what others have said.",
+    ),
+    QuizQuestion(
+      question:
+          "4. The feeling of 'sadness' an audience gets from a film about a drought is called the:",
+      options: ["Tone", "Message", "Mood", "Vocabulary"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mood is the atmosphere or emotion felt by the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When listening to an argumentative speech, your first task should be to identify:",
+      options: [
+        "The speaker's shoe size.",
+        "The brand of the microphone.",
+        "The length of the speech in minutes.",
+        "The key issues being raised."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Identifying key issues is the first step in analyzing complex texts.",
+    ),
+    QuizQuestion(
+      question: "6. Which of these is an example of an audio-visual text?",
+      options: [
+        "A printed novel.",
+        "A silent photograph.",
+        "A radio-only news bulletin.",
+        "A music video."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Audio-visual texts combine both sound and sight, like music videos or films.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If a speaker uses many figures and statistics about cocoa production, they are likely trying to be:",
+      options: [
+        "Persuasive and informative.",
+        "Funny and entertaining.",
+        "Angry and loud.",
+        "Confused and shy."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Figures and vocabulary are used to support ideas and persuade the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "8. To express yourself persuasively in a conference, you should:",
+      options: [
+        "Speak as fast as possible.",
+        "Use clear reasons to support your opinion.",
+        "Shout louder than everyone else.",
+        "Only talk about your personal hobbies."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Persuasion requires clear expression and logical support for your ideas.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Making \"simple connections to real life\" while watching a film helps you to:",
+      options: [
+        "Forget the story.",
+        "Make better inferences.",
+        "Sleep better.",
+        "Ignore the characters."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Connecting content to personal experience is key to deep understanding and inference.",
+    ),
+    QuizQuestion(
+      question: "10. What is the main goal of a collaborative discussion?",
+      options: [
+        "To win the argument at all costs.",
+        "To talk more than anyone else.",
+        "To build on ideas and reach a shared understanding.",
+        "To finish the meeting as quickly as possible."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Collaboration is about building on others' ideas meaningfully.",
+    ),
+  ],
+);
+final QuizModel jhs3s1ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/4. JHS3 S1 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word begins with the /r/ sound?",
+      options: ["Lake", "Road", "Lamp", "Love"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Road' starts with the curled-tongue /r/ sound.",
+    ),
+    QuizQuestion(
+      question: "2. Identify the word where /l/ is at the end.",
+      options: ["Look", "Blue", "Bell", "Yellow"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "In 'Bell', the /l/ sound comes after the vowel at the very end.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following contains the 'spr' consonant cluster?",
+      options: ["Spring", "Sing", "Ring", "Ping"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'Spring' has three consonants (s, p, r) clustered together.",
+    ),
+    QuizQuestion(
+      question: "4. How many syllables are in the word 'Visit'?",
+      options: ["One", "Two", "Three", "Four"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Vi-sit has two distinct vowel beats.",
+    ),
+    QuizQuestion(
+      question: "5. In the word 'Berry,' where is the /r/ sound located?",
+      options: ["Beginning", "Middle", "End", "There is no /r/ sound"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The /r/ sound occurs in the middle of the word between the vowels.",
+    ),
+    QuizQuestion(
+      question: "6. Which word has a cluster that starts with 'pl'?",
+      options: ["Palace", "Party", "Paper", "Plate"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "'Plate' begins with the 'p' and 'l' consonants together.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is a mono-syllabic word?",
+      options: ["Table", "Chair", "Window", "Pencil"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Chair' has only one vowel sound/beat.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which word is pronounced with the stress on the first syllable?",
+      options: ["Be-cause", "Ta-ble", "Re-port", "De-cide"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "In 'Table', the first syllable 'Ta' is stressed.",
+    ),
+    QuizQuestion(
+      question: "9. Which word uses the 'cr' cluster?",
+      options: ["Car", "Crop", "Can", "Cup"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Crop' combines 'c' and 'r' into a cluster.",
+    ),
+    QuizQuestion(
+      question: "10. Which sound do you hear at the end of the word 'Car'?",
+      options: ["/l/", "/s/", "/r/", "/t/"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The word 'Car' ends with the /r/ sound.",
+    ),
+  ],
+);
+final QuizModel jhs3s1ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/5. JHS3 S1 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of using formal language?",
+      options: [
+        "To sound confusing",
+        "To show respect and professionalism",
+        "To speak as fast as possible",
+        "To use as much slang as you can"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Formal language is used to show respect in official or serious settings.",
+    ),
+    QuizQuestion(
+      question: "2. Identify the informal sentence.",
+      options: [
+        "I would like to request an extension.",
+        "May I sit here, please?",
+        "Catch you at the junction later!",
+        "Good evening, Grandmother."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "'Catch you at the junction' is a casual, informal way of saying goodbye.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which title is appropriate for a formal setting at a palace?",
+      options: ["Boss", "Nana", "Big Man", "Chairman"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Nana' is the traditional formal title for a chief or elder in Ghana.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Switching between formal and informal language is known as:",
+      options: ["Register", "Singing", "Shouting", "Whispering"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Register' refers to the level of formality in language.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is a formal way to ask for help?",
+      options: [
+        "Yo, help me.",
+        "Do this for me.",
+        "I'm stuck, help!",
+        "Could you please assist me with this?"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "This uses 'could,' 'please,' and 'assist,' which are formal markers.",
+    ),
+    QuizQuestion(
+      question: "6. Who would you most likely speak informally to?",
+      options: [
+        "The Regional Minister",
+        "Your best friend, Kwame",
+        "The school Chaplain",
+        "A shop owner you just met"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Close friends use informal language with each other.",
+    ),
+    QuizQuestion(
+      question: "7. Which word is typically used in formal writing or speech?",
+      options: ["Wanna", "Gonna", "Therefore", "Ain't"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Therefore' is a formal transition word.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How should you address a female teacher you don't know well?",
+      options: ["Sisi", "Auntie", "Madam", "Sweetie"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "'Madam' is the respectful, formal address for a female teacher.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When you move from the playground into the classroom, your language should:",
+      options: [
+        "Stay exactly the same",
+        "Become more formal",
+        "Become more informal",
+        "Stop completely"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The classroom is a formal environment compared to the playground.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which is the most polite way to disagree in a formal debate?",
+      options: [
+        "You are lying!",
+        "That is a bad idea.",
+        "I beg to differ with your point.",
+        "Keep quiet."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "'I beg to differ' is a polite, formal way to show disagreement.",
     ),
   ],
 );
@@ -1956,7 +3659,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Attributes are the qualities or titles that define God's nature.",
     ),
-
     QuizQuestion(
       question: "2. Which attribute means God is everywhere at the same time?",
       options: ["Omnipotent", "Omniscient", "Omnipresent", "Invisible"],
@@ -1965,7 +3667,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Omnipresent means God is present in all places at all times.",
     ),
-
     QuizQuestion(
       question: "3. The Akan attribute 'Tweduampɔn' means God is:",
       options: [
@@ -1979,7 +3680,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Tweduampɔn describes God as one who is reliable and dependable.",
     ),
-
     QuizQuestion(
       question: "4. In Islam, Allah is called 'Al-Razzaq' because He is:",
       options: [
@@ -1993,7 +3693,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Al-Razzaq refers to God's nature as the one who provides for our needs.",
     ),
-
     QuizQuestion(
       question: "5. Which group calls God 'Binnamadaana'?",
       options: ["Dagomba", "Fante", "Ga-Adangme", "Nzema"],
@@ -2002,7 +3701,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Dagomba people (who speak Dagbani) use the name Binnamadaana.",
     ),
-
     QuizQuestion(
       question: "6. Christians believe God is 'Eternal' because:",
       options: [
@@ -2015,7 +3713,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Eternal means God exists forever without beginning or end.",
     ),
-
     QuizQuestion(
       question: "7. The name 'Mawu Sogbolisa' is an attribute used by the:",
       options: ["Akans", "Nzemas", "Ewes", "Gonjas"],
@@ -2023,7 +3720,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Mawu Sogbolisa is an Ewe attribute meaning 'The Father'.",
     ),
-
     QuizQuestion(
       question: "8. 'Al-Ghaffar' is an Arabic name meaning Allah is:",
       options: [
@@ -2037,7 +3733,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Al-Ghaffar refers to God's attribute of being ever-forgiving.",
     ),
-
     QuizQuestion(
       question: "9. Why do Traditionalists call God 'Oboadee'?",
       options: [
@@ -2051,7 +3746,6 @@ final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Oboadee literally means 'The Creator' in the Akan language.",
     ),
-
     QuizQuestion(
       question:
           "10. Which attribute shows that God is morally upright and good?",
@@ -2078,7 +3772,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Communicable attributes are shared by God and humans.",
     ),
-
     QuizQuestion(
       question:
           "2. A student who does not lie to their teacher is reflecting God's:",
@@ -2088,7 +3781,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       explanation:
           "God is faithful and does not lie; humans reflect this by being truthful.",
     ),
-
     QuizQuestion(
       question:
           "3. Which attribute allows us to live with people who have different beliefs?",
@@ -2098,7 +3790,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Tolerance is the quality of allowing others to behave as they like even if we disagree.",
     ),
-
     QuizQuestion(
       question: "4. Being \"impartial\" in a disagreement is an act of:",
       options: ["Love", "Justice", "Mercy", "Patience"],
@@ -2106,7 +3797,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Justice requires us to be fair and impartial to everyone.",
     ),
-
     QuizQuestion(
       question:
           "5. Which attribute is shown when we wait for our turn at the borehole?",
@@ -2116,7 +3806,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Patience involves waiting and persevering during difficult or slow times.",
     ),
-
     QuizQuestion(
       question: "6. \"Incommunicable\" attributes are those that:",
       options: [
@@ -2129,7 +3818,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Incommunicable attributes belong to God alone.",
     ),
-
     QuizQuestion(
       question:
           "7. Forgiving a friend who accidentally tore your book is an example of:",
@@ -2138,7 +3826,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Mercy involves forgiving those who wrong us.",
     ),
-
     QuizQuestion(
       question:
           "8. God's love is described as 'unconditional'. This means we should:",
@@ -2153,7 +3840,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Unconditional love means loving everyone without setting conditions.",
     ),
-
     QuizQuestion(
       question:
           "9. Which of the following is an attribute humans should exhibit?",
@@ -2163,7 +3849,6 @@ final QuizModel RMEs1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Righteousness (being morally upright) is an attribute humans can and should exhibit.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the result of demonstrating God's attributes in our lives?",
@@ -2191,7 +3876,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "2. Muslims and Christians both believe God is 'Omnipotent'. This means He is:",
@@ -2200,7 +3884,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "3. The names 'Jehovah-Jireh' and 'Al-Razzaq' show that both religions see God as:",
@@ -2209,7 +3892,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "",
     ),
-
     QuizQuestion(
       question: "4. What does 'Alpha and Omega' signify in Christianity?",
       options: [
@@ -2222,7 +3904,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "5. Which indigenous attribute matches the Islamic belief in God as the 'Giver of Rain' (Sustainer)?",
@@ -2231,7 +3912,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "6. 'Al-Khaliq' in Islam and 'Oboadee' in Akan religion both mean:",
@@ -2240,7 +3920,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "7. Which religion uses the title 'Al-Awwalu wal A'khirun' to describe God's eternal nature?",
@@ -2249,7 +3928,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "",
     ),
-
     QuizQuestion(
       question: "8. The Ewe name for the Almighty God is:",
       options: ["Otumfuo", "Mawu", "Nyɔnmo", "Binnamdanana"],
@@ -2257,7 +3935,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "9. What is the main similarity between 'El-Shaddai' and 'Azza wa Jalla'?",
@@ -2271,7 +3948,6 @@ final QuizModel RMEs1ss1Lesson3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "",
     ),
-
     QuizQuestion(
       question:
           "10. Recognizing similarities in God's attributes helps Ghanaians to:",
@@ -2299,7 +3975,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Worship is defined as submission to the will of the Supreme Being.",
     ),
-
     QuizQuestion(
       question: "2. Individual worship is also known as:",
       options: [
@@ -2313,7 +3988,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Individual or family worship is categorised as private worship.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is a common place for Christian congregational worship?",
@@ -2328,7 +4002,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Christians typically meet in churches for congregational worship.",
     ),
-
     QuizQuestion(
       question: "4. Muslims meet for their main congregational worship on:",
       options: ["Saturdays", "Tuesdays", "Fridays", "Mondays"],
@@ -2337,7 +4010,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Friday is the day set aside for congregational worship in the mosque for Muslims.",
     ),
-
     QuizQuestion(
       question:
           "5. Which type of worship helps an individual or family draw closer to God?",
@@ -2352,7 +4024,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Private worship draws individuals or families closer to God.",
     ),
-
     QuizQuestion(
       question: "6. Traditionalists often come together for worship during:",
       options: [
@@ -2366,7 +4037,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Traditional believers often gather for congregational worship on special or festival days.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the main difference between private and congregational worship?",
@@ -2381,7 +4051,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Private worship is for individuals/families, while congregational worship involves large groups.",
     ),
-
     QuizQuestion(
       question: "8. Which religion uses a shrine for congregational worship?",
       options: [
@@ -2395,7 +4064,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Traditionalists worship at shrines or places prepared for religious activities.",
     ),
-
     QuizQuestion(
       question:
           "9. In congregational worship, believers have the opportunity to:",
@@ -2410,7 +4078,6 @@ final QuizModel RMEs2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Hearing the word of God is a key part of congregational worship.",
     ),
-
     QuizQuestion(
       question:
           "10. Worship involves offering ________ to an object of worship.",
@@ -2438,7 +4105,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Wudu is the ritual purification Muslims perform before Salat.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is a Christian sacrament of initiation?",
@@ -2448,7 +4114,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Baptism is a Christian rite indicating purification and the start of a new life.",
     ),
-
     QuizQuestion(
       question:
           "3. The act of offering an animal to a deity in Traditional Religion is called:",
@@ -2458,7 +4123,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Sacrifice involves offering something precious, like an animal, to a deity.",
     ),
-
     QuizQuestion(
       question: "4. In which direction do Muslims face while performing Salat?",
       options: ["The North", "The West", "The Ka’bah in the East", "The South"],
@@ -2466,7 +4130,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Muslims face the Ka'bah (Qibla) in Mecca during prayer.",
     ),
-
     QuizQuestion(
       question:
           "5. Thinking deeply about the word of God in Christianity is known as:",
@@ -2475,7 +4138,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Meditation helps Christians focus on God and His word.",
     ),
-
     QuizQuestion(
       question:
           "6. Which ritual involves pouring schnapps or water to pray to ancestors?",
@@ -2485,7 +4147,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Libation is the traditional mode of communicating with ancestors and the Supreme Being.",
     ),
-
     QuizQuestion(
       question: "7. The Islamic month of fasting is called:",
       options: ["Eid-ul-Fitr", "Ramadan", "Jumu'ah", "Hajj"],
@@ -2494,7 +4155,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Ramadan is the month during which Muslims perform the pillar of Sawm (fasting).",
     ),
-
     QuizQuestion(
       question: "8. In Traditional Religion, \"Incantations\" refer to:",
       options: [
@@ -2508,7 +4168,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Incantations are chanted formulas intended to have a spiritual effect.",
     ),
-
     QuizQuestion(
       question: "9. \"Sadaqah\" in Islam refers to:",
       options: [
@@ -2521,7 +4180,6 @@ final QuizModel RMEs2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Unlike Zakat, Sadaqah is a voluntary act of charity.",
     ),
-
     QuizQuestion(
       question:
           "10. Which posture in Salat involves bowing at the waist with hands on the knees?",
@@ -2549,7 +4207,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Group worship is designed to foster unity among believers.",
     ),
-
     QuizQuestion(
       question:
           "2. Which religious practice specifically teaches the lesson of charity in Islam?",
@@ -2559,7 +4216,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Zakat is the act of giving to the poor, which teaches kindness and charity.",
     ),
-
     QuizQuestion(
       question:
           "3. Worship helps to prevent \"social vices.\" What does this mean?",
@@ -2574,7 +4230,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Worship discourages bad behaviours like stealing or cheating.",
     ),
-
     QuizQuestion(
       question: "4. Following the rules of a religious ritual is a lesson in:",
       options: ["Chaos", "Discipline", "Wealth", "Magic"],
@@ -2583,7 +4238,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Rituals require order and adherence to rules, which builds discipline.",
     ),
-
     QuizQuestion(
       question:
           "5. When a person realizes they have done something wrong and prays for help to change, they are seeking:",
@@ -2593,7 +4247,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Worship encourages believers to improve their character and live upright lives.",
     ),
-
     QuizQuestion(
       question:
           "6. Which moral value teaches us that we are not better than anyone else?",
@@ -2603,7 +4256,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Humility is the recognition that all humans are equal before God.",
     ),
-
     QuizQuestion(
       question: "7. How does worship help a student facing an exam?",
       options: [
@@ -2617,7 +4269,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Worship provides spiritual strength and confidence to face life's tasks.",
     ),
-
     QuizQuestion(
       question:
           "8. The lesson of \"Intercession\" (praying for others) teaches us to be:",
@@ -2627,7 +4278,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Praying for the needs of others shows we care about their well-being.",
     ),
-
     QuizQuestion(
       question:
           "9. In Traditional Religion, performing a \"Thank-offering\" teaches:",
@@ -2637,7 +4287,6 @@ final QuizModel RMEs2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Offering thanks through worship teaches us to appreciate the blessings we receive.",
     ),
-
     QuizQuestion(
       question:
           "10. Worship acts as a \"framework\" for a believer’s life. This means it provides:",
@@ -2666,7 +4315,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Prayer is the primary way worshippers talk to and hear from God.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of these is a similarity in prayer among the three major religions?",
@@ -2681,7 +4329,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "All three religions use prayer as a means of expressing gratitude to the Divine.",
     ),
-
     QuizQuestion(
       question: "3. The Friday congregational prayer in Islam is called:",
       options: ["Zuhr", "Jumu'ah", "Asr", "Isha"],
@@ -2690,7 +4337,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Jumu'ah is the obligatory Friday afternoon prayer that replaces Zuhr.",
     ),
-
     QuizQuestion(
       question: "4. In Christianity, a prayer of \"Confession\" is used to:",
       options: [
@@ -2704,7 +4350,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Confession is the act of admitting sins to God to receive forgiveness.",
     ),
-
     QuizQuestion(
       question: "5. Traditional worshippers believe prayer can be used to:",
       options: [
@@ -2718,7 +4363,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Traditional prayer can involve both seeking blessings for loved ones and protection against enemies.",
     ),
-
     QuizQuestion(
       question:
           "6. Which Islamic prayer is performed during an eclipse of the sun?",
@@ -2733,7 +4377,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Salat-al-Kusuf is a special prayer offered during a solar eclipse.",
     ),
-
     QuizQuestion(
       question: "7. How does prayer help in \"spiritual growth\"?",
       options: [
@@ -2747,7 +4390,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Through prayer, believers align their character with the values of their faith.",
     ),
-
     QuizQuestion(
       question: "8. What is the \"Adhan\" in Islam?",
       options: [
@@ -2761,7 +4403,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "The Adhan is the call made by the Muezzin to assemble Muslims for prayer.",
     ),
-
     QuizQuestion(
       question: "9. Which posture in Salat signifies the end of the worship?",
       options: ["Takbir", "Ruku'u", "Salam", "Sajda"],
@@ -2770,7 +4411,6 @@ final QuizModel RMEs2ss1Lesson4QuizData = QuizModel(
       explanation:
           "The Salam (turning the head right and left) is the final act of the formal prayer.",
     ),
-
     QuizQuestion(
       question:
           "10. Prayer helps a believer to feel ________ against evil forces.",
@@ -2793,7 +4433,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "This is the core definition of a religious song.",
     ),
-
     QuizQuestion(
       question:
           "2. Non-religious songs are primarily used for which of the following?",
@@ -2807,7 +4446,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "They serve social purposes like entertainment.",
     ),
-
     QuizQuestion(
       question: "3. Which song is an example of an Islamic religious song?",
       options: ["One Corner", "Alhamdulillah", "Ghana Mbaa", "Iron Boy"],
@@ -2815,7 +4453,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Alhamdulillah is a song of praise to Allah.",
     ),
-
     QuizQuestion(
       question: "4. Non-religious songs focus on:",
       options: [
@@ -2828,7 +4465,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "These songs reflect human society rather than divinity.",
     ),
-
     QuizQuestion(
       question: "5. Religious songs are said to give ____ to the hopeless.",
       options: ["Money", "Hope", "Food", "Problems"],
@@ -2836,7 +4472,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Religious music provides spiritual encouragement.",
     ),
-
     QuizQuestion(
       question: "6. \"Abin wa ha\" is classified as what type of song?",
       options: [
@@ -2849,7 +4484,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This is a social song listed as non-religious.",
     ),
-
     QuizQuestion(
       question: "7. What is a common theme in Christian religious songs?",
       options: [
@@ -2862,7 +4496,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Christian songs often focus on Jesus and God.",
     ),
-
     QuizQuestion(
       question: "8. Unlike non-religious songs, religious songs seek to:",
       options: [
@@ -2875,7 +4508,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The primary goal of religious music is worship.",
     ),
-
     QuizQuestion(
       question: "9. Traditional religious songs might be sung during:",
       options: [
@@ -2888,7 +4520,6 @@ final QuizModel RMEs2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "These songs are part of traditional worship acts.",
     ),
-
     QuizQuestion(
       question: "10. A song used to communicate with Allah or the gods is:",
       options: ["Secular", "Non-religious", "Religious", "Political"],
@@ -2915,7 +4546,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       explanation:
           "The Lord's Prayer is the central recitation for Christians.",
     ),
-
     QuizQuestion(
       question:
           "2. Surah 112, which says \"He is God, the One,\" is also known as:",
@@ -2924,7 +4554,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Surah Al-Ikhlas emphasizes the oneness of God.",
     ),
-
     QuizQuestion(
       question: "3. Oral traditions in Traditional religion are primarily:",
       options: [
@@ -2937,7 +4566,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "They are passed from generation to generation orally.",
     ),
-
     QuizQuestion(
       question:
           "4. The proverb \"A crab does not beget a bird\" is from which Ghanaian language?",
@@ -2946,7 +4574,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This is a common Ga proverb about heritage.",
     ),
-
     QuizQuestion(
       question:
           "5. Where do Christians find the recitations they use for worship?",
@@ -2960,7 +4587,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The Bible is the source of Christian sacred text.",
     ),
-
     QuizQuestion(
       question:
           "6. What does the Akan proverb \"One head does not hold council\" teach?",
@@ -2974,7 +4600,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It teaches that teamwork and consultation are necessary.",
     ),
-
     QuizQuestion(
       question: "7. Which religious group recites the Ten Commandments?",
       options: ["Muslims", "Christians", "Traditionalists", "Buddhists"],
@@ -2983,7 +4608,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       explanation:
           "The Ten Commandments are a core Biblical recitation for Christians.",
     ),
-
     QuizQuestion(
       question:
           "8. \"Naazorabataa bin\" is a proverb from which Northern Ghanaian group?",
@@ -2992,7 +4616,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This is a Dagaari proverb about consistency.",
     ),
-
     QuizQuestion(
       question: "9. The first chapter of the Qur'an recited by Muslims is:",
       options: ["Surah 105", "Al-Ikhlas", "Al-Fatihah", "The Lord's Prayer"],
@@ -3000,7 +4623,6 @@ final QuizModel RMEs2ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Al-Fatihah is known as \"The Opening.\"",
     ),
-
     QuizQuestion(
       question: "10. Oral traditions include which of the following?",
       options: [
@@ -3027,7 +4649,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Humility involves recognizing a higher power and not being arrogant.",
     ),
-
     QuizQuestion(
       question:
           "2. The Islamic song \"Alhamdulillah\" primarily teaches believers to be:",
@@ -3036,7 +4657,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The song is a repeated expression of thanks to Allah.",
     ),
-
     QuizQuestion(
       question:
           "3. Which value helps a student stay focused on their studies despite challenges?",
@@ -3046,7 +4666,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Perseverance is the act of persisting through difficulties.",
     ),
-
     QuizQuestion(
       question: "4. The proverb \"One (bad) nut spoils all\" warns us about:",
       options: ["Cooking", "Bad influence/Conduct", "Farming", "Selling nuts"],
@@ -3055,7 +4674,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "It teaches that one person's bad behavior can affect the whole group.",
     ),
-
     QuizQuestion(
       question:
           "5. Christian songs often teach \"Love your neighbour.\" This is a value of:",
@@ -3065,7 +4683,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Loving others is the foundation of kindness and brotherly love.",
     ),
-
     QuizQuestion(
       question:
           "6. Being sincere and telling the truth at all times is the moral value of:",
@@ -3074,7 +4691,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Honesty is defined as being sincere and avoiding lies.",
     ),
-
     QuizQuestion(
       question: "7. Which of these is a moral significance of religious songs?",
       options: [
@@ -3088,7 +4704,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Religious songs motivate believers to trust God and stay hopeful.",
     ),
-
     QuizQuestion(
       question: "8. Contentment teaches us to avoid:",
       options: ["Prayer", "Greed and selfishness", "Reading", "Singing"],
@@ -3097,7 +4712,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Contentment is being satisfied so that you do not covet what belongs to others.",
     ),
-
     QuizQuestion(
       question:
           "9. What moral value is shown when a person waits calmly for their turn in a queue?",
@@ -3107,7 +4721,6 @@ final QuizModel RMEs2ss2Lesson3QuizData = QuizModel(
       explanation:
           "Patience is the ability to exercise restraint and not rush.",
     ),
-
     QuizQuestion(
       question: "10. Religious recitations teach us that the Supreme Being is:",
       options: [
@@ -3134,7 +4747,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The family is the fundamental social unit that builds the community.",
     ),
-
     QuizQuestion(
       question: "2. The nuclear family is made up of...",
       options: [
@@ -3148,7 +4760,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The nuclear family is the small unit of parents and children.",
     ),
-
     QuizQuestion(
       question:
           "3. In the extended family, who is often the head of the family in many Ghanaian cultures?",
@@ -3163,7 +4774,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Extended families are often headed by an elder like the Abusuapanin.",
     ),
-
     QuizQuestion(
       question: "4. Which is a demerit of the extended family system?",
       options: [
@@ -3176,7 +4786,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Relying on many relatives can sometimes lead to laziness.",
     ),
-
     QuizQuestion(
       question:
           "5. A child who is legally taken in and cared for as a family member is related by...",
@@ -3185,7 +4794,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Adoption is a legal way to become part of a family.",
     ),
-
     QuizQuestion(
       question: "6. Which system allows for more privacy?",
       options: [
@@ -3198,7 +4806,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Smaller nuclear families generally have more privacy.",
     ),
-
     QuizQuestion(
       question: "7. How does an extended family help during a naming ceremony?",
       options: [
@@ -3212,7 +4819,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Extended families help each other during important events like ceremonies.",
     ),
-
     QuizQuestion(
       question: "8. Which of these describes a merit of the nuclear family?",
       options: [
@@ -3226,7 +4832,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "With fewer members, it is often easier for parents to meet basic needs.",
     ),
-
     QuizQuestion(
       question: "9. The term \"Extended Family\" includes...",
       options: [
@@ -3240,7 +4845,6 @@ final QuizModel RMEs3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The extended family covers all relatives from both parents' sides.",
     ),
-
     QuizQuestion(
       question: "10. Why is effective supervision easier in a nuclear family?",
       options: [
@@ -3270,7 +4874,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Basic needs are the essentials required for survival.",
     ),
-
     QuizQuestion(
       question: "2. Children help their mothers by:",
       options: [
@@ -3283,7 +4886,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Errand running is a key duty for children.",
     ),
-
     QuizQuestion(
       question: "3. An 'Abusuapanin' or family head is responsible for:",
       options: [
@@ -3296,7 +4898,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The family head leads the larger extended family group.",
     ),
-
     QuizQuestion(
       question: "4. Which is a role of a mother in a typical Ghanaian home?",
       options: [
@@ -3310,7 +4911,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Mothers often take charge of household management and neatness.",
     ),
-
     QuizQuestion(
       question: "5. When grandparents act as 'nannies', they are:",
       options: [
@@ -3323,7 +4923,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Grandparents often provide childcare support.",
     ),
-
     QuizQuestion(
       question:
           "6. What is the result of parents failing to provide for their children?",
@@ -3337,7 +4936,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Neglect of parental roles leads to hardship for children.",
     ),
-
     QuizQuestion(
       question: "7. A father shows commitment by:",
       options: [
@@ -3350,7 +4948,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Fathers are typically expected to be the main providers.",
     ),
-
     QuizQuestion(
       question:
           "8. Teaching children how to pray or read holy books is a role of:",
@@ -3364,7 +4961,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       difficulty: "High",
       explanation: "Moral and religious training is a parental duty.",
     ),
-
     QuizQuestion(
       question: "9. Helping younger siblings with their studies is a role for:",
       options: [
@@ -3378,7 +4974,6 @@ final QuizModel RMEs3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Older siblings are expected to help care for and guide younger ones.",
     ),
-
     QuizQuestion(
       question: "10. Why are roles important in a family?",
       options: [
@@ -3406,7 +5001,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Tolerance involves respecting other people’s views and accepting their imperfections.",
     ),
-
     QuizQuestion(
       question: "2. A \"Sense of Belonging\" means a family member feels:",
       options: [
@@ -3420,7 +5014,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "A healthy family makes members feel they belong to a group they can rely on.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is NOT a factor that promotes good family relationships?",
@@ -3434,7 +5027,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "False accusations lead to suspicion and destroy trust.",
     ),
-
     QuizQuestion(
       question: "4. Self-examination helps an individual to:",
       options: [
@@ -3448,7 +5040,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Looking at our own actions helps us learn and avoid the same errors.",
     ),
-
     QuizQuestion(
       question:
           "5. When family members relate well, they can pool resources for a project. This is called:",
@@ -3463,7 +5054,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "A united family can easily bring resources together for the family's progress.",
     ),
-
     QuizQuestion(
       question:
           "6. Why should we avoid third-party intervention in family matters?",
@@ -3478,7 +5068,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Resolving issues internally helps maintain privacy and avoid unnecessary interference.",
     ),
-
     QuizQuestion(
       question: "7. How does \"Appreciation\" help a family?",
       options: [
@@ -3492,7 +5081,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Saying 'thank you' and showing kindness promotes healthy relationships.",
     ),
-
     QuizQuestion(
       question: "8. \"Unity of Purpose\" in a family results in:",
       options: [
@@ -3506,7 +5094,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Unity of purpose means there is no division in the family's goals.",
     ),
-
     QuizQuestion(
       question:
           "9. The phrase \"Taking full responsibility for one's actions\" means:",
@@ -3521,7 +5108,6 @@ final QuizModel RMEs3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Responsibility is a key part of self-examination and mature behavior.",
     ),
-
     QuizQuestion(
       question: "10. A peaceful family contributes to the nation of Ghana by:",
       options: [
@@ -3549,7 +5135,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Jesus was born in Bethlehem of Judea during the reign of King Herod.",
     ),
-
     QuizQuestion(
       question:
           "2. What was the name of the cave where Muhammad received his first revelation?",
@@ -3559,7 +5144,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Muhammad was meditating in Cave Hira when he received his call.",
     ),
-
     QuizQuestion(
       question:
           "3. Which indigenous leader was born with cowry shells in his hands?",
@@ -3569,7 +5153,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Okomfo Anokye was born with bundles of cowry shells around his wrists and ankles.",
     ),
-
     QuizQuestion(
       question:
           "4. How many days did Jesus fast in the desert during his temptation?",
@@ -3578,7 +5161,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Jesus fasted for 40 days and nights in the desert.",
     ),
-
     QuizQuestion(
       question: "5. What title was given to Muhammad because of his honesty?",
       options: ["Al-Sadiq", "Al-Amin", "Khalifa", "Imam"],
@@ -3587,7 +5169,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Muhammad was called Al-Amin, which means the Trustworthy One.",
     ),
-
     QuizQuestion(
       question: "6. Toha Zie is a legendary leader from which part of Ghana?",
       options: [
@@ -3601,7 +5182,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Toha Zie was a very important leader among the people of Northern Ghana.",
     ),
-
     QuizQuestion(
       question: "7. Who was the mother of Jesus Christ?",
       options: ["Amina", "Elizabeth", "Mary", "Khadijah"],
@@ -3609,7 +5189,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Mary was the mother of Jesus Christ.",
     ),
-
     QuizQuestion(
       question: "8. Which angel appeared to Muhammad in Cave Hira?",
       options: ["Gabriel (Jibril)", "Michael", "Raphael", "Uriel"],
@@ -3618,7 +5197,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Angel Jibril brought the first revelation to Prophet Muhammad.",
     ),
-
     QuizQuestion(
       question: "9. On which day of the week was Okomfo Anokye born?",
       options: ["Friday", "Sunday", "Saturday", "Monday"],
@@ -3626,7 +5204,6 @@ final QuizModel RMEs4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Okomfo Anokye was born on a Saturday in the 1660s.",
     ),
-
     QuizQuestion(
       question: "10. What was the first temptation of Jesus by the devil?",
       options: [
@@ -3658,7 +5235,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "A parable uses earthly stories to explain heavenly or moral meanings.",
     ),
-
     QuizQuestion(
       question: "2. Which miracle did Jesus perform at a wedding in Cana?",
       options: [
@@ -3672,7 +5248,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "This was the first miracle Jesus performed during his earthly ministry.",
     ),
-
     QuizQuestion(
       question:
           "3. According to Prophet Muhammad's Farewell Sermon, what makes one person superior to another?",
@@ -3682,7 +5257,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "He taught that equality is key and only righteousness (piety) sets people apart.",
     ),
-
     QuizQuestion(
       question: "4. How did Togbe Tsali trick the enemies of the Anlo people?",
       options: [
@@ -3696,7 +5270,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "By turning footprints backwards, he confused the enemies about which direction his people fled.",
     ),
-
     QuizQuestion(
       question: "5. Who helped Jesus carry the cross to Golgotha?",
       options: [
@@ -3710,7 +5283,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Simon of Cyrene was ordered to help Jesus carry the heavy cross.",
     ),
-
     QuizQuestion(
       question:
           "6. The Abohaa festival is celebrated by the Fantes to honor who?",
@@ -3720,7 +5292,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Abohaa commemorates the selfless sacrifice of Egya Ahor to save the people.",
     ),
-
     QuizQuestion(
       question: "7. What was the \"Triumphant Entry\" of Jesus?",
       options: [
@@ -3734,7 +5305,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Jesus rode into Jerusalem on a donkey as the people waved palm branches.",
     ),
-
     QuizQuestion(
       question: "8. Which book in the Bible contains the Sermon on the Mount?",
       options: ["Genesis", "Matthew", "Exodus", "Revelation"],
@@ -3743,7 +5313,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "The teachings of the Sermon on the Mount are found in Matthew chapters 5 to 7.",
     ),
-
     QuizQuestion(
       question: "9. Why is the \"Last Supper\" important in Jesus's ministry?",
       options: [
@@ -3757,7 +5326,6 @@ final QuizModel RMEs4ss1Lesson2QuizData = QuizModel(
       explanation:
           "During this meal, Jesus instituted the bread and wine as symbols of his body and blood.",
     ),
-
     QuizQuestion(
       question:
           "10. Toha Zie saved his people by killing a beast at which location?",
@@ -3791,7 +5359,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Jesus's prayer on the cross is a ultimate example of forgiving enemies.",
     ),
-
     QuizQuestion(
       question: "2. Prophet Muhammad's title \"Al-Sadiq\" means what?",
       options: ["The Brave", "The Wealthy", "The Truthful", "The Fast"],
@@ -3800,7 +5367,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Along with Al-Amin, he was called Al-Sadiq because of his truthfulness.",
     ),
-
     QuizQuestion(
       question:
           "3. Which Ghanaian leader is remembered for his \"Patriotism\" by sacrificing his life during the Asante-Denkyira war?",
@@ -3810,7 +5376,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Tweneboa Kodua's sacrifice led to the victory of his people.",
     ),
-
     QuizQuestion(
       question: "4. What does \"Humility\" mean in leadership?",
       options: [
@@ -3824,7 +5389,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Humility is shown when a leader puts the needs of others before their own status.",
     ),
-
     QuizQuestion(
       question:
           "5. Which indigenous leader showed \"Perseverance\" by helping his people escape King Agorkoli?",
@@ -3834,7 +5398,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Togbe Tsali used his powers persistently to lead his people to freedom.",
     ),
-
     QuizQuestion(
       question: "6. Following the \"Golden Rule\" taught by Jesus means:",
       options: [
@@ -3848,7 +5411,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "The Golden Rule is a core teaching on caring for other people.",
     ),
-
     QuizQuestion(
       question:
           "7. Muhammad's migration (Hijra) to Madinah teaches us the moral lesson of:",
@@ -3863,7 +5425,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "The migration required great endurance and faith during a difficult time.",
     ),
-
     QuizQuestion(
       question:
           "8. What can students learn from Okomfo Anokye’s role as an advisor to the King?",
@@ -3878,7 +5439,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Anokye used his wisdom to provide meaningful advice for the nation's growth.",
     ),
-
     QuizQuestion(
       question: "9. The life of Toha Zie teaches us to be:",
       options: [
@@ -3892,7 +5452,6 @@ final QuizModel RMEs4ss1Lesson3QuizData = QuizModel(
       explanation:
           "He risked his life to ensure his community had access to water.",
     ),
-
     QuizQuestion(
       question: "10. Why is \"Honesty\" important in a community?",
       options: [
@@ -3919,7 +5478,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Manners are desirable or acceptable behaviours.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a form of greeting common in Ghana?",
       options: [
@@ -3933,7 +5491,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Removing a cap is a sign of respect during greeting in Ghana.",
     ),
-
     QuizQuestion(
       question: "3. A child who shows comportment will...",
       options: [
@@ -3946,7 +5503,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Controlling one's temper is a key part of comportment.",
     ),
-
     QuizQuestion(
       question: "4. Which word describes being polite and showing respect?",
       options: ["Courtesy", "Cruelty", "Curiosity", "Clumsiness"],
@@ -3954,7 +5510,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Courtesy is defined as a polite way of showing respect.",
     ),
-
     QuizQuestion(
       question: "5. Decent dressing involves considering...",
       options: [
@@ -3968,7 +5523,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Occasion and culture are key factors to consider in decent dressing.",
     ),
-
     QuizQuestion(
       question: "6. Which of the following is an example of \"Bad Manners\"?",
       options: [
@@ -3981,7 +5535,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Murmuring and complaining is an example of bad manners.",
     ),
-
     QuizQuestion(
       question:
           "7. Why is it important to say \"Thank you\" after being served?",
@@ -3995,7 +5548,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Saying \"Thank you\" shows appreciation and decency.",
     ),
-
     QuizQuestion(
       question: "8. When is it most important to show comportment?",
       options: [
@@ -4009,7 +5561,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Comportment should be shown at social gatherings and in public.",
     ),
-
     QuizQuestion(
       question: "9. Honesty and humility are examples of...",
       options: ["Bad manners", "Pride", "Indiscipline", "Decency"],
@@ -4017,7 +5568,6 @@ final QuizModel RMEs5ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Decency includes qualities like honesty and humility.",
     ),
-
     QuizQuestion(
       question: "10. Which action brings \"displeasure\" to society?",
       options: [
@@ -4049,7 +5599,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Greetings are a way to start conversations and build unity.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is a \"moral benefit\" of showing good manners?",
@@ -4064,7 +5613,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Good manners are often seen as a religious requirement that brings blessings.",
     ),
-
     QuizQuestion(
       question:
           "3. Before dressing for an event, you should primarily consider the...",
@@ -4078,7 +5626,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Occasion and audience are key factors in decent dressing.",
     ),
-
     QuizQuestion(
       question: "4. Removing your hat when greeting an elder is an act of...",
       options: ["Fear.", "Confusion.", "Laziness.", "Good manners."],
@@ -4086,7 +5633,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Removing a cap shows respect and training.",
     ),
-
     QuizQuestion(
       question:
           "5. A person who comports themselves well is often trusted with...",
@@ -4101,7 +5647,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Comportment leads society to entrust individuals with responsibility.",
     ),
-
     QuizQuestion(
       question: "6. Using the left hand to greet a Chief is considered...",
       options: [
@@ -4115,7 +5660,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "The left hand is traditionally not used for greetings in Ghana.",
     ),
-
     QuizQuestion(
       question: "7. How does decency help a student in school?",
       options: [
@@ -4128,7 +5672,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Decent behaviour attracts respect and goodwill.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is a factor to consider when greeting?",
       options: [
@@ -4142,7 +5685,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Age is a primary factor in determining the level of respect in a greeting.",
     ),
-
     QuizQuestion(
       question: "9. Decent dressing can help prevent...",
       options: [
@@ -4156,7 +5698,6 @@ final QuizModel RMEs5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Dressing well protects one’s dignity and avoids negative attention.",
     ),
-
     QuizQuestion(
       question:
           "10. Showing appreciation by saying \"Thank you\" is important because it...",
@@ -4183,7 +5724,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       explanation:
           "In Ghanaian society and religion, chastity refers to abstinence until marriage.",
     ),
-
     QuizQuestion(
       question:
           "2. Which factor can often lead a young person into \"immoral behaviour\"?",
@@ -4197,7 +5737,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Peer influence is a common cause of immorality.",
     ),
-
     QuizQuestion(
       question: "3. A chaste person is safe from...",
       options: [
@@ -4211,7 +5750,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       explanation:
           "Abstinence is the only 100% way to prevent unwanted pregnancy.",
     ),
-
     QuizQuestion(
       question: "4. What is the meaning of \"immorality\"?",
       options: [
@@ -4225,7 +5763,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       explanation:
           "Immorality is acting contrary to the accepted norms of society.",
     ),
-
     QuizQuestion(
       question: "5. To remain chaste, one should avoid watching...",
       options: [
@@ -4238,7 +5775,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Such materials can destroy good moral values.",
     ),
-
     QuizQuestion(
       question:
           "6. Which of these is a \"health problem\" caused by immoral behavior?",
@@ -4252,7 +5788,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Immoral sexual behaviour exposes one to STDs and HIV.",
     ),
-
     QuizQuestion(
       question:
           "7. Who should you seek knowledge from to stay pure and chaste?",
@@ -4266,7 +5801,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Religious and family guidance is key to a chaste life.",
     ),
-
     QuizQuestion(
       question:
           "8. One importance of living a chaste life is that you remain ______ and holy.",
@@ -4276,7 +5810,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       explanation:
           "Chastity is often viewed as a spiritual requirement for purity.",
     ),
-
     QuizQuestion(
       question:
           "9. Teen pregnancy often leads to \"school drop-out.\" This is an effect of...",
@@ -4285,7 +5818,6 @@ final QuizModel RMEs5ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Immoral behavior often results in interrupted education.",
     ),
-
     QuizQuestion(
       question: "10. A \"good name\" is better than...",
       options: ["Riches.", "Manners.", "Health.", "Family."],
@@ -4312,7 +5844,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This is a traditional Ghanaian practice linked to IAR.",
     ),
-
     QuizQuestion(
       question:
           "2. Qur'an 25:63 encourages believers to be ______ even in their walking.",
@@ -4322,7 +5853,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       explanation:
           "The Qur'an teaches humility in all actions, including walking.",
     ),
-
     QuizQuestion(
       question:
           "3. The Christian Bible warns against \"adultery\" in which book?",
@@ -4332,7 +5862,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       explanation:
           "The commandment \"Thou shalt not commit adultery\" is in Exodus 20:14.",
     ),
-
     QuizQuestion(
       question: "4. \"Tasty soup draws seat\" is a proverb teaching that...",
       options: [
@@ -4346,7 +5875,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       explanation:
           "This IAR proverb means that good character makes people want to be near you.",
     ),
-
     QuizQuestion(
       question:
           "5. Christian women are specifically taught to dress in a ______ way.",
@@ -4355,7 +5883,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "1 Timothy 2:9-10 emphasizes modesty in dressing.",
     ),
-
     QuizQuestion(
       question:
           "6. Which religion teaches that \"Whatever a man sows, that he reaps\"?",
@@ -4370,7 +5897,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       explanation:
           "This is used in IAR to teach that actions have consequences.",
     ),
-
     QuizQuestion(
       question:
           "7. Muslims are warned against ______ and ridiculing others in Qur'an 49:11.",
@@ -4379,7 +5905,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Insulting others is considered bad manners in Islam.",
     ),
-
     QuizQuestion(
       question:
           "8. The Bible verse 1 Corinthians 6:18 tells Christians to \"flee from\" what?",
@@ -4393,7 +5918,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This verse is a key teaching on chastity.",
     ),
-
     QuizQuestion(
       question:
           "9. Traditional believers are taught that \"God hates ______\".",
@@ -4403,7 +5927,6 @@ final QuizModel RMEs5ss1Lesson4QuizData = QuizModel(
       explanation:
           "This is a core moral teaching in Indigenous African Religion.",
     ),
-
     QuizQuestion(
       question: "10. What is the most important source of morality in Islam?",
       options: [
@@ -4431,7 +5954,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Substance abuse and drug abuse are used interchangeably to mean the misuse of substances.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is NOT a cause of substance abuse?",
       options: [
@@ -4445,7 +5967,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Following medical advice is the correct way to use drugs, not a cause of abuse.",
     ),
-
     QuizQuestion(
       question:
           "3. Substances that increase body activity and alertness are called:",
@@ -4455,7 +5976,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Stimulants affect the central nervous system to increase alertness.",
     ),
-
     QuizQuestion(
       question:
           "4. Taking 5 tablets of a painkiller instead of the 2 prescribed by a doctor is:",
@@ -4470,7 +5990,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Excessive use of drugs beyond the prescription is substance abuse.",
     ),
-
     QuizQuestion(
       question:
           "5. Which of the following is a legal sedative used in some Ghanaian communities?",
@@ -4480,7 +5999,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Pito and palm wine are local sedatives mentioned in the text.",
     ),
-
     QuizQuestion(
       question: "6. Why do some students use drugs due to 'Ignorance'?",
       options: [
@@ -4494,7 +6012,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Ignorance means a lack of information about the dangers involved.",
     ),
-
     QuizQuestion(
       question:
           "7. A drug used to relax the nerves and help a person sleep is a:",
@@ -4503,7 +6020,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Sedatives have calming or soothing effects.",
     ),
-
     QuizQuestion(
       question: "8. 'Wee' is a local Ghanaian name for:",
       options: ["Tobacco", "Alcohol", "Marijuana", "Coffee"],
@@ -4511,7 +6027,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Marijuana is locally referred to as 'wee' or 'ganja'.",
     ),
-
     QuizQuestion(
       question: "9. Which of the following is a common drug?",
       options: ["Heroin", "Cocaine", "Vitamin B Complex", "Tramadol"],
@@ -4519,7 +6034,6 @@ final QuizModel RMEs5ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Vitamin B Complex is a common legal medicine.",
     ),
-
     QuizQuestion(
       question: "10. Media advertisements can lead to substance abuse by:",
       options: [
@@ -4547,7 +6061,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       explanation:
           "Substance abuse is a direct cause of heart-related diseases.",
     ),
-
     QuizQuestion(
       question: "2. A person who abuses drugs is likely to show:",
       options: [
@@ -4560,7 +6073,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Behavioral changes include rebellion and disrespect.",
     ),
-
     QuizQuestion(
       question:
           "3. What is the effect of substance abuse on a person's vision?",
@@ -4574,7 +6086,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Poor vision is a physical consequence of drug abuse.",
     ),
-
     QuizQuestion(
       question: "4. \"Stigmatization\" in society means being:",
       options: [
@@ -4587,7 +6098,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Abusers often face social shame and ridicule.",
     ),
-
     QuizQuestion(
       question: "5. How does drug abuse affect national development?",
       options: [
@@ -4601,7 +6111,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       explanation:
           "A drugged youth cannot contribute effectively to building the nation.",
     ),
-
     QuizQuestion(
       question:
           "6. Which of the following is a behavioral effect of drug addiction?",
@@ -4616,7 +6125,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       explanation:
           "Addiction makes it difficult for the user to stop even when they want to.",
     ),
-
     QuizQuestion(
       question: "7. Financial hardship caused by drugs can lead to:",
       options: ["Poverty", "Savings", "Investment", "High salary"],
@@ -4625,7 +6133,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       explanation:
           "Economic problems and hardship are direct results of spending money on substances.",
     ),
-
     QuizQuestion(
       question:
           "8. Substance abuse can lead to 'abnormal behavior' because it:",
@@ -4640,7 +6147,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       explanation:
           "Drugs interfere with the brain’s ability to think clearly and make good decisions.",
     ),
-
     QuizQuestion(
       question:
           "9. Lung cancer is most commonly associated with which type of substance abuse?",
@@ -4654,7 +6160,6 @@ final QuizModel RMEs5ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Smoking substances is a primary cause of lung cancer.",
     ),
-
     QuizQuestion(
       question: "10. Why do drug users often lose their friends?",
       options: [
@@ -4679,7 +6184,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The Bible warns that alcohol mocks those who use it.",
     ),
-
     QuizQuestion(
       question:
           "2. Which defensive skill involves managing your time properly?",
@@ -4694,7 +6198,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "A personal timetable helps students stay focused on goals rather than drugs.",
     ),
-
     QuizQuestion(
       question:
           "3. The Qur'an (5:90-91) tells believers to stay away from intoxicants to:",
@@ -4709,7 +6212,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "Avoiding these sins is seen as the path to spiritual and life success.",
     ),
-
     QuizQuestion(
       question:
           "4. \"A man is called a drunkard when he misbehaves\" is a teaching from:",
@@ -4724,7 +6226,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "This is part of Ghanaian traditional moral lessons on temperance.",
     ),
-
     QuizQuestion(
       question:
           "5. What should you check before taking any common medicine at home?",
@@ -4738,7 +6239,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Using expired drugs is a form of substance abuse.",
     ),
-
     QuizQuestion(
       question: "6. Which of the following is an example of \"Bad Company\"?",
       options: [
@@ -4752,7 +6252,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "Bad company influences you to engage in immoral or illegal acts.",
     ),
-
     QuizQuestion(
       question:
           "7. In 1 Corinthians 3:17, what does the Bible say happens to those who defile God's temple?",
@@ -4767,7 +6266,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "This scripture emphasizes the severity of harming the body God created.",
     ),
-
     QuizQuestion(
       question: "8. When you refuse drugs, you are showing the moral value of:",
       options: ["Cowardice", "Laziness", "Greed", "Self-control"],
@@ -4776,7 +6274,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "Self-control is the ability to master your desires and say no to harm.",
     ),
-
     QuizQuestion(
       question:
           "9. Why does Indigenous African Religion discourage \"drinking to drown sorrows\"?",
@@ -4791,7 +6288,6 @@ final QuizModel RMEs5ss2Lesson3QuizData = QuizModel(
       explanation:
           "This means alcohol does not solve problems; the problems remain after the drink.",
     ),
-
     QuizQuestion(
       question: "10. A \"Counsellor\" is someone who:",
       options: [
@@ -4824,7 +6320,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Work is any physical or mental effort intended to produce a result.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a characteristic of entrepreneurship?",
       options: [
@@ -4837,7 +6332,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Setting up and controlling a new business is core to entrepreneurship.",
     ),
-
     QuizQuestion(
       question:
           "3. Cleaning the gutters in your neighborhood during a communal labor day is...",
@@ -4852,7 +6346,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Community work involves activities done for the benefit of the public.",
     ),
-
     QuizQuestion(
       question: "4. Social security is often backed by...",
       options: [
@@ -4866,7 +6359,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Social security is often a programme backed by law to provide monetary assistance.",
     ),
-
     QuizQuestion(
       question:
           "5. A teacher, a nurse, and a carpenter are all examples of what kind of work?",
@@ -4876,7 +6368,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Occupational work is done for livelihood or to earn a living.",
     ),
-
     QuizQuestion(
       question:
           "6. Washing the dishes after a meal at home is an example of...",
@@ -4890,7 +6381,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Chores within the home are classified as domestic work.",
     ),
-
     QuizQuestion(
       question:
           "7. Which term describes a person who identifies a business opportunity and takes a risk?",
@@ -4900,7 +6390,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "An entrepreneur seizes opportunities and takes risks for profit.",
     ),
-
     QuizQuestion(
       question: "8. Non-academic school work includes...",
       options: [
@@ -4914,7 +6403,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Non-academic school work involves physical chores like cleaning or gardening.",
     ),
-
     QuizQuestion(
       question: "9. Why is social security important?",
       options: [
@@ -4928,7 +6416,6 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
       explanation:
           "It provides income protection for old age, invalidity, or sickness.",
     ),
-
     QuizQuestion(
       question: "10. Religious work is primarily performed by...",
       options: [
@@ -4959,7 +6446,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Work enables us to earn income for our basic survival.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a negative attitude toward work?",
       options: ["Commitment", "Punctuality", "Procrastination", "Honesty"],
@@ -4968,7 +6454,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Procrastination (putting off work) is a negative work ethic.",
     ),
-
     QuizQuestion(
       question:
           "3. The \"Parable of the Talents\" in the Bible teaches us to be...",
@@ -4983,7 +6468,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "The parable encourages using our talents and being dedicated to our tasks.",
     ),
-
     QuizQuestion(
       question: "4. Hard work helps to reduce crime because...",
       options: [
@@ -4997,7 +6481,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Busy, productive people are less likely to engage in social vices like robbery.",
     ),
-
     QuizQuestion(
       question: "5. A positive attitude toward work includes...",
       options: [
@@ -5010,7 +6493,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Regularity and avoiding absenteeism are key positive work ethics.",
     ),
-
     QuizQuestion(
       question: "6. What does Islam teach about hard work?",
       options: [
@@ -5024,7 +6506,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Islamic teachings emphasize that honest labor is a spiritual duty.",
     ),
-
     QuizQuestion(
       question:
           "7. Which habit involves finishing your work within the stipulated time?",
@@ -5039,7 +6520,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Organizing and planning your activities ensures work is done on time.",
     ),
-
     QuizQuestion(
       question: "8. Laziness at the workplace leads to...",
       options: [
@@ -5053,7 +6533,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Negative attitudes like laziness result in failure and lack of progress.",
     ),
-
     QuizQuestion(
       question:
           "9. The Ghanaian proverb \"One achieves success by taking care of another person's work\" teaches...",
@@ -5068,7 +6547,6 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
       explanation:
           "It teaches us to be dedicated to every task, even when working for others.",
     ),
-
     QuizQuestion(
       question: "10. A person who is 'reliable' at work is someone who...",
       options: [
@@ -5100,7 +6578,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Clearly defining goals and a mission is the starting point for a future business.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a way to get 'Capital'?",
       options: [
@@ -5114,7 +6591,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Capital can come from personal income, bank loans, or relatives.",
     ),
-
     QuizQuestion(
       question: "3. What does it mean to have a 'Mission' for your business?",
       options: [
@@ -5128,7 +6604,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "A mission is the plan for how you intend to achieve your set goals or vision.",
     ),
-
     QuizQuestion(
       question: "4. Marketing should be focused on which group?",
       options: [
@@ -5142,7 +6617,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "A marketing strategy must focus on the specific group of people likely to buy the product.",
     ),
-
     QuizQuestion(
       question: "5. Innovation helps a business to...",
       options: [
@@ -5156,7 +6630,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Innovation allows a business to improve and respond to market changes.",
     ),
-
     QuizQuestion(
       question: "6. Trusting your own skills and abilities is called...",
       options: ["Human resources", "Self-belief", "Marketing", "Capital"],
@@ -5164,7 +6637,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Self-belief is trusting in yourself and your skills.",
     ),
-
     QuizQuestion(
       question:
           "7. Before starting, an entrepreneur should identify the 'Nature of business.' This means...",
@@ -5179,7 +6651,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Identifying the nature of business means choosing the specific field or type of work to start.",
     ),
-
     QuizQuestion(
       question: "8. Human resources are important because they...",
       options: [
@@ -5193,7 +6664,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Human resources refers to the set of people who make up the workforce.",
     ),
-
     QuizQuestion(
       question: "9. To be a risk-taker, an entrepreneur must...",
       options: [
@@ -5207,7 +6677,6 @@ final QuizModel RMEs6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Entrepreneurship involves taking risks and investing resources to create new products or methods for profit.",
     ),
-
     QuizQuestion(
       question: "10. What is a 'Target Audience'?",
       options: [
@@ -5239,7 +6708,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       explanation:
           "It allows one to do their own thing and pursue areas of interest.",
     ),
-
     QuizQuestion(
       question:
           "2. Private businesses contribute to nation building primarily through...",
@@ -5253,7 +6721,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Business taxes provide revenue for government projects.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of the following is an advantage of being your own boss?",
@@ -5267,7 +6734,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Being the boss allows you to take initiatives freely.",
     ),
-
     QuizQuestion(
       question: "4. Creating jobs for others helps the society by...",
       options: [
@@ -5281,7 +6747,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       explanation:
           "Employment reduces the likelihood of people engaging in crime.",
     ),
-
     QuizQuestion(
       question: "5. \"Flexibility of time\" means an entrepreneur can...",
       options: [
@@ -5294,7 +6759,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "It gives the owner more control over their daily schedule.",
     ),
-
     QuizQuestion(
       question:
           "6. What is the result of people patronizing an entrepreneur's products?",
@@ -5309,7 +6773,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       explanation:
           "Seeing products being patronized brings joy and pride to the founder.",
     ),
-
     QuizQuestion(
       question:
           "7. The tax paid on goods and services produced by a business is called...",
@@ -5324,7 +6787,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       explanation:
           "VAT is a specific tax on goods and services that aids nation building.",
     ),
-
     QuizQuestion(
       question: "8. Being a leader in a business involves...",
       options: [
@@ -5338,7 +6800,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       explanation:
           "Leadership includes directing employees and the affairs of the business.",
     ),
-
     QuizQuestion(
       question:
           "9. Which of these is a personal (not social) benefit of entrepreneurship?",
@@ -5352,7 +6813,6 @@ final QuizModel RMEs6ss1Lesson4QuizData = QuizModel(
       difficulty: "High",
       explanation: "Pursuing a personal vision is an individual benefit.",
     ),
-
     QuizQuestion(
       question: "10. Why is taking initiative important for an entrepreneur?",
       options: [
@@ -5381,7 +6841,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "God worked for six days and rested on the seventh.",
     ),
-
     QuizQuestion(
       question:
           "2. Which religion teaches that man was created in stages, starting from a sperm drop and a blood clot?",
@@ -5396,7 +6855,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Qur'an describes the systematic stages of human development.",
     ),
-
     QuizQuestion(
       question: "3. In Akan traditional belief, who is the Creator?",
       options: ["Mawu", "Nawuni", "Onyankopon", "Allah"],
@@ -5404,7 +6862,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Onyankopon is the Akan name for the Supreme Creator.",
     ),
-
     QuizQuestion(
       question:
           "4. Why does the Ewe myth say God uses the bodies of the dead to create new people?",
@@ -5419,7 +6876,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The tradition says God used dead bodies because of a scarcity of clay.",
     ),
-
     QuizQuestion(
       question: "5. On the first day of creation in the Bible, God commanded:",
       options: [
@@ -5432,7 +6888,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Light was the very first thing God created on Day One.",
     ),
-
     QuizQuestion(
       question:
           "6. According to the Dagomba myth, who acts as messengers between Nawuni and humans?",
@@ -5446,7 +6901,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Nawuni created lesser gods (bola) to be intermediaries.",
     ),
-
     QuizQuestion(
       question: "7. Muslims believe that humankind was created to:",
       options: [
@@ -5460,7 +6914,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The creation story teaches that man was created to serve and obey Allah.",
     ),
-
     QuizQuestion(
       question: "8. In the Christian story, Eve was created from Adam's:",
       options: ["Hair", "Foot", "Rib", "Hand"],
@@ -5469,7 +6922,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "God took a rib from Adam during a deep sleep to create Eve.",
     ),
-
     QuizQuestion(
       question:
           "9. According to the Akan myth, what was the last thing created?",
@@ -5479,7 +6931,6 @@ final QuizModel RMEjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The myth states that finally, God created Death as the end of life on earth.",
     ),
-
     QuizQuestion(
       question:
           "10. What do all three major religions in Ghana have in common regarding creation?",
@@ -5508,7 +6959,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Orderliness involves following a process and planning well.",
     ),
-
     QuizQuestion(
       question:
           "2. The Christian story teaches that after a hard day's work, an individual should:",
@@ -5523,7 +6973,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "God resting on the seventh day teaches the importance of rest after labor.",
     ),
-
     QuizQuestion(
       question:
           "3. Which religion specifically emphasizes that humankind was created to serve and worship the Creator?",
@@ -5538,7 +6987,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Islam teaches that the primary purpose of creation is to serve and obey Allah.",
     ),
-
     QuizQuestion(
       question: "4. \"Creativity\" as a moral value from creation means:",
       options: [
@@ -5552,7 +7000,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "God's creativity inspires us to be innovative and solve problems.",
     ),
-
     QuizQuestion(
       question:
           "5. In the Ewe tradition, God is seen as the \"Final Judge.\" This teaches us to:",
@@ -5567,7 +7014,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Knowing God will judge our deeds encourages us to live righteously.",
     ),
-
     QuizQuestion(
       question:
           "6. Which value is shown when a farmer shares his harvest with the poor, based on the belief that God is a provider?",
@@ -5577,7 +7023,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Sharing reflects the attribute of God as a generous provider.",
     ),
-
     QuizQuestion(
       question:
           "7. The Akan belief in God as \"Oboadee\" (Creator) who is still creating encourages humans to be:",
@@ -5587,7 +7032,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Since God is still creating, humans are encouraged to also create new things.",
     ),
-
     QuizQuestion(
       question:
           "8. Caring for the environment and animals is a moral lesson derived from:",
@@ -5602,7 +7046,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "All three religions teach that God cares for His creation and humans must do the same.",
     ),
-
     QuizQuestion(
       question:
           "9. According to the Dagomba myth, why should we obey the laws and principles given by Nawuni?",
@@ -5617,7 +7060,6 @@ final QuizModel RMEjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Laws are given to guide humankind to avoid sin and be rewarded.",
     ),
-
     QuizQuestion(
       question: "10. What is the main reason we study these moral values?",
       options: [
@@ -5650,7 +7092,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "A naming ceremony is the first rite of passage that gives a child a name and identity within their family and community.",
     ),
-
     QuizQuestion(
       question:
           "2. In Akan tradition, a boy born on a Friday is usually named:",
@@ -5660,7 +7101,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "According to the Akan day-naming system, a male child born on Friday is named Kofi.",
     ),
-
     QuizQuestion(
       question:
           "3. Which religious leader whispers the call to prayer into a newborn's ear?",
@@ -5670,7 +7110,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "In Islam, the Imam or Mallam whispers the Adhan and Iqamah into the baby's ears.",
     ),
-
     QuizQuestion(
       question:
           "4. At what age is the naming ceremony usually performed in most Ghanaian traditional societies?",
@@ -5685,7 +7124,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Most traditional Ghanaian societies outdoor the baby on the eighth day after birth.",
     ),
-
     QuizQuestion(
       question:
           "5. What does the use of water and wine in traditional rites teach the child?",
@@ -5700,7 +7138,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "The ritual of \"Wuse nsu a nsu\" (if you say water, let it be water) is meant to instill the value of truthfulness.",
     ),
-
     QuizQuestion(
       question:
           "6. Which of the following is a factor considered when choosing a name for a child?",
@@ -5715,7 +7152,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Names are often chosen based on birth circumstances, such as being a twin or being born after a period of hardship.",
     ),
-
     QuizQuestion(
       question: "7. Christian naming ceremonies often include:",
       options: [
@@ -5729,7 +7165,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Christian ceremonies focus on scripture, hymns, and blessing the child through prayer.",
     ),
-
     QuizQuestion(
       question: "8. The Ewe name for a naming ceremony is:",
       options: ["Vihehedgo.", "Kpodziemo.", "Abadinto.", "Sunna."],
@@ -5737,7 +7172,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       difficulty: "High",
       explanation: "The Ewes call the outdooring ceremony Vihehedgo.",
     ),
-
     QuizQuestion(
       question:
           "9. Why is a person of \"good character\" chosen to perform traditional naming rites?",
@@ -5752,7 +7186,6 @@ final QuizModel RMEjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "It is believed that the child may take after the character of the person who names them.",
     ),
-
     QuizQuestion(
       question:
           "10. Which religion emphasizes the \"Aqiqah\" during the naming process?",
@@ -5785,7 +7218,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Puberty is the stage that ushers an individual from childhood into adulthood.",
     ),
-
     QuizQuestion(
       question: "2. Which organ produces oestrogen in girls?",
       options: ["The Heart", "The Testes", "The Ovaries", "The Liver"],
@@ -5793,7 +7225,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Oestrogen is secreted by the ovaries in girls.",
     ),
-
     QuizQuestion(
       question: "3. A sign of puberty that occurs in both boys and girls is:",
       options: [
@@ -5806,7 +7237,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Both sexes develop pubic and armpit hair during puberty.",
     ),
-
     QuizQuestion(
       question: "4. \"Mood swings\" mean an adolescent might:",
       options: [
@@ -5820,7 +7250,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Mood swings involve rapid changes in emotions caused by hormones.",
     ),
-
     QuizQuestion(
       question: "5. Broadening of shoulders is a characteristic of:",
       options: [
@@ -5833,7 +7262,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Broader chests and shoulders are physical changes in boys.",
     ),
-
     QuizQuestion(
       question:
           "6. Adolescents become 'adventurous' during puberty. This means they:",
@@ -5848,7 +7276,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Curiosity and a desire for adventure are common emotional traits at this stage.",
     ),
-
     QuizQuestion(
       question: "7. Acne and pimples on the face are caused by:",
       options: [
@@ -5861,7 +7288,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Hormonal shifts often trigger skin changes like acne.",
     ),
-
     QuizQuestion(
       question: "8. Why is personal hygiene very important during puberty?",
       options: [
@@ -5875,7 +7301,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Increased sweat and hormonal changes require extra cleanliness to stay healthy.",
     ),
-
     QuizQuestion(
       question: "9. Sperm production in boys is triggered by:",
       options: ["Oestrogen.", "Exercise.", "Vitamin C.", "Testosterone."],
@@ -5884,7 +7309,6 @@ final QuizModel RMEjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Testosterone triggers the development of sperm in the testes.",
     ),
-
     QuizQuestion(
       question: "10. Feeling a desire for independence from parents is a/an:",
       options: [
@@ -5915,7 +7339,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "These rites mark the transition into adult life.",
     ),
-
     QuizQuestion(
       question: "2. An Akan girl undergoing puberty rites is called:",
       options: ["Brani.", "Dipoyo.", "Ohoho.", "Sunna."],
@@ -5923,7 +7346,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The initiate is referred to as Brani or Sakyima.",
     ),
-
     QuizQuestion(
       question: "3. The sacred stone ceremony of the Krobo is known as:",
       options: ["Te-kwomi.", "Anoka.", "Ti-yi.", "Ndaase."],
@@ -5932,7 +7354,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Te-kwomi is the climax of the Dipo where the girl sits on the stone.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of these is a moral lesson taught during puberty rites?",
@@ -5946,7 +7367,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Chastity is highly valued and promoted during these rites.",
     ),
-
     QuizQuestion(
       question: "5. The Sodji-Wi is a puberty rite for boys among the:",
       options: ["Akans.", "Chala.", "Ga.", "Dagombas."],
@@ -5954,7 +7374,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       difficulty: "High",
       explanation: "Sodji-Wi is the male initiation rite for the Chala people.",
     ),
-
     QuizQuestion(
       question: "6. During Bragoro, the ritual bath usually takes place at:",
       options: [
@@ -5968,7 +7387,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       explanation:
           "The initiate is taken to the riverside for the ritual bath.",
     ),
-
     QuizQuestion(
       question: "7. What does the Queen Mother's physical examination prove?",
       options: [
@@ -5982,7 +7400,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       explanation:
           "The examination ensures the girl has maintained her purity.",
     ),
-
     QuizQuestion(
       question: "8. The mashed yam used in Akan rites is called:",
       options: ["Fufuo.", "Banku.", "Ɛto.", "Jollof."],
@@ -5991,7 +7408,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       explanation:
           "Ɛto is the traditional mashed yam served during the ceremony.",
     ),
-
     QuizQuestion(
       question:
           "9. Who provides the primary training for boys during Sisala initiation?",
@@ -6005,7 +7421,6 @@ final QuizModel RMEjhs2s2ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Boys learn from their fathers and male elders.",
     ),
-
     QuizQuestion(
       question: "10. A girl who successfully completes puberty rites:",
       options: [
@@ -6037,7 +7452,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "In Ghana, marriage involves both the couple and their respective families.",
     ),
-
     QuizQuestion(
       question: "2. The knocking ceremony is performed to:",
       options: [
@@ -6051,7 +7465,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "It is the first formal step to inform the woman's family of the man's interest.",
     ),
-
     QuizQuestion(
       question: "3. 'Tiri Nsa' literally means:",
       options: [
@@ -6065,7 +7478,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Tiri Nsa is the customary drink that traditionally seals the marriage contract.",
     ),
-
     QuizQuestion(
       question: "4. Why is courtship important in Christian marriage?",
       options: [
@@ -6079,7 +7491,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Courtship allows the man and woman to learn about each other before committing.",
     ),
-
     QuizQuestion(
       question: "5. In Islam, the 'Walima' is:",
       options: [
@@ -6093,7 +7504,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Walima is the merry-making and feasting that follows the Al-Nikah.",
     ),
-
     QuizQuestion(
       question:
           "6. Which family member usually represents the bride in Islamic rites?",
@@ -6108,7 +7518,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "The Wali is the legal representative of the bride in Islam.",
     ),
-
     QuizQuestion(
       question: "7. The 'Tiri Nsa' traditionally consists of:",
       options: [
@@ -6122,7 +7531,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Customary rites usually involve palm wine or schnapps for libation.",
     ),
-
     QuizQuestion(
       question: "8. One importance of marriage rites is to:",
       options: [
@@ -6136,7 +7544,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Marriage rites encourage moral behaviour and responsible parenthood.",
     ),
-
     QuizQuestion(
       question:
           "9. Among the Akans, the secret meeting between a man and woman is called:",
@@ -6146,7 +7553,6 @@ final QuizModel RMEjhs2s2ss1Lesson4QuizData = QuizModel(
       explanation:
           "Kasaasie is the initial stage where the couple discusses their intentions privately.",
     ),
-
     QuizQuestion(
       question: "10. What is 'Akontagye sekán'?",
       options: [
@@ -6179,7 +7585,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Death is the final transition in the human life cycle on earth.",
     ),
-
     QuizQuestion(
       question: "2. The Islamic Janazah prayer is performed:",
       options: [
@@ -6193,7 +7598,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "The prayer is said after ritual bath and before the burial.",
     ),
-
     QuizQuestion(
       question: "3. 'Asaase Yaa' refers to:",
       options: [
@@ -6207,7 +7611,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of these is a cause of death mentioned in the curriculum?",
@@ -6221,7 +7624,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Old age is considered a natural cause of death.",
     ),
-
     QuizQuestion(
       question: "5. In Christianity, a 'wake keeping' is usually held on:",
       options: [
@@ -6235,7 +7637,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Wake keeping is typically the Friday night service before the Saturday funeral.",
     ),
-
     QuizQuestion(
       question: "6. Why do Muslims wrap the deceased in plain white calico?",
       options: [
@@ -6249,7 +7650,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Islam teaches simplicity and that all people return to Allah in the same way.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
@@ -6264,7 +7664,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Rites ensure the spirit is welcomed in the ancestral world.",
     ),
-
     QuizQuestion(
       question: "8. Christian funeral donations are meant to:",
       options: [
@@ -6278,7 +7677,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Donations from sympathizers help support the bereaved family.",
     ),
-
     QuizQuestion(
       question: "9. The 40th-day prayer is a characteristic of:",
       options: [
@@ -6292,7 +7690,6 @@ final QuizModel RMEjhs2s2ss1Lesson5QuizData = QuizModel(
       explanation:
           "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
     ),
-
     QuizQuestion(
       question:
           "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
@@ -6326,7 +7723,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Death is the final transition in the human life cycle on earth.",
     ),
-
     QuizQuestion(
       question: "2. The Islamic Janazah prayer is performed:",
       options: [
@@ -6340,7 +7736,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "The prayer is said after ritual bath and before the burial.",
     ),
-
     QuizQuestion(
       question: "3. 'Asaase Yaa' refers to:",
       options: [
@@ -6354,7 +7749,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of these is a cause of death mentioned in the curriculum?",
@@ -6368,7 +7762,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Old age is considered a natural cause of death.",
     ),
-
     QuizQuestion(
       question: "5. In Christianity, a 'wake keeping' is usually held on:",
       options: [
@@ -6382,7 +7775,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Wake keeping is typically the Friday night service before the Saturday funeral.",
     ),
-
     QuizQuestion(
       question: "6. Why do Muslims wrap the deceased in plain white calico?",
       options: [
@@ -6396,7 +7788,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Islam teaches simplicity and that all people return to Allah in the same way.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
@@ -6411,7 +7802,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Rites ensure the spirit is welcomed in the ancestral world.",
     ),
-
     QuizQuestion(
       question: "8. Christian funeral donations are meant to:",
       options: [
@@ -6425,7 +7815,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Donations from sympathizers help support the bereaved family.",
     ),
-
     QuizQuestion(
       question: "9. The 40th-day prayer is a characteristic of:",
       options: [
@@ -6439,7 +7828,6 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       explanation:
           "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
     ),
-
     QuizQuestion(
       question:
           "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
@@ -6472,7 +7860,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Authority is legitimate power over others.",
     ),
-
     QuizQuestion(
       question: "2. Which group of people gets authority through tradition?",
       options: [
@@ -6486,7 +7873,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Traditional leaders gain power through customs and bloodlines.",
     ),
-
     QuizQuestion(
       question:
           "3. An official who uses their position to help only their friends is guilty of:",
@@ -6500,7 +7886,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Helping only relatives and friends is a misuse of power.",
     ),
-
     QuizQuestion(
       question: "4. The President of Ghana derives his authority from the:",
       options: [
@@ -6513,7 +7898,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The Constitution defines the powers of national leaders.",
     ),
-
     QuizQuestion(
       question: "5. Why do we say parents have authority at home?",
       options: [
@@ -6526,7 +7910,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Parenthood involves bringing up and caring for others.",
     ),
-
     QuizQuestion(
       question: "6. Which source of authority is based on the Holy Books?",
       options: ["Elections", "Scriptures", "The Constitution", "Tradition"],
@@ -6535,7 +7918,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Scriptures like the Bible and Qur'an provide authority for religious leaders.",
     ),
-
     QuizQuestion(
       question: "7. A leader who acts as a role model for others is:",
       options: [
@@ -6549,7 +7931,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Being a role model is a positive and right use of authority.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is an example of authority in the school?",
       options: [
@@ -6563,7 +7944,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Prefects are recognized authorities within the school setting.",
     ),
-
     QuizQuestion(
       question:
           "9. 'Amassing wealth at the expense of others' is a wrong use of authority because:",
@@ -6578,7 +7958,6 @@ final QuizModel RMEjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Selfish gain at the expense of others is a direct violation of the purpose of authority.",
     ),
-
     QuizQuestion(
       question:
           "10. How does an Assembly Member typically get their authority?",
@@ -6611,7 +7990,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Obedience prevents conflicts and allows people to live together in peace.",
     ),
-
     QuizQuestion(
       question: "2. In RME, we learn that the Holy Quran (4:59) tells us to:",
       options: [
@@ -6625,7 +8003,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "The Quran explicitly commands obedience to God and those in leadership.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of the following is a consequence of DISOBEYING authority?",
@@ -6640,7 +8017,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Disobedience leads to disorder and hinders the development of a community.",
     ),
-
     QuizQuestion(
       question: "4. Why do we obey school rules?",
       options: [
@@ -6654,7 +8030,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "School rules are meant to ensure good behavior and proper conditions for learning.",
     ),
-
     QuizQuestion(
       question:
           "5. Which Ghanaian proverb emphasizes the importance of authority?",
@@ -6669,7 +8044,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Without the guidance of elders or authority, one may face trouble.",
     ),
-
     QuizQuestion(
       question: "6. How does obedience to parents benefit a child?",
       options: [
@@ -6683,7 +8057,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Parents use their authority and experience to guide and protect their children.",
     ),
-
     QuizQuestion(
       question:
           "7. A person who apologizes for committing an offence is showing that they are:",
@@ -6698,7 +8071,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Acknowledging a mistake shows respect for law and authority.",
     ),
-
     QuizQuestion(
       question: "8. Obedience to the laws of the state helps us become:",
       options: [
@@ -6712,7 +8084,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Following national laws shows love and respect for one's country.",
     ),
-
     QuizQuestion(
       question: "9. Conflict in society is best resolved by:",
       options: [
@@ -6725,7 +8096,6 @@ final QuizModel RMEjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "High",
       explanation: "Tolerance and forgiveness help maintain peace in society.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the primary reason the Bible advises us to obey authority (Romans 13:1)?",
@@ -6758,7 +8128,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Household chores are a standard responsibility for children at home.",
     ),
-
     QuizQuestion(
       question: "2. How do we show respect for the Ghanaian currency?",
       options: [
@@ -6772,7 +8141,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Respect for national symbols includes the proper handling of currency.",
     ),
-
     QuizQuestion(
       question:
           "3. A student who attends all school gatherings like assembly is being:",
@@ -6787,7 +8155,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Regular attendance at school meetings is a sign of discipline.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is a religious regulation?",
       options: [
@@ -6801,7 +8168,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Proper dress code is an important regulation for religious gatherings.",
     ),
-
     QuizQuestion(
       question: "5. Why should we avoid littering our neighbourhoods?",
       options: [
@@ -6815,7 +8181,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Not littering helps maintain a safe and healthy environment.",
     ),
-
     QuizQuestion(
       question: "6. What does it mean to 'defend the constitution' of Ghana?",
       options: [
@@ -6829,7 +8194,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       explanation:
           "Citizens must uphold and protect the supreme law of the country.",
     ),
-
     QuizQuestion(
       question: "7. Showing respect for the elderly in the community includes:",
       options: [
@@ -6842,7 +8206,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Helping elders is a key cultural value in Ghana.",
     ),
-
     QuizQuestion(
       question: "8. Punctuality to work or school is important because it:",
       options: [
@@ -6855,7 +8218,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Being on time ensures proper progress in school or work.",
     ),
-
     QuizQuestion(
       question: "9. Which of the following is an example of 'communal work'?",
       options: [
@@ -6868,7 +8230,6 @@ final QuizModel RMEjhs2s3ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Communal work benefits the whole community.",
     ),
-
     QuizQuestion(
       question:
           "10. A child who refuses to bully their younger siblings is applying:",
@@ -6901,7 +8262,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Moses' name means 'drawn out of water' because he was found in the Nile.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a core role of a prophet?",
       options: [
@@ -6914,7 +8274,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "A prophet delivers God's message to people.",
     ),
-
     QuizQuestion(
       question:
           "3. Why did God decide to send the great flood in the time of Noah?",
@@ -6929,7 +8288,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "God saw that the wickedness of man was great and the earth was corrupt.",
     ),
-
     QuizQuestion(
       question:
           "4. Who was the brother God gave to Moses to help him speak to Pharaoh?",
@@ -6939,7 +8297,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "God sent Aaron to help Moses speak because Moses felt he was not eloquent.",
     ),
-
     QuizQuestion(
       question: "5. What was the name of Abraham's wife?",
       options: ["Miriam", "Sarah", "Zipporah", "Hagar"],
@@ -6947,7 +8304,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Abraham’s wife Sarai was later called Sarah.",
     ),
-
     QuizQuestion(
       question:
           "6. The story of Prophet Noah can be found in which two holy books?",
@@ -6960,7 +8316,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Noah’s story appears in both the Bible and the Quran.",
     ),
-
     QuizQuestion(
       question: "7. How many plagues did God perform in Egypt through Moses?",
       options: ["Five", "Seven", "Ten", "Twelve"],
@@ -6969,7 +8324,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "God sent ten plagues to Egypt to force Pharaoh to release the Israelites.",
     ),
-
     QuizQuestion(
       question: "8. What does the name 'Abraham' mean?",
       options: [
@@ -6983,7 +8337,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "God renamed Abram to Abraham meaning 'father of many nations'.",
     ),
-
     QuizQuestion(
       question:
           "9. Which prophet was asked by God to sacrifice his only son as a test?",
@@ -6993,7 +8346,6 @@ final QuizModel RMEjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "God tested Abraham’s faith by asking him to sacrifice his son.",
     ),
-
     QuizQuestion(
       question: "10. What was Moses doing when he saw the burning bush?",
       options: [
@@ -7019,7 +8371,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Khalifah means a successor or leader of the community.",
     ),
-
     QuizQuestion(
       question:
           "2. How many 'Rightly Guided Caliphs' are recognised in mainstream Islamic history?",
@@ -7029,7 +8380,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "The four rightly guided Caliphs are Abu Bakr, Umar, Usman, and Ali.",
     ),
-
     QuizQuestion(
       question: "3. Abu Bakr was given the title 'Al-Saddiq' because of his:",
       options: [
@@ -7042,7 +8392,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Al-Saddiq means the most truthful and sincere person.",
     ),
-
     QuizQuestion(
       question: "4. Which Caliph was the father-in-law of Prophet Muhammad?",
       options: [
@@ -7055,7 +8404,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Both Abu Bakr and Umar were fathers-in-law of the Prophet.",
     ),
-
     QuizQuestion(
       question: "5. What was a major contribution of Caliph Usman Ibn Affan?",
       options: [
@@ -7068,7 +8416,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Usman ensured a uniform version of the Holy Quran.",
     ),
-
     QuizQuestion(
       question:
           "6. Which Caliph is known for his excellence in Arabic scholarship and writing?",
@@ -7082,7 +8429,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Ali was known for his deep knowledge and eloquence.",
     ),
-
     QuizQuestion(
       question: "7. Who served as the second Caliph?",
       options: [
@@ -7095,7 +8441,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Umar succeeded Abu Bakr as the second Caliph.",
     ),
-
     QuizQuestion(
       question:
           "8. Before becoming Caliph, Abu Bakr was famous for being a successful:",
@@ -7104,7 +8449,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Abu Bakr was a respected and honest businessman.",
     ),
-
     QuizQuestion(
       question: "9. Which Caliph was given the nickname 'Owner of Two Lights'?",
       options: [
@@ -7118,7 +8462,6 @@ final QuizModel RMEjhs2s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Usman married two daughters of the Prophet, earning this title.",
     ),
-
     QuizQuestion(
       question: "10. What did Caliph Umar do to ensure fair governance?",
       options: [
@@ -7146,7 +8489,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Noah showed great perseverance by working on the Ark for many years until it was finished.",
     ),
-
     QuizQuestion(
       question: "2. Why is Caliph Abu Bakr considered a model of sacrifice?",
       options: [
@@ -7160,7 +8502,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Abu Bakr was known for his selflessness and giving everything he had to support Islam.",
     ),
-
     QuizQuestion(
       question:
           "3. Which leader taught us to be 'peace lovers' by avoiding conflicts and settling disputes?",
@@ -7170,7 +8511,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Abraham was known for his peaceful nature and resolving conflicts quietly.",
     ),
-
     QuizQuestion(
       question: "4. Caliph Usman's nickname, 'Ghani', refers to his:",
       options: [
@@ -7184,7 +8524,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Usman was called 'Ghani' because of his wealth and generosity in helping others.",
     ),
-
     QuizQuestion(
       question:
           "5. Moses' refusal to accept the injustice done to his people is an example of:",
@@ -7194,7 +8533,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Moses showed courage by standing up against Pharaoh for justice.",
     ),
-
     QuizQuestion(
       question:
           "6. Which of these is a lesson we can learn from the life of Caliph Ali?",
@@ -7208,7 +8546,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Ali was known for his wisdom, piety, and bravery.",
     ),
-
     QuizQuestion(
       question:
           "7. A person who remains calm and waits for God's timing, like Abraham waiting for a son, shows:",
@@ -7218,7 +8555,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "Patience is a key virtue shown by prophets during difficult times.",
     ),
-
     QuizQuestion(
       question:
           "8. Which leader's life teaches us to be truthful and honest in our business dealings?",
@@ -7228,7 +8564,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       explanation:
           "All the Rightly Guided Caliphs were known for honesty and sincerity.",
     ),
-
     QuizQuestion(
       question: "9. The rainbow given to Noah is a symbol of a:",
       options: [
@@ -7241,7 +8576,6 @@ final QuizModel RMEjhs2s4ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The rainbow represents God's promise of peace to humanity.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the most important reason for JHS students to study these leaders?",
@@ -7275,7 +8609,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "This commandment is known for its promise of long life in the land.",
     ),
-
     QuizQuestion(
       question: "2. In Islam, 'Social Justice' means that:",
       options: [
@@ -7289,7 +8622,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Islam teaches fairness and equal rights for all people in society.",
     ),
-
     QuizQuestion(
       question: "3. Which of these is an example of a 'Royal Taboo' in Ghana?",
       options: [
@@ -7303,7 +8635,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "It is a taboo for a chief to walk barefooted as it preserves dignity and respect.",
     ),
-
     QuizQuestion(
       question:
           "4. Jesus taught that his followers should be 'Salt' and 'Light' to:",
@@ -7318,7 +8649,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Being 'light' means letting good actions guide others toward righteousness.",
     ),
-
     QuizQuestion(
       question: "5. The proverb 'Two heads are better than one' emphasizes:",
       options: [
@@ -7331,7 +8661,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Working together leads to better ideas and solutions.",
     ),
-
     QuizQuestion(
       question:
           "6. Which religious book contains the teaching 'Surely Allah enjoys justice, kindness, and the doing of good'?",
@@ -7345,7 +8674,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "This teaching is found in Surah 16:90 of the Holy Qur’an.",
     ),
-
     QuizQuestion(
       question: "7. A 'taboo' can best be described as:",
       options: [
@@ -7359,7 +8687,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Taboos are actions that are socially or culturally forbidden.",
     ),
-
     QuizQuestion(
       question: "8. The Parable of the Prodigal Son primarily teaches:",
       options: [
@@ -7373,7 +8700,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "The story shows forgiveness and acceptance after repentance.",
     ),
-
     QuizQuestion(
       question: "9. Why are 'Sacred Place Taboos' important?",
       options: [
@@ -7387,7 +8713,6 @@ final QuizModel RMEjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "These taboos protect sacred places from disrespect and harm.",
     ),
-
     QuizQuestion(
       question:
           "10. Which value is shared by all three major religions in Ghana?",
@@ -7421,7 +8746,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Choosing not to take what isn't yours is the direct application of 'You shall not steal'.",
     ),
-
     QuizQuestion(
       question:
           "2. In the 'Salt and Light' teaching, how does a student show they are 'Salt'?",
@@ -7436,7 +8760,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Salt adds value, so students should positively impact others' lives.",
     ),
-
     QuizQuestion(
       question:
           "3. Which action shows the application of the proverb 'Unity is strength'?",
@@ -7450,7 +8773,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Working together leads to stronger results.",
     ),
-
     QuizQuestion(
       question:
           "4. How can a student apply Islamic teachings on 'Duty to Parents' at home?",
@@ -7465,7 +8787,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Islam emphasizes respect, kindness, and good manners toward parents.",
     ),
-
     QuizQuestion(
       question: "5. Respecting a 'Sacred Place Taboo' might involve:",
       options: [
@@ -7479,7 +8800,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Sacred taboos protect important spiritual and environmental areas.",
     ),
-
     QuizQuestion(
       question:
           "6. If someone insults you, applying the 'Sermon on the Mount' means you should:",
@@ -7494,7 +8814,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Jesus taught love, forgiveness, and responding peacefully to wrongdoing.",
     ),
-
     QuizQuestion(
       question:
           "7. A student who uses their pocket money to buy a sachet of water for a thirsty beggar is demonstrating:",
@@ -7504,7 +8823,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Helping others in need reflects kindness, generosity, and compassion.",
     ),
-
     QuizQuestion(
       question:
           "8. Following the 'Food Taboo' of not eating pork if it is against your religion shows:",
@@ -7519,7 +8837,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "Obeying dietary laws is part of religious discipline and faith.",
     ),
-
     QuizQuestion(
       question:
           "9. The proverb 'Had I known is always at last' warns us to apply:",
@@ -7529,7 +8846,6 @@ final QuizModel RMEjhs2s5ss1Lesson2QuizData = QuizModel(
       explanation:
           "It teaches us to think carefully before acting to avoid future regret.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the ultimate benefit of everyone applying these moral teachings in Ghana?",
@@ -7559,7 +8875,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Money is defined as anything accepted as a medium of exchange.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is the highest denomination of cedi notes in Ghana?",
@@ -7569,7 +8884,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "The 200 cedi note is currently the highest denomination in circulation.",
     ),
-
     QuizQuestion(
       question: "3. 'Legal tender' means that:",
       options: [
@@ -7583,7 +8897,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Legal tender is money that must be accepted by law in payment of debts.",
     ),
-
     QuizQuestion(
       question: "4. Money must be able to last a long time. This is known as:",
       options: ["Portability", "Acceptability", "Scarcity", "Durability"],
@@ -7591,7 +8904,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Durability ensures money does not wear out easily.",
     ),
-
     QuizQuestion(
       question: "5. How does money help the government or religious groups?",
       options: [
@@ -7604,7 +8916,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Money supports development and charitable activities.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is NOT a Ghanaian coin?",
       options: ["10 Pesewas", "25 Pesewas", "50 Pesewas", "1 Cedi"],
@@ -7613,7 +8924,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "Ghana uses coins like 1, 5, 10, 20, and 50 pesewas—not 25 pesewas.",
     ),
-
     QuizQuestion(
       question:
           "7. Using money to buy a school uniform is an example of using money for:",
@@ -7622,7 +8932,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "School expenses fall under educational use of money.",
     ),
-
     QuizQuestion(
       question: "8. When money is scarce, it means:",
       options: [
@@ -7635,7 +8944,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "High",
       explanation: "Scarcity means limited supply, which helps maintain value.",
     ),
-
     QuizQuestion(
       question: "9. Why is 'Acceptability' important for money?",
       options: [
@@ -7648,7 +8956,6 @@ final QuizModel RMEjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Money must be accepted by people to function effectively.",
     ),
-
     QuizQuestion(
       question:
           "10. In the olden days, before modern money, what did people in Ghana use?",
@@ -7681,7 +8988,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Religions teach that God provides the ability, skills, and resources needed to earn wealth.",
     ),
-
     QuizQuestion(
       question: "2. What does 'Sakawa' refer to in the Ghanaian context?",
       options: [
@@ -7695,7 +9001,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Sakawa refers to cyber-related fraud and dishonest ways of making money.",
     ),
-
     QuizQuestion(
       question:
           "3. According to the Qur'an (53:39-41), what is the reward for a hardworking person?",
@@ -7710,7 +9015,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "The Qur'an promises full reward for those who strive and work hard.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is an example of 'Stewardship'?",
       options: [
@@ -7724,7 +9028,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Stewardship means responsibly taking care of what belongs to others.",
     ),
-
     QuizQuestion(
       question:
           "5. The Akan proverb 'One cannot be feasting and at the same time become rich' encourages:",
@@ -7733,7 +9036,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It teaches delaying pleasure and saving for the future.",
     ),
-
     QuizQuestion(
       question:
           "6. Why does dishonest acquisition of money bring 'chaos' to society?",
@@ -7747,7 +9049,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Dishonesty breaks trust and causes disorder in society.",
     ),
-
     QuizQuestion(
       question:
           "7. Muslims are generally warned against which of the following unless it is very necessary?",
@@ -7757,7 +9058,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Islam discourages begging and encourages self-reliance through work.",
     ),
-
     QuizQuestion(
       question:
           "8. 'Poverty causes one to think creatively.' This teaching encourages people to:",
@@ -7772,7 +9072,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Creativity helps people find solutions and improve their situation.",
     ),
-
     QuizQuestion(
       question: "9. What is the Christian view on gambling?",
       options: [
@@ -7785,7 +9084,6 @@ final QuizModel RMEjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Christian teachings warn against greed and dishonest gain.",
     ),
-
     QuizQuestion(
       question:
           "10. Failing to pay an employee's social security (SSNIT) is dishonest because:",
@@ -7812,7 +9110,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "A budget is a plan for how income will be used.",
     ),
-
     QuizQuestion(
       question:
           "2. According to religious teachings, why should children take care of their parents?",
@@ -7827,7 +9124,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Religions teach gratitude and caring for parents who raised us.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of the following is an appropriate way to use money to promote God's work?",
@@ -7842,7 +9138,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Supporting religious activities and infrastructure is considered a good use of money.",
     ),
-
     QuizQuestion(
       question: "4. What does 'lavish spending' mean?",
       options: [
@@ -7856,7 +9151,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Lavish spending means using money excessively beyond one's needs.",
     ),
-
     QuizQuestion(
       question: "5. To use money wisely, you should avoid buying on:",
       options: ["Mondays", "Holiday", "Cash", "Credit"],
@@ -7864,7 +9158,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Buying on credit can lead to debt beyond your income.",
     ),
-
     QuizQuestion(
       question: "6. Giving money to build a school is an example of:",
       options: [
@@ -7877,7 +9170,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Helping to build schools benefits the community.",
     ),
-
     QuizQuestion(
       question:
           "7. The phrase 'the father is a shield for the family' comes from:",
@@ -7892,7 +9184,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "It is a traditional Ghanaian teaching about family protection.",
     ),
-
     QuizQuestion(
       question:
           "8. When you squander money for heirs to pay off debts, you are:",
@@ -7907,7 +9198,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Wasting money irresponsibly creates problems for dependents.",
     ),
-
     QuizQuestion(
       question: "9. Why is a priority list important in budgeting?",
       options: [
@@ -7920,7 +9210,6 @@ final QuizModel RMEjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It helps ensure important needs are met first.",
     ),
-
     QuizQuestion(
       question:
           "10. Which religion warns against the exploitation of the poor and weak?",
@@ -7953,7 +9242,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "SSNIT is the official name of Ghana's national pension scheme.",
     ),
-
     QuizQuestion(
       question:
           "2. What is the total combined contribution rate remitted to SSNIT for a worker's Tier 1 and Tier 2?",
@@ -7963,7 +9251,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "18.5% is the total contribution from employer and employee.",
     ),
-
     QuizQuestion(
       question:
           "3. To qualify for an invalidity pension, a worker must be certified by:",
@@ -7978,7 +9265,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "Only a certified medical board can confirm inability to work.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of the following is an effect of not paying SSNIT contributions?",
@@ -7992,7 +9278,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Failure to pay SSNIT contributions is a legal offense.",
     ),
-
     QuizQuestion(
       question:
           "5. How many months of contributions are required in the last 36 months to qualify for an invalidity pension?",
@@ -8002,7 +9287,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "At least 12 months of contributions are required within the last 36 months.",
     ),
-
     QuizQuestion(
       question: "6. Which role must the employee perform regarding SSNIT?",
       options: [
@@ -8015,7 +9299,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Each worker must register and obtain a SSNIT number.",
     ),
-
     QuizQuestion(
       question: "7. The 'Survivors Lump Sum' is paid when:",
       options: [
@@ -8028,7 +9311,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It supports the family after the death of a contributor.",
     ),
-
     QuizQuestion(
       question: "8. SSNIT helps employees lead a better life:",
       options: [
@@ -8041,7 +9323,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "SSNIT provides long-term financial security.",
     ),
-
     QuizQuestion(
       question:
           "9. An employer contributes what percentage from their own funds toward the worker's basic salary?",
@@ -8050,7 +9331,6 @@ final QuizModel RMEjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The employer contributes 13% toward SSNIT.",
     ),
-
     QuizQuestion(
       question:
           "10. Why is the SSNIT scheme considered a form of 'stewardship'?",
@@ -8082,7 +9362,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Bribery is done to gain dishonest advantage or favors.",
     ),
-
     QuizQuestion(
       question:
           "2. A public official who uses his office to enrich himself is being...",
@@ -8091,7 +9370,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Corruption involves using power for personal gain.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is a specific example of corruption in the Ghanaian construction sector?",
@@ -8105,7 +9383,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Fake receipts are used to steal public funds illegally.",
     ),
-
     QuizQuestion(
       question: "4. Bribery is considered 'immoral' because it...",
       options: [
@@ -8118,7 +9395,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Bribery goes against moral and ethical standards.",
     ),
-
     QuizQuestion(
       question: "5. Failing to pay taxes to the state is an act of...",
       options: [
@@ -8131,7 +9407,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Tax evasion is considered corruption against the state.",
     ),
-
     QuizQuestion(
       question:
           "6. What is the term for stealing money from one's own employer?",
@@ -8140,7 +9415,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Embezzlement is theft of funds entrusted to you.",
     ),
-
     QuizQuestion(
       question:
           "7. Favoring a friend for a job regardless of merit is called...",
@@ -8149,7 +9423,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Favoritism ignores fairness and merit.",
     ),
-
     QuizQuestion(
       question:
           "8. Which institution in Ghana handles social security contributions often affected by corruption?",
@@ -8158,7 +9431,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "SSNIT manages workers' pension contributions.",
     ),
-
     QuizQuestion(
       question: "9. Bribery involves persuading someone to do something...",
       options: ["Efficient", "Helpful", "Dishonest", "Public"],
@@ -8166,7 +9438,6 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Bribery leads to dishonest or illegal actions.",
     ),
-
     QuizQuestion(
       question: "10. A corrupt person is often described as being...",
       options: [
@@ -8197,7 +9468,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Greed is a major internal driver of corrupt behaviour.",
     ),
-
     QuizQuestion(
       question: "2. How does corruption affect state resources?",
       options: [
@@ -8210,7 +9480,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Public funds are often diverted for private use.",
     ),
-
     QuizQuestion(
       question:
           "3. An official who takes money because there is no one to check his work is influenced by...",
@@ -8224,7 +9493,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Lack of oversight encourages corruption.",
     ),
-
     QuizQuestion(
       question:
           "4. Which effect describes a decrease in the quality and amount of work done in the country?",
@@ -8238,7 +9506,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Corruption leads to inefficiency and poor output.",
     ),
-
     QuizQuestion(
       question: "5. A high dependency ratio means...",
       options: [
@@ -8251,7 +9518,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Financial pressure can push individuals toward corruption.",
     ),
-
     QuizQuestion(
       question:
           "6. Corruption 'tarnishes the reputation' of Ghana. This means...",
@@ -8265,7 +9531,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Corruption damages a country's image globally.",
     ),
-
     QuizQuestion(
       question:
           "7. The desire to buy a luxury car overnight without working for it is called a...",
@@ -8279,7 +9544,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "This mindset encourages illegal shortcuts.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is NOT an effect of corruption?",
       options: [
@@ -8292,7 +9556,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Corruption reduces honesty, not increases it.",
     ),
-
     QuizQuestion(
       question:
           "9. When inflation is high and people cannot afford basic goods, this is called...",
@@ -8306,7 +9569,6 @@ final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "High cost of living increases financial pressure.",
     ),
-
     QuizQuestion(
       question:
           "10. Corruption is described as 'retarding' development. What does 'retard' mean here?",
@@ -8341,7 +9603,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Humankind has the ability to invent technology, showing we share in God's creative nature.",
     ),
-
     QuizQuestion(
       question:
           "2. Which animal is commonly used in Ghana for security and protection?",
@@ -8351,7 +9612,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Dogs are widely used by households and security agencies for protection.",
     ),
-
     QuizQuestion(
       question: "3. The moon and stars are useful for:",
       options: [
@@ -8364,7 +9624,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "They help humans calculate time, seasons, and years.",
     ),
-
     QuizQuestion(
       question:
           "4. What is the purpose of the sun in the process of photosynthesis?",
@@ -8379,7 +9638,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Plants use the sun’s energy to make food through photosynthesis.",
     ),
-
     QuizQuestion(
       question: "5. Humankind ensures the 'continuity of human creation' by:",
       options: [
@@ -8392,7 +9650,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Procreation ensures the continuation of the human race.",
     ),
-
     QuizQuestion(
       question: "6. Which of the following is an industrial use of water?",
       options: [
@@ -8406,7 +9663,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Industries like breweries use water to manufacture products.",
     ),
-
     QuizQuestion(
       question: "7. Plants like grasses are grown specifically to:",
       options: [
@@ -8419,7 +9675,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Grasses help prevent soil erosion.",
     ),
-
     QuizQuestion(
       question:
           "8. According to the curriculum, what is the role of animals like donkeys and bulls?",
@@ -8433,7 +9688,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "They are used to transport goods and people.",
     ),
-
     QuizQuestion(
       question:
           "9. Why did God give humankind 'dominion' over all other creations?",
@@ -8448,7 +9702,6 @@ final QuizModel RMEjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Dominion means humans are responsible for caring for the environment.",
     ),
-
     QuizQuestion(
       question:
           "10. Which part of creation is used for extracting minerals like gold and bauxite?",
@@ -8464,137 +9717,133 @@ final QuizModel RMEjhs3s1ss1Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "God created humankind to share in His creative activity through:",
+          "1. The 'complex nature of God' means that His ways and nature:",
       options: [
-        "Worshipping other creatures",
-        "Inventing new technology",
-        "Destroying water bodies",
-        "Living alone in the forest",
+        "Are very easy for everyone to understand.",
+        "Are beyond human understanding and are mysterious.",
+        "Do not exist in the physical world.",
+        "Are only found in textbooks."
       ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Humankind has the ability to invent technology, showing we share in God's creative nature.",
+          "God's nature is complex and mysterious, and cannot be easily understood by humans.",
     ),
-
     QuizQuestion(
       question:
-          "Which animal is commonly used in Ghana for security and protection?",
-      options: ["Goat", "Cow", "Dog", "Chicken"],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation:
-          "Animals like dogs are used by households and security agencies for protection.",
-    ),
-
-    QuizQuestion(
-      question: "The moon and stars are useful for:",
+          "2. Which of these provides constant testimony to the existence and provision of God?",
       options: [
-        "Providing energy for photosynthesis",
-        "Drying fishes for preservation",
-        "Calculation of times and seasons",
-        "Mining gold and bauxite",
+        "Man-made cars.",
+        "The buildings in our cities.",
+        "The price of goods at Kejetia market.",
+        "The shining of the sun in the sky."
       ],
-      correctIndex: 2,
+      correctIndex: 3,
       difficulty: "Easy",
       explanation:
-          "The moon and stars help humans calculate years, seasons, and time.",
+          "The sun's constant presence testifies to God's existence and His role as a Provider.",
     ),
-
     QuizQuestion(
-      question:
-          "What is the purpose of the sun in the process of photosynthesis?",
+      question: "3. How does the weaver bird's nest reveal God's nature?",
       options: [
-        "It provides light for humans to see at night",
-        "It provides energy for plants to produce their own food",
-        "It helps humans extract salt from the sea",
-        "It provides shade for animals",
+        "It shows God is a hard worker.",
+        "It shows the beauty and design in creation.",
+        "It shows that birds are smarter than humans.",
+        "It shows that God lives in nests."
       ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Plants use the sun's energy to make food through photosynthesis.",
+          "The intricate design of things like nests shows God's nature as a designer.",
     ),
-
     QuizQuestion(
-      question: "Humankind ensures the 'continuity of human creation' by:",
+      question: "4. The heavens are said to be a 'declaration' of:",
       options: [
-        "Working in factories",
-        "Marrying and having children",
-        "Planting more trees",
-        "Building houses on land",
+        "The coming of rain.",
+        "God's glory and existence.",
+        "The end of the year.",
+        "Human technology."
       ],
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-          "Procreation allows the human race to continue on earth as God intended.",
+          "The heavens declare God's glory and serve as a sign of His existence.",
     ),
-
     QuizQuestion(
-      question: "Which of the following is an industrial use of water?",
+      question: "5. When humans and plants help each other, it is called:",
       options: [
-        "Cooking and drinking at home",
-        "Watering crops on a farm",
-        "Manufacturing drinks in breweries",
-        "Providing a home for fish",
+        "Competition.",
+        "Independence.",
+        "Interdependence.",
+        "Destruction."
       ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-          "Industries like breweries use large amounts of water for production.",
+          "Interdependence is the caring nature of God shown through creatures depending on each other.",
     ),
-
     QuizQuestion(
-      question: "Plants like grasses are grown specifically to:",
+      question: "6. God's 'Omnipresence' means:",
       options: [
-        "Provide leather for shoes",
-        "Reduce soil erosion",
-        "Generate electricity",
-        "Provide light during the day",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Grasses help prevent or reduce soil erosion.",
-    ),
-
-    QuizQuestion(
-      question:
-          "According to the curriculum, what is the role of animals like donkeys and bulls?",
-      options: [
-        "They provide light at night",
-        "They are used as a means of transport",
-        "They help in the formation of rain",
-        "They serve as stewards of the earth",
+        "God is only in one place.",
+        "God is everywhere at the same time.",
+        "God is only found in the sun.",
+        "God is only present during the day."
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "Donkeys and bulls are used to transport goods and people from place to place.",
+      explanation: "Omnipresence refers to God being present everywhere.",
     ),
-
     QuizQuestion(
       question:
-          "Why did God give humankind 'dominion' over all other creations?",
+          "7. The harmony found in different kinds of birds and insects shows God's:",
+      options: ["Orderliness.", "Strength.", "Anger.", "Loneliness."],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The beauty and harmony in various creatures display God's orderliness.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is the composition of the atmosphere considered 'perfect'?",
       options: [
-        "To destroy nature for money",
-        "To act as a boss who does no work",
-        "To take care of and ensure the upkeep of creation",
-        "To hide the wonders of God from others",
+        "Because it has no clouds.",
+        "Because it is made entirely of oxygen.",
+        "Because it has the right proportions to sustain life.",
+        "Because it is very thin."
       ],
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-          "Dominion means humans are responsible for caring for and protecting the environment.",
+          "The balance of gases like nitrogen and oxygen is perfectly designed to keep us alive.",
     ),
-
     QuizQuestion(
       question:
-          "Which part of creation is used for extracting minerals like gold and bauxite?",
-      options: ["Heavenly bodies", "Water bodies", "Land", "Plants"],
-      correctIndex: 2,
+          "9. Nature is described as a 'General Revelation' of God. This means:",
+      options: [
+        "Only soldiers can see God in nature.",
+        "God reveals facts about Himself through the things He made.",
+        "Nature is more important than God.",
+        "Nature is a secret that no one can see."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Creation is part of God's general revelation, affirming facts about His nature to everyone.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Seeing a vast mountain or a wide ocean should remind a student of God's:",
+      options: [
+        "Smallness.",
+        "Majesty and greatness.",
+        "Forgetfulness.",
+        "Fear of water."
+      ],
+      correctIndex: 1,
       difficulty: "Easy",
       explanation:
-          "The earth (land) is the source from which minerals are mined.",
+          "Nature's vastness testifies to the majesty and greatness of the Creator.",
     ),
   ],
 );
@@ -8615,7 +9864,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Deforestation is the removal of forest cover.",
     ),
-
     QuizQuestion(
       question:
           "Which activity is a major cause of mercury poisoning in Ghanaian rivers?",
@@ -8624,7 +9872,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Illegal miners use mercury which poisons water bodies.",
     ),
-
     QuizQuestion(
       question: "What is the result of weeding too closely to a riverbank?",
       options: [
@@ -8638,7 +9885,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Removing vegetation exposes water to sunlight, increasing evaporation.",
     ),
-
     QuizQuestion(
       question: "Why is overgrazing bad for the environment?",
       options: [
@@ -8651,7 +9897,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Overgrazing removes grass cover, exposing soil to erosion.",
     ),
-
     QuizQuestion(
       question:
           "Using poisonous chemicals like DDT to catch fish is harmful because:",
@@ -8665,7 +9910,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Chemicals poison water and kill aquatic life.",
     ),
-
     QuizQuestion(
       question:
           "Which of the following is an effect of destroying our environment?",
@@ -8679,7 +9923,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Environmental destruction leads to disasters like floods.",
     ),
-
     QuizQuestion(
       question: "Illegal sand winning usually takes place at:",
       options: [
@@ -8692,7 +9935,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Sand is commonly taken from beaches and riverbeds.",
     ),
-
     QuizQuestion(
       question:
           "Hunting during the 'closed season' (when hunting is banned) is called:",
@@ -8706,7 +9948,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Hunting during banned periods is illegal.",
     ),
-
     QuizQuestion(
       question: "How does smoke from bush burning affect God's creation?",
       options: [
@@ -8719,7 +9960,6 @@ final QuizModel RMEjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Smoke pollutes the air and harms the environment.",
     ),
-
     QuizQuestion(
       question: "Human beings depend on the environment for:",
       options: [
@@ -9376,128 +10616,129 @@ final QuizModel RMEjhs3s3ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/RME/1. RME JHS3 S3 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          "1. Which of the following is a SOCIAL importance of festivals?",
+      question: "1. What is the meaning of religious tolerance?",
       options: [
-        "Bringing people together to plan development",
-        "Thanking the ancestors for life",
-        "Fasting for forty days and nights",
-        "Pouring libation to the gods",
-      ],
-      correctIndex: 0,
-      difficulty: "Easy",
-      explanation:
-          "Festivals bring people together to plan and support community development.",
-    ),
-    QuizQuestion(
-      question: "2. Festivals help us to 'reconcile.' This means we:",
-      options: [
-        "Buy new clothes for the durbar",
-        "Settle differences and make peace",
-        "Travel to a very far country",
-        "Learn how to play the drums",
+        "Forcing everyone to join one religion.",
+        "Allowing others to practice their beliefs freely.",
+        "Ignoring all religious activities in the town.",
+        "Only accepting people who look like you."
       ],
       correctIndex: 1,
-      difficulty: "Easy",
+      difficulty: "Low",
       explanation:
-          "Reconciliation means resolving conflicts and restoring peace among people.",
+          "Tolerance is the willingness to accept the beliefs and behaviors of others.",
     ),
     QuizQuestion(
       question:
-          "3. What moral value do we learn from the sacrifice of Prophet Ibrahim during Eid-ul-Adha?",
-      options: [
-        "Obedience to God",
-        "How to farm yams",
-        "Traveling to the city",
-        "Trading in the market",
-      ],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation: "The story teaches obedience and faith in God.",
-    ),
-    QuizQuestion(
-      question:
-          "4. The 'Odadaa' period teaches the value of 'Endurance.' How can a student show endurance?",
-      options: [
-        "By giving up when a math problem is hard",
-        "By continuing to study even when it is difficult",
-        "By sleeping in class during the lesson",
-        "By shouting loudly during the quiet time",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Endurance means persisting even when things are difficult.",
-    ),
-    QuizQuestion(
-      question:
-          "5. Which importance is shown when a Chief calls for a fund-raiser to build a school?",
-      options: ["Social", "Religious", "Agricultural", "Personal"],
-      correctIndex: 0,
-      difficulty: "Easy",
-      explanation:
-          "Fund-raising for community projects shows social importance.",
-    ),
-    QuizQuestion(
-      question:
-          "6. Why is it important for a nation to promote its festivals for tourism?",
-      options: [
-        "To make the citizens tired",
-        "To bring in foreign exchange and investment",
-        "To stop people from working in offices",
-        "To celebrate birthdays for everyone",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Festivals attract tourists and boost the economy.",
-    ),
-    QuizQuestion(
-      question:
-          "7. A student who shares his lunch with a hungry classmate is practicing the lesson of:",
-      options: [
-        "Bravery",
-        "Historical remembrance",
-        "Purification",
-        "Kindness and Generosity",
-      ],
-      correctIndex: 3,
-      difficulty: "Medium",
-      explanation: "Sharing shows kindness and generosity.",
-    ),
-    QuizQuestion(
-      question:
-          "8. Which religious act during a festival involves asking for forgiveness from God?",
-      options: [
-        "Dancing at the durbar",
-        "Riding a horse through town",
-        "Wearing expensive jewelry",
-        "Public worship and prayer",
-      ],
-      correctIndex: 3,
-      difficulty: "Medium",
-      explanation: "Prayer and worship are used to seek forgiveness from God.",
-    ),
-    QuizQuestion(
-      question:
-          "9. What is the significance of the 'black stool' purification in some traditional festivals?",
-      options: [
-        "To make the stool look shiny",
-        "To spiritually cleanse the community for a new year",
-        "To show that the wood is very strong",
-        "To prepare for a naming ceremony",
-      ],
-      correctIndex: 1,
-      difficulty: "Hard",
-      explanation:
-          "It symbolizes spiritual cleansing and renewal of the community.",
-    ),
-    QuizQuestion(
-      question:
-          "10. Festivals remind us that we are one people. This creates a sense of:",
-      options: ["Fear", "Identity and Belonging", "Anger", "Confusion"],
+          "2. In an intolerant community, people are often treated unfairly because of their religion. This is called:",
+      options: ["Social cohesion.", "Injustice.", "Fairness.", "Cooperation."],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Festivals promote unity, identity, and a sense of belonging.",
+          "Injustice occurs when people are denied rights or treated poorly because they belong to a different group.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of these promotes a peaceful relationship in a Ghanaian community?",
+      options: [
+        "Speaking evil of other faiths.",
+        "Refusing to trade with other religious groups.",
+        "Accepting suggestions from all members.",
+        "Destroying the property of other religions."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tolerant communities implement suggestions from everyone for the benefit of all members.",
+    ),
+    QuizQuestion(
+      question: "4. Which characteristic is common in an intolerant community?",
+      options: [
+        "Inter-religious marriages.",
+        "Lack of poor interpersonal relationships.",
+        "Presence of anti-social practices.",
+        "Equal treatment for all persons."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Anti-social practices like conflict and violence are often seen where there is no tolerance.",
+    ),
+    QuizQuestion(
+      question: "5. A tolerant religious community is one where:",
+      options: [
+        "Only the elders' views are respected.",
+        "Different suggestions are accepted and implemented.",
+        "People are forced to change their beliefs.",
+        "Members live in constant fear."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Respecting and implementing different views is a hallmark of a tolerant community.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why do intolerant communities often experience poor development?",
+      options: [
+        "They do not have enough people.",
+        "They lack natural resources like gold.",
+        "Members cannot agree to fight for a common cause.",
+        "They spend all their money on festivals."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Intolerance makes it difficult for people to unite for development projects.",
+    ),
+    QuizQuestion(
+      question: "7. What does 'inter-religious marriage' mean?",
+      options: [
+        "Marriage between people of the same family.",
+        "Marriage between people of different faiths.",
+        "Marriage only performed in a court.",
+        "Marriage that is not allowed by law."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "This refers to people from different religions, such as a Christian and a Muslim, getting married.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is an example of an anti-social practice?",
+      options: [
+        "Helping a neighbor clean their gutter.",
+        "Organizing a community football match.",
+        "Destroying a place of worship during a quarrel.",
+        "Attending a school graduation ceremony."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Acts that harm society, like violence or destruction, are anti-social.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In a tolerant community, how do people view the religions of others?",
+      options: [
+        "As false and dangerous.",
+        "As equally valid and important.",
+        "As something to be ridiculed.",
+        "As a reason to start a fight."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Tolerance includes the belief that all religions are important within their own culture.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which feeling is most common among members of an intolerant community?",
+      options: ["Trust.", "Happiness.", "Mistrust.", "Security."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Intolerance breeds a high level of mistrust among community members.",
     ),
   ],
 );
@@ -9506,127 +10747,135 @@ final QuizModel RMEjhs3s3ss1Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Which of the following is a SOCIAL importance of festivals?",
+          "1. Which of these is a cause of religious intolerance related to the media?",
       options: [
-        "Bringing people together to plan development",
-        "Thanking the ancestors for life",
-        "Fasting for forty days and nights",
-        "Pouring libation to the gods",
+        "Promoting peace messages on TV.",
+        "Checking facts before reporting a story.",
+        "Speaking evil of a particular religion.",
+        "Interviewing leaders from all faiths."
       ],
-      correctIndex: 0,
-      difficulty: "Easy",
+      correctIndex: 2,
+      difficulty: "Low",
       explanation:
-          "Festivals bring people together to plan and support community development.",
-    ),
-    QuizQuestion(
-      question: "2. Festivals help us to 'reconcile.' This means we:",
-      options: [
-        "Buy new clothes for the durbar",
-        "Settle differences and make peace",
-        "Travel to a very far country",
-        "Learn how to play the drums",
-      ],
-      correctIndex: 1,
-      difficulty: "Easy",
-      explanation:
-          "Reconciliation means resolving conflicts and restoring peace among people.",
+          "Speaking evil of a religion in the media promotes extremist ideas and intolerance.",
     ),
     QuizQuestion(
       question:
-          "3. What moral value do we learn from the sacrifice of Prophet Ibrahim during Eid-ul-Adha?",
+          "2. What can happen to the crime rate in a community facing religious conflict?",
       options: [
-        "Obedience to God",
-        "How to farm yams",
-        "Traveling to the city",
-        "Trading in the market",
+        "The crime rate decreases.",
+        "The crime rate stays the same.",
+        "The crime rate increases.",
+        "Crime is completely eliminated."
       ],
-      correctIndex: 0,
+      correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The story teaches obedience and faith in God.",
+      explanation:
+          "People may take advantage of the chaos and hatred to commit crimes like robbery or violence.",
     ),
     QuizQuestion(
       question:
-          "4. The 'Odadaa' period teaches the value of 'Endurance.' How can a student show endurance?",
+          "3. When someone thinks their religion is the only 'supreme' one and others are 'false,' it leads to:",
+      options: ["Tolerance.", "Intolerance.", "Development.", "Harmony."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The belief that one religion is superior is a core basis for religious intolerance.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is a social effect of religious intolerance?",
       options: [
-        "By giving up when a math problem is hard",
-        "By continuing to study even when it is difficult",
-        "By sleeping in class during the lesson",
-        "By shouting loudly during the quiet time",
+        "Increased inter-marriages.",
+        "Hatred and disunity in society.",
+        "Better interpersonal relationships.",
+        "Shared community goals."
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Endurance means persisting even when things are difficult.",
-    ),
-    QuizQuestion(
-      question:
-          "5. Which importance is shown when a Chief calls for a fund-raiser to build a school?",
-      options: ["Social", "Religious", "Agricultural", "Personal"],
-      correctIndex: 0,
-      difficulty: "Easy",
       explanation:
-          "Fund-raising for community projects shows social importance.",
+          "Intolerance breeds suspicion and prevents people from living together in harmony.",
+    ),
+    QuizQuestion(
+      question: "5. How does religious intolerance affect tourism in Ghana?",
+      options: [
+        "It attracts more people to see the conflict.",
+        "It has no effect on tourists.",
+        "It prevents tourists from visiting affected areas.",
+        "It makes hotels cheaper for everyone."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tourists avoid areas where there is tension or a lack of peace.",
     ),
     QuizQuestion(
       question:
-          "6. Why is it important for a nation to promote its festivals for tourism?",
+          "6. Forming political parties along religious lines is dangerous because it:",
       options: [
-        "To make the citizens tired",
-        "To bring in foreign exchange and investment",
-        "To stop people from working in offices",
-        "To celebrate birthdays for everyone",
+        "Helps everyone get a job.",
+        "Promotes religious intolerance.",
+        "Makes voting easier.",
+        "Encourages people to pray more."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Using religion in politics divides people and can fuel conflict.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is an example of 'undermining' another person's religious beliefs?",
+      options: [
+        "Asking a polite question about their prayers.",
+        "Ridiculing their faith or practices.",
+        "Reading a book about their history.",
+        "Sharing a meal during their festival."
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Festivals attract tourists and boost the economy.",
+      explanation:
+          "Ridiculing or looking down on someone's faith undermines their dignity.",
     ),
     QuizQuestion(
       question:
-          "7. A student who shares his lunch with a hungry classmate is practicing the lesson of:",
+          "8. Religious intolerance is an obstacle to the growth of a nation. This is a:",
       options: [
-        "Bravery",
-        "Historical remembrance",
-        "Purification",
-        "Kindness and Generosity",
-      ],
-      correctIndex: 3,
-      difficulty: "Medium",
-      explanation: "Sharing shows kindness and generosity.",
-    ),
-    QuizQuestion(
-      question:
-          "8. Which religious act during a festival involves asking for forgiveness from God?",
-      options: [
-        "Dancing at the durbar",
-        "Riding a horse through town",
-        "Wearing expensive jewelry",
-        "Public worship and prayer",
-      ],
-      correctIndex: 3,
-      difficulty: "Medium",
-      explanation: "Prayer and worship are used to seek forgiveness from God.",
-    ),
-    QuizQuestion(
-      question:
-          "9. What is the significance of the 'black stool' purification in some traditional festivals?",
-      options: [
-        "To make the stool look shiny",
-        "To spiritually cleanse the community for a new year",
-        "To show that the wood is very strong",
-        "To prepare for a naming ceremony",
+        "Positive effect.",
+        "Negative effect.",
+        "Cultural effect.",
+        "Religious effect."
       ],
       correctIndex: 1,
-      difficulty: "Hard",
+      difficulty: "Low",
       explanation:
-          "It symbolizes spiritual cleansing and renewal of the community.",
+          "Anything that stops a nation from developing is a serious negative effect.",
     ),
     QuizQuestion(
-      question:
-          "10. Festivals remind us that we are one people. This creates a sense of:",
-      options: ["Fear", "Identity and Belonging", "Anger", "Confusion"],
+      question: "9. Which of the following describes 'inter-religious war'?",
+      options: [
+        "A fight between two families.",
+        "Conflict between different religious groups.",
+        "A peaceful debate about the Bible and Quran.",
+        "A soccer match between churches."
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Festivals promote unity, identity, and a sense of belonging.",
+          "Inter-religious conflict involves members of two or more different faiths.",
+    ),
+    QuizQuestion(
+      question: "10. Economic oppression can occur when one group:",
+      options: [
+        "Shares its wealth with the poor.",
+        "Is more economically stable and looks down on others.",
+        "Teaches others how to save money.",
+        "Pays the same taxes as everyone else."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Wealthier groups may use their status to sideline or oppress those with less money based on faith.",
     ),
   ],
 );
@@ -10919,7 +12168,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Environment includes both living and non-living things that surround an organism.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of these is a social interaction within an environment?",
@@ -10934,7 +12182,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Education and classroom interactions are part of the social environment.",
     ),
-
     QuizQuestion(
       question: "3. Which cultural practice negatively affects sanitation?",
       options: [
@@ -10948,7 +12195,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Gender-based restrictions on cleaning can lead to dirtier environments if one group is absent.",
     ),
-
     QuizQuestion(
       question: "4. What is the primary purpose of a sewage system?",
       options: [
@@ -10962,7 +12208,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Sanitation includes providing sewage systems for the safe disposal of human waste.",
     ),
-
     QuizQuestion(
       question: "5. Soil contamination is often caused by:",
       options: [
@@ -10976,7 +12221,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Hazardous chemicals leaking from landfills contaminate the soil.",
     ),
-
     QuizQuestion(
       question:
           "6. Which disease is commonly spread by mosquitoes breeding in choked gutters?",
@@ -10986,7 +12230,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Stagnant water in choked gutters provides a breeding ground for mosquitoes that carry malaria.",
     ),
-
     QuizQuestion(
       question:
           "7. A person who refuses to use a public toilet and goes in the bush is practicing:",
@@ -11001,7 +12244,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Going to the toilet in the open instead of using a facility is called open defecation.",
     ),
-
     QuizQuestion(
       question:
           "8. What is the role of the Local Government Act (Act 462) regarding sanitation?",
@@ -11016,7 +12258,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The law requires landlords to provide basic sanitation facilities for those living in their houses.",
     ),
-
     QuizQuestion(
       question: "9. Why should food sellers not operate near dumping sites?",
       options: [
@@ -11030,7 +12271,6 @@ final QuizModel SSjhs1s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Rubbish attracts flies and germs that can easily move onto nearby food.",
     ),
-
     QuizQuestion(
       question: "10. What is the best way to handle plastic waste in Ghana?",
       options: [
@@ -11058,7 +12298,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Energy is the ability or capacity to perform a function or work.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a non-renewable source of energy?",
       options: ["Solar", "Wind", "Natural Gas", "Geothermal"],
@@ -11067,7 +12306,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Fossil fuels like natural gas are non-renewable and can be exhausted.",
     ),
-
     QuizQuestion(
       question: "3. The Bui Dam is located on which river?",
       options: ["River Pra", "Black Volta", "River Ankobra", "River Densu"],
@@ -11075,7 +12313,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "The Bui Hydroelectric station is built on the Black Volta.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of the following is a way to use energy efficiently in the kitchen?",
@@ -11090,7 +12327,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Keeping lids on pans helps food cook faster and saves energy.",
     ),
-
     QuizQuestion(
       question: "5. One disadvantage of solar energy is:",
       options: [
@@ -11104,7 +12340,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Solar energy depends on sunlight and cannot be generated during the night without batteries.",
     ),
-
     QuizQuestion(
       question:
           "6. Which town is associated with a major solar power station in Ghana?",
@@ -11114,7 +12349,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Onyandze in the Gomoa West District hosts a large solar power station.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the main reason Ghana sometimes imports electricity?",
@@ -11129,7 +12363,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Reduced water volume in dams like Akosombo during dry seasons reduces generation capacity.",
     ),
-
     QuizQuestion(
       question: "8. Why is wind energy good for the environment?",
       options: [
@@ -11143,7 +12376,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Wind turbines do not release harmful emissions while generating electricity.",
     ),
-
     QuizQuestion(
       question: "9. Which of these is an example of biomass?",
       options: ["Charcoal", "Crude oil", "Uranium", "Iron ore"],
@@ -11152,7 +12384,6 @@ final QuizModel SSjhs1s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Charcoal and wood are forms of biomass energy derived from organic matter.",
     ),
-
     QuizQuestion(
       question:
           "10. What should you do with your computer when you are finished using it?",
@@ -11183,7 +12414,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "A map is a visual representation of an area or part of the world on a flat surface.",
     ),
-
     QuizQuestion(
       question:
           "2. Which map feature tells the user exactly what area the map covers?",
@@ -11193,7 +12423,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "The title summarizes the information contained in the map, such as \"Road Map of Ghana\".",
     ),
-
     QuizQuestion(
       question:
           "3. Which professional would use a climatic map to decide the best time for planting?",
@@ -11203,7 +12432,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Farmers use climatic maps to understand rainfall and weather patterns for agriculture.",
     ),
-
     QuizQuestion(
       question:
           "4. On a map, what does the \"North Arrow\" or \"Compass Rose\" indicate?",
@@ -11213,7 +12441,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "These tools show the cardinal directions and which way is North.",
     ),
-
     QuizQuestion(
       question:
           "5. If two towns are 4cm apart on a map with a scale of 1:50,000, what is the actual distance?",
@@ -11221,9 +12448,8 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "High",
       explanation:
-          "\$4 \\times 50,000 = 200,000 \\text{ cm}\$. Since \$100,000 \\text{ cm} = 1 \\text{ km}\$, the distance is \$2 \\text{ km}\$.",
+          "4 x 50,000 = 200,000 cm. Since 100,000 cm = 1 km}, the distance is 2 km.",
     ),
-
     QuizQuestion(
       question: "6. Which type of map shows mountains, rivers, and plateaus?",
       options: ["Political Map", "Physical Map", "Road Map", "Drainage Map"],
@@ -11232,7 +12458,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Physical maps show natural features of the land like mountains and rivers.",
     ),
-
     QuizQuestion(
       question: "7. What is the primary purpose of a map scale?",
       options: [
@@ -11246,7 +12471,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Scale allows us to represent large areas on a small sheet of paper accurately.",
     ),
-
     QuizQuestion(
       question: "8. Conventional signs and symbols are explained in the...",
       options: ["Title", "Index", "Legend", "Scale"],
@@ -11255,7 +12479,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "The legend (or key) is the dictionary of the map, explaining what every symbol stands for.",
     ),
-
     QuizQuestion(
       question:
           "9. A map showing the boundaries of the 16 regions of Ghana is a...",
@@ -11265,7 +12488,6 @@ final QuizModel SSjhs1s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Political maps show regional, national, and district boundaries.",
     ),
-
     QuizQuestion(
       question: "10. Which of these is NOT a standard component of a good map?",
       options: ["Date", "Key", "Landscape photograph", "North Arrow"],
@@ -11294,7 +12516,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Mount Afadjato is the highest point in Ghana, located in the Volta Region.",
     ),
-
     QuizQuestion(
       question:
           "2. Which feature is a large body of salt water covering much of the Earth?",
@@ -11304,7 +12525,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Oceans are the vast salt-water bodies that cover about 70 percent of the Earth.",
     ),
-
     QuizQuestion(
       question:
           "3. In which part of Ghana would you most likely find a tropical rainforest?",
@@ -11319,7 +12539,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Ghana’s tropical rainforest is located in the South-Western part, near places like Axim.",
     ),
-
     QuizQuestion(
       question: "4. Which river is the longest within the borders of Ghana?",
       options: ["Volta", "Nile", "Niger", "Congo"],
@@ -11328,7 +12547,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "The Volta River is the primary and longest river system in Ghana.",
     ),
-
     QuizQuestion(
       question: "5. The Andes mountain range is found on which continent?",
       options: ["Africa", "Asia", "South America", "Europe"],
@@ -11337,7 +12555,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "The Andes is the longest continental mountain range, located in South America.",
     ),
-
     QuizQuestion(
       question:
           "6. What is a major negative effect of plastic pollution on marine life?",
@@ -11352,7 +12569,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Marine animals often eat plastic or get stuck in it, which causes internal health problems or death.",
     ),
-
     QuizQuestion(
       question: "7. Which of these is a major mountain range in North America?",
       options: ["The Alps", "The Himalayas", "The Rockies", "The Andes"],
@@ -11360,7 +12576,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The Rockies stretch across Western North America.",
     ),
-
     QuizQuestion(
       question: "8. Which desert is found in Southern Africa?",
       options: ["Sahara", "Arabian", "Kalahari", "Gobi"],
@@ -11369,7 +12584,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "The Kalahari is a major desert located in the southern part of Africa.",
     ),
-
     QuizQuestion(
       question:
           "9. Why should we avoid using \"bad fishing methods\" like dynamite in our rivers?",
@@ -11384,7 +12598,6 @@ final QuizModel SSjhs1s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Using chemicals or dynamite pollutes the water and destroys the aquatic habitat.",
     ),
-
     QuizQuestion(
       question:
           "10. Which mountain feature is located in the North East Region of Ghana?",
@@ -11418,7 +12631,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "Natural disasters are unforeseen occurrences from nature that cause destruction.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of these is a major effect of natural disasters on the government?",
@@ -11433,7 +12645,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "The government must spend a lot of money to repair roads and help displaced people.",
     ),
-
     QuizQuestion(
       question:
           "3. Which body provides first-aid and health care to victims during a disaster?",
@@ -11448,7 +12659,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "The Red Cross Society specializes in health care and first aid for vulnerable people.",
     ),
-
     QuizQuestion(
       question: "4. What is a \"Wildfire\"?",
       options: [
@@ -11461,7 +12671,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Wildfires burn uncontrollably in rural areas and savannas.",
     ),
-
     QuizQuestion(
       question:
           "5. Which disaster is caused by the removal of beach sand by wave action?",
@@ -11470,7 +12679,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Sea erosion happens when waves wash away the shoreline.",
     ),
-
     QuizQuestion(
       question:
           "6. Why does the Ghana Meteorological Agency provide a \"daily forecast\"?",
@@ -11485,7 +12693,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "Weather forecasts allow people to prepare for rain or heat.",
     ),
-
     QuizQuestion(
       question: "7. Which of these is NOT a natural disaster?",
       options: ["Flood", "Earthquake", "A football match", "Landslide"],
@@ -11494,7 +12701,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "A football match is a human-organized event, not a disaster from nature.",
     ),
-
     QuizQuestion(
       question: "8. What happens during an earthquake?",
       options: [
@@ -11507,7 +12713,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "An earthquake is a vibration of the earth's surface.",
     ),
-
     QuizQuestion(
       question:
           "9. How can we help manage or prevent floods in our communities?",
@@ -11522,7 +12727,6 @@ final QuizModel SSjhs1s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "Clear drains allow rainwater to flow away without causing floods.",
     ),
-
     QuizQuestion(
       question:
           "10. Which institution has \"Fire Volunteer Squads\" at the community level?",
@@ -11556,7 +12760,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Adolescence is the bridge between childhood and adulthood.",
     ),
-
     QuizQuestion(
       question: "2. A boy's voice deepens during adolescence because:",
       options: [
@@ -11570,7 +12773,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Physical changes in boys include a deepening voice due to the growth of the larynx.",
     ),
-
     QuizQuestion(
       question: "3. Which of the following is a healthy adolescent behaviour?",
       options: [
@@ -11584,7 +12786,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Abstinence (chastity) is a key healthy behaviour for reproductive health.",
     ),
-
     QuizQuestion(
       question: "4. Which challenge is often caused by peer pressure?",
       options: [
@@ -11598,7 +12799,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Peer pressure often leads adolescents into irresponsible behaviours like drug use.",
     ),
-
     QuizQuestion(
       question: "5. A girl's first menstruation is a sign that:",
       options: [
@@ -11612,7 +12812,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Menstruation is a natural physical change indicating reproductive development in girls.",
     ),
-
     QuizQuestion(
       question: "6. What does 'Reproductive Health' imply?",
       options: [
@@ -11626,7 +12825,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "It is a state of complete well-being in all matters relating to the reproductive system.",
     ),
-
     QuizQuestion(
       question:
           "7. How many times a day should an adolescent ideally brush their teeth?",
@@ -11641,7 +12839,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Good hygiene requires brushing twice daily to maintain health.",
     ),
-
     QuizQuestion(
       question: "8. Irresponsible adolescent behaviour can lead to:",
       options: [
@@ -11655,7 +12852,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Irresponsible acts like unprotected sex can lead to pregnancies that end a student's education.",
     ),
-
     QuizQuestion(
       question: "9. Which of these is an emotional change in adolescents?",
       options: [
@@ -11668,7 +12864,6 @@ final QuizModel SSjhs1s2ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Emotional changes include becoming more sensitive or shy.",
     ),
-
     QuizQuestion(
       question: "10. Why is healthy adolescent behaviour important for Ghana?",
       options: [
@@ -11701,7 +12896,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "It is the process of learning culture and acceptable habits.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is the first agency of socialisation?",
@@ -11710,7 +12904,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The process starts at home with the family.",
     ),
-
     QuizQuestion(
       question: "3. Which of these is an agent of socialisation?",
       options: ["The Community", "The School", "The Mother", "The Mass Media"],
@@ -11718,7 +12911,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "A mother is a specific person who guides the child.",
     ),
-
     QuizQuestion(
       question: "4. A peer group consists of people who...",
       options: [
@@ -11732,7 +12924,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Peer groups are friends of similar ages who learn from each other.",
     ),
-
     QuizQuestion(
       question:
           "5. Which agency uses radio and television to socialise people?",
@@ -11741,7 +12932,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Mass media includes radio, TV, and newspapers.",
     ),
-
     QuizQuestion(
       question: "6. One importance of socialisation is that it...",
       options: [
@@ -11754,7 +12944,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It passes culture from one generation to the next.",
     ),
-
     QuizQuestion(
       question:
           "7. Which agent is responsible for teaching students reading and writing?",
@@ -11763,7 +12952,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Teachers are the primary agents in the school agency.",
     ),
-
     QuizQuestion(
       question:
           "8. What is a common challenge associated with socialisation today?",
@@ -11778,7 +12966,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "While media is an agency, it can sometimes present negative challenges.",
     ),
-
     QuizQuestion(
       question: "9. In the community agency, children learn...",
       options: [
@@ -11792,7 +12979,6 @@ final QuizModel SSjhs1s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "The community provides a space to interact with different people.",
     ),
-
     QuizQuestion(
       question: "10. Socialisation is a process that ends...",
       options: [
@@ -11818,7 +13004,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The 2021 census recorded 30.8 million people.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a component of population growth?",
       options: [
@@ -11832,7 +13017,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       explanation:
           "Births, deaths, and migration are the three components of change.",
     ),
-
     QuizQuestion(
       question:
           "3. The number of deaths per 1,000 people in a year is called the:",
@@ -11846,7 +13030,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Mortality rate is another name for the death rate.",
     ),
-
     QuizQuestion(
       question:
           "4. Which Ghanaian region had the lowest population size according to recent data?",
@@ -11856,7 +13039,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       explanation:
           "Ahafo Region recorded the smallest population at approximately 564,536.",
     ),
-
     QuizQuestion(
       question: "5. Why might a country experience a \"negative growth rate\"?",
       options: [
@@ -11870,7 +13052,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       explanation:
           "Negative growth happens when the number of people decreases.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a cause of high death rates in Ghana?",
       options: [
@@ -11883,7 +13064,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Diseases like malaria and cholera contribute to mortality.",
     ),
-
     QuizQuestion(
       question:
           "7. Compared to Nigeria's 2.6% growth rate, Ghana's 2.1% rate is:",
@@ -11892,7 +13072,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "2.1% is a smaller percentage than 2.6%.",
     ),
-
     QuizQuestion(
       question: "8. \"Fertility rate\" is another term for:",
       options: ["Death rate", "Migration rate", "Birth rate", "Census rate"],
@@ -11900,7 +13079,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Fertility refers to the number of live births.",
     ),
-
     QuizQuestion(
       question: "9. What is the main purpose of a population census?",
       options: [
@@ -11914,7 +13092,6 @@ final QuizModel SSjhs1s2ss4Lesson1QuizData = QuizModel(
       explanation:
           "A census provides the official count needed for national planning.",
     ),
-
     QuizQuestion(
       question:
           "10. Which factor is considered a \"social compulsion\" leading to high birth rates in Ghana?",
@@ -11949,7 +13126,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Self-identity is about knowing one's own skills and limitations.",
     ),
-
     QuizQuestion(
       question: "2. Which of these enhances your self-worth?",
       options: [
@@ -11963,7 +13139,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "A positive attitude helps you expect good things and improves self-worth.",
     ),
-
     QuizQuestion(
       question:
           "3. What is the first step to becoming a better person in society?",
@@ -11978,7 +13153,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Self-awareness allows you to improve your strengths and work on weaknesses.",
     ),
-
     QuizQuestion(
       question:
           "4. A student who practices the drums every day is developing their capability through:",
@@ -11992,7 +13166,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Practice is a key way to develop skills over time.",
     ),
-
     QuizQuestion(
       question: "5. Which is an example of a weakness?",
       options: [
@@ -12006,7 +13179,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Weaknesses are negative traits like anger or laziness that need to be managed.",
     ),
-
     QuizQuestion(
       question: "6. Why should we accept other people's views about us?",
       options: [
@@ -12020,7 +13192,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Listening to others can help us improve upon weaknesses we might not see ourselves.",
     ),
-
     QuizQuestion(
       question: "7. The \"I can do it\" spirit is most helpful when:",
       options: [
@@ -12034,7 +13205,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The can-do spirit helps students tackle difficult subjects like Math.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is NOT a way to develop your capabilities?",
       options: [
@@ -12048,7 +13218,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Laziness and arrogance are weaknesses that hinder development.",
     ),
-
     QuizQuestion(
       question: "9. Knowing yourself helps you to:",
       options: [
@@ -12062,7 +13231,6 @@ final QuizModel SSjhs1s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Self-knowledge helps you think carefully and make independent, good choices.",
     ),
-
     QuizQuestion(
       question:
           "10. In the Ghanaian context, identifying your potential means:",
@@ -12092,7 +13260,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Citizenship is the status of being a full member of a state with rights and duties.",
     ),
-
     QuizQuestion(
       question:
           "2. Ama was born in London, but her father is a Ghanaian from Ho. How did Ama get her citizenship?",
@@ -12107,7 +13274,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "One can be a citizen by birth if born outside Ghana to a Ghanaian parent.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is NOT a way of acquiring Ghanaian citizenship?",
@@ -12117,7 +13283,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Migration is moving to a place, but it is not a legal way to acquire citizenship like the others.",
     ),
-
     QuizQuestion(
       question: "4. What is a person obliged to perform as a duty in society?",
       options: ["Rights", "Responsibilities", "Privileges", "Achievements"],
@@ -12126,7 +13291,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Responsibilities or duties are tasks a person is required to perform for their country.",
     ),
-
     QuizQuestion(
       question:
           "5. Why should a citizen protect state property like a government hospital?",
@@ -12141,7 +13305,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Public property is built with taxpayers' money and serves the whole nation.",
     ),
-
     QuizQuestion(
       question:
           "6. Which attitude involves being willing to join others to clean the local market?",
@@ -12151,7 +13314,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Communal labour involves citizens working together for the development of their community.",
     ),
-
     QuizQuestion(
       question:
           "7. A citizen who reports a crime to the police is demonstrating...",
@@ -12166,7 +13328,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Reporting crime is a duty that helps maintain law and order.",
     ),
-
     QuizQuestion(
       question: "8. Which of the following describes \"Naturalisation\"?",
       options: [
@@ -12180,7 +13341,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Naturalisation is the legal process by which a foreigner acquires citizenship.",
     ),
-
     QuizQuestion(
       question:
           "9. Why is punctuality important for a student's contribution to Ghana?",
@@ -12195,7 +13355,6 @@ final QuizModel SSjhs1s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Being punctual helps students become reliable and productive workers in the future.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the main purpose of the \"National Anthem\" and \"National Flag\"?",
@@ -12229,7 +13388,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Human resource refers to the people and their capabilities used in production.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is NOT a way of developing human resource?",
       options: [
@@ -12243,7 +13401,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Selling raw materials is a trade activity, not a method of developing people's skills.",
     ),
-
     QuizQuestion(
       question:
           "3. When a secretary learns how to use a computer instead of a typewriter, this is:",
@@ -12258,7 +13415,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Retraining helps workers gain new skills to stay relevant in their jobs.",
     ),
-
     QuizQuestion(
       question: "4. What is the main goal of Human Resource Development?",
       options: [
@@ -12272,7 +13428,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "HRD aims to increase capacities so people can help develop the society.",
     ),
-
     QuizQuestion(
       question:
           "5. A student speaking to a professional about which subjects to choose for SHS is engaging in:",
@@ -12287,7 +13442,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Career counselling guides individuals to choose paths based on interest and talent.",
     ),
-
     QuizQuestion(
       question: "6. Why is a healthy workforce important for Ghana's economy?",
       options: [
@@ -12301,7 +13455,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Good health ensures people are productive and reduces workplace accidents.",
     ),
-
     QuizQuestion(
       question:
           "7. Which of these involves teaching practical fundamentals of a job to a trainee?",
@@ -12316,7 +13469,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Training allows individuals to acquire practical skills and attitudes for a specific job.",
     ),
-
     QuizQuestion(
       question: "8. Mentoring helps in developing human resource by:",
       options: [
@@ -12330,7 +13482,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Mentoring involves guidance and performing leadership roles to build experience.",
     ),
-
     QuizQuestion(
       question: "9. In Ghana, 'Human Resource' can be categorized into:",
       options: [
@@ -12344,7 +13495,6 @@ final QuizModel SSjhs1s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Labour is often classified by the level of skill and training required.",
     ),
-
     QuizQuestion(
       question:
           "10. Which of the following is a result of effective human resource development?",
@@ -12378,7 +13528,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Social security provides protection against economic and social distress caused by the loss of income.",
     ),
-
     QuizQuestion(
       question:
           "2. In the three-tier pension scheme, which tier is voluntary for workers?",
@@ -12388,7 +13537,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Tier 3 is a voluntary, fully-funded, and privately managed provident fund or personal pension plan.",
     ),
-
     QuizQuestion(
       question:
           "3. What percentage of a worker's basic salary is the worker required to contribute themselves?",
@@ -12398,7 +13546,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "The individual worker contributes 5.5% from their basic salary.",
     ),
-
     QuizQuestion(
       question:
           "4. What is the contribution percentage paid specifically by the employer?",
@@ -12408,7 +13555,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "The employer is mandated to pay 13% of the worker's basic salary.",
     ),
-
     QuizQuestion(
       question:
           "5. To qualify for a full old-age pension, how many monthly contributions must a worker have made?",
@@ -12418,7 +13564,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "A worker must have made a minimum of 180 months of contributions to qualify for a full pension.",
     ),
-
     QuizQuestion(
       question:
           "6. What part of the SSNIT contribution is transferred to the National Health Authority (NHIA)?",
@@ -12428,7 +13573,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Out of the 13.5% initially given to SSNIT, 2.5% is paid to the NHIA for the member's health insurance.",
     ),
-
     QuizQuestion(
       question:
           "7. The benefit paid to the family of a deceased SSNIT member is called...",
@@ -12443,7 +13587,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Survivor's Benefit is paid to dependents when a member dies.",
     ),
-
     QuizQuestion(
       question:
           "8. Which type of scheme involves the state giving income to people from general taxes without them having contributed?",
@@ -12458,7 +13601,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "In a Welfare Scheme, money comes from taxes paid to the state to support those in need.",
     ),
-
     QuizQuestion(
       question:
           "9. To qualify for an invalidity pension, a member must have contributed for at least how many months in the last 36 months?",
@@ -12468,7 +13610,6 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "A member must have made a minimum contribution of 12 months within the last 36 months to qualify for invalidity benefits.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the maximum age for a person to join the SSNIT scheme?",
@@ -12493,7 +13634,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Pollutants are the harmful materials that cause damage.",
     ),
-
     QuizQuestion(
       question:
           "2. Which Ghanaian river is frequently cited as being affected by galamsey?",
@@ -12503,7 +13643,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Pra is one of the major rivers in Ghana heavily impacted by illegal mining.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is a liquid waste that pollutes water bodies?",
@@ -12518,7 +13657,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Sewage is a form of liquid waste from households and industries.",
     ),
-
     QuizQuestion(
       question: "4. Acid rain is caused by _________.",
       options: [
@@ -12532,7 +13670,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Industrial smoke contains particles that mix with water vapour to form acid rain.",
     ),
-
     QuizQuestion(
       question: "5. How does water pollution affect the fishing industry?",
       options: [
@@ -12545,7 +13682,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Pollution kills fish and destroys their habitat.",
     ),
-
     QuizQuestion(
       question:
           "6. Which disease is commonly spread through contaminated water?",
@@ -12555,7 +13691,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Typhoid is a serious health hazard caused by drinking polluted water.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the best way to handle household rubbish to protect water bodies?",
@@ -12570,7 +13705,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Proper waste disposal prevents rubbish from entering our water systems.",
     ),
-
     QuizQuestion(
       question:
           "8. Which activity along river banks helps to prevent soil erosion and pollution?",
@@ -12584,7 +13718,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Plants help hold the soil together and filter runoff.",
     ),
-
     QuizQuestion(
       question: "9. Oil spills are most common in which type of water body?",
       options: [
@@ -12598,7 +13731,6 @@ final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Oil spills usually occur from tankers and ships in large water bodies.",
     ),
-
     QuizQuestion(
       question: "10. Who is responsible for protecting Ghana's water bodies?",
       options: [
@@ -12631,7 +13763,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Conservation means avoiding waste and using what we have efficiently.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of these is a source of renewable energy mentioned in your lessons?",
@@ -12641,7 +13772,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Solar energy is a clean, renewable source that helps conserve limited resources.",
     ),
-
     QuizQuestion(
       question: "3. What is the economic benefit of using LED bulbs?",
       options: [
@@ -12654,7 +13784,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "LEDs use less power, leading to lower costs for the user.",
     ),
-
     QuizQuestion(
       question:
           "4. Which community member is responsible for buying energy-efficient appliances for the home?",
@@ -12664,7 +13793,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Parents manage the household and choose which appliances to buy.",
     ),
-
     QuizQuestion(
       question:
           "5. Turning off electrical gadgets when not in use helps to _________.",
@@ -12679,7 +13807,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Unplugging or switching off gadgets prevents 'vampire' energy loss.",
     ),
-
     QuizQuestion(
       question:
           "6. How does planting trees around a school help conserve energy?",
@@ -12694,7 +13821,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Natural shade keeps buildings cool, so we use less energy for cooling.",
     ),
-
     QuizQuestion(
       question:
           "7. Which of these practices is NOT an example of energy conservation?",
@@ -12709,7 +13835,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Leaving the fridge door open allows cold air to escape, making the motor work harder.",
     ),
-
     QuizQuestion(
       question: "8. Reducing the use of fossil fuels helps to _________.",
       options: [
@@ -12723,7 +13848,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Less demand for fossil fuels means less mining and drilling in nature.",
     ),
-
     QuizQuestion(
       question:
           "9. The 'Energy Star' rating system in Ghana is managed by which commission?",
@@ -12738,7 +13862,6 @@ final QuizModel SSjhs2s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "The Energy Commission of Ghana rates appliances for efficiency.",
     ),
-
     QuizQuestion(
       question: "10. A shopkeeper can save energy by _________.",
       options: [
@@ -12767,7 +13890,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "An eight-point compass includes cardinal and intercardinal points.",
     ),
-
     QuizQuestion(
       question: "2. Which direction lies directly opposite North-East?",
       options: ["South-East", "South-West", "North-West", "North"],
@@ -12776,7 +13898,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "South-West is the exact opposite of North-East on a compass.",
     ),
-
     QuizQuestion(
       question:
           "3. In the \"Along the corridor, up the stairs\" rule, what does \"up the stairs\" represent?",
@@ -12785,7 +13906,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Northings are the vertical lines that go \"up\" the map.",
     ),
-
     QuizQuestion(
       question:
           "4. If a map has a scale of 1:100,000, what does 1cm on the map represent on the ground?",
@@ -12794,7 +13914,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "High",
       explanation: "100,000 cm equals 1,000 metres, which is 1 kilometre.",
     ),
-
     QuizQuestion(
       question: "5. Which of these is a cardinal point?",
       options: ["South-East", "North-West", "West", "North-East"],
@@ -12802,7 +13921,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "North, South, East, and West are the four cardinal points.",
     ),
-
     QuizQuestion(
       question: "6. Why do we use a scale when sketching a map of the school?",
       options: [
@@ -12815,7 +13933,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Scale allows us to shrink real-world distances accurately.",
     ),
-
     QuizQuestion(
       question:
           "7. A six-figure grid reference is more ________ than a four-figure grid reference.",
@@ -12824,7 +13941,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Six-figure references pinpoint a more exact location.",
     ),
-
     QuizQuestion(
       question:
           "8. To draw a rough sketch of your community, what is the first step you should take?",
@@ -12839,7 +13955,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "You must first observe the area and take notes of prominent features.",
     ),
-
     QuizQuestion(
       question: "9. Which type of scale is shown as a divided straight line?",
       options: [
@@ -12852,7 +13967,6 @@ final QuizModel SSjhs2s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "A linear scale is expressed on a straight line.",
     ),
-
     QuizQuestion(
       question:
           "10. If Kofi walks from the Post Office to a bank located at South-East, which way is he heading?",
@@ -12881,7 +13995,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "35 years is the standard duration for recording climate averages.",
     ),
-
     QuizQuestion(
       question: "2. Which instrument is used to measure atmospheric pressure?",
       options: ["Barometer", "Hygrometer", "Anemometer", "Thermometer"],
@@ -12889,7 +14002,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "A barometer measures the weight or pressure of the air.",
     ),
-
     QuizQuestion(
       question:
           "3. In which town would you most likely experience the Tropical Continental climate?",
@@ -12899,7 +14011,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Tamale is in the northern part of Ghana, which is the Tropical Continental zone.",
     ),
-
     QuizQuestion(
       question: "4. Which element of weather is measured in degrees Celsius?",
       options: ["Rainfall", "Wind speed", "Temperature", "Air pressure"],
@@ -12908,20 +14019,19 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Temperature is the degree of hotness or coldness, measured in Celsius.",
     ),
-
     QuizQuestion(
       question: "5. A wind vane is used to show the:",
       options: [
         "Strength of the wind",
         "Speed of the wind",
         "Direction of the wind",
+        "Rate of the wind"
       ],
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
           "The wind vane points in the direction from which the wind is blowing.",
     ),
-
     QuizQuestion(
       question:
           "6. Which factor explains why places near the Equator are generally hotter?",
@@ -12931,7 +14041,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "Latitude determines how much direct sunlight a region receives based on its distance from the Equator.",
     ),
-
     QuizQuestion(
       question:
           "7. The Dry Equatorial climate is mostly found in which part of Ghana?",
@@ -12946,7 +14055,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       explanation:
           "The south-eastern coast, including Accra, experiences the Dry Equatorial climate.",
     ),
-
     QuizQuestion(
       question:
           "8. Which tool is used to measure the amount of moisture or water vapour in the air?",
@@ -12955,7 +14063,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "A hygrometer measures relative humidity.",
     ),
-
     QuizQuestion(
       question:
           "9. If you are standing on a very high hill, you are likely to feel colder because of:",
@@ -12964,7 +14071,6 @@ final QuizModel SSjhs2s1ss3Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Temperature decreases as height or altitude increases.",
     ),
-
     QuizQuestion(
       question: "10. Which of the following is NOT an element of weather?",
       options: ["Precipitation", "Pressure", "Population", "Humidity"],
@@ -12988,7 +14094,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "This is the basic definition of a family.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is NOT a member of the nuclear family?",
@@ -12998,7 +14103,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "An uncle is part of the extended family, not the nuclear family.",
     ),
-
     QuizQuestion(
       question: "3. The role of 'Procreation' in a family refers to:",
       options: [
@@ -13012,7 +14116,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Procreation is the biological function of producing offspring to continue the family.",
     ),
-
     QuizQuestion(
       question:
           "4. Who provides emotional security and instils trust in children?",
@@ -13027,7 +14130,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "The mother’s role often involves providing unconditional love and emotional support.",
     ),
-
     QuizQuestion(
       question: "5. In the Western world, the family system is mostly:",
       options: ["Extended", "Communal", "Nuclear", "Tribal"],
@@ -13036,7 +14138,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Western societies like the USA focus more on the nuclear family unit.",
     ),
-
     QuizQuestion(
       question: "6. One disadvantage of the extended family system is:",
       options: [
@@ -13050,7 +14151,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Some members may rely too much on others rather than working hard.",
     ),
-
     QuizQuestion(
       question: "7. Providing school fees and shelter are examples of:",
       options: [
@@ -13064,7 +14164,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "These are the material or physical requirements for survival and growth.",
     ),
-
     QuizQuestion(
       question:
           "8. The process of teaching children the customs and values of society is called:",
@@ -13074,7 +14173,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Socialization is how the family transmits culture to the younger generation.",
     ),
-
     QuizQuestion(
       question: "9. Why is the nuclear family often considered more 'private'?",
       options: [
@@ -13088,7 +14186,6 @@ final QuizModel SSjhs2s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Without many relatives living nearby, the couple can make decisions more independently.",
     ),
-
     QuizQuestion(
       question:
           "10. Which member acts as the 'Religious Leader' in a traditional Ghanaian family?",
@@ -13122,7 +14219,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Inheritance covers everything from land to traditional titles.",
     ),
-
     QuizQuestion(
       question: "2. The Akan ethnic group is well known for which system?",
       options: ["Patrilineal", "Matrilineal", "PNDC system", "Multilineal"],
@@ -13131,7 +14227,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Akans traditionally trace their lineage and inheritance through the mother.",
     ),
-
     QuizQuestion(
       question: "3. In a patrilineal system, who is the primary beneficiary?",
       options: [
@@ -13144,7 +14239,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Patrilineal inheritance moves from father to child.",
     ),
-
     QuizQuestion(
       question: "4. A major disadvantage of the matrilineal system is that:",
       options: [
@@ -13158,7 +14252,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Because the nephew inherits, the man's biological children may be left unsupported.",
     ),
-
     QuizQuestion(
       question: "5. PNDC Law 111 was passed in which year?",
       options: ["1957", "1985", "2001", "1992"],
@@ -13167,7 +14260,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "The law was enacted in 1985 to provide a uniform system for intestate succession.",
     ),
-
     QuizQuestion(
       question:
           "6. If a person dies 'intestate' and is survived by a spouse and children, what fraction of the estate goes to the surviving spouse?",
@@ -13177,7 +14269,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "According to the law, the surviving spouse receives 3/16 of the estate.",
     ),
-
     QuizQuestion(
       question:
           "7. What fraction of the estate do children receive under the Intestate Succession Law?",
@@ -13186,7 +14277,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "High",
       explanation: "Children receive the largest portion, which is 9/16.",
     ),
-
     QuizQuestion(
       question: "8. One positive effect of the patrilineal system is that:",
       options: [
@@ -13199,7 +14289,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It keeps wealth within the immediate father-child unit.",
     ),
-
     QuizQuestion(
       question: "9. Which of these can cause enmity (hatred) in a family?",
       options: [
@@ -13213,7 +14302,6 @@ final QuizModel SSjhs2s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Disputes over who gets what often lead to long-lasting family fights.",
     ),
-
     QuizQuestion(
       question:
           "10. What is the best way to ensure the surviving spouse and children are not thrown out of their house?",
@@ -13247,7 +14335,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "The bottom or base of the pyramid represents the infants and children.",
     ),
-
     QuizQuestion(
       question:
           "2. In which type of country would you most likely find a \"conical\" or triangular pyramid?",
@@ -13262,7 +14349,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Low-income countries have high birth rates and lower life expectancy, creating a triangle shape.",
     ),
-
     QuizQuestion(
       question:
           "3. What percentage of Canada's population was aged 65 and above in 2021?",
@@ -13272,7 +14358,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Canada has a high percentage of elderly people, reaching 18.56% in 2021.",
     ),
-
     QuizQuestion(
       question: "4. Population structure is the division of population by:",
       options: [
@@ -13286,7 +14371,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Population structure specifically looks at age groups and gender.",
     ),
-
     QuizQuestion(
       question: "5. Why is China's birth rate currently reduced?",
       options: [
@@ -13300,7 +14384,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Developed countries like China see reduced birth rates as families choose to have fewer children.",
     ),
-
     QuizQuestion(
       question: "6. Which group in Ghana forms the \"Working Age\" population?",
       options: ["0–14 years", "15–64 years", "65 years and above", "0–5 years"],
@@ -13309,7 +14392,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "The 15–64 age bracket is considered the working group that supports the children and elderly.",
     ),
-
     QuizQuestion(
       question: "7. A broad apex in a pyramid is a sign of:",
       options: [
@@ -13323,7 +14405,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "A wide top means more people are surviving into old age due to good health services.",
     ),
-
     QuizQuestion(
       question:
           "8. According to the World Bank, low-income countries have a GNI per capita of:",
@@ -13338,7 +14419,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Low-income countries are defined by a GNI per capita of 1,045 or less as of 2021.",
     ),
-
     QuizQuestion(
       question:
           "9. Ghana's population pyramid has a broad base. This indicates:",
@@ -13353,7 +14433,6 @@ final QuizModel SSjhs2s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "A wide base means many children, making the population \"youthful\".",
     ),
-
     QuizQuestion(
       question:
           "10. Which country has the world's largest population according to the 2021 data?",
@@ -13382,7 +14461,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "It focuses on the well-being of the whole group.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is an individual role in the community?",
@@ -13396,7 +14474,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Individuals help by maintaining law and order.",
     ),
-
     QuizQuestion(
       question:
           "3. In the decision-making process, 'investigating' helps you to:",
@@ -13411,7 +14488,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Investigation ensures you understand the problem before acting.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is a key value for a community leader?",
       options: ["Dishonesty.", "Integrity.", "Pride.", "Favouritism."],
@@ -13420,7 +14496,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Values like integrity are essential for successful development.",
     ),
-
     QuizQuestion(
       question: "5. A \"vision\" for a community means:",
       options: [
@@ -13433,7 +14508,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Vision is the desired future state of the community.",
     ),
-
     QuizQuestion(
       question:
           "6. If a community needs a new well, and they compare the cost of three different drilling companies, which step is this?",
@@ -13447,7 +14521,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Comparing options to see which is best is evaluation.",
     ),
-
     QuizQuestion(
       question: "7. Collective action means:",
       options: [
@@ -13460,7 +14533,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Collective\" refers to the group acting together.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is a social problem a community might face?",
       options: [
@@ -13474,7 +14546,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Problems like school dropouts require community intervention.",
     ),
-
     QuizQuestion(
       question: "9. What does 'initiative' mean in community development?",
       options: [
@@ -13487,7 +14558,6 @@ final QuizModel SSjhs2s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Initiative is the drive to start an action independently.",
     ),
-
     QuizQuestion(
       question:
           "10. A community where members do not share common goals is likely to:",
@@ -13516,7 +14586,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Volunteerism is service without financial reward.",
     ),
-
     QuizQuestion(
       question: "2. A volunteer is someone who helps because they:",
       options: [
@@ -13529,7 +14598,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Free will is the core of being a volunteer.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of the following is a benefit of volunteerism to the individual?",
@@ -13544,7 +14612,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Volunteering helps individuals grow and communicate better.",
     ),
-
     QuizQuestion(
       question:
           "4. Which group works specifically on environmental pollution in Ghana?",
@@ -13558,7 +14625,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Green Ghana is committed to solving environmental issues.",
     ),
-
     QuizQuestion(
       question: "5. Cleaning choked gutters in your neighbourhood is called:",
       options: [
@@ -13571,7 +14637,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Cleanup exercises are common voluntary community tasks.",
     ),
-
     QuizQuestion(
       question: "6. How does volunteerism contribute to the national economy?",
       options: [
@@ -13585,7 +14650,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Free voluntary work reduces the financial burden on the state.",
     ),
-
     QuizQuestion(
       question:
           "7. Which of these is a way a JHS student can volunteer at home?",
@@ -13600,7 +14664,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       explanation:
           "Performing chores without being told is a form of volunteering.",
     ),
-
     QuizQuestion(
       question:
           "8. \"Donating slightly used items\" means giving away things that are:",
@@ -13614,7 +14677,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Donated items should be useful to the receiver.",
     ),
-
     QuizQuestion(
       question:
           "9. Volunteerism helps in \"raising social awareness.\" This means:",
@@ -13628,7 +14690,6 @@ final QuizModel SSjhs2s3ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Volunteers often educate the public on social issues.",
     ),
-
     QuizQuestion(
       question: "10. A community with many active volunteers is likely to be:",
       options: [
@@ -13661,7 +14722,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Human rights ensure that every individual is treated with respect and fairness.",
     ),
-
     QuizQuestion(
       question:
           "2. The Universal Declaration of Human Rights contains how many articles?",
@@ -13671,7 +14731,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The UDHR consists of 30 specific articles outlining human rights.",
     ),
-
     QuizQuestion(
       question:
           "3. In Ghana, which document is the supreme law that protects our rights?",
@@ -13686,7 +14745,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The 1992 Constitution is the highest law in Ghana and enshrines our rights.",
     ),
-
     QuizQuestion(
       question:
           "4. Which of the following is a violation of the Right to Life?",
@@ -13701,7 +14759,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The right to life means no one should be deprived of their life intentionally.",
     ),
-
     QuizQuestion(
       question:
           "5. Why is the Right to Education important for Ghana's development?",
@@ -13716,7 +14773,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Education empowers citizens to contribute effectively to the nation's socio-economic development.",
     ),
-
     QuizQuestion(
       question:
           "6. A suspect is arrested by the police. According to the Right to Personal Liberty, what must happen?",
@@ -13731,7 +14787,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The right to liberty protects against unlawful and indefinite detention.",
     ),
-
     QuizQuestion(
       question:
           "7. What is the responsibility of a citizen regarding \"Mob Justice\" (lynching)?",
@@ -13746,7 +14801,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Every citizen has the responsibility to uphold the law and respect the right to a fair trial.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is a duty of a Ghanaian citizen?",
       options: [
@@ -13760,7 +14814,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Citizens are mandated by law to defend and uphold the Constitution.",
     ),
-
     QuizQuestion(
       question: "9. Freedom of speech means you can:",
       options: [
@@ -13774,7 +14827,6 @@ final QuizModel SSjhs2s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Rights must be exercised responsibly without infringing on the rights of others or public order.",
     ),
-
     QuizQuestion(
       question: "10. Human rights are important because they promote:",
       options: [
@@ -13807,7 +14859,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Conflict is a clash or disagreement arising from different ideas or interests.",
     ),
-
     QuizQuestion(
       question:
           "2. Taking steps to stop a conflict before it even starts is known as:",
@@ -13822,7 +14873,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Prevention involves identifying signals to stop a conflict from occurring.",
     ),
-
     QuizQuestion(
       question:
           "3. Which of these is an example of an economic cause of conflict?",
@@ -13837,7 +14887,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Disagreements over the siting of public facilities like markets are common causes of conflict.",
     ),
-
     QuizQuestion(
       question:
           "4. What can happen to people living in a town where there is a violent conflict?",
@@ -13852,7 +14901,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Conflict often leads to people running away from their communities to safer places.",
     ),
-
     QuizQuestion(
       question:
           "5. A person who listens to both sides of a conflict and makes a final decision that everyone must follow is an:",
@@ -13862,7 +14910,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "In arbitration, the arbitrator's decision is usually binding on all parties.",
     ),
-
     QuizQuestion(
       question: "6. Which attitude helps to reduce tribalism in Ghana?",
       options: [
@@ -13876,7 +14923,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "To prevail, we must learn to bury ethnic pride and see ourselves as one people.",
     ),
-
     QuizQuestion(
       question:
           "7. How does conflict affect the education of children in a community?",
@@ -13891,7 +14937,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Conflict creates insecurity, meaning children may not go to school amidst violence.",
     ),
-
     QuizQuestion(
       question:
           "8. When two people in a disagreement talk to each other directly to find a solution, they are:",
@@ -13901,7 +14946,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Negotiation is where mandated representatives or the parties themselves meet to reach an agreement.",
     ),
-
     QuizQuestion(
       question: "9. The role of women in peacebuilding includes:",
       options: [
@@ -13915,7 +14959,6 @@ final QuizModel SSjhs2s4ss2Lesson1QuizData = QuizModel(
       explanation:
           "Women often act as intermediaries and help in the reconciliation process.",
     ),
-
     QuizQuestion(
       question:
           "10. Which of these values is essential for lasting peace in a Ghanaian community?",
@@ -13941,7 +14984,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Employment is the formal relationship involving work for pay.",
     ),
-
     QuizQuestion(
       question:
           "2. Madam Opeibea employs a cleaner for her house. In this scenario, Madam Opeibea is the...",
@@ -13951,7 +14993,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Since she is the one hiring and paying for the service, she is the employer.",
     ),
-
     QuizQuestion(
       question:
           "3. What is the main institution in Ghana mandated to manage the Tier-1 pension scheme?",
@@ -13966,7 +15007,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Social Security and National Insurance Trust (SSNIT) manages the basic national social security scheme.",
     ),
-
     QuizQuestion(
       question:
           "4. Under Act 766, social security in Ghana is organized into how many tiers?",
@@ -13976,7 +15016,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "The National Pensions Act makes provision for a 3-tier pension scheme.",
     ),
-
     QuizQuestion(
       question:
           "5. An employer fails to register a new worker. This is a breach of which obligation?",
@@ -13991,7 +15030,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "It is a mandatory obligation for employers to ensure all workers are registered.",
     ),
-
     QuizQuestion(
       question:
           "6. What should an employee receive from SSNIT to track their contributions?",
@@ -14006,7 +15044,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Workers must be issued a social security number and receive statements to monitor payments.",
     ),
-
     QuizQuestion(
       question:
           "7. The 13% contribution paid by the employer is calculated based on what?",
@@ -14021,7 +15058,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "The contribution is specifically 13% of the worker's basic salary.",
     ),
-
     QuizQuestion(
       question:
           "8. Who is responsible for pointing out discrepancies in a pension statement?",
@@ -14036,7 +15072,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "The employee is the best person to know if they are working and must point out any errors.",
     ),
-
     QuizQuestion(
       question:
           "9. What happens if an employer pays the SSNIT contribution on the 20th day of the ensuing month?",
@@ -14051,7 +15086,6 @@ final QuizModel SSjhs2s5ss1Lesson1QuizData = QuizModel(
       explanation:
           "Payments after the 14th day attract a penalty for being late.",
     ),
-
     QuizQuestion(
       question:
           "10. Why are employees encouraged to contribute regularly throughout their working life?",
@@ -14085,7 +15119,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
     ),
-
     QuizQuestion(
       question: "2. Tourism is an example of which type of economic activity?",
       options: ["Farming", "Mining", "Service", "Manufacturing"],
@@ -14094,7 +15127,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Tourism provides services like transport, accommodation, and entertainment.",
     ),
-
     QuizQuestion(
       question:
           "3. Which site would you visit to see the final resting place of Dr. Kwame Nkrumah?",
@@ -14109,7 +15141,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "This park in Accra is dedicated to Ghana's first president.",
     ),
-
     QuizQuestion(
       question: "4. What is a \"souvenir\" in the context of tourism?",
       options: [
@@ -14123,7 +15154,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Tourists buy crafts and items as souvenirs, supporting local artists.",
     ),
-
     QuizQuestion(
       question: "5. Which activity helps develop new tourist sites?",
       options: [
@@ -14137,7 +15167,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Discovering and promoting new natural features helps expand tourism.",
     ),
-
     QuizQuestion(
       question:
           "6. The Manhyia Palace is significant because it is the seat of the:",
@@ -14147,7 +15176,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "The palace is the official residence of the Asantehene in Kumasi.",
     ),
-
     QuizQuestion(
       question:
           "7. Which of these is a major challenge facing tourism in Ghana?",
@@ -14162,7 +15190,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Many sites need renovation and better maintenance to remain attractive.",
     ),
-
     QuizQuestion(
       question: "8. How does tourism promote \"International Relations\"?",
       options: [
@@ -14176,7 +15203,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "It creates a cultural exchange between Ghanaians and foreigners.",
     ),
-
     QuizQuestion(
       question: "9. Boti Falls is located in which region?",
       options: [
@@ -14190,7 +15216,6 @@ final QuizModel SSjhs2s5ss2Lesson1QuizData = QuizModel(
       explanation:
           "Boti Falls is a twin waterfall located in the Eastern Region.",
     ),
-
     QuizQuestion(
       question:
           "10. Which group of people benefits directly from the \"hospitality\" sector of tourism?",
@@ -14214,7 +15239,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Ghana became a Republic on 1st July 1960.",
     ),
-
     QuizQuestion(
       question: "2. A constitution is best described as:",
       options: [
@@ -14228,7 +15252,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "A constitution provides the rules by which a nation is ruled.",
     ),
-
     QuizQuestion(
       question:
           "3. How many candidates contested the 1960 presidential election?",
@@ -14237,7 +15260,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Only Dr Kwame Nkrumah and Dr J.B. Danquah contested.",
     ),
-
     QuizQuestion(
       question: "4. Which party did Dr Kwame Nkrumah lead in 1960?",
       options: [
@@ -14250,7 +15272,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Nkrumah was the leader of the CPP.",
     ),
-
     QuizQuestion(
       question: "5. The 1960 referendum asked Ghanaians to vote on the:",
       options: [
@@ -14263,7 +15284,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The referendum was held to adopt the 1960 Constitution.",
     ),
-
     QuizQuestion(
       question:
           "6. Who was the Queen's representative in Ghana before the Republic?",
@@ -14277,7 +15297,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The Governor-General represented the British monarch.",
     ),
-
     QuizQuestion(
       question:
           "7. What was the outcome for the \"Yes\" vote in the 1960 referendum?",
@@ -14286,7 +15305,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Over 88% of voters supported the change to a Republic.",
     ),
-
     QuizQuestion(
       question: "8. Why did Ghana want to become a Republic?",
       options: [
@@ -14300,7 +15318,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "A Republic meant Ghana was no longer under foreign influence.",
     ),
-
     QuizQuestion(
       question: "9. Dr J.B. Danquah's percentage of the 1960 vote was:",
       options: ["89.1%", "10.9%", "88.47%", "11.53%"],
@@ -14308,7 +15325,6 @@ final QuizModel SSjhs2s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Dr Danquah received 10.9% of the total votes cast.",
     ),
-
     QuizQuestion(
       question: "10. Sir Arku Korsah held which position in 1960?",
       options: [
@@ -14336,7 +15352,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Ghana was maintained as a single, unitary state under the 1960 rules.",
     ),
-
     QuizQuestion(
       question:
           "2. Who acted as the \"Single Executive\" in the First Republic?",
@@ -14350,7 +15365,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "All executive power was vested in the President alone.",
     ),
-
     QuizQuestion(
       question: "3. A \"veto\" allows the President to:",
       options: [
@@ -14363,7 +15377,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "The President could reject or cancel laws he did not like.",
     ),
-
     QuizQuestion(
       question: "4. Which position was abolished by the 1960 Constitution?",
       options: [
@@ -14377,7 +15390,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Since Ghana became a Republic, the Queen's representative (Governor-General) was no longer needed.",
     ),
-
     QuizQuestion(
       question: "5. Parliament in the First Republic was known as the:",
       options: ["House of Lords", "National Assembly", "Senate", "Congress"],
@@ -14385,7 +15397,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The legislative body was called the National Assembly.",
     ),
-
     QuizQuestion(
       question:
           "6. How many houses did the legislature have under the 1960 Constitution?",
@@ -14395,7 +15406,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "It was a unicameral legislature, meaning it had only one house.",
     ),
-
     QuizQuestion(
       question:
           "7. Who performed the duties of the President if he was away or sick?",
@@ -14410,7 +15420,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Since there was no Vice-President, a commission or assistant was appointed as needed.",
     ),
-
     QuizQuestion(
       question: "8. Ministers in the First Republic were usually:",
       options: [
@@ -14424,7 +15433,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "Ministers were usually chosen from the President's party in Parliament.",
     ),
-
     QuizQuestion(
       question: "9. The 1960 Constitution gave the President power to:",
       options: [
@@ -14438,7 +15446,6 @@ final QuizModel SSjhs2s6ss1Lesson2QuizData = QuizModel(
       explanation:
           "The President had increased power over government appointments and dismissals.",
     ),
-
     QuizQuestion(
       question: "10. What was one reason the 1960 Constitution was criticized?",
       options: [
@@ -14465,7 +15472,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The military took over on 24th February 1966.",
     ),
-
     QuizQuestion(
       question: "2. Who was the first Chairman of the NLC?",
       options: [
@@ -14479,7 +15485,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "J.A. Ankrah was the initial Chairman of the military council.",
     ),
-
     QuizQuestion(
       question:
           "3. In what month and year were political activities restored by the NLC?",
@@ -14489,7 +15494,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "The ban on politics was lifted in May 1969 to allow for elections.",
     ),
-
     QuizQuestion(
       question:
           "4. The total number of seats contested in the 1969 Parliamentary election was:",
@@ -14498,7 +15502,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "There were 140 seats available in the National Assembly.",
     ),
-
     QuizQuestion(
       question: "5. Which political party used the slogan \"Progress\"?",
       options: ["NAL", "PP", "PAP", "UNP"],
@@ -14506,7 +15509,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The Progress Party was led by Dr K.A. Busia.",
     ),
-
     QuizQuestion(
       question:
           "6. What was a major reason for the 1966 coup according to the military?",
@@ -14521,7 +15523,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "The NLC claimed they wanted to restore freedom and fix the economy.",
     ),
-
     QuizQuestion(
       question: "7. How many political parties contested the 1969 elections?",
       options: ["Two", "Three", "Five", "Ten"],
@@ -14530,7 +15531,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "Five main parties including PP, NAL, UNP, PAP, and APRP contested.",
     ),
-
     QuizQuestion(
       question: "8. Who became the Prime Minister of the Second Republic?",
       options: [
@@ -14544,7 +15544,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "As leader of the winning party, Dr Busia became Prime Minister.",
     ),
-
     QuizQuestion(
       question: "9. The Second Republic is known as a transition from:",
       options: [
@@ -14558,7 +15557,6 @@ final QuizModel SSjhs2s6ss1Lesson3QuizData = QuizModel(
       explanation:
           "It marked the return to elected government after the NLC's military rule.",
     ),
-
     QuizQuestion(
       question: "10. Who was the leader of the National Alliance of Liberals?",
       options: [
@@ -14590,7 +15588,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "Power was separated between the President, Prime Minister, and Judiciary.",
     ),
-
     QuizQuestion(
       question: "2. Who chose the Prime Minister in 1969?",
       options: [
@@ -14604,7 +15601,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "The leader of the party with the most seats became Prime Minister.",
     ),
-
     QuizQuestion(
       question:
           "3. The 1969 Constitution allowed for how many political parties?",
@@ -14613,7 +15609,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "It promoted a multi-party democracy.",
     ),
-
     QuizQuestion(
       question:
           "4. Which office was created to protect citizens against government unfairness?",
@@ -14628,7 +15623,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "The Ombudsman handles complaints about government officials.",
     ),
-
     QuizQuestion(
       question:
           "5. A major difference between the First and Second Republic was:",
@@ -14643,7 +15637,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       explanation:
           "The First Republic used a Presidential system without a Prime Minister.",
     ),
-
     QuizQuestion(
       question: "6. Independence of the Judiciary means:",
       options: [
@@ -14656,7 +15649,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This protects the law from political influence.",
     ),
-
     QuizQuestion(
       question: "7. The Second Republic lasted from 1969 until:",
       options: ["1970", "1972", "1981", "1992"],
@@ -14664,7 +15656,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "It was ended by another military coup in January 1972.",
     ),
-
     QuizQuestion(
       question: "8. Dr K.A. Busia's official title was:",
       options: [
@@ -14677,7 +15668,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "He was the Head of Government.",
     ),
-
     QuizQuestion(
       question:
           "9. Which body was responsible for making laws in the Second Republic?",
@@ -14691,7 +15681,6 @@ final QuizModel SSjhs2s6ss1Lesson4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The elected Parliament (National Assembly) made the laws.",
     ),
-
     QuizQuestion(
       question:
           "10. Why was the office of the President \"ceremonial\" in 1969?",
@@ -14726,7 +15715,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Pollutants are the specific harmful substances that cause pollution.",
     ),
-
     QuizQuestion(
       question: "2. Which gas is a major component of automobile exhaust?",
       options: ["Oxygen", "Nitrogen", "Carbon monoxide", "Hydrogen"],
@@ -14735,7 +15723,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Vehicles burn fossil fuels which release carbon monoxide into the air.",
     ),
-
     QuizQuestion(
       question:
           "3. Which health condition is directly linked to inhaling polluted air?",
@@ -14745,7 +15732,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Pollution causes respiratory disorders, including pneumonia and lung cancer.",
     ),
-
     QuizQuestion(
       question: "4. Acid rain is harmful because it:",
       options: [
@@ -14759,7 +15745,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Acid rain corrodes materials and harms animals living in water.",
     ),
-
     QuizQuestion(
       question: "5. What is a major effect of global warming?",
       options: [
@@ -14773,7 +15758,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Global warming is the gradual increase in the average temperature of the Earth.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a way to prevent air pollution?",
       options: [
@@ -14787,7 +15771,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Plants remove carbon dioxide from the air, acting as natural air cleaners.",
     ),
-
     QuizQuestion(
       question: "7. Ammonia is an air pollutant often associated with:",
       options: [
@@ -14801,7 +15784,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Ammonia is released during the use of fertilizers and pesticides in farming.",
     ),
-
     QuizQuestion(
       question: "8. The ozone layer is important because it:",
       options: [
@@ -14815,7 +15797,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "The ozone layer shields the earth from the sun's harmful ultraviolet rays.",
     ),
-
     QuizQuestion(
       question:
           "9. Which of these is an example of an industrial air pollutant?",
@@ -14830,7 +15811,6 @@ final QuizModel SSjhs3s1ss1Lesson1QuizData = QuizModel(
       explanation:
           "Factories release various chemicals and toxic fumes during production.",
     ),
-
     QuizQuestion(
       question:
           "10. A project to educate community members on air pollution should focus on:",
@@ -14860,7 +15840,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Germany has made a major shift towards renewable energy sources like wind and solar.",
     ),
-
     QuizQuestion(
       question:
           "2. What is the primary fuel used by most trotros and cars in Ghana?",
@@ -14869,7 +15848,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Most vehicles in Ghana run on petrol and diesel.",
     ),
-
     QuizQuestion(
       question: "3. Gender issues in energy include which of the following?",
       options: [
@@ -14883,7 +15861,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Women are more exposed to indoor air pollution due to cooking with biomass fuels.",
     ),
-
     QuizQuestion(
       question: "4. An 'Analog meter' is identified by its:",
       options: [
@@ -14897,7 +15874,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Analog meters use a spinning disc to measure electricity usage.",
     ),
-
     QuizQuestion(
       question: "5. Energy conservation helps the environment by:",
       options: [
@@ -14911,7 +15887,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Saving energy reduces greenhouse gas emissions and environmental impact.",
     ),
-
     QuizQuestion(
       question:
           "6. Which of these is a device used to measure energy in a specific part of a building?",
@@ -14921,7 +15896,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Submeters are used to track consumption in specific departments or floors.",
     ),
-
     QuizQuestion(
       question: "7. In Ghana's energy mix, 'Biomass' mostly refers to:",
       options: [
@@ -14934,7 +15908,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       difficulty: "High",
       explanation: "Biomass in Ghana mainly includes woodfuel and charcoal.",
     ),
-
     QuizQuestion(
       question:
           "8. Why is it important for women to be represented in the energy sector workforce?",
@@ -14949,7 +15922,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "Women's participation ensures inclusive and effective energy policies.",
     ),
-
     QuizQuestion(
       question: "9. Energy monitors are small devices that help users:",
       options: [
@@ -14963,7 +15935,6 @@ final QuizModel SSjhs3s1ss1Lesson2QuizData = QuizModel(
       explanation:
           "They track and display energy usage of different appliances.",
     ),
-
     QuizQuestion(
       question:
           "10. What is a major benefit of saving energy for a Ghanaian household?",
@@ -14996,7 +15967,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Natural resources occur naturally and are useful to people.",
     ),
-
     QuizQuestion(
       question:
           "2. Which of the following is an example of a renewable resource?",
@@ -15005,7 +15975,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Sunlight is inexhaustible and replaced daily.",
     ),
-
     QuizQuestion(
       question: "3. Bauxite is mainly used to produce which of the following?",
       options: ["Aluminium", "Jewellery", "Petrol", "Glass"],
@@ -15013,7 +15982,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Bauxite is the primary ore used to make aluminium.",
     ),
-
     QuizQuestion(
       question: "4. Where is bauxite mined in Ghana?",
       options: ["Akwatia", "Awaso", "Nsuta", "Prestea"],
@@ -15021,7 +15989,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Awaso is a major bauxite mining area.",
     ),
-
     QuizQuestion(
       question: "5. What is \"Value Addition\" in resource exploitation?",
       options: [
@@ -15035,7 +16002,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Adding value means processing raw materials into finished goods to increase their price.",
     ),
-
     QuizQuestion(
       question:
           "6. Which resource is used to generate hydroelectric power at Akosombo?",
@@ -15044,7 +16010,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The Volta River water is used for hydroelectricity.",
     ),
-
     QuizQuestion(
       question: "7. Identify the mineral found in Nsuta.",
       options: ["Gold", "Diamond", "Manganese", "Salt"],
@@ -15052,7 +16017,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Nsuta is known for manganese deposits.",
     ),
-
     QuizQuestion(
       question: "8. Why are minerals called \"exhaustible\" resources?",
       options: [
@@ -15066,7 +16030,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Non-renewable resources like minerals have a limited supply.",
     ),
-
     QuizQuestion(
       question:
           "9. Which of these is a major challenge in Ghana's mining sector?",
@@ -15081,7 +16044,6 @@ final QuizModel SSjhs3s1ss2Lesson1QuizData = QuizModel(
       explanation:
           "Illegal mining or 'galamsey' causes environmental destruction and resource waste.",
     ),
-
     QuizQuestion(
       question:
           "10. How does the environment benefit when we use resources efficiently?",
@@ -15114,7 +16076,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Human resources are the mental and physical capabilities of the workforce.",
     ),
-
     QuizQuestion(
       question:
           "2. Which age group in Ghana is generally considered the \"active\" workforce?",
@@ -15129,7 +16090,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "This age range represents people capable of working and contributing to the economy.",
     ),
-
     QuizQuestion(
       question: "3. How does formal education improve human resources?",
       options: [
@@ -15143,7 +16103,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Education prepares individuals for professional and technical roles.",
     ),
-
     QuizQuestion(
       question: "4. Why is health a part of human resource development?",
       options: [
@@ -15157,7 +16116,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Physical well-being is essential for maintaining a productive workforce.",
     ),
-
     QuizQuestion(
       question:
           "5. Which Ghanaian profession uses their human resource to provide security?",
@@ -15167,7 +16125,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Security personnel use their training to protect the community.",
     ),
-
     QuizQuestion(
       question:
           "6. What is the result of \"Inadequate Skilled Personnel\" in a country?",
@@ -15182,7 +16139,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Without local experts, countries must pay outsiders to manage their resources.",
     ),
-
     QuizQuestion(
       question: "7. How does a teacher contribute to Ghana's human resource?",
       options: [
@@ -15196,7 +16152,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Teachers develop the skills and knowledge of the next generation.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is a way to motivate human resources?",
       options: [
@@ -15209,7 +16164,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Motivation through rewards encourages higher productivity.",
     ),
-
     QuizQuestion(
       question: "9. Using computers to make work faster is an example of...",
       options: [
@@ -15223,7 +16177,6 @@ final QuizModel SSjhs3s1ss2Lesson2QuizData = QuizModel(
       explanation:
           "Technology aids human resources in working more efficiently.",
     ),
-
     QuizQuestion(
       question:
           "10. Which statement is true about human and natural resources?",
@@ -15259,7 +16212,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Marriage provides a legitimate avenue for children to be born and continue the human race.",
     ),
-
     QuizQuestion(
       question:
           "2. Which type of marriage is regulated by the Laws of Ghana and registered at the District Assembly?",
@@ -15274,7 +16226,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Marriage under the Ordinance is the civil law marriage of Ghana.",
     ),
-
     QuizQuestion(
       question: "3. The 'bride price' is a feature of which type of marriage?",
       options: [
@@ -15288,7 +16239,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "The bride price is a key part of Ghanaian traditional or customary marriage rites.",
     ),
-
     QuizQuestion(
       question:
           "4. What is the 'Kokooko bo' ceremony commonly called in English?",
@@ -15298,7 +16248,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "'Kokooko bo' literally refers to knocking at the door of the bride's family.",
     ),
-
     QuizQuestion(
       question:
           "5. A broken marriage can lead to 'streetism'. What does this mean?",
@@ -15313,7 +16262,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "When marriages fail, children often lose support and end up on the streets.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a religious marriage rite in Ghana?",
       options: [
@@ -15327,7 +16275,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Islamic and Christian weddings are the two main religious marriages in Ghana.",
     ),
-
     QuizQuestion(
       question: "7. Why is companionship important in marriage?",
       options: [
@@ -15341,7 +16288,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Marriage provides a partner to share life's joys and challenges with.",
     ),
-
     QuizQuestion(
       question:
           "8. Which of the following can help a couple sustain their marriage?",
@@ -15356,7 +16302,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Showing tolerance and forgiving mistakes helps a marriage last longer.",
     ),
-
     QuizQuestion(
       question: "9. What is one effect of a broken marriage on the society?",
       options: [
@@ -15370,7 +16315,6 @@ final QuizModel SSjhs3s2ss1Lesson1QuizData = QuizModel(
       explanation:
           "Broken homes can lead to children engaging in social vices or criminal behavior.",
     ),
-
     QuizQuestion(
       question: "10. In Ghana, customary marriage is a union between:",
       options: [
@@ -15403,7 +16347,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Parenting is the continuous support of a child from infancy until they become an adult.",
     ),
-
     QuizQuestion(
       question:
           "2. Which parenting style is generally considered the most effective for raising well-adjusted children?",
@@ -15413,7 +16356,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Authoritative parenting balances high expectations with high support and love.",
     ),
-
     QuizQuestion(
       question:
           "3. Failing to provide a child with basic needs like food and shelter is an example of:",
@@ -15428,7 +16370,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Providing basic needs is a fundamental responsibility of every parent.",
     ),
-
     QuizQuestion(
       question: "4. Children of authoritarian parents are often:",
       options: [
@@ -15442,7 +16383,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Strictness can make children follow rules out of fear rather than understanding.",
     ),
-
     QuizQuestion(
       question: "5. Which of these is an example of 'Emotional Needs'?",
       options: [
@@ -15456,7 +16396,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Emotional needs involve affection, love, and a sense of belonging.",
     ),
-
     QuizQuestion(
       question:
           "6. What can happen if there is constant conflict between parents and children?",
@@ -15471,7 +16410,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Unresolved conflicts can cause children to become indisciplined or rebellious.",
     ),
-
     QuizQuestion(
       question:
           "7. In Ghana, parents are expected to teach children 'Moral Training.' This includes:",
@@ -15485,7 +16423,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Moral training focuses on character and social values.",
     ),
-
     QuizQuestion(
       question: "8. A 'Permissive' parent is often seen by the child as:",
       options: ["An enemy", "A boss", "A friend", "A stranger"],
@@ -15494,7 +16431,6 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Permissive parents avoid conflict and discipline, acting more as peers.",
     ),
-
     QuizQuestion(
       question:
           "9. Which behavior by a child can cause a parent to act inappropriately?",
@@ -15509,13 +16445,13 @@ final QuizModel SSjhs3s2ss1Lesson2QuizData = QuizModel(
       explanation:
           "Extreme negative behavior from children can sometimes lead to parents reacting poorly.",
     ),
-
     QuizQuestion(
       question: "10. The goal of responsible parenting is to produce:",
       options: [
         "Children who are afraid of everyone",
         "Useful and responsible citizens for the nation",
         "Children who never leave the house",
+        "Children who are afraid of society"
       ],
       correctIndex: 1,
       difficulty: "Easy",
@@ -15541,7 +16477,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Ghana has a youthful population, resulting in a wide base at the bottom of the pyramid.",
     ),
-
     QuizQuestion(
       question: "2. Rapid population growth is primarily caused by:",
       options: [
@@ -15555,7 +16490,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "When more people are born and fewer die, the total number increases quickly.",
     ),
-
     QuizQuestion(
       question: "3. The 'dependency ratio' refers to the relationship between:",
       options: [
@@ -15569,7 +16503,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "It measures how many people the working population must support.",
     ),
-
     QuizQuestion(
       question:
           "4. Which social problem is directly linked to high unemployment in crowded cities?",
@@ -15584,7 +16517,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Lack of jobs often pushes individuals toward illegal activities.",
     ),
-
     QuizQuestion(
       question: "5. Why does rapid population growth lead to food shortages?",
       options: [
@@ -15598,7 +16530,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "When population grows faster than food supply, scarcity occurs.",
     ),
-
     QuizQuestion(
       question:
           "6. What is an 'upkeep' issue for a large family with low income?",
@@ -15613,7 +16544,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Limited resources must be shared, often leading to poor nutrition.",
     ),
-
     QuizQuestion(
       question:
           "7. How does girl-child education act as a population control measure?",
@@ -15628,7 +16558,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Education provides girls with more life choices, leading to smaller family sizes.",
     ),
-
     QuizQuestion(
       question:
           "8. Which of these is a way the government can minimise rapid population growth?",
@@ -15643,7 +16572,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Education helps citizens make informed decisions about family size.",
     ),
-
     QuizQuestion(
       question: "9. The development of slums is a sign of:",
       options: [
@@ -15657,7 +16585,6 @@ final QuizModel SSjhs3s2ss2Lesson1QuizData = QuizModel(
       explanation:
           "Slums form when there isn't enough affordable housing for the growing number of people.",
     ),
-
     QuizQuestion(
       question:
           "10. Economic empowerment of women helps population control because:",
@@ -15692,7 +16619,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "National identity is the feeling of belonging and shared values within a nation.",
     ),
-
     QuizQuestion(
       question: "2. Who designed the Ghana National Flag?",
       options: [
@@ -15705,7 +16631,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Madam Theodosia Okoh designed the flag in 1957.",
     ),
-
     QuizQuestion(
       question:
           "3. The motto \"Freedom and Justice\" is found on which national symbol?",
@@ -15720,7 +16645,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Coat of Arms features a ribbon at the bottom with the motto.",
     ),
-
     QuizQuestion(
       question: "4. What does the green colour in the Ghana flag represent?",
       options: [
@@ -15733,7 +16657,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Green stands for the lush vegetation and forests of Ghana.",
     ),
-
     QuizQuestion(
       question: "5. The Adinkra symbol 'Sankofa' teaches us to:",
       options: [
@@ -15747,7 +16670,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Sankofa represents the importance of learning from past experiences.",
     ),
-
     QuizQuestion(
       question:
           "6. Which patriotic song encourages Ghanaians to build a strong and prosperous nation?",
@@ -15761,7 +16683,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       difficulty: "High",
       explanation: "All these songs promote unity and national development.",
     ),
-
     QuizQuestion(
       question: "7. How do festivals like Homowo promote national identity?",
       options: [
@@ -15775,7 +16696,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Festivals celebrate culture while uniting people as one nation.",
     ),
-
     QuizQuestion(
       question: "8. The Mace is carried into the chamber at the beginning of:",
       options: [
@@ -15789,7 +16709,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Mace is the symbol of authority in the Ghanaian Parliament.",
     ),
-
     QuizQuestion(
       question:
           "9. Which of these is a way to defend the integrity of the nation?",
@@ -15804,7 +16723,6 @@ final QuizModel SSjhs3s3ss1Lesson1QuizData = QuizModel(
       explanation:
           "Respecting diverse cultures helps keep the nation united and strong.",
     ),
-
     QuizQuestion(
       question:
           "10. Why are national symbols prominently displayed in public places like schools?",
@@ -15839,7 +16757,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "A constitution provides the framework and rules for governing a nation.",
     ),
-
     QuizQuestion(
       question:
           "2. The 1992 Constitution provides for how many main organs of government?",
@@ -15849,7 +16766,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The organs are the Legislature, the Executive, and the Judiciary.",
     ),
-
     QuizQuestion(
       question: "3. Who is the head of the Judiciary in Ghana?",
       options: [
@@ -15862,7 +16778,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The Chief Justice heads the judicial branch of government.",
     ),
-
     QuizQuestion(
       question:
           "4. Which organ is responsible for enforcing and implementing laws?",
@@ -15877,7 +16792,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The Executive branch, led by the President, puts laws into action.",
     ),
-
     QuizQuestion(
       question:
           "5. Where are the fundamental human rights found in the 1992 Constitution?",
@@ -15892,7 +16806,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "Chapter Five contains the guarantees for human rights and freedoms.",
     ),
-
     QuizQuestion(
       question:
           "6. The principle that prevents one organ of government from having all the power is called:",
@@ -15906,7 +16819,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This ensures checks and balances between branches.",
     ),
-
     QuizQuestion(
       question:
           "7. How many Members of Parliament (MPs) currently make up the Legislature?",
@@ -15915,7 +16827,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "There are 275 elected members in the Ghanaian Parliament.",
     ),
-
     QuizQuestion(
       question:
           "8. Which of these is a significance of the Constitution to national development?",
@@ -15929,7 +16840,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Clear rules for elections lead to stability and growth.",
     ),
-
     QuizQuestion(
       question:
           "9. Which body is tasked with conducting elections in Ghana according to the Constitution?",
@@ -15944,7 +16854,6 @@ final QuizModel SSjhs3s4ss1Lesson1QuizData = QuizModel(
       explanation:
           "The EC is the independent body created to handle elections.",
     ),
-
     QuizQuestion(
       question: "10. A Presidential term in Ghana can be renewed only:",
       options: [
@@ -15976,7 +16885,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "The Constitution is the supreme law that protects all citizens, including children.",
     ),
-
     QuizQuestion(
       question:
           "2. Every child has the right to 'Free, Compulsory Basic Education.' What does 'compulsory' mean?",
@@ -15991,7 +16899,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Compulsory means it is required for all children of school-going age.",
     ),
-
     QuizQuestion(
       question:
           "3. Showing respect to the Ghana flag and the National Anthem is a child's:",
@@ -16000,7 +16907,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Respecting national symbols is a civic responsibility.",
     ),
-
     QuizQuestion(
       question: "4. Which of the following is an effect of child abuse?",
       options: [
@@ -16014,7 +16920,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Abuse often leads to long-lasting mental and emotional pain.",
     ),
-
     QuizQuestion(
       question:
           "5. A child being forced into marriage before age 18 is an example of:",
@@ -16029,7 +16934,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Early marriage is recognized as a form of child abuse under the law.",
     ),
-
     QuizQuestion(
       question: "6. Who is responsible for protecting a child from abuse?",
       options: [
@@ -16043,7 +16947,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Protection is a shared responsibility of family, school, and the state.",
     ),
-
     QuizQuestion(
       question: "7. The right to 'Dignity' means a child should:",
       options: [
@@ -16057,7 +16960,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Dignity means being treated as a human being worthy of respect.",
     ),
-
     QuizQuestion(
       question:
           "8. Which responsibility helps a child learn to take care of their environment?",
@@ -16072,7 +16974,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Environmental care is an important responsibility taught to children.",
     ),
-
     QuizQuestion(
       question: "9. If a child is being abused, the best thing to do is:",
       options: [
@@ -16086,7 +16987,6 @@ final QuizModel SSjhs3s4ss1Lesson2QuizData = QuizModel(
       explanation:
           "Reporting to a trusted adult is the safest and most effective way to get help.",
     ),
-
     QuizQuestion(
       question: "10. A child's right to 'Health' includes:",
       options: [
@@ -16108,23 +17008,25 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S4 SS2 L1/9. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which term refers to the absence of violent conflict and the presence of harmony?",
+      question:
+          "1. Which term refers to the absence of violent conflict and the presence of harmony?",
       options: ["Security", "Law", "Peace", "Order"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Peace is defined as the absence of conflict and harmonious living.",
+      explanation:
+          "Peace is defined as the absence of conflict and harmonious living.",
     ),
-
     QuizQuestion(
       question: "2. When two groups talk to resolve a dispute, they are using:",
       options: ["Intimidation", "Avoidance", "Force", "Dialogue"],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "Dialogue involves talking through problems to find peaceful solutions.",
+      explanation:
+          "Dialogue involves talking through problems to find peaceful solutions.",
     ),
-
     QuizQuestion(
-      question: "3. Road safety measures like zebra crossings are designed to protect:",
+      question:
+          "3. Road safety measures like zebra crossings are designed to protect:",
       options: [
         "Only the drivers",
         "Only the police",
@@ -16135,9 +17037,9 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Zebra crossings allow pedestrians to cross safely.",
     ),
-
     QuizQuestion(
-      question: "4. Which institution is primarily responsible for maintaining internal security and law?",
+      question:
+          "4. Which institution is primarily responsible for maintaining internal security and law?",
       options: [
         "The Ghana Library Board",
         "The Ghana Police Service",
@@ -16148,7 +17050,6 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The police enforce laws and maintain public order.",
     ),
-
     QuizQuestion(
       question: "5. A country destroyed by conflict often suffers from:",
       options: [
@@ -16159,9 +17060,9 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Conflict leads to the destruction of roads, schools, and buildings.",
+      explanation:
+          "Conflict leads to the destruction of roads, schools, and buildings.",
     ),
-
     QuizQuestion(
       question: "6. Why is fire safety considered part of community security?",
       options: [
@@ -16172,11 +17073,12 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Security involves protecting resources and people from all types of harm, including fire.",
+      explanation:
+          "Security involves protecting resources and people from all types of harm, including fire.",
     ),
-
     QuizQuestion(
-      question: "7. The 'confidence' mentioned in community development refers to:",
+      question:
+          "7. The 'confidence' mentioned in community development refers to:",
       options: [
         "Being arrogant toward others",
         "Feeling safe to invest and plan for the future",
@@ -16185,11 +17087,12 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Peace creates confidence for individuals and investors to grow the economy.",
+      explanation:
+          "Peace creates confidence for individuals and investors to grow the economy.",
     ),
-
     QuizQuestion(
-      question: "8. Which of these is a 'Human Rights' practice that prevents conflict?",
+      question:
+          "8. Which of these is a 'Human Rights' practice that prevents conflict?",
       options: [
         "Giving jobs only to your family members",
         "Treating all citizens equally regardless of their tribe",
@@ -16198,11 +17101,12 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Promoting equality and rights reduces tensions that cause conflict.",
+      explanation:
+          "Promoting equality and rights reduces tensions that cause conflict.",
     ),
-
     QuizQuestion(
-      question: "9. What should be the first step if you smell smoke in your house?",
+      question:
+          "9. What should be the first step if you smell smoke in your house?",
       options: [
         "Call your friends to tell them",
         "Follow your fire escape plan and get to safety",
@@ -16211,9 +17115,9 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Knowing and following an escape plan is the safest way to handle a fire.",
+      explanation:
+          "Knowing and following an escape plan is the safest way to handle a fire.",
     ),
-
     QuizQuestion(
       question: "10. Economic development is difficult without peace because:",
       options: [
@@ -16224,32 +17128,37 @@ final QuizModel SSjhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "Insecurity negatively impacts trade, tourism, and investment.",
+      explanation:
+          "Insecurity negatively impacts trade, tourism, and investment.",
     ),
   ],
 );
 
 final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S4 SS3 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/4. SOCIAL STUDIES JHS3 S4 SS3 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. The system of government where power is held by the people is called:",
+      question:
+          "1. The system of government where power is held by the people is called:",
       options: ["Monarchy", "Democracy", "Dictatorship", "Oligarchy"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Democracy is defined by the involvement of citizens in decision-making.",
+      explanation:
+          "Democracy is defined by the involvement of citizens in decision-making.",
     ),
-
     QuizQuestion(
-      question: "2. The formal process of choosing leaders through voting is known as:",
+      question:
+          "2. The formal process of choosing leaders through voting is known as:",
       options: ["An election", "A debate", "An inauguration", "A census"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Elections are the mechanism used to select representatives.",
+      explanation:
+          "Elections are the mechanism used to select representatives.",
     ),
-
     QuizQuestion(
-      question: "3. In Ghana, if no Presidential candidate receives more than 50% of the votes, what happens next?",
+      question:
+          "3. In Ghana, if no Presidential candidate receives more than 50% of the votes, what happens next?",
       options: [
         "The current President stays in power",
         "A bye-election is held",
@@ -16258,9 +17167,9 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A run-off is required to ensure the winner has majority support.",
+      explanation:
+          "A run-off is required to ensure the winner has majority support.",
     ),
-
     QuizQuestion(
       question: "4. A bye-election is held when an MP:",
       options: [
@@ -16273,7 +17182,6 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Bye-elections fill unexpected vacancies in a constituency.",
     ),
-
     QuizQuestion(
       question: "5. Why is accountability an importance of elections?",
       options: [
@@ -16284,11 +17192,12 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Elections allow citizens to reward or punish leaders based on performance.",
+      explanation:
+          "Elections allow citizens to reward or punish leaders based on performance.",
     ),
-
     QuizQuestion(
-      question: "6. Which of the following is an electoral material used in Ghana?",
+      question:
+          "6. Which of the following is an electoral material used in Ghana?",
       options: [
         "School textbook",
         "Passport",
@@ -16299,7 +17208,6 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Ballot boxes are essential for collecting votes.",
     ),
-
     QuizQuestion(
       question: "7. How does democracy promote political stability?",
       options: [
@@ -16310,22 +17218,18 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Stability comes from having a clear and peaceful way to change leaders.",
+      explanation:
+          "Stability comes from having a clear and peaceful way to change leaders.",
     ),
-
     QuizQuestion(
-      question: "8. If the government wants to create a new region, they must organize a:",
-      options: [
-        "General Election",
-        "Bye-election",
-        "Referendum",
-        "Run-off"
-      ],
+      question:
+          "8. If the government wants to create a new region, they must organize a:",
+      options: ["General Election", "Bye-election", "Referendum", "Run-off"],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Major constitutional changes like creating regions require a referendum.",
+      explanation:
+          "Major constitutional changes like creating regions require a referendum.",
     ),
-
     QuizQuestion(
       question: "9. In a democracy, the Member of Parliament represents:",
       options: [
@@ -16338,7 +17242,6 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "MPs represent all people in their constituency.",
     ),
-
     QuizQuestion(
       question: "10. Legitimacy in an election means:",
       options: [
@@ -16349,21 +17252,28 @@ final QuizModel SSjhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Legitimacy occurs when the process is seen as valid and trusted by the people.",
+      explanation:
+          "Legitimacy occurs when the process is seen as valid and trusted by the people.",
     ),
   ],
 );
 final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/5. SOCIAL STUDIES JHS3 S4 SS3 L2/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/5. SOCIAL STUDIES JHS3 S4 SS3 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. The transfer of power from central government to local authorities is:",
-      options: ["Concentration", "Decentralisation", "Election", "Colonization"],
+      question:
+          "1. The transfer of power from central government to local authorities is:",
+      options: [
+        "Concentration",
+        "Decentralisation",
+        "Election",
+        "Colonization"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Decentralisation distributes power to local levels.",
     ),
-
     QuizQuestion(
       question: "2. The District Assembly is the highest authority in the:",
       options: ["Region", "Country", "District", "Continent"],
@@ -16371,7 +17281,6 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The Assembly governs its specific local district.",
     ),
-
     QuizQuestion(
       question: "3. How is the District Chief Executive (DCE) chosen?",
       options: [
@@ -16384,7 +17293,6 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This process ensures both national and local support.",
     ),
-
     QuizQuestion(
       question: "4. The District Assemblies Common Fund is used to:",
       options: [
@@ -16397,7 +17305,6 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "This fund supports development at the district level.",
     ),
-
     QuizQuestion(
       question: "5. Which member of the Assembly does NOT have a vote?",
       options: [
@@ -16408,9 +17315,9 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "The MP participates in discussions but cannot vote on Assembly decisions.",
+      explanation:
+          "The MP participates in discussions but cannot vote on Assembly decisions.",
     ),
-
     QuizQuestion(
       question: "6. A 'bye-law' is a law that applies to:",
       options: [
@@ -16423,9 +17330,9 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Bye-laws are local regulations for a specific district.",
     ),
-
     QuizQuestion(
-      question: "7. Traditional authorities (Chiefs) are involved in the Assembly by:",
+      question:
+          "7. Traditional authorities (Chiefs) are involved in the Assembly by:",
       options: [
         "Being the only ones who can vote",
         "Consulting on the appointment of 30% of members",
@@ -16436,7 +17343,6 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Chiefs help select some appointed members of the Assembly.",
     ),
-
     QuizQuestion(
       question: "8. Which of these promotes local economic development?",
       options: [
@@ -16447,9 +17353,9 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Markets create opportunities for trade and local businesses.",
+      explanation:
+          "Markets create opportunities for trade and local businesses.",
     ),
-
     QuizQuestion(
       question: "9. Decentralisation helps democracy because:",
       options: [
@@ -16462,9 +17368,9 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Participation at local levels strengthens democracy.",
     ),
-
     QuizQuestion(
-      question: "10. The technical head of the District Assembly administration is the:",
+      question:
+          "10. The technical head of the District Assembly administration is the:",
       options: [
         "Police Commander",
         "District Coordinating Director",
@@ -16473,31 +17379,40 @@ final QuizModel SSjhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The Coordinating Director manages the administrative staff.",
+      explanation:
+          "The Coordinating Director manages the administrative staff.",
     ),
   ],
 );
 final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/6. SOCIAL STUDIES JHS3 S4 SS3 L3/9. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/6. SOCIAL STUDIES JHS3 S4 SS3 L3/9. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Investors are more likely to put money into a country that is:",
+      question:
+          "1. Investors are more likely to put money into a country that is:",
       options: ["Unstable", "Stable", "At war", "Changing laws daily"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Stability reduces risk and attracts investors.",
     ),
-
     QuizQuestion(
-      question: "2. When people take their money and investments to other countries due to fear, it is called:",
-      options: ["Capital flight", "Capital growth", "International trade", "Tourism"],
+      question:
+          "2. When people take their money and investments to other countries due to fear, it is called:",
+      options: [
+        "Capital flight",
+        "Capital growth",
+        "International trade",
+        "Tourism"
+      ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Fear of instability causes investors to move money to safer countries.",
+      explanation:
+          "Fear of instability causes investors to move money to safer countries.",
     ),
-
     QuizQuestion(
-      question: "3. Which institution is responsible for interpreting laws and settling disputes peacefully?",
+      question:
+          "3. Which institution is responsible for interpreting laws and settling disputes peacefully?",
       options: [
         "The Police",
         "The Judiciary (Courts)",
@@ -16508,7 +17423,6 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The judiciary interprets laws and resolves disputes.",
     ),
-
     QuizQuestion(
       question: "4. Economic instability is often caused by:",
       options: [
@@ -16521,7 +17435,6 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "High inflation and unemployment weaken the economy.",
     ),
-
     QuizQuestion(
       question: "5. Inclusive political participation means:",
       options: [
@@ -16532,9 +17445,9 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Inclusion ensures all citizens are represented and reduces conflict.",
+      explanation:
+          "Inclusion ensures all citizens are represented and reduces conflict.",
     ),
-
     QuizQuestion(
       question: "6. Vigilantism is the:",
       options: [
@@ -16547,7 +17460,6 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Vigilantism happens outside the formal legal system.",
     ),
-
     QuizQuestion(
       question: "7. A stable political environment encourages:",
       options: [
@@ -16560,7 +17472,6 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Stability builds confidence for business and investment.",
     ),
-
     QuizQuestion(
       question: "8. External interference refers to:",
       options: [
@@ -16571,9 +17482,9 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "External interference can destabilize a country's governance.",
+      explanation:
+          "External interference can destabilize a country's governance.",
     ),
-
     QuizQuestion(
       question: "9. National development includes improvements in:",
       options: [
@@ -16586,7 +17497,6 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Development improves quality of life for all citizens.",
     ),
-
     QuizQuestion(
       question: "10. To promote stability, we should invest in:",
       options: [
@@ -16597,16 +17507,19 @@ final QuizModel SSjhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Education helps citizens participate peacefully in democracy.",
+      explanation:
+          "Education helps citizens participate peacefully in democracy.",
     ),
   ],
 );
 
 final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/9. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/9. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which law established the Three-Tier Pension Scheme in Ghana?",
+      question:
+          "1. Which law established the Three-Tier Pension Scheme in Ghana?",
       options: [
         "PNDC Law 247",
         "National Pensions Act 766",
@@ -16617,17 +17530,17 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Act 766 of 2008 introduced the three-tier pension system.",
     ),
-
     QuizQuestion(
-      question: "2. What percentage of a worker's basic salary is contributed by the employer?",
+      question:
+          "2. What percentage of a worker's basic salary is contributed by the employer?",
       options: ["5.5%", "18.5%", "13%", "10%"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "The employer contributes 13% of the worker’s salary.",
     ),
-
     QuizQuestion(
-      question: "3. Which benefit is paid if a worker can no longer work due to permanent illness?",
+      question:
+          "3. Which benefit is paid if a worker can no longer work due to permanent illness?",
       options: [
         "Retirement Benefit",
         "Unemployment Benefit",
@@ -16636,9 +17549,9 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Invalidity benefits support workers unable to work due to illness.",
+      explanation:
+          "Invalidity benefits support workers unable to work due to illness.",
     ),
-
     QuizQuestion(
       question: "4. Tier 2 of the pension scheme is managed by:",
       options: [
@@ -16651,7 +17564,6 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Tier 2 is privately managed under the mandatory scheme.",
     ),
-
     QuizQuestion(
       question: "5. What is the minimum age for early voluntary retirement?",
       options: ["45", "60", "55", "58"],
@@ -16659,17 +17571,17 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Workers can opt for early retirement at age 55.",
     ),
-
     QuizQuestion(
-      question: "6. Out of the 18.5% contribution, what percentage goes directly to SSNIT for Tier 1?",
+      question:
+          "6. Out of the 18.5% contribution, what percentage goes directly to SSNIT for Tier 1?",
       options: ["5%", "13.5%", "13%", "5.5%"],
       correctIndex: 1,
       difficulty: "Hard",
       explanation: "13.5% goes to SSNIT (Tier 1), while 5% goes to Tier 2.",
     ),
-
     QuizQuestion(
-      question: "7. Which document is NOT typically required for a Retirement Benefit claim?",
+      question:
+          "7. Which document is NOT typically required for a Retirement Benefit claim?",
       options: [
         "Valid National ID",
         "SSNIT Biometric Card",
@@ -16680,9 +17592,9 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "School certificates are not required for pension claims.",
     ),
-
     QuizQuestion(
-      question: "8. Tier 1 is described as a 'defined benefit' scheme. What does this mean?",
+      question:
+          "8. Tier 1 is described as a 'defined benefit' scheme. What does this mean?",
       options: [
         "You get back exactly what you put in",
         "Your monthly pension is guaranteed based on a formula",
@@ -16693,7 +17605,6 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Tier 1 guarantees a monthly pension based on a formula.",
     ),
-
     QuizQuestion(
       question: "9. Who can claim the Survivors' Benefit?",
       options: [
@@ -16706,7 +17617,6 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Survivors’ benefits go to dependents or next of kin.",
     ),
-
     QuizQuestion(
       question: "10. What is the main purpose of social security?",
       options: [
@@ -16717,21 +17627,24 @@ final QuizModel SSjhs3s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Social security ensures financial support when people can no longer work.",
+      explanation:
+          "Social security ensures financial support when people can no longer work.",
     ),
   ],
 );
 final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which term refers to the practical application of knowledge to solve problems?",
+      question:
+          "1. Which term refers to the practical application of knowledge to solve problems?",
       options: ["Culture", "Science", "Technology", "Tradition"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Technology is the application of knowledge for practical purposes.",
+      explanation:
+          "Technology is the application of knowledge for practical purposes.",
     ),
-
     QuizQuestion(
       question: "2. What is the primary goal of science?",
       options: [
@@ -16742,9 +17655,9 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Science seeks to understand natural laws and how the world works.",
+      explanation:
+          "Science seeks to understand natural laws and how the world works.",
     ),
-
     QuizQuestion(
       question: "3. In Ghana, how does technology help the energy sector?",
       options: [
@@ -16755,9 +17668,9 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Technology supports renewable energy like solar and wind power.",
+      explanation:
+          "Technology supports renewable energy like solar and wind power.",
     ),
-
     QuizQuestion(
       question: "4. Which machine is an example of medical technology?",
       options: [
@@ -16768,9 +17681,9 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "MRI machines are advanced medical technologies used for diagnosis.",
+      explanation:
+          "MRI machines are advanced medical technologies used for diagnosis.",
     ),
-
     QuizQuestion(
       question: "5. What does 'brain drain' mean in the context of science?",
       options: [
@@ -16781,9 +17694,9 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Brain drain is the migration of skilled professionals to other countries.",
+      explanation:
+          "Brain drain is the migration of skilled professionals to other countries.",
     ),
-
     QuizQuestion(
       question: "6. Why are new seed varieties important for Ghanaian farmers?",
       options: [
@@ -16794,11 +17707,12 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Improved seeds increase yield and resist diseases and drought.",
+      explanation:
+          "Improved seeds increase yield and resist diseases and drought.",
     ),
-
     QuizQuestion(
-      question: "7. Which of these is a way to encourage more innovation in Ghana?",
+      question:
+          "7. Which of these is a way to encourage more innovation in Ghana?",
       options: [
         "Investing in science education",
         "Reducing the number of schools",
@@ -16809,7 +17723,6 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Education drives innovation and scientific advancement.",
     ),
-
     QuizQuestion(
       question: "8. How has technology changed education in Ghana?",
       options: [
@@ -16822,7 +17735,6 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Online platforms allow learning anytime and anywhere.",
     ),
-
     QuizQuestion(
       question: "9. A lack of research funding means that:",
       options: [
@@ -16835,7 +17747,6 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Without funding, research activities cannot progress.",
     ),
-
     QuizQuestion(
       question: "10. Which of the following is a local example of technology?",
       options: [
@@ -16852,10 +17763,12 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
 );
 
 final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Who was the leader of the Armed Forces Revolutionary Council (AFRC)?",
+      question:
+          "1. Who was the leader of the Armed Forces Revolutionary Council (AFRC)?",
       options: [
         "Flt. Lt. Jerry John Rawlings",
         "General I.K. Acheampong",
@@ -16864,19 +17777,21 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Jerry John Rawlings led the AFRC after the June 4, 1979 uprising.",
+      explanation:
+          "Jerry John Rawlings led the AFRC after the June 4, 1979 uprising.",
     ),
-
     QuizQuestion(
-      question: "2. On what date was the first round of the 1979 presidential elections held?",
+      question:
+          "2. On what date was the first round of the 1979 presidential elections held?",
       options: ["June 18th", "June 4th", "July 9th", "September 24th"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The first round was held on June 18, 1979, but no candidate won outright.",
+      explanation:
+          "The first round was held on June 18, 1979, but no candidate won outright.",
     ),
-
     QuizQuestion(
-      question: "3. Which political party won the majority of seats in the 1979 Parliamentary elections?",
+      question:
+          "3. Which political party won the majority of seats in the 1979 Parliamentary elections?",
       options: [
         "Popular Front Party (PFP)",
         "United National Convention (UNC)",
@@ -16885,9 +17800,9 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The PNP, led by Dr. Hilla Limann, won the majority of seats.",
+      explanation:
+          "The PNP, led by Dr. Hilla Limann, won the majority of seats.",
     ),
-
     QuizQuestion(
       question: "4. The 'house-cleaning' exercise was mainly aimed at:",
       options: [
@@ -16898,11 +17813,12 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The AFRC used this exercise to remove corruption and corrupt officials.",
+      explanation:
+          "The AFRC used this exercise to remove corruption and corrupt officials.",
     ),
-
     QuizQuestion(
-      question: "5. Who was the runner-up (second place) in the 1979 presidential run-off?",
+      question:
+          "5. Who was the runner-up (second place) in the 1979 presidential run-off?",
       options: [
         "William Ofori Atta",
         "Victor Owusu",
@@ -16911,11 +17827,12 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Victor Owusu of the PFP contested against Dr. Limann in the run-off.",
+      explanation:
+          "Victor Owusu of the PFP contested against Dr. Limann in the run-off.",
     ),
-
     QuizQuestion(
-      question: "6. What does the term 'Republic' mean in the context of Ghana's government?",
+      question:
+          "6. What does the term 'Republic' mean in the context of Ghana's government?",
       options: [
         "Rule by a King or Queen",
         "Rule by the military only",
@@ -16924,27 +17841,28 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A republic is governed by elected representatives chosen by the people.",
+      explanation:
+          "A republic is governed by elected representatives chosen by the people.",
     ),
-
     QuizQuestion(
-      question: "7. How many seats did the PNP win in the Volta Region during the 1979 elections?",
+      question:
+          "7. How many seats did the PNP win in the Volta Region during the 1979 elections?",
       options: ["2", "5", "11", "15"],
       correctIndex: 2,
       difficulty: "Hard",
       explanation: "The PNP secured 11 seats in the Volta Region.",
     ),
-
     QuizQuestion(
       question: "8. The AFRC removed which military government from power?",
       options: ["CPP", "Progress Party", "SMC II", "PNDC"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The AFRC overthrew the Supreme Military Council II (SMC II).",
+      explanation:
+          "The AFRC overthrew the Supreme Military Council II (SMC II).",
     ),
-
     QuizQuestion(
-      question: "9. Why was the presidential election of 1979 decided in two rounds?",
+      question:
+          "9. Why was the presidential election of 1979 decided in two rounds?",
       options: [
         "The first round was canceled",
         "To allow more parties to join",
@@ -16953,15 +17871,18 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A run-off was required because no candidate achieved an absolute majority.",
+      explanation:
+          "A run-off was required because no candidate achieved an absolute majority.",
     ),
   ],
 );
 final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which system of government was practiced during the Third Republic?",
+      question:
+          "1. Which system of government was practiced during the Third Republic?",
       options: [
         "Monarchy",
         "Military Dictatorship",
@@ -16970,9 +17891,9 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "The 1979 Constitution established a Presidential system with executive powers.",
+      explanation:
+          "The 1979 Constitution established a Presidential system with executive powers.",
     ),
-
     QuizQuestion(
       question: "2. The Office of the Ombudsman was created to:",
       options: [
@@ -16983,11 +17904,12 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The Ombudsman investigated complaints about government misconduct.",
+      explanation:
+          "The Ombudsman investigated complaints about government misconduct.",
     ),
-
     QuizQuestion(
-      question: "3. True or False: The 1979 Constitution allowed Ghana to become a one-party state.",
+      question:
+          "3. True or False: The 1979 Constitution allowed Ghana to become a one-party state.",
       options: [
         "True",
         "False",
@@ -16996,11 +17918,12 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The Constitution prohibited a one-party state to ensure democracy.",
+      explanation:
+          "The Constitution prohibited a one-party state to ensure democracy.",
     ),
-
     QuizQuestion(
-      question: "4. Who was the Commander-in-Chief of the Armed Forces in the Third Republic?",
+      question:
+          "4. Who was the Commander-in-Chief of the Armed Forces in the Third Republic?",
       options: [
         "Jerry John Rawlings",
         "The Chief of Defence Staff",
@@ -17009,11 +17932,12 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Under the Presidential system, the elected President leads the armed forces.",
+      explanation:
+          "Under the Presidential system, the elected President leads the armed forces.",
     ),
-
     QuizQuestion(
-      question: "5. What was a major political achievement of the Third Republic?",
+      question:
+          "5. What was a major political achievement of the Third Republic?",
       options: [
         "The construction of the Akosombo Dam",
         "The promotion of national integration and unity",
@@ -17022,9 +17946,9 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Multi-party democracy helped promote unity and national integration.",
+      explanation:
+          "Multi-party democracy helped promote unity and national integration.",
     ),
-
     QuizQuestion(
       question: "6. The 'Independence of the Judiciary' means that:",
       options: [
@@ -17035,9 +17959,9 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Judicial independence ensures fair decisions free from political pressure.",
+      explanation:
+          "Judicial independence ensures fair decisions free from political pressure.",
     ),
-
     QuizQuestion(
       question: "7. Fundamental Human Rights in the Third Republic included:",
       options: [
@@ -17048,9 +17972,9 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Freedom of speech is a key democratic right protected by the Constitution.",
+      explanation:
+          "Freedom of speech is a key democratic right protected by the Constitution.",
     ),
-
     QuizQuestion(
       question: "8. The Council of State consisted of:",
       options: [
@@ -17061,11 +17985,12 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The Council of State provides advice and guidance to the President.",
+      explanation:
+          "The Council of State provides advice and guidance to the President.",
     ),
-
     QuizQuestion(
-      question: "9. The Third Republic ended military rule. What does 'civilian rule' mean?",
+      question:
+          "9. The Third Republic ended military rule. What does 'civilian rule' mean?",
       options: [
         "Rule by doctors only",
         "Rule by leaders elected by the people",
@@ -17074,11 +17999,12 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Civilian rule refers to governance by elected, non-military leaders.",
+      explanation:
+          "Civilian rule refers to governance by elected, non-military leaders.",
     ),
-
     QuizQuestion(
-      question: "10. The 1979 Constitution was similar to the 1969 Constitution in that both:",
+      question:
+          "10. The 1979 Constitution was similar to the 1969 Constitution in that both:",
       options: [
         "Allowed military takeovers",
         "Were based on democratic principles",
@@ -17087,15 +18013,18 @@ final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Both constitutions aimed to establish democratic governance in Ghana.",
+      explanation:
+          "Both constitutions aimed to establish democratic governance in Ghana.",
     ),
   ],
 );
 final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. On what date was the referendum for the 1992 Constitution held?",
+      question:
+          "1. On what date was the referendum for the 1992 Constitution held?",
       options: [
         "4th June 1979",
         "28th April 1992",
@@ -17104,9 +18033,9 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The referendum was held on April 28, 1992 to approve the new Constitution.",
+      explanation:
+          "The referendum was held on April 28, 1992 to approve the new Constitution.",
     ),
-
     QuizQuestion(
       question: "2. Who won the 1992 Presidential election?",
       options: [
@@ -17117,24 +18046,20 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Jerry John Rawlings won to become the first President of the Fourth Republic.",
+      explanation:
+          "Jerry John Rawlings won to become the first President of the Fourth Republic.",
     ),
-
     QuizQuestion(
-      question: "3. The Fourth Republic started after how many years of military rule under the PNDC?",
-      options: [
-        "2 years",
-        "5 years",
-        "11 years",
-        "20 years"
-      ],
+      question:
+          "3. The Fourth Republic started after how many years of military rule under the PNDC?",
+      options: ["2 years", "5 years", "11 years", "20 years"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "The PNDC ruled from 1981 to 1993, totaling about 11 years.",
     ),
-
     QuizQuestion(
-      question: "4. Which of these was a candidate for the People's National Convention (PNC) in 1992?",
+      question:
+          "4. Which of these was a candidate for the People's National Convention (PNC) in 1992?",
       options: [
         "Albert Adu Boahen",
         "Dr. Hilla Limann",
@@ -17145,7 +18070,6 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Dr. Hilla Limann led the PNC in the 1992 elections.",
     ),
-
     QuizQuestion(
       question: "5. What was the main outcome of the 1992 Referendum?",
       options: [
@@ -17158,7 +18082,6 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Over 90% of voters approved the 1992 Constitution.",
     ),
-
     QuizQuestion(
       question: "6. The Fourth Republic is different from the Third because:",
       options: [
@@ -17169,9 +18092,9 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The Fourth Republic has remained stable since 1993, unlike the short-lived Third Republic.",
+      explanation:
+          "The Fourth Republic has remained stable since 1993, unlike the short-lived Third Republic.",
     ),
-
     QuizQuestion(
       question: "7. What does 'Inauguration' mean?",
       options: [
@@ -17182,35 +18105,27 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Inauguration is when a newly elected leader is officially sworn into office.",
+      explanation:
+          "Inauguration is when a newly elected leader is officially sworn into office.",
     ),
-
     QuizQuestion(
-      question: "8. How many people (approximately) voted 'Yes' in the 1992 Referendum?",
-      options: [
-        "1 million",
-        "3.4 million",
-        "8 million",
-        "10 million"
-      ],
+      question:
+          "8. How many people (approximately) voted 'Yes' in the 1992 Referendum?",
+      options: ["1 million", "3.4 million", "8 million", "10 million"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "About 3.4 million people voted 'Yes' to approve the Constitution.",
+      explanation:
+          "About 3.4 million people voted 'Yes' to approve the Constitution.",
     ),
-
     QuizQuestion(
-      question: "9. Which of these parties formed an alliance with the NDC in 1992?",
-      options: [
-        "NPP",
-        "National Convention Party (NCP)",
-        "PHP",
-        "NIP"
-      ],
+      question:
+          "9. Which of these parties formed an alliance with the NDC in 1992?",
+      options: ["NPP", "National Convention Party (NCP)", "PHP", "NIP"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The NDC allied with NCP and EGLE to form the Progressive Alliance.",
+      explanation:
+          "The NDC allied with NCP and EGLE to form the Progressive Alliance.",
     ),
-
     QuizQuestion(
       question: "10. What is the current supreme law of Ghana?",
       options: [
@@ -17221,12 +18136,14 @@ final QuizModel SSjhs3s6ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "The 1992 Constitution is the foundation of Ghana’s Fourth Republic.",
+      explanation:
+          "The 1992 Constitution is the foundation of Ghana’s Fourth Republic.",
     ),
   ],
 );
 final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
       question: "1. The Fourth Republic of Ghana was inaugurated on:",
@@ -17238,11 +18155,12 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "7th January 1993 marks the beginning of Ghana’s Fourth Republic.",
+      explanation:
+          "7th January 1993 marks the beginning of Ghana’s Fourth Republic.",
     ),
-
     QuizQuestion(
-      question: "2. Which of these is a disadvantage of the Executive Presidency?",
+      question:
+          "2. Which of these is a disadvantage of the Executive Presidency?",
       options: [
         "It is too expensive",
         "Decisions are made too slowly",
@@ -17251,37 +18169,29 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Because the President holds significant power, there is a risk of abuse without strong checks and balances.",
+      explanation:
+          "Because the President holds significant power, there is a risk of abuse without strong checks and balances.",
     ),
-
     QuizQuestion(
-      question: "3. The boycott of the 1992 Parliamentary elections was led by which party?",
-      options: [
-        "NPP",
-        "NDC",
-        "EGLE",
-        "NCP"
-      ],
+      question:
+          "3. The boycott of the 1992 Parliamentary elections was led by which party?",
+      options: ["NPP", "NDC", "EGLE", "NCP"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The NPP and other opposition parties boycotted the parliamentary elections.",
+      explanation:
+          "The NPP and other opposition parties boycotted the parliamentary elections.",
     ),
-
     QuizQuestion(
-      question: "4. How many seats did the NDC win in the First Parliament of the Fourth Republic?",
-      options: [
-        "71",
-        "140",
-        "189",
-        "200"
-      ],
+      question:
+          "4. How many seats did the NDC win in the First Parliament of the Fourth Republic?",
+      options: ["71", "140", "189", "200"],
       correctIndex: 2,
       difficulty: "Hard",
       explanation: "Due to the boycott, the NDC secured 189 out of 200 seats.",
     ),
-
     QuizQuestion(
-      question: "5. Which body interprets the laws and ensures they follow the Constitution?",
+      question:
+          "5. Which body interprets the laws and ensures they follow the Constitution?",
       options: [
         "Parliament",
         "The Cabinet",
@@ -17290,24 +18200,20 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The Judiciary, especially the Supreme Court, interprets laws and ensures constitutional compliance.",
+      explanation:
+          "The Judiciary, especially the Supreme Court, interprets laws and ensures constitutional compliance.",
     ),
-
     QuizQuestion(
-      question: "6. Under the 1992 Constitution, the President can serve a maximum of how many terms?",
-      options: [
-        "One term",
-        "Two terms",
-        "Three terms",
-        "Unlimited terms"
-      ],
+      question:
+          "6. Under the 1992 Constitution, the President can serve a maximum of how many terms?",
+      options: ["One term", "Two terms", "Three terms", "Unlimited terms"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "A President can serve a maximum of two four-year terms.",
     ),
-
     QuizQuestion(
-      question: "7. Which of these is a feature of the Westminster system NOT found in Ghana?",
+      question:
+          "7. Which of these is a feature of the Westminster system NOT found in Ghana?",
       options: [
         "A written constitution",
         "A ceremonial Monarch as Head of State",
@@ -17316,9 +18222,9 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The Westminster system includes a Monarch, while Ghana has an elected President.",
+      explanation:
+          "The Westminster system includes a Monarch, while Ghana has an elected President.",
     ),
-
     QuizQuestion(
       question: "8. The 'Kume Preko' demonstration of 1995 is an example of:",
       options: [
@@ -17329,11 +18235,12 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "It was a major public protest, showing democratic freedom of expression.",
+      explanation:
+          "It was a major public protest, showing democratic freedom of expression.",
     ),
-
     QuizQuestion(
-      question: "9. Who acts as the 'referee' to ensure the President and Parliament follow the Constitution?",
+      question:
+          "9. Who acts as the 'referee' to ensure the President and Parliament follow the Constitution?",
       options: [
         "The Army",
         "No one",
@@ -17342,11 +18249,12 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "The Judiciary ensures all arms of government act within the Constitution.",
+      explanation:
+          "The Judiciary ensures all arms of government act within the Constitution.",
     ),
-
     QuizQuestion(
-      question: "10. The peaceful transfer of power in 2001 was between which two leaders?",
+      question:
+          "10. The peaceful transfer of power in 2001 was between which two leaders?",
       options: [
         "Rawlings and Limann",
         "Atta Mills and Mahama",
@@ -17355,7 +18263,8 @@ final QuizModel SSjhs3s6ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Power transitioned peacefully from Jerry John Rawlings to John Agyekum Kufuor.",
+      explanation:
+          "Power transitioned peacefully from Jerry John Rawlings to John Agyekum Kufuor.",
     ),
   ],
 );
@@ -17376,7 +18285,6 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Tree bark has an uneven, rough surface.",
     ),
-
     QuizQuestion(
       question: "2. What is a key characteristic of all liquids?",
       options: [
@@ -17387,9 +18295,9 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Liquids maintain a fixed volume but take the shape of their container.",
+      explanation:
+          "Liquids maintain a fixed volume but take the shape of their container.",
     ),
-
     QuizQuestion(
       question: "3. Which of the following is an example of a gas?",
       options: [
@@ -17402,20 +18310,14 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Steam is water in its gaseous state.",
     ),
-
     QuizQuestion(
       question: "4. How would you describe the hardness of an iron nail?",
-      options: [
-        "Soft",
-        "Hard",
-        "Liquid",
-        "Smooth"
-      ],
+      options: ["Soft", "Hard", "Liquid", "Smooth"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Iron is a hard material that resists scratching and bending.",
+      explanation:
+          "Iron is a hard material that resists scratching and bending.",
     ),
-
     QuizQuestion(
       question: "5. Particles in a gas move ______ than particles in a solid.",
       options: [
@@ -17426,9 +18328,9 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Gas particles have more energy and move freely and rapidly.",
+      explanation:
+          "Gas particles have more energy and move freely and rapidly.",
     ),
-
     QuizQuestion(
       question: "6. Which group contains only solids?",
       options: [
@@ -17439,9 +18341,9 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "All listed materials are solids with fixed shapes and volumes.",
+      explanation:
+          "All listed materials are solids with fixed shapes and volumes.",
     ),
-
     QuizQuestion(
       question: "7. Why can you compress a gas but not a solid?",
       options: [
@@ -17454,33 +18356,21 @@ final QuizModel Scijhs1s1ss1Lesson1QuizData = QuizModel(
       difficulty: "High",
       explanation: "Large spaces between gas particles allow compression.",
     ),
-
     QuizQuestion(
       question: "8. A material that reflects light well is described as:",
-      options: [
-        "Dull",
-        "Hard",
-        "Soft",
-        "Shiny"
-      ],
+      options: ["Dull", "Hard", "Soft", "Shiny"],
       correctIndex: 3,
       difficulty: "Low",
       explanation: "Shiny materials reflect light and appear bright.",
     ),
-
     QuizQuestion(
-      question: "9. What is the state of matter of the water in the Volta Lake?",
-      options: [
-        "Solid",
-        "Gas",
-        "Liquid",
-        "Hard"
-      ],
+      question:
+          "9. What is the state of matter of the water in the Volta Lake?",
+      options: ["Solid", "Gas", "Liquid", "Hard"],
       correctIndex: 2,
       difficulty: "Low",
       explanation: "Water in lakes exists in liquid form.",
     ),
-
     QuizQuestion(
       question: "10. Which describes the particle arrangement in a solid?",
       options: [
@@ -17499,18 +18389,14 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/2. JHS1 S1 SS1 L2/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which liquid is essential for the human body to stay hydrated?",
-      options: [
-        "Kerosene",
-        "Alcohol",
-        "Water",
-        "Petrol"
-      ],
+      question:
+          "1. Which liquid is essential for the human body to stay hydrated?",
+      options: ["Kerosene", "Alcohol", "Water", "Petrol"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Water is the primary liquid our bodies need to function properly.",
+      explanation:
+          "Water is the primary liquid our bodies need to function properly.",
     ),
-
     QuizQuestion(
       question: "2. What is the main use of palm oil in a Ghanaian home?",
       options: [
@@ -17521,37 +18407,29 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Palm oil is widely used in cooking, especially in soups and stews.",
+      explanation:
+          "Palm oil is widely used in cooking, especially in soups and stews.",
     ),
-
     QuizQuestion(
       question: "3. Hydro-electric power is generated using the energy of:",
-      options: [
-        "Burning oil",
-        "Flowing water",
-        "Still air",
-        "Hard rocks"
-      ],
+      options: ["Burning oil", "Flowing water", "Still air", "Hard rocks"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The movement of flowing water in dams produces electricity.",
+      explanation:
+          "The movement of flowing water in dams produces electricity.",
     ),
-
     QuizQuestion(
-      question: "4. Which liquid would you use to keep a squeaky door hinge moving quietly?",
-      options: [
-        "Water",
-        "Orange juice",
-        "Lubricating oil",
-        "Liquid soap"
-      ],
+      question:
+          "4. Which liquid would you use to keep a squeaky door hinge moving quietly?",
+      options: ["Water", "Orange juice", "Lubricating oil", "Liquid soap"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Lubricating oil reduces friction between moving metal parts.",
+      explanation:
+          "Lubricating oil reduces friction between moving metal parts.",
     ),
-
     QuizQuestion(
-      question: "5. Why is it dangerous to pollute our rivers with chemicals from illegal mining (Galamsey)?",
+      question:
+          "5. Why is it dangerous to pollute our rivers with chemicals from illegal mining (Galamsey)?",
       options: [
         "The water becomes tastier",
         "It makes the water flow faster",
@@ -17560,9 +18438,9 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Pollution makes water unsafe for humans, animals, and crops.",
+      explanation:
+          "Pollution makes water unsafe for humans, animals, and crops.",
     ),
-
     QuizQuestion(
       question: "6. In a hospital, liquid vaccines are used primarily to:",
       options: [
@@ -17575,20 +18453,14 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Vaccines help the body fight diseases and build immunity.",
     ),
-
     QuizQuestion(
-      question: "7. Which of these liquids is often used as a fuel for lanterns in rural areas?",
-      options: [
-        "Kerosene",
-        "Fruit juice",
-        "Salt water",
-        "Palm oil"
-      ],
+      question:
+          "7. Which of these liquids is often used as a fuel for lanterns in rural areas?",
+      options: ["Kerosene", "Fruit juice", "Salt water", "Palm oil"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "Kerosene is commonly used for lighting and cooking.",
     ),
-
     QuizQuestion(
       question: "8. Water is called a 'universal solvent' because:",
       options: [
@@ -17599,22 +18471,17 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Water can dissolve many substances, making it useful in many processes.",
+      explanation:
+          "Water can dissolve many substances, making it useful in many processes.",
     ),
-
     QuizQuestion(
       question: "9. Which liquid helps a car engine from getting too hot?",
-      options: [
-        "Diesel",
-        "Brake fluid",
-        "Coolant/Water",
-        "Engine oil"
-      ],
+      options: ["Diesel", "Brake fluid", "Coolant/Water", "Engine oil"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Coolant or water absorbs heat and prevents the engine from overheating.",
+      explanation:
+          "Coolant or water absorbs heat and prevents the engine from overheating.",
     ),
-
     QuizQuestion(
       question: "10. Farmers use liquids like pesticides to:",
       options: [
@@ -17625,7 +18492,8 @@ final QuizModel Scijhs1s1ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Pesticides are used to kill harmful insects and protect crops.",
+      explanation:
+          "Pesticides are used to kill harmful insects and protect crops.",
     ),
   ],
 );
@@ -17633,18 +18501,14 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/science/3. JHS1 S1 SS1 L3/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which solid material is used to make iron rods for building?",
-      options: [
-        "Plastic",
-        "Wood",
-        "Metal",
-        "Cotton"
-      ],
+      question:
+          "1. Which solid material is used to make iron rods for building?",
+      options: ["Plastic", "Wood", "Metal", "Cotton"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Metals like iron are used in construction because they are very strong.",
+      explanation:
+          "Metals like iron are used in construction because they are very strong.",
     ),
-
     QuizQuestion(
       question: "2. Why do humans eat solid food like cassava?",
       options: [
@@ -17655,11 +18519,12 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Solid foods contain nutrients that provide energy for life.",
+      explanation:
+          "Solid foods contain nutrients that provide energy for life.",
     ),
-
     QuizQuestion(
-      question: "3. Which of these solids is used to protect our homes from intruders?",
+      question:
+          "3. Which of these solids is used to protect our homes from intruders?",
       options: [
         "A cotton curtain",
         "A wooden spoon",
@@ -17670,7 +18535,6 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Iron gates are strong and provide security for homes.",
     ),
-
     QuizQuestion(
       question: "4. Plants need the solid soil because it:",
       options: [
@@ -17683,20 +18547,14 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Soil holds plant roots firmly and provides nutrients.",
     ),
-
     QuizQuestion(
-      question: "5. Which solid is commonly used for roofing houses in many Ghanaian communities?",
-      options: [
-        "Metal sheets",
-        "Wool fibres",
-        "Solid food",
-        "Soft sand"
-      ],
+      question:
+          "5. Which solid is commonly used for roofing houses in many Ghanaian communities?",
+      options: ["Metal sheets", "Wool fibres", "Solid food", "Soft sand"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "Metal sheets are durable and protect homes from rain.",
     ),
-
     QuizQuestion(
       question: "6. What is the purpose of using solid wood for a door?",
       options: [
@@ -17709,9 +18567,9 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Wood is strong and provides protection and privacy.",
     ),
-
     QuizQuestion(
-      question: "7. A student uses a solid pen to write. Which part of the pen is a solid?",
+      question:
+          "7. A student uses a solid pen to write. Which part of the pen is a solid?",
       options: [
         "Only the ink",
         "The plastic case",
@@ -17722,7 +18580,6 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The outer plastic body of the pen is a solid material.",
     ),
-
     QuizQuestion(
       question: "8. How do solid clothes protect us from mosquitoes?",
       options: [
@@ -17735,9 +18592,9 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Clothes cover the body and prevent mosquito bites.",
     ),
-
     QuizQuestion(
-      question: "9. Which group contains only solid materials used in construction?",
+      question:
+          "9. Which group contains only solid materials used in construction?",
       options: [
         "Sand, Water, Air",
         "Stones, Wood, Cement",
@@ -17748,9 +18605,9 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Stones, wood, and cement are all solid building materials.",
     ),
-
     QuizQuestion(
-      question: "10. Why is it important to preserve our solid resources like timber?",
+      question:
+          "10. Why is it important to preserve our solid resources like timber?",
       options: [
         "So we can burn them all",
         "To ensure we have materials for the future",
@@ -17759,7 +18616,8 @@ final QuizModel Scijhs1s1ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Preserving resources ensures future generations can use them.",
+      explanation:
+          "Preserving resources ensures future generations can use them.",
     ),
   ],
 );
@@ -17768,30 +18626,18 @@ final QuizModel Scijhs1s1ss1Lesson4QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. What is the chemical symbol for Calcium?",
-      options: [
-        "C",
-        "Cl",
-        "Ca",
-        "K"
-      ],
+      options: ["C", "Cl", "Ca", "K"],
       correctIndex: 2,
       difficulty: "Low",
       explanation: "Ca is the symbol for Calcium (Atomic Number 20).",
     ),
-
     QuizQuestion(
       question: "2. Which element has the atomic number 1?",
-      options: [
-        "Hydrogen",
-        "Helium",
-        "Lithium",
-        "Carbon"
-      ],
+      options: ["Hydrogen", "Helium", "Lithium", "Carbon"],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "Hydrogen is the first element on the Periodic Table.",
     ),
-
     QuizQuestion(
       question: "3. Where are the Noble Gases located on the Periodic Table?",
       options: [
@@ -17802,24 +18648,19 @@ final QuizModel Scijhs1s1ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Noble gases like Helium and Neon are in the far-right column.",
+      explanation:
+          "Noble gases like Helium and Neon are in the far-right column.",
     ),
-
     QuizQuestion(
       question: "4. Which symbol represents the element Potassium?",
-      options: [
-        "P",
-        "Po",
-        "K",
-        "Pt"
-      ],
+      options: ["P", "Po", "K", "Pt"],
       correctIndex: 2,
       difficulty: "High",
       explanation: "The symbol K comes from the Latin name 'Kalium'.",
     ),
-
     QuizQuestion(
-      question: "5. Elements in the same column (Group) of the table usually have:",
+      question:
+          "5. Elements in the same column (Group) of the table usually have:",
       options: [
         "The same colour",
         "Similar properties",
@@ -17830,70 +18671,43 @@ final QuizModel Scijhs1s1ss1Lesson4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Elements in the same group react in similar ways.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a non-metal found in charcoal?",
-      options: [
-        "Carbon",
-        "Calcium",
-        "Copper",
-        "Chlorine"
-      ],
+      options: ["Carbon", "Calcium", "Copper", "Chlorine"],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "Charcoal is mostly made of carbon, a non-metal.",
     ),
-
     QuizQuestion(
       question: "7. What is the atomic number of Oxygen?",
-      options: [
-        "6",
-        "7",
-        "8",
-        "10"
-      ],
+      options: ["6", "7", "8", "10"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "Oxygen is the 8th element on the Periodic Table.",
     ),
-
     QuizQuestion(
-      question: "8. Which group of elements is known for conducting electricity well?",
-      options: [
-        "Metals",
-        "Non-metals",
-        "Noble gases",
-        "Liquids"
-      ],
+      question:
+          "8. Which group of elements is known for conducting electricity well?",
+      options: ["Metals", "Non-metals", "Noble gases", "Liquids"],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "Metals are good conductors of heat and electricity.",
     ),
-
     QuizQuestion(
       question: "9. Which element is second on the Periodic Table?",
-      options: [
-        "Hydrogen",
-        "Helium",
-        "Lithium",
-        "Beryllium"
-      ],
+      options: ["Hydrogen", "Helium", "Lithium", "Beryllium"],
       correctIndex: 1,
       difficulty: "Low",
       explanation: "Helium (He) has atomic number 2 and comes after Hydrogen.",
     ),
-
     QuizQuestion(
-      question: "10. Chlorine (Cl) is located on the right side of the table. What is it?",
-      options: [
-        "A metal",
-        "A non-metal",
-        "A solid metal",
-        "A noble gas"
-      ],
+      question:
+          "10. Chlorine (Cl) is located on the right side of the table. What is it?",
+      options: ["A metal", "A non-metal", "A solid metal", "A noble gas"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Elements on the right side (except noble gases) are non-metals.",
+      explanation:
+          "Elements on the right side (except noble gases) are non-metals.",
     ),
   ],
 );
@@ -17903,43 +18717,28 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Which part controls the movement of substances in and out?",
-      options: [
-        "Cytoplasm",
-        "Nucleus",
-        "Mitochondria",
-        "Cell membrane"
-      ],
+      options: ["Cytoplasm", "Nucleus", "Mitochondria", "Cell membrane"],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "The cell membrane is semi-permeable and controls what enters and leaves the cell.",
+      explanation:
+          "The cell membrane is semi-permeable and controls what enters and leaves the cell.",
     ),
-
     QuizQuestion(
-      question: "2. What structure acts as the 'power house' of the animal cell?",
-      options: [
-        "Mitochondria",
-        "Cytoplasm",
-        "Nucleus",
-        "Vacuole"
-      ],
+      question:
+          "2. What structure acts as the 'power house' of the animal cell?",
+      options: ["Mitochondria", "Cytoplasm", "Nucleus", "Vacuole"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "Mitochondria convert nutrients into energy for the cell.",
     ),
-
     QuizQuestion(
       question: "3. Where are the hereditary structures (chromosomes) located?",
-      options: [
-        "Cytoplasm",
-        "Nucleus",
-        "Membrane",
-        "Vacuole"
-      ],
+      options: ["Cytoplasm", "Nucleus", "Membrane", "Vacuole"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The nucleus contains chromosomes which carry genetic information.",
+      explanation:
+          "The nucleus contains chromosomes which carry genetic information.",
     ),
-
     QuizQuestion(
       question: "4. What is the state of a vacuole in a typical animal cell?",
       options: [
@@ -17952,20 +18751,15 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Animal cells usually have small, temporary vacuoles.",
     ),
-
     QuizQuestion(
-      question: "5. Which part is responsible for the cell's chemical reactions?",
-      options: [
-        "Cell membrane",
-        "Mitochondria",
-        "Cytoplasm",
-        "Nucleus"
-      ],
+      question:
+          "5. Which part is responsible for the cell's chemical reactions?",
+      options: ["Cell membrane", "Mitochondria", "Cytoplasm", "Nucleus"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The cytoplasm is where most metabolic (chemical) reactions occur.",
+      explanation:
+          "The cytoplasm is where most metabolic (chemical) reactions occur.",
     ),
-
     QuizQuestion(
       question: "6. If a cell was a school, which part would be the Principal?",
       options: [
@@ -17976,22 +18770,16 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "The nucleus acts like the principal, controlling all activities of the cell.",
+      explanation:
+          "The nucleus acts like the principal, controlling all activities of the cell.",
     ),
-
     QuizQuestion(
       question: "7. Which of these is NOT a main part of an animal cell?",
-      options: [
-        "Cell wall",
-        "Nucleus",
-        "Cytoplasm",
-        "Membrane"
-      ],
+      options: ["Cell wall", "Nucleus", "Cytoplasm", "Membrane"],
       correctIndex: 0,
       difficulty: "Hard",
       explanation: "Cell walls are found in plant cells, not animal cells.",
     ),
-
     QuizQuestion(
       question: "8. What is the shape of a mitochondrion often described as?",
       options: [
@@ -18004,7 +18792,6 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Mitochondria are typically oval or sausage-shaped.",
     ),
-
     QuizQuestion(
       question: "9. Why is the cell membrane called semi-permeable?",
       options: [
@@ -18017,18 +18804,13 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "It allows only certain substances to pass through.",
     ),
-
     QuizQuestion(
       question: "10. What do we call a living thing made of only one cell?",
-      options: [
-        "Multicellular",
-        "Unicellular",
-        "Non-cellular",
-        "Bi-cellular"
-      ],
+      options: ["Multicellular", "Unicellular", "Non-cellular", "Bi-cellular"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "'Uni' means one; unicellular organisms consist of a single cell.",
+      explanation:
+          "'Uni' means one; unicellular organisms consist of a single cell.",
     ),
   ],
 );
@@ -18036,31 +18818,21 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/6. JHS1 S1 SS2 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which structure is found in a plant cell but NOT in an animal cell?",
-      options: [
-        "Nucleus",
-        "Cytoplasm",
-        "Cell wall",
-        "Mitochondria"
-      ],
+      question:
+          "1. Which structure is found in a plant cell but NOT in an animal cell?",
+      options: ["Nucleus", "Cytoplasm", "Cell wall", "Mitochondria"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "Only plant cells have a rigid cell wall for support.",
     ),
-
     QuizQuestion(
       question: "2. What pigment inside chloroplasts traps sunlight?",
-      options: [
-        "Cellulose",
-        "Chlorophyll",
-        "Cytoplasm",
-        "Sap"
-      ],
+      options: ["Cellulose", "Chlorophyll", "Cytoplasm", "Sap"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Chlorophyll is the green pigment that absorbs light energy for photosynthesis.",
+      explanation:
+          "Chlorophyll is the green pigment that absorbs light energy for photosynthesis.",
     ),
-
     QuizQuestion(
       question: "3. What is the main function of the large central vacuole?",
       options: [
@@ -18071,63 +18843,44 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "The large vacuole stores water and minerals and helps keep the cell firm.",
+      explanation:
+          "The large vacuole stores water and minerals and helps keep the cell firm.",
     ),
-
     QuizQuestion(
-      question: "4. Plant cells usually have a fixed shape. Which part is responsible?",
-      options: [
-        "Cell wall",
-        "Vacuole",
-        "Nucleus",
-        "Chloroplast"
-      ],
+      question:
+          "4. Plant cells usually have a fixed shape. Which part is responsible?",
+      options: ["Cell wall", "Vacuole", "Nucleus", "Chloroplast"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "The rigid cell wall maintains the shape of plant cells.",
     ),
-
     QuizQuestion(
-      question: "5. If a plant is kept in a dark room, which organelle will be unable to work?",
-      options: [
-        "Nucleus",
-        "Chloroplast",
-        "Cell wall",
-        "Vacuole"
-      ],
+      question:
+          "5. If a plant is kept in a dark room, which organelle will be unable to work?",
+      options: ["Nucleus", "Chloroplast", "Cell wall", "Vacuole"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Chloroplasts need light to carry out photosynthesis.",
     ),
-
     QuizQuestion(
       question: "6. What is the jelly-like substance in a plant cell called?",
-      options: [
-        "Cellulose",
-        "Chlorophyll",
-        "Cytoplasm",
-        "Membrane"
-      ],
+      options: ["Cellulose", "Chlorophyll", "Cytoplasm", "Membrane"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Cytoplasm is the jelly-like substance where cell activities occur.",
+      explanation:
+          "Cytoplasm is the jelly-like substance where cell activities occur.",
     ),
-
     QuizQuestion(
       question: "7. Which part acts as the 'Manager' of the plant cell?",
-      options: [
-        "Cell wall",
-        "Chloroplast",
-        "Vacuole",
-        "Nucleus"
-      ],
+      options: ["Cell wall", "Chloroplast", "Vacuole", "Nucleus"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The nucleus controls and coordinates all activities of the cell.",
+      explanation:
+          "The nucleus controls and coordinates all activities of the cell.",
     ),
-
     QuizQuestion(
-      question: "8. Why is the cell wall important when a plant absorbs a lot of water?",
+      question:
+          "8. Why is the cell wall important when a plant absorbs a lot of water?",
       options: [
         "It stops light",
         "It prevents bursting",
@@ -18136,11 +18889,12 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The strong cell wall prevents the cell from bursting under pressure.",
+      explanation:
+          "The strong cell wall prevents the cell from bursting under pressure.",
     ),
-
     QuizQuestion(
-      question: "9. Which of these is a similarity between plant and animal cells?",
+      question:
+          "9. Which of these is a similarity between plant and animal cells?",
       options: [
         "Both have cell walls",
         "Both have chloroplasts",
@@ -18151,7 +18905,6 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Both plant and animal cells contain a nucleus.",
     ),
-
     QuizQuestion(
       question: "10. What would happen if a plant cell had no mitochondria?",
       options: [
@@ -18162,7 +18915,1495 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Mitochondria release energy from food; without them, the cell cannot function.",
+      explanation:
+          "Mitochondria release energy from food; without them, the cell cannot function.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which mixture type has the largest particles that eventually settle?",
+      options: ["Solution", "Colloid", "Solvent", "Suspension"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Suspensions have large particles that sink over time.",
+    ),
+    QuizQuestion(
+      question: "2. Which of the following is an example of a colloid?",
+      options: ["Clear vinegar", "Fresh milk", "Salt water", "Sugar syrup"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Milk is a colloid because its particles stay dispersed and scatter light.",
+    ),
+    QuizQuestion(
+      question: "3. Why is water called the 'Universal Solvent'?",
+      options: [
+        "It is found in every country",
+        "It turns into ice and steam",
+        "It dissolves many substances",
+        "It is clear and has no taste"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Its ability to dissolve many solutes gives it this name.",
+    ),
+    QuizQuestion(
+      question: "4. When light is scattered by a mixture, the mixture is a:",
+      options: ["Colloid", "Solution", "Pure metal", "Pure solid"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Colloids (and some suspensions) scatter light via the Tyndall effect.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A mixture where you cannot see the different parts is called:",
+      options: ["Heterogeneous", "Homogeneous", "A suspension", "A metal ore"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Homogeneous mixtures appear uniform throughout.",
+    ),
+    QuizQuestion(
+      question: "6. Which is a Ghanaian example of a heterogeneous mixture?",
+      options: [
+        "Distilled water",
+        "Fanta Orange",
+        "Shito with bits of fish",
+        "Clean air"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "You can see the individual bits of fish and pepper in the shito.",
+    ),
+    QuizQuestion(
+      question: "7. What happens to a solute in a saturated solution?",
+      options: [
+        "It stops dissolving",
+        "It turns into a gas",
+        "It disappears forever",
+        "It melts the solvent"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "A saturated solution cannot hold any more solute at that temperature.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is a solid-solid mixture?",
+      options: [
+        "Salt in water",
+        "Gari and sugar",
+        "Mist in the air",
+        "Oil and vinegar"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Both gari and sugar are solids mixed together.",
+    ),
+    QuizQuestion(
+      question:
+          "9. The path of light is NOT visible in which of the following?",
+      options: [
+        "A cloud of smoke",
+        "A glass of milk",
+        "A salt solution",
+        "A dusty room"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Solutions have particles too small to scatter light.",
+    ),
+    QuizQuestion(
+      question: "10. Which describes a heterogeneous mixture?",
+      options: [
+        "Particles are evenly spread",
+        "It is a pure substance",
+        "Components are easily seen",
+        "It only contains water"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Heterogeneous mixtures have visible, distinct parts.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/2. JHS2 S1 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which method is best to separate a mixture of iodine and common salt?",
+      options: ["Evaporation", "Filtration", "Sublimation", "Decantation"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Iodine sublimes (turns to gas), leaving the salt behind.",
+    ),
+    QuizQuestion(
+      question:
+          "2. In the distillation process, what is the role of the condenser?",
+      options: [
+        "To heat the liquid",
+        "To cool the vapor",
+        "To filter the salt",
+        "To stir the mixture"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The condenser cools gas back into liquid (condensation).",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why can't we use filtration to separate sugar from a sugar solution?",
+      options: [
+        "Sugar is too heavy",
+        "Sugar is magnetic",
+        "Sugar is dissolved",
+        "Water is too thick"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dissolved particles are small enough to pass through filter paper.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which liquid would be at the bottom of a separating funnel if mixed with oil?",
+      options: ["Water", "Petrol", "Ethanol", "Kerosene"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Water is denser than oil and will sink to the bottom.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What do we call liquids like alcohol and water that mix completely?",
+      options: ["Immiscible", "Saturated", "Magnetic", "Miscible"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Miscible liquids blend into a single phase.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A student wants to separate a mixture of iron filings and sulfur powder. Use:",
+      options: [
+        "Fractional distillation",
+        "Magnetic separation",
+        "Simple evaporation",
+        "Paper chromatography"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Iron is attracted to magnets; sulfur is not.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which method is used to separate the different colors in a sample of ink?",
+      options: ["Sublimation", "Chromatography", "Distillation", "Filtration"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Chromatography separates components based on how they move through a medium.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Fractional distillation is used in which Ghanaian industry?",
+      options: [
+        "Fishing in Elmina",
+        "Oil refining at Tema",
+        "Cocoa farming in Sefwi",
+        "Gold mining in Obuasi"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Crude oil is separated into petrol, diesel, and gas using this method.",
+    ),
+    QuizQuestion(
+      question: "9. In filtration, the sand left on the paper is known as the:",
+      options: ["Residue", "Filtrate", "Solution", "Sediment"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The trapped solid is the residue.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Decantation is most effective when the solid in the mixture is:",
+      options: [
+        "Fully dissolved",
+        "Very lightweight",
+        "Dense and settled",
+        "Turned into a gas"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "You need the solid to settle firmly at the bottom to pour the liquid off.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s1ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/3. JHS2 S1 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The center of an atom is called the:",
+      options: ["Orbit", "Shell", "Nucleus", "Proton"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The nucleus is the dense central core of every atom.",
+    ),
+    QuizQuestion(
+      question: "2. Which particle has a positive charge?",
+      options: ["Electron", "Proton", "Neutron", "Molecule"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Protons are Positive.",
+    ),
+    QuizQuestion(
+      question: "3. An atom is electrically neutral because it has:",
+      options: [
+        "Only neutrons",
+        "No electrons",
+        "Equal protons and electrons",
+        "More protons than neutrons"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Equal positive and negative charges cancel each other out.",
+    ),
+    QuizQuestion(
+      question: "4. What is the charge of a neutron?",
+      options: ["Negative", "Positive", "Neutral", "Changing"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Neutrons are Neutral.",
+    ),
+    QuizQuestion(
+      question: "5. Where are electrons found in an atom?",
+      options: [
+        "Inside the nucleus",
+        "Stuck to protons",
+        "In the empty space",
+        "Orbiting in shells"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Electrons move in shells around the central nucleus.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which particle defines the 'identity' of an element? (Hint: it lives in the nucleus)",
+      options: ["The electron", "The neutron", "The proton", "The shell"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "The number of protons determines which element the atom is.",
+    ),
+    QuizQuestion(
+      question: "7. What is the approximate relative mass of a proton?",
+      options: ["0 amu", "1 amu", "1840 amu", "10 amu"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Protons and neutrons both have a relative mass of 1.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If you remove an electron from a neutral atom, the atom becomes:",
+      options: [
+        "Negatively charged",
+        "Positively charged",
+        "Still neutral",
+        "A new element"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Removing a negative charge leaves more positive protons behind.",
+    ),
+    QuizQuestion(
+      question: "9. The word 'Nucleon' refers to:",
+      options: [
+        "Only protons",
+        "Only neutrons",
+        "Protons and neutrons",
+        "Protons and electrons"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Nucleons are any particles found within the nucleus.",
+    ),
+    QuizQuestion(
+      question: "10. Which statement about the atom is true?",
+      options: [
+        "It is mostly solid",
+        "It is mostly empty space",
+        "It has no center",
+        "It is visible to the eye"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The distance between the nucleus and shells is vast compared to particle size.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s1ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/4. JHS2 S1 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How are elements arranged in the modern Periodic Table?",
+      options: [
+        "By their color",
+        "By atomic number",
+        "By their names",
+        "By their weight"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Atomic number (number of protons) is the primary ordering rule.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Elements in the same vertical column (Group) have the same number of:",
+      options: ["Protons", "Total shells", "Valence electrons", "Neutrons"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Group members share the same number of electrons in their outer shell.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the electron configuration for Aluminum (Atomic Number 13)?",
+      options: ["2, 11", "2, 8, 3", "3, 8, 2", "8, 2, 3"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "2 in the first, 8 in the second, and the remaining 3 in the third.",
+    ),
+    QuizQuestion(
+      question: "4. Which shell is represented by the letter 'L'?",
+      options: [
+        "The first shell",
+        "The second shell",
+        "The third shell",
+        "The fourth shell"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "K is the 1st, L is the 2nd, M is the 3rd.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How many electrons are in the outer shell of Group 7 elements?",
+      options: ["1", "2", "7", "8"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The Group number for main-group elements matches the valence electrons.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Chlorine has 17 protons. What is its electron configuration?",
+      options: ["2, 8, 7", "2, 7, 8", "10, 7", "2, 15"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "2+8+7 equals 17, following the shell limits.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which rule or formula determines the maximum number of electrons in a shell?",
+      options: [
+        "The n+1 rule",
+        "The 2n^2 rule",
+        "The 3x rule",
+        "The atomic rule"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This formula calculates capacity based on the shell level.",
+    ),
+    QuizQuestion(
+      question: "8. An element in Period 2 has how many electron shells?",
+      options: ["One", "Two", "Eight", "Seven"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The period number always equals the number of occupied shells.",
+    ),
+    QuizQuestion(
+      question: "9. What do we call an atom that has gained or lost electrons?",
+      options: ["A nucleon", "An isotope", "An ion", "A molecule"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Ions are charged particles formed by moving electrons.",
+    ),
+    QuizQuestion(
+      question: "10. Potassium has 19 electrons. What is its configuration?",
+      options: ["2, 8, 9", "2, 9, 8", "2, 8, 8, 1", "2, 17"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "For the first 20 elements, the 3rd shell takes 8 before the 4th shell starts.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs2s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/5. JHS2 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the word \"Unicellular\" mean?",
+      options: [
+        "Made of many different cells",
+        "A cell with no membrane",
+        "Made of only one single cell",
+        "A cell that has two nuclei"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Unicellular organisms, like bacteria, consist of only one cell.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these parts is found in both cell types?",
+      options: ["Mitochondria", "Cytoplasm", "A nucleus", "Lysosomes"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Both cell types contain cytoplasm, the jelly-like fluid inside the membrane.",
+    ),
+    QuizQuestion(
+      question: "3. Which cell type is generally larger and more complex?",
+      options: ["Prokaryotic", "Eukaryotic", "Bacterial", "Viral"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Eukaryotic cells are larger and have many specialized organelles.",
+    ),
+    QuizQuestion(
+      question: "4. In which of the following would you find eukaryotic cells?",
+      options: [
+        "A pond bacterium",
+        "A piece of gold ore",
+        "A fresh tilapia fish",
+        "A cloud of steam"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Animals like fish are made of complex eukaryotic cells.",
+    ),
+    QuizQuestion(
+      question: "5. What is the \"protected office\" for DNA called?",
+      options: ["The Ribosome", "The Cytoplasm", "The Nucleus", "The Membrane"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The nucleus is the membrane-bound organelle that holds DNA in eukaryotes.",
+    ),
+    QuizQuestion(
+      question: "6. Which statement is true about prokaryotes?",
+      options: [
+        "They are often multicellular",
+        "They have many organelles",
+        "Their DNA floats freely",
+        "They are larger than plant cells"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Without a nucleus, prokaryotic DNA is found loose in the cytoplasm.",
+    ),
+    QuizQuestion(
+      question: "7. Ribosomes are important to the cell because they:",
+      options: [
+        "Store water",
+        "Produce energy",
+        "Create proteins",
+        "Protect the DNA"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Ribosomes are the protein-making factories found in all cells.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is NOT a shared feature of all cells?",
+      options: ["Cell Membrane", "Genetic Material", "Cytoplasm", "A Nucleus"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Only eukaryotes have a nucleus; prokaryotes do not.",
+    ),
+    QuizQuestion(
+      question: "9. If a cell has mitochondria, it must be:",
+      options: ["A Prokaryote", "A Eukaryote", "A Bacterium", "An Inorganic"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Mitochondria are membrane-bound organelles found only in eukaryotes.",
+    ),
+    QuizQuestion(
+      question: "10. A yeast cell is unicellular but has a nucleus. It is:",
+      options: ["A Prokaryote", "An Organelle", "A Eukaryote", "A Bacterium"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Having a nucleus makes it a eukaryote, even if it is only one cell.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s1ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/6. JHS2 S1 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of the following is an example of a prokaryote?",
+      options: ["A housefly", "A blade of grass", "Bacteria", "A mushroom"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Bacteria are the primary example of prokaryotic organisms.",
+    ),
+    QuizQuestion(
+      question: "2. In what way do \"good\" bacteria help humans?",
+      options: [
+        "By cleaning our skin",
+        "By helping with digestion",
+        "By making us sleep better",
+        "By strengthening our teeth"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Intestinal bacteria are vital for breaking down food.",
+    ),
+    QuizQuestion(
+      question: "3. Which disease is caused by a fungus (eukaryote)?",
+      options: ["Cholera", "Whooping cough", "Ringworm", "Tuberculosis"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ringworm is a common skin infection caused by fungi.",
+    ),
+    QuizQuestion(
+      question: "4. Why are humans classified as eukaryotes?",
+      options: [
+        "Because we can move",
+        "Because our cells have a nucleus",
+        "Because we eat plants",
+        "Because we are unicellular"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "All animals, including humans, have cells with a defined nucleus.",
+    ),
+    QuizQuestion(
+      question: "5. Which hygiene practice prevents food spoilage?",
+      options: [
+        "Wearing clean clothes",
+        "Keeping food covered",
+        "Sweeping the floor",
+        "Weeding the garden"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Covering food prevents bacteria and pests from reaching it.",
+    ),
+    QuizQuestion(
+      question: "6. Which of these organisms is multicellular and eukaryotic?",
+      options: [
+        "A tilapia fish",
+        "A single bacterium",
+        "A yeast cell",
+        "Blue-green algae"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Fish are complex, multicellular animals made of eukaryotic cells.",
+    ),
+    QuizQuestion(
+      question: "7. A Veronica Bucket is used to help prevent the spread of:",
+      options: [
+        "Large animals",
+        "Plant diseases",
+        "Harmful microbes",
+        "Dust in the air"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It provides running water for handwashing to remove germs.",
+    ),
+    QuizQuestion(
+      question: "8. Where do \"good\" bacteria usually live in the human body?",
+      options: [
+        "In the lungs",
+        "In the brain",
+        "In the intestines",
+        "On the hair"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The gut or intestines house many helpful prokaryotes.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If an organism is microscopic and has no nucleus, it is most likely a:",
+      options: ["Plant", "Fungus", "Prokaryote", "Eukaryote"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Lack of a nucleus is the key identifier for prokaryotes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the impact of harmful eukaryotes like fungi on humans?",
+      options: [
+        "They help us grow taller",
+        "They cause skin infections",
+        "They make our food taste better",
+        "They produce oxygen for us"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Harmful fungi can cause infections like ringworm or athlete's foot.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these best describes a binary chemical compound?",
+      options: [
+        "A mixture of three different gases",
+        "Two elements chemically combined",
+        "One element found alone in nature",
+        "A liquid that cannot be separated"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Binary compounds are specifically made of two different elements.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the chemical name for the substance we call 'water'?",
+      options: [
+        "Dihydrogen Monoxide",
+        "Sodium Chloride",
+        "Hydrogen Chloride",
+        "Magnesium Oxide"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Water is made of two Hydrogen atoms and one Oxygen atom.",
+    ),
+    QuizQuestion(
+      question: "3. In Ghana, Sodium Chloride is most commonly used for:",
+      options: [
+        "Powering car batteries",
+        "Making plastic buckets",
+        "Seasoning our daily meals",
+        "Cleaning windows and glass"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sodium Chloride is common table salt used in cooking.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is a binary compound found in the stomach?",
+      options: [
+        "Calcium Carbonate",
+        "Magnesium Oxide",
+        "Sodium Hydroxide",
+        "Hydrogen Chloride"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Hydrogen chloride acts as stomach acid to aid digestion.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the common name for the binary compound Calcium Carbonate?",
+      options: ["Marble", "Vinegar", "Potash", "Water"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Marble is a common form of Calcium Carbonate used in construction.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which element is combined with Sodium to create table salt?",
+      options: ["Oxygen", "Chlorine", "Hydrogen", "Carbon"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Sodium and Chlorine combine to form Sodium Chloride (NaCl).",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is 'Koobi' (salted fish) able to last a long time without rotting?",
+      options: [
+        "Because it is kept in the dark",
+        "Because it is covered in water",
+        "Because it is washed with soap",
+        "Because salt preserves the fish"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Salt (Sodium Chloride) is a natural preservative that stops spoilage.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of these is a key use of Magnesium Oxide in industry?",
+      options: [
+        "Manufacturing of cement",
+        "Flavoring for cold drinks",
+        "Fuel for cooking stoves",
+        "Dye for colouring cloth"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Magnesium oxide is used in making refractory bricks and cement.",
+    ),
+    QuizQuestion(
+      question: "9. What happens to elements when they form a binary compound?",
+      options: [
+        "They are held by a bond",
+        "They stay as separate bits",
+        "They turn into pure gold",
+        "They disappear completely"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Chemical bonds are the forces that hold the atoms together.",
+    ),
+    QuizQuestion(
+      question: "10. Which of the following is NOT a binary compound?",
+      options: [
+        "Pure Oxygen gas (O₂)",
+        "Sodium Chloride (NaCl)",
+        "Hydrogen Chloride (HCl)",
+        "Magnesium Oxide (MgO)"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Pure Oxygen is an element, not a compound, because it only has one type of atom.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s1ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/2. JHS3 S1 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which particle is formed when a neutral atom loses an electron?",
+      options: [
+        "A negative anion",
+        "A positive cation",
+        "A neutral molecule",
+        "A polyatomic ion"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Losing a negative electron leaves the atom with a positive charge.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How many atoms of Oxygen are present in one molecule of water (H₂O)?",
+      options: ["Three atoms", "Two atoms", "One atom", "Zero atoms"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "In H₂O, there is no subscript after O, which means there is only 1 atom.",
+    ),
+    QuizQuestion(
+      question: "3. Which of the following is a binary compound?",
+      options: ["O₂", "Cl₂", "NaCl", "H₂"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "NaCl contains two different elements; the others are molecules of a single element.",
+    ),
+    QuizQuestion(
+      question: "4. The combining power of an element is known as its:",
+      options: ["Valency", "Atomicity", "Density", "Magnetism"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Valency determines how many bonds an atom can form.",
+    ),
+    QuizQuestion(
+      question: "5. What is the name of CaCl₂?",
+      options: [
+        "Calcium Chlorine",
+        "Chlorine Calcide",
+        "Calcium Chloride",
+        "Calcide Chlorine"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The second element changes its suffix to '-ide'.",
+    ),
+    QuizQuestion(
+      question: "6. Why do atoms form ions?",
+      options: [
+        "To become heavier",
+        "To change colour",
+        "To achieve stability",
+        "To produce heat"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Atoms gain or lose electrons to reach a stable electron configuration.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is the symbol for Sodium?",
+      options: ["S", "So", "Na", "Sd"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Na comes from the Latin name 'Natrium'.",
+    ),
+    QuizQuestion(
+      question: "8. If an element has a valency of 2, it means it can:",
+      options: [
+        "Form two chemical bonds",
+        "Lose two whole protons",
+        "Dissolve in two liquids",
+        "Split into two atoms"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Valency represents the number of bonds an atom can make.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In the compound AlCl₃, what is the ratio of Aluminium to Chlorine?",
+      options: ["1:3", "3:1", "1:1", "2:3"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "There is 1 Al atom for every 3 Cl atoms.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which ending is used for the second element in a binary compound name?",
+      options: ["-ite", "-ate", "-ide", "-ine"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Binary non-metal ions take the '-ide' suffix.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s1ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/3. JHS3 S1 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A solution with a pH of 7 is described as:",
+      options: [
+        "Highly acidic",
+        "Strongly basic",
+        "Perfectly neutral",
+        "Very corrosive"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "7 is the midpoint of the pH scale, representing neutrality.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of these fruits found in a Ghanaian market is the most acidic?",
+      options: ["Sweet banana", "Ripe mango", "Fresh lime", "Boiled yam"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Limes contain high amounts of citric acid, giving them a sour taste.",
+    ),
+    QuizQuestion(
+      question: "3. Bases turn ________ litmus paper ________.",
+      options: ["Blue, Red", "Red, Blue", "White, Blue", "Green, Red"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Remember 'B' for Base and 'B' for Blue.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which substance is commonly used in Ghana to neutralize acidic soil or clean pots?",
+      options: [
+        "Pineapple juice",
+        "Wood ash (Lye)",
+        "Distilled water",
+        "Battery acid"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Wood ash is a traditional base used for cleaning and farming.",
+    ),
+    QuizQuestion(
+      question: "5. What is the pH range of the entire pH scale?",
+      options: ["1 to 10", "0 to 14", "7 to 14", "0 to 7"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The standard pH scale runs from 0 (most acidic) to 14 (most basic).",
+    ),
+    QuizQuestion(
+      question: "6. Which of these is a property of a salt?",
+      options: [
+        "It always tastes sour",
+        "It turns red litmus blue",
+        "It is often a crystalline solid",
+        "It has a pH of 1"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Salts like NaCl form solid crystals.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If you have 'heartburn' (acid indigestion), why do you take an antacid?",
+      options: [
+        "To add more acid",
+        "To neutralize the acid",
+        "To make the acid stronger",
+        "To freeze the stomach"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Antacids are bases that neutralize excess stomach acid.",
+    ),
+    QuizQuestion(
+      question: "8. Which ion is characteristic of a base in water?",
+      options: ["H⁺", "OH⁻", "Cl⁻", "Na⁺"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Hydroxide ions (OH⁻) are the signature of basic solutions.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why should you never taste an unknown liquid in a science lab to see if it is an acid?",
+      options: [
+        "It might be too sweet",
+        "It could be corrosive and dangerous",
+        "It might change your hair colour",
+        "It will make the litmus paper dry"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Safety first! Many acids and bases are toxic or corrosive.",
+    ),
+    QuizQuestion(
+      question: "10. What is the product of HCl (Acid) and NaOH (Base)?",
+      options: [
+        "NaCl and H₂O",
+        "Pure Hydrogen gas",
+        "Only Oxygen gas",
+        "Liquid Magnesium"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "This is a classic neutralization reaction producing salt and water.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s1ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/4. JHS3 S1 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In a metallic bond, the electrons are described as being:",
+      options: [
+        "Locked in one single atom",
+        "Delocalized in a free 'sea'",
+        "Shared between two atoms",
+        "Lost to the surrounding air"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Electrons in metals move freely throughout the structure.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which type of bond usually forms between two non-metal atoms?",
+      options: [
+        "Covalent Bond",
+        "Metallic Bond",
+        "Ionic Bond",
+        "Physical Bond"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Non-metals bond by sharing electrons.",
+    ),
+    QuizQuestion(
+      question: "3. When a Sodium atom bonds with Chlorine, the Sodium atom:",
+      options: [
+        "Shares an electron",
+        "Gains an electron",
+        "Loses an electron",
+        "Destroys an electron"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sodium (a metal) loses an electron to become a positive ion.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which bond results from the attraction between positive and negative ions?",
+      options: ["Covalent", "Metallic", "Atomic", "Ionic"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The charge difference creates the ionic bond.",
+    ),
+    QuizQuestion(
+      question: "5. Water (H₂O) is an example of a substance with:",
+      options: [
+        "Covalent bonds",
+        "Metallic bonds",
+        "Ionic bonds",
+        "No chemical bonds"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hydrogen and Oxygen share electrons to form water molecules.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which property is common for most ionic compounds like table salt?",
+      options: [
+        "They are always gases",
+        "They are soft and oily",
+        "They have high melting points",
+        "They do not form crystals"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Strong electrostatic forces require lots of energy to break.",
+    ),
+    QuizQuestion(
+      question: "7. What makes metals 'malleable' (easy to beat into shapes)?",
+      options: [
+        "The atoms are very far apart",
+        "The sea of electrons is flexible",
+        "The atoms are made of liquid",
+        "The bonds are easily broken"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The electron sea allows atoms to slide past each other without breaking the bond.",
+    ),
+    QuizQuestion(
+      question: "8. Which bond is found in a piece of 24-carat Ghanaian gold?",
+      options: [
+        "Covalent Bond",
+        "Ionic Bond",
+        "Magnetic Bond",
+        "Metallic Bond"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Gold is a metal and uses metallic bonding.",
+    ),
+    QuizQuestion(
+      question:
+          "9. The 'sharing' of electrons in a covalent bond happens so that atoms can:",
+      options: [
+        "Become lighter",
+        "Achieve stability",
+        "Change into gold",
+        "Produce more heat"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A full outer shell makes an atom stable.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Carbon Dioxide (CO₂) is held together by which type of bond?",
+      options: ["Metallic", "Ionic", "Atomic", "Covalent"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Both Carbon and Oxygen are non-metals, so they share electrons.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs3s1ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/5. JHS3 S1 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the starting point for all specialised cells in the human body?",
+      options: ["Muscle fibres", "Skin layers", "Stem cells", "Bone marrow"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Stem cells are undifferentiated cells that give rise to all other specialised types.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which plant tissue allows a tree trunk to grow wider in diameter?",
+      options: [
+        "Lateral meristem",
+        "Apical meristem",
+        "Permanent tissue",
+        "Epidermal tissue"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lateral meristems are responsible for secondary growth, which increases the girth or width of the plant.",
+    ),
+    QuizQuestion(
+      question: "3. The 'division of labour' in a plant is best described as:",
+      options: [
+        "All cells doing the same work",
+        "Different cells doing different jobs",
+        "The plant dying during the dry season",
+        "One cell performing every single task"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Division of labour means different cells are specialised to handle specific life processes efficiently.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of these is a multicellular organism likely to have specialised cells?",
+      options: [
+        "An amoeba in a pond",
+        "A bacteria on a spoon",
+        "A paramecium in water",
+        "A hibiscus plant in a garden"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Only multicellular organisms like the hibiscus show cell specialisation.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When a zygote begins to divide and cells start to take on specific roles, what is occurring?",
+      options: ["Digestion", "Differentiation", "Respiration", "Circulation"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Differentiation is the biological process of cells becoming specialised.",
+    ),
+    QuizQuestion(
+      question:
+          "6. In which part of a dicot plant would you find cells actively dividing to increase height?",
+      options: [
+        "The woody stem",
+        "The flower petal",
+        "The shoot apex",
+        "The mature leaf"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The shoot apex contains apical meristems that drive vertical growth.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A cell that has already become a xylem vessel is known as what type of tissue?",
+      options: [
+        "Meristematic tissue",
+        "Embryonic tissue",
+        "Permanent tissue",
+        "Undiscovered tissue"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Once a cell is specialised and stops dividing, it is part of the permanent tissue.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which Ghanaian example best illustrates the concept of specialised 'workers' in a system?",
+      options: [
+        "A single person cooking alone at home",
+        "A busy market with different sellers",
+        "A piece of stone sitting on the ground",
+        "A bucket of water from a nearby well"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A market has different people (cells) doing different jobs (specialisation) to make the whole system work.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to the structure of a cell during specialisation?",
+      options: [
+        "It stays exactly the same",
+        "It disappears completely",
+        "It adapts to fit a function",
+        "It turns into a liquid form"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Specialisation involves structural changes to the cell to help it perform its job.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why are apical meristems found at both the shoot and root tips?",
+      options: [
+        "To protect the plant from pests",
+        "To help the plant grow in length",
+        "To make the plant produce fruit",
+        "To change the colour of the leaves"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Apical meristems at both ends ensure the plant grows upwards for light and downwards for water.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s1ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/6. JHS3 S1 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which cells act as 'gatekeepers' by controlling the size of the stomata?",
+      options: ["Phloem cells", "Guard cells", "Xylem cells", "Dermal cells"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Guard cells open and close stomata to regulate gas exchange and water loss.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What material reinforces the walls of xylem vessels to give them strength?",
+      options: ["Water", "Sugar", "Lignin", "Starch"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Lignin is a tough, woody substance that strengthens the walls of xylem cells.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a leaf, parenchyma cells containing many chloroplasts are specifically adapted for:",
+      options: ["Support", "Protection", "Photosynthesis", "Transport"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Chloroplasts are the site of photosynthesis; therefore, these cells are adapted for making food.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which statement is true about the transport of materials in a plant?",
+      options: [
+        "Xylem carries food, Phloem carries water.",
+        "Xylem carries water, Phloem carries food.",
+        "Both carry water and food together.",
+        "Neither is involved in transport."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Xylem transports water/minerals upwards; Phloem transports food throughout the plant.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A young, green plant stem that can bend without breaking relies on which cell type?",
+      options: ["Sclerenchyma", "Collenchyma", "Xylem", "Epidermis"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Collenchyma provides flexible support to growing plant parts.",
+    ),
+    QuizQuestion(
+      question:
+          "6. The tiny holes at the ends of phloem sieve tube cells are called:",
+      options: ["Stomata", "Pores", "Sieve plates", "Cuticles"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sieve plates allow the flow of sugar-rich sap between phloem cells.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which cell type is most likely to be found in the fleshy part of a mango fruit?",
+      options: ["Parenchyma", "Sclerenchyma", "Guard cells", "Tracheids"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Parenchyma cells make up the bulk of soft plant tissues and fruits.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Companion cells are always found associated with which other cell type?",
+      options: [
+        "Xylem vessels",
+        "Epidermal cells",
+        "Sieve tube cells",
+        "Guard cells"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Companion cells provide the metabolic support needed for phloem sieve tubes to function.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary function of the root hair cell (a specialised epidermal cell)?",
+      options: [
+        "To produce seeds",
+        "To absorb water and minerals",
+        "To store large amounts of sugar",
+        "To protect the plant from heat"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Root hair cells increase surface area for maximum water absorption from the soil.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Tracheids and vessels are the two main types of cells found in:",
+      options: ["The Phloem", "The Xylem", "The Stomata", "The Cuticle"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tracheids and vessel elements are the water-conducting cells of the xylem.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s1ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/7. JHS3 S1 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which cell is the largest in the human body and contains a food store?",
+      options: ["Egg cell", "Sperm cell", "Nerve cell", "Muscle cell"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The egg cell (ovum) is large and contains nutrients for the embryo.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which specialised cell transmits electrical impulses over long distances?",
+      options: [
+        "Red blood cell",
+        "White blood cell",
+        "Nerve cell",
+        "Muscle cell"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Nerve cells have long axons to carry signals throughout the body.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the main function of the haemoglobin found in red blood cells?",
+      options: [
+        "To kill bacteria",
+        "To move the legs",
+        "To carry oxygen",
+        "To fertilise eggs"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Haemoglobin is a protein that binds to oxygen for transport.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which cell can change its shape to engulf harmful pathogens?",
+      options: ["Sperm cell", "White blood cell", "Red blood cell"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "White blood cells are flexible so they can surround and destroy germs.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where are the contractile proteins found that allow for body movement?",
+      options: [
+        "In nerve cells",
+        "In muscle cells",
+        "In egg cells",
+        "In blood cells"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Muscle cells contain fibres that shorten to create force.",
+    ),
+    QuizQuestion(
+      question:
+          "6. The streamlined shape of a sperm cell is an adaptation for:",
+      options: [
+        "Storing extra food",
+        "Fighting off viruses",
+        "Sending signals to the brain",
+        "Efficient swimming"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Streamlining reduces resistance as the sperm swims.",
+    ),
+    QuizQuestion(
+      question: "7. A cell with many branched dendrites is most likely a:",
+      options: ["Bone cell", "Blood cell", "Nerve cell", "Skin cell"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dendrites help nerve cells receive signals from multiple sources.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following is an adaptation of the red blood cell?",
+      options: [
+        "Lacks a nucleus",
+        "Has a long tail",
+        "Contains yolk",
+        "Is very long and thin"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Removing the nucleus provides more space for oxygen transport.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which cell type acts as the 'power station' by having many mitochondria for movement?",
+      options: ["Platelet", "White blood cell", "Red blood cell", "Sperm cell"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Sperm need high energy levels to reach the egg.",
+    ),
+    QuizQuestion(
+      question: "10. Why are muscle cells typically long and fibrous?",
+      options: [
+        "To carry more oxygen",
+        "To reach between different organs",
+        "To better protect the skin",
+        "To allow them to shorten effectively"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Their long shape allows the fibres to slide past each other during contraction.",
     ),
   ],
 );
@@ -18178,7 +20419,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Five times one hundred million is five hundred million.",
     ),
-
     QuizQuestion(
       question: "2. How many GH₵100 notes in GH₵10,000?",
       options: ["10", "1,000", "50", "100"],
@@ -18186,7 +20426,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Ten thousand divided by one hundred is one hundred.",
     ),
-
     QuizQuestion(
       question: "3. Round 0.99 to 1 significant figure.",
       options: ["1.0", "0.9", "1.1", "0.1"],
@@ -18194,7 +20433,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The first figure is 9; the neighbor 9 rounds it up to 1.0.",
     ),
-
     QuizQuestion(
       question: "4. Sequence: 1,000, 1,250, 1,500, …",
       options: ["1,750", "1,350", "1,450", "1,550"],
@@ -18202,7 +20440,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Skip counting forward by 250.",
     ),
-
     QuizQuestion(
       question: "5. 3,000,000 ___ 3,000,001.",
       options: ["=", ">", "≈", "<"],
@@ -18210,7 +20447,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The second number has one more unit.",
     ),
-
     QuizQuestion(
       question: "6. Round 1,243,000 down to nearest 100,000.",
       options: ["1,200,000", "1,300,000", "1,240,000", "1,000,000"],
@@ -18218,7 +20454,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Keep the 2 and change all digits to the right to zeros.",
     ),
-
     QuizQuestion(
       question: "7. How many significant figures in 0.0007?",
       options: ["7", "4", "1", "3"],
@@ -18226,7 +20461,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Only the 7 is significant; leading zeros do not count.",
     ),
-
     QuizQuestion(
       question: "8. Round 486.36 to the nearest tenth.",
       options: ["486.3", "486.0", "486.4", "486.5"],
@@ -18234,7 +20468,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Neighbor 6 rounds the 3 up to 4.",
     ),
-
     QuizQuestion(
       question: "9. 50,000,000 ___ 50,000,000.",
       options: [">", "<", "=", "≠"],
@@ -18242,7 +20475,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Both sides have the exact same digits and value.",
     ),
-
     QuizQuestion(
       question: "10. Round 64.5 up to the nearest whole number.",
       options: ["64", "66", "70", "65"],
@@ -18250,7 +20482,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Rounding 'up' always moves to the next higher integer.",
     ),
-
     QuizQuestion(
       question: "11. 25 less than 1,000 is?",
       options: ["925", "950", "900", "975"],
@@ -18258,7 +20489,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Subtracting 25 from 1,000 results in 975.",
     ),
-
     QuizQuestion(
       question: "12. Round 8,573 to 2 significant figures.",
       options: ["8,600", "8,500", "8,000", "9,000"],
@@ -18266,7 +20496,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The second figure 5 is rounded to 6 due to the neighbor 7.",
     ),
-
     QuizQuestion(
       question: "13. How many rods (1m) in 1 flat (10m)?",
       options: ["100", "10", "50", "1"],
@@ -18274,7 +20503,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Ten rods grouped together form one flat.",
     ),
-
     QuizQuestion(
       question: "14. Round 0.0605 to 3 decimal places.",
       options: ["0.06", "0.07", "0.060", "0.061"],
@@ -18283,7 +20511,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       explanation:
           "The third decimal 0 is rounded to 1 because the neighbor is 5.",
     ),
-
     QuizQuestion(
       question: "15. 500,000 less than 1,500,000 is?",
       options: ["1,000,000", "1,100,000", "1,200,000", "1,400,000"],
@@ -18291,7 +20518,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Subtract 5 from the hundred-thousands place (5 − 5 = 0).",
     ),
-
     QuizQuestion(
       question: "16. How many significant figures in 7.00?",
       options: ["1", "2", "3", "4"],
@@ -18300,7 +20526,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       explanation:
           "In a decimal, trailing zeros after a non-zero digit are significant.",
     ),
-
     QuizQuestion(
       question: "17. Round 391,000,000 off to nearest 100,000,000.",
       options: ["300,000,000", "390,000,000", "350,000,000", "400,000,000"],
@@ -18308,7 +20533,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "The neighbor 9 rounds the 3 up to 4.",
     ),
-
     QuizQuestion(
       question: "18. Ten flats of 10,000,000 each equals?",
       options: ["100,000,000", "1,000,000", "1,000,000,000", "10,000,000"],
@@ -18316,7 +20540,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Ten times ten million is one hundred million.",
     ),
-
     QuizQuestion(
       question: "19. Round 0.327 to 1 decimal place.",
       options: ["0.4", "0.33", "0.3", "0.5"],
@@ -18324,7 +20547,6 @@ final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The neighbor 2 is less than 5, so the 3 stays the same.",
     ),
-
     QuizQuestion(
       question: "20. 20,298 ___ 2,328,000.",
       options: [">", "=", "≈", "<"],
@@ -18345,7 +20567,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "Move the point 3 places right.",
     ),
-
     QuizQuestion(
       question: "2. Solve 8,450 + 1,550.",
       options: ["10,000", "9,900", "10,100", "9,000"],
@@ -18353,7 +20574,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "8,450 + 1,550 = 10,000.",
     ),
-
     QuizQuestion(
       question: "3. Solve for the LCM of 5 and 7.",
       options: ["12", "1", "25", "35"],
@@ -18361,7 +20581,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Since they are prime, multiply them.",
     ),
-
     QuizQuestion(
       question: "4. What is 7 x 19 using the strategy (7 x 20) − (7 x 1)?",
       options: ["133", "140", "139", "147"],
@@ -18369,7 +20588,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "140 − 7 = 133.",
     ),
-
     QuizQuestion(
       question: "5. Express 64 as a power of 4.",
       options: [r"4^2", r"4^4", r"4^3", r"4^5"],
@@ -18377,7 +20595,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "4 × 4 × 4 = 64.",
     ),
-
     QuizQuestion(
       question: "6. Find the HCF of 12 and 18.",
       options: ["36", "2", "6", "3"],
@@ -18385,7 +20602,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "The highest shared factor is 6.",
     ),
-
     QuizQuestion(
       question: r"7. What is the value of 500^0?",
       options: ["500", "0", "50", "1"],
@@ -18393,7 +20609,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Any natural number to the power 0 is 1.",
     ),
-
     QuizQuestion(
       question: r"8. What is the value of 3^4?",
       options: ["12", "81", "27", "64"],
@@ -18401,7 +20616,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "3 × 3 × 3 × 3 = 81.",
     ),
-
     QuizQuestion(
       question:
           "9. A car travels 480 km on 12 litres of petrol. How many km per litre?",
@@ -18410,7 +20624,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "480 ÷ 12 = 40.",
     ),
-
     QuizQuestion(
       question: "10. Find the LCM of 10 and 15.",
       options: ["5", "30", "25", "150"],
@@ -18418,7 +20631,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "The first shared multiple is 30.",
     ),
-
     QuizQuestion(
       question: "11. What is 15.5 − 2.25?",
       options: ["13.25", "13.35", "12.25", "13.75"],
@@ -18426,7 +20638,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "15.50 − 2.25 = 13.25.",
     ),
-
     QuizQuestion(
       question: "12. Solve 1,200 ÷ 100.",
       options: ["12", "120", "1.2", "12,000"],
@@ -18434,7 +20645,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Move the decimal two places left.",
     ),
-
     QuizQuestion(
       question: "13. What is the HCF of 7 and 11?",
       options: ["77", "1", "0", "18"],
@@ -18442,7 +20652,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "Prime numbers share only 1.",
     ),
-
     QuizQuestion(
       question: r"14. Solve \left(\frac{1}{2}\right)^3.",
       options: [r"\frac{1}{6}", r"\frac{3}{2}", r"\frac{1}{8}", r"\frac{1}{4}"],
@@ -18451,7 +20660,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       explanation:
           r"\frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} = \frac{1}{8}.",
     ),
-
     QuizQuestion(
       question: r"15. What is the value of 10^4?",
       options: ["40", "1,000", "4,000", "10,000"],
@@ -18459,7 +20667,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "1 followed by four zeros.",
     ),
-
     QuizQuestion(
       question: "16. Express 2 × 2 × 3 × 3 × 3 in index form.",
       options: [r"2^3 × 3^2", "2^2 × 3^3", "6^5", "2^2 + 3^3"],
@@ -18467,7 +20674,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"2^2 × 3^3.",
     ),
-
     QuizQuestion(
       question: r"17. In the power 8^2, what is 8 called?",
       options: ["Exponent", "Product", "Multiple", "Base"],
@@ -18475,7 +20681,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The big number is the base.",
     ),
-
     QuizQuestion(
       question:
           "18. A square has a side of 12 cm. What is its area in index form?",
@@ -18484,7 +20689,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "Area is side × side.",
     ),
-
     QuizQuestion(
       question: "19. What is 1,464 + 1,282?",
       options: ["2,740", "2,646", "2,746", "2,756"],
@@ -18492,7 +20696,6 @@ final QuizModel MATHjhs1s1ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "2,746.",
     ),
-
     QuizQuestion(
       question: "20. Solve 45 × 11 using the distributive property.",
       options: ["505", "455", "445", "495"],
@@ -18512,7 +20715,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"One-fifth is the same as \frac{2}{10}, which is 0.2.",
     ),
-
     QuizQuestion(
       question: r"2. Solve: \frac{1}{2} + \frac{1}{3}.",
       options: [r"\frac{2}{5}", r"\frac{5}{6}", r"\frac{1}{6}", r"\frac{2}{6}"],
@@ -18520,7 +20722,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"The LCM is 6. \frac{3}{6} + \frac{2}{6} = \frac{5}{6}.",
     ),
-
     QuizQuestion(
       question: r"3. Find \frac{3}{4} of 200.",
       options: ["150", "50", "100", "75"],
@@ -18528,7 +20729,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: "200 ÷ 4 = 50, and 50 × 3 = 150.",
     ),
-
     QuizQuestion(
       question: r"4. What is the reciprocal of \frac{2}{3}?",
       options: [r"\frac{1}{3}", "2", r"\frac{3}{2}", "0.66"],
@@ -18536,7 +20736,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"Flipping \frac{2}{3} upside down gives \frac{3}{2}.",
     ),
-
     QuizQuestion(
       question: r"5. Calculate 4 ÷ \frac{1}{2}.",
       options: ["2", r"4\frac{1}{2}", r"\frac{1}{8}", "8"],
@@ -18544,7 +20743,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"Keep 4, Change to ×, Flip to \frac{2}{1}. 4 × 2 = 8.",
     ),
-
     QuizQuestion(
       question:
           r"6. A board is 10 m long. If 3\frac{1}{2} m is cut off, how much remains?",
@@ -18558,7 +20756,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"10 − 3.5 = 6.5, which is 6\frac{1}{2} m.",
     ),
-
     QuizQuestion(
       question: r"7. Identify the percentage equivalent to \frac{1}{4}.",
       options: ["25%", "40%", "14%", "75%"],
@@ -18566,7 +20763,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "One quarter is exactly one-fourth of 100%, which is 25%.",
     ),
-
     QuizQuestion(
       question: r"8. Solve: \frac{1}{2} × \frac{1}{4}.",
       options: [r"\frac{2}{6}", r"\frac{1}{6}", r"\frac{1}{2}", r"\frac{1}{8}"],
@@ -18574,7 +20770,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: "Multiply top by top (1 × 1) and bottom by bottom (2 × 4).",
     ),
-
     QuizQuestion(
       question: "9. Which decimal is greater: 0.9 or 0.899?",
       options: ["0.9", "0.899", "They are equal", "0.89"],
@@ -18582,7 +20777,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "0.9 is 0.900, which is more than 0.899.",
     ),
-
     QuizQuestion(
       question:
           r"10. A tank is \frac{1}{2} full. If \frac{1}{8} is used for bathing, how much is left?",
@@ -18591,7 +20785,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{4}{8} − \frac{1}{8} = \frac{3}{8}.",
     ),
-
     QuizQuestion(
       question: r"11. Multiply \frac{3}{5} × 10.",
       options: ["30", "50", "15", "6"],
@@ -18599,7 +20792,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{30}{5} = 6.",
     ),
-
     QuizQuestion(
       question: r"12. Find 1\frac{1}{2} ÷ \frac{1}{2}.",
       options: ["1", "2", r"\frac{1}{3}", "3"],
@@ -18607,7 +20799,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{3}{2} × \frac{2}{1} = \frac{6}{2} = 3.",
     ),
-
     QuizQuestion(
       question: "13. What is 0.75 as a fraction?",
       options: [r"\frac{3}{4}", r"\frac{1}{4}", r"\frac{7}{5}", r"\frac{1}{2}"],
@@ -18615,7 +20806,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"0.75 is 75/100, which simplifies to \frac{3}{4}.",
     ),
-
     QuizQuestion(
       question: r"14. Add: 1\frac{1}{4} + 2\frac{1}{2}.",
       options: [
@@ -18628,7 +20818,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"1\frac{1}{4} + 2\frac{1}{4} = 3\frac{3}{4}.",
     ),
-
     QuizQuestion(
       question: r"15. What is \frac{1}{3} of 90?",
       options: ["27", "30", "33", "10"],
@@ -18636,7 +20825,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "90 divided by 3 is 30.",
     ),
-
     QuizQuestion(
       question: r"16. Find the result of \frac{1}{5} ÷ \frac{1}{10}.",
       options: [r"\frac{1}{2}", "2", "50", r"\frac{10}/{5}"],
@@ -18644,7 +20832,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{1}{5} × \frac{10}{1} = 2.",
     ),
-
     QuizQuestion(
       question: "17. Which is the smallest value?",
       options: [r"\frac{1}{10}", "0.25", "50%", "0.09"],
@@ -18652,7 +20839,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: "0.09 (9%) is smaller than 0.1 (10%), 0.25 (25%), or 50%.",
     ),
-
     QuizQuestion(
       question: r"18. Solve: \frac{3}{4} ÷ 3.",
       options: [r"\frac{1}{4}", r"\frac{9}{4}", "1", r"\frac{3}{12}"],
@@ -18660,7 +20846,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{3}{4} × \frac{1}{3} = \frac{1}{4}.",
     ),
-
     QuizQuestion(
       question:
           r"19. If you have \frac{2}{3} of a pizza and give away \frac{1}{6}, how much remains?",
@@ -18670,7 +20855,6 @@ final QuizModel MATHjhs1s1ss3QuizData = QuizModel(
       explanation:
           r"\frac{4}{6} − \frac{1}{6} = \frac{3}{6}, which is \frac{1}{2}.",
     ),
-
     QuizQuestion(
       question: r"20. Multiply \frac{2}{3} × \frac{3}{4}.",
       options: [
@@ -18697,7 +20881,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "A 1:1 ratio means the class is split exactly in half. Half of 40 is 20.",
     ),
-
     QuizQuestion(
       question: "2. A car travels 400km in 5 hours. What is the speed in km/h?",
       options: ["80 km/h", "70 km/h", "90 km/h", "100 km/h"],
@@ -18706,7 +20889,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "Divide total distance (400) by total time (5). 400 ÷ 5 = 80.",
     ),
-
     QuizQuestion(
       question: "3. A table shows (3, 9) and (x, 27). What is the value of x?",
       options: ["6", "12", "9", "15"],
@@ -18715,7 +20897,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "The ratio is 3 : 9, meaning the second number is 3 times the first. If the second is 27, x = 27 ÷ 3 = 9.",
     ),
-
     QuizQuestion(
       question:
           "4. Which point lies on a proportional line starting at (0, 0)?",
@@ -18730,7 +20911,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "Only (1,3) and (2,6) have the same constant ratio (3 ÷ 1 = 3 and 6 ÷ 2 = 3).",
     ),
-
     QuizQuestion(
       question: "5. What is 20% of 500 Cedis?",
       options: ["50 Cedis", "200 Cedis", "150 Cedis", "100 Cedis"],
@@ -18738,7 +20918,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "20/100 × 500 = 20 × 5 = 100.",
     ),
-
     QuizQuestion(
       question:
           "6. A salesman makes 300 Cedis commission at a 10% rate. What were his total sales?",
@@ -18747,7 +20926,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: "If 10% is 300, then 100% is 300 × 10 = 3000.",
     ),
-
     QuizQuestion(
       question:
           "7. The ratio of Kofi's age to Ama's age is 2:3. If Kofi is 12, how old is Ama?",
@@ -18757,7 +20935,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "Kofi is 2 parts. 12 ÷ 2 = 6. So 1 part is 6. Ama is 3 parts: 3 × 6 = 18.",
     ),
-
     QuizQuestion(
       question:
           "8. A shirt costs 80 Cedis after a 20% discount. What was the original price?",
@@ -18767,7 +20944,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "If the discount was 20%, 80 Cedis is 80% of the price. Therefore, 100% is 100 Cedis.",
     ),
-
     QuizQuestion(
       question: r"9. If \frac{x}{5} = \frac{12}{20}, what is the value of x?",
       options: ["4", "2", "3", "5"],
@@ -18775,7 +20951,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: "20 is 5 times 4. So 12 is x times 4. 12 ÷ 4 = 3.",
     ),
-
     QuizQuestion(
       question:
           "10. A bank pays 5% interest per year. If you save 2,000 Cedis, how much interest do you earn?",
@@ -18784,7 +20959,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{5}{100} × 2000 = 5 × 20 = 100.",
     ),
-
     QuizQuestion(
       question:
           "11. A recipe uses 3 cups of flour for every 2 cups of sugar. What is the ratio of sugar to flour?",
@@ -18793,7 +20967,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The question asks for sugar first (2) then flour (3).",
     ),
-
     QuizQuestion(
       question: "12. If 10 pens cost 50 Cedis, what is the unit price per pen?",
       options: ["5 Cedis", "10 Cedis", "2 Cedis", "4 Cedis"],
@@ -18802,7 +20975,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       explanation:
           "Divide total cost (50) by the number of pens (10). 50 ÷ 10 = 5.",
     ),
-
     QuizQuestion(
       question:
           "13. A map has a scale of 1cm to 50km. If two towns are 4cm apart on the map, how far are they in reality?",
@@ -18811,7 +20983,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: "4 × 50 = 200 km.",
     ),
-
     QuizQuestion(
       question: "14. Which ratio is equivalent to 5:10?",
       options: ["1:2", "2:1", "5:5", "1:5"],
@@ -18819,7 +20990,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Dividing both numbers in 5:10 by 5 gives 1:2.",
     ),
-
     QuizQuestion(
       question:
           "15. A student scored 18 out of 20 on a test. What percentage is this?",
@@ -18828,7 +20998,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"\frac{18}{20} = \frac{90}{100}, which is 90%.",
     ),
-
     QuizQuestion(
       question:
           "16. A bag contains 8 black stones and 12 white stones. What is the ratio of black to white in simplest form?",
@@ -18837,7 +21006,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Both 8 and 12 can be divided by 4, giving 2:3.",
     ),
-
     QuizQuestion(
       question:
           "17. A mobile phone regularly costs 600 Cedis but is on sale for 15% off. How much is the discount?",
@@ -18846,7 +21014,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{15}{100} × 600 = 15 × 6 = 90.",
     ),
-
     QuizQuestion(
       question:
           "18. If the points (1, 5), (2, 10), and (3, 15) are on a graph, what is the value of y when x=4?",
@@ -18855,7 +21022,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: "The ratio is y = 5x. So 4 × 5 = 20.",
     ),
-
     QuizQuestion(
       question:
           "19. A farmer has 150 animals. 30% are goats. How many goats does he have?",
@@ -18864,7 +21030,6 @@ final QuizModel MATHjhs1s1ss4QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{30}{100} × 150 = 3 × 15 = 45.",
     ),
-
     QuizQuestion(
       question:
           "20. The ratio of milk to water in a mixture is 1:4. If there are 20 litres of water, how much milk is there?",
@@ -18887,7 +21052,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The difference is 3. 11 + 3 = 14.",
     ),
-
     QuizQuestion(
       question:
           "2. Which phrase describes the mapping (1 → 1), (2 → 4), (3 → 9)?",
@@ -18901,7 +21065,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"1^2 = 1, 2^2 = 4, 3^2 = 9.",
     ),
-
     QuizQuestion(
       question:
           "3. If the rule is y = 4x + 2, what is the y-value when x = 10?",
@@ -18910,7 +21073,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "(4 × 10) + 2 = 42.",
     ),
-
     QuizQuestion(
       question: "4. On a coordinate plane, which axis represents the Domain?",
       options: ["The x-axis", "The y-axis", "The Origin", "The Grid"],
@@ -18918,7 +21080,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The input (x) is plotted on the horizontal axis.",
     ),
-
     QuizQuestion(
       question:
           "5. What is the next number in the pattern: 100, 95, 90, 85, __?",
@@ -18927,7 +21088,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "The difference is -5. 85 - 5 = 80.",
     ),
-
     QuizQuestion(
       question:
           "6. Which point is located at the intersection of the x-axis and y-axis?",
@@ -18936,7 +21096,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "This point is called the Origin.",
     ),
-
     QuizQuestion(
       question:
           "7. A line passes through (1, 3), (2, 6), and (3, 9). What is the rule?",
@@ -18945,7 +21104,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "3 × 1 = 3, 3 × 2 = 6, 3 × 3 = 9.",
     ),
-
     QuizQuestion(
       question:
           "8. If you move 6 units West and 4 units North, your coordinates are:",
@@ -18954,7 +21112,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "West is −x(-6) and North is +y(4).",
     ),
-
     QuizQuestion(
       question:
           "9. Predict the 50th term of the sequence where the rule is y = 2x − 1.",
@@ -18963,7 +21120,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "(2 × 50) − 1 = 99.",
     ),
-
     QuizQuestion(
       question:
           "10. In the relation y = x + 5, if the co-domain is 20, what is the domain?",
@@ -18972,7 +21128,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "15 + 5 = 20, so x must be 15.",
     ),
-
     QuizQuestion(
       question:
           "11. Which coordinate represents moving 2 units East and 5 units South?",
@@ -18981,7 +21136,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "East is positive x(2) and South is negative y(-5).",
     ),
-
     QuizQuestion(
       question:
           "12. What is the common difference in the sequence 7, 14, 21, 28?",
@@ -18990,7 +21144,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "14 − 7 = 7 and 21 − 14 = 7.",
     ),
-
     QuizQuestion(
       question:
           "13. If the rule is 'thrice the number plus 2', what is y when x is 4?",
@@ -18999,7 +21152,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "(3 × 4) + 2 = 14.",
     ),
-
     QuizQuestion(
       question: "14. Which phrase describes the rule y = x − 5?",
       options: [
@@ -19013,7 +21165,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       explanation:
           "Subtracting 5 means the result is \"five less than\" the original",
     ),
-
     QuizQuestion(
       question: r"15. Find the 10th term in the mapping x → X^2 + 1.",
       options: ["100", "021", "101", "011"],
@@ -19021,7 +21172,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "(10 × 10) + 1 = 101.",
     ),
-
     QuizQuestion(
       question:
           "16. A line on a graph passes through (0, 2), (1, 3), and (2, 4). What is the rule?",
@@ -19030,7 +21180,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "0 + 2 = 2, 1 + 2 = 3, 2 + 2 = 4.",
     ),
-
     QuizQuestion(
       question:
           "17. If you are at point (3, 3) and move 3 units West, what is your new point?",
@@ -19040,7 +21189,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       explanation:
           "Moving West means subtracting 3 from the x coordinate. 3 − 3 = 0.",
     ),
-
     QuizQuestion(
       question: "18. What is the rule for the sequence: 50, 40, 30, 20?",
       options: ["Subtract 10", "Add 10", "Multiply 10", "Divide 10"],
@@ -19048,7 +21196,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Each term is 10 smaller than the one before it",
     ),
-
     QuizQuestion(
       question:
           "19. Which animal is at point (−3, 3) on the school garden map?",
@@ -19058,7 +21205,6 @@ final QuizModel MATHjhs1s2ss1QuizData = QuizModel(
       explanation:
           "Based on the NaCCA exemplar, the cocoa plant is located at (−3, 3).",
     ),
-
     QuizQuestion(
       question: "20. If y = 5x, and y = 25, what is x?",
       options: ["02", "03", "04", "05"],
@@ -19078,7 +21224,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "We find the sum first, then multiply the whole group by 5.",
     ),
-
     QuizQuestion(
       question: "2. Simplify 3a + 4b − a + 2b.",
       options: ["2a + 6b", "4a + 6b", "8ab", "2a + 2b"],
@@ -19087,7 +21232,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Grouping the a family  (3a − a) and the b family (4b + 2b).",
     ),
-
     QuizQuestion(
       question: r"3. What is 2m^2 × 5m^4?",
       options: [r"7m^6", r"10m^8", r"10m^6", r"7m^8"],
@@ -19095,7 +21239,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiply the coefficients 2 x 5 and add the powers 2 + 4",
     ),
-
     QuizQuestion(
       question: r"4. Simplify \frac{20ab}{5a}.",
       options: ["4a", "15b", "4ab", "4b"],
@@ -19104,7 +21247,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Divide 20 by 5 to get 4, and the a on top and bottom cancels out.",
     ),
-
     QuizQuestion(
       question: r"5. Evaluate 2x^2 when x = 5.",
       options: ["20", "50", "100", "25"],
@@ -19112,7 +21254,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "First square 5 to get 25, then multiply by 2.",
     ),
-
     QuizQuestion(
       question: "6. Expand and simplify: 3(x + 2) − 2x.",
       options: ["x + 2", "x + 6", "5x + 6", "x − 6"],
@@ -19121,7 +21262,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Expanding gives 3x + 6 - 2x. Subtracting 2x from 3x leaves x.",
     ),
-
     QuizQuestion(
       question: "7. A square has a side of 3n. What is its area?",
       options: ["6n", "9n", r"9n^2", "12n"],
@@ -19129,7 +21269,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"Area = side × side = 3n × 3n = 9n^2.",
     ),
-
     QuizQuestion(
       question: r"8. Find the value of (a + b) / 2 if a = 10 and b = 6.",
       options: ["8", "16", "4", "12"],
@@ -19137,7 +21276,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "10 + 6 = 16. Dividing 16 by 2 gives 8",
     ),
-
     QuizQuestion(
       question: "9. Simplify 12x − (4x + 2x).",
       options: ["10x", "6x", "8x", "18x"],
@@ -19146,7 +21284,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Solve inside the brackets first to get 6x, then 12x - 6x = 6x",
     ),
-
     QuizQuestion(
       question: r"10. Simplify \frac{(15x + 10)}{5}.",
       options: ["3x + 10", "15x + 2", "3x + 2", "5x"],
@@ -19154,7 +21291,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Both terms in the numerator must be divided by 5",
     ),
-
     QuizQuestion(
       question: "11. Translate \"8 more than a number k divided by 3.\"",
       options: [
@@ -19167,7 +21303,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "First divide k by 3, then add the 8.",
     ),
-
     QuizQuestion(
       question: "12. Simplify 5p − 2q + p − 3q.",
       options: ["6p − 5q", "4p − 1q", "6p + 5q", "4p − 5q"],
@@ -19175,7 +21310,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "5p + p = 6p and −2q − 3q = −5q.",
     ),
-
     QuizQuestion(
       question: "13. Simplify 10ab x 2c.",
       options: ["12abc", "20abc", "20a + b + c", "102abc"],
@@ -19184,7 +21318,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Multiply the numbers and place all different letters next to each other.",
     ),
-
     QuizQuestion(
       question: "14. Evaluate 3(x − y) if x = 10 and y = 4.",
       options: ["18", "26", "14", "21"],
@@ -19192,7 +21325,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "10 - 4 = 6, then 3 x 6 = 18.",
     ),
-
     QuizQuestion(
       question: "15. Expand −2(x − 5).",
       options: ["−2x − 10", "2x + 10", "−2x + 10", "−2x − 7"],
@@ -19201,7 +21333,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation:
           "Negative 2 times negative 5 becomes positive 10. −2 × −5 = +10 → −2x + 10.",
     ),
-
     QuizQuestion(
       question:
           "16. If a rectangle has sides 5a and 2a, what is its perimeter?",
@@ -19210,7 +21341,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Perimeter = 5a + 2a + 5a + 2a = 14a.",
     ),
-
     QuizQuestion(
       question: "17. Simplify X × X × y × y × y.",
       options: [r"x^2y^2", r"2x^3y", "5xy", r"x^3y^3"],
@@ -19218,7 +21348,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"x appears 3 times and y appears 3 times → x^3y^3.",
     ),
-
     QuizQuestion(
       question: "18. What is the value of m in m = 4a if a = 0.5?",
       options: ["4.5", "2.0", "20", "4.0"],
@@ -19226,7 +21355,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "4 x 0.5 is half of 4, which is 2",
     ),
-
     QuizQuestion(
       question: "19. Simplify 4x + 3y if x = 1 and y = 1.",
       options: ["12", "43", "7", "8"],
@@ -19234,7 +21362,6 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "4(1) + 3(1) = 7.",
     ),
-
     QuizQuestion(
       question: "20. Which of these is a \"Like Term\" to 5ab^2?",
       options: [r"5a^2b", "2ab", "10ab^2", "5ab"],
@@ -19255,7 +21382,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiplication undoes division.",
     ),
-
     QuizQuestion(
       question: "2. Solve x − 15 = 5.",
       options: ["x = 20", "x = 10", "x = 3", "x = −10"],
@@ -19263,7 +21389,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "5 + 15 = 20.",
     ),
-
     QuizQuestion(
       question: "3. \"The sum of a number and 8 is 20.\" Write the equation.",
       options: ["8n = 20", "n − 8 = 20", "n/8 = 20", "n + 8 = 20"],
@@ -19271,7 +21396,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Sum indicates addition.",
     ),
-
     QuizQuestion(
       question:
           "4. If 5 identical boxes balance with 40kg, how much is one box?",
@@ -19280,7 +21404,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "40 ÷ 5 = 8.",
     ),
-
     QuizQuestion(
       question:
           "5. On a tile mat, how do you remove 2 yellow tiles from the left side?",
@@ -19295,7 +21418,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       explanation:
           "Adding 2 red tiles creates zero pairs with the yellow tiles.",
     ),
-
     QuizQuestion(
       question: "6. Solve 3x + 2 = 14.",
       options: ["x = 4", "x = 12", "x = 16", "x = 5"],
@@ -19303,7 +21425,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "14 − 2 = 12, then 12 ÷ 3 = 4.",
     ),
-
     QuizQuestion(
       question: "7. What is the value of x in 4x = 3x + 5?",
       options: ["x = 1", "x = 15", "x = 5", "x = 8"],
@@ -19311,7 +21432,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "High",
       explanation: "4x − 3x = 5, so x = 5.",
     ),
-
     QuizQuestion(
       question: "8. Solve x/3 = 9.",
       options: ["x = 3", "x = 12", "x = 6", "x = 27"],
@@ -19319,7 +21439,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "9 × 3 = 27.",
     ),
-
     QuizQuestion(
       question: "9. If an equation is 2x − 6 = 2, what is the first step?",
       options: [
@@ -19332,7 +21451,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Undo subtraction by adding 6.",
     ),
-
     QuizQuestion(
       question: "10. Solve the equation from the previous question: 2x = 8.",
       options: ["x = 10", "x = 6", "x = 16", "x = 4"],
@@ -19340,7 +21458,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "8 ÷ 2 = 4.",
     ),
-
     QuizQuestion(
       question: "11. Which word represents multiplication in a word problem?",
       options: ["Product", "Difference", "Sum", "Less than"],
@@ -19348,7 +21465,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Product means multiplication.",
     ),
-
     QuizQuestion(
       question:
           "12. In a flag diagram, if the forward operation is −7, what is the inverse?",
@@ -19357,7 +21473,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Addition is the inverse of subtraction.",
     ),
-
     QuizQuestion(
       question: "13. Solve 12 + x = 10.",
       options: ["x = 22", "x = 2", "x = −2", "x = 120"],
@@ -19365,7 +21480,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "10 − 12 = −2.",
     ),
-
     QuizQuestion(
       question: "14. If 2x balances with 10 units, how many units for 3x?",
       options: ["15 units", "30 units", "5 units", "20 units"],
@@ -19373,7 +21487,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "High",
       explanation: "1x = 5, so 3x = 15.",
     ),
-
     QuizQuestion(
       question: "15. What color is used for negative unit tiles in our model?",
       options: ["Green", "Yellow", "Blue", "Red"],
@@ -19381,7 +21494,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Red represents −1.",
     ),
-
     QuizQuestion(
       question: "16. Solve x/5 + 1 = 3.",
       options: ["x = 20", "x = 10", "x = 15", "x = 5"],
@@ -19389,7 +21501,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "High",
       explanation: "3 − 1 = 2, then 2 × 5 = 10.",
     ),
-
     QuizQuestion(
       question: "17. Translate: \"Ten less than a number n is five.\"",
       options: ["10 − n = 5", "n + 10 = 5", "n − 10 = 5", "10n = 5"],
@@ -19397,7 +21508,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Ten less than\" means subtract 10 from n.",
     ),
-
     QuizQuestion(
       question: "18. Solve 4x = 28.",
       options: ["x = 32", "x = 24", "x = 112", "x = 7"],
@@ -19405,7 +21515,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "28 ÷ 4 = 7.",
     ),
-
     QuizQuestion(
       question:
           "19. What happens to a negative term when it moves to the other side?",
@@ -19419,7 +21528,6 @@ final QuizModel MATHjhs1s2ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Signs flip when crossing the equal sign.",
     ),
-
     QuizQuestion(
       question: "20. Solve x + x + 2 = 12.",
       options: ["x = 5", "x = 7", "x = 10", "x = 12"],
@@ -19438,17 +21546,17 @@ final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
       options: ["180°", "90°", "360°", "45°"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Complementary angles are defined as two angles that add up to exactly 90°.",
+      explanation:
+          "Complementary angles are defined as two angles that add up to exactly 90°.",
     ),
-
     QuizQuestion(
       question: "2. In construction, the 'X' formed by two arcs is called an:",
       options: ["Intersection", "Vertex", "Bisector", "Arc"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "An intersection is the exact point where two lines or arcs cross each other.",
+      explanation:
+          "An intersection is the exact point where two lines or arcs cross each other.",
     ),
-
     QuizQuestion(
       question: "3. If ∠A = 55°, what is its supplement?",
       options: ["125°", "35°", "145°", "90°"],
@@ -19456,7 +21564,6 @@ final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Supplementary angles add to 180°. 180 − 55 = 125°.",
     ),
-
     QuizQuestion(
       question: "4. Which angle is constructed by bisecting a 90° angle?",
       options: ["60°", "30°", "15°", "45°"],
@@ -19464,23 +21571,28 @@ final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "To bisect means to cut in half. Half of 90 is 45.",
     ),
-
     QuizQuestion(
-      question: "5. Two lines cross to form an 'X'. If the top angle is 60°, what is the bottom angle?",
+      question:
+          "5. Two lines cross to form an 'X'. If the top angle is 60°, what is the bottom angle?",
       options: ["120°", "30°", "60°", "90°"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Vertically opposite angles are created by intersecting lines and are always equal.",
+      explanation:
+          "Vertically opposite angles are created by intersecting lines and are always equal.",
     ),
-
     QuizQuestion(
       question: "6. What is the first step in constructing a 60° angle?",
-      options: ["Draw a 90° line", "Bisect the line", "Draw an arc from the vertex", "Use a protractor"],
+      options: [
+        "Draw a 90° line",
+        "Bisect the line",
+        "Draw an arc from the vertex",
+        "Use a protractor"
+      ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Every compass construction starts by drawing an initial arc to establish a reference radius.",
+      explanation:
+          "Every compass construction starts by drawing an initial arc to establish a reference radius.",
     ),
-
     QuizQuestion(
       question: "7. An angle that measures 179° is classified as:",
       options: ["Acute", "Right", "Reflex", "Obtuse"],
@@ -19488,95 +21600,105 @@ final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Obtuse angles are greater than 90° but less than 180°.",
     ),
-
     QuizQuestion(
       question: "8. To bisect a line segment, the compass must be opened to:",
-      options: ["Exactly half the length", "Less than half the length", "More than half the length", "The full length of the line"],
+      options: [
+        "Exactly half the length",
+        "Less than half the length",
+        "More than half the length",
+        "The full length of the line"
+      ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "If the compass is not open more than halfway, the two arcs will not meet to form an intersection.",
+      explanation:
+          "If the compass is not open more than halfway, the two arcs will not meet to form an intersection.",
     ),
-
     QuizQuestion(
       question: "9. Which angle is exactly 15° more than 60°?",
       options: ["45°", "90°", "75°", "30°"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "60 + 15 = 75. In construction, this is done by bisecting the 30° gap between 60 and 90.",
+      explanation:
+          "60 + 15 = 75. In construction, this is done by bisecting the 30° gap between 60 and 90.",
     ),
-
     QuizQuestion(
       question: "10. A carpenter uses a 'Try Square' to check for which angle?",
       options: ["45°", "60°", "180°", "90°"],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "Try squares are L-shaped tools designed specifically to check or mark 90-degree right angles.",
+      explanation:
+          "Try squares are L-shaped tools designed specifically to check or mark 90-degree right angles.",
     ),
-
     QuizQuestion(
-      question: "11. What do we call the point where the two arms of an angle meet?",
+      question:
+          "11. What do we call the point where the two arms of an angle meet?",
       options: ["Intersection", "Vertex", "Origin", "Segment"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The vertex is the common endpoint of the two rays (arms) that form an angle.",
+      explanation:
+          "The vertex is the common endpoint of the two rays (arms) that form an angle.",
     ),
-
     QuizQuestion(
       question: "12. If an angle is 310°, it is a ______ angle.",
       options: ["Obtuse", "Straight", "Reflex", "Acute"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Reflex angles are those that are greater than 180° but less than 360°.",
+      explanation:
+          "Reflex angles are those that are greater than 180° but less than 360°.",
     ),
-
     QuizQuestion(
-      question: "13. Two angles are adjacent if they share a vertex and a ______.",
+      question:
+          "13. Two angles are adjacent if they share a vertex and a ______.",
       options: ["Protractor", "Bisector", "Common Arm", "Baseline"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Adjacent angles are 'side-by-side' and must share both a vertex and one arm.",
+      explanation:
+          "Adjacent angles are 'side-by-side' and must share both a vertex and one arm.",
     ),
-
     QuizQuestion(
       question: "14. If you bisect a 30° angle, you get:",
-      options: ["Two 15° angles", "Two 60° angles", "One 15° angle and one 30° angle", "45°"],
+      options: [
+        "Two 15° angles",
+        "Two 60° angles",
+        "One 15° angle and one 30° angle",
+        "45°"
+      ],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "Bisecting always results in two equal parts. 30 ÷ 2 = 15.",
     ),
-
     QuizQuestion(
       question: "15. A straight line measures exactly:",
       options: ["90°", "360°", "180°", "0°"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "A straight angle represents a half-rotation, which is exactly 180°.",
+      explanation:
+          "A straight angle represents a half-rotation, which is exactly 180°.",
     ),
-
     QuizQuestion(
       question: "16. To construct a 30° angle, you must first construct a:",
       options: ["90° angle", "60° angle", "45° angle", "Square"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Since 30 is half of 60, the 60° construction is the required first step.",
+      explanation:
+          "Since 30 is half of 60, the 60° construction is the required first step.",
     ),
-
     QuizQuestion(
       question: "17. Which angle is smaller than a right angle?",
       options: ["Obtuse", "Acute", "Reflex", "Straight"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Acute angles range from 1° to 89°, all of which are smaller than 90°.",
+      explanation:
+          "Acute angles range from 1° to 89°, all of which are smaller than 90°.",
     ),
-
     QuizQuestion(
       question: "18. If two lines are perpendicular, they meet at an angle of:",
       options: ["180°", "45°", "90°", "60°"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Perpendicularity is defined by the intersection of lines at exactly 90 degrees.",
+      explanation:
+          "Perpendicularity is defined by the intersection of lines at exactly 90 degrees.",
     ),
-
     QuizQuestion(
       question: "19. How many degrees are in a full circle?",
       options: ["180°", "90°", "360°", "270°"],
@@ -19584,13 +21706,19 @@ final QuizModel MATHjhs1s3ss1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "A full rotation or a complete circle is defined as 360°.",
     ),
-
     QuizQuestion(
-      question: "20. When using the 'Same Radius' method to build 60°, the distance from the vertex to point A is the same as the distance from A to the 'X'. This forms an:",
-      options: ["Isosceles triangle", "Equilateral triangle", "Right triangle", "Scalene triangle"],
+      question:
+          "20. When using the 'Same Radius' method to build 60°, the distance from the vertex to point A is the same as the distance from A to the 'X'. This forms an:",
+      options: [
+        "Isosceles triangle",
+        "Equilateral triangle",
+        "Right triangle",
+        "Scalene triangle"
+      ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "An equilateral triangle has three equal sides and three 60° angles.",
+      explanation:
+          "An equilateral triangle has three equal sides and three 60° angles.",
     ),
   ],
 );
@@ -19604,7 +21732,6 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "1.5 × 100 = 150 cm.",
     ),
-
     QuizQuestion(
       question: "2. If the radius of a circle is 10 cm, what is the diameter?",
       options: ["5 cm", "10 cm", "30 cm", "20 cm"],
@@ -19612,15 +21739,14 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Diameter = 2 × Radius = 20 cm.",
     ),
-
     QuizQuestion(
-      question: "3. Find the area of a triangle with base 10 cm and height 6 cm.",
+      question:
+          "3. Find the area of a triangle with base 10 cm and height 6 cm.",
       options: ["60 cm²", "30 cm²", "16 cm²", "15 cm²"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: r"Area = \frac{1}{2} × 10 × 6 = 30 cm².",
     ),
-
     QuizQuestion(
       question: "4. A bearing of 270° points in which direction?",
       options: ["East", "North", "South", "West"],
@@ -19628,7 +21754,6 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "000° North, 090° East, 180° South, 270° West.",
     ),
-
     QuizQuestion(
       question: "5. What is the back bearing of 200°?",
       options: ["020°", "380°", "180°", "000°"],
@@ -19636,23 +21761,22 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "200 − 180 = 020°.",
     ),
-
     QuizQuestion(
-      question: r"6. In the vector \begin{pmatrix} -5 \\  2 \end{pmatrix}, the number -5 tells you to move:",
+      question:
+          r"6. In the vector \begin{pmatrix} -5 \\  2 \end{pmatrix}, the number -5 tells you to move:",
       options: ["5 units up", "5 units right", "5 units left", "5 units down"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "Negative horizontal value means move left.",
     ),
-
     QuizQuestion(
-      question: r"7. Calculate the magnitude of the vector \begin{pmatrix} 6 \\ 8 \end{pmatrix}.",
+      question:
+          r"7. Calculate the magnitude of the vector \begin{pmatrix} 6 \\ 8 \end{pmatrix}.",
       options: ["14", "10", "48", "100"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "√(6² + 8²) = √100 = 10.",
     ),
-
     QuizQuestion(
       question: "8. Which quantity has magnitude but NO direction?",
       options: ["Velocity", "Scalar", "Vector", "Force"],
@@ -19660,15 +21784,14 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Scalars only have magnitude.",
     ),
-
     QuizQuestion(
-      question: "9. A square on a grid has a side of 5 units. What is its area?",
+      question:
+          "9. A square on a grid has a side of 5 units. What is its area?",
       options: [r"10 units^2", r"20 units^2", r"25 units^2", r"15 units^2"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "Area = 5 x 5 = 25.",
     ),
-
     QuizQuestion(
       question: "10. What is the bearing of a point exactly North-East?",
       options: ["090°", "180°", "000°", "045°"],
@@ -19676,39 +21799,38 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Halfway between 000° and 090°.",
     ),
-
     QuizQuestion(
-      question: "11. A triangle is always ____ the area of a parallelogram with the same base and height.",
+      question:
+          "11. A triangle is always ____ the area of a parallelogram with the same base and height.",
       options: ["Double", "Half", "Equal to", "Triple"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Triangle area = half of parallelogram.",
     ),
-
     QuizQuestion(
-      question: r"12. What is the circumference of a circle with diameter 7 m? (π = \frac{22}{7})",
+      question:
+          r"12. What is the circumference of a circle with diameter 7 m? (π = \frac{22}{7})",
       options: ["22 m", "44 m", "11 m", "49 m"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: r"C = \frac{22}{7} x 7 = 22 m.",
     ),
-
     QuizQuestion(
-      question: "13. How is a bearing of 5 degrees written in three-digit form?",
+      question:
+          "13. How is a bearing of 5 degrees written in three-digit form?",
       options: ["500°", "050°", "005°", "5.00°"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "Bearings must have three digits.",
     ),
-
     QuizQuestion(
-      question: "14. If you walk 3 km North and 4 km East, what is your displacement magnitude?",
+      question:
+          "14. If you walk 3 km North and 4 km East, what is your displacement magnitude?",
       options: ["7 km", "12 km", "5 km", "1 km"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "√(3² + 4²) = 5.",
     ),
-
     QuizQuestion(
       question: "15. What is the back bearing of 045°?",
       options: ["225°", "135°", "315°", "045°"],
@@ -19716,7 +21838,6 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "45 + 180 = 225°.",
     ),
-
     QuizQuestion(
       question: "16. Which is a vector: \"50 km/h\" or \"50 km/h North\"?",
       options: ["50 km/h", "50 km/h North", "Both", "Neither"],
@@ -19724,15 +21845,14 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Vector includes direction.",
     ),
-
     QuizQuestion(
-      question: r"17. In the column vector \begin{pmatrix} x \\ y \end{pmatrix}, y represents:",
+      question:
+          r"17. In the column vector \begin{pmatrix} x \\ y \end{pmatrix}, y represents:",
       options: ["Left/Right", "Length", "Up/Down", "Bearing"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "y is vertical component.",
     ),
-
     QuizQuestion(
       question: "18. The area of a triangle with base 4m and height 5m is:",
       options: [r"20 m^2", r"9 m^2", r"10 m^2", r"40 m^2"],
@@ -19740,7 +21860,6 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: r"\frac{1}{2} × 4 × 5 = 10 m^2.",
     ),
-
     QuizQuestion(
       question: "19. A vector (0, 0) is called:",
       options: ["Unit vector", "Resultant vector", "Zero vector", "Scalar"],
@@ -19748,9 +21867,9 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "No magnitude = zero vector.",
     ),
-
     QuizQuestion(
-      question: "20. To find the distance around a compound shape, you find the:",
+      question:
+          "20. To find the distance around a compound shape, you find the:",
       options: ["Area", "Volume", "Perimeter", "Magnitude"],
       correctIndex: 2,
       difficulty: "Easy",
@@ -19762,77 +21881,103 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
   audioPath: 'assets/audio/math/3. JHS1 S3 SS3/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which Adinkra symbol typically shows vertical reflectional symmetry?",
-      options: ["A random squiggle", "Sankofa (heart version)", "A single dot", "A staircase"],
+      question:
+          "1. Which Adinkra symbol typically shows vertical reflectional symmetry?",
+      options: [
+        "A random squiggle",
+        "Sankofa (heart version)",
+        "A single dot",
+        "A staircase"
+      ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The heart-shaped Sankofa can be folded vertically down the middle to match.",
+      explanation:
+          "The heart-shaped Sankofa can be folded vertically down the middle to match.",
     ),
-
     QuizQuestion(
-      question: "2.The point (-2, 7) is reflected in the x-axis. The new point is:",
+      question:
+          "2.The point (-2, 7) is reflected in the x-axis. The new point is:",
       options: ["(2, 7)", "(-2, -7)", "(2, -7)", "(7, -2)"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "X stays the same; Y flips sign (7 becomes -7).",
     ),
-
     QuizQuestion(
-      question: r"3. What does the vector \begin{pmatrix} 0 \\ -4 \end{pmatrix} tell a shape to do?",
-      options: ["Move 4 units right", "Move 4 units up", "Move 4 units left", "Move 4 units down"],
+      question:
+          r"3. What does the vector \begin{pmatrix} 0 \\ -4 \end{pmatrix} tell a shape to do?",
+      options: [
+        "Move 4 units right",
+        "Move 4 units up",
+        "Move 4 units left",
+        "Move 4 units down"
+      ],
       correctIndex: 3,
       difficulty: "Low",
       explanation: "Zero horizontal movement; -4 means move down.",
     ),
-
     QuizQuestion(
-      question: "4. If Triangle A is congruent to Triangle B, what must be true?",
-      options: ["They are different sizes", "They have different angles", "They are identical twins", "One is a circle"],
+      question:
+          "4. If Triangle A is congruent to Triangle B, what must be true?",
+      options: [
+        "They are different sizes",
+        "They have different angles",
+        "They are identical twins",
+        "One is a circle"
+      ],
       correctIndex: 2,
       difficulty: "Low",
       explanation: "Congruent means exactly the same size and shape.",
     ),
-
     QuizQuestion(
-      question: r"5. Reflect \begin{pmatrix} 6 \\ 0 \end{pmatrix} in the y-axis.",
+      question:
+          r"5. Reflect \begin{pmatrix} 6 \\ 0 \end{pmatrix} in the y-axis.",
       options: ["(0, 6)", "(6, 0)", "(-6, 0)", "(0, 0)"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "Y stays 0; X flips from 6 to -6.",
     ),
-
     QuizQuestion(
-      question: "6. A photograph of a house and the actual house are examples of:",
-      options: ["Congruent shapes", "Similar shapes", "Reflected shapes", "Symmetrical shapes"],
+      question:
+          "6. A photograph of a house and the actual house are examples of:",
+      options: [
+        "Congruent shapes",
+        "Similar shapes",
+        "Reflected shapes",
+        "Symmetrical shapes"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Same shape, different size → similar.",
     ),
-
     QuizQuestion(
-      question: r"7. Translation by \begin{pmatrix} 5 \\ 5 \end{pmatrix} moves a point:",
-      options: ["5 units left and 5 units down", "5 units right and 5 units up", "5 units right and 5 units down", "5 units left and 5 units up"],
+      question:
+          r"7. Translation by \begin{pmatrix} 5 \\ 5 \end{pmatrix} moves a point:",
+      options: [
+        "5 units left and 5 units down",
+        "5 units right and 5 units up",
+        "5 units right and 5 units down",
+        "5 units left and 5 units up"
+      ],
       correctIndex: 1,
       difficulty: "Low",
       explanation: "Both positive → right and up.",
     ),
-
     QuizQuestion(
-      question: "8. A scalene triangle (all sides different) has how many lines of symmetry?",
+      question:
+          "8. A scalene triangle (all sides different) has how many lines of symmetry?",
       options: ["3", "1", "2", "0"],
       correctIndex: 3,
       difficulty: "Hard",
       explanation: "No equal sides → no symmetry.",
     ),
-
     QuizQuestion(
-      question: r"9. In a translation, if the image is at (1, 1) and the vector was \begin{pmatrix} 1 \\ 1 \end{pmatrix}, where was the start?",
+      question:
+          r"9. In a translation, if the image is at (1, 1) and the vector was \begin{pmatrix} 1 \\ 1 \end{pmatrix}, where was the start?",
       options: ["(2, 2)", "(0, 0)", "(-1, -1)", "(1, 1)"],
       correctIndex: 1,
       difficulty: "Hard",
       explanation: "Subtract vector: (1,1) − (1,1) = (0,0).",
     ),
-
     QuizQuestion(
       question: "10. The line of symmetry for a human face is usually:",
       options: ["Horizontal", "Diagonal", "Vertical", "Circular"],
@@ -19840,7 +21985,6 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Vertical line splits into two equal halves.",
     ),
-
     QuizQuestion(
       question: "11. Reflecting a point (x, y) in the line y = x results in:",
       options: ["(-x, -y)", "(y, x)", "(-y, -x)", "(x, -y)"],
@@ -19848,7 +21992,6 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Coordinates swap places.",
     ),
-
     QuizQuestion(
       question: "12. Which of these is NOT a transformation?",
       options: ["Reflection", "Translation", "Congruence", "Rotation"],
@@ -19856,23 +21999,22 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Congruence is a property, not a movement.",
     ),
-
     QuizQuestion(
-      question: "13. If a shape is similar to another, their corresponding angles are:",
+      question:
+          "13. If a shape is similar to another, their corresponding angles are:",
       options: ["Different", "Doubled", "Equal", "Zero"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "Similar shapes have equal angles.",
     ),
-
     QuizQuestion(
-      question: r"14. Translate (-5, -5) by vector \begin{pmatrix} 5 \\ 5 \end{pmatrix}.",
+      question:
+          r"14. Translate (-5, -5) by vector \begin{pmatrix} 5 \\ 5 \end{pmatrix}.",
       options: ["(10, 10)", "(-10, -10)", "(0, 0)", "(5, 5)"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "-5 + 5 = 0 for both coordinates.",
     ),
-
     QuizQuestion(
       question: "15. A rectangle has how many lines of symmetry?",
       options: ["4", "2", "1", "0"],
@@ -19880,23 +22022,22 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "One horizontal and one vertical.",
     ),
-
     QuizQuestion(
-      question: r"16. In the vector \begin{pmatrix} -3 \\ 8 \end{pmatrix}, which way do you move first?",
+      question:
+          r"16. In the vector \begin{pmatrix} -3 \\ 8 \end{pmatrix}, which way do you move first?",
       options: ["3 units left", "3 units right", "8 units up", "8 units down"],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "Top value is -3 → move left first.",
     ),
-
     QuizQuestion(
-      question: "17. If you reflect (2, 3) in the x-axis and then the y-axis, you land at:",
+      question:
+          "17. If you reflect (2, 3) in the x-axis and then the y-axis, you land at:",
       options: ["(2, 3)", "(-2, 3)", "(2, -3)", "(-2, -3)"],
       correctIndex: 3,
       difficulty: "Hard",
       explanation: "Flip y → (2,-3), then x → (-2,-3).",
     ),
-
     QuizQuestion(
       question: "18. Two congruent triangles must have the same:",
       options: ["Colour", "Position", "Area", "Name"],
@@ -19904,7 +22045,6 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Same size → same area.",
     ),
-
     QuizQuestion(
       question: "19. What is the x-coordinate of the origin?",
       options: ["1", "10", "0", "-1"],
@@ -19912,10 +22052,15 @@ final QuizModel MATHjhs1s3ss3QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Origin is (0, 0).",
     ),
-
     QuizQuestion(
-      question: "20. Which vector represents moving 2 units left and 6 units up?",
-      options: [r"\begin{pmatrix} 2 \\ 6 \end{pmatrix}", r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}", r"\begin{pmatrix} 2 \\ -6 \end{pmatrix}", r"\begin{pmatrix} -2 \\ -6 \end{pmatrix}"],
+      question:
+          "20. Which vector represents moving 2 units left and 6 units up?",
+      options: [
+        r"\begin{pmatrix} 2 \\ 6 \end{pmatrix}",
+        r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}",
+        r"\begin{pmatrix} 2 \\ -6 \end{pmatrix}",
+        r"\begin{pmatrix} -2 \\ -6 \end{pmatrix}"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Left = negative x (-2), up = positive y (6).",
@@ -19928,60 +22073,90 @@ final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. What is the definition of 'Data'?",
-      options: ["A list of students", "Facts and observations", "Drawing a bar graph", "The name of a school"],
+      options: [
+        "A list of students",
+        "Facts and observations",
+        "Drawing a bar graph",
+        "The name of a school"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Data is any collection of facts, numbers, or observations used to draw conclusions.",
+      explanation:
+          "Data is any collection of facts, numbers, or observations used to draw conclusions.",
     ),
-
     QuizQuestion(
       question: "2. Which is an example of Qualitative Data?",
-      options: ["Heights of learners", "Number of desks", "Favourite radio station", "Cost of bus fare"],
+      options: [
+        "Heights of learners",
+        "Number of desks",
+        "Favourite radio station",
+        "Cost of bus fare"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: " Radio stations are descriptions/qualities, whereas the others are numerical.",
+      explanation:
+          " Radio stations are descriptions/qualities, whereas the others are numerical.",
     ),
-
     QuizQuestion(
       question: "3. To find out why a shop is losing money, which is best?",
-      options: ["Observation", "Deep interview", "Data from 2020", "A short tally"],
+      options: [
+        "Observation",
+        "Deep interview",
+        "Data from 2020",
+        "A short tally"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Interviews allow for detailed answers and follow-up questions to understand reasons.",
+      explanation:
+          "Interviews allow for detailed answers and follow-up questions to understand reasons.",
     ),
-
     QuizQuestion(
       question: "4. A \"leading question\" in a survey is bad because:",
-      options: ["It is too short", "It is too long", "It biases the results", "It uses no ink"],
+      options: [
+        "It is too short",
+        "It is too long",
+        "It biases the results",
+        "It uses no ink"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Leading questions suggest a specific answer, which prevents the researcher from getting honest data.",
+      explanation:
+          "Leading questions suggest a specific answer, which prevents the researcher from getting honest data.",
     ),
-
     QuizQuestion(
       question: "5. How is the number 7 shown in tally marks?",
-      options: ["7 vertical lines", "A bundle and 2 lines", "A bundle and 5 lines", "Two bundles of five"],
+      options: [
+        "7 vertical lines",
+        "A bundle and 2 lines",
+        "A bundle and 5 lines",
+        "Two bundles of five"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "One bundle represents 5, plus 2 extra vertical lines equals 7.",
+      explanation:
+          "One bundle represents 5, plus 2 extra vertical lines equals 7.",
     ),
-
     QuizQuestion(
       question: "6. The horizontal axis (bottom line) is called:",
       options: ["The y-axis", "The frequency", "The x-axis", "The title"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "In a standard bar graph, the x-axis runs horizontally along the bottom.",
+      explanation:
+          "In a standard bar graph, the x-axis runs horizontally along the bottom.",
     ),
-
     QuizQuestion(
       question: "7. What must be equal between bars in a bar graph?",
-      options: ["The bar heights", "The space between bars", "The number of tallies", "The color of the bars"],
+      options: [
+        "The bar heights",
+        "The space between bars",
+        "The number of tallies",
+        "The color of the bars"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Professional graphs require equal width for bars and equal spacing for clarity.",
+      explanation:
+          "Professional graphs require equal width for bars and equal spacing for clarity.",
     ),
-
     QuizQuestion(
       question: "8. Calculate the Mean of: 6, 8, 10.",
       options: ["8", "24", "6", "10"],
@@ -19989,7 +22164,6 @@ final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Sum = 24. Count = 3. 24 ÷ 3 = 8.",
     ),
-
     QuizQuestion(
       question: "9. What is the Mean score of 10, 20, 30, 40?",
       options: ["20", "40", "25", "10"],
@@ -19997,7 +22171,6 @@ final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Sum = 100. Count = 4. 100 ÷ 4 = 25.",
     ),
-
     QuizQuestion(
       question: "10. Find the Median of: 5, 2, 9, 1, 7.",
       options: ["9", "1", "5", "2"],
@@ -20005,39 +22178,58 @@ final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Ordered: 1, 2, 5, 7, 9. The middle value is 5.",
     ),
-
     QuizQuestion(
       question: "11. If you have 6 numbers, the Median is:",
-      options: ["The 6th number", "The average of the 3rd and 4th", "The 1st number", "The total sum divided by 6"],
+      options: [
+        "The 6th number",
+        "The average of the 3rd and 4th",
+        "The 1st number",
+        "The total sum divided by 6"
+      ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "In an even set, you must average the two numbers in the middle positions.",
+      explanation:
+          "In an even set, you must average the two numbers in the middle positions.",
     ),
-
     QuizQuestion(
       question: "12. Quantitative data is always about:",
-      options: ["Names and places", "Descriptions and smells", "Numbers and counts", "Tally marks only"],
+      options: [
+        "Names and places",
+        "Descriptions and smells",
+        "Numbers and counts",
+        "Tally marks only"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Quantitative comes from \"quantity,\" referring to things that can be measured numerically.",
+      explanation:
+          "Quantitative comes from \"quantity,\" referring to things that can be measured numerically.",
     ),
-
     QuizQuestion(
       question: "13. Which method uses the internet to find data?",
-      options: ["Observation", "Electronic media", "Lab experiment", "Face-to-face interview"],
+      options: [
+        "Observation",
+        "Electronic media",
+        "Lab experiment",
+        "Face-to-face interview"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Electronic media includes searching databases and the internet for existing information.",
+      explanation:
+          "Electronic media includes searching databases and the internet for existing information.",
     ),
-
     QuizQuestion(
       question: "14. A Frequency Table has columns for:",
-      options: ["Name and Address", "Category, Tally, Frequency", "Mean and Median", "Start and End time"],
+      options: [
+        "Name and Address",
+        "Category, Tally, Frequency",
+        "Mean and Median",
+        "Start and End time"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "These three columns are standard for organizing raw data into groups.",
+      explanation:
+          "These three columns are standard for organizing raw data into groups.",
     ),
-
     QuizQuestion(
       question: "15. What is the Median of: 10, 20, 30, 40?",
       options: ["20", "30", "25", "100"],
@@ -20045,45 +22237,59 @@ final QuizModel MATHjhs1s4ss1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Two middles are 20 and 30. (20+30) ÷ 2 = 25.",
     ),
-
     QuizQuestion(
       question: "16. To find the total sum from Mean 10 and Count 5:",
-      options: ["Add 10 and 5", "Divide 10 by 5", "Multiply 10 by 5", "Subtract 5 from 10"],
+      options: [
+        "Add 10 and 5",
+        "Divide 10 by 5",
+        "Multiply 10 by 5",
+        "Subtract 5 from 10"
+      ],
       correctIndex: 2,
       difficulty: "Hard",
       explanation: "Since Mean = Sum ÷ Count, then Sum = Mean x Count.",
     ),
-
     QuizQuestion(
       question: "17. Which is the vertical axis?",
       options: ["The x-axis", "The Title", "The y-axis", "The Legend"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "The y-axis stands vertically and usually shows the frequency.",
+      explanation:
+          "The y-axis stands vertically and usually shows the frequency.",
     ),
-
     QuizQuestion(
       question: "18. If data set is 5,5,5,5,5, Mean is:",
       options: ["25", "1", "5", "0"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "25 ÷ 5 = 5. When all values are identical, the mean is that value.",
+      explanation:
+          "25 ÷ 5 = 5. When all values are identical, the mean is that value.",
     ),
-
     QuizQuestion(
       question: "19. Why should you label the x and y axes?",
-      options: ["To make graph busy", "To show what numbers mean", "To practice spelling", "Because teacher said so"],
+      options: [
+        "To make graph busy",
+        "To show what numbers mean",
+        "To practice spelling",
+        "Because teacher said so"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Labels provide context so the reader knows what is being measured and what categories exist.",
+      explanation:
+          "Labels provide context so the reader knows what is being measured and what categories exist.",
     ),
-
     QuizQuestion(
       question: "20. What happens to the Mean if a very high number is added?",
-      options: ["It stays same", "It decreases", "It increases", "It disappears"],
+      options: [
+        "It stays same",
+        "It decreases",
+        "It increases",
+        "It disappears"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Adding a value higher than the current average will always pull the total mean upward.",
+      explanation:
+          "Adding a value higher than the current average will always pull the total mean upward.",
     ),
   ],
 );
@@ -20097,15 +22303,14 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "A standard die only has numbers 1–6.",
     ),
-
     QuizQuestion(
-      question: r"2. If the probability of rain is \frac{1}{4}, what is this as a percentage?",
+      question:
+          r"2. If the probability of rain is \frac{1}{4}, what is this as a percentage?",
       options: ["25%", "50%", "75%", "10%"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "1 ÷ 4 = 0.25 = 25%.",
     ),
-
     QuizQuestion(
       question: "3. The day after Friday will be Saturday. This event is:",
       options: ["Possible", "Certain", "Unlikely", "Impossible"],
@@ -20113,31 +22318,30 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "This is a fixed fact of the calendar.",
     ),
-
     QuizQuestion(
-      question: "4. Rolling a 'Prime Number' (2, 3, 5) on a die. What is the fraction?",
+      question:
+          "4. Rolling a 'Prime Number' (2, 3, 5) on a die. What is the fraction?",
       options: [r"\frac{1}{3}", r"\frac{2}{3}", r"\frac{1}{2}", r"\frac{1}{6}"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: r"3 outcomes out of 6 simplifies to \frac{1}{2}.",
     ),
-
     QuizQuestion(
-      question: "5. A bag has 8 blue pens and 2 red pens. Probability of picking a red pen?",
+      question:
+          "5. A bag has 8 blue pens and 2 red pens. Probability of picking a red pen?",
       options: ["20%", "80%", "10%", "2%"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"2 out of 10 total is \frac{2}{10} = 20%.",
     ),
-
     QuizQuestion(
-      question: "6. What is the maximum total you can get when rolling two dice?",
+      question:
+          "6. What is the maximum total you can get when rolling two dice?",
       options: ["10", "11", "12", "13"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "The highest roll is 6 + 6 = 12.",
     ),
-
     QuizQuestion(
       question: "7. An event that has a 0.5 probability is:",
       options: ["Impossible", "Certain", "Unlikely", "Possible"],
@@ -20145,15 +22349,14 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Any number between 0 and 1 is possible.",
     ),
-
     QuizQuestion(
-      question: "8. Probability of rolling a number less than 3 (1 or 2) on a die:",
+      question:
+          "8. Probability of rolling a number less than 3 (1 or 2) on a die:",
       options: [r"\frac{1}{3}", r"\frac{1}{2}", r"\frac{1}{6}", r"\frac{2}{3}"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"2 outcomes out of 6 simplifies to \farc{1}{3}.",
     ),
-
     QuizQuestion(
       question: "9. If P(E) = 1, the event is:",
       options: ["Possible", "Impossible", "Likely", "Certain"],
@@ -20161,15 +22364,14 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "In probability, 1 represents 100% certainty.",
     ),
-
     QuizQuestion(
-      question: "10. A coin is tossed. What is the probability it lands on 'Tails'?",
+      question:
+          "10. A coin is tossed. What is the probability it lands on 'Tails'?",
       options: [r"\frac{1}{4}", r"\frac{1}{2}", r"\frac{3}{4}", "1"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: r"There are 2 sides; tails is 1 of them.",
     ),
-
     QuizQuestion(
       question: "11. A bag contains 10 green balls. Picking a red ball is:",
       options: ["Impossible", "Possible", "Certain", "Unlikely"],
@@ -20177,7 +22379,6 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "You cannot pick what is not there.",
     ),
-
     QuizQuestion(
       question: "12. Express the probability 0.75 as a simplified fraction.",
       options: [r"\frac{1}{4}", r"\farc{1}{2}", r"\farc{3}{4}", r"\frac{4}{3}"],
@@ -20185,7 +22386,6 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"0.75 = \frac{75}{100} = \farc{3}{4}.",
     ),
-
     QuizQuestion(
       question: "13. In a ludo game, rolling a number greater than 0 is:",
       options: ["Impossible", "Possible", "Likely", "Certain"],
@@ -20193,15 +22393,14 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "All faces (1-6) are greater than 0.",
     ),
-
     QuizQuestion(
-      question: "14. Rolling an odd number (1, 3, 5) on a die. What is the percentage?",
+      question:
+          "14. Rolling an odd number (1, 3, 5) on a die. What is the percentage?",
       options: ["50%", "25%", "30%", "60%"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"3 out of 6 is half (50%).",
     ),
-
     QuizQuestion(
       question: "15. The ratio of a 'Certain' event is:",
       options: ["0:1", "1:1", "1:2", "1:0"],
@@ -20209,15 +22408,14 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "1 success for 1 trial.",
     ),
-
     QuizQuestion(
-      question: "16. If there are 5 apples and 5 oranges, picking an orange is:",
+      question:
+          "16. If there are 5 apples and 5 oranges, picking an orange is:",
       options: ["Impossible", "Certain", "Possible", "None"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "It could happen, but isn't guaranteed.",
     ),
-
     QuizQuestion(
       question: "17. Probability of rolling a 1 or 6 on a single die:",
       options: [r"\frac{1}{6}", r"\frac{1}{2}", r"\frac{1}{3}", r"\frac{2}{3}"],
@@ -20225,7 +22423,6 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"2 out of 6 = \frac{1}{3}.",
     ),
-
     QuizQuestion(
       question: "18. Which decimal represents an 'Impossible' event?",
       options: ["0.0", "1.0", "0.1", "0.5"],
@@ -20233,7 +22430,6 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "0 means zero chance.",
     ),
-
     QuizQuestion(
       question: "19. If P(E) = 0.2, what is it as a fraction?",
       options: [r"\frac{1}{2}", r"\farc{1}{4}", r"\frac{2}{5}", r"\farc{1}{5}"],
@@ -20241,7 +22437,6 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"0.2 = \frac{2}{10} = \farc{1}/{5}.",
     ),
-
     QuizQuestion(
       question: "20. Picking a day of the week that ends with the letter 'y':",
       options: ["Possible", "Certain", "Unlikely", "Impossible"],
@@ -20262,7 +22457,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The 3 is in the Hundred Millions place.",
     ),
-
     QuizQuestion(
       question: "2. Express 40,000,000 in standard form.",
       options: [r"4.0 x 10^7", r"4.0 x 10^6", r"4.0 x 10^8", r"40 x 10^6"],
@@ -20270,7 +22464,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The decimal moves 7 places to the left.",
     ),
-
     QuizQuestion(
       question: "3. Round 0.00867 to one significant figure.",
       options: ["0.008", "0.009", "0.010", "0.0087"],
@@ -20278,7 +22471,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "8 is the first s.f. The neighbour 6 rounds it up.",
     ),
-
     QuizQuestion(
       question: "4. Count forward in 500,000s: 1,000,000; 1,500,000; ...",
       options: ["1,600,000", "2,000,000", "2,500,000", "3,000,000"],
@@ -20286,23 +22478,27 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "1.5M + 0.5M = 2M.",
     ),
-
     QuizQuestion(
       question: "5. Which statement is true?",
-      options: ["5,241,036 > 754,123,658", "754,123,658 < 5,241,036", "5,241,036 < 754,123,658", "5,241,036 = 754,123,658"],
+      options: [
+        "5,241,036 > 754,123,658",
+        "754,123,658 < 5,241,036",
+        "5,241,036 < 754,123,658",
+        "5,241,036 = 754,123,658"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "A 7-digit number is less than a 9-digit number.",
     ),
-
     QuizQuestion(
-      question: "6. Express 8,765,049 in standard form to 3 significant figures.",
+      question:
+          "6. Express 8,765,049 in standard form to 3 significant figures.",
       options: [r"8.76 x 10^6", r"8.77 x 10^7", r"8.80 x 10^6", r"8.77 x 10^6"],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "The decimal jumps 6 places. The 4th digit (5) rounds the 6 to 7.",
+      explanation:
+          "The decimal jumps 6 places. The 4th digit (5) rounds the 6 to 7.",
     ),
-
     QuizQuestion(
       question: "7. What is 100,000 more than 452,111,036?",
       options: ["452,211,036", "453,111,036", "452,121,036", "552,111,036"],
@@ -20310,15 +22506,14 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Add 1 to the hundred-thousands place.",
     ),
-
     QuizQuestion(
       question: "8. How many significant figures are in 0.0402?",
       options: ["Three", "Two", "Four", "Five"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Zeros at the start don’t count, but zeros between numbers do.",
+      explanation:
+          "Zeros at the start don’t count, but zeros between numbers do.",
     ),
-
     QuizQuestion(
       question: "9. Write 'three billion' in standard form.",
       options: [r"3.0 x 10^9", r"3.0 x 10^6", r"3.0 x 10^{10}", r"3.0 x 10^8"],
@@ -20326,7 +22521,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "3 billion has 9 zeros.",
     ),
-
     QuizQuestion(
       question: "10. Adom earns GH₵ 2,500. Arko earns double. Total monthly?",
       options: ["GH₵ 5,000", "GH₵ 7,000", "GH₵ 6,000", "GH₵ 7,500"],
@@ -20334,7 +22528,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "2500 + 5000 = 7500.",
     ),
-
     QuizQuestion(
       question: "11. Identify the place value of 7 in 7,432,000.",
       options: ["Hundred Thousands", "Millions", "Ten Millions", "Billions"],
@@ -20342,7 +22535,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The 7 is in the millions period.",
     ),
-
     QuizQuestion(
       question: "12. Which is 10,000 less than 87,216?",
       options: ["97,216", "77,216", "86,216", "87,116"],
@@ -20350,15 +22542,18 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Subtract 1 from the ten-thousands place.",
     ),
-
     QuizQuestion(
       question: "13. Express 0.000641 in standard form.",
-      options: [r"6.41 x 10^{-4}", r"6.41 x 10^{-3}", r"6.41 x 10^4", r"6.41 x 10^3"],
+      options: [
+        r"6.41 x 10^{-4}",
+        r"6.41 x 10^{-3}",
+        r"6.41 x 10^4",
+        r"6.41 x 10^3"
+      ],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "The decimal moves 4 places to the right (negative index).",
     ),
-
     QuizQuestion(
       question: "14. Round 312,439 to four significant figures.",
       options: ["312,400", "312,500", "312,440", "312,000"],
@@ -20366,7 +22561,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "The 5th digit is 3, so the 4 stays the same.",
     ),
-
     QuizQuestion(
       question: r"15. Convert 1.2 × 10^3 to an ordinary number.",
       options: ["120", "1,200", "12,000", "1.200"],
@@ -20374,7 +22568,6 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Move the decimal 3 places to the right.",
     ),
-
     QuizQuestion(
       question: r"16. What is 10^0?",
       options: ["0", "10", "1", "100"],
@@ -20382,15 +22575,18 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Any non-zero number to the power of zero is 1.",
     ),
-
     QuizQuestion(
       question: "17. Arrange in ascending order: 50,000; 5,000; 500,000.",
-      options: ["5,000; 50,000; 500,000", "500,000; 50,000; 5,000", "50,000; 5,000; 500,000", "5,000; 500,000; 50,000"],
+      options: [
+        "5,000; 50,000; 500,000",
+        "500,000; 50,000; 5,000",
+        "50,000; 5,000; 500,000",
+        "5,000; 500,000; 50,000"
+      ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "Smallest to largest based on digit count.",
     ),
-
     QuizQuestion(
       question: "18. Round 975.8674 to the nearest whole number.",
       options: ["975", "976", "970", "980"],
@@ -20398,17 +22594,21 @@ final QuizModel MATHjhs2s1ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The first decimal 8 rounds the 5 up to 6.",
     ),
-
     QuizQuestion(
       question: "19. Standard form for 1264.15?",
-      options: ["1.26415 × 10^3", "1.26415 × 10^4", "12.6415 × 10^2", "1.26 × 10^3"],
+      options: [
+        "1.26415 × 10^3",
+        "1.26415 × 10^4",
+        "12.6415 × 10^2",
+        "1.26 × 10^3"
+      ],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "The decimal jumps 3 places left.",
     ),
-
     QuizQuestion(
-      question: "20. If a region has 9M people and grows by 100,000, the new total is?",
+      question:
+          "20. If a region has 9M people and grows by 100,000, the new total is?",
       options: ["9,100,000", "10,000,000", "9,010,000", "9,000,100"],
       correctIndex: 0,
       difficulty: "Medium",
@@ -20420,13 +22620,13 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
   audioPath: 'assets/audio/math/2. JHS2 S1 SS2/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. A sachet of water costs GH₵ 0.50. How much for 100 sachets?",
+      question:
+          "1. A sachet of water costs GH₵ 0.50. How much for 100 sachets?",
       options: ["GH₵ 50.00", "GH₵ 5.00", "GH₵ 500", "GH₵ 0.50"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "0.50 × 100 = 50.",
     ),
-
     QuizQuestion(
       question: r"2. Simplify (x^4 × x^3) ÷ x^2.",
       options: [r"x^5", r"x^9", r"x^1", r"x^12"],
@@ -20434,7 +22634,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Using laws of indices: (4 + 3) − 2 = 5.",
     ),
-
     QuizQuestion(
       question: r"3. What is the value of 5,000^0?",
       options: ["0", "5,000", "5", "1"],
@@ -20442,7 +22641,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Any non-zero base to the power of 0 is always 1.",
     ),
-
     QuizQuestion(
       question: r"4. Solve 2^x = \frac{1}{4}.",
       options: ["x = 2", "x = −2", "x = 0.5", "x = −4"],
@@ -20450,7 +22648,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"\frac{1}{4} = 2^-2, so x = −2.",
     ),
-
     QuizQuestion(
       question: "5. Calculate 18 × 5 using halving and doubling.",
       options: ["80", "95", "100", "90"],
@@ -20458,15 +22655,14 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Half of 18 is 9, double 5 is 10. 9 x 10 = 90.",
     ),
-
     QuizQuestion(
-      question: "6. A budget shows GH₵ 2,940 for painting. If doubled, the cost is:",
+      question:
+          "6. A budget shows GH₵ 2,940 for painting. If doubled, the cost is:",
       options: ["GH₵ 5,880", "GH₵ 4,880", "GH₵ 5,940", "GH₵ 6,000"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "2,940 × 2 = 5,880.",
     ),
-
     QuizQuestion(
       question: "7. In an area model for 50 x 20, the result is:",
       options: ["100", "1,000", "70", "10,000"],
@@ -20474,7 +22670,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "5 x 2 = 10, then add two zeros → 1,000.",
     ),
-
     QuizQuestion(
       question: "8. Evaluate 3^3 + 3^0.",
       options: ["27", "28", "30", "9"],
@@ -20482,23 +22677,26 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "27 + 1 = 28.",
     ),
-
     QuizQuestion(
       question: "9. Which shape represents exponential growth?",
-      options: ["A flat line", "A straight diagonal line", "A J-curve", "A circle"],
+      options: [
+        "A flat line",
+        "A straight diagonal line",
+        "A J-curve",
+        "A circle"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "Exponential growth forms a J-shaped curve.",
     ),
-
     QuizQuestion(
-      question: "10. A family tree 3 generations back has 2^3 people. How many is that?",
+      question:
+          "10. A family tree 3 generations back has 2^3 people. How many is that?",
       options: ["6", "12", "8", "16"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "2 x 2 x 2 = 8.",
     ),
-
     QuizQuestion(
       question: "11. Divide 45.6 ÷ 10.",
       options: ["456", "4.56", "0.456", "4.65"],
@@ -20506,7 +22704,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Move decimal one place left.",
     ),
-
     QuizQuestion(
       question: "12. Simplify (3y^2)^2.",
       options: ["6y^4", "9y^2", "9y^4", "3y^4"],
@@ -20514,15 +22711,18 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "3^2 = 9 and 2x2 = 4 → 9y^4.",
     ),
-
     QuizQuestion(
       question: "13. What is 0.25 expressed as a fraction?",
-      options: [r"\frac{1}{2}", r"\frac{1}{10}", r"\frac{1}{4}", r"\frac{3}{4}"],
+      options: [
+        r"\frac{1}{2}",
+        r"\frac{1}{10}",
+        r"\frac{1}{4}",
+        r"\frac{3}{4}"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: r"0.25 = \frac{1}{4}.",
     ),
-
     QuizQuestion(
       question: "14. Solve 5^x = 125.",
       options: ["x = 2", "x = 5", "x = 3", "x = 25"],
@@ -20530,7 +22730,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "5 x 5 x 5 = 125 → x = 3.",
     ),
-
     QuizQuestion(
       question: "15. Subtract 193.6 − 37.85 using partitioning.",
       options: ["155.75", "156.75", "155.85", "155.25"],
@@ -20538,7 +22737,6 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Partitioning gives 155.75.",
     ),
-
     QuizQuestion(
       question: "16. Find the product of 12 x 25 mentally.",
       options: ["250", "300", "350", "400"],
@@ -20546,15 +22744,18 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Half of 12 = 6, double 25 = 50 → 6 x 50 = 300.",
     ),
-
     QuizQuestion(
       question: "17. Which law is a^m ÷ a^n = a^(m−n)?",
-      options: ["Law of Multiplication", "Law of Division", "Power of a Power", "Zero Law"],
+      options: [
+        "Law of Multiplication",
+        "Law of Division",
+        "Power of a Power",
+        "Zero Law"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Indices subtract when dividing.",
     ),
-
     QuizQuestion(
       question: r"18. Evaluate 10^6 ÷ 10^4.",
       options: ["10", "20", "1,000", "100"],
@@ -20562,15 +22763,14 @@ final QuizModel MATHjhs2s1ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"10^(6−4) = 10^2 = 100.",
     ),
-
     QuizQuestion(
-      question: r"19. If a rumor triples every hour (3^n), how many know after 2 hours?",
+      question:
+          r"19. If a rumor triples every hour (3^n), how many know after 2 hours?",
       options: ["6", "9", "27", "12"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: r"3^2 = 9.",
     ),
-
     QuizQuestion(
       question: "20. Add 896,854 + 76,329 using partitioning.",
       options: ["973,183", "972,183", "973,283", "973,184"],
@@ -20590,15 +22790,18 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Brackets always have the highest priority.",
     ),
-
     QuizQuestion(
       question: r"2. Convert \frac{25}{4} to a mixed number.",
-      options: [r"6\frac{1}{4}", r"5\frac{3}{4}", r"4\frac{1}{4}", r"6\frac{3}{4}"],
+      options: [
+        r"6\frac{1}{4}",
+        r"5\frac{3}{4}",
+        r"4\frac{1}{4}",
+        r"6\frac{3}{4}"
+      ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "25 divided by 4 is 6 with a remainder of 1.",
     ),
-
     QuizQuestion(
       question: r"3. Solve \frac{2}{5} ÷ \frac{2}{5}.",
       options: [r"\frac{4}{25}", r"\frac{1}{1}", "0", "1"],
@@ -20606,63 +22809,76 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Any number divided by itself equals 1.",
     ),
-
     QuizQuestion(
-      question: r"4. A rectangle is 1\frac{1}{2} m long and 2 m wide. What is the perimeter?",
+      question:
+          r"4. A rectangle is 1\frac{1}{2} m long and 2 m wide. What is the perimeter?",
       options: ["3 m", "7 m", "5 m", "4 m"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "2 x (1.5 + 2) = 2 x 3.5 = 7.",
     ),
-
     QuizQuestion(
-      question: r"5. Which percentage is equivalent to the fraction \frac{3}{10}?",
+      question:
+          r"5. Which percentage is equivalent to the fraction \frac{3}{10}?",
       options: ["30%", "3%", "10%", "33%"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: r"\frac{3}{10} x 100 = 30%.",
     ),
-
     QuizQuestion(
       question: r"6. Solve \frac{3}{4} − \frac{1}{4} x 2.",
       options: ["1", r"\frac{2}{4}", r"\frac{1}{4}", "0"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: r"Multiply first: \frac{1}{4} x 2 = \frac{2}{4}. Then \frac{3}{4} − \frac{2}{4} = \frac{1}{4}.",
+      explanation:
+          r"Multiply first: \frac{1}{4} x 2 = \frac{2}{4}. Then \frac{3}{4} − \frac{2}{4} = \frac{1}{4}.",
     ),
-
     QuizQuestion(
-      question: r"7. In a school of 200 students, \frac{1}{4} are in JHS 1. How many students is that?",
+      question:
+          r"7. In a school of 200 students, \frac{1}{4} are in JHS 1. How many students is that?",
       options: ["40", "100", "25", "50"],
       correctIndex: 3,
       difficulty: "Easy",
       explanation: r"\frac{1}{4} × 200 = 50.",
     ),
-
     QuizQuestion(
       question: r"8. Simplify \frac{15}{45} to its simplest form.",
-      options: [r"\frac{1}{3}", r"\frac{3}{9}", r"\frac{1}{5}", r"\frac{5}{15}"],
+      options: [
+        r"\frac{1}{3}",
+        r"\frac{3}{9}",
+        r"\frac{1}{5}",
+        r"\frac{5}{15}"
+      ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "Divide both by 15.",
     ),
-
     QuizQuestion(
       question: r"9. Solve \frac{1}{3} x \frac{1}{2} + \frac{1}{6}.",
-      options: [r"\frac{2}{12}", r"\frac{1}{3}", r"\frac{2}{6}", r"\frac{1}{12}"],
+      options: [
+        r"\frac{2}{12}",
+        r"\frac{1}{3}",
+        r"\frac{2}{6}",
+        r"\frac{1}{12}"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: r"Multiply first (\frac{1}{6}), then add \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3}.",
+      explanation:
+          r"Multiply first (\frac{1}{6}), then add \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3}.",
     ),
-
     QuizQuestion(
-      question: r"10. What fraction is left if you spend \frac{5}{12} of your money?",
-      options: [r"\frac{1}{12}", r"\frac{6}{12}", r"\frac{5}{7}", r"\frac{7}{12}"],
+      question:
+          r"10. What fraction is left if you spend \frac{5}{12} of your money?",
+      options: [
+        r"\frac{1}{12}",
+        r"\frac{6}{12}",
+        r"\frac{5}{7}",
+        r"\frac{7}{12}"
+      ],
       correctIndex: 3,
       difficulty: "Medium",
       explanation: r"1 − \frac{5}{12} = \frac{7}{12}.",
     ),
-
     QuizQuestion(
       question: r"11. What is the numerator of the fraction \frac{8}{15}?",
       options: ["15", "8", "7", "23"],
@@ -20670,7 +22886,6 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The numerator is the top number.",
     ),
-
     QuizQuestion(
       question: r"12. Solve \frac{1}{2} ÷ 2.",
       options: ["1", "4", r"\frac{1}{4}", r"\frac{2}{2}"],
@@ -20678,15 +22893,18 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: r"\frac{1}{2} x \frac{1}{2} = \frac{1}{4}.",
     ),
-
     QuizQuestion(
       question: r"13. Convert 2\frac{3}{5} to an improper fraction.",
-      options: [r"\frac{13}{5}", r"\frac{11}{5}", r"\frac{6}{5}", r"\frac{10}{5}"],
+      options: [
+        r"\frac{13}{5}",
+        r"\frac{11}{5}",
+        r"\frac{6}{5}",
+        r"\frac{10}{5}"
+      ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "(2 x 5) + 3 = 13.",
     ),
-
     QuizQuestion(
       question: "14. What is 50% of 80 Cedis?",
       options: ["30 Cedis", "40 Cedis", "20 Cedis", "50 Cedis"],
@@ -20694,7 +22912,6 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "50% is half, and half of 80 is 40.",
     ),
-
     QuizQuestion(
       question: r"15. Solve (\frac{1}{2} + \frac{1}{2}) × 10.",
       options: ["5", "20", "1", "10"],
@@ -20702,15 +22919,18 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Brackets equal 1; 1 x 10 = 10.",
     ),
-
     QuizQuestion(
       question: r"16. Simplify \frac{10}{100}.",
-      options: [r"\frac{1}{10}", r"\frac{1}{100}", r"\frac{1}{2}", r"\frac{10}{1}"],
+      options: [
+        r"\frac{1}{10}",
+        r"\frac{1}{100}",
+        r"\frac{1}{2}",
+        r"\frac{10}{1}"
+      ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "Divide both by 10.",
     ),
-
     QuizQuestion(
       question: r"17. Which is larger: \frac{1}{2} or \frac{1}{3}?",
       options: [r"\frac{1}{3}", "They are equal", r"\frac{1}{2}", "Neither"],
@@ -20718,15 +22938,18 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "A half is a bigger portion than a third.",
     ),
-
     QuizQuestion(
       question: r"18. Find the area of a square with a side of \frac{1}{3} m.",
-      options: [r"\frac{1}{6} m^2", r"\frac{1}{3} m^2", r"\frac{2}{3} m^2", r"\frac{1}{9} m^2"],
+      options: [
+        r"\frac{1}{6} m^2",
+        r"\frac{1}{3} m^2",
+        r"\frac{2}{3} m^2",
+        r"\frac{1}{9} m^2"
+      ],
       correctIndex: 3,
       difficulty: "Medium",
       explanation: r"\frac{1}{3} x \frac{1}{3} = \frac{1}{9}.",
     ),
-
     QuizQuestion(
       question: r"19. What is \frac{1}{5} as a percentage?",
       options: ["10%", "25%", "20%", "5%"],
@@ -20734,10 +22957,14 @@ final QuizModel MATHjhs2s1ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: r"\frac{1}{5} x 100 = 20%.",
     ),
-
     QuizQuestion(
       question: r"20. Solve \frac{4}{5} − \frac{2}{5}.",
-      options: [r"\frac{6}{5}", r"\frac{2}{5}", r"\frac{2}{10}", r"\frac{1}{5}"],
+      options: [
+        r"\frac{6}{5}",
+        r"\frac{2}{5}",
+        r"\frac{2}{10}",
+        r"\frac{1}{5}"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Subtract numerators; keep denominator.",
@@ -20754,7 +22981,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "1 km = 1,000 m. So, 4.5 × 1,000 = 4,500.",
     ),
-
     QuizQuestion(
       question: "2. A point on a proportional graph is (3, 15). What is k?",
       options: ["3", "5", "15", "45"],
@@ -20762,23 +22988,27 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "k = y ÷ x, which is 15 ÷ 3 = 5.",
     ),
-
     QuizQuestion(
-      question: "3. What happens to the line on a travel graph when a person returns home?",
-      options: ["It goes higher", "It stays flat", "It stops", "It slants down"],
+      question:
+          "3. What happens to the line on a travel graph when a person returns home?",
+      options: [
+        "It goes higher",
+        "It stays flat",
+        "It stops",
+        "It slants down"
+      ],
       correctIndex: 3,
       difficulty: "Easy",
       explanation: "Distance from the starting point decreases back to zero.",
     ),
-
     QuizQuestion(
-      question: "4. A shop sells 3 bags of sachet water for 12 Cedis. What is the unit rate?",
+      question:
+          "4. A shop sells 3 bags of sachet water for 12 Cedis. What is the unit rate?",
       options: ["3 Cedis", "4 Cedis", "6 Cedis", "15 Cedis"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "12 Cedis ÷ 3 bags = 4 Cedis per bag.",
     ),
-
     QuizQuestion(
       question: "5. Which equation represents a proportional relationship?",
       options: ["y = 10x", "y = 10 + x", "y = 10 − x", r"y = \frac{x}{10} + 5"],
@@ -20786,15 +23016,14 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It follows the form y = kx with no added constant.",
     ),
-
     QuizQuestion(
-      question: "6. An athlete runs 200 metres in 25 seconds. What is the speed?",
+      question:
+          "6. An athlete runs 200 metres in 25 seconds. What is the speed?",
       options: ["4 m/s", "8 m/s", "10 m/s", "12 m/s"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Speed = Distance ÷ Time. 200 ÷ 25 = 8.",
     ),
-
     QuizQuestion(
       question: "7. How many centimetres are in 0.75 metres?",
       options: ["7.5 cm", "75 cm", "750 cm", "7,500 cm"],
@@ -20802,15 +23031,14 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "1 m = 100 cm. 0.75 x 100 = 75.",
     ),
-
     QuizQuestion(
-      question: "8. What is the value of k if an ant travels 1 inch in 20 seconds?",
+      question:
+          "8. What is the value of k if an ant travels 1 inch in 20 seconds?",
       options: ["0.05", "0.5", "20", "40"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "1 ÷ 20 = 0.05 inches per second.",
     ),
-
     QuizQuestion(
       question: "9. If y = 6x, what is y when x = 5?",
       options: ["11", "25", "30", "60"],
@@ -20818,15 +23046,14 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Substitute x with 5: 6 x 5 = 30.",
     ),
-
     QuizQuestion(
-      question: "10. A travel graph x-axis is labeled from 12:00 to 15:00. How much time has passed?",
+      question:
+          "10. A travel graph x-axis is labeled from 12:00 to 15:00. How much time has passed?",
       options: ["1 hour", "2 hours", "3 hours", "4 hours"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "The difference between 15:00 and 12:00 is 3 hours.",
     ),
-
     QuizQuestion(
       question: "11. Convert 80 mm to centimetres.",
       options: ["0.8 cm", "8 cm", "800 cm", "8,000 cm"],
@@ -20834,15 +23061,14 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "10 mm = 1 cm. 80 ÷ 10 = 8.",
     ),
-
     QuizQuestion(
-      question: "12. A car uses 10 litres of fuel to travel 120 km. What is the fuel rate?",
+      question:
+          "12. A car uses 10 litres of fuel to travel 120 km. What is the fuel rate?",
       options: ["10 km/L", "12 km/L", "110 km/L", "1,200 km/L"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "120 km ÷ 10 L = 12 km per Litre.",
     ),
-
     QuizQuestion(
       question: "13. On a graph, a flat horizontal line for 30 minutes means:",
       options: ["Constant speed", "Faster speed", "Stopped", "Slowing down"],
@@ -20850,15 +23076,14 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Distance is not changing as time passes.",
     ),
-
     QuizQuestion(
-      question: "14. If x is number of mangoes and y is total cost, find k for (4, 20).",
+      question:
+          "14. If x is number of mangoes and y is total cost, find k for (4, 20).",
       options: ["4", "5", "16", "24"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "20 ÷ 4 = 5 Cedis per mango.",
     ),
-
     QuizQuestion(
       question: "15. Why is a graph starting at (0, 10) non-proportional?",
       options: ["Not straight", "Too high", "No origin", "Too short"],
@@ -20866,7 +23091,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Proportional graphs must pass through (0, 0).",
     ),
-
     QuizQuestion(
       question: "16. A baker makes 60 buns in 3 hours. How many per hour?",
       options: ["15", "20", "25", "30"],
@@ -20874,7 +23098,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "60 ÷ 3 = 20.",
     ),
-
     QuizQuestion(
       question: "17. Change 2.5 km to metres.",
       options: ["25 m", "250 m", "2,500 m", "25,000 m"],
@@ -20882,7 +23105,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Multiply by 1,000.",
     ),
-
     QuizQuestion(
       question: "18. If k = 0.2, what is the equation?",
       options: ["y = 0.2x", "y = x + 0.2", "y = x ÷ 0.2", "y = 2x"],
@@ -20890,7 +23112,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Standard form is y = kx.",
     ),
-
     QuizQuestion(
       question: "19. In a table (2, 8), (4, 16), (6, 24), the relationship is:",
       options: ["Non-prop", "Proportional", "Curved", "Stationary"],
@@ -20898,7 +23119,6 @@ final QuizModel MATHjhs2s1ss4QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"The ratio \frac{y}{x} is always 4.",
     ),
-
     QuizQuestion(
       question: "20. A distance of 1,500 m is how many km?",
       options: ["0.15 km", "1.5 km", "15 km", "150 km"],
@@ -20913,13 +23133,13 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS2 S2 SS1/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
+      question:
+          "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
       options: ["2", "4", "1", "7"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: r"(9 − 5)/(4 − 2) = \frac{4}{2} = 2.",
     ),
-
     QuizQuestion(
       question: "2. In the equation y = 15x + 30, what does 30 represent?",
       options: ["The gradient", "The x-axis", "The y-intercept", "The slope"],
@@ -20927,23 +23147,22 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The constant term is the y-intercept.",
     ),
-
     QuizQuestion(
-      question: "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
+      question:
+          "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
       options: ["14 Cedis", "28 Cedis", "35 Cedis", "70 Cedis"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: r"\frac{140}{10} = 14 per litre. 14 x 2.5 = 35.",
     ),
-
     QuizQuestion(
-      question: "4. Which equation matches a line with gradient 3 and intercept -2?",
+      question:
+          "4. Which equation matches a line with gradient 3 and intercept -2?",
       options: ["y = -2x + 3", "y = 3x - 2", "y = 3x + 2", "y = 2x - 3"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Use y = mx + c with m = 3 and c = -2.",
     ),
-
     QuizQuestion(
       question: "5. A car travels at 60km/h. How many hours to travel 150km?",
       options: ["2.0 hours", "3.0 hours", "1.5 hours", "2.5 hours"],
@@ -20951,7 +23170,6 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "150 ÷ 60 = 2.5.",
     ),
-
     QuizQuestion(
       question: "6. What is the gradient of a vertical line?",
       options: ["0", "1", "100", "Undefined"],
@@ -20959,15 +23177,14 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "No change in x makes the slope undefined.",
     ),
-
     QuizQuestion(
-      question: "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
+      question:
+          "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
       options: ["60 Cedis", "100 Cedis", "80 Cedis", "120 Cedis"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "40 + (20 x 3) = 100.",
     ),
-
     QuizQuestion(
       question: "8. If x = 0 in a linear relation, what is the value of y?",
       options: ["The gradient", "The origin", "The intercept", "The x-axis"],
@@ -20975,23 +23192,22 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "When x = 0, y = c (the intercept).",
     ),
-
     QuizQuestion(
-      question: "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
+      question:
+          "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
       options: ["15 Cedis", "35 Cedis", "105 Cedis", "150 Cedis"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "3 weeks = 21 days. 21 x 5 = 105.",
     ),
-
     QuizQuestion(
-      question: "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
+      question:
+          "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
       options: ["6", "5", "8", "4"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"Gradient = \farc{10}{5} = 2. So y = 2 x 3 = 6.",
     ),
-
     QuizQuestion(
       question: "11. Identify the gradient from the equation y = -5x + 12.",
       options: ["12", "5", "-5", "-12"],
@@ -20999,31 +23215,30 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Coefficient of x is the gradient.",
     ),
-
     QuizQuestion(
-      question: "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
+      question:
+          "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
       options: ["y = 15x + 10", "y = 10x + 15", "y = 25x + 0", "y = 10x - 15"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "10 is rate (m), 15 is base (c).",
     ),
-
     QuizQuestion(
-      question: "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
+      question:
+          "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
       options: ["3", "5", "-4", "0"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "y-intercept is y when x = 0.",
     ),
-
     QuizQuestion(
-      question: "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
+      question:
+          "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
       options: ["120 Cedis", "100 Cedis", "140 Cedis", "160 Cedis"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"\frac{80}{4} = 20 per kg. 20 x 6 = 120.",
     ),
-
     QuizQuestion(
       question: "15. What is the gradient of a horizontal line?",
       options: ["0", "1", "10", "Undefined"],
@@ -21031,15 +23246,18 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "No vertical change means slope = 0.",
     ),
-
     QuizQuestion(
       question: "16. In y = mx + c, what happens to the line if m increases?",
-      options: ["It gets flatter", "It gets steeper", "It moves down", "It moves right"],
+      options: [
+        "It gets flatter",
+        "It gets steeper",
+        "It moves down",
+        "It moves right"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Higher gradient = steeper line.",
     ),
-
     QuizQuestion(
       question: "17. Calculate the gradient between (1, 2) and (3, 8).",
       options: ["2", "4", "3", "6"],
@@ -21047,23 +23265,27 @@ final QuizModel MATHjhs2s2ss1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"\frac{8 − 2}{3 − 1} = \frac{6}{2} = 3.",
     ),
-
     QuizQuestion(
-      question: "18. A water tank has 100L and loses 5L per hour. What is the equation?",
-      options: ["y = 5x + 100", "y = 100x - 5", "y = -5x + 100", "y = 5x - 100"],
+      question:
+          "18. A water tank has 100L and loses 5L per hour. What is the equation?",
+      options: [
+        "y = 5x + 100",
+        "y = 100x - 5",
+        "y = -5x + 100",
+        "y = 5x - 100"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "-5 is rate (loss), 100 is starting value.",
     ),
-
     QuizQuestion(
-      question: "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
+      question:
+          "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
       options: ["1", "2", "5", "4"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "y = 5x. So 10 = 5x, which means x=2.",
     ),
-
     QuizQuestion(
       question: "20. Which point is the y-intercept for y = 2x − 6?",
       options: ["(0, 2)", "(0, 6)", "(0, −6)", "(2, 0)"],
@@ -21077,13 +23299,13 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
   audioPath: 'assets/audio/math/2. JHS2 S2 SS2/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
+      question:
+          "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
       options: ["2", "4", "1", "7"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: r"(9 − 5)/(4 − 2) = \frac{4}{2} = 2.",
     ),
-
     QuizQuestion(
       question: "2. In the equation y = 15x + 30, what does 30 represent?",
       options: ["The gradient", "The x-axis", "The y-intercept", "The slope"],
@@ -21091,23 +23313,22 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "The constant term is the y-intercept.",
     ),
-
     QuizQuestion(
-      question: "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
+      question:
+          "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
       options: ["14 Cedis", "28 Cedis", "35 Cedis", "70 Cedis"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: r"\frac{140}{10} = 14 per litre. 14 x 2.5 = 35.",
     ),
-
     QuizQuestion(
-      question: "4. Which equation matches a line with gradient 3 and intercept -2?",
+      question:
+          "4. Which equation matches a line with gradient 3 and intercept -2?",
       options: ["y = -2x + 3", "y = 3x - 2", "y = 3x + 2", "y = 2x - 3"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Use y = mx + c with m = 3 and c = -2.",
     ),
-
     QuizQuestion(
       question: "5. A car travels at 60km/h. How many hours to travel 150km?",
       options: ["2.0 hours", "3.0 hours", "1.5 hours", "2.5 hours"],
@@ -21115,7 +23336,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "150 ÷ 60 = 2.5.",
     ),
-
     QuizQuestion(
       question: "6. What is the gradient of a vertical line?",
       options: ["0", "1", "100", "Undefined"],
@@ -21123,15 +23343,14 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "No change in x makes the slope undefined.",
     ),
-
     QuizQuestion(
-      question: "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
+      question:
+          "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
       options: ["60 Cedis", "100 Cedis", "80 Cedis", "120 Cedis"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "40 + (20 x 3) = 100.",
     ),
-
     QuizQuestion(
       question: "8. If x = 0 in a linear relation, what is the value of y?",
       options: ["The gradient", "The origin", "The intercept", "The x-axis"],
@@ -21139,23 +23358,22 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "When x = 0, y = c (the intercept).",
     ),
-
     QuizQuestion(
-      question: "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
+      question:
+          "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
       options: ["15 Cedis", "35 Cedis", "105 Cedis", "150 Cedis"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "3 weeks = 21 days. 21 x 5 = 105.",
     ),
-
     QuizQuestion(
-      question: "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
+      question:
+          "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
       options: ["6", "5", "8", "4"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"Gradient = \farc{10}{5} = 2. So y = 2 x 3 = 6.",
     ),
-
     QuizQuestion(
       question: "11. Identify the gradient from the equation y = -5x + 12.",
       options: ["12", "5", "-5", "-12"],
@@ -21163,31 +23381,30 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Coefficient of x is the gradient.",
     ),
-
     QuizQuestion(
-      question: "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
+      question:
+          "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
       options: ["y = 15x + 10", "y = 10x + 15", "y = 25x + 0", "y = 10x - 15"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "10 is rate (m), 15 is base (c).",
     ),
-
     QuizQuestion(
-      question: "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
+      question:
+          "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
       options: ["3", "5", "-4", "0"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "y-intercept is y when x = 0.",
     ),
-
     QuizQuestion(
-      question: "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
+      question:
+          "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
       options: ["120 Cedis", "100 Cedis", "140 Cedis", "160 Cedis"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: r"\frac{80}{4} = 20 per kg. 20 x 6 = 120.",
     ),
-
     QuizQuestion(
       question: "15. What is the gradient of a horizontal line?",
       options: ["0", "1", "10", "Undefined"],
@@ -21195,15 +23412,18 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "No vertical change means slope = 0.",
     ),
-
     QuizQuestion(
       question: "16. In y = mx + c, what happens to the line if m increases?",
-      options: ["It gets flatter", "It gets steeper", "It moves down", "It moves right"],
+      options: [
+        "It gets flatter",
+        "It gets steeper",
+        "It moves down",
+        "It moves right"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Higher gradient = steeper line.",
     ),
-
     QuizQuestion(
       question: "17. Calculate the gradient between (1, 2) and (3, 8).",
       options: ["2", "4", "3", "6"],
@@ -21211,23 +23431,27 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: r"\frac{8 − 2}{3 − 1} = \frac{6}{2} = 3.",
     ),
-
     QuizQuestion(
-      question: "18. A water tank has 100L and loses 5L per hour. What is the equation?",
-      options: ["y = 5x + 100", "y = 100x - 5", "y = -5x + 100", "y = 5x - 100"],
+      question:
+          "18. A water tank has 100L and loses 5L per hour. What is the equation?",
+      options: [
+        "y = 5x + 100",
+        "y = 100x - 5",
+        "y = -5x + 100",
+        "y = 5x - 100"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "-5 is rate (loss), 100 is starting value.",
     ),
-
     QuizQuestion(
-      question: "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
+      question:
+          "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
       options: ["1", "2", "5", "4"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "y = 5x. So 10 = 5x, which means x=2.",
     ),
-
     QuizQuestion(
       question: "20. Which point is the y-intercept for y = 2x − 6?",
       options: ["(0, 2)", "(0, 6)", "(0, −6)", "(2, 0)"],
@@ -21241,13 +23465,13 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
   audioPath: 'assets/audio/math/3. JHS2 S2 SS3/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. \"A number x increased by 4 is at most 12.\" Translate this.",
+      question:
+          "1. \"A number x increased by 4 is at most 12.\" Translate this.",
       options: ["x + 4 ≤ 12", "x + 4 < 12", "4x ≤ 12", "x − 4 ≤ 12"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation: "'Increased by' is addition; 'at most' is ≤.",
     ),
-
     QuizQuestion(
       question: "2. Solve for y: y − 7 > 3",
       options: ["y > −4", "y < 10", "y = 10", "y > 10"],
@@ -21255,7 +23479,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Add 7 to both sides. 3 + 7 = 10.",
     ),
-
     QuizQuestion(
       question: "3. Solve for x: 3x ≤ 15",
       options: ["x ≤ 5", "x ≥ 5", "x < 5", "x ≤ 45"],
@@ -21263,15 +23486,14 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Divide by 3. 15 ÷ 3 = 5.",
     ),
-
     QuizQuestion(
-      question: "4. \"Eight less than twice a number n is greater than 10.\" Translate this.",
+      question:
+          "4. \"Eight less than twice a number n is greater than 10.\" Translate this.",
       options: ["8 − 2n > 10", "2n − 8 > 10", "2n − 8 < 10", "2(n − 8) > 10"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "'8 less than' means subtract 8 from 2n.",
     ),
-
     QuizQuestion(
       question: "5. Solve: −3x ≥ 9",
       options: ["x ≥ −3", "x ≤ 3", "x ≤ −3", "x > −3"],
@@ -21279,15 +23501,14 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Dividing by negative 3 flips the sign.",
     ),
-
     QuizQuestion(
-      question: "6. What is the solution set for x < 3 in the domain of Whole Numbers?",
+      question:
+          "6. What is the solution set for x < 3 in the domain of Whole Numbers?",
       options: ["{1, 2}", "{0, 1, 2, 3}", "{0, 1, 2}", "{…, −1, 0, 1, 2}"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "Whole numbers start at 0 and 'less than 3' excludes 3.",
     ),
-
     QuizQuestion(
       question: "7. Solve: 2x + 1 ≤ 7",
       options: ["x ≤ 3", "x ≤ 4", "x ≥ 3", "x < 3"],
@@ -21295,15 +23516,14 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "2x ≤ 6, so x ≤ 3.",
     ),
-
     QuizQuestion(
-      question: "8. If the domain is {10, 20, 30, 40}, what is the solution set for x/2 > 10?",
+      question:
+          "8. If the domain is {10, 20, 30, 40}, what is the solution set for x/2 > 10?",
       options: ["{20, 30, 40}", "{30, 40}", "{10, 20}", "{40}"],
       correctIndex: 1,
       difficulty: "Hard",
       explanation: "x > 20. From the set, only 30 and 40 are larger.",
     ),
-
     QuizQuestion(
       question: "9. \"At least\" corresponds to which symbol?",
       options: [">", "<", "≤", "≥"],
@@ -21311,7 +23531,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "At least means the value itself or more.",
     ),
-
     QuizQuestion(
       question: "10. Solve: x + 10 < 5",
       options: ["x < 15", "x < −5", "x > −5", "x ≤ −5"],
@@ -21319,7 +23538,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Subtract 10 from 5 to get −5.",
     ),
-
     QuizQuestion(
       question: "11. \"The product of −4 and x is more than 20.\" Translate.",
       options: ["−4x > 20", "−4 + x > 20", "−4x ≥ 20", "x − 4 > 20"],
@@ -21327,7 +23545,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "Product means multiply.",
     ),
-
     QuizQuestion(
       question: "12. Solve the inequality from question 11: −4x > 20",
       options: ["x > −5", "x < −5", "x ≥ −5", "x < 5"],
@@ -21335,15 +23552,18 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "Divide by −4 and flip the sign.",
     ),
-
     QuizQuestion(
       question: "13. What is the domain for the set {0, 1, 2, 3…}?",
-      options: ["Negative Integers", "Whole Numbers", "Positive Integers only", "Even Numbers"],
+      options: [
+        "Negative Integers",
+        "Whole Numbers",
+        "Positive Integers only",
+        "Even Numbers"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "Whole numbers start at 0 and go up.",
     ),
-
     QuizQuestion(
       question: "14. Solve 12 − x ≥ 10.",
       options: ["x ≤ 2", "x ≥ 2", "x ≤ −2", "x ≥ 22"],
@@ -21351,7 +23571,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "−x ≥ −2 → x ≤ 2.",
     ),
-
     QuizQuestion(
       question: "15. If x > −2 and the domain is Whole Numbers, the set is:",
       options: ["{−1, 0, 1…}", "{0, 1, 2…}", "{1, 2, 3…}", "{−2, −1, 0…}"],
@@ -21359,7 +23578,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Whole numbers cannot be negative.",
     ),
-
     QuizQuestion(
       question: "16. \"Five times a number is at most 25.\" Translate.",
       options: ["5x < 25", "5x ≤ 25", "x + 5 ≤ 25", "5x ≥ 25"],
@@ -21367,7 +23585,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "'At most' is the maximum limit (≤).",
     ),
-
     QuizQuestion(
       question: "17. Solve: x/3 + 1 > 2",
       options: ["x > 3", "x > 1", "x > 9", "x < 3"],
@@ -21375,7 +23592,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "x/3 > 1, so x > 3.",
     ),
-
     QuizQuestion(
       question: "18. Which number is NOT in the solution set of x ≤ 5?",
       options: ["0", "4", "5", "6"],
@@ -21383,7 +23599,6 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "6 is greater than 5.",
     ),
-
     QuizQuestion(
       question: "19. Solve: 4x − 2 ≤ 2x + 8",
       options: ["x ≤ 5", "x ≤ 3", "x ≥ 5", "x ≤ 10"],
@@ -21391,13 +23606,3081 @@ final QuizModel MATHjhs2s2ss3QuizData = QuizModel(
       difficulty: "Hard",
       explanation: "2x ≤ 10, so x ≤ 5.",
     ),
-
     QuizQuestion(
       question: "20. \"Ten deducted from w is greater than 15.\" Translate.",
       options: ["10 − w > 15", "w − 10 > 15", "w + 10 > 15", "10w > 15"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "Deducted from means subtract from the variable.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs2s3ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS2 S3 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Alternate angles are equal when lines are...",
+      options: ["Short", "Parallel", "Crossing", "Curved"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parallelism is the requirement for alternate angles to be equal.",
+    ),
+    QuizQuestion(
+      question: "2. The 'F' shape identifies which type of angles?",
+      options: ["Alternate", "Corresponding", "Exterior", "Interior"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "F is the visual mnemonic for corresponding angles.",
+    ),
+    QuizQuestion(
+      question: "3. What is the sum of interior angles in any triangle?",
+      options: ["90°", "360°", "180°", "270°"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A fundamental law of Euclidean geometry.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A polygon with 10 sides is divided into how many triangles?",
+      options: ["10 triangles", "5 triangles", "12 triangles", "8 triangles"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Using n − 2, so 10 − 2 = 8.",
+    ),
+    QuizQuestion(
+      question:
+          "5. An exterior angle of a triangle is 120°. What is the interior angle next to it?",
+      options: ["60°", "120°", "180°", "90°"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "They form a linear pair (180 − 120 = 60).",
+    ),
+    QuizQuestion(
+      question: "6. To construct 105°, you find the middle of 90° and...",
+      options: ["180°", "150°", "120°", "60°"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "105 is exactly between 90 and 120.",
+    ),
+    QuizQuestion(
+      question: "7. The 'SSS' method for triangles stands for...",
+      options: [
+        "Side-Side-Side",
+        "Size-Size-Size",
+        "Small-Small-Small",
+        "Sharp-Straight-Side"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Standard abbreviation for constructing using three sides.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the locus of points equidistant from two fixed points?",
+      options: [
+        "A circle",
+        "An angle bisector",
+        "A parallel line",
+        "A perpendicular bisector"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "This line stays exactly in the middle of two points.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If the sides of a triangle are 8 cm, 8 cm, and 8 cm, it is...",
+      options: ["Isosceles", "Scalene", "Equilateral", "Right-angled"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "All sides are equal in length.",
+    ),
+    QuizQuestion(
+      question: "10. The formula (n − 2) x 180 helps find the...",
+      options: ["Exterior sum", "Interior sum", "Perimeter", "Area"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It calculates the total sum of all interior angles.",
+    ),
+    QuizQuestion(
+      question: "11. A line that crosses two parallel lines is called a...",
+      options: ["Perpendicular", "Horizontal", "Transversal", "Bisector"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A transversal is a line that intersects two or more other lines.",
+    ),
+    QuizQuestion(
+      question: "12. Vertically opposite angles are always...",
+      options: [
+        "Adding to 180",
+        "Equal in size",
+        "Different sizes",
+        "Adding to 90"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "When two lines cross, the opposite angles are identical.",
+    ),
+    QuizQuestion(
+      question: "13. How many sides does a heptagon have?",
+      options: ["6 sides", "7 sides", "8 sides", "5 sides"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A heptagon is a 7-sided polygon.",
+    ),
+    QuizQuestion(
+      question:
+          "14. What is the sum of interior angles of a hexagon (6 sides)?",
+      options: ["720°", "540°", "360°", "900°"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "(6 − 2) x 180 = 4 x 180 = 720.",
+    ),
+    QuizQuestion(
+      question: "15. If a triangle has two equal sides, it is...",
+      options: ["Equilateral", "Scalene", "Isosceles", "Obtuse"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Isosceles triangles have at least two equal sides.",
+    ),
+    QuizQuestion(
+      question: "16. To construct 135°, we bisect the angle between 90° and...",
+      options: ["120°", "180°", "150°", "45°"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "135 is the midpoint of 90 and 180.",
+    ),
+    QuizQuestion(
+      question:
+          "17. Each 'step' of a compass with the same radius marks how many degrees?",
+      options: ["30°", "45°", "60°", "90°"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "One radius-width step on an arc always equals 60 degrees.",
+    ),
+    QuizQuestion(
+      question:
+          "18. The locus of points equidistant from two intersecting lines is...",
+      options: [
+        "A circle",
+        "An angle bisector",
+        "A parallel line",
+        "A perpendicular"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "This line stays in the middle of the \"V\" shape formed by the lines.",
+    ),
+    QuizQuestion(
+      question:
+          "19. If a triangle has one 90° angle, the other two angles must add to...",
+      options: ["180°", "90°", "45°", "360°"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Since the total is 180, 180 − 90 = 90 remains for the others.",
+    ),
+    QuizQuestion(
+      question: "20. A regular polygon has...",
+      options: [
+        "All sides equal",
+        "Different angles",
+        "Curved edges",
+        "Only 3 sides"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Regular means all sides and all interior angles are equal.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s3ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS2 S3 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          r"1. What is the area of a circle with a radius of 7cm? (π = \frac{22}{7})",
+      options: [r"44cm^2", "154cm²", "49cm²", "14cm²"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: r"\frac{22}{7} x 7 x 7 = 154.",
+    ),
+    QuizQuestion(
+      question:
+          "2. If a circular field has a diameter of 42m, what is the radius?",
+      options: ["84m", "42m", "21m", "11m"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Radius is half of diameter (42 ÷ 2).",
+    ),
+    QuizQuestion(
+      question: "3. Find the area of a circle with r = 10m. (Use π = 3.14)",
+      options: ["31.4m²", "62.8m²", "314m²", "100m²"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "3.14 × 10² = 314.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In a right-angled triangle, the square of the hypotenuse is equal to:",
+      options: [
+        "Sum of squares of legs",
+        "Product of the legs",
+        "Sum of the legs",
+        "Area of circle"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "This is the Pythagoras Theorem: c² = a² + b².",
+    ),
+    QuizQuestion(
+      question: "5. Find the hypotenuse if the legs are 6cm and 8cm.",
+      options: ["14cm", "10cm", "48cm", "100cm"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "√36 + 64 = √100 = 10.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A ladder is 13m long and reaches 12m up a wall. How far is it from the wall?",
+      options: ["1m", "25m", "5m", "154m"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "√13² − 12² = √25 = 5.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the height of an isosceles triangle with base 16cm and sloping side 10cm?",
+      options: ["6cm", "8cm", "2cm", "36cm"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Half-base is 8. √10² − 8² = √36 = 6.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Calculate the area of a triangle with base 12m and height 5m.",
+      options: ["60m²", "17m²", "30m²", "25m²"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "0.5 x 12 x 5 = 30.",
+    ),
+    QuizQuestion(
+      question: "9. In SOH-CAH-TOA, what does CAH stand for?",
+      options: [
+        r"cos = \frac{O}{H}",
+        r"cos = \frac{A}{H}",
+        r"cos = \frac{O}{A}",
+        r"cos = \frac{A}{O}"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Cosine is Adjacent over Hypotenuse.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Find tan(θ) if the opposite side is 3 and adjacent side is 4.",
+      options: ["0.6", "0.8", "0.75", "1.33"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "tan = 3 ÷ 4 = 0.75.",
+    ),
+    QuizQuestion(
+      question:
+          "11. If sin(θ) = 0.8 and the Hypotenuse is 10, what is the Opposite side?",
+      options: ["1.8", "2", "8", "6"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: r"sin = O/H → 0.8 = \frac{O}{10} → O = 8.",
+    ),
+    QuizQuestion(
+      question:
+          r"12. Find the area of a circle with radius 14m. (π = \frac{22}{7})",
+      options: ["616m²", "154m²", "88m²", "44m²"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{22}{7} x 14 x 14 = 616.",
+    ),
+    QuizQuestion(
+      question:
+          "13. Which side of a right-angled triangle is opposite the 90° angle?",
+      options: ["Adjacent", "Opposite", "Hypotenuse", "Base"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "The longest side (hypotenuse) is always opposite the right angle.",
+    ),
+    QuizQuestion(
+      question: "14. Find the missing leg a if c = 25 and b = 24.",
+      options: ["1", "49", "7", "32"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "√25² − 24² = √49 = 7.",
+    ),
+    QuizQuestion(
+      question:
+          "15. What is the value of π commonly used in Ghana for circle area?",
+      options: ["3.12", r"\frac{22}{7}", r"\frac{7}{22}", r"\frac{21}{7}"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: r"\frac{22}{7} is the standard approximation used.",
+    ),
+    QuizQuestion(
+      question:
+          "16. To find the area of a circle using sectors, the width of the rectangle is:",
+      options: ["Diameter", "Circumference", "Radius", "Pi"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The width of the rearranged shape is equal to the radius.",
+    ),
+    QuizQuestion(
+      question: "17. Calculate 9² + 12².",
+      options: ["21", "225", "108", "15"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "81 + 144 = 225.",
+    ),
+    QuizQuestion(
+      question: "18. If tan(θ) = 1, then:",
+      options: ["O > A", "O < A", "O = A", "H = O"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Tangent is O/A, so it equals 1 only if sides are equal.",
+    ),
+    QuizQuestion(
+      question:
+          "19. A triangle has base 10cm and sloping sides 13cm. What is its Area?",
+      options: ["130cm²", "65cm²", "60cm²", "120cm²"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Height is 12. Area = 0.5 × 10 × 12 = 60.",
+    ),
+    QuizQuestion(
+      question: "20. cos(θ) is the ratio of:",
+      options: [r"\frac{O}{H}", r"\frac{O}{A}", r"\frac{A}{H}", r"\frac{H}{A}"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "CAH = Adjacent over Hypotenuse.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s3ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS2 S3 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the fixed point in a rotation called?",
+      options: [
+        "The Turning Corner",
+        "The Middle Mark",
+        "The Centre of Rotation",
+        "The Origin Point"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Every rotation pivots around a single fixed centre.",
+    ),
+    QuizQuestion(
+      question: "2. A full turn is equal to how many degrees?",
+      options: ["90°", "180°", "360°", "270°"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A complete circle or full rotation is 360 degrees.",
+    ),
+    QuizQuestion(
+      question: "3. Rotate (4, −1) by 180° about the origin.",
+      options: ["(−4, 1)", "(1, 4)", "(−4, −1)", "(4, 1)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Both signs flip in a 180° turn: 4 becomes −4 and −1 becomes 1.",
+    ),
+    QuizQuestion(
+      question: "4. Which rule represents a 90° anti-clockwise rotation?",
+      options: [
+        "(x, y) → (y, −x)",
+        "(x, y) → (−x, −y)",
+        "(x, y) → (x, y)",
+        "(x, y) → (−y, x)"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "ACW 90 requires swapping x and y and negating the new x.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If a shape is rotated, its image is always ___ to the original.",
+      options: ["Larger", "Congruent", "Parallel", "Perpendicular"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Congruent means the size and shape remain identical.",
+    ),
+    QuizQuestion(
+      question: "6. A 270° anti-clockwise rotation is the same as:",
+      options: [
+        "90° clockwise",
+        "180° clockwise",
+        "90° anti-clockwise",
+        "360° clockwise"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Three quarters left results in the same position as one quarter right.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens to the angles of a shape after a 180° rotation?",
+      options: [
+        "They all double",
+        "They stay the same",
+        "They become zero",
+        "They decrease"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Rotation preserves all angle measurements.",
+    ),
+    QuizQuestion(
+      question: "8. Rotate (0, 3) anti-clockwise by 90° about the origin.",
+      options: ["(3, 0)", "(0, −3)", "(−3, 0)", "(3, 3)"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Swap to (3, 0), then negate the first number to get (−3, 0).",
+    ),
+    QuizQuestion(
+      question: "9. Congruent shapes have the same area and ___.",
+      options: ["Color", "Location", "Perimeter", "Name"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Perimeter is a property of size, which is preserved.",
+    ),
+    QuizQuestion(
+      question: "10. Which real-life example uses rotation?",
+      options: [
+        "Pushing a desk",
+        "Using a ceiling fan",
+        "Walking straight",
+        "Stretching a band"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The fan blades turn around a central fixed motor.",
+    ),
+    QuizQuestion(
+      question: "11. Rotate (2, 5) by 90° clockwise about the origin.",
+      options: ["(5, −2)", "(−5, 2)", "(−2, −5)", "(5, 2)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Swap to (5, 2), then negate the new y for clockwise.",
+    ),
+    QuizQuestion(
+      question: "12. If a point is at (x, y), where is it after a 360° turn?",
+      options: ["(−x, −y)", "(y, x)", "(x, y)", "(−y, x)"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A full turn returns the point to its starting coordinates.",
+    ),
+    QuizQuestion(
+      question: "13. Which transformation is \"rigid\"?",
+      options: ["Enlargement", "Stretching", "Rotation", "Resizing"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Rigid motions do not change the size or shape of the object.",
+    ),
+    QuizQuestion(
+      question: "14. The direction of a clock's hands is called:",
+      options: ["Anti-clockwise", "Linear", "Clockwise", "Vertical"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Clockwise is the standard term for rightward circular motion.",
+    ),
+    QuizQuestion(
+      question: "15. If side AB = 6 cm, and △ABC ≅ △A'B'C', how long is A'B'?",
+      options: ["3 cm", "12 cm", "0 cm", "6 cm"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Corresponding sides of congruent shapes are equal.",
+    ),
+    QuizQuestion(
+      question: "16. A half-turn is how many degrees?",
+      options: ["180°", "90°", "270°", "45°"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "180 degrees is exactly half of a full 360-degree circle.",
+    ),
+    QuizQuestion(
+      question: "17. What is the 270° anti-clockwise image of (1, 2)?",
+      options: ["(−2, 1)", "(2, −1)", "(−1, −2)", "(1, −2)"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Swap to (2, 1), negate the new y to get (2, −1).",
+    ),
+    QuizQuestion(
+      question: "18. In rotation, the distance from the centre to the point:",
+      options: ["Increases", "Decreases", "Stays the same", "Becomes zero"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Points move along a circular path, keeping a constant radius.",
+    ),
+    QuizQuestion(
+      question: "19. Which quadrant is (2, 3) in after a 180° rotation?",
+      options: ["Quadrant 1", "Quadrant 2", "Quadrant 3", "Quadrant 4"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "(2, 3) becomes (−2, −3), which is in the bottom-left quadrant.",
+    ),
+    QuizQuestion(
+      question: "20. To open a typical water bottle, you turn the cap:",
+      options: ["Clockwise", "Anti-clockwise", "Sideways", "Downward"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "\"Lefty-loosey\" describes an anti-clockwise rotation to open caps.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs2s4ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS2 S4 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is continuous numerical data?",
+      options: [
+        "Number of siblings",
+        "Weight of rice bags",
+        "Color of school bus",
+        "Students in a class"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Weight is measured and can have decimals.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A researcher watching how often people use a new trash can is using:",
+      options: [
+        "Personal Interview",
+        "Data Questionnaire",
+        "Direct Observation",
+        "Lab-based Experiment"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Watching without interfering is observation.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a pictograph, if 1 star = 5 points, how many stars represent 30 points?",
+      options: ["Five stars", "Six stars", "Ten stars", "Thirty stars"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "30 divided by 5 equals 6 symbols.",
+    ),
+    QuizQuestion(
+      question: "4. The middle value in a sorted list of numbers is the:",
+      options: [
+        "Statistical Mean",
+        "Statistical Median",
+        "Statistical Mode",
+        "Statistical Range"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Median is the center of an ordered set.",
+    ),
+    QuizQuestion(
+      question: "5. A 10x10 grid used to show percentages is called a:",
+      options: [
+        "Rounded Pie Chart",
+        "Square Bar Chart",
+        "Square Waffle Diagram",
+        "Data Frequency Table"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Waffle diagrams use a 100-square grid.",
+    ),
+    QuizQuestion(
+      question: "6. Why is the Mode useful for a shopkeeper selling clothes?",
+      options: [
+        "Finds total profit",
+        "Shows popular size",
+        "Finds middle price",
+        "Adds all the sales"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Mode identifies the most frequent (popular) item.",
+    ),
+    QuizQuestion(
+      question: "7. To find the Mean of 10, 20, 30, 40, you should:",
+      options: [
+        "Add and divide by 4",
+        "Pick the number 25",
+        "Find common number",
+        "Put them in a circle"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Sum divided by count gives the Mean.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If the key for a Stem-and-Leaf plot is 3 | 2 = 32, what is the value of 5 | 0?",
+      options: ["Five units", "Half a unit", "Fifty units", "Five hundred"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Stem 5 and leaf 0 make fifty.",
+    ),
+    QuizQuestion(
+      question: "9. Which measure is most affected by a very large outlier?",
+      options: [
+        "Arithmetic Mean",
+        "Arithmetic Median",
+        "Arithmetic Mode",
+        "Frequency Tally"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "The mean includes every value, so outliers skew it heavily.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A Pie Chart with a 180° slice for \"Football\" means what percentage chose it?",
+      options: [
+        "Twenty-five percent",
+        "Fifty percent",
+        "Seventy-five percent",
+        "One hundred percent"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "180 degrees is half of a 360-degree circle (50%).",
+    ),
+    QuizQuestion(
+      question: "11. Discrete numerical data is usually obtained by:",
+      options: [
+        "Measuring with tools",
+        "Counting in units",
+        "Guessing the amount",
+        "Reading a database"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Discrete data refers to countable whole items.",
+    ),
+    QuizQuestion(
+      question:
+          "12. Which method is best to understand a survivor's feelings after a flood?",
+      options: [
+        "A written survey",
+        "A personal interview",
+        "A scientific test",
+        "A computer database"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Interviews allow for emotional depth and detail.",
+    ),
+    QuizQuestion(
+      question: "13. How is the number 5 represented in tally marks?",
+      options: ["|||||", "|||| /", "||| //", "|| / ||"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Four vertical lines with a diagonal cross represents five.",
+    ),
+    QuizQuestion(
+      question: "14. In a bar chart, the gaps between bars should be:",
+      options: [
+        "Completely touching",
+        "Of different widths",
+        "Of equal spacing",
+        "Always ten units"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Equal spacing makes categorical comparisons fair and clear.",
+    ),
+    QuizQuestion(
+      question:
+          "15. If the Mean age of 3 children is 10, what is the sum of their ages?",
+      options: ["Ten years", "Twenty years", "Thirty years", "Forty years"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Sum = Mean multiplied by the count (10 x 3 = 30).",
+    ),
+    QuizQuestion(
+      question: "16. Which of these cannot have a Mean or Median?",
+      options: [
+        "Prices of Kenkey",
+        "Religious beliefs",
+        "Heights of learners",
+        "Scores in a match"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Categorical data (words) cannot be averaged or ordered numerically.",
+    ),
+    QuizQuestion(
+      question: "17. A data set has values: 2, 4, 6, 8, 10, 12. The Median is:",
+      options: ["Six", "Seven", "Eight", "Nine"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The average of the two middle numbers (6 and 8) is 7.",
+    ),
+    QuizQuestion(
+      question:
+          "18. A \"Leaf\" in a Stem-and-Leaf plot represents which place value?",
+      options: ["Thousands", "Hundreds", "Tens", "Ones"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Usually, the leaf is the final digit in the ones place.",
+    ),
+    QuizQuestion(
+      question: "19. If a Waffle Diagram has 100% shading, it means:",
+      options: [
+        "No data was found",
+        "Half the group responded",
+        "The whole group is included",
+        "The data is incorrect"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "100% represents the entire \"whole\".",
+    ),
+    QuizQuestion(
+      question: "20. To test if heat makes water evaporate faster, use:",
+      options: [
+        "A Questionnaire",
+        "An Observation",
+        "An Experiment",
+        "An Interview"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Testing variables under controlled conditions is an experiment.",
+    ),
+  ],
+);
+final QuizModel MATHjhs2s4ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS2 S4 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What are events called when the outcome of one does not affect the other?",
+      options: [
+        "Dependent events",
+        "Sample events",
+        "Independent events",
+        "Random events"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Independent events do not influence each other's outcomes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A coin is tossed and a 4-sided die is rolled. Which is the correct total of outcomes?",
+      options: ["Six", "Eight", "Four", "Two"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "2 (coin) × 4 (die) = 8.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a tree diagram for two events, what does a single path from start to finish represent?",
+      options: [
+        "A single outcome",
+        "The entire sample space",
+        "A dependent variable",
+        "A mathematical error"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "One path represents one specific combined result.",
+    ),
+    QuizQuestion(
+      question:
+          "4. If you have a 1 in 10 chance of winning a prize, what is this as a decimal?",
+      options: ["0.01", "1.0", "0.1", "0.11"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"\frac{1}{10} = 0.1.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A bag has 2 Red and 3 Blue balls. If you pick one, what is the probability it is Red?",
+      options: [r"\frac{2}{3}", r"\frac{3}{5}", r"\frac{1}{2}", r"\frac{2}{5}"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "2 red balls out of 5 total (2 + 3 = 5).",
+    ),
+    QuizQuestion(
+      question:
+          "6. You spin a spinner with 4 colors twice. What is the probability of getting the same color both times?",
+      options: [
+        r"\frac{1}{4}",
+        r"\frac{4}{16}",
+        r"\frac{1}{16}",
+        r"\frac{4}{8}"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          r"4 successes (R,R; B,B; G,G; Y,Y) out of 16 total. \frac{4}{16} = \frac{1}{4}.",
+    ),
+    QuizQuestion(
+      question:
+          r"7. Which percentage is equivalent to a probability of \frac{3}{4}?",
+      options: ["34%", "75%", "25%", "30%"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\frac{3}{4} = 0.75, which is 75%.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If a probability is expressed as the ratio 1:5, what was the total number of outcomes?",
+      options: ["One", "Four", "Five", "Six"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The second number in a probability ratio is the total.",
+    ),
+    QuizQuestion(
+      question: "9. Why is 'replacement' important in these experiments?",
+      options: [
+        "It makes the events dependent.",
+        "It changes the sample space.",
+        "It keeps the events independent.",
+        "It reduces the number of outcomes."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Putting an item back ensures the second event is not changed by the first.",
+    ),
+    QuizQuestion(
+      question: "10. A probability of 1.0 means the event is:",
+      options: ["Impossible", "Unlikely", "Likely", "Certain"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "1.0 or 100% means it will definitely happen.",
+    ),
+    QuizQuestion(
+      question:
+          "11. Which set correctly shows the sample space for tossing two coins?",
+      options: [
+        "{(H,H), (T,T)}",
+        "{(H,T), (T,H)}",
+        "{(H,H), (H,T), (T,H), (T,T)}",
+        "{H, T, H, T}"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "All four combinations must be listed.",
+    ),
+    QuizQuestion(
+      question:
+          "12. What is the probability of rolling an even number on a 6-sided die?",
+      options: [r"\frac{1}{2}", r"\frac{1}{3}", r"\frac{1}{6}", r"\frac{3}{5}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          r"Even numbers are 2, 4, 6. That is \frac{3}{6} = \frac{1}{2}.",
+    ),
+    QuizQuestion(
+      question: "13. Convert 0.05 into a percentage.",
+      options: ["0.5%", "5%", "50%", "55%"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "0.05 x 100 = 5%.",
+    ),
+    QuizQuestion(
+      question:
+          "14. How many end branches does a tree diagram have for three coin flips?",
+      options: ["Three", "Six", "Eight", "Nine"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "2 x 2 x 2 = 8.",
+    ),
+    QuizQuestion(
+      question:
+          "15. If the chance of rain is 3:10, what is the chance it will NOT rain?",
+      options: ["7:10", "3:7", "1:10", "10:3"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Total (10) minus rain (3) equals no rain (7).",
+    ),
+    QuizQuestion(
+      question:
+          "16. A spinner has 5 sections. If you spin it twice, how many cells are in its probability table?",
+      options: ["10", "20", "25", "50"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "5 x 5 = 25.",
+    ),
+    QuizQuestion(
+      question: "17. Which is the decimal for a 20% probability?",
+      options: ["2.0", "0.02", "0.2", "0.22"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"20% = \frac{20}{100} = 0.2.",
+    ),
+    QuizQuestion(
+      question: "19. Which of these is an impossible probability?",
+      options: ["0", "0.5", "1", "1.5"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Probability cannot be greater than 1 (100%).",
+    ),
+    QuizQuestion(
+      question:
+          "20. A bag has 10 marbles. The probability of picking Blue is 0.4. How many Blue marbles are there?",
+      options: ["Four", "Six", "Ten", "Forty"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "0.4 × 10 = 4.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs3s1ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS3 S1 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Round 857,386,321 to five significant figures.",
+      options: ["857,380,000", "857,390,000", "857,386,000", "857,400,000"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The 5th digit is 8 and the next is 6, so round up.",
+    ),
+    QuizQuestion(
+      question: "2. Which number has exactly three significant figures?",
+      options: ["0.058", "0.0586", "0.05860", "5.800"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "5, 8, and 6 are significant; leading zeros are not.",
+    ),
+    QuizQuestion(
+      question: "3. Express 6243.28 in standard form.",
+      options: [
+        "6.24328 × 10³",
+        "62.4328 × 10²",
+        "6.24328 × 10⁴",
+        "6.24 × 10³"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Move the decimal 3 places left.",
+    ),
+    QuizQuestion(
+      question: "4. Write 0.0000456 in standard form.",
+      options: ["4.56 × 10⁻⁴", "4.56 × 10⁻⁵", "45.6 × 10⁻⁶", "4.56 × 10⁵"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Move the decimal 5 places right.",
+    ),
+    QuizQuestion(
+      question: "5. What is the value of n if 5839000 = 5.839 × 10ⁿ?",
+      options: ["3", "4", "5", "6"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Decimal moves 6 places from the end.",
+    ),
+    QuizQuestion(
+      question: "6. Which set represents Natural numbers?",
+      options: [
+        "{0, 1, 2, 3}",
+        "{1, 2, 3, . . . }",
+        "{−1, 0, 1}",
+        r"{1/2, 1/4}"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Natural numbers are counting numbers starting at 1.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If U = {1, 2, 3, 4, 5} and A = {2, 4}, what is A' (the complement of A)?",
+      options: ["{1, 3, 5}", "{2, 4}", "{1, 2, 3}", "{4, 5}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Elements in Universal set not in A.",
+    ),
+    QuizQuestion(
+      question: "8. Round 98745.9674 to two decimal places.",
+      options: ["98745.96", "98745.97", "98746.00", "98745.90"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The third decimal is 7, so round the 6 up to 7.",
+    ),
+    QuizQuestion(
+      question: "9. How many significant figures are in 0.003600?",
+      options: ["2", "3", "4", "6"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "3, 6, and the two trailing zeros are significant.",
+    ),
+    QuizQuestion(
+      question: "10. Express 0.125 as a common fraction in its simplest form.",
+      options: [
+        r"\frac{1}{4}",
+        r"\frac{1}{5}",
+        r"\frac{1}{8}",
+        r"\frac{1}{10}"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"\frac{125}{1000} simplifies to \frac{1}{8}.",
+    ),
+    QuizQuestion(
+      question:
+          "11. A poultry farm sold 45,200 crates of eggs. Write this in standard form.",
+      options: ["4.52 × 10⁴", "45.2 × 10³", "4.52 × 10⁻⁴", "0.452 × 10⁵"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Standard form requires the first number to be between 1 and 10.",
+    ),
+    QuizQuestion(
+      question:
+          "12. Find the intersection of sets P = {a, b, c} and Q = {c, d, e}.",
+      options: ["{a, b}", "{c}", "{d, e}", "{a, e}"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Only 'c' is in both sets.",
+    ),
+    QuizQuestion(
+      question: "13. Which of these is an irrational number?",
+      options: ["3.14", r"\frac{22}{7}", "√2", "√4"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "√2 cannot be written as a simple fraction.",
+    ),
+    QuizQuestion(
+      question: "14. Round 93,000 to one significant figure.",
+      options: ["90,000", "100,000", "93,000", "9,000"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "First sig fig is 9, next is 3, so keep it 9.",
+    ),
+    QuizQuestion(
+      question: "15. What is 63.4651 x 100?",
+      options: ["634.651", "6346.51", "6.34651", "63465.1"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Move decimal 2 places right for two zeros.",
+    ),
+    QuizQuestion(
+      question:
+          "16. In a class of 40, 25 like Jollof and 20 like Waakye. 5 like both. How many like neither?",
+      options: ["0", "5", "10", "15"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "(25 − 5) + (20 − 5) + 5 = 40. Total is 40, so 0 like neither.",
+    ),
+    QuizQuestion(
+      question:
+          "17. If a number is moved 4 places to the right to reach standard form, the power of 10 is:",
+      options: ["4", "-4", r"\frac{1}{4}", "40"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Moving right indicates a small decimal, so negative power.",
+    ),
+    QuizQuestion(
+      question: "18. Which set contains only prime numbers?",
+      options: ["{1, 2, 3}", "{2, 3, 5}", "{2, 4, 6}", "{9, 11, 13}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "1 is not prime; 4, 6, and 9 are not prime.",
+    ),
+    QuizQuestion(
+      question: "19. Round 0.99765 to two decimal places.",
+      options: ["0.99", "1.00", "0.90", "0.98"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Rounding 9 up makes it 10, which carries over.",
+    ),
+    QuizQuestion(
+      question:
+          "20. Represent Natural numbers (N) and Integers (Z) on a Venn diagram.",
+      options: [
+        "N and Z are separate.",
+        "Z is inside N.",
+        "N is inside Z.",
+        "N and Z are the same."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "All natural numbers are integers.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s1ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS3 S1 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Identify the irrational number in this list.",
+      options: [r"\sqrt{9}", "0.5", r"\sqrt{7}", r"\frac{2}{3}"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          r"\sqrt{7} cannot be expressed as a fraction or terminating decimal.",
+    ),
+    QuizQuestion(
+      question: r"2. Simplify \sqrt{32}.",
+      options: [r"4\sqrt{2}", r"2\sqrt{8}", r"16\sqrt{2}", r"8\sqrt{2}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"√(16 x 2) = 4\sqrt{2}.",
+    ),
+    QuizQuestion(
+      question: r"3. What is 5\sqrt{3} + 2\sqrt{3}?",
+      options: [r"7\sqrt{6}", r"7\sqrt{3}", r"10\sqrt{3}", r"3\sqrt{3}"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Add the coefficients of like surds.",
+    ),
+    QuizQuestion(
+      question: r"4. Simplify 2\sqrt{5} x 3\sqrt{2}.",
+      options: [r"5\sqrt{7}", r"6\sqrt{7}", r"6\sqrt{10}", r"5\sqrt{10}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"(2 x 3)√(5 x 2) = 6\sqrt{10}.",
+    ),
+    QuizQuestion(
+      question: r"5. What is \frac{\sqrt{48}}{\sqrt{3}}?",
+      options: ["16", "4", r"\sqrt{45}", r"3\sqrt{4}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\sqrt{\frac{48}{3}} = \sqrt{16} = 4.",
+    ),
+    QuizQuestion(
+      question: r"6. Rationalize \frac{10}{\sqrt{5}}.",
+      options: [r"2\sqrt{5}", r"5\sqrt{2}", r"10\sqrt{5}", "2"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{10\sqrt{5}}{5} = 2\sqrt{5}.",
+    ),
+    QuizQuestion(
+      question: r"7. Solve \sqrt{2}(\sqrt{2} + \sqrt{8}).",
+      options: ["4", "6", r"\sqrt{20}", r"2\sqrt{10}"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          r"\sqrt{2}\sqrt{2} + \sqrt{2}\sqrt{8} = 2 + \sqrt{16} = 2 + 4 = 6.",
+    ),
+    QuizQuestion(
+      question: r"8. Which option is the same as 3\sqrt{12}?",
+      options: [r"6\sqrt{3}", r"12\sqrt{3}", "36", r"5\sqrt{3}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"3 x √(4 x 3) = 3 \times 2\sqrt{3} = 6\sqrt{3}.",
+    ),
+    QuizQuestion(
+      question: r"9. Subtract 3\sqrt{7} from 10\sqrt{7}.",
+      options: [r"7\sqrt{0}", r"13\sqrt{7}", r"7\sqrt{14}", r"7\sqrt{7}"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: r"10 - 3 = 7 with the \sqrt{7} factor.",
+    ),
+    QuizQuestion(
+      question: r"10. Approximate \sqrt{2} to two decimal places.",
+      options: ["1.41", "1.42", "1.73", "2.00"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"\sqrt{2} \approx 1.4142\ldots which rounds to 1.41.",
+    ),
+    QuizQuestion(
+      question: r"11. Simplify \sqrt{100} + \sqrt{1}.",
+      options: ["101", "11", r"\sqrt{101}", "10"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "10 + 1 = 11.",
+    ),
+    QuizQuestion(
+      question: r"12. What is (\sqrt{6})^2?",
+      options: [r"\sqrt{12}", "36", "6", "3"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Squaring a square root returns the original number.",
+    ),
+    QuizQuestion(
+      question: r"13. Simplify \sqrt{18} - \sqrt{2}.",
+      options: [r"\sqrt{16}", "4", r"2\sqrt{2}", "3"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"3\sqrt{2} - 1\sqrt{2} = 2\sqrt{2}.",
+    ),
+    QuizQuestion(
+      question: r"14. Express 4\sqrt{3} as a single radical (\sqrt{n}).",
+      options: [r"\sqrt{12}", r"\sqrt{48}", r"\sqrt{43}", r"\sqrt{24}"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: r"\sqrt{16} \times \sqrt{3} = \sqrt{48}.",
+    ),
+    QuizQuestion(
+      question: r"15. Find the value of \sqrt{0.04}.",
+      options: ["0.2", "0.02", "2", "0.4"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "0.2 x 0.2 = 0.04.",
+    ),
+    QuizQuestion(
+      question: "16. Which of these is NOT a surd?",
+      options: [r"\sqrt{2}", r"\sqrt{3}", r"\sqrt{9}", r"\sqrt{5}"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: r"\sqrt{9} = 3, which is a rational number.",
+    ),
+    QuizQuestion(
+      question: r"17. Simplify \frac{\sqrt{50}}{\sqrt{2}}.",
+      options: ["25", "5", r"\sqrt{48}", "10"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: r"\sqrt{\frac{50}{2}} = \sqrt{25} = 5.",
+    ),
+    QuizQuestion(
+      question: r"18. What is 2\sqrt{3} + 3\sqrt{2}?",
+      options: [
+        r"5\sqrt{5}",
+        r"6\sqrt{6}",
+        r"5\sqrt{6}",
+        r"2\sqrt{3} + 3\sqrt{2}"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Unlike surds cannot be added.",
+    ),
+    QuizQuestion(
+      question: r"19. Rationalize \frac{1}{\sqrt{3}}.",
+      options: [r"3\sqrt{3}", r"\frac{\sqrt{3}}{3}", "3", r"\frac{1}{3}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"Multiply top and bottom by \sqrt{3}.",
+    ),
+    QuizQuestion(
+      question: r"20. Approximate \sqrt{10} to one decimal place.",
+      options: ["3.1", "3.2", "3.5", "3.0"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\sqrt{10} \approx 3.16, which rounds to 3.2.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s1ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS3 S1 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: r"1. What is \frac{3}{8} of 64?",
+      options: ["24", "18", "32", "16"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"(64 \div 8) \times 3 = 24.",
+    ),
+    QuizQuestion(
+      question: r"2. Simplify \frac{48}{60} to its lowest terms.",
+      options: [r"\frac{3}{4}", r"\frac{2}{3}", r"\frac{4}{5}", r"\frac{5}{6}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Both divide by 12.",
+    ),
+    QuizQuestion(
+      question: r"3. Solve \frac{1}{2} + \frac{1}{3} + \frac{1}{6}.",
+      options: ["1", r"\frac{1}{2}", r"\frac{3}{11}", r"\frac{5}{6}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          r"\frac{3}{6} + \frac{2}{6} + \frac{1}{6} = \frac{6}{6} = 1.",
+    ),
+    QuizQuestion(
+      question: "4. Which is the largest fraction?",
+      options: [r"\frac{1}{2}", r"\frac{2}{5}", r"\frac{3}{4}", r"\frac{5}{8}"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Converting to decimals: 0.5, 0.4, 0.75, 0.625.",
+    ),
+    QuizQuestion(
+      question: r"5. Solve 2 \div \frac{1}{4}.",
+      options: [r"\frac{1}{2}", "8", "4", "6"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"2 \times \frac{4}{1} = 8.",
+    ),
+    QuizQuestion(
+      question:
+          r"6. A school has 500 students. If \frac{3}{5} are girls, how many are boys?",
+      options: ["200", "300", "250", "150"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"Boys are \frac{2}{5}. \frac{2}{5} \times 500 = 200.",
+    ),
+    QuizQuestion(
+      question: r"7. Change 3\frac{2}{5} to an improper fraction.",
+      options: [
+        r"\frac{17}{5}",
+        r"\frac{15}{5}",
+        r"\frac{11}{5}",
+        r"\frac{13}{5}"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: r"(3 \times 5) + 2 = 17.",
+    ),
+    QuizQuestion(
+      question: r"8. Solve \frac{3}{4} \times \frac{4}{3}.",
+      options: ["1", r"\frac{9}{16}", r"\frac{7}{7}", "0"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Any fraction multiplied by its reciprocal is 1.",
+    ),
+    QuizQuestion(
+      question: "9. What is 15% x 200?",
+      options: ["30", "20", "45", "15"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "0.15 × 200 = 30.",
+    ),
+    QuizQuestion(
+      question: r"10. Solve \frac{5}{9} - \frac{1}{3}.",
+      options: [r"\frac{2}{9}", r"\frac{4}{6}", r"\frac{1}{3}", r"\frac{4}{9}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{5}{9} - \frac{3}{9} = \frac{2}{9}.",
+    ),
+    QuizQuestion(
+      question: r"11. Calculate 10 + 5 x \frac{1}{5}.",
+      options: ["11", "3", "15", "25"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          r"Multiply first: 5 \times \frac{1}{5} = 1. Then 10 + 1 = 11.",
+    ),
+    QuizQuestion(
+      question:
+          r"12. A shirt costing 80 Cedis is reduced by \frac{1}{4}. New price?",
+      options: ["60 Cedis", "40 Cedis", "70 Cedis", "20 Cedis"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Reduction is 20. 80 − 20 = 60.",
+    ),
+    QuizQuestion(
+      question: r"13. Solve (\frac{2}{3} + \frac{1}{3}) x 5.",
+      options: ["5", "1", "10", "15"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "1 × 5 = 5.",
+    ),
+    QuizQuestion(
+      question: r"14. What is the reciprocal of 2\frac{1}{2}?",
+      options: [r"\frac{2}{5}", r"\frac{5}{2}", r"\frac{1}{5}", r"\frac{2}{3}"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: r"2\frac{1}{2} = \frac{5}{2}. Reciprocal is \frac{2}{5}.",
+    ),
+    QuizQuestion(
+      question: r"15. Convert \frac{7}{20} to a percentage.",
+      options: ["35%", "70%", "20%", "15%"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{7}{20} = \frac{35}{100}.",
+    ),
+    QuizQuestion(
+      question: r"16. Solve \frac{2}{7} \div \frac{2}{7}.",
+      options: ["1", r"\frac{4}{49}", "0", r"\frac{1}{7}"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A number divided by itself is 1.",
+    ),
+    QuizQuestion(
+      question: r"17. If \frac{1}{x} = \frac{4}{12}, what is x?",
+      options: ["3", "4", "8", "12"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: r"\frac{4}{12} simplifies to \frac{1}{3}.",
+    ),
+    QuizQuestion(
+      question: r"18. Find \frac{2}{3} of (12 + 6).",
+      options: ["12", "18", "6", "9"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{2}{3} \times 18 = 12.",
+    ),
+    QuizQuestion(
+      question: r"19. Subtract \frac{1}{10} from 0.5.",
+      options: ["0.4", "0.6", "0.1", "0.5"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "0.5 − 0.1 = 0.4.",
+    ),
+    QuizQuestion(
+      question: r"20. \frac{3}{5} of a journey is 60km. Total distance?",
+      options: ["100km", "120km", "80km", "150km"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: r"\frac{1}{5} = 20km, so \frac{5}{5} = 100km.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s1ss4QuizData = QuizModel(
+  audioPath: 'assets/audio/math/4. JHS3 S1 SS4/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the unit rate if 5 yams cost GH₵ 125?",
+      options: ["GH₵ 25", "GH₵ 20", "GH₵ 30", "GH₵ 15"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "125 ÷ 5 = 25.",
+    ),
+    QuizQuestion(
+      question: r"2. In the equation t = 12n, what is the cost of 10 items?",
+      options: ["GH₵ 110", "GH₵ 120", "GH₵ 130", "GH₵ 140"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "12 × 10 = 120.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A mobile phone costs GH₵ 1,000 plus 15% VAT. What is the total?",
+      options: ["GH₵ 1,150", "GH₵ 1,100", "GH₵ 1,200", "GH₵ 1,050"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "1000 + (0.15 × 1000) = 1150.",
+    ),
+    QuizQuestion(
+      question:
+          "4. If a car depreciates by 20%, a GH₵ 50,000 car is now worth...",
+      options: ["GH₵ 30,000", "GH₵ 45,000", "GH₵ 40,000", "GH₵ 35,000"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "50000 − 10000 = 40000.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Under Act 766, what is the worker's SSNIT contribution rate?",
+      options: ["5.5%", "13.0%", "18.5%", "2.5%"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Workers pay 5.5%.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An agent gets 10% commission on a GH₵ 2,000 sale. He earns...",
+      options: ["GH₵ 200", "GH₵ 100", "GH₵ 300", "GH₵ 400"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "0.10 × 2000 = 200.",
+    ),
+    QuizQuestion(
+      question:
+          "7. On a graph of Cost vs. Weight, the unit price is shown by the:",
+      options: ["X-axis", "Y-axis", "Slope", "Origin"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Slope equals unit rate.",
+    ),
+    QuizQuestion(
+      question: r"8. Calculate Simple Interest: P = 500, R = 5%, T = 3 years.",
+      options: ["GH₵ 75", "GH₵ 25", "GH₵ 50", "GH₵ 85"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "(500 × 5 × 3)/100 = 75.",
+    ),
+    QuizQuestion(
+      question: "9. A GH₵ 80 shirt has a 10% discount. The new price is:",
+      options: ["GH₵ 70", "GH₵ 72", "GH₵ 75", "GH₵ 68"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "80 − 8 = 72.",
+    ),
+    QuizQuestion(
+      question: "10. The NHIL rate in Ghana is typically:",
+      options: ["2.5%", "5.0%", "12.5%", "15.0%"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "NHIL is 2.5%.",
+    ),
+    QuizQuestion(
+      question: r"11. If t = 2.5n, how many items (n) can you buy with GH₵ 25?",
+      options: ["10 items", "15 items", "5 items", "20 items"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "25 ÷ 2.5 = 10.",
+    ),
+    QuizQuestion(
+      question:
+          "12. A house is insured for GH₵ 100,000 at a 1% premium. The fee is:",
+      options: ["GH₵ 1,000", "GH₵ 10,000", "GH₵ 100", "GH₵ 500"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "100000 × 0.01 = 1000.",
+    ),
+    QuizQuestion(
+      question:
+          "13. What is the total SSNIT contribution rate (Employer + Worker)?",
+      options: ["18.5%", "17.5%", "13.0%", "5.5%"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "13 + 5.5 = 18.5.",
+    ),
+    QuizQuestion(
+      question: "14. Pension rights under Act 766 for 15 years of service is:",
+      options: ["37.5%", "40.0%", "50.0%", "60.0%"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Minimum right is 37.5%.",
+    ),
+    QuizQuestion(
+      question: "15. If the slope of a graph is 5, the cost of 4 units is:",
+      options: ["20", "15", "10", "25"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "5 × 4 = 20.",
+    ),
+    QuizQuestion(
+      question:
+          "16. A VAT-exclusive price is GH₵ 200. With 15% VAT, the price is:",
+      options: ["GH₵ 230", "GH₵ 215", "GH₵ 245", "GH₵ 225"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "200 × 1.15 = 230.",
+    ),
+    QuizQuestion(
+      question: "17. Simple Interest on GH₵ 2,000 at 10% for 6 months is:",
+      options: ["GH₵ 100", "GH₵ 200", "GH₵ 150", "GH₵ 300"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "2000 × 0.10 × 0.5 = 100.",
+    ),
+    QuizQuestion(
+      question: r"18. In t = pn, if n doubles and p is constant, t will:",
+      options: ["Double", "Triple", "Stay same", "Halve"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Proportional growth.",
+    ),
+    QuizQuestion(
+      question: "19. Which law managed SSNIT between 1991 and 2009?",
+      options: ["PNDC Law 247", "Act 766", "Act 1087", "PNDC Law 111"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "PNDC Law 247.",
+    ),
+    QuizQuestion(
+      question:
+          "20. A person contributing for 35 years under Act 766 has a right of:",
+      options: ["60%", "50%", "70%", "80%"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Maximum is 60%.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs3s2ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS3 S2 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the name of the point where two lines meet on a graph?",
+      options: [
+        "The origin point",
+        "The intersection",
+        "The x-intercept",
+        "The y-intercept"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The intersection is where two lines cross.",
+    ),
+    QuizQuestion(
+      question:
+          "2. In the ordered pair (5, 2), which number represents the y-coordinate?",
+      options: [
+        "The number five",
+        "The number zero",
+        "The number two",
+        "The number seven"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "In (x, y), the second number is the y-coordinate.",
+    ),
+    QuizQuestion(
+      question:
+          r"3. To solve y = x + 2 and y = 4 simultaneously, what must x be?",
+      options: [
+        "Value of two",
+        "Value of four",
+        "Value of six",
+        "Value of zero"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "If y = 4, then 4 = x + 2, so x = 2.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool is most essential for ensuring your linear relations are straight?",
+      options: [
+        "A long ruler",
+        "A protractor",
+        "A pair of compasses",
+        "A calculator"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Linear relations are straight lines, requiring a ruler.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If two lines never cross each other on a graph, they are said to be:",
+      options: [
+        "Perpendicular",
+        "Simultaneous",
+        "Intersecting",
+        "Parallel lines"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Parallel lines maintain the same distance and never meet.",
+    ),
+    QuizQuestion(
+      question: r"6. Find the y-value for y = 2x - 3 when x = 0.",
+      options: [
+        "Positive three",
+        "Negative three",
+        "Positive zero",
+        "Negative zero"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "2(0) − 3 = −3.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If the intersection is at the origin, what is the solution for x and y?",
+      options: ["x = 0, y = 0", "x = 1, y = 1", "x = 0, y = 1", "x = 1, y = 0"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The origin is the point (0, 0).",
+    ),
+    QuizQuestion(
+      question:
+          "8. On a graph with a scale of 2cm to 1 unit, how many cm represent 3 units?",
+      options: [
+        "Two centimetres",
+        "Six centimetres",
+        "Five centimetres",
+        "One centimetre"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "3 × 2 = 6 cm.",
+    ),
+    QuizQuestion(
+      question:
+          r"9. If x - y = 0, what can you say about the coordinates of any point on this line?",
+      options: ["x is bigger", "y is bigger", "x equals y", "y is always 0"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "x − y = 0 means x = y.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Look at a graph where the intersection is at (−1, 4). What is y?",
+      options: [
+        "Negative one",
+        "Positive four",
+        "Positive zero",
+        "Negative four"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The second value in the pair is y.",
+    ),
+    QuizQuestion(
+      question:
+          "11. What happens if you use a blunt pencil to draw your graph?",
+      options: [
+        "Higher accuracy",
+        "Lower accuracy",
+        "Better grades",
+        "Faster drawing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Thick lines make it hard to find the exact intersection.",
+    ),
+    QuizQuestion(
+      question: r"12. In a table for y = -x + 5, if x = -2, what is y?",
+      options: [
+        "Positive three",
+        "Positive seven",
+        "Negative seven",
+        "Negative three"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "−(−2) + 5 = 2 + 5 = 7.",
+    ),
+    QuizQuestion(
+      question: "13. Which axis is the horizontal axis on a graph sheet?",
+      options: ["The x-axis", "The y-axis", "The z-axis", "The origin"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The x-axis runs horizontally.",
+    ),
+    QuizQuestion(
+      question:
+          "14. How many points are minimally needed to draw a perfectly straight line?",
+      options: ["One point", "Five points", "Two points", "Zero points"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Two points define a straight line.",
+    ),
+    QuizQuestion(
+      question:
+          r"15. If a line is described as x = 3, what kind of line is it?",
+      options: [
+        "Horizontal line",
+        "Vertical line",
+        "Slanted line",
+        "Curved line"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "x = constant is a vertical line.",
+    ),
+    QuizQuestion(
+      question: r"16. Solve y = x and y = -x simultaneously.",
+      options: ["x = 1, y = 1", "x = 0, y = 0", "x = 2, y = 2", "x = 1, y = 0"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "They only meet at the origin.",
+    ),
+    QuizQuestion(
+      question: "17. Why do we label our lines with their equations?",
+      options: [
+        "To avoid confusion",
+        "To look smart",
+        "To fill space",
+        "To help drawing"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Labels help identify which line is which.",
+    ),
+    QuizQuestion(
+      question: "18. What is the y-value when a line crosses the x-axis?",
+      options: [
+        "It is always 1",
+        "It is always 0",
+        "It is always 5",
+        "It is unknown"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "On the x-axis, the height (y) is zero.",
+    ),
+    QuizQuestion(
+      question:
+          "19. If a table for two lines has different y values for every x, what is true?",
+      options: [
+        "Lines are same",
+        "They meet later",
+        "They are parallel",
+        "The math is bad"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "They haven't intersected within that table range.",
+    ),
+    QuizQuestion(
+      question:
+          r"20. A graph shows two lines crossing at x = 2 on the line y = 3x. What is y?",
+      options: [
+        "Value of six",
+        "Value of five",
+        "Value of three",
+        "Value of zero"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "3 × 2 = 6.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s2ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS3 S2 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: r"1. Change the subject to a in p = a + b.",
+      options: [r"a = p - b", r"a = p + b", r"a = b - p", r"a = pb"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Subtract b from both sides.",
+    ),
+    QuizQuestion(
+      question: r"2. If x = 4, evaluate 5x - 2.",
+      options: ["20", "10", "22", "18"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "5(4) − 2 = 20 − 2 = 18.",
+    ),
+    QuizQuestion(
+      question: r"3. Factorise 5x + 10y.",
+      options: [r"5(x + 2y)", r"5(x + 5y)", r"2(x + 5y)", r"5(x + y)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "5 is the HCF.",
+    ),
+    QuizQuestion(
+      question: r"4. Make r the subject of C = 2πr.",
+      options: [
+        r"r = C - 2π",
+        r"r = \frac{C}{2π}",
+        r"r = \frac{2π}{C}",
+        r"r = C + 2π"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Divide both sides by 2π.",
+    ),
+    QuizQuestion(
+      question: r"5. Solve for y in x = \frac{y}{4}.",
+      options: [r"y = \frac{x}{4}", r"y = 4 - x", r"y = 4x", r"y = x + 4"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Multiply both sides by 4.",
+    ),
+    QuizQuestion(
+      question: r"6. If a = 2, b = 3, find ab + 5.",
+      options: ["11", "10", "28", "15"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "(2 × 3) + 5 = 6 + 5 = 11.",
+    ),
+    QuizQuestion(
+      question: r"7. Factorise x^2 + 3x.",
+      options: [r"x(x + 3)", r"3(x + x)", r"x(x + 1)", r"3(x + 1)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "x is common to both terms.",
+    ),
+    QuizQuestion(
+      question: r"8. Make k the subject in y = kx^2.",
+      options: [
+        r"k = \frac{\sqrt{y}}{x}",
+        r"k = y - x^2",
+        r"k = yx^2",
+        r"k = \frac{y}{x^2}"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Divide y by x².",
+    ),
+    QuizQuestion(
+      question: r"9. Evaluate 3(n + 2) if n = 5.",
+      options: ["15", "17", "21", "10"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "3(5 + 2) = 3(7) = 21.",
+    ),
+    QuizQuestion(
+      question: r"10. Factorise 8ab - 4a.",
+      options: [r"4a(2b - 1)", r"4(2ab - a)", r"4a(2b - a)", r"a(8b - 4)"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "4a is the HCF.",
+    ),
+    QuizQuestion(
+      question: r"11. Make w the subject of A = Lw.",
+      options: [
+        r"w = \frac{A}{L}",
+        r"w = \frac{L}{A}",
+        r"w = A - L",
+        r"w = A + L"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Divide area by length.",
+    ),
+    QuizQuestion(
+      question: r"12. If x = 10, y = 2, find \frac{x}{y} + 3.",
+      options: ["05", "08", "12", "15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\frac{10}{2}) + 3 = 5 + 3 = 8.",
+    ),
+    QuizQuestion(
+      question: r"13. Factorise 15 - 5g.",
+      options: [r"5(3 - g)", r"5(g - 3)", r"3(5 - g)", r"5(1 - g)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "5 goes into 15 three times.",
+    ),
+    QuizQuestion(
+      question: r"14. Make x the subject of y = 3x + 1.",
+      options: [
+        r"x = \frac{y-1}{3}",
+        r"x = \frac{y+1}{3}",
+        r"x = 3y - 1",
+        r"x = y - 3"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Subtract 1 then divide by 3.",
+    ),
+    QuizQuestion(
+      question: r"15. Evaluate 10 - 2m when m = 4.",
+      options: ["06", "02", "08", "04"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "10 − (2 × 4) = 10 − 8 = 2.",
+    ),
+    QuizQuestion(
+      question: r"16. Factorise 12x + 16y.",
+      options: [r"4(3x + 4y)", r"4(4x + 3y)", r"6(2x + 3y)", r"2(6x + 8y)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "4 is the largest common factor.",
+    ),
+    QuizQuestion(
+      question: r"17. If p = 6, q = 2, find p^2 - q^2.",
+      options: ["32", "08", "16", "04"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "36 − 4 = 32.",
+    ),
+    QuizQuestion(
+      question: r"18. Make t the subject of d = st.",
+      options: [
+        r"t = \frac{d}{s}",
+        r"t = \frac{s}{d}",
+        r"t = d - s",
+        r"t = d + s"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Time equals distance divided by speed.",
+    ),
+    QuizQuestion(
+      question: r"19. Factorise am + an.",
+      options: [r"a(m + n)", r"m(a + n)", r"n(a + m)", r"a(m - n)"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "a is the common factor.",
+    ),
+    QuizQuestion(
+      question: r"20. If x = 1, evaluate x^2 + x + 1.",
+      options: ["01", "02", "03", "04"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "1 + 1 + 1 = 3.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s2ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS3 S2 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: r"1. Solve x - 8 < 2.",
+      options: [r"x < 10", r"x > 10", r"x < 6", r"x > 6"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Add 8 to both sides.",
+    ),
+    QuizQuestion(
+      question: r"2. Solve 3x \geq 15.",
+      options: [r"x \leq 5", r"x \geq 5", r"x > 5", r"x < 5"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Divide by 3.",
+    ),
+    QuizQuestion(
+      question: r"3. Solve -x > 4.",
+      options: [r"x > -4", r"x < 4", r"x < -4", r"x > 4"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Multiply by -1 and flip sign.",
+    ),
+    QuizQuestion(
+      question: r"4. Which circle is used for x \leq 5 on a number line?",
+      options: ["Open circle", "Shaded circle", "No circle", "Square box"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Equal to\" uses a closed/shaded circle.",
+    ),
+    QuizQuestion(
+      question: r"5. Solve 2x + 1 < 9.",
+      options: [r"x < 5", r"x > 4", r"x < 4", r"x > 5"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "2x < 8, so x < 4.",
+    ),
+    QuizQuestion(
+      question: r"6. Solve 10 - x \leq 7.",
+      options: [r"x \geq 3", r"x \leq 3", r"x \leq 17", r"x \geq 17"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "-x \leq -3 flip to x \geq 3.",
+    ),
+    QuizQuestion(
+      question:
+          r"7. A rectangle has width 5cm and perimeter at most 30cm. Find the maximum length.",
+      options: ["15cm", "20cm", "25cm", "10cm"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "2(L + 5) \leq 30 \rightarrow L + 5 \leq 15 \rightarrow L \leq 10.",
+    ),
+    QuizQuestion(
+      question: r"8. Solve \frac{x}{4} > 2.",
+      options: [r"x > 8", r"x < 8", r"x > 6", r"x < 2"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Multiply both sides by 4.",
+    ),
+    QuizQuestion(
+      question: r"9. Solve 5x - 3 \geq 2x + 6.",
+      options: [r"x \leq 3", r"x \geq 1", r"x \geq 3", r"x \leq 1"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: r"3x \geq 9, so x \geq 3.",
+    ),
+    QuizQuestion(
+      question: "10. Translate: \"The temperature T is more than 30 degrees.\"",
+      options: [r"T > 30", r"T < 30", r"T \geq 30", r"T \leq 30"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "\"More than\" is strictly greater than.",
+    ),
+    QuizQuestion(
+      question: r"11. Solve -4x \leq -20.",
+      options: [r"x \geq 5", r"x \leq 5", r"x \geq -5", r"x \leq -5"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Divide by -4 and flip sign.",
+    ),
+    QuizQuestion(
+      question: r"12. Represent x < -2 on a number line. Arrow points to the:",
+      options: ["Right", "Left", "Middle", "Up"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Less than\" points to smaller numbers.",
+    ),
+    QuizQuestion(
+      question: r"13. Solve x + 4 > 4.",
+      options: [r"x > 8", r"x < 0", r"x > 0", r"x < 8"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Subtract 4 from both sides.",
+    ),
+    QuizQuestion(
+      question: r"14. Solve 7x \leq 0.",
+      options: [r"x \leq 0", r"x \geq 0", r"x < 0", r"x > 0"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "0 \div 7 = 0.",
+    ),
+    QuizQuestion(
+      question: r"15. Solve 3(x - 2) < 9.",
+      options: [r"x < 3", r"x < 1", r"x < 11", r"x < 5"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "3x - 6 < 9 \rightarrow 3x < 15 \rightarrow x < 5.",
+    ),
+    QuizQuestion(
+      question:
+          r"16. If x is an integer and 2 < x < 5, what are the possible values?",
+      options: ["2, 3, 4", "3, 4, 5", "3, 4", "2, 5"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "2 and 5 are not included.",
+    ),
+    QuizQuestion(
+      question: r"17. Solve \frac{2}{3}x \leq 4.",
+      options: [r"x \leq 6", r"x \leq 12", r"x \leq 2", r"x \leq 8"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Multiply by 3, divide by 2.",
+    ),
+    QuizQuestion(
+      question:
+          r"18. Kofi has 50 Cedis. He buys books for b Cedis and has at least 10 Cedis left.",
+      options: [r"b \leq 40", r"b \geq 40", r"b \leq 60", r"b \geq 60"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "50 - b \geq 10 \rightarrow -b \geq -40 \rightarrow b \leq 40.",
+    ),
+    QuizQuestion(
+      question: r"19. Solve -5x + 2 > 12.",
+      options: [r"x < -2", r"x > -2", r"x < 2", r"x > 2"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "-5x > 10, flip sign for x < -2.",
+    ),
+    QuizQuestion(
+      question: r"20. Which inequality is the same as x > 2?",
+      options: [r"2 < x", r"2 > x", r"x \leq 2", r"2 \geq x"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Swapping sides flips the symbol.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs3s3ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS3 S3 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the sum of interior angles of a quadrilateral?",
+      options: ["360°", "180°", "540°", "720°"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "(4 − 2) × 180 = 360.",
+    ),
+    QuizQuestion(
+      question: "2. Find the value of one interior angle in a regular hexagon.",
+      options: ["120°", "108°", "135°", "150°"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"Total is 720; \frac{720}{6} = 120.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many triangles are formed from a vertex in a 7-sided polygon?",
+      options: ["5 triangles", "4 triangles", "7 triangles", "9 triangles"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The number of triangles is (n − 2).",
+    ),
+    QuizQuestion(
+      question:
+          "4. Two triangles are similar if their corresponding angles are:",
+      options: ["Equal", "Doubled", "Halved", "Zero"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Similarity requires identical angles.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which instrument is used to draw the locus of points for a circle?",
+      options: ["Compass", "Protractor", "Set square", "Divider"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A compass draws arcs and circles.",
+    ),
+    QuizQuestion(
+      question: "6. A regular polygon has an interior angle of 140°. Find n.",
+      options: ["9 sides", "8 sides", "7 sides", "6 sides"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: r"180 − 140 = 40 (exterior). \frac{360}{40} = 9.",
+    ),
+    QuizQuestion(
+      question: "7. In construction, the 'incentre' is found by bisecting:",
+      options: ["Angles", "Sides", "Vertices", "Heights"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Bisecting angles locates the incentre.",
+    ),
+    QuizQuestion(
+      question: "8. What is the sum of exterior angles of any convex polygon?",
+      options: ["360°", "180°", "540°", "90°"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Exterior angles always sum to 360.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which triangle congruency rule involves two sides and an included angle?",
+      options: ["SAS", "SSS", "ASA", "AAA"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "SAS is Side-Angle-Side.",
+    ),
+    QuizQuestion(
+      question: "10. If Triangle ABC ~ Triangle DEF, then side ratios are:",
+      options: ["Constant", "Random", "Unequal", "Infinite"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Similar shapes have proportional sides.",
+    ),
+    QuizQuestion(
+      question:
+          "11. To construct a square with a given side, you must first draw a:",
+      options: [
+        "90-degree angle",
+        "60-degree angle",
+        "45-degree angle",
+        "30-degree angle"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Squares require right angles at corners.",
+    ),
+    QuizQuestion(
+      question: "12. What is the sum of interior angles of a nonagon (n = 9)?",
+      options: ["1260°", "1080°", "1440°", "900°"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "(9 − 2) × 180 = 1260.",
+    ),
+    QuizQuestion(
+      question: "13. A triangle with sides 3cm, 4cm, and 5cm is:",
+      options: ["Scalene", "Regular", "Isosceles", "Equilateral"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "All sides are different lengths.",
+    ),
+    QuizQuestion(
+      question:
+          "14. The point where perpendicular bisectors of a triangle meet is the:",
+      options: ["Circumcentre", "Incentre", "Centroid", "Orthocentre"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Perpendicular bisectors locate the circumcentre.",
+    ),
+    QuizQuestion(
+      question:
+          "15. If a polygon has n sides, how many exterior angles does it have?",
+      options: ["n angles", "2 angles", "4 angles", "8 angles"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Every vertex has one exterior angle.",
+    ),
+    QuizQuestion(
+      question: "16. Two shapes are congruent if they have the same:",
+      options: ["Size and shape", "Only shape", "Only size", "Only color"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Congruency means identical in every way.",
+    ),
+    QuizQuestion(
+      question: "17. Which polygon has a sum of interior angles equal to 900°?",
+      options: ["Heptagon", "Hexagon", "Octagon", "Pentagon"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "(7 − 2) × 180 = 900.",
+    ),
+    QuizQuestion(
+      question: "18. In a regular pentagon, each exterior angle measures:",
+      options: ["72°", "60°", "90°", "45°"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{360}{5} = 72.",
+    ),
+    QuizQuestion(
+      question: "19. Which of these is NOT a polygon?",
+      options: ["Circle", "Square", "Rhombus", "Triangle"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Polygons must have straight sides.",
+    ),
+    QuizQuestion(
+      question: "20. If Triangle PQR ≅ Triangle XYZ, then Angle P is equal to:",
+      options: ["Angle X", "Angle Y", "Angle Z", "Angle Q"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Corresponding angles in congruent triangles are equal.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s3ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS3 S3 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the name of the 2D pattern that folds into a 3D solid?",
+      options: ["Blueprint", "Net", "Sketch", "Layout"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A net is the term for a flat 2D pattern of a 3D shape.",
+    ),
+    QuizQuestion(
+      question: "2. A cuboid has how many vertices?",
+      options: ["6", "8", "12", "4"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A cuboid has 8 corners, or vertices.",
+    ),
+    QuizQuestion(
+      question: "3. Which vector is the position vector for point M(4, -2)?",
+      options: [
+        r"\begin{pmatrix}4\\-2\end{pmatrix}",
+        r"\begin{pmatrix}-4\\2\end{pmatrix}",
+        r"\begin{pmatrix}2\\-4\end{pmatrix}",
+        r"\begin{pmatrix}-2\\4\end{pmatrix}"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Position vectors use the coordinates directly.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Find the surface area of a cuboid with dimensions 2cm by 3cm by 4cm.",
+      options: [r"24cm^2", r"52cm^2", r"48cm^2", r"26cm^2"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          r"2(2 \times 3 + 2 \times 4 + 3 \times 4) = 2(6 + 8 + 12) = 52.",
+    ),
+    QuizQuestion(
+      question: "5. If vectors are parallel, they must have the same:",
+      options: ["Magnitude", "Length", "Direction", "Origin"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Parallel vectors point in the same (or exactly opposite) direction.",
+    ),
+    QuizQuestion(
+      question: "6. A triangular prism net always contains how many triangles?",
+      options: ["2", "3", "1", "5"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A triangular prism has two triangular bases.",
+    ),
+    QuizQuestion(
+      question:
+          r"7. Vector A = \begin{pmatrix}1\\2\end{pmatrix} and B = \begin{pmatrix}5\\10\end{pmatrix}. What is the scalar k such that B = kA?",
+      options: [r"k = 2", r"k = 5", r"k = 10", r"k = 4"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "1 × 5 = 5 and 2 × 5 = 10.",
+    ),
+    QuizQuestion(
+      question: "8. The dot product of two perpendicular vectors is always:",
+      options: ["One", "Zero", "Ten", "Positive"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "By definition, perpendicular vectors have a dot product of 0.",
+    ),
+    QuizQuestion(
+      question: "9. How many faces does a triangular prism have?",
+      options: ["4", "5", "6", "3"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It has 2 triangles and 3 rectangles.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Calculate the area of a rectangle in a net with side lengths 7cm and 5cm.",
+      options: [r"12cm^2", r"35cm^2", r"24cm^2", r"70cm^2"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Area = 7 × 5 = 35.",
+    ),
+    QuizQuestion(
+      question:
+          r"11. Which vector is parallel to \begin{pmatrix}-3\\4\end{pmatrix}?",
+      options: [
+        r"\begin{pmatrix}3\\-4\end{pmatrix}",
+        r"\begin{pmatrix}4\\-3\end{pmatrix}",
+        r"\begin{pmatrix}-3\\-4\end{pmatrix}",
+        r"\begin{pmatrix}6\\8\end{pmatrix}"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "This is a scalar multiple where k = -1.",
+    ),
+    QuizQuestion(
+      question: '12. The "Triangle Law" of vectors is also known as:',
+      options: [
+        "Back-to-Back",
+        "Head-to-Tail",
+        "Side-by-Side",
+        "Top-to-Bottom"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Vectors are added by placing the tail of the second at the head of the first.",
+    ),
+    QuizQuestion(
+      question:
+          r"13. A cube has a surface area of 54cm^2. What is the area of one face?",
+      options: [r"6cm^2", r"9cm^2", r"27cm^2", r"18cm^2"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "54 ÷ 6 = 9.",
+    ),
+    QuizQuestion(
+      question: "14. Vector PQ where P(1, 2) and Q(4, 6) is:",
+      options: [
+        r"\begin{pmatrix}5\\8\end{pmatrix}",
+        r"\begin{pmatrix}3\\4\end{pmatrix}",
+        r"\begin{pmatrix}-3\\-4\end{pmatrix}",
+        r"\begin{pmatrix}4\\3\end{pmatrix}"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          r"PQ = \begin{pmatrix}4 - 1\\6 - 2\end{pmatrix} = \begin{pmatrix}3\\4\end{pmatrix}.",
+    ),
+    QuizQuestion(
+      question:
+          r"15. If vector x = \begin{pmatrix}1\\0\end{pmatrix}, which vector is perpendicular to it?",
+      options: [
+        r"\begin{pmatrix}0\\5\end{pmatrix}",
+        r"\begin{pmatrix}5\\0\end{pmatrix}",
+        r"\begin{pmatrix}1\\1\end{pmatrix}",
+        r"\begin{pmatrix}-1\\0\end{pmatrix}"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "(1 × 0) + (0 × 5) = 0.",
+    ),
+    QuizQuestion(
+      question:
+          "16. To find the surface area of any prism, you add the areas of:",
+      options: [
+        "Only the sides",
+        "All the faces",
+        "Only the bases",
+        "The diagonals"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Surface area is the total area of all external surfaces.",
+    ),
+    QuizQuestion(
+      question:
+          r"17. In a parallelogram ABCD, vector AB is equal to which vector?",
+      options: [r"BC", r"DC", r"AD", r"CA"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Opposite sides of a parallelogram are equal and parallel.",
+    ),
+    QuizQuestion(
+      question:
+          r"18. What is the length of vector \begin{pmatrix}3\\4\end{pmatrix}?",
+      options: ["7 units", "5 units", "1 unit", "12 units"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\sqrt{3^2+4^2} = \sqrt{9+16} = 5.",
+    ),
+    QuizQuestion(
+      question:
+          "19. A net of a triangular prism has a total of how many edges?",
+      options: ["12", "14", "9", "10"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Counting the perimeter of the standard t-shape net.",
+    ),
+    QuizQuestion(
+      question:
+          r"20. If a = \begin{pmatrix}2\\3\end{pmatrix} and b = \begin{pmatrix}4\\1\end{pmatrix}, then a + b is:",
+      options: [
+        r"\begin{pmatrix}8\\3\end{pmatrix}",
+        r"\begin{pmatrix}6\\4\end{pmatrix}",
+        r"\begin{pmatrix}2\\-2\end{pmatrix}",
+        r"\begin{pmatrix}4\\6\end{pmatrix}"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          r"\begin{pmatrix}2 + 4\\3 + 1\end{pmatrix} = \begin{pmatrix}6\\4\end{pmatrix}.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s3ss3QuizData = QuizModel(
+  audioPath: 'assets/audio/math/3. JHS3 S3 SS3/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What name is given to the original shape before enlargement?",
+      options: ["Image", "Center", "Object", "Factor"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The starting shape is always called the object.",
+    ),
+    QuizQuestion(
+      question: "2. A scale factor of k = 4 means the image is:",
+      options: [
+        "4 times smaller",
+        "4 units away",
+        "4 times bigger",
+        "Same as object"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "k > 1 indicates a magnification or increase in size.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Find k if the object length is 5cm and the image length is 15cm.",
+      options: ["3", "10", "20", "75"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"k = \frac{15}{5} = 3.",
+    ),
+    QuizQuestion(
+      question: r"4. If k = \frac{1}{3}, the transformation is a:",
+      options: ["Rotation", "Reflection", "Reduction", "Congruence"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Factors between 0 and 1 reduce the size.",
+    ),
+    QuizQuestion(
+      question: "5. Which tool uses enlargement to show distant ships at sea?",
+      options: ["Microscope", "Binoculars", "Protractor", "Set square"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Binoculars enlarge distant objects for better viewing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A point (1, 2) is enlarged by k = 5. What is the new point?",
+      options: ["(5, 2)", "(1, 10)", "(5, 10)", "(6, 7)"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Multiply both coordinates: (1 × 5, 2 × 5) = (5, 10).",
+    ),
+    QuizQuestion(
+      question: "7. Similar shapes must have corresponding angles that are:",
+      options: ["Doubled", "Half size", "Identical", "Different"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In similarity, shape is preserved, so angles never change.",
+    ),
+    QuizQuestion(
+      question: "8. If k = -1, the image is the same size as the object but:",
+      options: ["Inverted", "Invisible", "Squared", "Larger"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A negative sign indicates an inversion through the centre.",
+    ),
+    QuizQuestion(
+      question:
+          "9. An object has a length of 12m. If k = 0.25, find the image length.",
+      options: ["48m", "12m", "6m", "3m"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "12 × 0.25 = 3.",
+    ),
+    QuizQuestion(
+      question: "10. The point where all enlargement lines meet is the:",
+      options: ["Focal point", "Midpoint", "Origin point", "Centre point"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "This is the Centre of Enlargement.",
+    ),
+    QuizQuestion(
+      question: "11. Two shapes that are identical in size and shape are:",
+      options: ["Similar", "Congruent", "Parallel", "Divergent"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Congruent shapes are exact copies.",
+    ),
+    QuizQuestion(
+      question:
+          "12. If k = -3 and the object length is 2cm, the image length is:",
+      options: ["-6cm", "6cm", "1cm", "5cm"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Length is always positive, even if the scale factor is negative.",
+    ),
+    QuizQuestion(
+      question: "13. On a graph, P(3, 4) → P'(6, 8). What is k?",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: r"\frac{6}{3} = 2 and \frac{8}{4} = 2.",
+    ),
+    QuizQuestion(
+      question: "14. Which is a real-life example of enlargement in Ghana?",
+      options: ["A shadow", "A footstep", "A cold wind", "A blue sky"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Shadows are projections that enlarge based on light distance.",
+    ),
+    QuizQuestion(
+      question: "15. If the scale factor k = 1, the image and object are:",
+      options: ["Opposite", "Similar", "Congruent", "Vertical"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A factor of 1 means no change in size occurred.",
+    ),
+    QuizQuestion(
+      question:
+          "16. A triangle has a base of 10cm. After enlargement, the base is 5cm. k is:",
+      options: ["0.5", "2.0", "5.0", "15.0"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"k = \frac{5}{10} = 0.5.",
+    ),
+    QuizQuestion(
+      question: "17. To find the Scale Factor we divide Image Length by:",
+      options: ["The width", "The centre", "Object length", "The factor"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "k = Image/Object.",
+    ),
+    QuizQuestion(
+      question:
+          "18. If k is negative, the image appears on which side of the centre?",
+      options: ["Same side", "Right side", "Left side", "Opposite side"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Negative factors project the image through the centre.",
+    ),
+    QuizQuestion(
+      question: r"19. In the formula P(x, y) → P'(kx, ky), what does k do?",
+      options: ["It adds", "It divides", "It subtracts", "It multiplies"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "We multiply coordinates by the scale factor.",
+    ),
+    QuizQuestion(
+      question: "20. A map uses k = 0.001. This means the real land is:",
+      options: ["Smaller", "Much larger", "The same", "Upside down"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "If the map (image) is a tiny fraction, the real land (object) must be huge.",
+    ),
+  ],
+);
+
+final QuizModel MATHjhs3s4ss1QuizData = QuizModel(
+  audioPath: 'assets/audio/math/1. JHS3 S4 SS1/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a primary method of collecting data?",
+      options: [
+        "Reading a storybook",
+        "Watching a movie",
+        "Using a questionnaire",
+        "Drawing a picture"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Questionnaires are a direct way to collect raw data from people.",
+    ),
+    QuizQuestion(
+      question: "2. What is 'bias' in data collection?",
+      options: [
+        "Collecting data fast",
+        "An unfair influence",
+        "Using a calculator",
+        "Sorting by color"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Bias occurs when a method or question leads to an unfair or unrepresentative result.",
+    ),
+    QuizQuestion(
+      question:
+          r"3. In a stem-and-leaf plot, if the key says 1|5 = 15, what does 3|8 represent?",
+      options: ["11", "38", "83", "24"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Following the key, the stem 3 and leaf 8 combine to make 38.",
+    ),
+    QuizQuestion(
+      question: "4. Which feature is REQUIRED for a graph to be a histogram?",
+      options: [
+        "Bars must be colorful",
+        "Bars must have gaps",
+        "Bars must be touching",
+        "Bars must be circular"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Histograms represent continuous data, so the bars must touch to show the range.",
+    ),
+    QuizQuestion(
+      question:
+          '5. A survey asks: "How many hours do you sleep?" This is an example of:',
+      options: [
+        "Qualitative data",
+        "Quantitative data",
+        "Biased data",
+        "Invalid data"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Data involving numbers (like hours) is called quantitative data.",
+    ),
+    QuizQuestion(
+      question: "6. What is the frequency of a value in a data set?",
+      options: [
+        "How large the value is",
+        "How many times it occurs",
+        "The tens digit of value",
+        "The leaf of the value"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Frequency refers to the count of how many times a specific piece of data appears.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these questions is NOT biased?",
+      options: [
+        "Is blue your favorite?",
+        "Blue is best, right?",
+        "What is your favorite?",
+        "Why do you like blue?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          '"What is your favorite?" is neutral and does not lead the respondent to a specific answer.',
+    ),
+    QuizQuestion(
+      question:
+          '8. In a frequency table, what does the tally "||||/" represent?',
+      options: ["4", "5", "6", "10"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "A group of four marks with a diagonal strike represents five items.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If a stem-and-leaf plot has no leaves for stem 2, what does it mean?",
+      options: [
+        "The data is wrong",
+        "Stem 2 is invisible",
+        "No values in the 20s",
+        "All values are zero"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "An empty leaf section for a stem means there are no data points in that tens range.",
+    ),
+    QuizQuestion(
+      question: "10. Why is cultural sensitivity important in surveys?",
+      options: [
+        "To make surveys longer",
+        "To avoid offending people",
+        "To use more colors",
+        "To collect only names"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Sensitive questions ensure everyone can answer comfortably without feeling excluded or disrespected.",
+    ),
+    QuizQuestion(
+      question:
+          "11. A researcher asks 5 people at a taxi rank about transport. This sample size is:",
+      options: ["Too large", "Too small", "Perfect", "Irrelevant"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Five people is usually too small a group to represent the views of a whole population accurately.",
+    ),
+    QuizQuestion(
+      question: '12. The "Modal Class" in a histogram is identified by:',
+      options: [
+        "The widest bar",
+        "The shortest bar",
+        "The tallest bar",
+        "The first bar"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The tallest bar has the highest frequency, making it the mode (or modal class).",
+    ),
+    QuizQuestion(
+      question:
+          "13. Which method is best for counting cars passing a junction?",
+      options: ["Interview", "Questionnaire", "Observation", "Experiment"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "You can simply watch and record the cars as they pass without needing to talk to the drivers.",
+    ),
+    QuizQuestion(
+      question: "14. What is the first step in creating a stem-and-leaf plot?",
+      options: [
+        "Add the numbers",
+        "Order the raw data",
+        "Draw a circle",
+        "Multiply by ten"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ordering data from least to greatest makes it much easier to transfer to the plot correctly.",
+    ),
+    QuizQuestion(
+      question:
+          "15. If class intervals are 10–19 and 20–29, what is the class width?",
+      options: ["5", "9", "10", "20"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "The interval includes 10 values (10, 11, 12, 13, 14, 15, 16, 17, 18, 19).",
+    ),
+    QuizQuestion(
+      question: "16. Which of these is qualitative data?",
+      options: [
+        "Weight in kg",
+        "Height in cm",
+        "Favorite color",
+        "Number of pens"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Qualitative data describes qualities or categories rather than numerical measurements.",
+    ),
+    QuizQuestion(
+      question:
+          "17. What does the vertical axis (y-axis) usually show in a histogram?",
+      options: [
+        "Class intervals",
+        "The frequency",
+        "The stem values",
+        "The names of people"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The y-axis shows the frequency (how many), while the x-axis shows the data groups.",
+    ),
+    QuizQuestion(
+      question: '18. A "leading question" is a type of:',
+      options: [
+        "Good question",
+        "Random question",
+        "Biased question",
+        "Math question"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "It leads the person to a specific answer, which creates bias.",
+    ),
+    QuizQuestion(
+      question: "19. Which of these is a reason for bias in a survey?",
+      options: [
+        "Asking too many people",
+        "Asking at the wrong time",
+        "Using a pen to record",
+        "Sorting data alphabetically"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Timing can exclude certain groups (e.g., surveying workers during working hours).",
+    ),
+    QuizQuestion(
+      question: "20. When data is grouped, we lose:",
+      options: [
+        "The total count",
+        "The individual values",
+        "The frequency",
+        "The class width"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Once data is in a group (like 10–20), you can no longer see if a specific value was 12 or 15.",
+    ),
+  ],
+);
+final QuizModel MATHjhs3s4ss2QuizData = QuizModel(
+  audioPath: 'assets/audio/math/2. JHS3 S4 SS2/5. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the total number of outcomes for the second draw if you start with 12 items and do not replace the first?",
+      options: ["11", "12", "10", "13"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "12 - 1 = 11.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A bag has 3 blue and 2 white balls. What is the probability of picking a blue ball first?",
+      options: [r"\frac{1}{5}", r"\frac{2}{5}", r"\frac{3}{5}", r"\frac{3}{2}"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "3 favorable outcomes out of 5 total.",
+    ),
+    QuizQuestion(
+      question:
+          "3. After picking a blue ball from the bag in Question 2, how many balls remain?",
+      options: ["3", "4", "5", "2"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "5 - 1 = 4.",
+    ),
+    QuizQuestion(
+      question: "4. Express a probability of 0.5 as a percentage.",
+      options: ["5%", "50%", "0.5%", "500%"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "0.5 × 100 = 50.",
+    ),
+    QuizQuestion(
+      question:
+          r"5. If P(A)=\frac{1}{2} and P(B|A)=\frac{1}{3}, what is P(A and B)?",
+      options: [r"\frac{1}{6}", r"\frac{2}{5}", r"\frac{2}{3}", r"\frac{1}{5}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: r"\frac{1}{2} \times \frac{1}{3} = \frac{1}{6}.",
+    ),
+    QuizQuestion(
+      question:
+          "6. In a deck of 52 cards, what happens to the total if you draw an Ace and do not replace it?",
+      options: [
+        "It stays 52",
+        "It becomes 51",
+        "It becomes 50",
+        "It becomes 48"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "One card is removed, so 51 remain.",
+    ),
+    QuizQuestion(
+      question: r"7. A probability of \frac{3}{10} is what as a decimal?",
+      options: ["0.03", "0.33", "0.30", "3.00"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "3 ÷ 10 = 0.3.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Kofi has 4 red and 2 black pens. If he picks a red one and keeps it, what is the new probability of red?",
+      options: [r"\frac{3}{5}", r"\frac{4}{5}", r"\frac{3}{6}", r"\frac{2}{5}"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "3 red left out of 5 total.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is NOT a way to express probability?",
+      options: ["Fraction", "Percentage", "Decimal", "Negative"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Probability must be between 0 and 1.",
+    ),
+    QuizQuestion(
+      question:
+          r"10. If a tree diagram branch shows \frac{4}{9}, what was likely the original total?",
+      options: ["8", "10", "9", "11"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The denominator usually drops by 1 after one pick, so it likely started at 10.",
+    ),
+    QuizQuestion(
+      question:
+          "11. A jar has 7 sweets. 2 are mint. If one mint is eaten, what is the chance the next is mint?",
+      options: [r"\frac{1}{7}", r"\frac{1}{6}", r"\frac{2}{6}", r"\frac{0}{6}"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "1 mint left out of 6 sweets total.",
+    ),
+    QuizQuestion(
+      question: r"12. What is \frac{1}{5} as a decimal?",
+      options: ["0.1", "0.2", "0.5", "0.4"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "1 ÷ 5 = 0.2.",
+    ),
+    QuizQuestion(
+      question: '13. Calculating "Probability Without Replacement" deals with:',
+      options: [
+        "Independent events",
+        "Dependent events",
+        "Certain events",
+        "Impossible events"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Without replacement, the second event depends on the first.",
+    ),
+    QuizQuestion(
+      question:
+          "14. To find the probability of a specific path in a tree diagram, you:",
+      options: [
+        "Add probabilities",
+        "Multiply probabilities",
+        "Subtract them",
+        "Divide them"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Multiply the probabilities along the branches.",
+    ),
+    QuizQuestion(
+      question: "15. If the probability of an event is 100%, it is:",
+      options: ["Impossible", "Likely", "Certain", "Unlikely"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "100% means the event must happen.",
+    ),
+    QuizQuestion(
+      question:
+          r"16. A bag has 2 red and 2 blue tops. P(Red then Red) without replacement is:",
+      options: [r"\frac{1}{6}", r"\frac{2}{4}", r"\frac{1}{4}", r"\frac{2}{6}"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          r"\(\frac{2}{4} \times \frac{1}{3} = \frac{2}{12} = \frac{1}{6}\).",
+    ),
+    QuizQuestion(
+      question:
+          r"17. If you have a \frac{1}{10} chance, how many times is it likely in 100 trials?",
+      options: ["10", "20", "50", "1"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "0.1 × 100 = 10.",
+    ),
+    QuizQuestion(
+      question:
+          "18. What is the denominator for the third pick if you start with 20 and do not replace?",
+      options: ["19", "18", "17", "20"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "20 → 19 → 18.",
+    ),
+    QuizQuestion(
+      question: '19. A "fair" coin has what probability of landing Heads?',
+      options: ["50%", "25%", "75%", "10%"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A fair coin gives equal chance to heads and tails.",
+    ),
+    QuizQuestion(
+      question:
+          r"20. If P(Event) = 0.75, what is the chance it will NOT happen?",
+      options: ["0.25", "0.50", "0.75", "1.00"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "1 - 0.75 = 0.25.",
     ),
   ],
 );
