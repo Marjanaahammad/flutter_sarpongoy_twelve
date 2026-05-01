@@ -38,8 +38,9 @@ class SidebarController extends GetxController {
     for (var strand in course.strands) {
       for (var subStrand in strand.subStrands) {
         totalLessons += subStrand.lessons.length;
-        completedLessons +=
-            subStrand.lessons.where((l) => l.isCompleted).length;
+        completedLessons += subStrand.lessons
+            .where((l) => l.isCompleted)
+            .length;
       }
     }
     if (totalLessons == 0) return 0.0;
@@ -218,8 +219,7 @@ class SidebarController extends GetxController {
     for (int c = 0; c < courses.length; c++) {
       final course = courses[c];
       final List<Strand> updatedStrands = [];
-      for (int s = 0; s < course.strands.length; s++) {
-        final strand = course.strands[s];
+      for (var strand in course.strands) {
         final List<SubStrand> updatedSubStrands = [];
         bool allLessonsInStrandCompleted = true;
 
@@ -265,10 +265,11 @@ class SidebarController extends GetxController {
               practiceScoreStr = "$percentage%";
 
               if (independent.originalScore != null) {
-                int originalPercentage = ((independent.originalScore! /
-                            independent.totalQuestions!) *
-                        100)
-                    .round();
+                int originalPercentage =
+                    ((independent.originalScore! /
+                                independent.totalQuestions!) *
+                            100)
+                        .round();
                 practiceOriginalScoreStr = "$originalPercentage%";
               }
             }
@@ -279,8 +280,8 @@ class SidebarController extends GetxController {
                 quiz.score != null &&
                 quiz.totalQuestions != null &&
                 quiz.totalQuestions! > 0) {
-              int percentage =
-                  ((quiz.score! / quiz.totalQuestions!) * 100).round();
+              int percentage = ((quiz.score! / quiz.totalQuestions!) * 100)
+                  .round();
               quizScoreStr = "$percentage%";
 
               if (quiz.originalScore != null) {
@@ -292,7 +293,8 @@ class SidebarController extends GetxController {
             }
 
             // A lesson is completed if all contents and quiz are done
-            final isLessonCompleted = getReady != null &&
+            final isLessonCompleted =
+                getReady != null &&
                 learn != null &&
                 practice != null &&
                 independent != null &&
@@ -301,25 +303,27 @@ class SidebarController extends GetxController {
               allLessonsInStrandCompleted = false;
             }
 
-            // Locking logic removed - all lessons are unlocked
-            bool isLocked = s != 0; // Only unlock the first strand (Strand 1)
+            // Lock all strands except the first one
+            final bool isLocked = updatedStrands.isNotEmpty;
 
             updatedLessons.add(
               lesson.copyWith(
                 getReadyDoneDate: getReady != null
                     ? dateFormat.format(getReady.lastUpdated)
                     : null,
-                learnDoneDate:
-                    learn != null ? dateFormat.format(learn.lastUpdated) : null,
+                learnDoneDate: learn != null
+                    ? dateFormat.format(learn.lastUpdated)
+                    : null,
                 practiceDoneDate: independent != null
                     ? dateFormat.format(independent.lastUpdated)
                     : (practice != null
-                        ? dateFormat.format(practice.lastUpdated)
-                        : null),
+                          ? dateFormat.format(practice.lastUpdated)
+                          : null),
                 practiceScore: practiceScoreStr,
                 practiceOriginalScore: practiceOriginalScoreStr,
-                quizDoneDate:
-                    quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
+                quizDoneDate: quiz != null
+                    ? dateFormat.format(quiz.lastUpdated)
+                    : null,
                 quizScore: quizScoreStr,
                 quizOriginalScore: quizOriginalScoreStr,
                 courseName: course.title,
@@ -338,7 +342,8 @@ class SidebarController extends GetxController {
         updatedStrands.add(
           strand.copyWith(
             subStrands: updatedSubStrands,
-            isLocked: s != 0, // Only unlock the first strand (Strand 1)
+            isCompleted: allLessonsInStrandCompleted,
+            isLocked: updatedStrands.isNotEmpty,
           ),
         );
 
@@ -418,8 +423,9 @@ class SidebarController extends GetxController {
         .toList();
 
     // Practice
-    final practiceRecords =
-        courseProgress.where((p) => p.activityType == 'independent').toList();
+    final practiceRecords = courseProgress
+        .where((p) => p.activityType == 'independent')
+        .toList();
     int practiceTotal = 0;
     int practiceCorrect = 0;
     for (var p in practiceRecords) {
@@ -428,8 +434,9 @@ class SidebarController extends GetxController {
     }
 
     // Quiz
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     int quizTotal = 0;
     int quizCorrect = 0;
     for (var p in quizRecords) {
@@ -454,8 +461,9 @@ class SidebarController extends GetxController {
     String practicePercent = practiceTotal > 0
         ? "${((practiceCorrect / practiceTotal) * 100).round()}%"
         : "0%";
-    String quizPercent =
-        quizTotal > 0 ? "${((quizCorrect / quizTotal) * 100).round()}%" : "0%";
+    String quizPercent = quizTotal > 0
+        ? "${((quizCorrect / quizTotal) * 100).round()}%"
+        : "0%";
 
     return {
       "practice": practicePercent,
@@ -518,8 +526,9 @@ class SidebarController extends GetxController {
     final activityCount = courseProgress.length;
 
     // Quiz Score
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     double avgQuizScore = 0;
     if (quizRecords.isNotEmpty) {
       double totalPercent = 0;
@@ -627,8 +636,9 @@ class SidebarController extends GetxController {
           .toList();
 
       final count = dayProgress.length;
-      final quizRecords =
-          dayProgress.where((p) => p.activityType == 'quiz').toList();
+      final quizRecords = dayProgress
+          .where((p) => p.activityType == 'quiz')
+          .toList();
       double score = 0;
       if (quizRecords.isNotEmpty) {
         double total = 0;
@@ -721,10 +731,12 @@ class SidebarController extends GetxController {
                 "Determiners",
               ],
             },
+
             {
               "subtitle": "PUNCTUATION AND CAPITALISATION",
               "topics": ["USING PUNCTUATION MARKS", "CAPITALISATION RULES"],
             },
+
             {
               "subtitle": "VOCABULARY",
               "topics": [
@@ -792,7 +804,7 @@ class SidebarController extends GetxController {
                 "Classification of Materials",
                 "Importance of Liquids in the Life of Humans",
                 "Importance of Specific Solids to Life",
-                "The Orderly Arrangement of the Periodic Table"
+                "The Orderly Arrangement of the Periodic Table",
                 //"Classification of Objects",
               ],
             },
@@ -800,7 +812,7 @@ class SidebarController extends GetxController {
               "subtitle": "LIVING CELLS",
               "topics": [
                 "THE STRUCTURE AND FUNCTION OF ANIMAL CELLS",
-                "THE STRUCTURE AND FUNCTION OF PLANT CELLS"
+                "THE STRUCTURE AND FUNCTION OF PLANT CELLS",
                 //"Classification of Objects",
               ],
             },
@@ -878,13 +890,13 @@ class SidebarController extends GetxController {
             {
               "subtitle": "Fractions, Decimals and Percentages",
               "topics": [
-                "The Comprehensive Guide to Fractions, Decimals, and Percentages",
+                "Fractions, Decimals, and Percentages",
               ],
             },
             {
-              "subtitle": "Fractions, Decimals and Percentages",
+              "subtitle": "Number: Ratios and Proportion",
               "topics": [
-                "The Comprehensive Guide to Fractions, Decimals, and Percentages",
+                "Multi-Step Ratio and Proportional Relationships",
               ],
             },
           ],
@@ -911,9 +923,7 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "Shape and Space",
-              "topics": [
-                "THE ARCHITECTURE OF ANGLES",
-              ],
+              "topics": ["THE ARCHITECTURE OF ANGLES"],
             },
             {
               "subtitle": "Measurement",
@@ -923,9 +933,7 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "Position and Transformation",
-              "topics": [
-                "The Complete Guide to Transformation",
-              ],
+              "topics": ["The Complete Guide to Transformation"],
             },
           ],
         },
@@ -934,15 +942,11 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "Data",
-              "topics": [
-                "Comprehensive Sub-strand Review (The Data Cycle)",
-              ],
+              "topics": ["Comprehensive Sub-strand Review (The Data Cycle)"],
             },
             {
               "subtitle": "Chance or Probability",
-              "topics": [
-                "The Power of Probability",
-              ],
+              "topics": ["The Power of Probability"],
             },
           ],
         },
@@ -1056,6 +1060,7 @@ class SidebarController extends GetxController {
                 "Explain the Significance of Prayer",
               ],
             },
+
             {
               "subtitle": "RELIGIOUS SONGS AND RECITATIONS",
               "topics": [
@@ -1104,6 +1109,7 @@ class SidebarController extends GetxController {
                 "Religious Teachings on Manners, Decency, and Chastity",
               ],
             },
+
             {
               "subtitle": "SUBSTANCE ABUSE",
               "topics": [
@@ -1137,16 +1143,16 @@ class SidebarController extends GetxController {
           "subtitle": "ORAL LANGUAGE",
           "subStrands": [
             {
-              "subtitle": "ADVANCED CONVERSATION",
-              "topics": ["Formal Presentations", "Debating Skills"],
+              "subtitle": "CONVERSATION AND EVERYDAY DISCOURSE",
+              "topics": ["EFFECTIVE TURN-TAKING IN CONVERSATION", "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)", "ELABORATING IN CONVERSATION", "DESCRIBING FAMILIAR PLACES AND EVENTS", "GIVING AND FOLLOWING COMPLEX DIRECTIONS"],
             },
             {
-              "subtitle": "CRITICAL LISTENING",
-              "topics": ["Detecting Bias", "Analyzing Arguments"],
+              "subtitle": "LISTENING COMPREHENSION",
+              "topics": ["Identifying Key Information in Dialogues", "Sharing Opinions and Discussing Ideas"],
             },
             {
-              "subtitle": "PRONUNCIATION",
-              "topics": ["Stress and Intonation"],
+              "subtitle": "ENGLISH SOUNDS",
+              "topics": ["MASTERING PLOSIVE CONSONANTS", "MASTERING FRICATIVE CONSONANTS", "NASALS AND AFFRICATES"],
             },
           ],
         },
@@ -1192,8 +1198,12 @@ class SidebarController extends GetxController {
           "subtitle": "DIVERSITY OF MATTER",
           "subStrands": [
             {
-              "subtitle": "Elements and Compounds",
-              "topics": ["Periodic Table Overview", "Chemical Bonding"],
+              "subtitle": "MATERIALS",
+              "topics": ["Types of mixtures and their characteristics", "SEPARATING MIXTURES (PHYSICAL PROCESSES)","ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES", "THE PERIODIC TABLE AND ELECTRON CONFIGURATION"],
+            },
+            {
+              "subtitle": "LIVING CELLS",
+              "topics": ["Structure of Prokaryotic and Eukaryotic Cells", "Classifying Organisms and Impact on Human Health"],
             },
           ],
         },
@@ -1249,7 +1259,7 @@ class SidebarController extends GetxController {
             {
               "subtitle": "Fractions, Decimals and Percentages",
               "topics": [
-                "Comprehensive Mastery of Fractions (Extended Edition)"
+                "Comprehensive Mastery of Fractions (Extended Edition)",
               ],
             },
             {
@@ -1302,7 +1312,7 @@ class SidebarController extends GetxController {
             {
               "subtitle": "CHANCE OR PROBABILITY",
               "topics": [
-                "Mastering Independent Events and Probability (Extended Edition)"
+                "Mastering Independent Events and Probability (Extended Edition)",
               ],
             },
           ],
@@ -1316,7 +1326,7 @@ class SidebarController extends GetxController {
               "subtitle": "ENVIRONMENTAL ISSUES",
               "topics": [
                 "Examining Water Pollution as an Environmental Challenge",
-                "Examining the Means of Conserving Energy"
+                "Examining the Means of Conserving Energy",
               ],
             },
             {
@@ -1326,7 +1336,7 @@ class SidebarController extends GetxController {
             {
               "subtitle": "UNDERSTANDING OUR NATURAL WORLD",
               "topics": [
-                "Assess the significance of weather and climate to the environment"
+                "Assess the significance of weather and climate to the environment",
               ],
             },
           ],
@@ -1338,14 +1348,12 @@ class SidebarController extends GetxController {
               "subtitle": "THE FAMILY",
               "topics": [
                 "Composition and Functions of the Nuclear and Extended Families",
-                "Issues of Inheritance in Ghana"
+                "Issues of Inheritance in Ghana",
               ],
             },
             {
               "subtitle": "POPULATION",
-              "topics": [
-                "Comparing Population Structures",
-              ]
+              "topics": ["Comparing Population Structures"],
             },
           ],
         },
@@ -1356,7 +1364,7 @@ class SidebarController extends GetxController {
               "subtitle": "THE INDIVIDUAL AND THE COMMUNITY",
               "topics": [
                 "THE ROLE OF THE INDIVIDUAL IN THE COMMUNITY",
-                "VOLUNTEERISM AND COMMUNITY DEVELOPMENT"
+                "VOLUNTEERISM AND COMMUNITY DEVELOPMENT",
               ],
             },
           ],
@@ -1397,8 +1405,8 @@ class SidebarController extends GetxController {
                 "Political developments under the first republic",
                 "How the Second Republic Came into Being",
                 "Political developments under the second republic",
-              ]
-            }
+              ],
+            },
           ],
         },
       ],
@@ -1483,6 +1491,7 @@ class SidebarController extends GetxController {
                 "The SSNIT Pension Scheme",
               ],
             },
+
             {
               "subtitle": "BRIBERY AND CORRUPTION",
               "topics": [
@@ -1501,8 +1510,14 @@ class SidebarController extends GetxController {
           "subtitle": "ORAL LANGUAGE",
           "subStrands": [
             {
-              "subtitle": "Advanced Speech",
-              "topics": ["Public Speaking"],
+              "subtitle": "CONVERSATION AND EVERYDAY DISCOURSE",
+              "topics": ["MASTERING REGISTER AND OPEN QUESTIONS", "THE ART OF ARGUMENT AND DEBATING"],
+            },{
+              "subtitle": "LISTENING COMPREHENSION",
+              "topics": ["ANALYSING AUDIO-VISUAL TEXTS AND DISCUSSIONS", ],
+            },{
+              "subtitle": "ENGLISH SOUNDS",
+              "topics": ["MASTERING /r/, /l/, AND CONSONANT CLUSTERS", "CHOOSING THE RIGHT WORDS" ],
             },
           ],
         },
@@ -1539,8 +1554,11 @@ class SidebarController extends GetxController {
           "subtitle": "DIVERSITY OF MATTER",
           "subStrands": [
             {
-              "subtitle": "Acids & Bases",
-              "topics": ["pH Scale"],
+              "subtitle": "MATERIALS",
+              "topics": ["Introduction to Binary Compounds", "THE FORMATION OF BINARY COMPOUNDS", "CHARACTERISTICS OF ACIDS, BASES, AND SALTS", "ATOMIC BONDING IN CHEMICAL COMPOUNDS"],
+            },{
+              "subtitle": "LIVING CELLS",
+              "topics": ["Concepts and Formation of Specialised Cells", "Functions of Specialised Plant Cells", "Functions of Specialised Animal Cells"],
             },
           ],
         },
@@ -1588,7 +1606,7 @@ class SidebarController extends GetxController {
             {
               "subtitle": "Number and Numeration System",
               "topics": [
-                "Significant Figures, Standard Form, and the Rational Number System"
+                "Significant Figures, Standard Form, and the Rational Number System",
               ],
             },
             {
@@ -1661,14 +1679,14 @@ class SidebarController extends GetxController {
               "subtitle": "ENVIRONMENTAL ISSUES",
               "topics": [
                 "Examine air pollution as an environmental challenge",
-                "Assess global sources and the means of conserving energy"
+                "Assess global sources and the means of conserving energy",
               ],
             },
             {
               "subtitle": "OUR NATURAL AND HUMAN RESOURCES",
               "topics": [
                 "Examining the Importance of Natural Resources to the Development of Ghana",
-                "Evaluating the Importance of Human Resources to the Development of Ghana"
+                "Evaluating the Importance of Human Resources to the Development of Ghana",
               ],
             },
           ],
@@ -1680,7 +1698,7 @@ class SidebarController extends GetxController {
               "subtitle": "THE FAMILY",
               "topics": [
                 "Marriage as a Social Institution in Ghana",
-                "Responsible Parenting within the Family System"
+                "Responsible Parenting within the Family System",
               ],
             },
             {
@@ -1705,7 +1723,7 @@ class SidebarController extends GetxController {
               "subtitle": "THE 1992 CONSTITUTION",
               "topics": [
                 "Examining the 1992 Constitution and its Significance",
-                "The Rights and Responsibilities of the Child"
+                "The Rights and Responsibilities of the Child",
               ],
             },
             {
@@ -1717,7 +1735,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Elections, Democracy, and Political Stability",
                 "The Role of the District Assembly in Promoting Decentralisation",
-                "The Significance of Political Stability in National Development"
+                "The Significance of Political Stability in National Development",
               ],
             },
           ],
@@ -1744,9 +1762,9 @@ class SidebarController extends GetxController {
                 "How the Third Republic Came into Being (1979–1981)",
                 "Political Developments under the Third Republic",
                 "How the Fourth Republic Came into Being",
-                "Political Developments under the Fourth Republic"
+                "Political Developments under the Fourth Republic",
               ],
-            }
+            },
           ],
         },
       ],
@@ -1842,8 +1860,8 @@ class SidebarController extends GetxController {
     final strandsData = grade == "JHS 2"
         ? (jhs2CourseData[courseTitle] ?? jhs2CourseData["English"]!)
         : grade == "JHS 3"
-            ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
-            : (courseData[courseTitle] ?? courseData["English"]!);
+        ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
+        : (courseData[courseTitle] ?? courseData["English"]!);
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
@@ -4222,6 +4240,18 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
+    if (selectedCourse.value != null &&
+        index < selectedCourse.value!.strands.length &&
+        selectedCourse.value!.strands[index].isLocked) {
+      Get.snackbar(
+        "Locked",
+        "This strand is currently locked. Please focus on Strand 1.",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red.withOpacity(0.8),
+        colorText: Colors.white,
+      );
+      return;
+    }
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

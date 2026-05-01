@@ -219,14 +219,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 children: [
                   Expanded(
                     child: _statCard(
-                      student!.averageScore.toString(),
+                      (student?.averageScore ?? 0).toString(),
                       "Average Score",
                     ),
                   ),
                   const SizedBox(width: 12),
                   Expanded(
                     child: _statCard(
-                      (student.totalNumberOfMinutes / 60).toStringAsFixed(0),
+                      ((student?.totalNumberOfMinutes ?? 0) / 60)
+                          .toStringAsFixed(0),
                       "Total Number of Hours",
                     ),
                   ),

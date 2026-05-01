@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:dartz/dartz.dart';
 import 'package:flutter_sarpongoy_twelve/core/api/api_client.dart';
 import 'package:flutter_sarpongoy_twelve/core/common/models/network_failure.dart';
@@ -16,8 +14,7 @@ class SyncRepoImpl implements SyncRepo {
   SyncRepoImpl({required ApiClient apiClient}) : _apiClient = apiClient;
 
   @override
-  NetworkResult<void> syncStudentActivities(
-      Map<String, dynamic> payload) async {
+  NetworkResult<void> syncStudentActivities(Map<String, dynamic> payload) async {
     return _apiClient.post(
       endpoint: ApiConstants.sync.syncStudentActivities,
       data: payload,

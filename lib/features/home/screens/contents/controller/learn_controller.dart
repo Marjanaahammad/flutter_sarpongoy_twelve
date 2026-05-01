@@ -46,7 +46,8 @@ class LearnController extends GetxController {
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
   bool get isCurrentPartFinished {
-    return true; // Always unlocked
+    final idx = currentPartIndex.value;
+    return isPartFinishedInSession[idx] || isPartCompleted[idx];
   }
 
   // ── Initialisation ───────────────────────────────────────────────────────────
@@ -77,9 +78,9 @@ class LearnController extends GetxController {
 
     _loadExistingProgress();
     if (currentPart.videoPath != null) {
-      loadVideo(currentPart.videoPath!, delayMs: 0);
+      loadVideo(currentPart.videoPath!, delayMs: 3500);
     } else {
-      loadAudio(currentPart.audioPath, delayMs: 0);
+      loadAudio(currentPart.audioPath, delayMs: 3500);
     }
   }
 
@@ -123,7 +124,8 @@ class LearnController extends GetxController {
       await _progressRepo.saveProgress(progress);
       Get.find<SidebarController>().loadActualProgress();
       debugPrint(
-          'Learn progress saved for ${_subActivityKey(index)}: $completed');
+        'Learn progress saved for ${_subActivityKey(index)}: $completed',
+      );
     } catch (e) {
       debugPrint('Error saving learn progress: $e');
     }
@@ -181,7 +183,8 @@ class LearnController extends GetxController {
               videoController!.value.duration -
                   const Duration(milliseconds: 500)) {
         debugPrint(
-            'Learn video reported completion but position is not at end. Ignoring.');
+          'Learn video reported completion but position is not at end. Ignoring.',
+        );
         return;
       }
     } else {
@@ -190,7 +193,8 @@ class LearnController extends GetxController {
           (_player.duration ?? Duration.zero) -
               const Duration(milliseconds: 500)) {
         debugPrint(
-            'Learn audio reported completion but position is not at end. Ignoring.');
+          'Learn audio reported completion but position is not at end. Ignoring.',
+        );
         return;
       }
     }

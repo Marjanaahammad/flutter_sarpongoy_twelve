@@ -81,8 +81,7 @@ class SyncService extends GetxService {
         // We had a since-date but got 0 records — the stored date may be stale/invalid.
         // Clear it so the next launch re-fetches everything from scratch.
         await db.deleteSetting(KeyConstants.lastSyncedDate);
-        DPrint.log(
-            'No records returned for since=$since — cleared last_synced_date for full re-fetch next launch.');
+        DPrint.log('No records returned for since=$since — cleared last_synced_date for full re-fetch next launch.');
       } else {
         DPrint.log('Pull sync complete. No new records from backend.');
       }
@@ -144,10 +143,9 @@ class SyncService extends GetxService {
     return {
       'timestamp': DateTime.now().toIso8601String(),
       'grade_name': Get.find<SidebarController>().selectedGrade.value,
-      'activityMinutes': hoursData[
-          'activityMinutes'], // total study minutes across all subjects
-      'subject_minutes':
-          hoursData['subject_minutes'], // per-subject minutes breakdown
+      'activityMinutes':
+          hoursData['activityMinutes'], // total study minutes across all subjects
+      'subject_minutes': hoursData['subject_minutes'], // per-subject minutes breakdown
       'progress_data': progress.map((p) => p.toMap()).toList(),
     };
   }

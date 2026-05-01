@@ -21,16 +21,15 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
     super.initState();
     Get.delete<IndependentController>();
     controller = Get.put(
-      IndependentController()
-        ..initData(
-          widget.lesson.independentPractice,
-          widget.lesson.topic,
-          course: widget.lesson.courseName,
-          strand: widget.lesson.strandName,
-          subStrand: widget.lesson.subStrandName,
-          number: widget.lesson.lessonNumber,
-          grade: widget.lesson.gradeName,
-        ),
+      IndependentController()..initData(
+        widget.lesson.independentPractice,
+        widget.lesson.topic,
+        course: widget.lesson.courseName,
+        strand: widget.lesson.strandName,
+        subStrand: widget.lesson.subStrandName,
+        number: widget.lesson.lessonNumber,
+        grade: widget.lesson.gradeName,
+      ),
     );
   }
 
@@ -47,44 +46,45 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
                 return Center(
                   child: Padding(
                     padding: const EdgeInsets.all(18.0),
-                    child: Container(
-                      height: 200,
-                      width: double.infinity,
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 40,
-                        vertical: 20,
-                      ),
-                      decoration: BoxDecoration(
-                        color: const Color(0xFF6060E8),
-                        borderRadius: BorderRadius.circular(10),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.2),
-                            blurRadius: 10,
-                            offset: const Offset(0, 5),
-                          ),
-                        ],
-                      ),
-                      child: Center(
-                        child: const Text(
-                          "Independent Practice",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                    )
-                        .animate()
-                        .slideX(
-                          begin: -1,
-                          end: 0,
-                          duration: 800.ms,
-                          curve: Curves.easeOutCubic,
-                        )
-                        .fadeIn(),
+                    child:
+                        Container(
+                              height: 200,
+                              width: double.infinity,
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 40,
+                                vertical: 20,
+                              ),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFF6060E8),
+                                borderRadius: BorderRadius.circular(10),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.2),
+                                    blurRadius: 10,
+                                    offset: const Offset(0, 5),
+                                  ),
+                                ],
+                              ),
+                              child: Center(
+                                child: const Text(
+                                  "Independent Practice",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontSize: 32,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            )
+                            .animate()
+                            .slideX(
+                              begin: -1,
+                              end: 0,
+                              duration: 800.ms,
+                              curve: Curves.easeOutCubic,
+                            )
+                            .fadeIn(),
                   ),
                 );
               }
@@ -154,22 +154,25 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
                                     decoration: BoxDecoration(
                                       color: controller.isRevealState.value
                                           ? (index == question.correctIndex
-                                              ? Colors.green.shade200
-                                              : null)
+                                                ? Colors.green.shade200
+                                                : null)
                                           : (isIncorrect
-                                              ? const Color(0xFFDBDEDD)
-                                              : (isSelected
-                                                  ? (controller.isChecked.value
+                                                ? const Color(0xFFDBDEDD)
+                                                : (isSelected
                                                       ? (controller
-                                                              .isCorrectState
-                                                              .value
-                                                          ? Colors
-                                                              .green.shade100
-                                                          : Colors.red)
-                                                      : const Color(
-                                                          0xFFFFC85D,
-                                                        ))
-                                                  : null)),
+                                                                .isChecked
+                                                                .value
+                                                            ? (controller
+                                                                      .isCorrectState
+                                                                      .value
+                                                                  ? Colors
+                                                                        .green
+                                                                        .shade100
+                                                                  : Colors.red)
+                                                            : const Color(
+                                                                0xFFFFC85D,
+                                                              ))
+                                                      : null)),
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     child: Row(
@@ -179,39 +182,40 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
                                           width: 85,
                                           alignment: Alignment.center,
                                           decoration: BoxDecoration(
-                                            color: controller
-                                                    .isRevealState.value
+                                            color:
+                                                controller.isRevealState.value
                                                 ? (index ==
-                                                        question.correctIndex
-                                                    ? Colors.white
-                                                    : const Color(0xFF3F6DA8))
+                                                          question.correctIndex
+                                                      ? Colors.white
+                                                      : const Color(0xFF3F6DA8))
                                                 : (isSelected
-                                                    ? Colors.white
-                                                    : const Color(
-                                                        0xFF3F6DA8,
-                                                      )),
+                                                      ? Colors.white
+                                                      : const Color(
+                                                          0xFF3F6DA8,
+                                                        )),
                                             shape: BoxShape.circle,
                                           ),
                                           child: _buildFormattedText(
                                             letter,
                                             style: TextStyle(
-                                              color: controller
-                                                      .isRevealState.value
+                                              color:
+                                                  controller.isRevealState.value
                                                   ? (index ==
-                                                          question.correctIndex
-                                                      ? const Color(
-                                                          0xFF3F6DA8,
-                                                        )
-                                                      : const Color(
-                                                          0xFFDDF2F9,
-                                                        ))
+                                                            question
+                                                                .correctIndex
+                                                        ? const Color(
+                                                            0xFF3F6DA8,
+                                                          )
+                                                        : const Color(
+                                                            0xFFDDF2F9,
+                                                          ))
                                                   : (isSelected
-                                                      ? const Color(
-                                                          0xFF3F6DA8,
-                                                        )
-                                                      : const Color(
-                                                          0xFFDDF2F9,
-                                                        )),
+                                                        ? const Color(
+                                                            0xFF3F6DA8,
+                                                          )
+                                                        : const Color(
+                                                            0xFFDDF2F9,
+                                                          )),
                                               fontSize: 50,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -689,7 +693,8 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
       String part = match.group(0)!;
       bool isEnvironment = match.group(1) != null;
 
-      bool isMath = isEnvironment ||
+      bool isMath =
+          isEnvironment ||
           part.contains('^') ||
           part.contains('\\') ||
           part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
@@ -717,7 +722,8 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
           String unicodeWord = _convertToUnicodeMath(part);
 
           // Check if it still contains complex LaTeX characters
-          bool isComplex = unicodeWord.contains('\\') ||
+          bool isComplex =
+              unicodeWord.contains('\\') ||
               unicodeWord.contains('{') ||
               unicodeWord.contains('}') ||
               unicodeWord.contains('_');

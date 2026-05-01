@@ -16,37 +16,42 @@ class ChapterOverviewContent extends StatelessWidget {
       //mainAxisAlignment: MainAxisAlignment.center, // keeps content centered
       children: [
         Padding(
-          padding: const EdgeInsets.only(top: 100),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(10),
-            child: Image.asset(
-              controller.model.overviewImagePath,
-              width: MediaQuery.of(context).size.width,
-              //height: 650,
-              fit: BoxFit.cover, // shows full image
-            ),
-          ),
-        )
+              padding: const EdgeInsets.only(top: 100),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.asset(
+                  controller.model.overviewImagePath,
+                  width: MediaQuery.of(context).size.width,
+                  //height: 650,
+                  fit: BoxFit.cover, // shows full image
+                ),
+              ),
+            )
             .animate()
             .fadeIn(duration: 2000.ms)
             .slideX(begin: 1, end: 0, curve: Curves.easeOutCubic),
+
         const SizedBox(height: 50),
+
         Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            PlayAudio(controller: controller),
-            const SizedBox(width: 40),
-            Obx(() => next_button(
-                  isEnabled: controller.isOverviewFinishedInSession.value ||
-                      controller.isOverviewCompleted.value,
-                  onTap: () {
-                    controller.goToHook();
-                  },
-                )),
-          ],
-        )
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                PlayAudio(controller: controller),
+                const SizedBox(width: 40),
+                Obx(
+                  () => next_button(
+                    isEnabled:
+                        controller.isOverviewFinishedInSession.value ||
+                        controller.isOverviewCompleted.value,
+                    onTap: () {
+                      controller.goToHook();
+                    },
+                  ),
+                ),
+              ],
+            )
             .animate()
-            .fadeIn(duration: 1400.ms)
+            .fadeIn(delay: 2000.ms, duration: 1400.ms)
             .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
       ],
     );

@@ -41,11 +41,12 @@ class StrandScreen extends StatelessWidget {
                     subStrand.subtitle.toLowerCase().contains(query)) {
                   bool subStrandMatches =
                       subStrand.title.toLowerCase().contains(query) ||
-                          subStrand.subtitle.toLowerCase().contains(query);
+                      subStrand.subtitle.toLowerCase().contains(query);
 
                   return subStrand.copyWith(
-                    lessons:
-                        subStrandMatches ? subStrand.lessons : matchingLessons,
+                    lessons: subStrandMatches
+                        ? subStrand.lessons
+                        : matchingLessons,
                   );
                 }
                 return null;
@@ -203,7 +204,9 @@ class StrandScreen extends StatelessWidget {
               ),
             ),
           ),
+
           const SizedBox(width: 12),
+
           GetBuilder<ProfileController>(
             init: Get.find<ProfileController>(),
             builder: (controller) {
@@ -221,16 +224,17 @@ class StrandScreen extends StatelessWidget {
                       border: Border.all(color: Colors.grey.shade200),
                     ),
                     clipBehavior: Clip.hardEdge,
-                    child: student?.picture.url != null &&
+                    child:
+                        student?.picture.url != null &&
                             student!.picture.url.isNotEmpty
                         ? Image.network(
                             student.picture.url,
                             fit: BoxFit.contain,
                             errorBuilder: (context, error, stackTrace) =>
                                 Image.asset(
-                              'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
-                              fit: BoxFit.contain,
-                            ),
+                                  'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
+                                  fit: BoxFit.contain,
+                                ),
                           )
                         : Icon(Icons.person_outline_rounded),
                   ),
@@ -238,6 +242,7 @@ class StrandScreen extends StatelessWidget {
               });
             },
           ),
+
           const SizedBox(width: 12),
         ],
       ),
@@ -440,6 +445,7 @@ class StrandScreen extends StatelessWidget {
                 ),
               ),
             ),
+
             _buildActivityCard(
               "TEACH",
               "Learn",
@@ -460,6 +466,7 @@ class StrandScreen extends StatelessWidget {
                 );
               },
             ),
+
             _buildActivityCard(
               "COMPLETE GUIDED PRACTICE",
               "Practice",
@@ -480,6 +487,7 @@ class StrandScreen extends StatelessWidget {
                 );
               },
             ),
+
             _buildActivityCard(
               "IMPROVE YOURSELF THROUGH QUIZ",
               "Quiz",
@@ -518,144 +526,153 @@ class StrandScreen extends StatelessWidget {
   ) {
     return Container(
       padding: const EdgeInsets.all(10),
-      foregroundDecoration: null,
       decoration: BoxDecoration(
         color: Color(0xFFFBFFF3),
         border: Border.all(color: Color(0xFFDADADA)),
         borderRadius: BorderRadius.circular(16),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Stack(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(
-                width: 112,
-                height: 33,
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 6,
-                ),
-                decoration: BoxDecoration(
-                  color: color,
-                  borderRadius: BorderRadius.circular(6),
-                  border: Border.all(color: borderColor, width: 1),
-                ),
-                child: Center(
-                  child: Text(
-                    type,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 15,
-                      fontWeight: FontWeight.bold,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    width: 112,
+                    height: 33,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 6,
+                    ),
+                    decoration: BoxDecoration(
+                      color: isLocked ? Colors.grey : color,
+                      borderRadius: BorderRadius.circular(6),
+                      border: Border.all(
+                        color: isLocked ? Colors.grey : borderColor,
+                        width: 1,
+                      ),
+                    ),
+                    child: Center(
+                      child: Text(
+                        type,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   ),
-                ),
-              ),
-              Icon(
-                Icons.check_circle,
-                color:
-                    ((type == "Get Ready" && lesson.getReadyDoneDate != null) ||
+                  Icon(
+                    Icons.check_circle,
+                    color: ((type == "Get Ready" && lesson.getReadyDoneDate != null) ||
                             (type == "Learn" && lesson.learnDoneDate != null) ||
-                            (type == "Practice" &&
-                                lesson.practiceDoneDate != null) ||
+                            (type == "Practice" && lesson.practiceDoneDate != null) ||
                             (type == "Quiz" && lesson.quizDoneDate != null)
                         ? const Color(0xFF019E2E)
                         : Colors.grey.shade300),
-                size: 25,
+                    size: 25,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              if (type == "Get Ready" && lesson.getReadyDoneDate != null)
+                _buildDoneRow(lesson.getReadyDoneDate!),
+              if (type == "Learn" && lesson.learnDoneDate != null)
+                _buildDoneRow(lesson.learnDoneDate!),
+              if (type == "Practice" && lesson.practiceDoneDate != null)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildDoneRow(lesson.practiceDoneDate!),
+                    if (lesson.practiceOriginalScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "First Attempt Score : ",
+                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.practiceOriginalScore),
+                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                    if (lesson.practiceScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "Latest Score : ",
+                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.practiceScore),
+                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+              if (type == "Quiz" && lesson.quizDoneDate != null)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildDoneRow(lesson.quizDoneDate!),
+                    if (lesson.quizScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "First Attempt Score : ",
+                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.quizOriginalScore),
+                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                    if (lesson.quizScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "Latest Score : ",
+                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.quizScore),
+                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+              const Spacer(),
+              SizedBox(
+                width: double.infinity,
+                child: _buildButton(
+                  "Open Activity",
+                  Colors.white,
+                  onTap,
+                  isPrimary: true,
+                  isLocked: isLocked,
+                ),
               ),
             ],
           ),
-          const SizedBox(height: 12),
-          if (type == "Get Ready" && lesson.getReadyDoneDate != null)
-            _buildDoneRow(lesson.getReadyDoneDate!),
-          if (type == "Learn" && lesson.learnDoneDate != null)
-            _buildDoneRow(lesson.learnDoneDate!),
-          if (type == "Practice" && lesson.practiceDoneDate != null)
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _buildDoneRow(lesson.practiceDoneDate!),
-                if (lesson.practiceOriginalScore != null)
-                  Row(
-                    children: [
-                      Text(
-                        "First Attempt Score : ",
-                        style:
-                            const TextStyle(fontSize: 15, color: Colors.black),
-                      ),
-                      Text(
-                        _formatScore(lesson.practiceOriginalScore),
-                        style: const TextStyle(
-                            fontSize: 15, color: Color(0xFF3E3C3C)),
-                      ),
-                    ],
-                  ),
-                if (lesson.practiceScore != null)
-                  Row(
-                    children: [
-                      Text(
-                        "Latest Score : ",
-                        style:
-                            const TextStyle(fontSize: 15, color: Colors.black),
-                      ),
-                      Text(
-                        _formatScore(lesson.practiceScore),
-                        style: const TextStyle(
-                            fontSize: 15, color: Color(0xFF3E3C3C)),
-                      ),
-                    ],
-                  ),
-              ],
+          if (isLocked)
+            Positioned.fill(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.5),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: const Center(
+                  child: Icon(Icons.lock, color: Color(0xFF161483), size: 30),
+                ),
+              ),
             ),
-          if (type == "Quiz" && lesson.quizDoneDate != null)
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _buildDoneRow(lesson.quizDoneDate!),
-                if (lesson.quizScore != null)
-                  Row(
-                    children: [
-                      Text(
-                        "First Attempt Score : ",
-                        style:
-                            const TextStyle(fontSize: 15, color: Colors.black),
-                      ),
-                      Text(
-                        _formatScore(lesson.quizOriginalScore),
-                        style: const TextStyle(
-                            fontSize: 15, color: Color(0xFF3E3C3C)),
-                      ),
-                    ],
-                  ),
-                if (lesson.quizScore != null)
-                  Row(
-                    children: [
-                      Text(
-                        "Latest Score : ",
-                        style:
-                            const TextStyle(fontSize: 15, color: Colors.black),
-                      ),
-                      Text(
-                        _formatScore(lesson.quizScore),
-                        style: const TextStyle(
-                            fontSize: 15, color: Color(0xFF3E3C3C)),
-                      ),
-                    ],
-                  ),
-              ],
-            ),
-          const Spacer(),
-          SizedBox(
-            width: double.infinity,
-            child: _buildButton(
-              "Open Activity",
-              Colors.white,
-              onTap,
-              isPrimary: true,
-            ),
-          ),
         ],
       ),
     );
@@ -691,7 +708,7 @@ class StrandScreen extends StatelessWidget {
   String _formatScore(String? scoreStr) {
     if (scoreStr == null) return "0%";
     if (scoreStr.contains('%')) return scoreStr;
-
+    
     if (!scoreStr.contains('/')) return "0%";
     try {
       final parts = scoreStr.split('/');
@@ -711,24 +728,31 @@ class StrandScreen extends StatelessWidget {
     Color textColor,
     VoidCallback onTap, {
     required bool isPrimary,
+    bool isLocked = false,
   }) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: isLocked ? null : onTap,
       child: Container(
         height: 40,
         padding: const EdgeInsets.symmetric(vertical: 8),
         decoration: BoxDecoration(
-          gradient: isPrimary
+          gradient: isLocked
               ? const LinearGradient(
-                  colors: [Color(0xFF004FB0), Color(0xFF1A077A)],
+                  colors: [Color(0xFFBDBDBD), Color(0xFF9E9E9E)],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 )
-              : const LinearGradient(
-                  colors: [Color(0xFF2E6DBA), Color(0xFF5845C1)],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                ),
+              : (isPrimary
+                  ? const LinearGradient(
+                      colors: [Color(0xFF004FB0), Color(0xFF1A077A)],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    )
+                  : const LinearGradient(
+                      colors: [Color(0xFF2E6DBA), Color(0xFF5845C1)],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    )),
           borderRadius: BorderRadius.circular(8),
         ),
         child: Row(
@@ -737,13 +761,16 @@ class StrandScreen extends StatelessWidget {
             SizedBox(
               height: 16,
               width: 16,
-              child: Image.asset('assets/images/activity.png'),
+              child: Image.asset(
+                'assets/images/activity.png',
+                color: isLocked ? Colors.white54 : null,
+              ),
             ),
             const SizedBox(width: 10),
             Text(
               text,
               style: TextStyle(
-                color: textColor,
+                color: isLocked ? Colors.white70 : textColor,
                 fontSize: 10,
                 fontWeight: FontWeight.bold,
               ),

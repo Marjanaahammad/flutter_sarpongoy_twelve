@@ -102,20 +102,21 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                     ),
                                   ),
                                   clipBehavior: Clip.hardEdge,
-                                  child: student?.picture.url != null &&
+                                  child:
+                                      student?.picture.url != null &&
                                           student!.picture.url.isNotEmpty
                                       ? Image.network(
                                           student.picture.url,
                                           fit: BoxFit.contain,
-                                          errorBuilder: (
-                                            context,
-                                            error,
-                                            stackTrace,
-                                          ) =>
-                                              Image.asset(
-                                            'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
-                                            fit: BoxFit.contain,
-                                          ),
+                                          errorBuilder:
+                                              (
+                                                context,
+                                                error,
+                                                stackTrace,
+                                              ) => Image.asset(
+                                                'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
+                                                fit: BoxFit.contain,
+                                              ),
                                         )
                                       : Icon(Icons.person_outline_rounded),
                                 ),
@@ -259,7 +260,8 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                       child: DropdownButton<String>(
                                         dropdownColor: Colors.white,
                                         value: sidebarController
-                                            .selectedGrade.value,
+                                            .selectedGrade
+                                            .value,
                                         icon: const Icon(
                                           Icons.arrow_drop_down,
                                           color: Colors.black,
@@ -272,21 +274,24 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                         onChanged: (String? newValue) {
                                           if (newValue != null) {
                                             sidebarController
-                                                .selectedGrade.value = newValue;
+                                                    .selectedGrade
+                                                    .value =
+                                                newValue;
                                           }
                                         },
-                                        items: <String>[
-                                          'JHS 1',
-                                          'JHS 2',
-                                          'JHS 3',
-                                        ].map<DropdownMenuItem<String>>((
-                                          String value,
-                                        ) {
-                                          return DropdownMenuItem<String>(
-                                            value: value,
-                                            child: Text(value),
-                                          );
-                                        }).toList(),
+                                        items:
+                                            <String>[
+                                              'JHS 1',
+                                              'JHS 2',
+                                              'JHS 3',
+                                            ].map<DropdownMenuItem<String>>((
+                                              String value,
+                                            ) {
+                                              return DropdownMenuItem<String>(
+                                                value: value,
+                                                child: Text(value),
+                                              );
+                                            }).toList(),
                                       ),
                                     ),
                                   ),
@@ -360,15 +365,15 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                           _buildSubjectBar(
                                             sidebarController
                                                 .getSubjectProgress(
-                                              "Social Studies",
-                                            ),
+                                                  "Social Studies",
+                                                ),
                                             const Color(0xFFF97316),
                                           ),
                                           _buildSubjectBar(
                                             sidebarController
                                                 .getSubjectProgress(
-                                              "Religious & Moral Education",
-                                            ),
+                                                  "Religious & Moral Education",
+                                                ),
                                             const Color(0xFFEAB308),
                                           ),
                                         ],
@@ -533,7 +538,8 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                   child: DropdownButton<String>(
                                     dropdownColor: Colors.white,
                                     value: sidebarController
-                                        .selectedWeeklyWorkFilter.value,
+                                        .selectedWeeklyWorkFilter
+                                        .value,
                                     icon: const Icon(
                                       Icons.arrow_drop_down,
                                       color: Colors.black,
@@ -546,22 +552,24 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                     onChanged: (String? newValue) {
                                       if (newValue != null) {
                                         sidebarController
-                                            .selectedWeeklyWorkFilter
-                                            .value = newValue;
+                                                .selectedWeeklyWorkFilter
+                                                .value =
+                                            newValue;
                                       }
                                     },
-                                    items: <String>[
-                                      'Today',
-                                      'Weekly',
-                                      'Monthly',
-                                    ].map<DropdownMenuItem<String>>((
-                                      String value,
-                                    ) {
-                                      return DropdownMenuItem<String>(
-                                        value: value,
-                                        child: Text(value),
-                                      );
-                                    }).toList(),
+                                    items:
+                                        <String>[
+                                          'Today',
+                                          'Weekly',
+                                          'Monthly',
+                                        ].map<DropdownMenuItem<String>>((
+                                          String value,
+                                        ) {
+                                          return DropdownMenuItem<String>(
+                                            value: value,
+                                            child: Text(value),
+                                          );
+                                        }).toList(),
                                   ),
                                 ),
                               );
@@ -624,10 +632,10 @@ class _ProgressScreenState extends State<ProgressScreen> {
                         Obx(() {
                           final socialStats = sidebarController
                               .getWeeklyWorkData("Social Studies");
-                          final englishStats =
-                              sidebarController.getWeeklyWorkData("English");
-                          final scienceStats =
-                              sidebarController.getWeeklyWorkData("Science");
+                          final englishStats = sidebarController
+                              .getWeeklyWorkData("English");
+                          final scienceStats = sidebarController
+                              .getWeeklyWorkData("Science");
                           final rmeStats = sidebarController.getWeeklyWorkData(
                             "Religious & Moral Education",
                           );
@@ -929,148 +937,151 @@ class _ProgressScreenState extends State<ProgressScreen> {
     return GestureDetector(
       onTap: () {
         Get.to(() => SubjectChartScreen(
-              course: course,
-              subtitle: subtitle,
-              subjectColor: course.textColor,
-            ));
+          course: course,
+          subtitle: subtitle,
+          subjectColor: course.textColor,
+        ));
       },
       child: Container(
-        margin: const EdgeInsets.only(bottom: 24),
-        padding: const EdgeInsets.all(24),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFFE0E0E0)),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.05),
-              offset: const Offset(0, 4),
-              blurRadius: 10,
-            ),
-          ],
-        ),
-        child: Column(
-          children: [
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // Course Image Icon
-                Container(
-                  width: 120,
-                  height: 120,
-                  decoration: BoxDecoration(shape: BoxShape.circle),
-                  child: Center(
-                    child: Padding(
-                      padding: const EdgeInsets.all(0.0),
-                      child: Image.asset(course.image, fit: BoxFit.contain),
-                    ),
+      margin: const EdgeInsets.only(bottom: 24),
+      padding: const EdgeInsets.all(24),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: const Color(0xFFE0E0E0)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.05),
+            offset: const Offset(0, 4),
+            blurRadius: 10,
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Course Image Icon
+              Container(
+                width: 120,
+                height: 120,
+                decoration: BoxDecoration(shape: BoxShape.circle),
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(0.0),
+                    child: Image.asset(course.image, fit: BoxFit.contain),
                   ),
                 ),
-                const SizedBox(width: 20),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        course.title.replaceAll("\n", " "),
-                        style: const TextStyle(
-                          fontSize: 28,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                        ),
+              ),
+              const SizedBox(width: 20),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      course.title.replaceAll("\n", " "),
+                      style: const TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
                       ),
-                      Text(
-                        subtitle,
-                        style: const TextStyle(
-                          fontSize: 20,
-                          color: Color(0xFF333333),
-                        ),
+                    ),
+                    Text(
+                      subtitle,
+                      style: const TextStyle(
+                        fontSize: 20,
+                        color: Color(0xFF333333),
                       ),
-                    ],
+                    ),
+                  ],
+                ),
+              ),
+              Obx(() {
+                return Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 0,
                   ),
-                ),
-                Obx(() {
-                  return Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 0,
-                    ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: const Color(0xFF19975E)),
-                    ),
-                    child: DropdownButtonHideUnderline(
-                      child: DropdownButton<String>(
-                        dropdownColor: Colors.white,
-                        value: sidebarController
-                                .selectedActivityStatsFilters[course.title] ??
-                            "Past 1 Week",
-                        icon: const Icon(
-                          Icons.arrow_drop_down,
-                          color: Colors.black,
-                        ),
-                        style: const TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 16,
-                          color: Colors.black,
-                        ),
-                        onChanged: (String? newValue) {
-                          if (newValue != null) {
-                            sidebarController.selectedActivityStatsFilters[
-                                course.title] = newValue;
-                          }
-                        },
-                        items: <String>[
-                          'Past 1 Week',
-                          'Past 1 Month',
-                          'Past 3 Month',
-                          'past 1 year',
-                        ].map<DropdownMenuItem<String>>((String value) {
-                          return DropdownMenuItem<String>(
-                            value: value,
-                            child: Text(value),
-                          );
-                        }).toList(),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: const Color(0xFF19975E)),
+                  ),
+                  child: DropdownButtonHideUnderline(
+                    child: DropdownButton<String>(
+                      dropdownColor: Colors.white,
+                      value:
+                          sidebarController.selectedActivityStatsFilters[course
+                              .title] ??
+                          "Past 1 Week",
+                      icon: const Icon(
+                        Icons.arrow_drop_down,
+                        color: Colors.black,
                       ),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w600,
+                        fontSize: 16,
+                        color: Colors.black,
+                      ),
+                      onChanged: (String? newValue) {
+                        if (newValue != null) {
+                          sidebarController.selectedActivityStatsFilters[course
+                                  .title] =
+                              newValue;
+                        }
+                      },
+                      items:
+                          <String>[
+                            'Past 1 Week',
+                            'Past 1 Month',
+                            'Past 3 Month',
+                            'past 1 year',
+                          ].map<DropdownMenuItem<String>>((String value) {
+                            return DropdownMenuItem<String>(
+                              value: value,
+                              child: Text(value),
+                            );
+                          }).toList(),
                     ),
-                  );
-                }),
-              ],
-            ),
-            const SizedBox(height: 20),
-            Row(
-              children: [
-                _buildStatBox(
-                  "Activity Count",
-                  stats["activityCount"].toString(),
-                  const Color(0xFF3CCFFF),
-                  Colors.black,
-                ),
-                const SizedBox(width: 12),
-                _buildStatBox(
-                  "Avg. Daily Hours",
-                  stats["avgDailyHours"].toString(),
-                  const Color(0xFFFFE6E9),
-                  Colors.black,
-                ),
-                const SizedBox(width: 12),
-                _buildStatBox(
-                  "Total Hours",
-                  stats["totalHours"].toString(),
-                  const Color(0xFFD3FFC2),
-                  Colors.black,
-                ),
-                const SizedBox(width: 12),
-                _buildStatBox(
-                  "Avg. Quiz Score",
-                  stats["avgQuizScore"].toString(),
-                  const Color(0xFFFFD899),
-                  Colors.black,
-                ),
-              ],
-            ),
-          ],
-        ),
+                  ),
+                );
+              }),
+            ],
+          ),
+          const SizedBox(height: 20),
+          Row(
+            children: [
+              _buildStatBox(
+                "Activity Count",
+                stats["activityCount"].toString(),
+                const Color(0xFF3CCFFF),
+                Colors.black,
+              ),
+              const SizedBox(width: 12),
+              _buildStatBox(
+                "Avg. Daily Hours",
+                stats["avgDailyHours"].toString(),
+                const Color(0xFFFFE6E9),
+                Colors.black,
+              ),
+              const SizedBox(width: 12),
+              _buildStatBox(
+                "Total Hours",
+                stats["totalHours"].toString(),
+                const Color(0xFFD3FFC2),
+                Colors.black,
+              ),
+              const SizedBox(width: 12),
+              _buildStatBox(
+                "Avg. Quiz Score",
+                stats["avgQuizScore"].toString(),
+                const Color(0xFFFFD899),
+                Colors.black,
+              ),
+            ],
+          ),
+        ],
+      ),
       ),
     );
   }
