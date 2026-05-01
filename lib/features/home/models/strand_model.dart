@@ -101,8 +101,7 @@ class Lesson {
       learnDoneDate: learnDoneDate ?? this.learnDoneDate,
       practiceDoneDate: practiceDoneDate ?? this.practiceDoneDate,
       practiceScore: practiceScore ?? this.practiceScore,
-      practiceOriginalScore:
-          practiceOriginalScore ?? this.practiceOriginalScore,
+      practiceOriginalScore: practiceOriginalScore ?? this.practiceOriginalScore,
       quizDoneDate: quizDoneDate ?? this.quizDoneDate,
       quizScore: quizScore ?? this.quizScore,
       quizOriginalScore: quizOriginalScore ?? this.quizOriginalScore,

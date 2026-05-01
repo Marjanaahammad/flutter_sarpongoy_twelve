@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+9
+version: 1.0.3+4
 
 environment:
   sdk: ^3.5.3
@@ -172,6 +172,36 @@ flutter:
     - assets/audio/ss1_l3/
     - assets/audio/ss1_l4/
     - assets/audio/ss2_l1/
+    - assets/images/english/ENGLISH JHS3 S1 SS1 L1/
+    - assets/audio/english/1. JHS3 S1 SS1 L1/
+    - assets/audio/english/2. JHS3 S1 SS1 L2/
+    - assets/images/english/ENGLISH JHS3 S1 SS1 L2/
+    - assets/audio/english/3. JHS3 S1 SS2 L1/
+    - assets/images/english/ENGLISH JHS3 S1 SS2 L1/
+    - assets/audio/english/4. JHS3 S1 SS3 L1/
+    - assets/images/english/ENGLISH JHS3 S1 SS3 L1/
+    - assets/audio/english/5. JHS3 S1 SS3 L2/
+    - assets/images/english/ENGLISH JHS3 S1 SS3 L2/
+    - assets/audio/english/1. JHS2 S1 SS1 L1/
+    - assets/images/english/ENGLISH JHS2 S1 SS1 L1/
+    - assets/audio/english/2. JHS2 S1 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S1 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S1 SS1 L3/
+    - assets/audio/english/3. JHS2 S1 SS1 L3/
+    - assets/images/english/ENGLISH JHS2 S1 SS1 L4/
+    - assets/audio/english/4. JHS2 S1 SS1 L4/
+    - assets/audio/english/5. JHS2 S1 SS1 L5/
+    - assets/images/english/ENGLISH JHS2 S1 SS1 L5/
+    - assets/audio/english/6. JHS2 S1 SS2 L1/
+    - assets/images/english/ENGLISH JHS2 S1 SS2 L1/
+    - assets/images/english/ENGLISH JHS2 S1 SS2 L2/
+    - assets/audio/english/7. JHS2 S1 SS2 L2/
+    - assets/audio/english/8. JHS2 S1 SS3 L1/
+    - assets/images/english/ENGLISH JHS2 S1 SS3 L1/
+    - assets/audio/english/9. JHS2 S1 SS3 L2/
+    - assets/audio/english/10. JHS2 S1 SS3 L3/
+    - assets/images/english/ENGLISH JHS2 S1 SS3 L2/
+    - assets/images/english/ENGLISH JHS2 S1 SS3 L3/
     - assets/audio/ss2_l2/
     - assets/audio/ss3_l1/
     - assets/audio/s2_ss1_l1/

@@ -1,4 +1,4 @@
-package com.example.flutter_sarpongoy_twelve
+package com.sarpongoy.ilearnready
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -41,12 +41,11 @@ class StrandScreen extends StatelessWidget {
                     subStrand.subtitle.toLowerCase().contains(query)) {
                   bool subStrandMatches =
                       subStrand.title.toLowerCase().contains(query) ||
-                      subStrand.subtitle.toLowerCase().contains(query);
+                          subStrand.subtitle.toLowerCase().contains(query);
 
                   return subStrand.copyWith(
-                    lessons: subStrandMatches
-                        ? subStrand.lessons
-                        : matchingLessons,
+                    lessons:
+                        subStrandMatches ? subStrand.lessons : matchingLessons,
                   );
                 }
                 return null;
@@ -204,9 +203,7 @@ class StrandScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(width: 12),
-
           GetBuilder<ProfileController>(
             init: Get.find<ProfileController>(),
             builder: (controller) {
@@ -224,17 +221,16 @@ class StrandScreen extends StatelessWidget {
                       border: Border.all(color: Colors.grey.shade200),
                     ),
                     clipBehavior: Clip.hardEdge,
-                    child:
-                        student?.picture.url != null &&
+                    child: student?.picture.url != null &&
                             student!.picture.url.isNotEmpty
                         ? Image.network(
                             student.picture.url,
                             fit: BoxFit.contain,
                             errorBuilder: (context, error, stackTrace) =>
                                 Image.asset(
-                                  'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
-                                  fit: BoxFit.contain,
-                                ),
+                              'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
+                              fit: BoxFit.contain,
+                            ),
                           )
                         : Icon(Icons.person_outline_rounded),
                   ),
@@ -242,7 +238,6 @@ class StrandScreen extends StatelessWidget {
               });
             },
           ),
-
           const SizedBox(width: 12),
         ],
       ),
@@ -445,7 +440,6 @@ class StrandScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             _buildActivityCard(
               "TEACH",
               "Learn",
@@ -466,7 +460,6 @@ class StrandScreen extends StatelessWidget {
                 );
               },
             ),
-
             _buildActivityCard(
               "COMPLETE GUIDED PRACTICE",
               "Practice",
@@ -487,7 +480,6 @@ class StrandScreen extends StatelessWidget {
                 );
               },
             ),
-
             _buildActivityCard(
               "IMPROVE YOURSELF THROUGH QUIZ",
               "Quiz",
@@ -567,9 +559,11 @@ class StrandScreen extends StatelessWidget {
                   ),
                   Icon(
                     Icons.check_circle,
-                    color: ((type == "Get Ready" && lesson.getReadyDoneDate != null) ||
+                    color: ((type == "Get Ready" &&
+                                lesson.getReadyDoneDate != null) ||
                             (type == "Learn" && lesson.learnDoneDate != null) ||
-                            (type == "Practice" && lesson.practiceDoneDate != null) ||
+                            (type == "Practice" &&
+                                lesson.practiceDoneDate != null) ||
                             (type == "Quiz" && lesson.quizDoneDate != null)
                         ? const Color(0xFF019E2E)
                         : Colors.grey.shade300),
@@ -592,11 +586,13 @@ class StrandScreen extends StatelessWidget {
                         children: [
                           Text(
                             "First Attempt Score : ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                           ),
                           Text(
                             _formatScore(lesson.practiceOriginalScore),
-                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
                           ),
                         ],
                       ),
@@ -605,11 +601,13 @@ class StrandScreen extends StatelessWidget {
                         children: [
                           Text(
                             "Latest Score : ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                           ),
                           Text(
                             _formatScore(lesson.practiceScore),
-                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
                           ),
                         ],
                       ),
@@ -625,11 +623,13 @@ class StrandScreen extends StatelessWidget {
                         children: [
                           Text(
                             "First Attempt Score : ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                           ),
                           Text(
                             _formatScore(lesson.quizOriginalScore),
-                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
                           ),
                         ],
                       ),
@@ -638,11 +638,13 @@ class StrandScreen extends StatelessWidget {
                         children: [
                           Text(
                             "Latest Score : ",
-                            style: const TextStyle(fontSize: 15, color: Colors.black),
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
                           ),
                           Text(
                             _formatScore(lesson.quizScore),
-                            style: const TextStyle(fontSize: 15, color: Color(0xFF3E3C3C)),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
                           ),
                         ],
                       ),
@@ -708,7 +710,7 @@ class StrandScreen extends StatelessWidget {
   String _formatScore(String? scoreStr) {
     if (scoreStr == null) return "0%";
     if (scoreStr.contains('%')) return scoreStr;
-    
+
     if (!scoreStr.contains('/')) return "0%";
     try {
       final parts = scoreStr.split('/');

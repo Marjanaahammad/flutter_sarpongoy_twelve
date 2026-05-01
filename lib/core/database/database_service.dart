@@ -7,7 +7,7 @@ class DatabaseService {
   static final DatabaseService instance = DatabaseService._init();
   static Database? _database;
 
-  static const int _version = 7;
+  static const int _version = 8;
 
   DatabaseService._init();
 
@@ -45,6 +45,7 @@ class DatabaseService {
         practice_original_score INTEGER,
         quiz_original_score INTEGER,
         total_questions INTEGER,
+        activity_minutes INTEGER,
         last_updated TEXT,
         sync_status INTEGER DEFAULT 0
       )
@@ -121,6 +122,12 @@ class DatabaseService {
         )
       ''');
       DPrint.info('Database upgraded to version 7');
+    }
+    if (oldVersion < 8) {
+      // Adding activity_minutes column from v7 to v8
+      await db.execute(
+          'ALTER TABLE activity_progress ADD COLUMN activity_minutes INTEGER');
+      DPrint.info('Database upgraded to version 8');
     }
   }
 
