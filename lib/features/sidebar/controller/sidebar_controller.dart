@@ -2249,13 +2249,13 @@ class SidebarController extends GetxController {
               if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 0 &&
-                  ssIndex == 2 &&
-                  lIndex == 0) {
-                getReadyData = jhs2s1ss3Lesson1GetReadyData;
-                learnData = jhs2s1ss3Lesson1LearnData;
-                practiceData = jhs2s1ss3Lesson1PracticeData;
-                independentPracticeData = jhs2s1ss3Lesson1IndependentQuizData;
-                quizData = jhs2s1ss3Lesson1QuizData;
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = jhs2s1ss2Lesson2GetReadyData;
+                learnData = jhs2s1ss2Lesson2LearnData;
+                practiceData = jhs2s1ss2Lesson2PracticeData;
+                independentPracticeData = jhs2s1ss2Lesson2IndependentQuizData;
+                quizData = jhs2s1ss2Lesson2QuizData;
               }
               if (grade == "JHS 2" &&
                   courseTitle == "English" &&

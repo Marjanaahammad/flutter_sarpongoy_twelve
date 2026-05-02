@@ -102,7 +102,7 @@ final GetReadyModel s3ss1Lesson5GetReadyData = GetReadyModel(
 
 final GetReadyModel jhs2s1ss1Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS1 L1/student_overview.jpg',
-  overviewAudioPath: '/Users/noyon/Documents/Flutter/flutter_sarpongoy_twelve/assets/audio/english/1. JHS2 S1 SS1 L1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS1 L1/hook.jpg',
   hookAudioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/2. Hook.m4a',
 );
