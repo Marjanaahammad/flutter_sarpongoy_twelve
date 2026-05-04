@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sarpongoy/features/sidebar/controller/sidebar_controller.dart';
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 
-import 'package:flutter_sarpongoy/features/home/screens/contents/model/get_ready_model.dart';
-import 'package:flutter_sarpongoy/features/progress/models/progress_model.dart';
-import 'package:flutter_sarpongoy/features/progress/repositories/progress_repository.dart';
+import '../../../../progress/models/progress_model.dart';
+import '../../../../progress/repositories/progress_repository.dart';
+import '../../../../sidebar/controller/sidebar_controller.dart';
+import '../model/get_ready_model.dart';
+
+
 
 class GetReadyController extends GetxController {
   final AudioPlayer _player = AudioPlayer();
