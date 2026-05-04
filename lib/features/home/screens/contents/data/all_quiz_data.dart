@@ -124,7 +124,7 @@ final QuizModel defaultQuizData = QuizModel(
         "During a school assembly",
         "At a Saturday market with friends",
       ],
-      correctIndex: 2,
+      correctIndex: 3,
       difficulty: "Easy",
       explanation: "Markets and friend groups are typical informal settings.",
     ),
