@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sarpongoy/features/sidebar/controller/sidebar_controller.dart';
+import 'package:flutter_sarpongoy_twelve/features/sidebar/controller/sidebar_controller.dart';
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 
-import 'package:flutter_sarpongoy/features/home/screens/contents/model/get_ready_model.dart';
-import 'package:flutter_sarpongoy/features/progress/models/progress_model.dart';
-import 'package:flutter_sarpongoy/features/progress/repositories/progress_repository.dart';
+import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/model/get_ready_model.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/models/progress_model.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/repositories/progress_repository.dart';
 
 class GetReadyController extends GetxController {
   final AudioPlayer _player = AudioPlayer();
@@ -26,7 +26,7 @@ class GetReadyController extends GetxController {
   final RxBool isShuffled = false.obs;
   var showHook = false.obs;
   int _loadCount =
-  0; // Tracks active audio load requests to prevent race conditions
+      0; // Tracks active audio load requests to prevent race conditions
 
   // Persistent progress states (from DB)
   final RxBool isOverviewCompleted = false.obs;
@@ -43,14 +43,14 @@ class GetReadyController extends GetxController {
   }
 
   void initData(
-      GetReadyModel data,
-      String id, {
-        String? course,
-        String? strand,
-        String? subStrand,
-        String? number,
-        String? grade,
-      }) {
+    GetReadyModel data,
+    String id, {
+    String? course,
+    String? strand,
+    String? subStrand,
+    String? number,
+    String? grade,
+  }) {
     model = data;
     lessonId = id;
     courseName = course;
@@ -222,3 +222,4 @@ class GetReadyController extends GetxController {
     super.onClose();
   }
 }
+
