@@ -42,17 +42,17 @@ class HookContent extends StatelessWidget {
                   PlayAudio(controller: controller),
                   const SizedBox(width: 100),
                   Obx(() => IgnorePointer(
-                    ignoring: !controller.isHookFinishedInSession.value && !controller.isHookCompleted.value,
+                    ignoring: false,
                     child: Container(
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: (controller.isHookFinishedInSession.value || controller.isHookCompleted.value) ? const Color(0xFF0F0FE5) : Colors.grey.shade400,
+                        color: const Color(0xFF0F0FE5),
                         borderRadius: BorderRadius.circular(100),
                       ),
                       child: Center(
                         child: IconButton(
-                          onPressed: (controller.isHookFinishedInSession.value || controller.isHookCompleted.value) ? () {
+                          onPressed: () {
                             Get.snackbar(
                               'Congratulations!',
                               'You have successfully completed the chapter overview.',
@@ -68,7 +68,7 @@ class HookContent extends StatelessWidget {
                                 Navigator.of(context).pop();
                               },
                             );
-                          } : null,
+                          },
                           icon: const Icon(
                             Icons.navigate_next_rounded,
                             size: 40,
