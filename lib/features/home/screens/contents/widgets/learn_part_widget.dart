@@ -201,7 +201,7 @@ class LearnPartWidget extends StatelessWidget {
                     Future.delayed(const Duration(milliseconds: 2200), () {
                       Navigator.of(context).pop();
                     });
-                  }
+                  },
             icon: const Icon(
               Icons.navigate_next_rounded,
               size: 40,

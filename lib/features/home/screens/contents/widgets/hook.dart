@@ -41,7 +41,7 @@ class HookContent extends StatelessWidget {
                   const SizedBox(width: 100),
                   PlayAudio(controller: controller),
                   const SizedBox(width: 100),
-                  Obx(() => IgnorePointer(
+                  IgnorePointer(
                     ignoring: false,
                     child: Container(
                       height: 80,
@@ -77,7 +77,7 @@ class HookContent extends StatelessWidget {
                         ),
                       ),
                     ),
-                  )),
+                  ),
                 ],
               )
               .animate()
