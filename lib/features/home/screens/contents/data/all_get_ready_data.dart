@@ -1295,7 +1295,7 @@ final GetReadyModel MATHJHS3s4ss1GetReadyData = GetReadyModel(
 final GetReadyModel MATHJHS3s4ss2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS3_S4_SS2/student-overview.jpg',
   overviewAudioPath: 'assets/audio/math/2. JHS3 S4 SS2/1. Chapter 1.m4a',
-  hookImagePath: 'assets/images/MATH/MATH_JHS3_S4_SS2/hook.png',
+  hookImagePath: 'assets/images/MATH/MATH_JHS3_S4_SS2/hook.jpg',
   hookAudioPath: 'assets/audio/math/2. JHS3 S4 SS2/2. Hook.m4a',
 );
 
