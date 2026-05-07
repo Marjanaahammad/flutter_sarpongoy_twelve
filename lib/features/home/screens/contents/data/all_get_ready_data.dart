@@ -1123,7 +1123,7 @@ final GetReadyModel MATHJHS1s3ss1GetReadyData = GetReadyModel(
 );
 final GetReadyModel MATHJHS1s3ss2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS1_S3_SS2/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/2. JHS1 S3 SS2/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/2. JHS1 S3 SS2/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS1_S3_SS2/hook.jpg',
   hookAudioPath: 'assets/audio/math/2. JHS1 S3 SS2/2. Hook.m4a',
 );
@@ -1136,13 +1136,13 @@ final GetReadyModel MATHJHS1s3ss3GetReadyData = GetReadyModel(
 
 final GetReadyModel MATHJHS1s4ss1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS1_S4_SS1/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/1. JHS1 S4 SS1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/1. JHS1 S4 SS1/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS1_S4_SS1/hook.jpg',
   hookAudioPath: 'assets/audio/math/1. JHS1 S4 SS1/2. Hook.m4a',
 );
 final GetReadyModel MATHJHS1s4ss2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS1_S4_SS2/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/2. JHS1 S4 SS2/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/2. JHS1 S4 SS2/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS1_S4_SS2/hook.jpg',
   hookAudioPath: 'assets/audio/math/2. JHS1 S4 SS2/2. Hook.m4a',
 );
@@ -1193,32 +1193,32 @@ final GetReadyModel MATHJHS2s2ss3GetReadyData = GetReadyModel(
 
 final GetReadyModel MATHJHS2s3ss1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS1/student-overview.jpg',
-  overviewAudioPath: 'assets/audio/math/1. JHS2 S3 SS1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/1. JHS2 S3 SS1/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS1/hook.jpg',
   hookAudioPath: 'assets/audio/math/1. JHS2 S3 SS1/2. Hook.m4a',
 );
 final GetReadyModel MATHJHS2s3ss2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS2/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/2. JHS2 S3 SS2/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/2. JHS2 S3 SS2/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS2/hook.jpg',
   hookAudioPath: 'assets/audio/math/2. JHS2 S3 SS2/2. Hook.m4a',
 );
 final GetReadyModel MATHJHS2s3ss3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS3/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/3. JHS2 S3 SS3/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/3. JHS2 S3 SS3/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS2_S3_SS3/hook.jpg',
   hookAudioPath: 'assets/audio/math/3. JHS2 S3 SS3/2. Hook.m4a',
 );
 
 final GetReadyModel MATHJHS2s4ss1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS2_S4_SS1/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/1. JHS2 S4 SS1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/1. JHS2 S4 SS1/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS2_S4_SS1/hook.jpg',
   hookAudioPath: 'assets/audio/math/1. JHS2 S4 SS1/2. Hook.m4a',
 );
 final GetReadyModel MATHJHS2s4ss2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/MATH_JHS2_S4_SS2/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/math/2. JHS2 S4 SS2/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/math/2. JHS2 S4 SS2/1. Chapter 1 (Updated).m4a',
   hookImagePath: 'assets/images/MATH/MATH_JHS2_S4_SS2/hook.jpg',
   hookAudioPath: 'assets/audio/math/2. JHS2 S4 SS2/2. Hook.m4a',
 );
