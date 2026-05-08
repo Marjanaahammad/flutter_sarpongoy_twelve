@@ -4190,6 +4190,46 @@ final PracticeModel Scijhs1s2ss2Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs1s2ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer in Tamale is using dried groundnut husks and grass to help his crops. What category of nutrient source is he using?",
+      answer: "Correct Answer: Organic source.",
+      explanation: "Explanation: Because groundnut husks and grass come from plants (living things), they are natural and biodegradable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a shopkeeper sells you a bag of \"NPK 15-15-15\" pellets, what type of nutrient source is this?",
+      answer: "Correct Answer: Inorganic source.",
+      explanation: "Explanation: NPK is a synthetic, man-made fertiliser produced in a factory using chemical minerals.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does compost help the soil more than just providing food for the plant?",
+      answer: "Correct Answer: It improves soil structure and water retention.",
+      explanation: "Explanation: Organic matter like compost acts like a sponge, helping the soil hold onto water and stay airy, which artificial fertilisers cannot do.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are using a liquid fertiliser and a knapsack sprayer, which method are you using?",
+      answer: "Correct Answer: Foliar Application.",
+      explanation: "Explanation: Foliar application involves spraying liquid nutrients directly onto the leaves of the plant.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why shouldn't you place inorganic fertiliser pellets directly touching the stem of a young pepper plant?",
+      answer: "Correct Answer: It can \"burn\" or damage the plant tissues.",
+      explanation: "Explanation: Inorganic fertilisers are very chemically strong and concentrated; direct contact can dehydrate and kill the delicate stem.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which method is most efficient for a large field where crops are grown very close together, like lawn grass?",
+      answer: "Correct Answer: Broadcasting.",
+      explanation: "Explanation: Since there are no clear rows or individual large stems to circle, scattering the nutrients evenly over the whole area is best.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',

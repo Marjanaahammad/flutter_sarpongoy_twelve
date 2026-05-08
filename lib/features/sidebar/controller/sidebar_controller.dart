@@ -370,7 +370,7 @@ class SidebarController extends GetxController {
           strand.copyWith(
             subStrands: updatedSubStrands,
             isCompleted: allLessonsInStrandCompleted,
-            isLocked: updatedStrands.isNotEmpty,
+            isLocked: false,
           ),
         );
       }
@@ -869,6 +869,11 @@ class SidebarController extends GetxController {
               "subtitle": "LIFE CYCLE OF ORGANISMS",
               "topics": [
                 "The Life Cycle of a Housefly","The Housefly as a Menace and Control Methods",
+              ],
+            },{
+              "subtitle": "CROP PRODUCTION",
+              "topics": [
+                "Sources of Plant Nutrients","Physical Characteristics and Application of Plant Nutrients",
               ],
             },
           ],
@@ -1933,7 +1938,7 @@ class SidebarController extends GetxController {
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
-      final isStrandLocked = sIndex > 0;
+      final isStrandLocked = false;
       final currentStrandData = strandsData[sIndex];
       final subStrandsRaw =
           currentStrandData["subStrands"] as List<Map<String, dynamic>>;
@@ -2393,6 +2398,60 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     Scijhs1s1ss2Lesson2IndependentQuizData;
                 quizData = Scijhs1s1ss2Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s2ss1Lesson1GetReadyData;
+                learnData = Scijh1s2ss1Lesson1LearnData;
+                practiceData = Scijhs1s2ss1Lesson1PracticeData;
+                independentPracticeData = Scijhs1s2ss1Lesson1IndependentQuizData;
+                quizData = Scijhs1s2ss1Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s2ss1Lesson2GetReadyData;
+                learnData = Scijh1s2ss1Lesson2LearnData;
+                practiceData = Scijhs1s2ss1Lesson2PracticeData;
+                independentPracticeData = Scijhs1s2ss1Lesson2IndependentQuizData;
+                quizData = Scijhs1s2ss1Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s2ss2Lesson1GetReadyData;
+                learnData = Scijh1s2ss2Lesson1LearnData;
+                practiceData = Scijhs1s2ss2Lesson1PracticeData;
+                independentPracticeData = Scijhs1s2ss2Lesson1IndependentQuizData;
+                quizData = Scijhs1s2ss2Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s2ss2Lesson2GetReadyData;
+                learnData = Scijh1s2ss2Lesson2LearnData;
+                practiceData = Scijhs1s2ss2Lesson2PracticeData;
+                independentPracticeData = Scijhs1s2ss2Lesson2IndependentQuizData;
+                quizData = Scijhs1s2ss2Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s2ss3Lesson1GetReadyData;
+                learnData = Scijh1s2ss3Lesson1LearnData;
+                practiceData = Scijhs1s2ss3Lesson1PracticeData;
+                independentPracticeData = Scijhs1s2ss3Lesson1IndependentQuizData;
+                quizData = Scijhs1s2ss3Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s2ss3Lesson2GetReadyData;
+                learnData = Scijh1s2ss3Lesson2LearnData;
+                practiceData = Scijhs1s2ss3Lesson2PracticeData;
+                independentPracticeData = Scijhs1s2ss3Lesson2IndependentQuizData;
+                quizData = Scijhs1s2ss3Lesson2QuizData;
               }
               if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
@@ -4272,7 +4331,7 @@ class SidebarController extends GetxController {
         title: "BECE",
         subtitle: "Past Exam",
         isCompleted: false,
-        isLocked: generatedStrands.isNotEmpty,
+        isLocked: false,
         subStrands: [
           SubStrand(
             title: "Mock",
@@ -4321,18 +4380,7 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
-    if (selectedCourse.value != null &&
-        index < selectedCourse.value!.strands.length &&
-        selectedCourse.value!.strands[index].isLocked) {
-      Get.snackbar(
-        "Locked",
-        "This strand is currently locked. Please focus on Strand 1.",
-        snackPosition: SnackPosition.BOTTOM,
-        backgroundColor: Colors.red.withOpacity(0.8),
-        colorText: Colors.white,
-      );
-      return;
-    }
+
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

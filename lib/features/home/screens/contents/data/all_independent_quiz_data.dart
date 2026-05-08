@@ -8750,6 +8750,118 @@ final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common local example of an organic plant nutrient?",
+        options: [
+          "Urea pellets",
+          "Poultry dung",
+          "NPK powder",
+          "Liquid spray"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Poultry dung is an organic nutrient source because it comes from animal waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where do plants primarily get Carbon, Hydrogen, and Oxygen?",
+        options: [
+          "Only from soil",
+          "Air and water",
+          "From insects",
+          "Garden rocks"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plants mainly get Carbon from air and Hydrogen and Oxygen from water."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a major characteristic of inorganic fertilisers?",
+        options: [
+          "They are biodegradable",
+          "They come from cows",
+          "They are man-made",
+          "They take years to work"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Inorganic fertilisers are chemically manufactured, making them man-made."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which nutrient source is best for improving the soil’s ability to hold water?",
+        options: [
+          "Muriate of potash",
+          "Ammonium nitrate",
+          "Single phosphate",
+          "Well-made compost"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Well-made compost improves soil structure and helps the soil retain water."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these best describes the physical appearance of NPK fertiliser?",
+        options: [
+          "Dark, moist, and bulky",
+          "Hard, uniform granules",
+          "Large, irregular rocks",
+          "Sticky, yellow paste"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "NPK fertiliser is commonly seen as hard, uniform granules."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the \"Ring Method\" primarily used for?",
+        options: [
+          "Spraying the leaves",
+          "Scattering over grass",
+          "Feeding individual plants",
+          "Mixing with the water"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Ring Method is used to apply fertiliser around individual plants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which application method involves placing fertiliser in a row next to the plants?",
+        options: [
+          "Side Dressing",
+          "Broadcasting",
+          "Foliar Spray",
+          "Ring Method"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Side dressing involves applying fertiliser in rows beside growing plants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which type of nutrient source usually requires the largest volume for a garden?",
+        options: [
+          "Liquid Urea",
+          "NPK Granules",
+          "Organic Manure",
+          "Potash Powder"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Organic manure is bulky and usually needed in larger amounts than chemical fertilisers."
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:

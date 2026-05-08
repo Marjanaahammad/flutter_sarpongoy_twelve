@@ -19257,6 +19257,174 @@ final QuizModel Scijhs1s2ss2Lesson2QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs1s2ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of the following is NOT a source of organic nutrients?",
+      options: ["Farmyard manure", "Decomposed leaves", "NPK 20-20-20", "Poultry droppings"],
+      correctIndex: 2,
+      difficulty: "Recall",
+      explanation: "NPK is an inorganic, synthetic fertiliser.",
+    ),
+
+    QuizQuestion(
+      question: "2. How many essential mineral elements do plants need in total?",
+      options: ["Seventeen", "Seven", "Seventy", "Twenty-seven"],
+      correctIndex: 0,
+      difficulty: "Recall",
+      explanation: "There are 17 essential elements required for a plant's life cycle.",
+    ),
+
+    QuizQuestion(
+      question: "3. Organic nutrients are described as \"biodegradable.\" What does this mean?",
+      options: ["They are made in big factories", "They can be broken down naturally", "They are very poisonous to handle", "They cannot mix with any water"],
+      correctIndex: 1,
+      difficulty: "Conceptual",
+      explanation: "Biodegradable means living organisms can break them down into the soil.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which group of elements is obtained from the air and water?",
+      options: ["Nitrogen and Zinc", "Carbon and Oxygen", "Copper and Boron", "Iron and Calcium"],
+      correctIndex: 1,
+      difficulty: "Recall",
+      explanation: "Carbon, Hydrogen, and Oxygen come from air and water.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main disadvantage of using only inorganic fertilisers for a long time?",
+      options: ["They are very cheap to buy", "They make the crops grow fast", "They are easy to find in shops", "They do not improve soil texture"],
+      correctIndex: 3,
+      difficulty: "Critical Thinking",
+      explanation: "Unlike organic matter, synthetic fertilisers do not help the soil structure.",
+    ),
+
+    QuizQuestion(
+      question: "6. A farmer finds cow dung in a field. This is an example of:",
+      options: ["An inorganic nutrient", "A synthetic chemical", "An organic nutrient", "A factory product"],
+      correctIndex: 2,
+      difficulty: "Application",
+      explanation: "Cow dung is an organic source because it comes from an animal.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a synthetic source of plant nutrients?",
+      options: ["Green manure", "Kitchen waste", "Urea powder", "Goat manure"],
+      correctIndex: 2,
+      difficulty: "Recall",
+      explanation: "Urea is an inorganic fertiliser manufactured in factories.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why is it important to have 17 essential elements for a plant?",
+      options: ["The plant will die without them", "To make the soil look darker", "To keep insects away from leaves", "To change the flower colours"],
+      correctIndex: 0,
+      difficulty: "Conceptual",
+      explanation: "These elements are essential for the plant to complete its life cycle.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which nutrient source is usually cheaper for a local Ghanaian school garden?",
+      options: ["Imported NPK bags", "Prepared compost", "Special liquid sprays", "Factory Urea bags"],
+      correctIndex: 1,
+      difficulty: "Ghanaian Context",
+      explanation: "Compost can be made for free using garden and kitchen waste.",
+    ),
+
+    QuizQuestion(
+      question: "10. What do we call fertilisers made from minerals and chemicals in a factory?",
+      options: ["Natural manure", "Organic sources", "Compost heaps", "Inorganic sources"],
+      correctIndex: 3,
+      difficulty: "Recall",
+      explanation: "Man-made factory fertilisers are categorised as inorganic.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which physical form of fertiliser is most likely to blow away in high winds?",
+      options: ["Heavy organic compost", "Hard NPK granules", "Fine crystal powder", "Large cow dung cakes"],
+      correctIndex: 2,
+      difficulty: "Conceptual",
+      explanation: "Fine powders are lightweight and easily carried by the wind.",
+    ),
+
+    QuizQuestion(
+      question: "2. Foliar application means the plant absorbs nutrients through its:",
+      options: ["Deepest roots", "Green leaves", "Main stem", "Flower petals"],
+      correctIndex: 1,
+      difficulty: "Recall",
+      explanation: "Foliar refers to the foliage (leaves) of the plant.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is a key physical difference between compost and Urea?",
+      options: ["Compost is man-made", "Urea is more bulky", "Compost is organic", "Urea is dark black"],
+      correctIndex: 2,
+      difficulty: "Recall",
+      explanation: "Compost is an organic matter; Urea is a synthetic inorganic chemical.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which method is shown when a farmer drops fertiliser in a circle around a tree?",
+      options: ["Side dressing", "Ring method", "Broadcasting", "Drilling seeds"],
+      correctIndex: 1,
+      difficulty: "Recall",
+      explanation: "Placing fertiliser in a circle around a plant is the Ring Method.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is \"Broadcasting\" sometimes considered wasteful?",
+      options: ["It takes too much time", "It feeds weeds as well", "It hurts the farmer’s hands", "It requires special tools"],
+      correctIndex: 1,
+      difficulty: "Critical Thinking",
+      explanation: "Scattering fertiliser everywhere feeds both the crops and the surrounding weeds.",
+    ),
+
+    QuizQuestion(
+      question: "6. What do we call factory fertilisers that come in hard, bead-like shapes?",
+      options: ["Organic liquids", "Granular fertilisers", "Compost powders", "Manure crystals"],
+      correctIndex: 1,
+      difficulty: "Recall",
+      explanation: "Granules are the hard, bead-like form of inorganic fertilisers.",
+    ),
+
+    QuizQuestion(
+      question: "7. Ama wants to apply fertiliser to her maize, which is planted in long, straight lines. Which is best?",
+      options: ["Ring method", "Side dressing", "Foliar spray", "Random throwing"],
+      correctIndex: 1,
+      difficulty: "Application",
+      explanation: "Side dressing is ideal for crops planted in rows.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a physical characteristic of well-prepared organic manure?",
+      options: ["Bright blue colour", "Smells like flowers", "Dark and earthy", "Dry and very salty"],
+      correctIndex: 2,
+      difficulty: "Recall",
+      explanation: "Organic manure is typically dark brown/black and has an earthy texture.",
+    ),
+
+    QuizQuestion(
+      question: "9. When is \"Drilling\" usually performed by a farmer?",
+      options: ["During harvesting", "At the time of planting", "When the plant dies", "During the dry season"],
+      correctIndex: 1,
+      difficulty: "Recall",
+      explanation: "Drilling involves placing fertiliser and seeds into the soil together during planting.",
+    ),
+
+    QuizQuestion(
+      question: "10. If you have a very small amount of concentrated NPK, how should you apply it?",
+      options: ["Dump it on the stem", "Spread it very thin", "Use the ring method", "Throw it in the air"],
+      correctIndex: 2,
+      difficulty: "Critical Thinking",
+      explanation: "The ring method ensures the concentrated nutrients are near the roots but not touching the sensitive stem.",
+    ),
+  ],
+);
 
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',

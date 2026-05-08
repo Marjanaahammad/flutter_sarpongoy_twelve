@@ -2359,6 +2359,26 @@ final LearnModel Scijh1s2ss2Lesson2LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/4. Teach - Part B.m4a',
   )
 ]);
+final LearnModel Scijh1s2ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS3 L1/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS3 L1/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/4. Teach - Part B.m4a',
+  )
+]);
+final LearnModel Scijh1s2ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS3 L2/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS3 L2/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/4. Teach - Part B.m4a',
+  )
+]);
 
 final LearnModel Scijh2s1ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(
