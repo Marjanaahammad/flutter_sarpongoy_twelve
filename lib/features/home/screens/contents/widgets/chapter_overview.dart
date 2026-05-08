@@ -40,9 +40,7 @@ class ChapterOverviewContent extends StatelessWidget {
                 const SizedBox(width: 40),
                 Obx(
                   () => next_button(
-                    isEnabled:
-                        controller.isOverviewFinishedInSession.value ||
-                        controller.isOverviewCompleted.value,
+                    isEnabled: true,
                     onTap: () {
                       controller.goToHook();
                     },
