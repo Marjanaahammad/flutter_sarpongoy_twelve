@@ -4110,6 +4110,87 @@ final PracticeModel Scijhs1s1ss2Lesson2PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs1s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/1. JHS1 S2 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Describe what happens to the water in a river when the sun shines very brightly on it for a long time.",
+      answer: "The water heats up and turns into invisible vapour through evaporation.",
+      explanation: "The sun's energy provides heat, which changes liquid water into a gas state so it can rise.",
+    ),
+    PracticeQuestion(
+      scenario: "2. How do plants contribute to the moisture in the air?",
+      answer: "They release water vapour through their leaves in a process called transpiration.",
+      explanation: "Just like humans sweat, plants release excess water into the atmosphere.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the link between condensation and precipitation.",
+      answer: "Condensation forms the clouds, and when those clouds get too heavy, precipitation (rain) occurs.",
+      explanation: "You cannot have rain without clouds forming first.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question:If the water cycle stopped and there was no more 'Infiltration' (water soaking into the ground), what would happen to the village borehole?",
+      answer: "Correct Answer: The borehole would eventually run dry because the water table is not being refilled.",
+      explanation: "Explanation: Underground water depends on rain soaking through the soil to stay full.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does the water cycle help a cocoa farmer provide 'food' to his trees without physically feeding every root?",
+      answer: "Correct Answer: Rainwater dissolves nutrients in the soil and carries them to the roots as it moves.",
+      explanation: "Explanation: Water acts as a 'carrier' for the minerals plants need to survive.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Explain one way the water cycle helps keep the temperature comfortable in a coastal town like Cape Coast.",
+      answer: "Correct Answer: The sun causes evaporation from the sea, which removes heat from the environment and cools the air.",
+      explanation: "Explanation: Evaporation is a cooling process that regulates local temperatures.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Describe what a housefly larva looks like.",
+      answer: "Correct Answer: It is a creamy-white, legless creature that looks like a small worm.",
+      explanation: "Explanation: Larvae (maggots) do not have wings or legs; they have soft, worm-like bodies for crawling and feeding.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Where does a female housefly usually prefer to lay her eggs?",
+      answer: "Correct Answer: In moist, decaying organic matter like rotten food or manure.",
+      explanation: "Explanation: The eggs need moisture to survive, and the larvae need the decaying food to eat immediately after hatching.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What happens to the housefly inside the pupa stage?",
+      answer: "Correct Answer: The body of the larva changes into the body of an adult fly with wings and legs.",
+      explanation: "Explanation: The pupa is the transformation stage where the insect's structure is completely rebuilt.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain how a housefly eats solid food.",
+      answer: "Correct Answer: It spits saliva onto the food to dissolve it into a liquid and then sucks it up through its mouthparts.",
+      explanation: "Explanation: Flies use 'extracellular digestion'—turning the food into liquid outside their body before drinking it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Name two diseases spread by houseflies that cause stomach problems.",
+      answer: "Correct Answer: Cholera and Dysentery (or Typhoid).",
+      explanation: "Explanation: These diseases are caused by bacteria transferred from waste to food by the fly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the difference between physical control and chemical control?",
+      answer: "Correct Answer: Physical control uses barriers or cleaning (like nets or bins), while chemical control uses poisons like insecticides to kill the flies.",
+      explanation: "Explanation: Physical methods change the environment; chemical methods use substances to target the insect directly.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [

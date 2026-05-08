@@ -18921,6 +18921,343 @@ final QuizModel Scijhs1s1ss2Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs1s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/1. JHS1 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which energy source drives the entire water cycle?",
+      options: ["The Moon", "The Wind", "The Sun", "The Sea"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Sun provides the heat energy necessary for evaporation.",
+    ),
+
+    QuizQuestion(
+      question: "2. A farmer notices his well has water even in the dry season. Where does this water come from?",
+      options: ["Atmospheric water", "Groundwater", "Surface water", "Treated water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Wells tap into water stored beneath the Earth's surface.",
+    ),
+
+    QuizQuestion(
+      question: "3. What happens during transpiration?",
+      options: ["Clouds release rain", "Rivers flow to sea", "Vapour turns to ice", "Plants lose water"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Transpiration is the release of water vapour from plant surfaces.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which process is the direct opposite of evaporation?",
+      options: ["Condensation", "Precipitation", "Transpiration", "Collection"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Evaporation turns liquid to gas; condensation turns gas back to liquid.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of the following is the correct order of stages?",
+      options: ["Rain -> Vapour -> Cloud", "Vapour -> Rain -> Cloud", "Cloud -> Rain -> Vapour", "Rain -> Cloud -> Vapour"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Clouds must form (condensation) before it rains (precipitation), followed by evaporation (vapour).",
+    ),
+
+    QuizQuestion(
+      question: "6. Why doesn't the Earth ever run out of water?",
+      options: ["People make more water", "New water falls from space", "The cycle recycles water", "The sea is too deep to dry"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The water cycle ensures water is constantly reused.",
+    ),
+
+    QuizQuestion(
+      question: "7. What do we call water falling as small balls of ice in Ghana?",
+      options: ["Heavy mist", "Thick snow", "Large hail", "Cold dew"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "While rare, hail is the form of frozen precipitation seen in tropical regions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Where is most of the Earth's liquid surface water found?",
+      options: ["In the clouds", "In the ground", "In the rivers", "In the oceans"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Oceans and seas hold the vast majority of surface water.",
+    ),
+
+    QuizQuestion(
+      question: "9. When water vapour rises and cools, what is created?",
+      options: ["Strong wind", "Dark clouds", "Bright sun", "Salty seas"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Clouds are the visible result of water vapour condensing.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which river is a key natural water source in Ghana?",
+      options: ["River Nile", "River Niger", "River Pra", "River Congo"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Pra is a significant river located within Ghana.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How does the water cycle help keep the Earth's temperature balanced?",
+      options: ["By making the sun disappear", "By releasing and absorbing energy", "By stopping all the wind", "By keeping the ground frozen"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The movement of water involves energy changes that regulate temperature.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which process refills the groundwater used by people in rural Ghana?",
+      options: ["Evaporation", "Condensation", "Infiltration", "Transpiration"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Infiltration is when rainwater seeps into the ground to refill the water table.",
+    ),
+
+    QuizQuestion(
+      question: "3. What would likely happen to crops if there was no water cycle?",
+      options: ["They would grow much faster", "They would lack necessary nutrients", "They would turn into trees", "They would not need soil"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Water is the carrier that brings nutrients from the soil to the plant.",
+    ),
+
+    QuizQuestion(
+      question: "4. The water cycle provides clean water because evaporation acts as a...",
+      options: ["Natural filter", "Heating system", "Cooling fan", "Power source"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Evaporation separates pure water from contaminants and salts.",
+    ),
+
+    QuizQuestion(
+      question: "5. Predictable weather patterns in West Africa are mainly due to:",
+      options: ["Road construction", "The water cycle", "Market schedules", "Electricity use"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The cycle dictates the seasonal rainfall patterns we rely on.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is a high water table important for a community?",
+      options: ["It makes the air very dry", "It ensures wells have water", "It prevents rain from falling", "It makes the ground very hot"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A high water table means underground water is easily accessible through wells.",
+    ),
+
+    QuizQuestion(
+      question: "7. When water vapour turns into clouds, it warms the air. This is a release of:",
+      options: ["Light energy", "Sound energy", "Heat energy", "Tidal energy"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Condensation is an exothermic process that releases heat into the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which Ghanaian water body helps regulate local weather through evaporation?",
+      options: ["The Sahara Desert", "Lake Volta", "Mount Afadja", "Aburi Gardens"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Large lakes provide moisture for the local water cycle.",
+    ),
+
+    QuizQuestion(
+      question: "9. What happens to the pollutants in a pond when the water evaporates?",
+      options: ["They rise with the vapour", "They turn into rain", "They are left behind", "They disappear forever"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Only pure water molecules evaporate, leaving solids and pollutants behind.",
+    ),
+
+    QuizQuestion(
+      question: '10. In the context of the water cycle, what is a "nutrient"?',
+      options: ["A type of dangerous chemical", "Essential food for plants", "A piece of dry rock", "A way of measuring rain"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Nutrients are minerals in the soil that plants need to grow.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first stage of the housefly's life cycle?",
+      options: ["Larva", "Pupa", "Adult", "Egg"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The cycle always begins when the female adult lays eggs.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these best describes the pupa stage?",
+      options: ["Active and flying", "Eating and growing", "Changing and still", "Laying many eggs"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The pupa is a non-feeding, stationary stage where transformation occurs.",
+    ),
+
+    QuizQuestion(
+      question: "3. How long does it typically take for housefly eggs to hatch?",
+      options: ["8 to 24 hours", "3 to 5 days", "1 to 2 weeks", "One full month"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Eggs hatch very quickly, usually within a single day.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which stage is responsible for laying eggs to start a new cycle?",
+      options: ["The maggot", "The pupa", "The adult", "The larva"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Only the mature adult fly is capable of reproduction.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does the housefly lay eggs on rotten meat or garbage?",
+      options: ["To keep them dry", "To provide food", "To hide from sunlight", "To keep them cold"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Decaying matter provides the necessary nutrients for the newly hatched larvae.",
+    ),
+
+    QuizQuestion(
+      question: "6. A larva is different from an adult fly because the larva...",
+      options: ["Has many wings", "Has no legs", "Has red eyes", "Is very large"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Larvae (maggots) are legless, whereas adult flies have six legs.",
+    ),
+
+    QuizQuestion(
+      question: "7. What colour is the puparium of a housefly?",
+      options: ["Bright green", "Dark brown", "Clear blue", "Deep black"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The outer shell of the pupa turns from yellow/red to a dark brown colour.",
+    ),
+
+    QuizQuestion(
+      question: "8. Approximately how many eggs can a female fly lay in one go?",
+      options: ["Only 1 egg", "About 10 eggs", "Over 100 eggs", "10000 eggs"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Houseflies are highly productive, laying batches of 100–150 eggs.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which term describes the life cycle stages of the housefly?",
+      options: ["Simple growth", "Quick change", "Fast budding", "Metamorphosis"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Metamorphosis is the scientific term for the distinct stages of change in an insect's life.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the final stage of the life cycle?",
+      options: ["Adult", "Larva", "Pupa", "Egg"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The cycle concludes and restarts with the adult stage.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of the fly's body is most responsible for carrying germs?",
+      options: ["The wings", "The hairy legs", "The big eyes", "The stomach"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The hairs on the legs easily pick up bacteria from waste.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does a housefly do to solid food before eating it?",
+      options: ["Bites it with teeth", "Spits saliva on it", "Breaks it with its wings", "Drags it to its nest"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Flies must turn solids into liquids to feed.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which disease is commonly spread by houseflies in Ghana?",
+      options: ["Malaria", "Cholera", "Headache", "Broken leg"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Cholera is a major water and food-borne disease spread by flies.",
+    ),
+
+    QuizQuestion(
+      question: "4. Installing a mosquito net on a window to keep flies out is...",
+      options: ["Chemical control", "Biological control", "Physical control", "Natural control"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It acts as a physical barrier.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a 'Chemical' method of controlling flies?",
+      options: ["Cleaning the gutter", "Using a fly trap", "Spraying insecticide", "Keeping a pet cat"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Insecticides are chemical substances used to kill pests.",
+    ),
+
+    QuizQuestion(
+      question: "6. Biological control involves using...",
+      options: ["Strong soaps", "Natural enemies", "Plastic nets", "Sharp sticks"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "It uses living organisms to control the population of another.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does a housefly cause \"nuisance\" in the environment?",
+      options: ["By singing loud songs", "By biting humans", "By buzzing and landing on people", "By building large nests"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Their constant buzzing and landing is irritating to humans.",
+    ),
+
+    QuizQuestion(
+      question: "8. Where is a housefly MOST likely to pick up dangerous germs?",
+      options: ["On a clean plate", "Inside a flower", "In a pit latrine", "On a school desk"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Latrines contain high amounts of waste and pathogens.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is sanitation considered the best control method?",
+      options: ["It kills flies instantly", "It removes breeding sites", "It is the most expensive", "It uses the most chemicals"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Without filth, flies cannot feed or lay eggs to continue their cycle.",
+    ),
+
+    QuizQuestion(
+      question: "10. Typhoid fever is spread when a fly lands on...",
+      options: ["Your shoes", "Your food or water", "The TV screen", "A stone outside"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The germs must be ingested (eaten or drunk) to cause typhoid.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
   questions: [

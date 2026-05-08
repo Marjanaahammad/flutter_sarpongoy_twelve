@@ -2315,6 +2315,51 @@ final LearnModel Scijh1s1ss2Lesson2LearnData = LearnModel(parts: [
   ),
 ]);
 
+final LearnModel Scijh1s2ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS1 L1/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/1. JHS1 S2 SS1 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS1 L1/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/1. JHS1 S2 SS1 L1/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS1 L1/TEACH (Part C) .jpg',
+    audioPath: 'assets/audio/science/1. JHS1 S2 SS1 L1/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh1s2ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS1 L2/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS1 L2/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/4. Teach - Part B.m4a',
+  )
+]);
+final LearnModel Scijh1s2ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L1/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L1/TEACH Part B.png',
+    audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/4. Teach - Part B.m4a',
+  )
+]);
+final LearnModel Scijh1s2ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L2/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L2/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/4. Teach - Part B.m4a',
+  )
+]);
+
 final LearnModel Scijh2s1ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS2 S1 SS1 L1/partA.jpg',

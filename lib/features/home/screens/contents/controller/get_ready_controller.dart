@@ -203,6 +203,10 @@ class GetReadyController extends GetxController {
   }
 
   void goToHook() {
+    if (!isOverviewFinishedInSession.value && !isOverviewCompleted.value) {
+      debugPrint("Cannot go to hook: Overview not finished this session");
+      return;
+    }
     showHook.value = true;
     loadAudio(model.hookAudioPath, delayMs: 500);
   }
@@ -218,4 +222,3 @@ class GetReadyController extends GetxController {
     super.onClose();
   }
 }
-

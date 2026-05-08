@@ -31,11 +31,11 @@ class AuthController extends BaseController {
   final securityCheckController = Get.put(SecurityCheckController());
 
   Future<void> login(
-    RememberMeController? rememberMeController, {
-    required String userId,
-    required String password,
-    required String label,
-  }) async {
+      RememberMeController? rememberMeController, {
+        required String userId,
+        required String password,
+        required String label,
+      }) async {
     final request = LoginRequestModel(userId: userId, password: password);
 
     final result = await _authRepo.login(request);
@@ -43,11 +43,11 @@ class AuthController extends BaseController {
     DPrint.log("Login Response ${result.isRight()}");
 
     result.fold(
-      (fail) {
+          (fail) {
         setError(fail.message);
         setLoading(false);
       },
-      (success) async {
+          (success) async {
         // Extract user data
         final user = success.data.user;
 
@@ -77,7 +77,19 @@ class AuthController extends BaseController {
         }
 
         if (label == 'Student') {
-          if (isSecurityChecked == 'true') {
+          // Pull latest progress from backend after login
+          final syncService = Get.find<SyncService>();
+          final pulledCount = await syncService.pullFromBackend();
+
+          // If we have progress on the server, it means security setup was already done
+          if (isSecurityChecked == 'true' || pulledCount > 0) {
+            // Persist security checked state if we pulled progress on a new device
+            if (isSecurityChecked != 'true') {
+              await secureStore.storeData(
+                "${KeyConstants.isSecurityChecked}_$userIdFromStorage",
+                "true",
+              );
+            }
             Get.offAll(() => SideBarForTabAndMobile());
           } else {
             Get.offAll(() => const SecurityCheckScreen());

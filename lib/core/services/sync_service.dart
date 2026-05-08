@@ -34,10 +34,10 @@ class SyncService extends GetxService {
   /// Called on app launch when the user is authenticated and online.
   /// - First launch: `since` is null → backend returns all records.
   /// - Subsequent launches: sends stored `last_synced_date` → backend returns only newer records.
-  Future<void> pullFromBackend() async {
+  Future<int> pullFromBackend() async {
     if (!_connectivityService.isConnected) {
       DPrint.log('Pull sync skipped — device is offline');
-      return;
+      return 0;
     }
 
     try {
@@ -50,17 +50,17 @@ class SyncService extends GetxService {
 
       if (result.isLeft()) {
         result.fold(
-          (failure) => DPrint.log('Pull sync failed: ${failure.message}'),
-          (_) {},
+              (failure) => DPrint.log('Pull sync failed: ${failure.message}'),
+              (_) {},
         );
-        return;
+        return 0;
       }
 
       // Extract the activity list from the success result
       List<ActivityProgress> activities = [];
       result.fold(
-        (_) {},
-        (success) => activities = success.data,
+            (_) {},
+            (success) => activities = success.data,
       );
 
       DPrint.log('Pulled ${activities.length} records from backend');
@@ -91,8 +91,10 @@ class SyncService extends GetxService {
         await Get.find<SidebarController>().loadActualProgress();
         DPrint.log('UI refreshed after pull sync.');
       }
+      return activities.length;
     } catch (e) {
       DPrint.log('Error during pull sync: $e');
+      return 0;
     }
   }
 

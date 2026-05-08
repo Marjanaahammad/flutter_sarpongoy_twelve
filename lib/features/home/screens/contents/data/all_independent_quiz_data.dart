@@ -8257,8 +8257,7 @@ final IndependentPracticeModel SSjhs3s6ss1Lesson4IndependentQuizData =
 );
 
 ///Science
-final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS1 S1 SS1 L1/6. Independent Practice.m4a',
   questions: [
@@ -8304,8 +8303,7 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData =
             "In solids, particles are tightly packed in a fixed and orderly arrangement."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS1 S1 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -8350,8 +8348,7 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData =
             "Petrol is a fuel that provides energy to run car engines."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS1 S1 SS1 L3/6. Independent Practice.m4a',
   questions: [
@@ -8395,8 +8392,7 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData =
         explanation: "Boiled yam is a solid food that provides energy."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS1 S1 SS1 L4/6. Independent Practice.m4a',
   questions: [
@@ -8442,8 +8438,7 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS1 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -8487,8 +8482,7 @@ final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData =
         explanation: "Animal cell vacuoles are usually small and temporary."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS1 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -8531,8 +8525,233 @@ final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/1. JHS1 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a major surface water source in Ghana?",
+        options: [
+          "A deep borehole",
+          "The water table",
+          "The Gulf of Guinea",
+          "An underground pipe"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Gulf of Guinea is a major surface water source in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the process where water vapour cools down to form clouds?",
+        options: [
+          "Condensation",
+          "Evaporation",
+          "Precipitation",
+          "Transpiration"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Condensation happens when water vapour cools and changes into tiny water droplets to form clouds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the water cycle, what follows the stage of precipitation?",
+        options: [
+          "Vapour rises",
+          "Water collects",
+          "Clouds form",
+          "Leaves dry"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "After precipitation, water collects in rivers, lakes, oceans, and other water bodies."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the water cycle described as a \"repeated pattern\"?",
+        options: [
+          "It only happens in the rainy season.",
+          "It moves water in a continuous loop.",
+          "It happens differently every year.",
+          "It stops once the rain falls down."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The water cycle is continuous because water keeps moving through evaporation, condensation, precipitation, and collection."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why is rainwater usually fresh even if it evaporates from the salty sea?",
+        options: [
+          "The salt stays behind during evaporation.",
+          "The clouds add sugar to the water.",
+          "The wind blows the salt away.",
+          "Rainwater is made of different chemicals."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "During evaporation, only water changes into vapour while the salt remains behind."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What do we call the level of water stored deep under the ground?",
+        options: [
+          "The River Pra",
+          "The Water Table",
+          "The Ocean Floor",
+          "The Muddy Layer"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The water table is the underground level where water is stored."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does the water cycle assist in farming?",
+        options: [
+          "It makes the weeds grow faster than crops.",
+          "It carries nutrients from soil to roots.",
+          "It stops the sun from shining on plants.",
+          "It turns the soil into hard, dry rocks."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Water helps carry nutrients from the soil to plant roots, supporting healthy crop growth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a result of the water cycle regulating the weather?",
+        options: [
+          "The price of yams in the market.",
+          "The colors of the Ghanaian flag.",
+          "The pattern of rainy and dry seasons.",
+          "The number of people in a village."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The water cycle affects rainfall and helps create rainy and dry seasons."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which stage comes immediately after the egg hatches?",
+        options: [
+          "Adult",
+          "Larva",
+          "Pupa",
+          "Eggshell"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "After the egg hatches, the insect enters the larva stage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the common Ghanaian name for the larva of a housefly?",
+        options: [
+          "Caterpillar",
+          "Tadpole",
+          "Maggot",
+          "Mosquito"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The larva of a housefly is commonly called a maggot."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The hard, brown shell formed during the third stage of the life cycle is called the...",
+        options: [
+          "Puparium",
+          "Egg case",
+          "Cocoon",
+          "Wing sac"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The hard brown covering formed in the pupa stage is called the puparium."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How many stages are there in the complete life cycle of a housefly?",
+        options: [
+          "Two stages",
+          "Three stages",
+          "Four stages",
+          "Five stages"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The housefly life cycle has four stages: egg, larva, pupa, and adult."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the most effective way to prevent flies from breeding in your home?",
+        options: [
+          "Leaving food on the table",
+          "Keeping dustbins tightly covered",
+          "Opening all the windows at night",
+          "Throwing rubbish in the backyard"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Keeping dustbins tightly covered prevents flies from accessing places to breed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Houseflies are a menace because they carry...",
+        options: [
+          "Bags of sugar",
+          "Tiny bits of gold",
+          "Pathogens that cause disease",
+          "Food for their family"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Houseflies carry pathogens such as germs and bacteria that can spread diseases."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Using a fly swatter to kill a fly is an example of which control method?",
+        options: [
+          "Biological control",
+          "Chemical control",
+          "Physical control",
+          "Spiritual control"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A fly swatter physically removes or kills the fly, so it is a physical control method."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do flies prefer to land on rotten food and manure?",
+        options: [
+          "They like the bright colours",
+          "It is where they feed and lay eggs",
+          "They are trying to clean the area",
+          "It is the coldest place to sit"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Flies are attracted to rotten food and manure because they feed there and lay their eggs."
+    ),
+  ],
+);
+
+final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -8557,8 +8776,7 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData =
             "In a sugar solution, water is the solvent because it dissolves the sugar."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS2 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -8605,8 +8823,7 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData =
             "Residue is the solid left behind on the filter paper after filtration."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS2 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -8654,8 +8871,7 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData =
             "The electron is the lightest subatomic particle among the three."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS2 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -8699,8 +8915,7 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS2 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -8754,8 +8969,7 @@ final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData =
             "The cell membrane controls what enters and leaves the cell."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS2 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -8812,8 +9026,7 @@ final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -8871,8 +9084,7 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =
             "Ethanoic acid, found in vinegar, is mainly used for preserving food and cooking."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS3 S1 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -8915,8 +9127,7 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData =
             "ZnO is named zinc oxide according to IUPAC naming rules."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS3 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -8966,8 +9177,7 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData =
         explanation: "Vinegar is acidic, so it turns blue litmus paper red."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS3 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -9014,8 +9224,7 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS3 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -9068,8 +9277,7 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData =
             "Stem cells have the ability to develop into many different cell types."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS3 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -9121,8 +9329,7 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData =
             "Epidermal cells are transparent to allow sunlight to pass through and reach the photosynthetic cells (mesophyll) inside the leaf."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/7. JHS3 S1 SS2 L3/7. Independent Practice.m4a',
   questions: [

@@ -38,11 +38,15 @@ class ChapterOverviewContent extends StatelessWidget {
               children: [
                 PlayAudio(controller: controller),
                 const SizedBox(width: 40),
-                next_button(
-                  isEnabled: true,
-                  onTap: () {
-                    controller.goToHook();
-                  },
+                Obx(
+                  () => next_button(
+                    isEnabled:
+                        controller.isOverviewFinishedInSession.value ||
+                        controller.isOverviewCompleted.value,
+                    onTap: () {
+                      controller.goToHook();
+                    },
+                  ),
                 ),
               ],
             )

@@ -38,8 +38,9 @@ class SidebarController extends GetxController {
     for (var strand in course.strands) {
       for (var subStrand in strand.subStrands) {
         totalLessons += subStrand.lessons.length;
-        completedLessons +=
-            subStrand.lessons.where((l) => l.isCompleted).length;
+        completedLessons += subStrand.lessons
+            .where((l) => l.isCompleted)
+            .length;
       }
     }
     if (totalLessons == 0) return 0.0;
@@ -232,8 +233,9 @@ class SidebarController extends GetxController {
             final String normalizedTopic = lesson.topic.trim();
 
             // Fetch all progress for this lesson to avoid multiple queries
-            final lessonProgress =
-                await _progressRepo.getLessonProgress(normalizedTopic);
+            final lessonProgress = await _progressRepo.getLessonProgress(
+              normalizedTopic,
+            );
 
             // Filter for each activity type (case-insensitive check for safety)
             final getReadyProgress = lessonProgress
@@ -262,13 +264,15 @@ class SidebarController extends GetxController {
             ActivityProgress? latestGetReady;
             if (getReadyProgress.isNotEmpty) {
               latestGetReady = getReadyProgress.reduce(
-                  (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b);
+                (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b,
+              );
             }
 
             ActivityProgress? latestLearn;
             if (learnProgress.isNotEmpty) {
               latestLearn = learnProgress.reduce(
-                  (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b);
+                (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b,
+              );
             }
 
             String? practiceScoreStr;
@@ -283,10 +287,11 @@ class SidebarController extends GetxController {
               practiceScoreStr = "$percentage%";
 
               if (independent.originalScore != null) {
-                int originalPercentage = ((independent.originalScore! /
-                            independent.totalQuestions!) *
-                        100)
-                    .round();
+                int originalPercentage =
+                    ((independent.originalScore! /
+                                independent.totalQuestions!) *
+                            100)
+                        .round();
                 practiceOriginalScoreStr = "$originalPercentage%";
               }
             }
@@ -297,8 +302,8 @@ class SidebarController extends GetxController {
                 quiz.score != null &&
                 quiz.totalQuestions != null &&
                 quiz.totalQuestions! > 0) {
-              int percentage =
-                  ((quiz.score! / quiz.totalQuestions!) * 100).round();
+              int percentage = ((quiz.score! / quiz.totalQuestions!) * 100)
+                  .round();
               quizScoreStr = "$percentage%";
 
               if (quiz.originalScore != null) {
@@ -311,11 +316,14 @@ class SidebarController extends GetxController {
 
             // A lesson is completed if all contents and quiz are done
             // Note: For 'learn', we require the last part for full lesson completion
-            final hasFinishedLastLearnPart = learnProgress.any((p) =>
-                p.subActivity ==
-                'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
+            final hasFinishedLastLearnPart = learnProgress.any(
+              (p) =>
+                  p.subActivity ==
+                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
+            );
 
-            final isLessonCompleted = latestGetReady != null &&
+            final isLessonCompleted =
+                latestGetReady != null &&
                 hasFinishedLastLearnPart &&
                 practice != null &&
                 independent != null &&
@@ -336,12 +344,13 @@ class SidebarController extends GetxController {
                 practiceDoneDate: independent != null
                     ? dateFormat.format(independent.lastUpdated)
                     : (practice != null
-                        ? dateFormat.format(practice.lastUpdated)
-                        : null),
+                          ? dateFormat.format(practice.lastUpdated)
+                          : null),
                 practiceScore: practiceScoreStr,
                 practiceOriginalScore: practiceOriginalScoreStr,
-                quizDoneDate:
-                    quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
+                quizDoneDate: quiz != null
+                    ? dateFormat.format(quiz.lastUpdated)
+                    : null,
                 quizScore: quizScoreStr,
                 quizOriginalScore: quizOriginalScoreStr,
                 courseName: course.title,
@@ -361,7 +370,7 @@ class SidebarController extends GetxController {
           strand.copyWith(
             subStrands: updatedSubStrands,
             isCompleted: allLessonsInStrandCompleted,
-            isLocked: false,
+            isLocked: updatedStrands.isNotEmpty,
           ),
         );
       }
@@ -374,8 +383,9 @@ class SidebarController extends GetxController {
     // Explicitly refresh selectedCourse to trigger UI update
     if (selectedCourse.value != null) {
       final courseTitle = selectedCourse.value!.title;
-      final updatedCourse =
-          courses.firstWhereOrNull((c) => c.title == courseTitle);
+      final updatedCourse = courses.firstWhereOrNull(
+        (c) => c.title == courseTitle,
+      );
       if (updatedCourse != null) {
         selectedCourse.value = updatedCourse;
         selectedCourse.refresh();
@@ -447,8 +457,9 @@ class SidebarController extends GetxController {
         .toList();
 
     // Practice
-    final practiceRecords =
-        courseProgress.where((p) => p.activityType == 'independent').toList();
+    final practiceRecords = courseProgress
+        .where((p) => p.activityType == 'independent')
+        .toList();
     int practiceTotal = 0;
     int practiceCorrect = 0;
     for (var p in practiceRecords) {
@@ -457,8 +468,9 @@ class SidebarController extends GetxController {
     }
 
     // Quiz
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     int quizTotal = 0;
     int quizCorrect = 0;
     for (var p in quizRecords) {
@@ -483,8 +495,9 @@ class SidebarController extends GetxController {
     String practicePercent = practiceTotal > 0
         ? "${((practiceCorrect / practiceTotal) * 100).round()}%"
         : "0%";
-    String quizPercent =
-        quizTotal > 0 ? "${((quizCorrect / quizTotal) * 100).round()}%" : "0%";
+    String quizPercent = quizTotal > 0
+        ? "${((quizCorrect / quizTotal) * 100).round()}%"
+        : "0%";
 
     return {
       "practice": practicePercent,
@@ -547,8 +560,9 @@ class SidebarController extends GetxController {
     final activityCount = courseProgress.length;
 
     // Quiz Score
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     double avgQuizScore = 0;
     if (quizRecords.isNotEmpty) {
       double totalPercent = 0;
@@ -656,8 +670,9 @@ class SidebarController extends GetxController {
           .toList();
 
       final count = dayProgress.length;
-      final quizRecords =
-          dayProgress.where((p) => p.activityType == 'quiz').toList();
+      final quizRecords = dayProgress
+          .where((p) => p.activityType == 'quiz')
+          .toList();
       double score = 0;
       if (quizRecords.isNotEmpty) {
         double total = 0;
@@ -846,10 +861,14 @@ class SidebarController extends GetxController {
           "subtitle": "CYCLES",
           "subStrands": [
             {
-              "subtitle": "Life Cycles",
+              "subtitle": "EARTH SCIENCE",
               "topics": [
-                "Human Growth Stages",
-                //"Plant Reproduction Cycles"
+                "Human Growth Stages","The Importance of the Water Cycle",
+              ],
+            },{
+              "subtitle": "LIFE CYCLE OF ORGANISMS",
+              "topics": [
+                "The Life Cycle of a Housefly","The Housefly as a Menace and Control Methods",
               ],
             },
           ],
@@ -906,15 +925,11 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "Fractions, Decimals and Percentages",
-              "topics": [
-                "Fractions, Decimals, and Percentages",
-              ],
+              "topics": ["Fractions, Decimals, and Percentages"],
             },
             {
               "subtitle": "Number: Ratios and Proportion",
-              "topics": [
-                "Multi-Step Ratio and Proportional Relationships",
-              ],
+              "topics": ["Multi-Step Ratio and Proportional Relationships"],
             },
           ],
         },
@@ -1164,14 +1179,14 @@ class SidebarController extends GetxController {
                 "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)",
                 "ELABORATING IN CONVERSATION",
                 "DESCRIBING FAMILIAR PLACES AND EVENTS",
-                "GIVING AND FOLLOWING COMPLEX DIRECTIONS"
+                "GIVING AND FOLLOWING COMPLEX DIRECTIONS",
               ],
             },
             {
               "subtitle": "LISTENING COMPREHENSION",
               "topics": [
                 "Identifying Key Information in Dialogues",
-                "Sharing Opinions and Discussing Ideas"
+                "Sharing Opinions and Discussing Ideas",
               ],
             },
             {
@@ -1179,7 +1194,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "MASTERING PLOSIVE CONSONANTS",
                 "MASTERING FRICATIVE CONSONANTS",
-                "NASALS AND AFFRICATES"
+                "NASALS AND AFFRICATES",
               ],
             },
           ],
@@ -1231,14 +1246,14 @@ class SidebarController extends GetxController {
                 "Types of mixtures and their characteristics",
                 "SEPARATING MIXTURES (PHYSICAL PROCESSES)",
                 "ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES",
-                "THE PERIODIC TABLE AND ELECTRON CONFIGURATION"
+                "THE PERIODIC TABLE AND ELECTRON CONFIGURATION",
               ],
             },
             {
               "subtitle": "LIVING CELLS",
               "topics": [
                 "Structure of Prokaryotic and Eukaryotic Cells",
-                "Classifying Organisms and Impact on Human Health"
+                "Classifying Organisms and Impact on Human Health",
               ],
             },
           ],
@@ -1548,20 +1563,18 @@ class SidebarController extends GetxController {
               "subtitle": "CONVERSATION AND EVERYDAY DISCOURSE",
               "topics": [
                 "MASTERING REGISTER AND OPEN QUESTIONS",
-                "THE ART OF ARGUMENT AND DEBATING"
+                "THE ART OF ARGUMENT AND DEBATING",
               ],
             },
             {
               "subtitle": "LISTENING COMPREHENSION",
-              "topics": [
-                "ANALYSING AUDIO-VISUAL TEXTS AND DISCUSSIONS",
-              ],
+              "topics": ["ANALYSING AUDIO-VISUAL TEXTS AND DISCUSSIONS"],
             },
             {
               "subtitle": "ENGLISH SOUNDS",
               "topics": [
                 "MASTERING /r/, /l/, AND CONSONANT CLUSTERS",
-                "CHOOSING THE RIGHT WORDS"
+                "CHOOSING THE RIGHT WORDS",
               ],
             },
           ],
@@ -1604,7 +1617,7 @@ class SidebarController extends GetxController {
                 "Introduction to Binary Compounds",
                 "THE FORMATION OF BINARY COMPOUNDS",
                 "CHARACTERISTICS OF ACIDS, BASES, AND SALTS",
-                "ATOMIC BONDING IN CHEMICAL COMPOUNDS"
+                "ATOMIC BONDING IN CHEMICAL COMPOUNDS",
               ],
             },
             {
@@ -1612,7 +1625,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Concepts and Formation of Specialised Cells",
                 "Functions of Specialised Plant Cells",
-                "Functions of Specialised Animal Cells"
+                "Functions of Specialised Animal Cells",
               ],
             },
           ],
@@ -1915,12 +1928,12 @@ class SidebarController extends GetxController {
     final strandsData = grade == "JHS 2"
         ? (jhs2CourseData[courseTitle] ?? jhs2CourseData["English"]!)
         : grade == "JHS 3"
-            ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
-            : (courseData[courseTitle] ?? courseData["English"]!);
+        ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
+        : (courseData[courseTitle] ?? courseData["English"]!);
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
-      final isStrandLocked = false;
+      final isStrandLocked = sIndex > 0;
       final currentStrandData = strandsData[sIndex];
       final subStrandsRaw =
           currentStrandData["subStrands"] as List<Map<String, dynamic>>;
@@ -2224,7 +2237,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s1ss3Lesson2PracticeData;
                 independentPracticeData = jhs2s1ss3Lesson2IndependentQuizData;
                 quizData = jhs2s1ss3Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 0 &&
                   ssIndex == 2 &&
@@ -4258,7 +4272,7 @@ class SidebarController extends GetxController {
         title: "BECE",
         subtitle: "Past Exam",
         isCompleted: false,
-        isLocked: false,
+        isLocked: generatedStrands.isNotEmpty,
         subStrands: [
           SubStrand(
             title: "Mock",
@@ -4307,6 +4321,18 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
+    if (selectedCourse.value != null &&
+        index < selectedCourse.value!.strands.length &&
+        selectedCourse.value!.strands[index].isLocked) {
+      Get.snackbar(
+        "Locked",
+        "This strand is currently locked. Please focus on Strand 1.",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red.withOpacity(0.8),
+        colorText: Colors.white,
+      );
+      return;
+    }
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

@@ -214,6 +214,10 @@ class LearnController extends GetxController {
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
+    if (!isCurrentPartFinished) {
+      debugPrint('Cannot advance: current part not finished this session');
+      return;
+    }
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {
