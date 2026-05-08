@@ -18,6 +18,7 @@ import '../../../core/base/base_controller.dart';
 import '../../../core/constants/key_constants.dart';
 import '../../../core/services/auth_storage_service.dart';
 import '../../../core/services/secure_store_services.dart';
+import '../../../core/services/sync_service.dart';
 import '../../sidebar/SideBarForTabAndMobile.dart';
 import '../model/request/login_request_model.dart';
 import '../repositories/auth_repo.dart';
