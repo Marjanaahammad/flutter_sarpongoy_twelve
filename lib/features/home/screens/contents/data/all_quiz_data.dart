@@ -19425,6 +19425,342 @@ final QuizModel Scijhs1s2ss3Lesson2QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs1s2ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/9. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A domestic animal depends on humans for:",
+      options: ["Hunting its own food", "Food, water, and shelter", "Living in the deep forest", "Fighting wild lions"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Dependence on humans is the core definition of a domestic animal.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which breed of cattle is known for traveling long distances in West Africa?",
+      options: ["West African Dwarf", "N'dama", "White Fulani", "Sokoto Red"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "White Fulani are nomadic cattle built for long-distance trekking.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Ouda sheep is easily recognized by:",
+      options: ["Its pure black color", "Its two-tone color split", "Having no ears", "Its very long horns"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The front-dark, back-white split is unique to the Ouda breed.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which goat breed is specifically reared for its superior red skin?",
+      options: ["Sahelian", "Yankasa", "Sokoto Red", "White Fulani"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The Sokoto Red is world-famous in the leather industry.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main difference between the N'dama and the White Fulani?",
+      options: ["The N'dama has a larger hump.", "The White Fulani is much shorter.", "The N'dama is humpless and brown.", "The White Fulani has no horns."],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "N'dama are humpless (taurine) cattle, unlike the humped (zebu) Fulani.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which breed of sheep is most common in the forest zones of Southern Ghana?",
+      options: ["Yankasa", "Ouda", "West African Dwarf", "Sokoto Gudali"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The West African Dwarf sheep is the dominant breed in the south.",
+    ),
+
+    QuizQuestion(
+      question: "7. Sahelian goats have long legs and ears primarily to:",
+      options: ["Help them swim in rivers.", "Look beautiful for farmers.", "Survive in hot, dry climates.", "Run faster than leopards."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Their long legs and ears help with heat dissipation and travel in arid regions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a mammal?",
+      options: ["Guinea Fowl", "Chicken", "Goat", "Duck"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Goats are mammals; the others listed are poultry.",
+    ),
+
+    QuizQuestion(
+      question: "9. The Yankasa sheep is generally what color?",
+      options: ["Solid Black", "Solid Brown", "White with black eye patches", "Green and Yellow"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Yankasa are white with distinct black points on the face.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which cattle breed is known for its thick body and quality beef production?",
+      options: ["Sokoto Gudali", "West African Dwarf", "Sahelian Maure", "Yankasa"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Sokoto Gudali is a \"meat-type\" zebu breed.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How many chambers are found in the stomach of a ruminant?",
+      options: ["One", "Two", "Three", "Four"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Ruminants are defined by their complex four-chambered digestive system.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which part of the ruminant stomach has a \"honeycomb\" appearance?",
+      options: ["Rumen", "Reticulum", "Omasum", "Abomasum"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The reticulum is named for its honeycomb-like internal structure.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is a pig classified as a monogastric?",
+      options: ["It has a single-chambered stomach.", "It is a type of feathered bird.", "It produces milk for humans.", "It lives in the community."],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Monogastrics are animals with a simple, one-compartment stomach.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a similarity between Ruminants and Monogastrics?",
+      options: ["They both have feathers.", "They both lay hard eggs.", "They are both mammals.", "They both chew the cud."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Both groups belong to the class Mammalia, meaning they have hair and nurse their young.",
+    ),
+
+    QuizQuestion(
+      question: "5. In which part of the ruminant stomach is water absorbed?",
+      options: ["Reticulum", "Abomasum", "Omasum", "Rumen"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The omasum (manyplies) acts as a filter and absorbs water and fatty acids.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which animal is a non-ruminant herbivore?",
+      options: ["Chicken", "Rabbit", "Goat", "Dog"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Rabbits eat plants (herbivores) but have a simple stomach (non-ruminant).",
+    ),
+
+    QuizQuestion(
+      question: "7. What do we call the process of bringing food back from the stomach to the mouth to be re-chewed?",
+      options: ["Digestion", "Fermentation", "Respiration", "Regurgitation"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Regurgitation is the act of bringing up the 'cud' to chew it again.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which feature is unique to poultry among the three groups?",
+      options: ["Having four legs", "Being domesticated", "Lacking teeth", "Living on farms"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "While mammals have teeth, poultry have beaks and no teeth.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which group of animals is most efficient at digesting tough grass?",
+      options: ["Monogastrics", "Ruminants", "Poultry", "Humans"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The four-chambered stomach is specially designed to break down cellulose in grass.",
+    ),
+
+    QuizQuestion(
+      question: "10. A turkey and a guinea fowl both belong to which category?",
+      options: ["Ruminants", "Monogastrics", "Mammals", "Poultry"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Both are domesticated birds, which places them in the poultry category.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Using an animal's products only for the family's needs is called:",
+      options: ["Industrial use", "Commercial use", "Domestic use", "Professional use"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Domestic use refers to household consumption and personal utility.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which meat comes from sheep?",
+      options: ["Beef", "Mutton", "Pork", "Chevon"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Mutton is the meat of a domestic sheep.",
+    ),
+
+    QuizQuestion(
+      question: "3. Hides and skins from ruminants are primarily used in which industry?",
+      options: ["Construction", "Banking", "Leather", "Electronics"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Hides are processed into leather for goods like shoes and bags.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Draft power\" refers to using animals for:",
+      options: ["Producing milk", "Laying eggs", "Doing work", "Making leather"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Draft power is the use of animals to pull heavy loads or farm equipment.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these poultry products is often used to fill pillows and cushions?",
+      options: ["Beaks", "Claws", "Feathers", "Manure"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Feathers and down are soft materials used for bedding and upholstery.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is rabbit meat considered very healthy?",
+      options: ["It is very expensive.", "It has low cholesterol.", "It comes from the forest.", "It is red in color."],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Rabbit meat is a lean protein with low fat and cholesterol levels.",
+    ),
+
+    QuizQuestion(
+      question: "7. Selling animal by-products like manure to other farmers is an example of:",
+      options: ["Domestic use", "Commercial use", "Wild use", "Illegal use"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Any transaction aimed at generating income is a commercial use.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which animal provides us with beef?",
+      options: ["Pig", "Goat", "Sheep", "Cattle"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Beef is specifically the meat obtained from cattle.",
+    ),
+
+    QuizQuestion(
+      question: "9. What can a farmer do with animal dung to save money?",
+      options: ["Use it as leather.", "Use it as fertilizer.", "Use it as meat.", "Use it as fur."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Manure replaces the need for expensive chemical fertilizers.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these is a similarity between poultry and ruminants?",
+      options: ["They both provide milk.", "They both provide draft power.", "They both provide meat.", "They both provide fur."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Both groups are major sources of meat (protein) for humans.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s2ss4Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which animal is the primary source of milk in the commercial dairy industry?",
+      options: ["Pig", "Cattle", "Rabbit", "Chicken"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "While goats produce milk, cattle are the primary commercial source globally and in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "2. A by-product is best described as:",
+      options: ["The main reason an animal is reared.", "A secondary product made during production.", "An animal that lives in the wild forest.", "A disease that affects domestic poultry."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "By-products are additional useful materials obtained alongside the primary product.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these animals would be most suitable for a farmer with very limited land?",
+      options: ["A herd of 20 Cattle", "A flock of 10 Sheep", "A pen of 5 Rabbits", "A group of 15 Donkeys"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rabbits are monogastrics that require very little space compared to ruminants.",
+    ),
+
+    QuizQuestion(
+      question: "4. Animal fat used in soap making is an example of a:",
+      options: ["Primary product", "Waste product", "By-product", "Draft product"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Fat is a secondary material utilized in the industrial sector.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which animal's manure is known for being especially rich in nitrogen for gardening?",
+      options: ["Pig", "Cattle", "Poultry", "Horse"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Poultry droppings are highly concentrated and valued as a premium fertilizer.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which animal is correctly matched to its primary commercial meat?",
+      options: ["Sheep — Pork", "Pig — Mutton", "Cattle — Beef", "Goat — Bacon"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Beef always comes from cattle.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a major commercial advantage of rearing pigs?",
+      options: ["They can pull heavy ploughs.", "They produce high-quality wool.", "They have many offspring at once.", "They provide milk for the market."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The high reproductive rate of pigs makes them very profitable for meat production.",
+    ),
+
+    QuizQuestion(
+      question: "8. Comparing a dog and a bull, which one provides draft power on a farm?",
+      options: ["The dog", "The bull", "Both of them", "Neither of them"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Bulls are used for heavy labor like pulling carts; dogs are for security or companionship.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which part of a sheep is most useful to the leather industry?",
+      options: ["The hooves", "The horns", "The skin", "The meat"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Animal skins (pelts) are the raw material for leather production.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is observing animal behavior important for a farmer?",
+      options: ["To teach the animals how to dance.", "To choose the best animal for a task.", "To make the animals grow feathers.", "To change a pig into a ruminant."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Observation helps a farmer match the right animal to the right environment and purpose.",
+    ),
+  ],
+);
 
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
@@ -20074,6 +20410,503 @@ final QuizModel Scijhs2s1ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation:
           "Harmful fungi can cause infections like ringworm or athlete's foot.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs2s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main constituent of all organic compounds?",
+      options: ["Nitrogen", "Carbon", "Calcium", "Sodium"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Carbon is the fundamental building block of all living and organic matter.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these acts as a \"producer\" in the carbon cycle?",
+      options: ["A grasshopper", "A hungry hawk", "A green maize plant", "A domestic cat"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Plants are producers because they produce food using carbon from the air.",
+    ),
+
+    QuizQuestion(
+      question: "3. Through which process does carbon move from a plant to an animal?",
+      options: ["Breathing", "Burning", "Melting", "Feeding"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "When animals eat plants, the carbon stored in the plant tissue is transferred to the animal.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the scientific name for the process of burning fuels?",
+      options: ["Respiration", "Combustion", "Evaporation", "Condensation"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Combustion is the chemical process of burning a fuel to release energy and carbon.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where do plants get the carbon they need for photosynthesis?",
+      options: ["From the soil", "From the sun", "From the atmosphere", "From the rain"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Plants absorb Carbon (IV) Oxide directly from the air (atmosphere).",
+    ),
+
+    QuizQuestion(
+      question: "6. Which process releases carbon when a living thing gets energy from food?",
+      options: ["Respiration", "Photosynthesis", "Sublimation", "Freezing"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Respiration breaks down glucose and releases carbon dioxide as a byproduct.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is the carbon cycle important for the environment?",
+      options: ["It removes all air", "It keeps carbon moving", "It stops the rain", "It makes rocks soft"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It ensures carbon is constantly recycled so it is always available for life.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of the following contains stored carbon?",
+      options: ["Plastic bottles", "Pieces of rock", "Fossil fuels", "All of the above"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Carbon is found in organic materials, certain rocks like limestone, and fossil fuels.",
+    ),
+
+    QuizQuestion(
+      question: "9. What happens to the carbon in a fallen leaf over time?",
+      options: ["It disappears forever", "It turns into oxygen", "It is released by decay", "It stays there always"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Decomposers break down the leaf, releasing its carbon back into the cycle.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these is a product of photosynthesis?",
+      options: ["Carbon (IV) Oxide", "Diesel fuel", "Glucose (food)", "Liquid smoke"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Plants use carbon to create glucose, which serves as food for themselves and consumers.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How do plants specifically help maintain the composition of air?",
+      options: ["By releasing nitrogen gas", "By absorbing carbon oxide", "By trapping all the rain", "By making the soil dark"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Plants remove Carbon (IV) Oxide from the air during photosynthesis, preventing it from building up.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the primary source of carbon for a 'producer' in a food chain?",
+      options: ["The earth's atmosphere", "Deep underground rocks", "Other small animals", "The local river water"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Producers (plants) get their carbon directly from the atmosphere to start the food chain.",
+    ),
+
+    QuizQuestion(
+      question: "3. What happens to solar energy trapped by greenhouse gases?",
+      options: ["It is reflected into space", "It turns into liquid water", "It is held in the atmosphere", "It disappears immediately"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Greenhouse gases trap heat in the atmosphere, warming the planet.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which activity increases the amount of greenhouse gases in Ghana?",
+      options: ["Planting many new trees", "Riding a bicycle to school", "Burning household waste", "Turning off light bulbs"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Burning waste (combustion) releases stored carbon back into the air as a greenhouse gas.",
+    ),
+
+    QuizQuestion(
+      question: "5. In a food chain, how does a hawk get its carbon?",
+      options: ["By breathing very deeply", "By eating other animals", "By absorbing solar rays", "By drinking muddy water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Consumers like hawks get carbon by eating other organisms that already contain carbon.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is a direct result of an unbalanced carbon cycle?",
+      options: ["More oxygen in the air", "Change in global climate", "Faster plant respiration", "Colder summer evenings"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "An unbalanced cycle usually means more carbon in the air, leading to climate change.",
+    ),
+
+    QuizQuestion(
+      question: "7. What do we call plants in the context of the carbon cycle?",
+      options: ["Primary consumers", "Atmospheric sinks", "Secondary feeders", "Tertiary predators"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Because plants 'soak up' carbon dioxide, they are often called carbon sinks.",
+    ),
+
+    QuizQuestion(
+      question: "8. What role does respiration play in the environment's gas balance?",
+      options: ["It adds oxygen to the air", "It removes carbon from air", "It adds carbon to the air", "It adds nitrogen to soil"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Respiration releases Carbon (IV) Oxide, which is then used by plants.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which gas is produced as a byproduct of photosynthesis?",
+      options: ["Methane", "Oxygen", "Carbon", "Helium"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "While taking in carbon, plants give out oxygen, which is vital for human survival.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is bush burning discouraged in environmental conservation?",
+      options: ["It creates too much shade", "It uses up all the water", "It releases stored carbon", "It makes the plants grow"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Bush burning releases large amounts of carbon dioxide quickly, contributing to the greenhouse effect.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which stage is the second phase in the life cycle of a mosquito?",
+      options: ["Adult", "Pupa", "Larva", "Egg"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The eggs hatch directly into larvae (wrigglers).",
+    ),
+
+    QuizQuestion(
+      question: "2. What do female Anopheles mosquitoes need from human blood?",
+      options: ["Water to drink", "Sugar for energy", "Salt for survival", "Nutrients for eggs"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Females require specific proteins and nutrients found in blood to produce their eggs.",
+    ),
+
+    QuizQuestion(
+      question: "3. How many stages are in the complete life cycle of an Anopheles mosquito?",
+      options: ["Four stages", "Three stages", "Five stages", "Two stages"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The stages are Egg, Larva, Pupa, and Adult.",
+    ),
+
+    QuizQuestion(
+      question: "4. In which stage does the mosquito spend its time resting and not feeding?",
+      options: ["Larva", "Pupa", "Adult", "Egg"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The pupa is a non-feeding stage where the body transforms.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a major environmental requirement for mosquito breeding?",
+      options: ["Stagnant water", "Running water", "Dry leaf piles", "Direct sunlight"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mosquitoes must lay their eggs in still, stagnant water to survive.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the primary role of the male Anopheles mosquito in a garden?",
+      options: ["Catching flies", "Pollinating", "Eating leaves", "Laying eggs"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Males feed on nectar and help transfer pollen between flowers.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is the Anopheles mosquito considered economically \"bad\" in Ghana?",
+      options: ["It eats crops", "It kills fish", "It stays loud", "It costs money"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The disease it carries (malaria) results in high healthcare costs and loss of productivity.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does the mosquito larva use the water surface for?",
+      options: ["Laying its eggs", "Breathing air", "Catching birds", "Drying wings"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Larvae have a breathing tube that must reach the air at the surface.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which animal directly benefits from mosquitoes as a food source?",
+      options: ["Dragonflies", "Grasshoppers", "Earthworms", "Butterflies"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Dragonflies are natural predators that eat mosquitoes.",
+    ),
+
+    QuizQuestion(
+      question: "10. The mosquito emerges as a flying adult from which specific stage?",
+      options: ["The Larva", "The Pupa", "The Raft", "The Egg"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The adult mosquito crawls out of the pupa case once the transformation is done.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary disease transmitted by the Anopheles mosquito?",
+      options: ["Yellow Fever", "Malaria", "Cholera", "Tetanus"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Anopheles mosquito is the specific vector for the malaria parasite.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which method involves using natural predators like fish to eat larvae?",
+      options: ["Chemical Control", "Genetic Control", "Biological Control", "Physical Control"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Biological control uses living organisms to reduce the population of a pest.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why should you empty water from old tyres and coconut shells?",
+      options: ["To save the water", "To keep the yard clean", "To stop egg-laying", "To attract more birds"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Mosquitoes need stagnant water to lay their eggs and for the larvae to grow.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which control method involves releasing 'sterile' mosquitoes?",
+      options: ["Environmental", "Chemical", "Biological", "Genetic"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Genetic control modifies the biology of the insect to prevent reproduction.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is a major symptom of malaria in humans?",
+      options: ["Stronger muscles", "High fever and chills", "Better eyesight", "Hunger and thirst"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Shivering (chills) followed by high fever is a classic sign of malaria.",
+    ),
+
+    QuizQuestion(
+      question: "6. Insecticide-Treated Nets (ITNs) are an example of which control?",
+      options: ["Environmental", "Biological", "Chemical", "Genetic"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "ITNs use chemicals (insecticides) to kill or repel mosquitoes.",
+    ),
+
+    QuizQuestion(
+      question: "7. The 'Plasmodium' parasite affects which part of the human body first?",
+      options: ["The hair and nails", "The bloodstream", "The teeth and gums", "The outer skin"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Once the mosquito bites, the parasite enters and multiplies in the blood and liver.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is one disadvantage of biological control?",
+      options: ["It uses too many chemicals", "Predators can be hard to find", "It is the fastest method", "It pollutes the drinking water"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Finding and maintaining the right natural predators can be difficult and expensive.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a 'man-made' compound used to kill mosquitoes?",
+      options: ["Water", "Nectar", "Insecticide", "Oxygen"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Insecticides are chemicals specifically designed by humans to kill insects.",
+    ),
+
+    QuizQuestion(
+      question: "10. To be most effective, when should mosquito control be done?",
+      options: ["Only during Christmas", "Only when you are sick", "Regularly in the community", "Once every five years"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Consistent control in the environment is the best way to keep malaria rates low.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is another name for a sunken bed?",
+      options: ["A high ridge", "A shallow basin", "A mountain bed", "A flat valley"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sunken beds are dug lower than the ground, acting like a basin to hold water.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which bed is level with the ground?",
+      options: ["Sunken bed", "Raised bed", "Flat bed", "Mound bed"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A flat bed is prepared at the same level as the surrounding land.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do farmers use raised beds for tomatoes?",
+      options: ["To keep them away from the soil", "To help the water drain away", "To make the tomatoes grow blue", "To hide them from the sunlight"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Tomatoes prefer well-drained soil, and raised beds prevent waterlogging.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a benefit of using a seed bed?",
+      options: ["Higher cost of farming", "Lower crop production", "Better availability of plants", "Slower growth of crops"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Seed beds allow many seedlings to be nursed and accessed easily.",
+    ),
+
+    QuizQuestion(
+      question: "5. In which region of Ghana would a sunken bed be most useful during the dry season?",
+      options: ["A very rainy forest", "A high mountain peak", "A dry northern savannah", "A flooded coastal lagoon"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Sunken beds conserve water, making them ideal for dry environments like the savannah.",
+    ),
+
+    QuizQuestion(
+      question: "6. A farmer prepares a bed by heaping soil 25cm high. This is a:",
+      options: ["Sunken bed", "Flat bed", "Level bed", "Raised bed"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Heaping soil above the ground level creates a raised bed.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which crop is NOT typically grown on a raised bed?",
+      options: ["Lettuce", "Rice", "Pepper", "Carrot"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Rice requires a lot of water and is better suited for sunken or flat, flooded beds.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does \"better yield\" mean for a Ghanaian farmer?",
+      options: ["More food harvested", "More weeds growing", "More expensive tools", "Less work to do"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Yield refers to the amount of crop produced.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which tool is most likely used to create a raised bed?",
+      options: ["A pair of scissors", "A plastic bucket", "A garden hoe", "A school ruler"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A hoe is used to dig and heap soil to form beds.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why should we clear debris like stones before making a seed bed?",
+      options: ["To make the soil heavier", "To help roots grow easily", "To change the soil colour", "To attract more birds"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Removing stones and debris allows young roots to penetrate the soil without obstacles.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which plant part is used to grow ginger?",
+      options: ["Seed", "Sucker", "Rhizome", "Leaf"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ginger grows from underground stems called rhizomes.",
+    ),
+    QuizQuestion(
+      question: "2. What is the main advantage of transplanting?",
+      options: ["It uses more water", "It protects young plants", "It makes planting slower", "It kills the weeds"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Seedlings are protected in a nursery until they are strong enough for the field.",
+    ),
+    QuizQuestion(
+      question: "3. Which crop is most likely to be planted on a sunken bed?",
+      options: ["Cassava", "Maize", "Rice", "Yam"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Rice thrives in the extra water collected by sunken beds.",
+    ),
+
+    QuizQuestion(
+      question: "4. A stem cutting is the primary propagule for which crop?",
+      options: ["Pepper", "Okra", "Cassava", "Rice"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cassava is traditionally grown from stem cuttings.",
+    ),
+    QuizQuestion(
+      question: "5. What is the name for the babies that grow at the base of a banana plant?",
+      options: ["Seeds", "Cuttings", "Suckers", "Bulbs"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "These small plants are called suckers and are used to start new banana groves.",
+    ),
+    QuizQuestion(
+      question: "6. Which method involves planting seeds in a long, narrow trench?",
+      options: ["Dibbling", "Drilling", "Watering", "Fencing"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Drilling is the practice of sowing seeds in rows or furrows.",
+    ),
+    QuizQuestion(
+      question: "7. Why is the 'dibbling' method useful for cassava cuttings?",
+      options: ["It uses less soil", "It keeps the cutting upright", "It makes the cutting turn into a seed", "It prevents the sun from shining"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Making a hole with a tool allows the cutting to be placed firmly and at the right depth.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is NOT a plant part used for planting?",
+      options: ["Seedling", "Root", "Flower", "Sucker"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "While flowers produce seeds, the flower itself is not usually used as a propagule.",
+    ),
+    QuizQuestion(
+      question: "9. If you are planting okra seeds directly into the soil, you are using:",
+      options: ["Transplanting", "Direct Sowing", "Grafting", "Pruning"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Putting seeds straight into their final growing spot is direct sowing.",
+    ),
+    QuizQuestion(
+      question: "10. Soft, loose soil on a raised bed is most helpful for:",
+      options: ["Rice seeds", "Root crops like carrots", "Tall coconut trees", "Floating water lilies"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Loose soil allows roots to expand easily, producing larger carrots or tubers.",
     ),
   ],
 );

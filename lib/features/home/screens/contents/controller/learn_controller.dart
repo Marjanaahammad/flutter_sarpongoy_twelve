@@ -107,7 +107,7 @@ class LearnController extends GetxController {
   String _subActivityKey(int index) =>
       'part_${String.fromCharCode(97 + index)}'; // 97 = 'a'
 
-  Future<void> saveProgress(int index, bool completed) async {
+  Future<void> _saveProgress(int index, bool completed) async {
     try {
       final progress = ActivityProgress(
         lessonId: lessonId,
@@ -207,22 +207,17 @@ class LearnController extends GetxController {
     if (!isPartCompleted[idx]) {
       isPartCompleted[idx] = true;
       isPartCompleted.refresh();
-      await saveProgress(idx, true);
+      await _saveProgress(idx, true);
     }
   }
 
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
-    final idx = currentPartIndex.value;
-    if (!isPartCompleted[idx]) {
-      isPartCompleted[idx] = true;
-      isPartCompleted.refresh();
-      saveProgress(idx, true);
+    if (!isCurrentPartFinished) {
+      debugPrint('Cannot advance: current part not finished this session');
+      return;
     }
-    isPartFinishedInSession[idx] = true;
-    isPartFinishedInSession.refresh();
-
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {

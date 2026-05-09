@@ -128,19 +128,19 @@ class GetReadyController extends GetxController {
       if (!isOverviewCompleted.value) {
         debugPrint("Marking overview as completed in DB");
         isOverviewCompleted.value = true;
-        await saveProgress('overview', true);
+        await _saveProgress('overview', true);
       }
     } else {
       isHookFinishedInSession.value = true;
       if (!isHookCompleted.value) {
         debugPrint("Marking hook as completed in DB");
         isHookCompleted.value = true;
-        await saveProgress('hook', true);
+        await _saveProgress('hook', true);
       }
     }
   }
 
-  Future<void> saveProgress(String subActivity, bool completed) async {
+  Future<void> _saveProgress(String subActivity, bool completed) async {
     try {
       final progress = ActivityProgress(
         lessonId: lessonId,
@@ -203,23 +203,12 @@ class GetReadyController extends GetxController {
   }
 
   void goToHook() {
-    // Force completion if advancing via Next button
-    if (!isOverviewCompleted.value) {
-      isOverviewCompleted.value = true;
-      saveProgress('overview', true);
+    if (!isOverviewFinishedInSession.value && !isOverviewCompleted.value) {
+      debugPrint("Cannot go to hook: Overview not finished this session");
+      return;
     }
-    isOverviewFinishedInSession.value = true;
-
     showHook.value = true;
     loadAudio(model.hookAudioPath, delayMs: 500);
-  }
-
-  void completeHook() {
-    if (!isHookCompleted.value) {
-      isHookCompleted.value = true;
-      saveProgress('hook', true);
-    }
-    isHookFinishedInSession.value = true;
   }
 
   void goBackToOverview() {

@@ -837,7 +837,6 @@ class SidebarController extends GetxController {
                 "Importance of Liquids in the Life of Humans",
                 "Importance of Specific Solids to Life",
                 "The Orderly Arrangement of the Periodic Table",
-                //"Classification of Objects",
               ],
             },
             {
@@ -845,16 +844,8 @@ class SidebarController extends GetxController {
               "topics": [
                 "THE STRUCTURE AND FUNCTION OF ANIMAL CELLS",
                 "THE STRUCTURE AND FUNCTION OF PLANT CELLS",
-                //"Classification of Objects",
               ],
             },
-            // {
-            //   "subtitle": "Materials",
-            //   "topics": [
-            //     "Physical Properties of Metals",
-            //     "Polymers & Synthetics",
-            //   ],
-            // },
           ],
         },
         {
@@ -874,6 +865,11 @@ class SidebarController extends GetxController {
               "subtitle": "CROP PRODUCTION",
               "topics": [
                 "Sources of Plant Nutrients","Physical Characteristics and Application of Plant Nutrients",
+              ],
+            },{
+              "subtitle": "ANIMAL PRODUCTION",
+              "topics": [
+                "Domestic Animals and Their Breeds","Similarities and Differences Among Domestic Animals","Domestic and Commercial Uses of Animals","Observing and Comparing Animal Uses"
               ],
             },
           ],
@@ -1267,8 +1263,14 @@ class SidebarController extends GetxController {
           "subtitle": "CYCLES",
           "subStrands": [
             {
-              "subtitle": "Water Cycle",
-              "topics": ["Evaporation & Condensation"],
+              "subtitle": "EARTH SCIENCE",
+              "topics": ["The Process of the Carbon Cycle", "The Role of the Carbon Cycle to the Environment"],
+            },{
+              "subtitle": "LIFE CYCLE OF ORGANISMS",
+              "topics": ["The Life Cycle of the Anopheles Mosquito", "Impact and Control of the Anopheles Mosquito"],
+            },{
+              "subtitle": "CROP PRODUCTION",
+              "topics": ["Exploring Seed Beds in the Community", "Planting Different Types of Crops on Different Seed Beds"],
             },
           ],
         },
@@ -2452,6 +2454,42 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs1s2ss3Lesson2PracticeData;
                 independentPracticeData = Scijhs1s2ss3Lesson2IndependentQuizData;
                 quizData = Scijhs1s2ss3Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s2ss4Lesson1GetReadyData;
+                learnData = Scijh1s2ss4Lesson1LearnData;
+                practiceData = Scijhs1s2ss4Lesson1PracticeData;
+                independentPracticeData = Scijhs1s2ss4Lesson1IndependentQuizData;
+                quizData = Scijhs1s2ss4Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s2ss4Lesson2GetReadyData;
+                learnData = Scijh1s2ss4Lesson2LearnData;
+                practiceData = Scijhs1s2ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs1s2ss4Lesson2IndependentQuizData;
+                quizData = Scijhs1s2ss4Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS1s2ss4Lesson3GetReadyData;
+                learnData = Scijh1s2ss4Lesson3LearnData;
+                practiceData = Scijhs1s2ss4Lesson3PracticeData;
+                independentPracticeData = Scijhs1s2ss4Lesson3IndependentQuizData;
+                quizData = Scijhs1s2ss4Lesson3QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 3) {
+                getReadyData = SciJHS1s2ss4Lesson4GetReadyData;
+                learnData = Scijh1s2ss4Lesson4LearnData;
+                practiceData = Scijhs1s2ss4Lesson4PracticeData;
+                independentPracticeData = Scijhs1s2ss4Lesson4IndependentQuizData;
+                quizData = Scijhs1s2ss4Lesson4QuizData;
               }
               if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
@@ -2524,6 +2562,66 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     Scijhs2s1ss2Lesson2IndependentQuizData;
                 quizData = Scijhs2s1ss2Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS2s2ss1Lesson1GetReadyData;
+                learnData = Scijh2s2ss1Lesson1LearnData;
+                practiceData = Scijhs2s2ss1Lesson1PracticeData;
+                independentPracticeData = Scijhs2s2ss1Lesson1IndependentQuizData;
+                quizData = Scijhs2s2ss1Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS2s2ss1Lesson2GetReadyData;
+                learnData = Scijh2s2ss1Lesson2LearnData;
+                practiceData = Scijhs2s2ss1Lesson2PracticeData;
+                independentPracticeData = Scijhs2s2ss1Lesson2IndependentQuizData;
+                quizData = Scijhs2s2ss1Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS2s2ss2Lesson1GetReadyData;
+                learnData = Scijh2s2ss2Lesson1LearnData;
+                practiceData = Scijhs2s2ss2Lesson1PracticeData;
+                independentPracticeData = Scijhs2s2ss2Lesson1IndependentQuizData;
+                quizData = Scijhs2s2ss2Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS2s2ss2Lesson2GetReadyData;
+                learnData = Scijh2s2ss2Lesson2LearnData;
+                practiceData = Scijhs2s2ss2Lesson2PracticeData;
+                independentPracticeData = Scijhs2s2ss2Lesson2IndependentQuizData;
+                quizData = Scijhs2s2ss2Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS2s2ss3Lesson1GetReadyData;
+                learnData = Scijh2s2ss3Lesson1LearnData;
+                practiceData = Scijhs2s2ss3Lesson1PracticeData;
+                independentPracticeData = Scijhs2s2ss3Lesson1IndependentQuizData;
+                quizData = Scijhs2s2ss3Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS2s2ss3Lesson2GetReadyData;
+                learnData = Scijh2s2ss3Lesson2LearnData;
+                practiceData = Scijhs2s2ss3Lesson2PracticeData;
+                independentPracticeData = Scijhs2s2ss3Lesson2IndependentQuizData;
+                quizData = Scijhs2s2ss3Lesson2QuizData;
               }
               if (grade == "JHS 3" &&
                   courseTitle == "Science" &&

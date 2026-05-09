@@ -8862,6 +8862,230 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/8. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a characteristic of the N'dama cattle?",
+        options: [
+          "It has a massive hump.",
+          "It is mostly white with long horns.",
+          "It is brown and has no hump.",
+          "It has a black and white spotted coat."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "N'dama cattle are typically brown and do not have a hump."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The Yankasa sheep is easily identified by which feature?",
+        options: [
+          "Its very short legs.",
+          "Black patches around its eyes and nose.",
+          "Its reddish-brown fur.",
+          "Having four horns."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Yankasa sheep are known for the black patches around their eyes and nose."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which goat breed is tall with long, flapping ears and lives in dry areas?",
+        options: [
+          "West African Dwarf",
+          "Sokoto Red",
+          "Sahelian (Maure)",
+          "N'dama"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Sahelian (Maure) goat is tall with long ears and is adapted to dry climates."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are West African Dwarf goats popular in Ghanaian villages?",
+        options: [
+          "They are the tallest goats in the world.",
+          "They are small, hardy, and have many kids.",
+          "They produce more milk than cows.",
+          "They can fly over fences."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "West African Dwarf goats are hardy, easy to keep, and reproduce well."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these organs is known as the \"true stomach\" in a cow?",
+        options: [
+          "Rumen",
+          "Reticulum",
+          "Omasum",
+          "Abomasum"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The abomasum is called the true stomach because it functions like the stomach of monogastric animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major difference between a Rabbit and a Sheep?",
+        options: [
+          "One is a bird and the other is a mammal.",
+          "One is domestic and the other is wild.",
+          "One has a simple stomach and the other has four chambers.",
+          "One eats grass and the other eats only meat."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A rabbit has a simple stomach, while a sheep has a four-chambered stomach."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. All poultry have which of the following features?",
+        options: [
+          "They all chew the cud.",
+          "They all have four legs.",
+          "They all have feathers.",
+          "They all have humps."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "All poultry are birds, and birds have feathers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which animal is a monogastric?",
+        options: [
+          "Goat",
+          "Pig",
+          "Cattle",
+          "Sheep"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A pig is monogastric because it has a single-chambered stomach."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a commercial use of animals?",
+        options: [
+          "Keeping a cat to catch mice in your kitchen.",
+          "Using a dog to guard your house at night.",
+          "Selling 200 liters of cow milk to a factory.",
+          "Eating a chicken egg from your own backyard."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Selling milk to a factory is a business activity, making it a commercial use of animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name given to the meat of a pig?",
+        options: [
+          "Beef",
+          "Mutton",
+          "Chevon",
+          "Pork"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Meat obtained from pigs is called pork."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which animal by-product is commonly used to improve soil fertility in Ghana?",
+        options: [
+          "Feathers",
+          "Manure",
+          "Leather",
+          "Fur"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Manure is commonly added to soil to improve fertility and plant growth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which animal is often used in laboratories for medical research?",
+        options: [
+          "Cattle",
+          "Rabbit",
+          "Sheep",
+          "Goat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Rabbits are commonly used in medical and scientific research laboratories."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which animal is most commonly matched with the commercial production of bacon?",
+        options: [
+          "Sheep",
+          "Goat",
+          "Pig",
+          "Cattle"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Bacon is produced from pigs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following is a by-product of the poultry industry?",
+        options: [
+          "Leather belts",
+          "Draft power",
+          "Milk bottles",
+          "Feather dusters"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Feathers from poultry are used to make products such as feather dusters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why might a farmer in a rural area prefer cattle over pigs for land preparation?",
+        options: [
+          "Cattle can pull ploughs.",
+          "Cattle lay larger eggs.",
+          "Cattle grow much faster.",
+          "Cattle eat only maize."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Cattle are strong animals that can be used to pull ploughs for farming."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which by-product is used in the manufacturing of traditional Ghanaian drums like the Gome or Donno?",
+        options: [
+          "Poultry feathers",
+          "Animal skins/hides",
+          "Pig lard",
+          "Rabbit fur"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Animal skins and hides are used to cover traditional drums."
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
@@ -9135,6 +9359,343 @@ final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData = Independ
         difficulty: "Easy",
         explanation:
             "Yeast is classified as a eukaryote because its cell contains a nucleus."),
+  ],
+);
+
+final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which process is responsible for taking carbon out of the atmosphere?",
+        options: [
+          "Respiration",
+          "Combustion",
+          "Photosynthesis",
+          "Decomposition"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Photosynthesis removes carbon dioxide from the atmosphere and uses it to make food in plants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What gas do humans and animals release during respiration?",
+        options: [
+          "Oxygen",
+          "Carbon (IV) Oxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Humans and animals release carbon dioxide, also called Carbon (IV) Oxide, during respiration."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the carbon cycle, what role do bacteria and fungi play when an organism dies?",
+        options: [
+          "They create solar energy",
+          "They stop the cycle",
+          "They perform photosynthesis",
+          "They cause decomposition"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Bacteria and fungi decompose dead organisms and return carbon to the environment."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a local example of combustion?",
+        options: [
+          "A child breathing",
+          "Burning charcoal for coal pot",
+          "A mango tree growing",
+          "Rain falling on a farm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Burning charcoal is an example of combustion because fuel reacts with oxygen to release heat."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these gases is primarily responsible for the greenhouse effect?",
+        options: [
+          "Nitrogen",
+          "Carbon (IV) Oxide",
+          "Oxygen",
+          "Argon"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Carbon (IV) Oxide is a greenhouse gas that traps heat in the atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What would happen to a food chain if the carbon cycle stopped?",
+        options: [
+          "Animals would grow faster",
+          "Plants would produce more",
+          "The food chain would fail",
+          "Rain would become frequent"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Without the carbon cycle, plants and animals would not get the carbon needed for life, causing food chains to fail."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the effect of 'deforestation' on the environment?",
+        options: [
+          "It increases oxygen levels",
+          "It cools down the Earth",
+          "It reduces carbon in air",
+          "It increases carbon in air"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Deforestation reduces the number of trees that absorb carbon dioxide, increasing carbon in the atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the carbon cycle considered a 'regulator'?",
+        options: [
+          "It makes the sun shine",
+          "It balances air and heat",
+          "It creates new minerals",
+          "It stops all bush fires"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The carbon cycle helps regulate the balance of gases and temperature on Earth."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. At which stage does the Anopheles mosquito undergo internal changes without feeding?",
+        options: [
+          "The Egg Stage",
+          "The Larva Stage",
+          "The Pupa Stage",
+          "The Adult Stage"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The pupa stage is the resting stage where the mosquito changes internally without feeding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following is a positive economic importance of the mosquito?",
+        options: [
+          "Spreading parasites",
+          "Pollinating flowers",
+          "Causing skin rashes",
+          "Sucking human blood"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Some mosquitoes help in pollinating flowers while feeding on nectar."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Where is the most likely place to find a 'raft' of mosquito eggs?",
+        options: [
+          "On dry sandy soil",
+          "Inside a fast river",
+          "In a choked gutter",
+          "On a clean table"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mosquitoes usually lay eggs in stagnant dirty water such as choked gutters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which animal is part of the food chain that eats mosquito larvae?",
+        options: [
+          "A house cat",
+          "A small fish",
+          "A large goat",
+          "A fruit bat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Small fish feed on mosquito larvae in water bodies."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of 'Environmental Control'?",
+        options: [
+          "Buying a mosquito coil",
+          "Sleeping under a net",
+          "Draining a choked gutter",
+          "Going to the hospital"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Environmental control involves removing mosquito breeding places such as stagnant water in gutters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which parasite is carried by the female Anopheles mosquito?",
+        options: [
+          "Bacteria",
+          "Plasmodium",
+          "Virus",
+          "Fungi"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The female Anopheles mosquito carries the Plasmodium parasite that causes malaria."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a disadvantage of using chemical control (spraying)?",
+        options: [
+          "It is very slow",
+          "It can pollute the air",
+          "It requires no effort",
+          "It kills only fish"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Chemical spraying can pollute the environment and affect air quality."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does genetic control help reduce the mosquito population?",
+        options: [
+          "It feeds the mosquitoes",
+          "It makes mosquitoes faster",
+          "It prevents new births",
+          "It changes their color"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Genetic control reduces mosquito populations by preventing successful reproduction."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of seed bed is most suitable for growing rice?",
+        options: [
+          "Flat bed",
+          "Raised bed",
+          "Sunken bed",
+          "Hard ground"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Rice grows well in waterlogged conditions, so a sunken bed is most suitable."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is a raised bed (ridge) useful during the rainy season in Ghana?",
+        options: [
+          "It traps all the water",
+          "It prevents root rotting",
+          "It makes the soil harder",
+          "It attracts more pests"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Raised beds improve drainage and help prevent roots from rotting."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these crops is commonly grown on a flat bed?",
+        options: [
+          "Maize",
+          "Carrot",
+          "Rice",
+          "Yam"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Maize is commonly planted on flat seed beds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary purpose of a seed bed?",
+        options: [
+          "To make the farm look pretty",
+          "To provide a good start for seeds",
+          "To prevent any grass from growing",
+          "To stop the farmer from walking"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A seed bed provides suitable conditions for seeds to germinate and grow well."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these crops is usually planted using suckers?",
+        options: [
+          "Maize",
+          "Plantain",
+          "Cowpea",
+          "Tomato"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plantain is commonly propagated using suckers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the best method for planting maize in a large flat field?",
+        options: [
+          "Transplanting",
+          "Drilling",
+          "Direct Sowing",
+          "Mulching"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Direct sowing is commonly used for planting maize in large fields."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why do we plant carrots on raised beds?",
+        options: [
+          "To keep them away from water",
+          "To make the roots grow long and straight",
+          "To hide them from the sun",
+          "To make them grow into trees"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Raised beds provide loose soil that allows carrot roots to grow long and straight."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When a farmer uses a stick to make a hole for a seed, what is this called?",
+        options: [
+          "Drilling",
+          "Dibbling",
+          "Ploughing",
+          "Flooding"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dibbling is the method of making holes in the soil for planting seeds."
+    ),
   ],
 );
 

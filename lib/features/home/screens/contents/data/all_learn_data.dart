@@ -2345,7 +2345,7 @@ final LearnModel Scijh1s2ss2Lesson1LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/3. Teach - Part A.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L1/TEACH Part B.png',
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS2 L1/TEACH Part B.jpg',
     audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/4. Teach - Part B.m4a',
   )
 ]);
@@ -2378,6 +2378,61 @@ final LearnModel Scijh1s2ss3Lesson2LearnData = LearnModel(parts: [
     imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS3 L2/TEACH (Part B).jpg',
     audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/4. Teach - Part B.m4a',
   )
+]);
+final LearnModel Scijh1s2ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L1/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L1/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/4. Teach - Part B.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L1/TEACH (Part C) .jpg',
+    audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/5. Teach - Part C.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L1/TEACH (Part D).jpg',
+    audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/6. Teach - Part D.m4a',
+  ),
+]);
+final LearnModel Scijh1s2ss4Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L2/TEACH (Part A) (1).jpg',
+    audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L2/TEACH (Part B) (1).jpg',
+    audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/4. Teach - Part B.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L2/TEACH (Part C) .jpg',
+    audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh1s2ss4Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L3/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L3/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/4. Teach - Part B.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L3/TEACH (Part C) .jpg',
+    audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh1s2ss4Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part A).jpg',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part B).jpg',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/4. Teach - Part B.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part C) .jpg',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/5. Teach - Part C.m4a',
+  ),
 ]);
 
 final LearnModel Scijh2s1ss1Lesson1LearnData = LearnModel(parts: [
@@ -2463,6 +2518,87 @@ final LearnModel Scijh2s1ss2Lesson2LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS2 S1 SS2 L2/partC.jpg',
     audioPath: 'assets/audio/science/6. JHS2 S1 SS2 L2/5. Teach - Part C.m4a',
+  ),
+]);
+
+final LearnModel Scijh2s2ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L1/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L1/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L1/partC.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh2s2ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L2/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L2/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS1 L2/partC.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh2s2ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS2 L1/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS2 L1/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/4. Teach - Part B.m4a',
+  ),
+]);
+final LearnModel Scijh2s2ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS2 L2/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS2 L2/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS2 L2/partC.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh2s2ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L1/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L1/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L1/partC.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel Scijh2s2ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L2/partA.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L2/partB.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L2/partC.jpg',
+    audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/5. Teach - Part C.m4a',
   ),
 ]);
 

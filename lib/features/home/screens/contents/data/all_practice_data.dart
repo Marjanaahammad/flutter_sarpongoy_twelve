@@ -4230,6 +4230,86 @@ final PracticeModel Scijhs1s2ss3Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs1s2ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/7. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: I see a cow that is pure white with a big hump and very long horns. What breed is it?",
+      answer: "Correct Answer: White Fulani.",
+      explanation: "Explanation: The hump and long horns on a white coat are the signature marks of the White Fulani.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: I am looking at a sheep that has a dark brown front half and a white back half. Which breed is this?",
+      answer: "Correct Answer: Ouda (or Sahelian sheep).",
+      explanation: "Explanation: The distinct two-tone color split is the identifying feature of the Ouda.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which goat breed is famous for its reddish-brown skin and is used for high-quality leather?",
+      answer: "Correct Answer: Sokoto Red.",
+      explanation: "Explanation: The Sokoto Red is specifically valued for its red coat and superior skin quality.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: An animal is seen resting under a tree and 'chewing the cud.' Which category does it belong to?",
+      answer: "Correct Answer:  Ruminant",
+      explanation: "Explanation: Only ruminants regurgitate food from the reticulum to re-chew it as cud.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify two similarities between a pig and a goat.",
+      answer: "Correct Answer: They are both mammals and they are both domestic animals.",
+      explanation: "Explanation: Both have hair/fur, give birth to live young, and are reared by humans.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why can't a chicken chew its maize?",
+      answer: "Correct Answer: Because poultry have beaks and no teeth.",
+      explanation: "Explanation: Birds use their beaks to pick up food but lack teeth for grinding; they rely on their internal gizzard instead.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ama’s father has two bullocks that he uses to pull a cart to carry firewood for their home cooking. Is this domestic or commercial use?",
+      answer: "Correct Answer: Domestic use.",
+      explanation: "Explanation: He is using the animals' draft power for a household chore, not for selling a service or product.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Name the specific meat we get from a goat and one by-product we can get from its skin.",
+      answer: "Correct Answer: The meat is called chevon; the skin can be used to make leather or drum heads.",
+      explanation: "Explanation: Chevon is the correct term for goat meat, and their skins are vital for the leather industry in Ghana.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A poultry farmer sells 50 crates of eggs to a local bakery every Monday. What type of use is this?",
+      answer: "Correct Answer: Commercial use.",
+      explanation: "Explanation: The farmer is producing a large quantity to sell for profit (income generation).",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s2ss4Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer wants to grow his vegetable garden without buying chemical fertilizers. Which animal by-product should he collect?",
+      answer: "Correct Answer: Animal manure (dung or poultry droppings).",
+      explanation: "Explanation: Manure is a natural by-product that provides the nitrogen and nutrients plants need to grow.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Compare the space needed for 50 chickens versus 50 cattle. Which one is better for a small backyard in a city?",
+      answer: "Correct Answer: 50 chickens.",
+      explanation: "Explanation: Poultry require much less space and can be kept in cages or coops, whereas cattle need large areas of pasture for grazing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which animal by-product might be used by a carpenter to help stick pieces of wood together?",
+      answer: "Correct Answer: Glue made from animal hooves or horns.",
+      explanation: "Explanation: THooves and horns contain proteins that can be processed into strong adhesives.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',
@@ -4377,6 +4457,127 @@ final PracticeModel Scijhs2s1ss2Lesson2PracticeData = PracticeModel(
           "To prevent harmful cells (bacteria) and flies from contaminating the food.",
       explanation:
           "Covering food stops prokaryotes from landing on it and growing, which prevents food poisoning.",
+    ),
+  ],
+);
+
+final PracticeModel Scijhs2s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is the movement of carbon described as a \"cycle\"?",
+      answer: "Correct Answer: It is a cycle because carbon moves in a repeated pattern from the atmosphere to living things and back again, ensuring it is reused.",
+      explanation: "Explanation: A cycle has no end. Since carbon is used and then returned to be used again, it follows a circular path.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how a goat eating grass is part of the carbon cycle.",
+      answer: "Correct Answer: The grass captures carbon through photosynthesis. When the goat eats the grass, the carbon moves into the goat's body to help it grow.",
+      explanation: "Explanation: This shows how carbon moves from a producer (grass) to a consumer (goat) within the cycle.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What happens to the carbon in a piece of wood when it is used to make a fire for cooking?",
+      answer: "Correct Answer: The carbon in the wood is released into the atmosphere as Carbon (IV) Oxide through the process of combustion.",
+      explanation: "Explanation: Burning (combustion) breaks down the solid carbon in the wood and turns it into a gas that returns to the air.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How do plants help keep the air fresh for humans?",
+      answer: "Correct Answer: Plants absorb Carbon (IV) Oxide, which humans breathe out, and release Oxygen, which humans need to breathe in.",
+      explanation: "Explanation: This exchange is a key part of the carbon cycle that maintains the correct balance of gases in the atmosphere.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If all the trees in a village were cut down, what would happen to the amount of Carbon (IV) Oxide in that area?",
+      answer: "Correct Answer: The amount of Carbon (IV) Oxide would increase because there would be no trees to absorb it from the air.",
+      explanation: "Explanation: Trees act as 'carbon sinks.' Removing them stops the removal of carbon from the atmosphere, leading to higher gas levels.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the relationship between the carbon cycle and a 'Greenhouse Gas'?",
+      answer: "Correct Answer: The carbon cycle regulates the amount of greenhouse gases like Carbon (IV) Oxide; if the cycle is unbalanced, these gases trap too much heat.",
+      explanation: "Explanation: Greenhouse gases are necessary for warmth, but the carbon cycle must keep them at the right level to prevent global warming.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why do Anopheles mosquito eggs stick together to form a raft?",
+      answer: "Correct Answer: They stick together to stay afloat on the surface of the stagnant water.",
+      explanation: "Explanation: By forming a raft, the eggs remain at the surface where there is enough oxygen and the right conditions to hatch without sinking to the bottom.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does the feeding habit of a male mosquito differ from a female mosquito?",
+      answer: "Correct Answer: Males feed on nectar for energy, while females suck blood to get nutrients for their eggs.",
+      explanation: "Explanation: This is a key difference! Males are actually pollinators because they only want the sugar from flowers. Females only bite humans because they need protein to develop their eggs.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is the larva stage often called the 'wriggler'?",
+      answer: "Correct Answer: Because of the jerky, swimming motion they make when they move through the water.",
+      explanation: "Explanation: If you tap a container of water with larvae in it, you will see them 'wriggle' down to the bottom to hide from danger.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is it important to clear bushes and tall grass around your house?",
+      answer: "Correct Answer: It removes the resting places where adult mosquitoes hide during the day.",
+      explanation: "Explanation: Adult mosquitoes don't like the hot sun; they prefer dark, damp, and cool places like tall grass. If we cut the grass, they have nowhere to stay near our homes.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a village has a large pond that cannot be drained, what is a 'biological' way to control mosquitoes?",
+      answer: "Correct Answer: Introduce fish like Tilapia that eat mosquito larvae.",
+      explanation: "Explanation: Biological control means using another living thing (the fish) to control the pest (the mosquito).",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does it mean when we call the Anopheles mosquito a 'vector'?",
+      answer: "Correct Answer: It means the mosquito carries and transmits the malaria parasite from one person to another.",
+      explanation: "Explanation: The mosquito is like a vehicle. It doesn't cause the sickness directly; it carries the Plasmodium passenger into our bodies.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why would a farmer in a very dry area prefer to use a sunken bed instead of a raised bed?",
+      answer: "Correct Answer: A sunken bed acts like a basin to collect and hold water.",
+      explanation: "Explanation: In dry areas, water is scarce. A sunken bed keeps the moisture near the plant roots and prevents it from running away, whereas a raised bed would dry out too quickly in the sun.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you see a farmer heaping up soil to create a bed 20cm above the ground, what type of bed is being made, and what is one benefit?",
+      answer: "Correct Answer: This is a Raised Bed (or ridge). One benefit is better drainage.",
+      explanation: "Explanation: By heaping the soil, the farmer ensures that during heavy rains, the excess water stays in the furrows and doesn't drown the crops.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is a \"seed bed\"?",
+      answer: "Correct Answer: A specially prepared soil environment for planting seeds or seedlings.",
+      explanation: "Explanation: It is land that has been cleared, broken up, and prepared to give seeds the best start possible.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a farmer wants to grow tomatoes, should they sow the seeds directly in a big field or start them as seedlings first?",
+      answer: "Correct Answer: Start them as seedlings first (in a nursery).",
+      explanation: "Explanation: Tomatoes are delicate when they are young. Starting them in a nursery bed and then transplanting them to a raised bed gives them the best chance to survive.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Kwesi has a bundle of cassava stems. What is the name of this plant part used for planting?",
+      answer: "Correct Answer: Cuttings (or Stem Cuttings).",
+      explanation: "Explanation: Cassava is grown by taking pieces of the stem, which we call cuttings, and planting them in the soil.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the name of the method where you move a plant from a nursery to a permanent bed?",
+      answer: "Correct Answer: Transplanting.",
+      explanation: "Explanation: Moving a young plant so it has more space and better soil to grow to maturity is called transplanting.",
     ),
   ],
 );
