@@ -4291,7 +4291,7 @@ final PracticeModel Scijhs1s2ss4Lesson3PracticeData = PracticeModel(
   ],
 );
 final PracticeModel Scijhs1s2ss4Lesson4PracticeData = PracticeModel(
-  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/6. Guided Practice .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: A farmer wants to grow his vegetable garden without buying chemical fertilizers. Which animal by-product should he collect?",

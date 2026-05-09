@@ -2424,14 +2424,14 @@ final LearnModel Scijh1s2ss4Lesson3LearnData = LearnModel(parts: [
 final LearnModel Scijh1s2ss4Lesson4LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part A).jpg',
-    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/3. Teach - Part A.m4a',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/3. Teach - Part A .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part B).jpg',
-    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/4. Teach - Part B.m4a',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/4. Teach - Part B .m4a',
   ),LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS1 S2 SS4 L4/TEACH (Part C) .jpg',
-    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/5. Teach - Part C .m4a',
   ),
 ]);
 

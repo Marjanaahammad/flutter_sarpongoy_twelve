@@ -19678,7 +19678,7 @@ final QuizModel Scijhs1s2ss4Lesson3QuizData = QuizModel(
   ],
 );
 final QuizModel Scijhs1s2ss4Lesson4QuizData = QuizModel(
-  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/8. Quiz.m4a',
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/8. Quiz .m4a',
   questions: [
     QuizQuestion(
       question: "1. Which animal is the primary source of milk in the commercial dairy industry?",

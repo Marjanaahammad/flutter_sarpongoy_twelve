@@ -9031,7 +9031,7 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson3IndependentQuizData = Independ
   ],
 );
 final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/7. Independent Practice.m4a',
+  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which animal is most commonly matched with the commercial production of bacon?",
