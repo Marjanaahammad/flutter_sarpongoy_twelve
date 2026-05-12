@@ -1270,7 +1270,10 @@ class SidebarController extends GetxController {
               "topics": ["The Life Cycle of the Anopheles Mosquito", "Impact and Control of the Anopheles Mosquito"],
             },{
               "subtitle": "CROP PRODUCTION",
-              "topics": ["Exploring Seed Beds in the Community", "Planting Different Types of Crops on Different Seed Beds"],
+              "topics": ["Exploring Seed Beds in the Community", "Planting Different Types of Crops on Different Seed Beds", "Comparing Crop Growth in Different Seed Beds"],
+            },{
+              "subtitle": "ANIMAL PRODUCTION",
+              "topics": ["Types of Animal Feed", "Nutrients in Animal Feed (Proteins, Carbohydrates, and Fats)", "Vitamins and Minerals (The Protective Nutrients)"],
             },
           ],
         },
@@ -1641,8 +1644,17 @@ class SidebarController extends GetxController {
           "subtitle": "CYCLES",
           "subStrands": [
             {
-              "subtitle": "Nitrogen Cycle",
-              "topics": ["Fixation"],
+              "subtitle": "EARTH SCIENCES",
+              "topics": ["The Process of the Nitrogen Cycle", "Importance of the Nitrogen Cycle"],
+            },{
+              "subtitle": "LIFE CYCLE OF ORGANISMS",
+              "topics": ["The Life Cycle of the Grasshopper", "How Grasshoppers Affect Humans"],
+            },{
+              "subtitle": "CROP PRODUCTION",
+              "topics": ["Maturation of Crops in Different Soils", "Uses of Crops at Different Maturity Stages", "Importance of Knowing Maturity Stages"],
+            },{
+              "subtitle": "ANIMAL PRODUCTION",
+              "topics": ["Ingredients and preparation of feed for domestic and commercial animals", "SELECTING FEED FOR DIFFERENT ANIMAL GROUPS", "Importance of Knowing Maturity Stages"],
             },
           ],
         },
@@ -2622,6 +2634,46 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs2s2ss3Lesson2PracticeData;
                 independentPracticeData = Scijhs2s2ss3Lesson2IndependentQuizData;
                 quizData = Scijhs2s2ss3Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS2s2ss3Lesson3GetReadyData;
+                learnData = Scijh2s2ss3Lesson3LearnData;
+                practiceData = Scijhs2s2ss3Lesson3PracticeData;
+                independentPracticeData = Scijhs2s2ss3Lesson3IndependentQuizData;
+                quizData = Scijhs2s2ss3Lesson3QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS2s2ss4Lesson1GetReadyData;
+                learnData = Scijh2s2ss4Lesson1LearnData;
+                practiceData = Scijhs2s2ss4Lesson1PracticeData;
+                independentPracticeData = Scijhs2s2ss4Lesson1IndependentQuizData;
+                quizData = Scijhs2s2ss4Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS2s2ss4Lesson2GetReadyData;
+                learnData = Scijh2s2ss4Lesson2LearnData;
+                practiceData = Scijhs2s2ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs2s2ss4Lesson2IndependentQuizData;
+                quizData = Scijhs2s2ss4Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS2s2ss4Lesson3GetReadyData;
+                learnData = Scijh2s2ss4Lesson3LearnData;
+                practiceData = Scijhs2s2ss4Lesson3PracticeData;
+                independentPracticeData = Scijhs2s2ss4Lesson3IndependentQuizData;
+                quizData = Scijhs2s2ss4Lesson3QuizData;
               }
               if (grade == "JHS 3" &&
                   courseTitle == "Science" &&

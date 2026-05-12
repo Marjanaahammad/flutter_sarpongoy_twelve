@@ -20910,6 +20910,342 @@ final QuizModel Scijhs2s2ss3Lesson2QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs2s2ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L3/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. When do we start measuring the 'height' of a crop?",
+      options: ["Before we plant", "After emergence (sprouting)", "After we harvest", "When the sun goes down"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "You can only measure the height once the plant has sprouted and appeared above the soil.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does a thick, strong stem usually indicate?",
+      options: ["A very weak plant", "A healthy, vigorous plant", "A plant that needs water", "A plant that is dying"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A thick stem shows the plant is getting good nutrients and can support its own weight.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a growth table, what would you record for 'Week 0'?",
+      options: ["100 centimetres", "The date of planting", "The number of fruits", "The colour of the flowers"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Week 0 represents the start, which is usually the day the seeds are put in the ground.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a 'qualitative' observation?",
+      options: ["The plant is 10cm tall", "The leaves are dark green", "There are 5 flowers", "The stem is 2cm wide"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Qualitative observations describe qualities like colour or texture, rather than numbers.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do we compare flowering times between two different beds?",
+      options: ["To see which looks prettier", "To see which bed promotes faster growth", "To decide when to go on holiday", "To count how many bees are nearby"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Faster flowering usually indicates the plant is thriving in its environment.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a graph shows a very short bar for a sunken bed in the rainy season, it means:",
+      options: ["The plant grew very well", "The plant did not grow well", "The plant turned into a tree", "The farmer forgot to plant"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A short bar on a height graph indicates low growth.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which part of the plant do we count to measure 'size' besides height?",
+      options: ["The stones nearby", "The number of leaves", "The clouds in the sky", "The farmer's footsteps"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Leaf count is a standard way to measure the size and progress of a seedling.",
+    ),
+
+    QuizQuestion(
+      question: "8. What can cause a plant in a raised bed to grow taller than one in a flat bed?",
+      options: ["Better drainage for the roots", "Less sunlight on the leaves", "Harder soil for the roots", "More pests in the soil"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Raised beds provide better drainage, which prevents roots from rotting and allows better growth.",
+    ),
+
+    QuizQuestion(
+      question: "9. To measure a curved plant stem accurately, you should use:",
+      options: ["A straight wooden stick", "A piece of string and a ruler", "A heavy hammer", "A plastic cup"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "String can follow the curve of the plant and then be straightened against a ruler for an accurate measure.",
+    ),
+
+    QuizQuestion(
+      question: "10. A successful 'Compare and Contrast' activity helps a farmer choose:",
+      options: ["The most expensive tools", "The best bed for their crops", "The brightest clothes to wear", "The loudest radio to play"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Scientific comparison helps identify the most effective farming practices.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which feed type is best for a pig's simple digestive system?",
+      options: ["Dry straw", "Concentrates", "Grass hay", "Silage"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pigs need low-fibre, high-energy feed.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the approximate dry matter content of hay?",
+      options: ["20%", "50%", "90%", "10%"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Hay is dried until it contains very little water.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is a fresh roughage animals eat in the field?",
+      options: ["Pasture", "Fish meal", "Blood meal", "Maize bran"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Pasture consists of fresh grasses and legumes.",
+    ),
+
+    QuizQuestion(
+      question: "4. Soya bean meal is an example of which feed category?",
+      options: ["Dry roughage", "Energy feed", "Silage feed", "Protein feed"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Soya beans are oil seeds used for protein concentrates.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which process is used to create silage?",
+      options: ["Solar drying", "Fermentation", "Deep freezing", "Milling flour"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Silage is made by fermenting green forage.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a common Ghanaian legume used for feed?",
+      options: ["Guinea grass", "Millet stalk", "Centrosema", "Maize grain"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Centrosema is a specific legume mentioned in Ghanaian animal production.",
+    ),
+
+    QuizQuestion(
+      question: "7. A farmer has limited space and wants high growth; they should use:",
+      options: ["Only straw", "Concentrates", "Only water", "Dry leaves"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Concentrates provide the most growth per volume of feed.",
+    ),
+
+    QuizQuestion(
+      question: "8. Roughages are specifically high in which component?",
+      options: ["Animal fat", "Pure sugar", "Crude fibre", "Fish protein"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The defining feature of roughage is high fibre content.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is a cereal used for energy feed?",
+      options: ["Soya bean", "Groundnut", "Fish meal", "Sorghum"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sorghum is a cereal grain like maize and millet.",
+    ),
+
+    QuizQuestion(
+      question: "10. What happens to the volume of feed in concentrates?",
+      options: ["It is high", "It is low", "It is zero", "It is wide"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Concentrates have low volume but high nutrient density.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which nutrient is known as the \"building block\" for body tissues?",
+      options: ["Carbohydrate", "Protein", "Vitamin", "Lipid"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Proteins build and repair muscles and organs.",
+    ),
+
+    QuizQuestion(
+      question: "2. Cereals like maize and millet primarily provide animals with:",
+      options: ["Protein", "Minerals", "Energy", "Water"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cereals are high in starch (carbohydrates) for energy.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the term for amino acids that MUST be provided in the feed?",
+      options: ["Non-essential", "Simple", "Essential", "Complex"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Essential nutrients cannot be made by the body.",
+    ),
+
+    QuizQuestion(
+      question: "4. Compared to carbohydrates, fats provide ____ the amount of energy.",
+      options: ["Half", "The same", "Triple", "Double"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Fats provide roughly 2.25 times the energy of carbohydrates.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a plant-based protein source commonly used in Ghana?",
+      options: ["Fish meal", "Cassava peel", "Soya bean meal", "Rice bran"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Soya beans are the leading plant protein source.",
+    ),
+
+    QuizQuestion(
+      question: "6. A lack of protein in a young animal's diet will most likely lead to:",
+      options: ["Stunted growth", "Too much energy", "Very shiny skin", "Stronger bones"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Without protein \"blocks,\" the animal cannot grow.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which nutrient helps the animal maintain its body temperature?",
+      options: ["Minerals", "Carbohydrates", "Water", "Vitamins"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Burning carbohydrates produces the heat needed for body temp.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of the following is an animal-based protein?",
+      options: ["Groundnut cake", "Palm kernel cake", "Blood meal", "Wheat bran"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Blood meal comes from slaughtered livestock.",
+    ),
+
+    QuizQuestion(
+      question: "9. Lipids is another scientific name for:",
+      options: ["Proteins", "Sugars", "Fibres", "Fats"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Lipids include both fats (solids) and oils (liquids).",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is groundnut cake called a \"cake\"?",
+      options: ["It is sweet", "It is the solid left after pressing oil", "It is used for birthdays", "It is a type of bread"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The compressed solid remaining after oil extraction is called a cake.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s2ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which group of vitamins must be supplied in feed daily because they aren't stored?",
+      options: ["Fat-soluble", "Water-soluble", "Bone-soluble", "Mineral-soluble"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Vitamins B and C wash out of the body daily.",
+    ),
+
+    QuizQuestion(
+      question: "2. Calcium and Phosphorus are mainly responsible for building:",
+      options: ["Muscles", "Blood", "Bones and teeth", "Body fat"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "These minerals provide the structural strength for the skeleton.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which vitamin is known as the \"Sunshine Vitamin\"?",
+      options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Sunlight triggers the production of Vitamin D in the skin.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the purpose of a \"Salt Lick\" on a farm?",
+      options: ["To provide energy", "To provide minerals", "To provide protein", "To provide water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Salt licks contain sodium and other trace minerals.",
+    ),
+
+    QuizQuestion(
+      question: "5. Vitamin K is specifically important for:",
+      options: ["Good eyesight", "Blood clotting", "Fast running", "Strong feathers"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Vitamin K helps the blood thicken and stop bleeding when there is a cut.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a \"Trace Mineral\" (needed in very small amounts)?",
+      options: ["Calcium", "Iodine", "Phosphorus", "Sodium"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Iodine is a micro-mineral needed for the thyroid.",
+    ),
+
+    QuizQuestion(
+      question: "7. Where do animals get Vitamin A naturally?",
+      options: ["From dry rocks", "From yellow corn and green grass", "From drinking salt water", "From eating only cassava"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Carotene in yellow corn and green forage converts to Vitamin A.",
+    ),
+
+    QuizQuestion(
+      question: "8. Oyster shells are specifically used to prevent:",
+      options: ["Night blindness", "Soft eggshells", "Tired blood", "Greasy feathers"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The calcium in oyster shells hardens the eggshell.",
+    ),
+
+    QuizQuestion(
+      question: "9. If an animal has \"Rickets\" (bent, weak bones), it is likely missing:",
+      options: ["Vitamin B and Iron", "Vitamin D and Calcium", "Vitamin C and Salt", "Vitamin A and Iodine"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bone growth requires both Vitamin D and Calcium.",
+    ),
+
+    QuizQuestion(
+      question: "10. Minerals are considered \"inorganic\" because they:",
+      options: ["Come from plants", "Are made of carbon", "Do not come from living things", "Are high in protein"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Inorganic means they are mineral elements, not plant/animal matter.",
+    ),
+  ],
+);
 
 final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
@@ -21742,6 +22078,847 @@ final QuizModel Scijhs3s1ss2Lesson3QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "Their long shape allows the fibres to slide past each other during contraction.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs3s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L1/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main reason the nitrogen cycle is called a \"repeated pattern\"?",
+      options: ["It only happens during the rainy season.", "It moves nitrogen in a continuous loop.", "It requires the same plants every year.", "It uses the same bacteria every time."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A cycle is a repeated pattern because the nitrogen moves from the air to the soil and back to the air continuously.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which stage involves plants taking in nitrogen to build proteins?",
+      options: ["Assimilation", "Nitrification", "Denitrification", "Fixation"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Assimilation is the process where living organisms incorporate nitrogen into their bodies.",
+    ),
+
+    QuizQuestion(
+      question: "3. In which part of a cowpea plant would you find nitrogen-fixing bacteria?",
+      options: ["The green leaves", "The flower buds", "The root nodules", "The dried stems"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rhizobium bacteria live in the nodules found on the roots of leguminous plants.",
+    ),
+
+    QuizQuestion(
+      question: "4. What happens to nitrates during the process of denitrification?",
+      options: ["They turn into plant food.", "They become nitrogen gas.", "They turn into ammonia.", "They become solid rock."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Denitrification converts nitrates back into nitrogen gas (N₂), which returns to the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which gas makes up the largest part of the air we breathe?",
+      options: ["Carbon dioxide", "Oxygen gas", "Water vapour", "Nitrogen gas"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Nitrogen gas makes up about 78% of the Earth's atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the role of Nitrobacter in the soil?",
+      options: ["Fixing nitrogen gas", "Converting nitrites", "Killing bad germs", "Eating plant roots"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Nitrobacter is a specific bacterium that converts nitrites into nitrates during nitrification.",
+    ),
+
+    QuizQuestion(
+      question: "7. How do animals obtain the nitrogen they need for growth?",
+      options: ["Breathing the air", "Drinking sea water", "Eating food items", "Using solar energy"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Animals cannot fix nitrogen; they must get it by consuming plants or other animals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which process adds nitrogen directly from the air into the soil?",
+      options: ["Denitrification", "Transpiration", "Nitrification", "Nitrogen Fixation"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Nitrogen fixation is the primary way atmospheric nitrogen enters the soil system.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the first step in the nitrification process?",
+      options: ["Ammonia to nitrites", "Nitrates to gas", "Gas to proteins", "Waste to ammonia"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Nitrification begins by turning ammonia into nitrites, before those are further changed into nitrates.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the nitrogen cycle important for Ghanaian farmers?",
+      options: ["It stops the rain.", "It prevents weeds.", "It makes soil rich.", "It kills the pests."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The nitrogen cycle provides the essential nutrients needed for crops to grow, ensuring soil fertility.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Why is nitrogen important for the process of photosynthesis?",
+      options: ["It attracts bees.", "It makes chlorophyll.", "It provides water.", "It keeps roots cool."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Nitrogen is a primary component of chlorophyll, which captures sunlight for photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a direct result of nitrogen deficiency in crops?",
+      options: ["Bright red fruit", "Stunted growth", "Deep green leaves", "Very thick stems"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Without enough nitrogen, plants cannot build enough cells or food, leading to small or \"stunted\" growth.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the human body, nitrogen is a key part of which molecule?",
+      options: ["Liquid fat", "Simple sugar", "Genetic DNA", "Pure oxygen"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Nitrogen bases are an essential part of the structure of DNA and RNA.",
+    ),
+
+    QuizQuestion(
+      question: "4. How does bush burning affect the local nitrogen cycle?",
+      options: ["It adds nitrates.", "It helps bacteria.", "It removes nitrogen.", "It cools the soil."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Burning releases stored nitrogen as gas, effectively removing it from the local soil and plant system.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which crop is best for a farmer to plant to improve soil fertility?",
+      options: ["Tall timber", "Cassava plants", "Pineapple fruit", "Cowpea plants"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Cowpeas are legumes, which have bacteria that fix nitrogen into the soil.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the main role of proteins in the human body?",
+      options: ["Building muscles", "Storing water", "Providing taste", "Keeping us dry"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Proteins, which are made of nitrogen-based amino acids, are the primary building materials for muscles.",
+    ),
+
+    QuizQuestion(
+      question: "7. What happens to the nitrogen cycle if all leguminous plants are destroyed?",
+      options: ["Nitrogen increases.", "The cycle speeds up.", "The soil stays rich.", "Soil fertility drops."],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Without legumes to fix nitrogen, the soil will eventually run out of usable nitrogen for other plants.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these best describes the importance of the nitrogen cycle?",
+      options: ["It sustains life.", "It makes it rain.", "It stops the wind.", "It creates rocks."],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "By recycling nitrogen for plants and animals, the cycle is essential for all life on Earth.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which molecule uses nitrogen to capture energy from the sun?",
+      options: ["Carbon dioxide", "Chlorophyll", "Glucose sugar", "Oxygen gas"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Chlorophyll is the specific molecule in plants that requires nitrogen to function.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why do animals need to eat plants or other animals?",
+      options: ["To get nitrogen.", "To get sunlight.", "To get oxygen.", "To get more soil."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Animals cannot take nitrogen from the air; they must get it through the food they eat.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L1/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which term describes the process of an insect changing form as it grows?",
+      options: ["Photosynthesis", "Metamorphosis", "Transpiration", "Fertilization"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Metamorphosis is the biological process of changing body structure during growth.",
+    ),
+
+    QuizQuestion(
+      question: "2. What tool does the female grasshopper use to deposit eggs into the ground?",
+      options: ["An exoskeleton", "A large mandible", "An ovipositor", "A pair of wings"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The ovipositor is a specialized organ used for laying eggs in the soil.",
+    ),
+
+    QuizQuestion(
+      question: "3. A nymph looks very similar to an adult grasshopper but is missing which feature?",
+      options: ["Functional wings", "A pair of legs", "A set of eyes", "Long antennae"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Nymphs look like small adults but lack wings and the ability to reproduce.",
+    ),
+
+    QuizQuestion(
+      question: "4. Approximately how long does it take for a nymph to reach the adult stage?",
+      options: ["About two days", "About one year", "About a month", "About ten weeks"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It usually takes about 25 to 30 days (roughly one month) for a nymph to mature.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these insects undergoes the same type of metamorphosis as the grasshopper?",
+      options: ["The butterfly", "The housefly", "The cockroach", "The mosquito"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Cockroaches, like grasshoppers, have a three-stage incomplete metamorphosis.",
+    ),
+
+    QuizQuestion(
+      question: "6. What must a nymph do before it can grow into a larger size?",
+      options: ["It must moult.", "It must sleep.", "It must fly.", "It must hide."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Moulting involves shedding the old exoskeleton to allow for a new, larger one.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the primary function of the adult stage in the life cycle?",
+      options: ["To stay in the soil.", "To hatch from eggs.", "To grow a new shell.", "To mate and lay eggs."],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The adult stage is the reproductive phase that continues the species.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the context of the grasshopper, what does the term \"nymph\" represent?",
+      options: ["The resting stage", "The immature stage", "The primary producer", "The parasitic stage"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The nymph is the young, immature form of the insect.",
+    ),
+
+    QuizQuestion(
+      question: "9. Where are you most likely to find grasshopper eggs in a Ghanaian farm?",
+      options: ["High up in trees", "Inside the river", "Under the ground", "On top of leaves"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Grasshoppers lay their eggs in the soil to protect them.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which stage is present in \"complete\" metamorphosis but NOT in \"incomplete\" metamorphosis?",
+      options: ["The adult stage", "The nymph stage", "The egg stage", "The pupa stage"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Incomplete metamorphosis skips the pupa (resting) stage entirely.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which term describes an animal that feeds exclusively on plants, like the grasshopper?",
+      options: ["Carnivore", "Herbivore", "Omnivore", "Detritivore"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Herbivores are animals that eat only plants.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the main disadvantage of using \"chemical control\" on a farm?",
+      options: ["It works too slowly.", "It can harm the environment.", "It makes the soil too rich.", "It attracts more birds."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pesticides can pollute water sources and kill \"good\" insects like bees.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the market, a sudden increase in the cost of maize might be caused by which of these?",
+      options: ["Too much rain", "A grasshopper swarm", "A decrease in taxes", "New farming tools"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Crop destruction by pests leads to food shortages and higher prices.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which control method targets the grasshopper before it hatches?",
+      options: ["Mechanical control", "Biological control", "Chemical control", "Integrated control"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Tilling the soil (mechanical) destroys the egg pods before the life cycle continues.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why are grasshoppers considered \"pests\" in Ghanaian agriculture?",
+      options: ["They make too much noise.", "They destroy valuable crops.", "They eat other beneficial insects.", "They only live in the forest."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Their ability to eat large amounts of crops makes them a threat to farming.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which bird is commonly used in Ghana for the biological control of grasshoppers?",
+      options: ["The Penguin", "The Guinea Fowl", "The Ostrich", "The Eagle"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Guinea fowls are excellent at hunting and eating insects on a farm.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does \"Nutrient Cycling\" mean in the context of this lesson?",
+      options: ["Riding a bicycle to the farm.", "Moving eggs from one place to another.", "Returning minerals to the soil via droppings.", "Insects flying in a circle."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Droppings return nutrients to the earth, which then feeds new plants.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a \"beneficial\" effect of the grasshopper?",
+      options: ["Carrying plant diseases.", "Eating all the cassava leaves.", "Providing a snack for humans.", "Stripping bark from trees."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Many people enjoy grasshoppers as a nutritious food source.",
+    ),
+
+    QuizQuestion(
+      question: "9. A farmer decides to catch grasshoppers by hand to feed his ducks. This is an example of what?",
+      options: ["Chemical control", "Mechanical control", "Natural disaster", "Integrated management"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Physical removal or catching is a form of mechanical control.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the grasshopper's role in the \"food chain\" important?",
+      options: ["Because they eat lions.", "Because they produce honey.", "Because they provide food for birds.", "Because they live forever."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "As a primary consumer, they are an essential food source for many secondary consumers like birds.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L1/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which maturity index is used when a farmer taps a watermelon to hear a hollow sound?",
+      options: ["External colour", "Internal smell", "Sound resonance", "Surface texture"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Tapping for a hollow sound is a resonance index common for watermelons.",
+    ),
+
+    QuizQuestion(
+      question: "2. Crops grown in loamy soil generally mature...",
+      options: ["Very slowly", "At a normal rate", "Much too early", "Not at all"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Loamy soil provides ideal conditions for standard growth rates.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is a \"maturity stage\"?",
+      options: ["When a seed is sown", "When a plant dies off", "When a crop is ready", "When a leaf is green"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It is the point where the crop is fully developed for use.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do farmers in Ghana often use raised beds for onions?",
+      options: ["To hide the crops", "To stop all rain", "To improve drainage", "To make them salty"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Raised beds prevent waterlogging and help onions mature better.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a sign that cowpea pods are mature?",
+      options: ["They become green", "They become soft", "They become tiny", "They become dry"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Drying and brittleness of the pod is the index for cowpea.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does sandy soil affect the size of a mature crop?",
+      options: ["Makes it very heavy", "Makes it quite small", "Makes it very green", "Makes it quite blue"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Fast drainage in sandy soil often leads to smaller mature produce.",
+    ),
+
+    QuizQuestion(
+      question: "7. A farmer observes the \"Neck fall\" in his onions. This means the onions are:",
+      options: ["Just germinating", "Ready for harvest", "Needing more salt", "Infected by bugs"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "\"Neck fall\" is a specific maturity index for onion crops.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which factor is MOST likely to vary the maturation time of maize in two different farms?",
+      options: ["The farmer's name", "The type of soil", "The color of tools", "The market price"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Soil type is a primary environmental factor affecting growth speed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sense is used to check the maturity index of \"Aroma\" in a mango?",
+      options: ["Sense of sight", "Sense of touch", "Sense of smell", "Sense of taste"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Aroma is detected through the sense of smell.",
+    ),
+
+    QuizQuestion(
+      question: "10. The process of a plant reaching full development is called:",
+      options: ["Photosynthesis", "Transpiration", "Maturation", "Fertilization"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Maturation is the correct biological term for this stage.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which crop is harvested at the immature stage to be eaten as a fresh vegetable in stews?",
+      options: ["Dry maize", "Hard cocoa", "Green cowpea", "Old cassava"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Green cowpea pods are used as succulent vegetables before the seeds dry out.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the main reason for harvesting maize at the mature dry stage?",
+      options: ["To eat it raw", "For making flour", "For fresh juice", "To see the silk"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dry maize is necessary for milling into flour for staples like Banku.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which characteristic describes an immature fruit crop?",
+      options: ["High sugar content", "Very soft texture", "Bright red colour", "High moisture level"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Immature crops usually contain more water and less sugar/starch than mature ones.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a common use for mature cassava in Ghana?",
+      options: ["Making Fufu", "Sucking the juice", "Planting as flowers", "Eating the leaves"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mature cassava has the starch required for Fufu.",
+    ),
+
+    QuizQuestion(
+      question: "5. If a fruit is \"fully ripe,\" it usually has its highest concentration of:",
+      options: ["Bitter chemicals", "Natural sugars", "Liquid water", "Green pigment"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Ripening involves the conversion of starches into sugars.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which stage of pepper is best for a mild, crunchy garnish on a salad?",
+      options: ["Dry powder", "Mature red", "Immature green", "Rotten stage"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Green peppers are milder and firmer, making them ideal for salads.",
+    ),
+
+    QuizQuestion(
+      question: "7. A farmer wants to store his beans for six months. At what stage should he harvest?",
+      options: ["Flowering stage", "Immature stage", "Mature dry stage", "Seedling stage"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Only dry, mature seeds can be stored long-term without rotting.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of the following is NOT a use for mature dry maize?",
+      options: ["Poultry feed", "Making Kenkey", "Making starch", "Fresh roasting"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Fresh roasting requires the moisture of green (immature) maize.",
+    ),
+
+    QuizQuestion(
+      question: "9. In Ghana, \"Red Red\" is typically made using which stage of the legume?",
+      options: ["Purple flowers", "Green leaves", "Immature pods", "Mature seeds"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Dried, mature cowpea seeds are boiled to make this dish.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why does the use of a crop change as it matures?",
+      options: ["Because it grows leaves", "Chemical compositions change", "The sun changes colour", "Farmers get tired"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Changes in starch, sugar, and water content dictate how a crop can be used.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L3/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How does knowledge of maturity help a farmer in the Northern Region sell yams in Accra?",
+      options: ["It makes the yams grow bigger", "It ensures yams survive transport", "It makes the truck driver happy", "It changes the yam to a potato"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Correct maturity ensures the tuber is hardy enough for long journeys.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of the following is a result of harvesting crops too late?",
+      options: ["Higher sugar in all grains", "Increased risk of rot and pests", "Faster growth of new leaves", "Lower cost of farm labor"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Over-mature crops left in the field are highly susceptible to decay.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is \"physiological maturity\"?",
+      options: ["When a plant looks very green", "When seeds are fully developed", "When a farmer buys new seeds", "When the sun is at its highest"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This is the biological point where the embryo in the seed is complete.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sense is most commonly used by Ghanaian farmers to check \"neck-fall\" in onions?",
+      options: ["Sense of Taste", "Sense of Smell", "Sense of Sight", "Sense of Hearing"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Neck-fall is a visual cue where the onion tops bend over.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"Refractometer\" is a scientific tool used globally to measure:",
+      options: ["Height of the plant stem", "Sugar content in fruits", "Number of insects on leaves", "Depth of the soil bed"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "It measures the \"Brix\" or sugar levels, a common global maturity index.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do mature crops usually have a higher market price in Ghana?",
+      options: ["Because they are much heavier", "Because they have better quality", "Because they are older plants", "Because they are easier to plant"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Quality, taste, and appearance drive higher prices.",
+    ),
+
+    QuizQuestion(
+      question: "7. Harvesting at the correct stage helps the environment by:",
+      options: ["Making more clouds in the sky", "Reducing the amount of food waste", "Turning sandy soil into clay", "Stopping the wind from blowing"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Less waste means more efficient use of agricultural resources.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a risk of eating immature cassava?",
+      options: ["It will be too sweet to eat", "It might contain bitter toxins", "It will make your teeth grow", "It will turn into a fruit"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Immature tubers often have higher levels of cyanogenic glycosides.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is a shared goal of local and global maturity identification methods?",
+      options: ["To use the most expensive tools", "To harvest at the best time", "To only sell to other countries", "To stop using all farm animals"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Regardless of the method, the objective is optimal timing.",
+    ),
+
+    QuizQuestion(
+      question: "10. The term \"Palatability\" is most closely related to:",
+      options: ["The weight of the crop", "The cost of the crop", "The eating quality of food", "The color of the soil"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It refers to how pleasant a food is to the palate (taste/texture).",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the main energy-providing ingredient used in Ghanaian animal feed?",
+      options: ["Maize", "Salt", "Bone", "Fish"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Maize is the primary carbohydrate source providing energy.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which processing method is used to cut long forage into smaller pieces for cattle?",
+      options: ["Milling", "Sifting", "Boiling", "Chopping"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Chopping reduces the size of forage to make it easier for ruminants to eat.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do farmers add 'pre-mix' to animal feed?",
+      options: ["To add more weight.", "To provide vitamins.", "To make it cheaper.", "To change the taste."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pre-mixes contain essential vitamins and trace minerals for health.",
+    ),
+
+    QuizQuestion(
+      question: "4. If a chick is not growing well despite eating a lot of maize, it is likely missing:",
+      options: ["Water", "Light", "Protein", "Energy"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Protein is required for growth; maize is mostly energy.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these ingredients is categorized as a mineral source?",
+      options: ["Wheat bran", "Bone meal", "Rice husk", "Soy meal"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Bone meal provides calcium and phosphorus.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is 'ration' in animal production?",
+      options: ["The type of house built for animals.", "The total amount of feed for one day.", "The tool used to grind the corn.", "The price of one bag of poultry feed."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A ration is the total feed allowance for a 24-hour period.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which process helps to prevent 'selective feeding' in chickens?",
+      options: ["Pelleting", "Grinding", "Roasting", "Drying"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Pelleting forces the bird to eat all ingredients together.",
+    ),
+
+    QuizQuestion(
+      question: "8. Soybean meal is primarily added to animal feed to provide:",
+      options: ["Protein", "Calcium", "Vitamin", "Energy"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Soybean is a major plant-based protein source.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is a result of malnutrition in farm animals?",
+      options: ["Faster growth rates.", "High egg production.", "Weak immune systems.", "Very shiny feathers."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Lack of proper nutrients makes animals susceptible to diseases.",
+    ),
+
+    QuizQuestion(
+      question: "10. In Ghana, which of these is a common energy substitute for maize?",
+      options: ["Fishmeal", "Salt", "Shells", "Sorghum"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sorghum is a cereal grain used for energy, similar to maize.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L2/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which animal would benefit the most from eating silage?",
+      options: ["Cow", "Pig", "Chicken", "Rabbit"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Silage is a bulky roughage ideal for ruminants like cows.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of the following is a characteristic of monogastric animals?",
+      options: ["They have four stomachs.", "They digest grass easily.", "They have a simple stomach.", "They chew the cud often."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Monogastrics like pigs have a single-chambered stomach.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is poultry feed often served in the form of crumbles or pellets?",
+      options: ["To make it look pretty.", "To stop birds from flying.", "To reduce feed wastage.", "To make the birds thirsty."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Pellets are easier for birds to pick up and harder to scatter and waste.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which animal group has a 'rumen' to help with digestion?",
+      options: ["Monogastrics", "Poultry", "Ruminants", "Reptiles"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The rumen is the first and largest compartment in a ruminant's stomach.",
+    ),
+
+    QuizQuestion(
+      question: "5. A goat is seen 'chewing the cud.' This means it is a:",
+      options: ["Monogastric", "Ruminant", "Carnivore", "Poultry"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Chewing the cud is a specific digestive behaviour of ruminants.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which feed type is the most expensive but highest in nutrients?",
+      options: ["Roughages", "Concentrates", "Fresh water", "Pasture"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Concentrates are processed and nutrient-dense, making them more costly than grass.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these animals would struggle to grow if fed only on wheat bran and maize?",
+      options: ["Pig", "Chicken", "Sheep", "Duck"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "While sheep can eat concentrates, they require bulk (roughage) to keep their rumen functioning correctly.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the poultry digestive system, where is food stored before it is digested?",
+      options: ["Gizzard", "Rumen", "Cloaca", "Crop"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The crop is an expansion of the esophagus used to store food.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which ingredient would a Ghanaian farmer add to pig feed to provide cheap energy?",
+      options: ["Cassava peels", "Fishmeal", "Oyster shells", "Salt"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Cassava is a local carbohydrate source that provides energy for pigs.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which group of animals is primarily raised on fresh pasture in Ghana?",
+      options: ["Pigs", "Cattle", "Broilers", "Rabbits"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Cattle are ruminants that graze on open pastures.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s2ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A chick that is 3 weeks old belongs to which feeding stage?",
+      options: ["Starter", "Finisher", "Layer", "Breeder"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The starter stage covers the first 0-6 weeks of a chick's life.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which feed has the highest calcium content for egg production?",
+      options: ["Pig Starter", "Broiler Finisher", "Layer Mash", "Calf Starter"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Layer mash is enriched with calcium specifically for shell formation.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we reduce the protein percentage as an animal moves from Starter to Finisher?",
+      options: ["Protein is too cheap.", "To save on water costs.", "Growth rate slows down.", "To make the feed smell."],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Young animals grow faster and need more protein; older animals focus more on weight gain (energy).",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a 'baby food' for pigs to help them transition from milk?",
+      options: ["Finisher pellets", "Creep feed", "Grass silage", "Wheat bran"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Creep feed is the highly digestible starter diet for piglets.",
+    ),
+
+    QuizQuestion(
+      question: "5. In Ghana, what is a common source of carbohydrates in Finisher feeds?",
+      options: ["Oyster shells", "Salt blocks", "Fishmeal", "Maize"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Maize is the main energy (carbohydrate) source in most local feeds.",
+    ),
+
+    QuizQuestion(
+      question: "6. At which stage would a pig weigh approximately 35kg?",
+      options: ["Starter", "Grower", "Finisher", "Newborn"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pigs between 20kg and 50kg are considered to be in the Grower stage.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which feed form is best for very young chicks with small beaks?",
+      options: ["Large pellets", "Whole maize", "Fine mash", "Tough grass"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mash is a fine powder that is easy for tiny chicks to eat.",
+    ),
+
+    QuizQuestion(
+      question: "8. What happens if a farmer continues giving high-protein Starter feed to an adult Finisher pig?",
+      options: ["The pig will die.", "It is a waste of money.", "The pig will lay eggs.", "The pig will turn green."],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Protein is expensive; providing more than the animal needs for its stage is financially wasteful.",
+    ),
+
+    QuizQuestion(
+      question: "9. A 'Broiler' is a chicken specifically raised for:",
+      options: ["Producing milk.", "Laying many eggs.", "Providing meat.", "Guarding the house."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Broilers are meat-type chickens bred for fast growth.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which stage of poultry feed focuses most on 'body maintenance' and egg production rather than rapid growth?",
+      options: ["Starter Mash", "Grower Mash", "Layer Mash", "Creep Feed"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Layers are mature birds; their feed supports egg production and health.",
     ),
   ],
 );

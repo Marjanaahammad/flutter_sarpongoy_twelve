@@ -9698,6 +9698,230 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson2IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L3/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool is best for measuring the height of a tall maize plant?",
+        options: [
+          "A small spoon",
+          "A measuring tape",
+          "A heavy stone",
+          "A piece of paper"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A measuring tape is used to measure the height or length of objects such as maize plants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are we measuring when we count the number of tomatoes on a plant?",
+        options: [
+          "Plant height",
+          "Root length",
+          "Fruiting success",
+          "Soil hardness"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Counting tomatoes helps measure how successful the plant is at fruit production."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you want to show how a plant grew over four weeks, which is best to use?",
+        options: [
+          "A school bell",
+          "A growth table",
+          "A bag of salt",
+          "A dark room"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A growth table helps record and compare plant growth over time."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why might a plant in a flooded flat bed have yellow leaves and no flowers?",
+        options: [
+          "It is too happy",
+          "It has too much water",
+          "It is growing too fast",
+          "It likes the colour yellow"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Too much water can damage roots and prevent healthy growth, causing yellow leaves and poor flowering."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a characteristic of dry roughages?",
+        options: [
+          "They have 10% dry matter.",
+          "They are very low in fibre.",
+          "They have 90% dry matter.",
+          "They are only for poultry."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Dry roughages contain a high amount of dry matter, usually about 90%."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which feed is an example of a protein-rich concentrate?",
+        options: [
+          "Guinea grass.",
+          "Groundnut cake.",
+          "Corn stalks.",
+          "Rice straw."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Groundnut cake is rich in protein and commonly used in animal feed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Animals like cattle and goats that eat high-fibre grass are called:",
+        options: [
+          "Ruminants.",
+          "Concentrates.",
+          "Legumes.",
+          "Cereals."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Cattle and goats are ruminants because they digest fibrous plants using a multi-chambered stomach."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is maize classified as an energy-rich concentrate?",
+        options: [
+          "It is very high in water.",
+          "It is very high in fibre.",
+          "It is a green legume.",
+          "It is high in starch."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Maize is rich in starch, which provides energy to animals."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L2/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which nutrient provides the most concentrated source of energy?",
+        options: [
+          "Proteins",
+          "Carbohydrates",
+          "Fats and Oils",
+          "Fibre"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fats and oils provide the most concentrated source of energy for animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Fish meal and blood meal are excellent sources of:",
+        options: [
+          "Animal-based protein.",
+          "Plant-based energy.",
+          "Liquid carbohydrates.",
+          "Fresh green roughage."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Fish meal and blood meal are rich in animal protein used in livestock feeding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens to extra carbohydrates that an animal does not use immediately?",
+        options: [
+          "It is turned into protein.",
+          "It is stored as fat.",
+          "It is breathed out.",
+          "It turns into water."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Unused carbohydrates are commonly stored in the body as fat."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these Ghanaian crops is a primary source of carbohydrates?",
+        options: [
+          "Soya bean",
+          "Groundnut",
+          "Cotton seed",
+          "Sorghum"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Sorghum is a cereal crop and an important source of carbohydrates."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a fat-soluble vitamin?",
+        options: [
+          "Vitamin B",
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin Salt"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Vitamin A is a fat-soluble vitamin stored in the body's fatty tissues."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a common source of calcium for poultry in Ghana?",
+        options: [
+          "Maize bran",
+          "Oyster shells",
+          "Cassava peels",
+          "Palm oil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oyster shells are rich in calcium and are commonly added to poultry feed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which mineral is essential for healthy blood and carrying oxygen?",
+        options: [
+          "Calcium",
+          "Iron",
+          "Phosphorus",
+          "Sodium"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Iron is needed for the formation of haemoglobin which carries oxygen in the blood."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A lack of Vitamin A in cattle can lead to which condition?",
+        options: [
+          "Soft eggshells",
+          "Night blindness",
+          "Brittle bones",
+          "Strong teeth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Vitamin A deficiency can cause night blindness in animals."
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
@@ -10056,9 +10280,569 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L1/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these processes is responsible for turning ammonia into nitrates?",
+        options: [
+          "Assimilation",
+          "Nitrification",
+          "Denitrification",
+          "Nitrogen Fixation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nitrification is the process where ammonia is converted into nitrates by bacteria."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What form of nitrogen do most plants absorb through their roots?",
+        options: [
+          "Nitrogen gas",
+          "Nitrites",
+          "Nitrates",
+          "Ammonia"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Most plants absorb nitrogen mainly in the form of nitrates through their roots."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which natural event can 'fix' nitrogen using high heat and energy?",
+        options: [
+          "Heavy rainfall",
+          "Bush burning",
+          "Sea breezes",
+          "Lightning"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Lightning provides enough energy to convert nitrogen gas into usable nitrogen compounds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which organism is mainly responsible for the process of ammonification?",
+        options: [
+          "Green plants",
+          "Decomposers",
+          "Farm animals",
+          "Human beings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Decomposers break down dead organisms and waste materials, releasing ammonia into the soil."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L2/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of a plant is nitrogen most essential for producing?",
+        options: [
+          "Flower scent",
+          "Leaf chlorophyll",
+          "Root water",
+          "Bark thickness"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nitrogen is essential for producing chlorophyll, which helps plants make food through photosynthesis."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are the 'building blocks' of protein that contain nitrogen?",
+        options: [
+          "Sugar cubes",
+          "Water drops",
+          "Amino acids",
+          "Salt crystals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proteins are made up of amino acids, which contain nitrogen."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which farming practice helps to add nitrogen back into the soil?",
+        options: [
+          "Bush burning",
+          "Cutting trees",
+          "Planting beans",
+          "Heavy tilling"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Beans and other legumes help add nitrogen to the soil through nitrogen fixation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What happens to nitrogen in plants when a forest is cleared and burned?",
+        options: [
+          "It enters the soil",
+          "It turns to smoke",
+          "It stays in roots",
+          "It becomes water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When plants are burned, nitrogen compounds are released into the air as gases and smoke."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L1/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How many distinct stages are found in the life cycle of a grasshopper?",
+        options: [
+          "Two stages",
+          "Three stages",
+          "Four stages",
+          "Five stages"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A grasshopper passes through three stages: egg, nymph, and adult."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these follows the correct order of the grasshopper life cycle?",
+        options: [
+          "Egg → Adult → Nymph",
+          "Nymph → Egg → Adult",
+          "Egg → Nymph → Adult",
+          "Adult → Egg → Larva"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The correct order of the grasshopper life cycle is egg → nymph → adult."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the scientific term for the baby grasshopper that hatches from the egg?",
+        options: [
+          "It is called a larva.",
+          "It is called a pupa.",
+          "It is called a nymph.",
+          "It is called a fry."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The young grasshopper that hatches from the egg is called a nymph."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the grasshopper's life cycle described as 'incomplete'?",
+        options: [
+          "It lacks a pupa stage.",
+          "It lacks an egg stage.",
+          "It never reaches adulthood.",
+          "It does not eat plants."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Grasshoppers undergo incomplete metamorphosis because they do not have a pupa stage."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L2/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a 'biological' method of controlling grasshoppers?",
+        options: [
+          "Spraying chemicals",
+          "Using a tractor to till soil",
+          "Keeping guinea fowls on the farm",
+          "Catching them with a net"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Keeping guinea fowls on the farm is a biological control method because the birds feed on grasshoppers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary reason humans in some cultures eat grasshoppers?",
+        options: [
+          "They are a good source of protein.",
+          "They taste like chocolate.",
+          "They help people run faster.",
+          "They are the only food available."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Grasshoppers are eaten in some cultures because they are rich in protein."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How do grasshopper droppings help the environment?",
+        options: [
+          "They scare away other pests.",
+          "They add nutrients to the soil.",
+          "They make the grass grow blue.",
+          "They prevent the soil from drying."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Grasshopper droppings decompose and add nutrients back into the soil."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When grasshoppers move in a massive group to find food, what is this group called?",
+        options: [
+          "A school",
+          "A pack",
+          "A swarm",
+          "A pride"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A large moving group of grasshoppers is called a swarm."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L1/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following describes the stage where a crop is ready for its intended use?",
+        options: [
+          "Germination stage",
+          "Maturation stage",
+          "Vegetative stage",
+          "Flowering stage"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The maturation stage is when a crop is fully developed and ready for harvesting or use."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which soil type is most likely to delay the maturation of a crop because it stays too wet?",
+        options: [
+          "Sandy soil",
+          "Loamy soil",
+          "Clay soil",
+          "Silty soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Clay soil holds a lot of water, which can delay crop maturation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What do we call the signs like size, colour, and texture used to identify a mature crop?",
+        options: [
+          "Growth markers",
+          "Maturity indices",
+          "Harvest signals",
+          "Plant symptoms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Maturity indices are the characteristics used to determine if a crop is mature."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which seedbed preparation is best for speeding up the growth of vegetables?",
+        options: [
+          "Flat ground",
+          "Sunken beds",
+          "Hardened soil",
+          "Raised beds"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Raised beds improve drainage and soil conditions, helping vegetables grow faster."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L2/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which stage of cowpea is most suitable for making Waakye?",
+        options: [
+          "Flowering stage",
+          "Immature stage",
+          "Germination stage",
+          "Mature dry stage"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Cowpea used for making Waakye is usually harvested at the mature dry stage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary use of green, immature maize in Ghana?",
+        options: [
+          "Milling into flour",
+          "Roasting and boiling",
+          "Making poultry feed",
+          "Long-term storage"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Green immature maize is commonly roasted or boiled for food in Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is it difficult to use immature cassava for food?",
+        options: [
+          "It is too sweet",
+          "It has low starch",
+          "It is too large",
+          "It is very dry"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Immature cassava contains low starch, making it less suitable for food preparation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. At which stage does a pepper reach its maximum spiciness for soup?",
+        options: [
+          "Seedling stage",
+          "Immature stage",
+          "Mature red stage",
+          "Flowering stage"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Pepper becomes hottest and most suitable for soup at the mature red stage."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L3/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which term describes how much an animal or human enjoys the taste and texture of a mature crop?",
+        options: [
+          "Acidity",
+          "Palatability",
+          "Toxicity",
+          "Humidity"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Palatability refers to how pleasant or acceptable food tastes to humans or animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Harvesting at the correct maturity stage for long-distance transport helps to:",
+        options: [
+          "Make the truck faster",
+          "Change the crop's color",
+          "Reduce bruising and rot",
+          "Increase the soil's salt"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Correct harvesting time reduces damage, bruising, and rotting during transportation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a common local method used in Ghana to check if a watermelon is mature?",
+        options: [
+          "Using a thermometer",
+          "Tapping for a hollow sound",
+          "Counting the leaves",
+          "Measuring its height"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Farmers often tap a watermelon and listen for a hollow sound to determine maturity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the nutritional value highest at the correct maturity stage?",
+        options: [
+          "The plant has finished its work",
+          "The plant is starting to die",
+          "The rain has washed it",
+          "The farmer used more tools"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "At the correct maturity stage, crops have fully developed their nutrients and food reserves."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the primary reason for grinding maize before feeding it to poultry?",
+        options: [
+          "To change the colour of the feed.",
+          "To make the feed easier to digest.",
+          "To make the maize last much longer.",
+          "To reduce the cost of the raw maize."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Grinding maize makes the feed easier for poultry to digest and utilize."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A farmer uses fishmeal and cotton seed cake in a feed mix. What is the main purpose of these?",
+        options: [
+          "To provide energy for movement.",
+          "To provide vitamins for eyesight.",
+          "To provide protein for growth.",
+          "To provide water for the animal."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fishmeal and cotton seed cake are rich protein sources used for animal growth and body repair."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which method involves using heat to improve the flavour and safety of animal feed ingredients?",
+        options: [
+          "Roasting",
+          "Chopping",
+          "Grinding",
+          "Bagging"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Roasting uses heat to improve flavour and reduce harmful substances in feed ingredients."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which ingredient is the most common source of calcium for farm animals in Ghana?",
+        options: [
+          "Sorghum",
+          "Cassava",
+          "Maize",
+          "Shells"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Shells such as oyster shells are commonly used as calcium sources for farm animals."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L2/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which group of animals is best adapted to eating bulky, fibrous feeds like hay?",
+        options: [
+          "Poultry",
+          "Ruminants",
+          "Monogastrics",
+          "Humans"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Ruminants are adapted to digest bulky fibrous feeds because of their specialized stomach system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the organ in a chicken that grinds food because the bird has no teeth?",
+        options: [
+          "Rumen",
+          "Stomach",
+          "Gizzard",
+          "Crop"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The gizzard grinds food mechanically in birds since they do not have teeth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A pig is classified as a monogastric because it has:",
+        options: [
+          "Four stomach compartments.",
+          "No stomach at all.",
+          "A very large rumen.",
+          "A single-chambered stomach."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Monogastric animals such as pigs have a single-chambered stomach."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a concentrated feed typically given to poultry for energy?",
+        options: [
+          "Dried grass",
+          "Maize mash",
+          "Fresh leaves",
+          "Rice straw"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Maize mash is an energy-rich concentrate commonly fed to poultry."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which nutrient is found in the highest percentage in 'Starter' feeds compared to 'Finisher' feeds?",
+        options: [
+          "Water",
+          "Fiber",
+          "Salt",
+          "Protein"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Starter feeds contain higher protein levels to support rapid growth in young animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. At what age does a poultry bird typically stop eating Starter Mash and move to Grower Mash?",
+        options: [
+          "24 hours",
+          "6 weeks",
+          "1 year",
+          "2 years"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Poultry birds are usually switched from Starter Mash to Grower Mash at about 6 weeks of age."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "'Creep feed' is specifically designed for which type of animal?",
+        options: [
+          "Old cows",
+          "Young piglets",
+          "Adult goats",
+          "Laying hens"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Creep feed is specially formulated for young piglets to support early growth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main goal of providing 'Finisher' feed to a broiler chicken?",
+        options: [
+          "To help it lay eggs.",
+          "To make it grow feathers.",
+          "To increase its weight.",
+          "To help it learn to walk."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Finisher feed is given to broilers mainly to increase body weight before market."
+    ),
+  ],
+);
+
 ///Math
-final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(

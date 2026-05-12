@@ -4581,6 +4581,86 @@ final PracticeModel Scijhs2s2ss3Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs2s2ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS3 L3/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where should you place the 'zero' mark of your ruler when measuring plant height?",
+      answer: "Correct Answer: At the ground level (base of the plant).",
+      explanation: "Explanation: To get the true height, you must start from where the plant meets the soil, not from the top of the bed or the middle of the stem.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a plant in a raised bed has 10 leaves and a plant in a sunken bed has 4 leaves, which plant is likely healthier?",
+      answer: "Correct Answer: The plant in the raised bed.",
+      explanation: "Explanation: More leaves usually indicate that the plant is capturing more sunlight and has better access to nutrients and the right amount of water.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the benefit of using a graph to show your results?",
+      answer: "Correct Answer: It makes the differences easy to see at a glance.",
+      explanation: "Explanation: Graphs turn numbers into a picture, making it very simple to compare which seed bed performed better.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why would a farmer in Northern Ghana choose to make hay from grass during the rainy season?",
+      answer: "Correct Answer: To preserve the grass as a dry roughage so that it can be fed to animals during the dry season when fresh grass is scarce.",
+      explanation: "Explanation: By drying the grass to 90% dry matter, it won't rot and can be kept for months.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a poultry farmer wants their broiler chickens to grow very fast, should they feed them mainly on straw or a maize-based concentrate?",
+      answer: "Correct Answer: The farmer should use a maize-based concentrate.",
+      explanation: "Explanation: Chickens have simple stomachs and need high-energy, low-fibre feed like concentrates to grow quickly. Straw is a roughage and is too fibrous for them.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main difference between silage and hay?",
+      answer: "Correct Answer: Silage is preserved while moist through fermentation, whereas hay is preserved by drying it out in the sun.",
+      explanation: "Explanation: Both are roughages, but silage has a higher water content than hay.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L2/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer notices his young chicks are very small and not growing feathers quickly. Which nutrient is likely missing from their diet?",
+      answer: "Correct Answer: Protein.",
+      explanation: "Explanation: Protein is the \"building block\" for growth and tissues like feathers. Without it, growth slows down.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does a draught animal, like a bullock used for ploughing fields in Tamale, need a lot of maize in its feed?",
+      answer: "Correct Answer: Maize provides carbohydrates, which give the bullock the energy (fuel) it needs to do the heavy work of pulling a plough.",
+      explanation: "Explanation: Carbohydrates are the main source of energy for physical activity.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a feed contains \"Essential Amino Acids,\" why is that good for the animal?",
+      answer: "Correct Answer: Because the animal's body cannot make these amino acids itself, so they must be eaten in the food to ensure healthy growth.",
+      explanation: "Explanation: \"Essential\" means it is a required part of the diet.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s2ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a hen is laying eggs with very thin, soft shells, which mineral should the farmer add to the feed?",
+      answer: "Correct Answer: Calcium (often provided through crushed oyster shells).",
+      explanation: "Explanation: Calcium is the primary mineral used by the bird's body to create the hard outer shell of an egg.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it often said that animals in Ghana have \"stronger bones\" than animals kept in dark, indoor pens in other countries?",
+      answer: "Correct Answer: Because our animals get plenty of sunlight, which helps their bodies produce Vitamin D.",
+      explanation: "Explanation: Vitamin D is essential for absorbing calcium into the bones, and sunlight is the best natural source.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: An animal is very weak, has pale eyes, and tires easily. The vet says it has poor blood. Which micro-mineral is likely missing?",
+      answer: "Correct Answer: Iron.",
+      explanation: "Explanation: Iron is needed to produce haemoglobin in the blood, which carries oxygen around the body.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
@@ -4765,6 +4845,207 @@ final PracticeModel Scijhs3s1ss2Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs3s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L1/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why are leguminous plants like groundnuts very important for a farmer’s field?",
+      answer: "Correct Answer: They have bacteria in their roots that perform nitrogen fixation.",
+      explanation: "Explanation: These plants host Rhizobium bacteria which take nitrogen from the air and put it into the soil, making the land more fertile for other crops.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What would happen if there were no decomposers like fungi in the nitrogen cycle?",
+      answer: "Correct Answer: Dead plants and animals would not break down, and nitrogen would stay trapped in them.",
+      explanation: "Explanation: Without decomposers, the process of ammonification would stop. The soil would run out of nutrients because the nitrogen wouldn't be recycled from dead matter.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Describe how nitrogen gas from the atmosphere finally gets back into the air.",
+      answer: "Correct Answer: Through the process of denitrification by soil bacteria.",
+      explanation: "Explanation: Denitrifying bacteria break down nitrates in the soil and release the nitrogen back into the atmosphere as gas, completing the cycle.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS1 L2/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a student notices their school garden has plants with yellow leaves, what nutrient is likely missing?",
+      answer: "Correct Answer:  Nitrogen.",
+      explanation: "Explanation: Nitrogen is needed to make chlorophyll. Without it, leaves lose their green colour and turn yellow.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Explain why eating a diet rich in beans is good for a growing child's muscles.",
+      answer: "Correct Answer: Beans contain nitrogen-rich proteins.",
+      explanation: "Explanation: Nitrogen is a key part of the amino acids that build muscle tissue and help the body grow.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is the practice of \"slash and burn\" farming discouraged by scientists?",
+      answer: "Correct Answer: It destroys the nitrogen in the plants and soil.",
+      explanation: "Explanation: Burning turns the nitrogen into gas and smoke, which escapes into the atmosphere instead of being recycled back into the soil.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L1/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why does a grasshopper nymph need to moult its skin?",
+      answer: "Correct Answer:  It needs to shed its hard exoskeleton to allow its body to grow larger.",
+      explanation: "Explanation: Because the exoskeleton is hard like a shell, it cannot grow. The nymph must shed the old shell to reveal a new, bigger one underneath.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: In which specific part of the environment does the female grasshopper lay her eggs?",
+      answer: "Correct Answer: She lays them in pods buried in the soil or under leaf litter.",
+      explanation: "Explanation: Burying the eggs helps protect them from predators and prevents them from drying out in the heat.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What is the main physical feature that an adult grasshopper has, but a nymph does not?",
+      answer: "Correct Answer: Fully developed wings for flying.",
+      explanation: "Explanation: While nymphs may have tiny wing pads, only the adult stage has the full wings needed for flight and migration.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS2 L2/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why do food prices in the market go up after a grasshopper outbreak?",
+      answer: "Correct Answer: Because the insects destroy crops, leading to a shortage of food supply.",
+      explanation: "Explanation: When there is less corn or cassava available because grasshoppers ate it, the small amount left becomes more expensive for everyone.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: How does a \"roto-tiller\" or plough help control grasshoppers?",
+      answer: "Correct Answer: It turns the soil and destroys the egg pods buried underground.",
+      explanation: "Explanation: By disturbing the soil where the eggs are hidden, we stop the next generation of nymphs from hatching.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Give one reason why grasshoppers are considered beneficial to a poultry farmer.",
+      answer: "Correct Answer: They serve as a free, high-protein food source for chickens and guinea fowls.",
+      explanation: "Explanation: Poultry birds love to eat grasshoppers, which helps the farmer save money on expensive commercial bird feed.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L1/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Esi noticed her peppers are turning from green to bright red. What maturity index is she observing?",
+      answer: "Correct Answer: Colour change.",
+      explanation: "Explanation: Colour is one of the most common signs that a fruit or vegetable has reached maturity.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why might maize planted in sandy soil be ready for harvest earlier than maize in clay soil?",
+      answer: "Correct Answer: Sandy soil drains water fast, causing the plant to mature quickly due to water stress.",
+      explanation: "Explanation: When plants have less water, they often speed up their life cycle to produce seeds before they dry out.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What is the benefit of using a raised seedbed for growing carrots in a backyard garden?",
+      answer: "Correct Answer: It provides better drainage and warmth, which speeds up maturation.",
+      explanation: "Explanation: Carrots need loose soil to grow deep and warmth to develop quickly.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L2/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a farmer wants to sell maize to a woman who roasts it by the roadside, should he harvest it at the green (immature) stage or the dry (mature) stage?",
+      answer: "Correct Answer: Green (immature) stage.",
+      explanation: "Explanation: Roasted maize requires soft, milky kernels which are only found in the immature green stage.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is mature cassava preferred over immature cassava for making Fufu?",
+      answer: "Correct Answer: Mature cassava has a much higher starch content.",
+      explanation: "Explanation: Starch is what gives Fufu its texture and consistency; immature cassava lacks this development.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Ama wants to make a very spicy Shito. Should she buy green peppers or red, mature peppers from the market?",
+      answer: "Correct Answer: Red, mature peppers.",
+      explanation: "Explanation: As peppers mature to the red stage, their heat (capsaicin) and flavour levels increase significantly.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS3 L3/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer harvests his maize early because he is afraid of rain, but the kernels are shriveled and have low starch. How does this affect his market value?",
+      answer: "Correct Answer: His market value will decrease because the quality is low.",
+      explanation: "Explanation: Buyers want full, starchy kernels. Shriveled maize will sell for fewer Cedis or might not sell at all.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it important for a farmer to wait for \"physiological maturity\" before harvesting crops he intends to use for seeds?",
+      answer: "Correct Answer: The seeds must be fully developed to ensure they will germinate next season.",
+      explanation: "Explanation: If seeds are harvested too early, they are not \"alive\" enough to grow into new plants when planted.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Mention one way that harvesting on time helps the environment.",
+      answer: "Correct Answer: It reduces food waste and the rotting of produce in the field.",
+      explanation: "Explanation: Rotting produce can attract pests and wastes the resources (water/nutrients) used to grow it.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer in Tamale notices his layers are producing eggs with very weak, soft shells. Which ingredient should he add to their feed?",
+      answer: "Correct Answer: The farmer should add oyster shells or bone meal.",
+      explanation: "Explanation: Oyster shells and bone meal are rich in calcium, which is the mineral required to form hard, healthy eggshells.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it better for a poultry farmer to use 'pelleted' feed instead of 'mash' (powdered) feed?",
+      answer: "Correct Answer: Pelleted feed prevents the birds from picking only their favourite ingredients.",
+      explanation: "Explanation: Pelleting binds all nutrients together into one unit, ensuring a balanced diet and reducing feed waste.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a pig farmer wants his animals to grow muscle more quickly, which class of nutrient should he increase?",
+      answer: "Correct Answer: He should increase the amount of protein in the feed.",
+      explanation: "Explanation: Proteins, such as fishmeal or soybean meal, are the primary nutrients responsible for tissue repair and muscle growth.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L2/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer in Akosombo is feeding his rabbits only high-fibre elephant grass. Is this a good choice? Why?",
+      answer: "Correct Answer: No, it is not a good choice. Rabbits are monogastrics with simple stomachs and cannot digest high-fibre grass efficiently. They need concentrated feed for proper growth.",
+      explanation: "Explanation: Monogastrics lack the complex rumen needed to break down tough plant fibres found in elephant grass.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does a poultry farmer often include small grits or oyster shells in the feed for his hens?",
+      answer: "Correct Answer: To help with food grinding in the gizzard and to provide calcium for eggshells.",
+      explanation: "Explanation: Birds use grit in the gizzard to mechanically break down grains, while oyster shells provide the calcium needed for strong shells.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Identify one common 'Roughage' feed used for sheep in Ghana.",
+      answer: "Correct Answer: Fresh pasture grass (or hay/silage).",
+      explanation: "Explanation: Sheep are ruminants and their digestive systems are designed to extract nutrients from bulky, fibrous plants like grass.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s2ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer has chicks that are only 2 weeks old. They are very small and active. What should they be eating?",
+      answer: "Correct Answer: They should be eating Starter Mash.",
+      explanation: "Explanation: Chicks under 6 weeks old need high-protein Starter Mash to support their rapid organ and tissue development.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: You visit a farm and see pigs that are already very large and heavy, almost ready to be sold. What feed should the farmer be using now?",
+      answer: "Correct Answer: The farmer should be using Finisher Feed.",
+      explanation: "Explanation: Finisher feed is high in energy to help adult pigs reach their final market weight.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does a 'Layer' hen need more calcium in her diet than a 'Broiler' chicken?",
+      answer: "Correct Answer: She needs it to produce hard eggshells.",
+      explanation: "Explanation: Layer feed is specially formulated with extra calcium (often from oyster shells) specifically for egg production, which broilers do not do.",
+    ),
+  ],
+);
+
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/3. Guided Practice.m4a',
@@ -4772,26 +5053,22 @@ final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
     PracticeQuestion(
       scenario: "1. How many flats (10 million) make 200,000,000?",
       answer: "20 flats",
-      explanation:
-          "Since one flat represents 10,000,000, we divide 200,000,000 by 10,000,000. This equals 20 flats.",
+      explanation: "Since one flat represents 10,000,000, we divide 200,000,000 by 10,000,000. This equals 20 flats.",
     ),
     PracticeQuestion(
       scenario: "2. Which symbol fits? 5,113,000 ____ 5,131,000",
       answer: "<",
-      explanation:
-          "Comparing from the left, the millions and hundred-thousands are equal. In the ten-thousands place, 1 is less than 3.",
+      explanation: "Comparing from the left, the millions and hundred-thousands are equal. In the ten-thousands place, 1 is less than 3.",
     ),
     PracticeQuestion(
       scenario: "3. Round 1,879,000 off to the nearest million.",
       answer: "2,000,000",
-      explanation:
-          "The digit to the right of the millions place is 8. Because 8 is 5 or more, we round the 1 up to 2.",
+      explanation: "The digit to the right of the millions place is 8. Because 8 is 5 or more, we round the 1 up to 2.",
     ),
     PracticeQuestion(
       scenario: "4. Round 0.486 to the nearest tenth.",
       answer: "0.5",
-      explanation:
-          "The target is 4 in the tenths place. The neighbor is 8. Since 8 is 5 or more, we round 4 up to 5.",
+      explanation: "The target is 4 in the tenths place. The neighbor is 8. Since 8 is 5 or more, we round 4 up to 5.",
     ),
     PracticeQuestion(
       scenario: "5. How many significant figures are in 0.0050?",
