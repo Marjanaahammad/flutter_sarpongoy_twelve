@@ -5045,6 +5045,26 @@ final PracticeModel Scijhs3s2ss4Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs3s2ss4Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L4/6. Guided Practice .m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Farmer Kwesi leaves 5 bags of feed on the dirt floor of his shed during the rainy season. What is likely to happen?",
+      answer: "Correct Answer: The feed will absorb moisture from the ground and become moldy or rot.",
+      explanation: "Explanation: Feed must be stored on raised wooden pallets in a dry area to prevent spoilage and contamination.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A poultry farmer notice his birds are eating very little and look weak. He doesn't have any records. Why is this a problem?",
+      answer: "Correct Answer: Without records, he doesn't know when the problem started or if it's related to a change in feed or water.",
+      explanation: "Explanation: Records provide a history that helps farmers identify and solve health or nutritional problems quickly.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Which feeding method is better for a broiler farmer who wants his birds to reach 2kg in 6 weeks: Restricted or Ad-libitum?",
+      answer: "Correct Answer: Ad-libitum feeding.",
+      explanation: "Explanation: Ad-libitum feeding allows the birds to eat as much as they want, which is necessary for the rapid weight gain required in broiler production.",
+    ),
+  ],
+);
 
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(

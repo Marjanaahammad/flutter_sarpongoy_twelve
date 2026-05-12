@@ -22922,6 +22922,90 @@ final QuizModel Scijhs3s2ss4Lesson3QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs3s2ss4Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L4/8. Quiz .m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does 'Ad-libitum' feeding mean?",
+      options: ["Feeding only once a week.", "Feeding at specific timed intervals.", "Providing feed at all times for the animal.", "Feeding animals only when they cry."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Ad-libitum means feed is available 24/7.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which feeding system is most likely to cause the spread of soil-borne diseases?",
+      options: ["Trough feeding", "Automatic feeding", "Floor feeding", "Silo feeding"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Animals picking feed from the floor can ingest dirt and parasites.",
+    ),
+
+    QuizQuestion(
+      question: "3. To keep feed fresh, it should be stored:",
+      options: ["In the direct sunlight.", "On a damp cement floor.", "In an open bucket outside.", "On wooden pallets in a dry room."],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Pallets protect feed from ground moisture and mold.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should a farmer record the date and type of feed purchased?",
+      options: ["To show the birds how much he spent.", "To monitor feed quality and costs.", "To prevent the feed from smelling.", "To make the notebook look full."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Tracking purchases is essential for financial and quality management.",
+    ),
+
+    QuizQuestion(
+      question: "5. A 'Growth Record' is usually created by:",
+      options: ["Counting the number of feathers.", "Measuring the height of the fence.", "Weighing the animals at regular intervals.", "Recording the names of the animals."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Weight is the standard measure of growth in animal production.",
+    ),
+
+    QuizQuestion(
+      question: "6. If 5 chicks die out of 100 in one week, where should the farmer record this?",
+      options: ["Financial record", "Mortality record", "Feeding record", "Water record"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Mortality records track deaths in the flock.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which animal is most likely to be on a 'Restricted' diet?",
+      options: ["A 2-week-old broiler chick.", "A piglet in the creep stage.", "A pregnant sow (female pig).", "A baby rabbit."],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Breeding animals are restricted to prevent obesity, which causes health issues.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the result of poor sanitation in water troughs?",
+      options: ["Faster animal growth.", "Higher egg production.", "Disease outbreaks.", "Cleaner feathers."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Dirty water troughs harbor pathogens that cause illness.",
+    ),
+
+    QuizQuestion(
+      question: "9. How does record-keeping help a farmer get a loan from a bank in Ghana?",
+      options: ["It proves the farmer can write well.", "It shows the bank the farm is profitable.", "It makes the bank manager happy.", "It acts as a map to the farm."],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Banks require financial and production records to prove a business is viable.",
+    ),
+
+    QuizQuestion(
+      question: "10. In a commercial poultry house, the temperature of the water should be:",
+      options: ["Boiling hot.", "Frozen as ice.", "Clean and cool.", "Very salty."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Cool, clean water encourages animals to drink and stay hydrated.",
+    ),
+  ],
+);
 
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(

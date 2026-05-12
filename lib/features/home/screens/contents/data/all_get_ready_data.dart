@@ -1253,6 +1253,12 @@ final GetReadyModel SciJHS3s2ss4Lesson3GetReadyData = GetReadyModel(
   hookImagePath: 'assets/images/science/SCIENCE JHS3 S2 SS4 L3/hook.jpg',
   hookAudioPath: 'assets/audio/science/JHS3 S2 SS4 L3/2. Hook.m4a',
 );
+final GetReadyModel SciJHS3s2ss4Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S2 SS4 L4/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S2 SS4 L4/1. Chapter 1 .m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S2 SS4 L4/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S2 SS4 L4/2. Hook .m4a',
+);
 
 ///Math
 final GetReadyModel MATHJHS1s1ss1GetReadyData = GetReadyModel(

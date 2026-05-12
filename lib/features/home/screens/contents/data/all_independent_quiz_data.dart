@@ -10840,6 +10840,62 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson3IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S2 SS4 L4/7. Independent Practice .m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main reason for using a feeding trough instead of scattering feed on the floor?",
+        options: [
+          "It makes the farm look more expensive.",
+          "It reduces feed waste and contamination.",
+          "It helps the birds grow more feathers.",
+          "It makes the feed taste much sweeter."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Feeding troughs help reduce feed waste and prevent contamination from dirt and droppings."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a farmer wants to prevent his breeding pigs from getting too fat, which method should he use?",
+        options: [
+          "Ad-libitum feeding",
+          "No feeding at all",
+          "Restricted feeding",
+          "Floor feeding"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Restricted feeding controls the amount of feed given to prevent breeding pigs from becoming overweight."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a 'Mortality Record' used for?",
+        options: [
+          "Tracking the cost of new chicks.",
+          "Tracking the number of animals that die.",
+          "Tracking the weight of the largest pig.",
+          "Tracking the amount of water used."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A mortality record is used to keep track of the number of animals that die on the farm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it important to clean water troughs every single day?",
+        options: [
+          "To prevent the spread of diseases.",
+          "To make the water turn blue.",
+          "To help the farmer get exercise.",
+          "To stop the animals from drinking."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Cleaning water troughs daily helps prevent germs and diseases from spreading among animals."
+    ),
+  ],
+);
 
 ///Math
 final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
