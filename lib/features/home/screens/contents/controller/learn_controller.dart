@@ -46,7 +46,8 @@ class LearnController extends GetxController {
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
   bool get isCurrentPartFinished {
-    return true;
+    final idx = currentPartIndex.value;
+    return isPartFinishedInSession[idx] || isPartCompleted[idx];
   }
 
   // ── Initialisation ───────────────────────────────────────────────────────────
@@ -72,7 +73,7 @@ class LearnController extends GetxController {
 
     // Initialise per-part lists with the correct length
     final count = model.parts.length;
-    isPartFinishedInSession.assignAll(List.filled(count, true));
+    isPartFinishedInSession.assignAll(List.filled(count, false));
     isPartCompleted.assignAll(List.filled(count, false));
 
     _loadExistingProgress();
@@ -213,11 +214,10 @@ class LearnController extends GetxController {
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
-    // Always allow navigation
-    // if (!isCurrentPartFinished) {
-    //   debugPrint('Cannot advance: current part not finished this session');
-    //   return;
-    // }
+    if (!isCurrentPartFinished) {
+      debugPrint('Cannot advance: current part not finished this session');
+      return;
+    }
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {
