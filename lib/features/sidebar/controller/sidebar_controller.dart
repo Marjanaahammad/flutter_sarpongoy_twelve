@@ -2625,6 +2625,34 @@ class SidebarController extends GetxController {
                 independentPracticeData = Scijhs1s3ss3Lesson4IndependentQuizData;
                 quizData = Scijhs1s3ss3Lesson4QuizData;
               }
+              if (courseTitle == "Science" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s3ss4Lesson1GetReadyData;
+                learnData = Scijh1s3ss4Lesson1LearnData;
+                practiceData = Scijhs1s3ss4Lesson1PracticeData;
+                independentPracticeData = Scijhs1s3ss4Lesson1IndependentQuizData;
+                quizData = Scijhs1s3ss4Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s3ss4Lesson2GetReadyData;
+                learnData = Scijh1s3ss4Lesson2LearnData;
+                practiceData = Scijhs1s3ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs1s3ss4Lesson2IndependentQuizData;
+                quizData = Scijhs1s3ss4Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS1s3ss4Lesson3GetReadyData;
+                learnData = Scijh1s3ss4Lesson3LearnData;
+                practiceData = Scijhs1s3ss4Lesson3PracticeData;
+                independentPracticeData = Scijhs1s3ss4Lesson3IndependentQuizData;
+                quizData = Scijhs1s3ss4Lesson3QuizData;
+              }
               if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 0 &&
