@@ -165,7 +165,7 @@ class LearnPartWidget extends StatelessWidget {
                     _completeButton(context, finished)
                   else
                     next_button(
-                      isEnabled: true,
+                      isEnabled: finished,
                       onTap: () => controller.goToNextPart(),
                     ),
                 ],
@@ -180,17 +180,18 @@ class LearnPartWidget extends StatelessWidget {
 
   Widget _completeButton(BuildContext context, bool finished) {
     return IgnorePointer(
-      ignoring: false,
+      ignoring: !finished,
       child: Container(
         height: 80,
         width: 80,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(50),
-          color: const Color(0xFF0F0FE5),
+          color: finished ? const Color(0xFF0F0FE5) : Colors.grey.shade400,
         ),
         child: Center(
           child: IconButton(
-            onPressed: () {
+            onPressed: finished
+                ? () {
                     Get.snackbar(
                       'Congratulations!',
                       'You have successfully completed the learn section.',

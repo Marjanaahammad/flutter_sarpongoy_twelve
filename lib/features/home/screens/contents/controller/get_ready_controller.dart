@@ -59,7 +59,7 @@ class GetReadyController extends GetxController {
     lessonNumber = number;
     gradeName = grade;
 
-    // Reset session flags every time we enter the lesson
+    // Always enable Next button by setting session flags to true immediately
     isOverviewFinishedInSession.value = true;
     isHookFinishedInSession.value = true;
 
@@ -203,12 +203,21 @@ class GetReadyController extends GetxController {
   }
 
   void goToHook() {
-    if (!isOverviewFinishedInSession.value && !isOverviewCompleted.value) {
-      debugPrint("Cannot go to hook: Overview not finished this session");
-      return;
+    // Mark overview as completed when navigating to hook
+    if (!isOverviewCompleted.value) {
+      isOverviewCompleted.value = true;
+      _saveProgress('overview', true);
     }
     showHook.value = true;
     loadAudio(model.hookAudioPath, delayMs: 500);
+  }
+
+  void completeGetReady() {
+    // Mark hook as completed
+    if (!isHookCompleted.value) {
+      isHookCompleted.value = true;
+      _saveProgress('hook', true);
+    }
   }
 
   void goBackToOverview() {

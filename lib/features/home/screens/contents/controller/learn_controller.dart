@@ -72,7 +72,7 @@ class LearnController extends GetxController {
     currentPartIndex.value = 0;
 
     // Initialise per-part lists with the correct length
-    final count = model.parts.length;
+    // Always enable Next button by setting session flags to true immediately
     isPartFinishedInSession.assignAll(List.filled(count, true));
     isPartCompleted.assignAll(List.filled(count, false));
 
@@ -214,16 +214,30 @@ class LearnController extends GetxController {
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
-    if (!isCurrentPartFinished) {
-      debugPrint('Cannot advance: current part not finished this session');
-      return;
+    // Mark current part as completed when navigating to next part
+    final idx = currentPartIndex.value;
+    if (!isPartCompleted[idx]) {
+      isPartCompleted[idx] = true;
+      isPartCompleted.refresh();
+      _saveProgress(idx, true);
     }
+
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {
       loadVideo(currentPart.videoPath!, delayMs: 500);
     } else {
       loadAudio(currentPart.audioPath, delayMs: 500);
+    }
+  }
+
+  void completeLearn() {
+    // Mark the last part as completed
+    final idx = currentPartIndex.value;
+    if (!isPartCompleted[idx]) {
+      isPartCompleted[idx] = true;
+      isPartCompleted.refresh();
+      _saveProgress(idx, true);
     }
   }
 
