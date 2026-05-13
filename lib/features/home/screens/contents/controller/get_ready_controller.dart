@@ -60,8 +60,8 @@ class GetReadyController extends GetxController {
     gradeName = grade;
 
     // Reset session flags every time we enter the lesson
-    isOverviewFinishedInSession.value = false;
-    isHookFinishedInSession.value = false;
+    isOverviewFinishedInSession.value = true;
+    isHookFinishedInSession.value = true;
 
     _loadExistingProgress();
     loadAudio(model.overviewAudioPath, delayMs: 3500);

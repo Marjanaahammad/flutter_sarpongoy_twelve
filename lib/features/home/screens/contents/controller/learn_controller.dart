@@ -73,7 +73,7 @@ class LearnController extends GetxController {
 
     // Initialise per-part lists with the correct length
     final count = model.parts.length;
-    isPartFinishedInSession.assignAll(List.filled(count, false));
+    isPartFinishedInSession.assignAll(List.filled(count, true));
     isPartCompleted.assignAll(List.filled(count, false));
 
     _loadExistingProgress();
