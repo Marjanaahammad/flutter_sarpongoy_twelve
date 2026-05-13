@@ -9087,6 +9087,899 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs1s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the best definition of food?",
+        options: [
+          "Anything that tastes sweet and is sold in the market",
+          "Any substance that provides nutrients to the body",
+          "Only solid items that we chew with our teeth",
+          "Liquids that we drink only when we are very thirsty"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Bacon is produced from pigs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is food compared to the petrol used in a vehicle?",
+        options: [
+          "It makes the body move very fast on the road",
+          "It helps the body stay very cool in the sun",
+          "It provides the energy needed for body functions",
+          "It is only needed when the body is far from home"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Feathers from poultry are used to make products such as feather dusters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A child who does not eat enough food may stop growing tall. This is because food is needed for:",
+        options: [
+          "Protection",
+          "Digestion",
+          "Body building",
+          "Temperature"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cattle are strong animals that can be used to pull ploughs for farming."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a local Ghanaian example of a food source?",
+        options: [
+          "Plastic",
+          "Cassava",
+          "Sand",
+          "Petrol"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Animal skins and hides are used to cover traditional drums."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a biotic component of a forest?",
+        options: [
+          "The sunlight",
+          "The damp soil",
+          "The fungi",
+          "The wind"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fungi are living organisms, so they are biotic components of a forest ecosystem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which instrument is used to measure an abiotic factor?",
+        options: [
+          "A microscope",
+          "A rain gauge",
+          "A ruler",
+          "A calculator"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rain gauge is used to measure rainfall, which is an abiotic factor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which abiotic factor is most important for a plant to make food?",
+        options: [
+          "Large rocks",
+          "The sunlight",
+          "Small insects",
+          "Earthworms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plants need sunlight for photosynthesis to make their food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
+        options: [
+          "A biotic factor",
+          "A living fish",
+          "An abiotic factor",
+          "A sea plant"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Salinity refers to the salt content of water, which is an abiotic factor."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
+        options: [
+          "Land rotation",
+          "Single cropping",
+          "Crop rotation",
+          "Bush burning"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Crop rotation helps maintain soil fertility naturally without depending on chemicals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A farmer who wants to avoid water pollution should choose which system?",
+        options: [
+          "Organic farming",
+          "Chemical farming",
+          "Land rotation",
+          "Single cropping"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Organic farming avoids harmful chemicals that can pollute water sources."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The primary merit of Mixed Cropping is:",
+        options: [
+          "Less work for the farmer",
+          "Reducing risk of crop failure",
+          "Using heavy machinery",
+          "Moving to a new forest"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Mixed cropping reduces the risk of total crop failure because different crops grow together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is a demerit of Organic Farming?",
+        options: [
+          "It poisons the water",
+          "It is very labour-intensive",
+          "It uses too much land",
+          "It kills all the soil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Organic farming often requires more manual labour and management."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a list of only inner planets?",
+        options: [
+          "Mercury, Earth, Mars, Jupiter",
+          "Venus, Earth, Mars, Saturn",
+          "Mercury, Venus, Earth, Mars",
+          "Earth, Mars, Neptune, Venus"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The inner planets are Mercury, Venus, Earth, and Mars."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a common physical property of all four inner planets?",
+        options: [
+          "They all possess very thick rings.",
+          "They all have solid, rocky surfaces.",
+          "They all have more than five moons.",
+          "They all are made of mostly hydrogen."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "All inner planets have solid rocky surfaces unlike the gas giants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which galaxy is our solar system located?",
+        options: [
+          "The Andromeda Spiral Galaxy",
+          "The Solar System Galaxy",
+          "The Milky Way Galaxy",
+          "The Elliptical Galaxy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Our solar system is part of the Milky Way Galaxy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What determines the path of movement for the inner planets?",
+        options: [
+          "The magnetic pull of the North Pole.",
+          "The gravitational pull of the Sun.",
+          "The wind currents in outer space.",
+          "The light reflecting from the Moon."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Sun’s gravitational pull keeps the inner planets moving in their orbits."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How long does it take Mercury to complete one orbit around the Sun?",
+        options: [
+          "365 Earth days",
+          "225 Earth days",
+          "88 Earth days",
+          "243 Earth days"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mercury completes one orbit around the Sun in about 88 Earth days."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which gas is primarily responsible for trapping heat on Venus?",
+        options: [
+          "Oxygen gas",
+          "Carbon dioxide",
+          "Nitrogen gas",
+          "Hydrogen gas"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Carbon dioxide creates a strong greenhouse effect on Venus."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which planet is the only one besides Uranus to show retrograde rotation?",
+        options: [
+          "Mercury",
+          "Earth",
+          "Mars",
+          "Venus"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Venus rotates in the opposite direction compared to most planets."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why does Mercury experience extremely cold temperatures at night?",
+        options: [
+          "It is too far from the Sun.",
+          "It is covered in thick ice.",
+          "It lacks an atmosphere.",
+          "It spins faster than Earth."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mercury lacks a thick atmosphere to trap heat during the night."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In what direction does the Sun rise on the planet Venus?",
+        options: [
+          "The North",
+          "The South",
+          "The West",
+          "The East"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Because Venus rotates retrograde, the Sun appears to rise in the west."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which planet is the only one in the solar system known to have liquid water?",
+        options: [
+          "The planet Mars",
+          "The planet Venus",
+          "The planet Earth",
+          "The planet Saturn"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Earth is the only known planet with stable liquid water on its surface."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the largest volcano found on the surface of Mars?",
+        options: [
+          "Mount Adajato",
+          "Olympus Mons",
+          "Mauna Loa",
+          "Mount Everest"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Olympus Mons is the largest volcano in the solar system and is located on Mars."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How many moons does the planet Mars have orbiting it?",
+        options: [
+          "It has no moons.",
+          "It has one moon.",
+          "It has two moons.",
+          "It has four moons."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mars has two small moons named Phobos and Deimos."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the approximate length of one full rotation (a day) on Mars?",
+        options: [
+          "12.0 hours",
+          "24.6 hours",
+          "88.0 hours",
+          "365.2 hours"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A day on Mars lasts about 24.6 hours, which is similar to Earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which layer of Earth's atmosphere protects us from harmful UV radiation?",
+        options: [
+          "The iron layer",
+          "The water layer",
+          "The ozone layer",
+          "The dust layer"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The ozone layer absorbs most of the Sun’s harmful ultraviolet radiation."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following planets is NOT a Gas Giant?",
+        options: [
+          "The planet Jupiter",
+          "The planet Saturn",
+          "The planet Mars",
+          "The planet Neptune"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mars is a rocky terrestrial planet, not a gas giant."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are the two main gases that make up the outer planets?",
+        options: [
+          "Oxygen and Nitrogen",
+          "Hydrogen and Helium",
+          "Carbon and Methane",
+          "Oxygen and Carbon"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The outer planets are mainly composed of hydrogen and helium gases."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which planet is unique because it rotates on its side?",
+        options: [
+          "The planet Uranus",
+          "The planet Jupiter",
+          "The planet Saturn",
+          "The planet Neptune"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Uranus rotates on its side due to its extreme axial tilt."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which planet is located the furthest from the Sun?",
+        options: [
+          "The planet Uranus",
+          "The planet Saturn",
+          "The planet Jupiter",
+          "The planet Neptune"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Neptune is the outermost planet in the solar system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is a common feature shared by all four outer planets?",
+        options: [
+          "They all have solid rock surfaces.",
+          "They all have systems of rings.",
+          "They all have only one moon.",
+          "They all are smaller than Earth."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "All four outer planets have ring systems surrounding them."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which object should be placed at the very centre of your solar system model?",
+        options: [
+          "The planet Earth",
+          "The bright Sun",
+          "The planet Jupiter",
+          "The North Star"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Sun is at the centre of the solar system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. You are painting your planets. Which colour is best for the planet Mars?",
+        options: [
+          "Bright Blue",
+          "Deep Green",
+          "Reddish Brown",
+          "Dark Purple"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mars is known as the Red Planet because of its reddish-brown appearance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When arranging the planets, which one comes immediately after Earth?",
+        options: [
+          "Venus",
+          "Jupiter",
+          "Mars",
+          "Saturn"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mars comes immediately after Earth in the solar system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the best way to represent the 'Gas Giants' compared to 'Inner Planets'?",
+        options: [
+          "Make them much smaller.",
+          "Make them much larger.",
+          "Use only flat square shapes.",
+          "Give them all solid surfaces."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Gas giants are much larger than the inner rocky planets."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which of these materials would be best for showing an elliptical orbit path?",
+        options: [
+          "A heavy square box",
+          "A piece of stiff string",
+          "A straight wooden ruler",
+          "A solid brick of clay"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A piece of stiff string can be shaped to represent an elliptical orbit path."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of an ecosystem?",
+        options: [
+          "A group of animals living in a zoo.",
+          "Plants and animals living in a forest.",
+          "Living and non-living things interacting.",
+          "A place where humans grow their crops."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An ecosystem includes living and non-living things interacting together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What do we call an ecosystem that is found on land?",
+        options: [
+          "A Terrestrial ecosystem.",
+          "An Arboreal ecosystem.",
+          "An Aquatic ecosystem.",
+          "A Mountain ecosystem."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A terrestrial ecosystem is an ecosystem found on land."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of the following is a natural aquatic ecosystem in Ghana?",
+        options: [
+          "A garden in Kumasi.",
+          "The Gulf of Guinea.",
+          "A farm in Ejura.",
+          "A school football field."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Gulf of Guinea is a natural aquatic ecosystem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are arboreal ecosystems unique compared to terrestrial ones?",
+        options: [
+          "They are found under the ground.",
+          "They only exist in salt water.",
+          "They exist in tree canopies.",
+          "They require human feeding."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Arboreal ecosystems are found mainly in tree canopies."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a biotic component of a forest?",
+        options: [
+          "The sunlight",
+          "The damp soil",
+          "The fungi",
+          "The wind"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fungi are living organisms, making them biotic components of a forest."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which instrument is used to measure an abiotic factor?",
+        options: [
+          "A microscope",
+          "A rain gauge",
+          "A ruler",
+          "A calculator"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rain gauge measures rainfall, which is an abiotic factor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which abiotic factor is most important for a plant to make food?",
+        options: [
+          "Large rocks",
+          "The sunlight",
+          "Small insects",
+          "Earthworms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plants use sunlight during photosynthesis to make food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
+        options: [
+          "A biotic factor",
+          "A living fish",
+          "An abiotic factor",
+          "A sea plant"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Salinity refers to the amount of salt in water, which is an abiotic factor."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which feature would you most likely find on an aquatic animal?",
+        options: [
+          "Thick fur for warmth",
+          "Streamlined body",
+          "Long gripping tail",
+          "Strong running legs"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Aquatic animals often have streamlined bodies to help them move easily through water."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do many arboreal animals have long tails or sharp claws?",
+        options: [
+          "To swim faster",
+          "To stay cool",
+          "To climb safely",
+          "To dig in soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Long tails and sharp claws help arboreal animals climb and move safely in trees."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A Mahogany tree in a forest is a producer in which ecosystem?",
+        options: [
+          "Terrestrial",
+          "Arboreal",
+          "Aquatic",
+          "Artificial"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A Mahogany tree is a producer found in a terrestrial ecosystem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these organisms is adapted to live in a terrestrial environment?",
+        options: [
+          "A shark",
+          "A sea turtle",
+          "A savanna lion",
+          "A tree monkey"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A savanna lion is adapted to living in a land-based terrestrial environment."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which abiotic factor do plants use to make their own food?",
+        options: [
+          "Oxygen gas",
+          "Sunlight",
+          "Earthworms",
+          "Fallen leaves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plants use sunlight during photosynthesis to make their own food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does a forest help prevent soil from washing away?",
+        options: [
+          "By blocking the sun",
+          "By using biotic roots",
+          "By attracting birds",
+          "By growing very tall"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Plant roots help hold soil together and reduce erosion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the result of animals breathing in an ecosystem?",
+        options: [
+          "They release oxygen",
+          "They release CO2",
+          "They create sunlight",
+          "They make more soil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Animals release carbon dioxide (CO2) during respiration."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a pond dries up due to heat, what happens to the aquatic life?",
+        options: [
+          "They grow wings",
+          "They will die out",
+          "They eat the sun",
+          "They turn into soil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Aquatic organisms may die when their water habitat dries up."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the period called when land is left to rest in Land Rotation?",
+        options: [
+          "Resting season",
+          "Fallow period",
+          "Planting gap",
+          "Boring period"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The fallow period is the time when land is left to rest and regain fertility."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In which system would you see a farmer using compost and biological pest control?",
+        options: [
+          "Organic farming",
+          "Mixed cropping",
+          "Land rotation",
+          "Mixed farming"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Organic farming uses compost and natural pest control methods instead of chemicals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which system involves a definite order of planting different crops on the same plot?",
+        options: [
+          "Mixed cropping",
+          "Land rotation",
+          "Crop rotation",
+          "Mixed farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Crop rotation involves planting different crops in a planned sequence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A farmer who keeps poultry and grows vegetables on the same land is practicing:",
+        options: [
+          "Mixed cropping",
+          "Organic farming",
+          "Land rotation",
+          "Mixed farming"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Mixed farming combines crop cultivation with animal rearing on the same farm."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which category best describes a farm that moves to a new location every few years?",
+        options: [
+          "Permanent system",
+          "Shifting system",
+          "Integrated system",
+          "Chemical system"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A shifting system involves moving farming activities from one location to another after some years."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Mixed Farming is best categorised as an 'integrated' system because it joins:",
+        options: [
+          "Two different types of soil",
+          "Two different types of tools",
+          "Crops and livestock together",
+          "Two different farm owners"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mixed farming combines crop production and livestock rearing on the same farm."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Systems like Organic Farming are categorised based on their:",
+        options: [
+          "Location in the country",
+          "Size of the farm plot",
+          "Use of natural inputs",
+          "Number of farm workers"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Organic farming is classified based on the use of natural inputs instead of synthetic chemicals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a high-population area of Ghana, which system is most common?",
+        options: [
+          "Land rotation",
+          "Forest clearing",
+          "Crop rotation",
+          "Desert farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Crop rotation is commonly practiced in densely populated areas where land is limited."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
+        options: [
+          "Land rotation",
+          "Single cropping",
+          "Crop rotation",
+          "Bush burning"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Crop rotation helps maintain soil fertility naturally without using chemicals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A farmer who wants to avoid water pollution should choose which system?",
+        options: [
+          "Organic farming",
+          "Chemical farming",
+          "Land rotation",
+          "Single cropping"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Organic farming avoids harmful chemicals that can pollute water sources."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The primary merit of Mixed Cropping is:",
+        options: [
+          "Less work for the farmer",
+          "Reducing risk of crop failure",
+          "Using heavy machinery",
+          "Moving to a new forest"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Mixed cropping reduces the risk of total crop failure by growing different crops together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is a demerit of Organic Farming?",
+        options: [
+          "It poisons the water",
+          "It is very labour-intensive",
+          "It uses too much land",
+          "It kills all the soil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Organic farming often requires more labour and careful management."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',

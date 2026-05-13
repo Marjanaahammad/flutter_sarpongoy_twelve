@@ -19762,6 +19762,1258 @@ final QuizModel Scijhs1s2ss4Lesson4QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs1s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are the chemical substances in food that help the body function?",
+      options: ["Calories", "Nutrients", "Flavours", "Medicines"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Nutrients are the essential components within food that support life and health.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which function of food helps a student recover from a fever?",
+      options: ["Giving the skin a darker colour", "Protection against diseases", "Making the student taller", "Helping the student sleep"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Food contains nutrients that strengthen the immune system to fight illnesses.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these best describes a person who has been starved for a long time?",
+      options: ["Healthy and very energetic", "Weak with visible rib bones", "Strong and very muscular", "Happy and very talkative"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Starvation leads to a lack of nutrients, causing the body to waste away and become weak.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do we say food is important for 'maintenance'?",
+      options: ["It keeps our school uniforms clean", "It repairs worn-out body tissues", "It helps us buy things at Kejetia", "It makes the hair grow very long"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Maintenance refers to the body's ability to fix itself using nutrients.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of the following is NOT a reason why humans need to eat?",
+      options: ["To get energy for playing football", "To grow from a child to an adult", "To change their natural skin tone", "To stay protected from infections"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Food affects health and growth, but it does not change your natural skin colour.",
+    ),
+
+    QuizQuestion(
+      question: "6. If Ama eats a balanced meal of banku and okra stew, she is providing her body with:",
+      options: ["Poisonous chemicals", "Essential nutrients", "Only waste matter", "Only plain water"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Banku and okra stew are rich in various nutrients like carbohydrates and vitamins.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the body use food for 'body building'?",
+      options: ["By helping us carry heavy cement blocks", "By increasing the size and number of cells", "By making us want to sleep all afternoon", "By helping us learn how to read English"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Growth occurs at a cellular level using nutrients as the building blocks.",
+    ),
+
+    QuizQuestion(
+      question: "8. What would happen to a Ghanaian athlete who stops eating?",
+      options: ["They would run much faster than before", "Their energy levels would drop quickly", "They would become much more cheerful", "Their bones would become much heavier"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Without food, there is no fuel for the muscles, leading to a loss of energy.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which term describes the process of taking in food for health and growth?",
+      options: ["Respiration", "Nutrition", "Circulation", "Evaporation"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Nutrition is the process of obtaining and using food for the body's needs.",
+    ),
+
+    QuizQuestion(
+      question: "10. Food can be in which of the following forms?",
+      options: ["Solids only", "Liquids only", "Both solids and liquids", "Neither solids nor liquids"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Both the food we eat and the nutritious drinks we consume are considered food.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term 'Biotic' mean?",
+      options: ["Non-living", "Very small", "Living parts", "Very cold"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Biotic refers to all living organisms.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is an abiotic factor in a river?",
+      options: ["The catfish", "The water flow", "The water lily", "The bacteria"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The movement/speed of water is a physical, non-living factor.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is soil considered an abiotic component?",
+      options: ["It is not alive", "It has plants", "It is very green", "It can breathe"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Soil is made of minerals and organic matter but is not a living organism itself.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which list contains ONLY biotic components?",
+      options: ["Goat, Sun, Grass", "Tree, Bird, Fish", "Soil, Wind, Rock", "Rain, Frog, Air"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Trees, birds, and fish are all living things.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which instrument measures wind speed?",
+      options: ["Thermometer", "Photometer", "Anemometer", "Rain gauge"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "An anemometer is the specific tool for measuring wind speed.",
+    ),
+
+    QuizQuestion(
+      question: "6. An elephant in Mole National Park is a...",
+      options: ["Biotic factor", "Abiotic factor", "Physical factor", "Chemical factor"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Elephants are living organisms.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the name for abiotic factors related to soil?",
+      options: ["Aquatic factors", "Edaphic factors", "Biotic factors", "Aerial factors"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Edaphic specifically refers to soil conditions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a biotic component of an arboreal ecosystem?",
+      options: ["Tree branches", "High sunlight", "Small monkeys", "Strong winds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Monkeys are the living (biotic) part of the tree-top system.",
+    ),
+
+    QuizQuestion(
+      question: "9. Temperature is measured using a...",
+      options: ["Hygrometer", "Barometer", "Thermometer", "Anemometer"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Thermometers measure how hot or cold it is.",
+    ),
+
+    QuizQuestion(
+      question: "10. Humidity refers to what in the air?",
+      options: ["The amount of dust", "The amount of light", "The water vapour", "The number of birds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Humidity is an abiotic factor measuring moisture in the air.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which system is most likely to cause the loss of Ghana's forest cover?",
+      options: ["Crop rotation", "Mixed farming", "Land rotation", "Organic farming"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Land rotation involves clearing new forest areas, which leads to deforestation.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is a significant advantage of Crop Rotation?",
+      options: ["Moving to new land", "Less need for water", "Better soil nutrients", "Fewer workers needed"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Rotating crops prevents the soil from being depleted of specific nutrients.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is Mixed Farming considered highly efficient?",
+      options: ["It uses only one plot", "It uses goats and crops", "It needs zero labour", "It uses no sunlight"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The relationship between crops and livestock creates a cycle that maximizes resources.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a merit of Organic Farming?",
+      options: ["Faster crop growth", "Clean water bodies", "Very low labour", "Cheapest seeds"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Because it avoids synthetic chemicals, it prevents poisonous runoff into rivers.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main demerit of Mixed Cropping?",
+      options: ["Risk of total failure", "Difficulty in weeding", "Loss of all land", "High chemical use"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Having many different crops together makes it harder to use tools or weed efficiently.",
+    ),
+
+    QuizQuestion(
+      question: "6. Legumes are useful in Crop Rotation because they:",
+      options: ["Kill all the pests", "Improve soil fertility", "Need no sunlight", "Grow in the sand"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Legumes return nitrogen to the soil, acting as a natural fertilizer for the next crop.",
+    ),
+
+    QuizQuestion(
+      question: "7. A farmer who practices Land Rotation avoids the cost of:",
+      options: ["Buying new seeds", "Chemical fertilizers", "Paying for water", "Hiring any help"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The fallow period naturally restores soil fertility, so the farmer doesn't need to buy chemicals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which system provides the most diverse income for a farmer?",
+      options: ["Mixed farming", "Land rotation", "Single cropping", "Bush fallowing"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Selling both crops and animal products provides multiple ways to earn money.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which system is hardest to practice in a very crowded city?",
+      options: ["Mixed cropping", "Crop rotation", "Land rotation", "Organic farming"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Land rotation requires vast amounts of unused land, which is not available in crowded cities.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is a demerit of Mixed Farming?",
+      options: ["Only one product", "High skill needed", "Soil stays empty", "Very little food"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Managing both animals and crops requires a wide range of knowledge and constant attention.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which planet is the closest to the Sun?",
+      options: ["Venus", "Mercury", "Earth", "Mars"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Mercury is the first planet in the solar system sequence.",
+    ),
+
+    QuizQuestion(
+      question: "2. The inner planets are separated from the outer planets because they are:",
+      options: ["Mostly made of very hot gases.", "Much larger than the gas giants.", "Located much further from the Sun.", "Primarily composed of rocky material."],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Composition is the main differentiator for terrestrial planets.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these planets has the highest number of moons?",
+      options: ["Mars", "Venus", "Earth", "Mercury"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Mars has two moons; Earth has one, while Mercury and Venus have none.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the name for the oval-shaped path a planet takes?",
+      options: ["An elliptical orbit", "A triangular route", "A circular rotation", "A rectangular path"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Orbits are described as elliptical in the NaCCA curriculum.",
+    ),
+
+    QuizQuestion(
+      question: "5. How many planets are classified as 'inner planets'?",
+      options: ["Two planets", "Three planets", "Four planets", "Five planets"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The inner planets are Mercury, Venus, Earth, and Mars.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which statement about the Milky Way is true?",
+      options: ["It is a small planet near the Sun.", "It is the galaxy containing our Sun.", "It is a moon orbiting the planet Mars.", "It is a star located inside the Earth."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Milky Way is the galaxy that houses our entire solar system.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is another name for the inner planets?",
+      options: ["The Jovian Planets", "The Terrestrial Planets", "The Gaseous Planets", "The Galactic Planets"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Terrestrial' refers to their Earth-like, rocky composition.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which planet is the fourth from the Sun?",
+      options: ["Venus", "Earth", "Mercury", "Mars"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The order is Mercury, Venus, Earth, then Mars.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these features is NOT found on inner planets?",
+      options: ["Solid mountains", "Craters and rocks", "Complex ring systems", "Dusty dry surfaces"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Ring systems are a characteristic of outer (Jovian) planets, not inner ones.",
+    ),
+
+    QuizQuestion(
+      question: "10. The Sun stays at the centre of the planets' orbits due to:",
+      options: ["Gravity", "Magnetism", "Sunlight", "Rotation"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Gravity is the force that keeps planets in their elliptical orbits.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these planets is the smallest in the solar system?",
+      options: ["Mercury", "Venus", "Earth", "Mars"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mercury is the smallest of all the eight planets.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the surface temperature of Venus approximately?",
+      options: ["100°C", "465°C", "88°C", "-180°C"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Venus maintains a constant high heat due to its thick atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "3. Mercury's surface is most similar in appearance to:",
+      options: ["The Sun", "The Earth", "The Moon", "The Clouds"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Both are rocky and heavily cratered.",
+    ),
+
+    QuizQuestion(
+      question: "4. Venus is often called Earth's 'twin' because of its:",
+      options: ["Same temperature", "Similar size", "Many moons", "Fast rotation"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Venus and Earth are very close in diameter and mass.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which planet completes a 'year' faster than any other?",
+      options: ["Venus", "Earth", "Mars", "Mercury"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Mercury's orbit is the shortest at 88 days.",
+    ),
+
+    QuizQuestion(
+      question: "6. The rotation of Venus is described as 'retrograde' because it is:",
+      options: ["Moving very fast", "Spinning backwards", "Moving in a circle", "Completely stopped"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Retrograde means spinning opposite to the standard direction.",
+    ),
+
+    QuizQuestion(
+      question: "7. Mercury is the first planet, and Venus is the:",
+      options: ["Third planet", "Second planet", "Fourth planet", "Fifth planet"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Venus follows Mercury in the order from the Sun.",
+    ),
+
+    QuizQuestion(
+      question: "8. What would you NOT find on the planet Mercury?",
+      options: ["Solid rocks", "Deep craters", "Thick clouds", "Extreme heat"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Mercury has almost no atmosphere, so it cannot have thick clouds.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which planet takes longer to rotate once than to orbit the Sun?",
+      options: ["Mercury", "Mars", "Earth", "Venus"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "A day on Venus (243 days) is longer than its year (225 days).",
+    ),
+
+    QuizQuestion(
+      question: "10. The Greenhouse Effect on Venus is caused by its:",
+      options: ["Dense atmosphere", "Lack of gravity", "Distance from Sun", "Icy North Pole"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The thick atmosphere traps solar energy, raising the temperature.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Earth is located at which position from the Sun?",
+      options: ["Second position", "Third position", "Fourth position", "Fifth position"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The order is Mercury, Venus, then Earth.",
+    ),
+
+    QuizQuestion(
+      question: "2. What gives the surface of Mars its reddish colour?",
+      options: ["Red plant life", "Hot liquid lava", "Iron oxide rust", "Red solar light"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Iron oxide in the soil is the cause of the red colour.",
+    ),
+
+    QuizQuestion(
+      question: "3. How long does it take for Earth to orbit the Sun once?",
+      options: ["24 hours", "88 days", "225 days", "365 days"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "One Earth year is approximately 365 days.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a name of a moon orbiting Mars?",
+      options: ["Phobos", "Titan", "Luna", "Io"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Phobos and Deimos are the two moons of Mars.",
+    ),
+
+    QuizQuestion(
+      question: "5. Compared to Earth, the atmosphere of Mars is:",
+      options: ["Much thicker", "Much thinner", "Exactly same", "Full of water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Mars has a very thin atmosphere, which is why it is so cold.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which planet has a rotation time most similar to Earth?",
+      options: ["Mercury", "Venus", "Mars", "Jupiter"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Earth rotates in 24 hours, Mars in 24.6 hours.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the primary gas in the atmosphere of Mars?",
+      options: ["Oxygen gas", "Carbon dioxide", "Nitrogen gas", "Helium gas"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Mars' thin atmosphere is 95% carbon dioxide.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which feature is unique to Earth among the inner planets?",
+      options: ["Rocky surface", "Polar ice caps", "Life and water", "Elliptical path"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Earth is the only inner planet with confirmed life and liquid surface water.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the shape of the orbit for both Earth and Mars?",
+      options: ["Perfectly round", "Strictly square", "Elliptical shape", "Triangular path"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "All planets in our solar system have elliptical orbits.",
+    ),
+
+    QuizQuestion(
+      question: "10. Mars is often called by which common nickname?",
+      options: ["The Blue Planet", "The Giant Planet", "The Red Planet", "The Morning Star"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Its reddish appearance earned it this famous nickname.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which planet is the largest in our entire solar system?",
+      options: ["Saturn", "Jupiter", "Neptune", "Uranus"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Jupiter is the largest of all eight planets.",
+    ),
+
+    QuizQuestion(
+      question: "2. The outer planets are also known by which name?",
+      options: ["Terrestrial Planets", "Jovian Planets", "Rocky Planets", "Inner Planets"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Jovian means 'Jupiter-like' and refers to the gas giants.",
+    ),
+
+    QuizQuestion(
+      question: "3. Saturn's rings are primarily made of which materials?",
+      options: ["Hot liquid lava", "Gases and clouds", "Ice and rock", "Gold and silver"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The rings are composed of billions of particles of ice and rocky debris.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which gas gives Uranus and Neptune their blue colour?",
+      options: ["Methane", "Oxygen", "Helium", "Nitrogen"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Methane gas absorbs red light and reflects blue light.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which planet is known as the 'Ice Giant' furthest from the Sun?",
+      options: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Neptune is the 8th and final planet from the Sun.",
+    ),
+
+    QuizQuestion(
+      question: "6. How many moons do the outer planets typically have?",
+      options: ["No moons at all", "Only one moon", "Very many moons", "Exactly two moons"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Gas giants have dozens of moons due to their massive gravity.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the 'Great Red Spot' found on Jupiter?",
+      options: ["A large volcano", "A giant storm", "A deep ocean", "A red desert"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It is a high-pressure storm system.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which planet spins on its side like a rolling ball?",
+      options: ["Saturn", "Neptune", "Jupiter", "Uranus"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Uranus has a unique axial tilt of about 98 degrees.",
+    ),
+
+    QuizQuestion(
+      question: "9. Compared to the inner planets, the outer planets orbit:",
+      options: ["Much faster", "Much slower", "At same speed", "In reverse"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "They have much further to travel to complete one orbit.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these is NOT a property of the Jovian planets?",
+      options: ["Solid surface", "Large size", "Many moons", "Ring systems"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Jovian planets are fluid/gaseous and lack a solid crust.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A model of the solar system is used to show:",
+      options: ["How stars are born", "The position of planets", "The weather in Accra", "How to fly a plane"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Models help us visualise the arrangement of celestial bodies.",
+    ),
+
+    QuizQuestion(
+      question: "2. In your model, the 'Inner Planets' should be placed:",
+      options: ["Furthest from the Sun", "Closest to the Sun", "Outside the galaxy", "Behind the gas giants"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The terrestrial planets occupy the inner orbits.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which planet in your model should be the largest?",
+      options: ["Earth", "Neptune", "Jupiter", "Venus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Jupiter is the largest of the eight planets.",
+    ),
+
+    QuizQuestion(
+      question: "4. How many planets must you include in a complete model?",
+      options: ["Six planets", "Seven planets", "Eight planets", "Nine planets"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Since 2006, the official count is eight planets.",
+    ),
+
+    QuizQuestion(
+      question: "5. To show the 'Ice Giants,' which two planets should be coloured blue?",
+      options: ["Mercury and Venus", "Mars and Jupiter", "Uranus and Neptune", "Earth and Saturn"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Methane gas gives the two outermost giants a blue appearance.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which planet should be placed in the 4th position from the Sun?",
+      options: ["Earth", "Mars", "Jupiter", "Venus"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The order is Mercury, Venus, Earth, Mars.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why do we use different sized balls in a solar system model?",
+      options: ["To make it look pretty", "To represent relative size", "Because we ran out of clay", "To show how hot they are"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Size differences are a key property of the planets.",
+    ),
+
+    QuizQuestion(
+      question: "8. The paths drawn for the planets to follow are called:",
+      options: ["Lanes", "Tracks", "Orbits", "Streets"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "An orbit is the path a body takes around a star.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which material is best for showing Saturn's most famous feature?",
+      options: ["A flat paper ring", "A small round bead", "A piece of wet cloth", "A heavy metal lock"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A ring or disk best represents Saturn's ring system.",
+    ),
+
+    QuizQuestion(
+      question: "10. A 'Terrestrial' planet model should look:",
+      options: ["Like a giant cloud", "Like a solid rock", "Like a ball of fire", "Like a transparent gas"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Terrestrial planets are defined by their solid, rocky composition.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main source of energy for most natural ecosystems?",
+      options: ["Electricity", "Food waste", "The sunlight", "Wind power"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Plants need sunlight to make food, which starts the energy flow.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which category does a desert like the Sahara fall into?",
+      options: ["Terrestrial", "Arboreal", "Artificial", "Aquatic"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Deserts are land-based environments.",
+    ),
+
+    QuizQuestion(
+      question: "3. A self-sustaining unit means the ecosystem...",
+      options: ["Needs human help to survive.", "Only contains living things.", "Can survive on its own.", "Is always made by humans."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Self-sustaining means it maintains itself through internal interactions.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of an arboreal organism?",
+      options: ["A tilapia fish", "A fruit bat", "A desert camel", "A garden snail"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bats often live and interact within tree structures.",
+    ),
+
+    QuizQuestion(
+      question: "5. What happens when a non-living part of an ecosystem, like water, disappears?",
+      options: ["The living things will thrive.", "The ecosystem stays the same.", "The system will be damaged.", "New animals will be born."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Living things depend on non-living things to survive.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a freshwater aquatic ecosystem?",
+      options: ["The Atlantic Ocean", "A tropical rainforest", "The Lake Volta", "A high mountain top"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Lake Volta is a famous freshwater body in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is NOT a category of ecosystem?",
+      options: ["Terrestrial", "Arboreal", "Atmospheric", "Aquatic"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The three standard categories are terrestrial, aquatic, and arboreal.",
+    ),
+
+    QuizQuestion(
+      question: "8. In an ecosystem, how do plants and animals interact?",
+      options: ["They live completely separately.", "They depend on each other.", "They only meet during rain.", "They never use the soil."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Interaction and interdependence are key features of an ecosystem.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which ecosystem would you find in the canopy of a forest?",
+      options: ["Aquatic", "Terrestrial", "Artificial", "Arboreal"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Tree-based systems are called arboreal.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these is a non-living part of a grassland?",
+      options: ["The green grass", "The grazing cow", "The blowing wind", "The small insects"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Wind is a physical/abiotic factor, not a living organism.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term 'Biotic' mean?",
+      options: ["Non-living", "Very small", "Living parts", "Very cold"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Biotic refers to all living organisms.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is an abiotic factor in a river?",
+      options: ["The catfish", "The water flow", "The water lily", "The bacteria"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The movement/speed of water is a physical, non-living factor.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is soil considered an abiotic component?",
+      options: ["It is not alive", "It has plants", "It is very green", "It can breathe"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Soil is made of minerals and organic matter but is not a living organism itself.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which list contains ONLY biotic components?",
+      options: ["Goat, Sun, Grass", "Tree, Bird, Fish", "Soil, Wind, Rock", "Rain, Frog, Air"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Trees, birds, and fish are all living things.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which instrument measures wind speed?",
+      options: ["Thermometer", "Photometer", "Anemometer", "Rain gauge"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "An anemometer is the specific tool for measuring wind speed.",
+    ),
+
+    QuizQuestion(
+      question: "6. An elephant in Mole National Park is a...",
+      options: ["Biotic factor", "Abiotic factor", "Physical factor", "Chemical factor"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Elephants are living organisms.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the name for abiotic factors related to soil?",
+      options: ["Aquatic factors", "Edaphic factors", "Biotic factors", "Aerial factors"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Edaphic specifically refers to soil conditions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a biotic component of an arboreal ecosystem?",
+      options: ["Tree branches", "High sunlight", "Small monkeys", "Strong winds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Monkeys are the living (biotic) part of the tree-top system.",
+    ),
+
+    QuizQuestion(
+      question: "9. Temperature is measured using a...",
+      options: ["Hygrometer", "Barometer", "Thermometer", "Anemometer"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Thermometers measure how hot or cold it is.",
+    ),
+
+    QuizQuestion(
+      question: "10. Humidity refers to what in the air?",
+      options: ["The amount of dust", "The amount of light", "The water vapour", "The number of birds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Humidity is an abiotic factor measuring moisture in the air.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main function of gills in aquatic organisms?",
+      options: ["To help them see", "To help them swim", "To help them breathe", "To keep them warm"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Gills extract oxygen from water for respiration.",
+    ),
+    QuizQuestion(
+      question: "2. Which animal is an example of an arboreal organism in Ghana?",
+      options: ["A Mona monkey", "A forest elephant", "A river tilapia", "A coastal whale"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Monkeys are primary examples of tree-dwelling (arboreal) life.",
+    ),
+    QuizQuestion(
+      question: "3. Terrestrial plants often have deep roots to...",
+      options: ["Hide from animals", "Catch more wind", "Reach for water", "Float on ponds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Deep roots allow land plants to access water deep in the soil.",
+    ),
+    QuizQuestion(
+      question: "4. A 'streamlined' body is an adaptation most useful for...",
+      options: ["Moving in water", "Climbing a tree", "Flying in air", "Digging a hole"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Streamlining reduces resistance when swimming.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these features helps a chameleon live an arboreal life?",
+      options: ["Long flat fins", "Large heavy ears", "Strong grip feet", "Thick blubber skin"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Chameleons use their feet to clasp onto branches.",
+    ),
+    QuizQuestion(
+      question: "6. Lungs are a common feature for organisms in which ecosystem?",
+      options: ["Aquatic", "Terrestrial", "Submarine", "Deep-sea"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Lungs are used to breathe oxygen from the atmosphere on land.",
+    ),
+    QuizQuestion(
+      question: "7. Which organism would most likely have a lightweight body for balance?",
+      options: ["A hippopotamus", "A tree squirrel", "A deep-sea crab", "A savanna buffalo"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Arboreal animals need to be light to move across thin branches.",
+    ),
+    QuizQuestion(
+      question: "8. Plants that float on the surface of a lagoon are part of which system?",
+      options: ["Terrestrial", "Arboreal", "Aquatic", "Mountain"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Lagoons are water environments (aquatic).",
+    ),
+    QuizQuestion(
+      question: "9. What helps a land animal prevent its body from drying out?",
+      options: ["Having gills", "Transparent skin", "Waterproof skin", "Very short legs"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Terrestrial animals need skin or scales to keep moisture inside.",
+    ),
+    QuizQuestion(
+      question: "10. A tail used for gripping branches is called a...",
+      options: ["Fins-type tail", "Prehensile tail", "Stubby-type tail", "Aquatic-type tail"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Prehensile means 'capable of grasping.'",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the process where plants use sunlight to produce energy?",
+      options: ["Respiration", "Transpiration", "Photosynthesis", "Erosion"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Photosynthesis is the key interaction between light and plants.",
+    ),
+
+    QuizQuestion(
+      question: "2. When plants release water vapour into the air, they affect...",
+      options: ["Humidity levels", "Soil minerals", "Solar energy", "Rock hardness"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Humidity is an abiotic factor changed by biotic plant activity.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do organisms in a desert stay hidden during the day?",
+      options: ["To find more food", "To hide from rain", "To avoid the heat", "To play with others"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "High temperature (abiotic) forces animals (biotic) to change their behavior.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a biotic factor that improves abiotic soil?",
+      options: ["Heavy rainfall", "Strong winds", "Decaying leaves", "Bright sunlight"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rotting organic matter adds nutrients to the non-living soil.",
+    ),
+
+    QuizQuestion(
+      question: "5. What abiotic factor is most affected by a heavy wind storm?",
+      options: ["Air movement", "Plant height", "Animal hunger", "Fruit taste"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Wind is the movement of air, an abiotic component.",
+    ),
+
+    QuizQuestion(
+      question: "6. An ecosystem is balanced when...",
+      options: ["Only animals live there", "Components interact", "It has no water", "Humans stay away"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Health depends on the continuous interaction of all parts.",
+    ),
+
+    QuizQuestion(
+      question: "7. How do decomposers like fungi help the ecosystem?",
+      options: ["They eat live birds", "They recycle nutrients", "They stop the rain", "They block the sun"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Fungi break down biotic waste into abiotic soil minerals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Plants are called 'Producers' because they...",
+      options: ["Produce oxygen", "Make their food", "Walk on land", "Live in water"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "They produce chemical energy from abiotic sunlight.",
+    ),
+
+    QuizQuestion(
+      question: "9. If a lake becomes too salty, the freshwater fish will...",
+      options: ["Learn to like salt", "Struggle to survive", "Turn into seaweed", "Start to fly away"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Living things have specific abiotic limits they can tolerate.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which interaction helps create 'forest rain'?",
+      options: ["Animals drinking", "Plants breathing", "Rocks heating up", "Wind blowing fast"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Transpiration from plants adds moisture to the air to form rain.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which farming system requires moving to a new site when soil fertility declines?",
+      options: ["Crop rotation", "Land rotation", "Mixed farming", "Mixed cropping"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Land rotation is defined by moving the farm to a new location to allow the old soil to recover.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is a major characteristic of Mixed Cropping?",
+      options: ["Rearing cattle and goats", "Using only organic manure", "Moving to a new farmland", "Growing many crops at once"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Mixed cropping involves growing two or more crops simultaneously on the same plot.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is Crop Rotation considered better for land use than Land Rotation?",
+      options: ["It uses more chemicals", "It needs a lot of land", "It stays on one plot", "It uses more animals"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Crop rotation is efficient because it maintains soil fertility without requiring the farmer to clear new land.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which system helps a farmer get manure for their crops directly from the farm?",
+      options: ["Land rotation", "Mixed farming", "Mixed cropping", "Organic farming"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In mixed farming, animals are kept on the farm, providing a direct source of manure.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is NOT used in a strict Organic Farming system?",
+      options: ["Animal manure", "Green compost", "Urea fertilizer", "Natural enemies"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Urea is a synthetic chemical fertilizer, which is prohibited in organic farming.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a crop rotation cycle, why are legumes like groundnuts often included?",
+      options: ["They grow very tall", "They fix nitrogen", "They need no water", "They kill all bugs"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Legumes have nodules on their roots that help return nitrogen to the soil, improving fertility.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which system is most likely to cause deforestation in Ghana?",
+      options: ["Organic farming", "Mixed cropping", "Land rotation", "Mixed farming"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Land rotation requires clearing new patches of forest every few years, which leads to deforestation.",
+    ),
+
+    QuizQuestion(
+      question: "8. What defines the 'cycle' in a Crop Rotation system?",
+      options: ["The order of crops", "The age of the farm", "The size of the land", "The price of seeds"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The cycle refers to the planned, definite order in which different crops are planted.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which system provides the most diverse food security for a small family?",
+      options: ["Land rotation", "Mixed cropping", "Single cropping", "Organic farming"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Growing multiple types of crops at once ensures that if one fails, others are available for food.",
+    ),
+
+    QuizQuestion(
+      question: "10. A farmer who uses only decayed plant matter to fertilize his soil is practicing:",
+      options: ["Mixed farming", "Crop rotation", "Mixed cropping", "Organic farming"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Using natural materials like compost instead of chemicals is the core of organic farming.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which system is categorised by the movement of the farmer to a new site?",
+      options: ["Mixed farming", "Land rotation", "Crop rotation", "Mixed cropping"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The movement to a new location is the defining category for land rotation.",
+    ),
+
+    QuizQuestion(
+      question: "2. How would you categorise a farm that grows only beans this year and only maize next year on the same plot?",
+      options: ["Mixed cropping", "Mixed farming", "Crop rotation", "Land rotation"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Rotating different crops on the same plot in a sequence is crop rotation.",
+    ),
+
+    QuizQuestion(
+      question: "3. A farm using compost instead of NPK fertilizer belongs to which category?",
+      options: ["Organic farming", "Mixed farming", "Land rotation", "Mixed cropping"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The use of natural organic inputs instead of synthetic chemicals defines organic farming.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which category combines plant production and animal rearing?",
+      options: ["Mixed cropping", "Mixed farming", "Crop rotation", "Land rotation"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Mixed farming is the integration of both crops and animals.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a 'Single-Plot' system?",
+      options: ["Land rotation", "Mixed cropping", "Nomadic herding", "Bush fallowing"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Mixed cropping stays on one plot, whereas the others involve moving.",
+    ),
+
+    QuizQuestion(
+      question: "6. Farmers in urban Accra usually practice which category due to land shortage?",
+      options: ["Land rotation", "Extensive farming", "Crop rotation", "Shifting cultivation"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Crop rotation allows farmers to use the same small piece of land continuously.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the main factor used to categorise Land Rotation?",
+      options: ["Type of crop", "Land availability", "Type of animal", "Market price"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Land rotation depends on having enough land to move from one place to another.",
+    ),
+
+    QuizQuestion(
+      question: "8. Mixed Cropping and Crop Rotation are both categorized as:",
+      options: ["Shifting systems", "Permanent systems", "Chemical systems", "Animal systems"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Both systems are practiced on a fixed, permanent piece of land.",
+    ),
+
+    QuizQuestion(
+      question: "9. A description mentioning 'biological pest control' belongs to:",
+      options: ["Mixed cropping", "Land rotation", "Organic farming", "Mixed farming"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Biological control is a natural method used in organic farming categories.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which category helps most in recycling nutrients between animals and plants?",
+      options: ["Mixed cropping", "Mixed farming", "Crop rotation", "Land rotation"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Mixed farming allows manure from animals to improve crop fertility.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s3ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which system is most likely to cause the loss of Ghana's forest cover?",
+      options: ["Crop rotation", "Mixed farming", "Land rotation", "Organic farming"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Land rotation involves clearing new forest areas, which leads to deforestation.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is a significant advantage of Crop Rotation?",
+      options: ["Moving to new land", "Less need for water", "Better soil nutrients", "Fewer workers needed"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Rotating crops prevents the soil from being depleted of specific nutrients.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is Mixed Farming considered highly efficient?",
+      options: ["It uses only one plot", "It uses goats and crops", "It needs zero labour", "It uses no sunlight"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The relationship between crops and livestock creates a cycle that maximizes resources.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a merit of Organic Farming?",
+      options: ["Faster crop growth", "Clean water bodies", "Very low labour", "Cheapest seeds"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Because it avoids synthetic chemicals, it prevents poisonous runoff into rivers.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main demerit of Mixed Cropping?",
+      options: ["Risk of total failure", "Difficulty in weeding", "Loss of all land", "High chemical use"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Having many different crops together makes it harder to use tools or weed efficiently.",
+    ),
+
+    QuizQuestion(
+      question: "6. Legumes are useful in Crop Rotation because they:",
+      options: ["Kill all the pests", "Improve soil fertility", "Need no sunlight", "Grow in the sand"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Legumes return nitrogen to the soil, acting as a natural fertilizer for the next crop.",
+    ),
+
+    QuizQuestion(
+      question: "7. A farmer who practices Land Rotation avoids the cost of:",
+      options: ["Buying new seeds", "Chemical fertilizers", "Paying for water", "Hiring any help"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The fallow period naturally restores soil fertility, so the farmer doesn't need to buy chemicals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which system provides the most diverse income for a farmer?",
+      options: ["Mixed farming", "Land rotation", "Single cropping", "Bush fallowing"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Selling both crops and animal products provides multiple ways to earn money.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which system is hardest to practice in a very crowded city?",
+      options: ["Mixed cropping", "Crop rotation", "Land rotation", "Organic farming"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Land rotation requires vast amounts of unused land, which is not available in crowded cities.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is a demerit of Mixed Farming?",
+      options: ["Only one product", "High skill needed", "Soil stays empty", "Very little food"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Managing both animals and crops requires a wide range of knowledge and constant attention.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
   questions: [

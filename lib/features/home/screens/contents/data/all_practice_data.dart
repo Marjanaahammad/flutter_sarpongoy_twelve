@@ -4311,6 +4311,307 @@ final PracticeModel Scijhs1s2ss4Lesson4PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs1s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In your own words, explain what nutrients are.",
+      answer: "Correct Answer: Nutrients are the chemical substances found in food that the body needs to work properly.",
+      explanation: "Explanation: Nutrients are the specific parts of food (like proteins or vitamins) that do the actual work inside our bodies.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does a student need to eat before a long walk to school?",
+      answer: "Correct Answer: The student needs food to provide the energy required for the physical activity of walking.",
+      explanation: "Explanation: Food acts as fuel; without it, the body will feel too tired to move over long distances.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does food help a child who has a small cut on their hand?",
+      answer: "Correct Answer: Food provides the materials needed to repair worn-out tissues and grow new skin.",
+      explanation: "Explanation: One of the main functions of food is the repair and maintenance of the body's cells.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A heavy rainstorm in Kumasi. Is the rain Biotic or Abiotic?",
+      answer: "Correct Answer: Abiotic.",
+      explanation: "Explanation: Rain is water, which is a non-living physical factor, even though living things need it to survive.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A grasshopper eating leaves in a garden. Is the grasshopper Biotic or Abiotic?",
+      answer: "Correct Answer: Biotic.",
+      explanation: "Explanation: The grasshopper is a living organism that grows, eats, and moves.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: The pH level of the water in a fish pond. Is this Biotic or Abiotic?",
+      answer: "Correct Answer: Abiotic.",
+      explanation: "Explanation: pH is a chemical property of the water (non-living), not a living creature.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is Mixed Cropping better than Single Cropping for a family's daily meals?",
+      answer: "Correct Answer: It provides a balanced diet with different types of food (like carbohydrates from cassava and vitamins from peppers) at the same time.",
+      explanation: "Explanation: Since different crops are grown together, the family gets a variety of nutrients from their own backyard.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is a major environmental disadvantage of Land Rotation in Ghana today?",
+      answer: "Correct Answer: It leads to deforestation and the destruction of natural habitats.",
+      explanation: "Explanation: Clearing new forest land every few years destroys trees and the homes of wild animals.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does Mixed Farming help a farmer save money?",
+      answer: "Correct Answer: The farmer uses animal manure as fertilizer instead of buying expensive chemical fertilizers.",
+      explanation: "Explanation: The animals provide free fertilizer, reducing the cost of growing crops.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why are the inner planets referred to as 'terrestrial' planets?",
+      answer: "Correct Answer: They are called terrestrial because they have solid, rocky surfaces similar to Earth.",
+      explanation: "Explanation: The word terrestrial refers to 'land' or 'rock,' distinguishing them from the gas giants.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the specific shape of the path that Mercury follows around the Sun?",
+      answer: "Correct Answer: The path is an elliptical shape (or an oval).",
+      explanation: "Explanation: NaCCA curriculum and our text specify that planetary orbits are elliptical, not perfectly circular.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If you were standing in a dark field in the Northern Region at night, what might you see that represents our galaxy?",
+      answer: "Correct Answer: A milky band of light or a dense collection of stars known as the Milky Way.",
+      explanation: "Explanation: This identifies our location within the Milky Way galaxy as seen from Earth.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is Venus hotter than Mercury, even though Mercury is closer to the Sun?",
+      answer: "Correct Answer: Venus has a thick atmosphere of carbon dioxide that traps heat through the greenhouse effect, while Mercury has no atmosphere.",
+      explanation: "Explanation: The \"blanket\" of gas on Venus is the key reason for its extreme, consistent heat.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What does the term \"retrograde rotation\" mean in relation to Venus?",
+      answer: "Correct Answer: It means the planet spins in the opposite direction (East to West) compared to most other planets.",
+      explanation: "Explanation: Most planets spin West to East; Venus is unique because it spins clockwise.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Describe the surface appearance of Mercury.",
+      answer: "Correct Answer: The surface of Mercury is solid, rocky, and covered in many craters, making it look like the Moon.",
+      explanation: "Explanation: Without an atmosphere to protect it, Mercury has been hit by many space rocks, creating its cratered look.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What are the two main gases found in Earth's atmosphere that help support life?",
+      answer: "Correct Answer: The two main gases are oxygen and nitrogen.",
+      explanation: "Explanation: Oxygen is needed for breathing, and nitrogen makes up the bulk of the air we breathe.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does Mars appear red when we look at it from space?",
+      answer: "Correct Answer: Mars appears red because its surface is covered in iron oxide, which is commonly known as rust.",
+      explanation: "Explanation: The chemical reaction of iron and oxygen on the surface gives the planet its distinct reddish hue.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Compare the length of a year on Earth to a year on Mars.",
+      answer: "Correct Answer: A year on Earth is 365.25 days, while a year on Mars is much longer, taking 687 days.",
+      explanation: "Explanation: Because Mars is further from the Sun, it has a larger path (orbit) to travel, which takes more time.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why can't a person walk on the surface of Jupiter or Saturn?",
+      answer: "Correct Answer: They are gas giants and do not have a solid, rocky surface to stand on.",
+      explanation: "Explanation: Their composition is mostly hydrogen and helium gas, which transitions into liquid deep down.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which planet is famous for having the most visible and beautiful ring system?",
+      answer: "Correct Answer: Saturn is the planet famous for its bright, visible rings.",
+      explanation: "Explanation: While all outer planets have rings, Saturn's are made of highly reflective ice.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the \"Great Red Spot\" on Jupiter?",
+      answer: "Correct Answer: It is a giant, spinning storm that has been active for hundreds of years.",
+      explanation: "Explanation: This is a key identifying feature of Jupiter mentioned in the curriculum.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS2 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are using a large watermelon to represent Jupiter, what would be a good object to represent Mercury?",
+      answer: "Correct Answer: A very small object, like a tiny pebble or a grain of rice.",
+      explanation: "Explanation: Since Mercury is the smallest planet and Jupiter is the largest, the model must show a massive difference in size.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In your model, which planet should have a ring around it to be most accurate?",
+      answer: "Correct Answer: Saturn should have the most prominent ring, though you can add thin ones to the other gas giants too.",
+      explanation: "Explanation: Saturn's rings are its most identifying feature in the NaCCA curriculum.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important to draw \"ellipses\" rather than perfect circles for the planet paths?",
+      answer: "Correct Answer: Because planets move in elliptical orbits, and a model should show how they actually move in space.",
+      explanation: "Explanation: This reinforces the \"relative motion\" indicator from earlier lessons.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you find a group of monkeys living their entire lives in the branches of a large Baobab tree, which category of ecosystem are you looking at?",
+      answer: "Correct Answer: This is an Arboreal ecosystem.",
+      explanation: "Explanation: Because the monkeys live, eat, and sleep within the tree structure rather than on the ground or in the water, it is classified as arboreal.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is a forest considered a \"self-sustaining\" unit?",
+      answer: "Correct Answer: It provides its own food and recycles its own nutrients.",
+      explanation: "Explanation: A forest does not need humans to provide water or food; the plants make food from sunlight, and dead leaves rot to feed the soil again.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Kwame sees a crab in a small pool of salt water near the beach. What category is this?",
+      answer: "Correct Answer: This is an Aquatic ecosystem.",
+      explanation: "Explanation: Since the crab and the other organisms are living in a water environment, it is categorized as aquatic.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question:  A heavy rainstorm in Kumasi. Is the rain Biotic or Abiotic?",
+      answer: "Correct Answer: Abiotic.",
+      explanation: "Explanation: Rain is water, which is a non-living physical factor, even though living things need it to survive.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A grasshopper eating leaves in a garden. Is the grasshopper Biotic or Abiotic?",
+      answer: "Correct Answer: Biotic.",
+      explanation: "Explanation: The grasshopper is a living organism that grows, eats, and moves.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: The pH level of the water in a fish pond. Is this Biotic or Abiotic?",
+      answer: "Correct Answer: Abiotic.",
+      explanation: "Explanation: pH is a chemical property of the water (non-living), not a living creature.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: An animal has gills and a powerful tail for swimming. Which ecosystem is it in?",
+      answer: "Correct Answer: Aquatic ecosystem.",
+      explanation: "Explanation: Gills and swimming tails are specific adaptations for living and moving in water.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A plant has very deep roots to survive a long dry season on the plains. Where does it live?",
+      answer: "Correct Answer: Terrestrial ecosystem.",
+      explanation: "Explanation: Deep roots are needed to find underground water in land environments like the savanna.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A small frog has sticky pads on its toes for climbing smooth tree trunks. What is its category?",
+      answer: "Correct Answer: Arboreal ecosystem.",
+      explanation: "Explanation: Sticky toe pads are used for gripping and climbing in tree-based environments.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS3 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a factory pours chemicals into a river, it changes the water quality. How does this abiotic change affect the fish (biotic)?",
+      answer: "Correct Answer: The fish may become sick or die.",
+      explanation: "Explanation: Since biotic factors depend on abiotic factors for health, polluted water (abiotic) directly harms living organisms (biotic).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How do the roots of a Mangrove tree affect the muddy soil around them?",
+      answer: "Correct Answer: They hold the soil in place.",
+      explanation: "Explanation: This is an example of a biotic factor (roots) influencing and protecting an abiotic factor (soil).",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What happens to the air in a room filled with many green plants during the day?",
+      answer: "Correct Answer: The amount of oxygen increases.",
+      explanation: "Explanation: The biotic plants interact with the abiotic air by releasing oxygen during photosynthesis.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer in the Northern Region grows only yam on a plot of land. After three harvests, he notices the yams are getting smaller, so he clears a new area 2 kilometers away and moves his farming there. Which system is this?",
+      answer: "Correct Answer: Land Rotation.",
+      explanation: "Explanation: Because the farmer is moving to a new location and leaving the old land to rest (fallow), it is Land Rotation.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Explain why a farmer might choose to practice Mixed Farming instead of just growing crops.",
+      answer: "Correct Answer: Mixed farming allows the farmer to get extra income from animals and use animal manure to fertilize the crops for free.",
+      explanation: "Explanation: Mixed farming creates a helpful link between animals and plants, saving money on fertilizer and providing more products like meat or milk.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Describe the main difference between Mixed Cropping and Crop Rotation.",
+      answer: "Correct Answer: Mixed Cropping happens at the same time on one plot, while Crop Rotation happens in a sequence over different seasons.",
+      explanation: "Explanation: In Mixed Cropping, you see many crops together today. In Crop Rotation, you see one type of crop today and a different type on that same spot next year.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"Farmer Mensah has a small plot in Tema. He grows tomatoes and also keeps ten ducks. He uses the duck waste to help his tomatoes grow.\" Categorise this system.",
+      answer: "Correct Answer: Mixed Farming.",
+      explanation: "Explanation: Because he has both crops (tomatoes) and animals (ducks) on the same plot, it falls under Mixed Farming.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Group these two systems together based on one common feature: Crop Rotation and Mixed Cropping. What is the feature?",
+      answer: "Correct Answer: They both take place on a single, permanent piece of land.",
+      explanation: "Explanation: Unlike Land Rotation, both of these systems stay on the same plot of land season after season.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a community is very crowded and has no extra forest land, which category of farming is LEAST likely to be practiced there?",
+      answer: "Correct Answer: Land Rotation.",
+      explanation: "Explanation: Land Rotation requires moving to new, uncleared land, which isn't possible in a crowded area.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s3ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S3 SS4 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is Mixed Cropping better than Single Cropping for a family's daily meals?",
+      answer: "Correct Answer: It provides a balanced diet with different types of food (like carbohydrates from cassava and vitamins from peppers) at the same time.",
+      explanation: "Explanation: Since different crops are grown together, the family gets a variety of nutrients from their own backyard.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is a major environmental disadvantage of Land Rotation in Ghana today?",
+      answer: "Correct Answer: It leads to deforestation and the destruction of natural habitats.",
+      explanation: "Explanation: Clearing new forest land every few years destroys trees and the homes of wild animals.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does Mixed Farming help a farmer save money?",
+      answer: "Correct Answer: The farmer uses animal manure as fertilizer instead of buying expensive chemical fertilizers.",
+      explanation: "Explanation: The animals provide free fertilizer, reducing the cost of growing crops.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
