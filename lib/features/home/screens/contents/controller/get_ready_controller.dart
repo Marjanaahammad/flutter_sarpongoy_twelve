@@ -59,7 +59,7 @@ class GetReadyController extends GetxController {
     lessonNumber = number;
     gradeName = grade;
 
-    // Always enable Next button by setting session flags to true immediately
+    // Always enable Next button — no need to wait for audio to finish
     isOverviewFinishedInSession.value = true;
     isHookFinishedInSession.value = true;
 
@@ -203,21 +203,8 @@ class GetReadyController extends GetxController {
   }
 
   void goToHook() {
-    // Mark overview as completed when navigating to hook
-    if (!isOverviewCompleted.value) {
-      isOverviewCompleted.value = true;
-      _saveProgress('overview', true);
-    }
     showHook.value = true;
     loadAudio(model.hookAudioPath, delayMs: 500);
-  }
-
-  void completeGetReady() {
-    // Mark hook as completed
-    if (!isHookCompleted.value) {
-      isHookCompleted.value = true;
-      _saveProgress('hook', true);
-    }
   }
 
   void goBackToOverview() {
