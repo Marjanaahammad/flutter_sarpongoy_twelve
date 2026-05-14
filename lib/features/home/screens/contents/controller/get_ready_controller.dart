@@ -59,7 +59,7 @@ class GetReadyController extends GetxController {
     lessonNumber = number;
     gradeName = grade;
 
-    // Always enable Next button — no need to wait for audio to finish
+    // Always enable Next button immediately — no need to wait for audio
     isOverviewFinishedInSession.value = true;
     isHookFinishedInSession.value = true;
 
