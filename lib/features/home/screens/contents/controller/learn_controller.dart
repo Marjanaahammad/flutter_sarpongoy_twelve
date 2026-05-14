@@ -45,7 +45,10 @@ class LearnController extends GetxController {
 
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
-  bool get isCurrentPartFinished => true; // Always enabled — no audio-wait required
+  bool get isCurrentPartFinished {
+    final idx = currentPartIndex.value;
+    return isPartFinishedInSession[idx] || isPartCompleted[idx];
+  }
 
   // ── Initialisation ───────────────────────────────────────────────────────────
 
@@ -69,8 +72,9 @@ class LearnController extends GetxController {
     currentPartIndex.value = 0;
 
     // Initialise per-part lists with the correct length
+    // All parts are immediately marked as finished so Next is always enabled
     final count = model.parts.length;
-    isPartFinishedInSession.assignAll(List.filled(count, false));
+    isPartFinishedInSession.assignAll(List.filled(count, true));
     isPartCompleted.assignAll(List.filled(count, false));
 
     _loadExistingProgress();
