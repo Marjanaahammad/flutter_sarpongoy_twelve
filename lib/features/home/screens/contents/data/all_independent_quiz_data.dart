@@ -10816,6 +10816,399 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson3IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of the tooth is located exactly at the gum line?",
+        options: [
+          "The pulp",
+          "The neck",
+          "The root",
+          "The bone"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The neck of the tooth is the part located at the gum line."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these layers is the hardest substance in the human body?",
+        options: [
+          "The dentine",
+          "The cement",
+          "The enamel",
+          "The pulp"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Enamel is the hardest substance in the human body."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The blood vessels and nerves of a tooth are found in the...",
+        options: [
+          "Cementum",
+          "Enamel",
+          "Dentine",
+          "Pulp"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The pulp contains the tooth’s blood vessels and nerves."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which part of the tooth acts as an anchor in the jaw?",
+        options: [
+          "The crown",
+          "The neck",
+          "The root",
+          "The gum"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The root holds the tooth firmly in the jawbone."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of tooth is specifically used for tearing food?",
+        options: [
+          "Molar",
+          "Incisor",
+          "Canine",
+          "Premolar"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Canines are sharp teeth mainly used for tearing food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A chisel-shaped tooth used for biting and cutting is called...",
+        options: [
+          "An incisor",
+          "A molar",
+          "A canine",
+          "A premolar"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Incisors are chisel-shaped teeth used for cutting and biting food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How many canines does a human typically have in the lower jaw?",
+        options: [
+          "Four",
+          "Two",
+          "Six",
+          "Eight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Humans usually have two canines in the lower jaw."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which teeth have a wide, flat surface for heavy grinding?",
+        options: [
+          "Canines",
+          "Incisors",
+          "Premolars",
+          "Molars"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Molars have broad flat surfaces that help grind food."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which substance is produced by bacteria when they eat sugar?",
+        options: [
+          "Calcium",
+          "Enamel",
+          "Acid",
+          "Oxygen"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Bacteria produce acid when they feed on sugar, which can damage teeth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The best way to remove food particles from between the teeth is...",
+        options: [
+          "Rinsing with water",
+          "Using a toothpick",
+          "Flossing",
+          "Chewing gum"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Flossing helps remove food particles and plaque from between the teeth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Gum disease is often caused by the build-up of...",
+        options: [
+          "Plaque",
+          "Fluoride",
+          "Saliva",
+          "Water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Plaque build-up can lead to gum disease if not properly removed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How often should a student ideally brush their teeth?",
+        options: [
+          "Once a week",
+          "Only on Sundays",
+          "Twice a day",
+          "Every three days"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Dentists recommend brushing teeth at least twice a day."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which planet is known as the largest in our solar system?",
+        options: [
+          "Saturn",
+          "Uranus",
+          "Jupiter",
+          "Neptune"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Jupiter is the largest planet in the solar system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Uranus and Neptune are specifically classified as what type of planets?",
+        options: [
+          "Gas Giants",
+          "Ice Giants",
+          "Rock Giants",
+          "Blue Giants"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Uranus and Neptune are known as Ice Giants because of their icy compositions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How many Earths could approximately fit inside the volume of Jupiter?",
+        options: [
+          "100 Earths",
+          "500 Earths",
+          "1,300 Earths",
+          "5,000 Earths"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "About 1,300 Earths could fit inside Jupiter due to its enormous size."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a reason why life cannot exist on the outer planets?",
+        options: [
+          "Too much sunlight",
+          "Extreme high pressure",
+          "Lack of any gravity",
+          "Too many volcanoes"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The outer planets have extremely high pressure and harsh conditions unsuitable for life."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which process do plants use to turn sunlight into food energy?",
+        options: [
+          "Respiration",
+          "Evaporation",
+          "Photosynthesis",
+          "Condensation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Plants use photosynthesis to convert sunlight into food energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary reason animals would die if the sun disappeared?",
+        options: [
+          "They would get lost in the dark",
+          "They would have no plants to eat",
+          "They would stop breathing air",
+          "They would run out of water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Without the sun, plants could not survive, removing the main food source for animals."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a direct result of the sun's heat on our water bodies?",
+        options: [
+          "The water becomes very salty",
+          "Fish grow much larger sizes",
+          "Water evaporates to form rain",
+          "The water turns into oxygen"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sun’s heat causes water to evaporate, which helps form rain."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the sun called the 'primary source' of energy in an ecosystem?",
+        options: [
+          "It is the biggest object seen",
+          "It provides the first energy",
+          "It is very hot and very far",
+          "It shines only during the day"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The sun provides the initial source of energy for nearly all ecosystems."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which farming system involves leaving a piece of land to rest after a period of use?",
+        options: [
+          "Mixed Cropping",
+          "Mixed Farming",
+          "Land Rotation",
+          "Crop Rotation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Land rotation involves leaving land to rest so that it can regain fertility."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major advantage of practicing organic farming in Ghana?",
+        options: [
+          "It requires more chemicals",
+          "It protects water bodies",
+          "It uses synthetic spray",
+          "It relies on machinery"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Organic farming helps protect rivers and other water bodies from chemical pollution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In Mixed Farming, what is the main purpose of the animals involved?",
+        options: [
+          "To compete for the crops",
+          "To create more weeding",
+          "To provide animal waste",
+          "To replace all the land"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Animals in mixed farming provide manure that helps improve soil fertility."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a common crop combination found in Ghanaian Mixed Cropping?",
+        options: [
+          "Maize and poultry birds",
+          "Land fallow and forest",
+          "Cattle and cocoa trees",
+          "Plantain and cocoyam"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Plantain and cocoyam are commonly grown together in mixed cropping systems."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What do animals primarily provide to help crops grow better?",
+        options: [
+          "Shade from the rain",
+          "Natural fertilizer",
+          "Seeds for planting",
+          "Water for irrigation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Animals provide manure, which acts as a natural fertilizer for crops."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a crop residue that can be fed to livestock?",
+        options: [
+          "Fresh maize cobs",
+          "Cassava tubers",
+          "Dried bean husks",
+          "Ripe plantain fruit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Dried bean husks are crop residues commonly used as livestock feed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does having both crops and animals provide 'security' for a Ghanaian farmer?",
+        options: [
+          "It makes the farm smaller",
+          "It requires more chemicals",
+          "It gives two ways to earn",
+          "It prevents any weeding"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Having both crops and animals provides multiple sources of income and food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are legumes like cowpeas useful in a crop rotation system?",
+        options: [
+          "They use all the water",
+          "They add nitrogen to soil",
+          "They grow taller than trees",
+          "They stop all insects"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Legumes help improve soil fertility by adding nitrogen to the soil."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

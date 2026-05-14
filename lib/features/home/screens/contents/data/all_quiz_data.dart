@@ -22499,6 +22499,587 @@ final QuizModel Scijhs2s2ss4Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs2s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which section of the tooth is visible above the gum?",
+      options: ["The Crown", "The Root", "The Pulp", "The Neck"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The crown is the visible top part.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the bone-like substance found directly under the enamel?",
+      options: ["The Cementum", "The Dentine", "The Alveolar", "The Blood"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dentine forms the main bulk under the enamel.",
+    ),
+
+    QuizQuestion(
+      question: "3. How many main external parts does a mammalian tooth have?",
+      options: ["Five parts", "Two parts", "Four parts", "Three parts"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The three parts are Crown, Neck, and Root.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which part connects the tooth root to the jawbone?",
+      options: ["The Cementum", "The Enamel", "The Dentine", "The Crown"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Cementum helps attach the root to the jaw.",
+    ),
+
+    QuizQuestion(
+      question: "5. What do we find inside the pulp cavity?",
+      options: ["Enamel and dentine", "Crown and neck", "Nerves and blood", "Bone and muscle"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The pulp contains nerves and blood vessels.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is the 'waist' of the tooth between the top and bottom?",
+      options: ["The Root", "The Pulp", "The Bone", "The Neck"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The neck is the middle section at the gum line.",
+    ),
+
+    QuizQuestion(
+      question: "7. A tooth stays in the jaw because of which part?",
+      options: ["The Root", "The Neck", "The Gum", "The Crown"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The root anchors the tooth in the jawbone.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why does a tooth feel pain when it is decayed?",
+      options: ["Bacteria touch the dentine", "Bacteria reach the enamel", "Bacteria reach the nerves", "Bacteria touch the cement"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Nerves in the pulp send pain signals to the brain.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which part of the tooth is the shiny white outer layer?",
+      options: ["The Dentine", "The Enamel", "The Cement", "The Pulp"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Enamel is the white, shiny protective layer.",
+    ),
+
+    QuizQuestion(
+      question: "10. Mammals have different types of teeth because they...",
+      options: ["Live in Ghana", "Have long hair", "Feed differently", "Walk on legs"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Teeth shapes are adapted to the animal's diet.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which teeth are located at the very back of the mouth?",
+      options: ["Incisors", "Canines", "Premolars", "Molars"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Molars are the furthest back for grinding.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the main function of the four front teeth in each jaw?",
+      options: ["Cutting", "Tearing", "Sucking", "Tasting"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Incisors are used for cutting and biting.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these teeth has a pointed shape for gripping food?",
+      options: ["Molars", "Canines", "Dentine", "Incisors"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Canines are the pointed 'tearing' teeth.",
+    ),
+
+    QuizQuestion(
+      question: "4. How many incisors does an adult human have in total?",
+      options: ["Two", "Four", "Eight", "Twelve"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "There are 4 on top and 4 on the bottom.",
+    ),
+
+    QuizQuestion(
+      question: "5. The 'cusps' or small bumps on premolars help with which task?",
+      options: ["Brushing", "Biting", "Tearing", "Crushing"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Premolars use their ridges to crush food.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which tooth acts most like a pair of scissors?",
+      options: ["Incisor", "Molar", "Canine", "Root"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Incisors have a sharp edge for cutting.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which tooth would you use most to chew a hard piece of sugar cane?",
+      options: ["Canine", "Molar", "Incisor", "Neck"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Molars do the heavy grinding needed for hard foods.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the main difference between an incisor and a canine?",
+      options: ["Incisors are for tearing", "Canines are for biting", "Incisors have flat edges", "Canines have flat edges"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Incisors are chisel-edged while canines are pointed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Premolars are found between which two types of teeth?",
+      options: ["Incisors and Molars", "Canines and Molars", "Roots and Crowns", "Gums and Enamel"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Premolars sit behind canines and in front of molars.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why do we need different types of teeth?",
+      options: ["To look better", "To talk louder", "To help digestion", "To grow bigger"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Different teeth break food down for the stomach.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main cause of tooth decay?",
+      options: ["Drinking too much water", "Acid produced by plaque", "Eating too much Fufu", "Brushing too often"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Bacteria in plaque create acid that eats enamel.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a sign of gum disease?",
+      options: ["White, shiny teeth", "Strong, hard enamel", "Red and bleeding gums", "Painless chewing"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Inflammation and bleeding are early signs of gum issues.",
+    ),
+
+    QuizQuestion(
+      question: "3. Fluoride is added to toothpaste because it...",
+      options: ["Makes it taste like mint", "Changes the colour", "Strengthens the enamel", "Makes the brush softer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Fluoride helps remineralise and harden tooth enamel.",
+    ),
+
+    QuizQuestion(
+      question: "4. What happens if plaque is not brushed away and hardens?",
+      options: ["It turns into enamel", "It becomes tartar", "It disappears", "It turns into calcium"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Hardened plaque is called tartar or calculus.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which food is best for maintaining strong teeth?",
+      options: ["Toffee", "Milk", "Biscuits", "Soda"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Milk contains calcium which is good for teeth.",
+    ),
+
+    QuizQuestion(
+      question: "6. A 'cavity' is another name for...",
+      options: ["A healthy gum", "A hole in a tooth", "A type of molar", "A new toothbrush"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Decay creates holes in the tooth called cavities.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why should you visit the dentist even if your teeth don't hurt?",
+      options: ["To buy new sweets", "To get early check-ups", "To learn how to talk", "To change your name"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Dentists can spot decay before it causes pain.",
+    ),
+
+    QuizQuestion(
+      question: "8. What do bacteria in the mouth use to make acid?",
+      options: ["Proteins", "Sugars", "Fats", "Water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sugar is the 'fuel' bacteria use to produce acid.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which practice cleans the areas a toothbrush cannot reach?",
+      options: ["Rinsing", "Flossing", "Eating fruit", "Whistling"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Floss gets into the tight gaps between teeth.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best time to brush to prevent overnight decay?",
+      options: ["Before breakfast", "At lunchtime", "Before going to bed", "During recess"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Brushing at night removes sugar that would otherwise sit on teeth for hours.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which planet is the sixth from the sun and famous for its rings?",
+      options: ["Neptune", "Jupiter", "Uranus", "Saturn"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Saturn is the 6th planet and is known for its visible rings.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the 'Great Red Spot' found on Jupiter?",
+      options: ["A large volcano", "A giant storm", "A deep canyon", "A frozen lake"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Great Red Spot is a persistent high-pressure storm.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which planet rotates on its side, unlike the other planets?",
+      options: ["Uranus", "Saturn", "Jupiter", "Neptune"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Uranus has a unique tilt that makes it rotate on its side.",
+    ),
+
+    QuizQuestion(
+      question: "4. What are the atmospheres of Jupiter and Saturn mostly made of?",
+      options: ["Oxygen and Nitrogen", "Hydrogen and Helium", "Methane and Water", "Carbon and Sulfur"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Gas giants are primarily composed of hydrogen and helium.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which planet is the most distant from the sun in our solar system?",
+      options: ["Uranus", "Saturn", "Jupiter", "Neptune"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Neptune is the 8th and final planet from the sun.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do Uranus and Neptune appear blue in color?",
+      options: ["They are covered in water", "Because of methane gas", "They are made of blue ice", "Reflection from the sun"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Methane in their atmosphere reflects blue light.",
+    ),
+
+    QuizQuestion(
+      question: "7. The outer planets are separated from the inner planets by what?",
+      options: ["The Kuiper Belt", "The Moon’s orbit", "The Asteroid Belt", "The Milky Way"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The asteroid belt lies between Mars and Jupiter.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these planets has the strongest winds in the solar system?",
+      options: ["Neptune", "Jupiter", "Saturn", "Uranus"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Neptune's winds can reach over 2,000 km/h.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the main reason these planets are so cold?",
+      options: ["They have no atmosphere", "They spin very quickly", "Distance from the sun", "Their rings block light"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Being far from the sun means they receive very little heat.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which planet is the second largest in the solar system?",
+      options: ["Uranus", "Saturn", "Jupiter", "Neptune"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Saturn is second in size only to Jupiter.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What would happen to the water cycle if the sun stopped shining?",
+      options: ["The water cycle would speed up", "It would rain more frequently", "The water cycle would stop", "Rivers would flow backwards"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The sun provides the heat for evaporation, which is the start of the water cycle.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which vitamin is produced by the human body when exposed to sunlight?",
+      options: ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin K"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Sunlight triggers the synthesis of Vitamin D in our skin.",
+    ),
+
+    QuizQuestion(
+      question: "3. Plants are often called 'producers' because they:",
+      options: ["Sell food in the local market", "Produce oxygen for animals", "Make food using solar energy", "Produce seeds for the farmers"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Producers 'produce' their own food using sunlight through photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "4. If all plants died due to lack of sunlight, what would happen to herbivores?",
+      options: ["They would start eating soil", "They would learn to hunt meat", "They would soon die of hunger", "They would sleep until morning"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Herbivores depend strictly on plants for survival. No plants means no food.",
+    ),
+
+    QuizQuestion(
+      question: "5. How does the sun support the life of a lion, which does not eat plants?",
+      options: ["Lions use sunlight to see prey", "Lions eat animals that eat plants", "The sun keeps the lion's fur dry", "Lions need the sun to breathe"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Energy flows from the sun to plants, then to prey, and finally to the lion.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following would happen first if the sun vanished?",
+      options: ["The Earth would move to Mars", "The Earth would become dark", "All humans would turn to ice", "The moon would become brighter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Light travels fast; the immediate effect would be total darkness.",
+    ),
+
+    QuizQuestion(
+      question: "7. In a Ghanaian village, how would the loss of the sun affect the use of solar lamps?",
+      options: ["The lamps would stay on forever", "The lamps would shine brighter", "The batteries would not charge", "The lamps would change color"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Solar lamps need sunlight to charge their internal batteries.",
+    ),
+
+    QuizQuestion(
+      question: "8. Without the sun's gravitational pull, what would happen to the Earth?",
+      options: ["It would stay in its current spot", "It would spin much faster now", "It would drift away into space", "It would fall into the dark moon"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The sun's gravity keeps the Earth in its steady orbit.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why can't humans just make food like plants do without the sun?",
+      options: ["Humans do not have green leaves", "Humans are too busy working", "Humans do not like the sunlight", "Humans prefer to buy at market"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Plants have chlorophyll in their leaves to capture solar energy; humans do not.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which statement best summarizes the sun's role in an ecosystem?",
+      options: ["It is just a bright light", "It provides heat for the day", "It is the source of all energy", "It helps us to see the moon"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Almost all energy in an ecosystem starts with the sun.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A farmer grows maize, cowpea, and cassava in a planned sequence on the same land. This is...",
+      options: ["Land Rotation", "Mixed Farming", "Mixed Cropping", "Crop Rotation"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Crop rotation involves a planned sequence of different crops on the same plot.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a disadvantage of Land Rotation in modern Ghana?",
+      options: ["It improves soil fertility", "It requires very little land", "It destroys virgin forests", "It uses organic manure"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Clearing new forest areas for land rotation leads to deforestation.",
+    ),
+
+    QuizQuestion(
+      question: "3. In Mixed Farming, what do the animals eat?",
+      options: ["Only expensive shop feed", "Residues from the crops", "The farmer's furniture", "Only the soil nutrients"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Animals in mixed farming typically feed on the leftover parts of the harvested crops.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which system is best for a farmer with a very small plot of land?",
+      options: ["Crop Rotation", "Land Rotation", "Bush Fallowing", "Shifting Farms"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Crop rotation allows for continuous use of the same small plot by varying the crops.",
+    ),
+
+    QuizQuestion(
+      question: "5. Organic farming relies on which of the following for soil health?",
+      options: ["Artificial fertilizers", "Chemical weed killers", "Synthetic pesticides", "Compost and manure"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Organic farming uses natural materials like compost and manure instead of chemicals.",
+    ),
+
+    QuizQuestion(
+      question: "6. Growing pepper and garden eggs together on one plot is an example of...",
+      options: ["Mixed Farming", "Mixed Cropping", "Land Rotation", "Monocropping"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Growing two crops at the same time on one plot is mixed cropping.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the 'fallow' period in land rotation?",
+      options: ["The time for harvesting", "The time for planting", "The time for clearing", "The time for resting"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Fallow is the resting period where land is left uncultivated to regain fertility.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which animal is commonly part of Mixed Farming in Ghana?",
+      options: ["Lions", "Sheep", "Tigers", "Camels"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sheep are common livestock reared alongside crops in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is cowpea included in most Ghanaian crop rotation plans?",
+      options: ["It grows very slowly", "It uses much water", "It adds nitrogen", "It kills the soil"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Cowpea is a legume that fixes nitrogen, improving the soil for the next crop.",
+    ),
+
+    QuizQuestion(
+      question: "10. A farmer avoids all chemicals to sell healthy vegetables. This system is...",
+      options: ["Organic Farming", "Land Rotation", "Mixed Cropping", "Mixed Farming"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Avoiding chemicals and using natural methods defines organic farming.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s3ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is 'manure' in a farming system?",
+      options: ["A type of new seed", "Animal waste as fertilizer", "A tool for harvesting", "A disease found in yams"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Manure is the organic matter (waste) from animals used to enrich the soil.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which crop part is most useful for animal bedding?",
+      options: ["Fresh green leaves", "Soft fruit pulp", "Dried rice straw", "Underground roots"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Dried straw is absorbent and keeps the animal pens dry and clean.",
+    ),
+
+    QuizQuestion(
+      question: "3. How do ducks help a vegetable farmer?",
+      options: ["By planting the seeds", "By eating harmful pests", "By watering the plants", "By building farm fences"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Many small farm animals help control pests by eating insects in the garden.",
+    ),
+
+    QuizQuestion(
+      question: "4. Nutrient cycling is most effective in which system?",
+      options: ["Monocropping", "Land Rotation", "Mixed Farming", "Shifting Cultivation"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mixed farming allows for a direct exchange of nutrients between plants and animals.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is soil erosion a problem for farmers?",
+      options: ["It adds too much salt", "It makes crops grow fast", "It removes fertile topsoil", "It attracts more birds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Erosion washes away the nutrient-rich top layer of soil that plants need.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is a 'cover crop'?",
+      options: ["A crop that grows tall", "A plant that protects soil", "A crop used for fences", "A plant that needs shade"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Cover crops are grown specifically to protect the soil from being washed away by rain.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does a bullock contribute to a farming system?",
+      options: ["By providing eggs", "By clearing the weeds", "By pulling the plough", "By harvesting the fruit"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Large animals provide 'animal traction' to help prepare the land for planting.",
+    ),
+
+    QuizQuestion(
+      question: "8. Sustainability in farming means...",
+      options: ["Using all the land fast", "Farming for one year only", "Keeping land productive", "Buying more chemicals"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Sustainability is about managing resources so they last for future generations.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a benefit crops give to animals?",
+      options: ["They provide manure", "They provide shelter", "They lay eggs", "They milk cows"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Crops and crop residues can provide shade, shelter, and protection for animals.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [

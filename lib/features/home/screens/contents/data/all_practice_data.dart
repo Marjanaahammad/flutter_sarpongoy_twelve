@@ -4963,6 +4963,147 @@ final PracticeModel Scijhs2s2ss4Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs2s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a dentist is looking at the white part of your tooth while you smile, which external part is he seeing?",
+      answer: "Correct Answer: The Crown.",
+      explanation: "Explanation: The crown is the only part of the tooth normally visible above the gums.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is the enamel described as the 'bodyguard' of the tooth?",
+      answer: "Correct Answer: Because it is the hardest substance and protects the inner layers.",
+      explanation: "Explanation: Enamel provides a hard shield against wear and bacteria.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which part of the tooth is hidden inside the jawbone to keep it from falling out?",
+      answer: "Correct Answer: The Root.",
+      explanation: "Explanation: The root anchors the tooth firmly into the alveolar bone of the jaw.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are using a tooth like a 'grinding stone' to mash up your food, which type are you using?",
+      answer: "Correct Answer: Molars.",
+      explanation: "Explanation: Molars have the widest, flattest surfaces specifically for grinding food.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which tooth is shaped like a chisel and is used to bite a piece out of a 'Bofrot'?",
+      answer: "Correct Answer: Incisors.",
+      explanation: "Explanation: Incisors are the front teeth designed for cutting and biting.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You have a piece of tough ginger to tear for your tea. Which pointed tooth should you use?",
+      answer: "Correct Answer: Canines.",
+      explanation: "Explanation: Canines are pointed and used specifically for tearing and gripping food.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is it more important to brush your teeth at night than in the afternoon?",
+      answer: "Correct Answer: To remove sugar and plaque so acid doesn't destroy enamel while you sleep.",
+      explanation: "Explanation: At night, saliva flow decreases, making teeth more vulnerable to acid attack if not cleaned.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the sticky film of bacteria that we try to remove when we brush?",
+      answer: "Correct Answer: Plaque.",
+      explanation: "Explanation: Plaque is the primary cause of both tooth decay and gum irritation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does eating 'Kontomire' or drinking milk help your teeth?",
+      answer: "Correct Answer: They provide calcium which strengthens the teeth and bones.",
+      explanation: "Explanation: Calcium is a vital mineral for maintaining the hardness of the tooth structure.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is Saturn's appearance different from all the other outer planets?",
+      answer: "Correct Answer: Saturn is easily identified by its very large and bright system of rings made of ice and rock.",
+      explanation: "Explanation: While other planets have faint rings, Saturn’s rings are the most prominent and visible.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a planet is made mostly of gas, why can't a human stand on it?",
+      answer: "Correct Answer: There is no solid crust or surface to support the weight of a person.",
+      explanation: "Explanation: Without a solid surface, any object would sink deep into the planet's thick, pressurized atmosphere.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What gives Uranus and Neptune their blue color?",
+      answer: "Correct Answer: The presence of methane gas in their atmospheres absorbs red light and reflects blue light.",
+      explanation: "Explanation: Methane acts like a filter, making these distant ice giants appear blue to our eyes.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why would a cocoa farmer be unable to harvest any beans if the sun disappeared for a year?",
+      answer: "Correct Answer: Cocoa trees need sunlight to undergo photosynthesis to grow beans; without light, the trees would die.",
+      explanation: "Explanation: Sunlight is the 'fuel' for the tree. No fuel means no growth and no chocolate!",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the sun vanished, what would happen to the temperature in a city like Tamale?",
+      answer: "Correct Answer: The temperature would drop significantly until the city becomes frozen and uninhabitable.",
+      explanation: "Explanation: The sun is our primary source of heat energy. Without it, the Earth loses its warmth to space.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does the disappearance of the sun affect the bones of a growing child in Ghana?",
+      answer: "Correct Answer: The child’s body would not produce enough Vitamin D, leading to weaker bones.",
+      explanation: "Explanation: Our skin needs the sun's rays to trigger the production of Vitamin D, which is essential for bone strength.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer in the Volta Region grows cassava and maize on the same piece of land at the same time. Which system is this?",
+      answer: "Correct Answer: Mixed Cropping.",
+      explanation: "Explanation: Because the farmer is growing two different types of crops (cassava and maize) simultaneously on the same plot of land.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Explain how a farmer practicing Mixed Farming benefits from keeping goats on their crop farm.",
+      answer: "Correct Answer: The goats provide manure for the crops and eat crop residues.",
+      explanation: "Explanation: The goat droppings act as a natural fertilizer for the soil, while the leftover stalks and leaves from the crops provide free food for the goats.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why would a farmer choose to plant cowpea on a plot where they previously grew maize?",
+      answer: "Correct Answer: To restore nitrogen to the soil through crop rotation.",
+      explanation: "Explanation: Maize uses up a lot of nitrogen, but legumes like cowpea have special roots that fix nitrogen back into the soil, keeping it fertile without moving to new land.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s3ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S3 SS4 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How does a farmer save money by practicing Mixed Farming?",
+      answer: "Correct Answer: By using animal manure as fertilizer and crop residues as feed.",
+      explanation: "Explanation: The farmer does not need to buy expensive chemical fertilizers because the animals provide manure, and they don't need to buy as much animal feed because the crops provide leftovers.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Name one way crops protect farm animals from the environment in Ghana.",
+      answer: "Correct Answer: Providing shade from the sun.",
+      explanation: "Explanation: Large-leafed crops or tall stalks create a cooler area for animals to rest, protecting them from the high temperatures.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is \"Nutrient Cycling\" important for the future of a farm?",
+      answer: "Correct Answer: It keeps the soil fertile without destroying it.",
+      explanation: "Explanation: By returning nutrients to the soil through manure and plant decay, the land stays productive for many years without needing artificial chemicals.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
