@@ -72,9 +72,8 @@ class LearnController extends GetxController {
     currentPartIndex.value = 0;
 
     // Initialise per-part lists with the correct length
-    // Always enable Next button immediately (no audio/video-finish requirement)
     final count = model.parts.length;
-    isPartFinishedInSession.assignAll(List.filled(count, true));
+    isPartFinishedInSession.assignAll(List.filled(count, false));
     isPartCompleted.assignAll(List.filled(count, false));
 
     _loadExistingProgress();
@@ -215,6 +214,10 @@ class LearnController extends GetxController {
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
+    if (!isCurrentPartFinished) {
+      debugPrint('Cannot advance: current part not finished this session');
+      return;
+    }
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {
@@ -333,9 +336,8 @@ class LearnController extends GetxController {
   void restart() async {
     if (currentPart.videoPath != null) {
       await videoController?.seekTo(Duration.zero);
-      if (!(videoController?.value.isPlaying ?? false)) {
+      if (!(videoController?.value.isPlaying ?? false))
         await videoController?.play();
-      }
       return;
     }
     await _player.seek(Duration.zero);
