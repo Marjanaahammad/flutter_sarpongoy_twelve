@@ -24840,6 +24840,1351 @@ final QuizModel Scijhs3s2ss4Lesson4QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs3s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary role of the human circulatory system?",
+      options: ["Breaking down food particles", "Transporting oxygen and food", "Helping the body to breathe", "Filtering waste from water"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The system's main role is the transport of vital substances and waste removal.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which blood component is responsible for the process of clotting?",
+      options: ["White blood cells", "Red blood cells", "Blood plasma", "Blood platelets"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Platelets stick together to form clots and stop bleeding at a wound site.",
+    ),
+
+    QuizQuestion(
+      question: "3. Blood plasma is mostly composed of which of the following substances?",
+      options: ["Dissolved water", "Carbon dioxide", "Red blood cells", "Liquid oxygen"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Plasma is the liquid component of blood, consisting of about 90% water.",
+    ),
+
+    QuizQuestion(
+      question: "4. What shape do mature human red blood cells typically have?",
+      options: ["Long and thin", "Biconcave disc", "Perfect sphere", "Star-like form"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The biconcave disc shape provides a large surface area for carrying oxygen.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which part of the blood acts as the body's primary defense system?",
+      options: ["Red blood cells", "Blood platelets", "White blood cells", "Liquid plasma"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "White blood cells (leukocytes) identify and destroy pathogens like bacteria.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a closed circulatory system, where is the blood always found?",
+      options: ["Inside the lungs", "Inside the bones", "Inside the heart", "Inside vessels"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A closed system means blood is always contained within the heart or blood vessels.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the scientific name for the red blood cells?",
+      options: ["Erythrocytes", "Thrombocytes", "Leukocytes", "Phagocytes"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Erythrocytes is the biological term for red blood cells.",
+    ),
+
+    QuizQuestion(
+      question: "8. How does the circulatory system help in regulating body temperature?",
+      options: ["By producing sweat", "By moving heat", "By cooling air", "By eating food"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Blood absorbs heat from active organs and distributes it throughout the body.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a yellowish liquid that carries nutrients?",
+      options: ["Haemoglobin", "White cells", "Blood plasma", "Red oxygen"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Plasma is the liquid medium that transports dissolved food and hormones.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why do red blood cells lack a nucleus when they are fully mature?",
+      options: ["To live longer", "To move faster", "To carry oxygen", "To fight germs"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Losing the nucleus provides more space for haemoglobin to carry oxygen.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of the heart is known as the 'Security Wall'?",
+      options: ["The Bicuspid Valve", "The Muscular Septum", "The Left Ventricle", "The Right Atrium"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The septum divides the heart into two sides to prevent blood mixing.",
+    ),
+
+    QuizQuestion(
+      question: "2. Arteries are thicker than veins because they must withstand:",
+      options: ["High blood pressure", "Very low temperatures", "Bacteria in the blood", "Gravity in the legs"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Arteries receive blood directly from the heart's powerful contractions.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which chamber receives oxygen-rich blood returning from the lungs?",
+      options: ["Left Atrium", "Right Atrium", "Left Ventricle", "Right Ventricle"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Freshly oxygenated blood enters the heart through the left atrium.",
+    ),
+
+    QuizQuestion(
+      question: "4. What happens when a heart valve closes?",
+      options: ["Blood stops moving", "Blood flows backward", "Backflow is prevented", "The heart takes a rest"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Valves are one-way gates that ensure forward movement of blood.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is the smallest type of blood vessel?",
+      options: ["Vena Cava", "The Aorta", "Pulmonary Vein", "Capillaries"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Capillaries are microscopic and connect arteries to veins.",
+    ),
+
+    QuizQuestion(
+      question: "6. The 'Systemic Circuit' refers to blood traveling to the:",
+      options: ["Lungs only", "Heart muscle only", "Brain and lungs", "Rest of the body"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The systemic circuit supplies the entire body with oxygen.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the name of the largest artery in the human body?",
+      options: ["The Aorta", "The Vena Cava", "Pulmonary Artery", "Hepatic Vein"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The aorta is the main high-pressure pipe leaving the left ventricle.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why do veins in your legs have valves while arteries do not?",
+      options: ["Arteries are too thin", "To fight against gravity", "To keep the legs warm", "To help the skin breathe"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Valves in leg veins prevent blood from pooling downward due to gravity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which chamber pumps blood to the lungs?",
+      options: ["Left Atrium", "Right Atrium", "Right Ventricle", "Left Ventricle"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The right ventricle sends deoxygenated blood to the lungs via the pulmonary artery.",
+    ),
+
+    QuizQuestion(
+      question: "10. How many chambers are found in a healthy human heart?",
+      options: ["Four chambers", "Two chambers", "Three chambers", "Six chambers"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The human heart consists of two atria and two ventricles.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is another name for the condition called High Blood Pressure?",
+        options: ["Hypoglycemia", "Hypertension", "Hypotension", "Hyperactivity"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Hypertension is the clinical term for chronically high blood pressure."
+    ),
+
+    QuizQuestion(
+        question: "2. Which part of the body is directly affected by a stroke?",
+        options: ["The stomach", "The lungs", "The brain", "The kidneys"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "A stroke occurs when blood flow to the brain is interrupted."
+    ),
+
+    QuizQuestion(
+        question: "3. Reducing which of the following in your diet can help prevent hypertension?",
+        options: ["Vitamin C", "Fresh fruits", "Table salt", "Natural fiber"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Lowering sodium (salt) intake is a key way to manage and prevent high blood pressure."
+    ),
+
+    QuizQuestion(
+        question: "4. Heart failure occurs when the heart muscle becomes too:",
+        options: ["Large and fast", "Small and hard", "Strong and thick", "Weak and tired"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Heart failure means the pump is no longer efficient enough to support the body."
+    ),
+
+    QuizQuestion(
+        question: "5. Which habit is considered the most dangerous for blood vessel health?",
+        options: ["Smoking tobacco", "Drinking cocoa", "Sleeping 8 hours", "Reading books"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Smoking damages the lining of the arteries and leads to blockages."
+    ),
+
+    QuizQuestion(
+        question: "6. Why should a person with hypertension have regular check-ups?",
+        options: ["To get new clothes", "To monitor blood levels", "To stop the heart", "To change their name"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Regular monitoring is needed because the condition often has no symptoms."
+    ),
+
+    QuizQuestion(
+        question: "7. Obesity increases the risk of heart disease because:",
+        options: ["It makes the heart stop", "It lightens the blood", "It strains the heart", "It cools the body"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Carrying excess weight forces the heart to work harder to pump blood."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these Ghanaian foods is generally heart-healthy?",
+        options: ["Deep-fried turkey tails", "Fresh garden egg stew", "Very salty tilapia", "Sugary soft drinks"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Garden eggs are vegetables that provide fiber and essential nutrients without unhealthy fats."
+    ),
+
+    QuizQuestion(
+        question: "9. What is a 'sedentary' lifestyle?",
+        options: ["One with lots of running", "One with very little activity", "One with a balanced diet", "One with too much sleep"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Sedentary means sitting a lot and lacking physical movement, which is bad for heart health."
+    ),
+
+    QuizQuestion(
+        question: "10. A balanced diet for heart health should be high in:",
+        options: ["Salts and fats", "Sugars and oils", "Fiber and vitamins", "Carbon and iron"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Fiber and vitamins from plants help keep arteries clear and blood pressure stable."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Respiration is best defined as a process that:",
+        options: ["Moves air into the lungs", "Releases energy from food", "Pumps blood to the brain", "Digests food in the stomach"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The biological purpose of respiration is energy release."
+    ),
+
+    QuizQuestion(
+        question: "2. Which of these is a required 'input' for aerobic respiration?",
+        options: ["Carbon Dioxide", "Water vapor", "Oxygen", "Lactic acid"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Aerobic respiration requires oxygen to break down glucose."
+    ),
+
+    QuizQuestion(
+        question: "3. Where does glucose come from for the process of respiration?",
+        options: ["The air we breathe", "The food we eat", "The water we drink", "The sun's light"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Glucose is a sugar obtained from the digestion of carbohydrates."
+    ),
+
+    QuizQuestion(
+        question: "4. What is the 'waste' gas produced during respiration?",
+        options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Carbon dioxide is a by-product that must be removed from the body."
+    ),
+
+    QuizQuestion(
+        question: "5. Which statement about anaerobic respiration is true?",
+        options: ["It uses a lot of oxygen", "It happens in the lungs", "It releases less energy", "It produces water only"],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Without oxygen, the breakdown of glucose is incomplete, yielding less energy."
+    ),
+
+    QuizQuestion(
+        question: "6. Internal respiration refers specifically to the chemical reaction in:",
+        options: ["The nose and throat", "The windpipe", "The body's cells", "The large intestine"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Internal or cellular respiration happens at the microscopic level within cells."
+    ),
+
+    QuizQuestion(
+        question: "7. Why does your breathing rate increase during exercise?",
+        options: ["To remove oxygen faster", "To get more glucose", "To take in more oxygen", "To stop the heart beating"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Exercise requires more energy, which means the cells need more oxygen for respiration."
+    ),
+
+    QuizQuestion(
+        question: "8. The physical act of breathing is also known as:",
+        options: ["Internal respiration", "Cellular reaction", "External respiration", "Anaerobic process"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "External respiration involves the gas exchange between the lungs and the environment."
+    ),
+
+    QuizQuestion(
+        question: "9. What is produced along with energy and carbon dioxide in respiration?",
+        options: ["Glucose", "Blood", "Water", "Muscle"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Water is the second waste product in the respiration equation."
+    ),
+
+    QuizQuestion(
+        question: "10. In which specific organelle is energy produced?",
+        options: ["Mitochondria", "Nucleus", "Ribosome", "Cell Membrane"],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "Mitochondria are often called the 'powerhouses' of the cell where ATP is made."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which part of the respiratory system filters dust using tiny hairs?",
+        options: ["The Alveoli", "The Pharynx", "The Trachea", "The Nostrils"],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "Nostril hairs are the first stage of air filtration."
+    ),
+
+    QuizQuestion(
+        question: "2. What is the function of the Nasal Cavity besides providing a path for air?",
+        options: ["To digest food", "To warm and moisten air", "To produce red blood cells", "To store extra oxygen"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Warming and moistening air protects the delicate lung tissues."
+    ),
+
+    QuizQuestion(
+        question: "3. The flap of tissue that prevents food from entering the windpipe is the:",
+        options: ["Epiglottis", "Larynx", "Bronchiole", "Diaphragm"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The epiglottis seals the trachea during swallowing."
+    ),
+
+    QuizQuestion(
+        question: "4. Which structure contains the vocal cords used for speaking?",
+        options: ["Trachea", "Bronchi", "Larynx", "Pharynx"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The larynx is specifically designed for sound production."
+    ),
+
+    QuizQuestion(
+        question: "5. What are the smallest branching tubes inside the lungs called?",
+        options: ["Bronchi", "Trachea", "Bronchioles", "Arteries"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Bronchioles are the tiny 'twigs' that lead to the alveoli."
+    ),
+
+    QuizQuestion(
+        question: "6. Where does oxygen enter the blood and carbon dioxide leave it?",
+        options: ["In the Trachea", "In the Alveoli", "In the Pharynx", "In the Nostrils"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The alveoli are the primary site of gas exchange."
+    ),
+
+    QuizQuestion(
+        question: "7. What is the purpose of the mucus found in the respiratory tract?",
+        options: ["To trap germs and dust", "To help the heart beat", "To digest carbohydrates", "To make the blood red"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Mucus is a sticky substance that captures pathogens and particles."
+    ),
+
+    QuizQuestion(
+        question: "8. The right lung is divided into how many lobes?",
+        options: ["Three lobes", "Two lobes", "Four lobes", "One lobe"],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "The right lung is larger and has three sections or lobes."
+    ),
+
+    QuizQuestion(
+        question: "9. Which of these describes the walls of the Alveoli?",
+        options: ["Thick and muscular", "Hard and bony", "Extremely thin", "Long and narrow"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Thin walls are necessary for gases to diffuse easily into the blood."
+    ),
+
+    QuizQuestion(
+        question: "10. The windpipe is held open by rings of which material?",
+        options: ["Solid bone", "Soft muscle", "Flexible cartilage", "Tough skin"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Cartilage provides the necessary support without being too heavy or rigid."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Inhalation is triggered by the contraction of which muscles?",
+        options: ["Abdominal muscles", "Leg muscles", "Intercostal muscles", "Arm muscles"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The external intercostals pull the ribs up to start inhalation."
+    ),
+
+    QuizQuestion(
+        question: "2. What happens to the chest volume when you breathe in?",
+        options: ["It stays the same", "It decreases", "It increases", "It disappears"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Expanding the ribs and lowering the diaphragm increases the space."
+    ),
+
+    QuizQuestion(
+        question: "3. Air pressure in the lungs drops during inhalation because:",
+        options: ["There is more space (volume)", "The air is very hot", "The heart stops beating", "The nose is closed"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "According to physics, increasing volume in a closed space lowers the pressure."
+    ),
+
+    QuizQuestion(
+        question: "4. The diaphragm moves ________ during exhalation.",
+        options: ["Downwards", "Upwards", "To the right", "Outwards"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "As it relaxes, the diaphragm pushes up against the lungs to help force air out."
+    ),
+
+    QuizQuestion(
+        question: "5. Which of these describes the ribcage's movement during breathing out?",
+        options: ["Up and out", "Down and in", "Side to side", "Fixed and still"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The ribs drop back down to squeeze the chest cavity."
+    ),
+
+    QuizQuestion(
+        question: "6. The membranes that surround the lungs are called:",
+        options: ["Alveoli", "Capillaries", "Pleural membranes", "Bronchial tubes"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Pleural membranes protect the lungs and allow smooth movement."
+    ),
+
+    QuizQuestion(
+        question: "7. If the chest pressure is higher than atmospheric pressure, air will:",
+        options: ["Enter the lungs", "Leave the lungs", "Stay in the nose", "Turn into water"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Air always moves from high-pressure areas to low-pressure areas."
+    ),
+
+    QuizQuestion(
+        question: "8. Which muscle action is required for a normal, quiet exhalation?",
+        options: ["Strong contraction", "Muscle relaxation", "Rapid vibration", "Total freezing"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Normal exhalation is mostly a passive process of the muscles relaxing."
+    ),
+
+    QuizQuestion(
+        question: "9. What shape is the diaphragm when it is relaxed?",
+        options: ["Flat", "Rectangular", "Dome-shaped", "Triangular"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Its natural relaxed state is a curved, dome shape."
+    ),
+
+    QuizQuestion(
+        question: "10. The ribcage helps the respiratory system by providing:",
+        options: ["Blood cells", "Glucose", "Mechanical protection", "Digestive enzymes"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The bony ribs protect the lungs from external impact."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. The lungs and heart are connected by which specific circuit?",
+        options: ["The Systemic Circuit", "The Digestive Circuit", "The Pulmonary Circuit", "The Brain Circuit"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The pulmonary circuit is the path between the heart and the lungs."
+    ),
+
+    QuizQuestion(
+        question: "2. What is the 'cargo' that the respiratory system hands over to the circulatory system?",
+        options: ["Carbon Dioxide", "Oxygen", "Blood cells", "Food particles"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The lungs provide oxygen to the blood for distribution."
+    ),
+
+    QuizQuestion(
+        question: "3. Why must the respiratory system remove carbon dioxide from the blood?",
+        options: ["Because it is a waste product", "Because it is used for energy", "To make the blood turn blue", "To help the body grow hair"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Carbon dioxide is a toxic by-product of respiration that must be exhaled."
+    ),
+
+    QuizQuestion(
+        question: "4. In which structure does gas exchange between the two systems occur?",
+        options: ["The Heart Ventricles", "The Alveoli", "The Nasal Cavity", "The Arteries"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Alveoli are the interface between the air and the blood vessels."
+    ),
+
+    QuizQuestion(
+        question: "5. When you exercise, your heart beats faster primarily to:",
+        options: ["Make you sweat more", "Cool down your skin", "Deliver oxygen to muscles faster", "Help you hear better"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Faster pumping moves more oxygenated blood to active muscle tissues."
+    ),
+
+    QuizQuestion(
+        question: "6. Blood returning to the heart from the body is usually:",
+        options: ["High in oxygen", "High in carbon dioxide", "Bright green in color", "Cold and frozen"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Used blood carries the waste products of cellular respiration back to the heart."
+    ),
+
+    QuizQuestion(
+        question: "7. What role does the 'Systemic Circuit' play in this partnership?",
+        options: ["Carrying air to the nose", "Pumping blood to the lungs", "Delivering oxygen to the body", "Digesting food in the stomach"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The systemic circuit is the delivery leg of the journey."
+    ),
+
+    QuizQuestion(
+        question: "8. The partnership between these systems is essential for producing:",
+        options: ["Bones", "Energy (ATP)", "Saliva", "Tears"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Cooperation ensures cells have the oxygen needed for energy release."
+    ),
+
+    QuizQuestion(
+        question: "9. Diffusion in the lungs happens because oxygen moves from:",
+        options: ["Low pressure to high pressure", "High pressure to low pressure", "The heart to the brain", "The skin to the lungs"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Gases naturally move from areas of high concentration/pressure to low."
+    ),
+
+    QuizQuestion(
+        question: "10. If the respiratory system stops working, the heart will eventually:",
+        options: ["Pump faster forever", "Start making its own air", "Stop because of lack of oxygen", "Turn into a lung"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The heart muscle itself needs oxygen from the lungs to keep beating."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which non-planetary body is made mostly of rock and iron?",
+        options: ["An asteroid", "A planet", "A comet", "A moon"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Asteroids are rocky and metallic."
+    ),
+
+    QuizQuestion(
+        question: "2. What causes a comet's tail to form?",
+        options: ["Space wind", "Solar heat", "Lunar light", "Cold air"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Heat from the sun melts the ice into gas."
+    ),
+
+    QuizQuestion(
+        question: "3. Most asteroids are found orbiting between which two planets?",
+        options: ["Venus and Earth", "Mars and Jupiter", "Jupiter and Saturn", "Saturn and Uranus"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "This region is the Asteroid Belt."
+    ),
+
+    QuizQuestion(
+        question: "4. A comet is primarily composed of which materials?",
+        options: ["Iron and nickel", "Rock and sand", "Ice and dust", "Gold and silver"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Comets are icy bodies."
+    ),
+
+    QuizQuestion(
+        question: "5. Which term is used for the solid center of a comet?",
+        options: ["The Tail", "The Coma", "The Crust", "The Nucleus"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "The nucleus is the solid core of ice and rock."
+    ),
+
+    QuizQuestion(
+        question: "6. What shape are the orbits of most non-planetary bodies?",
+        options: ["Perfectly square", "Elliptical", "Perfectly straight", "Triangular"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "They move in oval-shaped paths called ellipses."
+    ),
+
+    QuizQuestion(
+        question: "7. How does the size of an asteroid generally compare to a planet?",
+        options: ["Asteroids are larger", "They are the same", "Asteroids are smaller", "Planets are smaller"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Asteroids are minor bodies, much smaller than planets."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these is a nickname for asteroids?",
+        options: ["Major planets", "Shooting stars", "Minor planets", "Flying ice"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Because they are rocky and orbit the sun, they are called minor planets."
+    ),
+
+    QuizQuestion(
+        question: "9. What happens to an asteroid's path if it gets too close to Jupiter?",
+        options: ["It stops moving", "It turns into ice", "Its orbit changes", "It becomes a sun"],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Jupiter's massive gravity pulls on asteroids and changes their path."
+    ),
+
+    QuizQuestion(
+        question: "10. In which direction does a comet's tail point?",
+        options: ["Toward the Sun", "Toward the Earth", "Toward the Moon", "Away from the Sun"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Solar wind pushes the gas and dust away from the sun."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which of these is the smallest non-planetary body?",
+        options: ["Meteoroid", "Asteroid", "Jupiter", "Planet"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Meteoroids are fragments, often much smaller than asteroids."
+    ),
+
+    QuizQuestion(
+        question: "2. What is the common name for a meteor seen in the sky?",
+        options: ["Falling moon", "Shooting star", "Glowing planet", "Flying sun"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "People call the light streak a shooting star."
+    ),
+
+    QuizQuestion(
+        question: "3. Where is a meteoroid located?",
+        options: ["On the ground", "In the ocean", "In outer space", "In a volcano"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Meteoroids are in space before they hit our air."
+    ),
+
+    QuizQuestion(
+        question: "4. What force pulls a meteoroid toward the Earth?",
+        options: ["Magnetism", "Friction", "Gravity", "Electricity"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Earth's gravity pulls the objects in."
+    ),
+
+    QuizQuestion(
+        question: "5. A meteorite is mostly made of which materials?",
+        options: ["Wood and ice", "Rock and metal", "Plastic and glass", "Gas and liquid"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "They are solid fragments of rock or iron."
+    ),
+
+    QuizQuestion(
+        question: "6. What is the main difference between a meteor and a meteorite?",
+        options: ["Their colour", "Their speed", "Their age", "Their location"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "A meteor is in the air; a meteorite is on the ground."
+    ),
+
+    QuizQuestion(
+        question: "7. How fast can a meteoroid travel when entering our atmosphere?",
+        options: ["1 kilometre per hour", "70 kilometres per second", "5 metres per day", "100 metres per hour"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "They move extremely fast, which causes the heat."
+    ),
+
+    QuizQuestion(
+        question: "8. What do we call meteorites that are found long after they fell?",
+        options: ["Falls", "Starts", "Finds", "Loses"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "If they aren't seen falling but are discovered later, they are “finds.”"
+    ),
+
+    QuizQuestion(
+        question: "9. Which of the following describes friction?",
+        options: ["Two things rubbing together", "A rock floating in space", "The pull of the Earth", "A planet orbiting the Sun"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Friction between the rock and air causes the heat."
+    ),
+
+    QuizQuestion(
+        question: "10. Why are meteorites important to scientists?",
+        options: ["They can be used as fuel", "They are made of gold", "They tell us about space", "They are used to make rain"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "They provide physical evidence of what is in our solar system."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. How many main rules must a body follow to be called a 'planet'?",
+        options: ["One", "Three", "Five", "Ten"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "There are three specific criteria from the IAU."
+    ),
+
+    QuizQuestion(
+        question: "2. Which dwarf planet is found in the Asteroid Belt?",
+        options: ["Eris", "Pluto", "Ceres", "Makemake"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Ceres is the only one in the inner solar system area."
+    ),
+
+    QuizQuestion(
+        question: "3. A dwarf planet fails which of the three planetary rules?",
+        options: ["Orbiting the Sun", "Being nearly round", "Having a solid surface", "Clearing its neighborhood"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "They are not massive enough to clear their orbits."
+    ),
+
+    QuizQuestion(
+        question: "4. In which year was the definition of a planet officially changed?",
+        options: ["1990", "2006", "2020", "2026"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The IAU redefined planets in 2006."
+    ),
+
+    QuizQuestion(
+        question: "5. Where does Pluto spend its time?",
+        options: ["The Kuiper Belt", "The Asteroid Belt", "The Milky Way center", "The Earth's atmosphere"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Pluto is an icy body in the Kuiper Belt."
+    ),
+
+    QuizQuestion(
+        question: "6. What is the name of the group that decides the names of space objects?",
+        options: ["Ghana Education Service", "International Astronomical Union", "Space Police Force", "Global Weather Center"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The IAU (International Astronomical Union) sets the rules."
+    ),
+
+    QuizQuestion(
+        question: "7. How does Eris compare to Pluto in size?",
+        options: ["Eris is much smaller", "They are about the same", "Pluto is 100 times larger", "Eris is a giant star"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Eris and Pluto are very similar in size."
+    ),
+
+    QuizQuestion(
+        question: "8. Can a moon be a dwarf planet?",
+        options: ["No, it must orbit a planet", "Yes, if it is very big", "No, because moons are square", "Yes, if it has its own air"],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "One rule is that it must orbit a star, not another planet."
+    ),
+
+    QuizQuestion(
+        question: "9. Which of these best describes a dwarf planet's neighborhood?",
+        options: ["Empty and quiet", "Filled with other objects", "Only contains one sun", "Inside a black hole"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "They share their orbits with many other smaller bodies."
+    ),
+
+    QuizQuestion(
+        question: "10. What is the shape of a dwarf planet's orbit?",
+        options: ["A straight line", "An equilateral triangle", "An elliptical (oval) path", "A perfect square"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Like planets, they move in elliptical (oval) paths."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which of these best defines an ecosystem?",
+        options: ["A place where an animal sleeps", "A group of only living animals", "Living and non-living interaction", "Only the plants in a big forest"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "An ecosystem must include both biotic and abiotic factors interacting."
+    ),
+
+    QuizQuestion(
+        question: "2. Which of the following is an abiotic factor?",
+        options: ["Earthworms", "Temperature", "Bacteria", "Protozoa"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Temperature is a non-living physical condition."
+    ),
+
+    QuizQuestion(
+        question: "3. In which Ghanaian ecosystem would you most likely find a tropical rainforest?",
+        options: ["The Southern belt", "The Northern belt", "The Sahara Desert", "The Coastal beach"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Ghana's rainforests are primarily located in the southern regions."
+    ),
+
+    QuizQuestion(
+        question: "4. Tilapia living in Lake Volta are in what type of ecosystem?",
+        options: ["Terrestrial", "Saltwater", "Marine", "Freshwater"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Lakes are inland bodies of water that are not salty."
+    ),
+
+    QuizQuestion(
+        question: "5. Which is a living (biotic) factor in a cocoa farm?",
+        options: ["The fertilizer", "The pollination bee", "The garden trowel", "The morning mist"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Bees are living organisms that play a role in the ecosystem."
+    ),
+
+    QuizQuestion(
+        question: "6. If a pond dries up, which components are removed first?",
+        options: ["The biotic factors", "The abiotic factors", "Both at once", "Neither factor"],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Water is an abiotic factor; its removal then leads to the death of biotic factors."
+    ),
+
+    QuizQuestion(
+        question: "7. A habitat is different from an ecosystem because a habitat is:",
+        options: ["Always much larger", "Only for the plants", "A physical location", "A non-living thing"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Habitat refers to the 'address' or place, whereas ecosystem refers to the system of interactions."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of the following is NOT a terrestrial ecosystem?",
+        options: ["Grassland", "Savanna", "Forest", "Lagoon"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A lagoon is an aquatic (water-based) ecosystem."
+    ),
+
+    QuizQuestion(
+        question: "9. Why are decomposers like fungi considered biotic?",
+        options: ["They live in soil", "They are living", "They eat plants", "They need sun"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Anything that is a living organism is classified as biotic."
+    ),
+
+    QuizQuestion(
+        question: "10. Which abiotic factor do plants need for photosynthesis?",
+        options: ["Carbon dioxide", "Heavy stones", "Dry wood", "Plastic"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Carbon dioxide is a gas (non-living) required for plants to make food."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which of these is a primary consumer?",
+        options: ["A hunting lion", "A grazing goat", "A green algae", "A forest eagle"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Herbivores like goats eat producers directly."
+    ),
+
+    QuizQuestion(
+        question: "2. In the chain: Plant → Insect → Bird → Cat, which is the secondary consumer?",
+        options: ["The Plant", "The Insect", "The Bird", "The Cat"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The bird is the second consumer in the line."
+    ),
+
+    QuizQuestion(
+        question: "3. What would happen if producers were removed from an ecosystem?",
+        options: ["Animals would eat soil", "The system would fail", "Consumers would grow", "Decomposers take over"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Producers provide the base energy for everyone else."
+    ),
+
+    QuizQuestion(
+        question: "4. Which term describes an animal that eats only meat?",
+        options: ["Herbivore", "Omnivore", "Producer", "Carnivore"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Carnivores are meat-eaters."
+    ),
+
+    QuizQuestion(
+        question: "5. Fungi and bacteria are important because they:",
+        options: ["Hunt small animals", "Make food from sun", "Recycle nutrients", "Protect the plants"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Decomposers break down waste into nutrients."
+    ),
+
+    QuizQuestion(
+        question: "6. A collection of overlapping food chains is called a:",
+        options: ["Food Group", "Food Circle", "Food Web", "Food Link"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Interconnected chains form a web."
+    ),
+
+    QuizQuestion(
+        question: "7. Which of these is an example of an omnivore?",
+        options: ["Sheep", "Tiger", "Human", "Grass"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Humans eat both plant and animal matter."
+    ),
+
+    QuizQuestion(
+        question: "8. Energy in a food web originally comes from:",
+        options: ["The Soil", "The Moon", "The Rain", "The Sun"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Sunlight is the primary energy source for producers."
+    ),
+
+    QuizQuestion(
+        question: "9. If a locust eats maize, the locust is at which trophic level?",
+        options: ["First level", "Second level", "Third level", "Fourth level"],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Plants are level 1; the animal that eats them is level 2."
+    ),
+
+    QuizQuestion(
+        question: "10. What do the arrows in a food web show?",
+        options: ["Who is the strongest", "Who is moving fast", "Where energy goes", "Where the water is"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Arrows show the transfer of food energy."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What happens to the 'balance' of an ecosystem when a top predator is hunted to extinction?",
+        options: ["The balance stays the same", "Prey populations grow too large", "Plants grow much faster", "The sun shines brighter"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Without a predator, the animals it used to eat will overpopulate and eat all the plants."
+    ),
+
+    QuizQuestion(
+        question: "2. Galamsey affects the ecosystem primarily by:",
+        options: ["Increasing fish populations", "Cleaning the river water", "Destroying habitats and water", "Planting more forest trees"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mining destroys the physical home and poisons the resources."
+    ),
+
+    QuizQuestion(
+        question: "3. Which of the following is a result of excessive pesticide use?",
+        options: ["Stronger plant roots", "Death of helpful pollinators", "Faster flowing rivers", "More fertile soil"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Pesticides often kill non-target 'good' insects like bees."
+    ),
+
+    QuizQuestion(
+        question: "4. How can an earthquake affect a freshwater ecosystem?",
+        options: ["By making the water salty", "By changing the river's path", "By increasing the sunlight", "By cooling the air"],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Ground shifts can physically reroute water sources."
+    ),
+
+    QuizQuestion(
+        question: "5. Bush burning is harmful to the 'Decomposers' because:",
+        options: ["It gives them too much food", "The heat kills them in the soil", "It makes the soil too wet", "They like the smell of smoke"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "High temperatures from fire kill fungi and bacteria in the topsoil."
+    ),
+
+    QuizQuestion(
+        question: "6. Plastic pollution in the ocean is dangerous because:",
+        options: ["It makes the water blue", "Animals mistake it for food", "It helps the fish swim fast", "It creates more salt"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Marine life often chokes on or eats plastic waste."
+    ),
+
+    QuizQuestion(
+        question: "7. Which is an example of a 'justified' prediction of a volcanic eruption's effect?",
+        options: ["Animals will become faster", "Plants will grow in the lava", "Habitats will be destroyed", "The rain will turn into gold"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Extreme heat naturally destroys existing living spaces."
+    ),
+
+    QuizQuestion(
+        question: "8. When a forest is cleared for a new school, the birds move away. This is an example of:",
+        options: ["Habitat loss", "Better ecosystem balance", "A natural disaster", "Increased biodiversity"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Removing the trees removes the physical location where they live."
+    ),
+
+    QuizQuestion(
+        question: "9. Why does mining often lead to soil erosion?",
+        options: ["The miners plant too much grass", "Vegetation is removed from soil", "Gold makes the soil slippery", "The rain stops falling"],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Without plant roots to hold the soil, rain washes it away easily."
+    ),
+
+    QuizQuestion(
+        question: "10. What is the best way for a community to maintain ecosystem balance?",
+        options: ["Burning all the trash", "Using more chemicals", "Protecting natural habitats", "Hunting all the animals"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Keeping habitats intact preserves the relationships between organisms."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is the scientific term for manure that comes from once-living things?",
+        options: ["Chemical", "Artificial", "Organic", "Synthetic"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Organic refers to materials derived from plants and animals."
+    ),
+
+    QuizQuestion(
+        question: "2. Which waste is a byproduct of the poultry industry?",
+        options: ["Cow dung", "Pig dung", "Bird droppings", "Goat pellets"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Poultry refers to birds like chickens and turkeys."
+    ),
+
+    QuizQuestion(
+        question: "3. Which material is NOT typically found in Farmyard Manure?",
+        options: ["Animal urine", "Plastic bags", "Animal dung", "Bedding straw"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Plastic is inorganic and does not decompose into manure."
+    ),
+
+    QuizQuestion(
+        question: "4. Why is manure preferred over chemical fertilizer in dry areas?",
+        options: ["It is more expensive", "It smells stronger", "It keeps soil moist", "It is easier to carry"],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Manure improves soil structure and water retention."
+    ),
+
+    QuizQuestion(
+        question: "5. Which of these is a source of 'Green Manure'?",
+        options: ["Dried maize stalks", "Fresh cowpea plants", "Rotting yam peels", "Old cocoa pods"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Green manure is made from fresh crops plowed into the soil."
+    ),
+
+    QuizQuestion(
+        question: "6. Where would a farmer most likely find 'Slaughterhouse waste'?",
+        options: ["In a school garden", "In a forest zone", "At a local abattoir", "At a village market"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "An abattoir or slaughterhouse is where animals are processed for meat."
+    ),
+
+    QuizQuestion(
+        question: "7. Which of these best describes 'Compost'?",
+        options: ["Fresh animal urine", "Piled organic waste", "Growing crop plants", "Pure river sand"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Compost is a mixture of organic residues piled to undergo decomposition."
+    ),
+
+    QuizQuestion(
+        question: "8. Domestic refuse used for manure includes:",
+        options: ["Broken glass jars", "Scrap metal pieces", "Old plastic bottles", "Fruit and veg peels"],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "Only organic domestic waste can be used for manure."
+    ),
+
+    QuizQuestion(
+        question: "9. Manure improves soil 'aeration.' What does this mean?",
+        options: ["Soil holds less air", "Air moves easily", "Soil becomes hard", "No air for roots"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Aeration allows air to circulate through the soil."
+    ),
+
+    QuizQuestion(
+        question: "10. Which manure is a mixture of dung, urine, and bedding?",
+        options: ["Green manure", "Compost manure", "Poultry manure", "Farmyard manure"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Farmyard manure specifically includes the bedding used by animals."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Where should a compost heap be located for best results?",
+        options: ["In the middle of a dusty road", "In a shaded area near water", "Inside a dark, airtight room", "On top of a very high hill"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Shade prevents drying, and water is needed to keep the pile moist."
+    ),
+
+    QuizQuestion(
+        question: "2. What is the main role of animal hooves in making Farmyard Manure?",
+        options: ["To scare away the flies", "To keep the animals warm", "To trample and mix the waste", "To make the straw look neat"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Trampling ensures dung, urine, and straw are well combined."
+    ),
+
+    QuizQuestion(
+        question: "3. In composting, 'turning' the pile refers to:",
+        options: ["Rotating the pile in a circle", "Moving the pile to add air", "Watering the pile with a hose", "Covering the pile with soil"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Turning introduces oxygen, which is vital for decomposition."
+    ),
+
+    QuizQuestion(
+        question: "4. Which method is most suitable for areas with very low rainfall?",
+        options: ["The Heap Method", "The Pit Method", "The Green Manure Method", "The Chemical Method"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Pits retain moisture better than surface heaps in dry climates."
+    ),
+
+    QuizQuestion(
+        question: "5. What happens if a compost pile becomes too dry?",
+        options: ["It will catch fire instantly", "It will turn into green manure", "Decomposition will slow down or stop", "It will produce more nutrients"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Microbes need moisture to survive and break down organic matter."
+    ),
+
+    QuizQuestion(
+        question: "6. A farmer adds a layer of wood ash to his compost. Why?",
+        options: ["To make the compost look grey", "To add minerals and reduce acidity", "To stop the compost from rotting", "To attract more birds to the farm"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Ash provides potassium and helps balance the pH of the pile."
+    ),
+
+    QuizQuestion(
+        question: "7. How long does the process typically take in Pit A before moving to Pit B?",
+        options: ["About two hours", "About two days", "About two weeks", "About two years"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Two weeks allows the initial breakdown to begin before turning."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these is NOT a step in preparing Farmyard Manure?",
+        options: ["Adding synthetic pesticides", "Collecting animal droppings", "Using straw bedding", "Curing under a roof"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Farmyard manure is organic and does not use synthetic chemicals."
+    ),
+
+    QuizQuestion(
+        question: "9. Why do we cover a compost heap with broad leaves?",
+        options: ["To hide it from the neighbors", "To keep it dry during a drought", "To retain heat and moisture", "To make it grow into a tree"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Heat and moisture are the 'engines' of decomposition."
+    ),
+
+    QuizQuestion(
+        question: "10. What is the final product of a well-prepared compost pit?",
+        options: ["Fresh green leaves", "Dry, yellow straw", "Dark, crumbly organic matter", "Large, hard rocks"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Finished compost looks like rich, dark soil."
+    ),
+  ],
+);
+final QuizModel Scijhs3s3ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Curing is the ______ stage of manure preparation.",
+        options: ["First", "Second", "Final", "Only"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Curing happens after the main decomposition is finished."
+    ),
+
+    QuizQuestion(
+        question: "2. A 'ripe' compost pile should feel:",
+        options: ["Boiling hot", "Very cold like ice", "Cool, like the air around it", "Slimy and wet"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Heat indicates active rotting; a cool pile means the process is stable."
+    ),
+
+    QuizQuestion(
+        question: "3. Why do we remove plastic from manure during the 'treating' phase?",
+        options: ["Plastic makes the soil too fertile", "Plastic does not rot and harms the soil", "Plastic is the most important nutrient", "Plastic helps the roots grow deeper"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Plastic is inorganic and a pollutant in the farm."
+    ),
+
+    QuizQuestion(
+        question: "4. The 'earthy' smell of good manure is a sign of:",
+        options: ["Bad luck for the farmer", "Healthy, finished decomposition", "Too much water in the pile", "A lack of animal waste"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A sweet, earthy smell indicates the waste has successfully transformed."
+    ),
+
+    QuizQuestion(
+        question: "5. How does high heat in a compost pile help a farmer?",
+        options: ["It cooks his lunch for him", "It kills weed seeds and pathogens", "It makes the manure very heavy", "It prevents the pile from ever rotting"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Heat is a natural treatment against unwanted seeds and germs."
+    ),
+
+    QuizQuestion(
+        question: "6. What tool is typically used to sort fine manure from large chunks?",
+        options: ["A large kitchen spoon", "A metal wire sieve", "A plastic bucket", "A sharp cutlass"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "A sieve or mesh allows fine particles to pass through while catching large ones."
+    ),
+
+    QuizQuestion(
+        question: "7. Curing usually takes between:",
+        options: ["1 to 5 minutes", "1 to 3 months", "10 to 15 years", "1 to 2 days"],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Stabilization is a slow process that ensures the manure is safe."
+    ),
+
+    QuizQuestion(
+        question: "8. If a student sees cassava peels in his 'finished' manure, he should:",
+        options: ["Throw the whole pile away", "Give the manure more time to rot", "Paint the peels black to hide them", "Eat the peels because they are clean"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Visible waste means decomposition is not yet complete."
+    ),
+
+    QuizQuestion(
+        question: "9. Manure that is ready for use is often called:",
+        options: ["White sand", "Green gold", "Black gold", "Yellow soil"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "It is called black gold because of its dark color and high value to farmers."
+    ),
+
+    QuizQuestion(
+        question: "10. Which of these is NOT part of 'treating' manure?",
+        options: ["Sorting out stones", "Sieving the material", "Adding chemical weed killer", "Letting the pile heat up naturally"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Manure is organic; we use natural heat, not chemicals, to treat it."
+    ),
+  ],
+);
+
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',

@@ -5508,6 +5508,327 @@ final PracticeModel Scijhs3s2ss4Lesson4PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs3s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a student at Ridge JHS cuts their finger with a piece of paper, which part of the blood helps to stop the bleeding?",
+      answer: "Correct Answer: Platelets (Thrombocytes).",
+      explanation: "Explanation: Platelets are responsible for blood clotting, which plugs wounds to prevent excessive blood loss.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Which component of the blood gives it its red colour, and what specific protein is responsible for this?",
+      answer: "Correct Answer: Red Blood Cells; the protein is Haemoglobin.",
+      explanation: "Explanation: Red blood cells contain haemoglobin, which binds to oxygen and gives the cells their red pigmentation.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is the human circulatory system described as a \"closed\" system?",
+      answer: "Correct Answer: Because the blood is contained within blood vessels.",
+      explanation: "Explanation: In a closed system, blood travels through a continuous network of arteries, veins, and capillaries rather than flowing freely in body cavities.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: I am a blood vessel with very thick, stretchy walls, and I am currently carrying blood away from the heart toward the liver. What am I?",
+      answer: "Correct Answer: An Artery.",
+      explanation: "Explanation: Arteries are defined by their thick walls and their function of carrying blood away from the heart.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: I am a wall of muscle that prevents the blood on the left side of the heart from mixing with the blood on the right side. What is my name?",
+      answer: "Correct Answer: The Septum.",
+      explanation: "Explanation: The septum is the muscular partition that separates the heart's left and right chambers.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: I am the only type of blood vessel that is thin enough to allow oxygen to pass through my walls into the body's cells. What am I?",
+      answer: "Correct Answer: A Capillary.",
+      explanation: "Explanation: Capillaries are microscopic vessels with walls only one cell thick, designed for the exchange of gases and nutrients.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Kofi loves to add extra salt to his Jollof rice every single day at lunch. How might this habit affect his circulatory system over time?",
+      answer: "Correct Answer: It may lead to High Blood Pressure (Hypertension).",
+      explanation: "Explanation: High salt intake causes the body to retain water, which increases the volume and pressure of blood in the arteries.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Auntie Ama has started walking to the market instead of taking a taxi, and she now eats more kontomire and garden eggs. Is this a good change?",
+      answer: "Correct Answer: Yes, it is excellent.",
+      explanation: "Explanation: Increased physical activity strengthens the heart muscle, and vegetables provide fiber and nutrients that lower the risk of heart disease.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is High Blood Pressure often called the 'Silent Killer'?",
+      answer: "Correct Answer: Because it often has no obvious symptoms.",
+      explanation: "Explanation: Many people do not feel sick even when their blood pressure is dangerously high, meaning they might not seek help until a serious event like a stroke occurs.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In the chemical equation for respiration, what are the two 'ingredients' (reactants) that the body needs to produce energy?",
+      answer: "Correct Answer: Glucose (from food) and Oxygen (from air).",
+      explanation: "Explanation: These two substances react together inside the cells to release stored chemical energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: We often see our breath on a cool morning in the Volta Region or during Harmattan. Which two waste products of respiration are we breathing out?",
+      answer: "Correct Answer: Carbon Dioxide and Water (as vapor).",
+      explanation: "Explanation: Carbon dioxide and water are the by-products formed when glucose is broken down.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What is the main difference between breathing and cellular respiration?",
+      answer: "Correct Answer: Breathing is physical (moving air); cellular respiration is chemical (releasing energy).",
+      explanation: "Explanation: Breathing brings in the raw materials, but respiration is the actual process of turning those materials into power for the body.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: An oxygen molecule enters through the Nostrils. Name the next three structures it passes through before it reaches the Bronchi.",
+      answer: "Correct Answer: Nasal Cavity, Pharynx (Throat), and Trachea (Windpipe).",
+      explanation: "Explanation: These structures form the upper and middle sections of the respiratory tract.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the function of the C-shaped rings of cartilage found in the Trachea?",
+      answer: "Correct Answer: To keep the windpipe open and prevent it from collapsing.",
+      explanation: "Explanation: Cartilage is a firm but flexible tissue that provides structural support so air can always flow freely.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If the Epiglottis fails to work properly while you are drinking water, what is likely to happen?",
+      answer: "Correct Answer: The water will enter the trachea (windpipe) and cause coughing or choking.",
+      explanation: "Explanation: The epiglottis acts as a lid to ensure that only air enters the respiratory system and food/liquid enters the digestive system.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: During Inhalation, does the Diaphragm move upwards or downwards?",
+      answer: "Correct Answer: It moves downwards (flattens).",
+      explanation: "Explanation: Moving downwards increases the vertical space in the chest cavity to allow the lungs to expand.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What happens to the volume of the chest cavity when the ribcage moves upwards and outwards?",
+      answer: "Correct Answer: The volume increases.",
+      explanation: "Explanation: As the ribs move out, they create more room inside the thorax, which lowers the air pressure.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does air leave the lungs during exhalation?",
+      answer: "Correct Answer: Because the pressure inside the lungs becomes higher than the pressure outside.",
+      explanation: "Explanation: When the chest cavity gets smaller, the air is squeezed, forcing it out toward the lower-pressure air outside the body.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: The lungs have just taken in a fresh breath of oxygen. What must the circulatory system do next to make sure that oxygen reaches the brain?",
+      answer: "Correct Answer: The heart must pump the oxygenated blood from the lungs to the brain through the arteries.",
+      explanation: "Explanation: The respiratory system captures the oxygen, but the circulatory system is needed to transport it to distant organs.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A student is running a race at the inter-school sports competition. Why do both their pulse rate and breathing rate increase at the same time?",
+      answer: "Correct Answer: To deliver more oxygen to the working muscles and remove carbon dioxide faster.",
+      explanation: "Explanation: Increased activity requires more cellular respiration, which increases the demand for oxygen and the production of waste gases.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Where specifically in the body do the respiratory and circulatory systems meet to exchange gases?",
+      answer: "Correct Answer: At the Alveoli (air sacs) in the lungs.",
+      explanation: "Explanation: The alveoli are surrounded by capillaries, allowing oxygen and carbon dioxide to swap places through the thin walls.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In what way does the composition of an asteroid differ from that of a comet?",
+      answer: "Correct Answer: Asteroids are made of rocks and metals, while comets are made of ice, dust, and frozen gases.",
+      explanation: "Explanation: Asteroids are solid and rocky like stones, but comets are like frozen snowballs that melt when they get hot.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Where would you most likely find the majority of asteroids in our solar system?",
+      answer: "Correct Answer: In the Asteroid Belt between Mars and Jupiter.",
+      explanation: "Explanation: This is the specific region where millions of asteroids orbit together in a ring.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do comets only develop a tail when they are close to the Sun?",
+      answer: "Correct Answer: The heat from the Sun causes the ice in the comet to turn into gas and dust.",
+      explanation: "Explanation: Far away in space, it is too cold for the ice to melt, so the tail only appears when the Sun's heat reaches the comet.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: What do we call a small space rock while it is still drifting far away in the vacuum of space?",
+      answer: "Correct Answer: Meteoroid.",
+      explanation: "Explanation: As long as it hasn't entered our air (atmosphere), it is a meteoroid.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If you see a \"shooting star\" in the sky, what is the scientific name for that light?",
+      answer: "Correct Answer: Meteor.",
+      explanation: "Explanation: The \"meteor\" is the light we see caused by the rock burning up in the air.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do most meteors never become meteorites?",
+      answer: "Correct Answer: They burn up completely in the atmosphere due to friction.",
+      explanation: "Explanation: The heat is so intense that smaller rocks turn into gas and dust before hitting the ground.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: What is the main reason Pluto is no longer called a regular planet",
+      answer: "Correct Answer: It has not cleared its neighborhood of other objects in the Kuiper Belt.",
+      explanation: "Explanation: Even though it is round and orbits the Sun, it shares its path with many other icy bodies.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Which dwarf planet is located closest to Earth, specifically in the Asteroid Belt?",
+      answer: "Correct Answer: Ceres.",
+      explanation: "Explanation: While most dwarf planets are far away, Ceres lives right between Mars and Jupiter.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Does a dwarf planet have to be a specific shape?",
+      answer: "Correct Answer: Yes, it must be nearly spherical (round).",
+      explanation: "Explanation: If it were jagged and irregular, it would be considered an asteroid or a meteoroid instead.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A student finds a grasscutter living in a burrow in a field. Is the burrow the grasscutter's habitat or its ecosystem? Explain why.",
+      answer: "Correct Answer: The burrow is the habitat.",
+      explanation: "Explanation: The burrow is the specific physical location where the grasscutter lives and finds shelter. It is its 'home' address.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: List three abiotic factors that a farmer in the Northern Region must consider before planting maize.",
+      answer: "Correct Answer: Sunlight, Rainfall (Water), and Soil quality.",
+      explanation: "Explanation: These are non-living factors that the maize depends on to grow but are not alive themselves.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why can we call a small school pond an ecosystem?",
+      answer: "Correct Answer: Because it contains living and non-living things interacting.",
+      explanation: "Explanation: It has fish and plants (biotic) interacting with the water and sunlight (abiotic) to maintain a balance.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Arrange these into a correct food chain: Hawk, Maize Plant, Lizard, Locust.",
+      answer: "Correct Answer: Maize Plant → Locust → Lizard → Hawk.",
+      explanation: "Explanation: The energy starts with the maize (producer), goes to the locust (primary consumer), then the lizard (secondary), and ends with the hawk (tertiary).",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If a hunter kills all the snakes in a farm ecosystem, what will happen to the population of frogs?",
+      answer: "Correct Answer: The frog population will increase.",
+      explanation: "Explanation: Without snakes to eat them, more frogs will survive and reproduce, which might lead to too many frogs and not enough insects for them to eat.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is a human considered an omnivore in a food web?",
+      answer: "Correct Answer: Because humans eat both plants and animals.",
+      explanation: "Explanation: In a Ghanaian diet, we might eat kontomire (plant) and fish (animal), making us multiple-level consumers.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain why 'galamsey' is considered more dangerous to a river ecosystem than simple fishing.",
+      answer: "Correct Answer: Galamsey uses poisonous chemicals and destroys the river banks.",
+      explanation: "Explanation: While fishing removes some organisms, galamsey destroys the entire habitat and poisons the water for all living things.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A farmer stops burning his bush and starts using compost instead. How does this help the ecosystem balance?",
+      answer: "Correct Answer: It saves the soil organisms and prevents air pollution.",
+      explanation: "Explanation: By not burning, the farmer protects the decomposers (like earthworms) that keep the soil healthy.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question:If a volcanic eruption covers a forest in ash, what happens to the herbivores in that area?",
+      answer: "Correct Answer: They must move to a new area or they will starve.",
+      explanation: "Explanation: The ash covers their food (the plants), so the primary consumers no longer have energy to survive there.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer has a flock of sheep kept in a fenced pen with straw on the floor. What type of manure will be produced from this pen?",
+      answer: "Correct Answer: Farmyard Manure.",
+      explanation: "Explanation: Because it is a mixture of animal waste (dung and urine) combined with their bedding material (the straw).",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If you want to use \"Green Manure\" on your school farm, what is the best action to take with a crop of cowpea?",
+      answer: "Correct Answer: Plow the cowpea back into the soil while it is still green.",
+      explanation: "Explanation: Green manure is created by growing a crop and burying it in the soil to provide nutrients as it rots.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question:List three examples of animal waste found in a typical Ghanaian community that can be used for manure.",
+      answer: "Correct Answer: Cow dung, poultry droppings, and goat droppings.",
+      explanation: "Explanation: These are the most common animal excreta used to enrich the soil in our local farms.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In the four-pit method, why do we move the material from Pit A to Pit B after two weeks?",
+      answer: "Correct Answer: To turn the material and provide it with air (oxygen).",
+      explanation: "Explanation: Decomposition requires oxygen for the microbes to live; moving the pile mixes in fresh air.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the purpose of placing a roof over a pile of curing Farmyard Manure?",
+      answer: "Correct Answer: To protect it from direct sunlight and heavy rain.",
+      explanation: "Explanation: Sun can destroy nutrients, and rain can wash them out (leaching) before they get to the farm.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question:Why should a farmer start a compost heap with a layer of coarse twigs?",
+      answer: "Correct Answer: To allow air to circulate from the bottom of the heap.",
+      explanation: "Explanation: Proper airflow prevents the pile from smelling bad and helps it rot faster.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s3ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A farmer notices her compost pile still smells very strongly of ammonia (like old urine). Is it ready to be put on the plants?",
+      answer: "Correct Answer: No, it is not ready.",
+      explanation: "Explanation: A strong ammonia smell means the nitrogen is still breaking down and could harm plant roots. It needs more curing.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What should a student do with the large, hard pieces of wood or corn cobs that stay on top of the sieve during treatment?",
+      answer: "Correct Answer: Put them back into a new, active compost pile.",
+      explanation: "Explanation: These pieces just need more time to rot; they act as a \"starter\" for the next batch.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is it important for a compost pile to get very hot during the middle stage of preparation?",
+      answer: "Correct Answer: To kill weed seeds and harmful pests or diseases.",
+      explanation: "Explanation: High heat acts as a natural \"sterilizer,\" making the manure safer for the garden.",
+    ),
+  ],
+);
+
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/3. Guided Practice.m4a',

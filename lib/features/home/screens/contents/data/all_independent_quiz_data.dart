@@ -12183,6 +12183,903 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of the blood makes up the largest percentage of its volume?",
+        options: [
+          "Red blood cells",
+          "White blood cells",
+          "Blood plasma",
+          "Blood platelets"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Blood plasma is the largest component of blood, making up about 55% of its volume."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main function of the White Blood Cells in the human body?",
+        options: [
+          "To carry oxygen",
+          "To fight germs",
+          "To clot blood",
+          "To carry food"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "White blood cells are responsible for protecting the body against infections and germs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is NOT one of the three main pillars of the circulatory system?",
+        options: [
+          "The stomach",
+          "The vessels",
+          "The heart",
+          "The blood"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The stomach is part of the digestive system, not the circulatory system."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What name is given to the protein that helps red blood cells carry oxygen?",
+        options: [
+          "Plasma cell",
+          "Leukocyte",
+          "Haemoglobin",
+          "Thrombocyte"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Haemoglobin is the protein in red blood cells that binds and transports oxygen."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which chamber of the heart has the thickest muscular wall?",
+        options: [
+          "Right Atrium",
+          "Left Atrium",
+          "Right Ventricle",
+          "Left Ventricle"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The left ventricle has the thickest muscular wall because it pumps blood to the entire body."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main purpose of valves located inside the heart and veins?",
+        options: [
+          "To speed up blood flow",
+          "To prevent backflow of blood",
+          "To add oxygen to the blood",
+          "To stop the heart from beating"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Valves prevent the backflow of blood, ensuring it moves in one direction."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which type of blood vessel carries blood back towards the heart?",
+        options: [
+          "Veins",
+          "Arteries",
+          "Capillaries",
+          "Aorta"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Veins carry deoxygenated blood back to the heart."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The top two chambers of the heart are known as the:",
+        options: [
+          "Ventricles",
+          "Septums",
+          "Atria",
+          "Valves"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The atria are the top two chambers of the heart that receive blood from the body and lungs."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a major risk factor for developing High Blood Pressure?",
+        options: [
+          "Eating too many green vegetables",
+          "Regular dancing and walking",
+          "Consuming excessive amounts of salt",
+          "Drinking plenty of clean water"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Excessive salt intake can increase blood pressure, making it a major risk factor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to the brain during a stroke?",
+        options: [
+          "It stops producing blood cells",
+          "Blood supply to part of it is cut off",
+          "It grows too many new vessels",
+          "It starts pumping blood to the heart"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "During a stroke, part of the brain loses its blood supply, causing damage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which lifestyle choice helps prevent heart failure?",
+        options: [
+          "Smoking one cigarette a day",
+          "Avoiding all physical exercise",
+          "Maintaining a healthy body weight",
+          "Eating mostly fried and oily foods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Maintaining a healthy body weight reduces strain on the heart and helps prevent heart failure."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How much exercise is generally recommended for a healthy heart?",
+        options: [
+          "5 minutes once a month",
+          "30 minutes on most days",
+          "24 hours every single day",
+          "Only when you feel sick"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Most health guidelines recommend at least 30 minutes of moderate exercise on most days for heart health."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In which part of the cell does internal (cellular) respiration primarily take place?",
+        options: [
+          "The nucleus",
+          "The cell wall",
+          "The mitochondria",
+          "The stomach"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cellular respiration primarily occurs in the mitochondria, producing energy for the cell."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which type of respiration occurs when there is plenty of oxygen available?",
+        options: [
+          "Anaerobic respiration",
+          "Aerobic respiration",
+          "External inhalation",
+          "Physical breathing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Aerobic respiration requires oxygen to produce energy efficiently."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the name of the energy molecule produced during respiration?",
+        options: [
+          "Glucose",
+          "Haemoglobin",
+          "ATP",
+          "Plasma"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "ATP (adenosine triphosphate) is the main energy-carrying molecule produced during respiration."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. During exhalation, what are we primarily removing from our bodies?",
+        options: [
+          "Oxygen and Glucose",
+          "Carbon Dioxide and Water vapor",
+          "Nitrogen and ATP",
+          "Oxygen and Water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "During exhalation, carbon dioxide and water vapor are expelled from the body."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which structure is commonly known as the 'Voice Box'?",
+        options: [
+          "Pharynx",
+          "Trachea",
+          "Larynx",
+          "Bronchi"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The larynx is commonly referred to as the voice box because it houses the vocal cords."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are the tiny air sacs where gas exchange actually takes place?",
+        options: [
+          "Bronchioles",
+          "Alveoli",
+          "Capillaries",
+          "Nostrils"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Gas exchange occurs in the alveoli, where oxygen enters the blood and carbon dioxide leaves."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The trachea branches into two tubes called the:",
+        options: [
+          "Bronchi",
+          "Alveoli",
+          "Larynx",
+          "Epiglottis"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The trachea divides into the left and right bronchi, leading to each lung."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the left lung slightly smaller than the right lung?",
+        options: [
+          "To make room for the stomach",
+          "To make room for the heart",
+          "Because it has more bronchi",
+          "To allow for faster breathing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The left lung is smaller to accommodate the space taken up by the heart."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which muscle is a large, sheet-like muscle located at the base of the chest?",
+        options: [
+          "Bicep",
+          "Heart",
+          "Diaphragm",
+          "Trachea"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The diaphragm is a large, sheet-like muscle located at the base of the chest, essential for breathing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. During exhalation, the diaphragm becomes:",
+        options: [
+          "Flat",
+          "Dome-shaped",
+          "Square",
+          "Circular"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "During exhalation, the diaphragm relaxes and becomes dome-shaped to help push air out of the lungs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the function of the fluid between the pleural membranes?",
+        options: [
+          "To provide oxygen",
+          "To reduce friction",
+          "To digest food",
+          "To make the ribs hard"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The pleural fluid reduces friction between the lungs and chest wall during breathing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When the intercostal muscles relax, the ribcage moves:",
+        options: [
+          "Upwards and outwards",
+          "Downwards and inwards",
+          "To the left side",
+          "Towards the head"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When intercostal muscles relax, the ribcage moves downwards and inwards to assist exhalation."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which system is responsible for bringing oxygen into the body from the atmosphere?",
+        options: [
+          "Circulatory System",
+          "Digestive System",
+          "Respiratory System",
+          "Nervous System"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The respiratory system is responsible for taking in oxygen from the air and expelling carbon dioxide."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does oxygen move from the lungs into the blood?",
+        options: [
+          "By being swallowed",
+          "Through diffusion in the alveoli",
+          "By heart contractions",
+          "Through the windpipe"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oxygen diffuses through the alveolar walls into the blood in the capillaries."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the blood transport to the lungs to be removed from the body?",
+        options: [
+          "Oxygen",
+          "Glucose",
+          "Carbon Dioxide",
+          "Pure Water"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Blood carries carbon dioxide from the body to the lungs for removal."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which organ acts as the pump that moves oxygenated blood to the rest of the body?",
+        options: [
+          "The Lungs",
+          "The Trachea",
+          "The Heart",
+          "The Liver"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The heart pumps oxygenated blood throughout the body via the circulatory system."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a common nickname for a comet?",
+        options: [
+          "Minor Planet",
+          "Dirty Snowball",
+          "Burning Stone",
+          "Space Diamond"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Comets are often called 'dirty snowballs' because they are composed of ice and dust."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is the Asteroid Belt located?",
+        options: [
+          "Between Earth and Mars",
+          "Between Mars and Jupiter",
+          "Between Jupiter and Saturn",
+          "Near the Sun's surface"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Asteroid Belt lies between the orbits of Mars and Jupiter."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main material found in an asteroid?",
+        options: [
+          "Ice and frozen gas",
+          "Liquid water and salt",
+          "Rock and metal",
+          "Wood and plastic"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Asteroids are primarily made of rock and metal."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which part of a comet always points away from the Sun?",
+        options: [
+          "The Nucleus",
+          "The Coma",
+          "The Center",
+          "The Tail"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A comet's tail always points away from the Sun due to the solar wind."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A meteoroid that has entered the Earth's atmosphere and produced a streak of light is called a:",
+        options: [
+          "Planet",
+          "Meteor",
+          "Comet",
+          "Meteorite"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A meteoroid entering Earth's atmosphere and producing a streak of light is called a meteor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What causes the bright light of a meteor?",
+        options: [
+          "Batteries inside the rock",
+          "Reflection of the Moon",
+          "Friction with the air",
+          "Sunlight hitting the ice"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bright light of a meteor is caused by friction with the air as it enters the atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A space rock that has successfully landed on the Earth's surface is a:",
+        options: [
+          "Meteorite",
+          "Meteoroid",
+          "Asteroid",
+          "Meteor"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A meteorite is a space rock that reaches the Earth's surface without completely burning up."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Most meteoroids are formed from fragments of:",
+        options: [
+          "The Sun",
+          "The Moon",
+          "Clouds",
+          "Asteroids"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Most meteoroids are formed from fragments of asteroids."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS2 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a requirement for BOTH a planet and a dwarf planet?",
+        options: [
+          "Must have at least ten moons",
+          "Must be made entirely of gold",
+          "Must orbit the Sun",
+          "Must be the largest object in space"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Both planets and dwarf planets must orbit the Sun."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is the dwarf planet Eris located?",
+        options: [
+          "In the center of the Sun",
+          "In the outer Solar System",
+          "Between Mercury and Venus",
+          "Inside the Earth's moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Eris is a dwarf planet located in the outer Solar System."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What shape is a dwarf planet?",
+        options: [
+          "A flat square",
+          "Nearly spherical",
+          "A long thin needle",
+          "A hollow triangle"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dwarf planets are nearly spherical in shape due to self-gravity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is NOT a recognized dwarf planet?",
+        options: [
+          "Pluto",
+          "Eris",
+          "Ceres",
+          "Jupiter"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Jupiter is a full-fledged planet, not a dwarf planet."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a biotic component of an ecosystem?",
+        options: [
+          "Fertile soil",
+          "River water",
+          "Fungi spores",
+          "Golden sun"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fungi spores are living components, making them biotic elements of an ecosystem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main source of energy for almost all ecosystems?",
+        options: [
+          "Rainfall",
+          "Sunlight",
+          "Oxygen",
+          "Wind"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sunlight provides energy for photosynthesis, which supports nearly all ecosystems."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which term describes the Gulf of Guinea off the coast of Accra?",
+        options: [
+          "Terrestrial",
+          "Freshwater",
+          "Marine",
+          "Abiotic"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Gulf of Guinea is a marine environment."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A specific place where an organism lives naturally is called its:",
+        options: [
+          "Community",
+          "Population",
+          "Ecosystem",
+          "Habitat"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A habitat is the natural home of an organism."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which organism is always at the very beginning of a food chain?",
+        options: [
+          "Primary consumer",
+          "Tertiary consumer",
+          "Green plant",
+          "Decomposer"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Green plants are producers and always form the base of a food chain."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does the arrow in a food chain represent?",
+        options: [
+          "The direction of travel",
+          "The flow of energy",
+          "The size of the animal",
+          "The hunting speed"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Arrows in a food chain show the flow of energy from one organism to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a decomposer often found in Ghana?",
+        options: [
+          "Mushroom",
+          "Vulture",
+          "Antelope",
+          "Termite"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Mushrooms break down dead organic matter, acting as decomposers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A food web is more realistic than a food chain because:",
+        options: [
+          "It is much easier to draw",
+          "It shows only one path",
+          "Animals eat many things",
+          "It excludes the plants"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A food web shows multiple feeding relationships, reflecting real ecosystems."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS3 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which human activity is the main cause of muddy, brown rivers in Ghana?",
+        options: [
+          "Sustainable fishing",
+          "Illegal mining (Galamsey)",
+          "Planting cocoa trees",
+          "Collecting rainwater"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Illegal mining, known as Galamsey, causes soil erosion, leading to muddy rivers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a negative effect of bush burning?",
+        options: [
+          "It makes the air cleaner",
+          "It helps animals find homes",
+          "It kills helpful soil organisms",
+          "It produces more rainfall"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Bush burning destroys beneficial soil organisms that help maintain soil fertility."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why are bees and butterflies important to the balance of a farm ecosystem?",
+        options: [
+          "They eat all the weeds",
+          "They help plants reproduce",
+          "They provide shade for crops",
+          "They keep the soil cool"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Bees and butterflies pollinate plants, aiding reproduction and maintaining ecosystem balance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a 'natural' interference in an ecosystem?",
+        options: [
+          "Pesticide spraying",
+          "Plastic pollution",
+          "Volcanic eruption",
+          "Forest logging"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Volcanic eruptions occur naturally and can disrupt ecosystems without human intervention."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a plant-based source of manure?",
+        options: [
+          "Poultry droppings",
+          "Cassava peelings",
+          "Slaughterhouse bones",
+          "Dried sheep dung"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cassava peelings are plant-based and can be used as organic manure."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main benefit of adding organic manure to sandy soil?",
+        options: [
+          "To make the soil very salty",
+          "To change the color to red",
+          "To help hold more water",
+          "To kill all the earthworms"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Organic manure improves the water retention capacity of sandy soils."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which type of manure involves leaving kitchen scraps in a heap to rot?",
+        options: [
+          "Farmyard manure",
+          "Green manure",
+          "Liquid manure",
+          "Compost manure"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Compost manure is made by decomposing organic scraps in heaps."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A farmer plows fresh, growing legumes into the soil. This is called:",
+        options: [
+          "Green manure",
+          "Animal manure",
+          "Compost manure",
+          "Mineral manure"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Green manure involves plowing fresh leguminous crops into the soil to improve fertility."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is 'litter' in the context of preparing Farmyard Manure?",
+        options: [
+          "Plastic waste found in the pen",
+          "Bedding material like straw or dry grass",
+          "The actual droppings of the animals",
+          "The fence built around the animal kraal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Litter' refers to the bedding material such as straw or dry grass used in preparing farmyard manure."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is the correct order for the Pit Method of composting?",
+        options: [
+          "Move waste from Pit D to Pit A",
+          "Keep waste in Pit A until it is finished",
+          "Move waste from Pit A to B, then C, then D",
+          "Mix all four pits together on the first day"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In the Pit Method, waste is moved sequentially from Pit A to B, then C, then D to ensure proper composting."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is moisture important in a compost heap?",
+        options: [
+          "To drown the insects living inside",
+          "To make the heap heavy so it doesn't blow away",
+          "To help the microorganisms decompose the waste",
+          "To wash the dirt off the cassava peels"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Moisture supports the activity of microorganisms which break down organic material in the compost."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which material is used as a 'cover' for a compost heap to keep heat in?",
+        options: [
+          "Broad leaves or old sacks",
+          "Large stones or rocks",
+          "Sheets of expensive glass",
+          "Pieces of scrap metal"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Broad leaves or old sacks are used to cover compost heaps to retain heat and aid decomposition."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S3 SS4 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a sign that manure is FULLY cured?",
+        options: [
+          "It feels very hot to the touch",
+          "You can still see the cassava peels",
+          "It has a dark brown or black color",
+          "It smells like rotten food"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fully cured manure has a dark brown or black color, indicating decomposition is complete."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main reason for 'sieving' manure before use?",
+        options: [
+          "To make the manure look like sand",
+          "To remove large un-rotted materials",
+          "To add water to the finished product",
+          "To change the color from black to red"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sieving removes large un-decomposed materials, making the manure finer and easier to use."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If manure is used BEFORE it is cured, what might happen?",
+        options: [
+          "The plants will grow 10 times faster",
+          "The roots of the plants might be burnt",
+          "The soil will turn into hard rock",
+          "The manure will turn into gold"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using uncured manure can burn plant roots due to high nitrogen content."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sense is BEST for checking if manure has a 'forest floor' smell?",
+        options: [
+          "Sight",
+          "Touch",
+          "Taste",
+          "Smell"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The sense of smell helps identify the 'forest floor' odor, indicating well-decomposed manure."
+    ),
+  ],
+);
+
 ///Math
 final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',
