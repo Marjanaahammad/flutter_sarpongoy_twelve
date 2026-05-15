@@ -45,10 +45,7 @@ class LearnController extends GetxController {
 
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
-  bool get isCurrentPartFinished {
-    final idx = currentPartIndex.value;
-    return isPartFinishedInSession[idx] || isPartCompleted[idx];
-  }
+  bool get isCurrentPartFinished => true; // Always enabled — no need to wait for audio
 
   // ── Initialisation ───────────────────────────────────────────────────────────
 
@@ -214,10 +211,6 @@ class LearnController extends GetxController {
   // ── Navigation ───────────────────────────────────────────────────────────────
 
   void goToNextPart() {
-    if (!isCurrentPartFinished) {
-      debugPrint('Cannot advance: current part not finished this session');
-      return;
-    }
     if (isLastPart) return; // caller should handle completion
     currentPartIndex.value++;
     if (currentPart.videoPath != null) {
