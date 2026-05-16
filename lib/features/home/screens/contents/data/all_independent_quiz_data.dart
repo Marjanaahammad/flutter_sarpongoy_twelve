@@ -9980,6 +9980,623 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the standard unit used to measure energy?",
+        options: [
+          "Metres",
+          "Joules",
+          "Litres",
+          "Grams"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Joules is the standard SI unit used to measure energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What form of energy is found in the food we eat, such as fufu or kenkey?",
+        options: [
+          "Nuclear Energy",
+          "Light Energy",
+          "Chemical Energy",
+          "Sound Energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The chemical energy in food is released during digestion to fuel the body."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A car is racing along the motorway from Accra to Tema. What type of energy does the moving car have?",
+        options: [
+          "Kinetic Energy",
+          "Stored Energy",
+          "Potential Energy",
+          "Nuclear Energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A moving car has kinetic energy because it is in motion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is the correct way to calculate Mechanical Energy?",
+        options: [
+          "PE minus KE",
+          "PE divided by KE",
+          "PE times KE",
+          "PE plus KE"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Mechanical Energy is the sum of Potential Energy (PE) and Kinetic Energy (KE)."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which appliance is specifically used to provide Heat Energy for cooking?",
+        options: [
+          "A radio",
+          "A fridge",
+          "A gas stove",
+          "A computer"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A gas stove is used to provide heat energy for cooking food."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If two students are running at the same speed, but one is heavier than the other, who has more Kinetic Energy?",
+        options: [
+          "The lighter student",
+          "Both are the same",
+          "The heavier student",
+          "Neither has energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Kinetic Energy depends on mass and speed; the heavier student has more kinetic energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which factor does NOT affect the Potential Energy of a stone?",
+        options: [
+          "Its mass",
+          "Its color",
+          "Its height",
+          "Gravity"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Potential energy depends on mass, height, and gravity; color has no effect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A torchlight uses the energy from a battery to produce which form of energy?",
+        options: [
+          "Sound",
+          "Nuclear",
+          "Light",
+          "Mechanical"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A torch converts chemical energy from the battery into light energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Calculate the PE of a 10kg box placed 5m above the ground. (g=10)",
+        options: [
+          "50 J",
+          "500 J",
+          "100 J",
+          "15 J"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Potential Energy (PE) = mass × gravity × height = 10 × 10 × 5 = 500 J."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A boy with a mass of 40kg is running at 1m/s. What is his Kinetic Energy?",
+        options: [
+          "40 J",
+          "80 J",
+          "20 J",
+          "10 J"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Kinetic Energy (KE) = 0.5 × mass × velocity² = 0.5 × 40 × 1² = 20 J."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which value is always used for gravity (g) in our JHS science problems?",
+        options: [
+          "5",
+          "10",
+          "100",
+          "0"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The standard approximation for gravity in Junior High School problems is 10 m/s²."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the KE of a 2kg ball moving at 4m/s?",
+        options: [
+          "8 J",
+          "32 J",
+          "16 J",
+          "64 J"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "KE = 0.5 × mass × velocity² = 0.5 × 2 × 4² = 16 J."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these materials is the best conductor of heat?",
+        options: [
+          "Plastic",
+          "Copper",
+          "Wood",
+          "Rubber"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Copper is a very good conductor of heat compared to plastic, wood, or rubber."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In which state of matter does convection primarily occur?",
+        options: [
+          "Solids only",
+          "Empty space only",
+          "Liquids and gases",
+          "Rocks and metals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Convection occurs in liquids and gases, where fluid movement transfers heat."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does the heat from a bonfire reach a person sitting 2 metres away?",
+        options: [
+          "Radiation",
+          "Conduction",
+          "Insulation",
+          "Friction"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Heat from a bonfire travels through radiation, which does not require a medium."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are the handles of many Ghanaian cooking pots made of wood or plastic?",
+        options: [
+          "They are good conductors",
+          "They are good insulators",
+          "They are very heavy",
+          "They melt easily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Wood and plastic are good insulators, so handles do not get hot easily."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the scientific term for light traveling in a straight line?",
+        options: [
+          "Reflection",
+          "Refraction",
+          "Rectilinear Propagation",
+          "Dispersion"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Rectilinear propagation describes light traveling in straight lines."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which type of surface produces a clear, sharp reflection?",
+        options: [
+          "A rough wooden door",
+          "A smooth, polished mirror",
+          "A piece of crumpled paper",
+          "A sandy playground"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A smooth, polished mirror produces a clear and sharp reflection."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Refraction occurs because light changes its ________ when it moves from air into water.",
+        options: [
+          "Color",
+          "Speed",
+          "Size",
+          "Weight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Refraction happens due to a change in the speed of light when it passes from one medium to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If the angle of incidence on a mirror is 30 degrees, what is the angle of reflection?",
+        options: [
+          "60 degrees",
+          "90 degrees",
+          "30 degrees",
+          "0 degrees"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The angle of reflection equals the angle of incidence."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Dispersion is the process of splitting ________ light into seven colors.",
+        options: [
+          "Black",
+          "White",
+          "Green",
+          "Red"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dispersion occurs when white light splits into its seven component colors."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these objects acts as a prism to create a rainbow in the sky?",
+        options: [
+          "A bird",
+          "A cloud",
+          "A raindrop",
+          "A leaf"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Raindrops refract and disperse light to form a rainbow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What color comes immediately after Yellow in the ROYGBIV sequence?",
+        options: [
+          "Blue",
+          "Orange",
+          "Green",
+          "Indigo"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In the ROYGBIV sequence, Green comes after Yellow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the band of seven colors produced by dispersion called?",
+        options: [
+          "A shadow",
+          "A reflection",
+          "A spectrum",
+          "A prism"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The seven-color band produced by dispersion is called a spectrum."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common fuel used at the Aboadze Thermal Plant?",
+        options: [
+          "Uranium ore",
+          "Natural gas",
+          "Firewood",
+          "Solar salt"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Natural gas is commonly used as fuel at the Aboadze Thermal Plant."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In nuclear electricity generation, which element is commonly split to release energy?",
+        options: [
+          "Hydrogen",
+          "Nitrogen",
+          "Uranium",
+          "Carbon"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Uranium nuclei are split in nuclear reactors to release energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the name of the machine that specifically converts mechanical spinning into electricity?",
+        options: [
+          "Generator",
+          "Turbine",
+          "Boiler",
+          "Reactor"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A generator converts mechanical energy from spinning into electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The word 'Thermal' in electricity generation refers to which of the following?",
+        options: [
+          "Cold water",
+          "Wind power",
+          "Heat energy",
+          "Sound waves"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Thermal energy refers to heat energy used in generating electricity."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which gas is the main cause of the 'blanket effect' that traps heat around the Earth?",
+        options: [
+          "Oxygen",
+          "Carbon Dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Carbon dioxide contributes significantly to the greenhouse effect, trapping heat around Earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major disadvantage of nuclear power compared to solar power?",
+        options: [
+          "It produces too much smoke.",
+          "It uses too much sunlight.",
+          "It creates radioactive waste.",
+          "It makes the air too cold."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Nuclear power produces radioactive waste, which requires careful disposal and management."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How can a Junior High School student help reduce the pollution from power plants?",
+        options: [
+          "By building a new power plant.",
+          "By using more electricity at night.",
+          "By switching off lights not in use.",
+          "By avoiding the use of any water."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Switching off lights and devices when not in use reduces electricity demand and pollution from power plants."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is considered a 'Clean' or 'Renewable' energy source?",
+        options: [
+          "Crude oil",
+          "Natural gas",
+          "Solar energy",
+          "Coal power"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Solar energy is renewable and does not pollute, unlike fossil fuels."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which leg of an LED should be connected toward the positive terminal of the battery?",
+        options: [
+          "The shorter leg",
+          "The thicker leg",
+          "The longer leg",
+          "The silver leg"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The longer leg of an LED is the anode, which should connect to the positive terminal."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to the circuit when the switch is 'Open'?",
+        options: [
+          "The LED shines brighter",
+          "Electricity stops flowing",
+          "The battery charges up",
+          "The resistor gets hot"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Opening the switch breaks the circuit, stopping the flow of electricity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a standard school experiment, two 1.5V dry cells are joined to provide how much total voltage?",
+        options: [
+          "1.0 Volts",
+          "1.5 Volts",
+          "4.5 Volts",
+          "3.0 Volts"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Connecting two 1.5V cells in series gives a total of 3.0 Volts."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which component is used to protect an LED from receiving too much current?",
+        options: [
+          "A capacitor",
+          "A resistor",
+          "A switch",
+          "A wire"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A resistor limits the current flowing through an LED to prevent damage."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the primary job of the Resistor in a circuit with an LED?",
+        options: [
+          "To make the battery last longer",
+          "To protect the LED from too much current",
+          "To turn the light on and off",
+          "To store energy for the night"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The resistor limits the current to prevent the LED from burning out."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does an LED 'depend' on the battery?",
+        options: [
+          "The LED provides power to the battery",
+          "The LED tells the battery when to stop",
+          "The LED needs the battery's electrical push",
+          "The LED recharges the battery's chemicals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The LED requires the battery's electrical push to light up."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a simple circuit, what happens if the switch is 'Open'?",
+        options: [
+          "The resistor gets very hot",
+          "The LED shines at maximum brightness",
+          "The circuit is broken and no current flows",
+          "The battery sends power in reverse"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Opening the switch breaks the circuit, stopping current flow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which component acts as a 'one-way valve' for electricity?",
+        options: [
+          "The Switch",
+          "The Resistor",
+          "The Diode",
+          "The Battery"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A diode allows current to flow in only one direction."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which color in the resistor code represents the number 2?",
+        options: [
+          "Black",
+          "Brown",
+          "Red",
+          "Orange"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In resistor color codes, Red represents the number 2."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The silver or white band on a diode indicates which terminal?",
+        options: [
+          "The Anode (Positive)",
+          "The Cathode (Negative)",
+          "The Multiplier",
+          "The Tolerance"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The silver or white band marks the cathode (negative) terminal of a diode."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does an inductor store its energy in?",
+        options: [
+          "A chemical liquid",
+          "A vacuum tube",
+          "A magnetic field",
+          "A heat sink"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An inductor stores energy in its magnetic field when current flows through it."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a resistor has a Gold band at the end, what does this represent?",
+        options: [
+          "The price of the part",
+          "The tolerance (accuracy)",
+          "The weight of the part",
+          "The maximum voltage"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A gold band on a resistor indicates its tolerance, showing how accurate its resistance value is."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',

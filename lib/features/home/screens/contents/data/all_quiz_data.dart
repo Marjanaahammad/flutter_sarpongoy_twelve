@@ -21014,6 +21014,931 @@ final QuizModel Scijhs1s3ss4Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs1s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Energy is defined as the ability to do what?",
+        options: ["Play", "Work", "Rest", "Heat"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "In Science, we define energy specifically as the capacity or ability to perform work."
+    ),
+
+    QuizQuestion(
+        question: "2. Which form of energy comes directly from the sun to the earth?",
+        options: ["Sound", "Solar", "Petrol", "Atomic"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Solar energy is the light and heat we receive from the sun."
+    ),
+
+    QuizQuestion(
+        question: "3. When a person is standing still at the top of a hill, they have the most of which energy?",
+        options: ["Kinetic", "Solar", "Sound", "Potential"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Potential energy is higher when an object is at a greater height and not moving."
+    ),
+
+    QuizQuestion(
+        question: "4. What happens to Potential Energy when an object starts to fall toward the ground?",
+        options: ["It becomes Sound", "It stays Stored", "It becomes Kinetic", "It turns to Solar"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "As an object moves, its stored potential energy is converted into kinetic energy of motion."
+    ),
+
+    QuizQuestion(
+        question: "5. Which of these items uses Chemical Energy to function?",
+        options: ["A torchlight battery", "A wooden wall clock", "A ringing school bell", "A mirror on the wall"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Batteries (dry cells) store energy in chemical form until they are used."
+    ),
+
+    QuizQuestion(
+        question: "6. Mechanical Energy is the total sum of which two types of energy?",
+        options: ["Light and Sound", "Heat and Nuclear", "Potential and Kinetic", "Solar and Electrical"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "ME = PE + KE. It is the combination of an object's position and its motion."
+    ),
+
+    QuizQuestion(
+        question: "7. What form of energy is produced when you pluck the strings of a guitar?",
+        options: ["Chemical", "Sound", "Solar", "Nuclear"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The vibrating strings create sound energy that we can hear."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of the following is a source of Light Energy in a Ghanaian home?",
+        options: ["A cold bag of sachet water", "A plastic mixing bowl", "A lighted kerosene lamp", "A heavy wooden mortar"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "A kerosene lamp burns fuel to produce light energy so we can see."
+    ),
+
+    QuizQuestion(
+        question: "9. If an object has 10J of Potential Energy and 5J of Kinetic Energy, what is its Mechanical Energy?",
+        options: ["5 Joules", "50 Joules", "15 Joules", "2 Joules"],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "Simply add the two together: 10J + 5J = 15J."
+    ),
+
+    QuizQuestion(
+        question: "10. Why does a moving football eventually stop rolling on a grass field?",
+        options: ["It loses its Kinetic Energy", "It gains more Stored Energy", "It turns into Solar Energy", "It creates Nuclear Energy"],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation: "As it slows down due to friction, its energy of motion (Kinetic) decreases until it stops."
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which of these gadgets is used to provide sound energy in a school?",
+        options: ["A kettle", "A mirror", "A speaker", "A chair"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Speakers are designed to turn electrical energy into sound energy."
+    ),
+
+    QuizQuestion(
+        question: "2. What happens to the Potential Energy of a bird as it flies higher into the sky?",
+        options: ["It decreases", "It increases", "It stops", "It vanishes"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "PE increases as the height from the ground increases."
+    ),
+
+    QuizQuestion(
+        question: "3. A heavy truck and a small car are both parked on a hill. Why does the truck have more PE?",
+        options: ["It is longer", "It is faster", "It is blue", "It has more mass"],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "More mass leads to higher potential energy at the same height."
+    ),
+
+    QuizQuestion(
+        question: "4. Which appliance in a Ghanaian home is mainly used to preserve food using electrical energy?",
+        options: ["A blender", "A fridge", "A toaster", "A fan"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Refrigerators use electricity to keep food cold and fresh."
+    ),
+
+    QuizQuestion(
+        question: "5. If you double the speed of a rolling football, what happens to its Kinetic Energy?",
+        options: ["It increases", "It decreases", "It stays same", "It disappears"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Kinetic energy is dependent on velocity; more speed equals more energy."
+    ),
+
+    QuizQuestion(
+        question: "6. Which of these is a factor that affects both PE and KE?",
+        options: ["Height", "Speed", "Mass", "Color"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Mass is a factor in the formulas for both Potential and Kinetic energy."
+    ),
+
+    QuizQuestion(
+        question: "7. A girl is lifting a bag of rice. Which action gives the bag the most Potential Energy?",
+        options: ["Dropping the bag", "Holding it low", "Lifting it high", "Sliding the bag"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Raising the object to a greater height increases its stored potential energy."
+    ),
+
+    QuizQuestion(
+        question: "8. Which energy form is used by an electric iron to remove wrinkles from clothes?",
+        options: ["Light", "Sound", "Solar", "Heat"],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "An iron converts electrical energy into heat energy for pressing clothes."
+    ),
+
+    QuizQuestion(
+        question: "9. Why does a stationary stone on the ground have zero Kinetic Energy?",
+        options: ["It is too heavy", "It is not moving", "It is too small", "It has no color"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Kinetic energy is the energy of motion. If there is no motion, there is no KE."
+    ),
+
+    QuizQuestion(
+        question: "10. Which object has the most Kinetic Energy?",
+        options: ["A parked bus", "A walking man", "A speeding bus", "A sitting man"],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "The speeding bus has both large mass and high velocity, giving it the most KE."
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is the Potential Energy of a 3kg bird perched on a branch 10m high? (g=10)",
+        options: ["300 J", "30 J", "13 J", "100 J"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "3 × 10 × 10 = 300 J."
+    ),
+
+    QuizQuestion(
+        question: r"2. In the formula KE =  \frac{1}{2} mv^2, what does the 'v' stand for?",
+        options: ["Volume", "Velocity", "Value", "Voltage"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "'v' represents velocity, which is the speed of the object."
+    ),
+
+    QuizQuestion(
+        question: "3. A 20kg bag of rice is on the floor. What is its Potential Energy?",
+        options: ["200 J", "20 J", "0 J", "10 J"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Since the height is 0 m, the PE is 20 × 10 × 0 = 0 J."
+    ),
+
+    QuizQuestion(
+        question: "4. Calculate the KE of a 6kg object moving at a velocity of 2m/s.",
+        options: ["24 J", "6 J", "12 J", "60 J"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: r"v^2 = 4; 6 × 4 = 24; half of 24 is 12 J."
+    ),
+
+    QuizQuestion(
+        question: "5. Which formula is used specifically for objects that are stored at a height?",
+        options: ["m × g × h", "1/2 mv^2", "m + g + h", "v × v × m"],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "mgh is the standard formula for Gravitational Potential Energy."
+    ),
+
+    QuizQuestion(
+        question: "6. If an object's mass increases, what happens to its Kinetic Energy?",
+        options: ["It stays same", "It decreases", "It increases", "It turns to 0"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Since mass is in the numerator of the formula, increasing it increases the total energy."
+    ),
+
+    QuizQuestion(
+        question: "7. A 1kg coconut falls from 5m. What was its PE before it fell? (g=10)",
+        options: ["5 J", "10 J", "50 J", "15 J"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "1 × 10 × 5 = 50 J."
+    ),
+
+    QuizQuestion(
+        question: "8. What is the mass of an object if its PE is 100 J at a height of 10m? (g=10)",
+        options: ["10 kg", "5 kg", "1 kg", "2 kg"],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "PE = mgh → 100 = m × 10 × 10 → m = 1 kg."
+    ),
+
+    QuizQuestion(
+        question: "9. Which of these units is used for the final answer of an energy calculation?",
+        options: ["Watts", "Newtons", "Joules", "Metres"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The Joule (J) is the standard SI unit for all forms of energy."
+    ),
+
+    QuizQuestion(
+        question: "10. A car has 1000 J of KE. If it stops moving, what is its new KE?",
+        options: ["500 J", "100 J", "0 J", "1000 J"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Kinetic energy is energy of motion. If velocity is zero, KE is zero."
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What is the term for a material that does NOT allow heat to pass through it easily?",
+      options: ["Insulator", "Conductor", "Radiator", "Metal"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Insulators like wood or plastic block the flow of heat.",
+    ),
+
+    QuizQuestion(
+      question: "Which process involves the actual movement of warmed particles from one place to another?",
+      options: ["Radiation", "Conduction", "Convection", "Freezing"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In convection, hot fluids move upward and carry the heat with them.",
+    ),
+
+    QuizQuestion(
+      question: "How does heat travel from the Sun to the Earth?",
+      options: ["Conduction", "Convection", "Radiation", "Vibration"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Radiation is the only form of heat transfer that can travel through the vacuum of space.",
+    ),
+
+    QuizQuestion(
+      question: "Why do we use aluminium to make cooking pots?",
+      options: ["It is a good insulator", "It is a good conductor", "It is very soft", "It blocks the fire"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Metals like aluminium pass heat quickly from the fire to the food.",
+    ),
+
+    QuizQuestion(
+      question: "When you burn your finger by touching a hot iron, which process occurred?",
+      options: ["Convection", "Radiation", "Conduction", "Insulation"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Direct contact with a hot solid results in heat transfer by conduction.",
+    ),
+
+    QuizQuestion(
+      question: "Land and sea breezes are examples of which heat transfer process?",
+      options: ["Conduction", "Radiation", "Convection", "Reflection"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "These breezes are caused by large convection currents in the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "Which type of surface is the best absorber of radiated heat?",
+      options: ["Shiny and white", "Dull and black", "Smooth and silver", "Clear and glass"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dark, dull surfaces soak up heat waves much better than light, shiny ones.",
+    ),
+
+    QuizQuestion(
+      question: "Why does the air near the ceiling of a room feel warmer than the air near the floor?",
+      options: ["Heat moves by radiation", "Hot air is more dense", "Hot air rises by convection", "The floor is an insulator"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Warm air is less dense and rises to the top of the room.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these does NOT require a medium (matter) to travel?",
+      options: ["Conduction", "Convection", "Radiation", "Sound"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Radiation travels as electromagnetic waves and can pass through a vacuum.",
+    ),
+
+    QuizQuestion(
+      question: "If you place a plastic spoon and a metal spoon in boiling water, which one stays cooler?",
+      options: ["The metal spoon", "The plastic spoon", "Both stay the same", "The metal spoon melts"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Plastic is an insulator and conducts heat much more slowly than metal.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "Shadows are direct evidence that light travels in what way?",
+      options: ["In circles", "In straight lines", "In wavy patterns", "It doesn't travel"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Shadows form because light cannot bend around objects; it travels straight until it is blocked.",
+    ),
+
+    QuizQuestion(
+      question: "What happens to light when it undergoes 'Regular Reflection'?",
+      options: ["It disappears", "It bends into water", "It bounces off a smooth surface", "It turns into a rainbow"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Regular reflection occurs on smooth surfaces, allowing us to see images.",
+    ),
+
+    QuizQuestion(
+      question: "Why does a straw in a glass of water look bent?",
+      options: ["The straw is soft", "Reflection of light", "Refraction of light", "The water is dirty"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Light bends as it moves from the water to the air, making the straw appear shifted.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these is NOT a characteristic of light?",
+      options: ["It travels in straight lines", "It can be reflected", "It travels slower than sound", "It can be refracted"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Light is actually much faster than sound—it is the fastest thing in the universe!",
+    ),
+
+    QuizQuestion(
+      question: "What is 'Diffuse Reflection'?",
+      options: ["Light bouncing off a mirror", "Light bouncing off a rough surface", "Light passing through glass", "Light turning into heat"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Rough surfaces scatter light in many directions, which is why they don't show reflections.",
+    ),
+
+    QuizQuestion(
+      question: "According to the law of reflection, the angle of incidence is _______ the angle of reflection.",
+      options: ["Greater than", "Less than", "Equal to", "Twice as much as"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Reflection is symmetrical; the incoming and outgoing angles are always the same.",
+    ),
+
+    QuizQuestion(
+      question: "When light moves from air into a thick glass block, what happens to its speed?",
+      options: ["It speeds up", "It stays the same", "It slows down", "It stops completely"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Light moves slower in denser materials like glass compared to air.",
+    ),
+
+    QuizQuestion(
+      question: "Which property of light is used in the design of periscopes used in submarines?",
+      options: ["Refraction", "Reflection", "Dispersion", "Absorption"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Periscopes use mirrors to reflect light so you can see objects that are not in your direct line of sight.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these can travel through a vacuum?",
+      options: ["Sound", "Water waves", "Light", "Vibrations"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Light is an electromagnetic wave and does not need a medium to travel.",
+    ),
+
+    QuizQuestion(
+      question: "A person who wears glasses is using which property of light to see better?",
+      options: ["Reflection", "Rectilinear Propagation", "Refraction", "Shadows"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Lenses in glasses bend (refract) light to focus it correctly on the eye's retina.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What happens to white light when it passes through a glass prism?",
+      options: ["It turns black", "It travels faster", "It disperses into colors", "It stops moving"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The prism refracts the light at different angles, causing it to split.",
+    ),
+
+    QuizQuestion(
+      question: "Which color is the 'G' in the middle of ROYGBIV?",
+      options: ["Grey", "Gold", "Green", "Garnet"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Green is the central color of the visible spectrum.",
+    ),
+
+    QuizQuestion(
+      question: "Why does dispersion occur in a prism?",
+      options: ["Different colors bend at different angles", "The glass is painted with colors", "The light gets hot and changes color", "The prism reflects the light away"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Refraction depends on wavelength; different colors bend by different amounts.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these is the correct order of the first three colors?",
+      options: ["Red, Yellow, Orange", "Red, Orange, Yellow", "Yellow, Red, Orange", "Orange, Red, Yellow"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Following ROYGBIV, the order is Red, then Orange, then Yellow.",
+    ),
+
+    QuizQuestion(
+      question: "What is the color that appears between Blue and Violet?",
+      options: ["Green", "Yellow", "Indigo", "Red"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'I' stands for Indigo, the deep purplish-blue color.",
+    ),
+
+    QuizQuestion(
+      question: "In the sky, a rainbow forms when sunlight hits what?",
+      options: ["Dust particles", "Air molecules", "Raindrops", "Airplanes"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Raindrops act as individual prisms that refract and disperse light.",
+    ),
+
+    QuizQuestion(
+      question: "Which color of light is bent the LEAST by a prism?",
+      options: ["Violet", "Blue", "Red", "Green"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Red light has the longest wavelength and bends the least during refraction.",
+    ),
+
+    QuizQuestion(
+      question: "If you mix all seven colors of the spectrum back together, what color do you get?",
+      options: ["Black", "White", "Brown", "Grey"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "White light is the combination of all visible colors; mixing them back creates white light again.",
+    ),
+
+    QuizQuestion(
+      question: "The triangular glass tool used to demonstrate dispersion is called a ________.",
+      options: ["Lens", "Mirror", "Prism", "Filter"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A prism is the standard scientific tool for dispersing light.",
+    ),
+
+    QuizQuestion(
+      question: "Why can't we see a rainbow on a completely clear, dry day?",
+      options: ["The sun is too bright", "There are no water droplets to disperse light", "The sky is too blue", "Light travels too fast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dispersion in the atmosphere requires raindrops to act as prisms.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What is the primary source of energy in a thermal power plant?",
+      options: ["Splitting atoms", "Falling water", "Fossil fuels", "Sunlight"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Thermal plants burn fossil fuels like oil and gas.",
+    ),
+
+    QuizQuestion(
+      question: "Which process involves joining two small atoms to release energy?",
+      options: ["Nuclear fusion", "Nuclear fission", "Thermal burning", "Gas evaporation"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Fusion is the process of combining or joining atoms.",
+    ),
+
+    QuizQuestion(
+      question: "In a power plant, what does the high-pressure steam directly turn?",
+      options: ["The fuel tank", "The generator", "The light bulb", "The turbine"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Steam hits the blades of the turbine to make it spin.",
+    ),
+
+    QuizQuestion(
+      question: "Where is the energy stored in a nuclear power plant?",
+      options: ["In the water", "In the nucleus", "In the steam", "In the smoke"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Nuclear energy comes from the center (nucleus) of the atom.",
+    ),
+
+    QuizQuestion(
+      question: "Which of the following is NOT a fossil fuel used for thermal power?",
+      options: ["Crude oil", "Natural gas", "Uranium", "Coal"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Uranium is a nuclear fuel, not a fossil fuel.",
+    ),
+
+    QuizQuestion(
+      question: "What is 'Nuclear Fission'?",
+      options: ["Burning gas", "Splitting atoms", "Cooling steam", "Boiling water"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Fission specifically refers to the splitting of a heavy nucleus.",
+    ),
+
+    QuizQuestion(
+      question: "How is the heat created in a thermal power plant?",
+      options: ["Friction", "Combustion", "Sunlight", "Magnets"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Combustion is the scientific word for burning fuel.",
+    ),
+
+    QuizQuestion(
+      question: "Which machine is common to both thermal and nuclear power plants?",
+      options: ["Nuclear reactor", "Coal furnace", "Gas pipeline", "Steam turbine"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Both systems use steam to turn a turbine.",
+    ),
+
+    QuizQuestion(
+      question: "Which Ghanaian city is closest to a major thermal power plant?",
+      options: ["Tamale", "Takoradi", "Bolgatanga", "Sunyani"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Aboadze plant is located near Takoradi in the Western Region.",
+    ),
+
+    QuizQuestion(
+      question: "Why isn't electricity considered a 'free' resource like air?",
+      options: ["It is invisible", "It is dangerous", "It is man-made", "It is very heavy"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Human effort and resources are needed to generate electricity.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What is the result of hot water being released into a body of water from a power plant?",
+      options: ["Acid rain", "Global warming", "Thermal pollution", "Radioactive decay"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Thermal pollution is the harmful increase in water temperature.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these is a long-term effect of increased Carbon Dioxide in the atmosphere?",
+      options: ["Cleaner air", "Climate change", "Faster fish growth", "Stronger metal roofs"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "CO2 traps heat, leading to changes in global weather patterns.",
+    ),
+
+    QuizQuestion(
+      question: "Why must nuclear waste be buried in special containers?",
+      options: ["To keep it warm", "Because it is very heavy", "To prevent radiation leaks", "To turn it into oil"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Containers prevent the dangerous radioactive material from reaching the environment.",
+    ),
+
+    QuizQuestion(
+      question: "Which energy source does NOT contribute to air pollution?",
+      options: ["Coal", "Crude oil", "Wind", "Natural gas"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Wind turbines do not burn fuel or release gases.",
+    ),
+
+    QuizQuestion(
+      question: "How does smoke from thermal plants affect people with respiratory issues?",
+      options: ["It helps them breathe better", "It makes their skin change color", "It can trigger asthma attacks", "It makes them much stronger"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Fine particles in smoke are dangerous for those with lung conditions.",
+    ),
+
+    QuizQuestion(
+      question: "What does 'Energy Efficiency' mean?",
+      options: ["Using as much power as possible", "Using less energy to do the same task", "Moving a power plant to a new city", "Burning more coal to make more heat"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Efficiency is about reducing waste while getting the job done.",
+    ),
+
+    QuizQuestion(
+      question: "Which of the following can help remove Carbon Dioxide from the air?",
+      options: ["Tall chimneys", "Planting trees", "Plastic bottles", "Burning more gas"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Trees absorb CO2 during photosynthesis.",
+    ),
+
+    QuizQuestion(
+      question: "Acid rain is primarily caused by which form of electricity generation?",
+      options: ["Solar power", "Wind power", "Thermal power", "Hydro power"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Burning fossil fuels releases the sulfur and nitrogen compounds that form acid rain.",
+    ),
+
+    QuizQuestion(
+      question: "Which Ghanaian region is most likely to experience the effects of thermal pollution in the sea?",
+      options: ["Northern Region", "Ashanti Region", "Western Region", "Bono Region"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Major thermal plants like Aboadze are on the coast in the Western Region.",
+    ),
+
+    QuizQuestion(
+      question: "What is the best description of a 'Greenhouse Gas'?",
+      options: ["Gas that smells like flowers", "Gas that helps cool the Earth", "Gas that traps heat in the air", "Gas found only inside greenhouses"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "These gases act like the glass of a greenhouse, trapping solar heat.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What is the main function of a P-N junction diode?",
+      options: ["To store electrical energy", "To allow flow in one direction", "To turn the circuit on and off", "To change electricity into heat"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Diodes ensure current only moves in one specific direction.",
+    ),
+
+    QuizQuestion(
+      question: "When assembling a circuit, what does 'Anode' refer to?",
+      options: ["The positive side of the LED", "The negative side of the LED", "The plastic cover of the wire", "The metal casing of the switch"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Anode is the scientific name for the positive terminal of the LED.",
+    ),
+
+    QuizQuestion(
+      question: "Which component stores a charge and can discharge it later?",
+      options: ["Resistor", "Inductor", "Capacitor", "Diode"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Capacitors store small amounts of electrical energy temporarily.",
+    ),
+
+    QuizQuestion(
+      question: "What color is the negative (Cathode) leg of most standard LEDs?",
+      options: ["It is the longer leg", "It is the shorter leg", "It is the colored leg", "It is the thicker leg"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The shorter leg is always the negative terminal on a new LED.",
+    ),
+
+    QuizQuestion(
+      question: "A switch that is 'Closed' means the circuit is:",
+      options: ["Broken and light is off", "Broken and light is on", "Complete and light is off", "Complete and light is on"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A 'closed' switch means the metal parts are touching, allowing power to flow.",
+    ),
+
+    QuizQuestion(
+      question: "Why do we use copper wires to connect components in Ghana?",
+      options: ["Copper is a good insulator", "Copper is a good conductor", "Copper is the cheapest metal", "Copper comes in many colors"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Conductors allow electricity to flow through them easily.",
+    ),
+
+    QuizQuestion(
+      question: "What is the symbol for a resistor in a circuit diagram?",
+      options: ["A straight line with a circle", "A zigzag line or a rectangle", "A triangle pointing at a bar", "Two parallel lines of same size"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A zigzag line represents the 'resistance' or difficulty electricity faces.",
+    ),
+
+    QuizQuestion(
+      question: "If an LED is connected with the short leg to the positive terminal, what happens?",
+      options: ["The LED will explode", "The LED will be very dim", "The LED will not light up", "The LED will change colors"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "LEDs only work when connected with the correct polarity (forward bias).",
+    ),
+
+    QuizQuestion(
+      question: "Which part of the circuit provides the 'push' (Voltage) for the electrons?",
+      options: ["The connecting wire", "The plastic switch", "The electronic LED", "The dry cell battery"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The battery is the power source that pushes current through the circuit.",
+    ),
+
+    QuizQuestion(
+      question: "To get 3V from 1.5V batteries, how must they be arranged?",
+      options: ["Side by side (Parallel)", "One after another (Series)", "Facing opposite directions", "Connected by only one wire"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Connecting cells in series adds their voltages together.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What happens to an LED’s brightness if you add a second resistor in series?",
+      options: ["It gets much brighter", "It stays exactly the same", "It becomes dimmer", "It starts to flicker"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "More resistance means less current can reach the LED.",
+    ),
+
+    QuizQuestion(
+      question: "Which component is responsible for providing the initial energy?",
+      options: ["The LED", "The Switch", "The Resistor", "The Battery"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The battery is the power source for the circuit.",
+    ),
+
+    QuizQuestion(
+      question: "If a circuit is 'Forward Biased,' it means:",
+      options: ["The battery is connected correctly to the diode", "The switch is stuck in the open position", "The resistor has been removed completely", "The LED is facing the wrong direction"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Forward bias allows current to flow through a diode or LED.",
+    ),
+
+    QuizQuestion(
+      question: "What is the main function of a Switch?",
+      options: ["To increase the voltage of the battery", "To protect the LED from overheating", "To change the color of the light", "To complete or break the electrical path"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A switch controls the continuity of the circuit.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these components converts electrical energy into light energy?",
+      options: ["Resistor", "Capacitor", "LED", "Diode"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Light Emitting Diodes are designed to produce light.",
+    ),
+
+    QuizQuestion(
+      question: "What is 'Interdependence' in an electronic circuit?",
+      options: ["Components working alone", "Components needing each other to function", "A circuit that has no battery", "Using only one type of component"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "It refers to the mutual reliance of all parts in the system.",
+    ),
+
+    QuizQuestion(
+      question: "Why might an engineer use a Resistor in a torch?",
+      options: ["To make the torch as heavy as possible", "To prevent the LED from burning out", "To turn the torch into a radio", "To make the battery get hotter"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Resistors limit current to a safe level for the LED.",
+    ),
+
+    QuizQuestion(
+      question: "If the LED is connected backward, the circuit is said to be in:",
+      options: ["Forward bias", "Neutral bias", "Reverse bias", "Maximum bias"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Reverse bias blocks the flow of electricity.",
+    ),
+
+    QuizQuestion(
+      question: "Which part is the 'Indicator' that the circuit is working?",
+      options: ["The Switch", "The Resistor", "The Wire", "The LED"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The light from the LED indicates the circuit is complete.",
+    ),
+
+    QuizQuestion(
+      question: "What is the effect of a 'Dead' battery on the switch?",
+      options: ["The switch will no longer move", "The switch will start to spark", "The switch works but no light appears", "The switch becomes a resistor"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The switch still functions mechanically, but there is no energy to move.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "What is the value of a resistor with Red, Red, Black stripes (Red=2, Black=x1)?",
+      options: ["220 Ohms", "22 Ohms", "200 Ohms", "2 Ohms"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "2 and 2 followed by no zeros (x1) equals 22 Ohms.",
+    ),
+
+    QuizQuestion(
+      question: "Which component is best described as a 'coil of insulated wire'?",
+      options: ["Capacitor", "Diode", "Resistor", "Inductor"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The physical form of an inductor is a coil or 'solenoid.'",
+    ),
+
+    QuizQuestion(
+      question: "In the resistor color code, what digit does the color 'Black' represent?",
+      options: ["0", "1", "5", "9"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Black is the starting color of the code, representing zero.",
+    ),
+
+    QuizQuestion(
+      question: "What happens when a diode is placed in 'Forward Bias' in a circuit?",
+      options: ["The battery explodes", "The current is blocked", "The current flows freely", "The wire turns into a magnet"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Forward bias is the correct orientation for current flow.",
+    ),
+
+    QuizQuestion(
+      question: "Why is the inductor useful in a radio circuit?",
+      options: ["It makes the radio louder", "It changes the light's color", "It smooths the current", "It stores chemical energy"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Inductors resist sudden changes, helping to stabilize the signal.",
+    ),
+
+    QuizQuestion(
+      question: "A resistor with a very high Ohm value will do what to an LED?",
+      options: ["Make it shine very bright", "Change it to a diode", "Make it very dim", "Charge the LED's battery"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "High resistance significantly reduces current flow.",
+    ),
+
+    QuizQuestion(
+      question: "Which of these is the symbol for the unit of resistance (Ohms)?",
+      options: ["$\\Omega$", "$\\infty$", "$\\Delta$", "$\\pi$"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The Greek letter Omega is the standard symbol for Ohms.",
+    ),
+
+    QuizQuestion(
+      question: "If you see a silver ring on a black component, you are looking at a:",
+      options: ["Resistor", "Battery", "Diode", "Switch"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The ring is the standard marking for a diode's cathode.",
+    ),
+
+    QuizQuestion(
+      question: "What is 'Tolerance' in a resistor?",
+      options: ["The weight of the resistor", "The percentage of error", "The length of the wires", "The color of the smoke"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Tolerance tells us how close the actual resistance is to the coded value.",
+    ),
+
+    QuizQuestion(
+      question: "Which component would you use to create a magnetic field for a school project?",
+      options: ["A switch", "A resistor", "An LED", "An inductor"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Inductors are specifically designed to create and use magnetic fields.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
   questions: [

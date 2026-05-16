@@ -4612,6 +4612,227 @@ final PracticeModel Scijhs1s3ss4Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs1s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A dry cell battery is sitting inside a radio that is switched off. What form of energy is stored inside the battery?",
+      answer: "Correct Answer: Chemical Energy.",
+      explanation: "Explanation: Batteries store energy in a chemical form. Even though the radio is off, the energy is waiting inside the chemicals of the dry cell to be used.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A student is playing a loud Fontomfrom drum during a festival. What form of energy is being produced by the vibrations of the drum?",
+      answer: "Correct Answer: Sound Energy.",
+      explanation: "Explanation: When the drum skin is hit, it vibrates. Those vibrations move through the air as sound energy.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A ripe mango is hanging high up on a branch in a garden in Kumasi. It is not moving. What specific type of energy does it have?",
+      answer: "Correct Answer: Potential Energy.",
+      explanation: "Explanation: Because the mango is high above the ground and at rest, it has energy stored up due to its position. We call this Potential Energy.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which of these factors would increase the Potential Energy of a bucket of water sitting on a wall?",
+      answer: "Correct Answer: Increasing the height of the wall.",
+      explanation: "Explanation: PE is directly related to height. If you move the bucket higher up, it stores more energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A television in a house in Kumasi is turned on. What is the main form of energy it provides so you can hear the news?",
+      answer: "Correct Answer: Sound Energy.",
+      explanation: "Explanation: While a TV shows light, its speakers produce sound energy through vibrations so we can listen.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does a fast-moving car have more Kinetic Energy than the same car moving slowly?",
+      answer: "Correct Answer: Because of its velocity (speed).",
+      explanation: "Explanation: For the same object, more speed always means more Kinetic Energy.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A stone with a mass of 2kg is sitting on a wall that is 3 metres high. Calculate its Potential Energy. (Take g = 10).",
+      answer: "Correct Answer: 60 Joules.",
+      explanation: "Explanation: Multiply m x g x h. That is 2 x 10 x 3. Two times ten is 20, and 20 times three is 60.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A small toy car with a mass of 4kg is moving at a speed of 3m/s. Calculate its Kinetic Energy.",
+      answer: "Correct Answer: 18 Joules.",
+      explanation: "Explanation: First, square the speed: 3 x 3 = 9. Multiply by mass: 4 x 9 = 36. Then take half: 36 ÷ 2 = 18.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If you double the height of an object, what happens to its Potential Energy?",
+      answer: "Correct Answer: It doubles.",
+      explanation: "Explanation: Because PE is m x g x h, if you multiply the height by 2, the total energy also multiplies by 2.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are stirring a hot pot of groundnut soup with a metal spoon and the handle becomes too hot to touch. Which process is this?",
+      answer: "Correct Answer: Conduction.",
+      explanation: "Explanation: Heat is traveling directly through the solid metal of the spoon from the hot soup to your hand.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You see the \"wavy\" air rising above a hot tar road in Accra at midday. What process is causing the air to move upward?",
+      answer: "Correct Answer: Convection.",
+      explanation: "Explanation: The air near the hot road becomes heated, gets lighter, and rises. This movement of air is convection.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does a silver-colored vacuum flask keep tea hot for a long time?",
+      answer: "Correct Answer: It reflects radiation.",
+      explanation: "Explanation: The shiny, silver surface reflects heat waves back inside the flask, preventing heat from escaping through radiation.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are standing under a big Baobab tree on a sunny day and you see a dark shape on the ground that looks just like you. Which property explains this?",
+      answer: "Correct Answer: Straight-line travel (Rectilinear Propagation).",
+      explanation: "Explanation: Your body blocks the straight path of the sun's rays, creating a shadow because light cannot curve around you.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You look into a calm pond in the village and see the clouds in the sky on the surface of the water. What is happening?",
+      answer: "Correct Answer: Reflection.",
+      explanation: "Explanation: The smooth surface of the water acts like a mirror, bouncing the light from the clouds back to your eyes.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You drop a Cedi coin into a bucket of water. When you look from the side, the coin looks like it is floating higher than the bottom of the bucket. Why?",
+      answer: "Correct Answer: Refraction.",
+      explanation: "Explanation: The light coming from the coin bends as it leaves the water and enters the air, making the coin appear closer to the surface.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which color of the light spectrum bends the most when it passes through a prism?",
+      answer: "Correct Answer: Violet.",
+      explanation: "Explanation: Violet has the shortest wavelength and experiences the most refraction, placing it at the bottom of the spectrum.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the name of the mnemonic (the short name) we use to remember the seven colors?",
+      answer: "Correct Answer: ROYGBIV.",
+      explanation: "Explanation: It stands for Red, Orange, Yellow, Green, Blue, Indigo, and Violet.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In a rainbow, which color do you expect to see on the very outer (top) edge?",
+      answer: "Correct Answer: Red.",
+      explanation: "Explanation: Red light bends the least, so it always appears at the top or outer edge of the arc.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Describe the role of 'steam' in both thermal and nuclear power plants.",
+      answer: "Correct Answer: Steam is used to turn the turbines which drive the generators.",
+      explanation: "Explanation: In both systems, heat is used to boil water. The resulting steam provides the physical force needed to spin the turbine.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the main difference between nuclear fission and nuclear fusion?",
+      answer: "Correct Answer: Fission is splitting atoms, while fusion is joining them together.",
+      explanation: "Explanation: Both processes release energy from the nucleus, but they work in opposite ways.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why are fuels like natural gas or crude oil necessary in a thermal plant?",
+      answer: "Correct Answer: They are burned to provide the heat energy needed to boil water.",
+      explanation: "Explanation: Without the fuel, there is no heat, no steam, and therefore no electricity.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A farmer notices that the metal roof of his shed is rusting very quickly and his crops look burnt after a heavy rain near a coal plant. What is likely happening?",
+      answer: "Correct Answer: Acid Rain.",
+      explanation: "Explanation: Gases from the plant mix with rainwater to create acid, which corrodes metal and damages plants.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it dangerous if a nuclear waste container leaks into the ground?",
+      answer: "Correct Answer: The radioactive material can poison the soil and the groundwater for a very long time.",
+      explanation: "Explanation: Radioactive waste is toxic to all life forms and remains active for thousands of years.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does 'Thermal Pollution' affect the fishermen in a local Ghanaian village?",
+      answer: "Correct Answer: The warm water pumped into the sea kills fish or drives them away, making it hard to catch food.",
+      explanation: "Explanation: Hot water holds less oxygen, which fish need to survive.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You see a small component with two legs. One leg is 5mm longer than the other. What is this component?",
+      answer: "Correct Answer: An LED (Light Emitting Diode).",
+      explanation: "Explanation: The different leg lengths are used to identify the positive and negative sides of an LED.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you want to make sure electricity only flows toward a motor and never backward, which component should you use?",
+      answer: "Correct Answer: A P-N Junction Diode.",
+      explanation: "Explanation: Diodes act as one-way valves for electrical current.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why do we put a switch in our circuit instead of just taping the wires to the battery?",
+      answer: "Correct Answer: To allow us to turn the circuit on and off and save battery life.",
+      explanation: "Explanation: A switch creates a gap in the circuit to stop the flow of electricity when it is not needed.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are building a circuit and you notice the LED is very, very dim, which component might you change to make it brighter?",
+      answer: "Correct Answer: Use a resistor with a lower value (less resistance).",
+      explanation: "Explanation: A lower resistor allows more electrical current to flow to the LED, increasing its brightness.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What happens to the flow of electricity if the P-N junction diode is placed in 'Reverse Bias' (connected backward)?",
+      answer: "Correct Answer: The electricity stops flowing completely.",
+      explanation: "Explanation: A diode in reverse bias acts as an insulator and blocks the current.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If the switch is 'Closed' but the LED still does not light up, give one possible reason related to the battery.",
+      answer: "Correct Answer: The battery might be 'dead' or have no chemical energy left.",
+      explanation: "Explanation: Without the power source (the heart), no current can be pushed through the components.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS2 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You find a resistor with the bands: Yellow, Violet, and Brown. Using the code (Yellow=4, Violet=7, Brown=x10), what is its value?",
+      answer: "Correct Answer: 470 Ohms.",
+      explanation: "Explanation: 4 and 7 make 47, and multiplying by 10 (one zero) gives us 470.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Esi sees a component that is a simple coil of copper wire. When she puts a compass near it while power is on, the needle moves. What is this component?",
+      answer: "Correct Answer: An Inductor.",
+      explanation: "Explanation: Inductors are coils of wire that create magnetic fields when electricity passes through them.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A technician wants to protect a radio so that it doesn't break if the user puts the 'Tiger' batteries in backward. Which component should he use?",
+      answer: "Correct Answer: A Diode (P-N Junction Diode).",
+      explanation: "Explanation: The diode will block current if the battery polarity is reversed.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
