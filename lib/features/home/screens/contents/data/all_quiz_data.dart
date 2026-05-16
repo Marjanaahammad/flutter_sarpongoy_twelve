@@ -21907,7 +21907,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
 
     QuizQuestion(
       question: "Which of these is the symbol for the unit of resistance (Ohms)?",
-      options: ["$\\Omega$", "$\\infty$", "$\\Delta$", "$\\pi$"],
+      options: ["Omega", "infty", "Delta", "pi"],
       correctIndex: 0,
       difficulty: "Low",
       explanation: "The Greek letter Omega is the standard symbol for Ohms.",
