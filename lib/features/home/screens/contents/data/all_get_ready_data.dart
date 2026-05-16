@@ -1480,9 +1480,9 @@ final GetReadyModel SciJHS3s3ss1Lesson3GetReadyData = GetReadyModel(
   hookAudioPath: 'assets/audio/science/JHS3 S3 SS1 L3/2. Hook.m4a',
 );
 final GetReadyModel SciJHS3s3ss1Lesson4GetReadyData = GetReadyModel(
-  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S3 SS1 L4/student_overview.jpg',
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S3 SS1 L4/student_overview .jpg',
   overviewAudioPath: 'assets/audio/science/JHS3 S3 SS1 L4/1. Chapter 1.m4a',
-  hookImagePath: 'assets/images/science/SCIENCE JHS3 S3 SS1 L4/hook.jpg',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S3 SS1 L4/hook .jpg',
   hookAudioPath: 'assets/audio/science/JHS3 S3 SS1 L4/2. Hook.m4a',
 );
 final GetReadyModel SciJHS3s3ss1Lesson5GetReadyData = GetReadyModel(
