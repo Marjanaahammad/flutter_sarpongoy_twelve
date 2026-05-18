@@ -919,6 +919,16 @@ class SidebarController extends GetxController {
                 "FORMS OF ELECTRICITY GENERATION", "IMPACT OF ELECTRICITY GENERATION ON THE ENVIRONMENT","ASSEMBLING BASIC ELECTRONIC COMPONENTS",
                 "COMPONENT FUNCTIONS AND INTERDEPENDENCE", "ADVANCED COMPONENT FUNCTIONS (RESISTORS, DIODES, AND INDUCTORS)"
               ],
+            },{
+              "subtitle": "CONVERSION AND CONSERVATION OF ENERGY",
+              "topics": [
+                "The Principle of Conservation and Conversion of Energy", "Everyday Conversion of Energy into Useable Forms","Conserving Energy for the Future"
+              ],
+            },{
+              "subtitle": "FORCE AND MOTION",
+              "topics": [
+                "Unbalanced Forces and Inertia", "Newton’s First Law of Motion","Applications of Newton’s First Law"
+              ],
             },
           ],
         },
@@ -2775,6 +2785,60 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs1s4ss2Lesson5PracticeData;
                 independentPracticeData = Scijhs1s4ss2Lesson5IndependentQuizData;
                 quizData = Scijhs1s4ss2Lesson5QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s4ss3Lesson1GetReadyData;
+                learnData = Scijh1s4ss3Lesson1LearnData;
+                practiceData = Scijhs1s4ss3Lesson1PracticeData;
+                independentPracticeData = Scijhs1s4ss3Lesson1IndependentQuizData;
+                quizData = Scijhs1s4ss3Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s4ss3Lesson2GetReadyData;
+                learnData = Scijh1s4ss3Lesson2LearnData;
+                practiceData = Scijhs1s4ss3Lesson2PracticeData;
+                independentPracticeData = Scijhs1s4ss3Lesson2IndependentQuizData;
+                quizData = Scijhs1s4ss3Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS1s4ss3Lesson3GetReadyData;
+                learnData = Scijh1s4ss3Lesson3LearnData;
+                practiceData = Scijhs1s4ss3Lesson3PracticeData;
+                independentPracticeData = Scijhs1s4ss3Lesson3IndependentQuizData;
+                quizData = Scijhs1s4ss3Lesson3QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s4ss4Lesson1GetReadyData;
+                learnData = Scijh1s4ss4Lesson1LearnData;
+                practiceData = Scijhs1s4ss4Lesson1PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson1IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s4ss4Lesson2GetReadyData;
+                learnData = Scijh1s4ss4Lesson2LearnData;
+                practiceData = Scijhs1s4ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson2IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS1s4ss4Lesson3GetReadyData;
+                learnData = Scijh1s4ss4Lesson3LearnData;
+                practiceData = Scijhs1s4ss4Lesson3PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson3IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson3QuizData;
               }
               if (grade == "JHS 2" &&
                   courseTitle == "Science" &&

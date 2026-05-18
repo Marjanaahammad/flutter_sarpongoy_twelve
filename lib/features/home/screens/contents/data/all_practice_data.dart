@@ -4831,6 +4831,126 @@ final PracticeModel Scijhs1s4ss2Lesson5PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs1s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: When a dry cell is connected to a bulb in a circuit, what is the very first form of energy present?",
+      answer: "Correct Answer: Chemical Energy.",
+      explanation: "Explanation: The energy is stored within the chemicals inside the battery before the switch is even turned on.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In the torch example, why does the bulb feel warm after being on for five minutes?",
+      answer: "Correct Answer: Because some electrical energy converts to heat energy.",
+      explanation: "Explanation: Not all electricity turns into light; some of it always turns into heat energy as it passes through the bulb.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If you start with 10 units of chemical energy, how much total energy (light + heat) will you have at the end?",
+      answer: "Correct Answer: Exactly 10 units.",
+      explanation: "Explanation: According to the Law of Conservation, the total amount of energy must remain the same.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: When you use a gas stove to fry plantains, what is the primary energy conversion?",
+      answer: "Correct Answer: Chemical energy to Heat energy.",
+      explanation: "Explanation: The gas (LPG) contains chemical energy which turns into heat when it burns.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A student is shouting to a friend across the school compound. What conversion is happening in the student's throat?",
+      answer: "Correct Answer: Mechanical energy to Sound energy.",
+      explanation: "Explanation: The movement of vocal cords (mechanical) creates the sound waves (sound).",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What energy conversion makes a hair dryer work?",
+      answer: "Correct Answer: Electrical to Heat and Mechanical.",
+      explanation: "Explanation: It uses electricity to create heat (to dry hair) and motion (to blow air).",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are leaving the classroom for break time. What is the most responsible thing to do with the lights?",
+      answer: "Correct Answer: Switch them off immediately.",
+      explanation: "Explanation: Leaving lights on in an empty room is a waste of useable energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does the Ghana Energy Commission put star ratings on refrigerators?",
+      answer: "Correct Answer: To show how efficiently they use electricity.",
+      explanation: "Explanation: It helps people choose appliances that do the work without wasting power.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does using a bicycle instead of a car for a short trip help the environment?",
+      answer: "Correct Answer: it saves chemical energy (petrol).",
+      explanation: "Explanation: Bicycles use your own mechanical energy instead of burning expensive fuel.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A boy is running very fast and tries to stop suddenly at a line drawn in the dirt. Why does his body tend to lean across the line?",
+      answer: "Correct Answer: His body has inertia. Because he was already moving, his body wants to keep moving forward even though his feet are trying to stop.",
+      explanation: "Explanation: This is a perfect example of inertia of motion. The unbalanced force from his feet on the ground stops his base, but his upper body resists that change.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You try to push a heavy wooden crate, but it doesn't budge. Are the forces balanced or unbalanced?",
+      answer: "Correct Answer: The forces are balanced.",
+      explanation: "Explanation: Since the crate’s state of rest did not change, the force of your push is being cancelled out by the friction of the floor. There is no net force to overcome the crate's inertia.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A piece of paper is lying on a table. Suddenly, a strong wind blows it away. What provided the unbalanced force?",
+      answer: "Correct Answer: The wind provided the unbalanced force.",
+      explanation: "Explanation: The paper wanted to stay at rest due to inertia. The wind provided a force strong enough to overcome the friction and gravity holding it down.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A girl is carrying a tray of iced kenkey on her head. She starts walking forward suddenly, and some of the bottles slide toward the back of the tray. Which part of the law is this?",
+      answer: "Correct Answer: Objects at rest stay at rest.",
+      explanation: "Explanation: The bottles were at rest. When the tray moved forward, the bottles' inertia tried to keep them in the same spot in space, making them slide 'backward' relative to the moving tray.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are riding a bicycle on a flat road. You stop pedalling, but the bike keeps rolling for a long time. Why?",
+      answer: "Correct Answer: Objects in motion stay in motion.",
+      explanation: "Explanation: Your bike has inertia. It wants to keep moving at that speed. It only slows down eventually because of the external forces of friction and air resistance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A heavy fufu mortar sits in the kitchen. It hasn't moved in three days. Why?",
+      answer: "Correct Answer: There is no unbalanced force acting on it.",
+      explanation: "Explanation: Gravity is pulling it down, and the floor is pushing it up. These forces are balanced, so the mortar stays at rest according to Newton's Law.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A taxi driver has a loose air freshener bottle on the dashboard. He speeds up quickly from a traffic light. Which way does the bottle move?",
+      answer: "Correct Answer: The bottle appears to move backward toward the driver.",
+      explanation: "Explanation: The bottle was at rest. Due to inertia, it wants to stay at rest. As the car moves forward, the bottle stays in its original spot until it hits the back of the dash.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it dangerous for children to stand up in a moving school bus?",
+      answer: "Correct Answer: If the bus stops suddenly, their bodies will keep moving forward.",
+      explanation: "Explanation: Because they are standing and not 'fixed' to the bus by a seat or belt, their inertia will carry them forward, likely causing them to fall or hit a seat.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A truck carrying bags of cocoa beans turns a sharp corner. Why do the bags on top sometimes slide off to the side?",
+      answer: "Correct Answer: The bags are trying to keep moving in a straight line.",
+      explanation: "Explanation: The truck is turning, but the bags' inertia makes them want to continue straight. If they aren't tied down, they will slide off the side of the truck.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',

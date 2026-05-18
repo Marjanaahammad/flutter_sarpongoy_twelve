@@ -21270,7 +21270,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What is the term for a material that does NOT allow heat to pass through it easily?",
+      question: "1. What is the term for a material that does NOT allow heat to pass through it easily?",
       options: ["Insulator", "Conductor", "Radiator", "Metal"],
       correctIndex: 0,
       difficulty: "Low",
@@ -21278,7 +21278,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which process involves the actual movement of warmed particles from one place to another?",
+      question: "2. Which process involves the actual movement of warmed particles from one place to another?",
       options: ["Radiation", "Conduction", "Convection", "Freezing"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21286,7 +21286,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "How does heat travel from the Sun to the Earth?",
+      question: "3. How does heat travel from the Sun to the Earth?",
       options: ["Conduction", "Convection", "Radiation", "Vibration"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21294,7 +21294,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why do we use aluminium to make cooking pots?",
+      question: "4. Why do we use aluminium to make cooking pots?",
       options: ["It is a good insulator", "It is a good conductor", "It is very soft", "It blocks the fire"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21302,7 +21302,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "When you burn your finger by touching a hot iron, which process occurred?",
+      question: "5. When you burn your finger by touching a hot iron, which process occurred?",
       options: ["Convection", "Radiation", "Conduction", "Insulation"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21310,7 +21310,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Land and sea breezes are examples of which heat transfer process?",
+      question: "6. Land and sea breezes are examples of which heat transfer process?",
       options: ["Conduction", "Radiation", "Convection", "Reflection"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21318,7 +21318,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which type of surface is the best absorber of radiated heat?",
+      question: "7. Which type of surface is the best absorber of radiated heat?",
       options: ["Shiny and white", "Dull and black", "Smooth and silver", "Clear and glass"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21326,7 +21326,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why does the air near the ceiling of a room feel warmer than the air near the floor?",
+      question: "8. Why does the air near the ceiling of a room feel warmer than the air near the floor?",
       options: ["Heat moves by radiation", "Hot air is more dense", "Hot air rises by convection", "The floor is an insulator"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21334,7 +21334,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these does NOT require a medium (matter) to travel?",
+      question: "9. Which of these does NOT require a medium (matter) to travel?",
       options: ["Conduction", "Convection", "Radiation", "Sound"],
       correctIndex: 2,
       difficulty: "Hard",
@@ -21342,7 +21342,7 @@ final QuizModel Scijhs1s4ss1Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If you place a plastic spoon and a metal spoon in boiling water, which one stays cooler?",
+      question: "10. If you place a plastic spoon and a metal spoon in boiling water, which one stays cooler?",
       options: ["The metal spoon", "The plastic spoon", "Both stay the same", "The metal spoon melts"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21354,7 +21354,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "Shadows are direct evidence that light travels in what way?",
+      question: "1. Shadows are direct evidence that light travels in what way?",
       options: ["In circles", "In straight lines", "In wavy patterns", "It doesn't travel"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21362,7 +21362,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What happens to light when it undergoes 'Regular Reflection'?",
+      question: "2. What happens to light when it undergoes 'Regular Reflection'?",
       options: ["It disappears", "It bends into water", "It bounces off a smooth surface", "It turns into a rainbow"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21370,7 +21370,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why does a straw in a glass of water look bent?",
+      question: "3. Why does a straw in a glass of water look bent?",
       options: ["The straw is soft", "Reflection of light", "Refraction of light", "The water is dirty"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21378,7 +21378,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these is NOT a characteristic of light?",
+      question: "4. Which of these is NOT a characteristic of light?",
       options: ["It travels in straight lines", "It can be reflected", "It travels slower than sound", "It can be refracted"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21386,7 +21386,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is 'Diffuse Reflection'?",
+      question: "5. What is 'Diffuse Reflection'?",
       options: ["Light bouncing off a mirror", "Light bouncing off a rough surface", "Light passing through glass", "Light turning into heat"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21394,7 +21394,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "According to the law of reflection, the angle of incidence is _______ the angle of reflection.",
+      question: "6. According to the law of reflection, the angle of incidence is _______ the angle of reflection.",
       options: ["Greater than", "Less than", "Equal to", "Twice as much as"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21402,7 +21402,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "When light moves from air into a thick glass block, what happens to its speed?",
+      question: "7. When light moves from air into a thick glass block, what happens to its speed?",
       options: ["It speeds up", "It stays the same", "It slows down", "It stops completely"],
       correctIndex: 2,
       difficulty: "Hard",
@@ -21410,7 +21410,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which property of light is used in the design of periscopes used in submarines?",
+      question: "8. Which property of light is used in the design of periscopes used in submarines?",
       options: ["Refraction", "Reflection", "Dispersion", "Absorption"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21418,7 +21418,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these can travel through a vacuum?",
+      question: "9. Which of these can travel through a vacuum?",
       options: ["Sound", "Water waves", "Light", "Vibrations"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21426,7 +21426,7 @@ final QuizModel Scijhs1s4ss1Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "A person who wears glasses is using which property of light to see better?",
+      question: "10. A person who wears glasses is using which property of light to see better?",
       options: ["Reflection", "Rectilinear Propagation", "Refraction", "Shadows"],
       correctIndex: 2,
       difficulty: "Hard",
@@ -21438,7 +21438,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What happens to white light when it passes through a glass prism?",
+      question: "1. What happens to white light when it passes through a glass prism?",
       options: ["It turns black", "It travels faster", "It disperses into colors", "It stops moving"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21446,7 +21446,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which color is the 'G' in the middle of ROYGBIV?",
+      question: "2. Which color is the 'G' in the middle of ROYGBIV?",
       options: ["Grey", "Gold", "Green", "Garnet"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21454,7 +21454,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why does dispersion occur in a prism?",
+      question: "3. Why does dispersion occur in a prism?",
       options: ["Different colors bend at different angles", "The glass is painted with colors", "The light gets hot and changes color", "The prism reflects the light away"],
       correctIndex: 0,
       difficulty: "Medium",
@@ -21462,7 +21462,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these is the correct order of the first three colors?",
+      question: "4. Which of these is the correct order of the first three colors?",
       options: ["Red, Yellow, Orange", "Red, Orange, Yellow", "Yellow, Red, Orange", "Orange, Red, Yellow"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21470,7 +21470,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is the color that appears between Blue and Violet?",
+      question: "5. What is the color that appears between Blue and Violet?",
       options: ["Green", "Yellow", "Indigo", "Red"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21478,7 +21478,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "In the sky, a rainbow forms when sunlight hits what?",
+      question: "6. In the sky, a rainbow forms when sunlight hits what?",
       options: ["Dust particles", "Air molecules", "Raindrops", "Airplanes"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21486,7 +21486,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which color of light is bent the LEAST by a prism?",
+      question: "7. Which color of light is bent the LEAST by a prism?",
       options: ["Violet", "Blue", "Red", "Green"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21494,7 +21494,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If you mix all seven colors of the spectrum back together, what color do you get?",
+      question: "8. If you mix all seven colors of the spectrum back together, what color do you get?",
       options: ["Black", "White", "Brown", "Grey"],
       correctIndex: 1,
       difficulty: "Hard",
@@ -21502,7 +21502,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "The triangular glass tool used to demonstrate dispersion is called a ________.",
+      question: "9. The triangular glass tool used to demonstrate dispersion is called a ________.",
       options: ["Lens", "Mirror", "Prism", "Filter"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21510,7 +21510,7 @@ final QuizModel Scijhs1s4ss1Lesson6QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why can't we see a rainbow on a completely clear, dry day?",
+      question: "10. Why can't we see a rainbow on a completely clear, dry day?",
       options: ["The sun is too bright", "There are no water droplets to disperse light", "The sky is too blue", "Light travels too fast"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21522,7 +21522,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L1/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What is the primary source of energy in a thermal power plant?",
+      question: "1. What is the primary source of energy in a thermal power plant?",
       options: ["Splitting atoms", "Falling water", "Fossil fuels", "Sunlight"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21530,7 +21530,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which process involves joining two small atoms to release energy?",
+      question: "2. Which process involves joining two small atoms to release energy?",
       options: ["Nuclear fusion", "Nuclear fission", "Thermal burning", "Gas evaporation"],
       correctIndex: 0,
       difficulty: "Medium",
@@ -21538,7 +21538,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "In a power plant, what does the high-pressure steam directly turn?",
+      question: "3. In a power plant, what does the high-pressure steam directly turn?",
       options: ["The fuel tank", "The generator", "The light bulb", "The turbine"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21546,7 +21546,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Where is the energy stored in a nuclear power plant?",
+      question: "4. Where is the energy stored in a nuclear power plant?",
       options: ["In the water", "In the nucleus", "In the steam", "In the smoke"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21554,7 +21554,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of the following is NOT a fossil fuel used for thermal power?",
+      question: "5. Which of the following is NOT a fossil fuel used for thermal power?",
       options: ["Crude oil", "Natural gas", "Uranium", "Coal"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21562,7 +21562,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is 'Nuclear Fission'?",
+      question: "6. What is 'Nuclear Fission'?",
       options: ["Burning gas", "Splitting atoms", "Cooling steam", "Boiling water"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21570,7 +21570,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "How is the heat created in a thermal power plant?",
+      question: "7. How is the heat created in a thermal power plant?",
       options: ["Friction", "Combustion", "Sunlight", "Magnets"],
       correctIndex: 1,
       difficulty: "High",
@@ -21578,7 +21578,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which machine is common to both thermal and nuclear power plants?",
+      question: "8. Which machine is common to both thermal and nuclear power plants?",
       options: ["Nuclear reactor", "Coal furnace", "Gas pipeline", "Steam turbine"],
       correctIndex: 3,
       difficulty: "Medium",
@@ -21586,7 +21586,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which Ghanaian city is closest to a major thermal power plant?",
+      question: "9. Which Ghanaian city is closest to a major thermal power plant?",
       options: ["Tamale", "Takoradi", "Bolgatanga", "Sunyani"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21594,7 +21594,7 @@ final QuizModel Scijhs1s4ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why isn't electricity considered a 'free' resource like air?",
+      question: "10. Why isn't electricity considered a 'free' resource like air?",
       options: ["It is invisible", "It is dangerous", "It is man-made", "It is very heavy"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21606,7 +21606,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What is the result of hot water being released into a body of water from a power plant?",
+      question: "1. What is the result of hot water being released into a body of water from a power plant?",
       options: ["Acid rain", "Global warming", "Thermal pollution", "Radioactive decay"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21614,7 +21614,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these is a long-term effect of increased Carbon Dioxide in the atmosphere?",
+      question: "2. Which of these is a long-term effect of increased Carbon Dioxide in the atmosphere?",
       options: ["Cleaner air", "Climate change", "Faster fish growth", "Stronger metal roofs"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21622,7 +21622,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why must nuclear waste be buried in special containers?",
+      question: "3. Why must nuclear waste be buried in special containers?",
       options: ["To keep it warm", "Because it is very heavy", "To prevent radiation leaks", "To turn it into oil"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21630,7 +21630,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which energy source does NOT contribute to air pollution?",
+      question: "4. Which energy source does NOT contribute to air pollution?",
       options: ["Coal", "Crude oil", "Wind", "Natural gas"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21638,7 +21638,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "How does smoke from thermal plants affect people with respiratory issues?",
+      question: "5. How does smoke from thermal plants affect people with respiratory issues?",
       options: ["It helps them breathe better", "It makes their skin change color", "It can trigger asthma attacks", "It makes them much stronger"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21646,7 +21646,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What does 'Energy Efficiency' mean?",
+      question: "6. What does 'Energy Efficiency' mean?",
       options: ["Using as much power as possible", "Using less energy to do the same task", "Moving a power plant to a new city", "Burning more coal to make more heat"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21654,7 +21654,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of the following can help remove Carbon Dioxide from the air?",
+      question: "7. Which of the following can help remove Carbon Dioxide from the air?",
       options: ["Tall chimneys", "Planting trees", "Plastic bottles", "Burning more gas"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21662,7 +21662,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Acid rain is primarily caused by which form of electricity generation?",
+      question: "8. Acid rain is primarily caused by which form of electricity generation?",
       options: ["Solar power", "Wind power", "Thermal power", "Hydro power"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21670,7 +21670,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which Ghanaian region is most likely to experience the effects of thermal pollution in the sea?",
+      question: "9. Which Ghanaian region is most likely to experience the effects of thermal pollution in the sea?",
       options: ["Northern Region", "Ashanti Region", "Western Region", "Bono Region"],
       correctIndex: 2,
       difficulty: "High",
@@ -21678,7 +21678,7 @@ final QuizModel Scijhs1s4ss2Lesson2QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is the best description of a 'Greenhouse Gas'?",
+      question: "10. What is the best description of a 'Greenhouse Gas'?",
       options: ["Gas that smells like flowers", "Gas that helps cool the Earth", "Gas that traps heat in the air", "Gas found only inside greenhouses"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21690,7 +21690,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L3/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What is the main function of a P-N junction diode?",
+      question: "1. What is the main function of a P-N junction diode?",
       options: ["To store electrical energy", "To allow flow in one direction", "To turn the circuit on and off", "To change electricity into heat"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21698,7 +21698,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "When assembling a circuit, what does 'Anode' refer to?",
+      question: "2. When assembling a circuit, what does 'Anode' refer to?",
       options: ["The positive side of the LED", "The negative side of the LED", "The plastic cover of the wire", "The metal casing of the switch"],
       correctIndex: 0,
       difficulty: "Low",
@@ -21706,7 +21706,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which component stores a charge and can discharge it later?",
+      question: "3. Which component stores a charge and can discharge it later?",
       options: ["Resistor", "Inductor", "Capacitor", "Diode"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21714,7 +21714,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What color is the negative (Cathode) leg of most standard LEDs?",
+      question: "4. What color is the negative (Cathode) leg of most standard LEDs?",
       options: ["It is the longer leg", "It is the shorter leg", "It is the colored leg", "It is the thicker leg"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21722,7 +21722,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "A switch that is 'Closed' means the circuit is:",
+      question: "5. A switch that is 'Closed' means the circuit is:",
       options: ["Broken and light is off", "Broken and light is on", "Complete and light is off", "Complete and light is on"],
       correctIndex: 3,
       difficulty: "Medium",
@@ -21730,7 +21730,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why do we use copper wires to connect components in Ghana?",
+      question: "6. Why do we use copper wires to connect components in Ghana?",
       options: ["Copper is a good insulator", "Copper is a good conductor", "Copper is the cheapest metal", "Copper comes in many colors"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21738,7 +21738,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is the symbol for a resistor in a circuit diagram?",
+      question: "7. What is the symbol for a resistor in a circuit diagram?",
       options: ["A straight line with a circle", "A zigzag line or a rectangle", "A triangle pointing at a bar", "Two parallel lines of same size"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21746,7 +21746,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If an LED is connected with the short leg to the positive terminal, what happens?",
+      question: "8. If an LED is connected with the short leg to the positive terminal, what happens?",
       options: ["The LED will explode", "The LED will be very dim", "The LED will not light up", "The LED will change colors"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21754,7 +21754,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which part of the circuit provides the 'push' (Voltage) for the electrons?",
+      question: "9. Which part of the circuit provides the 'push' (Voltage) for the electrons?",
       options: ["The connecting wire", "The plastic switch", "The electronic LED", "The dry cell battery"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21762,7 +21762,7 @@ final QuizModel Scijhs1s4ss2Lesson3QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "To get 3V from 1.5V batteries, how must they be arranged?",
+      question: "10. To get 3V from 1.5V batteries, how must they be arranged?",
       options: ["Side by side (Parallel)", "One after another (Series)", "Facing opposite directions", "Connected by only one wire"],
       correctIndex: 1,
       difficulty: "High",
@@ -21774,7 +21774,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L4/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What happens to an LED’s brightness if you add a second resistor in series?",
+      question: "1. What happens to an LED’s brightness if you add a second resistor in series?",
       options: ["It gets much brighter", "It stays exactly the same", "It becomes dimmer", "It starts to flicker"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21782,7 +21782,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which component is responsible for providing the initial energy?",
+      question: "2. Which component is responsible for providing the initial energy?",
       options: ["The LED", "The Switch", "The Resistor", "The Battery"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21790,7 +21790,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If a circuit is 'Forward Biased,' it means:",
+      question: "3. If a circuit is 'Forward Biased,' it means:",
       options: ["The battery is connected correctly to the diode", "The switch is stuck in the open position", "The resistor has been removed completely", "The LED is facing the wrong direction"],
       correctIndex: 0,
       difficulty: "Medium",
@@ -21798,7 +21798,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is the main function of a Switch?",
+      question: "4. What is the main function of a Switch?",
       options: ["To increase the voltage of the battery", "To protect the LED from overheating", "To change the color of the light", "To complete or break the electrical path"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21806,7 +21806,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these components converts electrical energy into light energy?",
+      question: "5. Which of these components converts electrical energy into light energy?",
       options: ["Resistor", "Capacitor", "LED", "Diode"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21814,7 +21814,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is 'Interdependence' in an electronic circuit?",
+      question: "6. What is 'Interdependence' in an electronic circuit?",
       options: ["Components working alone", "Components needing each other to function", "A circuit that has no battery", "Using only one type of component"],
       correctIndex: 1,
       difficulty: "Low",
@@ -21822,7 +21822,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why might an engineer use a Resistor in a torch?",
+      question: "7. Why might an engineer use a Resistor in a torch?",
       options: ["To make the torch as heavy as possible", "To prevent the LED from burning out", "To turn the torch into a radio", "To make the battery get hotter"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21830,7 +21830,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If the LED is connected backward, the circuit is said to be in:",
+      question: "8. If the LED is connected backward, the circuit is said to be in:",
       options: ["Forward bias", "Neutral bias", "Reverse bias", "Maximum bias"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21838,7 +21838,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which part is the 'Indicator' that the circuit is working?",
+      question: "9. Which part is the 'Indicator' that the circuit is working?",
       options: ["The Switch", "The Resistor", "The Wire", "The LED"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21846,7 +21846,7 @@ final QuizModel Scijhs1s4ss2Lesson4QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is the effect of a 'Dead' battery on the switch?",
+      question: "10. What is the effect of a 'Dead' battery on the switch?",
       options: ["The switch will no longer move", "The switch will start to spark", "The switch works but no light appears", "The switch becomes a resistor"],
       correctIndex: 2,
       difficulty: "High",
@@ -21858,7 +21858,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "What is the value of a resistor with Red, Red, Black stripes (Red=2, Black=x1)?",
+      question: "1. What is the value of a resistor with Red, Red, Black stripes (Red=2, Black=x1)?",
       options: ["220 Ohms", "22 Ohms", "200 Ohms", "2 Ohms"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21866,7 +21866,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which component is best described as a 'coil of insulated wire'?",
+      question: "2. Which component is best described as a 'coil of insulated wire'?",
       options: ["Capacitor", "Diode", "Resistor", "Inductor"],
       correctIndex: 3,
       difficulty: "Low",
@@ -21874,7 +21874,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "In the resistor color code, what digit does the color 'Black' represent?",
+      question: "3. In the resistor color code, what digit does the color 'Black' represent?",
       options: ["0", "1", "5", "9"],
       correctIndex: 0,
       difficulty: "Low",
@@ -21882,7 +21882,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What happens when a diode is placed in 'Forward Bias' in a circuit?",
+      question: "4. What happens when a diode is placed in 'Forward Bias' in a circuit?",
       options: ["The battery explodes", "The current is blocked", "The current flows freely", "The wire turns into a magnet"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21890,7 +21890,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Why is the inductor useful in a radio circuit?",
+      question: "5. Why is the inductor useful in a radio circuit?",
       options: ["It makes the radio louder", "It changes the light's color", "It smooths the current", "It stores chemical energy"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21898,7 +21898,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "A resistor with a very high Ohm value will do what to an LED?",
+      question: "6. A resistor with a very high Ohm value will do what to an LED?",
       options: ["Make it shine very bright", "Change it to a diode", "Make it very dim", "Charge the LED's battery"],
       correctIndex: 2,
       difficulty: "Low",
@@ -21906,7 +21906,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which of these is the symbol for the unit of resistance (Ohms)?",
+      question: "7. Which of these is the symbol for the unit of resistance (Ohms)?",
       options: ["Omega", "infty", "Delta", "pi"],
       correctIndex: 0,
       difficulty: "Low",
@@ -21914,7 +21914,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "If you see a silver ring on a black component, you are looking at a:",
+      question: "8. If you see a silver ring on a black component, you are looking at a:",
       options: ["Resistor", "Battery", "Diode", "Switch"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -21922,7 +21922,7 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "What is 'Tolerance' in a resistor?",
+      question: "9. What is 'Tolerance' in a resistor?",
       options: ["The weight of the resistor", "The percentage of error", "The length of the wires", "The color of the smoke"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21930,11 +21930,515 @@ final QuizModel Scijhs1s4ss2Lesson5QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "Which component would you use to create a magnetic field for a school project?",
+      question: "10. Which component would you use to create a magnetic field for a school project?",
       options: ["A switch", "A resistor", "An LED", "An inductor"],
       correctIndex: 3,
       difficulty: "Low",
       explanation: "Inductors are specifically designed to create and use magnetic fields.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. According to the Law of Conservation of Energy, energy can only be:",
+      options: ["Created", "Changed", "Destroyed", "Removed"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Energy cannot be made or destroyed, only transformed or changed.",
+    ),
+
+    QuizQuestion(
+      question: "2. What energy is stored inside a dry cell before it is used?",
+      options: ["Light", "Sound", "Chemical", "Kinetic"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Batteries store energy in chemical form.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a closed system, the total value of energy will always:",
+      options: ["Vanish", "Triple", "Change", "Remain"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The total amount remains the same (constant) in a closed system.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which form of energy is often a 'by-product' when a bulb lights up?",
+      options: ["Heat energy", "Sound energy", "Solar energy", "Wind energy"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Bulbs produce light, but they also get hot, creating heat energy.",
+    ),
+
+    QuizQuestion(
+      question: "5. When you switch on a torch, the energy flow is Chemical to...",
+      options: ["Electrical to Light", "Nuclear to Sound", "Kinetic to Solar", "Light to Chemical"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The path is chemical (battery) -> electrical (wires) -> light (bulb).",
+    ),
+
+    QuizQuestion(
+      question: "6. If energy 'cannot be destroyed,' why do batteries eventually go 'dead'?",
+      options: ["The energy was destroyed", "The energy all leaked out", "The energy was converted", "The energy turned to air"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The chemical energy has been fully converted into other forms like light and heat.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student rubs their hands together to get warm. This is an example of:",
+      options: ["Energy destruction", "Energy conversion", "Energy creation", "Energy reduction"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Kinetic energy from moving hands is converted into heat energy.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the Law of Conservation, 'conserved' means the energy is:",
+      options: ["Kept at the same total", "Thrown away after use", "Stored only in liquids", "Made from solar power"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Conservation means the total quantity does not change.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is NOT a form of energy mentioned in the torch example?",
+      options: ["Electrical energy", "Chemical energy", "Magnetic energy", "Light energy"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Torches use chemical, electrical, and light energy, but not magnetic.",
+    ),
+
+    QuizQuestion(
+      question: "10. Scientific laws like the Law of Conservation apply to:",
+      options: ["Only Ghana", "Only batteries", "The whole world", "Only school labs"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Scientific laws are universal and apply everywhere.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main useable form of energy produced by an electric coal pot?",
+      options: ["Heat energy", "Sound energy", "Light energy", "Kinetic energy"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "We use coal pots (and electric ones) specifically to generate heat for cooking.",
+    ),
+
+    QuizQuestion(
+      question: "2. A microphone converts sound energy into which form?",
+      options: ["Chemical", "Nuclear", "Electrical", "Solar"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Microphones catch sound and turn it into electrical signals to be sent to a speaker.",
+    ),
+
+    QuizQuestion(
+      question: "3. When a car engine burns petrol to move the car, the conversion is:",
+      options: ["Mechanical to Light", "Chemical to Mechanical", "Electrical to Sound", "Sound to Heat"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Petrol is chemical fuel; moving the car is mechanical work.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these conversions happens in a common Ghanaian school bell (manual)?",
+      options: ["Mechanical to Sound", "Light to Electrical", "Chemical to Light", "Heat to Mechanical"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Moving the bell (mechanical) creates the ringing (sound).",
+    ),
+
+    QuizQuestion(
+      question: "5. In an electric blender used to make fruit juice, electricity becomes:",
+      options: ["Sound only", "Chemical energy", "Mechanical energy", "Light energy"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The motor turns electricity into the spinning motion of the blades.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is a 'light bulb' considered an energy converter?",
+      options: ["It destroys electricity", "It makes energy from air", "It changes electricity to light", "It keeps energy forever"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Its purpose is to change electrical energy into useable light.",
+    ),
+
+    QuizQuestion(
+      question: "7. A person running a race is converting energy from food into:",
+      options: ["Electrical energy", "Mechanical energy", "Nuclear energy", "Potential energy"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Food (chemical) allows the muscles to create movement (mechanical).",
+    ),
+
+    QuizQuestion(
+      question: "8. Which device converts electrical energy into mostly heat energy?",
+      options: ["A radio", "A flat-screen TV", "A clothes iron", "A computer mouse"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "An iron is designed to get very hot using electricity.",
+    ),
+
+    QuizQuestion(
+      question: "9. When you clap your hands, the motion energy becomes:",
+      options: ["Solar energy", "Sound energy", "Chemical energy", "Electrical energy"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The kinetic movement of hands produces the sound of the clap.",
+    ),
+
+    QuizQuestion(
+      question: "10. In all these everyday conversions, what happens to the 'total' energy?",
+      options: ["It stays the same", "It gets much smaller", "It disappears quickly", "It grows much larger"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Even in everyday use, the Law of Conservation says total energy is constant.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Energy conservation is important because useable energy is:",
+      options: ["Limited", "Infinite", "Free", "Useless"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "We must save energy because the sources we use for electricity and fuel can run out.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a way to conserve energy at home?",
+      options: ["Ironing one shirt every day", "Leaving the radio on for the dog", "Switching off fans when not in use", "Keeping all the windows closed in the heat"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Turning off appliances when they aren't needed is the easiest way to save.",
+    ),
+
+    QuizQuestion(
+      question: "3. An appliance with a 5-star rating is better than a 1-star rating because it:",
+      options: ["Is much bigger", "Costs less to buy", "Uses less electricity", "Makes more noise"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Higher star ratings mean the device is more efficient and saves power.",
+    ),
+
+    QuizQuestion(
+      question: "4. What form of energy are we conserving when we use a bicycle instead of a car?",
+      options: ["Sound energy", "Chemical energy", "Nuclear energy", "Solar energy"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cars burn petrol (chemical energy). Bicycles save that fuel.",
+    ),
+
+    QuizQuestion(
+      question: "5. Using energy wisely 'for the benefit of humans' includes:",
+      options: ["Paying higher bills", "Having enough power for hospitals", "Wasting light in the daytime", "Buying old, inefficient machines"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Saving energy ensures essential services like hospitals always have power.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which action helps conserve energy in the kitchen?",
+      options: ["Cooking with a coal pot inside", "Leaving the gas burner on", "Fixing a leaking gas pipe", "Using the oven to heat the room"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Leaks waste chemical energy (LPG) and are also dangerous.",
+    ),
+
+    QuizQuestion(
+      question: "7. The word 'Conservation' in this lesson refers to:",
+      options: ["Creating new energy", "Destroying old energy", "Saving and protecting energy", "Finding energy on the moon"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Conservation means using resources carefully so they aren't wasted.",
+    ),
+
+    QuizQuestion(
+      question: "8. If every student in Ghana switched off one light, the result would be:",
+      options: ["No change at all", "A massive energy saving", "More heat in the air", "Higher electricity costs"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Small individual actions add up to a huge benefit for the whole country.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why should we use LED bulbs instead of old bulbs?",
+      options: ["They look prettier", "They give off more heat", "They use less power for light", "They are made of wood"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "LEDs are more efficient, meaning they turn more electricity into light rather than heat.",
+    ),
+
+    QuizQuestion(
+      question: "10. A family that conserves energy will likely see their electricity bill:",
+      options: ["Decrease", "Stay the same", "Increase", "Disappear"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Using less energy means you pay less money for your power.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a simple definition of inertia?",
+      options: ["The speed of a moving object", "Resistance to change in motion", "The pull of the earth's core", "A force that pushes things"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Inertia is purely the tendency to resist any change in motion or rest.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is required to change the direction of a moving object?",
+      options: ["An unbalanced force", "A balanced force", "Increased inertia", "Constant velocity"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Only an unbalanced force can change the direction or speed of an object.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do passengers lean back when a car suddenly starts moving?",
+      options: ["Gravity pulls them back", "The car's force is weak", "Friction pushes them", "Inertia keeps them still"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Their bodies were at rest and want to stay at rest while the car moves forward.",
+    ),
+
+    QuizQuestion(
+      question: "4. If the forces on an object are balanced, the object will:",
+      options: ["Always stay completely still", "Stay still or move at a constant speed", "Gradually slow down and stop", "Speed up in one direction"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Balanced forces mean no change. If it was still, it stays still. If it was moving, it keeps moving exactly the same.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which scientist is famous for describing the laws of motion and inertia?",
+      options: ["Sir Isaac Newton", "Albert Einstein", "Kwame Nkrumah", "Galileo Galilei"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Newton is the primary scientist associated with the laws of motion.",
+    ),
+
+    QuizQuestion(
+      question: "6. A 5kg bag and a 10kg bag are on a floor. Which is harder to start moving?",
+      options: ["The 5kg bag", "The 10kg bag", "Both are the same", "It depends on the color"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Higher mass means higher inertia, making it harder to change its state of rest.",
+    ),
+
+    QuizQuestion(
+      question: "7. In a tug-of-war, if the rope does not move, the forces are:",
+      options: ["Totally absent", "Very unbalanced", "Perfectly balanced", "Weak and moving"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "No change in motion means the forces are equal and opposite (balanced).",
+    ),
+
+    QuizQuestion(
+      question: "8. What happens to an object’s inertia if its mass is doubled?",
+      options: ["The inertia stays the same", "The inertia is halved", "The inertia is doubled", "The inertia is removed"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Inertia is directly related to mass. More mass equals more inertia.",
+    ),
+
+    QuizQuestion(
+      question: "9. An unbalanced force acts on a moving object in the same direction it is moving. The object will:",
+      options: ["Stop immediately", "Speed up", "Slow down", "Turn left"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A force in the direction of motion causes acceleration (speeding up).",
+    ),
+
+    QuizQuestion(
+      question: "10. A stone is thrown in outer space where there is no air or gravity. It will:",
+      options: ["Stop after a few meters", "Move in a circle", "Keep moving forever", "Fall back to Earth"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Due to inertia, it will keep moving in a straight line forever unless an unbalanced force stops it.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. An object stays at rest unless acted on by an unbalanced force. This is:",
+      options: ["Newton's First Law", "The Law of Gravity", "Newton's Second Law", "The Law of Friction"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "This is the word-for-word definition of the First Law.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why does a hockey puck slide so far on ice compared to a concrete floor?",
+      options: ["Ice has more inertia", "Less friction acts on it", "Gravity is weaker on ice", "The puck is heavier on ice"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Friction is an external force that stops motion. Less friction means it stays in motion longer.",
+    ),
+
+    QuizQuestion(
+      question: "3. If a moving object suddenly stops, we know that:",
+      options: ["Inertia has increased", "All forces are balanced", "An unbalanced force acted", "Mass has disappeared"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Any change in motion (stopping) requires an unbalanced force.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a vacuum (no air), a feather and a hammer are dropped. They fall because of:",
+      options: ["Their inertia", "The force of gravity", "The lack of air", "Balanced forces"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Gravity is the external unbalanced force that changes their state from rest to motion.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is NOT an example of an external force?",
+      options: ["A push from a friend", "Friction from the grass", "The object's own inertia", "The pull of a magnet"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Inertia is a property of the object itself, not an external force acting on it.",
+    ),
+
+    QuizQuestion(
+      question: "6. A car travels at a constant 60km/h in a straight line. The net force is:",
+      options: ["Increasing", "Zero", "Very high", "Decreasing"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "If motion is uniform and straight, Newton's law says forces must be balanced (net force = 0).",
+    ),
+
+    QuizQuestion(
+      question: "7. Newton was a scientist from which country?",
+      options: ["Ghana", "Nigeria", "Britain", "America"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Sir Isaac Newton was a British scientist.",
+    ),
+
+    QuizQuestion(
+      question: "8. If you kick a ball in space, it will stop when:",
+      options: ["It hits an object", "It runs out of air", "5 minutes pass", "It leaves the galaxy"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It only stops if an external force (like hitting a wall) acts on it.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which part of the law explains why we need seatbelts?",
+      options: ["Objects at rest stay at rest", "Objects in motion stay in motion", "Gravity pulls us down", "Friction stops the car"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "When the car stops, your body wants to stay in motion until the seatbelt (force) stops you.",
+    ),
+
+    QuizQuestion(
+      question: "10. Inertia is directly related to an object's:",
+      options: ["Speed", "Color", "Mass", "Volume"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Mass is the measure of inertia.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these best describes a 'blockade' in physics?",
+      options: ["A source of balanced force", "A source of unbalanced force", "A way to increase inertia", "A device that measures speed"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A blockade provides the external force needed to change an object's motion.",
+    ),
+
+    QuizQuestion(
+      question: "2. Seatbelts are most effective during which type of event?",
+      options: ["Constant speed driving", "Gradual acceleration", "Sudden braking or collision", "Parking the vehicle"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Seatbelts are needed when an unbalanced force is required to stop your inertia quickly.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do you feel 'pushed' into your seat when a plane takes off?",
+      options: ["The air is pushing you", "Your inertia wants to stay at rest", "Gravity is getting stronger", "The seat is pulling you"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Your body is at rest; the plane moves forward, pushing the seat into your back.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a head-on collision, an unbelted driver is stopped by the windscreen. The windscreen is:",
+      options: ["The inertia", "The internal force", "The unbalanced force", "The balanced force"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The windscreen is the external object that provides the force to stop the driver's motion.",
+    ),
+
+    QuizQuestion(
+      question: "5. A dog is sitting in the back of a pickup truck. If the truck starts moving fast, the dog might:",
+      options: ["Fly out of the front", "Slide toward the back gate", "Stay exactly in the middle", "Start floating"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The dog’s inertia keeps it in place while the truck moves forward from under it.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which law explains why we should not jump off a moving trotro?",
+      options: ["Law of Gravity", "Newton's First Law", "Law of Magnetism", "Law of Reflection"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Your body is moving at the bus's speed; when you hit the ground, your inertia will make you tumble.",
+    ),
+
+    QuizQuestion(
+      question: "7. Engineers design 'crumple zones' in cars to help stop them. This relates to:",
+      options: ["Increasing inertia", "Managing external forces", "Reducing mass", "Changing gravity"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Crumple zones manage how the unbalanced force of a crash is applied to the car.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a passenger is wearing a seatbelt, their motion is stopped by:",
+      options: ["Their own will", "The force of the belt", "The air in the car", "The car's engine"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The belt is the external force acting on the passenger.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is it harder to stop a fully loaded truck than an empty one?",
+      options: ["The loaded truck has more inertia", "The loaded truck is faster", "The empty truck has more friction", "The loaded truck has no brakes"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "More mass means more inertia, which requires more force to stop.",
+    ),
+
+    QuizQuestion(
+      question: "10. Newton's First Law helps us understand that safety is about:",
+      options: ["Removing inertia", "Increasing speed", "Managing changes in motion", "Defying gravity"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Safety features help control how and when unbalanced forces act on our bodies.",
     ),
   ],
 );

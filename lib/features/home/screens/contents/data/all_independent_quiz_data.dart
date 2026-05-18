@@ -10565,6 +10565,342 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which statement best describes the Law of Conservation of Energy?",
+        options: [
+          "Energy is created by batteries",
+          "Energy cannot be transformed",
+          "Energy is never truly destroyed",
+          "Energy is lost when it is used"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In a working torch, what form does the energy take while moving through the wires?",
+        options: [
+          "Chemical energy",
+          "Electrical energy",
+          "Potential energy",
+          "Magnetic energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy in the wires of a torch is in the form of electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When energy changes from one form to another, the total amount of energy...",
+        options: [
+          "Stays the same",
+          "Increases slowly",
+          "Decreases slowly",
+          "Becomes double"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The total energy remains constant, consistent with the Law of Conservation of Energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the final energy conversion in a radio?",
+        options: [
+          "Chemical to light",
+          "Electrical to sound",
+          "Sound to chemical",
+          "Heat to electrical"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A radio converts electrical energy into sound energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. When a person is riding a bicycle, the energy change is:",
+        options: [
+          "Light to Sound",
+          "Chemical to Mechanical",
+          "Heat to Electrical",
+          "Nuclear to Light"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Chemical to Mechanical"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following items is designed specifically to produce Sound energy?",
+        options: [
+          "An electric iron",
+          "A ceiling fan",
+          "A loudspeaker",
+          "A flashlight"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A loudspeaker"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a hydroelectric dam like Akosombo, the energy of falling water is used to create:",
+        options: [
+          "Sound energy",
+          "Electrical energy",
+          "Chemical energy",
+          "Heat energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Electrical energy"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which energy conversion occurs when you switch on a television?",
+        options: [
+          "Electrical to Light and Sound",
+          "Chemical to Heat only",
+          "Sound to Mechanical",
+          "Mechanical to Chemical"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Electrical to Light and Sound"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS3 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of light bulb is best for energy conservation?",
+        options: [
+          "Old filament bulbs",
+          "High-heat bulbs",
+          "Energy-saving LED bulbs",
+          "Coloured party bulbs"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Energy-saving LED bulbs"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does it mean to use energy 'judiciously'?",
+        options: [
+          "Using it all at once",
+          "Using it carefully and wisely",
+          "Leaving it on all night",
+          "Buying the cheapest gadgets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using it carefully and wisely"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Keeping the refrigerator door open for a long time...",
+        options: [
+          "Saves electricity",
+          "Wastes energy",
+          "Cleans the air",
+          "Helps the motor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Wastes energy"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In Ghana, which organization helps us identify efficient appliances?",
+        options: [
+          "The Water Company",
+          "The Energy Commission",
+          "The Post Office",
+          "The Road Safety Authority"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Energy Commission"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the term for an object's resistance to change its motion?",
+        options: [
+          "Friction",
+          "Inertia",
+          "Gravity",
+          "Velocity"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Inertia"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a stationary object starts to move, what must have happened?",
+        options: [
+          "Forces became balanced",
+          "The mass decreased",
+          "An unbalanced force acted",
+          "Inertia was removed"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An unbalanced force acted"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which object has the most inertia?",
+        options: [
+          "A small bird",
+          "A primary school desk",
+          "A fully loaded truck",
+          "A plastic water bottle"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A fully loaded truck"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A ball rolls across a smooth floor and eventually stops. What caused it to stop?",
+        options: [
+          "The ball ran out of force",
+          "The ball's inertia ended",
+          "An unbalanced force (friction)",
+          "The floor became balanced"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An unbalanced force (friction)"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to Newton, an object will keep its same motion unless:",
+        options: [
+          "It gets tired",
+          "An unbalanced force acts on it",
+          "It runs out of fuel",
+          "The sun goes down"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An unbalanced force acts on it"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A ball is rolling at 2 meters per second. If no forces act on it, what will its speed be in 10 minutes?",
+        options: [
+          "0 meters per second",
+          "1 meter per second",
+          "2 meters per second",
+          "20 meters per second"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "2 meters per second"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Newton’s First Law is also known as the Law of:",
+        options: [
+          "Gravity",
+          "Friction",
+          "Speed",
+          "Inertia"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Inertia"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If an object is \"at rest,\" what is its velocity?",
+        options: [
+          "Zero",
+          "Constant",
+          "Increasing",
+          "Decreasing"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Zero"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main purpose of a seatbelt in terms of physics?",
+        options: [
+          "To make the car go faster",
+          "To provide an unbalanced force to stop your body",
+          "To increase your body's inertia",
+          "To keep the car balanced on the road"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "To provide an unbalanced force to stop your body"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When a car hits a wall and stops, why do unbelted passengers fly forward?",
+        options: [
+          "The wall pulls them forward",
+          "The car pushes them forward",
+          "Their inertia keeps them moving",
+          "Gravity increases suddenly"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Their inertia keeps them moving"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why should heavy loads on a truck be tied down securely?",
+        options: [
+          "To increase the weight of the truck",
+          "To prevent them from moving due to inertia",
+          "To make the truck look neat",
+          "To stop the wind from blowing them"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "To prevent them from moving due to inertia"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you are holding a cup of water in a car and the driver turns left, which way does the water splash?",
+        options: [
+          "It splashes to the left",
+          "It splashes to the right",
+          "It stays perfectly still",
+          "It splashes straight up"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It splashes to the right"
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
