@@ -114,6 +114,7 @@ flutter:
     - assets/images/english/s1_ss3_l1/
     - assets/images/english/s2_ss1_l1/
     - assets/images/english/s2_ss1_l2/
+    - assets/images/english/s2_ss1_l3/
     - assets/images/english/s2_ss2_l1/
     - assets/images/english/s3_ss1_l1/
     - assets/images/english/s3_ss1_l2/
@@ -206,6 +207,7 @@ flutter:
     - assets/audio/ss3_l1/
     - assets/audio/s2_ss1_l1/
     - assets/audio/s2_ss1_l2/
+    - assets/audio/s2_ss1_l3/
     - assets/audio/s2_ss2_l1/
     - assets/audio/s3_ss1_l1/
     - assets/audio/RME/s1_ss1_l1/

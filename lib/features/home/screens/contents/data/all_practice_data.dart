@@ -193,6 +193,7 @@ final PracticeModel ss3Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
+
 final PracticeModel s2ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/s2_ss1_l1/6. Guided Practice.m4a',
   questions: [
@@ -225,7 +226,7 @@ final PracticeModel s2ss1Lesson2PracticeData = PracticeModel(
   questions: [
     PracticeQuestion(
       scenario:
-          "1. Question: Text: \"Efua looked at the empty fufu bowl and then at her cat, who was licking its paws and looking very satisfied.\" Task: What is the implicit meaning here?",
+          "1. Question: \"Efua looked at the empty fufu bowl and then at her cat, who was licking its paws and looking very satisfied.\" Task: What is the implicit meaning here?",
       answer: "Correct Answer: The cat ate Efua's fufu.",
       explanation:
           "Explanation: The 'empty bowl' and the 'satisfied cat licking its paws' are clues that the cat ate the food.",
@@ -240,7 +241,7 @@ final PracticeModel s2ss1Lesson2PracticeData = PracticeModel(
     ),
     PracticeQuestion(
       scenario:
-          "3. Question: Text: \"Mensa worked until the moon was high in the sky and his back ached.\" Task: Provide evidence from the text that shows Mensa is a hard worker.",
+          "3. Question:\"Mensa worked until the moon was high in the sky and his back ached.\" Task: Provide evidence from the text that shows Mensa is a hard worker.",
       answer:
           "Correct Answer: The evidence is that he worked 'until the moon was high in the sky.'",
       explanation:
@@ -248,9 +249,8 @@ final PracticeModel s2ss1Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
-
 final PracticeModel s2ss1Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/jhs2_s2_ss1_l3/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/s2_ss1_l3/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
       scenario:
@@ -275,7 +275,6 @@ final PracticeModel s2ss1Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
-
 final PracticeModel s2ss2Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/s2_ss2_l1/6. Guided Practice.m4a',
   questions: [

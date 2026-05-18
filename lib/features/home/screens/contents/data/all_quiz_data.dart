@@ -1080,7 +1080,7 @@ final QuizModel s2ss1Lesson2QuizData = QuizModel(
   ],
 );
 final QuizModel s2ss1Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/jhs2_s2_ss1_l3/8. Quiz.m4a',
+  audioPath: 'assets/audio/s2_ss1_l3/8. Quiz.m4a',
   questions: [
     QuizQuestion(
       question:
@@ -1210,7 +1210,7 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
   ],
 );
 final QuizModel s2ss2Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/jhs2_s2_ss1_l3/8. Quiz.m4a',
+  audioPath: 'assets/audio/s2_ss2_l1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
       question:

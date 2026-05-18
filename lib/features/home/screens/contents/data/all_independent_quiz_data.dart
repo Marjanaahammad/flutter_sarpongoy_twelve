@@ -1,7 +1,6 @@
 import '../model/independent_practice_model.dart';
 
-final IndependentPracticeModel defaultIndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel defaultIndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -57,8 +56,7 @@ final IndependentPracticeModel defaultIndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -131,8 +129,7 @@ final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -184,8 +181,7 @@ final IndependentPracticeModel ss1Lesson3IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -248,8 +244,7 @@ final IndependentPracticeModel ss1Lesson4IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss2_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -304,8 +299,7 @@ final IndependentPracticeModel ss2Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss2Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss2Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss2_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -364,8 +358,7 @@ final IndependentPracticeModel ss2Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel ss3Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel ss3Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l1/6. Guided Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -404,8 +397,7 @@ final IndependentPracticeModel ss3Lesson1IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel s2ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss1_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -466,8 +458,7 @@ final IndependentPracticeModel s2ss1Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s2ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -526,9 +517,8 @@ final IndependentPracticeModel s2ss1Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s2ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath: 'assets/audio/jhs2_s2_ss1_l3/7. Independent Practice.m4a',
+final IndependentPracticeModel s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/s2_ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
       question: "1. Which structure explains why an event happened?",
@@ -582,8 +572,7 @@ final IndependentPracticeModel s2ss1Lesson3IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s2ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss2_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -640,8 +629,7 @@ final IndependentPracticeModel s2ss2Lesson1IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel s3ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -687,8 +675,7 @@ final IndependentPracticeModel s3ss1Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -739,8 +726,7 @@ final IndependentPracticeModel s3ss1Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -785,8 +771,7 @@ final IndependentPracticeModel s3ss1Lesson3IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -819,8 +804,7 @@ final IndependentPracticeModel s3ss1Lesson4IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson5IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -858,8 +842,7 @@ final IndependentPracticeModel s3ss1Lesson5IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS2 S1 SS1 L1/6. Independent Practice.m4a',
   questions: [
@@ -917,8 +900,7 @@ final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData =
             "When someone stops talking and looks at you expectantly, it usually means they are giving you the turn to speak or respond."),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/2. JHS2 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -975,8 +957,7 @@ final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData =
             "We use 'Honourable' to show respect and to use the correct formal register when speaking to a government official."),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/3. JHS2 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -1038,8 +1019,7 @@ final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/4. JHS2 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -1091,8 +1071,7 @@ final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/5. JHS2 S1 SS1 L5/7. Independent Practice.m4a',
   questions: [
@@ -1152,8 +1131,7 @@ final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/6. JHS2 S1 SS2 L1/6. Independent Practice.m4a',
   questions: [
@@ -1209,8 +1187,7 @@ final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/7. JHS2 S1 SS2 L2/6. Independent Practice.m4a',
   questions: [
@@ -1273,8 +1250,7 @@ final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/8. JHS2 S1 SS3 L1/6. Independent Practice.m4a',
   questions: [
@@ -1314,8 +1290,7 @@ final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/9. JHS2 S1 SS3 L2/6. Independent Practice.m4a',
   questions: [
@@ -1358,8 +1333,7 @@ final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/10. JHS2 S1 SS3 L3/6. Independent Practice.m4a',
   questions: [
@@ -1410,8 +1384,7 @@ final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -1469,8 +1442,7 @@ final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData =
             "Global issues affect people around the world. Gender equality and women's rights is a global issue, unlike local or personal matters."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/2. JHS3 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -1527,8 +1499,7 @@ final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData =
             "To maintain a formal register in a heated debate, it is important to stay calm and use polite, professional language."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/3. JHS3 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -1575,8 +1546,7 @@ final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData =
             "Making an inference means using clues from the speaker and your own experience to understand a hidden or implied meaning."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/4. JHS3 S1 SS3 L1/7. Independent Practice.m4a',
   questions: [
@@ -1609,8 +1579,7 @@ final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData =
             "The word 'School' is mono-syllabic as it has only one syllable."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/5. JHS3 S1 SS3 L2/7. Independent Practice.m4a',
   questions: [

@@ -2020,17 +2020,17 @@ class SidebarController extends GetxController {
               var independentPracticeData = defaultIndependentQuizData;
               var quizData = defaultQuizData;
 
-              if (grade == "JHS 2" &&
-                  courseTitle == "English" &&
-                  sIndex == 0 &&
-                  ssIndex == 0 &&
-                  lIndex == 0) {
-                getReadyData = ss2Lesson1GetReadyData;
-                learnData = ss1Lesson2LearnData;
-                practiceData = ss1Lesson2PracticeData;
-                independentPracticeData = ss1Lesson2IndependentQuizData;
-                quizData = ss1Lesson2QuizData;
-              }
+              // if (grade == "JHS 2" &&
+              //     courseTitle == "English" &&
+              //     sIndex == 0 &&
+              //     ssIndex == 0 &&
+              //     lIndex == 0) {
+              //   getReadyData = ss2Lesson1GetReadyData;
+              //   learnData = ss1Lesson2LearnData;
+              //   practiceData = ss1Lesson2PracticeData;
+              //   independentPracticeData = ss1Lesson2IndependentQuizData;
+              //   quizData = ss1Lesson2QuizData;
+              // }
 
               if (courseTitle == "English" &&
                   sIndex == 0 &&

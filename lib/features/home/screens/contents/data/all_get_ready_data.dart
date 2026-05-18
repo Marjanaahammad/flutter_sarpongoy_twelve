@@ -57,10 +57,10 @@ final GetReadyModel s2ss1Lesson2GetReadyData = GetReadyModel(
   hookAudioPath: 'assets/audio/s2_ss1_l2/2. Hook.m4a',
 );
 final GetReadyModel s2ss1Lesson3GetReadyData = GetReadyModel(
-  overviewImagePath: 'assets/images/english/jhs2_s2_ss1_l3/chapter_overview.jpg',
-  overviewAudioPath: 'assets/audio/jhs2_s2_ss1_l3/1. Chapter 1.m4a',
-  hookImagePath: 'assets/images/english/jhs2_s2_ss1_l3/hook.jpg',
-  hookAudioPath: 'assets/audio/jhs2_s2_ss1_l3/2. Hook.m4a',
+  overviewImagePath: 'assets/images/english/s2_ss1_l3/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/s2_ss1_l3/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/s2_ss1_l3/hook.jpg',
+  hookAudioPath: 'assets/audio/s2_ss1_l3/2. Hook.m4a',
 );
 final GetReadyModel s2ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/s2_ss2_l1/chapter_overview.jpg',
