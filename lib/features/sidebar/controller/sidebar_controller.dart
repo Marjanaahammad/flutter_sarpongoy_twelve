@@ -927,7 +927,12 @@ class SidebarController extends GetxController {
             },{
               "subtitle": "FORCE AND MOTION",
               "topics": [
-                "Unbalanced Forces and Inertia", "Newton’s First Law of Motion","Applications of Newton’s First Law"
+                "Unbalanced Forces and Inertia", "Newton’s First Law of Motion","Applications of Newton’s First Law", "Behavior of Magnets and Their Uses", "Identifying Simple Machines", "Types and Functions of Levers","Work Input, Output, and Efficiency"
+              ],
+            },{
+              "subtitle": "AGRICULTURAL TOOLS",
+              "topics": [
+                "Rules for Handling and Maintaining Tools", "Applying Tool Maintenance in the Community",
               ],
             },
           ],
@@ -2884,7 +2889,63 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs1s4ss4Lesson3PracticeData;
                 independentPracticeData = Scijhs1s4ss4Lesson3IndependentQuizData;
                 quizData = Scijhs1s4ss4Lesson3QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 3) {
+                getReadyData = SciJHS1s4ss4Lesson4GetReadyData;
+                learnData = Scijh1s4ss4Lesson4LearnData;
+                practiceData = Scijhs1s4ss4Lesson4PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson4IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson4QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 4) {
+                getReadyData = SciJHS1s4ss4Lesson5GetReadyData;
+                learnData = Scijh1s4ss4Lesson5LearnData;
+                practiceData = Scijhs1s4ss4Lesson5PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson5IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson5QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 5) {
+                getReadyData = SciJHS1s4ss4Lesson6GetReadyData;
+                learnData = Scijh1s4ss4Lesson6LearnData;
+                practiceData = Scijhs1s4ss4Lesson6PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson6IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson6QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 6) {
+                getReadyData = SciJHS1s4ss4Lesson7GetReadyData;
+                learnData = Scijh1s4ss4Lesson7LearnData;
+                practiceData = Scijhs1s4ss4Lesson7PracticeData;
+                independentPracticeData = Scijhs1s4ss4Lesson7IndependentQuizData;
+                quizData = Scijhs1s4ss4Lesson7QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 4 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS1s4ss5Lesson1GetReadyData;
+                learnData = Scijh1s4ss5Lesson1LearnData;
+                practiceData = Scijhs1s4ss5Lesson1PracticeData;
+                independentPracticeData = Scijhs1s4ss5Lesson1IndependentQuizData;
+                quizData = Scijhs1s4ss5Lesson1QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 4 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s4ss5Lesson2GetReadyData;
+                learnData = Scijh1s4ss5Lesson2LearnData;
+                practiceData = Scijhs1s4ss5Lesson2PracticeData;
+                independentPracticeData = Scijhs1s4ss5Lesson2IndependentQuizData;
+                quizData = Scijhs1s4ss5Lesson2QuizData;
               }
+
+
               if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 0 &&

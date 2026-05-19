@@ -11181,6 +11181,342 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these materials is magnetic?",
+        options: [
+          "A plastic spoon",
+          "A glass marble",
+          "A steel paperclip",
+          "A wooden pencil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A steel paperclip"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is the magnetic force strongest on a bar magnet?",
+        options: [
+          "In the exact center",
+          "At the North and South poles",
+          "Only on the North pole",
+          "All over the magnet equally"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "At the North and South poles"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens when a North pole meets a South pole?",
+        options: [
+          "They repel",
+          "They attract",
+          "They stay still",
+          "They catch fire"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "They attract"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A magnet that only works when electricity is flowing is called:",
+        options: [
+          "A permanent magnet",
+          "A natural magnet",
+          "An electromagnet",
+          "A steel magnet"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An electromagnet"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which simple machine consists of a rope and a grooved wheel?",
+        options: [
+          "Wedge",
+          "Lever",
+          "Pulley",
+          "Screw"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Pulley"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A pair of scissors is an example of which simple machine?",
+        options: [
+          "Inclined plane",
+          "Lever",
+          "Wheel and axle",
+          "Screw"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Lever"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which machine is used to hold two pieces of wood together permanently?",
+        options: [
+          "Wedge",
+          "Pulley",
+          "Lever",
+          "Screw"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Screw"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A ramp used by workers to load a trotro is an example of:",
+        options: [
+          "An inclined plane",
+          "A wheel and axle",
+          "A pulley",
+          "A wedge"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "An inclined plane"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In a Second Class lever, what is located in the middle?",
+        options: [
+          "The Fulcrum",
+          "The Load",
+          "The Effort",
+          "The Handle"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Load"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A see-saw is an example of which class of lever?",
+        options: [
+          "First Class",
+          "Second Class",
+          "Third Class",
+          "Fourth Class"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "First Class"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which class of lever is a fishing rod?",
+        options: [
+          "First Class",
+          "Second Class",
+          "Third Class",
+          "Both First and Second"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Third Class"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A nutcracker, where the nut is placed between the hinge and the handles, is a:",
+        options: [
+          "First Class lever",
+          "Second Class lever",
+          "Third Class lever",
+          "Simple Wedge"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Second Class lever"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss4Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the unit used to measure work?",
+        options: [
+          "Newtons",
+          "Kilograms",
+          "Joules",
+          "Meters"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Joules"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The work you do on a machine is called:",
+        options: [
+          "Work Output",
+          "Work Input",
+          "Efficiency",
+          "Friction"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Work Input"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is the efficiency of a machine always less than 100%?",
+        options: [
+          "Because of gravity",
+          "Because of friction",
+          "The machine is too small",
+          "The load is too heavy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Because of friction"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these helps to increase the efficiency of a machine?",
+        options: [
+          "Adding grease to moving parts",
+          "Making the machine heavier",
+          "Using the machine faster",
+          "Letting the machine get rusty"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Adding grease to moving parts"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool is most suitable for transporting five heavy bags of cocoa beans?",
+        options: [
+          "A large watering can",
+          "A sturdy wheelbarrow",
+          "A long wooden rake",
+          "A sharp garden hoe"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A sturdy wheelbarrow"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the best way to prevent a garden fork from rusting?",
+        options: [
+          "Leave it in the rain",
+          "Wash it with salty water",
+          "Rub oil on the metal",
+          "Keep it in a damp spot"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Rub oil on the metal"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When handing a sickle to a classmate, you should:",
+        options: [
+          "Toss it to their hands",
+          "Give it handle-first",
+          "Hold it by the blade",
+          "Drop it on the floor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Give it handle-first"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tool is specifically designed for making mounds to plant yams?",
+        options: [
+          "Hand trowel",
+          "Garden rake",
+          "Farming hoe",
+          "Pickaxe"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Farming hoe"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the most organized way to store a cutlass in a shed?",
+        options: [
+          "Leaning against a door",
+          "Lying on a damp floor",
+          "Hanging on a wall hook",
+          "Hidden under some bags"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Hanging on a wall hook"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main benefit of returning a borrowed tool in better condition?",
+        options: [
+          "It makes the tool heavier",
+          "It builds community trust",
+          "It changes the tool's color",
+          "It makes the tool smaller"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It builds community trust"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which problem can usually be fixed by a student at home?",
+        options: [
+          "Leaking chemical sprayer",
+          "Broken pump mechanism",
+          "Loose wheelbarrow bolt",
+          "Cracked sprayer tank"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Loose wheelbarrow bolt"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it bad to store agricultural tools on a dirt floor?",
+        options: [
+          "They might grow roots",
+          "Moisture causes rusting",
+          "They will get too cold",
+          "Insects will eat metal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Moisture causes rusting"
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:

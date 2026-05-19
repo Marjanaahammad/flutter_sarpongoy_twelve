@@ -5050,6 +5050,126 @@ final PracticeModel Scijhs1s4ss4Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs1s4ss4Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You have a bar magnet and you bring it near a pile of copper wires and iron nails. What happens?",
+      answer: "Correct Answer: The magnet will pick up the iron nails but ignore the copper wires.",
+      explanation: "Explanation: Iron is a magnetic material, but copper is non-magnetic.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You hang a bar magnet from a piece of string so it can spin freely. In which direction will it stop?",
+      answer: "Correct Answer: It will point North and South.",
+      explanation: "Explanation: The Earth itself is like a giant magnet, and it pulls the suspended magnet to align with its North and South poles.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You try to push the 'S' end of one magnet against the 'S' end of another. What do you feel?",
+      answer: "Correct Answer: You feel a pushing force (repulsion).",
+      explanation: "Explanation: Like poles (South and South) always repel each other.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A carpenter is using an axe to split a log of mahogany wood. What machine is the axe head?",
+      answer: "Correct Answer: A wedge.",
+      explanation: "Explanation: The axe head is thick at the back and very thin at the front. When hit, it drives into the wood and forces the two sides apart.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are using a manual pencil sharpener. You turn a handle, and the blade inside spins to shave the pencil. What is this?",
+      answer: "Correct Answer: Wheel and axle.",
+      explanation: "Explanation: The handle you turn acts as the wheel, and the inner part that holds the blade is the axle.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A truck driver uses a long, strong wooden plank to roll a heavy oil drum from the ground up into the back of his truck. What is the plank?",
+      answer: "Correct Answer: An inclined plane.",
+      explanation: "Explanation: The plank creates a slope, making it easier to roll the drum up instead of lifting it vertically.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are using a pair of pliers to grip a wire. The joint is in the center, your hand is at the handle, and the wire is at the tip. What is in the middle?",
+      answer: "Correct Answer: The Fulcrum is in the middle. This is a First Class lever.",
+      explanation: "Explanation: Just like scissors, the pivot point sits between your hand and the object.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are using a bottle opener to open a cold bottle of Fanta. The end of the opener rests on the cap (Fulcrum), the middle of the opener pulls the edge of the cap (Load), and you pull up on the handle (Effort). What is in the middle?",
+      answer: "Correct Answer: The Load is in the middle. This is a Second Class lever.",
+      explanation: "Explanation: Because the resistance (the cap edge) is between the pivot and your hand, it's Second Class.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are lifting a small stone with a shovel. Your top hand holds the end of the handle still (Fulcrum), your bottom hand lifts the middle of the handle (Effort), and the stone is at the blade (Load). What is in the middle?",
+      answer: "Correct Answer: The Effort is in the middle. This is a Third Class lever.",
+      explanation: "Explanation: When the lifting force is between the pivot and the object, it's always Third Class.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss4Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A worker puts 500 J of work into a lever. The lever lifts a heavy stone with 450 J of work. What is the efficiency?",
+      answer: "Correct Answer: 90%.",
+      explanation: "Explanation: We divide 450 by 500, which gives us 0.9. Multiply that by 100, and you get 90%. This is a very efficient lever!",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does a bicycle chain feel hot after a long ride from the market?",
+      answer: "Correct Answer: Because of friction converting work into heat.",
+      explanation: "Explanation: The moving parts of the chain rub against the gears. This friction 'steals' some of your pedaling work and turns it into heat energy.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a machine has an efficiency of 100%, what does that mean?",
+      answer: "Correct Answer: It means no energy was lost to friction.",
+      explanation: "Explanation: In theory, this is a 'perfect' machine. However, in real life, this is impossible because friction always exists!",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Your friend is standing five metres away and asks you to give him the hoe. How should you give it to him?",
+      answer: "Correct Answer: I should walk to my friend and hand the hoe to him by the handle.",
+      explanation: "Explanation: You should never throw agricultural tools because they are heavy and sharp; walking to the person ensures safety.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You notice that your father's cutlass has reddish-brown spots on the blade and feels rough. What is happening, and how can it be fixed?",
+      answer: "Correct Answer: The cutlass is rusting. It can be fixed by cleaning the rust off and applying oil.",
+      explanation: "Explanation: Rust happens when metal stays wet; applying oil creates a protective layer that stops rust from forming.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it dangerous to use a cutlass to dig a deep hole in hard, stony ground?",
+      answer: "Correct Answer: The cutlass is for weeding, not digging; the blade could break or slip and cause an injury.",
+      explanation: "Explanation: Using the wrong tool for a job can damage the tool and lead to accidents. A pickaxe should be used for hard ground instead.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s4ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are writing a report on your school's farm tools. You find a rake with three missing teeth. What should you write in the 'Action Needed' column?",
+      answer: "Correct Answer: I should write that the rake needs to be repaired or replaced.",
+      explanation: "Explanation: A rake with missing teeth cannot gather leaves effectively; documenting it helps the school plan to fix it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Your school is building a new tool shed. Why should you suggest painting the shapes of the tools on the wall?",
+      answer: "Correct Answer: It shows where each tool belongs and makes it easy to see if a tool is missing.",
+      explanation: "Explanation: This is called a shadow board, and it helps with organization and security.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You find a knapsack sprayer that is leaking liquid onto the student's back. What is the immediate safety step?",
+      answer: "Correct Answer: The student must stop using it immediately and wash their skin.",
+      explanation: "Explanation: Leaking chemicals are a major health risk; the tool must be sent for professional repair before being used again.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',

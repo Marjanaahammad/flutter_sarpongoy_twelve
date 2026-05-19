@@ -2204,83 +2204,83 @@ final QuizModel s3ss1Lesson10QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which of these is a reflexive pronoun?",
-      options: ["She", "Her", "Herself", "Hers"],
+      question: "1. 'Asiedu is an _______ singer.'",
+      options: ["excellently", "excel", "excellent", "excellence"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Reflexive pronouns end in '-self' or '-selves'.",
+      explanation: "'Excellent' is the adjective form describing the singer.",
     ),
 
     QuizQuestion(
-      question: "2. '_______ is your name?'",
-      options: ["Who", "What", "Which", "Whose"],
+      question: "2. Identify the sense verb in: 'The flower smells sweet.'",
+      options: ["Flower", "Smells", "Sweet", "The"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "'What' is the interrogative pronoun used for names.",
+      explanation: "'Smells' refers to the sense of smell.",
     ),
 
     QuizQuestion(
-      question: "3. 'We have finished our work. The work is _______.'",
-      options: ["ours", "our", "us", "ourselves"],
+      question: "3. 'Adzo was very _______.'",
+      options: ["tired", "tiring", "tire", "tiredly"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "'Ours' is the possessive pronoun for 'we'.",
+      explanation: "'Tired' is the adjective describing Adzo's state.",
     ),
 
     QuizQuestion(
-      question: "4. Identify the relative pronoun: 'The house that Jack built is tall.'",
-      options: ["House", "Built", "That", "Tall"],
+      question: "4. Which adjective fits a sense of sight?",
+      options: ["Loud", "Salty", "Bright", "Rough"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'That' connects the description to the house.",
+      explanation: "'Bright' describes something we see with our eyes.",
     ),
 
     QuizQuestion(
-      question: "5. 'I saw _______ in the mirror this morning.'",
-      options: ["me", "mine", "myself", "my"],
-      correctIndex: 2,
+      question: "5. 'The fish tasted _______.'",
+      options: ["awful", "awfully", "awfulness", "awe"],
+      correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The subject 'I' is the same as the object.",
+      explanation: "We use adjectives like 'awful' after sense verbs.",
     ),
 
     QuizQuestion(
-      question: "6. '_______ are my cousins over there.'",
-      options: ["This", "That", "These", "Those"],
+      question: "6. Where is the adjective in: 'He seemed very upset'?",
+      options: ["He", "Seemed", "Very", "Upset"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Use 'those' for plural things that are far away.",
+      explanation: "'Upset' is the adjective describing the subject 'He'.",
     ),
 
     QuizQuestion(
-      question: "7. Which pronoun is used to show ownership for 'they'?",
-      options: ["Theirs", "Them", "Their", "Themselves"],
-      correctIndex: 0,
+      question: "7. 'The kente cloth feels _______.'",
+      options: ["roughly", "rough", "roughness", "roughed"],
+      correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Theirs' is the possessive pronoun.",
+      explanation: "'Rough' is the adjective following the sense verb 'feels'.",
     ),
 
     QuizQuestion(
-      question: "8. 'To _______ did you give the letter?'",
-      options: ["who", "whom", "whose", "which"],
-      correctIndex: 1,
-      difficulty: "Hard",
-      explanation: "'Whom' is used as the object of a preposition (to).",
-    ),
-
-    QuizQuestion(
-      question: "9. 'The dog wagged _______ tail.' (Note: This is a possessive, not a pronoun, but often confused!)",
-      options: ["its", "it's", "his", "their"],
+      question: "8. Choose the correct order: 'I have a _______ _______ car.'",
+      options: ["fast, red", "red, fast", "fastly, red", "red, fastly"],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "'Its' is the possessive form for things or animals.",
+      explanation: "Opinion or speed usually comes before colour.",
     ),
 
     QuizQuestion(
-      question: "10. 'You and Kwesi must do the work _______.'",
-      options: ["yourself", "yourselves", "themselves", "ourselves"],
+      question: "9. Which sentence uses a sense verb and an adjective correctly?",
+      options: ["The bell sounds loudly.", "The bell sounds loud.", "The loud sounds bell.", "The bell loud sounds."],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Since 'You and Kwesi' is plural, we use 'yourselves'.",
+      explanation: "'Sound' is a sense verb followed by the adjective 'loud'.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'The medicine _______ bitter.'",
+      options: ["looks", "feels", "tastes", "sounds"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Bitter' is a taste description.",
     ),
   ],
 );
@@ -19131,7 +19131,6 @@ final QuizModel Scijhs1s1ss1Lesson4QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/5. JHS1 S1 SS2 L1/8. Quiz.m4a',
   questions: [
@@ -22859,6 +22858,510 @@ final QuizModel Scijhs1s4ss4Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "Safety features help control how and when unbalanced forces act on our bodies.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The invisible area around a magnet where it can pull objects is the:",
+      options: ["Gravity field", "Electric zone", "Magnetic field", "Inertia space"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The magnetic field is the region where magnetic forces act.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which rule is always true for magnets?",
+      options: ["Like poles attract", "Opposite poles attract", "South poles only attract iron", "Magnets work best in water"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The fundamental law is that opposites (N-S) attract and likes (N-N or S-S) repel.",
+    ),
+
+    QuizQuestion(
+      question: "3. If you bring two North poles together, they will:",
+      options: ["Stick together", "Pull harder", "Push apart", "Become balanced"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Like poles experience a force of repulsion.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is a compass needle useful for finding direction?",
+      options: ["It is made of heavy lead", "It is a tiny magnet", "It is attracted to the sun", "It follows the wind"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A compass needle is a small magnet that aligns with Earth's magnetic field.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a use for magnets in a Ghanaian home?",
+      options: ["To keep a fridge door closed", "To cook jollof rice", "To light a charcoal stove", "To clean the floor"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Fridge doors use magnetic strips to create a tight seal.",
+    ),
+
+    QuizQuestion(
+      question: "6. A material that is NOT attracted to a magnet is called:",
+      options: ["Unmagnetic", "Non-magnetic", "Anti-magnetic", "Permanent"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Substances like wood, plastic, and glass are non-magnetic.",
+    ),
+
+    QuizQuestion(
+      question: "7. What happens if you cut a bar magnet in half?",
+      options: ["You get one North and one South", "The magnetism is destroyed", "You get two smaller N-S magnets", "It becomes an electromagnet"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Magnetic poles always exist in pairs; you cannot isolate a single pole.",
+    ),
+
+    QuizQuestion(
+      question: "8. Iron filings are often used to show:",
+      options: ["The weight of a magnet", "The shape of a magnetic field", "The color of a magnet", "How magnets melt"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Filings line up along the invisible field lines, making them visible.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which metal is commonly used to make permanent magnets?",
+      options: ["Aluminum", "Copper", "Steel", "Gold"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Steel (which contains iron) is excellent for holding permanent magnetism.",
+    ),
+
+    QuizQuestion(
+      question: "10. In an electric bell, the magnet is:",
+      options: ["Always on", "Temporary (Electromagnet)", "Made of wood", "Located in the battery"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It only becomes a magnet when the circuit is closed (button is pressed).",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of a simple machine?",
+      options: ["To create more energy", "To make work easier", "To replace human effort", "To make tools look better"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Simple machines don't create energy, they just make the application of force more efficient.",
+    ),
+
+    QuizQuestion(
+      question: "2. A knife used to cut bread is an example of a:",
+      options: ["Lever", "Wedge", "Pulley", "Wheel"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A knife is a moving wedge that changes a downward force into a lateral force to split the bread.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is a 'Wheel and Axle'?",
+      options: ["A door hinge", "A screwdriver handle", "A set of stairs", "A bottle opener"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "When you turn the large handle, it turns the smaller shaft (axle).",
+    ),
+
+    QuizQuestion(
+      question: "4. A see-saw at a playground is which type of machine?",
+      options: ["Inclined Plane", "Lever", "Screw", "Wedge"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A see-saw is a classic lever with a pivot in the middle.",
+    ),
+
+    QuizQuestion(
+      question: "5. A 'spiral staircase' is most similar to which machine?",
+      options: ["Lever", "Pulley", "Screw", "Wedge"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A screw is an inclined plane (stairs) wrapped around a central point.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which machine helps you change the direction of a force?",
+      options: ["A pulley", "A wedge", "A screw", "An axle"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A pulley allows you to pull down to lift an object up.",
+    ),
+
+    QuizQuestion(
+      question: "7. What do we call the point where a lever pivots?",
+      options: ["The Load", "The Effort", "The Fulcrum", "The Axle"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The fulcrum is the fixed turning point of a lever.",
+    ),
+
+    QuizQuestion(
+      question: "8. A crane at a building site uses which machine to lift steel?",
+      options: ["Multiple Wedges", "Multiple Pulleys", "Many Screws", "Inclined Planes"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cranes use pulley systems to multiply force for heavy lifting.",
+    ),
+
+    QuizQuestion(
+      question: "9. A bottle lid that you twist off is an example of a:",
+      options: ["Wedge", "Screw", "Lever", "Pulley"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The threads on the lid and bottle form a screw mechanism.",
+    ),
+
+    QuizQuestion(
+      question: "10. A heavy rock is moved by sliding a metal bar under it. The bar is a:",
+      options: ["Pulley", "Lever", "Wedge", "Wheel"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Using a bar to pry something up is a classic lever application.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L6/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of a lever is the fixed point it turns on?",
+      options: ["Effort", "Load", "Fulcrum", "Beam"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The fulcrum is the hinge or pivot point.",
+    ),
+
+    QuizQuestion(
+      question: "2. In a First Class lever, where is the Fulcrum?",
+      options: ["Between the Effort and Load", "At the very end of the bar", "On top of the Load", "Inside the Effort"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "First class has the pivot (F) in the center.",
+    ),
+
+    QuizQuestion(
+      question: "3. A wheelbarrow makes lifting heavy soil easier because:",
+      options: ["The Effort is in the middle", "The Load is in the middle", "It has no Fulcrum", "It uses a motor"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Having the Load in the middle (Second Class) multiplies the force of your lift.",
+    ),
+
+    QuizQuestion(
+      question: "4. When you use a broom, your moving hand in the middle provides the:",
+      options: ["Fulcrum", "Load", "Effort", "Gravity"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The hand doing the pushing/pulling work is the effort.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a Third Class lever?",
+      options: ["A pair of scissors", "A crowbar", "A wheelbarrow", "A pair of tweezers"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Tweezers have the pivot at the end and the effort in the middle.",
+    ),
+
+    QuizQuestion(
+      question: "6. The 'FLE' rule helps us remember what part is in the:",
+      options: ["Beginning", "Middle", "End", "Handle"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The letters F-L-E represent what is in the center for classes 1, 2, and 3.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you move the fulcrum closer to the load in a 1st class lever:",
+      options: ["Work becomes harder", "Work becomes easier", "The load gets heavier", "The effort disappears"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Bringing the pivot closer to the load gives you more mechanical advantage.",
+    ),
+
+    QuizQuestion(
+      question: "8. A crowbar used to lift a heavy rock is a:",
+      options: ["First Class lever", "Second Class lever", "Third Class lever", "Non-mechanical tool"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The pivot point is between your hand and the rock.",
+    ),
+
+    QuizQuestion(
+      question: "9. Your human arm acts as a lever when lifting a book. The elbow is the:",
+      options: ["Load", "Effort", "Fulcrum", "Muscle"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The elbow is the fixed point your arm rotates around.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which class of lever does NOT usually make a load feel lighter?",
+      options: ["First Class", "Second Class", "Third Class", "All levers make loads lighter"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Third class levers are used for speed and range of motion, not for force multiplication.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss4Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS4 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Mathematically, Work is defined as:",
+      options: ["Force divided by distance", "Force plus distance", "Force times distance", "Mass times gravity"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Work (W) is the product of Force (F) and Distance (d).",
+    ),
+
+    QuizQuestion(
+      question: "2. In the efficiency formula, we divide Work Output by:",
+      options: ["Work Input", "Distance", "Time", "Gravity"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Efficiency compares what you get out to what you put in.",
+    ),
+
+    QuizQuestion(
+      question: "3. A machine that is 50% efficient loses half its energy to:",
+      options: ["The air", "The Load", "Friction and Heat", "The ground"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Lost work in machines is almost always converted into heat by friction.",
+    ),
+
+    QuizQuestion(
+      question: "4. If Work Input is 100J and Work Output is 70J, what is the efficiency?",
+      options: ["170%", "30%", "70%", "700%"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Efficiency = (70 / 100) × 100 = 70%",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a way to reduce friction in a bicycle?",
+      options: ["Using ball bearings", "Removing the brakes", "Deflating the tires", "Adding more weight"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Ball bearings allow parts to roll rather than rub, reducing friction.",
+    ),
+
+    QuizQuestion(
+      question: "6. Work Output is the work done by:",
+      options: ["The person", "The machine", "The friction", "The weather"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Output is the 'result' produced by the machine on the load.",
+    ),
+
+    QuizQuestion(
+      question: "7. What happens to efficiency if a machine gets rusty?",
+      options: ["It stays the same", "It increases", "It decreases", "It becomes 100%"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Rust increases friction, meaning more work is wasted.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a pulley has an efficiency of 90%, it means:",
+      options: ["90% of work is wasted", "10% of work is wasted", "The load is 90kg", "The rope is 90m long"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "90% is useful, so the remaining 10% is lost/wasted.",
+    ),
+
+    QuizQuestion(
+      question: "9. A 'perfect' machine with 100% efficiency is:",
+      options: ["Found in every kitchen", "Impossible in real life", "Very cheap to buy", "Only used in Ghana"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Friction can be reduced, but never completely eliminated.",
+    ),
+
+    QuizQuestion(
+      question: "10. To calculate efficiency, the answer is usually written as a:",
+      options: ["Newton", "Kilogram", "Meter", "Percentage"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Efficiency is a ratio expressed as a part of 100 (%).",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these tools is used for pruning small branches of a mango tree?",
+      options: ["Secateurs", "Hand rake", "Spade", "Sickle"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Secateurs are like heavy-duty scissors used for pruning.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why must we keep agricultural tools sharp?",
+      options: ["To make them heavier", "To reduce work effort", "To prevent all rust", "To change their shape"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sharp tools cut through weeds or wood much more easily.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the main purpose of a knapsack sprayer?",
+      options: ["To carry clean water", "To plant small seeds", "To apply farm liquid", "To harvest many crops"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It is used to spray liquids like fertilizers or pesticides.",
+    ),
+
+    QuizQuestion(
+      question: "4. A student is using a pickaxe. What is the safest behavior for others?",
+      options: ["Stand directly behind", "Stand very close by", "Stay a safe distance", "Watch from the front"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Keeping distance prevents being hit by the swinging tool or flying debris.",
+    ),
+
+    QuizQuestion(
+      question: "5. What should you do immediately after using a shovel in muddy soil?",
+      options: ["Hide it in the grass", "Wash and dry the tool", "Sharpen the flat edge", "Paint the whole handle"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cleaning prevents rust and keeps the tool ready for the next use.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which tool is best for removing stones and leveling a seedbed?",
+      options: ["A garden rake", "A large shovel", "A hand trowel", "A cutting axe"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Rakes are designed to gather debris and level the soil surface.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which part of a tool should you always hold during use?",
+      options: ["The metal blade", "The sharp point", "The heavy head", "The main handle"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The handle provides a safe and firm grip.",
+    ),
+
+    QuizQuestion(
+      question: "8. What happens if you use a flat-tyred wheelbarrow to carry heavy rocks?",
+      options: ["It becomes very fast", "The tyre may be ruined", "It holds more weight", "The rocks feel lighter"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Moving heavy loads on a flat tyre can damage the rim and the tyre itself.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a rule for tool maintenance?",
+      options: ["Store tools in rain", "Use blunt cutlasses", "Oil the metal parts", "Throw tools in piles"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Oiling is a key maintenance step to prevent rust.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the primary use of a garden spade?",
+      options: ["Pruning citrus trees", "Digging and lifting", "Sweeping dry leaves", "Sharpening cutlasses"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Spades are designed for digging and turning over soil.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s4ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S4 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a 'Shadow Board' used for in a tool store?",
+      options: ["To hide tools from thieves", "To keep tools cool", "For organized storage", "To sharpen the blades"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Shadow boards use outlines to show exactly where each tool belongs.",
+    ),
+
+    QuizQuestion(
+      question: "2. If a wheelbarrow tyre is flat, who is the best person to help fix it?",
+      options: ["A professional carpenter", "A local vulcanizer", "A school librarian", "A village weaver"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Vulcanizers specialize in repairing tyres and tubes.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these should be included in a farm tool report?",
+      options: ["The color of the shed", "The price of the crops", "The condition of tools", "The name of the birds"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Knowing if a tool is good, rusty, or broken is essential for maintenance.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should you never use a leaking knapsack sprayer?",
+      options: ["It wastes too much water", "It makes the tool heavy", "Chemicals can harm you", "It makes a loud noise"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sprayers often contain pesticides that are toxic if they leak onto the user.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the correct way to store a spade to prevent rust?",
+      options: ["Bury it in the soil", "Hang it off the ground", "Leave it in a bucket", "Wrap it in wet cloth"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Keeping the metal away from ground moisture prevents oxidation (rusting).",
+    ),
+
+    QuizQuestion(
+      question: "6. You borrowed a hoe from your neighbor. What should you do before returning it?",
+      options: ["Paint the handle red", "Sharpen and clean it", "Keep it for a month", "Use it to dig stones"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Returning tools in good condition is a key rule of community tool use.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which tool part is most likely to need replacement due to snapping?",
+      options: ["The metal spade blade", "The wooden axe handle", "The plastic sprayer lid", "The rubber rake teeth"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Wooden handles can become brittle or break under heavy force.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does it mean if a tool's condition is listed as 'Critical'?",
+      options: ["It is brand new", "It is very shiny", "It is unsafe to use", "It is very small"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Critical means it needs immediate repair and should not be used.",
+    ),
+
+    QuizQuestion(
+      question: "9. Labeling sections in a tool store helps mainly with:",
+      options: ["Making tools look pretty", "Finding tools quickly", "Keeping the floor wet", "Growing better crops"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Labels ensure that everyone knows where to find and return specific types of tools.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these tools requires the most technical skill to repair?",
+      options: ["A wooden garden rake", "A manual watering can", "A knapsack sprayer", "A metal garden spade"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The pump and nozzle system of a sprayer are complex and require technical knowledge.",
     ),
   ],
 );
