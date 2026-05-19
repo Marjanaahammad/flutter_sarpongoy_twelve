@@ -306,7 +306,7 @@ final PracticeModel s2ss2Lesson1PracticeData = PracticeModel(
 );
 
 final PracticeModel s3ss1Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/s3_ss1_l1/5. Guided Practice.m4a',
+  audioPath: 'assets/audio/s3_ss1_l1/5_guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario:
@@ -331,7 +331,6 @@ final PracticeModel s3ss1Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
-
 final PracticeModel s3ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/s3_ss1_l2/6. Guided Practice.m4a',
   questions: [
@@ -427,6 +426,106 @@ final PracticeModel s3ss1Lesson5PracticeData = PracticeModel(
       answer: "is",
       explanation:
           "In sentences describing a state of being, the verb 'to be' (is) is the simple predicate.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Join these: \"Ama likes kenkey.\" \"Kojo prefers fufu.\"",
+      answer: "Ama likes kenkey, but Kojo prefers fufu.",
+      explanation: "We use 'but' because there is a contrast between what Ama and Kojo like.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Join these: \"It was very dark.\" \"We turned on the torch.\"",
+      answer: "It was very dark, so we turned on the torch.",
+      explanation: "Turning on the torch is the result of it being dark, so we use 'so'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is missing in this compound sentence: \"The bell rang _ and the students ran outside.\"",
+      answer: "A comma.",
+      explanation: "A comma must come before the coordinating conjunction 'and'.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Is this Independent or Dependent? \"While the fufu was pounding.\"",
+      answer: "Dependent.",
+      explanation: "It starts with 'While' and doesn't tell us what happened during that time.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Combine these into a sentence starting with the dependent clause: \"It was dark.\" \"We used a torch.\"",
+      answer: "Because it was dark, we used a torch.",
+      explanation: "Since we started with the dependent 'Because' clause, we must add a comma.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Identify the independent clause: \"We danced at the party all night long.\"",
+      answer: "We danced at the party all night long.",
+      explanation: "This expresses a complete thought and can stand alone as a sentence.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L8/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the plural of \"child\"?",
+      answer: "children",
+      explanation: "'Child' is an irregular noun that adds '-ren' instead of '-s'.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Which of these is an uncountable noun: Bottle, Sand, Pen, Mango?",
+      answer: "Sand",
+      explanation: "You cannot count individual grains of sand easily, so it is uncountable.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Correct this sentence: \"I cut the orange into two halfs.\"",
+      answer: "I cut the orange into two halves.",
+      explanation: "For nouns ending in '-f', we usually change the '-f' to '-ves' for the plural.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L9/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Complete this: \"Kojo did the homework by ________.\"",
+      answer: "himself",
+      explanation: "Since Kojo (the subject) did the action to or for himself, we use the reflexive pronoun 'himself'.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Which word is a possessive pronoun? He, Him, His, Himself",
+      answer: "His",
+      explanation: "'His' shows that something belongs to him.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Fill in the blank: \"The woman ________ sells the bread is my auntie.\"",
+      answer: "who",
+      explanation: "'Who' is the relative pronoun we use to talk about people.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson10PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. In the sentence \"The soup smells wonderful,\" what is the adjective?",
+      answer: "wonderful",
+      explanation: "'Wonderful' is the adjective following the sense verb 'smells'.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Move the adjective to the front: \"The student is clever.\"",
+      answer: "The clever student.",
+      explanation: "We can place the adjective directly before the noun instead of after the verb 'is'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Which sense verb fits best? \"The silk fabric ________ soft to the touch.\"",
+      answer: "feels",
+      explanation: "We use 'feels' for the sense of touch.",
     ),
   ],
 );

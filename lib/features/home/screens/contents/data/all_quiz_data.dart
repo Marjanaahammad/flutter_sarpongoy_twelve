@@ -1353,7 +1353,7 @@ final QuizModel s2ss2Lesson1QuizData = QuizModel(
 );
 
 final QuizModel s3ss1Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/s3_ss1_l1/7. Quiz.m4a',
+  audioPath: 'assets/audio/s3_ss1_l1/7_quiz.m4a',
   questions: [
     QuizQuestion(
       question: "1. If the rain ________, the farmers will be happy.",
@@ -1861,6 +1861,426 @@ final QuizModel s3ss1Lesson5QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "'is' is the linking verb that serves as the simple predicate.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. 'The sun was bright, _______ the water was cold.'",
+      options: ["so", "or", "but", "nor"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Shows contrast between the sun and the water.",
+    ),
+
+    QuizQuestion(
+      question: "2. A compound sentence must have at least _______ independent clauses.",
+      options: ["one", "four", "three", "two"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It joins at least two complete thoughts.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Kofi finished his chores, _______ he went out to play.'",
+      options: ["but", "or", "so", "yet"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Going to play is the result of finishing chores.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which punctuation mark usually comes before the conjunction in a compound sentence?",
+      options: ["Full stop", "Comma", "Question mark", "Exclamation point"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A comma separates the two independent clauses.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The Black Stars played well, _______ they lost the match.'",
+      options: ["but", "and", "or", "so"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Shows an unexpected or contrasting result.",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the independent clause: 'Since it was raining, we stayed home.'",
+      options: ["Since it was raining", "we stayed home", "it was raining", "Since"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'We stayed home' can stand alone as a sentence.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'You can study for the RME test, _______ you can practice your Maths.'",
+      options: ["or", "but", "so", "and"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Offers a choice between two activities.",
+    ),
+
+    QuizQuestion(
+      question: "8. Join these correctly: 'The market is busy.' 'The prices are high.'",
+      options: ["The market is busy or the prices are high.", "The market is busy, and the prices are high.", "The market is busy but the prices are high", "The market is busy so the prices are high."],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'And' adds related information about the market.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is NOT a coordinating conjunction?",
+      options: ["And", "But", "Because", "Or"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Because' is a subordinating conjunction, not a coordinating one.",
+    ),
+
+    QuizQuestion(
+      question: "10. Analyze this: 'The light went out, so I lit a candle.' What is the second independent clause?",
+      options: ["The light went out", "so I lit a candle", "I lit a candle", "lit a candle"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'I lit a candle' is the full thought following the conjunction.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. 'Because Esi studied hard...' is an example of a/an:",
+      options: ["Independent Clause", "Complete Thought", "Simple Sentence", "Dependent Clause"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It is incomplete and starts with a subordinating conjunction.",
+    ),
+
+    QuizQuestion(
+      question: "2. An independent clause must have a subject and a _______.",
+      options: ["Comma", "Conjunction", "Adjective", "Verb"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "All clauses need a subject and a verb.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which word often starts a dependent clause?",
+      options: ["And", "Since", "But", "Or"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Since' is a subordinating conjunction used to link ideas.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the independent clause: 'Although the road was bumpy, the trotro arrived safely.'",
+      options: ["Although the road was bumpy", "the road was bumpy", "the trotro arrived safely", "arrived safely"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This part makes sense by itself.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'We danced at the party all night long.' This is a/an _______ clause.",
+      options: ["Dependent", "Independent", "Relative", "Subject"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It is a complete thought with a subject and verb.",
+    ),
+
+    QuizQuestion(
+      question: "6. Complete the sentence: 'I will call you _______ I get to the Kejetia station.'",
+      options: ["so", "when", "but", "or"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'When' creates a dependent clause of time.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'Since the bank is closed, I cannot withdraw my Cedis.' Where is the comma?",
+      options: ["After 'Since'", "After 'closed'", "After 'I'", "No comma needed"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A comma follows a leading dependent clause.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these cannot stand alone as a sentence?",
+      options: ["Ghana is in West Africa.", "The sun is very hot today.", "Whereas some people prefer tea.", "Kofi likes to play football."],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Whereas' makes this a dependent clause.",
+    ),
+
+    QuizQuestion(
+      question: "9. Combine: (I finished my chores) (I went to play). Use 'After'.",
+      options: ["After I finished my chores, I went to play.", "I went to play, after I finished my chores.", "After I finished my chores I went to play.", "I went to play after, I finished my chores."],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Correct use of leading dependent clause and comma.",
+    ),
+
+    QuizQuestion(
+      question: "10. A complex sentence is made of:",
+      options: ["Two independent clauses", "One independent and at least one dependent clause", "Only dependent clauses", "Just one long subject"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "This is the standard definition of a complex sentence.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L8/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which is the correct plural of 'mouse'?",
+      options: ["mouses", "mices", "mice", "mousees"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Mouse' changes to 'mice' in plural form.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the uncountable noun.",
+      options: ["Chair", "Water", "Student", "Apple"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Water cannot be counted as individual units.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Ghana' is an example of a/an _______.",
+      options: ["Common Noun", "Proper Noun", "Uncountable Noun", "Irregular Noun"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It is a specific name of a country.",
+    ),
+
+    QuizQuestion(
+      question: "4. 'The _______ are falling from the tree.'",
+      options: ["leafs", "leaves", "leafes", "leaf"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Plural of 'leaf' is 'leaves'.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which noun does NOT change in its plural form?",
+      options: ["Man", "Child", "Sheep", "Tooth"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Sheep is the same in both singular and plural.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'I saw three _______ at the Kejetia station.'",
+      options: ["man", "men", "mans", "mens"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Plural of 'man' is 'men'.",
+    ),
+
+    QuizQuestion(
+      question: "7. Identify the concrete noun.",
+      options: ["Happiness", "Bravery", "Stone", "Beauty"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A stone is a physical object you can touch.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Give me _______ of the orange.'",
+      options: ["halfs", "half", "halves", "halving"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Half' becomes 'halves' when plural.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sentence uses the plural correctly?",
+      options: ["The teeths are white.", "The tooths are white.", "The teeth are white.", "The tooth are white."],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Teeth' is already the plural of 'tooth'.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'The _______ are playing football.'",
+      options: ["childs", "childrens", "children", "child"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Children' is the correct irregular plural of 'child'.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L9/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a reflexive pronoun?",
+      options: ["She", "Her", "Herself", "Hers"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Reflexive pronouns end in '-self' or '-selves'.",
+    ),
+
+    QuizQuestion(
+      question: "2. '_______ is your name?'",
+      options: ["Who", "What", "Which", "Whose"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'What' is the interrogative pronoun used for names.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'We have finished our work. The work is _______.'",
+      options: ["ours", "our", "us", "ourselves"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Ours' is the possessive pronoun for 'we'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the relative pronoun: 'The house that Jack built is tall.'",
+      options: ["House", "Built", "That", "Tall"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'That' connects the description to the house.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'I saw _______ in the mirror this morning.'",
+      options: ["me", "mine", "myself", "my"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The subject 'I' is the same as the object.",
+    ),
+
+    QuizQuestion(
+      question: "6. '_______ are my cousins over there.'",
+      options: ["This", "That", "These", "Those"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Use 'those' for plural things that are far away.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which pronoun is used to show ownership for 'they'?",
+      options: ["Theirs", "Them", "Their", "Themselves"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Theirs' is the possessive pronoun.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'To _______ did you give the letter?'",
+      options: ["who", "whom", "whose", "which"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Whom' is used as the object of a preposition (to).",
+    ),
+
+    QuizQuestion(
+      question: "9. 'The dog wagged _______ tail.' (Note: This is a possessive, not a pronoun, but often confused!)",
+      options: ["its", "it's", "his", "their"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "'Its' is the possessive form for things or animals.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'You and Kwesi must do the work _______.'",
+      options: ["yourself", "yourselves", "themselves", "ourselves"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Since 'You and Kwesi' is plural, we use 'yourselves'.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson10QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a reflexive pronoun?",
+      options: ["She", "Her", "Herself", "Hers"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Reflexive pronouns end in '-self' or '-selves'.",
+    ),
+
+    QuizQuestion(
+      question: "2. '_______ is your name?'",
+      options: ["Who", "What", "Which", "Whose"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'What' is the interrogative pronoun used for names.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'We have finished our work. The work is _______.'",
+      options: ["ours", "our", "us", "ourselves"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Ours' is the possessive pronoun for 'we'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the relative pronoun: 'The house that Jack built is tall.'",
+      options: ["House", "Built", "That", "Tall"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'That' connects the description to the house.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'I saw _______ in the mirror this morning.'",
+      options: ["me", "mine", "myself", "my"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The subject 'I' is the same as the object.",
+    ),
+
+    QuizQuestion(
+      question: "6. '_______ are my cousins over there.'",
+      options: ["This", "That", "These", "Those"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Use 'those' for plural things that are far away.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which pronoun is used to show ownership for 'they'?",
+      options: ["Theirs", "Them", "Their", "Themselves"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Theirs' is the possessive pronoun.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'To _______ did you give the letter?'",
+      options: ["who", "whom", "whose", "which"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Whom' is used as the object of a preposition (to).",
+    ),
+
+    QuizQuestion(
+      question: "9. 'The dog wagged _______ tail.' (Note: This is a possessive, not a pronoun, but often confused!)",
+      options: ["its", "it's", "his", "their"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "'Its' is the possessive form for things or animals.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'You and Kwesi must do the work _______.'",
+      options: ["yourself", "yourselves", "themselves", "ourselves"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Since 'You and Kwesi' is plural, we use 'yourselves'.",
     ),
   ],
 );

@@ -630,7 +630,7 @@ final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPrac
 );
 
 final IndependentPracticeModel s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/s3_ss1_l1/6. Independent Practice.m4a',
+  audioPath: 'assets/audio/s3_ss1_l1/6_independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
       question: "1. If I ________ my lunch, I will be hungry later.",
@@ -838,6 +838,286 @@ final IndependentPracticeModel s3ss1Lesson5IndependentQuizData = IndependentPrac
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "",
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. You can go to the library, ________ you can finish your work at home.",
+        options: [
+          "and",
+          "or",
+          "but",
+          "so"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "or"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The GPRTU drivers were on strike, ________ the roads were very quiet.",
+        options: [
+          "or",
+          "but",
+          "so",
+          "and"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "so"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Esi bought mangoes, ________ she forgot to buy oranges.",
+        options: [
+          "but",
+          "so",
+          "or",
+          "for"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "but"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a compound sentence?",
+        options: [
+          "The boy ran fast.",
+          "Because it was raining, we stayed inside.",
+          "The teacher arrived, and the lesson began.",
+          "Running to the market."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The teacher arrived, and the lesson began."
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an Independent Clause?",
+        options: [
+          "Since the light went out.",
+          "Before the teacher arrived.",
+          "The headmaster gave a speech.",
+          "Although he was tired."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The headmaster gave a speech."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best word to start this dependent clause: \"________ it was raining, the football match continued.\"",
+        options: [
+          "And",
+          "But",
+          "Although",
+          "So"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Although"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"We will go to the beach if the weather is clear.\" What is the dependent clause?",
+        options: [
+          "We will go",
+          "to the beach",
+          "if the weather is clear",
+          "the weather is clear"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "if the weather is clear"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence is punctuated correctly?",
+        options: [
+          "Since I have no money I cannot buy the kenkey.",
+          "Since I have no money, I cannot buy the kenkey.",
+          "I cannot buy the kenkey, since I have no money.",
+          "Because it was hot, the ice melted?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Since I have no money, I cannot buy the kenkey."
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L8/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a Proper Noun?",
+        options: [
+          "country",
+          "Accra",
+          "river",
+          "mountain"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Accra"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The farmer has ten ________ in his pen.",
+        options: [
+          "sheeps",
+          "sheep",
+          "sheepes",
+          "shoop"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "sheep"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. My ________ hurt after walking to the market.",
+        options: [
+          "foots",
+          "feets",
+          "feet",
+          "footes"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "feet"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Please put the ________ on the table.",
+        options: [
+          "knifes",
+          "knive",
+          "knives",
+          "knifing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "knives"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L9/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"That bag over there belongs to me. It is ________.\"",
+        options: [
+          "mine",
+          "my",
+          "me",
+          "myself"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "mine"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The children are playing by ________ in the garden.\"",
+        options: [
+          "theirselves",
+          "themselves",
+          "himself",
+          "ourselves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "themselves"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"________ of these two books do you want to read?\"",
+        options: [
+          "Who",
+          "Which",
+          "Whom",
+          "This"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Which"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Take ________ oranges and put them in the basket.\"",
+        options: [
+          "this",
+          "that",
+          "these",
+          "them"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "these"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence has the adjective in the correct place?",
+        options: [
+          "The boy tall is my brother.",
+          "The tall boy is my brother.",
+          "Boy the tall is my brother.",
+          "Tall the boy is my brother."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The tall boy is my brother."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The banku ________ sour if it stays too long.\"",
+        options: [
+          "looks",
+          "sounds",
+          "tastes",
+          "feels"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "tastes"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"Ama is a ________ girl.\"",
+        options: [
+          "beautifully",
+          "beauty",
+          "beautiful",
+          "beautify"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "beautiful"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the sentence \"The music sounds great,\" what is the sense verb?",
+        options: [
+          "Music",
+          "Sounds",
+          "Great",
+          "The"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sounds"
     ),
   ],
 );

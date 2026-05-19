@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.6+12
+version: 1.0.6+13
 
 environment:
   sdk: ^3.5.3
@@ -118,6 +118,23 @@ flutter:
     - assets/images/english/s2_ss2_l1/
     - assets/images/english/s3_ss1_l1/
     - assets/images/english/s3_ss1_l2/
+    - assets/audio/s3_ss1_l2/
+    - assets/audio/s3_ss1_l3/
+    - assets/audio/s3_ss1_l4/
+    - assets/audio/s3_ss1_l5/
+    - assets/images/english/s3_ss1_l3/
+    - assets/images/english/s3_ss1_l4/
+    - assets/images/english/s3_ss1_l5/
+    - assets/audio/english/ENGLISH JHS1 S3 SS1 L6/
+    - assets/images/english/ENGLISH JHS1 S3 SS1 L6/
+    - assets/audio/english/ENGLISH JHS1 S3 SS1 L7/
+    - assets/images/english/ENGLISH JHS1 S3 SS1 L7/
+    - assets/audio/english/ENGLISH JHS1 S3 SS1 L8/
+    - assets/images/english/ENGLISH JHS1 S3 SS1 L8/
+    - assets/audio/english/ENGLISH JHS1 S3 SS1 L9/
+    - assets/images/english/ENGLISH JHS1 S3 SS1 L9/
+    - assets/audio/english/ENGLISH JHS1 S3 SS1 L10/
+    - assets/images/english/ENGLISH JHS1 S3 SS1 L10/
     - assets/images/RME/JHS1_S1_SS1_L1/
     - assets/images/RME/JHS1_S1_SS1_L2/
     - assets/images/RME/JHS1_S1_SS1_L3/
