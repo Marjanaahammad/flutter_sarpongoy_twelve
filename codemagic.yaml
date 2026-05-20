@@ -4,7 +4,7 @@ workflows:
 
     environment:
       flutter: 3.24.3
-      xcode: 16.0 # Changed from 26.0 to a valid stable Xcode 16 release
+      xcode: 26.0 # Changed from 26.0 to a valid stable Xcode 16 release
 
     scripts:
       - flutter build ios --simulator --flavor staging
