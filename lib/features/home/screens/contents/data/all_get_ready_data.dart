@@ -160,7 +160,6 @@ final GetReadyModel jhs2s1ss1Lesson5GetReadyData = GetReadyModel(
   hookImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS1 L5/hook.jpg',
   hookAudioPath: 'assets/audio/english/5. JHS2 S1 SS1 L5/2. Hook.m4a',
 );
-
 final GetReadyModel jhs2s1ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS2 L1/student_overview.jpg',
   overviewAudioPath: 'assets/audio/english/6. JHS2 S1 SS2 L1/1. Chapter 1.m4a',
@@ -173,7 +172,6 @@ final GetReadyModel jhs2s1ss2Lesson2GetReadyData = GetReadyModel(
   hookImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS2 L2/hook.jpg',
   hookAudioPath: 'assets/audio/english/7. JHS2 S1 SS2 L2/2. Hook.m4a',
 );
-
 final GetReadyModel jhs2s1ss3Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS3 L1/student_overview.jpg',
   overviewAudioPath: 'assets/audio/english/8. JHS2 S1 SS3 L1/1. Chapter 1.m4a',
@@ -191,6 +189,67 @@ final GetReadyModel jhs2s1ss3Lesson3GetReadyData = GetReadyModel(
   overviewAudioPath: 'assets/audio/english/10. JHS2 S1 SS3 L3/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/english/ENGLISH JHS2 S1 SS3 L3/hook.jpg',
   hookAudioPath: 'assets/audio/english/10. JHS2 S1 SS3 L3/2. Hook.m4a',
+);
+
+final GetReadyModel jhs2s2ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L1/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L1/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L2/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L2/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L3/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L3/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L4/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L4/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson5GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L5/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L5/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson6GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L6/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L6/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson7GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L7/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L7/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson8GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L8/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L8/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson9GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L9/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L9/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/2. Hook.m4a',
+);
+final GetReadyModel jhs2s2ss1Lesson10GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L10/student_overview.jpg',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/english/ENGLISH JHS2 S2 SS1 L10/hook.jpg',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/2. Hook.m4a',
 );
 
 final GetReadyModel jhs3s1ss1Lesson1GetReadyData = GetReadyModel(
@@ -223,7 +282,6 @@ final GetReadyModel jhs3s1ss3Lesson2GetReadyData = GetReadyModel(
   hookImagePath: 'assets/images/english/ENGLISH JHS3 S1 SS3 L2/hook.jpg',
   hookAudioPath: 'assets/audio/english/5. JHS3 S1 SS3 L2/2. Hook.m4a',
 );
-
 
 
 ///Religious & Moral Education
@@ -1287,7 +1345,7 @@ final GetReadyModel SciJHS1s4ss4Lesson5GetReadyData = GetReadyModel(
 );
 final GetReadyModel SciJHS1s4ss4Lesson6GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS1 S4 SS4 L6/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/science/JHS1 S4 SS4 L6/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/science/JHS1 S4 SS4 L6/1. Chapter 1 .m4a',
   hookImagePath: 'assets/images/science/SCIENCE JHS1 S4 SS4 L6/hook.jpg',
   hookAudioPath: 'assets/audio/science/JHS1 S4 SS4 L6/2. Hook.m4a',
 );

@@ -2938,7 +2938,6 @@ final QuizModel jhs2s1ss1Lesson5QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel jhs2s1ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/6. JHS2 S1 SS2 L1/7. Quiz.m4a',
   questions: [
@@ -3192,7 +3191,6 @@ final QuizModel jhs2s1ss2Lesson2QuizData = QuizModel(
     ),
   ],
 );
-
 final QuizModel jhs2s1ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/8. JHS2 S1 SS3 L1/7. Quiz.m4a',
   questions: [
@@ -3465,6 +3463,997 @@ final QuizModel jhs2s1ss3Lesson3QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "While both stop the air, a plosive \"pops\" it out instantly, while an affricate releases it through a narrow gap.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the best definition of prediction in reading?",
+      options: ["Guessing the meaning of a word you don't know", "Using clues and prior knowledge to think ahead about a text", "Copying the main ideas into your notebook", "Reading as fast as possible without stopping"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Prediction is using evidence and experience to anticipate content.",
+    ),
+
+    QuizQuestion(
+      question: "2. You see a photo of a woman in a lab coat holding a new variety of maize. What is the text likely about?",
+      options: ["A recipe for making Kenkey", "The history of the Ashanti Kingdom", "Agricultural research and food security in Ghana", "How to weave a fishing net"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The lab coat suggests science, and maize relates to agriculture.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is prior knowledge important for prediction?",
+      options: ["It allows you to skip reading the text entirely", "It makes the text shorter", "It tells you exactly what the author's name is", "It helps you connect what you already know to new information"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Prior knowledge provides the context needed to make sense of new facts.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which question is most 'thought-provoking' when reading about plastic waste in the ocean?",
+      options: ["What color is the ocean?", "Do fish like to swim in the water?", "Is plastic made of chemicals?", "How many plastic bottles are produced every day in Ghana?"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "This question probes the scale and local impact of the problem.",
+    ),
+
+    QuizQuestion(
+      question: "5. A passage says: 'The Black Star Square was filled with people waving flags and wearing red, gold, and green.' What is the event?",
+      options: ["A local funeral", "Independence Day celebrations", "A traditional wedding", "A school sports day"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The location and national colors strongly predict Independence Day.",
+    ),
+
+    QuizQuestion(
+      question: "6. If your prediction is proven wrong by the text, what does this mean?",
+      options: ["You are a poor reader", "The author made a mistake", "You have learned something new and should update your thinking", "You should restart the chapter from the beginning"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Learning happens when we reconcile our expectations with new evidence.",
+    ),
+
+    QuizQuestion(
+      question: "7. A text title is 'Digital Literacy in Rural Schools.' Which person would find their prior knowledge most useful here?",
+      options: ["A fisherman who has never used a computer", "A student who uses a tablet in a village school", "A chef who specializes in international cuisine", "A pilot who flies planes to London"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The student has direct experience with the specific topic of the text.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'The government has announced a new tax on imported luxury cars.' What is a likely prediction for the 'gist' of the next paragraph?",
+      options: ["The price of luxury cars in Ghana will increase", "More people will start buying luxury cars", "The tax on salt will be removed", "The history of car manufacturing in Germany"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Taxes usually lead to higher prices for the items being taxed.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the best way to 'monitor' your understanding while reading?",
+      options: ["Closing your eyes after every word", "Stopping occasionally to ask if the text still makes sense", "Reading the same sentence ten times", "Checking your phone for messages"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Monitoring is a self-check process to ensure comprehension.",
+    ),
+
+    QuizQuestion(
+      question: "10. A story about 'The Great Fire of Makola Market' mentions 'faulty electrical wiring.' What is the predicted cause?",
+      options: ["Someone left a stove on", "A lightning strike", "Poorly maintained or illegal power connections", "A cigarette butt"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: '"Electrical wiring" directly points to power-related issues as the cause.',
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first step you should take before reading a non-fiction text?",
+      options: ["Read the last page", "Set a specified purpose for reading", "Count the number of words", "Check the price of the book"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Setting a purpose helps focus your mind.",
+    ),
+
+    QuizQuestion(
+      question: "2. Where do you find the answer to a 'Right There' question?",
+      options: ["In your own head", "In a different book", "In one specific place in the text", "By asking a friend"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "These answers are explicitly stated in one spot.",
+    ),
+
+    QuizQuestion(
+      question: "3. A 'Think and Search' question usually requires you to:",
+      options: ["Give your opinion", "Find information in multiple parts of the text", "Guess what happens next", "Close your eyes and think"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "You must 'search' across the text to compile the answer.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which question type combines text evidence with your prior knowledge?",
+      options: ["Author and You", "Right There", "On Your Own", "Think and Search"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "This bridges the gap between the author's words and your brain.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does it mean to 'monitor for comprehension'?",
+      options: ["Reading as fast as a car", "Actively checking if you understand what you are reading", "Buying a new computer monitor", "Memorizing every single word"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Monitoring is an active self-check of understanding.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a text about a football match, which is a 'sequence' question?",
+      options: ["Who was the referee?", "Where was the match played?", "Do you like football?", "What happened after the first goal was scored?"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "This asks for the order of events.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why should you identify key words in a question?",
+      options: ["To make the question look pretty", "To practice your spelling", "Because the teacher said so", "To help you locate the relevant information in the text"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Key words act as a map to the answer.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Do you think schools should start at 9:00 AM instead of 8:00 AM?' This is an example of:",
+      options: ["A Right There question", "A vocabulary question", "A sequence question", "An On Your Own question"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "This asks for a personal opinion, not a text fact.",
+    ),
+
+    QuizQuestion(
+      question: "9. If the author describes a character as 'hardworking,' and you know they wake up at 4:00 AM to farm, what type of question is 'Why is the character hardworking?'",
+      options: ["Right There", "On Your Own", "Think and Search", "Author and You"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "You use the author's description plus your knowledge of what 4:00 AM farming implies.",
+    ),
+
+    QuizQuestion(
+      question: "10. Reading closely for 'interpretation' means:",
+      options: ["Reading only the titles", "Translating the text into Twi or Ewe", "Trying to understand the deeper meaning of the author's words", "Skimming the text for dates"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Interpretation goes beyond the surface level.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which text feature is a drawing that shows the parts of something?",
+      options: ["Caption", "Diagram", "Index", "Table of Contents"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Diagrams are used to illustrate how something is structured or works.",
+    ),
+
+    QuizQuestion(
+      question: "2. Where is the Table of Contents usually located?",
+      options: ["At the very back of the book", "Underneath a photograph", "At the beginning of the book", "In the middle of a chapter"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "It acts as a map for the entire book at the start.",
+    ),
+
+    QuizQuestion(
+      question: "3. If you are reading about 'The Climate of Ghana' and see a small map with colors showing rainfall, what feature are you using?",
+      options: ["A Glossary", "An Illustration or Map", "A Sidebar", "A Footer"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Maps provide visual data about geographic locations.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the purpose of a caption?",
+      options: ["To list the page numbers of key terms", "To explain what is happening in a picture or photo", "To separate one chapter from another", "To provide a summary of the whole book"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Captions provide context for visual assets.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which feature helps you find a specific topic if you only know the word but not the chapter?",
+      options: ["Table of Contents", "Heading", "Index", "Sub-heading"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The index is an alphabetical list of specific topics and their pages.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Sub-headings' are used to:",
+      options: ["Break down a large heading into smaller, specific sections", "List the names of the students", "Replace the need for an Index", "Show the meaning of bold words"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Sub-headings organize content into manageable chunks.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you see a word in Bold and you don't understand it, what should you do?",
+      options: ["Skip it and keep reading", "Look for the word in the Glossary", "Close the app", "Delete the word"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The glossary defines key terms highlighted in the text.",
+    ),
+
+    QuizQuestion(
+      question: "8. A student is reading about 'The Big Six.' They see a photo of six men and a sentence below it. Which feature is the sentence?",
+      options: ["A Label", "A Heading", "A Caption", "A Glossary"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Text under a photo is a caption.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which text feature would be most useful for finding out which page 'Guggisberg' is mentioned on?",
+      options: ["Table of Contents", "Caption", "Heading", "Index"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The index is the most efficient tool for finding specific names.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why are text features especially important in non-fiction texts?",
+      options: ["They make the book look like a storybook", "They replace the need for actual sentences", "They are required by the government", "They help the reader find and understand information efficiently"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Non-fiction is about information retrieval, and features facilitate this.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are context clues?",
+      options: ["Pictures in a book", "Hints found within a text to help define a difficult word", "The names of the characters", "The page numbers at the bottom"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Context clues are surrounding words that provide meaning.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which cohesive device shows a contrast between two ideas?",
+      options: ["Furthermore", "However", "In addition", "Therefore"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'However' is used to introduce a statement that contrasts with what was said before.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The market was chaotic; people were shouting, goats were running everywhere, and trucks were honking.' What type of clue is used?",
+      options: ["Antonym", "Synonym", "Examples", "Definition"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The descriptions of shouting and goats are examples of chaos.",
+    ),
+
+    QuizQuestion(
+      question: "4. A topic sentence is most often found:",
+      options: ["In the middle of a paragraph", "At the end of a paragraph", "At the beginning of a paragraph", "In the glossary"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "It introduces the main idea of the paragraph.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The harvest was bountiful, providing more than enough food for the entire village.' What does bountiful mean?",
+      options: ["Plentiful or abundant", "Small", "Rotten", "Expensive"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'More than enough' is the key clue here.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a text is set in a 'traditional Ghanaian palace,' how does this culture influence the text?",
+      options: ["It helps you understand the formal language and respect used", "It tells you the characters are probably in London", "It means the text is a fairy tale", "It has no influence on the meaning"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Setting and culture dictate the behavior and language of characters.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the purpose of cohesive devices?",
+      options: ["To link ideas and make the text flow logically", "To make the text harder to read", "To provide definitions of words", "To add more pictures to the page"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "They act as logical connectors between sentences and paragraphs.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'The water in the pond was murky, unlike the crystal-clear water in the bottle.' What is the meaning of murky?",
+      options: ["Clean", "Cold", "Dirty or cloudy", "Deep"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The contrast with 'crystal-clear' reveals the meaning.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which word is a cohesive device used to show a result?",
+      options: ["But", "Therefore", "Also", "First"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "'Therefore' indicates that the following statement is a result of the previous one.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why should you identify the 'Topic Sentence'?",
+      options: ["To know the name of the author", "To understand the main point of the paragraph quickly", "To count how many sentences are in the paragraph", "To find the bold words"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The topic sentence summarizes the paragraph's intent.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What should your lips do during silent reading?",
+      options: ["Move slowly to pronounce words", "Whisper the words quietly", "Remain still", "Hum a quiet tune"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Silent reading involves no vocalization or lip movement.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a characteristic of a 'complex' question?",
+      options: ["The answer is the very first word of the text", "It asks for the author's middle name", "It only has a 'Yes' or 'No' answer", "It requires you to think deeply and connect different ideas"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Complex questions go beyond surface-level facts.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we re-read portions of a text?",
+      options: ["Because we are bored", "To see if the words have changed", "Because the app told us to", "To better understand or recall specific facts and details"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Re-reading is a key strategy for deep comprehension.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a text about the 'Great Accra Flood of 2015,' which is an 'interpretive' question?",
+      options: ["What month did the flood happen?", "How many millimeters of rain fell?", "What message is the author sending about the danger of building in waterways?", "Which city was affected?"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Interpretive questions look for the author's message or purpose.",
+    ),
+
+    QuizQuestion(
+      question: "5. Connecting a text to your 'prior experience' means:",
+      options: ["Forgetting everything you knew before", "Using your own life stories to help make sense of the text", "Only reading books about your own town", "Writing your own biography"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Prior experience provides a framework for understanding new info.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Synthesizing' information means:",
+      options: ["Copying a paragraph word-for-word", "Combining different pieces of information to form a complete understanding", "Reading the text backwards", "Only looking at the photos"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Synthesis is the act of merging ideas for deeper insight.",
+    ),
+
+    QuizQuestion(
+      question: "7. If a passage explains how to make 'Banku,' a complex question would be:",
+      options: ["What are the two main ingredients?", "How long does it take to cook?", "Why is the process of 'driving' the banku necessary for the final texture?", "Do you like Banku with tilapia?"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "This asks for the 'why' behind a process, requiring analysis.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the 'gist' of a text?",
+      options: ["The very last sentence", "The general meaning or main idea of the text", "The list of difficult words", "The name of the publisher"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The gist is a summary of what the text is mostly about.",
+    ),
+
+    QuizQuestion(
+      question: "9. A student who reads silently but cannot answer questions should:",
+      options: ["Read faster", "Slow down and monitor their understanding after each paragraph", "Give up on reading", "Only read the headlines"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Monitoring is essential for comprehension during silent reading.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to 'support personal response to text'?",
+      options: ["To prove you actually read it using evidence", "To show the author they are wrong", "To get a higher score on the quiz", "To make the text more interesting"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Using textual evidence makes your personal response valid and strong.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is textual evidence?",
+      options: ["Information from the text that supports a claim or idea", "Your personal opinion about a book", "The biography of the author", "The list of characters in a story"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Evidence must come directly from the source material.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which type of evidence is stated clearly and directly in the text?",
+      options: ["Explicit evidence", "Implicit evidence", "Secret evidence", "Guessed evidence"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Explicit means it is clearly expressed.",
+    ),
+
+    QuizQuestion(
+      question: "3. If a character is 'panting and dripping with water,' what can you infer?",
+      options: ["They have just been swimming or running in the rain", "They are very cold", "They are sleeping", "They are eating lunch"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Panting (running) and water (swimming/rain) are implicit clues.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sentence uses a 'power phrase' to cite evidence?",
+      options: ["I think the story is very sad", "The book has fifty pages", "My grandmother told me a story like this", "According to the text, the harvest failed due to drought"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'According to the text' identifies the source of the info.",
+    ),
+
+    QuizQuestion(
+      question: "5. Mastery of a text is shown when a student can:",
+      options: ["Read the text aloud without mistakes", "Memorize the first paragraph", "Draw a picture of the main character", "Interpret meaning and cite evidence to support it"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Synthesis of evidence and interpretation shows deep understanding.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'The wind was so strong it uprooted the plantain trees.' What does this evidence support?",
+      options: ["It was a sunny day", "The storm was very powerful", "The farmer was lazy", "The soil was very dry"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Uprooting trees is a direct sign of a powerful storm.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'implicit' meaning mean?",
+      options: ["Meaning that is clearly written in bold", "Meaning that is suggested but not directly stated", "Meaning that is found in the dictionary", "Meaning that is incorrect"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Implicit meanings require the reader to 'read between the lines.'",
+    ),
+
+    QuizQuestion(
+      question: "8. In a text about the 'Battle of Akantamanso,' the author describes the 'bravery of the warriors.' Which is the best evidence?",
+      options: ["The warriors wore traditional clothes", "The warriors refused to retreat even when outnumbered", "The battle took place a long time ago", "Many people watched the battle"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Refusing to retreat is a specific action that proves bravery.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why should you read a text 'closely' for interpretation?",
+      options: ["To see the letters better", "To find hidden meanings and supporting details", "To finish the lesson faster", "To check for spelling mistakes"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Close reading is necessary to find evidence that isn't obvious.",
+    ),
+
+    QuizQuestion(
+      question: "10. When you explain 'how' evidence supports your claim, you are:",
+      options: ["Predicting", "Summarizing", "Reasoning", "Skimming"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Reasoning is the logical link between your evidence and your claim.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a theme?",
+      options: ["The name of the main character", "A type of punctuation", "The list of chapters in a book", "The big idea or universal lesson of a text"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Themes are the underlying messages that apply beyond the text.",
+    ),
+
+    QuizQuestion(
+      question: "2. To generate a theme, you should first identify:",
+      options: ["The page numbers", "The font size", "The price of the book", "The main idea and supporting details"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "You build a theme from the core facts of the passage.",
+    ),
+
+    QuizQuestion(
+      question: "3. A passage about 'The Dangers of Bushfires' mentions how fire destroys farms and kills animals. What is a logical theme?",
+      options: ["Fire is beautiful to look at", "Animals can run very fast", "Farmers should grow different crops", "We must protect our environment from careless actions"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "This addresses the 'lesson' behind the danger described.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a 'Supporting Detail'?",
+      options: ["Kofi stood up and gave his seat on the tro-tro to an old woman. (Detail)", "Respecting elders is important. (Theme)", "Everyone should be kind. (Theme)", "Kindness helps society. (Main Idea)"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A detail is a specific action or fact from the text.",
+    ),
+
+    QuizQuestion(
+      question: "5. If the theme is 'Preparation is the key to success,' how would you apply this to school?",
+      options: ["By organizing your notes and studying weeks before the exam", "By sleeping late the night before a test", "By hoping the teacher forgets the exam", "By buying a new uniform"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Preparing (studying) leads to the goal (success).",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Gathering relevant details' helps a reader to:",
+      options: ["Finish the book faster", "Support and prove the theme they have identified", "Draw a map of the story", "Forget the main idea"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Details provide the evidence that the theme is actually present.",
+    ),
+
+    QuizQuestion(
+      question: "7. Can one text have more than one theme?",
+      options: ["No, every text has only one theme", "Yes, complex texts often have several lessons or themes", "Only if the book is very long", "Only if it is written by two authors"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Meaning is often multi-layered in non-fiction.",
+    ),
+
+    QuizQuestion(
+      question: "8. A text about 'The Bravery of Yaa Asantewaa' has the theme of 'Standing up for what is right.' Apply this to modern life.",
+      options: ["Following the crowd even if they are doing something wrong", "Reporting a bully at school to a teacher", "Staying quiet when you see someone being treated unfairly", "Ignoring the rules of the school"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Reporting bullying is a modern way to stand up for justice.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the difference between a 'Main Idea' and a 'Theme'?",
+      options: ["They are exactly the same thing", "The main idea is what the text is about; the theme is the lesson we learn", "The main idea is short, and the theme is long", "The main idea is for stories, and the theme is for news"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Main idea is specific to the text; theme is a universal truth.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it useful to connect a theme to a 'relevant situation'?",
+      options: ["It helps you understand the text's importance to real life", "It makes the quiz easier to finish", "It helps memorize the author's name", "It replaces the need to read the conclusion"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Application connects learning to practical use.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does 'point of view' mean in a non-fiction text?",
+      options: [
+        "The location where the author lives.",
+        "The way a person or group thinks and feels about a topic.",
+        "The font size used for the headings.",
+        "The total number of people mentioned."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Perspective defines the outlook of the individuals involved.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which word in a text would best help you identify a point of view?",
+      options: [
+        "'Running'",
+        "'Table'",
+        "'Frustrated'",
+        "'Green'"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Emotional or descriptive words reveal a person's feelings.",
+    ),
+
+    QuizQuestion(
+      question: "3. If a text says, 'The Minister smiled as he cut the ribbon,' what is his point of view?",
+      options: [
+        "He is angry about the new building.",
+        "He is proud and happy about the project.",
+        "He is bored and wants to go home.",
+        "He is confused by the scissors."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Smiling and cutting a ribbon are symbols of a positive perspective.",
+    ),
+
+    QuizQuestion(
+      question: "4. Making a 'connection' to a text means:",
+      options: [
+        "Plugging your iPad into the charger.",
+        "Finding how the text relates to your own life or knowledge.",
+        "Writing your name at the top of the page.",
+        "Calling the author on the phone."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Connections bridge the text and the reader's world.",
+    ),
+
+    QuizQuestion(
+      question: "5. A passage describes a new law requiring all tro-tros to have seatbelts. Who might have a 'Think and Search' point of view about the cost?",
+      options: [
+        "The passengers who want to be safe.",
+        "The tro-tro owners who must pay for the belts.",
+        "The school children watching the cars go by.",
+        "The people selling plantain chips at the station."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Owners are the ones directly affected by the financial cost.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is 'textual evidence' needed when discussing a point of view?",
+      options: [
+        "To prove that you aren't just making up the person's feelings.",
+        "To make the answer look more professional.",
+        "To show that you know how to copy and paste.",
+        "Because the author might have forgotten what they wrote."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Evidence validates your interpretation of someone's perspective.",
+    ),
+
+    QuizQuestion(
+      question: "7. In a text about 'Digital Exams,' a student says, 'I am worried because my village has frequent power cuts.' What is their point of view?",
+      options: [
+        "They love computers.",
+        "They don't want to study anymore.",
+        "They are concerned about the fairness of the exams.",
+        "They want to move to Accra."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The mention of power cuts shows a specific concern about the exam's success.",
+    ),
+
+    QuizQuestion(
+      question: "8. If an author presents two different viewpoints without choosing one, the text is:",
+      options: [
+        "Confusing.",
+        "A fairy tale.",
+        "Incomplete.",
+        "Balanced or objective."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Presenting all sides is a sign of fair, objective non-fiction.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'My mother always says we should save water, just like the people in this article do.' This is an example of:",
+      options: [
+        "Citing evidence.",
+        "Monitoring comprehension.",
+        "Identifying a theme.",
+        "Making a connection to prior experience."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "This links the text's topic to a personal family value.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is the most 'thought-provoking' question about points of view?",
+      options: [
+        "How many people are in the story?",
+        "Is the text written in English?",
+        "What is the name of the town?",
+        "Why might the farmer and the factory owner disagree on this plan?"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "This requires analyzing the reasons behind different perspectives.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a 'root' word?",
+      options: [
+        "The base part of a word that contains the main meaning.",
+        "The last letter of a word.",
+        "A word that only farmers use.",
+        "A word that has no vowels."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The root is the foundation for all derivations.",
+    ),
+
+    QuizQuestion(
+      question: "2. Where do you add a 'prefix'?",
+      options: [
+        "At the end of a word.",
+        "In the middle of a word.",
+        "At the beginning of a word.",
+        "Only in the glossary."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Prefixes come before the root.",
+    ),
+
+    QuizQuestion(
+      question: "3. If 'Legal' means allowed by law, what does 'Illegal' mean?",
+      options: [
+        "Very legal.",
+        "Not allowed by law.",
+        "The person who makes the law.",
+        "A book of laws."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The prefix 'il-' means 'not.'",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is a noun derived from the verb 'Inform'?",
+      options: [
+        "Informative",
+        "Informing",
+        "Information",
+        "Informed"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The suffix '-ation' creates a noun.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does the suffix '-er' or '-or' usually indicate when added to a verb?",
+      options: [
+        "A place.",
+        "An opposite meaning.",
+        "A past event.",
+        "A person who does the action (e.g., teacher, actor)."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "These suffixes often denote an agent or 'doer.'",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Nationalism' was a strong feeling during Ghana's fight for independence. What is the root?",
+      options: [
+        "Alism",
+        "Nation",
+        "National",
+        "List"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Nation is the base; -al and -ism are added later.",
+    ),
+
+    QuizQuestion(
+      question: "7. If the root 'Bio' means life, what is 'Biography'?",
+      options: [
+        "A type of food.",
+        "The story of a person's life.",
+        "A dangerous chemical.",
+        "A new computer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bio (life) + graphy (writing) = life writing.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which prefix would you use to mean 'below' or 'under,' as in a 'subway' or 'sub-strand'?",
+      options: [
+        "Pre-",
+        "Sub-",
+        "Pro-",
+        "Anti-"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "'Sub-' is the Latin prefix for under or below.",
+    ),
+
+    QuizQuestion(
+      question: "9. The word 'Careless' means without care. What does the suffix '-less' mean?",
+      options: [
+        "Full of.",
+        "Again.",
+        "Without.",
+        "Before."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'-less' indicates the absence of the root quality.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is learning derivation useful for reading non-fiction?",
+      options: [
+        "It helps you count the words faster.",
+        "It allows you to figure out the meaning of new, complex words.",
+        "It changes the color of the text.",
+        "It makes the text into a poem."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "It is a decoding strategy for unfamiliar vocabulary.",
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson10QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Why should you use 'grade-level' vocabulary instead of simple words?",
+      options: [
+        "To make your sentences longer.",
+        "To express ideas more precisely and professionally.",
+        "To confuse the reader.",
+        "Because simple words are always wrong."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Advanced vocabulary allows for more exact communication.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which word fits best in a 'Political' context?",
+      options: [
+        "Democracy",
+        "Pineapple",
+        "Dancing",
+        "Tuesday"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Democracy is a fundamental political concept.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The Golden Stool is a symbol of Ashanti ______.' Which word fits the cultural context?",
+      options: [
+        "Heritage",
+        "Furniture",
+        "Wood",
+        "Weight"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Heritage refers to valued objects and qualities passed down through generations.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does it mean to 'integrate' vocabulary?",
+      options: [
+        "To delete words you don't like.",
+        "To naturally include and use words within your speech or writing.",
+        "To alphabetize a list of words.",
+        "To translate words into another language."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Integration is the active use of vocabulary in context.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The project was feasible, so the community decided to start building immediately.' What does feasible mean?",
+      options: [
+        "Impossible",
+        "Boring",
+        "Very expensive",
+        "Possible and practical to do"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Feasible describes something that can actually be achieved.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a 'Historical' word?",
+      options: [
+        "Computer",
+        "Internet",
+        "Colonization",
+        "Plastic"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Colonization refers to a specific historical period and process.",
+    ),
+
+    QuizQuestion(
+      question: "7. If a student uses the word 'Transformation' to describe a city, they mean:",
+      options: [
+        "The city stayed the same.",
+        "The city underwent a complete and major change.",
+        "The city is very noisy.",
+        "The city is located by the sea."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Transformation implies a significant change in form or appearance.",
+    ),
+
+    QuizQuestion(
+      question: "8. In a text about the 'Judiciary,' which word would you most likely find?",
+      options: [
+        "Harvest",
+        "Ingredients",
+        "Verdict",
+        "Battery"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A verdict is a formal decision made in a court of law.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'Despite the challenges, the spirit of the people remained undaunted.' What is the context?",
+      options: [
+        "Scientific",
+        "Emotional/Descriptive",
+        "Mathematical",
+        "Culinary (Cooking)"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Undaunted describes a state of mind or spirit.",
+    ),
+
+    QuizQuestion(
+      question: "10. To use vocabulary 'meaningfully' in a sentence, you should:",
+      options: [
+        "Use the word three times in the same sentence.",
+        "Provide enough information to show the word's specific meaning.",
+        "Always put the word at the very end.",
+        "Write the word in all capital letters."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Meaningful use requires providing sufficient context.",
     ),
   ],
 );

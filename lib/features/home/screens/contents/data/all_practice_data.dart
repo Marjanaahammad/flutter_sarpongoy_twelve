@@ -671,7 +671,6 @@ final PracticeModel jhs2s1ss1Lesson5PracticeData = PracticeModel(
     ),
   ],
 );
-
 final PracticeModel jhs2s1ss2Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/6. JHS2 S1 SS2 L1/5. Guided Practice.m4a',
   questions: [
@@ -726,7 +725,6 @@ final PracticeModel jhs2s1ss2Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
-
 final PracticeModel jhs2s1ss3Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/8. JHS2 S1 SS3 L1/5. Guided Practice.m4a',
   questions: [
@@ -805,6 +803,218 @@ final PracticeModel jhs2s1ss3Lesson3PracticeData = PracticeModel(
       answer: "'June.'",
       explanation:
           "'June' starts with the voiced affricate /dʒ/. 'Tune' starts with a simple plosive /t/.",
+    ),
+  ],
+);
+
+final PracticeModel jhs2s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi arrives at school and notices the football pitch is decorated with flags. The Headteacher is wearing a special Kente cloth. What is the most likely reason for this?",
+      answer: "Correct Answer: The school is preparing for an anniversary celebration or a special Prize-Giving Day.",
+      explanation: "Explanation: Flags and Kente cloth are cultural signals in Ghana for a formal celebration or event.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A text says, \"Many farmers in the Northern Region are worried because the rains have not started by late May.\" What topic do you predict the next paragraph will discuss?",
+      answer: "Correct Answer: The impact of the delay on crop planting or food prices.",
+      explanation: "Explanation: Since the rain is late, the logical next step is how this affects the harvest and the cost of food.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are reading a passage about \"The Importance of Saving Money.\" The first paragraph mentions \"Susu\" groups. What do you predict the author will explain next?",
+      answer: "Correct Answer: How Susu groups help Ghanaians save and invest their money.",
+      explanation: "Explanation: Mentioning Susu groups sets the stage for explaining how these traditional savings systems work.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. \"The bus left at 6:00 AM. By noon, the students arrived at the castle and met their guide, Mr. Mensah.\""
+"Question: What time did the bus leave? (Identify the question type and answer).",
+      answer: "Correct Answer: This is a \"Right There\" question. The answer is 6:00 AM.",
+      explanation: "Explanation: The information is explicitly stated in the first sentence.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The guide explained the history of the dungeons. Afterwards, the students took photos of the Door of No Return. Finally, they ate lunch by the sea.\""
+      "Question: List the events of the afternoon in order.",
+      answer: "Correct Answer: First, they heard the history; second, they took photos; third, they ate lunch.",
+      explanation: "Explanation: This requires tracking the sequence of events mentioned throughout the text.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: The text says the students felt \"sober and quiet\" after visiting the dungeons.""Question: Based on what you know about history, why did they feel this way?",
+      answer: "Correct Answer: This is an \"Author and You\" question. They felt sad because of the suffering that happened during the slave trade.",
+      explanation: "Explanation: The text provides the feeling, but you use your knowledge of history to explain the \"why.\"",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In a book about \"Famous Ghanaians,\" you see a list of names at the very back with page numbers next to them. What is this feature called?",
+      answer: "Correct Answer: This is the Index.",
+      explanation: "Explanation: An index is found at the back and helps you find specific names or topics quickly.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are looking at a diagram of the \"Water Cycle.\" There is a small arrow pointing to a cloud with the word \"Condensation\" next to it. What is this text feature?",
+      answer: "Correct Answer: This is a Label.",
+      explanation: "Explanation: Labels identify specific parts of a diagram or picture.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Below a picture of the Larabanga Mosque, there is a sentence that reads: \"The Larabanga Mosque is one of the oldest in West Africa.\" What is this text feature?",
+      answer: "Correct Answer: This is a Caption.",
+      explanation: "Explanation: Captions explain what is shown in a photograph or illustration.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The weather in the north was arid; it was so dry that no crops could grow without irrigation.\" "
+          "Question: What does arid mean?",
+      answer: "Correct Answer: Arid means extremely dry or having very little rain.",
+      explanation: "Explanation: The clue is \"so dry that no crops could grow.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. \"Esi was feeling melancholy, but her brother was very happy and excited about the football match.\""
+          "Question: What clue helps you understand melancholy?",
+      answer: "Correct Answer: The word \"but\" shows a contrast with \"happy and excited.\"",
+      explanation: "Explanation: This is an antonym clue. If the brother is happy, Esi must be sad.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The Chief’s palace was opulent, featuring gold-plated chairs, expensive kente drapes, and marble floors.\""
+          "Question: What is the meaning of opulent?",
+      answer: "Correct Answer: Opulent means wealthy, luxurious, or very rich.",
+      explanation: "Explanation: The examples of gold, expensive kente, and marble floors provide the meaning.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"Modern solar lamps are replacing kerosene lanterns in many Ghanaian villages. While kerosene is expensive and creates smoke, solar lamps use the sun and are much safer."
+    "Complex Question: Explain how solar lamps improve both health and finances for a family."
+          "Question: What does arid mean?",
+      answer: "Correct Answer: Solar lamps improve health by removing dangerous kerosene smoke and save money because sun energy is free, unlike expensive kerosene.",
+      explanation: "Explanation: This answer is complex because it connects two different benefits (health and money) mentioned in the text.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does your prior experience with power outages (dumsor) help you understand the importance of solar lamps?",
+      answer: "Correct Answer: Because I know how hard it is to study in the dark, I can understand why having a reliable solar lamp is a big help for students.",
+      explanation: "Explanation: This is a connection question that links the text to a common Ghanaian experience.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the author imply by saying solar lamps are \"replacing\" kerosene?",
+      answer: "Correct Answer: The author implies that people prefer the new technology because it is better, safer, and cheaper than the old way.",
+      explanation: "Explanation: This is an interpretation question where you explain the meaning behind the word \"replacing.\"",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"The traders at Kejetia began covering their stalls with plastic sheets as the sky turned a bruised purple and the wind began to howl.\""
+    "Question: What is about to happen? Provide evidence.",
+      answer: "Correct Answer: It is about to rain. The evidence is that the traders are \"covering their stalls\" and the sky is \"bruised purple.\"",
+      explanation: "Explanation: These are implicit clues that a storm is coming.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Passage: \"Kojo saved every cedi he earned from weeding gardens. He didn't buy meat pie or fanta; he put the coins in a wooden box under his bed."
+    "Question: Is Kojo a disciplined person? Cite the text.",
+      answer: "Correct Answer: Yes. The text states he \"saved every cedi\" and \"didn't buy meat pie or fanta.\"",
+      explanation: "Explanation: This evidence shows he is sacrificing small treats for a bigger goal.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the previous story about Kojo, what does the \"wooden box\" imply??",
+      answer: "Correct Answer: It implies that Kojo does not have a bank account or prefers a traditional way of saving at home (like a Susu box).",
+      explanation: "Explanation: This connects the text to the Ghanaian context of home saving.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"Efua wanted to be a nurse. Even though her family had little money, she spent every evening reading her science books by a small lamp. Eventually, she won a scholarship to study nursing.\""
+    "Question: What is the main idea of this passage?",
+      answer: "Correct Answer: Efua worked very hard and studied at night to achieve her dream of becoming a nurse.",
+      explanation: "Explanation: This covers the central action and the result of the story.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Passage: What are the supporting details that show Efua’s determination?",
+      answer: "Correct Answer: She had little money, she studied every evening, and she used a small lamp to see.",
+      explanation: "Explanation: These specific facts show the obstacles she overcame.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Generate a simple theme for Efua’s story and apply it to a different situation.",
+      answer: "Correct Answer: Theme: \"Hard work and perseverance lead to success.\" Application: This applies to a farmer who works his land every day to get a big harvest.",
+      explanation: "Explanation: This takes the lesson from Efua and shows how it works for a farmer.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"The mining company promised five hundred new jobs for the youth. The elders, however, worried that the chemicals would poison the river where they fish.\""
+    "Question: What are the two points of view in this text?",
+      answer: "Correct Answer: The youth see the mine as a source of jobs and opportunity, while the elders see it as a danger to the environment and their food source.",
+      explanation: "Explanation: The text provides specific reasons for the feelings of both the youth and the elders.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Passage: What is the textual evidence for the elders' point of view?",
+      answer: "Correct Answer: The text states they \"worried that the chemicals would poison the river.\"",
+      explanation: "Explanation: This direct quote shows exactly why they have a negative perspective.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Connect this to your own life. How would you feel if a big company moved into your neighborhood?",
+      answer: "Correct Answer: I might feel excited for new shops, but I might also be worried about more traffic and noise on my street.",
+      explanation: "Explanation: This connection shows an understanding of how one event can have both positive and negative sides.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If \"Connect\" means to join together, what does the word Disconnect mean when talking about your electricity or MoMo service?",
+      answer: "Correct Answer: It means to break the join or stop the service.",
+      explanation: "Explanation: The prefix \"dis-\" means \"not\" or \"opposite of.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A text says: \"The construction of the new school block was finished in six months.\" What is the root word of construction?",
+      answer: "Correct Answer: The root is \"Construct.\"",
+      explanation: "Explanation: \"Construct\" is the verb (to build), and \"-ion\" turns it into the noun (the act of building).",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use the root word \"Tradition\" to describe a dance performed at a festival.",
+      answer: "Correct Answer: Traditional.",
+      explanation: "Explanation: Adding the suffix \"-al\" turns the noun \"tradition\" into an adjective \"traditional\" to describe the dance.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The elders performed the ________ rites to welcome the new baby into the family lineage.\" (Words: customary or daily).",
+      answer: "Correct Answer: Customary.",
+      explanation: "Explanation: \"Customary\" is a grade-level word that specifically refers to things done according to tradition.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"After the long drought, the farmers were ________ when the first rains finally hit the ground.\" (Words: okayor ecstatic).",
+      answer: "Correct Answer: Ecstatic.",
+      explanation: "Explanation: \"Ecstatic\" expresses a much higher level of joy, which fits the relief of a drought ending.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The government introduced a new ________ to reduce the amount of plastic waste in the Gulf of Guinea.\" (Words: idea or legislation).",
+      answer: "Correct Answer: Legislation.",
+      explanation: "Explanation: \"Legislation\" is the formal word for a law or a set of laws, which fits the political context.",
     ),
   ],
 );

@@ -1664,6 +1664,567 @@ final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData = Independent
   ],
 );
 
+final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. An article is titled \"The Rise of Electric Tro-tros in Kumasi.\" Before reading, what is a \"thought-provoking\" question you should ask?",
+        options: [
+          "How many wheels does a tro-tro usually have?",
+          "Where can I buy a cheap bicycle in Kumasi?",
+          "How will charging stations work in a busy station like Kejetia?",
+          "Is Kumasi the capital of the Ashanti Region?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "How will charging stations work in a busy station like Kejetia?"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you are reading about \"Traditional Ghanaian Architecture,\" which prior knowledge would be most helpful?",
+        options: [
+          "Knowing the rules of a local football match.",
+          "Understanding how mud huts and thatch roofs are built in the village.",
+          "Knowing the ingredients for making Jollof rice.",
+          "Remembering the lyrics to the national anthem."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Understanding how mud huts and thatch roofs are built in the village."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A news report begins: \"Heavy rains have caused the Odaw River to overflow its banks.\" What is the most logical prediction for the next sentence?",
+        options: [
+          "Residents in nearby areas are being warned of potential flooding.",
+          "The government is planning to build a new airport in Tamale.",
+          "The Black Stars have won their latest qualifying match.",
+          "Farmers are happy because their crops are finally getting water."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Residents in nearby areas are being warned of potential flooding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. You predict that a text about \"Solar Energy in Ghana\" will talk about the high cost of panels. After reading, you find it only talks about the benefits for hospitals. What should you do?",
+        options: [
+          "Stop reading because your prediction was wrong.",
+          "Ignore the text and stick to your own opinion.",
+          "Adjust your understanding to focus on the medical benefits of solar power.",
+          "Delete the text from your iPad."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Adjust your understanding to focus on the medical benefits of solar power."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of question asks you to use your own life experiences rather than the text?",
+        options: [
+          "Right There",
+          "Think and Search",
+          "Author and You",
+          "On Your Own"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. You are reading a science text about \"The Life Cycle of a Mosquito.\" What is a good \"Think and Search\" question?",
+        options: [
+          "What color is a mosquito?",
+          "What are the four stages of the cycle described in the passage?",
+          "Do you like mosquitoes?",
+          "Who wrote this article?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a text about the \"Year of Return,\" the author mentions that thousands of people visited Ghana. A \"Right There\" question would be:",
+        options: [
+          "Why did people want to visit?",
+          "How did the visitors feel?",
+          "Who visited Ghana according to the text?",
+          "Is tourism good for the economy?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a question asks you to \"Relate the key words in the question to the text,\" what are you doing?",
+        options: [
+          "Making a drawing.",
+          "Monitoring your comprehension.",
+          "Writing a new story.",
+          "Ignoring the author's words."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which feature would you use to find the definition of a bold word used in the text?",
+        options: [
+          "Table of Contents",
+          "Glossary",
+          "Index",
+          "Heading"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do authors use Bold or Italic text in non-fiction?",
+        options: [
+          "To make the page look more colorful.",
+          "To show that the text is a poem.",
+          "To highlight important vocabulary or key terms.",
+          "To tell the reader to stop reading."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. You want to see a list of all the chapters in your \"Social Studies\" book. Where should you look?",
+        options: [
+          "The Index",
+          "The Caption",
+          "The Glossary",
+          "The Table of Contents"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does a heading help you as a reader?",
+        options: [
+          "It tells you the price of the book.",
+          "It identifies the main topic of the section you are about to read.",
+          "It lists all the authors who wrote the book.",
+          "It provides the definition of difficult words."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The student's handwriting was illegible; the teacher could not read a single word of the essay.\" What does illegible mean?",
+        options: [
+          "Very beautiful",
+          "Difficult or impossible to read",
+          "Written in blue ink",
+          "Very short"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"Unlike the dilapidated old school building, the new one was strong and modern.\" What clue is used here?",
+        options: [
+          "A synonym",
+          "An example",
+          "An antonym (contrast)",
+          "A topic sentence"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"In addition,\" \"Furthermore,\" and \"Moreover\" are examples of:",
+        options: [
+          "Topic sentences",
+          "Cohesive devices",
+          "Vocabulary words",
+          "Antonyms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a \"Topic Sentence\"?",
+        options: [
+          "However, it rained heavily.",
+          "For example, lions and tigers.",
+          "There are many reasons why we must protect our forests.",
+          "In the end, they went home."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why is silent reading often better for comprehension than reading aloud?",
+        options: [
+          "It is faster and allows the brain to focus entirely on meaning.",
+          "It is more fun to do with friends.",
+          "It helps you practice your speaking skills.",
+          "It makes the text look shorter."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a question asks you to \"compare\" two ideas in a text, what should you do?",
+        options: [
+          "Only look at the first sentence.",
+          "Look for ways the ideas are similar and ways they are different.",
+          "Ignore the text and give your own opinion.",
+          "Draw a picture of the two ideas."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. You are reading a passage about the \"Success of Ghana’s National Health Insurance Scheme.\" What would be a complex question to ask?",
+        options: [
+          "What year did the scheme start?",
+          "What does the acronym NHIS stand for?",
+          "How has the scheme changed the way families in rural areas seek medical help?",
+          "Who is the current Minister of Health?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When answering a complex question, what is the best strategy if you are stuck?",
+        options: [
+          "Guess any answer to finish quickly.",
+          "Skip the question and move to the next.",
+          "Re-read the passage carefully to find evidence you might have missed.",
+          "Ask your neighbor for their answer."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Claim: The forest in the story is dangerous. Which sentence is the best evidence?",
+        options: [
+          "The forest was full of tall, green trees.",
+          "Many people went there to pick mushrooms.",
+          "No one ever entered the forest alone because of the wild animals.",
+          "The forest was located near a small village."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you use the phrase \"The author states that...\" what are you doing?",
+        options: [
+          "Writing a new story.",
+          "Citing textual evidence.",
+          "Asking a question.",
+          "Making a prediction."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Text: \"Ama's eyes filled with tears as she looked at her broken pottery.\" Which is the best interpretation?",
+        options: [
+          "Ama is very angry at her pottery.",
+          "Ama is upset because her hard work was destroyed.",
+          "Ama is happy that she can buy new pottery.",
+          "Ama is tired and wants to sleep."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it important to provide evidence in your answers?",
+        options: [
+          "To make the answer longer.",
+          "To show you have mastered the text and can support your ideas.",
+          "Because you don't know the answer.",
+          "To practice your typing."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A text describes how a village built a new library by everyone donating a few cedis. What is a good theme for this?",
+        options: [
+          "Reading is difficult.",
+          "Many small contributions can achieve a big goal.",
+          "Libraries should be painted blue.",
+          "Only rich people can build schools."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If the theme of a story is \"Honesty is the best policy,\" which situation shows this theme in action?",
+        options: [
+          "A student hides a broken window so they don't get in trouble.",
+          "A trader tells a customer the true weight of the fish, even if it means a lower price.",
+          "A boy runs away from his chores.",
+          "A girl shares her lunch with a friend."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a supporting detail for the main idea: \"Ghana is a leader in cocoa production\"?",
+        options: [
+          "Ghana is located in West Africa.",
+          "Many people in Ghana enjoy eating fufu.",
+          "Ghana produces hundreds of thousands of tons of cocoa beans every year.",
+          "The weather in Accra is often sunny."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do we \"apply\" themes to different situations?",
+        options: [
+          "To make the story longer.",
+          "To show that the lesson from the text can help us in our own lives.",
+          "To prove that the author is wrong.",
+          "To practice our drawing skills."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. An article is titled \"Why Every Student Should Learn to Code.\" What is the author’s likely point of view?",
+        options: [
+          "Technology is a waste of time.",
+          "Coding is a valuable skill for the future.",
+          "Schools should only teach farming.",
+          "Computers are too expensive for Ghana."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a text mentions that \"Street hawkers were cleared from the pavement to make the city look tidy,\" who would have a negative point of view of this action?",
+        options: [
+          "A tourist visiting the city.",
+          "The city authorities.",
+          "The hawkers who lost their place of business.",
+          "A driver who wants less traffic."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which phrase is used to show a connection between the text and your life?",
+        options: [
+          "\"The author says...\"",
+          "\"In my experience in my community...\"",
+          "\"The glossary defines...\"",
+          "\"According to paragraph five...\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why should a reader identify \"different viewpoints\" in a text?",
+        options: [
+          "To make the reading take longer.",
+          "To understand the complexity of an issue and see all sides.",
+          "To decide which person is the 'villain.'",
+          "To practice their handwriting."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The prefix \"re-\" usually means \"again.\" What does it mean to reforest a part of the Ashanti region?",
+        options: [
+          "To cut down all the trees.",
+          "To plant trees again where they used to be.",
+          "To build a house in the forest.",
+          "To go for a walk in the forest."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The root word is \"Employ.\" Which word describes a person who works for a company?",
+        options: [
+          "Employer",
+          "Employment",
+          "Employee",
+          "Unemployed"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which suffix would you add to the word \"Organize\" to describe a group like the \"World Health Organization\"?",
+        options: [
+          "-ly",
+          "-ness",
+          "-ation",
+          "-ful"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the sentence \"The Chief spoke wisely to the villagers,\" what does the suffix \"-ly\" tell us?",
+        options: [
+          "It tells us who spoke.",
+          "It tells us how the Chief spoke.",
+          "It tells us when the Chief spoke.",
+          "It tells us the Chief is angry."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word best fits a historical context about the end of British rule?",
+        options: [
+          "Shopping",
+          "Independence",
+          "Weather",
+          "Football"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The Great Hall at the University of Ghana is an immense building.\" What is a synonym for immense?",
+        options: [
+          "Small",
+          "Very large",
+          "Colorful",
+          "Old"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The Constitution is the supreme law of the land.\" What does supreme imply here?",
+        options: [
+          "It is the most important and highest power.",
+          "It is a very long book.",
+          "It was written recently.",
+          "It is only for lawyers."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses the word \"diverse\" correctly in a cultural context?",
+        options: [
+          "Ghana has a diverse range of ethnic groups, each with unique traditions.",
+          "I ate a diverse for lunch today.",
+          "The car is moving very diverse.",
+          "He felt diverse after the long walk."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
