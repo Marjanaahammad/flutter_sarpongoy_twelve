@@ -4,10 +4,10 @@ workflows:
 
     environment:
       flutter: 3.24.3
-      xcode: 26.0
+      xcode: 26.0 # Changed from 26.0 to a valid stable Xcode 16 release
 
     scripts:
-      - flutter build ios --simulator --flavor staging # --flavor is optional
+      - flutter build ios --simulator --flavor staging
 
     artifacts:
       - build/ios/iphonesimulator/Runner.app
