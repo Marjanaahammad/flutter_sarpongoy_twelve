@@ -579,12 +579,14 @@ class TeacherDashboardResponse {
   factory TeacherDashboardResponse.fromJson(Map<String, dynamic> json) {
     return TeacherDashboardResponse(
       teacher: json['teacher'] != null
-          ? Teacher.fromJson(json['teacher'])
+          ? Teacher.fromJson(_asMap(json['teacher']))
           : null,
       counters: json['counters'] != null
-          ? Counters.fromJson(json['counters'])
+          ? Counters.fromJson(_asMap(json['counters']))
           : null,
-      charts: json['charts'] != null ? Charts.fromJson(json['charts']) : null,
+      charts: json['charts'] != null
+          ? Charts.fromJson(_asMap(json['charts']))
+          : null,
     );
   }
 }
@@ -599,10 +601,12 @@ class Teacher {
 
   factory Teacher.fromJson(Map<String, dynamic> json) {
     return Teacher(
-      id: json['_id'],
-      name: json['name'],
-      school: json['school'] != null ? School.fromJson(json['school']) : null,
-      gradeLevel: json['gradeLevel'],
+      id: json['_id']?.toString(),
+      name: json['name']?.toString(),
+      school: json['school'] != null
+          ? School.fromJson(_asMap(json['school']))
+          : null,
+      gradeLevel: json['gradeLevel']?.toString(),
     );
   }
 }
@@ -616,9 +620,9 @@ class School {
 
   factory School.fromJson(Map<String, dynamic> json) {
     return School(
-      id: json['_id'],
-      name: json['name'],
-      schoolCode: json['schoolCode'],
+      id: json['_id']?.toString(),
+      name: json['name']?.toString(),
+      schoolCode: json['schoolCode']?.toString(),
     );
   }
 }
@@ -646,14 +650,14 @@ class Counters {
 
   factory Counters.fromJson(Map<String, dynamic> json) {
     return Counters(
-      totalStudents: json['totalStudents'],
-      totalStudentsGrowth: json['totalStudentsGrowth'],
-      totalSubjects: json['totalSubjects'],
-      totalSubjectsGrowth: json['totalSubjectsGrowth'],
-      lessonCompleted: json['lessonCompleted'],
-      lessonCompletedGrowth: json['lessonCompletedGrowth'],
-      quizCompleted: json['quizCompleted'],
-      quizCompletedGrowth: json['quizCompletedGrowth'],
+      totalStudents: _asInt(json['totalStudents']),
+      totalStudentsGrowth: _asInt(json['totalStudentsGrowth']),
+      totalSubjects: _asInt(json['totalSubjects']),
+      totalSubjectsGrowth: _asInt(json['totalSubjectsGrowth']),
+      lessonCompleted: _asInt(json['lessonCompleted']),
+      lessonCompletedGrowth: _asInt(json['lessonCompletedGrowth']),
+      quizCompleted: _asInt(json['quizCompleted']),
+      quizCompletedGrowth: _asInt(json['quizCompletedGrowth']),
     );
   }
 }
@@ -674,16 +678,16 @@ class Charts {
   factory Charts.fromJson(Map<String, dynamic> json) {
     return Charts(
       subjectOverview: (json['subjectOverview'] as List?)
-          ?.map((e) => SubjectOverview.fromJson(e))
+          ?.map((e) => SubjectOverview.fromJson(_asMap(e)))
           .toList(),
       weeklyStudents: (json['weeklyStudents'] as List?)
-          ?.map((e) => WeeklyStudents.fromJson(e))
+          ?.map((e) => WeeklyStudents.fromJson(_asMap(e)))
           .toList(),
       monthlyCompletionTrend: (json['monthlyCompletionTrend'] as List?)
-          ?.map((e) => MonthlyTrend.fromJson(e))
+          ?.map((e) => MonthlyTrend.fromJson(_asMap(e)))
           .toList(),
       milestone: json['milestone'] != null
-          ? Milestone.fromJson(json['milestone'])
+          ? Milestone.fromJson(_asMap(json['milestone']))
           : null,
     );
   }
@@ -706,11 +710,11 @@ class SubjectOverview {
 
   factory SubjectOverview.fromJson(Map<String, dynamic> json) {
     return SubjectOverview(
-      total: json['total'],
-      completed: json['completed'],
-      courseId: json['courseId'],
-      subject: json['subject'],
-      completionRate: json['completionRate'],
+      total: _asInt(json['total']),
+      completed: _asInt(json['completed']),
+      courseId: json['courseId']?.toString(),
+      subject: json['subject']?.toString(),
+      completionRate: _asInt(json['completionRate']),
     );
   }
 }
@@ -722,23 +726,50 @@ class WeeklyStudents {
   WeeklyStudents({this.day, this.total});
 
   factory WeeklyStudents.fromJson(Map<String, dynamic> json) {
-    return WeeklyStudents(day: json['day'], total: json['total']);
+    return WeeklyStudents(
+      day: json['day']?.toString(),
+      total: _asInt(json['total']),
+    );
   }
 }
 
 class MonthlyTrend {
   final String? month;
+  final int? monthNumber;
+  final int? completed;
+  final String? courseId;
+  final String? subject;
+  final int? year;
   final Map<String, dynamic>? subjects;
 
-  MonthlyTrend({this.month, this.subjects});
+  MonthlyTrend({
+    this.month,
+    this.monthNumber,
+    this.completed,
+    this.courseId,
+    this.subject,
+    this.year,
+    this.subjects,
+  });
 
   factory MonthlyTrend.fromJson(Map<String, dynamic> json) {
     final map = Map<String, dynamic>.from(json);
-    final month = map.remove('month');
+    final rawMonth = map.remove('month');
+    final monthNumber = _asInt(rawMonth);
+    final subject = json['subject']?.toString();
+    final completed = _asInt(json['completed']);
+    final subjects = subject != null && completed != null
+        ? <String, dynamic>{subject: completed}
+        : map;
 
     return MonthlyTrend(
-      month: month,
-      subjects: map, // dynamic subjects
+      month: _monthLabel(rawMonth),
+      monthNumber: monthNumber,
+      completed: completed,
+      courseId: json['courseId']?.toString(),
+      subject: subject,
+      year: _asInt(json['year']),
+      subjects: subjects,
     );
   }
 }
@@ -760,12 +791,12 @@ class Milestone {
 
   factory Milestone.fromJson(Map<String, dynamic> json) {
     return Milestone(
-      date: json['date'],
-      strand: json['strand'],
-      subStrand: json['subStrand'],
-      lesson: json['lesson'],
+      date: json['date']?.toString(),
+      strand: json['strand']?.toString(),
+      subStrand: json['subStrand']?.toString(),
+      lesson: json['lesson']?.toString(),
       progress: json['progress'] != null
-          ? Progress.fromJson(json['progress'])
+          ? Progress.fromJson(_asMap(json['progress']))
           : null,
     );
   }
@@ -781,10 +812,46 @@ class Progress {
 
   factory Progress.fromJson(Map<String, dynamic> json) {
     return Progress(
-      getReady: json['getReady'],
-      learn: json['learn'],
-      practice: json['practice'],
-      quiz: json['quiz'],
+      getReady: _asInt(json['getReady']),
+      learn: _asInt(json['learn']),
+      practice: _asInt(json['practice']),
+      quiz: _asInt(json['quiz']),
     );
   }
+}
+
+int? _asInt(dynamic value) {
+  if (value == null) return null;
+  if (value is int) return value;
+  if (value is num) return value.toInt();
+  return int.tryParse(value.toString());
+}
+
+Map<String, dynamic> _asMap(dynamic value) {
+  if (value is Map<String, dynamic>) return value;
+  return Map<String, dynamic>.from(value as Map);
+}
+
+String? _monthLabel(dynamic value) {
+  const months = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+
+  final monthNumber = _asInt(value);
+  if (monthNumber != null && monthNumber >= 1 && monthNumber <= 12) {
+    return months[monthNumber - 1];
+  }
+
+  return value?.toString();
 }

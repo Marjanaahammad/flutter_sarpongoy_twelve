@@ -107,8 +107,12 @@ class TeacherDashboardController extends BaseController {
     );
   }
 
-  Future<void> fetchStudent() async {
-    final result = await _teacherRepository.fetchStudent();
+
+  Future<void> fetchStudent({int? page, int? limit}) async {
+    final result = await _teacherRepository.fetchStudent(
+      page: page,
+      limit: limit,
+    );
 
     result.fold(
       (fail) {

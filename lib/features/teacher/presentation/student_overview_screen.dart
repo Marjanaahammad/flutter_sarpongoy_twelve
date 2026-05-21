@@ -14,7 +14,7 @@ class StudentOverviewScreen extends StatelessWidget {
       Get.find<TeacherDashboardController>();
 
   StudentOverviewScreen({super.key, this.onViewDetails, this.onProfileTap}) {
-    _dashboardController.fetchStudent();
+    _dashboardController.fetchStudent(page: 1, limit: 10);
   }
 
   @override
@@ -375,8 +375,11 @@ class StudentOverviewScreen extends StatelessWidget {
                           shape: BoxShape.circle,
                           border: Border.all(color: Colors.grey.shade400),
                         ),
-                        child: Icon(Icons.close,
-                            size: 16, color: Colors.grey.shade600),
+                        child: Icon(
+                          Icons.close,
+                          size: 16,
+                          color: Colors.grey.shade600,
+                        ),
                       ),
                     ),
                   ),
@@ -402,36 +405,40 @@ class StudentOverviewScreen extends StatelessWidget {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
-                    borderSide:
-                        const BorderSide(color: Color(0xFF008302), width: 2),
+                    borderSide: const BorderSide(
+                      color: Color(0xFF008302),
+                      width: 2,
+                    ),
                   ),
                 ),
               ),
-              const SizedBox(height: 16),
-              const Text(
-                'School Name',
-                style: TextStyle(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 8),
-              TextField(
-                controller: schoolController,
-                cursorColor: Colors.black,
-                decoration: InputDecoration(
-                  hintText: 'Achimota Junior High School',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                    borderSide: const BorderSide(color: Color(0xFF22C55E)),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                    borderSide:
-                        const BorderSide(color: Color(0xFF008302), width: 2),
-                  ),
-                ),
-              ),
+              // const SizedBox(height: 16),
+              // const Text(
+              //   'School Name',
+              //   style: TextStyle(fontWeight: FontWeight.w600),
+              // ),
+              // const SizedBox(height: 8),
+              // TextField(
+              //   controller: schoolController,
+              //   cursorColor: Colors.black,
+              //   decoration: InputDecoration(
+              //     hintText: 'Achimota Junior High School',
+              //     border: OutlineInputBorder(
+              //       borderRadius: BorderRadius.circular(8),
+              //     ),
+              //     enabledBorder: OutlineInputBorder(
+              //       borderRadius: BorderRadius.circular(8),
+              //       borderSide: const BorderSide(color: Color(0xFF22C55E)),
+              //     ),
+              //     focusedBorder: OutlineInputBorder(
+              //       borderRadius: BorderRadius.circular(8),
+              //       borderSide: const BorderSide(
+              //         color: Color(0xFF008302),
+              //         width: 2,
+              //       ),
+              //     ),
+              //   ),
+              // ),
               const SizedBox(height: 16),
               const Text(
                 'Grade Level',
@@ -450,8 +457,10 @@ class StudentOverviewScreen extends StatelessWidget {
                       value: localGrade.value,
                       isExpanded: true,
                       dropdownColor: Colors.white,
-                      icon: const Icon(Icons.keyboard_arrow_down,
-                          color: Colors.black),
+                      icon: const Icon(
+                        Icons.keyboard_arrow_down,
+                        color: Colors.black,
+                      ),
                       style: const TextStyle(color: Colors.black, fontSize: 14),
                       items: grades
                           .map(
@@ -481,8 +490,10 @@ class StudentOverviewScreen extends StatelessWidget {
                       value: localSubject.value,
                       isExpanded: true,
                       dropdownColor: Colors.white,
-                      icon: const Icon(Icons.keyboard_arrow_down,
-                          color: Colors.black),
+                      icon: const Icon(
+                        Icons.keyboard_arrow_down,
+                        color: Colors.black,
+                      ),
                       style: const TextStyle(color: Colors.black, fontSize: 14),
                       items: subjects
                           .map(
@@ -758,8 +769,31 @@ class StudentOverviewScreen extends StatelessWidget {
     final meta = _dashboardController.studentInfo.value?.meta;
     if (meta == null) return const SizedBox.shrink();
 
-    final start = ((meta.page - 1) * meta.limit) + 1;
+    final start = meta.total == 0 ? 0 : ((meta.page - 1) * meta.limit) + 1;
     final end = (start + meta.limit - 1).clamp(0, meta.total);
+
+    // Dynamic page range logic that mimics the original look initially
+    final List<dynamic> pages = [];
+    if (meta.totalPages <= 1) {
+      pages.add(1);
+    } else {
+      pages.add(1);
+      if (meta.page == 1 || meta.page == meta.totalPages) {
+        if (meta.totalPages > 2) {
+          pages.add('...');
+        }
+        pages.add(meta.totalPages);
+      } else {
+        if (meta.page > 2) {
+          pages.add('...');
+        }
+        pages.add(meta.page);
+        if (meta.page < meta.totalPages - 1) {
+          pages.add('...');
+        }
+        pages.add(meta.totalPages);
+      }
+    }
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -770,20 +804,49 @@ class StudentOverviewScreen extends StatelessWidget {
         ),
         Row(
           children: [
-            _buildPageButton('<', isEnabled: meta.page > 1),
+            _buildPageButton(
+              '<',
+              isEnabled: meta.page > 1,
+              onTap: () {
+                _dashboardController.fetchStudent(
+                  page: meta.page - 1,
+                  limit: meta.limit,
+                );
+              },
+            ),
             const SizedBox(width: 4),
-            _buildPageButton('1', isSelected: meta.page == 1),
-            if (meta.totalPages > 1) ...[
-              const SizedBox(width: 4),
-              const Text('...', style: TextStyle(color: Colors.grey)),
-              const SizedBox(width: 4),
-              _buildPageButton(
-                meta.totalPages.toString(),
-                isSelected: meta.page == meta.totalPages,
-              ),
-            ],
-            const SizedBox(width: 4),
-            _buildPageButton('>', isEnabled: meta.page < meta.totalPages),
+            ...pages.map((p) {
+              if (p == '...') {
+                return const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 4),
+                  child: Text('...', style: TextStyle(color: Colors.grey)),
+                );
+              }
+              final int pageNum = p as int;
+              return Padding(
+                padding: const EdgeInsets.only(right: 4),
+                child: _buildPageButton(
+                  pageNum.toString(),
+                  isSelected: meta.page == pageNum,
+                  onTap: () {
+                    _dashboardController.fetchStudent(
+                      page: pageNum,
+                      limit: meta.limit,
+                    );
+                  },
+                ),
+              );
+            }),
+            _buildPageButton(
+              '>',
+              isEnabled: meta.page < meta.totalPages,
+              onTap: () {
+                _dashboardController.fetchStudent(
+                  page: meta.page + 1,
+                  limit: meta.limit,
+                );
+              },
+            ),
           ],
         ),
       ],
@@ -794,23 +857,28 @@ class StudentOverviewScreen extends StatelessWidget {
     String text, {
     bool isSelected = false,
     bool isEnabled = true,
+    VoidCallback? onTap,
   }) {
-    return Container(
-      width: 32,
-      height: 32,
-      alignment: Alignment.center,
-      decoration: BoxDecoration(
-        color: isSelected ? const Color(0xFF008302) : Colors.transparent,
-        borderRadius: BorderRadius.circular(4),
-        border: Border.all(color: const Color(0xFFE0E0E0)),
-      ),
-      child: Text(
-        text,
-        style: TextStyle(
-          color: isSelected
-              ? Colors.white
-              : (isEnabled ? Colors.black : Colors.grey),
-          fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+    return InkWell(
+      onTap: isEnabled ? onTap : null,
+      borderRadius: BorderRadius.circular(4),
+      child: Container(
+        width: 32,
+        height: 32,
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          color: isSelected ? const Color(0xFF008302) : Colors.transparent,
+          borderRadius: BorderRadius.circular(4),
+          border: Border.all(color: const Color(0xFFE0E0E0)),
+        ),
+        child: Text(
+          text,
+          style: TextStyle(
+            color: isSelected
+                ? Colors.white
+                : (isEnabled ? Colors.black : Colors.grey),
+            fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+          ),
         ),
       ),
     );
