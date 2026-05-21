@@ -2225,6 +2225,343 @@ final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = Independen
   ],
 );
 
+final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Identify the adverb modifying an adjective in this sentence: \"The waakye was extremely spicy today.\"",
+        options: [
+          "Today",
+          "Extremely",
+          "Spicy",
+          "Waakye"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Extremely"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In the phrase \"More than fifty students,\" the words \"more than\" are modifying:",
+        options: [
+          "A cardinal numeral",
+          "An indefinite pronoun",
+          "A preposition",
+          "An adjective"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A cardinal numeral"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence contains an adverb modifying another adverb?",
+        options: [
+          "He ran very quickly.",
+          "She is a very tall girl.",
+          "They arrived nearly on time.",
+          "The cat sat right on the mat."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "He ran very quickly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Choose the adverb that modifies a preposition in this sentence: \"The plane flew directly over the stadium.\"",
+        options: [
+          "Flew",
+          "Over",
+          "Directly",
+          "Stadium"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Directly"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which preposition shows movement in this sentence: \"The cat jumped off the wall\"?",
+        options: [
+          "The",
+          "Cat",
+          "Off",
+          "Wall"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Off"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the preposition of time in this sentence: \"We will meet at four o'clock.\"",
+        options: [
+          "At",
+          "We",
+          "Meet",
+          "O'clock"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "At"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"Kofi went into the bank.\" What does the preposition \"into\" represent?",
+        options: [
+          "Agent",
+          "Place",
+          "Instrument",
+          "Direction"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Direction"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The house was built by my grandfather.\" The word \"by\" is a preposition of:",
+        options: [
+          "Instrument",
+          "Agent",
+          "Movement",
+          "Time"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Agent"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Direct: \"I am going to Kejetia,\" said Kwame. Reported: Kwame said that he _______ going to Kejetia.",
+        options: [
+          "is",
+          "was",
+          "were",
+          "am"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "was"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which is the correct reported version of \"Do you have a pen?\" asked Esi.",
+        options: [
+          "Esi asked if I had a pen.",
+          "Esi asked do I have a pen?",
+          "Esi asked that I have a pen.",
+          "Esi asked if I have a pen."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Esi asked if I had a pen."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Report this news headline: The President said, \"I will visit the hospital.\"",
+        options: [
+          "The President said he visits the hospital.",
+          "The President said I will visit the hospital.",
+          "The President said he would visit the hospital.",
+          "The President said he will visit the hospital."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The President said he would visit the hospital."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"When does the bus leave?\" reported becomes:",
+        options: [
+          "He asked when the bus leaves?",
+          "He asked when the bus left.",
+          "He asked if the bus leaves.",
+          "He asked when does the bus leave."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "He asked when the bus left."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The weather is very hot today, _______?\"",
+        options: [
+          "is it?",
+          "isn't it?",
+          "it is?",
+          "doesn't it?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "isn't it?"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"You won't forget to bring the money, _______?\"",
+        options: [
+          "will you?",
+          "won't you?",
+          "do you?",
+          "can you?"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "will you?"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"They have finished the project, _______?\"",
+        options: [
+          "haven't they?",
+          "have they?",
+          "don't they?",
+          "did they?"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "haven't they?"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Musa speaks Dagbani fluently, _______?\"",
+        options: [
+          "does he?",
+          "speak he?",
+          "doesn't he?",
+          "isn't he?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "doesn't he?"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence correctly shows that a bicycle belongs to Akosua?",
+        options: [
+          "Akosua's bicycle is new.",
+          "Akosuas' bicycle is new.",
+          "Akosuas bicycle is' new.",
+          "Akosua bicycle's is new."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Akosua's bicycle is new."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the sentence that uses a colon correctly for time.",
+        options: [
+          "The bus leaves at 6;30 am.",
+          "The bus leaves at 6'30 am.",
+          "The bus leaves at 6:30 am.",
+          "The bus leaves at 6.30 am."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bus leaves at 6:30 am."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these sentences uses a semi-colon correctly?",
+        options: [
+          "I like mangoes; but I hate pawpaw.",
+          "I like mangoes; I hate pawpaw.",
+          "I like; mangoes and pawpaw.",
+          "I; like mangoes I hate pawpaw."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "I like mangoes; I hate pawpaw."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How do you write \"is not\" as a contraction?",
+        options: [
+          "Is'nt",
+          "Isnt'",
+          "Isn't",
+          "I'snt"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Isn't"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word is a synonym for 'Courageous' as used in a story about a Ghanaian hero?",
+        options: [
+          "Fearful",
+          "Brave",
+          "Quiet",
+          "Strong"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Brave"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these pairs represents an antonym relationship?",
+        options: [
+          "Fast : Quick",
+          "Purchase : Buy",
+          "Generous : Stingy",
+          "Large : Gigantic"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Generous : Stingy"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Complete the analogy: 'Omo Tuo' is to 'Rice' as 'Banku' is to ________.",
+        options: [
+          "Yam",
+          "Corn",
+          "Soup",
+          "Fish"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Corn"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which word has the most positive connotation to describe someone who saves money?",
+        options: [
+          "Thrifty",
+          "Miserly",
+          "Stingy",
+          "Mean"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Thrifty"
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

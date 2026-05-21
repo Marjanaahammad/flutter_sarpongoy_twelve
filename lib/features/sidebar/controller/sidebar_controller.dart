@@ -1251,8 +1251,16 @@ class SidebarController extends GetxController {
           "subtitle": "GRAMMAR AND GRAMMAR USAGE",
           "subStrands": [
             {
-              "subtitle": "COMPLEX SENTENCES",
-              "topics": ["Relative Clauses", "Subordinate Conjunctions"],
+              "subtitle": "GRAMMAR",
+              "topics": ["KNOWLEDGE OF ADVERBS", "USE OF PREPOSITIONS", "REPORTED SPEECH", "QUESTION TAGS"],
+            },
+            {
+              "subtitle": "PUNCTUATION AND CAPITALISATION",
+              "topics": ["USING COLONS, SEMI-COLONS, AND APOSTROPHES"],
+            },
+            {
+              "subtitle": "VOCABULARY",
+              "topics": ["Word Relationships and Connotations"],
             },
           ],
         },
@@ -2468,6 +2476,66 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s2ss1Lesson10PracticeData;
                 independentPracticeData = jhs2s2ss1Lesson10IndependentQuizData;
                 quizData = jhs2s2ss1Lesson10QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = jhs2s3ss1Lesson1GetReadyData;
+                learnData = jhs2s3ss1Lesson1LearnData;
+                practiceData = jhs2s3ss1Lesson1PracticeData;
+                independentPracticeData = jhs2s3ss1Lesson1IndependentQuizData;
+                quizData = jhs2s3ss1Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = jhs2s3ss1Lesson2GetReadyData;
+                learnData = jhs2s3ss1Lesson2LearnData;
+                practiceData = jhs2s3ss1Lesson2PracticeData;
+                independentPracticeData = jhs2s3ss1Lesson2IndependentQuizData;
+                quizData = jhs2s3ss1Lesson2QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = jhs2s3ss1Lesson3GetReadyData;
+                learnData = jhs2s3ss1Lesson3LearnData;
+                practiceData = jhs2s3ss1Lesson3PracticeData;
+                independentPracticeData = jhs2s3ss1Lesson3IndependentQuizData;
+                quizData = jhs2s3ss1Lesson3QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = jhs2s3ss1Lesson4GetReadyData;
+                learnData = jhs2s3ss1Lesson4LearnData;
+                practiceData = jhs2s3ss1Lesson4PracticeData;
+                independentPracticeData = jhs2s3ss1Lesson4IndependentQuizData;
+                quizData = jhs2s3ss1Lesson4QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = jhs2s3ss2Lesson1GetReadyData;
+                learnData = jhs2s3ss2Lesson1LearnData;
+                practiceData = jhs2s3ss2Lesson1PracticeData;
+                independentPracticeData = jhs2s3ss2Lesson1IndependentQuizData;
+                quizData = jhs2s3ss2Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = jhs2s3ss3Lesson1GetReadyData;
+                learnData = jhs2s3ss3Lesson1LearnData;
+                practiceData = jhs2s3ss3Lesson1PracticeData;
+                independentPracticeData = jhs2s3ss3Lesson1IndependentQuizData;
+                quizData = jhs2s3ss3Lesson1QuizData;
               }
 
               if (grade == "JHS 3" &&

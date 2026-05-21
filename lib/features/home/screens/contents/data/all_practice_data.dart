@@ -1019,6 +1019,127 @@ final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel jhs2s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence \"The mango is almost ripe,\" identify the adverb and explain what it is modifying.",
+      answer: "Correct Answer: The adverb is \"almost,\" and it is modifying the adjective \"ripe.\"",
+      explanation: "Explanation: \"Almost\" tells us the degree of ripeness. Since \"ripe\" describes the mango, it is an adjective, making \"almost\" an adverb modifying an adjective.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this sentence: \"The bird flew just above the house.\" Identify the adverb and the word it modifies.",
+      answer: "Correct Answer: The adverb is \"just,\" and it modifies the preposition \"above.\"",
+      explanation: "Explanation: \"Above\" is a preposition showing location. \"Just\" is used here to give a precise position, so it is modifying the preposition.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If I say, \"Nearly everyone in the class passed,\" what is the adverb \"nearly\" modifying?",
+      answer: "Correct Answer: It is modifying the indefinite pronoun \"everyone.\"",
+      explanation: "Explanation: \"Everyone\" is a pronoun that doesn't refer to a specific person. The adverb \"nearly\" is used here to modify that pronoun.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The keys are inside the bowl,\" what type of preposition is \"inside\"?",
+      answer: "Correct Answer: Preposition of Place.",
+      explanation: "Explanation: \"Inside\" tells us the location or position of the keys, which makes it a preposition of place.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this: \"He cut the yam with a sharp knife.\" Is \"with\" a preposition of Agent or Instrument?",
+      answer: "Correct Answer: Preposition of Instrument.",
+      explanation: "Explanation: The knife is the tool used to perform the action, so \"with\" is used as a preposition of instrument.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The letter was sent by the headteacher.\" Identify the preposition and its type.",
+      answer: "Correct Answer: The preposition is \"by,\" and it is a preposition of Agent.",
+      explanation: "Explanation: The headteacher is the one who performed the action of sending, so \"by\" indicates the agent.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Change this direct statement to reported speech: Abena said, \"I like the new library.\"",
+      answer: "Correct Answer: Abena said that she liked the new library.",
+      explanation: "Explanation: We change the pronoun \"I\" to \"she\" to match Abena, and the verb \"like\" moves to the past tense \"liked.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Report this question: The teacher asked, \"Where is your homework?\"",
+      answer: "Correct Answer: The teacher asked where my homework was.",
+      explanation: "Explanation: We keep the word \"where,\" change \"your\" to \"my,\" and move \"is\" to the end of the sentence as \"was.\"",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Turn this into a news report sentence: The coach said, \"We will win the match.\"",
+      answer: "Correct Answer: The coach stated that they would win the match.",
+      explanation: "Explanation: In news reports, we often use \"stated\" or \"announced.\" \"We\" becomes \"they\" and \"will\" becomes \"would.\"",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Complete this sentence: \"We are late for class, _______?\"",
+      answer: "Correct Answer: aren't we?",
+      explanation: "Explanation: The statement is positive (\"are\"), so we need a negative tag (\"aren't\") that matches the subject \"we.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the tag for: \"Kojo hasn't eaten yet, _______?\"",
+      answer: "Correct Answer: has he?",
+      explanation: "Explanation: The statement is negative (\"hasn't\"), so we use the positive tag \"has.\" Since Kojo is a boy, we use the pronoun \"he.\"",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Finish this one: \"You live in Kumasi, _______?\"",
+      answer: "Correct Answer: don't you?",
+      explanation: "Explanation: There is no auxiliary verb here, so we use \"do.\" Since \"live\" is positive, the tag becomes the negative \"don't.\"",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite this sentence using a colon to introduce the items: \"The farmer grows three crops maize yam and cassava.\"",
+      answer: "Correct Answer: The farmer grows three crops: maize, yam, and cassava.",
+      explanation: "Explanation: We use a colon here because we are introducing a list of specific crops the farmer grows.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How would you show that a bag belongs to your sister-in-law?",
+      answer: "Correct Answer: My sister-in-law's bag.",
+      explanation: "Explanation: For compound nouns, the apostrophe and 's' go at the very end of the last word to show possession.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Combine these two sentences using a semi-colon: \"I finished my homework. It was very difficult.\"",
+      answer: "Correct Answer: I finished my homework; it was very difficult.",
+      explanation: "Explanation: Since both parts are full sentences and are related, a semi-colon joins them perfectly without needing a joining word.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi wants to describe his grandfather as someone who is very wise and has lived for a long time. Should he call his grandfather 'ancient' or 'elderly'? Explain why.",
+      answer: "Correct Answer: He should use 'elderly'.",
+      explanation: "Explanation: While both mean old, 'ancient' is usually used for objects or history and can sound disrespectful when talking about a person. 'Elderly' is a respectful way to describe an older person.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Complete this analogy: 'Cedi' is to 'Ghana' as 'Naira' is to 'Nigeria'. What is the relationship?",
+      answer: "Correct Answer: The relationship is 'Currency' to 'Country'.",
+      explanation: "Explanation: Just as the Cedi is the money used in Ghana, the Naira is the money used in Nigeria.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If Ama says the market was 'crowded' and Akosua says it was 'lively', how do their feelings about the market differ?",
+      answer: "Correct Answer: Ama feels the market was uncomfortably full, while Akosua enjoyed the energy.",
+      explanation: "Explanation: 'Crowded' has a slightly negative connotation of being too full. 'Lively' has a positive connotation of being full of energy and excitement.",
+    ),
+  ],
+);
+
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [

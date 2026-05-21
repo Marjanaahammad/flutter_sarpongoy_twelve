@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.6+15
+version: 1.0.6+16
 
 environment:
   sdk: ^3.5.3
@@ -732,6 +732,19 @@ flutter:
     - assets/images/english/ENGLISH JHS2 S2 SS1 L9/
     - assets/audio/english/ENGLISH JHS2 S2 SS1 L10/
     - assets/images/english/ENGLISH JHS2 S2 SS1 L10/
+    - assets/images/english/ENGLISH JHS2 S3 SS1 L1/
+    - assets/audio/english/ENGLISH JHS2 S3 SS1 L1
+    - assets/audio/english/ENGLISH JHS2 S3 SS1 L1/
+    - assets/audio/english/ENGLISH JHS2 S3 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S3 SS1 L2/
+    - assets/audio/english/ENGLISH JHS2 S3 SS1 L3/
+    - assets/images/english/ENGLISH JHS2 S3 SS1 L3/
+    - assets/audio/english/ENGLISH JHS2 S3 SS1 L4/
+    - assets/images/english/ENGLISH JHS2 S3 SS1 L4/
+    - assets/audio/english/ENGLISH JHS2 S3 SS2 L1/
+    - assets/images/english/ENGLISH JHS2 S3 SS2 L1/
+    - assets/audio/english/ENGLISH JHS2 S3 SS3 L1/
+    - assets/images/english/ENGLISH JHS2 S3 SS3 L1/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

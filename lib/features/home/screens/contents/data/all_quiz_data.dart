@@ -4458,6 +4458,511 @@ final QuizModel jhs2s2ss1Lesson10QuizData = QuizModel(
   ],
 );
 
+final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Identify the adverb modifying an adjective: 'Abena is a remarkably talented singer.'",
+      options: ["Abena", "Singer", "Remarkably", "Talented"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'Remarkably' modifies the adjective 'talented.'",
+    ),
+
+    QuizQuestion(
+      question: "2. In the sentence 'He speaks very softly,' what does 'very' modify?",
+      options: ['The verb "speaks"', 'The adverb "softly"', 'The noun "He"', 'The sentence subject'],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Softly' is an adverb, and 'very' modifies it to show degree.",
+    ),
+
+    QuizQuestion(
+      question: "3. Find the adverb modifying a preposition: 'Put the box exactly under the table.'",
+      options: ["Under", "Table", "Put", "Exactly"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Exactly' modifies the preposition 'under.'",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is an adverb modifying a pronoun? 'Nearly everybody attended the funeral.'",
+      options: ["Everybody", "Attended", "Nearly", "Funeral"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Nearly' modifies the indefinite pronoun 'everybody.'",
+    ),
+
+    QuizQuestion(
+      question: "5. 'I have about ten Ghana Cedis left.' What is the adverb 'about' modifying?",
+      options: ["The numeral 'ten'", "The noun 'Cedis'", "The verb 'have'", "The pronoun 'I'"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "'About' modifies the cardinal numeral 'ten.'",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the adverb modifying a pre-determiner: 'The cloth costs over two hundred Cedis.'",
+      options: ["Cloth", "Over", "Costs", "Cedis"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "'Over' modifies the price phrase (pre-determiner).",
+    ),
+
+    QuizQuestion(
+      question: "7. In 'The car stopped just before the light,' 'just' is modifying a:",
+      options: ["Pronoun", "Preposition", "Adjective", "Verb"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Before' is a preposition; 'just' provides precision for it.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which sentence uses an adverb to modify a cardinal numeral?",
+      options: ["She ran so fast.", "I have roughly five days.", "That is very kind.", "Go right inside."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Roughly' modifies the numeral 'five.'",
+    ),
+
+    QuizQuestion(
+      question: "9. Identify the adverb in: 'The teacher was quite happy with the results.'",
+      options: ["Teacher", "Happy", "Quite", "Results"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'Quite' is the adverb modifying the adjective 'happy.'",
+    ),
+
+    QuizQuestion(
+      question: "10. 'Almost no one came to the park.' What part of speech is 'no one'?",
+      options: ["Adjective", "Preposition", "Indefinite Pronoun", "Cardinal Numeral"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "'No one' is an indefinite pronoun being modified by 'Almost.'",
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. "I will be in Accra for three days." What type of preposition is "for"?',
+      options: ["Place", "Time", "Agent", "Direction"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: '"For" indicates the duration of time.',
+    ),
+
+    QuizQuestion(
+      question: '2. Choose the preposition of place: "The goat is standing beside the trotro."',
+      options: ["Standing", "Goat", "Beside", "Trotro"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Beside" tells us the location of the goat.',
+    ),
+
+    QuizQuestion(
+      question: '3. In "She walked across the road," the word "across" shows:',
+      options: ["Movement", "Instrument", "Agent", "Time"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: '"Across" describes the path of the action.',
+    ),
+
+    QuizQuestion(
+      question: '4. "The fufu was pounded with a heavy pestle." "With" is a preposition of:',
+      options: ["Agent", "Direction", "Instrument", "Place"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The pestle is the tool used for pounding.",
+    ),
+
+    QuizQuestion(
+      question: '5. Identify the preposition of direction: "They are driving towards Cape Coast."',
+      options: ["Driving", "Towards", "They", "Coast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: '"Towards" indicates the destination or course.',
+    ),
+
+    QuizQuestion(
+      question: '6. "The poem was recited by Efua." "By" functions as a preposition of:',
+      options: ["Agent", "Time", "Instrument", "Movement"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Efua is the person performing the action.",
+    ),
+
+    QuizQuestion(
+      question: '7. Which sentence uses a preposition of instrument?',
+      options: ["He traveled by bus.", "He traveled to Kumasi.", "He traveled with joy."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: '"By bus" explains the means of transport used.',
+    ),
+
+    QuizQuestion(
+      question: '8. "We sat under the mango tree." What is "under" modifying?',
+      options: ["The time of sitting", "Physical location"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It describes the physical location.",
+    ),
+
+    QuizQuestion(
+      question: '9. Identify the preposition: "The meeting starts at noon."',
+      options: ["Meeting", "Starts", "At", "Noon"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"At" is the preposition indicating time.',
+    ),
+
+    QuizQuestion(
+      question: '10. "The ball rolled down the hill." What type of preposition is "down"?',
+      options: ["Time", "Movement", "Agent", "Instrument"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: '"Down" describes the motion and path of the ball.',
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. Change to reported speech: "I am tired," said Adjoa.',
+      options: ["Adjoa said she is tired.", "Adjoa said I am tired.", "Adjoa said she was tired.", "Adjoa said she were tired."],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Am" changes to "was" in reported speech.',
+    ),
+
+    QuizQuestion(
+      question: '2. Report the question: "Where is Kofi?" asked the mother.',
+      options: ["The mother asked where was Kofi.", "The mother asked where Kofi was.", "The mother asked where is Kofi?", "The mother asked if Kofi was there."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In reported questions, the verb comes after the subject.",
+    ),
+
+    QuizQuestion(
+      question: '3. In news reports, "will" usually changes to:',
+      options: ["Can", "Shall", "Would", "Must"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Will" backshifts to "would" in reported speech.',
+    ),
+
+    QuizQuestion(
+      question: '4. Choose the correct reported speech: "We are playing football," they said.',
+      options: ["They said they were playing football.", "They said we are playing football.", "They said they are playing football.", "They said we were playing football."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: '"We" changes to "they" and "are" changes to "were."',
+    ),
+
+    QuizQuestion(
+      question: '5. "Have you finished?" becomes:',
+      options: ["He asked if I finished.", "He asked have I finished?", "He asked if I had finished.", "He asked if you had finished."],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: 'Present perfect "have finished" becomes past perfect "had finished."',
+    ),
+
+    QuizQuestion(
+      question: '6. Which word is used to report a Yes/No question?',
+      options: ["What", "That", "If", "Which"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: 'We use "if" or "whether" for questions without a question word.',
+    ),
+
+    QuizQuestion(
+      question: '7. Report this: "I can swim," said Ama.',
+      options: ["Ama said she can swim.", "Ama said she could swim.", "Ama said I could swim.", "Ama said she swims."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: '"Can" changes to "could" in reported speech.',
+    ),
+
+    QuizQuestion(
+      question: '8. "Where do you live?" reported is:',
+      options: ["She asked where I lived.", "She asked where do I live?", "She asked if I lived there.", "She asked where I live."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: 'The present simple "live" changes to the past simple "lived."',
+    ),
+
+    QuizQuestion(
+      question: '9. Identify the reported speech used in a news report:',
+      options: ['"The rain is coming," said the man.', "The man said that the rain was coming.", "Is the rain coming?", "The rain came yesterday."],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'Option B uses the correct indirect reporting structure.',
+    ),
+
+    QuizQuestion(
+      question: '10. "I will buy the cloth tomorrow," becomes:',
+      options: ["He said he would buy the cloth the next day.", "He said I will buy the cloth tomorrow.", "He said he will buy the cloth the next day.", "He said he would buy the cloth tomorrow."],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: '"Tomorrow" often changes to "the next day" in reported speech.',
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. "She is your sister, ______?"',
+      options: ["is she?", "she is?", "isn't she?", "doesn't she?"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: 'A positive "is" requires the negative tag "isn\'t she."',
+    ),
+
+    QuizQuestion(
+      question: '2. "You don\'t like banku, ______?"',
+      options: ["do you?", "don't you?", "like you?", "you do?"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: 'A negative "don\'t" requires the positive tag "do you."',
+    ),
+
+    QuizQuestion(
+      question: '3. "The students were quiet, ______?"',
+      options: ["were they?", "weren't they?", "didn't they?", "was they?"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: '"Were" is positive and plural, so "weren\'t they" is correct.',
+    ),
+
+    QuizQuestion(
+      question: '4. "Yaw will arrive soon, ______?"',
+      options: ["will he?", "isn't he?", "won't he?", "doesn't he?"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Will" is the auxiliary; its negative form is "won\'t."',
+    ),
+
+    QuizQuestion(
+      question: '5. "It hasn\'t rained all week, ______?"',
+      options: ["has it?", "hasn\'t it?", "is it?", "did it?"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: 'The negative "hasn\'t" becomes the positive "has."',
+    ),
+
+    QuizQuestion(
+      question: '6. "I am late, ______?" (Note: This is a special rule!)',
+      options: ["am not I?", "aren't I?", "don't I?"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: 'In British English, "I am" typically uses the tag "aren\'t I."',
+    ),
+
+    QuizQuestion(
+      question: '7. "We can\'t go inside yet, ______?"',
+      options: ["can we?", "can't we?", "do we?", "shall we?"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: '"Can" is negative, so we use the positive "can."',
+    ),
+
+    QuizQuestion(
+      question: '8. "Your father works at the hospital, ______?"',
+      options: ["works he?", "isn't he?", "doesn't he?", "does he?"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Works" is present simple; it needs the negative auxiliary "doesn\'t."',
+    ),
+
+    QuizQuestion(
+      question: '9. "They didn\'t see the accident, ______?"',
+      options: ["did they?", "didn\'t they?", "do they?", "doesn\'t they?"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: 'The negative "didn\'t" matches with the positive "did."',
+    ),
+
+    QuizQuestion(
+      question: '10. "Abena and Kofi are coming, ______?"',
+      options: ["aren't she?", "isn't he?", "aren't they?", "are they?"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: 'Since there are two people, we use the plural pronoun "they."',
+    ),
+  ],
+);
+final QuizModel jhs2s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which punctuation mark introduces a list?",
+      options: ["Semi-colon", "Comma", "Colon", "Apostrophe"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A colon is specifically used to introduce a list of items.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the correct use of an apostrophe for plural possession.",
+      options: ["The dogs' tails wagged.", "The dog's tails wagged.", "The dogs tail's wagged.", "The dog s'tails wagged."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "When a plural noun ends in 's', we place the apostrophe after the 's' to show ownership.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a play script, what follows the character’s name?",
+      options: ["A full stop", "A colon", "A comma", "A dash"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Colons are used to introduce speech in plays.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sentence uses a semi-colon correctly to separate independent clauses?",
+      options: ["Ghana is in Africa; Togo is too.", "Ghana is in; Africa Togo is too.", "Ghana; is in Africa Togo is too.", "Ghana is in Africa Togo; is too."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A semi-colon connects two independent but related thoughts.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the apostrophe go in 'mothers-in-law' to show possession?",
+      options: ["Mother’s-in-law", "Mothers'-in-law", "Mothers-in-law's", "Mothers-in's-law"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "For compound nouns, the possessive apostrophe is added to the last word.",
+    ),
+
+    QuizQuestion(
+      question: "6. How should 'John and Sons' be written if it is a business firm name?",
+      options: ["John and Son's", "John's and Sons", "Johns and Sons", "John and Sons'"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Business firm names use the apostrophe to indicate the entity's name.",
+    ),
+
+    QuizQuestion(
+      question: "7. Select the correct way to write the time.",
+      options: ["It is 12'45 pm.", "It is 12:45 pm.", "It is 12,45 pm.", "It is 12.45 pm."],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Use a colon to separate hours from minutes.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which word is a contraction of 'They are'?",
+      options: ["They're", "Their'e", "Theyre", "The'yre"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An apostrophe replaces the missing 'a' in 'are.'",
+    ),
+
+    QuizQuestion(
+      question: "9. Use a semi-colon to separate these items: Accra, Ghana; London, UK; and...",
+      options: ["Paris, France", "Paris; France", "Paris' France", "Paris: France"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "In a complex list already using semi-colons, each item (City, Country) stays grouped by a comma.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence uses an indefinite possessive pronoun correctly?",
+      options: ["It is anyone's guess.", "It is anyones' guess.", "It is anyones guess'", "It is any'ones guess."],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Indefinite pronouns like 'anyone' use 's for the possessive case.",
+    ),
+  ],
+);
+final QuizModel jhs2s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Find the synonym for the word 'Difficult' in this sentence: 'The JHS maths problem was very difficult.'",
+      options: ["Simple", "Hard", "Easy", "Long"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Hard' and 'difficult' share the same meaning of being not easy to do.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the antonym of 'Modern' when describing buildings in Accra?",
+      options: ["New", "Recent", "Ancient", "Stylish"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'Ancient' or 'old' is the opposite of 'modern'.",
+    ),
+
+    QuizQuestion(
+      question: "3. Complete the analogy: 'Accra' is to 'Greater Accra' as 'Tamale' is to ________.",
+      options: ["Ashanti", "Northern", "Western", "Volta"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The relationship is 'Regional Capital' to 'Region'. Tamale is the capital of the Northern Region.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word carries a negative connotation?",
+      options: ["Determined", "Stubborn", "Persistent", "Firm"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Stubborn' suggests an annoying refusal to change, while 'determined' is seen as a positive strength.",
+    ),
+
+    QuizQuestion(
+      question: "5. Choose the best word to complete the analogy: 'Fufu' is to 'Pestle' as 'Soup' is to ________.",
+      options: ["Plate", "Fire", "Ladle", "Meat"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The relationship is 'Food' to the 'Tool used to serve or prepare it'.",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the pair that are synonyms.",
+      options: ["Arrive : Leave", "Wealthy : Rich", "Tall : Short", "Success : Failure"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Wealthy' and 'rich' have the same meaning.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which word is the most neutral (neither positive nor negative) denotation for a place where people live?",
+      options: ["Shack", "Mansion", "Residence", "Palace"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "'Residence' is a formal, neutral term for a home, whereas the others imply very poor or very wealthy conditions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Complete the analogy: 'Griot' is to 'Storytelling' as 'Musician' is to ________.",
+      options: ["Dancing", "Writing", "Singing", "Painting"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The relationship is 'Type of Person' to their 'Primary Art Form'.",
+    ),
+
+    QuizQuestion(
+      question: "9. If a journalist describes a protest as a 'riot', what kind of connotation are they using?",
+      options: ["Positive", "Neutral", "Negative", "Helpful"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "'Riot' implies violent and uncontrolled disorder, giving a negative view of the event.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the antonym of the word 'Permanent'?",
+      options: ["Lasting", "Constant", "Temporary", "Fixed"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Temporary' means lasting for only a short time, which is the opposite of 'permanent'.",
+    ),
+  ],
+);
+
 final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [
