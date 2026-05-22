@@ -1121,6 +1121,342 @@ final IndependentPracticeModel s3ss1Lesson10IndependentQuizData = IndependentPra
     ),
   ],
 );
+final IndependentPracticeModel s3ss1Lesson11IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L11/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"Look! The baby _______ to walk.\"",
+        options: [
+          "is trying",
+          "tries",
+          "has tried",
+          "have been trying"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"We _______ lived in Kumasi for ten years.\"",
+        options: [
+          "are",
+          "have",
+          "has",
+          "were"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"Ama _______ her teeth twice a day.\"",
+        options: [
+          "is brushing",
+          "have brushed",
+          "brushes",
+          "brushing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"I am tired because I _______ for the test all night.\"",
+        options: [
+          "study",
+          "am studying",
+          "have been studying",
+          "has studied"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson12IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L12/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"Last night, Esi _______ a delicious fante fante for dinner.\"",
+        options: [
+          "cooks",
+          "was cooking",
+          "cooked",
+          "had cooked"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The students _______ quietly when the headmaster entered.\"",
+        options: [
+          "were working",
+          "had worked",
+          "worked",
+          "are working"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"By the time the rain started, we _______ already _______ the cocoa beans.\"",
+        options: [
+          "were; covering",
+          "have; covered",
+          "had; covered",
+          "did; cover"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"I _______ to school every day when I lived in the village.\"",
+        options: [
+          "was walking",
+          "had walked",
+          "walked",
+          "walk"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson13IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The driver drove _______ through the heavy rain.\"",
+        options: [
+          "careful",
+          "carefully",
+          "caring",
+          "cares"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In \"The food was incredibly tasty,\" what does 'incredibly' modify?",
+        options: [
+          "The food",
+          "was",
+          "tasty (adjective)",
+          "tasty (verb)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"He finished his work _______.\"",
+        options: [
+          "yesterday",
+          "green",
+          "table",
+          "happy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The student answered the question _______ _______.\"",
+        options: [
+          "very correct",
+          "very correctly",
+          "more correctly",
+          "most correct"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson14IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L14/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"You can have _______ tea _______ coffee, but not both.\"",
+        options: [
+          "neither...nor",
+          "not only...but also",
+          "either...or",
+          "whether...or"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The match was cancelled _______ the pitch was flooded.\"",
+        options: [
+          "so",
+          "because",
+          "but",
+          "although"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"_______ the GPRTU is on strike, the roads are very quiet.\"",
+        options: [
+          "Whereas",
+          "Since",
+          "But",
+          "Or"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"I will call you _______ I arrive at the station.\"",
+        options: [
+          "before",
+          "after",
+          "and",
+          "nor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson15IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L15/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The headmaster spoke _______ the entire teaching staff.\"",
+        options: [
+          "in front of",
+          "on behalf of",
+          "due to",
+          "out of"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"We arrived at the stadium _______ for the kickoff.\"",
+        options: [
+          "in time of",
+          "during the course of",
+          "far from",
+          "because of"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The village is _______ the big river.\"",
+        options: [
+          "on account of",
+          "near to",
+          "in spite of",
+          "by dint of"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"He succeeded _______ hard work.\"",
+        options: [
+          "apart from",
+          "by dint of",
+          "in front of",
+          "during the course of"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss1Lesson16IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L16/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"I saw _______ elephant at the Mole National Park yesterday.\"",
+        options: [
+          "a",
+          "an",
+          "the",
+          "those"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"Is _______ your bag on the floor next to you?\"",
+        options: [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The children are wearing _______ new school uniforms.\"",
+        options: [
+          "our",
+          "his",
+          "their",
+          "its"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"_______ cat is very fat. An apple fell from the tree is yours.\"",
+        options: [
+          "This",
+          "These",
+          "That",
+          "Those"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
 
 final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
@@ -2806,6 +3142,625 @@ final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData = Independent
         difficulty: "Easy",
         explanation:
             "When speaking to a high-ranking official like the District Chief Executive, one should avoid using pidgin or broken English to maintain a formal register."),
+  ],
+);
+
+final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+  'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In a story, a character finally washes their dirty clothes after a long period of trouble. The clean white clothes most likely symbolise:",
+        options: [
+          "The character's love for fashion.",
+          "A new beginning or a fresh start.",
+          "That the character has run out of money.",
+          "The arrival of a cold harmattan season."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new beginning or a fresh start."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following sentences uses sensory imagery for sound?",
+        options: [
+          "The fante kenkey was wrapped tightly in dried corn husks.",
+          "The sunset turned the sky into a sea of purple and gold.",
+          "The sharp clink-clink of the blacksmith’s hammer echoed through the village.",
+          "The shito was so spicy that Kwame reached for a bag of water."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sharp clink-clink of the blacksmith’s hammer echoed through the village."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. 'The city of Accra never sleeps.' This sentence is an example of:",
+        options: [
+          "A simile.",
+          "Symbolism.",
+          "Sensory imagery for taste.",
+          "Personification."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Personification."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. 'Kweku is a lion on the football pitch.' What does this metaphor suggest about Kweku?",
+        options: [
+          "Kweku likes to eat meat after a match.",
+          "Kweku is very fast but gets tired easily.",
+          "Kweku is brave and powerful when he plays.",
+          "Kweku has very long hair like a mane."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Kweku is brave and powerful when he plays."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word belongs to the ICT register?",
+        options: [
+          "Photosynthesis",
+          "Keyboard",
+          "Ingredient",
+          "Constitution"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Keyboard"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The fisherman used a trawl to catch many tilapia at once.\" What does trawl most likely mean based on the context?",
+        options: [
+          "A type of large fishing net",
+          "A very fast boat",
+          "A type of spice for fish",
+          "A song fishermen sing"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A type of large fishing net"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Replace the underlined words with a technical term: \"The plant is making its own food using sunlight.\"",
+        options: [
+          "Respiration",
+          "Digestion",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Photosynthesis"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you are writing an essay about the history of Ghana, which word are you most likely to use?",
+        options: [
+          "Software",
+          "Colonisation",
+          "Molecule",
+          "Penalty"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Colonisation"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. If \"cycle\" means wheel, what is a tricycle?",
+        options: [
+          "A bike with no wheels.",
+          "A bike with one wheel.",
+          "A bike with two wheels.",
+          "A bike with three wheels."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A bike with three wheels."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The student was disrespectful to the elder.\" Based on the prefix \"dis-\", what does this mean?",
+        options: [
+          "The student was very kind.",
+          "The student showed a lack of respect.",
+          "The student was acting like an elder.",
+          "The student was very quiet."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The student showed a lack of respect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word has the nuance of being very happy and excited?",
+        options: [
+          "Content",
+          "Okay",
+          "Jubilant",
+          "Calm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Jubilant"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The word \"portable\" comes from the root \"port\" (to carry). What is a portable radio?",
+        options: [
+          "A radio that is very heavy.",
+          "A radio that only works at home.",
+          "A radio that can be easily carried around.",
+          "A radio that plays very loud music."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A radio that can be easily carried around."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Scan this list for the capital of the Northern Region: ",
+        options: [
+          "Accra",
+          "Cape Coast",
+          "Tamale",
+          "Kumasi"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which technique would you use if you want to find the specific year Ghana gained independence in a long history book?",
+        options: [
+          "Skimming",
+          "Scanning",
+          "Singing",
+          "Guessing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a newspaper, you read the headlines and the first sentence of each article to see which one is interesting. You are:",
+        options: [
+          "Scanning",
+          "Skimming",
+          "Dreaming",
+          "Investigating"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The clinic is open from Monday to Friday, 8 AM to 5 PM. On Saturdays, it opens at 9 AM and closes at 12 PM. It is closed on Sundays.\" What time does the clinic close on Saturday?",
+        options: [
+          "8 AM",
+          "5 PM",
+          "9 AM",
+          "12 PM"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"Because the bridge over the Pra River was broken, the travellers had to use a canoe.\" What is the Cause?",
+        options: [
+          "The travellers used a canoe.",
+          "The travellers were tired.",
+          "The bridge was broken.",
+          "The Pra River is very wide."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"Yaw found a wallet full of Cedis on the floor of the Kejetia Market. He looked around for the owner.\" Predict what Yaw will do next if he is an honest person:",
+        options: [
+          "He will hide the money in his pocket.",
+          "He will buy a new phone immediately.",
+          "He will take the wallet to the market police station.",
+          "He will give the money to his friends."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word often signals a Comparison pattern?",
+        options: [
+          "Because",
+          "Similarly",
+          "Suddenly",
+          "Finally"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The sun came out after the heavy rain. Soon, the puddles on the school field began to disappear.\" What is the Relationship?",
+        options: [
+          "Comparison",
+          "Chronological",
+          "Cause and Effect",
+          "Problem and Solution"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"Kofi, Esi, and Mansa all go to the library every Saturday to study.\" Which is a valid generalisation?",
+        options: [
+          "All children in the world love to study on Saturdays.",
+          "Some students in this group are dedicated to their studies.",
+          "No one likes to play football on Saturdays.",
+          "Libraries are only open on Saturdays."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a faulty generalisation?",
+        options: [
+          "Many people in Accra use mobile money for transactions.",
+          "Some Ghanaian schools have ICT labs.",
+          "Every single person in Ghana owns a luxury car.",
+          "Most farmers in the North wait for the rainy season."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. You read a story about a community that came together to clean up a local beach. How would you modify this situation to fit your own school?",
+        options: [
+          "We could organise a \"Clean-Up Day\" for our school compound.",
+          "We could go to the beach every day instead of school.",
+          "We could tell the characters in the story they are doing a good job.",
+          "We could stop using plastic bottles at home."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The rainy season in Ghana usually starts in April and ends in July.\" This is a:",
+        options: [
+          "Faulty generalisation.",
+          "Valid generalisation.",
+          "Secret message.",
+          "Fiction story."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these would most likely be an Expository text?",
+        options: [
+          "A poem about the moon.",
+          "A list of steps to bake bread.",
+          "A report on the causes of the Harmattan.",
+          "A story about a talking spider."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A text that uses words like \"First,\" \"Secondly,\" and \"Finally\" to explain how to wash a car is:",
+        options: [
+          "Narrative.",
+          "Procedural.",
+          "Expository.",
+          "A Poem."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the primary purpose of a Narrative text?",
+        options: [
+          "To give instructions.",
+          "To tell a story or entertain.",
+          "To list scientific facts.",
+          "To provide a map."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The mischievous monkey grabbed the banana and climbed the tall mahogany tree.\" This style of writing is:",
+        options: [
+          "Formal and technical.",
+          "Short and numbered.",
+          "Descriptive and narrative.",
+          "Academic and scientific."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "Abena’s first day at the boarding house was a whirlwind of activity. She struggled to carry her heavy trunk and chop box up the stairs. While the other girls laughed and chatted, Abena sat on her bunk, clutching a small photo of her family in Sunyani."
+            "1. Scan for the Main Idea: What is this passage primarily about?",
+        options: [
+          "Abena's favorite food in her chop box.",
+          "The history of Sunyani.",
+          "Abena's experience arriving at a new school.",
+          "How to carry a heavy trunk."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Skim for Detail: Where is Abena's family from?",
+        options: [
+          "Accra",
+          "Sunyani",
+          "Kumasi",
+          "Cape Coast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Relate to Experience: Why is Abena clutching the photo?",
+        options: [
+          "She is afraid someone will steal it.",
+          "She is feeling homesick and misses her family.",
+          "She wants to show it to the other girls.",
+          "She is trying to fix the frame."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you were in Abena's position, what is the first thing you would do to feel better?",
+        options: [
+          "Cry and go back home immediately.",
+          "Open the chop box and eat all the shito.",
+          "Introduce yourself to a bunkmate to make a friend.",
+          "Hide under the bed until the next day."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The sun was a golden coin in the sky, promising a day of wealth and joy.\" What is the effect of this metaphor?",
+        options: [
+          "It makes the reader feel sad and poor.",
+          "It makes the reader feel hopeful and happy.",
+          "It makes the reader want to go to sleep.",
+          "It makes the reader feel cold."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It makes the reader feel hopeful and happy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which literary device is used in the phrase: \"The raging, monstrous storm destroyed the village\"?",
+        options: [
+          "Simile",
+          "Rhyme",
+          "Strong Word Choice (Diction)",
+          "Instructions"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Strong Word Choice (Diction)"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A writer uses very long, complicated words in a story about a confused student. The purpose is likely to:",
+        options: [
+          "Show off how many words the writer knows.",
+          "Make the reader feel as confused as the student.",
+          "Help the reader pass their English exam.",
+          "Make the story more exciting."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Make the reader feel as confused as the student."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The classroom was as quiet as a grave.\" How does this simile make the reader feel?",
+        options: [
+          "Excited for a party.",
+          "Nervous or uneasy because it is too quiet.",
+          "Happy and relaxed.",
+          "Hungry for lunch."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nervous or uneasy because it is too quiet."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In a story, a character finally washes their dirty clothes. These clean white clothes most likely symbolise:",
+        options: [
+          "The character's love for fashion.",
+          "A new beginning or a fresh start.",
+          "That the character has run out of money.",
+          "The arrival of a cold harmattan season."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new beginning or a fresh start."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following sentences uses sensory imagery for sound?",
+        options: [
+          "The fante kenkey was wrapped tightly in dried corn husks.",
+          "The sunset turned the sky into a sea of purple and gold.",
+          "The sharp clink-clink of the blacksmith’s hammer echoed through the village.",
+          "The shito was so spicy that Kwame reached for a bag of water."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sharp clink-clink of the blacksmith’s hammer echoed through the village."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The city of Accra never sleeps.\" This sentence is an example of:",
+        options: [
+          "A simile.",
+          "Symbolism.",
+          "Sensory imagery for taste.",
+          "Personification."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Personification."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Kweku is a lion on the football pitch.\" What does this metaphor suggest about Kweku?",
+        options: [
+          "Kweku likes to eat meat after a match.",
+          "Kweku is very fast but gets tired easily.",
+          "Kweku is brave and powerful when he plays.",
+          "Kweku has very long hair."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Kweku is brave and powerful when he plays."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the most objective way to start a summary?",
+        options: [
+          "I really liked how the author described...",
+          "The article argues that...",
+          "It was a very sad story about...",
+          "In my opinion, the most important part is..."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The article argues that..."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When summarising a text about the Akosombo Dam, which detail is a \"Main Idea\"?",
+        options: [
+          "The dam provides a large portion of Ghana's electricity.",
+          "There are many trees near the water.",
+          "Some workers wear yellow helmets.",
+          "The canteen serves jollof rice at noon."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The dam provides a large portion of Ghana's electricity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. An objective summary should always be:",
+        options: [
+          "Longer than the original text.",
+          "Full of the reader's favorite quotes.",
+          "Shorter than the original and free of bias.",
+          "A word-for-word copy of the first paragraph."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Shorter than the original and free of bias."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a text mentions that a farmer in Tamale grows yams, maize, and millet to feed his family, what is the best summary?",
+        options: [
+          "The farmer prefers maize over yams.",
+          "Farming in Tamale is a very difficult job.",
+          "A farmer in Tamale grows various crops for subsistence.",
+          "Yams are the most important crop in the Northern Region."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A farmer in Tamale grows various crops for subsistence."
+    ),
   ],
 );
 

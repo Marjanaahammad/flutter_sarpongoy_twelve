@@ -529,6 +529,126 @@ final PracticeModel s3ss1Lesson10PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel s3ss1Lesson11PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L11/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Which form shows a daily habit? \"Kofi ________ (eat) gobɛ every afternoon.\"",
+      answer: "eats",
+      explanation: "We use the simple present for habits. Since Kofi is 'he', we add an 's' to 'eat'.",
+    ),
+    PracticeQuestion(
+      scenario: "2. If the action is happening right now, which is correct? \"The students ________ (study) in the library.\"",
+      answer: "are studying",
+      explanation: "We use 'are' plus the '-ing' form for the present progressive.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What form shows a recently completed action? \"I ________ (finish) my jollof rice.\"",
+      answer: "have finished",
+      explanation: "'Have finished' is the present perfect, used for actions that are now complete.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson12PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L12/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Choose the form for an interrupted action: \"I ________ (read) my book when the phone rang.\"",
+      answer: "was reading",
+      explanation: "Reading was the ongoing action that was happening when the phone rang.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Which happened first? \"The bus ________ (leave) before I reached the station.\"",
+      answer: "had left",
+      explanation: "Since the bus left before I arrived, we use the past perfect 'had left'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the simple past of the irregular verb 'see'?",
+      answer: " saw",
+      explanation: "'See' is irregular and changes to 'saw' in the simple past.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson13PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Identify the adverb: \"The choir sang beautifully.\"",
+      answer: "beautifully",
+      explanation: "'Beautifully' is an adverb of manner describing how the choir sang.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Which word is an adverb modifying an adjective? \"The weather is very hot today.\"",
+      answer: "very",
+      explanation: "'Very' is an adverb that makes the adjective 'hot' stronger.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Find the two adverbs: \"Ama speaks quite softly.\"",
+      answer: "quite; softly",
+      explanation: "'Softly' describes how she speaks, and 'quite' describes the degree of softness.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson14PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L14/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Join these using a correlative pair: \"She is not coming.\" \"He is not coming.\"",
+      answer: "Neither she nor he is coming.",
+      explanation: "We use 'neither...nor' to show that both options are negative.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Which word best shows a reason? \"We stayed inside ________ it was too hot.\"",
+      answer: "because",
+      explanation: "'Because' is a subordinating conjunction that introduces a reason.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Fill in the blank with a time linker: \"Do not leave the classroom ________ the bell rings.\"",
+      answer: "until",
+      explanation: "'Until' is an adverb used as a conjunction to show the point in time when an action stops.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson15PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L15/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Use a phrase for Place: \"Kojo sat ________ his best friend during the lesson.\"",
+      answer: "by the side of",
+      explanation: "'By the side of' is a complex preposition used to describe a specific location.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Use a phrase for Reason: \"The crops died ________ the long drought.\"",
+      answer: "as a result of",
+      explanation: "'As a result of' explains the reason or cause of the event.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What complex preposition shows Concession (contrast)? \"________ the noise, I managed to sleep.\"",
+      answer: "In spite of",
+      explanation: "'In spite of' shows that the action happened despite the noise.",
+    ),
+  ],
+);
+final PracticeModel s3ss1Lesson16PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L16/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Which article is correct? \"I would like to buy ________ orange from the tray.\"",
+      answer: "an",
+      explanation: "'Orange' starts with a vowel sound, so we use 'an'.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Use a possessive: \"Kofi is looking for ________ shoes.\"",
+      answer: "his",
+      explanation: "Since Kofi is a boy, the possessive that belongs to him is 'his'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Point to something far away: \"Look at ________ birds in the tall tree!\"",
+      answer: "those",
+      explanation: "Since the birds are plural and far away, we use 'those'.",
+    ),
+  ],
+);
 
 final PracticeModel jhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/5. Guided Practice.m4a',
@@ -1275,26 +1395,225 @@ final PracticeModel jhs3s1ss3Lesson2PracticeData = PracticeModel(
   ],
 );
 
-// final PracticeModel jhs2ss1ss1l1PracticeData = PracticeModel(
-//   audioPath: 'assets/audio/jhs2/ss1_l1/6. Guided Practice.m4a',
-//   questions: [
-//     PracticeQuestion(
-//       scenario: "1. Question: You are preparing a presentation for the School Board about the need for new laboratory equipment. What register should you use?",
-//       answer: "Correct Answer: I should use a formal register.",
-//       explanation: "Explanation: The School Board is an official body, so formal language is required for professionalism and respect.",
-//     ),
-//     PracticeQuestion(
-//       scenario: "2. Question: During your presentation, you see that the audience looks confused. What should you do?",
-//       answer: "Correct Answer: I should pause and ask if anyone has questions or needs clarification.",
-//       explanation: "Explanation: Monitoring your audience's reaction is a key part of an effective formal presentation.",
-//     ),
-//     PracticeQuestion(
-//       scenario: "3. Question: Your presentation includes a complex chart about budget allocation. How should you explain it?",
-//       answer: "Correct Answer: I should use clear, simple language and a steady pace to explain the chart step-by-step.",
-//       explanation: "Explanation: Breaking down complex visuals help ensures the audience understands the data.",
-//     ),
-//   ],
-// );
+final PracticeModel jhs3s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The news was a bitter pill for Esi to swallow.\"",
+      answer: "Correct Answer: This is a metaphor. It means the news was very difficult for Esi to accept or deal with.",
+      explanation: "Explanation: By comparing the news to a \"bitter pill,\" the writer shows that even though it is \"medicine\" (information she needs to know), it is very unpleasant.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The coconut trees danced in the strong sea breeze near the Elmina Castle.\"",
+      answer: "Correct Answer: This is personification. It means the trees were swaying or moving violently in the wind.",
+      explanation: "Explanation: Trees cannot actually \"dance.\" By giving them this human action, the writer makes the scene feel energetic and lively.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The old man's skin was like a piece of dried tilapia.\"",
+      answer: "Correct Answer: This is a simile. It describes the man's skin as being very rough, wrinkled, or dry.",
+      explanation: "Explanation: The word \"like\" tells us it is a simile. Comparing skin to dried tilapia creates a very clear mental image of texture using a local example we all know.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"In Social Studies, we learned how the government spends and makes money.\" What is a technical term for \"money used by the government\"?",
+      answer: "Correct Answer: Revenue and Expenditure.",
+      explanation: "Explanation: In a Social Studies or Economics register, we use \"revenue\" for money coming in and \"expenditure\" for money going out.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The doctor used a tool to listen to my heart.\" What is the technical name for that tool?",
+      answer: "Correct Answer: Stethoscope.",
+      explanation: "Explanation: In the medical register, \"stethoscope\" is the specific name for the instrument used to listen to internal body sounds.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify the domain-specific word in this sentence: \"The protocol for entering the computer lab requires all students to remove their shoes.\"",
+      answer: "Correct Answer: Protocol.",
+      explanation: "Explanation: In this context, \"protocol\" is a technical term meaning a formal set of rules or procedures.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you know that \"Tele\" means \"far away\" (like in telephone), what is a \"Telescope\" used for?",
+      answer: "Correct Answer: It is a tool used to see things that are far away, like stars.",
+      explanation: "Explanation: By connecting \"tele\" (far) and \"scope\" (to look), we can determine the function of the object even if we've never seen one.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: The word is \"Interstate.\" We know \"inter\" means \"between\" and \"state\" can mean a country or region. What is an \"interstate\" road?",
+      answer: "Correct Answer: A road that goes between different states or regions.",
+      explanation: "Explanation: This connection helps us understand that the road isn't just inside one town, but connects many places together.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which word is \"stronger\" or more intense: Cold or Frigid?",
+      answer: "Correct Answer: Frigid.",
+      explanation: "Explanation: While both mean a low temperature, \"frigid\" has the nuance of being extremely, dangerously cold—much colder than a normal \"cold\" day.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What is the fee for the computer classes?"
+      "Text: \"The Youth Centre is offering new courses this month. We have bead making on Mondays and ICT classes on Wednesdays. The ICT registration fee is 50 Cedis. Please bring a notebook and a pen.\"",
+      answer: "Correct Answer: 50 Cedis.",
+      explanation: "Explanation: By scanning for the keyword \"fee\" or the symbol for currency, you can skip the info about bead making and notebooks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Who is the guest speaker for the assembly?"
+      "Text: \"All JHS students must gather at the assembly hall by 8:00 AM. We are honoured to welcome Dr. Joyce Aryee, who will speak about leadership. Please be seated quietly before she arrives.\"",
+      answer: "Correct Answer: Dr. Joyce Aryee.",
+      explanation: "Explanation: Your eyes should scan for capital letters (Proper Nouns) because a \"who\" question always looks for a name.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What time does the final match start?"
+      "Text: \"The inter-school sports competition ends this Friday. The netball finals start at 2:00 PM, followed by the football final at 4:30 PM. Medals will be given at 6:00 PM.\"",
+      answer: "Correct Answer: 4:30 PM.",
+      explanation: "Explanation: You scanned for the keyword \"football\" and then looked for the time closest to it.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The fisherman noticed the clouds turning deep purple and the sea becoming very rough. He decided to turn his boat back to the shore.\" What is the relationship here?",
+      answer: "Correct Answer: Cause and Effect.",
+      explanation: "Explanation: The stormy weather (Cause) led to the fisherman's decision to return (Effect).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"Abena has been practicing her penalty kicks every day after school for a month. Tomorrow is the big inter-school match.\" What is your prediction?",
+      answer: "Correct Answer: Abena will likely score a goal or play very well.",
+      explanation: "Explanation: Based on the pattern of her hard work and practice, the most logical result is success.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"First, you peel the yams. Next, you boil them in salted water. Finally, you mash them.\" What is the pattern used here?",
+      answer: "Correct Answer: Chronological (or Step-by-Step) pattern.",
+      explanation: "Explanation: The words \"First,\" \"Next,\" and \"Finally\" show that the ideas are related by time and order.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"Every year during the Harmattan, the air becomes dusty and many people develop dry coughs.\" What is a valid generalisation we can make from this?",
+      answer: "Correct Answer: The Harmattan weather often affects the health of people in Ghana.",
+      explanation: "Explanation: By using the word \"often,\" we create a valid statement supported by the facts in the text.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a story, a young boy helps his grandmother carry heavy loads from the farm. How can you link this to your own life?",
+      answer: "Correct Answer: I can link this to how I help my parents with chores at home after school.",
+      explanation: "Explanation: This identifies a similar behaviour (helping elders) and applies it to a personal, real-life context.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"In the forest regions of Ghana, farmers grow cocoa, plantain, and cassava. In the savannah regions, they grow millet and shea nuts.\" What generalisation can we make about farming in Ghana?",
+      answer: "Correct Answer: The types of crops grown in Ghana vary depending on the geographical region.",
+      explanation: "Explanation: This statement covers both specific examples provided in the text.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"1. Rinse the beans thoroughly. 2. Place in a pot with four cups of water. 3. Boil until soft.\" What type of text is this?",
+      answer: "Correct Answer: Procedural.",
+      explanation: "Explanation: The numbered steps and command verbs (\"Rinse,\" \"Place,\" \"Boil\") show it is giving instructions.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"Ghana is located along the Gulf of Guinea and the Atlantic Ocean, in the subregion of West Africa.\" What type of text is this?",
+      answer: "Correct Answer: Expository.",
+      explanation: "Explanation: It is providing factual geographic information in a formal, direct style.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"Kojo sighed as he looked at the empty field. He knew that without rain, the maize would never grow.\" What type of text is this?",
+      answer: "Correct Answer: Narrative.",
+      explanation: "Explanation: It describes a character's feelings and sets up a situation in a story format.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. \"The high tide at Jamestown brought in more than just fish. Old plastic bottles and torn nets littered the sand. Naa looked at the mess and sighed, remembering when the beach was as clean as a new sheet of paper.\"" "Skim the text: What specific \"mess\" did the tide bring in?",
+      answer: "Correct Answer: Plastic bottles and torn nets.",
+      explanation: "Explanation: By skimming for nouns, you find the specific details that describe the \"mess.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does Naa’s feeling relate to your own experience with your environment?",
+      answer: "Correct Answer: Students might feel sad or frustrated when they see litter in their own school compound or local gutters.",
+      explanation: "Explanation: This connects Naa's \"sigh\" (emotion) to the student's own observation of pollution in Ghana.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. \"The cool breeze whispered through the cocoa trees, kissing the cheeks of the tired farmers.\"",
+      answer: "Correct Answer: Personification (\"whispered,\" \"kissing\").",
+      explanation: "Explanation: This makes the reader feel peaceful and comforted. It shows that nature is being kind to the hardworking people.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"Suddenly. A flash. A crash. Darkness.\"",
+      answer: "Correct Answer: Short sentence rhythm.",
+      explanation: "Explanation: This makes the reader feel shocked or startled. The fast pace mirrors the suddenness of the event.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The corruption in the city was a growing weed, choking the life out of every honest business.\"",
+      answer: "Correct Answer: Metaphor (\"growing weed\").",
+      explanation: "Explanation: This makes the reader feel angry or concerned. It shows that corruption is something harmful that spreads if it isn't stopped.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson10PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. \"The news was a bitter pill for Esi to swallow.\"",
+      answer: "Correct Answer: This is a metaphor. It means the news was very difficult for Esi to accept.",
+      explanation: "Explanation: Even though the news isn't literal medicine, the writer uses \"bitter pill\" to show how unpleasant it was.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The coconut trees danced in the strong sea breeze near the Elmina Castle.\"",
+      answer: "Correct Answer: This is personification.",
+      explanation: "Explanation: Trees cannot actually \"dance.\" By giving them a human action, the writer makes the scene feel lively and energetic.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The old man's skin was like a piece of dried tilapia.\"",
+      answer: "Correct Answer: This is a simile.",
+      explanation: "Explanation: The word \"like\" tells us it is a simile, creating a clear mental image of a rough or wrinkled texture using a local example.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Passage: \"JHS 3 students at Achimota School organised a bake sale to buy new jerseys for the football team. they sold meat pies, bofrot, and chilled bissap. By the end of the day, they raised 500 Cedis, which was enough for the new kit.\""
+    "Question: What is the Main Idea of this passage?",
+      answer: "Correct Answer: The JHS 3 students held a successful bake sale to fund new sports uniforms.",
+      explanation: "Explanation: This covers the \"who\" (students), the \"what\" (bake sale), and the \"result\" (funding uniforms) without getting distracted by the specific snacks sold.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify one \"Supporting Detail\" that should be left out of a short summary.",
+      answer: "Correct Answer: The fact that they sold bofrot and chilled bissap.",
+      explanation: "Explanation: While tasty, the specific items sold are minor details. The important part is that they sold food to raise money.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Rewrite this sentence to make it objective: \"The students worked very hard and the bofrot was the best in Accra.\"",
+      answer: "Correct Answer: The students conducted the sale and sold bofrot to the participants.",
+      explanation: "Explanation: Removing \"worked very hard\" and \"best in Accra\" removes personal opinion and stick to the objective action.",
+    ),
+  ],
+);
 
 ///Religious & Moral Education
 final PracticeModel RMEs1ss1Lesson1PracticeData = PracticeModel(

@@ -2284,6 +2284,660 @@ final QuizModel s3ss1Lesson10QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel s3ss1Lesson11QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L11/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which sentence is in the Present Progressive?",
+        options: [
+          "I wash a car",
+          "I have been washing a car",
+          "I have washed a car",
+          "I am washing a car"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Uses 'am' + 'verb-ing' for actions in progress."
+    ),
+
+    QuizQuestion(
+        question: "2. 'She _______ to the market every Saturday.'",
+        options: [
+          "go",
+          "is going",
+          "goes",
+          "have gone"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Simple present for regular habits."
+    ),
+
+    QuizQuestion(
+        question: "3. Identify the tense: 'I have washed the car.'",
+        options: [
+          "Simple Present",
+          "Present Progressive",
+          "Present Perfect",
+          "Present Perfect Progressive"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Uses 'have' + past participle for completed actions."
+    ),
+
+    QuizQuestion(
+        question: "4. 'We _______ for the bus for twenty minutes.'",
+        options: [
+          "wait",
+          "are waiting",
+          "have been waiting",
+          "have waited"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Shows an action that started in the past and is still happening."
+    ),
+
+    QuizQuestion(
+        question: "5. 'The teacher _______ just entered the classroom.'",
+        options: [
+          "is",
+          "has",
+          "have",
+          "was"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Present perfect for a very recent action."
+    ),
+
+    QuizQuestion(
+        question: "6. Which aspect describes a general truth, like 'The sun rises in the east'?",
+        options: [
+          "Present Progressive",
+          "Present Perfect",
+          "Simple Present",
+          "Present Perfect Progressive"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Simple present is used for facts and truths."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Listen! The choir _______ a beautiful song.'",
+        options: [
+          "sings",
+          "is singing",
+          "has sung",
+          "have been singing"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Listen' implies the action is happening right now."
+    ),
+
+    QuizQuestion(
+        question: "8. What is the correct form for 'he' in Present Perfect Progressive?",
+        options: [
+          "He have been playing",
+          "He has been playing",
+          "He is playing",
+          "He has played"
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Third-person singular requires 'has'."
+    ),
+
+    QuizQuestion(
+        question: "9. 'I _______ my keys! Can you help me find them?'",
+        options: [
+          "lose",
+          "am losing",
+          "have lost",
+          "have been losing"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "Present perfect shows a past action with a present result (they are still missing)."
+    ),
+
+    QuizQuestion(
+        question: "10. 'The farmers _______ the land since sunrise.'",
+        options: [
+          "are clearing",
+          "clear",
+          "have been clearing",
+          "has cleared"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "Indicates an ongoing action that started at a specific time (sunrise)."
+    )
+  ],
+);
+final QuizModel s3ss1Lesson12QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L12/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which sentence shows an action that was happening at a specific time?",
+        options: [
+          "I washed the car",
+          "I was washing the car",
+          "I had washed the car",
+          "I wash the car"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Past Progressive shows an ongoing past action."
+    ),
+
+    QuizQuestion(
+        question: "2. 'The cat _______ all the milk before I could stop it.'",
+        options: [
+          "drank",
+          "was drinking",
+          "had drunk",
+          "drinks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Past Perfect shows an action completed before another past event."
+    ),
+
+    QuizQuestion(
+        question: "3. What is the past tense of 'go'?",
+        options: [
+          "goed",
+          "was going",
+          "went",
+          "gone"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Go' is an irregular verb."
+    ),
+
+    QuizQuestion(
+        question: "4. 'While they ________, the bell rang.'",
+        options: [
+          "studied",
+          "had studied",
+          "were studying",
+          "study"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Past Progressive is used for the background action."
+    ),
+
+    QuizQuestion(
+        question: "5. 'Ama _______ her homework before she watched TV.'",
+        options: [
+          "did",
+          "had done",
+          "was doing",
+          "does"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The homework was finished before the TV watching."
+    ),
+
+    QuizQuestion(
+        question: "6. 'I _______ a snake in the grass yesterday.'",
+        options: [
+          "see",
+          "seed",
+          "was seeing",
+          "saw"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Simple past for a completed action at a specific time."
+    ),
+
+    QuizQuestion(
+        question: "7. 'We _______ for the bus when it started to drizzle.'",
+        options: [
+          "waited",
+          "had waited",
+          "were waiting",
+          "are waiting"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Shows an action in progress in the past."
+    ),
+
+    QuizQuestion(
+        question: "8. 'Kojo _______ his chores by 4 PM.'",
+        options: [
+          "had finished",
+          "was finishing",
+          "finishes",
+          "has finished"
+        ],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation: "Implies completion before a specific past time point."
+    ),
+
+    QuizQuestion(
+        question: "9. Identify the tense: 'The team was playing well.'",
+        options: [
+          "Simple Past",
+          "Past Progressive",
+          "Past Perfect",
+          "Present Progressive"
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "'Was' + 'playing' is the past progressive form."
+    ),
+
+    QuizQuestion(
+        question: "10. 'After the sun _______ , the temperature dropped.'",
+        options: [
+          "set",
+          "was setting",
+          "had set",
+          "sets"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "The sun setting happened before the temperature drop."
+    )
+  ],
+);
+final QuizModel s3ss1Lesson13QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which word is an adverb of manner?",
+        options: [
+          "Slowly",
+          "Fast",
+          "Now",
+          "Here"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Adverbs of manner often end in '-ly'."
+    ),
+
+    QuizQuestion(
+        question: "2. 'The exam was _______ difficult.'",
+        options: [
+          "extreme",
+          "extremely",
+          "extremes",
+          "extremity"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Use the adverb form to modify the adjective 'difficult'."
+    ),
+
+    QuizQuestion(
+        question: "3. In 'She arrived late,' what is the adverb?",
+        options: [
+          "She",
+          "arrived",
+          "late",
+          "arrived late"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Late' tells us when she arrived."
+    ),
+
+    QuizQuestion(
+        question: "4. 'The cheetah runs incredibly quickly.' What is the first adverb doing?",
+        options: [
+          "Modifying a noun",
+          "Modifying a verb",
+          "Modifying another adverb",
+          "Modifying an adjective"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Incredibly' gives more info about the adverb 'quickly'."
+    ),
+
+    QuizQuestion(
+        question: "5. 'The market is _______ crowded today.'",
+        options: [
+          "quiet",
+          "unusually",
+          "slow",
+          "blue"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Unusually' modifies the adjective 'crowded'."
+    ),
+
+    QuizQuestion(
+        question: "6. Identify the adverb that modifies a verb: 'Kofi played the drums skillfully.'",
+        options: [
+          "Kofi",
+          "played",
+          "drums",
+          "skillfully"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Describes how Kofi 'played'."
+    ),
+
+    QuizQuestion(
+        question: "7. Which sentence uses an adverb to describe an adjective?",
+        options: [
+          "He ran fast",
+          "The soup is very hot",
+          "I will go now",
+          "Sit down there"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Very' modifies the adjective 'hot'."
+    ),
+
+    QuizQuestion(
+        question: "8. 'We must act _______ to save the environment.'",
+        options: [
+          "quick",
+          "quickly",
+          "quicker",
+          "quickest"
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Adverb of manner needed to describe 'act'."
+    ),
+
+    QuizQuestion(
+        question: "9. In the phrase 'too loudly,' 'too' is an adverb modifying _______.",
+        options: [
+          "a verb",
+          "a noun",
+          "an adverb",
+          "an adjective"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "'Loudly' is an adverb; 'too' tells us more about it."
+    ),
+
+    QuizQuestion(
+        question: "10. 'The rain fell _______ on the zinc roof.'",
+        options: [
+          "heavy",
+          "heavier",
+          "heaviness",
+          "heavily"
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation: "Use the adverb form to describe how the rain 'fell'."
+    )
+  ],
+);
+final QuizModel s3ss1Lesson14QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L14/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. 'I like Jollof, _______ I prefer Waakye.'",
+        options: ["and", "but", "or", "nor"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'But' shows contrast between two preferences."
+    ),
+
+    QuizQuestion(
+        question: "2. Which of these is a correlative conjunction pair?",
+        options: ["and / or", "because / so", "neither / nor", "although / but"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "These two words must work together in a sentence."
+    ),
+
+    QuizQuestion(
+        question: "3. '_______ it was dark, we found our way home.'",
+        options: ["Because", "Although", "Since", "Or"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Shows contrast between the darkness and finding the way."
+    ),
+
+    QuizQuestion(
+        question: "4. 'He is _______ a good student _______ a great footballer.'",
+        options: ["neither...or", "not only...but also", "either...nor", "both...or"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "This pair adds two positive things together."
+    ),
+
+    QuizQuestion(
+        question: "5. 'Wait here _______ I come back.'",
+        options: ["before", "so", "after", "until"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "'Until' shows the time up to which an action continues."
+    ),
+
+    QuizQuestion(
+        question: "6. '_______ you finish your work, you cannot go out.'",
+        options: ["Because", "Or", "After", "Until"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Sets a time condition for the action."
+    ),
+
+    QuizQuestion(
+        question: "7. Identify the coordinating conjunction: 'I went to the market, and I bought fish.'",
+        options: ["market", "fish", "bought", "and"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "'And' is one of the seven coordinating conjunctions (FANBOYS)."
+    ),
+
+    QuizQuestion(
+        question: "8. '_______ Ama _______ Kofi were at school today.'",
+        options: ["Neither...nor", "Either...nor", "Not only...or", "Neither...or"],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation: "Correct negative correlative pair usage."
+    ),
+
+    QuizQuestion(
+        question: "9. 'We use _______ conjunctions to link ideas that are not equal.'",
+        options: ["coordinating", "correlative", "subordinating", "time"],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "Subordinating conjunctions link dependent and independent clauses."
+    ),
+
+    QuizQuestion(
+        question: "10. 'Wash the vegetables _______ you cook them.'",
+        options: ["until", "before", "because", "although"],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Correct time linker to show sequence in a process."
+    )
+  ],
+);
+final QuizModel s3ss1Lesson15QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L15/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which complex preposition expresses a 'Reason'?",
+      options: ["In front of", "On account of", "Near to", "Out of"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'On account of' is used to explain a cause.",
+    ),
+
+    QuizQuestion(
+      question: "2. 'The car is parked _______ the gate.'",
+      options: ["on behalf of", "in front of", "in spite of", "by dint of"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This describes the physical place of the car.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which phrase describes 'Time'?",
+      options: ["Close to", "During the course of", "Because of", "Apart from"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This shows the duration of an event.",
+    ),
+
+    QuizQuestion(
+      question: "4. '_______ the rain, the football match continued.'",
+      options: ["In spite of", "Because of", "Far from", "Due to"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Used for concession/contrast.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The prefect received the award _______ the school.'",
+      options: ["in front of", "on behalf of", "out of", "in time of"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This means the prefect represented the school.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'We were away _______ one week.'",
+      options: ["at noon", "by the side of", "during the course of", "for"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'For' is used to show a period of time.",
+    ),
+
+    QuizQuestion(
+      question: "7. Identify the preposition of Place: 'He ran _______ the house.'",
+      options: ["because of", "in spite of", "due to", "out of"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Out of' indicates a direction from a place.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'The accident happened _______ a mechanical failure.'",
+      options: ["apart from", "in front of", "near to", "as a result of"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Explains the reason behind the accident.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a complex preposition of concession?",
+      options: ["Apart from", "Close to", "In time of", "On account of"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "'Apart from' can be used to show an exception or concession.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'The flowers grew _______ the wall.'",
+      options: ["due to", "by the side of", "on behalf of", "in spite of"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Describes the location relative to the wall.",
+    ),
+  ],
+);
+final QuizModel s3ss1Lesson16QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L16/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which article do we use for a specific person?",
+      options: ["a", "an", "the", "this"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'The' is the definite article for specific nouns.",
+    ),
+
+    QuizQuestion(
+      question: "2. 'Please pass me _______ pencil.' (Any pencil will do)",
+      options: ["a", "an", "the", "those"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Use 'a' for non-specific nouns starting with a consonant.",
+    ),
+
+    QuizQuestion(
+      question: "3. '_______ car is over there.' (Belonging to a woman)",
+      options: ["His", "Her", "Its", "Our"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Her' is the possessive determiner for a female.",
+    ),
+
+    QuizQuestion(
+      question: "4. '_______ apples in my hand are very sweet.'",
+      options: ["This", "That", "These", "Those"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'These' is for plural items close to the speaker.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'He bought _______ umbrella for the rainy season.'",
+      options: ["a", "an", "the", "some"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Umbrella' starts with a vowel sound.",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the possessive: 'Our teacher is very kind.'",
+      options: ["Our", "Teacher", "Is", "Kind"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Our' shows the teacher belongs to the group speaking.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'An apple fell from _______ tree is yours.'",
+      options: ["this", "these", "that", "those"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Referring to a specific tree further away.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'We saw _______ movie last night.' (Non-specific)",
+      options: ["a", "an", "the", "this"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Indefinite article for a consonant sound.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is NOT a determiner?",
+      options: ["The", "My", "Those", "Quickly"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "'Quickly' is an adverb, not a determiner.",
+    ),
+
+    QuizQuestion(
+      question: "10. 'The cat wagged _______ tail.'",
+      options: ["his", "its", "it's", "their"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Its' is the possessive for animals/objects.",
+    ),
+  ],
+);
 
 final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
@@ -4595,7 +5249,7 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
 
     QuizQuestion(
       question: '7. Which sentence uses a preposition of instrument?',
-      options: ["He traveled by bus.", "He traveled to Kumasi.", "He traveled with joy."],
+      options: ["He traveled by bus.", "He traveled to Kumasi.", "He traveled with joy.", "He travelled at night"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: '"By bus" explains the means of transport used.',
@@ -4603,7 +5257,7 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
 
     QuizQuestion(
       question: '8. "We sat under the mango tree." What is "under" modifying?',
-      options: ["The time of sitting", "Physical location"],
+      options: ["The time of sitting", "Physical location", "The manner of sitting", "The reason for sitting"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "It describes the physical location.",
@@ -5553,6 +6207,1280 @@ final QuizModel jhs3s1ss3Lesson2QuizData = QuizModel(
       explanation:
           "'I beg to differ' is a polite, formal way to show disagreement.",
     ),
+  ],
+);
+
+final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
+      options: ["Personification", "Simile", "Metaphor", "Symbolism"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
+    ),
+
+    QuizQuestion(
+      question: '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
+      options: ["Sight", "Smell", "Touch", "Taste"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
+    ),
+
+    QuizQuestion(
+      question: '3. "The moon was a silver cedi in the sky." This is an example of a:',
+      options: ["Metaphor", "Simile", "Personification", "Sensory imagery for sound"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: 'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
+    ),
+
+    QuizQuestion(
+      question: '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
+      options: ["The soldiers are hungry for birds", "The weather is about to change", "The fighting might soon end in peace", "The soldiers should look at the sky"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
+    ),
+
+    QuizQuestion(
+      question: '5. "The waves lashed out at the shore in anger." This is an example of:',
+      options: ["Simile", "Metaphor", "Personification", "Symbolism"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
+    ),
+
+    QuizQuestion(
+      question: '6. Which sentence contains imagery that appeals to the sense of TASTE?',
+      options: ["The drums beat a steady rhythm for the dancers", "The bitter juice of the neem leaf made Abena gag", "The smoke from the woodfire stung his eyes", "The blue lorry was packed with heavy yams"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: '"Bitter" and the reaction to juice relate directly to the sense of taste.',
+    ),
+
+    QuizQuestion(
+      question: '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
+      options: ["The brother is actually a mythical creature", "The brother is very tall or influential", "The brother likes to eat a lot of food", "The brother lives in a very large house"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'As a metaphor, "giant" describes the brother\'s impressive height or status.',
+    ),
+
+    QuizQuestion(
+      question: '8. Why do writers use sensory imagery?',
+      options: ["To make the book longer and more expensive", "To hide the fact that they don\'t have a good story", "To help the reader create a vivid mental picture of the scene", "To teach readers how to use their five senses in real life"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
+    ),
+
+    QuizQuestion(
+      question: '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
+      options: ["Sight", "Sound", "Taste", "Smell"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: '"Crunched" is an onomatopoeic word that describes a specific sound.',
+    ),
+
+    QuizQuestion(
+      question: '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
+      options: ["A heavy weight she has to carry", "Her connection to her grandmother’s faith and memory", "That Abena is a very good student", "That the grandmother forgot her book"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: 'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a technical term for the money a person earns from work?",
+      options: ["Gift", "Pocket money", "Income", "Dash"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Income" is the formal academic term for earnings.',
+    ),
+
+    QuizQuestion(
+      question: "2. In a Science lesson, the word 'cell' refers to:",
+      options: ["A small room in a prison", "The basic unit of life", "A button on a mobile phone", "A place to buy credit"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'In a scientific register, "cell" specifically refers to biological units.',
+    ),
+
+    QuizQuestion(
+      question: "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
+      options: ["Opinion", "Guess", "Verdict", "Story"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
+    ),
+
+    QuizQuestion(
+      question: "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
+      options: ["Agriculture", "ICT", "Home Economics", "Religious and Moral Education"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'Words like "router," "IP address," and "network" belong to the ICT domain.',
+    ),
+
+    QuizQuestion(
+      question: "5. To 'hibernate' in the animal kingdom means to:",
+      options: ["Run very fast from a predator", "Eat only green plants", "Spend the winter in a dormant or sleeping state", "Travel to a different country for food"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Hibernate" is a technical biological term for seasonal dormancy.',
+    ),
+
+    QuizQuestion(
+      question: "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
+      options: ["Weather", "Hot", "Precipitation", "Rain"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Precipitation" is the academic term for any form of water falling from the sky.',
+    ),
+
+    QuizQuestion(
+      question: "7. 'The President signed the amendment to the law.' What does amendment mean?",
+      options: ["A picture of the law", "A formal change or addition to a document", "The end of a meeting", "A speech given at a funeral"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: 'In political and legal registers, an amendment is a formal change.',
+    ),
+
+    QuizQuestion(
+      question: "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
+      options: ["Put the stuff in the hot water", "Submerge the vegetables in boiling water to blanch them", "Throw the greens in the pot", "Make the plants wet and hot"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: '"Submerge" and "blanch" are technical terms used in professional cooking.',
+    ),
+
+    QuizQuestion(
+      question: "9. The word 'inflation' is a technical term used in which subject?",
+      options: ["Physical Education", "Integrated Science", "Social Studies/Economics", "Creative Arts"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: 'Inflation refers to the rise in prices and is an economic term.',
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to use technical vocabulary in school assignments?",
+      options: ["To make the teacher spend more time marking", "To show that you are better than your classmates", "To express complex ideas accurately and professionally", "To fill up more space on the paper"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'Technical vocabulary allows for precision and demonstrates subject mastery.',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
+      options: ["None", "One", "Many", "Small"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Multi-" is a common prefix meaning many or multiple.',
+    ),
+
+    QuizQuestion(
+      question: '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
+      options: ["Comfortable", "Rich", "Affluent", "Poor"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
+    ),
+
+    QuizQuestion(
+      question: '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
+      options: ["It is very delicious", "It cannot be eaten", "It is very sweet", "It needs to be cooked"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'The prefix "in-" often means "not."',
+    ),
+
+    QuizQuestion(
+      question: '4. If a character is described as cautious, how are they acting?',
+      options: ["Very brave and reckless", "Very angry and loud", "Very careful to avoid danger", "Very fast and hurried"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"Cautious" is connected to the word "caution," which means care.',
+    ),
+
+    QuizQuestion(
+      question: '5. What is the root word in "Unhappiness"?',
+      options: ["Un", "Happy", "Ness", "Happi"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: '"Happy" is the base word that carries the main meaning.',
+    ),
+
+    QuizQuestion(
+      question: '6. Which word describes a small, gentle wind (a nuance of "wind")?',
+      options: ["Gale", "Hurricane", "Breeze", "Storm"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'A "breeze" is specifically a light or gentle wind.',
+    ),
+
+    QuizQuestion(
+      question: '7. "The girl was fearless during the storm." What does this tell us?',
+      options: ["She was very afraid", "She had no fear", "She was hiding under the bed", "She was crying loudly"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'The suffix "-less" means "without."',
+    ),
+
+    QuizQuestion(
+      question: '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
+      options: ["The study of the stars", "The study of ancient kings", "The study of the earth\'s surface and maps", "The study of how to cook food"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: 'Connecting the two Greek roots reveals the meaning of the subject.',
+    ),
+
+    QuizQuestion(
+      question: '9. Which word suggests a lack of hope?',
+      options: ["Hopeful", "Hopeless", "Hoping", "Rehope"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'Again, the suffix "-less" indicates the absence of the root word.',
+    ),
+
+    QuizQuestion(
+      question: '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
+      options: ["It means he is ready to play again", "It means he is only a little bit sleepy", "It means he is extremely tired and has no energy left", "It means he is hungry for a big meal"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: '"Exhausted" is a stronger nuance of "tired."',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: '1. What is the main goal of scanning?',
+      options: ["To enjoy the beauty of the language", "To find a specific fact or piece of information", "To understand the author\'s hidden feelings", "To check for spelling mistakes"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'Scanning is a search for a specific "target" word or fact.',
+    ),
+
+    QuizQuestion(
+      question: '2. When skimming a text, which part is MOST important to read?',
+      options: ["Every single adjective", "The page numbers", "The title and headings", "The middle of every sentence"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: 'Headings and titles give the best summary of the gist.',
+    ),
+
+    QuizQuestion(
+      question: '3. You are looking for a friend\'s name in a long list of BECE results. What is the best strategy?',
+      options: ["Read the list from bottom to top very slowly", "Use your finger to scan for the first letter of their name", "Skim the first paragraph to get the general idea", "Read every name out loud to your friends"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'Searching for a specific name requires scanning for a starting letter.',
+    ),
+
+    QuizQuestion(
+      question: '4. "The new syllabus for JHS will be introduced in September 2026." If you are scanning for "When," what is your target?',
+      options: ["The word \"syllabus\"", "The word \"JHS\"", "A date or month", "The word \"introduced\""],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: '"When" questions always require a temporal (time) target.',
+    ),
+
+    QuizQuestion(
+      question: '5. How does "skimming" differ from "scanning"?',
+      options: ["Skimming is for facts; scanning is for the gist", "Skimming is for the gist; scanning is for facts", "Skimming is slower than scanning", "Scanning is only used for pictures"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'This is the fundamental difference between the two speed-reading styles.',
+    ),
+
+    QuizQuestion(
+      question: '6. Which of these helps you scan faster?',
+      options: ["Knowing the keyword you are looking for", "Reading the passage three times", "Closing one eye", "Translating the text into another language"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: 'Having a "mental image" of the word makes it pop out visually.',
+    ),
+
+    QuizQuestion(
+      question: '7. "The store sells yams for 20 Cedis, plantains for 15 Cedis, and cassava for 10 Cedis." How much is the cassava?',
+      options: ["20 Cedis", "15 Cedis", "10 Cedis", "5 Cedis"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: 'A quick scan for the keyword "cassava" leads to the price.',
+    ),
+
+    QuizQuestion(
+      question: '8. If a question asks "Why did the character leave?", which word should you scan for?',
+      options: ["And", "Because", "The", "With"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: '"Why" questions look for reasons, and "because" is the most common signpost for a reason.',
+    ),
+
+    QuizQuestion(
+      question: '9. What is a disadvantage of sub-vocalizing (saying words in your head) while speed reading?',
+      options: ["It makes you look funny", "It makes your throat sore", "It limits your reading speed to your speaking speed", "It helps you remember things better"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: 'Your eyes can move much faster than your voice; sub-vocalizing acts as a "speed limit."',
+    ),
+
+    QuizQuestion(
+      question: '10. You have 30 seconds to find the "Main Idea" of a 5-page document. What do you do?',
+      options: ["Scan for the word \"The.\"", "Skim the headings and the summary", "Read the first page very carefully", "Give up"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'Skimming is the correct technique for finding a "Main Idea" quickly.',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is a 'prediction' in reading?",
+        options: [
+          "Reading the last page of the book first",
+          "A guess about the future based on clues in the text",
+          "Memorising the names of all the characters",
+          "Copying the text into your notebook"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Predictions are logical guesses based on evidence provided by the author."
+    ),
+
+    QuizQuestion(
+        question: "2. 'The electricity went off while Esi was studying. Therefore, she had to use a torch.' What is the Effect?",
+        options: [
+          "The electricity went off",
+          "Esi was studying",
+          "Esi used a torch",
+          "It was nighttime"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The effect is the result; Esi using the torch is the result of the power cut."
+    ),
+
+    QuizQuestion(
+        question: "3. If a character is constantly lying to their parents, what pattern might you identify?",
+        options: [
+          "A pattern of honesty",
+          "A pattern of untrustworthy behaviour",
+          "A pattern of being a good student",
+          "A pattern of cooking"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Repeated actions create a pattern of character traits."
+    ),
+
+    QuizQuestion(
+        question: "4. Which of these is a clue used to make a prediction?",
+        options: [
+          "The number of pages in the book",
+          "The colour of the book cover",
+          "The character's current feelings and actions",
+          "The price of the book in Cedis"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Internal clues like feelings and actions help us guess future behaviour."
+    ),
+
+    QuizQuestion(
+        question: "5. 'Kente cloth is woven by hand, whereas factory cloth is made by machines.' What is the relationship between these two ideas?",
+        options: [
+          "Cause and Effect",
+          "Chronological order",
+          "Contrast (showing differences)",
+          "Summary"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Whereas' is a signal word for showing a difference or contrast."
+    ),
+
+    QuizQuestion(
+        question: "6. 'The clouds are gathering, the birds are flying low, and the air is humid.' What is the most likely prediction?",
+        options: [
+          "It is going to snow in Accra",
+          "It is going to rain soon",
+          "The sun is going to get hotter",
+          "There will be a sandstorm"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "These are natural clues that precede rain in a Ghanaian context."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Ama forgot to water her garden for two weeks. As a result, her pepper plants died.' What is the Cause?",
+        options: [
+          "The pepper plants died",
+          "Ama forgot to water the garden",
+          "The garden was too big",
+          "It was a very hot month"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The cause is the action (or lack of action) that led to the result."
+    ),
+
+    QuizQuestion(
+        question: "8. In a 'Problem and Solution' pattern, what would follow a description of a village having no clean water?",
+        options: [
+          "A description of how to play football",
+          "A list of the village elders' names",
+          "A description of a new well being built",
+          "A story about a trip to the city"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The solution must directly address the problem of lack of water."
+    ),
+
+    QuizQuestion(
+        question: "9. 'First, the seed is planted. Then, it is watered. Eventually, it sprouts.' This follows which pattern?",
+        options: [
+          "Cause and Effect",
+          "Comparison",
+          "Sequence / Chronological",
+          "Symbolism"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The words 'First,' 'Then,' and 'Eventually' show a sequence of events."
+    ),
+
+    QuizQuestion(
+        question: "10. Why is identifying patterns important for a student?",
+        options: [
+          "It helps the student read slower",
+          "It helps the student predict and organise information in their mind",
+          "It allows the student to skip the 'Teach' section",
+          "It makes the student better at drawing"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Patterns provide a mental framework for understanding and remembering content."
+    )
+  ],
+);
+final QuizModel jhs3s2ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What makes a generalisation 'valid'?",
+        options: [
+          "It is based on a dream the author had",
+          "It is written in a very large font",
+          "It uses the word 'Always' to describe everything",
+          "It is supported by facts and evidence from the text"
+        ],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "Evidence is the foundation of any valid generalisation."
+    ),
+    QuizQuestion(
+        question: "2. 'All Ghanaian children are born being able to play the drums.' Why is this a faulty generalisation?",
+        options: [
+          "Because drumming is too difficult for children",
+          "Because drums are too expensive",
+          "Because children prefer to play football",
+          "Because it uses the word 'All' and isn't true for every single child"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Over-generalisations using 'All' or 'Always' are typically faulty."
+    ),
+
+    QuizQuestion(
+        question: "3. If you read a story about a girl who feels lonely at a new school, what is the best way to link it to real life?",
+        options: [
+          "Buy the girl a new school uniform",
+          "Think about a time you felt nervous in a new place",
+          "Tell your teacher the story is boring",
+          "Read the story again very fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Personal empathy is a primary way to link text to real-life situations."
+    ),
+
+    QuizQuestion(
+        question: "4. 'Most JHS students in Ghana wear a brown and yellow uniform.' This is a:",
+        options: [
+          "Faulty generalisation",
+          "Valid generalisation",
+          "Scientific fact",
+          "Prediction"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "It uses the word 'Most' to accurately describe a common reality."
+    ),
+
+    QuizQuestion(
+        question: "5. 'In the story, the village worked together to build a clinic. In my town, we could work together to fix the broken streetlights.' This is an example of:",
+        options: [
+          "Making a prediction",
+          "Linking text to a real-life situation",
+          "Identifying a metaphor",
+          "Scanning for information"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "This connects the theme of community action to a local need."
+    ),
+
+    QuizQuestion(
+        question: "6. Which word is a 'safe' word to use when making a valid generalisation?",
+        options: [
+          "Never",
+          "Always",
+          "Usually",
+          "Every"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Usually' allows for exceptions, making the statement more likely to be valid."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Ama noticed that every time it rains, the gutters in her neighbourhood overflow.' What generalisation can she make?",
+        options: [
+          "Gutters are only built for the dry season",
+          "Poor drainage is a common problem when it rains in her area",
+          "No one in her neighbourhood likes the rain",
+          "It never rains in other neighbourhoods"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "She is identifying a recurring pattern and forming a broad conclusion."
+    ),
+
+    QuizQuestion(
+        question: "8. Why do authors want readers to link stories to real life?",
+        options: [
+          "So the reader will buy more books",
+          "To help the reader understand the relevance of the message",
+          "To make the reader forget about their own problems",
+          "To test if the reader lives in Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Making real-world connections deepens the impact and understanding of the text."
+    ),
+
+    QuizQuestion(
+        question: "9. 'All animals in the Mole National Park are friendly to humans.' This generalisation is:",
+        options: [
+          "Valid",
+          "Faulty",
+          "A summary",
+          "A title"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "It is dangerous and incorrect to assume all wild animals are friendly."
+    ),
+
+    QuizQuestion(
+        question: "10. How can you modify a story about a city snowstorm to fit the reality of life in Ghana?",
+        options: [
+          "Replace the snow with a heavy tropical rainstorm",
+          "Keep the snow but change the characters' names",
+          "Say that it snows in Kumasi every year",
+          "Ignore the weather and only focus on the food"
+        ],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "Modifying to fit 'realities of life' involves swapping unfamiliar contexts for local equivalents."
+    )
+  ],
+);
+final QuizModel jhs3s2ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. A Science textbook explaining how electricity works is an example of which text type?",
+        options: [
+          "Narrative",
+          "Procedural",
+          "Expository",
+          "Poetry"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Its purpose is to explain a factual topic."
+    ),
+
+    QuizQuestion(
+        question: "2. Which text type always follows a beginning-middle-end structure?",
+        options: [
+          "Procedural",
+          "Expository",
+          "Narrative",
+          "Technical"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Narratives rely on a plot structure to tell a complete story."
+    ),
+
+    QuizQuestion(
+        question: "3. 'Insert the SIM card into the slot on the side of the device.' This sentence belongs to a:",
+        options: [
+          "Narrative text",
+          "Procedural text",
+          "Expository text",
+          "Letter"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "It is a direct instruction for a task."
+    ),
+
+    QuizQuestion(
+        question: "4. What is a common language feature of an Expository text?",
+        options: [
+          "Dialogue between characters",
+          "Magic and fantasy elements",
+          "Fact-based and formal language",
+          "Numbered steps for a recipe"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Expository writing avoids personal feelings and focuses on objective facts."
+    ),
+
+    QuizQuestion(
+        question: "5. How are Procedural and Expository texts SIMILAR?",
+        options: [
+          "Both use 'Once upon a time.'",
+          "Both are generally meant to inform or guide rather than entertain",
+          "Both use lots of adjectives to describe feelings",
+          "Both are written as fictional stories"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Both belong to 'non-fiction' and have practical purposes."
+    ),
+
+    QuizQuestion(
+        question: "6. If a text starts with a list of 'Ingredients,' you are almost certainly reading a:",
+        options: [
+          "Procedural text",
+          "Narrative text",
+          "Expository text",
+          "Diary entry"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Ingredients are the 'requirements' part of a procedural recipe."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Long ago in the village of Paga, there lived a man who was friends with a crocodile.' This is an example of:",
+        options: [
+          "Expository writing",
+          "Procedural writing",
+          "Narrative writing",
+          "A news report"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The opening phrase and setting indicate the start of a story."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these is a 'Purpose' of a Procedural text?",
+        options: [
+          "To make the reader laugh",
+          "To explain the history of Ghana",
+          "To show someone how to complete a specific task",
+          "To describe a character's appearance"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Procedure is about the 'how-to.'"
+    ),
+
+    QuizQuestion(
+        question: "9. 'The Cedi is the unit of currency of Ghana.' This sentence is part of a text that is:",
+        options: [
+          "Narrative",
+          "Procedural",
+          "Expository",
+          "Descriptive"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "It is stating a direct fact about Ghana's economy."
+    ),
+
+    QuizQuestion(
+        question: "10. Why do Procedural texts often use numbers?",
+        options: [
+          "Because the author likes maths",
+          "To show the correct order of the steps",
+          "To make the page look busy",
+          "To count the number of characters"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "In procedures, the sequence of actions is critical to achieving the result."
+    )
+  ],
+);
+final QuizModel jhs3s2ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Why is silent reading often better for comprehension than reading aloud?",
+        options: [
+          "It allows you to talk to your friends while reading",
+          "It is slower and helps you see every letter",
+          "It allows your brain to focus entirely on the meaning of the words",
+          "It helps you practice your speaking skills"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Silent reading removes the distraction of pronunciation."
+    ),
+
+    QuizQuestion(
+        question: "2. When 'Scanning for Main Ideas,' where is the best place to look?",
+        options: [
+          "At the page numbers",
+          "At the first and last sentences of a paragraph",
+          "Only at the very last word of the story",
+          "At the small pictures in the corner"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Topic sentences usually carry the main idea of a section."
+    ),
+
+    QuizQuestion(
+        question: "3. 'The old man sat under the Baobab tree, his face a map of a thousand stories.' What does 'map of a thousand stories' most likely mean?",
+        options: [
+          "He has a paper map glued to his skin",
+          "He has many wrinkles that show he has lived a long, full life",
+          "He is a geography teacher",
+          "He is lost and needs directions"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "This is a complex metaphor for age and experience."
+    ),
+
+    QuizQuestion(
+        question: "4. If a question asks 'How many students attended the festival?', you should:",
+        options: [
+          "Read the whole story from the beginning",
+          "Skim the text specifically looking for numbers",
+          "Guess a number that sounds right",
+          "Look at the title of the book"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Skimming for digits is the fastest way to find quantities."
+    ),
+
+    QuizQuestion(
+        question: "5. Relating a story about a drought in a far-away land to a water shortage in Accra is an example of:",
+        options: [
+          "Text-to-World connection",
+          "Scanning for a name",
+          "Skimming for a date",
+          "Reading for entertainment"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "This connects the text's themes to real-world global or local issues."
+    ),
+
+    QuizQuestion(
+        question: "6. 'The marketplace was a cacophony of shouting vendors, honking horns, and bleating goats.' What sense does this detail appeal to?",
+        options: [
+          "Sight",
+          "Smell",
+          "Sound",
+          "Taste"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Cacophony,' 'shouting,' 'honking,' and 'bleating' are all auditory details."
+    ),
+
+    QuizQuestion(
+        question: "7. In the story about Abena's first day, what 'detail' shows she was not yet comfortable?",
+        options: [
+          "She had a heavy trunk",
+          "She was sitting on her bunk while others chatted",
+          "She came from Sunyani",
+          "She was in a boarding house"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Her isolation compared to the 'chatting' girls indicates her discomfort."
+    ),
+
+    QuizQuestion(
+        question: "8. What is the benefit of making a 'Personal Connection' to a text?",
+        options: [
+          "It helps you finish the book faster",
+          "It makes the information more meaningful and easier to remember",
+          "It proves you have been to the places mentioned in the book",
+          "It helps you skip the quiz"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Personal relevance increases engagement and long-term memory."
+    ),
+
+    QuizQuestion(
+        question: "9. 'The wind howled through the zinc roofing sheets like a wounded animal.' This complex detail creates a mood of:",
+        options: [
+          "Happiness and joy",
+          "Fear or uneasiness",
+          "Boredom",
+          "Hunger"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The comparison to a 'wounded animal' and the 'howling' wind suggests a threatening environment."
+    ),
+
+    QuizQuestion(
+        question: "10. When reading a complex passage, what should you do if you find a word you don't know?",
+        options: [
+          "Stop reading and wait for the teacher",
+          "Skip the whole paragraph",
+          "Read the rest of the sentence to find 'clues' about its meaning",
+          "Close the book and pick an easier one"
+        ],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Using context clues is an essential skill for complex comprehension."
+    )
+  ],
+);
+final QuizModel jhs3s2ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is the 'tone' of a text?",
+        options: [
+          "The volume at which you read the story",
+          "The author's attitude or feeling toward the subject",
+          "The number of characters in the book",
+          "The price of the book in Cedis"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Tone is the 'emotional voice' of the writer."
+    ),
+
+    QuizQuestion(
+        question: "2. Why might a writer use short, choppy sentences during a chase scene?",
+        options: [
+          "Because they ran out of ink",
+          "To create a feeling of urgency and speed",
+          "To make the story easier for babies to read",
+          "To save space on the page"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Sentence structure (rhythm) directly affects the pace of the reader's experience."
+    ),
+
+    QuizQuestion(
+        question: "3. 'The stars winked at us from the velvet sky.' This personification makes the night feel:",
+        options: [
+          "Scary and dangerous",
+          "Friendly and magical",
+          "Boring and long",
+          "Hot and dusty"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Winking' is a friendly, playful human action."
+    ),
+
+    QuizQuestion(
+        question: "4. If a text makes you want to go and plant a tree in your school compound, the text has had an effect on your:",
+        options: [
+          "Memory",
+          "Actions",
+          "Spelling",
+          "Height"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Some texts are designed to inspire a specific response or behaviour."
+    ),
+
+    QuizQuestion(
+        question: "5. Which word choice creates a more frightening effect than 'The dog made a noise'?",
+        options: [
+          "The dog barked",
+          "The dog whimpered",
+          "The dog snarled",
+          "The dog sat"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Snarled' suggests aggression and danger."
+    ),
+
+    QuizQuestion(
+        question: "6. 'The bread was as hard as a rock.' This simile most likely makes the reader feel:",
+        options: [
+          "Impressed by the bread",
+          "Sympathetic toward the person who has to eat it",
+          "Excited to go to the bakery",
+          "Calm and sleepy"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It creates a sense of hardship or poor quality."
+    ),
+
+    QuizQuestion(
+        question: "7. How can the 'setting' of a story (like a dark, rainy night in Accra) affect the reader?",
+        options: [
+          "It determines the price of the book",
+          "It sets the mood for the events that are about to happen",
+          "It tells the reader what the characters are wearing",
+          "It doesn't affect the reader at all"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Setting is a primary tool for establishing atmosphere or mood."
+    ),
+
+    QuizQuestion(
+        question: "8. 'The teacher's voice was a sharp knife, cutting through the students' chatter.' This metaphor suggests the teacher is:",
+        options: [
+          "Friendly and kind",
+          "Stern and authoritative",
+          "Very good at cooking",
+          "Quiet and shy"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The 'sharp knife' comparison indicates a harsh, commanding tone."
+    ),
+
+    QuizQuestion(
+        question: "9. What is the effect of using local Ghanaian names like 'Kweku' and 'Araba' in a story for JHS students?",
+        options: [
+          "It makes the story feel more relatable and real to the reader",
+          "It makes the story harder to understand",
+          "It is only done if the author is from Ghana",
+          "It makes the book more expensive"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Familiarity helps the reader connect with the text on a personal level."
+    ),
+
+    QuizQuestion(
+        question: "10. If a writer uses the word 'Freedom' twenty times in a short poem, they are using repetition to:",
+        options: [
+          "Make the poem longer",
+          "Emphasise how important the idea of freedom is",
+          "Show that they don't know many other words",
+          "Make the reader feel tired"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Repetition is used to drive home a central theme or emotion."
+    )
+  ],
+);
+final QuizModel jhs3s2ss1Lesson10QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. 'The soup smelled like a garden of fresh peppers and onions.' Which technique is used here?",
+        options: [
+          "Personification",
+          "Simile",
+          "Metaphor",
+          "Symbolism"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The use of the word 'like' makes this a simile."
+    ),
+
+    QuizQuestion(
+        question: "2. If a writer describes the 'velvet softness of a Kente loom,' which sense are they appealing to?",
+        options: [
+          "Sight",
+          "Smell",
+          "Touch",
+          "Taste"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "'Softness' is a texture perceived through touch."
+    ),
+
+    QuizQuestion(
+        question: "3. 'The moon was a silver cedi in the sky.' This is an example of a:",
+        options: [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Sensory imagery for sound"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "It says the moon was a cedi, comparing them directly."
+    ),
+
+    QuizQuestion(
+        question: "4. In many stories, a white dove is a symbol of peace. What would a dove flying over a school represent?",
+        options: [
+          "A change in the weather",
+          "A hope for harmony among students",
+          "That the school is near a forest",
+          "That it is time for lunch"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Symbols represent larger ideas like peace or harmony."
+    ),
+
+    QuizQuestion(
+        question: "5. 'The waves lashed out at the shore in anger.' This is an example of:",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Symbolism"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Giving human emotions like 'anger' to waves is personification."
+    ),
+
+    QuizQuestion(
+        question: "6. Which sentence contains imagery that appeals to the sense of TASTE?",
+        options: [
+          "The drums beat a steady rhythm",
+          "The bitter juice of the neem leaf made Abena gag",
+          "The smoke from the woodfire stung his eyes",
+          "The blue lorry was packed with heavy yams"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "'Bitter' is a detail related to taste."
+    ),
+
+    QuizQuestion(
+        question: "7. 'My brother is a giant.' Figuratively, this means:",
+        options: [
+          "The brother is a character in a movie",
+          "The brother is very tall or very important",
+          "The brother likes to eat a lot",
+          "The brother lives in a large house"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Metaphors use comparisons to show importance or size."
+    ),
+
+    QuizQuestion(
+        question: "8. Why do writers use sensory imagery?",
+        options: [
+          "To make the text longer",
+          "To help the reader create a vivid mental picture",
+          "To hide the meaning of the story",
+          "To teach about the five senses"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Imagery makes scenes feel more real and immersive."
+    ),
+
+    QuizQuestion(
+        question: "9. 'The dry grass crunched under his sandals.' Which sense is this appealing to?",
+        options: [
+          "Sight",
+          "Sound",
+          "Taste",
+          "Smell"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "'Crunched' describes a specific sound."
+    ),
+
+    QuizQuestion(
+        question: "10. Abena carries her grandmother’s old Bible everywhere. What might the Bible symbolise?",
+        options: [
+          "A heavy weight",
+          "Her connection to her grandmother’s memory and faith",
+          "That she likes to read",
+          "That she is going to church"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Heirlooms often symbolise family connection and legacy."
+    )
+  ],
+);
+final QuizModel jhs3s2ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is the primary goal of an objective summary?",
+        options: [
+          "To rewrite the story with a better ending",
+          "To give a short, factual account of the main points",
+          "To explain why the author is wrong",
+          "To list every single word in the text"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Summaries must be short and strictly factual."
+    ),
+
+    QuizQuestion(
+        question: "2. Which phrase should be avoided in an objective summary?",
+        options: [
+          "\"The author states...\"",
+          "\"The text illustrates...\"",
+          "\"I believe that...\"",
+          "\"According to the report...\""
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "'I believe' introduces personal opinion, which is not allowed."
+    ),
+
+    QuizQuestion(
+        question: "3. Read: 'The Black Star Square was filled with people waving flags for Independence Day. The President gave a speech about unity.' What is the best summary?",
+        options: [
+          "People wore beautiful clothes at the square",
+          "The President's speech was the best one ever",
+          "Independence Day was celebrated at Black Star Square with a presidential speech",
+          "There were thousands of flags in Accra"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "This option captures the event and the main action objectively."
+    ),
+
+    QuizQuestion(
+        question: "4. What happens to 'Supporting Details' in a summary?",
+        options: [
+          "They are changed to make them more exciting",
+          "They are mostly excluded to keep the summary brief",
+          "They are listed in a table at the end",
+          "They are more important than the main idea"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Summaries focus on big ideas, not every minor detail."
+    ),
+
+    QuizQuestion(
+        question: "5. 'Analysing a text critically' for a summary means:",
+        options: [
+          "Finding things to complain about",
+          "Reading carefully to identify the central message",
+          "Checking the text for spelling mistakes only",
+          "Copying the text into a notebook"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Critical analysis involves deep understanding of the core message."
+    ),
+
+    QuizQuestion(
+        question: "6. If you include your own opinion in a summary, it is no longer:",
+        options: [
+          "Objective",
+          "Readable",
+          "English",
+          "Summarised"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Objectivity requires the removal of personal bias."
+    ),
+
+    QuizQuestion(
+        question: "7. How does a summary compare in length to the original text?",
+        options: [
+          "It is exactly the same length",
+          "It is significantly shorter",
+          "It is always two pages long",
+          "It is much longer to explain everything"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "A summary is a condensed version of the original."
+    ),
+
+    QuizQuestion(
+        question: "8. Which is a 'Who' element for a summary about a village meeting in Aburi?",
+        options: [
+          "The meeting lasted three hours",
+          "The Chief and the elders",
+          "It took place under a large Odum tree",
+          "To discuss the new water pump"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Who' refers to the people or participants."
+    ),
+
+    QuizQuestion(
+        question: "9. Which is the best summary for a passage about a girl saving her money in a susu box to buy a school bag?",
+        options: [
+          "Susu boxes are the best way to save",
+          "A student saved funds to purchase a school necessity",
+          "School bags in Ghana are very expensive",
+          "The girl's parents did not give her enough money"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "This is a neutral, concise summary of the action."
+    ),
+
+    QuizQuestion(
+        question: "10. Paraphrasing means:",
+        options: [
+          "Copying sentences exactly as they are",
+          "Writing the summary in a different language",
+          "Putting the author's ideas into your own words",
+          "Skipping the difficult words"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Paraphrasing is key to summarising without plagiarising."
+    )
   ],
 );
 
