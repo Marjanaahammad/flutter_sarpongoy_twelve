@@ -2938,6 +2938,429 @@ final QuizModel s3ss1Lesson16QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which mark ends a statement like 'The Black Stars won the match'?",
+        options: ["?", ",", "!", "."],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "A full stop is used for simple statements."
+    ),
+
+    QuizQuestion(
+        question: "2. Choose the correct punctuation for: 'How much is the fare to Kumasi?'",
+        options: [".", "?", ",", "!"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "This is a direct question about price."
+    ),
+
+    QuizQuestion(
+        question: "3. Identify the mark used to show excitement: 'Hooray, we are on holiday!'",
+        options: ["!", ".", "?", ","],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "An exclamation mark shows the excitement of being on holiday."
+    ),
+
+    QuizQuestion(
+        question: "4. Where should the comma go: 'Kwadwo please bring me the water.'",
+        options: ["After 'me'", "After 'bring'", "After 'Kwadwo'", "After 'water'"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "A comma is used after a name when addressing someone directly."
+    ),
+
+    QuizQuestion(
+        question: "5. Which sentence uses punctuation correctly?",
+        options: ["Where is my bag.", "Where is my bag!", "Where is my bag?", "Where is my bag,"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Questions must end with a question mark."
+    ),
+
+    QuizQuestion(
+        question: "6. Find the error: 'I like banku, fufu and kenkey.'",
+        options: ["Needs a full stop at the end", "Needs a comma after fufu", "Needs a question mark", "No error"],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "The sentence is missing a full stop at the very end to finish the thought."
+    ),
+
+    QuizQuestion(
+        question: "7. Which mark shows a pause: 'After the rain, the sun came out.'",
+        options: [".", "!", "?", ","],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "A comma provides a pause after the introductory phrase."
+    ),
+
+    QuizQuestion(
+        question: "8. Complete the sentence: 'Stop that thief!'",
+        options: [".", "!", ",", "?"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Shouting for help requires an exclamation mark."
+    ),
+
+    QuizQuestion(
+        question: "9. Which punctuation marks are in this list: (., ! ?)",
+        options: ["Full stop, comma, exclamation mark, question mark",
+          "Full stop, colon, dash, question mark",
+          "Comma, hyphen, exclamation mark, period",
+          "Question mark, comma, colon, full stop"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "These are the four marks we studied today."
+    ),
+
+    QuizQuestion(
+        question: "10. Do you like dancing to Highlife music?",
+        options: ["!", ".", "?", ","],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "This is a question asking about a preference."
+    )
+  ],
+);
+final QuizModel s3ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which letter should be capitalised in: 'every child loves fufu.'",
+        options: ["child", "loves", "every", "fufu"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The first word of a sentence must be capitalised."
+    ),
+
+    QuizQuestion(
+        question: "2. Identify the correct sentence.",
+        options: ["dr. Mensah is my neighbor.", "Dr. mensah is my neighbor.", "dr. mensah is my neighbor.", "Dr. Mensah is my neighbor."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Both the title (Dr.) and the surname (Mensah) need capitals."
+    ),
+
+    QuizQuestion(
+        question: "3. In the sentence 'i think it is Tuesday,' which word is wrong?",
+        options: ["think", "i", "is", "Tuesday"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The pronoun 'i' should always be 'I'."
+    ),
+
+    QuizQuestion(
+        question: "4. Which month is written correctly?",
+        options: ["august", "August", "aUgust", "AUGust"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Months are proper nouns and must be capitalised."
+    ),
+
+    QuizQuestion(
+        question: "5. 'we saw the volta river.' Which words need capitals?",
+        options: ["we, volta, river", "saw, the", "volta, river", "we, saw"],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "'We' starts the sentence, and 'Volta River' is a specific place name."
+    ),
+
+    QuizQuestion(
+        question: "6. Choose the proper noun.",
+        options: ["table", "boy", "Kumasi", "school"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Kumasi is a specific city name."
+    ),
+
+    QuizQuestion(
+        question: "7. 'He said, 'i am hungry.'' What is wrong?",
+        options: ["'He' should be small", "'hungry' needs a capital", "'i' should be capitalised", "Nothing is wrong"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The pronoun 'I' remains capitalised even inside speech marks."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these names is written correctly?",
+        options: ["ama serwaa", "Ama Serwaa", "Ama serwaa", "ama Serwaa"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Both the first and last names require capital letters."
+    ),
+
+    QuizQuestion(
+        question: "9. Which day comes after Monday?",
+        options: ["tuesday", "Tuesday", "tuesDay", "TUESDAY"],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Tuesday is a day of the week and needs a capital 'T'."
+    ),
+
+    QuizQuestion(
+        question: "10. Find the sentence with NO capitalisation errors.",
+        options: ["I live in Ghana with my family.", "i live in Ghana with my family.", "I live in ghana with my family.", "I live in Ghana with my Family."],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "'I' and 'Ghana' are correctly capitalised; 'family' is a common noun and should be lowercase."
+    )
+  ],
+);
+final QuizModel s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which phrase is used to ask for advice?",
+        options: ["I think you should go.", "What would you recommend?", "You could always try again.", "That's a very good idea."],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "'What would you recommend?' is a standard way to request advice."
+    ),
+
+    QuizQuestion(
+        question: "2. If you want to give a polite suggestion to a classmate, you could start with:",
+        options: ["Do what I say.", "You must do this.", "One thing you could do is...", "Why don't you know?"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "'One thing you could do is...' is a polite and helpful way to offer a suggestion."
+    ),
+
+    QuizQuestion(
+        question: "3. Complete the sentence: 'I have no ______ what to do. What do you think I should do?'",
+        options: ["Thought", "Plan", "Idea", "Way"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The standard phrase is 'I've no idea what to do.'"
+    ),
+
+    QuizQuestion(
+        question: "4. Kojo is struggling with his JHS homework. He asks, 'What would you do ______?'",
+        options: ["If you were me?", "To help me?", "If you are here?", "For the teacher?"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The phrase 'What would you do if you were me?' is used to ask for advice by asking the person to imagine they are in your situation."
+    ),
+
+    QuizQuestion(
+        question: "5. Which advice is best for a student who wants to save 100 Cedis?",
+        options: ["Spend it all on plantain chips.", "You could always keep 2 Cedis of your lunch money every day.", "I don't think you can save that much.", "What would you do if you were me?"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "This uses the 'You could always...' phrase to give a practical suggestion."
+    ),
+
+    QuizQuestion(
+        question: "6. When you use the phrase 'My advice would be to...', what usually follows?",
+        options: ["A question.", "A complaint.", "A verb or action.", "A greeting."],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "This phrase is followed by the action or advice being given (e.g., '...to study')."
+    ),
+
+    QuizQuestion(
+        question: "7. Aba says: 'I want to visit my aunt in Kumasi. Do you think I should take the VIP bus or the STC?' What is she doing?",
+        options: ["Giving advice.", "Asking for advice.", "Telling a story.", "Giving a command."],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "She is using 'Do you think I should...?' to seek an opinion on a choice."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these is NOT a standard phrase for giving advice from our lesson?",
+        options: ["One thing you could do is...", "My advice would be to...", "You should just do it.", "What you need to do is..."],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "While 'You should just do it' is advice, it is not one of the specific formal structures taught in the NaCCA curriculum for this level."
+    ),
+
+    QuizQuestion(
+        question: "9. Someone says, 'What you need to do is make a copy of your birth certificate.' What are they doing?",
+        options: ["Giving a direct suggestion.", "Asking for help.", "Making a complaint.", "Asking a question."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "'What you need to do is...' is a structure used to provide clear, direct advice."
+    ),
+
+    QuizQuestion(
+        question: "10. To ask for advice in a very formal way, you would say:",
+        options: ["What would you recommend?", "Help me now.", "What should I do?", "Tell me the answer."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "'Recommend' is a more formal vocabulary choice for seeking advice."
+    )
+  ],
+);
+final QuizModel s3ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which phrase is used to show you agree with someone's suggestion?",
+        options: ["I see things differently.", "You have a point there, but...", "That's a good idea.", "I tend to disagree."],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "'That's a good idea' is a simple phrase for agreement."
+    ),
+
+    QuizQuestion(
+        question: "2. If you want to disagree respectfully in a JHS debate, you should say:",
+        options: ["You are wrong.", "I see things differently.", "I don't like that.", "Stop talking."],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "'I see things differently' is the most polite and formal option listed."
+    ),
+
+    QuizQuestion(
+        question: "3. When someone says 'I'm with you on that point,' they are:",
+        options: ["Agreeing.", "Disagreeing.", "Asking a question.", "Giving an order."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "This phrase indicates support for the speaker's statement."
+    ),
+
+    QuizQuestion(
+        question: "4. Complete the phrase: 'I agree up to a _____. However, I think we need more time.'",
+        options: ["Goal", "Point", "Place", "Time"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The standard expression is 'I agree up to a point'."
+    ),
+
+    QuizQuestion(
+        question: "5. Which phrase acknowledges the other person's view before disagreeing?",
+        options: ["I tend to agree with you.", "That's a good idea.", "You have a point there, but...", "I'm with you on that point."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "This phrase shows you have considered their 'point' before offering your own."
+    ),
+
+    QuizQuestion(
+        question: "6. If you 'tend to agree' with someone, it means:",
+        options: ["You completely disagree.", "You are not listening.", "You mostly share their opinion.", "You want them to be quiet."],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "'Tend to agree' suggests a general alignment with their view."
+    ),
+
+    QuizQuestion(
+        question: "7. Agyeman: 'The Trotro fare is going up again.' Sena: 'I tend to agree with you. It is becoming very expensive.' What is Sena doing?",
+        options: ["Arguing.", "Agreeing.", "Giving advice.", "Asking for a recommendation."],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Sena is confirming they share the same view."
+    ),
+
+    QuizQuestion(
+        question: "8. 'You have a point there, but...' is best used when:",
+        options: ["You want to start a fight.", "You want to agree 100%.", "You want to show respect while having a different idea.", "You are asking for directions."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It balances respect for the speaker with the introduction of a new idea."
+    ),
+
+    QuizQuestion(
+        question: "9. Which is a formal way to express a disagreement?",
+        options: ["No way!", "That's bad.", "I don't think so.", "I tend to disagree with that idea."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "This phrase is a structured, polite way to disagree."
+    ),
+
+    QuizQuestion(
+        question: "10. In a conversation, the word 'However' is often used to:",
+        options: ["End the conversation.", "Agree strongly.", "Introduce a contrasting or different idea.", "Ask for a Cedi."],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "'However' is a transition word used to show a shift in thought, usually during a disagreement."
+    )
+  ],
+);
+final QuizModel s3ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. A proverb is a short saying that:",
+        options: ["Tells a long story.", "Offers advice or a universal truth.", "Is only used by old people.", "Is always about animals."],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Proverbs are concise pieces of traditional wisdom."
+    ),
+
+    QuizQuestion(
+        question: "2. Which English proverb means you should not plan for success before it happens?",
+        options: ["A stitch in time saves nine.", "Look before you leap.", "Practice makes perfect.", "Don't count your chickens before they are hatched."],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "This warns against premature celebration or planning."
+    ),
+
+    QuizQuestion(
+        question: "3. In the sentence 'You need to study every day because practice makes perfect,' the proverb is used to:",
+        options: ["Scold the student.", "Ask the student a question.", "Tell the student to go to sleep.", "Encourage the student to keep trying."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "It suggests that regular effort will lead to success."
+    ),
+
+    QuizQuestion(
+        question: "4. Which proverb is the best match for 'Be careful before you act'?",
+        options: ["Birds of a feather flock together.", "Look before you leap.", "Rome was not built in a day.", "A stitch in time saves nine."],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Leaping' is the action, and 'looking' is the careful thought before it."
+    ),
+
+    QuizQuestion(
+        question: "5. A Ghanaian proverb about 'the past teaching the present' matches which concept?",
+        options: ["Learning from experience.", "Buying new clothes.", "Eating healthy food.", "Running a race."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Traditional wisdom (the past) guides our current actions."
+    ),
+
+    QuizQuestion(
+        question: "6. If a student fixes a small error in their essay before submitting it, they are following the wisdom of:",
+        options: ["Practice makes perfect.", "A stitch in time saves nine.", "Birds of a feather flock together.", "Don't count your chickens."],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Fixing the small error prevents a 'big' problem (a lower grade) later."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Birds of a feather flock together' refers to people's:",
+        options: ["Favorite colors.", "Speed in running.", "Character and friends.", "Height and weight."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It describes how people with similar personalities tend to associate."
+    ),
+
+    QuizQuestion(
+        question: "8. Complete the proverb: 'Rome was not built in a _____.'",
+        options: ["Week", "Month", "Day", "Year"],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The standard proverb is 'Rome was not built in a day.'"
+    ),
+
+    QuizQuestion(
+        question: "9. Why do we use proverbs in our speech?",
+        options: ["To make our sentences longer.", "To confuse the person listening.", "To enrich our communication with wisdom.", "Because we forgot the right words."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Proverbs add depth and cultural weight to what we say."
+    ),
+
+    QuizQuestion(
+        question: "10. What does 'Patience is a virtue' mean?",
+        options: ["You should always run fast.", "Being able to wait calmly is a good quality.", "Never wait for anyone.", "Always be the first to finish."],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A virtue is a good moral quality, and patience is the ability to endure waiting."
+    )
+  ],
+);
 
 final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
@@ -7480,6 +7903,427 @@ final QuizModel jhs3s2ss2Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation: "Paraphrasing is key to summarising without plagiarising."
+    )
+  ],
+);
+
+final QuizModel jhs3s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. 'The young boy' found a lost wallet.' What is the function of the bold phrase?",
+        options: ["Direct Object", "Subject", "Apposition", "Subject Complement"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It is the person doing the action."
+    ),
+
+    QuizQuestion(
+        question: "2. 'Kofi is a very talented footballer.' What is the function of the bold phrase?",
+        options: ["Subject Complement", "Direct Object", "Object of Preposition", "Subject"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "It follows 'is' and describes the subject."
+    ),
+
+    QuizQuestion(
+        question: "3. 'I saw a beautiful butterfly in the garden.' What is the function of the bold phrase?",
+        options: ["Subject", "Apposition", "Direct Object", "Object of Preposition"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "It receives the action of seeing."
+    ),
+
+    QuizQuestion(
+        question: "4. 'She gave the book to her best friend.' What is the function of the bold phrase?",
+        options: ["Subject", "Direct Object", "Apposition", "Object of Preposition"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "It follows the preposition 'to'."
+    ),
+
+    QuizQuestion(
+        question: "5. 'Kumasi, the Garden City, is very busy.' What is the function of the bold phrase?",
+        options: ["Apposition", "Subject", "Subject Complement", "Direct Object"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "It renames 'Kumasi'."
+    ),
+
+    QuizQuestion(
+        question: "6. 'That old wooden bridge is dangerous.' What is the function of the bold phrase?",
+        options: ["Direct Object", "Subject", "Subject Complement", "Object of Preposition"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It is the thing being discussed as dangerous."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Ama became the class prefect.' What is the function of the bold phrase?",
+        options: ["Direct Object", "Apposition", "Subject Complement", "Subject"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It follows the linking verb 'became'."
+    ),
+
+    QuizQuestion(
+        question: "8. 'He is looking for his lost keys.' What is the function of the bold phrase?",
+        options: ["Object of Preposition", "Subject", "Apposition", "Direct Object"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "It follows the preposition 'for'."
+    ),
+
+    QuizQuestion(
+        question: "9. 'We met Mr. Osei, the new Science teacher.' What is the function of the bold phrase?",
+        options: ["Subject", "Apposition", "Subject Complement", "Object of Preposition"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It renames Mr. Osei."
+    ),
+
+    QuizQuestion(
+        question: "10. 'The children enjoyed the delicious Jollof rice.' What is the function of the bold phrase?",
+        options: ["Subject", "Subject Complement", "Direct Object", "Apposition"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "It is the thing the children enjoyed."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Choose the correct phrase for a participant:",
+        options: ["The winner beautiful dazzlingly.", "The dazzlingly beautiful winner.", "The beautiful winner dazzlingly.", "Dazzlingly the beautiful winner."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Dazzlingly' modifies 'beautiful' to create an adjective phrase."
+    ),
+
+    QuizQuestion(
+        question: "2. What is the correct order for these adjectives: (old / big / Ghanaian)?",
+        options: ["Big, old, Ghanaian.", "Old, big, Ghanaian.", "Ghanaian, big, old.", "Big, Ghanaian, old."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Size (big) comes before Age (old), which comes before Origin (Ghanaian)."
+    ),
+
+    QuizQuestion(
+        question: "3. 'The journey began on a ________.'",
+        options: ["morning Monday rainy", "Monday rainy morning", "rainy Monday morning", "rainy morning Monday"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "This follows the pattern for a descriptive setting."
+    ),
+
+    QuizQuestion(
+        question: "4. Which sentence uses an adjective phrase to describe a material?",
+        options: ["Amma is wearing a bright coloured African print.", "Amma is wearing a dress.", "Amma is wearing a new dress.", "Amma has a dress today."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "'Bright coloured African print' describes the material."
+    ),
+
+    QuizQuestion(
+        question: "5. Identify the correct order:",
+        options: ["Several large, round, metal bowls.", "Metal, large, several, round bowls.", "Round, several, metal, large bowls.", "Large, metal, several, round bowls."],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation: "Quantity (Several), Size (large), Shape (round), Material (metal)."
+    ),
+
+    QuizQuestion(
+        question: "6. 'The ________ bus stopped in the middle of the road.'",
+        options: ["rickety old", "old rickety", "rickety and old", "oldly rickety"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Age (old) often comes before physical quality (rickety) in this context."
+    ),
+
+    QuizQuestion(
+        question: "7. Which is a vivid description of a participant?",
+        options: ["The man was dirty.", "The man covered with mud.", "The man had mud on him.", "The man was a mud man."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "This uses a post-modifier adjective phrase."
+    ),
+
+    QuizQuestion(
+        question: "8. Correct the order: (red / three / small / apples).",
+        options: ["Red small three apples.", "Three red small apples.", "Three small red apples.", "Small three red apples."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Quantity, Size, Colour."
+    ),
+
+    QuizQuestion(
+        question: "9. 'We sat on a ________ bench.'",
+        options: ["wooden, long, uncomfortable", "uncomfortable, long, wooden", "long, uncomfortable, wooden", "wooden, uncomfortable, long"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Opinion, Size, Material."
+    ),
+
+    QuizQuestion(
+        question: "10. Which adjective phrase describes an object's condition?",
+        options: ["The dazzlingly beautiful girl.", "The rainy Monday morning.", "The bus stopped quickly.", "The old rickety bus."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Old rickety' describes the state of the bus."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which phrasal verb means to resemble a parent?",
+        options: ["Come along", "Take after", "Make up", "Put off"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Take after' is used for family resemblances."
+    ),
+
+    QuizQuestion(
+        question: "2. 'Don't blow up at me just because I'm late!' What does 'blow up' mean here?",
+        options: ["To explode with a bomb", "To get very angry", "To breathe heavily", "To fly away"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In a social context, it refers to anger."
+    ),
+
+    QuizQuestion(
+        question: "3. The two brothers decided to ________ after their big argument.",
+        options: ["make up", "come after", "blow up", "put off"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "To 'make up' is to reconcile."
+    ),
+
+    QuizQuestion(
+        question: "4. Which sentence uses 'come along' correctly?",
+        options: ["The car came along the tree.", "My English studies are coming along well.", "He came along his homework.", "I will come along my dinner now."],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It means making progress."
+    ),
+
+    QuizQuestion(
+        question: "5. If a security guard is coming after a trespasser, he is:",
+        options: ["Helping him", "Inventing a story about him", "Chasing him", "Resembling him"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Come after' means to chase."
+    ),
+
+    QuizQuestion(
+        question: "6. We had to ________ the school trip because the bus broke down.",
+        options: ["put off", "make up", "take after", "come along"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The trip was delayed/postponed."
+    ),
+
+    QuizQuestion(
+        question: "7. 'Kojo is very creative; he can ________ the most amazing fables.'",
+        options: ["come after", "blow up", "make up", "take after"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Make up' means to invent."
+    ),
+
+    QuizQuestion(
+        question: "8. Which word is the particle in the phrasal verb 'put off'?",
+        options: ["Put", "Off", "Both", "Neither"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The particle follows the base verb."
+    ),
+
+    QuizQuestion(
+        question: "9. 'The tyre might ________ if you put too much air in it.'",
+        options: ["make up", "come after", "take after", "blow up"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Here, it means to explode."
+    ),
+
+    QuizQuestion(
+        question: "10. 'Your singing is really ________.' (Meaning: You are improving)",
+        options: ["coming after", "making up", "coming along", "taking after"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Improving is a form of progress."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. 'Aysha passed the exam quite easily.' What function does this serve?",
+        options: ["Describe Where", "Describe How", "Describe When", "Describe Why"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It describes the manner in which she passed."
+    ),
+
+    QuizQuestion(
+        question: "2. 'I met Kwame near the bridge.' This phrase tells us:",
+        options: ["The time", "The reason", "The location", "The manner"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Near the bridge' describes the place."
+    ),
+
+    QuizQuestion(
+        question: "3. Why was the law abolished in the example sentence?",
+        options: ["Because it was old", "To end discrimination of girls", "As quickly as possible", "Near the bridge"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'to end discrimination of girls' explains the purpose."
+    ),
+
+    QuizQuestion(
+        question: "4. 'The disgraced thief left the scene as quickly as possible.' This phrase describes:",
+        options: ["When/Speed", "Place", "Purpose", "Manner"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "It explains the timing and speed of the action."
+    ),
+
+    QuizQuestion(
+        question: "5. 'The farmers worked under the hot sun.' This describes:",
+        options: ["Why they worked", "When they worked", "Where they worked", "How they worked"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It describes the location/setting of the work."
+    ),
+
+    QuizQuestion(
+        question: "6. 'Kofi ran to catch the bus.' The bold phrase is an adverbial phrase of:",
+        options: ["Manner", "Place", "Time", "Purpose"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "It tells us the goal of his running."
+    ),
+
+    QuizQuestion(
+        question: "7. 'The children played in the school yard.' Identify the function.",
+        options: ["Place", "Time", "Manner", "Purpose"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "It tells us the location."
+    ),
+
+    QuizQuestion(
+        question: "8. 'She finished her chore before the sun went down.' Identify the function.",
+        options: ["Manner", "Time", "Place", "Purpose"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It explains when the chore was finished."
+    ),
+
+    QuizQuestion(
+        question: "9. 'The soldier fought with great courage.' Identify the function.",
+        options: ["Place", "Why", "How", "When"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It describes the manner of the fighting."
+    ),
+
+    QuizQuestion(
+        question: "10. 'I am going to the library to study for my BECE.' Identify the function.",
+        options: ["Purpose", "Place", "Manner", "Time"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "It explains the reason for going to the library."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. 'Aysha passed the exam quite easily.' What function does this serve?",
+        options: ["Describe Where", "Describe How", "Describe When", "Describe Why"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It describes the manner in which she passed."
+    ),
+
+    QuizQuestion(
+        question: "2. 'I met Kwame near the bridge.' This phrase tells us:",
+        options: ["The time", "The reason", "The location", "The manner"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Near the bridge' describes the place."
+    ),
+
+    QuizQuestion(
+        question: "3. Why was the law abolished in the example sentence?",
+        options: ["Because it was old", "To end discrimination of girls", "As quickly as possible", "Near the bridge"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'to end discrimination of girls' explains the purpose."
+    ),
+
+    QuizQuestion(
+        question: "4. 'The disgraced thief left the scene as quickly as possible.' This phrase describes:",
+        options: ["When/Speed", "Place", "Purpose", "Manner"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "It explains the timing and speed of the action."
+    ),
+
+    QuizQuestion(
+        question: "5. 'The farmers worked under the hot sun.' This describes:",
+        options: ["Why they worked", "When they worked", "Where they worked", "How they worked"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It describes the location/setting of the work."
+    ),
+
+    QuizQuestion(
+        question: "6. 'Kofi ran to catch the bus.' The bold phrase is an adverbial phrase of:",
+        options: ["Manner", "Place", "Time", "Purpose"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "It tells us the goal of his running."
+    ),
+
+    QuizQuestion(
+        question: "7. 'The children played in the school yard.' Identify the function.",
+        options: ["Place", "Time", "Manner", "Purpose"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "It tells us the location."
+    ),
+
+    QuizQuestion(
+        question: "8. 'She finished her chore before the sun went down.' Identify the function.",
+        options: ["Manner", "Time", "Place", "Purpose"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It explains when the chore was finished."
+    ),
+
+    QuizQuestion(
+        question: "9. 'The soldier fought with great courage.' Identify the function.",
+        options: ["Place", "Why", "How", "When"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It describes the manner of the fighting."
+    ),
+
+    QuizQuestion(
+        question: "10. 'I am going to the library to study for my BECE.' Identify the function.",
+        options: ["Purpose", "Place", "Manner", "Time"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "It explains the reason for going to the library."
     )
   ],
 );

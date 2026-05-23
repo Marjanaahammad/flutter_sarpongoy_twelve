@@ -1662,8 +1662,8 @@ class SidebarController extends GetxController {
           "subtitle": "GRAMMAR USAGE",
           "subStrands": [
             {
-              "subtitle": "Refining Logic",
-              "topics": ["Synthesis"],
+              "subtitle": "GRAMMAR",
+              "topics": ["NOUN PHRASES AND THEIR FUNCTIONS", "COMPLEX PHRASAL VERBS", "COMPLEX PHRASAL VERBS", "ADVERBIAL PHRASES AND THEIR FUNCTIONS", "CONDITIONAL SENTENCES (TYPE 3)"],
             },
           ],
         },
@@ -2324,6 +2324,51 @@ class SidebarController extends GetxController {
                 practiceData = s3ss1Lesson16PracticeData;
                 independentPracticeData = s3ss1Lesson16IndependentQuizData;
                 quizData = s3ss1Lesson16QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = s3ss2Lesson1GetReadyData;
+                learnData = s3ss2Lesson1LearnData;
+                practiceData = s3ss2Lesson1PracticeData;
+                independentPracticeData = s3ss2Lesson1IndependentQuizData;
+                quizData = s3ss2Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = s3ss2Lesson2GetReadyData;
+                learnData = s3ss2Lesson2LearnData;
+                practiceData = s3ss2Lesson2PracticeData;
+                independentPracticeData = s3ss2Lesson2IndependentQuizData;
+                quizData = s3ss2Lesson2QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = s3ss3Lesson1GetReadyData;
+                learnData = s3ss3Lesson1LearnData;
+                practiceData = s3ss3Lesson1PracticeData;
+                independentPracticeData = s3ss3Lesson1IndependentQuizData;
+                quizData = s3ss3Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = s3ss3Lesson2GetReadyData;
+                learnData = s3ss3Lesson2LearnData;
+                practiceData = s3ss3Lesson2PracticeData;
+                independentPracticeData = s3ss3Lesson2IndependentQuizData;
+                quizData = s3ss3Lesson2QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = s3ss3Lesson3GetReadyData;
+                learnData = s3ss3Lesson3LearnData;
+                practiceData = s3ss3Lesson3PracticeData;
+                independentPracticeData = s3ss3Lesson3IndependentQuizData;
+                quizData = s3ss3Lesson3QuizData;
               }
 
               if (grade == "JHS 2" &&

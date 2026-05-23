@@ -649,6 +649,106 @@ final PracticeModel s3ss1Lesson16PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Which punctuation mark should end this sentence: \"Where is the Headteacher’s office\"",
+      answer: "Question Mark (?)",
+      explanation: "This sentence is asking for information, so it needs a question mark.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the missing mark: \"Abena bought a new pen__ a book, and a ruler.\"",
+      answer: "Comma (,)",
+      explanation: "We use a comma to separate items in a list.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What mark completes this exclamation: \"Watch out for the trotro__\"",
+      answer: "Exclamation Mark (!)",
+      explanation: "This expresses an urgent warning and strong emotion.",
+    ),
+  ],
+);
+final PracticeModel s3ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Which word in this sentence must be capitalised: \"the school is closed today.\"",
+      answer: "The",
+      explanation: "The word \"The\" starts the sentence, so the \"T\" must be a capital letter.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the error: \"Last week, i visited my aunt.\"",
+      answer: "\"i\" should be \"I\"",
+      explanation: "The personal pronoun \"I\" is always capitalised.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Which word is a proper noun that needs a capital: \"We are traveling to takoradi.\"",
+      answer: "Takoradi",
+      explanation: "Takoradi is the specific name of a city, so it must start with a capital \"T\".",
+    ),
+  ],
+);
+final PracticeModel s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Your friend Akosua has lost her math textbook. What is a formal way she can ask you for your opinion on what to do?",
+      answer: "Correct Answer: \"What would you recommend?\"",
+      explanation: "Explanation: This is a standard, polite phrase for seeking a recommendation or advice.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Kwame wants to know if he should study tonight or tomorrow morning. How would he ask you for advice using the \"if you were me\" phrase?",
+      answer: "\"Correct Answer: What would you do if you were me?\"",
+      explanation: "Explanation: This phrase asks the person to put themselves in the speaker's shoes.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Your sister is worried about her BECE exams. Give her advice using the phrase \"My advice would be to...\"",
+      answer: "Correct Answer: \"My advice would be to start a study timetable today.\"",
+      explanation: "Explanation: This uses the correct introductory phrase followed by a clear action.",
+    ),
+  ],
+);
+final PracticeModel s3ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Mensah says, \"I think we should use our ICT lab more often.\" Araba replies, \"I tend to agree with you.\" Is Araba agreeing or disagreeing?",
+      answer: "Correct Answer: Agreeing.",
+      explanation: "Explanation: \"I tend to agree with you\" is a clear way to show you share the same opinion.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this response: \"You have a point there, but I think the bus is too expensive.\" Is the speaker fully agreeing?",
+      answer: "\"Correct Answer: No, they are disagreeing politely.",
+      explanation: "Explanation: Starting with \"You have a point there, but...\" acknowledges the other person's view before presenting a disagreement.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is a polite way to tell your teacher you have a different opinion about a book?",
+      answer: "Correct Answer: \"I see things differently.\"",
+      explanation: "Explanation: This is a respectful way to introduce a different perspective in a formal setting.",
+    ),
+  ],
+);
+final PracticeModel s3ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: After failing his driving test, Kofi’s father told him, \"Rome was not built in a day.\" What did the father mean?",
+      answer: "Correct Answer: Great things take time and effort to complete.",
+      explanation: "Explanation: This proverb is used to encourage someone that success doesn't happen instantly.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"I haven't won the lottery yet, but I've already bought a car!\" Which proverb should this person's friend use as a warning?",
+      answer: "\"Correct Answer: \"Don't count your chickens before they are hatched.\"",
+      explanation: "Explanation: This warns against making plans based on money or success you don't have yet.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Find a Ghanaian proverb or idea that matches \"Look before you leap.\"",
+      answer: "Correct Answer: Thinking carefully before taking an action.",
+      explanation: "Explanation: Both emphasize the importance of being cautious.",
+    ),
+  ],
+);
 
 final PracticeModel jhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/5. Guided Practice.m4a',
@@ -1611,6 +1711,107 @@ final PracticeModel jhs3s2ss2Lesson1PracticeData = PracticeModel(
       scenario: "2. Question: Rewrite this sentence to make it objective: \"The students worked very hard and the bofrot was the best in Accra.\"",
       answer: "Correct Answer: The students conducted the sale and sold bofrot to the participants.",
       explanation: "Explanation: Removing \"worked very hard\" and \"best in Accra\" removes personal opinion and stick to the objective action.",
+    ),
+  ],
+);
+
+final PracticeModel jhs3s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The clever student won a prize,\" what is the function of the bold text?",
+      answer: "Correct Answer: It is the Subject because it is the person performing the action of winning.",
+      explanation: "Explanation: The phrase comes before the verb \"won\" and tells us who did it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this: \"Mr. Mensah is a very kind doctor.\" What is the function of \"a very kind doctor\"?",
+      answer: "Correct Answer: It is a Subject Complement.",
+      explanation: "Explanation: It follows the verb \"is\" and describes the subject, Mr. Mensah.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify the function of the bold phrase: \"We visited Cape Coast, the capital of the Central Region.\"",
+      answer: "Correct Answer: It is in Apposition.",
+      explanation: "Explanation: The phrase sits next to \"Cape Coast\" to give us more information about it.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Put these words in the correct order: (wooden / small / Ghanaian / brown) box.",
+      answer: "Correct Answer: A small, brown, Ghanaian wooden box.",
+      explanation: "Explanation: Size (small) comes first, then Colour (brown), then Origin (Ghanaian), and finally Material (wooden).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How would you describe a \"dress\" using these: (beautiful / blue / silk)?",
+      answer: "Correct Answer: A beautiful, blue silk dress.",
+      explanation: "Explanation: Opinion (beautiful) must come before the Colour (blue), and the Material (silk) comes last.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Describe a \"man\" who is \"tall,\" \"old,\" and \"kind.\"",
+      answer: "Correct Answer: A kind, tall, old man.",
+      explanation: "Explanation: Opinion (kind) goes first, followed by Size (tall) and then Age (old).",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The police had to come after the thief who stole the kente cloth,\" what does \"come after\" mean?",
+      answer: "Correct Answer: It means to chase or follow.",
+      explanation: "Explanation: The context of a police officer and a thief suggests a chase is happening.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If I say, \"Please come along with us to the Kejetia market,\" what am I asking you to do?",
+      answer: "Correct Answer: I am asking you to accompany or go with us.",
+      explanation: "Explanation: \"Come along\" in this context means joining a group for a trip.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The angry man looked like he was about to blow up.\" What is happening to the man?",
+      answer: "Correct Answer: He is becoming very angry.",
+      explanation: "Explanation: While \"blow up\" can mean explode, when talking about a person's feelings, it refers to a sudden outburst of anger.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The students listened with great attention,\" what is the function of the bold phrase?",
+      answer: "Correct Answer: It describes How (Manner).",
+      explanation: "Explanation: It explains the way the students were listening.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"We put the fufu on the table.\" What does the phrase \"on the table\" tell us?",
+      answer: "Correct Answer: It describes Where (Place).",
+      explanation: "Explanation: It indicates the location where the fufu was placed.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"The runner trained every day to win the gold medal.\" Why did the runner train?",
+      answer: "Correct Answer: It describes Why (Purpose).",
+      explanation: "Explanation: It explains the goal or reason for the training.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Complete this: \"If Abena ________ (see) the snake, she ________ (run) away.\"",
+      answer: "Correct Answer: If Abena had seen the snake, she would have run away.",
+      explanation: "Explanation: We use \"had seen\" for the past perfect condition and \"would have run\" for the result.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the real meaning of: \"If it hadn't rained, we would have played football\"?",
+      answer: "Correct Answer: It rained, so we did not play football.",
+      explanation: "Explanation: Third conditionals describe the opposite of what actually happened.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rearrange to make a sentence: (have been / If / had / I / rich / I / would / happy).",
+      answer: "Correct Answer: If I had been rich, I would have been happy.",
+      explanation: "Explanation: The \"if\" clause comes first followed by the result clause.",
     ),
   ],
 );
@@ -7076,9 +7277,9 @@ final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
     ),
     PracticeQuestion(
       scenario: "7. Round 64,325 up to the nearest thousand.",
-      answer: "65,000",
+      answer: "64,000",
       explanation:
-          "Rounding 'up' means we always move to the next higher unit in that place, regardless of the smaller digits.",
+          "To round to the nearest thousand, look at the digit in the hundreds place. The digit in the hundreds place is 3. Since 3 is less than 5, we round down by keeping the thousands digit the same and changing all the digits to its right to zero.Therefore, 64,325 rounds down to 64,000 because it is closer to 64,000 than to 65,000.",
     ),
     PracticeQuestion(
       scenario: "8. Round 12.345 to 2 decimal places (hundredths).",

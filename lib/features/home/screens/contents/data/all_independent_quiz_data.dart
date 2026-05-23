@@ -1457,6 +1457,283 @@ final IndependentPracticeModel s3ss1Lesson16IndependentQuizData = IndependentPra
     ),
   ],
 );
+final IndependentPracticeModel s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. My uncle lives in Tamale.",
+        options: [
+          "?",
+          "!",
+          ".",
+          ","
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Would you like some jollof rice for lunch__",
+        options: [
+          "!",
+          "?",
+          ".",
+          ","
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Ei__ That is a very big tilapia!",
+        options: [
+          ",",
+          ".",
+          "?",
+          "!"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. We need to buy bread, eggs __ milk, and sugar.",
+        options: [
+          "!",
+          ".",
+          ",",
+          "?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. my friend kojo is from ho.",
+        options: [
+          "My friend kojo is from Ho.",
+          "My friend Kojo is from Ho.",
+          "my friend Kojo is from ho.",
+          "My friend kojo is from ho."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Is it raining in _______?",
+        options: [
+          "accra",
+          "Accra",
+          "aCcra",
+          "ACCRA"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Next _______ is a public holiday.",
+        options: [
+          "friday",
+          "Friday",
+          "FRIDAY",
+          "fridaY"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. My sister and _______ went to the shop.",
+        options: [
+          "i",
+          "Me",
+          "I",
+          "mE"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Efua's phone screen is cracked. She says, \"I need some advice. I’ve no idea what to do.\" Which is the best response?",
+        options: [
+          "Why did you break it?",
+          "My advice would be to take it to the repairer at Circle.",
+          "You should have been more careful.",
+          "I don't know what to do either."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Mensa wants to improve his English. He asks you, \"What do you think I should do?\" Which response uses a correct advice phrase?",
+        options: [
+          "You need to read more.",
+          "One thing you could do is join the school's debating club.",
+          "Just listen to the teacher.",
+          "Why are you asking me?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Abena is deciding which dress to wear for a wedding. She asks, \"Do you think I should wear the kente or the lace?\" How are you giving her advice?",
+        options: [
+          "Both are very nice.",
+          "The kente is better.",
+          "You could always wear the kente as it looks more traditional.",
+          "I like the lace dress."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Yaw is lost in the market. He asks, \"What would you do if you were me?\" What is the most helpful advice?",
+        options: [
+          "Don't get lost next time.",
+          "What you need to do is find a police officer and ask for directions.",
+          "Markets are very big and confusing.",
+          "You should stay where you are."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kojo: \"We should go to the Black Star Square for our field trip.\" Esi: \"________. It is a very historic place for Ghana.\"",
+        options: [
+          "I see things differently",
+          "I tend to disagree",
+          "That’s a good idea",
+          "You have a point there, but"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Teacher: \"I believe every student should learn to play a musical instrument.\" Student: \"________. However, some students might prefer sports instead.\"",
+        options: [
+          "I tend to agree with you",
+          "I agree up to a point",
+          "I'm with you on that point",
+          "That's a good idea"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Adwoa: \"The market will be too crowded on Saturday.\" Kofi: \"________. I think if we go early, it will be fine.\"",
+        options: [
+          "I'm with you on that point",
+          "That's a good idea",
+          "I tend to agree with you",
+          "I see things differently"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which phrase shows you partially agree but still have a different thought?",
+        options: [
+          "I tend to agree with you.",
+          "I'm with you on that point.",
+          "You have a point there, but...",
+          "That's a good idea."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Ekua saw a small crack in her bucket but ignored it. A week later, the bucket broke completely. Which proverb fits this?",
+        options: [
+          "Birds of a feather flock together.",
+          "A stitch in time saves nine.",
+          "Practice makes perfect.",
+          "Rome was not built in a day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+    IndependentPracticeQuestion(
+        question: "2. Kwame spends all his time with troublemakers and now he is in trouble too. This is an example of:",
+        options: [
+          "Look before you leap.",
+          "Don't count your chickens before they are hatched.",
+          "Birds of a feather flock together.",
+          "Patience is a virtue."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses a proverb correctly?",
+        options: [
+          "I am hungry, so practice makes perfect.",
+          "My shoes are red, a stitch in time saves nine.",
+          "I want to be a doctor, but I know it takes time because Rome was not built in a day.",
+          "Look before you leap because the sun is hot."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+    IndependentPracticeQuestion(
+        question: "4. What is the meaning of \"Practice makes perfect\"?",
+        options: [
+          "You should always be on time.",
+          "Doing something repeatedly leads to excellence.",
+          "Never tell a lie to your teacher.",
+          "It is good to share your food with friends."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
 
 final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
@@ -3760,6 +4037,287 @@ final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = Independent
         correctIndex: 2,
         difficulty: "Easy",
         explanation: "A farmer in Tamale grows various crops for subsistence."
+    ),
+  ],
+);
+
+final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The small village near the Volta River is very peaceful.\" What is the function of the bold phrase?",
+        options: [
+          "Direct Object",
+          "Subject",
+          "Apposition",
+          "Object of Preposition"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"Esi bought some fresh mangoes from the market.\" What is the function of the bold phrase?",
+        options: [
+          "Subject",
+          "Apposition",
+          "Subject Complement",
+          "Direct Object"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The trophy was given to the fastest runner in the school.\" What is the function of the bold phrase?",
+        options: [
+          "Object of Preposition",
+          "Subject",
+          "Subject Complement",
+          "Apposition"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"My uncle, a famous musician in Accra, is coming to visit.\" What is the function of the bold phrase?",
+        options: [
+          "Subject",
+          "Direct Object",
+          "Apposition",
+          "Subject Complement"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which is the correct order?",
+        options: [
+          "A plastic big green bottle.",
+          "A big green plastic bottle.",
+          "A green big plastic bottle.",
+          "A plastic green big bottle."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best description for a setting:",
+        options: [
+          "A bright, sunny, Tuesday afternoon.",
+          "A Tuesday, bright, sunny afternoon.",
+          "A sunny, Tuesday, bright afternoon.",
+          "A bright, Tuesday, sunny afternoon."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Amma bought a __________ bag.",
+        options: [
+          "leather, beautiful, black",
+          "black, leather, beautiful",
+          "beautiful, black, leather",
+          "beautiful, leather, black"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The man __________ crawled out of the mudslide.",
+        options: [
+          "covered with mud",
+          "mud with covered",
+          "with mud covered",
+          "covering with mud"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The student had to __________ a story because he forgot his homework.",
+        options: [
+          "come after",
+          "blow up",
+          "make up",
+          "come along"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does \"put off\" mean in this sentence: \"The festival was put off until next month\"?",
+        options: [
+          "To cancel forever",
+          "To start early",
+          "To enjoy very much",
+          "To delay or postpone"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"Ama is very tall; she really __________ her father.\"",
+        options: [
+          "takes after",
+          "blows up",
+          "comes after",
+          "makes up"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How is your new garden __________?",
+        options: [
+          "making up",
+          "coming along",
+          "blowing up",
+          "taking after"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The ceremony will begin at exactly ten o'clock.\" What is the function of this phrase?",
+        options: [
+          "Describe How",
+          "Describe Why",
+          "Describe When",
+          "Describe Where"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The cat jumped over the compound wall.\" This phrase describes:",
+        options: [
+          "Place",
+          "Manner",
+          "Reason",
+          "Time"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"She spoke in a very soft whisper.\" This phrase describes:",
+        options: [
+          "Why",
+          "How",
+          "When",
+          "Where"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"He saved his money to travel to Kumasi.\" This phrase describes:",
+        options: [
+          "Time",
+          "Place",
+          "Manner",
+          "Purpose"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. If we __________ to the Kejetia Market earlier, we __________ the fresh bread.",
+        options: [
+          "have gone / would buy",
+          "had gone / would have bought",
+          "went / would have bought",
+          "had go / would have buy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. You __________ the goal if you __________ the ball harder.",
+        options: [
+          "would have scored / had kicked",
+          "would score / had kicked",
+          "had scored / would have kicked",
+          "would have score / had kick"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If the driver __________ more carefully, the accident __________.",
+        options: [
+          "had driven / wouldn't happen",
+          "drove / wouldn't have happened",
+          "had driven / wouldn't have happened",
+          "have driven / wouldn't have happened"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. I __________ you a gift if it was your birthday.",
+        options: [
+          "would have given / had known",
+          "would give / had known",
+          "had given / would have known",
+          "would have give / had know"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
     ),
   ],
 );
