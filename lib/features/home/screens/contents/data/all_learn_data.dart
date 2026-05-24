@@ -544,7 +544,7 @@ final LearnModel RMEs2ss2Lesson2LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/s2_ss2_l2/part_c.jpg',
-    audioPath: 'assets/audio/RME/s2_ss2_l2/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/RME/s2_ss2_l2/5. Teach - Part C(updated).m4a',
   ),
 ]);
 final LearnModel RMEs2ss2Lesson3LearnData = LearnModel(parts: [
