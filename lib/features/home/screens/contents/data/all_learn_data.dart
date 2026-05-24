@@ -882,7 +882,7 @@ final LearnModel RMEjhs2s2ss1Lesson4LearnData = LearnModel(parts: [
 final LearnModel RMEjhs2s2ss1Lesson5LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/RME/jhs2_s2_ss1_l5/part_a.jpg',
-    audioPath: 'assets/audio/RME/5. RME JHS2 S2 SS1 L5/3. Teach - Part A.m4a',
+    audioPath: 'assets/audio/RME/5. RME JHS2 S2 SS1 L5/3. Teach - Part A(updated).m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/RME/jhs2_s2_ss1_l5/part_b.jpg',
