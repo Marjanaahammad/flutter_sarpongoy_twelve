@@ -319,6 +319,12 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       return 5.0 + (value - 3000) / 1000.0;
     }
 
+    double asDouble(dynamic value) {
+      if (value == null) return 0.0;
+      if (value is num) return value.toDouble();
+      return double.tryParse(value.toString()) ?? 0.0;
+    }
+
     final trend = data.charts?.monthlyCompletionTrend ?? [];
     final selectedSubjectKey = _selectedSubject.value;
     const months = [
@@ -338,13 +344,20 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
     final spots = List.generate(12, (index) {
       final monthName = months[index];
-      // Find the trend for the current month by its abbreviated name
-      final monthTrend = trend.firstWhereOrNull((e) => e.month == monthName);
+      final monthNumber = index + 1;
 
-      double completed = 0.0;
-      if (monthTrend != null && monthTrend.subjects != null) {
-        // Look up the value for the selected subject.
-        completed = (monthTrend.subjects![selectedSubjectKey] ?? 0).toDouble();
+      var completed = 0.0;
+      for (final monthTrend in trend) {
+        final isSameMonth =
+            monthTrend.monthNumber == monthNumber ||
+            monthTrend.month == monthName;
+        if (!isSameMonth) continue;
+
+        if (monthTrend.subject == selectedSubjectKey) {
+          completed += asDouble(monthTrend.completed);
+        } else if (monthTrend.subjects != null) {
+          completed += asDouble(monthTrend.subjects![selectedSubjectKey]);
+        }
       }
 
       return FlSpot(index.toDouble(), transformValue(completed));
@@ -478,7 +491,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
             }).toList();
           },
           touchTooltipData: LineTouchTooltipData(
-            getTooltipColor: (_) => Colors.white.withOpacity(0.95),
+            getTooltipColor: (_) => Colors.white.withValues(alpha: 0.95),
             tooltipPadding: const EdgeInsets.symmetric(
               horizontal: 16,
               vertical: 12,
@@ -610,8 +623,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                  const Color(0xFF1B7A3D).withOpacity(0.8),
-                  const Color(0xFF1B7A3D).withOpacity(0.0),
+                  const Color(0xFF1B7A3D).withValues(alpha: 0.8),
+                  const Color(0xFF1B7A3D).withValues(alpha: 0.0),
                 ],
                 stops: const [0.0, 1.0],
               ),
@@ -987,7 +1000,7 @@ class _LegendDot extends StatelessWidget {
         Text(
           label,
           style: TextStyle(
-            fontSize: 16,
+            fontSize: 12.5,
             color: Color(0xFF000000),
             fontWeight: FontWeight.w500,
           ),
