@@ -1815,14 +1815,155 @@ final PracticeModel jhs3s3ss1Lesson5PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel jhs3s3ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The girl who lives next door is a nurse.\" Is this defining or non-defining?",
+      answer: "Correct Answer: Defining.",
+      explanation: "Explanation: Without \"who lives next door,\" we don't know which girl is being discussed.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"My father, who works at the bank, is very tall.\" Why are there commas here?",
+      answer: "Correct Answer: Because it is a non-defining clause.",
+      explanation: "Explanation: \"My father\" is specific enough; the fact that he works at the bank is extra information.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which is correct?" "A. The house that I bought is old." "B. The house, that I bought, is old.",
+      answer: "Correct Answer: A.",
+      explanation: "Explanation: Since \"that I bought\" defines which house, it is a defining clause and should not have commas.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L7/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The heavy rain flooded the streets of Accra,\" what is the Subject?",
+      answer: "Correct Answer: The heavy rain.",
+      explanation: "Explanation: \"The heavy rain\" is the \"what\" that caused the action of flooding.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify the Predicate in: \"Kwame and Ama are studying for the BECE.\"",
+      answer: "Correct Answer: are studying for the BECE.",
+      explanation: "Explanation: This part contains the verb \"are studying\" and tells us what the subjects are doing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the Subject of this sentence? \"Under the tree sat an old man.\"",
+      answer: "Correct Answer: An old man.",
+      explanation: "Explanation: Even though it is at the end, \"an old man\" is who the sentence is about.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L8/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Change this to Passive: \"The boy kicked the ball.\"",
+      answer: "Correct Answer: The ball was kicked by the boy.",
+      explanation: "Explanation: \"The ball\" moves to the front, we add \"was,\" and change \"kicked\" to its past participle.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the active version of: \"The kente cloth was woven by Ama\"?",
+      answer: "Correct Answer: Ama wove the kente cloth.",
+      explanation: "Explanation: We move \"Ama\" back to the subject position and remove the \"was\" and \"by.\"",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify the voice: \"The letter was posted yesterday.\"",
+      answer: "Correct Answer: Passive Voice.",
+      explanation: "Explanation: The focus is on the letter receiving the action, and the person who posted it isn't even mentioned!",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L9/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Change to Reported Speech: Ama said, \"I like jollof rice.\"",
+      answer: "Correct Answer: Ama said that she liked jollof rice.",
+      explanation: "Explanation: \"I\" changes to \"she\" and the present \"like\" backshifts to the past \"liked.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the direct speech is: \"I will call you today,\" what happens to \"today\" in reported speech?",
+      answer: "Correct Answer: It changes to \"that day.\"",
+      explanation: "Explanation: Time words must shift to show the time has moved on from when the words were first spoken.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Report this: The coach said, \"We can win the match.\"",
+      answer: "Correct Answer: The coach said that they could win the match.",
+      explanation: "Explanation: \"We\" becomes \"they\" and \"can\" backshifts to \"could.\"",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi needs to write about his \"great grandfather.\" How should he join these words?",
+      answer: "Correct Answer: He should use a hyphen to form the compound word: great-grandfather.",
+      explanation: "Explanation: A hyphen is used to join words that function as a single unit.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you want to add a quick side-note about Kejetia Market being in Kumasi within a sentence, what should you use?",
+      answer: "Correct Answer: Use brackets to enclose the extra information.",
+      explanation: "Explanation: Brackets are used for information that is added but not the main focus of the sentence.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are listing items for a party: Fanta, meat pie, and cake. Which mark can introduce this list?",
+      answer: "Correct Answer: Use a dash to introduce the list.",
+      explanation: "Explanation: A dash can be used to lead into a list of items.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The Galamsey site was abandoned; no one had worked there for over ten years, and the tools were left to rust.\"""What does abandoned mean?",
+      answer: "Correct Answer: It means left behind or no longer used.",
+      explanation: "Explanation: The phrase \"no one had worked there for over ten years\" and \"tools were left\" explains that the place was deserted.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"Although the Jope tea was bitter, the Sobolo was very sweet.\"" "What does bitter mean in this context?",
+      answer: "Correct Answer: Having a sharp, pungent taste that is the opposite of sweet.",
+      explanation: "Explanation: The word \"Although\" creates a contrast, showing that bitter is the opposite of sweet.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"Abena felt melancholy because she missed her family in Kumasi; she felt very sad all afternoon.\""
+    "What does melancholy mean?",
+      answer: "Correct Answer: Feeling a sense of sadness.",
+      explanation: "Explanation: The word \"sad\" is used as a synonym later in the sentence to clarify Abena's feelings.",
+    ),
+  ],
+);
+final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The soccer fans showed great humor during the match at Baba Yara Stadium.\"""Find the spelling error and correct it.",
+      answer: "Correct Answer: humour",
+      explanation: "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"I am studing very hard for my BECE exams.\"" "What is the correct way to spell the bold word?",
+      answer: "Correct Answer: studying",
+      explanation: "Explanation: When a word ends in 'y' and you add '-ing', you keep the 'y'. You only change it to 'i' when adding '-ed' or '-es'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: \"We need to reorganize the library books.\""
+    "How should this be spelled in a Ghanaian classroom?",
+      answer: "Correct Answer: reorganise",
+      explanation: "Explanation: We follow the British convention of using '-ise' instead of the American '-ize'.",
+    ),
+  ],
+);
 
 ///Religious & Moral Education
 final PracticeModel RMEs1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/RME/s1_ss1_l1/7. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario:
-          "1. Which title is used by Christians to show that God has power greater than all other powers?",
+      scenario: "1. Which title is used by Christians to show that God has power greater than all other powers?",
       answer: "Omnipotent",
       explanation: "Omnipotent means all-powerful and able to do all things.",
     ),

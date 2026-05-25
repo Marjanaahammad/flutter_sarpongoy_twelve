@@ -8247,83 +8247,662 @@ final QuizModel jhs3s3ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. 'Aysha passed the exam quite easily.' What function does this serve?",
-        options: ["Describe Where", "Describe How", "Describe When", "Describe Why"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "It describes the manner in which she passed."
-    ),
-
-    QuizQuestion(
-        question: "2. 'I met Kwame near the bridge.' This phrase tells us:",
-        options: ["The time", "The reason", "The location", "The manner"],
+        question: "1. Which structure is correct for the Third Conditional?",
+        options: ["If + Present Simple, Will + Verb", "If + Past Simple, Would + Verb", "If + Past Perfect, Would have + Past Participle", "If + Past Perfect, Will have + Past Participle"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Near the bridge' describes the place."
+        explanation: "This is the standard formula."
     ),
 
     QuizQuestion(
-        question: "3. Why was the law abolished in the example sentence?",
-        options: ["Because it was old", "To end discrimination of girls", "As quickly as possible", "Near the bridge"],
-        correctIndex: 1,
+        question: "2. 'If I had worked harder, I would have passed.' Did the person pass the exam?",
+        options: ["Yes, they passed easily.", "We don't know.", "No, they failed.", "They are still writing the exam."],
+        correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The phrase 'to end discrimination of girls' explains the purpose."
+        explanation: "This tense describes a result that did not happen."
     ),
 
     QuizQuestion(
-        question: "4. 'The disgraced thief left the scene as quickly as possible.' This phrase describes:",
-        options: ["When/Speed", "Place", "Purpose", "Manner"],
+        question: "3. If Kwame ________ the bus, he wouldn't have been late.",
+        options: ["had caught", "caught", "has caught", "would catch"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The if-clause requires the Past Perfect."
+    ),
+
+    QuizQuestion(
+        question: "4. We ________ to the beach if it had been sunny.",
+        options: ["would go", "had gone", "would have gone", "will have gone"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The result clause requires 'would have' + past participle."
+    ),
+
+    QuizQuestion(
+        question: "5. Which sentence expresses regret?",
+        options: ["If I study, I will pass.", "If I studied, I would pass.", "If I had studied, I would have passed.", "I am studying to pass."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Type 3 conditionals are often used for past regrets."
+    ),
+
+    QuizQuestion(
+        question: "6. 'If you ________ me, I ________ you.'",
+        options: ["had asked / would have helped", "asked / would help", "had ask / would have help", "had asked / would help"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "It explains the timing and speed of the action."
+        explanation: "Both parts must follow the Type 3 pattern."
     ),
 
     QuizQuestion(
-        question: "5. 'The farmers worked under the hot sun.' This describes:",
-        options: ["Why they worked", "When they worked", "Where they worked", "How they worked"],
-        correctIndex: 2,
+        question: "7. Complete the sentence: 'If she hadn't fallen, she ________ the race.'",
+        options: ["would win", "would have won", "had won", "won"],
+        correctIndex: 1,
         difficulty: "Medium",
-        explanation: "It describes the location/setting of the work."
+        explanation: "This is the probable result of an impossible condition."
     ),
 
     QuizQuestion(
-        question: "6. 'Kofi ran to catch the bus.' The bold phrase is an adverbial phrase of:",
-        options: ["Manner", "Place", "Time", "Purpose"],
+        question: "8. What is the past participle of the verb 'to be' used in this tense?",
+        options: ["was", "were", "being", "been"],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation: "It tells us the goal of his running."
+        explanation: "'Been' is the past participle used after 'had' or 'would have.'"
     ),
 
     QuizQuestion(
-        question: "7. 'The children played in the school yard.' Identify the function.",
-        options: ["Place", "Time", "Manner", "Purpose"],
+        question: "9. 'If I ________ enough money, I ________ a new phone.'",
+        options: ["had had / would have bought", "had / would have bought", "have had / would have bought", "had / would buy"],
         correctIndex: 0,
-        difficulty: "Easy",
-        explanation: "It tells us the location."
+        difficulty: "Hard",
+        explanation: "'Had had' is correct; the first 'had' is the auxiliary, the second is the past participle of 'have.'"
     ),
 
     QuizQuestion(
-        question: "8. 'She finished her chore before the sun went down.' Identify the function.",
-        options: ["Manner", "Time", "Place", "Purpose"],
+        question: "10. Identify the mistake: 'If I had known, I would have tell you.'",
+        options: ["had known", "If I", "tell", "would have"],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "It should be 'told' (past participle), not 'tell.'"
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L6/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Defining relative clauses are used to:",
+        options: ["Give extra information", "Give essential information", "Give no information", "Give information only about animals"],
         correctIndex: 1,
-        difficulty: "Medium",
-        explanation: "It explains when the chore was finished."
+        difficulty: "Easy",
+        explanation: "They define which noun we are talking about."
     ),
 
     QuizQuestion(
-        question: "9. 'The soldier fought with great courage.' Identify the function.",
-        options: ["Place", "Why", "How", "When"],
+        question: "2. Which relative pronoun is never used in non-defining clauses?",
+        options: ["Which", "Who", "Whose", "That"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'That' is only for defining clauses."
+    ),
+
+    QuizQuestion(
+        question: "3. 'The kente cloth, ________ I bought in Kumasi, is very expensive.'",
+        options: ["that", "who", "which", "whose"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "It describes the manner of the fighting."
+        explanation: "This is a non-defining clause (marked by commas), so 'which' is required."
     ),
 
     QuizQuestion(
-        question: "10. 'I am going to the library to study for my BECE.' Identify the function.",
-        options: ["Purpose", "Place", "Manner", "Time"],
+        question: "4. Identify the defining relative clause:",
+        options: ["My mother, who is a teacher, is kind.", "The boy who sits behind me is clever.", "Ghana, which is in West Africa, is beautiful.", "Mount Afadjato, which is very high, is in the Volta Region."],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It specifies exactly which boy."
+    ),
+
+    QuizQuestion(
+        question: "5. Where do commas go in a non-defining clause?",
+        options: ["Nowhere", "Only at the end of the sentence", "Before and after the clause", "Only after the relative pronoun"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Commas separate the extra info from the main sentence."
+    ),
+
+    QuizQuestion(
+        question: "6. 'The student ________ father is a doctor won the prize.'",
+        options: ["who", "whose", "which", "that"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Whose' shows possession (the father belonging to the student)."
+    ),
+
+    QuizQuestion(
+        question: "7. Is this sentence correct? 'The laptop, that I use, is broken.'",
+        options: ["Yes", "No, it shouldn't have commas", "No, it should use 'which' instead of 'that'", "Both B and C are correct"],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation: "'That' cannot be used with commas, and 'which' is better for non-defining."
+    ),
+
+    QuizQuestion(
+        question: "8. 'Cape Coast Castle, ________ is a historic site, is near the sea.'",
+        options: ["which", "that", "who", "whose"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "It explains the reason for going to the library."
+        explanation: "'Which' is used for things in non-defining clauses."
+    ),
+
+    QuizQuestion(
+        question: "9. 'I know a man ________ can speak five languages.'",
+        options: ["which", "who", "whose", "whom"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Who' is the correct pronoun for people."
+    ),
+
+    QuizQuestion(
+        question: "10. In the sentence 'My dog, which is a terrier, is called Rex,' the clause is:",
+        options: ["Defining", "Non-defining", "Not a relative clause", "A phrasal verb"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It adds extra information and uses commas."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L7/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What are the two main parts of a sentence?",
+        options: ["Noun and Verb", "Subject and Predicate", "Object and Complement", "Phrase and Clause"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "These are the two fundamental components of any complete sentence."
+    ),
+
+    QuizQuestion(
+        question: "2. Identify the Subject: 'The President of Ghana gave a speech.'",
+        options: ["gave a speech", "a speech", "The President of Ghana", "President"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "This is the noun phrase the sentence is about."
+    ),
+
+    QuizQuestion(
+        question: "3. Identify the Predicate: 'The birds flew over the Volta River.'",
+        options: ["The birds", "over the Volta River", "flew over the Volta River", "flew"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The predicate includes the verb and everything that follows it."
+    ),
+
+    QuizQuestion(
+        question: "4. True or False: The predicate must always contain a verb.",
+        options: ["True", "False", "Only in long sentences", "Only if there is an object"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A predicate is defined by the action or state, which is the verb."
+    ),
+
+    QuizQuestion(
+        question: "5. What is the Subject in: 'Down the hill ran the children'?",
+        options: ["Down the hill", "Down the hill ran", "ran", "the children"],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation: "The subject is who performed the action, even if the sentence order is flipped."
+    ),
+
+    QuizQuestion(
+        question: "6. Which of these can be a Subject?",
+        options: ["ran quickly", "beautiful flowers", "under the table", "very happy"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A subject must be a noun or noun phrase."
+    ),
+
+    QuizQuestion(
+        question: "7. Identify the Predicate: 'Ghana is a beautiful country.'",
+        options: ["Ghana", "is a beautiful country", "beautiful country", "is"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "It starts with the linking verb 'is' and describes the subject."
+    ),
+
+    QuizQuestion(
+        question: "8. In 'The old car broke down on the highway,' the bold part is:",
+        options: ["The Subject", "The Predicate", "An Adverbial Phrase", "A Relative Clause"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It tells us what happened to the subject."
+    ),
+
+    QuizQuestion(
+        question: "9. 'You should finish your homework.' The bold word is:",
+        options: ["The Subject", "The Predicate", "A Verb", "An Object"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Pronouns often act as the subject of a sentence."
+    ),
+
+    QuizQuestion(
+        question: "10. Which part of the sentence usually comes first?",
+        options: ["The Predicate", "The Verb", "The Subject", "The Object"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In standard English sentence structure (SVO), the subject typically leads."
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L8/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In the Active Voice, the subject:",
+      options: ["Receives the action", "Performs the action", "Is always at the end", "Is never mentioned"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The subject is the 'doer' in active voice.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which 'be' verb is needed for: 'The books ________ (take) by the teacher yesterday'?",
+      options: ["are", "is", "was", "were"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Books' is plural and the action happened in the past.",
+    ),
+
+    QuizQuestion(
+      question: "3. Transform to Passive: 'The cat chased the mouse.'",
+      options: ["The mouse was chased by the cat.", "The mouse is chased by the cat.", "The cat was chased by the mouse.", "The mouse was chase by the cat."],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Past tense 'chased' requires 'was chased.'",
+    ),
+
+    QuizQuestion(
+      question: "4. 'The National Anthem is sung by the students every Monday.' What is the voice?",
+      options: ["Active", "Passive", "Relative", "Adverbial"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It uses 'is sung by,' showing the subject is receiving the action.",
+    ),
+
+    QuizQuestion(
+      question: "5. Change to Active: 'The cake was eaten by Kwesi.'",
+      options: ["Kwesi was eaten the cake.", "Kwesi eats the cake.", "Kwesi ate the cake.", "Kwesi has eaten the cake."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Was eaten' is past passive, so the active must be past simple 'ate.'",
+    ),
+
+    QuizQuestion(
+      question: "6. When is the Passive Voice most useful?",
+      options: ["When we want to be very loud.", "When the person doing the action is unknown or less important.", "When we are talking to our friends.", "Only when writing about animals."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Passive voice shifts focus to the action or the receiver.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the past participle of 'write'?",
+      options: ["wrote", "writed", "written", "writing"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Irregular verbs like 'write' must use the correct third form.",
+    ),
+
+    QuizQuestion(
+      question: "8. Change to Passive: 'The wind blew down the tree.'",
+      options: ["The tree was blowed down by the wind.", "The tree was blown down by the wind.", "The tree is blown down by the wind.", "The wind was blown down by the tree."],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Blown' is the correct past participle of 'blow.'",
+    ),
+
+    QuizQuestion(
+      question: "9. Identify the Active sentence:",
+      options: ["The report was finished on time.", "Our team won the trophy.", "The light was turned off.", "Mistakes were made."],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Our team' (Subject) performed the action 'won.'",
+    ),
+
+    QuizQuestion(
+      question: "10. 'Ghanaian chocolate is enjoyed all over the world.' This is:",
+      options: ["Passive without a 'by' phrase", "Active voice", "Not a sentence", "A command"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Passive voice often omits the 'by' phrase when the doer is everyone/unspecified.",
+    )
+  ],
+);
+final QuizModel jhs3s3ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L9/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In reported speech, what does 'will' usually change to?",
+      options: ["shall", "can", "would", "must"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Will' backshifts to 'would' in indirect speech.",
+    ),
+
+    QuizQuestion(
+      question: "2. Report this: 'I don't like spicy food,' said Esi.",
+      options: ["Esi said that she doesn't like spicy food.", "Esi said that she didn't like spicy food.", "Esi said that I didn't like spicy food.", "Esi said that she hasn't liked spicy food."],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Present simple 'don't like' becomes past simple 'didn't like.'",
+    ),
+
+    QuizQuestion(
+      question: "3. What does 'here' change to in reported speech?",
+      options: ["there", "where", "that", "then"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Place words shift away from the speaker.",
+    ),
+
+    QuizQuestion(
+      question: "4. 'The teacher said that we should study hard.' What was the teacher's direct speech?",
+      options: ['"You should study hard."', '"We should study hard."', '"They should study hard."', '"I should study hard."'],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "When reporting a teacher's advice to students, 'we' in the report often refers back to 'you' in the direct command.",
+    ),
+
+    QuizQuestion(
+      question: "5. Choose the correct pronoun: Abena said, 'I am tired.' -> Abena said that _______ was tired.",
+      options: ["I", "you", "she", "they"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The pronoun must match the original speaker.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'I can speak Ga,' Kojo said. In reported speech, this is:",
+      options: ["Kojo said that he can speak Ga.", "Kojo said that he could speak Ga.", "Kojo said that I could speak Ga.", "Kojo said that he speaks Ga."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Can' backshifts to 'could.'",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the correct reported version: 'It is raining now'?",
+      options: ["He said it was raining now.", "He said it is raining then.", "He said it was raining then.", "He said it rains now."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Is' becomes 'was' and 'now' becomes 'then.'",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is not a reporting verb?",
+      options: ["Said", "Told", "Explained", "Walked"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Reporting verbs must describe an act of communication.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'My father is a doctor,' said Ama.",
+      options: ["Ama said that my father was a doctor.", "Ama said that her father is a doctor.", "Ama said that her father was a doctor.", "Ama said that his father was a doctor."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'My' changes to 'her' and 'is' changes to 'was.'",
+    ),
+
+    QuizQuestion(
+      question: "10. 'We saw a lion at Mole National Park yesterday,' they said.",
+      options: ["They said they saw a lion yesterday.", "They said they had seen a lion the day before.", "They said we saw a lion the day before.", "They said they see a lion yesterday."],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Saw' (Past Simple) backshifts to 'had seen' (Past Perfect), and 'yesterday' becomes 'the day before.'",
+    )
+  ],
+);
+final QuizModel jhs3s3ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. How would you correctly punctuate 'brother in law'?",
+      options: ["brother in law", "brother-in-law", "brother (in law)", "brother—in—law"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Hyphens join compound family terms.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which mark is used to separate sounds in 're-enter'?",
+      options: ["Dash", "Bracket", "Hyphen", "Comma"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Hyphens separate similar vowel sounds to prevent confusion.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the sentence 'The prize — a brand new bicycle — was stolen,' what is the dash doing?",
+      options: ["Joining words", "Marking an interruption/explanation", "Ending the sentence", "Showing a fraction"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dashes mark interruptions or explanations in a sentence.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the correct use of brackets for a cross-reference.",
+      options: ["See the map - page 10.", "See the map (page 10).", "See the map — page 10.", "See the map-page 10."],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Brackets are used for cross-references to other parts of a text.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which is the correct way to break the word 'information' at the end of a line?",
+      options: ["infor-mation", "inform-ation", "info-rmation", "both A and B are correct"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Words should be broken at a syllable using a hyphen.",
+    ),
+
+    QuizQuestion(
+      question: "6. Choose the correct sentence for a list of Ghanaian foods.",
+      options: ["We ate many things-banku, fufu, and kenkey.", "We ate many things (banku, fufu, and kenkey).", "We ate many things — banku, fufu, and kenkey.", "We ate many things banku-fufu-kenkey."],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A dash is used to introduce a list.",
+    ),
+
+    QuizQuestion(
+      question: "7. How do you write 'forty five' correctly?",
+      options: ["forty five", "forty-five", "forty — five", "forty (five)"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Compound numbers use hyphens.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which mark is the longest?",
+      options: ["Hyphen", "Dash", "Bracket", "Comma"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The dash is a long horizontal line, while the hyphen is short.",
+    ),
+
+    QuizQuestion(
+      question: "9. If you want to mention someone's nickname without it being the main focus, use:",
+      options: ["Dashes", "Hyphens", "Brackets", "Colons"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Brackets enclose extra info not considered majorly important.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence uses a hyphen to distinguish between similar-looking phrases?",
+      options: ["He is a well-known man.", "This is a poor-rate collection.", "She is my ex-wife.", "It is two-thirds full."],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Hyphens help clarify the meaning of specific phrases like 'poor-rate collection'.",
+    )
+  ],
+);
+final QuizModel jhs3s3ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The vast Sahara Desert stretches across many countries; it is truly enormous.",
+      options: ["Small", "Enormous", "Cold", "Wet"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Enormous' is a synonym for 'vast'.",
+    ),
+    QuizQuestion(
+      question: "2. Instead of being sluggish, the black mamba is a very fast snake.",
+      options: ["Slow", "Green", "Sleepy", "Friendly"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Instead of' shows that sluggish is the opposite of fast.",
+    ),
+    QuizQuestion(
+      question: "3. The classroom was vibrant with many bright colours and student drawings on every wall.",
+      options: ["Dark", "Full of life and colour", "Empty", "Very quiet"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Bright colours' and 'drawings on every wall' describe a vibrant room.",
+    ),
+    QuizQuestion(
+      question: "4. The teacher gave a lucid explanation, making the difficult math problem very clear to everyone.",
+      options: ["Clear", "Confusing", "Long", "Boring"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Clear' is used to explain what 'lucid' means.",
+    ),
+    QuizQuestion(
+      question: "5. Unlike the arid North, the South of Ghana is very green and rainy.",
+      options: ["Cold", "Dry", "Populated", "High"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Unlike' signals that arid is the opposite of green and rainy.",
+    ),
+    QuizQuestion(
+      question: "6. The man was affluent; he owned three houses in East Legon and five luxury cars.",
+      options: ["Poor", "Healthy", "Wealthy", "Famous"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The list of houses and cars indicates wealth.",
+    ),
+    QuizQuestion(
+      question: "7. The food was scrumptious; everyone at the wedding asked for a second helping of the Jollof.",
+      options: ["Salty", "Delicious", "Spicy", "Bad-tasting"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Asking for a second helping implies the food was delicious.",
+    ),
+    QuizQuestion(
+      question: "8. The President's visit was brief, lasting only ten minutes before he had to leave for the airport.",
+      options: ["Long", "Exciting", "Short", "Formal"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Ten minutes' defines the length as short or brief.",
+    ),
+    QuizQuestion(
+      question: "9. The water in the pond was murky, so we could not see the fish swimming at the bottom.",
+      options: ["Clear", "Deep", "Cloudy or dirty", "Very cold"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "If you 'cannot see' through it, the water is murky.",
+    ),
+    QuizQuestion(
+      question: "10. Ama was resilient; even though she failed her first test, she kept studying until she passed.",
+      options: ["Able to recover quickly", "Very intelligent", "Lazy", "Unhappy"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Continuing to study after a failure shows the ability to bounce back.",
+    )
+  ],
+);
+final QuizModel jhs3s3ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the correct British spelling?",
+      options: ["Flavor", "Flavour", "Flavur", "Flaver"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "British English uses '-our'.",
+    ),
+
+    QuizQuestion(
+      question: "2. How do you spell the plural of 'Country'?",
+      options: ["Countrys", "Countries", "Countryes", "Country's"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Change 'y' to 'i' and add 'es'.",
+    ),
+
+    QuizQuestion(
+      question: "3. Choose the correct spelling for a formal plan of events.",
+      options: ["Program", "Programme", "Programue", "Prorgam"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Programme' is the standard British spelling.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word follows the 'I before E' rule correctly?",
+      options: ["Decieve", "Beleive", "Ceiling", "Reiceve"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "After 'C', the 'E' comes first.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does the phonetic transcription in a dictionary help you with?",
+      options: ["Meaning", "Spelling", "Pronunciation", "Origin"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Phonetics show how a word is spoken.",
+    ),
+
+    QuizQuestion(
+      question: "6. Choose the correctly spelled verb:",
+      options: ["Memorise", "Memorize", "Memmorise", "Memorizee"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Ghanaian schools use the British '-ise' ending.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you are looking for the word 'Aura' in the dictionary, which word would come before it?",
+      options: ["Autumn", "Azure", "Auction", "Baby"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Auc-' comes before 'Aur-' alphabetically.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is spelled correctly?",
+      options: ["Cancelled", "Canceled", "Canceld", "Canselled"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "British English doubles the 'l' in 'cancelled'.",
+    ),
+
+    QuizQuestion(
+      question: "9. Identify the correct spelling",
+      options: ["Accomodation", "Acommodation", "Accommodation", "Acomodation"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "It has a double 'c' and a double 'm'.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which dictionary entry tells you if a word is a 'Noun' or 'Verb'?",
+      options: ["Etymology", "Part of Speech", "Definition", "Synonym"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Part of speech identifies the word's grammatical category.",
     )
   ],
 );

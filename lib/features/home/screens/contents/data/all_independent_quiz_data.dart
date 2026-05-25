@@ -4321,6 +4321,398 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
     ),
   ],
 );
+final IndependentPracticeModel jhs3s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The man __________ stole the bag was caught by the police.",
+        options: [
+          "who",
+          "which",
+          "whose",
+          "whom"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Accra, __________ is the capital of Ghana, is very crowded.",
+        options: [
+          "that",
+          "who",
+          "which",
+          "whose"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence is punctuated correctly?",
+        options: [
+          "Kofi who is my brother, is a doctor.",
+          "Kofi, who is my brother, is a doctor.",
+          "Kofi, who is my brother is a doctor.",
+          "Kofi who is my brother is a doctor."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. This is the book __________ I told you about.",
+        options: [
+          "who",
+          "whose",
+          "whom",
+          "that"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L7/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part is the Predicate? \"The colourful kente cloth was made in Bonwire.\"",
+        options: [
+          "The colourful kente cloth",
+          "was made in Bonwire",
+          "kente cloth",
+          "made in Bonwire"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the Subject: \"My little brother likes to eat jollof rice.\"",
+        options: [
+          "My little brother",
+          "likes to eat",
+          "jollof rice",
+          "likes to eat jollof rice"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the sentence \"The sun shines brightly,\" the bold text is:",
+        options: [
+          "The Subject",
+          "The Predicate",
+          "A Noun Phrase",
+          "A Phrasal Verb"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence has the Subject underlined correctly?",
+        options: [
+          "<u>The dog</u> barked at the stranger.",
+          "The dog <u>barked at</u> the stranger.",
+          "The dog barked <u>at the stranger</u>.",
+          "<u>The dog barked</u> at the stranger."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L8/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Change to Passive: \"The weaver made a beautiful basket.\"",
+        options: [
+          "A beautiful basket made the weaver.",
+          "A beautiful basket was made by the weaver.",
+          "The weaver was made by a beautiful basket.",
+          "A beautiful basket is make by the weaver."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence is in the Active Voice?",
+        options: [
+          "The fufu was pounded by Kojo.",
+          "The banku is being cooked.",
+          "Esi painted the school wall.",
+          "The prize was won by the fastest runner."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Change to Passive: \"The farmer grows cocoa.\"",
+        options: [
+          "Cocoa is grown by the farmer.",
+          "Cocoa was grown by the farmer.",
+          "Cocoa grown the farmer.",
+          "The farmer is grown by cocoa."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"The bridge was built in 1960.\" Why is this passive?",
+        options: [
+          "Because the bridge is doing an action.",
+          "Because the focus is on the object (the bridge).",
+          "Because there is no verb.",
+          "Because it is a short sentence."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L9/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"I am feeling ill,\" said the student.",
+        options: [
+          "The student said that I am feeling ill.",
+          "The student said that he was feeling ill.",
+          "The student said that he is feeling ill.",
+          "The student said that he feels ill."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"We are going to Accra tomorrow,\" they told us.",
+        options: [
+          "They told us that they were going to Accra the next day.",
+          "They told us that we are going to Accra tomorrow.",
+          "They told us that they went to Accra tomorrow.",
+          "They told us that they would go to Accra today."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word usually replaces \"this\" in reported speech?",
+        options: [
+          "those",
+          "these",
+          "that",
+          "then"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"I have finished my homework,\" Kofi said.",
+        options: [
+          "Kofi said that he finishes his homework.",
+          "Kofi said that I had finished my homework.",
+          "Kofi said that he had finished his homework.",
+          "Kofi said that he finished my homework."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence correctly uses a hyphen for a compound description?",
+        options: [
+          "The well known doctor arrived.",
+          "The well-known doctor arrived.",
+          "The well — known doctor arrived.",
+          "The well (known) doctor arrived."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where should brackets be placed in this sentence? Ama our class prefect is very kind.",
+        options: [
+          "Ama (our class prefect) is very kind.",
+          "(Ama) our class prefect is very kind.",
+          "Ama our class (prefect) is very kind.",
+          "Ama our class prefect (is very kind)."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the correct way to write this fraction.",
+        options: [
+          "Three fourths",
+          "Three/fourths",
+          "Three-fourths",
+          "Three (fourths)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which mark is used to show a sudden break or interruption in a thought?",
+        options: [
+          "Hyphen",
+          "Bracket",
+          "Dash",
+          "Full stop"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The headteacher was furious when he saw the broken window; he was so angry his face turned red.",
+        options: [
+          "Happy",
+          "Calm",
+          "Angry",
+          "Tired"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The football match was postponed until next week because the pitch was flooded with rain.",
+        options: [
+          "Started early",
+          "Cancelled forever",
+          "Delayed to a later time",
+          "Played in the rain"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The path was perilous, but the road was safe for the students to walk on.",
+        options: [
+          "Beautiful",
+          "Dangerous",
+          "Short",
+          "Wide"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Esi is a very cautious driver; she is always careful to look both ways at the junction.",
+        options: [
+          "Fast",
+          "Careful",
+          "Reckless",
+          "Brave"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The gold miners in Obuasi provide a lot of ________ for the country.",
+        options: [
+          "labor",
+          "laber",
+          "labour",
+          "labuor"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Kojo was ________ to Accra when his bus broke down.",
+        options: [
+          "traveling",
+          "travelling",
+          "travelin",
+          "traweling"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. I did not ________ that the bank was closed on Saturdays.",
+        options: [
+          "realise",
+          "realize",
+          "relise",
+          "realizee"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The ________ of the cloth was a beautiful Kente pattern.",
+        options: [
+          "centar",
+          "center",
+          "centre",
+          "sentre"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
 
 ///Religious & Moral Education
 final IndependentPracticeModel RMEs1ss1Lesson1IndependentQuizData =
