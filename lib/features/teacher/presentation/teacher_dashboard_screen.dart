@@ -490,7 +490,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
             }).toList();
           },
           touchTooltipData: LineTouchTooltipData(
-            getTooltipColor: (_) => Colors.white.withValues(alpha: 0.95),
+            getTooltipColor: (_) => Colors.white.withOpacity(0.95),
             tooltipPadding: const EdgeInsets.symmetric(
               horizontal: 16,
               vertical: 12,
