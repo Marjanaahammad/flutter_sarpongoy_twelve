@@ -119,11 +119,11 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                             fit: BoxFit.cover,
                             errorBuilder: (context, error, stackTrace) =>
                                 Image.asset(
-                                  'assets/images/avatarIcon.png',
-                                  height: 44,
-                                  width: 44,
-                                  fit: BoxFit.cover,
-                                ),
+                              'assets/images/avatarIcon.png',
+                              height: 44,
+                              width: 44,
+                              fit: BoxFit.cover,
+                            ),
                           )
                         : Image.asset(
                             'assets/images/avatarIcon.png',
@@ -348,8 +348,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
       var completed = 0.0;
       for (final monthTrend in trend) {
-        final isSameMonth =
-            monthTrend.monthNumber == monthNumber ||
+        final isSameMonth = monthTrend.monthNumber == monthNumber ||
             monthTrend.month == monthName;
         if (!isSameMonth) continue;
 
@@ -623,8 +622,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                  const Color(0xFF1B7A3D).withValues(alpha: 0.8),
-                  const Color(0xFF1B7A3D).withValues(alpha: 0.0),
+                  const Color(0xFF1B7A3D).withOpacity(0.8),
+                  const Color(0xFF1B7A3D).withOpacity(0.0),
                 ],
                 stops: const [0.0, 1.0],
               ),
@@ -883,8 +882,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
         values[4] = total;
       else if (day.startsWith('fri'))
         values[5] = total;
-      else if (day.startsWith('sat'))
-        values[6] = total;
+      else if (day.startsWith('sat')) values[6] = total;
     }
 
     return List.generate(7, (i) {
