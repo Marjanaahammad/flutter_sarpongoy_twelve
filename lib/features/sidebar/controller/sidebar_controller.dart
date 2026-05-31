@@ -17,6 +17,8 @@ class SidebarController extends GetxController {
   Rxn<Course> selectedCourse = Rxn<Course>();
   RxInt selectedStrandIndex = 0.obs;
   RxString selectedGrade = "JHS 1".obs;
+  final RxString selectedTotalCompletionGrade = "All".obs;
+  final RxString selectedChartGrade = "All".obs;
   RxString strandSearchText = "".obs;
   final TextEditingController strandSearchController = TextEditingController();
   final RxString selectedWeeklyWorkFilter = "Weekly".obs;
@@ -26,23 +28,55 @@ class SidebarController extends GetxController {
 
   final RxDouble globalTotalCompletion = 0.0.obs;
   final RxMap<String, double> globalSubjectProgress = <String, double>{}.obs;
+  final RxMap<String, double> gradeTotalCompletion = <String, double>{
+    "JHS 1": 0.0,
+    "JHS 2": 0.0,
+    "JHS 3": 0.0,
+  }.obs;
 
-  double get totalCompletion => globalTotalCompletion.value;
+  double get totalCompletion {
+    final grade = selectedTotalCompletionGrade.value;
+    if (grade == "All") {
+      return globalTotalCompletion.value;
+    }
+    return gradeTotalCompletion[grade] ?? 0.0;
+  }
 
   double getSubjectProgress(String title) {
-    final course = courses.firstWhereOrNull((c) => c.title == title);
-    if (course == null) return 0.0;
+    final grade = selectedChartGrade.value;
+    if (grade == "All") {
+      return globalSubjectProgress[title] ?? 0.0;
+    }
 
+    final strands = _generateDummyStrands(title, grade);
     int totalLessons = 0;
     int completedLessons = 0;
-    for (var strand in course.strands) {
+
+    for (var strand in strands) {
       for (var subStrand in strand.subStrands) {
-        totalLessons += subStrand.lessons.length;
-        completedLessons += subStrand.lessons
-            .where((l) => l.isCompleted)
-            .length;
+        for (var lesson in subStrand.lessons) {
+          totalLessons++;
+
+          final String normalizedTopic = lesson.topic.trim().toLowerCase();
+          final lessonProgress = globalProgressCache
+              .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
+              .toList();
+
+          final hasGetReady = lessonProgress.any((p) => p.activityType.toLowerCase() == 'get_ready');
+          final hasLearn = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'learn' &&
+              p.subActivity == 'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
+          final hasPractice = lessonProgress.any((p) => p.activityType.toLowerCase() == 'guided_practice');
+          final hasIndependent = lessonProgress.any((p) => p.activityType.toLowerCase() == 'independent');
+          final hasQuiz = lessonProgress.any((p) => p.activityType.toLowerCase() == 'quiz');
+
+          if (hasGetReady && hasLearn && hasPractice && hasIndependent && hasQuiz) {
+            completedLessons++;
+          }
+        }
       }
     }
+
     if (totalLessons == 0) return 0.0;
     return completedLessons / totalLessons;
   }
@@ -66,6 +100,11 @@ class SidebarController extends GetxController {
   }
 
   Future<void> calculateGlobalProgress() async {
+    // If cache is empty, refresh it first
+    if (globalProgressCache.isEmpty) {
+      await refreshGlobalProgressCache();
+    }
+
     final grades = ["JHS 1", "JHS 2", "JHS 3"];
     final courseTitles = [
       "English",
@@ -77,11 +116,22 @@ class SidebarController extends GetxController {
 
     int overallTotalLessons = 0;
     int overallCompletedLessons = 0;
-    Map<String, int> subjectTotalLessons = {};
-    Map<String, int> subjectCompletedLessons = {};
+
+    // Per-grade total completion trackers
+    Map<String, int> gradeTotalLessons = {};
+    Map<String, int> gradeCompletedLessons = {};
+
+    // Per-grade per-subject trackers for averaging
+    // Key: "$grade|$title"
+    Map<String, int> gradeSubjectTotal = {};
+    Map<String, int> gradeSubjectCompleted = {};
 
     for (var grade in grades) {
+      gradeTotalLessons[grade] = 0;
+      gradeCompletedLessons[grade] = 0;
+
       for (var title in courseTitles) {
+        final key = "$grade|$title";
         final strands = _generateDummyStrands(title, grade);
         int courseTotal = 0;
         int courseCompleted = 0;
@@ -90,19 +140,22 @@ class SidebarController extends GetxController {
           for (var subStrand in strand.subStrands) {
             for (var lesson in subStrand.lessons) {
               courseTotal++;
-              // Simplified check: if independent or quiz progress exists
-              final independent = await _progressRepo.getSpecificProgress(
-                lesson.topic,
-                'independent',
-                'final_score',
-              );
-              final quiz = await _progressRepo.getSpecificProgress(
-                lesson.topic,
-                'quiz',
-                'final_score',
-              );
 
-              if (independent != null || quiz != null) {
+              // Use globalProgressCache to check completeness synchronously
+              final String normalizedTopic = lesson.topic.trim().toLowerCase();
+              final lessonProgress = globalProgressCache
+                  .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
+                  .toList();
+
+              final hasGetReady = lessonProgress.any((p) => p.activityType.toLowerCase() == 'get_ready');
+              final hasLearn = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'learn' &&
+                  p.subActivity == 'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
+              final hasPractice = lessonProgress.any((p) => p.activityType.toLowerCase() == 'guided_practice');
+              final hasIndependent = lessonProgress.any((p) => p.activityType.toLowerCase() == 'independent');
+              final hasQuiz = lessonProgress.any((p) => p.activityType.toLowerCase() == 'quiz');
+
+              if (hasGetReady && hasLearn && hasPractice && hasIndependent && hasQuiz) {
                 courseCompleted++;
               }
             }
@@ -112,25 +165,38 @@ class SidebarController extends GetxController {
         overallTotalLessons += courseTotal;
         overallCompletedLessons += courseCompleted;
 
-        subjectTotalLessons[title] =
-            (subjectTotalLessons[title] ?? 0) + courseTotal;
-        subjectCompletedLessons[title] =
-            (subjectCompletedLessons[title] ?? 0) + courseCompleted;
+        gradeTotalLessons[grade] = (gradeTotalLessons[grade] ?? 0) + courseTotal;
+        gradeCompletedLessons[grade] = (gradeCompletedLessons[grade] ?? 0) + courseCompleted;
+
+        gradeSubjectTotal[key] = courseTotal;
+        gradeSubjectCompleted[key] = courseCompleted;
       }
     }
 
-    if (overallTotalLessons > 0) {
-      globalTotalCompletion.value =
-          overallCompletedLessons / overallTotalLessons;
-    } else {
-      globalTotalCompletion.value = 0.0;
+    for (var grade in grades) {
+      final total = gradeTotalLessons[grade] ?? 0;
+      final completed = gradeCompletedLessons[grade] ?? 0;
+      gradeTotalCompletion[grade] = total > 0 ? completed / total : 0.0;
     }
 
-    courseTitles.forEach((title) {
-      final total = subjectTotalLessons[title] ?? 0;
-      final completed = subjectCompletedLessons[title] ?? 0;
-      globalSubjectProgress[title] = total > 0 ? completed / total : 0.0;
-    });
+    // "All" = average of the three grade completion percentages
+    double sum = 0.0;
+    for (var grade in grades) {
+      sum += gradeTotalCompletion[grade] ?? 0.0;
+    }
+    globalTotalCompletion.value = sum / grades.length;
+
+    // "All" subject progress = average of the three grade-level percentages per subject
+    for (var title in courseTitles) {
+      double subjectSum = 0.0;
+      for (var grade in grades) {
+        final key = "$grade|$title";
+        final total = gradeSubjectTotal[key] ?? 0;
+        final completed = gradeSubjectCompleted[key] ?? 0;
+        subjectSum += total > 0 ? completed / total : 0.0;
+      }
+      globalSubjectProgress[title] = subjectSum / grades.length;
+    }
   }
 
   final _progressRepo = Get.find<ProgressRepository>();
@@ -219,6 +285,9 @@ class SidebarController extends GetxController {
     // Build a complete updated list of courses to update RxList once at the end
     final List<Course> updatedAllCourses = [];
 
+    // Make sure cache is refreshed first
+    await refreshGlobalProgressCache();
+
     for (var course in courses) {
       final List<Strand> updatedStrands = [];
 
@@ -232,10 +301,10 @@ class SidebarController extends GetxController {
             // Trim topic for robust database matching
             final String normalizedTopic = lesson.topic.trim();
 
-            // Fetch all progress for this lesson to avoid multiple queries
-            final lessonProgress = await _progressRepo.getLessonProgress(
-              normalizedTopic,
-            );
+            // Fetch all progress for this lesson from cache to avoid multiple queries
+            final lessonProgress = globalProgressCache
+                .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic.toLowerCase())
+                .toList();
 
             // Filter for each activity type (case-insensitive check for safety)
             final getReadyProgress = lessonProgress
@@ -392,9 +461,7 @@ class SidebarController extends GetxController {
       }
     }
     courses.refresh();
-    courses.refresh();
-    calculateGlobalProgress();
-    refreshGlobalProgressCache();
+    await calculateGlobalProgress();
   }
 
   Future<void> refreshGlobalProgressCache() async {

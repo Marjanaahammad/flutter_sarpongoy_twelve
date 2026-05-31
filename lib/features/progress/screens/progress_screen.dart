@@ -170,11 +170,70 @@ class _ProgressScreenState extends State<ProgressScreen> {
                     ),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
-                        horizontal: 50.5,
-                        vertical: 39,
+                        horizontal: 30.5,
+                        vertical: 25,
                       ),
                       child: Column(
                         children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFFF3F8E2),
+                                  borderRadius: BorderRadius.circular(8),
+                                  border: Border.all(
+                                    width: 1,
+                                    color: const Color(0xFF19975E),
+                                  ),
+                                ),
+                                child: DropdownButtonHideUnderline(
+                                  child: DropdownButton<String>(
+                                    dropdownColor: Colors.white,
+                                    value: sidebarController
+                                        .selectedTotalCompletionGrade
+                                        .value,
+                                    icon: const Icon(
+                                      Icons.arrow_drop_down,
+                                      color: Colors.black,
+                                    ),
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.black,
+                                      fontSize: 16,
+                                    ),
+                                    onChanged: (String? newValue) {
+                                      if (newValue != null) {
+                                        sidebarController
+                                            .selectedTotalCompletionGrade
+                                            .value =
+                                            newValue;
+                                      }
+                                    },
+                                    items:
+                                    <String>[
+                                      'All',
+                                      'JHS 1',
+                                      'JHS 2',
+                                      'JHS 3',
+
+                                    ].map<DropdownMenuItem<String>>((
+                                        String value,
+                                        ) {
+                                      return DropdownMenuItem<String>(
+                                        value: value,
+                                        child: Text(value),
+                                      );
+                                    }).toList(),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 10,),
                           Row(
                             children: [
                               const Text(
@@ -260,7 +319,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                       child: DropdownButton<String>(
                                         dropdownColor: Colors.white,
                                         value: sidebarController
-                                            .selectedGrade
+                                            .selectedChartGrade
                                             .value,
                                         icon: const Icon(
                                           Icons.arrow_drop_down,
@@ -274,16 +333,18 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                         onChanged: (String? newValue) {
                                           if (newValue != null) {
                                             sidebarController
-                                                    .selectedGrade
-                                                    .value =
+                                                .selectedChartGrade
+                                                .value =
                                                 newValue;
                                           }
                                         },
                                         items:
                                             <String>[
+                                              'All',
                                               'JHS 1',
                                               'JHS 2',
                                               'JHS 3',
+
                                             ].map<DropdownMenuItem<String>>((
                                               String value,
                                             ) {
@@ -605,7 +666,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                               Expanded(
                                 flex: 2,
                                 child: Text(
-                                  'Strand',
+                                  'Completed Strands',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
@@ -857,10 +918,15 @@ class _ProgressScreenState extends State<ProgressScreen> {
   ) {
     return GestureDetector(
       onTap: () {
+        final sidebarController = Get.find<SidebarController>();
+        final targetGrade = grade == "All" ? "JHS 1" : grade;
+        if (grade == "All") {
+          sidebarController.selectedGrade.value = "JHS 1";
+        }
         Get.to(
           () => SubjectDetailsScreen(
             subjectTitle: subject,
-            gradeLevel: grade,
+            gradeLevel: targetGrade,
             course: course,
             subjectColor: color,
           ),
