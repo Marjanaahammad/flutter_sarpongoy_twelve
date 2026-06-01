@@ -21,7 +21,7 @@ class SidebarController extends GetxController {
   final RxString selectedChartGrade = "All".obs;
   RxString strandSearchText = "".obs;
   final TextEditingController strandSearchController = TextEditingController();
-  final RxString selectedWeeklyWorkFilter = "Weekly".obs;
+  final RxString selectedWeeklyWorkFilter = "Today".obs;
   final RxMap<String, String> selectedActivityStatsFilters =
       <String, String>{}.obs;
   final RxList<ActivityProgress> globalProgressCache = <ActivityProgress>[].obs;
@@ -225,7 +225,7 @@ class SidebarController extends GetxController {
       "Social Studies",
       "Religious & Moral Education",
     ]) {
-      selectedActivityStatsFilters[title] = "Past 1 Week";
+      selectedActivityStatsFilters[title] = "Today";
     }
   }
 
@@ -480,13 +480,28 @@ class SidebarController extends GetxController {
       case "Today":
         startTime = DateTime(now.year, now.month, now.day);
         break;
-      case "Monthly":
-        startTime = DateTime(now.year, now.month, 1);
+      case "Past 1 week":
+        startTime = now.subtract(const Duration(days: 7));
+        startTime = DateTime(startTime.year, startTime.month, startTime.day);
         break;
-      case "Weekly":
+      case "Past 1 Month":
+        startTime = now.subtract(const Duration(days: 30));
+        startTime = DateTime(startTime.year, startTime.month, startTime.day);
+        break;
+      case "Past 3 Months":
+        startTime = now.subtract(const Duration(days: 90));
+        startTime = DateTime(startTime.year, startTime.month, startTime.day);
+        break;
+      case "Past 6 Months":
+        startTime = now.subtract(const Duration(days: 180));
+        startTime = DateTime(startTime.year, startTime.month, startTime.day);
+        break;
+      case "Past 1 Year":
+        startTime = now.subtract(const Duration(days: 365));
+        startTime = DateTime(startTime.year, startTime.month, startTime.day);
+        break;
       default:
-        // Ghana week usually starts on Monday or Sunday. Let's use 7 days ago for simplicity or current week start.
-        startTime = now.subtract(Duration(days: now.weekday - 1));
+        startTime = now.subtract(const Duration(days: 7));
         startTime = DateTime(startTime.year, startTime.month, startTime.day);
         break;
     }
@@ -578,25 +593,36 @@ class SidebarController extends GetxController {
     DateTime startTime;
     int daysInPeriod = 7;
 
-    final filter = selectedActivityStatsFilters[title] ?? "Past 1 Week";
+    final filter = selectedActivityStatsFilters[title] ?? "Today";
 
     switch (filter) {
+      case "Today":
+        startTime = DateTime(now.year, now.month, now.day);
+        daysInPeriod = 1;
+        break;
+      case "Past 1 week":
+        startTime = now.subtract(const Duration(days: 7));
+        daysInPeriod = 7;
+        break;
       case "Past 1 Month":
         startTime = now.subtract(const Duration(days: 30));
         daysInPeriod = 30;
         break;
-      case "Past 3 Month":
+      case "Past 3 Months":
         startTime = now.subtract(const Duration(days: 90));
         daysInPeriod = 90;
         break;
-      case "past 1 year":
+      case "Past 6 Months":
+        startTime = now.subtract(const Duration(days: 180));
+        daysInPeriod = 180;
+        break;
+      case "Past 1 Year":
         startTime = now.subtract(const Duration(days: 365));
         daysInPeriod = 365;
         break;
-      case "Past 1 Week":
       default:
-        startTime = now.subtract(const Duration(days: 7));
-        daysInPeriod = 7;
+        startTime = DateTime(now.year, now.month, now.day);
+        daysInPeriod = 1;
         break;
     }
     startTime = DateTime(startTime.year, startTime.month, startTime.day);

@@ -344,7 +344,6 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                               'JHS 1',
                                               'JHS 2',
                                               'JHS 3',
-
                                             ].map<DropdownMenuItem<String>>((
                                               String value,
                                             ) {
@@ -621,8 +620,11 @@ class _ProgressScreenState extends State<ProgressScreen> {
                                     items:
                                         <String>[
                                           'Today',
-                                          'Weekly',
-                                          'Monthly',
+                                          'Past 1 week',
+                                          'Past 1 Month',
+                                          'Past 3 Months',
+                                          'Past 6 Months',
+                                          'Past 1 Year',
                                         ].map<DropdownMenuItem<String>>((
                                           String value,
                                         ) {
@@ -638,10 +640,10 @@ class _ProgressScreenState extends State<ProgressScreen> {
                           ],
                         ),
                         const SizedBox(height: 32),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                        const Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 8.0),
                           child: Row(
-                            children: const [
+                            children: [
                               Expanded(
                                 flex: 2,
                                 child: Text(
@@ -1079,7 +1081,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                       value:
                           sidebarController.selectedActivityStatsFilters[course
                               .title] ??
-                          "Past 1 Week",
+                          "Today",
                       icon: const Icon(
                         Icons.arrow_drop_down,
                         color: Colors.black,
@@ -1098,10 +1100,12 @@ class _ProgressScreenState extends State<ProgressScreen> {
                       },
                       items:
                           <String>[
-                            'Past 1 Week',
+                            'Today',
+                            'Past 1 week',
                             'Past 1 Month',
-                            'Past 3 Month',
-                            'past 1 year',
+                            'Past 3 Months',
+                            'Past 6 Months',
+                            'Past 1 Year',
                           ].map<DropdownMenuItem<String>>((String value) {
                             return DropdownMenuItem<String>(
                               value: value,
