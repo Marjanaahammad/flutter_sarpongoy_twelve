@@ -25,7 +25,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   late final TeacherDashboardController _dashboardController;
   late final TeacherProfileController _profileController;
 
-  String _selectedPeriod = 'Today';
+  String _selectedPeriod = 'All';
   String? _selectedSubjectName;
 
   @override
@@ -127,26 +127,16 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                   ),
                   const SizedBox(width: 16),
                   ClipOval(
-                    child: teacher?.picture?.url != null
+                    child: (teacher?.picture?.url ?? '').isNotEmpty
                         ? Image.network(
                             teacher!.picture!.url!,
                             height: 44,
                             width: 44,
                             fit: BoxFit.cover,
                             errorBuilder: (context, error, stackTrace) =>
-                                Image.asset(
-                                  'assets/images/avatarIcon.png',
-                                  height: 44,
-                                  width: 44,
-                                  fit: BoxFit.cover,
-                                ),
+                                _buildFallbackAvatar(44, 24),
                           )
-                        : Image.asset(
-                            'assets/images/avatarIcon.png',
-                            height: 44,
-                            width: 44,
-                            fit: BoxFit.cover,
-                          ),
+                        : _buildFallbackAvatar(44, 24),
                   ),
                 ],
               );
@@ -167,6 +157,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               IconButton(
                 icon: const Icon(Icons.arrow_back),
                 onPressed: widget.onBack,
+                color: Colors.black,
               ),
             const Text(
               'Student Details',
@@ -238,20 +229,15 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 child: Container(
                   width: 120,
                   height: 120,
-                  color: Colors.grey[300],
-                  child: student?.picture?.url != null
+                  color: const Color(0xFFF0F0F0),
+                  child: (student?.picture?.url ?? '').isNotEmpty
                       ? Image.network(
                           student!.picture!.url!,
                           fit: BoxFit.cover,
                           errorBuilder: (context, error, stackTrace) =>
-                              const Icon(Icons.person, size: 40),
+                              _buildFallbackAvatar(120, 60),
                         )
-                      : Image.asset(
-                          'assets/images/avatarIcon.png',
-                          fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) =>
-                              const Icon(Icons.person, size: 40),
-                        ),
+                      : _buildFallbackAvatar(120, 60),
                 ),
               ),
               const SizedBox(width: 16),
@@ -463,7 +449,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               const SizedBox(width: 12),
               _buildStatBox(
                 'Avg. Daily Hours',
-                '${subjectOverview?.avgDailyHours ?? 0}/24',
+                '${subjectOverview?.avgDailyHours ?? 0.0}',
                 const Color(0xFFFFE8E8),
               ),
               const SizedBox(width: 12),
@@ -859,7 +845,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text(
-              'Recent Work',
+              'Recent Activity',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
             ),
             PopupMenuButton<String>(
@@ -869,7 +855,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                   _selectedPeriod = value;
                 });
               },
-              itemBuilder: (context) => ['Today', 'Weekly', 'Monthly']
+              itemBuilder: (context) => ['English', 'Math', 'Science', 'Social Studies', 'Religious and Moral Education', "All"]
                   .map(
                     (option) => PopupMenuItem<String>(
                       value: option,
@@ -985,8 +971,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   }
 
   Widget _buildTableHeader() {
-    return Row(
-      children: const [
+    return const Row(
+      children: [
         Expanded(
           flex: 2,
           child: Text(
@@ -1001,7 +987,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 3,
           child: Text(
-            "Practice",
+            "Practice Score",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1012,7 +998,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 2,
           child: Text(
-            "Quiz",
+            "Quiz Score",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1020,21 +1006,21 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             ),
           ),
         ),
+        // Expanded(
+        //   flex: 3,
+        //   child: Text(
+        //     "Practice Original Score",
+        //     style: TextStyle(
+        //       fontWeight: FontWeight.w700,
+        //       fontSize: 12,
+        //       color: Color(0xFF000000),
+        //     ),
+        //   ),
+        // ),
         Expanded(
           flex: 3,
           child: Text(
-            "Practice Original Score",
-            style: TextStyle(
-              fontWeight: FontWeight.w700,
-              fontSize: 12,
-              color: Color(0xFF000000),
-            ),
-          ),
-        ),
-        Expanded(
-          flex: 3,
-          child: Text(
-            "Quiz Original\nScore",
+            "Lesson",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1045,7 +1031,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 2,
           child: Text(
-            "Lowest Quiz Score",
+            "Date",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1124,17 +1110,17 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               ),
             ),
           ),
-          Expanded(
-            flex: 3,
-            child: Text(
-              practiceOriginal,
-              style: const TextStyle(
-                fontWeight: FontWeight.w400,
-                fontSize: 12,
-                color: Color(0xFF000000), // Black
-              ),
-            ),
-          ),
+          // Expanded(
+          //   flex: 3,
+          //   child: Text(
+          //     practiceOriginal,
+          //     style: const TextStyle(
+          //       fontWeight: FontWeight.w400,
+          //       fontSize: 12,
+          //       color: Color(0xFF000000), // Black
+          //     ),
+          //   ),
+          // ),
           Expanded(
             flex: 3,
             child: Text(
@@ -1173,10 +1159,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       maintainSize: true,
       maintainAnimation: true,
       maintainState: true,
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.end,
-        children: const [
+        children: [
           Text('100%', style: TextStyle(fontSize: 12)),
           Text('75%', style: TextStyle(fontSize: 12)),
           Text('50%', style: TextStyle(fontSize: 12)),
@@ -1431,7 +1417,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   ) {
     return Column(
       children: [
-        Expanded(
+        const Expanded(
           child: Stack(
             alignment: Alignment.bottomCenter,
             children: [
@@ -1489,6 +1475,20 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildFallbackAvatar(double size, double iconSize) {
+    return Container(
+      height: size,
+      width: size,
+      alignment: Alignment.center,
+      color: const Color(0xFF019E2E).withOpacity(0.1),
+      child: Icon(
+        Icons.person,
+        color: const Color(0xFF019E2E),
+        size: iconSize,
+      ),
     );
   }
 }

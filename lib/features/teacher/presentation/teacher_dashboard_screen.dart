@@ -25,7 +25,19 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   static const _green = Color(0xFF019E2E);
   static const _cardBorder = Color(0xFFE0E0E0);
 
+  static const List<String> _gradeLevels = ['All', 'JHS1', 'JHS2', 'JHS3'];
+  static const List<String> _timePeriods = [
+    'Today',
+    'Past Week',
+    'Past 1 Month',
+    'Past 3 Months',
+    'Past 6 Months',
+    'Past Year',
+  ];
+
   final RxString _selectedSubject = 'English'.obs;
+  final RxString _selectedGradeLevel = 'All'.obs;
+  final RxString _selectedTimePeriod = 'Past Year'.obs;
 
   @override
   void initState() {
@@ -37,7 +49,11 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     if (_profileController.userInfo.value == null) {
       _profileController.fetchProfile();
     }
-    _dashboardController.fetchDashboard();
+    _dashboardController.fetchDashboard(
+      subject: 'English',
+      gradeLevel: 'All',
+      timePeriod: 'Past Year',
+    );
   }
 
   @override
@@ -55,6 +71,15 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 return const Center(
                   child: CircularProgressIndicator(color: _green),
                 );
+              }
+              if (_selectedGradeLevel.value.isEmpty) {
+                _selectedGradeLevel.value = data.filters?.gradeLevel ?? 'All';
+              }
+              if (_selectedTimePeriod.value.isEmpty) {
+                _selectedTimePeriod.value = data.filters?.timePeriod ?? 'Today';
+              }
+              if (_selectedSubject.value.isEmpty) {
+                _selectedSubject.value = data.filters?.subject ?? 'English';
               }
               return SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(
@@ -111,26 +136,15 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                   ),
                   const SizedBox(width: 16),
                   ClipOval(
-                    child: teacher?.picture?.url != null
+                    child: (teacher?.name ?? '').isNotEmpty && (teacher?.picture?.url ?? '').isNotEmpty
                         ? Image.network(
-                            teacher!.picture!.url!,
+                            teacher?.picture?.url ?? '',
                             height: 44,
                             width: 44,
                             fit: BoxFit.cover,
-                            errorBuilder: (context, error, stackTrace) =>
-                                Image.asset(
-                              'assets/images/avatarIcon.png',
-                              height: 44,
-                              width: 44,
-                              fit: BoxFit.cover,
-                            ),
+                            errorBuilder: (_, __, ___) => _buildFallbackAvatar(),
                           )
-                        : Image.asset(
-                            'assets/images/avatarIcon.png',
-                            height: 44,
-                            width: 44,
-                            fit: BoxFit.cover,
-                          ),
+                        : _buildFallbackAvatar(),
                   ),
                 ],
               );
@@ -152,31 +166,27 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
           child: _StatCard(
             title: 'Total Students',
             value: (counters?.totalStudents ?? 0).toString(),
-            change: '+${counters?.totalStudentsGrowth ?? 0}%',
           ),
         ),
         const SizedBox(width: 16),
         Expanded(
           child: _StatCard(
-            title: 'Total Subjects',
+            title: 'Total Hours',
             value: (counters?.totalSubjects ?? 0).toString(),
-            change: '+${counters?.totalSubjectsGrowth ?? 0}%',
           ),
         ),
         const SizedBox(width: 16),
         Expanded(
           child: _StatCard(
-            title: 'Lesson Completed',
+            title: 'Lessons Completed',
             value: (counters?.lessonCompleted ?? 0).toString(),
-            change: '+${counters?.lessonCompletedGrowth ?? 0}%',
           ),
         ),
         const SizedBox(width: 16),
         Expanded(
           child: _StatCard(
-            title: 'Quiz Completed',
+            title: 'Quizzes Completed',
             value: (counters?.quizCompleted ?? 0).toString(),
-            change: '+${counters?.quizCompletedGrowth ?? 0}%',
           ),
         ),
       ],
@@ -190,20 +200,22 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        const Text(
+          'Lessons Completion Overview',
+          style: TextStyle(
+            fontSize: 28,
+            fontWeight: FontWeight.w500,
+            color: Color(0xFF000000),
+          ),
+        ),
+        const SizedBox(height: 16),
         Row(
           children: [
-            Expanded(
-              child: Text(
-                'Subject completion Overview',
-                style: TextStyle(
-                  fontSize: 28, // Slightly reduced to fit more screens
-                  fontWeight: FontWeight.w500,
-                  color: Color(0xFF000000),
-                ),
-              ),
-            ),
-            const SizedBox(width: 8),
-            _buildDropdown(data),
+            Expanded(child: _buildTimePeriodSelector(data)),
+            const SizedBox(width: 12),
+            Expanded(child: _buildGradeLevelSelector(data)),
+            const SizedBox(width: 12),
+            Expanded(child: _buildDropdown(data)),
           ],
         ),
         const SizedBox(height: 16),
@@ -215,84 +227,191 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
             color: const Color(0xFFDCF8CD),
             borderRadius: BorderRadius.circular(8),
           ),
-          child: Obx(() => _buildAreaChart(data)),
+          child: _buildAreaChart(data),
         ),
       ],
     );
   }
 
-  Widget _buildDropdown(TeacherDashboardResponse data) {
-    final subjects = (data.charts?.subjectOverview ?? [])
-        .map((e) => e.subject ?? '')
-        .where((s) => s.isNotEmpty)
-        .toList();
+  String _mapSubjectName(String name) {
+    if (name.toLowerCase().contains('english')) return 'English';
+    if (name.toLowerCase().contains('science')) return 'Science';
+    if (name.toLowerCase().contains('math')) return 'Math';
+    if (name.toLowerCase().contains('social study') || name.toLowerCase().contains('social science')) return 'Social Studies';
+    if (name.toLowerCase().contains('rme') || name.toLowerCase().contains('religious')) return 'RME';
+    return name;
+  }
 
-    // Ensure the selected subject is valid or reset to the first one available
-    if (subjects.isNotEmpty && !subjects.contains(_selectedSubject.value)) {
-      Future.microtask(() => _selectedSubject.value = subjects.first);
+  Widget _buildFallbackAvatar() {
+    return Container(
+      height: 44,
+      width: 44,
+      color: const Color(0xFF019E2E).withOpacity(0.1),
+      child: const Icon(
+        Icons.person,
+        color: Color(0xFF019E2E),
+        size: 24,
+      ),
+    );
+  }
+
+  String _mapToApiSubject(String friendlyName) {
+    if (friendlyName == 'Social Science') return 'Social Studies';
+    if (friendlyName == 'Religious and Moral Studies') return 'RME';
+    return friendlyName;
+  }
+
+  Widget _buildDropdown(TeacherDashboardResponse data) {
+    final List<String> subjects = [
+      'English',
+      'Math',
+      'Social Science',
+      'Science',
+      ' Religious and Moral\nStudies',
+      'All'
+    ];
+
+    if (!subjects.contains(_selectedSubject.value)) {
+      if (_selectedSubject.value == 'RME') {
+        Future.microtask(
+            () => _selectedSubject.value = ' Religious and Moral Studies');
+      } else if (_selectedSubject.value == 'Social Studies') {
+        Future.microtask(() => _selectedSubject.value = 'Social Science');
+      } else if (_selectedSubject.value == 'Mathematics') {
+        Future.microtask(() => _selectedSubject.value = 'Math');
+      } else if (_selectedSubject.value.isEmpty) {
+        Future.microtask(() => _selectedSubject.value = 'English');
+      }
     }
 
-    return PopupMenuButton<String>(
-      onSelected: (String result) {
+    return _buildSelectionDropdown(
+      selectedValue: _selectedSubject,
+      items: subjects,
+      onSelected: (String result) async {
         _selectedSubject.value = result;
-        // You can also add logic here to filter the area chart data based on result
+        final apiSubject = _mapToApiSubject(result);
+        await _dashboardController.fetchDashboard(
+          gradeLevel: _selectedGradeLevel.value,
+          timePeriod: _selectedTimePeriod.value,
+          subject: apiSubject,
+        );
       },
-      position: PopupMenuPosition.under,
-      color: Color(0xFFF0F5E1), // Dark background for the popup menu
-      elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(4),
-        side: const BorderSide(color: Colors.grey, width: 1),
-      ),
-      offset: const Offset(0, 4), // Small gap below the button
-      padding: EdgeInsets.zero,
-      itemBuilder: (BuildContext context) {
-        return subjects.map((String choice) {
-          return PopupMenuItem<String>(
-            value: choice,
-            padding: EdgeInsets.zero,
-            height: 48,
-            child: Container(
-              width: 280, // slightly wider to accommodate padding
-              alignment: Alignment.center,
-              padding: const EdgeInsets.symmetric(vertical: 12),
-              margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(4),
-                border: Border.all(
-                  color: const Color(0xFF019E2E), // 👈 green border like image
-                  width: 1,
-                ),
-              ),
-              child: Text(
-                choice,
-                style: const TextStyle(
-                  color: Colors.black,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-            ),
-          );
-        }).toList();
+    );
+  }
+
+  Widget _buildTimePeriodSelector(TeacherDashboardResponse data) {
+    final periods = (data.filters?.timePeriods ?? []).isNotEmpty
+        ? data.filters!.timePeriods!
+        : _timePeriods;
+
+    if (periods.isNotEmpty && !periods.contains(_selectedTimePeriod.value)) {
+      Future.microtask(() => _selectedTimePeriod.value = periods.first);
+    }
+
+    return _buildSelectionDropdown(
+      selectedValue: _selectedTimePeriod,
+      items: periods,
+      onSelected: (String result) async {
+        _selectedTimePeriod.value = result;
+        await _dashboardController.fetchDashboard(
+          gradeLevel: _selectedGradeLevel.value,
+          timePeriod: result,
+          subject: _selectedSubject.value,
+        );
       },
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        decoration: BoxDecoration(
-          color: const Color(0xFF019E2E),
+    );
+  }
+
+  Widget _buildGradeLevelSelector(TeacherDashboardResponse data) {
+    final grades = (data.filters?.gradeLevels ?? []).isNotEmpty
+        ? data.filters!.gradeLevels!
+        : _gradeLevels;
+
+    if (grades.isNotEmpty && !grades.contains(_selectedGradeLevel.value)) {
+      Future.microtask(() => _selectedGradeLevel.value = grades.first);
+    }
+
+    return _buildSelectionDropdown(
+      selectedValue: _selectedGradeLevel,
+      items: grades,
+      onSelected: (String result) async {
+        _selectedGradeLevel.value = result;
+        await _dashboardController.fetchDashboard(
+          gradeLevel: result,
+          timePeriod: _selectedTimePeriod.value,
+          subject: _selectedSubject.value,
+        );
+      },
+    );
+  }
+
+  Widget _buildSelectionDropdown({
+    required RxString selectedValue,
+    required List<String> items,
+    required void Function(String) onSelected,
+  }) {
+    return Obx(
+      () => PopupMenuButton<String>(
+        onSelected: onSelected,
+        position: PopupMenuPosition.under,
+        color: const Color(0xFFF0F5E1),
+        elevation: 4,
+        shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(4),
+          side: const BorderSide(color: Colors.grey, width: 1),
         ),
-        child: Obx(
-          () => Row(
+        offset: const Offset(0, 4),
+        padding: EdgeInsets.zero,
+        itemBuilder: (BuildContext context) {
+          return items.map((String choice) {
+            return PopupMenuItem<String>(
+              value: choice,
+              padding: EdgeInsets.zero,
+              height: 48,
+              child: Container(
+                width: 220,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(4),
+                  border: Border.all(
+                    color: const Color(0xFF019E2E),
+                    width: 1,
+                  ),
+                ),
+                child: Text(
+                  choice,
+                  style: const TextStyle(
+                    color: Colors.black,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            );
+          }).toList();
+        },
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          decoration: BoxDecoration(
+            color: const Color(0xFF019E2E),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(
-                _selectedSubject.value,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
+              Flexible(
+                child: Text(
+                  selectedValue.value,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
               const SizedBox(width: 6),
@@ -309,327 +428,222 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   }
 
   Widget _buildAreaChart(TeacherDashboardResponse data) {
-    double transformValue(double value) {
-      if (value <= 0) return 0.0;
-      if (value <= 100) return value / 100.0;
-      if (value <= 500) return 1.0 + (value - 100) / 400.0;
-      if (value <= 1000) return 2.0 + (value - 500) / 500.0;
-      if (value <= 2000) return 3.0 + (value - 1000) / 1000.0;
-      if (value <= 3000) return 4.0 + (value - 2000) / 1000.0;
-      return 5.0 + (value - 3000) / 1000.0;
-    }
+    final overviews = data.charts?.subjectOverview ?? [];
 
-    double asDouble(dynamic value) {
-      if (value == null) return 0.0;
-      if (value is num) return value.toDouble();
-      return double.tryParse(value.toString()) ?? 0.0;
-    }
-
-    final trend = data.charts?.monthlyCompletionTrend ?? [];
-    final selectedSubjectKey = _selectedSubject.value;
-    const months = [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec',
+    // Map the API data into a standard 12-month calendar (0=Jan, 11=Dec)
+    final monthsData = List<double>.filled(12, 0.0);
+    final monthAverages = List<double>.filled(12, 0.0);
+    final monthLabels = [
+      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 
+      'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
     ];
 
-    final spots = List.generate(12, (index) {
-      final monthName = months[index];
-      final monthNumber = index + 1;
+    for (var item in overviews) {
+      final label = (item.label ?? '').trim().toLowerCase();
+      final key = (item.key ?? '').trim();
+      int? index;
 
-      var completed = 0.0;
-      for (final monthTrend in trend) {
-        final isSameMonth = monthTrend.monthNumber == monthNumber ||
-            monthTrend.month == monthName;
-        if (!isSameMonth) continue;
+      // 1. Try to find month name in label
+      if (label.contains('jan')) index = 0;
+      else if (label.contains('feb')) index = 1;
+      else if (label.contains('mar')) index = 2;
+      else if (label.contains('apr')) index = 3;
+      else if (label.contains('may')) index = 4;
+      else if (label.contains('jun')) index = 5;
+      else if (label.contains('jul')) index = 6;
+      else if (label.contains('aug')) index = 7;
+      else if (label.contains('sep')) index = 8;
+      else if (label.contains('oct')) index = 9;
+      else if (label.contains('nov')) index = 10;
+      else if (label.contains('dec')) index = 11;
 
-        if (monthTrend.subject == selectedSubjectKey) {
-          completed += asDouble(monthTrend.completed);
-        } else if (monthTrend.subjects != null) {
-          completed += asDouble(monthTrend.subjects![selectedSubjectKey]);
-        }
+      // 2. Try to parse the key date (YYYY-MM-DD or YYYY-MM)
+      if (index == null && key.isNotEmpty) {
+        try {
+          final parts = key.split('-');
+          if (parts.length >= 2) {
+            final monthStr = parts[1];
+            final month = int.tryParse(monthStr);
+            if (month != null && month >= 1 && month <= 12) {
+              index = month - 1;
+            }
+          }
+        } catch (_) {}
       }
 
-      return FlSpot(index.toDouble(), transformValue(completed));
-    });
+      if (index != null) {
+        // Capture value from 'total' OR 'completed' (backend fallback)
+        final val = (item.total?.toDouble() ?? 0.0) + 
+                    (item.toJson()['completed']?.toDouble() ?? 0.0);
+        monthsData[index] += val;
+        
+        final score = (item.avgQuizScore?.toDouble() ?? 0.0) +
+                      (item.toJson()['avgQuizScore']?.toDouble() ?? 0.0);
+        if (score > 0) monthAverages[index] = score;
+      }
+    }
 
-    return LineChart(
-      LineChartData(
-        minY: 0,
-        maxY: 5,
-        gridData: FlGridData(
-          show: true,
-          drawVerticalLine: true,
-          horizontalInterval: 1,
-          verticalInterval: 1,
-          getDrawingHorizontalLine: (_) => FlLine(
-            color: const Color(0xFFC6CDC3),
-            strokeWidth: 1,
-            dashArray: [8, 8],
+    final spots = List.generate(12, (i) => FlSpot(i.toDouble(), monthsData[i]));
+
+    // Specific Y-axis ticks requested: 0, 100, 500, 1000, 2000, 3000
+    const yTicks = [0.0, 100.0, 500.0, 1000.0, 2000.0, 3000.0];
+    const double maxY = 3000;
+
+    return Container(
+      decoration: BoxDecoration(
+        color: const Color(0xFFF1F8E9), // Light mint green background
+        borderRadius: BorderRadius.circular(4),
+      ),
+      padding: const EdgeInsets.only(top: 20, right: 20, left: 10, bottom: 10),
+      child: LineChart(
+        LineChartData(
+          minX: 0,
+          maxX: 11,
+          minY: 0,
+          maxY: maxY,
+          gridData: FlGridData(
+            show: true,
+            drawVerticalLine: true,
+            horizontalInterval: 1,
+            verticalInterval: 1,
+            checkToShowHorizontalLine: (value) => yTicks.contains(value),
+            getDrawingHorizontalLine: (_) => const FlLine(
+              color: Color(0xFFC5E1A5), // Light green dashed lines
+              strokeWidth: 1,
+              dashArray: [6, 4],
+            ),
+            getDrawingVerticalLine: (_) => const FlLine(
+              color: Color(0xFFC5E1A5),
+              strokeWidth: 1,
+              dashArray: [6, 4],
+            ),
           ),
-          getDrawingVerticalLine: (_) => FlLine(
-            color: const Color(0xFFC6CDC3),
-            strokeWidth: 1,
-            dashArray: [8, 8],
-          ),
-        ),
-        titlesData: FlTitlesData(
-          leftTitles: AxisTitles(
-            sideTitles: SideTitles(
-              showTitles: true,
-              reservedSize: 48,
-              interval: 1,
-              getTitlesWidget: (v, _) {
-                String label;
-                switch (v.toInt()) {
-                  case 0:
-                    label = '0';
-                    break;
-                  case 1:
-                    label = '100';
-                    break;
-                  case 2:
-                    label = '500';
-                    break;
-                  case 3:
-                    label = '1000';
-                    break;
-                  case 4:
-                    label = '2000';
-                    break;
-                  case 5:
-                    label = '3000';
-                    break;
-                  default:
-                    return const SizedBox.shrink();
-                }
-                return Padding(
-                  padding: const EdgeInsets.only(right: 8),
-                  child: Text(
-                    label,
+          titlesData: FlTitlesData(
+            leftTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                reservedSize: 40,
+                interval: 1,
+                getTitlesWidget: (value, _) {
+                  if (!yTicks.contains(value)) return const SizedBox.shrink();
+                  return Text(
+                    value.toInt().toString(),
+                    textAlign: TextAlign.right,
                     style: const TextStyle(
-                      fontSize: 15,
-                      color: Color(0xFF575757),
+                      fontSize: 12,
+                      color: Color(0xFF558B2F),
                       fontWeight: FontWeight.w400,
                     ),
-                  ),
-                );
-              },
-            ),
-          ),
-          bottomTitles: AxisTitles(
-            sideTitles: SideTitles(
-              showTitles: true,
-              interval: 1,
-              getTitlesWidget: (v, _) {
-                const months = [
-                  'Jan',
-                  'Feb',
-                  'Mar',
-                  'Apr',
-                  'May',
-                  'Jun',
-                  'Jul',
-                  'Aug',
-                  'Sep',
-                  'Oct',
-                  'Nov',
-                  'Dec',
-                ];
-                if (v.toInt() >= 0 && v.toInt() < months.length) {
-                  return Padding(
-                    padding: const EdgeInsets.only(top: 8),
-                    child: Text(
-                      months[v.toInt()],
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: Color(0xFF575757),
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
                   );
-                }
-                return const SizedBox.shrink();
-              },
-            ),
-          ),
-          topTitles: const AxisTitles(
-            sideTitles: SideTitles(showTitles: false),
-          ),
-          rightTitles: const AxisTitles(
-            sideTitles: SideTitles(showTitles: false),
-          ),
-        ),
-        borderData: FlBorderData(show: false),
-        lineTouchData: LineTouchData(
-          getTouchedSpotIndicator: (_, spots) {
-            return spots.map((_) {
-              return TouchedSpotIndicatorData(
-                const FlLine(color: Color(0xFF019E2E), strokeWidth: 1.5),
-                FlDotData(
-                  show: true,
-                  getDotPainter: (spot, percent, bar, index) {
-                    return FlDotCirclePainter(
-                      radius: 6,
-                      color: Colors.white,
-                      strokeWidth: 2.5,
-                      strokeColor: const Color(0xFF019E2E),
-                    );
-                  },
-                ),
-              );
-            }).toList();
-          },
-          touchTooltipData: LineTouchTooltipData(
-            getTooltipColor: (_) => Colors.white.withOpacity(0.95),
-            tooltipPadding: const EdgeInsets.symmetric(
-              horizontal: 16,
-              vertical: 12,
-            ),
-            tooltipBorder: const BorderSide(color: Color(0xFF019E2E), width: 1),
-            getTooltipItems: (spots) => spots.map((s) {
-              final monthIndex = s.x.toInt();
-              final monthName = months[monthIndex];
-
-              // Find if there's a milestone for this month
-              final milestone = data.charts?.milestone;
-              bool hasMilestone = false;
-              if (milestone?.date != null) {
-                try {
-                  final milestoneDate = DateTime.parse(milestone!.date!);
-                  final milestoneMonth = months[milestoneDate.month - 1];
-                  if (milestoneMonth == monthName) {
-                    hasMilestone = true;
-                  }
-                } catch (_) {}
-              }
-
-              const _purple = Color(0xFFA533F1);
-              const _textGreen = Color(0xFF019E2E);
-
-              if (hasMilestone) {
-                return LineTooltipItem(
-                  '             $monthName 2026\n',
-                  GoogleFonts.poppins(
-                    fontSize: 14,
-                    color: Colors.black87,
-                    fontWeight: FontWeight.w500,
-                  ),
-                  textAlign: TextAlign.left,
-                  children: [
-                    TextSpan(
-                      text: 'complete: ',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _textGreen,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    TextSpan(
-                      text: '${milestone?.strand} (${milestone?.subStrand})\n',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _purple,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    TextSpan(
-                      text: 'lesson: ',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _textGreen,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    TextSpan(
-                      text: '${milestone?.lesson}\n',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _purple,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    TextSpan(
-                      text: 'Progress: ',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _textGreen,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    TextSpan(
-                      text: '${(s.y * 100).toInt()}%',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _purple,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ],
-                );
-              } else {
-                return LineTooltipItem(
-                  '             $monthName 2026\n',
-                  GoogleFonts.poppins(
-                    fontSize: 14,
-                    color: Colors.black87,
-                    fontWeight: FontWeight.w500,
-                  ),
-                  textAlign: TextAlign.left,
-                  children: [
-                    TextSpan(
-                      text: 'Completion: ',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _textGreen,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    TextSpan(
-                      text: '${(s.y * 100).toInt()}%',
-                      style: GoogleFonts.poppins(
-                        fontSize: 12,
-                        color: _purple,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ],
-                );
-              }
-            }).toList(),
-          ),
-        ),
-        lineBarsData: [
-          LineChartBarData(
-            spots: spots,
-            isCurved: true,
-            curveSmoothness: 0.3,
-            color: const Color(0xFF1B7A3D),
-            barWidth: 3,
-            dotData: const FlDotData(show: false),
-            belowBarData: BarAreaData(
-              show: true,
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  const Color(0xFF1B7A3D).withOpacity(0.8),
-                  const Color(0xFF1B7A3D).withOpacity(0.0),
-                ],
-                stops: const [0.0, 1.0],
+                },
               ),
             ),
+            bottomTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                reservedSize: 24,
+                interval: 1,
+                getTitlesWidget: (value, _) {
+                  final index = value.toInt();
+                  if (index >= 0 && index < 12) {
+                    return Text(
+                      monthLabels[index],
+                      style: const TextStyle(
+                        fontSize: 11,
+                        color: Color(0xFF558B2F),
+                        fontWeight: FontWeight.w500,
+                      ),
+                    );
+                  }
+                  return const SizedBox.shrink();
+                },
+              ),
+            ),
+            topTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            rightTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
           ),
-        ],
+          borderData: FlBorderData(show: false),
+          lineTouchData: LineTouchData(
+            touchTooltipData: LineTouchTooltipData(
+              getTooltipColor: (_) => Colors.white.withOpacity(0.95),
+              tooltipBorder: const BorderSide(color: Color(0xFF2E7D32), width: 1),
+              tooltipPadding: const EdgeInsets.all(12),
+              getTooltipItems: (spots) => spots.map((s) {
+                final index = s.x.toInt();
+                final score = monthAverages[index];
+                return LineTooltipItem(
+                  '${monthLabels[index]} 2026\n',
+                  GoogleFonts.poppins(
+                    fontSize: 14,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  children: [
+                    TextSpan(
+                      text: 'complete: Strand 1\n',
+                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32), fontSize: 11),
+                    ),
+                    TextSpan(
+                      text: 'Total Lessons: ',
+                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32), fontWeight: FontWeight.bold),
+                    ),
+                    TextSpan(
+                      text: '${s.y.toInt()}\n',
+                      style: GoogleFonts.poppins(color: const Color(0xFF7B1FA2), fontWeight: FontWeight.bold),
+                    ),
+                    TextSpan(
+                      text: 'Quiz Score: ',
+                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32)),
+                    ),
+                    TextSpan(
+                      text: '${score.toStringAsFixed(1)}%',
+                      style: GoogleFonts.poppins(color: const Color(0xFF7B1FA2), fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                );
+              }).toList(),
+            ),
+            getTouchedSpotIndicator: (_, spots) {
+              return spots.map((_) {
+                return TouchedSpotIndicatorData(
+                  const FlLine(color: Color(0xFF1B5E20), strokeWidth: 2),
+                  FlDotData(
+                    show: true,
+                    getDotPainter: (spot, percent, bar, index) {
+                      return FlDotCirclePainter(
+                        radius: 5,
+                        color: Colors.white,
+                        strokeWidth: 2,
+                        strokeColor: const Color(0xFF1B5E20),
+                      );
+                    },
+                  ),
+                );
+              }).toList();
+            },
+          ),
+          lineBarsData: [
+            LineChartBarData(
+              spots: spots,
+              isCurved: true,
+              curveSmoothness: 0.35,
+              color: const Color(0xFF1B5E20),
+              barWidth: 3,
+              dotData: const FlDotData(show: false),
+              belowBarData: BarAreaData(
+                show: true,
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    const Color(0xFF1B5E20).withOpacity(0.5),
+                    const Color(0xFF1B5E20).withOpacity(0.0),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -650,7 +664,15 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
   // ── Donut chart ──
   Widget _buildDonutChartCard(TeacherDashboardResponse data) {
-    final subjects = data.charts?.subjectOverview ?? [];
+    // Use ONLY subjectMetrics from the API — no fallbacks.
+    final metrics = (data.charts?.subjectMetrics ?? [])
+        .map((m) => SubjectMetric(
+              subject: _mapSubjectName(m.subject ?? ''),
+              avgDailyHours: m.avgDailyHours ?? 0.0,
+              avgQuizScore: m.avgQuizScore ?? 0.0,
+            ))
+        .toList();
+
     final defaultColors = [
       const Color(0xFFA533F1),
       const Color(0xFF0061D7),
@@ -660,7 +682,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     ];
 
     return Container(
-      // height: 493,
       width: 388,
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
@@ -670,8 +691,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'Total Subject',
+          const Text(
+            'Subject Activity',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w500,
@@ -679,8 +700,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
             ),
           ),
           const SizedBox(height: 4),
-          Text(
-            'See which subject is enjoyable for students',
+          const Text(
+            'See where students are spending their time',
             style: TextStyle(
               fontSize: 16,
               color: Color(0xFF6C6C6C),
@@ -690,20 +711,19 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
           const SizedBox(height: 20),
           SizedBox(
             height: 242,
-            child: PieChart(
-              PieChartData(
-                centerSpaceRadius: 50,
-                sections: subjects.isEmpty
-                    ? [
-                        PieChartSectionData(
-                          value: 1,
-                          color: Colors.grey,
-                          radius: 45,
-                          showTitle: false,
-                        ),
-                      ]
-                    : List.generate(subjects.length, (i) {
-                        final val = (subjects[i].completed ?? 0).toDouble();
+            child: metrics.isEmpty
+                ? const Center(
+                    child: Text(
+                      'No subject activity data available',
+                      style: TextStyle(fontSize: 14, color: Colors.black54),
+                      textAlign: TextAlign.center,
+                    ),
+                  )
+                : PieChart(
+                    PieChartData(
+                      centerSpaceRadius: 50,
+                      sections: List.generate(metrics.length, (i) {
+                        final val = metrics[i].avgDailyHours ?? 0.0;
                         return PieChartSectionData(
                           value: val > 0 ? val : 1,
                           color: defaultColors[i % defaultColors.length],
@@ -711,31 +731,124 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                           showTitle: false,
                         );
                       }),
-              ),
+                    ),
+                  ),
+          ),
+          if (metrics.isNotEmpty) ...[
+            const SizedBox(height: 20),
+            Wrap(
+              spacing: 30.5,
+              runSpacing: 8,
+              children: List.generate(metrics.length, (i) {
+                return _LegendDot(
+                  color: defaultColors[i % defaultColors.length],
+                  label: metrics[i].subject ?? '',
+                );
+              }),
             ),
-          ),
-          const SizedBox(height: 20),
-          Wrap(
-            spacing: 30.5,
-            runSpacing: 8,
-            children: List.generate(subjects.length, (i) {
-              return _LegendDot(
-                color: defaultColors[i % defaultColors.length],
-                label: subjects[i].subject ?? '',
-              );
-            }),
-          ),
+          ],
         ],
       ),
     );
   }
 
   Widget _buildBarChartCard(TeacherDashboardResponse data) {
-    double maxVal = 100.0;
-    for (var w in data.charts?.weeklyStudents ?? []) {
-      final t = (w.total ?? 0).toDouble();
-      if (t > maxVal) maxVal = t;
+    // Use ONLY weeklyStudents from the API — no static day mapping, no mock values.
+    final weeklyStudents = data.charts?.weeklyStudents ?? [];
+
+    if (weeklyStudents.isEmpty) {
+      return Container(
+        height: 520,
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(color: const Color(0xFFFFFFFF), width: 2),
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: const Center(
+          child: Text(
+            'No weekly student data available',
+            style: TextStyle(fontSize: 14, color: Colors.black54),
+          ),
+        ),
+      );
     }
+
+    // Map each API weeklyStudent item to its day-of-week index.
+    // Sun=0, Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    final dayValues = List<double>.filled(7, 0.0);
+
+    for (var w in weeklyStudents) {
+      final label = w.label ?? '';
+      final dateStr = w.date ?? '';
+      final text = (label.isNotEmpty ? label : dateStr).toLowerCase();
+      int dayIndex = -1;
+
+      if (text.contains('sun'))
+        dayIndex = 0;
+      else if (text.contains('mon'))
+        dayIndex = 1;
+      else if (text.contains('tue'))
+        dayIndex = 2;
+      else if (text.contains('wed'))
+        dayIndex = 3;
+      else if (text.contains('thu'))
+        dayIndex = 4;
+      else if (text.contains('fri'))
+        dayIndex = 5;
+      else if (text.contains('sat')) dayIndex = 6;
+
+      // Fallback: try to parse as ISO date, use weekday
+      if (dayIndex == -1 && dateStr.isNotEmpty) {
+        try {
+          final parsed = DateTime.parse(dateStr);
+          // DateTime.weekday: 1=Mon ... 7=Sun → map to Sun=0..Sat=6
+          dayIndex = parsed.weekday % 7;
+        } catch (_) {}
+      }
+
+      if (dayIndex >= 0 && dayIndex < 7) {
+        // Use hours field if available (yielding "Average Student Hours"), fallback to total
+        dayValues[dayIndex] = (w.hours ?? (w.total ?? 0).toDouble());
+      }
+    }
+
+    double maxVal = 0;
+    for (final v in dayValues) {
+      if (v > maxVal) maxVal = v;
+    }
+    if (maxVal == 0) maxVal = 100;
+
+    final colors = [
+      const Color(0xFFFFC34D),
+      const Color(0xFF709FFF),
+      const Color(0xFF2ABD1D),
+      const Color(0xFFFF76CE),
+      const Color(0xFF9AD39E),
+      const Color(0xFF8979FF),
+      const Color(0xFFA41BFF),
+    ];
+
+    final barGroups = List.generate(7, (i) {
+      return BarChartGroupData(
+        x: i,
+        barRods: [
+          BarChartRodData(
+            toY: dayValues[i],
+            color: colors[i % colors.length],
+            width: 32,
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(8)),
+            backDrawRodData: BackgroundBarChartRodData(
+              show: true,
+              toY: maxVal,
+              color: Colors.grey.withOpacity(0.08),
+            ),
+          ),
+        ],
+      );
+    });
+
     return Container(
       height: 520,
       width: 692,
@@ -748,8 +861,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'Total Students',
+          const Text(
+            'Average Student Hours',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w500,
@@ -757,7 +870,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
             ),
           ),
           const SizedBox(height: 4),
-          Text(
+          const Text(
             'See your students per week',
             style: TextStyle(
               fontSize: 16,
@@ -775,8 +888,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 gridData: FlGridData(
                   show: true,
                   drawVerticalLine: false,
-                  horizontalInterval: 20,
-                  getDrawingHorizontalLine: (value) => FlLine(
+                  horizontalInterval: maxVal / 5,
+                  getDrawingHorizontalLine: (value) => const FlLine(
                     color: Color(0xFFD9D9DD),
                     strokeWidth: 1,
                     dashArray: [4, 4],
@@ -788,7 +901,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                     sideTitles: SideTitles(
                       showTitles: true,
                       reservedSize: 40,
-                      interval: 20,
+                      interval: maxVal / 5,
                       getTitlesWidget: (value, meta) {
                         return Padding(
                           padding: const EdgeInsets.only(right: 8),
@@ -796,7 +909,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                             value.toInt().toString(),
                             style: const TextStyle(
                               fontSize: 12,
-                              color: Color(0xFF000000), // 👈 All values black
+                              color: Color(0xFF000000),
                               fontWeight: FontWeight.w500,
                             ),
                           ),
@@ -809,23 +922,17 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                       showTitles: true,
                       reservedSize: 36,
                       getTitlesWidget: (value, meta) {
-                        const days = [
-                          'Sun',
-                          'Mon',
-                          'Tue',
-                          'Wed',
-                          'Thu',
-                          'Fri',
-                          'Sat',
-                        ];
-                        if (value.toInt() >= 0 && value.toInt() < days.length) {
+                        final index = value.toInt();
+                        if (index >= 0 && index < 7) {
                           return Padding(
                             padding: const EdgeInsets.only(top: 12),
                             child: Text(
-                              days[value.toInt()],
+                              days[index],
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                               style: TextStyle(
                                 fontSize: 12,
-                                color: Color(0xFF000000).withOpacity(0.7),
+                                color: const Color(0xFF000000).withOpacity(0.7),
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -843,7 +950,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                   ),
                 ),
                 borderData: FlBorderData(show: false),
-                barGroups: _buildBarGroups(data, maxVal),
+                barGroups: barGroups,
               ),
             ),
           ),
@@ -851,77 +958,22 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       ),
     );
   }
-
-  List<BarChartGroupData> _buildBarGroups(
-    TeacherDashboardResponse data,
-    double maxVal,
-  ) {
-    final colors = [
-      const Color(0xFFFFC34D), // Sun
-      const Color(0xFF709FFF), // Mon
-      const Color(0xFF2ABD1D), // Tue
-      const Color(0xFFFF76CE), // Wed
-      const Color(0xFF9AD39E), // Thu
-      const Color(0xFF8979FF), // Fri
-      const Color(0xFFA41BFF), // Sat
-    ];
-
-    final List<double> values = List.filled(7, 0.0);
-    for (var w in data.charts?.weeklyStudents ?? []) {
-      final day = (w.day ?? '').toLowerCase();
-      final total = (w.total ?? 0).toDouble();
-      if (day.startsWith('sun'))
-        values[0] = total;
-      else if (day.startsWith('mon'))
-        values[1] = total;
-      else if (day.startsWith('tue'))
-        values[2] = total;
-      else if (day.startsWith('wed'))
-        values[3] = total;
-      else if (day.startsWith('thu'))
-        values[4] = total;
-      else if (day.startsWith('fri'))
-        values[5] = total;
-      else if (day.startsWith('sat')) values[6] = total;
-    }
-
-    return List.generate(7, (i) {
-      return BarChartGroupData(
-        x: i,
-        barRods: [
-          BarChartRodData(
-            toY: values[i],
-            color: colors[i],
-            width: 32,
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(8)),
-            backDrawRodData: BackgroundBarChartRodData(
-              show: true,
-              toY: maxVal,
-              color: Colors.grey.withOpacity(0.08),
-            ),
-          ),
-        ],
-      );
-    });
-  }
 }
 
-// // ═══════════════════════════════════════════════════════════════
-// //  STAT CARD WIDGET
-// // ═══════════════════════════════════════════════════════════════
 class _StatCard extends StatelessWidget {
   final String title;
   final String value;
-  final String change;
+  final String? change;
 
   const _StatCard({
     required this.title,
     required this.value,
-    required this.change,
+    this.change,
   });
 
   @override
   Widget build(BuildContext context) {
+    final hasChange = change != null && change!.isNotEmpty;
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -954,21 +1006,23 @@ class _StatCard extends StatelessWidget {
                   color: Color(0xFF349801),
                 ),
               ),
-              const Spacer(),
-              Text(
-                change,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
+              if (hasChange) ...[
+                const Spacer(),
+                Text(
+                  change!,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFFCE7800),
+                  ),
+                ),
+                const SizedBox(width: 2),
+                const Icon(
+                  Icons.arrow_upward,
+                  size: 14,
                   color: Color(0xFFCE7800),
                 ),
-              ),
-              const SizedBox(width: 2),
-              const Icon(
-                Icons.arrow_upward,
-                size: 14,
-                color: Color(0xFFCE7800),
-              ),
+              ],
             ],
           ),
         ],
@@ -997,7 +1051,7 @@ class _LegendDot extends StatelessWidget {
         const SizedBox(width: 6),
         Text(
           label,
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 12.5,
             color: Color(0xFF000000),
             fontWeight: FontWeight.w500,
