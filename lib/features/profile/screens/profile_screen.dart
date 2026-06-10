@@ -7,6 +7,13 @@ import 'package:flutter_sarpongoy_twelve/features/profile/screens/privacy_policy
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/security_question_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/support__screen.dart';
 import 'package:get/get.dart';
+import 'package:flutter_sarpongoy_twelve/core/services/api_cache_service.dart';
+import 'package:flutter_sarpongoy_twelve/features/sidebar/controller/sidebar_controller.dart';
+import 'package:flutter_sarpongoy_twelve/core/database/database_service.dart';
+import 'package:flutter_sarpongoy_twelve/core/services/hive_storage_service.dart';
+import 'package:flutter_sarpongoy_twelve/core/services/request_queue_service.dart';
+import 'package:flutter_sarpongoy_twelve/core/config/debug_print.dart';
+
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -28,7 +35,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   Future<void> logout(String label) async {
+    // 1. Clear physical storage first
+    await DatabaseService.instance.clearAllData();
+    await HiveStorageService().clear();
+    await ApiCacheService().clearAllCache();
+    await RequestQueueService().clearQueue();
     await _authStorageService.clearAuthData();
+
+    // 2. Reset in-memory state
+    await _profileController.clearData();
+    if (Get.isRegistered<SidebarController>()) {
+      await Get.find<SidebarController>().clearData();
+    }
+
+    DPrint.log("Logout cleanup complete");
     Get.offAll(() => LoginAsScreen());
   }
 

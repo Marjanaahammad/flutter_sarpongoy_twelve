@@ -684,7 +684,7 @@ class StrandScreen extends StatelessWidget {
     return Row(
       children: [
         const Text(
-          "Done : ",
+          "Latest Attempt : ",
           style: TextStyle(
             fontSize: 16,
             color: Colors.black,

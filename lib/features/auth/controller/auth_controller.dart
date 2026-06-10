@@ -7,6 +7,7 @@ import 'package:flutter_sarpongoy_twelve/features/auth/model/request/security_qu
 import 'package:flutter_sarpongoy_twelve/features/auth/model/request/security_question_request_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/auth/screens/login_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/auth/screens/reset_password_screen.dart';
+import 'package:flutter_sarpongoy_twelve/features/profile/controller/profile_controller.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/create_new_password_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/profile_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/teacher/presentation/teacher_layout.dart';
@@ -81,6 +82,11 @@ class AuthController extends BaseController {
           // Pull latest progress from backend after login
           final syncService = Get.find<SyncService>();
           final pulledCount = await syncService.pullFromBackend();
+
+          // Fetch student profile immediately
+          if (Get.isRegistered<ProfileController>()) {
+            await Get.find<ProfileController>().fetchProfile();
+          }
 
           // If we have progress on the server, it means security setup was already done
           if (isSecurityChecked == 'true' || pulledCount > 0) {

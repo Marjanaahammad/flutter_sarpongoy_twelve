@@ -10,7 +10,8 @@ class ProgressRepository {
     // Check if progress already exists for this lesson, type and sub-activity
     final existing = await db.query(
       'activity_progress',
-      where: 'LOWER(lesson_id) = LOWER(?) AND activity_type = ? AND sub_activity = ?',
+      where:
+          'LOWER(lesson_id) = LOWER(?) AND activity_type = ? AND sub_activity = ?',
       whereArgs: [
         progress.lessonId,
         progress.activityType,
@@ -51,7 +52,8 @@ class ProgressRepository {
     final db = await _dbService.database;
     final result = await db.query(
       'activity_progress',
-      where: 'LOWER(lesson_id) = LOWER(?) AND activity_type = ? AND sub_activity = ?',
+      where:
+          'LOWER(lesson_id) = LOWER(?) AND activity_type = ? AND sub_activity = ?',
       whereArgs: [lessonId, activityType, subActivity],
     );
 

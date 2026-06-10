@@ -120,4 +120,9 @@ class RequestQueueService {
 
     return result.isRight();
   }
+
+  Future<void> clearQueue() async {
+    await _box.clear();
+    DPrint.info('Request queue cleared');
+  }
 }

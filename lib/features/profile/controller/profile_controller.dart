@@ -323,4 +323,9 @@ class ProfileController extends BaseController {
       },
     );
   }
+  Future<void> clearData() async {
+    userInfo.value = null;
+    await _profileStorageService.clearProfile();
+    DPrint.log('ProfileController data cleared');
+  }
 }

@@ -150,7 +150,7 @@ class SubjectChartScreen extends StatelessWidget {
                                 getTooltipItems: (List<LineBarSpot> touchedSpots) {
                                   return touchedSpots.map((spot) {
                                     return LineTooltipItem(
-                                      spot.y.toStringAsFixed(0),
+                                      spot.y.toStringAsFixed(1),
                                       const TextStyle(
                                         color: Color(0xFF555555),
                                         fontWeight: FontWeight.bold,
