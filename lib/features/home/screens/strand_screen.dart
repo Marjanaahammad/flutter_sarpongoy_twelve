@@ -683,24 +683,60 @@ class StrandScreen extends StatelessWidget {
   Widget _buildDoneRow(String date) {
     return Row(
       children: [
-        const Text(
-          "Latest Attempt : ",
-          style: TextStyle(
-            fontSize: 16,
-            color: Colors.black,
-            fontWeight: FontWeight.w400,
-          ),
-        ),
         Expanded(
-          child: Text(
-            date,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              fontSize: 16,
-              color: Color(0xFF3E3C3C),
-              fontWeight: FontWeight.w400,
-            ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Text(
+                    "First Attempt : ",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.black,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  Expanded(
+                    child: Text(
+                      date,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontSize: 16,
+                        color: Color(0xFF3E3C3C),
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4),
+              Row(
+                children: [
+                  const Text(
+                    "Latest Attempt : ",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.black,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  Expanded(
+                    child: Text(
+                      date,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontSize: 16,
+                        color: Color(0xFF3E3C3C),
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ],
