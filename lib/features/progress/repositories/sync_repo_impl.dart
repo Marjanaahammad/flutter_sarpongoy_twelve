@@ -26,7 +26,7 @@ class SyncRepoImpl implements SyncRepo {
   Future<Either<NetworkFailure, NetworkSuccess<List<ActivityProgress>>>>
       syncGetStudentActivities(String? since) async {
     final Map<String, dynamic> queryParameters = {
-      'limit': 1000, // fetch all records in one call
+      // 'limit': 1000, // fetch all records in one call
     };
     if (since != null) {
       queryParameters['since'] = since;
