@@ -20,7 +20,8 @@ class TeacherDashboardController extends BaseController {
 
   final Rxn<SubjectListResponseModel> subInfo = Rxn<SubjectListResponseModel>();
 
-  final Rxn<StudentDetailsData> studentOverview = Rxn<StudentDetailsData>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewTop = Rxn<GetStudentDetailsResponseModel>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewBottom = Rxn<GetStudentDetailsResponseModel>();
 
   final TextEditingController searchController = TextEditingController();
 
@@ -224,17 +225,48 @@ class TeacherDashboardController extends BaseController {
     );
   }
 
-  Future<void> fetchStudentDetails(String studentId) async {
-    final result = await _teacherRepository.fetchStudentDetails(studentId);
+  Future<void> fetchStudentDetailsTop(
+    String studentId, {
+    String? timePeriod,
+    String? subject,
+  }) async {
+    final result = await _teacherRepository.fetchStudentDetails(
+      studentId,
+      timePeriod: timePeriod,
+      subject: subject,
+    );
 
     result.fold(
       (fail) {
         setError(fail.message);
-        DPrint.log('student details fetch failed');
+        DPrint.log('student details top fetch failed');
       },
       (success) {
-        studentOverview.value = success.data;
-        DPrint.log("student details fetched successfully ${success.message}");
+        studentOverviewTop.value = success.data;
+        DPrint.log("student details top fetched successfully ${success.message}");
+      },
+    );
+  }
+
+  Future<void> fetchStudentDetailsBottom(
+    String studentId, {
+    String? gradeLevel,
+    String? subject,
+  }) async {
+    final result = await _teacherRepository.fetchStudentDetails(
+      studentId,
+      gradeLevel: gradeLevel,
+      subject: subject,
+    );
+
+    result.fold(
+      (fail) {
+        setError(fail.message);
+        DPrint.log('student details bottom fetch failed');
+      },
+      (success) {
+        studentOverviewBottom.value = success.data;
+        DPrint.log("student details bottom fetched successfully ${success.message}");
       },
     );
   }

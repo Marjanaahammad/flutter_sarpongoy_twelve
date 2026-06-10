@@ -7,7 +7,7 @@ class DatabaseService {
   static final DatabaseService instance = DatabaseService._init();
   static Database? _database;
 
-  static const int _version = 8;
+  static const int _version = 9;
 
   DatabaseService._init();
 

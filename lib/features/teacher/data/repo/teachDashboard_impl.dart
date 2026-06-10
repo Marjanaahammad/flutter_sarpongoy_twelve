@@ -64,10 +64,29 @@ class TeachdashboardImpl implements TeachDashboardRepository {
   }
 
   @override
-  NetworkResult<StudentDetailsData> fetchStudentDetails(String studentId) {
+  NetworkResult<GetStudentDetailsResponseModel> fetchStudentDetails(
+    String studentId, {
+    String? timePeriod,
+    String? subject,
+    String? gradeLevel,
+  }) {
     return _apiClient.get(
       endpoint: ApiConstants.dashboard.fetchTeacher(studentId),
-      fromJsonT: (json) => StudentDetailsData.fromJson(json),
+      queryParameters: {
+        if (timePeriod != null &&
+            timePeriod.isNotEmpty &&
+            timePeriod.toLowerCase() != 'all')
+          'timePeriod': timePeriod,
+        if (subject != null &&
+            subject.isNotEmpty &&
+            subject.toLowerCase() != 'all')
+          'subject': subject,
+        if (gradeLevel != null &&
+            gradeLevel.isNotEmpty &&
+            gradeLevel.toLowerCase() != 'all')
+          'gradeLevel': gradeLevel,
+      },
+      fromJsonT: (json) => GetStudentDetailsResponseModel.fromJson(json),
     );
   }
 }

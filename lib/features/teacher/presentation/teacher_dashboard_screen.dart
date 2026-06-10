@@ -257,7 +257,9 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
   String _mapToApiSubject(String friendlyName) {
     if (friendlyName == 'Social Science') return 'Social Studies';
-    if (friendlyName == 'Religious and Moral Studies') return 'RME';
+    if (friendlyName.replaceAll('\n', ' ') == 'Religious and Moral Studies') {
+      return 'Religious and Moral Education';
+    }
     return friendlyName;
   }
 
@@ -267,14 +269,14 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       'Math',
       'Social Science',
       'Science',
-      ' Religious and Moral\nStudies',
+      'Religious and Moral\nStudies',
       'All'
     ];
 
     if (!subjects.contains(_selectedSubject.value)) {
       if (_selectedSubject.value == 'RME') {
         Future.microtask(
-            () => _selectedSubject.value = ' Religious and Moral Studies');
+            () => _selectedSubject.value = 'Religious and Moral\nStudies');
       } else if (_selectedSubject.value == 'Social Studies') {
         Future.microtask(() => _selectedSubject.value = 'Social Science');
       } else if (_selectedSubject.value == 'Mathematics') {
@@ -662,6 +664,16 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     );
   }
 
+  Color _getChartColor(String? subject) {
+    final s = (subject ?? '').toLowerCase();
+    if (s.contains('english')) return const Color(0xFFA533F1);
+    if (s.contains('math')) return const Color(0xFF0061D7);
+    if (s.contains('science')) return const Color(0xFFF8D700);
+    if (s.contains('social')) return const Color(0xFFFF9500);
+    if (s.contains('rme') || s.contains('religious')) return const Color(0xFF4CAF50);
+    return Colors.grey;
+  }
+
   // ── Donut chart ──
   Widget _buildDonutChartCard(TeacherDashboardResponse data) {
     // Use ONLY subjectMetrics from the API — no fallbacks.
@@ -672,14 +684,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
               avgQuizScore: m.avgQuizScore ?? 0.0,
             ))
         .toList();
-
-    final defaultColors = [
-      const Color(0xFFA533F1),
-      const Color(0xFF0061D7),
-      const Color(0xFFF8D700),
-      const Color(0xFFFF9500),
-      const Color(0xFF4CAF50),
-    ];
 
     return Container(
       width: 388,
@@ -726,7 +730,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                         final val = metrics[i].avgDailyHours ?? 0.0;
                         return PieChartSectionData(
                           value: val > 0 ? val : 1,
-                          color: defaultColors[i % defaultColors.length],
+                          color: _getChartColor(metrics[i].subject),
                           radius: 45,
                           showTitle: false,
                         );
@@ -741,7 +745,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
               runSpacing: 8,
               children: List.generate(metrics.length, (i) {
                 return _LegendDot(
-                  color: defaultColors[i % defaultColors.length],
+                  color: _getChartColor(metrics[i].subject),
                   label: metrics[i].subject ?? '',
                 );
               }),
@@ -821,13 +825,13 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     if (maxVal == 0) maxVal = 100;
 
     final colors = [
-      const Color(0xFFFFC34D),
-      const Color(0xFF709FFF),
-      const Color(0xFF2ABD1D),
-      const Color(0xFFFF76CE),
-      const Color(0xFF9AD39E),
-      const Color(0xFF8979FF),
-      const Color(0xFFA41BFF),
+      const Color(0xFFFFC34D).withOpacity(0.20),
+      const Color(0xFF709FFF).withOpacity(0.20),
+      const Color(0xFF2ABD1D).withOpacity(0.20),
+      const Color(0xFFFF76CE).withOpacity(0.20),
+      const Color(0xFF9AD39E).withOpacity(0.20),
+      const Color(0xFF8979FF).withOpacity(0.20),
+      const Color(0xFFA41BFF).withOpacity(0.20),
     ];
 
     final barGroups = List.generate(7, (i) {
