@@ -346,16 +346,21 @@ class SidebarController extends GetxController {
               final type = p.activityType.toLowerCase();
               if (type == 'guided_practice') {
                 if (practice == null ||
-                    p.lastUpdated.toUtc().isAfter(practice.lastUpdated.toUtc())) {
+                    p.lastUpdated
+                        .toUtc()
+                        .isAfter(practice.lastUpdated.toUtc())) {
                   practice = p;
                 }
               } else if (type == 'independent') {
                 if (independent == null ||
-                    p.lastUpdated.toUtc().isAfter(independent.lastUpdated.toUtc())) {
+                    p.lastUpdated
+                        .toUtc()
+                        .isAfter(independent.lastUpdated.toUtc())) {
                   independent = p;
                 }
               } else if (type == 'quiz') {
-                if (quiz == null || p.lastUpdated.toUtc().isAfter(quiz.lastUpdated.toUtc())) {
+                if (quiz == null ||
+                    p.lastUpdated.toUtc().isAfter(quiz.lastUpdated.toUtc())) {
                   quiz = p;
                 }
               }
@@ -365,14 +370,18 @@ class SidebarController extends GetxController {
             ActivityProgress? latestGetReady;
             if (getReadyProgress.isNotEmpty) {
               latestGetReady = getReadyProgress.reduce(
-                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc()) ? a : b,
+                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
+                    ? a
+                    : b,
               );
             }
 
             ActivityProgress? latestLearn;
             if (learnProgress.isNotEmpty) {
               latestLearn = learnProgress.reduce(
-                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc()) ? a : b,
+                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
+                    ? a
+                    : b,
               );
             }
 
@@ -442,10 +451,11 @@ class SidebarController extends GetxController {
                     : null,
                 practiceDoneDate: () {
                   if (independent != null && practice != null) {
-                    return dateFormat.format(
-                        independent.lastUpdated.toUtc().isAfter(practice.lastUpdated.toUtc())
-                            ? independent.lastUpdated
-                            : practice.lastUpdated);
+                    return dateFormat.format(independent.lastUpdated
+                            .toUtc()
+                            .isAfter(practice.lastUpdated.toUtc())
+                        ? independent.lastUpdated
+                        : practice.lastUpdated);
                   } else if (independent != null) {
                     return dateFormat.format(independent.lastUpdated);
                   } else if (practice != null) {
@@ -717,7 +727,7 @@ class SidebarController extends GetxController {
     }
     final totalHours = (totalMinutes / 60).toStringAsFixed(1);
     final avgDailyHours =
-        (totalMinutes / (60 * daysInPeriod)).toStringAsFixed(1);
+        (totalMinutes / (60 * daysInPeriod)).toStringAsFixed(2);
 
     return {
       "activityCount": activityCount,

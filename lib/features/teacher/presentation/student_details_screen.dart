@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:get/get.dart';
 
+import '../../../core/config/debug_print.dart';
 import '../../teacher_profile/presentation/controller/profile_controller.dart';
 import '../data/model/get_student_details_response_model.dart';
 import 'controller/teacher_dashboard_controller.dart';
@@ -25,7 +26,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   late final TeacherDashboardController _dashboardController;
   late final TeacherProfileController _profileController;
 
-  String _selectedPeriod = 'Today';
+  String _selectedPeriod =
+      'All'; // This is for local subject filtering in Recent Activity
+  String _selectedTimePeriod = 'Past 1 Month';
+  String _selectedGradeLevel = 'ALL';
   String? _selectedSubjectName;
 
   @override
@@ -39,7 +43,14 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
 
     // Fetch student overview if studentId is provided
     if (widget.studentId != null) {
-      _dashboardController.fetchStudentDetails(widget.studentId!);
+      _dashboardController.fetchStudentDetailsTop(
+        widget.studentId!,
+        timePeriod: _selectedTimePeriod,
+      );
+      _dashboardController.fetchStudentDetailsBottom(
+        widget.studentId!,
+        gradeLevel: _selectedGradeLevel,
+      );
     }
 
     // Fetch profile if not already loaded
@@ -57,13 +68,16 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           _buildTopBar(),
           Expanded(
             child: Obx(() {
-              final overview = _dashboardController.studentOverview.value;
+              final overviewTop = _dashboardController.studentOverviewTop.value;
+              final overviewBottom = _dashboardController.studentOverviewBottom.value;
 
-              if (overview == null && _dashboardController.isLoading.value) {
+              if (overviewTop == null && overviewBottom == null && _dashboardController.isLoading.value) {
                 return const Center(
                   child: CircularProgressIndicator(color: Color(0xFF019E2E)),
                 );
               }
+
+              final combinedOverview = overviewTop ?? overviewBottom;
 
               return SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(
@@ -81,13 +95,15 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     children: [
                       _buildHeader(),
                       const SizedBox(height: 16),
-                      _buildStudentInfoCard(overview?.student),
+                      _buildStudentInfoCard(combinedOverview?.student),
                       const SizedBox(height: 24),
-                      _buildProgressSheetSection(overview),
+                      _buildProgressSheetSection(combinedOverview),
                       const SizedBox(height: 24),
-                      _buildSubjectDetailsSection(overview),
+                      _buildFilterSection(overviewBottom ?? overviewTop),
                       const SizedBox(height: 24),
-                      _buildBottomSection(overview),
+                      _buildSubjectDetailsSection(overviewTop, overviewBottom),
+                      const SizedBox(height: 24),
+                      _buildBottomSection(overviewBottom),
                     ],
                   ),
                 ),
@@ -127,26 +143,16 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                   ),
                   const SizedBox(width: 16),
                   ClipOval(
-                    child: teacher?.picture?.url != null
+                    child: (teacher?.picture?.url ?? '').isNotEmpty
                         ? Image.network(
                             teacher!.picture!.url!,
                             height: 44,
                             width: 44,
                             fit: BoxFit.cover,
                             errorBuilder: (context, error, stackTrace) =>
-                                Image.asset(
-                                  'assets/images/avatarIcon.png',
-                                  height: 44,
-                                  width: 44,
-                                  fit: BoxFit.cover,
-                                ),
+                                _buildFallbackAvatar(44, 24),
                           )
-                        : Image.asset(
-                            'assets/images/avatarIcon.png',
-                            height: 44,
-                            width: 44,
-                            fit: BoxFit.cover,
-                          ),
+                        : _buildFallbackAvatar(44, 24),
                   ),
                 ],
               );
@@ -167,6 +173,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               IconButton(
                 icon: const Icon(Icons.arrow_back),
                 onPressed: widget.onBack,
+                color: Colors.black,
               ),
             const Text(
               'Student Details',
@@ -238,20 +245,15 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 child: Container(
                   width: 120,
                   height: 120,
-                  color: Colors.grey[300],
-                  child: student?.picture?.url != null
+                  color: const Color(0xFFF0F0F0),
+                  child: (student?.picture?.url ?? '').isNotEmpty
                       ? Image.network(
                           student!.picture!.url!,
                           fit: BoxFit.cover,
                           errorBuilder: (context, error, stackTrace) =>
-                              const Icon(Icons.person, size: 40),
+                              _buildFallbackAvatar(120, 60),
                         )
-                      : Image.asset(
-                          'assets/images/avatarIcon.png',
-                          fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) =>
-                              const Icon(Icons.person, size: 40),
-                        ),
+                      : _buildFallbackAvatar(120, 60),
                 ),
               ),
               const SizedBox(width: 16),
@@ -313,26 +315,56 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildProgressSheetSection(StudentDetailsData? data) {
+  Widget _buildProgressSheetSection(GetStudentDetailsResponseModel? data) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          "${data?.student?.studentName ?? 'Student'}'s Progress Sheet",
-          style: const TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.w500,
-            color: Color(0xFF263451),
-          ),
-        ),
-        const SizedBox(height: 4),
-        const Text(
-          'Select subject and see the progress',
-          style: TextStyle(
-            fontSize: 12,
-            fontWeight: FontWeight.w500,
-            color: Color(0xFF6C6C6C),
-          ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "${data?.student?.studentName ?? 'Student'}'s Progress Sheet",
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFF263451),
+                  ),
+                ),
+                const SizedBox(height: 4),
+                const Text(
+                  'Select subject and see the progress',
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFF6C6C6C),
+                  ),
+                ),
+              ],
+            ),
+            // Time Period Filter
+            _buildFilterDropdown(
+              value: _selectedTimePeriod,
+              options: data?.filters?.timePeriods ??
+                  [
+                    "Today",
+                    "Past Week",
+                    "Past 1 Month",
+                    "Past 3 Months",
+                    "Past 6 Months",
+                    "Past Year"
+                  ],
+              onSelected: (value) {
+                setState(() {
+                  _selectedTimePeriod = value;
+                });
+                _refreshDataTop();
+              },
+            ),
+          ],
         ),
         const SizedBox(height: 16),
         Obx(() {
@@ -359,7 +391,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     onTap: () {
                       setState(() {
                         _selectedSubjectName = subject.name;
+                        _selectedPeriod = subject.name!;
                       });
+                      _refreshDataTop();
+                      _refreshDataBottom();
                     },
                     borderRadius: BorderRadius.circular(8),
                     child: SizedBox(
@@ -367,7 +402,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                       child: _buildSubjectCard(
                         _getSubjectIcon(subject.name),
                         isSelected: isSelected,
-                        completionRate: data?.progressSheet?.courseWiseOverview
+                        completionRate: data?.overview?.courseWiseOverview
                             ?.firstWhereOrNull((e) => e.subject == subject.name)
                             ?.completionRate
                             ?.toInt(),
@@ -394,6 +429,114 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       return 'assets/images/relIcon.png';
     }
     return 'assets/images/eglishIcon.png'; // Default
+  }
+
+  Widget _buildFilterSection(GetStudentDetailsResponseModel? data) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Row(
+        children: [
+          // Grade Level Filter
+          _buildFilterDropdown(
+            value: _selectedGradeLevel,
+            options:
+                data?.filters?.gradeLevels ?? ["JHS1", "JHS2", "JHS3", "ALL"],
+            onSelected: (value) {
+              setState(() {
+                _selectedGradeLevel = value;
+              });
+              _refreshDataBottom();
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildFilterDropdown({
+    required String value,
+    required List<String> options,
+    required Function(String) onSelected,
+  }) {
+    return PopupMenuButton<String>(
+      offset: const Offset(0, 45),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+      color: const Color(0xFFF3F8E2), // Light green background for menu
+      onSelected: onSelected,
+      itemBuilder: (context) {
+        return options.map((option) {
+          return PopupMenuItem<String>(
+            value: option,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+            child: Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(4),
+                border: Border.all(color: const Color(0xFF019E2E)),
+              ),
+              child: Center(
+                child: Text(
+                  option,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFF1F2937),
+                  ),
+                ),
+              ),
+            ),
+          );
+        }).toList();
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        decoration: BoxDecoration(
+          color: const Color(0xFF019E2E),
+          borderRadius: BorderRadius.circular(6),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              value,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            const SizedBox(width: 8),
+            const Icon(
+              Icons.keyboard_arrow_down,
+              size: 18,
+              color: Colors.white,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _refreshDataTop() {
+    if (widget.studentId != null) {
+      _dashboardController.fetchStudentDetailsTop(
+        widget.studentId!,
+        timePeriod: _selectedTimePeriod,
+        subject: _selectedSubjectName,
+      );
+    }
+  }
+
+  void _refreshDataBottom() {
+    if (widget.studentId != null) {
+      _dashboardController.fetchStudentDetailsBottom(
+        widget.studentId!,
+        gradeLevel: _selectedGradeLevel,
+        subject: _selectedSubjectName,
+      );
+    }
   }
 
   Widget _buildSubjectCard(
@@ -430,10 +573,11 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildSubjectDetailsSection(StudentDetailsData? data) {
-    // Use courseWiseOverview for subject stats
-    final subjectOverview = data?.progressSheet?.courseWiseOverview
-        ?.firstWhereOrNull((e) => e.subject == _selectedSubjectName);
+  Widget _buildSubjectDetailsSection(
+      GetStudentDetailsResponseModel? topData,
+      GetStudentDetailsResponseModel? bottomData) {
+    
+    final summary = topData?.overview?.summary;
 
     return Container(
       padding: const EdgeInsets.all(24),
@@ -457,75 +601,75 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             children: [
               _buildStatBox(
                 'Activity Count',
-                '${subjectOverview?.activityCount ?? 0}',
+                '${summary?.activityCount ?? 0}',
                 const Color(0xFF3CCFFF),
               ),
               const SizedBox(width: 12),
               _buildStatBox(
                 'Avg. Daily Hours',
-                '${subjectOverview?.avgDailyHours ?? 0}/24',
+                '${summary?.avgDailyHours ?? 0.0}',
                 const Color(0xFFFFE8E8),
               ),
               const SizedBox(width: 12),
               _buildStatBox(
                 'Total Hours',
-                '${subjectOverview?.totalHours ?? 0}',
+                '${summary?.totalHours ?? 0}',
                 const Color(0xFFD2FBB6),
               ),
               const SizedBox(width: 12),
               _buildStatBox(
                 'Avg. Quiz Score',
-                '${subjectOverview?.avgQuizScore ?? 0}/100',
+                '${summary?.avgQuizScore ?? 0}/100',
                 const Color(0xFFFED692),
               ),
             ],
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'Average Daily Time Spend',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w600,
+              color: Color(0xFF1E1E1E),
+            ),
+          ),
+          const SizedBox(height: 16),
+          SizedBox(
+            height: 280,
+            width: double.infinity,
+            child: _buildAreaChart(
+              bottomData?.overview.monthlyActivity,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              _buildLegendDot('Avg. Daily Hours', const Color(0xFFFFB5B5)),
+            ],
+          ),
+          const SizedBox(height: 32),
+          const Text(
+            'Average Monthly Scores',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w600,
+              color: Color(0xFF1E1E1E),
+            ),
           ),
           const SizedBox(height: 32),
           SizedBox(
             height: 280,
             width: double.infinity,
-            child: _buildAreaChart(
-              subjectOverview?.marks ??
-                  (data?.progressSheet?.marks != null
-                      ? ActivityMarks(
-                          days: data!.progressSheet!.marks!.days
-                              ?.map(
-                                (d) => DayActivity(
-                                  label: d.label,
-                                  date: d.date,
-                                  activityCount: 0,
-                                  totalHours: 0,
-                                  avgQuizScore: 0,
-                                  subject: _selectedSubjectName,
-                                ),
-                              )
-                              .toList(),
-                          totals: ActivityTotals(
-                            activityCount: 0,
-                            totalHours: 0,
-                            avgQuizScore: 0,
-                            avgDailyHours: 0,
-                          ),
-                        )
-                      : null),
+            child: _buildQuizChart(
+              bottomData?.overview.monthlyActivity,
             ),
           ),
           const SizedBox(height: 16),
-          // Legend
+          // Legend for Quiz
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _buildLegendDot('Activity Count', const Color(0xFF63D3FF)),
-              const SizedBox(width: 24),
-              _buildLegendDot('Avg. Daily Hours', const Color(0xFFFFB5B5)),
-            ],
-          ),
-          const SizedBox(height: 8),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              _buildLegendDot('Total Hours', const Color(0xFFAAED8E)),
-              const SizedBox(width: 24),
               _buildLegendDot('Avg. Quiz Score', const Color(0xFFFFCC80)),
             ],
           ),
@@ -567,12 +711,26 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildAreaChart(ActivityMarks? marks) {
-    if (marks == null || marks.days == null || marks.days!.isEmpty) {
+  Widget _buildAreaChart(MonthlyActivity? activity) {
+    if (activity == null || activity.months.isEmpty) {
       return const Center(child: Text('No data for this subject'));
     }
 
-    final days = marks.days!;
+    final months = activity.months;
+    const monthLabels = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec'
+    ];
 
     return Container(
       decoration: BoxDecoration(
@@ -585,7 +743,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           minY: 0,
           maxY: 100,
           minX: 0,
-          maxX: (days.length - 1).toDouble(),
+          maxX: 11,
           gridData: FlGridData(
             show: true,
             drawHorizontalLine: true,
@@ -648,11 +806,175 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 interval: 1,
                 getTitlesWidget: (value, meta) {
                   final index = value.toInt();
-                  if (index >= 0 && index < days.length) {
+                  if (index >= 0 && index < monthLabels.length) {
                     return SideTitleWidget(
                       axisSide: meta.axisSide,
                       child: Text(
-                        days[index].label ?? '',
+                        monthLabels[index],
+                        style: TextStyle(
+                          color: const Color(0xFF000000).withOpacity(0.7),
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    );
+                  }
+                  return const SizedBox.shrink();
+                },
+              ),
+            ),
+            rightTitles: const AxisTitles(
+              sideTitles: SideTitles(showTitles: false),
+            ),
+            topTitles: const AxisTitles(
+              sideTitles: SideTitles(showTitles: false),
+            ),
+          ),
+          borderData: FlBorderData(
+            show: true,
+            border: const Border(
+              bottom: BorderSide(color: Color(0xFFE0E0E0), width: 1),
+              left: BorderSide.none,
+              right: BorderSide.none,
+              top: BorderSide.none,
+            ),
+          ),
+          lineBarsData: [
+            // Avg Daily Hours
+            LineChartBarData(
+              spots: months.asMap().entries.map((entry) {
+                return FlSpot(
+                  entry.key.toDouble(),
+                  entry.value.avgDailyHours.toDouble(),
+                );
+              }).toList(),
+              isCurved: true,
+              color: const Color(0xFFFFB5B5),
+              barWidth: 3,
+              isStrokeCapRound: true,
+              shadow: const Shadow(
+                color: Color(0xFFFFB5B5),
+                blurRadius: 4,
+                offset: Offset(0, 2),
+              ),
+              dotData: FlDotData(
+                show: true,
+                getDotPainter: (spot, percent, barData, index) {
+                  return FlDotCirclePainter(
+                    radius: 8, // outer size
+                    color: barData.color!, // outer soft color
+                    strokeWidth: 4, // white ring thickness
+                    strokeColor: Colors.white,
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildQuizChart(MonthlyActivity? activity) {
+    if (activity == null || activity.months.isEmpty) {
+      return const Center(child: Text('No data for this subject'));
+    }
+
+    final months = activity.months;
+    const monthLabels = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec'
+    ];
+
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: const Color(0xFFE0E0E0)),
+      ),
+      child: LineChart(
+        LineChartData(
+          minY: 0,
+          maxY: 100,
+          minX: 0,
+          maxX: 11,
+          gridData: FlGridData(
+            show: true,
+            drawHorizontalLine: true,
+            drawVerticalLine: true,
+            horizontalInterval: 25,
+            verticalInterval: 1,
+            getDrawingHorizontalLine: (value) => const FlLine(
+              color: Color(0xFFE0E0E0),
+              strokeWidth: 1,
+              dashArray: [4, 4],
+            ),
+            getDrawingVerticalLine: (value) => const FlLine(
+              color: Color(0xFFE0E0E0),
+              strokeWidth: 1,
+              dashArray: [4, 4],
+            ),
+          ),
+          titlesData: FlTitlesData(
+            leftTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                reservedSize: 60,
+                interval: 25,
+                getTitlesWidget: (value, meta) {
+                  String text;
+                  switch (value.toInt()) {
+                    case 0:
+                      text = '0-39';
+                      break;
+                    case 25:
+                      text = '40-59';
+                      break;
+                    case 50:
+                      text = '60-79';
+                      break;
+                    case 75:
+                      text = '80-100';
+                      break;
+                    case 100:
+                    default:
+                      return const SizedBox.shrink();
+                  }
+                  return SideTitleWidget(
+                    axisSide: meta.axisSide,
+                    child: Text(
+                      text,
+                      style: TextStyle(
+                        color: const Color(0xFF000000).withOpacity(0.7),
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+            bottomTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                interval: 1,
+                getTitlesWidget: (value, meta) {
+                  final index = value.toInt();
+                  if (index >= 0 && index < monthLabels.length) {
+                    return SideTitleWidget(
+                      axisSide: meta.axisSide,
+                      child: Text(
+                        monthLabels[index],
                         style: TextStyle(
                           color: const Color(0xFF000000).withOpacity(0.7),
                           fontSize: 12,
@@ -684,76 +1006,18 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           lineBarsData: [
             // Quiz Score
             LineChartBarData(
-              spots: days.asMap().entries.map((entry) {
+              spots: months.asMap().entries.map((entry) {
                 return FlSpot(
                   entry.key.toDouble(),
-                  (entry.value.avgQuizScore ?? 0).toDouble(),
+                  entry.value.avgQuizScore.toDouble(),
                 );
               }).toList(),
               isCurved: true,
-              color: const Color(0xFFFED692),
+              color: const Color(0xFFFFCC80),
               barWidth: 2,
               isStrokeCapRound: true,
               shadow: const Shadow(
-                color: Color(0xFFFED692),
-                blurRadius: 4,
-                offset: Offset(0, 2),
-              ),
-              dotData: FlDotData(
-                show: true,
-                getDotPainter: (spot, percent, barData, index) {
-                  return FlDotCirclePainter(
-                    radius: 8, // outer size
-                    color: barData.color!, // outer soft color
-                    strokeWidth: 4, // white ring thickness
-                    strokeColor: Colors.white,
-                  );
-                },
-              ),
-            ),
-            // Total Hours
-            LineChartBarData(
-              spots: days.asMap().entries.map((entry) {
-                return FlSpot(
-                  entry.key.toDouble(),
-                  (entry.value.totalHours ?? 0).toDouble(),
-                );
-              }).toList(),
-              isCurved: true,
-              color: const Color(0xFF99E665),
-              barWidth: 2,
-              isStrokeCapRound: true,
-              shadow: const Shadow(
-                color: Color(0xFF99E665),
-                blurRadius: 4,
-                offset: Offset(0, 2),
-              ),
-              dotData: FlDotData(
-                show: true,
-                getDotPainter: (spot, percent, barData, index) {
-                  return FlDotCirclePainter(
-                    radius: 8, // outer size
-                    color: barData.color!, // outer soft color
-                    strokeWidth: 4, // white ring thickness
-                    strokeColor: Colors.white,
-                  );
-                },
-              ),
-            ),
-            // Activity Count
-            LineChartBarData(
-              spots: days.asMap().entries.map((entry) {
-                return FlSpot(
-                  entry.key.toDouble(),
-                  (entry.value.activityCount ?? 0).toDouble(),
-                );
-              }).toList(),
-              isCurved: true,
-              color: const Color(0xFF3CCFFF),
-              barWidth: 2,
-              isStrokeCapRound: true,
-              shadow: const Shadow(
-                color: Color(0xFFCBF2FF),
+                color: Color(0xFFFFCC80),
                 blurRadius: 4,
                 offset: Offset(0, 2),
               ),
@@ -810,7 +1074,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildBottomSection(StudentDetailsData? data) {
+  Widget _buildBottomSection(GetStudentDetailsResponseModel? data) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -824,7 +1088,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildProgressChart(data?.subjectWise),
+          child: _buildProgressChart(data?.overview?.subjectProgress),
         ),
 
         const SizedBox(height: 24),
@@ -844,13 +1108,23 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(width: 1, color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildRecentWorkSection(data?.recentWork),
+          child: _buildRecentWorkSection(data),
         ),
       ],
     );
   }
 
-  Widget _buildRecentWorkSection(Map<String, StudentRecentWork>? recentWorks) {
+  Widget _buildRecentWorkSection(GetStudentDetailsResponseModel? data) {
+    final recentWorks = data?.overview?.recentWork;
+    final availableSubjects = data?.filters?.subjects ??
+        [
+          'English',
+          'Math',
+          'Science',
+          'Social Studies',
+          'Religious and Moral Education'
+        ];
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -859,7 +1133,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text(
-              'Recent Work',
+              'Most Recent Activity',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
             ),
             PopupMenuButton<String>(
@@ -867,23 +1141,29 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               onSelected: (value) {
                 setState(() {
                   _selectedPeriod = value;
+                  _selectedSubjectName = value == 'All' ? null : value;
                 });
+                _refreshDataTop();
+                _refreshDataBottom();
               },
-              itemBuilder: (context) => ['Today', 'Weekly', 'Monthly']
-                  .map(
-                    (option) => PopupMenuItem<String>(
-                      value: option,
-                      child: Text(
-                        option,
-                        style: const TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w500,
-                          color: Color(0xFF000000),
+              itemBuilder: (context) {
+                final options = ["All", ...availableSubjects];
+                return options
+                    .map(
+                      (option) => PopupMenuItem<String>(
+                        value: option,
+                        child: Text(
+                          option,
+                          style: const TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xFF000000),
+                          ),
                         ),
                       ),
-                    ),
-                  )
-                  .toList(),
+                    )
+                    .toList();
+              },
               child: Container(
                 padding: const EdgeInsets.symmetric(
                   horizontal: 10,
@@ -941,36 +1221,47 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           child: SingleChildScrollView(
             child: Column(
               children: () {
-                final filteredEntries = recentWorks?.entries.where((entry) {
-                      final work = entry.value;
-                      return _isWithinPeriod(work.practiceDate, _selectedPeriod) ||
-                          _isWithinPeriod(work.quizDate, _selectedPeriod);
+                final filteredItems = recentWorks?.where((work) {
+                      final selectedSub = _selectedPeriod
+                          .toLowerCase()
+                          .trim()
+                          .replaceAll('and', '&');
+                      if (selectedSub == "all") return true;
+
+                      final workSub = work.subject
+                          .toLowerCase()
+                          .trim()
+                          .replaceAll('and', '&');
+
+                      return workSub == selectedSub ||
+                          workSub.contains(selectedSub) ||
+                          selectedSub.contains(workSub);
                     }).toList() ??
                     [];
 
-                if (filteredEntries.isEmpty) {
+                DPrint.log(
+                    "Recent Activity Filter: $_selectedPeriod, Found: ${filteredItems.length} items");
+
+                if (filteredItems.isEmpty) {
                   return [
                     const Center(
                       child: Padding(
                         padding: EdgeInsets.all(24.0),
-                        child: Text("No records for this period"),
+                        child: Text("No records found"),
                       ),
                     )
                   ];
                 }
 
-                return filteredEntries.map((entry) {
-                  final subject = entry.key;
-                  final work = entry.value;
+                return filteredItems.map((work) {
                   return Column(
                     children: [
                       _buildTableRow(
-                        subject,
-                        '${work.practice ?? 0}%',
-                        '${work.quiz ?? 0}%',
-                        '${work.practiceOriginalScore ?? 0}%',
-                        '${work.quizOriginalScore ?? 0}%',
-                        '${work.lowestQuizScore ?? 0}%',
+                        work.subject,
+                        '${work.practiceScore ?? 0}%',
+                        '${work.quizScore ?? 0}%',
+                        '${work.lesson.strand} - ${work.lesson.subStrand} (${work.lesson.lessonNumber})',
+                        work.date,
                       ),
                       _divider(),
                     ],
@@ -985,8 +1276,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   }
 
   Widget _buildTableHeader() {
-    return Row(
-      children: const [
+    return const Row(
+      children: [
         Expanded(
           flex: 2,
           child: Text(
@@ -999,9 +1290,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           ),
         ),
         Expanded(
-          flex: 3,
+          flex: 2,
           child: Text(
-            "Practice",
+            "Practice Score",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1012,7 +1303,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 2,
           child: Text(
-            "Quiz",
+            "Quiz Score",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1023,18 +1314,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 3,
           child: Text(
-            "Practice Original Score",
-            style: TextStyle(
-              fontWeight: FontWeight.w700,
-              fontSize: 12,
-              color: Color(0xFF000000),
-            ),
-          ),
-        ),
-        Expanded(
-          flex: 3,
-          child: Text(
-            "Quiz Original\nScore",
+            "Lesson",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1045,7 +1325,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Expanded(
           flex: 2,
           child: Text(
-            "Lowest Quiz Score",
+            "Date",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 12,
@@ -1061,31 +1341,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     String subject,
     String practice,
     String quiz,
-    String practiceOriginal,
-    String quizOriginal,
-    String lowest,
+    String lesson,
+    String date,
   ) {
-    Color subjectColor;
-
-    switch (subject) {
-      case "Math":
-        subjectColor = const Color(0xFF2C69D1); // Blue
-        break;
-      case "Social":
-        subjectColor = const Color(0xFFF97316); // Orange
-        break;
-      case "English":
-        subjectColor = const Color(0xFF7C3AED); // Purple
-        break;
-      case "Science":
-        subjectColor = const Color(0xFF0D9488); // Teal
-        break;
-      case "Moral":
-        subjectColor = const Color(0xFFEAB308); // Yellow
-        break;
-      default:
-        subjectColor = const Color(0xFF000000);
-    }
+    Color subjectColor = _getSubjectColor(subject);
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -1096,20 +1355,20 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             child: Text(
               subject,
               style: TextStyle(
-                fontWeight: FontWeight.w400,
-                color: subjectColor, // ✅ Only subject colored
-                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: subjectColor,
+                fontSize: 13,
               ),
             ),
           ),
           Expanded(
-            flex: 3,
+            flex: 2,
             child: Text(
               practice,
               style: const TextStyle(
                 fontWeight: FontWeight.w400,
-                fontSize: 12,
-                color: Color(0xFF000000), // Black
+                fontSize: 13,
+                color: Color(0xFF000000),
               ),
             ),
           ),
@@ -1119,41 +1378,32 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               quiz,
               style: const TextStyle(
                 fontWeight: FontWeight.w400,
-                fontSize: 12,
-                color: Color(0xFF000000), // Black
+                fontSize: 13,
+                color: Color(0xFF000000),
               ),
             ),
           ),
           Expanded(
             flex: 3,
             child: Text(
-              practiceOriginal,
+              lesson,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
               style: const TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
-                color: Color(0xFF000000), // Black
-              ),
-            ),
-          ),
-          Expanded(
-            flex: 3,
-            child: Text(
-              quizOriginal,
-              style: const TextStyle(
-                fontWeight: FontWeight.w400,
-                fontSize: 12,
-                color: Color(0xFF000000), // Black
+                color: Color(0xFF000000),
               ),
             ),
           ),
           Expanded(
             flex: 2,
             child: Text(
-              lowest,
+              date.length > 10 ? date.substring(0, 10) : date,
               style: const TextStyle(
                 fontWeight: FontWeight.w400,
-                fontSize: 12,
-                color: Color(0xFF000000), // Black
+                fontSize: 13,
+                color: Color(0xFF000000),
               ),
             ),
           ),
@@ -1173,10 +1423,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       maintainSize: true,
       maintainAnimation: true,
       maintainState: true,
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.end,
-        children: const [
+        children: [
           Text('100%', style: TextStyle(fontSize: 12)),
           Text('75%', style: TextStyle(fontSize: 12)),
           Text('50%', style: TextStyle(fontSize: 12)),
@@ -1209,12 +1459,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     }
   }
 
-  Widget _buildProgressChart(Map<String, SubjectWisePercentage>? subjectWise) {
-    if (subjectWise == null || subjectWise.isEmpty) {
+  Widget _buildProgressChart(List<SubjectProgress>? subjectProgress) {
+    if (subjectProgress == null || subjectProgress.isEmpty) {
       return const Center(child: Text('No progress data available'));
     }
-
-    final progresses = subjectWise.entries.toList();
 
     return Column(
       children: [
@@ -1245,30 +1493,14 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                       ),
                     ),
 
-                    /// Vertical grid lines
-                    Row(
-                      children: List.generate(
-                        progresses.length,
-                        (_) => Expanded(
-                          child: Align(
-                            alignment: Alignment.centerRight,
-                            child: Container(
-                              width: 1,
-                              color: const Color(0xFFE5E7EB),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-
                     /// PROGRESS BARS
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: progresses.map((entry) {
+                      children: subjectProgress.map((progress) {
                         return Expanded(
                           child: _buildBar(
-                            (entry.value.percentage ?? 0).toInt(),
-                            _getSubjectColor(entry.key),
+                            (progress.completionRate ?? 0).toInt(),
+                            _getSubjectColor(progress.subject),
                           ),
                         );
                       }).toList(),
@@ -1290,13 +1522,13 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             const SizedBox(width: 20),
             Expanded(
               child: Row(
-                children: progresses.map((entry) {
+                children: subjectProgress.map((progress) {
                   return Expanded(
                     child: _buildBottomIcon(
-                      entry.key,
-                      _getSubjectLogo(entry.key),
-                      _getSubjectColor(entry.key),
-                      (entry.value.percentage ?? 0).toInt(),
+                      progress.subject ?? '',
+                      _getSubjectLogo(progress.subject),
+                      _getSubjectColor(progress.subject),
+                      (progress.completionRate ?? 0).toInt(),
                     ),
                   );
                 }).toList(),
@@ -1431,7 +1663,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   ) {
     return Column(
       children: [
-        Expanded(
+        const Expanded(
           child: Stack(
             alignment: Alignment.bottomCenter,
             children: [
@@ -1489,6 +1721,20 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildFallbackAvatar(double size, double iconSize) {
+    return Container(
+      height: size,
+      width: size,
+      alignment: Alignment.center,
+      color: const Color(0xFF019E2E).withOpacity(0.1),
+      child: Icon(
+        Icons.person,
+        color: const Color(0xFF019E2E),
+        size: iconSize,
+      ),
     );
   }
 }

@@ -20,7 +20,8 @@ class TeacherDashboardController extends BaseController {
 
   final Rxn<SubjectListResponseModel> subInfo = Rxn<SubjectListResponseModel>();
 
-  final Rxn<StudentDetailsData> studentOverview = Rxn<StudentDetailsData>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewTop = Rxn<GetStudentDetailsResponseModel>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewBottom = Rxn<GetStudentDetailsResponseModel>();
 
   final TextEditingController searchController = TextEditingController();
 
@@ -31,17 +32,24 @@ class TeacherDashboardController extends BaseController {
   final RxString filterGrade = 'All'.obs;
   final RxString filterSubject = 'All'.obs;
 
+  List<StudentItem> _allStudents = [];
+  final RxInt currentPage = 1.obs;
+  static const int pageSize = 10;
+
   List<StudentItem> get filteredStudents {
-    final students = studentInfo.value?.items ?? [];
+    return studentInfo.value?.items ?? [];
+  }
+
+  List<StudentItem> get allFilteredStudents {
     if (searchQuery.isEmpty &&
         filterStudentName.isEmpty &&
         filterSchoolName.isEmpty &&
         filterGrade.value == 'All' &&
         filterSubject.value == 'All') {
-      return students;
+      return _allStudents;
     }
 
-    return students.where((student) {
+    return _allStudents.where((student) {
       final matchesSearch = searchQuery.isEmpty ||
           student.studentName.toLowerCase().contains(
                 searchQuery.value.toLowerCase(),
@@ -49,6 +57,9 @@ class TeacherDashboardController extends BaseController {
           student.schoolName.toLowerCase().contains(
                 searchQuery.value.toLowerCase(),
               ) ||
+          student.userId
+              .toLowerCase()
+              .contains(searchQuery.value.toLowerCase()) ||
           student.id.toLowerCase().contains(searchQuery.value.toLowerCase()) ||
           student.gradeLevel.toLowerCase().contains(
                 searchQuery.value.toLowerCase(),
@@ -64,11 +75,13 @@ class TeacherDashboardController extends BaseController {
                 filterSchoolName.value.toLowerCase(),
               );
 
+      final cleanFilterGrade =
+          filterGrade.value.replaceAll(' ', '').toLowerCase();
+      final cleanStudentGrade =
+          student.gradeLevel.replaceAll(' ', '').toLowerCase();
       final matchesFilterGrade =
-          filterGrade.value == 'All' || student.gradeLevel == filterGrade.value;
+          filterGrade.value == 'All' || cleanStudentGrade == cleanFilterGrade;
 
-      // Note: Subject matching depends on how subjects are linked to students in the model.
-      // For now, focusing on the fields available in StudentItem.
       return matchesSearch &&
           matchesFilterName &&
           matchesFilterSchool &&
@@ -76,24 +89,94 @@ class TeacherDashboardController extends BaseController {
     }).toList();
   }
 
+  void _updateStudentInfo() {
+    final filtered = allFilteredStudents;
+    final totalFiltered = filtered.length;
+    final totalPages = (totalFiltered / pageSize).ceil();
+
+    final maxPage = totalPages == 0 ? 1 : totalPages;
+    if (currentPage.value > maxPage) {
+      currentPage.value = maxPage;
+    }
+
+    final startIndex = (currentPage.value - 1) * pageSize;
+    final endIndex = (startIndex + pageSize).clamp(0, totalFiltered);
+    final itemsForPage = filtered.isEmpty
+        ? <StudentItem>[]
+        : filtered.sublist(startIndex, endIndex);
+
+    studentInfo.value = GetTeacherStudentResponseModel(
+      items: itemsForPage,
+      meta: Meta(
+        page: currentPage.value,
+        limit: pageSize,
+        total: totalFiltered,
+        totalPages: maxPage,
+      ),
+    );
+  }
+
   int get activeStudentCount {
-    final items = studentInfo.value?.items ?? [];
-    return items.where((s) => s.status.toLowerCase() == 'active').length;
+    return _allStudents.where((s) => s.status.toLowerCase() == 'active').length;
   }
 
   int get inactiveStudentCount {
-    final items = studentInfo.value?.items ?? [];
-    return items.where((s) => s.status.toLowerCase() == 'inactive').length;
+    return _allStudents
+        .where((s) => s.status.toLowerCase() == 'inactive')
+        .length;
+  }
+
+  void changePage(int page) {
+    currentPage.value = page;
+    _updateStudentInfo();
   }
 
   @override
   void onInit() {
     super.onInit();
-    fetchDashboard();
+
+    // Listen to filtering and pagination changes to update studentInfo
+    ever(searchQuery, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(filterStudentName, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(filterSchoolName, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(filterGrade, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(filterSubject, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(currentPage, (_) {
+      _updateStudentInfo();
+    });
+
+    fetchDashboard(
+      subject: 'English',
+      gradeLevel: 'All',
+      timePeriod: 'Past Year',
+    );
   }
 
-  Future<void> fetchDashboard() async {
-    final result = await _teacherRepository.fetchDashboard();
+  Future<void> fetchDashboard({
+    String? gradeLevel,
+    String? timePeriod,
+    String? subject,
+  }) async {
+    final result = await _teacherRepository.fetchDashboard(
+      gradeLevel: gradeLevel,
+      timePeriod: timePeriod,
+      subject: subject,
+    );
 
     result.fold(
       (fail) {
@@ -107,11 +190,10 @@ class TeacherDashboardController extends BaseController {
     );
   }
 
-
   Future<void> fetchStudent({int? page, int? limit}) async {
     final result = await _teacherRepository.fetchStudent(
-      page: page,
-      limit: limit,
+      page: 1,
+      limit: 10000,
     );
 
     result.fold(
@@ -120,7 +202,9 @@ class TeacherDashboardController extends BaseController {
         DPrint.log('data fetch failed');
       },
       (success) {
-        studentInfo.value = success.data;
+        _allStudents = success.data.items;
+        currentPage.value = page ?? 1;
+        _updateStudentInfo();
         DPrint.log(success.message);
       },
     );
@@ -141,17 +225,48 @@ class TeacherDashboardController extends BaseController {
     );
   }
 
-  Future<void> fetchStudentDetails(String studentId) async {
-    final result = await _teacherRepository.fetchStudentDetails(studentId);
+  Future<void> fetchStudentDetailsTop(
+    String studentId, {
+    String? timePeriod,
+    String? subject,
+  }) async {
+    final result = await _teacherRepository.fetchStudentDetails(
+      studentId,
+      timePeriod: timePeriod,
+      subject: subject,
+    );
 
     result.fold(
       (fail) {
         setError(fail.message);
-        DPrint.log('student details fetch failed');
+        DPrint.log('student details top fetch failed');
       },
       (success) {
-        studentOverview.value = success.data;
-        DPrint.log("student details fetched successfully ${success.message}");
+        studentOverviewTop.value = success.data;
+        DPrint.log("student details top fetched successfully ${success.message}");
+      },
+    );
+  }
+
+  Future<void> fetchStudentDetailsBottom(
+    String studentId, {
+    String? gradeLevel,
+    String? subject,
+  }) async {
+    final result = await _teacherRepository.fetchStudentDetails(
+      studentId,
+      gradeLevel: gradeLevel,
+      subject: subject,
+    );
+
+    result.fold(
+      (fail) {
+        setError(fail.message);
+        DPrint.log('student details bottom fetch failed');
+      },
+      (success) {
+        studentOverviewBottom.value = success.data;
+        DPrint.log("student details bottom fetched successfully ${success.message}");
       },
     );
   }

@@ -216,7 +216,8 @@ class IndependentController extends GetxController {
       subActivity: 'final_score',
       isCompleted: true,
       score: correctAnswersCount.value,
-      originalScore: existingProgress?.originalScore ?? correctAnswersCount.value,
+      originalScore:
+          existingProgress?.originalScore ?? correctAnswersCount.value,
       totalQuestions: questions.length,
       lastUpdated: DateTime.now(),
     );

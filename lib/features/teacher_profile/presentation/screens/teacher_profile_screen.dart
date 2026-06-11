@@ -148,26 +148,16 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
               ),
               const SizedBox(width: 16),
               ClipOval(
-                child: imageUrl != null
+                child: imageUrl != null && imageUrl.isNotEmpty
                     ? Image.network(
                         imageUrl,
                         height: 44,
                         width: 44,
                         fit: BoxFit.cover,
                         errorBuilder: (context, error, stackTrace) =>
-                            Image.asset(
-                              'assets/images/avatarIcon.png',
-                              height: 44,
-                              width: 44,
-                              fit: BoxFit.cover,
-                            ),
+                            _buildFallbackIcon(44, 24),
                       )
-                    : Image.asset(
-                        'assets/images/avatarIcon.png',
-                        height: 44,
-                        width: 44,
-                        fit: BoxFit.cover,
-                      ),
+                    : _buildFallbackIcon(44, 24),
               ),
             ],
           ),
@@ -189,25 +179,16 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
       child: Row(
         children: [
           ClipOval(
-            child: imageUrl != null
+            child: imageUrl != null && imageUrl.isNotEmpty
                 ? Image.network(
                     imageUrl,
                     height: 120,
                     width: 120,
                     fit: BoxFit.cover,
-                    errorBuilder: (context, error, stackTrace) => Image.asset(
-                      'assets/images/avatarIcon.png',
-                      height: 120,
-                      width: 120,
-                      fit: BoxFit.cover,
-                    ),
+                    errorBuilder: (context, error, stackTrace) =>
+                        _buildFallbackIcon(120, 60),
                   )
-                : Image.asset(
-                    'assets/images/avatarIcon.png', // Assuming this is the placeholder avatar
-                    height: 120,
-                    width: 120,
-                    fit: BoxFit.cover,
-                  ),
+                : _buildFallbackIcon(120, 60),
           ),
           const SizedBox(width: 20),
           Column(
@@ -587,6 +568,19 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
         ),
       ),
       onTap: onTap ?? () {},
+    );
+  }
+
+  Widget _buildFallbackIcon(double size, double iconSize) {
+    return Container(
+      height: size,
+      width: size,
+      color: const Color(0xFF0FCE46).withOpacity(0.1),
+      child: Icon(
+        Icons.person,
+        size: iconSize,
+        color: const Color(0xFF0FCE46),
+      ),
     );
   }
 }

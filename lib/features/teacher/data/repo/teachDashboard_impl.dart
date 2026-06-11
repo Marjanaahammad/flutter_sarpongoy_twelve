@@ -14,16 +14,35 @@ class TeachdashboardImpl implements TeachDashboardRepository {
   TeachdashboardImpl({required ApiClient apiClient}) : _apiClient = apiClient;
 
   @override
-  NetworkResult<TeacherDashboardResponse> fetchDashboard() {
+  NetworkResult<TeacherDashboardResponse> fetchDashboard({
+    String? gradeLevel,
+    String? timePeriod,
+    String? subject,
+  }) {
     return _apiClient.get(
       endpoint: ApiConstants.dashboard.fetchDashboard,
+      queryParameters: {
+        if (gradeLevel != null &&
+            gradeLevel.isNotEmpty &&
+            gradeLevel.toLowerCase() != 'all')
+          'gradeLevel': gradeLevel,
+        if (timePeriod != null &&
+            timePeriod.isNotEmpty &&
+            timePeriod.toLowerCase() != 'all')
+          'timePeriod': timePeriod,
+        if (subject != null &&
+            subject.isNotEmpty &&
+            subject.toLowerCase() != 'all')
+          'subject': subject,
+      },
       fromJsonT: (json) =>
           TeacherDashboardResponse.fromJson(json as Map<String, dynamic>),
     );
   }
 
   @override
-  NetworkResult<GetTeacherStudentResponseModel> fetchStudent({int? page, int? limit}) {
+  NetworkResult<GetTeacherStudentResponseModel> fetchStudent(
+      {int? page, int? limit}) {
     return _apiClient.get(
       endpoint: ApiConstants.dashboard.fetchStudent,
       queryParameters: {
@@ -45,10 +64,29 @@ class TeachdashboardImpl implements TeachDashboardRepository {
   }
 
   @override
-  NetworkResult<StudentDetailsData> fetchStudentDetails(String studentId) {
+  NetworkResult<GetStudentDetailsResponseModel> fetchStudentDetails(
+    String studentId, {
+    String? timePeriod,
+    String? subject,
+    String? gradeLevel,
+  }) {
     return _apiClient.get(
       endpoint: ApiConstants.dashboard.fetchTeacher(studentId),
-      fromJsonT: (json) => StudentDetailsData.fromJson(json),
+      queryParameters: {
+        if (timePeriod != null &&
+            timePeriod.isNotEmpty &&
+            timePeriod.toLowerCase() != 'all')
+          'timePeriod': timePeriod,
+        if (subject != null &&
+            subject.isNotEmpty &&
+            subject.toLowerCase() != 'all')
+          'subject': subject,
+        if (gradeLevel != null &&
+            gradeLevel.isNotEmpty &&
+            gradeLevel.toLowerCase() != 'all')
+          'gradeLevel': gradeLevel,
+      },
+      fromJsonT: (json) => GetStudentDetailsResponseModel.fromJson(json),
     );
   }
 }

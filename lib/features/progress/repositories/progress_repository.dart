@@ -21,11 +21,15 @@ class ProgressRepository {
     );
 
     if (existing.isNotEmpty) {
-      final existingProgress = ActivityProgress.fromMap(existing.first as Map<String, dynamic>);
+      final existingProgress =
+          ActivityProgress.fromMap(existing.first as Map<String, dynamic>);
 
       // Comparison using UTC to be safe across timezones/formats
-      if (progress.lastUpdated.toUtc().isBefore(existingProgress.lastUpdated.toUtc())) {
-        DPrint.info('Skipping save: Incoming data (${progress.lastUpdated}) is older than existing record (${existingProgress.lastUpdated})');
+      if (progress.lastUpdated
+          .toUtc()
+          .isBefore(existingProgress.lastUpdated.toUtc())) {
+        DPrint.info(
+            'Skipping save: Incoming data (${progress.lastUpdated}) is older than existing record (${existingProgress.lastUpdated})');
         return existing.first['id'] as int;
       }
 

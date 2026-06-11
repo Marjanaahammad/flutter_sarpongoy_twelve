@@ -75,25 +75,15 @@ class StudentOverviewScreen extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   ClipOval(
-                    child: teacher?.picture?.url != null
+                    child: (teacher?.picture?.url ?? '').isNotEmpty
                         ? Image.network(
                             teacher!.picture!.url!,
                             height: 44,
                             width: 44,
                             fit: BoxFit.cover,
-                            errorBuilder: (c, e, s) => Image.asset(
-                              'assets/images/avatarIcon.png',
-                              height: 44,
-                              width: 44,
-                              fit: BoxFit.cover,
-                            ),
+                            errorBuilder: (c, e, s) => _buildFallbackAvatar(),
                           )
-                        : Image.asset(
-                            'assets/images/avatarIcon.png',
-                            height: 44,
-                            width: 44,
-                            fit: BoxFit.cover,
-                          ),
+                        : _buildFallbackAvatar(),
                   ),
                 ],
               ),
@@ -110,7 +100,10 @@ class StudentOverviewScreen extends StatelessWidget {
       children: [
         _buildStatCard(
           'Total Students',
-          meta?.total.toString() ?? '0',
+          _dashboardController.userInfo.value?.counters?.totalStudents
+                  ?.toString() ??
+              (_dashboardController.studentInfo.value?.meta?.total.toString() ??
+                  '0'),
           '', // No change data in model
           const Color(0xFF00B023),
         ),
@@ -212,10 +205,10 @@ class StudentOverviewScreen extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Column(
+        const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
+            Text(
               'Student Overview',
               style: TextStyle(
                 fontSize: 24,
@@ -223,7 +216,7 @@ class StudentOverviewScreen extends StatelessWidget {
                 color: Color(0xFF181919),
               ),
             ),
-            const SizedBox(height: 4),
+            SizedBox(height: 4),
             Row(
               children: [
                 Text(
@@ -234,12 +227,12 @@ class StudentOverviewScreen extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                const Icon(
+                Icon(
                   Icons.chevron_right,
                   size: 16,
                   color: Color(0xFF727272),
                 ),
-                const Text(
+                Text(
                   'Student Overview',
                   style: TextStyle(
                     color: Color(0xFF6C6C6C),
@@ -270,7 +263,7 @@ class StudentOverviewScreen extends StatelessWidget {
                       onChanged: (value) {
                         _dashboardController.searchQuery.value = value;
                       },
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Search',
                         hintStyle: TextStyle(
                           color: Color(0xFF6C6C6C),
@@ -582,7 +575,7 @@ class StudentOverviewScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
       color: Colors.white,
-      child: Row(
+      child: const Row(
         children: [
           Expanded(
             flex: 3,
@@ -684,7 +677,12 @@ class StudentOverviewScreen extends StatelessWidget {
               children: [
                 const CircleAvatar(
                   radius: 29,
-                  backgroundImage: AssetImage('assets/images/avatarIcon.png'),
+                  backgroundColor: Color(0xFFCECECE),
+                  child: Icon(
+                    Icons.person,
+                    color: Colors.white,
+                    size: 30,
+                  ),
                 ),
                 const SizedBox(width: 8),
                 Expanded(
@@ -808,10 +806,7 @@ class StudentOverviewScreen extends StatelessWidget {
               '<',
               isEnabled: meta.page > 1,
               onTap: () {
-                _dashboardController.fetchStudent(
-                  page: meta.page - 1,
-                  limit: meta.limit,
-                );
+                _dashboardController.changePage(meta.page - 1);
               },
             ),
             const SizedBox(width: 4),
@@ -829,10 +824,7 @@ class StudentOverviewScreen extends StatelessWidget {
                   pageNum.toString(),
                   isSelected: meta.page == pageNum,
                   onTap: () {
-                    _dashboardController.fetchStudent(
-                      page: pageNum,
-                      limit: meta.limit,
-                    );
+                    _dashboardController.changePage(pageNum);
                   },
                 ),
               );
@@ -841,10 +833,7 @@ class StudentOverviewScreen extends StatelessWidget {
               '>',
               isEnabled: meta.page < meta.totalPages,
               onTap: () {
-                _dashboardController.fetchStudent(
-                  page: meta.page + 1,
-                  limit: meta.limit,
-                );
+                _dashboardController.changePage(meta.page + 1);
               },
             ),
           ],
@@ -880,6 +869,19 @@ class StudentOverviewScreen extends StatelessWidget {
             fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildFallbackAvatar() {
+    return Container(
+      height: 44,
+      width: 44,
+      color: const Color(0xFF019E2E).withOpacity(0.1),
+      child: const Icon(
+        Icons.person,
+        color: Color(0xFF019E2E),
+        size: 24,
       ),
     );
   }
