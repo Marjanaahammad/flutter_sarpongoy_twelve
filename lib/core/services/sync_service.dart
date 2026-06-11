@@ -167,8 +167,8 @@ class SyncService extends GetxService {
   // Allow manual trigger
   Future<void> triggerSync() async {
     if (_connectivityService.isConnected) {
-      await pullFromBackend();
       await syncAllCurriculumData();
+      await pullFromBackend();
     }
   }
 }

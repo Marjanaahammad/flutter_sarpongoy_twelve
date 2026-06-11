@@ -345,11 +345,19 @@ class SidebarController extends GetxController {
             for (var p in lessonProgress) {
               final type = p.activityType.toLowerCase();
               if (type == 'guided_practice') {
-                practice = p;
+                if (practice == null ||
+                    p.lastUpdated.toUtc().isAfter(practice.lastUpdated.toUtc())) {
+                  practice = p;
+                }
               } else if (type == 'independent') {
-                independent = p;
+                if (independent == null ||
+                    p.lastUpdated.toUtc().isAfter(independent.lastUpdated.toUtc())) {
+                  independent = p;
+                }
               } else if (type == 'quiz') {
-                quiz = p;
+                if (quiz == null || p.lastUpdated.toUtc().isAfter(quiz.lastUpdated.toUtc())) {
+                  quiz = p;
+                }
               }
             }
 
@@ -357,14 +365,14 @@ class SidebarController extends GetxController {
             ActivityProgress? latestGetReady;
             if (getReadyProgress.isNotEmpty) {
               latestGetReady = getReadyProgress.reduce(
-                (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b,
+                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc()) ? a : b,
               );
             }
 
             ActivityProgress? latestLearn;
             if (learnProgress.isNotEmpty) {
               latestLearn = learnProgress.reduce(
-                (a, b) => a.lastUpdated.isAfter(b.lastUpdated) ? a : b,
+                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc()) ? a : b,
               );
             }
 
@@ -432,11 +440,19 @@ class SidebarController extends GetxController {
                 learnDoneDate: latestLearn != null
                     ? dateFormat.format(latestLearn.lastUpdated)
                     : null,
-                practiceDoneDate: independent != null
-                    ? dateFormat.format(independent.lastUpdated)
-                    : (practice != null
-                        ? dateFormat.format(practice.lastUpdated)
-                        : null),
+                practiceDoneDate: () {
+                  if (independent != null && practice != null) {
+                    return dateFormat.format(
+                        independent.lastUpdated.toUtc().isAfter(practice.lastUpdated.toUtc())
+                            ? independent.lastUpdated
+                            : practice.lastUpdated);
+                  } else if (independent != null) {
+                    return dateFormat.format(independent.lastUpdated);
+                  } else if (practice != null) {
+                    return dateFormat.format(practice.lastUpdated);
+                  }
+                  return null;
+                }(),
                 practiceScore: practiceScoreStr,
                 practiceOriginalScore: practiceOriginalScoreStr,
                 quizDoneDate:

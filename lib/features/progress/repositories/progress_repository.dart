@@ -1,4 +1,5 @@
 import '../../../core/database/database_service.dart';
+import '../../../core/config/debug_print.dart';
 import '../models/progress_model.dart';
 
 class ProgressRepository {
@@ -20,12 +21,20 @@ class ProgressRepository {
     );
 
     if (existing.isNotEmpty) {
+      final existingProgress = ActivityProgress.fromMap(existing.first as Map<String, dynamic>);
+
+      // Comparison using UTC to be safe across timezones/formats
+      if (progress.lastUpdated.toUtc().isBefore(existingProgress.lastUpdated.toUtc())) {
+        DPrint.info('Skipping save: Incoming data (${progress.lastUpdated}) is older than existing record (${existingProgress.lastUpdated})');
+        return existing.first['id'] as int;
+      }
+
       // Update existing record
       return await db.update(
         'activity_progress',
         progress.toMap(),
         where: 'id = ?',
-        whereArgs: [existing.first['id']],
+        whereArgs: [existing.first['id'] as int],
       );
     } else {
       // Insert new record
