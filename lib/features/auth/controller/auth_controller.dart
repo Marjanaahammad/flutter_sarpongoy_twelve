@@ -14,6 +14,7 @@ import 'package:flutter_sarpongoy_twelve/features/teacher/presentation/teacher_l
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/src/extension_instance.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
+import 'package:get/get_navigation/src/snackbar/snackbar.dart';
 
 import '../../../core/base/base_controller.dart';
 import '../../../core/constants/key_constants.dart';
@@ -48,6 +49,21 @@ class AuthController extends BaseController {
           (fail) {
         setError(fail.message);
         setLoading(false);
+
+        // Show generic message if 401 (Wrong password or userId)
+        final String errorMessage = fail.statusCode == 401
+            ? "User ID or Password is wrong"
+            : fail.message;
+
+        Get.snackbar(
+          "Login Failed",
+          errorMessage,
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.redAccent,
+          colorText: Colors.white,
+          margin: const EdgeInsets.all(10),
+          borderRadius: 10,
+        );
       },
           (success) async {
         // Extract user data

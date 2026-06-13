@@ -508,7 +508,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                           children: [
                             const TextSpan(
                               text:
-                                  "You are doing Well ! Keep it Up! You are making exceptional progress in ",
+                                  "You are doing well! Keep it up! You are making exceptional progress in ",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.w700,
