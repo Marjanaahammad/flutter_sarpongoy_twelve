@@ -1,739 +1,349 @@
-// class GetStudentDetailsResponseModel {
-//   final bool? success;
-//   final String? message;
-//   final StudentDetailsData? data;
-
-//   GetStudentDetailsResponseModel({this.success, this.message, this.data});
-
-//   factory GetStudentDetailsResponseModel.fromJson(Map<String, dynamic> json) {
-//     return GetStudentDetailsResponseModel(
-//       success: json['success'],
-//       message: json['message'],
-//       data: StudentDetailsData.fromJson(
-//         json.containsKey('data') ? json['data'] : json,
-//       ),
-//     );
-//   }
-// }
-
-// class StudentDetailsData {
-//   final Student? student;
-//   final ProgressSheet? progressSheet;
-//   final Map<String, StudentRecentWork>? recentWork;
-//   final Map<String, SubjectWisePercentage>? subjectWise;
-
-//   StudentDetailsData({
-//     this.student,
-//     this.progressSheet,
-//     this.recentWork,
-//     this.subjectWise,
-//   });
-
-//   factory StudentDetailsData.fromJson(Map<String, dynamic> json) {
-//     return StudentDetailsData(
-//       student: json['student'] != null
-//           ? Student.fromJson(json['student'])
-//           : null,
-//       progressSheet: json['progressSheet'] != null
-//           ? ProgressSheet.fromJson(json['progressSheet'])
-//           : null,
-//       recentWork: json['recentWork'] != null
-//           ? (json['recentWork'] as Map<String, dynamic>).map(
-//               (key, value) => MapEntry(key, StudentRecentWork.fromJson(value)),
-//             )
-//           : null,
-//       subjectWise: json['subjectWise'] != null
-//           ? (json['subjectWise'] as Map<String, dynamic>).map(
-//               (key, value) =>
-//                   MapEntry(key, SubjectWisePercentage.fromJson(value)),
-//             )
-//           : null,
-//     );
-//   }
-// }
-
-// class Student {
-//   final String? id;
-//   final String? studentName;
-//   final String? userId;
-//   final String? schoolName;
-//   final String? schoolCode;
-//   final String? gradeLevel;
-//   final String? status;
-//   final Picture? picture;
-
-//   Student({
-//     this.id,
-//     this.studentName,
-//     this.userId,
-//     this.schoolName,
-//     this.schoolCode,
-//     this.gradeLevel,
-//     this.status,
-//     this.picture,
-//   });
-
-//   factory Student.fromJson(Map<String, dynamic> json) {
-//     return Student(
-//       id: json['_id'],
-//       studentName: json['studentName'],
-//       userId: json['userId'],
-//       schoolName: json['schoolName'],
-//       schoolCode: json['schoolCode'],
-//       gradeLevel: json['gradeLevel'],
-//       status: json['status'],
-//       picture: json['picture'] != null
-//           ? Picture.fromJson(json['picture'])
-//           : null,
-//     );
-//   }
-// }
-
-// class Picture {
-//   final String? publicId;
-//   final String? url;
-
-//   Picture({this.publicId, this.url});
-
-//   factory Picture.fromJson(Map<String, dynamic> json) {
-//     return Picture(publicId: json['public_id'], url: json['url']);
-//   }
-// }
-
-// class ProgressSheet {
-//   final List<CourseWiseOverview>? courseWiseOverview;
-//   final ActivityMarks? marks;
-
-//   ProgressSheet({this.courseWiseOverview, this.marks});
-
-//   factory ProgressSheet.fromJson(Map<String, dynamic> json) {
-//     return ProgressSheet(
-//       courseWiseOverview: (json['courseWiseOverview'] as List?)
-//           ?.map((e) => CourseWiseOverview.fromJson(e))
-//           .toList(),
-//       marks: json['marks'] != null
-//           ? ActivityMarks.fromJson(json['marks'])
-//           : null,
-//     );
-//   }
-// }
-
-// class CourseWiseOverview {
-//   final String? courseId;
-//   final String? subject;
-//   final int? activityCount;
-//   final num? totalHours;
-//   final num? avgDailyHours;
-//   final num? avgQuizScore;
-//   final num? completionRate;
-
-//   CourseWiseOverview({
-//     this.courseId,
-//     this.subject,
-//     this.activityCount,
-//     this.totalHours,
-//     this.avgDailyHours,
-//     this.avgQuizScore,
-//     this.completionRate,
-//   });
-
-//   factory CourseWiseOverview.fromJson(Map<String, dynamic> json) {
-//     return CourseWiseOverview(
-//       courseId: json['courseId'],
-//       subject: json['subject'],
-//       activityCount: json['activityCount'],
-//       totalHours: json['totalHours'],
-//       avgDailyHours: json['avgDailyHours'],
-//       avgQuizScore: json['avgQuizScore'],
-//       completionRate: json['completionRate'] != null
-//           ? (json['completionRate'] as num).toDouble()
-//           : null,
-//     );
-//   }
-// }
-
-// class ActivityMarks {
-//   final List<DayActivity>? days;
-//   final ActivityTotals? totals;
-
-//   ActivityMarks({this.days, this.totals});
-
-//   factory ActivityMarks.fromJson(Map<String, dynamic> json) {
-//     return ActivityMarks(
-//       days: (json['days'] as List?)
-//           ?.map((e) => DayActivity.fromJson(e))
-//           .toList(),
-//       totals: json['totals'] != null
-//           ? ActivityTotals.fromJson(json['totals'])
-//           : null,
-//     );
-//   }
-// }
-
-// class DayActivity {
-//   final String? label;
-//   final String? date;
-//   final int? activityCount;
-//   final num? totalHours;
-//   final num? avgQuizScore;
-
-//   DayActivity({
-//     this.label,
-//     this.date,
-//     this.activityCount,
-//     this.totalHours,
-//     this.avgQuizScore,
-//   });
-
-//   factory DayActivity.fromJson(Map<String, dynamic> json) {
-//     return DayActivity(
-//       label: json['label'],
-//       date: json['date'],
-//       activityCount: json['activityCount'],
-//       totalHours: json['totalHours'],
-//       avgQuizScore: json['avgQuizScore'],
-//     );
-//   }
-// }
-
-// class ActivityTotals {
-//   final int? activityCount;
-//   final num? totalHours;
-//   final num? avgQuizScore;
-//   final num? avgDailyHours;
-
-//   ActivityTotals({
-//     this.activityCount,
-//     this.totalHours,
-//     this.avgQuizScore,
-//     this.avgDailyHours,
-//   });
-
-//   factory ActivityTotals.fromJson(Map<String, dynamic> json) {
-//     return ActivityTotals(
-//       activityCount: json['activityCount'],
-//       totalHours: json['totalHours'],
-//       avgQuizScore: json['avgQuizScore'],
-//       avgDailyHours: json['avgDailyHours'],
-//     );
-//   }
-// }
-
-// class StudentRecentWork {
-//   final num? practice;
-//   final num? quiz;
-//   final num? practiceOriginalScore;
-//   final num? quizOriginalScore;
-//   final num? lowestQuizScore;
-
-//   StudentRecentWork({
-//     this.practice,
-//     this.quiz,
-//     this.practiceOriginalScore,
-//     this.quizOriginalScore,
-//     this.lowestQuizScore,
-//   });
-
-//   factory StudentRecentWork.fromJson(Map<String, dynamic> json) {
-//     return StudentRecentWork(
-//       practice: json['practice'],
-//       quiz: json['quiz'],
-//       practiceOriginalScore: json['practice original Score'],
-//       quizOriginalScore: json['quiz original score'],
-//       lowestQuizScore: json['lowest quiz score'],
-//     );
-//   }
-// }
-
-// class SubjectWisePercentage {
-//   final num? percentage;
-
-//   SubjectWisePercentage({this.percentage});
-
-//   factory SubjectWisePercentage.fromJson(Map<String, dynamic> json) {
-//     return SubjectWisePercentage(percentage: json['percentage']);
-//   }
-// }
-
-
-
-// import 'package:flutter/material.dart';
 
 // class GetStudentDetailsResponseModel {
-//   final Student? student;
-//   final Filters? filters;
-//   final Overview? overview;
+//   final Student student;
+//   final Filters filters;
+//   final Overview overview;
 
 //   GetStudentDetailsResponseModel({
-//     this.student,
-//     this.filters,
-//     this.overview,
+//     required this.student,
+//     required this.filters,
+//     required this.overview,
 //   });
 
 //   factory GetStudentDetailsResponseModel.fromJson(Map<String, dynamic> json) {
 //     return GetStudentDetailsResponseModel(
-//       student:
-//           json['student'] != null ? Student.fromJson(json['student']) : null,
-//       filters:
-//           json['filters'] != null ? Filters.fromJson(json['filters']) : null,
-//       overview:
-//           json['overview'] != null ? Overview.fromJson(json['overview']) : null,
+//       student: Student.fromJson(json['student']),
+//       filters: Filters.fromJson(json['filters']),
+//       overview: Overview.fromJson(json['overview']),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'student': student?.toJson(),
-//         'filters': filters?.toJson(),
-//         'overview': overview?.toJson(),
-//       };
 // }
 
 // class Student {
-//   final String? id;
-//   final String? studentName;
-//   final String? userId;
-//   final String? schoolName;
-//   final String? schoolCode;
-//   final String? gradeLevel;
-//   final String? status;
+//   final String id;
+//   final String studentName;
+//   final String userId;
+//   final String schoolName;
+//   final String schoolCode;
+//   final String gradeLevel;
+//   final String status;
 //   final String? lastLoginAt;
-//   final Picture? picture;
+//   final Picture picture;
 
 //   Student({
-//     this.id,
-//     this.studentName,
-//     this.userId,
-//     this.schoolName,
-//     this.schoolCode,
-//     this.gradeLevel,
-//     this.status,
-//     this.lastLoginAt,
-//     this.picture,
+//     required this.id,
+//     required this.studentName,
+//     required this.userId,
+//     required this.schoolName,
+//     required this.schoolCode,
+//     required this.gradeLevel,
+//     required this.status,
+//     required this.lastLoginAt,
+//     required this.picture,
 //   });
 
 //   factory Student.fromJson(Map<String, dynamic> json) {
 //     return Student(
-//       id: json['_id'],
-//       studentName: json['studentName'],
-//       userId: json['userId'],
-//       schoolName: json['schoolName'],
-//       schoolCode: json['schoolCode'],
-//       gradeLevel: json['gradeLevel'],
-//       status: json['status'],
+//       id: json['_id'] ?? '',
+//       studentName: json['studentName'] ?? '',
+//       userId: json['userId'] ?? '',
+//       schoolName: json['schoolName'] ?? '',
+//       schoolCode: json['schoolCode'] ?? '',
+//       gradeLevel: json['gradeLevel'] ?? '',
+//       status: json['status'] ?? '',
 //       lastLoginAt: json['lastLoginAt'],
-//       picture:
-//           json['picture'] != null ? Picture.fromJson(json['picture']) : null,
+//       picture: Picture.fromJson(json['picture'] ?? {}),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         '_id': id,
-//         'studentName': studentName,
-//         'userId': userId,
-//         'schoolName': schoolName,
-//         'schoolCode': schoolCode,
-//         'gradeLevel': gradeLevel,
-//         'status': status,
-//         'lastLoginAt': lastLoginAt,
-//         'picture': picture?.toJson(),
-//       };
 // }
 
 // class Picture {
-//   final String? publicId;
-//   final String? url;
+//   final String publicId;
+//   final String url;
 
 //   Picture({
-//     this.publicId,
-//     this.url,
+//     required this.publicId,
+//     required this.url,
 //   });
 
 //   factory Picture.fromJson(Map<String, dynamic> json) {
 //     return Picture(
-//       publicId: json['public_id'],
-//       url: json['url'],
+//       publicId: json['public_id'] ?? '',
+//       url: json['url'] ?? '',
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'public_id': publicId,
-//         'url': url,
-//       };
 // }
 
 // class Filters {
-//   final String? gradeLevel;
-//   final String? timePeriod;
-//   final String? subject;
-//   final List<String>? gradeLevels;
-//   final List<String>? timePeriods;
-//   final List<String>? subjects;
+//   final String gradeLevel;
+//   final String timePeriod;
+//   final String subject;
+//   final List<String> gradeLevels;
+//   final List<String> timePeriods;
+//   final List<String> subjects;
 
 //   Filters({
-//     this.gradeLevel,
-//     this.timePeriod,
-//     this.subject,
-//     this.gradeLevels,
-//     this.timePeriods,
-//     this.subjects,
+//     required this.gradeLevel,
+//     required this.timePeriod,
+//     required this.subject,
+//     required this.gradeLevels,
+//     required this.timePeriods,
+//     required this.subjects,
 //   });
 
 //   factory Filters.fromJson(Map<String, dynamic> json) {
 //     return Filters(
-//       gradeLevel: json['gradeLevel'],
-//       timePeriod: json['timePeriod'],
-//       subject: json['subject'],
-//       gradeLevels: (json['gradeLevels'] as List?)
-//           ?.map((e) => e.toString())
-//           .toList(),
-//       timePeriods: (json['timePeriods'] as List?)
-//           ?.map((e) => e.toString())
-//           .toList(),
-//       subjects:
-//           (json['subjects'] as List?)?.map((e) => e.toString()).toList(),
+//       gradeLevel: json['gradeLevel'] ?? '',
+//       timePeriod: json['timePeriod'] ?? '',
+//       subject: json['subject'] ?? '',
+//       gradeLevels: List<String>.from(json['gradeLevels'] ?? []),
+//       timePeriods: List<String>.from(json['timePeriods'] ?? []),
+//       subjects: List<String>.from(json['subjects'] ?? []),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'gradeLevel': gradeLevel,
-//         'timePeriod': timePeriod,
-//         'subject': subject,
-//         'gradeLevels': gradeLevels,
-//         'timePeriods': timePeriods,
-//         'subjects': subjects,
-//       };
 // }
 
 // class Overview {
-//   final Summary? summary;
-//   final List<SubjectProgress>? subjectProgress;
-//   final List<CourseWiseOverview>? courseWiseOverview;
-//   final WeeklyActivity? weeklyActivity;
-//   final List<ActivityBreakdown>? activityBreakdown;
-//   final List<RecentWork>? recentWork;
+//   final Summary summary;
+//   final List<SubjectProgress> subjectProgress;
+//   final List<CourseWiseOverview> courseWiseOverview;
+//   final MonthlyActivity monthlyActivity;
+//   final List<ActivityBreakdown> activityBreakdown;
+//   final List<RecentWork> recentWork;
 
 //   Overview({
-//     this.summary,
-//     this.subjectProgress,
-//     this.courseWiseOverview,
-//     this.weeklyActivity,
-//     this.activityBreakdown,
-//     this.recentWork,
+//     required this.summary,
+//     required this.subjectProgress,
+//     required this.courseWiseOverview,
+//     required this.monthlyActivity,
+//     required this.activityBreakdown,
+//     required this.recentWork,
 //   });
 
 //   factory Overview.fromJson(Map<String, dynamic> json) {
 //     return Overview(
-//       summary:
-//           json['summary'] != null ? Summary.fromJson(json['summary']) : null,
-//       subjectProgress: (json['subjectProgress'] as List?)
-//           ?.map((e) => SubjectProgress.fromJson(e))
+//       summary: Summary.fromJson(json['summary'] ?? {}),
+//       subjectProgress: (json['subjectProgress'] as List? ?? [])
+//           .map((e) => SubjectProgress.fromJson(e))
 //           .toList(),
-//       courseWiseOverview: (json['courseWiseOverview'] as List?)
-//           ?.map((e) => CourseWiseOverview.fromJson(e))
+//       courseWiseOverview: (json['courseWiseOverview'] as List? ?? [])
+//           .map((e) => CourseWiseOverview.fromJson(e))
 //           .toList(),
-//       weeklyActivity: json['weeklyActivity'] != null
-//           ? WeeklyActivity.fromJson(json['weeklyActivity'])
-//           : null,
-//       activityBreakdown: (json['activityBreakdown'] as List?)
-//           ?.map((e) => ActivityBreakdown.fromJson(e))
+//       monthlyActivity:
+//           MonthlyActivity.fromJson(json['monthlyActivity'] ?? {}),
+//       activityBreakdown: (json['activityBreakdown'] as List? ?? [])
+//           .map((e) => ActivityBreakdown.fromJson(e))
 //           .toList(),
-//       recentWork: (json['recentWork'] as List?)
-//           ?.map((e) => RecentWork.fromJson(e))
+//       recentWork: (json['recentWork'] as List? ?? [])
+//           .map((e) => RecentWork.fromJson(e))
 //           .toList(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'summary': summary?.toJson(),
-//         'subjectProgress':
-//             subjectProgress?.map((e) => e.toJson()).toList(),
-//         'courseWiseOverview':
-//             courseWiseOverview?.map((e) => e.toJson()).toList(),
-//         'weeklyActivity': weeklyActivity?.toJson(),
-//         'activityBreakdown':
-//             activityBreakdown?.map((e) => e.toJson()).toList(),
-//         'recentWork': recentWork?.map((e) => e.toJson()).toList(),
-//       };
 // }
 
 // class Summary {
-//   final int? activityCount;
-//   final num? totalHours;
-//   final num? avgDailyHours;
-//   final num? avgQuizScore;
+//   final int activityCount;
+//   final double totalHours;
+//   final double avgDailyHours;
+//   final double avgQuizScore;
 
 //   Summary({
-//     this.activityCount,
-//     this.totalHours,
-//     this.avgDailyHours,
-//     this.avgQuizScore,
+//     required this.activityCount,
+//     required this.totalHours,
+//     required this.avgDailyHours,
+//     required this.avgQuizScore,
 //   });
 
 //   factory Summary.fromJson(Map<String, dynamic> json) {
 //     return Summary(
-//       activityCount: json['activityCount'],
-//       totalHours: json['totalHours'],
-//       avgDailyHours: json['avgDailyHours'],
-//       avgQuizScore: json['avgQuizScore'],
+//       activityCount: json['activityCount'] ?? 0,
+//       totalHours: (json['totalHours'] ?? 0).toDouble(),
+//       avgDailyHours: (json['avgDailyHours'] ?? 0).toDouble(),
+//       avgQuizScore: (json['avgQuizScore'] ?? 0).toDouble(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'activityCount': activityCount,
-//         'totalHours': totalHours,
-//         'avgDailyHours': avgDailyHours,
-//         'avgQuizScore': avgQuizScore,
-//       };
 // }
 
 // class SubjectProgress {
-//   final String? subject;
-//   final num? completionRate;
+//   final String subject;
+//   final double completionRate;
 
 //   SubjectProgress({
-//     this.subject,
-//     this.completionRate,
+//     required this.subject,
+//     required this.completionRate,
 //   });
 
 //   factory SubjectProgress.fromJson(Map<String, dynamic> json) {
 //     return SubjectProgress(
-//       subject: json['subject'],
-//       completionRate: json['completionRate'],
+//       subject: json['subject'] ?? '',
+//       completionRate: (json['completionRate'] ?? 0).toDouble(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'subject': subject,
-//         'completionRate': completionRate,
-//       };
 // }
 
 // class CourseWiseOverview {
-//   final String? courseId;
-//   final String? subject;
-//   final num? avgDailyHours;
-//   final num? avgQuizScore;
-//   final num? completionRate;
-//   final num? activityCount;
-//   final num? totalHours;
+//   final String courseId;
+//   final String subject;
+//   final double avgDailyHours;
+//   final double avgQuizScore;
+//   final double avgInitialQuizScore;
+//   final double completionRate;
 
 //   CourseWiseOverview({
-//     this.courseId,
-//     this.subject,
-//     this.avgDailyHours,
-//     this.avgQuizScore,
-//     this.completionRate,
-//     this.activityCount,
-//     this.totalHours,
+//     required this.courseId,
+//     required this.subject,
+//     required this.avgDailyHours,
+//     required this.avgQuizScore,
+//     required this.avgInitialQuizScore,
+//     required this.completionRate,
 //   });
 
 //   factory CourseWiseOverview.fromJson(Map<String, dynamic> json) {
 //     return CourseWiseOverview(
-//       courseId: json['courseId'],
-//       subject: json['subject'],
-//       avgDailyHours: json['avgDailyHours'],
-//       avgQuizScore: json['avgQuizScore'],
-//       completionRate: json['completionRate'],
-//       activityCount: json['activityCount'],
-//       totalHours: json['totalHours'],
+//       courseId: json['courseId'] ?? '',
+//       subject: json['subject'] ?? '',
+//       avgDailyHours: (json['avgDailyHours'] ?? 0).toDouble(),
+//       avgQuizScore: (json['avgQuizScore'] ?? 0).toDouble(),
+//       avgInitialQuizScore: (json['avgInitialQuizScore'] ?? (json['avgOriginalQuizScore'] ?? 0)).toDouble(),
+//       completionRate: (json['completionRate'] ?? 0).toDouble(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'courseId': courseId,
-//         'subject': subject,
-//         'avgDailyHours': avgDailyHours,
-//         'avgQuizScore': avgQuizScore,
-//         'completionRate': completionRate,
-//         'activityCount': activityCount,
-//         'totalHours': totalHours,
-//       };
 // }
 
-// class WeeklyActivity {
-//   final List<WeeklyDay>? days;
-//   final WeeklyTotals? totals;
+// class MonthlyActivity {
+//   final List<MonthData> months;
+//   final MonthlyTotals totals;
 
-//   WeeklyActivity({
-//     this.days,
-//     this.totals,
+//   MonthlyActivity({
+//     required this.months,
+//     required this.totals,
 //   });
 
-//   factory WeeklyActivity.fromJson(Map<String, dynamic> json) {
-//     return WeeklyActivity(
-//       days: (json['days'] as List?)
-//           ?.map((e) => WeeklyDay.fromJson(e))
+//   factory MonthlyActivity.fromJson(Map<String, dynamic> json) {
+//     return MonthlyActivity(
+//       months: (json['months'] as List? ?? [])
+//           .map((e) => MonthData.fromJson(e))
 //           .toList(),
-//       totals:
-//           json['totals'] != null ? WeeklyTotals.fromJson(json['totals']) : null,
+//       totals: MonthlyTotals.fromJson(json['totals'] ?? {}),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'days': days?.map((e) => e.toJson()).toList(),
-//         'totals': totals?.toJson(),
-//       };
 // }
 
-// class WeeklyDay {
-//   final String? label;
-//   final String? date;
-//   final num? avgDailyHours;
-//   final num? avgQuizScore;
-//   final num? totalHours;
-//   final int? activityCount;
+// class MonthData {
+//   final String label;
+//   final String key;
+//   final double avgDailyHours;
+//   final double avgQuizScore;
 
-//   WeeklyDay({
-//     this.label,
-//     this.date,
-//     this.avgDailyHours,
-//     this.avgQuizScore,
-//     this.totalHours,
-//     this.activityCount,
+//   MonthData({
+//     required this.label,
+//     required this.key,
+//     required this.avgDailyHours,
+//     required this.avgQuizScore,
 //   });
 
-//   factory WeeklyDay.fromJson(Map<String, dynamic> json) {
-//     return WeeklyDay(
-//       label: json['label'],
-//       date: json['date'],
-//       avgDailyHours: json['avgDailyHours'],
-//       avgQuizScore: json['avgQuizScore'],
-//       totalHours: json['totalHours'],
-//       activityCount: json['activityCount'],
+//   factory MonthData.fromJson(Map<String, dynamic> json) {
+//     return MonthData(
+//       label: json['label'] ?? '',
+//       key: json['key'] ?? '',
+//       avgDailyHours: (json['avgDailyHours'] ?? 0).toDouble(),
+//       avgQuizScore: (json['avgQuizScore'] ?? 0).toDouble(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'label': label,
-//         'date': date,
-//         'avgDailyHours': avgDailyHours,
-//         'avgQuizScore': avgQuizScore,
-//         'totalHours': totalHours,
-//         'activityCount': activityCount,
-//       };
 // }
 
-// class WeeklyTotals {
-//   final num? avgQuizScore;
-//   final num? avgDailyHours;
-//   final num? totalHours;
-//   final int? activityCount;
+// class MonthlyTotals {
+//   final double avgDailyHours;
+//   final double avgQuizScore;
 
-//   WeeklyTotals({
-//     this.avgQuizScore,
-//     this.avgDailyHours,
-//     this.totalHours,
-//     this.activityCount,
+//   MonthlyTotals({
+//     required this.avgDailyHours,
+//     required this.avgQuizScore,
 //   });
 
-//   factory WeeklyTotals.fromJson(Map<String, dynamic> json) {
-//     return WeeklyTotals(
-//       avgQuizScore: json['avgQuizScore'],
-//       avgDailyHours: json['avgDailyHours'],
-//       totalHours: json['totalHours'],
-//       activityCount: json['activityCount'],
+//   factory MonthlyTotals.fromJson(Map<String, dynamic> json) {
+//     return MonthlyTotals(
+//       avgDailyHours: (json['avgDailyHours'] ?? 0).toDouble(),
+//       avgQuizScore: (json['avgQuizScore'] ?? 0).toDouble(),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'avgQuizScore': avgQuizScore,
-//         'avgDailyHours': avgDailyHours,
-//         'totalHours': totalHours,
-//         'activityCount': activityCount,
-//       };
 // }
 
 // class ActivityBreakdown {
-//   final int? total;
-//   final int? completed;
-//   final String? activityType;
+//   final int total;
+//   final int completed;
+//   final String activityType;
 
 //   ActivityBreakdown({
-//     this.total,
-//     this.completed,
-//     this.activityType,
+//     required this.total,
+//     required this.completed,
+//     required this.activityType,
 //   });
 
 //   factory ActivityBreakdown.fromJson(Map<String, dynamic> json) {
 //     return ActivityBreakdown(
-//       total: json['total'],
-//       completed: json['completed'],
-//       activityType: json['activityType'],
+//       total: json['total'] ?? 0,
+//       completed: json['completed'] ?? 0,
+//       activityType: json['activityType'] ?? '',
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'total': total,
-//         'completed': completed,
-//         'activityType': activityType,
-//       };
 // }
 
 // class RecentWork {
-//   final String? subject;
-//   final String? date;
-//   final num? practiceScore;
-//   final num? quizScore;
-//   final Lesson? lesson;
+//   final String subject;
+//   final String date;
+//   final String activityType;
+//   final int? score;
+//   final int? practiceScore;
+//   final int? quizScore;
+//   final Lesson lesson;
 
 //   RecentWork({
-//     this.subject,
-//     this.date,
+//     required this.subject,
+//     required this.date,
+//     required this.activityType,
+//     this.score,
 //     this.practiceScore,
 //     this.quizScore,
-//     this.lesson,
+//     required this.lesson,
 //   });
 
 //   factory RecentWork.fromJson(Map<String, dynamic> json) {
 //     return RecentWork(
-//       subject: json['subject'],
-//       date: json['date'],
+//       subject: json['subject'] ?? '',
+//       date: json['date'] ?? '',
+//       activityType: json['activityType'] ?? '',
+//       score: json['score'],
 //       practiceScore: json['practiceScore'],
 //       quizScore: json['quizScore'],
-//       lesson: json['lesson'] != null
-//           ? Lesson.fromJson(json['lesson'])
-//           : null,
+//       lesson: Lesson.fromJson(json['lesson'] ?? {}),
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'subject': subject,
-//         'date': date,
-//         'practiceScore': practiceScore,
-//         'quizScore': quizScore,
-//         'lesson': lesson?.toJson(),
-//       };
 // }
 
 // class Lesson {
-//   final String? strand;
-//   final String? subStrand;
-//   final int? lessonNumber;
-//   final String? title;
+//   final String strand;
+//   final String subStrand;
+//   final int lessonNumber;
+//   final String title;
 
 //   Lesson({
-//     this.strand,
-//     this.subStrand,
-//     this.lessonNumber,
-//     this.title,
+//     required this.strand,
+//     required this.subStrand,
+//     required this.lessonNumber,
+//     required this.title,
 //   });
 
 //   factory Lesson.fromJson(Map<String, dynamic> json) {
 //     return Lesson(
-//       strand: json['strand'],
-//       subStrand: json['subStrand'],
-//       lessonNumber: json['lessonNumber'],
-//       title: json['title'],
+//       strand: json['strand'] ?? '',
+//       subStrand: json['subStrand'] ?? '',
+//       lessonNumber: json['lessonNumber'] ?? 0,
+//       title: json['title'] ?? '',
 //     );
 //   }
-
-//   Map<String, dynamic> toJson() => {
-//         'strand': strand,
-//         'subStrand': subStrand,
-//         'lessonNumber': lessonNumber,
-//         'title': title,
-//       };
 // }
+
 class GetStudentDetailsResponseModel {
   final Student student;
   final Filters filters;
@@ -752,6 +362,12 @@ class GetStudentDetailsResponseModel {
       overview: Overview.fromJson(json['overview']),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        'student': student.toJson(),
+        'filters': filters.toJson(),
+        'overview': overview.toJson(),
+      };
 }
 
 class Student {
@@ -790,6 +406,18 @@ class Student {
       picture: Picture.fromJson(json['picture'] ?? {}),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        '_id': id,
+        'studentName': studentName,
+        'userId': userId,
+        'schoolName': schoolName,
+        'schoolCode': schoolCode,
+        'gradeLevel': gradeLevel,
+        'status': status,
+        'lastLoginAt': lastLoginAt,
+        'picture': picture.toJson(),
+      };
 }
 
 class Picture {
@@ -807,6 +435,11 @@ class Picture {
       url: json['url'] ?? '',
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        'public_id': publicId,
+        'url': url,
+      };
 }
 
 class Filters {
@@ -836,6 +469,15 @@ class Filters {
       subjects: List<String>.from(json['subjects'] ?? []),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        'gradeLevel': gradeLevel,
+        'timePeriod': timePeriod,
+        'subject': subject,
+        'gradeLevels': gradeLevels,
+        'timePeriods': timePeriods,
+        'subjects': subjects,
+      };
 }
 
 class Overview {
@@ -845,6 +487,7 @@ class Overview {
   final MonthlyActivity monthlyActivity;
   final List<ActivityBreakdown> activityBreakdown;
   final List<RecentWork> recentWork;
+  final List<QuizScoreTable> quizScoreTable;
 
   Overview({
     required this.summary,
@@ -853,6 +496,7 @@ class Overview {
     required this.monthlyActivity,
     required this.activityBreakdown,
     required this.recentWork,
+    required this.quizScoreTable,
   });
 
   factory Overview.fromJson(Map<String, dynamic> json) {
@@ -872,8 +516,13 @@ class Overview {
       recentWork: (json['recentWork'] as List? ?? [])
           .map((e) => RecentWork.fromJson(e))
           .toList(),
+      quizScoreTable: (json['quizScoreTable'] as List? ?? [])
+          .map((e) => QuizScoreTable.fromJson(e))
+          .toList(),
     );
   }
+
+  Map<String, dynamic> toJson() => {};
 }
 
 class Summary {
@@ -943,7 +592,7 @@ class CourseWiseOverview {
 }
 
 class MonthlyActivity {
-  final List<MonthData> months;
+  final List<MonthlyRecord> months;
   final MonthlyTotals totals;
 
   MonthlyActivity({
@@ -954,28 +603,28 @@ class MonthlyActivity {
   factory MonthlyActivity.fromJson(Map<String, dynamic> json) {
     return MonthlyActivity(
       months: (json['months'] as List? ?? [])
-          .map((e) => MonthData.fromJson(e))
+          .map((e) => MonthlyRecord.fromJson(e))
           .toList(),
       totals: MonthlyTotals.fromJson(json['totals'] ?? {}),
     );
   }
 }
 
-class MonthData {
+class MonthlyRecord {
   final String label;
   final String key;
   final double avgDailyHours;
   final double avgQuizScore;
 
-  MonthData({
+  MonthlyRecord({
     required this.label,
     required this.key,
     required this.avgDailyHours,
     required this.avgQuizScore,
   });
 
-  factory MonthData.fromJson(Map<String, dynamic> json) {
-    return MonthData(
+  factory MonthlyRecord.fromJson(Map<String, dynamic> json) {
+    return MonthlyRecord(
       label: json['label'] ?? '',
       key: json['key'] ?? '',
       avgDailyHours: (json['avgDailyHours'] ?? 0).toDouble(),
@@ -1025,18 +674,18 @@ class RecentWork {
   final String subject;
   final String date;
   final String activityType;
-  final int? score;
-  final int? practiceScore;
-  final int? quizScore;
+  final int score;
+  final int practiceScore;
+  final int quizScore;
   final Lesson lesson;
 
   RecentWork({
     required this.subject,
     required this.date,
     required this.activityType,
-    this.score,
-    this.practiceScore,
-    this.quizScore,
+    required this.score,
+    required this.practiceScore,
+    required this.quizScore,
     required this.lesson,
   });
 
@@ -1045,9 +694,9 @@ class RecentWork {
       subject: json['subject'] ?? '',
       date: json['date'] ?? '',
       activityType: json['activityType'] ?? '',
-      score: json['score'],
-      practiceScore: json['practiceScore'],
-      quizScore: json['quizScore'],
+      score: json['score'] ?? 0,
+      practiceScore: json['practiceScore'] ?? 0,
+      quizScore: json['quizScore'] ?? 0,
       lesson: Lesson.fromJson(json['lesson'] ?? {}),
     );
   }
@@ -1056,7 +705,7 @@ class RecentWork {
 class Lesson {
   final String strand;
   final String subStrand;
-  final int lessonNumber;
+  final String lessonNumber;
   final String title;
 
   Lesson({
@@ -1070,8 +719,28 @@ class Lesson {
     return Lesson(
       strand: json['strand'] ?? '',
       subStrand: json['subStrand'] ?? '',
-      lessonNumber: json['lessonNumber'] ?? 0,
+      lessonNumber: json['lessonNumber'] ?? '',
       title: json['title'] ?? '',
+    );
+  }
+}
+
+class QuizScoreTable {
+  final String subject;
+  final double avgFirstAttempt;
+  final double avgLatestAttempt;
+
+  QuizScoreTable({
+    required this.subject,
+    required this.avgFirstAttempt,
+    required this.avgLatestAttempt,
+  });
+
+  factory QuizScoreTable.fromJson(Map<String, dynamic> json) {
+    return QuizScoreTable(
+      subject: json['subject'] ?? '',
+      avgFirstAttempt: (json['avgFirstAttempt'] ?? 0).toDouble(),
+      avgLatestAttempt: (json['avgLatestAttempt'] ?? 0).toDouble(),
     );
   }
 }

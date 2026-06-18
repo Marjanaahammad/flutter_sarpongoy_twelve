@@ -1,5 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
+import 'package:no_screenshot/no_screenshot.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,7 +21,7 @@ class TeacherDashboardScreen extends StatefulWidget {
 class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   late final TeacherProfileController _profileController;
   late final TeacherDashboardController _dashboardController;
-
+  final _noScreenshot = NoScreenshot.instance;
   // ───────── colour palette ─────────
   static const _green = Color(0xFF019E2E);
   static const _cardBorder = Color(0xFFE0E0E0);
@@ -42,6 +43,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   @override
   void initState() {
     super.initState();
+    _noScreenshot.screenshotOff();
     _profileController = Get.put(TeacherProfileController());
     _dashboardController = Get.put(TeacherDashboardController());
 
@@ -54,6 +56,12 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       gradeLevel: 'All',
       timePeriod: 'Past Year',
     );
+  }
+
+  @override
+  void dispose() {
+    _noScreenshot.screenshotOn();
+    super.dispose();
   }
 
   @override
@@ -136,13 +144,15 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                   ),
                   const SizedBox(width: 16),
                   ClipOval(
-                    child: (teacher?.name ?? '').isNotEmpty && (teacher?.picture?.url ?? '').isNotEmpty
+                    child: (teacher?.name ?? '').isNotEmpty &&
+                            (teacher?.picture?.url ?? '').isNotEmpty
                         ? Image.network(
                             teacher?.picture?.url ?? '',
                             height: 44,
                             width: 44,
                             fit: BoxFit.cover,
-                            errorBuilder: (_, __, ___) => _buildFallbackAvatar(),
+                            errorBuilder: (_, __, ___) =>
+                                _buildFallbackAvatar(),
                           )
                         : _buildFallbackAvatar(),
                   ),
@@ -159,7 +169,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   //  STAT CARDS ROW
   // ═══════════════════════════════════════════════════════════════
   Widget _buildStatCardsRow(TeacherDashboardResponse data) {
-    final counters = data.counters;
+    final counters =
+        _dashboardController.initialCounters.value ?? data.counters;
     return Row(
       children: [
         Expanded(
@@ -234,11 +245,14 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   }
 
   String _mapSubjectName(String name) {
-    if (name.toLowerCase().contains('english')) return 'English';
-    if (name.toLowerCase().contains('science')) return 'Science';
-    if (name.toLowerCase().contains('math')) return 'Math';
-    if (name.toLowerCase().contains('social study') || name.toLowerCase().contains('social science')) return 'Social Studies';
-    if (name.toLowerCase().contains('rme') || name.toLowerCase().contains('religious')) return 'RME';
+    final l = name.toLowerCase();
+    if (l.contains('social study') ||
+        l.contains('social science') ||
+        l.contains('social studies')) return 'Social Studies';
+    if (l.contains('science')) return 'Science';
+    if (l.contains('english')) return 'English';
+    if (l.contains('math')) return 'Math';
+    if (l.contains('rme') || l.contains('religious')) return 'RME';
     return name;
   }
 
@@ -256,7 +270,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   }
 
   String _mapToApiSubject(String friendlyName) {
-    if (friendlyName == 'Social Science') return 'Social Studies';
+    if (friendlyName == 'Social Studies') return 'Social Studies';
     if (friendlyName.replaceAll('\n', ' ') == 'Religious and Moral Studies') {
       return 'Religious and Moral Education';
     }
@@ -267,7 +281,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     final List<String> subjects = [
       'English',
       'Math',
-      'Social Science',
+      'Social Studies',
       'Science',
       'Religious and Moral\nStudies',
       'All'
@@ -277,8 +291,8 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       if (_selectedSubject.value == 'RME') {
         Future.microtask(
             () => _selectedSubject.value = 'Religious and Moral\nStudies');
-      } else if (_selectedSubject.value == 'Social Studies') {
-        Future.microtask(() => _selectedSubject.value = 'Social Science');
+      } else if (_selectedSubject.value == 'Social Science') {
+        Future.microtask(() => _selectedSubject.value = 'Social Studies');
       } else if (_selectedSubject.value == 'Mathematics') {
         Future.microtask(() => _selectedSubject.value = 'Math');
       } else if (_selectedSubject.value.isEmpty) {
@@ -436,8 +450,18 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     final monthsData = List<double>.filled(12, 0.0);
     final monthAverages = List<double>.filled(12, 0.0);
     final monthLabels = [
-      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 
-      'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'June',
+      'July',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec'
     ];
 
     for (var item in overviews) {
@@ -446,17 +470,28 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       int? index;
 
       // 1. Try to find month name in label
-      if (label.contains('jan')) index = 0;
-      else if (label.contains('feb')) index = 1;
-      else if (label.contains('mar')) index = 2;
-      else if (label.contains('apr')) index = 3;
-      else if (label.contains('may')) index = 4;
-      else if (label.contains('jun')) index = 5;
-      else if (label.contains('jul')) index = 6;
-      else if (label.contains('aug')) index = 7;
-      else if (label.contains('sep')) index = 8;
-      else if (label.contains('oct')) index = 9;
-      else if (label.contains('nov')) index = 10;
+      if (label.contains('jan'))
+        index = 0;
+      else if (label.contains('feb'))
+        index = 1;
+      else if (label.contains('mar'))
+        index = 2;
+      else if (label.contains('apr'))
+        index = 3;
+      else if (label.contains('may'))
+        index = 4;
+      else if (label.contains('jun'))
+        index = 5;
+      else if (label.contains('jul'))
+        index = 6;
+      else if (label.contains('aug'))
+        index = 7;
+      else if (label.contains('sep'))
+        index = 8;
+      else if (label.contains('oct'))
+        index = 9;
+      else if (label.contains('nov'))
+        index = 10;
       else if (label.contains('dec')) index = 11;
 
       // 2. Try to parse the key date (YYYY-MM-DD or YYYY-MM)
@@ -475,12 +510,12 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
       if (index != null) {
         // Capture value from 'total' OR 'completed' (backend fallback)
-        final val = (item.total?.toDouble() ?? 0.0) + 
-                    (item.toJson()['completed']?.toDouble() ?? 0.0);
+        final val = (item.total?.toDouble() ?? 0.0) +
+            (item.toJson()['completed']?.toDouble() ?? 0.0);
         monthsData[index] += val;
-        
+
         final score = (item.avgQuizScore?.toDouble() ?? 0.0) +
-                      (item.toJson()['avgQuizScore']?.toDouble() ?? 0.0);
+            (item.toJson()['avgQuizScore']?.toDouble() ?? 0.0);
         if (score > 0) monthAverages[index] = score;
       }
     }
@@ -561,14 +596,17 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 },
               ),
             ),
-            topTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
-            rightTitles: const AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            topTitles:
+                const AxisTitles(sideTitles: SideTitles(showTitles: false)),
+            rightTitles:
+                const AxisTitles(sideTitles: SideTitles(showTitles: false)),
           ),
           borderData: FlBorderData(show: false),
           lineTouchData: LineTouchData(
             touchTooltipData: LineTouchTooltipData(
               getTooltipColor: (_) => Colors.white.withOpacity(0.95),
-              tooltipBorder: const BorderSide(color: Color(0xFF2E7D32), width: 1),
+              tooltipBorder:
+                  const BorderSide(color: Color(0xFF2E7D32), width: 1),
               tooltipPadding: const EdgeInsets.all(12),
               getTooltipItems: (spots) => spots.map((s) {
                 final index = s.x.toInt();
@@ -583,23 +621,31 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                   children: [
                     TextSpan(
                       text: 'complete: Strand 1\n',
-                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32), fontSize: 11),
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xFF2E7D32), fontSize: 11),
                     ),
                     TextSpan(
                       text: 'Total Lessons: ',
-                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32), fontWeight: FontWeight.bold),
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xFF2E7D32),
+                          fontWeight: FontWeight.bold),
                     ),
                     TextSpan(
                       text: '${s.y.toInt()}\n',
-                      style: GoogleFonts.poppins(color: const Color(0xFF7B1FA2), fontWeight: FontWeight.bold),
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xFF7B1FA2),
+                          fontWeight: FontWeight.bold),
                     ),
                     TextSpan(
                       text: 'Quiz Score: ',
-                      style: GoogleFonts.poppins(color: const Color(0xFF2E7D32)),
+                      style:
+                          GoogleFonts.poppins(color: const Color(0xFF2E7D32)),
                     ),
                     TextSpan(
                       text: '${score.toStringAsFixed(1)}%',
-                      style: GoogleFonts.poppins(color: const Color(0xFF7B1FA2), fontWeight: FontWeight.bold),
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xFF7B1FA2),
+                          fontWeight: FontWeight.bold),
                     ),
                   ],
                 );
@@ -666,23 +712,26 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
   Color _getChartColor(String? subject) {
     final s = (subject ?? '').toLowerCase();
+    if (s.contains('social')) return const Color(0xFFFF9500);
+    if (s.contains('science')) return const Color(0xFFF8D700);
     if (s.contains('english')) return const Color(0xFFA533F1);
     if (s.contains('math')) return const Color(0xFF0061D7);
-    if (s.contains('science')) return const Color(0xFFF8D700);
-    if (s.contains('social')) return const Color(0xFFFF9500);
-    if (s.contains('rme') || s.contains('religious')) return const Color(0xFF4CAF50);
+    if (s.contains('rme') || s.contains('religious'))
+      return const Color(0xFF4CAF50);
     return Colors.grey;
   }
 
   // ── Donut chart ──
   Widget _buildDonutChartCard(TeacherDashboardResponse data) {
     // Use ONLY subjectMetrics from the API — no fallbacks.
+    final selectedSubject = _selectedSubject.value;
     final metrics = (data.charts?.subjectMetrics ?? [])
         .map((m) => SubjectMetric(
               subject: _mapSubjectName(m.subject ?? ''),
               avgDailyHours: m.avgDailyHours ?? 0.0,
               avgQuizScore: m.avgQuizScore ?? 0.0,
             ))
+        .where((m) => selectedSubject == 'All' || m.subject == selectedSubject)
         .toList();
 
     return Container(
@@ -814,7 +863,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
 
       if (dayIndex >= 0 && dayIndex < 7) {
         // Use hours field if available (yielding "Average Student Hours"), fallback to total
-        dayValues[dayIndex] = (w.hours ?? (w.total ?? 0).toDouble());
+        dayValues[dayIndex] = (w.total ?? (w.total ?? 0).toDouble());
       }
     }
 
@@ -866,22 +915,22 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'Average Student Hours',
+            'Past 7 Days Average Student Hours',
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: FontWeight.w500,
               color: Color(0xFF000000),
             ),
           ),
           const SizedBox(height: 4),
-          const Text(
-            'See your students per week',
-            style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-              color: Color(0xFF6C6C6C),
-            ),
-          ),
+          // const Text(
+          //   'See your students per week',
+          //   style: TextStyle(
+          //     fontSize: 16,
+          //     fontWeight: FontWeight.w400,
+          //     color: Color(0xFF6C6C6C),
+          //   ),
+          // ),
           const SizedBox(height: 24),
           Expanded(
             child: BarChart(

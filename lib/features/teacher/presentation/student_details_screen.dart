@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 
 import '../../../core/config/debug_print.dart';
+import '../../../core/no_screenshot-development/lib/no_screenshot.dart';
 import '../../teacher_profile/presentation/controller/profile_controller.dart';
 import '../data/model/get_student_details_response_model.dart';
 import 'controller/teacher_dashboard_controller.dart';
@@ -31,12 +33,15 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   String _selectedTimePeriod = 'Past 1 Month';
   String _selectedGradeLevel = 'ALL';
   String? _selectedSubjectName;
+  final _noScreenshot = NoScreenshot.instance;
 
   @override
   void initState() {
     super.initState();
+     _noScreenshot.screenshotOff();
     _dashboardController = Get.find<TeacherDashboardController>();
     _profileController = Get.find<TeacherProfileController>();
+
 
     // Fetch subjects if not already loaded or always refresh
     _dashboardController.fetchSubject();
@@ -58,6 +63,12 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       _profileController.fetchProfile();
     }
   }
+
+  //  @override
+  // void dispose() {
+  //   _noScreenshot.screenshotOn();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -103,7 +114,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                       const SizedBox(height: 24),
                       _buildSubjectDetailsSection(overviewTop, overviewBottom),
                       const SizedBox(height: 24),
-                      _buildBottomSection(overviewBottom),
+                      _buildBottomSection(overviewTop, overviewBottom),
                     ],
                   ),
                 ),
@@ -607,7 +618,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               const SizedBox(width: 12),
               _buildStatBox(
                 'Avg. Daily Hours',
-                '${summary?.avgDailyHours ?? 0.0}',
+                (summary?.avgDailyHours ?? 0.0).toStringAsFixed(2),
                 const Color(0xFFFFE8E8),
               ),
               const SizedBox(width: 12),
@@ -619,7 +630,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               const SizedBox(width: 12),
               _buildStatBox(
                 'Avg. Quiz Score',
-                '${summary?.avgQuizScore ?? 0}/100',
+                '${(summary?.avgQuizScore ?? 0) % 1 == 0 ? (summary?.avgQuizScore ?? 0).toInt() : (summary?.avgQuizScore ?? 0)}/100',
                 const Color(0xFFFED692),
               ),
             ],
@@ -741,14 +752,14 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       child: LineChart(
         LineChartData(
           minY: 0,
-          maxY: 100,
+          maxY: 12,
           minX: 0,
           maxX: 11,
           gridData: FlGridData(
             show: true,
             drawHorizontalLine: true,
             drawVerticalLine: true,
-            horizontalInterval: 25,
+            horizontalInterval: 4,
             verticalInterval: 1,
             getDrawingHorizontalLine: (value) => const FlLine(
               color: Color(0xFFE0E0E0),
@@ -766,30 +777,13 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               sideTitles: SideTitles(
                 showTitles: true,
                 reservedSize: 60,
-                interval: 25,
+                interval: 4,
                 getTitlesWidget: (value, meta) {
-                  String text;
-                  switch (value.toInt()) {
-                    case 0:
-                      text = '0-39';
-                      break;
-                    case 25:
-                      text = '40-59';
-                      break;
-                    case 50:
-                      text = '60-79';
-                      break;
-                    case 75:
-                      text = '80-100';
-                      break;
-                    case 100:
-                    default:
-                      return const SizedBox.shrink();
-                  }
+                  if (value % 4 != 0 || value > 12) return const SizedBox.shrink();
                   return SideTitleWidget(
                     axisSide: meta.axisSide,
                     child: Text(
-                      text,
+                      value.toInt().toString(),
                       style: TextStyle(
                         color: const Color(0xFF000000).withOpacity(0.7),
                         fontSize: 12,
@@ -912,7 +906,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             show: true,
             drawHorizontalLine: true,
             drawVerticalLine: true,
-            horizontalInterval: 25,
+            horizontalInterval: 20,
             verticalInterval: 1,
             getDrawingHorizontalLine: (value) => const FlLine(
               color: Color(0xFFE0E0E0),
@@ -930,30 +924,13 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               sideTitles: SideTitles(
                 showTitles: true,
                 reservedSize: 60,
-                interval: 25,
+                interval: 20,
                 getTitlesWidget: (value, meta) {
-                  String text;
-                  switch (value.toInt()) {
-                    case 0:
-                      text = '0-39';
-                      break;
-                    case 25:
-                      text = '40-59';
-                      break;
-                    case 50:
-                      text = '60-79';
-                      break;
-                    case 75:
-                      text = '80-100';
-                      break;
-                    case 100:
-                    default:
-                      return const SizedBox.shrink();
-                  }
+                  if (value > 100) return const SizedBox.shrink();
                   return SideTitleWidget(
                     axisSide: meta.axisSide,
                     child: Text(
-                      text,
+                      '${value.toInt()}',
                       style: TextStyle(
                         color: const Color(0xFF000000).withOpacity(0.7),
                         fontSize: 12,
@@ -998,7 +975,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             show: true,
             border: const Border(
               bottom: BorderSide(color: Color(0xFFE0E0E0), width: 1),
-              left: BorderSide.none,
+              left: BorderSide(color: Color(0xFFE0E0E0), width: 1),
               right: BorderSide.none,
               top: BorderSide.none,
             ),
@@ -1074,7 +1051,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildBottomSection(GetStudentDetailsResponseModel? data) {
+  Widget _buildBottomSection(GetStudentDetailsResponseModel? topData, GetStudentDetailsResponseModel? bottomData) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -1088,7 +1065,20 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildProgressChart(data?.overview?.subjectProgress),
+          child: _buildProgressChart(topData?.overview?.subjectProgress.where((p) {
+            if (_selectedSubjectName == null ||
+                _selectedSubjectName == 'All' ||
+                _selectedSubjectName == 'ALL') return true;
+            final selected = _selectedSubjectName!
+                .toLowerCase()
+                .replaceAll('and', '&')
+                .trim();
+            final current = (p.subject ?? '')
+                .toLowerCase()
+                .replaceAll('and', '&')
+                .trim();
+            return current == selected;
+          }).toList()),
         ),
 
         const SizedBox(height: 24),
@@ -1096,11 +1086,11 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         /// BOTTOM SIDE – Recent Work
         Container(
           width: double.infinity,
-          height: 528,
+          height: 350, // Reduced height to fit both tables
           padding: const EdgeInsets.only(
-            top: 48,
+            top: 24,
             right: 16,
-            bottom: 48,
+            bottom: 24,
             left: 16,
           ),
           decoration: BoxDecoration(
@@ -1108,7 +1098,22 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(width: 1, color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildRecentWorkSection(data),
+          child: _buildRecentWorkSection(bottomData),
+        ),
+
+        const SizedBox(height: 24),
+
+        /// BOTTOM SIDE – Quiz Scores
+        Container(
+          width: double.infinity,
+          height: 350,
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(width: 1, color: const Color(0xFFE5E7EB)),
+          ),
+          child: _buildQuizScoresSection(bottomData),
         ),
       ],
     );
@@ -1232,6 +1237,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                           .toLowerCase()
                           .trim()
                           .replaceAll('and', '&');
+
+                      if (selectedSub == "science") {
+                        return workSub == "science";
+                      }
 
                       return workSub == selectedSub ||
                           workSub.contains(selectedSub) ||
@@ -1399,7 +1408,14 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           Expanded(
             flex: 2,
             child: Text(
-              date.length > 10 ? date.substring(0, 10) : date,
+              () {
+                try {
+                  final dt = DateTime.parse(date);
+                  return DateFormat('d MMMM, yyyy').format(dt);
+                } catch (e) {
+                  return date.length > 10 ? date.substring(0, 10) : date;
+                }
+              }(),
               style: const TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 13,
@@ -1544,9 +1560,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     if (subject == null) return Colors.black;
     final name = subject.toLowerCase();
     if (name.contains('math')) return const Color(0xFF2C69D1);
+    if (name.contains('social')) return const Color(0xFFFF9800);
     if (name.contains('science')) return const Color(0xFF009688);
     if (name.contains('english')) return const Color(0xFF9C27B0);
-    if (name.contains('social')) return const Color(0xFFFF9800);
     if (name.contains('religious') || name.contains('moral'))
       return const Color(0xFFFFC107);
     return Colors.black;
@@ -1556,9 +1572,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     if (subject == null) return 'assets/images/mathLogo.png';
     final name = subject.toLowerCase();
     if (name.contains('math')) return 'assets/images/mathLogo.png';
+    if (name.contains('social')) return 'assets/images/socialLogo.png';
     if (name.contains('science')) return 'assets/images/scienceLogo.png';
     if (name.contains('english')) return 'assets/images/englishLogo.png';
-    if (name.contains('social')) return 'assets/images/socialLogo.png';
     if (name.contains('religious') || name.contains('moral'))
       return 'assets/images/rmeLogo.png';
     return 'assets/images/mathLogo.png';
@@ -1625,102 +1641,131 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       ],
     );
   }
-  // Widget _buildBottomIcon(
-  //   String label,
-  //   String imagePath,
-  //   Color color,
-  //   int percentage,
-  // ) {
-  //   return Column(
-  //     children: [
-  //       Transform.translate(
-  //         offset: const Offset(
-  //           -8,
-  //           0,
-  //         ), // ← shift icon left by 8px (adjust -4 to -12)
-  //         child: Container(
-  //           padding: const EdgeInsets.all(10),
-  //           child: Image.asset(imagePath, height: 22, width: 22),
-  //         ),
-  //       ),
-  //       const SizedBox(height: 6),
-  //       Transform.translate(
-  //         offset: const Offset(-8, 0), // ← same shift for label
-  //         child: Text(
-  //           label,
-  //           style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
-  //         ),
-  //       ),
-  //     ],
-  //   );
-  // }
+  
 
-  Widget _buildVerticalProgressLine(
-    String label,
-    String imagePath,
-    Color color,
-    int percentage,
-  ) {
+  
+
+  Widget _buildQuizScoresSection(GetStudentDetailsResponseModel? data) {
+    final courseWise = data?.overview.quizScoreTable ?? [];
+
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Expanded(
-          child: Stack(
-            alignment: Alignment.bottomCenter,
-            children: [
-              // Container(width: 2, color: const Color(0xFFE5E7EB)),
-
-              // FractionallySizedBox(
-              //   heightFactor: percentage / 100,
-              //   alignment: Alignment.bottomCenter,
-              //   child: Align(
-              //     alignment: Alignment.topCenter,
-              //     child:
-              //     Container(
-              //       padding: const EdgeInsets.symmetric(
-              //         horizontal: 8,
-              //         vertical: 4,
-              //       ),
-              //       // decoration: BoxDecoration(
-              //       //   color: color,
-              //       //   borderRadius: BorderRadius.circular(6),
-              //       // ),
-              //       // child: Text(
-              //       //   '$percentage%',
-              //       //   style: const TextStyle(
-              //       //     color: Colors.white,
-              //       //     fontSize: 11,
-              //       //     fontWeight: FontWeight.bold,
-              //       //   ),
-              //       // ),
-              //     ),
-              //   ),
-              // ),
-            ],
-          ),
+        const Text(
+          'Quiz Scores Table',
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
         ),
-
-        // const SizedBox(height: 12),
-
-        /// IMAGE ICON
-        Align(
-          alignment: Alignment.centerRight,
-          child: Padding(
-            padding: const EdgeInsets.only(left: 38), // adjust this value
-            child: Image.asset(imagePath, height: 32, width: 32),
-          ),
-        ),
-
-        const SizedBox(height: 6),
-
-        Text(
-          label,
-          style: const TextStyle(
-            fontSize: 12,
-            fontWeight: FontWeight.w400,
-            color: Color(0xFF000000),
+        const SizedBox(height: 29),
+        _buildQuizTableHeader(),
+        const SizedBox(height: 10),
+        Expanded(
+          child: SingleChildScrollView(
+            child: Column(
+              children: courseWise.map((item) {
+                return Column(
+                  children: [
+                    _buildQuizTableRow(
+                      item.subject,
+                      '${item.avgLatestAttempt.toInt()}%',
+                      '${item.avgFirstAttempt.toInt()}%',
+                    ),
+                    _divider(),
+                  ],
+                );
+              }).toList(),
+            ),
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildQuizTableHeader() {
+    return const Row(
+      children: [
+        Expanded(
+          flex: 10,
+          child: Text(
+            "Subjects",
+            style: TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 12,
+              color: Color(0xFF000000),
+            ),
+          ),
+        ),
+        Expanded(
+          flex: 8,
+          child: Text(
+            "Average Latest Attempt Quiz Scores",
+            style: TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 12,
+              color: Color(0xFF000000),
+            ),
+          ),
+        ),
+        Expanded(
+          flex: 8,
+          child: Text(
+            "Average First Attempt Quiz Scores",
+            style: TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 12,
+              color: Color(0xFF000000),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildQuizTableRow(
+    String subject,
+    String latestScore,
+    String initialScore,
+  ) {
+    Color subjectColor = _getSubjectColor(subject);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Row(
+        children: [
+          Expanded(
+            flex: 4,
+            child: Text(
+              subject,
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                color: subjectColor,
+                fontSize: 13,
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 3,
+            child: Text(
+              latestScore,
+              style: const TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 13,
+                color: Color(0xFF000000),
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 3,
+            child: Text(
+              initialScore,
+              style: const TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 13,
+                color: Color(0xFF000000),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 
