@@ -45,10 +45,7 @@ class LearnController extends GetxController {
 
   LearnPart get currentPart => model.parts[currentPartIndex.value];
 
-  bool get isCurrentPartFinished {
-    final idx = currentPartIndex.value;
-    return isPartFinishedInSession[idx] || isPartCompleted[idx];
-  }
+  bool get isCurrentPartFinished => true;
 
   // ── Initialisation ───────────────────────────────────────────────────────────
 
