@@ -6655,6 +6655,157 @@ final PracticeModel Scijhs2s3ss4Lesson2PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs2s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Describe the energy conversion that happens when you use a battery-powered radio to listen to the news.",
+      answer: "Correct Answer: Chemical energy to Electrical energy, then to Sound energy.",
+      explanation: "Explanation: The battery stores chemical energy, which becomes electricity to power the radio, finally creating the sound you hear.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What happens to the energy when a student runs across the school compound?",
+      answer: "Correct Answer: Chemical energy from food converts into Kinetic energy.",
+      explanation: "Explanation: The student's body breaks down the chemical energy stored in food to create the movement (kinetic energy) needed to run.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Explain the energy change when a piece of charcoal is burned to cook Jollof rice.",
+      answer: "Correct Answer: Chemical energy converts into Heat and Light energy.",
+      explanation: "Explanation: The charcoal stores energy in chemical form; when it burns, that energy is released as the heat needed for cooking.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the role of the \"Turbine\" in a hydroelectric dam.",
+      answer: "Correct Answer: It converts the kinetic energy of falling water into mechanical energy by spinning.",
+      explanation: "Explanation: The turbine is the bridge between the moving water and the generator; it captures the movement and turns a shaft.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it important to build a dam wall high instead of just using a flat river?",
+      answer: "Correct Answer: A high wall increases the Potential Energy of the water.",
+      explanation: "Explanation: The higher the water is stored, the more energy it has when it falls, which creates more electricity.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does a biogas digester help a farmer in a village?",
+      answer: "Correct Answer: It converts waste into gas for cooking or lighting.",
+      explanation: "Explanation: It takes chemical energy from organic waste and turns it into a useful fuel, saving the farmer from buying charcoal or wood.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Is the water used at the Akosombo Dam renewable or non-renewable?",
+      answer: "Correct Answer: Renewable.",
+      explanation: "Explanation: The water cycle (rain) constantly refills the river and the lake behind the dam.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Is the \"LPG\" gas used in a kitchen cylinder renewable or non-renewable?",
+      answer: "Correct Answer: Non-renewable.",
+      explanation: "Explanation: It is a natural gas found deep underground that cannot be replaced once it is burned.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a school uses a wind turbine to power its computers, is that source renewable?",
+      answer: "Correct Answer: Yes, it is renewable.",
+      explanation: "Explanation: The wind is a natural force that does not run out no matter how many turbines we build.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A solar-powered street light in your neighborhood has become very dim. What is the first management step you should take?",
+      answer: "Correct Answer: Check if the panel is dirty and clean it.",
+      explanation: "Explanation: Dust blocks sunlight from reaching the solar cells, which reduces the electricity produced.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is \"Galamsey\" a threat to our renewable energy at the Akosombo Dam?",
+      answer: "Correct Answer: It pollutes the water and causes silt to build up in the dam.",
+      explanation: "Explanation: Dirty water filled with mud can clog or wear down the turbine blades that make electricity.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a family uses a lot of firewood, what is the most sustainable way for them to get it?",
+      answer: "Correct Answer: Planting their own fast-growing trees for fuel.",
+      explanation: "Explanation: By planting trees specifically for wood, they avoid destroying natural forests and ensure a steady supply.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"It is measured in Joules.\" Which one is it?",
+      answer: "Correct Answer: Heat.",
+      explanation: "Explanation: Joules are the standard unit for energy, and heat is a form of energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"A thermometer shows that the soup is 80 degrees Celsius.\" Is this heat or temperature?",
+      answer: "Correct Answer: Temperature.",
+      explanation: "Explanation: Degrees Celsius is the unit used to measure the level of hotness, which is temperature.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: When you put ice in a glass of water, energy moves from the water to the ice. What is this moving energy called?",
+      answer: "Correct Answer: Heat.",
+      explanation: "Explanation: Heat is the energy that flows from a warmer object (water) to a cooler one (ice).",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why do we need to 'step up' the voltage before sending it over long distances?",
+      answer: "Correct Answer: We step up the voltage to reduce the amount of energy lost as heat during transmission.",
+      explanation: "Explanation: High voltage allows electricity to travel more efficiently through long wires.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the specific job of a 'Step-down' transformer found in your neighbourhood?",
+      answer: "Correct Answer: It reduces the high voltage from the transmission lines to a safe level (240V) for home use.",
+      explanation: "Explanation: Without stepping it down, the electricity would be too powerful and dangerous for our appliances.",
+    )
+  ],
+);
+final PracticeModel Scijhs2s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What is the main difference between a battery and a capacitor?",
+      answer: "Correct Answer: A battery provides a steady flow of energy for a long time, while a capacitor charges and discharges very quickly.",
+      explanation: "Explanation: Capacitors are for short-term storage and quick bursts, whereas batteries are for long-term power.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why do we often put a resistor in a circuit with an LED?",
+      answer: "Correct Answer: To limit the current so the LED does not get too much power and burn out.",
+      explanation: "Explanation: Resistors protect components by controlling the 'pressure' of the electricity.",
+    )
+  ],
+);
+final PracticeModel Scijhs2s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ama is using a gas stove to cook Jollof rice. Describe the energy conversion taking place.",
+      answer: "Correct Answer: The chemical energy in the gas is converted into heat energy to cook the food.",
+      explanation: "Explanation: Gas is a fuel containing chemical energy. When it burns, it releases that energy as heat.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Yaw noticed that his family's electricity bill is very high every month. What is one specific thing he can suggest to his mother regarding their laundry?",
+      answer: "Correct Answer: He should suggest they iron all their clothes in one session (bulk ironing).",
+      explanation: "Explanation: Constant reheating of an iron uses more energy than keeping it hot for one long session.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A student uses a solar-powered calculator in class. What energy conversion is happening here?",
+      answer: "Correct Answer: Light energy from the sun is converted into electrical energy.",
+      explanation: "Explanation: Solar cells take light directly and turn it into the electricity needed to run the calculator's screen and processor.",
+    )
+  ],
+);
+
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [

@@ -58,7 +58,7 @@ class AuthController extends BaseController {
         Get.snackbar(
           "Login Failed",
           errorMessage,
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           backgroundColor: Colors.redAccent,
           colorText: Colors.white,
           margin: const EdgeInsets.all(10),

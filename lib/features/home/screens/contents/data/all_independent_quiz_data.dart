@@ -15550,6 +15550,416 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which energy change occurs in a glowing electric bulb?",
+        options: [
+          "Electrical to sound",
+          "Electrical to light",
+          "Chemical to light",
+          "Kinetic to sound"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A glowing electric bulb converts electrical energy into light energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. According to the Law of Conservation of Energy, energy can be:",
+        options: [
+          "Created easily",
+          "Totally destroyed",
+          "Greatly increased",
+          "Only transformed"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Energy cannot be created or destroyed; it can only be transformed from one form to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What energy is stored in the dry cells of a torchlight?",
+        options: [
+          "Chemical energy",
+          "Magnetic energy",
+          "Kinetic energy",
+          "Sound energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Dry cells store chemical energy, which is converted into electrical energy when used."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When you clap your hands, kinetic energy is converted mostly into:",
+        options: [
+          "Chemical energy",
+          "Electrical energy",
+          "Sound energy",
+          "Light energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Clapping converts the kinetic energy of moving hands mainly into sound energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which device is used to convert mechanical energy into electrical energy?",
+        options: [
+          "A light bulb",
+          "A generator",
+          "A solar panel",
+          "An electric iron"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A generator converts mechanical energy into electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What form of energy is possessed by water held behind the Akosombo Dam?",
+        options: [
+          "Sound energy",
+          "Kinetic energy",
+          "Potential energy",
+          "Heat energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Water stored at a height has potential energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Solar panels are important because they convert light energy into:",
+        options: [
+          "Chemical energy",
+          "Electrical energy",
+          "Sound energy",
+          "Mechanical energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Solar panels convert light energy directly into electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a wind turbine, the moving wind provides which type of energy?",
+        options: [
+          "Kinetic energy",
+          "Potential energy",
+          "Chemical energy",
+          "Solar energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Moving wind possesses kinetic energy, which turns the turbine blades."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a non-renewable source of energy?",
+        options: [
+          "Sunlight",
+          "Crude oil",
+          "Wind",
+          "Biogas"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Crude oil is a non-renewable energy source because it takes millions of years to form."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Renewable energy is often called \"clean\" energy because it:",
+        options: [
+          "Is very expensive",
+          "Never gets dirty",
+          "Does not pollute much",
+          "Is found in water"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Renewable energy sources generally produce much less pollution than fossil fuels."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which source of energy comes from animal waste?",
+        options: [
+          "Natural gas",
+          "Coal",
+          "Biogas",
+          "Petrol"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Biogas is produced from animal waste and other organic materials."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Coal and Petrol are called non-renewable because they:",
+        options: [
+          "Are found in Ghana",
+          "Are very heavy",
+          "Take millions of years to form",
+          "Can be used many times"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Coal and petrol take millions of years to form and cannot be replaced quickly."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Sustainability means using energy in a way that:",
+        options: [
+          "Uses it all up quickly",
+          "Saves it for the future",
+          "Costs the most money",
+          "Only works during the day"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sustainability means using resources wisely so they remain available for future generations."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major challenge of using solar energy in Ghana?",
+        options: [
+          "The sun is too cold",
+          "It is only available at night",
+          "High cost of batteries",
+          "It makes too much noise"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "One challenge of solar energy systems is the high cost of batteries used for energy storage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which action helps manage hydro energy sustainably?",
+        options: [
+          "Throwing plastic in the river",
+          "Planting trees along riverbanks",
+          "Mining gold in the riverbed",
+          "Building houses in the water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Planting trees along riverbanks helps protect water sources and supports sustainable hydro energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do we need to manage renewable energy if it is \"renewable\"?",
+        options: [
+          "Because it can still be wasted",
+          "Because it is illegal to use",
+          "Because it never works well",
+          "Because the sun might explode"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Renewable energy resources should still be managed carefully because energy can be wasted through inefficient use."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the standard unit for measuring heat?",
+        options: [
+          "Kelvin",
+          "Celsius",
+          "Joule",
+          "Degree"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Heat is a form of energy, and its SI unit is the joule (J)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which instrument is used to measure temperature?",
+        options: [
+          "Calorimeter",
+          "Thermometer",
+          "Barometer",
+          "Anemometer"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A thermometer is used to measure temperature."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Heat always flows from an object at a higher temperature to one at a:",
+        options: [
+          "Lower temperature",
+          "Same temperature",
+          "Higher temperature",
+          "Zero temperature"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Heat naturally flows from a hotter object to a colder object."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Temperature is defined as the:",
+        options: [
+          "Total energy of molecules",
+          "Flow of energy",
+          "Average kinetic energy of particles",
+          "Weight of a substance"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Temperature measures the average kinetic energy of the particles in a substance."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a major source of hydro-electric power in Ghana?",
+        options: [
+          "Aboadze Plant",
+          "Akosombo Dam",
+          "Kejetia Station",
+          "Accra Substation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Akosombo Dam is one of Ghana's major sources of hydro-electric power."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What do we call the tall metal towers that hold high-voltage cables?",
+        options: [
+          "Pylons",
+          "Transformers",
+          "Substations",
+          "Generators"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Pylons are tall structures used to support high-voltage power transmission lines."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the standard safe voltage for homes in Ghana?",
+        options: [
+          "400,000V",
+          "13,000V",
+          "240V",
+          "12V"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The standard mains electricity supply for homes in Ghana is approximately 240 volts."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What unit do we use to measure capacitance?",
+        options: [
+          "Ohms",
+          "Farads",
+          "Volts",
+          "Amps"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Capacitance is measured in farads (F)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which component only allows electricity to flow in one direction?",
+        options: [
+          "Resistor",
+          "Capacitor",
+          "Diode",
+          "Battery"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A diode allows electric current to flow in only one direction."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the insulating material inside a capacitor called?",
+        options: [
+          "Conductor",
+          "Electrode",
+          "Dielectric",
+          "P-N Junction"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The insulating material between the plates of a capacitor is called the dielectric."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What unit do we use to measure capacitance?",
+        options: [
+          "Ohms",
+          "Farads",
+          "Volts",
+          "Amps"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Capacitance is measured in farads (F)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which component only allows electricity to flow in one direction?",
+        options: [
+          "Resistor",
+          "Capacitor",
+          "Diode",
+          "Battery"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A diode allows electric current to flow in only one direction."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the insulating material inside a capacitor called?",
+        options: [
+          "Conductor",
+          "Electrode",
+          "Dielectric",
+          "P-N Junction"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The insulating material between the plates of a capacitor is called the dielectric."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

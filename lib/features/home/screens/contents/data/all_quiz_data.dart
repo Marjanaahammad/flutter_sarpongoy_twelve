@@ -30277,6 +30277,884 @@ final QuizModel Scijhs2s3ss4Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs2s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The energy possessed by a stone in a stretched catapult is:",
+      options: ["Kinetic energy", "Potential energy", "Sound energy", "Heat energy"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Potential energy is stored energy due to the position or stretch of an object.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of the following is the best example of kinetic energy?",
+      options: ["A battery on a shelf", "A rock on a hill", "A car driving to Accra", "Charcoal in a bag"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Kinetic energy is the energy of motion; a moving car possesses it.",
+    ),
+
+    QuizQuestion(
+      question: "3. When a church bell is rung, kinetic energy is converted to:",
+      options: ["Sound energy", "Light energy", "Chemical energy", "Potential energy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The motion of the bell hitting the clapper produces sound waves.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a television set, electrical energy is converted into light and:",
+      options: ["Chemical energy", "Potential energy", "Nuclear energy", "Sound energy"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "TVs produce both pictures (light) and audio (sound).",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these energy forms is produced when you rub two sticks together?",
+      options: ["Heat energy", "Electrical energy", "Nuclear energy", "Magnetic energy"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Friction between the sticks converts motion into heat.",
+    ),
+
+    QuizQuestion(
+      question: "6. Energy is defined as the:",
+      options: ["Force used to pull", "Ability to do work", "Speed of an object", "Weight of an item"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This is the standard scientific definition of energy.",
+    ),
+
+    QuizQuestion(
+      question: "7. A flashlight converts chemical energy from batteries into:",
+      options: ["Sound and kinetic", "Light and heat", "Potential and heat", "Sound and light"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The bulb produces light to see and heat as a byproduct.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these devices is designed specifically to convert electrical energy into sound?",
+      options: ["An electric iron", "A ceiling fan", "A loudspeaker", "A flashlight"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Loudspeakers take electrical signals and turn them into audible sound.",
+    ),
+
+    QuizQuestion(
+      question: "9. When you eat an orange, your body gets energy in the form of:",
+      options: ["Light energy", "Sound energy", "Kinetic energy", "Chemical energy"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Food stores energy in chemical bonds.",
+    ),
+
+    QuizQuestion(
+      question: "10. If you drop a ball, its potential energy changes into kinetic energy as it:",
+      options: ["Hits the ground", "Falls downward", "Rests on a table", "Stays in your hand"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "As it moves faster toward the ground, its stored energy becomes motion energy.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The main reason we build dams like Akosombo is to:",
+      options: ["Stop the river", "Create electricity", "Change the weather", "Store salt water"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Hydroelectric dams are designed specifically to produce power for the country.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of the following is a sequence of energy conversion at a dam?",
+      options: [
+        "Sound → Light → Heat",
+        "Potential → Kinetic → Electrical",
+        "Electrical → Chemical → Sound",
+        "Heat → Kinetic → Potential"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Stored water falls (kinetic) and is then turned into electricity.",
+    ),
+
+    QuizQuestion(
+      question: "3. A \"Digester\" is used in the production of:",
+      options: ["Solar power", "Wind power", "Biogas energy", "Nuclear power"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A digester breaks down waste to create biogas.",
+    ),
+
+    QuizQuestion(
+      question: "4. What energy conversion happens in a solar-powered street light in Accra?",
+      options: ["Light to electrical", "Kinetic to sound", "Heat to chemical", "Sound to light"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Solar cells on streetlights capture sunlight to power the bulb.",
+    ),
+
+    QuizQuestion(
+      question: "5. A turbine is essentially a large:",
+      options: ["Battery", "Spinning wheel", "Heating coil", "Storage tank"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Turbines use blades that spin when pushed by water or wind.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why is energy conversion important for hospitals in Ghana?",
+      options: [
+        "To keep it quiet",
+        "To power machines",
+        "To cool the floors",
+        "To clean the water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Hospitals need converted electrical energy to run life-saving equipment.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a 'natural' form of energy we can harness?",
+      options: ["Plastic waste", "Sunlight", "Battery acid", "Television waves"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sunlight is a natural resource we can convert into power.",
+    ),
+
+    QuizQuestion(
+      question: "8. When water moves the turbine, it is using:",
+      options: [
+        "Potential energy",
+        "Chemical energy",
+        "Mechanical energy",
+        "Magnetic energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The physical spinning of the turbine is mechanical energy.",
+    ),
+
+    QuizQuestion(
+      question: "9. The conversion of energy allows us to:",
+      options: [
+        "Create new energy",
+        "Destroy old energy",
+        "Use energy easily",
+        "Stop energy flow"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Conversion turns energy into forms (like electricity) that are easy to use.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which Ghanaian dam provides the most hydroelectric power?",
+      options: ["Bui Dam", "Akosombo Dam", "Weija Dam", "Kpong Dam"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Akosombo is the primary source of hydro power in Ghana.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of the following will NEVER run out?",
+      options: ["Firewood", "Solar energy", "Natural gas", "Coal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The sun is a constant source of energy that is replenished daily.",
+    ),
+
+    QuizQuestion(
+      question: "2. Energy from the heat inside the earth is called:",
+      options: ["Biogas", "Geothermal energy", "Hydro energy", "Solar energy"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Geo' means earth and 'thermal' means heat.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is petrol considered non-renewable?",
+      options: [
+        "It is a liquid",
+        "It is expensive to buy",
+        "It cannot be replaced once used",
+        "It is used in Trotros"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Once petrol is burned, it is gone and cannot be replenished.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which energy source is harnessed by the Akosombo Dam?",
+      options: ["Wind", "Solar", "Hydro", "Biogas"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Hydro energy is the energy captured from moving or falling water.",
+    ),
+
+    QuizQuestion(
+      question: "5. A major disadvantage of non-renewable energy is that it:",
+      options: [
+        "Is always free",
+        "Is very clean",
+        "Causes pollution",
+        "Never runs out"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Burning fossil fuels releases harmful gases into the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "6. Biogas is produced from:",
+      options: [
+        "Mining deep underground",
+        "Decaying organic matter",
+        "Spinning metal fans",
+        "Catching sunlight"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Biogas comes from breaking down plants and animal waste.",
+    ),
+
+    QuizQuestion(
+      question: "7. The wind is an example of:",
+      options: [
+        "A solid fuel",
+        "A non-renewable source",
+        "A renewable source",
+        "A chemical source"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Wind is a naturally occurring, limitless resource.",
+    ),
+
+    QuizQuestion(
+      question: "8. Fossil fuels include coal, oil, and:",
+      options: ["Water", "Sunlight", "Natural gas", "Wood"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "These three are the primary types of non-renewable fossil fuels.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these would be the most sustainable choice for a village's future?",
+      options: [
+        "Using a diesel generator",
+        "Cutting all forest trees",
+        "Installing solar panels",
+        "Buying more coal"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Solar is sustainable because it is renewable and clean.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the main source of energy for the water cycle?",
+      options: ["The Wind", "The Sun", "The Moon", "The Ocean"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Solar energy evaporates water, keeping the hydro-power cycle renewable.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A table showing challenges of renewable energy would likely include:",
+      options: [
+        "High cost of equipment",
+        "Too much free energy",
+        "Wind blowing too often",
+        "Sun being too bright"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The initial cost of solar and wind technology is a common barrier.",
+    ),
+
+    QuizQuestion(
+      question: "2. To manage a biogas plant sustainably, you must consistently provide:",
+      options: [
+        "Petrol and diesel",
+        "Organic waste",
+        "Clean salt water",
+        "Large magnets"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Biogas requires a steady supply of animal or plant waste to work.",
+    ),
+
+    QuizQuestion(
+      question: "3. During the harmattan, solar panels need more maintenance because of:",
+      options: [
+        "Heavy rainfall",
+        "Extreme cold",
+        "Dust accumulation",
+        "Strong winds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Harmattan dust covers panels and prevents them from catching sunlight.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a way to manage forest resources?",
+      options: [
+        "Burning the whole forest",
+        "Afforestation",
+        "Cutting all young trees",
+        "Selling all the soil"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Afforestation is the act of planting new trees to create or restore a forest.",
+    ),
+
+    QuizQuestion(
+      question: "5. A challenge of wind energy is that it:",
+      options: [
+        "Is very dirty",
+        "Only works on calm days",
+        "Depends on the weather",
+        "Runs out after one hour"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Wind turbines only produce power when the wind is blowing at the right speed.",
+    ),
+
+    QuizQuestion(
+      question: "6. Sustainable management of the Akosombo Dam helps provide:",
+      options: [
+        "More expensive bills",
+        "Reliable electricity",
+        "More salt for food",
+        "Faster river boats"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Good management ensures the dam stays functional for years.",
+    ),
+
+    QuizQuestion(
+      question: "7. The process of keeping equipment in good working order is called:",
+      options: [
+        "Construction",
+        "Maintenance",
+        "Destruction",
+        "Distribution"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Regular maintenance is key to sustainable energy.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is the most sustainable way to power a remote village?",
+      options: [
+        "Buying a new generator every year",
+        "Using solar panels with batteries",
+        "Carrying firewood from far away",
+        "Using expensive candles"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Solar is a long-term, renewable solution for remote areas.",
+    ),
+
+    QuizQuestion(
+      question: "9. If we don't manage our renewable sources, they might become:",
+      options: [
+        "More powerful",
+        "Unreliable or unusable",
+        "Free for everyone",
+        "Made of gold"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Poor management leads to equipment failure and resource loss.",
+    ),
+
+    QuizQuestion(
+      question: "10. Who is responsible for managing energy sustainably in Ghana?",
+      options: [
+        "Only the President",
+        "Only the scientists",
+        "Every citizen",
+        "Only the engineers"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Everyone plays a part in saving energy and protecting resources.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS1 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. If two objects have the same temperature, they must have:",
+      options: [
+        "The same amount of heat",
+        "The same average molecular speed",
+        "The same number of atoms",
+        "The same total energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Temperature is the measure of the average kinetic energy (speed) of particles.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of the following is a unit of temperature?",
+      options: ["Joule", "Newton", "Kelvin", "Watt"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Kelvin and Celsius are the two primary units for temperature.",
+    ),
+
+    QuizQuestion(
+      question: "3. When a substance gains heat, its temperature usually:",
+      options: ["Stays the same", "Decreases", "Disappears", "Increases"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Adding heat energy typically makes the molecules move faster, raising the temperature.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these has the most heat energy?",
+      options: [
+        "A cup of boiling water",
+        "A spoonful of boiling water",
+        "A swimming pool of warm water",
+        "A drop of boiling water"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Heat is total energy; the massive amount of water in a pool contains more total energy than a small cup.",
+    ),
+
+    QuizQuestion(
+      question: "5. Heat is a form of:",
+      options: ["Matter", "Energy", "Force", "Liquid"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Heat is thermal energy in transit.",
+    ),
+
+    QuizQuestion(
+      question: "6. The boiling point of water in Celsius is:",
+      options: ["0 degrees", "37 degrees", "100 degrees", "212 degrees"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "On the Celsius scale, pure water boils at 100 degrees at sea level.",
+    ),
+
+    QuizQuestion(
+      question: "7. A calorimeter is used to measure:",
+      options: ["Temperature", "Heat", "Wind speed", "Pressure"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Calorimeters measure the heat exchanged in a chemical or physical process.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which statement is true about heat transfer?",
+      options: [
+        "It moves from cold to hot",
+        "It moves from hot to cold",
+        "It only moves in liquids",
+        "It cannot move through metal"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Thermal energy naturally flows down the temperature gradient.",
+    ),
+
+    QuizQuestion(
+      question: "9. The 'degree of hotness' of an object is its:",
+      options: ["Mass", "Volume", "Temperature", "Heat"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "This is the standard definition of temperature.",
+    ),
+
+    QuizQuestion(
+      question: "10. In Ghana, the unit most commonly used for weather temperature is:",
+      options: ["Fahrenheit", "Joule", "Celsius", "Kelvin"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ghana, like most of the world, uses the Celsius scale for daily temperature.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first stage in the journey of electricity?",
+      options: ["Transmission", "Generation", "Distribution", "Consumption"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Electricity must be created (generated) before it can be moved.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which device is used to increase voltage for long-distance travel?",
+      options: [
+        "Step-up transformer",
+        "Step-down transformer",
+        "Electrical pylon",
+        "Thermal generator"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Step-up transformers increase voltage to prevent energy loss.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why is electricity transmitted at very high voltages?",
+      options: [
+        "To make it travel faster",
+        "To reduce energy loss",
+        "To make it safer to touch",
+        "To change it into DC"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "High voltage reduces the heat lost in the transmission lines.",
+    ),
+
+    QuizQuestion(
+      question: "4. Where would you typically find a step-down transformer?",
+      options: [
+        "Inside a hydro-dam",
+        "At a power station",
+        "In a local substation",
+        "Inside a pylon tower"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Substations reduce voltage as it gets closer to homes.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which plant in Ghana uses heat to generate electricity?",
+      options: [
+        "Akosombo Dam",
+        "Bui Dam",
+        "Aboadze Thermal",
+        "Kpong Station"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Aboadze is a thermal plant that uses heat/fuel.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the approximate voltage of electricity in long-distance transmission lines?",
+      options: [
+        "240 Volts",
+        "1,000 Volts",
+        "12,000 Volts",
+        "400,000 Volts"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Transmission requires extremely high voltage like 400kV.",
+    ),
+
+    QuizQuestion(
+      question: "7. What happens to electricity in the final step-down transformer near your home?",
+      options: [
+        "It is boosted higher",
+        "It is turned into gas",
+        "It is reduced to 240V",
+        "It is stored in a battery"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The final transformer ensures the voltage is safe (240V) for appliances.",
+    ),
+
+    QuizQuestion(
+      question: "8. Transmission lines are usually made of thick cables to:",
+      options: [
+        "Carry heavy current",
+        "Look better on pylons",
+        "Save cost on metal",
+        "Prevent the wind blowing"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Thick cables are needed to carry large amounts of electrical energy safely.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is the correct order of electricity flow?",
+      options: [
+        "Generation -> Step-up -> Transmission -> Step-down",
+        "Transmission -> Generation -> Step-down -> Step-up",
+        "Step-down -> Transmission -> Step-up -> Generation",
+        "Generation -> Step-down -> Transmission -> Step-up"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "We generate, boost (step-up), move (transmit), then reduce (step-down).",
+    ),
+
+    QuizQuestion(
+      question: "10. Who provides the electricity used in most Ghanaian homes?",
+      options: [
+        "The local village chief",
+        "The National Grid",
+        "Individual batteries",
+        "Solar panels only"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Most homes are connected to the national electrical grid.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these acts like a temporary storage tank for electricity?",
+      options: ["A Resistor", "A Capacitor", "A Switch", "A Wire"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Capacitors store electrical charge temporarily.",
+    ),
+
+    QuizQuestion(
+      question: "2. What happens during the 'discharging' phase of a capacitor?",
+      options: [
+        "It gains electrons",
+        "It stores energy",
+        "It releases energy",
+        "It stops working"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Discharging is the process of releasing stored electrical charge.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which component would you use to dim the brightness of an LED?",
+      options: ["A Diode", "A Resistor", "A Battery", "A Switch"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Resistors reduce current flow, which dims the light.",
+    ),
+
+    QuizQuestion(
+      question: "4. If you see a component with '1000µF' written on it, what is it?",
+      options: ["A Resistor", "A Diode", "A Capacitor", "An LED"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The 'F' stands for Farads, the unit for capacitance.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main purpose of a Diode in a circuit?",
+      options: [
+        "To store charge",
+        "To create light",
+        "To control direction",
+        "To provide power"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Diodes act as one-way valves for electricity.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does a capacitor block DC current once it is fully charged?",
+      options: [
+        "The plates are full",
+        "The wires melt",
+        "The battery dies",
+        "The LED turns off"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Once the plates can't hold any more electrons, flow stops in a DC circuit.",
+    ),
+
+    QuizQuestion(
+      question: "7. In a circuit diagram, which symbol looks like two parallel lines?",
+      options: ["LED", "Diode", "Capacitor", "Resistor"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The two lines represent the two metal plates.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which component is specifically designed to emit light?",
+      options: ["Transistor", "Capacitor", "Resistor", "LED"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "LED stands for Light Emitting Diode.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the role of the dielectric in a capacitor?",
+      options: [
+        "To conduct power",
+        "To separate plates",
+        "To light up bulbs",
+        "To increase heat"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The dielectric is an insulator that keeps the plates apart.",
+    ),
+
+    QuizQuestion(
+      question: "10. What effect does a capacitor have on an LED after the power is cut?",
+      options: [
+        "LED stays on forever",
+        "LED stays on briefly",
+        "LED turns off instantly",
+        "LED changes colour"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The capacitor discharges its remaining energy, keeping the LED on for a short time.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these acts like a temporary storage tank for electricity?",
+      options: ["A Resistor", "A Capacitor", "A Switch", "A Wire"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Capacitors store electrical charge temporarily.",
+    ),
+
+    QuizQuestion(
+      question: "2. What happens during the 'discharging' phase of a capacitor?",
+      options: [
+        "It gains electrons",
+        "It stores energy",
+        "It releases energy",
+        "It stops working"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Discharging is the process of releasing stored electrical charge.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which component would you use to dim the brightness of an LED?",
+      options: ["A Diode", "A Resistor", "A Battery", "A Switch"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Resistors reduce current flow, which dims the light.",
+    ),
+
+    QuizQuestion(
+      question: "4. If you see a component with '1000µF' written on it, what is it?",
+      options: ["A Resistor", "A Diode", "A Capacitor", "An LED"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The 'F' stands for Farads, the unit for capacitance.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the main purpose of a Diode in a circuit?",
+      options: [
+        "To store charge",
+        "To create light",
+        "To control direction",
+        "To provide power"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Diodes act as one-way valves for electricity.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does a capacitor block DC current once it is fully charged?",
+      options: [
+        "The plates are full",
+        "The wires melt",
+        "The battery dies",
+        "The LED turns off"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Once the plates can't hold any more electrons, flow stops in a DC circuit.",
+    ),
+
+    QuizQuestion(
+      question: "7. In a circuit diagram, which symbol looks like two parallel lines?",
+      options: ["LED", "Diode", "Capacitor", "Resistor"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The two lines represent the two metal plates.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which component is specifically designed to emit light?",
+      options: ["Transistor", "Capacitor", "Resistor", "LED"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "LED stands for Light Emitting Diode.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the role of the dielectric in a capacitor?",
+      options: [
+        "To conduct power",
+        "To separate plates",
+        "To light up bulbs",
+        "To increase heat"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The dielectric is an insulator that keeps the plates apart.",
+    ),
+
+    QuizQuestion(
+      question: "10. What effect does a capacitor have on an LED after the power is cut?",
+      options: [
+        "LED stays on forever",
+        "LED stays on briefly",
+        "LED turns off instantly",
+        "LED changes colour"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The capacitor discharges its remaining energy, keeping the LED on for a short time.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [
