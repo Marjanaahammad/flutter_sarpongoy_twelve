@@ -1,20 +1,48 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sarpongoy_twelve/core/flutx_core/debug_print.dart';
 import 'package:get/get.dart';
+import 'package:flutter_sarpongoy_twelve/core/no_screenshot-development/lib/no_screenshot.dart';
 import 'controller/teacher_dashboard_controller.dart';
 import '../../teacher_profile/presentation/controller/profile_controller.dart';
 
-class StudentOverviewScreen extends StatelessWidget {
+class StudentOverviewScreen extends StatefulWidget {
   final VoidCallback? onProfileTap;
   final Function(String)? onViewDetails;
 
-  final TeacherProfileController _profileController =
-      Get.find<TeacherProfileController>();
   final TeacherDashboardController _dashboardController =
       Get.find<TeacherDashboardController>();
 
   StudentOverviewScreen({super.key, this.onViewDetails, this.onProfileTap}) {
     _dashboardController.fetchStudent(page: 1, limit: 10);
+  }
+
+  @override
+  State<StudentOverviewScreen> createState() => _StudentOverviewScreenState();
+}
+
+
+
+class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
+  final TeacherProfileController _profileController =
+      Get.find<TeacherProfileController>();
+
+  final TeacherDashboardController _dashboardController =
+      Get.find<TeacherDashboardController>();
+
+  final _noScreenshot = NoScreenshot.instance;
+
+  @override
+  void initState() {
+    super.initState();
+    _noScreenshot.screenshotOff();
+  }
+
+
+
+  @override
+  void dispose() {
+    _noScreenshot.screenshotOn();
+    super.dispose();
   }
 
   @override
@@ -62,7 +90,7 @@ class StudentOverviewScreen extends StatelessWidget {
             final user = _profileController.userInfo.value?.user;
             final teacher = _profileController.userInfo.value?.teacher;
             return InkWell(
-              onTap: onProfileTap,
+              onTap: widget.onProfileTap,
               child: Row(
                 children: [
                   Text(
@@ -324,6 +352,12 @@ class StudentOverviewScreen extends StatelessWidget {
     final schoolController = TextEditingController(
       text: _dashboardController.filterSchoolName.value,
     );
+    final minScoreController = TextEditingController(
+      text: _dashboardController.filterMinQuizScore.value?.toString() ?? '',
+    );
+    final maxScoreController = TextEditingController(
+      text: _dashboardController.filterMaxQuizScore.value?.toString() ?? '',
+    );
     final RxString localGrade = _dashboardController.filterGrade.value.obs;
     final RxString localSubject = _dashboardController.filterSubject.value.obs;
 
@@ -342,193 +376,278 @@ class StudentOverviewScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         surfaceTintColor: Colors.transparent,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        child: Container(
-          width: 450,
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Text(
-                    'Filters',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-                  ),
-                  GestureDetector(
-                    onTap: () => Get.back(),
-                    child: Image.asset(
-                      'assets/images/cross_icon.png',
-                      height: 24,
-                      width: 24,
-                      errorBuilder: (context, error, stackTrace) => Container(
-                        padding: const EdgeInsets.all(2),
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(color: Colors.grey.shade400),
+        child: SingleChildScrollView(
+          child: Container(
+            width: 450,
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text(
+                      'Filters',
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                    ),
+                    GestureDetector(
+                      onTap: () => Get.back(),
+                      child: Image.asset(
+                        'assets/images/cross_icon.png',
+                        height: 24,
+                        width: 24,
+                        errorBuilder: (context, error, stackTrace) => Container(
+                          padding: const EdgeInsets.all(2),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey.shade400),
+                          ),
+                          child: Icon(
+                            Icons.close,
+                            size: 16,
+                            color: Colors.grey.shade600,
+                          ),
                         ),
-                        child: Icon(
-                          Icons.close,
-                          size: 16,
-                          color: Colors.grey.shade600,
-                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-              const Text(
-                'Student\'s Name',
-                style: TextStyle(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 8),
-              TextField(
-                controller: nameController,
-                cursorColor: Colors.black,
-                decoration: InputDecoration(
-                  hintText: 'Butlar Mane',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                    borderSide: const BorderSide(color: Color(0xFF22C55E)),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                    borderSide: const BorderSide(
-                      color: Color(0xFF008302),
-                      width: 2,
-                    ),
-                  ),
+                  ],
                 ),
-              ),
-              // const SizedBox(height: 16),
-              // const Text(
-              //   'School Name',
-              //   style: TextStyle(fontWeight: FontWeight.w600),
-              // ),
-              // const SizedBox(height: 8),
-              // TextField(
-              //   controller: schoolController,
-              //   cursorColor: Colors.black,
-              //   decoration: InputDecoration(
-              //     hintText: 'Achimota Junior High School',
-              //     border: OutlineInputBorder(
-              //       borderRadius: BorderRadius.circular(8),
-              //     ),
-              //     enabledBorder: OutlineInputBorder(
-              //       borderRadius: BorderRadius.circular(8),
-              //       borderSide: const BorderSide(color: Color(0xFF22C55E)),
-              //     ),
-              //     focusedBorder: OutlineInputBorder(
-              //       borderRadius: BorderRadius.circular(8),
-              //       borderSide: const BorderSide(
-              //         color: Color(0xFF008302),
-              //         width: 2,
-              //       ),
-              //     ),
-              //   ),
-              // ),
-              const SizedBox(height: 16),
-              const Text(
-                'Grade Level',
-                style: TextStyle(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 8),
-              Obx(
-                () => Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: const Color(0xFF22C55E)),
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: DropdownButtonHideUnderline(
-                    child: DropdownButton<String>(
-                      value: localGrade.value,
-                      isExpanded: true,
-                      dropdownColor: Colors.white,
-                      icon: const Icon(
-                        Icons.keyboard_arrow_down,
-                        color: Colors.black,
-                      ),
-                      style: const TextStyle(color: Colors.black, fontSize: 14),
-                      items: grades
-                          .map(
-                            (g) => DropdownMenuItem(value: g, child: Text(g)),
-                          )
-                          .toList(),
-                      onChanged: (v) => localGrade.value = v!,
-                    ),
-                  ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Student\'s Name',
+                  style: TextStyle(fontWeight: FontWeight.w600),
                 ),
-              ),
-              const SizedBox(height: 16),
-              const Text(
-                'Subject',
-                style: TextStyle(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 8),
-              Obx(
-                () => Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: const Color(0xFF22C55E)),
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: DropdownButtonHideUnderline(
-                    child: DropdownButton<String>(
-                      value: localSubject.value,
-                      isExpanded: true,
-                      dropdownColor: Colors.white,
-                      icon: const Icon(
-                        Icons.keyboard_arrow_down,
-                        color: Colors.black,
-                      ),
-                      style: const TextStyle(color: Colors.black, fontSize: 14),
-                      items: subjects
-                          .map(
-                            (s) => DropdownMenuItem(value: s, child: Text(s)),
-                          )
-                          .toList(),
-                      onChanged: (v) => localSubject.value = v!,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 24),
-              SizedBox(
-                width: double.infinity,
-                height: 48,
-                child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFF008302),
-                    shape: RoundedRectangleBorder(
+                const SizedBox(height: 8),
+                TextField(
+                  controller: nameController,
+                  cursorColor: Colors.black,
+                  decoration: InputDecoration(
+                    hintText: 'Butlar Mane',
+                    border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
                     ),
-                  ),
-                  onPressed: () {
-                    _dashboardController.filterStudentName.value =
-                        nameController.text;
-                    _dashboardController.filterSchoolName.value =
-                        schoolController.text;
-                    _dashboardController.filterGrade.value = localGrade.value;
-                    _dashboardController.filterSubject.value =
-                        localSubject.value;
-                    Get.back();
-                  },
-                  child: const Text(
-                    'Search',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: const BorderSide(
+                        color: Color(0xFF008302),
+                        width: 2,
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ],
+                // const SizedBox(height: 16),
+                // const Text(
+                //   'School Name',
+                //   style: TextStyle(fontWeight: FontWeight.w600),
+                // ),
+                // const SizedBox(height: 8),
+                // TextField(
+                //   controller: schoolController,
+                //   cursorColor: Colors.black,
+                //   decoration: InputDecoration(
+                //     hintText: 'Achimota Junior High School',
+                //     border: OutlineInputBorder(
+                //       borderRadius: BorderRadius.circular(8),
+                //     ),
+                //     enabledBorder: OutlineInputBorder(
+                //       borderRadius: BorderRadius.circular(8),
+                //       borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                //     ),
+                //     focusedBorder: OutlineInputBorder(
+                //       borderRadius: BorderRadius.circular(8),
+                //       borderSide: const BorderSide(
+                //         color: Color(0xFF008302),
+                //         width: 2,
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Grade Level',
+                  style: TextStyle(fontWeight: FontWeight.w600),
+                ),
+                const SizedBox(height: 8),
+                Obx(
+                  () => Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    decoration: BoxDecoration(
+                      border: Border.all(color: const Color(0xFF22C55E)),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: DropdownButtonHideUnderline(
+                      child: DropdownButton<String>(
+                        value: localGrade.value,
+                        isExpanded: true,
+                        dropdownColor: Colors.white,
+                        icon: const Icon(
+                          Icons.keyboard_arrow_down,
+                          color: Colors.black,
+                        ),
+                        style: const TextStyle(color: Colors.black, fontSize: 14),
+                        items: grades
+                            .map(
+                              (g) => DropdownMenuItem(value: g, child: Text(g)),
+                            )
+                            .toList(),
+                        onChanged: (v) => localGrade.value = v!,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Subject',
+                  style: TextStyle(fontWeight: FontWeight.w600),
+                ),
+                const SizedBox(height: 8),
+                Obx(
+                  () => Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    decoration: BoxDecoration(
+                      border: Border.all(color: const Color(0xFF22C55E)),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: DropdownButtonHideUnderline(
+                      child: DropdownButton<String>(
+                        value: localSubject.value,
+                        isExpanded: true,
+                        dropdownColor: Colors.white,
+                        icon: const Icon(
+                          Icons.keyboard_arrow_down,
+                          color: Colors.black,
+                        ),
+                        style: const TextStyle(color: Colors.black, fontSize: 14),
+                        items: subjects
+                            .map(
+                              (s) => DropdownMenuItem(value: s, child: Text(s)),
+                            )
+                            .toList(),
+                        onChanged: (v) => localSubject.value = v!,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Average Quiz Score',
+                  style: TextStyle(fontWeight: FontWeight.w600),
+                ),
+                const SizedBox(height: 8),
+                Row(
+                  children: [
+                    Expanded(
+                      child: TextField(
+                        controller: minScoreController,
+                        cursorColor: Colors.black,
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        decoration: InputDecoration(
+                          hintText: 'Min',
+                          hintStyle: const TextStyle(
+                            color: Color(0xFF6C6C6C),
+                            fontSize: 14,
+                            fontWeight: FontWeight.w300,
+                          ),
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(
+                              color: Color(0xFF008302),
+                              width: 2,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 8),
+                      child: Text(
+                        '–',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                          color: Color(0xFF6C6C6C),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: TextField(
+                        controller: maxScoreController,
+                        cursorColor: Colors.black,
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        decoration: InputDecoration(
+                          hintText: 'Max',
+                          hintStyle: const TextStyle(
+                            color: Color(0xFF6C6C6C),
+                            fontSize: 14,
+                            fontWeight: FontWeight.w300,
+                          ),
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8),
+                            borderSide: const BorderSide(
+                              color: Color(0xFF008302),
+                              width: 2,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+                SizedBox(
+                  width: double.infinity,
+                  height: 48,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFF008302),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                    ),
+                    onPressed: () {
+                      _dashboardController.filterStudentName.value =
+                          nameController.text;
+                      _dashboardController.filterSchoolName.value =
+                          schoolController.text;
+                      _dashboardController.filterGrade.value = localGrade.value;
+                      _dashboardController.filterSubject.value =
+                          localSubject.value;
+                      _dashboardController.filterMinQuizScore.value =
+                          double.tryParse(minScoreController.text);
+                      _dashboardController.filterMaxQuizScore.value =
+                          double.tryParse(maxScoreController.text);
+                      Get.back();
+                    },
+                    child: const Text(
+                      'Search',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -556,11 +675,11 @@ class StudentOverviewScreen extends StatelessWidget {
               (item) => Column(
                 children: [
                   _buildTableRow(
-                    item.schoolName,
                     item.studentName,
                     item.id,
                     item.gradeLevel,
                     item.status.toLowerCase() == 'active',
+                    item.avgQuizScore,
                   ),
                   const Divider(height: 1, color: Color(0xFFF0F0F0)),
                 ],
@@ -578,71 +697,69 @@ class StudentOverviewScreen extends StatelessWidget {
       child: const Row(
         children: [
           Expanded(
-            flex: 3,
-            child: Text(
-              'School Name',
-              style: TextStyle(
-                fontWeight: FontWeight.w700,
-                color: Color(0xFF181919),
-                fontSize: 16,
-              ),
-            ),
-          ),
-          Expanded(
-            flex: 3,
+            flex: 30,
             child: Text(
               'Student\'s Name',
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 16,
+                fontSize: 15,
               ),
             ),
           ),
           Expanded(
-            flex: 2,
-            child: Text(
-              'User ID',
-              style: TextStyle(
-                fontWeight: FontWeight.w700,
-                color: Color(0xFF181919),
-                fontSize: 16,
+            flex: 30,
+            child: Padding(
+              padding: EdgeInsets.only(left: 12.0),
+              child: Text(
+                'User ID',
+                style: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  color: Color(0xFF181919),
+                  fontSize: 15,
+                ),
               ),
             ),
           ),
           Expanded(
-            flex: 1,
+            flex: 12,
             child: Text(
-              'Grade Level',
+              'Grade',
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 16,
+                fontSize: 15,
               ),
             ),
           ),
           Expanded(
-            flex: 1,
-            child: Text(
-              'Status',
-              style: TextStyle(
-                fontWeight: FontWeight.w700,
-                color: Color(0xFF181919),
-                fontSize: 16,
+            flex: 18,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 12.0),
+              child: Text(
+                'Status',
+                style: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  color: Color(0xFF181919),
+                  fontSize: 15,
+                ),
               ),
             ),
           ),
           Expanded(
-            flex: 1,
+            flex: 20,
             child: Text(
-              'Action',
+              'Average Quiz Scores',
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 16,
+                fontSize: 15,
               ),
-              textAlign: TextAlign.center,
             ),
+          ),
+          const Expanded(
+            flex: 10,
+            child: SizedBox.shrink(),
           ),
         ],
       ),
@@ -650,29 +767,18 @@ class StudentOverviewScreen extends StatelessWidget {
   }
 
   Widget _buildTableRow(
-    String school,
     String name,
     String userId,
     String grade,
     bool isActive,
+    double avgQuizScore,
   ) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       child: Row(
         children: [
           Expanded(
-            flex: 3,
-            child: Text(
-              school,
-              style: const TextStyle(
-                fontSize: 16,
-                color: Color(0xFF000000),
-                fontWeight: FontWeight.w400,
-              ),
-            ),
-          ),
-          Expanded(
-            flex: 3,
+            flex: 30,
             child: Row(
               children: [
                 const CircleAvatar(
@@ -693,43 +799,51 @@ class StudentOverviewScreen extends StatelessWidget {
                       color: Color(0xFF3B3B3B),
                       fontWeight: FontWeight.w400,
                     ),
-                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
               ],
             ),
           ),
           Expanded(
-            flex: 2,
-            child: Text(
-              userId,
-              style: const TextStyle(
-                fontSize: 16,
-                color: Color(0xFF3B3B3B),
-                fontWeight: FontWeight.w400,
+            flex: 30,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 12.0, right: 8.0),
+              child: Text(
+                userId,
+                style: const TextStyle(
+                  fontSize: 13,
+                  color: Color(0xFF3B3B3B),
+                  fontWeight: FontWeight.w400,
+                ),
               ),
             ),
           ),
           Expanded(
-            flex: 1,
+            flex: 12,
             child: Text(
               grade,
               style: const TextStyle(
-                fontSize: 16,
+                fontSize: 15,
                 color: Color(0xFF3B3B3B),
                 fontWeight: FontWeight.w400,
               ),
             ),
           ),
           Expanded(
-            flex: 1,
+            flex: 18,
             child: Container(
+              margin: const EdgeInsets.only(right: 8),
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(999),
                 border: Border.all(
-                  color: isActive ? Color(0xFF10C036) : Color(0xFFE48C00),
+                  color: isActive
+                      ? const Color(0xFF10C036)
+                      : const Color(0xFFE48C00),
                 ),
+                color: isActive
+                    ? const Color(0xFFE8F5E9)
+                    : const Color(0xFFFFF3E0),
               ),
               child: Text(
                 isActive ? 'Active' : 'Inactive',
@@ -743,19 +857,42 @@ class StudentOverviewScreen extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 1,
-            child: IconButton(
-              icon: const Icon(
-                Icons.visibility_outlined,
-                size: 20,
-                color: Color(0xFF32475C),
+            flex: 20,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 12.0),
+              child: Text(
+                avgQuizScore % 1 == 0
+                    ? avgQuizScore.toInt().toString()
+                    : avgQuizScore.toStringAsFixed(1),
+                style: const TextStyle(
+                  fontSize: 15,
+                  color: Color(0xFF3B3B3B),
+                  fontWeight: FontWeight.w400,
+                ),
+                textAlign: TextAlign.start,
               ),
-              onPressed: () {
-                if (onViewDetails != null) {
+            ),
+          ),
+          Expanded(
+            flex: 10,
+            child: InkWell(
+              onTap: () {
+                if (widget.onViewDetails != null) {
                   DPrint.log("viewing student details for $userId");
-                  onViewDetails!(userId);
+                  widget.onViewDetails!(userId);
                 }
               },
+              child: const Text(
+                'View',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Color(0xFF0066FF),
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500,
+                  decoration: TextDecoration.underline,
+                  decorationColor: Color(0xFF0066FF),
+                ),
+              ),
             ),
           ),
         ],

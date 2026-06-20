@@ -20,8 +20,11 @@ class TeacherDashboardController extends BaseController {
 
   final Rxn<SubjectListResponseModel> subInfo = Rxn<SubjectListResponseModel>();
 
-  final Rxn<GetStudentDetailsResponseModel> studentOverviewTop = Rxn<GetStudentDetailsResponseModel>();
-  final Rxn<GetStudentDetailsResponseModel> studentOverviewBottom = Rxn<GetStudentDetailsResponseModel>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewTop =
+      Rxn<GetStudentDetailsResponseModel>();
+  final Rxn<GetStudentDetailsResponseModel> studentOverviewBottom =
+      Rxn<GetStudentDetailsResponseModel>();
+  final Rxn<Counters> initialCounters = Rxn<Counters>();
 
   final TextEditingController searchController = TextEditingController();
 
@@ -31,6 +34,8 @@ class TeacherDashboardController extends BaseController {
   final RxString filterSchoolName = ''.obs;
   final RxString filterGrade = 'All'.obs;
   final RxString filterSubject = 'All'.obs;
+  final RxnDouble filterMinQuizScore = RxnDouble();
+  final RxnDouble filterMaxQuizScore = RxnDouble();
 
   List<StudentItem> _allStudents = [];
   final RxInt currentPage = 1.obs;
@@ -45,7 +50,9 @@ class TeacherDashboardController extends BaseController {
         filterStudentName.isEmpty &&
         filterSchoolName.isEmpty &&
         filterGrade.value == 'All' &&
-        filterSubject.value == 'All') {
+        filterSubject.value == 'All' &&
+        filterMinQuizScore.value == null &&
+        filterMaxQuizScore.value == null) {
       return _allStudents;
     }
 
@@ -82,10 +89,17 @@ class TeacherDashboardController extends BaseController {
       final matchesFilterGrade =
           filterGrade.value == 'All' || cleanStudentGrade == cleanFilterGrade;
 
+      final matchesMinScore = filterMinQuizScore.value == null ||
+          student.avgQuizScore >= filterMinQuizScore.value!;
+      final matchesMaxScore = filterMaxQuizScore.value == null ||
+          student.avgQuizScore <= filterMaxQuizScore.value!;
+
       return matchesSearch &&
           matchesFilterName &&
           matchesFilterSchool &&
-          matchesFilterGrade;
+          matchesFilterGrade &&
+          matchesMinScore &&
+          matchesMaxScore;
     }).toList();
   }
 
@@ -156,9 +170,23 @@ class TeacherDashboardController extends BaseController {
       currentPage.value = 1;
       _updateStudentInfo();
     });
+    ever(filterMinQuizScore, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(filterMaxQuizScore, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
     ever(currentPage, (_) {
       _updateStudentInfo();
     });
+
+    // First fetch global totals to capture initialCounters
+    fetchDashboard(
+      gradeLevel: 'All',
+      timePeriod: 'Past Year',
+    );
 
     fetchDashboard(
       subject: 'English',
@@ -185,6 +213,9 @@ class TeacherDashboardController extends BaseController {
       },
       (success) {
         userInfo.value = success.data;
+        if (initialCounters.value == null) {
+          initialCounters.value = success.data?.counters;
+        }
         DPrint.log(success.message);
       },
     );
@@ -243,7 +274,8 @@ class TeacherDashboardController extends BaseController {
       },
       (success) {
         studentOverviewTop.value = success.data;
-        DPrint.log("student details top fetched successfully ${success.message}");
+        DPrint.log(
+            "student details top fetched successfully ${success.message}");
       },
     );
   }
@@ -266,7 +298,8 @@ class TeacherDashboardController extends BaseController {
       },
       (success) {
         studentOverviewBottom.value = success.data;
-        DPrint.log("student details bottom fetched successfully ${success.message}");
+        DPrint.log(
+            "student details bottom fetched successfully ${success.message}");
       },
     );
   }
