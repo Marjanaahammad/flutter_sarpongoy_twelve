@@ -31046,111 +31046,667 @@ final QuizModel Scijhs2s4ss2Lesson2QuizData = QuizModel(
   ],
 );
 final QuizModel Scijhs2s4ss3Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/8. Quiz.m4a',
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which of these acts like a temporary storage tank for electricity?",
-      options: ["A Resistor", "A Capacitor", "A Switch", "A Wire"],
-      correctIndex: 1,
-      difficulty: "Easy",
-      explanation: "Capacitors store electrical charge temporarily.",
+      question: "1. What is defined as the ability to do work?",
+      options: ["Force", "Power", "Energy", "Motion"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Energy is the scientific term for the capacity to perform work.",
     ),
 
     QuizQuestion(
-      question: "2. What happens during the 'discharging' phase of a capacitor?",
+      question: "2. Which appliance converts electrical energy into mostly heat energy?",
       options: [
-        "It gains electrons",
-        "It stores energy",
-        "It releases energy",
-        "It stops working"
+        "A television",
+        "A ceiling fan",
+        "A radio set",
+        "An electric iron"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "An iron uses a heating element to convert electricity into heat for clothes.",
+    ),
+
+    QuizQuestion(
+      question: "3. To conserve energy, which type of bulb is most recommended for homes?",
+      options: [
+        "LED bulbs",
+        "Neon bulbs",
+        "Yellow bulbs",
+        "Large bulbs"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "LED bulbs are highly energy-efficient compared to traditional bulbs.",
+    ),
+
+    QuizQuestion(
+      question: "4. Energy conversion in a car engine moves the vehicle. This motion is called...",
+      options: [
+        "Chemical energy",
+        "Potential energy",
+        "Mechanical energy",
+        "Thermal energy"
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Discharging is the process of releasing stored electrical charge.",
+      explanation: "Mechanical energy is the energy associated with the motion and position of objects.",
     ),
 
     QuizQuestion(
-      question: "3. Which component would you use to dim the brightness of an LED?",
-      options: ["A Diode", "A Resistor", "A Battery", "A Switch"],
+      question: "5. Which of these is a direct benefit of energy conservation for a family?",
+      options: [
+        "It increases the electricity bill.",
+        "It reduces the cost of power.",
+        "It makes the house much hotter.",
+        "It uses up more prepaid units."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Using less energy directly lowers the amount of money spent on power.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the Law of Conservation of Energy state?",
+      options: [
+        "Energy is always being destroyed.",
+        "Energy cannot be created or lost.",
+        "Energy can only be created by us.",
+        "Energy never changes its form."
+      ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Resistors reduce current flow, which dims the light.",
+      explanation: "The law states energy is constant in total but changes forms.",
     ),
 
     QuizQuestion(
-      question: "4. If you see a component with '1000µF' written on it, what is it?",
-      options: ["A Resistor", "A Diode", "A Capacitor", "An LED"],
+      question: "7. Which gas is released by burning fossil fuels and affects the climate?",
+      options: [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Carbon dioxide"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Carbon dioxide is a major greenhouse gas from fuel combustion.",
+    ),
+
+    QuizQuestion(
+      question: "8. A person switching off a fan when leaving a room is practicing...",
+      options: [
+        "Energy conversion",
+        "Energy conservation",
+        "Energy destruction",
+        "Energy creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Saving energy by not using it unnecessarily is conservation.",
+    ),
+
+    QuizQuestion(
+      question: "9. In a battery-operated radio, what is the final desired energy form?",
+      options: [
+        "Sound energy",
+        "Light energy",
+        "Heat energy",
+        "Solar energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The purpose of a radio is to produce sound for the listener.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is a reason for the importance of energy conversion?",
+      options: [
+        "It stops all machines from working.",
+        "It makes energy disappear forever.",
+        "It allows us to use stored energy.",
+        "It prevents the use of electricity."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Conversion allows us to turn stored forms (like coal or water) into usable forms.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What do we call the process of checking a building for energy waste?",
+      options: [
+        "Energy creation",
+        "Energy audit",
+        "Energy destruction",
+        "Energy burning"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "An audit is an inspection to see how energy is used and wasted.",
+    ),
+
+    QuizQuestion(
+      question: "2. The 'Greenhouse Effect' is mainly caused by...",
+      options: [
+        "Planting too many trees",
+        "Using too much water",
+        "Trapping heat in the atmosphere",
+        "Building houses with glass"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The 'F' stands for Farads, the unit for capacitance.",
+      explanation: "Greenhouse gases act like a blanket, trapping heat near the Earth.",
     ),
 
     QuizQuestion(
-      question: "5. What is the main purpose of a Diode in a circuit?",
+      question: "3. Which of the following is a greenhouse gas mentioned in your textbook?",
       options: [
-        "To store charge",
-        "To create light",
-        "To control direction",
-        "To provide power"
+        "Sulphur Dioxide",
+        "Pure Oxygen",
+        "Clean Steam",
+        "Fresh Air"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Sulphur Dioxide and Carbon Dioxide are harmful gases from burning fuels.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should a science poster include clear drawings?",
+      options: [
+        "To make the paper heavier",
+        "To use up all the crayons",
+        "To help people understand quickly",
+        "To hide the written text"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Visuals make complex science topics easier for the public to understand.",
+    ),
+
+    QuizQuestion(
+      question: "5. Leaving a phone charger plugged in when not in use is called...",
+      options: [
+        "Solar charging",
+        "Power saving",
+        "Vampire power",
+        "Fast charging"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This refers to the small amount of energy wasted by plugged-in devices.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is a direct result of global warming?",
+      options: [
+        "Changing weather patterns",
+        "More electricity in the air",
+        "Clearer city skies",
+        "Cooler summer days"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Global warming disrupts the natural climate, leading to unpredictable weather.",
+    ),
+
+    QuizQuestion(
+      question: "7. In Ghana, which of these is a major source of fossil fuel pollution?",
+      options: [
+        "Sailing boats",
+        "Solar panels",
+        "Trotro exhaust",
+        "Wind turbines"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Trotros use diesel or petrol, which release pollutants when burned.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which activity is a part of an energy audit?",
+      options: [
+        "Counting how many people live in a house",
+        "Checking if lights are left on in empty rooms",
+        "Buying a new television for the school",
+        "Planting flowers in the garden"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Checking for unnecessary light use is a key part of auditing energy.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the best way to reduce greenhouse gas emissions?",
+      options: [
+        "Burning more coal for power",
+        "Using energy-efficient appliances",
+        "Driving more cars on the road",
+        "Leaving all fans running"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Efficient appliances use less power, reducing the need to burn fuels.",
+    ),
+
+    QuizQuestion(
+      question: "10. A poster says: 'Switch off the light, it's bright outside!' What is it teaching?",
+      options: [
+        "Energy Conversion",
+        "Energy Generation",
+        "Energy Conservation",
+        "Energy Destruction"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "It encourages saving energy by not using artificial light when sunlight is available.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What name is given to a machine that consists of two or more simple machines?",
+      options: [
+        "Simple machine",
+        "Compound machine",
+        "Manual machine",
+        "Natural machine"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A compound or complex machine is a combination of two or more simple machines.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which part of a bicycle acts as a lever to help the rider change direction?",
+      options: [
+        "The rubber tyres",
+        "The metal chain",
+        "The handlebars",
+        "The seat post"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Handlebars are levers used to exert force to turn the front wheel.",
+    ),
+
+    QuizQuestion(
+      question: "3. A wheelbarrow is often called a simple machine, but it uses a wheel and axle and what other simple machine?",
+      options: [
+        "A pulley",
+        "A lever",
+        "A screw",
+        "A wedge"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The handles and body of the wheelbarrow act as a lever to lift the load.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a complex machine used for transportation in Ghana?",
+      options: [
+        "A wooden ladder",
+        "A metal chisel",
+        "A motor vehicle",
+        "A plastic ruler"
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Diodes act as one-way valves for electricity.",
+      explanation: "A motor vehicle is a complex machine made of thousands of simple machines.",
     ),
 
     QuizQuestion(
-      question: "6. Why does a capacitor block DC current once it is fully charged?",
+      question: "5. What simple machine is the needle of a sewing machine an example of?",
       options: [
-        "The plates are full",
-        "The wires melt",
-        "The battery dies",
-        "The LED turns off"
+        "A wheel",
+        "A pulley",
+        "A lever",
+        "A wedge"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The needle is a wedge because it is pointed to pierce through material.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does a complex machine like an elevator improve life in tall buildings?",
+      options: [
+        "It makes the building look better",
+        "It saves energy and time for people",
+        "It makes the building much taller",
+        "It keeps the building very cool"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Elevators use pulleys and motors to move people quickly between floors.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these simple machines is NOT usually found in a common bicycle?",
+      options: [
+        "A wheel and axle",
+        "An inclined plane",
+        "A pulley system",
+        "A lever system"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "While a bicycle uses levers, pulleys, and wheels, it does not typically use an inclined plane as a part of its mechanism.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these tools is a complex machine used in a kitchen?",
+      options: [
+        "A kitchen knife",
+        "A soup ladle",
+        "A can opener",
+        "A frying pan"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A can opener uses a lever, a wedge, and a wheel and axle to work.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is a pair of pliers considered a simple machine and not a complex one?",
+      options: [
+        "It is made of one type of machine.",
+        "It is made of three types of machines.",
+        "It is made of five types of machines.",
+        "It is made of zero types of machines."
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Once the plates can't hold any more electrons, flow stops in a DC circuit.",
+      explanation: "Pliers are a double-lever system, but they only represent one category of simple machine.",
     ),
 
     QuizQuestion(
-      question: "7. In a circuit diagram, which symbol looks like two parallel lines?",
-      options: ["LED", "Diode", "Capacitor", "Resistor"],
+      question: "10. What is the main purpose of using complex machines in Ghanaian industries?",
+      options: [
+        "To increase the cost of goods.",
+        "To make the workers very tired.",
+        "To increase work productivity.",
+        "To reduce the number of tools."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Complex machines allow work to be done faster and more efficiently.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of stroking a nail with a magnet in only one direction?",
+      options: [
+        "To keep the nail very cool",
+        "To align magnetic domains",
+        "To make the nail shiny",
+        "To clean the metal surface"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Stroking in one direction aligns the tiny magnetic particles (domains) inside the metal.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which device in a home uses a magnet to produce a loud warning sound?",
+      options: [
+        "An electric iron",
+        "A security alarm",
+        "A charcoal coal pot",
+        "A wooden broom"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Alarms use magnetic switches to trigger a sound when a door is opened.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is a magnet created by electricity called?",
+      options: [
+        "A natural magnet",
+        "An electromagnet",
+        "A permanent magnet",
+        "A plastic magnet"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An electromagnet is a temporary magnet made using an electric current.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an industrial use of magnetic force?",
+      options: [
+        "Painting a new car",
+        "Sorting scrap metal",
+        "Sweeping a factory",
+        "Planting cocoa seeds"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Large magnets are used to separate iron and steel from other materials in scrap yards.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the Single Stroking Method, what happens if you rub the magnet back and forth?",
+      options: [
+        "The magnet gets stronger",
+        "The nail becomes a magnet",
+        "No magnetism is created",
+        "The nail turns into gold"
+      ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The two lines represent the two metal plates.",
+      explanation: "Back-and-forth motion prevents the magnetic domains from aligning properly.",
     ),
 
     QuizQuestion(
-      question: "8. Which component is specifically designed to emit light?",
-      options: ["Transistor", "Capacitor", "Resistor", "LED"],
-      correctIndex: 3,
+      question: "6. Which Ghanaian professional would most likely use a magnetic compass?",
+      options: [
+        "A kente weaver",
+        "A canoe fisherman",
+        "A market trader",
+        "A coconut seller"
+      ],
+      correctIndex: 1,
       difficulty: "Easy",
-      explanation: "LED stands for Light Emitting Diode.",
+      explanation: "Fishermen use compasses to navigate the open sea.",
     ),
 
     QuizQuestion(
-      question: "9. What is the role of the dielectric in a capacitor?",
+      question: "7. Which component is NOT needed to make an electromagnet?",
       options: [
-        "To conduct power",
-        "To separate plates",
-        "To light up bulbs",
-        "To increase heat"
+        "An iron nail",
+        "A copper wire",
+        "A plastic straw",
+        "A D.C. battery"
       ],
-      correctIndex: 1,
-      difficulty: "Hard",
-      explanation: "The dielectric is an insulator that keeps the plates apart.",
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A plastic straw does not conduct electricity or help focus magnetic force.",
     ),
 
     QuizQuestion(
-      question: "10. What effect does a capacitor have on an LED after the power is cut?",
+      question: "8. How does a loudspeaker use magnetism?",
       options: [
-        "LED stays on forever",
-        "LED stays on briefly",
-        "LED turns off instantly",
-        "LED changes colour"
+        "To produce heat",
+        "To create sound",
+        "To light a bulb",
+        "To cool the air"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Magnets in speakers help convert electrical signals into sound vibrations.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which method involves two magnets moving from the centre to the ends?",
+      options: [
+        "Single stroking",
+        "Divided stroking",
+        "Electrical method",
+        "Natural induction"
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The capacitor discharges its remaining energy, keeping the LED on for a short time.",
+      explanation: "Divided stroking uses two magnets starting at the centre of the metal.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is steel often used for permanent magnets instead of soft iron?",
+      options: [
+        "Steel is much cheaper",
+        "Steel is easier to find",
+        "Steel keeps magnetism",
+        "Steel is a bright color"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Steel retains its magnetism for a long time, while soft iron loses it quickly.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the 'a' stand for in the formula F = m × a?",
+      options: [
+        "Amount",
+        "Area",
+        "Acceleration",
+        "Attraction"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "In physics, 'a' represents acceleration, which is the change in speed.",
+    ),
+
+    QuizQuestion(
+      question: "2. If the magnetic force pulling an object increases, what happens to its acceleration?",
+      options: [
+        "It stays the same.",
+        "It decreases.",
+        "It increases.",
+        "It stops completely."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Force and acceleration are directly proportional; more force means more acceleration.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which object would accelerate the most when pulled by the same magnet?",
+      options: [
+        "A 5kg iron weight",
+        "A 1kg iron bar",
+        "A 10g iron nail",
+        "A 500g iron bolt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The 10g nail has the smallest mass, so it will accelerate the fastest.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the relationship between mass and acceleration when force is constant?",
+      options: [
+        "They are the same.",
+        "They are not related.",
+        "They are inversely proportional.",
+        "They are always zero."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Inversely proportional' means as mass goes up, acceleration goes down.",
+    ),
+
+    QuizQuestion(
+      question: "5. A student uses a magnet to pull a metal trolley. If she adds a heavy bag of salt to the trolley, it moves slower. Why?",
+      options: [
+        "The force increased.",
+        "The mass increased.",
+        "The force decreased.",
+        "The mass decreased."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Adding the bag of salt increases the total mass, which slows down acceleration.",
+    ),
+
+    QuizQuestion(
+      question: "6. Newton’s Second Law is also known as the Law of...",
+      options: [
+        "Inertia",
+        "Gravity",
+        "Force and Acceleration",
+        "Magnetism"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The second law specifically defines the relationship between force, mass, and acceleration.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which unit is used to measure Force in Science?",
+      options: [
+        "Kilograms",
+        "Metres",
+        "Newtons",
+        "Seconds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Force is measured in Newtons (N), named after Isaac Newton.",
+    ),
+
+    QuizQuestion(
+      question: "8. If you want a heavy object to accelerate as fast as a light one, what must you do?",
+      options: [
+        "Use a weaker magnet.",
+        "Use a stronger magnet.",
+        "Use no magnet at all.",
+        "Paint the object red."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "To overcome a larger mass and get the same acceleration, you must increase the force.",
+    ),
+
+    QuizQuestion(
+      question: "9. Magnetic force is an example of which part of the F = m × a equation?",
+      options: [
+        "The 'm'",
+        "The 'a'",
+        "The 'F'",
+        "The '='"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Magnetic pull is a type of force (F).",
+    ),
+
+    QuizQuestion(
+      question: "10. Which scientist is famous for the Three Laws of Motion?",
+      options: [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Kwesi Brew",
+        "Thomas Edison"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Isaac Newton developed the three laws that describe how objects move.",
     ),
   ],
 );

@@ -6805,6 +6805,86 @@ final PracticeModel Scijhs2s4ss3Lesson1PracticeData = PracticeModel(
     )
   ],
 );
+final PracticeModel Scijhs2s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A factory near Tema releases thick smoke into the sky every day. What is the primary gas being released that contributes to global warming?",
+      answer: "Correct Answer: Carbon Dioxide (CO₂).",
+      explanation: "Explanation: Burning industrial fuels releases CO₂, which is a major greenhouse gas.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Kofi is making a poster. He wants to show an energy-efficient way to stay cool. What should he draw?",
+      answer: "Correct Answer: He should draw someone opening windows for natural ventilation instead of using an air conditioner.",
+      explanation: "Explanation: Natural air uses zero electricity, making it the most efficient way to stay cool.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the curriculum ask us to do an 'Energy Audit' before making a poster?",
+      answer: "Correct Answer: To find specific areas where energy is being wasted so the advice on the poster is useful.",
+      explanation: "Explanation: You must understand the problem before you can suggest a good solution.",
+    )
+  ],
+);
+final PracticeModel Scijhs2s4ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A tailor in a Ghanaian market is using a manual sewing machine. Mention one part of the machine that acts as a lever and explain why.",
+      answer: "Correct Answer: The foot pedal (treadle).",
+      explanation: "Explanation: The tailor presses the pedal up and down. It is a lever because it pivots to turn the force from the foot into motion for the machine.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at a pair of scissors used to cut fabric. Why is this considered a complex machine rather than just a simple one?",
+      answer: "Correct Answer: It combines two simple machines: the lever and the wedge.",
+      explanation: "Explanation: The handles and blades work as levers, while the sharp edges of the blades are wedges that cut through the cloth.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does a complex machine like a crane used at a construction site in Accra improve our quality of life?",
+      answer: "Correct Answer: It allows humans to lift very heavy loads.",
+      explanation: "Explanation: By combining many pulleys and levers, a crane can lift weights that hundreds of people could not lift alone, making building faster and safer.",
+    )
+  ],
+);
+final PracticeModel Scijhs2s4ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why must you lift the magnet high in the air between strokes when using the Single Stroking Method?",
+      answer: "Correct Answer: To avoid stroking the nail in the opposite direction.",
+      explanation: "Explanation: If you rub the magnet back and forth, you will 'scramble' the magnetic particles you just tried to organize. You must only stroke in one direction.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you want to make a magnet that you can turn 'on' and 'off' easily, which method should you use?",
+      answer: "Correct Answer: The Electrical Method (Electromagnet).",
+      explanation: "Explanation: An electromagnet only works when electricity is flowing. This makes it perfect for things like door locks or scrap cranes.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Kwame wants to know why his radio has a magnet inside. What is the magnet's job in the speaker?",
+      answer: "Correct Answer: It helps convert electricity into sound vibrations.",
+      explanation: "Explanation: The magnetic force interacts with the electrical signal to move the speaker cone, which creates the sound waves we hear.",
+    )
+  ],
+);
+final PracticeModel Scijhs2s4ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you use a stronger magnet to pull the same iron nail, will the nail move faster or slower?",
+      answer: "Correct Answer: Faster",
+      explanation: "Explanation: A stronger magnet increases the Force (F). According to the law, if force increases and mass stays the same, acceleration (a) must increase.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You have two objects: a light iron needle and a heavy iron bolt. If the same magnet pulls both, which one has less acceleration?",
+      answer: "Correct Answer: The heavy iron bolt.",
+      explanation: "Explanation: The bolt has more mass (m). Newton’s law tells us that more mass results in less acceleration when the force is the same.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What happens to the acceleration of an object if you double the mass but keep the magnetic force the same?",
+      answer: "Correct Answer: The acceleration is cut in half.",
+      explanation: "Explanation: Mass and acceleration have an inverse relationship. If you make the object twice as heavy, it becomes twice as hard to speed up.",
+    )
+  ],
+);
 
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',

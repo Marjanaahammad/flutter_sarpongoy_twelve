@@ -15920,42 +15920,279 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS2 S4 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What unit do we use to measure capacitance?",
+        question: "1. Which of the following is the best way to conserve electricity in a Ghanaian classroom?",
         options: [
-          "Ohms",
-          "Farads",
-          "Volts",
-          "Amps"
+          "Leaving the fans on during the break.",
+          "Using incandescent (yellow) bulbs.",
+          "Switching off lights when it is sunny.",
+          "Keeping the windows closed all day."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Switching off lights when it is sunny helps save electricity by using natural daylight."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. According to the Law of Conservation of Energy, energy can be...",
+        options: [
+          "Created during a very fast reaction.",
+          "Changed from one form to another.",
+          "Destroyed if it is used too quickly.",
+          "Made by using a very strong battery."
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Capacitance is measured in farads (F)."
+        explanation: "Energy cannot be created or destroyed; it can only be transformed from one form to another."
     ),
 
     IndependentPracticeQuestion(
-        question: "2. Which component only allows electricity to flow in one direction?",
+        question: "3. In a hydroelectric power station like Akosombo, what is the primary conversion?",
         options: [
-          "Resistor",
-          "Capacitor",
-          "Diode",
-          "Battery"
+          "Heat energy into light energy.",
+          "Sound energy into heat energy.",
+          "Kinetic energy into electrical energy.",
+          "Chemical energy into sound energy."
         ],
         correctIndex: 2,
-        difficulty: "Easy",
-        explanation: "A diode allows electric current to flow in only one direction."
+        difficulty: "Medium",
+        explanation: "Hydroelectric power stations convert the kinetic energy of moving water into electrical energy."
     ),
 
     IndependentPracticeQuestion(
-        question: "3. What is the insulating material inside a capacitor called?",
+        question: "4. Why are greenhouse gases like carbon dioxide considered harmful to the environment?",
         options: [
-          "Conductor",
-          "Electrode",
-          "Dielectric",
-          "P-N Junction"
+          "They make the air too cold to breathe.",
+          "They contribute to global warming.",
+          "They turn the soil into hard rocks.",
+          "They prevent plants from growing."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Greenhouse gases trap heat in the atmosphere, contributing to global warming and climate change."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these gases is most responsible for trapping heat in the atmosphere?",
+        options: [
+          "Oxygen",
+          "Carbon Dioxide",
+          "Hydrogen",
+          "Nitrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Carbon dioxide is a major greenhouse gas that traps heat in the Earth's atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the best title for a poster about energy conservation in Ghana?",
+        options: [
+          "How to Build a Big Dam",
+          "The History of Electricity",
+          "Save Energy for a Greener Ghana",
+          "Why Petrol is Expensive"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The insulating material between the plates of a capacitor is called the dielectric."
+        explanation: "A poster about energy conservation should encourage people to save energy and protect the environment."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Global warming can lead to which of the following in West Africa?",
+        options: [
+          "More predictable farming seasons",
+          "A decrease in the Earth's temperature",
+          "More frequent and severe flooding",
+          "The disappearance of all sunlight"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Global warming increases the risk of extreme weather events, including severe flooding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. During an energy audit, you find an old fridge with a loose door. This is an example of...",
+        options: [
+          "Efficient energy conversion",
+          "Energy conservation",
+          "Energy waste",
+          "Correct energy use"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A loose fridge door allows cold air to escape, causing unnecessary energy waste."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of a complex machine?",
+        options: [
+          "A tool with no moving parts.",
+          "A tool made of two or more simple machines.",
+          "A tool that only uses electricity to work.",
+          "A tool that is very expensive to buy."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A complex machine is made up of two or more simple machines working together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which simple machine is found in a stapler to help it pierce through paper?",
+        options: [
+          "An inclined plane",
+          "A pulley system",
+          "A sharp wedge",
+          "A wheel and axle"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sharp metal staple acts as a wedge, helping it pierce through paper."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a bicycle, what is the main function of the chain and gears?",
+        options: [
+          "They act as a lever to steer.",
+          "They act as a wedge to cut.",
+          "They act as a pulley to move.",
+          "They act as a screw to hold."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The chain and gears work together like a pulley system to transfer motion and move the bicycle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do we use complex machines instead of only simple machines for big tasks?",
+        options: [
+          "They make the work even easier.",
+          "They are much smaller in size.",
+          "They require more human force.",
+          "They are harder to understand."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Complex machines combine simple machines to make work easier and more efficient."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which material is best for making a temporary magnet?",
+        options: [
+          "A piece of plastic",
+          "A soft iron rod",
+          "A glass bottle",
+          "A wooden stick"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Soft iron is easily magnetized and demagnetized, making it ideal for temporary magnets."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In the Electrical Method, what happens to the nail when the battery is removed?",
+        options: [
+          "It stays a magnet forever.",
+          "It becomes much stronger.",
+          "It loses its magnetism.",
+          "It starts to get very hot."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "When the battery is removed, the electromagnet loses its magnetic field and the nail loses its magnetism."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these devices uses a magnet to show direction?",
+        options: [
+          "A wall clock",
+          "A thermometer",
+          "A magnetic compass",
+          "A plastic ruler"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A magnetic compass uses a magnetized needle that aligns with Earth's magnetic field."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How many magnets are used in the Divided Stroking Method?",
+        options: [
+          "Exactly two magnets.",
+          "Only one magnet.",
+          "Three small magnets.",
+          "Four large magnets."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The Divided Stroking Method uses two magnets stroked from the center toward opposite ends."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these factors determines how much an object will accelerate when pulled by a magnet?",
+        options: [
+          "The colour of the magnet",
+          "The mass of the object",
+          "The price of the battery",
+          "The time of the day"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Newton's Second Law, the mass of an object affects how much it accelerates when a force is applied."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. According to Newton's Second Law, what is the formula for Force?",
+        options: [
+          "Force = Mass + Acceleration",
+          "Force = Mass ÷ Acceleration",
+          "Force = Mass × Acceleration",
+          "Force = Mass - Acceleration"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Newton's Second Law states that Force equals Mass multiplied by Acceleration (F = ma)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a magnet pulls a toy car and it speeds up quickly, we say it has high...",
+        options: [
+          "Insulation",
+          "Acceleration",
+          "Evaporation",
+          "Reflection"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Acceleration is the rate at which an object's velocity changes."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why does a heavy iron plate move slowly when a small magnet pulls it?",
+        options: [
+          "Because it has a large mass.",
+          "Because it has a small mass.",
+          "Because the plate is too cold.",
+          "Because the magnet is too big."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A larger mass requires more force to achieve the same acceleration, so it moves more slowly when pulled by a small magnet."
     ),
   ],
 );
