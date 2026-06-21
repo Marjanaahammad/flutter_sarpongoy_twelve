@@ -1113,7 +1113,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(width: 1, color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildQuizScoresSection(bottomData),
+          child: _buildQuizScoresSection(topData ?? bottomData),
         ),
       ],
     );
@@ -1121,6 +1121,21 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
 
   Widget _buildRecentWorkSection(GetStudentDetailsResponseModel? data) {
     final recentWorks = data?.overview?.recentWork;
+
+    // ─── DEBUG: Print recent work data ────────────────────────────────────────
+    DPrint.log('─── Recent Work Debug ───');
+    DPrint.log('data is null: ${data == null}');
+    DPrint.log('recentWork count: ${recentWorks?.length ?? 0}');
+    for (final w in recentWorks ?? []) {
+      DPrint.log(
+        'Subject: ${w.subject} | '
+        'PracticeScore: ${w.practiceScore} | '
+        'QuizScore: ${w.quizScore} | '
+        'Date: ${w.date}',
+      );
+    }
+    DPrint.log('─────────────────────────');
+
     final availableSubjects = data?.filters?.subjects ??
         [
           'English',
@@ -1647,6 +1662,19 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
 
   Widget _buildQuizScoresSection(GetStudentDetailsResponseModel? data) {
     final courseWise = data?.overview.quizScoreTable ?? [];
+
+    // ─── DEBUG: Print quiz score table data ───────────────────────────────────
+    DPrint.log('─── Quiz Score Table Debug ───');
+    DPrint.log('bottomData is null: ${data == null}');
+    DPrint.log('quizScoreTable length: ${courseWise.length}');
+    for (final item in courseWise) {
+      DPrint.log(
+        'Subject: ${item.subject} | '
+        'AvgLatestAttempt: ${item.avgLatestAttempt} | '
+        'AvgFirstAttempt: ${item.avgFirstAttempt}',
+      );
+    }
+    DPrint.log('──────────────────────────────');
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
