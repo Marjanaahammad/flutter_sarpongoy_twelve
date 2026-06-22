@@ -474,7 +474,7 @@ class SidebarController extends GetxController {
                 subStrandName: subStrand.title,
                 lessonNumber: (updatedLessons.length + 1).toString(),
                 gradeName: selectedGrade.value,
-                isLocked: false,
+                isLocked: strand.isLocked,
                 isCompleted: isLessonCompleted,
               ),
             );
@@ -486,7 +486,7 @@ class SidebarController extends GetxController {
           strand.copyWith(
             subStrands: updatedSubStrands,
             isCompleted: allLessonsInStrandCompleted,
-            isLocked: false,
+            isLocked: strand.isLocked,
           ),
         );
       }
@@ -2371,7 +2371,7 @@ class SidebarController extends GetxController {
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
-      final isStrandLocked = false;
+      final isStrandLocked = sIndex > 2;
       final currentStrandData = strandsData[sIndex];
       final subStrandsRaw =
           currentStrandData["subStrands"] as List<Map<String, dynamic>>;
@@ -6479,7 +6479,7 @@ class SidebarController extends GetxController {
         title: "BECE",
         subtitle: "Past Exam",
         isCompleted: false,
-        isLocked: false,
+          isLocked: true,
         subStrands: [
           SubStrand(
             title: "Mock",
@@ -6528,12 +6528,12 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
-    // final course = selectedCourse.value;
-    // if (course != null && index >= 0 && index < course.strands.length) {
-    //   if (course.strands[index].isLocked) {
-    //     return;
-    //   }
-    // }
+    final course = selectedCourse.value;
+    if (course != null && index >= 0 && index < course.strands.length) {
+      if (course.strands[index].isLocked) {
+        return;
+      }
+    }
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

@@ -240,7 +240,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   Expanded(
                     child: _statCard(
                       (student?.averageScore ?? 0.0).toString(),
-                      "Average Score",
+                      "Average Quiz Score",
                     ),
                   ),
                   const SizedBox(width: 12),
@@ -328,20 +328,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           'Sign out from your session',
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(16.0),
-                        child: Divider(height: 1, color: Color(0xFFB9B9B9)),
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          _showDeleteDialog(context);
-                        },
-                        child: _settingTile(
-                          'assets/images/delete.png',
-                          "Delete Account",
-                          'All of your progress will be deleted',
-                        ),
-                      ),
+                      // avera
+                      // GestureDetector(
+                      //   onTap: () {
+                      //     _showDeleteDialog(context);
+                      //   },
+                      //   child: _settingTile(
+                      //     'assets/images/delete.png',
+                      //     "Delete Account",
+                      //     'All of your progress will be deleted',
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
