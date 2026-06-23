@@ -1667,6 +1667,7 @@ final QuizModel s3ss1Lesson3QuizData = QuizModel(
         "They said they were walking along the road.",
         "They said they are walking along the road.",
         "They said they had been walking along the road.",
+        "They said they have walked along the road."
       ],
       correctIndex: 0,
       difficulty: "Hard",

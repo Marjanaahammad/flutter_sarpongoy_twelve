@@ -80,7 +80,7 @@ final GetReadyModel s3ss1Lesson2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/s3_ss1_l2/chapter_overview.jpg',
   overviewAudioPath: 'assets/audio/s3_ss1_l2/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/english/s3_ss1_l2/hook.jpg',
-  hookAudioPath: 'assets/audio/s3_ss1_l2/2. Hook.m4a',
+  hookAudioPath: 'assets/audio/s3_ss1_l2/2. Hook .m4a',
 );
 final GetReadyModel s3ss1Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/s3_ss1_l3/chapter_overview.jpg',
