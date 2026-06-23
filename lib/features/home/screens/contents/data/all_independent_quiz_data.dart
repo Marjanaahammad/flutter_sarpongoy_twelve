@@ -16196,6 +16196,118 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs2s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool features a long metal blade and is commonly used in Ghana for weeding and harvesting?",
+        options: [
+          "Hand Trowel",
+          "Cutlass",
+          "Pickaxe",
+          "Rake"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A cutlass is commonly used in Ghana for weeding, clearing bushes, and harvesting crops."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you need to break up very hard, stony ground, which tool is the best choice?",
+        options: [
+          "Watering Can",
+          "Hand Fork",
+          "Pickaxe",
+          "Shovel"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A pickaxe is designed to break up hard, compacted, or stony ground."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which tool is designed with metal teeth to help level the soil?",
+        options: [
+          "Rake",
+          "Spade",
+          "Axe",
+          "Hoe"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A rake has metal teeth that are used to level soil and gather debris."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main use of a watering can on the farm?",
+        options: [
+          "To dig deep holes",
+          "To spray chemicals",
+          "To carry heavy logs",
+          "To sprinkle water"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A watering can is used to sprinkle water gently onto plants and seedlings."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which motion is most effective when using a hoe to clear weeds?",
+        options: [
+          "Pushing away from the body",
+          "A pulling motion toward the body",
+          "A circular spinning motion",
+          "Lifting the tool high above the head"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A hoe is most effective when used with a pulling motion toward the body to cut and remove weeds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To avoid back pain while digging with a shovel, you should:",
+        options: [
+          "Bend only at the waist",
+          "Use your foot to push the blade down",
+          "Hold the handle with only one hand",
+          "Keep your legs perfectly straight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using your foot to push the shovel blade into the soil reduces strain on your back and makes digging easier."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When is the best time to use a sprayer on your crops?",
+        options: [
+          "When it is very windy",
+          "During a heavy rainstorm",
+          "When the air is calm and still",
+          "In the middle of a dust storm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Spraying is most effective when the air is calm and still because the spray can reach the target plants without drifting away."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the correct way to hold an axe when felling a small tree?",
+        options: [
+          "With one hand at the very top",
+          "With both hands gripping the handle firmly",
+          "By the metal head only",
+          "With your eyes closed for safety"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An axe should be held with both hands gripping the handle firmly to maintain control and safety."
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:

@@ -474,7 +474,7 @@ class SidebarController extends GetxController {
                 subStrandName: subStrand.title,
                 lessonNumber: (updatedLessons.length + 1).toString(),
                 gradeName: selectedGrade.value,
-                isLocked: strand.isLocked,
+                isLocked: false,
                 isCompleted: isLessonCompleted,
               ),
             );
@@ -486,7 +486,7 @@ class SidebarController extends GetxController {
           strand.copyWith(
             subStrands: updatedSubStrands,
             isCompleted: allLessonsInStrandCompleted,
-            isLocked: strand.isLocked,
+            isLocked: false,
           ),
         );
       }
@@ -2371,7 +2371,7 @@ class SidebarController extends GetxController {
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
-      final isStrandLocked = sIndex > 2;
+      final isStrandLocked = false;
       final currentStrandData = strandsData[sIndex];
       final subStrandsRaw =
           currentStrandData["subStrands"] as List<Map<String, dynamic>>;
@@ -4346,6 +4346,26 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs2s4ss4Lesson3PracticeData;
                 independentPracticeData = Scijhs2s4ss4Lesson3IndependentQuizData;
                 quizData = Scijhs2s4ss4Lesson3QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 4 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS2s4ss5Lesson1GetReadyData;
+                learnData = Scijh2s4ss5Lesson1LearnData;
+                practiceData = Scijhs2s4ss5Lesson1PracticeData;
+                independentPracticeData = Scijhs2s4ss5Lesson1IndependentQuizData;
+                quizData = Scijhs2s4ss5Lesson1QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "Science" &&
+                  sIndex == 3 &&
+                  ssIndex == 4 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS2s4ss5Lesson2GetReadyData;
+                learnData = Scijh2s4ss5Lesson2LearnData;
+                practiceData = Scijhs2s4ss5Lesson2PracticeData;
+                independentPracticeData = Scijhs2s4ss5Lesson2IndependentQuizData;
+                quizData = Scijhs2s4ss5Lesson2QuizData;
               }
 
 
@@ -6479,7 +6499,7 @@ class SidebarController extends GetxController {
         title: "BECE",
         subtitle: "Past Exam",
         isCompleted: false,
-          isLocked: true,
+        isLocked: false,
         subStrands: [
           SubStrand(
             title: "Mock",
@@ -6528,12 +6548,12 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
-    final course = selectedCourse.value;
-    if (course != null && index >= 0 && index < course.strands.length) {
-      if (course.strands[index].isLocked) {
-        return;
-      }
-    }
+    // final course = selectedCourse.value;
+    // if (course != null && index >= 0 && index < course.strands.length) {
+    //   if (course.strands[index].isLocked) {
+    //     return;
+    //   }
+    // }
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

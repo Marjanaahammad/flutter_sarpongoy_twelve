@@ -6885,6 +6885,46 @@ final PracticeModel Scijhs2s4ss4Lesson3PracticeData = PracticeModel(
     )
   ],
 );
+final PracticeModel Scijhs2s4ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Describe the physical appearance of a hoe.",
+      answer: "Correct Answer: A hoe has a flat metal blade attached to a long wooden or metal handle at a right angle.",
+      explanation: "Explanation: The right-angle design is what makes it different from a shovel and allows it to pull soil or weeds effectively.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can you tell the difference between a shovel and a spade?",
+      answer: "Correct Answer: A shovel has a curved, bowl-like blade for scooping, while a spade has a flat, rectangular blade for cutting into soil.",
+      explanation: "Explanation: Shovels are for moving material; spades are for precise digging.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Describe a wheelbarrow and its main purpose.",
+      answer: "Correct Answer: A wheelbarrow has a large tray for loads, one wheel at the front, and two handles at the back. It is used to transport heavy items.",
+      explanation: "Explanation: The single wheel allows the user to balance and steer the load easily across the farm.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You need to harvest some sugar cane. Which tool do you use and what is the safety rule?",
+      answer: "Correct Answer: Use a cutlass and always swing the blade away from your body and legs.",
+      explanation: "Explanation: This prevents accidental cuts and ensures a clean harvest of the stalk.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are preparing a bed for planting vegetables. How do you use a hoe for this?",
+      answer: "Correct Answer: Use a pulling motion to loosen the topsoil and remove weeds.",
+      explanation: "Explanation: Pulling is more efficient for surface work than chopping straight down.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are using a spade to dig a hole. Where should you put your foot?",
+      answer: "Correct Answer: Put your foot on the top edge or 'shoulder' of the metal blade.",
+      explanation: "Explanation: Using your body weight through your foot makes it much easier to penetrate hard soil.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',

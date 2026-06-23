@@ -31711,6 +31711,274 @@ final QuizModel Scijhs2s4ss4Lesson3QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs2s4ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which tool is heavy and used specifically for felling trees?",
+      options: [
+        "Hand Fork",
+        "Axe",
+        "Secateur",
+        "Shovel"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An axe has the weight and sharpness needed to cut through thick tree trunks.",
+    ),
+
+    QuizQuestion(
+      question: "2. A tool with a broad, curved blade used for scooping soil is a:",
+      options: [
+        "Shovel",
+        "Spade",
+        "Pickaxe",
+        "Cutlass"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The curved blade of the shovel acts like a scoop for moving materials.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is a small, hand-held tool used for transplanting seedlings?",
+      options: [
+        "Wheelbarrow",
+        "Pickaxe",
+        "Hand Trowel",
+        "Sprayer"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Hand trowels are small and perfect for delicate work like moving seedlings.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which tool is used to carry heavy loads from one point to another?",
+      options: [
+        "Hoe",
+        "Rake",
+        "Cutlass",
+        "Wheelbarrow"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The wheelbarrow is the primary manual transport tool on a farm.",
+    ),
+
+    QuizQuestion(
+      question: "5. A pickaxe is most useful for which of the following tasks?",
+      options: [
+        "Watering seedlings",
+        "Breaking hard soil",
+        "Pruning flowers",
+        "Leveling the beds"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The sharp, heavy point of a pickaxe is designed to penetrate and break hard or rocky earth.",
+    ),
+
+    QuizQuestion(
+      question: "6. How is the blade of a hoe attached to its handle?",
+      options: [
+        "At a right angle",
+        "In a straight line",
+        "With a long chain",
+        "It has no handle"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The right-angle attachment allows the farmer to pull the blade through the soil.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which tool would you use to remove stones and leaves from a seedbed?",
+      options: [
+        "Cutlass",
+        "Rake",
+        "Axe",
+        "Hoe"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The teeth of a rake catch debris while letting the soil pass through.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which tool has a tank and is used to apply liquid pesticides?",
+      options: [
+        "Watering Can",
+        "Sprayer",
+        "Hand Fork",
+        "Shovel"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A sprayer uses a pump to turn liquid chemicals into a fine mist for crops.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the main difference between a spade and a shovel?",
+      options: [
+        "The spade is much heavier",
+        "The shovel has no handle",
+        "The spade has a flat blade",
+        "The shovel is for digging"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Spades have flat blades for clean cutting, whereas shovels are curved for scooping.",
+    ),
+
+    QuizQuestion(
+      question: "10. A tool with three or four metal tines used to loosen soil is a:",
+      options: [
+        "Hand Fork",
+        "Cutlass",
+        "Pickaxe",
+        "Hand Trowel"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The tines of a hand fork allow it to penetrate and loosen soil without moving too much of it.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s4ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which tool requires a pumping action to build pressure before use?",
+      options: [
+        "Watering Can",
+        "Sprayer",
+        "Pickaxe",
+        "Hand Fork"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A sprayer needs air pressure to push the liquid through the nozzle.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the primary safety rule when using a cutlass?",
+      options: [
+        "Always swing toward your feet",
+        "Swing away from your body",
+        "Use it only when it is blunt",
+        "Hold it by the metal blade"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Swinging away from the body prevents the blade from hitting the user if it slips.",
+    ),
+
+    QuizQuestion(
+      question: "3. When making a mound for planting, which tool is most appropriate?",
+      options: [
+        "Axe",
+        "Rake",
+        "Hoe",
+        "Secateur"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The hoe's blade is designed to gather and pile soil into mounds.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do we use the 'rose' attachment on a watering can?",
+      options: [
+        "To make the water flow faster",
+        "To create a gentle shower for plants",
+        "To stop the water from flowing",
+        "To make the can look beautiful"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A gentle shower prevents the soil and seeds from being washed away.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which body part should provide the most power when pushing a spade into the ground?",
+      options: [
+        "The arms",
+        "The neck",
+        "The foot and leg",
+        "The fingers"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Using leg strength and body weight is more efficient and safer for the back.",
+    ),
+
+    QuizQuestion(
+      question: "6. If you are splitting a large log for firewood, which tool is best?",
+      options: [
+        "Cutlass",
+        "Axe",
+        "Spade",
+        "Hand Fork"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The axe has the weight and wedge shape required to split wood.",
+    ),
+
+    QuizQuestion(
+      question: "7. How should you stand when using a heavy tool like a pickaxe?",
+      options: [
+        "With feet close together",
+        "Sitting on the ground",
+        "With feet shoulder-width apart",
+        "Standing on one leg"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A wide stance provides the balance needed to swing heavy tools safely.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the purpose of the teeth on a rake when preparing a seedbed?",
+      options: [
+        "To dig deep holes",
+        "To collect stones and debris",
+        "To cut down large trees",
+        "To water the plants"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The teeth act as a comb to pull away unwanted materials from the surface.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why should you avoid spraying chemicals in high winds?",
+      options: [
+        "The sprayer will get too heavy",
+        "The liquid might blow onto the user or other plants",
+        "The wind makes the chemical stronger",
+        "The sprayer nozzle will break"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Wind causes 'drift,' which can waste chemicals or cause harm to people and non-target plants.",
+    ),
+
+    QuizQuestion(
+      question: "10. To loosen soil in a small container or pot, which tool is best?",
+      options: [
+        "Pickaxe",
+        "Wheelbarrow",
+        "Hand Fork",
+        "Axe"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A hand fork is small enough for precision work in pots without damaging the container.",
+    ),
+  ],
+);
 
 final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
