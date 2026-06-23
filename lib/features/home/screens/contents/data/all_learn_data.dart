@@ -4008,7 +4008,7 @@ final LearnModel Scijh2s4ss3Lesson2LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/science/SCIENCE JHS2 S4 SS3 L2/partC.jpg',
-    audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/5. Teach - Part C .m4a',
   ),
 ]);
 final LearnModel Scijh2s4ss4Lesson1LearnData = LearnModel(parts: [

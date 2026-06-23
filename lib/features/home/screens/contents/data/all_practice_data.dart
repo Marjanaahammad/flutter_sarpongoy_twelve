@@ -5726,7 +5726,7 @@ final PracticeModel Scijhs1s4ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Which of these factors would increase the Potential Energy of a bucket of water sitting on a wall?",
+      scenario: "1. Question: Name one factor that would increase the Potential Energy of a bucket of water sitting on a wall?",
       answer: "Correct Answer: Increasing the height of the wall.",
       explanation: "Explanation: PE is directly related to height. If you move the bucket higher up, it stores more energy.",
     ),
