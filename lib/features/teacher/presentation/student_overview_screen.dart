@@ -275,7 +275,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
         Row(
           children: [
             Container(
-              width: 357,
+              width: 240,
               height: 44,
               decoration: BoxDecoration(
                 border: Border.all(color: const Color(0xFF727272)),
@@ -339,9 +339,88 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 ),
               ),
             ),
+            const SizedBox(width: 12),
+            _buildSortButton(),
           ],
         ),
       ],
+    );
+  }
+
+  Widget _buildSortButton() {
+    return PopupMenuButton<String>(
+      tooltip: 'Sort Students',
+      offset: const Offset(0, 45),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+      color: Colors.white,
+      onSelected: (value) {
+        if (value == 'studentName') {
+          if (_dashboardController.sortBy.value == 'studentName') {
+            if (_dashboardController.sortOrder.value == 'ASC') {
+              _dashboardController.sortOrder.value = 'DESC';
+            } else {
+              _dashboardController.sortBy.value = 'none';
+            }
+          } else {
+            _dashboardController.sortBy.value = 'studentName';
+            _dashboardController.sortOrder.value = 'ASC';
+          }
+        }
+      },
+      itemBuilder: (context) {
+        return [
+          PopupMenuItem<String>(
+            value: 'studentName',
+            child: Obx(() {
+              final isActive =
+                  _dashboardController.sortBy.value == 'studentName';
+              final isAsc = _dashboardController.sortOrder.value == 'ASC';
+              return Row(
+                children: [
+                  const Text(
+                    'Student Name',
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                      color: Color(0xFF1F2937),
+                    ),
+                  ),
+                  const Spacer(),
+                  Icon(
+                    Icons.arrow_upward,
+                    size: 16,
+                    color: isActive && isAsc
+                        ? const Color(0xFF00B023)
+                        : Colors.grey.withOpacity(0.5),
+                  ),
+                  const SizedBox(width: 2),
+                  Icon(
+                    Icons.arrow_downward,
+                    size: 16,
+                    color: isActive && !isAsc
+                        ? const Color(0xFF00B023)
+                        : Colors.grey.withOpacity(0.5),
+                  ),
+                ],
+              );
+            }),
+          ),
+        ];
+      },
+      child: Container(
+        padding: const EdgeInsets.all(8),
+        decoration: BoxDecoration(
+          border: Border.all(color: const Color(0xFF008E32)),
+          borderRadius: BorderRadius.circular(4),
+        ),
+        child: Obx(() => Icon(
+              Icons.sort,
+              color: _dashboardController.sortBy.value != 'none'
+                  ? const Color(0xFF00B023)
+                  : const Color(0xFF727272),
+              size: 20,
+            )),
+      ),
     );
   }
 

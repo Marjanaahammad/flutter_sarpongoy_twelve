@@ -42,12 +42,14 @@ class TeachdashboardImpl implements TeachDashboardRepository {
 
   @override
   NetworkResult<GetTeacherStudentResponseModel> fetchStudent(
-      {int? page, int? limit}) {
+      {int? page, int? limit, String? sortBy, String? order}) {
     return _apiClient.get(
       endpoint: ApiConstants.dashboard.fetchStudent,
       queryParameters: {
         if (page != null) 'page': page,
         if (limit != null) 'limit': limit,
+        if (sortBy != null) 'sortBy': sortBy,
+        if (order != null) 'order': order,
       },
       fromJsonT: (json) =>
           GetTeacherStudentResponseModel.fromJson(json as Map<String, dynamic>),

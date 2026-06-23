@@ -213,7 +213,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          'Lessons Completion Overview',
+          'Monthly Lessons Completed',
           style: TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.w500,
@@ -250,11 +250,25 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     if (l.contains('social study') ||
         l.contains('social science') ||
         l.contains('social studies')) return 'Social Studies';
+    // Must check 'religious' BEFORE 'science' to avoid a false 'Science' match
+    if (l.contains('rme') || l.contains('religious')) return 'RME';
     if (l.contains('science')) return 'Science';
     if (l.contains('english')) return 'English';
     if (l.contains('math')) return 'Math';
-    if (l.contains('rme') || l.contains('religious')) return 'RME';
     return name;
+  }
+
+  /// Maps the UI subject label (which may contain '\n') to the internal
+  /// normalised name used for chart filtering.
+  String _uiSubjectToNormalised(String uiSubject) {
+    final l = uiSubject.replaceAll('\n', ' ').toLowerCase();
+    if (l.contains('religious')) return 'RME';
+    if (l.contains('social')) return 'Social Studies';
+    if (l.contains('science')) return 'Science';
+    if (l.contains('english')) return 'English';
+    if (l.contains('math')) return 'Math';
+    if (l == 'all') return 'All';
+    return uiSubject;
   }
 
   Widget _buildFallbackAvatar() {
@@ -333,7 +347,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
         await _dashboardController.fetchDashboard(
           gradeLevel: _selectedGradeLevel.value,
           timePeriod: result,
-          subject: _selectedSubject.value,
+          subject: _mapToApiSubject(_selectedSubject.value),
         );
       },
     );
@@ -356,7 +370,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
         await _dashboardController.fetchDashboard(
           gradeLevel: result,
           timePeriod: _selectedTimePeriod.value,
-          subject: _selectedSubject.value,
+          subject: _mapToApiSubject(_selectedSubject.value),
         );
       },
     );
@@ -725,14 +739,17 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   // ── Donut chart ──
   Widget _buildDonutChartCard(TeacherDashboardResponse data) {
     // Use ONLY subjectMetrics from the API — no fallbacks.
-    final selectedSubject = _selectedSubject.value;
+    final selectedSubjectNormalised =
+        _uiSubjectToNormalised(_selectedSubject.value);
     final metrics = (data.charts?.subjectMetrics ?? [])
         .map((m) => SubjectMetric(
               subject: _mapSubjectName(m.subject ?? ''),
               avgDailyHours: m.avgDailyHours ?? 0.0,
               avgQuizScore: m.avgQuizScore ?? 0.0,
             ))
-        .where((m) => selectedSubject == 'All' || m.subject == selectedSubject)
+        .where((m) =>
+            selectedSubjectNormalised == 'All' ||
+            m.subject == selectedSubjectNormalised)
         .toList();
 
     return Container(
