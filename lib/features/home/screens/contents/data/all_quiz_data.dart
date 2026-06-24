@@ -26448,7 +26448,7 @@ final QuizModel Scijhs1s4ss1Lesson2QuizData = QuizModel(
   ],
 );
 final QuizModel Scijhs1s4ss1Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/8. Quiz.m4a',
+  audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/8. Quiz .m4a',
   questions: [
     QuizQuestion(
         question: "1. What is the Potential Energy of a 3kg bird perched on a branch 10m high? (g=10)",
@@ -35085,6 +35085,1078 @@ final QuizModel Scijhs3s3ss4Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs3s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does 'energy conservation' mean?",
+      options: [
+        "Creating new energy from the sun.",
+        "Using energy wisely and avoiding waste.",
+        "Using as much electricity as you can afford.",
+        "Turning off all appliances forever."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Conservation is about being mindful and reducing waste.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a strategy for conserving energy in the kitchen?",
+      options: [
+        "Opening the fridge door often to keep the room cool.",
+        "Putting hot food in the fridge immediately after cooking.",
+        "Boiling only the amount of water you actually need.",
+        "Using an electric stove to warm the kitchen in harmattan."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Heating extra water uses unnecessary electricity.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why should you switch off outdoor lights during the daytime?",
+      options: [
+        "The sun provides enough natural light to see.",
+        "Outdoor lights are only meant to work in the rain.",
+        "Lights do not work properly when it is very hot.",
+        "Keeping them on will make the bulbs change colour."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Using artificial light when the sun is out is pure waste.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which appliance generally uses the most energy in a short time?",
+      options: [
+        "A small radio playing music.",
+        "A laptop charging its battery.",
+        "An electric iron being heated.",
+        "A single LED light bulb."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Appliances that produce heat usually have high power ratings.",
+    ),
+
+    QuizQuestion(
+      question: "5. A student leaves a phone charger plugged in without a phone. This is:",
+      options: [
+        "Good, because it keeps the charger ready.",
+        "Bad, because it still consumes some power.",
+        "Good, because it prevents power surges.",
+        "Bad, because the charger might get cold."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Many chargers draw 'phantom' power even when no device is attached.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which type of bulb is the most energy-efficient for a JHS classroom?",
+      options: [
+        "LED bulb",
+        "Yellow bulb",
+        "Old torch bulb",
+        "Large neon sign"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "LEDs provide the most light for the least amount of electricity.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you want to cool a room with a fan, you should also:",
+      options: [
+        "Keep all the windows and doors wide open.",
+        "Turn on the television to distract yourself.",
+        "Close the windows if the air is very hot outside.",
+        "Wear heavy clothes to stay warm in the breeze."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Closing windows helps keep the cooler air generated inside the room.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the best way to manage laundry to save energy?",
+      options: [
+        "Washing one pair of socks every day in the machine.",
+        "Waiting until you have a full load before washing.",
+        "Using the hottest water possible for every wash.",
+        "Drying clothes with an electric hair dryer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Running a full load is more efficient than many small loads.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why should we use natural light during the day?",
+      options: [
+        "It makes the electricity meter run backwards.",
+        "It is free and saves our electricity credits.",
+        "It is the only way to see the chalkboard clearly.",
+        "Artificial light is dangerous during the daytime."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Sunlight is a free resource that reduces the need for bulbs.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which person is practicing energy conservation?",
+      options: [
+        "Esi, who leaves the radio on when she goes to market.",
+        "Kofi, who irons his shirt only when he needs to go out.",
+        "Yaw, who switches off the fan when he leaves the room.",
+        "Ama, who keeps the fridge door open while she eats."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Switching off appliances when not in use is a core conservation habit.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of the following is a direct benefit to a Ghanaian household?",
+      options: [
+        "More smoke in the kitchen area.",
+        "Higher monthly electricity bills.",
+        "More money available for school fees.",
+        "Fewer hours of sleep for children."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Saved money can be diverted to other important family needs.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is a major environmental reason to save electricity?",
+      options: [
+        "To make sure the grass grows taller.",
+        "To reduce pollution from power plants.",
+        "To prevent the moon from changing shape.",
+        "To make sure the ocean stays very salty."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Power generation often involves burning fuels that cause pollution.",
+    ),
+
+    QuizQuestion(
+      question: "3. Energy conservation helps prevent 'load shedding' because:",
+      options: [
+        "It makes the power lines much thicker.",
+        "It reduces the total demand on the grid.",
+        "It teaches people how to sit in the dark.",
+        "It forces the sun to shine much brighter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "When demand is lower than supply, the grid stays stable.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which term describes using energy today without ruining it for the future?",
+      options: [
+        "Rapid Consumption",
+        "Extreme Budgeting",
+        "Sustainable Development",
+        "Temporary Usage"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Sustainability focuses on long-term balance and availability.",
+    ),
+
+    QuizQuestion(
+      question: "5. Burning fossil fuels for energy releases gases that lead to:",
+      options: [
+        "Global warming",
+        "Heavier rocks",
+        "Faster internet",
+        "More oxygen"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Greenhouse gases trap heat in the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "6. Saving energy helps your electrical appliances by:",
+      options: [
+        "Making them look brand new forever.",
+        "Reducing wear and tear on their parts.",
+        "Making them work without any power.",
+        "Changing their colour to be brighter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Switching things off when not needed extends their working life.",
+    ),
+
+    QuizQuestion(
+      question: "7. If the Akosombo Dam has low water levels, energy conservation is:",
+      options: [
+        "Not important at all.",
+        "Only for people in Akosombo.",
+        "Critical to avoid power shortages.",
+        "Something that makes water rise."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "When supply is limited, reducing waste is essential.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a social benefit of saving energy?",
+      options: [
+        "Having more light for everyone in the community.",
+        "Getting to stay home from school more often.",
+        "Being able to run the radio louder than others.",
+        "Keeping the fridge open to show you have food."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Shared resources last longer when everyone is responsible.",
+    ),
+
+    QuizQuestion(
+      question: "9. Reducing energy waste in factories helps Ghana's economy by:",
+      options: [
+        "Making products more expensive to buy.",
+        "Reducing the cost of making local goods.",
+        "Forcing factories to close down early.",
+        "Using up all the gas in the country."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Lower production costs can lead to more affordable prices for Ghanaians.",
+    ),
+
+    QuizQuestion(
+      question: "10. Who is helping the environment the most?",
+      options: [
+        "Someone who uses a fan even when it is cold.",
+        "Someone who walks instead of using a car for short trips.",
+        "Someone who leaves the porch light on all day.",
+        "Someone who boils a full pot of water for one tea."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Walking saves fuel and reduces environmental pollution.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the 'I' represent in the formula P = IV?",
+      options: [
+        "Insulation",
+        "Internal heat",
+        "Ironing time",
+        "Electric current"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "In the formula P = IV, 'I' stands for electric current.",
+    ),
+
+    QuizQuestion(
+      question: "2. Calculate the power of a fridge that draws 2A from a 240V socket.",
+      options: [
+        "480 Watts",
+        "120 Watts",
+        "240 Watts",
+        "960 Watts"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Using P = IV, Power = 2 × 240 = 480 Watts.",
+    ),
+
+    QuizQuestion(
+      question: "3. To convert Watts to Kilowatts, you must:",
+      options: [
+        "Multiply by 100",
+        "Divide by 1,000",
+        "Subtract 1,000",
+        "Divide by 240"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "There are 1,000 Watts in 1 Kilowatt.",
+    ),
+
+    QuizQuestion(
+      question: "4. A 100W bulb is left on for 10 hours. How many units (kWh) are used?",
+      options: [
+        "100 kWh",
+        "10 kWh",
+        "1 kWh",
+        "0.1 kWh"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "100W = 0.1kW, and 0.1 × 10 hours = 1 kWh.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these appliances would likely use the most kWh in one hour?",
+      options: [
+        "A 5W LED bulb",
+        "A 50W laptop",
+        "A 150W television",
+        "A 3,000W AC unit"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The appliance with the highest power rating uses the most energy in one hour.",
+    ),
+
+    QuizQuestion(
+      question: "6. Energy consumed is measured in which unit by utility companies?",
+      options: [
+        "Kilowatt-hours",
+        "Total Amperes",
+        "Voltage-seconds",
+        "Watt-metres"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Electricity companies bill customers using kilowatt-hours (kWh).",
+    ),
+
+    QuizQuestion(
+      question: "7. If a 2kW heater is used for 30 minutes (0.5 hours), the energy is:",
+      options: [
+        "1.0 kWh",
+        "2.0 kWh",
+        "4.0 kWh",
+        "0.5 kWh"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Energy = Power × Time = 2kW × 0.5h = 1.0 kWh.",
+    ),
+
+    QuizQuestion(
+      question: "8. Power is defined as the:",
+      options: [
+        "Amount of current in a wire.",
+        "Rate of doing work or using energy.",
+        "Total time an appliance is plugged in.",
+        "Pressure of electricity from the Dam."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Power is the rate at which work is done or energy is transferred.",
+    ),
+
+    QuizQuestion(
+      question: "9. An appliance is 3kW. If 1 unit costs 2 Cedis, what is the cost for 1 hour?",
+      options: [
+        "2 Cedis",
+        "3 Cedis",
+        "5 Cedis",
+        "6 Cedis"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "3kW used for 1 hour = 3 kWh. At 2 Cedis per unit, cost = 3 × 2 = 6 Cedis.",
+    ),
+
+    QuizQuestion(
+      question: "10. A bulb uses 0.25A at 240V. What is its power in Watts?",
+      options: [
+        "240 Watts",
+        "60 Watts",
+        "40 Watts",
+        "1,000 Watts"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Using P = IV, Power = 0.25 × 240 = 60 Watts.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. An image that can be formed on a screen is called a:",
+      options: [
+        "Real image",
+        "Virtual image",
+        "Fake image",
+        "Mirror image"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A real image can be projected onto a screen.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which Ghanaian material could be used as a translucent screen?",
+      options: [
+        "Heavy cardboard",
+        "Oiled white paper",
+        "A thick kente cloth",
+        "A solid metal plate"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Oiled white paper allows some light to pass through, making it a translucent screen.",
+    ),
+
+    QuizQuestion(
+      question: "3. The scientific term for light traveling in straight lines is:",
+      options: [
+        "Circular propagation",
+        "Refractive movement",
+        "Rectilinear propagation",
+        "Inverted radiation"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Rectilinear propagation means light travels in straight lines.",
+    ),
+
+    QuizQuestion(
+      question: "4. The image in a pinhole camera is inverted because:",
+      options: [
+        "The box is very dark.",
+        "Light rays cross at the hole.",
+        "The screen is made of paper.",
+        "The hole is a perfect circle."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Light rays cross at the pinhole, causing the image to appear upside down.",
+    ),
+
+    QuizQuestion(
+      question: "5. If you increase the distance between the hole and the screen:",
+      options: [
+        "The image gets smaller.",
+        "The image gets brighter.",
+        "The image gets larger.",
+        "The image stays the same."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Increasing the screen distance makes the projected image larger.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of the following is NOT a property of a pinhole image?",
+      options: [
+        "It is inverted.",
+        "It is usually smaller.",
+        "It is a real image.",
+        "It is always upright."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Pinhole camera images are inverted, not upright.",
+    ),
+
+    QuizQuestion(
+      question: "7. A pinhole camera is essentially a box with a:",
+      options: [
+        "Large glass lens.",
+        "Very tiny opening.",
+        "Mirror at the back.",
+        "Battery-powered light."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A pinhole camera works using a very small hole that allows light to enter.",
+    ),
+
+    QuizQuestion(
+      question: "8. If light could bend around corners, the pinhole image would:",
+      options: [
+        "Be even sharper.",
+        "Not be inverted.",
+        "Be much darker.",
+        "Look like a rainbow."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The image relies on light traveling in straight lines. If light bent around corners, inversion would not occur in the same way.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which part of the camera acts like the film or digital sensor?",
+      options: [
+        "The pinhole",
+        "The dark box",
+        "The screen",
+        "The object"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The screen receives the image just as film or a digital sensor does in a camera.",
+    ),
+
+    QuizQuestion(
+      question: "10. The main reason the pinhole must be small is to:",
+      options: [
+        "Keep out the dust.",
+        "Make the box lighter.",
+        "Stop rays from overlapping.",
+        "Save on building materials."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A small pinhole prevents light rays from overlapping, producing a clearer image.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Shadows are formed because light travels in:",
+      options: [
+        "Circular paths",
+        "Curved waves",
+        "Straight lines",
+        "Random patterns"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Light travels in straight lines, creating shadows when an object blocks it.",
+    ),
+
+    QuizQuestion(
+      question: "2. The region of partial darkness in a shadow is the:",
+      options: [
+        "Umbra",
+        "Horizon",
+        "Penumbra",
+        "Focus"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The penumbra is the lighter, partially shaded region around the umbra.",
+    ),
+
+    QuizQuestion(
+      question: "3. An object that allows no light to pass through is:",
+      options: [
+        "Opaque",
+        "Transparent",
+        "Translucent",
+        "Luminous"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Opaque objects block all light from passing through.",
+    ),
+
+    QuizQuestion(
+      question: "4. In which region is the light source totally blocked?",
+      options: [
+        "The Penumbra",
+        "The Umbra",
+        "The atmosphere",
+        "The reflection"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The umbra is the darkest part of a shadow where all light is blocked.",
+    ),
+
+    QuizQuestion(
+      question: "5. If the light source is much larger than the object:",
+      options: [
+        "There is no shadow.",
+        "The shadow is all Umbra.",
+        "The Penumbra is very wide.",
+        "The object turns transparent."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A larger light source creates a wider penumbra around the shadow.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which part of a shadow is compared to a total eclipse?",
+      options: [
+        "The reflection",
+        "The penumbra",
+        "The refraction",
+        "The umbra"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A total eclipse occurs in the umbra, where light is completely blocked.",
+    ),
+
+    QuizQuestion(
+      question: "7. Shadows prove the principle of:",
+      options: [
+        "Rectilinear propagation",
+        "Energy conservation",
+        "Electrical resistance",
+        "Magnetic attraction"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Shadows demonstrate that light travels in straight lines (rectilinear propagation).",
+    ),
+
+    QuizQuestion(
+      question: "8. The size of a shadow increases when the object is moved:",
+      options: [
+        "Further from the light.",
+        "Closer to the light source.",
+        "Behind the screen.",
+        "Into a bucket of water."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Moving an object closer to the light source makes its shadow larger.",
+    ),
+
+    QuizQuestion(
+      question: "9. A sharp shadow with no blurry edges is made by a:",
+      options: [
+        "Large flashlight",
+        "Long light tube",
+        "Tiny point source",
+        "Group of candles"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A tiny point source produces a sharp shadow with minimal penumbra.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the name for the 'fuzziness' at the edge of a shadow?",
+      options: [
+        "The penumbra",
+        "The umbra",
+        "The highlight",
+        "The core shadow"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The penumbra is the partially shaded, fuzzy edge surrounding a shadow.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which object is in the middle during a Lunar Eclipse?",
+      options: [
+        "The Earth",
+        "The Sun",
+        "The Moon",
+        "A Star"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "During a lunar eclipse, the Earth is between the Sun and the Moon.",
+    ),
+
+    QuizQuestion(
+      question: "2. During a total solar eclipse, an observer is standing in the:",
+      options: [
+        "Penumbra",
+        "Atmosphere",
+        "Reflection",
+        "Umbra"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A total solar eclipse is seen when the observer is in the Moon's umbra.",
+    ),
+
+    QuizQuestion(
+      question: "3. A Solar Eclipse occurs during the:",
+      options: [
+        "Midnight",
+        "Daytime",
+        "Sunset only",
+        "Rainy season"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A solar eclipse can only occur during the daytime when the Sun is visible.",
+    ),
+
+    QuizQuestion(
+      question: "4. How often does a solar eclipse happen in the exact same spot?",
+      options: [
+        "Every single month",
+        "Every 24 hours",
+        "Once in a long while",
+        "Every time it rains"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Solar eclipses are rare at any specific location on Earth.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which principle of light explains why eclipses occur?",
+      options: [
+        "Light reflects off water.",
+        "Light travels in straight lines.",
+        "Light changes speed in glass.",
+        "Light is made of many colours."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Eclipses occur because light travels in straight lines and can be blocked by objects.",
+    ),
+
+    QuizQuestion(
+      question: "6. The reddish colour of the Moon in an eclipse is caused by:",
+      options: [
+        "The Earth's atmosphere.",
+        "Hot volcanoes on the Moon.",
+        "Dust from the Sun.",
+        "The Moon's own fire."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Earth's atmosphere bends and filters sunlight, giving the Moon a reddish colour.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you are in the Penumbra during a solar eclipse, you see:",
+      options: [
+        "Total darkness.",
+        "A Partial eclipse.",
+        "No change at all.",
+        "The Moon turning red."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The penumbra is the region of partial shadow where only part of the Sun is blocked.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is safe to watch with the naked eye?",
+      options: [
+        "The midday sun.",
+        "A Total Solar Eclipse.",
+        "A Total Lunar Eclipse.",
+        "A welding machine."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A total lunar eclipse is safe to view without special eye protection.",
+    ),
+
+    QuizQuestion(
+      question: "9. An eclipse is essentially a:",
+      options: [
+        "Type of rainbow.",
+        "Powerful storm.",
+        "Giant shadow in space.",
+        "Shooting star."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "An eclipse happens when one object casts a large shadow on another object in space.",
+    ),
+
+    QuizQuestion(
+      question: "10. The Moon must be in which phase for a Solar Eclipse?",
+      options: [
+        "Full Moon",
+        "Quarter Moon",
+        "New Moon",
+        "Gibbous Moon"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A solar eclipse can only occur during the New Moon phase.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these describes light moving from air into water?",
+      options: [
+        "It speeds up and bends away.",
+        "It slows down and bends towards.",
+        "It stops moving completely.",
+        "It changes colour to red."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Light slows down and bends towards the normal when it enters water from air.",
+    ),
+
+    QuizQuestion(
+      question: "2. A stick in water looks bent because of:",
+      options: [
+        "Reflection",
+        "Refraction",
+        "Radiation",
+        "Rotation"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Refraction causes light to bend as it passes between water and air, making the stick appear bent.",
+    ),
+
+    QuizQuestion(
+      question: "3. When light enters a medium where it travels slower, it bends:",
+      options: [
+        "Away from the normal.",
+        "Towards the normal.",
+        "In a complete circle.",
+        "Back to the source."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Light bends towards the normal when it enters a denser medium and slows down.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these uses refraction to help people see better?",
+      options: [
+        "A wooden door",
+        "A metal spoon",
+        "Eyeglass lenses",
+        "A plastic ruler"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Eyeglass lenses use refraction to focus light correctly onto the eye.",
+    ),
+
+    QuizQuestion(
+      question: "5. The apparent depth of a pond is always:",
+      options: [
+        "Deeper than real depth.",
+        "The same as real depth.",
+        "Shallower than real depth.",
+        "Changing with the wind."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Refraction makes objects underwater appear closer to the surface than they really are.",
+    ),
+
+    QuizQuestion(
+      question: "6. Refraction occurs because light changes its:",
+      options: [
+        "Mass",
+        "Volume",
+        "Speed",
+        "Temperature"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Light bends because its speed changes when it moves between different media.",
+    ),
+
+    QuizQuestion(
+      question: "7. Light hitting a glass block at 90 degrees (straight on) will:",
+      options: [
+        "Bend significantly.",
+        "Reflect perfectly.",
+        "Pass straight through.",
+        "Turn into a rainbow."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "When light strikes perpendicular to the surface, it continues straight without bending.",
+    ),
+
+    QuizQuestion(
+      question: "8. The 'Normal' in refraction is an imaginary line that is:",
+      options: [
+        "Parallel to the surface.",
+        "At a 45-degree angle.",
+        "Perpendicular to the surface.",
+        "Curved like a rainbow."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The normal is an imaginary line drawn at 90 degrees to the surface.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which material is most likely to cause the most refraction?",
+      options: [
+        "Clear Air",
+        "Clean Water",
+        "Thick Glass",
+        "Pure Oxygen"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Thick glass has a much higher refractive effect than air or water.",
+    ),
+
+    QuizQuestion(
+      question: "10. A mirage on a hot road in Ghana is caused by the:",
+      options: [
+        "Reflection of the sun.",
+        "Refraction of light in air.",
+        "Burning of the car tyres.",
+        "Shadows of the trees."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A mirage occurs when light bends through layers of air at different temperatures.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which form of energy is produced by a doorbell when the circuit is closed?",
+      options: [
+        "Kinetic energy",
+        "Sound energy",
+        "Heat energy",
+        "Light energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A doorbell vibrates a mechanism to create sound when electricity flows through it.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the unit of measurement for electrical resistance?",
+      options: [
+        "Volts",
+        "Amperes",
+        "Watts",
+        "Ohms"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Resistance is measured in Ohms, named after Georg Ohm.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a parallel circuit, if one bulb is removed, what happens to the other bulbs?",
+      options: [
+        "They all go out",
+        "They get dimmer",
+        "They stay lighted",
+        "They will flicker"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Parallel circuits provide separate paths, so one break doesn't stop the flow to others.",
+    ),
+
+    QuizQuestion(
+      question: "4. Calculate the voltage required to push 5A of current through a 4Ω resistor.",
+      options: [
+        "Twenty Volts",
+        "Nine Volts",
+        "One Volt",
+        "Five Volts"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Using V = I × R, we multiply 5 by 4 to get 20V.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a disadvantage of a series circuit?",
+      options: [
+        "Uses less wiring",
+        "Easy to design",
+        "One break stops all",
+        "Controls current"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Because there is only one path, any break ruins the entire circuit's function.",
+    ),
+
+    QuizQuestion(
+      question: "6. A circuit has a 10V supply and a 5Ω resistance. What is the current?",
+      options: [
+        "Fifteen Amps",
+        "Two Amperes",
+        "Fifty Amperes",
+        "Five Amperes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "I = V / R. 10 ÷ 5 = 2A.",
+    ),
+
+    QuizQuestion(
+      question: "7. What transformation occurs in a hydroelectric dam like Akosombo?",
+      options: [
+        "Heat to light",
+        "Motion to electric",
+        "Sound to motion",
+        "Light to electric"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The movement of water turns turbines (kinetic energy) to generate electricity.",
+    ),
+
+    QuizQuestion(
+      question: "8. If you add more bulbs in a series circuit, what happens to the brightness?",
+      options: [
+        "They get brighter",
+        "They stay the same",
+        "They all get dimmer",
+        "Only one gets dim"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Resistance increases as you add more bulbs in series, which reduces the total current.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which component is used to intentionally add resistance to a circuit?",
+      options: [
+        "A copper wire",
+        "A gold switch",
+        "A silver cell",
+        "A resistor"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Resistors are components made to limit or control the flow of current.",
+    ),
+
+    QuizQuestion(
+      question: "10. What does 'V' represent in the Ohm's Law triangle?",
+      options: [
+        "Velocity",
+        "Variable",
+        "Voltage",
+        "Vacuum"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'V' stands for Voltage, the electrical pressure in the circuit.",
+    ),
+  ],
+);
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',

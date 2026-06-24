@@ -7651,6 +7651,187 @@ final PracticeModel Scijhs3s3ss4Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs3s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Ama wants to make tea, but she only needs one cup. She fills the whole electric kettle to the top and boils it. What should she have done instead?",
+      answer: "Correct Answer: She should have measured only the amount of water she needed for one cup.",
+      explanation: "Explanation: Boiling a full kettle for just one cup of tea wastes a lot of electricity because it takes much longer to heat all that extra water.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Kwesi’s father leaves the air conditioner on in the bedroom with the windows wide open. Why is this bad for energy conservation?",
+      answer: "Correct Answer: The cold air escapes through the window, making the AC work harder.",
+      explanation: "Explanation: When windows are open, the \"coolth\" leaves and the heat comes in. The AC never gets a break and keeps drawing power to try and cool the whole neighborhood!",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is it better to use a microwave to reheat a small bowl of jollof rather than a big electric oven?",
+      answer: "Correct Answer: The microwave is faster and focuses heat only on the food.",
+      explanation: "Explanation: A big oven has to heat up a huge space just for one small bowl. The microwave is much more efficient for small tasks.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is it helpful to the environment to use a coal pot efficiently?",
+      answer: "Correct Answer: It reduces the amount of charcoal used, which means fewer trees are cut down.",
+      explanation: "Explanation: Charcoal comes from wood. Using it wisely protects our forests and keeps our air clean.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: How does saving electricity at school help your education?",
+      answer: "Correct Answer: The school saves money on bills and can spend it on books or computers.",
+      explanation: "Explanation: Every Cedi the headteacher saves on the light bill is a Cedi that can be used to make your school better!",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a neighbor asks why they should care about \"vampire energy\" from chargers, what is the best social reason to give?",
+      answer: "Correct Answer: It reduces the load on the community transformer so the lights are less likely to trip.",
+      explanation: "Explanation: When everyone wastes a little, it adds up to a big load that can cause power outages for the whole street.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A television has a power rating of 200 Watts. If it is watched for 5 hours, how many kWh are consumed?",
+      answer: "Correct Answer: 1 kWh.",
+      explanation: "Explanation: First, convert 200W to kW by dividing by 1,000 (0.2 kW). Then multiply by 5 hours (0.2 x 5 = 1).",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: An electric coal pot (stove) is rated at 2,500 Watts. How many Kilowatts is this?",
+      answer: "Correct Answer: 2.5 kW.",
+      explanation: "Explanation: We divide the Watts by 1,000. 2,500 / 1,000 = 2.5.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If an appliance uses 10 Amps at 240 Volts, what is its Power in Watts?",
+      answer: "Correct Answer: 2,400 Watts.",
+      explanation: "Explanation: Use P = I x V. 10 A x 240 V = 2,400 W.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If I move the pinhole camera closer to the object, what happens to the size of the image on the screen?",
+      answer: "Correct Answer: The image becomes larger.",
+      explanation: "Explanation: When you are closer, the angle of the light rays spreading out from the hole is wider, so they cover more space on the back screen.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why can't we see an image if we use a thick piece of plywood as the screen instead of tracing paper?",
+      answer: "Correct Answer: Plywood is opaque; light cannot pass through it to reach our eyes from the other side.",
+      explanation: "Explanation: To see the image from the outside of the box, the screen must be translucent (like wax paper or tracing paper).",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What would happen to the image if light could travel in wavy, curved lines?",
+      answer: "Correct Answer: The image would not be inverted or might not form at all.",
+      explanation: "Explanation: The inversion happens specifically because light travels in straight lines and must cross through the narrow hole.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: You are looking at the shadow of a mango tree. You point to the very center where it is darkest on the ground. What is the name of this part?",
+      answer: "Correct Answer: The Umbra.",
+      explanation: "Explanation: The center is where the tree blocks all the direct sunlight, making it the darkest region.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Around the edge of the tree's shadow, the grass is only slightly shaded and the line isn't very sharp. What is this area called?",
+      answer: "Correct Answer: The Penumbra.",
+      explanation: "Explanation: This is the partial shadow where some sunlight is still reaching the grass from the sides of the sun.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What happens to the Umbra if we move the object further away from the screen (the ground)?",
+      answer: "Correct Answer: The Umbra becomes smaller and the Penumbra becomes larger.",
+      explanation: "Explanation: As the object moves away, more light can \"peak\" around the edges, shrinking the area of total darkness.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If I am standing on Earth at 2:00 PM and the sky suddenly goes dark because the Moon is blocking the Sun, what type of eclipse am I seeing?",
+      answer: "Correct Answer: A Solar Eclipse.",
+      explanation: "Explanation: Solar means \"Sun.\" In this case, the Sun is being eclipsed (hidden) by the Moon.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: During a Lunar Eclipse, which object is casting the shadow?",
+      answer: "Correct Answer: The Earth.",
+      explanation: "Explanation: The Earth is in the middle, blocking the Sun's light from reaching the Moon.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why can't we see a Solar Eclipse from every part of the Earth at the same time?",
+      answer: "Correct Answer: Because the Moon's shadow is small and only covers a specific path on Earth.",
+      explanation: "Explanation: The Moon is much smaller than Earth, so its Umbra only touches a small area at a time.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: When light moves from air (fast) into a thick glass block (slow), does it bend towards or away from the middle line?",
+      answer: "Correct Answer: It bends towards the normal line.",
+      explanation: "Explanation: When light slows down in a denser medium, it always bends closer to the normal.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does a pool look shallower than it really is?",
+      answer: "Correct Answer: Because light from the bottom of the pool bends as it leaves the water, making the floor appear higher.",
+      explanation: "Explanation: Refraction at the water's surface creates a virtual image of the floor that is closer to the top.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you are looking straight down into a bucket of water, does the light bend?",
+      answer: "Correct Answer: No, it does not.",
+      explanation: "Explanation: Refraction only happens when light hits the surface at an angle. If it goes straight down, it stays straight!",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In a barbering shop in Accra, the electric hair clipper is running. What energy transformation is happening?",
+      answer: "Correct Answer: Electrical energy is being transformed into kinetic (movement) energy and sound energy.",
+      explanation: "Explanation: The motor inside the clipper moves the blades to cut hair, which is kinetic energy, and the humming noise it makes is sound energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: You have a string of old Christmas lights. One bulb breaks, and suddenly the whole string goes out. What type of circuit is this?",
+      answer: "Correct Answer: This is a series circuit.",
+      explanation: "Explanation: In a series circuit, there is only one path for electricity. If that path is broken anywhere, the current stops flowing to everything else.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a circuit has a voltage of 12V and a current of 2A, what is the resistance?",
+      answer: "Correct Answer: The resistance is 6 Omega.",
+      explanation: "Explanation: Using Ohm's Law, R = V / I. So, 12 divided by 2 equals 6.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Kofi connects an LED to a battery, but it does not light up. He flips the LED around, and now it shines bright. What was the state of the LED the first time?",
+      answer: "Correct Answer: It was in Reverse Bias.",
+      explanation: "Explanation: In reverse bias, the diode acts like an open switch and blocks the current. Fipping it put it in forward bias, allowing the light to shine.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: You are building a circuit and you want to make sure the LED doesn't burn out from too much current. Which component should you add?",
+      answer: "Correct Answer: A Resistor.",
+      explanation: "Explanation: A resistor limits the flow of current to a safe level, protecting delicate components like LEDs from damage.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Which component is used in a circuit to store a small amount of energy and release it slowly?",
+      answer: "Correct Answer: A Capacitor.",
+      explanation: "Explanation: Capacitors store electrical charge and can release it over time, which is why some lights fade out slowly rather than clicking off instantly.",
+    ),
+  ],
+);
+
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/3. Guided Practice.m4a',

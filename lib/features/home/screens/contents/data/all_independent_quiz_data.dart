@@ -18180,6 +18180,511 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these habits is the best way to save electricity at home?",
+        options: [
+          "Leaving the TV on while you do your homework.",
+          "Ironing your school uniform every single morning.",
+          "Using a coal pot instead of a gas stove for everything.",
+          "Switching off all fans when you are going outside."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Switching off fans when they are not needed helps reduce electricity consumption."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the benefit of using LED bulbs instead of incandescent bulbs?",
+        options: [
+          "LED bulbs use less energy to give the same light.",
+          "LED bulbs are much cheaper to buy in the market.",
+          "LED bulbs make the room feel much warmer at night.",
+          "LED bulbs work even when the power is totally off."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "LED bulbs are more energy-efficient and produce the same amount of light using less electricity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. To save energy while cooking on an electric stove, you should:",
+        options: [
+          "Use a pot that is much smaller than the burner.",
+          "Keep the lid off so you can see the food cooking.",
+          "Use flat-bottomed pots that cover the burner.",
+          "Turn the heat to the highest setting for everything."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Flat-bottomed pots that cover the burner transfer heat more efficiently and reduce energy waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does 'ironing in bulk' help a family save money?",
+        options: [
+          "It makes the clothes stay clean for a longer time.",
+          "It reduces the number of times the iron is heated.",
+          "It allows the iron to stay at a very low temperature.",
+          "It uses a different type of electricity from the wall."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Ironing many clothes at once reduces repeated heating and cooling of the iron, saving energy and money."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an economic benefit of energy conservation?",
+        options: [
+          "Making the house look very dark at night.",
+          "Paying less money for electricity bills.",
+          "Buying more expensive gadgets for the kitchen.",
+          "Spending more time sleeping during the day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy conservation reduces electricity usage, which helps lower electricity bills."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does conserving energy help to fight climate change?",
+        options: [
+          "It makes the wind blow much faster.",
+          "It stops the sun from being too bright.",
+          "It reduces the release of greenhouse gases.",
+          "It makes the rain fall only at night time."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Using less energy reduces the need for fossil fuels, which helps lower greenhouse gas emissions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Sustainable energy use means using power in a way that:",
+        options: [
+          "Uses it all up as quickly as possible.",
+          "Leaves enough for people in the future.",
+          "Only allows rich people to have electricity.",
+          "Costs the same amount every single day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sustainable energy use ensures that energy resources remain available for future generations."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is energy conservation important for Ghanaian hospitals?",
+        options: [
+          "It helps doctors sleep better during their break.",
+          "It makes the hospital walls look much cleaner.",
+          "It ensures a steady power supply for medical machines.",
+          "It allows the patients to cook their own food."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Reliable energy use helps ensure that essential medical equipment can operate without interruption."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A sound system uses 0.5A of current on a 240V supply. What is its power?",
+        options: [
+          "120 Watts",
+          "240 Watts",
+          "480 Watts",
+          "0.5 Watts"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Power = Voltage × Current = 240V × 0.5A = 120W."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How many Watts are in 4.5 Kilowatts?",
+        options: [
+          "45 Watts",
+          "450 Watts",
+          "4,500 Watts",
+          "45,000 Watts"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "1 Kilowatt = 1,000 Watts, so 4.5 kW = 4,500 W."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. An 800W microwave is used for 2 hours. What is the energy in kWh?",
+        options: [
+          "1,600 kWh",
+          "16.0 kWh",
+          "1.6 kWh",
+          "0.8 kWh"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Energy = Power (kW) × Time (h) = 0.8 × 2 = 1.6 kWh."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which formula is used to find Energy consumed?",
+        options: [
+          "Energy = Voltage / Current",
+          "Energy = Power (kW) × Time (h)",
+          "Energy = Power (W) + Time (h)",
+          "Energy = Watts × 1,000"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Electrical energy consumed is calculated by multiplying power in kilowatts by time in hours."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which principle explains why a pinhole camera works?",
+        options: [
+          "Light reflects off mirrors.",
+          "Light travels in straight lines.",
+          "Light changes colour in boxes.",
+          "Light bends when it hits water."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A pinhole camera works because light travels in straight lines."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The image formed in a pinhole camera is always:",
+        options: [
+          "Upright and very blurry.",
+          "Upside down and real.",
+          "Larger than the object.",
+          "Virtual and invisible."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The image formed by a pinhole camera is real and inverted (upside down)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens to the image if the pinhole is made much larger?",
+        options: [
+          "It becomes much sharper.",
+          "It disappears completely.",
+          "It becomes brighter but blurred.",
+          "It turns the wrong way up."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A larger pinhole allows more light through, making the image brighter but less sharp."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a pinhole camera, light from the top of an object hits:",
+        options: [
+          "The middle of the screen.",
+          "The top of the screen.",
+          "The bottom of the screen.",
+          "The side of the hole."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Because light travels in straight lines, light from the top of the object reaches the bottom of the screen, creating an inverted image."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is required for a shadow to form?",
+        options: [
+          "A transparent object.",
+          "A source of light.",
+          "A mirror to reflect light.",
+          "A very loud sound."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A shadow can only form when there is a source of light that is blocked by an object."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The darkest part of a shadow is known as the:",
+        options: [
+          "Penumbra",
+          "Eclipse",
+          "Reflection",
+          "Umbra"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The umbra is the darkest central part of a shadow where all light is blocked."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A \"Point Source\" of light usually produces a shadow with:",
+        options: [
+          "Only a Penumbra.",
+          "Only an Umbra.",
+          "No shadow at all.",
+          "Many different colours."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A point source of light produces a sharp shadow consisting only of an umbra."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do the edges of shadows look blurry under fluorescent lights?",
+        options: [
+          "Because of the Penumbra.",
+          "Because light is bending.",
+          "Because the room is cold.",
+          "Because the object is moving."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Fluorescent lights are extended light sources that create a penumbra, making shadow edges appear blurry."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In a Solar Eclipse, what is the correct order of the celestial bodies?",
+        options: [
+          "Earth — Sun — Moon",
+          "Sun — Moon — Earth",
+          "Moon — Earth — Sun",
+          "Sun — Earth — Moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A solar eclipse occurs when the Moon moves between the Sun and the Earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A Lunar Eclipse can only happen during which moon phase?",
+        options: [
+          "New Moon",
+          "Half Moon",
+          "Full Moon",
+          "Crescent Moon"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A lunar eclipse can only occur during a Full Moon when the Earth is between the Sun and the Moon."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What colour does the moon often appear during a total lunar eclipse?",
+        options: [
+          "Bright Green",
+          "Dark Blue",
+          "Reddish-orange",
+          "Pure White"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "During a total lunar eclipse, the Moon often appears reddish-orange due to sunlight being filtered through Earth's atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it dangerous to look at a Solar Eclipse without protection?",
+        options: [
+          "The Moon reflects too much light.",
+          "The Sun's rays can burn your retina.",
+          "The sky becomes too cold to breathe.",
+          "The Earth might stop spinning."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Looking directly at the Sun during a solar eclipse can permanently damage the retina and harm your eyesight."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Refraction is defined as the:",
+        options: [
+          "Bouncing of light off a mirror.",
+          "Bending of light between two media.",
+          "Absorption of light by a dark surface.",
+          "Creation of light by a battery."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Refraction is the bending of light as it passes from one medium to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Light travels fastest in which of the following?",
+        options: [
+          "Water",
+          "Glass",
+          "Air",
+          "Diamond"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Light travels fastest in air compared to water, glass, and diamond."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. An object underwater appears to be at a different place. This is:",
+        options: [
+          "Real position",
+          "Inverted position",
+          "Apparent position",
+          "Reflection position"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Due to refraction, objects underwater appear at an apparent position different from their real position."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A glass lens can focus light because of:",
+        options: [
+          "Refraction",
+          "Magnetism",
+          "Conduction",
+          "Insulation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A lens focuses light by refracting (bending) the light rays."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which device is designed specifically to turn electrical energy into heat energy?",
+        options: [
+          "An electric fan",
+          "A radio speaker",
+          "An electric iron",
+          "A flashlight LED"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An electric iron is specifically designed to convert electrical energy into heat energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
+        options: [
+          "Current increases",
+          "Current decreases",
+          "Current stays same",
+          "Voltage decreases"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which type of circuit does electricity have multiple paths to follow?",
+        options: [
+          "A series circuit",
+          "A closed circuit",
+          "A parallel circuit",
+          "A simple circuit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A parallel circuit provides multiple paths for electric current to flow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
+        options: [
+          "Two Amperes",
+          "Nine Amperes",
+          "Three Amperes",
+          "Eight Amperes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which device is designed specifically to turn electrical energy into heat energy?",
+        options: [
+          "An electric fan",
+          "A radio speaker",
+          "An electric iron",
+          "A flashlight LED"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An electric iron is specifically designed to convert electrical energy into heat energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
+        options: [
+          "Current increases",
+          "Current decreases",
+          "Current stays same",
+          "Voltage decreases"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which type of circuit does electricity have multiple paths to follow?",
+        options: [
+          "A series circuit",
+          "A closed circuit",
+          "A parallel circuit",
+          "A simple circuit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A parallel circuit provides multiple paths for electric current to flow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
+        options: [
+          "Two Amperes",
+          "Nine Amperes",
+          "Three Amperes",
+          "Eight Amperes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."
+    ),
+  ],
+);
+
 ///Math
 final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',

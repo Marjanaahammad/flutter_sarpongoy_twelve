@@ -2045,6 +2045,61 @@ final GetReadyModel SciJHS3s3ss4Lesson3GetReadyData = GetReadyModel(
   hookAudioPath: 'assets/audio/science/JHS3 S3 SS4 L3/2. Hook.m4a',
 );
 
+final GetReadyModel SciJHS3s4ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L1/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L1/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L1/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L1/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L2/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L2/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L2/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L2/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L3/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L3/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L3/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L3/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L4/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L4/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L4/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L4/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson5GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L5/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L5/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L5/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L5/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson6GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L6/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L6/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L6/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L6/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss1Lesson7GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L7/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS1 L7/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS1 L7/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS1 L7/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS2 L1/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS2 L1/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS2 L1/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS2 L1/2. Hook.m4a',
+);
+final GetReadyModel SciJHS3s4ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS2 L2/chapter_overview.jpg',
+  overviewAudioPath: 'assets/audio/science/JHS3 S4 SS2 L2/1. Chapter 1.m4a',
+  hookImagePath: 'assets/images/science/SCIENCE JHS3 S4 SS2 L2/hook.jpg',
+  hookAudioPath: 'assets/audio/science/JHS3 S4 SS2 L2/2. Hook.m4a',
+);
+
 ///Math
 final GetReadyModel MATHJHS1s1ss1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/MATH/jhs1_s1_ss1/student_overview.jpg',
