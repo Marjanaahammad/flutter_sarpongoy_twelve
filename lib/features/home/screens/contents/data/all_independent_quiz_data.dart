@@ -18632,55 +18632,68 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which device is designed specifically to turn electrical energy into heat energy?",
+        question: "1. In which direction does a diode allow electricity to flow?",
         options: [
-          "An electric fan",
-          "A radio speaker",
-          "An electric iron",
-          "A flashlight LED"
+          "Both directions",
+          "In no direction",
+          "In one direction",
+          "Only when hot"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An electric iron is specifically designed to convert electrical energy into heat energy."
+        explanation: "A diode allows electric current to flow in only one direction."
     ),
 
     IndependentPracticeQuestion(
-        question: "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
+        question: "2. What is the name of the positive terminal of a diode?",
         options: [
-          "Current increases",
-          "Current decreases",
-          "Current stays same",
-          "Voltage decreases"
+          "The Cathode",
+          "The Anode",
+          "The Resistor",
+          "The Capacitor"
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."
+        explanation: "The anode is the positive terminal of a diode."
     ),
 
     IndependentPracticeQuestion(
-        question: "3. In which type of circuit does electricity have multiple paths to follow?",
+        question: "3. Why do we use a resistor with an LED in a 6V circuit?",
         options: [
-          "A series circuit",
-          "A closed circuit",
-          "A parallel circuit",
-          "A simple circuit"
+          "To stop flow",
+          "To store power",
+          "To limit current",
+          "To change colour"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A parallel circuit provides multiple paths for electric current to flow."
+        explanation: "A resistor limits the current flowing through the LED and protects it from damage."
     ),
 
     IndependentPracticeQuestion(
-        question: "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
+        question: "4. Which material is used to make electronic components like diodes?",
         options: [
-          "Two Amperes",
-          "Nine Amperes",
-          "Three Amperes",
-          "Eight Amperes"
+          "Semi-conductor",
+          "Pure insulator",
+          "Plastic rubber",
+          "Liquid water"
         ],
         correctIndex: 0,
-        difficulty: "Medium",
-        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."
+        difficulty: "Easy",
+        explanation: "Diodes and many electronic components are made from semiconductor materials such as silicon."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What happens to a capacitor when it is connected to a power source?",
+        options: [
+          "It burns up",
+          "It stores charge",
+          "It stops current",
+          "It creates heat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A capacitor stores electrical charge when connected to a power source."
     ),
   ],
 );

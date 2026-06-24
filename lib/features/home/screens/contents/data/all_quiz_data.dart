@@ -36157,6 +36157,140 @@ final QuizModel Scijhs3s4ss2Lesson1QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs3s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which component acts like a one-way valve for electricity?",
+      options: [
+        "A copper wire",
+        "A resistor",
+        "A diode",
+        "A battery"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Diodes are specifically designed to allow current flow in only one direction.",
+    ),
+
+    QuizQuestion(
+      question: "2. What happens when a diode is in 'Reverse Bias'?",
+      options: [
+        "Current flows",
+        "It gives light",
+        "Current is blocked",
+        "It stores energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In reverse bias, the potential barrier is too high for electrons to cross, so current is blocked.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does the 'L' in LED stand for?",
+      options: [
+        "Low",
+        "Long",
+        "Light",
+        "Level"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "LED stands for Light Emitting Diode.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is the correct symbol for a resistor?",
+      options: [
+        "A straight line",
+        "A zigzag line",
+        "A solid circle",
+        "A large square"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "In circuit diagrams, a zigzag line represents the resistance or 'struggle' the current faces.",
+    ),
+
+    QuizQuestion(
+      question: "5. A capacitor is often used to provide which of the following?",
+      options: [
+        "Extra voltage",
+        "A time delay",
+        "More heat",
+        "One-way flow"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "By storing and slowly releasing charge, capacitors can create time delays in circuits.",
+    ),
+
+    QuizQuestion(
+      question: "6. The negative terminal of a diode is called the:",
+      options: [
+        "Anode",
+        "Resistor",
+        "Node",
+        "Cathode"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The Anode is positive (+), and the Cathode is negative (-).",
+    ),
+
+    QuizQuestion(
+      question: "7. Which component is essential to protect an LED from high current?",
+      options: [
+        "A capacitor",
+        "A resistor",
+        "A switch",
+        "A plastic base"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Resistors are used to limit current to safe levels and protect LEDs.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a diode's Anode is connected to the negative terminal of a battery, it is in:",
+      options: [
+        "Normal bias",
+        "Forward bias",
+        "Reverse bias",
+        "Open bias"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Connecting the anode to the negative terminal places the diode in reverse bias, which blocks current.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which device uses LEDs for a visual display?",
+      options: [
+        "An electric iron",
+        "A digital clock",
+        "A wooden table",
+        "A water kettle"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Digital clocks use LEDs to form the numbers we see.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is stored inside a charged capacitor?",
+      options: [
+        "Magnetic fields",
+        "Electrical charge",
+        "Kinetic energy",
+        "Sound waves"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Capacitors store electrical energy in the form of an electrostatic charge.",
+    ),
+  ],
+);
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',
