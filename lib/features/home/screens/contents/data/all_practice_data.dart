@@ -7831,6 +7831,166 @@ final PracticeModel Scijhs3s4ss2Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel Scijhs3s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Describe the energy change that occurs when you rub your palms together quickly on a cold morning.",
+      answer: "Correct Answer: Mechanical energy is converted into thermal (heat) energy.",
+      explanation: "Explanation: The movement of your hands is mechanical energy. The friction between your palms creates warmth, which is thermal energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What happens to the energy in a battery when it is used to power a radio?",
+      answer: "Correct Answer: Chemical energy converts to electrical energy, then to sound energy.",
+      explanation: "Explanation: The battery stores chemical energy. This becomes electricity to run the radio, which finally produces sound for you to hear.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If energy cannot be destroyed, why do we need to 'save' energy at home?",
+      answer: "Correct Answer: Because energy converts into forms that are no longer useful to us.",
+      explanation: "Explanation: While energy isn't destroyed, it often changes into heat or sound that escapes into the environment, meaning we can't use it again to power our lights or fans.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A student uses a battery-powered torch to walk home at night. What is the energy conversion sequence?",
+      answer: "Correct Answer: Chemical energy (battery) → Electrical energy → Light energy.",
+      explanation: "Explanation: The battery holds chemical energy which flows as electricity to create the light you see.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is using an LED bulb considered an 'application of energy conservation'?",
+      answer: "Correct Answer: It converts more electricity to light and less to wasted heat.",
+      explanation: "Explanation: Conservation is about efficiency. LEDs provide the same light using much less power than old bulbs.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you see a computer lab with all the monitors left on overnight, what conservation report would you make?",
+      answer: "Correct Answer: Suggest a 'Power Down' policy to turn off all screens after school.",
+      explanation: "Explanation: This prevents 'idle' energy waste, which serves no purpose but still costs money and uses resources.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why does a tractor used on a farm in the Northern Region have very wide tyres?",
+      answer: "Correct Answer: The wide tyres increase the surface area in contact with the ground.",
+      explanation: "Explanation: By increasing the area, the heavy weight (force) of the tractor is spread out, which reduces the pressure on the soil. This prevents the tractor from sinking into soft mud.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it more painful to be stepped on by someone wearing a stiletto heel than someone wearing a flat sandal?",
+      answer: "Correct Answer: The stiletto heel has a much smaller surface area.",
+      explanation: "Explanation: Since the area of the heel is tiny, the person's entire weight creates a very high pressure on a single spot, whereas the sandal spreads the weight over the whole foot.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you push a thumb tack into a noticeboard, why is the head of the tack made flat and wide?",
+      answer: "Correct Answer: To protect your thumb by reducing pressure.",
+      explanation: "Explanation: The wide head spreads the force you apply over your thumb's surface, making the pressure low enough that it doesn't hurt you, while the sharp point creates high pressure to enter the board.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: When a person jumps from a small boat onto a wooden pier, the boat moves away from the pier. Why?",
+      answer: "Correct Answer: The person's feet pushed the boat backward to move forward.",
+      explanation: "Explanation: To jump forward (Action on pier), the person must push the boat backward (Reaction on boat). Since the boat is on water, it moves easily.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A carpenter hits a nail with a hammer. The nail goes into the wood, but the hammer bounces back. Explain the forces.",
+      answer: "Correct Answer: The hammer pushes the nail, and the nail pushes the hammer.",
+      explanation: "Explanation: The hammer exerts a force on the nail (Action). Simultaneously, the nail exerts an equal force back on the hammer (Reaction), causing it to stop or bounce.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do your hands hurt when you clap them very hard during a song at church?",
+      answer: "Correct Answer: Both hands are pushing each other with equal force.",
+      explanation: "Explanation: Your right hand hits your left hand (Action), and your left hand hits your right hand back (Reaction) with the same force, causing the sting.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A boy pushes a barrow with a mass of 20 kg. He applies a force that makes it accelerate at 1.5 m/s^2. What is the force?",
+      answer: "Correct Answer: 30 N.",
+      explanation: "Explanation: Using F = ma, we multiply the mass (20 kg) by the acceleration (1.5 m/s^2). 20 x 1.5 = 30. The force is 30 Newtons.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If you have two objects, one with a mass of 5 kg and one with a mass of 50 kg, which one requires more force to achieve the same acceleration?",
+      answer: "Correct Answer: The 50 kg object.",
+      explanation: "Explanation: Since Force is directly proportional to mass, a larger mass requires a larger force to move it at the same rate.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What happens to the acceleration of an object if you push it with twice as much force?",
+      answer: "Correct Answer: The acceleration will double.",
+      explanation: "Explanation: If the mass stays the same, increasing the force causes a direct increase in acceleration.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why would a farmer choose a wooden handle for a hoe instead of a solid metal handle?",
+      answer: "Correct Answer: Wood is lighter and stays cooler in the sun.",
+      explanation: "Explanation: A solid metal handle would make the tool too heavy to use for long hours and would become too hot to touch in the sun.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Which material is best for making the head of a rake used to break hard soil?",
+      answer: "Correct Answer: Metal (Steel or Iron).",
+      explanation: "Explanation: The prongs need to be very strong and stiff to break soil without bending or snapping.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you are making a watering can, why is plastic a better choice than untreated iron?",
+      answer: "Correct Answer: Plastic does not rust.",
+      explanation: "Explanation: Since a watering can is always in contact with water, iron would quickly rust and develop holes, while plastic stays waterproof and light.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A craftsman is using a piece of glass to smooth the surface of a wooden handle. Which part of the process is this?",
+      answer: "Correct Answer: Finishing.",
+      explanation: "Explanation: Smoothing the wood is part of the final finishing stage to ensure the handle is comfortable for the farmer.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why must a blacksmith wear heavy leather an apron and goggles while hammering hot metal?",
+      answer: "Correct Answer: To protect against flying sparks and heat.",
+      explanation: "Explanation: Forging creates intense heat and flying debris; PPE is essential to prevent burns and eye injuries.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a craftsman has no charcoal for his forge and cannot heat the metal, which constraint is he facing?",
+      answer: "Correct Answer: Availability of materials/resources.",
+      explanation: "Explanation: Without fuel for the fire, the process of shaping metal through forging cannot happen.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In making a hoe, why do we heat the metal before hammering it?",
+      answer: "Correct Answer: To make the metal soft and easier to shape.",
+      explanation: "Explanation: Forging requires the metal to be in a \"plastic\" or soft state, which only happens at very high temperatures.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the purpose of the \"wedge\" used when fitting a hoe handle into a socket??",
+      answer: "Correct Answer: To lock the handle tightly so it doesn't wobble.",
+      explanation: "Explanation: The wedge expands the wood inside the socket, creating a \"friction fit\" that stays secure during heavy digging.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do we apply paint or oil to the metal blade after finishing a tool?",
+      answer: "Correct Answer: To prevent the metal from rusting.",
+      explanation: "Explanation: Paint acts as a barrier between the iron and the moisture in the air, stopping the chemical reaction that causes rust.",
+    ),
+  ],
+);
 
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(

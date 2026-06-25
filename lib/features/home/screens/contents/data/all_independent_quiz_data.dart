@@ -18697,6 +18697,493 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of energy conversion?",
+        options: [
+          "Creating new energy from nothing",
+          "Changing energy from form to form",
+          "Making energy disappear forever",
+          "Keeping energy in a single state"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy conversion is the process of changing energy from one form to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When a ceiling fan is switched on, what is the primary energy conversion?",
+        options: [
+          "Heat energy to kinetic energy",
+          "Sound energy to light energy",
+          "Electrical energy to mechanical",
+          "Chemical energy to electrical"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A ceiling fan converts electrical energy into mechanical energy to rotate its blades."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which energy form is found in a piece of firewood before it is burnt?",
+        options: [
+          "Potential energy",
+          "Chemical energy",
+          "Thermal energy",
+          "Kinetic energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Firewood stores chemical energy, which is released when it burns."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In a school bell that rings, kinetic energy is mainly converted into:",
+        options: [
+          "Sound energy",
+          "Light energy",
+          "Chemical energy",
+          "Nuclear energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The movement (kinetic energy) of the bell produces sound energy when it rings."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which Ghanaian household item primarily converts electrical energy into mechanical energy?",
+        options: [
+          "An electric iron",
+          "A ceiling fan",
+          "A filament bulb",
+          "A radio set"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A ceiling fan converts electrical energy into mechanical energy by rotating its blades."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main reason for letting hot food cool before putting it in a freezer?",
+        options: [
+          "To keep the food fresh",
+          "To save electrical energy",
+          "To prevent the food from spilling",
+          "To make the freezer smell better"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Allowing hot food to cool first reduces the workload on the freezer and helps save electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a direct application of solar energy conversion?",
+        options: [
+          "Burning charcoal for cooking",
+          "Using a hand-cranked generator",
+          "Powering a calculator with a sun-cell",
+          "Running a car on petrol"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A sun-cell converts solar energy directly into electrical energy to power devices such as calculators."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Energy conservation is best described as:",
+        options: [
+          "Creating extra energy for the future",
+          "Using energy only during the daytime",
+          "Reducing the amount of energy wasted",
+          "Changing energy into sound and heat"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Energy conservation means using energy efficiently and reducing unnecessary waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When a television is on, which two forms of energy are being produced from electricity?",
+        options: [
+          "Sound and Light",
+          "Heat and Chemical",
+          "Kinetic and Potential",
+          "Nuclear and Light"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A television converts electrical energy mainly into light and sound energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the standard unit for measuring pressure?",
+        options: [
+          "Newton",
+          "Pascal",
+          "Metre",
+          "Joule"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The standard SI unit of pressure is the Pascal (Pa)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to pressure if the area is doubled while the force remains the same?",
+        options: [
+          "It stays same",
+          "It is doubled",
+          "It is halved",
+          "It is tripled"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Pressure = Force ÷ Area. If the area doubles and the force remains the same, the pressure is halved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which tool is used specifically to measure atmospheric pressure?",
+        options: [
+          "Thermometer",
+          "Hygrometer",
+          "Barometer",
+          "Voltmeter"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A barometer is an instrument used to measure atmospheric pressure."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do camels have wide feet to help them walk in the desert?",
+        options: [
+          "To run faster",
+          "To look bigger",
+          "To stay cooler",
+          "To lower pressure"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Wide feet spread the camel's weight over a larger area, reducing pressure on the sand."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to Newton’s Third Law, forces always act in ______.",
+        options: [
+          "Groups of three",
+          "Single units",
+          "Opposing pairs",
+          "Random ways"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Newton’s Third Law states that forces always occur in action-reaction pairs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a 500 N girl pushes a wall with 50 N, how much force does the wall exert back?",
+        options: [
+          "0 N",
+          "50 N",
+          "450 N",
+          "500 N"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Newton’s Third Law, the wall exerts an equal and opposite force of 50 N."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which direction does the reaction force act compared to the action force?",
+        options: [
+          "Same direction",
+          "Upward only",
+          "Right angles",
+          "Opposite way"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Action and reaction forces are equal in magnitude and act in opposite directions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A bird flies by pushing its wings against the ______.",
+        options: [
+          "Trees",
+          "Ground",
+          "Water",
+          "Air"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A bird pushes air downward with its wings, and the air pushes the bird upward."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the force required to move a 2 kg book at an acceleration of 5 m/s²?",
+        options: [
+          "2 N",
+          "5 N",
+          "7 N",
+          "10 N"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Using F = ma, Force = 2 kg × 5 m/s² = 10 N."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a force of 50 N is applied to a mass of 10 kg, what is the acceleration?",
+        options: [
+          "5 m/s²",
+          "10 m/s²",
+          "40 m/s²",
+          "500 m/s²"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Using a = F/m, Acceleration = 50 N ÷ 10 kg = 5 m/s²."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Momentum is the product of which two quantities?",
+        options: [
+          "Force and Area",
+          "Mass and Velocity",
+          "Mass and Time",
+          "Force and Mass"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Momentum is calculated as mass × velocity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which unit is used to measure mass in the F = ma formula?",
+        options: [
+          "Grams",
+          "Newtons",
+          "Kilograms",
+          "Litres"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In the SI system, mass is measured in kilograms (kg)."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common material used for the handles of Ghanaian farm tools?",
+        options: [
+          "Glass",
+          "Wood",
+          "Paper",
+          "Fabric"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Wood is commonly used for farm tool handles because it is strong, durable, and comfortable to hold."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main reason metal is used for the blade of a cutlass?",
+        options: [
+          "It is very light",
+          "It can stay sharp",
+          "It is very cheap",
+          "It grows locally"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Metal is used for cutlass blades because it can be sharpened and retain a sharp cutting edge."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How is a metal tang usually secured inside a wooden tool handle?",
+        options: [
+          "Using thin glue",
+          "Using metal pins",
+          "Using long tape",
+          "Using wet cloth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Metal pins are commonly used to secure the tang firmly inside a wooden handle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tool is most likely to be made entirely of plastic or rubber?",
+        options: [
+          "Digging spade",
+          "Garden rake",
+          "Watering can",
+          "Pick mattock"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Watering cans are often made entirely from plastic because they are lightweight and resistant to water damage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. A local blacksmith uses scrap metal to make a hoe. This metal is used for the:",
+        options: [
+          "Long handle",
+          "Tool's head",
+          "Grip area",
+          "Pivot point"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The metal is used to make the hoe's head, which performs the digging and cutting work."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the very first step in making a simple agricultural tool?",
+        options: [
+          "Sharpening the edge",
+          "Designing the tool",
+          "Joining the parts",
+          "Polishing the wood"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The first step in making any tool is designing it before manufacturing begins."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which activity involves using heat to make metal easier to bend and shape?",
+        options: [
+          "Finishing",
+          "Designing",
+          "Forging",
+          "Riveting"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Forging uses heat to soften metal so it can be shaped into the desired form."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a safety precaution specifically for protecting your eyes?",
+        options: [
+          "Wearing gloves",
+          "Wearing goggles",
+          "Wearing boots",
+          "Wearing an apron"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Safety goggles protect the eyes from sparks, dust, and flying particles."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When a craftsman cannot find the right type of metal and must use a weaker one, this is a:",
+        options: [
+          "Safety rule",
+          "Design choice",
+          "Finishing step",
+          "Manufacturing constraint"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A manufacturing constraint is a limitation that affects how a product can be made."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of the hand trowel is pushed into the wooden handle to connect them?",
+        options: [
+          "The socket",
+          "The tang",
+          "The rivet",
+          "The blade"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The tang is the metal extension that fits into the wooden handle to connect the parts."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What tool is used to give a hand trowel blade its curved shape?",
+        options: [
+          "A large saw",
+          "A hammer",
+          "A paint brush",
+          "A wooden wedge"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A hammer is used during shaping and forging to form the curved blade of a hand trowel."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. During hoe manufacturing, what is the \"anvil\" used for?",
+        options: [
+          "Heating the iron",
+          "Painting the tool",
+          "Hammering the metal",
+          "Carving the wood"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An anvil provides a hard surface on which heated metal is hammered into shape."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the final step before a tool is considered \"ready for the farm\"?",
+        options: [
+          "Designing",
+          "Cutting",
+          "Testing",
+          "Forging"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Testing ensures the tool is safe, strong, and ready for use before it is distributed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In the assembly of a hoe, where does the handle go?",
+        options: [
+          "Into the tang",
+          "Into the socket",
+          "Under the blade",
+          "Over the rivet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The wooden handle is inserted into the socket of the hoe head during assembly."
+    ),
+  ],
+);
 
 ///Math
 final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(

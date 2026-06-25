@@ -36291,6 +36291,1078 @@ final QuizModel Scijhs3s4ss2Lesson2QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs3s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the process of changing energy from one form to another called?",
+      options: [
+        "Energy conservation",
+        "Energy transformation",
+        "Energy destruction",
+        "Energy creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Transformation and conversion are the terms used when energy changes its form.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which energy change occurs in a solar panel used in a Ghanaian village?",
+      options: [
+        "Light energy to electrical",
+        "Heat energy to chemical",
+        "Sound energy to light",
+        "Kinetic energy to heat"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Solar panels capture light from the sun and change it into electricity.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Law of Conservation of Energy states that energy cannot be:",
+      options: [
+        "Changed or moved",
+        "Stored or used",
+        "Created or destroyed",
+        "Seen or felt"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "This is the fundamental rule: energy is neither created nor destroyed.",
+    ),
+
+    QuizQuestion(
+      question: "4. When you throw a stone upwards, its kinetic energy gradually changes into:",
+      options: [
+        "Chemical energy",
+        "Potential energy",
+        "Nuclear energy",
+        "Sound energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "As it rises and slows down, its motion (kinetic) becomes stored energy (potential).",
+    ),
+
+    QuizQuestion(
+      question: "5. Which device converts electrical energy into primarily thermal energy?",
+      options: [
+        "An electric blender",
+        "A desktop computer",
+        "An electric kettle",
+        "A radio receiver"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A kettle is designed specifically to create heat to boil water.",
+    ),
+
+    QuizQuestion(
+      question: "6. A student eating lunch is storing what type of energy for later use?",
+      options: [
+        "Electrical",
+        "Chemical",
+        "Light",
+        "Sound"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Food, fuels, and batteries all store energy in chemical form.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is the heat produced by a light bulb often called 'wasted' energy?",
+      options: [
+        "It is not energy",
+        "It is destroyed",
+        "It is not useful",
+        "It is created"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "It is still energy, but since we want light, the heat is not serving our purpose.",
+    ),
+
+    QuizQuestion(
+      question: "8. When a drummer hits a fontomfrom drum, mechanical energy becomes:",
+      options: [
+        "Sound energy",
+        "Light energy",
+        "Nuclear energy",
+        "Chemical energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The movement of the stick (mechanical energy) creates the sound of the drum.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is an example of energy conservation in a home?",
+      options: [
+        "Leaving the TV on all day",
+        "Using a very old freezer",
+        "Switching off the lights",
+        "Using a high-watt bulb"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Conservation is the practice of using less energy by avoiding waste.",
+    ),
+
+    QuizQuestion(
+      question: "10. What happens to the total energy in a closed system during a conversion?",
+      options: [
+        "It is doubled",
+        "It disappears",
+        "It stays constant",
+        "It is halved"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Due to conservation laws, the total amount of energy never changes.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which device is used to convert light energy from the sun into electrical energy?",
+      options: [
+        "Electric kettle",
+        "Photovoltaic (solar) panel",
+        "Dry cell battery",
+        "Steam engine"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Solar panels are designed specifically for this conversion.",
+    ),
+
+    QuizQuestion(
+      question: "2. Switching off a light when you leave a room is an example of:",
+      options: [
+        "Energy conversion",
+        "Energy transformation",
+        "Energy conservation",
+        "Energy creation"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "This is a simple action to stop the waste of energy.",
+    ),
+
+    QuizQuestion(
+      question: "3. An electric blender creates sound and heat while working. These are examples of:",
+      options: [
+        "Useful energy",
+        "Wasted energy",
+        "Created energy",
+        "Potential energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "We only want the motion; the sound and heat are unnecessary side effects.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these follows the 'Key Distribution' and is an example of energy transformation?",
+      options: [
+        "A microwave converting electricity to heat",
+        "A car engine staying perfectly cold",
+        "A battery getting heavier as it's used",
+        "A light bulb that creates no light"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Microwaves are a common household application of electrical-to-thermal conversion.",
+    ),
+
+    QuizQuestion(
+      question: "5. In a hydro-electric dam like Akosombo, the energy of falling water (kinetic) is converted to:",
+      options: [
+        "Chemical energy",
+        "Sound energy",
+        "Electrical energy",
+        "Light energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Dams are built to provide electricity to the nation.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which action helps reduce the 'vampire power' used by electronics?",
+      options: [
+        "Leaving the TV on standby",
+        "Keeping the laptop plugged in",
+        "Buying a larger television",
+        "Unplugging the microwave after use"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Unplugging completely stops the flow of electricity.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which energy form is the most 'wasted' in an old-fashioned filament light bulb?",
+      options: [
+        "Light energy",
+        "Sound energy",
+        "Chemical energy",
+        "Thermal energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Filament bulbs are very inefficient because they create a lot of heat.",
+    ),
+
+    QuizQuestion(
+      question: "8. A person using a manual sewing machine is converting:",
+      options: [
+        "Mechanical energy to mechanical energy",
+        "Electrical energy to light energy",
+        "Chemical energy to sound energy",
+        "Potential energy to chemical energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The physical movement of the person drives the movement of the needle.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the primary purpose of an Energy Star rating on an appliance?",
+      options: [
+        "To show how efficient it is",
+        "To show how expensive it is",
+        "To show how large it is",
+        "To show how many colors it has"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "These ratings help consumers choose products that conserve energy.",
+    ),
+
+    QuizQuestion(
+      question: "10. If we conserve energy today, what is the most likely result for Ghana?",
+      options: [
+        "Electricity prices will go up",
+        "There will be fewer power cuts",
+        "We will run out of energy faster",
+        "Appliances will break more easily"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Reducing waste lowers demand on the power grid and helps prevent shortages and power cuts.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Pressure is defined as the force acting per unit _____ .",
+      options: [
+        "Mass",
+        "Time",
+        "Area",
+        "Work"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "By definition, pressure is force divided by area.",
+    ),
+
+    QuizQuestion(
+      question: "2. Calculate the pressure exerted by a force of 200 N on an area of 5 m².",
+      options: [
+        "20 Pa",
+        "40 Pa",
+        "60 Pa",
+        "80 Pa"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Pressure = Force ÷ Area = 200 ÷ 5 = 40 Pa.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these will exert the highest pressure on the ground?",
+      options: [
+        "A flat shoe",
+        "A wide boot",
+        "A sharp nail",
+        "A large box"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The nail has the smallest area, creating the highest pressure.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the SI unit equivalent to 1 Pascal (Pa)?",
+      options: [
+        "1 N/m²",
+        "1 kg/m",
+        "1 m/s²",
+        "1 J/s"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "One Pascal is defined as one Newton per square metre.",
+    ),
+
+    QuizQuestion(
+      question: "5. A man weighing 600 N stands on a floor. If his feet cover 0.1 m², what is the pressure?",
+      options: [
+        "60 Pa",
+        "600 Pa",
+        "6,000 Pa",
+        "60,000 Pa"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Pressure = Force ÷ Area = 600 ÷ 0.1 = 6,000 Pa.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why are the edges of cutting tools like cutlasses sharpened?",
+      options: [
+        "To increase area",
+        "To reduce force",
+        "To increase mass",
+        "To raise pressure"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sharpening reduces the area, which increases the pressure to cut easily.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does air pressure inside a balloon change as you blow more air into it?",
+      options: [
+        "It increases",
+        "It decreases",
+        "It stays zero",
+        "It disappears"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "More air particles hitting the walls increases the internal pressure.",
+    ),
+
+    QuizQuestion(
+      question: "8. An object exerts 10 Pa of pressure over 2 m². What is the force applied?",
+      options: [
+        "5 N",
+        "10 N",
+        "15 N",
+        "20 N"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Force = Pressure × Area, so 10 × 2 = 20 N.",
+    ),
+
+    QuizQuestion(
+      question: "9. In which direction does pressure in a liquid act?",
+      options: [
+        "Only upwards",
+        "Only downwards",
+        "All directions",
+        "Only sideways"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Liquid pressure acts equally in all directions at a given depth.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which Ghanaian structure uses a wide base to manage water pressure?",
+      options: [
+        "Kotoka Airport",
+        "Akosombo Dam",
+        "Kejetia Market",
+        "Black Star Gate"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Dams require wide bases to withstand high water pressure at the bottom.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. For every action, there is an equal and opposite _____.",
+      options: [
+        "Friction",
+        "Reaction",
+        "Gravity",
+        "Momentum"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "This is the literal statement of Newton's Third Law.",
+    ),
+
+    QuizQuestion(
+      question: "2. When you sit on a chair, your body pushes down. What is the reaction force?",
+      options: [
+        "Floor pulls down",
+        "Chair pushes up",
+        "Gravity pulls up",
+        "Air pushes down"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The chair provides the upward reaction force to support you.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why don't action and reaction forces cancel each other out?",
+      options: [
+        "They are unequal",
+        "They are same way",
+        "On different things",
+        "They act too fast"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Forces only cancel if they act on the same object. These act on two different objects.",
+    ),
+
+    QuizQuestion(
+      question: "4. A rocket moves upward because it pushes gases _____.",
+      options: [
+        "Into the stars",
+        "Out the sides",
+        "To the moon",
+        "Toward ground"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Exhaust gases go down, so the rocket goes up.",
+    ),
+
+    QuizQuestion(
+      question: "5. If you hit a wall with 100 N, the wall hits you with _____.",
+      options: [
+        "100 N",
+        "50 N",
+        "200 N",
+        "0 N"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Action and reaction forces are always equal in magnitude.",
+    ),
+
+    QuizQuestion(
+      question: "6. A swimmer pushes water backward to move in which direction?",
+      options: [
+        "Forward",
+        "Backward",
+        "Downward",
+        "Upward"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Reaction is opposite to action; pushing back moves you forward.",
+    ),
+
+    QuizQuestion(
+      question: "7. Action-reaction pairs happen _____.",
+      options: [
+        "One after another",
+        "At the same time",
+        "Only on Earth",
+        "Only in space"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Action and reaction happen simultaneously.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is NOT a characteristic of the force pairs?",
+      options: [
+        "Equal strength",
+        "Different things",
+        "Same direction",
+        "Opposite way"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The forces must act in opposite directions, never the same.",
+    ),
+
+    QuizQuestion(
+      question: "9. When a gun is fired, the 'recoil' is the _____.",
+      options: [
+        "Sound of shot",
+        "Bullet speed",
+        "Reaction force",
+        "Action force"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Recoil is the backward push the gun gives the shooter.",
+    ),
+
+    QuizQuestion(
+      question: "10. Walking is possible because the ground provides _____.",
+      options: [
+        "Gravity",
+        "Air",
+        "Speed",
+        "Friction"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Friction allows the foot to push the ground so the ground can push back.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. According to the Second Law, Force equals Mass times _____.",
+      options: [
+        "Velocity",
+        "Distance",
+        "Pressure",
+        "Acceleration"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The formula is F = ma.",
+    ),
+
+    QuizQuestion(
+      question: "2. A 1,000 kg car accelerates at 2 m/s². What is the force?",
+      options: [
+        "500 N",
+        "2,000 N",
+        "1,002 N",
+        "3,000 N"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Force = Mass × Acceleration = 1,000 × 2 = 2,000 N.",
+    ),
+
+    QuizQuestion(
+      question: "3. If mass increases but force stays the same, acceleration will _____.",
+      options: [
+        "Stay same",
+        "Increase",
+        "Decrease",
+        "Stop"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "A heavier object is harder to accelerate with the same force.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the momentum of a 5 kg object moving at 10 m/s?",
+      options: [
+        "2 kg m/s",
+        "15 kg m/s",
+        "25 kg m/s",
+        "50 kg m/s"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Momentum = Mass × Velocity = 5 × 10 = 50 kg m/s.",
+    ),
+
+    QuizQuestion(
+      question: "5. A force of 100 N acts on a mass of 20 kg. The acceleration is _____.",
+      options: [
+        "5 m/s²",
+        "80 m/s²",
+        "120 m/s²",
+        "2,000 m/s²"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Acceleration = Force ÷ Mass = 100 ÷ 20 = 5 m/s².",
+    ),
+
+    QuizQuestion(
+      question: "6. Newton's Second Law is also described as the rate of change of _____.",
+      options: [
+        "Momentum",
+        "Gravity",
+        "Friction",
+        "Energy"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Force is technically defined as how quickly momentum changes.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which object has the most momentum?",
+      options: [
+        "Resting car",
+        "Slow bicycle",
+        "Fast bullet",
+        "Falling leaf"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "High velocity gives the bullet significant momentum despite its low mass.",
+    ),
+
+    QuizQuestion(
+      question: "8. To triple the acceleration of an object, the force must be _____.",
+      options: [
+        "Halved",
+        "Doubled",
+        "Tripled",
+        "Squared"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Force and acceleration are directly proportional.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is the correct unit for acceleration?",
+      options: [
+        "kg/m",
+        "N/m²",
+        "m/s²",
+        "J/s"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Acceleration is the change in velocity per second, measured in m/s².",
+    ),
+
+    QuizQuestion(
+      question: "10. A 50 kg sack of cocoa is pushed with 100 N. What is the acceleration?",
+      options: [
+        "0.5 m/s²",
+        "5,000 m/s²",
+        "150 m/s²",
+        "2.0 m/s²"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Acceleration = Force ÷ Mass = 100 ÷ 50 = 2.0 m/s².",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which tool is specifically used for loosening soil and removing weeds around plants?",
+      options: [
+        "Garden fork",
+        "Hand trowel",
+        "Hand fork",
+        "Garden rake"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A hand fork is a small tool used for light weeding and loosening soil in small areas.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why do craftsmen use wood for tool handles in the Ghanaian environment?",
+      options: [
+        "It is quite heavy",
+        "It is easily found",
+        "It breaks easily",
+        "It is very shiny"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Wood is a natural material that is readily available in our environment and easy to shape.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which material is most durable for making the tines of a garden rake?",
+      options: [
+        "Hard plastic",
+        "Strong steel",
+        "Thick rubber",
+        "Carved wood"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Steel is the most durable and can withstand the force of raking through stones and soil.",
+    ),
+
+    QuizQuestion(
+      question: "4. What part of a tool connects the blade to the handle by sliding into the wood?",
+      options: [
+        "The socket",
+        "The rivet",
+        "The tang",
+        "The edge"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The tang is the extension of the blade that goes into the handle for stability.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these tools is best suited for carrying water to seedlings?",
+      options: [
+        "Head pan",
+        "Hand fork",
+        "Watering can",
+        "Large bucket"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A watering can is designed with a spout to distribute water gently to plants.",
+    ),
+
+    QuizQuestion(
+      question: "6. When making a tool, what is the purpose of using a rivet?",
+      options: [
+        "To keep it sharp",
+        "To join the parts",
+        "To prevent rust",
+        "To add more weight"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Rivets are metal pins used to permanently join the tool head to the handle.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which material would be most likely used to make a seedling tray for a nursery?",
+      options: [
+        "Heavy iron",
+        "Light plastic",
+        "Thick stone",
+        "Scrap metal"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Seedling trays need to be light and moisture-resistant, making plastic the ideal material.",
+    ),
+
+    QuizQuestion(
+      question: "8. A blacksmith in Suame Magazine is making a hoe. Which part will he make from metal?",
+      options: [
+        "The handle",
+        "The wedge",
+        "The blade",
+        "The grip"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The blade or head of the hoe must be metal to effectively dig into the earth.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is a major disadvantage of using iron for a tool that is always left in the rain?",
+      options: [
+        "It gets lighter",
+        "It will rust",
+        "It turns green",
+        "It gets softer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Iron reacts with water and oxygen to form rust, which weakens the tool.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these tools has a metal head with several pointed prongs?",
+      options: [
+        "Digging spade",
+        "Pick mattock",
+        "Garden rake",
+        "Hand trowel"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A rake has a head with multiple prongs (tines) used for gathering materials or leveling soil.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which process involves removing rough edges from a metal blade using a grindstone?",
+      options: [
+        "Finishing",
+        "Designing",
+        "Forging",
+        "Assembly"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Finishing includes sharpening and smoothing the tool to make it ready for sale.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why is it dangerous to have a cluttered floor in a tool-making workshop?",
+      options: [
+        "It looks bad",
+        "It causes trips",
+        "It wastes metal",
+        "It slows design"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A clean workspace is a safety requirement to prevent accidental falls, especially around sharp tools.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is a constraint related to the person making the tool?",
+      options: [
+        "No steel",
+        "Broken saw",
+        "Lack of skill",
+        "Rainy weather"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The skill level of the maker is a human constraint that affects the final quality of the tool.",
+    ),
+
+    QuizQuestion(
+      question: "4. What should you do immediately after you finish using a sharp chisel in the workshop?",
+      options: [
+        "Put it in a drawer",
+        "Leave it on the floor",
+        "Leave it on the bench",
+        "Give it to a friend"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Proper storage of sharp tools is a key safety precaution to prevent accidental cuts.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the purpose of the 'Joining' stage in manufacturing?",
+      options: [
+        "To buy materials",
+        "To fix parts together",
+        "To paint the tool",
+        "To draw the shape"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Joining is the assembly stage where the separate parts like the handle and head are combined.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a blacksmith's hammer is too light for the metal he is shaping, this is a constraint of:",
+      options: [
+        "Materials",
+        "Equipment",
+        "Design",
+        "Safety"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Equipment constraints happen when the tools available are not sufficient for the task.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which type of PPE is most important when using a hacksaw to cut through an iron rod?",
+      options: [
+        "Ear plugs",
+        "Safety goggles",
+        "Rubber boots",
+        "Plastic apron"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cutting metal can create small, sharp filings that can easily fly into the eyes.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the 'Shaping' stage, what is used to change the form of a metal plate into a hoe head?",
+      options: [
+        "A design sketch",
+        "A heavy hammer",
+        "A smooth cloth",
+        "A bucket of water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Hammers are the primary tools used to physically shape metal into the desired form.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why do we sand the wooden handle of a tool during the finishing stage?",
+      options: [
+        "To make it heavier",
+        "To prevent splinters",
+        "To make it sharper",
+        "To change its color"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sanding makes the wood smooth, protecting the farmer's hands from painful splinters.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the main reason for sketching a tool design before starting to cut any material?",
+      options: [
+        "To save some time",
+        "To prevent mistakes",
+        "To use more metal",
+        "To show the teacher"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A design acts as a guide to ensure the materials are used efficiently and the tool works correctly.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s4ss5Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which process is used to widen a piece of iron into a flat hoe blade?",
+      options: [
+        "Forging",
+        "Painting",
+        "Varnishing",
+        "Drilling"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Forging is the process of heating and hammering metal into a specific shape.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the main advantage of using a 'tang' and 'rivet' connection for a hand trowel?",
+      options: [
+        "It makes it heavier",
+        "It is very secure",
+        "It prevents rust",
+        "It looks very shiny"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The rivet acts as a mechanical lock that prevents the blade from ever pulling out of the handle.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which material is most likely to be used for the 'wedge' in a hoe handle?",
+      options: [
+        "Soft rubber",
+        "Scrap metal",
+        "Hard wood",
+        "Thick plastic"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "A hardwood wedge is driven into the handle to expand it and create a permanent, tight fit.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is a hand trowel blade curved rather than flat?",
+      options: [
+        "To make it stronger",
+        "To scoop soil better",
+        "To keep it sharper",
+        "To make it cheaper"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The curvature allows the tool to hold and move small amounts of soil or compost effectively.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does a craftsman use to ensure a metal tool has a sharp cutting edge?",
+      options: [
+        "A wooden file",
+        "A grindstone",
+        "A paint roller",
+        "A heavy anvil"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A grindstone or metal file is used to grind away material until a sharp edge is formed.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a hoe handle is loose and wobbles, which step was likely skipped or done poorly?",
+      options: [
+        "Forging",
+        "Designing",
+        "Assembly",
+        "Painting"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Assembly is the stage where the connection between the head and handle is made secure.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which of these is a liquid used to protect the wooden handle of a tool?",
+      options: [
+        "Engine oil",
+        "Red paint",
+        "Clear varnish",
+        "Salt water"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Varnish seals the wood, protecting it from moisture, rot, and insects.",
+    ),
+
+    QuizQuestion(
+      question: "8. When making a hand trowel, why might a craftsman heat the tang before inserting it?",
+      options: [
+        "To melt the wood",
+        "To make it shiny",
+        "To create a tight fit",
+        "To sharpen the tang"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The hot metal chars the wood slightly, creating a custom-shaped hole for a very snug fit.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which tool would be best for cutting a leaf-shape out of a thin metal sheet?",
+      options: [
+        "A wood saw",
+        "Metal shears",
+        "A heavy hammer",
+        "A grindstone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Metal shears (or tin snips) are designed specifically for cutting shapes out of sheet metal.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the primary reason for choosing an old car spring for making a hoe blade?",
+      options: [
+        "It is already curved",
+        "It is very cheap metal",
+        "It is high-quality steel",
+        "It is easy to melt"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Car springs are made of spring steel, which is very tough and holds a sharp edge better than mild iron.",
+    ),
+  ],
+);
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',
