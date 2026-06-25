@@ -365,112 +365,133 @@ final QuizModel ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          "1. Which tense should you use to describe what you are doing right now?",
+      question: "1. What is the main goal of eliciting elaboration?",
       options: [
-        "Past Tense",
-        "Future Tense",
-        "Present Continuous",
-        "Ancient Tense",
+        "To make the other person stop talking",
+        "To get more information and detail",
+        "To win an argument",
+        "To talk about yourself"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Elaboration is about gathering more details.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which question type usually leads to a one-word answer?",
+      options: [
+        "Open-ended questions",
+        "Closed questions",
+        "\"Why\" questions",
+        "\"How\" questions"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Closed questions (like 'Are you...?') usually only require Yes or No.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which word is a 'key' for asking about a reason?",
+      options: [
+        "Where",
+        "Who",
+        "Why",
+        "When"
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Present continuous describes actions happening now (e.g., 'I am speaking').",
+      explanation: "\"Why\" targets the reason or cause.",
     ),
+
     QuizQuestion(
-      question:
-          "2. Identify the adjective in this sentence: 'The brave hunter entered the forest.'",
-      options: ["Hunter", "Entered", "Brave", "Forest"],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "'Brave' describes the noun 'hunter'.",
-    ),
-    QuizQuestion(
-      question: "3. Which of these is a metaphor?",
+      question: "4. Ama says: 'The football match was exciting.' Which follow-up is best for elaboration?",
       options: [
-        "He is as strong as an ox.",
-        "Education is the key to success.",
-        "She runs very fast.",
-        "The water was cold.",
+        "Was it?",
+        "What made it so exciting?",
+        "Did they win?",
+        "Who played?"
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-          "It compares education to a key without using 'like' or 'as'.",
+      explanation: "\"What made it...\" asks for the specific factors of the excitement.",
     ),
+
     QuizQuestion(
-      question:
-          "4. To describe a person moving with no speed, which adverb is best?",
-      options: ["Quickly", "Slowly", "Loudly", "Happily"],
+      question: "5. A response that starts with 'Because...' is usually answering which question?",
+      options: [
+        "Where",
+        "Why",
+        "Who",
+        "When"
+      ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "'Slowly' describes a lack of speed.",
+      explanation: "\"Because\" provides the reason requested by a \"Why\" question.",
     ),
+
     QuizQuestion(
-      question: "5. Which noun is the most specific for a medical setting?",
-      options: ["Thing", "Building", "Thermometer", "Person"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "A thermometer is a specific medical tool.",
-    ),
-    QuizQuestion(
-      question:
-          "6. 'The waves danced across the shore.' This is an example of:",
+      question: "6. In the dialogue between Ama and Aziz about girls in Engineering, why did the conversation continue?",
       options: [
-        "A list",
-        "Figurative language",
-        "A boring sentence",
-        "A command",
+        "Because Aziz said 'Yes.'",
+        "Because Ama asked 'Why do you think so?'",
+        "Because they left the canteen.",
+        "Because Ama was angry."
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "This uses personification (giving waves human actions).",
+      explanation: "The \"Why\" question prompted Aziz to give a detailed answer.",
     ),
+
     QuizQuestion(
-      question: "7. Which sentence uses a variety of sentence structures?",
+      question: "7. Which of these is a polite way to ask for more information?",
       options: [
-        "I went. I saw. I left.",
-        "I went to the shop. I bought bread.",
-        "After a long walk, I finally reached the shop; I was exhausted but happy.",
-        "Shop. Bread. Walk.",
+        "Tell me now.",
+        "Why? (in a harsh tone)",
+        "Could you explain for what reason you feel that way?",
+        "Speak more."
       ],
       correctIndex: 2,
-      difficulty: "Hard",
-      explanation: "It combines clauses and varied structure.",
-    ),
-    QuizQuestion(
-      question:
-          "8. 'The bank manager spoke ______ to the customer.' Which adverb fits a formal setting?",
-      options: ["Rudely", "Professionally", "Silly", "Noisily"],
-      correctIndex: 1,
-      difficulty: "Easy",
-      explanation: "'Professionally' is appropriate in a formal context.",
-    ),
-    QuizQuestion(
-      question: "9. What does a simile always include?",
-      options: [
-        "The words 'like' or 'as'",
-        "A verb",
-        "A person's name",
-        "A question mark",
-      ],
-      correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Similes compare using 'like' or 'as'.",
+      explanation: "Using \"Could you...\" and \"for what reason\" is formal and polite.",
     ),
+
     QuizQuestion(
-      question:
-          "10. When describing a trip to a 'station,' which noun adds more Ghanaian context?",
+      question: "8. 'How do you prepare Jollof rice?' is asking for:",
       options: [
-        "Lorry park",
-        "Train platform",
-        "Underground tube",
-        "Space port",
+        "A date",
+        "A person",
+        "A process/explanation",
+        "A location"
       ],
-      correctIndex: 0,
+      correctIndex: 2,
       difficulty: "Easy",
-      explanation: "'Lorry park' is the common Ghanaian term.",
+      explanation: "\"How\" questions ask for the method or process.",
+    ),
+
+    QuizQuestion(
+      question: "9. If someone gives you a very short answer, what should you do to keep the conversation going?",
+      options: [
+        "Walk away",
+        "Stop talking",
+        "Repeat your first question loudly",
+        "Ask an elaboration question"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Asking a follow-up \"Why\" or \"How\" keeps the talk alive.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these promotes 'gender equity' in a conversation about jobs?",
+      options: [
+        "Asking only boys their opinion.",
+        "Avoiding the topic of work.",
+        "Saying girls shouldn't work.",
+        "Asking both girls and boys to elaborate on their career dreams."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Encouraging everyone to share detailed thoughts promotes inclusion and equity.",
     ),
   ],
 );
@@ -2554,7 +2575,7 @@ final QuizModel s3ss1Lesson12QuizData = QuizModel(
   ],
 );
 final QuizModel s3ss1Lesson13QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/8. Quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/8. Quiz .m4a',
   questions: [
     QuizQuestion(
         question: "1. Which word is an adverb of manner?",
@@ -2907,7 +2928,7 @@ final QuizModel s3ss1Lesson16QuizData = QuizModel(
     ),
 
     QuizQuestion(
-      question: "7. 'An apple fell from _______ tree is yours.'",
+      question: "7. 'An apple fell from _______ tree over there.'",
       options: ["this", "these", "that", "those"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -2951,7 +2972,7 @@ final QuizModel s3ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-        question: "2. Choose the correct punctuation for: 'How much is the fare to Kumasi?'",
+        question: "2. Choose the correct punctuation for: 'How much is the fare to Kumasi'",
         options: [".", "?", ",", "!"],
         correctIndex: 1,
         difficulty: "Low",
@@ -2983,7 +3004,7 @@ final QuizModel s3ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-        question: "6. Find the error: 'I like banku, fufu and kenkey.'",
+        question: "6. Find the error: 'I like banku, fufu and kenkey'",
         options: ["Needs a full stop at the end", "Needs a comma after fufu", "Needs a question mark", "No error"],
         correctIndex: 0,
         difficulty: "High",
@@ -2999,7 +3020,7 @@ final QuizModel s3ss2Lesson1QuizData = QuizModel(
     ),
 
     QuizQuestion(
-        question: "8. Complete the sentence: 'Stop that thief!'",
+        question: "8. Complete the sentence: 'Stop that thief'",
         options: [".", "!", ",", "?"],
         correctIndex: 1,
         difficulty: "Low",
@@ -5833,7 +5854,7 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
 
     QuizQuestion(
       question: '6. "I am late, ______?" (Note: This is a special rule!)',
-      options: ["am not I?", "aren't I?", "don't I?"],
+      options: ["am not I?", "aren't I?", "don't I?", "didn't I"],
       correctIndex: 1,
       difficulty: "High",
       explanation: 'In British English, "I am" typically uses the tag "aren\'t I."',

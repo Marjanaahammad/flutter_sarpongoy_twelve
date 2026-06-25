@@ -570,7 +570,7 @@ final PracticeModel s3ss1Lesson12PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s3ss1Lesson13PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/6. Guided Practice .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Identify the adverb: \"The choir sang beautifully.\"",
@@ -1116,9 +1116,8 @@ final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Passage: \"Modern solar lamps are replacing kerosene lanterns in many Ghanaian villages. While kerosene is expensive and creates smoke, solar lamps use the sun and are much safer."
-    "Complex Question: Explain how solar lamps improve both health and finances for a family."
-          "Question: What does arid mean?",
+      scenario: "1. Question: Passage: \"Modern solar lamps are replacing kerosene lanterns in many Ghanaian villages. While kerosene is expensive and creates smoke, solar lamps use the sun and are much safer.\n\n"
+    "Complex Question: Explain how solar lamps improve both health and finances for a family.",
       answer: "Correct Answer: Solar lamps improve health by removing dangerous kerosene smoke and save money because sun energy is free, unlike expensive kerosene.",
       explanation: "Explanation: This answer is complex because it connects two different benefits (health and money) mentioned in the text.",
     ),
@@ -1227,7 +1226,7 @@ final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
       explanation: "Explanation: \"Customary\" is a grade-level word that specifically refers to things done according to tradition.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"After the long drought, the farmers were ________ when the first rains finally hit the ground.\" (Words: okayor ecstatic).",
+      scenario: "2. Question: \"After the long drought, the farmers were ________ when the first rains finally hit the ground.\" (Words: okay ecstatic).",
       answer: "Correct Answer: Ecstatic.",
       explanation: "Explanation: \"Ecstatic\" expresses a much higher level of joy, which fits the relief of a drought ending.",
     ),
