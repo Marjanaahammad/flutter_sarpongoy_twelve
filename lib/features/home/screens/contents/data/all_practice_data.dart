@@ -1939,7 +1939,7 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: \"The soccer fans showed great **humor** during the match at Baba Yara Stadium.\"" "Find the spelling error and correct it.",
+      scenario: "1. Question: \"The soccer fans showed great humor during the match at Baba Yara Stadium.\"""Find the spelling error and correct it.",
       answer: "Correct Answer: humour",
       explanation: "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
     ),

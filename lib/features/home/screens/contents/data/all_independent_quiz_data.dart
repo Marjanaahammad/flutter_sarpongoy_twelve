@@ -4045,7 +4045,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
   audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The small village near the Volta River is very peaceful.\" What is the function of the bold phrase?",
+        question: "1. \"**The small village near the Volta River** is very peaceful.\" What is the function of the bold phrase?",
         options: [
           "Direct Object",
           "Subject",
@@ -4058,7 +4058,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "2. \"Esi bought some fresh mangoes from the market.\" What is the function of the bold phrase?",
+        question: "2. \"Esi bought **some fresh mangoes** from the market.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Apposition",
@@ -4071,7 +4071,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "3. \"The trophy was given to the fastest runner in the school.\" What is the function of the bold phrase?",
+        question: "3. \"The trophy was given to **the fastest runner in the school**.\" What is the function of the bold phrase?",
         options: [
           "Object of Preposition",
           "Subject",
@@ -4084,7 +4084,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "4. \"My uncle, a famous musician in Accra, is coming to visit.\" What is the function of the bold phrase?",
+        question: "4. \"My uncle, **a famous musician in Accra**, is coming to visit.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Direct Object",
@@ -4407,7 +4407,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "3. In the sentence \"The sun shines brightly,\" the bold text is:",
+        question: "3. In the sentence \"The sun **shines brightly**,\" the bold text is:",
         options: [
           "The Subject",
           "The Predicate",

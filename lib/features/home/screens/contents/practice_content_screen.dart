@@ -98,8 +98,8 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                           child: _buildFormattedText(
                                             question.scenario,
                                             style: const TextStyle(
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.w600,
+                                              fontSize: 24,
+                                              fontWeight: FontWeight.w500,
                                               color: Colors.black,
                                             ),
                                           ),
@@ -164,7 +164,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                       ),
                                     ).animate().fadeIn(),
 
-                                  // Padding(
+                                 
                                   //   padding: const EdgeInsets.symmetric(vertical: 20.0),
                                   //   child: GestureDetector(
                                   //     onTap: () {
@@ -215,7 +215,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                             question.answer,
                                             style: const TextStyle(
                                               fontSize: 20,
-                                              fontWeight: FontWeight.w600,
+                                              fontWeight: FontWeight.w500,
                                               color: Color(0xFF14357A),
                                             ),
                                           ),
@@ -466,7 +466,11 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
         String cleanText = part.substring(2, part.length - 2);
         spans.add(TextSpan(
           text: cleanText,
-          style: style.copyWith(fontWeight: FontWeight.bold),
+          style: style.copyWith(
+            fontWeight: FontWeight.w800,
+            fontSize: 24,
+            color: Colors.black, // Temporary test color
+          ),
         ));
       } else {
         bool isMath = isEnvironment ||
