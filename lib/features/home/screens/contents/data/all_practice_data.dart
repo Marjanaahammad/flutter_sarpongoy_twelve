@@ -6162,6 +6162,212 @@ final PracticeModel Scijhs1s4ss5Lesson2PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs1s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi has a lot of leftover plantain peels from breakfast. What is the most environmentally friendly way for him to manage this waste?",
+      answer: "Correct Answer: Kofi should use the peels for composting.",
+      explanation: "Explanation: Since plantain peels are organic, they can decay and turn into nutrient-rich soil for a garden.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A school has many old, broken plastic chairs. Instead of burning them, what management practice should they use?",
+      answer: "Correct Answer: The school should send the chairs to a recycling plant.",
+      explanation: "Explanation: Plastic can be melted down and reformed into new useful items, which saves resources.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important to sort our rubbish into different bins before it is collected?",
+      answer: "Correct Answer: Sorting makes it easier to recycle and reuse specific materials.",
+      explanation: "Explanation: When metals, plastics, and papers are separated, they can be processed correctly without contamination.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ama writes: 'We wore rubber gloves and used two large sacks to separate bottles from paper.' Which part of the report is this?",
+      answer: "Correct Answer: This is the Method.",
+      explanation: "Explanation: The Method explains the 'how'—the tools and steps taken during the project.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Kwesi writes: 'To make the school backyard a safe place to play by removing broken glass.' What part is this?",
+      answer: "Correct Answer: This is the Goal.",
+      explanation: "Explanation: The Goal explains 'why' the project was started in the first place.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: 'We collected three buckets of organic waste and started a compost heap.' Where does this go?",
+      answer: "Correct Answer: This belongs in the Results.",
+      explanation: "Explanation: The Results describe what was actually achieved or found during the project.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does a cardboard box disappear in the rain while a plastic bottle does not?",
+      answer: "Correct Answer: The cardboard is biodegradable and can be broken down by organisms.",
+      explanation: "Explanation: Cardboard is made from wood fibers that bacteria can digest, whereas plastic has synthetic bonds that bacteria cannot break.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a compost pit, why does the material get warm after a few weeks?",
+      answer: "Correct Answer: The bacteria are releasing heat as they break down the waste.",
+      explanation: "Explanation: Decomposition is an exothermic process, meaning the biological activity of the bacteria generates heat.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main scientific advantage of using plasma gasification over just dumping waste?",
+      answer: "Correct Answer: It breaks waste down into syngas that can be used for energy.",
+      explanation: "Explanation: Instead of taking up space in a dump, the waste is converted into a useful fuel.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A JHS 1 student named Kwesi has very weak bones that are beginning to bow outwards. Which disease is he likely suffering from?",
+      answer: "Correct Answer: Rickets.",
+      explanation: "Explanation: Rickets causes the bones to become soft and deformed, often leading to bowed legs. It is caused by a lack of Vitamin D and Calcium.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Abena's mother noticed that Abena's hair is changing color to a brownish-red and her ankles are swollen. What should Abena add to her diet to help?",
+      answer: "Correct Answer: Protein-rich foods like eggs, fish, and beans.",
+      explanation: "Explanation: These are symptoms of Kwashiorkor, which is caused by a lack of protein. Adding these foods will provide the building blocks her body needs.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important for Ghanaians to use salt that is labeled 'Iodized' when preparing food?",
+      answer: "Correct Answer: To prevent the development of Goitre.",
+      explanation: "Explanation: Iodized salt contains the mineral iodine. Without iodine, the thyroid gland in the neck can swell, causing goitre.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Your friend at school has a high fever and has lost their sense of smell. Which viral disease might they have, and what is the first thing they should do?",
+      answer: "Correct Answer: COVID-19; they should stay home (isolate) and call a health professional.",
+      explanation: "Explanation: Loss of smell is a specific symptom of COVID-19. Staying home prevents the virus from spreading to other students.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If there is an outbreak of a disease that spreads through blood and bodily fluids, like Ebola, why is it dangerous to touch a sick person without gloves?",
+      answer: "Correct Answer: The virus can enter your body through your skin or mouth if you touch infected fluids.",
+      explanation: "Explanation: Ebola is highly contagious through direct contact with fluids like sweat, blood, or vomit.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why did the government of Ghana close borders and schools during the height of the pandemic?",
+      answer: "Correct Answer: To stop the movement of people, which prevents the virus from jumping from person to person.",
+      explanation: "Explanation: Viruses need people to move them. Reducing contact (social distancing) slows down the spread.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a community in the Northern Region wants to stop using petrol generators and start using sunlight for power, which type of scientist should they consult?",
+      answer: "Correct Answer: An Environmental Scientist or Energy Engineer.",
+      explanation: "Explanation: These scientists specialise in renewable energy sources like solar power which are clean and sustainable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which Ghanaian scientist would you study if you wanted to learn about performing heart surgeries and setting up specialized hospitals?",
+      answer: "Correct Answer: Professor Kwabena Frimpong-Boateng.",
+      explanation: "Explanation: He is the cardiothoracic surgeon who established the National Cardiothoracic Center in Ghana.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are interested in making sure that tomatoes grown in Techiman do not rot before they get to the market in Accra, which scientist’s work is most relevant?",
+      answer: "Correct Answer: Professor Ibok Oduro (or a Post-harvest Technologist).",
+      explanation: "Explanation: Post-harvest technology focuses on preserving and processing food after it is harvested to prevent waste.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain why burning charcoal for cooking can contribute to climate change.",
+      answer: "Correct Answer: Burning charcoal releases carbon dioxide, which is a greenhouse gas that traps heat in the atmosphere.",
+      explanation: "Explanation: When we burn wood or charcoal, the carbon stored in it turns into gas. This gas makes the Earth's 'heat blanket' thicker.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is solar energy considered a 'sustainable' choice for a school in Ghana?",
+      answer: "Correct Answer: It is sustainable because sunlight will never run out and it does not produce harmful gases when making electricity.",
+      explanation: "Explanation: Unlike a petrol generator, the sun is always there and doesn't make the air dirty.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the Energy Commission of Ghana encourage people to use LED bulbs instead of old incandescent bulbs?",
+      answer: "Correct Answer: LED bulbs use less electricity, which reduces the amount of fossil fuels burned to produce power, lowering greenhouse gas emissions.",
+      explanation: "Explanation: Less energy used means less pollution at the source.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a community in the Volta Region plants 1,000 new trees, how does this specifically help minimise the greenhouse effect?",
+      answer: "Correct Answer: The trees act as a carbon sink by absorbing carbon dioxide from the atmosphere during photosynthesis.",
+      explanation: "Explanation: Trees literally pull the 'blanket' gases out of the air to build their trunks and leaves.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A poultry farmer in the Bono Region has lots of chicken droppings and wants to use them for energy. What is the best sustainable scientific idea for this?",
+      answer: "Correct Answer: Designing a biogas digester to turn the waste into gas for cooking or lighting.",
+      explanation: "Explanation: Animal waste releases methane, which can be captured and burned as a clean fuel instead of letting it escape into the air.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are building a solar oven, why is it important to paint the inside of the box black?",
+      answer: "Correct Answer: Black surfaces absorb more solar radiation (heat) than light colors, making the oven hotter.",
+      explanation: "Explanation: This is a scientific principle of heat absorption that makes your project more efficient.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Mention two plants commonly found in the Ghanaian Savannah plains.",
+      answer: "Correct Answer: Baobab and Shea butter trees.",
+      explanation: "Explanation: These trees are adapted to the flat, dry conditions of the Savannah plains.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why do we often find tall trees like Mahogany at the base of mountains but not at the very top?",
+      answer: "Correct Answer: The top is too windy and rocky for tall trees.",
+      explanation: "Explanation: Soil is deeper at the base, and weather is less harsh than at high, rocky peaks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Name one famous plateau in Ghana.",
+      answer: "Correct Answer: The Kwahu Plateau.",
+      explanation: "Explanation: The Kwahu Plateau is a well-known highland with a flat top in the Eastern Region.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A tapeworm lives inside a human's stomach and takes their food. What is this called?",
+      answer: "Correct Answer: Parasitism.",
+      explanation: "Explanation: The tapeworm (parasite) benefits, while the human (host) is harmed.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If two male birds are fighting over the same nesting site, what is happening?",
+      answer: "Correct Answer: Competition.",
+      explanation: "Explanation: They are both struggling for the same limited resource (the site).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A bird builds a nest in a tall tree. The bird gets a home; the tree is not affected. Which type is this?",
+      answer: "Correct Answer: Commensalism.",
+      explanation: "Explanation: One benefits (the bird), and the other (the tree) is neither helped nor harmed.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [

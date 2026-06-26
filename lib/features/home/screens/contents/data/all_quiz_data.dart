@@ -28233,6 +28233,1481 @@ final QuizModel Scijhs1s4ss5Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs1s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which type of waste includes old mobile phones and computers?",
+      options: [
+        "Liquid waste",
+        "Organic waste",
+        "Electronic waste",
+        "Gaseous waste"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "E-waste refers specifically to discarded electronic devices.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the primary purpose of a scientific landfill?",
+      options: [
+        "To store food for later",
+        "To bury waste safely",
+        "To burn plastic bags",
+        "To wash dirty water"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Landfills are designed to contain waste underground to protect the environment.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which 'R' involves using an old jar to store pens?",
+      options: [
+        "Reuse",
+        "Reduce",
+        "Reform",
+        "Remove"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Reuse means finding a new purpose for an item instead of throwing it away.",
+    ),
+
+    QuizQuestion(
+      question: "4. How does improper waste management affect human health?",
+      options: [
+        "It makes people stronger",
+        "It cleans the community",
+        "It spreads many diseases",
+        "It helps plants grow"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Stagnant waste attracts pests like mosquitoes and flies that carry diseases.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which scientific method uses electricity to turn waste into gas?",
+      options: [
+        "Simple composting",
+        "Open-pit burning",
+        "Manual sorting",
+        "Plasma gasification"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Plasma gasification uses high heat from electricity to convert waste into syngas.",
+    ),
+
+    QuizQuestion(
+      question: "6. What should you do with plastic bottles to help the environment?",
+      options: [
+        "Throw them in the sea",
+        "Put them in a fire",
+        "Put them in a bin",
+        "Leave them on the road"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Placing bottles in the correct bin is the first step toward proper disposal or recycling.",
+    ),
+
+    QuizQuestion(
+      question: "7. In Ghana, what can we make from animal waste and vegetable peels?",
+      options: [
+        "New plastic spoons",
+        "Nutrient-rich compost",
+        "Clean drinking water",
+        "Metal cooking pots"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Organic waste can be composted to create fertilizer for agriculture.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a benefit of recycling materials?",
+      options: [
+        "It wastes more energy",
+        "It fills up landfills",
+        "It saves raw materials",
+        "It creates more smoke"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Recycling reduces the need to extract new raw materials from nature.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the best way to handle medical waste from a hospital?",
+      options: [
+        "Sorting for reuse",
+        "High-heat incineration",
+        "Dumping in a market",
+        "Giving it to children"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Incineration destroys harmful pathogens in medical waste through high temperatures.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the first step in a good waste management plan?",
+      options: [
+        "Burning everything",
+        "Sorting the waste",
+        "Buying more plastic",
+        "Closing the schools"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Sorting allows us to identify what can be reused, recycled, or disposed of.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Why is a 'waste walk' useful for research?",
+      options: [
+        "It is good for exercise",
+        "It identifies the waste types",
+        "It helps you find money",
+        "It makes the day go faster"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Seeing the waste first-hand helps you plan the right tools for disposal.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which part of a report explains the tools you used?",
+      options: [
+        "The Results section",
+        "The Method section",
+        "The Project Goal",
+        "The Title page"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The Method describes the process and equipment used.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the best way to handle sharp metal scraps?",
+      options: [
+        "Pick them up with bare hands",
+        "Use a magnet or thick gloves",
+        "Kick them into the grass",
+        "Leave them for someone else"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Safety tools are essential when handling hazardous solid waste.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a report, where do you mention how many bags of rubbish you found?",
+      options: [
+        "The Introduction",
+        "The Results",
+        "The Appendix",
+        "The Cover"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Results section is for data and quantities collected.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the purpose of a 'Conclusion' in a scientific report?",
+      options: [
+        "To say goodbye to the class",
+        "To suggest future solutions",
+        "To list the names of friends",
+        "To draw a picture of a bin"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Conclusions focus on what was learned and how to prevent the problem again.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these shows 'Research' in action?",
+      options: [
+        "Sweeping the whole floor",
+        "Interviewing the local chief",
+        "Printing the final report",
+        "Throwing away old gloves"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Gathering information from community members is a form of research.",
+    ),
+
+    QuizQuestion(
+      question: "7. If you find a lot of organic waste, what project should you start?",
+      options: [
+        "A plastic bottle factory",
+        "A community compost pit",
+        "A paper recycling center",
+        "A metal welding shop"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Organic waste is best managed through composting.",
+    ),
+
+    QuizQuestion(
+      question: "8. What should you do if you find waste you cannot handle safely?",
+      options: [
+        "Try to pick it up anyway",
+        "Ask a teacher for help",
+        "Bury it very quickly",
+        "Tell no one about it"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Safety is paramount; hazardous items require adult or professional assistance.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which item is best for a school 'Reuse' project?",
+      options: [
+        "Used toilet tissue",
+        "Old plastic oil gallons",
+        "Rotting fish remains",
+        "Broken glass pieces"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Plastic gallons can be cleaned and reused for storage or as water containers.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is reporting important in science?",
+      options: [
+        "To get a high grade only",
+        "To share useful information",
+        "To waste a lot of paper",
+        "To make the teacher tired"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Reporting allows others to learn from your project and repeat your success.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What makes a material 'non-biodegradable'?",
+      options: [
+        "It is too heavy to carry",
+        "Bacteria cannot break its chemical bonds",
+        "It dissolves too quickly in water",
+        "It is always a very bright color"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Non-biodegradable materials lack the structure that natural enzymes can attack.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these materials is biodegradable?",
+      options: [
+        "An old aluminum cooking pot",
+        "A discarded plastic water bottle",
+        "A piece of crumpled notebook paper",
+        "A broken glass window pane"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Paper is made from plant fibers (cellulose) which are easily broken down.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is 'Syngas' produced from?",
+      options: [
+        "Sorting paper into bins",
+        "Plasma gasification of waste",
+        "Freezing liquid waste",
+        "Washing plastic bottles"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Syngas (synthetic gas) is the fuel created when plasma breaks down waste.",
+    ),
+
+    QuizQuestion(
+      question: "4. How does composting help the Ghanaian economy?",
+      options: [
+        "It makes more plastic for export",
+        "It reduces the need for imported fertilizers",
+        "It helps people buy more cars",
+        "It stops the rain from falling"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Natural compost improves soil fertility for farmers without expensive chemicals.",
+    ),
+
+    QuizQuestion(
+      question: "5. What temperature must an incinerator reach to safely destroy germs?",
+      options: [
+        "Above 850 degrees Celsius",
+        "Exactly 0 degrees Celsius",
+        "Below 10 degrees Celsius",
+        "The temperature of a cold soda"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "High temperatures are required to ensure all biological hazards are neutralized.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which process involves melting materials to make new products?",
+      options: [
+        "Composting",
+        "Landfilling",
+        "Recycling",
+        "Gasification"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Recycling typically involves changing the physical state of a material to reform it.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why are 'aerobic' bacteria important in a compost heap?",
+      options: [
+        "They sleep in the dark",
+        "They need oxygen to break down waste",
+        "They turn water into plastic",
+        "They hate eating food scraps"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Aerobic bacteria require oxygen to live and efficiently decompose organic matter.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a 'fourth state of matter'?",
+      options: [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Plasma is a highly energized state of matter used in advanced disposal technologies.",
+    ),
+
+    QuizQuestion(
+      question: "9. What happens to the volume of waste after incineration?",
+      options: [
+        "It stays exactly the same",
+        "It increases significantly",
+        "It is greatly reduced to ash",
+        "It turns into large rocks"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Burning waste reduces its physical size, leaving only a small amount of ash.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which scientific practice best protects Ghana's water bodies?",
+      options: [
+        "Dumping liquid waste in gutters",
+        "Proper sorting and disposal",
+        "Leaving E-waste on the beach",
+        "Throwing plastic in the Volta River"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Scientific management ensures that waste does not contaminate our water systems.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which nutrient is responsible for repairing worn-out tissues in the body?",
+      options: [
+        "Carbohydrates",
+        "Proteins",
+        "Fats and oils",
+        "Minerals"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Proteins are the building blocks used for growth and tissue repair.",
+    ),
+
+    QuizQuestion(
+      question: "2. A lack of iodine in the diet leads to which of the following conditions?",
+      options: [
+        "Night blindness",
+        "Kwashiorkor",
+        "Rickets",
+        "Goitre"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Iodine is a mineral essential for the thyroid gland; its absence causes goitre.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which food group helps the body to fight against diseases and stay healthy?",
+      options: [
+        "Vitamins",
+        "Carbohydrates",
+        "Fats",
+        "Starch"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Vitamins are protective nutrients that keep the body's systems functioning and help fight infection.",
+    ),
+
+    QuizQuestion(
+      question: "4. A child with bowed legs and weak bones is most likely suffering from:",
+      options: [
+        "Scurvy",
+        "Anaemia",
+        "Rickets",
+        "Goitre"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rickets affects bone development due to a lack of Vitamin D or Calcium.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a major symptom of the disease known as Scurvy?",
+      options: [
+        "Swelling of the neck",
+        "Poor night vision",
+        "Swollen, bleeding gums",
+        "Reddish-colored hair"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Vitamin C is vital for healthy gums and skin; its lack causes bleeding.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which nutrient provides the body with 'stored energy' and insulation?",
+      options: [
+        "Minerals",
+        "Proteins",
+        "Water",
+        "Fats"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Fats provide a concentrated source of energy that the body stores for later use.",
+    ),
+
+    QuizQuestion(
+      question: "7. Anaemia is a condition caused by the deficiency of which mineral?",
+      options: [
+        "Iron",
+        "Calcium",
+        "Iodine",
+        "Salt"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Iron is needed to produce haemoglobin in the blood, which carries oxygen.",
+    ),
+
+    QuizQuestion(
+      question: "8. To prevent Night Blindness, a student should eat more of which food?",
+      options: [
+        "White rice",
+        "Carrots and papaya",
+        "Sugar cane",
+        "Fried cassava"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Yellow and orange fruits and vegetables are high in Vitamin A, which supports eyesight.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is NOT a symptom of Kwashiorkor?",
+      options: [
+        "Swollen abdomen",
+        "Loss of weight",
+        "Swollen ankles",
+        "Thinning hair"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Kwashiorkor often involves swelling (oedema) which can hide weight loss; obvious loss of weight is more typical of Marasmus.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to ensure you do not get a deficiency disease?",
+      options: [
+        "Eat only one food type",
+        "Drink only pure water",
+        "Eat a balanced diet",
+        "Eat only at night"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A balanced diet contains all the six nutrients in the right proportions.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A virus is a microscopic germ that can only reproduce:",
+      options: [
+        "In stagnant water",
+        "Inside living cells",
+        "On dusty surfaces",
+        "In the open air"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Viruses are obligate parasites and need a living host cell to multiply.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a key method to prevent the spread of COVID-19?",
+      options: [
+        "Wearing a face mask",
+        "Eating more salt",
+        "Walking barefoot",
+        "Sleeping all day"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Masks block the respiratory droplets that carry the virus.",
+    ),
+
+    QuizQuestion(
+      question: "3. Ebola is primarily transmitted through which of the following?",
+      options: [
+        "Mosquito bites",
+        "Contaminated air",
+        "Bodily fluids",
+        "Loud noises"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Direct contact with fluids like blood or sweat is the main path for Ebola transmission.",
+    ),
+
+    QuizQuestion(
+      question: "4. The 'H' and 'N' in the H1N1 virus name refer to what?",
+      options: [
+        "Healthy and Normal",
+        "Proteins on the virus",
+        "Names of doctors",
+        "Types of animals"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "H and N stand for Haemagglutinin and Neuraminidase, proteins on the virus surface.",
+    ),
+
+    QuizQuestion(
+      question: "5. What should a community do if they suspect a viral outbreak?",
+      options: [
+        "Keep it a secret",
+        "Report to authorities",
+        "Hold a big party",
+        "Ignore the symptoms"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Early reporting allows the government to start management and stop the spread.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a common symptom of H1N1 (Swine Flu)?",
+      options: [
+        "Blue skin color",
+        "Stronger muscles",
+        "Fever and chills",
+        "Loss of hearing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "H1N1 causes flu-like symptoms including high temperature and shivering.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is hand sanitizer with at least 60% alcohol used against viruses?",
+      options: [
+        "It smells very good",
+        "It dries very fast",
+        "It dissolves the virus",
+        "It makes skin soft"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Alcohol disrupts the outer fatty layer of many viruses, deactivating them.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the role of an 'isolation centre' during a pandemic?",
+      options: [
+        "To punish sick people",
+        "To store extra food",
+        "To separate the sick",
+        "To host school exams"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Isolation keeps infected individuals away from the healthy population.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which virus caused a major global health emergency starting in 2019?",
+      options: [
+        "Ebola virus",
+        "H1N1 virus",
+        "SARS-CoV-2",
+        "Malaria germ"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "SARS-CoV-2 is the specific name of the virus that causes COVID-19.",
+    ),
+
+    QuizQuestion(
+      question: "10. Vaccines help the body to manage viral diseases by:",
+      options: [
+        "Cleaning the stomach",
+        "Training the immunity",
+        "Fixing broken bones",
+        "Improving eyesight"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Vaccines teach the immune system to recognize and fight a specific virus.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who developed the theory of relativity which changed our understanding of the universe?",
+      options: [
+        "Alexander Fleming",
+        "Albert Einstein",
+        "Charles Darwin",
+        "Isaac Newton"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Albert Einstein is globally recognized for developing the theory of relativity.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which Ghanaian professor is a world-renowned expert in Mathematics and Nuclear Physics?",
+      options: [
+        "Prof. Francis Allotey",
+        "Prof. Theophilus Osei-Anto",
+        "Prof. Ibok Oduro",
+        "Prof. Anamuah-Mensah"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Prof. Francis Allotey is famous for his work in nuclear physics and mathematics.",
+    ),
+
+    QuizQuestion(
+      question: "3. A scientist who studies the Earth's physical structure and substances is called a:",
+      options: [
+        "Biologist",
+        "Geologist",
+        "Zoologist",
+        "Chemist"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Geologists study the solid, liquid, and gaseous matter that constitutes the Earth.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which scientist is known for the theory of evolution by natural selection?",
+      options: [
+        "Stephen Hawking",
+        "Alexander Fleming",
+        "Charles Darwin",
+        "Albert Einstein"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Charles Darwin developed the theory of evolution by natural selection.",
+    ),
+
+    QuizQuestion(
+      question: "5. Ghana needs to focus on training engineers for transport to reduce dependence on:",
+      options: [
+        "Solar-powered cars",
+        "Fuel-powered cars",
+        "Bicycle transport",
+        "Walking to school"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Moving away from fuel-powered vehicles helps reduce pollution and costs.",
+    ),
+
+    QuizQuestion(
+      question: "6. Prof. Ibok Oduro’s work at KNUST primarily helps which sector in Ghana?",
+      options: [
+        "Mining and Minerals",
+        "Post-harvest Food",
+        "Space Exploration",
+        "Textile Industry"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "She is a professor of post-harvest technology, improving how food is handled.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which scientist worked on black holes and radiation despite having a motor neuron disease?",
+      options: [
+        "Alexander Fleming",
+        "Stephen Hawking",
+        "Albert Einstein",
+        "Charles Darwin"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Stephen Hawking was an English physicist famous for his work on black holes.",
+    ),
+
+    QuizQuestion(
+      question: "8. Prof. Ewurama Addy contributed significantly to which area in Ghana?",
+      options: [
+        "Nuclear Research",
+        "Science Education",
+        "Civil Engineering",
+        "Military Science"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "She promoted science education through the NSMQ and her work in biochemistry.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which career involves the study and manufacture of drugs to treat diseases?",
+      options: [
+        "Civil Engineer",
+        "Pharmacist",
+        "Geologist",
+        "Naturalist"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pharmacists research and produce the medicines we use.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the main goal of using solar and wind energy in Ghana?",
+      options: [
+        "To increase smoke",
+        "To burn more coal",
+        "To protect nature",
+        "To stop technology"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Clean energy sources protect the environment from harmful greenhouse gases.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term 'Climate Change' refer to?",
+      options: [
+        "Daily weather changes",
+        "Long-term weather shifts",
+        "Only the rainy season",
+        "Changes in the moon"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Climate change looks at long-term patterns over many years, not just daily weather.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these acts like a blanket to trap heat around the Earth?",
+      options: [
+        "The clouds",
+        "Greenhouse gases",
+        "Mountain ranges",
+        "Ocean currents"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Greenhouse gases like carbon dioxide (CO₂) trap heat in the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which activity is a major cause of increased CO₂ in Ghana?",
+      options: [
+        "Fishing in the sea",
+        "Planting cocoa trees",
+        "Burning fossil fuels",
+        "Using solar lamps"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Burning fuels like petrol and diesel releases significant carbon dioxide.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why are electric vehicles (EVs) better for the environment?",
+      options: [
+        "They are much faster",
+        "They use no energy",
+        "They have no exhausts",
+        "They are very cheap"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "EVs do not have exhaust pipes, so they don't emit greenhouse gases while driving.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is NOT a sustainable energy choice?",
+      options: [
+        "Solar power",
+        "Wind power",
+        "Coal power",
+        "Tidal power"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Coal is a fossil fuel that runs out and causes heavy pollution.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the result of cutting down many trees?",
+      options: [
+        "More oxygen is made",
+        "Less CO₂ is absorbed",
+        "The air gets cleaner",
+        "Methane decreases"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Trees absorb CO₂; without them, more gas stays in the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "7. Sustainable energy is energy that...",
+      options: [
+        "Will eventually run out",
+        "Costs 10,000 Cedis",
+        "Does not harm nature",
+        "Is only for the rich"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Sustainable energy is clean and safe for the environment.",
+    ),
+
+    QuizQuestion(
+      question: "8. Methane is often produced from which source?",
+      options: [
+        "Solar panels",
+        "Decaying waste",
+        "Bicycles",
+        "Windmills"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Rotting waste in landfills or from livestock releases methane.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which Ghanaian resource is best for solar energy?",
+      options: [
+        "Heavy rainfall",
+        "Strong Harmattan",
+        "Bright sunlight",
+        "Large gold mines"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Ghana's year-round sunlight makes it ideal for solar power.",
+    ),
+
+    QuizQuestion(
+      question: "10. Scientific ideas help the environment by...",
+      options: [
+        "Making more smoke",
+        "Cutting more trees",
+        "Creating clean technology",
+        "Using more petrol"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Science helps us invent cleaner ways to live and work.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary source of energy that enters our atmosphere?",
+      options: [
+        "Heat from the Earth's core",
+        "Light from the Sun",
+        "Electricity from pylons",
+        "Wind from the mountains"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Sunlight is the original energy source for the greenhouse effect.",
+    ),
+
+    QuizQuestion(
+      question: "2. What type of radiation is trapped by greenhouse gases?",
+      options: [
+        "Ultraviolet rays",
+        "X-rays",
+        "Gamma rays",
+        "Infrared rays"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Infrared is the heat energy that Earth radiates back toward space.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which household action helps minimise the greenhouse effect?",
+      options: [
+        "Leaving the TV on all day",
+        "Switching to LED light bulbs",
+        "Burning old car tyres",
+        "Using a petrol generator"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "LEDs are energy-efficient and reduce the demand for power generation.",
+    ),
+
+    QuizQuestion(
+      question: "4. How do trees specifically 'fight' climate change?",
+      options: [
+        "By cooling the air with shade",
+        "By absorbing carbon dioxide",
+        "By stopping the rain falling",
+        "By producing methane gas"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Trees take in carbon dioxide (CO₂) as part of their natural growth process.",
+    ),
+
+    QuizQuestion(
+      question: "5. A 'Green Economy' is one that focuses on...",
+      options: [
+        "Making only green products",
+        "Printing more Cedi notes",
+        "Sustainable and low-carbon tasks",
+        "Farming only green vegetables"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A green economy aims for growth without damaging the environment.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a direct result of too much greenhouse gas?",
+      options: [
+        "Lower sea levels",
+        "Global temperature rise",
+        "Cleaner river water",
+        "More oxygen in cities"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Increased greenhouse gases lead to global warming.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why should we avoid burning rubbish in our communities?",
+      options: [
+        "It makes the ground too hard",
+        "It attracts many dangerous birds",
+        "It releases greenhouse gases",
+        "It makes the soil too wet"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Burning waste releases carbon dioxide (CO₂) and other harmful pollutants.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does 'Recycling' do to help the environment?",
+      options: [
+        "It uses more energy than making new products",
+        "It reduces the need for new materials",
+        "It increases the amount of methane",
+        "It stops the sun from shining"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Reusing materials saves the energy usually spent on producing new raw materials.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which gas is released from rotting waste in landfills?",
+      options: [
+        "Nitrogen",
+        "Methane",
+        "Helium",
+        "Argon"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Methane is a powerful greenhouse gas produced by decaying organic matter.",
+    ),
+
+    QuizQuestion(
+      question: "10. The 'Greenhouse Effect' is named after...",
+      options: [
+        "A house painted green",
+        "A famous scientist named Green",
+        "A glass building for plants",
+        "The color of the thick gas"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "It works just like a glass greenhouse used for farming.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a 'Hypothesis' in an energy project?",
+      options: [
+        "A scientific guess to test",
+        "The final cost of the project",
+        "The name of the inventor",
+        "A type of solar panel"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A hypothesis is a statement you test through your project.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which resource is most available in Northern Ghana for energy projects?",
+      options: [
+        "Heavy snow",
+        "Deep coal mines",
+        "Consistent sunshine",
+        "Large oil fields"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Northern Ghana has abundant sunshine, making it ideal for solar-based projects.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the 'Pot-in-Pot' fridge, what scientific process causes the cooling?",
+      options: [
+        "Freezing",
+        "Evaporation",
+        "Melting",
+        "Combustion"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "As water evaporates from the sand, it removes heat from the inner pot.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should a project use local materials?",
+      options: [
+        "To make it break faster",
+        "To reduce costs and transport",
+        "Because they are always blue",
+        "To avoid using any science"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Local materials are affordable, readily available, and support the local economy.",
+    ),
+
+    QuizQuestion(
+      question: "5. A project that reduces CO₂ emissions is supporting...",
+      options: [
+        "The Black Economy",
+        "The Green Economy",
+        "The Silent Economy",
+        "The Old Economy"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A green economy focuses on reducing pollution and carbon emissions.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the purpose of the 'Design' phase?",
+      options: [
+        "To draw and plan the project",
+        "To throw away all the tools",
+        "To stop the project early",
+        "To complain about the sun"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The design phase involves sketching and planning how the project will work.",
+    ),
+
+    QuizQuestion(
+      question: "7. How can you test if your solar dryer project is successful?",
+      options: [
+        "By checking if the food dries",
+        "By looking at the box color",
+        "By asking a friend's name",
+        "By counting the wooden pieces"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Testing the output (dried food) shows whether the project works.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a 'Biogas' source found at a Ghanaian market?",
+      options: [
+        "Discarded plastic bags",
+        "Old metal scraps",
+        "Rotten plantain peels",
+        "Broken glass bottles"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Organic waste such as plantain peels can be used to produce biogas.",
+    ),
+
+    QuizQuestion(
+      question: "9. Sustainability means meeting our needs...",
+      options: [
+        "By using up all resources now",
+        "Without hurting future generations",
+        "By buying everything from abroad",
+        "Only during the rainy season"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Sustainability means meeting present needs without reducing the ability of future generations to meet theirs.",
+    ),
+
+    QuizQuestion(
+      question: "10. A wind project near the coast uses what type of energy?",
+      options: [
+        "Thermal energy",
+        "Solar energy",
+        "Kinetic energy",
+        "Chemical energy"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Moving air (wind) has kinetic energy that can be converted into electricity.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which Ghanaian landform is characterized by steep slopes and high altitudes?",
+      options: [
+        "Coastal plain",
+        "Mountain",
+        "Forest floor",
+        "River valley"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Mountains are defined by their steep slopes and high elevations.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which animal would you most likely see in the open savannah plains of Mole National Park?",
+      options: [
+        "Woodpecker",
+        "Snail",
+        "Elephant",
+        "Pangolin"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Elephants are common large mammals found in the open savannah plains of Mole National Park.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Kwahu Scarp is an example of which type of landform?",
+      options: [
+        "Plateau",
+        "Plain",
+        "Ocean",
+        "Swamp"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Kwahu area is well known for its plateau and escarpment landforms.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which tree is known for its high-quality timber and grows in mountain forest areas?",
+      options: [
+        "Shea tree",
+        "Acacia",
+        "Baobab",
+        "Mahogany"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Mahogany is a valuable timber tree commonly found in wetter forest and highland regions.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why are lions naturally found in plains rather than thick forests?",
+      options: [
+        "They eat grass",
+        "They need open space to hunt",
+        "They cannot climb hills",
+        "They dislike rain"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Lions use open grasslands to spot, chase, and catch their prey more easily.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a common grass type found in Ghanaian plains?",
+      options: [
+        "Rose bushes",
+        "Seaweed",
+        "Guinea grass",
+        "Oak moss"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Guinea grass is one of the dominant grasses found in Ghana's savannah plains.",
+    ),
+
+    QuizQuestion(
+      question: "7. What happens to vegetation at the very top of high mountains?",
+      options: [
+        "It gets thicker",
+        "It stays the same",
+        "It grows taller",
+        "It becomes scarce"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Cold temperatures, thin soils, and strong winds at high altitudes reduce vegetation growth.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which animal is a common forest inhabitant that hides in trees?",
+      options: [
+        "Zebra",
+        "Ostrich",
+        "Squirrel",
+        "Lion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Squirrels are adapted to climbing and living in forest trees.",
+    ),
+
+    QuizQuestion(
+      question: "9. In which landform would you most likely find a Shea tree?",
+      options: [
+        "Mountain peak",
+        "Deep valley",
+        "Savannah plain",
+        "Thick rainforest"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Shea trees thrive in the dry savannah plains of northern Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which of these animals is known as a 'Grasscutter' in Ghana?",
+      options: [
+        "A type of bird",
+        "A type of monkey",
+        "A type of fish",
+        "A type of rodent"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The grasscutter is a large rodent commonly found in Ghana's grasslands and savannah regions.",
+    ),
+  ],
+);
+final QuizModel Scijhs1s5ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the name for a relationship where both organisms benefit?",
+      options: [
+        "Mutualism",
+        "Parasitism",
+        "Competition",
+        "Predation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mutualism is a relationship in which both organisms benefit.",
+    ),
+
+    QuizQuestion(
+      question: "2. A lion catches and eats a grasscutter. In this scenario, what is the grasscutter?",
+      options: [
+        "The predator",
+        "The parasite",
+        "The prey",
+        "The host"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The animal being hunted and eaten is called the prey.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of these is the best example of commensalism?",
+      options: [
+        "A tick on a dog",
+        "A bee on a flower",
+        "An egret following a cow",
+        "A cat chasing a rat"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The egret benefits by feeding on insects disturbed by the cow, while the cow is unaffected.",
+    ),
+
+    QuizQuestion(
+      question: "4. When plants in a garden grow close together and fight for water, this is:",
+      options: [
+        "Symbiosis",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Competition occurs when organisms struggle for limited resources such as water, light, or nutrients.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which relationship is strictly 'win-lose' (+/-) but does not involve eating the other immediately?",
+      options: [
+        "Commensalism",
+        "Parasitism",
+        "Mutualism",
+        "Cooperation"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "In parasitism, the parasite benefits while the host is harmed over time.",
+    ),
+
+    QuizQuestion(
+      question: "6. A remora fish travels with a shark to get food scraps. This is an example of:",
+      options: [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Predation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The remora benefits by feeding on scraps while the shark is largely unaffected.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is pollination by bees considered mutualism?",
+      options: [
+        "The bee dies",
+        "Only the flower wins",
+        "Both bee and flower benefit",
+        "Neither side benefits"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The bee gets nectar for food, while the flower is pollinated and can reproduce.",
+    ),
+
+    QuizQuestion(
+      question: "8. In a parasitic relationship, which organism is harmed?",
+      options: [
+        "The parasite",
+        "The predator",
+        "The host",
+        "The prey"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The host provides resources for the parasite and is harmed in the process.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of the following is a plant parasite common in Ghana?",
+      options: [
+        "Mahogany",
+        "Baobab",
+        "Mistletoe",
+        "Shea tree"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mistletoe is a well-known parasitic plant that grows on other trees.",
+    ),
+
+    QuizQuestion(
+      question: "10. What would happen if there were no predators in an environment?",
+      options: [
+        "Prey would overpopulate",
+        "Plants would grow faster",
+        "Animals would be happier",
+        "All animals would die"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Predators help keep prey populations under control and maintain ecological balance.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS2 S1 SS1 L1/8. Quiz.m4a',
   questions: [

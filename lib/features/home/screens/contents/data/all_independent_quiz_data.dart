@@ -14321,6 +14321,623 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of liquid waste?",
+        options: [
+          "Broken glass bottles",
+          "Dirty laundry water",
+          "Old exercise books",
+          "Used metal scraps"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dirty laundry water is a type of liquid waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does it mean to 'Reduce' waste?",
+        options: [
+          "To burn all the rubbish",
+          "To buy many new things",
+          "To create less rubbish",
+          "To bury waste in a pit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Reducing waste means creating less rubbish in the first place."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which method involves turning kitchen waste into soil?",
+        options: [
+          "Plasma gasification",
+          "Landfill burial",
+          "Plastic recycling",
+          "Organic composting"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Organic composting turns kitchen and other organic waste into nutrient-rich compost."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is electronic waste (E-waste) dangerous?",
+        options: [
+          "It smells like food",
+          "It contains chemicals",
+          "It turns into water",
+          "It grows very fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "E-waste contains harmful chemicals that can pollute the environment and affect human health."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the very first step in a waste management project?",
+        options: [
+          "Burning the waste",
+          "Researching the area",
+          "Writing the final report",
+          "Buying new school books"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Researching the area helps identify the waste problem before planning a solution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should you use gloves during a clean-up?",
+        options: [
+          "To keep your hands warm",
+          "To look like a doctor",
+          "To protect against germs",
+          "To pick up heavy rocks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Gloves protect your hands from germs, dirt, and harmful materials during clean-up activities."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a good 'Conclusion' for a school report?",
+        options: [
+          "The sun was very hot",
+          "We found five old pens",
+          "We should add more bins",
+          "We wore green uniforms"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A good conclusion provides a recommendation or summarizes what should be done next."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does 'sorting at the source' mean?",
+        options: [
+          "Mixing all waste together",
+          "Separating waste as you go",
+          "Throwing waste in a river",
+          "Hiding waste under a tree"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sorting at the source means separating different types of waste where they are produced."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which state of matter is used in Plasma Gasification to break down waste?",
+        options: [
+          "Solid",
+          "Liquid",
+          "Plasma",
+          "Gas"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Plasma gasification uses plasma, the fourth state of matter, to break down waste at extremely high temperatures."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are the tiny chemicals used by bacteria to 'eat' biodegradable waste?",
+        options: [
+          "Rocks",
+          "Enzymes",
+          "Plastics",
+          "Metals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Bacteria use enzymes to break down biodegradable waste during decomposition."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the final, nutrient-rich product of composting called?",
+        options: [
+          "Plastic",
+          "Humus",
+          "Syngas",
+          "Ash"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Humus is the nutrient-rich material produced after organic waste has fully decomposed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is incineration used for medical waste from clinics?",
+        options: [
+          "To make the waste smell better",
+          "To destroy all harmful pathogens",
+          "To turn the waste into paper",
+          "To make the clinic colder"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Incineration destroys harmful pathogens and safely disposes of infectious medical waste."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these nutrients is the primary source of immediate energy for a student?",
+        options: [
+          "Proteins",
+          "Vitamins",
+          "Carbohydrates",
+          "Minerals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Carbohydrates are the body's main source of immediate energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Scurvy is a deficiency disease that is caused by the lack of which nutrient?",
+        options: [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Scurvy is caused by a deficiency of Vitamin C."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which local food is the best source of protein to prevent Kwashiorkor?",
+        options: [
+          "Boiled yam",
+          "Fried plantain",
+          "Steamed fish",
+          "Cassava dough"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Steamed fish is rich in protein, which helps prevent Kwashiorkor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A person who finds it difficult to see in dim light likely lacks which vitamin?",
+        options: [
+          "Vitamin A",
+          "Vitamin B",
+          "Vitamin C",
+          "Vitamin D"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Vitamin A deficiency can cause night blindness, making it difficult to see in dim light."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these terms describes a disease that has spread across the entire world?",
+        options: [
+          "Local infection",
+          "Regional flu",
+          "Pandemic",
+          "Epidemic"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A pandemic is a disease outbreak that spreads across many countries or the entire world."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the most effective way to kill viruses on your hands after touching a surface?",
+        options: [
+          "Wiping them on cloth",
+          "Washing with soap",
+          "Rinsing with water",
+          "Blowing air on them"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Washing your hands with soap effectively removes and kills many germs and viruses."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which symptom is most commonly associated with COVID-19 but NOT usually the flu?",
+        options: [
+          "Loss of taste",
+          "Running nose",
+          "High fever",
+          "Body pains"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Loss of taste or smell is a symptom that is commonly associated with COVID-19."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does the H1N1 (Swine Flu) virus primarily spread between humans?",
+        options: [
+          "Eating cooked pork",
+          "Through the soil",
+          "Drinking dirty water",
+          "Respiratory droplets"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "H1N1 primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which international scientist is famous for the discovery of the first antibiotic, Penicillin?",
+        options: [
+          "Albert Einstein",
+          "Charles Darwin",
+          "Alexander Fleming",
+          "Stephen Hawking"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Alexander Fleming discovered penicillin, the world's first antibiotic, in 1928."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which Ghanaian scientist was the first female quiz mistress of the National Science and Maths Quiz?",
+        options: [
+          "Prof. Ibok Oduro",
+          "Prof. Ewurama Addy",
+          "Prof. Ama Ata Aidoo",
+          "Prof. Afua Adwoa"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Prof. Ewurama Addy was the first female quiz mistress of the National Science and Maths Quiz."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which city is the National Cardiothoracic Center located?",
+        options: [
+          "Kumasi",
+          "Tamale",
+          "Takoradi",
+          "Accra"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The National Cardiothoracic Center is located in Accra, Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main focus of a Meteorologist?",
+        options: [
+          "Studying ancient rocks",
+          "Studying the weather",
+          "Studying forest animals",
+          "Studying ocean waves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A meteorologist studies the atmosphere and weather to understand and predict weather conditions."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which gas is primarily released when a car burns petrol?",
+        options: [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Burning petrol releases carbon dioxide, a greenhouse gas that contributes to climate change."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main problem caused by the 'greenhouse effect'?",
+        options: [
+          "The Earth gets colder",
+          "It rains every day",
+          "Global temperatures rise",
+          "Oxygen disappears"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The greenhouse effect traps heat in the atmosphere, causing global temperatures to rise."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a renewable energy source?",
+        options: [
+          "Crude oil",
+          "Natural gas",
+          "Firewood",
+          "Sunlight"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Sunlight is a renewable energy source because it is naturally replenished."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does planting trees help the environment?",
+        options: [
+          "Trees produce methane",
+          "Trees absorb carbon dioxide",
+          "Trees stop the wind",
+          "Trees make fossil fuels"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Trees absorb carbon dioxide from the atmosphere, helping to reduce greenhouse gases."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What happens to heat rays (infrared) when they hit greenhouse gases?",
+        options: [
+          "They turn into oxygen",
+          "They are reflected back to Earth",
+          "They disappear forever",
+          "They turn into liquid water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Greenhouse gases trap heat by reflecting or re-radiating infrared radiation back toward the Earth's surface."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a way to reduce methane gas in the environment?",
+        options: [
+          "Burning more plastic",
+          "Cutting down old forests",
+          "Proper management of waste",
+          "Driving petrol cars more"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proper waste management helps reduce methane emissions from decomposing organic waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The process of planting trees where there were none before is called...",
+        options: [
+          "Deforestation",
+          "Urbanization",
+          "Afforestation",
+          "Agriculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Afforestation is the planting of trees in areas where there were previously no forests."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the greenhouse effect actually necessary for life on Earth?",
+        options: [
+          "It makes the sky blue",
+          "It keeps the Earth warm enough",
+          "It creates the ocean tides",
+          "It helps humans breathe"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The natural greenhouse effect keeps Earth warm enough to support life."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in designing a local energy project?",
+        options: [
+          "Buying expensive tools",
+          "Observing a local problem",
+          "Asking for a bank loan",
+          "Painting the final model"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The first step in any project is identifying and observing the problem that needs to be solved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which material would be most 'sustainable' for building a wind turbine blade in a village?",
+        options: [
+          "Imported heavy steel",
+          "New expensive plastic",
+          "Local treated bamboo",
+          "Solid concrete blocks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Local treated bamboo is a sustainable material because it is renewable, locally available, and environmentally friendly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why do we build a 'prototype' or small model first?",
+        options: [
+          "To waste more time",
+          "To make it look pretty",
+          "To test if the idea works",
+          "To sell it at the market"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A prototype allows designers to test and improve an idea before building the final product."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A project that uses 'Biomass' for energy would most likely use...",
+        options: [
+          "Wind from the sea",
+          "Sunlight from above",
+          "Food and plant waste",
+          "Old car batteries"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Biomass energy is produced from organic materials such as food waste, crop residues, and other plant matter."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which landform is described as a large area of flat, low-lying land?",
+        options: [
+          "Mountain",
+          "Plateau",
+          "Plain",
+          "Valley"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A plain is a large area of flat or gently rolling, low-lying land."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these animals is most likely to be found in a forest on a mountain slope?",
+        options: [
+          "Zebra",
+          "Monkey",
+          "Ostrich",
+          "Lion"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Monkeys commonly live in forests on mountain slopes where there are many trees."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a key feature of a plateau?",
+        options: [
+          "It is a low valley",
+          "It has a flat top",
+          "It has no plants",
+          "It is under water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A plateau is an area of high land with a broad, flat top."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which plant is famous for storing water in its trunk in the plains?",
+        options: [
+          "Mahogany",
+          "Odum",
+          "Baobab",
+          "Wawa"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The baobab tree stores water in its thick trunk, helping it survive in dry environments."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In Mutualism, how many organisms benefit?",
+        options: [
+          "None",
+          "Only one",
+          "Both",
+          "Only the host"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In mutualism, both organisms benefit from the relationship."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of Predation?",
+        options: [
+          "A bee on a flower",
+          "A hawk catching a mouse",
+          "A tick on a dog",
+          "Two trees growing tall"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Predation is a relationship in which one organism hunts and eats another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is mistletoe considered a parasite on a cocoa tree?",
+        options: [
+          "It helps the tree grow",
+          "It provides shade",
+          "It steals the tree's food",
+          "It eats the cocoa pods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mistletoe is a parasite because it takes water and nutrients from the cocoa tree."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the organism that a parasite lives on called?",
+        options: [
+          "The Guest",
+          "The Host",
+          "The Prey",
+          "The Partner"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The host is the organism that provides food or shelter for the parasite."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',
