@@ -4308,7 +4308,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "4. I __________ you a gift if it was your birthday.",
+        question: "4. I __________ you a gift if I __________ it was your birthday.",
         options: [
           "would have given / had known",
           "would give / had known",

@@ -1939,12 +1939,12 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: \"The soccer fans showed great humor during the match at Baba Yara Stadium.\"""Find the spelling error and correct it.",
+      scenario: "1. Question: \"The soccer fans showed great **humor** during the match at Baba Yara Stadium.\"" "Find the spelling error and correct it.",
       answer: "Correct Answer: humour",
       explanation: "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"I am studing very hard for my BECE exams.\"" "What is the correct way to spell the bold word?",
+      scenario: "2. Question: \"I am **studing** very hard for my BECE exams.\"" "What is the correct way to spell the bold word?",
       answer: "Correct Answer: studying",
       explanation: "Explanation: When a word ends in 'y' and you add '-ing', you keep the 'y'. You only change it to 'i' when adding '-ed' or '-es'.",
     ),
