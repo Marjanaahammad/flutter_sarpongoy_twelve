@@ -6616,7 +6616,8 @@ final QuizModel jhs3s1ss1Lesson2QuizData = QuizModel(
       options: [
         "You are wrong because...",
         "That's a lie...",
-        "I see your point, however..."
+        "I see your point, however...",
+        "That’s totally false…"
       ],
       correctIndex: 2,
       difficulty: "Low",

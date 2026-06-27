@@ -841,7 +841,7 @@ final LearnModel jhs3s1ss3Lesson2LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/english/ENGLISH JHS3 S1 SS3 L2/partB.jpg',
-    audioPath: 'assets/audio/english/5. JHS3 S1 SS3 L2/4. Teach - Part B.m4a',
+    audioPath: 'assets/audio/english/5. JHS3 S1 SS3 L2/4. Teach - Part B .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/english/ENGLISH JHS3 S1 SS3 L2/partC.jpg',
