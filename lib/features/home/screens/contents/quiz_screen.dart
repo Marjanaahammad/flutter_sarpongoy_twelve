@@ -651,10 +651,11 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget _buildFormattedText(String text, {required TextStyle style}) {
     final List<InlineSpan> spans = [];
 
-    // Regex to find LaTeX environments OR words separated by spaces
+    // Regex to find LaTeX environments, bold text, OR words separated by spaces
     // Group 1: \begin{...} ... \end{...}
-    // Group 2: Individual non-space tokens
-    final regex = RegExp(r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\S+)');
+    // Group 2: **bold text**
+    // Group 3: Individual non-space tokens
+    final regex = RegExp(r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\*\*.*?\*\*)|(\S+)');
     final matches = regex.allMatches(text);
 
     int lastMatchEnd = 0;
@@ -670,60 +671,35 @@ class _QuizScreenState extends State<QuizScreen> {
 
       String part = match.group(0)!;
       bool isEnvironment = match.group(1) != null;
+      bool isBold = match.group(2) != null;
 
-      bool isMath = isEnvironment ||
-          part.contains('^') ||
-          part.contains('\\') ||
-          part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
-          part.contains('times') ||
-          part.contains('div');
+      if (isBold) {
+        String cleanText = part.substring(2, part.length - 2);
+        spans.add(TextSpan(
+          text: cleanText,
+          style: style.copyWith(
+            fontWeight: FontWeight.w800,
+            fontSize: (style.fontSize ?? 16) + 2,
+            color: Colors.black,
+          ),
+        ));
+      } else {
+        bool isMath = isEnvironment ||
+            part.contains('^') ||
+            part.contains('\\') ||
+            part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
+            part.contains('times') ||
+            part.contains('div');
 
-      if (isMath) {
-        if (isEnvironment) {
-          // Environments always use Math.tex
-          spans.add(
-            WidgetSpan(
-              alignment: PlaceholderAlignment.middle,
-              child: Math.tex(
-                part,
-                mathStyle: part.contains(r'\frac')
-                    ? MathStyle.display
-                    : MathStyle.text,
-                textStyle: style.copyWith(
-                  fontSize: (style.fontSize ?? 16) * 1.2,
-                ),
-              ),
-            ),
-          );
-        } else {
-          String unicodeWord = _convertToUnicodeMath(part);
-
-          // Check if it still contains complex LaTeX characters
-          bool isComplex = unicodeWord.contains('\\') ||
-              unicodeWord.contains('{') ||
-              unicodeWord.contains('}') ||
-              unicodeWord.contains('_');
-
-          if (!isComplex) {
-            spans.add(TextSpan(text: unicodeWord, style: style));
-          } else {
-            // Fallback to Math.tex for complex stuff
-            String sanitized = part
-                .replaceAllMapped(
-                  RegExp(r'_(?![a-zA-Z0-9\\{])'),
-                  (match) => r'\_',
-                )
-                .replaceAllMapped(
-                  RegExp(r'\^(?![a-zA-Z0-9\\{])'),
-                  (match) => r'\^',
-                );
-
+        if (isMath) {
+          if (isEnvironment) {
+            // Environments always use Math.tex
             spans.add(
               WidgetSpan(
                 alignment: PlaceholderAlignment.middle,
                 child: Math.tex(
-                  sanitized,
-                  mathStyle: sanitized.contains(r'\frac')
+                  part,
+                  mathStyle: part.contains(r'\frac')
                       ? MathStyle.display
                       : MathStyle.text,
                   textStyle: style.copyWith(
@@ -732,10 +708,48 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
               ),
             );
+          } else {
+            String unicodeWord = _convertToUnicodeMath(part);
+
+            // Check if it still contains complex LaTeX characters
+            bool isComplex = unicodeWord.contains('\\') ||
+                unicodeWord.contains('{') ||
+                unicodeWord.contains('}') ||
+                unicodeWord.contains('_');
+
+            if (!isComplex) {
+              spans.add(TextSpan(text: unicodeWord, style: style));
+            } else {
+              // Fallback to Math.tex for complex stuff
+              String sanitized = part
+                  .replaceAllMapped(
+                    RegExp(r'_(?![a-zA-Z0-9\\{])'),
+                    (match) => r'\_',
+                  )
+                  .replaceAllMapped(
+                    RegExp(r'\^(?![a-zA-Z0-9\\{])'),
+                    (match) => r'\^',
+                  );
+
+              spans.add(
+                WidgetSpan(
+                  alignment: PlaceholderAlignment.middle,
+                  child: Math.tex(
+                    sanitized,
+                    mathStyle: sanitized.contains(r'\frac')
+                        ? MathStyle.display
+                        : MathStyle.text,
+                    textStyle: style.copyWith(
+                      fontSize: (style.fontSize ?? 16) * 1.2,
+                    ),
+                  ),
+                ),
+              );
+            }
           }
+        } else {
+          spans.add(TextSpan(text: part, style: style));
         }
-      } else {
-        spans.add(TextSpan(text: part, style: style));
       }
 
       lastMatchEnd = match.end;

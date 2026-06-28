@@ -1234,7 +1234,7 @@ final IndependentPracticeModel s3ss1Lesson12IndependentQuizData = IndependentPra
   ],
 );
 final IndependentPracticeModel s3ss1Lesson13IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/7. Independent Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"The driver drove _______ through the heavy rain.\"",
@@ -4045,7 +4045,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
   audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The small village near the Volta River is very peaceful.\" What is the function of the bold phrase?",
+        question: "1. \"**The small village near the Volta River** is very peaceful.\" What is the function of the bold phrase?",
         options: [
           "Direct Object",
           "Subject",
@@ -4058,7 +4058,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "2. \"Esi bought some fresh mangoes from the market.\" What is the function of the bold phrase?",
+        question: "2. \"Esi bought **some fresh mangoes** from the market.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Apposition",
@@ -4071,7 +4071,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "3. \"The trophy was given to the fastest runner in the school.\" What is the function of the bold phrase?",
+        question: "3. \"The trophy was given to **the fastest runner in the school**.\" What is the function of the bold phrase?",
         options: [
           "Object of Preposition",
           "Subject",
@@ -4084,7 +4084,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "4. \"My uncle, a famous musician in Accra, is coming to visit.\" What is the function of the bold phrase?",
+        question: "4. \"My uncle, **a famous musician in Accra**, is coming to visit.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Direct Object",
@@ -4308,7 +4308,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "4. I __________ you a gift if it was your birthday.",
+        question: "4. I __________ you a gift if I __________ it was your birthday.",
         options: [
           "would have given / had known",
           "would give / had known",
@@ -4407,7 +4407,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "3. In the sentence \"The sun shines brightly,\" the bold text is:",
+        question: "3. In the sentence \"The sun **shines brightly**,\" the bold text is:",
         options: [
           "The Subject",
           "The Predicate",
@@ -14321,6 +14321,623 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of liquid waste?",
+        options: [
+          "Broken glass bottles",
+          "Dirty laundry water",
+          "Old exercise books",
+          "Used metal scraps"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dirty laundry water is a type of liquid waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does it mean to 'Reduce' waste?",
+        options: [
+          "To burn all the rubbish",
+          "To buy many new things",
+          "To create less rubbish",
+          "To bury waste in a pit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Reducing waste means creating less rubbish in the first place."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which method involves turning kitchen waste into soil?",
+        options: [
+          "Plasma gasification",
+          "Landfill burial",
+          "Plastic recycling",
+          "Organic composting"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Organic composting turns kitchen and other organic waste into nutrient-rich compost."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is electronic waste (E-waste) dangerous?",
+        options: [
+          "It smells like food",
+          "It contains chemicals",
+          "It turns into water",
+          "It grows very fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "E-waste contains harmful chemicals that can pollute the environment and affect human health."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the very first step in a waste management project?",
+        options: [
+          "Burning the waste",
+          "Researching the area",
+          "Writing the final report",
+          "Buying new school books"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Researching the area helps identify the waste problem before planning a solution."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should you use gloves during a clean-up?",
+        options: [
+          "To keep your hands warm",
+          "To look like a doctor",
+          "To protect against germs",
+          "To pick up heavy rocks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Gloves protect your hands from germs, dirt, and harmful materials during clean-up activities."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a good 'Conclusion' for a school report?",
+        options: [
+          "The sun was very hot",
+          "We found five old pens",
+          "We should add more bins",
+          "We wore green uniforms"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A good conclusion provides a recommendation or summarizes what should be done next."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does 'sorting at the source' mean?",
+        options: [
+          "Mixing all waste together",
+          "Separating waste as you go",
+          "Throwing waste in a river",
+          "Hiding waste under a tree"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sorting at the source means separating different types of waste where they are produced."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which state of matter is used in Plasma Gasification to break down waste?",
+        options: [
+          "Solid",
+          "Liquid",
+          "Plasma",
+          "Gas"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Plasma gasification uses plasma, the fourth state of matter, to break down waste at extremely high temperatures."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What are the tiny chemicals used by bacteria to 'eat' biodegradable waste?",
+        options: [
+          "Rocks",
+          "Enzymes",
+          "Plastics",
+          "Metals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Bacteria use enzymes to break down biodegradable waste during decomposition."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the final, nutrient-rich product of composting called?",
+        options: [
+          "Plastic",
+          "Humus",
+          "Syngas",
+          "Ash"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Humus is the nutrient-rich material produced after organic waste has fully decomposed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is incineration used for medical waste from clinics?",
+        options: [
+          "To make the waste smell better",
+          "To destroy all harmful pathogens",
+          "To turn the waste into paper",
+          "To make the clinic colder"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Incineration destroys harmful pathogens and safely disposes of infectious medical waste."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these nutrients is the primary source of immediate energy for a student?",
+        options: [
+          "Proteins",
+          "Vitamins",
+          "Carbohydrates",
+          "Minerals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Carbohydrates are the body's main source of immediate energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Scurvy is a deficiency disease that is caused by the lack of which nutrient?",
+        options: [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Scurvy is caused by a deficiency of Vitamin C."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which local food is the best source of protein to prevent Kwashiorkor?",
+        options: [
+          "Boiled yam",
+          "Fried plantain",
+          "Steamed fish",
+          "Cassava dough"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Steamed fish is rich in protein, which helps prevent Kwashiorkor."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A person who finds it difficult to see in dim light likely lacks which vitamin?",
+        options: [
+          "Vitamin A",
+          "Vitamin B",
+          "Vitamin C",
+          "Vitamin D"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Vitamin A deficiency can cause night blindness, making it difficult to see in dim light."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these terms describes a disease that has spread across the entire world?",
+        options: [
+          "Local infection",
+          "Regional flu",
+          "Pandemic",
+          "Epidemic"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A pandemic is a disease outbreak that spreads across many countries or the entire world."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the most effective way to kill viruses on your hands after touching a surface?",
+        options: [
+          "Wiping them on cloth",
+          "Washing with soap",
+          "Rinsing with water",
+          "Blowing air on them"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Washing your hands with soap effectively removes and kills many germs and viruses."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which symptom is most commonly associated with COVID-19 but NOT usually the flu?",
+        options: [
+          "Loss of taste",
+          "Running nose",
+          "High fever",
+          "Body pains"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Loss of taste or smell is a symptom that is commonly associated with COVID-19."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does the H1N1 (Swine Flu) virus primarily spread between humans?",
+        options: [
+          "Eating cooked pork",
+          "Through the soil",
+          "Drinking dirty water",
+          "Respiratory droplets"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "H1N1 primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which international scientist is famous for the discovery of the first antibiotic, Penicillin?",
+        options: [
+          "Albert Einstein",
+          "Charles Darwin",
+          "Alexander Fleming",
+          "Stephen Hawking"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Alexander Fleming discovered penicillin, the world's first antibiotic, in 1928."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which Ghanaian scientist was the first female quiz mistress of the National Science and Maths Quiz?",
+        options: [
+          "Prof. Ibok Oduro",
+          "Prof. Ewurama Addy",
+          "Prof. Ama Ata Aidoo",
+          "Prof. Afua Adwoa"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Prof. Ewurama Addy was the first female quiz mistress of the National Science and Maths Quiz."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which city is the National Cardiothoracic Center located?",
+        options: [
+          "Kumasi",
+          "Tamale",
+          "Takoradi",
+          "Accra"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The National Cardiothoracic Center is located in Accra, Ghana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main focus of a Meteorologist?",
+        options: [
+          "Studying ancient rocks",
+          "Studying the weather",
+          "Studying forest animals",
+          "Studying ocean waves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A meteorologist studies the atmosphere and weather to understand and predict weather conditions."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which gas is primarily released when a car burns petrol?",
+        options: [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Burning petrol releases carbon dioxide, a greenhouse gas that contributes to climate change."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main problem caused by the 'greenhouse effect'?",
+        options: [
+          "The Earth gets colder",
+          "It rains every day",
+          "Global temperatures rise",
+          "Oxygen disappears"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The greenhouse effect traps heat in the atmosphere, causing global temperatures to rise."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a renewable energy source?",
+        options: [
+          "Crude oil",
+          "Natural gas",
+          "Firewood",
+          "Sunlight"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Sunlight is a renewable energy source because it is naturally replenished."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does planting trees help the environment?",
+        options: [
+          "Trees produce methane",
+          "Trees absorb carbon dioxide",
+          "Trees stop the wind",
+          "Trees make fossil fuels"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Trees absorb carbon dioxide from the atmosphere, helping to reduce greenhouse gases."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What happens to heat rays (infrared) when they hit greenhouse gases?",
+        options: [
+          "They turn into oxygen",
+          "They are reflected back to Earth",
+          "They disappear forever",
+          "They turn into liquid water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Greenhouse gases trap heat by reflecting or re-radiating infrared radiation back toward the Earth's surface."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a way to reduce methane gas in the environment?",
+        options: [
+          "Burning more plastic",
+          "Cutting down old forests",
+          "Proper management of waste",
+          "Driving petrol cars more"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proper waste management helps reduce methane emissions from decomposing organic waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The process of planting trees where there were none before is called...",
+        options: [
+          "Deforestation",
+          "Urbanization",
+          "Afforestation",
+          "Agriculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Afforestation is the planting of trees in areas where there were previously no forests."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is the greenhouse effect actually necessary for life on Earth?",
+        options: [
+          "It makes the sky blue",
+          "It keeps the Earth warm enough",
+          "It creates the ocean tides",
+          "It helps humans breathe"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The natural greenhouse effect keeps Earth warm enough to support life."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in designing a local energy project?",
+        options: [
+          "Buying expensive tools",
+          "Observing a local problem",
+          "Asking for a bank loan",
+          "Painting the final model"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The first step in any project is identifying and observing the problem that needs to be solved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which material would be most 'sustainable' for building a wind turbine blade in a village?",
+        options: [
+          "Imported heavy steel",
+          "New expensive plastic",
+          "Local treated bamboo",
+          "Solid concrete blocks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Local treated bamboo is a sustainable material because it is renewable, locally available, and environmentally friendly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why do we build a 'prototype' or small model first?",
+        options: [
+          "To waste more time",
+          "To make it look pretty",
+          "To test if the idea works",
+          "To sell it at the market"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A prototype allows designers to test and improve an idea before building the final product."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A project that uses 'Biomass' for energy would most likely use...",
+        options: [
+          "Wind from the sea",
+          "Sunlight from above",
+          "Food and plant waste",
+          "Old car batteries"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Biomass energy is produced from organic materials such as food waste, crop residues, and other plant matter."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which landform is described as a large area of flat, low-lying land?",
+        options: [
+          "Mountain",
+          "Plateau",
+          "Plain",
+          "Valley"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A plain is a large area of flat or gently rolling, low-lying land."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these animals is most likely to be found in a forest on a mountain slope?",
+        options: [
+          "Zebra",
+          "Monkey",
+          "Ostrich",
+          "Lion"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Monkeys commonly live in forests on mountain slopes where there are many trees."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a key feature of a plateau?",
+        options: [
+          "It is a low valley",
+          "It has a flat top",
+          "It has no plants",
+          "It is under water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A plateau is an area of high land with a broad, flat top."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which plant is famous for storing water in its trunk in the plains?",
+        options: [
+          "Mahogany",
+          "Odum",
+          "Baobab",
+          "Wawa"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The baobab tree stores water in its thick trunk, helping it survive in dry environments."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In Mutualism, how many organisms benefit?",
+        options: [
+          "None",
+          "Only one",
+          "Both",
+          "Only the host"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In mutualism, both organisms benefit from the relationship."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of Predation?",
+        options: [
+          "A bee on a flower",
+          "A hawk catching a mouse",
+          "A tick on a dog",
+          "Two trees growing tall"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Predation is a relationship in which one organism hunts and eats another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is mistletoe considered a parasite on a cocoa tree?",
+        options: [
+          "It helps the tree grow",
+          "It provides shade",
+          "It steals the tree's food",
+          "It eats the cocoa pods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Mistletoe is a parasite because it takes water and nutrients from the cocoa tree."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the organism that a parasite lives on called?",
+        options: [
+          "The Guest",
+          "The Host",
+          "The Prey",
+          "The Partner"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The host is the organism that provides food or shelter for the parasite."
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',
@@ -16196,6 +16813,118 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = Independ
     ),
   ],
 );
+final IndependentPracticeModel Scijhs2s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool features a long metal blade and is commonly used in Ghana for weeding and harvesting?",
+        options: [
+          "Hand Trowel",
+          "Cutlass",
+          "Pickaxe",
+          "Rake"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A cutlass is commonly used in Ghana for weeding, clearing bushes, and harvesting crops."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you need to break up very hard, stony ground, which tool is the best choice?",
+        options: [
+          "Watering Can",
+          "Hand Fork",
+          "Pickaxe",
+          "Shovel"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A pickaxe is designed to break up hard, compacted, or stony ground."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which tool is designed with metal teeth to help level the soil?",
+        options: [
+          "Rake",
+          "Spade",
+          "Axe",
+          "Hoe"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A rake has metal teeth that are used to level soil and gather debris."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main use of a watering can on the farm?",
+        options: [
+          "To dig deep holes",
+          "To spray chemicals",
+          "To carry heavy logs",
+          "To sprinkle water"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A watering can is used to sprinkle water gently onto plants and seedlings."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which motion is most effective when using a hoe to clear weeds?",
+        options: [
+          "Pushing away from the body",
+          "A pulling motion toward the body",
+          "A circular spinning motion",
+          "Lifting the tool high above the head"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A hoe is most effective when used with a pulling motion toward the body to cut and remove weeds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To avoid back pain while digging with a shovel, you should:",
+        options: [
+          "Bend only at the waist",
+          "Use your foot to push the blade down",
+          "Hold the handle with only one hand",
+          "Keep your legs perfectly straight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using your foot to push the shovel blade into the soil reduces strain on your back and makes digging easier."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When is the best time to use a sprayer on your crops?",
+        options: [
+          "When it is very windy",
+          "During a heavy rainstorm",
+          "When the air is calm and still",
+          "In the middle of a dust storm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Spraying is most effective when the air is calm and still because the spray can reach the target plants without drifting away."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the correct way to hold an axe when felling a small tree?",
+        options: [
+          "With one hand at the very top",
+          "With both hands gripping the handle firmly",
+          "By the metal head only",
+          "With your eyes closed for safety"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An axe should be held with both hands gripping the handle firmly to maintain control and safety."
+    ),
+  ],
+);
 
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
@@ -18064,6 +18793,1011 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = Independ
         correctIndex: 3,
         difficulty: "Easy",
         explanation: "The sense of smell helps identify the 'forest floor' odor, indicating well-decomposed manure."
+    ),
+  ],
+);
+
+final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these habits is the best way to save electricity at home?",
+        options: [
+          "Leaving the TV on while you do your homework.",
+          "Ironing your school uniform every single morning.",
+          "Using a coal pot instead of a gas stove for everything.",
+          "Switching off all fans when you are going outside."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Switching off fans when they are not needed helps reduce electricity consumption."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the benefit of using LED bulbs instead of incandescent bulbs?",
+        options: [
+          "LED bulbs use less energy to give the same light.",
+          "LED bulbs are much cheaper to buy in the market.",
+          "LED bulbs make the room feel much warmer at night.",
+          "LED bulbs work even when the power is totally off."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "LED bulbs are more energy-efficient and produce the same amount of light using less electricity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. To save energy while cooking on an electric stove, you should:",
+        options: [
+          "Use a pot that is much smaller than the burner.",
+          "Keep the lid off so you can see the food cooking.",
+          "Use flat-bottomed pots that cover the burner.",
+          "Turn the heat to the highest setting for everything."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Flat-bottomed pots that cover the burner transfer heat more efficiently and reduce energy waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does 'ironing in bulk' help a family save money?",
+        options: [
+          "It makes the clothes stay clean for a longer time.",
+          "It reduces the number of times the iron is heated.",
+          "It allows the iron to stay at a very low temperature.",
+          "It uses a different type of electricity from the wall."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Ironing many clothes at once reduces repeated heating and cooling of the iron, saving energy and money."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an economic benefit of energy conservation?",
+        options: [
+          "Making the house look very dark at night.",
+          "Paying less money for electricity bills.",
+          "Buying more expensive gadgets for the kitchen.",
+          "Spending more time sleeping during the day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy conservation reduces electricity usage, which helps lower electricity bills."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does conserving energy help to fight climate change?",
+        options: [
+          "It makes the wind blow much faster.",
+          "It stops the sun from being too bright.",
+          "It reduces the release of greenhouse gases.",
+          "It makes the rain fall only at night time."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Using less energy reduces the need for fossil fuels, which helps lower greenhouse gas emissions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Sustainable energy use means using power in a way that:",
+        options: [
+          "Uses it all up as quickly as possible.",
+          "Leaves enough for people in the future.",
+          "Only allows rich people to have electricity.",
+          "Costs the same amount every single day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sustainable energy use ensures that energy resources remain available for future generations."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is energy conservation important for Ghanaian hospitals?",
+        options: [
+          "It helps doctors sleep better during their break.",
+          "It makes the hospital walls look much cleaner.",
+          "It ensures a steady power supply for medical machines.",
+          "It allows the patients to cook their own food."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Reliable energy use helps ensure that essential medical equipment can operate without interruption."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A sound system uses 0.5A of current on a 240V supply. What is its power?",
+        options: [
+          "120 Watts",
+          "240 Watts",
+          "480 Watts",
+          "0.5 Watts"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Power = Voltage × Current = 240V × 0.5A = 120W."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How many Watts are in 4.5 Kilowatts?",
+        options: [
+          "45 Watts",
+          "450 Watts",
+          "4,500 Watts",
+          "45,000 Watts"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "1 Kilowatt = 1,000 Watts, so 4.5 kW = 4,500 W."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. An 800W microwave is used for 2 hours. What is the energy in kWh?",
+        options: [
+          "1,600 kWh",
+          "16.0 kWh",
+          "1.6 kWh",
+          "0.8 kWh"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Energy = Power (kW) × Time (h) = 0.8 × 2 = 1.6 kWh."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which formula is used to find Energy consumed?",
+        options: [
+          "Energy = Voltage / Current",
+          "Energy = Power (kW) × Time (h)",
+          "Energy = Power (W) + Time (h)",
+          "Energy = Watts × 1,000"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Electrical energy consumed is calculated by multiplying power in kilowatts by time in hours."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which principle explains why a pinhole camera works?",
+        options: [
+          "Light reflects off mirrors.",
+          "Light travels in straight lines.",
+          "Light changes colour in boxes.",
+          "Light bends when it hits water."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A pinhole camera works because light travels in straight lines."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The image formed in a pinhole camera is always:",
+        options: [
+          "Upright and very blurry.",
+          "Upside down and real.",
+          "Larger than the object.",
+          "Virtual and invisible."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The image formed by a pinhole camera is real and inverted (upside down)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens to the image if the pinhole is made much larger?",
+        options: [
+          "It becomes much sharper.",
+          "It disappears completely.",
+          "It becomes brighter but blurred.",
+          "It turns the wrong way up."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A larger pinhole allows more light through, making the image brighter but less sharp."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a pinhole camera, light from the top of an object hits:",
+        options: [
+          "The middle of the screen.",
+          "The top of the screen.",
+          "The bottom of the screen.",
+          "The side of the hole."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Because light travels in straight lines, light from the top of the object reaches the bottom of the screen, creating an inverted image."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is required for a shadow to form?",
+        options: [
+          "A transparent object.",
+          "A source of light.",
+          "A mirror to reflect light.",
+          "A very loud sound."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A shadow can only form when there is a source of light that is blocked by an object."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The darkest part of a shadow is known as the:",
+        options: [
+          "Penumbra",
+          "Eclipse",
+          "Reflection",
+          "Umbra"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The umbra is the darkest central part of a shadow where all light is blocked."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A \"Point Source\" of light usually produces a shadow with:",
+        options: [
+          "Only a Penumbra.",
+          "Only an Umbra.",
+          "No shadow at all.",
+          "Many different colours."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A point source of light produces a sharp shadow consisting only of an umbra."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do the edges of shadows look blurry under fluorescent lights?",
+        options: [
+          "Because of the Penumbra.",
+          "Because light is bending.",
+          "Because the room is cold.",
+          "Because the object is moving."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Fluorescent lights are extended light sources that create a penumbra, making shadow edges appear blurry."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In a Solar Eclipse, what is the correct order of the celestial bodies?",
+        options: [
+          "Earth — Sun — Moon",
+          "Sun — Moon — Earth",
+          "Moon — Earth — Sun",
+          "Sun — Earth — Moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A solar eclipse occurs when the Moon moves between the Sun and the Earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A Lunar Eclipse can only happen during which moon phase?",
+        options: [
+          "New Moon",
+          "Half Moon",
+          "Full Moon",
+          "Crescent Moon"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A lunar eclipse can only occur during a Full Moon when the Earth is between the Sun and the Moon."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What colour does the moon often appear during a total lunar eclipse?",
+        options: [
+          "Bright Green",
+          "Dark Blue",
+          "Reddish-orange",
+          "Pure White"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "During a total lunar eclipse, the Moon often appears reddish-orange due to sunlight being filtered through Earth's atmosphere."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is it dangerous to look at a Solar Eclipse without protection?",
+        options: [
+          "The Moon reflects too much light.",
+          "The Sun's rays can burn your retina.",
+          "The sky becomes too cold to breathe.",
+          "The Earth might stop spinning."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Looking directly at the Sun during a solar eclipse can permanently damage the retina and harm your eyesight."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Refraction is defined as the:",
+        options: [
+          "Bouncing of light off a mirror.",
+          "Bending of light between two media.",
+          "Absorption of light by a dark surface.",
+          "Creation of light by a battery."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Refraction is the bending of light as it passes from one medium to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Light travels fastest in which of the following?",
+        options: [
+          "Water",
+          "Glass",
+          "Air",
+          "Diamond"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Light travels fastest in air compared to water, glass, and diamond."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. An object underwater appears to be at a different place. This is:",
+        options: [
+          "Real position",
+          "Inverted position",
+          "Apparent position",
+          "Reflection position"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Due to refraction, objects underwater appear at an apparent position different from their real position."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A glass lens can focus light because of:",
+        options: [
+          "Refraction",
+          "Magnetism",
+          "Conduction",
+          "Insulation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A lens focuses light by refracting (bending) the light rays."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which device is designed specifically to turn electrical energy into heat energy?",
+        options: [
+          "An electric fan",
+          "A radio speaker",
+          "An electric iron",
+          "A flashlight LED"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An electric iron is specifically designed to convert electrical energy into heat energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
+        options: [
+          "Current increases",
+          "Current decreases",
+          "Current stays same",
+          "Voltage decreases"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which type of circuit does electricity have multiple paths to follow?",
+        options: [
+          "A series circuit",
+          "A closed circuit",
+          "A parallel circuit",
+          "A simple circuit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A parallel circuit provides multiple paths for electric current to flow."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
+        options: [
+          "Two Amperes",
+          "Nine Amperes",
+          "Three Amperes",
+          "Eight Amperes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In which direction does a diode allow electricity to flow?",
+        options: [
+          "Both directions",
+          "In no direction",
+          "In one direction",
+          "Only when hot"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A diode allows electric current to flow in only one direction."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the positive terminal of a diode?",
+        options: [
+          "The Cathode",
+          "The Anode",
+          "The Resistor",
+          "The Capacitor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The anode is the positive terminal of a diode."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why do we use a resistor with an LED in a 6V circuit?",
+        options: [
+          "To stop flow",
+          "To store power",
+          "To limit current",
+          "To change colour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A resistor limits the current flowing through the LED and protects it from damage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which material is used to make electronic components like diodes?",
+        options: [
+          "Semi-conductor",
+          "Pure insulator",
+          "Plastic rubber",
+          "Liquid water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Diodes and many electronic components are made from semiconductor materials such as silicon."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What happens to a capacitor when it is connected to a power source?",
+        options: [
+          "It burns up",
+          "It stores charge",
+          "It stops current",
+          "It creates heat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A capacitor stores electrical charge when connected to a power source."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of energy conversion?",
+        options: [
+          "Creating new energy from nothing",
+          "Changing energy from form to form",
+          "Making energy disappear forever",
+          "Keeping energy in a single state"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Energy conversion is the process of changing energy from one form to another."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When a ceiling fan is switched on, what is the primary energy conversion?",
+        options: [
+          "Heat energy to kinetic energy",
+          "Sound energy to light energy",
+          "Electrical energy to mechanical",
+          "Chemical energy to electrical"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A ceiling fan converts electrical energy into mechanical energy to rotate its blades."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which energy form is found in a piece of firewood before it is burnt?",
+        options: [
+          "Potential energy",
+          "Chemical energy",
+          "Thermal energy",
+          "Kinetic energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Firewood stores chemical energy, which is released when it burns."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In a school bell that rings, kinetic energy is mainly converted into:",
+        options: [
+          "Sound energy",
+          "Light energy",
+          "Chemical energy",
+          "Nuclear energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The movement (kinetic energy) of the bell produces sound energy when it rings."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which Ghanaian household item primarily converts electrical energy into mechanical energy?",
+        options: [
+          "An electric iron",
+          "A ceiling fan",
+          "A filament bulb",
+          "A radio set"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A ceiling fan converts electrical energy into mechanical energy by rotating its blades."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main reason for letting hot food cool before putting it in a freezer?",
+        options: [
+          "To keep the food fresh",
+          "To save electrical energy",
+          "To prevent the food from spilling",
+          "To make the freezer smell better"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Allowing hot food to cool first reduces the workload on the freezer and helps save electrical energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a direct application of solar energy conversion?",
+        options: [
+          "Burning charcoal for cooking",
+          "Using a hand-cranked generator",
+          "Powering a calculator with a sun-cell",
+          "Running a car on petrol"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A sun-cell converts solar energy directly into electrical energy to power devices such as calculators."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Energy conservation is best described as:",
+        options: [
+          "Creating extra energy for the future",
+          "Using energy only during the daytime",
+          "Reducing the amount of energy wasted",
+          "Changing energy into sound and heat"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Energy conservation means using energy efficiently and reducing unnecessary waste."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When a television is on, which two forms of energy are being produced from electricity?",
+        options: [
+          "Sound and Light",
+          "Heat and Chemical",
+          "Kinetic and Potential",
+          "Nuclear and Light"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A television converts electrical energy mainly into light and sound energy."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the standard unit for measuring pressure?",
+        options: [
+          "Newton",
+          "Pascal",
+          "Metre",
+          "Joule"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The standard SI unit of pressure is the Pascal (Pa)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happens to pressure if the area is doubled while the force remains the same?",
+        options: [
+          "It stays same",
+          "It is doubled",
+          "It is halved",
+          "It is tripled"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Pressure = Force ÷ Area. If the area doubles and the force remains the same, the pressure is halved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which tool is used specifically to measure atmospheric pressure?",
+        options: [
+          "Thermometer",
+          "Hygrometer",
+          "Barometer",
+          "Voltmeter"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A barometer is an instrument used to measure atmospheric pressure."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do camels have wide feet to help them walk in the desert?",
+        options: [
+          "To run faster",
+          "To look bigger",
+          "To stay cooler",
+          "To lower pressure"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Wide feet spread the camel's weight over a larger area, reducing pressure on the sand."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to Newton’s Third Law, forces always act in ______.",
+        options: [
+          "Groups of three",
+          "Single units",
+          "Opposing pairs",
+          "Random ways"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Newton’s Third Law states that forces always occur in action-reaction pairs."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a 500 N girl pushes a wall with 50 N, how much force does the wall exert back?",
+        options: [
+          "0 N",
+          "50 N",
+          "450 N",
+          "500 N"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "According to Newton’s Third Law, the wall exerts an equal and opposite force of 50 N."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which direction does the reaction force act compared to the action force?",
+        options: [
+          "Same direction",
+          "Upward only",
+          "Right angles",
+          "Opposite way"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Action and reaction forces are equal in magnitude and act in opposite directions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A bird flies by pushing its wings against the ______.",
+        options: [
+          "Trees",
+          "Ground",
+          "Water",
+          "Air"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A bird pushes air downward with its wings, and the air pushes the bird upward."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the force required to move a 2 kg book at an acceleration of 5 m/s²?",
+        options: [
+          "2 N",
+          "5 N",
+          "7 N",
+          "10 N"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Using F = ma, Force = 2 kg × 5 m/s² = 10 N."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a force of 50 N is applied to a mass of 10 kg, what is the acceleration?",
+        options: [
+          "5 m/s²",
+          "10 m/s²",
+          "40 m/s²",
+          "500 m/s²"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Using a = F/m, Acceleration = 50 N ÷ 10 kg = 5 m/s²."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Momentum is the product of which two quantities?",
+        options: [
+          "Force and Area",
+          "Mass and Velocity",
+          "Mass and Time",
+          "Force and Mass"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Momentum is calculated as mass × velocity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which unit is used to measure mass in the F = ma formula?",
+        options: [
+          "Grams",
+          "Newtons",
+          "Kilograms",
+          "Litres"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In the SI system, mass is measured in kilograms (kg)."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common material used for the handles of Ghanaian farm tools?",
+        options: [
+          "Glass",
+          "Wood",
+          "Paper",
+          "Fabric"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Wood is commonly used for farm tool handles because it is strong, durable, and comfortable to hold."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main reason metal is used for the blade of a cutlass?",
+        options: [
+          "It is very light",
+          "It can stay sharp",
+          "It is very cheap",
+          "It grows locally"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Metal is used for cutlass blades because it can be sharpened and retain a sharp cutting edge."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How is a metal tang usually secured inside a wooden tool handle?",
+        options: [
+          "Using thin glue",
+          "Using metal pins",
+          "Using long tape",
+          "Using wet cloth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Metal pins are commonly used to secure the tang firmly inside a wooden handle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tool is most likely to be made entirely of plastic or rubber?",
+        options: [
+          "Digging spade",
+          "Garden rake",
+          "Watering can",
+          "Pick mattock"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Watering cans are often made entirely from plastic because they are lightweight and resistant to water damage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. A local blacksmith uses scrap metal to make a hoe. This metal is used for the:",
+        options: [
+          "Long handle",
+          "Tool's head",
+          "Grip area",
+          "Pivot point"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The metal is used to make the hoe's head, which performs the digging and cutting work."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the very first step in making a simple agricultural tool?",
+        options: [
+          "Sharpening the edge",
+          "Designing the tool",
+          "Joining the parts",
+          "Polishing the wood"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The first step in making any tool is designing it before manufacturing begins."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which activity involves using heat to make metal easier to bend and shape?",
+        options: [
+          "Finishing",
+          "Designing",
+          "Forging",
+          "Riveting"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Forging uses heat to soften metal so it can be shaped into the desired form."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a safety precaution specifically for protecting your eyes?",
+        options: [
+          "Wearing gloves",
+          "Wearing goggles",
+          "Wearing boots",
+          "Wearing an apron"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Safety goggles protect the eyes from sparks, dust, and flying particles."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When a craftsman cannot find the right type of metal and must use a weaker one, this is a:",
+        options: [
+          "Safety rule",
+          "Design choice",
+          "Finishing step",
+          "Manufacturing constraint"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A manufacturing constraint is a limitation that affects how a product can be made."
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of the hand trowel is pushed into the wooden handle to connect them?",
+        options: [
+          "The socket",
+          "The tang",
+          "The rivet",
+          "The blade"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The tang is the metal extension that fits into the wooden handle to connect the parts."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What tool is used to give a hand trowel blade its curved shape?",
+        options: [
+          "A large saw",
+          "A hammer",
+          "A paint brush",
+          "A wooden wedge"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A hammer is used during shaping and forging to form the curved blade of a hand trowel."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. During hoe manufacturing, what is the \"anvil\" used for?",
+        options: [
+          "Heating the iron",
+          "Painting the tool",
+          "Hammering the metal",
+          "Carving the wood"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An anvil provides a hard surface on which heated metal is hammered into shape."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the final step before a tool is considered \"ready for the farm\"?",
+        options: [
+          "Designing",
+          "Cutting",
+          "Testing",
+          "Forging"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Testing ensures the tool is safe, strong, and ready for use before it is distributed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In the assembly of a hoe, where does the handle go?",
+        options: [
+          "Into the tang",
+          "Into the socket",
+          "Under the blade",
+          "Over the rivet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The wooden handle is inserted into the socket of the hoe head during assembly."
     ),
   ],
 );

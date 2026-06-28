@@ -570,7 +570,7 @@ final PracticeModel s3ss1Lesson12PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s3ss1Lesson13PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/6. Guided Practice .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Identify the adverb: \"The choir sang beautifully.\"",
@@ -1116,9 +1116,8 @@ final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Passage: \"Modern solar lamps are replacing kerosene lanterns in many Ghanaian villages. While kerosene is expensive and creates smoke, solar lamps use the sun and are much safer."
-    "Complex Question: Explain how solar lamps improve both health and finances for a family."
-          "Question: What does arid mean?",
+      scenario: "1. Question: Passage: \"Modern solar lamps are replacing kerosene lanterns in many Ghanaian villages. While kerosene is expensive and creates smoke, solar lamps use the sun and are much safer.\n\n"
+    "Complex Question: Explain how solar lamps improve both health and finances for a family.",
       answer: "Correct Answer: Solar lamps improve health by removing dangerous kerosene smoke and save money because sun energy is free, unlike expensive kerosene.",
       explanation: "Explanation: This answer is complex because it connects two different benefits (health and money) mentioned in the text.",
     ),
@@ -1227,7 +1226,7 @@ final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
       explanation: "Explanation: \"Customary\" is a grade-level word that specifically refers to things done according to tradition.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"After the long drought, the farmers were ________ when the first rains finally hit the ground.\" (Words: okayor ecstatic).",
+      scenario: "2. Question: \"After the long drought, the farmers were ________ when the first rains finally hit the ground.\" (Words: okay ecstatic).",
       answer: "Correct Answer: Ecstatic.",
       explanation: "Explanation: \"Ecstatic\" expresses a much higher level of joy, which fits the relief of a drought ending.",
     ),
@@ -1945,7 +1944,7 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
       explanation: "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"I am studing very hard for my BECE exams.\"" "What is the correct way to spell the bold word?",
+      scenario: "2. Question: \"I am **studing** very hard for my BECE exams.\"" "What is the correct way to spell the bold word?",
       answer: "Correct Answer: studying",
       explanation: "Explanation: When a word ends in 'y' and you add '-ing', you keep the 'y'. You only change it to 'i' when adding '-ed' or '-es'.",
     ),
@@ -5726,7 +5725,7 @@ final PracticeModel Scijhs1s4ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Which of these factors would increase the Potential Energy of a bucket of water sitting on a wall?",
+      scenario: "1. Question: Name one factor that would increase the Potential Energy of a bucket of water sitting on a wall?",
       answer: "Correct Answer: Increasing the height of the wall.",
       explanation: "Explanation: PE is directly related to height. If you move the bucket higher up, it stores more energy.",
     ),
@@ -6159,6 +6158,212 @@ final PracticeModel Scijhs1s4ss5Lesson2PracticeData = PracticeModel(
       scenario: "3. Question: You find a knapsack sprayer that is leaking liquid onto the student's back. What is the immediate safety step?",
       answer: "Correct Answer: The student must stop using it immediately and wash their skin.",
       explanation: "Explanation: Leaking chemicals are a major health risk; the tool must be sent for professional repair before being used again.",
+    ),
+  ],
+);
+
+final PracticeModel Scijhs1s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi has a lot of leftover plantain peels from breakfast. What is the most environmentally friendly way for him to manage this waste?",
+      answer: "Correct Answer: Kofi should use the peels for composting.",
+      explanation: "Explanation: Since plantain peels are organic, they can decay and turn into nutrient-rich soil for a garden.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A school has many old, broken plastic chairs. Instead of burning them, what management practice should they use?",
+      answer: "Correct Answer: The school should send the chairs to a recycling plant.",
+      explanation: "Explanation: Plastic can be melted down and reformed into new useful items, which saves resources.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important to sort our rubbish into different bins before it is collected?",
+      answer: "Correct Answer: Sorting makes it easier to recycle and reuse specific materials.",
+      explanation: "Explanation: When metals, plastics, and papers are separated, they can be processed correctly without contamination.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ama writes: 'We wore rubber gloves and used two large sacks to separate bottles from paper.' Which part of the report is this?",
+      answer: "Correct Answer: This is the Method.",
+      explanation: "Explanation: The Method explains the 'how'—the tools and steps taken during the project.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Kwesi writes: 'To make the school backyard a safe place to play by removing broken glass.' What part is this?",
+      answer: "Correct Answer: This is the Goal.",
+      explanation: "Explanation: The Goal explains 'why' the project was started in the first place.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: 'We collected three buckets of organic waste and started a compost heap.' Where does this go?",
+      answer: "Correct Answer: This belongs in the Results.",
+      explanation: "Explanation: The Results describe what was actually achieved or found during the project.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does a cardboard box disappear in the rain while a plastic bottle does not?",
+      answer: "Correct Answer: The cardboard is biodegradable and can be broken down by organisms.",
+      explanation: "Explanation: Cardboard is made from wood fibers that bacteria can digest, whereas plastic has synthetic bonds that bacteria cannot break.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a compost pit, why does the material get warm after a few weeks?",
+      answer: "Correct Answer: The bacteria are releasing heat as they break down the waste.",
+      explanation: "Explanation: Decomposition is an exothermic process, meaning the biological activity of the bacteria generates heat.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main scientific advantage of using plasma gasification over just dumping waste?",
+      answer: "Correct Answer: It breaks waste down into syngas that can be used for energy.",
+      explanation: "Explanation: Instead of taking up space in a dump, the waste is converted into a useful fuel.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A JHS 1 student named Kwesi has very weak bones that are beginning to bow outwards. Which disease is he likely suffering from?",
+      answer: "Correct Answer: Rickets.",
+      explanation: "Explanation: Rickets causes the bones to become soft and deformed, often leading to bowed legs. It is caused by a lack of Vitamin D and Calcium.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Abena's mother noticed that Abena's hair is changing color to a brownish-red and her ankles are swollen. What should Abena add to her diet to help?",
+      answer: "Correct Answer: Protein-rich foods like eggs, fish, and beans.",
+      explanation: "Explanation: These are symptoms of Kwashiorkor, which is caused by a lack of protein. Adding these foods will provide the building blocks her body needs.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important for Ghanaians to use salt that is labeled 'Iodized' when preparing food?",
+      answer: "Correct Answer: To prevent the development of Goitre.",
+      explanation: "Explanation: Iodized salt contains the mineral iodine. Without iodine, the thyroid gland in the neck can swell, causing goitre.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Your friend at school has a high fever and has lost their sense of smell. Which viral disease might they have, and what is the first thing they should do?",
+      answer: "Correct Answer: COVID-19; they should stay home (isolate) and call a health professional.",
+      explanation: "Explanation: Loss of smell is a specific symptom of COVID-19. Staying home prevents the virus from spreading to other students.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If there is an outbreak of a disease that spreads through blood and bodily fluids, like Ebola, why is it dangerous to touch a sick person without gloves?",
+      answer: "Correct Answer: The virus can enter your body through your skin or mouth if you touch infected fluids.",
+      explanation: "Explanation: Ebola is highly contagious through direct contact with fluids like sweat, blood, or vomit.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why did the government of Ghana close borders and schools during the height of the pandemic?",
+      answer: "Correct Answer: To stop the movement of people, which prevents the virus from jumping from person to person.",
+      explanation: "Explanation: Viruses need people to move them. Reducing contact (social distancing) slows down the spread.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If a community in the Northern Region wants to stop using petrol generators and start using sunlight for power, which type of scientist should they consult?",
+      answer: "Correct Answer: An Environmental Scientist or Energy Engineer.",
+      explanation: "Explanation: These scientists specialise in renewable energy sources like solar power which are clean and sustainable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which Ghanaian scientist would you study if you wanted to learn about performing heart surgeries and setting up specialized hospitals?",
+      answer: "Correct Answer: Professor Kwabena Frimpong-Boateng.",
+      explanation: "Explanation: He is the cardiothoracic surgeon who established the National Cardiothoracic Center in Ghana.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are interested in making sure that tomatoes grown in Techiman do not rot before they get to the market in Accra, which scientist’s work is most relevant?",
+      answer: "Correct Answer: Professor Ibok Oduro (or a Post-harvest Technologist).",
+      explanation: "Explanation: Post-harvest technology focuses on preserving and processing food after it is harvested to prevent waste.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain why burning charcoal for cooking can contribute to climate change.",
+      answer: "Correct Answer: Burning charcoal releases carbon dioxide, which is a greenhouse gas that traps heat in the atmosphere.",
+      explanation: "Explanation: When we burn wood or charcoal, the carbon stored in it turns into gas. This gas makes the Earth's 'heat blanket' thicker.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is solar energy considered a 'sustainable' choice for a school in Ghana?",
+      answer: "Correct Answer: It is sustainable because sunlight will never run out and it does not produce harmful gases when making electricity.",
+      explanation: "Explanation: Unlike a petrol generator, the sun is always there and doesn't make the air dirty.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the Energy Commission of Ghana encourage people to use LED bulbs instead of old incandescent bulbs?",
+      answer: "Correct Answer: LED bulbs use less electricity, which reduces the amount of fossil fuels burned to produce power, lowering greenhouse gas emissions.",
+      explanation: "Explanation: Less energy used means less pollution at the source.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a community in the Volta Region plants 1,000 new trees, how does this specifically help minimise the greenhouse effect?",
+      answer: "Correct Answer: The trees act as a carbon sink by absorbing carbon dioxide from the atmosphere during photosynthesis.",
+      explanation: "Explanation: Trees literally pull the 'blanket' gases out of the air to build their trunks and leaves.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A poultry farmer in the Bono Region has lots of chicken droppings and wants to use them for energy. What is the best sustainable scientific idea for this?",
+      answer: "Correct Answer: Designing a biogas digester to turn the waste into gas for cooking or lighting.",
+      explanation: "Explanation: Animal waste releases methane, which can be captured and burned as a clean fuel instead of letting it escape into the air.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are building a solar oven, why is it important to paint the inside of the box black?",
+      answer: "Correct Answer: Black surfaces absorb more solar radiation (heat) than light colors, making the oven hotter.",
+      explanation: "Explanation: This is a scientific principle of heat absorption that makes your project more efficient.",
+    )
+  ],
+);
+final PracticeModel Scijhs1s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Mention two plants commonly found in the Ghanaian Savannah plains.",
+      answer: "Correct Answer: Baobab and Shea butter trees.",
+      explanation: "Explanation: These trees are adapted to the flat, dry conditions of the Savannah plains.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why do we often find tall trees like Mahogany at the base of mountains but not at the very top?",
+      answer: "Correct Answer: The top is too windy and rocky for tall trees.",
+      explanation: "Explanation: Soil is deeper at the base, and weather is less harsh than at high, rocky peaks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Name one famous plateau in Ghana.",
+      answer: "Correct Answer: The Kwahu Plateau.",
+      explanation: "Explanation: The Kwahu Plateau is a well-known highland with a flat top in the Eastern Region.",
+    ),
+  ],
+);
+final PracticeModel Scijhs1s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A tapeworm lives inside a human's stomach and takes their food. What is this called?",
+      answer: "Correct Answer: Parasitism.",
+      explanation: "Explanation: The tapeworm (parasite) benefits, while the human (host) is harmed.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If two male birds are fighting over the same nesting site, what is happening?",
+      answer: "Correct Answer: Competition.",
+      explanation: "Explanation: They are both struggling for the same limited resource (the site).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A bird builds a nest in a tall tree. The bird gets a home; the tree is not affected. Which type is this?",
+      answer: "Correct Answer: Commensalism.",
+      explanation: "Explanation: One benefits (the bird), and the other (the tree) is neither helped nor harmed.",
     ),
   ],
 );
@@ -6885,6 +7090,46 @@ final PracticeModel Scijhs2s4ss4Lesson3PracticeData = PracticeModel(
     )
   ],
 );
+final PracticeModel Scijhs2s4ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Describe the physical appearance of a hoe.",
+      answer: "Correct Answer: A hoe has a flat metal blade attached to a long wooden or metal handle at a right angle.",
+      explanation: "Explanation: The right-angle design is what makes it different from a shovel and allows it to pull soil or weeds effectively.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can you tell the difference between a shovel and a spade?",
+      answer: "Correct Answer: A shovel has a curved, bowl-like blade for scooping, while a spade has a flat, rectangular blade for cutting into soil.",
+      explanation: "Explanation: Shovels are for moving material; spades are for precise digging.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Describe a wheelbarrow and its main purpose.",
+      answer: "Correct Answer: A wheelbarrow has a large tray for loads, one wheel at the front, and two handles at the back. It is used to transport heavy items.",
+      explanation: "Explanation: The single wheel allows the user to balance and steer the load easily across the farm.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s4ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You need to harvest some sugar cane. Which tool do you use and what is the safety rule?",
+      answer: "Correct Answer: Use a cutlass and always swing the blade away from your body and legs.",
+      explanation: "Explanation: This prevents accidental cuts and ensures a clean harvest of the stalk.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are preparing a bed for planting vegetables. How do you use a hoe for this?",
+      answer: "Correct Answer: Use a pulling motion to loosen the topsoil and remove weeds.",
+      explanation: "Explanation: Pulling is more efficient for surface work than chopping straight down.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are using a spade to dig a hole. Where should you put your foot?",
+      answer: "Correct Answer: Put your foot on the top edge or 'shoulder' of the metal blade.",
+      explanation: "Explanation: Using your body weight through your foot makes it much easier to penetrate hard soil.",
+    ),
+  ],
+);
 
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
@@ -7607,6 +7852,347 @@ final PracticeModel Scijhs3s3ss4Lesson3PracticeData = PracticeModel(
       scenario: "3.Question: Why is it important for a compost pile to get very hot during the middle stage of preparation?",
       answer: "Correct Answer: To kill weed seeds and harmful pests or diseases.",
       explanation: "Explanation: High heat acts as a natural \"sterilizer,\" making the manure safer for the garden.",
+    ),
+  ],
+);
+
+final PracticeModel Scijhs3s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Ama wants to make tea, but she only needs one cup. She fills the whole electric kettle to the top and boils it. What should she have done instead?",
+      answer: "Correct Answer: She should have measured only the amount of water she needed for one cup.",
+      explanation: "Explanation: Boiling a full kettle for just one cup of tea wastes a lot of electricity because it takes much longer to heat all that extra water.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Kwesi’s father leaves the air conditioner on in the bedroom with the windows wide open. Why is this bad for energy conservation?",
+      answer: "Correct Answer: The cold air escapes through the window, making the AC work harder.",
+      explanation: "Explanation: When windows are open, the \"coolth\" leaves and the heat comes in. The AC never gets a break and keeps drawing power to try and cool the whole neighborhood!",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is it better to use a microwave to reheat a small bowl of jollof rather than a big electric oven?",
+      answer: "Correct Answer: The microwave is faster and focuses heat only on the food.",
+      explanation: "Explanation: A big oven has to heat up a huge space just for one small bowl. The microwave is much more efficient for small tasks.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is it helpful to the environment to use a coal pot efficiently?",
+      answer: "Correct Answer: It reduces the amount of charcoal used, which means fewer trees are cut down.",
+      explanation: "Explanation: Charcoal comes from wood. Using it wisely protects our forests and keeps our air clean.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: How does saving electricity at school help your education?",
+      answer: "Correct Answer: The school saves money on bills and can spend it on books or computers.",
+      explanation: "Explanation: Every Cedi the headteacher saves on the light bill is a Cedi that can be used to make your school better!",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a neighbor asks why they should care about \"vampire energy\" from chargers, what is the best social reason to give?",
+      answer: "Correct Answer: It reduces the load on the community transformer so the lights are less likely to trip.",
+      explanation: "Explanation: When everyone wastes a little, it adds up to a big load that can cause power outages for the whole street.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A television has a power rating of 200 Watts. If it is watched for 5 hours, how many kWh are consumed?",
+      answer: "Correct Answer: 1 kWh.",
+      explanation: "Explanation: First, convert 200W to kW by dividing by 1,000 (0.2 kW). Then multiply by 5 hours (0.2 x 5 = 1).",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: An electric coal pot (stove) is rated at 2,500 Watts. How many Kilowatts is this?",
+      answer: "Correct Answer: 2.5 kW.",
+      explanation: "Explanation: We divide the Watts by 1,000. 2,500 / 1,000 = 2.5.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If an appliance uses 10 Amps at 240 Volts, what is its Power in Watts?",
+      answer: "Correct Answer: 2,400 Watts.",
+      explanation: "Explanation: Use P = I x V. 10 A x 240 V = 2,400 W.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If I move the pinhole camera closer to the object, what happens to the size of the image on the screen?",
+      answer: "Correct Answer: The image becomes larger.",
+      explanation: "Explanation: When you are closer, the angle of the light rays spreading out from the hole is wider, so they cover more space on the back screen.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why can't we see an image if we use a thick piece of plywood as the screen instead of tracing paper?",
+      answer: "Correct Answer: Plywood is opaque; light cannot pass through it to reach our eyes from the other side.",
+      explanation: "Explanation: To see the image from the outside of the box, the screen must be translucent (like wax paper or tracing paper).",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What would happen to the image if light could travel in wavy, curved lines?",
+      answer: "Correct Answer: The image would not be inverted or might not form at all.",
+      explanation: "Explanation: The inversion happens specifically because light travels in straight lines and must cross through the narrow hole.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: You are looking at the shadow of a mango tree. You point to the very center where it is darkest on the ground. What is the name of this part?",
+      answer: "Correct Answer: The Umbra.",
+      explanation: "Explanation: The center is where the tree blocks all the direct sunlight, making it the darkest region.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Around the edge of the tree's shadow, the grass is only slightly shaded and the line isn't very sharp. What is this area called?",
+      answer: "Correct Answer: The Penumbra.",
+      explanation: "Explanation: This is the partial shadow where some sunlight is still reaching the grass from the sides of the sun.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What happens to the Umbra if we move the object further away from the screen (the ground)?",
+      answer: "Correct Answer: The Umbra becomes smaller and the Penumbra becomes larger.",
+      explanation: "Explanation: As the object moves away, more light can \"peak\" around the edges, shrinking the area of total darkness.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If I am standing on Earth at 2:00 PM and the sky suddenly goes dark because the Moon is blocking the Sun, what type of eclipse am I seeing?",
+      answer: "Correct Answer: A Solar Eclipse.",
+      explanation: "Explanation: Solar means \"Sun.\" In this case, the Sun is being eclipsed (hidden) by the Moon.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: During a Lunar Eclipse, which object is casting the shadow?",
+      answer: "Correct Answer: The Earth.",
+      explanation: "Explanation: The Earth is in the middle, blocking the Sun's light from reaching the Moon.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why can't we see a Solar Eclipse from every part of the Earth at the same time?",
+      answer: "Correct Answer: Because the Moon's shadow is small and only covers a specific path on Earth.",
+      explanation: "Explanation: The Moon is much smaller than Earth, so its Umbra only touches a small area at a time.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: When light moves from air (fast) into a thick glass block (slow), does it bend towards or away from the middle line?",
+      answer: "Correct Answer: It bends towards the normal line.",
+      explanation: "Explanation: When light slows down in a denser medium, it always bends closer to the normal.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does a pool look shallower than it really is?",
+      answer: "Correct Answer: Because light from the bottom of the pool bends as it leaves the water, making the floor appear higher.",
+      explanation: "Explanation: Refraction at the water's surface creates a virtual image of the floor that is closer to the top.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you are looking straight down into a bucket of water, does the light bend?",
+      answer: "Correct Answer: No, it does not.",
+      explanation: "Explanation: Refraction only happens when light hits the surface at an angle. If it goes straight down, it stays straight!",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In a barbering shop in Accra, the electric hair clipper is running. What energy transformation is happening?",
+      answer: "Correct Answer: Electrical energy is being transformed into kinetic (movement) energy and sound energy.",
+      explanation: "Explanation: The motor inside the clipper moves the blades to cut hair, which is kinetic energy, and the humming noise it makes is sound energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: You have a string of old Christmas lights. One bulb breaks, and suddenly the whole string goes out. What type of circuit is this?",
+      answer: "Correct Answer: This is a series circuit.",
+      explanation: "Explanation: In a series circuit, there is only one path for electricity. If that path is broken anywhere, the current stops flowing to everything else.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a circuit has a voltage of 12V and a current of 2A, what is the resistance?",
+      answer: "Correct Answer: The resistance is 6 Omega.",
+      explanation: "Explanation: Using Ohm's Law, R = V / I. So, 12 divided by 2 equals 6.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Kofi connects an LED to a battery, but it does not light up. He flips the LED around, and now it shines bright. What was the state of the LED the first time?",
+      answer: "Correct Answer: It was in Reverse Bias.",
+      explanation: "Explanation: In reverse bias, the diode acts like an open switch and blocks the current. Fipping it put it in forward bias, allowing the light to shine.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: You are building a circuit and you want to make sure the LED doesn't burn out from too much current. Which component should you add?",
+      answer: "Correct Answer: A Resistor.",
+      explanation: "Explanation: A resistor limits the flow of current to a safe level, protecting delicate components like LEDs from damage.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Which component is used in a circuit to store a small amount of energy and release it slowly?",
+      answer: "Correct Answer: A Capacitor.",
+      explanation: "Explanation: Capacitors store electrical charge and can release it over time, which is why some lights fade out slowly rather than clicking off instantly.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Describe the energy change that occurs when you rub your palms together quickly on a cold morning.",
+      answer: "Correct Answer: Mechanical energy is converted into thermal (heat) energy.",
+      explanation: "Explanation: The movement of your hands is mechanical energy. The friction between your palms creates warmth, which is thermal energy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What happens to the energy in a battery when it is used to power a radio?",
+      answer: "Correct Answer: Chemical energy converts to electrical energy, then to sound energy.",
+      explanation: "Explanation: The battery stores chemical energy. This becomes electricity to run the radio, which finally produces sound for you to hear.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If energy cannot be destroyed, why do we need to 'save' energy at home?",
+      answer: "Correct Answer: Because energy converts into forms that are no longer useful to us.",
+      explanation: "Explanation: While energy isn't destroyed, it often changes into heat or sound that escapes into the environment, meaning we can't use it again to power our lights or fans.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A student uses a battery-powered torch to walk home at night. What is the energy conversion sequence?",
+      answer: "Correct Answer: Chemical energy (battery) → Electrical energy → Light energy.",
+      explanation: "Explanation: The battery holds chemical energy which flows as electricity to create the light you see.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is using an LED bulb considered an 'application of energy conservation'?",
+      answer: "Correct Answer: It converts more electricity to light and less to wasted heat.",
+      explanation: "Explanation: Conservation is about efficiency. LEDs provide the same light using much less power than old bulbs.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you see a computer lab with all the monitors left on overnight, what conservation report would you make?",
+      answer: "Correct Answer: Suggest a 'Power Down' policy to turn off all screens after school.",
+      explanation: "Explanation: This prevents 'idle' energy waste, which serves no purpose but still costs money and uses resources.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why does a tractor used on a farm in the Northern Region have very wide tyres?",
+      answer: "Correct Answer: The wide tyres increase the surface area in contact with the ground.",
+      explanation: "Explanation: By increasing the area, the heavy weight (force) of the tractor is spread out, which reduces the pressure on the soil. This prevents the tractor from sinking into soft mud.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it more painful to be stepped on by someone wearing a stiletto heel than someone wearing a flat sandal?",
+      answer: "Correct Answer: The stiletto heel has a much smaller surface area.",
+      explanation: "Explanation: Since the area of the heel is tiny, the person's entire weight creates a very high pressure on a single spot, whereas the sandal spreads the weight over the whole foot.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you push a thumb tack into a noticeboard, why is the head of the tack made flat and wide?",
+      answer: "Correct Answer: To protect your thumb by reducing pressure.",
+      explanation: "Explanation: The wide head spreads the force you apply over your thumb's surface, making the pressure low enough that it doesn't hurt you, while the sharp point creates high pressure to enter the board.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: When a person jumps from a small boat onto a wooden pier, the boat moves away from the pier. Why?",
+      answer: "Correct Answer: The person's feet pushed the boat backward to move forward.",
+      explanation: "Explanation: To jump forward (Action on pier), the person must push the boat backward (Reaction on boat). Since the boat is on water, it moves easily.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A carpenter hits a nail with a hammer. The nail goes into the wood, but the hammer bounces back. Explain the forces.",
+      answer: "Correct Answer: The hammer pushes the nail, and the nail pushes the hammer.",
+      explanation: "Explanation: The hammer exerts a force on the nail (Action). Simultaneously, the nail exerts an equal force back on the hammer (Reaction), causing it to stop or bounce.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do your hands hurt when you clap them very hard during a song at church?",
+      answer: "Correct Answer: Both hands are pushing each other with equal force.",
+      explanation: "Explanation: Your right hand hits your left hand (Action), and your left hand hits your right hand back (Reaction) with the same force, causing the sting.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A boy pushes a barrow with a mass of 20 kg. He applies a force that makes it accelerate at 1.5 m/s^2. What is the force?",
+      answer: "Correct Answer: 30 N.",
+      explanation: "Explanation: Using F = ma, we multiply the mass (20 kg) by the acceleration (1.5 m/s^2). 20 x 1.5 = 30. The force is 30 Newtons.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If you have two objects, one with a mass of 5 kg and one with a mass of 50 kg, which one requires more force to achieve the same acceleration?",
+      answer: "Correct Answer: The 50 kg object.",
+      explanation: "Explanation: Since Force is directly proportional to mass, a larger mass requires a larger force to move it at the same rate.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What happens to the acceleration of an object if you push it with twice as much force?",
+      answer: "Correct Answer: The acceleration will double.",
+      explanation: "Explanation: If the mass stays the same, increasing the force causes a direct increase in acceleration.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why would a farmer choose a wooden handle for a hoe instead of a solid metal handle?",
+      answer: "Correct Answer: Wood is lighter and stays cooler in the sun.",
+      explanation: "Explanation: A solid metal handle would make the tool too heavy to use for long hours and would become too hot to touch in the sun.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Which material is best for making the head of a rake used to break hard soil?",
+      answer: "Correct Answer: Metal (Steel or Iron).",
+      explanation: "Explanation: The prongs need to be very strong and stiff to break soil without bending or snapping.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If you are making a watering can, why is plastic a better choice than untreated iron?",
+      answer: "Correct Answer: Plastic does not rust.",
+      explanation: "Explanation: Since a watering can is always in contact with water, iron would quickly rust and develop holes, while plastic stays waterproof and light.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A craftsman is using a piece of glass to smooth the surface of a wooden handle. Which part of the process is this?",
+      answer: "Correct Answer: Finishing.",
+      explanation: "Explanation: Smoothing the wood is part of the final finishing stage to ensure the handle is comfortable for the farmer.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why must a blacksmith wear heavy leather an apron and goggles while hammering hot metal?",
+      answer: "Correct Answer: To protect against flying sparks and heat.",
+      explanation: "Explanation: Forging creates intense heat and flying debris; PPE is essential to prevent burns and eye injuries.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: If a craftsman has no charcoal for his forge and cannot heat the metal, which constraint is he facing?",
+      answer: "Correct Answer: Availability of materials/resources.",
+      explanation: "Explanation: Without fuel for the fire, the process of shaping metal through forging cannot happen.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s4ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: In making a hoe, why do we heat the metal before hammering it?",
+      answer: "Correct Answer: To make the metal soft and easier to shape.",
+      explanation: "Explanation: Forging requires the metal to be in a \"plastic\" or soft state, which only happens at very high temperatures.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the purpose of the \"wedge\" used when fitting a hoe handle into a socket??",
+      answer: "Correct Answer: To lock the handle tightly so it doesn't wobble.",
+      explanation: "Explanation: The wedge expands the wood inside the socket, creating a \"friction fit\" that stays secure during heavy digging.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why do we apply paint or oil to the metal blade after finishing a tool?",
+      answer: "Correct Answer: To prevent the metal from rusting.",
+      explanation: "Explanation: Paint acts as a barrier between the iron and the moisture in the air, stopping the chemical reaction that causes rust.",
     ),
   ],
 );
