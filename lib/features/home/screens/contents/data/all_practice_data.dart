@@ -8438,6 +8438,187 @@ final PracticeModel Scijhs3s4ss5Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs3s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A local drinking bar has a large crate of broken glass bottles. Which waste management method should they use?",
+      answer: "Correct Answer: They should use recycling.",
+      explanation: "Explanation: Glass is a non-organic material that can be melted down in a factory to create new glass containers without losing quality.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A farmer in the Volta Region has a large pile of cocoa pod husks after harvest. How can he use science to help his soil?",
+      answer: "Correct Answer: He should use composting.",
+      explanation: "Explanation: Cocoa pods are organic matter. By letting them decompose, the farmer creates natural fertiliser that returns nutrients to his cocoa farm.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Your school wants to reduce the amount of plastic paper and old notebooks going to the landfill. What system should the school prefect set up?",
+      answer: "Correct Answer: The school should set up a recycling collection system.",
+      explanation: "Explanation: Paper and plastic are materials that can be reprocessed into new paper and plastic goods, which helps save trees and reduces environmental pollution.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A plastic manufacturer takes old, shredded water sachets and melts them to make new buckets. What scientific principle is being used?",
+      answer: "Correct Answer: Physical State Change.",
+      explanation: "Explanation: The plastic is changing from a solid to a liquid and back to a solid to be reshaped, but it remains plastic.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A community waste plant burns rubbish to produce steam for electricity. Which principle is being applied?",
+      answer: "Correct Answer: Thermal Transformation (Combustion).",
+      explanation: "Explanation: The plant uses high heat to change the waste into gas and ash, releasing energy in the process.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does a pile of cocoa husks get hot in the middle when left in a compost pit?",
+      answer: "Correct Answer: It is due to the biological principle of decomposition.",
+      explanation: "Explanation: As microorganisms break down the organic matter, their activity releases heat as a byproduct of their metabolism.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: During a school audit, you find that the 'Paper Bin' is full of orange peels and leftover rice. What is your assessment of this waste management method?",
+      answer: "Correct Answer: The method is currently ineffective due to poor sorting accuracy.",
+      explanation: "Explanation: People are mixing organic waste with inorganic waste, which ruins the paper for recycling.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If a community audit shows that 90% of the litter in the gutters is plastic, what is the most effective scientific action to take?",
+      answer: "Correct Answer: Set up a dedicated plastic recycling collection point.",
+      explanation: "Explanation: Since the data shows plastic is the main problem, a targeted recycling system is the most scientific solution.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What is the first step you should take before starting a new composting project at your school?",
+      answer: "Correct Answer: Conduct a waste audit.",
+      explanation: "Explanation: You need to audit the waste first to ensure the school produces enough organic matter to make composting worthwhile.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A person burns a pile of old tyres and plastic containers behind their house. What is the most immediate impact on the neighbors?",
+      answer: "Correct Answer: Air pollution and respiratory issues.",
+      explanation: "Explanation: Burning plastic and rubber releases toxic fumes that are harmful to breathe and can trigger asthma or coughing.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If a village's drinking stream becomes filled with plastic and chemical runoff, what is a likely consequence for the fish?",
+      answer: "Correct Answer: The fish population will decrease due to poisoning or choking.",
+      explanation: "Explanation: Chemicals from waste pollute the water habitat, making it impossible for aquatic life to survive or reproduce.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does clearing a forest to make a new \"landfill\" or dump site hurt the environment beyond just the trash?",
+      answer: "Correct Answer: It causes habitat destruction.",
+      explanation: "Explanation: It removes the trees and plants that animals rely on for food and shelter, forcing them to leave or die.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A local hotel produces a huge amount of food waste every day. What innovative technology could they use to save money on their kitchen gas bills?",
+      answer: "Correct Answer: They should install an Anaerobic Digester (Biogas plant).",
+      explanation: "Explanation: Food waste is organic. A digester turns that waste into biogas, which can be used for cooking instead of buying expensive fuel.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Your school wants to practice 'Waste Minimisation.' Instead of buying new plastic folders every term, what should the students do?",
+      answer: "Correct Answer: They should 'Reuse' their old folders or 'Reduce' use by using digital files.",
+      explanation: "Explanation: Reusing items prevents them from becoming waste, which is a key part of the 3Rs.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is 'Waste-to-Energy' considered better for 'Sustainable Development' than just burying waste in a landfill?",
+      answer: "Correct Answer: Because it recovers useful resources (energy) and reduces the space needed for trash.",
+      explanation: "Explanation: Burying waste wastes the energy inside the materials and takes up valuable land that could be used for farming or housing.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A carpenter in a village near Sunyani has a large pile of wood shavings and sawdust. What type of waste is this?",
+      answer: "Correct Answer: Industrial Waste.",
+      explanation: "Explanation: Since it comes from a manufacturing process (carpentry/timber), it is classified as industrial rather than domestic.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A community has a large bin, but it hasn't been emptied in three weeks, and people are starting to burn the trash inside it. Critique this practice.",
+      answer: "Correct Answer: This is a negative practice because the collection is inefficient and open burning causes air pollution.",
+      explanation: "Explanation: Waste management must be regular (efficient) and should avoid burning, which releases toxic fumes.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Which type of waste is most likely to be found in high amounts near a large hospital in Tamale?",
+      answer: "Correct Answer: Medical Waste.",
+      explanation: "Explanation: Hospitals produce specialized waste like used gloves and syringes that require specific scientific disposal methods.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is hypertension often called a \"silent\" disease?",
+      answer: "Correct Answer: It often has no obvious symptoms in the early stages while it damages the heart.",
+      explanation: "Explanation: Many people don't feel sick until the pressure is very high, which is why regular check-ups at the clinic are so important.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: List two lifestyle changes a Ghanaian student can make to prevent type 2 diabetes.",
+      answer: "Correct Answer: Eating more local vegetables and exercising regularly.",
+      explanation: "Explanation: Reducing sugar and being physically active helps the body manage blood sugar levels effectively.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a student has no physical pain but is constantly worried and cannot sleep, are they \"healthy\" according to the WHO?",
+      answer: "Correct Answer: No, because health includes mental and social well-being, not just the absence of physical pain.",
+      explanation: "Explanation: The WHO definition reminds us that our minds must be as healthy as our bodies for us to be truly well.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does clearing weeds and empty cans around a house help prevent Malaria?",
+      answer: "Correct Answer: It removes breeding sites for mosquitoes.",
+      explanation: "Explanation: Mosquitoes lay eggs in stagnant water found in empty containers or thick weeds; removing these breaks the cycle of the disease.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Esi noticed a round, itchy red patch on her arm after sharing a sweater with a friend. What is likely happening?",
+      answer: "Correct Answer: She has likely contracted Ringworm from the shared clothing.",
+      explanation: "Explanation: Fungi can live on fabric; sharing unwashed clothes is a common way for the infection to jump from person to person.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it a bad idea for a student to wear the same sweaty socks for three days in a row?",
+      answer: "Correct Answer: The dark, damp, and warm environment inside the socks is perfect for fungi to grow.",
+      explanation: "Explanation: To prevent \"Athlete's foot,\" students should change into clean, dry socks every day and let their shoes air out.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Esi noticed a round, itchy red patch on her arm after sharing a sweater with a friend. What is likely happening?",
+      answer: "Correct Answer: She has likely contracted Ringworm from the shared clothing.",
+      explanation: "Explanation: Fungi can live on fabric; sharing unwashed clothes is a common way for the infection to jump from person to person.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it a bad idea for a student to wear the same sweaty socks for three days in a row?",
+      answer: "Correct Answer: The dark, damp, and warm environment inside the socks is perfect for fungi to grow.",
+      explanation: "Explanation: To prevent \"Athlete's foot,\" students should change into clean, dry socks every day and let their shoes air out.",
+    )
+  ],
+);
+
 ///Math
 final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/3. Guided Practice.m4a',

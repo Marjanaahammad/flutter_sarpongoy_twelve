@@ -44244,6 +44244,1393 @@ final QuizModel Scijhs3s4ss5Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which scientific method turns food waste into organic fertiliser?",
+      options: [
+        "Incineration",
+        "Landfilling",
+        "Composting",
+        "Recycling"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Composting specifically deals with organic matter like food scraps to create soil nutrients.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Materials like plastic and metal are best managed through which method?",
+      options: [
+        "Recycling",
+        "Composting",
+        "Decomposition",
+        "Mulching"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Recycling is the process used for inorganic materials like plastic and metal to manufacture new goods.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What is the name of the dark, nutrient-rich material produced by composting?",
+      options: [
+        "Plastic resin",
+        "Compost",
+        "Landfill",
+        "Ash"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "The final product of the composting process is called compost.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of these is a benefit of recycling for a country like Ghana?",
+      options: [
+        "It increases the amount of smoke",
+        "It fills up our gutters quickly",
+        "It conserves natural resources",
+        "It makes soil very hard to dig"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Recycling reduces the need for raw materials, thereby conserving our natural environment and resources.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Why can't we put a broken glass bowl into a compost pit?",
+      options: [
+        "It will melt in the sun",
+        "It does not decompose",
+        "It turns into fertiliser",
+        "It attracts too many bees"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Glass is inorganic and does not break down through the biological process of decomposition.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of the following is an example of 'organic waste' found in a Ghanaian home?",
+      options: [
+        "Old television set",
+        "Empty fante kenkey leaves",
+        "Discarded iron rods",
+        "Plastic fan blades"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Kenkey leaves are plant-based and therefore organic matter that can be composted.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What happens to plastic when it is recycled in a factory?",
+      options: [
+        "It is buried deep in the earth",
+        "It is changed into plant food",
+        "It is melted and reshaped",
+        "It is thrown into the ocean"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The scientific process of recycling involves breaking down or melting materials to form new products.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Composting is a natural process. This means it relies on:",
+      options: [
+        "Electricity and computers",
+        "Large petrol-powered engines",
+        "Living organisms and time",
+        "Chemicals from a laboratory"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      "Composting is biological; it depends on microorganisms like bacteria to break down matter over time.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of the following would NOT be a good practice for a sustainable environment?",
+      options: [
+        "Recycling old newspapers",
+        "Composting garden weeds",
+        "Throwing plastic in a river",
+        "Reusing glass jam jars"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Throwing plastic in water bodies causes pollution; recycling and composting are the correct scientific methods.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A person who collects recyclable materials like scrap metal to sell is helping to:",
+      options: [
+        "Start a bushfire in the city",
+        "Feed the local microorganisms",
+        "Supply raw materials for industry",
+        "Increase the cost of new items"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      "By collecting scrap, they provide the necessary materials for factories to recycle and create new products.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which principle explains how bacteria turn yam peels into soil?",
+      options: [
+        "Thermal expansion",
+        "Physical melting",
+        "Magnetic attraction",
+        "Biological decomposition"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Decomposition is the biological process where organisms break down organic waste.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. At what temperature range does controlled incineration usually occur?",
+      options: [
+        "Extremely high temperatures",
+        "Below the freezing point",
+        "Normal room temperature",
+        "Slightly warm like sunlight"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Incineration requires very high heat, often over 800°C, to transform waste.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. In the science of recycling, what happens to a metal can in a furnace?",
+      options: [
+        "It changes its physical state",
+        "It turns into organic compost",
+        "It disappears into the air",
+        "It becomes a living organism"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Metal is melted (changed from solid to liquid) so it can be reshaped.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What is a major byproduct of the combustion process in waste management?",
+      options: [
+        "New plastic sachets",
+        "Fresh drinking water",
+        "Raw cocoa beans",
+        "Ash and heat energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Burning waste (combustion) results in ash and the release of thermal energy.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is NOT required for effective biological decomposition?",
+      options: [
+        "Presence of oxygen",
+        "Industrial cooling oil",
+        "Sufficient moisture",
+        "Tiny microorganisms"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Decomposition is a natural process; industrial oil is not a requirement for microbes to work.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. The reduction of waste volume through burning is a result of:",
+      options: [
+        "Physical reshaping only",
+        "Thermal transformation",
+        "Biological growth",
+        "Magnetic sorting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "High heat changes the chemical and physical makeup of waste, reducing its volume.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why is recycling considered a 'physical' rather than 'biological' process?",
+      options: [
+        "Because it uses living worms",
+        "Because it involves reshaping",
+        "Because it happens in a forest",
+        "Because it creates new soil"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Recycling focuses on the physical state and form of materials like glass and plastic.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What role do fungi play in a Ghanaian school's compost pile?",
+      options: [
+        "They melt the plastic bottles",
+        "They freeze the waste solid",
+        "They break down organic matter",
+        "They create electricity"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Fungi are microorganisms that help in the biological decomposition of organic waste.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. When waste is turned into energy (Waste-to-Energy), which principle is used?",
+      options: [
+        "Decomposition",
+        "Combustion",
+        "Magnetism",
+        "Freezing"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Combustion releases heat which can be used to generate steam and electricity.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Scientific principles help us choose the right method because:",
+      options: [
+        "All waste reacts the same way",
+        "Different materials have different properties",
+        "Science is only for teachers",
+        "Waste never really changes"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Understanding how materials react to heat or microbes allows us to manage them correctly.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is the scientific term for a study that measures the amount and type of waste produced?",
+      options: [
+        "Waste Audit",
+        "Waste Burning",
+        "Waste Burying",
+        "Waste Cleaning"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "A waste audit is the formal process of measuring and analyzing waste.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Why is it important to weigh waste during an audit?",
+      options: [
+        "To see if the waste can float",
+        "To get accurate data for planning",
+        "To make the students work harder",
+        "To sell the waste for a high price"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Weighing provides the data needed to understand the scale of the waste problem.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. In an audit, which category would 'old newspapers' fall under?",
+      options: [
+        "Organic",
+        "Plastic",
+        "Metal",
+        "Paper"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Newspapers are made of wood pulp and fall into the paper category.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. A system where recycling bins are provided but never emptied is:",
+      options: [
+        "Very effective",
+        "Ineffective",
+        "Scientific",
+        "Efficient"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "If waste is not moved or processed, the system is failing its purpose.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is a sign of an 'effective' waste management method?",
+      options: [
+        "Reduced litter in the community",
+        "Increased number of flies",
+        "More waste in the local river",
+        "Strong smells around the school"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Success is measured by a cleaner, healthier environment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Sorting waste correctly is essential for which scientific principle?",
+      options: [
+        "Thermal expansion",
+        "Effective recycling",
+        "Magnetic attraction",
+        "Cloud formation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Recycling requires pure materials; sorting ensures plastic isn't mixed with food.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. A school audit finds mostly food waste. The most scientific recommendation is:",
+      options: [
+        "Building a new incinerator",
+        "Starting a compost pit",
+        "Buying more plastic bins",
+        "Digging a deeper landfill"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Composting is the best scientific method for organic food waste.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What is a common 'social' challenge to waste management in Ghana?",
+      options: [
+        "Having too much electricity",
+        "Lack of public awareness on sorting",
+        "Having too many scientists",
+        "Too much rainfall in the south"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "If people don't know why or how to sort, the system becomes ineffective.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. The final stage of a waste audit is 'Analysis.' This involves:",
+      options: [
+        "Throwing the data away",
+        "Drawing conclusions from the facts",
+        "Mixing all the sorted waste back together",
+        "Leaving the classroom immediately"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Analysis means using the data to make smart decisions for the future.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which tool is best for measuring waste during a school audit?",
+      options: [
+        "A weighing scale",
+        "A thermometer",
+        "A magnifying glass",
+        "A plastic ruler"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "A scale is used to measure the mass (weight) of the different waste categories.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What happens to the soil when toxic chemicals from batteries leak into it?",
+      options: [
+        "It becomes more fertile",
+        "It becomes infertile",
+        "It turns into sand",
+        "It starts to grow plastic"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Toxic chemicals kill the soil's health, making it impossible for plants to thrive.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these is a direct impact of plastic waste on marine life?",
+      options: [
+        "Fish grow much larger",
+        "Sea creatures choke on debris",
+        "The ocean water turns into juice",
+        "It helps coral reefs grow"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Animals often mistake plastic for food or get tangled in it, which can be fatal.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Open burning of rubbish contributes most to which of the following?",
+      options: [
+        "Soil leaching",
+        "Air pollution",
+        "Water purification",
+        "Habitat restoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Burning waste releases harmful smoke and gases directly into the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Why is 'Leaching' dangerous for people living near a dump site?",
+      options: [
+        "It makes the air smell like perfume",
+        "It can contaminate groundwater",
+        "It makes the ground very soft",
+        "It attracts beautiful butterflies"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Leached chemicals can reach the water underground that people use for wells.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. A choked gutter in a market is a breeding ground for:",
+      options: [
+        "Healthy vegetables",
+        "Disease-carrying mosquitoes",
+        "Clean drinking water",
+        "Useful recycling robots"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Stagnant water caused by blocked drains is where mosquitoes lay their eggs.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Methane gas produced in landfills is a concern because it:",
+      options: [
+        "Helps people breathe better",
+        "Is a greenhouse gas",
+        "Makes the soil purple",
+        "Smells like fresh flowers"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Methane traps heat in the atmosphere, contributing to climate change.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What is 'Habitat Destruction' in the context of waste?",
+      options: [
+        "Building new schools",
+        "Clearing nature to dump trash",
+        "Planting trees in a park",
+        "Cleaning a beach"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "When we use natural land for waste, we destroy the homes of plants and animals.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which respiratory condition can be worsened by the smoke from burning trash?",
+      options: [
+        "Broken leg",
+        "Asthma",
+        "Poor eyesight",
+        "Ear ache"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Smoke irritates the lungs and makes breathing difficult for people with asthma.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. How does waste contribute to 'Climate Change'?",
+      options: [
+        "By making the ocean blue",
+        "By releasing greenhouse gases",
+        "By cooling down the sun",
+        "By stopping the wind"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Gases like methane from waste trap heat, leading to global temperature rises.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. The 'black water' seen in polluted gutters is usually a sign of:",
+      options: [
+        "High mineral content",
+        "Severe water pollution",
+        "Good luck for the community",
+        "Underground oil reserves"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Discoloration and bad smells in water are clear indicators of heavy pollution from waste.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What does the 'Reduce' in the 3Rs specifically mean?",
+      options: [
+        "Buying more things than you need",
+        "Making less waste in the first place",
+        "Burning your waste in a big fire",
+        "Hiding waste under your bed"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Reducing means preventing waste before it is even created.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which technology turns organic waste into gas for cooking?",
+      options: [
+        "Anaerobic Digestion",
+        "Incineration",
+        "Mechanical Sorting",
+        "Plastic Shredding"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Digesters use microbes to turn organic matter into biogas.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Sustainable development is most closely linked to which goal?",
+      options: [
+        "Destroying all factories in Ghana",
+        "Protecting the environment for the future",
+        "Making sure everyone has more rubbish",
+        "Increasing the number of floods"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Sustainability ensures we meet our needs without harming future generations.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of these is an example of 'Waste Minimisation'?",
+      options: [
+        "Using a refillable water bottle",
+        "Buying ten plastic sachets daily",
+        "Throwing paper into a river",
+        "Leaving lights on all day"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Using a refillable bottle reduces the total amount of plastic waste produced.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. In 'Waste-to-Energy' plants, what is the 'waste' treated as?",
+      options: [
+        "A useless problem to hide",
+        "A valuable resource for power",
+        "A type of food for humans",
+        "A way to make the air dirty"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Innovation views waste as a source of energy rather than just trash.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What is the main benefit of 'Plasma Gasification'?",
+      options: [
+        "It creates more plastic bags",
+        "It makes the landfill grow faster",
+        "It turns waste into clean energy",
+        "It stops plants from growing"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      "It uses high heat to convert waste into useful gas and energy.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Using an old glass jam jar to store pens is an example of:",
+      options: [
+        "Reusing",
+        "Reducing",
+        "Recycling",
+        "Rotting"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Reusing is finding a new use for an item instead of throwing it away.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Biogas is a sustainable alternative to which traditional Ghanaian fuel?",
+      options: [
+        "Sunlight",
+        "Wind power",
+        "Firewood or charcoal",
+        "Sea water"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Biogas replaces fuels like wood, helping to prevent deforestation.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of the 3Rs requires a factory and heavy machinery?",
+      options: [
+        "Reducing",
+        "Reusing",
+        "Recycling",
+        "Thinking"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      "Recycling is an industrial process that breaks materials down to make new ones.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Why is innovation important for waste management in Ghana's growing cities?",
+      options: [
+        "Because we are running out of land for dumps",
+        "Because we want to have more smoke",
+        "Because trash is the only thing we have",
+        "Because we don't like clean streets"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+      "Cities are crowded; innovative methods reduce the need for large, smelly dump sites.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which of these is the most common type of waste produced in a Ghanaian school?",
+      options: [
+        "Industrial chemicals",
+        "Municipal/Domestic waste",
+        "Radioactive materials",
+        "Large tractor parts"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Schools primarily produce paper, food scraps, and plastic packaging.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Agbogbloshie is a site famous for handling which type of waste?",
+      options: [
+        "Electronic Waste",
+        "Medical Waste",
+        "Timber Waste",
+        "Fish Waste"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "It is one of the world's largest sites for processing old electronics.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What is a 'Negative' practice regarding waste in our cities?",
+      options: [
+        "Planting trees in parks",
+        "Littering in gutters",
+        "Using reusable bags",
+        "Sorting plastic bottles"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Littering blocks drains and causes environmental pollution.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which waste type requires the most careful handling to prevent the spread of germs?",
+      options: [
+        "Municipal waste",
+        "Agricultural waste",
+        "Industrial waste",
+        "Medical waste"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Medical waste can carry diseases and must be treated scientifically.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. In Ghana, 'Zoomlion' is an example of what?",
+      options: [
+        "A type of dangerous animal",
+        "A waste collection company",
+        "A new kind of plastic",
+        "A plant that grows in dumps"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "It is a major private company that partners with the government for waste management.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Why is an 'Open Dump' considered a poor management practice?",
+      options: [
+        "It makes the waste too clean",
+        "It causes air and water pollution",
+        "It turns into a beautiful forest",
+        "It provides free toys for children"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Open dumps are unregulated and release toxins into the surroundings.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Sawdust from a timber mill in Kumasi is classified as:",
+      options: [
+        "Medical waste",
+        "Electronic waste",
+        "Industrial waste",
+        "Domestic waste"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "It is a byproduct of an industrial activity (timber processing).",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What would be a great 'Opportunity for Improvement' in our schools?",
+      options: [
+        "Throwing all trash behind the fence",
+        "Stopping the use of all bins",
+        "Setting up separate bins for sorting",
+        "Burning waste every Friday"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Sorting at the source is the best way to improve recycling rates.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of these is a 'Domestic' waste item?",
+      options: [
+        "Used syringe",
+        "Old car engine",
+        "Cassava peels",
+        "Factory smoke"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Cassava peels are a common organic waste produced in homes.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A major challenge for recycling in Ghana is:",
+      options: [
+        "People don't make any trash",
+        "High cost of sorting and transport",
+        "There is no sun to dry the waste",
+        "Plants eat all the plastic"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Transporting and sorting mixed waste is expensive and difficult for recycling companies.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What defines a non-communicable disease?",
+      options: [
+        "It spreads through the air",
+        "It is caused by a virus",
+        "It cannot be passed to others",
+        "It only affects young children"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "NCDs are not transmissible from person to person.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which organ is primarily forced to work harder due to hypertension?",
+      options: [
+        "The lungs",
+        "The stomach",
+        "The heart",
+        "The liver"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "High blood pressure forces the heart to pump against higher resistance.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What is the main characteristic of cancer cells?",
+      options: [
+        "They stop dividing entirely",
+        "They grow without control",
+        "They turn into liquid fat",
+        "They only live for one day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Cancer is defined by the uncontrolled division and spread of abnormal cells.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. A man feels very thirsty and is losing weight rapidly. What might he have?",
+      options: [
+        "Hypertension",
+        "Diabetes",
+        "Ringworm",
+        "Influenza"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Excessive thirst and weight loss are classic indicators of diabetes.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is a way to prevent many types of cancer?",
+      options: [
+        "Avoiding tobacco use",
+        "Using scented soaps",
+        "Eating more white sugar",
+        "Walking without shoes"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Tobacco use is a leading preventable cause of many cancers.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which food choice is best for preventing NCDs?",
+      options: [
+        "Heavily salted crackers",
+        "Sugary carbonated soda",
+        "Fresh garden eggs and fish",
+        "Large portions of fried yam"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Natural, plant-based foods and lean proteins are healthier choices.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What can cause a person to develop a non-communicable disease?",
+      options: [
+        "Shaking hands with a friend",
+        "Drinking from the same cup",
+        "A combination of genes and diet",
+        "Being sneezed on by a sibling"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "NCDs result from genetic, physiological, environmental, and behavioral factors.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which symptom might a person with hypertension experience?",
+      options: [
+        "Severe headaches",
+        "Itchy scalp flakes",
+        "Pain during urination",
+        "Runny nose and chills"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Severe headaches and blurred vision are common signs of high blood pressure.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Why is exercise important in preventing NCDs?",
+      options: [
+        "It kills bacteria in the blood",
+        "It helps maintain a healthy weight",
+        "It stops the sun from burning skin",
+        "It prevents germs from entering"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Physical activity helps control weight and improves heart and metabolic health.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which type of cancer is commonly mentioned as a risk for men as they age?",
+      options: [
+        "Breast cancer",
+        "Prostate cancer",
+        "Candidiasis",
+        "Ringworm"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Prostate cancer is one of the most common cancers affecting men.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is the WHO definition of health?",
+      options: [
+        "Only having a strong physical body",
+        "Not needing to visit a doctor",
+        "Physical, mental, and social well-being",
+        "Being able to run very fast"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Health is holistic, involving the body, mind, and social life.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of the following describes a disease?",
+      options: [
+        "A state of complete happiness",
+        "A disorder interfering with body function",
+        "The ability to fight off all germs",
+        "A normal part of growing up"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Disease is a disruption of the normal, healthy state of an organism.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. In the context of health, what does 'infirmity' mean?",
+      options: [
+        "A type of healthy vegetable",
+        "Physical or mental weakness",
+        "A community health center",
+        "A medicine used for fevers"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The WHO definition notes health is not merely the absence of disease or infirmity (weakness).",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which disease is most likely caused by poor ventilation in a home?",
+      options: [
+        "Malaria",
+        "Diabetes",
+        "Hypertension",
+        "Tuberculosis"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "TB is a respiratory disease that spreads through the air, especially in poorly ventilated spaces.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Why is handwashing with soap important for preventing environmental diseases?",
+      options: [
+        "It makes your skin look shiny",
+        "It removes pathogens from your hands",
+        "It helps you grow taller quickly",
+        "It stops mosquitoes from biting"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Soap breaks down the oils and germs (pathogens) on your skin so they can be washed away.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of these is a social factor that contributes to good health?",
+      options: [
+        "Having supportive friends and family",
+        "Taking vitamin tablets every day",
+        "Having a very large television",
+        "Owning a fast bicycle"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Social well-being is a core part of the WHO definition of health.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What is the primary cause of Cholera in a community?",
+      options: [
+        "Looking at an infected person",
+        "Contaminated food or water",
+        "Too much physical exercise",
+        "Genetic factors from parents"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Cholera is a water-borne disease caused by ingesting contaminated food or water.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which symptom is a common sign of many environmental diseases?",
+      options: [
+        "Growing more hair",
+        "Having a high fever",
+        "Improved eyesight",
+        "Feeling very hungry"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Fever is a general sign that the body is fighting off an infection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. What does a 'vector' do in the spread of disease?",
+      options: [
+        "It cures the disease instantly",
+        "It carries the germ to a person",
+        "It prevents germs from growing",
+        "It cleans the environment"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "A vector, like a mosquito or housefly, carries pathogens from one place to another.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Proper waste disposal helps prevent disease because it...",
+      options: [
+        "Makes the town look beautiful",
+        "Reduces breeding sites for pests",
+        "Makes the soil much harder",
+        "Stops the wind from blowing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Rubbish attracts flies and rodents that can spread diseases to humans.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What environmental condition do fungi prefer for growth?",
+      options: [
+        "Dry and very cold",
+        "Warm and moist",
+        "Bright and windy",
+        "Dark and freezing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Fungi thrive in tropical, humid, and damp environments.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these is a common symptom of Ringworm on the skin?",
+      options: [
+        "A circular, itchy rash",
+        "Green spots on the nose",
+        "Bleeding from the ears",
+        "Growing taller suddenly"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "The 'ring' shape is the classic identifying mark of this fungal infection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. How is Ringworm most commonly spread among students?",
+      options: [
+        "Through mosquito bites",
+        "Sharing combs or towels",
+        "Drinking untreated water",
+        "Eating unwashed fruits"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Fungal infections spread through direct contact or sharing personal items.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What is 'Thrush' in the mouth caused by?",
+      options: [
+        "A type of bacteria",
+        "A virus like the flu",
+        "The Candida yeast",
+        "Eating too much salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Oral thrush is a common form of Candidiasis.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: [
+        "The teeth",
+        "The nails",
+        "The eyes",
+        "The heart"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Fungi can infect the keratin in nails, making them thick and brittle.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What is the best way to handle a shared locker room floor?",
+      options: [
+        "Walk very quickly",
+        "Wear rubber sandals",
+        "Use plenty of salt",
+        "Sit on the floor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Footwear protects your feet from fungi living on damp floors.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why might Ringworm cause a patch of hair to fall out?",
+      options: [
+        "The fungus eats the hair",
+        "The fungus infects the scalp",
+        "It causes the head to cool",
+        "The person is too worried"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which of these is NOT a fungal disease?",
+      options: [
+        "Candidiasis",
+        "Ringworm",
+        "Hypertension",
+        "Athlete's foot"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. If you have a fungal infection, what should you do with your towel?",
+      options: [
+        "Give it to a sibling",
+        "Use it for a month",
+        "Wash it in hot water",
+        "Keep it in a bag"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Hot water and soap help kill fungal spores on fabric.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A person with a healthy immune system is...",
+      options: [
+        "Never able to get fungi",
+        "Less likely to get Candidiasis",
+        "Guaranteed to have Ringworm",
+        "Stronger than a lion"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "A strong immune system keeps yeasts like Candida in check.",
+    ),
+  ],
+);
+
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/5. Quiz.m4a',

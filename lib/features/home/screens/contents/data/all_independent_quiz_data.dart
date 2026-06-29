@@ -20488,6 +20488,515 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following items is best suited for the composting process?",
+        options: [
+          "Empty tin of milk",
+          "Scraps of yam peels",
+          "Broken plastic ruler",
+          "Used rubber sachet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary goal of the recycling process?",
+        options: [
+          "To burn waste for heat",
+          "To bury waste in a pit",
+          "To make new products",
+          "To wash waste for reuse"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the process of composting, what causes the organic matter to break down?",
+        options: [
+          "High-pressure machines",
+          "Industrial melting heat",
+          "Action of microorganisms",
+          "Heavy rainfall and wind"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which material is considered 'inorganic' and should be sent for recycling rather than composting?",
+        options: [
+          "Dried plantain leaves",
+          "Rotten mango fruits",
+          "Leftover banku waste",
+          "Aluminum soda cans"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which principle is most essential for the success of a compost pit?",
+        options: [
+          "High-pressure compression",
+          "Biological decomposition",
+          "Chemical solidification",
+          "Nuclear transformation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In incineration, what is the main result of applying high thermal energy to waste?",
+        options: [
+          "It turns into new plastic",
+          "It increases in total weight",
+          "It reduces in size and volume",
+          "It becomes edible for fish"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Recycling glass depends on the ability of the material to undergo:",
+        options: [
+          "A change in physical state",
+          "Permanent evaporation",
+          "Rapid biological rotting",
+          "Total color disappearance"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a 'worker' in the biological process of waste management?",
+        options: [
+          "Industrial incinerator",
+          "Sorting machine",
+          "Microorganism",
+          "Cooling fan"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these activities is a primary part of conducting a waste audit?",
+        options: [
+          "Burning all waste to see the smoke",
+          "Sorting waste into different categories",
+          "Throwing waste into a nearby stream",
+          "Buying new plastic bags for the bins"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a waste management system is described as 'efficient,' it means that:",
+        options: [
+          "The bins are always broken",
+          "People ignore the waste rules",
+          "Waste is collected and processed on time",
+          "The rubbish smells very bad"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of 'Sorting' during a waste audit?",
+        options: [
+          "To make the rubbish look beautiful",
+          "To identify the types of materials produced",
+          "To hide the waste from the headteacher",
+          "To find lost items in the bin"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A challenge to waste management effectiveness in many Ghanaian communities is:",
+        options: [
+          "Having too many recycling factories",
+          "Lack of transport to move collected waste",
+          "People producing too little rubbish",
+          "Having too much rich soil for farms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the scientific term for liquid chemicals draining from a waste pile into the ground?",
+        options: [
+          "Melting",
+          "Leaching",
+          "Evaporating",
+          "Composting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does waste in gutters contribute to flooding during the rainy season in Ghana?",
+        options: [
+          "It makes the water flow faster",
+          "It chokes the drains and blocks water",
+          "It turns the water into ice",
+          "It makes the rain fall harder"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which gas is released by rotting waste in landfills that contributes to global warming?",
+        options: [
+          "Oxygen",
+          "Methane",
+          "Nitrogen",
+          "Helium"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Open burning of municipal solid waste is harmful primarily because it:",
+        options: [
+          "Makes the ground too cold",
+          "Releases toxic fumes into the air",
+          "Turns waste into gold",
+          "Encourages plants to grow"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the 3Rs is being practiced when a shoemaker uses old car tyres to make the soles of sandals?",
+        options: [
+          "Reducing",
+          "Reusing",
+          "Rejecting",
+          "Rotting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary product of 'Anaerobic Digestion' that can be used as fuel?",
+        options: [
+          "Liquid plastic",
+          "Biogas",
+          "Solar energy",
+          "Metal scrap"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Sustainable development means managing waste so that:",
+        options: [
+          "We use up all the land for trash",
+          "Future generations can still enjoy a clean environment",
+          "We stop using all technology forever",
+          "We throw everything into the sea"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which innovative process uses extremely high heat to turn waste into a gas called 'syngas'?",
+        options: [
+          "Composting",
+          "Plasma Gasification",
+          "Landfilling",
+          "Hand sorting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Old computers, broken televisions, and used charging cables are all examples of:",
+        options: [
+          "Organic Waste",
+          "Electronic Waste",
+          "Medical Waste",
+          "Industrial Waste"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major 'Positive' in Ghana's current waste management system?",
+        options: [
+          "Everyone throws trash in gutters",
+          "Private companies helping with collection",
+          "Having more flies in the market",
+          "Burning plastic in school yards"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is 'sorting waste at home' currently a challenge in many Ghanaian households?",
+        options: [
+          "There is too much space for bins",
+          "Most people use a single bin for everything",
+          "Plastic is too heavy to carry",
+          "It makes the waste disappear too fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which category of waste includes food scraps and household packaging?",
+        options: [
+          "Industrial",
+          "Municipal/Domestic",
+          "Medical",
+          "Electronic"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a non-communicable disease?",
+        options: [
+          "Measles",
+          "Diabetes",
+          "Influenza",
+          "Chickenpox"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a common risk factor for developing hypertension?",
+        options: [
+          "Eating too much salt",
+          "Drinking clean water",
+          "Sleeping under a net",
+          "Washing hands often"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which symptom is specifically associated with diabetes mellitus?",
+        options: [
+          "A red, itchy skin rash",
+          "Frequent night urination",
+          "Coughing up thick blood",
+          "Pain in the fingernails"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to the WHO, health is a state of complete physical, mental, and...",
+        options: [
+          "Financial wealth",
+          "Social well-being",
+          "Academic success",
+          "Political power"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a common environmental disease in Ghana spread by mosquitoes?",
+        options: [
+          "Malaria",
+          "Tuberculosis",
+          "Hypertension",
+          "Diabetes"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the most effective way to prevent the spread of Cholera?",
+        options: [
+          "Wearing a heavy jacket",
+          "Drinking treated water",
+          "Sleeping during the day",
+          "Eating only fried meat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main cause of the infection known as Ringworm?",
+        options: [
+          "A small parasite worm",
+          "A type of fungus",
+          "Too much sunlight",
+          "Lack of vitamin C"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is Candidiasis most likely to cause white patches?",
+        options: [
+          "On the elbows",
+          "Inside the mouth",
+          "On the fingernails",
+          "Between the eyes"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which habit best prevents fungal infections of the feet?",
+        options: [
+          "Wearing heavy boots",
+          "Drying between toes",
+          "Walking in puddles",
+          "Sharing \"chalewote\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main cause of the infection known as Ringworm?",
+        options: [
+          "A small parasite worm",
+          "A type of fungus",
+          "Too much sunlight",
+          "Lack of vitamin C"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is Candidiasis most likely to cause white patches?",
+        options: [
+          "On the elbows",
+          "Inside the mouth",
+          "On the fingernails",
+          "Between the eyes"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which habit best prevents fungal infections of the feet?",
+        options: [
+          "Wearing heavy boots",
+          "Drying between toes",
+          "Walking in puddles",
+          "Sharing \"chalewote\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+
 ///Math
 final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',
