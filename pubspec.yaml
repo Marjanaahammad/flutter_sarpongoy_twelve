@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.9+5
+version: 1.0.9+7
 
 environment:
   sdk: ^3.5.3
@@ -901,6 +901,30 @@ flutter:
     - assets/audio/science/JHS1 S5 SS5 L1/
     - assets/audio/science/JHS1 S5 SS5 L2/
     - assets/images/science/SCIENCE JHS1 S5 SS5 L2/
+    - assets/audio/science/JHS2 S5 SS1 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS1 L1/
+    - assets/audio/science/JHS2 S5 SS1 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS1 L2/
+    - assets/audio/science/JHS2 S5 SS2 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L1/
+    - assets/audio/science/JHS2 S5 SS2 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L2/
+    - assets/audio/science/JHS2 S5 SS2 L3/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L3/
+    - assets/audio/science/JHS2 S5 SS2 L4/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L4/
+    - assets/audio/science/JHS2 S5 SS3 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS3 L1/
+    - assets/audio/science/JHS2 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS3 L2/
+    - assets/audio/science/JHS2 S5 SS4 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS4 L1/
+    - assets/audio/science/JHS2 S5 SS5 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L1/
+    - assets/audio/science/JHS2 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L2/
+    - assets/audio/science/JHS2 S5 SS5 L3/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L3/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

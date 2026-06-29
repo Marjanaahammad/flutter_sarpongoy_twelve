@@ -16926,6 +16926,692 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the primary meaning of 'Reduce' in waste management?",
+        options: [
+          "Burning rubbish in a pit",
+          "Making less waste daily",
+          "Burying waste in the soil",
+          "Sorting waste into bins"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of 'Reusing' an item?",
+        options: [
+          "Smashing a glass bottle",
+          "Buying a new plastic bag",
+          "Using a tin for a cup",
+          "Throwing paper in a bin"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is recycling metal scrap better than throwing it away?",
+        options: [
+          "It makes the scrap heavier",
+          "It creates new materials",
+          "It turns scrap into food",
+          "It hides waste from sight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which item is commonly recycled in Ghana to make bowls?",
+        options: [
+          "Dried plantain leaves",
+          "Used plastic sachets",
+          "Leftover banku food",
+          "Old wooden benches"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in managing waste in a new community?",
+        options: [
+          "Buying a truck",
+          "Conducting a survey",
+          "Burning all rubbish",
+          "Building a big fence"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is the best place to put a new rubbish bin?",
+        options: [
+          "Inside a dark forest",
+          "In a quiet bedroom",
+          "At a busy lorry station",
+          "Under a locked desk"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you see \"pure water\" sachets everywhere, which \"R\" should you suggest to a recycling company?",
+        options: [
+          "Reducing oxygen",
+          "Reusing the air",
+          "Recycling the plastic",
+          "Removing the soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why should a student write a report after a clean-up?",
+        options: [
+          "To get more support",
+          "To waste more paper",
+          "To hide the results",
+          "To make people angry"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is \"Organic Waste\" primarily made of?",
+        options: [
+          "Old metal tins",
+          "Broken glass jars",
+          "Leftover food scraps",
+          "Plastic water bottles"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which symptom is most commonly associated with Measles?",
+        options: [
+          "Yellowing of the skin",
+          "Dark-coloured urine",
+          "Red spots on the face",
+          "Swelling of the legs"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the most effective way to prevent the spread of Measles in a community?",
+        options: [
+          "Washing hands often",
+          "Getting vaccinated",
+          "Eating more fruits",
+          "Sleeping under nets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does HIV impact the economy of Ghana?",
+        options: [
+          "It makes people work faster",
+          "It reduces the labour force",
+          "It builds more hospitals",
+          "It lowers the cost of food"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a way to prevent the transmission of Hepatitis?",
+        options: [
+          "Sharing a drinking cup",
+          "Using screened blood",
+          "Walking in the rain",
+          "Eating with friends"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an environmental risk factor?",
+        options: [
+          "Not using soap",
+          "Sharing a towel",
+          "Blocked gutters",
+          "Eating late"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is living far from a health clinic considered a risk factor?",
+        options: [
+          "People get bored",
+          "No vaccinations",
+          "The air is dusty",
+          "More rain falls"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which behaviour increases the risk of spreading HIV?",
+        options: [
+          "Shaking hands",
+          "Sharing razors",
+          "Eating together",
+          "Playing football"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which situation describes 'poor sanitation'?",
+        options: [
+          "Drinking tea",
+          "Rubbish heaps",
+          "Painting walls",
+          "Sweeping floors"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Bacteria are described as 'single-celled.' What does this mean?",
+        options: [
+          "They have many hearts",
+          "They live alone",
+          "One cell is the whole body",
+          "They only have one leg"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a common symptom of Food Poisoning?",
+        options: [
+          "Stiff neck",
+          "Stomach cramps",
+          "Yellow eyes",
+          "Hair loss"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does Meningitis bacteria usually enter a new person?",
+        options: [
+          "Through the air",
+          "Through dirty shoes",
+          "Through loud music",
+          "Through sunlight"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tool is needed to see a single bacterium?",
+        options: [
+          "Sunglasses",
+          "Magnifying glass",
+          "Microscope",
+          "Telescope"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which action is an example of individual prevention for food poisoning?",
+        options: [
+          "Building a hospital",
+          "Washing hands with soap",
+          "Passing a new law",
+          "Cleaning the town gutter"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the best way for a student to prevent Gonorrhoea?",
+        options: [
+          "Drinking clean water",
+          "Practising abstinence",
+          "Opening room windows",
+          "Wearing a face mask"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why does the government provide free Meningitis vaccines?",
+        options: [
+          "To make people sleep",
+          "To give nurses jobs",
+          "To create community immunity",
+          "To make the dust go away"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these helps manage the environment to reduce disease?",
+        options: [
+          "Leaving rubbish heaps",
+          "Clearing blocked gutters",
+          "Closing all windows",
+          "Sharing personal towels"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following best describes Science?",
+        options: [
+          "Building a new electric car",
+          "Improving a mobile phone app",
+          "Studying how lightning is formed",
+          "Selling solar panels in the market"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When we use scientific knowledge to create a gadget like a digital camera, we are creating:",
+        options: [
+          "Technology",
+          "Innovation",
+          "Pure Science",
+          "Observation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Introducing a new method to deliver medical supplies to remote villages using drones is an example of:",
+        options: [
+          "Basic Science",
+          "Innovation",
+          "Experimentation",
+          "Data Collection"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are Science, Technology, and Innovation considered 'interrelated'?",
+        options: [
+          "They are exactly the same thing",
+          "They never work at the same time",
+          "They all depend on each other to work",
+          "Only scientists can use all three of them"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a modern advancement in the Ghanaian healthcare sector?",
+        options: [
+          "Using a wooden mortar",
+          "Magnetic Resonance Imaging (MRI)",
+          "Walking to the clinic",
+          "Writing notes with a pencil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does 'Digital Communication' (like email) help the environment?",
+        options: [
+          "It makes the internet faster",
+          "It uses more electricity",
+          "It reduces the need for paper",
+          "It makes phones expensive"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a major negative environmental impact of old computers?",
+        options: [
+          "They take up too much desk space",
+          "They leak toxic chemicals (E-waste)",
+          "They make too much noise",
+          "They help students learn science"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which Ghanaian energy source is considered an 'advancement' that is good for the environment?",
+        options: [
+          "Burning dried wood",
+          "Using diesel generators",
+          "Solar power plants",
+          "Using kerosene lamps"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the average period used to determine the climate of a place?",
+        options: [
+          "5 years",
+          "10 years",
+          "30 years",
+          "50 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a direct result of the melting of polar ice caps?",
+        options: [
+          "More bushfires",
+          "Higher sea levels",
+          "Better crop yields",
+          "Cooler night air"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A sudden heavy rainstorm in Kumasi that lasts for two hours is an example of:",
+        options: [
+          "Climate",
+          "Weather",
+          "Mitigation",
+          "Adaptation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does climate change affect the rainfall pattern in Ghana?",
+        options: [
+          "Rains become predictable",
+          "Rains happen every day",
+          "Rains become irregular",
+          "Rains stop completely"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which soil type feels very smooth when wet and can be easily moulded?",
+        options: [
+          "Sandy soil",
+          "Loamy soil",
+          "Clay soil",
+          "Rocky soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the term for the soil's ability to hold onto water?",
+        options: [
+          "Drainage",
+          "Texture",
+          "Retention",
+          "Erosion"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which soil is a mixture of sand, clay, and decayed organic matter?",
+        options: [
+          "Silt",
+          "Loam",
+          "Gravel",
+          "Mud"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why does water drain fastest through sandy soil?",
+        options: [
+          "Small particles",
+          "Large air spaces",
+          "Sticky texture",
+          "Dark colour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the process called when water moves into plant roots?",
+        options: [
+          "Evaporation",
+          "Osmosis",
+          "Digestion",
+          "Respiration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The \"Soil Solution\" is a mixture of water and:",
+        options: [
+          "Large rocks",
+          "Dissolved nutrients",
+          "Plastic waste",
+          "Dry air"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens during \"Leaching\"?",
+        options: [
+          "Plants grow faster",
+          "Nutrients are washed away",
+          "Soil becomes stickier",
+          "Roots stop growing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which part of the plant is responsible for the most water absorption?",
+        options: [
+          "The leaves",
+          "The flowers",
+          "The root hairs",
+          "The stem"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of rock is formed from cooling lava or magma?",
+        options: [
+          "Sedimentary",
+          "Metamorphic",
+          "Igneous",
+          "Sandstone"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the process of breaking rocks into smaller pieces called?",
+        options: [
+          "Erosion",
+          "Weathering",
+          "Melting",
+          "Polishing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Marble is an example of which rock type?",
+        options: [
+          "Igneous",
+          "Metamorphic",
+          "Sedimentary",
+          "Volcanic"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When a rock changes because of acid in rainwater, it is called:",
+        options: [
+          "Physical weathering",
+          "Biological weathering",
+          "Chemical weathering",
+          "Rapid weathering"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

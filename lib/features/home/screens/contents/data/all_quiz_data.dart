@@ -36308,6 +36308,1855 @@ final QuizModel Scijhs2s4ss5Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What do we call materials that are no longer needed and are thrown away?",
+      options: [
+        "Natural resources",
+        "Sustainable items",
+        "Raw materials",
+        "Waste products"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Waste refers to discarded materials that have lost their original value.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which practice is the most effective way to manage waste sustainably?",
+      options: [
+        "Reducing waste",
+        "Burning waste",
+        "Burying waste",
+        "Hiding waste"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Reducing waste at the source prevents the problem from starting, making it the most effective 'R'.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which 'R' involves turning old plastic bottles into new plastic pellets?",
+      options: [
+        "Reducing",
+        "Restoring",
+        "Recycling",
+        "Reusing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Recycling is the industrial process of turning waste into new raw materials.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Using an old car tire as a swing for children is an example of what?",
+      options: [
+        "Reusing",
+        "Reducing",
+        "Refining",
+        "Reacting"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "This is reusing because the tire is being used for a new purpose instead of being thrown away.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Why should we avoid throwing plastic waste into gutters in Ghana?",
+      options: [
+        "It makes water blue",
+        "It stops the birds",
+        "It causes flooding",
+        "It helps the fish"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Plastic blocks the flow of water, leading to floods during the rainy season.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of these items is a common source of domestic waste in Ghana?",
+      options: [
+        "Large machinery",
+        "Cassava peelings",
+        "Airplane engine",
+        "Factory smoke"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Domestic waste comes from homes; cassava peelings are a very common food waste in Ghanaian kitchens.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What is a major environmental benefit of the 3Rs?",
+      options: [
+        "More plastic bags",
+        "Less soil erosion",
+        "Higher food costs",
+        "Lower pollution"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Practicing the 3Rs directly reduces the amount of trash that pollutes our land and water.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which 'R' are you practicing when you refuse a plastic straw at a shop?",
+      options: [
+        "Recycle",
+        "Reuse",
+        "Repair",
+        "Reduce"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+      "By refusing the straw, you are reducing the amount of waste produced.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. What happens to waste that is recycled?",
+      options: [
+        "It is buried forever",
+        "It is made into new things",
+        "It is thrown in the sea",
+        "It is burnt in a forest"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Recycling transforms waste into useful new products.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which is a sustainable way to handle old school notebooks?",
+      options: [
+        "Throwing them in fire",
+        "Leaving them in rain",
+        "Recycling the paper",
+        "Dropping them in road"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Paper is a recyclable material that can be turned into new paper products.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is the main goal of a waste survey?",
+      options: [
+        "To find hidden treasures",
+        "To identify waste types",
+        "To play with friends",
+        "To sell old newspapers"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Surveys help us identify what kind of waste is present and where it is coming from.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which group of people is most important to involve in a community waste plan?",
+      options: [
+        "People living far away",
+        "Only the young children",
+        "All community members",
+        "People who don't visit"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Waste management works best when everyone in the community participates.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Why are labeled bins (Plastic, Paper, Organic) helpful?",
+      options: [
+        "They make sorting easy",
+        "They look like toys",
+        "They are very heavy",
+        "They hide the labels"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Labels help people put the right waste in the right place for recycling or composting.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What should you do if your survey shows gutters are blocked by plastic?",
+      options: [
+        "Wait for the next rain",
+        "Organize a clean-up",
+        "Add more water there",
+        "Cover it with sand"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Organizing a clean-up is a proactive way to remove blockages and prevent flooding.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. How can 'Gong-gong' beaters help with waste management?",
+      options: [
+        "By making loud music",
+        "By announcing clean-ups",
+        "By scaring the birds",
+        "By selling plastic bins"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "In many Ghanaian communities, the gong-gong is a traditional way to spread important information.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What does 'evaluating' a waste practice mean?",
+      options: [
+        "Buying new equipment",
+        "Checking if it works",
+        "Throwing away reports",
+        "Ignoring the problems"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Evaluation is the process of seeing if your actions led to a cleaner environment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Which is a sustainable way to handle large amounts of paper waste?",
+      options: [
+        "Dumping it in a river",
+        "Burying it in the yard",
+        "Burning it at night",
+        "Recycling it into card"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Recycling paper saves trees and reduces the volume of waste in landfills.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What is the best way to reduce plastic waste in a school canteen?",
+      options: [
+        "Use more plastic bags",
+        "Use reusable plates",
+        "Buy more bottled water",
+        "Throw trash on floors"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Reusable plates can be washed and used again, reducing the need for single-use plastics.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Why is it bad to leave food waste in open heaps in the market?",
+      options: [
+        "It attracts pests/flies",
+        "It makes the soil hard",
+        "It turns into gold",
+        "It stops the sunlight"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Rotting food attracts flies and rodents, which can spread diseases like cholera.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A successful waste plan should be 'sustainable.' What does this mean?",
+      options: [
+        "It lasts a long time",
+        "It ends very quickly",
+        "It is very expensive",
+        "It only works once"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+      "Sustainability means the community can keep the practice going for years to come.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which of these is a communicable disease?",
+      options: [
+        "Broken bone",
+        "Heart attack",
+        "Poor vision",
+        "Hepatitis"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Hepatitis is caused by a pathogen and can be passed from person to person.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What does the term 'pathogen' refer to?",
+      options: [
+        "A type of medicine",
+        "An infectious agent",
+        "A hospital worker",
+        "A healthy student"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Pathogens are the bacteria or viruses that cause communicable diseases.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. A student has a runny nose and a red blotchy rash. What is the likely cause?",
+      options: [
+        "Measles",
+        "Malaria",
+        "Anaemia",
+        "Asthma"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "A red blotchy rash starting on the face is a classic sign of Measles.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which organ is primarily attacked by the Hepatitis virus?",
+      options: [
+        "The heart",
+        "The lungs",
+        "The liver",
+        "The brain"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Hepatitis causes inflammation and damage to the liver.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Why should we avoid sharing needles or syringes?",
+      options: [
+        "To prevent HIV",
+        "To stop a cough",
+        "To cure a fever",
+        "To save money"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "HIV is transmitted through infected blood found on shared sharp objects.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. How do communicable diseases affect academic progress in Ghana?",
+      options: [
+        "Students study more",
+        "Students miss school",
+        "Schools get cheaper",
+        "Teachers leave early"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Illness causes absenteeism, which prevents students from following the curriculum.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What is a major sign of jaundice?",
+      options: [
+        "Very itchy skin",
+        "Yellowing eyes",
+        "Loss of hearing",
+        "Stronger bones"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Jaundice, a symptom of Hepatitis, causes yellowing of the eyes and skin.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which method is used by hospitals to make blood transfusions safe?",
+      options: [
+        "Cooling the blood",
+        "Screening blood",
+        "Heating the blood",
+        "Adding more water"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Screening ensures the blood is free from pathogens like HIV or Hepatitis.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Measles is primarily spread through which of the following?",
+      options: [
+        "Contaminated soil",
+        "Uncooked seafood",
+        "Dirty river water",
+        "Air-borne droplets"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Measles is highly contagious through coughing and sneezing.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. What is the best way for a community to achieve 'immunity' against Measles?",
+      options: [
+        "Mass vaccination",
+        "Closing markets",
+        "Building bridges",
+        "Cleaning gutters"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Vaccination is the most effective community-wide prevention strategy.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is a 'risk factor' in health?",
+      options: [
+        "A cure for illness",
+        "A type of doctor",
+        "A chance of harm",
+        "A healthy habit"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "A risk factor increases the probability or 'chance' that a person will develop a disease.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these promotes the spread of air-borne diseases?",
+      options: [
+        "Clean clothes",
+        "Large windows",
+        "Overcrowding",
+        "Using soap"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Air-borne pathogens spread quickly when many people are packed into a small, unventilated space.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Why are flies considered a risk factor in a community?",
+      options: [
+        "They are noisy",
+        "They carry germs",
+        "They eat plants",
+        "They live long"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Flies act as 'vectors' that move pathogens from waste or stagnant water onto our food.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which is a socio-economic risk factor?",
+      options: [
+        "Sharing a sponge",
+        "Not washing hands",
+        "Lack of money",
+        "Coughing loudly"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Poverty (lack of money) prevents people from buying soap, good food, or medicine, increasing health risks.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Stagnant water in gutters is a risk factor because:",
+      options: [
+        "It smells very nice",
+        "Bacteria multiply",
+        "It looks beautiful",
+        "It helps the grass"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Pathogens and disease-carrying insects thrive and multiply in still, dirty water.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which action reduces a behavioural risk factor?",
+      options: [
+        "Washing with soap",
+        "Sharing a needle",
+        "Leaving food open",
+        "Drinking from a river"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Using soap is a personal choice (behaviour) that physically removes pathogens from the skin.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. How does 'ventilation' affect the risk of Measles?",
+      options: [
+        "It makes it worse",
+        "It has no effect",
+        "It lowers the risk",
+        "It causes a fever"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Good ventilation (fresh air flow) dilutes and removes air-borne viruses from a room.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. In Ghana, a 'CHPS compound' helps reduce risk by:",
+      options: [
+        "Selling groceries",
+        "Providing vaccines",
+        "Building new roads",
+        "Fixing old cars"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Access to community health services ensures people get vaccinated against common diseases.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of these is a risk factor for Hepatitis?",
+      options: [
+        "Reading books",
+        "Unscreened blood",
+        "Wearing shoes",
+        "Using a phone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Using blood that hasn't been tested (screened) is a major risk for transmitting Hepatitis.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Nutritious food is important because it:",
+      options: [
+        "Makes you taller",
+        "Powers the heart",
+        "Helps the brain",
+        "Boosts immunity"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "A strong immune system (boosted by good food) can fight off pathogens even if you are exposed to them.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Where can bacteria be found in the environment?",
+      options: [
+        "Only in hospitals",
+        "Only in the air",
+        "In soil and water",
+        "Only in the sea"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Bacteria are ubiquitous, meaning they are found almost everywhere, including soil, water, and air.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What happens during 'binary fission' in bacteria?",
+      options: [
+        "They stop growing",
+        "They split in two",
+        "They turn into dust",
+        "They change colour"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Binary fission is the process where one bacterial cell divides into two identical cells.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which disease is passed specifically through sexual contact?",
+      options: [
+        "Food poisoning",
+        "Meningitis",
+        "Gonorrhoea",
+        "Tuberculosis"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Gonorrhoea is a bacterial infection categorized as a sexually transmitted disease.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Why is the 'Harmattan' season a high-risk time for Meningitis?",
+      options: [
+        "It is very rainy",
+        "It is cold and wet",
+        "It is dry and dusty",
+        "It is very dark"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Dry, dusty conditions can irritate the throat and nose, making it easier for Meningitis bacteria to enter the body.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What is the primary cause of Food Poisoning?",
+      options: [
+        "Eating too quickly",
+        "Bacterial toxins",
+        "Drinking cold soda",
+        "Sleeping after lunch"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Bacteria in contaminated food release toxins that cause illness in the digestive system.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of these is a characteristic of all bacteria?",
+      options: [
+        "They have feathers",
+        "They are microscopic",
+        "They are very large",
+        "They live in fire"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Bacteria are so small they cannot be seen without the help of a microscope.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. A stiff neck is a 'danger sign' for which condition?",
+      options: [
+        "Gonorrhoea",
+        "Food poisoning",
+        "Meningitis",
+        "Common cold"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Inflammation of the brain lining in Meningitis causes the neck muscles to become painfully stiff.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. How do bacteria get nutrients once they are inside you?",
+      options: [
+        "By eating your food",
+        "By damaging cells",
+        "By drinking water",
+        "By sleeping a lot"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Pathogenic bacteria break down host cells or tissues to get the nutrients they need to multiply.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of these can help prevent Food Poisoning?",
+      options: [
+        "Cooking food well",
+        "Leaving food open",
+        "Sharing a spoon",
+        "Eating raw meat"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "High heat from cooking kills most harmful bacteria like Salmonella.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Why are some bacteria considered 'helpful'?",
+      options: [
+        "They cause fevers",
+        "They help digestion",
+        "They spoil milk",
+        "They make us itch"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Many bacteria in the human gut help break down food and produce vitamins.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is the main purpose of a 'Veronica Bucket' in health?",
+      options: [
+        "To collect rainwater",
+        "To help with cooking",
+        "To provide hand washing",
+        "To carry goods to market"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Veronica Buckets are essential for providing running water for hygienic hand washing in Ghana.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which group is responsible for inspecting food safety at the market?",
+      options: [
+        "The police force",
+        "Government health inspectors",
+        "The local football team",
+        "School students"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "The government employs inspectors to ensure public food sources meet health standards.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which medical treatment is specifically used to kill bacteria?",
+      options: [
+        "Painkillers",
+        "Antibiotics",
+        "Cough syrup",
+        "Vitamin C"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Antibiotics are medications designed to destroy bacteria or inhibit their reproduction.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. To prevent Meningitis, rooms should be:",
+      options: [
+        "Very dark",
+        "Highly crowded",
+        "Well-ventilated",
+        "Completely sealed"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Ventilation prevents the buildup of air-borne bacteria that cause Meningitis.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Individual prevention of Food Poisoning includes:",
+      options: [
+        "Eating raw eggs",
+        "Cooking food thoroughly",
+        "Sharing a cup",
+        "Leaving meat out"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Proper cooking temperatures kill the bacteria that cause food poisoning.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What does 'abstinence' mean in the context of disease prevention?",
+      options: [
+        "Drinking only juice",
+        "Avoiding sexual contact",
+        "Not eating meat",
+        "Sleeping all day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Abstinence is the most effective individual way for students to prevent sexually transmitted bacterial diseases.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. A 'National Sanitation Day' helps manage health at what level?",
+      options: [
+        "Individual level",
+        "Government level",
+        "Community level",
+        "Hospital level"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Community-wide clean-ups address environmental risks that affect everyone in the area.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Why should food be kept covered?",
+      options: [
+        "To keep it warm",
+        "To stop flies landing",
+        "To make it look nice",
+        "To hide it from others"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Flies carry bacteria on their bodies and can contaminate food if it is left uncovered.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. If a community has a Meningitis outbreak, what is the government’s best response?",
+      options: [
+        "Mass vaccination",
+        "Building more roads",
+        "Increasing food prices",
+        "Painting the schools"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Rapid vaccination of the community stops the bacteria from spreading further.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which habit is MOST important before eating fufu or waakye?",
+      options: [
+        "Taking off your shoes",
+        "Washing hands with soap",
+        "Turning on the radio",
+        "Sitting on a chair"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Because these foods are often eaten with hands, washing with soap is critical to prevent ingesting bacteria.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is the primary goal of Science?",
+      options: [
+        "To sell new products",
+        "To build large ships",
+        "To gain knowledge",
+        "To fix broken cars"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Science is about understanding the world through study and facts.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. The application of scientific knowledge to solve practical problems is known as:",
+      options: [
+        "Technology",
+        "Innovation",
+        "Observation",
+        "Tradition"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Technology takes what science knows and puts it to work.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. A Ghanaian scientist studying the properties of salt is performing:",
+      options: [
+        "Innovation",
+        "Technology",
+        "Marketing",
+        "Science"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "Studying properties to gain knowledge is the definition of science.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of these is an example of technology in a Ghanaian school?",
+      options: [
+        "A student's desk",
+        "A smart board",
+        "A school uniform",
+        "A playground"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "A smart board is a gadget built using scientific knowledge.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Innovation is different from technology because innovation involves:",
+      options: [
+        "Using old tools",
+        "New ideas/methods",
+        "Only using hands",
+        "Ignoring science"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Innovation is about the 'newness' or improvement of ideas and products.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which pillar is represented by the invention of the first aeroplane?",
+      options: [
+        "Pure Science",
+        "Innovation",
+        "Environment",
+        "Technology"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The aeroplane is a machine/tool created from scientific principles of flight.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. A company creates a way to pay for tro-tro fares using a phone. This is:",
+      options: [
+        "Science",
+        "Technology",
+        "Innovation",
+        "Discovery"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "This is a new, improved way of doing things in society.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which sequence shows the correct relationship between the three pillars?",
+      options: [
+        "Science -> Technology -> Innovation",
+        "Innovation -> Science -> Technology",
+        "Technology -> Innovation -> Science",
+        "Science -> Innovation -> Technology"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "Knowledge (Science) leads to tools (Technology), which are then improved for society (Innovation).",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Without Science, Technology would have no:",
+      options: [
+        "Practical tools",
+        "Machines to use",
+        "Knowledge to use",
+        "People to help"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Technology relies on the facts and laws discovered by science.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. How does Innovation impact the Ghanaian environment?",
+      options: [
+        "It stops all work",
+        "It solves problems",
+        "It destroys ideas",
+        "It keeps things old"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Innovation aims to find better ways to live and work.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which sector uses drones to deliver blood to rural Ghana?",
+      options: [
+        "Education",
+        "Healthcare",
+        "Entertainment",
+        "Fashion"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Drones are an advancement in medical transport.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Advancements in Agriculture lead to:",
+      options: [
+        "Less food for people",
+        "More manual labor",
+        "Higher crop yields",
+        "Smaller farm sizes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Modern tools and seeds help farmers grow more food.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What is 'E-waste'?",
+      options: [
+        "Extra food waste",
+        "Electronic equipment waste",
+        "Energy from the sun",
+        "Efficient water use"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "E-waste refers to discarded electronic devices.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of these is a POSITIVE impact of technology?",
+      options: [
+        "Air pollution from cars",
+        "Destruction of rivers",
+        "Faster disease diagnosis",
+        "Toxic soil from batteries"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Faster diagnosis via technology saves lives.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Akosombo Dam provides electricity using water. This is:",
+      options: [
+        "A negative advancement",
+        "A technological advancement",
+        "A form of E-waste",
+        "A harmful chemical"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Hydroelectric power is a significant engineering advancement.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Why is Galamsey machinery considered a misuse of technology?",
+      options: [
+        "It is too expensive",
+        "It destroys Ghana's rivers",
+        "It is too slow to work",
+        "It uses solar energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Heavy machinery used for illegal mining ruins the environment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. The use of smartboards in JHS classrooms is an advancement in:",
+      options: [
+        "Agriculture",
+        "Transportation",
+        "Education",
+        "Communication"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Smartboards are teaching tools.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which chemical in E-waste can poison the environment?",
+      options: [
+        "Oxygen",
+        "Clean water",
+        "Lead",
+        "Vitamin C"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Lead is a toxic metal found in many electronics.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Using an app to pay for electricity (ECG) is an advancement in:",
+      options: [
+        "Transportation",
+        "Science",
+        "Technology",
+        "Medicine"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Digital payment systems are technological advancements.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A balance between technology and environment means:",
+      options: [
+        "Stopping all technology",
+        "Using technology safely",
+        "Ignoring all pollution",
+        "Breaking all machines"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "We must use tools in a way that protects nature.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which term describes the long-term increase in the Earth's average temperature?",
+      options: [
+        "Seasonal change",
+        "Global warming",
+        "Daily weather",
+        "Local heating"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Global warming is the specific term for the planet's rising temperature.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which Ghanaian town is famously losing land due to rising sea levels?",
+      options: [
+        "Keta",
+        "Kumasi",
+        "Tamale",
+        "Sunyani"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Keta is a coastal town severely affected by tidal waves and rising seas.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What happens to the Earth's 'blanket' of gases during climate change?",
+      options: [
+        "It gets thinner",
+        "It disappears",
+        "It stays same",
+        "It gets thicker"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Greenhouse gases trap more heat, making the atmospheric 'blanket' thicker.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of these is a sign of climate change?",
+      options: [
+        "Clear blue skies",
+        "Predictable rain",
+        "Severe droughts",
+        "Cold harmattan"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Longer and more frequent droughts are a major sign of climate change.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Why is the 'weather' different from 'climate'?",
+      options: [
+        "Weather is long-term",
+        "Climate is short-term",
+        "Weather is daily",
+        "Climate is daily"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Weather refers to what is happening right now or today.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which activity contributes most to the increase in global temperatures?",
+      options: [
+        "Planting more trees",
+        "Burning fossil fuels",
+        "Using solar power",
+        "Cleaning the beach"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Burning fuels like oil and coal releases gases that trap heat.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. If the climate changes, what is most likely to happen to Ghana's cocoa production?",
+      options: [
+        "It will increase",
+        "It will stay same",
+        "It will decrease",
+        "It will be easier"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Irregular rain and high heat make it difficult for cocoa trees to survive.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What is the main cause of rising sea levels?",
+      options: [
+        "More fish in sea",
+        "Melting of ice",
+        "Heavy daily rain",
+        "Strong sea winds"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Heat melts polar ice, which flows into the oceans, raising the level.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Climate change is a problem that affects:",
+      options: [
+        "Only Accra",
+        "Only farmers",
+        "Only the North",
+        "The whole world"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "Climate change is a global issue that impacts every country.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A 'heat wave' refers to a period of:",
+      options: [
+        "Very cold weather",
+        "Very rainy weather",
+        "Very windy weather",
+        "Very hot weather"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "A heat wave is a prolonged period of excessively hot weather.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which soil type is best for most crops because it balances water and air?",
+      options: [
+        "Salty soil",
+        "Clay soil",
+        "Sandy soil",
+        "Loamy soil"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "Loam provides the perfect balance of moisture and air for roots.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. How would you describe the texture of sandy soil?",
+      options: [
+        "Smooth",
+        "Sticky",
+        "Gritty",
+        "Slippery"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Large particles in sand give it a rough, gritty feel.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which soil has the highest water retention?",
+      options: [
+        "Sandy soil",
+        "Clay soil",
+        "Loamy soil",
+        "Dry soil"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Clay's small pores trap water and hold it very tightly.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Decayed plant and animal matter found in loamy soil is called:",
+      options: [
+        "Humus",
+        "Mud",
+        "Dust",
+        "Sand"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Humus is the organic part of soil that provides nutrients.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. If you are building a house, why might you prefer sandy soil for drainage?",
+      options: [
+        "It stays wet",
+        "Water flows out",
+        "It is very dark",
+        "It grows moss"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Sandy soil allows water to pass through quickly, preventing puddles around foundations.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which soil type is most likely to cause 'waterlogging' in a farm?",
+      options: [
+        "Loamy soil",
+        "Sandy soil",
+        "Fine sand",
+        "Clay soil"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Because clay retains so much water, it can become waterlogged (too much water).",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What happens to clay soil when it dries out completely in the sun?",
+      options: [
+        "It turns to sand",
+        "It gets very hard",
+        "It becomes liquid",
+        "It turns green"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Clay becomes hard and often cracks when it loses all moisture.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. In a water retention experiment, which soil will have the MOST water in the collecting jar?",
+      options: [
+        "Sandy soil",
+        "Clay soil",
+        "Loamy soil",
+        "Garden soil"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "Since sand has the lowest retention, most of the water drains into the jar.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Loamy soil is often dark in colour because of:",
+      options: [
+        "Large rocks",
+        "Fine clay",
+        "Organic humus",
+        "Clean water"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Humus is typically dark brown or black.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which of these properties refers to how the soil feels to the touch?",
+      options: [
+        "Drainage",
+        "Colour",
+        "Weight",
+        "Texture"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "Texture is the physical feel of the soil particles.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Osmosis requires a ________ membrane to work.",
+      options: [
+        "Thick plastic",
+        "Semi-permeable",
+        "Solid metal",
+        "Waterproof"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "This membrane acts as a filter for water molecules.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. In which direction does water move during osmosis in a healthy plant?",
+      options: [
+        "From root to soil",
+        "From soil to root",
+        "From leaf to soil",
+        "From stem to root"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Water moves from the wet soil into the drier root cells.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Why can't plants use nutrients in dry soil?",
+      options: [
+        "Nutrients must be dissolved",
+        "Dry soil is too hot",
+        "Roots only grow in dark",
+        "Nutrients disappear in sun"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Plants can only absorb minerals that are part of the liquid soil solution.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which soil property is MOST important for preventing leaching?",
+      options: [
+        "Soil colour",
+        "Water retention",
+        "Soil weight",
+        "Soil depth"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Good retention keeps the water and nutrients near the roots.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. A semi-permeable membrane is like a:",
+      options: [
+        "Brick wall",
+        "Locked door",
+        "Fine net",
+        "Glass window"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "A net allows water through but stops larger objects.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of these is a major plant nutrient found in soil?",
+      options: [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon",
+        "Hydrogen"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Nitrogen is one of the primary minerals plants absorb for growth.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. If the soil solution has a very high salt content (more than the root), what might happen?",
+      options: [
+        "Plant grows faster",
+        "Water leaves the root",
+        "Nothing happens",
+        "Root turns blue"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Osmosis would reverse, pulling water out of the plant and causing it to wilt.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. The tiny structures on roots that increase surface area for drinking are:",
+      options: [
+        "Root branches",
+        "Root caps",
+        "Root hairs",
+        "Root trunks"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Root hairs provide more surface area for osmosis to occur.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Leaching is a common problem in which type of Ghanaian soil?",
+      options: [
+        "Clay soil",
+        "Heavy loam",
+        "Sandy soil",
+        "Swampy soil"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Sand's large pores allow water to wash away nutrients easily.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. The main purpose of osmosis in plants is to maintain:",
+      options: [
+        "High heat",
+        "Turgidity (firmness)",
+        "Dry leaves",
+        "Dark roots"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Water pressure (turgor) keeps plants standing upright.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Rocks that form from layers of sediment are called:",
+      options: [
+        "Igneous",
+        "Metamorphic",
+        "Sedimentary",
+        "Magma"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Sediments are small particles that settle and harden into rock.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these is a famous example of an igneous rock?",
+      options: [
+        "Limestone",
+        "Granite",
+        "Shale",
+        "Coal"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Granite is a very common igneous rock used in building.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Metamorphic rocks are formed through:",
+      options: [
+        "Cooling lava",
+        "Heat and pressure",
+        "Layers of mud",
+        "Blowing wind"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Existing rocks 'morph' or change under extreme underground conditions.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Biological weathering is caused by:",
+      options: [
+        "Acids in rain",
+        "Hot sun",
+        "Living things",
+        "Running water"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "'Bio' means life, so this weathering involves plants or animals.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which rock family is most likely to contain fossils?",
+      options: [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Basalt"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Fossils get trapped in the layers of mud and sand before they turn to rock.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What happens to rocks during physical weathering?",
+      options: [
+        "They change colour",
+        "They melt into lava",
+        "They break into bits",
+        "They turn into gas"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Physical weathering only changes the size and shape, not the chemistry.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. The 'parent material' of soil is usually:",
+      options: [
+        "Dead leaves",
+        "Water",
+        "Solid rock",
+        "Plastic"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Most soil particles start as broken-down rock.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Quartzite is a metamorphic rock that comes from:",
+      options: [
+        "Sandstone",
+        "Granite",
+        "Limestone",
+        "Basalt"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "When sandstone is squeezed and heated, it turns into quartzite.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Why do rocks in the desert (or hot parts of Ghana) weather quickly?",
+      options: [
+        "Too much rain",
+        "Temperature changes",
+        "Not enough sun",
+        "Lots of snow"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The huge difference between day and night temperatures cracks the rocks.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Chemical weathering is most common in which climate?",
+      options: [
+        "Cold and dry",
+        "Hot and dry",
+        "Warm and wet",
+        "Frozen"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Heat and moisture speed up chemical reactions in rocks.",
+    ),
+  ],
+);
+
 final QuizModel Scijhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [

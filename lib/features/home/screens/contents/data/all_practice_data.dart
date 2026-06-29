@@ -7131,6 +7131,247 @@ final PracticeModel Scijhs2s4ss5Lesson2PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel Scijhs2s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi takes a reusable cloth bag to the market instead of taking ten new plastic bags from the traders. Which 'R' is he practicing?",
+      answer: "Correct Answer: Reduce.",
+      explanation: "Explanation: By using his own bag, Kofi is preventing the creation of plastic waste before it even starts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Sister Ama has an old margarine tub. Instead of throwing it away, she washes it and uses it to store her leftover jollof rice. Which 'R' is this?",
+      answer: "Correct Answer: Reuse.",
+      explanation: "Explanation: She is using the same item again for a new purpose rather than discarding it.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A school collects all its empty plastic water sachets and sends them to a factory to be made into plastic chairs. What is this process called?",
+      answer: "Correct Answer: Recycle.",
+      explanation: "Explanation: The waste is being processed and transformed into a completely different product.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: During a survey, you find that the market is full of rotting vegetable peels that smell bad. What type of waste is this, and what is a good solution?",
+      answer: "Correct Answer: Organic waste; Solution: Composting.",
+      explanation: "Explanation: Food waste is organic and can be turned into fertilizer for farms rather than being left to rot.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You notice that people in your neighborhood are burning plastic in their backyards, which creates thick, black smoke. Why is this a bad practice?",
+      answer: "Correct Answer: It causes air pollution and health problems.",
+      explanation: "Explanation: Burning plastic releases toxic chemicals into the air we breathe. A better strategy is recycling.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Your school has bins, but students still throw trash on the ground. What is the best strategy to fix this?",
+      answer: "Correct Answer: Public education and awareness.",
+      explanation: "Explanation: If the tools (bins) are there but not used, the students need to be taught why using them matters.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Abena notices that the whites of her brother's eyes have turned yellow and he is very tired. Which disease might he have?",
+      answer: "Correct Answer: Hepatitis.",
+      explanation: "Explanation: Yellowing of the eyes (jaundice) and fatigue are key symptoms of Hepatitis attacking the liver.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it dangerous to share a razor blade with a friend at school?",
+      answer: "Correct Answer: It can spread HIV or Hepatitis.",
+      explanation: "Explanation: These diseases are transmitted through infected body fluids like blood, which can stay on a sharp blade.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does a high rate of communicable disease affect the money Ghana has for building roads?",
+      answer: "Correct Answer: The money is spent on healthcare instead.",
+      explanation: "Explanation: The government must divert funds to treat sick citizens, leaving less for infrastructure like roads.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kwame lives in a house where 10 people sleep in one small room with no windows. What is the main risk factor here?",
+      answer: "Correct Answer: Overcrowding / Poor ventilation.",
+      explanation: "Explanation: When many people breathe the same air in a tight space, air-borne diseases spread very easily.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A village only has one pond for drinking water, and cows often walk through it. Why is this a risk?",
+      answer: "Correct Answer: Lack of clean water / Contaminated water source.",
+      explanation: "Explanation: Animals can pass pathogens into the water, which humans then drink, leading to disease.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Esi is in a hurry and eats her mango without washing it after buying it from a roadside vendor. What type of risk factor is this?",
+      answer: "Correct Answer: Behavioural risk factor / Poor personal hygiene.",
+      explanation: "Explanation: Esi’s choice (her behaviour) to skip washing the fruit increases her chance of ingesting germs.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: After eating some leftover stew that wasn't heated up properly, Araba feels very nauseous and starts vomiting. What is she likely suffering from?",
+      answer: "Correct Answer: Food Poisoning.",
+      explanation: "Explanation: Vomiting and nausea after eating potentially contaminated food are classic signs of bacterial food poisoning.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question:  What do we call the \"poisons\" that bacteria produce inside our bodies to make us feel sick?",
+      answer: "Correct Answer: Toxins.",
+      explanation: "Explanation: Bacteria release chemical toxins that interfere with our body's normal functions.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a person has a very high fever and finds it painful to bend their neck, which bacterial disease should the doctor check for?",
+      answer: "Correct Answer: Meningitis.",
+      explanation: "Explanation:  A stiff neck combined with high fever is a major warning sign of Meningitis.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A local food vendor in your neighbourhood leaves their waakye uncovered and flies are everywhere. What should the community do?",
+      answer: "Correct Answer: Report to health inspectors / Educate the vendor.",
+      explanation: "Explanation: Community management involves ensuring local businesses follow hygiene regulations to protect everyone.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: It is the height of the Harmattan season. How should students manage their sleeping arrangements in a dormitory?",
+      answer: "Correct Answer: Open windows for ventilation.",
+      explanation: "Explanation: Good airflow reduces the risk of air-borne bacterial diseases like Meningitis in crowded spaces.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A person is diagnosed with a bacterial infection. What is the standard medical treatment they will receive at a clinic?",
+      answer: "Correct Answer: Antibiotics.",
+      explanation: "Explanation: Antibiotics are the specific class of medicine used to kill or stop the growth of bacteria.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A researcher discovers that a specific herb found in the Aburi mountains can lower high blood pressure. Which of our three pillars does this discovery represent?",
+      answer: "Correct Answer: Science.",
+      explanation: "Explanation: This is science because it is the process of gaining new knowledge through observation and study of the natural world.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: An engineer uses the discovery of the herb to create a machine that turns the herb into easy-to-swallow tablets. What is the machine an example of?",
+      answer: "Correct Answer: Technology.",
+      explanation: "Explanation: This is technology because it is the application of scientific knowledge to create a tool or machine that solves a problem.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A pharmacy starts a delivery service using an app so that elderly people in Accra can get their blood pressure medicine delivered to their door. What is this new service called?",
+      answer: "Correct Answer: Innovation.",
+      explanation: "Explanation: This is innovation because it is a new way of using tools (the app and the medicine) to improve the lives of people in society.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A hospital in Kumasi installs a new solar power system so they don't have to use a noisy, smoky diesel generator. Is this a positive or negative impact?",
+      answer: "Correct Answer: Positive impact.",
+      explanation: "Explanation: Solar power is renewable and does not produce smoke or pollution, making the air cleaner for everyone.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A person leaves five old, broken television sets in a gutter during a rainstorm. Which environmental problem does this cause?",
+      answer: "Correct Answer: E-waste pollution (Electronic waste).",
+      explanation: "Explanation: Electronics contain toxic chemicals that leak into the water and soil when not disposed of properly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Using an aeroplane to travel from Accra to Tamale in 1 hour instead of driving for 12 hours. This is an advancement in which sector?",
+      answer: "Correct Answer: Transportation.",
+      explanation: "Explanation: Aeroplanes are advanced machines that allow for the fast movement of people and goods across long distances.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In your own words, explain the main difference between weather and climate.",
+      answer: "Correct Answer: Weather is what happens daily or hourly, while climate is the average weather over a very long time, like 30 years.",
+      explanation: "Explanation: Remember the 'mood vs. personality' example. Weather is short-term; climate is long-term.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does global warming lead to flooding in coastal towns like Keta?",
+      answer: "Correct Answer: Global warming melts ice and makes sea water expand, which causes the sea level to rise and overflow onto the land.",
+      explanation: "Explanation: More heat means more melting ice and rising water.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give one example of how a farmer in Ghana might notice climate change.",
+      answer: "Correct Answer: The farmer might notice that the rainy season no longer starts at the usual time or that droughts are lasting much longer.",
+      explanation: "Explanation: Predictable seasons are disappearing because of shifts in weather patterns.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you rub a soil sample and it feels very scratchy and doesn't stay in a ball when you squeeze it, what type of soil is it?",
+      answer: "Correct Answer: Sandy Soil.",
+      explanation: "Explanation: The gritty texture and lack of stickiness are key features of sand.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is Clay soil often used by traditional potters in Ghana to make pots?",
+      answer: "Correct Answer: Because it has very fine particles that become sticky and mouldable when wet.",
+      explanation: "Explanation: Clay's ability to hold its shape is due to its tiny, tightly-packed particles.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A farmer notices that after a heavy rain, his field stays flooded for three days. What soil type does he likely have?",
+      answer: "Correct Answer: Clay Soil.",
+      explanation: "Explanation: Clay has very low drainage, meaning water cannot move through it easily, leading to flooding.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why do we call the root's surface a 'semi-permeable membrane'?",
+      answer: "Correct Answer: Because it only allows certain small molecules like water to pass through while blocking larger particles.",
+      explanation: "Explanation: Like a sieve or a net, it is selective about what enters the plant.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a farmer puts fertilizer on sandy soil right before a heavy rain, why might the fertilizer be wasted?",
+      answer: "Correct Answer: The water will drain through the sand very quickly and wash the dissolved fertilizer away (leaching) before the roots can absorb it.",
+      explanation: "Explanation: Sand doesn't hold onto the 'nutrient soup' long enough.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In Osmosis, does water move toward the area with more salt or less salt?",
+      answer: "Correct Answer: Water moves toward the area with more salt (inside the root).",
+      explanation: "Explanation: Water always moves to 'dilute' higher concentrations of substances.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You find a rock that has very clear layers, like a book. Which family does it likely belong to?",
+      answer: "Correct Answer: Sedimentary Rocks.",
+      explanation: "Explanation: Layers form when sediment (mud and sand) settles over long periods of time.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can a tiny plant root break a hard rock?",
+      answer: "Correct Answer: As the root grows thicker, it exerts pressure on the walls of the crack, eventually forcing the rock to split apart.",
+      explanation: "Explanation: This is an example of biological weathering.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is the hot sun in Ghana considered an agent of weathering?",
+      answer: "Correct Answer: The heat causes the outer layers of the rock to expand and eventually peel off or crack.",
+      explanation: "Explanation: This physical change breaks the rock into smaller fragments.",
+    ),
+  ],
+);
+
 final PracticeModel Scijhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
