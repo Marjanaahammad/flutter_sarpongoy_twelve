@@ -945,6 +945,20 @@ flutter:
     - assets/images/science/SCIENCE JHS3 S5 SS2 L3/
     - assets/images/science/SCIENCE JHS3 S5 SS3 L1/
     - assets/audio/science/JHS3 S5 SS3 L1/
+    - assets/audio/science/JHS3 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS3 L3/
+    - assets/audio/science/JHS3 S5 SS3 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS4 L1/
+    - assets/audio/science/JHS3 S5 SS4 L1/
+    - assets/audio/science/JHS3 S5 SS4 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS4 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L1/
+    - assets/audio/science/JHS3 S5 SS5 L1/
+    - assets/audio/science/JHS3 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L3/
+    - assets/audio/science/JHS3 S5 SS5 L3/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

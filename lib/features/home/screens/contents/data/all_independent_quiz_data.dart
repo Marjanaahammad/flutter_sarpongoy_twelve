@@ -20957,12 +20957,12 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the main cause of the infection known as Ringworm?",
+        question: "1. Which process is used in the dairy industry to kill harmful bacteria in milk?",
         options: [
-          "A small parasite worm",
-          "A type of fungus",
-          "Too much sunlight",
-          "Lack of vitamin C"
+          "Fermentation",
+          "Pasteurisation",
+          "Evaporation",
+          "Malleability"
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -20970,12 +20970,55 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
     ),
 
     IndependentPracticeQuestion(
-        question: "2. Where is Candidiasis most likely to cause white patches?",
+        question: "2. What gas is produced by yeast during the process of fermentation in bread making?",
         options: [
-          "On the elbows",
-          "Inside the mouth",
-          "On the fingernails",
-          "Between the eyes"
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which industry produces hoes, cutlasses, and coalpots?",
+        options: [
+          "Blacksmithing",
+          "Salt Industry",
+          "Dairy Industry",
+          "Bakery Industry"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The process of turning liquid sea water into solid salt crystals using the sun is called:",
+        options: [
+          "Homogenisation",
+          "Fermentation",
+          "Condensation",
+          "Evaporation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of an \"Industry\"?",
+        options: [
+          "A single shop in the market",
+          "A group of firms making one product",
+          "A person who buys a lot of goods",
+          "A lorry that carries food to the city"
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -20983,16 +21026,378 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
     ),
 
     IndependentPracticeQuestion(
-        question: "3. Which habit best prevents fungal infections of the feet?",
+        question: "2. Indigenous industries in Ghana usually rely on:",
         options: [
-          "Wearing heavy boots",
-          "Drying between toes",
-          "Walking in puddles",
-          "Sharing \"chalewote\""
+          "Computer software",
+          "Large robotic arms",
+          "High-voltage electricity",
+          "Manual labour and simple tools"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of the following is a modern industry in Ghana?",
+        options: [
+          "Village palm oil pressing",
+          "Large-scale oil refining in Tema",
+          "Small-scale blacksmithing",
+          "Hand-weaving of Kente cloth"
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The main reason modern industries can produce more goods than indigenous ones is:",
+        options: [
+          "They have more workers",
+          "They use faster machines",
+          "They work only at night",
+          "They use older methods"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which process gives Kenkey its characteristic sour taste?",
+        options: [
+          "Saponification",
+          "Distillation",
+          "Fermentation",
+          "Evaporation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of roasting the Gari over a fire at the end of production?",
+        options: [
+          "To make it turn green",
+          "To add more water to it",
+          "To remove moisture (dehydration)",
+          "To make it grow bigger"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In \"Alata Samina\" production, what provides the alkali needed for the reaction?",
+        options: [
+          "Clear river water",
+          "Burnt cocoa pod or wood ash",
+          "Fresh palm fruit",
+          "Granulated white sugar"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which process is used to separate alcohol from a fermented mixture based on boiling points?",
+        options: [
+          "Saponification",
+          "Distillation",
+          "Filtration",
+          "Milling"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a natural cause of climate change?",
+        options: [
+          "Burning coal",
+          "Ocean currents",
+          "Using cars",
+          "Cutting trees"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main greenhouse gas released by burning petrol?",
+        options: [
+          "Carbon dioxide",
+          "Pure oxygen",
+          "Nitrogen gas",
+          "Liquid water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which action best describes a 'Green Economy'?",
+        options: [
+          "Using more wood fuel",
+          "Increasing factory smoke",
+          "Recycling plastic waste",
+          "Buying more petrol cars"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are orbital changes considered natural factors?",
+        options: [
+          "People change the orbit",
+          "They happen in space",
+          "Factories cause them",
+          "They are very fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which Ghanaian region is home to a major solar power plant?",
+        options: [
+          "Greater Accra",
+          "Upper West",
+          "Central Region",
+          "Western North"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the global agreement to stop the Earth from warming?",
+        options: [
+          "The Ghana Deal",
+          "The Paris Agreement",
+          "The Accra Accord",
+          "The Solar Treaty"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a 'best practice' used by many countries to manage waste?",
+        options: [
+          "Burning plastic",
+          "Dumping in rivers",
+          "Recycling bottles",
+          "Burying old tyres"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do countries compare their climate data?",
+        options: [
+          "To see who is richer",
+          "To learn what works",
+          "To stop all farming",
+          "To increase smoke"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common agricultural use for dried plant leaves?",
+        options: [
+          "Making metal hoes",
+          "Building tractor engines",
+          "Animal bedding (litter)",
+          "Creating plastic bags"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main agricultural benefit of 'nitrogen-fixing' roots found in beans?",
+        options: [
+          "They make the soil wetter",
+          "They improve soil fertility",
+          "They grow into farm tools",
+          "They produce more sunlight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A farmer uses the stem of a sugarcane plant to grow another sugarcane plant. This is called:",
+        options: [
+          "Soil erosion",
+          "Pest control",
+          "Animal feeding",
+          "Planting material"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tree stem is commonly used in Ghana for making sturdy tool handles?",
+        options: [
+          "Rose flower",
+          "Wawa or Mahogany",
+          "Tomato plant",
+          "Water lily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which plant part is most commonly woven to create flexible chairs and baskets?",
+        options: [
+          "Soft flower petals",
+          "Rattan stems",
+          "Tiny seeds",
+          "Thick underground roots"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major non-agricultural use of plant roots in many Ghanaian communities?",
+        options: [
+          "Making tractor fuel",
+          "Traditional herbal medicine",
+          "Building metal bridges",
+          "Creating computer screens"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In Ghana, why might a food vendor use large green leaves to wrap Waakye?",
+        options: [
+          "To make the food taste like meat",
+          "To provide natural packaging",
+          "To make the food heavier",
+          "To keep the food from getting hot"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Bamboo is often used in construction because its stem is:",
+        options: [
+          "Soft and easy to eat",
+          "Strong and durable",
+          "Invisible to the eye",
+          "Made of liquid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in making a wooden handle for a farm tool?",
+        options: [
+          "Painting it bright red",
+          "Selecting a straight branch",
+          "Boiling it in sugar water",
+          "Planting it in the garden"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should rattan stems be soaked in water before weaving a basket?",
+        options: [
+          "To make them change colour",
+          "To make them flexible",
+          "To make them grow bigger",
+          "To wash away the leaves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is the most important factor when sun-drying grass for hay?",
+        options: [
+          "Keeping the grass in the shade",
+          "Turning the grass regularly",
+          "Adding salt to the grass",
+          "Watering the grass daily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. To create a bouquet that lasts, how should you cut the flower stems?",
+        options: [
+          "At a slanted angle",
+          "Using only your hands",
+          "At the very top (the flower)",
+          "Into very tiny pieces"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
     ),
   ],
 );

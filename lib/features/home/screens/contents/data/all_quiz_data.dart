@@ -45630,6 +45630,1238 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What environmental condition do fungi prefer for growth?",
+      options: [
+        "Dry and very cold",
+        "Warm and moist",
+        "Bright and windy",
+        "Dark and freezing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Fungi thrive in tropical, humid, and damp environments.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these is a common symptom of Ringworm on the skin?",
+      options: [
+        "A circular, itchy rash",
+        "Green spots on the nose",
+        "Bleeding from the ears",
+        "Growing taller suddenly"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "The 'ring' shape is the classic identifying mark of this fungal infection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. How is Ringworm most commonly spread among students?",
+      options: [
+        "Through mosquito bites",
+        "Sharing combs or towels",
+        "Drinking untreated water",
+        "Eating unwashed fruits"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Fungal infections spread through direct contact or sharing personal items.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What is 'Thrush' in the mouth caused by?",
+      options: [
+        "A type of bacteria",
+        "A virus like the flu",
+        "The Candida yeast",
+        "Eating too much salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Oral thrush is a common form of Candidiasis.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: [
+        "The teeth",
+        "The nails",
+        "The eyes",
+        "The heart"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Fungi can infect the keratin in nails, making them thick and brittle.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What is the best way to handle a shared locker room floor?",
+      options: [
+        "Walk very quickly",
+        "Wear rubber sandals",
+        "Use plenty of salt",
+        "Sit on the floor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Footwear protects your feet from fungi living on damp floors.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why might Ringworm cause a patch of hair to fall out?",
+      options: [
+        "The fungus eats the hair",
+        "The fungus infects the scalp",
+        "It causes the head to cool",
+        "The person is too worried"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which of these is NOT a fungal disease?",
+      options: [
+        "Candidiasis",
+        "Ringworm",
+        "Hypertension",
+        "Athlete's foot"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. If you have a fungal infection, what should you do with your towel?",
+      options: [
+        "Give it to a sibling",
+        "Use it for a month",
+        "Wash it in hot water",
+        "Keep it in a bag"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Hot water and soap help kill fungal spores on fabric.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A person with a healthy immune system is...",
+      options: [
+        "Never able to get fungi",
+        "Less likely to get Candidiasis",
+        "Guaranteed to have Ringworm",
+        "Stronger than a lion"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "A strong immune system keeps yeasts like Candida in check.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which industry is responsible for making the 'Ghana Must Go' bags?",
+      options: [
+        "The Food Industry",
+        "The Metal Industry",
+        "The Plastic Industry",
+        "The Wood Industry"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "These bags are made from synthetic plastic fibres, making them products of the plastic industry.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these describes an indigenous industry?",
+      options: [
+        "Uses high-tech robots",
+        "Relies on local traditions",
+        "Produces only for export",
+        "Uses only imported tools"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Indigenous industries are based on local traditional knowledge, skills, and practices.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. If several companies all produce cement, they belong to the cement ________.",
+      options: [
+        "Warehouse",
+        "Factory",
+        "Market",
+        "Industry"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "An industry is the collective group of businesses that produce the same type of product.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. A major advantage of modern technology in industry is:",
+      options: [
+        "It is much slower",
+        "It uses less science",
+        "Higher production speed",
+        "It requires no energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Modern machines increase production speed and efficiency compared with manual methods.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is an example of an indigenous industry product?",
+      options: [
+        "A mobile phone",
+        "Hand-pressed gari",
+        "A brand new car",
+        "A laptop computer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Hand-pressed gari is produced using traditional processing methods and is an indigenous product.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Modern industries usually require ________ than indigenous ones.",
+      options: [
+        "More advanced machines",
+        "More manual pounding",
+        "Less scientific study",
+        "Fewer electricity cables"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Modern industries depend on advanced machinery and technology to increase productivity.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why is blacksmithing considered an indigenous industry in Ghana?",
+      options: [
+        "It uses computers",
+        "It uses solar panels",
+        "It uses local methods",
+        "It produces aeroplanes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Blacksmithing uses traditional local techniques such as charcoal forges and hand hammering.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. In which industry would you find companies like FanMilk or Cowbell?",
+      options: [
+        "Construction industry",
+        "The Dairy industry",
+        "The Mining industry",
+        "The Timber industry"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "FanMilk and Cowbell manufacture milk-based products, making them part of the dairy industry.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Technology in industry refers to the ________ used to make products.",
+      options: [
+        "Tools and knowledge",
+        "Prices and labels",
+        "Names of the owners",
+        "Colour of the building"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Technology is the application of scientific knowledge together with tools and techniques to produce goods.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which of these best describes a 'firm'?",
+      options: [
+        "A group of many countries",
+        "All industries in Ghana",
+        "A whole market building",
+        "An individual business"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "A firm is a single business or company. Many firms together make up an industry.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which scientific process is common to both Kenkey and Gari production?",
+      options: [
+        "Distillation",
+        "Saponification",
+        "Fermentation",
+        "Condensation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Both Kenkey and Gari are produced using fermentation, where microorganisms break down starches to improve flavour, texture, and preservation.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What happens to alcohol vapour when it passes through a cold pipe during distillation?",
+      options: [
+        "It turns into a solid",
+        "It turns into a liquid",
+        "It disappears completely",
+        "It catches on fire"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Cooling alcohol vapour causes condensation, changing it back into liquid alcohol.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. The chemical reaction that produces soap is known as ________.",
+      options: [
+        "Evaporation",
+        "Fermentation",
+        "Saponification",
+        "Distillation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Saponification is the reaction between fats or oils and an alkali to produce soap.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Why is palm nut pulp boiled when making traditional palm oil?",
+      options: [
+        "To make it taste sweet",
+        "To release the oil from the fibre",
+        "To turn the oil into a gas",
+        "To make the oil disappear"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Boiling softens the fruit and helps release the trapped palm oil from the fibres.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is a reason for fermenting cassava when making Gari?",
+      options: [
+        "To make the Gari very salty",
+        "To reduce the toxic cyanide levels",
+        "To make the cassava grow larger",
+        "To turn the cassava into metal"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Fermentation reduces the natural cyanide compounds found in fresh cassava, making it safer to eat.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. In distillation, which substance turns into vapour first?",
+      options: [
+        "The water in the mix",
+        "The alcohol in the mix",
+        "The wood in the fire",
+        "The metal in the pipe"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Alcohol has a lower boiling point than water, so it evaporates first during heating.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Traditional Fante Kenkey is wrapped in ________ before boiling.",
+      options: [
+        "Plastic sheets",
+        "Aluminium foil",
+        "Dried plantain leaves",
+        "Old newspapers"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Dried plantain leaves are the traditional wrapping used when preparing Fante Kenkey.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What is the role of the heavy stones used in Gari production?",
+      options: [
+        "To add minerals to the food",
+        "To provide heat for cooking",
+        "To squeeze out excess liquid",
+        "To protect the Gari from birds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Heavy stones press the cassava mash, removing excess water before roasting.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which indigenous industry relies most on the science of chemistry?",
+      options: [
+        "Fishing industry",
+        "Soap making industry",
+        "Wood carving industry",
+        "Basket weaving industry"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Soap making depends on the chemical process called saponification.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. After distillation, the liquid alcohol collected is called a ________.",
+      options: [
+        "Ferment",
+        "Distillate",
+        "Residue",
+        "Reactant"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "The liquid collected after condensation during distillation is known as the distillate.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What is released when fossil fuels are burned in a car engine?",
+      options: [
+        "Carbon dioxide",
+        "Fresh oxygen",
+        "Helpful steam",
+        "Solar energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Burning fossil fuels such as petrol releases carbon dioxide (CO₂), a greenhouse gas, into the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Which of these is a natural factor influencing climate?",
+      options: [
+        "Solar variations",
+        "Road building",
+        "Bush burning",
+        "Oil drilling"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Changes in the Sun's energy output (solar variations) are natural factors that influence Earth's climate.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. In a Green Economy, what should we do with our resources?",
+      options: [
+        "Throw them away",
+        "Use them poorly",
+        "Burn them up",
+        "Use efficiently"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "A Green Economy promotes using resources efficiently to reduce waste and protect the environment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. How do volcanic eruptions affect the Earth's temperature?",
+      options: [
+        "They always warm it",
+        "They can cool it",
+        "No effect at all",
+        "They dry the sea"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Large volcanic eruptions release ash and particles that can block sunlight and temporarily cool the Earth's surface.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which human activity is a major cause of climate change?",
+      options: [
+        "Growing flowers",
+        "Walking to school",
+        "Planting trees",
+        "Deforestation"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Deforestation reduces the number of trees that absorb carbon dioxide, contributing to climate change.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. A Green Economy focuses on being socially...",
+      options: [
+        "Inclusive",
+        "Expensive",
+        "Exclusive",
+        "Reclusive"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "A Green Economy aims to benefit everyone by promoting social inclusion alongside environmental protection.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What do we call the movement of heat around Earth by the sea?",
+      options: [
+        "Air pressure",
+        "Wind speeds",
+        "Ocean currents",
+        "Solar flares"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Ocean currents move warm and cold water around the world, helping redistribute heat.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which of these helps to reduce the greenhouse effect?",
+      options: [
+        "Burning rubbish",
+        "Using solar power",
+        "Driving big cars",
+        "Cutting bushes"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Solar power generates electricity without burning fossil fuels, reducing greenhouse gas emissions.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. What is a 'low carbon' activity?",
+      options: [
+        "Using a generator",
+        "Riding a bicycle",
+        "Burning old tyres",
+        "Flying airplanes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Riding a bicycle produces little or no carbon emissions because it does not require fuel.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. The Green Economy aims to reduce environmental...",
+      options: [
+        "Profits",
+        "Health",
+        "Growth",
+        "Risks"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "A Green Economy seeks to reduce environmental risks while promoting sustainable development.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which international group organizes global climate change meetings?",
+      options: [
+        "FIFA",
+        "ECOWAS",
+        "United Nations",
+        "Ghana Education"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "The United Nations (through the UNFCCC) organizes major international climate change meetings and agreements.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. The Kaleo Power Plant in Ghana produces electricity using...",
+      options: [
+        "Burning coal",
+        "Falling water",
+        "Solar energy",
+        "Diesel fuel"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Kaleo Solar Power Plant generates electricity from solar energy.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. What is the goal of 'Green Ghana Day'?",
+      options: [
+        "To build houses",
+        "To plant trees",
+        "To pave roads",
+        "To sell timber"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Green Ghana Day encourages tree planting to increase forest cover and absorb carbon dioxide.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which country was mentioned as a world leader in recycling?",
+      options: [
+        "Nigeria",
+        "Norway",
+        "Togo",
+        "Brazil"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Norway is recognized for having one of the world's most advanced recycling systems.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What does 'Net Zero' mean for a country?",
+      options: [
+        "Zero trees left",
+        "No money spent",
+        "No extra carbon",
+        "Zero people"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Net Zero means balancing the amount of carbon released with the amount removed or absorbed.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Why is electric transport better for the environment?",
+      options: [
+        "It is faster",
+        "It costs more",
+        "It uses no fuel",
+        "No smoke released"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "Electric vehicles produce no exhaust emissions while driving, reducing air pollution.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. A 'carbon tax' is a policy used to...",
+      options: [
+        "Reward polluters",
+        "Fine polluters",
+        "Stop all taxes",
+        "Buy more coal"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "A carbon tax charges companies or individuals for the greenhouse gases they emit.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which of these is an 'international initiative' mentioned in the text?",
+      options: [
+        "Kejetia Market",
+        "Kyoto Protocol",
+        "School feeding",
+        "Free SHS"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Kyoto Protocol was one of the first major international agreements aimed at reducing greenhouse gas emissions.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. What is a major challenge for climate action in Ghana?",
+      options: [
+        "Too much snow",
+        "Protecting forests",
+        "Lack of sunshine",
+        "No Atlantic Ocean"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Protecting forests is essential because deforestation is a major contributor to climate change in Ghana.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. The practice of 'Reducing, Reusing, and Recycling' is known as...",
+      options: [
+        "Resource efficiency",
+        "Carbon burning",
+        "Forest clearing",
+        "Ocean cooling"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "Resource efficiency means using materials wisely and minimizing waste through reducing, reusing, and recycling.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. What part of the cassava plant is typically planted to grow a new crop?",
+      options: [
+        "The flower",
+        "The fruit",
+        "The stem",
+        "The seed"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Cassava is propagated through stem cuttings rather than seeds.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Farmers use dried grass and leaves as 'hay' primarily for what purpose?",
+      options: [
+        "Lighting fires",
+        "Animal feed",
+        "Making clothes",
+        "Paving roads"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Hay is dried plant material that is used as fodder to feed livestock.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which process describes using plant roots to add nutrients back into the earth?",
+      options: [
+        "Soil improvement",
+        "Crop harvesting",
+        "Weed pulling",
+        "Water drainage"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Leguminous plants improve soil fertility through nitrogen-fixing roots.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Why might a farmer place dried maize husks on the floor of a chicken coop?",
+      options: [
+        "To grow more maize",
+        "To attract pests",
+        "To provide litter",
+        "To cool the air"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Plant materials such as dried maize husks are commonly used as litter or bedding for farm animals.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. The handles of many traditional Ghanaian hoes are made from:",
+      options: [
+        "Recycled plastic",
+        "Animal bones",
+        "Hardened clay",
+        "Woody stems"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Woody stems from trees provide the strong wood needed for tool handles.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Certain plant roots are used in agriculture to keep insects away. This is known as:",
+      options: [
+        "Soil fertility",
+        "Pest control",
+        "Stem cutting",
+        "Animal housing"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Some plant roots act as natural pest-control agents by repelling insects.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Which of these crops is most likely to help improve nitrogen levels in the soil?",
+      options: [
+        "Cowpea",
+        "Pineapple",
+        "Coconut",
+        "Cassava"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Cowpea is a legume that fixes nitrogen, helping improve soil fertility.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Vegetative propagation refers to growing plants from:",
+      options: [
+        "Only seeds",
+        "Animal waste",
+        "Plant parts",
+        "Pure water"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      "Vegetative propagation uses plant parts such as stems, roots, or leaves instead of seeds.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Fresh cassava leaves are often used on a farm to:",
+      options: [
+        "Make tractor oil",
+        "Feed livestock",
+        "Build fences",
+        "Paint the barn"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Fresh cassava leaves can be used as nutritious feed for livestock such as goats.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which plant part is essential for making a 'pickaxe' handle?",
+      options: [
+        "The leaf",
+        "The root",
+        "The flower",
+        "The stem"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "The stem (trunk) of a tree provides the timber used to make strong tool handles.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which plant part is used to make a wreath for a funeral ceremony?",
+      options: [
+        "Roots and seeds",
+        "Leaves and flowers",
+        "Stems and bark only",
+        "Fruit and vegetables"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Wreaths are decorative arrangements commonly made from leaves and flowers.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Rattan is a popular material for furniture because its stem is:",
+      options: [
+        "Very brittle",
+        "Flexible and strong",
+        "Sweet to the taste",
+        "Always bright blue"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Rattan stems are flexible and strong, making them ideal for weaving furniture.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Traditional 'bitters' used for health are often extracted from which part?",
+      options: [
+        "The flower",
+        "The fruit",
+        "The root",
+        "The leaf"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Roots are a primary source of medicinal compounds in traditional herbal medicine.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What is the main reason for using Mahogany or Odum wood in carpentry?",
+      options: [
+        "It is very light like paper",
+        "It provides strong timber",
+        "It turns into water",
+        "It grows into a chair"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Mahogany and Odum produce strong, durable timber suitable for carpentry.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which of these is a non-agricultural use of a plant leaf?",
+      options: [
+        "Feeding it to a goat",
+        "Wrapping food like Kenkey",
+        "Planting it to grow corn",
+        "Using it as cow bedding"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Using leaves as food wrappers is a household or industrial use rather than an agricultural one.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Natural dyes for traditional cloths can be obtained from plant:",
+      options: [
+        "Roots",
+        "Seeds",
+        "Air",
+        "Soil"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+      "Pigments extracted from certain plant roots are traditionally used to dye fabrics.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. How is bamboo used in the construction of a new house?",
+      options: [
+        "For making glass windows",
+        "As scaffolding or fencing",
+        "To create electricity",
+        "As a source of water"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Strong bamboo stems are commonly used for scaffolding and fencing during construction.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. In a science class, using a leaf to study its veins is an example of:",
+      options: [
+        "An agricultural purpose",
+        "A ritual purpose",
+        "An educational purpose",
+        "A medicinal purpose"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Studying plant parts in class is an educational activity.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Mining companies use strong wooden stems to:",
+      options: [
+        "Find gold faster",
+        "Support underground tunnels",
+        "Feed the miners",
+        "Clean the air"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Timber stems are used as structural supports in underground mines.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. A bouquet of flowers is most likely to be seen at which event?",
+      options: [
+        "A football match",
+        "A planting season",
+        "A wedding ceremony",
+        "A rainy day"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Flowers are commonly used as decorations and gifts during wedding ceremonies.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which plant part is modified to create a 'mini-sett' for planting?",
+      options: [
+        "The root",
+        "The flower",
+        "The stem",
+        "The leaf"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Stems of crops like cassava are cut into mini-setts for propagation.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. The process of drying grass in the sun to create animal feed is called:",
+      options: [
+        "Harvesting",
+        "Curing",
+        "Weeding",
+        "Planting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Curing is the technical term for drying hay to preserve it for livestock feed.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Why is a sharp cutlass used when preparing stem cuttings?",
+      options: [
+        "To make the stem look pretty",
+        "To ensure a clean, healthy cut",
+        "To kill the plant quickly",
+        "To make the stem grow faster"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Clean cuts reduce damage and help prevent disease in the planting material.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. When making a flower bouquet, which part is used to add greenery and volume?",
+      options: [
+        "The seeds",
+        "The roots",
+        "The leaves",
+        "The fruit"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Leaves (foliage) are used to fill out and support floral arrangements.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What happens to a leaf when it is 'wilted' over a fire for food packaging?",
+      options: [
+        "It becomes very brittle",
+        "It turns into a liquid",
+        "It becomes flexible",
+        "It disappears completely"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Heat softens the leaf, making it pliable for wrapping food.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which plant part would you use to create a natural dye for a craft project?",
+      options: [
+        "The stem",
+        "The root",
+        "The air",
+        "The stone"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Roots of certain plants contain pigments traditionally used as natural dyes.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Sanding a wooden tool handle is important because it:",
+      options: [
+        "Makes the tool much heavier",
+        "Protects the user's hands",
+        "Makes the wood grow back",
+        "Keeps the wood very wet"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Sanding removes splinters and creates a smooth, safe grip.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. In basket weaving, what is the purpose of the 'criss-cross' pattern?",
+      options: [
+        "To make it fall apart",
+        "To provide structural strength",
+        "To make the basket invisible",
+        "To trap water inside"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      "Interlocking stems create a strong, durable woven structure.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. A wreath for a ceremony is usually built upon a circular frame made from:",
+      options: [
+        "Heavy iron bars",
+        "Flexible plant stems",
+        "Crumpled paper",
+        "Solid blocks of ice"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Flexible stems or vines are commonly used as the base of traditional wreaths.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which of the following is an agricultural material created from plants?",
+      options: [
+        "A flower bouquet",
+        "A bundle of hay",
+        "A woven rattan chair",
+        "A traditional medicine"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "Hay is dried plant material prepared specifically as livestock feed.",
+    ),
+  ],
+);
 
 ///Math
 final QuizModel MATHjhs1s1ss1QuizData = QuizModel(

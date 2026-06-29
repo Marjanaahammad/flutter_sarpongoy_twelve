@@ -8607,15 +8607,160 @@ final PracticeModel Scijhs3s5ss3Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1.Question: Esi noticed a round, itchy red patch on her arm after sharing a sweater with a friend. What is likely happening?",
-      answer: "Correct Answer: She has likely contracted Ringworm from the shared clothing.",
-      explanation: "Explanation: Fungi can live on fabric; sharing unwashed clothes is a common way for the infection to jump from person to person.",
+      scenario: "1.Question: A baker forgets to add yeast to his dough. Describe what the bread will look like after it is baked.",
+      answer: "Correct Answer: The bread will be flat, hard, and heavy.",
+      explanation: "Explanation: Without yeast, fermentation cannot occur. This means no carbon dioxide gas is produced to create the air pockets that make bread light and fluffy.",
     ),
     PracticeQuestion(
-      scenario: "2.Question: Why is it a bad idea for a student to wear the same sweaty socks for three days in a row?",
-      answer: "Correct Answer: The dark, damp, and warm environment inside the socks is perfect for fungi to grow.",
-      explanation: "Explanation: To prevent \"Athlete's foot,\" students should change into clean, dry socks every day and let their shoes air out.",
-    )
+      scenario: "2.Question: Why must a blacksmith heat a piece of iron to a very high temperature before shaping it into an axe?",
+      answer: "Correct Answer: To make the metal malleable.",
+      explanation: "Explanation: Heating the metal increases its malleability, allowing the blacksmith to change its shape without the metal breaking.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: In salt production, what happens to the sea water when it is left in the sun?",
+      answer: "Correct Answer: The water evaporates into the air.",
+      explanation: "Explanation: The sun provides heat energy that changes the liquid water into water vapour (gas), leaving the solid salt crystals behind in the pan.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A woman in a village uses a mortar and pestle to pound palm nuts for oil. Is this indigenous or modern technology?",
+      answer: "Correct Answer: Indigenous technology.",
+      explanation: "Explanation: She is using manual labour and a traditional, simple tool (the mortar and pestle) that has been used in Ghana for generations.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A group of companies all making the same type of fruit juice is called the ________ industry.",
+      answer: "Correct Answer: Beverage (or Fruit Juice) industry.",
+      explanation: "Explanation: An industry is defined as a group of firms or companies producing the same commodity or service.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A factory uses a computer-controlled machine to weave 1,000 metres of fabric in an hour. Why is this considered modern?",
+      answer: "Correct Answer: Because it uses advanced machinery and automation.",
+      explanation: "Explanation: Modern industry is characterised by the use of complex technology to produce goods at high speeds and in large quantities.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is grated cassava kept in a sack for two or three days when making Gari?",
+      answer: "Correct Answer: To allow for fermentation and to squeeze out excess water.",
+      explanation: "Explanation: Fermentation helps develop the flavour and remove toxins, while the time in the sack under pressure removes moisture.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: In the production of local alcohol, what happens during the \"condensation\" stage?",
+      answer: "Correct Answer: The hot alcohol vapour cools down and turns back into a liquid.",
+      explanation: "Explanation: Condensation is the scientific process of a gas (vapour) turning back into a liquid when it is cooled.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What are the two main ingredients needed for the chemical reaction of saponification (soap making)?",
+      answer: "Correct Answer: Fats (oils) and an alkali (like wood ash solution).",
+      explanation: "Explanation: Saponification requires a fat and a strong base (alkali) to react together to form soap.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A large volcano erupts and covers the sky with ash. Is this a natural or human factor?",
+      answer: "Correct Answer: This is a natural factor.",
+      explanation: "Explanation: Volcanic eruptions happen due to the Earth's internal heat and are not caused by people.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A company in Tema decides to use solar panels instead of a diesel generator. Which part of the green economy is this?",
+      answer: "Correct Answer: This is low carbon energy (or renewable energy).",
+      explanation: "Explanation: Using the sun instead of burning fuel reduces the amount of CO₂ released.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does cutting down trees in the forest lead to global warming?",
+      answer: "Correct Answer: Because trees absorb carbon dioxide.",
+      explanation: "Explanation: Without trees, there is more carbon dioxide in the air to trap heat.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Planting millions of trees on 'Green Ghana Day.' Where is this initiative focused?",
+      answer: "Correct Answer: This is a key initiative in Ghana.",
+      explanation: "Explanation: It is a local program designed to restore Ghana's forest cover.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Using high-speed electric trains to travel between cities. Is this currently a major climate action in Ghana or in places like Europe and China?",
+      answer: "Correct Answer: This is more common in Europe and China.",
+      explanation: "Explanation: While Ghana is improving transport, high-speed electric rail is currently a major global technology.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Signing the Paris Agreement to help the whole world stay cool.",
+      answer: "Correct Answer: This involves both Ghana and other countries.",
+      explanation: "Explanation: The Paris Agreement is an international treaty that almost every country in the world has joined.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a farmer in Ghana wants to plant new cassava, which part of the existing plant should they use?",
+      answer: "Correct Answer: The stem (cuttings).",
+      explanation: "Explanation: Cassava is grown using vegetative propagation, where the stem is cut into pieces and planted to grow new roots and leaves.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why would a farmer grow beans or peas in a field that has 'tired' or poor soil?",
+      answer: "Correct Answer: To improve soil fertility.",
+      explanation: "Explanation: Legumes like beans have roots that fix nitrogen into the soil, acting as a natural fertiliser for the next crop.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Give one example of how plant stems are used to help a farmer handle their work physically.",
+      answer: "Correct Answer: Stems are used to make tool handles.",
+      explanation: "Explanation: Strong wood from tree stems is shaped into handles for hoes and axes, which are essential for manual farming in Ghana.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A carpenter in Kumasi is making a traditional Ashanti stool. Which part of the tree is he primarily using?",
+      answer: "Correct Answer: The stem (trunk).",
+      explanation: "Explanation: The stem of large trees provides the solid timber required for carving furniture and traditional stools.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why are wreaths made of flowers and leaves used at funerals in Ghana?",
+      answer: "Correct Answer: For ceremonial purposes and to show respect.",
+      explanation: "Explanation: In a non-agricultural context, flowers and leaves are used as symbols in rituals and ceremonies like funerals and weddings.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: How does a root contribute to the beauty of a piece of Kente cloth?",
+      answer: "Correct Answer: By providing natural dyes.",
+      explanation: "Explanation: Many plant roots contain pigments that are used to create natural dyes for colouring the threads used in weaving.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why does a farmer spread grass out in the sun for several days before storage?",
+      answer: "Correct Answer: To make hay (curing).",
+      explanation: "Explanation: Drying the grass removes moisture, which prevents the growth of mould and allows the grass to be stored for a long time as animal feed.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the purpose of passing a plantain leaf over a fire before using it to wrap food?",
+      answer: "Correct Answer: To make it flexible (wilting).",
+      explanation: "Explanation: The heat softens the leaf fibers, preventing the leaf from cracking when it is folded around the food.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: When preparing a cassava stem for planting, why is it important to have 'nodes' on the cutting?",
+      answer: "Correct Answer: Because new shoots grow from the nodes.",
+      explanation: "Explanation: Nodes contain the buds necessary for the plant to sprout new leaves and stems after being placed in the soil.",
+    ),
   ],
 );
 

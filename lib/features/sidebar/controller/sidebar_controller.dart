@@ -2141,8 +2141,23 @@ class SidebarController extends GetxController {
           "subtitle": "HUMANS AND THE ENVIRONMENT",
           "subStrands": [
             {
-              "subtitle": "Magnetism",
-              "topics": ["Electromagnets"],
+              "subtitle": "WASTE MANAGEMENT",
+              "topics": ["Scientific Methods of Waste Management (Recycling and Composting)", "Scientific Principles Underlying Waste Management Methods", "Auditing and Assessing Waste Management Effectiveness","The Environmental Impact of Waste",
+                "Innovative Waste Management for Sustainable Development", "Waste Types and Management Practices in Ghana"],
+            },
+            {
+              "subtitle": "HUMAN HEALTH",
+              "topics": ["Non-Communicable Diseases (NCDs)", "Concepts of Health and Common Diseases", "Fungal Diseases (Ringworm and Candidiasis)"],
+            },{
+              "subtitle": "SCIENCE AND INDUSTRY",
+              "topics": ["Scientific Concepts in Local Industries", "Modern vs. Indigenous Industries", "Scientific Processes in Indigenous Industries"],
+            },
+            {
+              "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
+              "topics": ["Factors Influencing Climate Change", "Climate Change Actions in Ghana and the World"],
+            },{
+              "subtitle": "UNDERSTANDING THE ENVIRONMENT",
+              "topics": ["Agricultural Uses of Plant Parts", "Non-Agricultural Uses of Plant Parts", "Creating and Demonstrating Plant Part Uses"],
             },
           ],
         },
@@ -5188,6 +5203,176 @@ class SidebarController extends GetxController {
                 practiceData = Scijhs3s4ss5Lesson3PracticeData;
                 independentPracticeData = Scijhs3s4ss5Lesson3IndependentQuizData;
                 quizData = Scijhs3s4ss5Lesson3QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS3s5ss1Lesson1GetReadyData;
+                learnData = Scijh3s5ss1Lesson1LearnData;
+                practiceData = Scijhs3s5ss1Lesson1PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson1IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson1QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS3s5ss1Lesson1GetReadyData;
+                learnData = Scijh3s5ss1Lesson2LearnData;
+                practiceData = Scijhs3s5ss1Lesson2PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson2IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson2QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS3s5ss1Lesson3GetReadyData;
+                learnData = Scijh3s5ss1Lesson3LearnData;
+                practiceData = Scijhs3s5ss1Lesson3PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson3IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson3QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = SciJHS3s5ss1Lesson4GetReadyData;
+                learnData = Scijh3s5ss1Lesson4LearnData;
+                practiceData = Scijhs3s5ss1Lesson4PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson4IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson4QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                getReadyData = SciJHS3s5ss1Lesson5GetReadyData;
+                learnData = Scijh3s5ss1Lesson5LearnData;
+                practiceData = Scijhs3s5ss1Lesson5PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson5IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson5QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                getReadyData = SciJHS3s5ss1Lesson6GetReadyData;
+                learnData = Scijh3s5ss1Lesson6LearnData;
+                practiceData = Scijhs3s5ss1Lesson6PracticeData;
+                independentPracticeData = Scijhs3s5ss1Lesson6IndependentQuizData;
+                quizData = Scijhs3s5ss1Lesson6QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS3s5ss2Lesson1GetReadyData;
+                learnData = Scijh3s5ss2Lesson1LearnData;
+                practiceData = Scijhs3s5ss2Lesson1PracticeData;
+                independentPracticeData = Scijhs3s5ss2Lesson1IndependentQuizData;
+                quizData = Scijhs3s5ss2Lesson1QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS3s5ss2Lesson2GetReadyData;
+                learnData = Scijh3s5ss2Lesson2LearnData;
+                practiceData = Scijhs3s5ss2Lesson2PracticeData;
+                independentPracticeData = Scijhs3s5ss2Lesson2IndependentQuizData;
+                quizData = Scijhs3s5ss2Lesson2QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS3s5ss2Lesson3GetReadyData;
+                learnData = Scijh3s5ss2Lesson3LearnData;
+                practiceData = Scijhs3s5ss2Lesson3PracticeData;
+                independentPracticeData = Scijhs3s5ss2Lesson3IndependentQuizData;
+                quizData = Scijhs3s5ss2Lesson3QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS3s5ss3Lesson1GetReadyData;
+                learnData = Scijh3s5ss3Lesson1LearnData;
+                practiceData = Scijhs3s5ss3Lesson1PracticeData;
+                independentPracticeData = Scijhs3s5ss3Lesson1IndependentQuizData;
+                quizData = Scijhs3s5ss3Lesson1QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS3s5ss3Lesson2GetReadyData;
+                learnData = Scijh3s5ss3Lesson2LearnData;
+                practiceData = Scijhs3s5ss3Lesson2PracticeData;
+                independentPracticeData = Scijhs3s5ss3Lesson2IndependentQuizData;
+                quizData = Scijhs3s5ss3Lesson2QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS3s5ss3Lesson3GetReadyData;
+                learnData = Scijh3s5ss3Lesson3LearnData;
+                practiceData = Scijhs3s5ss3Lesson3PracticeData;
+                independentPracticeData = Scijhs3s5ss3Lesson3IndependentQuizData;
+                quizData = Scijhs3s5ss3Lesson3QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS3s5ss4Lesson1GetReadyData;
+                learnData = Scijh3s5ss4Lesson1LearnData;
+                practiceData = Scijhs3s5ss4Lesson1PracticeData;
+                independentPracticeData = Scijhs3s5ss4Lesson1IndependentQuizData;
+                quizData = Scijhs3s5ss4Lesson1QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS3s5ss4Lesson2GetReadyData;
+                learnData = Scijh3s5ss4Lesson2LearnData;
+                practiceData = Scijhs3s5ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs3s5ss4Lesson2IndependentQuizData;
+                quizData = Scijhs3s5ss4Lesson2QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 4 &&
+                  lIndex == 0) {
+                getReadyData = SciJHS3s5ss5Lesson1GetReadyData;
+                learnData = Scijh3s5ss5Lesson1LearnData;
+                practiceData = Scijhs3s5ss5Lesson1PracticeData;
+                independentPracticeData = Scijhs3s5ss5Lesson1IndependentQuizData;
+                quizData = Scijhs3s5ss5Lesson1QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 4 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS3s5ss5Lesson2GetReadyData;
+                learnData = Scijh3s5ss5Lesson2LearnData;
+                practiceData = Scijhs3s5ss5Lesson2PracticeData;
+                independentPracticeData = Scijhs3s5ss5Lesson2IndependentQuizData;
+                quizData = Scijhs3s5ss5Lesson2QuizData;
+              }if (grade == "JHS 3" &&
+                  courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 4 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS3s5ss5Lesson3GetReadyData;
+                learnData = Scijh3s5ss5Lesson3LearnData;
+                practiceData = Scijhs3s5ss5Lesson3PracticeData;
+                independentPracticeData = Scijhs3s5ss5Lesson3IndependentQuizData;
+                quizData = Scijhs3s5ss5Lesson3QuizData;
               }
 
               if (courseTitle == "Math" &&
