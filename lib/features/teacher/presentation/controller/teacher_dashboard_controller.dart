@@ -37,6 +37,10 @@ class TeacherDashboardController extends BaseController {
   final RxnDouble filterMinQuizScore = RxnDouble();
   final RxnDouble filterMaxQuizScore = RxnDouble();
 
+  // Sorting variables
+  final RxString sortBy = 'none'.obs; // 'none', 'studentName', 'userId', etc.
+  final RxString sortOrder = 'ASC'.obs; // 'ASC' or 'DESC'
+
   List<StudentItem> _allStudents = [];
   final RxInt currentPage = 1.obs;
   static const int pageSize = 10;
@@ -52,11 +56,12 @@ class TeacherDashboardController extends BaseController {
         filterGrade.value == 'All' &&
         filterSubject.value == 'All' &&
         filterMinQuizScore.value == null &&
-        filterMaxQuizScore.value == null) {
+        filterMaxQuizScore.value == null &&
+        sortBy.value == 'none') {
       return _allStudents;
     }
 
-    return _allStudents.where((student) {
+    final filtered = _allStudents.where((student) {
       final matchesSearch = searchQuery.isEmpty ||
           student.studentName.toLowerCase().contains(
                 searchQuery.value.toLowerCase(),
@@ -101,6 +106,56 @@ class TeacherDashboardController extends BaseController {
           matchesMinScore &&
           matchesMaxScore;
     }).toList();
+
+    // Apply sorting
+    if (sortBy.value != 'none') {
+      filtered.sort((a, b) {
+        dynamic valA;
+        dynamic valB;
+
+        switch (sortBy.value) {
+          case 'studentName':
+            valA = a.studentName;
+            valB = b.studentName;
+            break;
+          case 'userId':
+            valA = a.userId;
+            valB = b.userId;
+            break;
+          case 'gradeLevel':
+            valA = a.gradeLevel;
+            valB = b.gradeLevel;
+            break;
+          case 'status':
+            valA = a.status;
+            valB = b.status;
+            break;
+          case 'avgQuizScore':
+            valA = a.avgQuizScore;
+            valB = b.avgQuizScore;
+            break;
+          default:
+            return 0;
+        }
+
+        if (valA == null && valB == null) return 0;
+        if (valA == null) return 1;
+        if (valB == null) return -1;
+
+        int cmp;
+        if (valA is String) {
+          cmp = valA.compareTo(valB.toString());
+        } else if (valA is num) {
+          cmp = valA.compareTo(valB as num);
+        } else {
+          return 0;
+        }
+
+        return sortOrder.value == 'ASC' ? cmp : -cmp;
+      });
+    }
+
+    return filtered;
   }
 
   void _updateStudentInfo() {
@@ -178,6 +233,14 @@ class TeacherDashboardController extends BaseController {
       currentPage.value = 1;
       _updateStudentInfo();
     });
+    ever(sortBy, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
+    ever(sortOrder, (_) {
+      currentPage.value = 1;
+      _updateStudentInfo();
+    });
     ever(currentPage, (_) {
       _updateStudentInfo();
     });
@@ -225,6 +288,8 @@ class TeacherDashboardController extends BaseController {
     final result = await _teacherRepository.fetchStudent(
       page: 1,
       limit: 10000,
+      sortBy: sortBy.value == 'none' ? null : sortBy.value,
+      order: sortBy.value == 'none' ? null : sortOrder.value.toLowerCase(),
     );
 
     result.fold(

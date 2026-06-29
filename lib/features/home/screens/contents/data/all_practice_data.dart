@@ -5395,7 +5395,7 @@ final PracticeModel Scijhs1s2ss4Lesson4PracticeData = PracticeModel(
     PracticeQuestion(
       scenario: "3. Question: Which animal by-product might be used by a carpenter to help stick pieces of wood together?",
       answer: "Correct Answer: Glue made from animal hooves or horns.",
-      explanation: "Explanation: THooves and horns contain proteins that can be processed into strong adhesives.",
+      explanation: "Explanation: Hooves and horns contain proteins that can be processed into strong adhesives.",
     ),
   ],
 );

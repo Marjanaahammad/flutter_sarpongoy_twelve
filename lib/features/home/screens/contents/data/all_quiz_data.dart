@@ -24710,7 +24710,7 @@ final QuizModel Scijhs1s1ss2Lesson1QuizData = QuizModel(
         "The playground",
         "The school gate",
         "The classroom",
-        "The Principal"
+        "The Headmaster"
       ],
       correctIndex: 3,
       difficulty: "Easy",

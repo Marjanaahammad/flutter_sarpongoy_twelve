@@ -11,7 +11,7 @@ abstract class TeachDashboardRepository {
     String? subject,
   });
   NetworkResult<GetTeacherStudentResponseModel> fetchStudent(
-      {int? page, int? limit});
+      {int? page, int? limit, String? sortBy, String? order});
   NetworkResult<SubjectListResponseModel> fetchSubject();
   NetworkResult<GetStudentDetailsResponseModel> fetchStudentDetails(
     String studentId, {
