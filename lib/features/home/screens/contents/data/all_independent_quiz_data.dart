@@ -12199,55 +12199,55 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a biotic component of a forest?",
+        question: "1. Which part of the alimentary canal connects the mouth to the stomach?",
         options: [
-          "The sunlight",
-          "The damp soil",
-          "The fungi",
-          "The wind"
+          "Small intestine",
+          "Large intestine",
+          "Oesophagus",
+          "Pancreas"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fungi are living organisms, so they are biotic components of a forest ecosystem."
+        explanation: "C"
     ),
 
     IndependentPracticeQuestion(
-        question: "2. Which instrument is used to measure an abiotic factor?",
+        question: "2. What is the name of the enzyme found in saliva?",
         options: [
-          "A microscope",
-          "A rain gauge",
-          "A ruler",
-          "A calculator"
+          "Pepsin",
+          "Ptyalin",
+          "Insulin",
+          "Rennin"
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A rain gauge is used to measure rainfall, which is an abiotic factor."
+        explanation: "B"
     ),
 
     IndependentPracticeQuestion(
-        question: "3. Which abiotic factor is most important for a plant to make food?",
+        question: "3. In which organ is hydrochloric acid produced to help digestion?",
         options: [
-          "Large rocks",
-          "The sunlight",
-          "Small insects",
-          "Earthworms"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Plants need sunlight for photosynthesis to make their food."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
-        options: [
-          "A biotic factor",
-          "A living fish",
-          "An abiotic factor",
-          "A sea plant"
+          "The mouth",
+          "The liver",
+          "The stomach",
+          "The anus"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Salinity refers to the salt content of water, which is an abiotic factor."
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What happens to food in the small intestine?",
+        options: [
+          "It is chewed by teeth",
+          "Digestion is completed",
+          "It is turned into bolus",
+          "It is stored for days"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
     ),
   ],
 );
@@ -12255,55 +12255,55 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
+        question: "1. What is the final form of oils and fats after digestion is complete?",
         options: [
-          "Land rotation",
-          "Single cropping",
-          "Crop rotation",
-          "Bush burning"
+          "Amino acids",
+          "Simple sugars",
+          "Fatty acids and glycerol",
+          "Starch and fibre"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Crop rotation helps maintain soil fertility naturally without depending on chemicals."
+        explanation: "C"
     ),
 
     IndependentPracticeQuestion(
-        question: "2. A farmer who wants to avoid water pollution should choose which system?",
+        question: "2. Which part of the body is primarily responsible for absorbing nutrients?",
         options: [
-          "Organic farming",
-          "Chemical farming",
-          "Land rotation",
-          "Single cropping"
+          "The mouth",
+          "Small intestine",
+          "The oesophagus",
+          "Large intestine"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Proteins are broken down into which of the following?",
+        options: [
+          "Glucose",
+          "Fatty acids",
+          "Saliva",
+          "Amino acids"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What do we call the tiny, finger-like projections that soak up food?",
+        options: [
+          "Villi",
+          "Teeth",
+          "Enzymes",
+          "Muscles"
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Organic farming avoids harmful chemicals that can pollute water sources."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "3. The primary merit of Mixed Cropping is:",
-        options: [
-          "Less work for the farmer",
-          "Reducing risk of crop failure",
-          "Using heavy machinery",
-          "Moving to a new forest"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Mixed cropping reduces the risk of total crop failure because different crops grow together."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. What is a demerit of Organic Farming?",
-        options: [
-          "It poisons the water",
-          "It is very labour-intensive",
-          "It uses too much land",
-          "It kills all the soil"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Organic farming often requires more manual labour and management."
+        explanation: "A"
     ),
   ],
 );

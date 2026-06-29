@@ -3606,8 +3606,7 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS1s3ss1Lesson2GetReadyData;
                 learnData = Scijh1s3ss1Lesson2LearnData;
                 practiceData = Scijhs1s3ss1Lesson2PracticeData;
-                independentPracticeData =
-                    Scijhs1s3ss1Lesson2IndependentQuizData;
+                independentPracticeData = Scijhs1s3ss1Lesson2IndependentQuizData;
                 quizData = Scijhs1s3ss1Lesson2QuizData;
               }
               if (courseTitle == "Science" &&
@@ -3617,8 +3616,7 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS1s3ss1Lesson3GetReadyData;
                 learnData = Scijh1s3ss1Lesson3LearnData;
                 practiceData = Scijhs1s3ss1Lesson3PracticeData;
-                independentPracticeData =
-                    Scijhs1s3ss1Lesson3IndependentQuizData;
+                independentPracticeData = Scijhs1s3ss1Lesson3IndependentQuizData;
                 quizData = Scijhs1s3ss1Lesson3QuizData;
               }
               if (courseTitle == "Science" &&

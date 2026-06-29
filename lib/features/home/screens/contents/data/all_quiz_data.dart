@@ -26192,115 +26192,151 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What does the term 'Biotic' mean?",
-      options: ["Non-living", "Very small", "Living parts", "Very cold"],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation: "Biotic refers to all living organisms.",
-    ),
-    QuizQuestion(
-      question: "2. Which of these is an abiotic factor in a river?",
+      question: "1. Where does the process of digestion begin in the human body?",
       options: [
-        "The catfish",
-        "The water flow",
-        "The water lily",
-        "The bacteria"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "The movement/speed of water is a physical, non-living factor.",
-    ),
-    QuizQuestion(
-      question: "3. Why is soil considered an abiotic component?",
-      options: [
-        "It is not alive",
-        "It has plants",
-        "It is very green",
-        "It can breathe"
-      ],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation:
-          "Soil is made of minerals and organic matter but is not a living organism itself.",
-    ),
-    QuizQuestion(
-      question: "4. Which list contains ONLY biotic components?",
-      options: [
-        "Goat, Sun, Grass",
-        "Tree, Bird, Fish",
-        "Soil, Wind, Rock",
-        "Rain, Frog, Air"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Trees, birds, and fish are all living things.",
-    ),
-    QuizQuestion(
-      question: "5. Which instrument measures wind speed?",
-      options: ["Thermometer", "Photometer", "Anemometer", "Rain gauge"],
-      correctIndex: 2,
-      difficulty: "High",
-      explanation:
-          "An anemometer is the specific tool for measuring wind speed.",
-    ),
-    QuizQuestion(
-      question: "6. An elephant in Mole National Park is a...",
-      options: [
-        "Biotic factor",
-        "Abiotic factor",
-        "Physical factor",
-        "Chemical factor"
+        "In the mouth",
+        "In the stomach",
+        "In the gullet",
+        "In the liver"
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Elephants are living organisms.",
+      explanation:
+      "Digestion begins in the mouth where chewing and saliva start breaking down food.",
     ),
-    QuizQuestion(
-      question: "7. What is the name for abiotic factors related to soil?",
-      options: [
-        "Aquatic factors",
-        "Edaphic factors",
-        "Biotic factors",
-        "Aerial factors"
-      ],
-      correctIndex: 1,
-      difficulty: "High",
-      explanation: "Edaphic specifically refers to soil conditions.",
-    ),
+
     QuizQuestion(
       question:
-          "8. Which of these is a biotic component of an arboreal ecosystem?",
+      "2. Which of these is the correct order of food passage?",
       options: [
-        "Tree branches",
-        "High sunlight",
-        "Small monkeys",
-        "Strong winds"
+        "Mouth → Stomach → Oesophagus",
+        "Mouth → Oesophagus → Stomach",
+        "Stomach → Mouth → Oesophagus",
+        "Oesophagus → Mouth → Stomach"
       ],
-      correctIndex: 2,
+      correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Monkeys are the living (biotic) part of the tree-top system.",
+      "Food passes from the mouth into the oesophagus (gullet) and then into the stomach.",
     ),
+
     QuizQuestion(
-      question: "9. Temperature is measured using a...",
-      options: ["Hygrometer", "Barometer", "Thermometer", "Anemometer"],
+      question:
+      "3. The wave-like movement that pushes food down the gullet is:",
+      options: [
+        "Digestion",
+        "Absorption",
+        "Circulation",
+        "Peristalsis"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Peristalsis is the series of muscular contractions that moves food through the digestive tract.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is 'chyme'?",
+      options: [
+        "A type of tooth in the mouth",
+        "A watery paste in the stomach",
+        "A liquid found in the liver",
+        "A bone in the human body"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Chyme is the semi-liquid mixture of partially digested food and gastric juice in the stomach.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Which organ is responsible for absorbing water from undigested food?",
+      options: [
+        "Large intestine",
+        "Small intestine",
+        "The stomach",
+        "The mouth"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "The large intestine absorbs water from undigested food before waste is removed from the body.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which substance in the mouth helps to soften food and start starch digestion?",
+      options: [
+        "Gastric juice",
+        "Pancreatic juice",
+        "Saliva",
+        "Bile"
+      ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Thermometers measure how hot or cold it is.",
+      explanation:
+      "Saliva moistens food and contains the enzyme amylase, which begins starch digestion.",
     ),
+
     QuizQuestion(
-      question: "10. Humidity refers to what in the air?",
+      question:
+      "7. The stomach is often described as being shaped like which letter?",
       options: [
-        "The amount of dust",
-        "The amount of light",
-        "The water vapour",
-        "The number of birds"
+        "Letter O",
+        "Letter S",
+        "Letter J",
+        "Letter L"
       ],
       correctIndex: 2,
-      difficulty: "Medium",
+      difficulty: "Low",
       explanation:
-          "Humidity is an abiotic factor measuring moisture in the air.",
+      "The human stomach has a characteristic J-shaped structure.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Which organ produces bile to help break down fats?",
+      options: [
+        "The pancreas",
+        "The kidney",
+        "The heart",
+        "The liver"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+      "The liver produces bile, which is stored in the gall bladder and helps digest fats.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. What is the primary job of the teeth in digestion?",
+      options: [
+        "To taste if the food is salty",
+        "To produce acid for the food",
+        "To break food into smaller bits",
+        "To push food into the lungs"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Teeth mechanically break food into smaller pieces, making it easier to swallow and digest.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. In which part of the body does the most digestion and absorption occur?",
+      options: [
+        "The mouth",
+        "The stomach",
+        "The oesophagus",
+        "Small intestine"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+      "Most chemical digestion and nearly all nutrient absorption take place in the small intestine.",
     ),
   ],
 );
@@ -26309,136 +26345,152 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Which system is most likely to cause the loss of Ghana's forest cover?",
+      "1. What does a piece of bread (carbohydrate) become at the end of digestion?",
       options: [
-        "Crop rotation",
-        "Mixed farming",
-        "Land rotation",
-        "Organic farming"
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          "Land rotation involves clearing new forest areas, which leads to deforestation.",
-    ),
-    QuizQuestion(
-      question: "2. What is a significant advantage of Crop Rotation?",
-      options: [
-        "Moving to new land",
-        "Less need for water",
-        "Better soil nutrients",
-        "Fewer workers needed"
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          "Rotating crops prevents the soil from being depleted of specific nutrients.",
-    ),
-    QuizQuestion(
-      question: "3. Why is Mixed Farming considered highly efficient?",
-      options: [
-        "It uses only one plot",
-        "It uses goats and crops",
-        "It needs zero labour",
-        "It uses no sunlight"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "The relationship between crops and livestock creates a cycle that maximizes resources.",
-    ),
-    QuizQuestion(
-      question: "4. Which of these is a merit of Organic Farming?",
-      options: [
-        "Faster crop growth",
-        "Clean water bodies",
-        "Very low labour",
-        "Cheapest seeds"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Because it avoids synthetic chemicals, it prevents poisonous runoff into rivers.",
-    ),
-    QuizQuestion(
-      question: "5. What is the main demerit of Mixed Cropping?",
-      options: [
-        "Risk of total failure",
-        "Difficulty in weeding",
-        "Loss of all land",
-        "High chemical use"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Having many different crops together makes it harder to use tools or weed efficiently.",
-    ),
-    QuizQuestion(
-      question: "6. Legumes are useful in Crop Rotation because they:",
-      options: [
-        "Kill all the pests",
-        "Improve soil fertility",
-        "Need no sunlight",
-        "Grow in the sand"
+        "Amino acids",
+        "Glucose",
+        "Fatty acids",
+        "Glycerol"
       ],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-          "Legumes return nitrogen to the soil, acting as a natural fertilizer for the next crop.",
+      "Carbohydrates are broken down into glucose, which the body uses for energy.",
     ),
-    QuizQuestion(
-      question: "7. A farmer who practices Land Rotation avoids the cost of:",
-      options: [
-        "Buying new seeds",
-        "Chemical fertilizers",
-        "Paying for water",
-        "Hiring any help"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "The fallow period naturally restores soil fertility, so the farmer doesn't need to buy chemicals.",
-    ),
+
     QuizQuestion(
       question:
-          "8. Which system provides the most diverse income for a farmer?",
+      "2. Which of these nutrients provides the building blocks for muscles?",
       options: [
-        "Mixed farming",
-        "Land rotation",
-        "Single cropping",
-        "Bush fallowing"
+        "Fats",
+        "Starch",
+        "Sugars",
+        "Proteins"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "Proteins are digested into amino acids, which are essential for muscle growth and repair.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Where do the end products of digestion go after leaving the small intestine?",
+      options: [
+        "To the lungs",
+        "To the blood",
+        "To the teeth",
+        "To the hair"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Digested nutrients are absorbed into the bloodstream and transported throughout the body.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which of the following describes the shape of villi?",
+      options: [
+        "Finger-like",
+        "Square-like",
+        "Round-like",
+        "Star-like"
       ],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-          "Selling both crops and animal products provides multiple ways to earn money.",
+      "Villi are finger-like projections that increase the surface area for nutrient absorption.",
     ),
+
     QuizQuestion(
       question:
-          "9. Which system is hardest to practice in a very crowded city?",
+      "5. Why must food be broken down into end products?",
       options: [
-        "Mixed cropping",
-        "Crop rotation",
-        "Land rotation",
-        "Organic farming"
+        "To make it taste better",
+        "To make it change colour",
+        "To make it small enough to absorb",
+        "To make it easier to cook"
       ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-          "Land rotation requires vast amounts of unused land, which is not available in crowded cities.",
+      "Large food molecules must be broken into smaller molecules so they can pass through the intestinal wall.",
     ),
+
     QuizQuestion(
-      question: "10. What is a demerit of Mixed Farming?",
+      question:
+      "6. Fatty acids and glycerol are produced from the digestion of:",
       options: [
-        "Only one product",
-        "High skill needed",
-        "Soil stays empty",
-        "Very little food"
+        "Banku and rice",
+        "Fish and meat",
+        "Oranges and mangoes",
+        "Butter and palm oil"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+      "Fats and oils (lipids) are digested into fatty acids and glycerol.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. How do nutrients move from the villi into the blood?",
+      options: [
+        "By being chewed again",
+        "By passing through thin walls",
+        "By turning into a gas",
+        "By staying in the stomach"
       ],
       correctIndex: 1,
       difficulty: "High",
       explanation:
-          "Managing both animals and crops requires a wide range of knowledge and constant attention.",
+      "The thin walls of the villi allow digested nutrients to pass into the bloodstream.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. If a student has a balanced diet, their small intestine will absorb:",
+      options: [
+        "Only glucose",
+        "Only amino acids",
+        "All necessary end products",
+        "Only water and salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "A balanced diet provides all the nutrients the body needs, which are absorbed in the small intestine.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which of these is the simplest form of protein?",
+      options: [
+        "Amino acid",
+        "Glucose",
+        "Fatty acid",
+        "Polypeptide"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+      "Amino acids are the smallest units and final products of protein digestion.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. The main purpose of the villi is to increase:",
+      options: [
+        "The speed of chewing",
+        "The length of the gullet",
+        "The amount of saliva",
+        "The surface area for absorption"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+      "The large surface area created by the villi allows more nutrients to be absorbed efficiently.",
     ),
   ],
 );
