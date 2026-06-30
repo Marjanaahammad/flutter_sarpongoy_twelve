@@ -3362,6 +3362,2009 @@ final QuizModel s3ss3Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel s4ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which word shows a result? \"It rained heavily, ______ the football pitch was flooded.\"",
+      options: ["although", "because", "so that", "unless"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'So that' (or 'so') introduces the result of the heavy rain.",
+    ),
+    QuizQuestion(
+      question:
+          "2. \"Ekow wanted to buy a new shirt. ________, he did not have enough Cedis.\"",
+      options: ["Furthermore", "However", "Firstly", "Therefore"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'However' is used to show a contrast between wanting the shirt and not having enough money.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Identify the time conjunction: \"Please wait here ______ the bus arrives.\"",
+      options: ["until", "since", "because", "although"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Until' indicates the time limit for waiting.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which pronoun is an object pronoun? \"The teacher gave the books to ______.\"",
+      options: ["they", "she", "us", "we"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Us' is the object pronoun receiving the action.",
+    ),
+    QuizQuestion(
+      question:
+          "5. \"_______ the weather was bad, the fishermen went out to sea.\"",
+      options: ["Because", "Although", "Since", "If"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Although' shows contrast—they went to sea despite the bad weather.",
+    ),
+    QuizQuestion(
+      question:
+          "6. To add more information to a paragraph about farming, which word is best?",
+      options: ["Finally", "Moreover", "But", "Or"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Moreover' is used to introduce additional supporting information.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Choose the correct sentence: \"If you study hard, ________.\"",
+      options: [
+        "you would passed",
+        "you will pass",
+        "you passed",
+        "you passing"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A first conditional sentence uses 'If + present simple' followed by 'will + verb'.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Replace the repetition: \"The mangoes are ripe. Eat [the mangoes] now.\"",
+      options: ["it", "they", "them", "those"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Them' is the correct object pronoun for plural nouns.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which word fits best? \"You must wash your hands ______ you eat your waakye.\"",
+      options: ["before", "after", "while", "since"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Good hygiene requires washing your hands before eating.",
+    ),
+    QuizQuestion(
+      question:
+          "10. \"The road was blocked. ________, the trotro had to take a different route.\"",
+      options: ["Nevertheless", "Although", "However", "Consequently"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "'Consequently' shows that taking a different route was the direct result of the road being blocked.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which sense is used here: \"The velvet fabric of the Kente cloth felt soft against his skin.\"",
+      options: ["Touch", "Taste", "Sight", "Sound"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Soft' and 'against his skin' refer to the sense of touch.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which adjective is the most descriptive for a beautiful garden?",
+      options: ["Good", "Fine", "Lush", "Okay"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'Lush' vividly describes a garden full of thick, healthy green plants.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"The sun set behind the mountains.\" Which version is more descriptive?",
+      options: [
+        "The sun went down.",
+        "The fiery orange sun dipped slowly behind the jagged blue mountains.",
+        "It was evening and the sun disappeared.",
+        "The sun was bright but then it was gone."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This sentence uses vivid colours and precise details to create a clear mental picture.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the purpose of a 'Topic Sentence' in a descriptive paragraph?",
+      options: [
+        "To end the story.",
+        "To introduce the main object or place being described.",
+        "To list all the characters.",
+        "To ask the reader a question."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The topic sentence introduces the main subject and prepares the reader for the description.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Choose the best phrase for a sound description of a rainy night:",
+      options: ["Bright", "Rough", "Sweet", "Rhythmic patter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'Rhythmic patter' describes the repeating sound of raindrops falling.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If you are describing a classroom from 'near to far', what comes last?",
+      options: [
+        "The pen in your hand",
+        "The student sitting next to you",
+        "The trees visible through the far window",
+        "The desk you are sitting at"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Descriptions from near to far finish with the objects that are furthest away.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Identify the dominant impression: \"The dark, damp cellar was filled with cobwebs and the sound of scratching.\"",
+      options: ["Joyful", "Eerie", "Busy", "Bright"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Words like 'dark', 'damp', 'cobwebs', and 'scratching' create a scary, eerie mood.",
+    ),
+    QuizQuestion(
+      question: "8. Which word is a precise adjective for a very small kitten?",
+      options: ["Big", "Minuscule", "Large", "Average"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Minuscule' is a more exact and descriptive word for something extremely small.",
+    ),
+    QuizQuestion(
+      question:
+          "9. \"The Jollof rice was ________.\" Which phrase best describes taste?",
+      options: ["Red", "In a bowl", "Savoury and peppery", "Hot"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Savoury and peppery' describes the flavour of the food.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should you avoid using words like 'very' or 'really' in descriptive writing?",
+      options: [
+        "They are too long.",
+        "They are too colourful.",
+        "They are often weak; it is better to use one strong adjective.",
+        "They are only used in science books."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Strong adjectives such as 'massive' are more effective than phrases like 'very big'.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson3QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which word is best for starting a paragraph about a trip to Accra?",
+      options: ["Finally", "Moreover", "However", "To start with"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'To start with' introduces the beginning of a sequence or narrative.",
+    ),
+    QuizQuestion(
+      question: "2. \"______ the sun rose, the farmers began their work.\"",
+      options: ["Until", "While", "As", "Although"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'As' shows that the farmers began working at the same time the sun rose.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Choose the word that shows a short time has passed: \"The bus arrived. ______, we were on our way to Kumasi.\"",
+      options: ["Since", "Soon", "Until", "Although"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Soon' indicates that only a short time passed before the next event.",
+    ),
+    QuizQuestion(
+      question: "4. Which sentence is logically organised?",
+      options: [
+        "I ate dinner. Then I cooked it.",
+        "I went to bed. Later, I woke up.",
+        "I won the race. Before, I started running.",
+        "Finally, I arrived. First, I left home."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This sentence follows the natural order of events in time.",
+    ),
+    QuizQuestion(
+      question: "5. \"I stayed at the library ______ it closed at 5:00 PM.\"",
+      options: ["when", "after", "while", "until"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Until' shows the point in time when the action ended.",
+    ),
+    QuizQuestion(
+      question: "6. Which connector shows a sudden interruption?",
+      options: ["All of a sudden", "Then", "Firstly", "Afterwards"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "'All of a sudden' introduces an unexpected event or interruption.",
+    ),
+    QuizQuestion(
+      question: "7. \"______ I was cleaning my room, I found my lost pen.\"",
+      options: ["While", "Until", "Before", "Then"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'While' shows that one action happened during another ongoing action.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Complete the sequence: \"First, I bought the cloth. Next, I took it to the tailor. ______, I wore my new outfit to church.\"",
+      options: ["Soon", "Meanwhile", "Finally", "Because"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Finally' signals the last event in a sequence.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Identify the time clause: \"Since he moved to Tamale, he has been very happy.\"",
+      options: [
+        "He has been",
+        "Since he moved to Tamale",
+        "Very happy",
+        "Moved to"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The clause beginning with 'Since' expresses the starting point in time.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In a narrative about a football match, what should the middle paragraph contain?",
+      options: [
+        "The final score and going home.",
+        "The exciting goals and the struggle during the game.",
+        "What you ate for breakfast that morning.",
+        "A list of all the players' names and ages."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The middle of a narrative focuses on the main events, action, or conflict.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson4QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word introduces a clause of manner?",
+      options: [
+        "Where",
+        "Since",
+        "As",
+        "Therefore",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "'As' is used to show the manner in which an action is done.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"You may sit ______ you like in the assembly hall.\"",
+      options: [
+        "wherever",
+        "although",
+        "because",
+        "the way",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Wherever' shows an open choice of place.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence uses an imperative verb for an instruction?",
+      options: [
+        "I am going to the market.",
+        "Turn left at the Pharmacy.",
+        "He went to the park.",
+        "The sun is very hot.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Turn' is an imperative verb used to give a command or instruction.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a set of directions, what does \"secondly\" indicate?",
+      options: [
+        "The end of the trip.",
+        "The reason for the trip.",
+        "The second step in the sequence.",
+        "The way you should walk.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Secondly' is a logical connector used for ordering ideas.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"Stir the porridge ______ it becomes thick and smooth.\"",
+      options: [
+        "wherever",
+        "until",
+        "as if",
+        "because",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Until' shows the time limit for the action.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a place clause?",
+      options: [
+        "Like a professional.",
+        "Where the two paths meet.",
+        "Firstly, wash your hands.",
+        "Because it is raining.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This clause describes a specific location.",
+    ),
+
+// Questions 7–9 are missing from the uploaded images.
+
+    QuizQuestion(
+      question: "10. Why is logical ordering important in writing directions?",
+      options: [
+        "To make the writing look longer.",
+        "To avoid using any punctuation.",
+        "To use as many adjectives as possible.",
+        "To ensure the reader reaches the destination safely and correctly.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Logical sequence is essential for clarity and success in instructional writing.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson5QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is a connector of addition?",
+      options: [
+        "Moreover",
+        "But",
+        "Although",
+        "Because",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Moreover' is used to add more information to a point.",
+    ),
+    QuizQuestion(
+      question:
+          "2. \"______ the journey is long, the visit to the Paga Crocodile Pond is worth it.\"",
+      options: [
+        "Although",
+        "Therefore",
+        "Consequently",
+        "Because",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'Although' shows the contrast between the long journey and the worthwhile visit.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a persuasive essay, where should the strongest argument usually go?",
+      options: [
+        "At the very end.",
+        "In the first body paragraph.",
+        "Hidden in the middle.",
+        "In a different essay.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Placing your strongest point early helps grab and hold the reader's attention.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which word shows a logical result? \"The bridge is broken; ______, we cannot cross the river.\"",
+      options: [
+        "However",
+        "While",
+        "Although",
+        "Therefore",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'Therefore' links the cause (broken bridge) to the effect (cannot cross).",
+    ),
+    QuizQuestion(
+      question:
+          "5. \"While some prefer Kenkey, others love Banku.\" What does 'While' do here?",
+      options: [
+        "It shows the time.",
+        "It introduces a concession or contrast.",
+        "It lists the steps of a recipe.",
+        "It ends the sentence.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'While' is used here to show a difference in opinion or a contrast.",
+    ),
+    QuizQuestion(
+      question: "6. Which sentence is most persuasive?",
+      options: [
+        "We should maybe think about a new bus.",
+        "A new school bus is essential so that students arrive on time and ready to learn.",
+        "Buses are usually yellow or white.",
+        "My uncle drives a tro-tro in Accra.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "This sentence uses a result clause ('so that') and strong language to make a clear case.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Identify the result clause: \"We should plant a garden so that we can have fresh vegetables.\"",
+      options: [
+        "We should plant",
+        "A garden",
+        "So that we can have fresh vegetables",
+        "Fresh vegetables",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The clause beginning with 'so that' explains the purpose or result.",
+    ),
+    QuizQuestion(
+      question:
+          "8. \"______ the market is crowded, we can still find the best yams there.\"",
+      options: [
+        "Since",
+        "Even though",
+        "Therefore",
+        "Because",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Even though' introduces a contrast before the positive result.",
+    ),
+    QuizQuestion(
+      question: "9. What is the purpose of using 'Furthermore' in an argument?",
+      options: [
+        "To say goodbye.",
+        "To introduce an opposite idea.",
+        "To provide an additional, supporting reason.",
+        "To ask a question.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'Furthermore' strengthens an argument by adding more supporting evidence.",
+    ),
+    QuizQuestion(
+      question:
+          "10. \"The forest is being cut down. ______, many rare birds are losing their homes.\"",
+      options: [
+        "However",
+        "Consequently",
+        "Although",
+        "But",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Consequently' shows the direct and serious result of the forest being destroyed.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson6QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary purpose of expository writing?",
+      options: [
+        "To inform or explain a topic.",
+        "To tell a funny story.",
+        "To express deep feelings.",
+        "To write a poem.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Expository writing is factual and informative, aiming to explain a topic clearly.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a formal heading for a notice?",
+      options: [
+        "Hey Everyone!",
+        "NOTICE: INTER-HOUSE SPORTS COMPETITION",
+        "Something is happening Friday",
+        "Guess What?",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A formal heading uses clear, capitalised text to show the subject of the notice.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"The assembly will ______ in the courtyard.\" (Use a formal word for 'happen').",
+      options: [
+        "take place",
+        "go on",
+        "be there",
+        "do",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'Take place' is a formal phrase commonly used to describe events.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should an explanation use sequence connectors like 'Next' and 'After that'?",
+      options: [
+        "To make it sound like a story.",
+        "To help the reader follow the steps in a logical order.",
+        "To make the sentences longer.",
+        "To avoid using full stops.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Logical sequencing helps readers understand ideas and processes clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where does the name of the person who wrote the notice usually go?",
+      options: [
+        "Inside the heading.",
+        "At the very bottom (Sign-off).",
+        "In the middle of the date.",
+        "It is not needed.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The sign-off identifies the person responsible for the notice.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which word is a synonym for 'compulsory' in a school notice?",
+      options: [
+        "Optional",
+        "Possible",
+        "Nice",
+        "Required",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "'Required' (or 'Mandatory') is a formal synonym for 'compulsory'.",
+    ),
+    QuizQuestion(
+      question:
+          "7. In an explanation of how to plant a tree, what comes after 'Dig a hole'?",
+      options: [
+        "Eat a mango.",
+        "To start with, find a shovel.",
+        "Finally, the tree is big.",
+        "Place the seedling in the hole.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Placing the seedling in the hole is the next logical step after digging the hole.",
+    ),
+    QuizQuestion(
+      question:
+          "8. \"Regarding the new school fees, parents are asked to pay at the bank.\" What does 'Regarding' mean?",
+      options: [
+        "Against",
+        "About / Concerning",
+        "Because of",
+        "Instead of",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Regarding' is a formal word meaning 'about' or 'concerning'.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is NOT usually found in a public notice?",
+      options: [
+        "Date",
+        "Venue",
+        "Dialogue between characters",
+        "Time",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Public notices are factual; dialogue belongs in narrative writing.",
+    ),
+    QuizQuestion(
+      question: "10. What makes an explanation 'coherent'?",
+      options: [
+        "It has many pictures.",
+        "The sentences are linked in a way that makes sense to the reader.",
+        "It uses a lot of slang.",
+        "It is written in very small letters.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Coherence comes from logical organisation and clear links between ideas.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary purpose of an advertisement?",
+      options: [
+        "To tell a long story about a family.",
+        "To persuade an audience to take action.",
+        "To list the history of Ghana.",
+        "To explain how to solve a maths problem.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Advertisements are designed to convince or persuade people to take action.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which part of an advert is designed to grab the reader's attention first?",
+      options: [
+        "The title.",
+        "The subscription.",
+        "The page number.",
+        "The index.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The title is the bold heading that catches the reader's eye immediately.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"Are you tired of slow internet?\" is an example of which technique?",
+      options: [
+        "A command.",
+        "A rhetorical question.",
+        "A simple present fact.",
+        "An adjective phrase.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A rhetorical question is asked to make the reader think, not to receive a literal answer.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which word is a descriptive adjective that would help sell a chilled drink?",
+      options: [
+        "Quickly.",
+        "Drink.",
+        "Refreshing.",
+        "Because.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Refreshing' vividly describes the quality of the drink.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In the sentence \"Buy two, get one free!\", which word is the imperative?",
+      options: [
+        "Two.",
+        "One.",
+        "Free.",
+        "Buy.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Buy' is the command word telling the reader what to do.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What information is usually found in the body of an advert for a concert?",
+      options: [
+        "The price of bread in the market.",
+        "The date, venue, and performers.",
+        "The names of the student's siblings.",
+        "A list of all the schools in the district.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The body contains the essential information about the event or product.",
+    ),
+    QuizQuestion(
+      question: "7. Why is it important to identify a Target Market?",
+      options: [
+        "So you can talk to everyone in the world.",
+        "To make sure your message reaches the right people.",
+        "To find out where the nearest market is located.",
+        "To practise your drawing skills.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Knowing your audience helps you tailor your persuasive language effectively.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these sentences uses persuasive repetition?",
+      options: [
+        "Our bread is soft, fresh, and very tasty.",
+        "Quality service, quality products, quality prices.",
+        "You can buy this at any shop in Kumasi.",
+        "The sun is shining brightly today.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Repeating the word 'quality' emphasizes the high standard of the business.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If you are writing an advert for a local hair salon, which selling point is most persuasive?",
+      options: [
+        "We have chairs for you to sit on.",
+        "Our salon is located in a building.",
+        "Get the trendiest braids in Accra!",
+        "We use water to wash hair.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "A strong selling point highlights a specific benefit that attracts customers.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which grammatical structure is used to show a timeless benefit of a product?",
+      options: [
+        "Past continuous.",
+        "Simple present.",
+        "Future perfect.",
+        "Past participle.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The simple present tense expresses timeless facts and general benefits.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of a process text lists the tools needed?",
+      options: [
+        "The Aim",
+        "The Materials",
+        "The Conclusion",
+        "The Sequence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The materials section identifies everything needed before starting.",
+    ),
+    QuizQuestion(
+      question: "2. \"First,\" \"Next,\" and \"After that\" are known as:",
+      options: [
+        "Adjectives",
+        "Pronouns",
+        "Connectors of sequence",
+        "Verbs",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "These words signal the order in which the steps should be followed.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which step should come first in the process of \"Making a Phone Call\"?",
+      options: [
+        "Say \"Hello.\"",
+        "Dial the number.",
+        "Wait for the person to answer.",
+        "Find the contact in your phone.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "You must first find the contact before you can dial or speak.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is a noun phrase?",
+      options: [
+        "Running fast",
+        "Very slowly",
+        "A large clay pot",
+        "Under the table",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A noun phrase names a person, place, or thing—in this case, a specific object.",
+    ),
+    QuizQuestion(
+      question: "5. Why do we use the simple present tense in instructions?",
+      options: [
+        "To talk about what happened yesterday.",
+        "To show the steps are a timeless procedure.",
+        "To express a wish for the future.",
+        "To make the text sound like a story.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Instructions describe actions that are always carried out in the same way.",
+    ),
+    QuizQuestion(
+      question: "6. What is the purpose of using headings in a process text?",
+      options: [
+        "To help the reader identify key topics.",
+        "To make the page look colourful.",
+        "To hide important information.",
+        "To count the number of words.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Headings organize the information and help readers navigate the text.",
+    ),
+    QuizQuestion(
+      question:
+          "7. \"Add a pinch of salt.\" The bolded words are an example of:",
+      options: [
+        "A quantifier",
+        "A verb",
+        "A connector",
+        "A title",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Quantifiers indicate the amount or quantity of an ingredient needed.",
+    ),
+    QuizQuestion(
+      question: "8. Which sentence is written as a clear instruction?",
+      options: [
+        "I think you should maybe cut the paper.",
+        "Cutting paper can be very fun.",
+        "I once saw someone cutting paper.",
+        "Cut the paper into two equal halves.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A good instruction uses direct, precise, imperative language.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In a process for \"Planting a Tree,\" which step is out of order?\n1. Dig a hole.\n2. Water the tree.\n3. Place the seedling in the hole.\n4. Fill the hole with soil.",
+      options: [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The tree should be watered after it has been planted and the hole has been filled with soil.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which visual aid would best help explain \"How to tie a tie\"?",
+      options: [
+        "A photo of a man in a suit.",
+        "A map of a clothing shop.",
+        "A list of famous people who wear ties.",
+        "A diagram showing the direction of the folds.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A step-by-step diagram makes it easier to understand actions that are difficult to explain with words alone.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson3QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. To whom would you most likely write an informal letter?",
+      options: [
+        "The Director of Education.",
+        "A bank manager.",
+        "Your cousin in Cape Coast.",
+        "A shop owner you've never met.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Informal letters are written to friends and family members.",
+    ),
+    QuizQuestion(
+      question: "2. What is the correct order for the top of the letter?",
+      options: [
+        "Date then Address.",
+        "Address then Date.",
+        "Salutation then Address.",
+        "Body then Date.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The writer's address comes first at the top right, followed by the date.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of these is a first-person pronoun often used in letters?",
+      options: [
+        "They",
+        "He",
+        "I",
+        "It",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "\"I\" is used to share personal thoughts, feelings, and news.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which salutation is most appropriate for a letter to your brother?",
+      options: [
+        "Dear Mr. Mensah,",
+        "Hello Brother Yaw,",
+        "To Whom It May Concern,",
+        "Dear Sir/Madam,",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Informal letters use friendly greetings with familiar names or titles.",
+    ),
+    QuizQuestion(
+      question: "5. What is the purpose of the body of the letter?",
+      options: [
+        "To show the writer's address.",
+        "To state the date.",
+        "To convey the main message or news.",
+        "To sign the writer's name.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The body contains the main message, ideas, or information the writer wants to communicate.",
+    ),
+    QuizQuestion(
+      question:
+          "6. \"I was overjoyed to hear you are coming home.\" The word \"overjoyed\" is:",
+      options: [
+        "A connector.",
+        "An adjective.",
+        "A noun.",
+        "A preposition.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "\"Overjoyed\" describes the writer's feeling, so it is an adjective.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is NOT a feature of an informal letter?",
+      options: [
+        "A formal heading like \"Letter of Application.\"",
+        "A friendly greeting.",
+        "Personal news and stories.",
+        "A writer's address.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A formal heading such as \"Letter of Application\" belongs to formal letters, not informal ones.",
+    ),
+    QuizQuestion(
+      question: "8. Which subscription is best for a letter to your mother?",
+      options: [
+        "Yours faithfully,",
+        "Your loving daughter,",
+        "Yours sincerely,",
+        "Sincerely yours,",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "\"Your loving daughter\" reflects the close family relationship in an informal letter.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When writing the date, which is the most common British English format used in Ghana?",
+      options: [
+        "2026/02/12",
+        "12th February, 2026",
+        "Feb-12-26",
+        "12-02-26",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "British English commonly uses the Day–Month–Year format, such as \"12th February, 2026.\"",
+    ),
+    QuizQuestion(
+      question:
+          "10. If you are inviting a friend to the Homowo festival, your tone should be:",
+      options: [
+        "Angry and demanding.",
+        "Cold and very formal.",
+        "Enthusiastic and welcoming.",
+        "Sad and apologetic.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "An invitation to a celebration should sound warm, friendly, and enthusiastic.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson4QuizData = QuizModel(
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. How many addresses does a formal letter usually contain?",
+        options: [
+          "One",
+          "Two",
+          "Three",
+          "None",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A formal letter contains both the writer's address and the recipient's address.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which part of the letter summarizes the main purpose in a few words?",
+        options: [
+          "The Salutation",
+          "The Date",
+          "The Heading (Subject)",
+          "The Subscription",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The subject heading tells the reader immediately what the letter is about.",
+      ),
+      QuizQuestion(
+        question:
+            "3. What is the most appropriate way to write the date in a formal letter?",
+        options: [
+          "2/2/26",
+          "2nd February, 2026",
+          "Feb 2nd",
+          "'26 Feb 2",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "In formal letters, the date should be written out clearly in full.",
+      ),
+      QuizQuestion(
+        question: "4. Which sentence uses the most professional tone?",
+        options: [
+          "Give me a job at your shop.",
+          "I am writing to apply for a position at your pharmacy.",
+          "I'd love to work for you guys.",
+          "Can I have some work to do?",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "This sentence uses formal vocabulary and a professional tone suitable for an application.",
+      ),
+      QuizQuestion(
+        question:
+            "5. If you write to a female official whose name you do not know, what salutation should you use?",
+        options: [
+          "Dear Madam,",
+          "Dear Sir,",
+          "Hello Lady,",
+          "Dear Auntie,",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "\"Dear Madam,\" is the standard formal salutation for an unknown female official.",
+      ),
+      QuizQuestion(
+        question: "6. What does \"Yours faithfully\" imply in a subscription?",
+        options: [
+          "That you are the person's best friend.",
+          "That you do not know the recipient personally.",
+          "That you are writing to a family member.",
+          "That you are very angry.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "\"Yours faithfully\" is the standard closing when the recipient's name is unknown.",
+      ),
+      QuizQuestion(
+        question: "7. Which of these is a formal modal verb used for requests?",
+        options: [
+          "Wanna",
+          "Gotta",
+          "Would",
+          "Maybe",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "\"Would\" is a polite modal verb commonly used in formal requests.",
+      ),
+      QuizQuestion(
+        question:
+            "8. When writing an application for a holiday job, what should you mention in the body?",
+        options: [
+          "Your favourite football team.",
+          "Your relevant skills and why you want the job.",
+          "What you ate for breakfast.",
+          "Your complaints about school.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+            "A formal application should explain your qualifications, skills, and interest in the position.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following is written correctly for a formal signature block?",
+        options: [
+          "(Signature) / kwame mensah",
+          "(Signature) / KWAME MENSAH",
+          "Kwame / (Signature)",
+          "(Signature) only",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+            "The full name is written clearly in block capitals below the signature.",
+      ),
+      QuizQuestion(
+        question:
+            "10. A formal letter to the \"Director of Education\" should be:",
+        options: [
+          "Short, polite, and to the point.",
+          "Long and full of jokes.",
+          "Written in red ink.",
+          "Full of text-message slang like \"LOL.\"",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Professional formal letters should be polite, concise, and respectful.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson5QuizData = QuizModel(
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which piece of source information tells you who provided the facts?",
+        options: [
+          "The Title",
+          "The Author/Speaker",
+          "The Date",
+          "The Page Number",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The author or speaker is the person or source who provided the information.",
+      ),
+      QuizQuestion(
+        question: "2. What is the main purpose of a heading in your notes?",
+        options: [
+          "To decorate the top of the page.",
+          "To show how many words you have written.",
+          "To help you identify the key topic of a section.",
+          "To tell the teacher you are finished.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Headings divide notes into clear sections and help identify the main topic.",
+      ),
+      QuizQuestion(
+        question:
+            "3. If you see a list of steps in a textbook, how should you represent them in your notes?",
+        options: [
+          "As a single, long sentence.",
+          "By drawing a picture of the textbook.",
+          "In a flow chart or numbered sequence.",
+          "By skipping them entirely.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Processes and sequences are easiest to understand when shown with numbers or flow charts.",
+      ),
+      QuizQuestion(
+        question:
+            "4. \"K.P.P.\" standing for \"Keep People Protected\" in a lesson on safety is an example of:",
+        options: [
+          "A heading",
+          "A mnemonic",
+          "Source information",
+          "A summary",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A mnemonic is a memory aid that uses initials or patterns to help you remember information.",
+      ),
+      QuizQuestion(
+        question:
+            "5. What should you do if the teacher says something you already know very well?",
+        options: [
+          "Write it down five times to be sure.",
+          "Note it briefly or focus on the new information being shared.",
+          "Tell the teacher to stop talking.",
+          "Go to sleep.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Good note-taking focuses on new ideas and the most important points.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following is an example of a key point for a lesson on \"Forestry\"?",
+        options: [
+          "My uncle lives near a forest in Brong-Ahafo.",
+          "Forests help to prevent soil erosion.",
+          "There are many trees in the world today.",
+          "I like the colour green.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A key point is an important factual idea that supports understanding of the topic.",
+      ),
+      QuizQuestion(
+        question: "7. Why should you record the date on your notes?",
+        options: [
+          "To practice your numbers.",
+          "To help you organize your study schedule and track progress.",
+          "Because it is the law.",
+          "To fill up space on the paper.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Recording dates helps you keep track of when topics were taught and reviewed.",
+      ),
+      QuizQuestion(
+        question:
+            "8. When revising your notes, what is the best thing to add to make connections clearer?",
+        options: [
+          "More long sentences.",
+          "Your signature.",
+          "Random doodles of cars.",
+          "Arrows or lines between related ideas.",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Visual links such as arrows make relationships between ideas easier to understand.",
+      ),
+      QuizQuestion(
+        question:
+            "9. You are taking notes on a video about \"Solar Energy.\" You see a diagram of a solar panel. What should you do?",
+        options: [
+          "Ignore it and wait for the person to speak again.",
+          "Stop the video and go home.",
+          "Write \"There was a picture here.\"",
+          "Record or represent the diagram simply in your notes.",
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation:
+            "Important diagrams and visuals should be represented simply because they support understanding.",
+      ),
+      QuizQuestion(
+        question: "10. Effective note-taking helps a student to:",
+        options: [
+          "Avoid listening in class.",
+          "Summarise and remember information for future use.",
+          "Write faster than everyone else.",
+          "Use up all their notebooks quickly.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The main purpose of note-taking is to improve understanding, revision, and long-term memory.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson6QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the main goal of a poster or notice?",
+        options: [
+          "To write a secret message.",
+          "To cover up a hole in the wall.",
+          "To practice your cursive handwriting.",
+          "To provide information to a large group of people quickly.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Posters and notices are designed to communicate important information quickly to the public.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which of these is a detail that must be included in every event notice?",
+        options: [
+          "The colour of the school gate.",
+          "The venue (location).",
+          "The name of the writer's best friend.",
+          "A list of all the teachers' ages.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "People need to know where the event will take place.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. What should you do with the most important word in your notice?",
+        options: [
+          "Hide it at the bottom.",
+          "Write it in very small letters.",
+          "Make it bold and large.",
+          "Write it in yellow on white paper.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Large, bold text helps readers notice the most important information immediately.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. A notice about a \"School Excursion\" should include:",
+        options: [
+          "The destination, cost, and departure time.",
+          "A drawing of every student in the class.",
+          "The lyrics to the school anthem.",
+          "A map of the entire world.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A school excursion notice should give the practical details needed by students and parents.",
+      ),
+
+      QuizQuestion(
+        question: "5. Why is \"Less is More\" a good rule for posters?",
+        options: [
+          "Because paper is very expensive.",
+          "Because too much text makes a poster hard to read quickly.",
+          "Because teachers don't like reading.",
+          "Because short words are easier to spell.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Keeping posters brief and direct makes the message easier to understand.",
+      ),
+
+      QuizQuestion(
+        question: "6. Which of the following is a contact detail?",
+        options: [
+          "Friday at 2 PM.",
+          "The School Assembly Hall.",
+          "Call 024-000-0000 for tickets.",
+          "Bring your own water bottle.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Contact details tell readers how to get more information or assistance.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. What is the best way to format a list of items to bring on a trip?",
+        options: [
+          "A long, complicated sentence.",
+          "A numbered or bulleted list.",
+          "Scattering the words all over the page.",
+          "Writing them in a circle.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Bulleted or numbered lists make information easier to read and check.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. When designing for ICT media (such as a digital screen), you should use:",
+        options: [
+          "High-contrast colours.",
+          "Very tiny fonts.",
+          "Only black and white.",
+          "No text at all.",
+        ],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation:
+        "High-contrast colours improve readability on digital displays.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. Which heading is most likely for a community notice?",
+        options: [
+          "WASTE COLLECTION SCHEDULE",
+          "MY FAVOURITE HOBBY",
+          "WHY I LIKE APPLES",
+          "HAPPY BIRTHDAY TO ME",
+        ],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation:
+        "Community notices usually provide information about public services or community events.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. If a notice says \"Urgent,\" where should that word be placed?",
+        options: [
+          "In a tiny footnote at the bottom.",
+          "On the back of the paper.",
+          "Prominently at the top.",
+          "Inside the contact information.",
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation:
+        "Urgent information should appear prominently at the top so readers notice it immediately.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson7QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the first step in writing an article?",
+        options: [
+          "Identifying the topic, purpose, and audience.",
+          "Writing the conclusion.",
+          "Printing the final copy.",
+          "Choosing a font colour.",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Planning by identifying the topic, purpose, and audience should happen before writing.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which part of an article should 'hook' the reader's attention?",
+        options: [
+          "The introduction",
+          "The by-line",
+          "The page number",
+          "The bibliography",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A strong introduction captures the reader's interest and encourages them to continue reading.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. If you write a rap poem about an environmental issue, it is still considered:",
+        options: [
+          "A formal letter.",
+          "An article or media text for publication.",
+          "A private diary entry.",
+          "A grocery list.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Articles and media texts can use creative formats to communicate with different audiences.",
+      ),
+
+      QuizQuestion(
+        question: "4. Why should you use headings in a long article?",
+        options: [
+          "To make the article look like a book.",
+          "To help the reader navigate different sub-topics easily.",
+          "To hide facts you aren't sure about.",
+          "To use up more paper.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Headings organise information and make articles easier to read and understand.",
+      ),
+
+      QuizQuestion(
+        question: "5. Which of these is a print resource for research?",
+        options: [
+          "A YouTube video",
+          "A podcast",
+          "A social media post",
+          "An encyclopaedia or textbook",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Textbooks and encyclopaedias are printed reference materials used for research.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What does it mean to 'generate ideas about challenging topics'?",
+        options: [
+          "To only write about things that are easy.",
+          "To think deeply and find facts about complex issues like climate change.",
+          "To ask someone else to write for you.",
+          "To draw pictures instead of writing.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Good article writing involves researching and thinking carefully about important or difficult topics.",
+      ),
+
+      QuizQuestion(
+        question: "7. A zine is a type of:",
+        options: [
+          "Computer virus.",
+          "Small, self-published magazine or publication.",
+          "Type of pen.",
+          "Musical instrument.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "A zine is a small, independently produced publication often used to share ideas or articles.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Which sentence is most appropriate for a report on a community meeting?",
+        options: [
+          "Everyone was shouting and it was a mess.",
+          "The meeting commenced at 10 AM with a discussion on sanitation.",
+          "I didn't like the man in the blue shirt.",
+          "We had a great time eating bofrot after.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Reports should be factual, objective, and use formal language.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. When classifying ideas for an article on 'Healthy Living,' which fact does NOT fit?",
+        options: [
+          "Eating fruits daily boosts the immune system.",
+          "Regular exercise strengthens the heart.",
+          "Ghana won its independence in 1957.",
+          "Drinking water helps skin health.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Ghana's independence is a historical fact and is unrelated to healthy living.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. What is the ultimate goal of publishing an article on a 'given issue'?",
+        options: [
+          "To get a high grade only.",
+          "To share information and influence the thoughts or actions of others.",
+          "To show off how many words you know.",
+          "To fill up the school magazine.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Articles are published to inform, educate, or persuade readers and make a positive impact.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson8QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is an interlocutor?",
+        options: [
+          "A person who writes books.",
+          "A person who takes part in a dialogue or conversation.",
+          "A type of punctuation mark.",
+          "A character who never speaks.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "An interlocutor is a person who participates in a conversation or dialogue.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which of these is a good strategy for writing impactful dialogue?",
+        options: [
+          "Including every 'Hello' and 'Goodbye.'",
+          "Writing ten sentences for every one answer.",
+          "Cutting out unnecessary greetings to get to the action.",
+          "Using very big words that nobody understands.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Strong dialogue focuses on important exchanges instead of unnecessary greetings.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. What is the correct way to start the first word inside speech marks?",
+        options: [
+          "With a capital letter.",
+          "With a small letter.",
+          "With a number.",
+          "By underlining it.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A direct speech sentence normally begins with a capital letter inside the quotation marks.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Which Ghanaian expression would best fit a character who is surprised?",
+        options: [
+          "\"I am coming.\"",
+          "\"Kai!\" or \"Ei!\"",
+          "\"It is well.\"",
+          "\"Thank you.\"",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "\"Kai!\" and \"Ei!\" are common Ghanaian interjections expressing surprise.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. In the sentence: Abena asked, \"Where is my pen?\" — why is there a question mark?",
+        options: [
+          "Because the whole story is a mystery.",
+          "Because the words inside the speech marks are a question.",
+          "Because the author forgot how to use a full stop.",
+          "To show that Abena is shouting.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The punctuation matches the spoken words, which form a question.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What happens if you give every character the same voice?",
+        options: [
+          "The characters become flat and hard to tell apart.",
+          "The story becomes very easy to read.",
+          "The teacher gives you extra marks.",
+          "The dialogue becomes more realistic.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "Each character should have a unique way of speaking to make the dialogue realistic and interesting.",
+      ),
+
+      QuizQuestion(
+        question: "7. Which of these is a speech tag?",
+        options: [
+          "\"Hello there!\"",
+          "Under the tree.",
+          "The big red bus.",
+          "\"...\" muttered Kwesi.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A speech tag tells the reader who is speaking and sometimes how the words are spoken.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. When writing dialogue, using short sentences helps to:",
+        options: [
+          "Make the characters sound like they are in a hurry.",
+          "Make the page look neat.",
+          "Hide the fact that you have no ideas.",
+          "Mimic the natural rhythm of human speech.",
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation:
+        "Real conversations are usually made up of brief, natural exchanges.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. If a character is a market woman, her dialogue might include:",
+        options: [
+          "Technical scientific terms.",
+          "Persuasive language about prices and fresh goods.",
+          "Very formal legal definitions.",
+          "No words at all.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "A character's speech should reflect their occupation, environment, and daily experiences.",
+      ),
+
+      QuizQuestion(
+        question: "10. Why should you avoid long dialogue paragraphs?",
+        options: [
+          "They are too hard to print.",
+          "They turn the conversation into a monologue and slow down the pace.",
+          "They use too many speech marks.",
+          "They are only for poems.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Dialogue should feel like a natural back-and-forth conversation rather than one long speech.",
+      ),
+    ]);
+final QuizModel s4ss3Lesson1QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. What is the first step when identifying information from a non-text source?",
+        options: [
+          "Writing a summary",
+          "Identifying source information like title and date",
+          "Creating a flow chart",
+          "Presenting to the class",
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation:
+        "The first step is to identify the source by checking details such as the title and date.",
+      ),
+
+      QuizQuestion(
+        question: "2. Which of the following is an example of source information?",
+        options: [
+          "A drawing of a cocoa pod",
+          "A list of student names",
+          "The title 'National Literacy Scores 2022'",
+          "A sentence describing a total",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The title identifies the source and helps readers know what the information is about.",
+      ),
+
+      QuizQuestion(
+        question: "3. In note-taking, what are mnemonics used for?",
+        options: [
+          "To increase the price of the book",
+          "To make the notes more memorable",
+          "To hide information from others",
+          "To replace the title of the table",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Mnemonics are memory aids that help you remember important information more easily.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. When you organise ideas from a table, what are you doing?",
+        options: [
+          "Deleting all the numbers",
+          "Making connections and writing clear sentences",
+          "Changing the original data",
+          "Printing the table again",
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation:
+        "Organising ideas means connecting information and presenting it in a clear way.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. Which tool is best for showing a step-by-step process found in data?",
+        options: [
+          "A list of random names",
+          "A flow chart",
+          "A blank page",
+          "A dictionary",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Flow charts clearly show the sequence of steps in a process.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What should you do if you find a point in a table that you don't fully understand?",
+        options: [
+          "Ignore it completely",
+          "Record it as a follow-up idea to research later",
+          "Delete the table",
+          "Guess the meaning and write it down",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Good note-taking includes recording questions or ideas that need further research.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Kofi is presenting a bar chart to his class. What should he do to help them understand it?",
+        options: [
+          "Describe the graphical data in words",
+          "Stand silently and point at the screen",
+          "Read a story unrelated to the chart",
+          "Ask the students to draw their own charts",
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation:
+        "Explaining the graph in words helps the audience understand the information.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Why is it important to select key ideas rather than recording everything?",
+        options: [
+          "Because paper is very expensive",
+          "To ensure the most important information is clear",
+          "To make the presentation shorter than one minute",
+          "Because the teacher said so",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Selecting key ideas helps focus on the most important information.",
+      ),
+
+      QuizQuestion(
+        question: "9. Which of these is a non-text source?",
+        options: [
+          "A newspaper article",
+          "A school textbook chapter",
+          "A table showing rainfall levels",
+          "A handwritten letter",
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation:
+        "Tables, charts, graphs, and diagrams are examples of non-text sources.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. What is the final step before presenting your written data summary?",
+        options: [
+          "Drawing a new table",
+          "Editing and proofreading for sense and effect",
+          "Finding a new source of information",
+          "Choosing a different topic",
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation:
+        "Proofreading helps remove mistakes and ensures the summary is clear and accurate before presentation.",
+      ),
+    ]);
+
 final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
   questions: [
@@ -26192,7 +28195,8 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Where does the process of digestion begin in the human body?",
+      question:
+          "1. Where does the process of digestion begin in the human body?",
       options: [
         "In the mouth",
         "In the stomach",
@@ -26202,12 +28206,10 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Digestion begins in the mouth where chewing and saliva start breaking down food.",
+          "Digestion begins in the mouth where chewing and saliva start breaking down food.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of these is the correct order of food passage?",
+      question: "2. Which of these is the correct order of food passage?",
       options: [
         "Mouth → Stomach → Oesophagus",
         "Mouth → Oesophagus → Stomach",
@@ -26217,24 +28219,17 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Food passes from the mouth into the oesophagus (gullet) and then into the stomach.",
+          "Food passes from the mouth into the oesophagus (gullet) and then into the stomach.",
     ),
-
     QuizQuestion(
       question:
-      "3. The wave-like movement that pushes food down the gullet is:",
-      options: [
-        "Digestion",
-        "Absorption",
-        "Circulation",
-        "Peristalsis"
-      ],
+          "3. The wave-like movement that pushes food down the gullet is:",
+      options: ["Digestion", "Absorption", "Circulation", "Peristalsis"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Peristalsis is the series of muscular contractions that moves food through the digestive tract.",
+          "Peristalsis is the series of muscular contractions that moves food through the digestive tract.",
     ),
-
     QuizQuestion(
       question: "4. What is 'chyme'?",
       options: [
@@ -26246,12 +28241,11 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Chyme is the semi-liquid mixture of partially digested food and gastric juice in the stomach.",
+          "Chyme is the semi-liquid mixture of partially digested food and gastric juice in the stomach.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which organ is responsible for absorbing water from undigested food?",
+          "5. Which organ is responsible for absorbing water from undigested food?",
       options: [
         "Large intestine",
         "Small intestine",
@@ -26261,57 +28255,35 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "The large intestine absorbs water from undigested food before waste is removed from the body.",
+          "The large intestine absorbs water from undigested food before waste is removed from the body.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which substance in the mouth helps to soften food and start starch digestion?",
-      options: [
-        "Gastric juice",
-        "Pancreatic juice",
-        "Saliva",
-        "Bile"
-      ],
+          "6. Which substance in the mouth helps to soften food and start starch digestion?",
+      options: ["Gastric juice", "Pancreatic juice", "Saliva", "Bile"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Saliva moistens food and contains the enzyme amylase, which begins starch digestion.",
+          "Saliva moistens food and contains the enzyme amylase, which begins starch digestion.",
     ),
-
     QuizQuestion(
       question:
-      "7. The stomach is often described as being shaped like which letter?",
-      options: [
-        "Letter O",
-        "Letter S",
-        "Letter J",
-        "Letter L"
-      ],
+          "7. The stomach is often described as being shaped like which letter?",
+      options: ["Letter O", "Letter S", "Letter J", "Letter L"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation:
-      "The human stomach has a characteristic J-shaped structure.",
+      explanation: "The human stomach has a characteristic J-shaped structure.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which organ produces bile to help break down fats?",
-      options: [
-        "The pancreas",
-        "The kidney",
-        "The heart",
-        "The liver"
-      ],
+      question: "8. Which organ produces bile to help break down fats?",
+      options: ["The pancreas", "The kidney", "The heart", "The liver"],
       correctIndex: 3,
       difficulty: "High",
       explanation:
-      "The liver produces bile, which is stored in the gall bladder and helps digest fats.",
+          "The liver produces bile, which is stored in the gall bladder and helps digest fats.",
     ),
-
     QuizQuestion(
-      question:
-      "9. What is the primary job of the teeth in digestion?",
+      question: "9. What is the primary job of the teeth in digestion?",
       options: [
         "To taste if the food is salty",
         "To produce acid for the food",
@@ -26321,12 +28293,11 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Teeth mechanically break food into smaller pieces, making it easier to swallow and digest.",
+          "Teeth mechanically break food into smaller pieces, making it easier to swallow and digest.",
     ),
-
     QuizQuestion(
       question:
-      "10. In which part of the body does the most digestion and absorption occur?",
+          "10. In which part of the body does the most digestion and absorption occur?",
       options: [
         "The mouth",
         "The stomach",
@@ -26336,7 +28307,7 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "High",
       explanation:
-      "Most chemical digestion and nearly all nutrient absorption take place in the small intestine.",
+          "Most chemical digestion and nearly all nutrient absorption take place in the small intestine.",
     ),
   ],
 );
@@ -26345,67 +28316,41 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What does a piece of bread (carbohydrate) become at the end of digestion?",
-      options: [
-        "Amino acids",
-        "Glucose",
-        "Fatty acids",
-        "Glycerol"
-      ],
+          "1. What does a piece of bread (carbohydrate) become at the end of digestion?",
+      options: ["Amino acids", "Glucose", "Fatty acids", "Glycerol"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Carbohydrates are broken down into glucose, which the body uses for energy.",
+          "Carbohydrates are broken down into glucose, which the body uses for energy.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which of these nutrients provides the building blocks for muscles?",
-      options: [
-        "Fats",
-        "Starch",
-        "Sugars",
-        "Proteins"
-      ],
+          "2. Which of these nutrients provides the building blocks for muscles?",
+      options: ["Fats", "Starch", "Sugars", "Proteins"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Proteins are digested into amino acids, which are essential for muscle growth and repair.",
+          "Proteins are digested into amino acids, which are essential for muscle growth and repair.",
     ),
-
     QuizQuestion(
       question:
-      "3. Where do the end products of digestion go after leaving the small intestine?",
-      options: [
-        "To the lungs",
-        "To the blood",
-        "To the teeth",
-        "To the hair"
-      ],
+          "3. Where do the end products of digestion go after leaving the small intestine?",
+      options: ["To the lungs", "To the blood", "To the teeth", "To the hair"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Digested nutrients are absorbed into the bloodstream and transported throughout the body.",
+          "Digested nutrients are absorbed into the bloodstream and transported throughout the body.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which of the following describes the shape of villi?",
-      options: [
-        "Finger-like",
-        "Square-like",
-        "Round-like",
-        "Star-like"
-      ],
+      question: "4. Which of the following describes the shape of villi?",
+      options: ["Finger-like", "Square-like", "Round-like", "Star-like"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Villi are finger-like projections that increase the surface area for nutrient absorption.",
+          "Villi are finger-like projections that increase the surface area for nutrient absorption.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Why must food be broken down into end products?",
+      question: "5. Why must food be broken down into end products?",
       options: [
         "To make it taste better",
         "To make it change colour",
@@ -26415,12 +28360,11 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Large food molecules must be broken into smaller molecules so they can pass through the intestinal wall.",
+          "Large food molecules must be broken into smaller molecules so they can pass through the intestinal wall.",
     ),
-
     QuizQuestion(
       question:
-      "6. Fatty acids and glycerol are produced from the digestion of:",
+          "6. Fatty acids and glycerol are produced from the digestion of:",
       options: [
         "Banku and rice",
         "Fish and meat",
@@ -26430,12 +28374,10 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Fats and oils (lipids) are digested into fatty acids and glycerol.",
+          "Fats and oils (lipids) are digested into fatty acids and glycerol.",
     ),
-
     QuizQuestion(
-      question:
-      "7. How do nutrients move from the villi into the blood?",
+      question: "7. How do nutrients move from the villi into the blood?",
       options: [
         "By being chewed again",
         "By passing through thin walls",
@@ -26445,12 +28387,11 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "The thin walls of the villi allow digested nutrients to pass into the bloodstream.",
+          "The thin walls of the villi allow digested nutrients to pass into the bloodstream.",
     ),
-
     QuizQuestion(
       question:
-      "8. If a student has a balanced diet, their small intestine will absorb:",
+          "8. If a student has a balanced diet, their small intestine will absorb:",
       options: [
         "Only glucose",
         "Only amino acids",
@@ -26460,27 +28401,18 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "A balanced diet provides all the nutrients the body needs, which are absorbed in the small intestine.",
+          "A balanced diet provides all the nutrients the body needs, which are absorbed in the small intestine.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Which of these is the simplest form of protein?",
-      options: [
-        "Amino acid",
-        "Glucose",
-        "Fatty acid",
-        "Polypeptide"
-      ],
+      question: "9. Which of these is the simplest form of protein?",
+      options: ["Amino acid", "Glucose", "Fatty acid", "Polypeptide"],
       correctIndex: 0,
       difficulty: "High",
       explanation:
-      "Amino acids are the smallest units and final products of protein digestion.",
+          "Amino acids are the smallest units and final products of protein digestion.",
     ),
-
     QuizQuestion(
-      question:
-      "10. The main purpose of the villi is to increase:",
+      question: "10. The main purpose of the villi is to increase:",
       options: [
         "The speed of chewing",
         "The length of the gullet",
@@ -26490,7 +28422,7 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "High",
       explanation:
-      "The large surface area created by the villi allows more nutrients to be absorbed efficiently.",
+          "The large surface area created by the villi allows more nutrients to be absorbed efficiently.",
     ),
   ],
 );
@@ -36365,7 +38297,7 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What do we call materials that are no longer needed and are thrown away?",
+          "1. What do we call materials that are no longer needed and are thrown away?",
       options: [
         "Natural resources",
         "Sustainable items",
@@ -36375,12 +38307,11 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Waste refers to discarded materials that have lost their original value.",
+          "Waste refers to discarded materials that have lost their original value.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which practice is the most effective way to manage waste sustainably?",
+          "2. Which practice is the most effective way to manage waste sustainably?",
       options: [
         "Reducing waste",
         "Burning waste",
@@ -36390,42 +38321,29 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Reducing waste at the source prevents the problem from starting, making it the most effective 'R'.",
+          "Reducing waste at the source prevents the problem from starting, making it the most effective 'R'.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which 'R' involves turning old plastic bottles into new plastic pellets?",
-      options: [
-        "Reducing",
-        "Restoring",
-        "Recycling",
-        "Reusing"
-      ],
+          "3. Which 'R' involves turning old plastic bottles into new plastic pellets?",
+      options: ["Reducing", "Restoring", "Recycling", "Reusing"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Recycling is the industrial process of turning waste into new raw materials.",
+          "Recycling is the industrial process of turning waste into new raw materials.",
     ),
-
     QuizQuestion(
       question:
-      "4. Using an old car tire as a swing for children is an example of what?",
-      options: [
-        "Reusing",
-        "Reducing",
-        "Refining",
-        "Reacting"
-      ],
+          "4. Using an old car tire as a swing for children is an example of what?",
+      options: ["Reusing", "Reducing", "Refining", "Reacting"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "This is reusing because the tire is being used for a new purpose instead of being thrown away.",
+          "This is reusing because the tire is being used for a new purpose instead of being thrown away.",
     ),
-
     QuizQuestion(
       question:
-      "5. Why should we avoid throwing plastic waste into gutters in Ghana?",
+          "5. Why should we avoid throwing plastic waste into gutters in Ghana?",
       options: [
         "It makes water blue",
         "It stops the birds",
@@ -36435,12 +38353,11 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Plastic blocks the flow of water, leading to floods during the rainy season.",
+          "Plastic blocks the flow of water, leading to floods during the rainy season.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which of these items is a common source of domestic waste in Ghana?",
+          "6. Which of these items is a common source of domestic waste in Ghana?",
       options: [
         "Large machinery",
         "Cassava peelings",
@@ -36450,12 +38367,10 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Domestic waste comes from homes; cassava peelings are a very common food waste in Ghanaian kitchens.",
+          "Domestic waste comes from homes; cassava peelings are a very common food waste in Ghanaian kitchens.",
     ),
-
     QuizQuestion(
-      question:
-      "7. What is a major environmental benefit of the 3Rs?",
+      question: "7. What is a major environmental benefit of the 3Rs?",
       options: [
         "More plastic bags",
         "Less soil erosion",
@@ -36465,27 +38380,19 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Practicing the 3Rs directly reduces the amount of trash that pollutes our land and water.",
+          "Practicing the 3Rs directly reduces the amount of trash that pollutes our land and water.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which 'R' are you practicing when you refuse a plastic straw at a shop?",
-      options: [
-        "Recycle",
-        "Reuse",
-        "Repair",
-        "Reduce"
-      ],
+          "8. Which 'R' are you practicing when you refuse a plastic straw at a shop?",
+      options: ["Recycle", "Reuse", "Repair", "Reduce"],
       correctIndex: 3,
       difficulty: "High",
       explanation:
-      "By refusing the straw, you are reducing the amount of waste produced.",
+          "By refusing the straw, you are reducing the amount of waste produced.",
     ),
-
     QuizQuestion(
-      question:
-      "9. What happens to waste that is recycled?",
+      question: "9. What happens to waste that is recycled?",
       options: [
         "It is buried forever",
         "It is made into new things",
@@ -36494,13 +38401,11 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation:
-      "Recycling transforms waste into useful new products.",
+      explanation: "Recycling transforms waste into useful new products.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which is a sustainable way to handle old school notebooks?",
+          "10. Which is a sustainable way to handle old school notebooks?",
       options: [
         "Throwing them in fire",
         "Leaving them in rain",
@@ -36510,7 +38415,7 @@ final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Paper is a recyclable material that can be turned into new paper products.",
+          "Paper is a recyclable material that can be turned into new paper products.",
     ),
   ],
 );
@@ -36518,8 +38423,7 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What is the main goal of a waste survey?",
+      question: "1. What is the main goal of a waste survey?",
       options: [
         "To find hidden treasures",
         "To identify waste types",
@@ -36529,12 +38433,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Surveys help us identify what kind of waste is present and where it is coming from.",
+          "Surveys help us identify what kind of waste is present and where it is coming from.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which group of people is most important to involve in a community waste plan?",
+          "2. Which group of people is most important to involve in a community waste plan?",
       options: [
         "People living far away",
         "Only the young children",
@@ -36544,12 +38447,10 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Waste management works best when everyone in the community participates.",
+          "Waste management works best when everyone in the community participates.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Why are labeled bins (Plastic, Paper, Organic) helpful?",
+      question: "3. Why are labeled bins (Plastic, Paper, Organic) helpful?",
       options: [
         "They make sorting easy",
         "They look like toys",
@@ -36559,12 +38460,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Labels help people put the right waste in the right place for recycling or composting.",
+          "Labels help people put the right waste in the right place for recycling or composting.",
     ),
-
     QuizQuestion(
       question:
-      "4. What should you do if your survey shows gutters are blocked by plastic?",
+          "4. What should you do if your survey shows gutters are blocked by plastic?",
       options: [
         "Wait for the next rain",
         "Organize a clean-up",
@@ -36574,12 +38474,10 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Organizing a clean-up is a proactive way to remove blockages and prevent flooding.",
+          "Organizing a clean-up is a proactive way to remove blockages and prevent flooding.",
     ),
-
     QuizQuestion(
-      question:
-      "5. How can 'Gong-gong' beaters help with waste management?",
+      question: "5. How can 'Gong-gong' beaters help with waste management?",
       options: [
         "By making loud music",
         "By announcing clean-ups",
@@ -36589,12 +38487,10 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "In many Ghanaian communities, the gong-gong is a traditional way to spread important information.",
+          "In many Ghanaian communities, the gong-gong is a traditional way to spread important information.",
     ),
-
     QuizQuestion(
-      question:
-      "6. What does 'evaluating' a waste practice mean?",
+      question: "6. What does 'evaluating' a waste practice mean?",
       options: [
         "Buying new equipment",
         "Checking if it works",
@@ -36604,12 +38500,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Evaluation is the process of seeing if your actions led to a cleaner environment.",
+          "Evaluation is the process of seeing if your actions led to a cleaner environment.",
     ),
-
     QuizQuestion(
       question:
-      "7. Which is a sustainable way to handle large amounts of paper waste?",
+          "7. Which is a sustainable way to handle large amounts of paper waste?",
       options: [
         "Dumping it in a river",
         "Burying it in the yard",
@@ -36619,12 +38514,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Recycling paper saves trees and reduces the volume of waste in landfills.",
+          "Recycling paper saves trees and reduces the volume of waste in landfills.",
     ),
-
     QuizQuestion(
       question:
-      "8. What is the best way to reduce plastic waste in a school canteen?",
+          "8. What is the best way to reduce plastic waste in a school canteen?",
       options: [
         "Use more plastic bags",
         "Use reusable plates",
@@ -36634,12 +38528,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Reusable plates can be washed and used again, reducing the need for single-use plastics.",
+          "Reusable plates can be washed and used again, reducing the need for single-use plastics.",
     ),
-
     QuizQuestion(
       question:
-      "9. Why is it bad to leave food waste in open heaps in the market?",
+          "9. Why is it bad to leave food waste in open heaps in the market?",
       options: [
         "It attracts pests/flies",
         "It makes the soil hard",
@@ -36649,12 +38542,11 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Rotting food attracts flies and rodents, which can spread diseases like cholera.",
+          "Rotting food attracts flies and rodents, which can spread diseases like cholera.",
     ),
-
     QuizQuestion(
       question:
-      "10. A successful waste plan should be 'sustainable.' What does this mean?",
+          "10. A successful waste plan should be 'sustainable.' What does this mean?",
       options: [
         "It lasts a long time",
         "It ends very quickly",
@@ -36664,7 +38556,7 @@ final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "High",
       explanation:
-      "Sustainability means the community can keep the practice going for years to come.",
+          "Sustainability means the community can keep the practice going for years to come.",
     ),
   ],
 );
@@ -36672,23 +38564,15 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. Which of these is a communicable disease?",
-      options: [
-        "Broken bone",
-        "Heart attack",
-        "Poor vision",
-        "Hepatitis"
-      ],
+      question: "1. Which of these is a communicable disease?",
+      options: ["Broken bone", "Heart attack", "Poor vision", "Hepatitis"],
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Hepatitis is caused by a pathogen and can be passed from person to person.",
+          "Hepatitis is caused by a pathogen and can be passed from person to person.",
     ),
-
     QuizQuestion(
-      question:
-      "2. What does the term 'pathogen' refer to?",
+      question: "2. What does the term 'pathogen' refer to?",
       options: [
         "A type of medicine",
         "An infectious agent",
@@ -36698,42 +38582,26 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Pathogens are the bacteria or viruses that cause communicable diseases.",
+          "Pathogens are the bacteria or viruses that cause communicable diseases.",
     ),
-
     QuizQuestion(
       question:
-      "3. A student has a runny nose and a red blotchy rash. What is the likely cause?",
-      options: [
-        "Measles",
-        "Malaria",
-        "Anaemia",
-        "Asthma"
-      ],
+          "3. A student has a runny nose and a red blotchy rash. What is the likely cause?",
+      options: ["Measles", "Malaria", "Anaemia", "Asthma"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "A red blotchy rash starting on the face is a classic sign of Measles.",
+          "A red blotchy rash starting on the face is a classic sign of Measles.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which organ is primarily attacked by the Hepatitis virus?",
-      options: [
-        "The heart",
-        "The lungs",
-        "The liver",
-        "The brain"
-      ],
+      question: "4. Which organ is primarily attacked by the Hepatitis virus?",
+      options: ["The heart", "The lungs", "The liver", "The brain"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Hepatitis causes inflammation and damage to the liver.",
+      explanation: "Hepatitis causes inflammation and damage to the liver.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Why should we avoid sharing needles or syringes?",
+      question: "5. Why should we avoid sharing needles or syringes?",
       options: [
         "To prevent HIV",
         "To stop a cough",
@@ -36743,12 +38611,11 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "HIV is transmitted through infected blood found on shared sharp objects.",
+          "HIV is transmitted through infected blood found on shared sharp objects.",
     ),
-
     QuizQuestion(
       question:
-      "6. How do communicable diseases affect academic progress in Ghana?",
+          "6. How do communicable diseases affect academic progress in Ghana?",
       options: [
         "Students study more",
         "Students miss school",
@@ -36758,12 +38625,10 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Illness causes absenteeism, which prevents students from following the curriculum.",
+          "Illness causes absenteeism, which prevents students from following the curriculum.",
     ),
-
     QuizQuestion(
-      question:
-      "7. What is a major sign of jaundice?",
+      question: "7. What is a major sign of jaundice?",
       options: [
         "Very itchy skin",
         "Yellowing eyes",
@@ -36773,12 +38638,11 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Jaundice, a symptom of Hepatitis, causes yellowing of the eyes and skin.",
+          "Jaundice, a symptom of Hepatitis, causes yellowing of the eyes and skin.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which method is used by hospitals to make blood transfusions safe?",
+          "8. Which method is used by hospitals to make blood transfusions safe?",
       options: [
         "Cooling the blood",
         "Screening blood",
@@ -36788,12 +38652,11 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Screening ensures the blood is free from pathogens like HIV or Hepatitis.",
+          "Screening ensures the blood is free from pathogens like HIV or Hepatitis.",
     ),
-
     QuizQuestion(
       question:
-      "9. Measles is primarily spread through which of the following?",
+          "9. Measles is primarily spread through which of the following?",
       options: [
         "Contaminated soil",
         "Uncooked seafood",
@@ -36803,12 +38666,11 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Measles is highly contagious through coughing and sneezing.",
+          "Measles is highly contagious through coughing and sneezing.",
     ),
-
     QuizQuestion(
       question:
-      "10. What is the best way for a community to achieve 'immunity' against Measles?",
+          "10. What is the best way for a community to achieve 'immunity' against Measles?",
       options: [
         "Mass vaccination",
         "Closing markets",
@@ -36818,7 +38680,7 @@ final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Vaccination is the most effective community-wide prevention strategy.",
+          "Vaccination is the most effective community-wide prevention strategy.",
     ),
   ],
 );
@@ -36826,8 +38688,7 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What is a 'risk factor' in health?",
+      question: "1. What is a 'risk factor' in health?",
       options: [
         "A cure for illness",
         "A type of doctor",
@@ -36837,27 +38698,18 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "A risk factor increases the probability or 'chance' that a person will develop a disease.",
+          "A risk factor increases the probability or 'chance' that a person will develop a disease.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of these promotes the spread of air-borne diseases?",
-      options: [
-        "Clean clothes",
-        "Large windows",
-        "Overcrowding",
-        "Using soap"
-      ],
+      question: "2. Which of these promotes the spread of air-borne diseases?",
+      options: ["Clean clothes", "Large windows", "Overcrowding", "Using soap"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Air-borne pathogens spread quickly when many people are packed into a small, unventilated space.",
+          "Air-borne pathogens spread quickly when many people are packed into a small, unventilated space.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Why are flies considered a risk factor in a community?",
+      question: "3. Why are flies considered a risk factor in a community?",
       options: [
         "They are noisy",
         "They carry germs",
@@ -36867,12 +38719,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Flies act as 'vectors' that move pathogens from waste or stagnant water onto our food.",
+          "Flies act as 'vectors' that move pathogens from waste or stagnant water onto our food.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which is a socio-economic risk factor?",
+      question: "4. Which is a socio-economic risk factor?",
       options: [
         "Sharing a sponge",
         "Not washing hands",
@@ -36882,12 +38732,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Poverty (lack of money) prevents people from buying soap, good food, or medicine, increasing health risks.",
+          "Poverty (lack of money) prevents people from buying soap, good food, or medicine, increasing health risks.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Stagnant water in gutters is a risk factor because:",
+      question: "5. Stagnant water in gutters is a risk factor because:",
       options: [
         "It smells very nice",
         "Bacteria multiply",
@@ -36897,12 +38745,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Pathogens and disease-carrying insects thrive and multiply in still, dirty water.",
+          "Pathogens and disease-carrying insects thrive and multiply in still, dirty water.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Which action reduces a behavioural risk factor?",
+      question: "6. Which action reduces a behavioural risk factor?",
       options: [
         "Washing with soap",
         "Sharing a needle",
@@ -36912,12 +38758,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Using soap is a personal choice (behaviour) that physically removes pathogens from the skin.",
+          "Using soap is a personal choice (behaviour) that physically removes pathogens from the skin.",
     ),
-
     QuizQuestion(
-      question:
-      "7. How does 'ventilation' affect the risk of Measles?",
+      question: "7. How does 'ventilation' affect the risk of Measles?",
       options: [
         "It makes it worse",
         "It has no effect",
@@ -36927,12 +38771,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Good ventilation (fresh air flow) dilutes and removes air-borne viruses from a room.",
+          "Good ventilation (fresh air flow) dilutes and removes air-borne viruses from a room.",
     ),
-
     QuizQuestion(
-      question:
-      "8. In Ghana, a 'CHPS compound' helps reduce risk by:",
+      question: "8. In Ghana, a 'CHPS compound' helps reduce risk by:",
       options: [
         "Selling groceries",
         "Providing vaccines",
@@ -36942,12 +38784,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Access to community health services ensures people get vaccinated against common diseases.",
+          "Access to community health services ensures people get vaccinated against common diseases.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Which of these is a risk factor for Hepatitis?",
+      question: "9. Which of these is a risk factor for Hepatitis?",
       options: [
         "Reading books",
         "Unscreened blood",
@@ -36957,12 +38797,10 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Using blood that hasn't been tested (screened) is a major risk for transmitting Hepatitis.",
+          "Using blood that hasn't been tested (screened) is a major risk for transmitting Hepatitis.",
     ),
-
     QuizQuestion(
-      question:
-      "10. Nutritious food is important because it:",
+      question: "10. Nutritious food is important because it:",
       options: [
         "Makes you taller",
         "Powers the heart",
@@ -36972,7 +38810,7 @@ final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "A strong immune system (boosted by good food) can fight off pathogens even if you are exposed to them.",
+          "A strong immune system (boosted by good food) can fight off pathogens even if you are exposed to them.",
     ),
   ],
 );
@@ -36980,8 +38818,7 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. Where can bacteria be found in the environment?",
+      question: "1. Where can bacteria be found in the environment?",
       options: [
         "Only in hospitals",
         "Only in the air",
@@ -36991,12 +38828,10 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Bacteria are ubiquitous, meaning they are found almost everywhere, including soil, water, and air.",
+          "Bacteria are ubiquitous, meaning they are found almost everywhere, including soil, water, and air.",
     ),
-
     QuizQuestion(
-      question:
-      "2. What happens during 'binary fission' in bacteria?",
+      question: "2. What happens during 'binary fission' in bacteria?",
       options: [
         "They stop growing",
         "They split in two",
@@ -37006,27 +38841,20 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Binary fission is the process where one bacterial cell divides into two identical cells.",
+          "Binary fission is the process where one bacterial cell divides into two identical cells.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which disease is passed specifically through sexual contact?",
-      options: [
-        "Food poisoning",
-        "Meningitis",
-        "Gonorrhoea",
-        "Tuberculosis"
-      ],
+          "3. Which disease is passed specifically through sexual contact?",
+      options: ["Food poisoning", "Meningitis", "Gonorrhoea", "Tuberculosis"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Gonorrhoea is a bacterial infection categorized as a sexually transmitted disease.",
+          "Gonorrhoea is a bacterial infection categorized as a sexually transmitted disease.",
     ),
-
     QuizQuestion(
       question:
-      "4. Why is the 'Harmattan' season a high-risk time for Meningitis?",
+          "4. Why is the 'Harmattan' season a high-risk time for Meningitis?",
       options: [
         "It is very rainy",
         "It is cold and wet",
@@ -37036,12 +38864,10 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Dry, dusty conditions can irritate the throat and nose, making it easier for Meningitis bacteria to enter the body.",
+          "Dry, dusty conditions can irritate the throat and nose, making it easier for Meningitis bacteria to enter the body.",
     ),
-
     QuizQuestion(
-      question:
-      "5. What is the primary cause of Food Poisoning?",
+      question: "5. What is the primary cause of Food Poisoning?",
       options: [
         "Eating too quickly",
         "Bacterial toxins",
@@ -37051,12 +38877,10 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Bacteria in contaminated food release toxins that cause illness in the digestive system.",
+          "Bacteria in contaminated food release toxins that cause illness in the digestive system.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Which of these is a characteristic of all bacteria?",
+      question: "6. Which of these is a characteristic of all bacteria?",
       options: [
         "They have feathers",
         "They are microscopic",
@@ -37066,27 +38890,18 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Bacteria are so small they cannot be seen without the help of a microscope.",
+          "Bacteria are so small they cannot be seen without the help of a microscope.",
     ),
-
     QuizQuestion(
-      question:
-      "7. A stiff neck is a 'danger sign' for which condition?",
-      options: [
-        "Gonorrhoea",
-        "Food poisoning",
-        "Meningitis",
-        "Common cold"
-      ],
+      question: "7. A stiff neck is a 'danger sign' for which condition?",
+      options: ["Gonorrhoea", "Food poisoning", "Meningitis", "Common cold"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Inflammation of the brain lining in Meningitis causes the neck muscles to become painfully stiff.",
+          "Inflammation of the brain lining in Meningitis causes the neck muscles to become painfully stiff.",
     ),
-
     QuizQuestion(
-      question:
-      "8. How do bacteria get nutrients once they are inside you?",
+      question: "8. How do bacteria get nutrients once they are inside you?",
       options: [
         "By eating your food",
         "By damaging cells",
@@ -37096,12 +38911,10 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Pathogenic bacteria break down host cells or tissues to get the nutrients they need to multiply.",
+          "Pathogenic bacteria break down host cells or tissues to get the nutrients they need to multiply.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Which of these can help prevent Food Poisoning?",
+      question: "9. Which of these can help prevent Food Poisoning?",
       options: [
         "Cooking food well",
         "Leaving food open",
@@ -37111,12 +38924,10 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "High heat from cooking kills most harmful bacteria like Salmonella.",
+          "High heat from cooking kills most harmful bacteria like Salmonella.",
     ),
-
     QuizQuestion(
-      question:
-      "10. Why are some bacteria considered 'helpful'?",
+      question: "10. Why are some bacteria considered 'helpful'?",
       options: [
         "They cause fevers",
         "They help digestion",
@@ -37126,7 +38937,7 @@ final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Many bacteria in the human gut help break down food and produce vitamins.",
+          "Many bacteria in the human gut help break down food and produce vitamins.",
     ),
   ],
 );
@@ -37134,8 +38945,7 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What is the main purpose of a 'Veronica Bucket' in health?",
+      question: "1. What is the main purpose of a 'Veronica Bucket' in health?",
       options: [
         "To collect rainwater",
         "To help with cooking",
@@ -37145,12 +38955,11 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Veronica Buckets are essential for providing running water for hygienic hand washing in Ghana.",
+          "Veronica Buckets are essential for providing running water for hygienic hand washing in Ghana.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which group is responsible for inspecting food safety at the market?",
+          "2. Which group is responsible for inspecting food safety at the market?",
       options: [
         "The police force",
         "Government health inspectors",
@@ -37160,27 +38969,19 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "The government employs inspectors to ensure public food sources meet health standards.",
+          "The government employs inspectors to ensure public food sources meet health standards.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which medical treatment is specifically used to kill bacteria?",
-      options: [
-        "Painkillers",
-        "Antibiotics",
-        "Cough syrup",
-        "Vitamin C"
-      ],
+          "3. Which medical treatment is specifically used to kill bacteria?",
+      options: ["Painkillers", "Antibiotics", "Cough syrup", "Vitamin C"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Antibiotics are medications designed to destroy bacteria or inhibit their reproduction.",
+          "Antibiotics are medications designed to destroy bacteria or inhibit their reproduction.",
     ),
-
     QuizQuestion(
-      question:
-      "4. To prevent Meningitis, rooms should be:",
+      question: "4. To prevent Meningitis, rooms should be:",
       options: [
         "Very dark",
         "Highly crowded",
@@ -37190,12 +38991,10 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Ventilation prevents the buildup of air-borne bacteria that cause Meningitis.",
+          "Ventilation prevents the buildup of air-borne bacteria that cause Meningitis.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Individual prevention of Food Poisoning includes:",
+      question: "5. Individual prevention of Food Poisoning includes:",
       options: [
         "Eating raw eggs",
         "Cooking food thoroughly",
@@ -37205,12 +39004,11 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Proper cooking temperatures kill the bacteria that cause food poisoning.",
+          "Proper cooking temperatures kill the bacteria that cause food poisoning.",
     ),
-
     QuizQuestion(
       question:
-      "6. What does 'abstinence' mean in the context of disease prevention?",
+          "6. What does 'abstinence' mean in the context of disease prevention?",
       options: [
         "Drinking only juice",
         "Avoiding sexual contact",
@@ -37220,12 +39018,11 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Abstinence is the most effective individual way for students to prevent sexually transmitted bacterial diseases.",
+          "Abstinence is the most effective individual way for students to prevent sexually transmitted bacterial diseases.",
     ),
-
     QuizQuestion(
       question:
-      "7. A 'National Sanitation Day' helps manage health at what level?",
+          "7. A 'National Sanitation Day' helps manage health at what level?",
       options: [
         "Individual level",
         "Government level",
@@ -37235,12 +39032,10 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Community-wide clean-ups address environmental risks that affect everyone in the area.",
+          "Community-wide clean-ups address environmental risks that affect everyone in the area.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Why should food be kept covered?",
+      question: "8. Why should food be kept covered?",
       options: [
         "To keep it warm",
         "To stop flies landing",
@@ -37250,12 +39045,11 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Flies carry bacteria on their bodies and can contaminate food if it is left uncovered.",
+          "Flies carry bacteria on their bodies and can contaminate food if it is left uncovered.",
     ),
-
     QuizQuestion(
       question:
-      "9. If a community has a Meningitis outbreak, what is the government’s best response?",
+          "9. If a community has a Meningitis outbreak, what is the government’s best response?",
       options: [
         "Mass vaccination",
         "Building more roads",
@@ -37265,12 +39059,11 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Rapid vaccination of the community stops the bacteria from spreading further.",
+          "Rapid vaccination of the community stops the bacteria from spreading further.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which habit is MOST important before eating fufu or waakye?",
+          "10. Which habit is MOST important before eating fufu or waakye?",
       options: [
         "Taking off your shoes",
         "Washing hands with soap",
@@ -37280,7 +39073,7 @@ final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Because these foods are often eaten with hands, washing with soap is critical to prevent ingesting bacteria.",
+          "Because these foods are often eaten with hands, washing with soap is critical to prevent ingesting bacteria.",
     ),
   ],
 );
@@ -37288,8 +39081,7 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What is the primary goal of Science?",
+      question: "1. What is the primary goal of Science?",
       options: [
         "To sell new products",
         "To build large ships",
@@ -37299,42 +39091,28 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Science is about understanding the world through study and facts.",
+          "Science is about understanding the world through study and facts.",
     ),
-
     QuizQuestion(
       question:
-      "2. The application of scientific knowledge to solve practical problems is known as:",
-      options: [
-        "Technology",
-        "Innovation",
-        "Observation",
-        "Tradition"
-      ],
+          "2. The application of scientific knowledge to solve practical problems is known as:",
+      options: ["Technology", "Innovation", "Observation", "Tradition"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-      "Technology takes what science knows and puts it to work.",
+      explanation: "Technology takes what science knows and puts it to work.",
     ),
-
     QuizQuestion(
       question:
-      "3. A Ghanaian scientist studying the properties of salt is performing:",
-      options: [
-        "Innovation",
-        "Technology",
-        "Marketing",
-        "Science"
-      ],
+          "3. A Ghanaian scientist studying the properties of salt is performing:",
+      options: ["Innovation", "Technology", "Marketing", "Science"],
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "Studying properties to gain knowledge is the definition of science.",
+          "Studying properties to gain knowledge is the definition of science.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which of these is an example of technology in a Ghanaian school?",
+          "4. Which of these is an example of technology in a Ghanaian school?",
       options: [
         "A student's desk",
         "A smart board",
@@ -37344,12 +39122,11 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "A smart board is a gadget built using scientific knowledge.",
+          "A smart board is a gadget built using scientific knowledge.",
     ),
-
     QuizQuestion(
       question:
-      "5. Innovation is different from technology because innovation involves:",
+          "5. Innovation is different from technology because innovation involves:",
       options: [
         "Using old tools",
         "New ideas/methods",
@@ -37359,42 +39136,28 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Innovation is about the 'newness' or improvement of ideas and products.",
+          "Innovation is about the 'newness' or improvement of ideas and products.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which pillar is represented by the invention of the first aeroplane?",
-      options: [
-        "Pure Science",
-        "Innovation",
-        "Environment",
-        "Technology"
-      ],
+          "6. Which pillar is represented by the invention of the first aeroplane?",
+      options: ["Pure Science", "Innovation", "Environment", "Technology"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "The aeroplane is a machine/tool created from scientific principles of flight.",
+          "The aeroplane is a machine/tool created from scientific principles of flight.",
     ),
-
     QuizQuestion(
       question:
-      "7. A company creates a way to pay for tro-tro fares using a phone. This is:",
-      options: [
-        "Science",
-        "Technology",
-        "Innovation",
-        "Discovery"
-      ],
+          "7. A company creates a way to pay for tro-tro fares using a phone. This is:",
+      options: ["Science", "Technology", "Innovation", "Discovery"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "This is a new, improved way of doing things in society.",
+      explanation: "This is a new, improved way of doing things in society.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which sequence shows the correct relationship between the three pillars?",
+          "8. Which sequence shows the correct relationship between the three pillars?",
       options: [
         "Science -> Technology -> Innovation",
         "Innovation -> Science -> Technology",
@@ -37404,12 +39167,10 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "Knowledge (Science) leads to tools (Technology), which are then improved for society (Innovation).",
+          "Knowledge (Science) leads to tools (Technology), which are then improved for society (Innovation).",
     ),
-
     QuizQuestion(
-      question:
-      "9. Without Science, Technology would have no:",
+      question: "9. Without Science, Technology would have no:",
       options: [
         "Practical tools",
         "Machines to use",
@@ -37419,12 +39180,10 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Technology relies on the facts and laws discovered by science.",
+          "Technology relies on the facts and laws discovered by science.",
     ),
-
     QuizQuestion(
-      question:
-      "10. How does Innovation impact the Ghanaian environment?",
+      question: "10. How does Innovation impact the Ghanaian environment?",
       options: [
         "It stops all work",
         "It solves problems",
@@ -37433,8 +39192,7 @@ final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "Innovation aims to find better ways to live and work.",
+      explanation: "Innovation aims to find better ways to live and work.",
     ),
   ],
 );
@@ -37442,23 +39200,14 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. Which sector uses drones to deliver blood to rural Ghana?",
-      options: [
-        "Education",
-        "Healthcare",
-        "Entertainment",
-        "Fashion"
-      ],
+      question: "1. Which sector uses drones to deliver blood to rural Ghana?",
+      options: ["Education", "Healthcare", "Entertainment", "Fashion"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "Drones are an advancement in medical transport.",
+      explanation: "Drones are an advancement in medical transport.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Advancements in Agriculture lead to:",
+      question: "2. Advancements in Agriculture lead to:",
       options: [
         "Less food for people",
         "More manual labor",
@@ -37467,13 +39216,10 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-      "Modern tools and seeds help farmers grow more food.",
+      explanation: "Modern tools and seeds help farmers grow more food.",
     ),
-
     QuizQuestion(
-      question:
-      "3. What is 'E-waste'?",
+      question: "3. What is 'E-waste'?",
       options: [
         "Extra food waste",
         "Electronic equipment waste",
@@ -37482,13 +39228,10 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "E-waste refers to discarded electronic devices.",
+      explanation: "E-waste refers to discarded electronic devices.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which of these is a POSITIVE impact of technology?",
+      question: "4. Which of these is a POSITIVE impact of technology?",
       options: [
         "Air pollution from cars",
         "Destruction of rivers",
@@ -37497,13 +39240,10 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Faster diagnosis via technology saves lives.",
+      explanation: "Faster diagnosis via technology saves lives.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Akosombo Dam provides electricity using water. This is:",
+      question: "5. Akosombo Dam provides electricity using water. This is:",
       options: [
         "A negative advancement",
         "A technological advancement",
@@ -37513,12 +39253,11 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Hydroelectric power is a significant engineering advancement.",
+          "Hydroelectric power is a significant engineering advancement.",
     ),
-
     QuizQuestion(
       question:
-      "6. Why is Galamsey machinery considered a misuse of technology?",
+          "6. Why is Galamsey machinery considered a misuse of technology?",
       options: [
         "It is too expensive",
         "It destroys Ghana's rivers",
@@ -37528,57 +39267,33 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Heavy machinery used for illegal mining ruins the environment.",
+          "Heavy machinery used for illegal mining ruins the environment.",
     ),
-
     QuizQuestion(
       question:
-      "7. The use of smartboards in JHS classrooms is an advancement in:",
-      options: [
-        "Agriculture",
-        "Transportation",
-        "Education",
-        "Communication"
-      ],
+          "7. The use of smartboards in JHS classrooms is an advancement in:",
+      options: ["Agriculture", "Transportation", "Education", "Communication"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-      "Smartboards are teaching tools.",
+      explanation: "Smartboards are teaching tools.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which chemical in E-waste can poison the environment?",
-      options: [
-        "Oxygen",
-        "Clean water",
-        "Lead",
-        "Vitamin C"
-      ],
+      question: "8. Which chemical in E-waste can poison the environment?",
+      options: ["Oxygen", "Clean water", "Lead", "Vitamin C"],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation:
-      "Lead is a toxic metal found in many electronics.",
+      explanation: "Lead is a toxic metal found in many electronics.",
     ),
-
     QuizQuestion(
       question:
-      "9. Using an app to pay for electricity (ECG) is an advancement in:",
-      options: [
-        "Transportation",
-        "Science",
-        "Technology",
-        "Medicine"
-      ],
+          "9. Using an app to pay for electricity (ECG) is an advancement in:",
+      options: ["Transportation", "Science", "Technology", "Medicine"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Digital payment systems are technological advancements.",
+      explanation: "Digital payment systems are technological advancements.",
     ),
-
     QuizQuestion(
-      question:
-      "10. A balance between technology and environment means:",
+      question: "10. A balance between technology and environment means:",
       options: [
         "Stopping all technology",
         "Using technology safely",
@@ -37587,8 +39302,7 @@ final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "We must use tools in a way that protects nature.",
+      explanation: "We must use tools in a way that protects nature.",
     ),
   ],
 );
@@ -37597,7 +39311,7 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which term describes the long-term increase in the Earth's average temperature?",
+          "1. Which term describes the long-term increase in the Earth's average temperature?",
       options: [
         "Seasonal change",
         "Global warming",
@@ -37607,27 +39321,20 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Global warming is the specific term for the planet's rising temperature.",
+          "Global warming is the specific term for the planet's rising temperature.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which Ghanaian town is famously losing land due to rising sea levels?",
-      options: [
-        "Keta",
-        "Kumasi",
-        "Tamale",
-        "Sunyani"
-      ],
+          "2. Which Ghanaian town is famously losing land due to rising sea levels?",
+      options: ["Keta", "Kumasi", "Tamale", "Sunyani"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Keta is a coastal town severely affected by tidal waves and rising seas.",
+          "Keta is a coastal town severely affected by tidal waves and rising seas.",
     ),
-
     QuizQuestion(
       question:
-      "3. What happens to the Earth's 'blanket' of gases during climate change?",
+          "3. What happens to the Earth's 'blanket' of gases during climate change?",
       options: [
         "It gets thinner",
         "It disappears",
@@ -37637,12 +39344,10 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Greenhouse gases trap more heat, making the atmospheric 'blanket' thicker.",
+          "Greenhouse gases trap more heat, making the atmospheric 'blanket' thicker.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which of these is a sign of climate change?",
+      question: "4. Which of these is a sign of climate change?",
       options: [
         "Clear blue skies",
         "Predictable rain",
@@ -37652,12 +39357,10 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Longer and more frequent droughts are a major sign of climate change.",
+          "Longer and more frequent droughts are a major sign of climate change.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Why is the 'weather' different from 'climate'?",
+      question: "5. Why is the 'weather' different from 'climate'?",
       options: [
         "Weather is long-term",
         "Climate is short-term",
@@ -37666,13 +39369,11 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-      "Weather refers to what is happening right now or today.",
+      explanation: "Weather refers to what is happening right now or today.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which activity contributes most to the increase in global temperatures?",
+          "6. Which activity contributes most to the increase in global temperatures?",
       options: [
         "Planting more trees",
         "Burning fossil fuels",
@@ -37682,12 +39383,11 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Burning fuels like oil and coal releases gases that trap heat.",
+          "Burning fuels like oil and coal releases gases that trap heat.",
     ),
-
     QuizQuestion(
       question:
-      "7. If the climate changes, what is most likely to happen to Ghana's cocoa production?",
+          "7. If the climate changes, what is most likely to happen to Ghana's cocoa production?",
       options: [
         "It will increase",
         "It will stay same",
@@ -37697,12 +39397,10 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Irregular rain and high heat make it difficult for cocoa trees to survive.",
+          "Irregular rain and high heat make it difficult for cocoa trees to survive.",
     ),
-
     QuizQuestion(
-      question:
-      "8. What is the main cause of rising sea levels?",
+      question: "8. What is the main cause of rising sea levels?",
       options: [
         "More fish in sea",
         "Melting of ice",
@@ -37712,12 +39410,10 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Heat melts polar ice, which flows into the oceans, raising the level.",
+          "Heat melts polar ice, which flows into the oceans, raising the level.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Climate change is a problem that affects:",
+      question: "9. Climate change is a problem that affects:",
       options: [
         "Only Accra",
         "Only farmers",
@@ -37727,12 +39423,10 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "Climate change is a global issue that impacts every country.",
+          "Climate change is a global issue that impacts every country.",
     ),
-
     QuizQuestion(
-      question:
-      "10. A 'heat wave' refers to a period of:",
+      question: "10. A 'heat wave' refers to a period of:",
       options: [
         "Very cold weather",
         "Very rainy weather",
@@ -37742,7 +39436,7 @@ final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "A heat wave is a prolonged period of excessively hot weather.",
+          "A heat wave is a prolonged period of excessively hot weather.",
     ),
   ],
 );
@@ -37751,67 +39445,38 @@ final QuizModel Scijhs2s5ss5Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which soil type is best for most crops because it balances water and air?",
-      options: [
-        "Salty soil",
-        "Clay soil",
-        "Sandy soil",
-        "Loamy soil"
-      ],
+          "1. Which soil type is best for most crops because it balances water and air?",
+      options: ["Salty soil", "Clay soil", "Sandy soil", "Loamy soil"],
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "Loam provides the perfect balance of moisture and air for roots.",
+          "Loam provides the perfect balance of moisture and air for roots.",
     ),
-
     QuizQuestion(
-      question:
-      "2. How would you describe the texture of sandy soil?",
-      options: [
-        "Smooth",
-        "Sticky",
-        "Gritty",
-        "Slippery"
-      ],
+      question: "2. How would you describe the texture of sandy soil?",
+      options: ["Smooth", "Sticky", "Gritty", "Slippery"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-      "Large particles in sand give it a rough, gritty feel.",
+      explanation: "Large particles in sand give it a rough, gritty feel.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Which soil has the highest water retention?",
-      options: [
-        "Sandy soil",
-        "Clay soil",
-        "Loamy soil",
-        "Dry soil"
-      ],
+      question: "3. Which soil has the highest water retention?",
+      options: ["Sandy soil", "Clay soil", "Loamy soil", "Dry soil"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-      "Clay's small pores trap water and hold it very tightly.",
+      explanation: "Clay's small pores trap water and hold it very tightly.",
     ),
-
     QuizQuestion(
       question:
-      "4. Decayed plant and animal matter found in loamy soil is called:",
-      options: [
-        "Humus",
-        "Mud",
-        "Dust",
-        "Sand"
-      ],
+          "4. Decayed plant and animal matter found in loamy soil is called:",
+      options: ["Humus", "Mud", "Dust", "Sand"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-      "Humus is the organic part of soil that provides nutrients.",
+      explanation: "Humus is the organic part of soil that provides nutrients.",
     ),
-
     QuizQuestion(
       question:
-      "5. If you are building a house, why might you prefer sandy soil for drainage?",
+          "5. If you are building a house, why might you prefer sandy soil for drainage?",
       options: [
         "It stays wet",
         "Water flows out",
@@ -37821,27 +39486,20 @@ final QuizModel Scijhs2s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Sandy soil allows water to pass through quickly, preventing puddles around foundations.",
+          "Sandy soil allows water to pass through quickly, preventing puddles around foundations.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which soil type is most likely to cause 'waterlogging' in a farm?",
-      options: [
-        "Loamy soil",
-        "Sandy soil",
-        "Fine sand",
-        "Clay soil"
-      ],
+          "6. Which soil type is most likely to cause 'waterlogging' in a farm?",
+      options: ["Loamy soil", "Sandy soil", "Fine sand", "Clay soil"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Because clay retains so much water, it can become waterlogged (too much water).",
+          "Because clay retains so much water, it can become waterlogged (too much water).",
     ),
-
     QuizQuestion(
       question:
-      "7. What happens to clay soil when it dries out completely in the sun?",
+          "7. What happens to clay soil when it dries out completely in the sun?",
       options: [
         "It turns to sand",
         "It gets very hard",
@@ -37851,52 +39509,31 @@ final QuizModel Scijhs2s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Clay becomes hard and often cracks when it loses all moisture.",
+          "Clay becomes hard and often cracks when it loses all moisture.",
     ),
-
     QuizQuestion(
       question:
-      "8. In a water retention experiment, which soil will have the MOST water in the collecting jar?",
-      options: [
-        "Sandy soil",
-        "Clay soil",
-        "Loamy soil",
-        "Garden soil"
-      ],
+          "8. In a water retention experiment, which soil will have the MOST water in the collecting jar?",
+      options: ["Sandy soil", "Clay soil", "Loamy soil", "Garden soil"],
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "Since sand has the lowest retention, most of the water drains into the jar.",
+          "Since sand has the lowest retention, most of the water drains into the jar.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Loamy soil is often dark in colour because of:",
-      options: [
-        "Large rocks",
-        "Fine clay",
-        "Organic humus",
-        "Clean water"
-      ],
+      question: "9. Loamy soil is often dark in colour because of:",
+      options: ["Large rocks", "Fine clay", "Organic humus", "Clean water"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Humus is typically dark brown or black.",
+      explanation: "Humus is typically dark brown or black.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which of these properties refers to how the soil feels to the touch?",
-      options: [
-        "Drainage",
-        "Colour",
-        "Weight",
-        "Texture"
-      ],
+          "10. Which of these properties refers to how the soil feels to the touch?",
+      options: ["Drainage", "Colour", "Weight", "Texture"],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation:
-      "Texture is the physical feel of the soil particles.",
+      explanation: "Texture is the physical feel of the soil particles.",
     ),
   ],
 );
@@ -37904,23 +39541,15 @@ final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. Osmosis requires a ________ membrane to work.",
-      options: [
-        "Thick plastic",
-        "Semi-permeable",
-        "Solid metal",
-        "Waterproof"
-      ],
+      question: "1. Osmosis requires a ________ membrane to work.",
+      options: ["Thick plastic", "Semi-permeable", "Solid metal", "Waterproof"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "This membrane acts as a filter for water molecules.",
+      explanation: "This membrane acts as a filter for water molecules.",
     ),
-
     QuizQuestion(
       question:
-      "2. In which direction does water move during osmosis in a healthy plant?",
+          "2. In which direction does water move during osmosis in a healthy plant?",
       options: [
         "From root to soil",
         "From soil to root",
@@ -37929,13 +39558,10 @@ final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "Water moves from the wet soil into the drier root cells.",
+      explanation: "Water moves from the wet soil into the drier root cells.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Why can't plants use nutrients in dry soil?",
+      question: "3. Why can't plants use nutrients in dry soil?",
       options: [
         "Nutrients must be dissolved",
         "Dry soil is too hot",
@@ -37945,57 +39571,35 @@ final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Plants can only absorb minerals that are part of the liquid soil solution.",
+          "Plants can only absorb minerals that are part of the liquid soil solution.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which soil property is MOST important for preventing leaching?",
-      options: [
-        "Soil colour",
-        "Water retention",
-        "Soil weight",
-        "Soil depth"
-      ],
+          "4. Which soil property is MOST important for preventing leaching?",
+      options: ["Soil colour", "Water retention", "Soil weight", "Soil depth"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Good retention keeps the water and nutrients near the roots.",
+          "Good retention keeps the water and nutrients near the roots.",
     ),
-
     QuizQuestion(
-      question:
-      "5. A semi-permeable membrane is like a:",
-      options: [
-        "Brick wall",
-        "Locked door",
-        "Fine net",
-        "Glass window"
-      ],
+      question: "5. A semi-permeable membrane is like a:",
+      options: ["Brick wall", "Locked door", "Fine net", "Glass window"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-      "A net allows water through but stops larger objects.",
+      explanation: "A net allows water through but stops larger objects.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Which of these is a major plant nutrient found in soil?",
-      options: [
-        "Nitrogen",
-        "Oxygen",
-        "Carbon",
-        "Hydrogen"
-      ],
+      question: "6. Which of these is a major plant nutrient found in soil?",
+      options: ["Nitrogen", "Oxygen", "Carbon", "Hydrogen"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation:
-      "Nitrogen is one of the primary minerals plants absorb for growth.",
+          "Nitrogen is one of the primary minerals plants absorb for growth.",
     ),
-
     QuizQuestion(
       question:
-      "7. If the soil solution has a very high salt content (more than the root), what might happen?",
+          "7. If the soil solution has a very high salt content (more than the root), what might happen?",
       options: [
         "Plant grows faster",
         "Water leaves the root",
@@ -38005,42 +39609,27 @@ final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Osmosis would reverse, pulling water out of the plant and causing it to wilt.",
+          "Osmosis would reverse, pulling water out of the plant and causing it to wilt.",
     ),
-
     QuizQuestion(
       question:
-      "8. The tiny structures on roots that increase surface area for drinking are:",
-      options: [
-        "Root branches",
-        "Root caps",
-        "Root hairs",
-        "Root trunks"
-      ],
+          "8. The tiny structures on roots that increase surface area for drinking are:",
+      options: ["Root branches", "Root caps", "Root hairs", "Root trunks"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Root hairs provide more surface area for osmosis to occur.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Leaching is a common problem in which type of Ghanaian soil?",
+      options: ["Clay soil", "Heavy loam", "Sandy soil", "Swampy soil"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Root hairs provide more surface area for osmosis to occur.",
+          "Sand's large pores allow water to wash away nutrients easily.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Leaching is a common problem in which type of Ghanaian soil?",
-      options: [
-        "Clay soil",
-        "Heavy loam",
-        "Sandy soil",
-        "Swampy soil"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-      "Sand's large pores allow water to wash away nutrients easily.",
-    ),
-
-    QuizQuestion(
-      question:
-      "10. The main purpose of osmosis in plants is to maintain:",
+      question: "10. The main purpose of osmosis in plants is to maintain:",
       options: [
         "High heat",
         "Turgidity (firmness)",
@@ -38049,8 +39638,7 @@ final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation:
-      "Water pressure (turgor) keeps plants standing upright.",
+      explanation: "Water pressure (turgor) keeps plants standing upright.",
     ),
   ],
 );
@@ -38058,38 +39646,22 @@ final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. Rocks that form from layers of sediment are called:",
-      options: [
-        "Igneous",
-        "Metamorphic",
-        "Sedimentary",
-        "Magma"
-      ],
+      question: "1. Rocks that form from layers of sediment are called:",
+      options: ["Igneous", "Metamorphic", "Sedimentary", "Magma"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Sediments are small particles that settle and harden into rock.",
+          "Sediments are small particles that settle and harden into rock.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of these is a famous example of an igneous rock?",
-      options: [
-        "Limestone",
-        "Granite",
-        "Shale",
-        "Coal"
-      ],
+      question: "2. Which of these is a famous example of an igneous rock?",
+      options: ["Limestone", "Granite", "Shale", "Coal"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-      "Granite is a very common igneous rock used in building.",
+      explanation: "Granite is a very common igneous rock used in building.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Metamorphic rocks are formed through:",
+      question: "3. Metamorphic rocks are formed through:",
       options: [
         "Cooling lava",
         "Heat and pressure",
@@ -38099,42 +39671,26 @@ final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Existing rocks 'morph' or change under extreme underground conditions.",
+          "Existing rocks 'morph' or change under extreme underground conditions.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Biological weathering is caused by:",
-      options: [
-        "Acids in rain",
-        "Hot sun",
-        "Living things",
-        "Running water"
-      ],
+      question: "4. Biological weathering is caused by:",
+      options: ["Acids in rain", "Hot sun", "Living things", "Running water"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "'Bio' means life, so this weathering involves plants or animals.",
+          "'Bio' means life, so this weathering involves plants or animals.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Which rock family is most likely to contain fossils?",
-      options: [
-        "Igneous",
-        "Sedimentary",
-        "Metamorphic",
-        "Basalt"
-      ],
+      question: "5. Which rock family is most likely to contain fossils?",
+      options: ["Igneous", "Sedimentary", "Metamorphic", "Basalt"],
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Fossils get trapped in the layers of mud and sand before they turn to rock.",
+          "Fossils get trapped in the layers of mud and sand before they turn to rock.",
     ),
-
     QuizQuestion(
-      question:
-      "6. What happens to rocks during physical weathering?",
+      question: "6. What happens to rocks during physical weathering?",
       options: [
         "They change colour",
         "They melt into lava",
@@ -38144,42 +39700,26 @@ final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Physical weathering only changes the size and shape, not the chemistry.",
+          "Physical weathering only changes the size and shape, not the chemistry.",
     ),
-
     QuizQuestion(
-      question:
-      "7. The 'parent material' of soil is usually:",
-      options: [
-        "Dead leaves",
-        "Water",
-        "Solid rock",
-        "Plastic"
-      ],
+      question: "7. The 'parent material' of soil is usually:",
+      options: ["Dead leaves", "Water", "Solid rock", "Plastic"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Most soil particles start as broken-down rock.",
+      explanation: "Most soil particles start as broken-down rock.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Quartzite is a metamorphic rock that comes from:",
-      options: [
-        "Sandstone",
-        "Granite",
-        "Limestone",
-        "Basalt"
-      ],
+      question: "8. Quartzite is a metamorphic rock that comes from:",
+      options: ["Sandstone", "Granite", "Limestone", "Basalt"],
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "When sandstone is squeezed and heated, it turns into quartzite.",
+          "When sandstone is squeezed and heated, it turns into quartzite.",
     ),
-
     QuizQuestion(
       question:
-      "9. Why do rocks in the desert (or hot parts of Ghana) weather quickly?",
+          "9. Why do rocks in the desert (or hot parts of Ghana) weather quickly?",
       options: [
         "Too much rain",
         "Temperature changes",
@@ -38189,22 +39729,14 @@ final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The huge difference between day and night temperatures cracks the rocks.",
+          "The huge difference between day and night temperatures cracks the rocks.",
     ),
-
     QuizQuestion(
-      question:
-      "10. Chemical weathering is most common in which climate?",
-      options: [
-        "Cold and dry",
-        "Hot and dry",
-        "Warm and wet",
-        "Frozen"
-      ],
+      question: "10. Chemical weathering is most common in which climate?",
+      options: ["Cold and dry", "Hot and dry", "Warm and wet", "Frozen"],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation:
-      "Heat and moisture speed up chemical reactions in rocks.",
+      explanation: "Heat and moisture speed up chemical reactions in rocks.",
     ),
   ],
 );
@@ -44301,52 +45833,34 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which scientific method turns food waste into organic fertiliser?",
-      options: [
-        "Incineration",
-        "Landfilling",
-        "Composting",
-        "Recycling"
-      ],
+          "1. Which scientific method turns food waste into organic fertiliser?",
+      options: ["Incineration", "Landfilling", "Composting", "Recycling"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Composting specifically deals with organic matter like food scraps to create soil nutrients.",
+          "Composting specifically deals with organic matter like food scraps to create soil nutrients.",
     ),
-
     QuizQuestion(
       question:
-      "2. Materials like plastic and metal are best managed through which method?",
-      options: [
-        "Recycling",
-        "Composting",
-        "Decomposition",
-        "Mulching"
-      ],
+          "2. Materials like plastic and metal are best managed through which method?",
+      options: ["Recycling", "Composting", "Decomposition", "Mulching"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Recycling is the process used for inorganic materials like plastic and metal to manufacture new goods.",
+          "Recycling is the process used for inorganic materials like plastic and metal to manufacture new goods.",
     ),
-
     QuizQuestion(
       question:
-      "3. What is the name of the dark, nutrient-rich material produced by composting?",
-      options: [
-        "Plastic resin",
-        "Compost",
-        "Landfill",
-        "Ash"
-      ],
+          "3. What is the name of the dark, nutrient-rich material produced by composting?",
+      options: ["Plastic resin", "Compost", "Landfill", "Ash"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "The final product of the composting process is called compost.",
+          "The final product of the composting process is called compost.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which of these is a benefit of recycling for a country like Ghana?",
+          "4. Which of these is a benefit of recycling for a country like Ghana?",
       options: [
         "It increases the amount of smoke",
         "It fills up our gutters quickly",
@@ -44356,12 +45870,10 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Recycling reduces the need for raw materials, thereby conserving our natural environment and resources.",
+          "Recycling reduces the need for raw materials, thereby conserving our natural environment and resources.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Why can't we put a broken glass bowl into a compost pit?",
+      question: "5. Why can't we put a broken glass bowl into a compost pit?",
       options: [
         "It will melt in the sun",
         "It does not decompose",
@@ -44371,12 +45883,11 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Glass is inorganic and does not break down through the biological process of decomposition.",
+          "Glass is inorganic and does not break down through the biological process of decomposition.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which of the following is an example of 'organic waste' found in a Ghanaian home?",
+          "6. Which of the following is an example of 'organic waste' found in a Ghanaian home?",
       options: [
         "Old television set",
         "Empty fante kenkey leaves",
@@ -44386,12 +45897,10 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Kenkey leaves are plant-based and therefore organic matter that can be composted.",
+          "Kenkey leaves are plant-based and therefore organic matter that can be composted.",
     ),
-
     QuizQuestion(
-      question:
-      "7. What happens to plastic when it is recycled in a factory?",
+      question: "7. What happens to plastic when it is recycled in a factory?",
       options: [
         "It is buried deep in the earth",
         "It is changed into plant food",
@@ -44401,12 +45910,10 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The scientific process of recycling involves breaking down or melting materials to form new products.",
+          "The scientific process of recycling involves breaking down or melting materials to form new products.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Composting is a natural process. This means it relies on:",
+      question: "8. Composting is a natural process. This means it relies on:",
       options: [
         "Electricity and computers",
         "Large petrol-powered engines",
@@ -44416,12 +45923,11 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      "Composting is biological; it depends on microorganisms like bacteria to break down matter over time.",
+          "Composting is biological; it depends on microorganisms like bacteria to break down matter over time.",
     ),
-
     QuizQuestion(
       question:
-      "9. Which of the following would NOT be a good practice for a sustainable environment?",
+          "9. Which of the following would NOT be a good practice for a sustainable environment?",
       options: [
         "Recycling old newspapers",
         "Composting garden weeds",
@@ -44431,12 +45937,11 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Throwing plastic in water bodies causes pollution; recycling and composting are the correct scientific methods.",
+          "Throwing plastic in water bodies causes pollution; recycling and composting are the correct scientific methods.",
     ),
-
     QuizQuestion(
       question:
-      "10. A person who collects recyclable materials like scrap metal to sell is helping to:",
+          "10. A person who collects recyclable materials like scrap metal to sell is helping to:",
       options: [
         "Start a bushfire in the city",
         "Feed the local microorganisms",
@@ -44446,7 +45951,7 @@ final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      "By collecting scrap, they provide the necessary materials for factories to recycle and create new products.",
+          "By collecting scrap, they provide the necessary materials for factories to recycle and create new products.",
     ),
   ],
 );
@@ -44455,7 +45960,7 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which principle explains how bacteria turn yam peels into soil?",
+          "1. Which principle explains how bacteria turn yam peels into soil?",
       options: [
         "Thermal expansion",
         "Physical melting",
@@ -44465,12 +45970,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Decomposition is the biological process where organisms break down organic waste.",
+          "Decomposition is the biological process where organisms break down organic waste.",
     ),
-
     QuizQuestion(
       question:
-      "2. At what temperature range does controlled incineration usually occur?",
+          "2. At what temperature range does controlled incineration usually occur?",
       options: [
         "Extremely high temperatures",
         "Below the freezing point",
@@ -44480,12 +45984,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Incineration requires very high heat, often over 800°C, to transform waste.",
+          "Incineration requires very high heat, often over 800°C, to transform waste.",
     ),
-
     QuizQuestion(
       question:
-      "3. In the science of recycling, what happens to a metal can in a furnace?",
+          "3. In the science of recycling, what happens to a metal can in a furnace?",
       options: [
         "It changes its physical state",
         "It turns into organic compost",
@@ -44495,12 +45998,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Metal is melted (changed from solid to liquid) so it can be reshaped.",
+          "Metal is melted (changed from solid to liquid) so it can be reshaped.",
     ),
-
     QuizQuestion(
       question:
-      "4. What is a major byproduct of the combustion process in waste management?",
+          "4. What is a major byproduct of the combustion process in waste management?",
       options: [
         "New plastic sachets",
         "Fresh drinking water",
@@ -44510,12 +46012,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Burning waste (combustion) results in ash and the release of thermal energy.",
+          "Burning waste (combustion) results in ash and the release of thermal energy.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which of these is NOT required for effective biological decomposition?",
+          "5. Which of these is NOT required for effective biological decomposition?",
       options: [
         "Presence of oxygen",
         "Industrial cooling oil",
@@ -44525,12 +46026,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Decomposition is a natural process; industrial oil is not a requirement for microbes to work.",
+          "Decomposition is a natural process; industrial oil is not a requirement for microbes to work.",
     ),
-
     QuizQuestion(
       question:
-      "6. The reduction of waste volume through burning is a result of:",
+          "6. The reduction of waste volume through burning is a result of:",
       options: [
         "Physical reshaping only",
         "Thermal transformation",
@@ -44540,12 +46040,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "High heat changes the chemical and physical makeup of waste, reducing its volume.",
+          "High heat changes the chemical and physical makeup of waste, reducing its volume.",
     ),
-
     QuizQuestion(
       question:
-      "7. Why is recycling considered a 'physical' rather than 'biological' process?",
+          "7. Why is recycling considered a 'physical' rather than 'biological' process?",
       options: [
         "Because it uses living worms",
         "Because it involves reshaping",
@@ -44555,12 +46054,11 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Recycling focuses on the physical state and form of materials like glass and plastic.",
+          "Recycling focuses on the physical state and form of materials like glass and plastic.",
     ),
-
     QuizQuestion(
       question:
-      "8. What role do fungi play in a Ghanaian school's compost pile?",
+          "8. What role do fungi play in a Ghanaian school's compost pile?",
       options: [
         "They melt the plastic bottles",
         "They freeze the waste solid",
@@ -44570,27 +46068,20 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Fungi are microorganisms that help in the biological decomposition of organic waste.",
+          "Fungi are microorganisms that help in the biological decomposition of organic waste.",
     ),
-
     QuizQuestion(
       question:
-      "9. When waste is turned into energy (Waste-to-Energy), which principle is used?",
-      options: [
-        "Decomposition",
-        "Combustion",
-        "Magnetism",
-        "Freezing"
-      ],
+          "9. When waste is turned into energy (Waste-to-Energy), which principle is used?",
+      options: ["Decomposition", "Combustion", "Magnetism", "Freezing"],
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Combustion releases heat which can be used to generate steam and electricity.",
+          "Combustion releases heat which can be used to generate steam and electricity.",
     ),
-
     QuizQuestion(
       question:
-      "10. Scientific principles help us choose the right method because:",
+          "10. Scientific principles help us choose the right method because:",
       options: [
         "All waste reacts the same way",
         "Different materials have different properties",
@@ -44600,7 +46091,7 @@ final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Understanding how materials react to heat or microbes allows us to manage them correctly.",
+          "Understanding how materials react to heat or microbes allows us to manage them correctly.",
     ),
   ],
 );
@@ -44609,7 +46100,7 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What is the scientific term for a study that measures the amount and type of waste produced?",
+          "1. What is the scientific term for a study that measures the amount and type of waste produced?",
       options: [
         "Waste Audit",
         "Waste Burning",
@@ -44619,12 +46110,10 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "A waste audit is the formal process of measuring and analyzing waste.",
+          "A waste audit is the formal process of measuring and analyzing waste.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Why is it important to weigh waste during an audit?",
+      question: "2. Why is it important to weigh waste during an audit?",
       options: [
         "To see if the waste can float",
         "To get accurate data for planning",
@@ -44634,42 +46123,29 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Weighing provides the data needed to understand the scale of the waste problem.",
+          "Weighing provides the data needed to understand the scale of the waste problem.",
     ),
-
     QuizQuestion(
       question:
-      "3. In an audit, which category would 'old newspapers' fall under?",
-      options: [
-        "Organic",
-        "Plastic",
-        "Metal",
-        "Paper"
-      ],
+          "3. In an audit, which category would 'old newspapers' fall under?",
+      options: ["Organic", "Plastic", "Metal", "Paper"],
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Newspapers are made of wood pulp and fall into the paper category.",
+          "Newspapers are made of wood pulp and fall into the paper category.",
     ),
-
     QuizQuestion(
       question:
-      "4. A system where recycling bins are provided but never emptied is:",
-      options: [
-        "Very effective",
-        "Ineffective",
-        "Scientific",
-        "Efficient"
-      ],
+          "4. A system where recycling bins are provided but never emptied is:",
+      options: ["Very effective", "Ineffective", "Scientific", "Efficient"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "If waste is not moved or processed, the system is failing its purpose.",
+          "If waste is not moved or processed, the system is failing its purpose.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which of these is a sign of an 'effective' waste management method?",
+          "5. Which of these is a sign of an 'effective' waste management method?",
       options: [
         "Reduced litter in the community",
         "Increased number of flies",
@@ -44678,13 +46154,11 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation:
-      "Success is measured by a cleaner, healthier environment.",
+      explanation: "Success is measured by a cleaner, healthier environment.",
     ),
-
     QuizQuestion(
       question:
-      "6. Sorting waste correctly is essential for which scientific principle?",
+          "6. Sorting waste correctly is essential for which scientific principle?",
       options: [
         "Thermal expansion",
         "Effective recycling",
@@ -44694,12 +46168,11 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Recycling requires pure materials; sorting ensures plastic isn't mixed with food.",
+          "Recycling requires pure materials; sorting ensures plastic isn't mixed with food.",
     ),
-
     QuizQuestion(
       question:
-      "7. A school audit finds mostly food waste. The most scientific recommendation is:",
+          "7. A school audit finds mostly food waste. The most scientific recommendation is:",
       options: [
         "Building a new incinerator",
         "Starting a compost pit",
@@ -44709,12 +46182,11 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Composting is the best scientific method for organic food waste.",
+          "Composting is the best scientific method for organic food waste.",
     ),
-
     QuizQuestion(
       question:
-      "8. What is a common 'social' challenge to waste management in Ghana?",
+          "8. What is a common 'social' challenge to waste management in Ghana?",
       options: [
         "Having too much electricity",
         "Lack of public awareness on sorting",
@@ -44724,12 +46196,11 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "If people don't know why or how to sort, the system becomes ineffective.",
+          "If people don't know why or how to sort, the system becomes ineffective.",
     ),
-
     QuizQuestion(
       question:
-      "9. The final stage of a waste audit is 'Analysis.' This involves:",
+          "9. The final stage of a waste audit is 'Analysis.' This involves:",
       options: [
         "Throwing the data away",
         "Drawing conclusions from the facts",
@@ -44739,12 +46210,11 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Analysis means using the data to make smart decisions for the future.",
+          "Analysis means using the data to make smart decisions for the future.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which tool is best for measuring waste during a school audit?",
+          "10. Which tool is best for measuring waste during a school audit?",
       options: [
         "A weighing scale",
         "A thermometer",
@@ -44754,7 +46224,7 @@ final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "A scale is used to measure the mass (weight) of the different waste categories.",
+          "A scale is used to measure the mass (weight) of the different waste categories.",
     ),
   ],
 );
@@ -44763,7 +46233,7 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What happens to the soil when toxic chemicals from batteries leak into it?",
+          "1. What happens to the soil when toxic chemicals from batteries leak into it?",
       options: [
         "It becomes more fertile",
         "It becomes infertile",
@@ -44773,12 +46243,11 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Toxic chemicals kill the soil's health, making it impossible for plants to thrive.",
+          "Toxic chemicals kill the soil's health, making it impossible for plants to thrive.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which of these is a direct impact of plastic waste on marine life?",
+          "2. Which of these is a direct impact of plastic waste on marine life?",
       options: [
         "Fish grow much larger",
         "Sea creatures choke on debris",
@@ -44788,12 +46257,11 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Animals often mistake plastic for food or get tangled in it, which can be fatal.",
+          "Animals often mistake plastic for food or get tangled in it, which can be fatal.",
     ),
-
     QuizQuestion(
       question:
-      "3. Open burning of rubbish contributes most to which of the following?",
+          "3. Open burning of rubbish contributes most to which of the following?",
       options: [
         "Soil leaching",
         "Air pollution",
@@ -44803,12 +46271,11 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Burning waste releases harmful smoke and gases directly into the atmosphere.",
+          "Burning waste releases harmful smoke and gases directly into the atmosphere.",
     ),
-
     QuizQuestion(
       question:
-      "4. Why is 'Leaching' dangerous for people living near a dump site?",
+          "4. Why is 'Leaching' dangerous for people living near a dump site?",
       options: [
         "It makes the air smell like perfume",
         "It can contaminate groundwater",
@@ -44818,12 +46285,10 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Leached chemicals can reach the water underground that people use for wells.",
+          "Leached chemicals can reach the water underground that people use for wells.",
     ),
-
     QuizQuestion(
-      question:
-      "5. A choked gutter in a market is a breeding ground for:",
+      question: "5. A choked gutter in a market is a breeding ground for:",
       options: [
         "Healthy vegetables",
         "Disease-carrying mosquitoes",
@@ -44833,12 +46298,10 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Stagnant water caused by blocked drains is where mosquitoes lay their eggs.",
+          "Stagnant water caused by blocked drains is where mosquitoes lay their eggs.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Methane gas produced in landfills is a concern because it:",
+      question: "6. Methane gas produced in landfills is a concern because it:",
       options: [
         "Helps people breathe better",
         "Is a greenhouse gas",
@@ -44848,12 +46311,10 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Methane traps heat in the atmosphere, contributing to climate change.",
+          "Methane traps heat in the atmosphere, contributing to climate change.",
     ),
-
     QuizQuestion(
-      question:
-      "7. What is 'Habitat Destruction' in the context of waste?",
+      question: "7. What is 'Habitat Destruction' in the context of waste?",
       options: [
         "Building new schools",
         "Clearing nature to dump trash",
@@ -44863,27 +46324,19 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "When we use natural land for waste, we destroy the homes of plants and animals.",
+          "When we use natural land for waste, we destroy the homes of plants and animals.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which respiratory condition can be worsened by the smoke from burning trash?",
-      options: [
-        "Broken leg",
-        "Asthma",
-        "Poor eyesight",
-        "Ear ache"
-      ],
+          "8. Which respiratory condition can be worsened by the smoke from burning trash?",
+      options: ["Broken leg", "Asthma", "Poor eyesight", "Ear ache"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Smoke irritates the lungs and makes breathing difficult for people with asthma.",
+          "Smoke irritates the lungs and makes breathing difficult for people with asthma.",
     ),
-
     QuizQuestion(
-      question:
-      "9. How does waste contribute to 'Climate Change'?",
+      question: "9. How does waste contribute to 'Climate Change'?",
       options: [
         "By making the ocean blue",
         "By releasing greenhouse gases",
@@ -44893,12 +46346,11 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Gases like methane from waste trap heat, leading to global temperature rises.",
+          "Gases like methane from waste trap heat, leading to global temperature rises.",
     ),
-
     QuizQuestion(
       question:
-      "10. The 'black water' seen in polluted gutters is usually a sign of:",
+          "10. The 'black water' seen in polluted gutters is usually a sign of:",
       options: [
         "High mineral content",
         "Severe water pollution",
@@ -44908,7 +46360,7 @@ final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Discoloration and bad smells in water are clear indicators of heavy pollution from waste.",
+          "Discoloration and bad smells in water are clear indicators of heavy pollution from waste.",
     ),
   ],
 );
@@ -44916,8 +46368,7 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What does the 'Reduce' in the 3Rs specifically mean?",
+      question: "1. What does the 'Reduce' in the 3Rs specifically mean?",
       options: [
         "Buying more things than you need",
         "Making less waste in the first place",
@@ -44926,13 +46377,10 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation:
-      "Reducing means preventing waste before it is even created.",
+      explanation: "Reducing means preventing waste before it is even created.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which technology turns organic waste into gas for cooking?",
+      question: "2. Which technology turns organic waste into gas for cooking?",
       options: [
         "Anaerobic Digestion",
         "Incineration",
@@ -44941,13 +46389,11 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation:
-      "Digesters use microbes to turn organic matter into biogas.",
+      explanation: "Digesters use microbes to turn organic matter into biogas.",
     ),
-
     QuizQuestion(
       question:
-      "3. Sustainable development is most closely linked to which goal?",
+          "3. Sustainable development is most closely linked to which goal?",
       options: [
         "Destroying all factories in Ghana",
         "Protecting the environment for the future",
@@ -44957,12 +46403,10 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Sustainability ensures we meet our needs without harming future generations.",
+          "Sustainability ensures we meet our needs without harming future generations.",
     ),
-
     QuizQuestion(
-      question:
-      "4. Which of these is an example of 'Waste Minimisation'?",
+      question: "4. Which of these is an example of 'Waste Minimisation'?",
       options: [
         "Using a refillable water bottle",
         "Buying ten plastic sachets daily",
@@ -44972,12 +46416,11 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Using a refillable bottle reduces the total amount of plastic waste produced.",
+          "Using a refillable bottle reduces the total amount of plastic waste produced.",
     ),
-
     QuizQuestion(
       question:
-      "5. In 'Waste-to-Energy' plants, what is the 'waste' treated as?",
+          "5. In 'Waste-to-Energy' plants, what is the 'waste' treated as?",
       options: [
         "A useless problem to hide",
         "A valuable resource for power",
@@ -44987,12 +46430,10 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Innovation views waste as a source of energy rather than just trash.",
+          "Innovation views waste as a source of energy rather than just trash.",
     ),
-
     QuizQuestion(
-      question:
-      "6. What is the main benefit of 'Plasma Gasification'?",
+      question: "6. What is the main benefit of 'Plasma Gasification'?",
       options: [
         "It creates more plastic bags",
         "It makes the landfill grow faster",
@@ -45002,57 +46443,36 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      "It uses high heat to convert waste into useful gas and energy.",
+          "It uses high heat to convert waste into useful gas and energy.",
     ),
-
     QuizQuestion(
-      question:
-      "7. Using an old glass jam jar to store pens is an example of:",
-      options: [
-        "Reusing",
-        "Reducing",
-        "Recycling",
-        "Rotting"
-      ],
+      question: "7. Using an old glass jam jar to store pens is an example of:",
+      options: ["Reusing", "Reducing", "Recycling", "Rotting"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Reusing is finding a new use for an item instead of throwing it away.",
+          "Reusing is finding a new use for an item instead of throwing it away.",
     ),
-
     QuizQuestion(
       question:
-      "8. Biogas is a sustainable alternative to which traditional Ghanaian fuel?",
-      options: [
-        "Sunlight",
-        "Wind power",
-        "Firewood or charcoal",
-        "Sea water"
-      ],
+          "8. Biogas is a sustainable alternative to which traditional Ghanaian fuel?",
+      options: ["Sunlight", "Wind power", "Firewood or charcoal", "Sea water"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Biogas replaces fuels like wood, helping to prevent deforestation.",
+          "Biogas replaces fuels like wood, helping to prevent deforestation.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Which of the 3Rs requires a factory and heavy machinery?",
-      options: [
-        "Reducing",
-        "Reusing",
-        "Recycling",
-        "Thinking"
-      ],
+      question: "9. Which of the 3Rs requires a factory and heavy machinery?",
+      options: ["Reducing", "Reusing", "Recycling", "Thinking"],
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      "Recycling is an industrial process that breaks materials down to make new ones.",
+          "Recycling is an industrial process that breaks materials down to make new ones.",
     ),
-
     QuizQuestion(
       question:
-      "10. Why is innovation important for waste management in Ghana's growing cities?",
+          "10. Why is innovation important for waste management in Ghana's growing cities?",
       options: [
         "Because we are running out of land for dumps",
         "Because we want to have more smoke",
@@ -45062,7 +46482,7 @@ final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "High",
       explanation:
-      "Cities are crowded; innovative methods reduce the need for large, smelly dump sites.",
+          "Cities are crowded; innovative methods reduce the need for large, smelly dump sites.",
     ),
   ],
 );
@@ -45071,7 +46491,7 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which of these is the most common type of waste produced in a Ghanaian school?",
+          "1. Which of these is the most common type of waste produced in a Ghanaian school?",
       options: [
         "Industrial chemicals",
         "Municipal/Domestic waste",
@@ -45081,12 +46501,11 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Schools primarily produce paper, food scraps, and plastic packaging.",
+          "Schools primarily produce paper, food scraps, and plastic packaging.",
     ),
-
     QuizQuestion(
       question:
-      "2. Agbogbloshie is a site famous for handling which type of waste?",
+          "2. Agbogbloshie is a site famous for handling which type of waste?",
       options: [
         "Electronic Waste",
         "Medical Waste",
@@ -45096,12 +46515,11 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "It is one of the world's largest sites for processing old electronics.",
+          "It is one of the world's largest sites for processing old electronics.",
     ),
-
     QuizQuestion(
       question:
-      "3. What is a 'Negative' practice regarding waste in our cities?",
+          "3. What is a 'Negative' practice regarding waste in our cities?",
       options: [
         "Planting trees in parks",
         "Littering in gutters",
@@ -45111,12 +46529,11 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Littering blocks drains and causes environmental pollution.",
+          "Littering blocks drains and causes environmental pollution.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which waste type requires the most careful handling to prevent the spread of germs?",
+          "4. Which waste type requires the most careful handling to prevent the spread of germs?",
       options: [
         "Municipal waste",
         "Agricultural waste",
@@ -45126,12 +46543,10 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Medical waste can carry diseases and must be treated scientifically.",
+          "Medical waste can carry diseases and must be treated scientifically.",
     ),
-
     QuizQuestion(
-      question:
-      "5. In Ghana, 'Zoomlion' is an example of what?",
+      question: "5. In Ghana, 'Zoomlion' is an example of what?",
       options: [
         "A type of dangerous animal",
         "A waste collection company",
@@ -45141,12 +46556,11 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "It is a major private company that partners with the government for waste management.",
+          "It is a major private company that partners with the government for waste management.",
     ),
-
     QuizQuestion(
       question:
-      "6. Why is an 'Open Dump' considered a poor management practice?",
+          "6. Why is an 'Open Dump' considered a poor management practice?",
       options: [
         "It makes the waste too clean",
         "It causes air and water pollution",
@@ -45156,12 +46570,10 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Open dumps are unregulated and release toxins into the surroundings.",
+          "Open dumps are unregulated and release toxins into the surroundings.",
     ),
-
     QuizQuestion(
-      question:
-      "7. Sawdust from a timber mill in Kumasi is classified as:",
+      question: "7. Sawdust from a timber mill in Kumasi is classified as:",
       options: [
         "Medical waste",
         "Electronic waste",
@@ -45171,12 +46583,11 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "It is a byproduct of an industrial activity (timber processing).",
+          "It is a byproduct of an industrial activity (timber processing).",
     ),
-
     QuizQuestion(
       question:
-      "8. What would be a great 'Opportunity for Improvement' in our schools?",
+          "8. What would be a great 'Opportunity for Improvement' in our schools?",
       options: [
         "Throwing all trash behind the fence",
         "Stopping the use of all bins",
@@ -45186,12 +46597,10 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Sorting at the source is the best way to improve recycling rates.",
+          "Sorting at the source is the best way to improve recycling rates.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Which of these is a 'Domestic' waste item?",
+      question: "9. Which of these is a 'Domestic' waste item?",
       options: [
         "Used syringe",
         "Old car engine",
@@ -45201,12 +46610,10 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Cassava peels are a common organic waste produced in homes.",
+          "Cassava peels are a common organic waste produced in homes.",
     ),
-
     QuizQuestion(
-      question:
-      "10. A major challenge for recycling in Ghana is:",
+      question: "10. A major challenge for recycling in Ghana is:",
       options: [
         "People don't make any trash",
         "High cost of sorting and transport",
@@ -45216,7 +46623,7 @@ final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Transporting and sorting mixed waste is expensive and difficult for recycling companies.",
+          "Transporting and sorting mixed waste is expensive and difficult for recycling companies.",
     ),
   ],
 );
@@ -45224,8 +46631,7 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What defines a non-communicable disease?",
+      question: "1. What defines a non-communicable disease?",
       options: [
         "It spreads through the air",
         "It is caused by a virus",
@@ -45234,28 +46640,19 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation:
-      "NCDs are not transmissible from person to person.",
+      explanation: "NCDs are not transmissible from person to person.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which organ is primarily forced to work harder due to hypertension?",
-      options: [
-        "The lungs",
-        "The stomach",
-        "The heart",
-        "The liver"
-      ],
+          "2. Which organ is primarily forced to work harder due to hypertension?",
+      options: ["The lungs", "The stomach", "The heart", "The liver"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "High blood pressure forces the heart to pump against higher resistance.",
+          "High blood pressure forces the heart to pump against higher resistance.",
     ),
-
     QuizQuestion(
-      question:
-      "3. What is the main characteristic of cancer cells?",
+      question: "3. What is the main characteristic of cancer cells?",
       options: [
         "They stop dividing entirely",
         "They grow without control",
@@ -45265,27 +46662,19 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Cancer is defined by the uncontrolled division and spread of abnormal cells.",
+          "Cancer is defined by the uncontrolled division and spread of abnormal cells.",
     ),
-
     QuizQuestion(
       question:
-      "4. A man feels very thirsty and is losing weight rapidly. What might he have?",
-      options: [
-        "Hypertension",
-        "Diabetes",
-        "Ringworm",
-        "Influenza"
-      ],
+          "4. A man feels very thirsty and is losing weight rapidly. What might he have?",
+      options: ["Hypertension", "Diabetes", "Ringworm", "Influenza"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Excessive thirst and weight loss are classic indicators of diabetes.",
+          "Excessive thirst and weight loss are classic indicators of diabetes.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Which of these is a way to prevent many types of cancer?",
+      question: "5. Which of these is a way to prevent many types of cancer?",
       options: [
         "Avoiding tobacco use",
         "Using scented soaps",
@@ -45295,12 +46684,10 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Tobacco use is a leading preventable cause of many cancers.",
+          "Tobacco use is a leading preventable cause of many cancers.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Which food choice is best for preventing NCDs?",
+      question: "6. Which food choice is best for preventing NCDs?",
       options: [
         "Heavily salted crackers",
         "Sugary carbonated soda",
@@ -45310,12 +46697,11 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Natural, plant-based foods and lean proteins are healthier choices.",
+          "Natural, plant-based foods and lean proteins are healthier choices.",
     ),
-
     QuizQuestion(
       question:
-      "7. What can cause a person to develop a non-communicable disease?",
+          "7. What can cause a person to develop a non-communicable disease?",
       options: [
         "Shaking hands with a friend",
         "Drinking from the same cup",
@@ -45325,12 +46711,10 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "NCDs result from genetic, physiological, environmental, and behavioral factors.",
+          "NCDs result from genetic, physiological, environmental, and behavioral factors.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which symptom might a person with hypertension experience?",
+      question: "8. Which symptom might a person with hypertension experience?",
       options: [
         "Severe headaches",
         "Itchy scalp flakes",
@@ -45340,12 +46724,10 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Severe headaches and blurred vision are common signs of high blood pressure.",
+          "Severe headaches and blurred vision are common signs of high blood pressure.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Why is exercise important in preventing NCDs?",
+      question: "9. Why is exercise important in preventing NCDs?",
       options: [
         "It kills bacteria in the blood",
         "It helps maintain a healthy weight",
@@ -45355,22 +46737,16 @@ final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Physical activity helps control weight and improves heart and metabolic health.",
+          "Physical activity helps control weight and improves heart and metabolic health.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which type of cancer is commonly mentioned as a risk for men as they age?",
-      options: [
-        "Breast cancer",
-        "Prostate cancer",
-        "Candidiasis",
-        "Ringworm"
-      ],
+          "10. Which type of cancer is commonly mentioned as a risk for men as they age?",
+      options: ["Breast cancer", "Prostate cancer", "Candidiasis", "Ringworm"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Prostate cancer is one of the most common cancers affecting men.",
+          "Prostate cancer is one of the most common cancers affecting men.",
     ),
   ],
 );
@@ -45378,8 +46754,7 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What is the WHO definition of health?",
+      question: "1. What is the WHO definition of health?",
       options: [
         "Only having a strong physical body",
         "Not needing to visit a doctor",
@@ -45389,12 +46764,10 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Health is holistic, involving the body, mind, and social life.",
+          "Health is holistic, involving the body, mind, and social life.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of the following describes a disease?",
+      question: "2. Which of the following describes a disease?",
       options: [
         "A state of complete happiness",
         "A disorder interfering with body function",
@@ -45404,12 +46777,10 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Disease is a disruption of the normal, healthy state of an organism.",
+          "Disease is a disruption of the normal, healthy state of an organism.",
     ),
-
     QuizQuestion(
-      question:
-      "3. In the context of health, what does 'infirmity' mean?",
+      question: "3. In the context of health, what does 'infirmity' mean?",
       options: [
         "A type of healthy vegetable",
         "Physical or mental weakness",
@@ -45419,27 +46790,20 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The WHO definition notes health is not merely the absence of disease or infirmity (weakness).",
+          "The WHO definition notes health is not merely the absence of disease or infirmity (weakness).",
     ),
-
     QuizQuestion(
       question:
-      "4. Which disease is most likely caused by poor ventilation in a home?",
-      options: [
-        "Malaria",
-        "Diabetes",
-        "Hypertension",
-        "Tuberculosis"
-      ],
+          "4. Which disease is most likely caused by poor ventilation in a home?",
+      options: ["Malaria", "Diabetes", "Hypertension", "Tuberculosis"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "TB is a respiratory disease that spreads through the air, especially in poorly ventilated spaces.",
+          "TB is a respiratory disease that spreads through the air, especially in poorly ventilated spaces.",
     ),
-
     QuizQuestion(
       question:
-      "5. Why is handwashing with soap important for preventing environmental diseases?",
+          "5. Why is handwashing with soap important for preventing environmental diseases?",
       options: [
         "It makes your skin look shiny",
         "It removes pathogens from your hands",
@@ -45449,12 +46813,11 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Soap breaks down the oils and germs (pathogens) on your skin so they can be washed away.",
+          "Soap breaks down the oils and germs (pathogens) on your skin so they can be washed away.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which of these is a social factor that contributes to good health?",
+          "6. Which of these is a social factor that contributes to good health?",
       options: [
         "Having supportive friends and family",
         "Taking vitamin tablets every day",
@@ -45464,12 +46827,10 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Social well-being is a core part of the WHO definition of health.",
+          "Social well-being is a core part of the WHO definition of health.",
     ),
-
     QuizQuestion(
-      question:
-      "7. What is the primary cause of Cholera in a community?",
+      question: "7. What is the primary cause of Cholera in a community?",
       options: [
         "Looking at an infected person",
         "Contaminated food or water",
@@ -45479,12 +46840,11 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Cholera is a water-borne disease caused by ingesting contaminated food or water.",
+          "Cholera is a water-borne disease caused by ingesting contaminated food or water.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which symptom is a common sign of many environmental diseases?",
+          "8. Which symptom is a common sign of many environmental diseases?",
       options: [
         "Growing more hair",
         "Having a high fever",
@@ -45494,12 +46854,10 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Fever is a general sign that the body is fighting off an infection.",
+          "Fever is a general sign that the body is fighting off an infection.",
     ),
-
     QuizQuestion(
-      question:
-      "9. What does a 'vector' do in the spread of disease?",
+      question: "9. What does a 'vector' do in the spread of disease?",
       options: [
         "It cures the disease instantly",
         "It carries the germ to a person",
@@ -45509,12 +46867,10 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "A vector, like a mosquito or housefly, carries pathogens from one place to another.",
+          "A vector, like a mosquito or housefly, carries pathogens from one place to another.",
     ),
-
     QuizQuestion(
-      question:
-      "10. Proper waste disposal helps prevent disease because it...",
+      question: "10. Proper waste disposal helps prevent disease because it...",
       options: [
         "Makes the town look beautiful",
         "Reduces breeding sites for pests",
@@ -45524,7 +46880,7 @@ final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Rubbish attracts flies and rodents that can spread diseases to humans.",
+          "Rubbish attracts flies and rodents that can spread diseases to humans.",
     ),
   ],
 );
@@ -45532,8 +46888,7 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What environmental condition do fungi prefer for growth?",
+      question: "1. What environmental condition do fungi prefer for growth?",
       options: [
         "Dry and very cold",
         "Warm and moist",
@@ -45542,13 +46897,11 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation:
-      "Fungi thrive in tropical, humid, and damp environments.",
+      explanation: "Fungi thrive in tropical, humid, and damp environments.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which of these is a common symptom of Ringworm on the skin?",
+          "2. Which of these is a common symptom of Ringworm on the skin?",
       options: [
         "A circular, itchy rash",
         "Green spots on the nose",
@@ -45558,12 +46911,10 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "The 'ring' shape is the classic identifying mark of this fungal infection.",
+          "The 'ring' shape is the classic identifying mark of this fungal infection.",
     ),
-
     QuizQuestion(
-      question:
-      "3. How is Ringworm most commonly spread among students?",
+      question: "3. How is Ringworm most commonly spread among students?",
       options: [
         "Through mosquito bites",
         "Sharing combs or towels",
@@ -45573,12 +46924,10 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Fungal infections spread through direct contact or sharing personal items.",
+          "Fungal infections spread through direct contact or sharing personal items.",
     ),
-
     QuizQuestion(
-      question:
-      "4. What is 'Thrush' in the mouth caused by?",
+      question: "4. What is 'Thrush' in the mouth caused by?",
       options: [
         "A type of bacteria",
         "A virus like the flu",
@@ -45587,28 +46936,19 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Oral thrush is a common form of Candidiasis.",
+      explanation: "Oral thrush is a common form of Candidiasis.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which body part is affected by brittle, yellowing fungal infections?",
-      options: [
-        "The teeth",
-        "The nails",
-        "The eyes",
-        "The heart"
-      ],
+          "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: ["The teeth", "The nails", "The eyes", "The heart"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Fungi can infect the keratin in nails, making them thick and brittle.",
+          "Fungi can infect the keratin in nails, making them thick and brittle.",
     ),
-
     QuizQuestion(
-      question:
-      "6. What is the best way to handle a shared locker room floor?",
+      question: "6. What is the best way to handle a shared locker room floor?",
       options: [
         "Walk very quickly",
         "Wear rubber sandals",
@@ -45618,12 +46958,10 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Footwear protects your feet from fungi living on damp floors.",
+          "Footwear protects your feet from fungi living on damp floors.",
     ),
-
     QuizQuestion(
-      question:
-      "7. Why might Ringworm cause a patch of hair to fall out?",
+      question: "7. Why might Ringworm cause a patch of hair to fall out?",
       options: [
         "The fungus eats the hair",
         "The fungus infects the scalp",
@@ -45633,27 +46971,19 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+          "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which of these is NOT a fungal disease?",
-      options: [
-        "Candidiasis",
-        "Ringworm",
-        "Hypertension",
-        "Athlete's foot"
-      ],
+      question: "8. Which of these is NOT a fungal disease?",
+      options: ["Candidiasis", "Ringworm", "Hypertension", "Athlete's foot"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+          "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
     ),
-
     QuizQuestion(
       question:
-      "9. If you have a fungal infection, what should you do with your towel?",
+          "9. If you have a fungal infection, what should you do with your towel?",
       options: [
         "Give it to a sibling",
         "Use it for a month",
@@ -45662,13 +46992,10 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Hot water and soap help kill fungal spores on fabric.",
+      explanation: "Hot water and soap help kill fungal spores on fabric.",
     ),
-
     QuizQuestion(
-      question:
-      "10. A person with a healthy immune system is...",
+      question: "10. A person with a healthy immune system is...",
       options: [
         "Never able to get fungi",
         "Less likely to get Candidiasis",
@@ -45677,8 +47004,7 @@ final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-      "A strong immune system keeps yeasts like Candida in check.",
+      explanation: "A strong immune system keeps yeasts like Candida in check.",
     ),
   ],
 );
@@ -45686,8 +47012,7 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-      "1. What environmental condition do fungi prefer for growth?",
+      question: "1. What environmental condition do fungi prefer for growth?",
       options: [
         "Dry and very cold",
         "Warm and moist",
@@ -45696,13 +47021,11 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation:
-      "Fungi thrive in tropical, humid, and damp environments.",
+      explanation: "Fungi thrive in tropical, humid, and damp environments.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which of these is a common symptom of Ringworm on the skin?",
+          "2. Which of these is a common symptom of Ringworm on the skin?",
       options: [
         "A circular, itchy rash",
         "Green spots on the nose",
@@ -45712,12 +47035,10 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "The 'ring' shape is the classic identifying mark of this fungal infection.",
+          "The 'ring' shape is the classic identifying mark of this fungal infection.",
     ),
-
     QuizQuestion(
-      question:
-      "3. How is Ringworm most commonly spread among students?",
+      question: "3. How is Ringworm most commonly spread among students?",
       options: [
         "Through mosquito bites",
         "Sharing combs or towels",
@@ -45727,12 +47048,10 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Fungal infections spread through direct contact or sharing personal items.",
+          "Fungal infections spread through direct contact or sharing personal items.",
     ),
-
     QuizQuestion(
-      question:
-      "4. What is 'Thrush' in the mouth caused by?",
+      question: "4. What is 'Thrush' in the mouth caused by?",
       options: [
         "A type of bacteria",
         "A virus like the flu",
@@ -45741,28 +47060,19 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Oral thrush is a common form of Candidiasis.",
+      explanation: "Oral thrush is a common form of Candidiasis.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which body part is affected by brittle, yellowing fungal infections?",
-      options: [
-        "The teeth",
-        "The nails",
-        "The eyes",
-        "The heart"
-      ],
+          "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: ["The teeth", "The nails", "The eyes", "The heart"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Fungi can infect the keratin in nails, making them thick and brittle.",
+          "Fungi can infect the keratin in nails, making them thick and brittle.",
     ),
-
     QuizQuestion(
-      question:
-      "6. What is the best way to handle a shared locker room floor?",
+      question: "6. What is the best way to handle a shared locker room floor?",
       options: [
         "Walk very quickly",
         "Wear rubber sandals",
@@ -45772,12 +47082,10 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Footwear protects your feet from fungi living on damp floors.",
+          "Footwear protects your feet from fungi living on damp floors.",
     ),
-
     QuizQuestion(
-      question:
-      "7. Why might Ringworm cause a patch of hair to fall out?",
+      question: "7. Why might Ringworm cause a patch of hair to fall out?",
       options: [
         "The fungus eats the hair",
         "The fungus infects the scalp",
@@ -45787,27 +47095,19 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+          "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which of these is NOT a fungal disease?",
-      options: [
-        "Candidiasis",
-        "Ringworm",
-        "Hypertension",
-        "Athlete's foot"
-      ],
+      question: "8. Which of these is NOT a fungal disease?",
+      options: ["Candidiasis", "Ringworm", "Hypertension", "Athlete's foot"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+          "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
     ),
-
     QuizQuestion(
       question:
-      "9. If you have a fungal infection, what should you do with your towel?",
+          "9. If you have a fungal infection, what should you do with your towel?",
       options: [
         "Give it to a sibling",
         "Use it for a month",
@@ -45816,13 +47116,10 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Hot water and soap help kill fungal spores on fabric.",
+      explanation: "Hot water and soap help kill fungal spores on fabric.",
     ),
-
     QuizQuestion(
-      question:
-      "10. A person with a healthy immune system is...",
+      question: "10. A person with a healthy immune system is...",
       options: [
         "Never able to get fungi",
         "Less likely to get Candidiasis",
@@ -45831,8 +47128,7 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-      "A strong immune system keeps yeasts like Candida in check.",
+      explanation: "A strong immune system keeps yeasts like Candida in check.",
     ),
   ],
 );
@@ -45841,7 +47137,7 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which industry is responsible for making the 'Ghana Must Go' bags?",
+          "1. Which industry is responsible for making the 'Ghana Must Go' bags?",
       options: [
         "The Food Industry",
         "The Metal Industry",
@@ -45851,12 +47147,10 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "These bags are made from synthetic plastic fibres, making them products of the plastic industry.",
+          "These bags are made from synthetic plastic fibres, making them products of the plastic industry.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of these describes an indigenous industry?",
+      question: "2. Which of these describes an indigenous industry?",
       options: [
         "Uses high-tech robots",
         "Relies on local traditions",
@@ -45866,27 +47160,19 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Indigenous industries are based on local traditional knowledge, skills, and practices.",
+          "Indigenous industries are based on local traditional knowledge, skills, and practices.",
     ),
-
     QuizQuestion(
       question:
-      "3. If several companies all produce cement, they belong to the cement ________.",
-      options: [
-        "Warehouse",
-        "Factory",
-        "Market",
-        "Industry"
-      ],
+          "3. If several companies all produce cement, they belong to the cement ________.",
+      options: ["Warehouse", "Factory", "Market", "Industry"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "An industry is the collective group of businesses that produce the same type of product.",
+          "An industry is the collective group of businesses that produce the same type of product.",
     ),
-
     QuizQuestion(
-      question:
-      "4. A major advantage of modern technology in industry is:",
+      question: "4. A major advantage of modern technology in industry is:",
       options: [
         "It is much slower",
         "It uses less science",
@@ -45896,12 +47182,11 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Modern machines increase production speed and efficiency compared with manual methods.",
+          "Modern machines increase production speed and efficiency compared with manual methods.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which of these is an example of an indigenous industry product?",
+          "5. Which of these is an example of an indigenous industry product?",
       options: [
         "A mobile phone",
         "Hand-pressed gari",
@@ -45911,12 +47196,11 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Hand-pressed gari is produced using traditional processing methods and is an indigenous product.",
+          "Hand-pressed gari is produced using traditional processing methods and is an indigenous product.",
     ),
-
     QuizQuestion(
       question:
-      "6. Modern industries usually require ________ than indigenous ones.",
+          "6. Modern industries usually require ________ than indigenous ones.",
       options: [
         "More advanced machines",
         "More manual pounding",
@@ -45926,12 +47210,11 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Modern industries depend on advanced machinery and technology to increase productivity.",
+          "Modern industries depend on advanced machinery and technology to increase productivity.",
     ),
-
     QuizQuestion(
       question:
-      "7. Why is blacksmithing considered an indigenous industry in Ghana?",
+          "7. Why is blacksmithing considered an indigenous industry in Ghana?",
       options: [
         "It uses computers",
         "It uses solar panels",
@@ -45941,12 +47224,11 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Blacksmithing uses traditional local techniques such as charcoal forges and hand hammering.",
+          "Blacksmithing uses traditional local techniques such as charcoal forges and hand hammering.",
     ),
-
     QuizQuestion(
       question:
-      "8. In which industry would you find companies like FanMilk or Cowbell?",
+          "8. In which industry would you find companies like FanMilk or Cowbell?",
       options: [
         "Construction industry",
         "The Dairy industry",
@@ -45956,12 +47238,11 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "FanMilk and Cowbell manufacture milk-based products, making them part of the dairy industry.",
+          "FanMilk and Cowbell manufacture milk-based products, making them part of the dairy industry.",
     ),
-
     QuizQuestion(
       question:
-      "9. Technology in industry refers to the ________ used to make products.",
+          "9. Technology in industry refers to the ________ used to make products.",
       options: [
         "Tools and knowledge",
         "Prices and labels",
@@ -45971,12 +47252,10 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Technology is the application of scientific knowledge together with tools and techniques to produce goods.",
+          "Technology is the application of scientific knowledge together with tools and techniques to produce goods.",
     ),
-
     QuizQuestion(
-      question:
-      "10. Which of these best describes a 'firm'?",
+      question: "10. Which of these best describes a 'firm'?",
       options: [
         "A group of many countries",
         "All industries in Ghana",
@@ -45986,7 +47265,7 @@ final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Hard",
       explanation:
-      "A firm is a single business or company. Many firms together make up an industry.",
+          "A firm is a single business or company. Many firms together make up an industry.",
     ),
   ],
 );
@@ -45995,7 +47274,7 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which scientific process is common to both Kenkey and Gari production?",
+          "1. Which scientific process is common to both Kenkey and Gari production?",
       options: [
         "Distillation",
         "Saponification",
@@ -46005,12 +47284,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Both Kenkey and Gari are produced using fermentation, where microorganisms break down starches to improve flavour, texture, and preservation.",
+          "Both Kenkey and Gari are produced using fermentation, where microorganisms break down starches to improve flavour, texture, and preservation.",
     ),
-
     QuizQuestion(
       question:
-      "2. What happens to alcohol vapour when it passes through a cold pipe during distillation?",
+          "2. What happens to alcohol vapour when it passes through a cold pipe during distillation?",
       options: [
         "It turns into a solid",
         "It turns into a liquid",
@@ -46020,12 +47298,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Cooling alcohol vapour causes condensation, changing it back into liquid alcohol.",
+          "Cooling alcohol vapour causes condensation, changing it back into liquid alcohol.",
     ),
-
     QuizQuestion(
       question:
-      "3. The chemical reaction that produces soap is known as ________.",
+          "3. The chemical reaction that produces soap is known as ________.",
       options: [
         "Evaporation",
         "Fermentation",
@@ -46035,12 +47312,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Saponification is the reaction between fats or oils and an alkali to produce soap.",
+          "Saponification is the reaction between fats or oils and an alkali to produce soap.",
     ),
-
     QuizQuestion(
       question:
-      "4. Why is palm nut pulp boiled when making traditional palm oil?",
+          "4. Why is palm nut pulp boiled when making traditional palm oil?",
       options: [
         "To make it taste sweet",
         "To release the oil from the fibre",
@@ -46050,12 +47326,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Boiling softens the fruit and helps release the trapped palm oil from the fibres.",
+          "Boiling softens the fruit and helps release the trapped palm oil from the fibres.",
     ),
-
     QuizQuestion(
       question:
-      "5. Which of these is a reason for fermenting cassava when making Gari?",
+          "5. Which of these is a reason for fermenting cassava when making Gari?",
       options: [
         "To make the Gari very salty",
         "To reduce the toxic cyanide levels",
@@ -46065,12 +47340,10 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Fermentation reduces the natural cyanide compounds found in fresh cassava, making it safer to eat.",
+          "Fermentation reduces the natural cyanide compounds found in fresh cassava, making it safer to eat.",
     ),
-
     QuizQuestion(
-      question:
-      "6. In distillation, which substance turns into vapour first?",
+      question: "6. In distillation, which substance turns into vapour first?",
       options: [
         "The water in the mix",
         "The alcohol in the mix",
@@ -46080,12 +47353,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Alcohol has a lower boiling point than water, so it evaporates first during heating.",
+          "Alcohol has a lower boiling point than water, so it evaporates first during heating.",
     ),
-
     QuizQuestion(
       question:
-      "7. Traditional Fante Kenkey is wrapped in ________ before boiling.",
+          "7. Traditional Fante Kenkey is wrapped in ________ before boiling.",
       options: [
         "Plastic sheets",
         "Aluminium foil",
@@ -46095,12 +47367,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Dried plantain leaves are the traditional wrapping used when preparing Fante Kenkey.",
+          "Dried plantain leaves are the traditional wrapping used when preparing Fante Kenkey.",
     ),
-
     QuizQuestion(
       question:
-      "8. What is the role of the heavy stones used in Gari production?",
+          "8. What is the role of the heavy stones used in Gari production?",
       options: [
         "To add minerals to the food",
         "To provide heat for cooking",
@@ -46110,12 +47381,11 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Heavy stones press the cassava mash, removing excess water before roasting.",
+          "Heavy stones press the cassava mash, removing excess water before roasting.",
     ),
-
     QuizQuestion(
       question:
-      "9. Which indigenous industry relies most on the science of chemistry?",
+          "9. Which indigenous industry relies most on the science of chemistry?",
       options: [
         "Fishing industry",
         "Soap making industry",
@@ -46125,22 +47395,16 @@ final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Soap making depends on the chemical process called saponification.",
+          "Soap making depends on the chemical process called saponification.",
     ),
-
     QuizQuestion(
       question:
-      "10. After distillation, the liquid alcohol collected is called a ________.",
-      options: [
-        "Ferment",
-        "Distillate",
-        "Residue",
-        "Reactant"
-      ],
+          "10. After distillation, the liquid alcohol collected is called a ________.",
+      options: ["Ferment", "Distillate", "Residue", "Reactant"],
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "The liquid collected after condensation during distillation is known as the distillate.",
+          "The liquid collected after condensation during distillation is known as the distillate.",
     ),
   ],
 );
@@ -46149,7 +47413,7 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What is released when fossil fuels are burned in a car engine?",
+          "1. What is released when fossil fuels are burned in a car engine?",
       options: [
         "Carbon dioxide",
         "Fresh oxygen",
@@ -46159,12 +47423,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Easy",
       explanation:
-      "Burning fossil fuels such as petrol releases carbon dioxide (CO₂), a greenhouse gas, into the atmosphere.",
+          "Burning fossil fuels such as petrol releases carbon dioxide (CO₂), a greenhouse gas, into the atmosphere.",
     ),
-
     QuizQuestion(
-      question:
-      "2. Which of these is a natural factor influencing climate?",
+      question: "2. Which of these is a natural factor influencing climate?",
       options: [
         "Solar variations",
         "Road building",
@@ -46174,12 +47436,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Changes in the Sun's energy output (solar variations) are natural factors that influence Earth's climate.",
+          "Changes in the Sun's energy output (solar variations) are natural factors that influence Earth's climate.",
     ),
-
     QuizQuestion(
-      question:
-      "3. In a Green Economy, what should we do with our resources?",
+      question: "3. In a Green Economy, what should we do with our resources?",
       options: [
         "Throw them away",
         "Use them poorly",
@@ -46189,12 +47449,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "A Green Economy promotes using resources efficiently to reduce waste and protect the environment.",
+          "A Green Economy promotes using resources efficiently to reduce waste and protect the environment.",
     ),
-
     QuizQuestion(
-      question:
-      "4. How do volcanic eruptions affect the Earth's temperature?",
+      question: "4. How do volcanic eruptions affect the Earth's temperature?",
       options: [
         "They always warm it",
         "They can cool it",
@@ -46204,12 +47462,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Large volcanic eruptions release ash and particles that can block sunlight and temporarily cool the Earth's surface.",
+          "Large volcanic eruptions release ash and particles that can block sunlight and temporarily cool the Earth's surface.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Which human activity is a major cause of climate change?",
+      question: "5. Which human activity is a major cause of climate change?",
       options: [
         "Growing flowers",
         "Walking to school",
@@ -46219,27 +47475,19 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "Deforestation reduces the number of trees that absorb carbon dioxide, contributing to climate change.",
+          "Deforestation reduces the number of trees that absorb carbon dioxide, contributing to climate change.",
     ),
-
     QuizQuestion(
-      question:
-      "6. A Green Economy focuses on being socially...",
-      options: [
-        "Inclusive",
-        "Expensive",
-        "Exclusive",
-        "Reclusive"
-      ],
+      question: "6. A Green Economy focuses on being socially...",
+      options: ["Inclusive", "Expensive", "Exclusive", "Reclusive"],
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "A Green Economy aims to benefit everyone by promoting social inclusion alongside environmental protection.",
+          "A Green Economy aims to benefit everyone by promoting social inclusion alongside environmental protection.",
     ),
-
     QuizQuestion(
       question:
-      "7. What do we call the movement of heat around Earth by the sea?",
+          "7. What do we call the movement of heat around Earth by the sea?",
       options: [
         "Air pressure",
         "Wind speeds",
@@ -46249,12 +47497,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Ocean currents move warm and cold water around the world, helping redistribute heat.",
+          "Ocean currents move warm and cold water around the world, helping redistribute heat.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Which of these helps to reduce the greenhouse effect?",
+      question: "8. Which of these helps to reduce the greenhouse effect?",
       options: [
         "Burning rubbish",
         "Using solar power",
@@ -46264,12 +47510,10 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Solar power generates electricity without burning fossil fuels, reducing greenhouse gas emissions.",
+          "Solar power generates electricity without burning fossil fuels, reducing greenhouse gas emissions.",
     ),
-
     QuizQuestion(
-      question:
-      "9. What is a 'low carbon' activity?",
+      question: "9. What is a 'low carbon' activity?",
       options: [
         "Using a generator",
         "Riding a bicycle",
@@ -46279,22 +47523,15 @@ final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Riding a bicycle produces little or no carbon emissions because it does not require fuel.",
+          "Riding a bicycle produces little or no carbon emissions because it does not require fuel.",
     ),
-
     QuizQuestion(
-      question:
-      "10. The Green Economy aims to reduce environmental...",
-      options: [
-        "Profits",
-        "Health",
-        "Growth",
-        "Risks"
-      ],
+      question: "10. The Green Economy aims to reduce environmental...",
+      options: ["Profits", "Health", "Growth", "Risks"],
       correctIndex: 3,
       difficulty: "Hard",
       explanation:
-      "A Green Economy seeks to reduce environmental risks while promoting sustainable development.",
+          "A Green Economy seeks to reduce environmental risks while promoting sustainable development.",
     ),
   ],
 );
@@ -46303,37 +47540,24 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which international group organizes global climate change meetings?",
-      options: [
-        "FIFA",
-        "ECOWAS",
-        "United Nations",
-        "Ghana Education"
-      ],
+          "1. Which international group organizes global climate change meetings?",
+      options: ["FIFA", "ECOWAS", "United Nations", "Ghana Education"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "The United Nations (through the UNFCCC) organizes major international climate change meetings and agreements.",
+          "The United Nations (through the UNFCCC) organizes major international climate change meetings and agreements.",
     ),
-
     QuizQuestion(
       question:
-      "2. The Kaleo Power Plant in Ghana produces electricity using...",
-      options: [
-        "Burning coal",
-        "Falling water",
-        "Solar energy",
-        "Diesel fuel"
-      ],
+          "2. The Kaleo Power Plant in Ghana produces electricity using...",
+      options: ["Burning coal", "Falling water", "Solar energy", "Diesel fuel"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The Kaleo Solar Power Plant generates electricity from solar energy.",
+          "The Kaleo Solar Power Plant generates electricity from solar energy.",
     ),
-
     QuizQuestion(
-      question:
-      "3. What is the goal of 'Green Ghana Day'?",
+      question: "3. What is the goal of 'Green Ghana Day'?",
       options: [
         "To build houses",
         "To plant trees",
@@ -46343,27 +47567,19 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Green Ghana Day encourages tree planting to increase forest cover and absorb carbon dioxide.",
+          "Green Ghana Day encourages tree planting to increase forest cover and absorb carbon dioxide.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which country was mentioned as a world leader in recycling?",
-      options: [
-        "Nigeria",
-        "Norway",
-        "Togo",
-        "Brazil"
-      ],
+          "4. Which country was mentioned as a world leader in recycling?",
+      options: ["Nigeria", "Norway", "Togo", "Brazil"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Norway is recognized for having one of the world's most advanced recycling systems.",
+          "Norway is recognized for having one of the world's most advanced recycling systems.",
     ),
-
     QuizQuestion(
-      question:
-      "5. What does 'Net Zero' mean for a country?",
+      question: "5. What does 'Net Zero' mean for a country?",
       options: [
         "Zero trees left",
         "No money spent",
@@ -46373,12 +47589,10 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Net Zero means balancing the amount of carbon released with the amount removed or absorbed.",
+          "Net Zero means balancing the amount of carbon released with the amount removed or absorbed.",
     ),
-
     QuizQuestion(
-      question:
-      "6. Why is electric transport better for the environment?",
+      question: "6. Why is electric transport better for the environment?",
       options: [
         "It is faster",
         "It costs more",
@@ -46388,12 +47602,10 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "Electric vehicles produce no exhaust emissions while driving, reducing air pollution.",
+          "Electric vehicles produce no exhaust emissions while driving, reducing air pollution.",
     ),
-
     QuizQuestion(
-      question:
-      "7. A 'carbon tax' is a policy used to...",
+      question: "7. A 'carbon tax' is a policy used to...",
       options: [
         "Reward polluters",
         "Fine polluters",
@@ -46403,12 +47615,11 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "A carbon tax charges companies or individuals for the greenhouse gases they emit.",
+          "A carbon tax charges companies or individuals for the greenhouse gases they emit.",
     ),
-
     QuizQuestion(
       question:
-      "8. Which of these is an 'international initiative' mentioned in the text?",
+          "8. Which of these is an 'international initiative' mentioned in the text?",
       options: [
         "Kejetia Market",
         "Kyoto Protocol",
@@ -46418,12 +47629,10 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The Kyoto Protocol was one of the first major international agreements aimed at reducing greenhouse gas emissions.",
+          "The Kyoto Protocol was one of the first major international agreements aimed at reducing greenhouse gas emissions.",
     ),
-
     QuizQuestion(
-      question:
-      "9. What is a major challenge for climate action in Ghana?",
+      question: "9. What is a major challenge for climate action in Ghana?",
       options: [
         "Too much snow",
         "Protecting forests",
@@ -46433,12 +47642,11 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Protecting forests is essential because deforestation is a major contributor to climate change in Ghana.",
+          "Protecting forests is essential because deforestation is a major contributor to climate change in Ghana.",
     ),
-
     QuizQuestion(
       question:
-      "10. The practice of 'Reducing, Reusing, and Recycling' is known as...",
+          "10. The practice of 'Reducing, Reusing, and Recycling' is known as...",
       options: [
         "Resource efficiency",
         "Carbon burning",
@@ -46448,7 +47656,7 @@ final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "Resource efficiency means using materials wisely and minimizing waste through reducing, reusing, and recycling.",
+          "Resource efficiency means using materials wisely and minimizing waste through reducing, reusing, and recycling.",
     ),
   ],
 );
@@ -46457,22 +47665,16 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. What part of the cassava plant is typically planted to grow a new crop?",
-      options: [
-        "The flower",
-        "The fruit",
-        "The stem",
-        "The seed"
-      ],
+          "1. What part of the cassava plant is typically planted to grow a new crop?",
+      options: ["The flower", "The fruit", "The stem", "The seed"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Cassava is propagated through stem cuttings rather than seeds.",
+          "Cassava is propagated through stem cuttings rather than seeds.",
     ),
-
     QuizQuestion(
       question:
-      "2. Farmers use dried grass and leaves as 'hay' primarily for what purpose?",
+          "2. Farmers use dried grass and leaves as 'hay' primarily for what purpose?",
       options: [
         "Lighting fires",
         "Animal feed",
@@ -46482,12 +47684,11 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Hay is dried plant material that is used as fodder to feed livestock.",
+          "Hay is dried plant material that is used as fodder to feed livestock.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which process describes using plant roots to add nutrients back into the earth?",
+          "3. Which process describes using plant roots to add nutrients back into the earth?",
       options: [
         "Soil improvement",
         "Crop harvesting",
@@ -46497,12 +47698,11 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Leguminous plants improve soil fertility through nitrogen-fixing roots.",
+          "Leguminous plants improve soil fertility through nitrogen-fixing roots.",
     ),
-
     QuizQuestion(
       question:
-      "4. Why might a farmer place dried maize husks on the floor of a chicken coop?",
+          "4. Why might a farmer place dried maize husks on the floor of a chicken coop?",
       options: [
         "To grow more maize",
         "To attract pests",
@@ -46512,12 +47712,11 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Plant materials such as dried maize husks are commonly used as litter or bedding for farm animals.",
+          "Plant materials such as dried maize husks are commonly used as litter or bedding for farm animals.",
     ),
-
     QuizQuestion(
       question:
-      "5. The handles of many traditional Ghanaian hoes are made from:",
+          "5. The handles of many traditional Ghanaian hoes are made from:",
       options: [
         "Recycled plastic",
         "Animal bones",
@@ -46527,12 +47726,11 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Woody stems from trees provide the strong wood needed for tool handles.",
+          "Woody stems from trees provide the strong wood needed for tool handles.",
     ),
-
     QuizQuestion(
       question:
-      "6. Certain plant roots are used in agriculture to keep insects away. This is known as:",
+          "6. Certain plant roots are used in agriculture to keep insects away. This is known as:",
       options: [
         "Soil fertility",
         "Pest control",
@@ -46542,42 +47740,27 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Some plant roots act as natural pest-control agents by repelling insects.",
+          "Some plant roots act as natural pest-control agents by repelling insects.",
     ),
-
     QuizQuestion(
       question:
-      "7. Which of these crops is most likely to help improve nitrogen levels in the soil?",
-      options: [
-        "Cowpea",
-        "Pineapple",
-        "Coconut",
-        "Cassava"
-      ],
+          "7. Which of these crops is most likely to help improve nitrogen levels in the soil?",
+      options: ["Cowpea", "Pineapple", "Coconut", "Cassava"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Cowpea is a legume that fixes nitrogen, helping improve soil fertility.",
+          "Cowpea is a legume that fixes nitrogen, helping improve soil fertility.",
     ),
-
     QuizQuestion(
-      question:
-      "8. Vegetative propagation refers to growing plants from:",
-      options: [
-        "Only seeds",
-        "Animal waste",
-        "Plant parts",
-        "Pure water"
-      ],
+      question: "8. Vegetative propagation refers to growing plants from:",
+      options: ["Only seeds", "Animal waste", "Plant parts", "Pure water"],
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      "Vegetative propagation uses plant parts such as stems, roots, or leaves instead of seeds.",
+          "Vegetative propagation uses plant parts such as stems, roots, or leaves instead of seeds.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Fresh cassava leaves are often used on a farm to:",
+      question: "9. Fresh cassava leaves are often used on a farm to:",
       options: [
         "Make tractor oil",
         "Feed livestock",
@@ -46587,22 +47770,16 @@ final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Fresh cassava leaves can be used as nutritious feed for livestock such as goats.",
+          "Fresh cassava leaves can be used as nutritious feed for livestock such as goats.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which plant part is essential for making a 'pickaxe' handle?",
-      options: [
-        "The leaf",
-        "The root",
-        "The flower",
-        "The stem"
-      ],
+          "10. Which plant part is essential for making a 'pickaxe' handle?",
+      options: ["The leaf", "The root", "The flower", "The stem"],
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "The stem (trunk) of a tree provides the timber used to make strong tool handles.",
+          "The stem (trunk) of a tree provides the timber used to make strong tool handles.",
     ),
   ],
 );
@@ -46611,7 +47788,7 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which plant part is used to make a wreath for a funeral ceremony?",
+          "1. Which plant part is used to make a wreath for a funeral ceremony?",
       options: [
         "Roots and seeds",
         "Leaves and flowers",
@@ -46621,12 +47798,11 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Wreaths are decorative arrangements commonly made from leaves and flowers.",
+          "Wreaths are decorative arrangements commonly made from leaves and flowers.",
     ),
-
     QuizQuestion(
       question:
-      "2. Rattan is a popular material for furniture because its stem is:",
+          "2. Rattan is a popular material for furniture because its stem is:",
       options: [
         "Very brittle",
         "Flexible and strong",
@@ -46636,27 +47812,20 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Rattan stems are flexible and strong, making them ideal for weaving furniture.",
+          "Rattan stems are flexible and strong, making them ideal for weaving furniture.",
     ),
-
     QuizQuestion(
       question:
-      "3. Traditional 'bitters' used for health are often extracted from which part?",
-      options: [
-        "The flower",
-        "The fruit",
-        "The root",
-        "The leaf"
-      ],
+          "3. Traditional 'bitters' used for health are often extracted from which part?",
+      options: ["The flower", "The fruit", "The root", "The leaf"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Roots are a primary source of medicinal compounds in traditional herbal medicine.",
+          "Roots are a primary source of medicinal compounds in traditional herbal medicine.",
     ),
-
     QuizQuestion(
       question:
-      "4. What is the main reason for using Mahogany or Odum wood in carpentry?",
+          "4. What is the main reason for using Mahogany or Odum wood in carpentry?",
       options: [
         "It is very light like paper",
         "It provides strong timber",
@@ -46666,12 +47835,10 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Mahogany and Odum produce strong, durable timber suitable for carpentry.",
+          "Mahogany and Odum produce strong, durable timber suitable for carpentry.",
     ),
-
     QuizQuestion(
-      question:
-      "5. Which of these is a non-agricultural use of a plant leaf?",
+      question: "5. Which of these is a non-agricultural use of a plant leaf?",
       options: [
         "Feeding it to a goat",
         "Wrapping food like Kenkey",
@@ -46681,27 +47848,19 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Using leaves as food wrappers is a household or industrial use rather than an agricultural one.",
+          "Using leaves as food wrappers is a household or industrial use rather than an agricultural one.",
     ),
-
     QuizQuestion(
       question:
-      "6. Natural dyes for traditional cloths can be obtained from plant:",
-      options: [
-        "Roots",
-        "Seeds",
-        "Air",
-        "Soil"
-      ],
+          "6. Natural dyes for traditional cloths can be obtained from plant:",
+      options: ["Roots", "Seeds", "Air", "Soil"],
       correctIndex: 0,
       difficulty: "High",
       explanation:
-      "Pigments extracted from certain plant roots are traditionally used to dye fabrics.",
+          "Pigments extracted from certain plant roots are traditionally used to dye fabrics.",
     ),
-
     QuizQuestion(
-      question:
-      "7. How is bamboo used in the construction of a new house?",
+      question: "7. How is bamboo used in the construction of a new house?",
       options: [
         "For making glass windows",
         "As scaffolding or fencing",
@@ -46711,12 +47870,11 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Strong bamboo stems are commonly used for scaffolding and fencing during construction.",
+          "Strong bamboo stems are commonly used for scaffolding and fencing during construction.",
     ),
-
     QuizQuestion(
       question:
-      "8. In a science class, using a leaf to study its veins is an example of:",
+          "8. In a science class, using a leaf to study its veins is an example of:",
       options: [
         "An agricultural purpose",
         "A ritual purpose",
@@ -46725,13 +47883,10 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-      "Studying plant parts in class is an educational activity.",
+      explanation: "Studying plant parts in class is an educational activity.",
     ),
-
     QuizQuestion(
-      question:
-      "9. Mining companies use strong wooden stems to:",
+      question: "9. Mining companies use strong wooden stems to:",
       options: [
         "Find gold faster",
         "Support underground tunnels",
@@ -46741,12 +47896,11 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Timber stems are used as structural supports in underground mines.",
+          "Timber stems are used as structural supports in underground mines.",
     ),
-
     QuizQuestion(
       question:
-      "10. A bouquet of flowers is most likely to be seen at which event?",
+          "10. A bouquet of flowers is most likely to be seen at which event?",
       options: [
         "A football match",
         "A planting season",
@@ -46756,7 +47910,7 @@ final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Flowers are commonly used as decorations and gifts during wedding ceremonies.",
+          "Flowers are commonly used as decorations and gifts during wedding ceremonies.",
     ),
   ],
 );
@@ -46765,37 +47919,24 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which plant part is modified to create a 'mini-sett' for planting?",
-      options: [
-        "The root",
-        "The flower",
-        "The stem",
-        "The leaf"
-      ],
+          "1. Which plant part is modified to create a 'mini-sett' for planting?",
+      options: ["The root", "The flower", "The stem", "The leaf"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Stems of crops like cassava are cut into mini-setts for propagation.",
+          "Stems of crops like cassava are cut into mini-setts for propagation.",
     ),
-
     QuizQuestion(
       question:
-      "2. The process of drying grass in the sun to create animal feed is called:",
-      options: [
-        "Harvesting",
-        "Curing",
-        "Weeding",
-        "Planting"
-      ],
+          "2. The process of drying grass in the sun to create animal feed is called:",
+      options: ["Harvesting", "Curing", "Weeding", "Planting"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Curing is the technical term for drying hay to preserve it for livestock feed.",
+          "Curing is the technical term for drying hay to preserve it for livestock feed.",
     ),
-
     QuizQuestion(
-      question:
-      "3. Why is a sharp cutlass used when preparing stem cuttings?",
+      question: "3. Why is a sharp cutlass used when preparing stem cuttings?",
       options: [
         "To make the stem look pretty",
         "To ensure a clean, healthy cut",
@@ -46805,27 +47946,20 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Clean cuts reduce damage and help prevent disease in the planting material.",
+          "Clean cuts reduce damage and help prevent disease in the planting material.",
     ),
-
     QuizQuestion(
       question:
-      "4. When making a flower bouquet, which part is used to add greenery and volume?",
-      options: [
-        "The seeds",
-        "The roots",
-        "The leaves",
-        "The fruit"
-      ],
+          "4. When making a flower bouquet, which part is used to add greenery and volume?",
+      options: ["The seeds", "The roots", "The leaves", "The fruit"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Leaves (foliage) are used to fill out and support floral arrangements.",
+          "Leaves (foliage) are used to fill out and support floral arrangements.",
     ),
-
     QuizQuestion(
       question:
-      "5. What happens to a leaf when it is 'wilted' over a fire for food packaging?",
+          "5. What happens to a leaf when it is 'wilted' over a fire for food packaging?",
       options: [
         "It becomes very brittle",
         "It turns into a liquid",
@@ -46835,27 +47969,19 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Heat softens the leaf, making it pliable for wrapping food.",
+          "Heat softens the leaf, making it pliable for wrapping food.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which plant part would you use to create a natural dye for a craft project?",
-      options: [
-        "The stem",
-        "The root",
-        "The air",
-        "The stone"
-      ],
+          "6. Which plant part would you use to create a natural dye for a craft project?",
+      options: ["The stem", "The root", "The air", "The stone"],
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Roots of certain plants contain pigments traditionally used as natural dyes.",
+          "Roots of certain plants contain pigments traditionally used as natural dyes.",
     ),
-
     QuizQuestion(
-      question:
-      "7. Sanding a wooden tool handle is important because it:",
+      question: "7. Sanding a wooden tool handle is important because it:",
       options: [
         "Makes the tool much heavier",
         "Protects the user's hands",
@@ -46864,13 +47990,11 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation:
-      "Sanding removes splinters and creates a smooth, safe grip.",
+      explanation: "Sanding removes splinters and creates a smooth, safe grip.",
     ),
-
     QuizQuestion(
       question:
-      "8. In basket weaving, what is the purpose of the 'criss-cross' pattern?",
+          "8. In basket weaving, what is the purpose of the 'criss-cross' pattern?",
       options: [
         "To make it fall apart",
         "To provide structural strength",
@@ -46880,12 +48004,11 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      "Interlocking stems create a strong, durable woven structure.",
+          "Interlocking stems create a strong, durable woven structure.",
     ),
-
     QuizQuestion(
       question:
-      "9. A wreath for a ceremony is usually built upon a circular frame made from:",
+          "9. A wreath for a ceremony is usually built upon a circular frame made from:",
       options: [
         "Heavy iron bars",
         "Flexible plant stems",
@@ -46895,12 +48018,11 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Flexible stems or vines are commonly used as the base of traditional wreaths.",
+          "Flexible stems or vines are commonly used as the base of traditional wreaths.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which of the following is an agricultural material created from plants?",
+          "10. Which of the following is an agricultural material created from plants?",
       options: [
         "A flower bouquet",
         "A bundle of hay",
@@ -46910,7 +48032,7 @@ final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Hay is dried plant material prepared specifically as livestock feed.",
+          "Hay is dried plant material prepared specifically as livestock feed.",
     ),
   ],
 );

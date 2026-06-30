@@ -1735,6 +1735,938 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
   ],
 );
 
+final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
+        options: [
+          "so that",
+          "unless",
+          "because",
+          "while"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which pronoun best replaces the bracketed words? \"The boys are playing football. [The boys] are very talented.\"",
+        options: [
+          "He",
+          "It",
+          "They",
+          "Them"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the correct connector to show the order of events: \"______, wash the rice. Next, put it in the pot with water.\"",
+        options: [
+          "Firstly",
+          "Moreover",
+          "However",
+          "Therefore"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses punctuation correctly to show a pause between two connected ideas?",
+        options: [
+          "I like Kenkey, but I prefer Fufu.",
+          "I like Kenkey but I prefer Fufu?",
+          "I like Kenkey! but I prefer Fufu.",
+          "I like Kenkey: but I prefer Fufu."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses the sense of 'smell' best?",
+        options: [
+          "The kitchen was very big and clean.",
+          "The scent of spicy ginger and fried fish filled the air.",
+          "My mother was cooking dinner for us.",
+          "We ate the food quickly because we were hungry."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the most vivid verb to replace 'went': \"The tired farmer ______ back to his hut after a long day.\"",
+        options: [
+          "ran",
+          "went",
+          "plodded",
+          "jumped"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a 'dominant impression' for a library?",
+        options: [
+          "Noisy",
+          "Green",
+          "Tranquil",
+          "Fast"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. To describe a tall building from 'bottom to top,' what should you mention first?",
+        options: [
+          "The roof",
+          "The windows on the third floor",
+          "The concrete foundation and entrance",
+          "The birds flying above the chimney"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Choose the best connector: \"I finished my homework. ________, I went outside to play with my friends.\"",
+        options: [
+          "Since",
+          "Afterwards",
+          "While",
+          "Until"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a time clause correctly?",
+        options: [
+          "Until I am hungry, I eat.",
+          "After I wash my face, I feel refreshed.",
+          "Suddenly I am sleeping.",
+          "While I am go to school."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The students waited ________ the headmaster finished his speech.\"",
+        options: [
+          "then",
+          "until",
+          "soon",
+          "suddenly"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the best word to show a sequence? \"First, add water. ________, add the salt.\"",
+        options: [
+          "Next",
+          "Although",
+          "Because",
+          "Unless"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses a place clause correctly?",
+        options: [
+          "Run as fast as you can.",
+          "Put the bucket wherever there is a water tap.",
+          "Firstly, open the door.",
+          "You should study the way I do."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best manner clause: \"Please write the letters ________ I have shown you on the chalkboard.\"",
+        options: [
+          "where",
+          "as",
+          "until",
+          "because"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which is the most logical sequence for making tea?",
+        options: [
+          "Add sugar, then drink, then boil water.",
+          "Boil water, add tea, then finally add sugar.",
+          "Drink tea, then add water, then buy tea.",
+          "Finally add water, then firstly add sugar."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Keep walking ________ the road ends at the river.\"",
+        options: [
+          "wherever",
+          "until",
+          "the way",
+          "as if"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which is the best topic sentence for a letter about school sports?",
+        options: [
+          "Football is played with a ball and twenty-two players.",
+          "Our school needs a new sports kit because the old ones are torn.",
+          "I like to watch sports on the television at home.",
+          "Sports are usually played on Saturdays in Ghana."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best connector for a second argument: \"Mobile phones help us stay in touch with parents. ________, they can be used for research.\"",
+        options: [
+          "However",
+          "Furthermore",
+          "Although",
+          "Unless"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"________ some people think homework is boring, it helps us master what we learned in class.\"",
+        options: [
+          "Because",
+          "While",
+          "So that",
+          "Since"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"We must protect our water bodies ________ we have clean water to drink in the future.\"",
+        options: [
+          "although",
+          "so that",
+          "unless",
+          "while"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence is best for the start of a formal explanation about the library rules?",
+        options: [
+          "We have some books in the room over there.",
+          "This document explains the regulations for using the school library.",
+          "I like reading books when it is quiet.",
+          "Come to the library if you want to."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In a notice, what does 'Venue' mean?",
+        options: [
+          "The time of the event.",
+          "The person in charge.",
+          "The location of the event.",
+          "The reason for the event."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the most formal synonym: \"Please ________ your parents about the meeting.\"",
+        options: [
+          "tell",
+          "chat with",
+          "inform",
+          "holla at"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the correct logical order for an explanation?",
+        options: [
+          "Summary, Step 2, Step 1, Introduction.",
+          "Introduction, Step 1, Step 2, Summary.",
+          "Step 2, Summary, Introduction, Step 1.",
+          "Step 1, Introduction, Summary, Step 2."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an example of an imperative used in an advert?",
+        options: [
+          "The car is very fast.",
+          "Do you like fast cars?",
+          "Drive the new Speedster today!",
+          "Everyone is driving it."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do advertisers use repetition in their writing?",
+        options: [
+          "To make the text look longer.",
+          "To make the key message stick in the reader's mind.",
+          "Because they have run out of things to say.",
+          "To make the advert sound like a poem."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses the simple present tense to state a timeless fact about a product?",
+        options: [
+          "I bought this soap yesterday.",
+          "This soap will clean your clothes.",
+          "This soap removes every stain.",
+          "I might buy this soap later."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these would be the best Target Market for an advert about a new brand of football boots?",
+        options: [
+          "Grandparents living in the village.",
+          "Young athletes and football fans.",
+          "People looking for office furniture.",
+          "Teachers marking English essays."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an example of a quantifier?",
+        options: [
+          "Carefully",
+          "Three cups",
+          "Quickly",
+          "Red"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is the Aim important in a process text?",
+        options: [
+          "It tells the reader the author's name.",
+          "It explains why the process was invented.",
+          "It tells the reader what they will make or do.",
+          "It lists the price of the materials."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word is a connector of sequence?",
+        options: [
+          "Beautifully",
+          "Because",
+          "Finally",
+          "Although"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses the simple present tense correctly for an instruction?",
+        options: [
+          "I was boiling the water.",
+          "You boil the water.",
+          "I will boil the water.",
+          "The water had boiled."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the best way to present a list of materials for a recipe?",
+        options: [
+          "In a long, complicated paragraph.",
+          "Using bullet points or a list.",
+          "Hidden inside the steps.",
+          "In a secret code."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an appropriate subscription for an informal letter?",
+        options: [
+          "Yours faithfully,",
+          "Yours sincerely,",
+          "Yours ever,",
+          "Your obedient servant,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do we use first-person pronouns in an informal letter?",
+        options: [
+          "Because we are talking about ourselves and our experiences.",
+          "Because it is a school rule.",
+          "To make the letter sound very professional and cold.",
+          "Because we don't know the other person's name."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Where does the date go in an informal letter?",
+        options: [
+          "At the very bottom of the page.",
+          "Directly below the writer's address.",
+          "In the middle of the body.",
+          "On the back of the envelope only."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses a contraction to sound more conversational?",
+        options: [
+          "I am going to the market.",
+          "I'm going to the market.",
+          "I will go to the market.",
+          "I have gone to the market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should you sign at the end of an informal letter?",
+        options: [
+          "Your full name and title.",
+          "Your thumbprint.",
+          "Just your first name.",
+          "Your school's name."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which subscription is required for a formal letter starting with \"Dear Sir\"?",
+        options: [
+          "Yours ever,",
+          "Your friend,",
+          "Yours faithfully,",
+          "See you later,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should you avoid using contractions like \"won't\" in a formal letter?",
+        options: [
+          "Because they are too difficult to spell.",
+          "To maintain a serious and professional tone.",
+          "Because the Headmaster might not understand them.",
+          "To make the letter take up more space."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What should follow your signature at the end of a formal letter?",
+        options: [
+          "Your nickname.",
+          "Your phone number only.",
+          "Your full name in capital letters.",
+          "Your best friend's name."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a correct salutation for an official you do not know personally?",
+        options: [
+          "Hey there,",
+          "Dearest Manager,",
+          "Dear Sir,",
+          "To my boss,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Where is the writer's address located in a formal letter?",
+        options: [
+          "Top left.",
+          "Bottom right.",
+          "Top right.",
+          "Bottom left."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these should you always record at the top of your notes?",
+        options: [
+          "Your favourite food",
+          "The title and the date",
+          "The weather outside",
+          "The number of students in class"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is it better to use bullet points instead of long paragraphs for notes?",
+        options: [
+          "Because they are faster to write and easier to read later.",
+          "Because paragraphs are not allowed in JHS.",
+          "Because bullet points use more ink.",
+          "Because you don't have to use capital letters."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a mnemonic?",
+        options: [
+          "A type of fast-writing pen.",
+          "A memory aid used to make notes more memorable.",
+          "The name of the person who invented paper.",
+          "A very long heading."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When taking notes while a teacher is speaking, you should:",
+        options: [
+          "Try to write down every single word.",
+          "Only write down the jokes the teacher tells.",
+          "Identify and record only the key ideas and examples.",
+          "Close your eyes and just listen."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What does it mean to organize ideas in note-taking?",
+        options: [
+          "To throw away the notes you don't like.",
+          "To put your notes in alphabetical order.",
+          "To make connections between different points using headings or arrows.",
+          "To write your notes in different colours."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the best heading for a school notice?",
+        options: [
+          "Something is happening",
+          "DRAMA CLUB ANNOUNCEMENT",
+          "Read this now please",
+          "A very long story about a play"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does 'Visual Hierarchy' mean in poster design?",
+        options: [
+          "Using as many different colours as possible.",
+          "Making the most important information the largest and easiest to see.",
+          "Writing everything in the smallest possible font.",
+          "Drawing pictures of kings and queens."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When designing a notice for a voluntary cleaning exercise, what tone should you use?",
+        options: [
+          "Silly and joking",
+          "Angry and shouting",
+          "Clear, respectful, and urgent",
+          "Mysterious and confusing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which detail is essential for a poster about a football match?",
+        options: [
+          "The name of the referee's dog.",
+          "The date and time of the kick-off.",
+          "The history of how footballs are made.",
+          "What the players ate for breakfast."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Why are bullet points useful on a notice?",
+        options: [
+          "They make the paper look like it has dots on it.",
+          "They help break down information so it is easy to read quickly.",
+          "They are used to hide the price of tickets.",
+          "They make the writer look like a soldier."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main purpose of the by-line in an article?",
+        options: [
+          "To provide the title of the article.",
+          "To tell the reader who the author is.",
+          "To list the page numbers.",
+          "To provide a list of sources."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is it important to use electronic resources like web pages when researching?",
+        options: [
+          "Because books are no longer useful.",
+          "To find the most up-to-date information and diverse views.",
+          "Because it is faster than reading.",
+          "To copy and paste the whole article."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When writing an article about gender and inclusion, you should:",
+        options: [
+          "Only talk about boys' experiences.",
+          "Ignore the topic as it is too difficult.",
+          "Ensure your writing reflects and respects diverse groups fairly.",
+          "Only write for people in your town."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a 'call to action' suitable for a conclusion?",
+        options: [
+          "Once upon a time, there was a school.",
+          "I hope you enjoyed reading this.",
+          "Start recycling today to protect our future!",
+          "The weather was very hot yesterday."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Sorting and classifying ideas during the planning stage helps to:",
+        options: [
+          "Make the article as long as possible.",
+          "Ensure the article is logically organised and easy to follow.",
+          "Avoid having to write a conclusion.",
+          "Change the topic halfway through."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why should you avoid long paragraphs in a dialogue?",
+        options: [
+          "Because it saves paper.",
+          "Because real people rarely speak in long, uninterrupted blocks.",
+          "Because capital letters are hard to write.",
+          "To make the story end faster."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence is punctuated correctly?",
+        options: [
+          "\"I'll be there soon\", said Ama.",
+          "\"I'll be there soon,\" said Ama.",
+          "I'll be there soon, \"said Ama.\"",
+          "\"I'll be there soon\" said Ama."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does it mean to be consistent with characters' voices?",
+        options: [
+          "Everyone in the story should speak exactly the same.",
+          "A character should maintain their personality and style of speech.",
+          "Characters should only speak in English.",
+          "You should never use the character's name."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a dialogue script, what usually follows the character's name?",
+        options: [
+          "A full stop",
+          "A question mark",
+          "A colon (:)",
+          "A comma"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. \"Say the dialogue out loud\" is a good strategy because:",
+        options: [
+          "It helps you check if the conversation sounds natural and flows well.",
+          "It helps you practice your acting skills.",
+          "It makes the classroom very noisy.",
+          "It helps you memorise the whole story."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a 'trigger' to help make your notes more memorable?",
+        options: [
+          "Copying the entire table exactly.",
+          "Using small drawings or different colors.",
+          "Leaving the paper blank.",
+          "Only writing down the numbers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of checking 'headings' in a data table?",
+        options: [
+          "To see who wrote the document.",
+          "To find the date of publication.",
+          "To identify the key topics being discussed.",
+          "To count how many pages are in the report."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. After writing a description of a graph, why should you proofread your work?",
+        options: [
+          "To make the text longer.",
+          "To ensure the writing makes sense and is accurate.",
+          "To change the title of the graph.",
+          "To add more numbers to the data."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How can you represent data visually other than using a table?",
+        options: [
+          "By writing a long letter.",
+          "By creating a flow chart or illustration.",
+          "By reading the numbers out loud.",
+          "By keeping the information in your head."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS2 S1 SS1 L1/6. Independent Practice.m4a',

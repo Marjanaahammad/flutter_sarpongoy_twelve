@@ -750,6 +750,317 @@ final PracticeModel s3ss3Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these two sentences using a reason conjunction: \"The pupils were happy. They won the inter-schools quiz.\"",
+      answer: "Correct Answer: The pupils were happy because they won the inter-schools quiz.",
+      explanation: "Explanation: We use 'because' to link the feeling (happiness) to the reason (winning the quiz).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a pronoun to replace the underlined word: \"Abena lost Abena's school bag at the station.\"",
+      answer: "Correct Answer: Abena lost her school bag at the station.",
+      explanation: "Explanation: 'Her' is the possessive pronoun that replaces the repetition of Abena's name.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which logical connector would you use to show a contrast between these two ideas? \"The sun was very bright. It was not warm.\"",
+      answer: "Correct Answer: However (or \"Nevertheless\").",
+      explanation: "Explanation: 'However' shows that the second part of the sentence is the opposite of what you might expect from the first part.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 ( 4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Improve this sentence using a 'sound' sense: \"The market was loud.\"",
+      answer: "Correct Answer: The market was filled with the deafening shouts of traders and the honking of tro-tros.",
+      explanation: "Explanation: By adding specific sounds like 'shouts' and 'honking', the reader can actually hear the scene.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which adjective gives a more 'dominant impression' of a hot day?",
+      answer: "Correct Answer: Scorching (or \"Blistering\").",
+      explanation: "Explanation: 'Scorching' describes the intensity of the heat much better than just saying it was 'very hot'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If you are describing a person from 'top to bottom', what would you describe after their eyes?",
+      answer: "Correct Answer: Their nose or mouth.",
+      explanation: "Explanation: To follow a logical spatial order, you move to the next closest feature moving downwards.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which word best starts this story? \"_______, Kwame decided to visit his grandmother in the village.\"",
+      answer: "Correct Answer: First (or \"In the beginning\").",
+      explanation: "Explanation: We use 'First' to introduce the very first action in a sequence.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Combine these using 'when': \"The rain started. We ran into the classroom.\"",
+      answer: "Correct Answer: When the rain started, we ran into the classroom.",
+      explanation: "Explanation: 'When' links the time the rain began to the action of running.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What word shows that an event was a surprise? \"I was walking home. _______, a big black dog barked at me!\"",
+      answer: "Correct Answer: Suddenly.",
+      explanation: "Explanation: 'Suddenly' is used for unexpected events in a narrative.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Use a place clause to complete this: \"Put the fufu bowl _______.\"",
+      answer: "Correct Answer: Put the fufu bowl where the guests are sitting.",
+      explanation: "Explanation: 'Where' identifies the specific location for the action.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a clause of manner to improve this: \"Sweep the floor.\"",
+      answer: "Correct Answer: Sweep the floor the way mother taught you.",
+      explanation: "Explanation: 'The way' explains how the sweeping should be performed.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the best word to start the final step of a recipe?",
+      answer: "Correct Answer: Finally.",
+      explanation: "Explanation: 'Finally' signals to the reader that they have reached the end of the sequence.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which word adds a second reason to this argument? \"Trees provide shade for students. _______, they make the school look beautiful.\"",
+      answer: "Correct Answer: Moreover (or \"Furthermore\" / \"In addition\").",
+      explanation: "Explanation: 'Moreover' is a logical connector used to add a supporting idea to an existing point.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a concessive word to show the other side: \"_______ planting trees takes effort, the benefits last for many years.\"",
+      answer: "Correct Answer: Although (or \"Even though\").",
+      explanation: "Explanation: 'Although' introduces a point that might seem like a reason not to do something, before you explain why you should do it anyway.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What word links the problem to the final result? \"Trees reduce the heat in our classrooms; _______, we will be able to concentrate better.\"",
+      answer: "Correct Answer: Therefore (or \"Consequently\").",
+      explanation: "Explanation: 'Therefore' shows the logical result of the previous statement.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What should go at the very top of a notice about a football match?",
+      answer: "Correct Answer: MThe Heading (e.g., NOTICE: FOOTBALL MATCH).",
+      explanation: "Explanation: The heading tells the reader exactly what the text is about before they read the details.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a formal synonym for 'start' in this sentence: \"The exams will _______ at 8:00 AM.\"",
+      answer: "Correct Answer: Commence (or \"Begin\").",
+      explanation: "Explanation: 'Commence' is a formal synonym that makes the notice sound professional.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Where should the 'Venue' be placed in a notice?",
+      answer: "Correct Answer: In the main body, along with the Date and Time.",
+      explanation: "Explanation: Essential details like the location (Venue) must be easy to find in the middle of the notice.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Write a catchy title for an advertisement for a new school bag called the \"JHS Pro-Pack.\"",
+      answer: "Correct Answer: \"Carry Your Dreams with the JHS Pro-Pack!\"",
+      explanation: "Explanation: This title is effective because it uses a bold, positive verb (\"Carry\") and links the product to a student's aspirations.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Rewrite the following boring sentence into a persuasive one using an imperative and an adjective: \"This fan works well.\"",
+      answer: "Correct Answer: \"Stay cool today with this powerful, silent fan!\"",
+      explanation: "Explanation: 'Using \"Stay cool\" acts as a command (imperative), and \"powerful\" and \"silent\" are descriptive adjectives that make the product more appealing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Create a rhetorical question to persuade parents to buy a specific brand of vitamins for their children.",
+      answer: "Correct Answer: \"Don't your children deserve the best start to their day?\"",
+      explanation: "Explanation: This question appeals to the parents' emotions and makes them feel that buying the vitamins is the right choice for their children's health.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Look at these steps for washing a car: 1. Dry the car with a cloth. 2. Scrub the car with soapy water. 3. Rinse the car with clean water. What is wrong with this sequence?",
+      answer: "Correct Answer: The steps are in the wrong order. You must scrub and rinse before you dry.",
+      explanation: "Explanation: In a process, the logical flow is essential. Drying is always the final step.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Provide a specific noun phrase to replace the word 'thing' in this sentence: \"Use the thing to stir the banku.\"",
+      answer: "Correct Answer: Use the wooden spatula (banku 'ta').",
+      explanation: "Explanation: Using precise nouns helps the reader identify the correct tool for the task.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Add a connector of sequence to this instruction: \"________, pour the hot water into the mug containing the cocoa powder.\"",
+      answer: "Correct Answer: Next / Then / Afterwards.",
+      explanation: "Explanation: Connectors show the reader that one action follows another in a specific order.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where should you place your address on the paper?",
+      answer: "Correct Answer: In the top right-hand corner.",
+      explanation: "Explanation: This is the standard position for the writer's address in an informal letter.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is a more appropriate salutation for a letter to your best friend: \"Dear Sir\" or \"Dearest Akosua\"?",
+      answer: "Correct Answer: Dearest Akosua.",
+      explanation: "Explanation: \"Dear Sir\" is formal. Informal letters use the person's first name or a term of endearment.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Write a short opening sentence for the body of the letter thanking your auntie for the 100 Cedis.",
+      answer: "Correct Answer: \"Thank you so much for the 100 Cedis you sent for my birthday; I was so happy to receive it!\"",
+      explanation: "Explanation: An informal opening should be warm and directly address the reason for writing.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where do you place the address of the Bank Manager?",
+      answer: "Correct Answer: On the left-hand side, below the level of the writer's date.",
+      explanation: "Explanation: This distinguishes the recipient from the sender in a formal layout.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is the most appropriate Heading for this letter?",
+      answer: "Correct Answer: REQUEST FOR A GUIDED TOUR OF THE BANK",
+      explanation: "Explanation: A heading should be short, clear, and summarized in capital letters or underlined.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite this informal sentence to be formal: \"I want to come to the bank with my friends.\"",
+      answer: "Correct Answer: \"Thank you so much for the 100 Cedis you sent for my birthday; I was so happy to receive it!\"",
+      explanation: "Explanation: Formal writing uses \"request permission\" instead of \"I want\" and avoids informal words like \"friends\" when referring to a class group.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "The capital city of Ghana is Accra. It is a coastal city known for its busy markets like Makola and its beautiful beaches. What is the main heading and one key point for these notes?",
+      answer: "Heading: Accra. Key Point: Coastal city with busy markets (e.g., Makola).",
+      explanation: "The heading identifies the subject, and the key point summarizes the specific details without using unnecessary words.",
+    ),
+
+    PracticeQuestion(
+      scenario: "You are listening to a radio doctor say: \"To stay healthy, you must drink at least eight glasses of water daily, exercise for thirty minutes, and eat plenty of fruits.\" Create a mnemonic to remember these three things.",
+      answer: "W.E.F. (Water, Exercise, Fruit).",
+      explanation: "Mnemonics use the first letter of each point to create a simple trigger for your memory.",
+    ),
+
+    PracticeQuestion(
+      scenario: "If you are taking notes on a process like 'How to make Gari,' what is the best way to record and represent the steps?",
+      answer: "Using a flow chart or a numbered list.",
+      explanation: "Processes involve a sequence, so arrows or numbers show the order of the actions clearly.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "What should be the biggest piece of text on your poster?",
+      answer: "CEDI-A-DAY FUNDRAISER.",
+      explanation: "The main event or purpose should always be the most prominent text to catch the viewer's attention.",
+    ),
+
+    PracticeQuestion(
+      scenario: "You forgot to put the 'Venue' on a notice about a library meeting. Why is this a major problem?",
+      answer: "Students will not know where to go to attend the meeting.",
+      explanation: "Without a location (Venue), the interested audience cannot take action.",
+    ),
+
+    PracticeQuestion(
+      scenario: "Rewrite this boring sentence to be more 'poster-ready': \"We are going to clean the school field on Saturday at 8 am.\"",
+      answer: "SCHOOL CLEAN-UP! Saturday | 8 AM | School Field.",
+      explanation: "Using short fragments and bold headers makes the information much easier to scan quickly.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "What would be an appropriate Headline for this article?",
+      answer: "Digital Skills: Why JHS Students Need Computers Now!",
+      explanation: "A good headline is bold, relevant, and mentions the main topic (computers and students).",
+    ),
+
+    PracticeQuestion(
+      scenario: "You found two facts: 1. Computers help with research. 2. Many jobs now require computer skills. Which Body Paragraph should these go into?",
+      answer: "A paragraph about the 'Benefits of Computer Literacy.'",
+      explanation: "Sorting ideas helps you group similar facts under a single theme.",
+    ),
+
+    PracticeQuestion(
+      scenario: "If you are writing for a blog, how should your writing style change compared to a formal report?",
+      answer: "It should be slightly more conversational and might include links or images.",
+      explanation: "Digital media like blogs often allow for a more direct and interactive style than traditional printed reports.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "Fuseini says: \"Hello Sana. I hope you are having a very good afternoon. I wanted to ask you how the Integrated Science test went for you today.\" How can we make this briefer and more impactful?",
+      answer: "\"Sana! How was the Science test? Was it tough?\"",
+      explanation: "Cutting out formal greetings and long sentences makes the dialogue sound more like a real student's conversation.",
+    ),
+
+    PracticeQuestion(
+      scenario: "Where should the question mark go in this sentence? \"Are you coming to the canteen\" asked Esi.",
+      answer: "Inside the speech marks: \"Are you coming to the canteen?\" asked Esi.",
+      explanation: "Punctuation marks that belong to the spoken sentence stay within the quotation marks.",
+    ),
+
+    PracticeQuestion(
+      scenario: "Give Fuseini a \"unique voice\" by adding a piece of local Ghanaian slang to his response about the test.",
+      answer: "\"Chale, that last question nearly killed me!\"",
+      explanation: "Using \"Chale\" makes the dialogue feel culturally authentic and appropriate for a Ghanaian student.",
+    ),
+  ],
+);
+final PracticeModel s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "You are looking at a chart titled \"JHS 1 Enrollment in Accra, 2023.\" What is the first thing you should record as your source information?",
+      answer: "The title \"JHS 1 Enrollment in Accra\" and the date \"2023.\"",
+      explanation: "Source information must include the title and the date to show where and when the data is from.",
+    ),
+
+    PracticeQuestion(
+      scenario: "If you see a table showing that \"Student A\" scored 90% and \"Student B\" scored 50%, write a sentence that makes a connection between these two points.",
+      answer: "Student A scored forty percent higher than Student B in the assessment.",
+      explanation: "Organizing ideas involves writing sentences that accurately compare or describe the relationship between data points.",
+    ),
+
+    PracticeQuestion(
+      scenario: "You have too much information from a large table about cocoa production in the Western Region. What should you do to make your report clear?",
+      answer: "Identify and select only the key ideas that are most important.",
+      explanation: "To organize data effectively, you must select the most relevant key ideas rather than using everything.",
+    ),
+  ],
+);
+
 final PracticeModel jhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/5. Guided Practice.m4a',
   questions: [
