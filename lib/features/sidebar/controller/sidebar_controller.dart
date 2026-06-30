@@ -2923,6 +2923,33 @@ class SidebarController extends GetxController {
                 practiceData = s4ss3Lesson1PracticeData;
                 independentPracticeData = s4ss3Lesson1IndependentQuizData;
                 quizData = s4ss3Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = s5ss1Lesson1GetReadyData;
+                learnData = s5ss1Lesson1LearnData;
+                practiceData = s5ss1Lesson1PracticeData;
+                independentPracticeData = s5ss1Lesson1IndependentQuizData;
+                quizData = s5ss1Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = s5ss1Lesson2GetReadyData;
+                learnData = s5ss1Lesson2LearnData;
+                practiceData = s5ss1Lesson2PracticeData;
+                independentPracticeData = s5ss1Lesson2IndependentQuizData;
+                quizData = s5ss1Lesson2QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = s5ss1Lesson3GetReadyData;
+                learnData = s5ss1Lesson3LearnData;
+                practiceData = s5ss1Lesson3PracticeData;
+                independentPracticeData = s5ss1Lesson3IndependentQuizData;
+                quizData = s5ss1Lesson3QuizData;
               }
 
               if (grade == "JHS 2" &&
