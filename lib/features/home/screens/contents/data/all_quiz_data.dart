@@ -5365,6 +5365,452 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
       ),
     ]);
 
+final QuizModel s5ss1Lesson1QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the definition of 'plot' in a written story?",
+        options: [
+          "The physical location of the story",
+          "The sequence of events that occur",
+          "The person telling the story",
+          "The moral lesson of the story",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The plot is the sequence of events that make up a story.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which element tells the reader where and when a story is happening?",
+        options: [
+          "Character",
+          "Conflict",
+          "Setting",
+          "Dialogue",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The setting describes the time and place in which the story happens.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. In The Girl Who Can, Adjoa is the main person the story follows. She is the:",
+        options: [
+          "Antagonist",
+          "Setting",
+          "Plot",
+          "Protagonist",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The protagonist is the main character whose experiences the story follows.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Read this: 'It was a cold, harmattan morning in Bolgatanga.' This is an example of:",
+        options: [
+          "Plot",
+          "Setting",
+          "Climax",
+          "Resolution",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The sentence describes both the time (harmattan morning) and place (Bolgatanga), which form the setting.",
+      ),
+
+      QuizQuestion(
+        question: "5. What is the 'resolution' of a plot?",
+        options: [
+          "The very beginning of the story",
+          "The point of highest tension",
+          "The part where the problem is solved",
+          "The description of the characters",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The resolution is the ending of the story where the conflict is settled.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. If a character is working against the main hero in a story, they are called the:",
+        options: [
+          "Protagonist",
+          "Antagonist",
+          "Narrator",
+          "Setting",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The antagonist is the character or force that opposes the protagonist.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Which of these is a character from The Dilemma of a Ghost?",
+        options: [
+          "The village of Odumase",
+          "The return of the ghost",
+          "Eulalie",
+          "A rainy night",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Eulalie is one of the main characters in the play The Dilemma of a Ghost.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Why is the setting important in a story like Makola?",
+        options: [
+          "It tells us who the author is",
+          "It describes the busy marketplace environment",
+          "It lists the names of all the traders",
+          "It explains how to bake bread",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The marketplace setting creates the atmosphere and helps readers understand the story.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. In a plot, the 'conflict' is best described as:",
+        options: [
+          "The happy ending",
+          "The names of the animals",
+          "The problem the characters face",
+          "The font used in the book",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Conflict is the struggle or problem that drives the story forward.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. When comparing two texts, identifying that one is set in a village and one is set in a city is a comparison of:",
+        options: [
+          "Plot",
+          "Setting",
+          "Characters",
+          "Themes",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Comparing the locations and time of stories means comparing their settings.",
+      ),
+    ]);
+final QuizModel s5ss1Lesson2QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. \"The classroom was as quiet as a graveyard.\" What device is this?",
+        options: [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Alliteration",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A simile compares two things using 'as' or 'like', as in 'as quiet as a graveyard.'",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which device repeats the first consonant sound in a series of words?",
+        options: [
+          "Assonance",
+          "Personification",
+          "Alliteration",
+          "Metaphor",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Alliteration is the repetition of the same initial consonant sounds in nearby words.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. \"The fire swallowed the entire forest.\" This is an example of:",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Alliteration",
+          "Personification",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Personification gives the fire the human action of 'swallowing.'",
+      ),
+
+      QuizQuestion(
+        question: "4. Identify the metaphor:",
+        options: [
+          "He is a lion in battle.",
+          "He is brave like a lion.",
+          "The lion roared loudly.",
+          "Lions live in the savanna.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A metaphor makes a direct comparison without using 'like' or 'as.'",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. \"Go and mow the lawn.\" The repetition of the 'o' sound in 'go' and 'mow' is:",
+        options: [
+          "Alliteration",
+          "Assonance",
+          "Metaphor",
+          "Personification",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Assonance is the repetition of vowel sounds within nearby words.",
+      ),
+
+      QuizQuestion(
+        question: "6. In the poem Mama is a Sunrise, the title itself is a:",
+        options: [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Alliteration",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "The title directly compares Mama to a sunrise without using 'like' or 'as,' making it a metaphor.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. \"Peter Piper picked a peck of pickled peppers\" is a famous example of:",
+        options: [
+          "Assonance",
+          "Personification",
+          "Metaphor",
+          "Alliteration",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The repeated 'P' sound at the beginning of the words is alliteration.",
+      ),
+
+      QuizQuestion(
+        question: "8. Which of these is a simile using 'like'?",
+        options: [
+          "He is a giant.",
+          "He eats like a bird.",
+          "The bird sang a song.",
+          "He is very hungry.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The word 'like' is used to compare the person's eating to that of a bird.",
+      ),
+
+      QuizQuestion(
+        question: "9. Why do writers use personification?",
+        options: [
+          "To make things seem more human and relatable.",
+          "To make the story shorter.",
+          "To explain the meaning of difficult words.",
+          "To list the names of the characters.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "Personification gives human qualities to non-human things, making descriptions more vivid and engaging.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. If a writer says, \"The stars winked at me,\" they are using:",
+        options: [
+          "Alliteration",
+          "Simile",
+          "Personification",
+          "Metaphor",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Winking is a human action, so giving it to stars is an example of personification.",
+      ),
+    ]);
+final QuizModel s5ss1Lesson3QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. Stories that use animals like Ananse to teach morals are called:",
+        options: [
+          "Myths",
+          "Legends",
+          "Folktales",
+          "Dirges",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Folktales often use animal characters like Ananse to teach moral lessons.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which type of oral poetry would you expect to hear at a Ghanaian funeral?",
+        options: [
+          "Lullaby",
+          "War Song",
+          "Dirge",
+          "Work Song",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A dirge is a funeral song performed to mourn the dead.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. A legend is different from a myth because a legend:",
+        options: [
+          "Is always about animals",
+          "Is usually based on a historical person or event",
+          "Only explains how the moon was created",
+          "Is never told aloud",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Legends are often connected to real historical people or events, while myths explain origins or involve gods and supernatural beings.",
+      ),
+
+      QuizQuestion(
+        question: "4. The Hogbetsotso Festival is an example of:",
+        options: [
+          "A written narrative",
+          "Traditional drama",
+          "A short story",
+          "A lullaby",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Festivals such as Hogbetsotso include dramatic performances, rituals, music, and dance, making them forms of traditional drama.",
+      ),
+
+      QuizQuestion(
+        question: "5. A praise song is often used to:",
+        options: [
+          "Make a baby stop crying",
+          "Honor a chief or a hero",
+          "Tell a joke",
+          "Grieve for a lost relative",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Praise songs celebrate and honor respected leaders, heroes, or important people.",
+      ),
+
+      QuizQuestion(
+        question: "6. Why is rhythm important in oral poetry like war songs?",
+        options: [
+          "It makes the words harder to remember",
+          "It helps coordinate movement and inspires bravery",
+          "It allows the poet to sleep",
+          "It is only used when writing in a notebook",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Rhythm supports performance by helping people march, dance, and stay motivated.",
+      ),
+
+      QuizQuestion(
+        question: "7. Outdooring and naming ceremonies are forms of:",
+        options: [
+          "Oral Narratives",
+          "Traditional Drama",
+          "Written Poetry",
+          "Legends",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "These ceremonies are community performances that combine music, speech, and ritual, making them traditional drama.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. If a story explains why the sun stays in the sky using the actions of a creator, it is a:",
+        options: [
+          "Legend",
+          "Folktale",
+          "Myth",
+          "Lullaby",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Myths explain the origins of natural phenomena through supernatural or sacred stories.",
+      ),
+
+      QuizQuestion(
+        question: "9. Which of these would be considered oral literature?",
+        options: [
+          "A story told by a grandmother under a tree",
+          "A newspaper article about Accra",
+          "A mathematics textbook",
+          "A recipe for Jollof rice in a magazine",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Oral literature is spoken or performed rather than written.",
+      ),
+
+      QuizQuestion(
+        question: "10. Traditional drama in Ghana often takes place during:",
+        options: [
+          "Silent reading time",
+          "Puberty rites and festivals",
+          "Solitary walks in the forest",
+          "Solving mathematics problems",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Traditional drama is commonly performed during social ceremonies such as rites and festivals.",
+      ),
+    ]);
+
 final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
   questions: [

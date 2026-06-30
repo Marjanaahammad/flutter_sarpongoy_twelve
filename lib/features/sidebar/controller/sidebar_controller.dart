@@ -964,27 +964,23 @@ class SidebarController extends GetxController {
             {
               "subtitle": "PRODUCTION AND DISTRIBUTION OF WRITING",
               "topics": [
-                "USING COHESIVE DEVICES TO LINK IDEAS",
-                // "DESCRIPTIVE WRITING – PAINTING WITH WORDS",
-                // "NARRATIVE WRITING – TELLING A STORY",
-                // "PERSUASIVE WRITING – THE POWER OF ARGUMENT",
-                // "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS",
+                "USING COHESIVE DEVICES TO LINK IDEAS", "DESCRIPTIVE WRITING – PAINTING WITH WORDS", "NARRATIVE WRITING – TELLING A STORY", "GIVING DIRECTIONS AND INSTRUCTIONS", "PERSUASIVE WRITING – THE POWER OF ARGUMENT", "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS"
               ],
             },
 
-            // {
-            //   "subtitle": "TEXT TYPES AND PURPOSES",
-            //   "topics": [
-            //     "CREATING PERSUASIVE ADVERTISEMENTS",
-            //     "WRITING PROCESS PARAGRAPHS",
-            //     "WRITING INFORMAL LETTERS",
-            //     "FORMAL WRITING (APPLICATIONS AND OFFICIAL LETTERS)",
-            //     "TAKING NOTES FOR ACADEMIC PURPOSES",
-            //     "DESIGNING NOTICES AND POSTERS",
-            //     "WRITING ARTICLES FOR PUBLICATION",
-            //     "CREATING DIALOGUES",
-            //   ],
-            // },
+            {
+              "subtitle": "TEXT TYPES AND PURPOSES",
+              "topics": [
+                "CREATING PERSUASIVE ADVERTISEMENTS",
+                "WRITING PROCESS PARAGRAPHS",
+                "WRITING INFORMAL LETTERS",
+                "FORMAL WRITING (APPLICATIONS AND OFFICIAL LETTERS)",
+                "TAKING NOTES FOR ACADEMIC PURPOSES",
+                "DESIGNING NOTICES AND POSTERS",
+                "WRITING ARTICLES FOR PUBLICATION",
+                "CREATING DIALOGUES",
+              ],
+            },
             {
               "subtitle": "BUILDING AND PRESENTING KNOWLEDGE",
               "topics": ["RESEARCHING AND PRESENTING DATA"],
@@ -998,8 +994,8 @@ class SidebarController extends GetxController {
               "subtitle": "NARRATIVE, DRAMA AND POETRY",
               "topics": [
                 "ELEMENTS OF WRITTEN LITERATURE",
-                // "LITERARY DEVICES IN TEXTS",
-                // "ORAL LITERATURE (NARRATIVES, POETRY, AND DRAMA)",
+                "LITERARY DEVICES IN TEXTS",
+                "ORAL LITERATURE (NARRATIVES, POETRY, AND DRAMA)",
               ],
             },
           ],
@@ -2792,6 +2788,141 @@ class SidebarController extends GetxController {
                 practiceData = s3ss3Lesson3PracticeData;
                 independentPracticeData = s3ss3Lesson3IndependentQuizData;
                 quizData = s3ss3Lesson3QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = s4ss1Lesson1GetReadyData;
+                learnData = s4ss1Lesson1LearnData;
+                practiceData = s4ss1Lesson1PracticeData;
+                independentPracticeData = s4ss1Lesson1IndependentQuizData;
+                quizData = s4ss1Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = s4ss1Lesson2GetReadyData;
+                learnData = s4ss1Lesson2LearnData;
+                practiceData = s4ss1Lesson2PracticeData;
+                independentPracticeData = s4ss1Lesson2IndependentQuizData;
+                quizData = s4ss1Lesson2QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = s4ss1Lesson3GetReadyData;
+                learnData = s4ss1Lesson3LearnData;
+                practiceData = s4ss1Lesson3PracticeData;
+                independentPracticeData = s4ss1Lesson3IndependentQuizData;
+                quizData = s4ss1Lesson3QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = s4ss1Lesson4GetReadyData;
+                learnData = s4ss1Lesson4LearnData;
+                practiceData = s4ss1Lesson4PracticeData;
+                independentPracticeData = s4ss1Lesson4IndependentQuizData;
+                quizData = s4ss1Lesson4QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                getReadyData = s4ss1Lesson5GetReadyData;
+                learnData = s4ss1Lesson5LearnData;
+                practiceData = s4ss1Lesson5PracticeData;
+                independentPracticeData = s4ss1Lesson5IndependentQuizData;
+                quizData = s4ss1Lesson5QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                getReadyData = s4ss1Lesson6GetReadyData;
+                learnData = s4ss1Lesson6LearnData;
+                practiceData = s4ss1Lesson6PracticeData;
+                independentPracticeData = s4ss1Lesson6IndependentQuizData;
+                quizData = s4ss1Lesson6QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = s4ss2Lesson1GetReadyData;
+                learnData = s4ss2Lesson1LearnData;
+                practiceData = s4ss2Lesson1PracticeData;
+                independentPracticeData = s4ss2Lesson1IndependentQuizData;
+                quizData = s4ss2Lesson1QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = s4ss2Lesson2GetReadyData;
+                learnData = s4ss2Lesson2LearnData;
+                practiceData = s4ss2Lesson2PracticeData;
+                independentPracticeData = s4ss2Lesson2IndependentQuizData;
+                quizData = s4ss2Lesson2QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = s4ss2Lesson3GetReadyData;
+                learnData = s4ss2Lesson3LearnData;
+                practiceData = s4ss2Lesson3PracticeData;
+                independentPracticeData = s4ss2Lesson3IndependentQuizData;
+                quizData = s4ss2Lesson3QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 3) {
+                getReadyData = s4ss2Lesson4GetReadyData;
+                learnData = s4ss2Lesson4LearnData;
+                practiceData = s4ss2Lesson4PracticeData;
+                independentPracticeData = s4ss2Lesson4IndependentQuizData;
+                quizData = s4ss2Lesson4QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 4) {
+                getReadyData = s4ss2Lesson5GetReadyData;
+                learnData = s4ss2Lesson5LearnData;
+                practiceData = s4ss2Lesson5PracticeData;
+                independentPracticeData = s4ss2Lesson5IndependentQuizData;
+                quizData = s4ss2Lesson5QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 5) {
+                getReadyData = s4ss2Lesson6GetReadyData;
+                learnData = s4ss2Lesson6LearnData;
+                practiceData = s4ss2Lesson6PracticeData;
+                independentPracticeData = s4ss2Lesson6IndependentQuizData;
+                quizData = s4ss2Lesson6QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 6) {
+                getReadyData = s4ss2Lesson7GetReadyData;
+                learnData = s4ss2Lesson7LearnData;
+                practiceData = s4ss2Lesson7PracticeData;
+                independentPracticeData = s4ss2Lesson7IndependentQuizData;
+                quizData = s4ss2Lesson7QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 7) {
+                getReadyData = s4ss2Lesson8GetReadyData;
+                learnData = s4ss2Lesson8LearnData;
+                practiceData = s4ss2Lesson8PracticeData;
+                independentPracticeData = s4ss2Lesson8IndependentQuizData;
+                quizData = s4ss2Lesson8QuizData;
+              }if (courseTitle == "English" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = s4ss3Lesson1GetReadyData;
+                learnData = s4ss3Lesson1LearnData;
+                practiceData = s4ss3Lesson1PracticeData;
+                independentPracticeData = s4ss3Lesson1IndependentQuizData;
+                quizData = s4ss3Lesson1QuizData;
               }
 
               if (grade == "JHS 2" &&

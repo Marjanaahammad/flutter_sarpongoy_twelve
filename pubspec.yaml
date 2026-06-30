@@ -989,6 +989,12 @@ flutter:
     - assets/audio/english/ENGLISH JHS1 S4 SS2 L8/
     - assets/audio/english/ENGLISH JHS1 S4 SS3 L1/
     - assets/images/english/ENGLISH_JHS1_S4_SS3_L1/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L1/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L2/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L3/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L1/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L2/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L3/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

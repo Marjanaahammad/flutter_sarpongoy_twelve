@@ -2667,6 +2667,214 @@ final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPrac
   ],
 );
 
+final IndependentPracticeModel s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In the story Sosu and the Bukari Boys, the events take place in a local Ghanaian community. Which literary element does this describe?",
+        options: [
+          "Plot",
+          "Character",
+          "Setting",
+          "Climax"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you are describing the \"most exciting part\" or the \"turning point\" of a story like The Generous Hunter, which part of the plot are you identifying?",
+        options: [
+          "Introduction",
+          "Climax",
+          "Resolution",
+          "Setting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In The Old Man and His Children, the old man uses sticks to teach his sons a lesson about unity. The old man and his sons are examples of:",
+        options: [
+          "Settings",
+          "Plots",
+          "Narrators",
+          "Characters"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is an example of a setting?",
+        options: [
+          "A teacher named Mr. Mensah",
+          "A school compound in Kumasi at noon",
+          "The boy decided to run home",
+          "To be honest and kind"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When we compare the plot of two different stories, what are we looking at?",
+        options: [
+          "The names of the people in the stories",
+          "The sequence of events that happen in both",
+          "The city where the stories were written",
+          "The number of pages in the books"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "\"The Kejetia market is like a maze.\" This sentence is an example of:",
+        options: [
+          "Personification",
+          "Simile",
+          "Alliteration",
+          "Metaphor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following is an example of alliteration?",
+        options: [
+          "The sun is a golden ball.",
+          "She ran as fast as the wind.",
+          "Papa's powerful palm-wine.",
+          "The flowers danced in the breeze."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When a poet writes \"the engine coughed and died,\" which device are they using?",
+        options: [
+          "Personification",
+          "Assonance",
+          "Simile",
+          "Metaphor"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Life is a journey.\" This is an example of a:",
+        options: [
+          "Simile",
+          "Personification",
+          "Metaphor",
+          "Alliteration"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the main difference between a simile and a metaphor?",
+        options: [
+          "A simile uses \"like\" or \"as,\" but a metaphor does not.",
+          "A metaphor uses \"like\" or \"as,\" but a simile does not.",
+          "A simile is only for poems.",
+          "A metaphor is only for stories."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of oral narrative explains the religious origins of the world or the actions of gods?",
+        options: [
+          "Folktale",
+          "Legend",
+          "Myth",
+          "Lullaby"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A story about the historical bravery of Yaa Asantewaa during a war is best described as a:",
+        options: [
+          "Myth",
+          "Legend",
+          "Dirge",
+          "Folktale"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of a lullaby?",
+        options: [
+          "To prepare men for war",
+          "To mourn the dead at a funeral",
+          "To soothe a child to sleep",
+          "To celebrate a new chief"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is an example of traditional drama in Ghana?",
+        options: [
+          "Reading a textbook in a library",
+          "A puberty rite ceremony like Dipo",
+          "Writing a letter to a friend",
+          "Watching a movie on a phone"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Oral literature is primarily passed down through:",
+        options: [
+          "Printing presses",
+          "Word of mouth",
+          "Email and social media",
+          "Stone carvings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS2 S1 SS1 L1/6. Independent Practice.m4a',

@@ -954,21 +954,21 @@ final PracticeModel s4ss2Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "The capital city of Ghana is Accra. It is a coastal city known for its busy markets like Makola and its beautiful beaches. What is the main heading and one key point for these notes?",
-      answer: "Heading: Accra. Key Point: Coastal city with busy markets (e.g., Makola).",
-      explanation: "The heading identifies the subject, and the key point summarizes the specific details without using unnecessary words.",
+      scenario: "1. Question: The capital city of Ghana is Accra. It is a coastal city known for its busy markets like Makola and its beautiful beaches. What is the main heading and one key point for these notes?",
+      answer: "Correct Answer: Heading: Accra. Key Point: Coastal city with busy markets (e.g., Makola).",
+      explanation: "Explanation: The heading identifies the subject, and the key point summarizes the specific details without using unnecessary words.",
     ),
 
     PracticeQuestion(
-      scenario: "You are listening to a radio doctor say: \"To stay healthy, you must drink at least eight glasses of water daily, exercise for thirty minutes, and eat plenty of fruits.\" Create a mnemonic to remember these three things.",
-      answer: "W.E.F. (Water, Exercise, Fruit).",
-      explanation: "Mnemonics use the first letter of each point to create a simple trigger for your memory.",
+      scenario: "2. Question: You are listening to a radio doctor say: \"To stay healthy, you must drink at least eight glasses of water daily, exercise for thirty minutes, and eat plenty of fruits.\" Create a mnemonic to remember these three things.",
+      answer: "Correct Answer: W.E.F. (Water, Exercise, Fruit).",
+      explanation: "Explanation: Mnemonics use the first letter of each point to create a simple trigger for your memory.",
     ),
 
     PracticeQuestion(
-      scenario: "If you are taking notes on a process like 'How to make Gari,' what is the best way to record and represent the steps?",
-      answer: "Using a flow chart or a numbered list.",
-      explanation: "Processes involve a sequence, so arrows or numbers show the order of the actions clearly.",
+      scenario: "3. Question: If you are taking notes on a process like 'How to make Gari,' what is the best way to record and represent the steps?",
+      answer: "Correct Answer: Using a flow chart or a numbered list.",
+      explanation: "Explanation: Processes involve a sequence, so arrows or numbers show the order of the actions clearly.",
     ),
   ],
 );
@@ -976,21 +976,21 @@ final PracticeModel s4ss2Lesson6PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "What should be the biggest piece of text on your poster?",
-      answer: "CEDI-A-DAY FUNDRAISER.",
-      explanation: "The main event or purpose should always be the most prominent text to catch the viewer's attention.",
+      scenario: "1. Question: What should be the biggest piece of text on your poster?",
+      answer: "Correct Answer: CEDI-A-DAY FUNDRAISER.",
+      explanation: "Explanation: The main event or purpose should always be the most prominent text to catch the viewer's attention.",
     ),
 
     PracticeQuestion(
-      scenario: "You forgot to put the 'Venue' on a notice about a library meeting. Why is this a major problem?",
-      answer: "Students will not know where to go to attend the meeting.",
-      explanation: "Without a location (Venue), the interested audience cannot take action.",
+      scenario: "2. Question: You forgot to put the 'Venue' on a notice about a library meeting. Why is this a major problem?",
+      answer: "Correct Answer: Students will not know where to go to attend the meeting.",
+      explanation: "Explanation: Without a location (Venue), the interested audience cannot take action.",
     ),
 
     PracticeQuestion(
-      scenario: "Rewrite this boring sentence to be more 'poster-ready': \"We are going to clean the school field on Saturday at 8 am.\"",
-      answer: "SCHOOL CLEAN-UP! Saturday | 8 AM | School Field.",
-      explanation: "Using short fragments and bold headers makes the information much easier to scan quickly.",
+      scenario: "3. Question: Rewrite this boring sentence to be more 'poster-ready': \"We are going to clean the school field on Saturday at 8 am.\"",
+      answer: "Correct Answer: SCHOOL CLEAN-UP! Saturday | 8 AM | School Field.",
+      explanation: "Explanation: Using short fragments and bold headers makes the information much easier to scan quickly.",
     ),
   ],
 );
@@ -998,21 +998,21 @@ final PracticeModel s4ss2Lesson7PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "What would be an appropriate Headline for this article?",
-      answer: "Digital Skills: Why JHS Students Need Computers Now!",
-      explanation: "A good headline is bold, relevant, and mentions the main topic (computers and students).",
+      scenario: "1. Question: What would be an appropriate Headline for this article?",
+      answer: "Correct Answer: Digital Skills: Why JHS Students Need Computers Now!",
+      explanation: "Explanation: A good headline is bold, relevant, and mentions the main topic (computers and students).",
     ),
 
     PracticeQuestion(
-      scenario: "You found two facts: 1. Computers help with research. 2. Many jobs now require computer skills. Which Body Paragraph should these go into?",
-      answer: "A paragraph about the 'Benefits of Computer Literacy.'",
-      explanation: "Sorting ideas helps you group similar facts under a single theme.",
+      scenario: "2. Question: You found two facts: 1. Computers help with research. 2. Many jobs now require computer skills. Which Body Paragraph should these go into?",
+      answer: "Correct Answer: A paragraph about the 'Benefits of Computer Literacy.'",
+      explanation: "Explanation: Sorting ideas helps you group similar facts under a single theme.",
     ),
 
     PracticeQuestion(
-      scenario: "If you are writing for a blog, how should your writing style change compared to a formal report?",
-      answer: "It should be slightly more conversational and might include links or images.",
-      explanation: "Digital media like blogs often allow for a more direct and interactive style than traditional printed reports.",
+      scenario: "3. Question: If you are writing for a blog, how should your writing style change compared to a formal report?",
+      answer: "Correct Answer: It should be slightly more conversational and might include links or images.",
+      explanation: "Explanation: Digital media like blogs often allow for a more direct and interactive style than traditional printed reports.",
     ),
   ],
 );
@@ -1020,21 +1020,21 @@ final PracticeModel s4ss2Lesson8PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "Fuseini says: \"Hello Sana. I hope you are having a very good afternoon. I wanted to ask you how the Integrated Science test went for you today.\" How can we make this briefer and more impactful?",
-      answer: "\"Sana! How was the Science test? Was it tough?\"",
-      explanation: "Cutting out formal greetings and long sentences makes the dialogue sound more like a real student's conversation.",
+      scenario: "1. Question: Fuseini says: \"Hello Sana. I hope you are having a very good afternoon. I wanted to ask you how the Integrated Science test went for you today.\" How can we make this briefer and more impactful?",
+      answer: "Correct Answer: \"Sana! How was the Science test? Was it tough?\"",
+      explanation: "Explanation: Cutting out formal greetings and long sentences makes the dialogue sound more like a real student's conversation.",
     ),
 
     PracticeQuestion(
-      scenario: "Where should the question mark go in this sentence? \"Are you coming to the canteen\" asked Esi.",
-      answer: "Inside the speech marks: \"Are you coming to the canteen?\" asked Esi.",
-      explanation: "Punctuation marks that belong to the spoken sentence stay within the quotation marks.",
+      scenario: "2. Question: Where should the question mark go in this sentence? \"Are you coming to the canteen\" asked Esi.",
+      answer: "Correct Answer: Inside the speech marks: \"Are you coming to the canteen?\" asked Esi.",
+      explanation: "Explanation: Punctuation marks that belong to the spoken sentence stay within the quotation marks.",
     ),
 
     PracticeQuestion(
-      scenario: "Give Fuseini a \"unique voice\" by adding a piece of local Ghanaian slang to his response about the test.",
-      answer: "\"Chale, that last question nearly killed me!\"",
-      explanation: "Using \"Chale\" makes the dialogue feel culturally authentic and appropriate for a Ghanaian student.",
+      scenario: "3. Question: Give Fuseini a \"unique voice\" by adding a piece of local Ghanaian slang to his response about the test.",
+      answer: "Correct Answer: \"Chale, that last question nearly killed me!\"",
+      explanation: "Explanation: Using \"Chale\" makes the dialogue feel culturally authentic and appropriate for a Ghanaian student.",
     ),
   ],
 );
@@ -1042,21 +1042,97 @@ final PracticeModel s4ss3Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "You are looking at a chart titled \"JHS 1 Enrollment in Accra, 2023.\" What is the first thing you should record as your source information?",
-      answer: "The title \"JHS 1 Enrollment in Accra\" and the date \"2023.\"",
-      explanation: "Source information must include the title and the date to show where and when the data is from.",
+      scenario: "1. Question: You are looking at a chart titled \"JHS 1 Enrollment in Accra, 2023.\" What is the first thing you should record as your source information?",
+      answer: "Correct Answer: The title \"JHS 1 Enrollment in Accra\" and the date \"2023.\"",
+      explanation: "Explanation: Source information must include the title and the date to show where and when the data is from.",
     ),
 
     PracticeQuestion(
-      scenario: "If you see a table showing that \"Student A\" scored 90% and \"Student B\" scored 50%, write a sentence that makes a connection between these two points.",
-      answer: "Student A scored forty percent higher than Student B in the assessment.",
-      explanation: "Organizing ideas involves writing sentences that accurately compare or describe the relationship between data points.",
+      scenario: "2. Question: If you see a table showing that \"Student A\" scored 90% and \"Student B\" scored 50%, write a sentence that makes a connection between these two points.",
+      answer: "Correct Answer: Student A scored forty percent higher than Student B in the assessment.",
+      explanation: "Explanation: Organizing ideas involves writing sentences that accurately compare or describe the relationship between data points.",
     ),
 
     PracticeQuestion(
-      scenario: "You have too much information from a large table about cocoa production in the Western Region. What should you do to make your report clear?",
-      answer: "Identify and select only the key ideas that are most important.",
-      explanation: "To organize data effectively, you must select the most relevant key ideas rather than using everything.",
+      scenario: "3. Question: You have too much information from a large table about cocoa production in the Western Region. What should you do to make your report clear?",
+      answer: "Correct Answer: Identify and select only the key ideas that are most important.",
+      explanation: "Explanation: To organize data effectively, you must select the most relevant key ideas rather than using everything.",
+    ),
+  ],
+);
+
+final PracticeModel s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. In a story, a boy named Kwesi finds a lost wallet at the Kotoka International Airport. He spends the afternoon searching for the owner and finally returns it to a grateful traveler.\n"
+          "Question: What is the setting of this story?",
+      answer: "Correct Answer: The setting is the Kotoka International Airport during the afternoon.",
+      explanation: "Explanation: The setting must include both the place (the airport) and the time (afternoon).",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. In the play *The Marriage of Anansewa*, Ananse creates a clever plan to marry his daughter to several chiefs at once to get their gifts.\n"
+          "question: Who is the protagonist in this scenario?",
+      answer: "Correct Answer: The protagonist is Ananse.",
+      explanation: "Explanation: Ananse is the main character whose actions and plans drive the entire story forward.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. A village is suffering from a long drought. The elders decide to perform a traditional rain dance. After the dance, the clouds gather and rain finally falls, saving the crops.\n"
+          "Question: Describe the plot of this scenario in one sentence.",
+      answer: "Correct Answer: The plot is about a village performing a rain dance to end a drought and successfully bringing the rain.",
+      explanation: " Explanation: The plot summarizes the main events of the story in the order they happen.",
+    ),
+  ],
+);
+final PracticeModel s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. The marketplace was a beehive of activity. \n"
+          "Question: Is this a simile or a metaphor?",
+      answer: "Correct Answer: Metaphor.",
+      explanation: "Explanation: It compares the market to a beehive directly without using \"like\" or \"as.\"",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Busy Bukari bought big baskets. \n"
+          "Question: Which sound device is being used here?",
+      answer: "Correct Answer: Alliteration.",
+      explanation: "Explanation: The \"B\" sound is repeated at the beginning of almost every word.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. The moon smiled down on the sleeping village.\n"
+          "Question: What literary device is used to describe the moon?",
+      answer: "Correct Answer: Personification.",
+      explanation: "Explanation: Smiling is a human action given to the moon.",
+    ),
+  ],
+);
+final PracticeModel s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. A storyteller tells a group of children about why the Hippo has no hair. The story ends by saying we should not be greedy. \n"
+          "Question: Is this a myth, a legend, or a folktale?",
+      answer: "Correct Answer: Folktale.",
+      explanation: "Explanation: It features animal characters and teaches a clear moral lesson.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. During a funeral in a village in the Volta Region, a group of women sings a slow, sad song about the life of the person who passed away.\n"
+          "Question: What type of oral poetry is this?",
+      answer: "Correct Answer: A Dirge.",
+      explanation: "Explanation: Dirges are specifically performed at funerals to express mourning and honor the dead.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. During the Akwasidae festival, a linguist recites a long poem praising the bravery and kindness of the Asantehene.\n"
+          "Question: What is the function of this poem?",
+      answer: "Correct Answer: A Praise Song.",
+      explanation: "Explanation: The poem’s function is to honor and celebrate a leader's character and lineage.",
     ),
   ],
 );
