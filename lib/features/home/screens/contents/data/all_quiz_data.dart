@@ -8872,6 +8872,1749 @@ final QuizModel jhs2s3ss3Lesson1QuizData = QuizModel(
   ],
 );
 
+final QuizModel jhs2s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Complete the sentence: \"You cannot enter the lab ____ you are wearing a lab coat.\"",
+      options: [
+        "because",
+        "unless",
+        "while",
+        "since"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Unless\" introduces a condition that must be met before entering the laboratory.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which pronoun correctly replaces the object? \"I saw Mr. Mensah at the bank and spoke to ____.\"",
+      options: [
+        "him",
+        "he",
+        "his",
+        "himself"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "\"Him\" is the correct object pronoun used after the verb \"spoke to.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. Identify the time connector: \"The shop closes ____ the sun sets.\"",
+      options: [
+        "because",
+        "after",
+        "so that",
+        "although"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"After\" indicates the time at which the action happens.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sentence uses a relative clause correctly?",
+      options: [
+        "The car which is blue is mine.",
+        "The car is blue it is mine.",
+        "The car and it is blue mine.",
+        "The blue car mine is which."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Which is blue\" is a relative clause describing the car.",
+    ),
+
+    QuizQuestion(
+      question: "5. Pick the best connector for a reason: \"We stayed home ____ it was a public holiday.\"",
+      options: [
+        "so that",
+        "although",
+        "because",
+        "however"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Because\" introduces the reason for staying at home.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is a synonym for \"happy\" to avoid repetition? \"Kofi was happy; he was truly ____.\"",
+      options: [
+        "joyful",
+        "angry",
+        "sad",
+        "tired"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Joyful\" is a synonym for \"happy\" and adds variety to writing.",
+    ),
+
+    QuizQuestion(
+      question: "7. Choose the correct connector: \"____ I was walking to school, I met my teacher.\"",
+      options: [
+        "Until",
+        "While",
+        "Unless",
+        "Though"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"While\" shows that two actions happened at the same time.",
+    ),
+
+    QuizQuestion(
+      question: "8. Fill the gap: \"The food was delicious, ____ it was quite expensive.\"",
+      options: [
+        "because",
+        "so that",
+        "but",
+        "since"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"But\" is used to show a contrast between two ideas.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"The pupils are hard-working. ____ always finish their tasks.\"",
+      options: [
+        "We",
+        "They",
+        "You",
+        "It"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"They\" is the correct plural pronoun referring to \"the pupils.\"",
+    ),
+
+    QuizQuestion(
+      question: "10. \"I will go to the market ____ it stops raining.\"",
+      options: [
+        "provided that",
+        "although",
+        "because",
+        "while"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "\"Provided that\" introduces a condition that must be satisfied before the action happens.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. An \"anecdote\" in an introduction is best described as:",
+      options: [
+        "A list of statistics",
+        "A short, personal story",
+        "A dictionary definition",
+        "A very long conclusion"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An anecdote is a short personal story used to capture the reader's attention.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector is used to show a condition?",
+      options: [
+        "Because",
+        "Provided that",
+        "Therefore",
+        "Furthermore"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Provided that\" introduces a condition that must be met.",
+    ),
+
+    QuizQuestion(
+      question: "3. Choose the best 'Fact' hook for an essay on \"Forestry.\"",
+      options: [
+        "I like walking in the woods.",
+        "Trees have green leaves.",
+        "Forests cover about thirty percent of the Earth's land.",
+        "My brother is a forest guard."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A factual hook uses a real and interesting fact to attract the reader.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Sequence\" in a paragraph refers to:",
+      options: [
+        "The number of words used",
+        "The order of the sentences",
+        "The font size of the text",
+        "The name of the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sequence means arranging ideas or sentences in a logical order.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word shows a contrast?",
+      options: [
+        "Moreover",
+        "Similarly",
+        "Nevertheless",
+        "Consequently"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Nevertheless\" introduces a contrast between two ideas.",
+    ),
+
+    QuizQuestion(
+      question: "6. To create \"unity\" in an introduction, all sentences must:",
+      options: [
+        "Be the exact same length",
+        "Start with the word \"The\"",
+        "Relate to the main topic",
+        "End with an exclamation mark"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Unity means every sentence supports the same main idea or topic.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the best way to link: \"It was a holiday. The school was empty.\"",
+      options: [
+        "It was a holiday; therefore, the school was empty.",
+        "It was a holiday unless the school was empty.",
+        "It was a holiday although the school was empty.",
+        "It was a holiday provided that the school was empty."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Therefore\" correctly shows the result of the holiday.",
+    ),
+
+    QuizQuestion(
+      question: "8. An introduction should capture the reader's attention and:",
+      options: [
+        "Give the final answer",
+        "Introduce the topic",
+        "List all the sub-headings",
+        "Describe the author's life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A good introduction attracts attention and clearly introduces the topic.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Although it was late, he stayed up to study.\" Which technique is used here?",
+      options: [
+        "Anecdote",
+        "Logical connector",
+        "Fact or Statistic",
+        "Relative clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Although\" is a logical connector that shows contrast.",
+    ),
+
+    QuizQuestion(
+      question: "10. If you are writing about \"Personal Hygiene,\" which hook is most likely to interest a reader?",
+      options: [
+        "Hygiene is important for everyone in the world.",
+        "Imagine waking up with a toothache that won't go away.",
+        "There are many ways to stay clean every day.",
+        "This essay is about how to wash your hands."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "An engaging scenario encourages the reader to continue reading.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is used to start a relative clause about a place?",
+      options: [
+        "Who",
+        "Where",
+        "Which",
+        "Whose"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Where\" introduces a relative clause that refers to a place.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the adverbial phrase in: \"They danced with great joy.\"",
+      options: [
+        "They danced",
+        "with great joy",
+        "danced with",
+        "great joy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"With great joy\" is an adverbial phrase of manner describing how they danced.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence uses a non-defining relative clause correctly?",
+      options: [
+        "My car which is red is fast.",
+        "My car, which is red, is fast.",
+        "The car that is red is fast.",
+        "A red car is fast."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Non-defining relative clauses provide extra information and are separated by commas.",
+    ),
+
+    QuizQuestion(
+      question: "4. Choose the best noun phrase to complete the sentence: \"_____ was very heavy.\"",
+      options: [
+        "Running fast",
+        "The large wooden crate",
+        "Under the table",
+        "Very quickly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"The large wooden crate\" is a noun phrase that can act as the subject of the sentence.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does an adjectival phrase do?",
+      options: [
+        "It describes a verb.",
+        "It replaces a noun.",
+        "It describes a noun.",
+        "It starts a new paragraph."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "An adjectival phrase gives more information about a noun.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a defining relative clause?",
+      options: [
+        "Kofi, who is my brother, is tall.",
+        "The boy who stole the mango was caught.",
+        "My house, which is green, is near the school.",
+        "Mr. Mensah, who is a baker, is kind."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A defining relative clause identifies exactly which person or thing is being referred to.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"The woman at the back of the room stood up.\" The bold part is an:",
+      options: [
+        "Adverbial phrase of place",
+        "Noun phrase",
+        "Relative clause",
+        "Adjectival phrase"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "\"At the back of the room\" describes the noun \"woman,\" so it functions as an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "8. Complete with an adverbial phrase of manner: \"She spoke _____.\"",
+      options: [
+        "to her mother",
+        "yesterday morning",
+        "at the market",
+        "in a soft whisper"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "\"In a soft whisper\" tells how she spoke, making it an adverbial phrase of manner.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sentence is the most descriptive?",
+      options: [
+        "The dog barked.",
+        "The big dog barked.",
+        "The big dog in the yard barked loudly.",
+        "The dog barked at the cat."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "This sentence provides the most details about the dog, its location, and how it barked.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Whose\" is used in a relative clause to show:",
+      options: [
+        "Time",
+        "Possession",
+        "Location",
+        "Reason"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Whose\" is a relative pronoun used to indicate possession.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of a personal narrative?",
+      options: [
+        "To give instructions on how to cook.",
+        "To argue about a political topic.",
+        "To tell a story about a personal experience.",
+        "To list facts about Ghanaian history."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A personal narrative tells the writer's own real-life experiences and events.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which pronoun is essential for first-person point of view?",
+      options: [
+        "He",
+        "They",
+        "Me",
+        "It"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "First-person narratives use pronouns such as \"I,\" \"me,\" \"my,\" and \"we.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. Identify the adjective in this sentence: \"The delicious waakye was wrapped in a leaf.\"",
+      options: [
+        "Wrapped",
+        "Delicious",
+        "Leaf",
+        "Waakye"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Delicious\" is an adjective because it describes the noun \"waakye.\"",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of indirect speech?",
+      options: [
+        "Ama said, \"I am tired.\"",
+        "\"Stop!\" shouted the guard.",
+        "Abena said that she was hungry.",
+        "\"Where is the gari?\" I asked."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Indirect speech reports what someone said without using quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "5. Choose the best adverb to complete: \"The hunter crept _____ through the forest.\"",
+      options: [
+        "Silently",
+        "Loud",
+        "Green",
+        "Morning"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Silently\" is an adverb describing how the hunter crept.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which connector shows that one event happened immediately after another?",
+      options: [
+        "Although",
+        "Because",
+        "Next",
+        "Unless"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Next\" is a sequence connector that shows the order of events.",
+    ),
+
+    QuizQuestion(
+      question: "7. When planning a narrative, what should you record first?",
+      options: [
+        "The price of the book.",
+        "Ideas about past events.",
+        "A list of all your friends.",
+        "The names of foreign cities."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Planning begins by collecting ideas from personal experiences or past events.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which sentence uses a noun phrase to add detail?",
+      options: [
+        "I ate.",
+        "He ran.",
+        "The old wooden boat creaked.",
+        "It is hot."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "\"The old wooden boat\" is a descriptive noun phrase that adds detail.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why do we use first-person point of view in narratives?",
+      options: [
+        "To make the story sound like a textbook.",
+        "To hide our feelings from the reader.",
+        "To convey our personal feelings and thoughts.",
+        "To talk about people we have never met."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "First-person narration allows writers to share their own thoughts, feelings, and experiences.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the final step in the writing process before publishing?",
+      options: [
+        "Writing the first draft.",
+        "Editing and proofreading for sense.",
+        "Choosing a title.",
+        "Drawing a picture."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Editing and proofreading help ensure the writing is clear, accurate, and ready for readers.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which adjective suggests a place is very old and historic?",
+      options: [
+        "Contemporary",
+        "Ancient",
+        "Bustling",
+        "Charming"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Ancient\" describes places or objects that are very old and have historical importance.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"The pungent aroma of ginger filled the kitchen.\" Which sense does \"pungent\" appeal to?",
+      options: [
+        "Sight",
+        "Sound",
+        "Smell",
+        "Touch"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Aroma\" refers to smell, and \"pungent\" describes a strong or sharp scent.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which word would you use to describe a very difficult and painful journey?",
+      options: [
+        "Common",
+        "Tortuous",
+        "Divine",
+        "Stellar"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Tortuous\" describes something that is full of difficulties, twists, or pain.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the first-person pronoun in this description: \"We walked through the misty forest.\"",
+      options: [
+        "Through",
+        "Misty",
+        "We",
+        "Forest"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"We\" is a first-person plural pronoun.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does it mean to use \"precise\" words?",
+      options: [
+        "Using the longest words possible.",
+        "Using specific words that fit the scene exactly.",
+        "Using words that are hard to spell.",
+        "Using only three words in a sentence."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Precise words communicate ideas clearly by choosing the most accurate vocabulary.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which is an example of an adverb of manner?",
+      options: [
+        "Under the table",
+        "Rhythmically",
+        "Blue",
+        "After school"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Rhythmically\" describes how an action is performed, making it an adverb of manner.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which sentence uses sensory language for touch?",
+      options: [
+        "The music was loud.",
+        "The sun was yellow.",
+        "The silk kente felt smooth.",
+        "I smelled the soup."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Smooth\" appeals to the sense of touch by describing how the fabric feels.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the purpose of editing for \"emotional reaction\"?",
+      options: [
+        "To make the text longer.",
+        "To ensure the reader feels what you intended.",
+        "To change the story completely.",
+        "To add more names to the story."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Editing helps make sure the language creates the intended emotional effect on readers.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a \"contemporary\" setting?",
+      options: [
+        "A modern glass office in Accra.",
+        "A cave from 100 years ago.",
+        "An old fishing boat.",
+        "A traditional story from long ago."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Contemporary\" means modern or present-day.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence uses direct speech for interest?",
+      options: [
+        "He said he was going.",
+        "\"Look at that elephant!\" I cried.",
+        "I thought about the trip.",
+        "We arrived at the park."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Direct speech uses quotation marks to show the speaker's exact words.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of an advertisement should be the most eye-catching?",
+      options: [
+        "The page number",
+        "The Title",
+        "The small print",
+        "The date"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The title is designed to grab the audience's attention immediately.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the imperative verb: \"Drink more water for better health.\"",
+      options: [
+        "Water",
+        "Better",
+        "Drink",
+        "Health"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Drink\" is an imperative verb because it gives a command or instruction.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which verb tense is best for stating facts about a product?",
+      options: [
+        "Past Tense",
+        "Future Tense",
+        "Simple Present Tense",
+        "Continuous Tense"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The simple present tense is commonly used to state facts and general truths in advertisements.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a diary entry primarily used for?",
+      options: [
+        "To sell a car.",
+        "To record personal experiences and feelings.",
+        "To write a formal letter to a boss.",
+        "To list ingredients for light soup."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A diary is used to record personal thoughts, experiences, and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a persuasive device?",
+      options: [
+        "Repetition of key words",
+        "Using a very small font",
+        "Hiding the price",
+        "Using only black and white"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Repeating important words or phrases helps readers remember the message.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"I think this is the most beautiful kente in the world.\" What type of verb is \"think\"?",
+      options: [
+        "Action verb",
+        "Mental verb",
+        "Helping verb",
+        "Past verb"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Think\" is a mental verb because it expresses a thought or opinion.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which phrasal verb means to encounter something by chance?",
+      options: [
+        "Run away",
+        "Come across",
+        "Sit down",
+        "Stand up"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "\"Come across\" means to find or meet something unexpectedly.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a rhetorical question designed to do?",
+      options: [
+        "Get a specific numerical answer.",
+        "Engage the audience and make them think.",
+        "Test the reader's math skills.",
+        "End the conversation immediately."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rhetorical question encourages readers to think about the message rather than answer it.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Our soap is better than any other because it lasts longer.\" This is an example of:",
+      options: [
+        "A diary entry",
+        "An introduction",
+        "Direct speech",
+        "A selling point"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A selling point highlights a product's advantage to persuade customers.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which modal verb shows a strong recommendation in an advertisement?",
+      options: [
+        "Might",
+        "Maybe",
+        "Could",
+        "Must"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "\"Must\" expresses a strong recommendation or obligation, making it persuasive in advertisements.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of a problem-solution paragraph?",
+      options: [
+        "To tell a funny story.",
+        "To convince the reader that a solution will work.",
+        "To list all the teachers in the school.",
+        "To describe a beautiful sunset."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A problem-solution paragraph aims to persuade readers that a proposed solution is practical and effective.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which sentence clearly identifies a problem?",
+      options: [
+        "I like going to school.",
+        "The sun is very bright today.",
+        "The school toilets lack running water, making them unhygienic.",
+        "We should all play football."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "This sentence clearly states the problem and explains why it is harmful.",
+    ),
+
+    QuizQuestion(
+      question: "3. When explaining how a solution works, you should:",
+      options: [
+        "Keep it a secret.",
+        "Give clear, step-by-step details.",
+        "Use as few words as possible.",
+        "Only talk about the problem again."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Step-by-step explanations help readers understand how the solution can be carried out.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should you mention who is 'in charge' of a solution?",
+      options: [
+        "To make them famous.",
+        "To show the plan is organized and has leadership.",
+        "To give them more work.",
+        "Because it is a school rule."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Identifying who is responsible shows the solution is organized and ready to be implemented.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the best way to fund a small school project locally?",
+      options: [
+        "Waiting for a miracle.",
+        "Organizing a community car wash or craft sale.",
+        "Asking for a loan from a foreign bank.",
+        "Doing nothing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Community fundraising is a practical and realistic way to support local projects.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is a synonym for \"feasible\"?",
+      options: [
+        "Difficult",
+        "Practicable",
+        "Expensive",
+        "Boring"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "\"Practicable\" means something that can realistically be done.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does giving evidence help your paragraph?",
+      options: [
+        "It makes the paragraph look longer.",
+        "It confuses the reader.",
+        "It proves your solution has worked before or is logical.",
+        "It is not necessary."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Evidence strengthens your argument by making it more believable and convincing.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"My solution is better because it costs 50 Cedis while others cost 500.\" This argues for:",
+      options: [
+        "Feasibility",
+        "Cost-effectiveness",
+        "Objections",
+        "Evidence"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Comparing costs shows that the solution saves money, making it cost-effective.",
+    ),
+
+    QuizQuestion(
+      question: "9. What should you do with a possible objection?",
+      options: [
+        "Ignore it completely.",
+        "Acknowledge it and show why your plan still works.",
+        "Get angry at the person who objects.",
+        "Stop writing the paragraph."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Addressing objections strengthens your argument by showing that you have considered different viewpoints.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is a characteristic of a \"reasonable\" solution?",
+      options: [
+        "It requires everyone to stop sleeping.",
+        "It is impossible to complete.",
+        "It is fair, logical, and can be achieved.",
+        "It costs more money than the school has."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A reasonable solution is realistic, fair, and practical to carry out.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A formal letter to a business should always include:",
+      options: [
+        "A list of your favourite foods.",
+        "Two addresses and a subject line.",
+        "A joke to make the manager laugh.",
+        "Ten different colours of ink."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A formal business letter should include the sender's address, recipient's address, and a clear subject line.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a formal request?",
+      options: [
+        "Give me your pen now.",
+        "I am writing to kindly request a permission letter.",
+        "I want some water.",
+        "Send me the money."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Formal requests use polite and respectful language such as \"kindly request.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. When writing a formal email, what replaces the two physical addresses?",
+      options: [
+        "A picture of yourself.",
+        "A clear subject line.",
+        "Your home phone number.",
+        "Nothing at all."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Formal emails use a subject line to clearly identify the purpose of the message.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"NOTICE: All students must wear their Sunday wear for the church service.\" This is an update on:",
+      options: [
+        "A sports schedule.",
+        "School rules or programmes.",
+        "A teacher's birthday.",
+        "A new food menu."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A notice communicates official information or requirements about school activities or programmes.",
+    ),
+
+    QuizQuestion(
+      question: "5. If an advertisement for a soft drink features famous Ghanaian footballers, who is the target audience?",
+      options: [
+        "Grandmothers.",
+        "Young people and sports fans.",
+        "Doctors and nurses.",
+        "People who dislike football."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Advertisements often use famous athletes to appeal to young people and sports enthusiasts.",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the implied message in an advertisement for a very expensive car.",
+      options: [
+        "The car has four wheels.",
+        "The car is painted red.",
+        "Owning this car shows you are wealthy and successful.",
+        "The car uses petrol."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The advertisement suggests that owning the car represents wealth and success rather than stating it directly.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the correct way to write the date in a formal letter?",
+      options: [
+        "4th April, 2026",
+        "4-4-26",
+        "April 4",
+        "Saturday morning"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Formal letters require the full date written clearly and completely.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which type of formal writing is used to express sadness for someone's loss?",
+      options: [
+        "Application",
+        "Complaint",
+        "Sympathy",
+        "Congratulations"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A sympathy letter expresses condolences and support after a loss.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is editing for sense and meaning important in a formal letter?",
+      options: [
+        "To make the letter longer.",
+        "To ensure your request is understood and respected.",
+        "To use more difficult words.",
+        "To change your address."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Clear and accurate writing helps the reader understand and respond appropriately to your request.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Yours faithfully\" is used when:",
+      options: [
+        "You are writing to your mother.",
+        "You know the person's name.",
+        "You do not know the person's name.",
+        "You are writing a text message."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Yours faithfully\" is the correct closing when the recipient's name is unknown.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a brochure typically used for?",
+      options: [
+        "To write a secret letter to a friend.",
+        "To provide detailed information about a product or service.",
+        "To keep a record of your daily thoughts.",
+        "To apply for a formal job."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A brochure is an informational and promotional document that provides detailed information about a product, service, or event.",
+    ),
+
+    QuizQuestion(
+      question: "2. A flyer for a \"School Excursion\" should definitely include:",
+      options: [
+        "The teacher's favorite food.",
+        "The destination and the cost of the trip.",
+        "A list of all the cars in the town.",
+        "A map of the whole world."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Essential information such as the destination, date, and cost helps readers make informed decisions.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where is the best place to put the headline?",
+      options: [
+        "In tiny letters at the bottom corner.",
+        "On the back of the paper only.",
+        "At the top in big, bold letters.",
+        "Hidden behind a picture."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A headline should appear at the top in large, bold text to attract attention immediately.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is an example of a persuasive adjective for a food flyer?",
+      options: [
+        "Round",
+        "Delicious",
+        "Edible",
+        "Standard"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Delicious\" is a persuasive adjective that makes the food sound more appealing.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does it mean to \"target an audience\"?",
+      options: [
+        "To throw the flyer at people.",
+        "To write specifically for the group of people you want to reach.",
+        "To write in as many languages as possible.",
+        "To only give flyers to people you know."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Targeting an audience means creating a message that matches the interests and needs of a specific group of people.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which part of a flyer tells people how to get more information?",
+      options: [
+        "The slogan",
+        "The headline",
+        "The contact information",
+        "The border"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Contact information tells readers how to ask questions or respond to the advertisement.",
+    ),
+
+    QuizQuestion(
+      question: "7. A \"Brief Description\" in a brochure should be:",
+      options: [
+        "Short and easy to understand.",
+        "At least five pages long.",
+        "Written as a poem.",
+        "Copied from a dictionary."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A brochure should use concise, clear language that is easy for readers to understand.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a \"Voluntary Cleaning Exercise\" notice an example of?",
+      options: [
+        "An advertisement for a new car.",
+        "A community-focused informational text.",
+        "A personal narrative about a dream.",
+        "A formal business letter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This type of notice informs members of the community about an event or activity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is it important to proofread a flyer before printing?",
+      options: [
+        "To make the paper feel smoother.",
+        "To ensure there are no mistakes in the contact details.",
+        "To change the color of the ink.",
+        "To make the headline smaller."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Checking for errors ensures that important information such as dates, phone numbers, and addresses is correct.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which layout feature helps organize a \"List of Benefits\"?",
+      options: [
+        "A very long paragraph.",
+        "Bullet points.",
+        "Writing in a circle.",
+        "Using invisible ink."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bullet points make information easy to scan, read, and understand.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first step in writing an article?",
+      options: [
+        "Buying a new pen.",
+        "Identifying the topic, purpose, and audience.",
+        "Printing the final copy.",
+        "Writing the conclusion."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Before writing an article, you should identify the topic, purpose, and intended audience.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which resource is a \"print resource\"?",
+      options: [
+        "A YouTube video.",
+        "An email.",
+        "A Google search result.",
+        "An encyclopedia in the library."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Printed books, magazines, and encyclopedias are examples of print resources.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we use a T-chart during the planning phase?",
+      options: [
+        "To draw pictures.",
+        "To sort and classify ideas and information.",
+        "To check our spelling.",
+        "To count the number of words."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A T-chart helps organize ideas and information into clear categories before writing.",
+    ),
+
+    QuizQuestion(
+      question: "4. A \"challenging topic\" for a school article might be:",
+      options: [
+        "What I ate for breakfast.",
+        "The effects of climate change on local farming.",
+        "The color of my socks.",
+        "A list of my toys."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A challenging topic requires research, analysis, and deeper thinking.",
+    ),
+
+    QuizQuestion(
+      question: "5. What should every paragraph in an article contain?",
+      options: [
+        "At least five different topics.",
+        "The names of all your teachers.",
+        "Only one sentence.",
+        "A main idea and supporting details."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Each paragraph should have one main idea supported by relevant details.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a way to express a personal view to a group?",
+      options: [
+        "Writing a report for a public meeting.",
+        "Keeping your ideas in a locked box.",
+        "Writing a grocery list.",
+        "Drawing a random shape."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A report for a public meeting communicates information and opinions to an audience.",
+    ),
+
+    QuizQuestion(
+      question: "7. When is an autobiography used in article writing?",
+      options: [
+        "When writing about the stars in the sky.",
+        "When writing your own life story for a magazine.",
+        "When reporting on a football match.",
+        "When giving directions to the market."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An autobiography tells the story of the writer's own life.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does it mean for research to be \"relevant\"?",
+      options: [
+        "It is written in a very old book.",
+        "It is very funny.",
+        "It directly relates to and supports your topic.",
+        "It has a lot of big words."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Relevant research directly supports the topic and purpose of your writing.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which format would be best for a quick, catchy radio message about a school event?",
+      options: [
+        "A 10-page report.",
+        "A jingle.",
+        "A formal letter.",
+        "A diary entry."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Jingles are short, memorable, and designed to catch listeners' attention.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to use a \"wide range\" of resources?",
+      options: [
+        "To make the article more confusing.",
+        "To ensure your information is accurate and sufficiently specific.",
+        "Because your teacher told you to.",
+        "To use more paper."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Using a variety of reliable sources helps verify facts and provides more complete information.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the correct layout for a dialogue?",
+      options: [
+        "AMA \"Hello Kofi.\"",
+        "AMA: Hello Kofi.",
+        "AMA - Hello Kofi.",
+        "AMA (Hello Kofi)"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "In a dialogue script, the speaker's name is followed by a colon before the spoken words.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the purpose of \"Advice to characters\"?",
+      options: [
+        "To tell them what to eat.",
+        "To indicate how they should speak or act.",
+        "To give them more money.",
+        "To teach them how to read."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Advice or stage directions tell characters how they should perform or behave.",
+    ),
+
+    QuizQuestion(
+      question: "3. What do we call the brief description of the setting before a dialogue begins?",
+      options: [
+        "A summary.",
+        "A scenario.",
+        "A title.",
+        "A conclusion."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A scenario describes the situation, setting, and location before the dialogue starts.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a correctly formatted stage direction?",
+      options: [
+        ".shouting:",
+        "\"shouting\"",
+        "(shouting)",
+        "SHOUTING!"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Stage directions are typically written in brackets or parentheses.",
+    ),
+
+    QuizQuestion(
+      question: "5. In a script with three people talking, how many interlocutors are there?",
+      options: [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Each speaker taking part in the conversation is an interlocutor.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why are quotation marks not used in dialogue scripts?",
+      options: [
+        "They are too difficult to write.",
+        "They are only for poems.",
+        "The name and colon already show who is speaking.",
+        "They are not allowed in Ghana."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The script format identifies the speaker with a name and colon, making quotation marks unnecessary.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which theme would be most appropriate for a dialogue between a doctor and a patient?",
+      options: [
+        "How to play football.",
+        "Discussing health and medicine.",
+        "The history of Kente weaving.",
+        "Cooking banku."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The dialogue's theme should match the characters and situation.",
+    ),
+
+    QuizQuestion(
+      question: "8. Where are stage directions usually placed?",
+      options: [
+        "Before the spoken words or on a separate line.",
+        "At the very end of the book.",
+        "Inside the colon.",
+        "Underneath the paper."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Stage directions appear near the dialogue they describe, often before the speech or on their own line.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"The market is bustling. Yaw is trying to sell his yams.\" This is an example of:",
+      options: [
+        "A dialogue line.",
+        "A scenario.",
+        "A stage direction.",
+        "A headline."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A scenario introduces the setting and context before the dialogue begins.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important goal of writing a dialogue?",
+      options: [
+        "To use as many words as possible.",
+        "To create a natural-sounding conversation.",
+        "To write a formal business letter.",
+        "To avoid using names."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Good dialogue sounds natural and reflects how people communicate in real life.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the purpose of the \"Body\" of a speech?",
+      options: [
+        "To greet the audience.",
+        "To tell the main information and details.",
+        "To summarize the speech.",
+        "To write the title."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The body of a speech contains the main ideas, information, and supporting details.",
+    ),
+
+    QuizQuestion(
+      question: "2. A speech for a graduation ceremony is an example of:",
+      options: [
+        "A business letter.",
+        "An advertisement.",
+        "A personal diary entry.",
+        "A speech for a specific occasion."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Graduation speeches are prepared for a particular event or occasion.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which skill helps you share a personal story within a speech?",
+      options: [
+        "Narrative",
+        "Explanatory",
+        "Statistical",
+        "Technical"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Narrative skills help speakers share stories and personal experiences.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does it mean to \"appeal to emotions\"?",
+      options: [
+        "To use a lot of math.",
+        "To use words that make the audience feel something.",
+        "To speak as fast as possible.",
+        "To ignore the audience."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Emotional appeals connect with the audience's feelings and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the conclusion, you should:",
+      options: [
+        "Introduce a brand new topic.",
+        "Only tell one joke.",
+        "Ask everyone to go home.",
+        "Tell them what you told them."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The conclusion summarizes the main points and reinforces the message.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a \"Logical Appeal\"?",
+      options: [
+        "\"Please help me because I am sad.\"",
+        "\"We should recycle because it reduces waste by 40%.\"",
+        "\"I like the color blue.\"",
+        "\"Follow me!\""
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Logical appeals use facts, evidence, and reasoning to persuade the audience.",
+    ),
+
+    QuizQuestion(
+      question: "7. When writing a speech, why is \"descriptive\" language useful?",
+      options: [
+        "It makes the speech shorter.",
+        "It helps the audience visualize your points.",
+        "It is only for poetry.",
+        "It helps you remember your name."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Descriptive language creates vivid mental images that make ideas easier to understand.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the \"Introduction\" designed to do?",
+      options: [
+        "Tell the audience what you are going to tell them.",
+        "Finish the speech.",
+        "Give the final summary.",
+        "Collect the votes."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The introduction introduces the topic and prepares the audience for what will follow.",
+    ),
+
+    QuizQuestion(
+      question: "9. A good speech should be:",
+      options: [
+        "Only logical.",
+        "Only emotional.",
+        "Both logical and emotional.",
+        "Neither logical nor emotional."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Effective speeches balance logical arguments with emotional appeal.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is a \"Manifesto\"?",
+      options: [
+        "A type of food.",
+        "A speech stating your goals when running for a position.",
+        "A formal email.",
+        "A diary entry about a trip."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A manifesto explains a candidate's plans, goals, and promises when seeking a leadership position.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first thing you should read when looking at a table or graph?",
+      options: [
+        "The numbers at the bottom",
+        "The title of the source",
+        "The name of the author",
+        "The color of the bars"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The title tells you what the table or graph is about before you examine the data.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which source is best for showing the location of towns in the Ashanti Region?",
+      options: [
+        "A bar graph",
+        "A pie chart",
+        "A map",
+        "A data table"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Maps are used to show locations, distances, and geographical features.",
+    ),
+
+    QuizQuestion(
+      question: "3. If a table shows Kenkey costs 5 Cedis and Fried Fish costs 10 Cedis, what is true?",
+      options: [
+        "Fish is more expensive than Kenkey.",
+        "Kenkey is more popular than Fish.",
+        "Everyone likes eating Kenkey and Fish.",
+        "The prices will go up next month."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The table directly shows that Fried Fish costs more than Kenkey.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which phrase helps you introduce evidence from a graph?",
+      options: [
+        "\"I feel that...\"",
+        "\"In my own opinion...\"",
+        "\"As shown in the graph...\"",
+        "\"Once upon a time...\""
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This phrase clearly refers readers to the visual evidence in the graph.",
+    ),
+
+    QuizQuestion(
+      question: "5. A graph shows tree planting increased by 50% in 2023. What does this mean?",
+      options: [
+        "More trees were cut down in 2023.",
+        "There were no trees left in 2023.",
+        "Many more trees were planted in 2023.",
+        "The trees grew very tall in 2023."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "An increase in tree planting means that more trees were planted.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do writers use tables and figures in their work?",
+      options: [
+        "To make the page look more colorful.",
+        "To provide clear evidence for their ideas.",
+        "Because they do not want to write words.",
+        "To make the book much heavier."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Tables and figures provide factual evidence that supports the writer's ideas.",
+    ),
+
+    QuizQuestion(
+      question: "7. A map shows a gold mine in Obuasi. How do you use this in an essay?",
+      options: [
+        "Obuasi is a very famous town in Ghana.",
+        "Gold is a very shiny and expensive metal.",
+        "The map indicates there is a gold mine in Obuasi.",
+        "Many people work hard in the mining industry."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This statement directly cites the information presented on the map.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does \"interpreting\" a graph mean?",
+      options: [
+        "Drawing a new graph with pencils.",
+        "Explaining the meaning of the data.",
+        "Deleting the graph from your essay.",
+        "Changing the numbers to fit your idea."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Interpreting a graph means explaining what the data shows and what it means.",
+    ),
+
+    QuizQuestion(
+      question: "9. A table shows 10 students speak Ewe, 5 speak Ga, and 20 speak Twi. What is the trend?",
+      options: [
+        "Twi is the most spoken language in this group.",
+        "No one in the school speaks English.",
+        "Ga is the most difficult language to learn.",
+        "All students in Ghana speak three languages."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Since 20 is the highest value, Twi is the most commonly spoken language in the group.",
+    ),
+
+    QuizQuestion(
+      question: "10. When using a diagram of a borehole, which is a factual statement?",
+      options: [
+        "Clean water is very important for health.",
+        "The diagram shows the depth of the borehole.",
+        "Boreholes are better than using river water.",
+        "Every village in Ghana has a new borehole."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A borehole diagram provides factual information such as its structure and depth.",
+    ),
+  ],
+);
+
 final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [

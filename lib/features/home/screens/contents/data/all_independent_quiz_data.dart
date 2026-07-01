@@ -4315,6 +4315,839 @@ final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = Independent
   ],
 );
 
+final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which connector best completes this sentence? \"_____ the rain was heavy, the taxi driver arrived on time.\"",
+        options: [
+          "Because",
+          "Although",
+          "Unless",
+          "Since"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Although is used to show contrast between two ideas."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best pronoun to replace the underlined word: \"The girls finished their homework, so the girls went to play netball.\"",
+        options: [
+          "she",
+          "them",
+          "they",
+          "us"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The pronoun 'they' correctly replaces the plural noun 'the girls'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word best connects these two ideas? \"I am saving my money _____ I can buy a new bicycle.\"",
+        options: [
+          "so that",
+          "although",
+          "unless",
+          "while"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'So that' expresses purpose or intention."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Choose the best word to show a result: \"The bridge was broken; _____, we had to take the long way round.\"",
+        options: [
+          "however",
+          "because",
+          "therefore",
+          "but"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Therefore' is used to show the result or consequence of a situation."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of an anecdote hook for an essay on \"Honesty\"?",
+        options: [
+          "Honesty is defined as being truthful at all times.",
+          "My mother always says that honesty is the best policy.",
+          "Once, I found a ten-cedi note and felt a struggle in my heart.",
+          "Did you know that 80 percent of people value honesty?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An anecdote hook begins with a short personal story to capture the reader's attention."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which connector best shows a cause and effect relationship in an introduction?",
+        options: [
+          "Nevertheless",
+          "Consequently",
+          "Although",
+          "Provided that"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Consequently' is used to show the result or effect of a cause."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of an introductory paragraph?",
+        options: [
+          "To list every single detail about the topic.",
+          "To summarize the conclusion of the essay.",
+          "To capture attention and introduce the topic.",
+          "To provide a list of all the sources used."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An introductory paragraph should engage the reader and introduce the main topic."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence follows logically after: \"Computers have changed the way we learn\"?",
+        options: [
+          "My uncle lives in a very large house in Kumasi.",
+          "Therefore, many schools now use tablets in the classroom.",
+          "I like eating banku and grilled tilapia for dinner.",
+          "However, the price of petrol is going up this week."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The second sentence logically follows by showing a result of computers changing the way we learn."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following contains a relative clause?",
+        options: [
+          "The very big yellow bus.",
+          "The bus that goes to Cape Coast.",
+          "The bus drove away quickly.",
+          "A bus and a small car."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A relative clause gives more information about a noun and usually begins with words like 'that', 'which', or 'who'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the noun phrase in this sentence: \"The delicious hot jollof rice was finished quickly.\"",
+        options: [
+          "was finished quickly",
+          "finished quickly",
+          "The delicious hot jollof rice",
+          "jollof rice was"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A noun phrase consists of a noun and the words that describe or modify it."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence is expanded using an adverbial phrase of time?",
+        options: [
+          "He ran to the shop.",
+          "He ran with his friend.",
+          "He ran before the sun rose.",
+          "He ran a very long way."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The phrase 'before the sun rose' tells when the action happened, making it an adverbial phrase of time."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the sentence \"The girl with the long braids is my sister,\" the bold text is:",
+        options: [
+          "A relative clause",
+          "An adjectival phrase",
+          "A noun phrase",
+          "An adverbial phrase"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'with the long braids' describes the noun 'girl', so it is an adjectival phrase."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these sentences is written in the first-person point of view?",
+        options: [
+          "Kwame went to the shop.",
+          "I felt very excited.",
+          "They enjoyed the fufu.",
+          "She ran to the school."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "First-person point of view uses pronouns such as 'I', 'me', and 'we'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word is an adverb used to describe how an action was carried out?",
+        options: [
+          "Beautiful",
+          "Quietly",
+          "Orange",
+          "Market"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Quietly' is an adverb because it describes how an action is performed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which connector is best used to show the final event in a sequence?",
+        options: [
+          "Finally",
+          "Suddenly",
+          "Initially",
+          "Meanwhile"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Finally' is used to introduce the last event in a sequence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which phrase uses a preposition to show the setting?",
+        options: [
+          "A very big dog.",
+          "Running very fast.",
+          "Beside the Volta Lake.",
+          "I like eating banku."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Beside' is a preposition showing location, making 'Beside the Volta Lake' a phrase that describes the setting."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word best describes a market that is full of people and activity?",
+        options: [
+          "Ancient",
+          "Bustling",
+          "Boring",
+          "Silent"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Bustling' describes a place that is full of busy activity and people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sensory word in this sentence: \"The shimmering lake looked like silver in the moonlight.\"",
+        options: [
+          "Looked",
+          "Lake",
+          "Shimmering",
+          "Like"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Shimmering' is a sensory word because it helps the reader imagine how the lake looked."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses an adverbial phrase to describe how someone moved?",
+        options: [
+          "The boy is tall.",
+          "He ran with great speed.",
+          "I saw a green frog.",
+          "The food is in the bowl."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'with great speed' is an adverbial phrase describing how he ran."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these describes an event using a \"stellar\" adjective?",
+        options: [
+          "The common rain fell.",
+          "We had a stellar performance.",
+          "I ate my lunch.",
+          "It was a normal day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Stellar' is an adjective meaning excellent or outstanding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which prepositional phrase tells us where the bird is?",
+        options: [
+          "Very loudly",
+          "Singing a song",
+          "In the mango tree",
+          "A small bird"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'In the mango tree' is a prepositional phrase showing the bird's location."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a mental verb used to convey a viewpoint?",
+        options: [
+          "Run",
+          "Believe",
+          "Jump",
+          "Write"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Believe' is a mental verb because it expresses a thought, opinion, or viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of the \"Selling Points\" in an advertisement?",
+        options: [
+          "To list the names of all the shop employees.",
+          "To provide the date the business started.",
+          "To show why the product is better than others.",
+          "To write a poem about the product."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Selling points highlight the advantages of a product and explain why it is better than competing products."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence is in the simple present tense?",
+        options: [
+          "I will go to the market.",
+          "This shea butter softens the skin.",
+          "We went to the beach yesterday.",
+          "He was eating Kenkey."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The simple present tense describes actions or facts that are generally true or happen regularly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a phrasal verb?",
+        options: [
+          "Beautiful",
+          "Quickly",
+          "Pick up",
+          "Large"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Pick up' is a phrasal verb because it combines a verb with a particle to create a new meaning."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In an advertisement for a football match, what would be an effective \"Call to Action\"?",
+        options: [
+          "The grass is green.",
+          "Many people like football.",
+          "Get your tickets at the gate!",
+          "Football is played with a ball."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A call to action encourages the audience to take immediate action, such as buying tickets."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first thing you should do in a problem-solution paragraph?",
+        options: [
+          "Ask for money.",
+          "Clearly identify the problem.",
+          "Write a thank-you note.",
+          "List the names of your friends."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A problem-solution paragraph begins by clearly identifying the problem that needs to be solved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a solution is \"feasible,\" what does that mean?",
+        options: [
+          "It is very expensive.",
+          "It is impossible to do.",
+          "It is possible and easy to carry out.",
+          "It is a very old idea."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A feasible solution is one that can realistically be carried out."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a \"cost-effective\" solution for light not reaching a classroom?",
+        options: [
+          "Building a new school.",
+          "Cleaning the windows and trimming nearby trees.",
+          "Buying a very expensive generator.",
+          "Only having classes at night."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cleaning windows and trimming nearby trees is an affordable and effective way to let more light into a classroom."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Who might provide evidence or an \"expert opinion\" for a solution about school health?",
+        options: [
+          "A student from another town.",
+          "The school nurse or a local doctor.",
+          "A person selling ice cream.",
+          "A character from a cartoon."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A school nurse or local doctor is a qualified expert who can provide reliable health advice."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is an \"objection\" in writing?",
+        options: [
+          "A type of punctuation.",
+          "The title of the paragraph.",
+          "A reason why someone might disagree with your plan.",
+          "The name of the person in charge."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An objection is a reason someone may disagree with or question your proposed solution."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which salutation is most appropriate for a letter to a Headteacher whose name you do not know?",
+        options: [
+          "Hi Teacher",
+          "Dear Sir/Madam",
+          "To whoever is there",
+          "Hello Headmaster"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Dear Sir/Madam\" is the correct formal salutation when the recipient's name is unknown."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main purpose of a formal \"Notice\"?",
+        options: [
+          "To tell a long story about your holiday.",
+          "To ask a friend for a favour.",
+          "To provide updates on rules or schedules.",
+          "To write a poem for a funeral."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A formal notice is used to inform people about important rules, events, or schedules."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sign-off should be used if you started your letter with \"Dear Mr. Mensah\"?",
+        options: [
+          "Yours faithfully",
+          "Yours sincerely",
+          "Your friend",
+          "Catch you later"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Yours sincerely\" is the correct sign-off when you know the recipient's name."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In an advertisement, the \"overt\" message is:",
+        options: [
+          "A hidden feeling.",
+          "The direct information provided.",
+          "The colour of the background.",
+          "The secret meaning."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The overt message is the clear, direct message that is openly communicated."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should always be included at the bottom of a notice?",
+        options: [
+          "The price of the notice.",
+          "A list of all your hobbies.",
+          "The name and position of the writer.",
+          "A drawing of a flower."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A notice should end with the writer's name and position to show who issued it."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which paper size is most common for a small, hand-held flyer?",
+        options: [
+          "A1",
+          "A5",
+          "A0",
+          "A2"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A5 is a common paper size for small hand-held flyers because it is compact and easy to distribute."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of a \"Slogan\" on a poster?",
+        options: [
+          "To write the long history of the school.",
+          "To list every student's name.",
+          "To grab attention with a short, catchy phrase.",
+          "To provide the price of the paper."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A slogan is a short, memorable phrase designed to attract attention and communicate the main message."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a brochure for a \"Cleaning Exercise,\" which of these is a benefit?",
+        options: [
+          "The exercise starts at 6:00 AM.",
+          "We will use brooms and shovels.",
+          "Preventing malaria by clearing stagnant water.",
+          "The school is located near the market."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cleaning stagnant water helps prevent mosquito breeding and reduces the risk of malaria."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these should be bolded to make it stand out on a flyer?",
+        options: [
+          "The name of the printer.",
+          "The date and time of the event.",
+          "Every single word on the page.",
+          "The page number."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The date and time are key details that should stand out so readers can quickly find the event information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Why should you use a logo on your informational materials?",
+        options: [
+          "To make the flyer heavier.",
+          "To help people recognize your group or brand easily.",
+          "Because it is a law in Ghana.",
+          "To hide the contact information."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A logo helps people quickly recognize and remember your organization or brand."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool is best for sorting and classifying ideas before you start writing?",
+        options: [
+          "A ruler",
+          "A T-chart",
+          "A dictionary",
+          "A calculator"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A T-chart helps organize and classify ideas before writing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What should you do if you find information that is not relevant to your topic?",
+        options: [
+          "Include it anyway to make the article longer.",
+          "Put it in the headline.",
+          "Discard it to keep the article focused.",
+          "Write it in a different language."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Irrelevant information should be removed to keep the writing focused and clear."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is an example of an \"electronic resource\"?",
+        options: [
+          "A school textbook",
+          "A newspaper from 1990",
+          "An educational website on a tablet",
+          "A handwritten note"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An educational website on a tablet is an electronic resource because it is accessed digitally."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you want to express a personal view to your class in a fun way, what format could you use?",
+        options: [
+          "A formal business letter",
+          "A rap poem or jingle",
+          "A dictionary entry",
+          "A shopping list"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rap poem or jingle is a creative way to express personal ideas and opinions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the purpose of grouping ideas into units or paragraphs?",
+        options: [
+          "To make the page look colorful.",
+          "To organize main ideas and supporting details clearly.",
+          "To hide the main point from the reader.",
+          "To use up all the ink in your pen."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Grouping ideas into paragraphs helps organize information logically and makes it easier to understand."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Where do the names of the characters go in a dialogue script?",
+        options: [
+          "At the end of every sentence.",
+          "On the left side of the page.",
+          "In brackets.",
+          "In the middle of the line."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In a dialogue script, character names are written on the left side of the page."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What punctuation mark follows the character's name?",
+        options: [
+          "A comma (,)",
+          "A full stop (.)",
+          "A colon (:)",
+          "A question mark (?)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A colon is placed after a character's name before their dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How do we show that a character should perform a specific action, like sitting down?",
+        options: [
+          "Use capital letters for the whole sentence.",
+          "Write the action in brackets ( ).",
+          "Write it in a formal letter.",
+          "Shout it out loud."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Actions or stage directions are written in brackets in a dialogue script."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the word \"interlocutors\" mean?",
+        options: [
+          "The people who clean the stage.",
+          "The people taking part in the dialogue.",
+          "The names of the books.",
+          "The pens used for writing."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Interlocutors are the people who take part in a conversation or dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When should you start a new line in a dialogue?",
+        options: [
+          "Only at the end of the page.",
+          "Every time a new character starts speaking.",
+          "After every three words.",
+          "Whenever you feel like it."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new line should begin whenever a different character starts speaking to keep the dialogue clear."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What are the three main parts of a speech?",
+        options: [
+          "Beginning, Middle, End",
+          "Introduction, Body, Conclusion",
+          "Title, Story, Poem",
+          "Date, Address, Signature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A well-structured speech has three main parts: the introduction, the body, and the conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A speech that uses facts and logic to prove a point is using:",
+        options: [
+          "A narrative appeal",
+          "A logical appeal",
+          "A poetic appeal",
+          "A silent appeal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A logical appeal uses facts, evidence, and reasoning to persuade the audience."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which part of the speech do you give the most detailed information?",
+        options: [
+          "The Introduction",
+          "The Body",
+          "The Conclusion",
+          "The Headline"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The body of a speech contains the main ideas, explanations, and supporting details."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a \"persuasive\" goal for a speech?",
+        options: [
+          "To tell a funny joke.",
+          "To convince classmates to stop littering.",
+          "To list the names of the planets.",
+          "To say \"Good morning.\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A persuasive speech aims to convince the audience to think or act in a certain way."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should you do in the \"Introduction\" of a manifesto speech?",
+        options: [
+          "Tell the audience what you are going to tell them.",
+          "Ask for money.",
+          "Say thank you and sit down.",
+          "Read a long list of numbers."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The introduction should introduce the topic and tell the audience what the speech will be about."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A graph shows that plastic waste in the ocean has doubled in five years. Which sentence best uses this information?",
+        options: [
+          "Plastic waste is very bad for the fish in the sea.",
+          "We must recycle because the graph shows plastic waste has doubled.",
+          "I think people should stop throwing rubbish away.",
+          "Many people go to the beach to pick up plastic."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The best answer directly uses the information provided by the graph to support a conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A table lists \"Banku\" as the most popular lunch in a school. How should you write this?",
+        options: [
+          "Banku is a very delicious meal from Ghana.",
+          "Most students like Banku more than any other food.",
+          "The table indicates that Banku is the most popular lunch choice.",
+          "My mother makes the best Banku and tilapia."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "This sentence accurately reports the information presented in the table."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a map shows that a road is flooded during the rainy season, what is the best advice to write?",
+        options: [
+          "Avoid that road in the rainy season as shown on the map.",
+          "It is important to wear boots when it is raining.",
+          "The rainy season in Ghana starts in April or May.",
+          "Drivers should always be very careful on the road."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The advice is based directly on the information shown by the map."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A figure shows the parts of a plant: roots, stem, and leaves. Which statement is supported by the figure?",
+        options: [
+          "Plants need sunlight and water to grow tall.",
+          "The figure identifies the roots and stem as parts of a plant.",
+          "Farmers in Ghana grow many types of crops.",
+          "Flowers are the most beautiful part of any plant."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The figure directly identifies the labeled parts of the plant, including the roots and stem."
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

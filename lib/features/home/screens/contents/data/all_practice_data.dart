@@ -1746,6 +1746,270 @@ final PracticeModel jhs2s3ss3Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel jhs2s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/4.Guidance Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these sentences using a time connector: \"The bell rang. The students ran to the canteen.\"",
+      answer: "Correct Answer: When the bell rang, the students ran to the canteen.",
+      explanation: "Explanation: Using \"When\" at the start links the time of the bell ringing to the action of the students.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a pronoun to make this better: \"Ekow found a lost wallet. Ekow took the wallet to the police station.\"",
+      answer: "Correct Answer: Ekow found a lost wallet and he took it to the police station.",
+      explanation: "Explanation: Replacing the second \"Ekow\" with \"he\" and \"the wallet\" with \"it\" makes the sentence smoother.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Combine these using a contrast connector: \"It was very hot. The farmers continued to work.\"",
+      answer: "Correct Answer: Although it was very hot, the farmers continued to work.",
+      explanation: "Explanation: \"Although\" shows that the work continued despite the heat.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/4.GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If your topic is \"The Benefits of Regular Exercise,\" write a \"Fact\" hook.",
+      answer: "Correct Answer: Research shows that just thirty minutes of walking every day can make your heart much stronger.",
+      explanation: "Explanation: This is a factual statement that introduces the health benefits of the topic immediately.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Rewrite these sentences in a logical sequence: 1. It provides us with food. 2. Agriculture is the most important sector in Ghana. 3. It also employs many people.",
+      answer: "Correct Answer: Agriculture is the most important sector in Ghana. It provides us with food, and it also employs many people.",
+      explanation: "Explanation: Starting with the general statement (the topic) and following with specific reasons creates a logical flow.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a connector to link these: \"Many people love plastic bags. They are very harmful to our gutters.\"",
+      answer: "Correct Answer: Many people love plastic bags; however, they are very harmful to our gutters.",
+      explanation: "Explanation: \"However\" is used here to show the contrast between the popularity of the bags and their harm.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/4.Guidance Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Expand this sentence using a relative clause starting with 'who': \"The teacher is very happy.\"",
+      answer: "Correct Answer: The teacher who helped me with my maths is very happy.",
+      explanation: "Explanation: The clause \"who helped me with my maths\" identifies exactly which teacher we are talking about.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Add an adjectival phrase to describe the noun 'man': \"The man sat down.\"",
+      answer: "Correct Answer: The man with the blue hat sat down.",
+      explanation: "Explanation: \"With the blue hat\" is an adjectival phrase because it describes the man.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use an adverbial phrase to explain how the student walked: \"The student walked.\"",
+      answer: "Correct Answer: The student walked in a very quiet manner.",
+      explanation: "Explanation: \"In a very quiet manner\" tells us how the action of walking was performed.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite the following sentence using the first-person point of view and add one descriptive adjective: \"The boy walked to the river.\"",
+      answer: "Correct Answer: I walked to the sparkling river.",
+      explanation: "Explanation: By changing \"The boy\" to \"I,\" we use the first-person point of view. Adding \"sparkling\" provides a descriptive detail.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are writing about a trip to the Mole National Park. Use a connector and an adverb to describe seeing an elephant.",
+      answer: "Correct Answer: Suddenly, the elephant moved gracefully through the trees.",
+      explanation: "Explanation: \"Suddenly\" is a connector showing a sequence/timing, and \"gracefully\" is an adverb describing the action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give an example of direct speech you might use in a story about winning a school prize.",
+      answer: "Correct Answer: My headmaster said, \"Congratulations on your hard work!\"",
+      explanation: "Explanation: This uses quotation marks and the exact words spoken to add interest and variety.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Use an adjective and a prepositional phrase to improve this sentence: \"The bus stood.\"",
+      answer: "Correct Answer: The dusty bus stood under the shady neem tree.",
+      explanation: "Explanation: \"Dusty\" is an adjective describing the bus, and \"under the shady neem tree\" is a prepositional phrase describing the location.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this sentence to include an adverb that describes a sound: \"I heard the drums.\"",
+      answer: "Correct Answer: I heard the drums beating thunderously.",
+      explanation: "Explanation: \"Thunderously\" is an adverb that provides a sensory (sound) detail about how the drums were beating.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a sensory word to describe the taste of a Ghanaian snack.",
+      answer: "Correct Answer: The spicy kalami was very hot on my tongue.",
+      explanation: "Explanation: \"Spicy\" is a sensory adjective that describes the sense of taste.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the imperative verb in this sentence: \"Go to the market and get your fresh yams now!\"",
+      answer: "Correct Answer: Go (or Get)",
+      explanation: "Explanation: Imperative verbs are bossy words that give a command. \"Go\" and \"Get\" tell the reader what action to take.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Write a selling point for a brand of Ghanaian chocolate.",
+      answer: "Correct Answer: \"Our chocolate is made from the finest hand-picked cocoa beans.\"",
+      explanation: "Explanation: A selling point highlights a specific benefit or quality that makes the product better than others.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Change this statement into a rhetorical question for an ad about a school bag: \"You need a strong bag.\"",
+      answer: "Correct Answer: \"Don't you deserve a bag that never breaks?\"",
+      explanation: "Explanation: A rhetorical question engages the reader's mind without expecting a verbal answer.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the \"Issue\" and a possible \"Solution\" for the library problem.",
+      answer: "Correct Answer: Issue: Lack of books. Solution: Organize a \"Book Donation Drive\" where students bring old storybooks from home.",
+      explanation: "Explanation: The issue is the specific problem, and the solution is a practical action to fix it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is a \"Book Donation Drive\" considered cost-effective?",
+      answer: "Correct Answer: It is cost-effective because the books are donated for free, so the school doesn't have to spend money.",
+      explanation: "Explanation: Cost-effective means achieving a goal without spending a lot of money.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give one logical argument why having more books will help the school.",
+      answer: "Correct Answer: More books will help students improve their reading skills and perform better in English exams.",
+      explanation: "Explanation: This is a logical benefit that supports why the solution is important.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where do you place the date in a formal letter?",
+      answer: "Correct Answer: Directly below your own address on the right side.",
+      explanation: "Explanation: In British English formal letters, the date follows your address to show when the letter was written.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Create a \"Subject Line\" for an email applying for a position as a library assistant.",
+      answer: "Correct Answer: APPLICATION FOR THE POSITION OF LIBRARY ASSISTANT.",
+      explanation: "Explanation: A subject line should be brief, capitalized, and state the purpose of the communication clearly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Look at an ad showing a happy student with a brand new backpack. What is the \"implied\" message?",
+      answer: "Correct Answer: If you buy this backpack, you will be a happy and successful student.",
+      explanation: "Explanation: The implied message is the emotional promise or suggestion that isn't stated in words.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What would be a catchy, eye-catching headline for this club's flyer?",
+      answer: "Correct Answer: \"SPEAK YOUR ROOTS: JOIN THE LANGUAGES CLUB!\"",
+      explanation: "Explanation: A good headline is bold, uses a slogan, and clearly states what the flyer is about.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: List two benefits students might get from joining this club.",
+      answer: "Correct Answer: 1. Learn to write your mother tongue perfectly. 2. Make new friends from different regions.",
+      explanation: "Explanation: Benefits explain why the audience should care or participate.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What contact information should be at the bottom of the flyer?",
+      answer: "Correct Answer: \"See Mr. Mensah in Room 4 or call 050-123-4567.\"",
+      explanation: "Explanation: A flyer must tell people exactly where to go or who to contact for more info.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are writing for a school magazine, who is your primary audience?",
+      answer: "Correct Answer: The students and teachers of the school.",
+      explanation: "Explanation: The audience is the group of people who will read your work. For a school magazine, this includes your peers and school staff.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You found an interesting fact about a local nurse's career in a book and on a website. What type of resources did you use?",
+      answer: "Correct Answer: Print and electronic resources.",
+      explanation: "Explanation: Books are print resources, while websites are electronic resources.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a T-chart to link the main idea \"Career Day was successful\" with one supporting detail.",
+      answer: "Correct Answer: Main Idea: Career Day was successful. Detail: Over ten different professionals, including a pilot and a doctor, came to speak to us.",
+      explanation: "Explanation: The detail provides specific evidence that proves the main idea is true.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How should you write the names and the punctuation for Kwesi and Mrs. Appiah?",
+      answer: "Correct Answer: KWESI: and MRS. APPIAH:",
+      explanation: "Explanation: Names go on the left followed by a colon.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Mrs. Appiah is supposed to be smiling while she talks, how do you write that instruction?",
+      answer: "Correct Answer: (Smiling) or (Smiling broadly)",
+      explanation: "Explanation: Instructions on how to act or feel go inside brackets.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why do we \"sketch a scenario\" before starting the dialogue?",
+      answer: "Correct Answer: To describe the setting and what is happening so the reader understands the context.",
+      explanation: "Explanation: A scenario sets the stage for the conversation.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What should you include in your \"Introduction\" for a speech about the forest?",
+      answer: "Correct Answer: A greeting and a statement about what you are going to talk about.",
+      explanation: "Explanation: The introduction sets the stage and tells the audience your topic.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Give an example of an \"emotional appeal\" you could use for this speech.",
+      answer: "Correct Answer: \"Imagine the birds and animals losing their homes forever if we cut down these trees.\"",
+      explanation: "Explanation: This appeals to the audience's feelings and empathy.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main job of the \"Conclusion\"?",
+      answer: "Correct Answer: To tell the audience what you told them and summarize your points.",
+      explanation: "Explanation: The conclusion reinforces your message and brings the speech to a close.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Data: A map of Ghana shows three major hospitals in the Greater Accra Region but only one in a specific rural district.\n"
+      "Task: Write a sentence arguing for more rural healthcare using this data.",
+      answer: "Correct Answer: The map shows that rural districts have fewer hospitals than Accra, so we need more rural clinics.",
+      explanation: "Explanation: This answer correctly interprets the map's comparison and uses it to support an opinion about healthcare.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Data: A table shows the price of maize is 10 Cedis in January and 25 Cedis in June.\n"
+      "Task: Use this to explain when a farmer earns more.",
+      answer: "Correct Answer: According to the price table, a farmer earns more in June because the price of maize rises to 25 Cedis.",
+      explanation: "Explanation: This uses the specific data points from the table to support a factual conclusion.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Data: A graph shows that students who sleep 8 hours get better grades than those who sleep 5 hours.\n"
+      "Task: Write a piece of advice for a friend.",
+      answer: "Correct Answer: You should sleep more because the graph indicates that 8 hours of sleep leads to better grades.",
+      explanation: "Explanation: This connects the visual evidence (the graph) directly to the advice given.",
+    ),
+  ],
+);
+
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
