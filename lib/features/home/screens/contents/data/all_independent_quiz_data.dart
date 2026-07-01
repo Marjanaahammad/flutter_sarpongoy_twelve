@@ -5148,6 +5148,679 @@ final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = Independent
   ],
 );
 
+final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In the story, why was the father unable to break the bundle of sticks?",
+        options: [
+          "The sticks were made of iron.",
+          "The sticks were wet and bendy.",
+          "The combined strength of the sticks made them strong.",
+          "The sons had glued the sticks together."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bundle of sticks was too strong to break because the sticks were tied together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which Ghanaian proverb best matches the moral of this story?",
+        options: [
+          "One head does not go into council.",
+          "A bird that flies off the earth settles on an ant-hill.",
+          "Hunger is felt by a slave and hunger is felt by a king.",
+          "The rain wets the leopard's spots but does not wash them off."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The proverb teaches that people achieve more when they work together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens to the sticks when they are untied and shared individually?",
+        options: [
+          "They become harder to break.",
+          "They are easily broken by the sons.",
+          "They turn into a bundle again.",
+          "The sons refuse to touch them."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Each stick is easy to break when separated, showing the importance of unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why did the father choose to use sticks to teach his lesson?",
+        options: [
+          "He wanted his sons to go and gather firewood.",
+          "He was a carpenter by profession.",
+          "It was a visual way to show the difference between weakness and strength.",
+          "He wanted to build a new house for his children."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sticks provided a simple demonstration showing that unity brings strength."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main message of \"The Colour of God\"?",
+        options: [
+          "God prefers bright colours like red and gold.",
+          "God has no specific colour because He belongs to everyone.",
+          "We should only draw God in black and white.",
+          "People should stop talking about God."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem teaches that God belongs to everyone and cannot be limited to one colour or race."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word best describes a poem that tries to convince the reader of a specific viewpoint?",
+        options: [
+          "Narrative",
+          "Argumentative",
+          "Humorous",
+          "Musical"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An argumentative poem presents reasons to persuade readers to accept a particular viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If someone believes their race is the only one God loves, they are ignoring the theme of:",
+        options: [
+          "Stanzas",
+          "Rhyme",
+          "Universality",
+          "Punctuation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Universality means that God's love is for all people, regardless of race or background."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the poet suggest happens when we give God a single colour?",
+        options: [
+          "We make God more powerful.",
+          "We create a beautiful painting.",
+          "We limit our understanding of God's love for all.",
+          "We follow the rules of art."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem suggests that giving God a single colour limits our understanding of His universal love."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the name of the dramatic style created by Efua Sutherland?",
+        options: [
+          "Shakespearean",
+          "Anansegoro",
+          "Opera",
+          "Pantomime"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Efua Sutherland created Anansegoro, a Ghanaian dramatic style based on Ananse stories."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why does Ananse send photos of Anansewa to four different Chiefs?",
+        options: [
+          "He wants to show off her photography skills.",
+          "He wants to collect \"out-of-dooring\" gifts.",
+          "He wants to secure money and gifts from all of them.",
+          "He wants his daughter to travel to four different towns."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Ananse sends the photos to several chiefs to receive gifts and wealth from each of them."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When a character speaks their secret thoughts alone on stage, it is called a:",
+        options: [
+          "Dialogue",
+          "Chorus",
+          "Soliloquy",
+          "Mboguo"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A soliloquy is a speech in which a character reveals their private thoughts while alone on stage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the role of the Storyteller in the play?",
+        options: [
+          "To sell tickets at the gate.",
+          "To act as a bridge between the actors and the audience.",
+          "To cook food for the Chiefs.",
+          "To marry Anansewa at the end."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Storyteller guides the audience, explains events, and connects them with the actors and the story."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How old is Adjoa in the story?",
+        options: [
+          "Twelve years old",
+          "Seven years old",
+          "Five years old",
+          "Ten years old"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Adjoa is seven years old in the story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was Nana's main concern about Adjoa's legs?",
+        options: [
+          "That they were too long for her clothes.",
+          "That they were too thin to support a woman's duties.",
+          "That Adjoa would trip and fall.",
+          "That they were a different colour from her body."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nana believed Adjoa's legs were too thin to support the responsibilities of womanhood."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which event did Adjoa prove her \"spindly\" legs were useful?",
+        options: [
+          "A dancing competition",
+          "A farming contest",
+          "A school running race",
+          "A cooking challenge"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Adjoa proved her legs were strong and useful by winning a school running race."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the \"point of view\" of this story?",
+        options: [
+          "First-person (Adjoa)",
+          "Second-person (You)",
+          "Third-person (The Teacher)",
+          "Nana's perspective"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The story is told from Adjoa's perspective using the first-person point of view."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Desert Rivers\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Lade Wosornu",
+          "Kofi Awoonor",
+          "Efua Sutherland"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem \"Desert Rivers\" was written by Lade Wosornu."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does the \"River\" represent in the poem's metaphor?",
+        options: [
+          "A source of malaria",
+          "A person's hidden talents and potential",
+          "A way to travel to the next village",
+          "The end of the world"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The river symbolizes the hidden talents, abilities, and potential within a person."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the word \"subterranean\" mean?",
+        options: [
+          "Flying in the air",
+          "Located under the surface of the earth",
+          "Very hot and dry",
+          "A type of fast car"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Subterranean\" means existing or located beneath the surface of the earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. According to the poem, why should we not judge a \"desert\"?",
+        options: [
+          "Because the sand is too hot.",
+          "Because it might have a powerful river beneath it.",
+          "Because deserts are protected by law.",
+          "Because there are no trees there."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem teaches that appearances can be misleading because hidden strength or potential may exist beneath the surface."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the central question asked in the poem?",
+        options: [
+          "Where does God live?",
+          "What is the colour of God?",
+          "How many languages does God speak?",
+          "When will it rain?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem centers on the question of God's colour to show that God belongs to everyone."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word describes a poem that presents a debate or a point of view?",
+        options: [
+          "Narrative",
+          "Argumentative",
+          "Lullaby",
+          "Mystery"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An argumentative poem presents ideas and reasons to persuade readers about a particular viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. According to the poet, why do people see God as having their own skin colour?",
+        options: [
+          "Because they saw a photo of Him.",
+          "Because they imagine God based on themselves.",
+          "Because God told them so.",
+          "Because they are bored."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poet suggests that people imagine God in their own image, including their own skin colour."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The theme of \"Universality\" means that God:",
+        options: [
+          "Lives only in the universe.",
+          "Is for all people in all places.",
+          "Is very old.",
+          "Does not like colours."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Universality means that God's love and care extend to all people, regardless of race or background."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is a \"Scribbler\" in the context of this poem?",
+        options: [
+          "Someone who draws on walls.",
+          "A writer or someone with an idea.",
+          "A person who works at the Kejetia market.",
+          "A teacher grading papers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In the poem, a scribbler represents a writer or a person with creative ideas."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main \"enemy\" of the Scribbler in the poem?",
+        options: [
+          "A lack of paper.",
+          "A broken pen.",
+          "Procrastination (delaying action).",
+          "The noisy neighbours."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem warns that procrastination prevents people from turning their ideas into reality."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Giving human qualities to a \"dream\" is an example of:",
+        options: [
+          "Alliteration.",
+          "Personification.",
+          "Rhyming.",
+          "A title."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Personification is a figure of speech that gives human qualities to non-human things, such as a dream."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the poet's advice to the reader?",
+        options: [
+          "To sleep more and dream bigger.",
+          "To wait until they are older to start.",
+          "To act now and bring their ideas to life.",
+          "To buy a better notebook."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poet encourages readers to act on their ideas instead of delaying them."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"The Dilemma of a Ghost\"?",
+        options: [
+          "Efua Sutherland",
+          "Ama Ata Aidoo",
+          "Lawrence Darmani",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Dilemma of a Ghost\" was written by Ama Ata Aidoo."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does the term \"Been-to\" mean in the play?",
+        options: [
+          "Someone who has never left their village.",
+          "A person who has travelled and studied abroad.",
+          "A ghost that haunts a house.",
+          "A person who is very old."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In the play, a 'Been-to' is someone who has travelled overseas, especially for education."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main cause of the conflict over children in the play?",
+        options: [
+          "Eulalie does not like children.",
+          "Ato and Eulalie use birth control but don't tell the family.",
+          "The family wants to adopt a child.",
+          "Ato has too many children already."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The conflict arises because Ato and Eulalie secretly use birth control, which the family does not understand."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Where is Eulalie originally from?",
+        options: [
+          "Nigeria",
+          "The United Kingdom",
+          "The United States of America",
+          "Kumasi"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Eulalie is an African American woman from the United States of America."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the play \"Anowa\"?",
+        options: [
+          "Efua Sutherland",
+          "Ama Ata Aidoo",
+          "Peter Paul Adolinama",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Anowa\" is a famous play written by Ama Ata Aidoo."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which characters form the \"Chorus\" in the play?",
+        options: [
+          "Anowa and Kofi Ako",
+          "Badua and Osam",
+          "The Old Man and The Old Woman",
+          "The Chief and his elders"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Old Man and The Old Woman serve as the Chorus, commenting on events throughout the play."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main reason Anowa's mother is unhappy with her?",
+        options: [
+          "Anowa refuses to go to school.",
+          "Anowa refuses to help with the cooking.",
+          "Anowa refuses to marry the man chosen for her.",
+          "Anowa wants to leave Ghana."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Anowa's mother is unhappy because Anowa refuses to marry the man selected for her."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When is the play \"Anowa\" set?",
+        options: [
+          "In the modern year 2024",
+          "In the future",
+          "In the 1870s",
+          "During the Second World War"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The events of \"Anowa\" take place in the 1870s in the Gold Coast (present-day Ghana)."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What was the main problem the Old Man wanted to solve?",
+        options: [
+          "He had no money to leave his sons.",
+          "His sons were always quarrelling with each other.",
+          "The sticks in his yard were too dry.",
+          "He wanted to build a new house."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Old Man wanted to teach his sons to stop quarrelling and live in unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happened when the sons tried to break the sticks while they were tied in a bundle?",
+        options: [
+          "The sticks snapped instantly.",
+          "The twine broke but the sticks didn't.",
+          "They were unable to break the sticks.",
+          "They decided to burn the sticks instead."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bundle of sticks could not be broken, showing that unity gives strength."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does a \"single stick\" symbolize in this story?",
+        options: [
+          "A tall person.",
+          "A person who is alone and vulnerable.",
+          "A magical wand.",
+          "A tool for farming."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A single stick represents a person who is alone and easily overcome."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The moral of the story is best summarized by which phrase?",
+        options: [
+          "Practice makes perfect.",
+          "Unity is strength.",
+          "Honesty is the best policy.",
+          "Look before you leap."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that people are stronger when they work together in unity."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the short story \"Ripples\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Peter Paul Adolinama",
+          "Lawrence Darmani",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Ripples\" was written by Peter Paul Adolinama."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was the \"pebble\" or the initial cause of the problems in the story?",
+        options: [
+          "A natural disaster",
+          "A teenage marriage and dropping out of school",
+          "A fight between two neighbours",
+          "Losing a sum of money at the market"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story compares the effects of teenage marriage and leaving school to ripples caused by a pebble in water."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the story, who feels the \"ripples\" of Ama's early choices?",
+        options: [
+          "Only Ama herself",
+          "Ama and her daughter",
+          "Only the man she married",
+          "No one felt the effects"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Both Ama and her daughter experience the long-term consequences of Ama's early decisions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary moral lesson of the story?",
+        options: [
+          "Marriage is always a bad idea.",
+          "Our current choices have long-term consequences for ourselves and others.",
+          "It is better to live in the city than the village.",
+          "You should never throw stones into water."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that the choices we make today can have lasting effects on our lives and the lives of others."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Makola\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Theresa Ennin",
+          "Lade Wosornu",
+          "Lawrence Darmani"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem \"Makola\" was written by Theresa Ennin."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which poetic device uses words that mimic natural sounds?",
+        options: [
+          "Metaphor",
+          "Onomatopoeia",
+          "Stanza",
+          "Alliteration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Onomatopoeia is the use of words that imitate natural sounds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The scorching sun bit into the skin of the traders.\" This is an example of:",
+        options: [
+          "Auditory imagery",
+          "Tactile imagery (Touch)",
+          "Olfactory imagery",
+          "Visual imagery"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The description appeals to the sense of touch, making it an example of tactile imagery."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary purpose of sensory imagery in \"Makola\"?",
+        options: [
+          "To make the poem longer.",
+          "To help the reader experience the market through their senses.",
+          "To teach people how to cook.",
+          "To list the prices of items in the market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sensory imagery helps readers vividly experience the sights, sounds, smells, and feelings of the Makola market."
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',

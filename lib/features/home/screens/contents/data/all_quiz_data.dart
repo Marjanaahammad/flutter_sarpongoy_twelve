@@ -10615,6 +10615,1615 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
   ],
 );
 
+final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary theme of \"The Old Man and His Children\"?",
+      options: [
+        "Unity",
+        "Wealth",
+        "Bravery",
+        "Nature"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story teaches that people are stronger when they remain united.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does the \"bundle of sticks\" symbolize in the narrative?",
+      options: [
+        "A messy house",
+        "The father's age",
+        "A united family",
+        "Firewood for cooking"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The bundle of sticks represents the strength of family members working together.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the story, the sons were always quarrelling. What does \"quarrelling\" mean?",
+      options: [
+        "Playing games",
+        "Working hard",
+        "Fighting or arguing",
+        "Singing together"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Quarrelling means arguing or fighting with one another.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why did the father feel it was urgent to teach this lesson?",
+      options: [
+        "He was going on a long trip.",
+        "He was old and worried about his death.",
+        "He wanted to sell the sticks.",
+        "He was angry at the neighbours."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The father wanted his children to remain united after he was gone.",
+    ),
+
+    QuizQuestion(
+      question: "5. A story that is \"didactic\" is intended to:",
+      options: [
+        "Teach a moral lesson",
+        "Make people laugh",
+        "Tell a scary ghost story",
+        "Describe a beautiful place"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Didactic stories are written to teach an important moral or lesson.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which character is the protagonist or main person driving the lesson?",
+      options: [
+        "The eldest son",
+        "The youngest son",
+        "The old man",
+        "The enemy"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The old man teaches the lesson that drives the entire story.",
+    ),
+
+    QuizQuestion(
+      question: "7. How did the sons feel when they couldn't break the bundle?",
+      options: [
+        "They felt happy.",
+        "They were successful.",
+        "They were unable to do it.",
+        "They started laughing."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The sons discovered that the bundle was too strong to break individually.",
+    ),
+
+    QuizQuestion(
+      question: "8. The setting of this story is most likely:",
+      options: [
+        "A large city in Europe",
+        "A family compound or home",
+        "A school classroom",
+        "A modern factory"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The story takes place in a traditional family or village home setting.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the resolution of this story?",
+      options: [
+        "The sons break the bundle.",
+        "The father buys more sticks.",
+        "The sons understand the value of unity.",
+        "The father leaves his children."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The story ends with the sons understanding the importance of staying united.",
+    ),
+
+    QuizQuestion(
+      question: "10. If the sons continue to fight after the father dies, what does the story suggest will happen?",
+      options: [
+        "They will become very rich.",
+        "They will be easily defeated by others.",
+        "They will move to another town.",
+        "They will become better friends."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Like single sticks, divided people are weak and can easily be overcome.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of the poem \"The Colour of God\"?",
+      options: [
+        "V. B. Aakye",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "Lade Wosornu"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "V. B. Aakye is the Ghanaian poet who wrote this poem.",
+    ),
+
+    QuizQuestion(
+      question: "2. In poetry, a group of lines that form a unit is called a:",
+      options: [
+        "Stanza",
+        "Sentence",
+        "Chapter",
+        "Paragraph"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A stanza is a group of lines in a poem, similar to a paragraph in prose.",
+    ),
+
+    QuizQuestion(
+      question: "3. The poem explores the idea that God is \"universal.\" What does this mean?",
+      options: [
+        "He only lives in the stars.",
+        "He is available to all people everywhere.",
+        "He only speaks one language.",
+        "He is very old."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Universal means that God belongs to and is available to everyone, regardless of race or location.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of the following is a poetic device used to create mental pictures?",
+      options: [
+        "Calculator",
+        "Imagery",
+        "Dictionary",
+        "Rhyme scheme"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Imagery uses descriptive language that helps readers create vivid mental pictures.",
+    ),
+
+    QuizQuestion(
+      question: "5. According to the poem's logic, if you are Ghanaian, what colour might you imagine God to be?",
+      options: [
+        "Blue",
+        "Invisible",
+        "Green",
+        "Black or Brown"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem suggests that people often imagine God looking like themselves.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the tone of this poem?",
+      options: [
+        "Angry and violent",
+        "Thoughtful and inclusive",
+        "Scared and worried",
+        "Joking and silly"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem uses a thoughtful and inclusive tone to encourage reflection and acceptance.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poet feel about people claiming God is only one colour?",
+      options: [
+        "He agrees with them.",
+        "He wants them to draw more pictures.",
+        "He thinks it is a funny joke.",
+        "He thinks it is a limited way of thinking."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The poet believes limiting God to one race or colour is narrow-minded.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is NOT a theme discussed in the lesson?",
+      options: [
+        "Equality",
+        "Universality",
+        "Greed",
+        "Unity"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem focuses on equality, unity, and God's universality, not greed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the prism example relevant to the poem?",
+      options: [
+        "Because prisms are expensive.",
+        "Because light, like God, contains all colours at once.",
+        "Because the poet mentions prisms in the poem.",
+        "Because teachers like rainbows."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The prism illustrates how one source of light contains many colours, just as God belongs to everyone.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the ultimate goal of V. B. Aakye's poem?",
+      options: [
+        "To start an argument at church.",
+        "To encourage people to love and respect all races.",
+        "To teach people how to paint.",
+        "To name all the colours in the world."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem promotes unity, equality, and respect for all people by emphasizing God's universality.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the playwright of \"The Marriage of Anansewa\"?",
+      options: [
+        "Ama Ata Aidoo",
+        "V. B. Aakye",
+        "Jean Watson",
+        "Efua Sutherland"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Efua Sutherland is the renowned Ghanaian playwright who wrote The Marriage of Anansewa.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is Ananse's main motivation in the play?",
+      options: [
+        "To become a Chief himself.",
+        "To escape poverty and pay school fees.",
+        "To learn how to weave webs.",
+        "To travel to London."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ananse's clever schemes are mainly driven by his desire to overcome financial difficulties.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the play, what does Ananse use to trick the Chiefs initially?",
+      options: [
+        "A magical spider web.",
+        "Fake gold bars.",
+        "Large bags of cocoa.",
+        "Photos of his daughter."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Ananse sends photographs of Anansewa to attract the interest of the Chiefs.",
+    ),
+
+    QuizQuestion(
+      question: "4. The musical interludes used in the play are known as:",
+      options: [
+        "Soliloquies",
+        "Stanzas",
+        "Sonnets",
+        "Mboguo"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Mboguo are traditional songs that help move the story forward and entertain the audience.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word best describes Ananse's character?",
+      options: [
+        "Lazy",
+        "Honest",
+        "Witty",
+        "Frightened"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ananse is famous for his cleverness and wit, although he often uses trickery.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is a \"Satire\"?",
+      options: [
+        "A story about a talking animal.",
+        "A play that uses humour to criticize social faults.",
+        "A very long poem about war.",
+        "A stage with no actors."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Satire uses humour, irony, or exaggeration to expose and criticize human weaknesses or social problems.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many Chiefs does Ananse try to involve in his scheme?",
+      options: [
+        "Two",
+        "Ten",
+        "Four",
+        "One"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ananse approaches four different Chiefs in an attempt to maximize his gains.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Anansegoro\" is a fusion of which two things?",
+      options: [
+        "Cooking and Dancing",
+        "Traditional storytelling and Western theatre",
+        "Farming and Singing",
+        "Reading and Writing"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Anansegoro combines Ghanaian oral storytelling traditions with modern stage drama.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the Storyteller allowed to talk to the audience?",
+      options: [
+        "He forgot his lines.",
+        "It is a feature of the Anansegoro style.",
+        "He is looking for his lost spider.",
+        "The other actors are too tired to speak."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Storyteller directly engages the audience, which is a key feature of the Anansegoro performance style.",
+    ),
+
+    QuizQuestion(
+      question: "10. The play teaches us that greed can lead to:",
+      options: [
+        "More friends.",
+        "Complicated and difficult situations.",
+        "Becoming a King.",
+        "Winning a football match."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ananse's greed creates many problems, showing that selfishness often leads to trouble.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who wrote the short story \"The Girl Who Can\"?",
+      options: [
+        "Efua Sutherland",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "Merrill Corney"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ama Ata Aidoo is the Ghanaian author of the famous short story The Girl Who Can.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which character is most critical of Adjoa's physical appearance?",
+      options: [
+        "Her mother",
+        "Her teacher",
+        "Her grandmother",
+        "Her best friend"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Nana constantly criticizes Adjoa's thin legs throughout the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does the term \"spindly\" mean in the context of the story?",
+      options: [
+        "Very strong and muscular",
+        "Long, thin, and weak-looking",
+        "Covered in spots",
+        "Short and stubby"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The word 'spindly' describes Adjoa's long and very thin legs.",
+    ),
+
+    QuizQuestion(
+      question: "4. The story suggests that Maami (the mother) is:",
+      options: [
+        "Quiet and submissive to Nana",
+        "Very angry at Adjoa",
+        "The best runner in the village",
+        "A professional doctor"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Maami usually remains quiet while Nana speaks, showing respect and submission.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the turning point of the story take place?",
+      options: [
+        "In the kitchen",
+        "At the local market",
+        "On the school sports field",
+        "In the hospital"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The sports competition becomes the turning point when Adjoa proves her ability.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does Nana do with Adjoa's trophy?",
+      options: [
+        "She throws it away",
+        "She hides it under the bed",
+        "She carries it proudly and cleans it",
+        "She sells it for money"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Nana proudly carries and carefully cleans the trophy after Adjoa's success.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a \"stereotype\"?",
+      options: [
+        "A fixed, oversimplified idea of a person or thing",
+        "A type of radio",
+        "A very fast runner",
+        "A traditional Ghanaian dance"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "A stereotype is a simplified belief or assumption about people or things.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why did Adjoa keep her thoughts to herself most of the time?",
+      options: [
+        "She was unable to speak",
+        "She was afraid of her grandmother",
+        "Adults in the story didn't think children had anything useful to say",
+        "She was too busy running"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Adjoa explains that adults rarely expected children to express important opinions.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the central theme of the narrative?",
+      options: [
+        "The importance of healthy eating",
+        "How to win a gold medal",
+        "Female empowerment and potential",
+        "The history of Ghanaian schools"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The story emphasizes believing in girls' abilities and recognizing their true potential.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the ending of the story considered ironic?",
+      options: [
+        "Adjoa breaks her legs",
+        "The very legs Nana criticized become the source of the family's pride",
+        "Nana decides to start running too",
+        "Adjoa moves to a different country"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The same legs Nana once criticized later become the reason for Adjoa's success and the family's pride.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which literary device is most used in \"Desert Rivers\"?",
+      options: [
+        "Metaphor",
+        "Rhyme",
+        "Onomatopoeia",
+        "Alliteration"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The poem is built around an extended metaphor comparing people to deserts hiding rivers beneath the surface.",
+    ),
+
+    QuizQuestion(
+      question: "2. Lade Wosornu is a famous Ghanaian:",
+      options: [
+        "Surgeon and Poet",
+        "Footballer",
+        "King",
+        "Musician"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Lade Wosornu is well known as both a medical doctor (surgeon) and a poet.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the poem, \"dryness\" on the surface symbolizes:",
+      options: [
+        "A lack of rain in Ghana",
+        "A person who appears to have no talent or hope",
+        "The need for a cold drink of water",
+        "The best time to play football"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The dry surface represents people whose abilities or strengths are hidden from view.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a \"torrent\" in the context of the poem?",
+      options: [
+        "A very slow leak",
+        "A powerful, fast-flowing body of water",
+        "A type of desert lizard",
+        "A heavy stone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The torrent symbolizes the powerful inner strength and potential hidden within a person.",
+    ),
+
+    QuizQuestion(
+      question: "5. The theme of \"Desert Rivers\" is primarily about:",
+      options: [
+        "Geography and maps",
+        "The beauty of the Sahara",
+        "How to survive a drought",
+        "Inner potential and hidden strength"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem encourages readers to believe in the hidden abilities that people possess.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does the poet use geological words like \"crust\" and \"subterranean\"?",
+      options: [
+        "To show off his vocabulary",
+        "Because he likes rocks",
+        "To help students pass their Geography exams",
+        "To strengthen the imagery of the earth and the river"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "These geological terms make the extended metaphor more vivid and realistic.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poem make the reader feel?",
+      options: [
+        "Discouraged and sad",
+        "Bored and sleepy",
+        "Scared and nervous",
+        "Encouraged and hopeful"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The poem inspires hope by reminding readers that everyone has hidden strengths waiting to be discovered.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a \"desert\" finally reveals its \"river,\" what has happened?",
+      options: [
+        "It has rained",
+        "A person has achieved their potential or shared their talent",
+        "The river has dried up",
+        "The person has moved away"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The hidden river represents inner potential becoming visible through achievement or action.",
+    ),
+
+    QuizQuestion(
+      question: "9. What does the \"sun\" represent in the line about water being \"hidden from the sun\"?",
+      options: [
+        "The source of heat",
+        "The time of day",
+        "A golden coin",
+        "The public eye or external observation"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The sun symbolizes the outside world, which cannot always see the hidden abilities within people.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Desert Rivers\" is also a short story in *The Cockcrow*. True or False?",
+      options: [
+        "True, it is a narrative story.",
+        "True, it is a letter to a friend.",
+        "False, it is a play.",
+        "False, it is a poem, but there is also a story with the same title by Lade Wosornu."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Lade Wosornu wrote both a poem titled \"Desert Rivers\" and a narrative piece with the same title included in the anthology.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of \"The Colour of God\"?",
+      options: [
+        "V. B. Aakye",
+        "Ama Ata Aidoo",
+        "Lade Wosornu",
+        "Jean Watson"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "V. B. Aakye is the Ghanaian poet who wrote the poem \"The Colour of God.\"",
+    ),
+
+    QuizQuestion(
+      question: "2. What does the poet conclude about the colour of God?",
+      options: [
+        "God is all colours and no single colour.",
+        "God is definitely Green.",
+        "God has no interest in colour.",
+        "God changes colour every day."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The poem teaches that God is universal and cannot be limited to a single race or colour.",
+    ),
+
+    QuizQuestion(
+      question: "3. A question asked for effect rather than for an answer is called a:",
+      options: [
+        "Simple question",
+        "Rhetorical question",
+        "Examination question",
+        "Wrong question"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rhetorical question is used to make readers think rather than to receive an actual answer.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is this poem considered \"didactic\"?",
+      options: [
+        "Because it is very long.",
+        "Because it teaches a moral lesson about equality.",
+        "Because it was written in a school.",
+        "Because it rhymes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Didactic literature is written to teach or instruct readers about important values.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is NOT a theme in the poem?",
+      options: [
+        "Racial harmony",
+        "Equality",
+        "Building a house",
+        "Universality"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem focuses on equality, unity, and God's universality, not on construction or buildings.",
+    ),
+
+    QuizQuestion(
+      question: "6. In the poem, \"snow\" might be used by some to describe God as:",
+      options: [
+        "Cold",
+        "Melting",
+        "Soft",
+        "White"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem explains that people often imagine God using images familiar to their own environment, such as white snow.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does the poem suggest about the relationship between different races?",
+      options: [
+        "They should stay separate.",
+        "They should all wear the same colour.",
+        "One race knows the truth better than others.",
+        "They are all equally connected to God."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem promotes equality by showing that God belongs to all humanity.",
+    ),
+
+    QuizQuestion(
+      question: "8. The tone of the poem can best be described as:",
+      options: [
+        "Angry",
+        "Silly",
+        "Confused",
+        "Reflective and wise"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poet thoughtfully reflects on God's universality and encourages readers to think deeply.",
+    ),
+
+    QuizQuestion(
+      question: "9. If God is \"Universal,\" He is like:",
+      options: [
+        "A private car",
+        "The sun that shines on everyone",
+        "A locked door",
+        "A small box"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Like the sun, a universal God is available equally to all people regardless of race or nationality.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to practice the lesson of this poem in your JHS?",
+      options: [
+        "By only talking to people who look like you.",
+        "By treating every student with respect and kindness regardless of their tribe or appearance.",
+        "By painting the classroom one colour.",
+        "By arguing about who is the tallest."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem encourages respect, equality, and kindness toward everyone, regardless of differences.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of \"Scribbler's Dream\"?",
+      options: [
+        "Lade Wosornu",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "V. B. Aakye"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Lawrence Darmani is the Ghanaian author of the poem \"Scribbler's Dream.\"",
+    ),
+
+    QuizQuestion(
+      question: "2. The \"Scribbler\" has a \"Dream.\" What does this dream consist of?",
+      options: [
+        "Winning a lottery.",
+        "Creative ideas and stories.",
+        "Owning a large farm.",
+        "Traveling to another country."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The dream represents the writer's creative ideas, imagination, and potential.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does it mean to \"stifle\" a dream?",
+      options: [
+        "To make it grow faster.",
+        "To suffocate or suppress it.",
+        "To share it with friends.",
+        "To draw a picture of it."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "To stifle a dream means to suppress or prevent it from developing.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which literary device is used when the poet describes the dream as \"dying\"?",
+      options: [
+        "Simile",
+        "Personification",
+        "Metaphor",
+        "Onomatopoeia"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Giving a dream human qualities such as dying is an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "5. The poem is a call to avoid:",
+      options: [
+        "Hard work",
+        "Reading books",
+        "Procrastination",
+        "Singing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem encourages readers not to delay acting on their dreams.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the poet mean by \"the wealth of the mind\"?",
+      options: [
+        "Having a lot of money in the bank.",
+        "The valuable ideas and talents inside a person.",
+        "Knowing how to do math.",
+        "Remembering where you put your keys."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poet describes ideas, creativity, and talents as a person's true inner wealth.",
+    ),
+
+    QuizQuestion(
+      question: "7. The tone of the poem is best described as:",
+      options: [
+        "Urgent and encouraging.",
+        "Lazy and tired.",
+        "Sad and hopeless.",
+        "Very funny."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The poet motivates readers to act on their dreams without delay.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the poem, a dream that is never written down is compared to:",
+      options: [
+        "A bright sun.",
+        "Something that withers or disappears.",
+        "A loud drum.",
+        "A tall building."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The image of withering emphasizes how neglected dreams fade away.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why might Lawrence Darmani have written this poem for JHS students?",
+      options: [
+        "To teach them how to use a pen.",
+        "To encourage them to pursue their talents early in life.",
+        "To make them sleep less.",
+        "To complain about his own life."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem encourages young people to develop their talents while they are still young.",
+    ),
+
+    QuizQuestion(
+      question: "10. The ultimate \"Resolution\" of the poet's argument is that:",
+      options: [
+        "Dreams are useless.",
+        "Dreams are only for rich people.",
+        "Dreams must be combined with action to be successful.",
+        "You should wait until you are 50 to write."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The poem teaches that dreams only become reality when they are supported by action and hard work.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"The Dilemma of a Ghost\" is a play. What is the literary term for a play?",
+      options: [
+        "Narrative",
+        "Poetry",
+        "Drama",
+        "Short Story"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Drama is the genre of literature written to be performed on stage.",
+    ),
+
+    QuizQuestion(
+      question: "2. Ato Yawson belongs to which clan?",
+      options: [
+        "The Anona Clan",
+        "The Odumna Clan",
+        "The Asante Clan",
+        "The Fante Clan"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Odumna Clan is Ato Yawson's family clan in the play.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does Eulalie do that shocks the village women?",
+      options: [
+        "She wears a traditional cloth.",
+        "She smokes cigarettes and throws away good food.",
+        "She starts a farm.",
+        "She speaks fluent Fante."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Eulalie's modern habits, such as smoking and wasting food, surprise the village women.",
+    ),
+
+    QuizQuestion(
+      question: "4. In the play, who are the \"Two Village Women\"?",
+      options: [
+        "Characters who act as a chorus to comment on the action.",
+        "Ato's sisters.",
+        "Eulalie's friends from America.",
+        "Teachers at the local school."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The Two Village Women serve as a chorus, commenting on events and reflecting community opinions.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"Dilemma\" is best defined as:",
+      options: [
+        "A very happy occasion.",
+        "A choice between two difficult options.",
+        "A traditional Ghanaian dance.",
+        "The name of a ghost."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A dilemma is a difficult situation involving a choice between challenging alternatives.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does the family try to \"wash\" Eulalie with medicine?",
+      options: [
+        "They think she is barren (cannot have children).",
+        "They think she is dirty.",
+        "It is a traditional wedding custom.",
+        "They want to change her skin colour."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The family believes Eulalie's failure to become pregnant is caused by a medical or spiritual problem.",
+    ),
+
+    QuizQuestion(
+      question: "7. The \"Ghost\" in the title refers most significantly to:",
+      options: [
+        "Ato, who is caught between two worlds.",
+        "A scary spirit in the forest.",
+        "Eulalie's deceased mother.",
+        "A character who died before the play began."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Ato is metaphorically a 'ghost' because he belongs fully to neither his traditional culture nor his Western life.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which character is the most understanding of Eulalie at the very end?",
+      options: [
+        "Ato's father.",
+        "Esi Kom (Ato's mother).",
+        "The village priest.",
+        "The Two Village Women."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "By the end of the play, Esi Kom shows empathy and accepts Eulalie into the family.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the main theme of this play?",
+      options: [
+        "The clash between African tradition and Western culture.",
+        "The importance of farming.",
+        "How to study abroad successfully.",
+        "The history of slavery in Ghana."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The play mainly explores the conflict between traditional African customs and Western values.",
+    ),
+
+    QuizQuestion(
+      question: "10. Ato's failure to communicate with his wife and family makes him:",
+      options: [
+        "A tragic or flawed character.",
+        "A hero.",
+        "The smartest person in the play.",
+        "A very good husband."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Ato's silence and inability to communicate create much of the conflict, making him a flawed tragic character.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In \"Anowa,\" the protagonist is best described as:",
+      options: [
+        "Independent and strong-willed",
+        "Obedient and shy",
+        "Lazy and talkative",
+        "Greedy and mean"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Anowa is known for her independence and determination to make her own choices.",
+    ),
+
+    QuizQuestion(
+      question: "2. The nickname \"The-Mouth-That-Eats-Salt-And-Pepper\" refers to:",
+      options: [
+        "The Old Man and The Old Woman",
+        "A traditional Ghanaian recipe",
+        "Anowa's parents",
+        "The greedy Chiefs"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The nickname refers to the Old Man and Old Woman, who act as commentators throughout the play.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the name of the man Anowa chooses to marry?",
+      options: [
+        "Kofi Ako",
+        "Ato",
+        "Osam",
+        "Kweku Ananse"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Anowa chooses to marry Kofi Ako despite her parents' objections.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which character is most critical and judgmental of Anowa?",
+      options: [
+        "The Old Man",
+        "The Old Woman",
+        "Her father, Osam",
+        "Her husband"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Old Woman often represents society's critical and judgmental opinions.",
+    ),
+
+    QuizQuestion(
+      question: "5. Anowa's father, Osam, is often seen smoking his pipe and staying quiet. This suggests he is:",
+      options: [
+        "Very angry",
+        "Passive or less controlling than the mother",
+        "Unable to speak",
+        "Not interested in his daughter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Osam is portrayed as calmer and less forceful than Badua in family decisions.",
+    ),
+
+    QuizQuestion(
+      question: "6. The conflict between Anowa and her mother is an example of:",
+      options: [
+        "Man vs. Nature",
+        "Man vs. Machine",
+        "Man vs. Ghost",
+        "Man vs. Society"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The conflict reflects Anowa's struggle against traditional social expectations.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why does Badua (the mother) want Anowa to be \"normal\"?",
+      options: [
+        "She wants Anowa to be famous.",
+        "She wants her daughter to be safe and accepted by the community.",
+        "She is jealous of Anowa's beauty.",
+        "She wants Anowa to move to a big city."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Badua believes following tradition will ensure Anowa's acceptance and security.",
+    ),
+
+    QuizQuestion(
+      question: "\"Anowa\" is set in the 1870s. This period is often called:",
+      options: [
+        "The Post-Independence era",
+        "The Stone Age",
+        "The Modern era",
+        "The Colonial/Victorian era"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The play is set during the late nineteenth century, within the Colonial/Victorian period in the Gold Coast.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the role of a \"Chorus\" in a play?",
+      options: [
+        "To clean the stage between scenes",
+        "To provide commentary and reflect public opinion",
+        "To play musical instruments only",
+        "To act as the main villains"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A chorus comments on events and helps the audience understand the play's themes.",
+    ),
+
+    QuizQuestion(
+      question: "10. The play \"Anowa\" suggests that being \"different\" can lead to:",
+      options: [
+        "Getting lots of money",
+        "Tension with one's family and society",
+        "Becoming a queen immediately",
+        "Forgetting how to speak one's language"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The play explores how individuality can create conflict with traditional family and social expectations.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who retold the version of \"The Old Man and His Children\" found in The Cockcrow?",
+      options: [
+        "Ama Ata Aidoo",
+        "Jean Watson",
+        "Lawrence Darmani",
+        "Lade Wosornu"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Jean Watson is credited with retelling this traditional tale in The Cockcrow.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the \"Exposition\" of this story?",
+      options: [
+        "The sons breaking the single sticks.",
+        "The father's death.",
+        "The introduction of the father and his quarrelling sons.",
+        "The sons becoming rich."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The exposition introduces the father, his sons, and the central conflict of their constant quarrelling.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why did the father use sticks instead of just telling the sons to stop fighting?",
+      options: [
+        "He didn't know how to speak.",
+        "A visual demonstration is often more powerful and easier to remember.",
+        "He wanted the sons to go and gather more wood.",
+        "He was making a fire for dinner."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The father used a practical demonstration to teach the lesson more effectively.",
+    ),
+
+    QuizQuestion(
+      question: "4. In the story, the sons were \"strong\" men. Why couldn't they break the bundle?",
+      options: [
+        "The sticks were made of metal.",
+        "The power of unity was greater than their individual physical strength.",
+        "The father had cast a spell on the sticks.",
+        "They were not trying hard enough."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The bundle symbolizes unity, showing that working together creates greater strength.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"didactic\" story is primarily meant to:",
+      options: [
+        "Make the reader cry.",
+        "Teach a moral or lesson.",
+        "Explain the history of a country.",
+        "Scare the audience."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A didactic story is written mainly to teach an important lesson or moral.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the \"Climax\" of the story?",
+      options: [
+        "When the father first calls the sons.",
+        "When the father unties the bundle and the sons easily break the individual sticks.",
+        "When the sons go back to their own homes.",
+        "When the father buys the twine."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The climax occurs when the demonstration reveals the lesson about unity most clearly.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does the \"twine\" or string that ties the sticks together represent?",
+      options: [
+        "Money and wealth.",
+        "The bond of love or a common purpose.",
+        "A heavy burden.",
+        "A trap for the sons."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The twine symbolizes the bond that keeps people united and strong.",
+    ),
+
+    QuizQuestion(
+      question: "8. If the brothers continue to quarrel after their father dies, what is the predicted outcome?",
+      options: [
+        "They will be \"broken\" by their enemies.",
+        "They will become more famous.",
+        "They will find more sticks.",
+        "They will live happily ever after."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The story warns that division makes people weak and easy to defeat.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which character is the \"Antagonist\" or the source of the trouble in the beginning?",
+      options: [
+        "The Old Man",
+        "The enemies of the family",
+        "The quarrelsome nature of the sons",
+        "The sticks"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The main conflict comes from the sons' constant quarrelling with one another.",
+    ),
+
+    QuizQuestion(
+      question: "10. The \"Resolution\" of the story occurs when:",
+      options: [
+        "The sons get into another fight.",
+        "The father explains the lesson and the sons understand.",
+        "The sticks are thrown into the fire.",
+        "The story ends without a clear message."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The resolution comes when the father teaches the lesson and the sons understand the value of unity.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the central theme of \"Ripples\"?",
+      options: [
+        "The beauty of nature",
+        "The importance of early marriage",
+        "The long-term consequences of our actions",
+        "The history of Ghana"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The story shows how one decision can create lasting consequences that affect the future.",
+    ),
+
+    QuizQuestion(
+      question: "2. Ama's decision to leave school is a choice between:",
+      options: [
+        "Two different schools",
+        "Her mother and her father",
+        "Short-term desire and long-term stability",
+        "Working in Accra or Kumasi"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ama chooses early marriage instead of completing her education, sacrificing long-term stability.",
+    ),
+
+    QuizQuestion(
+      question: "3. In literature, when one event leads to another, it is called:",
+      options: [
+        "Rhyme and Rhythm",
+        "Stanza and Verse",
+        "Cause and Effect",
+        "Plot and Setting"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Cause and effect explains how one action produces later consequences, just like the 'ripples' in the story.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is the story titled \"Ripples\"?",
+      options: [
+        "Because the story takes place on a boat.",
+        "Because it describes how consequences spread over time.",
+        "Because Ama liked to swim.",
+        "Because it rained throughout the story."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The title is a metaphor showing how one decision can create effects that continue to spread.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word best describes Ama's feelings as an adult?",
+      options: [
+        "Excitement",
+        "Regret",
+        "Indifference",
+        "Confusion"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ama regrets the decisions she made as a teenager because of the hardships they caused.",
+    ),
+
+    QuizQuestion(
+      question: "6. The author, Peter Paul Adolinama, uses this story as a \"cautionary tale.\" What does this mean?",
+      options: [
+        "It is a story meant to make people laugh.",
+        "It is a story that warns people against making similar mistakes.",
+        "It is a story about a famous king.",
+        "It is a story with no ending."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A cautionary tale teaches readers to avoid harmful choices by showing their consequences.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the story depict teenage marriage?",
+      options: [
+        "As a quick way to get rich.",
+        "As the best path for every young girl.",
+        "As a decision that can lead to a cycle of poverty and lost potential.",
+        "As a funny misunderstanding."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The story highlights how early marriage can limit opportunities and create long-term difficulties.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does the daughter's struggle to stay in school represent?",
+      options: [
+        "Her lack of intelligence.",
+        "The \"ripple\" effect of her mother's financial instability.",
+        "A completely different problem unrelated to Ama.",
+        "The daughter's desire to travel."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The daughter's difficulties are a direct consequence of Ama's earlier decisions.",
+    ),
+
+    QuizQuestion(
+      question: "9. If Ama had listened to her elders in the story, what would she likely have done?",
+      options: [
+        "Married even earlier.",
+        "Stayed in school and delayed marriage.",
+        "Moved to a different country.",
+        "Stopped talking to her friends."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The story suggests that completing her education before marriage would have led to a better future.",
+    ),
+
+    QuizQuestion(
+      question: "10. The \"Resolution\" of a story like \"Ripples\" serves to:",
+      options: [
+        "Solve all the problems immediately.",
+        "Finalize the moral lesson for the reader.",
+        "Introduce a new character.",
+        "End the book with a song."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "In a didactic story, the resolution reinforces the lesson that readers should learn from the events.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"Makola\" is located in which Ghanaian city?",
+      options: [
+        "Kumasi",
+        "Tamale",
+        "Accra",
+        "Takoradi"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Makola is the most famous market in Ghana's capital city, Accra.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does \"Auditory imagery\" refer to?",
+      options: [
+        "The sense of sight",
+        "The sense of hearing",
+        "The sense of taste",
+        "The sense of smell"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Auditory imagery appeals to the sense of hearing by describing sounds.",
+    ),
+
+    QuizQuestion(
+      question: "3. The \"Kayayei\" mentioned in the context of the market are:",
+      options: [
+        "People who sell shoes",
+        "Female head porters who carry loads for a fee",
+        "Police officers in the market",
+        "Drivers of trotros"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Kayayei are female head porters who transport goods for customers in markets.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is an example of onomatopoeia?",
+      options: [
+        "Market",
+        "Clatter",
+        "Beautiful",
+        "Person"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Clatter\" imitates the sound of metal objects striking each other.",
+    ),
+
+    QuizQuestion(
+      question: "5. Theresa Ennin's poem describes the market as \"chaotic but organized.\" This suggests:",
+      options: [
+        "No one knows what they are doing.",
+        "There is a lot of noise and movement, but the business still works.",
+        "The market is closed for the day.",
+        "There are no people in the market."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Although the market appears busy and noisy, it operates through an organized system.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"Red, ripe tomatoes piled in pyramids\" uses which two senses?",
+      options: [
+        "Sight and Touch",
+        "Smell and Taste",
+        "Sight and Smell",
+        "Sound and Sight"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "\"Red\" and \"pyramids\" appeal to sight, while \"ripe\" suggests texture that can be felt.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the tone of the poem \"Makola\"?",
+      options: [
+        "Vibrant and energetic",
+        "Quiet and peaceful",
+        "Sad and lonely",
+        "Scary and dark"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The poem celebrates the lively atmosphere and energy of the market.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a poet mentions the \"fumes of exhaust from idling engines,\" they are using:",
+      options: [
+        "Visual imagery",
+        "Olfactory imagery (Smell)",
+        "Tactile imagery",
+        "Gustatory imagery (Taste)"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Exhaust fumes appeal to the reader's sense of smell.",
+    ),
+
+    QuizQuestion(
+      question: "9. The poem \"Makola\" belongs to which sub-strand?",
+      options: [
+        "Narrative",
+        "Drama",
+        "Poetry",
+        "Essay writing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "\"Makola\" is a descriptive poem and belongs to the Poetry sub-strand.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why does the poet focus on the \"struggle\" in the market?",
+      options: [
+        "To discourage people from going there.",
+        "To show the hard work and resilience of ordinary Ghanaians.",
+        "Because she lost her money there.",
+        "To ask the government for new buildings."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The poem highlights the resilience, determination, and hard work of everyday people in the market.",
+    ),
+  ],
+);
+
 final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',
   questions: [

@@ -2010,6 +2010,247 @@ final PracticeModel jhs2s4ss3Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel jhs2s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi and Amma are siblings who are supposed to clean their large compound before school. They spend the whole morning arguing about who should sweep which side, and eventually, neither of them finishes. How does this relate to the \"single stick\" in the story?",
+      answer: "Correct Answer: By arguing and working separately, Kofi and Amma are like the single sticks that are easily broken. They failed their task because they lacked the strength of the \"bundle\" or unity.",
+      explanation: "Explanation: When people fight instead of cooperating, they become weak and fail to achieve their goals, just like the individual sticks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a group of students in a JHS class decides to contribute 2 Cedis each to buy a new football for the school, rather than one person trying to pay the whole amount, which literary theme are they demonstrating?",
+      answer: "Correct Answer: They are demonstrating the theme of Unity and Cooperation.",
+      explanation: "Explanation: By pooling their resources together, they achieve a goal that would be too \"heavy\" or difficult for one person alone.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Imagine the \"Old Man\" lived in a modern town in Ghana today. Instead of sticks, what is another local object he could use to teach the same lesson?",
+      answer: "Correct Answer: He could use a broom (sapre).",
+      explanation: "Explanation: A single broomstraw is easy to snap, but a whole broom tied together is used to sweep the entire yard without breaking.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If the poet says that God is like the \"wind\" or the \"air,\" how does this support his argument about the colour of God?",
+      answer: "Correct Answer: Wind and air have no colour and are everywhere at once. This supports the idea that God is universal and cannot be trapped in one physical appearance or skin colour.",
+      explanation: "Explanation: By comparing God to something invisible but essential, the poet shows that God's essence is more important than physical looks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a school with students from many different tribes and countries, a student says, \"God only listens to prayers in my language.\" How would the poet V. B. Aakye respond to this?",
+      answer: "Correct Answer: The poet would disagree, saying that God is universal and understands every language, just as He is the colour of all people.",
+      explanation: "Explanation: The poem promotes the idea that God is not restricted by human boundaries like language or race.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the poet use different \"stanzas\" to talk about different types of people instead of putting it all in one long paragraph?",
+      answer: "Correct Answer: In poetry, stanzas help to separate different ideas or perspectives, making the argument easier to follow.",
+      explanation: "Explanation: Each stanza acts as a building block for the poet's final message of unity.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ananse refers to his daughter, Anansewa, as an \"object for investment.\" What does this tell us about Ananse's character at the beginning of the play?",
+      answer: "Correct Answer: It shows that Ananse is being greedy and selfish. He is looking at his daughter as a way to make money rather than as a person with her own feelings.",
+      explanation: "Explanation: Using the word \"investment\" for a human being highlights the satirical point that some people value money over family.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: During the play, the Storyteller stops the action to lead the audience in a song. Why is this technique used in Anansegoro?",
+      answer: "Correct Answer: This is called Mboguo. It is used to involve the audience, provide a break in the tension, or comment on what Ananse is doing.",
+      explanation: "Explanation: Traditional Ghanaian drama is interactive; it’s not just about watching, but about participating.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If Anansewa finds out about her father's plan and pretends to be dead to help him escape the four Chiefs, how does this change the \"power\" in the story?",
+      answer: "Correct Answer: It shows that Anansewa is also clever and is now working with her father, shifting the story from Ananse controlling her to them working as a team.",
+      explanation: "Explanation: In drama, when characters start working together to solve a conflict, it leads to the resolution of the plot.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Nana spent a lot of time talking about Adjoa’s \"spindly\" legs. What does this tell us about how Nana judged people?",
+      answer: "Correct Answer: Nana judged people based on their physical appearance and how well they fit into traditional roles, rather than their actual talents or potential.",
+      explanation: "Explanation: Nana's focus on the legs shows she had a narrow view of what makes a person valuable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does Adjoa’s success in the race change Nana’s behaviour?",
+      answer: "Correct Answer: Nana stops complaining and starts showing pride in Adjoa. She even carries Adjoa's trophy as if it were her own.",
+      explanation: "Explanation: Success and proof of ability are often the best ways to change a person's biased mind.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important that the story is told by Adjoa (first-person) and not by Nana?",
+      answer: "Correct Answer: Telling it from Adjoa's view helps the reader feel her innocence and see how unfair the adults' comments are. It makes us support her more.",
+      explanation: "Explanation: Point of view changes how we feel about the characters and the conflict.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the poem, the water is described as \"hidden from the sun.\" Why is this an important detail for the poem's message?",
+      answer: "Correct Answer: It shows that our most valuable traits are not always on display for everyone to see immediately. They are private and deep.",
+      explanation: "Explanation: Just as the sun cannot see the underground water, people cannot always see your inner thoughts and talents.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a person is \"digging a well\" in this poem, what does that represent in real life?",
+      answer: "Correct Answer: It represents the hard work, education, and practice needed to bring your hidden talents to the surface.",
+      explanation: "Explanation: Talents usually require effort (digging) to be fully realized and shared with others.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: The poet, Lade Wosornu, is both a doctor and a writer. How does his \"other\" job as a surgeon help him write a poem about things hidden beneath the surface?",
+      answer: "Correct Answer: As a surgeon, he works with what is inside the human body, so he understands that what is invisible from the outside is often the most important part.",
+      explanation: "Explanation: His medical background likely influences his perspective on looking deeper than just the surface of a person.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If someone says, \"God must be Black because the first humans were in Africa,\" how would the poet V. B. Aakye respond based on this poem?",
+      answer: "Correct Answer: The poet would say that God is a spirit and does not have a physical skin colour, so He is neither Black nor White, but belongs to everyone.",
+      explanation: "Explanation: The poem's main goal is to move beyond physical descriptions to spiritual universality.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify one \"Rhetorical Question\" the poet might use to make us think about God’s nature.",
+      answer: "Correct Answer: \"Is God not the creator of all colours?\" (or a similar question asking about God's role in creating diversity).",
+      explanation: "Explanation: A rhetorical question prompts the reader to reach a conclusion on their own.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the rose is mentioned. How does a flower help explain the \"colour\" of God?",
+      answer: "Correct Answer: A flower is beautiful regardless of its colour. Just as we enjoy roses of different colours, we should see God's beauty in all different types of people.",
+      explanation: "Explanation: The poet uses nature to show that variety is part of God's design.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: The poet describes the dream as being \"stifled.\" What does this word suggest about what happens to an idea when we don't act on it?",
+      answer: "Correct Answer: It suggests that the idea is being \"suffocated\" or \"choked.\" Without action, the idea loses its life and energy until it disappears.",
+      explanation: "Explanation: Stifling is a strong word used to show that procrastination is actually harmful to our creativity.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the Scribbler finally picks up his pen and starts writing, even if he is tired, which theme is he practicing?",
+      answer: "Correct Answer: He is practicing the theme of Action or Diligence. He is overcoming procrastination to bring his dream to life.",
+      explanation: "Explanation: The opposite of procrastination is taking immediate action, which is what the poet wants.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the poet mentions \"the clouds\" or \"the wind\" to show how things can change. Why does nature often appear in Darmani's poetry to explain human feelings?",
+      answer: "Correct Answer: Nature moves and changes constantly. By using nature, the poet shows that time doesn't wait for anyone, just like the wind doesn't stop blowing.",
+      explanation: "Explanation: Poets use nature to make abstract ideas like \"time\" feel real and visible.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does Ato's family feel that Eulalie is \"unsuitable\" at first, even before they meet her?",
+      answer: "Correct Answer: They are worried because she is a stranger from a different culture (\"the land of the slaves\") and they fear she will not understand their family traditions or contribute to the clan.",
+      explanation: "Explanation: Traditional families often value the continuity of their specific customs and are wary of outsiders.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the \"Dilemma\" mentioned in the title?",
+      answer: "Correct Answer: The dilemma is Ato's struggle to balance his loyalty to his African family and his love for his American wife. He is stuck between two cultures.",
+      explanation: "Explanation: A dilemma occurs when a character is faced with two choices that are equally difficult or important.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the play, a bird's nest is mentioned in a song. If a nest represents a \"home,\" what does it mean when the nest is broken or empty?",
+      answer: "Correct Answer: It symbolizes the breakdown of the family or the lack of children, which is the main source of pain for Ato’s mother and grandmother.",
+      explanation: "Explanation: Symbolism in drama uses physical objects or songs to represent deeper emotional truths.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Anowa’s mother, Badua, says she wants Anowa to be a \"normal\" woman who \"bears children and is happy.\" Is Badua being mean, or is she just worried?",
+      answer: "Correct Answer: Badua is mostly worried. She believes that following tradition is the only way for a woman to be safe and respected in their society. She fears that Anowa’s independence will lead to suffering.",
+      explanation: "Explanation: In drama, \"villains\" or opposing characters often think they are doing the right thing.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the purpose of having \"The Old Man\" and \"The Old Woman\" talk directly to the audience?",
+      answer: "Correct Answer: They provide background information and show the different ways society judges Anowa. They help the audience understand the \"moral\" temperature of the village.",
+      explanation: "Explanation: A chorus serves as a bridge between the story and the people watching it.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Anowa decides to marry Kofi Ako, a man who is not rich at the start. What does this tell us about her values?",
+      answer: "Correct Answer: It tells us that she values her own attraction and partnership over wealth or social status. She wants to build a life with someone, not just be taken care of.",
+      explanation: "Explanation: Character choices are the best way to understand a person's inner values in a play.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson10PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the story, the father \"untied\" the sticks before giving them to the sons the second time. What does the act of \"untying\" represent in a real family?",
+      answer: "Correct Answer: Untying represents a lack of communication or a disagreement that breaks the family bond. It shows how easily a group can be separated into weak, individual parts.",
+      explanation: "Explanation: When a group is no longer \"tied\" by a common goal, they lose their collective protection.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is this story called \"didactic\"?",
+      answer: "Correct Answer: It is didactic because its primary purpose is to teach a moral lesson (Unity is Strength) rather than just to entertain the reader.",
+      explanation: "Explanation: Didactic literature is common in traditional African storytelling to pass down wisdom to the younger generation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Imagine the sons are working on a farm. How would their work change after learning their father's lesson?",
+      answer: "Correct Answer: Instead of working separately and arguing over tools, they would work together to clear the land, making the work faster and more successful.",
+      explanation: "Explanation: Applying the theme of unity leads to better productivity and harmony.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson11PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the author focus so much on the daughter’s feelings rather than just telling the story of the mother?",
+      answer: "Correct Answer: By showing the daughter's struggles, the author proves that the \"ripples\" of the mother's choice affected the next generation. It makes the warning more powerful.",
+      explanation: "Explanation: A narrative often uses a second character to show the long-term impact of the protagonist's actions.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Ama had stayed in school and become a teacher or a nurse before getting married, how would the \"ripples\" in her life have changed?",
+      answer: "Correct Answer: The ripples would have been positive. She would have had a steady income, a stronger voice in her home, and the ability to easily pay for her children’s school fees.",
+      explanation: "Explanation: Positive causes lead to positive effects, just as negative ones lead to hardships.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the \"water\" in the title \"Ripples\" represent?",
+      answer: "Correct Answer: The water represents Time or Life. Just as water carries waves, Time carries the consequences of our actions from the past into the future.",
+      explanation: "Explanation: Metaphors like water are used to explain abstract concepts like \"consequences\" in a way that is easy to visualize.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson12PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The pungent aroma of salted fish wafted through the humid air.\" Which sense is the poet targeting here?",
+      answer: "Correct Answer: This targets the sense of Smell (Olfactory imagery).",
+      explanation: "Explanation: Words like \"aroma\" and \"scent\" always refer to our ability to smell things in our environment.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poet describes the \"yellow and green trotros jostling for space,\" what kind of imagery is she using?",
+      answer: "Correct Answer: This is Visual imagery (Sight).",
+      explanation: "Explanation: The mention of specific colours and the movement of the vehicles helps us create a picture in our minds.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the poet describe the market as a \"sea of heads\"?",
+      answer: "Correct Answer: This is a metaphor that creates strong visual imagery. it shows that there are so many people that they look like a vast, moving body of water.",
+      explanation: "Explanation: Using a \"sea\" to describe a crowd emphasizes the scale and the constant movement of Makola.",
+    ),
+  ],
+);
+
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
