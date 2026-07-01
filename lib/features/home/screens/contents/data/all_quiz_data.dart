@@ -12223,6 +12223,408 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The name \"Schatz\" is a German nickname. What does it mean?",
+      options: [
+        "Little Soldier",
+        "Treasure or Darling",
+        "Sick Boy",
+        "Brave One"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "\"Schatz\" is a German term of endearment meaning \"Treasure\" or \"Darling,\" which the father affectionately uses for his son.",
+    ),
+
+    QuizQuestion(
+      question: "2. In what country did Schatz go to school and learn about the Celsius scale?",
+      options: [
+        "Ghana",
+        "America",
+        "France",
+        "Germany"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Schatz had studied in France, where temperatures are measured using the Celsius scale, leading to his misunderstanding.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the narrative point of view of this story?",
+      options: [
+        "First-person (The Father)",
+        "First-person (Schatz)",
+        "Third-person (The Doctor)",
+        "Second-person (The Reader)"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The father narrates the story from his own perspective as he observes his son's behavior.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is the main conflict in the story?",
+      options: [
+        "Man vs. Man (Father vs. Son)",
+        "Man vs. Self (Schatz vs. His Fear)",
+        "Man vs. Nature (The Doctor vs. The Flu)",
+        "Man vs. Society (The School vs. The Home)"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The central conflict is Schatz's internal fear and misunderstanding about his illness.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does Schatz stare at the foot of the bed all day?",
+      options: [
+        "He is watching a television show.",
+        "He is concentrating on staying alive or preparing for death.",
+        "He is waiting for his mother to come home.",
+        "He is looking for his lost toy."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Believing he is going to die, Schatz quietly prepares himself, revealing his intense inner fear.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the father do while Schatz is \"waiting to die\"?",
+      options: [
+        "He goes out to hunt quail.",
+        "He cooks a big meal.",
+        "He reads a book to Schatz.",
+        "Both A and C."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The father reads to Schatz and later goes hunting, unaware that his son believes he is dying.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the father explain the difference between the thermometers?",
+      options: [
+        "Like the difference between miles and kilometres.",
+        "Like the difference between a cat and a dog.",
+        "Like the difference between day and night.",
+        "He tells him the doctor was lying."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The father compares Fahrenheit and Celsius to miles and kilometres to explain that they are simply different measurement systems.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the tone of the story?",
+      options: [
+        "Exciting and fast-paced",
+        "Angry and loud",
+        "Very funny and light-hearted",
+        "Quiet, serious, and understated"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Hemingway's simple, restrained style creates a calm yet serious tone throughout the story.",
+    ),
+
+    QuizQuestion(
+      question: "9. The fact that Schatz spent a whole day in terror because of a simple mistake is an example of:",
+      options: [
+        "Irony",
+        "A Happy Ending",
+        "Onomatopoeia",
+        "Alliteration"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It is ironic because Schatz's suffering was based entirely on a misunderstanding about temperature scales.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson about communication in this story?",
+      options: [
+        "Never listen to doctors.",
+        "Always ask questions if you are afraid or confused.",
+        "Children should never go to school in France.",
+        "Fevers are not dangerous."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "If Schatz had shared his fears or asked questions earlier, he would have avoided unnecessary suffering.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The poem compares the mother to which time of day?",
+      options: [
+        "Midnight",
+        "High Noon",
+        "Sunrise",
+        "Sunset"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem compares the mother to a sunrise, symbolizing hope, warmth, and a new beginning.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does it mean if someone \"glints\"?",
+      options: [
+        "To make a loud noise.",
+        "To give off small flashes of light.",
+        "To run very fast.",
+        "To be very angry."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Glints\" means to shine or reflect small flashes of light.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the poem, the sunrise is \"not with a shout.\" This emphasizes the mother's:",
+      options: [
+        "Laziness",
+        "Gentleness",
+        "Fear of noise",
+        "Hidden anger"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The quiet sunrise symbolizes the mother's calm, gentle, and caring nature.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Mama is a Sunrise\" is a poem about:",
+      options: [
+        "The weather in Ghana.",
+        "The importance of waking up early.",
+        "A mother's nourishing love.",
+        "How to study the stars."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem celebrates a mother's love, care, and positive influence on her family.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sense does the phrase \"glints and glows\" appeal to?",
+      options: [
+        "Hearing",
+        "Smell",
+        "Sight (Visual)",
+        "Taste"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "\"Glints\" and \"glows\" describe light, appealing to the sense of sight.",
+    ),
+
+    QuizQuestion(
+      question: "6. The use of \"nudging\" to describe the sun/mother is an example of:",
+      options: [
+        "Hyperbole",
+        "Personification",
+        "Rhyme",
+        "Irony"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Giving the sun the human action of \"nudging\" is an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poet feel about her mother?",
+      options: [
+        "She is annoyed by her.",
+        "She doesn't know her well.",
+        "She is afraid of her.",
+        "She admires and loves her."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The poem is a heartfelt tribute expressing admiration, gratitude, and love for the mother.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a mother \"scatters the darkness,\" what is she actually doing for her family?",
+      options: [
+        "Turning on the electricity.",
+        "Cooking breakfast.",
+        "Sweeping the floor.",
+        "Removing sadness or fear with her presence."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "\"Darkness\" symbolizes fear or sadness, while the mother brings hope and comfort.",
+    ),
+
+    QuizQuestion(
+      question: "9. The \"warmth\" mentioned in the poem is most likely:",
+      options: [
+        "The heat from a coal pot.",
+        "The heat from a fever.",
+        "The emotional comfort of a loving home.",
+        "The hot weather in April."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The warmth represents the love, care, and emotional security a mother provides.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why would a poet choose a \"Sunrise\" instead of \"Rain\" to describe a mother?",
+      options: [
+        "Because rain is always bad.",
+        "Because a sunrise represents a fresh start and bright, positive energy.",
+        "Because rain makes you wet.",
+        "Because sunrises are more expensive."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A sunrise symbolizes hope, renewal, warmth, and the positive influence of a loving mother.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The hunter in the story is the protagonist. What does this mean?",
+      options: [
+        "He is the villain or bad guy.",
+        "He is the main character who drives the story.",
+        "He is the person who tells the story.",
+        "He is a minor character with no lines."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The protagonist is the central character whose actions drive the events of the story.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the story, the hunter's generosity is a test. Who is testing him?",
+      options: [
+        "His wife",
+        "The Chief of the village",
+        "The old man/stranger in the forest",
+        "His fellow hunters"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The old man or stranger tests the hunter's kindness and moral character.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is reciprocity?",
+      options: [
+        "The art of hunting with a bow.",
+        "The practice of exchanging things for mutual benefit.",
+        "A type of forest tree.",
+        "The fear of being alone."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Reciprocity means giving and receiving kindness or help for mutual benefit.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of the following best describes the hunter's character?",
+      options: [
+        "Compassionate and humble",
+        "Selfish and fast",
+        "Lazy and talkative",
+        "Rich and powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The hunter is rewarded because of his compassion, humility, and generosity.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the majority of the story take place?",
+      options: [
+        "Deep in the forest",
+        "In a modern city",
+        "At a primary school",
+        "On a boat at sea"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story is set mainly in a traditional forest environment.",
+    ),
+
+    QuizQuestion(
+      question: "6. The reward the hunter receives is a result of his:",
+      options: [
+        "Ability to shoot accurately",
+        "Willingness to share his meager resources",
+        "Knowledge of the forest paths",
+        "Friendship with the Chief"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The hunter's kindness and generosity, rather than his hunting skills, earn him the reward.",
+    ),
+
+    QuizQuestion(
+      question: "7. A story that teaches a moral lesson is called:",
+      options: [
+        "An autobiography",
+        "A didactic story",
+        "A mystery novel",
+        "A dictionary"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A didactic story is written primarily to teach a moral or lesson.",
+    ),
+
+    QuizQuestion(
+      question: "8. How did the hunter feel when he saw the old man?",
+      options: [
+        "He felt pity and wanted to help.",
+        "He felt annoyed and wanted him to leave.",
+        "He felt scared and ran away.",
+        "He felt nothing and ignored him."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The hunter's compassion led him to help the old man despite having very little.",
+    ),
+
+    QuizQuestion(
+      question: "9. What does the food symbolize in this story?",
+      options: [
+        "Wealth and physical survival",
+        "A trap for animals",
+        "The hunter's lack of cooking skills",
+        "A gift from his mother"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "By sharing his food, the hunter sacrifices part of his own survival for another person.",
+    ),
+
+    QuizQuestion(
+      question: "10. The moral of the story is most similar to which of these?",
+      options: [
+        "Work hard and you will get rich.",
+        "Be kind to others, and kindness will come back to you.",
+        "Never talk to strangers in the forest.",
+        "Always carry more food than you need."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story teaches that kindness and generosity are rewarded in return.",
+    ),
+  ],
+);
 
 final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',

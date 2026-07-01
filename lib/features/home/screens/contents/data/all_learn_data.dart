@@ -1348,6 +1348,48 @@ final LearnModel jhs2s5ss1Lesson12LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/5. Teach - Part C.m4a',
   ),
 ]);
+final LearnModel jhs2s5ss1Lesson13LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L13/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L13/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L13/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson14LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L14/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L14/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L14/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson15LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L15/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L15/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L15/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/5. Teach - Part C.m4a',
+  ),
+]);
 
 final LearnModel jhs3s1ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(

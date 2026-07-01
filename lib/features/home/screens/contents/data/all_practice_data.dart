@@ -2250,6 +2250,66 @@ final PracticeModel jhs2s5ss1Lesson12PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel jhs2s5ss1Lesson13PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does Schatz tell his father, \"You don't have to stay in here with me, Papa, if it bothers you\"?",
+      answer: "Correct Answer: He is being selfless. He believes he is dying and wants to protect his father from the \"contagion\" of his illness and the pain of watching him die.",
+      explanation: "Explanation: This shows Schatz's deep love and his attempt to be \"grown-up\" during a crisis.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does the \"Stoic\" behaviour of Schatz make the story's ending more powerful?",
+      answer: "Correct Answer: Because he was so quiet and \"cold\" all day, the emotional release at the end—where he finally understands he will live—is a huge relief for both the characters and the reader.",
+      explanation: "Explanation: Contrast between silence and emotional release creates a stronger impact in a narrative.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the difference between Celsius and Fahrenheit in the context of this story?",
+      answer: "Correct Answer: They are different scales for measuring temperature. 102° is dangerous in Celsius but common for a fever in Fahrenheit.",
+      explanation: "Explanation: The misunderstanding of these units is the \"pivot\" on which the whole story turns.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson14PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the poet say her mother \"glows\" instead of saying she \"shines like a flashlight\"?",
+      answer: "Correct Answer: \"Glows\" suggests a soft, warm, and constant light that comes from within, while a flashlight is harsh and can be turned off. A mother's love is seen as natural and everlasting.",
+      explanation: "Explanation: Word choice in poetry helps create a specific \"mood\" or feeling.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the mother is the \"Sunrise,\" what do you think \"Night\" or \"Darkness\" would represent in this poem?",
+      answer: "Correct Answer: Darkness would represent sadness, loneliness, or the times when the mother is not around. The mother’s arrival \"scatters\" these bad feelings.",
+      explanation: "Explanation: Metaphors often have opposites that help us understand the main idea better.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In a Ghanaian home, how might a mother \"warm\" the house without using a heater or a fire?",
+      answer: "Correct Answer: She warms the house with her kind words, her smile, and the way she takes care of everyone, making them feel loved and \"warm\" inside.",
+      explanation: "Explanation: \"Warmth\" in literature often refers to emotional comfort, not just physical temperature.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson15PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is it important that the hunter shared his only food rather than just giving away food he didn't want?",
+      answer: "Correct Answer: Sharing something you need yourself shows true sacrifice and deep kindness. It proves that the hunter values the life of the stranger as much as his own.",
+      explanation: "Explanation: True generosity is measured by the heart of the giver, not just the size of the gift.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the hunter had been greedy and eaten all the food himself, how would the story end?",
+      answer: "Correct Answer: He would have remained a regular, struggling hunter and would have missed the great reward and blessing from the stranger.",
+      explanation: "Explanation: In didactic stories, greed usually leads to a loss of opportunity or a punishment.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In many Ghanaian cultures, how do we show the same \"generosity\" that the hunter showed?",
+      answer: "Correct Answer: We show it by welcoming strangers (hospitality), sharing our meals with visitors, and looking after the elderly in our communities.",
+      explanation: "Explanation: Traditional stories reflect the real-life values we practice in our homes every day.",
+    ),
+  ],
+);
 
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
@@ -6316,19 +6376,19 @@ final PracticeModel Scijhs1s3ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: A heavy rainstorm in Kumasi. Is the rain Biotic or Abiotic?",
-      answer: "Correct Answer: Abiotic.",
-      explanation: "Explanation: Rain is water, which is a non-living physical factor, even though living things need it to survive.",
+      scenario: "1. Question: Describe the role of the teeth in the mouth during digestion.",
+      answer: "Correct Answer: The teeth tear, cut, and grind large food pieces into smaller particles.",
+      explanation: "Explanation: This is called physical digestion, and it makes it easier for chemicals to work on the food later.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: A grasshopper eating leaves in a garden. Is the grasshopper Biotic or Abiotic?",
-      answer: "Correct Answer: Biotic.",
-      explanation: "Explanation: The grasshopper is a living organism that grows, eats, and moves.",
+      scenario: "2. Question: What is peristalsis and where does it occur?",
+      answer: "Correct Answer: It is the wave-like contraction of muscles that pushes food through the oesophagus.",
+      explanation: "Explanation: Peristalsis ensures that food moves down to the stomach even if you are lying down.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: The pH level of the water in a fish pond. Is this Biotic or Abiotic?",
-      answer: "Correct Answer: Abiotic.",
-      explanation: "Explanation: pH is a chemical property of the water (non-living), not a living creature.",
+      scenario: "3. Question: What is the main difference between the food in the mouth and the food (chyme) in the stomach?",
+      answer: "Correct Answer: Food in the mouth is mostly solid pieces, while chyme in the stomach is a watery paste.",
+      explanation: "Explanation: The stomach's churning and gastric juices turn solid food into a liquid-like state.",
     ),
   ],
 );

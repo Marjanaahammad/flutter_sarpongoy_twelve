@@ -5820,6 +5820,174 @@ final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = Independen
     ),
   ],
 );
+final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"A Day's Wait\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Ernest Hemingway",
+          "Peter Paul Adolinama",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Day's Wait\" is a short story written by Ernest Hemingway."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was Schatz's actual temperature on the Fahrenheit scale?",
+        options: [
+          "44 degrees",
+          "98 degrees",
+          "102 degrees",
+          "212 degrees"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Schatz's temperature was 102°F, but he mistakenly thought it was fatal because he confused Fahrenheit with Celsius."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does it mean to be \"Stoic\"?",
+        options: [
+          "To be very loud and angry.",
+          "To show no emotion while enduring pain or trouble.",
+          "To be very good at science and math.",
+          "To fall asleep quickly."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A stoic person remains calm and shows little emotion even during pain or hardship."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why did Schatz cry easily the day after the fever?",
+        options: [
+          "He was still very sick.",
+          "His father was mean to him.",
+          "He had relaxed his \"hold\" over himself after the fear was gone.",
+          "He wanted more medicine."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "After realizing he was not going to die, Schatz released the emotional strain he had been holding inside."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Mama is a Sunrise\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Evelyn Tooley Hunt",
+          "Theresa Ennin",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Mama is a Sunrise\" was written by Evelyn Tooley Hunt."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which literary device is used in the title \"Mama is a Sunrise\"?",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Onomatopoeia",
+          "Alliteration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The title is a metaphor because it directly compares Mama to a sunrise without using 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the mother \"nudge\" in the poem?",
+        options: [
+          "The furniture in the room.",
+          "The sleepy world or her children.",
+          "A heavy pot on the stove.",
+          "The door to the house."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem describes Mama gently waking the sleepy world, especially her children, to begin the day."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the \"tone\" of this poem?",
+        options: [
+          "Angry and frustrated.",
+          "Sad and mournful.",
+          "Appreciative and loving.",
+          "Scared and nervous."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem has an appreciative and loving tone as it celebrates a mother's warmth, care, and importance."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who wrote the story \"The Generous Hunter\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Kaakyire Akosombo Nyantakyi",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Generous Hunter\" was written by Kaakyire Akosombo Nyantakyi."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the \"Climax\" of a story?",
+        options: [
+          "The very first sentence.",
+          "The list of characters.",
+          "The most exciting or turning point of the action.",
+          "The name of the publisher."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The climax is the highest point of excitement or the major turning point in a story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why did the hunter share his food with the old man?",
+        options: [
+          "He didn't like the food.",
+          "He was afraid the old man would steal it.",
+          "He felt compassion for the man's hunger.",
+          "He wanted to sell the food to the old man."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The hunter shared his food because he felt compassion for the hungry old man."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main theme of this story?",
+        options: [
+          "How to hunt animals in the forest.",
+          "Kindness and generosity bring rewards.",
+          "It is dangerous to walk alone in the woods.",
+          "Older people are always spirits."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that kindness and generosity are rewarded."
+    ),
+  ],
+);
 
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
