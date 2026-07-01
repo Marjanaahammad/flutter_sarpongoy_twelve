@@ -6396,19 +6396,19 @@ final PracticeModel Scijhs1s3ss1Lesson3PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Why is Mixed Cropping better than Single Cropping for a family's daily meals?",
-      answer: "Correct Answer: It provides a balanced diet with different types of food (like carbohydrates from cassava and vitamins from peppers) at the same time.",
-      explanation: "Explanation: Since different crops are grown together, the family gets a variety of nutrients from their own backyard.",
+      scenario: "1. Question: If you eat a piece of grilled tilapia (protein), what will it be broken down into?",
+      answer: "Correct Answer: Amino Acids.",
+      explanation: "Explanation: Proteins are always broken down into amino acids to help repair and build the body.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: What is a major environmental disadvantage of Land Rotation in Ghana today?",
-      answer: "Correct Answer: It leads to deforestation and the destruction of natural habitats.",
-      explanation: "Explanation: Clearing new forest land every few years destroys trees and the homes of wild animals.",
+      scenario: "2. Question: Why are villi shaped like fingers instead of being a flat surface?",
+      answer: "Correct Answer: To increase the surface area for faster absorption.",
+      explanation: "Explanation: More surface area means the body can soak up more nutrients at once, just like a fluffy sponge holds more water than a flat piece of paper.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: How does Mixed Farming help a farmer save money?",
-      answer: "Correct Answer: The farmer uses animal manure as fertilizer instead of buying expensive chemical fertilizers.",
-      explanation: "Explanation: The animals provide free fertilizer, reducing the cost of growing crops.",
+      scenario: "3. Question: What is the end product of a bowl of plain rice?",
+      answer: "Correct Answer: Glucose (Simple Sugar).",
+      explanation: "Explanation: Rice is a carbohydrate (starch), and the final result of starch digestion is glucose.",
     ),
   ],
 );
