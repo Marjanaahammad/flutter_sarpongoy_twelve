@@ -3049,6 +3049,372 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel jhs3s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these two sentences using a subordinating conjunction of reason: \"Kofi stayed home. He was feeling unwell.\"",
+      answer: "Correct Answer: Kofi stayed home because he was feeling unwell.",
+      explanation: "Explanation: The word \"because\" joins the two sentences by explaining the reason for Kofi staying home.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Add a relative clause to expand this sentence: \"The woman sells kenkey.\"",
+      answer: "Correct Answer: The woman who lives next door sells kenkey.",
+      explanation: "Explanation: Adding \"who lives next door\" provides more specific information about which woman we are talking about.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a transitional device to show contrast between these two ideas: \"Abena studied very hard for the exam. She did not pass.\"",
+      answer: "Correct Answer: Abena studied very hard for the exam; however, she did not pass.",
+      explanation: "Explanation: \"However\" is a transitional device that shows a surprising contrast between her hard work and the result.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which sentence would be the best Introduction for a story about the Odwira Festival?",
+      answer: "Correct Answer: Every year, the people of Akropong celebrate the colourful Odwira Festival to mark the harvest.",
+      explanation: "Explanation: An introduction should set the scene and tell the reader what the story is about before the action starts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can we use a time connector to join these: \"We reached the stadium. The match started.\"",
+      answer: "Correct Answer: Soon after we reached the stadium, the match started.",
+      explanation: "Explanation: \"Soon after\" is a sequence in time connector that shows the logical order of events.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a phrase to expand this sentence: \"The woman sold the cloth.\"",
+      answer: "Correct Answer: The kind woman in the colourful kente sold the expensive cloth.",
+      explanation: "Explanation: Using adjectival phrases like \"in the colourful kente\" expands the sentence and provides more detail.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In a formal letter to a teacher, which connector is best to add a second reason for being absent?",
+      answer: "Correct Answer: Furthermore",
+      explanation: "Explanation: \"Furthermore\" is a formal transitional device used to add information, whereas \"also\" is more informal.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify the topic sentence in this paragraph: \"The school library needs more books. Many of our current books are torn. Additionally, we lack science textbooks for JHS 3.\"",
+      answer: "Correct Answer: The school library needs more books.",
+      explanation: "Explanation: This sentence introduces the main idea that all the following sentences support.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which relative clause best completes this sentence in a letter to a landlord? \"The pipe _______ is still leaking.\"",
+      answer: "Correct Answer: which you repaired last week",
+      explanation: "Explanation: This clause provides necessary information to identify exactly which pipe is being discussed.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"Mr. Appiah is a cocoa farmer. He wakes up at 4:00 AM every day. He works very hard to ensure his beans are the best quality so that he can earn a good price at the buying centre.\n"
+    "What is the major supporting detail here?",
+      answer: "Correct Answer: Mr. Appiah works hard to produce high-quality cocoa for a better price.",
+      explanation: "Explanation: This captures the \"why\" and \"how\" of the passage, which are the most important points.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can we combine \"The rain was heavy\" and \"The cocoa pods were destroyed\" into one cohesive summary sentence?",
+      answer: "Correct Answer:The heavy rain destroyed the cocoa pods.",
+      explanation: "Explanation: This uses a noun phrase (\"The heavy rain\") to link the cause and the effect into one short sentence.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: WIn a summary, should you include a non-defining relative clause like \"Mr. Appiah, who has ten children, loves farming\"?",
+      answer: "Correct Answer: No, because it is a minor detail.",
+      explanation: "Explanation: While interesting, the number of children is usually not essential to the main point of a summary about farming.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite the sentence \"The car drove by\" using frontloading and two powerful adjectives.",
+      answer: "Correct Answer: \"Roaring and dusty, the battered old trotro sped past us.\"",
+      explanation: "Explanation: By putting the adjectives at the beginning, we 'frontload' the description and use 'roaring' and 'dusty' to create a clear image.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can you use climactic structure to describe a student getting ready for an exam?",
+      answer: "Correct Answer: \"She opened her book, gripped her pen, and felt a surge of pure confidence.\"",
+      explanation: "Explanation: This sentence builds up from a simple action to a strong emotion at the end, creating a 'climactic' effect.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use 'selective detail' to describe a strict headteacher.",
+      answer: "Correct Answer: \"Mr. Osei adjusted his ironed collar and peered over his gold-rimmed spectacles.\"",
+      explanation: "Explanation: Instead of describing everything, we focus on the 'ironed collar' and 'spectacles' to show he is neat and observant.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A character finds an old photograph and the next paragraph describes the day the photo was taken 10 years ago. What is this?",
+      answer: "Correct Answer: This is a Flashback.",
+      explanation: "Explanation: It interrupts the present story to show a specific event from the past triggered by an object.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: At the start of a story about a football match, the narrator says, \"This was the last time Ekow would ever wear his lucky boots.\" What is this?",
+      answer: "Correct Answer: This is Foreshadowing.",
+      explanation: "Explanation: It gives the reader a hint that something significant (and perhaps sad) is going to happen to those boots later.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite \"He was very nervous\" using emotive sensory details.",
+      answer: "Correct Answer: \"His stomach turned into a knot of cold lead, and his palms grew damp and slippery.\"",
+      explanation: "Explanation: This uses 'touch' and internal physical sensations to show nervousness instead of just saying it.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which modal verb makes this sentence the most persuasive? \"The school committee _____ consider repairing the canteen.\"",
+      answer: "Correct Answer: The school committee must consider repairing the canteen.",
+      explanation: "Explanation: 'Must' is a strong modal verb that shows urgency and importance.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this to a \"timeless statement\" using the simple present: \"The sun was rising in the East.\"",
+      answer: "Correct Answer: \"The sun rises in the East.\"",
+      explanation: "Explanation: The simple present is used for facts that are always true.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is a mandatory feature of a formal rejoinder that identifies the topic?",
+      answer: "Correct Answer: A Reference or Subject Heading.",
+      explanation: "Explanation: A rejoinder must include a reference to the specific publication it is addressing.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite this biased sentence objectively: \"The food at the canteen was disgusting today.\"",
+      answer: "Correct Answer: \"The rice served at the canteen was undercooked and arrived cold.\"",
+      explanation: "Explanation: By using specific, measurable facts (undercooked, cold) instead of an opinion (disgusting), the writing becomes objective.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What two things must you explain to show how a problem occurred?",
+      answer: "Correct Answer: You must explain how it happened and why it happened.",
+      explanation: "Explanation: Explanatory texts need to show the process and the cause of a situation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Arrange these steps for washing a school uniform in a logical order: (A) Hang it to dry, (B) Soak in soapy water, (C) Rinse with clean water.",
+      answer: "Correct Answer: B, C, A.",
+      explanation: "Explanation: Logical organisation usually follows the order in which things actually happen.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which is the most appropriate way to write a date in a formal business letter?",
+      answer: "Correct Answer: 15th February 2026.",
+      explanation: "Explanation: Formal writing avoids short forms like \"15/02\" and writes out the month for clarity and professionalism.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a formal email, which of these should you avoid?",
+      answer: "Correct Answer: Using slang like \"Wassup\" or abbreviations like \"OMG.\"",
+      explanation: "Explanation: Formal writing requires full words and professional greetings to maintain an appropriate tone.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the purpose of an \"Agenda\" in a meeting?",
+      answer: "Correct Answer: To provide a list of topics to be discussed in order.",
+      explanation: "Explanation: An agenda acts as a programme or guide for the meeting participants.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which of the following must be on an invitation card for a school play?",
+      answer: "Correct Answer: The date, time, and location of the play.",
+      explanation: "Explanation: Without these three things, the guests will not know when or where to show up.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are sending an email to a customer but want your manager to see it too, which field do you put the manager's email in?",
+      answer: "Correct Answer: The CC (Carbon Copy) field.",
+      explanation: "Explanation: CC is used to keep additional people 'in the loop' without making them the main recipient.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the best size for a small, hand-held flyer?",
+      answer: "Correct Answer: A5 paper.",
+      explanation: "Explanation: A5 is half the size of a standard A4 sheet, making it perfect for handing out to people.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You want to share a fictional story you wrote about a magical cocoa tree. Where should you send it?",
+      answer: "Correct Answer: A Literary Magazine.",
+      explanation: "Explanation: Literary magazines specialise in creative works like stories and poetry.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You have researched exactly how your local market manages its cleaning schedule. What kind of text should you write?",
+      answer: "Correct Answer: A Short Report or Case Study.",
+      explanation: "Explanation: These formats are perfect for sharing factual investigations and findings.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main difference between a staff writer and self-publication?",
+      answer: "Correct Answer: A staff writer works for a specific publication; self-publication is when the author shares their own work directly.",
+      explanation: "Explanation: Self-publication gives the author full control over how and where their work is seen.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How can you turn the sentence \"We want a clean school\" into a \"Tripling\" phrase?",
+      answer: "Correct Answer: \"We want a clean school, a healthy school, and a happy school.\"",
+      explanation: "Explanation: Grouping three related ideas creates a better rhythm for the listener.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is an example of inclusive language?",
+      answer: "Correct Answer: \"We must all join hands to help our community.\"",
+      explanation: "Explanation: Using \"we\" and \"join hands\" includes the audience in the action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What are the three structural parts of a speech?",
+      answer: "Correct Answer: Introduction, Body, and Conclusion.",
+      explanation: "Explanation: This structure ensures the message is introduced, explained, and summarized.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You want to research the different types of fruit juices sold at your school canteen. Write three focused questions you could use.",
+      answer: "Correct Answer: 1. What are the names of the juice brands available? 2. How much does each carton cost? 3. Which fruit flavour is the most popular among students?",
+      explanation: "Explanation: These questions are specific and measurable, helping you gather exact data instead of general ideas.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: While researching on the internet, you find a great paragraph about the history of Golden Tree Chocolate. You want to use it in your report. What must you do to avoid plagiarism?",
+      answer: "Correct Answer: I must rewrite the information in my own words and include the name of the website and the date I found it in my list of references.",
+      explanation: "Explanation: Giving credit to the source and using your own words ensures you are not stealing intellectual property.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You have finished talking to five shopkeepers about the price of eggs. You have a lot of scribbled notes. What is the next step before you present?",
+      answer: "Correct Answer: I need to record and organise my findings, perhaps in a table or a clear list, so the information is easy for others to understand.",
+      explanation: "Explanation: Organising data is crucial for turning raw notes into a clear presentation.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In a film, we see a girl named Efua carefully mending a torn book for a younger student. What does this action tell us about her?",
+      answer: "Correct Answer: It tells us that Efua is caring, patient, and values education.",
+      explanation: "Explanation: Her choice to help and fix something shows a nurturing and responsible personality.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A character named Mr. Boateng is described as wearing a faded, oversized coat and shoes with holes in them. What does this appearance suggest?",
+      answer: "Correct Answer: It suggests that Mr. Boateng is struggling financially or is perhaps very humble and doesn't care for luxury.",
+      explanation: "Explanation: Clothing is a visual clue to a character's economic status or their current situation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Throughout the first act of a play, two neighbours keep talking about how 'Auntie Araba is the best cook in the whole of Cape Coast'. What is this an example of?",
+      answer: "Correct Answer: This is using the opinions of others to build a character's reputation.",
+      explanation: "Explanation: The audience learns about her skill through the dialogue of other characters before she even appears.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Read this text: \"Ekow stood by the sea. 'Oh, how I wish my father would return from his fishing trip,' he sighed to the waves.\" Is this a monologue or a dialogue?",
+      answer: "Correct Answer: This is a monologue.",
+      explanation: "Explanation: Ekow is speaking alone to himself or the environment; no other character is replying to him.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this script line: \"MAMA: (Screaming) Put that jollof down!\" What is the text in the brackets called?",
+      answer: "Correct Answer: IIt is called a stage direction.",
+      explanation: "Explanation: Stage directions tell the actor how to behave or what emotion to show, but the words are not spoken aloud.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite this sentence into script format: Adjoa asked Kojo if he had the keys. Kojo said he forgot them.",
+      answer: "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
+      "KOJO: I forgot them.",
+      explanation: "Explanation: In a script, we use names and colons instead of 'asked' or 'said'.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Here are three events from a story about a fisherman in Elmina. Put them in order:\n"
+    "A) He catches a massive tuna.\n"
+"B) He sets off into the sea at dawn.\n"
+"C) He sells the fish at the market and buys bread for his children.",
+      answer: "Correct Answer: B, then A, then C.",
+      explanation: "Explanation: You must go to sea before you can catch a fish, and you must catch it before you can sell it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a biography of a famous Ghanaian footballer, which event usually comes first: winning the World Cup or playing football as a child in his village?",
+      answer: "Correct Answer: Playing football as a child in his village.",
+      explanation: "Explanation: Biographies almost always follow a chronological order, starting with childhood.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a movie starts with a man as an old grandfather and then shows him as a young boy, what is this change in sequence called?",
+      answer: "Correct Answer: A flashback (or non-linear sequencing).",
+      explanation: "Explanation: This is when a story jumps back to an earlier time to give the audience more information.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the device: \"The old trotro groaned as it climbed the steep hill.\"",
+      answer: "Correct Answer: Personification.",
+      explanation: "Explanation: Vehicles cannot 'groan' like humans; this gives the trotro a human quality to show it is struggling.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this simile into a metaphor: \"Her voice is as sweet as honey.\"",
+      answer: "Correct Answer: Her voice is honey.",
+      explanation: "Explanation: By removing 'as sweet as', you are directly stating that her voice is the sweet substance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the idiom \"He is a fish out of water\" mean when describing a boy from a small village moving to the big city of Accra?",
+      answer: "Correct Answer: It means he feels uncomfortable or out of place in his new environment.",
+      explanation: "Explanation: Just as a fish cannot survive or feel comfortable on land, the boy feels he does not belong in the busy city.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question:  A story describes a girl who works very hard on her farm every day and eventually saves enough money to buy a tractor for her village. What is a likely theme?",
+      answer: "Correct Answer: The theme is \"Perseverance\" or \"The Reward of Hard Work.\"",
+      explanation: "Explanation: The focus is on her steady effort and the positive result it brings to her and others.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a play, a greedy chief hides all the food during a drought, but in the end, he is left with nothing while the kind villagers share what they have and survive. What is the theme?",
+      answer: "Correct Answer: The theme is \"Greed leads to downfall\" or \"The importance of sharing.\"",
+      explanation: "Explanation: The story contrasts the chief's selfishness with the villagers' kindness to teach a moral lesson.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are using a computer to write a story about two friends who stop speaking because of a secret, but eventually forgive each other. What theme are you exploring?",
+      answer: "Correct Answer: The theme of \"Forgiveness\" or \"The Value of Friendship.\"",
+      explanation: "Explanation: The resolution of the conflict focuses on the characters repairing their relationship.",
+    ),
+  ],
+);
+
 ///Religious & Moral Education
 final PracticeModel RMEs1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/RME/s1_ss1_l1/7. Guided Practice.m4a',

@@ -7920,6 +7920,1080 @@ final IndependentPracticeModel jhs3s3ss3Lesson2IndependentQuizData = Independent
   ],
 );
 
+final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which conjunction best completes this sentence? \"We will go to the farm ________ it rains.\"",
+        options: [
+          "although",
+          "unless",
+          "so that",
+          "and"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Unless\" means 'except if,' making it the correct conjunction in the sentence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word best joins these ideas to show a result? \"The bridge was broken; ________, we could not cross the river.\"",
+        options: [
+          "furthermore",
+          "however",
+          "consequently",
+          "similarly"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Consequently\" is a transition word used to show a result or effect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Identify the non-defining relative clause in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
+        options: [
+          "My uncle is coming",
+          "works at GCB Bank",
+          "who works at GCB Bank",
+          "is coming to visit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Who works at GCB Bank\" is a non-defining relative clause because it provides extra information about the uncle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which transitional device is best for ordering ideas in a recipe for Jollof rice?",
+        options: [
+          "In spite of",
+          "Firstly",
+          "Nevertheless",
+          "On the contrary"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Firstly\" is used to introduce the first step in a sequence or process."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word is best to start the first body paragraph?",
+        options: [
+          "Therefore",
+          "Firstly",
+          "Nevertheless",
+          "However"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Firstly\" is the best transitional word to introduce the first main point in a body paragraph."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a relative clause to add detail?",
+        options: [
+          "We went to the beach.",
+          "The waves were very high.",
+          "My brother, who loves swimming, ran to the water.",
+          "We ate fried fish."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Who loves swimming\" is a relative clause that provides extra information about 'my brother.'"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the best connector to show a sudden change: \"We were playing ludo ________ it started to pour with rain.\"",
+        options: [
+          "after",
+          "next",
+          "suddenly",
+          "finally"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Suddenly\" is used to indicate an unexpected or abrupt event."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a conclusion?",
+        options: [
+          "Once upon a time in Cape Coast.",
+          "Secondly, we visited the castle.",
+          "In the end, it was a day I will never forget.",
+          "As a result, we were very hungry."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"In the end, it was a day I will never forget\" clearly summarizes and concludes the narrative."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word best joins these ideas in a letter to a friend? \"I wanted to visit you, ________ I didn't have enough Cedis for the trotro.\"",
+        options: [
+          "therefore",
+          "but",
+          "consequently",
+          "furthermore"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"But\" shows a contrast between wanting to visit and not having enough money."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To show a result in a formal letter, which phrase is most appropriate?",
+        options: [
+          "And so",
+          "As a result",
+          "Then",
+          "Like"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"As a result\" is a formal connector used to show the outcome of an action or situation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these shows paragraph unity?",
+        options: [
+          "Every sentence starts with the same word.",
+          "All sentences in the paragraph support one main idea.",
+          "The paragraph has no full stops.",
+          "The paragraph is only one sentence long."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Paragraph unity means that every sentence contributes to and supports a single main idea."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Identify the adjectival phrase in this sentence: \"The tall, leafy palm trees provide great shade.\"",
+        options: [
+          "provide great shade",
+          "The tall, leafy palm trees",
+          "palm trees",
+          "provide"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The tall, leafy palm trees\" is the noun phrase modified by the adjectives 'tall' and 'leafy', functioning as the adjectival phrase in the given options."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word is best to link a summary of a problem to its solution?",
+        options: [
+          "Similarly",
+          "However",
+          "Therefore",
+          "For example"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Therefore\" is used to introduce a logical result or solution based on a problem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A good summary should be ________ than the original text.",
+        options: [
+          "Longer and more detailed",
+          "The same length",
+          "Shorter and more concise",
+          "Written in a different language"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A summary presents the main ideas briefly, so it should be shorter and more concise than the original text."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When summarising, what should you do with the topic sentence?",
+        options: [
+          "Delete it.",
+          "Rewrite it in your own words.",
+          "Move it to the very end.",
+          "Replace it with a joke."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When summarising, you should restate the topic sentence in your own words while keeping its original meaning."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a noun phrase used to summarize \"The market which is located at Kejetia\"?",
+        options: [
+          "The market is big.",
+          "The Kejetia Market.",
+          "It is in Kumasi.",
+          "Where people buy things."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Kejetia Market\" is a noun phrase that briefly identifies and summarizes the market."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses multiple powerful adjectives to describe a forest?",
+        options: [
+          "The forest had a lot of trees and was very green.",
+          "It was a big, dark, and quiet forest.",
+          "The ancient, towering, and emerald-green canopy shielded the floor.",
+          "I liked walking in the forest because it was pretty."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Ancient,\" \"towering,\" and \"emerald-green\" are vivid, powerful adjectives that create a strong image of the forest."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sentence that uses frontloading for effect.",
+        options: [
+          "The sun rose over the mountains eventually.",
+          "Golden and blinding, the sun peeked over the mountain ridge.",
+          "I saw the sun rising over the mountains this morning.",
+          "Over the mountains, the sun began to rise slowly."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The descriptive phrase \"Golden and blinding\" is placed at the beginning to create emphasis before introducing the subject."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is an example of climactic sentence structure?",
+        options: [
+          "He ate an apple, an orange, and a banana.",
+          "The wind whispered, then whistled, then howled with rage.",
+          "She wore a red dress, black shoes, and a hat.",
+          "Running is fun, healthy, and good for your heart."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The actions build in intensity from whispered to whistled to howled, creating a climactic effect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses selective detail to describe a hardworking farmer?",
+        options: [
+          "The farmer was wearing a shirt and trousers today.",
+          "He was a very tall man who liked to farm a lot.",
+          "His palms were thick with hard, leathery callouses from years of hoeing.",
+          "He had two eyes, a nose, and a very kind smile."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The description focuses on specific details—his hard, calloused palms—to emphasize years of hard work."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best example of backstory?",
+        options: [
+          "Suddenly, it started to rain heavily on the tin roof.",
+          "Before moving to the city, Tetteh had spent ten years working on his father's cocoa farm, learning the value of a long day's work.",
+          "\"I will go to the market tomorrow,\" she said.",
+          "He ran as fast as his legs could carry him."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Backstory provides important information about a character's past that helps explain who they are or why they act the way they do."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the foreshadowing in this passage:",
+        options: [
+          "The sun was shining brightly over the Black Star Square.",
+          "\"I am so happy to be here,\" Efua shouted.",
+          "Little did they know, the storm clouds gathering on the horizon were the least of their worries.",
+          "They ate a delicious meal of Jollof rice and fried chicken."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Foreshadowing gives hints about events that will happen later in the story. The gathering storm clouds suggest future trouble."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses emotive details to show excitement?",
+        options: [
+          "She was very excited to see her results.",
+          "Her eyes widened, her breath came in short gasps, and a bright tingling sensation spread to her fingertips.",
+          "The results were posted on the wall for everyone to see.",
+          "She walked quickly toward the noticeboard."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The sentence uses vivid physical and emotional details to help the reader feel the character's excitement."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A story about a wedding suddenly shows a scene of the couple as elderly people sitting on a porch years later. This is:",
+        options: [
+          "Flashback",
+          "Backstory",
+          "Flash-forward",
+          "Foreshadowing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A flash-forward jumps ahead in time to show events that happen later in the story."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a mental verb used to express a viewpoint?",
+        options: [
+          "Running",
+          "Believe",
+          "Quickly",
+          "Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Believe\" is a mental verb because it expresses a thought, opinion, or viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sentence using the simple present tense for a fact.",
+        options: [
+          "Ghana will have a holiday tomorrow.",
+          "Ghana is located in West Africa.",
+          "Ghana was a colony in the past.",
+          "Ghana is going to build new roads."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The simple present tense is used to state general truths and facts. 'Ghana is located in West Africa' is a factual statement."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a rejoinder, where should your own address be placed?",
+        options: [
+          "At the very bottom.",
+          "On the left side above the date.",
+          "At the top right corner.",
+          "In the middle of the page."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In a formal rejoinder, the writer's address is written at the top right corner of the page."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which modal verb is best for \"hedging\" (making a suggestion less aggressive)?",
+        options: [
+          "Must",
+          "Will",
+          "Might",
+          "Always"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Might\" expresses possibility and softens suggestions, making them less forceful."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence is written in objective language?",
+        options: [
+          "The assembly was way too long and very boring.",
+          "The assembly lasted for fifty minutes and included three speeches.",
+          "I think the headteacher spoke for a long time.",
+          "The assembly was better than the one we had last week."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Objective language presents facts without personal opinions or emotions. The sentence states only factual information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To vividly describe a situation, you should:",
+        options: [
+          "Use as few words as possible.",
+          "Use sensory details that are factual and specific.",
+          "Tell the reader how you felt about it.",
+          "Use many adjectives like \"beautiful\" or \"ugly\"."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Specific sensory details help readers clearly imagine a scene while keeping the description accurate."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Reports should be devoid of personal bias. What does this mean?",
+        options: [
+          "You should include your own opinion.",
+          "You should only write about people you like.",
+          "You should exclude your personal feelings and stick to the facts.",
+          "You should write in a very emotional way."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A report should be objective by avoiding personal opinions and presenting only factual information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of the following helps to organise an informative text logically?",
+        options: [
+          "Mixing all your ideas into one long paragraph.",
+          "Using headings and numbered lists.",
+          "Writing the end of the story first.",
+          "Using slang and abbreviations."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Headings and numbered lists make information easier to follow and organize logically."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a key feature of a formal letter?",
+        options: [
+          "Using many emojis to show feelings.",
+          "Using clear section headings and a formal layout.",
+          "Writing in a very casual, friendly tone.",
+          "Using abbreviations like \"U\" and \"R\"."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A formal letter follows a proper layout and uses clear sections with professional language."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What should you do during the proofreading stage?",
+        options: [
+          "Write the first thing that comes to mind.",
+          "Change the recipient's address randomly.",
+          "Edit the writing for sense, meaning, and effect.",
+          "Delete the entire document and start over."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proofreading involves checking and correcting errors to improve clarity, meaning, grammar, and overall effectiveness."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sign-off is most appropriate for a business letter to someone you do not know by name?",
+        options: [
+          "Best wishes,",
+          "See ya later,",
+          "Yours faithfully,",
+          "Your friend,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Yours faithfully,\" is the correct formal closing when the recipient's name is unknown."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A written record of the decisions made during a meeting is called:",
+        options: [
+          "An Agenda.",
+          "A Business Letter.",
+          "Meeting Minutes.",
+          "A Flyer."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Meeting minutes are the official written record of what was discussed and decided during a meeting."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the purpose of a slogan on a poster?",
+        options: [
+          "To list the price of every item.",
+          "To provide a long history of the company.",
+          "To create a short, catchy phrase that people remember.",
+          "To tell people where the office is located."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A slogan is a short, memorable phrase used to attract attention and help people remember a message or brand."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When writing an invitation, what does RSVP mean?",
+        options: [
+          "Bring your own food.",
+          "Please respond to the invitation.",
+          "The event is for adults only.",
+          "Wear your school uniform."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "RSVP asks the invited person to reply and let the host know whether they will attend."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In an email, the Subject Line should be:",
+        options: [
+          "A very long story about your day.",
+          "A summary of the content of the email.",
+          "Just your name.",
+          "Left completely blank."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The subject line briefly summarizes the purpose or topic of the email."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these should be included on a business flyer?",
+        options: [
+          "A list of benefits or offers.",
+          "Your favourite song lyrics.",
+          "A map of the entire country.",
+          "Every single product you have ever sold."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A business flyer should highlight the key benefits, services, or special offers to attract customers."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a formal response to a newspaper issue?",
+        options: [
+          "A diary entry",
+          "A Letter to the Editor",
+          "A shopping list",
+          "A text message"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A Letter to the Editor is a formal way to express opinions or respond to issues published in a newspaper."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a Case Study?",
+        options: [
+          "A book of poems",
+          "A detailed investigation of a specific issue or event",
+          "A short joke",
+          "A list of vocabulary words"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A case study is an in-depth investigation of a particular person, event, problem, or situation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Where would you most likely find an article written for an online audience?",
+        options: [
+          "A printed textbook",
+          "A Webzine",
+          "A handwritten letter",
+          "A stone tablet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A webzine is an online magazine designed specifically for internet readers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Short reports for publication should always be:",
+        options: [
+          "Fictional and funny",
+          "Organised and factual",
+          "Written in secret",
+          "Very long with no headings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Published reports should be well-organized and based on accurate facts so readers can trust the information."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these uses emotive adjectives?",
+        options: [
+          "The meeting is at 2:00 PM.",
+          "We are embarking on a magnificent and courageous journey.",
+          "Please sit down on the chairs.",
+          "I have a pen and a book."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Magnificent\" and \"courageous\" are emotive adjectives that create strong positive feelings."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"I have a dream that one day...\" is a famous example of:",
+        options: [
+          "A shopping list.",
+          "Powerful imagery and repetition.",
+          "A business email.",
+          "A technical manual."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Martin Luther King Jr.'s repeated phrase \"I have a dream\" is a classic example of repetition used to create emphasis and memorable imagery."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does \"Tripling\" mean in a speech?",
+        options: [
+          "Speaking three times as fast as usual.",
+          "Using three different languages.",
+          "Using three related words or phrases for effect.",
+          "Having three people give the same speech."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Tripling is a rhetorical technique that uses three related words, phrases, or ideas to make a speech more memorable and persuasive."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the Conclusion of a speech, you should:",
+        options: [
+          "Introduce a completely new topic.",
+          "Tell them what you told them (summarize).",
+          "Ask everyone to go home immediately.",
+          "Read a long list of dictionary definitions."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The conclusion should briefly summarize the main points and leave the audience with a clear final message."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kofi is researching the different types of transport used by students to get to school in Kumasi. Which of these is a 'focused question'?",
+        options: [
+          "Do you like coming to school?",
+          "What is the most common colour of a trotro?",
+          "How many students arrive by trotro, taxi, or walking?",
+          "Why is traffic bad in the morning?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A focused question directly addresses the research topic by asking about the specific types of transport students use."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Abena is looking at a website to find the price of Kenkey in different regions. What should she do while reading?",
+        options: [
+          "Memorise everything and close the laptop.",
+          "Record her findings and the website name immediately.",
+          "Copy the entire page and say she wrote it.",
+          "Ignore the prices and just look at the pictures."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Recording both the information and its source helps keep accurate research notes and allows proper referencing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you include a list of 'References' at the end of your project, what are you avoiding?",
+        options: [
+          "Good grades.",
+          "Plagiarism.",
+          "Focused questions.",
+          "Data collection."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "References give credit to the original sources of information and help prevent plagiarism."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is the best way to present information gathered from different local bread bakers?",
+        options: [
+          "A list of unorganised notes.",
+          "A story about your favorite bread.",
+          "A clear report with headings and a list of sources.",
+          "A drawing of a loaf of bread with no text."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A well-organized report with headings and references presents research clearly and professionally."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kwame speaks to his teacher using \"Please, Sir\" and \"Thank you, Madam.\" Which element of characterisation is this?",
+        options: [
+          "Appearance",
+          "Speech",
+          "Actions",
+          "Others' opinions"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A character's words and the way they speak reveal their personality, manners, and attitude."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A character in a story always shares his 'bofrot' with the children on his street who have no breakfast. This shows the character is:",
+        options: [
+          "Greedy",
+          "Lazy",
+          "Kind-hearted",
+          "Proud"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Sharing food with others in need shows kindness and generosity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a character enters a scene with sweat on their brow and dirt under their fingernails, what is the author showing through 'Appearance'?",
+        options: [
+          "The character has been resting.",
+          "The character has been doing hard physical work.",
+          "The character is very wealthy.",
+          "The character is going to a party."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sweat and dirty fingernails are physical clues that suggest the character has been working hard."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why would a writer have other characters talk about a 'ghost' that haunts the village?",
+        options: [
+          "To make the story longer.",
+          "To build fear and character reputation before the 'ghost' appears.",
+          "To show that the neighbours are liars.",
+          "To avoid describing the ghost later."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "What other characters say can build suspense and shape the reader's expectations before a character appears."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which of these is the most effective way to show a character is angry without saying \"he was angry\"?",
+        options: [
+          "Describing his neatly combed hair.",
+          "Showing him slamming a door and shouting at his brother.",
+          "Showing him eating a bowl of fufu.",
+          "Mentioning that he lives in Accra."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A character's actions and dialogue effectively show emotions instead of directly telling the reader."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main difference between a monologue and a dialogue?",
+        options: [
+          "A monologue is written, but a dialogue is spoken.",
+          "A monologue involves one person, while a dialogue involves two or more.",
+          "A monologue is always funny, but a dialogue is always sad.",
+          "A monologue uses stage directions, but a dialogue does not."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A monologue is spoken by one character, while a dialogue is a conversation between two or more characters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In a play script, how should a character's name be written?",
+        options: [
+          "In small letters with a comma.",
+          "At the end of the sentence.",
+          "In CAPITAL LETTERS followed by a colon.",
+          "Inside quotation marks."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Character names in play scripts are usually written in capital letters followed by a colon before their dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a dialogue?",
+        options: [
+          "A queen talking to her reflection in a mirror.",
+          "A boy reciting a poem to an empty room.",
+          "A teacher and a student discussing a homework assignment.",
+          "A man thinking silently about his dinner."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A dialogue is a conversation between two or more people, such as a teacher and a student talking."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the purpose of a stage direction?",
+        options: [
+          "To tell the audience the price of the ticket.",
+          "To tell the actors what movements or emotions to perform.",
+          "To show the character's name.",
+          "To replace the dialogue."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Stage directions guide the actors by explaining their actions, movements, or emotions during the play."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which punctuation mark is used after a character's name in a script?",
+        options: [
+          "Full stop (.)",
+          "Comma (,)",
+          "Colon (:)",
+          "Question mark (?)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A colon is placed after a character's name to introduce that character's spoken lines."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of a story is usually the most exciting turning point?",
+        options: [
+          "The Introduction",
+          "The Climax",
+          "The Resolution",
+          "The Title"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The climax is the most exciting and important turning point in a story where the main conflict reaches its highest point."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A biography of Yaa Asantewaa would most likely follow which sequence?",
+        options: [
+          "Random events with no order.",
+          "Starting from her final battle and ending with her birth.",
+          "Chronological order from her early life to her leadership.",
+          "Only focusing on what she ate for breakfast."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Biographies are usually written in chronological order, beginning with a person's early life and continuing through major life events."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the purpose of the 'Resolution' in a sequence of events?",
+        options: [
+          "To introduce a new problem.",
+          "To show how the conflict is settled and end the story.",
+          "To describe the weather.",
+          "To introduce a second main character."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The resolution explains how the main problem is solved and brings the story to a satisfying conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a play script, how are major changes in time or location usually shown?",
+        options: [
+          "By changing the font size.",
+          "By starting a new 'Scene' or 'Act.'",
+          "By having the actors stop talking.",
+          "By changing the character's name."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new scene or act usually signals a change in setting, time, or major stage action."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. If two stories both end with a celebration in a Ghanaian village, they share a similar:",
+        options: [
+          "Climax",
+          "Resolution",
+          "Conflict",
+          "Setting only"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A celebration at the end of a story is part of the resolution because it happens after the conflict has been solved."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The classroom was a zoo during the break period.\" This is an example of:",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Idiom"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A metaphor compares two unlike things directly without using 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a simile?",
+        options: [
+          "The sun is a golden ball.",
+          "The sun smiled down on us.",
+          "The sun is as bright as a lamp.",
+          "The sun hid behind the clouds."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A simile compares two things using the words 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the sentence \"The waves danced along the shore,\" which device is used?",
+        options: [
+          "Idiom",
+          "Metaphor",
+          "Personification",
+          "Simile"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Personification gives human actions or qualities to non-human things, such as waves 'dancing'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If someone says \"Break a leg\" before you go on stage for a play, they mean:",
+        options: [
+          "They want you to get hurt.",
+          "You should be careful.",
+          "Good luck.",
+          "You should stop walking."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Break a leg\" is an idiom commonly used in theatre to wish someone good luck before a performance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. \"He is as busy as a bee.\" This comparison is a:",
+        options: [
+          "Personification",
+          "Metaphor",
+          "Simile",
+          "Narrative"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The phrase uses 'as...as' to compare two things, making it a simile."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Anansi tries to keep all the wisdom in the world in a pot, but the pot breaks and the wisdom spreads to everyone. What is the theme?",
+        options: [
+          "Wisdom is dangerous.",
+          "Knowledge should be shared, not hidden.",
+          "Spiders are not good at carrying pots.",
+          "How to climb a tree."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that knowledge is most valuable when it is shared with others rather than kept by one person."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a 'Theme' and NOT a 'Plot'?",
+        options: [
+          "A boy goes to the market to buy plantain.",
+          "The importance of being brave in difficult times.",
+          "The teacher gave a difficult test on Tuesday.",
+          "Accra is the capital city of Ghana."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A theme is the main message or lesson of a story, while a plot is the sequence of events."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a film uses bright, cheerful music and shows people dancing together at a festival, what theme is likely being shown?",
+        options: [
+          "Sadness",
+          "Loneliness",
+          "Cultural Joy and Unity",
+          "Fear"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cheerful music and people celebrating together suggest the theme of cultural joy and unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When you 'adapt' a theme into a new story, you are:",
+        options: [
+          "Copying the story exactly word-for-word.",
+          "Creating a new story that carries the same central message.",
+          "Deleting the theme entirely.",
+          "Changing the language to one you don't understand."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Adapting a theme means creating a different story while keeping the same central idea or lesson."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which ICT tool is best for typing and organising a story about the theme of 'Honesty'?",
+        options: [
+          "A calculator",
+          "A word processing app on your iPad",
+          "The camera app",
+          "The battery settings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A word processing app is designed for writing, editing, and organising stories and other documents."
+    ),
+  ],
+);
+
 ///Religious & Moral Education
 final IndependentPracticeModel RMEs1ss1Lesson1IndependentQuizData =
     IndependentPracticeModel(

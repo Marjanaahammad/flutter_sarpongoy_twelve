@@ -16728,6 +16728,2415 @@ final QuizModel jhs3s3ss3Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which conjunction shows a condition?",
+      options: [
+        "but",
+        "since",
+        "if",
+        "or"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'If' is used to show that one action depends on another.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the best connector for similarity: 'Ama loves dancing; ________, her brother enjoys music.'",
+      options: [
+        "likewise",
+        "however",
+        "because",
+        "until"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Likewise' shows that the two ideas are similar.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The boy who won the race is my cousin.' The bolded part is a:",
+      options: [
+        "Adverbial phrase",
+        "Relative clause",
+        "Noun phrase",
+        "Coordinating conjunction"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It is a relative clause because it begins with 'who' and describes the noun 'boy'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word indicates a concession (giving in to a contrasting point)?",
+      options: [
+        "therefore",
+        "although",
+        "and",
+        "soon"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Although' introduces a contrasting idea that does not prevent the main action.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sentence uses a purpose clause?",
+      options: [
+        "I ran because I was late.",
+        "I ran so that I would catch the bus.",
+        "I ran while it was raining.",
+        "I ran but I was tired."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'So that' introduces the purpose or goal of the action.",
+    ),
+
+    QuizQuestion(
+      question: "6. To show a sequence in time, which word is appropriate?",
+      options: [
+        "Secondly",
+        "Nevertheless",
+        "Afterwards",
+        "For example"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Afterwards' indicates that one event happened after another.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'Even though the sun was hot, the farmers continued to work.' This sentence shows:",
+      options: [
+        "Addition",
+        "Contrast",
+        "Reason",
+        "Result"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Even though' highlights the contrast between the hot weather and the farmers' actions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a transitional device used to add information?",
+      options: [
+        "Furthermore",
+        "However",
+        "Consequently",
+        "Unless"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Furthermore' is used to introduce additional supporting information.",
+    ),
+
+    QuizQuestion(
+      question: "9. Choose the best topic sentence for a paragraph about Kejetia Market.",
+      options: [
+        "I like eating fried rice.",
+        "My grandmother lives in Kumasi.",
+        "Kejetia Market is a busy hub of trade and culture.",
+        "The bus was very late yesterday."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A topic sentence introduces the main idea that the rest of the paragraph develops.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the effect of using 'nevertheless' in a paragraph?",
+      options: [
+        "It lists items in order.",
+        "It shows a conclusion.",
+        "It introduces a contrasting idea.",
+        "It gives an example."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Nevertheless' introduces a point that contrasts with what has just been stated.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A narrative essay should be organized in a ________ sequence.",
+      options: [
+        "random",
+        "logical",
+        "reverse",
+        "complicated"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "To maintain clarity and interest, events in a narrative should follow a logical sequence.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector shows cause and effect?",
+      options: [
+        "next",
+        "because",
+        "who",
+        "soon"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Because' links an action or event to its reason or cause.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The old man with the walking stick crossed the road.' The bolded part is a:",
+      options: [
+        "Relative clause",
+        "Noun phrase",
+        "Adjectival phrase",
+        "Conjunction"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'With the walking stick' describes the noun 'man', making it an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is used to show a sequence in time?",
+      options: [
+        "although",
+        "unless",
+        "afterwards",
+        "whereas"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Afterwards' indicates that one event happened after another.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the topic sentence usually appear in a well-structured paragraph?",
+      options: [
+        "At the very end",
+        "Only in the conclusion",
+        "Usually at the beginning",
+        "It is not necessary"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The topic sentence normally appears at the beginning to introduce the main idea of the paragraph.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which connector helps to order ideas?",
+      options: [
+        "suddenly",
+        "secondly",
+        "provided that",
+        "but"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Secondly' is used to list ideas or events in sequence.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'The girl who won the spelling bee is in my class.' What type of clause is this?",
+      options: [
+        "Conditional clause",
+        "Relative clause",
+        "Time clause",
+        "Reason clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The clause begins with 'who' and identifies which girl is being referred to, making it a relative clause.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which word shows a result?",
+      options: [
+        "similarly",
+        "consequently",
+        "provided that",
+        "for example"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Consequently' introduces the result or outcome of a previous action or event.",
+    ),
+
+    QuizQuestion(
+      question: "9. To show a contrast in your writing, which word should you use?",
+      options: [
+        "in addition",
+        "however",
+        "therefore",
+        "next"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'However' introduces a contrasting idea or point.",
+    ),
+
+    QuizQuestion(
+      question: "10. A complete paragraph must show cohesion, which means:",
+      options: [
+        "All sentences are very long.",
+        "The ideas flow together smoothly.",
+        "Every sentence starts with 'And.'",
+        "There are no full stops."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Cohesion means that sentences are logically connected and flow smoothly from one idea to the next.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In a formal letter, 'Nevertheless' is used to show:",
+      options: [
+        "Addition",
+        "Time",
+        "Contrast",
+        "Result"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Nevertheless' is a formal connector used to introduce a contrasting point.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which is a proper formal closing for a letter to someone you don't know?",
+      options: [
+        "Your friend",
+        "Catch you later",
+        "Yours faithfully",
+        "Best wishes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Yours faithfully' is the standard formal closing when the recipient's name is unknown.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Because the rain was heavy, the roof began to leak.' This sentence uses a:",
+      options: [
+        "Time clause",
+        "Reason clause",
+        "Relative clause",
+        "Place clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Because' introduces the reason why the roof began to leak.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which connector is best for ordering points in a letter of complaint?",
+      options: [
+        "However",
+        "Firstly",
+        "Similarly",
+        "Unless"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Firstly' helps organize ideas or complaints in a logical order.",
+    ),
+
+    QuizQuestion(
+      question: "5. A non-defining relative clause (using commas) is used to:",
+      options: [
+        "Provide essential information",
+        "Provide extra, non-essential information",
+        "Start a sentence",
+        "End a paragraph"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A non-defining relative clause adds extra information about a noun that is already clearly identified.",
+    ),
+
+    QuizQuestion(
+      question: "6. Choose the best topic sentence for a letter asking for a new football.",
+      options: [
+        "The weather is very hot today.",
+        "Our current football is burst and cannot be repaired.",
+        "I like playing sports with my friends.",
+        "We ate banku for lunch."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It clearly states the main reason for the request.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'Moreover' is a synonym for:",
+      options: [
+        "But",
+        "In addition",
+        "Therefore",
+        "Since"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Moreover' means 'in addition' and is used to add supporting information.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which word shows a condition?",
+      options: [
+        "unless",
+        "after",
+        "while",
+        "so"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Unless' introduces a condition that must be met for something to happen.",
+    ),
+
+    QuizQuestion(
+      question: "9. To end a formal letter by showing the consequence of an action, use:",
+      options: [
+        "Firstly",
+        "Although",
+        "Consequently",
+        "Such as"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Consequently' signals the result or consequence of a previous action or statement.",
+    ),
+
+    QuizQuestion(
+      question: "10. Paragraph coherence is best achieved by:",
+      options: [
+        "Using the same word repeatedly.",
+        "Using logical connectors and pronouns.",
+        "Making every paragraph the same length.",
+        "Using only short sentences."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Logical connectors and pronouns help link ideas together and create a smooth flow between sentences.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The primary goal of a summary is to provide the:",
+      options: [
+        "Minor details",
+        "Main ideas",
+        "Personal opinions",
+        "Full dialogue"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A summary focuses only on the most important points or main ideas.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector shows a result in a summary?",
+      options: [
+        "Nevertheless",
+        "Consequently",
+        "Furthermore",
+        "Firstly"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Consequently' shows the outcome or result of the events being summarized.",
+    ),
+
+    QuizQuestion(
+      question: "\"3. 'Although the harvest was small, the farmers were happy.' This sentence shows:",
+      options: [
+        "Addition",
+        "Contrast",
+        "Reason",
+        "Time"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Although' highlights a contrast between the small harvest and the farmers' happiness.",
+    ),
+
+    QuizQuestion(
+      question: "4. To achieve paragraph unity in a summary, all sentences must:",
+      options: [
+        "Rhyme",
+        "Be the same length",
+        "Support the main theme",
+        "Start with a capital 'T'"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Paragraph unity means every sentence contributes to the central idea.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which part of a sentence can usually be removed during summarisation?",
+      options: [
+        "The subject",
+        "The main verb",
+        "Non-defining relative clauses",
+        "The topic sentence"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Non-defining relative clauses add extra, non-essential information that can often be omitted in a summary.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'In addition to cocoa, Ghana exports gold.' The connector 'In addition to' shows:",
+      options: [
+        "Contrast",
+        "Addition",
+        "Time",
+        "Place"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It adds another item to the list of exports.",
+    ),
+
+    QuizQuestion(
+      question: "7. A summary must be cohesive, meaning:",
+      options: [
+        "It is written in pencil.",
+        "The sentences are logically connected.",
+        "It contains no adjectives.",
+        "It is at least five pages long."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cohesion ensures the summary flows smoothly as one connected piece of writing.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which phrase is an adjectival phrase?",
+      options: [
+        "The very old man",
+        "He ran fast",
+        "In the house",
+        "Because of the rain"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It describes the noun 'man', making it an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'Finally, the project was completed.' The word 'Finally' indicates:",
+      options: [
+        "A reason",
+        "A sequence in time",
+        "A comparison",
+        "A contradiction"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Finally' signals the last step or end of a sequence of events.",
+    ),
+
+    QuizQuestion(
+      question: "10. If a summary includes the writer's personal feelings, it lacks:",
+      options: [
+        "Length",
+        "Objectivity",
+        "Commas",
+        "Complexity"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A good summary presents the original author's ideas objectively, without the summariser's personal opinions.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is a \"powerful\" adjective to replace \"bad\" in a scary story?",
+      options: [
+        "Unpleasant",
+        "Sinister",
+        "Not good",
+        "Poor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Sinister' suggests a specific, frightening mood better than 'bad'.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the sentence \"Tired and hungry, Kwame finally reached home,\" what technique is used?",
+      options: [
+        "Listing",
+        "Frontloading",
+        "Climactic structure",
+        "Selective detail"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The descriptive adjectives are placed at the very start of the sentence.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence best uses listing to show a busy kitchen?",
+      options: [
+        "The kitchen was very busy during the lunch hour.",
+        "Clanging pots, sizzling oil, and shouting chefs filled the room.",
+        "People were cooking a lot of food in the kitchen.",
+        "The chef was angry because the kitchen was messy."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A list of sensory details (sounds) effectively conveys the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "4. To describe a peaceful beach, which adjectives are most effective?",
+      options: [
+        "Loud, crowded, hot",
+        "Serene, shimmering, tranquil",
+        "Big, blue, wet",
+        "Sandy, salty, windy"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Serene' and 'tranquil' specifically create a peaceful mood.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sentence follows a climactic structure?",
+      options: [
+        "Kofi found a pesewa, then a cedi, then a hundred-cedi note!",
+        "Kofi found some money on the ground while walking.",
+        "There was a hundred-cedi note, a cedi, and a pesewa.",
+        "Finding money is always a very lucky thing to happen."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The items increase in value and importance, building excitement.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the purpose of using selective detail for a character?",
+      options: [
+        "To make the story as long as possible.",
+        "To describe every single thing the character is wearing.",
+        "To highlight specific traits that reveal personality.",
+        "To avoid using any adjectives at all."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Focusing on key details helps the reader understand the character's personality and essence.",
+    ),
+
+    QuizQuestion(
+      question: "7. Choose the most descriptive sentence for a rainy day in Kumasi.",
+      options: [
+        "It rained a lot in Kumasi yesterday afternoon.",
+        "The water fell from the sky onto the streets.",
+        "Torrential rain lashed against the zinc roofs, drowning out all talk.",
+        "I stayed inside because the rain was very heavy."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Torrential' and 'lashed' are powerful words that create a vivid scene.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"The old woman's face was a map of a thousand stories.\" This uses detail to suggest:",
+      options: [
+        "She is a geography teacher.",
+        "She has traveled to many countries.",
+        "She is very old and has lived a long, full life.",
+        "She is lost and needs a map."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The metaphor uses wrinkles as signs of age and life experience.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is NOT a way to vary sentence structure for effect?",
+      options: [
+        "Using the same Subject-Verb pattern for every sentence.",
+        "Frontloading with a descriptive phrase.",
+        "Using a climactic sequence of events.",
+        "Listing multiple sensory details."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Repeating the same sentence pattern makes writing repetitive and less engaging.",
+    ),
+
+    QuizQuestion(
+      question: "10. To create an ominous mood, which description fits best?",
+      options: [
+        "Bright sunflowers danced in the warm breeze.",
+        "The sun was yellow and the sky was blue.",
+        "A cold, whistling wind crept through the shattered window.",
+        "Children were playing happily in the garden."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Cold', 'whistling', and 'shattered' create a strong sense of unease and danger.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main difference between Backstory and Flashback?",
+      options: [
+        "Backstory is a scene; Flashback is just information.",
+        "Backstory is general history; Flashback is a specific past event shown in the present.",
+        "They are exactly the same thing.",
+        "Backstory happens in the future; Flashback happens in the past."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Backstory provides general background, while a flashback presents a specific past event within the current narrative.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which technique creates suspense by dropping hints?",
+      options: [
+        "Foreshadowing",
+        "Flashback",
+        "Emotive writing",
+        "Backstory"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Foreshadowing gives readers clues about events that will happen later in the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"The bitter taste of betrayal lingered in his mouth like spoiled milk.\" This is an example of:",
+      options: [
+        "Flash-forward",
+        "Backstory",
+        "Sensory emotive detail",
+        "Chronological order"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The sentence uses sensory imagery and emotion to create a vivid experience for the reader.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why might an author use a Flash-forward?",
+      options: [
+        "To explain why a character is currently angry.",
+        "To show the consequences of a character's current choices.",
+        "To describe what the character ate for breakfast.",
+        "To give hints about a character's childhood."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A flash-forward reveals future events or consequences to build suspense or emphasize outcomes.",
+    ),
+
+    QuizQuestion(
+      question: "5. If a character's \"hands are shaking\" and their \"voice is trembling,\" the author is:",
+      options: [
+        "Telling us they are cold.",
+        "Using foreshadowing.",
+        "Describing their backstory.",
+        "Showing us they are afraid or anxious."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "These physical reactions reveal the character's fear or anxiety through showing rather than telling.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a story, a character finds a key in Chapter 1. In Chapter 10, they find the box it opens. The mention of the key in Chapter 1 is:",
+      options: [
+        "A Flash-forward",
+        "Foreshadowing",
+        "A Flashback",
+        "Emotive detail"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Introducing the key early hints at its later importance, making it an example of foreshadowing.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which narrative technique helps a reader understand a character's motivations?",
+      options: [
+        "Flash-forward",
+        "Backstory",
+        "Punctuation",
+        "Foreshadowing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Backstory explains a character's past experiences, helping readers understand their motivations.",
+    ),
+
+    QuizQuestion(
+      question: "8. Choose the best flashback trigger:",
+      options: [
+        "Hearing a song that played at a funeral years ago.",
+        "Looking at a watch to check the time.",
+        "Walking into a modern shopping mall.",
+        "Reading a textbook about science."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Memories are often triggered by familiar sounds, smells, or objects connected to past experiences.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Free writing\" is most useful for:",
+      options: [
+        "Expressing a character's internal thoughts and feelings.",
+        "Writing a formal business letter.",
+        "Creating a table of contents.",
+        "Writing a scientific report."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Free writing allows ideas, thoughts, and emotions to flow naturally without worrying about structure.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence is NOT using sensory details?",
+      options: [
+        "The rough bark of the shea tree scraped my skin.",
+        "He felt sad because he lost his pen.",
+        "The shrill whistle of the train pierced the silence.",
+        "A sweet, floral scent wafted from the garden."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "This sentence states an emotion directly instead of appealing to the senses such as touch, sound, or smell.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary goal of an argumentative piece?",
+      options: [
+        "To tell a funny story.",
+        "To list items for sale.",
+        "To state and defend a position.",
+        "To describe a character's looks."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "An argumentative piece aims to present, support, and defend a particular point of view.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a modal verb?",
+      options: [
+        "Should",
+        "Think",
+        "Letter",
+        "Argue"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "'Should' is a modal verb used to express advice, obligation, or possibility.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we use the simple present tense in persuasive writing?",
+      options: [
+        "To talk about what we did yesterday.",
+        "To convey timeless statements and facts.",
+        "To describe a dream we had.",
+        "To ask a question about the future."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The simple present tense is commonly used to express facts, opinions, and general truths.",
+    ),
+
+    QuizQuestion(
+      question: "4. A \"rejoinder\" is a reply to:",
+      options: [
+        "A private text message.",
+        "A published article or letter.",
+        "A friend's invitation.",
+        "A shopping list."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rejoinder is a formal response to a published opinion, article, or letter.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which phrase is a mental verb phrase?",
+      options: [
+        "I believe",
+        "In my opinion",
+        "To the editor",
+        "Very fast"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'I believe' expresses a mental process of thinking or believing.",
+    ),
+
+    QuizQuestion(
+      question: "6. In the format of a rejoinder, what comes directly after the date?",
+      options: [
+        "The recipient's address.",
+        "The signature.",
+        "The first paragraph.",
+        "The sender's address."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "In a formal letter, the recipient's address is written immediately after the date.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"We could possibly reconsider the school uniform policy.\" This is an example of:",
+      options: [
+        "A direct command.",
+        "Hedging.",
+        "A timeless fact.",
+        "Backstory."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Words such as 'could' and 'possibly' soften a claim, making it an example of hedging.",
+    ),
+
+    QuizQuestion(
+      question: "8. What must be included in a rejoinder to support your arguments?",
+      options: [
+        "Drawings.",
+        "References or evidence.",
+        "A list of hobbies.",
+        "A map of the city."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Strong arguments in a rejoinder should always be supported with evidence or references.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is the most professional salutation for a rejoinder to a newspaper?",
+      options: [
+        "Hey Editor,",
+        "Dear Editor,",
+        "To whom it may concern,",
+        "Hi,"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Dear Editor,' is the standard formal salutation when writing to a newspaper editor.",
+    ),
+
+    QuizQuestion(
+      question: "10. Where does the recipient's address go in a formal letter?",
+      options: [
+        "Above your own address.",
+        "At the very end of the letter.",
+        "On the right side, below the date.",
+        "On the left side, below the date."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "In the standard format of a formal letter, the recipient's address is placed on the left below the date.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of an informative text?",
+      options: [
+        "To tell a fictional story.",
+        "To provide facts and explain a situation.",
+        "To convince someone to buy a product.",
+        "To write a poem."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "An informative text presents factual information and explains ideas or situations clearly.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which is an example of an explanatory detail?",
+      options: [
+        "The car is red.",
+        "The engine overheated because the coolant level was too low.",
+        "I like driving the car.",
+        "The car is very fast."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This detail explains why the engine overheated by giving its cause.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why should reports be devoid of personal bias?",
+      options: [
+        "To make them more exciting.",
+        "To ensure they are fair and based on proven facts.",
+        "Because opinions are more important than facts.",
+        "To make the report longer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Objective reports rely on verified facts rather than personal opinions.",
+    ),
+
+    QuizQuestion(
+      question: "4. When describing a problem, you should also indicate:",
+      options: [
+        "How it needs to be done or fixed.",
+        "Who you think is to blame.",
+        "How much you dislike the problem.",
+        "A story about a similar problem."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A good informative report explains the problem and suggests how it can be addressed.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"The bridge collapsed due to heavy rainfall and weak foundations.\" This explains:",
+      options: [
+        "How a situation occurs.",
+        "Why a situation occurs.",
+        "Both how and why it occurred.",
+        "Personal feelings about the bridge."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The sentence explains both the event and its causes.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is not objective?",
+      options: [
+        "Thirty",
+        "Heavy",
+        "Horrible",
+        "Metal"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'Horrible' expresses a personal judgment rather than an objective fact.",
+    ),
+
+    QuizQuestion(
+      question: "7. Informative texts should be organised:",
+      options: [
+        "Randomly.",
+        "Logically.",
+        "By importance, with the least important first.",
+        "Only using pictures."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Logical organisation helps readers understand information clearly and easily.",
+    ),
+
+    QuizQuestion(
+      question: "8. A report on a science experiment is an example of:",
+      options: [
+        "Narrative writing.",
+        "Explanatory writing.",
+        "Persuasive writing.",
+        "Creative writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Science reports explain observations, methods, and results objectively.",
+    ),
+
+    QuizQuestion(
+      question: "9. When writing about cultural differences in a report, you must:",
+      options: [
+        "Use your own personal bias.",
+        "Only include things that can be measured or proven.",
+        "Avoid mentioning culture entirely.",
+        "Make assumptions about people."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Reports should present verifiable facts and avoid assumptions or bias.",
+    ),
+
+    QuizQuestion(
+      question: "10. What does it mean to \"indicate how it will work\" in a text?",
+      options: [
+        "To guess the future.",
+        "To provide clear steps or a plan for the solution.",
+        "To write a poem about the result.",
+        "To describe the history of the problem."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This means explaining the process or steps needed to make the solution work.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which document is used to plan the order of a meeting?",
+      options: [
+        "Business Letter",
+        "Email",
+        "Agenda",
+        "Minute"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "An agenda lists the items to be discussed and the order of a meeting.",
+    ),
+
+    QuizQuestion(
+      question: "2. Formal writing should be devoid of:",
+      options: [
+        "Headings",
+        "Bullet points",
+        "Abbreviations and slang",
+        "Signatures"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Formal writing should avoid abbreviations and slang to maintain a professional tone.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where do section headings typically appear?",
+      options: [
+        "Only in the signature.",
+        "In formal reports or long emails to organise points.",
+        "In the sender's address.",
+        "They are never used in formal writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Section headings help organise ideas and improve readability in longer formal documents.",
+    ),
+
+    QuizQuestion(
+      question: "4. When taking minutes, you should record:",
+      options: [
+        "Every single word everyone said.",
+        "Only what people were wearing.",
+        "Key points, discussions, and decisions.",
+        "Your personal opinion of the meeting."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Minutes summarize the important discussions, decisions, and actions from a meeting.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'Yours sincerely' is used when:",
+      options: [
+        "You do not know the person's name.",
+        "You are writing to a close friend.",
+        "You know the person's name (e.g., Dear Mr. Mensah).",
+        "You are writing an anonymous letter."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "'Yours sincerely' is the correct complimentary close when you know the recipient's name.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which ICT tool is most commonly used for publishing formal writing?",
+      options: [
+        "A calculator",
+        "A word processor (like Microsoft Word or Google Docs)",
+        "A camera",
+        "A radio"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Word processors are designed for creating, editing, formatting, and publishing formal documents.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is proofreading for 'effect' important?",
+      options: [
+        "To make the letter look longer.",
+        "To ensure the tone is appropriate for the recipient.",
+        "To add more abbreviations.",
+        "To change the date."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Proofreading ensures the writing has the intended tone and creates the right impression on the reader.",
+    ),
+
+    QuizQuestion(
+      question: "8. A formal email should always have a:",
+      options: [
+        "Subject line",
+        "Picture of the sender",
+        "List of hobbies",
+        "Story about the sender's childhood"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A clear subject line tells the recipient the purpose of the email before they read it.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'We have received your application' is better than 'We got your app' because:",
+      options: [
+        "It uses formal language and no abbreviations.",
+        "It is shorter.",
+        "It uses slang.",
+        "It is less clear."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Formal writing uses complete words and professional language instead of abbreviations or slang.",
+    ),
+
+    QuizQuestion(
+      question: "10. In an agenda, what does 'A.O.B.' usually stand for?",
+      options: [
+        "Always On Board",
+        "Any Other Business",
+        "At Our Best",
+        "All Over Business"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "'A.O.B.' stands for 'Any Other Business,' where additional matters may be discussed before the meeting ends.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the standard small size for a flyer mentioned in the curriculum?",
+      options: [
+        "A1",
+        "A3",
+        "A5",
+        "A0"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A5 is the standard small paper size commonly used for flyers.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which element helps make a poster eye-catching?",
+      options: [
+        "Using very small font.",
+        "A logo or catchy headline.",
+        "Writing in only black and white.",
+        "Having no pictures at all."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A catchy headline or logo attracts attention and encourages people to read the poster.",
+    ),
+
+    QuizQuestion(
+      question: "3. An invitation card should include a dress code if:",
+      options: [
+        "The event is casual.",
+        "There is a specific requirement for what guests should wear.",
+        "It is a text message.",
+        "You don't have a location."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A dress code is included when guests are expected to wear specific clothing.",
+    ),
+
+    QuizQuestion(
+      question: "4. In an email address like aziz65@gmail.com, what is gmail.com called?",
+      options: [
+        "The server point.",
+        "The recipient's name.",
+        "The subject.",
+        "The CC."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'gmail.com' is the email service provider's domain (server point).",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do we use CC in an email?",
+      options: [
+        "To hide the recipient's name.",
+        "To include additional recipients whose attention is called to the email.",
+        "To delete the email automatically.",
+        "To check for spelling mistakes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "CC (Carbon Copy) allows additional people to receive a copy of the email.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a call to action on a flyer?",
+      options: [
+        "\"The sky is blue today.\"",
+        "\"Visit our website at www.sobolo.gh\".",
+        "\"Once upon a time...\"",
+        "\"I like to eat fufu.\""
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A call to action tells the reader what to do next, such as visiting a website.",
+    ),
+
+    QuizQuestion(
+      question: "7. What should be at the very bottom of a professional email?",
+      options: [
+        "The sender's name and contact.",
+        "The date.",
+        "A list of the sender's friends.",
+        "The recipient's address."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A professional email ends with the sender's signature, including their name and contact details.",
+    ),
+
+    QuizQuestion(
+      question: "8. A poster is generally used for:",
+      options: [
+        "Sending a private message to one person.",
+        "Communicating with a wide audience in a public space.",
+        "Writing a diary entry.",
+        "Keeping minutes of a meeting."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Posters are designed to share information with many people in public places.",
+    ),
+
+    QuizQuestion(
+      question: "9. If an invitation says \"Time: 2:00 PM - 6:00 PM,\" it is providing:",
+      options: [
+        "The location.",
+        "The dress code.",
+        "The RSVP details.",
+        "The time."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "This information tells guests when the event will take place.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is the best subject line for an email about a school trip?",
+      options: [
+        "Hello.",
+        "Information regarding the Grade 9 trip to Akosombo.",
+        "Help me.",
+        "Trip."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A good subject line is clear, specific, and tells the reader exactly what the email is about.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A magazine that focuses on poems and short stories is a:",
+      options: [
+        "Scholarly journal",
+        "Business flyer",
+        "Newspaper",
+        "Literary magazine"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A literary magazine publishes creative works such as poems and short stories.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which publication is primarily found online?",
+      options: [
+        "Daily Graphic",
+        "Library archive",
+        "School noticeboard",
+        "Webzine"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A webzine is an online magazine published on the internet.",
+    ),
+
+    QuizQuestion(
+      question: "3. A \"Letter to the Editor\" is usually written to:",
+      options: [
+        "Complain to a friend.",
+        "Describe a dream.",
+        "Ask for a loan.",
+        "Express an opinion on a public issue."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Letters to the editor allow readers to express opinions or comments on public issues.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Staff writers\" are people who:",
+      options: [
+        "Only write for themselves.",
+        "Are employed by a publication to write content.",
+        "Don't know how to write.",
+        "Only write letters to their family."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Staff writers are employed by newspapers, magazines, or other publications to create content.",
+    ),
+
+    QuizQuestion(
+      question: "5. A Case Study is different from a report because it is:",
+      options: [
+        "Shorter.",
+        "More in-depth and focused on a specific example.",
+        "Always about animals.",
+        "Not factual."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A case study examines one specific situation or example in greater detail than a general report.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is self-publication?",
+      options: [
+        "Writing for a big newspaper.",
+        "Publishing your own work yourself.",
+        "Reading someone else's book.",
+        "Printing a dictionary."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Self-publication means an author publishes their own work without a traditional publisher.",
+    ),
+
+    QuizQuestion(
+      question: "7. Scholarly journals are mostly written for:",
+      options: [
+        "Young children.",
+        "Experts and researchers.",
+        "People looking for recipes.",
+        "Sports fans."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Scholarly journals are intended for researchers, academics, and professionals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a typical topic for a short report?",
+      options: [
+        "A review of a new school policy.",
+        "A fairy tale about a dragon.",
+        "A list of your favourite songs.",
+        "A drawing of a cat."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Short reports present factual information or analysis on real topics, such as a school policy.",
+    ),
+
+    QuizQuestion(
+      question: "9. What helps make a report \"organised\"?",
+      options: [
+        "Using different coloured pens.",
+        "Using clear headings and logical sections.",
+        "Writing in circles.",
+        "Not using any punctuation."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Clear headings and logical sections help readers follow the report easily.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the \"audience\" important in writing for publication?",
+      options: [
+        "It isn't important at all.",
+        "It determines the tone and style of the writing.",
+        "So you know how much money to charge.",
+        "So you can see who is reading your diary."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Knowing your audience helps you choose the appropriate language, tone, and style.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of the speech \"tells them what you are going to tell them\"?",
+      options: [
+        "Body",
+        "Introduction",
+        "Conclusion",
+        "RSVP"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The introduction tells the audience what the speech will be about.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"It's your country, it's my country, it's our future!\" is an example of:",
+      options: [
+        "Tripling",
+        "A flashback",
+        "Objective language",
+        "A case study"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Tripling uses three related ideas to make a message more memorable and persuasive.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do speakers use the word \"we\"?",
+      options: [
+        "Because they forgot their own name.",
+        "To include the audience and create a sense of unity.",
+        "To make the speech shorter.",
+        "To confuse the listeners."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Using 'we' makes the audience feel included and united with the speaker.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is powerful imagery?",
+      options: [
+        "Drawing a picture on a piece of paper.",
+        "Using descriptive words to create a mental picture for the audience.",
+        "Taking a photo of the crowd.",
+        "Speaking very loudly."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Powerful imagery uses descriptive language to help the audience imagine scenes vividly.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a parallel sentence structure?",
+      options: [
+        "I like fufu. Rice is good too.",
+        "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+        "The weather is very hot today in Accra.",
+        "Please remember to bring your books to class."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Parallel structure repeats the same grammatical pattern to strengthen a speech.",
+    ),
+
+    QuizQuestion(
+      question: "6. Emotive adjectives like \"wonderful\" or \"magnificent\" are used to:",
+      options: [
+        "State a scientific fact.",
+        "Create an emotional effect on the audience.",
+        "List the price of items.",
+        "Correct someone's grammar."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Emotive adjectives appeal to the audience's feelings and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "7. The Body of the speech is where you:",
+      options: [
+        "Tell them (explain your main points).",
+        "Say goodbye.",
+        "Introduce yourself.",
+        "Give your phone number."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The body contains the main ideas, explanations, and supporting details of the speech.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Repetition\" in a speech helps to:",
+      options: [
+        "Make the speaker sound bored.",
+        "Emphasize an important point so the audience remembers it.",
+        "Make the speech exactly one hour long."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Repeating key words or phrases reinforces important ideas and improves recall.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is the best example of a \"Call to Action\" for a conclusion?",
+      options: [
+        "\"In conclusion, I have finished talking.\"",
+        "\"I am going to sit down now.\"",
+        "\"The time is now 10:00 AM.\"",
+        "\"Let us go forth and build the Ghana we want!\""
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A call to action encourages the audience to take positive action after the speech.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Shocking, disgraceful, and outrageous!\" This uses:",
+      options: [
+        "Tripling and emotive adjectives.",
+        "Objective language.",
+        "A flashback."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The phrase combines tripling with emotive adjectives to create a strong emotional impact.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first step in starting a research project?",
+      options: [
+        "Writing the final report",
+        "Listing references",
+        "Identifying an issue of interest",
+        "Avoiding plagiarism"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A research project begins by identifying a topic or issue to investigate.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why do researchers use focused questions?",
+      options: [
+        "To make the project take longer",
+        "To guide the investigation and stay on track",
+        "To confuse the people they are interviewing",
+        "To avoid using the internet"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Focused questions help guide the research and identify the information that needs to be collected.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is a digital source for research?",
+      options: [
+        "An interview with a market queen",
+        "A visit to a cocoa farm",
+        "An educational website on the internet",
+        "Observations made in the classroom"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Educational websites and online databases are examples of digital research sources.",
+    ),
+
+    QuizQuestion(
+      question: "4. When you write down the information you found during your research, you are:",
+      options: [
+        "Recording findings",
+        "Plagiarising",
+        "Asking focused questions",
+        "Identifying issues"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Recording findings means documenting the information you have gathered during research.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is an example of a focused question regarding Ghanaian cocoa products?",
+      options: [
+        "Is chocolate sweet?",
+        "Do you like cocoa?",
+        "Which companies manufacture cocoa powder in Ghana?",
+        "Is cocoa a plant?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A focused research question asks for specific information that can be investigated.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does it mean to organise findings for a presentation?",
+      options: [
+        "Throwing away all your notes",
+        "Putting data into a logical order, like a list or table",
+        "Reading your notes aloud to yourself",
+        "Using as many big words as possible"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Organising findings makes the information clear and easy for an audience to understand.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does a student avoid plagiarism?",
+      options: [
+        "By not doing the research",
+        "By making a list of references",
+        "By using only their own opinions",
+        "By copying from a textbook without a name"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Giving references acknowledges the original source of information and helps avoid plagiarism.",
+    ),
+
+    QuizQuestion(
+      question: "8. If Ama uses a quote from a book about Dr. Kwame Nkrumah, where should she put the book title?",
+      options: [
+        "In the Hook",
+        "In the focused questions",
+        "In the list of references",
+        "In the student text"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Book titles and authors should appear in the references section to credit the original source.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is an ethical way to conduct research?",
+      options: [
+        "Inventing prices for sachet water",
+        "Reporting the exact findings from an investigation",
+        "Copying a friend's research project",
+        "Deleting findings that you don't like"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Good research requires honesty and accurate reporting of findings.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the primary goal of a short research project in school?",
+      options: [
+        "To buy new products",
+        "To build and present knowledge about a topic",
+        "To practice your drawing skills",
+        "To spend time outside the classroom"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "School research projects help students gather, understand, and present knowledge about a topic.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are the four main ways an author develops a character?",
+      options: [
+        "Appearance, actions, speech, and what others say",
+        "Food, clothes, height, and weight",
+        "Name, age, school, and village",
+        "Pen, paper, ink, and books"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Authors develop characters through their appearance, actions, speech, and what other characters say about them.",
+    ),
+
+    QuizQuestion(
+      question: "2. A character's clothing falls under which category?",
+      options: [
+        "Speech",
+        "Actions",
+        "Appearance",
+        "Opinions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Appearance includes everything we can observe about a character's physical features and clothing.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a Ghanaian play, if a character uses many traditional proverbs, they are often seen as:",
+      options: [
+        "Uneducated",
+        "Wise or elderly",
+        "Rude",
+        "A foreigner"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Traditional proverbs often represent wisdom, experience, and cultural knowledge.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which element of characterisation is shown when a boy saves a drowning dog from a gutter?",
+      options: [
+        "Speech",
+        "Appearance",
+        "Actions",
+        "Others' opinions"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A character's actions reveal important traits such as bravery and kindness.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is 'what others say' a powerful tool for a writer?",
+      options: [
+        "It saves the writer from having to describe the character.",
+        "It creates a reputation or preconceived notion for the audience.",
+        "It makes the dialogue more confusing.",
+        "It allows characters to tell lies."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Other characters' opinions shape how readers perceive a character before meeting them directly.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a character's dialogue is filled with insults and shouting, what can we infer about their personality?",
+      options: [
+        "They are very peaceful.",
+        "They are likely aggressive or frustrated.",
+        "They are very shy.",
+        "They are highly respected."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Speech often reflects a character's emotions, attitudes, and personality.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student who arrives at school every day with a perfectly tucked-in shirt and polished shoes is characterised as:",
+      options: [
+        "Messy",
+        "Disciplined and neat",
+        "Tired",
+        "Athletic"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A neat appearance suggests discipline, responsibility, and care.",
+    ),
+
+    QuizQuestion(
+      question: "8. An 'inference' in characterisation is:",
+      options: [
+        "Reading exactly what the author wrote.",
+        "Using clues to figure out a character's traits on your own.",
+        "Ignoring the character's actions.",
+        "Changing the character's name."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Readers make inferences by combining clues from the text with their own reasoning.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which combination of elements would best show a 'Villain'?",
+      options: [
+        "Soft speech, helping the elderly, and wearing bright colours.",
+        "Harsh actions, others whispering that they are dangerous, and a cold stare.",
+        "Quiet appearance, staying at home, and reading books.",
+        "Giving gifts to children and speaking politely."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Consistent clues from appearance, actions, and others' opinions create the image of a threatening character.",
+    ),
+
+    QuizQuestion(
+      question: "10. How does characterisation contribute to the meaning of a story?",
+      options: [
+        "It makes the book heavier.",
+        "It tells the reader exactly where the story takes place.",
+        "It provides a list of names for the quiz.",
+        "It helps the reader understand the reasons behind the events and the themes."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Understanding characters helps readers understand the motivations, events, and themes explored in the story.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The word 'mono' in monologue means:",
+      options: [
+        "Many",
+        "Two",
+        "One",
+        "Loud"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Mono' is a prefix meaning one or single.",
+    ),
+
+    QuizQuestion(
+      question: "2. In which literary genre are you most likely to find a monologue or dialogue?",
+      options: [
+        "Drama (Plays)",
+        "Poetry",
+        "Dictionaries",
+        "Maps"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Drama relies heavily on dialogue and monologues to tell the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is written correctly for a play script?",
+      options: [
+        "\"YAA: Where are you going?\"",
+        "YAA: Where are you going?",
+        "Yaa says \"Where are you going?\"",
+        "(YAA) Where are you going?"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Play scripts use the character's name in capital letters followed by a colon, without quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "4. A character sharing their secret plans with the audience while other characters are frozen on stage is a:",
+      options: [
+        "Dialogue",
+        "Monologue",
+        "Narrator",
+        "Stage direction"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This is a monologue (specifically a soliloquy), where the character speaks their thoughts aloud.",
+    ),
+
+    QuizQuestion(
+      question: "5. Dialogue is used in a play to:",
+      options: [
+        "Make the actors tired.",
+        "Show conflict and advance the story.",
+        "Fill up empty pages.",
+        "Hide the character's personality."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dialogue reveals character relationships, conflict, and moves the plot forward.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is wrong with this script line? \"kofi: I am hungry.\"",
+      options: [
+        "The colon is missing.",
+        "The name 'kofi' should be in CAPITAL LETTERS.",
+        "There are no quotation marks.",
+        "The sentence is too short."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In standard script format, character names are written in capital letters.",
+    ),
+
+    QuizQuestion(
+      question: "7. Stage directions are usually written in:",
+      options: [
+        "Bold and underlined.",
+        "Brackets and italics.",
+        "Red ink.",
+        "Very large letters."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Stage directions are commonly placed in brackets and often italicized to distinguish them from dialogue.",
+    ),
+
+    QuizQuestion(
+      question: "8. If Ama and her mother are arguing about her school fees, they are engaging in:",
+      options: [
+        "A monologue",
+        "A dialogue",
+        "A stage direction",
+        "A reference"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A conversation between two characters is called a dialogue.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is NOT a reason to use a monologue?",
+      options: [
+        "To show a character's inner conflict.",
+        "To give the audience important information others don't know.",
+        "To allow a character to have a back-and-forth conversation.",
+        "To express deep emotion."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "A back-and-forth conversation is dialogue, not a monologue.",
+    ),
+
+    QuizQuestion(
+      question: "10. A playwright uses stage directions to describe the 'setting'. Where is this usually found?",
+      options: [
+        "Inside the dialogue.",
+        "At the beginning of a scene in brackets.",
+        "In the list of references.",
+        "Only at the very end of the play."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Stage directions describing the setting are usually placed at the beginning of a scene in brackets.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The order in which events happen in a story is called the:",
+      options: [
+        "Narrative",
+        "Monologue",
+        "Dialogue",
+        "Sequence"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A sequence is the order in which events happen in a story.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which event would most likely be the 'Introduction' of a story set in a school?",
+      options: [
+        "The students going home at 3 PM.",
+        "The bell ringing for the start of the first lesson.",
+        "The teacher giving out the final exam results.",
+        "A student winning the end-of-year prize."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The introduction sets the scene, so the beginning of the school day is the most suitable event.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a sequence of events, what usually comes immediately after the 'Conflict'?",
+      options: [
+        "The Resolution",
+        "The Author's Note",
+        "The Introduction",
+        "The Rising Action"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "After the conflict is introduced, the story moves into the rising action as characters respond to the problem.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do biographies often use a chronological sequence?",
+      options: [
+        "Because it is easier to write.",
+        "To show how a person grew and changed over their lifetime.",
+        "Because biographies cannot have dialogue.",
+        "To make the book shorter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Chronological order helps readers follow the events and development of a person's life.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a 'Key Event' in a story about a lost dog?",
+      options: [
+        "The dog barks at a butterfly.",
+        "A kind stranger finds the dog and reads its collar.",
+        "The sun is shining brightly.",
+        "There are three trees in the park."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Finding the dog and identifying its owner is a major event that moves the story toward its resolution.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does a 'Flashback' affect the sequence of a story?",
+      options: [
+        "It makes the story end faster.",
+        "It turns a dialogue into a monologue.",
+        "It skips the climax.",
+        "It interrupts the present timeline to show a past event."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A flashback takes readers back to an earlier event to provide important background information.",
+    ),
+
+    QuizQuestion(
+      question: "7. Comparing events across two different stories helps readers identify:",
+      options: [
+        "The number of pages in each book.",
+        "Common themes and plot structures.",
+        "Which book is more expensive.",
+        "The spelling mistakes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Comparing stories helps readers recognize similar themes, structures, and patterns.",
+    ),
+
+    QuizQuestion(
+      question: "8. In a play script, if Scene 1 is in a kitchen and Scene 2 is at a market, the sequence is showing a change in:",
+      options: [
+        "Character",
+        "Location",
+        "Language",
+        "Title"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A new scene often indicates that the location of the action has changed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sequence correctly describes the 'Hero's Journey' often found in Ghanaian legends?",
+      options: [
+        "Victory -> Birth -> Struggle.",
+        "Call to Adventure -> Struggle/Tests -> Great Success.",
+        "Resolution -> Climax -> Introduction.",
+        "Sleep -> Eat -> Sleep."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The hero's journey commonly begins with a call to adventure, followed by challenges, and ends in success.",
+    ),
+
+    QuizQuestion(
+      question: "10. If a story has no 'Resolution', the sequence is:",
+      options: [
+        "Perfect",
+        "Unfinished or 'open-ended'",
+        "A biography",
+        "A monologue"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A story without a resolution leaves the ending open for the reader to interpret.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is 'imagery' in a text?",
+      options: [
+        "The pictures drawn in the book",
+        "Words that create a sensory or mental picture for the reader",
+        "The list of characters",
+        "The page numbers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Imagery uses descriptive language to appeal to the reader's senses and create vivid mental pictures.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which word is a key sign that a sentence is a simile?",
+      options: [
+        "Is",
+        "Was",
+        "Like",
+        "Not"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Similes usually use words like 'like' or 'as' to compare two different things.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"The lightning danced across the sky\" is an example of:",
+      options: [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Hyperbole"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The sentence gives lightning the human action of dancing, making it an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the metaphor:",
+      options: [
+        "He eats like a horse.",
+        "He is a lion in battle.",
+        "He is as brave as a lion.",
+        "He is very brave."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A metaphor directly compares two things without using 'like' or 'as'.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does the idiom 'once in a blue moon' mean?",
+      options: [
+        "Every night",
+        "Very rarely",
+        "When the moon turns blue",
+        "During the day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Once in a blue moon' is an idiom meaning something happens very rarely.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do writers use personification?",
+      options: [
+        "To make the story harder to read.",
+        "To make objects or nature feel more relatable and alive.",
+        "To avoid using metaphors.",
+        "To count the number of people in a story."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Personification gives human qualities to non-human things, making them feel alive and engaging.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"The world is a stage\" is a famous example of:",
+      options: [
+        "Simile",
+        "Personification",
+        "Metaphor",
+        "Idiom"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It compares the world to a stage by stating that it is one, making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is an idiomatic expression?",
+      options: [
+        "He ran home quickly.",
+        "He is under the weather.",
+        "He is as tall as a tree.",
+        "The wind blew hard."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Under the weather' is an idiom meaning someone feels unwell.",
+    ),
+
+    QuizQuestion(
+      question: "9. Using imagery in a story contributes to the meaning by:",
+      options: [
+        "Making the book more expensive.",
+        "Helping the reader feel the mood and atmosphere of the setting.",
+        "Providing a list of new vocabulary words.",
+        "Replacing the need for a plot."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Imagery creates vivid mental pictures that help readers experience the mood, atmosphere, and emotions of the story.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"The car's engine coughed and sputtered before dying.\" This uses:",
+      options: [
+        "Simile only",
+        "Metaphor and idiom",
+        "Personification",
+        "No literary devices"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The engine is given human characteristics such as coughing and dying, which is personification.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of a 'Theme' in literature?",
+      options: [
+        "The list of all the characters in a play",
+        "The central message or 'big idea' of a text",
+        "The place where the story happens",
+        "The name of the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A theme is the central message or underlying idea that a story or text communicates.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a common theme in many Ghanaian stories?",
+      options: [
+        "The importance of family and community",
+        "Buying a new car",
+        "How to use a remote control",
+        "The history of London"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Many Ghanaian stories emphasize values such as family, respect, and community.",
+    ),
+
+    QuizQuestion(
+      question: "3. True or False: A story can have more than one theme.",
+      options: [
+        "True",
+        "False"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Many stories explore multiple themes, such as love, courage, sacrifice, or friendship.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a play, themes are primarily revealed through:",
+      options: [
+        "The price of the tickets",
+        "Dialogue and character interactions",
+        "The colour of the stage curtains",
+        "The number of chairs on stage"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The way characters speak, behave, and interact helps reveal the play's central ideas.",
+    ),
+
+    QuizQuestion(
+      question: "5. How is a theme different from a plot?",
+      options: [
+        "Plot is the message; theme is the action.",
+        "Plot is what happens; theme is why it matters.",
+        "There is no difference.",
+        "Plot is only for movies; theme is only for books."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The plot tells the events of the story, while the theme expresses the deeper meaning behind those events.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a story ends with a character being punished for stealing, the theme is likely:",
+      options: [
+        "Stealing is a good way to get rich.",
+        "Dishonesty has negative consequences.",
+        "The character was just unlucky.",
+        "Markets are dangerous places."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The ending reinforces the moral lesson that dishonest actions often lead to negative consequences.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student uses a digital presentation to show how 'Respect' is a theme in three different books. This is an example of:",
+      options: [
+        "Plagiarism",
+        "Analysing common themes using ICT tools",
+        "Writing a monologue",
+        "Writing a business letter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Using digital tools to compare themes across texts is an important analytical skill.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which element of a film helps to convey a theme of 'Mystery'?",
+      options: [
+        "Bright, sunny lighting",
+        "A clear, happy ending",
+        "Characters laughing loudly",
+        "Dark shadows and suspenseful music"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Lighting and music help create a mysterious atmosphere that supports the film's theme.",
+    ),
+
+    QuizQuestion(
+      question: "9. Adapting a narrative means:",
+      options: [
+        "Reading it aloud.",
+        "Memorising the first paragraph.",
+        "Translating it into another language.",
+        "Changing the form (e.g., turning a poem into a play) while keeping the theme."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Adaptation changes the form or medium of a story while preserving its main ideas or themes.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to reflect independently on your writing?",
+      options: [
+        "To make sure you didn't forget your name.",
+        "To see if you can read your own handwriting.",
+        "To count how many words you wrote.",
+        "To think critically about whether your theme is clear to the reader."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Self-reflection helps writers evaluate whether their intended message or theme is communicated effectively.",
+    ),
+  ],
+);
+
 ///Religious & Moral Education
 final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/RME/s1_ss1_l1/9. Quiz.m4a',
