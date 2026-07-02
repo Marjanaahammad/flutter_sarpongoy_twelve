@@ -5988,6 +5988,398 @@ final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = Independen
     ),
   ],
 );
+final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"A Minor Bird\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Robert Frost",
+          "Lade Wosornu",
+          "Theresa Ennin"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Minor Bird\" is a poem written by Robert Frost."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A pair of rhyming lines in a poem is called a:",
+        options: [
+          "Stanza",
+          "Couplet",
+          "Chorus",
+          "Metaphor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A couplet is a pair of consecutive lines that rhyme with each other."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What action does the speaker take to get rid of the bird?",
+        options: [
+          "He throws a stone at it.",
+          "He claps his hands at it.",
+          "He closes the window.",
+          "He starts singing louder."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The speaker claps his hands in an attempt to make the bird stop singing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main theme of the poem?",
+        options: [
+          "How to catch a bird.",
+          "The beauty of different types of music.",
+          "Learning tolerance for nature and others.",
+          "Why birds fly south for the winter."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem teaches tolerance, reminding us to respect nature even when it inconveniences us."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"Sosu and the Bukari Boys\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Sosu and the Bukari Boys\" was written by Lawrence Darmani."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the \"Moral Conflict\" in the story?",
+        options: [
+          "A fight over who is the best football player.",
+          "Sosu's struggle between being honest and following the Bukari Boys.",
+          "A disagreement about which school is better.",
+          "The difficulty of walking to the market in the rain."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sosu faces a moral conflict between doing what is right and giving in to the bad influence of the Bukari Boys."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does \"Integrity\" mean?",
+        options: [
+          "Being very fast at running.",
+          "Being honest and having strong moral principles.",
+          "Being the leader of a group.",
+          "Having a lot of money."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Integrity means being honest and consistently following strong moral values."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What role do the Bukari Boys play in Sosu's life?",
+        options: [
+          "They are his teachers.",
+          "They are a bad influence and antagonists.",
+          "They are his brothers.",
+          "They are helping him study for his BECE."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Bukari Boys act as antagonists by encouraging Sosu to make wrong choices."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"A Wreath of Tears\"?",
+        options: [
+          "Lade Wosornu",
+          "Kobena Eyi Acquah",
+          "Theresa Ennin",
+          "V. B. Aakye"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Wreath of Tears\" was written by Kobena Eyi Acquah."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a \"Wreath\"?",
+        options: [
+          "A type of Ghanaian food.",
+          "A circular arrangement of flowers for a funeral.",
+          "A song sung at a wedding.",
+          "A traditional cloth worn by chiefs."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A wreath is a circular arrangement of flowers, often used at funerals to honour the dead."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the \"circle\" of the wreath represent?",
+        options: [
+          "A zero score.",
+          "The sun in the sky.",
+          "Eternity and the continuous nature of love/memory.",
+          "A wheel for a car."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The circular shape of the wreath symbolizes eternity and the unending nature of love and remembrance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The repetition of the same consonant sound at the start of words is called:",
+        options: [
+          "Metaphor",
+          "Alliteration",
+          "Personification",
+          "Rhyme"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Alliteration is the repetition of the same initial consonant sound in nearby words."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Sleep Without Wake\"?",
+        options: [
+          "Kobena Eyi Acquah",
+          "A. A. Amoako",
+          "Theresa Ennin",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Sleep Without Wake\" was written by A. A. Amoako."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a \"euphemism\"?",
+        options: [
+          "A type of musical instrument.",
+          "A mild or indirect word used to replace a harsh one.",
+          "A very fast running bird.",
+          "The title of a King."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A euphemism is a polite or indirect expression used instead of a harsh or unpleasant one."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the poem, \"Sleep without wake\" is a euphemism for:",
+        options: [
+          "Being very tired.",
+          "Death.",
+          "Dreaming.",
+          "Laziness."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase \"Sleep without wake\" is used as a euphemism for death."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A poem or song that expresses grief for the dead is called a:",
+        options: [
+          "Sonnet",
+          "Dirge",
+          "Limerick",
+          "Narrative"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A dirge is a poem or song that mourns the dead."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the original \"Oliver Twist\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Charles Dickens",
+          "Lawrence Darmani",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Oliver Twist\" is a famous novel written by Charles Dickens."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the famous sentence Oliver says at the workhouse?",
+        options: [
+          "\"I want to go home.\"",
+          "\"Please, sir, I want some more.\"",
+          "\"Give me your hat, Mr. Bumble.\"",
+          "\"I am not hungry today.\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oliver's famous request, \"Please, sir, I want some more,\" is one of the best-known lines in English literature."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a \"Workhouse\" in the context of the story?",
+        options: [
+          "A place where children go to play football.",
+          "A place for poor people to live and work in harsh conditions.",
+          "A factory that makes toys for rich children.",
+          "A school for future kings."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A workhouse was an institution where poor people lived and worked under strict and difficult conditions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What theme is shown by Oliver staying honest despite his poverty?",
+        options: [
+          "Greed",
+          "Resilience and Integrity",
+          "Laziness",
+          "Fear"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oliver's honesty and courage despite hardship demonstrate resilience and integrity."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"Home Sweet Home\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Ken Saro-Wiwa",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Home Sweet Home\" was written by Ken Saro-Wiwa."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the village the narrator is returning to?",
+        options: [
+          "Accra",
+          "Dukana",
+          "Kumasi",
+          "Lagos"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The narrator returns to his home village of Dukana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The story is told from which \"Point of View\"?",
+        options: [
+          "First-person (\"I\")",
+          "Third-person (He/She)",
+          "Second-person (You)",
+          "A ghost's perspective"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The story is narrated in the first-person point of view using \"I\"."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the word \"Nostalgia\" mean?",
+        options: [
+          "A fear of travelling.",
+          "A sentimental longing for the past.",
+          "A type of village food.",
+          "The desire to live in a big city forever."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nostalgia is a warm, sentimental feeling or longing for the past."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main conflict at the beginning of the story?",
+        options: [
+          "The children are fighting over a toy.",
+          "A baby bird has fallen and needs help.",
+          "The mother is angry at Debbie.",
+          "Sandy wants to go to the Kejetia market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story begins when the children discover a baby bird that has fallen from its nest and needs help."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which literary device is used when characters speak to each other?",
+        options: [
+          "Stanza",
+          "Dialogue",
+          "Rhyme",
+          "Rhythm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dialogue is the conversation between characters in a story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens during the \"Resolution\" of the story?",
+        options: [
+          "The bird is put in a cage forever.",
+          "The children give the bird to a neighbour.",
+          "Pepe grows strong and returns to nature.",
+          "The children forget to feed the bird."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "At the resolution, Pepe recovers, becomes strong enough to fly, and returns to the wild."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary lesson (theme) of this story?",
+        options: [
+          "Birds are better than cats.",
+          "Always carry an umbrella in the rain.",
+          "Showing compassion to nature is important.",
+          "Children should not play outside."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The story teaches the importance of showing compassion and kindness toward nature and animals."
+    ),
+  ],
+);
 
 final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:

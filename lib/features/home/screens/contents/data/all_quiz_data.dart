@@ -12625,6 +12625,944 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In the title, what does the word 'Minor' most likely suggest?",
+      options: [
+        "A bird that works in a coal mine.",
+        "Something small, unimportant, or in a sad musical key.",
+        "A bird that is not yet an adult.",
+        "A very large and loud bird."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The word 'Minor' suggests something small, modest, or slightly melancholy, matching the bird's quiet presence.",
+    ),
+
+    QuizQuestion(
+      question: "2. The poem is written from which point of view?",
+      options: [
+        "First-person ('I')",
+        "Third-person (He/She)",
+        "Second-person (You)",
+        "The bird's point of view"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The speaker uses 'I' to describe his own thoughts and actions.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the rhyme scheme of a poem written in couplets?",
+      options: [
+        "ABAB",
+        "ABCA",
+        "AABB",
+        "ABCD"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Couplets consist of pairs of rhyming lines, producing an AABB pattern in this poem.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why did the speaker want the bird to stop singing initially?",
+      options: [
+        "He thought the bird was in pain.",
+        "He was annoyed by the constant noise.",
+        "He wanted to hear the radio.",
+        "He was trying to catch the bird."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "At the beginning of the poem, the speaker is irritated by the bird's repeated song.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The bird was not to blame for his key.' What does 'key' mean here?",
+      options: [
+        "A metal object to open a door.",
+        "The musical pitch or style of the bird's song.",
+        "The answer to a riddle.",
+        "A button on a computer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Key' is used as a musical term describing the bird's natural song.",
+    ),
+
+    QuizQuestion(
+      question: "6. The speaker's change of mind at the end shows he is:",
+      options: [
+        "Confused",
+        "Reflective and self-aware",
+        "Still angry",
+        "Sleepy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The speaker realizes his irritation came from himself rather than the bird.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'silencing a song' symbolize in a broader sense?",
+      options: [
+        "Turning off a light.",
+        "Suppressing creativity, nature, or the opinions of others.",
+        "Buying a new birdcage.",
+        "Learning how to whistle."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The bird's song represents natural expression, so silencing it symbolizes intolerance or suppression.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these words rhymes with 'hands' in the poem?",
+      options: [
+        "Stands",
+        "Bands",
+        "Door",
+        "Day"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Robert Frost pairs 'hands' with 'stands' in one of the poem's rhyming couplets.",
+    ),
+
+    QuizQuestion(
+      question: "9. The tone of the ending of the poem is:",
+      options: [
+        "Arrogant",
+        "Humble and apologetic",
+        "Loud and aggressive",
+        "Joking"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The speaker admits he was wrong and reflects humbly on his own behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. Robert Frost is an American poet, but his themes are 'universal.' This means:",
+      options: [
+        "He only writes about the stars.",
+        "His lessons about nature and humanity apply to everyone, including people in Ghana.",
+        "He writes in many different languages.",
+        "He is famous only in America."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Universal themes are relevant to people everywhere regardless of culture or country.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main theme of 'Sosu and the Bukari Boys'?",
+      options: [
+        "The importance of physical strength.",
+        "Integrity and the dangers of peer pressure.",
+        "How to find a job in the city.",
+        "The history of the Bukari family."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story focuses on Sosu's moral choices and the importance of integrity despite peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "2. Sosu is the 'Protagonist.' This means he is:",
+      options: [
+        "The person who causes the trouble.",
+        "The person who catches the thieves.",
+        "The main character we follow.",
+        "A character who doesn't speak."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The protagonist is the central character whose experiences drive the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Bukari Boys are an example of:",
+      options: [
+        "A positive youth group.",
+        "A 'bad crowd' or negative peer influence.",
+        "A school choir.",
+        "A group of explorers."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The Bukari Boys influence Sosu to make poor choices and represent negative peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "4. When a character is the opposite of another to highlight their traits, they are called a:",
+      options: [
+        "Metaphor",
+        "Stanza",
+        "Foil",
+        "Protagonist"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A foil is a character whose contrasting qualities highlight another character's personality.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why did Sosu feel guilty during the story?",
+      options: [
+        "He forgot his homework.",
+        "He knew that stealing was wrong.",
+        "He didn't have enough money to buy bread.",
+        "He was tired of walking."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sosu's guilty conscience shows that he understood stealing was morally wrong.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Integrity is doing the right thing even when no one is watching.' This quote applies to Sosu because:",
+      options: [
+        "He only acts well when his teacher is looking.",
+        "He has to decide to be honest even when he is alone with the boys.",
+        "He wants to be a famous actor.",
+        "He is a very good hider."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "True integrity is shown by making honest choices even without supervision.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a 'Didactic' story?",
+      options: [
+        "A story that is meant to be sung.",
+        "A story about a ghost.",
+        "A story that is meant to teach a lesson.",
+        "A story that has no characters."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Didactic stories are written to teach readers important moral lessons.",
+    ),
+
+    QuizQuestion(
+      question: "8. The 'Internal Conflict' in this story is:",
+      options: [
+        "Man vs. Nature",
+        "Man vs. Self (Sosu's conscience)",
+        "Man vs. Machine",
+        "Man vs. Animal"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Sosu's greatest struggle is the battle between doing right and giving in to peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "9. If the Bukari Boys are shamed at the end of the story, this is a:",
+      options: [
+        "Plot hole",
+        "Consequence of their actions",
+        "Surprise ending",
+        "Mistake by the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Their punishment is the natural consequence of their dishonest behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to avoid being like Sosu at the beginning of the story?",
+      options: [
+        "Choose your friends carefully based on their character.",
+        "Never leave your house.",
+        "Give all your money to the Bukari Boys.",
+        "Stop going to school."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story teaches that choosing good friends helps people make wise and honest decisions.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. 'A Wreath of Tears' is best described as what type of poem?",
+      options: [
+        "A humorous poem",
+        "A funeral tribute or elegy",
+        "A nature poem",
+        "A political poem"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem is an elegy that expresses grief and honours the memory of a loved one.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the title, the 'Tears' are used to make the 'Wreath.' This is a:",
+      options: [
+        "Metaphor",
+        "Simile",
+        "Onomatopoeia",
+        "Hyperbole"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The tears are directly compared to the material used to make a wreath, making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the 'Tone' of this poem?",
+      options: [
+        "Angry and loud",
+        "Solemn and mournful",
+        "Happy and bright",
+        "Sarcastic"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem's focus on death, remembrance, and grief creates a solemn and mournful tone.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sound device is common in funeral dirges and this poem?",
+      options: [
+        "Computer sounds",
+        "Alliteration",
+        "Silence",
+        "Rhyme only"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Alliteration creates a gentle, rhythmic sound that suits the poem's mournful mood.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does the poet 'weave' his tears?",
+      options: [
+        "He is a professional weaver.",
+        "To create a lasting tribute and process his grief.",
+        "To hide his eyes from the sun.",
+        "To make a blanket."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Weaving the tears symbolizes turning grief into a lasting act of remembrance.",
+    ),
+
+    QuizQuestion(
+      question: "6. In Ghanaian culture, which colours are most associated with the themes in this poem?",
+      options: [
+        "Black and Red",
+        "White and Yellow",
+        "Green and Blue",
+        "Pink and Purple"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Black and red are traditionally worn during mourning and funeral ceremonies in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. The poem suggests that grief is:",
+      options: [
+        "A waste of time.",
+        "A natural and important part of loving someone.",
+        "Something to be ashamed of.",
+        "Only for women."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem presents tears and remembrance as meaningful expressions of love and loss.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Softly the salt stings.' This line is an example of:",
+      options: [
+        "Alliteration",
+        "Metaphor",
+        "Personification",
+        "Simile"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The repeated 'S' sound in 'Softly the salt stings' is an example of alliteration.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the 'Resolution' for the poet's sadness?",
+      options: [
+        "He stops crying forever.",
+        "He finds peace through remembrance and honouring the dead.",
+        "He forgets the person who died.",
+        "He buys a new wreath of flowers."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The poem ends with acceptance and peace found through remembrance and tribute.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson we can learn from this poem?",
+      options: [
+        "Never go to funerals.",
+        "It is important to honour the memory of those we have lost.",
+        "Flowers are too expensive for funerals.",
+        "Poetry should only be about happy things."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem teaches the value of remembering and honouring loved ones who have passed away.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The poem 'Sleep Without Wake' is primarily a tribute to:",
+      options: [
+        "A father",
+        "A brother",
+        "A mother",
+        "A teacher"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem is a lament that mourns and honors the memory of the poet's mother.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is the most accurate definition of a 'dirge'?",
+      options: [
+        "A happy song for a wedding.",
+        "A story about a talking animal.",
+        "A mournful song or poem for the dead.",
+        "A poem about the stars."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A dirge is a poem or song written to express sorrow for someone who has died.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why does the poet use the word 'sleep' to describe death?",
+      options: [
+        "Because he wants to take a nap.",
+        "To make the concept of death feel more peaceful and less frightening.",
+        "Because his mother was very tired.",
+        "He made a mistake in his writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sleep is a common euphemism that presents death as peaceful and restful.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the 'Tone' of the poem?",
+      options: [
+        "Joyful and loud",
+        "Solemn and mournful",
+        "Angry and violent",
+        "Joking and funny"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem's focus on death and remembrance creates a solemn and mournful tone.",
+    ),
+
+    QuizQuestion(
+      question: "5. When the poet says the mother 'cannot hear,' he is emphasizing:",
+      options: [
+        "Her old age.",
+        "The finality and silence of death.",
+        "That the house is too noisy.",
+        "That he is whispering."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The line highlights the permanent silence and separation caused by death.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'She has gone to the village' is a Ghanaian example of which literary device?",
+      options: [
+        "Onomatopoeia",
+        "Rhyme",
+        "Alliteration",
+        "Euphemism"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "It is a gentle, indirect way of referring to someone's death, making it a euphemism.",
+    ),
+
+    QuizQuestion(
+      question: "7. In the poem, the absence of the mother makes the home feel:",
+      options: [
+        "Empty and quiet",
+        "Full of light",
+        "More exciting",
+        "Crowded"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The loss of a mother leaves an emotional emptiness within the family.",
+    ),
+
+    QuizQuestion(
+      question: "8. The title 'Sleep Without Wake' is an example of:",
+      options: [
+        "A Simile",
+        "A Paradox (two opposite ideas together)",
+        "A Hyperbole",
+        "Alliteration"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Combining 'sleep' with 'without wake' creates a paradox that symbolizes death.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the poet's main purpose in writing this dirge?",
+      options: [
+        "To complain about his life.",
+        "To honour his mother's memory and express his grief.",
+        "To teach people how to sleep better.",
+        "To win a prize."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem preserves the memory of the poet's mother while expressing deep sorrow.",
+    ),
+
+    QuizQuestion(
+      question: "10. How does this poem help people who are mourning?",
+      options: [
+        "It gives them a way to put their feelings into words.",
+        "It tells them to stop crying.",
+        "It makes them forget their parents.",
+        "It teaches them how to sing."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Poetry helps people express emotions that are often difficult to describe.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In which city is the story of Oliver Twist set?",
+      options: [
+        "Accra",
+        "New York",
+        "London",
+        "Paris"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The story is set in Victorian London, where Charles Dickens highlights poverty and social injustice.",
+    ),
+
+    QuizQuestion(
+      question: "2. Oliver is an 'Orphan.' What does this mean?",
+      options: [
+        "He is very rich.",
+        "He has lost both of his parents.",
+        "He is a very good singer.",
+        "He is a leader of a gang."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Oliver's life as an orphan is the starting point of his struggles throughout the novel.",
+    ),
+
+    QuizQuestion(
+      question: "3. What was 'gruel,' the food Oliver was served?",
+      options: [
+        "A rich stew with meat and vegetables.",
+        "Fried plantain and beans.",
+        "A type of chocolate cake.",
+        "A thin, watery porridge."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Gruel symbolizes the poor treatment and neglect of children in the workhouse.",
+    ),
+
+    QuizQuestion(
+      question: "4. Who is the loud, bossy official who oversees the workhouse?",
+      options: [
+        "Fagin",
+        "The Artful Dodger",
+        "Mr. Bumble",
+        "Bill Sikes"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mr. Bumble represents the harsh authority of the workhouse system.",
+    ),
+
+    QuizQuestion(
+      question: "5. Charles Dickens uses 'Social Satire' to:",
+      options: [
+        "Make people laugh at poor children.",
+        "Describe the beauty of the English countryside.",
+        "Teach people how to cook porridge.",
+        "Criticize the unfair treatment of the poor in society."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Dickens uses satire to expose the cruelty and injustice of society toward the poor.",
+    ),
+
+    QuizQuestion(
+      question: "6. The 'Conflict' in the first part of the story is Oliver vs. whom?",
+      options: [
+        "Nature (the cold weather)",
+        "Society (the workhouse system and its masters)",
+        "His parents",
+        "A group of wild animals"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Oliver struggles against a cruel social system that mistreats poor children.",
+    ),
+
+    QuizQuestion(
+      question: "7. How did the board of the workhouse react to Oliver asking for more?",
+      options: [
+        "They gave him a second bowl immediately.",
+        "They were angry and decided to sell him to an apprentice master.",
+        "They made him the new leader of the boys.",
+        "They closed the workhouse."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Oliver's request shocked the officials, who punished him instead of helping him.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Resilience' is the ability to:",
+      options: [
+        "Run faster than anyone else.",
+        "Recover quickly from difficulties and stay strong.",
+        "Eat a lot of food.",
+        "Tell very good jokes."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Oliver demonstrates resilience by remaining hopeful despite many hardships.",
+    ),
+
+    QuizQuestion(
+      question: "9. Oliver's pale and thin appearance is a result of:",
+      options: [
+        "His love for exercise.",
+        "Malnutrition and poor living conditions in the workhouse.",
+        "A natural choice he made.",
+        "His fancy diet."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Dickens uses Oliver's appearance to show the effects of hunger and poverty.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson for a JHS student in 'Oliver Twist'?",
+      options: [
+        "Never ask for more food.",
+        "Always be afraid of people in hats.",
+        "Your character and goodness can help you survive hard times.",
+        "Living in a city is better than the village."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Oliver's honesty, kindness, and perseverance help him overcome many challenges.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Ken Saro-Wiwa was a famous writer from which West African country?",
+      options: [
+        "Nigeria",
+        "Ghana",
+        "Sierra Leone",
+        "Liberia"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Ken Saro-Wiwa was a renowned Nigerian author, activist, and environmental campaigner.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why has the narrator been away from Dukana?",
+      options: [
+        "She was working in a factory.",
+        "She was attending a teacher training college.",
+        "She was on a vacation.",
+        "She was lost."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The narrator had been away because she was studying at a teacher training college.",
+    ),
+
+    QuizQuestion(
+      question: "3. How does the narrator travel back to her village?",
+      options: [
+        "By aeroplane",
+        "By bus or lorry",
+        "By walking",
+        "By riding a bicycle"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The journey back to Dukana is made by a bus or lorry, highlighting the rough rural roads.",
+    ),
+
+    QuizQuestion(
+      question: "4. 'The road was a dusty ribbon.' This is an example of:",
+      options: [
+        "Metaphor",
+        "Onomatopoeia",
+        "Personification",
+        "Rhyme"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The road is directly compared to a ribbon without using 'like' or 'as,' making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the story, 'Home Sweet Home' is used to show:",
+      options: [
+        "That the narrator hates the city.",
+        "The emotional connection a person feels to their place of birth.",
+        "That everyone in the village is rich.",
+        "How to build a sweet-smelling house."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The phrase emphasizes the narrator's deep sense of belonging and love for her home village.",
+    ),
+
+    QuizQuestion(
+      question: "6. The contrast in the story is mainly between:",
+      options: [
+        "Men and Women",
+        "Education/Modernity and Tradition/Rural Life",
+        "Cats and Dogs",
+        "Summer and Winter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The narrator's education introduces modern ideas that contrast with traditional village life.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is 'First-person narration'?",
+      options: [
+        "When the narrator is the main character and says 'I.'",
+        "When the narrator knows everything about everyone.",
+        "When the story is told by the villain.",
+        "When there is no narrator."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "First-person narration allows readers to experience the story directly through the narrator's thoughts and feelings.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which sense does the writer use when describing the 'smell of woodsmoke and dried fish'?",
+      options: [
+        "Visual",
+        "Tactile",
+        "Olfactory (Smell)",
+        "Auditory"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Descriptions of woodsmoke and dried fish appeal to the sense of smell (olfactory imagery).",
+    ),
+
+    QuizQuestion(
+      question: "9. The narrator's return is 'bittersweet.' What does this mean?",
+      options: [
+        "She is eating bitter-leaf soup.",
+        "It is a mix of happy and sad feelings.",
+        "She is angry at her mother.",
+        "The bus was very slow."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "She feels happy to return home but saddened by the challenges facing her village.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the resolution of the narrator's internal conflict?",
+      options: [
+        "She leaves the village immediately.",
+        "She accepts her role as an educated person who still loves her home.",
+        "She forgets everything she learned at college.",
+        "She becomes the Chief of Dukana."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The narrator realizes she can value her education while remaining connected to and supportive of her village.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who wrote the story 'Debbie, Sandy and Pepe'?",
+      options: [
+        "Ama Ata Aidoo",
+        "Merrill Corney",
+        "Jean Watson",
+        "Efua Sutherland"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Merrill Corney is the author of the story 'Debbie, Sandy and Pepe' in The Cockcrow anthology.",
+    ),
+
+    QuizQuestion(
+      question: "2. What kind of creature is Pepe?",
+      options: [
+        "A small dog",
+        "A baby bird",
+        "A kitten",
+        "A lizard"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Pepe is a fledgling (baby bird) rescued by Debbie and Sandy.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the plot of a story, what follows the 'Rising Action'?",
+      options: [
+        "The Introduction",
+        "The Climax",
+        "The Title",
+        "The Author's Note"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The climax is the highest point of tension that comes after the rising action.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of dialogue?",
+      options: [
+        "The sun was very hot.",
+        "\"Is he going to be okay?\" asked Debbie.",
+        "They walked slowly to the house.",
+        "The bird had brown feathers."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dialogue is conversation between characters and is usually written inside quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do the children seek help from their mother?",
+      options: [
+        "They are afraid of the bird.",
+        "They don't know how to care for a baby bird properly.",
+        "They want her to buy them a cage.",
+        "They want to go to school."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The children need adult guidance to properly care for the injured fledgling.",
+    ),
+
+    QuizQuestion(
+      question: "6. The name 'Pepe' most likely mimics what sound?",
+      options: [
+        "A dog barking",
+        "A bird chirping",
+        "A cat meowing",
+        "Rain falling"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Pepe' resembles the soft 'peep' sound made by a young bird.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'Compassion' mean?",
+      options: [
+        "Being very fast at running.",
+        "Feeling for others and wanting to help.",
+        "Studying hard for an exam.",
+        "Knowing how to cook Jollof rice."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Compassion means caring about the suffering of others and taking action to help them.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a 'fledgling'?",
+      options: [
+        "An old bird that cannot fly.",
+        "A young bird that has just grown feathers.",
+        "A type of bird nest.",
+        "A bird that lives in the water."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A fledgling is a young bird that has recently developed feathers and is learning to survive.",
+    ),
+
+    QuizQuestion(
+      question: "9. The setting of the story is important because:",
+      options: [
+        "It takes place in a hospital.",
+        "It shows a typical home where children learn values.",
+        "It is set in a dark forest.",
+        "It takes place underwater."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The home setting highlights family guidance, kindness, and responsibility.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the moral of the story?",
+      options: [
+        "Never touch wild animals.",
+        "All living things deserve care and kindness.",
+        "Only birds are important in nature.",
+        "Children should stay indoors when it rains."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story teaches compassion and kindness toward all living creatures.",
+    ),
+  ],
+);
 
 final QuizModel jhs3s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/8. Quiz.m4a',

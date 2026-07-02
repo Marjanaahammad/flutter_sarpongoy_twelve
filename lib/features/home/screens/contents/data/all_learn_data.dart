@@ -1390,6 +1390,104 @@ final LearnModel jhs2s5ss1Lesson15LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/5. Teach - Part C.m4a',
   ),
 ]);
+final LearnModel jhs2s5ss1Lesson16LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L16/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L16/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L16/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson17LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L17/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L17/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L17/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson18LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L18/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L18/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L18/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson19LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L19/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L19/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L19/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson20LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L20/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L20/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L20/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson21LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L21/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L21/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L21/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/5. Teach - Part C.m4a',
+  ),
+]);
+final LearnModel jhs2s5ss1Lesson22LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L22/partA.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/3. Teach - Part A.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L22/partB.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/4. Teach - Part B.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/ENGLISH JHS2 S5 SS1 L22/partC.jpg',
+    audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/5. Teach - Part C.m4a',
+  ),
+]);
 
 final LearnModel jhs3s1ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(

@@ -2310,6 +2310,146 @@ final PracticeModel jhs2s5ss1Lesson15PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel jhs2s5ss1Lesson16PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the speaker feel that the \"fault\" was in him and not the bird?",
+      answer: "Correct Answer: He realizes that the bird was just acting naturally. His desire to silence nature showed that he was being impatient and intolerant of something he didn't personally enjoy at that moment.",
+      explanation: "Explanation: Responsibility for our reactions lies with us, not with the external things that annoy us.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poem is a couplet (AA BB), what word rhymes with \"door\" in the second couplet?",
+      answer: "Correct Answer: The word is \"more.\".",
+      explanation: "Explanation: In a couplet, the two lines right next to each other always share the same ending sound.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the speaker mean when he says, \"And of course there must be something wrong / In wanting to silence any song\"?",
+      answer: "Correct Answer: He is saying that it is wrong to suppress beauty, art, or the voices of others just because we find them inconvenient.",
+      explanation: "Explanation: This is the core moral of the poem regarding the freedom of expression and nature.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson17PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: The Bukari Boys probably didn't look like \"villains\" at first. Why is it often harder to resist a friend than an enemy?",
+      answer: "Correct Answer: We want our friends to like us and accept us. We are afraid that if we say \"no,\" they will laugh at us or stop being our friends. This is called peer pressure.",
+      explanation: "Explanation: Peer pressure relies on our human need to belong to a group.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Sosu decided to report the Bukari Boys to an elder, would that be \"betraying\" them or showing \"integrity\"?",
+      answer: "Correct Answer: It would be showing integrity and responsibility. By reporting a crime, he is protecting the community and potentially stopping the boys from becoming worse criminals.",
+      explanation: "Explanation: Integrity involves a higher loyalty to the truth than to a \"bad\" group of friends.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the story, Sosu feels a \"weight\" in his chest when the boys start their plan. What is this weight?",
+      answer: "Correct Answer: This is his conscience. It is the internal feeling of guilt or worry that happens when we know we are doing something wrong.",
+      explanation: "Explanation: A conscience is a key element in stories about moral choices.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson18PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is a \"wreath\" a better symbol for memory than a single flower?",
+      answer: "Correct Answer: A wreath is a circle, symbolizing that memory and love are continuous and have no end, whereas a single flower is more likely to represent a moment that passes quickly.",
+      explanation: "Explanation: Symbols in poetry often use shapes and patterns to convey deep meanings like \"eternity.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poet says \"Pale petals of pain,\" which literary device is he using with the letter \"P\"?",
+      answer: "Correct Answer: He is using Alliteration.",
+      explanation: "Explanation: The repetition of the \"P\" sound at the beginning of the words is a classic example of alliteration used to create mood.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the tears are described as being \"woven.\" What does \"weaving\" suggest about how we handle grief?",
+      answer: "Correct Answer: It suggests that dealing with grief is a slow, careful process where we take our different memories and feelings and put them together to make sense of our loss.",
+      explanation: "Explanation: Weaving is an active process, showing that the poet is working through his feelings.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson19PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If \"Sleep\" is a euphemism for death, why is the phrase \"Without Wake\" so important to the poem’s meaning?",
+      answer: "Correct Answer: It emphasizes the finality of death. Regular sleep ends in the morning, but this \"sleep\" is permanent, which is why it is so sad for the people left behind.",
+      explanation: "Explanation: The contrast between a normal sleep and death highlights the poet's grief.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What kind of mood does the poet create by describing a mother who \"does not answer\"?",
+      answer: "Correct Answer: He creates a mood of loneliness and helplessness. It shows that the communication between the child and the mother has been cut off forever.",
+      explanation: "Explanation: Mood in poetry is the atmosphere or emotion the poet wants the reader to feel.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In many Ghanaian dirges, the deceased is compared to a \"mighty tree\" that has fallen. How is that similar to the \"sleep\" metaphor in this poem?",
+      answer: "Correct Answer: Both are metaphors that avoid the word \"death.\" The tree emphasizes the loss of protection, while the sleep emphasizes the peace of the person who has passed.",
+      explanation: "Explanation: Metaphors help us visualize and understand the \"size\" of a loss.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson20PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why was the master of the workhouse so shocked when Oliver asked for more porridge?",
+      answer: "Correct Answer: The masters expected the poor to be silent and grateful for the tiny bit they were given. Oliver’s request was seen as \"rebellion\" because he dared to speak up for his basic needs.",
+      explanation: "Explanation: In a strict system, any small act of independence is often seen as a threat to authority.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Oliver had been a \"greedy\" boy, how would the reader’s feeling toward him change?",
+      answer: "Correct Answer: We would not feel as sorry for him. The author makes Oliver very thin and truly hungry so that we understand his request is about survival, not greed.",
+      explanation: "Explanation: Authors use specific physical descriptions to make us sympathize with the protagonist.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the word \"Abridged\" mean on the cover of Oliver Twist in The Cockcrow?",
+      answer: "Correct Answer: It means the story has been shortened or made simpler so that students can read the most important parts without reading the entire original long book.",
+      explanation: "Explanation: Abridged versions are common in school anthologies to make classic literature accessible.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson21PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How does the narrator’s education at the teacher training college affect the way she looks at her village?",
+      answer: "Correct Answer: It gives her a \"double vision.\" She sees the beauty and tradition of the village, but she also notices the poverty and the lack of modern progress that she might have ignored before.",
+      explanation: "Explanation: Education often changes how we perceive our original environment by giving us new standards to compare it to.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: The title is \"Home Sweet Home.\" Is the story only about things that are \"sweet\"?",
+      answer: "Correct Answer: No. While the narrator feels a deep love and sweetness for her home, the story also reveals the \"bitter\" or difficult realities of village life, such as the struggle for development.",
+      explanation: "Explanation:  Authors often use ironic or layered titles to make the reader think more deeply about the content.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the narrator's interaction with her mother tell us about the theme of belonging?",
+      answer: "Correct Answer: It shows that even though she has changed through education, the bond of family and her mother’s love is the \"glue\" that still makes her belong to the village.",
+      explanation: "Explanation: Family relationships are often the primary anchor for our sense of home.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson22PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why did the author choose to give the bird a name like \"Pepe\" instead of just calling it \"the bird\" throughout the story?",
+      answer: "Correct Answer: Giving the bird a name creates a personal connection. It makes Pepe feel like a member of the family rather than just an animal, which emphasizes the theme of compassion.",
+      explanation: "Explanation: Names help us care more about characters in a narrative.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the children had ignored the bird and let it stay in the cold rain, how would that change the \"Resolution\" of the story?",
+      answer: "Correct Answer: The bird likely would not have survived, and the resolution would be sad instead of happy. The story would no longer be about compassion.",
+      explanation: "Explanation:  The resolution depends on the actions taken during the rising action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In a dialogue, Sandy says, \"Mother, what do baby birds eat?\" What does this question tell us about Sandy's character?",
+      answer: "Correct Answer: It shows that Sandy is responsible and wants to learn the right way to care for the bird so it doesn't get hurt.",
+      explanation: "Explanation: Dialogue often reveals a character's traits, such as being helpful or inquisitive.",
+    ),
+  ],
+);
 
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',

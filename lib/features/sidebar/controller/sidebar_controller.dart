@@ -1531,7 +1531,9 @@ class SidebarController extends GetxController {
               "topics": ["THE POWER OF UNITY IN THE OLD MAN AND HIS CHILDREN", " EXPLORING \"THE COLOUR OF GOD\" BY V. B. AAKYE","ANANSE THE TRICKSTER IN THE MARRIAGE OF ANANSEWA","FEMALE EMPOWERMENT IN \"THE GIRL WHO CAN\"",
                 "HIDDEN POTENTIAL IN \"DESERT RIVERS\" BY LADE WOSORNU", "UNIVERSAL LOVE IN \"THE COLOUR OF GOD\" BY V. B. AAKYE","OVERCOMING PROCRASTINATION IN \"SCRIBBLER’S DREAM\" BY LAWRENCE DARMANI", "CULTURAL CONFLICT IN \"THE DILEMMA OF A GHOST\" BY AMA ATA AIDOO",
                 "INDEPENDENCE AND TRADITION IN \"ANOWA\" BY AMA ATA AIDOO", "THE POWER OF UNITY IN \"THE OLD MAN AND HIS CHILDREN\"","CONSEQUENCES IN \"RIPPLES\" BY PETER PAUL ADOLINAMA",
-                "SENSORY IMAGERY IN \"MAKOLA\" BY THERESA ENNIN", "STOICISM AND MISUNDERSTANDING IN \"A DAY’S WAIT\"", "METAPHORICAL TRIBUTES IN \"MAMA IS A SUNRISE\" BY EVELYN TOOLEY HUNT", "KINDNESS REWARDED IN \"THE GENEROUS HUNTER\""],
+                "SENSORY IMAGERY IN \"MAKOLA\" BY THERESA ENNIN", "STOICISM AND MISUNDERSTANDING IN \"A DAY’S WAIT\"", "METAPHORICAL TRIBUTES IN \"MAMA IS A SUNRISE\" BY EVELYN TOOLEY HUNT", "KINDNESS REWARDED IN \"THE GENEROUS HUNTER\"",
+                "TOLERANCE AND NATURE IN \"A MINOR BIRD\" BY ROBERT FROST", "INTEGRITY AND HONESTY IN \"SOSU AND THE BUKARI BOYS\"","GRIEF AND MEMORY IN \"A WREATH OF TEARS\" BY KOBENA EYI ACQUAH",
+                "MOURNING A MOTHER IN \"SLEEP WITHOUT WAKE\" BY A. A. AMOAKO", "SURVIVAL AND RESILIENCE IN \"OLIVER TWIST\"", "RETURNING TO ROOTS IN \"HOME SWEET HOME\" BY KEN SARO-WIWA","COMPASSION IN \"DEBBIE, SANDY AND PEPE\""],
             },
           ],
         },
@@ -3527,6 +3529,76 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson15PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson15IndependentQuizData;
                 quizData = jhs2s5ss1Lesson15QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 15) {
+                getReadyData = jhs2s5ss1Lesson16GetReadyData;
+                learnData = jhs2s5ss1Lesson16LearnData;
+                practiceData = jhs2s5ss1Lesson16PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson16IndependentQuizData;
+                quizData = jhs2s5ss1Lesson16QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 16) {
+                getReadyData = jhs2s5ss1Lesson17GetReadyData;
+                learnData = jhs2s5ss1Lesson17LearnData;
+                practiceData = jhs2s5ss1Lesson17PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson17IndependentQuizData;
+                quizData = jhs2s5ss1Lesson17QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 17) {
+                getReadyData = jhs2s5ss1Lesson18GetReadyData;
+                learnData = jhs2s5ss1Lesson18LearnData;
+                practiceData = jhs2s5ss1Lesson18PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson18IndependentQuizData;
+                quizData = jhs2s5ss1Lesson18QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 18) {
+                getReadyData = jhs2s5ss1Lesson19GetReadyData;
+                learnData = jhs2s5ss1Lesson19LearnData;
+                practiceData = jhs2s5ss1Lesson19PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson19IndependentQuizData;
+                quizData = jhs2s5ss1Lesson19QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 19) {
+                getReadyData = jhs2s5ss1Lesson20GetReadyData;
+                learnData = jhs2s5ss1Lesson20LearnData;
+                practiceData = jhs2s5ss1Lesson20PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson20IndependentQuizData;
+                quizData = jhs2s5ss1Lesson20QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 20) {
+                getReadyData = jhs2s5ss1Lesson21GetReadyData;
+                learnData = jhs2s5ss1Lesson21LearnData;
+                practiceData = jhs2s5ss1Lesson21PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson21IndependentQuizData;
+                quizData = jhs2s5ss1Lesson21QuizData;
+              }if (grade == "JHS 2" &&
+                  courseTitle == "English" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 21) {
+                getReadyData = jhs2s5ss1Lesson22GetReadyData;
+                learnData = jhs2s5ss1Lesson22LearnData;
+                practiceData = jhs2s5ss1Lesson22PracticeData;
+                independentPracticeData = jhs2s5ss1Lesson22IndependentQuizData;
+                quizData = jhs2s5ss1Lesson22QuizData;
               }
 
               if (grade == "JHS 3" &&
