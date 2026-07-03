@@ -23208,136 +23208,151 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Death is considered a 'Rite of Passage' because it is a transition from:",
+      "1. The rites of passage are described as 'socially significant' because they:",
       options: [
-        "Childhood to adulthood.",
-        "This world to the next world.",
-        "Marriage to old age.",
-        "School to work.",
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "Death is the final transition in the human life cycle on earth.",
-    ),
-    QuizQuestion(
-      question: "2. The Islamic Janazah prayer is performed:",
-      options: [
-        "At the hospital.",
-        "After the body is buried.",
-        "Before the body is taken for burial.",
-        "Only on the 40th day.",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "The prayer is said after ritual bath and before the burial.",
-    ),
-    QuizQuestion(
-      question: "3. 'Asaase Yaa' refers to:",
-      options: [
-        "The sky god.",
-        "The earth goddess.",
-        "A female ancestor.",
-        "A type of funeral song.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
-    ),
-    QuizQuestion(
-      question:
-          "4. Which of these is a cause of death mentioned in the curriculum?",
-      options: [
-        "Natural old age.",
-        "Traveling to a new city.",
-        "Going to a naming ceremony.",
-        "Getting married.",
-      ],
-      correctIndex: 0,
-      difficulty: "Low",
-      explanation: "Old age is considered a natural cause of death.",
-    ),
-    QuizQuestion(
-      question: "5. In Christianity, a 'wake keeping' is usually held on:",
-      options: [
-        "Monday morning.",
-        "Friday night.",
-        "Sunday afternoon.",
-        "Saturday evening.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Wake keeping is typically the Friday night service before the Saturday funeral.",
-    ),
-    QuizQuestion(
-      question: "6. Why do Muslims wrap the deceased in plain white calico?",
-      options: [
-        "Because they ran out of colorful cloth.",
-        "To symbolize purity and simplicity.",
-        "To keep the body warm.",
-        "It is the most expensive cloth.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Islam teaches simplicity and that all people return to Allah in the same way.",
-    ),
-    QuizQuestion(
-      question:
-          "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
-      options: [
-        "To spend money.",
-        "To help the dead join the ancestors.",
-        "To stop the family from crying.",
-        "To choose a new Chief.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Rites ensure the spirit is welcomed in the ancestral world.",
-    ),
-    QuizQuestion(
-      question: "8. Christian funeral donations are meant to:",
-      options: [
-        "Buy new cars for the family.",
-        "Purchase food for the guests only.",
-        "Pay the priest a salary.",
-        "Help defray the funeral expenses.",
+        "Are very expensive.",
+        "Take a very long time.",
+        "Only happen in villages.",
+        "Teach the values of the society.",
       ],
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-          "Donations from sympathizers help support the bereaved family.",
+      "Rites of passage pass on important moral values and traditions from one generation to another.",
     ),
-    QuizQuestion(
-      question: "9. The 40th-day prayer is a characteristic of:",
-      options: [
-        "Christian rites.",
-        "Traditional puberty rites.",
-        "Islamic death rites.",
-        "Naming ceremonies.",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
-    ),
+
     QuizQuestion(
       question:
-          "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
+      "2. Which value is promoted when a couple remains faithful in marriage?",
       options: [
-        "The person was a barber.",
-        "The spirit has contact with the living.",
-        "To prevent witches from using them.",
-        "To keep the town clean.",
+        "Greed.",
+        "Faithfulness and Trust.",
+        "Selfishness.",
+        "Laziness.",
       ],
       correctIndex: 1,
-      difficulty: "High",
+      difficulty: "Low",
       explanation:
-          "Such rites signify the unbroken relationship between the dead and the living.",
+      "Marriage encourages mutual trust, loyalty, and faithfulness between husband and wife.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Traditionalists believe that if you live a bad life, your death rites:",
+      options: [
+        "Will be the biggest party.",
+        "Will not help you join the ancestors.",
+        "Will be very cheap.",
+        "Will make you rich.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Traditional belief teaches that only people who live upright lives are welcomed among the ancestors.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What moral lesson is found in the 'Anoka' ceremony of the Akans?",
+      options: [
+        "To be greedy with food.",
+        "To dislike traditional food.",
+        "To eat as fast as possible.",
+        "To be disciplined and obedient.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Anoka ceremony teaches discipline, obedience, and respect through symbolic blessings.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Marriage rites give 'Legitimacy' to a union. This means the marriage is:",
+      options: [
+        "Secret.",
+        "Recognized and respected by the community.",
+        "Only for rich people.",
+        "Temporary.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Legitimacy means the community officially recognizes the couple as husband and wife.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Truthfulness' is a moral lesson emphasized in:",
+      options: [
+        "Only the naming ceremony.",
+        "Only marriage.",
+        "All rites of passage.",
+        "Only death rites.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Truthfulness is an important value taught throughout all stages of life and all rites of passage.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why are gifts given to the mother and child during a naming ceremony?",
+      options: [
+        "To provide financial support and show love.",
+        "To show off wealth.",
+        "Because it is a law.",
+        "To pay back a debt.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Giving gifts expresses love, support, and shared joy within the community.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. The Krobo Dipo stone ceremony primarily tests a girl's:",
+      options: [
+        "Strength.",
+        "Wealth.",
+        "Cooking skills.",
+        "Honesty and Purity.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Dipo stone ceremony symbolizes the initiate's honesty, purity, and good character.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. One importance of death rites is that they:",
+      options: [
+        "Encourage the living to be wicked.",
+        "Remind the living that life is short and they must be good.",
+        "Make people forget the dead.",
+        "Cost a lot of money.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Death rites remind the living to live upright lives because life is temporary.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Rites of passage help to 'Discourage irresponsible behaviour' by:",
+      options: [
+        "Punishing people.",
+        "Setting high moral standards for everyone.",
+        "Making everyone stay home.",
+        "Charging high fees.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "These ceremonies teach society's expectations of responsible behaviour and good character.",
     ),
   ],
 );

@@ -1973,7 +1973,6 @@ class SidebarController extends GetxController {
                 "COMPARING TEXT TYPES",
                 "SILENT READING AND COMPLEX COMPREHENSION",
                 "THE EFFECT OF TEXT ON THE READER",
-                "INTERPRETING SYMBOLISM AND SENSORY LANGUAGE"
               ],
             },
             {
@@ -3763,17 +3762,17 @@ class SidebarController extends GetxController {
                 independentPracticeData = jhs3s2ss1Lesson9IndependentQuizData;
                 quizData = jhs3s2ss1Lesson9QuizData;
               }
-              if (grade == "JHS 3" &&
-                  courseTitle == "English" &&
-                  sIndex == 1 &&
-                  ssIndex == 0 &&
-                  lIndex == 9) {
-                getReadyData = jhs3s2ss1Lesson10GetReadyData;
-                learnData = jhs3s2ss1Lesson10LearnData;
-                practiceData = jhs3s2ss1Lesson10PracticeData;
-                independentPracticeData = jhs3s2ss1Lesson10IndependentQuizData;
-                quizData = jhs3s2ss1Lesson10QuizData;
-              }
+              // if (grade == "JHS 3" &&
+              //     courseTitle == "English" &&
+              //     sIndex == 1 &&
+              //     ssIndex == 0 &&
+              //     lIndex == 9) {
+              //   getReadyData = jhs3s2ss1Lesson10GetReadyData;
+              //   learnData = jhs3s2ss1Lesson10LearnData;
+              //   practiceData = jhs3s2ss1Lesson10PracticeData;
+              //   independentPracticeData = jhs3s2ss1Lesson10IndependentQuizData;
+              //   quizData = jhs3s2ss1Lesson10QuizData;
+              // }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
