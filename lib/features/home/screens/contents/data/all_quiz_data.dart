@@ -21821,6 +21821,7 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
         "Waiting for a salary from the state",
         "Setting up a new business",
         "Doing household chores",
+        "Being lazy"
       ],
       correctIndex: 1,
       difficulty: "Medium",
@@ -21982,6 +21983,7 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
         "Lateness",
         "Reporting for work only when you feel like it",
         "Being regular and avoiding absenteeism",
+        "Sleeping at work"
       ],
       correctIndex: 2,
       difficulty: "Low",

@@ -2161,7 +2161,7 @@ final LearnModel RMEs1ss1Lesson3LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/JHS1_S1_SS1_L3/rme_jhs1_Strand1_L3_partC.jpg',
-    audioPath: 'assets/audio/RME/s1_ss1_l3/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/RME/s1_ss1_l3/5. Teach - Part C .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/RME/JHS1_S1_SS1_L3/rme_jhs1_strand1_L3_partD.jpg',
@@ -2314,7 +2314,7 @@ final LearnModel RMEs4ss1Lesson1LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s4_ss1_l1/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L1/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L1/partC.jpg',
     audioPath: 'assets/audio/RME/s4_ss1_l1/5. Teach - Part C.m4a',
   ),
 ]);
@@ -2328,8 +2328,8 @@ final LearnModel RMEs4ss1Lesson2LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s4_ss1_l2/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L2/rme_jhs1_Strand1_L3_partC.jpg',
-    audioPath: 'assets/audio/RME/s4_ss1_l2/5. Teach - Part C.m4a',
+    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L2/partC.jpg',
+    audioPath: 'assets/audio/RME/s4_ss1_l2/5. Teach - Part C .m4a',
   ),
 ]);
 final LearnModel RMEs4ss1Lesson3LearnData = LearnModel(parts: [
@@ -2342,22 +2342,22 @@ final LearnModel RMEs4ss1Lesson3LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s4_ss1_l3/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/partC.jpg',
     audioPath: 'assets/audio/RME/s4_ss1_l3/5. Teach - Part C.m4a',
   ),
 ]);
 
 final LearnModel RMEs5ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/partA.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L1/partA.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l1/3. Teach - Part A.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/partB.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L1/partB.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l1/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L1/partC.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l1/5. Teach - Part C.m4a',
   ),
 ]);
@@ -2371,7 +2371,7 @@ final LearnModel RMEs5ss1Lesson2LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s5_ss1_l2/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L2/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L2/partC.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l2/5. Teach - Part C.m4a',
   ),
 ]);
@@ -2385,7 +2385,7 @@ final LearnModel RMEs5ss1Lesson3LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s5_ss1_l3/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L3/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L3/partC.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l3/5. Teach - Part C.m4a',
   ),
 ]);
@@ -2399,7 +2399,7 @@ final LearnModel RMEs5ss1Lesson4LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s5_ss1_l4/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L4/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L4/partC.jpg',
     audioPath: 'assets/audio/RME/s5_ss1_l4/5. Teach - Part C.m4a',
   ),
 ]);
@@ -2415,7 +2415,7 @@ final LearnModel RMEs5ss2Lesson1LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/RME_JHS1_S5_SS2_L1/part_c.jpg',
-    audioPath: 'assets/audio/RME/s5_ss2_l1/4. Teach - Part C.m4a',
+    audioPath: 'assets/audio/RME/s5_ss2_l1/5. Teach - Part C.m4a',
   ),
 ]);
 final LearnModel RMEs5ss2Lesson2LearnData = LearnModel(parts: [
@@ -2428,8 +2428,8 @@ final LearnModel RMEs5ss2Lesson2LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s5_ss2_l2/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S5_SS2_L2/rme_jhs1_Strand1_L3_partC.jpg',
-    audioPath: 'assets/audio/RME/s5_ss2_l2/4. Teach - Part C.m4a',
+    imagePath: 'assets/images/RME/RME_JHS1_S5_SS2_L2/partC.jpg',
+    audioPath: 'assets/audio/RME/s5_ss2_l2/5. Teach - Part C.m4a',
   ),
 ]);
 final LearnModel RMEs5ss2Lesson3LearnData = LearnModel(parts: [
@@ -2463,7 +2463,7 @@ final LearnModel RMEs6ss1Lesson2LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s6_ss1_l2/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S6_SS1_L2/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S6_SS1_L2/partC.jpg',
     audioPath: 'assets/audio/RME/s6_ss1_l2/5. Teach - Part C.m4a',
   ),
 ]);

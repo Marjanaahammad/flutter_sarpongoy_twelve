@@ -1042,7 +1042,7 @@ final GetReadyModel RMEs3ss1Lesson3GetReadyData = GetReadyModel(
 
 final GetReadyModel RMEs4ss1Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L1/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/RME/s4_ss1_l1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/RME/s4_ss1_l1/1. Chapter 1 .m4a',
   hookImagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L1/hook.jpg',
   hookAudioPath: 'assets/audio/RME/s4_ss1_l1/2. Hook.m4a',
 );
@@ -1068,7 +1068,7 @@ final GetReadyModel RMEs5ss1Lesson1GetReadyData = GetReadyModel(
 final GetReadyModel RMEs5ss1Lesson2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L2/student_overview.jpg',
   overviewAudioPath: 'assets/audio/RME/s5_ss1_l2/1. Chapter 1.m4a',
-  hookImagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L1/hook.jpg',
+  hookImagePath: 'assets/images/RME/RME_JHS1_S5_SS1_L2/hook.jpg',
   hookAudioPath: 'assets/audio/RME/s5_ss1_l2/2. Hook.m4a',
 );
 final GetReadyModel RMEs5ss1Lesson3GetReadyData = GetReadyModel(
