@@ -1330,6 +1330,14 @@ class SidebarController extends GetxController {
               "topics": ["Examining Social Security in Ghana"],
             },
           ],
+        },{
+          "subtitle": "NATIONHOOD",
+          "subStrands": [
+            {
+              "subtitle": "INDEPENDENT GHANA",
+              "topics": ["THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,"],
+            },
+          ],
         },
       ],
       "Religious & Moral Education": [
