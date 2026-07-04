@@ -7570,12 +7570,12 @@ final IndependentPracticeModel RMEjhs3s1ss1Lesson2IndependentQuizData =
   questions: [
     IndependentPracticeQuestion(
       question:
-          "1. Which of the following animal products is used by industries as raw materials to make items like belts and bags?",
+          "1. The vastness of the universe gives testimony to God as:",
       options: [
-        "Bones and horns.",
-        "Feathers and hides.",
-        "Milk and eggs.",
-        "Meat and wool.",
+        "A student.",
+        "The Creator.",
+        "A witness.",
+        "A messenger.",
       ],
       correctIndex: 1,
       difficulty: "Easy",
@@ -7583,25 +7583,12 @@ final IndependentPracticeModel RMEjhs3s1ss1Lesson2IndependentQuizData =
     ),
     IndependentPracticeQuestion(
       question:
-          "2. Why did God create the sun for the benefit of Ghanaian farmers?",
+          "2. Which element of the atmosphere reveals God's nature as the Sustainer of life?",
       options: [
-        "To provide light for fishing at night.",
-        "To help in the extraction of gold.",
-        "To provide heat for drying crops like cocoa beans.",
-        "To serve as a habitat for mankind.",
-      ],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "",
-    ),
-    IndependentPracticeQuestion(
-      question:
-          "3. Which of these is a religious or cultural use of the moon and stars?",
-      options: [
-        "Generating electricity for homes.",
-        "Calculation of certain religious festivals.",
-        "Providing vitamin D to humans.",
-        "Extraction of common salt.",
+        "Dust and smoke.",
+        "The perfect proportion of nitrogen and oxygen.",
+        "The presence of clouds only..",
+        "The heat from the stars.",
       ],
       correctIndex: 1,
       difficulty: "Easy",
@@ -7609,12 +7596,25 @@ final IndependentPracticeModel RMEjhs3s1ss1Lesson2IndependentQuizData =
     ),
     IndependentPracticeQuestion(
       question:
-          "4. What is a primary use of plants like neem and mahogany in Ghana?",
+          "3. The fact that nothing can hide from the light of the sun is a sign of God's:",
       options: [
-        "Providing security for households.",
-        "Serving as a source of medicine.",
-        "Helping in the formation of rain.",
-        "Generating power for industries.",
+        "Power to burn things.",
+        "Omnipresence and omniscience.",
+        "Need for a rest.",
+        "Desire to make us hot.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Changes in seasons and the beauty in nature manifest God's nature as a:",
+      options: [
+        "Farmer and harvester.",
+        "Planner and designer.",
+        "King and soldier.",
+        "Weaver and tailor.",
       ],
       correctIndex: 1,
       difficulty: "Easy",
