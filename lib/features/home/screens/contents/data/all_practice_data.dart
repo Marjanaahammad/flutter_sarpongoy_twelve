@@ -4666,24 +4666,24 @@ final PracticeModel RMEjhs3s1ss1Lesson2PracticeData = PracticeModel(
   questions: [
     PracticeQuestion(
       scenario:
-          "1. According to our lesson, what is one major reason why God created the universe?",
-      answer: "To provide comfort for mankind and other creatures.",
+          "1. When we see how perfectly the sun, moon, and stars are arranged in the sky, what does this tell us about God?",
+      answer: "That God is a planner and a designer.",
       explanation:
-          "God created the world and everything in it primarily to provide comfort and a home for humans and other living things.",
+          "The design and order in the heavens show that God is a deliberate planner and designer.",
     ),
     PracticeQuestion(
       scenario:
-          "2. Which role describes humans taking care of God’s environment and animals?",
-      answer: "Stewardship",
+          "2. Why does the fact that plants produce oxygen for humans show God's \"caring nature\"?",
+      answer: "Because it shows everything depends on each other to survive.",
       explanation:
-          "Stewardship is the specific duty of mankind to act as caretakers of God's creation.",
+          "Interdependence in nature reveals God's caring nature, as He made creatures to support one another.",
     ),
     PracticeQuestion(
       scenario:
-          "3. How does the Akosombo Dam show the usefulness of water bodies in Ghana?",
-      answer: "By generating hydro-electric power.",
+          "3. Which of these shows God's \"Orderliness\"?",
+      answer: "The different kinds of birds and insects living in harmony.",
       explanation:
-          "Rivers are dammed to generate electricity for both domestic and commercial use in Ghana.",
+          "The harmony and beauty displayed in the variety of plants and animals show God's orderliness.",
     ),
   ],
 );

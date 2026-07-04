@@ -24967,133 +24967,150 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
 final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/RME/6. RME JHS2 S6 SS2 L2/7. Quiz.m4a',
   questions: [
-    QuizQuestion(
-      question:
-          "1. Which of these is a major reason why people engage in corruption in the workplace?",
-      options: [
-        "Too much supervision",
-        "High salaries",
-        "Greed and self-centredness",
-        "Love for the country",
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation: "Greed is a major internal driver of corrupt behaviour.",
-    ),
-    QuizQuestion(
-      question: "2. How does corruption affect state resources?",
-      options: [
-        "It increases them",
-        "It leads to their misuse",
-        "It protects them for the future",
-        "It distributes them equally",
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: "Public funds are often diverted for private use.",
-    ),
-    QuizQuestion(
-      question:
-          "3. An official who takes money because there is no one to check his work is influenced by...",
-      options: [
-        "High cost of living",
-        "Inadequate supervision",
-        "National pride",
-        "Low dependency ratio",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Lack of oversight encourages corruption.",
-    ),
-    QuizQuestion(
-      question:
-          "4. Which effect describes a decrease in the quality and amount of work done in the country?",
-      options: [
-        "High productivity",
-        "National development",
-        "Low productivity",
-        "Fair distribution",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "Corruption leads to inefficiency and poor output.",
-    ),
-    QuizQuestion(
-      question: "5. A high dependency ratio means...",
-      options: [
-        "A person has a very high salary",
-        "Many people rely on one person for money",
-        "A person has no family to support",
-        "The government provides everything",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Financial pressure can push individuals toward corruption.",
-    ),
-    QuizQuestion(
-      question:
-          "6. Corruption 'tarnishes the reputation' of Ghana. This means...",
-      options: [
-        "The country becomes more famous for sports",
-        "Other countries see Ghana as a dishonest nation",
-        "The country gets more gifts from abroad",
-        "More people want to visit Ghana",
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: "Corruption damages a country's image globally.",
-    ),
-    QuizQuestion(
-      question:
-          "7. The desire to buy a luxury car overnight without working for it is called a...",
-      options: [
-        "Long-term investment",
-        "Get-rich-quick attitude",
-        "National service",
-        "Religious duty",
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: "This mindset encourages illegal shortcuts.",
-    ),
-    QuizQuestion(
-      question: "8. Which of these is NOT an effect of corruption?",
-      options: [
-        "Misuse of state funds",
-        "Retarded national development",
-        "Increased honesty in society",
-        "Widened gap between rich and poor",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "Corruption reduces honesty, not increases it.",
-    ),
-    QuizQuestion(
-      question:
-          "9. When inflation is high and people cannot afford basic goods, this is called...",
-      options: [
-        "High cost of living",
-        "Economic boom",
-        "Low dependency ratio",
-        "Adequate supervision",
-      ],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation: "High cost of living increases financial pressure.",
-    ),
-    QuizQuestion(
-      question:
-          "10. Corruption is described as 'retarding' development. What does 'retard' mean here?",
-      options: [
-        "To speed up",
-        "To help or support",
-        "To slow down or delay",
-        "To start or create",
-      ],
-      correctIndex: 2,
-      difficulty: "High",
-      explanation: "Corruption slows down progress and development.",
-    ),
+   QuizQuestion(
+  question: "1. Procrastination is often called the 'thief of time' because it:",
+  options: [
+    "Steals your money.",
+    "Makes you do things too early.",
+    "Wastes time that can never be recovered.",
+    "Helps you plan your day.",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      "Procrastination wastes valuable time that can never be recovered.",
+),
+
+QuizQuestion(
+  question:
+      "2. Which religion teaches that 'there is a season for every activity under the heavens'?",
+  options: [
+    "Christianity",
+    "Islam",
+    "Indigenous African Religion",
+    "Hinduism",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      "Christianity teaches that there is a time and season for everything.",
+),
+
+QuizQuestion(
+  question:
+      "3. The 'vulture' in the African proverb failed to build a house because it said:",
+  options: [
+    "I don't have enough sticks.",
+    "I will do it tomorrow.",
+    "The rain is too heavy.",
+    "I am too tired today.",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      "The proverb teaches that constant postponement leads to failure.",
+),
+
+QuizQuestion(
+  question: "4. Effective time management helps a student to be:",
+  options: [
+    "Lazy",
+    "Self-disciplined",
+    "Fearful",
+    "Wealthy",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      "Managing time well builds self-discipline and responsibility.",
+),
+
+QuizQuestion(
+  question: "5. What does Islam teach about time according to Surah 103?",
+  options: [
+    "Time is not important for believers.",
+    "Man is in a state of loss if he wastes time.",
+    "Only elders need to plan their time.",
+    "Time management is a modern idea.",
+  ],
+  correctIndex: 1,
+  difficulty: "Hard",
+  explanation:
+      "Surah Al-Asr teaches that people are in loss unless they use their time wisely in faith and good deeds.",
+),
+
+QuizQuestion(
+  question:
+      "6. A student who does many things at the same time is likely to:",
+  options: [
+    "Finish all of them quickly.",
+    "Achieve none of them well.",
+    "Be praised by the teacher.",
+    "Save a lot of money.",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      "Trying to do many tasks at once often reduces the quality of work.",
+),
+
+QuizQuestion(
+  question:
+      "7. The proverb 'a lazy man's farm is a breeding ground for snakes' means:",
+  options: [
+    "Snakes like to live on farms.",
+    "Idleness leads to dangerous and bad results.",
+    "Farmers should be careful when planting.",
+    "Only rich people have clean farms.",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      "The proverb warns that laziness creates problems and negative consequences.",
+),
+
+QuizQuestion(
+  question: "8. To 'prioritize' on a timetable means to:",
+  options: [
+    "Put the most important tasks first.",
+    "Do the easiest things last.",
+    "Skip the tasks you don't like.",
+    "Let your parents choose your activities.",
+  ],
+  correctIndex: 0,
+  difficulty: "Hard",
+  explanation:
+      "Prioritizing means arranging tasks according to their importance.",
+),
+
+QuizQuestion(
+  question: "9. Which of these is a sign of poor time management?",
+  options: [
+    "Keeping a calendar or agenda.",
+    "Learning to say 'no' to unnecessary distractions.",
+    "Oversleeping and missing classes.",
+    "Setting specific times for tasks.",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      "Oversleeping and missing classes show poor planning and time management.",
+),
+
+QuizQuestion(
+  question:
+      "10. The Indigenous African teaching 'do not wait until sunset to prepare for the night' is about:",
+  options: [
+    "Watching the sun.",
+    "Planning ahead.",
+    "Sleeping early.",
+    "Making fire.",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      "The teaching encourages preparing in advance rather than waiting until it is too late.",
+),
   ],
 );
 
