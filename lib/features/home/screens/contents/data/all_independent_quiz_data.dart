@@ -12074,8 +12074,7 @@ final IndependentPracticeModel RMEjhs3s1ss2Lesson3IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/1. RME JHS3 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -12133,8 +12132,7 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/2. RME JHS3 S2 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -12196,10 +12194,8 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/RME/2. RME JHS3 S2 SS1 L3/6. Independent Practice.m4a',
+final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/8. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
       question:

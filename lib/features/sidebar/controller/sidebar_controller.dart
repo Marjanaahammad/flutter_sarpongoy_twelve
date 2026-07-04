@@ -7639,8 +7639,7 @@ class SidebarController extends GetxController {
                 getReadyData = RMEJHS3s2ss1Lesson3GetReadyData;
                 learnData = RMEjhs3s2ss1Lesson3LearnData;
                 practiceData = RMEjhs3s2ss1Lesson3PracticeData;
-                independentPracticeData =
-                    RMEjhs3s2ss1Lesson3IndependentQuizData;
+                independentPracticeData = RMEjhs3s2ss1Lesson3IndependentQuizData;
                 quizData = RMEjhs3s2ss1Lesson3QuizData;
               }
               if (grade == "JHS 3" &&
