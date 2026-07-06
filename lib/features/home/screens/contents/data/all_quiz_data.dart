@@ -23836,6 +23836,20 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       explanation:
           "A run-off was required because no candidate achieved an absolute majority.",
     ),
+     QuizQuestion(
+      question:
+          "10. What happened on September 24th, 1979?",
+      options: [
+        "The AFRC took power",
+        "The first round of voting started",
+        "Power was handed over to Dr. Hilla Limann",
+        "A new constitution was written"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This date marked the official transition to civilian rule and the start of the Third Republic.",
+    ),
   ],
 );
 final QuizModel SSjhs3s6ss1Lesson2QuizData = QuizModel(
