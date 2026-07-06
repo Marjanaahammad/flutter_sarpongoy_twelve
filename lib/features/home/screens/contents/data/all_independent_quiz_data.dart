@@ -13500,10 +13500,8 @@ final IndependentPracticeModel SSjhs1s4ss1Lesson1IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Human Resource Development is the process of:",
@@ -13558,11 +13556,8 @@ final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData =
             "An apprentice learning dressmaking from a master tailor is an example of training for a specific job.")
   ],
 );
-
-final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question:
@@ -13606,6 +13601,231 @@ final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData =
         difficulty: "Easy",
         explanation:
             "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years.")
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who served as the independent chairman of the official commission appointed in March 1948 to investigate the causes of the Accra riots?",
+        options: [
+          "Andrew Aiken Watson",
+          "Sir Charles Noble Arden-Clarke",
+          "Sir Henry Coussey",
+          "Gerald Hallen Creasy"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which major town was not mentioned as one of the primary urban centers where mass looting and civil disturbances rapidly spread after 28th February 1948?",
+        options: [
+          "Sunyani",
+          "Koforidua",
+          "Cape Coast",
+          "Sekondi"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The three ex-servicemen who were tragically shot dead at the Christiansborg crossroads were marching peacefully to present a formal petition to which colonial official?",
+        options: [
+          "Major Imray",
+          "Governor Alan Burns",
+          "Governor Gerald Hallen Creasy",
+          "Chairman Andrew Aiken Watson"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of the following was a direct political outcome recommended by the Watson Commission report of June 1948?",
+        options: [
+          "The immediate declaration of complete independence for the colony",
+          "The drafting of a completely new constitution to replace the Burns Constitution",
+          "The permanent banning of the United Gold Coast Convention political party",
+          "The appointment of Dr. Kwame Nkrumah as the official Leader of Government Business"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. On which historic date did Dr. Kwame Nkrumah officially break away from the UGCC and launch the Convention People's Party at the Old Polo Grounds in Accra?",
+        options: [
+          "28th February 1948",
+          "12th June 1949",
+          "6th March 1957",
+          "14th March 1949"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which prominent CPP leader served as the party's General Secretary, helping organize its administrative structures after returning from studies in the United Kingdom?",
+        options: [
+          "Kojo Botsio",
+          "Ebenezer Ako Adjei",
+          "Komla Agbeli Gbedemah",
+          "Dr. J.B. Danquah"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The term \"veranda boys\" was originally used by wealthy political elites to describe which group of people within the Gold Coast?",
+        options: [
+          "Highly trained British military and security officers",
+          "Ordinary, working-class citizens, youth, and low-wage laborers",
+          "Elite European merchants managing large import firms",
+          "Traditional paramount chiefs serving on the Legislative Council"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What was the official slogan of the Convention People's Party, designed to inspire continuous progress toward liberation?",
+        options: [
+          "Self-government within the shortest possible time",
+          "Freedom and Justice forever",
+          "Forward Ever, Backward Never",
+          "God bless our homeland Ghana"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who served as the prominent African High Court Judge who chaired the 1949 constitutional advisory committee?",
+        options: [
+          "Sir Charles Noble Arden-Clarke",
+          "Sir James Henley Coussey",
+          "Justice Arku Korsah",
+          "Dr. J.B. Danquah"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How many contested legislative seats did the Convention People's Party (CPP) win during the first historic general elections in February 1951?",
+        options: [
+          "Three seats",
+          "Seventy-two seats",
+          "Thirty-four seats",
+          "Seventy-one seats"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The National Liberation Movement (NLM), which strongly opposed the CPP's centralist vision, was formed in which prominent city?",
+        options: [
+          "Sekondi",
+          "Tamale",
+          "Accra",
+          "Kumasi"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What was the primary reason why the British government insisted on holding a final general election in July 1956?",
+        options: [
+          "To choose a brand-new national flag and national anthem for the country",
+          "To settle the intense constitutional conflict between a centralized and a federal system of government",
+          "To elect representatives who would manage the local district assemblies",
+          "To decide whether the colony should remain under permanent British control"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which specific system of government did Ghana adopt under its 1957 Independence Constitution?",
+        options: [
+          "An absolute military dictatorship",
+          "A traditional federal system led by regional chiefs",
+          "A Westminster parliamentary system",
+          "A presidential republic with no ties to the British Crown"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Who served as the official representative of the British Monarch in Ghana, holding the position of Governor-General during the late 1950 transition years?",
+        options: [
+          "Major General Alexander Paley",
+          "Lord Listowel",
+          "Geoffrey Bing",
+          "Sir James Henley Coussey"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which prominent Ghanaian official held the vital portfolio of Minister of Finance, managing the new nation's economic budget between 1957 and 1960?",
+        options: [
+          "Komla Agbeli Gbedemah",
+          "Kojo Botsio",
+          "Krobo Edusei",
+          "Imoru Egala"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What major political milestone occurred in July 1960, officially ending the power-sharing arrangement with the British government?",
+        options: [
+          "Ghana returned to total British colonial rule",
+          "Ghana adopted a federal system under the NLM",
+          "Ghana officially became a fully sovereign Republic",
+          "Dr. Kwame Nkrumah resigned from active political life"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
   ],
 );
 

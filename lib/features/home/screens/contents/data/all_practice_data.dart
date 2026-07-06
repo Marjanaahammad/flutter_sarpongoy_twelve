@@ -5476,6 +5476,87 @@ final PracticeModel SSjhs1s5ss2Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel SSjhs1s6ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the main reason why the Watson Commission declared that the 1946 Alan Burns Constitution was no longer suitable for the Gold Coast.",
+      answer: "Correct Answer: The commission found that the 1946 constitution failed to provide any meaningful political power or executive positions to Africans, leaving them entirely excluded from governing their own country.",
+      explanation: "Explanation: The Watson Commission recognized that the civil unrest was deeply rooted in political frustration. The 1946 constitution kept all key ministries and decision-making portfolios strictly in the hands of British colonial officials, which ignored the growing education and capability of the local population.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how the economic policy regarding Swollen Shoot disease contributed directly to the anger that fueled the 1948 riots.",
+      answer: "Correct Answer: The colonial administration ordered the mandatory cutting down of infected cocoa trees to stop the disease, but they failed to pay adequate financial compensation to the local farmers, destroying their livelihoods.",
+      explanation: "Explanation: Cocoa was the backbone of the local economy. By forcing farmers to cut down their trees without giving them proper financial support, the colonial government caused massive financial ruin and resentment, driving rural communities to support the urban nationalist movement.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State the primary political significance of the arrest of the leaders who became known as \"The Big Six\" following the riots.",
+      answer: "Correct Answer: Their arrest unified the general public against the colonial administration and transformed these six individuals into nationwide heroes, solidifying public support for the self-governance struggle.",
+      explanation: "Explanation: Before the arrests, the nationalist movement was fractured and mostly supported by educated elites in urban centers. By detaining leaders like Dr. Kwame Nkrumah and Dr. J.B. Danquah, the British unintendedly created powerful symbols of resistance that brought all segments of Ghanaian society together.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain why Dr. Kwame Nkrumah's adoption of the term \"veranda boys\" was an effective political strategy in 1949.",
+      answer: "Correct Answer: By proudly adopting a term meant as an insult by wealthy elites, Nkrumah validated the working class, making ordinary citizens feel valued and turning them into a fiercely loyal base of political supporters.",
+      explanation: "Explanation: The older political parties were dominated by wealthy lawyers and academics who ignored the working class. When Nkrumah embraced the \"veranda boys,\" he built an inclusive, mass-oriented party that focused directly on the numerical strength of common laborers, drivers, and market traders.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Describe the specific contribution made by Komla Agbeli Gbedemah to the CPP when the party's leadership faced colonial crackdowns.",
+      answer: "Correct Answer: Gbedemah managed the party's finances, kept its primary newspaper running, and organized highly effective door-to-door grassroots campaigns that secured massive electoral victories while Nkrumah was in prison.",
+      explanation: "Explanation: A party needs excellent administration to survive. Gbedemah was a logistical genius who ensured that the CPP's message continued to reach voters across the entire Gold Coast, demonstrating that the party was an organized institution rather than just a one-man movement.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Analyze how the chosen party symbol of the red cockerel, or rooster, reinforced the primary political message of the CPP.",
+      answer: "Correct Answer: The cockerel is a universal symbol of the dawn that wakes people up, which perfectly matched the CPP's goal of awakening the nation from colonial rule into a new day of independence.",
+      explanation: "Explanation: In a society where many everyday citizens could not read or write English text, clear visual symbols were highly important. The red cockerel immediately communicated hope, energy, and a fresh start, making the party's message easily understood by everyone across the country.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain why Dr. Kwame Nkrumah and the CPP initially labeled the 1950 Coussey Constitution as \"bogus and fraudulent\".",
+      answer: "Correct Answer: The constitution failed to grant complete, immediate self-government and left absolute veto powers, along with key portfolios like finance, foreign affairs, and defense, strictly in the hands of British colonial officials.",
+      explanation: "Explanation: Although the 1950 Constitution was a step forward because it was written by an all-African committee, it did not offer true sovereignty. Nkrumah recognized that as long as the British Governor held veto power over the legislative assembly, the local population did not possess real executive control over their nation's destiny.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Analyze the political significance of the 1951 general election regarding the status of Dr. Kwame Nkrumah.",
+      answer: "Correct Answer: The CPP's landslide victory forced the British colonial administration to release Nkrumah from James Fort Prison and appoint him as Leader of Government Business to form a functional government.",
+      explanation: "Explanation: Nkrumah's election while in prison proved the immense organizational strength of the CPP's grassroots networks, particularly under Komla Agbeli Gbedemah. It demonstrated to the colonial office that any attempt to govern without Nkrumah would result in total civil paralysis, forcing them to accept him as the legitimate democratic leader.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Differentiate between the political goals of the Convention People's Party (CPP) and the National Liberation Movement (NLM) during the 1954 and 1956 election periods.",
+      answer: "Correct Answer: The CPP advocated for a unified, centralized system of government with immediate independence, whereas the NLM demanded a federal structure that protected regional autonomy, cocoa wealth, and traditional chiefdoms.",
+      explanation: "Explanation: This ideological clash was the central debate of late colonial history. The NLM feared that a centralized government under the CPP would exploit the rich cocoa revenues of the Ashanti region and undermine traditional authority. The CPP argued that a federal system would fracture a small nation along tribal lines, weakening its international standing.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain the difference between the roles of the Governor-General and the Prime Minister in Ghana from 1957 to 1960.",
+      answer: "Correct Answer: The Governor-General served as the ceremonial Head of State representing the British Queen, whereas the Prime Minister was the Head of Government who held the active executive power to run the state administration.",
+      explanation: "Explanation: This division is the core feature of a parliamentary system. The Governor-General held symbolic authority and had to formally sign laws, but he did not create policies. The Prime Minister and his cabinet were the ones who actually created budgets, designed infrastructure, and managed the daily ministries.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Analyze why having British citizens like Geoffrey Bing and Major General Alexander Paley in the government was considered a disadvantage for national security.",
+      answer: "Correct Answer: Having foreign nationals control the chief legal advisory and the military command meant that the young nation's security and legal secrets were exposed to individuals whose ultimate loyalty lay with a foreign power.",
+      explanation: "Explanation: True independence requires total control over defense and law. If a political or military crisis occurred between Ghana and Great Britain, British officers holding these high portfolios would face a major conflict of interest, potentially undermining Ghana's safety to protect British imperial interests.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: State how the power-sharing arrangement helped reassure international investors during the immediate post-independence years.",
+      answer: "Correct Answer: By maintaining the British monarch as Head of State and retaining British experts in the civil service, Ghana signaled that its economic and legal systems would remain stable, safe, and predictable.",
+      explanation: "Explanation: International banks and trading firms are often afraid of sudden political changes in newly independent nations. Seeing that Ghana kept the Westminster system and preserved its historic legal ties gave foreign businesses the confidence to invest capital in local projects.",
+    ),
+  ],
+);
+
 final PracticeModel SSjhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath:
       'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/7. Guided Practice.m4a',

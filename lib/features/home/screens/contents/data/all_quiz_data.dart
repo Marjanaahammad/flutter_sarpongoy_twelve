@@ -29151,6 +29151,623 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
   ],
 );
 
+final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. On which specific date did the tragic shooting of the three unarmed ex-servicemen take place at the Christiansborg Crossroads in Accra?",
+      options: [
+        "12th March 1948",
+        "28th February 1948",
+        "15th March 1948",
+        "8th January 1950",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The peaceful march and the fatal shooting of the three ex-servicemen occurred on 28th February 1948, a date remembered annually in Ghana.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What was the name of the British police officer who ordered his armed security forces to fire upon the peaceful veterans?",
+      options: [
+        "Andrew Aiken Watson",
+        "Robert Scott",
+        "Major Imray",
+        "Gerald Hallen Creasy",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Major Imray ordered the security forces to open fire after the veterans refused to stop their peaceful march.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which of the following heroes was a native of the Ga ethnic group from La, Accra, and served as a prominent leader during the 1948 veterans' march?",
+      options: [
+        "Sergeant Cornelius Francis Adjetey",
+        "Corporal Patrick Attipoe",
+        "Private Odartey Lamptey",
+        "Dr. J.B. Danquah",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Sergeant Cornelius Francis Adjetey, a Ga from La, Accra, led the procession before he was killed.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. How many members made up the independent Watson Commission that investigated the 1948 civil disturbances?",
+      options: [
+        "Six members",
+        "Two members",
+        "Four members",
+        "Three members",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Watson Commission consisted of three members: Andrew Aiken Watson (Chairman), Andrew Dalgleish, and Keith Murray.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What major economic grievance did returning World War Two veterans hold against the British colonial administration?",
+      options: [
+        "The forced closure of local Ghanaian banks and credit unions",
+        "Broken promises regarding pensions, housing benefits, and stable employment",
+        "Widespread destruction of urban markets by colonial security forces",
+        "High taxes placed directly on local agricultural tools and imported seeds",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The veterans protested because the colonial government failed to fulfill promises relating to pensions, welfare, and employment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of the following figures was not a member of the celebrated political group known as 'The Big Six' arrested following the 1948 riots?",
+      options: [
+        "Dr. Kwame Nkrumah",
+        "Ebenezer Ako Adjei",
+        "Sir Henry Coussey",
+        "Edward Akufo-Addo",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Sir Henry Coussey was not one of the Big Six; he later chaired the Coussey Committee.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. In which month and year did the Watson Commission officially present its comprehensive report and recommendations to the British government?",
+      options: [
+        "June 1948",
+        "March 1948",
+        "March 1949",
+        "February 1948",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "The Watson Commission completed its investigations and submitted its report in June 1948.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What did the Watson Commission conclude regarding the existing 1946 Burns Constitution?",
+      options: [
+        "It was working perfectly and should be maintained for another decade",
+        "It was completely out of date because it failed to give Africans real political power",
+        "It needed to be modified to reduce the total number of elected African officials",
+        "It was invalid because it had never been signed by the British monarch",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Commission concluded that the Burns Constitution did not provide meaningful political power to Africans.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. From which specific geographical region did Corporal Patrick Attipoe, one of the three martyred ex-servicemen, originate?",
+      options: [
+        "Northern Region",
+        "Ashanti Region",
+        "Western Region",
+        "Volta Region",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "Corporal Patrick Attipoe was from Ghana's Volta Region and became one of the three celebrated martyrs.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which historic advisory body was formed in March 1949 as a direct consequence of the recommendations made by the Watson Commission?",
+      options: [
+        "The National Assembly",
+        "The Coussey Committee",
+        "The Convention People's Party",
+        "The West African Frontier Force",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Following the Watson Commission's recommendations, the Coussey Committee was established in 1949 to draft constitutional reforms.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. In which Ghanaian town did the Committee on Youth Organization hold its critical June 1949 conference that urged Nkrumah to form a new party?",
+      options: [
+        "Winneba",
+        "Saltpond",
+        "Tarkwa",
+        "Accra",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Committee on Youth Organization met in Tarkwa in June 1949 and encouraged Kwame Nkrumah to break away from the UGCC and form a new political party.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What political position did Dr. Kwame Nkrumah hold within the United Gold Coast Convention before his resignation?",
+      options: [
+        "National Chairman",
+        "General Secretary",
+        "Financial Treasurer",
+        "Vice President",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Kwame Nkrumah served as the General Secretary of the UGCC before resigning to establish the Convention People's Party.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which official color in the three-striped CPP party flag was chosen to represent the rich agricultural wealth and natural forests of the country?",
+      options: [
+        "White",
+        "Green",
+        "Red",
+        "Gold",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Green on the CPP flag symbolizes Ghana's rich vegetation, forests, and agricultural resources.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Who was the legendary organizer who ran the CPP campaigns and edited the Accra Evening News while Nkrumah was held in James Fort prison?",
+      options: [
+        "Kojo Botsio",
+        "Komla Agbeli Gbedemah",
+        "Krobo Edusei",
+        "Imoru Egala",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Komla Agbeli Gbedemah managed party activities and helped keep the CPP movement active while Nkrumah was imprisoned.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What political ideology did the CPP promote to advocate for the total liberation and international integration of all African states?",
+      options: [
+        "Colonialism",
+        "Federalism",
+        "Pan-Africanism",
+        "Capitalism",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The CPP strongly supported Pan-Africanism, believing that Ghana's independence should contribute to the liberation of all Africa.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which major market women's associations actively backed the CPP, helping distribute campaign messages and providing crucial financial support?",
+      options: [
+        "The Trades Union Congress",
+        "The Ghana National Association of Teachers",
+        "Local Market Women and Traders Associations",
+        "The Chamber of Commerce",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Market women and traders' associations played an important role in supporting and financing the CPP's activities.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What was the primary difference in timing between the independence slogans of the UGCC and the newly formed CPP?",
+      options: [
+        "The UGCC wanted immediate independence, while the CPP wanted it in the distant future.",
+        "The UGCC wanted a federal system, while the CPP wanted military rule.",
+        "The UGCC wanted gradual self-government, while the CPP demanded self-government immediately.",
+        "The UGCC wanted to remain under foreign rule, while the CPP wanted British rule to continue.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The UGCC preferred gradual constitutional progress, while the CPP demanded immediate self-government.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Where was Komla Agbeli Gbedemah, the prominent Vice Chairman of the Convention People's Party, originally born?",
+      options: [
+        "Winneba, Ghana",
+        "Keta, Ghana",
+        "Warri, Nigeria",
+        "Nkroful, Ghana",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Komla Agbeli Gbedemah was born in Warri, Nigeria, to Ghanaian parents from Keta.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which highly influential local newspaper was founded by Dr. Kwame Nkrumah to spread the message of mass political action?",
+      options: [
+        "The Daily Graphic",
+        "The Gold Coast Express",
+        "The Accra Evening News",
+        "The Ashanti Pioneer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Accra Evening News became the CPP's newspaper for educating the public and promoting mass political action.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which group did not actively partner with the CPP during its mobilization campaigns in late 1949?",
+      options: [
+        "Elite European trading firms and mining executives",
+        "Youth associations and local drivers' unions",
+        "Market women and small-scale traders",
+        "The Railway Workers Union and the Trades Union Congress",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "European trading firms and mining companies generally opposed the CPP because its campaigns challenged colonial economic interests.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. In which month and year did the historic Coussey Committee officially submit its constitutional report to the colonial governor?",
+      options: [
+        "February 1948",
+        "November 1949",
+        "March 1949",
+        "June 1948",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "The Coussey Committee submitted its constitutional report in November 1949, laying the foundation for the 1950 Constitution.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. How many members made up the all-African Coussey Committee of 1949?",
+      options: [
+        "Six members",
+        "Four members",
+        "Thirty-eight members",
+        "104 members",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Coussey Committee consisted of thirty-eight members representing various professions and traditional authorities.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which of the following descriptions best summarizes the official slogan or stance of the CPP toward the 1950 Constitution?",
+      options: [
+        "Forward Ever, Backward Never",
+        "Bogus and Fraudulent",
+        "Self-government within the shortest possible time",
+        "Freedom and Justice Now",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The CPP rejected the 1950 Constitution as 'bogus and fraudulent' because it did not provide full self-government.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. On which exact date was Dr. Kwame Nkrumah officially released from James Fort Prison following his party's victory in the 1951 elections?",
+      options: [
+        "20th January 1948",
+        "15th June 1954",
+        "13th March 1951",
+        "6th March 1957",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Kwame Nkrumah was released from James Fort Prison on 13th March 1951 after the CPP's electoral victory.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What specific political position did Dr. Kwame Nkrumah occupy immediately after walking out of prison in March 1951?",
+      options: [
+        "Governor-General of the Gold Coast",
+        "President of the Republic of Ghana",
+        "Leader of Government Business",
+        "Speaker of the National Assembly",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Nkrumah became the Leader of Government Business, a position later renamed Prime Minister in 1952.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. How many seats were available in the fully elected National Assembly established under the revised 1954 Constitution?",
+      options: [
+        "Thirty-eight seats",
+        "104 seats",
+        "Seventy-two seats",
+        "Eighty-four seats",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The 1954 Constitution created a National Assembly made up of 104 fully elected representatives.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. How many parliamentary seats did the CPP win in the June 1954 general elections?",
+      options: [
+        "Thirty-four seats",
+        "Seventy-one seats",
+        "Three seats",
+        "Seventy-two seats",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "The CPP won 72 of the 104 seats in the June 1954 general election.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Who was the prominent traditional leader and chief linguist of the Asantehene who co-founded the National Liberation Movement?",
+      options: [
+        "Dr. J. B. Danquah",
+        "Baffour Osei Akoto",
+        "Komla Agbeli Gbedemah",
+        "Kojo Botsio",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Baffour Osei Akoto, the chief linguist of the Asantehene, co-founded the National Liberation Movement.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. How many total parliamentary seats did the CPP capture in the final pre-independence election held on 17th July 1956?",
+      options: [
+        "Seventy-one seats",
+        "Seventy-two seats",
+        "Thirty-four seats",
+        "104 seats",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "The CPP won 71 of the 104 parliamentary seats in the July 1956 election.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. What was the direct historic outcome of the CPP's decisive democratic victory in the 1956 election?",
+      options: [
+        "The forced retirement of Dr. Kwame Nkrumah from active politics",
+        "The British colonial office accepted the mandate and approved the Independence Act",
+        "The immediate adoption of a federal system across all four territories",
+        "The cancellation of all local agricultural taxes on cocoa products",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The CPP's victory convinced Britain that the people supported independence, leading to the approval of the Independence Act and Ghana's independence on 6th March 1957.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. On which specific date did the power-sharing arrangement under the Westminster system officially begin for independent Ghana?",
+      options: [
+        "28th February 1948",
+        "12th June 1949",
+        "1st July 1960",
+        "6th March 1957",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "The Westminster system came into effect when Ghana gained independence on 6th March 1957.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Who was the official symbolic Head of State of Ghana from March 1957 to July 1960?",
+      options: [
+        "Dr. Kwame Nkrumah",
+        "Queen Elizabeth II",
+        "Lord Listowel",
+        "Dr. J. B. Danquah",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Between 1957 and 1960, Ghana remained a constitutional monarchy with Queen Elizabeth II as the ceremonial Head of State.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which British official served as Ghana's Attorney-General during the period from 1957 to 1960?",
+      options: [
+        "David Mowbray Balme",
+        "Major General Alexander Paley",
+        "Geoffrey Bing",
+        "Sir Charles Noble Arden-Clarke",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Geoffrey Bing served as Ghana's Attorney-General during the early post-independence years.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which ministry was headed by Kojo Botsio during Ghana's first independent government (1957–1960)?",
+      options: [
+        "Ministry of Finance",
+        "Ministry of Agriculture and Natural Resources",
+        "Ministry of the Interior",
+        "Speaker of the National Assembly",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Kojo Botsio served as Minister of Agriculture and Natural Resources after independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Under the Westminster power-sharing system, whose assent was required before a bill passed by Parliament became law?",
+      options: [
+        "The Chief of Defence Staff",
+        "The Governor-General",
+        "The Queen personally in London",
+        "The Chief Justice",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Governor-General, representing the Queen, gave Royal Assent to bills before they became law.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What was one major advantage of Ghana's power-sharing arrangement between 1957 and 1960?",
+      options: [
+        "It gave Ghana complete control of foreign affairs immediately.",
+        "It allowed Ghanaian ministers to gain valuable governing experience.",
+        "It completely eliminated political opposition.",
+        "It prevented taxes on cocoa farmers.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The arrangement allowed Ghanaian leaders to gain practical administrative and governmental experience.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What position did Major General Alexander George Victor Paley occupy in independent Ghana?",
+      options: [
+        "Minister of the Interior",
+        "Governor-General",
+        "Chief of Defence Staff",
+        "Attorney-General",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Major General Paley served as Chief of Defence Staff during Ghana's early years of independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Who served as Ghana's Minister of the Interior under the post-independence power-sharing administration?",
+      options: [
+        "Krobo Edusei",
+        "Imoru Egala",
+        "Joseph Henry Allassani",
+        "Nathaniel Azarco Welbeck",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "Krobo Edusei headed the Ministry of the Interior after Ghana attained independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Why did some critics consider the presence of British officials in top military and legal positions a disadvantage?",
+      options: [
+        "It reduced cocoa export prices.",
+        "It prevented Ghana from joining the United Nations.",
+        "Their primary loyalty might remain with Britain, creating security concerns.",
+        "It stopped schools from teaching English.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Critics feared that foreign officials might prioritize British interests over Ghana's national interests.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. What was the major constitutional change when Ghana became a Republic on 1st July 1960?",
+      options: [
+        "Ghana became a British colony again.",
+        "The Queen ceased to be Head of State and Ghana gained full republican sovereignty.",
+        "A federal system was introduced.",
+        "Parliament was dissolved and replaced by a military council.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Republic removed the British monarch as Head of State and replaced that role with a Ghanaian President.",
+    ),
+  ],
+);
+
 final QuizModel SSjhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath:
       'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/9. Quiz.m4a',

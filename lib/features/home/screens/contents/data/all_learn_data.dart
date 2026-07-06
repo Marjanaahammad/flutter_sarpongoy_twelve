@@ -2329,7 +2329,7 @@ final LearnModel RMEs4ss1Lesson2LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L2/partC.jpg',
-    audioPath: 'assets/audio/RME/s4_ss1_l2/5. Teach - Part C .m4a',
+    audioPath: 'assets/audio/RME/s4_ss1_l2/5. Teach - Part C.m4a',
   ),
 ]);
 final LearnModel RMEs4ss1Lesson3LearnData = LearnModel(parts: [
@@ -2343,7 +2343,7 @@ final LearnModel RMEs4ss1Lesson3LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/partC.jpg',
-    audioPath: 'assets/audio/RME/s4_ss1_l3/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/RME/s4_ss1_l3/5. Teach - Part C .m4a',
   ),
 ]);
 
@@ -2411,7 +2411,7 @@ final LearnModel RMEs5ss2Lesson1LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/RME/RME_JHS1_S5_SS2_L1/partB.jpg',
-    audioPath: 'assets/audio/RME/s5_ss2_l1/4. Teach - Part B.m4a',
+    audioPath: 'assets/audio/RME/s5_ss2_l1/4. Teach - Part B .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/RME/RME_JHS1_S5_SS2_L1/part_c.jpg',
@@ -3323,6 +3323,75 @@ final LearnModel SSjhs1s5ss2Lesson1LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/partC.jpg',
     audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/5. Teach - Part C.m4a',
+  )
+]);
+
+final LearnModel SSjhs1s6ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l1/partA.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l1/partB.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/partB.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l1/partC.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/partC.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l1/partD.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/partD.m4a',
+  )
+]);
+final LearnModel SSjhs1s6ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l2/partA.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l2/partB.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/partB.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l2/partC.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/partC.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l2/partD.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/partD.m4a',
+  )
+]);
+final LearnModel SSjhs1s6ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l3/partA.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l3/partB.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/partB.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l3/partC.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/partC.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l3/partD.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/partD.m4a',
+  )
+]);
+final LearnModel SSjhs1s6ss1Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l4/partA.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l4/partB.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/partB.m4a',
+  ),LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l4/partC.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/partC.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l4/partD.jpg',
+    audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/partD.m4a',
   )
 ]);
 

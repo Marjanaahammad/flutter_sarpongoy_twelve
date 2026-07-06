@@ -1330,12 +1330,13 @@ class SidebarController extends GetxController {
               "topics": ["Examining Social Security in Ghana"],
             },
           ],
-        },{
+        },
+        {
           "subtitle": "NATIONHOOD",
           "subStrands": [
             {
               "subtitle": "INDEPENDENT GHANA",
-              "topics": ["THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,"],
+              "topics": ["THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,", "THE FORMATION OF THE CONVENTION PEOPLE'S PARTY (1949)", "THE COUSSEY COMMITTEE AND THE ELECTIONS OF 1951, 1954, AND 1956", "THE NATURE OF GOVERNMENT FROM 1957 TO 1960"],
             },
           ],
         },
@@ -6593,7 +6594,44 @@ class SidebarController extends GetxController {
                 practiceData = SSjhs1s5ss2Lesson1PracticeData;
                 independentPracticeData = SSjhs1s5ss2Lesson1IndependentQuizData;
                 quizData = SSjhs1s5ss2Lesson1QuizData;
+              }if (courseTitle == "Social Studies" &&
+                  sIndex == 5 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = SSJHS1s6ss1Lesson1GetReadyData;
+                learnData = SSjhs1s6ss1Lesson1LearnData;
+                practiceData = SSjhs1s6ss1Lesson1PracticeData;
+                independentPracticeData = SSjhs1s6ss1Lesson1IndependentQuizData;
+                quizData = SSjhs1s6ss1Lesson1QuizData;
+              }if (courseTitle == "Social Studies" &&
+                  sIndex == 5 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = SSJHS1s6ss1Lesson2GetReadyData;
+                learnData = SSjhs1s6ss1Lesson2LearnData;
+                practiceData = SSjhs1s6ss1Lesson2PracticeData;
+                independentPracticeData = SSjhs1s6ss1Lesson2IndependentQuizData;
+                quizData = SSjhs1s6ss1Lesson2QuizData;
+              }if (courseTitle == "Social Studies" &&
+                  sIndex == 5 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = SSJHS1s6ss1Lesson3GetReadyData;
+                learnData = SSjhs1s6ss1Lesson3LearnData;
+                practiceData = SSjhs1s6ss1Lesson3PracticeData;
+                independentPracticeData = SSjhs1s6ss1Lesson3IndependentQuizData;
+                quizData = SSjhs1s6ss1Lesson3QuizData;
+              }if (courseTitle == "Social Studies" &&
+                  sIndex == 5 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = SSJHS1s6ss1Lesson4GetReadyData;
+                learnData = SSjhs1s6ss1Lesson4LearnData;
+                practiceData = SSjhs1s6ss1Lesson4PracticeData;
+                independentPracticeData = SSjhs1s6ss1Lesson4IndependentQuizData;
+                quizData = SSjhs1s6ss1Lesson4QuizData;
               }
+
               if (grade == "JHS 2" &&
                   courseTitle == "Social Studies" &&
                   sIndex == 0 &&
