@@ -2795,11 +2795,11 @@ final LearnModel RMEjhs2s6ss1Lesson3LearnData = LearnModel(parts: [
 final LearnModel RMEjhs2s6ss1Lesson4LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/RME/jhs2_s6_ss1_l4/part_a.jpg',
-    audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/3. Teach - Part A.m4a',
+    audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/3. Teach - Part A .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/RME/jhs2_s6_ss1_l4/part_b.jpg',
-    audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/4. Teach - Part B.m4a',
+    audioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/4. Teach - Part B .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/RME/jhs2_s6_ss1_l4/part_c.jpg',
