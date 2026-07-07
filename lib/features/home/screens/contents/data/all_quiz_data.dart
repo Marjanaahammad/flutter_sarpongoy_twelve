@@ -24967,150 +24967,142 @@ final QuizModel RMEjhs2s6ss2Lesson1QuizData = QuizModel(
 final QuizModel RMEjhs2s6ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/RME/6. RME JHS2 S6 SS2 L2/7. Quiz.m4a',
   questions: [
-   QuizQuestion(
-  question: "1. Procrastination is often called the 'thief of time' because it:",
-  options: [
-    "Steals your money.",
-    "Makes you do things too early.",
-    "Wastes time that can never be recovered.",
-    "Helps you plan your day.",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      "Procrastination wastes valuable time that can never be recovered.",
-),
-
-QuizQuestion(
-  question:
-      "2. Which religion teaches that 'there is a season for every activity under the heavens'?",
-  options: [
-    "Christianity",
-    "Islam",
-    "Indigenous African Religion",
-    "Hinduism",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      "Christianity teaches that there is a time and season for everything.",
-),
-
-QuizQuestion(
-  question:
-      "3. The 'vulture' in the African proverb failed to build a house because it said:",
-  options: [
-    "I don't have enough sticks.",
-    "I will do it tomorrow.",
-    "The rain is too heavy.",
-    "I am too tired today.",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      "The proverb teaches that constant postponement leads to failure.",
-),
-
-QuizQuestion(
-  question: "4. Effective time management helps a student to be:",
-  options: [
-    "Lazy",
-    "Self-disciplined",
-    "Fearful",
-    "Wealthy",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      "Managing time well builds self-discipline and responsibility.",
-),
-
-QuizQuestion(
-  question: "5. What does Islam teach about time according to Surah 103?",
-  options: [
-    "Time is not important for believers.",
-    "Man is in a state of loss if he wastes time.",
-    "Only elders need to plan their time.",
-    "Time management is a modern idea.",
-  ],
-  correctIndex: 1,
-  difficulty: "Hard",
-  explanation:
-      "Surah Al-Asr teaches that people are in loss unless they use their time wisely in faith and good deeds.",
-),
-
-QuizQuestion(
-  question:
-      "6. A student who does many things at the same time is likely to:",
-  options: [
-    "Finish all of them quickly.",
-    "Achieve none of them well.",
-    "Be praised by the teacher.",
-    "Save a lot of money.",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      "Trying to do many tasks at once often reduces the quality of work.",
-),
-
-QuizQuestion(
-  question:
-      "7. The proverb 'a lazy man's farm is a breeding ground for snakes' means:",
-  options: [
-    "Snakes like to live on farms.",
-    "Idleness leads to dangerous and bad results.",
-    "Farmers should be careful when planting.",
-    "Only rich people have clean farms.",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      "The proverb warns that laziness creates problems and negative consequences.",
-),
-
-QuizQuestion(
-  question: "8. To 'prioritize' on a timetable means to:",
-  options: [
-    "Put the most important tasks first.",
-    "Do the easiest things last.",
-    "Skip the tasks you don't like.",
-    "Let your parents choose your activities.",
-  ],
-  correctIndex: 0,
-  difficulty: "Hard",
-  explanation:
-      "Prioritizing means arranging tasks according to their importance.",
-),
-
-QuizQuestion(
-  question: "9. Which of these is a sign of poor time management?",
-  options: [
-    "Keeping a calendar or agenda.",
-    "Learning to say 'no' to unnecessary distractions.",
-    "Oversleeping and missing classes.",
-    "Setting specific times for tasks.",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      "Oversleeping and missing classes show poor planning and time management.",
-),
-
-QuizQuestion(
-  question:
-      "10. The Indigenous African teaching 'do not wait until sunset to prepare for the night' is about:",
-  options: [
-    "Watching the sun.",
-    "Planning ahead.",
-    "Sleeping early.",
-    "Making fire.",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      "The teaching encourages preparing in advance rather than waiting until it is too late.",
-),
+    QuizQuestion(
+      question:
+          "1. Procrastination is often called the 'thief of time' because it:",
+      options: [
+        "Steals your money.",
+        "Makes you do things too early.",
+        "Wastes time that can never be recovered.",
+        "Helps you plan your day.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Procrastination wastes valuable time that can never be recovered.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which religion teaches that 'there is a season for every activity under the heavens'?",
+      options: [
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Hinduism",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Christianity teaches that there is a time and season for everything.",
+    ),
+    QuizQuestion(
+      question:
+          "3. The 'vulture' in the African proverb failed to build a house because it said:",
+      options: [
+        "I don't have enough sticks.",
+        "I will do it tomorrow.",
+        "The rain is too heavy.",
+        "I am too tired today.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The proverb teaches that constant postponement leads to failure.",
+    ),
+    QuizQuestion(
+      question: "4. Effective time management helps a student to be:",
+      options: [
+        "Lazy",
+        "Self-disciplined",
+        "Fearful",
+        "Wealthy",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Managing time well builds self-discipline and responsibility.",
+    ),
+    QuizQuestion(
+      question: "5. What does Islam teach about time according to Surah 103?",
+      options: [
+        "Time is not important for believers.",
+        "Man is in a state of loss if he wastes time.",
+        "Only elders need to plan their time.",
+        "Time management is a modern idea.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Surah Al-Asr teaches that people are in loss unless they use their time wisely in faith and good deeds.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A student who does many things at the same time is likely to:",
+      options: [
+        "Finish all of them quickly.",
+        "Achieve none of them well.",
+        "Be praised by the teacher.",
+        "Save a lot of money.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trying to do many tasks at once often reduces the quality of work.",
+    ),
+    QuizQuestion(
+      question:
+          "7. The proverb 'a lazy man's farm is a breeding ground for snakes' means:",
+      options: [
+        "Snakes like to live on farms.",
+        "Idleness leads to dangerous and bad results.",
+        "Farmers should be careful when planting.",
+        "Only rich people have clean farms.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The proverb warns that laziness creates problems and negative consequences.",
+    ),
+    QuizQuestion(
+      question: "8. To 'prioritize' on a timetable means to:",
+      options: [
+        "Put the most important tasks first.",
+        "Do the easiest things last.",
+        "Skip the tasks you don't like.",
+        "Let your parents choose your activities.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Prioritizing means arranging tasks according to their importance.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is a sign of poor time management?",
+      options: [
+        "Keeping a calendar or agenda.",
+        "Learning to say 'no' to unnecessary distractions.",
+        "Oversleeping and missing classes.",
+        "Setting specific times for tasks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Oversleeping and missing classes show poor planning and time management.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The Indigenous African teaching 'do not wait until sunset to prepare for the night' is about:",
+      options: [
+        "Watching the sun.",
+        "Planning ahead.",
+        "Sleeping early.",
+        "Making fire.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The teaching encourages preparing in advance rather than waiting until it is too late.",
+    ),
   ],
 );
 
@@ -27419,124 +27411,140 @@ final QuizModel RMEjhs3s6ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/RME/2. RME JHS3 S6 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which of these units is NOT used to measure time?",
-      options: ["Minutes", "Kilograms", "Seconds", "Hours"],
-      correctIndex: 1,
+      question:
+          "1. Procrastination is often called the 'thief of time' because it:",
+      options: [
+        "Steals your money.",
+        "Makes you do things too early.",
+        "Wastes time that can never be recovered.",
+        "Helps you plan your day.",
+      ],
+      correctIndex: 2,
       difficulty: "Easy",
       explanation:
-          "Time is measured in seconds, minutes, and hours, while kilograms measure weight.",
+          "Procrastination wastes valuable time that can never be recovered once it is lost.",
     ),
     QuizQuestion(
-      question: "2. According to the curriculum, idleness is the act of:",
+      question:
+          "2. Which religion teaches that 'there is a season for every activity under the heavens'?",
       options: [
-        "Whiling away time or doing nothing.",
-        "Taking a vacation after a long term.",
-        "Planning a daily schedule for school.",
-        "Playing football during the weekend.",
+        "Christianity",
+        "Islam",
+        "Indigenous African Religion",
+        "Hinduism",
       ],
       correctIndex: 0,
-      difficulty: "Easy",
-      explanation:
-          "Idleness is defined as doing nothing or being lazy when there is work to do.",
-    ),
-    QuizQuestion(
-      question: "3. Leisure is different from idleness because leisure is:",
-      options: [
-        "Sinful and destructive.",
-        "Only for adults and not students.",
-        "A constructive use of time.",
-        "Wasting time during class hours.",
-      ],
-      correctIndex: 2,
       difficulty: "Medium",
       explanation:
-          "Unlike idleness, leisure is a planned and beneficial use of spare time.",
+          "The Bible teaches that there is a season for every activity under heaven (Ecclesiastes 3:1).",
     ),
     QuizQuestion(
-      question: "4. What does it mean to say time is \"irrecoverable\"?",
+      question:
+          "3. The 'vulture' in the African proverb failed to build a house because it said:",
       options: [
-        "It can be bought back later.",
-        "It can be saved in a bank.",
-        "Once it is wasted, it cannot be regained.",
-        "It only moves forward on digital clocks.",
+        "'I don't have enough sticks.'",
+        "'I will do it tomorrow.'",
+        "'The rain is too heavy.'",
+        "'I am too tired today.'",
       ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "Wasted time cannot be recovered, which is why we must use it judiciously.",
-    ),
-    QuizQuestion(
-      question: "5. Which activity is a profitable use of leisure?",
-      options: [
-        "Gossiping with friends for hours.",
-        "Sleeping all day instead of going to school.",
-        "Reading a storybook to refresh the mind.",
-        "Gambling and betting at the station.",
-      ],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation:
-          "Reading for pleasure is a constructive way to use leisure time.",
-    ),
-    QuizQuestion(
-      question: "6. In RME, idleness is often described as:",
-      options: [
-        "A healthy habit.",
-        "A spiritual exercise.",
-        "A sinful act.",
-        "A form of relaxation.",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "Religious teachings generally view idleness as sinful and unproductive.",
-    ),
-    QuizQuestion(
-      question: "7. Recreation is another name for:",
-      options: ["Hard work", "Leisure", "Idleness", "Homework"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-          "Recreation and leisure both refer to using spare time for enjoyment and rest.",
+          "The proverb teaches that constantly postponing work leads to failure.",
     ),
     QuizQuestion(
-      question: "8. Which of the following is an example of idleness?",
+      question: "4. Effective time management helps a student to be:",
       options: [
-        "Helping with communal labor on Saturday.",
-        "Visiting a sick relative during the holidays.",
-        "Sitting around doing nothing while others work.",
-        "Practicing the flute after finishing chores.",
+        "Lazy",
+        "Self-disciplined",
+        "Fearful",
+        "Wealthy",
       ],
-      correctIndex: 2,
+      correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Sitting around doing nothing while work is available is idleness.",
+          "Managing time well develops self-discipline and responsible habits.",
     ),
     QuizQuestion(
-      question: "9. Time is described as \"indefinite progress\" because:",
+      question: "5. What does Islam teach about time according to Surah 103?",
       options: [
-        "It has a specific end date for everyone.",
-        "It continues from the past into the future.",
-        "It only exists when we look at a clock.",
-        "It stops when we go to sleep at night.",
+        "Time is not important for believers.",
+        "Man is in a state of loss if he wastes time.",
+        "Only elders need to plan their time.",
+        "Time management is a modern idea.",
       ],
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-          "Time is the continued progress of existence through past, present, and future.",
+          "Surah Al-'Asr teaches that people are in loss unless they use their time in faith and righteous deeds.",
     ),
     QuizQuestion(
-      question: "10. Why is time considered \"money\" in Ghana?",
+      question:
+          "6. A student who does many things at the same time is likely to:",
       options: [
-        "Because you can trade your watch for food.",
-        "Because time is a resource that leads to prosperity.",
-        "Because the Cedi is printed on clocks.",
-        "Because people are paid just for standing around.",
+        "Finish all of them quickly.",
+        "Achieve none of them well.",
+        "Be praised by the teacher.",
+        "Save a lot of money.",
       ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-          "Like money, time is a valuable asset that contributes to the progress of society.",
+          "Trying to do too many tasks at once often reduces effectiveness and quality.",
+    ),
+    QuizQuestion(
+      question:
+          "7. The proverb 'a lazy man's farm is a breeding ground for snakes' means:",
+      options: [
+        "Snakes like to live on farms.",
+        "Idleness leads to dangerous and bad results.",
+        "Farmers should be careful when planting.",
+        "Only rich people have clean farms.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The proverb teaches that laziness and neglect bring harmful consequences.",
+    ),
+    QuizQuestion(
+      question: "8. To 'prioritize' on a timetable means to:",
+      options: [
+        "Put the most important tasks first.",
+        "Do the easiest things last.",
+        "Skip the tasks you don't like.",
+        "Let your parents choose your activities.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Prioritizing means arranging tasks according to their importance.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is a sign of poor time management?",
+      options: [
+        "Keeping a calendar or agenda.",
+        "Learning to say 'no' to unnecessary distractions.",
+        "Oversleeping and missing classes.",
+        "Setting specific times for tasks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Oversleeping and missing classes are clear signs of poor time management.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The Indigenous African teaching 'do not wait until sunset to prepare for the night' is about:",
+      options: [
+        "Watching the sun.",
+        "Planning ahead.",
+        "Sleeping early.",
+        "Making fire.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The proverb emphasizes planning ahead and preparing before problems arise.",
     ),
   ],
 );
@@ -34019,6 +34027,19 @@ final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation:
           "A run-off was required because no candidate achieved an absolute majority.",
+    ),
+    QuizQuestion(
+      question: "10. What happened on September 24th, 1979?",
+      options: [
+        "The AFRC took power",
+        "The first round of voting started",
+        "Power was handed over to Dr. Hilla Limann",
+        "A new constitution was written"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "This date marked the official transition to civilian rule and the start of the Third Republic.",
     ),
   ],
 );

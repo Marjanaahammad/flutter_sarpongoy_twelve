@@ -1316,7 +1316,7 @@ final GetReadyModel RMEJHS3s2ss1Lesson2GetReadyData = GetReadyModel(
 );
 final GetReadyModel RMEJHS3s2ss1Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/RME_JHS3_S2_SS1_L3/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/1. Chapter 1(updated).m4a',
   hookImagePath: 'assets/images/RME/RME_JHS3_S2_SS1_L3/hook.jpg',
   hookAudioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/2. Hook.m4a',
 );
@@ -1354,7 +1354,7 @@ final GetReadyModel RMEJHS3s4ss1Lesson2GetReadyData = GetReadyModel(
 );
 final GetReadyModel RMEJHS3s4ss1Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/RME_JHS3_S4_SS1_L3/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/RME/3. RME JHS3 S4 SS1 L3/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/RME/3. RME JHS3 S4 SS1 L3/1. Chapter 1(updated).m4a',
   hookImagePath: 'assets/images/RME/RME_JHS3_S4_SS1_L3/hook.jpg',
   hookAudioPath: 'assets/audio/RME/3. RME JHS3 S4 SS1 L3/2. Hook.m4a',
 );
@@ -1704,7 +1704,7 @@ final GetReadyModel SSJHS3s5ss1Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/student-overview.jpg',
   overviewAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/hook.jpg',
-  hookAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/2. Hook.m4a',
+  hookAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/2. Hook(updated).m4a',
 );
 final GetReadyModel SSJHS3s5ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS2 L1/student_overview.jpg',
