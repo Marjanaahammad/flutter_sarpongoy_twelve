@@ -44801,6 +44801,19 @@ final QuizModel Scijhs2s3ss4Lesson2QuizData = QuizModel(
       explanation:
           "Crops and crop residues can provide shade, shelter, and protection for animals.",
     ),
+    QuizQuestion(
+      question: "10. A farmer rotates maize with groundnuts to...",
+      options: [
+        "Make the soil harder",
+        "Reduce soil nutrients",
+        "Maintain soil fertility",
+        "Increase the weed growth"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Legumes in rotation help keep the soil healthy and fertile naturally.",
+    ),
   ],
 );
 

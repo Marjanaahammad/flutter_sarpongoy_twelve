@@ -1670,7 +1670,7 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "SCIENCE AND INDUSTRY",
-              "topics": ["The Link Between Science, Technology, and Innovation", "Technological Advancements and the Ghanaian Environment", "The Nature of Bacterial Diseases", "Prevention and Management of Bacterial Diseases"],
+              "topics": ["The Link Between Science, Technology, and Innovation", "Technological Advancements and the Ghanaian Environment"],
             },
             {
               "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
@@ -4784,6 +4784,24 @@ class SidebarController extends GetxController {
                 quizData = Scijhs1s5ss4Lesson1QuizData;
               }if (courseTitle == "Science" &&
                   sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = SciJHS1s5ss4Lesson2GetReadyData;
+                learnData = Scijh1s5ss4Lesson2LearnData;
+                practiceData = Scijhs1s5ss4Lesson2PracticeData;
+                independentPracticeData = Scijhs1s5ss4Lesson2IndependentQuizData;
+                quizData = Scijhs1s5ss4Lesson2QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = SciJHS1s5ss4Lesson3GetReadyData;
+                learnData = Scijh1s5ss4Lesson3LearnData;
+                practiceData = Scijhs1s5ss4Lesson3PracticeData;
+                independentPracticeData = Scijhs1s5ss4Lesson3IndependentQuizData;
+                quizData = Scijhs1s5ss4Lesson3QuizData;
+              }if (courseTitle == "Science" &&
+                  sIndex == 4 &&
                   ssIndex == 4 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss5Lesson1GetReadyData;
@@ -6801,7 +6819,7 @@ class SidebarController extends GetxController {
                   courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
-                  lIndex == 1) {
+                  lIndex == 2) {
                 getReadyData = SSJHS2s6ss1Lesson3GetReadyData;
                 learnData = SSjhs2s6ss1Lesson3LearnData;
                 practiceData = SSjhs2s6ss1Lesson3PracticeData;
@@ -6812,7 +6830,7 @@ class SidebarController extends GetxController {
                   courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
-                  lIndex == 1) {
+                  lIndex == 3) {
                 getReadyData = SSJHS2s6ss1Lesson4GetReadyData;
                 learnData = SSjhs2s6ss1Lesson4LearnData;
                 practiceData = SSjhs2s6ss1Lesson4PracticeData;

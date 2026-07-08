@@ -2145,7 +2145,7 @@ final GetReadyModel SciJHS2s1ss1Lesson2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S1 SS1 L2/student_overview.jpg',
   overviewAudioPath: 'assets/audio/science/2. JHS2 S1 SS1 L2/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/science/SCIENCE JHS2 S1 SS1 L2/hook.jpg',
-  hookAudioPath: 'assets/audio/science/2. JHS2 S1 SS1 L2/2. Hook.m4a',
+  hookAudioPath: 'assets/audio/science/2. JHS2 S1 SS1 L2/2. Hook .m4a',
 );
 final GetReadyModel SciJHS2s1ss1Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S1 SS1 L3/student_overview.jpg',
@@ -2212,7 +2212,7 @@ final GetReadyModel SciJHS2s2ss3Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L3/student_overview.jpg',
   overviewAudioPath: 'assets/audio/science/JHS2 S2 SS3 L3/1. Chapter 1 .m4a',
   hookImagePath: 'assets/images/science/SCIENCE JHS2 S2 SS3 L3/hook.jpg',
-  hookAudioPath: 'assets/audio/science/JHS2 S2 SS3 L3/2. Hook .m4a',
+  hookAudioPath: 'assets/audio/science/JHS2 S2 SS3 L3/2. Hook.m4a',
 );
 final GetReadyModel SciJHS2s2ss4Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S2 SS4 L1/student_overview.jpg',
@@ -2395,7 +2395,7 @@ final GetReadyModel SciJHS2s5ss2Lesson4GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S5 SS2 L4/student_overview.jpg',
   overviewAudioPath: 'assets/audio/science/JHS2 S5 SS2 L4/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/science/SCIENCE JHS2 S5 SS2 L4/hook.jpg',
-  hookAudioPath: 'assets/audio/science/JHS2 S5 SS2 L4/2. Hook.m4a',
+  hookAudioPath: 'assets/audio/science/JHS2 S5 SS2 L4/2. Hook .m4a',
 );
 final GetReadyModel SciJHS2s5ss3Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S5 SS3 L1/student_overview.jpg',
@@ -2423,7 +2423,7 @@ final GetReadyModel SciJHS2s5ss5Lesson1GetReadyData = GetReadyModel(
 );
 final GetReadyModel SciJHS2s5ss5Lesson2GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/science/SCIENCE JHS2 S5 SS5 L2/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/science/JHS2 S5 SS5 L2/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/science/JHS2 S5 SS5 L2/1. Chapter 1 .m4a',
   hookImagePath: 'assets/images/science/SCIENCE JHS2 S5 SS5 L2/hook.jpg',
   hookAudioPath: 'assets/audio/science/JHS2 S5 SS5 L2/2. Hook.m4a',
 );

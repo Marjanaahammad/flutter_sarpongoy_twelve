@@ -8238,7 +8238,7 @@ final PracticeModel Scijhs2s2ss4Lesson2PracticeData = PracticeModel(
   ],
 );
 final PracticeModel Scijhs2s2ss4Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/5. Guided Practice.m4a',
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/5. Guided Practice .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: If a hen is laying eggs with very thin, soft shells, which mineral should the farmer add to the feed?",
