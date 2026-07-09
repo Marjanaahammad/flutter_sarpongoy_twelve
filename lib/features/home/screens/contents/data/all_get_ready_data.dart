@@ -1251,9 +1251,9 @@ final GetReadyModel RMEJHS2s6ss1Lesson3GetReadyData = GetReadyModel(
 );
 final GetReadyModel RMEJHS2s6ss1Lesson4GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/jhs2_s6_ss1_l4/chapter_overview.jpg',
-  overviewAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/1. Chapter 1(updated).m4a',
   hookImagePath: 'assets/images/RME/jhs2_s6_ss1_l4/hook.jpg',
-  hookAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/2. Hook .m4a',
+  hookAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/2. Hook(Update).m4a',
 );
 
 final GetReadyModel RMEJHS2s6ss2Lesson1GetReadyData = GetReadyModel(
@@ -1517,7 +1517,7 @@ final GetReadyModel SSJHS2s1ss1Lesson2GetReadyData = GetReadyModel(
 );
 final GetReadyModel SSJHS2s1ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS2 L1/Chapter Overview.jpg',
-  overviewAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/1. Chapter 1.m4a',
+  overviewAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/1. Chapter 1(updated).m4a',
   hookImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS2 L1/HOOK.jpg',
   hookAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/2. Hook.m4a',
 );
@@ -1576,7 +1576,7 @@ final GetReadyModel SSJHS2s5ss1Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS1 L1/student overview .jpg',
   overviewAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS1 L1/HOOK.jpg',
-  hookAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/2. Hook.m4a',
+  hookAudioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S5 SS1 L1/2. Hook(updated).m4a',
 );
 final GetReadyModel SSJHS2s5ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS2 L1/Chapter Overview.jpg',
