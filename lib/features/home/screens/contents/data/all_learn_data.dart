@@ -2884,7 +2884,7 @@ final LearnModel SSjhs3s5ss1Lesson1LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/partC.jpg',
-    audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/5. Teach - Part C(updated).m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/partD.jpg',
