@@ -5950,7 +5950,7 @@ class SidebarController extends GetxController {
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
-                getReadyData = SciJHS3s5ss1Lesson1GetReadyData;
+                getReadyData = SciJHS3s5ss1Lesson2GetReadyData;
                 learnData = Scijh3s5ss1Lesson2LearnData;
                 practiceData = Scijhs3s5ss1Lesson2PracticeData;
                 independentPracticeData = Scijhs3s5ss1Lesson2IndependentQuizData;
