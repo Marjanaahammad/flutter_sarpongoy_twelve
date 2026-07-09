@@ -37103,7 +37103,7 @@ final QuizModel Scijhs3s1ss2Lesson3QuizData = QuizModel(
     QuizQuestion(
       question:
           "4. Which cell can change its shape to engulf harmful pathogens?",
-      options: ["Sperm cell", "White blood cell", "Red blood cell"],
+      options: ["Sperm cell", "White blood cell", "Red blood cell", "Skin cell"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:

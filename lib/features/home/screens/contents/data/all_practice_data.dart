@@ -8022,7 +8022,7 @@ final PracticeModel Scijhs3s4ss2Lesson2PracticeData = PracticeModel(
     PracticeQuestion(
       scenario: "1.Question: Kofi connects an LED to a battery, but it does not light up. He flips the LED around, and now it shines bright. What was the state of the LED the first time?",
       answer: "Correct Answer: It was in Reverse Bias.",
-      explanation: "Explanation: In reverse bias, the diode acts like an open switch and blocks the current. Fipping it put it in forward bias, allowing the light to shine.",
+      explanation: "Explanation: In reverse bias, the diode acts like an open switch and blocks the current. Flipping it put it in forward bias, allowing the light to shine.",
     ),
     PracticeQuestion(
       scenario: "2.Question: You are building a circuit and you want to make sure the LED doesn't burn out from too much current. Which component should you add?",
@@ -8165,7 +8165,7 @@ final PracticeModel Scijhs3s4ss5Lesson2PracticeData = PracticeModel(
       explanation: "Explanation: Smoothing the wood is part of the final finishing stage to ensure the handle is comfortable for the farmer.",
     ),
     PracticeQuestion(
-      scenario: "2.Question: Why must a blacksmith wear heavy leather an apron and goggles while hammering hot metal?",
+      scenario: "2.Question: Why must a blacksmith wear heavy leather, an apron and goggles while hammering hot metal?",
       answer: "Correct Answer: To protect against flying sparks and heat.",
       explanation: "Explanation: Forging creates intense heat and flying debris; PPE is essential to prevent burns and eye injuries.",
     ),
