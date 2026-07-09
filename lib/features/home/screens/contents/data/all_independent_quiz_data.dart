@@ -1735,6 +1735,1146 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
   ],
 );
 
+final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
+        options: [
+          "so that",
+          "unless",
+          "because",
+          "while"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which pronoun best replaces the bracketed words? \"The boys are playing football. [The boys] are very talented.\"",
+        options: [
+          "He",
+          "It",
+          "They",
+          "Them"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the correct connector to show the order of events: \"______, wash the rice. Next, put it in the pot with water.\"",
+        options: [
+          "Firstly",
+          "Moreover",
+          "However",
+          "Therefore"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses punctuation correctly to show a pause between two connected ideas?",
+        options: [
+          "I like Kenkey, but I prefer Fufu.",
+          "I like Kenkey but I prefer Fufu?",
+          "I like Kenkey! but I prefer Fufu.",
+          "I like Kenkey: but I prefer Fufu."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses the sense of 'smell' best?",
+        options: [
+          "The kitchen was very big and clean.",
+          "The scent of spicy ginger and fried fish filled the air.",
+          "My mother was cooking dinner for us.",
+          "We ate the food quickly because we were hungry."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the most vivid verb to replace 'went': \"The tired farmer ______ back to his hut after a long day.\"",
+        options: [
+          "ran",
+          "went",
+          "plodded",
+          "jumped"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a 'dominant impression' for a library?",
+        options: [
+          "Noisy",
+          "Green",
+          "Tranquil",
+          "Fast"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. To describe a tall building from 'bottom to top,' what should you mention first?",
+        options: [
+          "The roof",
+          "The windows on the third floor",
+          "The concrete foundation and entrance",
+          "The birds flying above the chimney"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Choose the best connector: \"I finished my homework. ________, I went outside to play with my friends.\"",
+        options: [
+          "Since",
+          "Afterwards",
+          "While",
+          "Until"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a time clause correctly?",
+        options: [
+          "Until I am hungry, I eat.",
+          "After I wash my face, I feel refreshed.",
+          "Suddenly I am sleeping.",
+          "While I am go to school."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The students waited ________ the headmaster finished his speech.\"",
+        options: [
+          "then",
+          "until",
+          "soon",
+          "suddenly"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the best word to show a sequence? \"First, add water. ________, add the salt.\"",
+        options: [
+          "Next",
+          "Although",
+          "Because",
+          "Unless"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses a place clause correctly?",
+        options: [
+          "Run as fast as you can.",
+          "Put the bucket wherever there is a water tap.",
+          "Firstly, open the door.",
+          "You should study the way I do."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best manner clause: \"Please write the letters ________ I have shown you on the chalkboard.\"",
+        options: [
+          "where",
+          "as",
+          "until",
+          "because"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which is the most logical sequence for making tea?",
+        options: [
+          "Add sugar, then drink, then boil water.",
+          "Boil water, add tea, then finally add sugar.",
+          "Drink tea, then add water, then buy tea.",
+          "Finally add water, then firstly add sugar."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Keep walking ________ the road ends at the river.\"",
+        options: [
+          "wherever",
+          "until",
+          "the way",
+          "as if"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which is the best topic sentence for a letter about school sports?",
+        options: [
+          "Football is played with a ball and twenty-two players.",
+          "Our school needs a new sports kit because the old ones are torn.",
+          "I like to watch sports on the television at home.",
+          "Sports are usually played on Saturdays in Ghana."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best connector for a second argument: \"Mobile phones help us stay in touch with parents. ________, they can be used for research.\"",
+        options: [
+          "However",
+          "Furthermore",
+          "Although",
+          "Unless"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"________ some people think homework is boring, it helps us master what we learned in class.\"",
+        options: [
+          "Because",
+          "While",
+          "So that",
+          "Since"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"We must protect our water bodies ________ we have clean water to drink in the future.\"",
+        options: [
+          "although",
+          "so that",
+          "unless",
+          "while"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence is best for the start of a formal explanation about the library rules?",
+        options: [
+          "We have some books in the room over there.",
+          "This document explains the regulations for using the school library.",
+          "I like reading books when it is quiet.",
+          "Come to the library if you want to."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In a notice, what does 'Venue' mean?",
+        options: [
+          "The time of the event.",
+          "The person in charge.",
+          "The location of the event.",
+          "The reason for the event."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the most formal synonym: \"Please ________ your parents about the meeting.\"",
+        options: [
+          "tell",
+          "chat with",
+          "inform",
+          "holla at"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the correct logical order for an explanation?",
+        options: [
+          "Summary, Step 2, Step 1, Introduction.",
+          "Introduction, Step 1, Step 2, Summary.",
+          "Step 2, Summary, Introduction, Step 1.",
+          "Step 1, Introduction, Summary, Step 2."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an example of an imperative used in an advert?",
+        options: [
+          "The car is very fast.",
+          "Do you like fast cars?",
+          "Drive the new Speedster today!",
+          "Everyone is driving it."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do advertisers use repetition in their writing?",
+        options: [
+          "To make the text look longer.",
+          "To make the key message stick in the reader's mind.",
+          "Because they have run out of things to say.",
+          "To make the advert sound like a poem."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses the simple present tense to state a timeless fact about a product?",
+        options: [
+          "I bought this soap yesterday.",
+          "This soap will clean your clothes.",
+          "This soap removes every stain.",
+          "I might buy this soap later."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these would be the best Target Market for an advert about a new brand of football boots?",
+        options: [
+          "Grandparents living in the village.",
+          "Young athletes and football fans.",
+          "People looking for office furniture.",
+          "Teachers marking English essays."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an example of a quantifier?",
+        options: [
+          "Carefully",
+          "Three cups",
+          "Quickly",
+          "Red"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is the Aim important in a process text?",
+        options: [
+          "It tells the reader the author's name.",
+          "It explains why the process was invented.",
+          "It tells the reader what they will make or do.",
+          "It lists the price of the materials."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word is a connector of sequence?",
+        options: [
+          "Beautifully",
+          "Because",
+          "Finally",
+          "Although"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses the simple present tense correctly for an instruction?",
+        options: [
+          "I was boiling the water.",
+          "You boil the water.",
+          "I will boil the water.",
+          "The water had boiled."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the best way to present a list of materials for a recipe?",
+        options: [
+          "In a long, complicated paragraph.",
+          "Using bullet points or a list.",
+          "Hidden inside the steps.",
+          "In a secret code."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is an appropriate subscription for an informal letter?",
+        options: [
+          "Yours faithfully,",
+          "Yours sincerely,",
+          "Yours ever,",
+          "Your obedient servant,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why do we use first-person pronouns in an informal letter?",
+        options: [
+          "Because we are talking about ourselves and our experiences.",
+          "Because it is a school rule.",
+          "To make the letter sound very professional and cold.",
+          "Because we don't know the other person's name."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Where does the date go in an informal letter?",
+        options: [
+          "At the very bottom of the page.",
+          "Directly below the writer's address.",
+          "In the middle of the body.",
+          "On the back of the envelope only."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses a contraction to sound more conversational?",
+        options: [
+          "I am going to the market.",
+          "I'm going to the market.",
+          "I will go to the market.",
+          "I have gone to the market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should you sign at the end of an informal letter?",
+        options: [
+          "Your full name and title.",
+          "Your thumbprint.",
+          "Just your first name.",
+          "Your school's name."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which subscription is required for a formal letter starting with \"Dear Sir\"?",
+        options: [
+          "Yours ever,",
+          "Your friend,",
+          "Yours faithfully,",
+          "See you later,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should you avoid using contractions like \"won't\" in a formal letter?",
+        options: [
+          "Because they are too difficult to spell.",
+          "To maintain a serious and professional tone.",
+          "Because the Headmaster might not understand them.",
+          "To make the letter take up more space."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What should follow your signature at the end of a formal letter?",
+        options: [
+          "Your nickname.",
+          "Your phone number only.",
+          "Your full name in capital letters.",
+          "Your best friend's name."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a correct salutation for an official you do not know personally?",
+        options: [
+          "Hey there,",
+          "Dearest Manager,",
+          "Dear Sir,",
+          "To my boss,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Where is the writer's address located in a formal letter?",
+        options: [
+          "Top left.",
+          "Bottom right.",
+          "Top right.",
+          "Bottom left."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these should you always record at the top of your notes?",
+        options: [
+          "Your favourite food",
+          "The title and the date",
+          "The weather outside",
+          "The number of students in class"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is it better to use bullet points instead of long paragraphs for notes?",
+        options: [
+          "Because they are faster to write and easier to read later.",
+          "Because paragraphs are not allowed in JHS.",
+          "Because bullet points use more ink.",
+          "Because you don't have to use capital letters."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a mnemonic?",
+        options: [
+          "A type of fast-writing pen.",
+          "A memory aid used to make notes more memorable.",
+          "The name of the person who invented paper.",
+          "A very long heading."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When taking notes while a teacher is speaking, you should:",
+        options: [
+          "Try to write down every single word.",
+          "Only write down the jokes the teacher tells.",
+          "Identify and record only the key ideas and examples.",
+          "Close your eyes and just listen."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What does it mean to organize ideas in note-taking?",
+        options: [
+          "To throw away the notes you don't like.",
+          "To put your notes in alphabetical order.",
+          "To make connections between different points using headings or arrows.",
+          "To write your notes in different colours."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is the best heading for a school notice?",
+        options: [
+          "Something is happening",
+          "DRAMA CLUB ANNOUNCEMENT",
+          "Read this now please",
+          "A very long story about a play"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does 'Visual Hierarchy' mean in poster design?",
+        options: [
+          "Using as many different colours as possible.",
+          "Making the most important information the largest and easiest to see.",
+          "Writing everything in the smallest possible font.",
+          "Drawing pictures of kings and queens."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When designing a notice for a voluntary cleaning exercise, what tone should you use?",
+        options: [
+          "Silly and joking",
+          "Angry and shouting",
+          "Clear, respectful, and urgent",
+          "Mysterious and confusing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which detail is essential for a poster about a football match?",
+        options: [
+          "The name of the referee's dog.",
+          "The date and time of the kick-off.",
+          "The history of how footballs are made.",
+          "What the players ate for breakfast."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Why are bullet points useful on a notice?",
+        options: [
+          "They make the paper look like it has dots on it.",
+          "They help break down information so it is easy to read quickly.",
+          "They are used to hide the price of tickets.",
+          "They make the writer look like a soldier."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main purpose of the by-line in an article?",
+        options: [
+          "To provide the title of the article.",
+          "To tell the reader who the author is.",
+          "To list the page numbers.",
+          "To provide a list of sources."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is it important to use electronic resources like web pages when researching?",
+        options: [
+          "Because books are no longer useful.",
+          "To find the most up-to-date information and diverse views.",
+          "Because it is faster than reading.",
+          "To copy and paste the whole article."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When writing an article about gender and inclusion, you should:",
+        options: [
+          "Only talk about boys' experiences.",
+          "Ignore the topic as it is too difficult.",
+          "Ensure your writing reflects and respects diverse groups fairly.",
+          "Only write for people in your town."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a 'call to action' suitable for a conclusion?",
+        options: [
+          "Once upon a time, there was a school.",
+          "I hope you enjoyed reading this.",
+          "Start recycling today to protect our future!",
+          "The weather was very hot yesterday."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Sorting and classifying ideas during the planning stage helps to:",
+        options: [
+          "Make the article as long as possible.",
+          "Ensure the article is logically organised and easy to follow.",
+          "Avoid having to write a conclusion.",
+          "Change the topic halfway through."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Why should you avoid long paragraphs in a dialogue?",
+        options: [
+          "Because it saves paper.",
+          "Because real people rarely speak in long, uninterrupted blocks.",
+          "Because capital letters are hard to write.",
+          "To make the story end faster."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence is punctuated correctly?",
+        options: [
+          "\"I'll be there soon\", said Ama.",
+          "\"I'll be there soon,\" said Ama.",
+          "I'll be there soon, \"said Ama.\"",
+          "\"I'll be there soon\" said Ama."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does it mean to be consistent with characters' voices?",
+        options: [
+          "Everyone in the story should speak exactly the same.",
+          "A character should maintain their personality and style of speech.",
+          "Characters should only speak in English.",
+          "You should never use the character's name."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a dialogue script, what usually follows the character's name?",
+        options: [
+          "A full stop",
+          "A question mark",
+          "A colon (:)",
+          "A comma"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. \"Say the dialogue out loud\" is a good strategy because:",
+        options: [
+          "It helps you check if the conversation sounds natural and flows well.",
+          "It helps you practice your acting skills.",
+          "It makes the classroom very noisy.",
+          "It helps you memorise the whole story."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a 'trigger' to help make your notes more memorable?",
+        options: [
+          "Copying the entire table exactly.",
+          "Using small drawings or different colors.",
+          "Leaving the paper blank.",
+          "Only writing down the numbers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of checking 'headings' in a data table?",
+        options: [
+          "To see who wrote the document.",
+          "To find the date of publication.",
+          "To identify the key topics being discussed.",
+          "To count how many pages are in the report."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. After writing a description of a graph, why should you proofread your work?",
+        options: [
+          "To make the text longer.",
+          "To ensure the writing makes sense and is accurate.",
+          "To change the title of the graph.",
+          "To add more numbers to the data."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How can you represent data visually other than using a table?",
+        options: [
+          "By writing a long letter.",
+          "By creating a flow chart or illustration.",
+          "By reading the numbers out loud.",
+          "By keeping the information in your head."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+
+final IndependentPracticeModel s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In the story Sosu and the Bukari Boys, the events take place in a local Ghanaian community. Which literary element does this describe?",
+        options: [
+          "Plot",
+          "Character",
+          "Setting",
+          "Climax"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you are describing the \"most exciting part\" or the \"turning point\" of a story like The Generous Hunter, which part of the plot are you identifying?",
+        options: [
+          "Introduction",
+          "Climax",
+          "Resolution",
+          "Setting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In The Old Man and His Children, the old man uses sticks to teach his sons a lesson about unity. The old man and his sons are examples of:",
+        options: [
+          "Settings",
+          "Plots",
+          "Narrators",
+          "Characters"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is an example of a setting?",
+        options: [
+          "A teacher named Mr. Mensah",
+          "A school compound in Kumasi at noon",
+          "The boy decided to run home",
+          "To be honest and kind"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When we compare the plot of two different stories, what are we looking at?",
+        options: [
+          "The names of the people in the stories",
+          "The sequence of events that happen in both",
+          "The city where the stories were written",
+          "The number of pages in the books"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "\"The Kejetia market is like a maze.\" This sentence is an example of:",
+        options: [
+          "Personification",
+          "Simile",
+          "Alliteration",
+          "Metaphor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of the following is an example of alliteration?",
+        options: [
+          "The sun is a golden ball.",
+          "She ran as fast as the wind.",
+          "Papa's powerful palm-wine.",
+          "The flowers danced in the breeze."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When a poet writes \"the engine coughed and died,\" which device are they using?",
+        options: [
+          "Personification",
+          "Assonance",
+          "Simile",
+          "Metaphor"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. \"Life is a journey.\" This is an example of a:",
+        options: [
+          "Simile",
+          "Personification",
+          "Metaphor",
+          "Alliteration"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the main difference between a simile and a metaphor?",
+        options: [
+          "A simile uses \"like\" or \"as,\" but a metaphor does not.",
+          "A metaphor uses \"like\" or \"as,\" but a simile does not.",
+          "A simile is only for poems.",
+          "A metaphor is only for stories."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+  ],
+);
+final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of oral narrative explains the religious origins of the world or the actions of gods?",
+        options: [
+          "Folktale",
+          "Legend",
+          "Myth",
+          "Lullaby"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A story about the historical bravery of Yaa Asantewaa during a war is best described as a:",
+        options: [
+          "Myth",
+          "Legend",
+          "Dirge",
+          "Folktale"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of a lullaby?",
+        options: [
+          "To prepare men for war",
+          "To mourn the dead at a funeral",
+          "To soothe a child to sleep",
+          "To celebrate a new chief"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is an example of traditional drama in Ghana?",
+        options: [
+          "Reading a textbook in a library",
+          "A puberty rite ceremony like Dipo",
+          "Writing a letter to a friend",
+          "Watching a movie on a phone"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Oral literature is primarily passed down through:",
+        options: [
+          "Printing presses",
+          "Word of mouth",
+          "Email and social media",
+          "Stone carvings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+
 final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS2 S1 SS1 L1/6. Independent Practice.m4a',
@@ -3171,6 +4311,2072 @@ final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = Independent
         correctIndex: 0,
         difficulty: "Easy",
         explanation: "Thrifty"
+    ),
+  ],
+);
+
+final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which connector best completes this sentence? \"_____ the rain was heavy, the taxi driver arrived on time.\"",
+        options: [
+          "Because",
+          "Although",
+          "Unless",
+          "Since"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Although is used to show contrast between two ideas."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Choose the best pronoun to replace the underlined word: \"The girls finished their homework, so the girls went to play netball.\"",
+        options: [
+          "she",
+          "them",
+          "they",
+          "us"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The pronoun 'they' correctly replaces the plural noun 'the girls'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word best connects these two ideas? \"I am saving my money _____ I can buy a new bicycle.\"",
+        options: [
+          "so that",
+          "although",
+          "unless",
+          "while"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'So that' expresses purpose or intention."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Choose the best word to show a result: \"The bridge was broken; _____, we had to take the long way round.\"",
+        options: [
+          "however",
+          "because",
+          "therefore",
+          "but"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Therefore' is used to show the result or consequence of a situation."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an example of an anecdote hook for an essay on \"Honesty\"?",
+        options: [
+          "Honesty is defined as being truthful at all times.",
+          "My mother always says that honesty is the best policy.",
+          "Once, I found a ten-cedi note and felt a struggle in my heart.",
+          "Did you know that 80 percent of people value honesty?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An anecdote hook begins with a short personal story to capture the reader's attention."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which connector best shows a cause and effect relationship in an introduction?",
+        options: [
+          "Nevertheless",
+          "Consequently",
+          "Although",
+          "Provided that"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Consequently' is used to show the result or effect of a cause."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of an introductory paragraph?",
+        options: [
+          "To list every single detail about the topic.",
+          "To summarize the conclusion of the essay.",
+          "To capture attention and introduce the topic.",
+          "To provide a list of all the sources used."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An introductory paragraph should engage the reader and introduce the main topic."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence follows logically after: \"Computers have changed the way we learn\"?",
+        options: [
+          "My uncle lives in a very large house in Kumasi.",
+          "Therefore, many schools now use tablets in the classroom.",
+          "I like eating banku and grilled tilapia for dinner.",
+          "However, the price of petrol is going up this week."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The second sentence logically follows by showing a result of computers changing the way we learn."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following contains a relative clause?",
+        options: [
+          "The very big yellow bus.",
+          "The bus that goes to Cape Coast.",
+          "The bus drove away quickly.",
+          "A bus and a small car."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A relative clause gives more information about a noun and usually begins with words like 'that', 'which', or 'who'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the noun phrase in this sentence: \"The delicious hot jollof rice was finished quickly.\"",
+        options: [
+          "was finished quickly",
+          "finished quickly",
+          "The delicious hot jollof rice",
+          "jollof rice was"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A noun phrase consists of a noun and the words that describe or modify it."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence is expanded using an adverbial phrase of time?",
+        options: [
+          "He ran to the shop.",
+          "He ran with his friend.",
+          "He ran before the sun rose.",
+          "He ran a very long way."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The phrase 'before the sun rose' tells when the action happened, making it an adverbial phrase of time."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the sentence \"The girl with the long braids is my sister,\" the bold text is:",
+        options: [
+          "A relative clause",
+          "An adjectival phrase",
+          "A noun phrase",
+          "An adverbial phrase"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'with the long braids' describes the noun 'girl', so it is an adjectival phrase."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these sentences is written in the first-person point of view?",
+        options: [
+          "Kwame went to the shop.",
+          "I felt very excited.",
+          "They enjoyed the fufu.",
+          "She ran to the school."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "First-person point of view uses pronouns such as 'I', 'me', and 'we'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word is an adverb used to describe how an action was carried out?",
+        options: [
+          "Beautiful",
+          "Quietly",
+          "Orange",
+          "Market"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Quietly' is an adverb because it describes how an action is performed."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which connector is best used to show the final event in a sequence?",
+        options: [
+          "Finally",
+          "Suddenly",
+          "Initially",
+          "Meanwhile"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Finally' is used to introduce the last event in a sequence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which phrase uses a preposition to show the setting?",
+        options: [
+          "A very big dog.",
+          "Running very fast.",
+          "Beside the Volta Lake.",
+          "I like eating banku."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Beside' is a preposition showing location, making 'Beside the Volta Lake' a phrase that describes the setting."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word best describes a market that is full of people and activity?",
+        options: [
+          "Ancient",
+          "Bustling",
+          "Boring",
+          "Silent"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Bustling' describes a place that is full of busy activity and people."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sensory word in this sentence: \"The shimmering lake looked like silver in the moonlight.\"",
+        options: [
+          "Looked",
+          "Lake",
+          "Shimmering",
+          "Like"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Shimmering' is a sensory word because it helps the reader imagine how the lake looked."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses an adverbial phrase to describe how someone moved?",
+        options: [
+          "The boy is tall.",
+          "He ran with great speed.",
+          "I saw a green frog.",
+          "The food is in the bowl."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase 'with great speed' is an adverbial phrase describing how he ran."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these describes an event using a \"stellar\" adjective?",
+        options: [
+          "The common rain fell.",
+          "We had a stellar performance.",
+          "I ate my lunch.",
+          "It was a normal day."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Stellar' is an adjective meaning excellent or outstanding."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which prepositional phrase tells us where the bird is?",
+        options: [
+          "Very loudly",
+          "Singing a song",
+          "In the mango tree",
+          "A small bird"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'In the mango tree' is a prepositional phrase showing the bird's location."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a mental verb used to convey a viewpoint?",
+        options: [
+          "Run",
+          "Believe",
+          "Jump",
+          "Write"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Believe' is a mental verb because it expresses a thought, opinion, or viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of the \"Selling Points\" in an advertisement?",
+        options: [
+          "To list the names of all the shop employees.",
+          "To provide the date the business started.",
+          "To show why the product is better than others.",
+          "To write a poem about the product."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Selling points highlight the advantages of a product and explain why it is better than competing products."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence is in the simple present tense?",
+        options: [
+          "I will go to the market.",
+          "This shea butter softens the skin.",
+          "We went to the beach yesterday.",
+          "He was eating Kenkey."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The simple present tense describes actions or facts that are generally true or happen regularly."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a phrasal verb?",
+        options: [
+          "Beautiful",
+          "Quickly",
+          "Pick up",
+          "Large"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Pick up' is a phrasal verb because it combines a verb with a particle to create a new meaning."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. In an advertisement for a football match, what would be an effective \"Call to Action\"?",
+        options: [
+          "The grass is green.",
+          "Many people like football.",
+          "Get your tickets at the gate!",
+          "Football is played with a ball."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A call to action encourages the audience to take immediate action, such as buying tickets."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first thing you should do in a problem-solution paragraph?",
+        options: [
+          "Ask for money.",
+          "Clearly identify the problem.",
+          "Write a thank-you note.",
+          "List the names of your friends."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A problem-solution paragraph begins by clearly identifying the problem that needs to be solved."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a solution is \"feasible,\" what does that mean?",
+        options: [
+          "It is very expensive.",
+          "It is impossible to do.",
+          "It is possible and easy to carry out.",
+          "It is a very old idea."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A feasible solution is one that can realistically be carried out."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a \"cost-effective\" solution for light not reaching a classroom?",
+        options: [
+          "Building a new school.",
+          "Cleaning the windows and trimming nearby trees.",
+          "Buying a very expensive generator.",
+          "Only having classes at night."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cleaning windows and trimming nearby trees is an affordable and effective way to let more light into a classroom."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Who might provide evidence or an \"expert opinion\" for a solution about school health?",
+        options: [
+          "A student from another town.",
+          "The school nurse or a local doctor.",
+          "A person selling ice cream.",
+          "A character from a cartoon."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A school nurse or local doctor is a qualified expert who can provide reliable health advice."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is an \"objection\" in writing?",
+        options: [
+          "A type of punctuation.",
+          "The title of the paragraph.",
+          "A reason why someone might disagree with your plan.",
+          "The name of the person in charge."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An objection is a reason someone may disagree with or question your proposed solution."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which salutation is most appropriate for a letter to a Headteacher whose name you do not know?",
+        options: [
+          "Hi Teacher",
+          "Dear Sir/Madam",
+          "To whoever is there",
+          "Hello Headmaster"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Dear Sir/Madam\" is the correct formal salutation when the recipient's name is unknown."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main purpose of a formal \"Notice\"?",
+        options: [
+          "To tell a long story about your holiday.",
+          "To ask a friend for a favour.",
+          "To provide updates on rules or schedules.",
+          "To write a poem for a funeral."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A formal notice is used to inform people about important rules, events, or schedules."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sign-off should be used if you started your letter with \"Dear Mr. Mensah\"?",
+        options: [
+          "Yours faithfully",
+          "Yours sincerely",
+          "Your friend",
+          "Catch you later"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Yours sincerely\" is the correct sign-off when you know the recipient's name."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In an advertisement, the \"overt\" message is:",
+        options: [
+          "A hidden feeling.",
+          "The direct information provided.",
+          "The colour of the background.",
+          "The secret meaning."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The overt message is the clear, direct message that is openly communicated."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should always be included at the bottom of a notice?",
+        options: [
+          "The price of the notice.",
+          "A list of all your hobbies.",
+          "The name and position of the writer.",
+          "A drawing of a flower."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A notice should end with the writer's name and position to show who issued it."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which paper size is most common for a small, hand-held flyer?",
+        options: [
+          "A1",
+          "A5",
+          "A0",
+          "A2"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A5 is a common paper size for small hand-held flyers because it is compact and easy to distribute."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of a \"Slogan\" on a poster?",
+        options: [
+          "To write the long history of the school.",
+          "To list every student's name.",
+          "To grab attention with a short, catchy phrase.",
+          "To provide the price of the paper."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A slogan is a short, memorable phrase designed to attract attention and communicate the main message."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a brochure for a \"Cleaning Exercise,\" which of these is a benefit?",
+        options: [
+          "The exercise starts at 6:00 AM.",
+          "We will use brooms and shovels.",
+          "Preventing malaria by clearing stagnant water.",
+          "The school is located near the market."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cleaning stagnant water helps prevent mosquito breeding and reduces the risk of malaria."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these should be bolded to make it stand out on a flyer?",
+        options: [
+          "The name of the printer.",
+          "The date and time of the event.",
+          "Every single word on the page.",
+          "The page number."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The date and time are key details that should stand out so readers can quickly find the event information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Why should you use a logo on your informational materials?",
+        options: [
+          "To make the flyer heavier.",
+          "To help people recognize your group or brand easily.",
+          "Because it is a law in Ghana.",
+          "To hide the contact information."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A logo helps people quickly recognize and remember your organization or brand."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which tool is best for sorting and classifying ideas before you start writing?",
+        options: [
+          "A ruler",
+          "A T-chart",
+          "A dictionary",
+          "A calculator"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A T-chart helps organize and classify ideas before writing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What should you do if you find information that is not relevant to your topic?",
+        options: [
+          "Include it anyway to make the article longer.",
+          "Put it in the headline.",
+          "Discard it to keep the article focused.",
+          "Write it in a different language."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Irrelevant information should be removed to keep the writing focused and clear."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is an example of an \"electronic resource\"?",
+        options: [
+          "A school textbook",
+          "A newspaper from 1990",
+          "An educational website on a tablet",
+          "A handwritten note"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An educational website on a tablet is an electronic resource because it is accessed digitally."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you want to express a personal view to your class in a fun way, what format could you use?",
+        options: [
+          "A formal business letter",
+          "A rap poem or jingle",
+          "A dictionary entry",
+          "A shopping list"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rap poem or jingle is a creative way to express personal ideas and opinions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is the purpose of grouping ideas into units or paragraphs?",
+        options: [
+          "To make the page look colorful.",
+          "To organize main ideas and supporting details clearly.",
+          "To hide the main point from the reader.",
+          "To use up all the ink in your pen."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Grouping ideas into paragraphs helps organize information logically and makes it easier to understand."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Where do the names of the characters go in a dialogue script?",
+        options: [
+          "At the end of every sentence.",
+          "On the left side of the page.",
+          "In brackets.",
+          "In the middle of the line."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In a dialogue script, character names are written on the left side of the page."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What punctuation mark follows the character's name?",
+        options: [
+          "A comma (,)",
+          "A full stop (.)",
+          "A colon (:)",
+          "A question mark (?)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A colon is placed after a character's name before their dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How do we show that a character should perform a specific action, like sitting down?",
+        options: [
+          "Use capital letters for the whole sentence.",
+          "Write the action in brackets ( ).",
+          "Write it in a formal letter.",
+          "Shout it out loud."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Actions or stage directions are written in brackets in a dialogue script."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the word \"interlocutors\" mean?",
+        options: [
+          "The people who clean the stage.",
+          "The people taking part in the dialogue.",
+          "The names of the books.",
+          "The pens used for writing."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Interlocutors are the people who take part in a conversation or dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. When should you start a new line in a dialogue?",
+        options: [
+          "Only at the end of the page.",
+          "Every time a new character starts speaking.",
+          "After every three words.",
+          "Whenever you feel like it."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new line should begin whenever a different character starts speaking to keep the dialogue clear."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What are the three main parts of a speech?",
+        options: [
+          "Beginning, Middle, End",
+          "Introduction, Body, Conclusion",
+          "Title, Story, Poem",
+          "Date, Address, Signature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A well-structured speech has three main parts: the introduction, the body, and the conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A speech that uses facts and logic to prove a point is using:",
+        options: [
+          "A narrative appeal",
+          "A logical appeal",
+          "A poetic appeal",
+          "A silent appeal"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A logical appeal uses facts, evidence, and reasoning to persuade the audience."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which part of the speech do you give the most detailed information?",
+        options: [
+          "The Introduction",
+          "The Body",
+          "The Conclusion",
+          "The Headline"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The body of a speech contains the main ideas, explanations, and supporting details."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a \"persuasive\" goal for a speech?",
+        options: [
+          "To tell a funny joke.",
+          "To convince classmates to stop littering.",
+          "To list the names of the planets.",
+          "To say \"Good morning.\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A persuasive speech aims to convince the audience to think or act in a certain way."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What should you do in the \"Introduction\" of a manifesto speech?",
+        options: [
+          "Tell the audience what you are going to tell them.",
+          "Ask for money.",
+          "Say thank you and sit down.",
+          "Read a long list of numbers."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The introduction should introduce the topic and tell the audience what the speech will be about."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. A graph shows that plastic waste in the ocean has doubled in five years. Which sentence best uses this information?",
+        options: [
+          "Plastic waste is very bad for the fish in the sea.",
+          "We must recycle because the graph shows plastic waste has doubled.",
+          "I think people should stop throwing rubbish away.",
+          "Many people go to the beach to pick up plastic."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The best answer directly uses the information provided by the graph to support a conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A table lists \"Banku\" as the most popular lunch in a school. How should you write this?",
+        options: [
+          "Banku is a very delicious meal from Ghana.",
+          "Most students like Banku more than any other food.",
+          "The table indicates that Banku is the most popular lunch choice.",
+          "My mother makes the best Banku and tilapia."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "This sentence accurately reports the information presented in the table."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a map shows that a road is flooded during the rainy season, what is the best advice to write?",
+        options: [
+          "Avoid that road in the rainy season as shown on the map.",
+          "It is important to wear boots when it is raining.",
+          "The rainy season in Ghana starts in April or May.",
+          "Drivers should always be very careful on the road."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The advice is based directly on the information shown by the map."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A figure shows the parts of a plant: roots, stem, and leaves. Which statement is supported by the figure?",
+        options: [
+          "Plants need sunlight and water to grow tall.",
+          "The figure identifies the roots and stem as parts of a plant.",
+          "Farmers in Ghana grow many types of crops.",
+          "Flowers are the most beautiful part of any plant."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The figure directly identifies the labeled parts of the plant, including the roots and stem."
+    ),
+  ],
+);
+
+final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. In the story, why was the father unable to break the bundle of sticks?",
+        options: [
+          "The sticks were made of iron.",
+          "The sticks were wet and bendy.",
+          "The combined strength of the sticks made them strong.",
+          "The sons had glued the sticks together."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bundle of sticks was too strong to break because the sticks were tied together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which Ghanaian proverb best matches the moral of this story?",
+        options: [
+          "One head does not go into council.",
+          "A bird that flies off the earth settles on an ant-hill.",
+          "Hunger is felt by a slave and hunger is felt by a king.",
+          "The rain wets the leopard's spots but does not wash them off."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The proverb teaches that people achieve more when they work together."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens to the sticks when they are untied and shared individually?",
+        options: [
+          "They become harder to break.",
+          "They are easily broken by the sons.",
+          "They turn into a bundle again.",
+          "The sons refuse to touch them."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Each stick is easy to break when separated, showing the importance of unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why did the father choose to use sticks to teach his lesson?",
+        options: [
+          "He wanted his sons to go and gather firewood.",
+          "He was a carpenter by profession.",
+          "It was a visual way to show the difference between weakness and strength.",
+          "He wanted to build a new house for his children."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The sticks provided a simple demonstration showing that unity brings strength."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main message of \"The Colour of God\"?",
+        options: [
+          "God prefers bright colours like red and gold.",
+          "God has no specific colour because He belongs to everyone.",
+          "We should only draw God in black and white.",
+          "People should stop talking about God."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem teaches that God belongs to everyone and cannot be limited to one colour or race."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word best describes a poem that tries to convince the reader of a specific viewpoint?",
+        options: [
+          "Narrative",
+          "Argumentative",
+          "Humorous",
+          "Musical"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An argumentative poem presents reasons to persuade readers to accept a particular viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If someone believes their race is the only one God loves, they are ignoring the theme of:",
+        options: [
+          "Stanzas",
+          "Rhyme",
+          "Universality",
+          "Punctuation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Universality means that God's love is for all people, regardless of race or background."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the poet suggest happens when we give God a single colour?",
+        options: [
+          "We make God more powerful.",
+          "We create a beautiful painting.",
+          "We limit our understanding of God's love for all.",
+          "We follow the rules of art."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem suggests that giving God a single colour limits our understanding of His universal love."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the name of the dramatic style created by Efua Sutherland?",
+        options: [
+          "Shakespearean",
+          "Anansegoro",
+          "Opera",
+          "Pantomime"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Efua Sutherland created Anansegoro, a Ghanaian dramatic style based on Ananse stories."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why does Ananse send photos of Anansewa to four different Chiefs?",
+        options: [
+          "He wants to show off her photography skills.",
+          "He wants to collect \"out-of-dooring\" gifts.",
+          "He wants to secure money and gifts from all of them.",
+          "He wants his daughter to travel to four different towns."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Ananse sends the photos to several chiefs to receive gifts and wealth from each of them."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When a character speaks their secret thoughts alone on stage, it is called a:",
+        options: [
+          "Dialogue",
+          "Chorus",
+          "Soliloquy",
+          "Mboguo"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A soliloquy is a speech in which a character reveals their private thoughts while alone on stage."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the role of the Storyteller in the play?",
+        options: [
+          "To sell tickets at the gate.",
+          "To act as a bridge between the actors and the audience.",
+          "To cook food for the Chiefs.",
+          "To marry Anansewa at the end."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Storyteller guides the audience, explains events, and connects them with the actors and the story."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. How old is Adjoa in the story?",
+        options: [
+          "Twelve years old",
+          "Seven years old",
+          "Five years old",
+          "Ten years old"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Adjoa is seven years old in the story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was Nana's main concern about Adjoa's legs?",
+        options: [
+          "That they were too long for her clothes.",
+          "That they were too thin to support a woman's duties.",
+          "That Adjoa would trip and fall.",
+          "That they were a different colour from her body."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nana believed Adjoa's legs were too thin to support the responsibilities of womanhood."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In which event did Adjoa prove her \"spindly\" legs were useful?",
+        options: [
+          "A dancing competition",
+          "A farming contest",
+          "A school running race",
+          "A cooking challenge"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Adjoa proved her legs were strong and useful by winning a school running race."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the \"point of view\" of this story?",
+        options: [
+          "First-person (Adjoa)",
+          "Second-person (You)",
+          "Third-person (The Teacher)",
+          "Nana's perspective"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The story is told from Adjoa's perspective using the first-person point of view."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Desert Rivers\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Lade Wosornu",
+          "Kofi Awoonor",
+          "Efua Sutherland"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem \"Desert Rivers\" was written by Lade Wosornu."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does the \"River\" represent in the poem's metaphor?",
+        options: [
+          "A source of malaria",
+          "A person's hidden talents and potential",
+          "A way to travel to the next village",
+          "The end of the world"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The river symbolizes the hidden talents, abilities, and potential within a person."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the word \"subterranean\" mean?",
+        options: [
+          "Flying in the air",
+          "Located under the surface of the earth",
+          "Very hot and dry",
+          "A type of fast car"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Subterranean\" means existing or located beneath the surface of the earth."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. According to the poem, why should we not judge a \"desert\"?",
+        options: [
+          "Because the sand is too hot.",
+          "Because it might have a powerful river beneath it.",
+          "Because deserts are protected by law.",
+          "Because there are no trees there."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem teaches that appearances can be misleading because hidden strength or potential may exist beneath the surface."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the central question asked in the poem?",
+        options: [
+          "Where does God live?",
+          "What is the colour of God?",
+          "How many languages does God speak?",
+          "When will it rain?"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem centers on the question of God's colour to show that God belongs to everyone."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word describes a poem that presents a debate or a point of view?",
+        options: [
+          "Narrative",
+          "Argumentative",
+          "Lullaby",
+          "Mystery"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "An argumentative poem presents ideas and reasons to persuade readers about a particular viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. According to the poet, why do people see God as having their own skin colour?",
+        options: [
+          "Because they saw a photo of Him.",
+          "Because they imagine God based on themselves.",
+          "Because God told them so.",
+          "Because they are bored."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poet suggests that people imagine God in their own image, including their own skin colour."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The theme of \"Universality\" means that God:",
+        options: [
+          "Lives only in the universe.",
+          "Is for all people in all places.",
+          "Is very old.",
+          "Does not like colours."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Universality means that God's love and care extend to all people, regardless of race or background."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is a \"Scribbler\" in the context of this poem?",
+        options: [
+          "Someone who draws on walls.",
+          "A writer or someone with an idea.",
+          "A person who works at the Kejetia market.",
+          "A teacher grading papers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In the poem, a scribbler represents a writer or a person with creative ideas."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main \"enemy\" of the Scribbler in the poem?",
+        options: [
+          "A lack of paper.",
+          "A broken pen.",
+          "Procrastination (delaying action).",
+          "The noisy neighbours."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem warns that procrastination prevents people from turning their ideas into reality."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Giving human qualities to a \"dream\" is an example of:",
+        options: [
+          "Alliteration.",
+          "Personification.",
+          "Rhyming.",
+          "A title."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Personification is a figure of speech that gives human qualities to non-human things, such as a dream."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the poet's advice to the reader?",
+        options: [
+          "To sleep more and dream bigger.",
+          "To wait until they are older to start.",
+          "To act now and bring their ideas to life.",
+          "To buy a better notebook."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poet encourages readers to act on their ideas instead of delaying them."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"The Dilemma of a Ghost\"?",
+        options: [
+          "Efua Sutherland",
+          "Ama Ata Aidoo",
+          "Lawrence Darmani",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Dilemma of a Ghost\" was written by Ama Ata Aidoo."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What does the term \"Been-to\" mean in the play?",
+        options: [
+          "Someone who has never left their village.",
+          "A person who has travelled and studied abroad.",
+          "A ghost that haunts a house.",
+          "A person who is very old."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "In the play, a 'Been-to' is someone who has travelled overseas, especially for education."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main cause of the conflict over children in the play?",
+        options: [
+          "Eulalie does not like children.",
+          "Ato and Eulalie use birth control but don't tell the family.",
+          "The family wants to adopt a child.",
+          "Ato has too many children already."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The conflict arises because Ato and Eulalie secretly use birth control, which the family does not understand."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Where is Eulalie originally from?",
+        options: [
+          "Nigeria",
+          "The United Kingdom",
+          "The United States of America",
+          "Kumasi"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Eulalie is an African American woman from the United States of America."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the play \"Anowa\"?",
+        options: [
+          "Efua Sutherland",
+          "Ama Ata Aidoo",
+          "Peter Paul Adolinama",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Anowa\" is a famous play written by Ama Ata Aidoo."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which characters form the \"Chorus\" in the play?",
+        options: [
+          "Anowa and Kofi Ako",
+          "Badua and Osam",
+          "The Old Man and The Old Woman",
+          "The Chief and his elders"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Old Man and The Old Woman serve as the Chorus, commenting on events throughout the play."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main reason Anowa's mother is unhappy with her?",
+        options: [
+          "Anowa refuses to go to school.",
+          "Anowa refuses to help with the cooking.",
+          "Anowa refuses to marry the man chosen for her.",
+          "Anowa wants to leave Ghana."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Anowa's mother is unhappy because Anowa refuses to marry the man selected for her."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When is the play \"Anowa\" set?",
+        options: [
+          "In the modern year 2024",
+          "In the future",
+          "In the 1870s",
+          "During the Second World War"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The events of \"Anowa\" take place in the 1870s in the Gold Coast (present-day Ghana)."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What was the main problem the Old Man wanted to solve?",
+        options: [
+          "He had no money to leave his sons.",
+          "His sons were always quarrelling with each other.",
+          "The sticks in his yard were too dry.",
+          "He wanted to build a new house."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Old Man wanted to teach his sons to stop quarrelling and live in unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What happened when the sons tried to break the sticks while they were tied in a bundle?",
+        options: [
+          "The sticks snapped instantly.",
+          "The twine broke but the sticks didn't.",
+          "They were unable to break the sticks.",
+          "They decided to burn the sticks instead."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The bundle of sticks could not be broken, showing that unity gives strength."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does a \"single stick\" symbolize in this story?",
+        options: [
+          "A tall person.",
+          "A person who is alone and vulnerable.",
+          "A magical wand.",
+          "A tool for farming."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A single stick represents a person who is alone and easily overcome."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The moral of the story is best summarized by which phrase?",
+        options: [
+          "Practice makes perfect.",
+          "Unity is strength.",
+          "Honesty is the best policy.",
+          "Look before you leap."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that people are stronger when they work together in unity."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the short story \"Ripples\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Peter Paul Adolinama",
+          "Lawrence Darmani",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Ripples\" was written by Peter Paul Adolinama."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was the \"pebble\" or the initial cause of the problems in the story?",
+        options: [
+          "A natural disaster",
+          "A teenage marriage and dropping out of school",
+          "A fight between two neighbours",
+          "Losing a sum of money at the market"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story compares the effects of teenage marriage and leaving school to ripples caused by a pebble in water."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the story, who feels the \"ripples\" of Ama's early choices?",
+        options: [
+          "Only Ama herself",
+          "Ama and her daughter",
+          "Only the man she married",
+          "No one felt the effects"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Both Ama and her daughter experience the long-term consequences of Ama's early decisions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary moral lesson of the story?",
+        options: [
+          "Marriage is always a bad idea.",
+          "Our current choices have long-term consequences for ourselves and others.",
+          "It is better to live in the city than the village.",
+          "You should never throw stones into water."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that the choices we make today can have lasting effects on our lives and the lives of others."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Makola\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Theresa Ennin",
+          "Lade Wosornu",
+          "Lawrence Darmani"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem \"Makola\" was written by Theresa Ennin."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which poetic device uses words that mimic natural sounds?",
+        options: [
+          "Metaphor",
+          "Onomatopoeia",
+          "Stanza",
+          "Alliteration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Onomatopoeia is the use of words that imitate natural sounds."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The scorching sun bit into the skin of the traders.\" This is an example of:",
+        options: [
+          "Auditory imagery",
+          "Tactile imagery (Touch)",
+          "Olfactory imagery",
+          "Visual imagery"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The description appeals to the sense of touch, making it an example of tactile imagery."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary purpose of sensory imagery in \"Makola\"?",
+        options: [
+          "To make the poem longer.",
+          "To help the reader experience the market through their senses.",
+          "To teach people how to cook.",
+          "To list the prices of items in the market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sensory imagery helps readers vividly experience the sights, sounds, smells, and feelings of the Makola market."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"A Day's Wait\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Ernest Hemingway",
+          "Peter Paul Adolinama",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Day's Wait\" is a short story written by Ernest Hemingway."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What was Schatz's actual temperature on the Fahrenheit scale?",
+        options: [
+          "44 degrees",
+          "98 degrees",
+          "102 degrees",
+          "212 degrees"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Schatz's temperature was 102°F, but he mistakenly thought it was fatal because he confused Fahrenheit with Celsius."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does it mean to be \"Stoic\"?",
+        options: [
+          "To be very loud and angry.",
+          "To show no emotion while enduring pain or trouble.",
+          "To be very good at science and math.",
+          "To fall asleep quickly."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A stoic person remains calm and shows little emotion even during pain or hardship."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why did Schatz cry easily the day after the fever?",
+        options: [
+          "He was still very sick.",
+          "His father was mean to him.",
+          "He had relaxed his \"hold\" over himself after the fear was gone.",
+          "He wanted more medicine."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "After realizing he was not going to die, Schatz released the emotional strain he had been holding inside."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Mama is a Sunrise\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Evelyn Tooley Hunt",
+          "Theresa Ennin",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Mama is a Sunrise\" was written by Evelyn Tooley Hunt."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which literary device is used in the title \"Mama is a Sunrise\"?",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Onomatopoeia",
+          "Alliteration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The title is a metaphor because it directly compares Mama to a sunrise without using 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the mother \"nudge\" in the poem?",
+        options: [
+          "The furniture in the room.",
+          "The sleepy world or her children.",
+          "A heavy pot on the stove.",
+          "The door to the house."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The poem describes Mama gently waking the sleepy world, especially her children, to begin the day."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the \"tone\" of this poem?",
+        options: [
+          "Angry and frustrated.",
+          "Sad and mournful.",
+          "Appreciative and loving.",
+          "Scared and nervous."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem has an appreciative and loving tone as it celebrates a mother's warmth, care, and importance."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who wrote the story \"The Generous Hunter\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Kaakyire Akosombo Nyantakyi",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Generous Hunter\" was written by Kaakyire Akosombo Nyantakyi."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the \"Climax\" of a story?",
+        options: [
+          "The very first sentence.",
+          "The list of characters.",
+          "The most exciting or turning point of the action.",
+          "The name of the publisher."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The climax is the highest point of excitement or the major turning point in a story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why did the hunter share his food with the old man?",
+        options: [
+          "He didn't like the food.",
+          "He was afraid the old man would steal it.",
+          "He felt compassion for the man's hunger.",
+          "He wanted to sell the food to the old man."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The hunter shared his food because he felt compassion for the hungry old man."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main theme of this story?",
+        options: [
+          "How to hunt animals in the forest.",
+          "Kindness and generosity bring rewards.",
+          "It is dangerous to walk alone in the woods.",
+          "Older people are always spirits."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that kindness and generosity are rewarded."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"A Minor Bird\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Robert Frost",
+          "Lade Wosornu",
+          "Theresa Ennin"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Minor Bird\" is a poem written by Robert Frost."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A pair of rhyming lines in a poem is called a:",
+        options: [
+          "Stanza",
+          "Couplet",
+          "Chorus",
+          "Metaphor"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A couplet is a pair of consecutive lines that rhyme with each other."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What action does the speaker take to get rid of the bird?",
+        options: [
+          "He throws a stone at it.",
+          "He claps his hands at it.",
+          "He closes the window.",
+          "He starts singing louder."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The speaker claps his hands in an attempt to make the bird stop singing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main theme of the poem?",
+        options: [
+          "How to catch a bird.",
+          "The beauty of different types of music.",
+          "Learning tolerance for nature and others.",
+          "Why birds fly south for the winter."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The poem teaches tolerance, reminding us to respect nature even when it inconveniences us."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"Sosu and the Bukari Boys\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Sosu and the Bukari Boys\" was written by Lawrence Darmani."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the \"Moral Conflict\" in the story?",
+        options: [
+          "A fight over who is the best football player.",
+          "Sosu's struggle between being honest and following the Bukari Boys.",
+          "A disagreement about which school is better.",
+          "The difficulty of walking to the market in the rain."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sosu faces a moral conflict between doing what is right and giving in to the bad influence of the Bukari Boys."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does \"Integrity\" mean?",
+        options: [
+          "Being very fast at running.",
+          "Being honest and having strong moral principles.",
+          "Being the leader of a group.",
+          "Having a lot of money."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Integrity means being honest and consistently following strong moral values."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What role do the Bukari Boys play in Sosu's life?",
+        options: [
+          "They are his teachers.",
+          "They are a bad influence and antagonists.",
+          "They are his brothers.",
+          "They are helping him study for his BECE."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The Bukari Boys act as antagonists by encouraging Sosu to make wrong choices."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"A Wreath of Tears\"?",
+        options: [
+          "Lade Wosornu",
+          "Kobena Eyi Acquah",
+          "Theresa Ennin",
+          "V. B. Aakye"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"A Wreath of Tears\" was written by Kobena Eyi Acquah."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a \"Wreath\"?",
+        options: [
+          "A type of Ghanaian food.",
+          "A circular arrangement of flowers for a funeral.",
+          "A song sung at a wedding.",
+          "A traditional cloth worn by chiefs."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A wreath is a circular arrangement of flowers, often used at funerals to honour the dead."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does the \"circle\" of the wreath represent?",
+        options: [
+          "A zero score.",
+          "The sun in the sky.",
+          "Eternity and the continuous nature of love/memory.",
+          "A wheel for a car."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The circular shape of the wreath symbolizes eternity and the unending nature of love and remembrance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The repetition of the same consonant sound at the start of words is called:",
+        options: [
+          "Metaphor",
+          "Alliteration",
+          "Personification",
+          "Rhyme"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Alliteration is the repetition of the same initial consonant sound in nearby words."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the poem \"Sleep Without Wake\"?",
+        options: [
+          "Kobena Eyi Acquah",
+          "A. A. Amoako",
+          "Theresa Ennin",
+          "Lade Wosornu"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Sleep Without Wake\" was written by A. A. Amoako."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a \"euphemism\"?",
+        options: [
+          "A type of musical instrument.",
+          "A mild or indirect word used to replace a harsh one.",
+          "A very fast running bird.",
+          "The title of a King."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A euphemism is a polite or indirect expression used instead of a harsh or unpleasant one."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the poem, \"Sleep without wake\" is a euphemism for:",
+        options: [
+          "Being very tired.",
+          "Death.",
+          "Dreaming.",
+          "Laziness."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The phrase \"Sleep without wake\" is used as a euphemism for death."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A poem or song that expresses grief for the dead is called a:",
+        options: [
+          "Sonnet",
+          "Dirge",
+          "Limerick",
+          "Narrative"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A dirge is a poem or song that mourns the dead."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of the original \"Oliver Twist\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Charles Dickens",
+          "Lawrence Darmani",
+          "Jean Watson"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Oliver Twist\" is a famous novel written by Charles Dickens."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the famous sentence Oliver says at the workhouse?",
+        options: [
+          "\"I want to go home.\"",
+          "\"Please, sir, I want some more.\"",
+          "\"Give me your hat, Mr. Bumble.\"",
+          "\"I am not hungry today.\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oliver's famous request, \"Please, sir, I want some more,\" is one of the best-known lines in English literature."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a \"Workhouse\" in the context of the story?",
+        options: [
+          "A place where children go to play football.",
+          "A place for poor people to live and work in harsh conditions.",
+          "A factory that makes toys for rich children.",
+          "A school for future kings."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A workhouse was an institution where poor people lived and worked under strict and difficult conditions."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What theme is shown by Oliver staying honest despite his poverty?",
+        options: [
+          "Greed",
+          "Resilience and Integrity",
+          "Laziness",
+          "Fear"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Oliver's honesty and courage despite hardship demonstrate resilience and integrity."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who is the author of \"Home Sweet Home\"?",
+        options: [
+          "Ama Ata Aidoo",
+          "Ken Saro-Wiwa",
+          "Lawrence Darmani",
+          "Peter Paul Adolinama"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Home Sweet Home\" was written by Ken Saro-Wiwa."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the village the narrator is returning to?",
+        options: [
+          "Accra",
+          "Dukana",
+          "Kumasi",
+          "Lagos"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The narrator returns to his home village of Dukana."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The story is told from which \"Point of View\"?",
+        options: [
+          "First-person (\"I\")",
+          "Third-person (He/She)",
+          "Second-person (You)",
+          "A ghost's perspective"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The story is narrated in the first-person point of view using \"I\"."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What does the word \"Nostalgia\" mean?",
+        options: [
+          "A fear of travelling.",
+          "A sentimental longing for the past.",
+          "A type of village food.",
+          "The desire to live in a big city forever."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nostalgia is a warm, sentimental feeling or longing for the past."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main conflict at the beginning of the story?",
+        options: [
+          "The children are fighting over a toy.",
+          "A baby bird has fallen and needs help.",
+          "The mother is angry at Debbie.",
+          "Sandy wants to go to the Kejetia market."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story begins when the children discover a baby bird that has fallen from its nest and needs help."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which literary device is used when characters speak to each other?",
+        options: [
+          "Stanza",
+          "Dialogue",
+          "Rhyme",
+          "Rhythm"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Dialogue is the conversation between characters in a story."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens during the \"Resolution\" of the story?",
+        options: [
+          "The bird is put in a cage forever.",
+          "The children give the bird to a neighbour.",
+          "Pepe grows strong and returns to nature.",
+          "The children forget to feed the bird."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "At the resolution, Pepe recovers, becomes strong enough to fly, and returns to the wild."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the primary lesson (theme) of this story?",
+        options: [
+          "Birds are better than cats.",
+          "Always carry an umbrella in the rain.",
+          "Showing compassion to nature is important.",
+          "Children should not play outside."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The story teaches the importance of showing compassion and kindness toward nature and animals."
     ),
   ],
 );
@@ -4710,6 +7916,1080 @@ final IndependentPracticeModel jhs3s3ss3Lesson2IndependentQuizData = Independent
         correctIndex: 2,
         difficulty: "Easy",
         explanation: "C"
+    ),
+  ],
+);
+
+final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which conjunction best completes this sentence? \"We will go to the farm ________ it rains.\"",
+        options: [
+          "although",
+          "unless",
+          "so that",
+          "and"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Unless\" means 'except if,' making it the correct conjunction in the sentence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word best joins these ideas to show a result? \"The bridge was broken; ________, we could not cross the river.\"",
+        options: [
+          "furthermore",
+          "however",
+          "consequently",
+          "similarly"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Consequently\" is a transition word used to show a result or effect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Identify the non-defining relative clause in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
+        options: [
+          "My uncle is coming",
+          "works at GCB Bank",
+          "who works at GCB Bank",
+          "is coming to visit"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Who works at GCB Bank\" is a non-defining relative clause because it provides extra information about the uncle."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which transitional device is best for ordering ideas in a recipe for Jollof rice?",
+        options: [
+          "In spite of",
+          "Firstly",
+          "Nevertheless",
+          "On the contrary"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Firstly\" is used to introduce the first step in a sequence or process."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word is best to start the first body paragraph?",
+        options: [
+          "Therefore",
+          "Firstly",
+          "Nevertheless",
+          "However"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Firstly\" is the best transitional word to introduce the first main point in a body paragraph."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a relative clause to add detail?",
+        options: [
+          "We went to the beach.",
+          "The waves were very high.",
+          "My brother, who loves swimming, ran to the water.",
+          "We ate fried fish."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Who loves swimming\" is a relative clause that provides extra information about 'my brother.'"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Choose the best connector to show a sudden change: \"We were playing ludo ________ it started to pour with rain.\"",
+        options: [
+          "after",
+          "next",
+          "suddenly",
+          "finally"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Suddenly\" is used to indicate an unexpected or abrupt event."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a conclusion?",
+        options: [
+          "Once upon a time in Cape Coast.",
+          "Secondly, we visited the castle.",
+          "In the end, it was a day I will never forget.",
+          "As a result, we were very hungry."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"In the end, it was a day I will never forget\" clearly summarizes and concludes the narrative."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word best joins these ideas in a letter to a friend? \"I wanted to visit you, ________ I didn't have enough Cedis for the trotro.\"",
+        options: [
+          "therefore",
+          "but",
+          "consequently",
+          "furthermore"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"But\" shows a contrast between wanting to visit and not having enough money."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To show a result in a formal letter, which phrase is most appropriate?",
+        options: [
+          "And so",
+          "As a result",
+          "Then",
+          "Like"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"As a result\" is a formal connector used to show the outcome of an action or situation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these shows paragraph unity?",
+        options: [
+          "Every sentence starts with the same word.",
+          "All sentences in the paragraph support one main idea.",
+          "The paragraph has no full stops.",
+          "The paragraph is only one sentence long."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Paragraph unity means that every sentence contributes to and supports a single main idea."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Identify the adjectival phrase in this sentence: \"The tall, leafy palm trees provide great shade.\"",
+        options: [
+          "provide great shade",
+          "The tall, leafy palm trees",
+          "palm trees",
+          "provide"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The tall, leafy palm trees\" is the noun phrase modified by the adjectives 'tall' and 'leafy', functioning as the adjectival phrase in the given options."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word is best to link a summary of a problem to its solution?",
+        options: [
+          "Similarly",
+          "However",
+          "Therefore",
+          "For example"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Therefore\" is used to introduce a logical result or solution based on a problem."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A good summary should be ________ than the original text.",
+        options: [
+          "Longer and more detailed",
+          "The same length",
+          "Shorter and more concise",
+          "Written in a different language"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A summary presents the main ideas briefly, so it should be shorter and more concise than the original text."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. When summarising, what should you do with the topic sentence?",
+        options: [
+          "Delete it.",
+          "Rewrite it in your own words.",
+          "Move it to the very end.",
+          "Replace it with a joke."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "When summarising, you should restate the topic sentence in your own words while keeping its original meaning."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a noun phrase used to summarize \"The market which is located at Kejetia\"?",
+        options: [
+          "The market is big.",
+          "The Kejetia Market.",
+          "It is in Kumasi.",
+          "Where people buy things."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"The Kejetia Market\" is a noun phrase that briefly identifies and summarizes the market."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses multiple powerful adjectives to describe a forest?",
+        options: [
+          "The forest had a lot of trees and was very green.",
+          "It was a big, dark, and quiet forest.",
+          "The ancient, towering, and emerald-green canopy shielded the floor.",
+          "I liked walking in the forest because it was pretty."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Ancient,\" \"towering,\" and \"emerald-green\" are vivid, powerful adjectives that create a strong image of the forest."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sentence that uses frontloading for effect.",
+        options: [
+          "The sun rose over the mountains eventually.",
+          "Golden and blinding, the sun peeked over the mountain ridge.",
+          "I saw the sun rising over the mountains this morning.",
+          "Over the mountains, the sun began to rise slowly."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The descriptive phrase \"Golden and blinding\" is placed at the beginning to create emphasis before introducing the subject."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is an example of climactic sentence structure?",
+        options: [
+          "He ate an apple, an orange, and a banana.",
+          "The wind whispered, then whistled, then howled with rage.",
+          "She wore a red dress, black shoes, and a hat.",
+          "Running is fun, healthy, and good for your heart."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The actions build in intensity from whispered to whistled to howled, creating a climactic effect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses selective detail to describe a hardworking farmer?",
+        options: [
+          "The farmer was wearing a shirt and trousers today.",
+          "He was a very tall man who liked to farm a lot.",
+          "His palms were thick with hard, leathery callouses from years of hoeing.",
+          "He had two eyes, a nose, and a very kind smile."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The description focuses on specific details—his hard, calloused palms—to emphasize years of hard work."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best example of backstory?",
+        options: [
+          "Suddenly, it started to rain heavily on the tin roof.",
+          "Before moving to the city, Tetteh had spent ten years working on his father's cocoa farm, learning the value of a long day's work.",
+          "\"I will go to the market tomorrow,\" she said.",
+          "He ran as fast as his legs could carry him."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Backstory provides important information about a character's past that helps explain who they are or why they act the way they do."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the foreshadowing in this passage:",
+        options: [
+          "The sun was shining brightly over the Black Star Square.",
+          "\"I am so happy to be here,\" Efua shouted.",
+          "Little did they know, the storm clouds gathering on the horizon were the least of their worries.",
+          "They ate a delicious meal of Jollof rice and fried chicken."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Foreshadowing gives hints about events that will happen later in the story. The gathering storm clouds suggest future trouble."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sentence uses emotive details to show excitement?",
+        options: [
+          "She was very excited to see her results.",
+          "Her eyes widened, her breath came in short gasps, and a bright tingling sensation spread to her fingertips.",
+          "The results were posted on the wall for everyone to see.",
+          "She walked quickly toward the noticeboard."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The sentence uses vivid physical and emotional details to help the reader feel the character's excitement."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A story about a wedding suddenly shows a scene of the couple as elderly people sitting on a porch years later. This is:",
+        options: [
+          "Flashback",
+          "Backstory",
+          "Flash-forward",
+          "Foreshadowing"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A flash-forward jumps ahead in time to show events that happen later in the story."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a mental verb used to express a viewpoint?",
+        options: [
+          "Running",
+          "Believe",
+          "Quickly",
+          "Ghana"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Believe\" is a mental verb because it expresses a thought, opinion, or viewpoint."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sentence using the simple present tense for a fact.",
+        options: [
+          "Ghana will have a holiday tomorrow.",
+          "Ghana is located in West Africa.",
+          "Ghana was a colony in the past.",
+          "Ghana is going to build new roads."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The simple present tense is used to state general truths and facts. 'Ghana is located in West Africa' is a factual statement."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In a rejoinder, where should your own address be placed?",
+        options: [
+          "At the very bottom.",
+          "On the left side above the date.",
+          "At the top right corner.",
+          "In the middle of the page."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "In a formal rejoinder, the writer's address is written at the top right corner of the page."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which modal verb is best for \"hedging\" (making a suggestion less aggressive)?",
+        options: [
+          "Must",
+          "Will",
+          "Might",
+          "Always"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Might\" expresses possibility and softens suggestions, making them less forceful."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence is written in objective language?",
+        options: [
+          "The assembly was way too long and very boring.",
+          "The assembly lasted for fifty minutes and included three speeches.",
+          "I think the headteacher spoke for a long time.",
+          "The assembly was better than the one we had last week."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Objective language presents facts without personal opinions or emotions. The sentence states only factual information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. To vividly describe a situation, you should:",
+        options: [
+          "Use as few words as possible.",
+          "Use sensory details that are factual and specific.",
+          "Tell the reader how you felt about it.",
+          "Use many adjectives like \"beautiful\" or \"ugly\"."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Specific sensory details help readers clearly imagine a scene while keeping the description accurate."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Reports should be devoid of personal bias. What does this mean?",
+        options: [
+          "You should include your own opinion.",
+          "You should only write about people you like.",
+          "You should exclude your personal feelings and stick to the facts.",
+          "You should write in a very emotional way."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A report should be objective by avoiding personal opinions and presenting only factual information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of the following helps to organise an informative text logically?",
+        options: [
+          "Mixing all your ideas into one long paragraph.",
+          "Using headings and numbered lists.",
+          "Writing the end of the story first.",
+          "Using slang and abbreviations."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Headings and numbered lists make information easier to follow and organize logically."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a key feature of a formal letter?",
+        options: [
+          "Using many emojis to show feelings.",
+          "Using clear section headings and a formal layout.",
+          "Writing in a very casual, friendly tone.",
+          "Using abbreviations like \"U\" and \"R\"."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A formal letter follows a proper layout and uses clear sections with professional language."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What should you do during the proofreading stage?",
+        options: [
+          "Write the first thing that comes to mind.",
+          "Change the recipient's address randomly.",
+          "Edit the writing for sense, meaning, and effect.",
+          "Delete the entire document and start over."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Proofreading involves checking and correcting errors to improve clarity, meaning, grammar, and overall effectiveness."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which sign-off is most appropriate for a business letter to someone you do not know by name?",
+        options: [
+          "Best wishes,",
+          "See ya later,",
+          "Yours faithfully,",
+          "Your friend,"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Yours faithfully,\" is the correct formal closing when the recipient's name is unknown."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A written record of the decisions made during a meeting is called:",
+        options: [
+          "An Agenda.",
+          "A Business Letter.",
+          "Meeting Minutes.",
+          "A Flyer."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Meeting minutes are the official written record of what was discussed and decided during a meeting."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the purpose of a slogan on a poster?",
+        options: [
+          "To list the price of every item.",
+          "To provide a long history of the company.",
+          "To create a short, catchy phrase that people remember.",
+          "To tell people where the office is located."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A slogan is a short, memorable phrase used to attract attention and help people remember a message or brand."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When writing an invitation, what does RSVP mean?",
+        options: [
+          "Bring your own food.",
+          "Please respond to the invitation.",
+          "The event is for adults only.",
+          "Wear your school uniform."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "RSVP asks the invited person to reply and let the host know whether they will attend."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In an email, the Subject Line should be:",
+        options: [
+          "A very long story about your day.",
+          "A summary of the content of the email.",
+          "Just your name.",
+          "Left completely blank."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The subject line briefly summarizes the purpose or topic of the email."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these should be included on a business flyer?",
+        options: [
+          "A list of benefits or offers.",
+          "Your favourite song lyrics.",
+          "A map of the entire country.",
+          "Every single product you have ever sold."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A business flyer should highlight the key benefits, services, or special offers to attract customers."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a formal response to a newspaper issue?",
+        options: [
+          "A diary entry",
+          "A Letter to the Editor",
+          "A shopping list",
+          "A text message"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A Letter to the Editor is a formal way to express opinions or respond to issues published in a newspaper."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a Case Study?",
+        options: [
+          "A book of poems",
+          "A detailed investigation of a specific issue or event",
+          "A short joke",
+          "A list of vocabulary words"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A case study is an in-depth investigation of a particular person, event, problem, or situation."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Where would you most likely find an article written for an online audience?",
+        options: [
+          "A printed textbook",
+          "A Webzine",
+          "A handwritten letter",
+          "A stone tablet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A webzine is an online magazine designed specifically for internet readers."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Short reports for publication should always be:",
+        options: [
+          "Fictional and funny",
+          "Organised and factual",
+          "Written in secret",
+          "Very long with no headings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Published reports should be well-organized and based on accurate facts so readers can trust the information."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these uses emotive adjectives?",
+        options: [
+          "The meeting is at 2:00 PM.",
+          "We are embarking on a magnificent and courageous journey.",
+          "Please sit down on the chairs.",
+          "I have a pen and a book."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "\"Magnificent\" and \"courageous\" are emotive adjectives that create strong positive feelings."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"I have a dream that one day...\" is a famous example of:",
+        options: [
+          "A shopping list.",
+          "Powerful imagery and repetition.",
+          "A business email.",
+          "A technical manual."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Martin Luther King Jr.'s repeated phrase \"I have a dream\" is a classic example of repetition used to create emphasis and memorable imagery."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What does \"Tripling\" mean in a speech?",
+        options: [
+          "Speaking three times as fast as usual.",
+          "Using three different languages.",
+          "Using three related words or phrases for effect.",
+          "Having three people give the same speech."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Tripling is a rhetorical technique that uses three related words, phrases, or ideas to make a speech more memorable and persuasive."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the Conclusion of a speech, you should:",
+        options: [
+          "Introduce a completely new topic.",
+          "Tell them what you told them (summarize).",
+          "Ask everyone to go home immediately.",
+          "Read a long list of dictionary definitions."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The conclusion should briefly summarize the main points and leave the audience with a clear final message."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kofi is researching the different types of transport used by students to get to school in Kumasi. Which of these is a 'focused question'?",
+        options: [
+          "Do you like coming to school?",
+          "What is the most common colour of a trotro?",
+          "How many students arrive by trotro, taxi, or walking?",
+          "Why is traffic bad in the morning?"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A focused question directly addresses the research topic by asking about the specific types of transport students use."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Abena is looking at a website to find the price of Kenkey in different regions. What should she do while reading?",
+        options: [
+          "Memorise everything and close the laptop.",
+          "Record her findings and the website name immediately.",
+          "Copy the entire page and say she wrote it.",
+          "Ignore the prices and just look at the pictures."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Recording both the information and its source helps keep accurate research notes and allows proper referencing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you include a list of 'References' at the end of your project, what are you avoiding?",
+        options: [
+          "Good grades.",
+          "Plagiarism.",
+          "Focused questions.",
+          "Data collection."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "References give credit to the original sources of information and help prevent plagiarism."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is the best way to present information gathered from different local bread bakers?",
+        options: [
+          "A list of unorganised notes.",
+          "A story about your favorite bread.",
+          "A clear report with headings and a list of sources.",
+          "A drawing of a loaf of bread with no text."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A well-organized report with headings and references presents research clearly and professionally."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Kwame speaks to his teacher using \"Please, Sir\" and \"Thank you, Madam.\" Which element of characterisation is this?",
+        options: [
+          "Appearance",
+          "Speech",
+          "Actions",
+          "Others' opinions"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A character's words and the way they speak reveal their personality, manners, and attitude."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A character in a story always shares his 'bofrot' with the children on his street who have no breakfast. This shows the character is:",
+        options: [
+          "Greedy",
+          "Lazy",
+          "Kind-hearted",
+          "Proud"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Sharing food with others in need shows kindness and generosity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a character enters a scene with sweat on their brow and dirt under their fingernails, what is the author showing through 'Appearance'?",
+        options: [
+          "The character has been resting.",
+          "The character has been doing hard physical work.",
+          "The character is very wealthy.",
+          "The character is going to a party."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Sweat and dirty fingernails are physical clues that suggest the character has been working hard."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why would a writer have other characters talk about a 'ghost' that haunts the village?",
+        options: [
+          "To make the story longer.",
+          "To build fear and character reputation before the 'ghost' appears.",
+          "To show that the neighbours are liars.",
+          "To avoid describing the ghost later."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "What other characters say can build suspense and shape the reader's expectations before a character appears."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which of these is the most effective way to show a character is angry without saying \"he was angry\"?",
+        options: [
+          "Describing his neatly combed hair.",
+          "Showing him slamming a door and shouting at his brother.",
+          "Showing him eating a bowl of fufu.",
+          "Mentioning that he lives in Accra."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A character's actions and dialogue effectively show emotions instead of directly telling the reader."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main difference between a monologue and a dialogue?",
+        options: [
+          "A monologue is written, but a dialogue is spoken.",
+          "A monologue involves one person, while a dialogue involves two or more.",
+          "A monologue is always funny, but a dialogue is always sad.",
+          "A monologue uses stage directions, but a dialogue does not."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A monologue is spoken by one character, while a dialogue is a conversation between two or more characters."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In a play script, how should a character's name be written?",
+        options: [
+          "In small letters with a comma.",
+          "At the end of the sentence.",
+          "In CAPITAL LETTERS followed by a colon.",
+          "Inside quotation marks."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Character names in play scripts are usually written in capital letters followed by a colon before their dialogue."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a dialogue?",
+        options: [
+          "A queen talking to her reflection in a mirror.",
+          "A boy reciting a poem to an empty room.",
+          "A teacher and a student discussing a homework assignment.",
+          "A man thinking silently about his dinner."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A dialogue is a conversation between two or more people, such as a teacher and a student talking."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the purpose of a stage direction?",
+        options: [
+          "To tell the audience the price of the ticket.",
+          "To tell the actors what movements or emotions to perform.",
+          "To show the character's name.",
+          "To replace the dialogue."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Stage directions guide the actors by explaining their actions, movements, or emotions during the play."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which punctuation mark is used after a character's name in a script?",
+        options: [
+          "Full stop (.)",
+          "Comma (,)",
+          "Colon (:)",
+          "Question mark (?)"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A colon is placed after a character's name to introduce that character's spoken lines."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which part of a story is usually the most exciting turning point?",
+        options: [
+          "The Introduction",
+          "The Climax",
+          "The Resolution",
+          "The Title"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The climax is the most exciting and important turning point in a story where the main conflict reaches its highest point."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. A biography of Yaa Asantewaa would most likely follow which sequence?",
+        options: [
+          "Random events with no order.",
+          "Starting from her final battle and ending with her birth.",
+          "Chronological order from her early life to her leadership.",
+          "Only focusing on what she ate for breakfast."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Biographies are usually written in chronological order, beginning with a person's early life and continuing through major life events."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the purpose of the 'Resolution' in a sequence of events?",
+        options: [
+          "To introduce a new problem.",
+          "To show how the conflict is settled and end the story.",
+          "To describe the weather.",
+          "To introduce a second main character."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The resolution explains how the main problem is solved and brings the story to a satisfying conclusion."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In a play script, how are major changes in time or location usually shown?",
+        options: [
+          "By changing the font size.",
+          "By starting a new 'Scene' or 'Act.'",
+          "By having the actors stop talking.",
+          "By changing the character's name."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A new scene or act usually signals a change in setting, time, or major stage action."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. If two stories both end with a celebration in a Ghanaian village, they share a similar:",
+        options: [
+          "Climax",
+          "Resolution",
+          "Conflict",
+          "Setting only"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A celebration at the end of a story is part of the resolution because it happens after the conflict has been solved."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. \"The classroom was a zoo during the break period.\" This is an example of:",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Idiom"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A metaphor compares two unlike things directly without using 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which sentence uses a simile?",
+        options: [
+          "The sun is a golden ball.",
+          "The sun smiled down on us.",
+          "The sun is as bright as a lamp.",
+          "The sun hid behind the clouds."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A simile compares two things using the words 'like' or 'as'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the sentence \"The waves danced along the shore,\" which device is used?",
+        options: [
+          "Idiom",
+          "Metaphor",
+          "Personification",
+          "Simile"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Personification gives human actions or qualities to non-human things, such as waves 'dancing'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If someone says \"Break a leg\" before you go on stage for a play, they mean:",
+        options: [
+          "They want you to get hurt.",
+          "You should be careful.",
+          "Good luck.",
+          "You should stop walking."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "\"Break a leg\" is an idiom commonly used in theatre to wish someone good luck before a performance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. \"He is as busy as a bee.\" This comparison is a:",
+        options: [
+          "Personification",
+          "Metaphor",
+          "Simile",
+          "Narrative"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The phrase uses 'as...as' to compare two things, making it a simile."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE).m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Anansi tries to keep all the wisdom in the world in a pot, but the pot breaks and the wisdom spreads to everyone. What is the theme?",
+        options: [
+          "Wisdom is dangerous.",
+          "Knowledge should be shared, not hidden.",
+          "Spiders are not good at carrying pots.",
+          "How to climb a tree."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The story teaches that knowledge is most valuable when it is shared with others rather than kept by one person."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a 'Theme' and NOT a 'Plot'?",
+        options: [
+          "A boy goes to the market to buy plantain.",
+          "The importance of being brave in difficult times.",
+          "The teacher gave a difficult test on Tuesday.",
+          "Accra is the capital city of Ghana."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A theme is the main message or lesson of a story, while a plot is the sequence of events."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If a film uses bright, cheerful music and shows people dancing together at a festival, what theme is likely being shown?",
+        options: [
+          "Sadness",
+          "Loneliness",
+          "Cultural Joy and Unity",
+          "Fear"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Cheerful music and people celebrating together suggest the theme of cultural joy and unity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When you 'adapt' a theme into a new story, you are:",
+        options: [
+          "Copying the story exactly word-for-word.",
+          "Creating a new story that carries the same central message.",
+          "Deleting the theme entirely.",
+          "Changing the language to one you don't understand."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Adapting a theme means creating a different story while keeping the same central idea or lesson."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which ICT tool is best for typing and organising a story about the theme of 'Honesty'?",
+        options: [
+          "A calculator",
+          "A word processing app on your iPad",
+          "The camera app",
+          "The battery settings"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A word processing app is designed for writing, editing, and organising stories and other documents."
     ),
   ],
 );
@@ -7794,8 +12074,7 @@ final IndependentPracticeModel RMEjhs3s1ss2Lesson3IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/1. RME JHS3 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -7853,8 +12132,7 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/2. RME JHS3 S2 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -7916,10 +12194,8 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData =
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/RME/2. RME JHS3 S2 SS1 L3/6. Independent Practice.m4a',
+final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/8. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
       question:
@@ -9224,10 +13500,8 @@ final IndependentPracticeModel SSjhs1s4ss1Lesson1IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Human Resource Development is the process of:",
@@ -9282,11 +13556,8 @@ final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData =
             "An apprentice learning dressmaking from a master tailor is an example of training for a specific job.")
   ],
 );
-
-final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData =
-    IndependentPracticeModel(
-  audioPath:
-      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question:
@@ -9330,6 +13601,231 @@ final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData =
         difficulty: "Easy",
         explanation:
             "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years.")
+  ],
+);
+
+final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who served as the independent chairman of the official commission appointed in March 1948 to investigate the causes of the Accra riots?",
+        options: [
+          "Andrew Aiken Watson",
+          "Sir Charles Noble Arden-Clarke",
+          "Sir Henry Coussey",
+          "Gerald Hallen Creasy"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which major town was not mentioned as one of the primary urban centers where mass looting and civil disturbances rapidly spread after 28th February 1948?",
+        options: [
+          "Sunyani",
+          "Koforidua",
+          "Cape Coast",
+          "Sekondi"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The three ex-servicemen who were tragically shot dead at the Christiansborg crossroads were marching peacefully to present a formal petition to which colonial official?",
+        options: [
+          "Major Imray",
+          "Governor Alan Burns",
+          "Governor Gerald Hallen Creasy",
+          "Chairman Andrew Aiken Watson"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of the following was a direct political outcome recommended by the Watson Commission report of June 1948?",
+        options: [
+          "The immediate declaration of complete independence for the colony",
+          "The drafting of a completely new constitution to replace the Burns Constitution",
+          "The permanent banning of the United Gold Coast Convention political party",
+          "The appointment of Dr. Kwame Nkrumah as the official Leader of Government Business"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. On which historic date did Dr. Kwame Nkrumah officially break away from the UGCC and launch the Convention People's Party at the Old Polo Grounds in Accra?",
+        options: [
+          "28th February 1948",
+          "12th June 1949",
+          "6th March 1957",
+          "14th March 1949"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which prominent CPP leader served as the party's General Secretary, helping organize its administrative structures after returning from studies in the United Kingdom?",
+        options: [
+          "Kojo Botsio",
+          "Ebenezer Ako Adjei",
+          "Komla Agbeli Gbedemah",
+          "Dr. J.B. Danquah"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The term \"veranda boys\" was originally used by wealthy political elites to describe which group of people within the Gold Coast?",
+        options: [
+          "Highly trained British military and security officers",
+          "Ordinary, working-class citizens, youth, and low-wage laborers",
+          "Elite European merchants managing large import firms",
+          "Traditional paramount chiefs serving on the Legislative Council"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What was the official slogan of the Convention People's Party, designed to inspire continuous progress toward liberation?",
+        options: [
+          "Self-government within the shortest possible time",
+          "Freedom and Justice forever",
+          "Forward Ever, Backward Never",
+          "God bless our homeland Ghana"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Who served as the prominent African High Court Judge who chaired the 1949 constitutional advisory committee?",
+        options: [
+          "Sir Charles Noble Arden-Clarke",
+          "Sir James Henley Coussey",
+          "Justice Arku Korsah",
+          "Dr. J.B. Danquah"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How many contested legislative seats did the Convention People's Party (CPP) win during the first historic general elections in February 1951?",
+        options: [
+          "Three seats",
+          "Seventy-two seats",
+          "Thirty-four seats",
+          "Seventy-one seats"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The National Liberation Movement (NLM), which strongly opposed the CPP's centralist vision, was formed in which prominent city?",
+        options: [
+          "Sekondi",
+          "Tamale",
+          "Accra",
+          "Kumasi"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What was the primary reason why the British government insisted on holding a final general election in July 1956?",
+        options: [
+          "To choose a brand-new national flag and national anthem for the country",
+          "To settle the intense constitutional conflict between a centralized and a federal system of government",
+          "To elect representatives who would manage the local district assemblies",
+          "To decide whether the colony should remain under permanent British control"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which specific system of government did Ghana adopt under its 1957 Independence Constitution?",
+        options: [
+          "An absolute military dictatorship",
+          "A traditional federal system led by regional chiefs",
+          "A Westminster parliamentary system",
+          "A presidential republic with no ties to the British Crown"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Who served as the official representative of the British Monarch in Ghana, holding the position of Governor-General during the late 1950 transition years?",
+        options: [
+          "Major General Alexander Paley",
+          "Lord Listowel",
+          "Geoffrey Bing",
+          "Sir James Henley Coussey"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which prominent Ghanaian official held the vital portfolio of Minister of Finance, managing the new nation's economic budget between 1957 and 1960?",
+        options: [
+          "Komla Agbeli Gbedemah",
+          "Kojo Botsio",
+          "Krobo Edusei",
+          "Imoru Egala"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What major political milestone occurred in July 1960, officially ending the power-sharing arrangement with the British government?",
+        options: [
+          "Ghana returned to total British colonial rule",
+          "Ghana adopted a federal system under the NLM",
+          "Ghana officially became a fully sovereign Republic",
+          "Dr. Kwame Nkrumah resigned from active political life"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "C"
+    ),
   ],
 );
 
@@ -12199,55 +16695,55 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a biotic component of a forest?",
+        question: "1. Which part of the alimentary canal connects the mouth to the stomach?",
         options: [
-          "The sunlight",
-          "The damp soil",
-          "The fungi",
-          "The wind"
+          "Small intestine",
+          "Large intestine",
+          "Oesophagus",
+          "Pancreas"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fungi are living organisms, so they are biotic components of a forest ecosystem."
+        explanation: "C"
     ),
 
     IndependentPracticeQuestion(
-        question: "2. Which instrument is used to measure an abiotic factor?",
+        question: "2. What is the name of the enzyme found in saliva?",
         options: [
-          "A microscope",
-          "A rain gauge",
-          "A ruler",
-          "A calculator"
+          "Pepsin",
+          "Ptyalin",
+          "Insulin",
+          "Rennin"
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A rain gauge is used to measure rainfall, which is an abiotic factor."
+        explanation: "B"
     ),
 
     IndependentPracticeQuestion(
-        question: "3. Which abiotic factor is most important for a plant to make food?",
+        question: "3. In which organ is hydrochloric acid produced to help digestion?",
         options: [
-          "Large rocks",
-          "The sunlight",
-          "Small insects",
-          "Earthworms"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Plants need sunlight for photosynthesis to make their food."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
-        options: [
-          "A biotic factor",
-          "A living fish",
-          "An abiotic factor",
-          "A sea plant"
+          "The mouth",
+          "The liver",
+          "The stomach",
+          "The anus"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Salinity refers to the salt content of water, which is an abiotic factor."
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What happens to food in the small intestine?",
+        options: [
+          "It is chewed by teeth",
+          "Digestion is completed",
+          "It is turned into bolus",
+          "It is stored for days"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
     ),
   ],
 );
@@ -12255,55 +16751,55 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = Independ
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
+        question: "1. What is the final form of oils and fats after digestion is complete?",
         options: [
-          "Land rotation",
-          "Single cropping",
-          "Crop rotation",
-          "Bush burning"
+          "Amino acids",
+          "Simple sugars",
+          "Fatty acids and glycerol",
+          "Starch and fibre"
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Crop rotation helps maintain soil fertility naturally without depending on chemicals."
+        explanation: "C"
     ),
 
     IndependentPracticeQuestion(
-        question: "2. A farmer who wants to avoid water pollution should choose which system?",
+        question: "2. Which part of the body is primarily responsible for absorbing nutrients?",
         options: [
-          "Organic farming",
-          "Chemical farming",
-          "Land rotation",
-          "Single cropping"
+          "The mouth",
+          "Small intestine",
+          "The oesophagus",
+          "Large intestine"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Proteins are broken down into which of the following?",
+        options: [
+          "Glucose",
+          "Fatty acids",
+          "Saliva",
+          "Amino acids"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What do we call the tiny, finger-like projections that soak up food?",
+        options: [
+          "Villi",
+          "Teeth",
+          "Enzymes",
+          "Muscles"
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Organic farming avoids harmful chemicals that can pollute water sources."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "3. The primary merit of Mixed Cropping is:",
-        options: [
-          "Less work for the farmer",
-          "Reducing risk of crop failure",
-          "Using heavy machinery",
-          "Moving to a new forest"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Mixed cropping reduces the risk of total crop failure because different crops grow together."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. What is a demerit of Organic Farming?",
-        options: [
-          "It poisons the water",
-          "It is very labour-intensive",
-          "It uses too much land",
-          "It kills all the soil"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Organic farming often requires more manual labour and management."
+        explanation: "A"
     ),
   ],
 );
@@ -16926,6 +21422,692 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
   ],
 );
 
+final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the primary meaning of 'Reduce' in waste management?",
+        options: [
+          "Burning rubbish in a pit",
+          "Making less waste daily",
+          "Burying waste in the soil",
+          "Sorting waste into bins"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is an example of 'Reusing' an item?",
+        options: [
+          "Smashing a glass bottle",
+          "Buying a new plastic bag",
+          "Using a tin for a cup",
+          "Throwing paper in a bin"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is recycling metal scrap better than throwing it away?",
+        options: [
+          "It makes the scrap heavier",
+          "It creates new materials",
+          "It turns scrap into food",
+          "It hides waste from sight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which item is commonly recycled in Ghana to make bowls?",
+        options: [
+          "Dried plantain leaves",
+          "Used plastic sachets",
+          "Leftover banku food",
+          "Old wooden benches"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in managing waste in a new community?",
+        options: [
+          "Buying a truck",
+          "Conducting a survey",
+          "Burning all rubbish",
+          "Building a big fence"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is the best place to put a new rubbish bin?",
+        options: [
+          "Inside a dark forest",
+          "In a quiet bedroom",
+          "At a busy lorry station",
+          "Under a locked desk"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If you see \"pure water\" sachets everywhere, which \"R\" should you suggest to a recycling company?",
+        options: [
+          "Reducing oxygen",
+          "Reusing the air",
+          "Recycling the plastic",
+          "Removing the soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why should a student write a report after a clean-up?",
+        options: [
+          "To get more support",
+          "To waste more paper",
+          "To hide the results",
+          "To make people angry"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. What is \"Organic Waste\" primarily made of?",
+        options: [
+          "Old metal tins",
+          "Broken glass jars",
+          "Leftover food scraps",
+          "Plastic water bottles"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which symptom is most commonly associated with Measles?",
+        options: [
+          "Yellowing of the skin",
+          "Dark-coloured urine",
+          "Red spots on the face",
+          "Swelling of the legs"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the most effective way to prevent the spread of Measles in a community?",
+        options: [
+          "Washing hands often",
+          "Getting vaccinated",
+          "Eating more fruits",
+          "Sleeping under nets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does HIV impact the economy of Ghana?",
+        options: [
+          "It makes people work faster",
+          "It reduces the labour force",
+          "It builds more hospitals",
+          "It lowers the cost of food"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a way to prevent the transmission of Hepatitis?",
+        options: [
+          "Sharing a drinking cup",
+          "Using screened blood",
+          "Walking in the rain",
+          "Eating with friends"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is an environmental risk factor?",
+        options: [
+          "Not using soap",
+          "Sharing a towel",
+          "Blocked gutters",
+          "Eating late"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why is living far from a health clinic considered a risk factor?",
+        options: [
+          "People get bored",
+          "No vaccinations",
+          "The air is dusty",
+          "More rain falls"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which behaviour increases the risk of spreading HIV?",
+        options: [
+          "Shaking hands",
+          "Sharing razors",
+          "Eating together",
+          "Playing football"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which situation describes 'poor sanitation'?",
+        options: [
+          "Drinking tea",
+          "Rubbish heaps",
+          "Painting walls",
+          "Sweeping floors"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Bacteria are described as 'single-celled.' What does this mean?",
+        options: [
+          "They have many hearts",
+          "They live alone",
+          "One cell is the whole body",
+          "They only have one leg"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a common symptom of Food Poisoning?",
+        options: [
+          "Stiff neck",
+          "Stomach cramps",
+          "Yellow eyes",
+          "Hair loss"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. How does Meningitis bacteria usually enter a new person?",
+        options: [
+          "Through the air",
+          "Through dirty shoes",
+          "Through loud music",
+          "Through sunlight"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tool is needed to see a single bacterium?",
+        options: [
+          "Sunglasses",
+          "Magnifying glass",
+          "Microscope",
+          "Telescope"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which action is an example of individual prevention for food poisoning?",
+        options: [
+          "Building a hospital",
+          "Washing hands with soap",
+          "Passing a new law",
+          "Cleaning the town gutter"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the best way for a student to prevent Gonorrhoea?",
+        options: [
+          "Drinking clean water",
+          "Practising abstinence",
+          "Opening room windows",
+          "Wearing a face mask"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why does the government provide free Meningitis vaccines?",
+        options: [
+          "To make people sleep",
+          "To give nurses jobs",
+          "To create community immunity",
+          "To make the dust go away"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these helps manage the environment to reduce disease?",
+        options: [
+          "Leaving rubbish heaps",
+          "Clearing blocked gutters",
+          "Closing all windows",
+          "Sharing personal towels"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following best describes Science?",
+        options: [
+          "Building a new electric car",
+          "Improving a mobile phone app",
+          "Studying how lightning is formed",
+          "Selling solar panels in the market"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. When we use scientific knowledge to create a gadget like a digital camera, we are creating:",
+        options: [
+          "Technology",
+          "Innovation",
+          "Pure Science",
+          "Observation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Introducing a new method to deliver medical supplies to remote villages using drones is an example of:",
+        options: [
+          "Basic Science",
+          "Innovation",
+          "Experimentation",
+          "Data Collection"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are Science, Technology, and Innovation considered 'interrelated'?",
+        options: [
+          "They are exactly the same thing",
+          "They never work at the same time",
+          "They all depend on each other to work",
+          "Only scientists can use all three of them"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a modern advancement in the Ghanaian healthcare sector?",
+        options: [
+          "Using a wooden mortar",
+          "Magnetic Resonance Imaging (MRI)",
+          "Walking to the clinic",
+          "Writing notes with a pencil"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does 'Digital Communication' (like email) help the environment?",
+        options: [
+          "It makes the internet faster",
+          "It uses more electricity",
+          "It reduces the need for paper",
+          "It makes phones expensive"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is a major negative environmental impact of old computers?",
+        options: [
+          "They take up too much desk space",
+          "They leak toxic chemicals (E-waste)",
+          "They make too much noise",
+          "They help students learn science"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which Ghanaian energy source is considered an 'advancement' that is good for the environment?",
+        options: [
+          "Burning dried wood",
+          "Using diesel generators",
+          "Solar power plants",
+          "Using kerosene lamps"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the average period used to determine the climate of a place?",
+        options: [
+          "5 years",
+          "10 years",
+          "30 years",
+          "50 years"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a direct result of the melting of polar ice caps?",
+        options: [
+          "More bushfires",
+          "Higher sea levels",
+          "Better crop yields",
+          "Cooler night air"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A sudden heavy rainstorm in Kumasi that lasts for two hours is an example of:",
+        options: [
+          "Climate",
+          "Weather",
+          "Mitigation",
+          "Adaptation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. How does climate change affect the rainfall pattern in Ghana?",
+        options: [
+          "Rains become predictable",
+          "Rains happen every day",
+          "Rains become irregular",
+          "Rains stop completely"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which soil type feels very smooth when wet and can be easily moulded?",
+        options: [
+          "Sandy soil",
+          "Loamy soil",
+          "Clay soil",
+          "Rocky soil"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the term for the soil's ability to hold onto water?",
+        options: [
+          "Drainage",
+          "Texture",
+          "Retention",
+          "Erosion"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which soil is a mixture of sand, clay, and decayed organic matter?",
+        options: [
+          "Silt",
+          "Loam",
+          "Gravel",
+          "Mud"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why does water drain fastest through sandy soil?",
+        options: [
+          "Small particles",
+          "Large air spaces",
+          "Sticky texture",
+          "Dark colour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the process called when water moves into plant roots?",
+        options: [
+          "Evaporation",
+          "Osmosis",
+          "Digestion",
+          "Respiration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. The \"Soil Solution\" is a mixture of water and:",
+        options: [
+          "Large rocks",
+          "Dissolved nutrients",
+          "Plastic waste",
+          "Dry air"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What happens during \"Leaching\"?",
+        options: [
+          "Plants grow faster",
+          "Nutrients are washed away",
+          "Soil becomes stickier",
+          "Roots stop growing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which part of the plant is responsible for the most water absorption?",
+        options: [
+          "The leaves",
+          "The flowers",
+          "The root hairs",
+          "The stem"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs2s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which type of rock is formed from cooling lava or magma?",
+        options: [
+          "Sedimentary",
+          "Metamorphic",
+          "Igneous",
+          "Sandstone"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the process of breaking rocks into smaller pieces called?",
+        options: [
+          "Erosion",
+          "Weathering",
+          "Melting",
+          "Polishing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Marble is an example of which rock type?",
+        options: [
+          "Igneous",
+          "Metamorphic",
+          "Sedimentary",
+          "Volcanic"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When a rock changes because of acid in rainwater, it is called:",
+        options: [
+          "Physical weathering",
+          "Biological weathering",
+          "Chemical weathering",
+          "Rapid weathering"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+
 final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
@@ -19798,6 +24980,920 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = Independ
         correctIndex: 1,
         difficulty: "Easy",
         explanation: "The wooden handle is inserted into the socket of the hoe head during assembly."
+    ),
+  ],
+);
+
+final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following items is best suited for the composting process?",
+        options: [
+          "Empty tin of milk",
+          "Scraps of yam peels",
+          "Broken plastic ruler",
+          "Used rubber sachet"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary goal of the recycling process?",
+        options: [
+          "To burn waste for heat",
+          "To bury waste in a pit",
+          "To make new products",
+          "To wash waste for reuse"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In the process of composting, what causes the organic matter to break down?",
+        options: [
+          "High-pressure machines",
+          "Industrial melting heat",
+          "Action of microorganisms",
+          "Heavy rainfall and wind"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which material is considered 'inorganic' and should be sent for recycling rather than composting?",
+        options: [
+          "Dried plantain leaves",
+          "Rotten mango fruits",
+          "Leftover banku waste",
+          "Aluminum soda cans"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which principle is most essential for the success of a compost pit?",
+        options: [
+          "High-pressure compression",
+          "Biological decomposition",
+          "Chemical solidification",
+          "Nuclear transformation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. In incineration, what is the main result of applying high thermal energy to waste?",
+        options: [
+          "It turns into new plastic",
+          "It increases in total weight",
+          "It reduces in size and volume",
+          "It becomes edible for fish"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Recycling glass depends on the ability of the material to undergo:",
+        options: [
+          "A change in physical state",
+          "Permanent evaporation",
+          "Rapid biological rotting",
+          "Total color disappearance"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which of these is a 'worker' in the biological process of waste management?",
+        options: [
+          "Industrial incinerator",
+          "Sorting machine",
+          "Microorganism",
+          "Cooling fan"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these activities is a primary part of conducting a waste audit?",
+        options: [
+          "Burning all waste to see the smoke",
+          "Sorting waste into different categories",
+          "Throwing waste into a nearby stream",
+          "Buying new plastic bags for the bins"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If a waste management system is described as 'efficient,' it means that:",
+        options: [
+          "The bins are always broken",
+          "People ignore the waste rules",
+          "Waste is collected and processed on time",
+          "The rubbish smells very bad"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the main purpose of 'Sorting' during a waste audit?",
+        options: [
+          "To make the rubbish look beautiful",
+          "To identify the types of materials produced",
+          "To hide the waste from the headteacher",
+          "To find lost items in the bin"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. A challenge to waste management effectiveness in many Ghanaian communities is:",
+        options: [
+          "Having too many recycling factories",
+          "Lack of transport to move collected waste",
+          "People producing too little rubbish",
+          "Having too much rich soil for farms"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the scientific term for liquid chemicals draining from a waste pile into the ground?",
+        options: [
+          "Melting",
+          "Leaching",
+          "Evaporating",
+          "Composting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. How does waste in gutters contribute to flooding during the rainy season in Ghana?",
+        options: [
+          "It makes the water flow faster",
+          "It chokes the drains and blocks water",
+          "It turns the water into ice",
+          "It makes the rain fall harder"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which gas is released by rotting waste in landfills that contributes to global warming?",
+        options: [
+          "Oxygen",
+          "Methane",
+          "Nitrogen",
+          "Helium"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Open burning of municipal solid waste is harmful primarily because it:",
+        options: [
+          "Makes the ground too cold",
+          "Releases toxic fumes into the air",
+          "Turns waste into gold",
+          "Encourages plants to grow"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the 3Rs is being practiced when a shoemaker uses old car tyres to make the soles of sandals?",
+        options: [
+          "Reducing",
+          "Reusing",
+          "Rejecting",
+          "Rotting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the primary product of 'Anaerobic Digestion' that can be used as fuel?",
+        options: [
+          "Liquid plastic",
+          "Biogas",
+          "Solar energy",
+          "Metal scrap"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Sustainable development means managing waste so that:",
+        options: [
+          "We use up all the land for trash",
+          "Future generations can still enjoy a clean environment",
+          "We stop using all technology forever",
+          "We throw everything into the sea"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which innovative process uses extremely high heat to turn waste into a gas called 'syngas'?",
+        options: [
+          "Composting",
+          "Plasma Gasification",
+          "Landfilling",
+          "Hand sorting"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Old computers, broken televisions, and used charging cables are all examples of:",
+        options: [
+          "Organic Waste",
+          "Electronic Waste",
+          "Medical Waste",
+          "Industrial Waste"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major 'Positive' in Ghana's current waste management system?",
+        options: [
+          "Everyone throws trash in gutters",
+          "Private companies helping with collection",
+          "Having more flies in the market",
+          "Burning plastic in school yards"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why is 'sorting waste at home' currently a challenge in many Ghanaian households?",
+        options: [
+          "There is too much space for bins",
+          "Most people use a single bin for everything",
+          "Plastic is too heavy to carry",
+          "It makes the waste disappear too fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which category of waste includes food scraps and household packaging?",
+        options: [
+          "Industrial",
+          "Municipal/Domestic",
+          "Medical",
+          "Electronic"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following is a non-communicable disease?",
+        options: [
+          "Measles",
+          "Diabetes",
+          "Influenza",
+          "Chickenpox"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a common risk factor for developing hypertension?",
+        options: [
+          "Eating too much salt",
+          "Drinking clean water",
+          "Sleeping under a net",
+          "Washing hands often"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which symptom is specifically associated with diabetes mellitus?",
+        options: [
+          "A red, itchy skin rash",
+          "Frequent night urination",
+          "Coughing up thick blood",
+          "Pain in the fingernails"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. According to the WHO, health is a state of complete physical, mental, and...",
+        options: [
+          "Financial wealth",
+          "Social well-being",
+          "Academic success",
+          "Political power"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which of these is a common environmental disease in Ghana spread by mosquitoes?",
+        options: [
+          "Malaria",
+          "Tuberculosis",
+          "Hypertension",
+          "Diabetes"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. What is the most effective way to prevent the spread of Cholera?",
+        options: [
+          "Wearing a heavy jacket",
+          "Drinking treated water",
+          "Sleeping during the day",
+          "Eating only fried meat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the main cause of the infection known as Ringworm?",
+        options: [
+          "A small parasite worm",
+          "A type of fungus",
+          "Too much sunlight",
+          "Lack of vitamin C"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Where is Candidiasis most likely to cause white patches?",
+        options: [
+          "On the elbows",
+          "Inside the mouth",
+          "On the fingernails",
+          "Between the eyes"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which habit best prevents fungal infections of the feet?",
+        options: [
+          "Wearing heavy boots",
+          "Drying between toes",
+          "Walking in puddles",
+          "Sharing \"chalewote\""
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which process is used in the dairy industry to kill harmful bacteria in milk?",
+        options: [
+          "Fermentation",
+          "Pasteurisation",
+          "Evaporation",
+          "Malleability"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What gas is produced by yeast during the process of fermentation in bread making?",
+        options: [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which industry produces hoes, cutlasses, and coalpots?",
+        options: [
+          "Blacksmithing",
+          "Salt Industry",
+          "Dairy Industry",
+          "Bakery Industry"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The process of turning liquid sea water into solid salt crystals using the sun is called:",
+        options: [
+          "Homogenisation",
+          "Fermentation",
+          "Condensation",
+          "Evaporation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is the best definition of an \"Industry\"?",
+        options: [
+          "A single shop in the market",
+          "A group of firms making one product",
+          "A person who buys a lot of goods",
+          "A lorry that carries food to the city"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Indigenous industries in Ghana usually rely on:",
+        options: [
+          "Computer software",
+          "Large robotic arms",
+          "High-voltage electricity",
+          "Manual labour and simple tools"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of the following is a modern industry in Ghana?",
+        options: [
+          "Village palm oil pressing",
+          "Large-scale oil refining in Tema",
+          "Small-scale blacksmithing",
+          "Hand-weaving of Kente cloth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The main reason modern industries can produce more goods than indigenous ones is:",
+        options: [
+          "They have more workers",
+          "They use faster machines",
+          "They work only at night",
+          "They use older methods"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which process gives Kenkey its characteristic sour taste?",
+        options: [
+          "Saponification",
+          "Distillation",
+          "Fermentation",
+          "Evaporation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the purpose of roasting the Gari over a fire at the end of production?",
+        options: [
+          "To make it turn green",
+          "To add more water to it",
+          "To remove moisture (dehydration)",
+          "To make it grow bigger"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In \"Alata Samina\" production, what provides the alkali needed for the reaction?",
+        options: [
+          "Clear river water",
+          "Burnt cocoa pod or wood ash",
+          "Fresh palm fruit",
+          "Granulated white sugar"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which process is used to separate alcohol from a fermented mixture based on boiling points?",
+        options: [
+          "Saponification",
+          "Distillation",
+          "Filtration",
+          "Milling"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a natural cause of climate change?",
+        options: [
+          "Burning coal",
+          "Ocean currents",
+          "Using cars",
+          "Cutting trees"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main greenhouse gas released by burning petrol?",
+        options: [
+          "Carbon dioxide",
+          "Pure oxygen",
+          "Nitrogen gas",
+          "Liquid water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which action best describes a 'Green Economy'?",
+        options: [
+          "Using more wood fuel",
+          "Increasing factory smoke",
+          "Recycling plastic waste",
+          "Buying more petrol cars"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why are orbital changes considered natural factors?",
+        options: [
+          "People change the orbit",
+          "They happen in space",
+          "Factories cause them",
+          "They are very fast"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which Ghanaian region is home to a major solar power plant?",
+        options: [
+          "Greater Accra",
+          "Upper West",
+          "Central Region",
+          "Western North"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the name of the global agreement to stop the Earth from warming?",
+        options: [
+          "The Ghana Deal",
+          "The Paris Agreement",
+          "The Accra Accord",
+          "The Solar Treaty"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is a 'best practice' used by many countries to manage waste?",
+        options: [
+          "Burning plastic",
+          "Dumping in rivers",
+          "Recycling bottles",
+          "Burying old tyres"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why do countries compare their climate data?",
+        options: [
+          "To see who is richer",
+          "To learn what works",
+          "To stop all farming",
+          "To increase smoke"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of these is a common agricultural use for dried plant leaves?",
+        options: [
+          "Making metal hoes",
+          "Building tractor engines",
+          "Animal bedding (litter)",
+          "Creating plastic bags"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "C"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is the main agricultural benefit of 'nitrogen-fixing' roots found in beans?",
+        options: [
+          "They make the soil wetter",
+          "They improve soil fertility",
+          "They grow into farm tools",
+          "They produce more sunlight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A farmer uses the stem of a sugarcane plant to grow another sugarcane plant. This is called:",
+        options: [
+          "Soil erosion",
+          "Pest control",
+          "Animal feeding",
+          "Planting material"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "D"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which tree stem is commonly used in Ghana for making sturdy tool handles?",
+        options: [
+          "Rose flower",
+          "Wawa or Mahogany",
+          "Tomato plant",
+          "Water lily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which plant part is most commonly woven to create flexible chairs and baskets?",
+        options: [
+          "Soft flower petals",
+          "Rattan stems",
+          "Tiny seeds",
+          "Thick underground roots"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. What is a major non-agricultural use of plant roots in many Ghanaian communities?",
+        options: [
+          "Making tractor fuel",
+          "Traditional herbal medicine",
+          "Building metal bridges",
+          "Creating computer screens"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. In Ghana, why might a food vendor use large green leaves to wrap Waakye?",
+        options: [
+          "To make the food taste like meat",
+          "To provide natural packaging",
+          "To make the food heavier",
+          "To keep the food from getting hot"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Bamboo is often used in construction because its stem is:",
+        options: [
+          "Soft and easy to eat",
+          "Strong and durable",
+          "Invisible to the eye",
+          "Made of liquid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/6. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What is the first step in making a wooden handle for a farm tool?",
+        options: [
+          "Painting it bright red",
+          "Selecting a straight branch",
+          "Boiling it in sugar water",
+          "Planting it in the garden"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Why should rattan stems be soaked in water before weaving a basket?",
+        options: [
+          "To make them change colour",
+          "To make them flexible",
+          "To make them grow bigger",
+          "To wash away the leaves"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of these is the most important factor when sun-drying grass for hay?",
+        options: [
+          "Keeping the grass in the shade",
+          "Turning the grass regularly",
+          "Adding salt to the grass",
+          "Watering the grass daily"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "B"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. To create a bouquet that lasts, how should you cut the flower stems?",
+        options: [
+          "At a slanted angle",
+          "Using only your hands",
+          "At the very top (the flower)",
+          "Into very tiny pieces"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A"
     ),
   ],
 );

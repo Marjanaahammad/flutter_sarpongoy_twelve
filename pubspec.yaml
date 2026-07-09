@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.9+5
+version: 1.0.9+18
 
 environment:
   sdk: ^3.5.3
@@ -901,6 +901,215 @@ flutter:
     - assets/audio/science/JHS1 S5 SS5 L1/
     - assets/audio/science/JHS1 S5 SS5 L2/
     - assets/images/science/SCIENCE JHS1 S5 SS5 L2/
+    - assets/audio/science/JHS2 S5 SS1 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS1 L1/
+    - assets/audio/science/JHS2 S5 SS1 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS1 L2/
+    - assets/audio/science/JHS2 S5 SS2 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L1/
+    - assets/audio/science/JHS2 S5 SS2 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L2/
+    - assets/audio/science/JHS2 S5 SS2 L3/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L3/
+    - assets/audio/science/JHS2 S5 SS2 L4/
+    - assets/images/science/SCIENCE JHS2 S5 SS2 L4/
+    - assets/audio/science/JHS2 S5 SS3 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS3 L1/
+    - assets/audio/science/JHS2 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS3 L2/
+    - assets/audio/science/JHS2 S5 SS4 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS4 L1/
+    - assets/audio/science/JHS2 S5 SS5 L1/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L1/
+    - assets/audio/science/JHS2 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L2/
+    - assets/audio/science/JHS2 S5 SS5 L3/
+    - assets/images/science/SCIENCE JHS2 S5 SS5 L3/
+    - assets/audio/science/JHS3 S5 SS1 L1/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L1/
+    - assets/audio/science/JHS3 S5 SS1 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L2/
+    - assets/audio/science/JHS3 S5 SS1 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L4/
+    - assets/audio/science/JHS3 S5 SS1 L4/
+    - assets/audio/science/JHS3 S5 SS1 L5/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L5/
+    - assets/images/science/SCIENCE JHS3 S5 SS1 L6/
+    - assets/audio/science/JHS3 S5 SS1 L6/
+    - assets/audio/science/JHS3 S5 SS2 L1/
+    - assets/images/science/SCIENCE JHS3 S5 SS2 L1/
+    - assets/images/science/SCIENCE JHS3 S5 SS2 L2/
+    - assets/audio/science/JHS3 S5 SS2 L2/
+    - assets/audio/science/JHS3 S5 SS2 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS2 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS3 L1/
+    - assets/audio/science/JHS3 S5 SS3 L1/
+    - assets/audio/science/JHS3 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS3 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS3 L3/
+    - assets/audio/science/JHS3 S5 SS3 L3/
+    - assets/images/science/SCIENCE JHS3 S5 SS4 L1/
+    - assets/audio/science/JHS3 S5 SS4 L1/
+    - assets/audio/science/JHS3 S5 SS4 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS4 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L1/
+    - assets/audio/science/JHS3 S5 SS5 L1/
+    - assets/audio/science/JHS3 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L2/
+    - assets/images/science/SCIENCE JHS3 S5 SS5 L3/
+    - assets/audio/science/JHS3 S5 SS5 L3/
+    - assets/images/english/English_JHS1_S4_SS1_L1/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L1/
+    - assets/images/english/ENGLISH_JHS1_S4_SS1_L2/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L2/
+    - assets/images/english/ENGLISH_JHS1_S4_SS1_L3/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L3/
+    - assets/images/english/ENGLISH_JHS1_S4_SS1_L4/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L4/
+    - assets/images/english/ENGLISH_JHS1_S4_SS1_L5/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L5/
+    - assets/images/english/ENGLISH_JHS1_S4_SS1_L6/
+    - assets/audio/english/ENGLISH JHS1 S4 SS1 L6/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L1/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L1/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L2/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L2/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L3/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L3/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L4/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L4/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L5/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L5/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L6/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L6/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L7/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L7/
+    - assets/images/english/ENGLISH_JHS1_S4_SS2_L8/
+    - assets/audio/english/ENGLISH JHS1 S4 SS2 L8/
+    - assets/audio/english/ENGLISH JHS1 S4 SS3 L1/
+    - assets/images/english/ENGLISH_JHS1_S4_SS3_L1/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L1/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L2/
+    - assets/images/english/ENGLISH JHS1 S5 SS1 L3/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L1/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L2/
+    - assets/audio/english/ENGLISH JHS1 S5 SS1 L3/
+    - assets/images/english/ENGLISH JHS2 S4 SS1 L1/
+    - assets/audio/english/ENGLISH JHS2 S4 SS1 L1/
+    - assets/images/english/ENGLISH JHS2 S4 SS1 L2/
+    - assets/audio/english/ENGLISH JHS2 S4 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S4 SS1 L3/
+    - assets/audio/english/ENGLISH JHS2 S4 SS1 L3/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L1/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L1/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L2/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L2/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L3/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L3/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L4/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L4/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L5/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L5/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L6/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L6/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L7/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L7/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L8/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L8/
+    - assets/images/english/ENGLISH JHS2 S4 SS2 L9/
+    - assets/audio/english/ENGLISH JHS2 S4 SS2 L9/
+    - assets/audio/english/ENGLISH JHS2 S4 SS3 L1/
+    - assets/images/english/ENGLISH JHS2 S4 SS3 L1/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L1/
+    - assets/audio/english/JHS2 S5 SS1 L1/
+    - assets/audio/english/JHS2 S5 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L2/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L3/
+    - assets/audio/english/JHS2 S5 SS1 L3/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L4/
+    - assets/audio/english/JHS2 S5 SS1 L4/
+    - assets/audio/english/JHS2 S5 SS1 L5/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L5/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L6/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L6/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L7/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L7/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L8/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L8/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L9/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L9/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L10/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L10/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L11/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L11/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L12/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L12/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L13/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L13/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L14/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L14/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L15/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L15/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L16/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L16/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L17/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L17/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L18/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L18/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L19/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L19/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L20/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L20/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L21/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L21/
+    - assets/audio/english/ENGLISH JHS2 S5 SS1 L22/
+    - assets/images/english/ENGLISH JHS2 S5 SS1 L22/
+    - assets/audio/english/ENGLISH JHS3 S4 SS1 L1/
+    - assets/images/english/ENGLISH JHS3 S4 SS1 L1/
+    - assets/audio/english/ENGLISH JHS3 S4 SS1 L2/
+    - assets/images/english/ENGLISH JHS3 S4 SS1 L2/
+    - assets/images/english/ENGLISH JHS3 S4 SS1 L3/
+    - assets/audio/english/ENGLISH JHS3 S4 SS1 L3/
+    - assets/audio/english/ENGLISH JHS3 S4 SS1 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS1 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L1/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L1/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L2/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L2/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L3/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L3/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L5/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L5/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L6/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L6/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L7/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L7/
+    - assets/audio/english/ENGLISH JHS3 S4 SS2 L8/
+    - assets/images/english/ENGLISH JHS3 S4 SS2 L8/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L1/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L1/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L2/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L2/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L3/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L3/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L4/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L5/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L5/
+    - assets/audio/english/ENGLISH JHS3 S4 SS3 L6/
+    - assets/images/english/ENGLISH JHS3 S4 SS3 L6/
+    - assets/images/social_studies/social studies jhs1 s6 ss1 l1/
+    - assets/images/social_studies/social studies jhs1 s6 ss1 l4/
+    - assets/images/social_studies/social studies jhs1 s6 ss1 l2/
+    - assets/images/social_studies/social studies jhs1 s6 ss1 l3/
+    - assets/audio/social_studies/social studies jhs1 s6 ss1 l1/
+    - assets/audio/social_studies/social studies jhs1 s6 ss1 l2/
+    - assets/audio/social_studies/social studies jhs1 s6 ss1 l3/
+    - assets/audio/social_studies/social studies jhs1 s6 ss1 l4/
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

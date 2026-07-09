@@ -750,6 +750,393 @@ final PracticeModel s3ss3Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these two sentences using a reason conjunction: \"The pupils were happy. They won the inter-schools quiz.\"",
+      answer: "Correct Answer: The pupils were happy because they won the inter-schools quiz.",
+      explanation: "Explanation: We use 'because' to link the feeling (happiness) to the reason (winning the quiz).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a pronoun to replace the underlined word: \"Abena lost Abena's school bag at the station.\"",
+      answer: "Correct Answer: Abena lost her school bag at the station.",
+      explanation: "Explanation: 'Her' is the possessive pronoun that replaces the repetition of Abena's name.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which logical connector would you use to show a contrast between these two ideas? \"The sun was very bright. It was not warm.\"",
+      answer: "Correct Answer: However (or \"Nevertheless\").",
+      explanation: "Explanation: 'However' shows that the second part of the sentence is the opposite of what you might expect from the first part.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 ( 4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Improve this sentence using a 'sound' sense: \"The market was loud.\"",
+      answer: "Correct Answer: The market was filled with the deafening shouts of traders and the honking of tro-tros.",
+      explanation: "Explanation: By adding specific sounds like 'shouts' and 'honking', the reader can actually hear the scene.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which adjective gives a more 'dominant impression' of a hot day?",
+      answer: "Correct Answer: Scorching (or \"Blistering\").",
+      explanation: "Explanation: 'Scorching' describes the intensity of the heat much better than just saying it was 'very hot'.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If you are describing a person from 'top to bottom', what would you describe after their eyes?",
+      answer: "Correct Answer: Their nose or mouth.",
+      explanation: "Explanation: To follow a logical spatial order, you move to the next closest feature moving downwards.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which word best starts this story? \"_______, Kwame decided to visit his grandmother in the village.\"",
+      answer: "Correct Answer: First (or \"In the beginning\").",
+      explanation: "Explanation: We use 'First' to introduce the very first action in a sequence.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Combine these using 'when': \"The rain started. We ran into the classroom.\"",
+      answer: "Correct Answer: When the rain started, we ran into the classroom.",
+      explanation: "Explanation: 'When' links the time the rain began to the action of running.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What word shows that an event was a surprise? \"I was walking home. _______, a big black dog barked at me!\"",
+      answer: "Correct Answer: Suddenly.",
+      explanation: "Explanation: 'Suddenly' is used for unexpected events in a narrative.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Use a place clause to complete this: \"Put the fufu bowl _______.\"",
+      answer: "Correct Answer: Put the fufu bowl where the guests are sitting.",
+      explanation: "Explanation: 'Where' identifies the specific location for the action.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a clause of manner to improve this: \"Sweep the floor.\"",
+      answer: "Correct Answer: Sweep the floor the way mother taught you.",
+      explanation: "Explanation: 'The way' explains how the sweeping should be performed.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the best word to start the final step of a recipe?",
+      answer: "Correct Answer: Finally.",
+      explanation: "Explanation: 'Finally' signals to the reader that they have reached the end of the sequence.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which word adds a second reason to this argument? \"Trees provide shade for students. _______, they make the school look beautiful.\"",
+      answer: "Correct Answer: Moreover (or \"Furthermore\" / \"In addition\").",
+      explanation: "Explanation: 'Moreover' is a logical connector used to add a supporting idea to an existing point.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a concessive word to show the other side: \"_______ planting trees takes effort, the benefits last for many years.\"",
+      answer: "Correct Answer: Although (or \"Even though\").",
+      explanation: "Explanation: 'Although' introduces a point that might seem like a reason not to do something, before you explain why you should do it anyway.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What word links the problem to the final result? \"Trees reduce the heat in our classrooms; _______, we will be able to concentrate better.\"",
+      answer: "Correct Answer: Therefore (or \"Consequently\").",
+      explanation: "Explanation: 'Therefore' shows the logical result of the previous statement.",
+    ),
+  ],
+);
+final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What should go at the very top of a notice about a football match?",
+      answer: "Correct Answer: MThe Heading (e.g., NOTICE: FOOTBALL MATCH).",
+      explanation: "Explanation: The heading tells the reader exactly what the text is about before they read the details.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a formal synonym for 'start' in this sentence: \"The exams will _______ at 8:00 AM.\"",
+      answer: "Correct Answer: Commence (or \"Begin\").",
+      explanation: "Explanation: 'Commence' is a formal synonym that makes the notice sound professional.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Where should the 'Venue' be placed in a notice?",
+      answer: "Correct Answer: In the main body, along with the Date and Time.",
+      explanation: "Explanation: Essential details like the location (Venue) must be easy to find in the middle of the notice.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Write a catchy title for an advertisement for a new school bag called the \"JHS Pro-Pack.\"",
+      answer: "Correct Answer: \"Carry Your Dreams with the JHS Pro-Pack!\"",
+      explanation: "Explanation: This title is effective because it uses a bold, positive verb (\"Carry\") and links the product to a student's aspirations.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Rewrite the following boring sentence into a persuasive one using an imperative and an adjective: \"This fan works well.\"",
+      answer: "Correct Answer: \"Stay cool today with this powerful, silent fan!\"",
+      explanation: "Explanation: 'Using \"Stay cool\" acts as a command (imperative), and \"powerful\" and \"silent\" are descriptive adjectives that make the product more appealing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Create a rhetorical question to persuade parents to buy a specific brand of vitamins for their children.",
+      answer: "Correct Answer: \"Don't your children deserve the best start to their day?\"",
+      explanation: "Explanation: This question appeals to the parents' emotions and makes them feel that buying the vitamins is the right choice for their children's health.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Look at these steps for washing a car: 1. Dry the car with a cloth. 2. Scrub the car with soapy water. 3. Rinse the car with clean water. What is wrong with this sequence?",
+      answer: "Correct Answer: The steps are in the wrong order. You must scrub and rinse before you dry.",
+      explanation: "Explanation: In a process, the logical flow is essential. Drying is always the final step.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Provide a specific noun phrase to replace the word 'thing' in this sentence: \"Use the thing to stir the banku.\"",
+      answer: "Correct Answer: Use the wooden spatula (banku 'ta').",
+      explanation: "Explanation: Using precise nouns helps the reader identify the correct tool for the task.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Add a connector of sequence to this instruction: \"________, pour the hot water into the mug containing the cocoa powder.\"",
+      answer: "Correct Answer: Next / Then / Afterwards.",
+      explanation: "Explanation: Connectors show the reader that one action follows another in a specific order.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where should you place your address on the paper?",
+      answer: "Correct Answer: In the top right-hand corner.",
+      explanation: "Explanation: This is the standard position for the writer's address in an informal letter.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is a more appropriate salutation for a letter to your best friend: \"Dear Sir\" or \"Dearest Akosua\"?",
+      answer: "Correct Answer: Dearest Akosua.",
+      explanation: "Explanation: \"Dear Sir\" is formal. Informal letters use the person's first name or a term of endearment.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Write a short opening sentence for the body of the letter thanking your auntie for the 100 Cedis.",
+      answer: "Correct Answer: \"Thank you so much for the 100 Cedis you sent for my birthday; I was so happy to receive it!\"",
+      explanation: "Explanation: An informal opening should be warm and directly address the reason for writing.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where do you place the address of the Bank Manager?",
+      answer: "Correct Answer: On the left-hand side, below the level of the writer's date.",
+      explanation: "Explanation: This distinguishes the recipient from the sender in a formal layout.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is the most appropriate Heading for this letter?",
+      answer: "Correct Answer: REQUEST FOR A GUIDED TOUR OF THE BANK",
+      explanation: "Explanation: A heading should be short, clear, and summarized in capital letters or underlined.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite this informal sentence to be formal: \"I want to come to the bank with my friends.\"",
+      answer: "Correct Answer: \"Thank you so much for the 100 Cedis you sent for my birthday; I was so happy to receive it!\"",
+      explanation: "Explanation: Formal writing uses \"request permission\" instead of \"I want\" and avoids informal words like \"friends\" when referring to a class group.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: The capital city of Ghana is Accra. It is a coastal city known for its busy markets like Makola and its beautiful beaches. What is the main heading and one key point for these notes?",
+      answer: "Correct Answer: Heading: Accra. Key Point: Coastal city with busy markets (e.g., Makola).",
+      explanation: "Explanation: The heading identifies the subject, and the key point summarizes the specific details without using unnecessary words.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Question: You are listening to a radio doctor say: \"To stay healthy, you must drink at least eight glasses of water daily, exercise for thirty minutes, and eat plenty of fruits.\" Create a mnemonic to remember these three things.",
+      answer: "Correct Answer: W.E.F. (Water, Exercise, Fruit).",
+      explanation: "Explanation: Mnemonics use the first letter of each point to create a simple trigger for your memory.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. Question: If you are taking notes on a process like 'How to make Gari,' what is the best way to record and represent the steps?",
+      answer: "Correct Answer: Using a flow chart or a numbered list.",
+      explanation: "Explanation: Processes involve a sequence, so arrows or numbers show the order of the actions clearly.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What should be the biggest piece of text on your poster?",
+      answer: "Correct Answer: CEDI-A-DAY FUNDRAISER.",
+      explanation: "Explanation: The main event or purpose should always be the most prominent text to catch the viewer's attention.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Question: You forgot to put the 'Venue' on a notice about a library meeting. Why is this a major problem?",
+      answer: "Correct Answer: Students will not know where to go to attend the meeting.",
+      explanation: "Explanation: Without a location (Venue), the interested audience cannot take action.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite this boring sentence to be more 'poster-ready': \"We are going to clean the school field on Saturday at 8 am.\"",
+      answer: "Correct Answer: SCHOOL CLEAN-UP! Saturday | 8 AM | School Field.",
+      explanation: "Explanation: Using short fragments and bold headers makes the information much easier to scan quickly.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What would be an appropriate Headline for this article?",
+      answer: "Correct Answer: Digital Skills: Why JHS Students Need Computers Now!",
+      explanation: "Explanation: A good headline is bold, relevant, and mentions the main topic (computers and students).",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Question: You found two facts: 1. Computers help with research. 2. Many jobs now require computer skills. Which Body Paragraph should these go into?",
+      answer: "Correct Answer: A paragraph about the 'Benefits of Computer Literacy.'",
+      explanation: "Explanation: Sorting ideas helps you group similar facts under a single theme.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. Question: If you are writing for a blog, how should your writing style change compared to a formal report?",
+      answer: "Correct Answer: It should be slightly more conversational and might include links or images.",
+      explanation: "Explanation: Digital media like blogs often allow for a more direct and interactive style than traditional printed reports.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Fuseini says: \"Hello Sana. I hope you are having a very good afternoon. I wanted to ask you how the Integrated Science test went for you today.\" How can we make this briefer and more impactful?",
+      answer: "Correct Answer: \"Sana! How was the Science test? Was it tough?\"",
+      explanation: "Explanation: Cutting out formal greetings and long sentences makes the dialogue sound more like a real student's conversation.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Question: Where should the question mark go in this sentence? \"Are you coming to the canteen\" asked Esi.",
+      answer: "Correct Answer: Inside the speech marks: \"Are you coming to the canteen?\" asked Esi.",
+      explanation: "Explanation: Punctuation marks that belong to the spoken sentence stay within the quotation marks.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. Question: Give Fuseini a \"unique voice\" by adding a piece of local Ghanaian slang to his response about the test.",
+      answer: "Correct Answer: \"Chale, that last question nearly killed me!\"",
+      explanation: "Explanation: Using \"Chale\" makes the dialogue feel culturally authentic and appropriate for a Ghanaian student.",
+    ),
+  ],
+);
+final PracticeModel s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You are looking at a chart titled \"JHS 1 Enrollment in Accra, 2023.\" What is the first thing you should record as your source information?",
+      answer: "Correct Answer: The title \"JHS 1 Enrollment in Accra\" and the date \"2023.\"",
+      explanation: "Explanation: Source information must include the title and the date to show where and when the data is from.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Question: If you see a table showing that \"Student A\" scored 90% and \"Student B\" scored 50%, write a sentence that makes a connection between these two points.",
+      answer: "Correct Answer: Student A scored forty percent higher than Student B in the assessment.",
+      explanation: "Explanation: Organizing ideas involves writing sentences that accurately compare or describe the relationship between data points.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. Question: You have too much information from a large table about cocoa production in the Western Region. What should you do to make your report clear?",
+      answer: "Correct Answer: Identify and select only the key ideas that are most important.",
+      explanation: "Explanation: To organize data effectively, you must select the most relevant key ideas rather than using everything.",
+    ),
+  ],
+);
+
+final PracticeModel s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. In a story, a boy named Kwesi finds a lost wallet at the Kotoka International Airport. He spends the afternoon searching for the owner and finally returns it to a grateful traveler.\n"
+          "Question: What is the setting of this story?",
+      answer: "Correct Answer: The setting is the Kotoka International Airport during the afternoon.",
+      explanation: "Explanation: The setting must include both the place (the airport) and the time (afternoon).",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. In the play *The Marriage of Anansewa*, Ananse creates a clever plan to marry his daughter to several chiefs at once to get their gifts.\n"
+          "question: Who is the protagonist in this scenario?",
+      answer: "Correct Answer: The protagonist is Ananse.",
+      explanation: "Explanation: Ananse is the main character whose actions and plans drive the entire story forward.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. A village is suffering from a long drought. The elders decide to perform a traditional rain dance. After the dance, the clouds gather and rain finally falls, saving the crops.\n"
+          "Question: Describe the plot of this scenario in one sentence.",
+      answer: "Correct Answer: The plot is about a village performing a rain dance to end a drought and successfully bringing the rain.",
+      explanation: " Explanation: The plot summarizes the main events of the story in the order they happen.",
+    ),
+  ],
+);
+final PracticeModel s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. The marketplace was a beehive of activity. \n"
+          "Question: Is this a simile or a metaphor?",
+      answer: "Correct Answer: Metaphor.",
+      explanation: "Explanation: It compares the market to a beehive directly without using \"like\" or \"as.\"",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. Busy Bukari bought big baskets. \n"
+          "Question: Which sound device is being used here?",
+      answer: "Correct Answer: Alliteration.",
+      explanation: "Explanation: The \"B\" sound is repeated at the beginning of almost every word.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. The moon smiled down on the sleeping village.\n"
+          "Question: What literary device is used to describe the moon?",
+      answer: "Correct Answer: Personification.",
+      explanation: "Explanation: Smiling is a human action given to the moon.",
+    ),
+  ],
+);
+final PracticeModel s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. A storyteller tells a group of children about why the Hippo has no hair. The story ends by saying we should not be greedy. \n"
+          "Question: Is this a myth, a legend, or a folktale?",
+      answer: "Correct Answer: Folktale.",
+      explanation: "Explanation: It features animal characters and teaches a clear moral lesson.",
+    ),
+
+    PracticeQuestion(
+      scenario: "2. During a funeral in a village in the Volta Region, a group of women sings a slow, sad song about the life of the person who passed away.\n"
+          "Question: What type of oral poetry is this?",
+      answer: "Correct Answer: A Dirge.",
+      explanation: "Explanation: Dirges are specifically performed at funerals to express mourning and honor the dead.",
+    ),
+
+    PracticeQuestion(
+      scenario: "3. During the Akwasidae festival, a linguist recites a long poem praising the bravery and kindness of the Asantehene.\n"
+          "Question: What is the function of this poem?",
+      answer: "Correct Answer: A Praise Song.",
+      explanation: "Explanation: The poem’s function is to honor and celebrate a leader's character and lineage.",
+    ),
+  ],
+);
+
 final PracticeModel jhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/5. Guided Practice.m4a',
   questions: [
@@ -1359,6 +1746,711 @@ final PracticeModel jhs2s3ss3Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel jhs2s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/4.Guidance Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these sentences using a time connector: \"The bell rang. The students ran to the canteen.\"",
+      answer: "Correct Answer: When the bell rang, the students ran to the canteen.",
+      explanation: "Explanation: Using \"When\" at the start links the time of the bell ringing to the action of the students.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Use a pronoun to make this better: \"Ekow found a lost wallet. Ekow took the wallet to the police station.\"",
+      answer: "Correct Answer: Ekow found a lost wallet and he took it to the police station.",
+      explanation: "Explanation: Replacing the second \"Ekow\" with \"he\" and \"the wallet\" with \"it\" makes the sentence smoother.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Combine these using a contrast connector: \"It was very hot. The farmers continued to work.\"",
+      answer: "Correct Answer: Although it was very hot, the farmers continued to work.",
+      explanation: "Explanation: \"Although\" shows that the work continued despite the heat.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/4.GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If your topic is \"The Benefits of Regular Exercise,\" write a \"Fact\" hook.",
+      answer: "Correct Answer: Research shows that just thirty minutes of walking every day can make your heart much stronger.",
+      explanation: "Explanation: This is a factual statement that introduces the health benefits of the topic immediately.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Rewrite these sentences in a logical sequence: 1. It provides us with food. 2. Agriculture is the most important sector in Ghana. 3. It also employs many people.",
+      answer: "Correct Answer: Agriculture is the most important sector in Ghana. It provides us with food, and it also employs many people.",
+      explanation: "Explanation: Starting with the general statement (the topic) and following with specific reasons creates a logical flow.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a connector to link these: \"Many people love plastic bags. They are very harmful to our gutters.\"",
+      answer: "Correct Answer: Many people love plastic bags; however, they are very harmful to our gutters.",
+      explanation: "Explanation: \"However\" is used here to show the contrast between the popularity of the bags and their harm.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/4.Guidance Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Expand this sentence using a relative clause starting with 'who': \"The teacher is very happy.\"",
+      answer: "Correct Answer: The teacher who helped me with my maths is very happy.",
+      explanation: "Explanation: The clause \"who helped me with my maths\" identifies exactly which teacher we are talking about.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Add an adjectival phrase to describe the noun 'man': \"The man sat down.\"",
+      answer: "Correct Answer: The man with the blue hat sat down.",
+      explanation: "Explanation: \"With the blue hat\" is an adjectival phrase because it describes the man.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use an adverbial phrase to explain how the student walked: \"The student walked.\"",
+      answer: "Correct Answer: The student walked in a very quiet manner.",
+      explanation: "Explanation: \"In a very quiet manner\" tells us how the action of walking was performed.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite the following sentence using the first-person point of view and add one descriptive adjective: \"The boy walked to the river.\"",
+      answer: "Correct Answer: I walked to the sparkling river.",
+      explanation: "Explanation: By changing \"The boy\" to \"I,\" we use the first-person point of view. Adding \"sparkling\" provides a descriptive detail.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You are writing about a trip to the Mole National Park. Use a connector and an adverb to describe seeing an elephant.",
+      answer: "Correct Answer: Suddenly, the elephant moved gracefully through the trees.",
+      explanation: "Explanation: \"Suddenly\" is a connector showing a sequence/timing, and \"gracefully\" is an adverb describing the action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give an example of direct speech you might use in a story about winning a school prize.",
+      answer: "Correct Answer: My headmaster said, \"Congratulations on your hard work!\"",
+      explanation: "Explanation: This uses quotation marks and the exact words spoken to add interest and variety.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Use an adjective and a prepositional phrase to improve this sentence: \"The bus stood.\"",
+      answer: "Correct Answer: The dusty bus stood under the shady neem tree.",
+      explanation: "Explanation: \"Dusty\" is an adjective describing the bus, and \"under the shady neem tree\" is a prepositional phrase describing the location.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this sentence to include an adverb that describes a sound: \"I heard the drums.\"",
+      answer: "Correct Answer: I heard the drums beating thunderously.",
+      explanation: "Explanation: \"Thunderously\" is an adverb that provides a sensory (sound) detail about how the drums were beating.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a sensory word to describe the taste of a Ghanaian snack.",
+      answer: "Correct Answer: The spicy kalami was very hot on my tongue.",
+      explanation: "Explanation: \"Spicy\" is a sensory adjective that describes the sense of taste.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the imperative verb in this sentence: \"Go to the market and get your fresh yams now!\"",
+      answer: "Correct Answer: Go (or Get)",
+      explanation: "Explanation: Imperative verbs are bossy words that give a command. \"Go\" and \"Get\" tell the reader what action to take.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Write a selling point for a brand of Ghanaian chocolate.",
+      answer: "Correct Answer: \"Our chocolate is made from the finest hand-picked cocoa beans.\"",
+      explanation: "Explanation: A selling point highlights a specific benefit or quality that makes the product better than others.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Change this statement into a rhetorical question for an ad about a school bag: \"You need a strong bag.\"",
+      answer: "Correct Answer: \"Don't you deserve a bag that never breaks?\"",
+      explanation: "Explanation: A rhetorical question engages the reader's mind without expecting a verbal answer.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the \"Issue\" and a possible \"Solution\" for the library problem.",
+      answer: "Correct Answer: Issue: Lack of books. Solution: Organize a \"Book Donation Drive\" where students bring old storybooks from home.",
+      explanation: "Explanation: The issue is the specific problem, and the solution is a practical action to fix it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is a \"Book Donation Drive\" considered cost-effective?",
+      answer: "Correct Answer: It is cost-effective because the books are donated for free, so the school doesn't have to spend money.",
+      explanation: "Explanation: Cost-effective means achieving a goal without spending a lot of money.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give one logical argument why having more books will help the school.",
+      answer: "Correct Answer: More books will help students improve their reading skills and perform better in English exams.",
+      explanation: "Explanation: This is a logical benefit that supports why the solution is important.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Where do you place the date in a formal letter?",
+      answer: "Correct Answer: Directly below your own address on the right side.",
+      explanation: "Explanation: In British English formal letters, the date follows your address to show when the letter was written.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Create a \"Subject Line\" for an email applying for a position as a library assistant.",
+      answer: "Correct Answer: APPLICATION FOR THE POSITION OF LIBRARY ASSISTANT.",
+      explanation: "Explanation: A subject line should be brief, capitalized, and state the purpose of the communication clearly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Look at an ad showing a happy student with a brand new backpack. What is the \"implied\" message?",
+      answer: "Correct Answer: If you buy this backpack, you will be a happy and successful student.",
+      explanation: "Explanation: The implied message is the emotional promise or suggestion that isn't stated in words.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What would be a catchy, eye-catching headline for this club's flyer?",
+      answer: "Correct Answer: \"SPEAK YOUR ROOTS: JOIN THE LANGUAGES CLUB!\"",
+      explanation: "Explanation: A good headline is bold, uses a slogan, and clearly states what the flyer is about.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: List two benefits students might get from joining this club.",
+      answer: "Correct Answer: 1. Learn to write your mother tongue perfectly. 2. Make new friends from different regions.",
+      explanation: "Explanation: Benefits explain why the audience should care or participate.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What contact information should be at the bottom of the flyer?",
+      answer: "Correct Answer: \"See Mr. Mensah in Room 4 or call 050-123-4567.\"",
+      explanation: "Explanation: A flyer must tell people exactly where to go or who to contact for more info.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you are writing for a school magazine, who is your primary audience?",
+      answer: "Correct Answer: The students and teachers of the school.",
+      explanation: "Explanation: The audience is the group of people who will read your work. For a school magazine, this includes your peers and school staff.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You found an interesting fact about a local nurse's career in a book and on a website. What type of resources did you use?",
+      answer: "Correct Answer: Print and electronic resources.",
+      explanation: "Explanation: Books are print resources, while websites are electronic resources.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a T-chart to link the main idea \"Career Day was successful\" with one supporting detail.",
+      answer: "Correct Answer: Main Idea: Career Day was successful. Detail: Over ten different professionals, including a pilot and a doctor, came to speak to us.",
+      explanation: "Explanation: The detail provides specific evidence that proves the main idea is true.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How should you write the names and the punctuation for Kwesi and Mrs. Appiah?",
+      answer: "Correct Answer: KWESI: and MRS. APPIAH:",
+      explanation: "Explanation: Names go on the left followed by a colon.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Mrs. Appiah is supposed to be smiling while she talks, how do you write that instruction?",
+      answer: "Correct Answer: (Smiling) or (Smiling broadly)",
+      explanation: "Explanation: Instructions on how to act or feel go inside brackets.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why do we \"sketch a scenario\" before starting the dialogue?",
+      answer: "Correct Answer: To describe the setting and what is happening so the reader understands the context.",
+      explanation: "Explanation: A scenario sets the stage for the conversation.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss2Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What should you include in your \"Introduction\" for a speech about the forest?",
+      answer: "Correct Answer: A greeting and a statement about what you are going to talk about.",
+      explanation: "Explanation: The introduction sets the stage and tells the audience your topic.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Give an example of an \"emotional appeal\" you could use for this speech.",
+      answer: "Correct Answer: \"Imagine the birds and animals losing their homes forever if we cut down these trees.\"",
+      explanation: "Explanation: This appeals to the audience's feelings and empathy.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main job of the \"Conclusion\"?",
+      answer: "Correct Answer: To tell the audience what you told them and summarize your points.",
+      explanation: "Explanation: The conclusion reinforces your message and brings the speech to a close.",
+    ),
+  ],
+);
+final PracticeModel jhs2s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/4. GUIDED PRACTICE.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Data: A map of Ghana shows three major hospitals in the Greater Accra Region but only one in a specific rural district.\n"
+      "Task: Write a sentence arguing for more rural healthcare using this data.",
+      answer: "Correct Answer: The map shows that rural districts have fewer hospitals than Accra, so we need more rural clinics.",
+      explanation: "Explanation: This answer correctly interprets the map's comparison and uses it to support an opinion about healthcare.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Data: A table shows the price of maize is 10 Cedis in January and 25 Cedis in June.\n"
+      "Task: Use this to explain when a farmer earns more.",
+      answer: "Correct Answer: According to the price table, a farmer earns more in June because the price of maize rises to 25 Cedis.",
+      explanation: "Explanation: This uses the specific data points from the table to support a factual conclusion.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Data: A graph shows that students who sleep 8 hours get better grades than those who sleep 5 hours.\n"
+      "Task: Write a piece of advice for a friend.",
+      answer: "Correct Answer: You should sleep more because the graph indicates that 8 hours of sleep leads to better grades.",
+      explanation: "Explanation: This connects the visual evidence (the graph) directly to the advice given.",
+    ),
+  ],
+);
+
+final PracticeModel jhs2s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi and Amma are siblings who are supposed to clean their large compound before school. They spend the whole morning arguing about who should sweep which side, and eventually, neither of them finishes. How does this relate to the \"single stick\" in the story?",
+      answer: "Correct Answer: By arguing and working separately, Kofi and Amma are like the single sticks that are easily broken. They failed their task because they lacked the strength of the \"bundle\" or unity.",
+      explanation: "Explanation: When people fight instead of cooperating, they become weak and fail to achieve their goals, just like the individual sticks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a group of students in a JHS class decides to contribute 2 Cedis each to buy a new football for the school, rather than one person trying to pay the whole amount, which literary theme are they demonstrating?",
+      answer: "Correct Answer: They are demonstrating the theme of Unity and Cooperation.",
+      explanation: "Explanation: By pooling their resources together, they achieve a goal that would be too \"heavy\" or difficult for one person alone.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Imagine the \"Old Man\" lived in a modern town in Ghana today. Instead of sticks, what is another local object he could use to teach the same lesson?",
+      answer: "Correct Answer: He could use a broom (sapre).",
+      explanation: "Explanation: A single broomstraw is easy to snap, but a whole broom tied together is used to sweep the entire yard without breaking.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If the poet says that God is like the \"wind\" or the \"air,\" how does this support his argument about the colour of God?",
+      answer: "Correct Answer: Wind and air have no colour and are everywhere at once. This supports the idea that God is universal and cannot be trapped in one physical appearance or skin colour.",
+      explanation: "Explanation: By comparing God to something invisible but essential, the poet shows that God's essence is more important than physical looks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a school with students from many different tribes and countries, a student says, \"God only listens to prayers in my language.\" How would the poet V. B. Aakye respond to this?",
+      answer: "Correct Answer: The poet would disagree, saying that God is universal and understands every language, just as He is the colour of all people.",
+      explanation: "Explanation: The poem promotes the idea that God is not restricted by human boundaries like language or race.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the poet use different \"stanzas\" to talk about different types of people instead of putting it all in one long paragraph?",
+      answer: "Correct Answer: In poetry, stanzas help to separate different ideas or perspectives, making the argument easier to follow.",
+      explanation: "Explanation: Each stanza acts as a building block for the poet's final message of unity.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Ananse refers to his daughter, Anansewa, as an \"object for investment.\" What does this tell us about Ananse's character at the beginning of the play?",
+      answer: "Correct Answer: It shows that Ananse is being greedy and selfish. He is looking at his daughter as a way to make money rather than as a person with her own feelings.",
+      explanation: "Explanation: Using the word \"investment\" for a human being highlights the satirical point that some people value money over family.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: During the play, the Storyteller stops the action to lead the audience in a song. Why is this technique used in Anansegoro?",
+      answer: "Correct Answer: This is called Mboguo. It is used to involve the audience, provide a break in the tension, or comment on what Ananse is doing.",
+      explanation: "Explanation: Traditional Ghanaian drama is interactive; it’s not just about watching, but about participating.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If Anansewa finds out about her father's plan and pretends to be dead to help him escape the four Chiefs, how does this change the \"power\" in the story?",
+      answer: "Correct Answer: It shows that Anansewa is also clever and is now working with her father, shifting the story from Ananse controlling her to them working as a team.",
+      explanation: "Explanation: In drama, when characters start working together to solve a conflict, it leads to the resolution of the plot.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Nana spent a lot of time talking about Adjoa’s \"spindly\" legs. What does this tell us about how Nana judged people?",
+      answer: "Correct Answer: Nana judged people based on their physical appearance and how well they fit into traditional roles, rather than their actual talents or potential.",
+      explanation: "Explanation: Nana's focus on the legs shows she had a narrow view of what makes a person valuable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does Adjoa’s success in the race change Nana’s behaviour?",
+      answer: "Correct Answer: Nana stops complaining and starts showing pride in Adjoa. She even carries Adjoa's trophy as if it were her own.",
+      explanation: "Explanation: Success and proof of ability are often the best ways to change a person's biased mind.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is it important that the story is told by Adjoa (first-person) and not by Nana?",
+      answer: "Correct Answer: Telling it from Adjoa's view helps the reader feel her innocence and see how unfair the adults' comments are. It makes us support her more.",
+      explanation: "Explanation: Point of view changes how we feel about the characters and the conflict.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the poem, the water is described as \"hidden from the sun.\" Why is this an important detail for the poem's message?",
+      answer: "Correct Answer: It shows that our most valuable traits are not always on display for everyone to see immediately. They are private and deep.",
+      explanation: "Explanation: Just as the sun cannot see the underground water, people cannot always see your inner thoughts and talents.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a person is \"digging a well\" in this poem, what does that represent in real life?",
+      answer: "Correct Answer: It represents the hard work, education, and practice needed to bring your hidden talents to the surface.",
+      explanation: "Explanation: Talents usually require effort (digging) to be fully realized and shared with others.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: The poet, Lade Wosornu, is both a doctor and a writer. How does his \"other\" job as a surgeon help him write a poem about things hidden beneath the surface?",
+      answer: "Correct Answer: As a surgeon, he works with what is inside the human body, so he understands that what is invisible from the outside is often the most important part.",
+      explanation: "Explanation: His medical background likely influences his perspective on looking deeper than just the surface of a person.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If someone says, \"God must be Black because the first humans were in Africa,\" how would the poet V. B. Aakye respond based on this poem?",
+      answer: "Correct Answer: The poet would say that God is a spirit and does not have a physical skin colour, so He is neither Black nor White, but belongs to everyone.",
+      explanation: "Explanation: The poem's main goal is to move beyond physical descriptions to spiritual universality.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify one \"Rhetorical Question\" the poet might use to make us think about God’s nature.",
+      answer: "Correct Answer: \"Is God not the creator of all colours?\" (or a similar question asking about God's role in creating diversity).",
+      explanation: "Explanation: A rhetorical question prompts the reader to reach a conclusion on their own.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the rose is mentioned. How does a flower help explain the \"colour\" of God?",
+      answer: "Correct Answer: A flower is beautiful regardless of its colour. Just as we enjoy roses of different colours, we should see God's beauty in all different types of people.",
+      explanation: "Explanation: The poet uses nature to show that variety is part of God's design.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: The poet describes the dream as being \"stifled.\" What does this word suggest about what happens to an idea when we don't act on it?",
+      answer: "Correct Answer: It suggests that the idea is being \"suffocated\" or \"choked.\" Without action, the idea loses its life and energy until it disappears.",
+      explanation: "Explanation: Stifling is a strong word used to show that procrastination is actually harmful to our creativity.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the Scribbler finally picks up his pen and starts writing, even if he is tired, which theme is he practicing?",
+      answer: "Correct Answer: He is practicing the theme of Action or Diligence. He is overcoming procrastination to bring his dream to life.",
+      explanation: "Explanation: The opposite of procrastination is taking immediate action, which is what the poet wants.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the poet mentions \"the clouds\" or \"the wind\" to show how things can change. Why does nature often appear in Darmani's poetry to explain human feelings?",
+      answer: "Correct Answer: Nature moves and changes constantly. By using nature, the poet shows that time doesn't wait for anyone, just like the wind doesn't stop blowing.",
+      explanation: "Explanation: Poets use nature to make abstract ideas like \"time\" feel real and visible.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does Ato's family feel that Eulalie is \"unsuitable\" at first, even before they meet her?",
+      answer: "Correct Answer: They are worried because she is a stranger from a different culture (\"the land of the slaves\") and they fear she will not understand their family traditions or contribute to the clan.",
+      explanation: "Explanation: Traditional families often value the continuity of their specific customs and are wary of outsiders.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the \"Dilemma\" mentioned in the title?",
+      answer: "Correct Answer: The dilemma is Ato's struggle to balance his loyalty to his African family and his love for his American wife. He is stuck between two cultures.",
+      explanation: "Explanation: A dilemma occurs when a character is faced with two choices that are equally difficult or important.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the play, a bird's nest is mentioned in a song. If a nest represents a \"home,\" what does it mean when the nest is broken or empty?",
+      answer: "Correct Answer: It symbolizes the breakdown of the family or the lack of children, which is the main source of pain for Ato’s mother and grandmother.",
+      explanation: "Explanation: Symbolism in drama uses physical objects or songs to represent deeper emotional truths.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson9PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Anowa’s mother, Badua, says she wants Anowa to be a \"normal\" woman who \"bears children and is happy.\" Is Badua being mean, or is she just worried?",
+      answer: "Correct Answer: Badua is mostly worried. She believes that following tradition is the only way for a woman to be safe and respected in their society. She fears that Anowa’s independence will lead to suffering.",
+      explanation: "Explanation: In drama, \"villains\" or opposing characters often think they are doing the right thing.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the purpose of having \"The Old Man\" and \"The Old Woman\" talk directly to the audience?",
+      answer: "Correct Answer: They provide background information and show the different ways society judges Anowa. They help the audience understand the \"moral\" temperature of the village.",
+      explanation: "Explanation: A chorus serves as a bridge between the story and the people watching it.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Anowa decides to marry Kofi Ako, a man who is not rich at the start. What does this tell us about her values?",
+      answer: "Correct Answer: It tells us that she values her own attraction and partnership over wealth or social status. She wants to build a life with someone, not just be taken care of.",
+      explanation: "Explanation: Character choices are the best way to understand a person's inner values in a play.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson10PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the story, the father \"untied\" the sticks before giving them to the sons the second time. What does the act of \"untying\" represent in a real family?",
+      answer: "Correct Answer: Untying represents a lack of communication or a disagreement that breaks the family bond. It shows how easily a group can be separated into weak, individual parts.",
+      explanation: "Explanation: When a group is no longer \"tied\" by a common goal, they lose their collective protection.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is this story called \"didactic\"?",
+      answer: "Correct Answer: It is didactic because its primary purpose is to teach a moral lesson (Unity is Strength) rather than just to entertain the reader.",
+      explanation: "Explanation: Didactic literature is common in traditional African storytelling to pass down wisdom to the younger generation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Imagine the sons are working on a farm. How would their work change after learning their father's lesson?",
+      answer: "Correct Answer: Instead of working separately and arguing over tools, they would work together to clear the land, making the work faster and more successful.",
+      explanation: "Explanation: Applying the theme of unity leads to better productivity and harmony.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson11PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the author focus so much on the daughter’s feelings rather than just telling the story of the mother?",
+      answer: "Correct Answer: By showing the daughter's struggles, the author proves that the \"ripples\" of the mother's choice affected the next generation. It makes the warning more powerful.",
+      explanation: "Explanation: A narrative often uses a second character to show the long-term impact of the protagonist's actions.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Ama had stayed in school and become a teacher or a nurse before getting married, how would the \"ripples\" in her life have changed?",
+      answer: "Correct Answer: The ripples would have been positive. She would have had a steady income, a stronger voice in her home, and the ability to easily pay for her children’s school fees.",
+      explanation: "Explanation: Positive causes lead to positive effects, just as negative ones lead to hardships.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the \"water\" in the title \"Ripples\" represent?",
+      answer: "Correct Answer: The water represents Time or Life. Just as water carries waves, Time carries the consequences of our actions from the past into the future.",
+      explanation: "Explanation: Metaphors like water are used to explain abstract concepts like \"consequences\" in a way that is easy to visualize.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson12PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"The pungent aroma of salted fish wafted through the humid air.\" Which sense is the poet targeting here?",
+      answer: "Correct Answer: This targets the sense of Smell (Olfactory imagery).",
+      explanation: "Explanation: Words like \"aroma\" and \"scent\" always refer to our ability to smell things in our environment.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poet describes the \"yellow and green trotros jostling for space,\" what kind of imagery is she using?",
+      answer: "Correct Answer: This is Visual imagery (Sight).",
+      explanation: "Explanation: The mention of specific colours and the movement of the vehicles helps us create a picture in our minds.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the poet describe the market as a \"sea of heads\"?",
+      answer: "Correct Answer: This is a metaphor that creates strong visual imagery. it shows that there are so many people that they look like a vast, moving body of water.",
+      explanation: "Explanation: Using a \"sea\" to describe a crowd emphasizes the scale and the constant movement of Makola.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson13PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does Schatz tell his father, \"You don't have to stay in here with me, Papa, if it bothers you\"?",
+      answer: "Correct Answer: He is being selfless. He believes he is dying and wants to protect his father from the \"contagion\" of his illness and the pain of watching him die.",
+      explanation: "Explanation: This shows Schatz's deep love and his attempt to be \"grown-up\" during a crisis.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does the \"Stoic\" behaviour of Schatz make the story's ending more powerful?",
+      answer: "Correct Answer: Because he was so quiet and \"cold\" all day, the emotional release at the end—where he finally understands he will live—is a huge relief for both the characters and the reader.",
+      explanation: "Explanation: Contrast between silence and emotional release creates a stronger impact in a narrative.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the difference between Celsius and Fahrenheit in the context of this story?",
+      answer: "Correct Answer: They are different scales for measuring temperature. 102° is dangerous in Celsius but common for a fever in Fahrenheit.",
+      explanation: "Explanation: The misunderstanding of these units is the \"pivot\" on which the whole story turns.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson14PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the poet say her mother \"glows\" instead of saying she \"shines like a flashlight\"?",
+      answer: "Correct Answer: \"Glows\" suggests a soft, warm, and constant light that comes from within, while a flashlight is harsh and can be turned off. A mother's love is seen as natural and everlasting.",
+      explanation: "Explanation: Word choice in poetry helps create a specific \"mood\" or feeling.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the mother is the \"Sunrise,\" what do you think \"Night\" or \"Darkness\" would represent in this poem?",
+      answer: "Correct Answer: Darkness would represent sadness, loneliness, or the times when the mother is not around. The mother’s arrival \"scatters\" these bad feelings.",
+      explanation: "Explanation: Metaphors often have opposites that help us understand the main idea better.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In a Ghanaian home, how might a mother \"warm\" the house without using a heater or a fire?",
+      answer: "Correct Answer: She warms the house with her kind words, her smile, and the way she takes care of everyone, making them feel loved and \"warm\" inside.",
+      explanation: "Explanation: \"Warmth\" in literature often refers to emotional comfort, not just physical temperature.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson15PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is it important that the hunter shared his only food rather than just giving away food he didn't want?",
+      answer: "Correct Answer: Sharing something you need yourself shows true sacrifice and deep kindness. It proves that the hunter values the life of the stranger as much as his own.",
+      explanation: "Explanation: True generosity is measured by the heart of the giver, not just the size of the gift.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the hunter had been greedy and eaten all the food himself, how would the story end?",
+      answer: "Correct Answer: He would have remained a regular, struggling hunter and would have missed the great reward and blessing from the stranger.",
+      explanation: "Explanation: In didactic stories, greed usually leads to a loss of opportunity or a punishment.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In many Ghanaian cultures, how do we show the same \"generosity\" that the hunter showed?",
+      answer: "Correct Answer: We show it by welcoming strangers (hospitality), sharing our meals with visitors, and looking after the elderly in our communities.",
+      explanation: "Explanation: Traditional stories reflect the real-life values we practice in our homes every day.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson16PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why does the speaker feel that the \"fault\" was in him and not the bird?",
+      answer: "Correct Answer: He realizes that the bird was just acting naturally. His desire to silence nature showed that he was being impatient and intolerant of something he didn't personally enjoy at that moment.",
+      explanation: "Explanation: Responsibility for our reactions lies with us, not with the external things that annoy us.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poem is a couplet (AA BB), what word rhymes with \"door\" in the second couplet?",
+      answer: "Correct Answer: The word is \"more.\".",
+      explanation: "Explanation: In a couplet, the two lines right next to each other always share the same ending sound.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the speaker mean when he says, \"And of course there must be something wrong / In wanting to silence any song\"?",
+      answer: "Correct Answer: He is saying that it is wrong to suppress beauty, art, or the voices of others just because we find them inconvenient.",
+      explanation: "Explanation: This is the core moral of the poem regarding the freedom of expression and nature.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson17PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: The Bukari Boys probably didn't look like \"villains\" at first. Why is it often harder to resist a friend than an enemy?",
+      answer: "Correct Answer: We want our friends to like us and accept us. We are afraid that if we say \"no,\" they will laugh at us or stop being our friends. This is called peer pressure.",
+      explanation: "Explanation: Peer pressure relies on our human need to belong to a group.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Sosu decided to report the Bukari Boys to an elder, would that be \"betraying\" them or showing \"integrity\"?",
+      answer: "Correct Answer: It would be showing integrity and responsibility. By reporting a crime, he is protecting the community and potentially stopping the boys from becoming worse criminals.",
+      explanation: "Explanation: Integrity involves a higher loyalty to the truth than to a \"bad\" group of friends.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the story, Sosu feels a \"weight\" in his chest when the boys start their plan. What is this weight?",
+      answer: "Correct Answer: This is his conscience. It is the internal feeling of guilt or worry that happens when we know we are doing something wrong.",
+      explanation: "Explanation: A conscience is a key element in stories about moral choices.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson18PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is a \"wreath\" a better symbol for memory than a single flower?",
+      answer: "Correct Answer: A wreath is a circle, symbolizing that memory and love are continuous and have no end, whereas a single flower is more likely to represent a moment that passes quickly.",
+      explanation: "Explanation: Symbols in poetry often use shapes and patterns to convey deep meanings like \"eternity.\"",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the poet says \"Pale petals of pain,\" which literary device is he using with the letter \"P\"?",
+      answer: "Correct Answer: He is using Alliteration.",
+      explanation: "Explanation: The repetition of the \"P\" sound at the beginning of the words is a classic example of alliteration used to create mood.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In the poem, the tears are described as being \"woven.\" What does \"weaving\" suggest about how we handle grief?",
+      answer: "Correct Answer: It suggests that dealing with grief is a slow, careful process where we take our different memories and feelings and put them together to make sense of our loss.",
+      explanation: "Explanation: Weaving is an active process, showing that the poet is working through his feelings.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson19PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If \"Sleep\" is a euphemism for death, why is the phrase \"Without Wake\" so important to the poem’s meaning?",
+      answer: "Correct Answer: It emphasizes the finality of death. Regular sleep ends in the morning, but this \"sleep\" is permanent, which is why it is so sad for the people left behind.",
+      explanation: "Explanation: The contrast between a normal sleep and death highlights the poet's grief.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What kind of mood does the poet create by describing a mother who \"does not answer\"?",
+      answer: "Correct Answer: He creates a mood of loneliness and helplessness. It shows that the communication between the child and the mother has been cut off forever.",
+      explanation: "Explanation: Mood in poetry is the atmosphere or emotion the poet wants the reader to feel.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In many Ghanaian dirges, the deceased is compared to a \"mighty tree\" that has fallen. How is that similar to the \"sleep\" metaphor in this poem?",
+      answer: "Correct Answer: Both are metaphors that avoid the word \"death.\" The tree emphasizes the loss of protection, while the sleep emphasizes the peace of the person who has passed.",
+      explanation: "Explanation: Metaphors help us visualize and understand the \"size\" of a loss.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson20PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why was the master of the workhouse so shocked when Oliver asked for more porridge?",
+      answer: "Correct Answer: The masters expected the poor to be silent and grateful for the tiny bit they were given. Oliver’s request was seen as \"rebellion\" because he dared to speak up for his basic needs.",
+      explanation: "Explanation: In a strict system, any small act of independence is often seen as a threat to authority.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If Oliver had been a \"greedy\" boy, how would the reader’s feeling toward him change?",
+      answer: "Correct Answer: We would not feel as sorry for him. The author makes Oliver very thin and truly hungry so that we understand his request is about survival, not greed.",
+      explanation: "Explanation: Authors use specific physical descriptions to make us sympathize with the protagonist.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the word \"Abridged\" mean on the cover of Oliver Twist in The Cockcrow?",
+      answer: "Correct Answer: It means the story has been shortened or made simpler so that students can read the most important parts without reading the entire original long book.",
+      explanation: "Explanation: Abridged versions are common in school anthologies to make classic literature accessible.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson21PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How does the narrator’s education at the teacher training college affect the way she looks at her village?",
+      answer: "Correct Answer: It gives her a \"double vision.\" She sees the beauty and tradition of the village, but she also notices the poverty and the lack of modern progress that she might have ignored before.",
+      explanation: "Explanation: Education often changes how we perceive our original environment by giving us new standards to compare it to.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: The title is \"Home Sweet Home.\" Is the story only about things that are \"sweet\"?",
+      answer: "Correct Answer: No. While the narrator feels a deep love and sweetness for her home, the story also reveals the \"bitter\" or difficult realities of village life, such as the struggle for development.",
+      explanation: "Explanation:  Authors often use ironic or layered titles to make the reader think more deeply about the content.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the narrator's interaction with her mother tell us about the theme of belonging?",
+      answer: "Correct Answer: It shows that even though she has changed through education, the bond of family and her mother’s love is the \"glue\" that still makes her belong to the village.",
+      explanation: "Explanation: Family relationships are often the primary anchor for our sense of home.",
+    ),
+  ],
+);
+final PracticeModel jhs2s5ss1Lesson22PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why did the author choose to give the bird a name like \"Pepe\" instead of just calling it \"the bird\" throughout the story?",
+      answer: "Correct Answer: Giving the bird a name creates a personal connection. It makes Pepe feel like a member of the family rather than just an animal, which emphasizes the theme of compassion.",
+      explanation: "Explanation: Names help us care more about characters in a narrative.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If the children had ignored the bird and let it stay in the cold rain, how would that change the \"Resolution\" of the story?",
+      answer: "Correct Answer: The bird likely would not have survived, and the resolution would be sad instead of happy. The story would no longer be about compassion.",
+      explanation: "Explanation:  The resolution depends on the actions taken during the rising action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In a dialogue, Sandy says, \"Mother, what do baby birds eat?\" What does this question tell us about Sandy's character?",
+      answer: "Correct Answer: It shows that Sandy is responsible and wants to learn the right way to care for the bird so it doesn't get hurt.",
+      explanation: "Explanation: Dialogue often reveals a character's traits, such as being helpful or inquisitive.",
+    ),
+  ],
+);
+
 final PracticeModel jhs3s1ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/1. JHS3 S1 SS1 L1/6. Guided Practice.m4a',
   questions: [
@@ -1953,6 +3045,372 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
     "How should this be spelled in a Ghanaian classroom?",
       answer: "Correct Answer: reorganise",
       explanation: "Explanation: We follow the British convention of using '-ise' instead of the American '-ize'.",
+    ),
+  ],
+);
+
+final PracticeModel jhs3s4ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these two sentences using a subordinating conjunction of reason: \"Kofi stayed home. He was feeling unwell.\"",
+      answer: "Correct Answer: Kofi stayed home because he was feeling unwell.",
+      explanation: "Explanation: The word \"because\" joins the two sentences by explaining the reason for Kofi staying home.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Add a relative clause to expand this sentence: \"The woman sells kenkey.\"",
+      answer: "Correct Answer: The woman who lives next door sells kenkey.",
+      explanation: "Explanation: Adding \"who lives next door\" provides more specific information about which woman we are talking about.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a transitional device to show contrast between these two ideas: \"Abena studied very hard for the exam. She did not pass.\"",
+      answer: "Correct Answer: Abena studied very hard for the exam; however, she did not pass.",
+      explanation: "Explanation: \"However\" is a transitional device that shows a surprising contrast between her hard work and the result.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which sentence would be the best Introduction for a story about the Odwira Festival?",
+      answer: "Correct Answer: Every year, the people of Akropong celebrate the colourful Odwira Festival to mark the harvest.",
+      explanation: "Explanation: An introduction should set the scene and tell the reader what the story is about before the action starts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can we use a time connector to join these: \"We reached the stadium. The match started.\"",
+      answer: "Correct Answer: Soon after we reached the stadium, the match started.",
+      explanation: "Explanation: \"Soon after\" is a sequence in time connector that shows the logical order of events.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use a phrase to expand this sentence: \"The woman sold the cloth.\"",
+      answer: "Correct Answer: The kind woman in the colourful kente sold the expensive cloth.",
+      explanation: "Explanation: Using adjectival phrases like \"in the colourful kente\" expands the sentence and provides more detail.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In a formal letter to a teacher, which connector is best to add a second reason for being absent?",
+      answer: "Correct Answer: Furthermore",
+      explanation: "Explanation: \"Furthermore\" is a formal transitional device used to add information, whereas \"also\" is more informal.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify the topic sentence in this paragraph: \"The school library needs more books. Many of our current books are torn. Additionally, we lack science textbooks for JHS 3.\"",
+      answer: "Correct Answer: The school library needs more books.",
+      explanation: "Explanation: This sentence introduces the main idea that all the following sentences support.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which relative clause best completes this sentence in a letter to a landlord? \"The pipe _______ is still leaking.\"",
+      answer: "Correct Answer: which you repaired last week",
+      explanation: "Explanation: This clause provides necessary information to identify exactly which pipe is being discussed.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"Mr. Appiah is a cocoa farmer. He wakes up at 4:00 AM every day. He works very hard to ensure his beans are the best quality so that he can earn a good price at the buying centre.\n"
+    "What is the major supporting detail here?",
+      answer: "Correct Answer: Mr. Appiah works hard to produce high-quality cocoa for a better price.",
+      explanation: "Explanation: This captures the \"why\" and \"how\" of the passage, which are the most important points.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can we combine \"The rain was heavy\" and \"The cocoa pods were destroyed\" into one cohesive summary sentence?",
+      answer: "Correct Answer:The heavy rain destroyed the cocoa pods.",
+      explanation: "Explanation: This uses a noun phrase (\"The heavy rain\") to link the cause and the effect into one short sentence.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: WIn a summary, should you include a non-defining relative clause like \"Mr. Appiah, who has ten children, loves farming\"?",
+      answer: "Correct Answer: No, because it is a minor detail.",
+      explanation: "Explanation: While interesting, the number of children is usually not essential to the main point of a summary about farming.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite the sentence \"The car drove by\" using frontloading and two powerful adjectives.",
+      answer: "Correct Answer: \"Roaring and dusty, the battered old trotro sped past us.\"",
+      explanation: "Explanation: By putting the adjectives at the beginning, we 'frontload' the description and use 'roaring' and 'dusty' to create a clear image.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can you use climactic structure to describe a student getting ready for an exam?",
+      answer: "Correct Answer: \"She opened her book, gripped her pen, and felt a surge of pure confidence.\"",
+      explanation: "Explanation: This sentence builds up from a simple action to a strong emotion at the end, creating a 'climactic' effect.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Use 'selective detail' to describe a strict headteacher.",
+      answer: "Correct Answer: \"Mr. Osei adjusted his ironed collar and peered over his gold-rimmed spectacles.\"",
+      explanation: "Explanation: Instead of describing everything, we focus on the 'ironed collar' and 'spectacles' to show he is neat and observant.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A character finds an old photograph and the next paragraph describes the day the photo was taken 10 years ago. What is this?",
+      answer: "Correct Answer: This is a Flashback.",
+      explanation: "Explanation: It interrupts the present story to show a specific event from the past triggered by an object.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: At the start of a story about a football match, the narrator says, \"This was the last time Ekow would ever wear his lucky boots.\" What is this?",
+      answer: "Correct Answer: This is Foreshadowing.",
+      explanation: "Explanation: It gives the reader a hint that something significant (and perhaps sad) is going to happen to those boots later.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite \"He was very nervous\" using emotive sensory details.",
+      answer: "Correct Answer: \"His stomach turned into a knot of cold lead, and his palms grew damp and slippery.\"",
+      explanation: "Explanation: This uses 'touch' and internal physical sensations to show nervousness instead of just saying it.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which modal verb makes this sentence the most persuasive? \"The school committee _____ consider repairing the canteen.\"",
+      answer: "Correct Answer: The school committee must consider repairing the canteen.",
+      explanation: "Explanation: 'Must' is a strong modal verb that shows urgency and importance.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this to a \"timeless statement\" using the simple present: \"The sun was rising in the East.\"",
+      answer: "Correct Answer: \"The sun rises in the East.\"",
+      explanation: "Explanation: The simple present is used for facts that are always true.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is a mandatory feature of a formal rejoinder that identifies the topic?",
+      answer: "Correct Answer: A Reference or Subject Heading.",
+      explanation: "Explanation: A rejoinder must include a reference to the specific publication it is addressing.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Rewrite this biased sentence objectively: \"The food at the canteen was disgusting today.\"",
+      answer: "Correct Answer: \"The rice served at the canteen was undercooked and arrived cold.\"",
+      explanation: "Explanation: By using specific, measurable facts (undercooked, cold) instead of an opinion (disgusting), the writing becomes objective.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What two things must you explain to show how a problem occurred?",
+      answer: "Correct Answer: You must explain how it happened and why it happened.",
+      explanation: "Explanation: Explanatory texts need to show the process and the cause of a situation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Arrange these steps for washing a school uniform in a logical order: (A) Hang it to dry, (B) Soak in soapy water, (C) Rinse with clean water.",
+      answer: "Correct Answer: B, C, A.",
+      explanation: "Explanation: Logical organisation usually follows the order in which things actually happen.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which is the most appropriate way to write a date in a formal business letter?",
+      answer: "Correct Answer: 15th February 2026.",
+      explanation: "Explanation: Formal writing avoids short forms like \"15/02\" and writes out the month for clarity and professionalism.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a formal email, which of these should you avoid?",
+      answer: "Correct Answer: Using slang like \"Wassup\" or abbreviations like \"OMG.\"",
+      explanation: "Explanation: Formal writing requires full words and professional greetings to maintain an appropriate tone.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the purpose of an \"Agenda\" in a meeting?",
+      answer: "Correct Answer: To provide a list of topics to be discussed in order.",
+      explanation: "Explanation: An agenda acts as a programme or guide for the meeting participants.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Which of the following must be on an invitation card for a school play?",
+      answer: "Correct Answer: The date, time, and location of the play.",
+      explanation: "Explanation: Without these three things, the guests will not know when or where to show up.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If you are sending an email to a customer but want your manager to see it too, which field do you put the manager's email in?",
+      answer: "Correct Answer: The CC (Carbon Copy) field.",
+      explanation: "Explanation: CC is used to keep additional people 'in the loop' without making them the main recipient.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the best size for a small, hand-held flyer?",
+      answer: "Correct Answer: A5 paper.",
+      explanation: "Explanation: A5 is half the size of a standard A4 sheet, making it perfect for handing out to people.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You want to share a fictional story you wrote about a magical cocoa tree. Where should you send it?",
+      answer: "Correct Answer: A Literary Magazine.",
+      explanation: "Explanation: Literary magazines specialise in creative works like stories and poetry.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You have researched exactly how your local market manages its cleaning schedule. What kind of text should you write?",
+      answer: "Correct Answer: A Short Report or Case Study.",
+      explanation: "Explanation: These formats are perfect for sharing factual investigations and findings.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What is the main difference between a staff writer and self-publication?",
+      answer: "Correct Answer: A staff writer works for a specific publication; self-publication is when the author shares their own work directly.",
+      explanation: "Explanation: Self-publication gives the author full control over how and where their work is seen.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss2Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: How can you turn the sentence \"We want a clean school\" into a \"Tripling\" phrase?",
+      answer: "Correct Answer: \"We want a clean school, a healthy school, and a happy school.\"",
+      explanation: "Explanation: Grouping three related ideas creates a better rhythm for the listener.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Which of these is an example of inclusive language?",
+      answer: "Correct Answer: \"We must all join hands to help our community.\"",
+      explanation: "Explanation: Using \"we\" and \"join hands\" includes the audience in the action.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What are the three structural parts of a speech?",
+      answer: "Correct Answer: Introduction, Body, and Conclusion.",
+      explanation: "Explanation: This structure ensures the message is introduced, explained, and summarized.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You want to research the different types of fruit juices sold at your school canteen. Write three focused questions you could use.",
+      answer: "Correct Answer: 1. What are the names of the juice brands available? 2. How much does each carton cost? 3. Which fruit flavour is the most popular among students?",
+      explanation: "Explanation: These questions are specific and measurable, helping you gather exact data instead of general ideas.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: While researching on the internet, you find a great paragraph about the history of Golden Tree Chocolate. You want to use it in your report. What must you do to avoid plagiarism?",
+      answer: "Correct Answer: I must rewrite the information in my own words and include the name of the website and the date I found it in my list of references.",
+      explanation: "Explanation: Giving credit to the source and using your own words ensures you are not stealing intellectual property.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You have finished talking to five shopkeepers about the price of eggs. You have a lot of scribbled notes. What is the next step before you present?",
+      answer: "Correct Answer: I need to record and organise my findings, perhaps in a table or a clear list, so the information is easy for others to understand.",
+      explanation: "Explanation: Organising data is crucial for turning raw notes into a clear presentation.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In a film, we see a girl named Efua carefully mending a torn book for a younger student. What does this action tell us about her?",
+      answer: "Correct Answer: It tells us that Efua is caring, patient, and values education.",
+      explanation: "Explanation: Her choice to help and fix something shows a nurturing and responsible personality.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A character named Mr. Boateng is described as wearing a faded, oversized coat and shoes with holes in them. What does this appearance suggest?",
+      answer: "Correct Answer: It suggests that Mr. Boateng is struggling financially or is perhaps very humble and doesn't care for luxury.",
+      explanation: "Explanation: Clothing is a visual clue to a character's economic status or their current situation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Throughout the first act of a play, two neighbours keep talking about how 'Auntie Araba is the best cook in the whole of Cape Coast'. What is this an example of?",
+      answer: "Correct Answer: This is using the opinions of others to build a character's reputation.",
+      explanation: "Explanation: The audience learns about her skill through the dialogue of other characters before she even appears.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Read this text: \"Ekow stood by the sea. 'Oh, how I wish my father would return from his fishing trip,' he sighed to the waves.\" Is this a monologue or a dialogue?",
+      answer: "Correct Answer: This is a monologue.",
+      explanation: "Explanation: Ekow is speaking alone to himself or the environment; no other character is replying to him.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this script line: \"MAMA: (Screaming) Put that jollof down!\" What is the text in the brackets called?",
+      answer: "Correct Answer: IIt is called a stage direction.",
+      explanation: "Explanation: Stage directions tell the actor how to behave or what emotion to show, but the words are not spoken aloud.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Rewrite this sentence into script format: Adjoa asked Kojo if he had the keys. Kojo said he forgot them.",
+      answer: "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
+      "KOJO: I forgot them.",
+      explanation: "Explanation: In a script, we use names and colons instead of 'asked' or 'said'.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Here are three events from a story about a fisherman in Elmina. Put them in order:\n"
+    "A) He catches a massive tuna.\n"
+"B) He sets off into the sea at dawn.\n"
+"C) He sells the fish at the market and buys bread for his children.",
+      answer: "Correct Answer: B, then A, then C.",
+      explanation: "Explanation: You must go to sea before you can catch a fish, and you must catch it before you can sell it.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a biography of a famous Ghanaian footballer, which event usually comes first: winning the World Cup or playing football as a child in his village?",
+      answer: "Correct Answer: Playing football as a child in his village.",
+      explanation: "Explanation: Biographies almost always follow a chronological order, starting with childhood.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a movie starts with a man as an old grandfather and then shows him as a young boy, what is this change in sequence called?",
+      answer: "Correct Answer: A flashback (or non-linear sequencing).",
+      explanation: "Explanation: This is when a story jumps back to an earlier time to give the audience more information.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the device: \"The old trotro groaned as it climbed the steep hill.\"",
+      answer: "Correct Answer: Personification.",
+      explanation: "Explanation: Vehicles cannot 'groan' like humans; this gives the trotro a human quality to show it is struggling.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change this simile into a metaphor: \"Her voice is as sweet as honey.\"",
+      answer: "Correct Answer: Her voice is honey.",
+      explanation: "Explanation: By removing 'as sweet as', you are directly stating that her voice is the sweet substance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: What does the idiom \"He is a fish out of water\" mean when describing a boy from a small village moving to the big city of Accra?",
+      answer: "Correct Answer: It means he feels uncomfortable or out of place in his new environment.",
+      explanation: "Explanation: Just as a fish cannot survive or feel comfortable on land, the boy feels he does not belong in the busy city.",
+    ),
+  ],
+);
+final PracticeModel jhs3s4ss3Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (4. GUIDED PRACTICE).m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question:  A story describes a girl who works very hard on her farm every day and eventually saves enough money to buy a tractor for her village. What is a likely theme?",
+      answer: "Correct Answer: The theme is \"Perseverance\" or \"The Reward of Hard Work.\"",
+      explanation: "Explanation: The focus is on her steady effort and the positive result it brings to her and others.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: In a play, a greedy chief hides all the food during a drought, but in the end, he is left with nothing while the kind villagers share what they have and survive. What is the theme?",
+      answer: "Correct Answer: The theme is \"Greed leads to downfall\" or \"The importance of sharing.\"",
+      explanation: "Explanation: The story contrasts the chief's selfishness with the villagers' kindness to teach a moral lesson.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: You are using a computer to write a story about two friends who stop speaking because of a secret, but eventually forgive each other. What theme are you exploring?",
+      answer: "Correct Answer: The theme of \"Forgiveness\" or \"The Value of Friendship.\"",
+      explanation: "Explanation: The resolution of the conflict focuses on the characters repairing their relationship.",
     ),
   ],
 );
@@ -4018,6 +5476,87 @@ final PracticeModel SSjhs1s5ss2Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel SSjhs1s6ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the main reason why the Watson Commission declared that the 1946 Alan Burns Constitution was no longer suitable for the Gold Coast.",
+      answer: "Correct Answer: The commission found that the 1946 constitution failed to provide any meaningful political power or executive positions to Africans, leaving them entirely excluded from governing their own country.",
+      explanation: "Explanation: The Watson Commission recognized that the civil unrest was deeply rooted in political frustration. The 1946 constitution kept all key ministries and decision-making portfolios strictly in the hands of British colonial officials, which ignored the growing education and capability of the local population.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how the economic policy regarding Swollen Shoot disease contributed directly to the anger that fueled the 1948 riots.",
+      answer: "Correct Answer: The colonial administration ordered the mandatory cutting down of infected cocoa trees to stop the disease, but they failed to pay adequate financial compensation to the local farmers, destroying their livelihoods.",
+      explanation: "Explanation: Cocoa was the backbone of the local economy. By forcing farmers to cut down their trees without giving them proper financial support, the colonial government caused massive financial ruin and resentment, driving rural communities to support the urban nationalist movement.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State the primary political significance of the arrest of the leaders who became known as \"The Big Six\" following the riots.",
+      answer: "Correct Answer: Their arrest unified the general public against the colonial administration and transformed these six individuals into nationwide heroes, solidifying public support for the self-governance struggle.",
+      explanation: "Explanation: Before the arrests, the nationalist movement was fractured and mostly supported by educated elites in urban centers. By detaining leaders like Dr. Kwame Nkrumah and Dr. J.B. Danquah, the British unintendedly created powerful symbols of resistance that brought all segments of Ghanaian society together.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain why Dr. Kwame Nkrumah's adoption of the term \"veranda boys\" was an effective political strategy in 1949.",
+      answer: "Correct Answer: By proudly adopting a term meant as an insult by wealthy elites, Nkrumah validated the working class, making ordinary citizens feel valued and turning them into a fiercely loyal base of political supporters.",
+      explanation: "Explanation: The older political parties were dominated by wealthy lawyers and academics who ignored the working class. When Nkrumah embraced the \"veranda boys,\" he built an inclusive, mass-oriented party that focused directly on the numerical strength of common laborers, drivers, and market traders.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Describe the specific contribution made by Komla Agbeli Gbedemah to the CPP when the party's leadership faced colonial crackdowns.",
+      answer: "Correct Answer: Gbedemah managed the party's finances, kept its primary newspaper running, and organized highly effective door-to-door grassroots campaigns that secured massive electoral victories while Nkrumah was in prison.",
+      explanation: "Explanation: A party needs excellent administration to survive. Gbedemah was a logistical genius who ensured that the CPP's message continued to reach voters across the entire Gold Coast, demonstrating that the party was an organized institution rather than just a one-man movement.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Analyze how the chosen party symbol of the red cockerel, or rooster, reinforced the primary political message of the CPP.",
+      answer: "Correct Answer: The cockerel is a universal symbol of the dawn that wakes people up, which perfectly matched the CPP's goal of awakening the nation from colonial rule into a new day of independence.",
+      explanation: "Explanation: In a society where many everyday citizens could not read or write English text, clear visual symbols were highly important. The red cockerel immediately communicated hope, energy, and a fresh start, making the party's message easily understood by everyone across the country.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain why Dr. Kwame Nkrumah and the CPP initially labeled the 1950 Coussey Constitution as \"bogus and fraudulent\".",
+      answer: "Correct Answer: The constitution failed to grant complete, immediate self-government and left absolute veto powers, along with key portfolios like finance, foreign affairs, and defense, strictly in the hands of British colonial officials.",
+      explanation: "Explanation: Although the 1950 Constitution was a step forward because it was written by an all-African committee, it did not offer true sovereignty. Nkrumah recognized that as long as the British Governor held veto power over the legislative assembly, the local population did not possess real executive control over their nation's destiny.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Analyze the political significance of the 1951 general election regarding the status of Dr. Kwame Nkrumah.",
+      answer: "Correct Answer: The CPP's landslide victory forced the British colonial administration to release Nkrumah from James Fort Prison and appoint him as Leader of Government Business to form a functional government.",
+      explanation: "Explanation: Nkrumah's election while in prison proved the immense organizational strength of the CPP's grassroots networks, particularly under Komla Agbeli Gbedemah. It demonstrated to the colonial office that any attempt to govern without Nkrumah would result in total civil paralysis, forcing them to accept him as the legitimate democratic leader.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Differentiate between the political goals of the Convention People's Party (CPP) and the National Liberation Movement (NLM) during the 1954 and 1956 election periods.",
+      answer: "Correct Answer: The CPP advocated for a unified, centralized system of government with immediate independence, whereas the NLM demanded a federal structure that protected regional autonomy, cocoa wealth, and traditional chiefdoms.",
+      explanation: "Explanation: This ideological clash was the central debate of late colonial history. The NLM feared that a centralized government under the CPP would exploit the rich cocoa revenues of the Ashanti region and undermine traditional authority. The CPP argued that a federal system would fracture a small nation along tribal lines, weakening its international standing.",
+    ),
+  ],
+);
+final PracticeModel SSjhs1s6ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Explain the difference between the roles of the Governor-General and the Prime Minister in Ghana from 1957 to 1960.",
+      answer: "Correct Answer: The Governor-General served as the ceremonial Head of State representing the British Queen, whereas the Prime Minister was the Head of Government who held the active executive power to run the state administration.",
+      explanation: "Explanation: This division is the core feature of a parliamentary system. The Governor-General held symbolic authority and had to formally sign laws, but he did not create policies. The Prime Minister and his cabinet were the ones who actually created budgets, designed infrastructure, and managed the daily ministries.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Analyze why having British citizens like Geoffrey Bing and Major General Alexander Paley in the government was considered a disadvantage for national security.",
+      answer: "Correct Answer: Having foreign nationals control the chief legal advisory and the military command meant that the young nation's security and legal secrets were exposed to individuals whose ultimate loyalty lay with a foreign power.",
+      explanation: "Explanation: True independence requires total control over defense and law. If a political or military crisis occurred between Ghana and Great Britain, British officers holding these high portfolios would face a major conflict of interest, potentially undermining Ghana's safety to protect British imperial interests.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: State how the power-sharing arrangement helped reassure international investors during the immediate post-independence years.",
+      answer: "Correct Answer: By maintaining the British monarch as Head of State and retaining British experts in the civil service, Ghana signaled that its economic and legal systems would remain stable, safe, and predictable.",
+      explanation: "Explanation: International banks and trading firms are often afraid of sudden political changes in newly independent nations. Seeing that Ghana kept the Westminster system and preserved its historic legal ties gave foreign businesses the confidence to invest capital in local projects.",
+    ),
+  ],
+);
+
 final PracticeModel SSjhs2s1ss1Lesson1PracticeData = PracticeModel(
   audioPath:
       'assets/audio/social_studies/1. SOCIAL STUDIES JHS2 S1 SS1 L1/7. Guided Practice.m4a',
@@ -5424,19 +6963,19 @@ final PracticeModel Scijhs1s3ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: A heavy rainstorm in Kumasi. Is the rain Biotic or Abiotic?",
-      answer: "Correct Answer: Abiotic.",
-      explanation: "Explanation: Rain is water, which is a non-living physical factor, even though living things need it to survive.",
+      scenario: "1. Question: Describe the role of the teeth in the mouth during digestion.",
+      answer: "Correct Answer: The teeth tear, cut, and grind large food pieces into smaller particles.",
+      explanation: "Explanation: This is called physical digestion, and it makes it easier for chemicals to work on the food later.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: A grasshopper eating leaves in a garden. Is the grasshopper Biotic or Abiotic?",
-      answer: "Correct Answer: Biotic.",
-      explanation: "Explanation: The grasshopper is a living organism that grows, eats, and moves.",
+      scenario: "2. Question: What is peristalsis and where does it occur?",
+      answer: "Correct Answer: It is the wave-like contraction of muscles that pushes food through the oesophagus.",
+      explanation: "Explanation: Peristalsis ensures that food moves down to the stomach even if you are lying down.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: The pH level of the water in a fish pond. Is this Biotic or Abiotic?",
-      answer: "Correct Answer: Abiotic.",
-      explanation: "Explanation: pH is a chemical property of the water (non-living), not a living creature.",
+      scenario: "3. Question: What is the main difference between the food in the mouth and the food (chyme) in the stomach?",
+      answer: "Correct Answer: Food in the mouth is mostly solid pieces, while chyme in the stomach is a watery paste.",
+      explanation: "Explanation: The stomach's churning and gastric juices turn solid food into a liquid-like state.",
     ),
   ],
 );
@@ -5444,19 +6983,19 @@ final PracticeModel Scijhs1s3ss1Lesson3PracticeData = PracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/5. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Why is Mixed Cropping better than Single Cropping for a family's daily meals?",
-      answer: "Correct Answer: It provides a balanced diet with different types of food (like carbohydrates from cassava and vitamins from peppers) at the same time.",
-      explanation: "Explanation: Since different crops are grown together, the family gets a variety of nutrients from their own backyard.",
+      scenario: "1. Question: If you eat a piece of grilled tilapia (protein), what will it be broken down into?",
+      answer: "Correct Answer: Amino Acids.",
+      explanation: "Explanation: Proteins are always broken down into amino acids to help repair and build the body.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: What is a major environmental disadvantage of Land Rotation in Ghana today?",
-      answer: "Correct Answer: It leads to deforestation and the destruction of natural habitats.",
-      explanation: "Explanation: Clearing new forest land every few years destroys trees and the homes of wild animals.",
+      scenario: "2. Question: Why are villi shaped like fingers instead of being a flat surface?",
+      answer: "Correct Answer: To increase the surface area for faster absorption.",
+      explanation: "Explanation: More surface area means the body can soak up more nutrients at once, just like a fluffy sponge holds more water than a flat piece of paper.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: How does Mixed Farming help a farmer save money?",
-      answer: "Correct Answer: The farmer uses animal manure as fertilizer instead of buying expensive chemical fertilizers.",
-      explanation: "Explanation: The animals provide free fertilizer, reducing the cost of growing crops.",
+      scenario: "3. Question: What is the end product of a bowl of plain rice?",
+      answer: "Correct Answer: Glucose (Simple Sugar).",
+      explanation: "Explanation: Rice is a carbohydrate (starch), and the final result of starch digestion is glucose.",
     ),
   ],
 );
@@ -6699,7 +8238,7 @@ final PracticeModel Scijhs2s2ss4Lesson2PracticeData = PracticeModel(
   ],
 );
 final PracticeModel Scijhs2s2ss4Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/5. Guided Practice.m4a',
+  audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/5. Guided Practice .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: If a hen is laying eggs with very thin, soft shells, which mineral should the farmer add to the feed?",
@@ -7127,6 +8666,247 @@ final PracticeModel Scijhs2s4ss5Lesson2PracticeData = PracticeModel(
       scenario: "3. Question: You are using a spade to dig a hole. Where should you put your foot?",
       answer: "Correct Answer: Put your foot on the top edge or 'shoulder' of the metal blade.",
       explanation: "Explanation: Using your body weight through your foot makes it much easier to penetrate hard soil.",
+    ),
+  ],
+);
+
+final PracticeModel Scijhs2s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kofi takes a reusable cloth bag to the market instead of taking ten new plastic bags from the traders. Which 'R' is he practicing?",
+      answer: "Correct Answer: Reduce.",
+      explanation: "Explanation: By using his own bag, Kofi is preventing the creation of plastic waste before it even starts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Sister Ama has an old margarine tub. Instead of throwing it away, she washes it and uses it to store her leftover jollof rice. Which 'R' is this?",
+      answer: "Correct Answer: Reuse.",
+      explanation: "Explanation: She is using the same item again for a new purpose rather than discarding it.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A school collects all its empty plastic water sachets and sends them to a factory to be made into plastic chairs. What is this process called?",
+      answer: "Correct Answer: Recycle.",
+      explanation: "Explanation: The waste is being processed and transformed into a completely different product.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: During a survey, you find that the market is full of rotting vegetable peels that smell bad. What type of waste is this, and what is a good solution?",
+      answer: "Correct Answer: Organic waste; Solution: Composting.",
+      explanation: "Explanation: Food waste is organic and can be turned into fertilizer for farms rather than being left to rot.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: You notice that people in your neighborhood are burning plastic in their backyards, which creates thick, black smoke. Why is this a bad practice?",
+      answer: "Correct Answer: It causes air pollution and health problems.",
+      explanation: "Explanation: Burning plastic releases toxic chemicals into the air we breathe. A better strategy is recycling.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Your school has bins, but students still throw trash on the ground. What is the best strategy to fix this?",
+      answer: "Correct Answer: Public education and awareness.",
+      explanation: "Explanation: If the tools (bins) are there but not used, the students need to be taught why using them matters.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Abena notices that the whites of her brother's eyes have turned yellow and he is very tired. Which disease might he have?",
+      answer: "Correct Answer: Hepatitis.",
+      explanation: "Explanation: Yellowing of the eyes (jaundice) and fatigue are key symptoms of Hepatitis attacking the liver.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is it dangerous to share a razor blade with a friend at school?",
+      answer: "Correct Answer: It can spread HIV or Hepatitis.",
+      explanation: "Explanation: These diseases are transmitted through infected body fluids like blood, which can stay on a sharp blade.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How does a high rate of communicable disease affect the money Ghana has for building roads?",
+      answer: "Correct Answer: The money is spent on healthcare instead.",
+      explanation: "Explanation: The government must divert funds to treat sick citizens, leaving less for infrastructure like roads.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Kwame lives in a house where 10 people sleep in one small room with no windows. What is the main risk factor here?",
+      answer: "Correct Answer: Overcrowding / Poor ventilation.",
+      explanation: "Explanation: When many people breathe the same air in a tight space, air-borne diseases spread very easily.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A village only has one pond for drinking water, and cows often walk through it. Why is this a risk?",
+      answer: "Correct Answer: Lack of clean water / Contaminated water source.",
+      explanation: "Explanation: Animals can pass pathogens into the water, which humans then drink, leading to disease.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Esi is in a hurry and eats her mango without washing it after buying it from a roadside vendor. What type of risk factor is this?",
+      answer: "Correct Answer: Behavioural risk factor / Poor personal hygiene.",
+      explanation: "Explanation: Esi’s choice (her behaviour) to skip washing the fruit increases her chance of ingesting germs.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: After eating some leftover stew that wasn't heated up properly, Araba feels very nauseous and starts vomiting. What is she likely suffering from?",
+      answer: "Correct Answer: Food Poisoning.",
+      explanation: "Explanation: Vomiting and nausea after eating potentially contaminated food are classic signs of bacterial food poisoning.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question:  What do we call the \"poisons\" that bacteria produce inside our bodies to make us feel sick?",
+      answer: "Correct Answer: Toxins.",
+      explanation: "Explanation: Bacteria release chemical toxins that interfere with our body's normal functions.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If a person has a very high fever and finds it painful to bend their neck, which bacterial disease should the doctor check for?",
+      answer: "Correct Answer: Meningitis.",
+      explanation: "Explanation:  A stiff neck combined with high fever is a major warning sign of Meningitis.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A local food vendor in your neighbourhood leaves their waakye uncovered and flies are everywhere. What should the community do?",
+      answer: "Correct Answer: Report to health inspectors / Educate the vendor.",
+      explanation: "Explanation: Community management involves ensuring local businesses follow hygiene regulations to protect everyone.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: It is the height of the Harmattan season. How should students manage their sleeping arrangements in a dormitory?",
+      answer: "Correct Answer: Open windows for ventilation.",
+      explanation: "Explanation: Good airflow reduces the risk of air-borne bacterial diseases like Meningitis in crowded spaces.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A person is diagnosed with a bacterial infection. What is the standard medical treatment they will receive at a clinic?",
+      answer: "Correct Answer: Antibiotics.",
+      explanation: "Explanation: Antibiotics are the specific class of medicine used to kill or stop the growth of bacteria.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A researcher discovers that a specific herb found in the Aburi mountains can lower high blood pressure. Which of our three pillars does this discovery represent?",
+      answer: "Correct Answer: Science.",
+      explanation: "Explanation: This is science because it is the process of gaining new knowledge through observation and study of the natural world.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: An engineer uses the discovery of the herb to create a machine that turns the herb into easy-to-swallow tablets. What is the machine an example of?",
+      answer: "Correct Answer: Technology.",
+      explanation: "Explanation: This is technology because it is the application of scientific knowledge to create a tool or machine that solves a problem.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A pharmacy starts a delivery service using an app so that elderly people in Accra can get their blood pressure medicine delivered to their door. What is this new service called?",
+      answer: "Correct Answer: Innovation.",
+      explanation: "Explanation: This is innovation because it is a new way of using tools (the app and the medicine) to improve the lives of people in society.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: A hospital in Kumasi installs a new solar power system so they don't have to use a noisy, smoky diesel generator. Is this a positive or negative impact?",
+      answer: "Correct Answer: Positive impact.",
+      explanation: "Explanation: Solar power is renewable and does not produce smoke or pollution, making the air cleaner for everyone.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: A person leaves five old, broken television sets in a gutter during a rainstorm. Which environmental problem does this cause?",
+      answer: "Correct Answer: E-waste pollution (Electronic waste).",
+      explanation: "Explanation: Electronics contain toxic chemicals that leak into the water and soil when not disposed of properly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Using an aeroplane to travel from Accra to Tamale in 1 hour instead of driving for 12 hours. This is an advancement in which sector?",
+      answer: "Correct Answer: Transportation.",
+      explanation: "Explanation: Aeroplanes are advanced machines that allow for the fast movement of people and goods across long distances.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In your own words, explain the main difference between weather and climate.",
+      answer: "Correct Answer: Weather is what happens daily or hourly, while climate is the average weather over a very long time, like 30 years.",
+      explanation: "Explanation: Remember the 'mood vs. personality' example. Weather is short-term; climate is long-term.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why does global warming lead to flooding in coastal towns like Keta?",
+      answer: "Correct Answer: Global warming melts ice and makes sea water expand, which causes the sea level to rise and overflow onto the land.",
+      explanation: "Explanation: More heat means more melting ice and rising water.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Give one example of how a farmer in Ghana might notice climate change.",
+      answer: "Correct Answer: The farmer might notice that the rainy season no longer starts at the usual time or that droughts are lasting much longer.",
+      explanation: "Explanation: Predictable seasons are disappearing because of shifts in weather patterns.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you rub a soil sample and it feels very scratchy and doesn't stay in a ball when you squeeze it, what type of soil is it?",
+      answer: "Correct Answer: Sandy Soil.",
+      explanation: "Explanation: The gritty texture and lack of stickiness are key features of sand.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is Clay soil often used by traditional potters in Ghana to make pots?",
+      answer: "Correct Answer: Because it has very fine particles that become sticky and mouldable when wet.",
+      explanation: "Explanation: Clay's ability to hold its shape is due to its tiny, tightly-packed particles.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: A farmer notices that after a heavy rain, his field stays flooded for three days. What soil type does he likely have?",
+      answer: "Correct Answer: Clay Soil.",
+      explanation: "Explanation: Clay has very low drainage, meaning water cannot move through it easily, leading to flooding.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why do we call the root's surface a 'semi-permeable membrane'?",
+      answer: "Correct Answer: Because it only allows certain small molecules like water to pass through while blocking larger particles.",
+      explanation: "Explanation: Like a sieve or a net, it is selective about what enters the plant.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: If a farmer puts fertilizer on sandy soil right before a heavy rain, why might the fertilizer be wasted?",
+      answer: "Correct Answer: The water will drain through the sand very quickly and wash the dissolved fertilizer away (leaching) before the roots can absorb it.",
+      explanation: "Explanation: Sand doesn't hold onto the 'nutrient soup' long enough.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: In Osmosis, does water move toward the area with more salt or less salt?",
+      answer: "Correct Answer: Water moves toward the area with more salt (inside the root).",
+      explanation: "Explanation: Water always moves to 'dilute' higher concentrations of substances.",
+    ),
+  ],
+);
+final PracticeModel Scijhs2s5ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: You find a rock that has very clear layers, like a book. Which family does it likely belong to?",
+      answer: "Correct Answer: Sedimentary Rocks.",
+      explanation: "Explanation: Layers form when sediment (mud and sand) settles over long periods of time.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How can a tiny plant root break a hard rock?",
+      answer: "Correct Answer: As the root grows thicker, it exerts pressure on the walls of the crack, eventually forcing the rock to split apart.",
+      explanation: "Explanation: This is an example of biological weathering.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is the hot sun in Ghana considered an agent of weathering?",
+      answer: "Correct Answer: The heat causes the outer layers of the rock to expand and eventually peel off or crack.",
+      explanation: "Explanation: This physical change breaks the rock into smaller fragments.",
     ),
   ],
 );
@@ -8193,6 +9973,332 @@ final PracticeModel Scijhs3s4ss5Lesson3PracticeData = PracticeModel(
       scenario: "3.Question: Why do we apply paint or oil to the metal blade after finishing a tool?",
       answer: "Correct Answer: To prevent the metal from rusting.",
       explanation: "Explanation: Paint acts as a barrier between the iron and the moisture in the air, stopping the chemical reaction that causes rust.",
+    ),
+  ],
+);
+
+final PracticeModel Scijhs3s5ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A local drinking bar has a large crate of broken glass bottles. Which waste management method should they use?",
+      answer: "Correct Answer: They should use recycling.",
+      explanation: "Explanation: Glass is a non-organic material that can be melted down in a factory to create new glass containers without losing quality.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A farmer in the Volta Region has a large pile of cocoa pod husks after harvest. How can he use science to help his soil?",
+      answer: "Correct Answer: He should use composting.",
+      explanation: "Explanation: Cocoa pods are organic matter. By letting them decompose, the farmer creates natural fertiliser that returns nutrients to his cocoa farm.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Your school wants to reduce the amount of plastic paper and old notebooks going to the landfill. What system should the school prefect set up?",
+      answer: "Correct Answer: The school should set up a recycling collection system.",
+      explanation: "Explanation: Paper and plastic are materials that can be reprocessed into new paper and plastic goods, which helps save trees and reduces environmental pollution.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A plastic manufacturer takes old, shredded water sachets and melts them to make new buckets. What scientific principle is being used?",
+      answer: "Correct Answer: Physical State Change.",
+      explanation: "Explanation: The plastic is changing from a solid to a liquid and back to a solid to be reshaped, but it remains plastic.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A community waste plant burns rubbish to produce steam for electricity. Which principle is being applied?",
+      answer: "Correct Answer: Thermal Transformation (Combustion).",
+      explanation: "Explanation: The plant uses high heat to change the waste into gas and ash, releasing energy in the process.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does a pile of cocoa husks get hot in the middle when left in a compost pit?",
+      answer: "Correct Answer: It is due to the biological principle of decomposition.",
+      explanation: "Explanation: As microorganisms break down the organic matter, their activity releases heat as a byproduct of their metabolism.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: During a school audit, you find that the 'Paper Bin' is full of orange peels and leftover rice. What is your assessment of this waste management method?",
+      answer: "Correct Answer: The method is currently ineffective due to poor sorting accuracy.",
+      explanation: "Explanation: People are mixing organic waste with inorganic waste, which ruins the paper for recycling.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If a community audit shows that 90% of the litter in the gutters is plastic, what is the most effective scientific action to take?",
+      answer: "Correct Answer: Set up a dedicated plastic recycling collection point.",
+      explanation: "Explanation: Since the data shows plastic is the main problem, a targeted recycling system is the most scientific solution.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: What is the first step you should take before starting a new composting project at your school?",
+      answer: "Correct Answer: Conduct a waste audit.",
+      explanation: "Explanation: You need to audit the waste first to ensure the school produces enough organic matter to make composting worthwhile.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A person burns a pile of old tyres and plastic containers behind their house. What is the most immediate impact on the neighbors?",
+      answer: "Correct Answer: Air pollution and respiratory issues.",
+      explanation: "Explanation: Burning plastic and rubber releases toxic fumes that are harmful to breathe and can trigger asthma or coughing.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: If a village's drinking stream becomes filled with plastic and chemical runoff, what is a likely consequence for the fish?",
+      answer: "Correct Answer: The fish population will decrease due to poisoning or choking.",
+      explanation: "Explanation: Chemicals from waste pollute the water habitat, making it impossible for aquatic life to survive or reproduce.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why does clearing a forest to make a new \"landfill\" or dump site hurt the environment beyond just the trash?",
+      answer: "Correct Answer: It causes habitat destruction.",
+      explanation: "Explanation: It removes the trees and plants that animals rely on for food and shelter, forcing them to leave or die.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A local hotel produces a huge amount of food waste every day. What innovative technology could they use to save money on their kitchen gas bills?",
+      answer: "Correct Answer: They should install an Anaerobic Digester (Biogas plant).",
+      explanation: "Explanation: Food waste is organic. A digester turns that waste into biogas, which can be used for cooking instead of buying expensive fuel.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Your school wants to practice 'Waste Minimisation.' Instead of buying new plastic folders every term, what should the students do?",
+      answer: "Correct Answer: They should 'Reuse' their old folders or 'Reduce' use by using digital files.",
+      explanation: "Explanation: Reusing items prevents them from becoming waste, which is a key part of the 3Rs.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Why is 'Waste-to-Energy' considered better for 'Sustainable Development' than just burying waste in a landfill?",
+      answer: "Correct Answer: Because it recovers useful resources (energy) and reduces the space needed for trash.",
+      explanation: "Explanation: Burying waste wastes the energy inside the materials and takes up valuable land that could be used for farming or housing.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A carpenter in a village near Sunyani has a large pile of wood shavings and sawdust. What type of waste is this?",
+      answer: "Correct Answer: Industrial Waste.",
+      explanation: "Explanation: Since it comes from a manufacturing process (carpentry/timber), it is classified as industrial rather than domestic.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A community has a large bin, but it hasn't been emptied in three weeks, and people are starting to burn the trash inside it. Critique this practice.",
+      answer: "Correct Answer: This is a negative practice because the collection is inefficient and open burning causes air pollution.",
+      explanation: "Explanation: Waste management must be regular (efficient) and should avoid burning, which releases toxic fumes.",
+    ),
+    PracticeQuestion(
+      scenario: "3.Question: Which type of waste is most likely to be found in high amounts near a large hospital in Tamale?",
+      answer: "Correct Answer: Medical Waste.",
+      explanation: "Explanation: Hospitals produce specialized waste like used gloves and syringes that require specific scientific disposal methods.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is hypertension often called a \"silent\" disease?",
+      answer: "Correct Answer: It often has no obvious symptoms in the early stages while it damages the heart.",
+      explanation: "Explanation: Many people don't feel sick until the pressure is very high, which is why regular check-ups at the clinic are so important.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: List two lifestyle changes a Ghanaian student can make to prevent type 2 diabetes.",
+      answer: "Correct Answer: Eating more local vegetables and exercising regularly.",
+      explanation: "Explanation: Reducing sugar and being physically active helps the body manage blood sugar levels effectively.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a student has no physical pain but is constantly worried and cannot sleep, are they \"healthy\" according to the WHO?",
+      answer: "Correct Answer: No, because health includes mental and social well-being, not just the absence of physical pain.",
+      explanation: "Explanation: The WHO definition reminds us that our minds must be as healthy as our bodies for us to be truly well.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does clearing weeds and empty cans around a house help prevent Malaria?",
+      answer: "Correct Answer: It removes breeding sites for mosquitoes.",
+      explanation: "Explanation: Mosquitoes lay eggs in stagnant water found in empty containers or thick weeds; removing these breaks the cycle of the disease.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Esi noticed a round, itchy red patch on her arm after sharing a sweater with a friend. What is likely happening?",
+      answer: "Correct Answer: She has likely contracted Ringworm from the shared clothing.",
+      explanation: "Explanation: Fungi can live on fabric; sharing unwashed clothes is a common way for the infection to jump from person to person.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why is it a bad idea for a student to wear the same sweaty socks for three days in a row?",
+      answer: "Correct Answer: The dark, damp, and warm environment inside the socks is perfect for fungi to grow.",
+      explanation: "Explanation: To prevent \"Athlete's foot,\" students should change into clean, dry socks every day and let their shoes air out.",
+    )
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A baker forgets to add yeast to his dough. Describe what the bread will look like after it is baked.",
+      answer: "Correct Answer: The bread will be flat, hard, and heavy.",
+      explanation: "Explanation: Without yeast, fermentation cannot occur. This means no carbon dioxide gas is produced to create the air pockets that make bread light and fluffy.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why must a blacksmith heat a piece of iron to a very high temperature before shaping it into an axe?",
+      answer: "Correct Answer: To make the metal malleable.",
+      explanation: "Explanation: Heating the metal increases its malleability, allowing the blacksmith to change its shape without the metal breaking.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: In salt production, what happens to the sea water when it is left in the sun?",
+      answer: "Correct Answer: The water evaporates into the air.",
+      explanation: "Explanation: The sun provides heat energy that changes the liquid water into water vapour (gas), leaving the solid salt crystals behind in the pan.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A woman in a village uses a mortar and pestle to pound palm nuts for oil. Is this indigenous or modern technology?",
+      answer: "Correct Answer: Indigenous technology.",
+      explanation: "Explanation: She is using manual labour and a traditional, simple tool (the mortar and pestle) that has been used in Ghana for generations.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A group of companies all making the same type of fruit juice is called the ________ industry.",
+      answer: "Correct Answer: Beverage (or Fruit Juice) industry.",
+      explanation: "Explanation: An industry is defined as a group of firms or companies producing the same commodity or service.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A factory uses a computer-controlled machine to weave 1,000 metres of fabric in an hour. Why is this considered modern?",
+      answer: "Correct Answer: Because it uses advanced machinery and automation.",
+      explanation: "Explanation: Modern industry is characterised by the use of complex technology to produce goods at high speeds and in large quantities.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why is grated cassava kept in a sack for two or three days when making Gari?",
+      answer: "Correct Answer: To allow for fermentation and to squeeze out excess water.",
+      explanation: "Explanation: Fermentation helps develop the flavour and remove toxins, while the time in the sack under pressure removes moisture.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: In the production of local alcohol, what happens during the \"condensation\" stage?",
+      answer: "Correct Answer: The hot alcohol vapour cools down and turns back into a liquid.",
+      explanation: "Explanation: Condensation is the scientific process of a gas (vapour) turning back into a liquid when it is cooled.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What are the two main ingredients needed for the chemical reaction of saponification (soap making)?",
+      answer: "Correct Answer: Fats (oils) and an alkali (like wood ash solution).",
+      explanation: "Explanation: Saponification requires a fat and a strong base (alkali) to react together to form soap.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A large volcano erupts and covers the sky with ash. Is this a natural or human factor?",
+      answer: "Correct Answer: This is a natural factor.",
+      explanation: "Explanation: Volcanic eruptions happen due to the Earth's internal heat and are not caused by people.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: A company in Tema decides to use solar panels instead of a diesel generator. Which part of the green economy is this?",
+      answer: "Correct Answer: This is low carbon energy (or renewable energy).",
+      explanation: "Explanation: Using the sun instead of burning fuel reduces the amount of CO₂ released.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why does cutting down trees in the forest lead to global warming?",
+      answer: "Correct Answer: Because trees absorb carbon dioxide.",
+      explanation: "Explanation: Without trees, there is more carbon dioxide in the air to trap heat.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Planting millions of trees on 'Green Ghana Day.' Where is this initiative focused?",
+      answer: "Correct Answer: This is a key initiative in Ghana.",
+      explanation: "Explanation: It is a local program designed to restore Ghana's forest cover.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Using high-speed electric trains to travel between cities. Is this currently a major climate action in Ghana or in places like Europe and China?",
+      answer: "Correct Answer: This is more common in Europe and China.",
+      explanation: "Explanation: While Ghana is improving transport, high-speed electric rail is currently a major global technology.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Signing the Paris Agreement to help the whole world stay cool.",
+      answer: "Correct Answer: This involves both Ghana and other countries.",
+      explanation: "Explanation: The Paris Agreement is an international treaty that almost every country in the world has joined.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: If a farmer in Ghana wants to plant new cassava, which part of the existing plant should they use?",
+      answer: "Correct Answer: The stem (cuttings).",
+      explanation: "Explanation: Cassava is grown using vegetative propagation, where the stem is cut into pieces and planted to grow new roots and leaves.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why would a farmer grow beans or peas in a field that has 'tired' or poor soil?",
+      answer: "Correct Answer: To improve soil fertility.",
+      explanation: "Explanation: Legumes like beans have roots that fix nitrogen into the soil, acting as a natural fertiliser for the next crop.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Give one example of how plant stems are used to help a farmer handle their work physically.",
+      answer: "Correct Answer: Stems are used to make tool handles.",
+      explanation: "Explanation: Strong wood from tree stems is shaped into handles for hoes and axes, which are essential for manual farming in Ghana.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: A carpenter in Kumasi is making a traditional Ashanti stool. Which part of the tree is he primarily using?",
+      answer: "Correct Answer: The stem (trunk).",
+      explanation: "Explanation: The stem of large trees provides the solid timber required for carving furniture and traditional stools.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: Why are wreaths made of flowers and leaves used at funerals in Ghana?",
+      answer: "Correct Answer: For ceremonial purposes and to show respect.",
+      explanation: "Explanation: In a non-agricultural context, flowers and leaves are used as symbols in rituals and ceremonies like funerals and weddings.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: How does a root contribute to the beauty of a piece of Kente cloth?",
+      answer: "Correct Answer: By providing natural dyes.",
+      explanation: "Explanation: Many plant roots contain pigments that are used to create natural dyes for colouring the threads used in weaving.",
+    ),
+  ],
+);
+final PracticeModel Scijhs3s5ss5Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/5. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1.Question: Why does a farmer spread grass out in the sun for several days before storage?",
+      answer: "Correct Answer: To make hay (curing).",
+      explanation: "Explanation: Drying the grass removes moisture, which prevents the growth of mould and allows the grass to be stored for a long time as animal feed.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: What is the purpose of passing a plantain leaf over a fire before using it to wrap food?",
+      answer: "Correct Answer: To make it flexible (wilting).",
+      explanation: "Explanation: The heat softens the leaf fibers, preventing the leaf from cracking when it is folded around the food.",
+    ),
+    PracticeQuestion(
+      scenario: "2.Question: When preparing a cassava stem for planting, why is it important to have 'nodes' on the cutting?",
+      answer: "Correct Answer: Because new shoots grow from the nodes.",
+      explanation: "Explanation: Nodes contain the buds necessary for the plant to sprout new leaves and stems after being placed in the soil.",
     ),
   ],
 );

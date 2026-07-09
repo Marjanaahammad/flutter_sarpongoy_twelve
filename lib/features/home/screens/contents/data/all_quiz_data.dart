@@ -3362,6 +3362,2455 @@ final QuizModel s3ss3Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel s4ss1Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which word shows a result? \"It rained heavily, ______ the football pitch was flooded.\"",
+      options: ["although", "because", "so that", "unless"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'So that' (or 'so') introduces the result of the heavy rain.",
+    ),
+    QuizQuestion(
+      question:
+          "2. \"Ekow wanted to buy a new shirt. ________, he did not have enough Cedis.\"",
+      options: ["Furthermore", "However", "Firstly", "Therefore"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'However' is used to show a contrast between wanting the shirt and not having enough money.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Identify the time conjunction: \"Please wait here ______ the bus arrives.\"",
+      options: ["until", "since", "because", "although"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Until' indicates the time limit for waiting.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which pronoun is an object pronoun? \"The teacher gave the books to ______.\"",
+      options: ["they", "she", "us", "we"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Us' is the object pronoun receiving the action.",
+    ),
+    QuizQuestion(
+      question:
+          "5. \"_______ the weather was bad, the fishermen went out to sea.\"",
+      options: ["Because", "Although", "Since", "If"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Although' shows contrast—they went to sea despite the bad weather.",
+    ),
+    QuizQuestion(
+      question:
+          "6. To add more information to a paragraph about farming, which word is best?",
+      options: ["Finally", "Moreover", "But", "Or"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Moreover' is used to introduce additional supporting information.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Choose the correct sentence: \"If you study hard, ________.\"",
+      options: [
+        "you would passed",
+        "you will pass",
+        "you passed",
+        "you passing"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A first conditional sentence uses 'If + present simple' followed by 'will + verb'.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Replace the repetition: \"The mangoes are ripe. Eat [the mangoes] now.\"",
+      options: ["it", "they", "them", "those"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Them' is the correct object pronoun for plural nouns.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which word fits best? \"You must wash your hands ______ you eat your waakye.\"",
+      options: ["before", "after", "while", "since"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Good hygiene requires washing your hands before eating.",
+    ),
+    QuizQuestion(
+      question:
+          "10. \"The road was blocked. ________, the trotro had to take a different route.\"",
+      options: ["Nevertheless", "Although", "However", "Consequently"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "'Consequently' shows that taking a different route was the direct result of the road being blocked.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which sense is used here: \"The velvet fabric of the Kente cloth felt soft against his skin.\"",
+      options: ["Touch", "Taste", "Sight", "Sound"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Soft' and 'against his skin' refer to the sense of touch.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which adjective is the most descriptive for a beautiful garden?",
+      options: ["Good", "Fine", "Lush", "Okay"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'Lush' vividly describes a garden full of thick, healthy green plants.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"The sun set behind the mountains.\" Which version is more descriptive?",
+      options: [
+        "The sun went down.",
+        "The fiery orange sun dipped slowly behind the jagged blue mountains.",
+        "It was evening and the sun disappeared.",
+        "The sun was bright but then it was gone."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "This sentence uses vivid colours and precise details to create a clear mental picture.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the purpose of a 'Topic Sentence' in a descriptive paragraph?",
+      options: [
+        "To end the story.",
+        "To introduce the main object or place being described.",
+        "To list all the characters.",
+        "To ask the reader a question."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The topic sentence introduces the main subject and prepares the reader for the description.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Choose the best phrase for a sound description of a rainy night:",
+      options: ["Bright", "Rough", "Sweet", "Rhythmic patter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'Rhythmic patter' describes the repeating sound of raindrops falling.",
+    ),
+    QuizQuestion(
+      question:
+          "6. If you are describing a classroom from 'near to far', what comes last?",
+      options: [
+        "The pen in your hand",
+        "The student sitting next to you",
+        "The trees visible through the far window",
+        "The desk you are sitting at"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Descriptions from near to far finish with the objects that are furthest away.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Identify the dominant impression: \"The dark, damp cellar was filled with cobwebs and the sound of scratching.\"",
+      options: ["Joyful", "Eerie", "Busy", "Bright"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Words like 'dark', 'damp', 'cobwebs', and 'scratching' create a scary, eerie mood.",
+    ),
+    QuizQuestion(
+      question: "8. Which word is a precise adjective for a very small kitten?",
+      options: ["Big", "Minuscule", "Large", "Average"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Minuscule' is a more exact and descriptive word for something extremely small.",
+    ),
+    QuizQuestion(
+      question:
+          "9. \"The Jollof rice was ________.\" Which phrase best describes taste?",
+      options: ["Red", "In a bowl", "Savoury and peppery", "Hot"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Savoury and peppery' describes the flavour of the food.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should you avoid using words like 'very' or 'really' in descriptive writing?",
+      options: [
+        "They are too long.",
+        "They are too colourful.",
+        "They are often weak; it is better to use one strong adjective.",
+        "They are only used in science books."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Strong adjectives such as 'massive' are more effective than phrases like 'very big'.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson3QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which word is best for starting a paragraph about a trip to Accra?",
+      options: ["Finally", "Moreover", "However", "To start with"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'To start with' introduces the beginning of a sequence or narrative.",
+    ),
+    QuizQuestion(
+      question: "2. \"______ the sun rose, the farmers began their work.\"",
+      options: ["Until", "While", "As", "Although"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'As' shows that the farmers began working at the same time the sun rose.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Choose the word that shows a short time has passed: \"The bus arrived. ______, we were on our way to Kumasi.\"",
+      options: ["Since", "Soon", "Until", "Although"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Soon' indicates that only a short time passed before the next event.",
+    ),
+    QuizQuestion(
+      question: "4. Which sentence is logically organised?",
+      options: [
+        "I ate dinner. Then I cooked it.",
+        "I went to bed. Later, I woke up.",
+        "I won the race. Before, I started running.",
+        "Finally, I arrived. First, I left home."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This sentence follows the natural order of events in time.",
+    ),
+    QuizQuestion(
+      question: "5. \"I stayed at the library ______ it closed at 5:00 PM.\"",
+      options: ["when", "after", "while", "until"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Until' shows the point in time when the action ended.",
+    ),
+    QuizQuestion(
+      question: "6. Which connector shows a sudden interruption?",
+      options: ["All of a sudden", "Then", "Firstly", "Afterwards"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "'All of a sudden' introduces an unexpected event or interruption.",
+    ),
+    QuizQuestion(
+      question: "7. \"______ I was cleaning my room, I found my lost pen.\"",
+      options: ["While", "Until", "Before", "Then"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'While' shows that one action happened during another ongoing action.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Complete the sequence: \"First, I bought the cloth. Next, I took it to the tailor. ______, I wore my new outfit to church.\"",
+      options: ["Soon", "Meanwhile", "Finally", "Because"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Finally' signals the last event in a sequence.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Identify the time clause: \"Since he moved to Tamale, he has been very happy.\"",
+      options: [
+        "He has been",
+        "Since he moved to Tamale",
+        "Very happy",
+        "Moved to"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The clause beginning with 'Since' expresses the starting point in time.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In a narrative about a football match, what should the middle paragraph contain?",
+      options: [
+        "The final score and going home.",
+        "The exciting goals and the struggle during the game.",
+        "What you ate for breakfast that morning.",
+        "A list of all the players' names and ages."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The middle of a narrative focuses on the main events, action, or conflict.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson4QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word introduces a clause of manner?",
+      options: [
+        "Where",
+        "Since",
+        "As",
+        "Therefore",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "'As' is used to show the manner in which an action is done.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"You may sit ______ you like in the assembly hall.\"",
+      options: [
+        "wherever",
+        "although",
+        "because",
+        "the way",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Wherever' shows an open choice of place.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence uses an imperative verb for an instruction?",
+      options: [
+        "I am going to the market.",
+        "Turn left at the Pharmacy.",
+        "He went to the park.",
+        "The sun is very hot.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'Turn' is an imperative verb used to give a command or instruction.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a set of directions, what does \"secondly\" indicate?",
+      options: [
+        "The end of the trip.",
+        "The reason for the trip.",
+        "The second step in the sequence.",
+        "The way you should walk.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Secondly' is a logical connector used for ordering ideas.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"Stir the porridge ______ it becomes thick and smooth.\"",
+      options: [
+        "wherever",
+        "until",
+        "as if",
+        "because",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Until' shows the time limit for the action.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a place clause?",
+      options: [
+        "Like a professional.",
+        "Where the two paths meet.",
+        "Firstly, wash your hands.",
+        "Because it is raining.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This clause describes a specific location.",
+    ),
+
+// Questions 7–9 are missing from the uploaded images.
+
+    QuizQuestion(
+      question: "10. Why is logical ordering important in writing directions?",
+      options: [
+        "To make the writing look longer.",
+        "To avoid using any punctuation.",
+        "To use as many adjectives as possible.",
+        "To ensure the reader reaches the destination safely and correctly.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Logical sequence is essential for clarity and success in instructional writing.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson5QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is a connector of addition?",
+      options: [
+        "Moreover",
+        "But",
+        "Although",
+        "Because",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Moreover' is used to add more information to a point.",
+    ),
+    QuizQuestion(
+      question:
+          "2. \"______ the journey is long, the visit to the Paga Crocodile Pond is worth it.\"",
+      options: [
+        "Although",
+        "Therefore",
+        "Consequently",
+        "Because",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'Although' shows the contrast between the long journey and the worthwhile visit.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a persuasive essay, where should the strongest argument usually go?",
+      options: [
+        "At the very end.",
+        "In the first body paragraph.",
+        "Hidden in the middle.",
+        "In a different essay.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Placing your strongest point early helps grab and hold the reader's attention.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which word shows a logical result? \"The bridge is broken; ______, we cannot cross the river.\"",
+      options: [
+        "However",
+        "While",
+        "Although",
+        "Therefore",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "'Therefore' links the cause (broken bridge) to the effect (cannot cross).",
+    ),
+    QuizQuestion(
+      question:
+          "5. \"While some prefer Kenkey, others love Banku.\" What does 'While' do here?",
+      options: [
+        "It shows the time.",
+        "It introduces a concession or contrast.",
+        "It lists the steps of a recipe.",
+        "It ends the sentence.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "'While' is used here to show a difference in opinion or a contrast.",
+    ),
+    QuizQuestion(
+      question: "6. Which sentence is most persuasive?",
+      options: [
+        "We should maybe think about a new bus.",
+        "A new school bus is essential so that students arrive on time and ready to learn.",
+        "Buses are usually yellow or white.",
+        "My uncle drives a tro-tro in Accra.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "This sentence uses a result clause ('so that') and strong language to make a clear case.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Identify the result clause: \"We should plant a garden so that we can have fresh vegetables.\"",
+      options: [
+        "We should plant",
+        "A garden",
+        "So that we can have fresh vegetables",
+        "Fresh vegetables",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The clause beginning with 'so that' explains the purpose or result.",
+    ),
+    QuizQuestion(
+      question:
+          "8. \"______ the market is crowded, we can still find the best yams there.\"",
+      options: [
+        "Since",
+        "Even though",
+        "Therefore",
+        "Because",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "'Even though' introduces a contrast before the positive result.",
+    ),
+    QuizQuestion(
+      question: "9. What is the purpose of using 'Furthermore' in an argument?",
+      options: [
+        "To say goodbye.",
+        "To introduce an opposite idea.",
+        "To provide an additional, supporting reason.",
+        "To ask a question.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "'Furthermore' strengthens an argument by adding more supporting evidence.",
+    ),
+    QuizQuestion(
+      question:
+          "10. \"The forest is being cut down. ______, many rare birds are losing their homes.\"",
+      options: [
+        "However",
+        "Consequently",
+        "Although",
+        "But",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Consequently' shows the direct and serious result of the forest being destroyed.",
+    ),
+  ],
+);
+final QuizModel s4ss1Lesson6QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary purpose of expository writing?",
+      options: [
+        "To inform or explain a topic.",
+        "To tell a funny story.",
+        "To express deep feelings.",
+        "To write a poem.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Expository writing is factual and informative, aiming to explain a topic clearly.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a formal heading for a notice?",
+      options: [
+        "Hey Everyone!",
+        "NOTICE: INTER-HOUSE SPORTS COMPETITION",
+        "Something is happening Friday",
+        "Guess What?",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A formal heading uses clear, capitalised text to show the subject of the notice.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"The assembly will ______ in the courtyard.\" (Use a formal word for 'happen').",
+      options: [
+        "take place",
+        "go on",
+        "be there",
+        "do",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "'Take place' is a formal phrase commonly used to describe events.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should an explanation use sequence connectors like 'Next' and 'After that'?",
+      options: [
+        "To make it sound like a story.",
+        "To help the reader follow the steps in a logical order.",
+        "To make the sentences longer.",
+        "To avoid using full stops.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Logical sequencing helps readers understand ideas and processes clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where does the name of the person who wrote the notice usually go?",
+      options: [
+        "Inside the heading.",
+        "At the very bottom (Sign-off).",
+        "In the middle of the date.",
+        "It is not needed.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The sign-off identifies the person responsible for the notice.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which word is a synonym for 'compulsory' in a school notice?",
+      options: [
+        "Optional",
+        "Possible",
+        "Nice",
+        "Required",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "'Required' (or 'Mandatory') is a formal synonym for 'compulsory'.",
+    ),
+    QuizQuestion(
+      question:
+          "7. In an explanation of how to plant a tree, what comes after 'Dig a hole'?",
+      options: [
+        "Eat a mango.",
+        "To start with, find a shovel.",
+        "Finally, the tree is big.",
+        "Place the seedling in the hole.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Placing the seedling in the hole is the next logical step after digging the hole.",
+    ),
+    QuizQuestion(
+      question:
+          "8. \"Regarding the new school fees, parents are asked to pay at the bank.\" What does 'Regarding' mean?",
+      options: [
+        "Against",
+        "About / Concerning",
+        "Because of",
+        "Instead of",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "'Regarding' is a formal word meaning 'about' or 'concerning'.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is NOT usually found in a public notice?",
+      options: [
+        "Date",
+        "Venue",
+        "Dialogue between characters",
+        "Time",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Public notices are factual; dialogue belongs in narrative writing.",
+    ),
+    QuizQuestion(
+      question: "10. What makes an explanation 'coherent'?",
+      options: [
+        "It has many pictures.",
+        "The sentences are linked in a way that makes sense to the reader.",
+        "It uses a lot of slang.",
+        "It is written in very small letters.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Coherence comes from logical organisation and clear links between ideas.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary purpose of an advertisement?",
+      options: [
+        "To tell a long story about a family.",
+        "To persuade an audience to take action.",
+        "To list the history of Ghana.",
+        "To explain how to solve a maths problem.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Advertisements are designed to convince or persuade people to take action.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which part of an advert is designed to grab the reader's attention first?",
+      options: [
+        "The title.",
+        "The subscription.",
+        "The page number.",
+        "The index.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The title is the bold heading that catches the reader's eye immediately.",
+    ),
+    QuizQuestion(
+      question:
+          "3. \"Are you tired of slow internet?\" is an example of which technique?",
+      options: [
+        "A command.",
+        "A rhetorical question.",
+        "A simple present fact.",
+        "An adjective phrase.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A rhetorical question is asked to make the reader think, not to receive a literal answer.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which word is a descriptive adjective that would help sell a chilled drink?",
+      options: [
+        "Quickly.",
+        "Drink.",
+        "Refreshing.",
+        "Because.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Refreshing' vividly describes the quality of the drink.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In the sentence \"Buy two, get one free!\", which word is the imperative?",
+      options: [
+        "Two.",
+        "One.",
+        "Free.",
+        "Buy.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "'Buy' is the command word telling the reader what to do.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What information is usually found in the body of an advert for a concert?",
+      options: [
+        "The price of bread in the market.",
+        "The date, venue, and performers.",
+        "The names of the student's siblings.",
+        "A list of all the schools in the district.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The body contains the essential information about the event or product.",
+    ),
+    QuizQuestion(
+      question: "7. Why is it important to identify a Target Market?",
+      options: [
+        "So you can talk to everyone in the world.",
+        "To make sure your message reaches the right people.",
+        "To find out where the nearest market is located.",
+        "To practise your drawing skills.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Knowing your audience helps you tailor your persuasive language effectively.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these sentences uses persuasive repetition?",
+      options: [
+        "Our bread is soft, fresh, and very tasty.",
+        "Quality service, quality products, quality prices.",
+        "You can buy this at any shop in Kumasi.",
+        "The sun is shining brightly today.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Repeating the word 'quality' emphasizes the high standard of the business.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If you are writing an advert for a local hair salon, which selling point is most persuasive?",
+      options: [
+        "We have chairs for you to sit on.",
+        "Our salon is located in a building.",
+        "Get the trendiest braids in Accra!",
+        "We use water to wash hair.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "A strong selling point highlights a specific benefit that attracts customers.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which grammatical structure is used to show a timeless benefit of a product?",
+      options: [
+        "Past continuous.",
+        "Simple present.",
+        "Future perfect.",
+        "Past participle.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The simple present tense expresses timeless facts and general benefits.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson2QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of a process text lists the tools needed?",
+      options: [
+        "The Aim",
+        "The Materials",
+        "The Conclusion",
+        "The Sequence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The materials section identifies everything needed before starting.",
+    ),
+    QuizQuestion(
+      question: "2. \"First,\" \"Next,\" and \"After that\" are known as:",
+      options: [
+        "Adjectives",
+        "Pronouns",
+        "Connectors of sequence",
+        "Verbs",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "These words signal the order in which the steps should be followed.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which step should come first in the process of \"Making a Phone Call\"?",
+      options: [
+        "Say \"Hello.\"",
+        "Dial the number.",
+        "Wait for the person to answer.",
+        "Find the contact in your phone.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "You must first find the contact before you can dial or speak.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is a noun phrase?",
+      options: [
+        "Running fast",
+        "Very slowly",
+        "A large clay pot",
+        "Under the table",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A noun phrase names a person, place, or thing—in this case, a specific object.",
+    ),
+    QuizQuestion(
+      question: "5. Why do we use the simple present tense in instructions?",
+      options: [
+        "To talk about what happened yesterday.",
+        "To show the steps are a timeless procedure.",
+        "To express a wish for the future.",
+        "To make the text sound like a story.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Instructions describe actions that are always carried out in the same way.",
+    ),
+    QuizQuestion(
+      question: "6. What is the purpose of using headings in a process text?",
+      options: [
+        "To help the reader identify key topics.",
+        "To make the page look colourful.",
+        "To hide important information.",
+        "To count the number of words.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Headings organize the information and help readers navigate the text.",
+    ),
+    QuizQuestion(
+      question:
+          "7. \"Add a pinch of salt.\" The bolded words are an example of:",
+      options: [
+        "A quantifier",
+        "A verb",
+        "A connector",
+        "A title",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Quantifiers indicate the amount or quantity of an ingredient needed.",
+    ),
+    QuizQuestion(
+      question: "8. Which sentence is written as a clear instruction?",
+      options: [
+        "I think you should maybe cut the paper.",
+        "Cutting paper can be very fun.",
+        "I once saw someone cutting paper.",
+        "Cut the paper into two equal halves.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A good instruction uses direct, precise, imperative language.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In a process for \"Planting a Tree,\" which step is out of order?\n1. Dig a hole.\n2. Water the tree.\n3. Place the seedling in the hole.\n4. Fill the hole with soil.",
+      options: [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The tree should be watered after it has been planted and the hole has been filled with soil.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which visual aid would best help explain \"How to tie a tie\"?",
+      options: [
+        "A photo of a man in a suit.",
+        "A map of a clothing shop.",
+        "A list of famous people who wear ties.",
+        "A diagram showing the direction of the folds.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A step-by-step diagram makes it easier to understand actions that are difficult to explain with words alone.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson3QuizData = QuizModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. To whom would you most likely write an informal letter?",
+      options: [
+        "The Director of Education.",
+        "A bank manager.",
+        "Your cousin in Cape Coast.",
+        "A shop owner you've never met.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Informal letters are written to friends and family members.",
+    ),
+    QuizQuestion(
+      question: "2. What is the correct order for the top of the letter?",
+      options: [
+        "Date then Address.",
+        "Address then Date.",
+        "Salutation then Address.",
+        "Body then Date.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The writer's address comes first at the top right, followed by the date.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of these is a first-person pronoun often used in letters?",
+      options: [
+        "They",
+        "He",
+        "I",
+        "It",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "\"I\" is used to share personal thoughts, feelings, and news.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which salutation is most appropriate for a letter to your brother?",
+      options: [
+        "Dear Mr. Mensah,",
+        "Hello Brother Yaw,",
+        "To Whom It May Concern,",
+        "Dear Sir/Madam,",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Informal letters use friendly greetings with familiar names or titles.",
+    ),
+    QuizQuestion(
+      question: "5. What is the purpose of the body of the letter?",
+      options: [
+        "To show the writer's address.",
+        "To state the date.",
+        "To convey the main message or news.",
+        "To sign the writer's name.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The body contains the main message, ideas, or information the writer wants to communicate.",
+    ),
+    QuizQuestion(
+      question:
+          "6. \"I was overjoyed to hear you are coming home.\" The word \"overjoyed\" is:",
+      options: [
+        "A connector.",
+        "An adjective.",
+        "A noun.",
+        "A preposition.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "\"Overjoyed\" describes the writer's feeling, so it is an adjective.",
+    ),
+    QuizQuestion(
+      question: "7. Which of these is NOT a feature of an informal letter?",
+      options: [
+        "A formal heading like \"Letter of Application.\"",
+        "A friendly greeting.",
+        "Personal news and stories.",
+        "A writer's address.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A formal heading such as \"Letter of Application\" belongs to formal letters, not informal ones.",
+    ),
+    QuizQuestion(
+      question: "8. Which subscription is best for a letter to your mother?",
+      options: [
+        "Yours faithfully,",
+        "Your loving daughter,",
+        "Yours sincerely,",
+        "Sincerely yours,",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "\"Your loving daughter\" reflects the close family relationship in an informal letter.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When writing the date, which is the most common British English format used in Ghana?",
+      options: [
+        "2026/02/12",
+        "12th February, 2026",
+        "Feb-12-26",
+        "12-02-26",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "British English commonly uses the Day–Month–Year format, such as \"12th February, 2026.\"",
+    ),
+    QuizQuestion(
+      question:
+          "10. If you are inviting a friend to the Homowo festival, your tone should be:",
+      options: [
+        "Angry and demanding.",
+        "Cold and very formal.",
+        "Enthusiastic and welcoming.",
+        "Sad and apologetic.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "An invitation to a celebration should sound warm, friendly, and enthusiastic.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson4QuizData = QuizModel(
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. How many addresses does a formal letter usually contain?",
+        options: [
+          "One",
+          "Two",
+          "Three",
+          "None",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A formal letter contains both the writer's address and the recipient's address.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which part of the letter summarizes the main purpose in a few words?",
+        options: [
+          "The Salutation",
+          "The Date",
+          "The Heading (Subject)",
+          "The Subscription",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The subject heading tells the reader immediately what the letter is about.",
+      ),
+      QuizQuestion(
+        question:
+            "3. What is the most appropriate way to write the date in a formal letter?",
+        options: [
+          "2/2/26",
+          "2nd February, 2026",
+          "Feb 2nd",
+          "'26 Feb 2",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "In formal letters, the date should be written out clearly in full.",
+      ),
+      QuizQuestion(
+        question: "4. Which sentence uses the most professional tone?",
+        options: [
+          "Give me a job at your shop.",
+          "I am writing to apply for a position at your pharmacy.",
+          "I'd love to work for you guys.",
+          "Can I have some work to do?",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "This sentence uses formal vocabulary and a professional tone suitable for an application.",
+      ),
+      QuizQuestion(
+        question:
+            "5. If you write to a female official whose name you do not know, what salutation should you use?",
+        options: [
+          "Dear Madam,",
+          "Dear Sir,",
+          "Hello Lady,",
+          "Dear Auntie,",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "\"Dear Madam,\" is the standard formal salutation for an unknown female official.",
+      ),
+      QuizQuestion(
+        question: "6. What does \"Yours faithfully\" imply in a subscription?",
+        options: [
+          "That you are the person's best friend.",
+          "That you do not know the recipient personally.",
+          "That you are writing to a family member.",
+          "That you are very angry.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "\"Yours faithfully\" is the standard closing when the recipient's name is unknown.",
+      ),
+      QuizQuestion(
+        question: "7. Which of these is a formal modal verb used for requests?",
+        options: [
+          "Wanna",
+          "Gotta",
+          "Would",
+          "Maybe",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "\"Would\" is a polite modal verb commonly used in formal requests.",
+      ),
+      QuizQuestion(
+        question:
+            "8. When writing an application for a holiday job, what should you mention in the body?",
+        options: [
+          "Your favourite football team.",
+          "Your relevant skills and why you want the job.",
+          "What you ate for breakfast.",
+          "Your complaints about school.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+            "A formal application should explain your qualifications, skills, and interest in the position.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following is written correctly for a formal signature block?",
+        options: [
+          "(Signature) / kwame mensah",
+          "(Signature) / KWAME MENSAH",
+          "Kwame / (Signature)",
+          "(Signature) only",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+            "The full name is written clearly in block capitals below the signature.",
+      ),
+      QuizQuestion(
+        question:
+            "10. A formal letter to the \"Director of Education\" should be:",
+        options: [
+          "Short, polite, and to the point.",
+          "Long and full of jokes.",
+          "Written in red ink.",
+          "Full of text-message slang like \"LOL.\"",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Professional formal letters should be polite, concise, and respectful.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson5QuizData = QuizModel(
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which piece of source information tells you who provided the facts?",
+        options: [
+          "The Title",
+          "The Author/Speaker",
+          "The Date",
+          "The Page Number",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The author or speaker is the person or source who provided the information.",
+      ),
+      QuizQuestion(
+        question: "2. What is the main purpose of a heading in your notes?",
+        options: [
+          "To decorate the top of the page.",
+          "To show how many words you have written.",
+          "To help you identify the key topic of a section.",
+          "To tell the teacher you are finished.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Headings divide notes into clear sections and help identify the main topic.",
+      ),
+      QuizQuestion(
+        question:
+            "3. If you see a list of steps in a textbook, how should you represent them in your notes?",
+        options: [
+          "As a single, long sentence.",
+          "By drawing a picture of the textbook.",
+          "In a flow chart or numbered sequence.",
+          "By skipping them entirely.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Processes and sequences are easiest to understand when shown with numbers or flow charts.",
+      ),
+      QuizQuestion(
+        question:
+            "4. \"K.P.P.\" standing for \"Keep People Protected\" in a lesson on safety is an example of:",
+        options: [
+          "A heading",
+          "A mnemonic",
+          "Source information",
+          "A summary",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A mnemonic is a memory aid that uses initials or patterns to help you remember information.",
+      ),
+      QuizQuestion(
+        question:
+            "5. What should you do if the teacher says something you already know very well?",
+        options: [
+          "Write it down five times to be sure.",
+          "Note it briefly or focus on the new information being shared.",
+          "Tell the teacher to stop talking.",
+          "Go to sleep.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Good note-taking focuses on new ideas and the most important points.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following is an example of a key point for a lesson on \"Forestry\"?",
+        options: [
+          "My uncle lives near a forest in Brong-Ahafo.",
+          "Forests help to prevent soil erosion.",
+          "There are many trees in the world today.",
+          "I like the colour green.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A key point is an important factual idea that supports understanding of the topic.",
+      ),
+      QuizQuestion(
+        question: "7. Why should you record the date on your notes?",
+        options: [
+          "To practice your numbers.",
+          "To help you organize your study schedule and track progress.",
+          "Because it is the law.",
+          "To fill up space on the paper.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Recording dates helps you keep track of when topics were taught and reviewed.",
+      ),
+      QuizQuestion(
+        question:
+            "8. When revising your notes, what is the best thing to add to make connections clearer?",
+        options: [
+          "More long sentences.",
+          "Your signature.",
+          "Random doodles of cars.",
+          "Arrows or lines between related ideas.",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Visual links such as arrows make relationships between ideas easier to understand.",
+      ),
+      QuizQuestion(
+        question:
+            "9. You are taking notes on a video about \"Solar Energy.\" You see a diagram of a solar panel. What should you do?",
+        options: [
+          "Ignore it and wait for the person to speak again.",
+          "Stop the video and go home.",
+          "Write \"There was a picture here.\"",
+          "Record or represent the diagram simply in your notes.",
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation:
+            "Important diagrams and visuals should be represented simply because they support understanding.",
+      ),
+      QuizQuestion(
+        question: "10. Effective note-taking helps a student to:",
+        options: [
+          "Avoid listening in class.",
+          "Summarise and remember information for future use.",
+          "Write faster than everyone else.",
+          "Use up all their notebooks quickly.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The main purpose of note-taking is to improve understanding, revision, and long-term memory.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson6QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the main goal of a poster or notice?",
+        options: [
+          "To write a secret message.",
+          "To cover up a hole in the wall.",
+          "To practice your cursive handwriting.",
+          "To provide information to a large group of people quickly.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Posters and notices are designed to communicate important information quickly to the public.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which of these is a detail that must be included in every event notice?",
+        options: [
+          "The colour of the school gate.",
+          "The venue (location).",
+          "The name of the writer's best friend.",
+          "A list of all the teachers' ages.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "People need to know where the event will take place.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. What should you do with the most important word in your notice?",
+        options: [
+          "Hide it at the bottom.",
+          "Write it in very small letters.",
+          "Make it bold and large.",
+          "Write it in yellow on white paper.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Large, bold text helps readers notice the most important information immediately.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. A notice about a \"School Excursion\" should include:",
+        options: [
+          "The destination, cost, and departure time.",
+          "A drawing of every student in the class.",
+          "The lyrics to the school anthem.",
+          "A map of the entire world.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A school excursion notice should give the practical details needed by students and parents.",
+      ),
+
+      QuizQuestion(
+        question: "5. Why is \"Less is More\" a good rule for posters?",
+        options: [
+          "Because paper is very expensive.",
+          "Because too much text makes a poster hard to read quickly.",
+          "Because teachers don't like reading.",
+          "Because short words are easier to spell.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Keeping posters brief and direct makes the message easier to understand.",
+      ),
+
+      QuizQuestion(
+        question: "6. Which of the following is a contact detail?",
+        options: [
+          "Friday at 2 PM.",
+          "The School Assembly Hall.",
+          "Call 024-000-0000 for tickets.",
+          "Bring your own water bottle.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Contact details tell readers how to get more information or assistance.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. What is the best way to format a list of items to bring on a trip?",
+        options: [
+          "A long, complicated sentence.",
+          "A numbered or bulleted list.",
+          "Scattering the words all over the page.",
+          "Writing them in a circle.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Bulleted or numbered lists make information easier to read and check.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. When designing for ICT media (such as a digital screen), you should use:",
+        options: [
+          "High-contrast colours.",
+          "Very tiny fonts.",
+          "Only black and white.",
+          "No text at all.",
+        ],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation:
+        "High-contrast colours improve readability on digital displays.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. Which heading is most likely for a community notice?",
+        options: [
+          "WASTE COLLECTION SCHEDULE",
+          "MY FAVOURITE HOBBY",
+          "WHY I LIKE APPLES",
+          "HAPPY BIRTHDAY TO ME",
+        ],
+        correctIndex: 0,
+        difficulty: "Hard",
+        explanation:
+        "Community notices usually provide information about public services or community events.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. If a notice says \"Urgent,\" where should that word be placed?",
+        options: [
+          "In a tiny footnote at the bottom.",
+          "On the back of the paper.",
+          "Prominently at the top.",
+          "Inside the contact information.",
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation:
+        "Urgent information should appear prominently at the top so readers notice it immediately.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson7QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the first step in writing an article?",
+        options: [
+          "Identifying the topic, purpose, and audience.",
+          "Writing the conclusion.",
+          "Printing the final copy.",
+          "Choosing a font colour.",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Planning by identifying the topic, purpose, and audience should happen before writing.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which part of an article should 'hook' the reader's attention?",
+        options: [
+          "The introduction",
+          "The by-line",
+          "The page number",
+          "The bibliography",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A strong introduction captures the reader's interest and encourages them to continue reading.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. If you write a rap poem about an environmental issue, it is still considered:",
+        options: [
+          "A formal letter.",
+          "An article or media text for publication.",
+          "A private diary entry.",
+          "A grocery list.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Articles and media texts can use creative formats to communicate with different audiences.",
+      ),
+
+      QuizQuestion(
+        question: "4. Why should you use headings in a long article?",
+        options: [
+          "To make the article look like a book.",
+          "To help the reader navigate different sub-topics easily.",
+          "To hide facts you aren't sure about.",
+          "To use up more paper.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Headings organise information and make articles easier to read and understand.",
+      ),
+
+      QuizQuestion(
+        question: "5. Which of these is a print resource for research?",
+        options: [
+          "A YouTube video",
+          "A podcast",
+          "A social media post",
+          "An encyclopaedia or textbook",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Textbooks and encyclopaedias are printed reference materials used for research.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What does it mean to 'generate ideas about challenging topics'?",
+        options: [
+          "To only write about things that are easy.",
+          "To think deeply and find facts about complex issues like climate change.",
+          "To ask someone else to write for you.",
+          "To draw pictures instead of writing.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Good article writing involves researching and thinking carefully about important or difficult topics.",
+      ),
+
+      QuizQuestion(
+        question: "7. A zine is a type of:",
+        options: [
+          "Computer virus.",
+          "Small, self-published magazine or publication.",
+          "Type of pen.",
+          "Musical instrument.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "A zine is a small, independently produced publication often used to share ideas or articles.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Which sentence is most appropriate for a report on a community meeting?",
+        options: [
+          "Everyone was shouting and it was a mess.",
+          "The meeting commenced at 10 AM with a discussion on sanitation.",
+          "I didn't like the man in the blue shirt.",
+          "We had a great time eating bofrot after.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Reports should be factual, objective, and use formal language.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. When classifying ideas for an article on 'Healthy Living,' which fact does NOT fit?",
+        options: [
+          "Eating fruits daily boosts the immune system.",
+          "Regular exercise strengthens the heart.",
+          "Ghana won its independence in 1957.",
+          "Drinking water helps skin health.",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Ghana's independence is a historical fact and is unrelated to healthy living.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. What is the ultimate goal of publishing an article on a 'given issue'?",
+        options: [
+          "To get a high grade only.",
+          "To share information and influence the thoughts or actions of others.",
+          "To show off how many words you know.",
+          "To fill up the school magazine.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Articles are published to inform, educate, or persuade readers and make a positive impact.",
+      ),
+    ]);
+final QuizModel s4ss2Lesson8QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is an interlocutor?",
+        options: [
+          "A person who writes books.",
+          "A person who takes part in a dialogue or conversation.",
+          "A type of punctuation mark.",
+          "A character who never speaks.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "An interlocutor is a person who participates in a conversation or dialogue.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which of these is a good strategy for writing impactful dialogue?",
+        options: [
+          "Including every 'Hello' and 'Goodbye.'",
+          "Writing ten sentences for every one answer.",
+          "Cutting out unnecessary greetings to get to the action.",
+          "Using very big words that nobody understands.",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Strong dialogue focuses on important exchanges instead of unnecessary greetings.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. What is the correct way to start the first word inside speech marks?",
+        options: [
+          "With a capital letter.",
+          "With a small letter.",
+          "With a number.",
+          "By underlining it.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A direct speech sentence normally begins with a capital letter inside the quotation marks.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Which Ghanaian expression would best fit a character who is surprised?",
+        options: [
+          "\"I am coming.\"",
+          "\"Kai!\" or \"Ei!\"",
+          "\"It is well.\"",
+          "\"Thank you.\"",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "\"Kai!\" and \"Ei!\" are common Ghanaian interjections expressing surprise.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. In the sentence: Abena asked, \"Where is my pen?\" — why is there a question mark?",
+        options: [
+          "Because the whole story is a mystery.",
+          "Because the words inside the speech marks are a question.",
+          "Because the author forgot how to use a full stop.",
+          "To show that Abena is shouting.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The punctuation matches the spoken words, which form a question.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What happens if you give every character the same voice?",
+        options: [
+          "The characters become flat and hard to tell apart.",
+          "The story becomes very easy to read.",
+          "The teacher gives you extra marks.",
+          "The dialogue becomes more realistic.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "Each character should have a unique way of speaking to make the dialogue realistic and interesting.",
+      ),
+
+      QuizQuestion(
+        question: "7. Which of these is a speech tag?",
+        options: [
+          "\"Hello there!\"",
+          "Under the tree.",
+          "The big red bus.",
+          "\"...\" muttered Kwesi.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A speech tag tells the reader who is speaking and sometimes how the words are spoken.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. When writing dialogue, using short sentences helps to:",
+        options: [
+          "Make the characters sound like they are in a hurry.",
+          "Make the page look neat.",
+          "Hide the fact that you have no ideas.",
+          "Mimic the natural rhythm of human speech.",
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation:
+        "Real conversations are usually made up of brief, natural exchanges.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. If a character is a market woman, her dialogue might include:",
+        options: [
+          "Technical scientific terms.",
+          "Persuasive language about prices and fresh goods.",
+          "Very formal legal definitions.",
+          "No words at all.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "A character's speech should reflect their occupation, environment, and daily experiences.",
+      ),
+
+      QuizQuestion(
+        question: "10. Why should you avoid long dialogue paragraphs?",
+        options: [
+          "They are too hard to print.",
+          "They turn the conversation into a monologue and slow down the pace.",
+          "They use too many speech marks.",
+          "They are only for poems.",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Dialogue should feel like a natural back-and-forth conversation rather than one long speech.",
+      ),
+    ]);
+final QuizModel s4ss3Lesson1QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. What is the first step when identifying information from a non-text source?",
+        options: [
+          "Writing a summary",
+          "Identifying source information like title and date",
+          "Creating a flow chart",
+          "Presenting to the class",
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation:
+        "The first step is to identify the source by checking details such as the title and date.",
+      ),
+
+      QuizQuestion(
+        question: "2. Which of the following is an example of source information?",
+        options: [
+          "A drawing of a cocoa pod",
+          "A list of student names",
+          "The title 'National Literacy Scores 2022'",
+          "A sentence describing a total",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The title identifies the source and helps readers know what the information is about.",
+      ),
+
+      QuizQuestion(
+        question: "3. In note-taking, what are mnemonics used for?",
+        options: [
+          "To increase the price of the book",
+          "To make the notes more memorable",
+          "To hide information from others",
+          "To replace the title of the table",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Mnemonics are memory aids that help you remember important information more easily.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. When you organise ideas from a table, what are you doing?",
+        options: [
+          "Deleting all the numbers",
+          "Making connections and writing clear sentences",
+          "Changing the original data",
+          "Printing the table again",
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation:
+        "Organising ideas means connecting information and presenting it in a clear way.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. Which tool is best for showing a step-by-step process found in data?",
+        options: [
+          "A list of random names",
+          "A flow chart",
+          "A blank page",
+          "A dictionary",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Flow charts clearly show the sequence of steps in a process.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. What should you do if you find a point in a table that you don't fully understand?",
+        options: [
+          "Ignore it completely",
+          "Record it as a follow-up idea to research later",
+          "Delete the table",
+          "Guess the meaning and write it down",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Good note-taking includes recording questions or ideas that need further research.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Kofi is presenting a bar chart to his class. What should he do to help them understand it?",
+        options: [
+          "Describe the graphical data in words",
+          "Stand silently and point at the screen",
+          "Read a story unrelated to the chart",
+          "Ask the students to draw their own charts",
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation:
+        "Explaining the graph in words helps the audience understand the information.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Why is it important to select key ideas rather than recording everything?",
+        options: [
+          "Because paper is very expensive",
+          "To ensure the most important information is clear",
+          "To make the presentation shorter than one minute",
+          "Because the teacher said so",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Selecting key ideas helps focus on the most important information.",
+      ),
+
+      QuizQuestion(
+        question: "9. Which of these is a non-text source?",
+        options: [
+          "A newspaper article",
+          "A school textbook chapter",
+          "A table showing rainfall levels",
+          "A handwritten letter",
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation:
+        "Tables, charts, graphs, and diagrams are examples of non-text sources.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. What is the final step before presenting your written data summary?",
+        options: [
+          "Drawing a new table",
+          "Editing and proofreading for sense and effect",
+          "Finding a new source of information",
+          "Choosing a different topic",
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation:
+        "Proofreading helps remove mistakes and ensures the summary is clear and accurate before presentation.",
+      ),
+    ]);
+
+final QuizModel s5ss1Lesson1QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. What is the definition of 'plot' in a written story?",
+        options: [
+          "The physical location of the story",
+          "The sequence of events that occur",
+          "The person telling the story",
+          "The moral lesson of the story",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The plot is the sequence of events that make up a story.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which element tells the reader where and when a story is happening?",
+        options: [
+          "Character",
+          "Conflict",
+          "Setting",
+          "Dialogue",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The setting describes the time and place in which the story happens.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. In The Girl Who Can, Adjoa is the main person the story follows. She is the:",
+        options: [
+          "Antagonist",
+          "Setting",
+          "Plot",
+          "Protagonist",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The protagonist is the main character whose experiences the story follows.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Read this: 'It was a cold, harmattan morning in Bolgatanga.' This is an example of:",
+        options: [
+          "Plot",
+          "Setting",
+          "Climax",
+          "Resolution",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The sentence describes both the time (harmattan morning) and place (Bolgatanga), which form the setting.",
+      ),
+
+      QuizQuestion(
+        question: "5. What is the 'resolution' of a plot?",
+        options: [
+          "The very beginning of the story",
+          "The point of highest tension",
+          "The part where the problem is solved",
+          "The description of the characters",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The resolution is the ending of the story where the conflict is settled.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. If a character is working against the main hero in a story, they are called the:",
+        options: [
+          "Protagonist",
+          "Antagonist",
+          "Narrator",
+          "Setting",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The antagonist is the character or force that opposes the protagonist.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Which of these is a character from The Dilemma of a Ghost?",
+        options: [
+          "The village of Odumase",
+          "The return of the ghost",
+          "Eulalie",
+          "A rainy night",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Eulalie is one of the main characters in the play The Dilemma of a Ghost.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Why is the setting important in a story like Makola?",
+        options: [
+          "It tells us who the author is",
+          "It describes the busy marketplace environment",
+          "It lists the names of all the traders",
+          "It explains how to bake bread",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The marketplace setting creates the atmosphere and helps readers understand the story.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. In a plot, the 'conflict' is best described as:",
+        options: [
+          "The happy ending",
+          "The names of the animals",
+          "The problem the characters face",
+          "The font used in the book",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Conflict is the struggle or problem that drives the story forward.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. When comparing two texts, identifying that one is set in a village and one is set in a city is a comparison of:",
+        options: [
+          "Plot",
+          "Setting",
+          "Characters",
+          "Themes",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Comparing the locations and time of stories means comparing their settings.",
+      ),
+    ]);
+final QuizModel s5ss1Lesson2QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. \"The classroom was as quiet as a graveyard.\" What device is this?",
+        options: [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Alliteration",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A simile compares two things using 'as' or 'like', as in 'as quiet as a graveyard.'",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which device repeats the first consonant sound in a series of words?",
+        options: [
+          "Assonance",
+          "Personification",
+          "Alliteration",
+          "Metaphor",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Alliteration is the repetition of the same initial consonant sounds in nearby words.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. \"The fire swallowed the entire forest.\" This is an example of:",
+        options: [
+          "Simile",
+          "Metaphor",
+          "Alliteration",
+          "Personification",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Personification gives the fire the human action of 'swallowing.'",
+      ),
+
+      QuizQuestion(
+        question: "4. Identify the metaphor:",
+        options: [
+          "He is a lion in battle.",
+          "He is brave like a lion.",
+          "The lion roared loudly.",
+          "Lions live in the savanna.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "A metaphor makes a direct comparison without using 'like' or 'as.'",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. \"Go and mow the lawn.\" The repetition of the 'o' sound in 'go' and 'mow' is:",
+        options: [
+          "Alliteration",
+          "Assonance",
+          "Metaphor",
+          "Personification",
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+        "Assonance is the repetition of vowel sounds within nearby words.",
+      ),
+
+      QuizQuestion(
+        question: "6. In the poem Mama is a Sunrise, the title itself is a:",
+        options: [
+          "Metaphor",
+          "Simile",
+          "Personification",
+          "Alliteration",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "The title directly compares Mama to a sunrise without using 'like' or 'as,' making it a metaphor.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. \"Peter Piper picked a peck of pickled peppers\" is a famous example of:",
+        options: [
+          "Assonance",
+          "Personification",
+          "Metaphor",
+          "Alliteration",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The repeated 'P' sound at the beginning of the words is alliteration.",
+      ),
+
+      QuizQuestion(
+        question: "8. Which of these is a simile using 'like'?",
+        options: [
+          "He is a giant.",
+          "He eats like a bird.",
+          "The bird sang a song.",
+          "He is very hungry.",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The word 'like' is used to compare the person's eating to that of a bird.",
+      ),
+
+      QuizQuestion(
+        question: "9. Why do writers use personification?",
+        options: [
+          "To make things seem more human and relatable.",
+          "To make the story shorter.",
+          "To explain the meaning of difficult words.",
+          "To list the names of the characters.",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "Personification gives human qualities to non-human things, making descriptions more vivid and engaging.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. If a writer says, \"The stars winked at me,\" they are using:",
+        options: [
+          "Alliteration",
+          "Simile",
+          "Personification",
+          "Metaphor",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Winking is a human action, so giving it to stars is an example of personification.",
+      ),
+    ]);
+final QuizModel s5ss1Lesson3QuizData = QuizModel(
+    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (6. QUIZ).m4a',
+    questions: [
+      QuizQuestion(
+        question: "1. Stories that use animals like Ananse to teach morals are called:",
+        options: [
+          "Myths",
+          "Legends",
+          "Folktales",
+          "Dirges",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Folktales often use animal characters like Ananse to teach moral lessons.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. Which type of oral poetry would you expect to hear at a Ghanaian funeral?",
+        options: [
+          "Lullaby",
+          "War Song",
+          "Dirge",
+          "Work Song",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A dirge is a funeral song performed to mourn the dead.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. A legend is different from a myth because a legend:",
+        options: [
+          "Is always about animals",
+          "Is usually based on a historical person or event",
+          "Only explains how the moon was created",
+          "Is never told aloud",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Legends are often connected to real historical people or events, while myths explain origins or involve gods and supernatural beings.",
+      ),
+
+      QuizQuestion(
+        question: "4. The Hogbetsotso Festival is an example of:",
+        options: [
+          "A written narrative",
+          "Traditional drama",
+          "A short story",
+          "A lullaby",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Festivals such as Hogbetsotso include dramatic performances, rituals, music, and dance, making them forms of traditional drama.",
+      ),
+
+      QuizQuestion(
+        question: "5. A praise song is often used to:",
+        options: [
+          "Make a baby stop crying",
+          "Honor a chief or a hero",
+          "Tell a joke",
+          "Grieve for a lost relative",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Praise songs celebrate and honor respected leaders, heroes, or important people.",
+      ),
+
+      QuizQuestion(
+        question: "6. Why is rhythm important in oral poetry like war songs?",
+        options: [
+          "It makes the words harder to remember",
+          "It helps coordinate movement and inspires bravery",
+          "It allows the poet to sleep",
+          "It is only used when writing in a notebook",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Rhythm supports performance by helping people march, dance, and stay motivated.",
+      ),
+
+      QuizQuestion(
+        question: "7. Outdooring and naming ceremonies are forms of:",
+        options: [
+          "Oral Narratives",
+          "Traditional Drama",
+          "Written Poetry",
+          "Legends",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "These ceremonies are community performances that combine music, speech, and ritual, making them traditional drama.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. If a story explains why the sun stays in the sky using the actions of a creator, it is a:",
+        options: [
+          "Legend",
+          "Folktale",
+          "Myth",
+          "Lullaby",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "Myths explain the origins of natural phenomena through supernatural or sacred stories.",
+      ),
+
+      QuizQuestion(
+        question: "9. Which of these would be considered oral literature?",
+        options: [
+          "A story told by a grandmother under a tree",
+          "A newspaper article about Accra",
+          "A mathematics textbook",
+          "A recipe for Jollof rice in a magazine",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Oral literature is spoken or performed rather than written.",
+      ),
+
+      QuizQuestion(
+        question: "10. Traditional drama in Ghana often takes place during:",
+        options: [
+          "Silent reading time",
+          "Puberty rites and festivals",
+          "Solitary walks in the forest",
+          "Solving mathematics problems",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Traditional drama is commonly performed during social ceremonies such as rites and festivals.",
+      ),
+    ]);
+
 final QuizModel jhs2s1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/1. JHS2 S1 SS1 L1/7. Quiz.m4a',
   questions: [
@@ -6419,6 +8868,4698 @@ final QuizModel jhs2s3ss3Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation:
           "'Temporary' means lasting for only a short time, which is the opposite of 'permanent'.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Complete the sentence: \"You cannot enter the lab ____ you are wearing a lab coat.\"",
+      options: [
+        "because",
+        "unless",
+        "while",
+        "since"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Unless\" introduces a condition that must be met before entering the laboratory.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which pronoun correctly replaces the object? \"I saw Mr. Mensah at the bank and spoke to ____.\"",
+      options: [
+        "him",
+        "he",
+        "his",
+        "himself"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "\"Him\" is the correct object pronoun used after the verb \"spoke to.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. Identify the time connector: \"The shop closes ____ the sun sets.\"",
+      options: [
+        "because",
+        "after",
+        "so that",
+        "although"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"After\" indicates the time at which the action happens.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sentence uses a relative clause correctly?",
+      options: [
+        "The car which is blue is mine.",
+        "The car is blue it is mine.",
+        "The car and it is blue mine.",
+        "The blue car mine is which."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Which is blue\" is a relative clause describing the car.",
+    ),
+
+    QuizQuestion(
+      question: "5. Pick the best connector for a reason: \"We stayed home ____ it was a public holiday.\"",
+      options: [
+        "so that",
+        "although",
+        "because",
+        "however"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Because\" introduces the reason for staying at home.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is a synonym for \"happy\" to avoid repetition? \"Kofi was happy; he was truly ____.\"",
+      options: [
+        "joyful",
+        "angry",
+        "sad",
+        "tired"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Joyful\" is a synonym for \"happy\" and adds variety to writing.",
+    ),
+
+    QuizQuestion(
+      question: "7. Choose the correct connector: \"____ I was walking to school, I met my teacher.\"",
+      options: [
+        "Until",
+        "While",
+        "Unless",
+        "Though"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"While\" shows that two actions happened at the same time.",
+    ),
+
+    QuizQuestion(
+      question: "8. Fill the gap: \"The food was delicious, ____ it was quite expensive.\"",
+      options: [
+        "because",
+        "so that",
+        "but",
+        "since"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"But\" is used to show a contrast between two ideas.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"The pupils are hard-working. ____ always finish their tasks.\"",
+      options: [
+        "We",
+        "They",
+        "You",
+        "It"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"They\" is the correct plural pronoun referring to \"the pupils.\"",
+    ),
+
+    QuizQuestion(
+      question: "10. \"I will go to the market ____ it stops raining.\"",
+      options: [
+        "provided that",
+        "although",
+        "because",
+        "while"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "\"Provided that\" introduces a condition that must be satisfied before the action happens.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. An \"anecdote\" in an introduction is best described as:",
+      options: [
+        "A list of statistics",
+        "A short, personal story",
+        "A dictionary definition",
+        "A very long conclusion"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An anecdote is a short personal story used to capture the reader's attention.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector is used to show a condition?",
+      options: [
+        "Because",
+        "Provided that",
+        "Therefore",
+        "Furthermore"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Provided that\" introduces a condition that must be met.",
+    ),
+
+    QuizQuestion(
+      question: "3. Choose the best 'Fact' hook for an essay on \"Forestry.\"",
+      options: [
+        "I like walking in the woods.",
+        "Trees have green leaves.",
+        "Forests cover about thirty percent of the Earth's land.",
+        "My brother is a forest guard."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A factual hook uses a real and interesting fact to attract the reader.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Sequence\" in a paragraph refers to:",
+      options: [
+        "The number of words used",
+        "The order of the sentences",
+        "The font size of the text",
+        "The name of the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sequence means arranging ideas or sentences in a logical order.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word shows a contrast?",
+      options: [
+        "Moreover",
+        "Similarly",
+        "Nevertheless",
+        "Consequently"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Nevertheless\" introduces a contrast between two ideas.",
+    ),
+
+    QuizQuestion(
+      question: "6. To create \"unity\" in an introduction, all sentences must:",
+      options: [
+        "Be the exact same length",
+        "Start with the word \"The\"",
+        "Relate to the main topic",
+        "End with an exclamation mark"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Unity means every sentence supports the same main idea or topic.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the best way to link: \"It was a holiday. The school was empty.\"",
+      options: [
+        "It was a holiday; therefore, the school was empty.",
+        "It was a holiday unless the school was empty.",
+        "It was a holiday although the school was empty.",
+        "It was a holiday provided that the school was empty."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Therefore\" correctly shows the result of the holiday.",
+    ),
+
+    QuizQuestion(
+      question: "8. An introduction should capture the reader's attention and:",
+      options: [
+        "Give the final answer",
+        "Introduce the topic",
+        "List all the sub-headings",
+        "Describe the author's life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A good introduction attracts attention and clearly introduces the topic.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Although it was late, he stayed up to study.\" Which technique is used here?",
+      options: [
+        "Anecdote",
+        "Logical connector",
+        "Fact or Statistic",
+        "Relative clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Although\" is a logical connector that shows contrast.",
+    ),
+
+    QuizQuestion(
+      question: "10. If you are writing about \"Personal Hygiene,\" which hook is most likely to interest a reader?",
+      options: [
+        "Hygiene is important for everyone in the world.",
+        "Imagine waking up with a toothache that won't go away.",
+        "There are many ways to stay clean every day.",
+        "This essay is about how to wash your hands."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "An engaging scenario encourages the reader to continue reading.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is used to start a relative clause about a place?",
+      options: [
+        "Who",
+        "Where",
+        "Which",
+        "Whose"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Where\" introduces a relative clause that refers to a place.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the adverbial phrase in: \"They danced with great joy.\"",
+      options: [
+        "They danced",
+        "with great joy",
+        "danced with",
+        "great joy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"With great joy\" is an adverbial phrase of manner describing how they danced.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence uses a non-defining relative clause correctly?",
+      options: [
+        "My car which is red is fast.",
+        "My car, which is red, is fast.",
+        "The car that is red is fast.",
+        "A red car is fast."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Non-defining relative clauses provide extra information and are separated by commas.",
+    ),
+
+    QuizQuestion(
+      question: "4. Choose the best noun phrase to complete the sentence: \"_____ was very heavy.\"",
+      options: [
+        "Running fast",
+        "The large wooden crate",
+        "Under the table",
+        "Very quickly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"The large wooden crate\" is a noun phrase that can act as the subject of the sentence.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does an adjectival phrase do?",
+      options: [
+        "It describes a verb.",
+        "It replaces a noun.",
+        "It describes a noun.",
+        "It starts a new paragraph."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "An adjectival phrase gives more information about a noun.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a defining relative clause?",
+      options: [
+        "Kofi, who is my brother, is tall.",
+        "The boy who stole the mango was caught.",
+        "My house, which is green, is near the school.",
+        "Mr. Mensah, who is a baker, is kind."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A defining relative clause identifies exactly which person or thing is being referred to.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"The woman at the back of the room stood up.\" The bold part is an:",
+      options: [
+        "Adverbial phrase of place",
+        "Noun phrase",
+        "Relative clause",
+        "Adjectival phrase"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "\"At the back of the room\" describes the noun \"woman,\" so it functions as an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "8. Complete with an adverbial phrase of manner: \"She spoke _____.\"",
+      options: [
+        "to her mother",
+        "yesterday morning",
+        "at the market",
+        "in a soft whisper"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "\"In a soft whisper\" tells how she spoke, making it an adverbial phrase of manner.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sentence is the most descriptive?",
+      options: [
+        "The dog barked.",
+        "The big dog barked.",
+        "The big dog in the yard barked loudly.",
+        "The dog barked at the cat."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "This sentence provides the most details about the dog, its location, and how it barked.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Whose\" is used in a relative clause to show:",
+      options: [
+        "Time",
+        "Possession",
+        "Location",
+        "Reason"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Whose\" is a relative pronoun used to indicate possession.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of a personal narrative?",
+      options: [
+        "To give instructions on how to cook.",
+        "To argue about a political topic.",
+        "To tell a story about a personal experience.",
+        "To list facts about Ghanaian history."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A personal narrative tells the writer's own real-life experiences and events.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which pronoun is essential for first-person point of view?",
+      options: [
+        "He",
+        "They",
+        "Me",
+        "It"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "First-person narratives use pronouns such as \"I,\" \"me,\" \"my,\" and \"we.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. Identify the adjective in this sentence: \"The delicious waakye was wrapped in a leaf.\"",
+      options: [
+        "Wrapped",
+        "Delicious",
+        "Leaf",
+        "Waakye"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Delicious\" is an adjective because it describes the noun \"waakye.\"",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of indirect speech?",
+      options: [
+        "Ama said, \"I am tired.\"",
+        "\"Stop!\" shouted the guard.",
+        "Abena said that she was hungry.",
+        "\"Where is the gari?\" I asked."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Indirect speech reports what someone said without using quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "5. Choose the best adverb to complete: \"The hunter crept _____ through the forest.\"",
+      options: [
+        "Silently",
+        "Loud",
+        "Green",
+        "Morning"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Silently\" is an adverb describing how the hunter crept.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which connector shows that one event happened immediately after another?",
+      options: [
+        "Although",
+        "Because",
+        "Next",
+        "Unless"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Next\" is a sequence connector that shows the order of events.",
+    ),
+
+    QuizQuestion(
+      question: "7. When planning a narrative, what should you record first?",
+      options: [
+        "The price of the book.",
+        "Ideas about past events.",
+        "A list of all your friends.",
+        "The names of foreign cities."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Planning begins by collecting ideas from personal experiences or past events.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which sentence uses a noun phrase to add detail?",
+      options: [
+        "I ate.",
+        "He ran.",
+        "The old wooden boat creaked.",
+        "It is hot."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "\"The old wooden boat\" is a descriptive noun phrase that adds detail.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why do we use first-person point of view in narratives?",
+      options: [
+        "To make the story sound like a textbook.",
+        "To hide our feelings from the reader.",
+        "To convey our personal feelings and thoughts.",
+        "To talk about people we have never met."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "First-person narration allows writers to share their own thoughts, feelings, and experiences.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the final step in the writing process before publishing?",
+      options: [
+        "Writing the first draft.",
+        "Editing and proofreading for sense.",
+        "Choosing a title.",
+        "Drawing a picture."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Editing and proofreading help ensure the writing is clear, accurate, and ready for readers.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which adjective suggests a place is very old and historic?",
+      options: [
+        "Contemporary",
+        "Ancient",
+        "Bustling",
+        "Charming"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "\"Ancient\" describes places or objects that are very old and have historical importance.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"The pungent aroma of ginger filled the kitchen.\" Which sense does \"pungent\" appeal to?",
+      options: [
+        "Sight",
+        "Sound",
+        "Smell",
+        "Touch"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Aroma\" refers to smell, and \"pungent\" describes a strong or sharp scent.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which word would you use to describe a very difficult and painful journey?",
+      options: [
+        "Common",
+        "Tortuous",
+        "Divine",
+        "Stellar"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Tortuous\" describes something that is full of difficulties, twists, or pain.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the first-person pronoun in this description: \"We walked through the misty forest.\"",
+      options: [
+        "Through",
+        "Misty",
+        "We",
+        "Forest"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"We\" is a first-person plural pronoun.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does it mean to use \"precise\" words?",
+      options: [
+        "Using the longest words possible.",
+        "Using specific words that fit the scene exactly.",
+        "Using words that are hard to spell.",
+        "Using only three words in a sentence."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Precise words communicate ideas clearly by choosing the most accurate vocabulary.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which is an example of an adverb of manner?",
+      options: [
+        "Under the table",
+        "Rhythmically",
+        "Blue",
+        "After school"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Rhythmically\" describes how an action is performed, making it an adverb of manner.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which sentence uses sensory language for touch?",
+      options: [
+        "The music was loud.",
+        "The sun was yellow.",
+        "The silk kente felt smooth.",
+        "I smelled the soup."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Smooth\" appeals to the sense of touch by describing how the fabric feels.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the purpose of editing for \"emotional reaction\"?",
+      options: [
+        "To make the text longer.",
+        "To ensure the reader feels what you intended.",
+        "To change the story completely.",
+        "To add more names to the story."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Editing helps make sure the language creates the intended emotional effect on readers.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is a \"contemporary\" setting?",
+      options: [
+        "A modern glass office in Accra.",
+        "A cave from 100 years ago.",
+        "An old fishing boat.",
+        "A traditional story from long ago."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "\"Contemporary\" means modern or present-day.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence uses direct speech for interest?",
+      options: [
+        "He said he was going.",
+        "\"Look at that elephant!\" I cried.",
+        "I thought about the trip.",
+        "We arrived at the park."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Direct speech uses quotation marks to show the speaker's exact words.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of an advertisement should be the most eye-catching?",
+      options: [
+        "The page number",
+        "The Title",
+        "The small print",
+        "The date"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The title is designed to grab the audience's attention immediately.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the imperative verb: \"Drink more water for better health.\"",
+      options: [
+        "Water",
+        "Better",
+        "Drink",
+        "Health"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"Drink\" is an imperative verb because it gives a command or instruction.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which verb tense is best for stating facts about a product?",
+      options: [
+        "Past Tense",
+        "Future Tense",
+        "Simple Present Tense",
+        "Continuous Tense"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The simple present tense is commonly used to state facts and general truths in advertisements.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a diary entry primarily used for?",
+      options: [
+        "To sell a car.",
+        "To record personal experiences and feelings.",
+        "To write a formal letter to a boss.",
+        "To list ingredients for light soup."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A diary is used to record personal thoughts, experiences, and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a persuasive device?",
+      options: [
+        "Repetition of key words",
+        "Using a very small font",
+        "Hiding the price",
+        "Using only black and white"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Repeating important words or phrases helps readers remember the message.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"I think this is the most beautiful kente in the world.\" What type of verb is \"think\"?",
+      options: [
+        "Action verb",
+        "Mental verb",
+        "Helping verb",
+        "Past verb"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Think\" is a mental verb because it expresses a thought or opinion.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which phrasal verb means to encounter something by chance?",
+      options: [
+        "Run away",
+        "Come across",
+        "Sit down",
+        "Stand up"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "\"Come across\" means to find or meet something unexpectedly.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a rhetorical question designed to do?",
+      options: [
+        "Get a specific numerical answer.",
+        "Engage the audience and make them think.",
+        "Test the reader's math skills.",
+        "End the conversation immediately."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rhetorical question encourages readers to think about the message rather than answer it.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Our soap is better than any other because it lasts longer.\" This is an example of:",
+      options: [
+        "A diary entry",
+        "An introduction",
+        "Direct speech",
+        "A selling point"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A selling point highlights a product's advantage to persuade customers.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which modal verb shows a strong recommendation in an advertisement?",
+      options: [
+        "Might",
+        "Maybe",
+        "Could",
+        "Must"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "\"Must\" expresses a strong recommendation or obligation, making it persuasive in advertisements.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of a problem-solution paragraph?",
+      options: [
+        "To tell a funny story.",
+        "To convince the reader that a solution will work.",
+        "To list all the teachers in the school.",
+        "To describe a beautiful sunset."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A problem-solution paragraph aims to persuade readers that a proposed solution is practical and effective.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which sentence clearly identifies a problem?",
+      options: [
+        "I like going to school.",
+        "The sun is very bright today.",
+        "The school toilets lack running water, making them unhygienic.",
+        "We should all play football."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "This sentence clearly states the problem and explains why it is harmful.",
+    ),
+
+    QuizQuestion(
+      question: "3. When explaining how a solution works, you should:",
+      options: [
+        "Keep it a secret.",
+        "Give clear, step-by-step details.",
+        "Use as few words as possible.",
+        "Only talk about the problem again."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Step-by-step explanations help readers understand how the solution can be carried out.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why should you mention who is 'in charge' of a solution?",
+      options: [
+        "To make them famous.",
+        "To show the plan is organized and has leadership.",
+        "To give them more work.",
+        "Because it is a school rule."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Identifying who is responsible shows the solution is organized and ready to be implemented.",
+    ),
+
+    QuizQuestion(
+      question: "5. What is the best way to fund a small school project locally?",
+      options: [
+        "Waiting for a miracle.",
+        "Organizing a community car wash or craft sale.",
+        "Asking for a loan from a foreign bank.",
+        "Doing nothing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Community fundraising is a practical and realistic way to support local projects.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is a synonym for \"feasible\"?",
+      options: [
+        "Difficult",
+        "Practicable",
+        "Expensive",
+        "Boring"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "\"Practicable\" means something that can realistically be done.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does giving evidence help your paragraph?",
+      options: [
+        "It makes the paragraph look longer.",
+        "It confuses the reader.",
+        "It proves your solution has worked before or is logical.",
+        "It is not necessary."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Evidence strengthens your argument by making it more believable and convincing.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"My solution is better because it costs 50 Cedis while others cost 500.\" This argues for:",
+      options: [
+        "Feasibility",
+        "Cost-effectiveness",
+        "Objections",
+        "Evidence"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Comparing costs shows that the solution saves money, making it cost-effective.",
+    ),
+
+    QuizQuestion(
+      question: "9. What should you do with a possible objection?",
+      options: [
+        "Ignore it completely.",
+        "Acknowledge it and show why your plan still works.",
+        "Get angry at the person who objects.",
+        "Stop writing the paragraph."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Addressing objections strengthens your argument by showing that you have considered different viewpoints.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is a characteristic of a \"reasonable\" solution?",
+      options: [
+        "It requires everyone to stop sleeping.",
+        "It is impossible to complete.",
+        "It is fair, logical, and can be achieved.",
+        "It costs more money than the school has."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A reasonable solution is realistic, fair, and practical to carry out.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/6.Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A formal letter to a business should always include:",
+      options: [
+        "A list of your favourite foods.",
+        "Two addresses and a subject line.",
+        "A joke to make the manager laugh.",
+        "Ten different colours of ink."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A formal business letter should include the sender's address, recipient's address, and a clear subject line.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a formal request?",
+      options: [
+        "Give me your pen now.",
+        "I am writing to kindly request a permission letter.",
+        "I want some water.",
+        "Send me the money."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Formal requests use polite and respectful language such as \"kindly request.\"",
+    ),
+
+    QuizQuestion(
+      question: "3. When writing a formal email, what replaces the two physical addresses?",
+      options: [
+        "A picture of yourself.",
+        "A clear subject line.",
+        "Your home phone number.",
+        "Nothing at all."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Formal emails use a subject line to clearly identify the purpose of the message.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"NOTICE: All students must wear their Sunday wear for the church service.\" This is an update on:",
+      options: [
+        "A sports schedule.",
+        "School rules or programmes.",
+        "A teacher's birthday.",
+        "A new food menu."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A notice communicates official information or requirements about school activities or programmes.",
+    ),
+
+    QuizQuestion(
+      question: "5. If an advertisement for a soft drink features famous Ghanaian footballers, who is the target audience?",
+      options: [
+        "Grandmothers.",
+        "Young people and sports fans.",
+        "Doctors and nurses.",
+        "People who dislike football."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Advertisements often use famous athletes to appeal to young people and sports enthusiasts.",
+    ),
+
+    QuizQuestion(
+      question: "6. Identify the implied message in an advertisement for a very expensive car.",
+      options: [
+        "The car has four wheels.",
+        "The car is painted red.",
+        "Owning this car shows you are wealthy and successful.",
+        "The car uses petrol."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The advertisement suggests that owning the car represents wealth and success rather than stating it directly.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the correct way to write the date in a formal letter?",
+      options: [
+        "4th April, 2026",
+        "4-4-26",
+        "April 4",
+        "Saturday morning"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Formal letters require the full date written clearly and completely.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which type of formal writing is used to express sadness for someone's loss?",
+      options: [
+        "Application",
+        "Complaint",
+        "Sympathy",
+        "Congratulations"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A sympathy letter expresses condolences and support after a loss.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is editing for sense and meaning important in a formal letter?",
+      options: [
+        "To make the letter longer.",
+        "To ensure your request is understood and respected.",
+        "To use more difficult words.",
+        "To change your address."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Clear and accurate writing helps the reader understand and respond appropriately to your request.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Yours faithfully\" is used when:",
+      options: [
+        "You are writing to your mother.",
+        "You know the person's name.",
+        "You do not know the person's name.",
+        "You are writing a text message."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "\"Yours faithfully\" is the correct closing when the recipient's name is unknown.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a brochure typically used for?",
+      options: [
+        "To write a secret letter to a friend.",
+        "To provide detailed information about a product or service.",
+        "To keep a record of your daily thoughts.",
+        "To apply for a formal job."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A brochure is an informational and promotional document that provides detailed information about a product, service, or event.",
+    ),
+
+    QuizQuestion(
+      question: "2. A flyer for a \"School Excursion\" should definitely include:",
+      options: [
+        "The teacher's favorite food.",
+        "The destination and the cost of the trip.",
+        "A list of all the cars in the town.",
+        "A map of the whole world."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Essential information such as the destination, date, and cost helps readers make informed decisions.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where is the best place to put the headline?",
+      options: [
+        "In tiny letters at the bottom corner.",
+        "On the back of the paper only.",
+        "At the top in big, bold letters.",
+        "Hidden behind a picture."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A headline should appear at the top in large, bold text to attract attention immediately.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is an example of a persuasive adjective for a food flyer?",
+      options: [
+        "Round",
+        "Delicious",
+        "Edible",
+        "Standard"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Delicious\" is a persuasive adjective that makes the food sound more appealing.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does it mean to \"target an audience\"?",
+      options: [
+        "To throw the flyer at people.",
+        "To write specifically for the group of people you want to reach.",
+        "To write in as many languages as possible.",
+        "To only give flyers to people you know."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Targeting an audience means creating a message that matches the interests and needs of a specific group of people.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which part of a flyer tells people how to get more information?",
+      options: [
+        "The slogan",
+        "The headline",
+        "The contact information",
+        "The border"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Contact information tells readers how to ask questions or respond to the advertisement.",
+    ),
+
+    QuizQuestion(
+      question: "7. A \"Brief Description\" in a brochure should be:",
+      options: [
+        "Short and easy to understand.",
+        "At least five pages long.",
+        "Written as a poem.",
+        "Copied from a dictionary."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A brochure should use concise, clear language that is easy for readers to understand.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a \"Voluntary Cleaning Exercise\" notice an example of?",
+      options: [
+        "An advertisement for a new car.",
+        "A community-focused informational text.",
+        "A personal narrative about a dream.",
+        "A formal business letter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This type of notice informs members of the community about an event or activity.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is it important to proofread a flyer before printing?",
+      options: [
+        "To make the paper feel smoother.",
+        "To ensure there are no mistakes in the contact details.",
+        "To change the color of the ink.",
+        "To make the headline smaller."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Checking for errors ensures that important information such as dates, phone numbers, and addresses is correct.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which layout feature helps organize a \"List of Benefits\"?",
+      options: [
+        "A very long paragraph.",
+        "Bullet points.",
+        "Writing in a circle.",
+        "Using invisible ink."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Bullet points make information easy to scan, read, and understand.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first step in writing an article?",
+      options: [
+        "Buying a new pen.",
+        "Identifying the topic, purpose, and audience.",
+        "Printing the final copy.",
+        "Writing the conclusion."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Before writing an article, you should identify the topic, purpose, and intended audience.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which resource is a \"print resource\"?",
+      options: [
+        "A YouTube video.",
+        "An email.",
+        "A Google search result.",
+        "An encyclopedia in the library."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Printed books, magazines, and encyclopedias are examples of print resources.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we use a T-chart during the planning phase?",
+      options: [
+        "To draw pictures.",
+        "To sort and classify ideas and information.",
+        "To check our spelling.",
+        "To count the number of words."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A T-chart helps organize ideas and information into clear categories before writing.",
+    ),
+
+    QuizQuestion(
+      question: "4. A \"challenging topic\" for a school article might be:",
+      options: [
+        "What I ate for breakfast.",
+        "The effects of climate change on local farming.",
+        "The color of my socks.",
+        "A list of my toys."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A challenging topic requires research, analysis, and deeper thinking.",
+    ),
+
+    QuizQuestion(
+      question: "5. What should every paragraph in an article contain?",
+      options: [
+        "At least five different topics.",
+        "The names of all your teachers.",
+        "Only one sentence.",
+        "A main idea and supporting details."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Each paragraph should have one main idea supported by relevant details.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a way to express a personal view to a group?",
+      options: [
+        "Writing a report for a public meeting.",
+        "Keeping your ideas in a locked box.",
+        "Writing a grocery list.",
+        "Drawing a random shape."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A report for a public meeting communicates information and opinions to an audience.",
+    ),
+
+    QuizQuestion(
+      question: "7. When is an autobiography used in article writing?",
+      options: [
+        "When writing about the stars in the sky.",
+        "When writing your own life story for a magazine.",
+        "When reporting on a football match.",
+        "When giving directions to the market."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An autobiography tells the story of the writer's own life.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does it mean for research to be \"relevant\"?",
+      options: [
+        "It is written in a very old book.",
+        "It is very funny.",
+        "It directly relates to and supports your topic.",
+        "It has a lot of big words."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Relevant research directly supports the topic and purpose of your writing.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which format would be best for a quick, catchy radio message about a school event?",
+      options: [
+        "A 10-page report.",
+        "A jingle.",
+        "A formal letter.",
+        "A diary entry."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Jingles are short, memorable, and designed to catch listeners' attention.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to use a \"wide range\" of resources?",
+      options: [
+        "To make the article more confusing.",
+        "To ensure your information is accurate and sufficiently specific.",
+        "Because your teacher told you to.",
+        "To use more paper."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Using a variety of reliable sources helps verify facts and provides more complete information.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is the correct layout for a dialogue?",
+      options: [
+        "AMA \"Hello Kofi.\"",
+        "AMA: Hello Kofi.",
+        "AMA - Hello Kofi.",
+        "AMA (Hello Kofi)"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "In a dialogue script, the speaker's name is followed by a colon before the spoken words.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the purpose of \"Advice to characters\"?",
+      options: [
+        "To tell them what to eat.",
+        "To indicate how they should speak or act.",
+        "To give them more money.",
+        "To teach them how to read."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Advice or stage directions tell characters how they should perform or behave.",
+    ),
+
+    QuizQuestion(
+      question: "3. What do we call the brief description of the setting before a dialogue begins?",
+      options: [
+        "A summary.",
+        "A scenario.",
+        "A title.",
+        "A conclusion."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A scenario describes the situation, setting, and location before the dialogue starts.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is a correctly formatted stage direction?",
+      options: [
+        ".shouting:",
+        "\"shouting\"",
+        "(shouting)",
+        "SHOUTING!"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Stage directions are typically written in brackets or parentheses.",
+    ),
+
+    QuizQuestion(
+      question: "5. In a script with three people talking, how many interlocutors are there?",
+      options: [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Each speaker taking part in the conversation is an interlocutor.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why are quotation marks not used in dialogue scripts?",
+      options: [
+        "They are too difficult to write.",
+        "They are only for poems.",
+        "The name and colon already show who is speaking.",
+        "They are not allowed in Ghana."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The script format identifies the speaker with a name and colon, making quotation marks unnecessary.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which theme would be most appropriate for a dialogue between a doctor and a patient?",
+      options: [
+        "How to play football.",
+        "Discussing health and medicine.",
+        "The history of Kente weaving.",
+        "Cooking banku."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The dialogue's theme should match the characters and situation.",
+    ),
+
+    QuizQuestion(
+      question: "8. Where are stage directions usually placed?",
+      options: [
+        "Before the spoken words or on a separate line.",
+        "At the very end of the book.",
+        "Inside the colon.",
+        "Underneath the paper."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Stage directions appear near the dialogue they describe, often before the speech or on their own line.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"The market is bustling. Yaw is trying to sell his yams.\" This is an example of:",
+      options: [
+        "A dialogue line.",
+        "A scenario.",
+        "A stage direction.",
+        "A headline."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A scenario introduces the setting and context before the dialogue begins.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important goal of writing a dialogue?",
+      options: [
+        "To use as many words as possible.",
+        "To create a natural-sounding conversation.",
+        "To write a formal business letter.",
+        "To avoid using names."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Good dialogue sounds natural and reflects how people communicate in real life.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the purpose of the \"Body\" of a speech?",
+      options: [
+        "To greet the audience.",
+        "To tell the main information and details.",
+        "To summarize the speech.",
+        "To write the title."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The body of a speech contains the main ideas, information, and supporting details.",
+    ),
+
+    QuizQuestion(
+      question: "2. A speech for a graduation ceremony is an example of:",
+      options: [
+        "A business letter.",
+        "An advertisement.",
+        "A personal diary entry.",
+        "A speech for a specific occasion."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Graduation speeches are prepared for a particular event or occasion.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which skill helps you share a personal story within a speech?",
+      options: [
+        "Narrative",
+        "Explanatory",
+        "Statistical",
+        "Technical"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Narrative skills help speakers share stories and personal experiences.",
+    ),
+
+    QuizQuestion(
+      question: "4. What does it mean to \"appeal to emotions\"?",
+      options: [
+        "To use a lot of math.",
+        "To use words that make the audience feel something.",
+        "To speak as fast as possible.",
+        "To ignore the audience."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Emotional appeals connect with the audience's feelings and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the conclusion, you should:",
+      options: [
+        "Introduce a brand new topic.",
+        "Only tell one joke.",
+        "Ask everyone to go home.",
+        "Tell them what you told them."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The conclusion summarizes the main points and reinforces the message.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a \"Logical Appeal\"?",
+      options: [
+        "\"Please help me because I am sad.\"",
+        "\"We should recycle because it reduces waste by 40%.\"",
+        "\"I like the color blue.\"",
+        "\"Follow me!\""
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Logical appeals use facts, evidence, and reasoning to persuade the audience.",
+    ),
+
+    QuizQuestion(
+      question: "7. When writing a speech, why is \"descriptive\" language useful?",
+      options: [
+        "It makes the speech shorter.",
+        "It helps the audience visualize your points.",
+        "It is only for poetry.",
+        "It helps you remember your name."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Descriptive language creates vivid mental images that make ideas easier to understand.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the \"Introduction\" designed to do?",
+      options: [
+        "Tell the audience what you are going to tell them.",
+        "Finish the speech.",
+        "Give the final summary.",
+        "Collect the votes."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The introduction introduces the topic and prepares the audience for what will follow.",
+    ),
+
+    QuizQuestion(
+      question: "9. A good speech should be:",
+      options: [
+        "Only logical.",
+        "Only emotional.",
+        "Both logical and emotional.",
+        "Neither logical nor emotional."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Effective speeches balance logical arguments with emotional appeal.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is a \"Manifesto\"?",
+      options: [
+        "A type of food.",
+        "A speech stating your goals when running for a position.",
+        "A formal email.",
+        "A diary entry about a trip."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A manifesto explains a candidate's plans, goals, and promises when seeking a leadership position.",
+    ),
+  ],
+);
+final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/6. QUIZ.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first thing you should read when looking at a table or graph?",
+      options: [
+        "The numbers at the bottom",
+        "The title of the source",
+        "The name of the author",
+        "The color of the bars"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The title tells you what the table or graph is about before you examine the data.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which source is best for showing the location of towns in the Ashanti Region?",
+      options: [
+        "A bar graph",
+        "A pie chart",
+        "A map",
+        "A data table"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Maps are used to show locations, distances, and geographical features.",
+    ),
+
+    QuizQuestion(
+      question: "3. If a table shows Kenkey costs 5 Cedis and Fried Fish costs 10 Cedis, what is true?",
+      options: [
+        "Fish is more expensive than Kenkey.",
+        "Kenkey is more popular than Fish.",
+        "Everyone likes eating Kenkey and Fish.",
+        "The prices will go up next month."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The table directly shows that Fried Fish costs more than Kenkey.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which phrase helps you introduce evidence from a graph?",
+      options: [
+        "\"I feel that...\"",
+        "\"In my own opinion...\"",
+        "\"As shown in the graph...\"",
+        "\"Once upon a time...\""
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This phrase clearly refers readers to the visual evidence in the graph.",
+    ),
+
+    QuizQuestion(
+      question: "5. A graph shows tree planting increased by 50% in 2023. What does this mean?",
+      options: [
+        "More trees were cut down in 2023.",
+        "There were no trees left in 2023.",
+        "Many more trees were planted in 2023.",
+        "The trees grew very tall in 2023."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "An increase in tree planting means that more trees were planted.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do writers use tables and figures in their work?",
+      options: [
+        "To make the page look more colorful.",
+        "To provide clear evidence for their ideas.",
+        "Because they do not want to write words.",
+        "To make the book much heavier."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Tables and figures provide factual evidence that supports the writer's ideas.",
+    ),
+
+    QuizQuestion(
+      question: "7. A map shows a gold mine in Obuasi. How do you use this in an essay?",
+      options: [
+        "Obuasi is a very famous town in Ghana.",
+        "Gold is a very shiny and expensive metal.",
+        "The map indicates there is a gold mine in Obuasi.",
+        "Many people work hard in the mining industry."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This statement directly cites the information presented on the map.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does \"interpreting\" a graph mean?",
+      options: [
+        "Drawing a new graph with pencils.",
+        "Explaining the meaning of the data.",
+        "Deleting the graph from your essay.",
+        "Changing the numbers to fit your idea."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Interpreting a graph means explaining what the data shows and what it means.",
+    ),
+
+    QuizQuestion(
+      question: "9. A table shows 10 students speak Ewe, 5 speak Ga, and 20 speak Twi. What is the trend?",
+      options: [
+        "Twi is the most spoken language in this group.",
+        "No one in the school speaks English.",
+        "Ga is the most difficult language to learn.",
+        "All students in Ghana speak three languages."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Since 20 is the highest value, Twi is the most commonly spoken language in the group.",
+    ),
+
+    QuizQuestion(
+      question: "10. When using a diagram of a borehole, which is a factual statement?",
+      options: [
+        "Clean water is very important for health.",
+        "The diagram shows the depth of the borehole.",
+        "Boreholes are better than using river water.",
+        "Every village in Ghana has a new borehole."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A borehole diagram provides factual information such as its structure and depth.",
+    ),
+  ],
+);
+
+final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary theme of \"The Old Man and His Children\"?",
+      options: [
+        "Unity",
+        "Wealth",
+        "Bravery",
+        "Nature"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story teaches that people are stronger when they remain united.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does the \"bundle of sticks\" symbolize in the narrative?",
+      options: [
+        "A messy house",
+        "The father's age",
+        "A united family",
+        "Firewood for cooking"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The bundle of sticks represents the strength of family members working together.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the story, the sons were always quarrelling. What does \"quarrelling\" mean?",
+      options: [
+        "Playing games",
+        "Working hard",
+        "Fighting or arguing",
+        "Singing together"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Quarrelling means arguing or fighting with one another.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why did the father feel it was urgent to teach this lesson?",
+      options: [
+        "He was going on a long trip.",
+        "He was old and worried about his death.",
+        "He wanted to sell the sticks.",
+        "He was angry at the neighbours."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The father wanted his children to remain united after he was gone.",
+    ),
+
+    QuizQuestion(
+      question: "5. A story that is \"didactic\" is intended to:",
+      options: [
+        "Teach a moral lesson",
+        "Make people laugh",
+        "Tell a scary ghost story",
+        "Describe a beautiful place"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Didactic stories are written to teach an important moral or lesson.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which character is the protagonist or main person driving the lesson?",
+      options: [
+        "The eldest son",
+        "The youngest son",
+        "The old man",
+        "The enemy"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The old man teaches the lesson that drives the entire story.",
+    ),
+
+    QuizQuestion(
+      question: "7. How did the sons feel when they couldn't break the bundle?",
+      options: [
+        "They felt happy.",
+        "They were successful.",
+        "They were unable to do it.",
+        "They started laughing."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The sons discovered that the bundle was too strong to break individually.",
+    ),
+
+    QuizQuestion(
+      question: "8. The setting of this story is most likely:",
+      options: [
+        "A large city in Europe",
+        "A family compound or home",
+        "A school classroom",
+        "A modern factory"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The story takes place in a traditional family or village home setting.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the resolution of this story?",
+      options: [
+        "The sons break the bundle.",
+        "The father buys more sticks.",
+        "The sons understand the value of unity.",
+        "The father leaves his children."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The story ends with the sons understanding the importance of staying united.",
+    ),
+
+    QuizQuestion(
+      question: "10. If the sons continue to fight after the father dies, what does the story suggest will happen?",
+      options: [
+        "They will become very rich.",
+        "They will be easily defeated by others.",
+        "They will move to another town.",
+        "They will become better friends."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Like single sticks, divided people are weak and can easily be overcome.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of the poem \"The Colour of God\"?",
+      options: [
+        "V. B. Aakye",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "Lade Wosornu"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "V. B. Aakye is the Ghanaian poet who wrote this poem.",
+    ),
+
+    QuizQuestion(
+      question: "2. In poetry, a group of lines that form a unit is called a:",
+      options: [
+        "Stanza",
+        "Sentence",
+        "Chapter",
+        "Paragraph"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A stanza is a group of lines in a poem, similar to a paragraph in prose.",
+    ),
+
+    QuizQuestion(
+      question: "3. The poem explores the idea that God is \"universal.\" What does this mean?",
+      options: [
+        "He only lives in the stars.",
+        "He is available to all people everywhere.",
+        "He only speaks one language.",
+        "He is very old."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Universal means that God belongs to and is available to everyone, regardless of race or location.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of the following is a poetic device used to create mental pictures?",
+      options: [
+        "Calculator",
+        "Imagery",
+        "Dictionary",
+        "Rhyme scheme"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Imagery uses descriptive language that helps readers create vivid mental pictures.",
+    ),
+
+    QuizQuestion(
+      question: "5. According to the poem's logic, if you are Ghanaian, what colour might you imagine God to be?",
+      options: [
+        "Blue",
+        "Invisible",
+        "Green",
+        "Black or Brown"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem suggests that people often imagine God looking like themselves.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the tone of this poem?",
+      options: [
+        "Angry and violent",
+        "Thoughtful and inclusive",
+        "Scared and worried",
+        "Joking and silly"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem uses a thoughtful and inclusive tone to encourage reflection and acceptance.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poet feel about people claiming God is only one colour?",
+      options: [
+        "He agrees with them.",
+        "He wants them to draw more pictures.",
+        "He thinks it is a funny joke.",
+        "He thinks it is a limited way of thinking."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The poet believes limiting God to one race or colour is narrow-minded.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is NOT a theme discussed in the lesson?",
+      options: [
+        "Equality",
+        "Universality",
+        "Greed",
+        "Unity"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem focuses on equality, unity, and God's universality, not greed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the prism example relevant to the poem?",
+      options: [
+        "Because prisms are expensive.",
+        "Because light, like God, contains all colours at once.",
+        "Because the poet mentions prisms in the poem.",
+        "Because teachers like rainbows."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The prism illustrates how one source of light contains many colours, just as God belongs to everyone.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the ultimate goal of V. B. Aakye's poem?",
+      options: [
+        "To start an argument at church.",
+        "To encourage people to love and respect all races.",
+        "To teach people how to paint.",
+        "To name all the colours in the world."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem promotes unity, equality, and respect for all people by emphasizing God's universality.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the playwright of \"The Marriage of Anansewa\"?",
+      options: [
+        "Ama Ata Aidoo",
+        "V. B. Aakye",
+        "Jean Watson",
+        "Efua Sutherland"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "Efua Sutherland is the renowned Ghanaian playwright who wrote The Marriage of Anansewa.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is Ananse's main motivation in the play?",
+      options: [
+        "To become a Chief himself.",
+        "To escape poverty and pay school fees.",
+        "To learn how to weave webs.",
+        "To travel to London."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ananse's clever schemes are mainly driven by his desire to overcome financial difficulties.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the play, what does Ananse use to trick the Chiefs initially?",
+      options: [
+        "A magical spider web.",
+        "Fake gold bars.",
+        "Large bags of cocoa.",
+        "Photos of his daughter."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Ananse sends photographs of Anansewa to attract the interest of the Chiefs.",
+    ),
+
+    QuizQuestion(
+      question: "4. The musical interludes used in the play are known as:",
+      options: [
+        "Soliloquies",
+        "Stanzas",
+        "Sonnets",
+        "Mboguo"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Mboguo are traditional songs that help move the story forward and entertain the audience.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word best describes Ananse's character?",
+      options: [
+        "Lazy",
+        "Honest",
+        "Witty",
+        "Frightened"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ananse is famous for his cleverness and wit, although he often uses trickery.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is a \"Satire\"?",
+      options: [
+        "A story about a talking animal.",
+        "A play that uses humour to criticize social faults.",
+        "A very long poem about war.",
+        "A stage with no actors."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Satire uses humour, irony, or exaggeration to expose and criticize human weaknesses or social problems.",
+    ),
+
+    QuizQuestion(
+      question: "7. How many Chiefs does Ananse try to involve in his scheme?",
+      options: [
+        "Two",
+        "Ten",
+        "Four",
+        "One"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ananse approaches four different Chiefs in an attempt to maximize his gains.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Anansegoro\" is a fusion of which two things?",
+      options: [
+        "Cooking and Dancing",
+        "Traditional storytelling and Western theatre",
+        "Farming and Singing",
+        "Reading and Writing"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Anansegoro combines Ghanaian oral storytelling traditions with modern stage drama.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why is the Storyteller allowed to talk to the audience?",
+      options: [
+        "He forgot his lines.",
+        "It is a feature of the Anansegoro style.",
+        "He is looking for his lost spider.",
+        "The other actors are too tired to speak."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Storyteller directly engages the audience, which is a key feature of the Anansegoro performance style.",
+    ),
+
+    QuizQuestion(
+      question: "10. The play teaches us that greed can lead to:",
+      options: [
+        "More friends.",
+        "Complicated and difficult situations.",
+        "Becoming a King.",
+        "Winning a football match."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ananse's greed creates many problems, showing that selfishness often leads to trouble.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who wrote the short story \"The Girl Who Can\"?",
+      options: [
+        "Efua Sutherland",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "Merrill Corney"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ama Ata Aidoo is the Ghanaian author of the famous short story The Girl Who Can.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which character is most critical of Adjoa's physical appearance?",
+      options: [
+        "Her mother",
+        "Her teacher",
+        "Her grandmother",
+        "Her best friend"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Nana constantly criticizes Adjoa's thin legs throughout the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does the term \"spindly\" mean in the context of the story?",
+      options: [
+        "Very strong and muscular",
+        "Long, thin, and weak-looking",
+        "Covered in spots",
+        "Short and stubby"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The word 'spindly' describes Adjoa's long and very thin legs.",
+    ),
+
+    QuizQuestion(
+      question: "4. The story suggests that Maami (the mother) is:",
+      options: [
+        "Quiet and submissive to Nana",
+        "Very angry at Adjoa",
+        "The best runner in the village",
+        "A professional doctor"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Maami usually remains quiet while Nana speaks, showing respect and submission.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the turning point of the story take place?",
+      options: [
+        "In the kitchen",
+        "At the local market",
+        "On the school sports field",
+        "In the hospital"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The sports competition becomes the turning point when Adjoa proves her ability.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does Nana do with Adjoa's trophy?",
+      options: [
+        "She throws it away",
+        "She hides it under the bed",
+        "She carries it proudly and cleans it",
+        "She sells it for money"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Nana proudly carries and carefully cleans the trophy after Adjoa's success.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a \"stereotype\"?",
+      options: [
+        "A fixed, oversimplified idea of a person or thing",
+        "A type of radio",
+        "A very fast runner",
+        "A traditional Ghanaian dance"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "A stereotype is a simplified belief or assumption about people or things.",
+    ),
+
+    QuizQuestion(
+      question: "8. Why did Adjoa keep her thoughts to herself most of the time?",
+      options: [
+        "She was unable to speak",
+        "She was afraid of her grandmother",
+        "Adults in the story didn't think children had anything useful to say",
+        "She was too busy running"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "Adjoa explains that adults rarely expected children to express important opinions.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the central theme of the narrative?",
+      options: [
+        "The importance of healthy eating",
+        "How to win a gold medal",
+        "Female empowerment and potential",
+        "The history of Ghanaian schools"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The story emphasizes believing in girls' abilities and recognizing their true potential.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the ending of the story considered ironic?",
+      options: [
+        "Adjoa breaks her legs",
+        "The very legs Nana criticized become the source of the family's pride",
+        "Nana decides to start running too",
+        "Adjoa moves to a different country"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The same legs Nana once criticized later become the reason for Adjoa's success and the family's pride.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which literary device is most used in \"Desert Rivers\"?",
+      options: [
+        "Metaphor",
+        "Rhyme",
+        "Onomatopoeia",
+        "Alliteration"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The poem is built around an extended metaphor comparing people to deserts hiding rivers beneath the surface.",
+    ),
+
+    QuizQuestion(
+      question: "2. Lade Wosornu is a famous Ghanaian:",
+      options: [
+        "Surgeon and Poet",
+        "Footballer",
+        "King",
+        "Musician"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Lade Wosornu is well known as both a medical doctor (surgeon) and a poet.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the poem, \"dryness\" on the surface symbolizes:",
+      options: [
+        "A lack of rain in Ghana",
+        "A person who appears to have no talent or hope",
+        "The need for a cold drink of water",
+        "The best time to play football"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The dry surface represents people whose abilities or strengths are hidden from view.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is a \"torrent\" in the context of the poem?",
+      options: [
+        "A very slow leak",
+        "A powerful, fast-flowing body of water",
+        "A type of desert lizard",
+        "A heavy stone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The torrent symbolizes the powerful inner strength and potential hidden within a person.",
+    ),
+
+    QuizQuestion(
+      question: "5. The theme of \"Desert Rivers\" is primarily about:",
+      options: [
+        "Geography and maps",
+        "The beauty of the Sahara",
+        "How to survive a drought",
+        "Inner potential and hidden strength"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem encourages readers to believe in the hidden abilities that people possess.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does the poet use geological words like \"crust\" and \"subterranean\"?",
+      options: [
+        "To show off his vocabulary",
+        "Because he likes rocks",
+        "To help students pass their Geography exams",
+        "To strengthen the imagery of the earth and the river"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "These geological terms make the extended metaphor more vivid and realistic.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poem make the reader feel?",
+      options: [
+        "Discouraged and sad",
+        "Bored and sleepy",
+        "Scared and nervous",
+        "Encouraged and hopeful"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The poem inspires hope by reminding readers that everyone has hidden strengths waiting to be discovered.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a \"desert\" finally reveals its \"river,\" what has happened?",
+      options: [
+        "It has rained",
+        "A person has achieved their potential or shared their talent",
+        "The river has dried up",
+        "The person has moved away"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The hidden river represents inner potential becoming visible through achievement or action.",
+    ),
+
+    QuizQuestion(
+      question: "9. What does the \"sun\" represent in the line about water being \"hidden from the sun\"?",
+      options: [
+        "The source of heat",
+        "The time of day",
+        "A golden coin",
+        "The public eye or external observation"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The sun symbolizes the outside world, which cannot always see the hidden abilities within people.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Desert Rivers\" is also a short story in *The Cockcrow*. True or False?",
+      options: [
+        "True, it is a narrative story.",
+        "True, it is a letter to a friend.",
+        "False, it is a play.",
+        "False, it is a poem, but there is also a story with the same title by Lade Wosornu."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Lade Wosornu wrote both a poem titled \"Desert Rivers\" and a narrative piece with the same title included in the anthology.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of \"The Colour of God\"?",
+      options: [
+        "V. B. Aakye",
+        "Ama Ata Aidoo",
+        "Lade Wosornu",
+        "Jean Watson"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "V. B. Aakye is the Ghanaian poet who wrote the poem \"The Colour of God.\"",
+    ),
+
+    QuizQuestion(
+      question: "2. What does the poet conclude about the colour of God?",
+      options: [
+        "God is all colours and no single colour.",
+        "God is definitely Green.",
+        "God has no interest in colour.",
+        "God changes colour every day."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The poem teaches that God is universal and cannot be limited to a single race or colour.",
+    ),
+
+    QuizQuestion(
+      question: "3. A question asked for effect rather than for an answer is called a:",
+      options: [
+        "Simple question",
+        "Rhetorical question",
+        "Examination question",
+        "Wrong question"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rhetorical question is used to make readers think rather than to receive an actual answer.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is this poem considered \"didactic\"?",
+      options: [
+        "Because it is very long.",
+        "Because it teaches a moral lesson about equality.",
+        "Because it was written in a school.",
+        "Because it rhymes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Didactic literature is written to teach or instruct readers about important values.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is NOT a theme in the poem?",
+      options: [
+        "Racial harmony",
+        "Equality",
+        "Building a house",
+        "Universality"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem focuses on equality, unity, and God's universality, not on construction or buildings.",
+    ),
+
+    QuizQuestion(
+      question: "6. In the poem, \"snow\" might be used by some to describe God as:",
+      options: [
+        "Cold",
+        "Melting",
+        "Soft",
+        "White"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem explains that people often imagine God using images familiar to their own environment, such as white snow.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does the poem suggest about the relationship between different races?",
+      options: [
+        "They should stay separate.",
+        "They should all wear the same colour.",
+        "One race knows the truth better than others.",
+        "They are all equally connected to God."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poem promotes equality by showing that God belongs to all humanity.",
+    ),
+
+    QuizQuestion(
+      question: "8. The tone of the poem can best be described as:",
+      options: [
+        "Angry",
+        "Silly",
+        "Confused",
+        "Reflective and wise"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The poet thoughtfully reflects on God's universality and encourages readers to think deeply.",
+    ),
+
+    QuizQuestion(
+      question: "9. If God is \"Universal,\" He is like:",
+      options: [
+        "A private car",
+        "The sun that shines on everyone",
+        "A locked door",
+        "A small box"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Like the sun, a universal God is available equally to all people regardless of race or nationality.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to practice the lesson of this poem in your JHS?",
+      options: [
+        "By only talking to people who look like you.",
+        "By treating every student with respect and kindness regardless of their tribe or appearance.",
+        "By painting the classroom one colour.",
+        "By arguing about who is the tallest."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem encourages respect, equality, and kindness toward everyone, regardless of differences.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who is the author of \"Scribbler's Dream\"?",
+      options: [
+        "Lade Wosornu",
+        "Ama Ata Aidoo",
+        "Lawrence Darmani",
+        "V. B. Aakye"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Lawrence Darmani is the Ghanaian author of the poem \"Scribbler's Dream.\"",
+    ),
+
+    QuizQuestion(
+      question: "2. The \"Scribbler\" has a \"Dream.\" What does this dream consist of?",
+      options: [
+        "Winning a lottery.",
+        "Creative ideas and stories.",
+        "Owning a large farm.",
+        "Traveling to another country."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The dream represents the writer's creative ideas, imagination, and potential.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does it mean to \"stifle\" a dream?",
+      options: [
+        "To make it grow faster.",
+        "To suffocate or suppress it.",
+        "To share it with friends.",
+        "To draw a picture of it."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "To stifle a dream means to suppress or prevent it from developing.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which literary device is used when the poet describes the dream as \"dying\"?",
+      options: [
+        "Simile",
+        "Personification",
+        "Metaphor",
+        "Onomatopoeia"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Giving a dream human qualities such as dying is an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "5. The poem is a call to avoid:",
+      options: [
+        "Hard work",
+        "Reading books",
+        "Procrastination",
+        "Singing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem encourages readers not to delay acting on their dreams.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the poet mean by \"the wealth of the mind\"?",
+      options: [
+        "Having a lot of money in the bank.",
+        "The valuable ideas and talents inside a person.",
+        "Knowing how to do math.",
+        "Remembering where you put your keys."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poet describes ideas, creativity, and talents as a person's true inner wealth.",
+    ),
+
+    QuizQuestion(
+      question: "7. The tone of the poem is best described as:",
+      options: [
+        "Urgent and encouraging.",
+        "Lazy and tired.",
+        "Sad and hopeless.",
+        "Very funny."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The poet motivates readers to act on their dreams without delay.",
+    ),
+
+    QuizQuestion(
+      question: "8. In the poem, a dream that is never written down is compared to:",
+      options: [
+        "A bright sun.",
+        "Something that withers or disappears.",
+        "A loud drum.",
+        "A tall building."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The image of withering emphasizes how neglected dreams fade away.",
+    ),
+
+    QuizQuestion(
+      question: "9. Why might Lawrence Darmani have written this poem for JHS students?",
+      options: [
+        "To teach them how to use a pen.",
+        "To encourage them to pursue their talents early in life.",
+        "To make them sleep less.",
+        "To complain about his own life."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem encourages young people to develop their talents while they are still young.",
+    ),
+
+    QuizQuestion(
+      question: "10. The ultimate \"Resolution\" of the poet's argument is that:",
+      options: [
+        "Dreams are useless.",
+        "Dreams are only for rich people.",
+        "Dreams must be combined with action to be successful.",
+        "You should wait until you are 50 to write."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The poem teaches that dreams only become reality when they are supported by action and hard work.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"The Dilemma of a Ghost\" is a play. What is the literary term for a play?",
+      options: [
+        "Narrative",
+        "Poetry",
+        "Drama",
+        "Short Story"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Drama is the genre of literature written to be performed on stage.",
+    ),
+
+    QuizQuestion(
+      question: "2. Ato Yawson belongs to which clan?",
+      options: [
+        "The Anona Clan",
+        "The Odumna Clan",
+        "The Asante Clan",
+        "The Fante Clan"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Odumna Clan is Ato Yawson's family clan in the play.",
+    ),
+
+    QuizQuestion(
+      question: "3. What does Eulalie do that shocks the village women?",
+      options: [
+        "She wears a traditional cloth.",
+        "She smokes cigarettes and throws away good food.",
+        "She starts a farm.",
+        "She speaks fluent Fante."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Eulalie's modern habits, such as smoking and wasting food, surprise the village women.",
+    ),
+
+    QuizQuestion(
+      question: "4. In the play, who are the \"Two Village Women\"?",
+      options: [
+        "Characters who act as a chorus to comment on the action.",
+        "Ato's sisters.",
+        "Eulalie's friends from America.",
+        "Teachers at the local school."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The Two Village Women serve as a chorus, commenting on events and reflecting community opinions.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"Dilemma\" is best defined as:",
+      options: [
+        "A very happy occasion.",
+        "A choice between two difficult options.",
+        "A traditional Ghanaian dance.",
+        "The name of a ghost."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A dilemma is a difficult situation involving a choice between challenging alternatives.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why does the family try to \"wash\" Eulalie with medicine?",
+      options: [
+        "They think she is barren (cannot have children).",
+        "They think she is dirty.",
+        "It is a traditional wedding custom.",
+        "They want to change her skin colour."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The family believes Eulalie's failure to become pregnant is caused by a medical or spiritual problem.",
+    ),
+
+    QuizQuestion(
+      question: "7. The \"Ghost\" in the title refers most significantly to:",
+      options: [
+        "Ato, who is caught between two worlds.",
+        "A scary spirit in the forest.",
+        "Eulalie's deceased mother.",
+        "A character who died before the play began."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "Ato is metaphorically a 'ghost' because he belongs fully to neither his traditional culture nor his Western life.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which character is the most understanding of Eulalie at the very end?",
+      options: [
+        "Ato's father.",
+        "Esi Kom (Ato's mother).",
+        "The village priest.",
+        "The Two Village Women."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "By the end of the play, Esi Kom shows empathy and accepts Eulalie into the family.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the main theme of this play?",
+      options: [
+        "The clash between African tradition and Western culture.",
+        "The importance of farming.",
+        "How to study abroad successfully.",
+        "The history of slavery in Ghana."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The play mainly explores the conflict between traditional African customs and Western values.",
+    ),
+
+    QuizQuestion(
+      question: "10. Ato's failure to communicate with his wife and family makes him:",
+      options: [
+        "A tragic or flawed character.",
+        "A hero.",
+        "The smartest person in the play.",
+        "A very good husband."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Ato's silence and inability to communicate create much of the conflict, making him a flawed tragic character.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In \"Anowa,\" the protagonist is best described as:",
+      options: [
+        "Independent and strong-willed",
+        "Obedient and shy",
+        "Lazy and talkative",
+        "Greedy and mean"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Anowa is known for her independence and determination to make her own choices.",
+    ),
+
+    QuizQuestion(
+      question: "2. The nickname \"The-Mouth-That-Eats-Salt-And-Pepper\" refers to:",
+      options: [
+        "The Old Man and The Old Woman",
+        "A traditional Ghanaian recipe",
+        "Anowa's parents",
+        "The greedy Chiefs"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The nickname refers to the Old Man and Old Woman, who act as commentators throughout the play.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the name of the man Anowa chooses to marry?",
+      options: [
+        "Kofi Ako",
+        "Ato",
+        "Osam",
+        "Kweku Ananse"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Anowa chooses to marry Kofi Ako despite her parents' objections.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which character is most critical and judgmental of Anowa?",
+      options: [
+        "The Old Man",
+        "The Old Woman",
+        "Her father, Osam",
+        "Her husband"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Old Woman often represents society's critical and judgmental opinions.",
+    ),
+
+    QuizQuestion(
+      question: "5. Anowa's father, Osam, is often seen smoking his pipe and staying quiet. This suggests he is:",
+      options: [
+        "Very angry",
+        "Passive or less controlling than the mother",
+        "Unable to speak",
+        "Not interested in his daughter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Osam is portrayed as calmer and less forceful than Badua in family decisions.",
+    ),
+
+    QuizQuestion(
+      question: "6. The conflict between Anowa and her mother is an example of:",
+      options: [
+        "Man vs. Nature",
+        "Man vs. Machine",
+        "Man vs. Ghost",
+        "Man vs. Society"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The conflict reflects Anowa's struggle against traditional social expectations.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why does Badua (the mother) want Anowa to be \"normal\"?",
+      options: [
+        "She wants Anowa to be famous.",
+        "She wants her daughter to be safe and accepted by the community.",
+        "She is jealous of Anowa's beauty.",
+        "She wants Anowa to move to a big city."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Badua believes following tradition will ensure Anowa's acceptance and security.",
+    ),
+
+    QuizQuestion(
+      question: "\"Anowa\" is set in the 1870s. This period is often called:",
+      options: [
+        "The Post-Independence era",
+        "The Stone Age",
+        "The Modern era",
+        "The Colonial/Victorian era"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The play is set during the late nineteenth century, within the Colonial/Victorian period in the Gold Coast.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the role of a \"Chorus\" in a play?",
+      options: [
+        "To clean the stage between scenes",
+        "To provide commentary and reflect public opinion",
+        "To play musical instruments only",
+        "To act as the main villains"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A chorus comments on events and helps the audience understand the play's themes.",
+    ),
+
+    QuizQuestion(
+      question: "10. The play \"Anowa\" suggests that being \"different\" can lead to:",
+      options: [
+        "Getting lots of money",
+        "Tension with one's family and society",
+        "Becoming a queen immediately",
+        "Forgetting how to speak one's language"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The play explores how individuality can create conflict with traditional family and social expectations.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who retold the version of \"The Old Man and His Children\" found in The Cockcrow?",
+      options: [
+        "Ama Ata Aidoo",
+        "Jean Watson",
+        "Lawrence Darmani",
+        "Lade Wosornu"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Jean Watson is credited with retelling this traditional tale in The Cockcrow.",
+    ),
+
+    QuizQuestion(
+      question: "2. What is the \"Exposition\" of this story?",
+      options: [
+        "The sons breaking the single sticks.",
+        "The father's death.",
+        "The introduction of the father and his quarrelling sons.",
+        "The sons becoming rich."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The exposition introduces the father, his sons, and the central conflict of their constant quarrelling.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why did the father use sticks instead of just telling the sons to stop fighting?",
+      options: [
+        "He didn't know how to speak.",
+        "A visual demonstration is often more powerful and easier to remember.",
+        "He wanted the sons to go and gather more wood.",
+        "He was making a fire for dinner."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The father used a practical demonstration to teach the lesson more effectively.",
+    ),
+
+    QuizQuestion(
+      question: "4. In the story, the sons were \"strong\" men. Why couldn't they break the bundle?",
+      options: [
+        "The sticks were made of metal.",
+        "The power of unity was greater than their individual physical strength.",
+        "The father had cast a spell on the sticks.",
+        "They were not trying hard enough."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The bundle symbolizes unity, showing that working together creates greater strength.",
+    ),
+
+    QuizQuestion(
+      question: "5. A \"didactic\" story is primarily meant to:",
+      options: [
+        "Make the reader cry.",
+        "Teach a moral or lesson.",
+        "Explain the history of a country.",
+        "Scare the audience."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A didactic story is written mainly to teach an important lesson or moral.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the \"Climax\" of the story?",
+      options: [
+        "When the father first calls the sons.",
+        "When the father unties the bundle and the sons easily break the individual sticks.",
+        "When the sons go back to their own homes.",
+        "When the father buys the twine."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The climax occurs when the demonstration reveals the lesson about unity most clearly.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does the \"twine\" or string that ties the sticks together represent?",
+      options: [
+        "Money and wealth.",
+        "The bond of love or a common purpose.",
+        "A heavy burden.",
+        "A trap for the sons."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The twine symbolizes the bond that keeps people united and strong.",
+    ),
+
+    QuizQuestion(
+      question: "8. If the brothers continue to quarrel after their father dies, what is the predicted outcome?",
+      options: [
+        "They will be \"broken\" by their enemies.",
+        "They will become more famous.",
+        "They will find more sticks.",
+        "They will live happily ever after."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The story warns that division makes people weak and easy to defeat.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which character is the \"Antagonist\" or the source of the trouble in the beginning?",
+      options: [
+        "The Old Man",
+        "The enemies of the family",
+        "The quarrelsome nature of the sons",
+        "The sticks"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The main conflict comes from the sons' constant quarrelling with one another.",
+    ),
+
+    QuizQuestion(
+      question: "10. The \"Resolution\" of the story occurs when:",
+      options: [
+        "The sons get into another fight.",
+        "The father explains the lesson and the sons understand.",
+        "The sticks are thrown into the fire.",
+        "The story ends without a clear message."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The resolution comes when the father teaches the lesson and the sons understand the value of unity.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the central theme of \"Ripples\"?",
+      options: [
+        "The beauty of nature",
+        "The importance of early marriage",
+        "The long-term consequences of our actions",
+        "The history of Ghana"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The story shows how one decision can create lasting consequences that affect the future.",
+    ),
+
+    QuizQuestion(
+      question: "2. Ama's decision to leave school is a choice between:",
+      options: [
+        "Two different schools",
+        "Her mother and her father",
+        "Short-term desire and long-term stability",
+        "Working in Accra or Kumasi"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ama chooses early marriage instead of completing her education, sacrificing long-term stability.",
+    ),
+
+    QuizQuestion(
+      question: "3. In literature, when one event leads to another, it is called:",
+      options: [
+        "Rhyme and Rhythm",
+        "Stanza and Verse",
+        "Cause and Effect",
+        "Plot and Setting"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Cause and effect explains how one action produces later consequences, just like the 'ripples' in the story.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why is the story titled \"Ripples\"?",
+      options: [
+        "Because the story takes place on a boat.",
+        "Because it describes how consequences spread over time.",
+        "Because Ama liked to swim.",
+        "Because it rained throughout the story."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The title is a metaphor showing how one decision can create effects that continue to spread.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which word best describes Ama's feelings as an adult?",
+      options: [
+        "Excitement",
+        "Regret",
+        "Indifference",
+        "Confusion"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Ama regrets the decisions she made as a teenager because of the hardships they caused.",
+    ),
+
+    QuizQuestion(
+      question: "6. The author, Peter Paul Adolinama, uses this story as a \"cautionary tale.\" What does this mean?",
+      options: [
+        "It is a story meant to make people laugh.",
+        "It is a story that warns people against making similar mistakes.",
+        "It is a story about a famous king.",
+        "It is a story with no ending."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A cautionary tale teaches readers to avoid harmful choices by showing their consequences.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the story depict teenage marriage?",
+      options: [
+        "As a quick way to get rich.",
+        "As the best path for every young girl.",
+        "As a decision that can lead to a cycle of poverty and lost potential.",
+        "As a funny misunderstanding."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The story highlights how early marriage can limit opportunities and create long-term difficulties.",
+    ),
+
+    QuizQuestion(
+      question: "8. What does the daughter's struggle to stay in school represent?",
+      options: [
+        "Her lack of intelligence.",
+        "The \"ripple\" effect of her mother's financial instability.",
+        "A completely different problem unrelated to Ama.",
+        "The daughter's desire to travel."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The daughter's difficulties are a direct consequence of Ama's earlier decisions.",
+    ),
+
+    QuizQuestion(
+      question: "9. If Ama had listened to her elders in the story, what would she likely have done?",
+      options: [
+        "Married even earlier.",
+        "Stayed in school and delayed marriage.",
+        "Moved to a different country.",
+        "Stopped talking to her friends."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The story suggests that completing her education before marriage would have led to a better future.",
+    ),
+
+    QuizQuestion(
+      question: "10. The \"Resolution\" of a story like \"Ripples\" serves to:",
+      options: [
+        "Solve all the problems immediately.",
+        "Finalize the moral lesson for the reader.",
+        "Introduce a new character.",
+        "End the book with a song."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "In a didactic story, the resolution reinforces the lesson that readers should learn from the events.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. \"Makola\" is located in which Ghanaian city?",
+      options: [
+        "Kumasi",
+        "Tamale",
+        "Accra",
+        "Takoradi"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Makola is the most famous market in Ghana's capital city, Accra.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does \"Auditory imagery\" refer to?",
+      options: [
+        "The sense of sight",
+        "The sense of hearing",
+        "The sense of taste",
+        "The sense of smell"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Auditory imagery appeals to the sense of hearing by describing sounds.",
+    ),
+
+    QuizQuestion(
+      question: "3. The \"Kayayei\" mentioned in the context of the market are:",
+      options: [
+        "People who sell shoes",
+        "Female head porters who carry loads for a fee",
+        "Police officers in the market",
+        "Drivers of trotros"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Kayayei are female head porters who transport goods for customers in markets.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is an example of onomatopoeia?",
+      options: [
+        "Market",
+        "Clatter",
+        "Beautiful",
+        "Person"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Clatter\" imitates the sound of metal objects striking each other.",
+    ),
+
+    QuizQuestion(
+      question: "5. Theresa Ennin's poem describes the market as \"chaotic but organized.\" This suggests:",
+      options: [
+        "No one knows what they are doing.",
+        "There is a lot of noise and movement, but the business still works.",
+        "The market is closed for the day.",
+        "There are no people in the market."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Although the market appears busy and noisy, it operates through an organized system.",
+    ),
+
+    QuizQuestion(
+      question: "6. \"Red, ripe tomatoes piled in pyramids\" uses which two senses?",
+      options: [
+        "Sight and Touch",
+        "Smell and Taste",
+        "Sight and Smell",
+        "Sound and Sight"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "\"Red\" and \"pyramids\" appeal to sight, while \"ripe\" suggests texture that can be felt.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is the tone of the poem \"Makola\"?",
+      options: [
+        "Vibrant and energetic",
+        "Quiet and peaceful",
+        "Sad and lonely",
+        "Scary and dark"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The poem celebrates the lively atmosphere and energy of the market.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a poet mentions the \"fumes of exhaust from idling engines,\" they are using:",
+      options: [
+        "Visual imagery",
+        "Olfactory imagery (Smell)",
+        "Tactile imagery",
+        "Gustatory imagery (Taste)"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Exhaust fumes appeal to the reader's sense of smell.",
+    ),
+
+    QuizQuestion(
+      question: "9. The poem \"Makola\" belongs to which sub-strand?",
+      options: [
+        "Narrative",
+        "Drama",
+        "Poetry",
+        "Essay writing"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "\"Makola\" is a descriptive poem and belongs to the Poetry sub-strand.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why does the poet focus on the \"struggle\" in the market?",
+      options: [
+        "To discourage people from going there.",
+        "To show the hard work and resilience of ordinary Ghanaians.",
+        "Because she lost her money there.",
+        "To ask the government for new buildings."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The poem highlights the resilience, determination, and hard work of everyday people in the market.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The name \"Schatz\" is a German nickname. What does it mean?",
+      options: [
+        "Little Soldier",
+        "Treasure or Darling",
+        "Sick Boy",
+        "Brave One"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "\"Schatz\" is a German term of endearment meaning \"Treasure\" or \"Darling,\" which the father affectionately uses for his son.",
+    ),
+
+    QuizQuestion(
+      question: "2. In what country did Schatz go to school and learn about the Celsius scale?",
+      options: [
+        "Ghana",
+        "America",
+        "France",
+        "Germany"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Schatz had studied in France, where temperatures are measured using the Celsius scale, leading to his misunderstanding.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the narrative point of view of this story?",
+      options: [
+        "First-person (The Father)",
+        "First-person (Schatz)",
+        "Third-person (The Doctor)",
+        "Second-person (The Reader)"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The father narrates the story from his own perspective as he observes his son's behavior.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is the main conflict in the story?",
+      options: [
+        "Man vs. Man (Father vs. Son)",
+        "Man vs. Self (Schatz vs. His Fear)",
+        "Man vs. Nature (The Doctor vs. The Flu)",
+        "Man vs. Society (The School vs. The Home)"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The central conflict is Schatz's internal fear and misunderstanding about his illness.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does Schatz stare at the foot of the bed all day?",
+      options: [
+        "He is watching a television show.",
+        "He is concentrating on staying alive or preparing for death.",
+        "He is waiting for his mother to come home.",
+        "He is looking for his lost toy."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Believing he is going to die, Schatz quietly prepares himself, revealing his intense inner fear.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does the father do while Schatz is \"waiting to die\"?",
+      options: [
+        "He goes out to hunt quail.",
+        "He cooks a big meal.",
+        "He reads a book to Schatz.",
+        "Both A and C."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "The father reads to Schatz and later goes hunting, unaware that his son believes he is dying.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the father explain the difference between the thermometers?",
+      options: [
+        "Like the difference between miles and kilometres.",
+        "Like the difference between a cat and a dog.",
+        "Like the difference between day and night.",
+        "He tells him the doctor was lying."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The father compares Fahrenheit and Celsius to miles and kilometres to explain that they are simply different measurement systems.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is the tone of the story?",
+      options: [
+        "Exciting and fast-paced",
+        "Angry and loud",
+        "Very funny and light-hearted",
+        "Quiet, serious, and understated"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Hemingway's simple, restrained style creates a calm yet serious tone throughout the story.",
+    ),
+
+    QuizQuestion(
+      question: "9. The fact that Schatz spent a whole day in terror because of a simple mistake is an example of:",
+      options: [
+        "Irony",
+        "A Happy Ending",
+        "Onomatopoeia",
+        "Alliteration"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It is ironic because Schatz's suffering was based entirely on a misunderstanding about temperature scales.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson about communication in this story?",
+      options: [
+        "Never listen to doctors.",
+        "Always ask questions if you are afraid or confused.",
+        "Children should never go to school in France.",
+        "Fevers are not dangerous."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "If Schatz had shared his fears or asked questions earlier, he would have avoided unnecessary suffering.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The poem compares the mother to which time of day?",
+      options: [
+        "Midnight",
+        "High Noon",
+        "Sunrise",
+        "Sunset"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem compares the mother to a sunrise, symbolizing hope, warmth, and a new beginning.",
+    ),
+
+    QuizQuestion(
+      question: "2. What does it mean if someone \"glints\"?",
+      options: [
+        "To make a loud noise.",
+        "To give off small flashes of light.",
+        "To run very fast.",
+        "To be very angry."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "\"Glints\" means to shine or reflect small flashes of light.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the poem, the sunrise is \"not with a shout.\" This emphasizes the mother's:",
+      options: [
+        "Laziness",
+        "Gentleness",
+        "Fear of noise",
+        "Hidden anger"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The quiet sunrise symbolizes the mother's calm, gentle, and caring nature.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Mama is a Sunrise\" is a poem about:",
+      options: [
+        "The weather in Ghana.",
+        "The importance of waking up early.",
+        "A mother's nourishing love.",
+        "How to study the stars."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem celebrates a mother's love, care, and positive influence on her family.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sense does the phrase \"glints and glows\" appeal to?",
+      options: [
+        "Hearing",
+        "Smell",
+        "Sight (Visual)",
+        "Taste"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "\"Glints\" and \"glows\" describe light, appealing to the sense of sight.",
+    ),
+
+    QuizQuestion(
+      question: "6. The use of \"nudging\" to describe the sun/mother is an example of:",
+      options: [
+        "Hyperbole",
+        "Personification",
+        "Rhyme",
+        "Irony"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Giving the sun the human action of \"nudging\" is an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does the poet feel about her mother?",
+      options: [
+        "She is annoyed by her.",
+        "She doesn't know her well.",
+        "She is afraid of her.",
+        "She admires and loves her."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "The poem is a heartfelt tribute expressing admiration, gratitude, and love for the mother.",
+    ),
+
+    QuizQuestion(
+      question: "8. If a mother \"scatters the darkness,\" what is she actually doing for her family?",
+      options: [
+        "Turning on the electricity.",
+        "Cooking breakfast.",
+        "Sweeping the floor.",
+        "Removing sadness or fear with her presence."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "\"Darkness\" symbolizes fear or sadness, while the mother brings hope and comfort.",
+    ),
+
+    QuizQuestion(
+      question: "9. The \"warmth\" mentioned in the poem is most likely:",
+      options: [
+        "The heat from a coal pot.",
+        "The heat from a fever.",
+        "The emotional comfort of a loving home.",
+        "The hot weather in April."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The warmth represents the love, care, and emotional security a mother provides.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why would a poet choose a \"Sunrise\" instead of \"Rain\" to describe a mother?",
+      options: [
+        "Because rain is always bad.",
+        "Because a sunrise represents a fresh start and bright, positive energy.",
+        "Because rain makes you wet.",
+        "Because sunrises are more expensive."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A sunrise symbolizes hope, renewal, warmth, and the positive influence of a loving mother.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The hunter in the story is the protagonist. What does this mean?",
+      options: [
+        "He is the villain or bad guy.",
+        "He is the main character who drives the story.",
+        "He is the person who tells the story.",
+        "He is a minor character with no lines."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The protagonist is the central character whose actions drive the events of the story.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the story, the hunter's generosity is a test. Who is testing him?",
+      options: [
+        "His wife",
+        "The Chief of the village",
+        "The old man/stranger in the forest",
+        "His fellow hunters"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The old man or stranger tests the hunter's kindness and moral character.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is reciprocity?",
+      options: [
+        "The art of hunting with a bow.",
+        "The practice of exchanging things for mutual benefit.",
+        "A type of forest tree.",
+        "The fear of being alone."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Reciprocity means giving and receiving kindness or help for mutual benefit.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of the following best describes the hunter's character?",
+      options: [
+        "Compassionate and humble",
+        "Selfish and fast",
+        "Lazy and talkative",
+        "Rich and powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The hunter is rewarded because of his compassion, humility, and generosity.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the majority of the story take place?",
+      options: [
+        "Deep in the forest",
+        "In a modern city",
+        "At a primary school",
+        "On a boat at sea"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story is set mainly in a traditional forest environment.",
+    ),
+
+    QuizQuestion(
+      question: "6. The reward the hunter receives is a result of his:",
+      options: [
+        "Ability to shoot accurately",
+        "Willingness to share his meager resources",
+        "Knowledge of the forest paths",
+        "Friendship with the Chief"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The hunter's kindness and generosity, rather than his hunting skills, earn him the reward.",
+    ),
+
+    QuizQuestion(
+      question: "7. A story that teaches a moral lesson is called:",
+      options: [
+        "An autobiography",
+        "A didactic story",
+        "A mystery novel",
+        "A dictionary"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A didactic story is written primarily to teach a moral or lesson.",
+    ),
+
+    QuizQuestion(
+      question: "8. How did the hunter feel when he saw the old man?",
+      options: [
+        "He felt pity and wanted to help.",
+        "He felt annoyed and wanted him to leave.",
+        "He felt scared and ran away.",
+        "He felt nothing and ignored him."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The hunter's compassion led him to help the old man despite having very little.",
+    ),
+
+    QuizQuestion(
+      question: "9. What does the food symbolize in this story?",
+      options: [
+        "Wealth and physical survival",
+        "A trap for animals",
+        "The hunter's lack of cooking skills",
+        "A gift from his mother"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "By sharing his food, the hunter sacrifices part of his own survival for another person.",
+    ),
+
+    QuizQuestion(
+      question: "10. The moral of the story is most similar to which of these?",
+      options: [
+        "Work hard and you will get rich.",
+        "Be kind to others, and kindness will come back to you.",
+        "Never talk to strangers in the forest.",
+        "Always carry more food than you need."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story teaches that kindness and generosity are rewarded in return.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In the title, what does the word 'Minor' most likely suggest?",
+      options: [
+        "A bird that works in a coal mine.",
+        "Something small, unimportant, or in a sad musical key.",
+        "A bird that is not yet an adult.",
+        "A very large and loud bird."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The word 'Minor' suggests something small, modest, or slightly melancholy, matching the bird's quiet presence.",
+    ),
+
+    QuizQuestion(
+      question: "2. The poem is written from which point of view?",
+      options: [
+        "First-person ('I')",
+        "Third-person (He/She)",
+        "Second-person (You)",
+        "The bird's point of view"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The speaker uses 'I' to describe his own thoughts and actions.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the rhyme scheme of a poem written in couplets?",
+      options: [
+        "ABAB",
+        "ABCA",
+        "AABB",
+        "ABCD"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Couplets consist of pairs of rhyming lines, producing an AABB pattern in this poem.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why did the speaker want the bird to stop singing initially?",
+      options: [
+        "He thought the bird was in pain.",
+        "He was annoyed by the constant noise.",
+        "He wanted to hear the radio.",
+        "He was trying to catch the bird."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "At the beginning of the poem, the speaker is irritated by the bird's repeated song.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'The bird was not to blame for his key.' What does 'key' mean here?",
+      options: [
+        "A metal object to open a door.",
+        "The musical pitch or style of the bird's song.",
+        "The answer to a riddle.",
+        "A button on a computer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Key' is used as a musical term describing the bird's natural song.",
+    ),
+
+    QuizQuestion(
+      question: "6. The speaker's change of mind at the end shows he is:",
+      options: [
+        "Confused",
+        "Reflective and self-aware",
+        "Still angry",
+        "Sleepy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The speaker realizes his irritation came from himself rather than the bird.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'silencing a song' symbolize in a broader sense?",
+      options: [
+        "Turning off a light.",
+        "Suppressing creativity, nature, or the opinions of others.",
+        "Buying a new birdcage.",
+        "Learning how to whistle."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The bird's song represents natural expression, so silencing it symbolizes intolerance or suppression.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these words rhymes with 'hands' in the poem?",
+      options: [
+        "Stands",
+        "Bands",
+        "Door",
+        "Day"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Robert Frost pairs 'hands' with 'stands' in one of the poem's rhyming couplets.",
+    ),
+
+    QuizQuestion(
+      question: "9. The tone of the ending of the poem is:",
+      options: [
+        "Arrogant",
+        "Humble and apologetic",
+        "Loud and aggressive",
+        "Joking"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The speaker admits he was wrong and reflects humbly on his own behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. Robert Frost is an American poet, but his themes are 'universal.' This means:",
+      options: [
+        "He only writes about the stars.",
+        "His lessons about nature and humanity apply to everyone, including people in Ghana.",
+        "He writes in many different languages.",
+        "He is famous only in America."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Universal themes are relevant to people everywhere regardless of culture or country.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main theme of 'Sosu and the Bukari Boys'?",
+      options: [
+        "The importance of physical strength.",
+        "Integrity and the dangers of peer pressure.",
+        "How to find a job in the city.",
+        "The history of the Bukari family."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story focuses on Sosu's moral choices and the importance of integrity despite peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "2. Sosu is the 'Protagonist.' This means he is:",
+      options: [
+        "The person who causes the trouble.",
+        "The person who catches the thieves.",
+        "The main character we follow.",
+        "A character who doesn't speak."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The protagonist is the central character whose experiences drive the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. The Bukari Boys are an example of:",
+      options: [
+        "A positive youth group.",
+        "A 'bad crowd' or negative peer influence.",
+        "A school choir.",
+        "A group of explorers."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The Bukari Boys influence Sosu to make poor choices and represent negative peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "4. When a character is the opposite of another to highlight their traits, they are called a:",
+      options: [
+        "Metaphor",
+        "Stanza",
+        "Foil",
+        "Protagonist"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A foil is a character whose contrasting qualities highlight another character's personality.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why did Sosu feel guilty during the story?",
+      options: [
+        "He forgot his homework.",
+        "He knew that stealing was wrong.",
+        "He didn't have enough money to buy bread.",
+        "He was tired of walking."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sosu's guilty conscience shows that he understood stealing was morally wrong.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Integrity is doing the right thing even when no one is watching.' This quote applies to Sosu because:",
+      options: [
+        "He only acts well when his teacher is looking.",
+        "He has to decide to be honest even when he is alone with the boys.",
+        "He wants to be a famous actor.",
+        "He is a very good hider."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "True integrity is shown by making honest choices even without supervision.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is a 'Didactic' story?",
+      options: [
+        "A story that is meant to be sung.",
+        "A story about a ghost.",
+        "A story that is meant to teach a lesson.",
+        "A story that has no characters."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Didactic stories are written to teach readers important moral lessons.",
+    ),
+
+    QuizQuestion(
+      question: "8. The 'Internal Conflict' in this story is:",
+      options: [
+        "Man vs. Nature",
+        "Man vs. Self (Sosu's conscience)",
+        "Man vs. Machine",
+        "Man vs. Animal"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Sosu's greatest struggle is the battle between doing right and giving in to peer pressure.",
+    ),
+
+    QuizQuestion(
+      question: "9. If the Bukari Boys are shamed at the end of the story, this is a:",
+      options: [
+        "Plot hole",
+        "Consequence of their actions",
+        "Surprise ending",
+        "Mistake by the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Their punishment is the natural consequence of their dishonest behavior.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the best way to avoid being like Sosu at the beginning of the story?",
+      options: [
+        "Choose your friends carefully based on their character.",
+        "Never leave your house.",
+        "Give all your money to the Bukari Boys.",
+        "Stop going to school."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The story teaches that choosing good friends helps people make wise and honest decisions.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. 'A Wreath of Tears' is best described as what type of poem?",
+      options: [
+        "A humorous poem",
+        "A funeral tribute or elegy",
+        "A nature poem",
+        "A political poem"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem is an elegy that expresses grief and honours the memory of a loved one.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the title, the 'Tears' are used to make the 'Wreath.' This is a:",
+      options: [
+        "Metaphor",
+        "Simile",
+        "Onomatopoeia",
+        "Hyperbole"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The tears are directly compared to the material used to make a wreath, making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "3. What is the 'Tone' of this poem?",
+      options: [
+        "Angry and loud",
+        "Solemn and mournful",
+        "Happy and bright",
+        "Sarcastic"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem's focus on death, remembrance, and grief creates a solemn and mournful tone.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which sound device is common in funeral dirges and this poem?",
+      options: [
+        "Computer sounds",
+        "Alliteration",
+        "Silence",
+        "Rhyme only"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Alliteration creates a gentle, rhythmic sound that suits the poem's mournful mood.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why does the poet 'weave' his tears?",
+      options: [
+        "He is a professional weaver.",
+        "To create a lasting tribute and process his grief.",
+        "To hide his eyes from the sun.",
+        "To make a blanket."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Weaving the tears symbolizes turning grief into a lasting act of remembrance.",
+    ),
+
+    QuizQuestion(
+      question: "6. In Ghanaian culture, which colours are most associated with the themes in this poem?",
+      options: [
+        "Black and Red",
+        "White and Yellow",
+        "Green and Blue",
+        "Pink and Purple"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Black and red are traditionally worn during mourning and funeral ceremonies in Ghana.",
+    ),
+
+    QuizQuestion(
+      question: "7. The poem suggests that grief is:",
+      options: [
+        "A waste of time.",
+        "A natural and important part of loving someone.",
+        "Something to be ashamed of.",
+        "Only for women."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem presents tears and remembrance as meaningful expressions of love and loss.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Softly the salt stings.' This line is an example of:",
+      options: [
+        "Alliteration",
+        "Metaphor",
+        "Personification",
+        "Simile"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The repeated 'S' sound in 'Softly the salt stings' is an example of alliteration.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the 'Resolution' for the poet's sadness?",
+      options: [
+        "He stops crying forever.",
+        "He finds peace through remembrance and honouring the dead.",
+        "He forgets the person who died.",
+        "He buys a new wreath of flowers."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The poem ends with acceptance and peace found through remembrance and tribute.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson we can learn from this poem?",
+      options: [
+        "Never go to funerals.",
+        "It is important to honour the memory of those we have lost.",
+        "Flowers are too expensive for funerals.",
+        "Poetry should only be about happy things."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem teaches the value of remembering and honouring loved ones who have passed away.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The poem 'Sleep Without Wake' is primarily a tribute to:",
+      options: [
+        "A father",
+        "A brother",
+        "A mother",
+        "A teacher"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The poem is a lament that mourns and honors the memory of the poet's mother.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is the most accurate definition of a 'dirge'?",
+      options: [
+        "A happy song for a wedding.",
+        "A story about a talking animal.",
+        "A mournful song or poem for the dead.",
+        "A poem about the stars."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A dirge is a poem or song written to express sorrow for someone who has died.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why does the poet use the word 'sleep' to describe death?",
+      options: [
+        "Because he wants to take a nap.",
+        "To make the concept of death feel more peaceful and less frightening.",
+        "Because his mother was very tired.",
+        "He made a mistake in his writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sleep is a common euphemism that presents death as peaceful and restful.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is the 'Tone' of the poem?",
+      options: [
+        "Joyful and loud",
+        "Solemn and mournful",
+        "Angry and violent",
+        "Joking and funny"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The poem's focus on death and remembrance creates a solemn and mournful tone.",
+    ),
+
+    QuizQuestion(
+      question: "5. When the poet says the mother 'cannot hear,' he is emphasizing:",
+      options: [
+        "Her old age.",
+        "The finality and silence of death.",
+        "That the house is too noisy.",
+        "That he is whispering."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The line highlights the permanent silence and separation caused by death.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'She has gone to the village' is a Ghanaian example of which literary device?",
+      options: [
+        "Onomatopoeia",
+        "Rhyme",
+        "Alliteration",
+        "Euphemism"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "It is a gentle, indirect way of referring to someone's death, making it a euphemism.",
+    ),
+
+    QuizQuestion(
+      question: "7. In the poem, the absence of the mother makes the home feel:",
+      options: [
+        "Empty and quiet",
+        "Full of light",
+        "More exciting",
+        "Crowded"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The loss of a mother leaves an emotional emptiness within the family.",
+    ),
+
+    QuizQuestion(
+      question: "8. The title 'Sleep Without Wake' is an example of:",
+      options: [
+        "A Simile",
+        "A Paradox (two opposite ideas together)",
+        "A Hyperbole",
+        "Alliteration"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Combining 'sleep' with 'without wake' creates a paradox that symbolizes death.",
+    ),
+
+    QuizQuestion(
+      question: "9. What is the poet's main purpose in writing this dirge?",
+      options: [
+        "To complain about his life.",
+        "To honour his mother's memory and express his grief.",
+        "To teach people how to sleep better.",
+        "To win a prize."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The poem preserves the memory of the poet's mother while expressing deep sorrow.",
+    ),
+
+    QuizQuestion(
+      question: "10. How does this poem help people who are mourning?",
+      options: [
+        "It gives them a way to put their feelings into words.",
+        "It tells them to stop crying.",
+        "It makes them forget their parents.",
+        "It teaches them how to sing."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Poetry helps people express emotions that are often difficult to describe.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In which city is the story of Oliver Twist set?",
+      options: [
+        "Accra",
+        "New York",
+        "London",
+        "Paris"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The story is set in Victorian London, where Charles Dickens highlights poverty and social injustice.",
+    ),
+
+    QuizQuestion(
+      question: "2. Oliver is an 'Orphan.' What does this mean?",
+      options: [
+        "He is very rich.",
+        "He has lost both of his parents.",
+        "He is a very good singer.",
+        "He is a leader of a gang."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Oliver's life as an orphan is the starting point of his struggles throughout the novel.",
+    ),
+
+    QuizQuestion(
+      question: "3. What was 'gruel,' the food Oliver was served?",
+      options: [
+        "A rich stew with meat and vegetables.",
+        "Fried plantain and beans.",
+        "A type of chocolate cake.",
+        "A thin, watery porridge."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Gruel symbolizes the poor treatment and neglect of children in the workhouse.",
+    ),
+
+    QuizQuestion(
+      question: "4. Who is the loud, bossy official who oversees the workhouse?",
+      options: [
+        "Fagin",
+        "The Artful Dodger",
+        "Mr. Bumble",
+        "Bill Sikes"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Mr. Bumble represents the harsh authority of the workhouse system.",
+    ),
+
+    QuizQuestion(
+      question: "5. Charles Dickens uses 'Social Satire' to:",
+      options: [
+        "Make people laugh at poor children.",
+        "Describe the beauty of the English countryside.",
+        "Teach people how to cook porridge.",
+        "Criticize the unfair treatment of the poor in society."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "Dickens uses satire to expose the cruelty and injustice of society toward the poor.",
+    ),
+
+    QuizQuestion(
+      question: "6. The 'Conflict' in the first part of the story is Oliver vs. whom?",
+      options: [
+        "Nature (the cold weather)",
+        "Society (the workhouse system and its masters)",
+        "His parents",
+        "A group of wild animals"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Oliver struggles against a cruel social system that mistreats poor children.",
+    ),
+
+    QuizQuestion(
+      question: "7. How did the board of the workhouse react to Oliver asking for more?",
+      options: [
+        "They gave him a second bowl immediately.",
+        "They were angry and decided to sell him to an apprentice master.",
+        "They made him the new leader of the boys.",
+        "They closed the workhouse."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Oliver's request shocked the officials, who punished him instead of helping him.",
+    ),
+
+    QuizQuestion(
+      question: "8. 'Resilience' is the ability to:",
+      options: [
+        "Run faster than anyone else.",
+        "Recover quickly from difficulties and stay strong.",
+        "Eat a lot of food.",
+        "Tell very good jokes."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Oliver demonstrates resilience by remaining hopeful despite many hardships.",
+    ),
+
+    QuizQuestion(
+      question: "9. Oliver's pale and thin appearance is a result of:",
+      options: [
+        "His love for exercise.",
+        "Malnutrition and poor living conditions in the workhouse.",
+        "A natural choice he made.",
+        "His fancy diet."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Dickens uses Oliver's appearance to show the effects of hunger and poverty.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the most important lesson for a JHS student in 'Oliver Twist'?",
+      options: [
+        "Never ask for more food.",
+        "Always be afraid of people in hats.",
+        "Your character and goodness can help you survive hard times.",
+        "Living in a city is better than the village."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Oliver's honesty, kindness, and perseverance help him overcome many challenges.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Ken Saro-Wiwa was a famous writer from which West African country?",
+      options: [
+        "Nigeria",
+        "Ghana",
+        "Sierra Leone",
+        "Liberia"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Ken Saro-Wiwa was a renowned Nigerian author, activist, and environmental campaigner.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why has the narrator been away from Dukana?",
+      options: [
+        "She was working in a factory.",
+        "She was attending a teacher training college.",
+        "She was on a vacation.",
+        "She was lost."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The narrator had been away because she was studying at a teacher training college.",
+    ),
+
+    QuizQuestion(
+      question: "3. How does the narrator travel back to her village?",
+      options: [
+        "By aeroplane",
+        "By bus or lorry",
+        "By walking",
+        "By riding a bicycle"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The journey back to Dukana is made by a bus or lorry, highlighting the rough rural roads.",
+    ),
+
+    QuizQuestion(
+      question: "4. 'The road was a dusty ribbon.' This is an example of:",
+      options: [
+        "Metaphor",
+        "Onomatopoeia",
+        "Personification",
+        "Rhyme"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The road is directly compared to a ribbon without using 'like' or 'as,' making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "5. In the story, 'Home Sweet Home' is used to show:",
+      options: [
+        "That the narrator hates the city.",
+        "The emotional connection a person feels to their place of birth.",
+        "That everyone in the village is rich.",
+        "How to build a sweet-smelling house."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The phrase emphasizes the narrator's deep sense of belonging and love for her home village.",
+    ),
+
+    QuizQuestion(
+      question: "6. The contrast in the story is mainly between:",
+      options: [
+        "Men and Women",
+        "Education/Modernity and Tradition/Rural Life",
+        "Cats and Dogs",
+        "Summer and Winter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The narrator's education introduces modern ideas that contrast with traditional village life.",
+    ),
+
+    QuizQuestion(
+      question: "7. What is 'First-person narration'?",
+      options: [
+        "When the narrator is the main character and says 'I.'",
+        "When the narrator knows everything about everyone.",
+        "When the story is told by the villain.",
+        "When there is no narrator."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "First-person narration allows readers to experience the story directly through the narrator's thoughts and feelings.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which sense does the writer use when describing the 'smell of woodsmoke and dried fish'?",
+      options: [
+        "Visual",
+        "Tactile",
+        "Olfactory (Smell)",
+        "Auditory"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Descriptions of woodsmoke and dried fish appeal to the sense of smell (olfactory imagery).",
+    ),
+
+    QuizQuestion(
+      question: "9. The narrator's return is 'bittersweet.' What does this mean?",
+      options: [
+        "She is eating bitter-leaf soup.",
+        "It is a mix of happy and sad feelings.",
+        "She is angry at her mother.",
+        "The bus was very slow."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "She feels happy to return home but saddened by the challenges facing her village.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the resolution of the narrator's internal conflict?",
+      options: [
+        "She leaves the village immediately.",
+        "She accepts her role as an educated person who still loves her home.",
+        "She forgets everything she learned at college.",
+        "She becomes the Chief of Dukana."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "The narrator realizes she can value her education while remaining connected to and supportive of her village.",
+    ),
+  ],
+);
+final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Who wrote the story 'Debbie, Sandy and Pepe'?",
+      options: [
+        "Ama Ata Aidoo",
+        "Merrill Corney",
+        "Jean Watson",
+        "Efua Sutherland"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Merrill Corney is the author of the story 'Debbie, Sandy and Pepe' in The Cockcrow anthology.",
+    ),
+
+    QuizQuestion(
+      question: "2. What kind of creature is Pepe?",
+      options: [
+        "A small dog",
+        "A baby bird",
+        "A kitten",
+        "A lizard"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Pepe is a fledgling (baby bird) rescued by Debbie and Sandy.",
+    ),
+
+    QuizQuestion(
+      question: "3. In the plot of a story, what follows the 'Rising Action'?",
+      options: [
+        "The Introduction",
+        "The Climax",
+        "The Title",
+        "The Author's Note"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The climax is the highest point of tension that comes after the rising action.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which of these is an example of dialogue?",
+      options: [
+        "The sun was very hot.",
+        "\"Is he going to be okay?\" asked Debbie.",
+        "They walked slowly to the house.",
+        "The bird had brown feathers."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dialogue is conversation between characters and is usually written inside quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do the children seek help from their mother?",
+      options: [
+        "They are afraid of the bird.",
+        "They don't know how to care for a baby bird properly.",
+        "They want her to buy them a cage.",
+        "They want to go to school."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The children need adult guidance to properly care for the injured fledgling.",
+    ),
+
+    QuizQuestion(
+      question: "6. The name 'Pepe' most likely mimics what sound?",
+      options: [
+        "A dog barking",
+        "A bird chirping",
+        "A cat meowing",
+        "Rain falling"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Pepe' resembles the soft 'peep' sound made by a young bird.",
+    ),
+
+    QuizQuestion(
+      question: "7. What does 'Compassion' mean?",
+      options: [
+        "Being very fast at running.",
+        "Feeling for others and wanting to help.",
+        "Studying hard for an exam.",
+        "Knowing how to cook Jollof rice."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Compassion means caring about the suffering of others and taking action to help them.",
+    ),
+
+    QuizQuestion(
+      question: "8. What is a 'fledgling'?",
+      options: [
+        "An old bird that cannot fly.",
+        "A young bird that has just grown feathers.",
+        "A type of bird nest.",
+        "A bird that lives in the water."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A fledgling is a young bird that has recently developed feathers and is learning to survive.",
+    ),
+
+    QuizQuestion(
+      question: "9. The setting of the story is important because:",
+      options: [
+        "It takes place in a hospital.",
+        "It shows a typical home where children learn values.",
+        "It is set in a dark forest.",
+        "It takes place underwater."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The home setting highlights family guidance, kindness, and responsibility.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the moral of the story?",
+      options: [
+        "Never touch wild animals.",
+        "All living things deserve care and kindness.",
+        "Only birds are important in nature.",
+        "Children should stay indoors when it rains."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The story teaches compassion and kindness toward all living creatures.",
     ),
   ],
 );
@@ -9587,6 +16728,2415 @@ final QuizModel jhs3s3ss3Lesson2QuizData = QuizModel(
   ],
 );
 
+final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which conjunction shows a condition?",
+      options: [
+        "but",
+        "since",
+        "if",
+        "or"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'If' is used to show that one action depends on another.",
+    ),
+
+    QuizQuestion(
+      question: "2. Identify the best connector for similarity: 'Ama loves dancing; ________, her brother enjoys music.'",
+      options: [
+        "likewise",
+        "however",
+        "because",
+        "until"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Likewise' shows that the two ideas are similar.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The boy who won the race is my cousin.' The bolded part is a:",
+      options: [
+        "Adverbial phrase",
+        "Relative clause",
+        "Noun phrase",
+        "Coordinating conjunction"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It is a relative clause because it begins with 'who' and describes the noun 'boy'.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word indicates a concession (giving in to a contrasting point)?",
+      options: [
+        "therefore",
+        "although",
+        "and",
+        "soon"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Although' introduces a contrasting idea that does not prevent the main action.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sentence uses a purpose clause?",
+      options: [
+        "I ran because I was late.",
+        "I ran so that I would catch the bus.",
+        "I ran while it was raining.",
+        "I ran but I was tired."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'So that' introduces the purpose or goal of the action.",
+    ),
+
+    QuizQuestion(
+      question: "6. To show a sequence in time, which word is appropriate?",
+      options: [
+        "Secondly",
+        "Nevertheless",
+        "Afterwards",
+        "For example"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Afterwards' indicates that one event happened after another.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'Even though the sun was hot, the farmers continued to work.' This sentence shows:",
+      options: [
+        "Addition",
+        "Contrast",
+        "Reason",
+        "Result"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Even though' highlights the contrast between the hot weather and the farmers' actions.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a transitional device used to add information?",
+      options: [
+        "Furthermore",
+        "However",
+        "Consequently",
+        "Unless"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "'Furthermore' is used to introduce additional supporting information.",
+    ),
+
+    QuizQuestion(
+      question: "9. Choose the best topic sentence for a paragraph about Kejetia Market.",
+      options: [
+        "I like eating fried rice.",
+        "My grandmother lives in Kumasi.",
+        "Kejetia Market is a busy hub of trade and culture.",
+        "The bus was very late yesterday."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A topic sentence introduces the main idea that the rest of the paragraph develops.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the effect of using 'nevertheless' in a paragraph?",
+      options: [
+        "It lists items in order.",
+        "It shows a conclusion.",
+        "It introduces a contrasting idea.",
+        "It gives an example."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "'Nevertheless' introduces a point that contrasts with what has just been stated.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A narrative essay should be organized in a ________ sequence.",
+      options: [
+        "random",
+        "logical",
+        "reverse",
+        "complicated"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "To maintain clarity and interest, events in a narrative should follow a logical sequence.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector shows cause and effect?",
+      options: [
+        "next",
+        "because",
+        "who",
+        "soon"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Because' links an action or event to its reason or cause.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'The old man with the walking stick crossed the road.' The bolded part is a:",
+      options: [
+        "Relative clause",
+        "Noun phrase",
+        "Adjectival phrase",
+        "Conjunction"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'With the walking stick' describes the noun 'man', making it an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which word is used to show a sequence in time?",
+      options: [
+        "although",
+        "unless",
+        "afterwards",
+        "whereas"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Afterwards' indicates that one event happened after another.",
+    ),
+
+    QuizQuestion(
+      question: "5. Where does the topic sentence usually appear in a well-structured paragraph?",
+      options: [
+        "At the very end",
+        "Only in the conclusion",
+        "Usually at the beginning",
+        "It is not necessary"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The topic sentence normally appears at the beginning to introduce the main idea of the paragraph.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which connector helps to order ideas?",
+      options: [
+        "suddenly",
+        "secondly",
+        "provided that",
+        "but"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Secondly' is used to list ideas or events in sequence.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'The girl who won the spelling bee is in my class.' What type of clause is this?",
+      options: [
+        "Conditional clause",
+        "Relative clause",
+        "Time clause",
+        "Reason clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The clause begins with 'who' and identifies which girl is being referred to, making it a relative clause.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which word shows a result?",
+      options: [
+        "similarly",
+        "consequently",
+        "provided that",
+        "for example"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Consequently' introduces the result or outcome of a previous action or event.",
+    ),
+
+    QuizQuestion(
+      question: "9. To show a contrast in your writing, which word should you use?",
+      options: [
+        "in addition",
+        "however",
+        "therefore",
+        "next"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'However' introduces a contrasting idea or point.",
+    ),
+
+    QuizQuestion(
+      question: "10. A complete paragraph must show cohesion, which means:",
+      options: [
+        "All sentences are very long.",
+        "The ideas flow together smoothly.",
+        "Every sentence starts with 'And.'",
+        "There are no full stops."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Cohesion means that sentences are logically connected and flow smoothly from one idea to the next.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. In a formal letter, 'Nevertheless' is used to show:",
+      options: [
+        "Addition",
+        "Time",
+        "Contrast",
+        "Result"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Nevertheless' is a formal connector used to introduce a contrasting point.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which is a proper formal closing for a letter to someone you don't know?",
+      options: [
+        "Your friend",
+        "Catch you later",
+        "Yours faithfully",
+        "Best wishes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Yours faithfully' is the standard formal closing when the recipient's name is unknown.",
+    ),
+
+    QuizQuestion(
+      question: "3. 'Because the rain was heavy, the roof began to leak.' This sentence uses a:",
+      options: [
+        "Time clause",
+        "Reason clause",
+        "Relative clause",
+        "Place clause"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Because' introduces the reason why the roof began to leak.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which connector is best for ordering points in a letter of complaint?",
+      options: [
+        "However",
+        "Firstly",
+        "Similarly",
+        "Unless"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Firstly' helps organize ideas or complaints in a logical order.",
+    ),
+
+    QuizQuestion(
+      question: "5. A non-defining relative clause (using commas) is used to:",
+      options: [
+        "Provide essential information",
+        "Provide extra, non-essential information",
+        "Start a sentence",
+        "End a paragraph"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A non-defining relative clause adds extra information about a noun that is already clearly identified.",
+    ),
+
+    QuizQuestion(
+      question: "6. Choose the best topic sentence for a letter asking for a new football.",
+      options: [
+        "The weather is very hot today.",
+        "Our current football is burst and cannot be repaired.",
+        "I like playing sports with my friends.",
+        "We ate banku for lunch."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "It clearly states the main reason for the request.",
+    ),
+
+    QuizQuestion(
+      question: "7. 'Moreover' is a synonym for:",
+      options: [
+        "But",
+        "In addition",
+        "Therefore",
+        "Since"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Moreover' means 'in addition' and is used to add supporting information.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which word shows a condition?",
+      options: [
+        "unless",
+        "after",
+        "while",
+        "so"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'Unless' introduces a condition that must be met for something to happen.",
+    ),
+
+    QuizQuestion(
+      question: "9. To end a formal letter by showing the consequence of an action, use:",
+      options: [
+        "Firstly",
+        "Although",
+        "Consequently",
+        "Such as"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Consequently' signals the result or consequence of a previous action or statement.",
+    ),
+
+    QuizQuestion(
+      question: "10. Paragraph coherence is best achieved by:",
+      options: [
+        "Using the same word repeatedly.",
+        "Using logical connectors and pronouns.",
+        "Making every paragraph the same length.",
+        "Using only short sentences."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Logical connectors and pronouns help link ideas together and create a smooth flow between sentences.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The primary goal of a summary is to provide the:",
+      options: [
+        "Minor details",
+        "Main ideas",
+        "Personal opinions",
+        "Full dialogue"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A summary focuses only on the most important points or main ideas.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which connector shows a result in a summary?",
+      options: [
+        "Nevertheless",
+        "Consequently",
+        "Furthermore",
+        "Firstly"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Consequently' shows the outcome or result of the events being summarized.",
+    ),
+
+    QuizQuestion(
+      question: "\"3. 'Although the harvest was small, the farmers were happy.' This sentence shows:",
+      options: [
+        "Addition",
+        "Contrast",
+        "Reason",
+        "Time"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Although' highlights a contrast between the small harvest and the farmers' happiness.",
+    ),
+
+    QuizQuestion(
+      question: "4. To achieve paragraph unity in a summary, all sentences must:",
+      options: [
+        "Rhyme",
+        "Be the same length",
+        "Support the main theme",
+        "Start with a capital 'T'"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Paragraph unity means every sentence contributes to the central idea.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which part of a sentence can usually be removed during summarisation?",
+      options: [
+        "The subject",
+        "The main verb",
+        "Non-defining relative clauses",
+        "The topic sentence"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Non-defining relative clauses add extra, non-essential information that can often be omitted in a summary.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'In addition to cocoa, Ghana exports gold.' The connector 'In addition to' shows:",
+      options: [
+        "Contrast",
+        "Addition",
+        "Time",
+        "Place"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It adds another item to the list of exports.",
+    ),
+
+    QuizQuestion(
+      question: "7. A summary must be cohesive, meaning:",
+      options: [
+        "It is written in pencil.",
+        "The sentences are logically connected.",
+        "It contains no adjectives.",
+        "It is at least five pages long."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Cohesion ensures the summary flows smoothly as one connected piece of writing.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which phrase is an adjectival phrase?",
+      options: [
+        "The very old man",
+        "He ran fast",
+        "In the house",
+        "Because of the rain"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "It describes the noun 'man', making it an adjectival phrase.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'Finally, the project was completed.' The word 'Finally' indicates:",
+      options: [
+        "A reason",
+        "A sequence in time",
+        "A comparison",
+        "A contradiction"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "'Finally' signals the last step or end of a sequence of events.",
+    ),
+
+    QuizQuestion(
+      question: "10. If a summary includes the writer's personal feelings, it lacks:",
+      options: [
+        "Length",
+        "Objectivity",
+        "Commas",
+        "Complexity"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A good summary presents the original author's ideas objectively, without the summariser's personal opinions.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which word is a \"powerful\" adjective to replace \"bad\" in a scary story?",
+      options: [
+        "Unpleasant",
+        "Sinister",
+        "Not good",
+        "Poor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Sinister' suggests a specific, frightening mood better than 'bad'.",
+    ),
+
+    QuizQuestion(
+      question: "2. In the sentence \"Tired and hungry, Kwame finally reached home,\" what technique is used?",
+      options: [
+        "Listing",
+        "Frontloading",
+        "Climactic structure",
+        "Selective detail"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The descriptive adjectives are placed at the very start of the sentence.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which sentence best uses listing to show a busy kitchen?",
+      options: [
+        "The kitchen was very busy during the lunch hour.",
+        "Clanging pots, sizzling oil, and shouting chefs filled the room.",
+        "People were cooking a lot of food in the kitchen.",
+        "The chef was angry because the kitchen was messy."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A list of sensory details (sounds) effectively conveys the atmosphere.",
+    ),
+
+    QuizQuestion(
+      question: "4. To describe a peaceful beach, which adjectives are most effective?",
+      options: [
+        "Loud, crowded, hot",
+        "Serene, shimmering, tranquil",
+        "Big, blue, wet",
+        "Sandy, salty, windy"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Serene' and 'tranquil' specifically create a peaceful mood.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which sentence follows a climactic structure?",
+      options: [
+        "Kofi found a pesewa, then a cedi, then a hundred-cedi note!",
+        "Kofi found some money on the ground while walking.",
+        "There was a hundred-cedi note, a cedi, and a pesewa.",
+        "Finding money is always a very lucky thing to happen."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The items increase in value and importance, building excitement.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is the purpose of using selective detail for a character?",
+      options: [
+        "To make the story as long as possible.",
+        "To describe every single thing the character is wearing.",
+        "To highlight specific traits that reveal personality.",
+        "To avoid using any adjectives at all."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Focusing on key details helps the reader understand the character's personality and essence.",
+    ),
+
+    QuizQuestion(
+      question: "7. Choose the most descriptive sentence for a rainy day in Kumasi.",
+      options: [
+        "It rained a lot in Kumasi yesterday afternoon.",
+        "The water fell from the sky onto the streets.",
+        "Torrential rain lashed against the zinc roofs, drowning out all talk.",
+        "I stayed inside because the rain was very heavy."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Torrential' and 'lashed' are powerful words that create a vivid scene.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"The old woman's face was a map of a thousand stories.\" This uses detail to suggest:",
+      options: [
+        "She is a geography teacher.",
+        "She has traveled to many countries.",
+        "She is very old and has lived a long, full life.",
+        "She is lost and needs a map."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The metaphor uses wrinkles as signs of age and life experience.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is NOT a way to vary sentence structure for effect?",
+      options: [
+        "Using the same Subject-Verb pattern for every sentence.",
+        "Frontloading with a descriptive phrase.",
+        "Using a climactic sequence of events.",
+        "Listing multiple sensory details."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Repeating the same sentence pattern makes writing repetitive and less engaging.",
+    ),
+
+    QuizQuestion(
+      question: "10. To create an ominous mood, which description fits best?",
+      options: [
+        "Bright sunflowers danced in the warm breeze.",
+        "The sun was yellow and the sky was blue.",
+        "A cold, whistling wind crept through the shattered window.",
+        "Children were playing happily in the garden."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "'Cold', 'whistling', and 'shattered' create a strong sense of unease and danger.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main difference between Backstory and Flashback?",
+      options: [
+        "Backstory is a scene; Flashback is just information.",
+        "Backstory is general history; Flashback is a specific past event shown in the present.",
+        "They are exactly the same thing.",
+        "Backstory happens in the future; Flashback happens in the past."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Backstory provides general background, while a flashback presents a specific past event within the current narrative.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which technique creates suspense by dropping hints?",
+      options: [
+        "Foreshadowing",
+        "Flashback",
+        "Emotive writing",
+        "Backstory"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Foreshadowing gives readers clues about events that will happen later in the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"The bitter taste of betrayal lingered in his mouth like spoiled milk.\" This is an example of:",
+      options: [
+        "Flash-forward",
+        "Backstory",
+        "Sensory emotive detail",
+        "Chronological order"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The sentence uses sensory imagery and emotion to create a vivid experience for the reader.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why might an author use a Flash-forward?",
+      options: [
+        "To explain why a character is currently angry.",
+        "To show the consequences of a character's current choices.",
+        "To describe what the character ate for breakfast.",
+        "To give hints about a character's childhood."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A flash-forward reveals future events or consequences to build suspense or emphasize outcomes.",
+    ),
+
+    QuizQuestion(
+      question: "5. If a character's \"hands are shaking\" and their \"voice is trembling,\" the author is:",
+      options: [
+        "Telling us they are cold.",
+        "Using foreshadowing.",
+        "Describing their backstory.",
+        "Showing us they are afraid or anxious."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "These physical reactions reveal the character's fear or anxiety through showing rather than telling.",
+    ),
+
+    QuizQuestion(
+      question: "6. In a story, a character finds a key in Chapter 1. In Chapter 10, they find the box it opens. The mention of the key in Chapter 1 is:",
+      options: [
+        "A Flash-forward",
+        "Foreshadowing",
+        "A Flashback",
+        "Emotive detail"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Introducing the key early hints at its later importance, making it an example of foreshadowing.",
+    ),
+
+    QuizQuestion(
+      question: "7. Which narrative technique helps a reader understand a character's motivations?",
+      options: [
+        "Flash-forward",
+        "Backstory",
+        "Punctuation",
+        "Foreshadowing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Backstory explains a character's past experiences, helping readers understand their motivations.",
+    ),
+
+    QuizQuestion(
+      question: "8. Choose the best flashback trigger:",
+      options: [
+        "Hearing a song that played at a funeral years ago.",
+        "Looking at a watch to check the time.",
+        "Walking into a modern shopping mall.",
+        "Reading a textbook about science."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Memories are often triggered by familiar sounds, smells, or objects connected to past experiences.",
+    ),
+
+    QuizQuestion(
+      question: "9. \"Free writing\" is most useful for:",
+      options: [
+        "Expressing a character's internal thoughts and feelings.",
+        "Writing a formal business letter.",
+        "Creating a table of contents.",
+        "Writing a scientific report."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Free writing allows ideas, thoughts, and emotions to flow naturally without worrying about structure.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which sentence is NOT using sensory details?",
+      options: [
+        "The rough bark of the shea tree scraped my skin.",
+        "He felt sad because he lost his pen.",
+        "The shrill whistle of the train pierced the silence.",
+        "A sweet, floral scent wafted from the garden."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "This sentence states an emotion directly instead of appealing to the senses such as touch, sound, or smell.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary goal of an argumentative piece?",
+      options: [
+        "To tell a funny story.",
+        "To list items for sale.",
+        "To state and defend a position.",
+        "To describe a character's looks."
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "An argumentative piece aims to present, support, and defend a particular point of view.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a modal verb?",
+      options: [
+        "Should",
+        "Think",
+        "Letter",
+        "Argue"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "'Should' is a modal verb used to express advice, obligation, or possibility.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do we use the simple present tense in persuasive writing?",
+      options: [
+        "To talk about what we did yesterday.",
+        "To convey timeless statements and facts.",
+        "To describe a dream we had.",
+        "To ask a question about the future."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The simple present tense is commonly used to express facts, opinions, and general truths.",
+    ),
+
+    QuizQuestion(
+      question: "4. A \"rejoinder\" is a reply to:",
+      options: [
+        "A private text message.",
+        "A published article or letter.",
+        "A friend's invitation.",
+        "A shopping list."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rejoinder is a formal response to a published opinion, article, or letter.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which phrase is a mental verb phrase?",
+      options: [
+        "I believe",
+        "In my opinion",
+        "To the editor",
+        "Very fast"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'I believe' expresses a mental process of thinking or believing.",
+    ),
+
+    QuizQuestion(
+      question: "6. In the format of a rejoinder, what comes directly after the date?",
+      options: [
+        "The recipient's address.",
+        "The signature.",
+        "The first paragraph.",
+        "The sender's address."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "In a formal letter, the recipient's address is written immediately after the date.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"We could possibly reconsider the school uniform policy.\" This is an example of:",
+      options: [
+        "A direct command.",
+        "Hedging.",
+        "A timeless fact.",
+        "Backstory."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Words such as 'could' and 'possibly' soften a claim, making it an example of hedging.",
+    ),
+
+    QuizQuestion(
+      question: "8. What must be included in a rejoinder to support your arguments?",
+      options: [
+        "Drawings.",
+        "References or evidence.",
+        "A list of hobbies.",
+        "A map of the city."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Strong arguments in a rejoinder should always be supported with evidence or references.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is the most professional salutation for a rejoinder to a newspaper?",
+      options: [
+        "Hey Editor,",
+        "Dear Editor,",
+        "To whom it may concern,",
+        "Hi,"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "'Dear Editor,' is the standard formal salutation when writing to a newspaper editor.",
+    ),
+
+    QuizQuestion(
+      question: "10. Where does the recipient's address go in a formal letter?",
+      options: [
+        "Above your own address.",
+        "At the very end of the letter.",
+        "On the right side, below the date.",
+        "On the left side, below the date."
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "In the standard format of a formal letter, the recipient's address is placed on the left below the date.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of an informative text?",
+      options: [
+        "To tell a fictional story.",
+        "To provide facts and explain a situation.",
+        "To convince someone to buy a product.",
+        "To write a poem."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "An informative text presents factual information and explains ideas or situations clearly.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which is an example of an explanatory detail?",
+      options: [
+        "The car is red.",
+        "The engine overheated because the coolant level was too low.",
+        "I like driving the car.",
+        "The car is very fast."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This detail explains why the engine overheated by giving its cause.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why should reports be devoid of personal bias?",
+      options: [
+        "To make them more exciting.",
+        "To ensure they are fair and based on proven facts.",
+        "Because opinions are more important than facts.",
+        "To make the report longer."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Objective reports rely on verified facts rather than personal opinions.",
+    ),
+
+    QuizQuestion(
+      question: "4. When describing a problem, you should also indicate:",
+      options: [
+        "How it needs to be done or fixed.",
+        "Who you think is to blame.",
+        "How much you dislike the problem.",
+        "A story about a similar problem."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A good informative report explains the problem and suggests how it can be addressed.",
+    ),
+
+    QuizQuestion(
+      question: "5. \"The bridge collapsed due to heavy rainfall and weak foundations.\" This explains:",
+      options: [
+        "How a situation occurs.",
+        "Why a situation occurs.",
+        "Both how and why it occurred.",
+        "Personal feelings about the bridge."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "The sentence explains both the event and its causes.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which word is not objective?",
+      options: [
+        "Thirty",
+        "Heavy",
+        "Horrible",
+        "Metal"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "'Horrible' expresses a personal judgment rather than an objective fact.",
+    ),
+
+    QuizQuestion(
+      question: "7. Informative texts should be organised:",
+      options: [
+        "Randomly.",
+        "Logically.",
+        "By importance, with the least important first.",
+        "Only using pictures."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Logical organisation helps readers understand information clearly and easily.",
+    ),
+
+    QuizQuestion(
+      question: "8. A report on a science experiment is an example of:",
+      options: [
+        "Narrative writing.",
+        "Explanatory writing.",
+        "Persuasive writing.",
+        "Creative writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Science reports explain observations, methods, and results objectively.",
+    ),
+
+    QuizQuestion(
+      question: "9. When writing about cultural differences in a report, you must:",
+      options: [
+        "Use your own personal bias.",
+        "Only include things that can be measured or proven.",
+        "Avoid mentioning culture entirely.",
+        "Make assumptions about people."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Reports should present verifiable facts and avoid assumptions or bias.",
+    ),
+
+    QuizQuestion(
+      question: "10. What does it mean to \"indicate how it will work\" in a text?",
+      options: [
+        "To guess the future.",
+        "To provide clear steps or a plan for the solution.",
+        "To write a poem about the result.",
+        "To describe the history of the problem."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This means explaining the process or steps needed to make the solution work.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which document is used to plan the order of a meeting?",
+      options: [
+        "Business Letter",
+        "Email",
+        "Agenda",
+        "Minute"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "An agenda lists the items to be discussed and the order of a meeting.",
+    ),
+
+    QuizQuestion(
+      question: "2. Formal writing should be devoid of:",
+      options: [
+        "Headings",
+        "Bullet points",
+        "Abbreviations and slang",
+        "Signatures"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Formal writing should avoid abbreviations and slang to maintain a professional tone.",
+    ),
+
+    QuizQuestion(
+      question: "3. Where do section headings typically appear?",
+      options: [
+        "Only in the signature.",
+        "In formal reports or long emails to organise points.",
+        "In the sender's address.",
+        "They are never used in formal writing."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Section headings help organise ideas and improve readability in longer formal documents.",
+    ),
+
+    QuizQuestion(
+      question: "4. When taking minutes, you should record:",
+      options: [
+        "Every single word everyone said.",
+        "Only what people were wearing.",
+        "Key points, discussions, and decisions.",
+        "Your personal opinion of the meeting."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Minutes summarize the important discussions, decisions, and actions from a meeting.",
+    ),
+
+    QuizQuestion(
+      question: "5. 'Yours sincerely' is used when:",
+      options: [
+        "You do not know the person's name.",
+        "You are writing to a close friend.",
+        "You know the person's name (e.g., Dear Mr. Mensah).",
+        "You are writing an anonymous letter."
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: "'Yours sincerely' is the correct complimentary close when you know the recipient's name.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which ICT tool is most commonly used for publishing formal writing?",
+      options: [
+        "A calculator",
+        "A word processor (like Microsoft Word or Google Docs)",
+        "A camera",
+        "A radio"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Word processors are designed for creating, editing, formatting, and publishing formal documents.",
+    ),
+
+    QuizQuestion(
+      question: "7. Why is proofreading for 'effect' important?",
+      options: [
+        "To make the letter look longer.",
+        "To ensure the tone is appropriate for the recipient.",
+        "To add more abbreviations.",
+        "To change the date."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Proofreading ensures the writing has the intended tone and creates the right impression on the reader.",
+    ),
+
+    QuizQuestion(
+      question: "8. A formal email should always have a:",
+      options: [
+        "Subject line",
+        "Picture of the sender",
+        "List of hobbies",
+        "Story about the sender's childhood"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A clear subject line tells the recipient the purpose of the email before they read it.",
+    ),
+
+    QuizQuestion(
+      question: "9. 'We have received your application' is better than 'We got your app' because:",
+      options: [
+        "It uses formal language and no abbreviations.",
+        "It is shorter.",
+        "It uses slang.",
+        "It is less clear."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Formal writing uses complete words and professional language instead of abbreviations or slang.",
+    ),
+
+    QuizQuestion(
+      question: "10. In an agenda, what does 'A.O.B.' usually stand for?",
+      options: [
+        "Always On Board",
+        "Any Other Business",
+        "At Our Best",
+        "All Over Business"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "'A.O.B.' stands for 'Any Other Business,' where additional matters may be discussed before the meeting ends.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the standard small size for a flyer mentioned in the curriculum?",
+      options: [
+        "A1",
+        "A3",
+        "A5",
+        "A0"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "A5 is the standard small paper size commonly used for flyers.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which element helps make a poster eye-catching?",
+      options: [
+        "Using very small font.",
+        "A logo or catchy headline.",
+        "Writing in only black and white.",
+        "Having no pictures at all."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "A catchy headline or logo attracts attention and encourages people to read the poster.",
+    ),
+
+    QuizQuestion(
+      question: "3. An invitation card should include a dress code if:",
+      options: [
+        "The event is casual.",
+        "There is a specific requirement for what guests should wear.",
+        "It is a text message.",
+        "You don't have a location."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A dress code is included when guests are expected to wear specific clothing.",
+    ),
+
+    QuizQuestion(
+      question: "4. In an email address like aziz65@gmail.com, what is gmail.com called?",
+      options: [
+        "The server point.",
+        "The recipient's name.",
+        "The subject.",
+        "The CC."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "'gmail.com' is the email service provider's domain (server point).",
+    ),
+
+    QuizQuestion(
+      question: "5. Why do we use CC in an email?",
+      options: [
+        "To hide the recipient's name.",
+        "To include additional recipients whose attention is called to the email.",
+        "To delete the email automatically.",
+        "To check for spelling mistakes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "CC (Carbon Copy) allows additional people to receive a copy of the email.",
+    ),
+
+    QuizQuestion(
+      question: "6. Which of these is a call to action on a flyer?",
+      options: [
+        "\"The sky is blue today.\"",
+        "\"Visit our website at www.sobolo.gh\".",
+        "\"Once upon a time...\"",
+        "\"I like to eat fufu.\""
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A call to action tells the reader what to do next, such as visiting a website.",
+    ),
+
+    QuizQuestion(
+      question: "7. What should be at the very bottom of a professional email?",
+      options: [
+        "The sender's name and contact.",
+        "The date.",
+        "A list of the sender's friends.",
+        "The recipient's address."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "A professional email ends with the sender's signature, including their name and contact details.",
+    ),
+
+    QuizQuestion(
+      question: "8. A poster is generally used for:",
+      options: [
+        "Sending a private message to one person.",
+        "Communicating with a wide audience in a public space.",
+        "Writing a diary entry.",
+        "Keeping minutes of a meeting."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Posters are designed to share information with many people in public places.",
+    ),
+
+    QuizQuestion(
+      question: "9. If an invitation says \"Time: 2:00 PM - 6:00 PM,\" it is providing:",
+      options: [
+        "The location.",
+        "The dress code.",
+        "The RSVP details.",
+        "The time."
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "This information tells guests when the event will take place.",
+    ),
+
+    QuizQuestion(
+      question: "10. Which is the best subject line for an email about a school trip?",
+      options: [
+        "Hello.",
+        "Information regarding the Grade 9 trip to Akosombo.",
+        "Help me.",
+        "Trip."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A good subject line is clear, specific, and tells the reader exactly what the email is about.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. A magazine that focuses on poems and short stories is a:",
+      options: [
+        "Scholarly journal",
+        "Business flyer",
+        "Newspaper",
+        "Literary magazine"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A literary magazine publishes creative works such as poems and short stories.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which publication is primarily found online?",
+      options: [
+        "Daily Graphic",
+        "Library archive",
+        "School noticeboard",
+        "Webzine"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "A webzine is an online magazine published on the internet.",
+    ),
+
+    QuizQuestion(
+      question: "3. A \"Letter to the Editor\" is usually written to:",
+      options: [
+        "Complain to a friend.",
+        "Describe a dream.",
+        "Ask for a loan.",
+        "Express an opinion on a public issue."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Letters to the editor allow readers to express opinions or comments on public issues.",
+    ),
+
+    QuizQuestion(
+      question: "4. \"Staff writers\" are people who:",
+      options: [
+        "Only write for themselves.",
+        "Are employed by a publication to write content.",
+        "Don't know how to write.",
+        "Only write letters to their family."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Staff writers are employed by newspapers, magazines, or other publications to create content.",
+    ),
+
+    QuizQuestion(
+      question: "5. A Case Study is different from a report because it is:",
+      options: [
+        "Shorter.",
+        "More in-depth and focused on a specific example.",
+        "Always about animals.",
+        "Not factual."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "A case study examines one specific situation or example in greater detail than a general report.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is self-publication?",
+      options: [
+        "Writing for a big newspaper.",
+        "Publishing your own work yourself.",
+        "Reading someone else's book.",
+        "Printing a dictionary."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Self-publication means an author publishes their own work without a traditional publisher.",
+    ),
+
+    QuizQuestion(
+      question: "7. Scholarly journals are mostly written for:",
+      options: [
+        "Young children.",
+        "Experts and researchers.",
+        "People looking for recipes.",
+        "Sports fans."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Scholarly journals are intended for researchers, academics, and professionals.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is a typical topic for a short report?",
+      options: [
+        "A review of a new school policy.",
+        "A fairy tale about a dragon.",
+        "A list of your favourite songs.",
+        "A drawing of a cat."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "Short reports present factual information or analysis on real topics, such as a school policy.",
+    ),
+
+    QuizQuestion(
+      question: "9. What helps make a report \"organised\"?",
+      options: [
+        "Using different coloured pens.",
+        "Using clear headings and logical sections.",
+        "Writing in circles.",
+        "Not using any punctuation."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Clear headings and logical sections help readers follow the report easily.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is the \"audience\" important in writing for publication?",
+      options: [
+        "It isn't important at all.",
+        "It determines the tone and style of the writing.",
+        "So you know how much money to charge.",
+        "So you can see who is reading your diary."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Knowing your audience helps you choose the appropriate language, tone, and style.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which part of the speech \"tells them what you are going to tell them\"?",
+      options: [
+        "Body",
+        "Introduction",
+        "Conclusion",
+        "RSVP"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "The introduction tells the audience what the speech will be about.",
+    ),
+
+    QuizQuestion(
+      question: "2. \"It's your country, it's my country, it's our future!\" is an example of:",
+      options: [
+        "Tripling",
+        "A flashback",
+        "Objective language",
+        "A case study"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Tripling uses three related ideas to make a message more memorable and persuasive.",
+    ),
+
+    QuizQuestion(
+      question: "3. Why do speakers use the word \"we\"?",
+      options: [
+        "Because they forgot their own name.",
+        "To include the audience and create a sense of unity.",
+        "To make the speech shorter.",
+        "To confuse the listeners."
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Using 'we' makes the audience feel included and united with the speaker.",
+    ),
+
+    QuizQuestion(
+      question: "4. What is powerful imagery?",
+      options: [
+        "Drawing a picture on a piece of paper.",
+        "Using descriptive words to create a mental picture for the audience.",
+        "Taking a photo of the crowd.",
+        "Speaking very loudly."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Powerful imagery uses descriptive language to help the audience imagine scenes vividly.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a parallel sentence structure?",
+      options: [
+        "I like fufu. Rice is good too.",
+        "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+        "The weather is very hot today in Accra.",
+        "Please remember to bring your books to class."
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation: "Parallel structure repeats the same grammatical pattern to strengthen a speech.",
+    ),
+
+    QuizQuestion(
+      question: "6. Emotive adjectives like \"wonderful\" or \"magnificent\" are used to:",
+      options: [
+        "State a scientific fact.",
+        "Create an emotional effect on the audience.",
+        "List the price of items.",
+        "Correct someone's grammar."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Emotive adjectives appeal to the audience's feelings and emotions.",
+    ),
+
+    QuizQuestion(
+      question: "7. The Body of the speech is where you:",
+      options: [
+        "Tell them (explain your main points).",
+        "Say goodbye.",
+        "Introduce yourself.",
+        "Give your phone number."
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation: "The body contains the main ideas, explanations, and supporting details of the speech.",
+    ),
+
+    QuizQuestion(
+      question: "8. \"Repetition\" in a speech helps to:",
+      options: [
+        "Make the speaker sound bored.",
+        "Emphasize an important point so the audience remembers it.",
+        "Make the speech exactly one hour long."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Repeating key words or phrases reinforces important ideas and improves recall.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which is the best example of a \"Call to Action\" for a conclusion?",
+      options: [
+        "\"In conclusion, I have finished talking.\"",
+        "\"I am going to sit down now.\"",
+        "\"The time is now 10:00 AM.\"",
+        "\"Let us go forth and build the Ghana we want!\""
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A call to action encourages the audience to take positive action after the speech.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"Shocking, disgraceful, and outrageous!\" This uses:",
+      options: [
+        "Tripling and emotive adjectives.",
+        "Objective language.",
+        "A flashback."
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "The phrase combines tripling with emotive adjectives to create a strong emotional impact.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first step in starting a research project?",
+      options: [
+        "Writing the final report",
+        "Listing references",
+        "Identifying an issue of interest",
+        "Avoiding plagiarism"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A research project begins by identifying a topic or issue to investigate.",
+    ),
+
+    QuizQuestion(
+      question: "2. Why do researchers use focused questions?",
+      options: [
+        "To make the project take longer",
+        "To guide the investigation and stay on track",
+        "To confuse the people they are interviewing",
+        "To avoid using the internet"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Focused questions help guide the research and identify the information that needs to be collected.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is a digital source for research?",
+      options: [
+        "An interview with a market queen",
+        "A visit to a cocoa farm",
+        "An educational website on the internet",
+        "Observations made in the classroom"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Educational websites and online databases are examples of digital research sources.",
+    ),
+
+    QuizQuestion(
+      question: "4. When you write down the information you found during your research, you are:",
+      options: [
+        "Recording findings",
+        "Plagiarising",
+        "Asking focused questions",
+        "Identifying issues"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Recording findings means documenting the information you have gathered during research.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is an example of a focused question regarding Ghanaian cocoa products?",
+      options: [
+        "Is chocolate sweet?",
+        "Do you like cocoa?",
+        "Which companies manufacture cocoa powder in Ghana?",
+        "Is cocoa a plant?"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A focused research question asks for specific information that can be investigated.",
+    ),
+
+    QuizQuestion(
+      question: "6. What does it mean to organise findings for a presentation?",
+      options: [
+        "Throwing away all your notes",
+        "Putting data into a logical order, like a list or table",
+        "Reading your notes aloud to yourself",
+        "Using as many big words as possible"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Organising findings makes the information clear and easy for an audience to understand.",
+    ),
+
+    QuizQuestion(
+      question: "7. How does a student avoid plagiarism?",
+      options: [
+        "By not doing the research",
+        "By making a list of references",
+        "By using only their own opinions",
+        "By copying from a textbook without a name"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Giving references acknowledges the original source of information and helps avoid plagiarism.",
+    ),
+
+    QuizQuestion(
+      question: "8. If Ama uses a quote from a book about Dr. Kwame Nkrumah, where should she put the book title?",
+      options: [
+        "In the Hook",
+        "In the focused questions",
+        "In the list of references",
+        "In the student text"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Book titles and authors should appear in the references section to credit the original source.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is an ethical way to conduct research?",
+      options: [
+        "Inventing prices for sachet water",
+        "Reporting the exact findings from an investigation",
+        "Copying a friend's research project",
+        "Deleting findings that you don't like"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Good research requires honesty and accurate reporting of findings.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is the primary goal of a short research project in school?",
+      options: [
+        "To buy new products",
+        "To build and present knowledge about a topic",
+        "To practice your drawing skills",
+        "To spend time outside the classroom"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "School research projects help students gather, understand, and present knowledge about a topic.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What are the four main ways an author develops a character?",
+      options: [
+        "Appearance, actions, speech, and what others say",
+        "Food, clothes, height, and weight",
+        "Name, age, school, and village",
+        "Pen, paper, ink, and books"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Authors develop characters through their appearance, actions, speech, and what other characters say about them.",
+    ),
+
+    QuizQuestion(
+      question: "2. A character's clothing falls under which category?",
+      options: [
+        "Speech",
+        "Actions",
+        "Appearance",
+        "Opinions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Appearance includes everything we can observe about a character's physical features and clothing.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a Ghanaian play, if a character uses many traditional proverbs, they are often seen as:",
+      options: [
+        "Uneducated",
+        "Wise or elderly",
+        "Rude",
+        "A foreigner"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Traditional proverbs often represent wisdom, experience, and cultural knowledge.",
+    ),
+
+    QuizQuestion(
+      question: "4. Which element of characterisation is shown when a boy saves a drowning dog from a gutter?",
+      options: [
+        "Speech",
+        "Appearance",
+        "Actions",
+        "Others' opinions"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A character's actions reveal important traits such as bravery and kindness.",
+    ),
+
+    QuizQuestion(
+      question: "5. Why is 'what others say' a powerful tool for a writer?",
+      options: [
+        "It saves the writer from having to describe the character.",
+        "It creates a reputation or preconceived notion for the audience.",
+        "It makes the dialogue more confusing.",
+        "It allows characters to tell lies."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Other characters' opinions shape how readers perceive a character before meeting them directly.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a character's dialogue is filled with insults and shouting, what can we infer about their personality?",
+      options: [
+        "They are very peaceful.",
+        "They are likely aggressive or frustrated.",
+        "They are very shy.",
+        "They are highly respected."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Speech often reflects a character's emotions, attitudes, and personality.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student who arrives at school every day with a perfectly tucked-in shirt and polished shoes is characterised as:",
+      options: [
+        "Messy",
+        "Disciplined and neat",
+        "Tired",
+        "Athletic"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A neat appearance suggests discipline, responsibility, and care.",
+    ),
+
+    QuizQuestion(
+      question: "8. An 'inference' in characterisation is:",
+      options: [
+        "Reading exactly what the author wrote.",
+        "Using clues to figure out a character's traits on your own.",
+        "Ignoring the character's actions.",
+        "Changing the character's name."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Readers make inferences by combining clues from the text with their own reasoning.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which combination of elements would best show a 'Villain'?",
+      options: [
+        "Soft speech, helping the elderly, and wearing bright colours.",
+        "Harsh actions, others whispering that they are dangerous, and a cold stare.",
+        "Quiet appearance, staying at home, and reading books.",
+        "Giving gifts to children and speaking politely."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Consistent clues from appearance, actions, and others' opinions create the image of a threatening character.",
+    ),
+
+    QuizQuestion(
+      question: "10. How does characterisation contribute to the meaning of a story?",
+      options: [
+        "It makes the book heavier.",
+        "It tells the reader exactly where the story takes place.",
+        "It provides a list of names for the quiz.",
+        "It helps the reader understand the reasons behind the events and the themes."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Understanding characters helps readers understand the motivations, events, and themes explored in the story.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The word 'mono' in monologue means:",
+      options: [
+        "Many",
+        "Two",
+        "One",
+        "Loud"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "'Mono' is a prefix meaning one or single.",
+    ),
+
+    QuizQuestion(
+      question: "2. In which literary genre are you most likely to find a monologue or dialogue?",
+      options: [
+        "Drama (Plays)",
+        "Poetry",
+        "Dictionaries",
+        "Maps"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Drama relies heavily on dialogue and monologues to tell the story.",
+    ),
+
+    QuizQuestion(
+      question: "3. Which of the following is written correctly for a play script?",
+      options: [
+        "\"YAA: Where are you going?\"",
+        "YAA: Where are you going?",
+        "Yaa says \"Where are you going?\"",
+        "(YAA) Where are you going?"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Play scripts use the character's name in capital letters followed by a colon, without quotation marks.",
+    ),
+
+    QuizQuestion(
+      question: "4. A character sharing their secret plans with the audience while other characters are frozen on stage is a:",
+      options: [
+        "Dialogue",
+        "Monologue",
+        "Narrator",
+        "Stage direction"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "This is a monologue (specifically a soliloquy), where the character speaks their thoughts aloud.",
+    ),
+
+    QuizQuestion(
+      question: "5. Dialogue is used in a play to:",
+      options: [
+        "Make the actors tired.",
+        "Show conflict and advance the story.",
+        "Fill up empty pages.",
+        "Hide the character's personality."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Dialogue reveals character relationships, conflict, and moves the plot forward.",
+    ),
+
+    QuizQuestion(
+      question: "6. What is wrong with this script line? \"kofi: I am hungry.\"",
+      options: [
+        "The colon is missing.",
+        "The name 'kofi' should be in CAPITAL LETTERS.",
+        "There are no quotation marks.",
+        "The sentence is too short."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In standard script format, character names are written in capital letters.",
+    ),
+
+    QuizQuestion(
+      question: "7. Stage directions are usually written in:",
+      options: [
+        "Bold and underlined.",
+        "Brackets and italics.",
+        "Red ink.",
+        "Very large letters."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Stage directions are commonly placed in brackets and often italicized to distinguish them from dialogue.",
+    ),
+
+    QuizQuestion(
+      question: "8. If Ama and her mother are arguing about her school fees, they are engaging in:",
+      options: [
+        "A monologue",
+        "A dialogue",
+        "A stage direction",
+        "A reference"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A conversation between two characters is called a dialogue.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which of these is NOT a reason to use a monologue?",
+      options: [
+        "To show a character's inner conflict.",
+        "To give the audience important information others don't know.",
+        "To allow a character to have a back-and-forth conversation.",
+        "To express deep emotion."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "A back-and-forth conversation is dialogue, not a monologue.",
+    ),
+
+    QuizQuestion(
+      question: "10. A playwright uses stage directions to describe the 'setting'. Where is this usually found?",
+      options: [
+        "Inside the dialogue.",
+        "At the beginning of a scene in brackets.",
+        "In the list of references.",
+        "Only at the very end of the play."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Stage directions describing the setting are usually placed at the beginning of a scene in brackets.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. The order in which events happen in a story is called the:",
+      options: [
+        "Narrative",
+        "Monologue",
+        "Dialogue",
+        "Sequence"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A sequence is the order in which events happen in a story.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which event would most likely be the 'Introduction' of a story set in a school?",
+      options: [
+        "The students going home at 3 PM.",
+        "The bell ringing for the start of the first lesson.",
+        "The teacher giving out the final exam results.",
+        "A student winning the end-of-year prize."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The introduction sets the scene, so the beginning of the school day is the most suitable event.",
+    ),
+
+    QuizQuestion(
+      question: "3. In a sequence of events, what usually comes immediately after the 'Conflict'?",
+      options: [
+        "The Resolution",
+        "The Author's Note",
+        "The Introduction",
+        "The Rising Action"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "After the conflict is introduced, the story moves into the rising action as characters respond to the problem.",
+    ),
+
+    QuizQuestion(
+      question: "4. Why do biographies often use a chronological sequence?",
+      options: [
+        "Because it is easier to write.",
+        "To show how a person grew and changed over their lifetime.",
+        "Because biographies cannot have dialogue.",
+        "To make the book shorter."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Chronological order helps readers follow the events and development of a person's life.",
+    ),
+
+    QuizQuestion(
+      question: "5. Which of these is a 'Key Event' in a story about a lost dog?",
+      options: [
+        "The dog barks at a butterfly.",
+        "A kind stranger finds the dog and reads its collar.",
+        "The sun is shining brightly.",
+        "There are three trees in the park."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Finding the dog and identifying its owner is a major event that moves the story toward its resolution.",
+    ),
+
+    QuizQuestion(
+      question: "6. How does a 'Flashback' affect the sequence of a story?",
+      options: [
+        "It makes the story end faster.",
+        "It turns a dialogue into a monologue.",
+        "It skips the climax.",
+        "It interrupts the present timeline to show a past event."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A flashback takes readers back to an earlier event to provide important background information.",
+    ),
+
+    QuizQuestion(
+      question: "7. Comparing events across two different stories helps readers identify:",
+      options: [
+        "The number of pages in each book.",
+        "Common themes and plot structures.",
+        "Which book is more expensive.",
+        "The spelling mistakes."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Comparing stories helps readers recognize similar themes, structures, and patterns.",
+    ),
+
+    QuizQuestion(
+      question: "8. In a play script, if Scene 1 is in a kitchen and Scene 2 is at a market, the sequence is showing a change in:",
+      options: [
+        "Character",
+        "Location",
+        "Language",
+        "Title"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A new scene often indicates that the location of the action has changed.",
+    ),
+
+    QuizQuestion(
+      question: "9. Which sequence correctly describes the 'Hero's Journey' often found in Ghanaian legends?",
+      options: [
+        "Victory -> Birth -> Struggle.",
+        "Call to Adventure -> Struggle/Tests -> Great Success.",
+        "Resolution -> Climax -> Introduction.",
+        "Sleep -> Eat -> Sleep."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "The hero's journey commonly begins with a call to adventure, followed by challenges, and ends in success.",
+    ),
+
+    QuizQuestion(
+      question: "10. If a story has no 'Resolution', the sequence is:",
+      options: [
+        "Perfect",
+        "Unfinished or 'open-ended'",
+        "A biography",
+        "A monologue"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A story without a resolution leaves the ending open for the reader to interpret.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is 'imagery' in a text?",
+      options: [
+        "The pictures drawn in the book",
+        "Words that create a sensory or mental picture for the reader",
+        "The list of characters",
+        "The page numbers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Imagery uses descriptive language to appeal to the reader's senses and create vivid mental pictures.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which word is a key sign that a sentence is a simile?",
+      options: [
+        "Is",
+        "Was",
+        "Like",
+        "Not"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Similes usually use words like 'like' or 'as' to compare two different things.",
+    ),
+
+    QuizQuestion(
+      question: "3. \"The lightning danced across the sky\" is an example of:",
+      options: [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Hyperbole"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The sentence gives lightning the human action of dancing, making it an example of personification.",
+    ),
+
+    QuizQuestion(
+      question: "4. Identify the metaphor:",
+      options: [
+        "He eats like a horse.",
+        "He is a lion in battle.",
+        "He is as brave as a lion.",
+        "He is very brave."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A metaphor directly compares two things without using 'like' or 'as'.",
+    ),
+
+    QuizQuestion(
+      question: "5. What does the idiom 'once in a blue moon' mean?",
+      options: [
+        "Every night",
+        "Very rarely",
+        "When the moon turns blue",
+        "During the day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "'Once in a blue moon' is an idiom meaning something happens very rarely.",
+    ),
+
+    QuizQuestion(
+      question: "6. Why do writers use personification?",
+      options: [
+        "To make the story harder to read.",
+        "To make objects or nature feel more relatable and alive.",
+        "To avoid using metaphors.",
+        "To count the number of people in a story."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Personification gives human qualities to non-human things, making them feel alive and engaging.",
+    ),
+
+    QuizQuestion(
+      question: "7. \"The world is a stage\" is a famous example of:",
+      options: [
+        "Simile",
+        "Personification",
+        "Metaphor",
+        "Idiom"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "It compares the world to a stage by stating that it is one, making it a metaphor.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which of these is an idiomatic expression?",
+      options: [
+        "He ran home quickly.",
+        "He is under the weather.",
+        "He is as tall as a tree.",
+        "The wind blew hard."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "'Under the weather' is an idiom meaning someone feels unwell.",
+    ),
+
+    QuizQuestion(
+      question: "9. Using imagery in a story contributes to the meaning by:",
+      options: [
+        "Making the book more expensive.",
+        "Helping the reader feel the mood and atmosphere of the setting.",
+        "Providing a list of new vocabulary words.",
+        "Replacing the need for a plot."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Imagery creates vivid mental pictures that help readers experience the mood, atmosphere, and emotions of the story.",
+    ),
+
+    QuizQuestion(
+      question: "10. \"The car's engine coughed and sputtered before dying.\" This uses:",
+      options: [
+        "Simile only",
+        "Metaphor and idiom",
+        "Personification",
+        "No literary devices"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The engine is given human characteristics such as coughing and dying, which is personification.",
+    ),
+  ],
+);
+final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ).m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the definition of a 'Theme' in literature?",
+      options: [
+        "The list of all the characters in a play",
+        "The central message or 'big idea' of a text",
+        "The place where the story happens",
+        "The name of the author"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A theme is the central message or underlying idea that a story or text communicates.",
+    ),
+
+    QuizQuestion(
+      question: "2. Which of these is a common theme in many Ghanaian stories?",
+      options: [
+        "The importance of family and community",
+        "Buying a new car",
+        "How to use a remote control",
+        "The history of London"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Many Ghanaian stories emphasize values such as family, respect, and community.",
+    ),
+
+    QuizQuestion(
+      question: "3. True or False: A story can have more than one theme.",
+      options: [
+        "True",
+        "False"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Many stories explore multiple themes, such as love, courage, sacrifice, or friendship.",
+    ),
+
+    QuizQuestion(
+      question: "4. In a play, themes are primarily revealed through:",
+      options: [
+        "The price of the tickets",
+        "Dialogue and character interactions",
+        "The colour of the stage curtains",
+        "The number of chairs on stage"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The way characters speak, behave, and interact helps reveal the play's central ideas.",
+    ),
+
+    QuizQuestion(
+      question: "5. How is a theme different from a plot?",
+      options: [
+        "Plot is the message; theme is the action.",
+        "Plot is what happens; theme is why it matters.",
+        "There is no difference.",
+        "Plot is only for movies; theme is only for books."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The plot tells the events of the story, while the theme expresses the deeper meaning behind those events.",
+    ),
+
+    QuizQuestion(
+      question: "6. If a story ends with a character being punished for stealing, the theme is likely:",
+      options: [
+        "Stealing is a good way to get rich.",
+        "Dishonesty has negative consequences.",
+        "The character was just unlucky.",
+        "Markets are dangerous places."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The ending reinforces the moral lesson that dishonest actions often lead to negative consequences.",
+    ),
+
+    QuizQuestion(
+      question: "7. A student uses a digital presentation to show how 'Respect' is a theme in three different books. This is an example of:",
+      options: [
+        "Plagiarism",
+        "Analysing common themes using ICT tools",
+        "Writing a monologue",
+        "Writing a business letter"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Using digital tools to compare themes across texts is an important analytical skill.",
+    ),
+
+    QuizQuestion(
+      question: "8. Which element of a film helps to convey a theme of 'Mystery'?",
+      options: [
+        "Bright, sunny lighting",
+        "A clear, happy ending",
+        "Characters laughing loudly",
+        "Dark shadows and suspenseful music"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Lighting and music help create a mysterious atmosphere that supports the film's theme.",
+    ),
+
+    QuizQuestion(
+      question: "9. Adapting a narrative means:",
+      options: [
+        "Reading it aloud.",
+        "Memorising the first paragraph.",
+        "Translating it into another language.",
+        "Changing the form (e.g., turning a poem into a play) while keeping the theme."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Adaptation changes the form or medium of a story while preserving its main ideas or themes.",
+    ),
+
+    QuizQuestion(
+      question: "10. Why is it important to reflect independently on your writing?",
+      options: [
+        "To make sure you didn't forget your name.",
+        "To see if you can read your own handwriting.",
+        "To count how many words you wrote.",
+        "To think critically about whether your theme is clear to the reader."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Self-reflection helps writers evaluate whether their intended message or theme is communicated effectively.",
+    ),
+  ],
+);
+
 ///Religious & Moral Education
 final QuizModel RMEs1ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/RME/s1_ss1_l1/9. Quiz.m4a',
@@ -12271,6 +21821,7 @@ final QuizModel RMEs6ss1Lesson1QuizData = QuizModel(
         "Waiting for a salary from the state",
         "Setting up a new business",
         "Doing household chores",
+        "Being lazy"
       ],
       correctIndex: 1,
       difficulty: "Medium",
@@ -12432,6 +21983,7 @@ final QuizModel RMEs6ss1Lesson2QuizData = QuizModel(
         "Lateness",
         "Reporting for work only when you feel like it",
         "Being regular and avoiding absenteeism",
+        "Sleeping at work"
       ],
       correctIndex: 2,
       difficulty: "Low",
@@ -13656,136 +23208,151 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Death is considered a 'Rite of Passage' because it is a transition from:",
+      "1. The rites of passage are described as 'socially significant' because they:",
       options: [
-        "Childhood to adulthood.",
-        "This world to the next world.",
-        "Marriage to old age.",
-        "School to work.",
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "Death is the final transition in the human life cycle on earth.",
-    ),
-    QuizQuestion(
-      question: "2. The Islamic Janazah prayer is performed:",
-      options: [
-        "At the hospital.",
-        "After the body is buried.",
-        "Before the body is taken for burial.",
-        "Only on the 40th day.",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "The prayer is said after ritual bath and before the burial.",
-    ),
-    QuizQuestion(
-      question: "3. 'Asaase Yaa' refers to:",
-      options: [
-        "The sky god.",
-        "The earth goddess.",
-        "A female ancestor.",
-        "A type of funeral song.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "In traditional belief, Asaase Yaa is the goddess of the earth who is asked for permission before burial.",
-    ),
-    QuizQuestion(
-      question:
-          "4. Which of these is a cause of death mentioned in the curriculum?",
-      options: [
-        "Natural old age.",
-        "Traveling to a new city.",
-        "Going to a naming ceremony.",
-        "Getting married.",
-      ],
-      correctIndex: 0,
-      difficulty: "Low",
-      explanation: "Old age is considered a natural cause of death.",
-    ),
-    QuizQuestion(
-      question: "5. In Christianity, a 'wake keeping' is usually held on:",
-      options: [
-        "Monday morning.",
-        "Friday night.",
-        "Sunday afternoon.",
-        "Saturday evening.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Wake keeping is typically the Friday night service before the Saturday funeral.",
-    ),
-    QuizQuestion(
-      question: "6. Why do Muslims wrap the deceased in plain white calico?",
-      options: [
-        "Because they ran out of colorful cloth.",
-        "To symbolize purity and simplicity.",
-        "To keep the body warm.",
-        "It is the most expensive cloth.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Islam teaches simplicity and that all people return to Allah in the same way.",
-    ),
-    QuizQuestion(
-      question:
-          "7. What is the primary purpose of death rites according to Ghanaian traditionalists?",
-      options: [
-        "To spend money.",
-        "To help the dead join the ancestors.",
-        "To stop the family from crying.",
-        "To choose a new Chief.",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Rites ensure the spirit is welcomed in the ancestral world.",
-    ),
-    QuizQuestion(
-      question: "8. Christian funeral donations are meant to:",
-      options: [
-        "Buy new cars for the family.",
-        "Purchase food for the guests only.",
-        "Pay the priest a salary.",
-        "Help defray the funeral expenses.",
+        "Are very expensive.",
+        "Take a very long time.",
+        "Only happen in villages.",
+        "Teach the values of the society.",
       ],
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-          "Donations from sympathizers help support the bereaved family.",
+      "Rites of passage pass on important moral values and traditions from one generation to another.",
     ),
-    QuizQuestion(
-      question: "9. The 40th-day prayer is a characteristic of:",
-      options: [
-        "Christian rites.",
-        "Traditional puberty rites.",
-        "Islamic death rites.",
-        "Naming ceremonies.",
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          "Islam has specific follow-up prayers on the 3rd, 7th, and 40th days.",
-    ),
+
     QuizQuestion(
       question:
-          "10. What does the burial of hair and nails of a deceased person signify in some traditions?",
+      "2. Which value is promoted when a couple remains faithful in marriage?",
       options: [
-        "The person was a barber.",
-        "The spirit has contact with the living.",
-        "To prevent witches from using them.",
-        "To keep the town clean.",
+        "Greed.",
+        "Faithfulness and Trust.",
+        "Selfishness.",
+        "Laziness.",
       ],
       correctIndex: 1,
-      difficulty: "High",
+      difficulty: "Low",
       explanation:
-          "Such rites signify the unbroken relationship between the dead and the living.",
+      "Marriage encourages mutual trust, loyalty, and faithfulness between husband and wife.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Traditionalists believe that if you live a bad life, your death rites:",
+      options: [
+        "Will be the biggest party.",
+        "Will not help you join the ancestors.",
+        "Will be very cheap.",
+        "Will make you rich.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Traditional belief teaches that only people who live upright lives are welcomed among the ancestors.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. What moral lesson is found in the 'Anoka' ceremony of the Akans?",
+      options: [
+        "To be greedy with food.",
+        "To dislike traditional food.",
+        "To eat as fast as possible.",
+        "To be disciplined and obedient.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Anoka ceremony teaches discipline, obedience, and respect through symbolic blessings.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Marriage rites give 'Legitimacy' to a union. This means the marriage is:",
+      options: [
+        "Secret.",
+        "Recognized and respected by the community.",
+        "Only for rich people.",
+        "Temporary.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Legitimacy means the community officially recognizes the couple as husband and wife.",
+    ),
+
+    QuizQuestion(
+      question: "6. 'Truthfulness' is a moral lesson emphasized in:",
+      options: [
+        "Only the naming ceremony.",
+        "Only marriage.",
+        "All rites of passage.",
+        "Only death rites.",
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      "Truthfulness is an important value taught throughout all stages of life and all rites of passage.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. Why are gifts given to the mother and child during a naming ceremony?",
+      options: [
+        "To provide financial support and show love.",
+        "To show off wealth.",
+        "Because it is a law.",
+        "To pay back a debt.",
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+      "Giving gifts expresses love, support, and shared joy within the community.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. The Krobo Dipo stone ceremony primarily tests a girl's:",
+      options: [
+        "Strength.",
+        "Wealth.",
+        "Cooking skills.",
+        "Honesty and Purity.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Dipo stone ceremony symbolizes the initiate's honesty, purity, and good character.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. One importance of death rites is that they:",
+      options: [
+        "Encourage the living to be wicked.",
+        "Remind the living that life is short and they must be good.",
+        "Make people forget the dead.",
+        "Cost a lot of money.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Death rites remind the living to live upright lives because life is temporary.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Rites of passage help to 'Discourage irresponsible behaviour' by:",
+      options: [
+        "Punishing people.",
+        "Setting high moral standards for everyone.",
+        "Making everyone stay home.",
+        "Charging high fees.",
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      "These ceremonies teach society's expectations of responsible behaviour and good character.",
     ),
   ],
 );
@@ -19588,6 +29155,623 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation:
           "The minimum age to join is 15 years and the maximum age is 45 years.",
+    ),
+  ],
+);
+
+final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. On which specific date did the tragic shooting of the three unarmed ex-servicemen take place at the Christiansborg Crossroads in Accra?",
+      options: [
+        "12th March 1948",
+        "28th February 1948",
+        "15th March 1948",
+        "8th January 1950",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The peaceful march and the fatal shooting of the three ex-servicemen occurred on 28th February 1948, a date remembered annually in Ghana.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What was the name of the British police officer who ordered his armed security forces to fire upon the peaceful veterans?",
+      options: [
+        "Andrew Aiken Watson",
+        "Robert Scott",
+        "Major Imray",
+        "Gerald Hallen Creasy",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Major Imray ordered the security forces to open fire after the veterans refused to stop their peaceful march.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which of the following heroes was a native of the Ga ethnic group from La, Accra, and served as a prominent leader during the 1948 veterans' march?",
+      options: [
+        "Sergeant Cornelius Francis Adjetey",
+        "Corporal Patrick Attipoe",
+        "Private Odartey Lamptey",
+        "Dr. J.B. Danquah",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "Sergeant Cornelius Francis Adjetey, a Ga from La, Accra, led the procession before he was killed.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. How many members made up the independent Watson Commission that investigated the 1948 civil disturbances?",
+      options: [
+        "Six members",
+        "Two members",
+        "Four members",
+        "Three members",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "The Watson Commission consisted of three members: Andrew Aiken Watson (Chairman), Andrew Dalgleish, and Keith Murray.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What major economic grievance did returning World War Two veterans hold against the British colonial administration?",
+      options: [
+        "The forced closure of local Ghanaian banks and credit unions",
+        "Broken promises regarding pensions, housing benefits, and stable employment",
+        "Widespread destruction of urban markets by colonial security forces",
+        "High taxes placed directly on local agricultural tools and imported seeds",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The veterans protested because the colonial government failed to fulfill promises relating to pensions, welfare, and employment.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which of the following figures was not a member of the celebrated political group known as 'The Big Six' arrested following the 1948 riots?",
+      options: [
+        "Dr. Kwame Nkrumah",
+        "Ebenezer Ako Adjei",
+        "Sir Henry Coussey",
+        "Edward Akufo-Addo",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Sir Henry Coussey was not one of the Big Six; he later chaired the Coussey Committee.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. In which month and year did the Watson Commission officially present its comprehensive report and recommendations to the British government?",
+      options: [
+        "June 1948",
+        "March 1948",
+        "March 1949",
+        "February 1948",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "The Watson Commission completed its investigations and submitted its report in June 1948.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. What did the Watson Commission conclude regarding the existing 1946 Burns Constitution?",
+      options: [
+        "It was working perfectly and should be maintained for another decade",
+        "It was completely out of date because it failed to give Africans real political power",
+        "It needed to be modified to reduce the total number of elected African officials",
+        "It was invalid because it had never been signed by the British monarch",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Commission concluded that the Burns Constitution did not provide meaningful political power to Africans.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. From which specific geographical region did Corporal Patrick Attipoe, one of the three martyred ex-servicemen, originate?",
+      options: [
+        "Northern Region",
+        "Ashanti Region",
+        "Western Region",
+        "Volta Region",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "Corporal Patrick Attipoe was from Ghana's Volta Region and became one of the three celebrated martyrs.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which historic advisory body was formed in March 1949 as a direct consequence of the recommendations made by the Watson Commission?",
+      options: [
+        "The National Assembly",
+        "The Coussey Committee",
+        "The Convention People's Party",
+        "The West African Frontier Force",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Following the Watson Commission's recommendations, the Coussey Committee was established in 1949 to draft constitutional reforms.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. In which Ghanaian town did the Committee on Youth Organization hold its critical June 1949 conference that urged Nkrumah to form a new party?",
+      options: [
+        "Winneba",
+        "Saltpond",
+        "Tarkwa",
+        "Accra",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Committee on Youth Organization met in Tarkwa in June 1949 and encouraged Kwame Nkrumah to break away from the UGCC and form a new political party.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. What political position did Dr. Kwame Nkrumah hold within the United Gold Coast Convention before his resignation?",
+      options: [
+        "National Chairman",
+        "General Secretary",
+        "Financial Treasurer",
+        "Vice President",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Kwame Nkrumah served as the General Secretary of the UGCC before resigning to establish the Convention People's Party.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which official color in the three-striped CPP party flag was chosen to represent the rich agricultural wealth and natural forests of the country?",
+      options: [
+        "White",
+        "Green",
+        "Red",
+        "Gold",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Green on the CPP flag symbolizes Ghana's rich vegetation, forests, and agricultural resources.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Who was the legendary organizer who ran the CPP campaigns and edited the Accra Evening News while Nkrumah was held in James Fort prison?",
+      options: [
+        "Kojo Botsio",
+        "Komla Agbeli Gbedemah",
+        "Krobo Edusei",
+        "Imoru Egala",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "Komla Agbeli Gbedemah managed party activities and helped keep the CPP movement active while Nkrumah was imprisoned.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What political ideology did the CPP promote to advocate for the total liberation and international integration of all African states?",
+      options: [
+        "Colonialism",
+        "Federalism",
+        "Pan-Africanism",
+        "Capitalism",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The CPP strongly supported Pan-Africanism, believing that Ghana's independence should contribute to the liberation of all Africa.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. Which major market women's associations actively backed the CPP, helping distribute campaign messages and providing crucial financial support?",
+      options: [
+        "The Trades Union Congress",
+        "The Ghana National Association of Teachers",
+        "Local Market Women and Traders Associations",
+        "The Chamber of Commerce",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Market women and traders' associations played an important role in supporting and financing the CPP's activities.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What was the primary difference in timing between the independence slogans of the UGCC and the newly formed CPP?",
+      options: [
+        "The UGCC wanted immediate independence, while the CPP wanted it in the distant future.",
+        "The UGCC wanted a federal system, while the CPP wanted military rule.",
+        "The UGCC wanted gradual self-government, while the CPP demanded self-government immediately.",
+        "The UGCC wanted to remain under foreign rule, while the CPP wanted British rule to continue.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The UGCC preferred gradual constitutional progress, while the CPP demanded immediate self-government.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Where was Komla Agbeli Gbedemah, the prominent Vice Chairman of the Convention People's Party, originally born?",
+      options: [
+        "Winneba, Ghana",
+        "Keta, Ghana",
+        "Warri, Nigeria",
+        "Nkroful, Ghana",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Komla Agbeli Gbedemah was born in Warri, Nigeria, to Ghanaian parents from Keta.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Which highly influential local newspaper was founded by Dr. Kwame Nkrumah to spread the message of mass political action?",
+      options: [
+        "The Daily Graphic",
+        "The Gold Coast Express",
+        "The Accra Evening News",
+        "The Ashanti Pioneer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Accra Evening News became the CPP's newspaper for educating the public and promoting mass political action.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. Which group did not actively partner with the CPP during its mobilization campaigns in late 1949?",
+      options: [
+        "Elite European trading firms and mining executives",
+        "Youth associations and local drivers' unions",
+        "Market women and small-scale traders",
+        "The Railway Workers Union and the Trades Union Congress",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      "European trading firms and mining companies generally opposed the CPP because its campaigns challenged colonial economic interests.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. In which month and year did the historic Coussey Committee officially submit its constitutional report to the colonial governor?",
+      options: [
+        "February 1948",
+        "November 1949",
+        "March 1949",
+        "June 1948",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+      "The Coussey Committee submitted its constitutional report in November 1949, laying the foundation for the 1950 Constitution.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. How many members made up the all-African Coussey Committee of 1949?",
+      options: [
+        "Six members",
+        "Four members",
+        "Thirty-eight members",
+        "104 members",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "The Coussey Committee consisted of thirty-eight members representing various professions and traditional authorities.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which of the following descriptions best summarizes the official slogan or stance of the CPP toward the 1950 Constitution?",
+      options: [
+        "Forward Ever, Backward Never",
+        "Bogus and Fraudulent",
+        "Self-government within the shortest possible time",
+        "Freedom and Justice Now",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "The CPP rejected the 1950 Constitution as 'bogus and fraudulent' because it did not provide full self-government.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. On which exact date was Dr. Kwame Nkrumah officially released from James Fort Prison following his party's victory in the 1951 elections?",
+      options: [
+        "20th January 1948",
+        "15th June 1954",
+        "13th March 1951",
+        "6th March 1957",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Kwame Nkrumah was released from James Fort Prison on 13th March 1951 after the CPP's electoral victory.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. What specific political position did Dr. Kwame Nkrumah occupy immediately after walking out of prison in March 1951?",
+      options: [
+        "Governor-General of the Gold Coast",
+        "President of the Republic of Ghana",
+        "Leader of Government Business",
+        "Speaker of the National Assembly",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Nkrumah became the Leader of Government Business, a position later renamed Prime Minister in 1952.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. How many seats were available in the fully elected National Assembly established under the revised 1954 Constitution?",
+      options: [
+        "Thirty-eight seats",
+        "104 seats",
+        "Seventy-two seats",
+        "Eighty-four seats",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The 1954 Constitution created a National Assembly made up of 104 fully elected representatives.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. How many parliamentary seats did the CPP win in the June 1954 general elections?",
+      options: [
+        "Thirty-four seats",
+        "Seventy-one seats",
+        "Three seats",
+        "Seventy-two seats",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+      "The CPP won 72 of the 104 seats in the June 1954 general election.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Who was the prominent traditional leader and chief linguist of the Asantehene who co-founded the National Liberation Movement?",
+      options: [
+        "Dr. J. B. Danquah",
+        "Baffour Osei Akoto",
+        "Komla Agbeli Gbedemah",
+        "Kojo Botsio",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Baffour Osei Akoto, the chief linguist of the Asantehene, co-founded the National Liberation Movement.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. How many total parliamentary seats did the CPP capture in the final pre-independence election held on 17th July 1956?",
+      options: [
+        "Seventy-one seats",
+        "Seventy-two seats",
+        "Thirty-four seats",
+        "104 seats",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "The CPP won 71 of the 104 parliamentary seats in the July 1956 election.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. What was the direct historic outcome of the CPP's decisive democratic victory in the 1956 election?",
+      options: [
+        "The forced retirement of Dr. Kwame Nkrumah from active politics",
+        "The British colonial office accepted the mandate and approved the Independence Act",
+        "The immediate adoption of a federal system across all four territories",
+        "The cancellation of all local agricultural taxes on cocoa products",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The CPP's victory convinced Britain that the people supported independence, leading to the approval of the Independence Act and Ghana's independence on 6th March 1957.",
+    ),
+  ],
+);
+final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. On which specific date did the power-sharing arrangement under the Westminster system officially begin for independent Ghana?",
+      options: [
+        "28th February 1948",
+        "12th June 1949",
+        "1st July 1960",
+        "6th March 1957",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+      "The Westminster system came into effect when Ghana gained independence on 6th March 1957.",
+    ),
+
+    QuizQuestion(
+      question:
+      "2. Who was the official symbolic Head of State of Ghana from March 1957 to July 1960?",
+      options: [
+        "Dr. Kwame Nkrumah",
+        "Queen Elizabeth II",
+        "Lord Listowel",
+        "Dr. J. B. Danquah",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Between 1957 and 1960, Ghana remained a constitutional monarchy with Queen Elizabeth II as the ceremonial Head of State.",
+    ),
+
+    QuizQuestion(
+      question:
+      "3. Which British official served as Ghana's Attorney-General during the period from 1957 to 1960?",
+      options: [
+        "David Mowbray Balme",
+        "Major General Alexander Paley",
+        "Geoffrey Bing",
+        "Sir Charles Noble Arden-Clarke",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Geoffrey Bing served as Ghana's Attorney-General during the early post-independence years.",
+    ),
+
+    QuizQuestion(
+      question:
+      "4. Which ministry was headed by Kojo Botsio during Ghana's first independent government (1957–1960)?",
+      options: [
+        "Ministry of Finance",
+        "Ministry of Agriculture and Natural Resources",
+        "Ministry of the Interior",
+        "Speaker of the National Assembly",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Kojo Botsio served as Minister of Agriculture and Natural Resources after independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "5. Under the Westminster power-sharing system, whose assent was required before a bill passed by Parliament became law?",
+      options: [
+        "The Chief of Defence Staff",
+        "The Governor-General",
+        "The Queen personally in London",
+        "The Chief Justice",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Governor-General, representing the Queen, gave Royal Assent to bills before they became law.",
+    ),
+
+    QuizQuestion(
+      question:
+      "6. What was one major advantage of Ghana's power-sharing arrangement between 1957 and 1960?",
+      options: [
+        "It gave Ghana complete control of foreign affairs immediately.",
+        "It allowed Ghanaian ministers to gain valuable governing experience.",
+        "It completely eliminated political opposition.",
+        "It prevented taxes on cocoa farmers.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The arrangement allowed Ghanaian leaders to gain practical administrative and governmental experience.",
+    ),
+
+    QuizQuestion(
+      question:
+      "7. What position did Major General Alexander George Victor Paley occupy in independent Ghana?",
+      options: [
+        "Minister of the Interior",
+        "Governor-General",
+        "Chief of Defence Staff",
+        "Attorney-General",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+      "Major General Paley served as Chief of Defence Staff during Ghana's early years of independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "8. Who served as Ghana's Minister of the Interior under the post-independence power-sharing administration?",
+      options: [
+        "Krobo Edusei",
+        "Imoru Egala",
+        "Joseph Henry Allassani",
+        "Nathaniel Azarco Welbeck",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "Krobo Edusei headed the Ministry of the Interior after Ghana attained independence.",
+    ),
+
+    QuizQuestion(
+      question:
+      "9. Why did some critics consider the presence of British officials in top military and legal positions a disadvantage?",
+      options: [
+        "It reduced cocoa export prices.",
+        "It prevented Ghana from joining the United Nations.",
+        "Their primary loyalty might remain with Britain, creating security concerns.",
+        "It stopped schools from teaching English.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      "Critics feared that foreign officials might prioritize British interests over Ghana's national interests.",
+    ),
+
+    QuizQuestion(
+      question:
+      "10. What was the major constitutional change when Ghana became a Republic on 1st July 1960?",
+      options: [
+        "Ghana became a British colony again.",
+        "The Queen ceased to be Head of State and Ghana gained full republican sovereignty.",
+        "A federal system was introduced.",
+        "Parliament was dissolved and replaced by a military council.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The Republic removed the British monarch as Head of State and replaced that role with a Ghanaian President.",
     ),
   ],
 );
@@ -26230,115 +36414,119 @@ final QuizModel Scijhs1s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What does the term 'Biotic' mean?",
-      options: ["Non-living", "Very small", "Living parts", "Very cold"],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation: "Biotic refers to all living organisms.",
-    ),
-    QuizQuestion(
-      question: "2. Which of these is an abiotic factor in a river?",
+      question:
+          "1. Where does the process of digestion begin in the human body?",
       options: [
-        "The catfish",
-        "The water flow",
-        "The water lily",
-        "The bacteria"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "The movement/speed of water is a physical, non-living factor.",
-    ),
-    QuizQuestion(
-      question: "3. Why is soil considered an abiotic component?",
-      options: [
-        "It is not alive",
-        "It has plants",
-        "It is very green",
-        "It can breathe"
-      ],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation:
-          "Soil is made of minerals and organic matter but is not a living organism itself.",
-    ),
-    QuizQuestion(
-      question: "4. Which list contains ONLY biotic components?",
-      options: [
-        "Goat, Sun, Grass",
-        "Tree, Bird, Fish",
-        "Soil, Wind, Rock",
-        "Rain, Frog, Air"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Trees, birds, and fish are all living things.",
-    ),
-    QuizQuestion(
-      question: "5. Which instrument measures wind speed?",
-      options: ["Thermometer", "Photometer", "Anemometer", "Rain gauge"],
-      correctIndex: 2,
-      difficulty: "High",
-      explanation:
-          "An anemometer is the specific tool for measuring wind speed.",
-    ),
-    QuizQuestion(
-      question: "6. An elephant in Mole National Park is a...",
-      options: [
-        "Biotic factor",
-        "Abiotic factor",
-        "Physical factor",
-        "Chemical factor"
+        "In the mouth",
+        "In the stomach",
+        "In the gullet",
+        "In the liver"
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Elephants are living organisms.",
+      explanation:
+          "Digestion begins in the mouth where chewing and saliva start breaking down food.",
     ),
     QuizQuestion(
-      question: "7. What is the name for abiotic factors related to soil?",
+      question: "2. Which of these is the correct order of food passage?",
       options: [
-        "Aquatic factors",
-        "Edaphic factors",
-        "Biotic factors",
-        "Aerial factors"
+        "Mouth → Stomach → Oesophagus",
+        "Mouth → Oesophagus → Stomach",
+        "Stomach → Mouth → Oesophagus",
+        "Oesophagus → Mouth → Stomach"
       ],
       correctIndex: 1,
-      difficulty: "High",
-      explanation: "Edaphic specifically refers to soil conditions.",
+      difficulty: "Medium",
+      explanation:
+          "Food passes from the mouth into the oesophagus (gullet) and then into the stomach.",
     ),
     QuizQuestion(
       question:
-          "8. Which of these is a biotic component of an arboreal ecosystem?",
-      options: [
-        "Tree branches",
-        "High sunlight",
-        "Small monkeys",
-        "Strong winds"
-      ],
-      correctIndex: 2,
+          "3. The wave-like movement that pushes food down the gullet is:",
+      options: ["Digestion", "Absorption", "Circulation", "Peristalsis"],
+      correctIndex: 3,
       difficulty: "Medium",
       explanation:
-          "Monkeys are the living (biotic) part of the tree-top system.",
+          "Peristalsis is the series of muscular contractions that moves food through the digestive tract.",
     ),
     QuizQuestion(
-      question: "9. Temperature is measured using a...",
-      options: ["Hygrometer", "Barometer", "Thermometer", "Anemometer"],
+      question: "4. What is 'chyme'?",
+      options: [
+        "A type of tooth in the mouth",
+        "A watery paste in the stomach",
+        "A liquid found in the liver",
+        "A bone in the human body"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Chyme is the semi-liquid mixture of partially digested food and gastric juice in the stomach.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which organ is responsible for absorbing water from undigested food?",
+      options: [
+        "Large intestine",
+        "Small intestine",
+        "The stomach",
+        "The mouth"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "The large intestine absorbs water from undigested food before waste is removed from the body.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which substance in the mouth helps to soften food and start starch digestion?",
+      options: ["Gastric juice", "Pancreatic juice", "Saliva", "Bile"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Thermometers measure how hot or cold it is.",
+      explanation:
+          "Saliva moistens food and contains the enzyme amylase, which begins starch digestion.",
     ),
     QuizQuestion(
-      question: "10. Humidity refers to what in the air?",
+      question:
+          "7. The stomach is often described as being shaped like which letter?",
+      options: ["Letter O", "Letter S", "Letter J", "Letter L"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "The human stomach has a characteristic J-shaped structure.",
+    ),
+    QuizQuestion(
+      question: "8. Which organ produces bile to help break down fats?",
+      options: ["The pancreas", "The kidney", "The heart", "The liver"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "The liver produces bile, which is stored in the gall bladder and helps digest fats.",
+    ),
+    QuizQuestion(
+      question: "9. What is the primary job of the teeth in digestion?",
       options: [
-        "The amount of dust",
-        "The amount of light",
-        "The water vapour",
-        "The number of birds"
+        "To taste if the food is salty",
+        "To produce acid for the food",
+        "To break food into smaller bits",
+        "To push food into the lungs"
       ],
       correctIndex: 2,
-      difficulty: "Medium",
+      difficulty: "Low",
       explanation:
-          "Humidity is an abiotic factor measuring moisture in the air.",
+          "Teeth mechanically break food into smaller pieces, making it easier to swallow and digest.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In which part of the body does the most digestion and absorption occur?",
+      options: [
+        "The mouth",
+        "The stomach",
+        "The oesophagus",
+        "Small intestine"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "Most chemical digestion and nearly all nutrient absorption take place in the small intestine.",
     ),
   ],
 );
@@ -26347,136 +36535,113 @@ final QuizModel Scijhs1s3ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Which system is most likely to cause the loss of Ghana's forest cover?",
-      options: [
-        "Crop rotation",
-        "Mixed farming",
-        "Land rotation",
-        "Organic farming"
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          "Land rotation involves clearing new forest areas, which leads to deforestation.",
-    ),
-    QuizQuestion(
-      question: "2. What is a significant advantage of Crop Rotation?",
-      options: [
-        "Moving to new land",
-        "Less need for water",
-        "Better soil nutrients",
-        "Fewer workers needed"
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          "Rotating crops prevents the soil from being depleted of specific nutrients.",
-    ),
-    QuizQuestion(
-      question: "3. Why is Mixed Farming considered highly efficient?",
-      options: [
-        "It uses only one plot",
-        "It uses goats and crops",
-        "It needs zero labour",
-        "It uses no sunlight"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "The relationship between crops and livestock creates a cycle that maximizes resources.",
-    ),
-    QuizQuestion(
-      question: "4. Which of these is a merit of Organic Farming?",
-      options: [
-        "Faster crop growth",
-        "Clean water bodies",
-        "Very low labour",
-        "Cheapest seeds"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Because it avoids synthetic chemicals, it prevents poisonous runoff into rivers.",
-    ),
-    QuizQuestion(
-      question: "5. What is the main demerit of Mixed Cropping?",
-      options: [
-        "Risk of total failure",
-        "Difficulty in weeding",
-        "Loss of all land",
-        "High chemical use"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Having many different crops together makes it harder to use tools or weed efficiently.",
-    ),
-    QuizQuestion(
-      question: "6. Legumes are useful in Crop Rotation because they:",
-      options: [
-        "Kill all the pests",
-        "Improve soil fertility",
-        "Need no sunlight",
-        "Grow in the sand"
-      ],
+          "1. What does a piece of bread (carbohydrate) become at the end of digestion?",
+      options: ["Amino acids", "Glucose", "Fatty acids", "Glycerol"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-          "Legumes return nitrogen to the soil, acting as a natural fertilizer for the next crop.",
-    ),
-    QuizQuestion(
-      question: "7. A farmer who practices Land Rotation avoids the cost of:",
-      options: [
-        "Buying new seeds",
-        "Chemical fertilizers",
-        "Paying for water",
-        "Hiring any help"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "The fallow period naturally restores soil fertility, so the farmer doesn't need to buy chemicals.",
+          "Carbohydrates are broken down into glucose, which the body uses for energy.",
     ),
     QuizQuestion(
       question:
-          "8. Which system provides the most diverse income for a farmer?",
-      options: [
-        "Mixed farming",
-        "Land rotation",
-        "Single cropping",
-        "Bush fallowing"
-      ],
+          "2. Which of these nutrients provides the building blocks for muscles?",
+      options: ["Fats", "Starch", "Sugars", "Proteins"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Proteins are digested into amino acids, which are essential for muscle growth and repair.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where do the end products of digestion go after leaving the small intestine?",
+      options: ["To the lungs", "To the blood", "To the teeth", "To the hair"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Digested nutrients are absorbed into the bloodstream and transported throughout the body.",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following describes the shape of villi?",
+      options: ["Finger-like", "Square-like", "Round-like", "Star-like"],
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-          "Selling both crops and animal products provides multiple ways to earn money.",
+          "Villi are finger-like projections that increase the surface area for nutrient absorption.",
     ),
     QuizQuestion(
-      question:
-          "9. Which system is hardest to practice in a very crowded city?",
+      question: "5. Why must food be broken down into end products?",
       options: [
-        "Mixed cropping",
-        "Crop rotation",
-        "Land rotation",
-        "Organic farming"
+        "To make it taste better",
+        "To make it change colour",
+        "To make it small enough to absorb",
+        "To make it easier to cook"
       ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-          "Land rotation requires vast amounts of unused land, which is not available in crowded cities.",
+          "Large food molecules must be broken into smaller molecules so they can pass through the intestinal wall.",
     ),
     QuizQuestion(
-      question: "10. What is a demerit of Mixed Farming?",
+      question:
+          "6. Fatty acids and glycerol are produced from the digestion of:",
       options: [
-        "Only one product",
-        "High skill needed",
-        "Soil stays empty",
-        "Very little food"
+        "Banku and rice",
+        "Fish and meat",
+        "Oranges and mangoes",
+        "Butter and palm oil"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Fats and oils (lipids) are digested into fatty acids and glycerol.",
+    ),
+    QuizQuestion(
+      question: "7. How do nutrients move from the villi into the blood?",
+      options: [
+        "By being chewed again",
+        "By passing through thin walls",
+        "By turning into a gas",
+        "By staying in the stomach"
       ],
       correctIndex: 1,
       difficulty: "High",
       explanation:
-          "Managing both animals and crops requires a wide range of knowledge and constant attention.",
+          "The thin walls of the villi allow digested nutrients to pass into the bloodstream.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If a student has a balanced diet, their small intestine will absorb:",
+      options: [
+        "Only glucose",
+        "Only amino acids",
+        "All necessary end products",
+        "Only water and salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A balanced diet provides all the nutrients the body needs, which are absorbed in the small intestine.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is the simplest form of protein?",
+      options: ["Amino acid", "Glucose", "Fatty acid", "Polypeptide"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Amino acids are the smallest units and final products of protein digestion.",
+    ),
+    QuizQuestion(
+      question: "10. The main purpose of the villi is to increase:",
+      options: [
+        "The speed of chewing",
+        "The length of the gullet",
+        "The amount of saliva",
+        "The surface area for absorption"
+      ],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "The large surface area created by the villi allows more nutrients to be absorbed efficiently.",
     ),
   ],
 );
@@ -34636,6 +44801,19 @@ final QuizModel Scijhs2s3ss4Lesson2QuizData = QuizModel(
       explanation:
           "Crops and crop residues can provide shade, shelter, and protection for animals.",
     ),
+    QuizQuestion(
+      question: "10. A farmer rotates maize with groundnuts to...",
+      options: [
+        "Make the soil harder",
+        "Reduce soil nutrients",
+        "Maintain soil fertility",
+        "Increase the weed growth"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Legumes in rotation help keep the soil healthy and fertile naturally.",
+    ),
   ],
 );
 
@@ -36342,6 +46520,1455 @@ final QuizModel Scijhs2s4ss5Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation:
           "A hand fork is small enough for precision work in pots without damaging the container.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs2s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What do we call materials that are no longer needed and are thrown away?",
+      options: [
+        "Natural resources",
+        "Sustainable items",
+        "Raw materials",
+        "Waste products"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Waste refers to discarded materials that have lost their original value.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which practice is the most effective way to manage waste sustainably?",
+      options: [
+        "Reducing waste",
+        "Burning waste",
+        "Burying waste",
+        "Hiding waste"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Reducing waste at the source prevents the problem from starting, making it the most effective 'R'.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which 'R' involves turning old plastic bottles into new plastic pellets?",
+      options: ["Reducing", "Restoring", "Recycling", "Reusing"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Recycling is the industrial process of turning waste into new raw materials.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Using an old car tire as a swing for children is an example of what?",
+      options: ["Reusing", "Reducing", "Refining", "Reacting"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "This is reusing because the tire is being used for a new purpose instead of being thrown away.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why should we avoid throwing plastic waste into gutters in Ghana?",
+      options: [
+        "It makes water blue",
+        "It stops the birds",
+        "It causes flooding",
+        "It helps the fish"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Plastic blocks the flow of water, leading to floods during the rainy season.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of these items is a common source of domestic waste in Ghana?",
+      options: [
+        "Large machinery",
+        "Cassava peelings",
+        "Airplane engine",
+        "Factory smoke"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Domestic waste comes from homes; cassava peelings are a very common food waste in Ghanaian kitchens.",
+    ),
+    QuizQuestion(
+      question: "7. What is a major environmental benefit of the 3Rs?",
+      options: [
+        "More plastic bags",
+        "Less soil erosion",
+        "Higher food costs",
+        "Lower pollution"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Practicing the 3Rs directly reduces the amount of trash that pollutes our land and water.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which 'R' are you practicing when you refuse a plastic straw at a shop?",
+      options: ["Recycle", "Reuse", "Repair", "Reduce"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation:
+          "By refusing the straw, you are reducing the amount of waste produced.",
+    ),
+    QuizQuestion(
+      question: "9. What happens to waste that is recycled?",
+      options: [
+        "It is buried forever",
+        "It is made into new things",
+        "It is thrown in the sea",
+        "It is burnt in a forest"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Recycling transforms waste into useful new products.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which is a sustainable way to handle old school notebooks?",
+      options: [
+        "Throwing them in fire",
+        "Leaving them in rain",
+        "Recycling the paper",
+        "Dropping them in road"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Paper is a recyclable material that can be turned into new paper products.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main goal of a waste survey?",
+      options: [
+        "To find hidden treasures",
+        "To identify waste types",
+        "To play with friends",
+        "To sell old newspapers"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Surveys help us identify what kind of waste is present and where it is coming from.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which group of people is most important to involve in a community waste plan?",
+      options: [
+        "People living far away",
+        "Only the young children",
+        "All community members",
+        "People who don't visit"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Waste management works best when everyone in the community participates.",
+    ),
+    QuizQuestion(
+      question: "3. Why are labeled bins (Plastic, Paper, Organic) helpful?",
+      options: [
+        "They make sorting easy",
+        "They look like toys",
+        "They are very heavy",
+        "They hide the labels"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Labels help people put the right waste in the right place for recycling or composting.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What should you do if your survey shows gutters are blocked by plastic?",
+      options: [
+        "Wait for the next rain",
+        "Organize a clean-up",
+        "Add more water there",
+        "Cover it with sand"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Organizing a clean-up is a proactive way to remove blockages and prevent flooding.",
+    ),
+    QuizQuestion(
+      question: "5. How can 'Gong-gong' beaters help with waste management?",
+      options: [
+        "By making loud music",
+        "By announcing clean-ups",
+        "By scaring the birds",
+        "By selling plastic bins"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "In many Ghanaian communities, the gong-gong is a traditional way to spread important information.",
+    ),
+    QuizQuestion(
+      question: "6. What does 'evaluating' a waste practice mean?",
+      options: [
+        "Buying new equipment",
+        "Checking if it works",
+        "Throwing away reports",
+        "Ignoring the problems"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Evaluation is the process of seeing if your actions led to a cleaner environment.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which is a sustainable way to handle large amounts of paper waste?",
+      options: [
+        "Dumping it in a river",
+        "Burying it in the yard",
+        "Burning it at night",
+        "Recycling it into card"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Recycling paper saves trees and reduces the volume of waste in landfills.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the best way to reduce plastic waste in a school canteen?",
+      options: [
+        "Use more plastic bags",
+        "Use reusable plates",
+        "Buy more bottled water",
+        "Throw trash on floors"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Reusable plates can be washed and used again, reducing the need for single-use plastics.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why is it bad to leave food waste in open heaps in the market?",
+      options: [
+        "It attracts pests/flies",
+        "It makes the soil hard",
+        "It turns into gold",
+        "It stops the sunlight"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Rotting food attracts flies and rodents, which can spread diseases like cholera.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A successful waste plan should be 'sustainable.' What does this mean?",
+      options: [
+        "It lasts a long time",
+        "It ends very quickly",
+        "It is very expensive",
+        "It only works once"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Sustainability means the community can keep the practice going for years to come.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which of these is a communicable disease?",
+      options: ["Broken bone", "Heart attack", "Poor vision", "Hepatitis"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Hepatitis is caused by a pathogen and can be passed from person to person.",
+    ),
+    QuizQuestion(
+      question: "2. What does the term 'pathogen' refer to?",
+      options: [
+        "A type of medicine",
+        "An infectious agent",
+        "A hospital worker",
+        "A healthy student"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pathogens are the bacteria or viruses that cause communicable diseases.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student has a runny nose and a red blotchy rash. What is the likely cause?",
+      options: ["Measles", "Malaria", "Anaemia", "Asthma"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "A red blotchy rash starting on the face is a classic sign of Measles.",
+    ),
+    QuizQuestion(
+      question: "4. Which organ is primarily attacked by the Hepatitis virus?",
+      options: ["The heart", "The lungs", "The liver", "The brain"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Hepatitis causes inflammation and damage to the liver.",
+    ),
+    QuizQuestion(
+      question: "5. Why should we avoid sharing needles or syringes?",
+      options: [
+        "To prevent HIV",
+        "To stop a cough",
+        "To cure a fever",
+        "To save money"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "HIV is transmitted through infected blood found on shared sharp objects.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How do communicable diseases affect academic progress in Ghana?",
+      options: [
+        "Students study more",
+        "Students miss school",
+        "Schools get cheaper",
+        "Teachers leave early"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Illness causes absenteeism, which prevents students from following the curriculum.",
+    ),
+    QuizQuestion(
+      question: "7. What is a major sign of jaundice?",
+      options: [
+        "Very itchy skin",
+        "Yellowing eyes",
+        "Loss of hearing",
+        "Stronger bones"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Jaundice, a symptom of Hepatitis, causes yellowing of the eyes and skin.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which method is used by hospitals to make blood transfusions safe?",
+      options: [
+        "Cooling the blood",
+        "Screening blood",
+        "Heating the blood",
+        "Adding more water"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Screening ensures the blood is free from pathogens like HIV or Hepatitis.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Measles is primarily spread through which of the following?",
+      options: [
+        "Contaminated soil",
+        "Uncooked seafood",
+        "Dirty river water",
+        "Air-borne droplets"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Measles is highly contagious through coughing and sneezing.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the best way for a community to achieve 'immunity' against Measles?",
+      options: [
+        "Mass vaccination",
+        "Closing markets",
+        "Building bridges",
+        "Cleaning gutters"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Vaccination is the most effective community-wide prevention strategy.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is a 'risk factor' in health?",
+      options: [
+        "A cure for illness",
+        "A type of doctor",
+        "A chance of harm",
+        "A healthy habit"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "A risk factor increases the probability or 'chance' that a person will develop a disease.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these promotes the spread of air-borne diseases?",
+      options: ["Clean clothes", "Large windows", "Overcrowding", "Using soap"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Air-borne pathogens spread quickly when many people are packed into a small, unventilated space.",
+    ),
+    QuizQuestion(
+      question: "3. Why are flies considered a risk factor in a community?",
+      options: [
+        "They are noisy",
+        "They carry germs",
+        "They eat plants",
+        "They live long"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Flies act as 'vectors' that move pathogens from waste or stagnant water onto our food.",
+    ),
+    QuizQuestion(
+      question: "4. Which is a socio-economic risk factor?",
+      options: [
+        "Sharing a sponge",
+        "Not washing hands",
+        "Lack of money",
+        "Coughing loudly"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Poverty (lack of money) prevents people from buying soap, good food, or medicine, increasing health risks.",
+    ),
+    QuizQuestion(
+      question: "5. Stagnant water in gutters is a risk factor because:",
+      options: [
+        "It smells very nice",
+        "Bacteria multiply",
+        "It looks beautiful",
+        "It helps the grass"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pathogens and disease-carrying insects thrive and multiply in still, dirty water.",
+    ),
+    QuizQuestion(
+      question: "6. Which action reduces a behavioural risk factor?",
+      options: [
+        "Washing with soap",
+        "Sharing a needle",
+        "Leaving food open",
+        "Drinking from a river"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Using soap is a personal choice (behaviour) that physically removes pathogens from the skin.",
+    ),
+    QuizQuestion(
+      question: "7. How does 'ventilation' affect the risk of Measles?",
+      options: [
+        "It makes it worse",
+        "It has no effect",
+        "It lowers the risk",
+        "It causes a fever"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Good ventilation (fresh air flow) dilutes and removes air-borne viruses from a room.",
+    ),
+    QuizQuestion(
+      question: "8. In Ghana, a 'CHPS compound' helps reduce risk by:",
+      options: [
+        "Selling groceries",
+        "Providing vaccines",
+        "Building new roads",
+        "Fixing old cars"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Access to community health services ensures people get vaccinated against common diseases.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is a risk factor for Hepatitis?",
+      options: [
+        "Reading books",
+        "Unscreened blood",
+        "Wearing shoes",
+        "Using a phone"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using blood that hasn't been tested (screened) is a major risk for transmitting Hepatitis.",
+    ),
+    QuizQuestion(
+      question: "10. Nutritious food is important because it:",
+      options: [
+        "Makes you taller",
+        "Powers the heart",
+        "Helps the brain",
+        "Boosts immunity"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A strong immune system (boosted by good food) can fight off pathogens even if you are exposed to them.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Where can bacteria be found in the environment?",
+      options: [
+        "Only in hospitals",
+        "Only in the air",
+        "In soil and water",
+        "Only in the sea"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Bacteria are ubiquitous, meaning they are found almost everywhere, including soil, water, and air.",
+    ),
+    QuizQuestion(
+      question: "2. What happens during 'binary fission' in bacteria?",
+      options: [
+        "They stop growing",
+        "They split in two",
+        "They turn into dust",
+        "They change colour"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Binary fission is the process where one bacterial cell divides into two identical cells.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which disease is passed specifically through sexual contact?",
+      options: ["Food poisoning", "Meningitis", "Gonorrhoea", "Tuberculosis"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Gonorrhoea is a bacterial infection categorized as a sexually transmitted disease.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is the 'Harmattan' season a high-risk time for Meningitis?",
+      options: [
+        "It is very rainy",
+        "It is cold and wet",
+        "It is dry and dusty",
+        "It is very dark"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dry, dusty conditions can irritate the throat and nose, making it easier for Meningitis bacteria to enter the body.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary cause of Food Poisoning?",
+      options: [
+        "Eating too quickly",
+        "Bacterial toxins",
+        "Drinking cold soda",
+        "Sleeping after lunch"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Bacteria in contaminated food release toxins that cause illness in the digestive system.",
+    ),
+    QuizQuestion(
+      question: "6. Which of these is a characteristic of all bacteria?",
+      options: [
+        "They have feathers",
+        "They are microscopic",
+        "They are very large",
+        "They live in fire"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Bacteria are so small they cannot be seen without the help of a microscope.",
+    ),
+    QuizQuestion(
+      question: "7. A stiff neck is a 'danger sign' for which condition?",
+      options: ["Gonorrhoea", "Food poisoning", "Meningitis", "Common cold"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Inflammation of the brain lining in Meningitis causes the neck muscles to become painfully stiff.",
+    ),
+    QuizQuestion(
+      question: "8. How do bacteria get nutrients once they are inside you?",
+      options: [
+        "By eating your food",
+        "By damaging cells",
+        "By drinking water",
+        "By sleeping a lot"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pathogenic bacteria break down host cells or tissues to get the nutrients they need to multiply.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these can help prevent Food Poisoning?",
+      options: [
+        "Cooking food well",
+        "Leaving food open",
+        "Sharing a spoon",
+        "Eating raw meat"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "High heat from cooking kills most harmful bacteria like Salmonella.",
+    ),
+    QuizQuestion(
+      question: "10. Why are some bacteria considered 'helpful'?",
+      options: [
+        "They cause fevers",
+        "They help digestion",
+        "They spoil milk",
+        "They make us itch"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Many bacteria in the human gut help break down food and produce vitamins.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main purpose of a 'Veronica Bucket' in health?",
+      options: [
+        "To collect rainwater",
+        "To help with cooking",
+        "To provide hand washing",
+        "To carry goods to market"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Veronica Buckets are essential for providing running water for hygienic hand washing in Ghana.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which group is responsible for inspecting food safety at the market?",
+      options: [
+        "The police force",
+        "Government health inspectors",
+        "The local football team",
+        "School students"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The government employs inspectors to ensure public food sources meet health standards.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which medical treatment is specifically used to kill bacteria?",
+      options: ["Painkillers", "Antibiotics", "Cough syrup", "Vitamin C"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Antibiotics are medications designed to destroy bacteria or inhibit their reproduction.",
+    ),
+    QuizQuestion(
+      question: "4. To prevent Meningitis, rooms should be:",
+      options: [
+        "Very dark",
+        "Highly crowded",
+        "Well-ventilated",
+        "Completely sealed"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Ventilation prevents the buildup of air-borne bacteria that cause Meningitis.",
+    ),
+    QuizQuestion(
+      question: "5. Individual prevention of Food Poisoning includes:",
+      options: [
+        "Eating raw eggs",
+        "Cooking food thoroughly",
+        "Sharing a cup",
+        "Leaving meat out"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Proper cooking temperatures kill the bacteria that cause food poisoning.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What does 'abstinence' mean in the context of disease prevention?",
+      options: [
+        "Drinking only juice",
+        "Avoiding sexual contact",
+        "Not eating meat",
+        "Sleeping all day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abstinence is the most effective individual way for students to prevent sexually transmitted bacterial diseases.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A 'National Sanitation Day' helps manage health at what level?",
+      options: [
+        "Individual level",
+        "Government level",
+        "Community level",
+        "Hospital level"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Community-wide clean-ups address environmental risks that affect everyone in the area.",
+    ),
+    QuizQuestion(
+      question: "8. Why should food be kept covered?",
+      options: [
+        "To keep it warm",
+        "To stop flies landing",
+        "To make it look nice",
+        "To hide it from others"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Flies carry bacteria on their bodies and can contaminate food if it is left uncovered.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If a community has a Meningitis outbreak, what is the government’s best response?",
+      options: [
+        "Mass vaccination",
+        "Building more roads",
+        "Increasing food prices",
+        "Painting the schools"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Rapid vaccination of the community stops the bacteria from spreading further.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which habit is MOST important before eating fufu or waakye?",
+      options: [
+        "Taking off your shoes",
+        "Washing hands with soap",
+        "Turning on the radio",
+        "Sitting on a chair"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Because these foods are often eaten with hands, washing with soap is critical to prevent ingesting bacteria.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary goal of Science?",
+      options: [
+        "To sell new products",
+        "To build large ships",
+        "To gain knowledge",
+        "To fix broken cars"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Science is about understanding the world through study and facts.",
+    ),
+    QuizQuestion(
+      question:
+          "2. The application of scientific knowledge to solve practical problems is known as:",
+      options: ["Technology", "Innovation", "Observation", "Tradition"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Technology takes what science knows and puts it to work.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A Ghanaian scientist studying the properties of salt is performing:",
+      options: ["Innovation", "Technology", "Marketing", "Science"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Studying properties to gain knowledge is the definition of science.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of these is an example of technology in a Ghanaian school?",
+      options: [
+        "A student's desk",
+        "A smart board",
+        "A school uniform",
+        "A playground"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A smart board is a gadget built using scientific knowledge.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Innovation is different from technology because innovation involves:",
+      options: [
+        "Using old tools",
+        "New ideas/methods",
+        "Only using hands",
+        "Ignoring science"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Innovation is about the 'newness' or improvement of ideas and products.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which pillar is represented by the invention of the first aeroplane?",
+      options: ["Pure Science", "Innovation", "Environment", "Technology"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The aeroplane is a machine/tool created from scientific principles of flight.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A company creates a way to pay for tro-tro fares using a phone. This is:",
+      options: ["Science", "Technology", "Innovation", "Discovery"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "This is a new, improved way of doing things in society.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which sequence shows the correct relationship between the three pillars?",
+      options: [
+        "Science -> Technology -> Innovation",
+        "Innovation -> Science -> Technology",
+        "Technology -> Innovation -> Science",
+        "Science -> Innovation -> Technology"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Knowledge (Science) leads to tools (Technology), which are then improved for society (Innovation).",
+    ),
+    QuizQuestion(
+      question: "9. Without Science, Technology would have no:",
+      options: [
+        "Practical tools",
+        "Machines to use",
+        "Knowledge to use",
+        "People to help"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Technology relies on the facts and laws discovered by science.",
+    ),
+    QuizQuestion(
+      question: "10. How does Innovation impact the Ghanaian environment?",
+      options: [
+        "It stops all work",
+        "It solves problems",
+        "It destroys ideas",
+        "It keeps things old"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Innovation aims to find better ways to live and work.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Which sector uses drones to deliver blood to rural Ghana?",
+      options: ["Education", "Healthcare", "Entertainment", "Fashion"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Drones are an advancement in medical transport.",
+    ),
+    QuizQuestion(
+      question: "2. Advancements in Agriculture lead to:",
+      options: [
+        "Less food for people",
+        "More manual labor",
+        "Higher crop yields",
+        "Smaller farm sizes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Modern tools and seeds help farmers grow more food.",
+    ),
+    QuizQuestion(
+      question: "3. What is 'E-waste'?",
+      options: [
+        "Extra food waste",
+        "Electronic equipment waste",
+        "Energy from the sun",
+        "Efficient water use"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "E-waste refers to discarded electronic devices.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is a POSITIVE impact of technology?",
+      options: [
+        "Air pollution from cars",
+        "Destruction of rivers",
+        "Faster disease diagnosis",
+        "Toxic soil from batteries"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Faster diagnosis via technology saves lives.",
+    ),
+    QuizQuestion(
+      question: "5. Akosombo Dam provides electricity using water. This is:",
+      options: [
+        "A negative advancement",
+        "A technological advancement",
+        "A form of E-waste",
+        "A harmful chemical"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Hydroelectric power is a significant engineering advancement.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is Galamsey machinery considered a misuse of technology?",
+      options: [
+        "It is too expensive",
+        "It destroys Ghana's rivers",
+        "It is too slow to work",
+        "It uses solar energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Heavy machinery used for illegal mining ruins the environment.",
+    ),
+    QuizQuestion(
+      question:
+          "7. The use of smartboards in JHS classrooms is an advancement in:",
+      options: ["Agriculture", "Transportation", "Education", "Communication"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Smartboards are teaching tools.",
+    ),
+    QuizQuestion(
+      question: "8. Which chemical in E-waste can poison the environment?",
+      options: ["Oxygen", "Clean water", "Lead", "Vitamin C"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Lead is a toxic metal found in many electronics.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Using an app to pay for electricity (ECG) is an advancement in:",
+      options: ["Transportation", "Science", "Technology", "Medicine"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Digital payment systems are technological advancements.",
+    ),
+    QuizQuestion(
+      question: "10. A balance between technology and environment means:",
+      options: [
+        "Stopping all technology",
+        "Using technology safely",
+        "Ignoring all pollution",
+        "Breaking all machines"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "We must use tools in a way that protects nature.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which term describes the long-term increase in the Earth's average temperature?",
+      options: [
+        "Seasonal change",
+        "Global warming",
+        "Daily weather",
+        "Local heating"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Global warming is the specific term for the planet's rising temperature.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which Ghanaian town is famously losing land due to rising sea levels?",
+      options: ["Keta", "Kumasi", "Tamale", "Sunyani"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Keta is a coastal town severely affected by tidal waves and rising seas.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What happens to the Earth's 'blanket' of gases during climate change?",
+      options: [
+        "It gets thinner",
+        "It disappears",
+        "It stays same",
+        "It gets thicker"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Greenhouse gases trap more heat, making the atmospheric 'blanket' thicker.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is a sign of climate change?",
+      options: [
+        "Clear blue skies",
+        "Predictable rain",
+        "Severe droughts",
+        "Cold harmattan"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Longer and more frequent droughts are a major sign of climate change.",
+    ),
+    QuizQuestion(
+      question: "5. Why is the 'weather' different from 'climate'?",
+      options: [
+        "Weather is long-term",
+        "Climate is short-term",
+        "Weather is daily",
+        "Climate is daily"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Weather refers to what is happening right now or today.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which activity contributes most to the increase in global temperatures?",
+      options: [
+        "Planting more trees",
+        "Burning fossil fuels",
+        "Using solar power",
+        "Cleaning the beach"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Burning fuels like oil and coal releases gases that trap heat.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If the climate changes, what is most likely to happen to Ghana's cocoa production?",
+      options: [
+        "It will increase",
+        "It will stay same",
+        "It will decrease",
+        "It will be easier"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Irregular rain and high heat make it difficult for cocoa trees to survive.",
+    ),
+    QuizQuestion(
+      question: "8. What is the main cause of rising sea levels?",
+      options: [
+        "More fish in sea",
+        "Melting of ice",
+        "Heavy daily rain",
+        "Strong sea winds"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Heat melts polar ice, which flows into the oceans, raising the level.",
+    ),
+    QuizQuestion(
+      question: "9. Climate change is a problem that affects:",
+      options: [
+        "Only Accra",
+        "Only farmers",
+        "Only the North",
+        "The whole world"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Climate change is a global issue that impacts every country.",
+    ),
+    QuizQuestion(
+      question: "10. A 'heat wave' refers to a period of:",
+      options: [
+        "Very cold weather",
+        "Very rainy weather",
+        "Very windy weather",
+        "Very hot weather"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A heat wave is a prolonged period of excessively hot weather.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which soil type is best for most crops because it balances water and air?",
+      options: ["Salty soil", "Clay soil", "Sandy soil", "Loamy soil"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Loam provides the perfect balance of moisture and air for roots.",
+    ),
+    QuizQuestion(
+      question: "2. How would you describe the texture of sandy soil?",
+      options: ["Smooth", "Sticky", "Gritty", "Slippery"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Large particles in sand give it a rough, gritty feel.",
+    ),
+    QuizQuestion(
+      question: "3. Which soil has the highest water retention?",
+      options: ["Sandy soil", "Clay soil", "Loamy soil", "Dry soil"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Clay's small pores trap water and hold it very tightly.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Decayed plant and animal matter found in loamy soil is called:",
+      options: ["Humus", "Mud", "Dust", "Sand"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Humus is the organic part of soil that provides nutrients.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If you are building a house, why might you prefer sandy soil for drainage?",
+      options: [
+        "It stays wet",
+        "Water flows out",
+        "It is very dark",
+        "It grows moss"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Sandy soil allows water to pass through quickly, preventing puddles around foundations.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which soil type is most likely to cause 'waterlogging' in a farm?",
+      options: ["Loamy soil", "Sandy soil", "Fine sand", "Clay soil"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Because clay retains so much water, it can become waterlogged (too much water).",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens to clay soil when it dries out completely in the sun?",
+      options: [
+        "It turns to sand",
+        "It gets very hard",
+        "It becomes liquid",
+        "It turns green"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Clay becomes hard and often cracks when it loses all moisture.",
+    ),
+    QuizQuestion(
+      question:
+          "8. In a water retention experiment, which soil will have the MOST water in the collecting jar?",
+      options: ["Sandy soil", "Clay soil", "Loamy soil", "Garden soil"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Since sand has the lowest retention, most of the water drains into the jar.",
+    ),
+    QuizQuestion(
+      question: "9. Loamy soil is often dark in colour because of:",
+      options: ["Large rocks", "Fine clay", "Organic humus", "Clean water"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Humus is typically dark brown or black.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of these properties refers to how the soil feels to the touch?",
+      options: ["Drainage", "Colour", "Weight", "Texture"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Texture is the physical feel of the soil particles.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Osmosis requires a ________ membrane to work.",
+      options: ["Thick plastic", "Semi-permeable", "Solid metal", "Waterproof"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "This membrane acts as a filter for water molecules.",
+    ),
+    QuizQuestion(
+      question:
+          "2. In which direction does water move during osmosis in a healthy plant?",
+      options: [
+        "From root to soil",
+        "From soil to root",
+        "From leaf to soil",
+        "From stem to root"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Water moves from the wet soil into the drier root cells.",
+    ),
+    QuizQuestion(
+      question: "3. Why can't plants use nutrients in dry soil?",
+      options: [
+        "Nutrients must be dissolved",
+        "Dry soil is too hot",
+        "Roots only grow in dark",
+        "Nutrients disappear in sun"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Plants can only absorb minerals that are part of the liquid soil solution.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which soil property is MOST important for preventing leaching?",
+      options: ["Soil colour", "Water retention", "Soil weight", "Soil depth"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Good retention keeps the water and nutrients near the roots.",
+    ),
+    QuizQuestion(
+      question: "5. A semi-permeable membrane is like a:",
+      options: ["Brick wall", "Locked door", "Fine net", "Glass window"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A net allows water through but stops larger objects.",
+    ),
+    QuizQuestion(
+      question: "6. Which of these is a major plant nutrient found in soil?",
+      options: ["Nitrogen", "Oxygen", "Carbon", "Hydrogen"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Nitrogen is one of the primary minerals plants absorb for growth.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If the soil solution has a very high salt content (more than the root), what might happen?",
+      options: [
+        "Plant grows faster",
+        "Water leaves the root",
+        "Nothing happens",
+        "Root turns blue"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Osmosis would reverse, pulling water out of the plant and causing it to wilt.",
+    ),
+    QuizQuestion(
+      question:
+          "8. The tiny structures on roots that increase surface area for drinking are:",
+      options: ["Root branches", "Root caps", "Root hairs", "Root trunks"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Root hairs provide more surface area for osmosis to occur.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Leaching is a common problem in which type of Ghanaian soil?",
+      options: ["Clay soil", "Heavy loam", "Sandy soil", "Swampy soil"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sand's large pores allow water to wash away nutrients easily.",
+    ),
+    QuizQuestion(
+      question: "10. The main purpose of osmosis in plants is to maintain:",
+      options: [
+        "High heat",
+        "Turgidity (firmness)",
+        "Dry leaves",
+        "Dark roots"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Water pressure (turgor) keeps plants standing upright.",
+    ),
+  ],
+);
+final QuizModel Scijhs2s5ss5Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. Rocks that form from layers of sediment are called:",
+      options: ["Igneous", "Metamorphic", "Sedimentary", "Magma"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sediments are small particles that settle and harden into rock.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a famous example of an igneous rock?",
+      options: ["Limestone", "Granite", "Shale", "Coal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Granite is a very common igneous rock used in building.",
+    ),
+    QuizQuestion(
+      question: "3. Metamorphic rocks are formed through:",
+      options: [
+        "Cooling lava",
+        "Heat and pressure",
+        "Layers of mud",
+        "Blowing wind"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Existing rocks 'morph' or change under extreme underground conditions.",
+    ),
+    QuizQuestion(
+      question: "4. Biological weathering is caused by:",
+      options: ["Acids in rain", "Hot sun", "Living things", "Running water"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "'Bio' means life, so this weathering involves plants or animals.",
+    ),
+    QuizQuestion(
+      question: "5. Which rock family is most likely to contain fossils?",
+      options: ["Igneous", "Sedimentary", "Metamorphic", "Basalt"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Fossils get trapped in the layers of mud and sand before they turn to rock.",
+    ),
+    QuizQuestion(
+      question: "6. What happens to rocks during physical weathering?",
+      options: [
+        "They change colour",
+        "They melt into lava",
+        "They break into bits",
+        "They turn into gas"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Physical weathering only changes the size and shape, not the chemistry.",
+    ),
+    QuizQuestion(
+      question: "7. The 'parent material' of soil is usually:",
+      options: ["Dead leaves", "Water", "Solid rock", "Plastic"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Most soil particles start as broken-down rock.",
+    ),
+    QuizQuestion(
+      question: "8. Quartzite is a metamorphic rock that comes from:",
+      options: ["Sandstone", "Granite", "Limestone", "Basalt"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "When sandstone is squeezed and heated, it turns into quartzite.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do rocks in the desert (or hot parts of Ghana) weather quickly?",
+      options: [
+        "Too much rain",
+        "Temperature changes",
+        "Not enough sun",
+        "Lots of snow"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The huge difference between day and night temperatures cracks the rocks.",
+    ),
+    QuizQuestion(
+      question: "10. Chemical weathering is most common in which climate?",
+      options: ["Cold and dry", "Hot and dry", "Warm and wet", "Frozen"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Heat and moisture speed up chemical reactions in rocks.",
     ),
   ],
 );
@@ -42429,6 +54056,2215 @@ final QuizModel Scijhs3s4ss5Lesson3QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "Car springs are made of spring steel, which is very tough and holds a sharp edge better than mild iron.",
+    ),
+  ],
+);
+
+final QuizModel Scijhs3s5ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which scientific method turns food waste into organic fertiliser?",
+      options: ["Incineration", "Landfilling", "Composting", "Recycling"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Composting specifically deals with organic matter like food scraps to create soil nutrients.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Materials like plastic and metal are best managed through which method?",
+      options: ["Recycling", "Composting", "Decomposition", "Mulching"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Recycling is the process used for inorganic materials like plastic and metal to manufacture new goods.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the name of the dark, nutrient-rich material produced by composting?",
+      options: ["Plastic resin", "Compost", "Landfill", "Ash"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "The final product of the composting process is called compost.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of these is a benefit of recycling for a country like Ghana?",
+      options: [
+        "It increases the amount of smoke",
+        "It fills up our gutters quickly",
+        "It conserves natural resources",
+        "It makes soil very hard to dig"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Recycling reduces the need for raw materials, thereby conserving our natural environment and resources.",
+    ),
+    QuizQuestion(
+      question: "5. Why can't we put a broken glass bowl into a compost pit?",
+      options: [
+        "It will melt in the sun",
+        "It does not decompose",
+        "It turns into fertiliser",
+        "It attracts too many bees"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Glass is inorganic and does not break down through the biological process of decomposition.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of the following is an example of 'organic waste' found in a Ghanaian home?",
+      options: [
+        "Old television set",
+        "Empty fante kenkey leaves",
+        "Discarded iron rods",
+        "Plastic fan blades"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Kenkey leaves are plant-based and therefore organic matter that can be composted.",
+    ),
+    QuizQuestion(
+      question: "7. What happens to plastic when it is recycled in a factory?",
+      options: [
+        "It is buried deep in the earth",
+        "It is changed into plant food",
+        "It is melted and reshaped",
+        "It is thrown into the ocean"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The scientific process of recycling involves breaking down or melting materials to form new products.",
+    ),
+    QuizQuestion(
+      question: "8. Composting is a natural process. This means it relies on:",
+      options: [
+        "Electricity and computers",
+        "Large petrol-powered engines",
+        "Living organisms and time",
+        "Chemicals from a laboratory"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Composting is biological; it depends on microorganisms like bacteria to break down matter over time.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following would NOT be a good practice for a sustainable environment?",
+      options: [
+        "Recycling old newspapers",
+        "Composting garden weeds",
+        "Throwing plastic in a river",
+        "Reusing glass jam jars"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Throwing plastic in water bodies causes pollution; recycling and composting are the correct scientific methods.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A person who collects recyclable materials like scrap metal to sell is helping to:",
+      options: [
+        "Start a bushfire in the city",
+        "Feed the local microorganisms",
+        "Supply raw materials for industry",
+        "Increase the cost of new items"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "By collecting scrap, they provide the necessary materials for factories to recycle and create new products.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which principle explains how bacteria turn yam peels into soil?",
+      options: [
+        "Thermal expansion",
+        "Physical melting",
+        "Magnetic attraction",
+        "Biological decomposition"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Decomposition is the biological process where organisms break down organic waste.",
+    ),
+    QuizQuestion(
+      question:
+          "2. At what temperature range does controlled incineration usually occur?",
+      options: [
+        "Extremely high temperatures",
+        "Below the freezing point",
+        "Normal room temperature",
+        "Slightly warm like sunlight"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Incineration requires very high heat, often over 800°C, to transform waste.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In the science of recycling, what happens to a metal can in a furnace?",
+      options: [
+        "It changes its physical state",
+        "It turns into organic compost",
+        "It disappears into the air",
+        "It becomes a living organism"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Metal is melted (changed from solid to liquid) so it can be reshaped.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is a major byproduct of the combustion process in waste management?",
+      options: [
+        "New plastic sachets",
+        "Fresh drinking water",
+        "Raw cocoa beans",
+        "Ash and heat energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Burning waste (combustion) results in ash and the release of thermal energy.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of these is NOT required for effective biological decomposition?",
+      options: [
+        "Presence of oxygen",
+        "Industrial cooling oil",
+        "Sufficient moisture",
+        "Tiny microorganisms"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Decomposition is a natural process; industrial oil is not a requirement for microbes to work.",
+    ),
+    QuizQuestion(
+      question:
+          "6. The reduction of waste volume through burning is a result of:",
+      options: [
+        "Physical reshaping only",
+        "Thermal transformation",
+        "Biological growth",
+        "Magnetic sorting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "High heat changes the chemical and physical makeup of waste, reducing its volume.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is recycling considered a 'physical' rather than 'biological' process?",
+      options: [
+        "Because it uses living worms",
+        "Because it involves reshaping",
+        "Because it happens in a forest",
+        "Because it creates new soil"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Recycling focuses on the physical state and form of materials like glass and plastic.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What role do fungi play in a Ghanaian school's compost pile?",
+      options: [
+        "They melt the plastic bottles",
+        "They freeze the waste solid",
+        "They break down organic matter",
+        "They create electricity"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fungi are microorganisms that help in the biological decomposition of organic waste.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When waste is turned into energy (Waste-to-Energy), which principle is used?",
+      options: ["Decomposition", "Combustion", "Magnetism", "Freezing"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Combustion releases heat which can be used to generate steam and electricity.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Scientific principles help us choose the right method because:",
+      options: [
+        "All waste reacts the same way",
+        "Different materials have different properties",
+        "Science is only for teachers",
+        "Waste never really changes"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Understanding how materials react to heat or microbes allows us to manage them correctly.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the scientific term for a study that measures the amount and type of waste produced?",
+      options: [
+        "Waste Audit",
+        "Waste Burning",
+        "Waste Burying",
+        "Waste Cleaning"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "A waste audit is the formal process of measuring and analyzing waste.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it important to weigh waste during an audit?",
+      options: [
+        "To see if the waste can float",
+        "To get accurate data for planning",
+        "To make the students work harder",
+        "To sell the waste for a high price"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Weighing provides the data needed to understand the scale of the waste problem.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In an audit, which category would 'old newspapers' fall under?",
+      options: ["Organic", "Plastic", "Metal", "Paper"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Newspapers are made of wood pulp and fall into the paper category.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A system where recycling bins are provided but never emptied is:",
+      options: ["Very effective", "Ineffective", "Scientific", "Efficient"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "If waste is not moved or processed, the system is failing its purpose.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of these is a sign of an 'effective' waste management method?",
+      options: [
+        "Reduced litter in the community",
+        "Increased number of flies",
+        "More waste in the local river",
+        "Strong smells around the school"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Success is measured by a cleaner, healthier environment.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Sorting waste correctly is essential for which scientific principle?",
+      options: [
+        "Thermal expansion",
+        "Effective recycling",
+        "Magnetic attraction",
+        "Cloud formation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Recycling requires pure materials; sorting ensures plastic isn't mixed with food.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A school audit finds mostly food waste. The most scientific recommendation is:",
+      options: [
+        "Building a new incinerator",
+        "Starting a compost pit",
+        "Buying more plastic bins",
+        "Digging a deeper landfill"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Composting is the best scientific method for organic food waste.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is a common 'social' challenge to waste management in Ghana?",
+      options: [
+        "Having too much electricity",
+        "Lack of public awareness on sorting",
+        "Having too many scientists",
+        "Too much rainfall in the south"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "If people don't know why or how to sort, the system becomes ineffective.",
+    ),
+    QuizQuestion(
+      question:
+          "9. The final stage of a waste audit is 'Analysis.' This involves:",
+      options: [
+        "Throwing the data away",
+        "Drawing conclusions from the facts",
+        "Mixing all the sorted waste back together",
+        "Leaving the classroom immediately"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Analysis means using the data to make smart decisions for the future.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool is best for measuring waste during a school audit?",
+      options: [
+        "A weighing scale",
+        "A thermometer",
+        "A magnifying glass",
+        "A plastic ruler"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "A scale is used to measure the mass (weight) of the different waste categories.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What happens to the soil when toxic chemicals from batteries leak into it?",
+      options: [
+        "It becomes more fertile",
+        "It becomes infertile",
+        "It turns into sand",
+        "It starts to grow plastic"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Toxic chemicals kill the soil's health, making it impossible for plants to thrive.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of these is a direct impact of plastic waste on marine life?",
+      options: [
+        "Fish grow much larger",
+        "Sea creatures choke on debris",
+        "The ocean water turns into juice",
+        "It helps coral reefs grow"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Animals often mistake plastic for food or get tangled in it, which can be fatal.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Open burning of rubbish contributes most to which of the following?",
+      options: [
+        "Soil leaching",
+        "Air pollution",
+        "Water purification",
+        "Habitat restoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Burning waste releases harmful smoke and gases directly into the atmosphere.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is 'Leaching' dangerous for people living near a dump site?",
+      options: [
+        "It makes the air smell like perfume",
+        "It can contaminate groundwater",
+        "It makes the ground very soft",
+        "It attracts beautiful butterflies"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Leached chemicals can reach the water underground that people use for wells.",
+    ),
+    QuizQuestion(
+      question: "5. A choked gutter in a market is a breeding ground for:",
+      options: [
+        "Healthy vegetables",
+        "Disease-carrying mosquitoes",
+        "Clean drinking water",
+        "Useful recycling robots"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Stagnant water caused by blocked drains is where mosquitoes lay their eggs.",
+    ),
+    QuizQuestion(
+      question: "6. Methane gas produced in landfills is a concern because it:",
+      options: [
+        "Helps people breathe better",
+        "Is a greenhouse gas",
+        "Makes the soil purple",
+        "Smells like fresh flowers"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Methane traps heat in the atmosphere, contributing to climate change.",
+    ),
+    QuizQuestion(
+      question: "7. What is 'Habitat Destruction' in the context of waste?",
+      options: [
+        "Building new schools",
+        "Clearing nature to dump trash",
+        "Planting trees in a park",
+        "Cleaning a beach"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When we use natural land for waste, we destroy the homes of plants and animals.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which respiratory condition can be worsened by the smoke from burning trash?",
+      options: ["Broken leg", "Asthma", "Poor eyesight", "Ear ache"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Smoke irritates the lungs and makes breathing difficult for people with asthma.",
+    ),
+    QuizQuestion(
+      question: "9. How does waste contribute to 'Climate Change'?",
+      options: [
+        "By making the ocean blue",
+        "By releasing greenhouse gases",
+        "By cooling down the sun",
+        "By stopping the wind"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Gases like methane from waste trap heat, leading to global temperature rises.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The 'black water' seen in polluted gutters is usually a sign of:",
+      options: [
+        "High mineral content",
+        "Severe water pollution",
+        "Good luck for the community",
+        "Underground oil reserves"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Discoloration and bad smells in water are clear indicators of heavy pollution from waste.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the 'Reduce' in the 3Rs specifically mean?",
+      options: [
+        "Buying more things than you need",
+        "Making less waste in the first place",
+        "Burning your waste in a big fire",
+        "Hiding waste under your bed"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Reducing means preventing waste before it is even created.",
+    ),
+    QuizQuestion(
+      question: "2. Which technology turns organic waste into gas for cooking?",
+      options: [
+        "Anaerobic Digestion",
+        "Incineration",
+        "Mechanical Sorting",
+        "Plastic Shredding"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Digesters use microbes to turn organic matter into biogas.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Sustainable development is most closely linked to which goal?",
+      options: [
+        "Destroying all factories in Ghana",
+        "Protecting the environment for the future",
+        "Making sure everyone has more rubbish",
+        "Increasing the number of floods"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Sustainability ensures we meet our needs without harming future generations.",
+    ),
+    QuizQuestion(
+      question: "4. Which of these is an example of 'Waste Minimisation'?",
+      options: [
+        "Using a refillable water bottle",
+        "Buying ten plastic sachets daily",
+        "Throwing paper into a river",
+        "Leaving lights on all day"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Using a refillable bottle reduces the total amount of plastic waste produced.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In 'Waste-to-Energy' plants, what is the 'waste' treated as?",
+      options: [
+        "A useless problem to hide",
+        "A valuable resource for power",
+        "A type of food for humans",
+        "A way to make the air dirty"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Innovation views waste as a source of energy rather than just trash.",
+    ),
+    QuizQuestion(
+      question: "6. What is the main benefit of 'Plasma Gasification'?",
+      options: [
+        "It creates more plastic bags",
+        "It makes the landfill grow faster",
+        "It turns waste into clean energy",
+        "It stops plants from growing"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "It uses high heat to convert waste into useful gas and energy.",
+    ),
+    QuizQuestion(
+      question: "7. Using an old glass jam jar to store pens is an example of:",
+      options: ["Reusing", "Reducing", "Recycling", "Rotting"],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Reusing is finding a new use for an item instead of throwing it away.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Biogas is a sustainable alternative to which traditional Ghanaian fuel?",
+      options: ["Sunlight", "Wind power", "Firewood or charcoal", "Sea water"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Biogas replaces fuels like wood, helping to prevent deforestation.",
+    ),
+    QuizQuestion(
+      question: "9. Which of the 3Rs requires a factory and heavy machinery?",
+      options: ["Reducing", "Reusing", "Recycling", "Thinking"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Recycling is an industrial process that breaks materials down to make new ones.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is innovation important for waste management in Ghana's growing cities?",
+      options: [
+        "Because we are running out of land for dumps",
+        "Because we want to have more smoke",
+        "Because trash is the only thing we have",
+        "Because we don't like clean streets"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Cities are crowded; innovative methods reduce the need for large, smelly dump sites.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of these is the most common type of waste produced in a Ghanaian school?",
+      options: [
+        "Industrial chemicals",
+        "Municipal/Domestic waste",
+        "Radioactive materials",
+        "Large tractor parts"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Schools primarily produce paper, food scraps, and plastic packaging.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Agbogbloshie is a site famous for handling which type of waste?",
+      options: [
+        "Electronic Waste",
+        "Medical Waste",
+        "Timber Waste",
+        "Fish Waste"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "It is one of the world's largest sites for processing old electronics.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is a 'Negative' practice regarding waste in our cities?",
+      options: [
+        "Planting trees in parks",
+        "Littering in gutters",
+        "Using reusable bags",
+        "Sorting plastic bottles"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Littering blocks drains and causes environmental pollution.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which waste type requires the most careful handling to prevent the spread of germs?",
+      options: [
+        "Municipal waste",
+        "Agricultural waste",
+        "Industrial waste",
+        "Medical waste"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Medical waste can carry diseases and must be treated scientifically.",
+    ),
+    QuizQuestion(
+      question: "5. In Ghana, 'Zoomlion' is an example of what?",
+      options: [
+        "A type of dangerous animal",
+        "A waste collection company",
+        "A new kind of plastic",
+        "A plant that grows in dumps"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "It is a major private company that partners with the government for waste management.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is an 'Open Dump' considered a poor management practice?",
+      options: [
+        "It makes the waste too clean",
+        "It causes air and water pollution",
+        "It turns into a beautiful forest",
+        "It provides free toys for children"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Open dumps are unregulated and release toxins into the surroundings.",
+    ),
+    QuizQuestion(
+      question: "7. Sawdust from a timber mill in Kumasi is classified as:",
+      options: [
+        "Medical waste",
+        "Electronic waste",
+        "Industrial waste",
+        "Domestic waste"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "It is a byproduct of an industrial activity (timber processing).",
+    ),
+    QuizQuestion(
+      question:
+          "8. What would be a great 'Opportunity for Improvement' in our schools?",
+      options: [
+        "Throwing all trash behind the fence",
+        "Stopping the use of all bins",
+        "Setting up separate bins for sorting",
+        "Burning waste every Friday"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sorting at the source is the best way to improve recycling rates.",
+    ),
+    QuizQuestion(
+      question: "9. Which of these is a 'Domestic' waste item?",
+      options: [
+        "Used syringe",
+        "Old car engine",
+        "Cassava peels",
+        "Factory smoke"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Cassava peels are a common organic waste produced in homes.",
+    ),
+    QuizQuestion(
+      question: "10. A major challenge for recycling in Ghana is:",
+      options: [
+        "People don't make any trash",
+        "High cost of sorting and transport",
+        "There is no sun to dry the waste",
+        "Plants eat all the plastic"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Transporting and sorting mixed waste is expensive and difficult for recycling companies.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What defines a non-communicable disease?",
+      options: [
+        "It spreads through the air",
+        "It is caused by a virus",
+        "It cannot be passed to others",
+        "It only affects young children"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "NCDs are not transmissible from person to person.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which organ is primarily forced to work harder due to hypertension?",
+      options: ["The lungs", "The stomach", "The heart", "The liver"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "High blood pressure forces the heart to pump against higher resistance.",
+    ),
+    QuizQuestion(
+      question: "3. What is the main characteristic of cancer cells?",
+      options: [
+        "They stop dividing entirely",
+        "They grow without control",
+        "They turn into liquid fat",
+        "They only live for one day"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Cancer is defined by the uncontrolled division and spread of abnormal cells.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A man feels very thirsty and is losing weight rapidly. What might he have?",
+      options: ["Hypertension", "Diabetes", "Ringworm", "Influenza"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Excessive thirst and weight loss are classic indicators of diabetes.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is a way to prevent many types of cancer?",
+      options: [
+        "Avoiding tobacco use",
+        "Using scented soaps",
+        "Eating more white sugar",
+        "Walking without shoes"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "Tobacco use is a leading preventable cause of many cancers.",
+    ),
+    QuizQuestion(
+      question: "6. Which food choice is best for preventing NCDs?",
+      options: [
+        "Heavily salted crackers",
+        "Sugary carbonated soda",
+        "Fresh garden eggs and fish",
+        "Large portions of fried yam"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Natural, plant-based foods and lean proteins are healthier choices.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What can cause a person to develop a non-communicable disease?",
+      options: [
+        "Shaking hands with a friend",
+        "Drinking from the same cup",
+        "A combination of genes and diet",
+        "Being sneezed on by a sibling"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "NCDs result from genetic, physiological, environmental, and behavioral factors.",
+    ),
+    QuizQuestion(
+      question: "8. Which symptom might a person with hypertension experience?",
+      options: [
+        "Severe headaches",
+        "Itchy scalp flakes",
+        "Pain during urination",
+        "Runny nose and chills"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Severe headaches and blurred vision are common signs of high blood pressure.",
+    ),
+    QuizQuestion(
+      question: "9. Why is exercise important in preventing NCDs?",
+      options: [
+        "It kills bacteria in the blood",
+        "It helps maintain a healthy weight",
+        "It stops the sun from burning skin",
+        "It prevents germs from entering"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Physical activity helps control weight and improves heart and metabolic health.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which type of cancer is commonly mentioned as a risk for men as they age?",
+      options: ["Breast cancer", "Prostate cancer", "Candidiasis", "Ringworm"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prostate cancer is one of the most common cancers affecting men.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the WHO definition of health?",
+      options: [
+        "Only having a strong physical body",
+        "Not needing to visit a doctor",
+        "Physical, mental, and social well-being",
+        "Being able to run very fast"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Health is holistic, involving the body, mind, and social life.",
+    ),
+    QuizQuestion(
+      question: "2. Which of the following describes a disease?",
+      options: [
+        "A state of complete happiness",
+        "A disorder interfering with body function",
+        "The ability to fight off all germs",
+        "A normal part of growing up"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Disease is a disruption of the normal, healthy state of an organism.",
+    ),
+    QuizQuestion(
+      question: "3. In the context of health, what does 'infirmity' mean?",
+      options: [
+        "A type of healthy vegetable",
+        "Physical or mental weakness",
+        "A community health center",
+        "A medicine used for fevers"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The WHO definition notes health is not merely the absence of disease or infirmity (weakness).",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which disease is most likely caused by poor ventilation in a home?",
+      options: ["Malaria", "Diabetes", "Hypertension", "Tuberculosis"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "TB is a respiratory disease that spreads through the air, especially in poorly ventilated spaces.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is handwashing with soap important for preventing environmental diseases?",
+      options: [
+        "It makes your skin look shiny",
+        "It removes pathogens from your hands",
+        "It helps you grow taller quickly",
+        "It stops mosquitoes from biting"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Soap breaks down the oils and germs (pathogens) on your skin so they can be washed away.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of these is a social factor that contributes to good health?",
+      options: [
+        "Having supportive friends and family",
+        "Taking vitamin tablets every day",
+        "Having a very large television",
+        "Owning a fast bicycle"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Social well-being is a core part of the WHO definition of health.",
+    ),
+    QuizQuestion(
+      question: "7. What is the primary cause of Cholera in a community?",
+      options: [
+        "Looking at an infected person",
+        "Contaminated food or water",
+        "Too much physical exercise",
+        "Genetic factors from parents"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Cholera is a water-borne disease caused by ingesting contaminated food or water.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which symptom is a common sign of many environmental diseases?",
+      options: [
+        "Growing more hair",
+        "Having a high fever",
+        "Improved eyesight",
+        "Feeling very hungry"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Fever is a general sign that the body is fighting off an infection.",
+    ),
+    QuizQuestion(
+      question: "9. What does a 'vector' do in the spread of disease?",
+      options: [
+        "It cures the disease instantly",
+        "It carries the germ to a person",
+        "It prevents germs from growing",
+        "It cleans the environment"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A vector, like a mosquito or housefly, carries pathogens from one place to another.",
+    ),
+    QuizQuestion(
+      question: "10. Proper waste disposal helps prevent disease because it...",
+      options: [
+        "Makes the town look beautiful",
+        "Reduces breeding sites for pests",
+        "Makes the soil much harder",
+        "Stops the wind from blowing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Rubbish attracts flies and rodents that can spread diseases to humans.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What environmental condition do fungi prefer for growth?",
+      options: [
+        "Dry and very cold",
+        "Warm and moist",
+        "Bright and windy",
+        "Dark and freezing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Fungi thrive in tropical, humid, and damp environments.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of these is a common symptom of Ringworm on the skin?",
+      options: [
+        "A circular, itchy rash",
+        "Green spots on the nose",
+        "Bleeding from the ears",
+        "Growing taller suddenly"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "The 'ring' shape is the classic identifying mark of this fungal infection.",
+    ),
+    QuizQuestion(
+      question: "3. How is Ringworm most commonly spread among students?",
+      options: [
+        "Through mosquito bites",
+        "Sharing combs or towels",
+        "Drinking untreated water",
+        "Eating unwashed fruits"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fungal infections spread through direct contact or sharing personal items.",
+    ),
+    QuizQuestion(
+      question: "4. What is 'Thrush' in the mouth caused by?",
+      options: [
+        "A type of bacteria",
+        "A virus like the flu",
+        "The Candida yeast",
+        "Eating too much salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Oral thrush is a common form of Candidiasis.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: ["The teeth", "The nails", "The eyes", "The heart"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Fungi can infect the keratin in nails, making them thick and brittle.",
+    ),
+    QuizQuestion(
+      question: "6. What is the best way to handle a shared locker room floor?",
+      options: [
+        "Walk very quickly",
+        "Wear rubber sandals",
+        "Use plenty of salt",
+        "Sit on the floor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Footwear protects your feet from fungi living on damp floors.",
+    ),
+    QuizQuestion(
+      question: "7. Why might Ringworm cause a patch of hair to fall out?",
+      options: [
+        "The fungus eats the hair",
+        "The fungus infects the scalp",
+        "It causes the head to cool",
+        "The person is too worried"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is NOT a fungal disease?",
+      options: ["Candidiasis", "Ringworm", "Hypertension", "Athlete's foot"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If you have a fungal infection, what should you do with your towel?",
+      options: [
+        "Give it to a sibling",
+        "Use it for a month",
+        "Wash it in hot water",
+        "Keep it in a bag"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Hot water and soap help kill fungal spores on fabric.",
+    ),
+    QuizQuestion(
+      question: "10. A person with a healthy immune system is...",
+      options: [
+        "Never able to get fungi",
+        "Less likely to get Candidiasis",
+        "Guaranteed to have Ringworm",
+        "Stronger than a lion"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A strong immune system keeps yeasts like Candida in check.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What environmental condition do fungi prefer for growth?",
+      options: [
+        "Dry and very cold",
+        "Warm and moist",
+        "Bright and windy",
+        "Dark and freezing"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Fungi thrive in tropical, humid, and damp environments.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of these is a common symptom of Ringworm on the skin?",
+      options: [
+        "A circular, itchy rash",
+        "Green spots on the nose",
+        "Bleeding from the ears",
+        "Growing taller suddenly"
+      ],
+      correctIndex: 0,
+      difficulty: "Low",
+      explanation:
+          "The 'ring' shape is the classic identifying mark of this fungal infection.",
+    ),
+    QuizQuestion(
+      question: "3. How is Ringworm most commonly spread among students?",
+      options: [
+        "Through mosquito bites",
+        "Sharing combs or towels",
+        "Drinking untreated water",
+        "Eating unwashed fruits"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fungal infections spread through direct contact or sharing personal items.",
+    ),
+    QuizQuestion(
+      question: "4. What is 'Thrush' in the mouth caused by?",
+      options: [
+        "A type of bacteria",
+        "A virus like the flu",
+        "The Candida yeast",
+        "Eating too much salt"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Oral thrush is a common form of Candidiasis.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which body part is affected by brittle, yellowing fungal infections?",
+      options: ["The teeth", "The nails", "The eyes", "The heart"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Fungi can infect the keratin in nails, making them thick and brittle.",
+    ),
+    QuizQuestion(
+      question: "6. What is the best way to handle a shared locker room floor?",
+      options: [
+        "Walk very quickly",
+        "Wear rubber sandals",
+        "Use plenty of salt",
+        "Sit on the floor"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Footwear protects your feet from fungi living on damp floors.",
+    ),
+    QuizQuestion(
+      question: "7. Why might Ringworm cause a patch of hair to fall out?",
+      options: [
+        "The fungus eats the hair",
+        "The fungus infects the scalp",
+        "It causes the head to cool",
+        "The person is too worried"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these is NOT a fungal disease?",
+      options: ["Candidiasis", "Ringworm", "Hypertension", "Athlete's foot"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If you have a fungal infection, what should you do with your towel?",
+      options: [
+        "Give it to a sibling",
+        "Use it for a month",
+        "Wash it in hot water",
+        "Keep it in a bag"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Hot water and soap help kill fungal spores on fabric.",
+    ),
+    QuizQuestion(
+      question: "10. A person with a healthy immune system is...",
+      options: [
+        "Never able to get fungi",
+        "Less likely to get Candidiasis",
+        "Guaranteed to have Ringworm",
+        "Stronger than a lion"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A strong immune system keeps yeasts like Candida in check.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which industry is responsible for making the 'Ghana Must Go' bags?",
+      options: [
+        "The Food Industry",
+        "The Metal Industry",
+        "The Plastic Industry",
+        "The Wood Industry"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "These bags are made from synthetic plastic fibres, making them products of the plastic industry.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these describes an indigenous industry?",
+      options: [
+        "Uses high-tech robots",
+        "Relies on local traditions",
+        "Produces only for export",
+        "Uses only imported tools"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Indigenous industries are based on local traditional knowledge, skills, and practices.",
+    ),
+    QuizQuestion(
+      question:
+          "3. If several companies all produce cement, they belong to the cement ________.",
+      options: ["Warehouse", "Factory", "Market", "Industry"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An industry is the collective group of businesses that produce the same type of product.",
+    ),
+    QuizQuestion(
+      question: "4. A major advantage of modern technology in industry is:",
+      options: [
+        "It is much slower",
+        "It uses less science",
+        "Higher production speed",
+        "It requires no energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Modern machines increase production speed and efficiency compared with manual methods.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of these is an example of an indigenous industry product?",
+      options: [
+        "A mobile phone",
+        "Hand-pressed gari",
+        "A brand new car",
+        "A laptop computer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hand-pressed gari is produced using traditional processing methods and is an indigenous product.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Modern industries usually require ________ than indigenous ones.",
+      options: [
+        "More advanced machines",
+        "More manual pounding",
+        "Less scientific study",
+        "Fewer electricity cables"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modern industries depend on advanced machinery and technology to increase productivity.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is blacksmithing considered an indigenous industry in Ghana?",
+      options: [
+        "It uses computers",
+        "It uses solar panels",
+        "It uses local methods",
+        "It produces aeroplanes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Blacksmithing uses traditional local techniques such as charcoal forges and hand hammering.",
+    ),
+    QuizQuestion(
+      question:
+          "8. In which industry would you find companies like FanMilk or Cowbell?",
+      options: [
+        "Construction industry",
+        "The Dairy industry",
+        "The Mining industry",
+        "The Timber industry"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "FanMilk and Cowbell manufacture milk-based products, making them part of the dairy industry.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Technology in industry refers to the ________ used to make products.",
+      options: [
+        "Tools and knowledge",
+        "Prices and labels",
+        "Names of the owners",
+        "Colour of the building"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Technology is the application of scientific knowledge together with tools and techniques to produce goods.",
+    ),
+    QuizQuestion(
+      question: "10. Which of these best describes a 'firm'?",
+      options: [
+        "A group of many countries",
+        "All industries in Ghana",
+        "A whole market building",
+        "An individual business"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A firm is a single business or company. Many firms together make up an industry.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which scientific process is common to both Kenkey and Gari production?",
+      options: [
+        "Distillation",
+        "Saponification",
+        "Fermentation",
+        "Condensation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Both Kenkey and Gari are produced using fermentation, where microorganisms break down starches to improve flavour, texture, and preservation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens to alcohol vapour when it passes through a cold pipe during distillation?",
+      options: [
+        "It turns into a solid",
+        "It turns into a liquid",
+        "It disappears completely",
+        "It catches on fire"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Cooling alcohol vapour causes condensation, changing it back into liquid alcohol.",
+    ),
+    QuizQuestion(
+      question:
+          "3. The chemical reaction that produces soap is known as ________.",
+      options: [
+        "Evaporation",
+        "Fermentation",
+        "Saponification",
+        "Distillation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Saponification is the reaction between fats or oils and an alkali to produce soap.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is palm nut pulp boiled when making traditional palm oil?",
+      options: [
+        "To make it taste sweet",
+        "To release the oil from the fibre",
+        "To turn the oil into a gas",
+        "To make the oil disappear"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Boiling softens the fruit and helps release the trapped palm oil from the fibres.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of these is a reason for fermenting cassava when making Gari?",
+      options: [
+        "To make the Gari very salty",
+        "To reduce the toxic cyanide levels",
+        "To make the cassava grow larger",
+        "To turn the cassava into metal"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fermentation reduces the natural cyanide compounds found in fresh cassava, making it safer to eat.",
+    ),
+    QuizQuestion(
+      question: "6. In distillation, which substance turns into vapour first?",
+      options: [
+        "The water in the mix",
+        "The alcohol in the mix",
+        "The wood in the fire",
+        "The metal in the pipe"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Alcohol has a lower boiling point than water, so it evaporates first during heating.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Traditional Fante Kenkey is wrapped in ________ before boiling.",
+      options: [
+        "Plastic sheets",
+        "Aluminium foil",
+        "Dried plantain leaves",
+        "Old newspapers"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dried plantain leaves are the traditional wrapping used when preparing Fante Kenkey.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the role of the heavy stones used in Gari production?",
+      options: [
+        "To add minerals to the food",
+        "To provide heat for cooking",
+        "To squeeze out excess liquid",
+        "To protect the Gari from birds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Heavy stones press the cassava mash, removing excess water before roasting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which indigenous industry relies most on the science of chemistry?",
+      options: [
+        "Fishing industry",
+        "Soap making industry",
+        "Wood carving industry",
+        "Basket weaving industry"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Soap making depends on the chemical process called saponification.",
+    ),
+    QuizQuestion(
+      question:
+          "10. After distillation, the liquid alcohol collected is called a ________.",
+      options: ["Ferment", "Distillate", "Residue", "Reactant"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The liquid collected after condensation during distillation is known as the distillate.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is released when fossil fuels are burned in a car engine?",
+      options: [
+        "Carbon dioxide",
+        "Fresh oxygen",
+        "Helpful steam",
+        "Solar energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Burning fossil fuels such as petrol releases carbon dioxide (CO₂), a greenhouse gas, into the atmosphere.",
+    ),
+    QuizQuestion(
+      question: "2. Which of these is a natural factor influencing climate?",
+      options: [
+        "Solar variations",
+        "Road building",
+        "Bush burning",
+        "Oil drilling"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Changes in the Sun's energy output (solar variations) are natural factors that influence Earth's climate.",
+    ),
+    QuizQuestion(
+      question: "3. In a Green Economy, what should we do with our resources?",
+      options: [
+        "Throw them away",
+        "Use them poorly",
+        "Burn them up",
+        "Use efficiently"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A Green Economy promotes using resources efficiently to reduce waste and protect the environment.",
+    ),
+    QuizQuestion(
+      question: "4. How do volcanic eruptions affect the Earth's temperature?",
+      options: [
+        "They always warm it",
+        "They can cool it",
+        "No effect at all",
+        "They dry the sea"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Large volcanic eruptions release ash and particles that can block sunlight and temporarily cool the Earth's surface.",
+    ),
+    QuizQuestion(
+      question: "5. Which human activity is a major cause of climate change?",
+      options: [
+        "Growing flowers",
+        "Walking to school",
+        "Planting trees",
+        "Deforestation"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Deforestation reduces the number of trees that absorb carbon dioxide, contributing to climate change.",
+    ),
+    QuizQuestion(
+      question: "6. A Green Economy focuses on being socially...",
+      options: ["Inclusive", "Expensive", "Exclusive", "Reclusive"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A Green Economy aims to benefit everyone by promoting social inclusion alongside environmental protection.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What do we call the movement of heat around Earth by the sea?",
+      options: [
+        "Air pressure",
+        "Wind speeds",
+        "Ocean currents",
+        "Solar flares"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Ocean currents move warm and cold water around the world, helping redistribute heat.",
+    ),
+    QuizQuestion(
+      question: "8. Which of these helps to reduce the greenhouse effect?",
+      options: [
+        "Burning rubbish",
+        "Using solar power",
+        "Driving big cars",
+        "Cutting bushes"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Solar power generates electricity without burning fossil fuels, reducing greenhouse gas emissions.",
+    ),
+    QuizQuestion(
+      question: "9. What is a 'low carbon' activity?",
+      options: [
+        "Using a generator",
+        "Riding a bicycle",
+        "Burning old tyres",
+        "Flying airplanes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Riding a bicycle produces little or no carbon emissions because it does not require fuel.",
+    ),
+    QuizQuestion(
+      question: "10. The Green Economy aims to reduce environmental...",
+      options: ["Profits", "Health", "Growth", "Risks"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A Green Economy seeks to reduce environmental risks while promoting sustainable development.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which international group organizes global climate change meetings?",
+      options: ["FIFA", "ECOWAS", "United Nations", "Ghana Education"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The United Nations (through the UNFCCC) organizes major international climate change meetings and agreements.",
+    ),
+    QuizQuestion(
+      question:
+          "2. The Kaleo Power Plant in Ghana produces electricity using...",
+      options: ["Burning coal", "Falling water", "Solar energy", "Diesel fuel"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Kaleo Solar Power Plant generates electricity from solar energy.",
+    ),
+    QuizQuestion(
+      question: "3. What is the goal of 'Green Ghana Day'?",
+      options: [
+        "To build houses",
+        "To plant trees",
+        "To pave roads",
+        "To sell timber"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Green Ghana Day encourages tree planting to increase forest cover and absorb carbon dioxide.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which country was mentioned as a world leader in recycling?",
+      options: ["Nigeria", "Norway", "Togo", "Brazil"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Norway is recognized for having one of the world's most advanced recycling systems.",
+    ),
+    QuizQuestion(
+      question: "5. What does 'Net Zero' mean for a country?",
+      options: [
+        "Zero trees left",
+        "No money spent",
+        "No extra carbon",
+        "Zero people"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Net Zero means balancing the amount of carbon released with the amount removed or absorbed.",
+    ),
+    QuizQuestion(
+      question: "6. Why is electric transport better for the environment?",
+      options: [
+        "It is faster",
+        "It costs more",
+        "It uses no fuel",
+        "No smoke released"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Electric vehicles produce no exhaust emissions while driving, reducing air pollution.",
+    ),
+    QuizQuestion(
+      question: "7. A 'carbon tax' is a policy used to...",
+      options: [
+        "Reward polluters",
+        "Fine polluters",
+        "Stop all taxes",
+        "Buy more coal"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A carbon tax charges companies or individuals for the greenhouse gases they emit.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of these is an 'international initiative' mentioned in the text?",
+      options: [
+        "Kejetia Market",
+        "Kyoto Protocol",
+        "School feeding",
+        "Free SHS"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Kyoto Protocol was one of the first major international agreements aimed at reducing greenhouse gas emissions.",
+    ),
+    QuizQuestion(
+      question: "9. What is a major challenge for climate action in Ghana?",
+      options: [
+        "Too much snow",
+        "Protecting forests",
+        "Lack of sunshine",
+        "No Atlantic Ocean"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Protecting forests is essential because deforestation is a major contributor to climate change in Ghana.",
+    ),
+    QuizQuestion(
+      question:
+          "10. The practice of 'Reducing, Reusing, and Recycling' is known as...",
+      options: [
+        "Resource efficiency",
+        "Carbon burning",
+        "Forest clearing",
+        "Ocean cooling"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Resource efficiency means using materials wisely and minimizing waste through reducing, reusing, and recycling.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What part of the cassava plant is typically planted to grow a new crop?",
+      options: ["The flower", "The fruit", "The stem", "The seed"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Cassava is propagated through stem cuttings rather than seeds.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Farmers use dried grass and leaves as 'hay' primarily for what purpose?",
+      options: [
+        "Lighting fires",
+        "Animal feed",
+        "Making clothes",
+        "Paving roads"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Hay is dried plant material that is used as fodder to feed livestock.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which process describes using plant roots to add nutrients back into the earth?",
+      options: [
+        "Soil improvement",
+        "Crop harvesting",
+        "Weed pulling",
+        "Water drainage"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Leguminous plants improve soil fertility through nitrogen-fixing roots.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why might a farmer place dried maize husks on the floor of a chicken coop?",
+      options: [
+        "To grow more maize",
+        "To attract pests",
+        "To provide litter",
+        "To cool the air"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Plant materials such as dried maize husks are commonly used as litter or bedding for farm animals.",
+    ),
+    QuizQuestion(
+      question:
+          "5. The handles of many traditional Ghanaian hoes are made from:",
+      options: [
+        "Recycled plastic",
+        "Animal bones",
+        "Hardened clay",
+        "Woody stems"
+      ],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "Woody stems from trees provide the strong wood needed for tool handles.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Certain plant roots are used in agriculture to keep insects away. This is known as:",
+      options: [
+        "Soil fertility",
+        "Pest control",
+        "Stem cutting",
+        "Animal housing"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Some plant roots act as natural pest-control agents by repelling insects.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of these crops is most likely to help improve nitrogen levels in the soil?",
+      options: ["Cowpea", "Pineapple", "Coconut", "Cassava"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cowpea is a legume that fixes nitrogen, helping improve soil fertility.",
+    ),
+    QuizQuestion(
+      question: "8. Vegetative propagation refers to growing plants from:",
+      options: ["Only seeds", "Animal waste", "Plant parts", "Pure water"],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+          "Vegetative propagation uses plant parts such as stems, roots, or leaves instead of seeds.",
+    ),
+    QuizQuestion(
+      question: "9. Fresh cassava leaves are often used on a farm to:",
+      options: [
+        "Make tractor oil",
+        "Feed livestock",
+        "Build fences",
+        "Paint the barn"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fresh cassava leaves can be used as nutritious feed for livestock such as goats.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which plant part is essential for making a 'pickaxe' handle?",
+      options: ["The leaf", "The root", "The flower", "The stem"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation:
+          "The stem (trunk) of a tree provides the timber used to make strong tool handles.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which plant part is used to make a wreath for a funeral ceremony?",
+      options: [
+        "Roots and seeds",
+        "Leaves and flowers",
+        "Stems and bark only",
+        "Fruit and vegetables"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Wreaths are decorative arrangements commonly made from leaves and flowers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Rattan is a popular material for furniture because its stem is:",
+      options: [
+        "Very brittle",
+        "Flexible and strong",
+        "Sweet to the taste",
+        "Always bright blue"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rattan stems are flexible and strong, making them ideal for weaving furniture.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Traditional 'bitters' used for health are often extracted from which part?",
+      options: ["The flower", "The fruit", "The root", "The leaf"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Roots are a primary source of medicinal compounds in traditional herbal medicine.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the main reason for using Mahogany or Odum wood in carpentry?",
+      options: [
+        "It is very light like paper",
+        "It provides strong timber",
+        "It turns into water",
+        "It grows into a chair"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Mahogany and Odum produce strong, durable timber suitable for carpentry.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is a non-agricultural use of a plant leaf?",
+      options: [
+        "Feeding it to a goat",
+        "Wrapping food like Kenkey",
+        "Planting it to grow corn",
+        "Using it as cow bedding"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using leaves as food wrappers is a household or industrial use rather than an agricultural one.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Natural dyes for traditional cloths can be obtained from plant:",
+      options: ["Roots", "Seeds", "Air", "Soil"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation:
+          "Pigments extracted from certain plant roots are traditionally used to dye fabrics.",
+    ),
+    QuizQuestion(
+      question: "7. How is bamboo used in the construction of a new house?",
+      options: [
+        "For making glass windows",
+        "As scaffolding or fencing",
+        "To create electricity",
+        "As a source of water"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Strong bamboo stems are commonly used for scaffolding and fencing during construction.",
+    ),
+    QuizQuestion(
+      question:
+          "8. In a science class, using a leaf to study its veins is an example of:",
+      options: [
+        "An agricultural purpose",
+        "A ritual purpose",
+        "An educational purpose",
+        "A medicinal purpose"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Studying plant parts in class is an educational activity.",
+    ),
+    QuizQuestion(
+      question: "9. Mining companies use strong wooden stems to:",
+      options: [
+        "Find gold faster",
+        "Support underground tunnels",
+        "Feed the miners",
+        "Clean the air"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Timber stems are used as structural supports in underground mines.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A bouquet of flowers is most likely to be seen at which event?",
+      options: [
+        "A football match",
+        "A planting season",
+        "A wedding ceremony",
+        "A rainy day"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Flowers are commonly used as decorations and gifts during wedding ceremonies.",
+    ),
+  ],
+);
+final QuizModel Scijhs3s5ss5Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/7. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which plant part is modified to create a 'mini-sett' for planting?",
+      options: ["The root", "The flower", "The stem", "The leaf"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Stems of crops like cassava are cut into mini-setts for propagation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. The process of drying grass in the sun to create animal feed is called:",
+      options: ["Harvesting", "Curing", "Weeding", "Planting"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Curing is the technical term for drying hay to preserve it for livestock feed.",
+    ),
+    QuizQuestion(
+      question: "3. Why is a sharp cutlass used when preparing stem cuttings?",
+      options: [
+        "To make the stem look pretty",
+        "To ensure a clean, healthy cut",
+        "To kill the plant quickly",
+        "To make the stem grow faster"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Clean cuts reduce damage and help prevent disease in the planting material.",
+    ),
+    QuizQuestion(
+      question:
+          "4. When making a flower bouquet, which part is used to add greenery and volume?",
+      options: ["The seeds", "The roots", "The leaves", "The fruit"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+          "Leaves (foliage) are used to fill out and support floral arrangements.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens to a leaf when it is 'wilted' over a fire for food packaging?",
+      options: [
+        "It becomes very brittle",
+        "It turns into a liquid",
+        "It becomes flexible",
+        "It disappears completely"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Heat softens the leaf, making it pliable for wrapping food.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which plant part would you use to create a natural dye for a craft project?",
+      options: ["The stem", "The root", "The air", "The stone"],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Roots of certain plants contain pigments traditionally used as natural dyes.",
+    ),
+    QuizQuestion(
+      question: "7. Sanding a wooden tool handle is important because it:",
+      options: [
+        "Makes the tool much heavier",
+        "Protects the user's hands",
+        "Makes the wood grow back",
+        "Keeps the wood very wet"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "Sanding removes splinters and creates a smooth, safe grip.",
+    ),
+    QuizQuestion(
+      question:
+          "8. In basket weaving, what is the purpose of the 'criss-cross' pattern?",
+      options: [
+        "To make it fall apart",
+        "To provide structural strength",
+        "To make the basket invisible",
+        "To trap water inside"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+          "Interlocking stems create a strong, durable woven structure.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A wreath for a ceremony is usually built upon a circular frame made from:",
+      options: [
+        "Heavy iron bars",
+        "Flexible plant stems",
+        "Crumpled paper",
+        "Solid blocks of ice"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Flexible stems or vines are commonly used as the base of traditional wreaths.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following is an agricultural material created from plants?",
+      options: [
+        "A flower bouquet",
+        "A bundle of hay",
+        "A woven rattan chair",
+        "A traditional medicine"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+          "Hay is dried plant material prepared specifically as livestock feed.",
     ),
   ],
 );
