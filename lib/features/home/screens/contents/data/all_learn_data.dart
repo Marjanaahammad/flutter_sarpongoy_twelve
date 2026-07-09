@@ -3593,7 +3593,7 @@ final LearnModel SSjhs2s5ss1Lesson1LearnData = LearnModel(parts: [
 final LearnModel SSjhs2s5ss2Lesson1LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS2 L1/TEACH (Part A).jpg',
-    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/3. Teach - Part A.m4a',
+    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/3. Teach - Part A(Update).m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS2 L1/TEACH (Part B).jpg',
@@ -3601,7 +3601,7 @@ final LearnModel SSjhs2s5ss2Lesson1LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S5 SS2 L1/TEACH (Part C) .jpg',
-    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS2 S5 SS2 L1/5. Teach - Part C(updated).m4a',
   )
 ]);
 
