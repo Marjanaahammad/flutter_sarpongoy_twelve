@@ -2342,7 +2342,7 @@ final LearnModel RMEs4ss1Lesson3LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/RME/s4_ss1_l3/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/rme_jhs1_Strand1_L3_partC.jpg',
+    imagePath: 'assets/images/RME/RME_JHS1_S4_SS1_L3/partC.jpg',
     audioPath: 'assets/audio/RME/s4_ss1_l3/5. Teach - Part C(Updated).m4a',
   ),
 ]);
@@ -3317,12 +3317,12 @@ final LearnModel SSjhs1s5ss2Lesson1LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/3. Teach - Part A.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/rme_jhs1_strand1_L3_partB.jpg',
-    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/4. Teach - Part B(updated).m4a',
+    imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/partB.jpg',
+    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/4. Teach - Part B.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/rme_jhs1_Strand1_L3_partC.jpg',
-    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/5. Teach - Part C(updated).m4a',
+    imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/partC.jpg',
+    audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/5. Teach - Part C.m4a',
   )
 ]);
 
@@ -3917,7 +3917,7 @@ final LearnModel SSjhs3s5ss1Lesson1LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/partB.jpg',
-    audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/4. Teach - Part B(updated).m4a',
+    audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS3 S5 SS1 L1/4. Teach - Part B.m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S5 SS1 L1/partC.jpg',
@@ -3990,7 +3990,7 @@ final LearnModel SSjhs3s6ss1Lesson3LearnData = LearnModel(parts: [
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L3/partC.jpg',
-    audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S6 SS1 L3/5. Teach - Part C.m4a',
+    audioPath: 'assets/audio/social_studies/3. SOCIAL STUDIES JHS3 S6 SS1 L3/5. Teach - Part C .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS3 S6 SS1 L3/partD.jpg',

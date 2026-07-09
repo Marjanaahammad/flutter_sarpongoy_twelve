@@ -1253,7 +1253,7 @@ final GetReadyModel RMEJHS2s6ss1Lesson4GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/RME/jhs2_s6_ss1_l4/chapter_overview.jpg',
   overviewAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/1. Chapter 1(updated).m4a',
   hookImagePath: 'assets/images/RME/jhs2_s6_ss1_l4/hook.jpg',
-  hookAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/2. Hook(Update).m4a',
+  hookAudioPath: 'assets/audio/RME/4. RME JHS2 S6 SS1 L4/2. Hook(Update) .m4a',
 );
 
 final GetReadyModel RMEJHS2s6ss2Lesson1GetReadyData = GetReadyModel(
