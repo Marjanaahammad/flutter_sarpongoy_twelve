@@ -10128,7 +10128,7 @@ final PracticeModel Scijhs3s5ss2Lesson2PracticeData = PracticeModel(
   ],
 );
 final PracticeModel Scijhs3s5ss2Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/6. Guided Practice(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1.Question: Esi noticed a round, itchy red patch on her arm after sharing a sweater with a friend. What is likely happening?",

@@ -4766,7 +4766,8 @@ final QuizModel s4ss2Lesson5QuizData = QuizModel(
       ),
     ]);
 final QuizModel s4ss2Lesson6QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
         question: "1. What is the main goal of a poster or notice?",
@@ -4779,12 +4780,11 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Posters and notices are designed to communicate important information quickly to the public.",
+            "Posters and notices are designed to communicate important information quickly to the public.",
       ),
-
       QuizQuestion(
         question:
-        "2. Which of these is a detail that must be included in every event notice?",
+            "2. Which of these is a detail that must be included in every event notice?",
         options: [
           "The colour of the school gate.",
           "The venue (location).",
@@ -4793,13 +4793,11 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "People need to know where the event will take place.",
+        explanation: "People need to know where the event will take place.",
       ),
-
       QuizQuestion(
         question:
-        "3. What should you do with the most important word in your notice?",
+            "3. What should you do with the most important word in your notice?",
         options: [
           "Hide it at the bottom.",
           "Write it in very small letters.",
@@ -4809,12 +4807,10 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "Large, bold text helps readers notice the most important information immediately.",
+            "Large, bold text helps readers notice the most important information immediately.",
       ),
-
       QuizQuestion(
-        question:
-        "4. A notice about a \"School Excursion\" should include:",
+        question: "4. A notice about a \"School Excursion\" should include:",
         options: [
           "The destination, cost, and departure time.",
           "A drawing of every student in the class.",
@@ -4824,9 +4820,8 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "A school excursion notice should give the practical details needed by students and parents.",
+            "A school excursion notice should give the practical details needed by students and parents.",
       ),
-
       QuizQuestion(
         question: "5. Why is \"Less is More\" a good rule for posters?",
         options: [
@@ -4838,9 +4833,8 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Keeping posters brief and direct makes the message easier to understand.",
+            "Keeping posters brief and direct makes the message easier to understand.",
       ),
-
       QuizQuestion(
         question: "6. Which of the following is a contact detail?",
         options: [
@@ -4852,12 +4846,11 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Contact details tell readers how to get more information or assistance.",
+            "Contact details tell readers how to get more information or assistance.",
       ),
-
       QuizQuestion(
         question:
-        "7. What is the best way to format a list of items to bring on a trip?",
+            "7. What is the best way to format a list of items to bring on a trip?",
         options: [
           "A long, complicated sentence.",
           "A numbered or bulleted list.",
@@ -4867,12 +4860,11 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Bulleted or numbered lists make information easier to read and check.",
+            "Bulleted or numbered lists make information easier to read and check.",
       ),
-
       QuizQuestion(
         question:
-        "8. When designing for ICT media (such as a digital screen), you should use:",
+            "8. When designing for ICT media (such as a digital screen), you should use:",
         options: [
           "High-contrast colours.",
           "Very tiny fonts.",
@@ -4882,12 +4874,10 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Hard",
         explanation:
-        "High-contrast colours improve readability on digital displays.",
+            "High-contrast colours improve readability on digital displays.",
       ),
-
       QuizQuestion(
-        question:
-        "9. Which heading is most likely for a community notice?",
+        question: "9. Which heading is most likely for a community notice?",
         options: [
           "WASTE COLLECTION SCHEDULE",
           "MY FAVOURITE HOBBY",
@@ -4897,12 +4887,11 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Hard",
         explanation:
-        "Community notices usually provide information about public services or community events.",
+            "Community notices usually provide information about public services or community events.",
       ),
-
       QuizQuestion(
         question:
-        "10. If a notice says \"Urgent,\" where should that word be placed?",
+            "10. If a notice says \"Urgent,\" where should that word be placed?",
         options: [
           "In a tiny footnote at the bottom.",
           "On the back of the paper.",
@@ -4912,11 +4901,12 @@ final QuizModel s4ss2Lesson6QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Hard",
         explanation:
-        "Urgent information should appear prominently at the top so readers notice it immediately.",
+            "Urgent information should appear prominently at the top so readers notice it immediately.",
       ),
     ]);
 final QuizModel s4ss2Lesson7QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
         question: "1. What is the first step in writing an article?",
@@ -4929,12 +4919,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Planning by identifying the topic, purpose, and audience should happen before writing.",
+            "Planning by identifying the topic, purpose, and audience should happen before writing.",
       ),
-
       QuizQuestion(
         question:
-        "2. Which part of an article should 'hook' the reader's attention?",
+            "2. Which part of an article should 'hook' the reader's attention?",
         options: [
           "The introduction",
           "The by-line",
@@ -4944,12 +4933,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "A strong introduction captures the reader's interest and encourages them to continue reading.",
+            "A strong introduction captures the reader's interest and encourages them to continue reading.",
       ),
-
       QuizQuestion(
         question:
-        "3. If you write a rap poem about an environmental issue, it is still considered:",
+            "3. If you write a rap poem about an environmental issue, it is still considered:",
         options: [
           "A formal letter.",
           "An article or media text for publication.",
@@ -4959,9 +4947,8 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Articles and media texts can use creative formats to communicate with different audiences.",
+            "Articles and media texts can use creative formats to communicate with different audiences.",
       ),
-
       QuizQuestion(
         question: "4. Why should you use headings in a long article?",
         options: [
@@ -4973,9 +4960,8 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Headings organise information and make articles easier to read and understand.",
+            "Headings organise information and make articles easier to read and understand.",
       ),
-
       QuizQuestion(
         question: "5. Which of these is a print resource for research?",
         options: [
@@ -4987,12 +4973,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Textbooks and encyclopaedias are printed reference materials used for research.",
+            "Textbooks and encyclopaedias are printed reference materials used for research.",
       ),
-
       QuizQuestion(
         question:
-        "6. What does it mean to 'generate ideas about challenging topics'?",
+            "6. What does it mean to 'generate ideas about challenging topics'?",
         options: [
           "To only write about things that are easy.",
           "To think deeply and find facts about complex issues like climate change.",
@@ -5002,9 +4987,8 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "Good article writing involves researching and thinking carefully about important or difficult topics.",
+            "Good article writing involves researching and thinking carefully about important or difficult topics.",
       ),
-
       QuizQuestion(
         question: "7. A zine is a type of:",
         options: [
@@ -5016,12 +5000,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "A zine is a small, independently produced publication often used to share ideas or articles.",
+            "A zine is a small, independently produced publication often used to share ideas or articles.",
       ),
-
       QuizQuestion(
         question:
-        "8. Which sentence is most appropriate for a report on a community meeting?",
+            "8. Which sentence is most appropriate for a report on a community meeting?",
         options: [
           "Everyone was shouting and it was a mess.",
           "The meeting commenced at 10 AM with a discussion on sanitation.",
@@ -5031,12 +5014,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "Reports should be factual, objective, and use formal language.",
+            "Reports should be factual, objective, and use formal language.",
       ),
-
       QuizQuestion(
         question:
-        "9. When classifying ideas for an article on 'Healthy Living,' which fact does NOT fit?",
+            "9. When classifying ideas for an article on 'Healthy Living,' which fact does NOT fit?",
         options: [
           "Eating fruits daily boosts the immune system.",
           "Regular exercise strengthens the heart.",
@@ -5046,12 +5028,11 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "Ghana's independence is a historical fact and is unrelated to healthy living.",
+            "Ghana's independence is a historical fact and is unrelated to healthy living.",
       ),
-
       QuizQuestion(
         question:
-        "10. What is the ultimate goal of publishing an article on a 'given issue'?",
+            "10. What is the ultimate goal of publishing an article on a 'given issue'?",
         options: [
           "To get a high grade only.",
           "To share information and influence the thoughts or actions of others.",
@@ -5061,11 +5042,12 @@ final QuizModel s4ss2Lesson7QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Articles are published to inform, educate, or persuade readers and make a positive impact.",
+            "Articles are published to inform, educate, or persuade readers and make a positive impact.",
       ),
     ]);
 final QuizModel s4ss2Lesson8QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
         question: "1. What is an interlocutor?",
@@ -5078,12 +5060,11 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "An interlocutor is a person who participates in a conversation or dialogue.",
+            "An interlocutor is a person who participates in a conversation or dialogue.",
       ),
-
       QuizQuestion(
         question:
-        "2. Which of these is a good strategy for writing impactful dialogue?",
+            "2. Which of these is a good strategy for writing impactful dialogue?",
         options: [
           "Including every 'Hello' and 'Goodbye.'",
           "Writing ten sentences for every one answer.",
@@ -5093,12 +5074,11 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Strong dialogue focuses on important exchanges instead of unnecessary greetings.",
+            "Strong dialogue focuses on important exchanges instead of unnecessary greetings.",
       ),
-
       QuizQuestion(
         question:
-        "3. What is the correct way to start the first word inside speech marks?",
+            "3. What is the correct way to start the first word inside speech marks?",
         options: [
           "With a capital letter.",
           "With a small letter.",
@@ -5108,12 +5088,11 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "A direct speech sentence normally begins with a capital letter inside the quotation marks.",
+            "A direct speech sentence normally begins with a capital letter inside the quotation marks.",
       ),
-
       QuizQuestion(
         question:
-        "4. Which Ghanaian expression would best fit a character who is surprised?",
+            "4. Which Ghanaian expression would best fit a character who is surprised?",
         options: [
           "\"I am coming.\"",
           "\"Kai!\" or \"Ei!\"",
@@ -5123,12 +5102,11 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "\"Kai!\" and \"Ei!\" are common Ghanaian interjections expressing surprise.",
+            "\"Kai!\" and \"Ei!\" are common Ghanaian interjections expressing surprise.",
       ),
-
       QuizQuestion(
         question:
-        "5. In the sentence: Abena asked, \"Where is my pen?\" — why is there a question mark?",
+            "5. In the sentence: Abena asked, \"Where is my pen?\" — why is there a question mark?",
         options: [
           "Because the whole story is a mystery.",
           "Because the words inside the speech marks are a question.",
@@ -5138,12 +5116,10 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The punctuation matches the spoken words, which form a question.",
+            "The punctuation matches the spoken words, which form a question.",
       ),
-
       QuizQuestion(
-        question:
-        "6. What happens if you give every character the same voice?",
+        question: "6. What happens if you give every character the same voice?",
         options: [
           "The characters become flat and hard to tell apart.",
           "The story becomes very easy to read.",
@@ -5153,9 +5129,8 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "Each character should have a unique way of speaking to make the dialogue realistic and interesting.",
+            "Each character should have a unique way of speaking to make the dialogue realistic and interesting.",
       ),
-
       QuizQuestion(
         question: "7. Which of these is a speech tag?",
         options: [
@@ -5167,12 +5142,10 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A speech tag tells the reader who is speaking and sometimes how the words are spoken.",
+            "A speech tag tells the reader who is speaking and sometimes how the words are spoken.",
       ),
-
       QuizQuestion(
-        question:
-        "8. When writing dialogue, using short sentences helps to:",
+        question: "8. When writing dialogue, using short sentences helps to:",
         options: [
           "Make the characters sound like they are in a hurry.",
           "Make the page look neat.",
@@ -5182,12 +5155,11 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Hard",
         explanation:
-        "Real conversations are usually made up of brief, natural exchanges.",
+            "Real conversations are usually made up of brief, natural exchanges.",
       ),
-
       QuizQuestion(
         question:
-        "9. If a character is a market woman, her dialogue might include:",
+            "9. If a character is a market woman, her dialogue might include:",
         options: [
           "Technical scientific terms.",
           "Persuasive language about prices and fresh goods.",
@@ -5197,9 +5169,8 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "A character's speech should reflect their occupation, environment, and daily experiences.",
+            "A character's speech should reflect their occupation, environment, and daily experiences.",
       ),
-
       QuizQuestion(
         question: "10. Why should you avoid long dialogue paragraphs?",
         options: [
@@ -5211,15 +5182,16 @@ final QuizModel s4ss2Lesson8QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "Dialogue should feel like a natural back-and-forth conversation rather than one long speech.",
+            "Dialogue should feel like a natural back-and-forth conversation rather than one long speech.",
       ),
     ]);
 final QuizModel s4ss3Lesson1QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
         question:
-        "1. What is the first step when identifying information from a non-text source?",
+            "1. What is the first step when identifying information from a non-text source?",
         options: [
           "Writing a summary",
           "Identifying source information like title and date",
@@ -5229,11 +5201,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Low",
         explanation:
-        "The first step is to identify the source by checking details such as the title and date.",
+            "The first step is to identify the source by checking details such as the title and date.",
       ),
-
       QuizQuestion(
-        question: "2. Which of the following is an example of source information?",
+        question:
+            "2. Which of the following is an example of source information?",
         options: [
           "A drawing of a cocoa pod",
           "A list of student names",
@@ -5243,9 +5215,8 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The title identifies the source and helps readers know what the information is about.",
+            "The title identifies the source and helps readers know what the information is about.",
       ),
-
       QuizQuestion(
         question: "3. In note-taking, what are mnemonics used for?",
         options: [
@@ -5257,12 +5228,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Mnemonics are memory aids that help you remember important information more easily.",
+            "Mnemonics are memory aids that help you remember important information more easily.",
       ),
-
       QuizQuestion(
         question:
-        "4. When you organise ideas from a table, what are you doing?",
+            "4. When you organise ideas from a table, what are you doing?",
         options: [
           "Deleting all the numbers",
           "Making connections and writing clear sentences",
@@ -5272,12 +5242,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Low",
         explanation:
-        "Organising ideas means connecting information and presenting it in a clear way.",
+            "Organising ideas means connecting information and presenting it in a clear way.",
       ),
-
       QuizQuestion(
         question:
-        "5. Which tool is best for showing a step-by-step process found in data?",
+            "5. Which tool is best for showing a step-by-step process found in data?",
         options: [
           "A list of random names",
           "A flow chart",
@@ -5287,12 +5256,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Flow charts clearly show the sequence of steps in a process.",
+            "Flow charts clearly show the sequence of steps in a process.",
       ),
-
       QuizQuestion(
         question:
-        "6. What should you do if you find a point in a table that you don't fully understand?",
+            "6. What should you do if you find a point in a table that you don't fully understand?",
         options: [
           "Ignore it completely",
           "Record it as a follow-up idea to research later",
@@ -5302,12 +5270,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Good note-taking includes recording questions or ideas that need further research.",
+            "Good note-taking includes recording questions or ideas that need further research.",
       ),
-
       QuizQuestion(
         question:
-        "7. Kofi is presenting a bar chart to his class. What should he do to help them understand it?",
+            "7. Kofi is presenting a bar chart to his class. What should he do to help them understand it?",
         options: [
           "Describe the graphical data in words",
           "Stand silently and point at the screen",
@@ -5317,12 +5284,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Low",
         explanation:
-        "Explaining the graph in words helps the audience understand the information.",
+            "Explaining the graph in words helps the audience understand the information.",
       ),
-
       QuizQuestion(
         question:
-        "8. Why is it important to select key ideas rather than recording everything?",
+            "8. Why is it important to select key ideas rather than recording everything?",
         options: [
           "Because paper is very expensive",
           "To ensure the most important information is clear",
@@ -5332,9 +5298,8 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Selecting key ideas helps focus on the most important information.",
+            "Selecting key ideas helps focus on the most important information.",
       ),
-
       QuizQuestion(
         question: "9. Which of these is a non-text source?",
         options: [
@@ -5346,12 +5311,11 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Low",
         explanation:
-        "Tables, charts, graphs, and diagrams are examples of non-text sources.",
+            "Tables, charts, graphs, and diagrams are examples of non-text sources.",
       ),
-
       QuizQuestion(
         question:
-        "10. What is the final step before presenting your written data summary?",
+            "10. What is the final step before presenting your written data summary?",
         options: [
           "Drawing a new table",
           "Editing and proofreading for sense and effect",
@@ -5361,12 +5325,13 @@ final QuizModel s4ss3Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "High",
         explanation:
-        "Proofreading helps remove mistakes and ensures the summary is clear and accurate before presentation.",
+            "Proofreading helps remove mistakes and ensures the summary is clear and accurate before presentation.",
       ),
     ]);
 
 final QuizModel s5ss1Lesson1QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
         question: "1. What is the definition of 'plot' in a written story?",
@@ -5378,13 +5343,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "The plot is the sequence of events that make up a story.",
+        explanation: "The plot is the sequence of events that make up a story.",
       ),
-
       QuizQuestion(
         question:
-        "2. Which element tells the reader where and when a story is happening?",
+            "2. Which element tells the reader where and when a story is happening?",
         options: [
           "Character",
           "Conflict",
@@ -5394,12 +5357,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The setting describes the time and place in which the story happens.",
+            "The setting describes the time and place in which the story happens.",
       ),
-
       QuizQuestion(
         question:
-        "3. In The Girl Who Can, Adjoa is the main person the story follows. She is the:",
+            "3. In The Girl Who Can, Adjoa is the main person the story follows. She is the:",
         options: [
           "Antagonist",
           "Setting",
@@ -5409,12 +5371,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The protagonist is the main character whose experiences the story follows.",
+            "The protagonist is the main character whose experiences the story follows.",
       ),
-
       QuizQuestion(
         question:
-        "4. Read this: 'It was a cold, harmattan morning in Bolgatanga.' This is an example of:",
+            "4. Read this: 'It was a cold, harmattan morning in Bolgatanga.' This is an example of:",
         options: [
           "Plot",
           "Setting",
@@ -5424,9 +5385,8 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The sentence describes both the time (harmattan morning) and place (Bolgatanga), which form the setting.",
+            "The sentence describes both the time (harmattan morning) and place (Bolgatanga), which form the setting.",
       ),
-
       QuizQuestion(
         question: "5. What is the 'resolution' of a plot?",
         options: [
@@ -5438,12 +5398,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The resolution is the ending of the story where the conflict is settled.",
+            "The resolution is the ending of the story where the conflict is settled.",
       ),
-
       QuizQuestion(
         question:
-        "6. If a character is working against the main hero in a story, they are called the:",
+            "6. If a character is working against the main hero in a story, they are called the:",
         options: [
           "Protagonist",
           "Antagonist",
@@ -5453,12 +5412,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The antagonist is the character or force that opposes the protagonist.",
+            "The antagonist is the character or force that opposes the protagonist.",
       ),
-
       QuizQuestion(
         question:
-        "7. Which of these is a character from The Dilemma of a Ghost?",
+            "7. Which of these is a character from The Dilemma of a Ghost?",
         options: [
           "The village of Odumase",
           "The return of the ghost",
@@ -5468,12 +5426,10 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Eulalie is one of the main characters in the play The Dilemma of a Ghost.",
+            "Eulalie is one of the main characters in the play The Dilemma of a Ghost.",
       ),
-
       QuizQuestion(
-        question:
-        "8. Why is the setting important in a story like Makola?",
+        question: "8. Why is the setting important in a story like Makola?",
         options: [
           "It tells us who the author is",
           "It describes the busy marketplace environment",
@@ -5483,12 +5439,10 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The marketplace setting creates the atmosphere and helps readers understand the story.",
+            "The marketplace setting creates the atmosphere and helps readers understand the story.",
       ),
-
       QuizQuestion(
-        question:
-        "9. In a plot, the 'conflict' is best described as:",
+        question: "9. In a plot, the 'conflict' is best described as:",
         options: [
           "The happy ending",
           "The names of the animals",
@@ -5498,12 +5452,11 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "Conflict is the struggle or problem that drives the story forward.",
+            "Conflict is the struggle or problem that drives the story forward.",
       ),
-
       QuizQuestion(
         question:
-        "10. When comparing two texts, identifying that one is set in a village and one is set in a city is a comparison of:",
+            "10. When comparing two texts, identifying that one is set in a village and one is set in a city is a comparison of:",
         options: [
           "Plot",
           "Setting",
@@ -5513,14 +5466,16 @@ final QuizModel s5ss1Lesson1QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "Comparing the locations and time of stories means comparing their settings.",
+            "Comparing the locations and time of stories means comparing their settings.",
       ),
     ]);
 final QuizModel s5ss1Lesson2QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
-        question: "1. \"The classroom was as quiet as a graveyard.\" What device is this?",
+        question:
+            "1. \"The classroom was as quiet as a graveyard.\" What device is this?",
         options: [
           "Metaphor",
           "Simile",
@@ -5530,12 +5485,11 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "A simile compares two things using 'as' or 'like', as in 'as quiet as a graveyard.'",
+            "A simile compares two things using 'as' or 'like', as in 'as quiet as a graveyard.'",
       ),
-
       QuizQuestion(
         question:
-        "2. Which device repeats the first consonant sound in a series of words?",
+            "2. Which device repeats the first consonant sound in a series of words?",
         options: [
           "Assonance",
           "Personification",
@@ -5545,12 +5499,11 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Alliteration is the repetition of the same initial consonant sounds in nearby words.",
+            "Alliteration is the repetition of the same initial consonant sounds in nearby words.",
       ),
-
       QuizQuestion(
         question:
-        "3. \"The fire swallowed the entire forest.\" This is an example of:",
+            "3. \"The fire swallowed the entire forest.\" This is an example of:",
         options: [
           "Simile",
           "Metaphor",
@@ -5560,9 +5513,8 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "Personification gives the fire the human action of 'swallowing.'",
+            "Personification gives the fire the human action of 'swallowing.'",
       ),
-
       QuizQuestion(
         question: "4. Identify the metaphor:",
         options: [
@@ -5574,12 +5526,11 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "A metaphor makes a direct comparison without using 'like' or 'as.'",
+            "A metaphor makes a direct comparison without using 'like' or 'as.'",
       ),
-
       QuizQuestion(
         question:
-        "5. \"Go and mow the lawn.\" The repetition of the 'o' sound in 'go' and 'mow' is:",
+            "5. \"Go and mow the lawn.\" The repetition of the 'o' sound in 'go' and 'mow' is:",
         options: [
           "Alliteration",
           "Assonance",
@@ -5589,9 +5540,8 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Hard",
         explanation:
-        "Assonance is the repetition of vowel sounds within nearby words.",
+            "Assonance is the repetition of vowel sounds within nearby words.",
       ),
-
       QuizQuestion(
         question: "6. In the poem Mama is a Sunrise, the title itself is a:",
         options: [
@@ -5603,12 +5553,11 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "The title directly compares Mama to a sunrise without using 'like' or 'as,' making it a metaphor.",
+            "The title directly compares Mama to a sunrise without using 'like' or 'as,' making it a metaphor.",
       ),
-
       QuizQuestion(
         question:
-        "7. \"Peter Piper picked a peck of pickled peppers\" is a famous example of:",
+            "7. \"Peter Piper picked a peck of pickled peppers\" is a famous example of:",
         options: [
           "Assonance",
           "Personification",
@@ -5618,9 +5567,8 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The repeated 'P' sound at the beginning of the words is alliteration.",
+            "The repeated 'P' sound at the beginning of the words is alliteration.",
       ),
-
       QuizQuestion(
         question: "8. Which of these is a simile using 'like'?",
         options: [
@@ -5632,9 +5580,8 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The word 'like' is used to compare the person's eating to that of a bird.",
+            "The word 'like' is used to compare the person's eating to that of a bird.",
       ),
-
       QuizQuestion(
         question: "9. Why do writers use personification?",
         options: [
@@ -5646,12 +5593,11 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "Personification gives human qualities to non-human things, making descriptions more vivid and engaging.",
+            "Personification gives human qualities to non-human things, making descriptions more vivid and engaging.",
       ),
-
       QuizQuestion(
         question:
-        "10. If a writer says, \"The stars winked at me,\" they are using:",
+            "10. If a writer says, \"The stars winked at me,\" they are using:",
         options: [
           "Alliteration",
           "Simile",
@@ -5661,14 +5607,16 @@ final QuizModel s5ss1Lesson2QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "Winking is a human action, so giving it to stars is an example of personification.",
+            "Winking is a human action, so giving it to stars is an example of personification.",
       ),
     ]);
 final QuizModel s5ss1Lesson3QuizData = QuizModel(
-    audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (6. QUIZ).m4a',
+    audioPath:
+        'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (6. QUIZ).m4a',
     questions: [
       QuizQuestion(
-        question: "1. Stories that use animals like Ananse to teach morals are called:",
+        question:
+            "1. Stories that use animals like Ananse to teach morals are called:",
         options: [
           "Myths",
           "Legends",
@@ -5678,12 +5626,11 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Folktales often use animal characters like Ananse to teach moral lessons.",
+            "Folktales often use animal characters like Ananse to teach moral lessons.",
       ),
-
       QuizQuestion(
         question:
-        "2. Which type of oral poetry would you expect to hear at a Ghanaian funeral?",
+            "2. Which type of oral poetry would you expect to hear at a Ghanaian funeral?",
         options: [
           "Lullaby",
           "War Song",
@@ -5692,13 +5639,10 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "A dirge is a funeral song performed to mourn the dead.",
+        explanation: "A dirge is a funeral song performed to mourn the dead.",
       ),
-
       QuizQuestion(
-        question:
-        "3. A legend is different from a myth because a legend:",
+        question: "3. A legend is different from a myth because a legend:",
         options: [
           "Is always about animals",
           "Is usually based on a historical person or event",
@@ -5708,9 +5652,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Legends are often connected to real historical people or events, while myths explain origins or involve gods and supernatural beings.",
+            "Legends are often connected to real historical people or events, while myths explain origins or involve gods and supernatural beings.",
       ),
-
       QuizQuestion(
         question: "4. The Hogbetsotso Festival is an example of:",
         options: [
@@ -5722,9 +5665,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Festivals such as Hogbetsotso include dramatic performances, rituals, music, and dance, making them forms of traditional drama.",
+            "Festivals such as Hogbetsotso include dramatic performances, rituals, music, and dance, making them forms of traditional drama.",
       ),
-
       QuizQuestion(
         question: "5. A praise song is often used to:",
         options: [
@@ -5736,9 +5678,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Praise songs celebrate and honor respected leaders, heroes, or important people.",
+            "Praise songs celebrate and honor respected leaders, heroes, or important people.",
       ),
-
       QuizQuestion(
         question: "6. Why is rhythm important in oral poetry like war songs?",
         options: [
@@ -5750,9 +5691,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Rhythm supports performance by helping people march, dance, and stay motivated.",
+            "Rhythm supports performance by helping people march, dance, and stay motivated.",
       ),
-
       QuizQuestion(
         question: "7. Outdooring and naming ceremonies are forms of:",
         options: [
@@ -5764,12 +5704,11 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "These ceremonies are community performances that combine music, speech, and ritual, making them traditional drama.",
+            "These ceremonies are community performances that combine music, speech, and ritual, making them traditional drama.",
       ),
-
       QuizQuestion(
         question:
-        "8. If a story explains why the sun stays in the sky using the actions of a creator, it is a:",
+            "8. If a story explains why the sun stays in the sky using the actions of a creator, it is a:",
         options: [
           "Legend",
           "Folktale",
@@ -5779,9 +5718,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "Myths explain the origins of natural phenomena through supernatural or sacred stories.",
+            "Myths explain the origins of natural phenomena through supernatural or sacred stories.",
       ),
-
       QuizQuestion(
         question: "9. Which of these would be considered oral literature?",
         options: [
@@ -5793,9 +5731,8 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Oral literature is spoken or performed rather than written.",
+            "Oral literature is spoken or performed rather than written.",
       ),
-
       QuizQuestion(
         question: "10. Traditional drama in Ghana often takes place during:",
         options: [
@@ -5807,7 +5744,7 @@ final QuizModel s5ss1Lesson3QuizData = QuizModel(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Traditional drama is commonly performed during social ceremonies such as rites and festivals.",
+            "Traditional drama is commonly performed during social ceremonies such as rites and festivals.",
       ),
     ]);
 
@@ -8876,44 +8813,31 @@ final QuizModel jhs2s4ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/6.Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Complete the sentence: \"You cannot enter the lab ____ you are wearing a lab coat.\"",
-      options: [
-        "because",
-        "unless",
-        "while",
-        "since"
-      ],
+      question:
+          "1. Complete the sentence: \"You cannot enter the lab ____ you are wearing a lab coat.\"",
+      options: ["because", "unless", "while", "since"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Unless\" introduces a condition that must be met before entering the laboratory.",
+      explanation:
+          "\"Unless\" introduces a condition that must be met before entering the laboratory.",
     ),
-
     QuizQuestion(
-      question: "2. Which pronoun correctly replaces the object? \"I saw Mr. Mensah at the bank and spoke to ____.\"",
-      options: [
-        "him",
-        "he",
-        "his",
-        "himself"
-      ],
+      question:
+          "2. Which pronoun correctly replaces the object? \"I saw Mr. Mensah at the bank and spoke to ____.\"",
+      options: ["him", "he", "his", "himself"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "\"Him\" is the correct object pronoun used after the verb \"spoke to.\"",
+      explanation:
+          "\"Him\" is the correct object pronoun used after the verb \"spoke to.\"",
     ),
-
     QuizQuestion(
-      question: "3. Identify the time connector: \"The shop closes ____ the sun sets.\"",
-      options: [
-        "because",
-        "after",
-        "so that",
-        "although"
-      ],
+      question:
+          "3. Identify the time connector: \"The shop closes ____ the sun sets.\"",
+      options: ["because", "after", "so that", "although"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "\"After\" indicates the time at which the action happens.",
     ),
-
     QuizQuestion(
       question: "4. Which sentence uses a relative clause correctly?",
       options: [
@@ -8926,83 +8850,56 @@ final QuizModel jhs2s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Which is blue\" is a relative clause describing the car.",
     ),
-
     QuizQuestion(
-      question: "5. Pick the best connector for a reason: \"We stayed home ____ it was a public holiday.\"",
-      options: [
-        "so that",
-        "although",
-        "because",
-        "however"
-      ],
+      question:
+          "5. Pick the best connector for a reason: \"We stayed home ____ it was a public holiday.\"",
+      options: ["so that", "although", "because", "however"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "\"Because\" introduces the reason for staying at home.",
     ),
-
     QuizQuestion(
-      question: "6. Which word is a synonym for \"happy\" to avoid repetition? \"Kofi was happy; he was truly ____.\"",
-      options: [
-        "joyful",
-        "angry",
-        "sad",
-        "tired"
-      ],
+      question:
+          "6. Which word is a synonym for \"happy\" to avoid repetition? \"Kofi was happy; he was truly ____.\"",
+      options: ["joyful", "angry", "sad", "tired"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "\"Joyful\" is a synonym for \"happy\" and adds variety to writing.",
+      explanation:
+          "\"Joyful\" is a synonym for \"happy\" and adds variety to writing.",
     ),
-
     QuizQuestion(
-      question: "7. Choose the correct connector: \"____ I was walking to school, I met my teacher.\"",
-      options: [
-        "Until",
-        "While",
-        "Unless",
-        "Though"
-      ],
+      question:
+          "7. Choose the correct connector: \"____ I was walking to school, I met my teacher.\"",
+      options: ["Until", "While", "Unless", "Though"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"While\" shows that two actions happened at the same time.",
+      explanation:
+          "\"While\" shows that two actions happened at the same time.",
     ),
-
     QuizQuestion(
-      question: "8. Fill the gap: \"The food was delicious, ____ it was quite expensive.\"",
-      options: [
-        "because",
-        "so that",
-        "but",
-        "since"
-      ],
+      question:
+          "8. Fill the gap: \"The food was delicious, ____ it was quite expensive.\"",
+      options: ["because", "so that", "but", "since"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "\"But\" is used to show a contrast between two ideas.",
     ),
-
     QuizQuestion(
-      question: "9. \"The pupils are hard-working. ____ always finish their tasks.\"",
-      options: [
-        "We",
-        "They",
-        "You",
-        "It"
-      ],
+      question:
+          "9. \"The pupils are hard-working. ____ always finish their tasks.\"",
+      options: ["We", "They", "You", "It"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "\"They\" is the correct plural pronoun referring to \"the pupils.\"",
+      explanation:
+          "\"They\" is the correct plural pronoun referring to \"the pupils.\"",
     ),
-
     QuizQuestion(
       question: "10. \"I will go to the market ____ it stops raining.\"",
-      options: [
-        "provided that",
-        "although",
-        "because",
-        "while"
-      ],
+      options: ["provided that", "although", "because", "while"],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "\"Provided that\" introduces a condition that must be satisfied before the action happens.",
+      explanation:
+          "\"Provided that\" introduces a condition that must be satisfied before the action happens.",
     ),
   ],
 );
@@ -9019,22 +8916,16 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "An anecdote is a short personal story used to capture the reader's attention.",
+      explanation:
+          "An anecdote is a short personal story used to capture the reader's attention.",
     ),
-
     QuizQuestion(
       question: "2. Which connector is used to show a condition?",
-      options: [
-        "Because",
-        "Provided that",
-        "Therefore",
-        "Furthermore"
-      ],
+      options: ["Because", "Provided that", "Therefore", "Furthermore"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation: "\"Provided that\" introduces a condition that must be met.",
     ),
-
     QuizQuestion(
       question: "3. Choose the best 'Fact' hook for an essay on \"Forestry.\"",
       options: [
@@ -9045,9 +8936,9 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A factual hook uses a real and interesting fact to attract the reader.",
+      explanation:
+          "A factual hook uses a real and interesting fact to attract the reader.",
     ),
-
     QuizQuestion(
       question: "4. \"Sequence\" in a paragraph refers to:",
       options: [
@@ -9058,24 +8949,19 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Sequence means arranging ideas or sentences in a logical order.",
+      explanation:
+          "Sequence means arranging ideas or sentences in a logical order.",
     ),
-
     QuizQuestion(
       question: "5. Which word shows a contrast?",
-      options: [
-        "Moreover",
-        "Similarly",
-        "Nevertheless",
-        "Consequently"
-      ],
+      options: ["Moreover", "Similarly", "Nevertheless", "Consequently"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: "\"Nevertheless\" introduces a contrast between two ideas.",
     ),
-
     QuizQuestion(
-      question: "6. To create \"unity\" in an introduction, all sentences must:",
+      question:
+          "6. To create \"unity\" in an introduction, all sentences must:",
       options: [
         "Be the exact same length",
         "Start with the word \"The\"",
@@ -9084,11 +8970,12 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Unity means every sentence supports the same main idea or topic.",
+      explanation:
+          "Unity means every sentence supports the same main idea or topic.",
     ),
-
     QuizQuestion(
-      question: "7. What is the best way to link: \"It was a holiday. The school was empty.\"",
+      question:
+          "7. What is the best way to link: \"It was a holiday. The school was empty.\"",
       options: [
         "It was a holiday; therefore, the school was empty.",
         "It was a holiday unless the school was empty.",
@@ -9099,7 +8986,6 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Therefore\" correctly shows the result of the holiday.",
     ),
-
     QuizQuestion(
       question: "8. An introduction should capture the reader's attention and:",
       options: [
@@ -9110,11 +8996,12 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A good introduction attracts attention and clearly introduces the topic.",
+      explanation:
+          "A good introduction attracts attention and clearly introduces the topic.",
     ),
-
     QuizQuestion(
-      question: "9. \"Although it was late, he stayed up to study.\" Which technique is used here?",
+      question:
+          "9. \"Although it was late, he stayed up to study.\" Which technique is used here?",
       options: [
         "Anecdote",
         "Logical connector",
@@ -9125,9 +9012,9 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Although\" is a logical connector that shows contrast.",
     ),
-
     QuizQuestion(
-      question: "10. If you are writing about \"Personal Hygiene,\" which hook is most likely to interest a reader?",
+      question:
+          "10. If you are writing about \"Personal Hygiene,\" which hook is most likely to interest a reader?",
       options: [
         "Hygiene is important for everyone in the world.",
         "Imagine waking up with a toothache that won't go away.",
@@ -9136,7 +9023,8 @@ final QuizModel jhs2s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "An engaging scenario encourages the reader to continue reading.",
+      explanation:
+          "An engaging scenario encourages the reader to continue reading.",
     ),
   ],
 );
@@ -9144,33 +9032,26 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/6.Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which word is used to start a relative clause about a place?",
-      options: [
-        "Who",
-        "Where",
-        "Which",
-        "Whose"
-      ],
+      question:
+          "1. Which word is used to start a relative clause about a place?",
+      options: ["Who", "Where", "Which", "Whose"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "\"Where\" introduces a relative clause that refers to a place.",
+      explanation:
+          "\"Where\" introduces a relative clause that refers to a place.",
     ),
-
     QuizQuestion(
-      question: "2. Identify the adverbial phrase in: \"They danced with great joy.\"",
-      options: [
-        "They danced",
-        "with great joy",
-        "danced with",
-        "great joy"
-      ],
+      question:
+          "2. Identify the adverbial phrase in: \"They danced with great joy.\"",
+      options: ["They danced", "with great joy", "danced with", "great joy"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"With great joy\" is an adverbial phrase of manner describing how they danced.",
+      explanation:
+          "\"With great joy\" is an adverbial phrase of manner describing how they danced.",
     ),
-
     QuizQuestion(
-      question: "3. Which sentence uses a non-defining relative clause correctly?",
+      question:
+          "3. Which sentence uses a non-defining relative clause correctly?",
       options: [
         "My car which is red is fast.",
         "My car, which is red, is fast.",
@@ -9179,11 +9060,12 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Non-defining relative clauses provide extra information and are separated by commas.",
+      explanation:
+          "Non-defining relative clauses provide extra information and are separated by commas.",
     ),
-
     QuizQuestion(
-      question: "4. Choose the best noun phrase to complete the sentence: \"_____ was very heavy.\"",
+      question:
+          "4. Choose the best noun phrase to complete the sentence: \"_____ was very heavy.\"",
       options: [
         "Running fast",
         "The large wooden crate",
@@ -9192,9 +9074,9 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "\"The large wooden crate\" is a noun phrase that can act as the subject of the sentence.",
+      explanation:
+          "\"The large wooden crate\" is a noun phrase that can act as the subject of the sentence.",
     ),
-
     QuizQuestion(
       question: "5. What does an adjectival phrase do?",
       options: [
@@ -9207,7 +9089,6 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "An adjectival phrase gives more information about a noun.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a defining relative clause?",
       options: [
@@ -9218,11 +9099,12 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A defining relative clause identifies exactly which person or thing is being referred to.",
+      explanation:
+          "A defining relative clause identifies exactly which person or thing is being referred to.",
     ),
-
     QuizQuestion(
-      question: "7. \"The woman at the back of the room stood up.\" The bold part is an:",
+      question:
+          "7. \"The woman at the back of the room stood up.\" The bold part is an:",
       options: [
         "Adverbial phrase of place",
         "Noun phrase",
@@ -9231,11 +9113,12 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "\"At the back of the room\" describes the noun \"woman,\" so it functions as an adjectival phrase.",
+      explanation:
+          "\"At the back of the room\" describes the noun \"woman,\" so it functions as an adjectival phrase.",
     ),
-
     QuizQuestion(
-      question: "8. Complete with an adverbial phrase of manner: \"She spoke _____.\"",
+      question:
+          "8. Complete with an adverbial phrase of manner: \"She spoke _____.\"",
       options: [
         "to her mother",
         "yesterday morning",
@@ -9244,9 +9127,9 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "\"In a soft whisper\" tells how she spoke, making it an adverbial phrase of manner.",
+      explanation:
+          "\"In a soft whisper\" tells how she spoke, making it an adverbial phrase of manner.",
     ),
-
     QuizQuestion(
       question: "9. Which sentence is the most descriptive?",
       options: [
@@ -9257,20 +9140,16 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "This sentence provides the most details about the dog, its location, and how it barked.",
+      explanation:
+          "This sentence provides the most details about the dog, its location, and how it barked.",
     ),
-
     QuizQuestion(
       question: "10. \"Whose\" is used in a relative clause to show:",
-      options: [
-        "Time",
-        "Possession",
-        "Location",
-        "Reason"
-      ],
+      options: ["Time", "Possession", "Location", "Reason"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Whose\" is a relative pronoun used to indicate possession.",
+      explanation:
+          "\"Whose\" is a relative pronoun used to indicate possession.",
     ),
   ],
 );
@@ -9287,35 +9166,26 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A personal narrative tells the writer's own real-life experiences and events.",
+      explanation:
+          "A personal narrative tells the writer's own real-life experiences and events.",
     ),
-
     QuizQuestion(
       question: "2. Which pronoun is essential for first-person point of view?",
-      options: [
-        "He",
-        "They",
-        "Me",
-        "It"
-      ],
+      options: ["He", "They", "Me", "It"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "First-person narratives use pronouns such as \"I,\" \"me,\" \"my,\" and \"we.\"",
+      explanation:
+          "First-person narratives use pronouns such as \"I,\" \"me,\" \"my,\" and \"we.\"",
     ),
-
     QuizQuestion(
-      question: "3. Identify the adjective in this sentence: \"The delicious waakye was wrapped in a leaf.\"",
-      options: [
-        "Wrapped",
-        "Delicious",
-        "Leaf",
-        "Waakye"
-      ],
+      question:
+          "3. Identify the adjective in this sentence: \"The delicious waakye was wrapped in a leaf.\"",
+      options: ["Wrapped", "Delicious", "Leaf", "Waakye"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Delicious\" is an adjective because it describes the noun \"waakye.\"",
+      explanation:
+          "\"Delicious\" is an adjective because it describes the noun \"waakye.\"",
     ),
-
     QuizQuestion(
       question: "4. Which of these is an example of indirect speech?",
       options: [
@@ -9326,35 +9196,26 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Indirect speech reports what someone said without using quotation marks.",
+      explanation:
+          "Indirect speech reports what someone said without using quotation marks.",
     ),
-
     QuizQuestion(
-      question: "5. Choose the best adverb to complete: \"The hunter crept _____ through the forest.\"",
-      options: [
-        "Silently",
-        "Loud",
-        "Green",
-        "Morning"
-      ],
+      question:
+          "5. Choose the best adverb to complete: \"The hunter crept _____ through the forest.\"",
+      options: ["Silently", "Loud", "Green", "Morning"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "\"Silently\" is an adverb describing how the hunter crept.",
     ),
-
     QuizQuestion(
-      question: "6. Which connector shows that one event happened immediately after another?",
-      options: [
-        "Although",
-        "Because",
-        "Next",
-        "Unless"
-      ],
+      question:
+          "6. Which connector shows that one event happened immediately after another?",
+      options: ["Although", "Because", "Next", "Unless"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "\"Next\" is a sequence connector that shows the order of events.",
+      explanation:
+          "\"Next\" is a sequence connector that shows the order of events.",
     ),
-
     QuizQuestion(
       question: "7. When planning a narrative, what should you record first?",
       options: [
@@ -9365,9 +9226,9 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Planning begins by collecting ideas from personal experiences or past events.",
+      explanation:
+          "Planning begins by collecting ideas from personal experiences or past events.",
     ),
-
     QuizQuestion(
       question: "8. Which sentence uses a noun phrase to add detail?",
       options: [
@@ -9378,9 +9239,9 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "\"The old wooden boat\" is a descriptive noun phrase that adds detail.",
+      explanation:
+          "\"The old wooden boat\" is a descriptive noun phrase that adds detail.",
     ),
-
     QuizQuestion(
       question: "9. Why do we use first-person point of view in narratives?",
       options: [
@@ -9391,11 +9252,12 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "First-person narration allows writers to share their own thoughts, feelings, and experiences.",
+      explanation:
+          "First-person narration allows writers to share their own thoughts, feelings, and experiences.",
     ),
-
     QuizQuestion(
-      question: "10. What is the final step in the writing process before publishing?",
+      question:
+          "10. What is the final step in the writing process before publishing?",
       options: [
         "Writing the first draft.",
         "Editing and proofreading for sense.",
@@ -9404,7 +9266,8 @@ final QuizModel jhs2s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Editing and proofreading help ensure the writing is clear, accurate, and ready for readers.",
+      explanation:
+          "Editing and proofreading help ensure the writing is clear, accurate, and ready for readers.",
     ),
   ],
 );
@@ -9413,56 +9276,38 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Which adjective suggests a place is very old and historic?",
-      options: [
-        "Contemporary",
-        "Ancient",
-        "Bustling",
-        "Charming"
-      ],
+      options: ["Contemporary", "Ancient", "Bustling", "Charming"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "\"Ancient\" describes places or objects that are very old and have historical importance.",
+      explanation:
+          "\"Ancient\" describes places or objects that are very old and have historical importance.",
     ),
-
     QuizQuestion(
-      question: "2. \"The pungent aroma of ginger filled the kitchen.\" Which sense does \"pungent\" appeal to?",
-      options: [
-        "Sight",
-        "Sound",
-        "Smell",
-        "Touch"
-      ],
+      question:
+          "2. \"The pungent aroma of ginger filled the kitchen.\" Which sense does \"pungent\" appeal to?",
+      options: ["Sight", "Sound", "Smell", "Touch"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "\"Aroma\" refers to smell, and \"pungent\" describes a strong or sharp scent.",
+      explanation:
+          "\"Aroma\" refers to smell, and \"pungent\" describes a strong or sharp scent.",
     ),
-
     QuizQuestion(
-      question: "3. Which word would you use to describe a very difficult and painful journey?",
-      options: [
-        "Common",
-        "Tortuous",
-        "Divine",
-        "Stellar"
-      ],
+      question:
+          "3. Which word would you use to describe a very difficult and painful journey?",
+      options: ["Common", "Tortuous", "Divine", "Stellar"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Tortuous\" describes something that is full of difficulties, twists, or pain.",
+      explanation:
+          "\"Tortuous\" describes something that is full of difficulties, twists, or pain.",
     ),
-
     QuizQuestion(
-      question: "4. Identify the first-person pronoun in this description: \"We walked through the misty forest.\"",
-      options: [
-        "Through",
-        "Misty",
-        "We",
-        "Forest"
-      ],
+      question:
+          "4. Identify the first-person pronoun in this description: \"We walked through the misty forest.\"",
+      options: ["Through", "Misty", "We", "Forest"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "\"We\" is a first-person plural pronoun.",
     ),
-
     QuizQuestion(
       question: "5. What does it mean to use \"precise\" words?",
       options: [
@@ -9473,22 +9318,17 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Precise words communicate ideas clearly by choosing the most accurate vocabulary.",
+      explanation:
+          "Precise words communicate ideas clearly by choosing the most accurate vocabulary.",
     ),
-
     QuizQuestion(
       question: "6. Which is an example of an adverb of manner?",
-      options: [
-        "Under the table",
-        "Rhythmically",
-        "Blue",
-        "After school"
-      ],
+      options: ["Under the table", "Rhythmically", "Blue", "After school"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Rhythmically\" describes how an action is performed, making it an adverb of manner.",
+      explanation:
+          "\"Rhythmically\" describes how an action is performed, making it an adverb of manner.",
     ),
-
     QuizQuestion(
       question: "7. Which sentence uses sensory language for touch?",
       options: [
@@ -9499,9 +9339,9 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "\"Smooth\" appeals to the sense of touch by describing how the fabric feels.",
+      explanation:
+          "\"Smooth\" appeals to the sense of touch by describing how the fabric feels.",
     ),
-
     QuizQuestion(
       question: "8. What is the purpose of editing for \"emotional reaction\"?",
       options: [
@@ -9512,9 +9352,9 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Editing helps make sure the language creates the intended emotional effect on readers.",
+      explanation:
+          "Editing helps make sure the language creates the intended emotional effect on readers.",
     ),
-
     QuizQuestion(
       question: "9. Which of these is a \"contemporary\" setting?",
       options: [
@@ -9527,7 +9367,6 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "\"Contemporary\" means modern or present-day.",
     ),
-
     QuizQuestion(
       question: "10. Which sentence uses direct speech for interest?",
       options: [
@@ -9538,7 +9377,8 @@ final QuizModel jhs2s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Direct speech uses quotation marks to show the speaker's exact words.",
+      explanation:
+          "Direct speech uses quotation marks to show the speaker's exact words.",
     ),
   ],
 );
@@ -9546,33 +9386,26 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/6. QUIZ.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which part of an advertisement should be the most eye-catching?",
-      options: [
-        "The page number",
-        "The Title",
-        "The small print",
-        "The date"
-      ],
+      question:
+          "1. Which part of an advertisement should be the most eye-catching?",
+      options: ["The page number", "The Title", "The small print", "The date"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The title is designed to grab the audience's attention immediately.",
+      explanation:
+          "The title is designed to grab the audience's attention immediately.",
     ),
-
     QuizQuestion(
-      question: "2. Identify the imperative verb: \"Drink more water for better health.\"",
-      options: [
-        "Water",
-        "Better",
-        "Drink",
-        "Health"
-      ],
+      question:
+          "2. Identify the imperative verb: \"Drink more water for better health.\"",
+      options: ["Water", "Better", "Drink", "Health"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "\"Drink\" is an imperative verb because it gives a command or instruction.",
+      explanation:
+          "\"Drink\" is an imperative verb because it gives a command or instruction.",
     ),
-
     QuizQuestion(
-      question: "3. Which verb tense is best for stating facts about a product?",
+      question:
+          "3. Which verb tense is best for stating facts about a product?",
       options: [
         "Past Tense",
         "Future Tense",
@@ -9581,9 +9414,9 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The simple present tense is commonly used to state facts and general truths in advertisements.",
+      explanation:
+          "The simple present tense is commonly used to state facts and general truths in advertisements.",
     ),
-
     QuizQuestion(
       question: "4. What is a diary entry primarily used for?",
       options: [
@@ -9594,9 +9427,9 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A diary is used to record personal thoughts, experiences, and emotions.",
+      explanation:
+          "A diary is used to record personal thoughts, experiences, and emotions.",
     ),
-
     QuizQuestion(
       question: "5. Which of these is a persuasive device?",
       options: [
@@ -9607,35 +9440,26 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Repeating important words or phrases helps readers remember the message.",
+      explanation:
+          "Repeating important words or phrases helps readers remember the message.",
     ),
-
     QuizQuestion(
-      question: "6. \"I think this is the most beautiful kente in the world.\" What type of verb is \"think\"?",
-      options: [
-        "Action verb",
-        "Mental verb",
-        "Helping verb",
-        "Past verb"
-      ],
+      question:
+          "6. \"I think this is the most beautiful kente in the world.\" What type of verb is \"think\"?",
+      options: ["Action verb", "Mental verb", "Helping verb", "Past verb"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Think\" is a mental verb because it expresses a thought or opinion.",
+      explanation:
+          "\"Think\" is a mental verb because it expresses a thought or opinion.",
     ),
-
     QuizQuestion(
       question: "7. Which phrasal verb means to encounter something by chance?",
-      options: [
-        "Run away",
-        "Come across",
-        "Sit down",
-        "Stand up"
-      ],
+      options: ["Run away", "Come across", "Sit down", "Stand up"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "\"Come across\" means to find or meet something unexpectedly.",
+      explanation:
+          "\"Come across\" means to find or meet something unexpectedly.",
     ),
-
     QuizQuestion(
       question: "8. What is a rhetorical question designed to do?",
       options: [
@@ -9646,11 +9470,12 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A rhetorical question encourages readers to think about the message rather than answer it.",
+      explanation:
+          "A rhetorical question encourages readers to think about the message rather than answer it.",
     ),
-
     QuizQuestion(
-      question: "9. \"Our soap is better than any other because it lasts longer.\" This is an example of:",
+      question:
+          "9. \"Our soap is better than any other because it lasts longer.\" This is an example of:",
       options: [
         "A diary entry",
         "An introduction",
@@ -9659,20 +9484,17 @@ final QuizModel jhs2s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "A selling point highlights a product's advantage to persuade customers.",
+      explanation:
+          "A selling point highlights a product's advantage to persuade customers.",
     ),
-
     QuizQuestion(
-      question: "10. Which modal verb shows a strong recommendation in an advertisement?",
-      options: [
-        "Might",
-        "Maybe",
-        "Could",
-        "Must"
-      ],
+      question:
+          "10. Which modal verb shows a strong recommendation in an advertisement?",
+      options: ["Might", "Maybe", "Could", "Must"],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "\"Must\" expresses a strong recommendation or obligation, making it persuasive in advertisements.",
+      explanation:
+          "\"Must\" expresses a strong recommendation or obligation, making it persuasive in advertisements.",
     ),
   ],
 );
@@ -9689,9 +9511,9 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A problem-solution paragraph aims to persuade readers that a proposed solution is practical and effective.",
+      explanation:
+          "A problem-solution paragraph aims to persuade readers that a proposed solution is practical and effective.",
     ),
-
     QuizQuestion(
       question: "2. Which sentence clearly identifies a problem?",
       options: [
@@ -9702,9 +9524,9 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "This sentence clearly states the problem and explains why it is harmful.",
+      explanation:
+          "This sentence clearly states the problem and explains why it is harmful.",
     ),
-
     QuizQuestion(
       question: "3. When explaining how a solution works, you should:",
       options: [
@@ -9715,9 +9537,9 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Step-by-step explanations help readers understand how the solution can be carried out.",
+      explanation:
+          "Step-by-step explanations help readers understand how the solution can be carried out.",
     ),
-
     QuizQuestion(
       question: "4. Why should you mention who is 'in charge' of a solution?",
       options: [
@@ -9728,11 +9550,12 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Identifying who is responsible shows the solution is organized and ready to be implemented.",
+      explanation:
+          "Identifying who is responsible shows the solution is organized and ready to be implemented.",
     ),
-
     QuizQuestion(
-      question: "5. What is the best way to fund a small school project locally?",
+      question:
+          "5. What is the best way to fund a small school project locally?",
       options: [
         "Waiting for a miracle.",
         "Organizing a community car wash or craft sale.",
@@ -9741,22 +9564,17 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Community fundraising is a practical and realistic way to support local projects.",
+      explanation:
+          "Community fundraising is a practical and realistic way to support local projects.",
     ),
-
     QuizQuestion(
       question: "6. Which word is a synonym for \"feasible\"?",
-      options: [
-        "Difficult",
-        "Practicable",
-        "Expensive",
-        "Boring"
-      ],
+      options: ["Difficult", "Practicable", "Expensive", "Boring"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "\"Practicable\" means something that can realistically be done.",
+      explanation:
+          "\"Practicable\" means something that can realistically be done.",
     ),
-
     QuizQuestion(
       question: "7. How does giving evidence help your paragraph?",
       options: [
@@ -9767,22 +9585,18 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Evidence strengthens your argument by making it more believable and convincing.",
+      explanation:
+          "Evidence strengthens your argument by making it more believable and convincing.",
     ),
-
     QuizQuestion(
-      question: "8. \"My solution is better because it costs 50 Cedis while others cost 500.\" This argues for:",
-      options: [
-        "Feasibility",
-        "Cost-effectiveness",
-        "Objections",
-        "Evidence"
-      ],
+      question:
+          "8. \"My solution is better because it costs 50 Cedis while others cost 500.\" This argues for:",
+      options: ["Feasibility", "Cost-effectiveness", "Objections", "Evidence"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Comparing costs shows that the solution saves money, making it cost-effective.",
+      explanation:
+          "Comparing costs shows that the solution saves money, making it cost-effective.",
     ),
-
     QuizQuestion(
       question: "9. What should you do with a possible objection?",
       options: [
@@ -9793,9 +9607,9 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Addressing objections strengthens your argument by showing that you have considered different viewpoints.",
+      explanation:
+          "Addressing objections strengthens your argument by showing that you have considered different viewpoints.",
     ),
-
     QuizQuestion(
       question: "10. Which is a characteristic of a \"reasonable\" solution?",
       options: [
@@ -9806,7 +9620,8 @@ final QuizModel jhs2s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A reasonable solution is realistic, fair, and practical to carry out.",
+      explanation:
+          "A reasonable solution is realistic, fair, and practical to carry out.",
     ),
   ],
 );
@@ -9823,9 +9638,9 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A formal business letter should include the sender's address, recipient's address, and a clear subject line.",
+      explanation:
+          "A formal business letter should include the sender's address, recipient's address, and a clear subject line.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a formal request?",
       options: [
@@ -9836,11 +9651,12 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Formal requests use polite and respectful language such as \"kindly request.\"",
+      explanation:
+          "Formal requests use polite and respectful language such as \"kindly request.\"",
     ),
-
     QuizQuestion(
-      question: "3. When writing a formal email, what replaces the two physical addresses?",
+      question:
+          "3. When writing a formal email, what replaces the two physical addresses?",
       options: [
         "A picture of yourself.",
         "A clear subject line.",
@@ -9849,11 +9665,12 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Formal emails use a subject line to clearly identify the purpose of the message.",
+      explanation:
+          "Formal emails use a subject line to clearly identify the purpose of the message.",
     ),
-
     QuizQuestion(
-      question: "4. \"NOTICE: All students must wear their Sunday wear for the church service.\" This is an update on:",
+      question:
+          "4. \"NOTICE: All students must wear their Sunday wear for the church service.\" This is an update on:",
       options: [
         "A sports schedule.",
         "School rules or programmes.",
@@ -9862,11 +9679,12 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A notice communicates official information or requirements about school activities or programmes.",
+      explanation:
+          "A notice communicates official information or requirements about school activities or programmes.",
     ),
-
     QuizQuestion(
-      question: "5. If an advertisement for a soft drink features famous Ghanaian footballers, who is the target audience?",
+      question:
+          "5. If an advertisement for a soft drink features famous Ghanaian footballers, who is the target audience?",
       options: [
         "Grandmothers.",
         "Young people and sports fans.",
@@ -9875,11 +9693,12 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Advertisements often use famous athletes to appeal to young people and sports enthusiasts.",
+      explanation:
+          "Advertisements often use famous athletes to appeal to young people and sports enthusiasts.",
     ),
-
     QuizQuestion(
-      question: "6. Identify the implied message in an advertisement for a very expensive car.",
+      question:
+          "6. Identify the implied message in an advertisement for a very expensive car.",
       options: [
         "The car has four wheels.",
         "The car is painted red.",
@@ -9888,37 +9707,30 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The advertisement suggests that owning the car represents wealth and success rather than stating it directly.",
+      explanation:
+          "The advertisement suggests that owning the car represents wealth and success rather than stating it directly.",
     ),
-
     QuizQuestion(
-      question: "7. What is the correct way to write the date in a formal letter?",
-      options: [
-        "4th April, 2026",
-        "4-4-26",
-        "April 4",
-        "Saturday morning"
-      ],
+      question:
+          "7. What is the correct way to write the date in a formal letter?",
+      options: ["4th April, 2026", "4-4-26", "April 4", "Saturday morning"],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Formal letters require the full date written clearly and completely.",
+      explanation:
+          "Formal letters require the full date written clearly and completely.",
     ),
-
     QuizQuestion(
-      question: "8. Which type of formal writing is used to express sadness for someone's loss?",
-      options: [
-        "Application",
-        "Complaint",
-        "Sympathy",
-        "Congratulations"
-      ],
+      question:
+          "8. Which type of formal writing is used to express sadness for someone's loss?",
+      options: ["Application", "Complaint", "Sympathy", "Congratulations"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A sympathy letter expresses condolences and support after a loss.",
+      explanation:
+          "A sympathy letter expresses condolences and support after a loss.",
     ),
-
     QuizQuestion(
-      question: "9. Why is editing for sense and meaning important in a formal letter?",
+      question:
+          "9. Why is editing for sense and meaning important in a formal letter?",
       options: [
         "To make the letter longer.",
         "To ensure your request is understood and respected.",
@@ -9927,9 +9739,9 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Clear and accurate writing helps the reader understand and respond appropriately to your request.",
+      explanation:
+          "Clear and accurate writing helps the reader understand and respond appropriately to your request.",
     ),
-
     QuizQuestion(
       question: "10. \"Yours faithfully\" is used when:",
       options: [
@@ -9940,7 +9752,8 @@ final QuizModel jhs2s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "\"Yours faithfully\" is the correct closing when the recipient's name is unknown.",
+      explanation:
+          "\"Yours faithfully\" is the correct closing when the recipient's name is unknown.",
     ),
   ],
 );
@@ -9957,11 +9770,12 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A brochure is an informational and promotional document that provides detailed information about a product, service, or event.",
+      explanation:
+          "A brochure is an informational and promotional document that provides detailed information about a product, service, or event.",
     ),
-
     QuizQuestion(
-      question: "2. A flyer for a \"School Excursion\" should definitely include:",
+      question:
+          "2. A flyer for a \"School Excursion\" should definitely include:",
       options: [
         "The teacher's favorite food.",
         "The destination and the cost of the trip.",
@@ -9970,9 +9784,9 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Essential information such as the destination, date, and cost helps readers make informed decisions.",
+      explanation:
+          "Essential information such as the destination, date, and cost helps readers make informed decisions.",
     ),
-
     QuizQuestion(
       question: "3. Where is the best place to put the headline?",
       options: [
@@ -9983,22 +9797,18 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A headline should appear at the top in large, bold text to attract attention immediately.",
+      explanation:
+          "A headline should appear at the top in large, bold text to attract attention immediately.",
     ),
-
     QuizQuestion(
-      question: "4. Which word is an example of a persuasive adjective for a food flyer?",
-      options: [
-        "Round",
-        "Delicious",
-        "Edible",
-        "Standard"
-      ],
+      question:
+          "4. Which word is an example of a persuasive adjective for a food flyer?",
+      options: ["Round", "Delicious", "Edible", "Standard"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Delicious\" is a persuasive adjective that makes the food sound more appealing.",
+      explanation:
+          "\"Delicious\" is a persuasive adjective that makes the food sound more appealing.",
     ),
-
     QuizQuestion(
       question: "5. What does it mean to \"target an audience\"?",
       options: [
@@ -10009,11 +9819,12 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Targeting an audience means creating a message that matches the interests and needs of a specific group of people.",
+      explanation:
+          "Targeting an audience means creating a message that matches the interests and needs of a specific group of people.",
     ),
-
     QuizQuestion(
-      question: "6. Which part of a flyer tells people how to get more information?",
+      question:
+          "6. Which part of a flyer tells people how to get more information?",
       options: [
         "The slogan",
         "The headline",
@@ -10022,9 +9833,9 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Contact information tells readers how to ask questions or respond to the advertisement.",
+      explanation:
+          "Contact information tells readers how to ask questions or respond to the advertisement.",
     ),
-
     QuizQuestion(
       question: "7. A \"Brief Description\" in a brochure should be:",
       options: [
@@ -10035,11 +9846,12 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "A brochure should use concise, clear language that is easy for readers to understand.",
+      explanation:
+          "A brochure should use concise, clear language that is easy for readers to understand.",
     ),
-
     QuizQuestion(
-      question: "8. What is a \"Voluntary Cleaning Exercise\" notice an example of?",
+      question:
+          "8. What is a \"Voluntary Cleaning Exercise\" notice an example of?",
       options: [
         "An advertisement for a new car.",
         "A community-focused informational text.",
@@ -10048,9 +9860,9 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "This type of notice informs members of the community about an event or activity.",
+      explanation:
+          "This type of notice informs members of the community about an event or activity.",
     ),
-
     QuizQuestion(
       question: "9. Why is it important to proofread a flyer before printing?",
       options: [
@@ -10061,11 +9873,12 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Checking for errors ensures that important information such as dates, phone numbers, and addresses is correct.",
+      explanation:
+          "Checking for errors ensures that important information such as dates, phone numbers, and addresses is correct.",
     ),
-
     QuizQuestion(
-      question: "10. Which layout feature helps organize a \"List of Benefits\"?",
+      question:
+          "10. Which layout feature helps organize a \"List of Benefits\"?",
       options: [
         "A very long paragraph.",
         "Bullet points.",
@@ -10074,7 +9887,8 @@ final QuizModel jhs2s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Bullet points make information easy to scan, read, and understand.",
+      explanation:
+          "Bullet points make information easy to scan, read, and understand.",
     ),
   ],
 );
@@ -10091,9 +9905,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Before writing an article, you should identify the topic, purpose, and intended audience.",
+      explanation:
+          "Before writing an article, you should identify the topic, purpose, and intended audience.",
     ),
-
     QuizQuestion(
       question: "2. Which resource is a \"print resource\"?",
       options: [
@@ -10104,9 +9918,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "Printed books, magazines, and encyclopedias are examples of print resources.",
+      explanation:
+          "Printed books, magazines, and encyclopedias are examples of print resources.",
     ),
-
     QuizQuestion(
       question: "3. Why do we use a T-chart during the planning phase?",
       options: [
@@ -10117,9 +9931,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A T-chart helps organize ideas and information into clear categories before writing.",
+      explanation:
+          "A T-chart helps organize ideas and information into clear categories before writing.",
     ),
-
     QuizQuestion(
       question: "4. A \"challenging topic\" for a school article might be:",
       options: [
@@ -10130,9 +9944,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A challenging topic requires research, analysis, and deeper thinking.",
+      explanation:
+          "A challenging topic requires research, analysis, and deeper thinking.",
     ),
-
     QuizQuestion(
       question: "5. What should every paragraph in an article contain?",
       options: [
@@ -10143,11 +9957,12 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Each paragraph should have one main idea supported by relevant details.",
+      explanation:
+          "Each paragraph should have one main idea supported by relevant details.",
     ),
-
     QuizQuestion(
-      question: "6. Which of these is a way to express a personal view to a group?",
+      question:
+          "6. Which of these is a way to express a personal view to a group?",
       options: [
         "Writing a report for a public meeting.",
         "Keeping your ideas in a locked box.",
@@ -10156,9 +9971,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "A report for a public meeting communicates information and opinions to an audience.",
+      explanation:
+          "A report for a public meeting communicates information and opinions to an audience.",
     ),
-
     QuizQuestion(
       question: "7. When is an autobiography used in article writing?",
       options: [
@@ -10171,7 +9986,6 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       difficulty: "Easy",
       explanation: "An autobiography tells the story of the writer's own life.",
     ),
-
     QuizQuestion(
       question: "8. What does it mean for research to be \"relevant\"?",
       options: [
@@ -10182,11 +9996,12 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Relevant research directly supports the topic and purpose of your writing.",
+      explanation:
+          "Relevant research directly supports the topic and purpose of your writing.",
     ),
-
     QuizQuestion(
-      question: "9. Which format would be best for a quick, catchy radio message about a school event?",
+      question:
+          "9. Which format would be best for a quick, catchy radio message about a school event?",
       options: [
         "A 10-page report.",
         "A jingle.",
@@ -10195,9 +10010,9 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Jingles are short, memorable, and designed to catch listeners' attention.",
+      explanation:
+          "Jingles are short, memorable, and designed to catch listeners' attention.",
     ),
-
     QuizQuestion(
       question: "10. Why is it important to use a \"wide range\" of resources?",
       options: [
@@ -10208,7 +10023,8 @@ final QuizModel jhs2s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Using a variety of reliable sources helps verify facts and provides more complete information.",
+      explanation:
+          "Using a variety of reliable sources helps verify facts and provides more complete information.",
     ),
   ],
 );
@@ -10225,9 +10041,9 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "In a dialogue script, the speaker's name is followed by a colon before the spoken words.",
+      explanation:
+          "In a dialogue script, the speaker's name is followed by a colon before the spoken words.",
     ),
-
     QuizQuestion(
       question: "2. What is the purpose of \"Advice to characters\"?",
       options: [
@@ -10238,48 +10054,35 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Advice or stage directions tell characters how they should perform or behave.",
+      explanation:
+          "Advice or stage directions tell characters how they should perform or behave.",
     ),
-
     QuizQuestion(
-      question: "3. What do we call the brief description of the setting before a dialogue begins?",
-      options: [
-        "A summary.",
-        "A scenario.",
-        "A title.",
-        "A conclusion."
-      ],
+      question:
+          "3. What do we call the brief description of the setting before a dialogue begins?",
+      options: ["A summary.", "A scenario.", "A title.", "A conclusion."],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A scenario describes the situation, setting, and location before the dialogue starts.",
+      explanation:
+          "A scenario describes the situation, setting, and location before the dialogue starts.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is a correctly formatted stage direction?",
-      options: [
-        ".shouting:",
-        "\"shouting\"",
-        "(shouting)",
-        "SHOUTING!"
-      ],
+      options: [".shouting:", "\"shouting\"", "(shouting)", "SHOUTING!"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Stage directions are typically written in brackets or parentheses.",
+      explanation:
+          "Stage directions are typically written in brackets or parentheses.",
     ),
-
     QuizQuestion(
-      question: "5. In a script with three people talking, how many interlocutors are there?",
-      options: [
-        "One",
-        "Two",
-        "Three",
-        "None"
-      ],
+      question:
+          "5. In a script with three people talking, how many interlocutors are there?",
+      options: ["One", "Two", "Three", "None"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Each speaker taking part in the conversation is an interlocutor.",
+      explanation:
+          "Each speaker taking part in the conversation is an interlocutor.",
     ),
-
     QuizQuestion(
       question: "6. Why are quotation marks not used in dialogue scripts?",
       options: [
@@ -10290,11 +10093,12 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The script format identifies the speaker with a name and colon, making quotation marks unnecessary.",
+      explanation:
+          "The script format identifies the speaker with a name and colon, making quotation marks unnecessary.",
     ),
-
     QuizQuestion(
-      question: "7. Which theme would be most appropriate for a dialogue between a doctor and a patient?",
+      question:
+          "7. Which theme would be most appropriate for a dialogue between a doctor and a patient?",
       options: [
         "How to play football.",
         "Discussing health and medicine.",
@@ -10303,9 +10107,9 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The dialogue's theme should match the characters and situation.",
+      explanation:
+          "The dialogue's theme should match the characters and situation.",
     ),
-
     QuizQuestion(
       question: "8. Where are stage directions usually placed?",
       options: [
@@ -10316,11 +10120,12 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Stage directions appear near the dialogue they describe, often before the speech or on their own line.",
+      explanation:
+          "Stage directions appear near the dialogue they describe, often before the speech or on their own line.",
     ),
-
     QuizQuestion(
-      question: "9. \"The market is bustling. Yaw is trying to sell his yams.\" This is an example of:",
+      question:
+          "9. \"The market is bustling. Yaw is trying to sell his yams.\" This is an example of:",
       options: [
         "A dialogue line.",
         "A scenario.",
@@ -10329,9 +10134,9 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A scenario introduces the setting and context before the dialogue begins.",
+      explanation:
+          "A scenario introduces the setting and context before the dialogue begins.",
     ),
-
     QuizQuestion(
       question: "10. What is the most important goal of writing a dialogue?",
       options: [
@@ -10342,7 +10147,8 @@ final QuizModel jhs2s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Good dialogue sounds natural and reflects how people communicate in real life.",
+      explanation:
+          "Good dialogue sounds natural and reflects how people communicate in real life.",
     ),
   ],
 );
@@ -10359,9 +10165,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The body of a speech contains the main ideas, information, and supporting details.",
+      explanation:
+          "The body of a speech contains the main ideas, information, and supporting details.",
     ),
-
     QuizQuestion(
       question: "2. A speech for a graduation ceremony is an example of:",
       options: [
@@ -10372,22 +10178,18 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "Graduation speeches are prepared for a particular event or occasion.",
+      explanation:
+          "Graduation speeches are prepared for a particular event or occasion.",
     ),
-
     QuizQuestion(
-      question: "3. Which skill helps you share a personal story within a speech?",
-      options: [
-        "Narrative",
-        "Explanatory",
-        "Statistical",
-        "Technical"
-      ],
+      question:
+          "3. Which skill helps you share a personal story within a speech?",
+      options: ["Narrative", "Explanatory", "Statistical", "Technical"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Narrative skills help speakers share stories and personal experiences.",
+      explanation:
+          "Narrative skills help speakers share stories and personal experiences.",
     ),
-
     QuizQuestion(
       question: "4. What does it mean to \"appeal to emotions\"?",
       options: [
@@ -10398,9 +10200,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Emotional appeals connect with the audience's feelings and emotions.",
+      explanation:
+          "Emotional appeals connect with the audience's feelings and emotions.",
     ),
-
     QuizQuestion(
       question: "5. In the conclusion, you should:",
       options: [
@@ -10411,9 +10213,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The conclusion summarizes the main points and reinforces the message.",
+      explanation:
+          "The conclusion summarizes the main points and reinforces the message.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a \"Logical Appeal\"?",
       options: [
@@ -10424,11 +10226,12 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Logical appeals use facts, evidence, and reasoning to persuade the audience.",
+      explanation:
+          "Logical appeals use facts, evidence, and reasoning to persuade the audience.",
     ),
-
     QuizQuestion(
-      question: "7. When writing a speech, why is \"descriptive\" language useful?",
+      question:
+          "7. When writing a speech, why is \"descriptive\" language useful?",
       options: [
         "It makes the speech shorter.",
         "It helps the audience visualize your points.",
@@ -10437,9 +10240,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Descriptive language creates vivid mental images that make ideas easier to understand.",
+      explanation:
+          "Descriptive language creates vivid mental images that make ideas easier to understand.",
     ),
-
     QuizQuestion(
       question: "8. What is the \"Introduction\" designed to do?",
       options: [
@@ -10450,9 +10253,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "The introduction introduces the topic and prepares the audience for what will follow.",
+      explanation:
+          "The introduction introduces the topic and prepares the audience for what will follow.",
     ),
-
     QuizQuestion(
       question: "9. A good speech should be:",
       options: [
@@ -10463,9 +10266,9 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Effective speeches balance logical arguments with emotional appeal.",
+      explanation:
+          "Effective speeches balance logical arguments with emotional appeal.",
     ),
-
     QuizQuestion(
       question: "10. What is a \"Manifesto\"?",
       options: [
@@ -10476,7 +10279,8 @@ final QuizModel jhs2s4ss2Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A manifesto explains a candidate's plans, goals, and promises when seeking a leadership position.",
+      explanation:
+          "A manifesto explains a candidate's plans, goals, and promises when seeking a leadership position.",
     ),
   ],
 );
@@ -10484,7 +10288,8 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/6. QUIZ.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the first thing you should read when looking at a table or graph?",
+      question:
+          "1. What is the first thing you should read when looking at a table or graph?",
       options: [
         "The numbers at the bottom",
         "The title of the source",
@@ -10493,24 +10298,21 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The title tells you what the table or graph is about before you examine the data.",
+      explanation:
+          "The title tells you what the table or graph is about before you examine the data.",
     ),
-
     QuizQuestion(
-      question: "2. Which source is best for showing the location of towns in the Ashanti Region?",
-      options: [
-        "A bar graph",
-        "A pie chart",
-        "A map",
-        "A data table"
-      ],
+      question:
+          "2. Which source is best for showing the location of towns in the Ashanti Region?",
+      options: ["A bar graph", "A pie chart", "A map", "A data table"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Maps are used to show locations, distances, and geographical features.",
+      explanation:
+          "Maps are used to show locations, distances, and geographical features.",
     ),
-
     QuizQuestion(
-      question: "3. If a table shows Kenkey costs 5 Cedis and Fried Fish costs 10 Cedis, what is true?",
+      question:
+          "3. If a table shows Kenkey costs 5 Cedis and Fried Fish costs 10 Cedis, what is true?",
       options: [
         "Fish is more expensive than Kenkey.",
         "Kenkey is more popular than Fish.",
@@ -10519,9 +10321,9 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The table directly shows that Fried Fish costs more than Kenkey.",
+      explanation:
+          "The table directly shows that Fried Fish costs more than Kenkey.",
     ),
-
     QuizQuestion(
       question: "4. Which phrase helps you introduce evidence from a graph?",
       options: [
@@ -10532,11 +10334,12 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "This phrase clearly refers readers to the visual evidence in the graph.",
+      explanation:
+          "This phrase clearly refers readers to the visual evidence in the graph.",
     ),
-
     QuizQuestion(
-      question: "5. A graph shows tree planting increased by 50% in 2023. What does this mean?",
+      question:
+          "5. A graph shows tree planting increased by 50% in 2023. What does this mean?",
       options: [
         "More trees were cut down in 2023.",
         "There were no trees left in 2023.",
@@ -10545,9 +10348,9 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "An increase in tree planting means that more trees were planted.",
+      explanation:
+          "An increase in tree planting means that more trees were planted.",
     ),
-
     QuizQuestion(
       question: "6. Why do writers use tables and figures in their work?",
       options: [
@@ -10558,11 +10361,12 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Tables and figures provide factual evidence that supports the writer's ideas.",
+      explanation:
+          "Tables and figures provide factual evidence that supports the writer's ideas.",
     ),
-
     QuizQuestion(
-      question: "7. A map shows a gold mine in Obuasi. How do you use this in an essay?",
+      question:
+          "7. A map shows a gold mine in Obuasi. How do you use this in an essay?",
       options: [
         "Obuasi is a very famous town in Ghana.",
         "Gold is a very shiny and expensive metal.",
@@ -10571,9 +10375,9 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "This statement directly cites the information presented on the map.",
+      explanation:
+          "This statement directly cites the information presented on the map.",
     ),
-
     QuizQuestion(
       question: "8. What does \"interpreting\" a graph mean?",
       options: [
@@ -10584,11 +10388,12 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Interpreting a graph means explaining what the data shows and what it means.",
+      explanation:
+          "Interpreting a graph means explaining what the data shows and what it means.",
     ),
-
     QuizQuestion(
-      question: "9. A table shows 10 students speak Ewe, 5 speak Ga, and 20 speak Twi. What is the trend?",
+      question:
+          "9. A table shows 10 students speak Ewe, 5 speak Ga, and 20 speak Twi. What is the trend?",
       options: [
         "Twi is the most spoken language in this group.",
         "No one in the school speaks English.",
@@ -10597,11 +10402,12 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Since 20 is the highest value, Twi is the most commonly spoken language in the group.",
+      explanation:
+          "Since 20 is the highest value, Twi is the most commonly spoken language in the group.",
     ),
-
     QuizQuestion(
-      question: "10. When using a diagram of a borehole, which is a factual statement?",
+      question:
+          "10. When using a diagram of a borehole, which is a factual statement?",
       options: [
         "Clean water is very important for health.",
         "The diagram shows the depth of the borehole.",
@@ -10610,7 +10416,8 @@ final QuizModel jhs2s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "A borehole diagram provides factual information such as its structure and depth.",
+      explanation:
+          "A borehole diagram provides factual information such as its structure and depth.",
     ),
   ],
 );
@@ -10619,20 +10426,17 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the primary theme of \"The Old Man and His Children\"?",
-      options: [
-        "Unity",
-        "Wealth",
-        "Bravery",
-        "Nature"
-      ],
+      question:
+          "1. What is the primary theme of \"The Old Man and His Children\"?",
+      options: ["Unity", "Wealth", "Bravery", "Nature"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The story teaches that people are stronger when they remain united.",
+      explanation:
+          "The story teaches that people are stronger when they remain united.",
     ),
-
     QuizQuestion(
-      question: "2. What does the \"bundle of sticks\" symbolize in the narrative?",
+      question:
+          "2. What does the \"bundle of sticks\" symbolize in the narrative?",
       options: [
         "A messy house",
         "The father's age",
@@ -10641,11 +10445,12 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The bundle of sticks represents the strength of family members working together.",
+      explanation:
+          "The bundle of sticks represents the strength of family members working together.",
     ),
-
     QuizQuestion(
-      question: "3. In the story, the sons were always quarrelling. What does \"quarrelling\" mean?",
+      question:
+          "3. In the story, the sons were always quarrelling. What does \"quarrelling\" mean?",
       options: [
         "Playing games",
         "Working hard",
@@ -10656,9 +10461,9 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Quarrelling means arguing or fighting with one another.",
     ),
-
     QuizQuestion(
-      question: "4. Why did the father feel it was urgent to teach this lesson?",
+      question:
+          "4. Why did the father feel it was urgent to teach this lesson?",
       options: [
         "He was going on a long trip.",
         "He was old and worried about his death.",
@@ -10667,9 +10472,9 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The father wanted his children to remain united after he was gone.",
+      explanation:
+          "The father wanted his children to remain united after he was gone.",
     ),
-
     QuizQuestion(
       question: "5. A story that is \"didactic\" is intended to:",
       options: [
@@ -10680,11 +10485,12 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Didactic stories are written to teach an important moral or lesson.",
+      explanation:
+          "Didactic stories are written to teach an important moral or lesson.",
     ),
-
     QuizQuestion(
-      question: "6. Which character is the protagonist or main person driving the lesson?",
+      question:
+          "6. Which character is the protagonist or main person driving the lesson?",
       options: [
         "The eldest son",
         "The youngest son",
@@ -10693,9 +10499,9 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The old man teaches the lesson that drives the entire story.",
+      explanation:
+          "The old man teaches the lesson that drives the entire story.",
     ),
-
     QuizQuestion(
       question: "7. How did the sons feel when they couldn't break the bundle?",
       options: [
@@ -10706,9 +10512,9 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The sons discovered that the bundle was too strong to break individually.",
+      explanation:
+          "The sons discovered that the bundle was too strong to break individually.",
     ),
-
     QuizQuestion(
       question: "8. The setting of this story is most likely:",
       options: [
@@ -10719,9 +10525,9 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The story takes place in a traditional family or village home setting.",
+      explanation:
+          "The story takes place in a traditional family or village home setting.",
     ),
-
     QuizQuestion(
       question: "9. What is the resolution of this story?",
       options: [
@@ -10732,11 +10538,12 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "The story ends with the sons understanding the importance of staying united.",
+      explanation:
+          "The story ends with the sons understanding the importance of staying united.",
     ),
-
     QuizQuestion(
-      question: "10. If the sons continue to fight after the father dies, what does the story suggest will happen?",
+      question:
+          "10. If the sons continue to fight after the father dies, what does the story suggest will happen?",
       options: [
         "They will become very rich.",
         "They will be easily defeated by others.",
@@ -10745,7 +10552,8 @@ final QuizModel jhs2s5ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Like single sticks, divided people are weak and can easily be overcome.",
+      explanation:
+          "Like single sticks, divided people are weak and can easily be overcome.",
     ),
   ],
 );
@@ -10764,22 +10572,17 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "V. B. Aakye is the Ghanaian poet who wrote this poem.",
     ),
-
     QuizQuestion(
       question: "2. In poetry, a group of lines that form a unit is called a:",
-      options: [
-        "Stanza",
-        "Sentence",
-        "Chapter",
-        "Paragraph"
-      ],
+      options: ["Stanza", "Sentence", "Chapter", "Paragraph"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "A stanza is a group of lines in a poem, similar to a paragraph in prose.",
+      explanation:
+          "A stanza is a group of lines in a poem, similar to a paragraph in prose.",
     ),
-
     QuizQuestion(
-      question: "3. The poem explores the idea that God is \"universal.\" What does this mean?",
+      question:
+          "3. The poem explores the idea that God is \"universal.\" What does this mean?",
       options: [
         "He only lives in the stars.",
         "He is available to all people everywhere.",
@@ -10788,35 +10591,27 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Universal means that God belongs to and is available to everyone, regardless of race or location.",
+      explanation:
+          "Universal means that God belongs to and is available to everyone, regardless of race or location.",
     ),
-
     QuizQuestion(
-      question: "4. Which of the following is a poetic device used to create mental pictures?",
-      options: [
-        "Calculator",
-        "Imagery",
-        "Dictionary",
-        "Rhyme scheme"
-      ],
+      question:
+          "4. Which of the following is a poetic device used to create mental pictures?",
+      options: ["Calculator", "Imagery", "Dictionary", "Rhyme scheme"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Imagery uses descriptive language that helps readers create vivid mental pictures.",
+      explanation:
+          "Imagery uses descriptive language that helps readers create vivid mental pictures.",
     ),
-
     QuizQuestion(
-      question: "5. According to the poem's logic, if you are Ghanaian, what colour might you imagine God to be?",
-      options: [
-        "Blue",
-        "Invisible",
-        "Green",
-        "Black or Brown"
-      ],
+      question:
+          "5. According to the poem's logic, if you are Ghanaian, what colour might you imagine God to be?",
+      options: ["Blue", "Invisible", "Green", "Black or Brown"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The poem suggests that people often imagine God looking like themselves.",
+      explanation:
+          "The poem suggests that people often imagine God looking like themselves.",
     ),
-
     QuizQuestion(
       question: "6. What is the tone of this poem?",
       options: [
@@ -10827,11 +10622,12 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poem uses a thoughtful and inclusive tone to encourage reflection and acceptance.",
+      explanation:
+          "The poem uses a thoughtful and inclusive tone to encourage reflection and acceptance.",
     ),
-
     QuizQuestion(
-      question: "7. How does the poet feel about people claiming God is only one colour?",
+      question:
+          "7. How does the poet feel about people claiming God is only one colour?",
       options: [
         "He agrees with them.",
         "He wants them to draw more pictures.",
@@ -10840,22 +10636,17 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "The poet believes limiting God to one race or colour is narrow-minded.",
+      explanation:
+          "The poet believes limiting God to one race or colour is narrow-minded.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is NOT a theme discussed in the lesson?",
-      options: [
-        "Equality",
-        "Universality",
-        "Greed",
-        "Unity"
-      ],
+      options: ["Equality", "Universality", "Greed", "Unity"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem focuses on equality, unity, and God's universality, not greed.",
+      explanation:
+          "The poem focuses on equality, unity, and God's universality, not greed.",
     ),
-
     QuizQuestion(
       question: "9. Why is the prism example relevant to the poem?",
       options: [
@@ -10866,9 +10657,9 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The prism illustrates how one source of light contains many colours, just as God belongs to everyone.",
+      explanation:
+          "The prism illustrates how one source of light contains many colours, just as God belongs to everyone.",
     ),
-
     QuizQuestion(
       question: "10. What is the ultimate goal of V. B. Aakye's poem?",
       options: [
@@ -10879,7 +10670,8 @@ final QuizModel jhs2s5ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poem promotes unity, equality, and respect for all people by emphasizing God's universality.",
+      explanation:
+          "The poem promotes unity, equality, and respect for all people by emphasizing God's universality.",
     ),
   ],
 );
@@ -10896,9 +10688,9 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "Efua Sutherland is the renowned Ghanaian playwright who wrote The Marriage of Anansewa.",
+      explanation:
+          "Efua Sutherland is the renowned Ghanaian playwright who wrote The Marriage of Anansewa.",
     ),
-
     QuizQuestion(
       question: "2. What is Ananse's main motivation in the play?",
       options: [
@@ -10909,11 +10701,12 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Ananse's clever schemes are mainly driven by his desire to overcome financial difficulties.",
+      explanation:
+          "Ananse's clever schemes are mainly driven by his desire to overcome financial difficulties.",
     ),
-
     QuizQuestion(
-      question: "3. In the play, what does Ananse use to trick the Chiefs initially?",
+      question:
+          "3. In the play, what does Ananse use to trick the Chiefs initially?",
       options: [
         "A magical spider web.",
         "Fake gold bars.",
@@ -10922,35 +10715,25 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Ananse sends photographs of Anansewa to attract the interest of the Chiefs.",
+      explanation:
+          "Ananse sends photographs of Anansewa to attract the interest of the Chiefs.",
     ),
-
     QuizQuestion(
       question: "4. The musical interludes used in the play are known as:",
-      options: [
-        "Soliloquies",
-        "Stanzas",
-        "Sonnets",
-        "Mboguo"
-      ],
+      options: ["Soliloquies", "Stanzas", "Sonnets", "Mboguo"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Mboguo are traditional songs that help move the story forward and entertain the audience.",
+      explanation:
+          "Mboguo are traditional songs that help move the story forward and entertain the audience.",
     ),
-
     QuizQuestion(
       question: "5. Which word best describes Ananse's character?",
-      options: [
-        "Lazy",
-        "Honest",
-        "Witty",
-        "Frightened"
-      ],
+      options: ["Lazy", "Honest", "Witty", "Frightened"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Ananse is famous for his cleverness and wit, although he often uses trickery.",
+      explanation:
+          "Ananse is famous for his cleverness and wit, although he often uses trickery.",
     ),
-
     QuizQuestion(
       question: "6. What is a \"Satire\"?",
       options: [
@@ -10961,22 +10744,17 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Satire uses humour, irony, or exaggeration to expose and criticize human weaknesses or social problems.",
+      explanation:
+          "Satire uses humour, irony, or exaggeration to expose and criticize human weaknesses or social problems.",
     ),
-
     QuizQuestion(
       question: "7. How many Chiefs does Ananse try to involve in his scheme?",
-      options: [
-        "Two",
-        "Ten",
-        "Four",
-        "One"
-      ],
+      options: ["Two", "Ten", "Four", "One"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Ananse approaches four different Chiefs in an attempt to maximize his gains.",
+      explanation:
+          "Ananse approaches four different Chiefs in an attempt to maximize his gains.",
     ),
-
     QuizQuestion(
       question: "8. \"Anansegoro\" is a fusion of which two things?",
       options: [
@@ -10987,9 +10765,9 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Anansegoro combines Ghanaian oral storytelling traditions with modern stage drama.",
+      explanation:
+          "Anansegoro combines Ghanaian oral storytelling traditions with modern stage drama.",
     ),
-
     QuizQuestion(
       question: "9. Why is the Storyteller allowed to talk to the audience?",
       options: [
@@ -11000,9 +10778,9 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The Storyteller directly engages the audience, which is a key feature of the Anansegoro performance style.",
+      explanation:
+          "The Storyteller directly engages the audience, which is a key feature of the Anansegoro performance style.",
     ),
-
     QuizQuestion(
       question: "10. The play teaches us that greed can lead to:",
       options: [
@@ -11013,7 +10791,8 @@ final QuizModel jhs2s5ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Ananse's greed creates many problems, showing that selfishness often leads to trouble.",
+      explanation:
+          "Ananse's greed creates many problems, showing that selfishness often leads to trouble.",
     ),
   ],
 );
@@ -11030,11 +10809,12 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Ama Ata Aidoo is the Ghanaian author of the famous short story The Girl Who Can.",
+      explanation:
+          "Ama Ata Aidoo is the Ghanaian author of the famous short story The Girl Who Can.",
     ),
-
     QuizQuestion(
-      question: "2. Which character is most critical of Adjoa's physical appearance?",
+      question:
+          "2. Which character is most critical of Adjoa's physical appearance?",
       options: [
         "Her mother",
         "Her teacher",
@@ -11043,11 +10823,12 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Nana constantly criticizes Adjoa's thin legs throughout the story.",
+      explanation:
+          "Nana constantly criticizes Adjoa's thin legs throughout the story.",
     ),
-
     QuizQuestion(
-      question: "3. What does the term \"spindly\" mean in the context of the story?",
+      question:
+          "3. What does the term \"spindly\" mean in the context of the story?",
       options: [
         "Very strong and muscular",
         "Long, thin, and weak-looking",
@@ -11056,9 +10837,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The word 'spindly' describes Adjoa's long and very thin legs.",
+      explanation:
+          "The word 'spindly' describes Adjoa's long and very thin legs.",
     ),
-
     QuizQuestion(
       question: "4. The story suggests that Maami (the mother) is:",
       options: [
@@ -11069,9 +10850,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Maami usually remains quiet while Nana speaks, showing respect and submission.",
+      explanation:
+          "Maami usually remains quiet while Nana speaks, showing respect and submission.",
     ),
-
     QuizQuestion(
       question: "5. Where does the turning point of the story take place?",
       options: [
@@ -11082,9 +10863,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The sports competition becomes the turning point when Adjoa proves her ability.",
+      explanation:
+          "The sports competition becomes the turning point when Adjoa proves her ability.",
     ),
-
     QuizQuestion(
       question: "6. What does Nana do with Adjoa's trophy?",
       options: [
@@ -11095,9 +10876,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Nana proudly carries and carefully cleans the trophy after Adjoa's success.",
+      explanation:
+          "Nana proudly carries and carefully cleans the trophy after Adjoa's success.",
     ),
-
     QuizQuestion(
       question: "7. What is a \"stereotype\"?",
       options: [
@@ -11108,11 +10889,12 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "A stereotype is a simplified belief or assumption about people or things.",
+      explanation:
+          "A stereotype is a simplified belief or assumption about people or things.",
     ),
-
     QuizQuestion(
-      question: "8. Why did Adjoa keep her thoughts to herself most of the time?",
+      question:
+          "8. Why did Adjoa keep her thoughts to herself most of the time?",
       options: [
         "She was unable to speak",
         "She was afraid of her grandmother",
@@ -11121,9 +10903,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "Adjoa explains that adults rarely expected children to express important opinions.",
+      explanation:
+          "Adjoa explains that adults rarely expected children to express important opinions.",
     ),
-
     QuizQuestion(
       question: "9. What is the central theme of the narrative?",
       options: [
@@ -11134,9 +10916,9 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The story emphasizes believing in girls' abilities and recognizing their true potential.",
+      explanation:
+          "The story emphasizes believing in girls' abilities and recognizing their true potential.",
     ),
-
     QuizQuestion(
       question: "10. Why is the ending of the story considered ironic?",
       options: [
@@ -11147,7 +10929,8 @@ final QuizModel jhs2s5ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The same legs Nana once criticized later become the reason for Adjoa's success and the family's pride.",
+      explanation:
+          "The same legs Nana once criticized later become the reason for Adjoa's success and the family's pride.",
     ),
   ],
 );
@@ -11156,30 +10939,20 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Which literary device is most used in \"Desert Rivers\"?",
-      options: [
-        "Metaphor",
-        "Rhyme",
-        "Onomatopoeia",
-        "Alliteration"
-      ],
+      options: ["Metaphor", "Rhyme", "Onomatopoeia", "Alliteration"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The poem is built around an extended metaphor comparing people to deserts hiding rivers beneath the surface.",
+      explanation:
+          "The poem is built around an extended metaphor comparing people to deserts hiding rivers beneath the surface.",
     ),
-
     QuizQuestion(
       question: "2. Lade Wosornu is a famous Ghanaian:",
-      options: [
-        "Surgeon and Poet",
-        "Footballer",
-        "King",
-        "Musician"
-      ],
+      options: ["Surgeon and Poet", "Footballer", "King", "Musician"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Lade Wosornu is well known as both a medical doctor (surgeon) and a poet.",
+      explanation:
+          "Lade Wosornu is well known as both a medical doctor (surgeon) and a poet.",
     ),
-
     QuizQuestion(
       question: "3. In the poem, \"dryness\" on the surface symbolizes:",
       options: [
@@ -11190,9 +10963,9 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The dry surface represents people whose abilities or strengths are hidden from view.",
+      explanation:
+          "The dry surface represents people whose abilities or strengths are hidden from view.",
     ),
-
     QuizQuestion(
       question: "4. What is a \"torrent\" in the context of the poem?",
       options: [
@@ -11203,9 +10976,9 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The torrent symbolizes the powerful inner strength and potential hidden within a person.",
+      explanation:
+          "The torrent symbolizes the powerful inner strength and potential hidden within a person.",
     ),
-
     QuizQuestion(
       question: "5. The theme of \"Desert Rivers\" is primarily about:",
       options: [
@@ -11216,11 +10989,12 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The poem encourages readers to believe in the hidden abilities that people possess.",
+      explanation:
+          "The poem encourages readers to believe in the hidden abilities that people possess.",
     ),
-
     QuizQuestion(
-      question: "6. Why does the poet use geological words like \"crust\" and \"subterranean\"?",
+      question:
+          "6. Why does the poet use geological words like \"crust\" and \"subterranean\"?",
       options: [
         "To show off his vocabulary",
         "Because he likes rocks",
@@ -11229,9 +11003,9 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "These geological terms make the extended metaphor more vivid and realistic.",
+      explanation:
+          "These geological terms make the extended metaphor more vivid and realistic.",
     ),
-
     QuizQuestion(
       question: "7. How does the poem make the reader feel?",
       options: [
@@ -11242,11 +11016,12 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "The poem inspires hope by reminding readers that everyone has hidden strengths waiting to be discovered.",
+      explanation:
+          "The poem inspires hope by reminding readers that everyone has hidden strengths waiting to be discovered.",
     ),
-
     QuizQuestion(
-      question: "8. If a \"desert\" finally reveals its \"river,\" what has happened?",
+      question:
+          "8. If a \"desert\" finally reveals its \"river,\" what has happened?",
       options: [
         "It has rained",
         "A person has achieved their potential or shared their talent",
@@ -11255,11 +11030,12 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The hidden river represents inner potential becoming visible through achievement or action.",
+      explanation:
+          "The hidden river represents inner potential becoming visible through achievement or action.",
     ),
-
     QuizQuestion(
-      question: "9. What does the \"sun\" represent in the line about water being \"hidden from the sun\"?",
+      question:
+          "9. What does the \"sun\" represent in the line about water being \"hidden from the sun\"?",
       options: [
         "The source of heat",
         "The time of day",
@@ -11268,11 +11044,12 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "The sun symbolizes the outside world, which cannot always see the hidden abilities within people.",
+      explanation:
+          "The sun symbolizes the outside world, which cannot always see the hidden abilities within people.",
     ),
-
     QuizQuestion(
-      question: "10. \"Desert Rivers\" is also a short story in *The Cockcrow*. True or False?",
+      question:
+          "10. \"Desert Rivers\" is also a short story in *The Cockcrow*. True or False?",
       options: [
         "True, it is a narrative story.",
         "True, it is a letter to a friend.",
@@ -11281,7 +11058,8 @@ final QuizModel jhs2s5ss1Lesson5QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Lade Wosornu wrote both a poem titled \"Desert Rivers\" and a narrative piece with the same title included in the anthology.",
+      explanation:
+          "Lade Wosornu wrote both a poem titled \"Desert Rivers\" and a narrative piece with the same title included in the anthology.",
     ),
   ],
 );
@@ -11290,17 +11068,12 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Who is the author of \"The Colour of God\"?",
-      options: [
-        "V. B. Aakye",
-        "Ama Ata Aidoo",
-        "Lade Wosornu",
-        "Jean Watson"
-      ],
+      options: ["V. B. Aakye", "Ama Ata Aidoo", "Lade Wosornu", "Jean Watson"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "V. B. Aakye is the Ghanaian poet who wrote the poem \"The Colour of God.\"",
+      explanation:
+          "V. B. Aakye is the Ghanaian poet who wrote the poem \"The Colour of God.\"",
     ),
-
     QuizQuestion(
       question: "2. What does the poet conclude about the colour of God?",
       options: [
@@ -11311,11 +11084,12 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The poem teaches that God is universal and cannot be limited to a single race or colour.",
+      explanation:
+          "The poem teaches that God is universal and cannot be limited to a single race or colour.",
     ),
-
     QuizQuestion(
-      question: "3. A question asked for effect rather than for an answer is called a:",
+      question:
+          "3. A question asked for effect rather than for an answer is called a:",
       options: [
         "Simple question",
         "Rhetorical question",
@@ -11324,9 +11098,9 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A rhetorical question is used to make readers think rather than to receive an actual answer.",
+      explanation:
+          "A rhetorical question is used to make readers think rather than to receive an actual answer.",
     ),
-
     QuizQuestion(
       question: "4. Why is this poem considered \"didactic\"?",
       options: [
@@ -11337,9 +11111,9 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Didactic literature is written to teach or instruct readers about important values.",
+      explanation:
+          "Didactic literature is written to teach or instruct readers about important values.",
     ),
-
     QuizQuestion(
       question: "5. Which of these is NOT a theme in the poem?",
       options: [
@@ -11350,24 +11124,21 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem focuses on equality, unity, and God's universality, not on construction or buildings.",
+      explanation:
+          "The poem focuses on equality, unity, and God's universality, not on construction or buildings.",
     ),
-
     QuizQuestion(
-      question: "6. In the poem, \"snow\" might be used by some to describe God as:",
-      options: [
-        "Cold",
-        "Melting",
-        "Soft",
-        "White"
-      ],
+      question:
+          "6. In the poem, \"snow\" might be used by some to describe God as:",
+      options: ["Cold", "Melting", "Soft", "White"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The poem explains that people often imagine God using images familiar to their own environment, such as white snow.",
+      explanation:
+          "The poem explains that people often imagine God using images familiar to their own environment, such as white snow.",
     ),
-
     QuizQuestion(
-      question: "7. What does the poem suggest about the relationship between different races?",
+      question:
+          "7. What does the poem suggest about the relationship between different races?",
       options: [
         "They should stay separate.",
         "They should all wear the same colour.",
@@ -11376,22 +11147,17 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The poem promotes equality by showing that God belongs to all humanity.",
+      explanation:
+          "The poem promotes equality by showing that God belongs to all humanity.",
     ),
-
     QuizQuestion(
       question: "8. The tone of the poem can best be described as:",
-      options: [
-        "Angry",
-        "Silly",
-        "Confused",
-        "Reflective and wise"
-      ],
+      options: ["Angry", "Silly", "Confused", "Reflective and wise"],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The poet thoughtfully reflects on God's universality and encourages readers to think deeply.",
+      explanation:
+          "The poet thoughtfully reflects on God's universality and encourages readers to think deeply.",
     ),
-
     QuizQuestion(
       question: "9. If God is \"Universal,\" He is like:",
       options: [
@@ -11402,11 +11168,12 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Like the sun, a universal God is available equally to all people regardless of race or nationality.",
+      explanation:
+          "Like the sun, a universal God is available equally to all people regardless of race or nationality.",
     ),
-
     QuizQuestion(
-      question: "10. What is the best way to practice the lesson of this poem in your JHS?",
+      question:
+          "10. What is the best way to practice the lesson of this poem in your JHS?",
       options: [
         "By only talking to people who look like you.",
         "By treating every student with respect and kindness regardless of their tribe or appearance.",
@@ -11415,7 +11182,8 @@ final QuizModel jhs2s5ss1Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The poem encourages respect, equality, and kindness toward everyone, regardless of differences.",
+      explanation:
+          "The poem encourages respect, equality, and kindness toward everyone, regardless of differences.",
     ),
   ],
 );
@@ -11432,11 +11200,12 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Lawrence Darmani is the Ghanaian author of the poem \"Scribbler's Dream.\"",
+      explanation:
+          "Lawrence Darmani is the Ghanaian author of the poem \"Scribbler's Dream.\"",
     ),
-
     QuizQuestion(
-      question: "2. The \"Scribbler\" has a \"Dream.\" What does this dream consist of?",
+      question:
+          "2. The \"Scribbler\" has a \"Dream.\" What does this dream consist of?",
       options: [
         "Winning a lottery.",
         "Creative ideas and stories.",
@@ -11445,9 +11214,9 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The dream represents the writer's creative ideas, imagination, and potential.",
+      explanation:
+          "The dream represents the writer's creative ideas, imagination, and potential.",
     ),
-
     QuizQuestion(
       question: "3. What does it mean to \"stifle\" a dream?",
       options: [
@@ -11458,35 +11227,26 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "To stifle a dream means to suppress or prevent it from developing.",
+      explanation:
+          "To stifle a dream means to suppress or prevent it from developing.",
     ),
-
     QuizQuestion(
-      question: "4. Which literary device is used when the poet describes the dream as \"dying\"?",
-      options: [
-        "Simile",
-        "Personification",
-        "Metaphor",
-        "Onomatopoeia"
-      ],
+      question:
+          "4. Which literary device is used when the poet describes the dream as \"dying\"?",
+      options: ["Simile", "Personification", "Metaphor", "Onomatopoeia"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Giving a dream human qualities such as dying is an example of personification.",
+      explanation:
+          "Giving a dream human qualities such as dying is an example of personification.",
     ),
-
     QuizQuestion(
       question: "5. The poem is a call to avoid:",
-      options: [
-        "Hard work",
-        "Reading books",
-        "Procrastination",
-        "Singing"
-      ],
+      options: ["Hard work", "Reading books", "Procrastination", "Singing"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem encourages readers not to delay acting on their dreams.",
+      explanation:
+          "The poem encourages readers not to delay acting on their dreams.",
     ),
-
     QuizQuestion(
       question: "6. What does the poet mean by \"the wealth of the mind\"?",
       options: [
@@ -11497,9 +11257,9 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poet describes ideas, creativity, and talents as a person's true inner wealth.",
+      explanation:
+          "The poet describes ideas, creativity, and talents as a person's true inner wealth.",
     ),
-
     QuizQuestion(
       question: "7. The tone of the poem is best described as:",
       options: [
@@ -11510,11 +11270,12 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The poet motivates readers to act on their dreams without delay.",
+      explanation:
+          "The poet motivates readers to act on their dreams without delay.",
     ),
-
     QuizQuestion(
-      question: "8. In the poem, a dream that is never written down is compared to:",
+      question:
+          "8. In the poem, a dream that is never written down is compared to:",
       options: [
         "A bright sun.",
         "Something that withers or disappears.",
@@ -11523,11 +11284,12 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The image of withering emphasizes how neglected dreams fade away.",
+      explanation:
+          "The image of withering emphasizes how neglected dreams fade away.",
     ),
-
     QuizQuestion(
-      question: "9. Why might Lawrence Darmani have written this poem for JHS students?",
+      question:
+          "9. Why might Lawrence Darmani have written this poem for JHS students?",
       options: [
         "To teach them how to use a pen.",
         "To encourage them to pursue their talents early in life.",
@@ -11536,11 +11298,12 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poem encourages young people to develop their talents while they are still young.",
+      explanation:
+          "The poem encourages young people to develop their talents while they are still young.",
     ),
-
     QuizQuestion(
-      question: "10. The ultimate \"Resolution\" of the poet's argument is that:",
+      question:
+          "10. The ultimate \"Resolution\" of the poet's argument is that:",
       options: [
         "Dreams are useless.",
         "Dreams are only for rich people.",
@@ -11549,7 +11312,8 @@ final QuizModel jhs2s5ss1Lesson7QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "The poem teaches that dreams only become reality when they are supported by action and hard work.",
+      explanation:
+          "The poem teaches that dreams only become reality when they are supported by action and hard work.",
     ),
   ],
 );
@@ -11557,18 +11321,14 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. \"The Dilemma of a Ghost\" is a play. What is the literary term for a play?",
-      options: [
-        "Narrative",
-        "Poetry",
-        "Drama",
-        "Short Story"
-      ],
+      question:
+          "1. \"The Dilemma of a Ghost\" is a play. What is the literary term for a play?",
+      options: ["Narrative", "Poetry", "Drama", "Short Story"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Drama is the genre of literature written to be performed on stage.",
+      explanation:
+          "Drama is the genre of literature written to be performed on stage.",
     ),
-
     QuizQuestion(
       question: "2. Ato Yawson belongs to which clan?",
       options: [
@@ -11581,7 +11341,6 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "The Odumna Clan is Ato Yawson's family clan in the play.",
     ),
-
     QuizQuestion(
       question: "3. What does Eulalie do that shocks the village women?",
       options: [
@@ -11592,9 +11351,9 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Eulalie's modern habits, such as smoking and wasting food, surprise the village women.",
+      explanation:
+          "Eulalie's modern habits, such as smoking and wasting food, surprise the village women.",
     ),
-
     QuizQuestion(
       question: "4. In the play, who are the \"Two Village Women\"?",
       options: [
@@ -11605,9 +11364,9 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The Two Village Women serve as a chorus, commenting on events and reflecting community opinions.",
+      explanation:
+          "The Two Village Women serve as a chorus, commenting on events and reflecting community opinions.",
     ),
-
     QuizQuestion(
       question: "5. A \"Dilemma\" is best defined as:",
       options: [
@@ -11618,9 +11377,9 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "A dilemma is a difficult situation involving a choice between challenging alternatives.",
+      explanation:
+          "A dilemma is a difficult situation involving a choice between challenging alternatives.",
     ),
-
     QuizQuestion(
       question: "6. Why does the family try to \"wash\" Eulalie with medicine?",
       options: [
@@ -11631,9 +11390,9 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The family believes Eulalie's failure to become pregnant is caused by a medical or spiritual problem.",
+      explanation:
+          "The family believes Eulalie's failure to become pregnant is caused by a medical or spiritual problem.",
     ),
-
     QuizQuestion(
       question: "7. The \"Ghost\" in the title refers most significantly to:",
       options: [
@@ -11644,11 +11403,12 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "Ato is metaphorically a 'ghost' because he belongs fully to neither his traditional culture nor his Western life.",
+      explanation:
+          "Ato is metaphorically a 'ghost' because he belongs fully to neither his traditional culture nor his Western life.",
     ),
-
     QuizQuestion(
-      question: "8. Which character is the most understanding of Eulalie at the very end?",
+      question:
+          "8. Which character is the most understanding of Eulalie at the very end?",
       options: [
         "Ato's father.",
         "Esi Kom (Ato's mother).",
@@ -11657,9 +11417,9 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "By the end of the play, Esi Kom shows empathy and accepts Eulalie into the family.",
+      explanation:
+          "By the end of the play, Esi Kom shows empathy and accepts Eulalie into the family.",
     ),
-
     QuizQuestion(
       question: "9. What is the main theme of this play?",
       options: [
@@ -11670,11 +11430,12 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The play mainly explores the conflict between traditional African customs and Western values.",
+      explanation:
+          "The play mainly explores the conflict between traditional African customs and Western values.",
     ),
-
     QuizQuestion(
-      question: "10. Ato's failure to communicate with his wife and family makes him:",
+      question:
+          "10. Ato's failure to communicate with his wife and family makes him:",
       options: [
         "A tragic or flawed character.",
         "A hero.",
@@ -11683,7 +11444,8 @@ final QuizModel jhs2s5ss1Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Ato's silence and inability to communicate create much of the conflict, making him a flawed tragic character.",
+      explanation:
+          "Ato's silence and inability to communicate create much of the conflict, making him a flawed tragic character.",
     ),
   ],
 );
@@ -11700,11 +11462,12 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Anowa is known for her independence and determination to make her own choices.",
+      explanation:
+          "Anowa is known for her independence and determination to make her own choices.",
     ),
-
     QuizQuestion(
-      question: "2. The nickname \"The-Mouth-That-Eats-Salt-And-Pepper\" refers to:",
+      question:
+          "2. The nickname \"The-Mouth-That-Eats-Salt-And-Pepper\" refers to:",
       options: [
         "The Old Man and The Old Woman",
         "A traditional Ghanaian recipe",
@@ -11713,22 +11476,17 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The nickname refers to the Old Man and Old Woman, who act as commentators throughout the play.",
+      explanation:
+          "The nickname refers to the Old Man and Old Woman, who act as commentators throughout the play.",
     ),
-
     QuizQuestion(
       question: "3. What is the name of the man Anowa chooses to marry?",
-      options: [
-        "Kofi Ako",
-        "Ato",
-        "Osam",
-        "Kweku Ananse"
-      ],
+      options: ["Kofi Ako", "Ato", "Osam", "Kweku Ananse"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Anowa chooses to marry Kofi Ako despite her parents' objections.",
+      explanation:
+          "Anowa chooses to marry Kofi Ako despite her parents' objections.",
     ),
-
     QuizQuestion(
       question: "4. Which character is most critical and judgmental of Anowa?",
       options: [
@@ -11739,11 +11497,12 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The Old Woman often represents society's critical and judgmental opinions.",
+      explanation:
+          "The Old Woman often represents society's critical and judgmental opinions.",
     ),
-
     QuizQuestion(
-      question: "5. Anowa's father, Osam, is often seen smoking his pipe and staying quiet. This suggests he is:",
+      question:
+          "5. Anowa's father, Osam, is often seen smoking his pipe and staying quiet. This suggests he is:",
       options: [
         "Very angry",
         "Passive or less controlling than the mother",
@@ -11752,11 +11511,12 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Osam is portrayed as calmer and less forceful than Badua in family decisions.",
+      explanation:
+          "Osam is portrayed as calmer and less forceful than Badua in family decisions.",
     ),
-
     QuizQuestion(
-      question: "6. The conflict between Anowa and her mother is an example of:",
+      question:
+          "6. The conflict between Anowa and her mother is an example of:",
       options: [
         "Man vs. Nature",
         "Man vs. Machine",
@@ -11765,9 +11525,9 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "The conflict reflects Anowa's struggle against traditional social expectations.",
+      explanation:
+          "The conflict reflects Anowa's struggle against traditional social expectations.",
     ),
-
     QuizQuestion(
       question: "7. Why does Badua (the mother) want Anowa to be \"normal\"?",
       options: [
@@ -11778,9 +11538,9 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Badua believes following tradition will ensure Anowa's acceptance and security.",
+      explanation:
+          "Badua believes following tradition will ensure Anowa's acceptance and security.",
     ),
-
     QuizQuestion(
       question: "\"Anowa\" is set in the 1870s. This period is often called:",
       options: [
@@ -11791,9 +11551,9 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "The play is set during the late nineteenth century, within the Colonial/Victorian period in the Gold Coast.",
+      explanation:
+          "The play is set during the late nineteenth century, within the Colonial/Victorian period in the Gold Coast.",
     ),
-
     QuizQuestion(
       question: "9. What is the role of a \"Chorus\" in a play?",
       options: [
@@ -11804,11 +11564,12 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A chorus comments on events and helps the audience understand the play's themes.",
+      explanation:
+          "A chorus comments on events and helps the audience understand the play's themes.",
     ),
-
     QuizQuestion(
-      question: "10. The play \"Anowa\" suggests that being \"different\" can lead to:",
+      question:
+          "10. The play \"Anowa\" suggests that being \"different\" can lead to:",
       options: [
         "Getting lots of money",
         "Tension with one's family and society",
@@ -11817,7 +11578,8 @@ final QuizModel jhs2s5ss1Lesson9QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The play explores how individuality can create conflict with traditional family and social expectations.",
+      explanation:
+          "The play explores how individuality can create conflict with traditional family and social expectations.",
     ),
   ],
 );
@@ -11825,7 +11587,8 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Who retold the version of \"The Old Man and His Children\" found in The Cockcrow?",
+      question:
+          "1. Who retold the version of \"The Old Man and His Children\" found in The Cockcrow?",
       options: [
         "Ama Ata Aidoo",
         "Jean Watson",
@@ -11834,9 +11597,9 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Jean Watson is credited with retelling this traditional tale in The Cockcrow.",
+      explanation:
+          "Jean Watson is credited with retelling this traditional tale in The Cockcrow.",
     ),
-
     QuizQuestion(
       question: "2. What is the \"Exposition\" of this story?",
       options: [
@@ -11847,11 +11610,12 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The exposition introduces the father, his sons, and the central conflict of their constant quarrelling.",
+      explanation:
+          "The exposition introduces the father, his sons, and the central conflict of their constant quarrelling.",
     ),
-
     QuizQuestion(
-      question: "3. Why did the father use sticks instead of just telling the sons to stop fighting?",
+      question:
+          "3. Why did the father use sticks instead of just telling the sons to stop fighting?",
       options: [
         "He didn't know how to speak.",
         "A visual demonstration is often more powerful and easier to remember.",
@@ -11860,11 +11624,12 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The father used a practical demonstration to teach the lesson more effectively.",
+      explanation:
+          "The father used a practical demonstration to teach the lesson more effectively.",
     ),
-
     QuizQuestion(
-      question: "4. In the story, the sons were \"strong\" men. Why couldn't they break the bundle?",
+      question:
+          "4. In the story, the sons were \"strong\" men. Why couldn't they break the bundle?",
       options: [
         "The sticks were made of metal.",
         "The power of unity was greater than their individual physical strength.",
@@ -11873,9 +11638,9 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The bundle symbolizes unity, showing that working together creates greater strength.",
+      explanation:
+          "The bundle symbolizes unity, showing that working together creates greater strength.",
     ),
-
     QuizQuestion(
       question: "5. A \"didactic\" story is primarily meant to:",
       options: [
@@ -11886,9 +11651,9 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "A didactic story is written mainly to teach an important lesson or moral.",
+      explanation:
+          "A didactic story is written mainly to teach an important lesson or moral.",
     ),
-
     QuizQuestion(
       question: "6. What is the \"Climax\" of the story?",
       options: [
@@ -11899,11 +11664,12 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The climax occurs when the demonstration reveals the lesson about unity most clearly.",
+      explanation:
+          "The climax occurs when the demonstration reveals the lesson about unity most clearly.",
     ),
-
     QuizQuestion(
-      question: "7. What does the \"twine\" or string that ties the sticks together represent?",
+      question:
+          "7. What does the \"twine\" or string that ties the sticks together represent?",
       options: [
         "Money and wealth.",
         "The bond of love or a common purpose.",
@@ -11912,11 +11678,12 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The twine symbolizes the bond that keeps people united and strong.",
+      explanation:
+          "The twine symbolizes the bond that keeps people united and strong.",
     ),
-
     QuizQuestion(
-      question: "8. If the brothers continue to quarrel after their father dies, what is the predicted outcome?",
+      question:
+          "8. If the brothers continue to quarrel after their father dies, what is the predicted outcome?",
       options: [
         "They will be \"broken\" by their enemies.",
         "They will become more famous.",
@@ -11925,11 +11692,12 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The story warns that division makes people weak and easy to defeat.",
+      explanation:
+          "The story warns that division makes people weak and easy to defeat.",
     ),
-
     QuizQuestion(
-      question: "9. Which character is the \"Antagonist\" or the source of the trouble in the beginning?",
+      question:
+          "9. Which character is the \"Antagonist\" or the source of the trouble in the beginning?",
       options: [
         "The Old Man",
         "The enemies of the family",
@@ -11938,9 +11706,9 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "The main conflict comes from the sons' constant quarrelling with one another.",
+      explanation:
+          "The main conflict comes from the sons' constant quarrelling with one another.",
     ),
-
     QuizQuestion(
       question: "10. The \"Resolution\" of the story occurs when:",
       options: [
@@ -11951,7 +11719,8 @@ final QuizModel jhs2s5ss1Lesson10QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The resolution comes when the father teaches the lesson and the sons understand the value of unity.",
+      explanation:
+          "The resolution comes when the father teaches the lesson and the sons understand the value of unity.",
     ),
   ],
 );
@@ -11968,9 +11737,9 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The story shows how one decision can create lasting consequences that affect the future.",
+      explanation:
+          "The story shows how one decision can create lasting consequences that affect the future.",
     ),
-
     QuizQuestion(
       question: "2. Ama's decision to leave school is a choice between:",
       options: [
@@ -11981,11 +11750,12 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Ama chooses early marriage instead of completing her education, sacrificing long-term stability.",
+      explanation:
+          "Ama chooses early marriage instead of completing her education, sacrificing long-term stability.",
     ),
-
     QuizQuestion(
-      question: "3. In literature, when one event leads to another, it is called:",
+      question:
+          "3. In literature, when one event leads to another, it is called:",
       options: [
         "Rhyme and Rhythm",
         "Stanza and Verse",
@@ -11994,9 +11764,9 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Cause and effect explains how one action produces later consequences, just like the 'ripples' in the story.",
+      explanation:
+          "Cause and effect explains how one action produces later consequences, just like the 'ripples' in the story.",
     ),
-
     QuizQuestion(
       question: "4. Why is the story titled \"Ripples\"?",
       options: [
@@ -12007,24 +11777,20 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The title is a metaphor showing how one decision can create effects that continue to spread.",
+      explanation:
+          "The title is a metaphor showing how one decision can create effects that continue to spread.",
     ),
-
     QuizQuestion(
       question: "5. Which word best describes Ama's feelings as an adult?",
-      options: [
-        "Excitement",
-        "Regret",
-        "Indifference",
-        "Confusion"
-      ],
+      options: ["Excitement", "Regret", "Indifference", "Confusion"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Ama regrets the decisions she made as a teenager because of the hardships they caused.",
+      explanation:
+          "Ama regrets the decisions she made as a teenager because of the hardships they caused.",
     ),
-
     QuizQuestion(
-      question: "6. The author, Peter Paul Adolinama, uses this story as a \"cautionary tale.\" What does this mean?",
+      question:
+          "6. The author, Peter Paul Adolinama, uses this story as a \"cautionary tale.\" What does this mean?",
       options: [
         "It is a story meant to make people laugh.",
         "It is a story that warns people against making similar mistakes.",
@@ -12033,9 +11799,9 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A cautionary tale teaches readers to avoid harmful choices by showing their consequences.",
+      explanation:
+          "A cautionary tale teaches readers to avoid harmful choices by showing their consequences.",
     ),
-
     QuizQuestion(
       question: "7. How does the story depict teenage marriage?",
       options: [
@@ -12046,11 +11812,12 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The story highlights how early marriage can limit opportunities and create long-term difficulties.",
+      explanation:
+          "The story highlights how early marriage can limit opportunities and create long-term difficulties.",
     ),
-
     QuizQuestion(
-      question: "8. What does the daughter's struggle to stay in school represent?",
+      question:
+          "8. What does the daughter's struggle to stay in school represent?",
       options: [
         "Her lack of intelligence.",
         "The \"ripple\" effect of her mother's financial instability.",
@@ -12059,11 +11826,12 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The daughter's difficulties are a direct consequence of Ama's earlier decisions.",
+      explanation:
+          "The daughter's difficulties are a direct consequence of Ama's earlier decisions.",
     ),
-
     QuizQuestion(
-      question: "9. If Ama had listened to her elders in the story, what would she likely have done?",
+      question:
+          "9. If Ama had listened to her elders in the story, what would she likely have done?",
       options: [
         "Married even earlier.",
         "Stayed in school and delayed marriage.",
@@ -12072,9 +11840,9 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The story suggests that completing her education before marriage would have led to a better future.",
+      explanation:
+          "The story suggests that completing her education before marriage would have led to a better future.",
     ),
-
     QuizQuestion(
       question: "10. The \"Resolution\" of a story like \"Ripples\" serves to:",
       options: [
@@ -12085,7 +11853,8 @@ final QuizModel jhs2s5ss1Lesson11QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "In a didactic story, the resolution reinforces the lesson that readers should learn from the events.",
+      explanation:
+          "In a didactic story, the resolution reinforces the lesson that readers should learn from the events.",
     ),
   ],
 );
@@ -12094,17 +11863,12 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. \"Makola\" is located in which Ghanaian city?",
-      options: [
-        "Kumasi",
-        "Tamale",
-        "Accra",
-        "Takoradi"
-      ],
+      options: ["Kumasi", "Tamale", "Accra", "Takoradi"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Makola is the most famous market in Ghana's capital city, Accra.",
+      explanation:
+          "Makola is the most famous market in Ghana's capital city, Accra.",
     ),
-
     QuizQuestion(
       question: "2. What does \"Auditory imagery\" refer to?",
       options: [
@@ -12115,11 +11879,12 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Auditory imagery appeals to the sense of hearing by describing sounds.",
+      explanation:
+          "Auditory imagery appeals to the sense of hearing by describing sounds.",
     ),
-
     QuizQuestion(
-      question: "3. The \"Kayayei\" mentioned in the context of the market are:",
+      question:
+          "3. The \"Kayayei\" mentioned in the context of the market are:",
       options: [
         "People who sell shoes",
         "Female head porters who carry loads for a fee",
@@ -12128,24 +11893,20 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Kayayei are female head porters who transport goods for customers in markets.",
+      explanation:
+          "Kayayei are female head porters who transport goods for customers in markets.",
     ),
-
     QuizQuestion(
       question: "4. Which word is an example of onomatopoeia?",
-      options: [
-        "Market",
-        "Clatter",
-        "Beautiful",
-        "Person"
-      ],
+      options: ["Market", "Clatter", "Beautiful", "Person"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Clatter\" imitates the sound of metal objects striking each other.",
+      explanation:
+          "\"Clatter\" imitates the sound of metal objects striking each other.",
     ),
-
     QuizQuestion(
-      question: "5. Theresa Ennin's poem describes the market as \"chaotic but organized.\" This suggests:",
+      question:
+          "5. Theresa Ennin's poem describes the market as \"chaotic but organized.\" This suggests:",
       options: [
         "No one knows what they are doing.",
         "There is a lot of noise and movement, but the business still works.",
@@ -12154,11 +11915,12 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Although the market appears busy and noisy, it operates through an organized system.",
+      explanation:
+          "Although the market appears busy and noisy, it operates through an organized system.",
     ),
-
     QuizQuestion(
-      question: "6. \"Red, ripe tomatoes piled in pyramids\" uses which two senses?",
+      question:
+          "6. \"Red, ripe tomatoes piled in pyramids\" uses which two senses?",
       options: [
         "Sight and Touch",
         "Smell and Taste",
@@ -12167,9 +11929,9 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "\"Red\" and \"pyramids\" appeal to sight, while \"ripe\" suggests texture that can be felt.",
+      explanation:
+          "\"Red\" and \"pyramids\" appeal to sight, while \"ripe\" suggests texture that can be felt.",
     ),
-
     QuizQuestion(
       question: "7. What is the tone of the poem \"Makola\"?",
       options: [
@@ -12180,11 +11942,12 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The poem celebrates the lively atmosphere and energy of the market.",
+      explanation:
+          "The poem celebrates the lively atmosphere and energy of the market.",
     ),
-
     QuizQuestion(
-      question: "8. If a poet mentions the \"fumes of exhaust from idling engines,\" they are using:",
+      question:
+          "8. If a poet mentions the \"fumes of exhaust from idling engines,\" they are using:",
       options: [
         "Visual imagery",
         "Olfactory imagery (Smell)",
@@ -12195,22 +11958,17 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "Exhaust fumes appeal to the reader's sense of smell.",
     ),
-
     QuizQuestion(
       question: "9. The poem \"Makola\" belongs to which sub-strand?",
-      options: [
-        "Narrative",
-        "Drama",
-        "Poetry",
-        "Essay writing"
-      ],
+      options: ["Narrative", "Drama", "Poetry", "Essay writing"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "\"Makola\" is a descriptive poem and belongs to the Poetry sub-strand.",
+      explanation:
+          "\"Makola\" is a descriptive poem and belongs to the Poetry sub-strand.",
     ),
-
     QuizQuestion(
-      question: "10. Why does the poet focus on the \"struggle\" in the market?",
+      question:
+          "10. Why does the poet focus on the \"struggle\" in the market?",
       options: [
         "To discourage people from going there.",
         "To show the hard work and resilience of ordinary Ghanaians.",
@@ -12219,7 +11977,8 @@ final QuizModel jhs2s5ss1Lesson12QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The poem highlights the resilience, determination, and hard work of everyday people in the market.",
+      explanation:
+          "The poem highlights the resilience, determination, and hard work of everyday people in the market.",
     ),
   ],
 );
@@ -12227,7 +11986,8 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. The name \"Schatz\" is a German nickname. What does it mean?",
+      question:
+          "1. The name \"Schatz\" is a German nickname. What does it mean?",
       options: [
         "Little Soldier",
         "Treasure or Darling",
@@ -12236,22 +11996,18 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "\"Schatz\" is a German term of endearment meaning \"Treasure\" or \"Darling,\" which the father affectionately uses for his son.",
+      explanation:
+          "\"Schatz\" is a German term of endearment meaning \"Treasure\" or \"Darling,\" which the father affectionately uses for his son.",
     ),
-
     QuizQuestion(
-      question: "2. In what country did Schatz go to school and learn about the Celsius scale?",
-      options: [
-        "Ghana",
-        "America",
-        "France",
-        "Germany"
-      ],
+      question:
+          "2. In what country did Schatz go to school and learn about the Celsius scale?",
+      options: ["Ghana", "America", "France", "Germany"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Schatz had studied in France, where temperatures are measured using the Celsius scale, leading to his misunderstanding.",
+      explanation:
+          "Schatz had studied in France, where temperatures are measured using the Celsius scale, leading to his misunderstanding.",
     ),
-
     QuizQuestion(
       question: "3. What is the narrative point of view of this story?",
       options: [
@@ -12262,9 +12018,9 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The father narrates the story from his own perspective as he observes his son's behavior.",
+      explanation:
+          "The father narrates the story from his own perspective as he observes his son's behavior.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is the main conflict in the story?",
       options: [
@@ -12275,9 +12031,9 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The central conflict is Schatz's internal fear and misunderstanding about his illness.",
+      explanation:
+          "The central conflict is Schatz's internal fear and misunderstanding about his illness.",
     ),
-
     QuizQuestion(
       question: "5. Why does Schatz stare at the foot of the bed all day?",
       options: [
@@ -12288,11 +12044,12 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Believing he is going to die, Schatz quietly prepares himself, revealing his intense inner fear.",
+      explanation:
+          "Believing he is going to die, Schatz quietly prepares himself, revealing his intense inner fear.",
     ),
-
     QuizQuestion(
-      question: "6. What does the father do while Schatz is \"waiting to die\"?",
+      question:
+          "6. What does the father do while Schatz is \"waiting to die\"?",
       options: [
         "He goes out to hunt quail.",
         "He cooks a big meal.",
@@ -12301,11 +12058,12 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "The father reads to Schatz and later goes hunting, unaware that his son believes he is dying.",
+      explanation:
+          "The father reads to Schatz and later goes hunting, unaware that his son believes he is dying.",
     ),
-
     QuizQuestion(
-      question: "7. How does the father explain the difference between the thermometers?",
+      question:
+          "7. How does the father explain the difference between the thermometers?",
       options: [
         "Like the difference between miles and kilometres.",
         "Like the difference between a cat and a dog.",
@@ -12314,9 +12072,9 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "The father compares Fahrenheit and Celsius to miles and kilometres to explain that they are simply different measurement systems.",
+      explanation:
+          "The father compares Fahrenheit and Celsius to miles and kilometres to explain that they are simply different measurement systems.",
     ),
-
     QuizQuestion(
       question: "8. What is the tone of the story?",
       options: [
@@ -12327,24 +12085,21 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Hemingway's simple, restrained style creates a calm yet serious tone throughout the story.",
+      explanation:
+          "Hemingway's simple, restrained style creates a calm yet serious tone throughout the story.",
     ),
-
     QuizQuestion(
-      question: "9. The fact that Schatz spent a whole day in terror because of a simple mistake is an example of:",
-      options: [
-        "Irony",
-        "A Happy Ending",
-        "Onomatopoeia",
-        "Alliteration"
-      ],
+      question:
+          "9. The fact that Schatz spent a whole day in terror because of a simple mistake is an example of:",
+      options: ["Irony", "A Happy Ending", "Onomatopoeia", "Alliteration"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "It is ironic because Schatz's suffering was based entirely on a misunderstanding about temperature scales.",
+      explanation:
+          "It is ironic because Schatz's suffering was based entirely on a misunderstanding about temperature scales.",
     ),
-
     QuizQuestion(
-      question: "10. What is the most important lesson about communication in this story?",
+      question:
+          "10. What is the most important lesson about communication in this story?",
       options: [
         "Never listen to doctors.",
         "Always ask questions if you are afraid or confused.",
@@ -12353,7 +12108,8 @@ final QuizModel jhs2s5ss1Lesson13QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "If Schatz had shared his fears or asked questions earlier, he would have avoided unnecessary suffering.",
+      explanation:
+          "If Schatz had shared his fears or asked questions earlier, he would have avoided unnecessary suffering.",
     ),
   ],
 );
@@ -12362,17 +12118,12 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. The poem compares the mother to which time of day?",
-      options: [
-        "Midnight",
-        "High Noon",
-        "Sunrise",
-        "Sunset"
-      ],
+      options: ["Midnight", "High Noon", "Sunrise", "Sunset"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem compares the mother to a sunrise, symbolizing hope, warmth, and a new beginning.",
+      explanation:
+          "The poem compares the mother to a sunrise, symbolizing hope, warmth, and a new beginning.",
     ),
-
     QuizQuestion(
       question: "2. What does it mean if someone \"glints\"?",
       options: [
@@ -12383,22 +12134,18 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "\"Glints\" means to shine or reflect small flashes of light.",
+      explanation:
+          "\"Glints\" means to shine or reflect small flashes of light.",
     ),
-
     QuizQuestion(
-      question: "3. In the poem, the sunrise is \"not with a shout.\" This emphasizes the mother's:",
-      options: [
-        "Laziness",
-        "Gentleness",
-        "Fear of noise",
-        "Hidden anger"
-      ],
+      question:
+          "3. In the poem, the sunrise is \"not with a shout.\" This emphasizes the mother's:",
+      options: ["Laziness", "Gentleness", "Fear of noise", "Hidden anger"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The quiet sunrise symbolizes the mother's calm, gentle, and caring nature.",
+      explanation:
+          "The quiet sunrise symbolizes the mother's calm, gentle, and caring nature.",
     ),
-
     QuizQuestion(
       question: "4. \"Mama is a Sunrise\" is a poem about:",
       options: [
@@ -12409,35 +12156,27 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem celebrates a mother's love, care, and positive influence on her family.",
+      explanation:
+          "The poem celebrates a mother's love, care, and positive influence on her family.",
     ),
-
     QuizQuestion(
-      question: "5. Which sense does the phrase \"glints and glows\" appeal to?",
-      options: [
-        "Hearing",
-        "Smell",
-        "Sight (Visual)",
-        "Taste"
-      ],
+      question:
+          "5. Which sense does the phrase \"glints and glows\" appeal to?",
+      options: ["Hearing", "Smell", "Sight (Visual)", "Taste"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "\"Glints\" and \"glows\" describe light, appealing to the sense of sight.",
+      explanation:
+          "\"Glints\" and \"glows\" describe light, appealing to the sense of sight.",
     ),
-
     QuizQuestion(
-      question: "6. The use of \"nudging\" to describe the sun/mother is an example of:",
-      options: [
-        "Hyperbole",
-        "Personification",
-        "Rhyme",
-        "Irony"
-      ],
+      question:
+          "6. The use of \"nudging\" to describe the sun/mother is an example of:",
+      options: ["Hyperbole", "Personification", "Rhyme", "Irony"],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Giving the sun the human action of \"nudging\" is an example of personification.",
+      explanation:
+          "Giving the sun the human action of \"nudging\" is an example of personification.",
     ),
-
     QuizQuestion(
       question: "7. How does the poet feel about her mother?",
       options: [
@@ -12448,11 +12187,12 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "The poem is a heartfelt tribute expressing admiration, gratitude, and love for the mother.",
+      explanation:
+          "The poem is a heartfelt tribute expressing admiration, gratitude, and love for the mother.",
     ),
-
     QuizQuestion(
-      question: "8. If a mother \"scatters the darkness,\" what is she actually doing for her family?",
+      question:
+          "8. If a mother \"scatters the darkness,\" what is she actually doing for her family?",
       options: [
         "Turning on the electricity.",
         "Cooking breakfast.",
@@ -12461,9 +12201,9 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "\"Darkness\" symbolizes fear or sadness, while the mother brings hope and comfort.",
+      explanation:
+          "\"Darkness\" symbolizes fear or sadness, while the mother brings hope and comfort.",
     ),
-
     QuizQuestion(
       question: "9. The \"warmth\" mentioned in the poem is most likely:",
       options: [
@@ -12474,11 +12214,12 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The warmth represents the love, care, and emotional security a mother provides.",
+      explanation:
+          "The warmth represents the love, care, and emotional security a mother provides.",
     ),
-
     QuizQuestion(
-      question: "10. Why would a poet choose a \"Sunrise\" instead of \"Rain\" to describe a mother?",
+      question:
+          "10. Why would a poet choose a \"Sunrise\" instead of \"Rain\" to describe a mother?",
       options: [
         "Because rain is always bad.",
         "Because a sunrise represents a fresh start and bright, positive energy.",
@@ -12487,7 +12228,8 @@ final QuizModel jhs2s5ss1Lesson14QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "A sunrise symbolizes hope, renewal, warmth, and the positive influence of a loving mother.",
+      explanation:
+          "A sunrise symbolizes hope, renewal, warmth, and the positive influence of a loving mother.",
     ),
   ],
 );
@@ -12495,7 +12237,8 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. The hunter in the story is the protagonist. What does this mean?",
+      question:
+          "1. The hunter in the story is the protagonist. What does this mean?",
       options: [
         "He is the villain or bad guy.",
         "He is the main character who drives the story.",
@@ -12504,11 +12247,12 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The protagonist is the central character whose actions drive the events of the story.",
+      explanation:
+          "The protagonist is the central character whose actions drive the events of the story.",
     ),
-
     QuizQuestion(
-      question: "2. In the story, the hunter's generosity is a test. Who is testing him?",
+      question:
+          "2. In the story, the hunter's generosity is a test. Who is testing him?",
       options: [
         "His wife",
         "The Chief of the village",
@@ -12517,9 +12261,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The old man or stranger tests the hunter's kindness and moral character.",
+      explanation:
+          "The old man or stranger tests the hunter's kindness and moral character.",
     ),
-
     QuizQuestion(
       question: "3. What is reciprocity?",
       options: [
@@ -12530,11 +12274,12 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Reciprocity means giving and receiving kindness or help for mutual benefit.",
+      explanation:
+          "Reciprocity means giving and receiving kindness or help for mutual benefit.",
     ),
-
     QuizQuestion(
-      question: "4. Which of the following best describes the hunter's character?",
+      question:
+          "4. Which of the following best describes the hunter's character?",
       options: [
         "Compassionate and humble",
         "Selfish and fast",
@@ -12543,9 +12288,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The hunter is rewarded because of his compassion, humility, and generosity.",
+      explanation:
+          "The hunter is rewarded because of his compassion, humility, and generosity.",
     ),
-
     QuizQuestion(
       question: "5. Where does the majority of the story take place?",
       options: [
@@ -12556,9 +12301,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The story is set mainly in a traditional forest environment.",
+      explanation:
+          "The story is set mainly in a traditional forest environment.",
     ),
-
     QuizQuestion(
       question: "6. The reward the hunter receives is a result of his:",
       options: [
@@ -12569,9 +12314,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The hunter's kindness and generosity, rather than his hunting skills, earn him the reward.",
+      explanation:
+          "The hunter's kindness and generosity, rather than his hunting skills, earn him the reward.",
     ),
-
     QuizQuestion(
       question: "7. A story that teaches a moral lesson is called:",
       options: [
@@ -12582,9 +12327,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A didactic story is written primarily to teach a moral or lesson.",
+      explanation:
+          "A didactic story is written primarily to teach a moral or lesson.",
     ),
-
     QuizQuestion(
       question: "8. How did the hunter feel when he saw the old man?",
       options: [
@@ -12595,9 +12340,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The hunter's compassion led him to help the old man despite having very little.",
+      explanation:
+          "The hunter's compassion led him to help the old man despite having very little.",
     ),
-
     QuizQuestion(
       question: "9. What does the food symbolize in this story?",
       options: [
@@ -12608,9 +12353,9 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "By sharing his food, the hunter sacrifices part of his own survival for another person.",
+      explanation:
+          "By sharing his food, the hunter sacrifices part of his own survival for another person.",
     ),
-
     QuizQuestion(
       question: "10. The moral of the story is most similar to which of these?",
       options: [
@@ -12621,7 +12366,8 @@ final QuizModel jhs2s5ss1Lesson15QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The story teaches that kindness and generosity are rewarded in return.",
+      explanation:
+          "The story teaches that kindness and generosity are rewarded in return.",
     ),
   ],
 );
@@ -12629,7 +12375,8 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. In the title, what does the word 'Minor' most likely suggest?",
+      question:
+          "1. In the title, what does the word 'Minor' most likely suggest?",
       options: [
         "A bird that works in a coal mine.",
         "Something small, unimportant, or in a sad musical key.",
@@ -12638,9 +12385,9 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The word 'Minor' suggests something small, modest, or slightly melancholy, matching the bird's quiet presence.",
+      explanation:
+          "The word 'Minor' suggests something small, modest, or slightly melancholy, matching the bird's quiet presence.",
     ),
-
     QuizQuestion(
       question: "2. The poem is written from which point of view?",
       options: [
@@ -12651,24 +12398,20 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The speaker uses 'I' to describe his own thoughts and actions.",
+      explanation:
+          "The speaker uses 'I' to describe his own thoughts and actions.",
     ),
-
     QuizQuestion(
       question: "3. What is the rhyme scheme of a poem written in couplets?",
-      options: [
-        "ABAB",
-        "ABCA",
-        "AABB",
-        "ABCD"
-      ],
+      options: ["ABAB", "ABCA", "AABB", "ABCD"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Couplets consist of pairs of rhyming lines, producing an AABB pattern in this poem.",
+      explanation:
+          "Couplets consist of pairs of rhyming lines, producing an AABB pattern in this poem.",
     ),
-
     QuizQuestion(
-      question: "4. Why did the speaker want the bird to stop singing initially?",
+      question:
+          "4. Why did the speaker want the bird to stop singing initially?",
       options: [
         "He thought the bird was in pain.",
         "He was annoyed by the constant noise.",
@@ -12677,11 +12420,12 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "At the beginning of the poem, the speaker is irritated by the bird's repeated song.",
+      explanation:
+          "At the beginning of the poem, the speaker is irritated by the bird's repeated song.",
     ),
-
     QuizQuestion(
-      question: "5. 'The bird was not to blame for his key.' What does 'key' mean here?",
+      question:
+          "5. 'The bird was not to blame for his key.' What does 'key' mean here?",
       options: [
         "A metal object to open a door.",
         "The musical pitch or style of the bird's song.",
@@ -12690,9 +12434,9 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Key' is used as a musical term describing the bird's natural song.",
+      explanation:
+          "'Key' is used as a musical term describing the bird's natural song.",
     ),
-
     QuizQuestion(
       question: "6. The speaker's change of mind at the end shows he is:",
       options: [
@@ -12703,9 +12447,9 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The speaker realizes his irritation came from himself rather than the bird.",
+      explanation:
+          "The speaker realizes his irritation came from himself rather than the bird.",
     ),
-
     QuizQuestion(
       question: "7. What does 'silencing a song' symbolize in a broader sense?",
       options: [
@@ -12716,22 +12460,17 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The bird's song represents natural expression, so silencing it symbolizes intolerance or suppression.",
+      explanation:
+          "The bird's song represents natural expression, so silencing it symbolizes intolerance or suppression.",
     ),
-
     QuizQuestion(
       question: "8. Which of these words rhymes with 'hands' in the poem?",
-      options: [
-        "Stands",
-        "Bands",
-        "Door",
-        "Day"
-      ],
+      options: ["Stands", "Bands", "Door", "Day"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Robert Frost pairs 'hands' with 'stands' in one of the poem's rhyming couplets.",
+      explanation:
+          "Robert Frost pairs 'hands' with 'stands' in one of the poem's rhyming couplets.",
     ),
-
     QuizQuestion(
       question: "9. The tone of the ending of the poem is:",
       options: [
@@ -12742,11 +12481,12 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The speaker admits he was wrong and reflects humbly on his own behavior.",
+      explanation:
+          "The speaker admits he was wrong and reflects humbly on his own behavior.",
     ),
-
     QuizQuestion(
-      question: "10. Robert Frost is an American poet, but his themes are 'universal.' This means:",
+      question:
+          "10. Robert Frost is an American poet, but his themes are 'universal.' This means:",
       options: [
         "He only writes about the stars.",
         "His lessons about nature and humanity apply to everyone, including people in Ghana.",
@@ -12755,7 +12495,8 @@ final QuizModel jhs2s5ss1Lesson16QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Universal themes are relevant to people everywhere regardless of culture or country.",
+      explanation:
+          "Universal themes are relevant to people everywhere regardless of culture or country.",
     ),
   ],
 );
@@ -12772,9 +12513,9 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The story focuses on Sosu's moral choices and the importance of integrity despite peer pressure.",
+      explanation:
+          "The story focuses on Sosu's moral choices and the importance of integrity despite peer pressure.",
     ),
-
     QuizQuestion(
       question: "2. Sosu is the 'Protagonist.' This means he is:",
       options: [
@@ -12785,9 +12526,9 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The protagonist is the central character whose experiences drive the story.",
+      explanation:
+          "The protagonist is the central character whose experiences drive the story.",
     ),
-
     QuizQuestion(
       question: "3. The Bukari Boys are an example of:",
       options: [
@@ -12798,22 +12539,18 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The Bukari Boys influence Sosu to make poor choices and represent negative peer pressure.",
+      explanation:
+          "The Bukari Boys influence Sosu to make poor choices and represent negative peer pressure.",
     ),
-
     QuizQuestion(
-      question: "4. When a character is the opposite of another to highlight their traits, they are called a:",
-      options: [
-        "Metaphor",
-        "Stanza",
-        "Foil",
-        "Protagonist"
-      ],
+      question:
+          "4. When a character is the opposite of another to highlight their traits, they are called a:",
+      options: ["Metaphor", "Stanza", "Foil", "Protagonist"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A foil is a character whose contrasting qualities highlight another character's personality.",
+      explanation:
+          "A foil is a character whose contrasting qualities highlight another character's personality.",
     ),
-
     QuizQuestion(
       question: "5. Why did Sosu feel guilty during the story?",
       options: [
@@ -12824,11 +12561,12 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Sosu's guilty conscience shows that he understood stealing was morally wrong.",
+      explanation:
+          "Sosu's guilty conscience shows that he understood stealing was morally wrong.",
     ),
-
     QuizQuestion(
-      question: "6. 'Integrity is doing the right thing even when no one is watching.' This quote applies to Sosu because:",
+      question:
+          "6. 'Integrity is doing the right thing even when no one is watching.' This quote applies to Sosu because:",
       options: [
         "He only acts well when his teacher is looking.",
         "He has to decide to be honest even when he is alone with the boys.",
@@ -12837,9 +12575,9 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "True integrity is shown by making honest choices even without supervision.",
+      explanation:
+          "True integrity is shown by making honest choices even without supervision.",
     ),
-
     QuizQuestion(
       question: "7. What is a 'Didactic' story?",
       options: [
@@ -12850,9 +12588,9 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Didactic stories are written to teach readers important moral lessons.",
+      explanation:
+          "Didactic stories are written to teach readers important moral lessons.",
     ),
-
     QuizQuestion(
       question: "8. The 'Internal Conflict' in this story is:",
       options: [
@@ -12863,11 +12601,12 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Sosu's greatest struggle is the battle between doing right and giving in to peer pressure.",
+      explanation:
+          "Sosu's greatest struggle is the battle between doing right and giving in to peer pressure.",
     ),
-
     QuizQuestion(
-      question: "9. If the Bukari Boys are shamed at the end of the story, this is a:",
+      question:
+          "9. If the Bukari Boys are shamed at the end of the story, this is a:",
       options: [
         "Plot hole",
         "Consequence of their actions",
@@ -12876,11 +12615,12 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Their punishment is the natural consequence of their dishonest behavior.",
+      explanation:
+          "Their punishment is the natural consequence of their dishonest behavior.",
     ),
-
     QuizQuestion(
-      question: "10. What is the best way to avoid being like Sosu at the beginning of the story?",
+      question:
+          "10. What is the best way to avoid being like Sosu at the beginning of the story?",
       options: [
         "Choose your friends carefully based on their character.",
         "Never leave your house.",
@@ -12889,7 +12629,8 @@ final QuizModel jhs2s5ss1Lesson17QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The story teaches that choosing good friends helps people make wise and honest decisions.",
+      explanation:
+          "The story teaches that choosing good friends helps people make wise and honest decisions.",
     ),
   ],
 );
@@ -12897,7 +12638,8 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. 'A Wreath of Tears' is best described as what type of poem?",
+      question:
+          "1. 'A Wreath of Tears' is best described as what type of poem?",
       options: [
         "A humorous poem",
         "A funeral tribute or elegy",
@@ -12906,22 +12648,18 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The poem is an elegy that expresses grief and honours the memory of a loved one.",
+      explanation:
+          "The poem is an elegy that expresses grief and honours the memory of a loved one.",
     ),
-
     QuizQuestion(
-      question: "2. In the title, the 'Tears' are used to make the 'Wreath.' This is a:",
-      options: [
-        "Metaphor",
-        "Simile",
-        "Onomatopoeia",
-        "Hyperbole"
-      ],
+      question:
+          "2. In the title, the 'Tears' are used to make the 'Wreath.' This is a:",
+      options: ["Metaphor", "Simile", "Onomatopoeia", "Hyperbole"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The tears are directly compared to the material used to make a wreath, making it a metaphor.",
+      explanation:
+          "The tears are directly compared to the material used to make a wreath, making it a metaphor.",
     ),
-
     QuizQuestion(
       question: "3. What is the 'Tone' of this poem?",
       options: [
@@ -12932,22 +12670,18 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The poem's focus on death, remembrance, and grief creates a solemn and mournful tone.",
+      explanation:
+          "The poem's focus on death, remembrance, and grief creates a solemn and mournful tone.",
     ),
-
     QuizQuestion(
-      question: "4. Which sound device is common in funeral dirges and this poem?",
-      options: [
-        "Computer sounds",
-        "Alliteration",
-        "Silence",
-        "Rhyme only"
-      ],
+      question:
+          "4. Which sound device is common in funeral dirges and this poem?",
+      options: ["Computer sounds", "Alliteration", "Silence", "Rhyme only"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Alliteration creates a gentle, rhythmic sound that suits the poem's mournful mood.",
+      explanation:
+          "Alliteration creates a gentle, rhythmic sound that suits the poem's mournful mood.",
     ),
-
     QuizQuestion(
       question: "5. Why does the poet 'weave' his tears?",
       options: [
@@ -12958,11 +12692,12 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Weaving the tears symbolizes turning grief into a lasting act of remembrance.",
+      explanation:
+          "Weaving the tears symbolizes turning grief into a lasting act of remembrance.",
     ),
-
     QuizQuestion(
-      question: "6. In Ghanaian culture, which colours are most associated with the themes in this poem?",
+      question:
+          "6. In Ghanaian culture, which colours are most associated with the themes in this poem?",
       options: [
         "Black and Red",
         "White and Yellow",
@@ -12971,9 +12706,9 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Black and red are traditionally worn during mourning and funeral ceremonies in Ghana.",
+      explanation:
+          "Black and red are traditionally worn during mourning and funeral ceremonies in Ghana.",
     ),
-
     QuizQuestion(
       question: "7. The poem suggests that grief is:",
       options: [
@@ -12984,22 +12719,17 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poem presents tears and remembrance as meaningful expressions of love and loss.",
+      explanation:
+          "The poem presents tears and remembrance as meaningful expressions of love and loss.",
     ),
-
     QuizQuestion(
       question: "8. 'Softly the salt stings.' This line is an example of:",
-      options: [
-        "Alliteration",
-        "Metaphor",
-        "Personification",
-        "Simile"
-      ],
+      options: ["Alliteration", "Metaphor", "Personification", "Simile"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The repeated 'S' sound in 'Softly the salt stings' is an example of alliteration.",
+      explanation:
+          "The repeated 'S' sound in 'Softly the salt stings' is an example of alliteration.",
     ),
-
     QuizQuestion(
       question: "9. What is the 'Resolution' for the poet's sadness?",
       options: [
@@ -13010,11 +12740,12 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The poem ends with acceptance and peace found through remembrance and tribute.",
+      explanation:
+          "The poem ends with acceptance and peace found through remembrance and tribute.",
     ),
-
     QuizQuestion(
-      question: "10. What is the most important lesson we can learn from this poem?",
+      question:
+          "10. What is the most important lesson we can learn from this poem?",
       options: [
         "Never go to funerals.",
         "It is important to honour the memory of those we have lost.",
@@ -13023,7 +12754,8 @@ final QuizModel jhs2s5ss1Lesson18QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The poem teaches the value of remembering and honouring loved ones who have passed away.",
+      explanation:
+          "The poem teaches the value of remembering and honouring loved ones who have passed away.",
     ),
   ],
 );
@@ -13032,19 +12764,15 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. The poem 'Sleep Without Wake' is primarily a tribute to:",
-      options: [
-        "A father",
-        "A brother",
-        "A mother",
-        "A teacher"
-      ],
+      options: ["A father", "A brother", "A mother", "A teacher"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The poem is a lament that mourns and honors the memory of the poet's mother.",
+      explanation:
+          "The poem is a lament that mourns and honors the memory of the poet's mother.",
     ),
-
     QuizQuestion(
-      question: "2. Which of these is the most accurate definition of a 'dirge'?",
+      question:
+          "2. Which of these is the most accurate definition of a 'dirge'?",
       options: [
         "A happy song for a wedding.",
         "A story about a talking animal.",
@@ -13053,9 +12781,9 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A dirge is a poem or song written to express sorrow for someone who has died.",
+      explanation:
+          "A dirge is a poem or song written to express sorrow for someone who has died.",
     ),
-
     QuizQuestion(
       question: "3. Why does the poet use the word 'sleep' to describe death?",
       options: [
@@ -13066,9 +12794,9 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Sleep is a common euphemism that presents death as peaceful and restful.",
+      explanation:
+          "Sleep is a common euphemism that presents death as peaceful and restful.",
     ),
-
     QuizQuestion(
       question: "4. What is the 'Tone' of the poem?",
       options: [
@@ -13079,11 +12807,12 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The poem's focus on death and remembrance creates a solemn and mournful tone.",
+      explanation:
+          "The poem's focus on death and remembrance creates a solemn and mournful tone.",
     ),
-
     QuizQuestion(
-      question: "5. When the poet says the mother 'cannot hear,' he is emphasizing:",
+      question:
+          "5. When the poet says the mother 'cannot hear,' he is emphasizing:",
       options: [
         "Her old age.",
         "The finality and silence of death.",
@@ -13092,35 +12821,27 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The line highlights the permanent silence and separation caused by death.",
+      explanation:
+          "The line highlights the permanent silence and separation caused by death.",
     ),
-
     QuizQuestion(
-      question: "6. 'She has gone to the village' is a Ghanaian example of which literary device?",
-      options: [
-        "Onomatopoeia",
-        "Rhyme",
-        "Alliteration",
-        "Euphemism"
-      ],
+      question:
+          "6. 'She has gone to the village' is a Ghanaian example of which literary device?",
+      options: ["Onomatopoeia", "Rhyme", "Alliteration", "Euphemism"],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "It is a gentle, indirect way of referring to someone's death, making it a euphemism.",
+      explanation:
+          "It is a gentle, indirect way of referring to someone's death, making it a euphemism.",
     ),
-
     QuizQuestion(
-      question: "7. In the poem, the absence of the mother makes the home feel:",
-      options: [
-        "Empty and quiet",
-        "Full of light",
-        "More exciting",
-        "Crowded"
-      ],
+      question:
+          "7. In the poem, the absence of the mother makes the home feel:",
+      options: ["Empty and quiet", "Full of light", "More exciting", "Crowded"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The loss of a mother leaves an emotional emptiness within the family.",
+      explanation:
+          "The loss of a mother leaves an emotional emptiness within the family.",
     ),
-
     QuizQuestion(
       question: "8. The title 'Sleep Without Wake' is an example of:",
       options: [
@@ -13131,9 +12852,9 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Combining 'sleep' with 'without wake' creates a paradox that symbolizes death.",
+      explanation:
+          "Combining 'sleep' with 'without wake' creates a paradox that symbolizes death.",
     ),
-
     QuizQuestion(
       question: "9. What is the poet's main purpose in writing this dirge?",
       options: [
@@ -13144,9 +12865,9 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The poem preserves the memory of the poet's mother while expressing deep sorrow.",
+      explanation:
+          "The poem preserves the memory of the poet's mother while expressing deep sorrow.",
     ),
-
     QuizQuestion(
       question: "10. How does this poem help people who are mourning?",
       options: [
@@ -13157,7 +12878,8 @@ final QuizModel jhs2s5ss1Lesson19QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Poetry helps people express emotions that are often difficult to describe.",
+      explanation:
+          "Poetry helps people express emotions that are often difficult to describe.",
     ),
   ],
 );
@@ -13166,17 +12888,12 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. In which city is the story of Oliver Twist set?",
-      options: [
-        "Accra",
-        "New York",
-        "London",
-        "Paris"
-      ],
+      options: ["Accra", "New York", "London", "Paris"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "The story is set in Victorian London, where Charles Dickens highlights poverty and social injustice.",
+      explanation:
+          "The story is set in Victorian London, where Charles Dickens highlights poverty and social injustice.",
     ),
-
     QuizQuestion(
       question: "2. Oliver is an 'Orphan.' What does this mean?",
       options: [
@@ -13187,9 +12904,9 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Oliver's life as an orphan is the starting point of his struggles throughout the novel.",
+      explanation:
+          "Oliver's life as an orphan is the starting point of his struggles throughout the novel.",
     ),
-
     QuizQuestion(
       question: "3. What was 'gruel,' the food Oliver was served?",
       options: [
@@ -13200,22 +12917,18 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Gruel symbolizes the poor treatment and neglect of children in the workhouse.",
+      explanation:
+          "Gruel symbolizes the poor treatment and neglect of children in the workhouse.",
     ),
-
     QuizQuestion(
-      question: "4. Who is the loud, bossy official who oversees the workhouse?",
-      options: [
-        "Fagin",
-        "The Artful Dodger",
-        "Mr. Bumble",
-        "Bill Sikes"
-      ],
+      question:
+          "4. Who is the loud, bossy official who oversees the workhouse?",
+      options: ["Fagin", "The Artful Dodger", "Mr. Bumble", "Bill Sikes"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Mr. Bumble represents the harsh authority of the workhouse system.",
+      explanation:
+          "Mr. Bumble represents the harsh authority of the workhouse system.",
     ),
-
     QuizQuestion(
       question: "5. Charles Dickens uses 'Social Satire' to:",
       options: [
@@ -13226,11 +12939,12 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "Dickens uses satire to expose the cruelty and injustice of society toward the poor.",
+      explanation:
+          "Dickens uses satire to expose the cruelty and injustice of society toward the poor.",
     ),
-
     QuizQuestion(
-      question: "6. The 'Conflict' in the first part of the story is Oliver vs. whom?",
+      question:
+          "6. The 'Conflict' in the first part of the story is Oliver vs. whom?",
       options: [
         "Nature (the cold weather)",
         "Society (the workhouse system and its masters)",
@@ -13239,11 +12953,12 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Oliver struggles against a cruel social system that mistreats poor children.",
+      explanation:
+          "Oliver struggles against a cruel social system that mistreats poor children.",
     ),
-
     QuizQuestion(
-      question: "7. How did the board of the workhouse react to Oliver asking for more?",
+      question:
+          "7. How did the board of the workhouse react to Oliver asking for more?",
       options: [
         "They gave him a second bowl immediately.",
         "They were angry and decided to sell him to an apprentice master.",
@@ -13252,9 +12967,9 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Oliver's request shocked the officials, who punished him instead of helping him.",
+      explanation:
+          "Oliver's request shocked the officials, who punished him instead of helping him.",
     ),
-
     QuizQuestion(
       question: "8. 'Resilience' is the ability to:",
       options: [
@@ -13265,9 +12980,9 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Oliver demonstrates resilience by remaining hopeful despite many hardships.",
+      explanation:
+          "Oliver demonstrates resilience by remaining hopeful despite many hardships.",
     ),
-
     QuizQuestion(
       question: "9. Oliver's pale and thin appearance is a result of:",
       options: [
@@ -13278,11 +12993,12 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Dickens uses Oliver's appearance to show the effects of hunger and poverty.",
+      explanation:
+          "Dickens uses Oliver's appearance to show the effects of hunger and poverty.",
     ),
-
     QuizQuestion(
-      question: "10. What is the most important lesson for a JHS student in 'Oliver Twist'?",
+      question:
+          "10. What is the most important lesson for a JHS student in 'Oliver Twist'?",
       options: [
         "Never ask for more food.",
         "Always be afraid of people in hats.",
@@ -13291,7 +13007,8 @@ final QuizModel jhs2s5ss1Lesson20QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Oliver's honesty, kindness, and perseverance help him overcome many challenges.",
+      explanation:
+          "Oliver's honesty, kindness, and perseverance help him overcome many challenges.",
     ),
   ],
 );
@@ -13299,18 +13016,14 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Ken Saro-Wiwa was a famous writer from which West African country?",
-      options: [
-        "Nigeria",
-        "Ghana",
-        "Sierra Leone",
-        "Liberia"
-      ],
+      question:
+          "1. Ken Saro-Wiwa was a famous writer from which West African country?",
+      options: ["Nigeria", "Ghana", "Sierra Leone", "Liberia"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Ken Saro-Wiwa was a renowned Nigerian author, activist, and environmental campaigner.",
+      explanation:
+          "Ken Saro-Wiwa was a renowned Nigerian author, activist, and environmental campaigner.",
     ),
-
     QuizQuestion(
       question: "2. Why has the narrator been away from Dukana?",
       options: [
@@ -13321,9 +13034,9 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The narrator had been away because she was studying at a teacher training college.",
+      explanation:
+          "The narrator had been away because she was studying at a teacher training college.",
     ),
-
     QuizQuestion(
       question: "3. How does the narrator travel back to her village?",
       options: [
@@ -13334,22 +13047,17 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The journey back to Dukana is made by a bus or lorry, highlighting the rough rural roads.",
+      explanation:
+          "The journey back to Dukana is made by a bus or lorry, highlighting the rough rural roads.",
     ),
-
     QuizQuestion(
       question: "4. 'The road was a dusty ribbon.' This is an example of:",
-      options: [
-        "Metaphor",
-        "Onomatopoeia",
-        "Personification",
-        "Rhyme"
-      ],
+      options: ["Metaphor", "Onomatopoeia", "Personification", "Rhyme"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "The road is directly compared to a ribbon without using 'like' or 'as,' making it a metaphor.",
+      explanation:
+          "The road is directly compared to a ribbon without using 'like' or 'as,' making it a metaphor.",
     ),
-
     QuizQuestion(
       question: "5. In the story, 'Home Sweet Home' is used to show:",
       options: [
@@ -13360,9 +13068,9 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The phrase emphasizes the narrator's deep sense of belonging and love for her home village.",
+      explanation:
+          "The phrase emphasizes the narrator's deep sense of belonging and love for her home village.",
     ),
-
     QuizQuestion(
       question: "6. The contrast in the story is mainly between:",
       options: [
@@ -13373,9 +13081,9 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The narrator's education introduces modern ideas that contrast with traditional village life.",
+      explanation:
+          "The narrator's education introduces modern ideas that contrast with traditional village life.",
     ),
-
     QuizQuestion(
       question: "7. What is 'First-person narration'?",
       options: [
@@ -13386,24 +13094,21 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "First-person narration allows readers to experience the story directly through the narrator's thoughts and feelings.",
+      explanation:
+          "First-person narration allows readers to experience the story directly through the narrator's thoughts and feelings.",
     ),
-
     QuizQuestion(
-      question: "8. Which sense does the writer use when describing the 'smell of woodsmoke and dried fish'?",
-      options: [
-        "Visual",
-        "Tactile",
-        "Olfactory (Smell)",
-        "Auditory"
-      ],
+      question:
+          "8. Which sense does the writer use when describing the 'smell of woodsmoke and dried fish'?",
+      options: ["Visual", "Tactile", "Olfactory (Smell)", "Auditory"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Descriptions of woodsmoke and dried fish appeal to the sense of smell (olfactory imagery).",
+      explanation:
+          "Descriptions of woodsmoke and dried fish appeal to the sense of smell (olfactory imagery).",
     ),
-
     QuizQuestion(
-      question: "9. The narrator's return is 'bittersweet.' What does this mean?",
+      question:
+          "9. The narrator's return is 'bittersweet.' What does this mean?",
       options: [
         "She is eating bitter-leaf soup.",
         "It is a mix of happy and sad feelings.",
@@ -13412,11 +13117,12 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "She feels happy to return home but saddened by the challenges facing her village.",
+      explanation:
+          "She feels happy to return home but saddened by the challenges facing her village.",
     ),
-
     QuizQuestion(
-      question: "10. What is the resolution of the narrator's internal conflict?",
+      question:
+          "10. What is the resolution of the narrator's internal conflict?",
       options: [
         "She leaves the village immediately.",
         "She accepts her role as an educated person who still loves her home.",
@@ -13425,7 +13131,8 @@ final QuizModel jhs2s5ss1Lesson21QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "The narrator realizes she can value her education while remaining connected to and supportive of her village.",
+      explanation:
+          "The narrator realizes she can value her education while remaining connected to and supportive of her village.",
     ),
   ],
 );
@@ -13442,22 +13149,17 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Merrill Corney is the author of the story 'Debbie, Sandy and Pepe' in The Cockcrow anthology.",
+      explanation:
+          "Merrill Corney is the author of the story 'Debbie, Sandy and Pepe' in The Cockcrow anthology.",
     ),
-
     QuizQuestion(
       question: "2. What kind of creature is Pepe?",
-      options: [
-        "A small dog",
-        "A baby bird",
-        "A kitten",
-        "A lizard"
-      ],
+      options: ["A small dog", "A baby bird", "A kitten", "A lizard"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Pepe is a fledgling (baby bird) rescued by Debbie and Sandy.",
+      explanation:
+          "Pepe is a fledgling (baby bird) rescued by Debbie and Sandy.",
     ),
-
     QuizQuestion(
       question: "3. In the plot of a story, what follows the 'Rising Action'?",
       options: [
@@ -13468,9 +13170,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The climax is the highest point of tension that comes after the rising action.",
+      explanation:
+          "The climax is the highest point of tension that comes after the rising action.",
     ),
-
     QuizQuestion(
       question: "4. Which of these is an example of dialogue?",
       options: [
@@ -13481,9 +13183,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Dialogue is conversation between characters and is usually written inside quotation marks.",
+      explanation:
+          "Dialogue is conversation between characters and is usually written inside quotation marks.",
     ),
-
     QuizQuestion(
       question: "5. Why do the children seek help from their mother?",
       options: [
@@ -13494,9 +13196,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The children need adult guidance to properly care for the injured fledgling.",
+      explanation:
+          "The children need adult guidance to properly care for the injured fledgling.",
     ),
-
     QuizQuestion(
       question: "6. The name 'Pepe' most likely mimics what sound?",
       options: [
@@ -13507,9 +13209,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "'Pepe' resembles the soft 'peep' sound made by a young bird.",
+      explanation:
+          "'Pepe' resembles the soft 'peep' sound made by a young bird.",
     ),
-
     QuizQuestion(
       question: "7. What does 'Compassion' mean?",
       options: [
@@ -13520,9 +13222,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Compassion means caring about the suffering of others and taking action to help them.",
+      explanation:
+          "Compassion means caring about the suffering of others and taking action to help them.",
     ),
-
     QuizQuestion(
       question: "8. What is a 'fledgling'?",
       options: [
@@ -13533,9 +13235,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "A fledgling is a young bird that has recently developed feathers and is learning to survive.",
+      explanation:
+          "A fledgling is a young bird that has recently developed feathers and is learning to survive.",
     ),
-
     QuizQuestion(
       question: "9. The setting of the story is important because:",
       options: [
@@ -13546,9 +13248,9 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The home setting highlights family guidance, kindness, and responsibility.",
+      explanation:
+          "The home setting highlights family guidance, kindness, and responsibility.",
     ),
-
     QuizQuestion(
       question: "10. What is the moral of the story?",
       options: [
@@ -13559,7 +13261,8 @@ final QuizModel jhs2s5ss1Lesson22QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The story teaches compassion and kindness toward all living creatures.",
+      explanation:
+          "The story teaches compassion and kindness toward all living creatures.",
     ),
   ],
 );
@@ -16733,32 +16436,22 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Which conjunction shows a condition?",
-      options: [
-        "but",
-        "since",
-        "if",
-        "or"
-      ],
+      options: ["but", "since", "if", "or"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "'If' is used to show that one action depends on another.",
     ),
-
     QuizQuestion(
-      question: "2. Identify the best connector for similarity: 'Ama loves dancing; ________, her brother enjoys music.'",
-      options: [
-        "likewise",
-        "however",
-        "because",
-        "until"
-      ],
+      question:
+          "2. Identify the best connector for similarity: 'Ama loves dancing; ________, her brother enjoys music.'",
+      options: ["likewise", "however", "because", "until"],
       correctIndex: 0,
       difficulty: "Medium",
       explanation: "'Likewise' shows that the two ideas are similar.",
     ),
-
     QuizQuestion(
-      question: "3. 'The boy who won the race is my cousin.' The bolded part is a:",
+      question:
+          "3. 'The boy who won the race is my cousin.' The bolded part is a:",
       options: [
         "Adverbial phrase",
         "Relative clause",
@@ -16767,22 +16460,18 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "It is a relative clause because it begins with 'who' and describes the noun 'boy'.",
+      explanation:
+          "It is a relative clause because it begins with 'who' and describes the noun 'boy'.",
     ),
-
     QuizQuestion(
-      question: "4. Which word indicates a concession (giving in to a contrasting point)?",
-      options: [
-        "therefore",
-        "although",
-        "and",
-        "soon"
-      ],
+      question:
+          "4. Which word indicates a concession (giving in to a contrasting point)?",
+      options: ["therefore", "although", "and", "soon"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "'Although' introduces a contrasting idea that does not prevent the main action.",
+      explanation:
+          "'Although' introduces a contrasting idea that does not prevent the main action.",
     ),
-
     QuizQuestion(
       question: "5. Which sentence uses a purpose clause?",
       options: [
@@ -16795,48 +16484,35 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "'So that' introduces the purpose or goal of the action.",
     ),
-
     QuizQuestion(
       question: "6. To show a sequence in time, which word is appropriate?",
-      options: [
-        "Secondly",
-        "Nevertheless",
-        "Afterwards",
-        "For example"
-      ],
+      options: ["Secondly", "Nevertheless", "Afterwards", "For example"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "'Afterwards' indicates that one event happened after another.",
+      explanation:
+          "'Afterwards' indicates that one event happened after another.",
     ),
-
     QuizQuestion(
-      question: "7. 'Even though the sun was hot, the farmers continued to work.' This sentence shows:",
-      options: [
-        "Addition",
-        "Contrast",
-        "Reason",
-        "Result"
-      ],
+      question:
+          "7. 'Even though the sun was hot, the farmers continued to work.' This sentence shows:",
+      options: ["Addition", "Contrast", "Reason", "Result"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Even though' highlights the contrast between the hot weather and the farmers' actions.",
+      explanation:
+          "'Even though' highlights the contrast between the hot weather and the farmers' actions.",
     ),
-
     QuizQuestion(
-      question: "8. Which of these is a transitional device used to add information?",
-      options: [
-        "Furthermore",
-        "However",
-        "Consequently",
-        "Unless"
-      ],
+      question:
+          "8. Which of these is a transitional device used to add information?",
+      options: ["Furthermore", "However", "Consequently", "Unless"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "'Furthermore' is used to introduce additional supporting information.",
+      explanation:
+          "'Furthermore' is used to introduce additional supporting information.",
     ),
-
     QuizQuestion(
-      question: "9. Choose the best topic sentence for a paragraph about Kejetia Market.",
+      question:
+          "9. Choose the best topic sentence for a paragraph about Kejetia Market.",
       options: [
         "I like eating fried rice.",
         "My grandmother lives in Kumasi.",
@@ -16845,11 +16521,12 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A topic sentence introduces the main idea that the rest of the paragraph develops.",
+      explanation:
+          "A topic sentence introduces the main idea that the rest of the paragraph develops.",
     ),
-
     QuizQuestion(
-      question: "10. What is the effect of using 'nevertheless' in a paragraph?",
+      question:
+          "10. What is the effect of using 'nevertheless' in a paragraph?",
       options: [
         "It lists items in order.",
         "It shows a conclusion.",
@@ -16858,7 +16535,8 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "'Nevertheless' introduces a point that contrasts with what has just been stated.",
+      explanation:
+          "'Nevertheless' introduces a point that contrasts with what has just been stated.",
     ),
   ],
 );
@@ -16866,33 +16544,24 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. A narrative essay should be organized in a ________ sequence.",
-      options: [
-        "random",
-        "logical",
-        "reverse",
-        "complicated"
-      ],
+      question:
+          "1. A narrative essay should be organized in a ________ sequence.",
+      options: ["random", "logical", "reverse", "complicated"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "To maintain clarity and interest, events in a narrative should follow a logical sequence.",
+      explanation:
+          "To maintain clarity and interest, events in a narrative should follow a logical sequence.",
     ),
-
     QuizQuestion(
       question: "2. Which connector shows cause and effect?",
-      options: [
-        "next",
-        "because",
-        "who",
-        "soon"
-      ],
+      options: ["next", "because", "who", "soon"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "'Because' links an action or event to its reason or cause.",
     ),
-
     QuizQuestion(
-      question: "3. 'The old man with the walking stick crossed the road.' The bolded part is a:",
+      question:
+          "3. 'The old man with the walking stick crossed the road.' The bolded part is a:",
       options: [
         "Relative clause",
         "Noun phrase",
@@ -16901,24 +16570,20 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'With the walking stick' describes the noun 'man', making it an adjectival phrase.",
+      explanation:
+          "'With the walking stick' describes the noun 'man', making it an adjectival phrase.",
     ),
-
     QuizQuestion(
       question: "4. Which word is used to show a sequence in time?",
-      options: [
-        "although",
-        "unless",
-        "afterwards",
-        "whereas"
-      ],
+      options: ["although", "unless", "afterwards", "whereas"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'Afterwards' indicates that one event happened after another.",
+      explanation:
+          "'Afterwards' indicates that one event happened after another.",
     ),
-
     QuizQuestion(
-      question: "5. Where does the topic sentence usually appear in a well-structured paragraph?",
+      question:
+          "5. Where does the topic sentence usually appear in a well-structured paragraph?",
       options: [
         "At the very end",
         "Only in the conclusion",
@@ -16927,24 +16592,19 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The topic sentence normally appears at the beginning to introduce the main idea of the paragraph.",
+      explanation:
+          "The topic sentence normally appears at the beginning to introduce the main idea of the paragraph.",
     ),
-
     QuizQuestion(
       question: "6. Which connector helps to order ideas?",
-      options: [
-        "suddenly",
-        "secondly",
-        "provided that",
-        "but"
-      ],
+      options: ["suddenly", "secondly", "provided that", "but"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "'Secondly' is used to list ideas or events in sequence.",
     ),
-
     QuizQuestion(
-      question: "7. 'The girl who won the spelling bee is in my class.' What type of clause is this?",
+      question:
+          "7. 'The girl who won the spelling bee is in my class.' What type of clause is this?",
       options: [
         "Conditional clause",
         "Relative clause",
@@ -16953,35 +16613,25 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The clause begins with 'who' and identifies which girl is being referred to, making it a relative clause.",
+      explanation:
+          "The clause begins with 'who' and identifies which girl is being referred to, making it a relative clause.",
     ),
-
     QuizQuestion(
       question: "8. Which word shows a result?",
-      options: [
-        "similarly",
-        "consequently",
-        "provided that",
-        "for example"
-      ],
+      options: ["similarly", "consequently", "provided that", "for example"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Consequently' introduces the result or outcome of a previous action or event.",
+      explanation:
+          "'Consequently' introduces the result or outcome of a previous action or event.",
     ),
-
     QuizQuestion(
-      question: "9. To show a contrast in your writing, which word should you use?",
-      options: [
-        "in addition",
-        "however",
-        "therefore",
-        "next"
-      ],
+      question:
+          "9. To show a contrast in your writing, which word should you use?",
+      options: ["in addition", "however", "therefore", "next"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "'However' introduces a contrasting idea or point.",
     ),
-
     QuizQuestion(
       question: "10. A complete paragraph must show cohesion, which means:",
       options: [
@@ -16992,7 +16642,8 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Cohesion means that sentences are logically connected and flow smoothly from one idea to the next.",
+      explanation:
+          "Cohesion means that sentences are logically connected and flow smoothly from one idea to the next.",
     ),
   ],
 );
@@ -17001,19 +16652,15 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. In a formal letter, 'Nevertheless' is used to show:",
-      options: [
-        "Addition",
-        "Time",
-        "Contrast",
-        "Result"
-      ],
+      options: ["Addition", "Time", "Contrast", "Result"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'Nevertheless' is a formal connector used to introduce a contrasting point.",
+      explanation:
+          "'Nevertheless' is a formal connector used to introduce a contrasting point.",
     ),
-
     QuizQuestion(
-      question: "2. Which is a proper formal closing for a letter to someone you don't know?",
+      question:
+          "2. Which is a proper formal closing for a letter to someone you don't know?",
       options: [
         "Your friend",
         "Catch you later",
@@ -17022,11 +16669,12 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "'Yours faithfully' is the standard formal closing when the recipient's name is unknown.",
+      explanation:
+          "'Yours faithfully' is the standard formal closing when the recipient's name is unknown.",
     ),
-
     QuizQuestion(
-      question: "3. 'Because the rain was heavy, the roof began to leak.' This sentence uses a:",
+      question:
+          "3. 'Because the rain was heavy, the roof began to leak.' This sentence uses a:",
       options: [
         "Time clause",
         "Reason clause",
@@ -17035,22 +16683,18 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "'Because' introduces the reason why the roof began to leak.",
+      explanation:
+          "'Because' introduces the reason why the roof began to leak.",
     ),
-
     QuizQuestion(
-      question: "4. Which connector is best for ordering points in a letter of complaint?",
-      options: [
-        "However",
-        "Firstly",
-        "Similarly",
-        "Unless"
-      ],
+      question:
+          "4. Which connector is best for ordering points in a letter of complaint?",
+      options: ["However", "Firstly", "Similarly", "Unless"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "'Firstly' helps organize ideas or complaints in a logical order.",
+      explanation:
+          "'Firstly' helps organize ideas or complaints in a logical order.",
     ),
-
     QuizQuestion(
       question: "5. A non-defining relative clause (using commas) is used to:",
       options: [
@@ -17061,11 +16705,12 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "A non-defining relative clause adds extra information about a noun that is already clearly identified.",
+      explanation:
+          "A non-defining relative clause adds extra information about a noun that is already clearly identified.",
     ),
-
     QuizQuestion(
-      question: "6. Choose the best topic sentence for a letter asking for a new football.",
+      question:
+          "6. Choose the best topic sentence for a letter asking for a new football.",
       options: [
         "The weather is very hot today.",
         "Our current football is burst and cannot be repaired.",
@@ -17076,46 +16721,31 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
       difficulty: "Medium",
       explanation: "It clearly states the main reason for the request.",
     ),
-
     QuizQuestion(
       question: "7. 'Moreover' is a synonym for:",
-      options: [
-        "But",
-        "In addition",
-        "Therefore",
-        "Since"
-      ],
+      options: ["But", "In addition", "Therefore", "Since"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Moreover' means 'in addition' and is used to add supporting information.",
+      explanation:
+          "'Moreover' means 'in addition' and is used to add supporting information.",
     ),
-
     QuizQuestion(
       question: "8. Which word shows a condition?",
-      options: [
-        "unless",
-        "after",
-        "while",
-        "so"
-      ],
+      options: ["unless", "after", "while", "so"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "'Unless' introduces a condition that must be met for something to happen.",
+      explanation:
+          "'Unless' introduces a condition that must be met for something to happen.",
     ),
-
     QuizQuestion(
-      question: "9. To end a formal letter by showing the consequence of an action, use:",
-      options: [
-        "Firstly",
-        "Although",
-        "Consequently",
-        "Such as"
-      ],
+      question:
+          "9. To end a formal letter by showing the consequence of an action, use:",
+      options: ["Firstly", "Although", "Consequently", "Such as"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'Consequently' signals the result or consequence of a previous action or statement.",
+      explanation:
+          "'Consequently' signals the result or consequence of a previous action or statement.",
     ),
-
     QuizQuestion(
       question: "10. Paragraph coherence is best achieved by:",
       options: [
@@ -17126,7 +16756,8 @@ final QuizModel jhs3s4ss1Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Logical connectors and pronouns help link ideas together and create a smooth flow between sentences.",
+      explanation:
+          "Logical connectors and pronouns help link ideas together and create a smooth flow between sentences.",
     ),
   ],
 );
@@ -17143,37 +16774,29 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A summary focuses only on the most important points or main ideas.",
+      explanation:
+          "A summary focuses only on the most important points or main ideas.",
     ),
-
     QuizQuestion(
       question: "2. Which connector shows a result in a summary?",
-      options: [
-        "Nevertheless",
-        "Consequently",
-        "Furthermore",
-        "Firstly"
-      ],
+      options: ["Nevertheless", "Consequently", "Furthermore", "Firstly"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Consequently' shows the outcome or result of the events being summarized.",
+      explanation:
+          "'Consequently' shows the outcome or result of the events being summarized.",
     ),
-
     QuizQuestion(
-      question: "\"3. 'Although the harvest was small, the farmers were happy.' This sentence shows:",
-      options: [
-        "Addition",
-        "Contrast",
-        "Reason",
-        "Time"
-      ],
+      question:
+          "\"3. 'Although the harvest was small, the farmers were happy.' This sentence shows:",
+      options: ["Addition", "Contrast", "Reason", "Time"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Although' highlights a contrast between the small harvest and the farmers' happiness.",
+      explanation:
+          "'Although' highlights a contrast between the small harvest and the farmers' happiness.",
     ),
-
     QuizQuestion(
-      question: "4. To achieve paragraph unity in a summary, all sentences must:",
+      question:
+          "4. To achieve paragraph unity in a summary, all sentences must:",
       options: [
         "Rhyme",
         "Be the same length",
@@ -17182,11 +16805,12 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Paragraph unity means every sentence contributes to the central idea.",
+      explanation:
+          "Paragraph unity means every sentence contributes to the central idea.",
     ),
-
     QuizQuestion(
-      question: "5. Which part of a sentence can usually be removed during summarisation?",
+      question:
+          "5. Which part of a sentence can usually be removed during summarisation?",
       options: [
         "The subject",
         "The main verb",
@@ -17195,22 +16819,17 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Non-defining relative clauses add extra, non-essential information that can often be omitted in a summary.",
+      explanation:
+          "Non-defining relative clauses add extra, non-essential information that can often be omitted in a summary.",
     ),
-
     QuizQuestion(
-      question: "6. 'In addition to cocoa, Ghana exports gold.' The connector 'In addition to' shows:",
-      options: [
-        "Contrast",
-        "Addition",
-        "Time",
-        "Place"
-      ],
+      question:
+          "6. 'In addition to cocoa, Ghana exports gold.' The connector 'In addition to' shows:",
+      options: ["Contrast", "Addition", "Time", "Place"],
       correctIndex: 1,
       difficulty: "Easy",
       explanation: "It adds another item to the list of exports.",
     ),
-
     QuizQuestion(
       question: "7. A summary must be cohesive, meaning:",
       options: [
@@ -17221,9 +16840,9 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Cohesion ensures the summary flows smoothly as one connected piece of writing.",
+      explanation:
+          "Cohesion ensures the summary flows smoothly as one connected piece of writing.",
     ),
-
     QuizQuestion(
       question: "8. Which phrase is an adjectival phrase?",
       options: [
@@ -17234,11 +16853,12 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "It describes the noun 'man', making it an adjectival phrase.",
+      explanation:
+          "It describes the noun 'man', making it an adjectival phrase.",
     ),
-
     QuizQuestion(
-      question: "9. 'Finally, the project was completed.' The word 'Finally' indicates:",
+      question:
+          "9. 'Finally, the project was completed.' The word 'Finally' indicates:",
       options: [
         "A reason",
         "A sequence in time",
@@ -17247,20 +16867,17 @@ final QuizModel jhs3s4ss1Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "'Finally' signals the last step or end of a sequence of events.",
+      explanation:
+          "'Finally' signals the last step or end of a sequence of events.",
     ),
-
     QuizQuestion(
-      question: "10. If a summary includes the writer's personal feelings, it lacks:",
-      options: [
-        "Length",
-        "Objectivity",
-        "Commas",
-        "Complexity"
-      ],
+      question:
+          "10. If a summary includes the writer's personal feelings, it lacks:",
+      options: ["Length", "Objectivity", "Commas", "Complexity"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "A good summary presents the original author's ideas objectively, without the summariser's personal opinions.",
+      explanation:
+          "A good summary presents the original author's ideas objectively, without the summariser's personal opinions.",
     ),
   ],
 );
@@ -17268,20 +16885,17 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which word is a \"powerful\" adjective to replace \"bad\" in a scary story?",
-      options: [
-        "Unpleasant",
-        "Sinister",
-        "Not good",
-        "Poor"
-      ],
+      question:
+          "1. Which word is a \"powerful\" adjective to replace \"bad\" in a scary story?",
+      options: ["Unpleasant", "Sinister", "Not good", "Poor"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "'Sinister' suggests a specific, frightening mood better than 'bad'.",
+      explanation:
+          "'Sinister' suggests a specific, frightening mood better than 'bad'.",
     ),
-
     QuizQuestion(
-      question: "2. In the sentence \"Tired and hungry, Kwame finally reached home,\" what technique is used?",
+      question:
+          "2. In the sentence \"Tired and hungry, Kwame finally reached home,\" what technique is used?",
       options: [
         "Listing",
         "Frontloading",
@@ -17290,9 +16904,9 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The descriptive adjectives are placed at the very start of the sentence.",
+      explanation:
+          "The descriptive adjectives are placed at the very start of the sentence.",
     ),
-
     QuizQuestion(
       question: "3. Which sentence best uses listing to show a busy kitchen?",
       options: [
@@ -17303,11 +16917,12 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A list of sensory details (sounds) effectively conveys the atmosphere.",
+      explanation:
+          "A list of sensory details (sounds) effectively conveys the atmosphere.",
     ),
-
     QuizQuestion(
-      question: "4. To describe a peaceful beach, which adjectives are most effective?",
+      question:
+          "4. To describe a peaceful beach, which adjectives are most effective?",
       options: [
         "Loud, crowded, hot",
         "Serene, shimmering, tranquil",
@@ -17316,9 +16931,9 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "'Serene' and 'tranquil' specifically create a peaceful mood.",
+      explanation:
+          "'Serene' and 'tranquil' specifically create a peaceful mood.",
     ),
-
     QuizQuestion(
       question: "5. Which sentence follows a climactic structure?",
       options: [
@@ -17329,11 +16944,12 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "The items increase in value and importance, building excitement.",
+      explanation:
+          "The items increase in value and importance, building excitement.",
     ),
-
     QuizQuestion(
-      question: "6. What is the purpose of using selective detail for a character?",
+      question:
+          "6. What is the purpose of using selective detail for a character?",
       options: [
         "To make the story as long as possible.",
         "To describe every single thing the character is wearing.",
@@ -17342,11 +16958,12 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Focusing on key details helps the reader understand the character's personality and essence.",
+      explanation:
+          "Focusing on key details helps the reader understand the character's personality and essence.",
     ),
-
     QuizQuestion(
-      question: "7. Choose the most descriptive sentence for a rainy day in Kumasi.",
+      question:
+          "7. Choose the most descriptive sentence for a rainy day in Kumasi.",
       options: [
         "It rained a lot in Kumasi yesterday afternoon.",
         "The water fell from the sky onto the streets.",
@@ -17355,11 +16972,12 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'Torrential' and 'lashed' are powerful words that create a vivid scene.",
+      explanation:
+          "'Torrential' and 'lashed' are powerful words that create a vivid scene.",
     ),
-
     QuizQuestion(
-      question: "8. \"The old woman's face was a map of a thousand stories.\" This uses detail to suggest:",
+      question:
+          "8. \"The old woman's face was a map of a thousand stories.\" This uses detail to suggest:",
       options: [
         "She is a geography teacher.",
         "She has traveled to many countries.",
@@ -17368,11 +16986,12 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "The metaphor uses wrinkles as signs of age and life experience.",
+      explanation:
+          "The metaphor uses wrinkles as signs of age and life experience.",
     ),
-
     QuizQuestion(
-      question: "9. Which of these is NOT a way to vary sentence structure for effect?",
+      question:
+          "9. Which of these is NOT a way to vary sentence structure for effect?",
       options: [
         "Using the same Subject-Verb pattern for every sentence.",
         "Frontloading with a descriptive phrase.",
@@ -17381,9 +17000,9 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Repeating the same sentence pattern makes writing repetitive and less engaging.",
+      explanation:
+          "Repeating the same sentence pattern makes writing repetitive and less engaging.",
     ),
-
     QuizQuestion(
       question: "10. To create an ominous mood, which description fits best?",
       options: [
@@ -17394,7 +17013,8 @@ final QuizModel jhs3s4ss2Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "'Cold', 'whistling', and 'shattered' create a strong sense of unease and danger.",
+      explanation:
+          "'Cold', 'whistling', and 'shattered' create a strong sense of unease and danger.",
     ),
   ],
 );
@@ -17402,7 +17022,8 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the main difference between Backstory and Flashback?",
+      question:
+          "1. What is the main difference between Backstory and Flashback?",
       options: [
         "Backstory is a scene; Flashback is just information.",
         "Backstory is general history; Flashback is a specific past event shown in the present.",
@@ -17411,24 +17032,20 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Backstory provides general background, while a flashback presents a specific past event within the current narrative.",
+      explanation:
+          "Backstory provides general background, while a flashback presents a specific past event within the current narrative.",
     ),
-
     QuizQuestion(
       question: "2. Which technique creates suspense by dropping hints?",
-      options: [
-        "Foreshadowing",
-        "Flashback",
-        "Emotive writing",
-        "Backstory"
-      ],
+      options: ["Foreshadowing", "Flashback", "Emotive writing", "Backstory"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Foreshadowing gives readers clues about events that will happen later in the story.",
+      explanation:
+          "Foreshadowing gives readers clues about events that will happen later in the story.",
     ),
-
     QuizQuestion(
-      question: "3. \"The bitter taste of betrayal lingered in his mouth like spoiled milk.\" This is an example of:",
+      question:
+          "3. \"The bitter taste of betrayal lingered in his mouth like spoiled milk.\" This is an example of:",
       options: [
         "Flash-forward",
         "Backstory",
@@ -17437,9 +17054,9 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "The sentence uses sensory imagery and emotion to create a vivid experience for the reader.",
+      explanation:
+          "The sentence uses sensory imagery and emotion to create a vivid experience for the reader.",
     ),
-
     QuizQuestion(
       question: "4. Why might an author use a Flash-forward?",
       options: [
@@ -17450,11 +17067,12 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A flash-forward reveals future events or consequences to build suspense or emphasize outcomes.",
+      explanation:
+          "A flash-forward reveals future events or consequences to build suspense or emphasize outcomes.",
     ),
-
     QuizQuestion(
-      question: "5. If a character's \"hands are shaking\" and their \"voice is trembling,\" the author is:",
+      question:
+          "5. If a character's \"hands are shaking\" and their \"voice is trembling,\" the author is:",
       options: [
         "Telling us they are cold.",
         "Using foreshadowing.",
@@ -17463,11 +17081,12 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "These physical reactions reveal the character's fear or anxiety through showing rather than telling.",
+      explanation:
+          "These physical reactions reveal the character's fear or anxiety through showing rather than telling.",
     ),
-
     QuizQuestion(
-      question: "6. In a story, a character finds a key in Chapter 1. In Chapter 10, they find the box it opens. The mention of the key in Chapter 1 is:",
+      question:
+          "6. In a story, a character finds a key in Chapter 1. In Chapter 10, they find the box it opens. The mention of the key in Chapter 1 is:",
       options: [
         "A Flash-forward",
         "Foreshadowing",
@@ -17476,22 +17095,18 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Introducing the key early hints at its later importance, making it an example of foreshadowing.",
+      explanation:
+          "Introducing the key early hints at its later importance, making it an example of foreshadowing.",
     ),
-
     QuizQuestion(
-      question: "7. Which narrative technique helps a reader understand a character's motivations?",
-      options: [
-        "Flash-forward",
-        "Backstory",
-        "Punctuation",
-        "Foreshadowing"
-      ],
+      question:
+          "7. Which narrative technique helps a reader understand a character's motivations?",
+      options: ["Flash-forward", "Backstory", "Punctuation", "Foreshadowing"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Backstory explains a character's past experiences, helping readers understand their motivations.",
+      explanation:
+          "Backstory explains a character's past experiences, helping readers understand their motivations.",
     ),
-
     QuizQuestion(
       question: "8. Choose the best flashback trigger:",
       options: [
@@ -17502,9 +17117,9 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Memories are often triggered by familiar sounds, smells, or objects connected to past experiences.",
+      explanation:
+          "Memories are often triggered by familiar sounds, smells, or objects connected to past experiences.",
     ),
-
     QuizQuestion(
       question: "9. \"Free writing\" is most useful for:",
       options: [
@@ -17515,9 +17130,9 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Free writing allows ideas, thoughts, and emotions to flow naturally without worrying about structure.",
+      explanation:
+          "Free writing allows ideas, thoughts, and emotions to flow naturally without worrying about structure.",
     ),
-
     QuizQuestion(
       question: "10. Which sentence is NOT using sensory details?",
       options: [
@@ -17528,7 +17143,8 @@ final QuizModel jhs3s4ss2Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "This sentence states an emotion directly instead of appealing to the senses such as touch, sound, or smell.",
+      explanation:
+          "This sentence states an emotion directly instead of appealing to the senses such as touch, sound, or smell.",
     ),
   ],
 );
@@ -17545,24 +17161,20 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "An argumentative piece aims to present, support, and defend a particular point of view.",
+      explanation:
+          "An argumentative piece aims to present, support, and defend a particular point of view.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a modal verb?",
-      options: [
-        "Should",
-        "Think",
-        "Letter",
-        "Argue"
-      ],
+      options: ["Should", "Think", "Letter", "Argue"],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "'Should' is a modal verb used to express advice, obligation, or possibility.",
+      explanation:
+          "'Should' is a modal verb used to express advice, obligation, or possibility.",
     ),
-
     QuizQuestion(
-      question: "3. Why do we use the simple present tense in persuasive writing?",
+      question:
+          "3. Why do we use the simple present tense in persuasive writing?",
       options: [
         "To talk about what we did yesterday.",
         "To convey timeless statements and facts.",
@@ -17571,9 +17183,9 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The simple present tense is commonly used to express facts, opinions, and general truths.",
+      explanation:
+          "The simple present tense is commonly used to express facts, opinions, and general truths.",
     ),
-
     QuizQuestion(
       question: "4. A \"rejoinder\" is a reply to:",
       options: [
@@ -17584,24 +17196,20 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A rejoinder is a formal response to a published opinion, article, or letter.",
+      explanation:
+          "A rejoinder is a formal response to a published opinion, article, or letter.",
     ),
-
     QuizQuestion(
       question: "5. Which phrase is a mental verb phrase?",
-      options: [
-        "I believe",
-        "In my opinion",
-        "To the editor",
-        "Very fast"
-      ],
+      options: ["I believe", "In my opinion", "To the editor", "Very fast"],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "'I believe' expresses a mental process of thinking or believing.",
+      explanation:
+          "'I believe' expresses a mental process of thinking or believing.",
     ),
-
     QuizQuestion(
-      question: "6. In the format of a rejoinder, what comes directly after the date?",
+      question:
+          "6. In the format of a rejoinder, what comes directly after the date?",
       options: [
         "The recipient's address.",
         "The signature.",
@@ -17610,11 +17218,12 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "In a formal letter, the recipient's address is written immediately after the date.",
+      explanation:
+          "In a formal letter, the recipient's address is written immediately after the date.",
     ),
-
     QuizQuestion(
-      question: "7. \"We could possibly reconsider the school uniform policy.\" This is an example of:",
+      question:
+          "7. \"We could possibly reconsider the school uniform policy.\" This is an example of:",
       options: [
         "A direct command.",
         "Hedging.",
@@ -17623,11 +17232,12 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Words such as 'could' and 'possibly' soften a claim, making it an example of hedging.",
+      explanation:
+          "Words such as 'could' and 'possibly' soften a claim, making it an example of hedging.",
     ),
-
     QuizQuestion(
-      question: "8. What must be included in a rejoinder to support your arguments?",
+      question:
+          "8. What must be included in a rejoinder to support your arguments?",
       options: [
         "Drawings.",
         "References or evidence.",
@@ -17636,11 +17246,12 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Strong arguments in a rejoinder should always be supported with evidence or references.",
+      explanation:
+          "Strong arguments in a rejoinder should always be supported with evidence or references.",
     ),
-
     QuizQuestion(
-      question: "9. Which is the most professional salutation for a rejoinder to a newspaper?",
+      question:
+          "9. Which is the most professional salutation for a rejoinder to a newspaper?",
       options: [
         "Hey Editor,",
         "Dear Editor,",
@@ -17649,9 +17260,9 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "'Dear Editor,' is the standard formal salutation when writing to a newspaper editor.",
+      explanation:
+          "'Dear Editor,' is the standard formal salutation when writing to a newspaper editor.",
     ),
-
     QuizQuestion(
       question: "10. Where does the recipient's address go in a formal letter?",
       options: [
@@ -17662,7 +17273,8 @@ final QuizModel jhs3s4ss2Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "High",
-      explanation: "In the standard format of a formal letter, the recipient's address is placed on the left below the date.",
+      explanation:
+          "In the standard format of a formal letter, the recipient's address is placed on the left below the date.",
     ),
   ],
 );
@@ -17679,9 +17291,9 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "An informative text presents factual information and explains ideas or situations clearly.",
+      explanation:
+          "An informative text presents factual information and explains ideas or situations clearly.",
     ),
-
     QuizQuestion(
       question: "2. Which is an example of an explanatory detail?",
       options: [
@@ -17692,9 +17304,9 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "This detail explains why the engine overheated by giving its cause.",
+      explanation:
+          "This detail explains why the engine overheated by giving its cause.",
     ),
-
     QuizQuestion(
       question: "3. Why should reports be devoid of personal bias?",
       options: [
@@ -17705,9 +17317,9 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Objective reports rely on verified facts rather than personal opinions.",
+      explanation:
+          "Objective reports rely on verified facts rather than personal opinions.",
     ),
-
     QuizQuestion(
       question: "4. When describing a problem, you should also indicate:",
       options: [
@@ -17718,11 +17330,12 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "A good informative report explains the problem and suggests how it can be addressed.",
+      explanation:
+          "A good informative report explains the problem and suggests how it can be addressed.",
     ),
-
     QuizQuestion(
-      question: "5. \"The bridge collapsed due to heavy rainfall and weak foundations.\" This explains:",
+      question:
+          "5. \"The bridge collapsed due to heavy rainfall and weak foundations.\" This explains:",
       options: [
         "How a situation occurs.",
         "Why a situation occurs.",
@@ -17733,20 +17346,14 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       difficulty: "High",
       explanation: "The sentence explains both the event and its causes.",
     ),
-
     QuizQuestion(
       question: "6. Which word is not objective?",
-      options: [
-        "Thirty",
-        "Heavy",
-        "Horrible",
-        "Metal"
-      ],
+      options: ["Thirty", "Heavy", "Horrible", "Metal"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "'Horrible' expresses a personal judgment rather than an objective fact.",
+      explanation:
+          "'Horrible' expresses a personal judgment rather than an objective fact.",
     ),
-
     QuizQuestion(
       question: "7. Informative texts should be organised:",
       options: [
@@ -17757,9 +17364,9 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Logical organisation helps readers understand information clearly and easily.",
+      explanation:
+          "Logical organisation helps readers understand information clearly and easily.",
     ),
-
     QuizQuestion(
       question: "8. A report on a science experiment is an example of:",
       options: [
@@ -17770,11 +17377,12 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Science reports explain observations, methods, and results objectively.",
+      explanation:
+          "Science reports explain observations, methods, and results objectively.",
     ),
-
     QuizQuestion(
-      question: "9. When writing about cultural differences in a report, you must:",
+      question:
+          "9. When writing about cultural differences in a report, you must:",
       options: [
         "Use your own personal bias.",
         "Only include things that can be measured or proven.",
@@ -17783,11 +17391,12 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Reports should present verifiable facts and avoid assumptions or bias.",
+      explanation:
+          "Reports should present verifiable facts and avoid assumptions or bias.",
     ),
-
     QuizQuestion(
-      question: "10. What does it mean to \"indicate how it will work\" in a text?",
+      question:
+          "10. What does it mean to \"indicate how it will work\" in a text?",
       options: [
         "To guess the future.",
         "To provide clear steps or a plan for the solution.",
@@ -17796,7 +17405,8 @@ final QuizModel jhs3s4ss2Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "This means explaining the process or steps needed to make the solution work.",
+      explanation:
+          "This means explaining the process or steps needed to make the solution work.",
     ),
   ],
 );
@@ -17805,17 +17415,12 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question: "1. Which document is used to plan the order of a meeting?",
-      options: [
-        "Business Letter",
-        "Email",
-        "Agenda",
-        "Minute"
-      ],
+      options: ["Business Letter", "Email", "Agenda", "Minute"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "An agenda lists the items to be discussed and the order of a meeting.",
+      explanation:
+          "An agenda lists the items to be discussed and the order of a meeting.",
     ),
-
     QuizQuestion(
       question: "2. Formal writing should be devoid of:",
       options: [
@@ -17826,9 +17431,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "Formal writing should avoid abbreviations and slang to maintain a professional tone.",
+      explanation:
+          "Formal writing should avoid abbreviations and slang to maintain a professional tone.",
     ),
-
     QuizQuestion(
       question: "3. Where do section headings typically appear?",
       options: [
@@ -17839,9 +17444,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Section headings help organise ideas and improve readability in longer formal documents.",
+      explanation:
+          "Section headings help organise ideas and improve readability in longer formal documents.",
     ),
-
     QuizQuestion(
       question: "4. When taking minutes, you should record:",
       options: [
@@ -17852,9 +17457,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Minutes summarize the important discussions, decisions, and actions from a meeting.",
+      explanation:
+          "Minutes summarize the important discussions, decisions, and actions from a meeting.",
     ),
-
     QuizQuestion(
       question: "5. 'Yours sincerely' is used when:",
       options: [
@@ -17865,11 +17470,12 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "High",
-      explanation: "'Yours sincerely' is the correct complimentary close when you know the recipient's name.",
+      explanation:
+          "'Yours sincerely' is the correct complimentary close when you know the recipient's name.",
     ),
-
     QuizQuestion(
-      question: "6. Which ICT tool is most commonly used for publishing formal writing?",
+      question:
+          "6. Which ICT tool is most commonly used for publishing formal writing?",
       options: [
         "A calculator",
         "A word processor (like Microsoft Word or Google Docs)",
@@ -17878,9 +17484,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Word processors are designed for creating, editing, formatting, and publishing formal documents.",
+      explanation:
+          "Word processors are designed for creating, editing, formatting, and publishing formal documents.",
     ),
-
     QuizQuestion(
       question: "7. Why is proofreading for 'effect' important?",
       options: [
@@ -17891,9 +17497,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Proofreading ensures the writing has the intended tone and creates the right impression on the reader.",
+      explanation:
+          "Proofreading ensures the writing has the intended tone and creates the right impression on the reader.",
     ),
-
     QuizQuestion(
       question: "8. A formal email should always have a:",
       options: [
@@ -17904,11 +17510,12 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "A clear subject line tells the recipient the purpose of the email before they read it.",
+      explanation:
+          "A clear subject line tells the recipient the purpose of the email before they read it.",
     ),
-
     QuizQuestion(
-      question: "9. 'We have received your application' is better than 'We got your app' because:",
+      question:
+          "9. 'We have received your application' is better than 'We got your app' because:",
       options: [
         "It uses formal language and no abbreviations.",
         "It is shorter.",
@@ -17917,9 +17524,9 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Formal writing uses complete words and professional language instead of abbreviations or slang.",
+      explanation:
+          "Formal writing uses complete words and professional language instead of abbreviations or slang.",
     ),
-
     QuizQuestion(
       question: "10. In an agenda, what does 'A.O.B.' usually stand for?",
       options: [
@@ -17930,7 +17537,8 @@ final QuizModel jhs3s4ss2Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "'A.O.B.' stands for 'Any Other Business,' where additional matters may be discussed before the meeting ends.",
+      explanation:
+          "'A.O.B.' stands for 'Any Other Business,' where additional matters may be discussed before the meeting ends.",
     ),
   ],
 );
@@ -17938,18 +17546,14 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What is the standard small size for a flyer mentioned in the curriculum?",
-      options: [
-        "A1",
-        "A3",
-        "A5",
-        "A0"
-      ],
+      question:
+          "1. What is the standard small size for a flyer mentioned in the curriculum?",
+      options: ["A1", "A3", "A5", "A0"],
       correctIndex: 2,
       difficulty: "Low",
-      explanation: "A5 is the standard small paper size commonly used for flyers.",
+      explanation:
+          "A5 is the standard small paper size commonly used for flyers.",
     ),
-
     QuizQuestion(
       question: "2. Which element helps make a poster eye-catching?",
       options: [
@@ -17960,9 +17564,9 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "A catchy headline or logo attracts attention and encourages people to read the poster.",
+      explanation:
+          "A catchy headline or logo attracts attention and encourages people to read the poster.",
     ),
-
     QuizQuestion(
       question: "3. An invitation card should include a dress code if:",
       options: [
@@ -17973,11 +17577,12 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A dress code is included when guests are expected to wear specific clothing.",
+      explanation:
+          "A dress code is included when guests are expected to wear specific clothing.",
     ),
-
     QuizQuestion(
-      question: "4. In an email address like aziz65@gmail.com, what is gmail.com called?",
+      question:
+          "4. In an email address like aziz65@gmail.com, what is gmail.com called?",
       options: [
         "The server point.",
         "The recipient's name.",
@@ -17986,9 +17591,9 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "'gmail.com' is the email service provider's domain (server point).",
+      explanation:
+          "'gmail.com' is the email service provider's domain (server point).",
     ),
-
     QuizQuestion(
       question: "5. Why do we use CC in an email?",
       options: [
@@ -17999,9 +17604,9 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "CC (Carbon Copy) allows additional people to receive a copy of the email.",
+      explanation:
+          "CC (Carbon Copy) allows additional people to receive a copy of the email.",
     ),
-
     QuizQuestion(
       question: "6. Which of these is a call to action on a flyer?",
       options: [
@@ -18012,9 +17617,9 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A call to action tells the reader what to do next, such as visiting a website.",
+      explanation:
+          "A call to action tells the reader what to do next, such as visiting a website.",
     ),
-
     QuizQuestion(
       question: "7. What should be at the very bottom of a professional email?",
       options: [
@@ -18025,9 +17630,9 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "A professional email ends with the sender's signature, including their name and contact details.",
+      explanation:
+          "A professional email ends with the sender's signature, including their name and contact details.",
     ),
-
     QuizQuestion(
       question: "8. A poster is generally used for:",
       options: [
@@ -18038,11 +17643,12 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Posters are designed to share information with many people in public places.",
+      explanation:
+          "Posters are designed to share information with many people in public places.",
     ),
-
     QuizQuestion(
-      question: "9. If an invitation says \"Time: 2:00 PM - 6:00 PM,\" it is providing:",
+      question:
+          "9. If an invitation says \"Time: 2:00 PM - 6:00 PM,\" it is providing:",
       options: [
         "The location.",
         "The dress code.",
@@ -18051,11 +17657,12 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "This information tells guests when the event will take place.",
+      explanation:
+          "This information tells guests when the event will take place.",
     ),
-
     QuizQuestion(
-      question: "10. Which is the best subject line for an email about a school trip?",
+      question:
+          "10. Which is the best subject line for an email about a school trip?",
       options: [
         "Hello.",
         "Information regarding the Grade 9 trip to Akosombo.",
@@ -18064,12 +17671,14 @@ final QuizModel jhs3s4ss2Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "A good subject line is clear, specific, and tells the reader exactly what the email is about.",
+      explanation:
+          "A good subject line is clear, specific, and tells the reader exactly what the email is about.",
     ),
   ],
 );
 final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. A magazine that focuses on poems and short stories is a:",
@@ -18081,9 +17690,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Low",
-      explanation: "A literary magazine publishes creative works such as poems and short stories.",
+      explanation:
+          "A literary magazine publishes creative works such as poems and short stories.",
     ),
-
     QuizQuestion(
       question: "2. Which publication is primarily found online?",
       options: [
@@ -18096,7 +17705,6 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       difficulty: "Low",
       explanation: "A webzine is an online magazine published on the internet.",
     ),
-
     QuizQuestion(
       question: "3. A \"Letter to the Editor\" is usually written to:",
       options: [
@@ -18107,9 +17715,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Letters to the editor allow readers to express opinions or comments on public issues.",
+      explanation:
+          "Letters to the editor allow readers to express opinions or comments on public issues.",
     ),
-
     QuizQuestion(
       question: "4. \"Staff writers\" are people who:",
       options: [
@@ -18120,9 +17728,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Staff writers are employed by newspapers, magazines, or other publications to create content.",
+      explanation:
+          "Staff writers are employed by newspapers, magazines, or other publications to create content.",
     ),
-
     QuizQuestion(
       question: "5. A Case Study is different from a report because it is:",
       options: [
@@ -18133,9 +17741,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "A case study examines one specific situation or example in greater detail than a general report.",
+      explanation:
+          "A case study examines one specific situation or example in greater detail than a general report.",
     ),
-
     QuizQuestion(
       question: "6. What is self-publication?",
       options: [
@@ -18146,9 +17754,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Self-publication means an author publishes their own work without a traditional publisher.",
+      explanation:
+          "Self-publication means an author publishes their own work without a traditional publisher.",
     ),
-
     QuizQuestion(
       question: "7. Scholarly journals are mostly written for:",
       options: [
@@ -18159,9 +17767,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Scholarly journals are intended for researchers, academics, and professionals.",
+      explanation:
+          "Scholarly journals are intended for researchers, academics, and professionals.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is a typical topic for a short report?",
       options: [
@@ -18172,9 +17780,9 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "Short reports present factual information or analysis on real topics, such as a school policy.",
+      explanation:
+          "Short reports present factual information or analysis on real topics, such as a school policy.",
     ),
-
     QuizQuestion(
       question: "9. What helps make a report \"organised\"?",
       options: [
@@ -18185,11 +17793,12 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Clear headings and logical sections help readers follow the report easily.",
+      explanation:
+          "Clear headings and logical sections help readers follow the report easily.",
     ),
-
     QuizQuestion(
-      question: "10. Why is the \"audience\" important in writing for publication?",
+      question:
+          "10. Why is the \"audience\" important in writing for publication?",
       options: [
         "It isn't important at all.",
         "It determines the tone and style of the writing.",
@@ -18198,28 +17807,27 @@ final QuizModel jhs3s4ss2Lesson7QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Knowing your audience helps you choose the appropriate language, tone, and style.",
+      explanation:
+          "Knowing your audience helps you choose the appropriate language, tone, and style.",
     ),
   ],
 );
 final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
-      question: "1. Which part of the speech \"tells them what you are going to tell them\"?",
-      options: [
-        "Body",
-        "Introduction",
-        "Conclusion",
-        "RSVP"
-      ],
+      question:
+          "1. Which part of the speech \"tells them what you are going to tell them\"?",
+      options: ["Body", "Introduction", "Conclusion", "RSVP"],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "The introduction tells the audience what the speech will be about.",
+      explanation:
+          "The introduction tells the audience what the speech will be about.",
     ),
-
     QuizQuestion(
-      question: "2. \"It's your country, it's my country, it's our future!\" is an example of:",
+      question:
+          "2. \"It's your country, it's my country, it's our future!\" is an example of:",
       options: [
         "Tripling",
         "A flashback",
@@ -18228,9 +17836,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Tripling uses three related ideas to make a message more memorable and persuasive.",
+      explanation:
+          "Tripling uses three related ideas to make a message more memorable and persuasive.",
     ),
-
     QuizQuestion(
       question: "3. Why do speakers use the word \"we\"?",
       options: [
@@ -18241,9 +17849,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Low",
-      explanation: "Using 'we' makes the audience feel included and united with the speaker.",
+      explanation:
+          "Using 'we' makes the audience feel included and united with the speaker.",
     ),
-
     QuizQuestion(
       question: "4. What is powerful imagery?",
       options: [
@@ -18254,9 +17862,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Powerful imagery uses descriptive language to help the audience imagine scenes vividly.",
+      explanation:
+          "Powerful imagery uses descriptive language to help the audience imagine scenes vividly.",
     ),
-
     QuizQuestion(
       question: "5. Which of these is a parallel sentence structure?",
       options: [
@@ -18267,11 +17875,12 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "High",
-      explanation: "Parallel structure repeats the same grammatical pattern to strengthen a speech.",
+      explanation:
+          "Parallel structure repeats the same grammatical pattern to strengthen a speech.",
     ),
-
     QuizQuestion(
-      question: "6. Emotive adjectives like \"wonderful\" or \"magnificent\" are used to:",
+      question:
+          "6. Emotive adjectives like \"wonderful\" or \"magnificent\" are used to:",
       options: [
         "State a scientific fact.",
         "Create an emotional effect on the audience.",
@@ -18280,9 +17889,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Emotive adjectives appeal to the audience's feelings and emotions.",
+      explanation:
+          "Emotive adjectives appeal to the audience's feelings and emotions.",
     ),
-
     QuizQuestion(
       question: "7. The Body of the speech is where you:",
       options: [
@@ -18293,9 +17902,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Low",
-      explanation: "The body contains the main ideas, explanations, and supporting details of the speech.",
+      explanation:
+          "The body contains the main ideas, explanations, and supporting details of the speech.",
     ),
-
     QuizQuestion(
       question: "8. \"Repetition\" in a speech helps to:",
       options: [
@@ -18305,11 +17914,12 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Repeating key words or phrases reinforces important ideas and improves recall.",
+      explanation:
+          "Repeating key words or phrases reinforces important ideas and improves recall.",
     ),
-
     QuizQuestion(
-      question: "9. Which is the best example of a \"Call to Action\" for a conclusion?",
+      question:
+          "9. Which is the best example of a \"Call to Action\" for a conclusion?",
       options: [
         "\"In conclusion, I have finished talking.\"",
         "\"I am going to sit down now.\"",
@@ -18318,9 +17928,9 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "A call to action encourages the audience to take positive action after the speech.",
+      explanation:
+          "A call to action encourages the audience to take positive action after the speech.",
     ),
-
     QuizQuestion(
       question: "10. \"Shocking, disgraceful, and outrageous!\" This uses:",
       options: [
@@ -18330,12 +17940,14 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "High",
-      explanation: "The phrase combines tripling with emotive adjectives to create a strong emotional impact.",
+      explanation:
+          "The phrase combines tripling with emotive adjectives to create a strong emotional impact.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the first step in starting a research project?",
@@ -18347,9 +17959,9 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "A research project begins by identifying a topic or issue to investigate.",
+      explanation:
+          "A research project begins by identifying a topic or issue to investigate.",
     ),
-
     QuizQuestion(
       question: "2. Why do researchers use focused questions?",
       options: [
@@ -18360,9 +17972,9 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Focused questions help guide the research and identify the information that needs to be collected.",
+      explanation:
+          "Focused questions help guide the research and identify the information that needs to be collected.",
     ),
-
     QuizQuestion(
       question: "3. Which of the following is a digital source for research?",
       options: [
@@ -18373,11 +17985,12 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Educational websites and online databases are examples of digital research sources.",
+      explanation:
+          "Educational websites and online databases are examples of digital research sources.",
     ),
-
     QuizQuestion(
-      question: "4. When you write down the information you found during your research, you are:",
+      question:
+          "4. When you write down the information you found during your research, you are:",
       options: [
         "Recording findings",
         "Plagiarising",
@@ -18386,11 +17999,12 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Recording findings means documenting the information you have gathered during research.",
+      explanation:
+          "Recording findings means documenting the information you have gathered during research.",
     ),
-
     QuizQuestion(
-      question: "5. Which of these is an example of a focused question regarding Ghanaian cocoa products?",
+      question:
+          "5. Which of these is an example of a focused question regarding Ghanaian cocoa products?",
       options: [
         "Is chocolate sweet?",
         "Do you like cocoa?",
@@ -18399,9 +18013,9 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A focused research question asks for specific information that can be investigated.",
+      explanation:
+          "A focused research question asks for specific information that can be investigated.",
     ),
-
     QuizQuestion(
       question: "6. What does it mean to organise findings for a presentation?",
       options: [
@@ -18412,9 +18026,9 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Organising findings makes the information clear and easy for an audience to understand.",
+      explanation:
+          "Organising findings makes the information clear and easy for an audience to understand.",
     ),
-
     QuizQuestion(
       question: "7. How does a student avoid plagiarism?",
       options: [
@@ -18425,11 +18039,12 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Giving references acknowledges the original source of information and helps avoid plagiarism.",
+      explanation:
+          "Giving references acknowledges the original source of information and helps avoid plagiarism.",
     ),
-
     QuizQuestion(
-      question: "8. If Ama uses a quote from a book about Dr. Kwame Nkrumah, where should she put the book title?",
+      question:
+          "8. If Ama uses a quote from a book about Dr. Kwame Nkrumah, where should she put the book title?",
       options: [
         "In the Hook",
         "In the focused questions",
@@ -18438,9 +18053,9 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Book titles and authors should appear in the references section to credit the original source.",
+      explanation:
+          "Book titles and authors should appear in the references section to credit the original source.",
     ),
-
     QuizQuestion(
       question: "9. Which of these is an ethical way to conduct research?",
       options: [
@@ -18451,11 +18066,12 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Good research requires honesty and accurate reporting of findings.",
+      explanation:
+          "Good research requires honesty and accurate reporting of findings.",
     ),
-
     QuizQuestion(
-      question: "10. What is the primary goal of a short research project in school?",
+      question:
+          "10. What is the primary goal of a short research project in school?",
       options: [
         "To buy new products",
         "To build and present knowledge about a topic",
@@ -18464,15 +18080,18 @@ final QuizModel jhs3s4ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "School research projects help students gather, understand, and present knowledge about a topic.",
+      explanation:
+          "School research projects help students gather, understand, and present knowledge about a topic.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
-      question: "1. What are the four main ways an author develops a character?",
+      question:
+          "1. What are the four main ways an author develops a character?",
       options: [
         "Appearance, actions, speech, and what others say",
         "Food, clothes, height, and weight",
@@ -18481,48 +18100,35 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Authors develop characters through their appearance, actions, speech, and what other characters say about them.",
+      explanation:
+          "Authors develop characters through their appearance, actions, speech, and what other characters say about them.",
     ),
-
     QuizQuestion(
       question: "2. A character's clothing falls under which category?",
-      options: [
-        "Speech",
-        "Actions",
-        "Appearance",
-        "Opinions"
-      ],
+      options: ["Speech", "Actions", "Appearance", "Opinions"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Appearance includes everything we can observe about a character's physical features and clothing.",
+      explanation:
+          "Appearance includes everything we can observe about a character's physical features and clothing.",
     ),
-
     QuizQuestion(
-      question: "3. In a Ghanaian play, if a character uses many traditional proverbs, they are often seen as:",
-      options: [
-        "Uneducated",
-        "Wise or elderly",
-        "Rude",
-        "A foreigner"
-      ],
+      question:
+          "3. In a Ghanaian play, if a character uses many traditional proverbs, they are often seen as:",
+      options: ["Uneducated", "Wise or elderly", "Rude", "A foreigner"],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Traditional proverbs often represent wisdom, experience, and cultural knowledge.",
+      explanation:
+          "Traditional proverbs often represent wisdom, experience, and cultural knowledge.",
     ),
-
     QuizQuestion(
-      question: "4. Which element of characterisation is shown when a boy saves a drowning dog from a gutter?",
-      options: [
-        "Speech",
-        "Appearance",
-        "Actions",
-        "Others' opinions"
-      ],
+      question:
+          "4. Which element of characterisation is shown when a boy saves a drowning dog from a gutter?",
+      options: ["Speech", "Appearance", "Actions", "Others' opinions"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A character's actions reveal important traits such as bravery and kindness.",
+      explanation:
+          "A character's actions reveal important traits such as bravery and kindness.",
     ),
-
     QuizQuestion(
       question: "5. Why is 'what others say' a powerful tool for a writer?",
       options: [
@@ -18533,11 +18139,12 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Other characters' opinions shape how readers perceive a character before meeting them directly.",
+      explanation:
+          "Other characters' opinions shape how readers perceive a character before meeting them directly.",
     ),
-
     QuizQuestion(
-      question: "6. If a character's dialogue is filled with insults and shouting, what can we infer about their personality?",
+      question:
+          "6. If a character's dialogue is filled with insults and shouting, what can we infer about their personality?",
       options: [
         "They are very peaceful.",
         "They are likely aggressive or frustrated.",
@@ -18546,22 +18153,18 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Speech often reflects a character's emotions, attitudes, and personality.",
+      explanation:
+          "Speech often reflects a character's emotions, attitudes, and personality.",
     ),
-
     QuizQuestion(
-      question: "7. A student who arrives at school every day with a perfectly tucked-in shirt and polished shoes is characterised as:",
-      options: [
-        "Messy",
-        "Disciplined and neat",
-        "Tired",
-        "Athletic"
-      ],
+      question:
+          "7. A student who arrives at school every day with a perfectly tucked-in shirt and polished shoes is characterised as:",
+      options: ["Messy", "Disciplined and neat", "Tired", "Athletic"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A neat appearance suggests discipline, responsibility, and care.",
+      explanation:
+          "A neat appearance suggests discipline, responsibility, and care.",
     ),
-
     QuizQuestion(
       question: "8. An 'inference' in characterisation is:",
       options: [
@@ -18572,9 +18175,9 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Readers make inferences by combining clues from the text with their own reasoning.",
+      explanation:
+          "Readers make inferences by combining clues from the text with their own reasoning.",
     ),
-
     QuizQuestion(
       question: "9. Which combination of elements would best show a 'Villain'?",
       options: [
@@ -18585,11 +18188,12 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Consistent clues from appearance, actions, and others' opinions create the image of a threatening character.",
+      explanation:
+          "Consistent clues from appearance, actions, and others' opinions create the image of a threatening character.",
     ),
-
     QuizQuestion(
-      question: "10. How does characterisation contribute to the meaning of a story?",
+      question:
+          "10. How does characterisation contribute to the meaning of a story?",
       options: [
         "It makes the book heavier.",
         "It tells the reader exactly where the story takes place.",
@@ -18598,41 +18202,34 @@ final QuizModel jhs3s4ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Understanding characters helps readers understand the motivations, events, and themes explored in the story.",
+      explanation:
+          "Understanding characters helps readers understand the motivations, events, and themes explored in the story.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L3/ENGLISH JHS3 S4 SS3 L3 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. The word 'mono' in monologue means:",
-      options: [
-        "Many",
-        "Two",
-        "One",
-        "Loud"
-      ],
+      options: ["Many", "Two", "One", "Loud"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "'Mono' is a prefix meaning one or single.",
     ),
-
     QuizQuestion(
-      question: "2. In which literary genre are you most likely to find a monologue or dialogue?",
-      options: [
-        "Drama (Plays)",
-        "Poetry",
-        "Dictionaries",
-        "Maps"
-      ],
+      question:
+          "2. In which literary genre are you most likely to find a monologue or dialogue?",
+      options: ["Drama (Plays)", "Poetry", "Dictionaries", "Maps"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Drama relies heavily on dialogue and monologues to tell the story.",
+      explanation:
+          "Drama relies heavily on dialogue and monologues to tell the story.",
     ),
-
     QuizQuestion(
-      question: "3. Which of the following is written correctly for a play script?",
+      question:
+          "3. Which of the following is written correctly for a play script?",
       options: [
         "\"YAA: Where are you going?\"",
         "YAA: Where are you going?",
@@ -18641,22 +18238,18 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Play scripts use the character's name in capital letters followed by a colon, without quotation marks.",
+      explanation:
+          "Play scripts use the character's name in capital letters followed by a colon, without quotation marks.",
     ),
-
     QuizQuestion(
-      question: "4. A character sharing their secret plans with the audience while other characters are frozen on stage is a:",
-      options: [
-        "Dialogue",
-        "Monologue",
-        "Narrator",
-        "Stage direction"
-      ],
+      question:
+          "4. A character sharing their secret plans with the audience while other characters are frozen on stage is a:",
+      options: ["Dialogue", "Monologue", "Narrator", "Stage direction"],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "This is a monologue (specifically a soliloquy), where the character speaks their thoughts aloud.",
+      explanation:
+          "This is a monologue (specifically a soliloquy), where the character speaks their thoughts aloud.",
     ),
-
     QuizQuestion(
       question: "5. Dialogue is used in a play to:",
       options: [
@@ -18667,11 +18260,12 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Dialogue reveals character relationships, conflict, and moves the plot forward.",
+      explanation:
+          "Dialogue reveals character relationships, conflict, and moves the plot forward.",
     ),
-
     QuizQuestion(
-      question: "6. What is wrong with this script line? \"kofi: I am hungry.\"",
+      question:
+          "6. What is wrong with this script line? \"kofi: I am hungry.\"",
       options: [
         "The colon is missing.",
         "The name 'kofi' should be in CAPITAL LETTERS.",
@@ -18680,9 +18274,9 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "In standard script format, character names are written in capital letters.",
+      explanation:
+          "In standard script format, character names are written in capital letters.",
     ),
-
     QuizQuestion(
       question: "7. Stage directions are usually written in:",
       options: [
@@ -18693,11 +18287,12 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Stage directions are commonly placed in brackets and often italicized to distinguish them from dialogue.",
+      explanation:
+          "Stage directions are commonly placed in brackets and often italicized to distinguish them from dialogue.",
     ),
-
     QuizQuestion(
-      question: "8. If Ama and her mother are arguing about her school fees, they are engaging in:",
+      question:
+          "8. If Ama and her mother are arguing about her school fees, they are engaging in:",
       options: [
         "A monologue",
         "A dialogue",
@@ -18706,9 +18301,9 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A conversation between two characters is called a dialogue.",
+      explanation:
+          "A conversation between two characters is called a dialogue.",
     ),
-
     QuizQuestion(
       question: "9. Which of these is NOT a reason to use a monologue?",
       options: [
@@ -18719,11 +18314,12 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "A back-and-forth conversation is dialogue, not a monologue.",
+      explanation:
+          "A back-and-forth conversation is dialogue, not a monologue.",
     ),
-
     QuizQuestion(
-      question: "10. A playwright uses stage directions to describe the 'setting'. Where is this usually found?",
+      question:
+          "10. A playwright uses stage directions to describe the 'setting'. Where is this usually found?",
       options: [
         "Inside the dialogue.",
         "At the beginning of a scene in brackets.",
@@ -18732,28 +18328,25 @@ final QuizModel jhs3s4ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Stage directions describing the setting are usually placed at the beginning of a scene in brackets.",
+      explanation:
+          "Stage directions describing the setting are usually placed at the beginning of a scene in brackets.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. The order in which events happen in a story is called the:",
-      options: [
-        "Narrative",
-        "Monologue",
-        "Dialogue",
-        "Sequence"
-      ],
+      options: ["Narrative", "Monologue", "Dialogue", "Sequence"],
       correctIndex: 3,
       difficulty: "Easy",
       explanation: "A sequence is the order in which events happen in a story.",
     ),
-
     QuizQuestion(
-      question: "2. Which event would most likely be the 'Introduction' of a story set in a school?",
+      question:
+          "2. Which event would most likely be the 'Introduction' of a story set in a school?",
       options: [
         "The students going home at 3 PM.",
         "The bell ringing for the start of the first lesson.",
@@ -18762,11 +18355,12 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The introduction sets the scene, so the beginning of the school day is the most suitable event.",
+      explanation:
+          "The introduction sets the scene, so the beginning of the school day is the most suitable event.",
     ),
-
     QuizQuestion(
-      question: "3. In a sequence of events, what usually comes immediately after the 'Conflict'?",
+      question:
+          "3. In a sequence of events, what usually comes immediately after the 'Conflict'?",
       options: [
         "The Resolution",
         "The Author's Note",
@@ -18775,9 +18369,9 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "After the conflict is introduced, the story moves into the rising action as characters respond to the problem.",
+      explanation:
+          "After the conflict is introduced, the story moves into the rising action as characters respond to the problem.",
     ),
-
     QuizQuestion(
       question: "4. Why do biographies often use a chronological sequence?",
       options: [
@@ -18788,11 +18382,12 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Chronological order helps readers follow the events and development of a person's life.",
+      explanation:
+          "Chronological order helps readers follow the events and development of a person's life.",
     ),
-
     QuizQuestion(
-      question: "5. Which of these is a 'Key Event' in a story about a lost dog?",
+      question:
+          "5. Which of these is a 'Key Event' in a story about a lost dog?",
       options: [
         "The dog barks at a butterfly.",
         "A kind stranger finds the dog and reads its collar.",
@@ -18801,9 +18396,9 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Finding the dog and identifying its owner is a major event that moves the story toward its resolution.",
+      explanation:
+          "Finding the dog and identifying its owner is a major event that moves the story toward its resolution.",
     ),
-
     QuizQuestion(
       question: "6. How does a 'Flashback' affect the sequence of a story?",
       options: [
@@ -18814,11 +18409,12 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "A flashback takes readers back to an earlier event to provide important background information.",
+      explanation:
+          "A flashback takes readers back to an earlier event to provide important background information.",
     ),
-
     QuizQuestion(
-      question: "7. Comparing events across two different stories helps readers identify:",
+      question:
+          "7. Comparing events across two different stories helps readers identify:",
       options: [
         "The number of pages in each book.",
         "Common themes and plot structures.",
@@ -18827,24 +18423,21 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Comparing stories helps readers recognize similar themes, structures, and patterns.",
+      explanation:
+          "Comparing stories helps readers recognize similar themes, structures, and patterns.",
     ),
-
     QuizQuestion(
-      question: "8. In a play script, if Scene 1 is in a kitchen and Scene 2 is at a market, the sequence is showing a change in:",
-      options: [
-        "Character",
-        "Location",
-        "Language",
-        "Title"
-      ],
+      question:
+          "8. In a play script, if Scene 1 is in a kitchen and Scene 2 is at a market, the sequence is showing a change in:",
+      options: ["Character", "Location", "Language", "Title"],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "A new scene often indicates that the location of the action has changed.",
+      explanation:
+          "A new scene often indicates that the location of the action has changed.",
     ),
-
     QuizQuestion(
-      question: "9. Which sequence correctly describes the 'Hero's Journey' often found in Ghanaian legends?",
+      question:
+          "9. Which sequence correctly describes the 'Hero's Journey' often found in Ghanaian legends?",
       options: [
         "Victory -> Birth -> Struggle.",
         "Call to Adventure -> Struggle/Tests -> Great Success.",
@@ -18853,9 +18446,9 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "The hero's journey commonly begins with a call to adventure, followed by challenges, and ends in success.",
+      explanation:
+          "The hero's journey commonly begins with a call to adventure, followed by challenges, and ends in success.",
     ),
-
     QuizQuestion(
       question: "10. If a story has no 'Resolution', the sequence is:",
       options: [
@@ -18866,12 +18459,14 @@ final QuizModel jhs3s4ss3Lesson4QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "A story without a resolution leaves the ending open for the reader to interpret.",
+      explanation:
+          "A story without a resolution leaves the ending open for the reader to interpret.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. What is 'imagery' in a text?",
@@ -18883,35 +18478,25 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Imagery uses descriptive language to appeal to the reader's senses and create vivid mental pictures.",
+      explanation:
+          "Imagery uses descriptive language to appeal to the reader's senses and create vivid mental pictures.",
     ),
-
     QuizQuestion(
       question: "2. Which word is a key sign that a sentence is a simile?",
-      options: [
-        "Is",
-        "Was",
-        "Like",
-        "Not"
-      ],
+      options: ["Is", "Was", "Like", "Not"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Similes usually use words like 'like' or 'as' to compare two different things.",
+      explanation:
+          "Similes usually use words like 'like' or 'as' to compare two different things.",
     ),
-
     QuizQuestion(
       question: "3. \"The lightning danced across the sky\" is an example of:",
-      options: [
-        "Metaphor",
-        "Simile",
-        "Personification",
-        "Hyperbole"
-      ],
+      options: ["Metaphor", "Simile", "Personification", "Hyperbole"],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "The sentence gives lightning the human action of dancing, making it an example of personification.",
+      explanation:
+          "The sentence gives lightning the human action of dancing, making it an example of personification.",
     ),
-
     QuizQuestion(
       question: "4. Identify the metaphor:",
       options: [
@@ -18922,9 +18507,9 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "A metaphor directly compares two things without using 'like' or 'as'.",
+      explanation:
+          "A metaphor directly compares two things without using 'like' or 'as'.",
     ),
-
     QuizQuestion(
       question: "5. What does the idiom 'once in a blue moon' mean?",
       options: [
@@ -18935,9 +18520,9 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "'Once in a blue moon' is an idiom meaning something happens very rarely.",
+      explanation:
+          "'Once in a blue moon' is an idiom meaning something happens very rarely.",
     ),
-
     QuizQuestion(
       question: "6. Why do writers use personification?",
       options: [
@@ -18948,22 +18533,17 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Personification gives human qualities to non-human things, making them feel alive and engaging.",
+      explanation:
+          "Personification gives human qualities to non-human things, making them feel alive and engaging.",
     ),
-
     QuizQuestion(
       question: "7. \"The world is a stage\" is a famous example of:",
-      options: [
-        "Simile",
-        "Personification",
-        "Metaphor",
-        "Idiom"
-      ],
+      options: ["Simile", "Personification", "Metaphor", "Idiom"],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "It compares the world to a stage by stating that it is one, making it a metaphor.",
+      explanation:
+          "It compares the world to a stage by stating that it is one, making it a metaphor.",
     ),
-
     QuizQuestion(
       question: "8. Which of these is an idiomatic expression?",
       options: [
@@ -18974,9 +18554,9 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "'Under the weather' is an idiom meaning someone feels unwell.",
+      explanation:
+          "'Under the weather' is an idiom meaning someone feels unwell.",
     ),
-
     QuizQuestion(
       question: "9. Using imagery in a story contributes to the meaning by:",
       options: [
@@ -18987,11 +18567,12 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Hard",
-      explanation: "Imagery creates vivid mental pictures that help readers experience the mood, atmosphere, and emotions of the story.",
+      explanation:
+          "Imagery creates vivid mental pictures that help readers experience the mood, atmosphere, and emotions of the story.",
     ),
-
     QuizQuestion(
-      question: "10. \"The car's engine coughed and sputtered before dying.\" This uses:",
+      question:
+          "10. \"The car's engine coughed and sputtered before dying.\" This uses:",
       options: [
         "Simile only",
         "Metaphor and idiom",
@@ -19000,12 +18581,14 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "The engine is given human characteristics such as coughing and dying, which is personification.",
+      explanation:
+          "The engine is given human characteristics such as coughing and dying, which is personification.",
     ),
   ],
 );
 final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ).m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the definition of a 'Theme' in literature?",
@@ -19017,9 +18600,9 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A theme is the central message or underlying idea that a story or text communicates.",
+      explanation:
+          "A theme is the central message or underlying idea that a story or text communicates.",
     ),
-
     QuizQuestion(
       question: "2. Which of these is a common theme in many Ghanaian stories?",
       options: [
@@ -19030,20 +18613,17 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Many Ghanaian stories emphasize values such as family, respect, and community.",
+      explanation:
+          "Many Ghanaian stories emphasize values such as family, respect, and community.",
     ),
-
     QuizQuestion(
       question: "3. True or False: A story can have more than one theme.",
-      options: [
-        "True",
-        "False"
-      ],
+      options: ["True", "False"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Many stories explore multiple themes, such as love, courage, sacrifice, or friendship.",
+      explanation:
+          "Many stories explore multiple themes, such as love, courage, sacrifice, or friendship.",
     ),
-
     QuizQuestion(
       question: "4. In a play, themes are primarily revealed through:",
       options: [
@@ -19054,9 +18634,9 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The way characters speak, behave, and interact helps reveal the play's central ideas.",
+      explanation:
+          "The way characters speak, behave, and interact helps reveal the play's central ideas.",
     ),
-
     QuizQuestion(
       question: "5. How is a theme different from a plot?",
       options: [
@@ -19067,11 +18647,12 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The plot tells the events of the story, while the theme expresses the deeper meaning behind those events.",
+      explanation:
+          "The plot tells the events of the story, while the theme expresses the deeper meaning behind those events.",
     ),
-
     QuizQuestion(
-      question: "6. If a story ends with a character being punished for stealing, the theme is likely:",
+      question:
+          "6. If a story ends with a character being punished for stealing, the theme is likely:",
       options: [
         "Stealing is a good way to get rich.",
         "Dishonesty has negative consequences.",
@@ -19080,11 +18661,12 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The ending reinforces the moral lesson that dishonest actions often lead to negative consequences.",
+      explanation:
+          "The ending reinforces the moral lesson that dishonest actions often lead to negative consequences.",
     ),
-
     QuizQuestion(
-      question: "7. A student uses a digital presentation to show how 'Respect' is a theme in three different books. This is an example of:",
+      question:
+          "7. A student uses a digital presentation to show how 'Respect' is a theme in three different books. This is an example of:",
       options: [
         "Plagiarism",
         "Analysing common themes using ICT tools",
@@ -19093,11 +18675,12 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Using digital tools to compare themes across texts is an important analytical skill.",
+      explanation:
+          "Using digital tools to compare themes across texts is an important analytical skill.",
     ),
-
     QuizQuestion(
-      question: "8. Which element of a film helps to convey a theme of 'Mystery'?",
+      question:
+          "8. Which element of a film helps to convey a theme of 'Mystery'?",
       options: [
         "Bright, sunny lighting",
         "A clear, happy ending",
@@ -19106,9 +18689,9 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Lighting and music help create a mysterious atmosphere that supports the film's theme.",
+      explanation:
+          "Lighting and music help create a mysterious atmosphere that supports the film's theme.",
     ),
-
     QuizQuestion(
       question: "9. Adapting a narrative means:",
       options: [
@@ -19119,11 +18702,12 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Adaptation changes the form or medium of a story while preserving its main ideas or themes.",
+      explanation:
+          "Adaptation changes the form or medium of a story while preserving its main ideas or themes.",
     ),
-
     QuizQuestion(
-      question: "10. Why is it important to reflect independently on your writing?",
+      question:
+          "10. Why is it important to reflect independently on your writing?",
       options: [
         "To make sure you didn't forget your name.",
         "To see if you can read your own handwriting.",
@@ -19132,7 +18716,8 @@ final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Self-reflection helps writers evaluate whether their intended message or theme is communicated effectively.",
+      explanation:
+          "Self-reflection helps writers evaluate whether their intended message or theme is communicated effectively.",
     ),
   ],
 );
@@ -23208,7 +22793,7 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. The rites of passage are described as 'socially significant' because they:",
+          "1. The rites of passage are described as 'socially significant' because they:",
       options: [
         "Are very expensive.",
         "Take a very long time.",
@@ -23218,12 +22803,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Low",
       explanation:
-      "Rites of passage pass on important moral values and traditions from one generation to another.",
+          "Rites of passage pass on important moral values and traditions from one generation to another.",
     ),
-
     QuizQuestion(
       question:
-      "2. Which value is promoted when a couple remains faithful in marriage?",
+          "2. Which value is promoted when a couple remains faithful in marriage?",
       options: [
         "Greed.",
         "Faithfulness and Trust.",
@@ -23233,12 +22817,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "Marriage encourages mutual trust, loyalty, and faithfulness between husband and wife.",
+          "Marriage encourages mutual trust, loyalty, and faithfulness between husband and wife.",
     ),
-
     QuizQuestion(
       question:
-      "3. Traditionalists believe that if you live a bad life, your death rites:",
+          "3. Traditionalists believe that if you live a bad life, your death rites:",
       options: [
         "Will be the biggest party.",
         "Will not help you join the ancestors.",
@@ -23248,12 +22831,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Traditional belief teaches that only people who live upright lives are welcomed among the ancestors.",
+          "Traditional belief teaches that only people who live upright lives are welcomed among the ancestors.",
     ),
-
     QuizQuestion(
       question:
-      "4. What moral lesson is found in the 'Anoka' ceremony of the Akans?",
+          "4. What moral lesson is found in the 'Anoka' ceremony of the Akans?",
       options: [
         "To be greedy with food.",
         "To dislike traditional food.",
@@ -23263,12 +22845,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "The Anoka ceremony teaches discipline, obedience, and respect through symbolic blessings.",
+          "The Anoka ceremony teaches discipline, obedience, and respect through symbolic blessings.",
     ),
-
     QuizQuestion(
       question:
-      "5. Marriage rites give 'Legitimacy' to a union. This means the marriage is:",
+          "5. Marriage rites give 'Legitimacy' to a union. This means the marriage is:",
       options: [
         "Secret.",
         "Recognized and respected by the community.",
@@ -23278,9 +22859,8 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Legitimacy means the community officially recognizes the couple as husband and wife.",
+          "Legitimacy means the community officially recognizes the couple as husband and wife.",
     ),
-
     QuizQuestion(
       question: "6. 'Truthfulness' is a moral lesson emphasized in:",
       options: [
@@ -23292,12 +22872,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      "Truthfulness is an important value taught throughout all stages of life and all rites of passage.",
+          "Truthfulness is an important value taught throughout all stages of life and all rites of passage.",
     ),
-
     QuizQuestion(
       question:
-      "7. Why are gifts given to the mother and child during a naming ceremony?",
+          "7. Why are gifts given to the mother and child during a naming ceremony?",
       options: [
         "To provide financial support and show love.",
         "To show off wealth.",
@@ -23307,12 +22886,10 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Low",
       explanation:
-      "Giving gifts expresses love, support, and shared joy within the community.",
+          "Giving gifts expresses love, support, and shared joy within the community.",
     ),
-
     QuizQuestion(
-      question:
-      "8. The Krobo Dipo stone ceremony primarily tests a girl's:",
+      question: "8. The Krobo Dipo stone ceremony primarily tests a girl's:",
       options: [
         "Strength.",
         "Wealth.",
@@ -23322,12 +22899,10 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "The Dipo stone ceremony symbolizes the initiate's honesty, purity, and good character.",
+          "The Dipo stone ceremony symbolizes the initiate's honesty, purity, and good character.",
     ),
-
     QuizQuestion(
-      question:
-      "9. One importance of death rites is that they:",
+      question: "9. One importance of death rites is that they:",
       options: [
         "Encourage the living to be wicked.",
         "Remind the living that life is short and they must be good.",
@@ -23337,12 +22912,11 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Death rites remind the living to live upright lives because life is temporary.",
+          "Death rites remind the living to live upright lives because life is temporary.",
     ),
-
     QuizQuestion(
       question:
-      "10. Rites of passage help to 'Discourage irresponsible behaviour' by:",
+          "10. Rites of passage help to 'Discourage irresponsible behaviour' by:",
       options: [
         "Punishing people.",
         "Setting high moral standards for everyone.",
@@ -23352,7 +22926,7 @@ final QuizModel RMEjhs2s2ss1Lesson6QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      "These ceremonies teach society's expectations of responsible behaviour and good character.",
+          "These ceremonies teach society's expectations of responsible behaviour and good character.",
     ),
   ],
 );
@@ -29160,11 +28734,12 @@ final QuizModel SSjhs1s5ss2Lesson1QuizData = QuizModel(
 );
 
 final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/quiz.m4a',
   questions: [
     QuizQuestion(
       question:
-      "1. On which specific date did the tragic shooting of the three unarmed ex-servicemen take place at the Christiansborg Crossroads in Accra?",
+          "1. On which specific date did the tragic shooting of the three unarmed ex-servicemen take place at the Christiansborg Crossroads in Accra?",
       options: [
         "12th March 1948",
         "28th February 1948",
@@ -29174,12 +28749,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "The peaceful march and the fatal shooting of the three ex-servicemen occurred on 28th February 1948, a date remembered annually in Ghana.",
+          "The peaceful march and the fatal shooting of the three ex-servicemen occurred on 28th February 1948, a date remembered annually in Ghana.",
     ),
-
     QuizQuestion(
       question:
-      "2. What was the name of the British police officer who ordered his armed security forces to fire upon the peaceful veterans?",
+          "2. What was the name of the British police officer who ordered his armed security forces to fire upon the peaceful veterans?",
       options: [
         "Andrew Aiken Watson",
         "Robert Scott",
@@ -29189,12 +28763,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Major Imray ordered the security forces to open fire after the veterans refused to stop their peaceful march.",
+          "Major Imray ordered the security forces to open fire after the veterans refused to stop their peaceful march.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which of the following heroes was a native of the Ga ethnic group from La, Accra, and served as a prominent leader during the 1948 veterans' march?",
+          "3. Which of the following heroes was a native of the Ga ethnic group from La, Accra, and served as a prominent leader during the 1948 veterans' march?",
       options: [
         "Sergeant Cornelius Francis Adjetey",
         "Corporal Patrick Attipoe",
@@ -29204,12 +28777,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "Sergeant Cornelius Francis Adjetey, a Ga from La, Accra, led the procession before he was killed.",
+          "Sergeant Cornelius Francis Adjetey, a Ga from La, Accra, led the procession before he was killed.",
     ),
-
     QuizQuestion(
       question:
-      "4. How many members made up the independent Watson Commission that investigated the 1948 civil disturbances?",
+          "4. How many members made up the independent Watson Commission that investigated the 1948 civil disturbances?",
       options: [
         "Six members",
         "Two members",
@@ -29219,12 +28791,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "The Watson Commission consisted of three members: Andrew Aiken Watson (Chairman), Andrew Dalgleish, and Keith Murray.",
+          "The Watson Commission consisted of three members: Andrew Aiken Watson (Chairman), Andrew Dalgleish, and Keith Murray.",
     ),
-
     QuizQuestion(
       question:
-      "5. What major economic grievance did returning World War Two veterans hold against the British colonial administration?",
+          "5. What major economic grievance did returning World War Two veterans hold against the British colonial administration?",
       options: [
         "The forced closure of local Ghanaian banks and credit unions",
         "Broken promises regarding pensions, housing benefits, and stable employment",
@@ -29234,12 +28805,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "The veterans protested because the colonial government failed to fulfill promises relating to pensions, welfare, and employment.",
+          "The veterans protested because the colonial government failed to fulfill promises relating to pensions, welfare, and employment.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which of the following figures was not a member of the celebrated political group known as 'The Big Six' arrested following the 1948 riots?",
+          "6. Which of the following figures was not a member of the celebrated political group known as 'The Big Six' arrested following the 1948 riots?",
       options: [
         "Dr. Kwame Nkrumah",
         "Ebenezer Ako Adjei",
@@ -29249,12 +28819,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Sir Henry Coussey was not one of the Big Six; he later chaired the Coussey Committee.",
+          "Sir Henry Coussey was not one of the Big Six; he later chaired the Coussey Committee.",
     ),
-
     QuizQuestion(
       question:
-      "7. In which month and year did the Watson Commission officially present its comprehensive report and recommendations to the British government?",
+          "7. In which month and year did the Watson Commission officially present its comprehensive report and recommendations to the British government?",
       options: [
         "June 1948",
         "March 1948",
@@ -29264,12 +28833,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "The Watson Commission completed its investigations and submitted its report in June 1948.",
+          "The Watson Commission completed its investigations and submitted its report in June 1948.",
     ),
-
     QuizQuestion(
       question:
-      "8. What did the Watson Commission conclude regarding the existing 1946 Burns Constitution?",
+          "8. What did the Watson Commission conclude regarding the existing 1946 Burns Constitution?",
       options: [
         "It was working perfectly and should be maintained for another decade",
         "It was completely out of date because it failed to give Africans real political power",
@@ -29279,12 +28847,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The Commission concluded that the Burns Constitution did not provide meaningful political power to Africans.",
+          "The Commission concluded that the Burns Constitution did not provide meaningful political power to Africans.",
     ),
-
     QuizQuestion(
       question:
-      "9. From which specific geographical region did Corporal Patrick Attipoe, one of the three martyred ex-servicemen, originate?",
+          "9. From which specific geographical region did Corporal Patrick Attipoe, one of the three martyred ex-servicemen, originate?",
       options: [
         "Northern Region",
         "Ashanti Region",
@@ -29294,12 +28861,11 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Hard",
       explanation:
-      "Corporal Patrick Attipoe was from Ghana's Volta Region and became one of the three celebrated martyrs.",
+          "Corporal Patrick Attipoe was from Ghana's Volta Region and became one of the three celebrated martyrs.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which historic advisory body was formed in March 1949 as a direct consequence of the recommendations made by the Watson Commission?",
+          "10. Which historic advisory body was formed in March 1949 as a direct consequence of the recommendations made by the Watson Commission?",
       options: [
         "The National Assembly",
         "The Coussey Committee",
@@ -29309,16 +28875,17 @@ final QuizModel SSjhs1s6ss1Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Following the Watson Commission's recommendations, the Coussey Committee was established in 1949 to draft constitutional reforms.",
+          "Following the Watson Commission's recommendations, the Coussey Committee was established in 1949 to draft constitutional reforms.",
     ),
   ],
 );
 final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/quiz.m4a',
   questions: [
     QuizQuestion(
       question:
-      "1. In which Ghanaian town did the Committee on Youth Organization hold its critical June 1949 conference that urged Nkrumah to form a new party?",
+          "1. In which Ghanaian town did the Committee on Youth Organization hold its critical June 1949 conference that urged Nkrumah to form a new party?",
       options: [
         "Winneba",
         "Saltpond",
@@ -29328,12 +28895,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The Committee on Youth Organization met in Tarkwa in June 1949 and encouraged Kwame Nkrumah to break away from the UGCC and form a new political party.",
+          "The Committee on Youth Organization met in Tarkwa in June 1949 and encouraged Kwame Nkrumah to break away from the UGCC and form a new political party.",
     ),
-
     QuizQuestion(
       question:
-      "2. What political position did Dr. Kwame Nkrumah hold within the United Gold Coast Convention before his resignation?",
+          "2. What political position did Dr. Kwame Nkrumah hold within the United Gold Coast Convention before his resignation?",
       options: [
         "National Chairman",
         "General Secretary",
@@ -29343,12 +28909,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Kwame Nkrumah served as the General Secretary of the UGCC before resigning to establish the Convention People's Party.",
+          "Kwame Nkrumah served as the General Secretary of the UGCC before resigning to establish the Convention People's Party.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which official color in the three-striped CPP party flag was chosen to represent the rich agricultural wealth and natural forests of the country?",
+          "3. Which official color in the three-striped CPP party flag was chosen to represent the rich agricultural wealth and natural forests of the country?",
       options: [
         "White",
         "Green",
@@ -29358,12 +28923,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Green on the CPP flag symbolizes Ghana's rich vegetation, forests, and agricultural resources.",
+          "Green on the CPP flag symbolizes Ghana's rich vegetation, forests, and agricultural resources.",
     ),
-
     QuizQuestion(
       question:
-      "4. Who was the legendary organizer who ran the CPP campaigns and edited the Accra Evening News while Nkrumah was held in James Fort prison?",
+          "4. Who was the legendary organizer who ran the CPP campaigns and edited the Accra Evening News while Nkrumah was held in James Fort prison?",
       options: [
         "Kojo Botsio",
         "Komla Agbeli Gbedemah",
@@ -29373,12 +28937,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "Komla Agbeli Gbedemah managed party activities and helped keep the CPP movement active while Nkrumah was imprisoned.",
+          "Komla Agbeli Gbedemah managed party activities and helped keep the CPP movement active while Nkrumah was imprisoned.",
     ),
-
     QuizQuestion(
       question:
-      "5. What political ideology did the CPP promote to advocate for the total liberation and international integration of all African states?",
+          "5. What political ideology did the CPP promote to advocate for the total liberation and international integration of all African states?",
       options: [
         "Colonialism",
         "Federalism",
@@ -29388,12 +28951,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The CPP strongly supported Pan-Africanism, believing that Ghana's independence should contribute to the liberation of all Africa.",
+          "The CPP strongly supported Pan-Africanism, believing that Ghana's independence should contribute to the liberation of all Africa.",
     ),
-
     QuizQuestion(
       question:
-      "6. Which major market women's associations actively backed the CPP, helping distribute campaign messages and providing crucial financial support?",
+          "6. Which major market women's associations actively backed the CPP, helping distribute campaign messages and providing crucial financial support?",
       options: [
         "The Trades Union Congress",
         "The Ghana National Association of Teachers",
@@ -29403,12 +28965,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Market women and traders' associations played an important role in supporting and financing the CPP's activities.",
+          "Market women and traders' associations played an important role in supporting and financing the CPP's activities.",
     ),
-
     QuizQuestion(
       question:
-      "7. What was the primary difference in timing between the independence slogans of the UGCC and the newly formed CPP?",
+          "7. What was the primary difference in timing between the independence slogans of the UGCC and the newly formed CPP?",
       options: [
         "The UGCC wanted immediate independence, while the CPP wanted it in the distant future.",
         "The UGCC wanted a federal system, while the CPP wanted military rule.",
@@ -29418,12 +28979,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The UGCC preferred gradual constitutional progress, while the CPP demanded immediate self-government.",
+          "The UGCC preferred gradual constitutional progress, while the CPP demanded immediate self-government.",
     ),
-
     QuizQuestion(
       question:
-      "8. Where was Komla Agbeli Gbedemah, the prominent Vice Chairman of the Convention People's Party, originally born?",
+          "8. Where was Komla Agbeli Gbedemah, the prominent Vice Chairman of the Convention People's Party, originally born?",
       options: [
         "Winneba, Ghana",
         "Keta, Ghana",
@@ -29433,12 +28993,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Komla Agbeli Gbedemah was born in Warri, Nigeria, to Ghanaian parents from Keta.",
+          "Komla Agbeli Gbedemah was born in Warri, Nigeria, to Ghanaian parents from Keta.",
     ),
-
     QuizQuestion(
       question:
-      "9. Which highly influential local newspaper was founded by Dr. Kwame Nkrumah to spread the message of mass political action?",
+          "9. Which highly influential local newspaper was founded by Dr. Kwame Nkrumah to spread the message of mass political action?",
       options: [
         "The Daily Graphic",
         "The Gold Coast Express",
@@ -29448,12 +29007,11 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The Accra Evening News became the CPP's newspaper for educating the public and promoting mass political action.",
+          "The Accra Evening News became the CPP's newspaper for educating the public and promoting mass political action.",
     ),
-
     QuizQuestion(
       question:
-      "10. Which group did not actively partner with the CPP during its mobilization campaigns in late 1949?",
+          "10. Which group did not actively partner with the CPP during its mobilization campaigns in late 1949?",
       options: [
         "Elite European trading firms and mining executives",
         "Youth associations and local drivers' unions",
@@ -29463,16 +29021,17 @@ final QuizModel SSjhs1s6ss1Lesson2QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      "European trading firms and mining companies generally opposed the CPP because its campaigns challenged colonial economic interests.",
+          "European trading firms and mining companies generally opposed the CPP because its campaigns challenged colonial economic interests.",
     ),
   ],
 );
 final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/quiz.m4a',
   questions: [
     QuizQuestion(
       question:
-      "1. In which month and year did the historic Coussey Committee officially submit its constitutional report to the colonial governor?",
+          "1. In which month and year did the historic Coussey Committee officially submit its constitutional report to the colonial governor?",
       options: [
         "February 1948",
         "November 1949",
@@ -29482,12 +29041,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Hard",
       explanation:
-      "The Coussey Committee submitted its constitutional report in November 1949, laying the foundation for the 1950 Constitution.",
+          "The Coussey Committee submitted its constitutional report in November 1949, laying the foundation for the 1950 Constitution.",
     ),
-
     QuizQuestion(
       question:
-      "2. How many members made up the all-African Coussey Committee of 1949?",
+          "2. How many members made up the all-African Coussey Committee of 1949?",
       options: [
         "Six members",
         "Four members",
@@ -29497,12 +29055,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "The Coussey Committee consisted of thirty-eight members representing various professions and traditional authorities.",
+          "The Coussey Committee consisted of thirty-eight members representing various professions and traditional authorities.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which of the following descriptions best summarizes the official slogan or stance of the CPP toward the 1950 Constitution?",
+          "3. Which of the following descriptions best summarizes the official slogan or stance of the CPP toward the 1950 Constitution?",
       options: [
         "Forward Ever, Backward Never",
         "Bogus and Fraudulent",
@@ -29512,12 +29069,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "The CPP rejected the 1950 Constitution as 'bogus and fraudulent' because it did not provide full self-government.",
+          "The CPP rejected the 1950 Constitution as 'bogus and fraudulent' because it did not provide full self-government.",
     ),
-
     QuizQuestion(
       question:
-      "4. On which exact date was Dr. Kwame Nkrumah officially released from James Fort Prison following his party's victory in the 1951 elections?",
+          "4. On which exact date was Dr. Kwame Nkrumah officially released from James Fort Prison following his party's victory in the 1951 elections?",
       options: [
         "20th January 1948",
         "15th June 1954",
@@ -29527,12 +29083,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Kwame Nkrumah was released from James Fort Prison on 13th March 1951 after the CPP's electoral victory.",
+          "Kwame Nkrumah was released from James Fort Prison on 13th March 1951 after the CPP's electoral victory.",
     ),
-
     QuizQuestion(
       question:
-      "5. What specific political position did Dr. Kwame Nkrumah occupy immediately after walking out of prison in March 1951?",
+          "5. What specific political position did Dr. Kwame Nkrumah occupy immediately after walking out of prison in March 1951?",
       options: [
         "Governor-General of the Gold Coast",
         "President of the Republic of Ghana",
@@ -29542,12 +29097,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Nkrumah became the Leader of Government Business, a position later renamed Prime Minister in 1952.",
+          "Nkrumah became the Leader of Government Business, a position later renamed Prime Minister in 1952.",
     ),
-
     QuizQuestion(
       question:
-      "6. How many seats were available in the fully elected National Assembly established under the revised 1954 Constitution?",
+          "6. How many seats were available in the fully elected National Assembly established under the revised 1954 Constitution?",
       options: [
         "Thirty-eight seats",
         "104 seats",
@@ -29557,12 +29111,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The 1954 Constitution created a National Assembly made up of 104 fully elected representatives.",
+          "The 1954 Constitution created a National Assembly made up of 104 fully elected representatives.",
     ),
-
     QuizQuestion(
       question:
-      "7. How many parliamentary seats did the CPP win in the June 1954 general elections?",
+          "7. How many parliamentary seats did the CPP win in the June 1954 general elections?",
       options: [
         "Thirty-four seats",
         "Seventy-one seats",
@@ -29572,12 +29125,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Hard",
       explanation:
-      "The CPP won 72 of the 104 seats in the June 1954 general election.",
+          "The CPP won 72 of the 104 seats in the June 1954 general election.",
     ),
-
     QuizQuestion(
       question:
-      "8. Who was the prominent traditional leader and chief linguist of the Asantehene who co-founded the National Liberation Movement?",
+          "8. Who was the prominent traditional leader and chief linguist of the Asantehene who co-founded the National Liberation Movement?",
       options: [
         "Dr. J. B. Danquah",
         "Baffour Osei Akoto",
@@ -29587,12 +29139,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Baffour Osei Akoto, the chief linguist of the Asantehene, co-founded the National Liberation Movement.",
+          "Baffour Osei Akoto, the chief linguist of the Asantehene, co-founded the National Liberation Movement.",
     ),
-
     QuizQuestion(
       question:
-      "9. How many total parliamentary seats did the CPP capture in the final pre-independence election held on 17th July 1956?",
+          "9. How many total parliamentary seats did the CPP capture in the final pre-independence election held on 17th July 1956?",
       options: [
         "Seventy-one seats",
         "Seventy-two seats",
@@ -29602,12 +29153,11 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "The CPP won 71 of the 104 parliamentary seats in the July 1956 election.",
+          "The CPP won 71 of the 104 parliamentary seats in the July 1956 election.",
     ),
-
     QuizQuestion(
       question:
-      "10. What was the direct historic outcome of the CPP's decisive democratic victory in the 1956 election?",
+          "10. What was the direct historic outcome of the CPP's decisive democratic victory in the 1956 election?",
       options: [
         "The forced retirement of Dr. Kwame Nkrumah from active politics",
         "The British colonial office accepted the mandate and approved the Independence Act",
@@ -29617,16 +29167,17 @@ final QuizModel SSjhs1s6ss1Lesson3QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The CPP's victory convinced Britain that the people supported independence, leading to the approval of the Independence Act and Ghana's independence on 6th March 1957.",
+          "The CPP's victory convinced Britain that the people supported independence, leading to the approval of the Independence Act and Ghana's independence on 6th March 1957.",
     ),
   ],
 );
 final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/quiz.m4a',
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/quiz.m4a',
   questions: [
     QuizQuestion(
       question:
-      "1. On which specific date did the power-sharing arrangement under the Westminster system officially begin for independent Ghana?",
+          "1. On which specific date did the power-sharing arrangement under the Westminster system officially begin for independent Ghana?",
       options: [
         "28th February 1948",
         "12th June 1949",
@@ -29636,12 +29187,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-      "The Westminster system came into effect when Ghana gained independence on 6th March 1957.",
+          "The Westminster system came into effect when Ghana gained independence on 6th March 1957.",
     ),
-
     QuizQuestion(
       question:
-      "2. Who was the official symbolic Head of State of Ghana from March 1957 to July 1960?",
+          "2. Who was the official symbolic Head of State of Ghana from March 1957 to July 1960?",
       options: [
         "Dr. Kwame Nkrumah",
         "Queen Elizabeth II",
@@ -29651,12 +29201,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Between 1957 and 1960, Ghana remained a constitutional monarchy with Queen Elizabeth II as the ceremonial Head of State.",
+          "Between 1957 and 1960, Ghana remained a constitutional monarchy with Queen Elizabeth II as the ceremonial Head of State.",
     ),
-
     QuizQuestion(
       question:
-      "3. Which British official served as Ghana's Attorney-General during the period from 1957 to 1960?",
+          "3. Which British official served as Ghana's Attorney-General during the period from 1957 to 1960?",
       options: [
         "David Mowbray Balme",
         "Major General Alexander Paley",
@@ -29666,12 +29215,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Geoffrey Bing served as Ghana's Attorney-General during the early post-independence years.",
+          "Geoffrey Bing served as Ghana's Attorney-General during the early post-independence years.",
     ),
-
     QuizQuestion(
       question:
-      "4. Which ministry was headed by Kojo Botsio during Ghana's first independent government (1957–1960)?",
+          "4. Which ministry was headed by Kojo Botsio during Ghana's first independent government (1957–1960)?",
       options: [
         "Ministry of Finance",
         "Ministry of Agriculture and Natural Resources",
@@ -29681,12 +29229,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Kojo Botsio served as Minister of Agriculture and Natural Resources after independence.",
+          "Kojo Botsio served as Minister of Agriculture and Natural Resources after independence.",
     ),
-
     QuizQuestion(
       question:
-      "5. Under the Westminster power-sharing system, whose assent was required before a bill passed by Parliament became law?",
+          "5. Under the Westminster power-sharing system, whose assent was required before a bill passed by Parliament became law?",
       options: [
         "The Chief of Defence Staff",
         "The Governor-General",
@@ -29696,12 +29243,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The Governor-General, representing the Queen, gave Royal Assent to bills before they became law.",
+          "The Governor-General, representing the Queen, gave Royal Assent to bills before they became law.",
     ),
-
     QuizQuestion(
       question:
-      "6. What was one major advantage of Ghana's power-sharing arrangement between 1957 and 1960?",
+          "6. What was one major advantage of Ghana's power-sharing arrangement between 1957 and 1960?",
       options: [
         "It gave Ghana complete control of foreign affairs immediately.",
         "It allowed Ghanaian ministers to gain valuable governing experience.",
@@ -29711,12 +29257,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The arrangement allowed Ghanaian leaders to gain practical administrative and governmental experience.",
+          "The arrangement allowed Ghanaian leaders to gain practical administrative and governmental experience.",
     ),
-
     QuizQuestion(
       question:
-      "7. What position did Major General Alexander George Victor Paley occupy in independent Ghana?",
+          "7. What position did Major General Alexander George Victor Paley occupy in independent Ghana?",
       options: [
         "Minister of the Interior",
         "Governor-General",
@@ -29726,12 +29271,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Hard",
       explanation:
-      "Major General Paley served as Chief of Defence Staff during Ghana's early years of independence.",
+          "Major General Paley served as Chief of Defence Staff during Ghana's early years of independence.",
     ),
-
     QuizQuestion(
       question:
-      "8. Who served as Ghana's Minister of the Interior under the post-independence power-sharing administration?",
+          "8. Who served as Ghana's Minister of the Interior under the post-independence power-sharing administration?",
       options: [
         "Krobo Edusei",
         "Imoru Egala",
@@ -29741,12 +29285,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "Krobo Edusei headed the Ministry of the Interior after Ghana attained independence.",
+          "Krobo Edusei headed the Ministry of the Interior after Ghana attained independence.",
     ),
-
     QuizQuestion(
       question:
-      "9. Why did some critics consider the presence of British officials in top military and legal positions a disadvantage?",
+          "9. Why did some critics consider the presence of British officials in top military and legal positions a disadvantage?",
       options: [
         "It reduced cocoa export prices.",
         "It prevented Ghana from joining the United Nations.",
@@ -29756,12 +29299,11 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      "Critics feared that foreign officials might prioritize British interests over Ghana's national interests.",
+          "Critics feared that foreign officials might prioritize British interests over Ghana's national interests.",
     ),
-
     QuizQuestion(
       question:
-      "10. What was the major constitutional change when Ghana became a Republic on 1st July 1960?",
+          "10. What was the major constitutional change when Ghana became a Republic on 1st July 1960?",
       options: [
         "Ghana became a British colony again.",
         "The Queen ceased to be Head of State and Ghana gained full republican sovereignty.",
@@ -29771,7 +29313,7 @@ final QuizModel SSjhs1s6ss1Lesson4QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The Republic removed the British monarch as Head of State and replaced that role with a Ghanaian President.",
+          "The Republic removed the British monarch as Head of State and replaced that role with a Ghanaian President.",
     ),
   ],
 );
@@ -48730,7 +48272,12 @@ final QuizModel Scijhs3s1ss2Lesson3QuizData = QuizModel(
     QuizQuestion(
       question:
           "4. Which cell can change its shape to engulf harmful pathogens?",
-      options: ["Sperm cell", "White blood cell", "Red blood cell", "Skin cell"],
+      options: [
+        "Sperm cell",
+        "White blood cell",
+        "Red blood cell",
+        "Skin cell"
+      ],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
@@ -55244,123 +54791,127 @@ final QuizModel Scijhs3s5ss3Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/7. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question: "1. What environmental condition do fungi prefer for growth?",
-      options: [
-        "Dry and very cold",
-        "Warm and moist",
-        "Bright and windy",
-        "Dark and freezing"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: "Fungi thrive in tropical, humid, and damp environments.",
+      question:
+          "1. Which of the following is a primary product of the bakery industry?",
+      options: ["Fresh milk", "Metal hoes", "Meat pies", "Sea salt"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Meat pies, bread, and cakes are all standard products of a bakery.",
     ),
     QuizQuestion(
       question:
-          "2. Which of these is a common symptom of Ringworm on the skin?",
+          "2. A blacksmith relies on which property of metal to shape it into tools?",
+      options: ["Hardness", "Malleability", "Brightness", "Heaviness"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Malleability is the ability of a material to be hammered or thin out into shapes without cracking.",
+    ),
+    QuizQuestion(
+      question: "3. What is the role of yeast in the production of bread?",
       options: [
-        "A circular, itchy rash",
-        "Green spots on the nose",
-        "Bleeding from the ears",
-        "Growing taller suddenly"
+        "To kill bacteria",
+        "To make it salty",
+        "To turn it white",
+        "To make it rise"
       ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Yeast performs fermentation, releasing gas that causes the dough to expand and rise.",
+    ),
+    QuizQuestion(
+      question: "4. Why is milk heated during the process of pasteurisation?",
+      options: [
+        "To make it thicker",
+        "To kill bacteria",
+        "To change its taste",
+        "To make it freeze"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pasteurisation is a heat-treatment process specifically designed to destroy pathogens.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which scientific principle is most important for the salt industry in Ghana?",
+      options: ["Evaporation", "Fermentation", "Magnetism", "Respiration"],
       correctIndex: 0,
-      difficulty: "Low",
+      difficulty: "Easy",
       explanation:
-          "The 'ring' shape is the classic identifying mark of this fungal infection.",
-    ),
-    QuizQuestion(
-      question: "3. How is Ringworm most commonly spread among students?",
-      options: [
-        "Through mosquito bites",
-        "Sharing combs or towels",
-        "Drinking untreated water",
-        "Eating unwashed fruits"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Fungal infections spread through direct contact or sharing personal items.",
-    ),
-    QuizQuestion(
-      question: "4. What is 'Thrush' in the mouth caused by?",
-      options: [
-        "A type of bacteria",
-        "A virus like the flu",
-        "The Candida yeast",
-        "Eating too much salt"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "Oral thrush is a common form of Candidiasis.",
+          "Salt is harvested after the water in brine evaporates under the sun.",
     ),
     QuizQuestion(
       question:
-          "5. Which body part is affected by brittle, yellowing fungal infections?",
-      options: ["The teeth", "The nails", "The eyes", "The heart"],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "Fungi can infect the keratin in nails, making them thick and brittle.",
-    ),
-    QuizQuestion(
-      question: "6. What is the best way to handle a shared locker room floor?",
+          "6. Which tool would you most likely find being produced in a blacksmith's shop?",
       options: [
-        "Walk very quickly",
-        "Wear rubber sandals",
-        "Use plenty of salt",
-        "Sit on the floor"
+        "Plastic bowl",
+        "Wooden chair",
+        "A farm hoe",
+        "A loaf of bread"
       ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          "Footwear protects your feet from fungi living on damp floors.",
-    ),
-    QuizQuestion(
-      question: "7. Why might Ringworm cause a patch of hair to fall out?",
-      options: [
-        "The fungus eats the hair",
-        "The fungus infects the scalp",
-        "It causes the head to cool",
-        "The person is too worried"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "Scalp ringworm affects the hair follicles, leading to temporary bald patches.",
-    ),
-    QuizQuestion(
-      question: "8. Which of these is NOT a fungal disease?",
-      options: ["Candidiasis", "Ringworm", "Hypertension", "Athlete's foot"],
       correctIndex: 2,
-      difficulty: "Medium",
+      difficulty: "Easy",
       explanation:
-          "Hypertension is a non-communicable lifestyle disease, not a fungal infection.",
+          "Blacksmiths work with iron and steel to create metal tools like hoes and cutlasses.",
     ),
     QuizQuestion(
       question:
-          "9. If you have a fungal infection, what should you do with your towel?",
+          "7. Homogenisation is a process used to give milk a ________ texture.",
       options: [
-        "Give it to a sibling",
-        "Use it for a month",
-        "Wash it in hot water",
-        "Keep it in a bag"
+        "Very lumpy",
+        "Hard and dry",
+        "Uniformly smooth",
+        "Bright yellow"
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Hot water and soap help kill fungal spores on fabric.",
+      explanation:
+          "Homogenisation breaks down fat globules so the milk has a consistent, smooth texture throughout.",
     ),
     QuizQuestion(
-      question: "10. A person with a healthy immune system is...",
+      question:
+          "8. What happens to the \"malleability\" of iron as it is heated in a forge?",
       options: [
-        "Never able to get fungi",
-        "Less likely to get Candidiasis",
-        "Guaranteed to have Ringworm",
-        "Stronger than a lion"
+        "It decreases",
+        "It increases",
+        "It stays same",
+        "It disappears"
       ],
       correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "As metal gets hotter, it becomes softer and easier to shape, meaning its malleability increases.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of these is a liquid raw material for the salt industry?",
+      options: [
+        "Fresh river water",
+        "Pure tap water",
+        "Salty sea water",
+        "Liquid nitrogen"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The salt industry uses brine (salty sea water) as its primary raw material.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which industry involves the scientific concept of \"heat transfer\" to soften materials?",
+      options: [
+        "Dairy industry",
+        "Salt industry",
+        "Blacksmithing",
+        "Fishing industry"
+      ],
+      correctIndex: 2,
       difficulty: "Medium",
-      explanation: "A strong immune system keeps yeasts like Candida in check.",
+      explanation:
+          "Blacksmiths transfer heat from a forge to the metal to make it soft enough to work with.",
     ),
   ],
 );
