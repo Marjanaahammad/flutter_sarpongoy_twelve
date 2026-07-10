@@ -394,6 +394,81 @@ class StrandScreen extends StatelessWidget {
     SubStrand subStrand,
     SidebarController controller,
   ) {
+    final bool isBece = strand.title == "BECE";
+    if (isBece) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            lesson.title,
+            style: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Color(0xFFAB0000),
+            ),
+          ),
+          Text(
+            lesson.topic.toUpperCase(),
+            style: const TextStyle(
+              fontSize: 12,
+              color: Color(0xFF777777),
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+          const SizedBox(height: 20),
+          GridView.count(
+            crossAxisCount: 2,
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            mainAxisSpacing: 16,
+            crossAxisSpacing: 16,
+            childAspectRatio: 1.2,
+            children: [
+              _buildActivityCard(
+                "OBJECTIVES MULTIPLE CHOICE QUIZ",
+                "Objectives",
+                lesson,
+                const Color(0xFFA264FE),
+                const Color(0xFF8B3EFF),
+                lesson.isLocked,
+                () => Get.to(
+                  () => QuizScreen(
+                    lesson: lesson,
+                    courseName: course.title,
+                    strandName: subStrand.title,
+                    subStrandName: lesson.title,
+                    lessonNumber: lesson.lessonNumber,
+                    gradeName: controller.selectedGrade.value,
+                    isBece: true,
+                  ),
+                ),
+              ),
+              _buildActivityCard(
+                "THEORY QUESTIONS & ANSWERS",
+                "Theory",
+                lesson,
+                const Color(0xFFFE646F),
+                const Color(0xFFE14D58),
+                lesson.isLocked,
+                () => Get.to(
+                  () => PracticeContentScreen(
+                    lesson: lesson,
+                    courseName: course.title,
+                    strandName: subStrand.title,
+                    subStrandName: lesson.title,
+                    lessonNumber: lesson.lessonNumber,
+                    gradeName: controller.selectedGrade.value,
+                    isBece: true,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 32),
+        ],
+      );
+    }
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

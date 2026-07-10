@@ -12,6 +12,7 @@ class PracticeContentScreen extends StatefulWidget {
   final String? subStrandName;
   final String? lessonNumber;
   final String? gradeName;
+  final bool isBece;
 
   const PracticeContentScreen({
     super.key,
@@ -21,6 +22,7 @@ class PracticeContentScreen extends StatefulWidget {
     this.subStrandName,
     this.lessonNumber,
     this.gradeName,
+    this.isBece = false,
   });
 
   @override
@@ -36,6 +38,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
     Get.delete<PracticeController>();
     controller = Get.put(
       PracticeController()
+        ..isBece = widget.isBece
         ..initData(
           widget.lesson,
           course: widget.courseName,

@@ -8,8 +8,12 @@ import '../../home/screens/contents/data/all_learn_data.dart';
 import '../../home/screens/contents/data/all_practice_data.dart';
 import '../../home/screens/contents/data/all_independent_quiz_data.dart';
 import '../../home/screens/contents/data/all_quiz_data.dart';
+import '../../home/screens/contents/model/practice_model.dart';
+import '../../home/screens/contents/model/quiz_model.dart';
 import '../../progress/repositories/progress_repository.dart';
 import '../../progress/models/progress_model.dart';
+import '../../progress/repositories/bece_progress_repository.dart';
+import '../../progress/models/bece_progress_model.dart';
 import 'package:intl/intl.dart';
 import '../../../core/config/debug_print.dart';
 
@@ -49,7 +53,7 @@ class SidebarController extends GetxController {
       return globalSubjectProgress[title] ?? 0.0;
     }
 
-    final strands = _generateDummyStrands(title, grade);
+    final strands = _generateDummyStrands(title, grade, includeBece: false);
     int totalLessons = 0;
     int completedLessons = 0;
 
@@ -142,7 +146,7 @@ class SidebarController extends GetxController {
 
       for (var title in courseTitles) {
         final key = "$grade|$title";
-        final strands = _generateDummyStrands(title, grade);
+        final strands = _generateDummyStrands(title, grade, includeBece: false);
         int courseTotal = 0;
         int courseCompleted = 0;
 
@@ -310,6 +314,9 @@ class SidebarController extends GetxController {
     // Make sure cache is refreshed first
     await refreshGlobalProgressCache();
 
+    final beceRepo = Get.find<BeceProgressRepository>();
+    final allBeceProgress = await beceRepo.getAllProgress();
+
     for (var course in courses) {
       final List<Strand> updatedStrands = [];
 
@@ -320,164 +327,222 @@ class SidebarController extends GetxController {
         for (var subStrand in strand.subStrands) {
           final List<Lesson> updatedLessons = [];
           for (var lesson in subStrand.lessons) {
-            // Trim topic for robust database matching
-            final String normalizedTopic = lesson.topic.trim();
+            if (strand.title == "BECE") {
+              final String normalStrandTitle = subStrand.title;
+              final String normalSubStrandTitle = lesson.title;
 
-            // Fetch all progress for this lesson from cache to avoid multiple queries
-            final lessonProgress = globalProgressCache
-                .where((p) =>
-                    p.lessonId.trim().toLowerCase() ==
-                    normalizedTopic.toLowerCase())
-                .toList();
-
-            // Filter for each activity type (case-insensitive check for safety)
-            final getReadyProgress = lessonProgress
-                .where((p) => p.activityType.toLowerCase() == 'get_ready')
-                .toList();
-            final learnProgress = lessonProgress
-                .where((p) => p.activityType.toLowerCase() == 'learn')
-                .toList();
-
-            ActivityProgress? practice;
-            ActivityProgress? independent;
-            ActivityProgress? quiz;
-
-            for (var p in lessonProgress) {
-              final type = p.activityType.toLowerCase();
-              if (type == 'guided_practice') {
-                if (practice == null ||
-                    p.lastUpdated
-                        .toUtc()
-                        .isAfter(practice.lastUpdated.toUtc())) {
-                  practice = p;
-                }
-              } else if (type == 'independent') {
-                if (independent == null ||
-                    p.lastUpdated
-                        .toUtc()
-                        .isAfter(independent.lastUpdated.toUtc())) {
-                  independent = p;
-                }
-              } else if (type == 'quiz') {
-                if (quiz == null ||
-                    p.lastUpdated.toUtc().isAfter(quiz.lastUpdated.toUtc())) {
-                  quiz = p;
-                }
-              }
-            }
-
-            // Get latest update for Get Ready and Learn (if any part is done)
-            ActivityProgress? latestGetReady;
-            if (getReadyProgress.isNotEmpty) {
-              latestGetReady = getReadyProgress.reduce(
-                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
-                    ? a
-                    : b,
+              final beceObjectives = allBeceProgress.firstWhereOrNull(
+                (p) => p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                       p.strandName.toLowerCase() == normalStrandTitle.toLowerCase() &&
+                       p.subStrandName.toLowerCase() == normalSubStrandTitle.toLowerCase() &&
+                       p.gradeName == selectedGrade.value &&
+                       p.activityType == 'objectives'
               );
-            }
 
-            ActivityProgress? latestLearn;
-            if (learnProgress.isNotEmpty) {
-              latestLearn = learnProgress.reduce(
-                (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
-                    ? a
-                    : b,
+              final beceTheory = allBeceProgress.firstWhereOrNull(
+                (p) => p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                       p.strandName.toLowerCase() == normalStrandTitle.toLowerCase() &&
+                       p.subStrandName.toLowerCase() == normalSubStrandTitle.toLowerCase() &&
+                       p.gradeName == selectedGrade.value &&
+                       p.activityType == 'theory'
               );
-            }
 
-            String? practiceScoreStr;
-            String? practiceOriginalScoreStr;
-            if (independent != null &&
-                independent.score != null &&
-                independent.totalQuestions != null &&
-                independent.totalQuestions! > 0) {
-              int percentage =
-                  ((independent.score! / independent.totalQuestions!) * 100)
-                      .round();
-              practiceScoreStr = "$percentage%";
+              String? quizScoreStr;
+              String? quizOriginalScoreStr;
 
-              if (independent.originalScore != null) {
-                int originalPercentage = ((independent.originalScore! /
-                            independent.totalQuestions!) *
-                        100)
-                    .round();
-                practiceOriginalScoreStr = "$originalPercentage%";
+              if (beceObjectives != null &&
+                  beceObjectives.lastAttemptScore != null &&
+                  beceObjectives.totalQuestions != null &&
+                  beceObjectives.totalQuestions! > 0) {
+                int percentage = ((beceObjectives.lastAttemptScore! / beceObjectives.totalQuestions!) * 100).round();
+                quizScoreStr = "$percentage%";
+
+                if (beceObjectives.firstAttemptScore != null) {
+                  int originalPercentage = ((beceObjectives.firstAttemptScore! / beceObjectives.totalQuestions!) * 100).round();
+                  quizOriginalScoreStr = "$originalPercentage%";
+                }
               }
-            }
 
-            String? quizScoreStr;
-            String? quizOriginalScoreStr;
-            if (quiz != null &&
-                quiz.score != null &&
-                quiz.totalQuestions != null &&
-                quiz.totalQuestions! > 0) {
-              int percentage =
-                  ((quiz.score! / quiz.totalQuestions!) * 100).round();
-              quizScoreStr = "$percentage%";
-
-              if (quiz.originalScore != null) {
-                int originalPercentage =
-                    ((quiz.originalScore! / quiz.totalQuestions!) * 100)
-                        .round();
-                quizOriginalScoreStr = "$originalPercentage%";
+              final isLessonCompleted = beceObjectives != null && beceTheory != null;
+              if (!isLessonCompleted) {
+                allLessonsInStrandCompleted = false;
               }
-            }
 
-            // A lesson is completed if all contents and quiz are done
-            // Note: For 'learn', we require the last part for full lesson completion
-            final hasFinishedLastLearnPart = learnProgress.any(
-              (p) =>
-                  p.subActivity ==
-                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
-            );
+              updatedLessons.add(
+                lesson.copyWith(
+                  quizDoneDate: beceObjectives != null ? dateFormat.format(beceObjectives.doneDate) : null,
+                  quizScore: quizScoreStr,
+                  quizOriginalScore: quizOriginalScoreStr,
+                  practiceDoneDate: beceTheory != null ? dateFormat.format(beceTheory.doneDate) : null,
+                  courseName: course.title,
+                  strandName: strand.title,
+                  subStrandName: subStrand.title,
+                  lessonNumber: (updatedLessons.length + 1).toString(),
+                  gradeName: selectedGrade.value,
+                  isLocked: false,
+                  isCompleted: isLessonCompleted,
+                ),
+              );
+            } else {
+              // Trim topic for robust database matching
+              final String normalizedTopic = lesson.topic.trim();
 
-            final isLessonCompleted = latestGetReady != null &&
-                hasFinishedLastLearnPart &&
-                practice != null &&
-                independent != null &&
-                quiz != null;
+              // Fetch all progress for this lesson from cache to avoid multiple queries
+              final lessonProgress = globalProgressCache
+                  .where((p) =>
+                      p.lessonId.trim().toLowerCase() ==
+                      normalizedTopic.toLowerCase())
+                  .toList();
 
-            if (!isLessonCompleted) {
-              allLessonsInStrandCompleted = false;
-            }
+              // Filter for each activity type (case-insensitive check for safety)
+              final getReadyProgress = lessonProgress
+                  .where((p) => p.activityType.toLowerCase() == 'get_ready')
+                  .toList();
+              final learnProgress = lessonProgress
+                  .where((p) => p.activityType.toLowerCase() == 'learn')
+                  .toList();
 
-            updatedLessons.add(
-              lesson.copyWith(
-                getReadyDoneDate: latestGetReady != null
-                    ? dateFormat.format(latestGetReady.lastUpdated)
-                    : null,
-                learnDoneDate: latestLearn != null
-                    ? dateFormat.format(latestLearn.lastUpdated)
-                    : null,
-                practiceDoneDate: () {
-                  if (independent != null && practice != null) {
-                    return dateFormat.format(independent.lastUpdated
-                            .toUtc()
-                            .isAfter(practice.lastUpdated.toUtc())
-                        ? independent.lastUpdated
-                        : practice.lastUpdated);
-                  } else if (independent != null) {
-                    return dateFormat.format(independent.lastUpdated);
-                  } else if (practice != null) {
-                    return dateFormat.format(practice.lastUpdated);
+              ActivityProgress? practice;
+              ActivityProgress? independent;
+              ActivityProgress? quiz;
+
+              for (var p in lessonProgress) {
+                final type = p.activityType.toLowerCase();
+                if (type == 'guided_practice') {
+                  if (practice == null ||
+                      p.lastUpdated
+                          .toUtc()
+                          .isAfter(practice.lastUpdated.toUtc())) {
+                    practice = p;
                   }
-                  return null;
-                }(),
-                practiceScore: practiceScoreStr,
-                practiceOriginalScore: practiceOriginalScoreStr,
-                quizDoneDate:
-                    quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
-                quizScore: quizScoreStr,
-                quizOriginalScore: quizOriginalScoreStr,
-                courseName: course.title,
-                strandName: strand.title,
-                subStrandName: subStrand.title,
-                lessonNumber: (updatedLessons.length + 1).toString(),
-                gradeName: selectedGrade.value,
-                isLocked: false,
-                isCompleted: isLessonCompleted,
-              ),
-            );
+                } else if (type == 'independent') {
+                  if (independent == null ||
+                      p.lastUpdated
+                          .toUtc()
+                          .isAfter(independent.lastUpdated.toUtc())) {
+                    independent = p;
+                  }
+                } else if (type == 'quiz') {
+                  if (quiz == null ||
+                      p.lastUpdated.toUtc().isAfter(quiz.lastUpdated.toUtc())) {
+                    quiz = p;
+                  }
+                }
+              }
+
+              // Get latest update for Get Ready and Learn (if any part is done)
+              ActivityProgress? latestGetReady;
+              if (getReadyProgress.isNotEmpty) {
+                latestGetReady = getReadyProgress.reduce(
+                  (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
+                      ? a
+                      : b,
+                );
+              }
+
+              ActivityProgress? latestLearn;
+              if (learnProgress.isNotEmpty) {
+                latestLearn = learnProgress.reduce(
+                  (a, b) => a.lastUpdated.toUtc().isAfter(b.lastUpdated.toUtc())
+                      ? a
+                      : b,
+                );
+              }
+
+              String? practiceScoreStr;
+              String? practiceOriginalScoreStr;
+              if (independent != null &&
+                  independent.score != null &&
+                  independent.totalQuestions != null &&
+                  independent.totalQuestions! > 0) {
+                int percentage =
+                    ((independent.score! / independent.totalQuestions!) * 100)
+                        .round();
+                practiceScoreStr = "$percentage%";
+
+                if (independent.originalScore != null) {
+                  int originalPercentage = ((independent.originalScore! /
+                              independent.totalQuestions!) *
+                          100)
+                      .round();
+                  practiceOriginalScoreStr = "$originalPercentage%";
+                }
+              }
+
+              String? quizScoreStr;
+              String? quizOriginalScoreStr;
+              if (quiz != null &&
+                  quiz.score != null &&
+                  quiz.totalQuestions != null &&
+                  quiz.totalQuestions! > 0) {
+                int percentage =
+                    ((quiz.score! / quiz.totalQuestions!) * 100).round();
+                quizScoreStr = "$percentage%";
+
+                if (quiz.originalScore != null) {
+                  int originalPercentage =
+                      ((quiz.originalScore! / quiz.totalQuestions!) * 100)
+                          .round();
+                  quizOriginalScoreStr = "$originalPercentage%";
+                }
+              }
+
+              // A lesson is completed if all contents and quiz are done
+              // Note: For 'learn', we require the last part for full lesson completion
+              final hasFinishedLastLearnPart = learnProgress.any(
+                (p) =>
+                    p.subActivity ==
+                    'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
+              );
+
+              final isLessonCompleted = latestGetReady != null &&
+                  hasFinishedLastLearnPart &&
+                  practice != null &&
+                  independent != null &&
+                  quiz != null;
+
+              if (!isLessonCompleted) {
+                allLessonsInStrandCompleted = false;
+              }
+
+              updatedLessons.add(
+                lesson.copyWith(
+                  getReadyDoneDate: latestGetReady != null
+                      ? dateFormat.format(latestGetReady.lastUpdated)
+                      : null,
+                  learnDoneDate: latestLearn != null
+                      ? dateFormat.format(latestLearn.lastUpdated)
+                      : null,
+                  practiceDoneDate: () {
+                    if (independent != null && practice != null) {
+                      return dateFormat.format(independent.lastUpdated
+                              .toUtc()
+                              .isAfter(practice.lastUpdated.toUtc())
+                          ? independent.lastUpdated
+                          : practice.lastUpdated);
+                    } else if (independent != null) {
+                      return dateFormat.format(independent.lastUpdated);
+                    } else if (practice != null) {
+                      return dateFormat.format(practice.lastUpdated);
+                    }
+                    return null;
+                  }(),
+                  practiceScore: practiceScoreStr,
+                  practiceOriginalScore: practiceOriginalScoreStr,
+                  quizDoneDate:
+                      quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
+                  quizScore: quizScoreStr,
+                  quizOriginalScore: quizOriginalScoreStr,
+                  courseName: course.title,
+                  strandName: strand.title,
+                  subStrandName: subStrand.title,
+                  lessonNumber: (updatedLessons.length + 1).toString(),
+                  gradeName: selectedGrade.value,
+                  isLocked: false,
+                  isCompleted: isLessonCompleted,
+                ),
+              );
+            }
           }
           updatedSubStrands.add(subStrand.copyWith(lessons: updatedLessons));
         }
@@ -567,7 +632,7 @@ class SidebarController extends GetxController {
     Map<String, List<String>> strandLessonTopics = {};
 
     for (var grade in grades) {
-      final strands = _generateDummyStrands(title, grade);
+      final strands = _generateDummyStrands(title, grade, includeBece: false);
       for (var strand in strands) {
         for (var subStrand in strand.subStrands) {
           for (var lesson in subStrand.lessons) {
@@ -679,7 +744,7 @@ class SidebarController extends GetxController {
     final grades = ["JHS 1", "JHS 2", "JHS 3"];
     List<String> courseLessonTopics = [];
     for (var grade in grades) {
-      final strands = _generateDummyStrands(title, grade);
+      final strands = _generateDummyStrands(title, grade, includeBece: false);
       for (var strand in strands) {
         for (var subStrand in strand.subStrands) {
           for (var lesson in subStrand.lessons) {
@@ -760,7 +825,7 @@ class SidebarController extends GetxController {
       final grades = ["JHS 1", "JHS 2", "JHS 3"];
       List<String> courseLessonTopics = [];
       for (var grade in grades) {
-        final strands = _generateDummyStrands(title, grade);
+        final strands = _generateDummyStrands(title, grade, includeBece: false);
         for (var strand in strands) {
           for (var subStrand in strand.subStrands) {
             for (var lesson in subStrand.lessons) {
@@ -809,7 +874,7 @@ class SidebarController extends GetxController {
     final grades = ["JHS 1", "JHS 2", "JHS 3"];
     List<String> courseLessonTopics = [];
     for (var grade in grades) {
-      final strands = _generateDummyStrands(title, grade);
+      final strands = _generateDummyStrands(title, grade, includeBece: false);
       for (var strand in strands) {
         for (var subStrand in strand.subStrands) {
           for (var lesson in subStrand.lessons) {
@@ -875,7 +940,7 @@ class SidebarController extends GetxController {
     return dailyStats;
   }
 
-  List<Strand> _generateDummyStrands(String courseTitle, String grade) {
+  List<Strand> _generateDummyStrands(String courseTitle, String grade, {bool includeBece = true}) {
     final Map<String, List<Map<String, dynamic>>> courseData = {
       "English": [
         {
@@ -7859,36 +7924,67 @@ class SidebarController extends GetxController {
       );
     });
 
-    generatedStrands.add(
-      Strand(
-        title: "BECE",
-        subtitle: "Past Exam",
-        isCompleted: false,
-        isLocked: false,
-        subStrands: [
-          SubStrand(
-            title: "Mock",
-            subtitle: "Final Mock Exam",
-            lessons: [
-              Lesson(
-                title: "Lesson 1",
-                topic: "Full Syllabus",
-                courseName: courseTitle,
-                strandName: "BECE",
-                subStrandName: "Final Mock Exam",
-                lessonNumber: "1",
-                gradeName: grade,
-                getReady: defaultGetReadyData,
-                learn: defaultLearnData,
-                practice: defaultPracticeData,
-                independentPractice: defaultIndependentQuizData,
-                quiz: defaultQuizData,
+    if (includeBece) {
+      List<SubStrand> beceSubStrands = [];
+      for (int sIndex = 0; sIndex < generatedStrands.length; sIndex++) {
+        final normalStrand = generatedStrands[sIndex];
+
+        List<Lesson> beceLessonsForStrand = [];
+        for (int ssIndex = 0; ssIndex < normalStrand.subStrands.length; ssIndex++) {
+          final normalSubStrand = normalStrand.subStrands[ssIndex];
+
+          // Aggregate quiz and practice questions
+          List<QuizQuestion> aggregatedQuizQuestions = [];
+          List<PracticeQuestion> aggregatedPracticeQuestions = [];
+
+          for (var normalLesson in normalSubStrand.lessons) {
+            aggregatedQuizQuestions.addAll(normalLesson.quiz.questions);
+            aggregatedPracticeQuestions.addAll(normalLesson.practice.questions);
+          }
+
+          beceLessonsForStrand.add(
+            Lesson(
+              title: normalSubStrand.title,
+              topic: normalSubStrand.subtitle,
+              courseName: courseTitle,
+              strandName: "BECE",
+              subStrandName: normalStrand.title,
+              lessonNumber: (ssIndex + 1).toString(),
+              gradeName: grade,
+              getReady: defaultGetReadyData,
+              learn: defaultLearnData,
+              quiz: QuizModel(
+                audioPath: normalSubStrand.lessons.isNotEmpty ? normalSubStrand.lessons.first.quiz.audioPath : "",
+                questions: aggregatedQuizQuestions,
               ),
-            ],
+              practice: PracticeModel(
+                audioPath: normalSubStrand.lessons.isNotEmpty ? normalSubStrand.lessons.first.practice.audioPath : "",
+                questions: aggregatedPracticeQuestions,
+              ),
+              independentPractice: defaultIndependentQuizData,
+            ),
+          );
+        }
+
+        beceSubStrands.add(
+          SubStrand(
+            title: normalStrand.title,
+            subtitle: normalStrand.subtitle,
+            lessons: beceLessonsForStrand,
           ),
-        ],
-      ),
-    );
+        );
+      }
+
+      generatedStrands.add(
+        Strand(
+          title: "BECE",
+          subtitle: "Past Exam",
+          isCompleted: false,
+          isLocked: false,
+          subStrands: beceSubStrands,
+        ),
+      );
+    }
 
     return generatedStrands;
   }

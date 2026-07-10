@@ -12,6 +12,7 @@ class QuizScreen extends StatefulWidget {
   final String? subStrandName;
   final String? lessonNumber;
   final String? gradeName;
+  final bool isBece;
 
   const QuizScreen({
     super.key,
@@ -21,6 +22,7 @@ class QuizScreen extends StatefulWidget {
     this.subStrandName,
     this.lessonNumber,
     this.gradeName,
+    this.isBece = false,
   });
 
   @override
@@ -36,6 +38,7 @@ class _QuizScreenState extends State<QuizScreen> {
     Get.delete<QuizController>();
     controller = Get.put(
       QuizController()
+        ..isBece = widget.isBece
         ..initData(
           widget.lesson.quiz,
           widget.lesson.topic,
