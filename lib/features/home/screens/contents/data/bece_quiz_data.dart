@@ -344,4 +344,127 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. Which practical skill helps a person RESIST pressure to behave badly?", options: ["Following every trend", "Saying 'No' confidently and walking away", "Keeping silent always", "Arguing back aggressively"], correctIndex: 1, difficulty: "Hard", explanation: "Confidently refusing and removing yourself from harmful situations is a key defensive skill."),
     ],
   ),
+
+  // ─── JHS 2 / JHS 3: ENGLISH ────────────────────────────────────────────────
+  "EFFECTIVE TURN-TAKING IN CONVERSATION": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which of the following defines 'turn-taking' in conversation?", options: ["Changing the seat with another person", "Dividing speech opportunities among participants", "Interrupting the speaker continuously", "Speaking at the exact same time"], correctIndex: 1, difficulty: "Easy", explanation: "Turn-taking ensures everyone gets a fair opportunity to speak in turn."),
+      QuizQuestion(question: "2. An example of a non-verbal cue that signals a turn is complete is:", options: ["Continuing to speak louder", "A pause accompanied by eye contact looking at the listener", "Looking down at a watch", "Walking away from the circle"], correctIndex: 1, difficulty: "Medium", explanation: "Eye contact and a pause are standard signals for turn-completion."),
+    ],
+  ),
+
+  "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. When writing a letter to the Metropolitan Director of Education, which register is required?", options: ["Slang", "Informal register", "Formal register", "Colloquial register"], correctIndex: 2, difficulty: "Easy", explanation: "Official correspondence requires formal language structure."),
+      QuizQuestion(question: "2. Which of the following sentences uses a formal register?", options: ["I wanna request some help.", "I am writing to request your assistance.", "Can you help me out real quick?", "Please hit me back soon."], correctIndex: 1, difficulty: "Easy", explanation: "'I am writing to request your assistance.' uses proper formal structure."),
+    ],
+  ),
+
+  "REPORTED SPEECH": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Convert to reported speech: 'I am visiting Kumasi today.'", options: ["He said that he was visiting Kumasi that day.", "He said that I am visiting Kumasi today.", "He told me he is visiting Kumasi today.", "He said that he went to Kumasi today."], correctIndex: 0, difficulty: "Medium", explanation: "'am' changes to 'was', 'today' changes to 'that day'."),
+      QuizQuestion(question: "2. In reported speech, 'these' is transformed into:", options: ["Them", "Those", "This", "Their"], correctIndex: 1, difficulty: "Easy", explanation: "Demonstrative 'these' shifts to 'those' in reported speech."),
+    ],
+  ),
+
+  "QUESTION TAGS": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Provide the correct question tag: 'Ama went to the market, ______?'", options: ["did she?", "didn't she?", "wasn't she?", "does she?"], correctIndex: 1, difficulty: "Easy", explanation: "A positive sentence in past simple takes a negative past tag: 'didn't she?'."),
+      QuizQuestion(question: "2. Complete: 'We have not finished the exam, ______?'", options: ["haven't we?", "have we?", "did we?", "had we?"], correctIndex: 1, difficulty: "Medium", explanation: "A negative sentence takes a positive tag: 'have we?'."),
+    ],
+  ),
+
+  "MASTERING REGISTER AND OPEN QUESTIONS": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which of the following is an open-ended question?", options: ["Do you live in Accra?", "Is it raining outside?", "What are your views on environmental protection?", "Are you in JHS 3?"], correctIndex: 2, difficulty: "Easy", explanation: "Open-ended questions require detailed expression of thoughts, not simple yes/no answers."),
+      QuizQuestion(question: "2. Open-ended questions are highly useful in conversation because they:", options: ["Restrict the response length", "Provoke short one-word answers", "Encourage sharing of details and elaboration", "End the conversation quickly"], correctIndex: 2, difficulty: "Easy", explanation: "They invite elaboration and keep the conversation going."),
+    ],
+  ),
+
+  "THE ART OF ARGUMENT AND DEBATING": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. In a formal debate, the speaker who supports the motion is called the:", options: ["Opponent", "Proposer / Affirmative", "Moderator", "Timekeeper"], correctIndex: 1, difficulty: "Easy", explanation: "The proposer supports (affirms) the motion under discussion."),
+      QuizQuestion(question: "2. Which of these is a key element of a convincing argument in a debate?", options: ["Shouting loudly at the opponent", "Using sound evidence and logical explanations", "Using personal insults", "Speaking as fast as possible"], correctIndex: 1, difficulty: "Easy", explanation: "Strong debates rely on factual evidence and logic."),
+    ],
+  ),
+
+  "CONDITIONAL SENTENCES (TYPE 3)": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which of the following shows the correct structure of a Type 3 conditional?", options: ["If + present, will + verb", "If + past perfect, would have + past participle", "If + past simple, would + verb", "If + future, will + verb"], correctIndex: 1, difficulty: "Medium", explanation: "Type 3 conditionals express unreal past actions: If + had + V3, would have + V3."),
+      QuizQuestion(question: "2. Complete: 'If I had studied harder, I ______ the test.'", options: ["will pass", "would pass", "would have passed", "passed"], correctIndex: 2, difficulty: "Medium", explanation: "Type 3 conditional requires 'would have passed' in the main clause."),
+    ],
+  ),
+
+  "DEFINING AND NON-DEFINING RELATIVE CLAUSES": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which sentence contains a non-defining relative clause (needs commas)?", options: ["The boy who won the race is my friend.", "My father, who is a doctor, works in Kumasi.", "The book that I read was interesting.", "This is the town where I was born."], correctIndex: 1, difficulty: "Hard", explanation: "Non-defining relative clauses provide extra, non-essential details and are placed between commas."),
+      QuizQuestion(question: "2. In defining relative clauses, which pronoun is commonly used for things?", options: ["Who", "Whom", "Which / That", "Whose"], correctIndex: 2, difficulty: "Easy", explanation: "'Which' or 'That' is used to define objects or animals."),
+    ],
+  ),
+
+  "ADVERBIAL PHRASES AND THEIR FUNCTIONS": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Identify the adverbial phrase of time in: 'We will meet after the English lesson.'", options: ["We will", "meet", "after the English lesson", "English lesson"], correctIndex: 2, difficulty: "Easy", explanation: "'after the English lesson' answers 'when', indicating time."),
+      QuizQuestion(question: "2. In 'She sang with great joy,' key function of 'with great joy' is to show:", options: ["Time", "Place", "Manner", "Frequency"], correctIndex: 2, difficulty: "Medium", explanation: "It answers 'how' she sang, indicating manner."),
+    ],
+  ),
+
+  // ─── JHS 2 / JHS 3: SCIENCE ────────────────────────────────────────────────
+  "Types of mixtures and their characteristics": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. A mixture in which the components are uniform throughout is called:", options: ["Suspension", "Heterogeneous", "Homogeneous", "Colloid"], correctIndex: 2, difficulty: "Easy", explanation: "Homogeneous mixtures have a uniform composition throughout (e.g. sugar in water)."),
+      QuizQuestion(question: "2. Which of the following is a heterogeneous mixture?", options: ["Salt dissolved in water", "Orange juice with pulp", "Air", "Brass"], correctIndex: 1, difficulty: "Easy", explanation: "The pulp does not dissolve and remains distinct, forming a heterogeneous mixture."),
+    ],
+  ),
+
+  "SEPARATING MIXTURES (PHYSICAL PROCESSES)": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which method is most appropriate for separating sand from water?", options: ["Evaporation", "Filtration", "Distillation", "Sublimation"], correctIndex: 1, difficulty: "Easy", explanation: "Filtration uses a porous barrier to separate insoluble solids from liquids."),
+      QuizQuestion(question: "2. Distillation is used to separate mixtures based on differences in:", options: ["Solubility", "Boiling points", "Particle sizes", "Density"], correctIndex: 1, difficulty: "Medium", explanation: "Distillation relies on differences in boiling points to vaporize and condense liquids."),
+    ],
+  ),
+
+  "ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which sub-atomic particle has a negative charge?", options: ["Proton", "Neutron", "Electron", "Nucleus"], correctIndex: 2, difficulty: "Easy", explanation: "Electrons carry a unit negative charge and orbit the nucleus."),
+      QuizQuestion(question: "2. Protons and neutrons are found in which part of the atom?", options: ["Electron cloud", "Nucleus", "Valence shell", "Outer orbit"], correctIndex: 1, difficulty: "Easy", explanation: "The nucleus at the center of the atom contains protons and neutrons (nucleons)."),
+    ],
+  ),
+
+  "THE PERIODIC TABLE AND ELECTRON CONFIGURATION": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. What is the atomic number of Sodium (Na)?", options: ["10", "11", "12", "20"], correctIndex: 1, difficulty: "Medium", explanation: "Sodium has atomic number 11 on the periodic table."),
+      QuizQuestion(question: "2. The electron configuration of an atom with 8 electrons (Oxygen) is:", options: ["2, 8", "2, 6", "2, 4, 2", "8"], correctIndex: 1, difficulty: "Medium", explanation: "The first shell holds up to 2 electrons, and the second holds the remaining 6 (2, 6)."),
+    ],
+  ),
+
+  // ─── JHS 2 / JHS 3: MATH ───────────────────────────────────────────────────
+  "FROM BILLIONS TO STANDARD FORM": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Express 450,000 in standard form.", options: ["4.5 × 10^5", "45 × 10^4", "4.5 × 10^-5", "0.45 × 10^6"], correctIndex: 0, difficulty: "Medium", explanation: "450,000 = 4.5 × 10^5 as the decimal moves 5 places left."),
+      QuizQuestion(question: "2. Convert 3.2 × 10^-3 to ordinary notation.", options: ["32,000", "0.032", "0.0032", "0.00032"], correctIndex: 2, difficulty: "Medium", explanation: "10^-3 shifts the decimal 3 places to the left: 0.0032."),
+    ],
+  ),
+
+  "The Complete Guide to Number Operations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Solve: -15 + (-7) - (-12)", options: ["-34", "-10", "-3", "10"], correctIndex: 1, difficulty: "Medium", explanation: "-15 - 7 + 12 = -22 + 12 = -10."),
+      QuizQuestion(question: "2. Evaluate: 24 ÷ (6 - 2) × 3 using BODMAS.", options: ["2", "18", "3", "12"], correctIndex: 1, difficulty: "Medium", explanation: "Bracket first: 6-2=4. Division: 24÷4=6. Multiplication: 6×3=18."),
+    ],
+  ),
 };

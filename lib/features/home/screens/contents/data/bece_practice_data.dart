@@ -348,4 +348,172 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
+  // ─── JHS 2 / JHS 3: ENGLISH theory ─────────────────────────────────────────
+  "EFFECTIVE TURN-TAKING IN CONVERSATION": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nExplain why turn-taking is necessary in sound communication. State two consequences of not observing turn-taking.",
+        answer: "Turn-taking is necessary because it allows each party to express their opinions fully, ensures active listening, and keeps the conversation orderly. Without turn-taking:\n1. Interruptions occur, causing frustration and breakdown in communication.\n2. Important points or ideas of silent participants are missed.",
+        explanation: "Orderly conversation requires active listening and structured participation.",
+      ),
+    ],
+  ),
+
+  "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nYour friend writes: 'Yo Headmaster, I need a day off cause my head is spinning.' Correct this sentence to match a formal register appropriate for a petition to a headmaster.",
+        answer: "Correct: 'Dear Sir, I am writing to request permission to be absent from school today due to an illness.'",
+        explanation: "Formal petitions require formal greetings (Dear Sir), fully spelled words (no 'cause'), and polite expressions.",
+      ),
+    ],
+  ),
+
+  "REPORTED SPEECH": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nConvert these direct sentences to reported speech:\n(a) Ama said, 'I went to Cape Coast yesterday.'\n(b) The teacher asked, 'Have you completed the assignment?'",
+        answer: "(a) Ama said that she had gone to Cape Coast the previous day (or the day before).\n(b) The teacher asked if I had completed the assignment.",
+        explanation: "Ensure that pronouns, tenses (past simple to past perfect; present perfect to past perfect), and time markers shift correctly.",
+      ),
+    ],
+  ),
+
+  "QUESTION TAGS": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nState the rule for creating question tags. Provide the correct question tags for:\n(a) Kojo cannot swim.\n(b) You will help me tomorrow.",
+        answer: "Rule: Positive sentences take negative tags, and negative sentences take positive tags. The auxiliary verb from the main sentence is repeated in the tag.\n(a) Kojo cannot swim, can he?\n(b) You will help me tomorrow, won't you?",
+        explanation: "Question tags turn statements into yes/no questions to confirm information.",
+      ),
+    ],
+  ),
+
+  "MASTERING REGISTER AND OPEN QUESTIONS": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\na) What is the difference between an open and closed question?\nb) Write one example of an open question to ask a friend about their weekend.",
+        answer: "a) Open questions require a detailed and explanatory answer, whereas closed questions can be answered with a simple 'yes' or 'no'.\nb) 'What did you do during the weekend?' (or 'How did you spend your weekend?')",
+        explanation: "Open questions prompt description and elaboration.",
+      ),
+    ],
+  ),
+
+  "THE ART OF ARGUMENT AND DEBATING": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nWrite a short introductory paragraph for a debate supporting the motion: 'Mobile phones should be allowed in Junior High Schools.'",
+        answer: "Mr. Chairman, Panel of Judges, accurate Timekeeper, fellow debaters and constituents, I stand before you to support the motion that mobile phones should be allowed in Junior High Schools. In an era driven by technology, digital literacy is no longer a luxury but an absolute necessity for modern education.",
+        explanation: "Debate introductions should greet the audience and clearly state the speaker's stance on the motion.",
+      ),
+    ],
+  ),
+
+  "CONDITIONAL SENTENCES (TYPE 3)": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nExplain when a Type 3 conditional sentence is used. Rewrite the following in Type 3 conditional form:\n'I did not study, so I failed the exam.'",
+        answer: "A Type 3 conditional represents an imaginary past event that did not happen and its hypothetical result. \nRewrite: 'If I had studied, I would not have failed the exam.' (or 'If I had studied, I would have passed the exam.')",
+        explanation: "Type 3 uses: If + past perfect, would have + past participle.",
+      ),
+    ],
+  ),
+
+  "DEFINING AND NON-DEFINING RELATIVE CLAUSES": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nCombine the pairs of sentences using relative pronouns:\n(a) The girl is my sister. She won the prize.\n(b) Accra is the capital of Ghana. It is a busy city. (Use non-defining clause)",
+        answer: "(a) The girl who won the prize is my sister.\n(b) Accra, which is the capital of Ghana, is a busy city.",
+        explanation: "Relative pronouns (who, which) connect clauses. Non-defining clauses contain extra info and are bracketed by commas.",
+      ),
+    ],
+  ),
+
+  "ADVERBIAL PHRASES AND THEIR FUNCTIONS": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nIdentify the adverbial phrase in the sentence and state its grammatical function:\n'The children played soccer on the school field.'",
+        answer: "Adverbial phrase: 'on the school field'.\nGrammatical function: Adverbial phrase of place (modifies the verb 'played' by showing where the action occurred).",
+        explanation: "Adverbial phrases describe when, where, how, or why actions take place.",
+      ),
+    ],
+  ),
+
+  // ─── JHS 2 / JHS 3: SCIENCE theory ─────────────────────────────────────────
+  "Types of mixtures and their characteristics": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\na) Define a mixture.\nb) Differentiate between homogeneous and heterogeneous mixtures, giving one example of each.",
+        answer: "a) A mixture consists of two or more substances physically combined together in any proportion.\nb) Homogeneous mixtures have uniform appearance and composition throughout (e.g. salt solution). Heterogeneous mixtures have visible, non-uniform components (e.g. mixture of sand and iron filings).",
+        explanation: "Mixture classification is based on uniformity of phase.",
+      ),
+    ],
+  ),
+
+  "SEPARATING MIXTURES (PHYSICAL PROCESSES)": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nDescribe the laboratory process of separating a mixture of common salt and sand.",
+        answer: "1. Addition of water: Add water to the mixture and stir to dissolve the common salt. Sand remains insoluble.\n2. Filtration: Pour the mixture through a filter paper in a funnel. The sand remains as residue, and the salt solution passes through as filtrate.\n3. Evaporation: Heat the filtrate to evaporate the water, leaving dry salt crystal behind.",
+        explanation: "Physical separation processes utilize the distinct physical properties of each component.",
+      ),
+    ],
+  ),
+
+  "ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nDraw a labeled diagram of a Helium atom (atomic number 2, mass number 4) representing the nucleus and subatomic particles.",
+        answer: "The diagram of Helium (He) would show:\n- A central nucleus containing 2 Protons (positively charged) and 2 Neutrons (neutral charge).\n- Two Electrons (negatively charged) orbiting the nucleus in the first energy shell (K shell).",
+        explanation: "Helium has atomic number 2 (2 protons, 2 electrons) and mass number 4 (4 - 2 = 2 neutrons).",
+      ),
+    ],
+  ),
+
+  "THE PERIODIC TABLE AND ELECTRON CONFIGURATION": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nExplain how elements are arranged on the periodic table. Write the electron configuration for Calcium (atomic number 20).",
+        answer: "Elements are arranged on the periodic table in order of increasing atomic number (number of protons). Elements with similar chemical properties are grouped in vertical columns called Groups.\nConfiguration: The electron configuration of Calcium (Ca) is 2, 8, 8, 2.",
+        explanation: "The arrangement follows shell capacities: 2, 8, 8, 18, etc.",
+      ),
+    ],
+  ),
+
+  // ─── JHS 2 / JHS 3: MATH theory ────────────────────────────────────────────
+  "FROM BILLIONS TO STANDARD FORM": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nExpress the following numbers in standard form:\n(a) 125,000,000\n(b) 0.000045",
+        answer: "(a) 1.25 × 10^8\n(b) 4.5 × 10^-5",
+        explanation: "Standard form is A × 10^n where 1 ≤ A < 10 and n is an integer.",
+      ),
+    ],
+  ),
+
+  "The Complete Guide to Number Operations": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nSolve the expression using BODMAS: \n(15 + 5) ÷ 4 - 2 × 3 + 10",
+        answer: "Step 1 (Brackets): 15 + 5 = 20.\nStep 2 (Division): 20 ÷ 4 = 5.\nStep 3 (Multiplication): 2 × 3 = 6. Expression becomes: 5 - 6 + 10.\nStep 4 (Addition/Subtraction): 5 + 10 - 6 = 15 - 6 = 9.",
+        explanation: "BODMAS sets mathematical operation precedence: Brackets, Orders, Division/Multiplication, Addition/Subtraction.",
+      ),
+    ],
+  ),
 };

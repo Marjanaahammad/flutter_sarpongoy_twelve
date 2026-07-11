@@ -8,6 +8,8 @@ import '../../home/screens/contents/data/all_learn_data.dart';
 import '../../home/screens/contents/data/all_practice_data.dart';
 import '../../home/screens/contents/data/all_independent_quiz_data.dart';
 import '../../home/screens/contents/data/all_quiz_data.dart';
+import '../../home/screens/contents/data/bece_quiz_data.dart';
+import '../../home/screens/contents/data/bece_practice_data.dart';
 import '../../home/screens/contents/model/practice_model.dart';
 import '../../home/screens/contents/model/quiz_model.dart';
 import '../../progress/repositories/progress_repository.dart';
@@ -7937,6 +7939,23 @@ class SidebarController extends GetxController {
           for (int lIndex = 0; lIndex < normalSubStrand.lessons.length; lIndex++) {
             final normalLesson = normalSubStrand.lessons[lIndex];
 
+            final String normalizedTopic = normalLesson.topic.trim().toLowerCase();
+            QuizModel quizModel = normalLesson.quiz;
+            for (var entry in beceQuizData.entries) {
+              if (entry.key.trim().toLowerCase() == normalizedTopic) {
+                quizModel = entry.value;
+                break;
+              }
+            }
+
+            PracticeModel practiceModel = normalLesson.practice;
+            for (var entry in becePracticeData.entries) {
+              if (entry.key.trim().toLowerCase() == normalizedTopic) {
+                practiceModel = entry.value;
+                break;
+              }
+            }
+
             beceLessonsForStrand.add(
               Lesson(
                 title: normalLesson.title,
@@ -7948,14 +7967,8 @@ class SidebarController extends GetxController {
                 gradeName: grade,
                 getReady: defaultGetReadyData,
                 learn: defaultLearnData,
-                quiz: QuizModel(
-                  audioPath: normalLesson.quiz.audioPath,
-                  questions: normalLesson.quiz.questions,
-                ),
-                practice: PracticeModel(
-                  audioPath: normalLesson.practice.audioPath,
-                  questions: normalLesson.practice.questions,
-                ),
+                quiz: quizModel,
+                practice: practiceModel,
                 independentPractice: defaultIndependentQuizData,
               ),
             );
