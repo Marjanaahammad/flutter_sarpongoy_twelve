@@ -64,6 +64,13 @@ class PracticeController extends GetxController {
   }
 
   Future<void> startPracticeSequence() async {
+    // For BECE activities, skip audio and go directly to questions
+    if (isBece) {
+      showBanner.value = false;
+      await startQuestionFlow();
+      return;
+    }
+
     await loadAudio(model.audioPath);
 
     showBanner.value = true;

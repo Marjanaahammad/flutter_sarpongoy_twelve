@@ -7933,37 +7933,33 @@ class SidebarController extends GetxController {
         for (int ssIndex = 0; ssIndex < normalStrand.subStrands.length; ssIndex++) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
-          // Aggregate quiz and practice questions
-          List<QuizQuestion> aggregatedQuizQuestions = [];
-          List<PracticeQuestion> aggregatedPracticeQuestions = [];
+          // Each regular lesson becomes its own separate BECE lesson entry
+          for (int lIndex = 0; lIndex < normalSubStrand.lessons.length; lIndex++) {
+            final normalLesson = normalSubStrand.lessons[lIndex];
 
-          for (var normalLesson in normalSubStrand.lessons) {
-            aggregatedQuizQuestions.addAll(normalLesson.quiz.questions);
-            aggregatedPracticeQuestions.addAll(normalLesson.practice.questions);
+            beceLessonsForStrand.add(
+              Lesson(
+                title: normalLesson.title,
+                topic: normalLesson.topic,
+                courseName: courseTitle,
+                strandName: "BECE",
+                subStrandName: normalStrand.title,
+                lessonNumber: (beceLessonsForStrand.length + 1).toString(),
+                gradeName: grade,
+                getReady: defaultGetReadyData,
+                learn: defaultLearnData,
+                quiz: QuizModel(
+                  audioPath: normalLesson.quiz.audioPath,
+                  questions: normalLesson.quiz.questions,
+                ),
+                practice: PracticeModel(
+                  audioPath: normalLesson.practice.audioPath,
+                  questions: normalLesson.practice.questions,
+                ),
+                independentPractice: defaultIndependentQuizData,
+              ),
+            );
           }
-
-          beceLessonsForStrand.add(
-            Lesson(
-              title: normalSubStrand.title,
-              topic: normalSubStrand.subtitle,
-              courseName: courseTitle,
-              strandName: "BECE",
-              subStrandName: normalStrand.title,
-              lessonNumber: (ssIndex + 1).toString(),
-              gradeName: grade,
-              getReady: defaultGetReadyData,
-              learn: defaultLearnData,
-              quiz: QuizModel(
-                audioPath: normalSubStrand.lessons.isNotEmpty ? normalSubStrand.lessons.first.quiz.audioPath : "",
-                questions: aggregatedQuizQuestions,
-              ),
-              practice: PracticeModel(
-                audioPath: normalSubStrand.lessons.isNotEmpty ? normalSubStrand.lessons.first.practice.audioPath : "",
-                questions: aggregatedPracticeQuestions,
-              ),
-              independentPractice: defaultIndependentQuizData,
-            ),
-          );
         }
 
         beceSubStrands.add(

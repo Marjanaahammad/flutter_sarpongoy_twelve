@@ -62,6 +62,13 @@ class QuizController extends GetxController {
   }
 
   Future<void> _startQuizFlow() async {
+    // For BECE activities, skip audio and go directly to the quiz
+    if (isBece) {
+      showBanner.value = false;
+      showQuiz.value = true;
+      return;
+    }
+
     try {
       await _player.setAsset(model.audioPath);
 
