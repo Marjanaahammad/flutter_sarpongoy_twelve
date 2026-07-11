@@ -331,7 +331,7 @@ class SidebarController extends GetxController {
           for (var lesson in subStrand.lessons) {
             if (strand.title == "BECE") {
               final String normalStrandTitle = subStrand.title;
-              final String normalSubStrandTitle = lesson.title;
+              final String normalSubStrandTitle = lesson.topic;
 
               final beceObjectives = allBeceProgress.firstWhereOrNull(
                 (p) => p.courseName.toLowerCase() == course.title.toLowerCase() &&
@@ -7935,44 +7935,92 @@ class SidebarController extends GetxController {
         for (int ssIndex = 0; ssIndex < normalStrand.subStrands.length; ssIndex++) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
-          // Each regular lesson becomes its own separate BECE lesson entry
-          for (int lIndex = 0; lIndex < normalSubStrand.lessons.length; lIndex++) {
-            final normalLesson = normalSubStrand.lessons[lIndex];
+          final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim().toLowerCase();
 
-            final String normalizedTopic = normalLesson.topic.trim().toLowerCase();
-            QuizModel quizModel = normalLesson.quiz;
-            for (var entry in beceQuizData.entries) {
-              if (entry.key.trim().toLowerCase() == normalizedTopic) {
-                quizModel = entry.value;
-                break;
-              }
+          // 1. Try to find quiz data matching the sub-strand title directly
+          QuizModel? matchedQuiz;
+          for (var entry in beceQuizData.entries) {
+            if (entry.key.trim().toLowerCase() == normalizedSubStrandTitle) {
+              matchedQuiz = entry.value;
+              break;
             }
-
-            PracticeModel practiceModel = normalLesson.practice;
-            for (var entry in becePracticeData.entries) {
-              if (entry.key.trim().toLowerCase() == normalizedTopic) {
-                practiceModel = entry.value;
-                break;
-              }
-            }
-
-            beceLessonsForStrand.add(
-              Lesson(
-                title: normalLesson.title,
-                topic: normalLesson.topic,
-                courseName: courseTitle,
-                strandName: "BECE",
-                subStrandName: normalStrand.title,
-                lessonNumber: (beceLessonsForStrand.length + 1).toString(),
-                gradeName: grade,
-                getReady: defaultGetReadyData,
-                learn: defaultLearnData,
-                quiz: quizModel,
-                practice: practiceModel,
-                independentPractice: defaultIndependentQuizData,
-              ),
-            );
           }
+
+          // 2. If not found, try to find quiz data matching any of the lessons' topics inside this sub-strand
+          if (matchedQuiz == null) {
+            List<QuizQuestion> collectedQuestions = [];
+            for (var normalLesson in normalSubStrand.lessons) {
+              final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
+              for (var entry in beceQuizData.entries) {
+                if (entry.key.trim().toLowerCase() == normalizedLessonTopic) {
+                  collectedQuestions.addAll(entry.value.questions);
+                }
+              }
+            }
+            if (collectedQuestions.isNotEmpty) {
+              matchedQuiz = QuizModel(audioPath: '', questions: collectedQuestions);
+            }
+          }
+
+          // 3. Fallback: Aggregate the normal lesson quizzes under this sub-strand
+          if (matchedQuiz == null) {
+            List<QuizQuestion> fallbackQuestions = [];
+            for (var normalLesson in normalSubStrand.lessons) {
+              fallbackQuestions.addAll(normalLesson.quiz.questions);
+            }
+            matchedQuiz = QuizModel(audioPath: '', questions: fallbackQuestions);
+          }
+
+          // 1. Try to find practice data matching the sub-strand title directly
+          PracticeModel? matchedPractice;
+          for (var entry in becePracticeData.entries) {
+            if (entry.key.trim().toLowerCase() == normalizedSubStrandTitle) {
+              matchedPractice = entry.value;
+              break;
+            }
+          }
+
+          // 2. If not found, try to find practice data matching any of the lessons' topics inside this sub-strand
+          if (matchedPractice == null) {
+            List<PracticeQuestion> collectedPracticeQuestions = [];
+            for (var normalLesson in normalSubStrand.lessons) {
+              final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
+              for (var entry in becePracticeData.entries) {
+                if (entry.key.trim().toLowerCase() == normalizedLessonTopic) {
+                  collectedPracticeQuestions.addAll(entry.value.questions);
+                }
+              }
+            }
+            if (collectedPracticeQuestions.isNotEmpty) {
+              matchedPractice = PracticeModel(audioPath: '', questions: collectedPracticeQuestions);
+            }
+          }
+
+          // 3. Fallback: Aggregate the normal lesson practices under this sub-strand
+          if (matchedPractice == null) {
+            List<PracticeQuestion> fallbackPracticeQuestions = [];
+            for (var normalLesson in normalSubStrand.lessons) {
+              fallbackPracticeQuestions.addAll(normalLesson.practice.questions);
+            }
+            matchedPractice = PracticeModel(audioPath: '', questions: fallbackPracticeQuestions);
+          }
+
+          beceLessonsForStrand.add(
+            Lesson(
+              title: "Sub-strand ${ssIndex + 1}",
+              topic: normalSubStrand.subtitle,
+              courseName: courseTitle,
+              strandName: "BECE",
+              subStrandName: normalStrand.title,
+              lessonNumber: (beceLessonsForStrand.length + 1).toString(),
+              gradeName: grade,
+              getReady: defaultGetReadyData,
+              learn: defaultLearnData,
+              quiz: matchedQuiz,
+              practice: matchedPractice,
+              independentPractice: defaultIndependentQuizData,
+            ),
+          );
         }
 
         beceSubStrands.add(
