@@ -34,7 +34,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Giving and Following Direction": PracticeModel(
     audioPath: '',
     questions: [
@@ -65,7 +64,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Active and Passive Voice": PracticeModel(
     audioPath: '',
     questions: [
@@ -96,7 +94,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Reported Speech (Direct and Indirect)": PracticeModel(
     audioPath: '',
     questions: [
@@ -127,7 +124,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   // ─── SCIENCE ───────────────────────────────────────────────────────────
   "Classification of Materials": PracticeModel(
     audioPath: '',
@@ -159,7 +155,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Human Growth Stages": PracticeModel(
     audioPath: '',
     questions: [
@@ -190,15 +185,16 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   // ─── MATHEMATICS ───────────────────────────────────────────────────────
-  "Fractions, Decimals, and Percentages": PracticeModel(
+  "Number and Numeration Systems": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "BECE Theory Question 1\n\nSolve the following:\n(a) Convert 7/8 to a decimal and a percentage.\n(b) Convert 0.35 to a fraction in its lowest terms.\n(c) What is 40% of 250?",
-        answer: "(a) 7 ÷ 8 = 0.875; 0.875 × 100 = 87.5%.\n(b) 0.35 = 35/100 = 7/20 (dividing by 5).\n(c) 40% of 250 = 0.4 × 250 = 100.",
-        explanation: "Converting between fractions, decimals, and percentages requires dividing, multiplying, and simplifying using HCF.",
+        scenario: "1. Question: Write 356.07 in standard form.",
+        answer: "Correct Answer: 356.07 = 3.5607 x 10^{2}",
+        explanation: "Explanation: • Standard form is written in the format A x 10^n, where 1 ≤ A < 10 and n is an integer.\n"
+            "• To convert 356.07 into this format, the decimal point must be shifted 2 places to the left to place it after the first non-zero digit (3).\n"
+            "• Shifting the decimal point 2 places to the left means we multiply the resulting number by 10^{2} to keep its value unchanged.",
       ),
       PracticeQuestion(
         scenario: "BECE Theory Question 2\n\nA student scored 48 out of 80 in a maths test.\n(a) Express her score as a fraction in its lowest terms.\n(b) Convert this fraction to a percentage.\n(c) If the passing mark was 65%, did she pass?",

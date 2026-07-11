@@ -62,6 +62,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         }
 
         final student = _profileController.userInfo.value?.student;
+        final percentage = ((student?.averageScore ?? 0.0) / 10) * 100;
 
         return SingleChildScrollView(
           padding: const EdgeInsets.all(16),
@@ -239,7 +240,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 children: [
                   Expanded(
                     child: _statCard(
-                      (student?.averageScore ?? 0.0).toString(),
+                      "${(((student?.averageScore ?? 0.0) / 10) * 100).toStringAsFixed(1)}%",
                       "Average Quiz Score",
                     ),
                   ),

@@ -215,19 +215,225 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── MATH ──────────────────────────────────────────────────────────────
-  "Mastering Numbers and Numeration": QuizModel(
+  "Number and Numeration Systems": QuizModel(
     audioPath: '',
     questions: [
-      QuizQuestion(question: "1. What is the place value of 7 in 3,752?", options: ["Ones", "Tens", "Hundreds", "Thousands"], correctIndex: 2, difficulty: "Easy", explanation: "In 3,752 the digit 7 is in the hundreds place."),
-      QuizQuestion(question: "2. Which of these numbers is a prime number?", options: ["21", "27", "29", "33"], correctIndex: 2, difficulty: "Easy", explanation: "29 is only divisible by 1 and itself, making it prime."),
-      QuizQuestion(question: "3. Express 0.045 as a fraction in its lowest terms.", options: ["45/100", "9/200", "45/1000", "9/100"], correctIndex: 1, difficulty: "Medium", explanation: "0.045 = 45/1000 = 9/200 after dividing by 5."),
-      QuizQuestion(question: "4. What is the LCM of 4 and 6?", options: ["2", "12", "24", "36"], correctIndex: 1, difficulty: "Easy", explanation: "The Lowest Common Multiple of 4 and 6 is 12."),
-      QuizQuestion(question: "5. Round 3,846 to the nearest hundred.", options: ["3,800", "3,900", "4,000", "3,840"], correctIndex: 0, difficulty: "Easy", explanation: "3,846 rounded to the nearest 100 is 3,800 (4 < 5, so round down)."),
-      QuizQuestion(question: "6. Which number is NOT a factor of 36?", options: ["4", "9", "8", "12"], correctIndex: 2, difficulty: "Medium", explanation: "36 ÷ 8 = 4.5 — not a whole number, so 8 is not a factor of 36."),
-      QuizQuestion(question: "7. What is 2^5?", options: ["10", "16", "32", "64"], correctIndex: 2, difficulty: "Medium", explanation: "2^5 = 2×2×2×2×2 = 32."),
-      QuizQuestion(question: "8. The HCF of 24 and 36 is:", options: ["4", "6", "12", "24"], correctIndex: 2, difficulty: "Medium", explanation: "Factors of 24: 1,2,3,4,6,8,12,24. Factors of 36: 1,2,3,4,6,9,12,18,36. HCF = 12."),
-      QuizQuestion(question: "9. Which of these is written in standard form (scientific notation)?", options: ["23 × 10^2", "2.3 × 10^3", "230 × 10^1", "0.23 × 10^4"], correctIndex: 1, difficulty: "Hard", explanation: "Standard form requires a number between 1 and 10 multiplied by a power of 10."),
-      QuizQuestion(question: "10. What is the value of (-3) × (-4)?", options: ["-12", "-7", "7", "12"], correctIndex: 3, difficulty: "Medium", explanation: "The product of two negative numbers is positive: (-3)×(-4) = 12."),
+      QuizQuestion(
+          question: "1. Write 356.07 in standard form.        (BECE 1995 Q5)",
+          options: ["35.607 x 10", "35.607 x 10^2", "3.5607 x 10^2", "35607 x 10^2"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "356.07 = 3.5607 × 10²."
+      ),
+      QuizQuestion(
+          question: "2. Which of the following numbers is the prime number greater than 23?        (BECE 2004 Q6)",
+          options: ["17", "24", "25", "29"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "29 is the only prime number greater than 23."
+      ),
+      QuizQuestion(
+          question: "3. Write 4687.02 in standard form.        (BECE 1991 Q5)",
+          options: ["46.8702 x 10^3", "46.8702 x 10^4", "4.68702 x 10^5", "4.68702 x 10^3"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "4687.02 = 4.68702 × 10³."
+      ),
+      QuizQuestion(
+          question: "4. Correct 0.02751 to three decimal places.        (BECE 2011 Q40)",
+          options: ["0.027", "0.028", "0.03", "0.28"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Rounded to three decimal places, 0.02751 becomes 0.028."
+      ),
+      QuizQuestion(
+          question: "5. Write 1342 in standard form.        (BECE 1999 Q4)",
+          options: ["0.1342 x 10^3", "0.1342 x 10^-4", "13.42 x 10^3", "1.342 x 10^3"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "1342 = 1.342 × 10³."
+      ),
+      QuizQuestion(
+          question: "6. Express 2345 in standard form.        (BECE 2001 Q18)",
+          options: ["2.345 x 10^3", "2.345 x 10^2", "2.345 x 10^4", "2.345 x 10"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "2345 = 2.345 × 10³."
+      ),
+      QuizQuestion(
+          question: "7. Write GH¢35,632.00 correct to the nearest thousand cedis.        (BECE 1994 Q25)",
+          options: ["GH¢40,000.00", "GH¢36,000.00", "GH¢35,600.00", "GH¢35,000.00"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "35,632 rounds to 36,000."
+      ),
+      QuizQuestion(
+          question: "8. Write 83000 in standard form.        (BECE 2003 Q18)",
+          options: ["8.3 x 10^4", "8.3 x 10^-3", "8.3 x 10^3", "8.3 x 10^5"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "83000 = 8.3 × 10⁴."
+      ),
+      QuizQuestion(
+          question: "9. Which of the following is not a prime number?       (BECE 1994 Q5)",
+          options: ["3", "5", "7", "9"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "9 = 3 × 3, so it is not prime."
+      ),
+      QuizQuestion(
+          question: "10. Express 2474.5 in standard form.        (BECE 2002A Q4)",
+          options: ["2.4745 x 10^2", "2.4745 x 10^3", "2.4745 x 10^-2", "2.4745 x 10^-3"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "2474.5 = 2.4745 × 10³."
+      ),
+      QuizQuestion(
+          question: "11. Write 78910 correct to the nearest thousand.        (BECE 2004 Q8)",
+          options: ["70,000", "78,000", "79,000", "80,000"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "78,910 rounds to 79,000."
+      ),
+      QuizQuestion(
+          question: "12. Express 962 in standard form.        (BECE 2006 Q16)",
+          options: ["96.2 x 10", "9.62 x 10^2", "0.962 x 10^3", "0.0962 x 10^4"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "962 = 9.62 × 10²."
+      ),
+      QuizQuestion(
+          question: "13. Round 8921465 to the nearest hundred.         (BECE 2008 Q3)",
+          options: ["8921000", "8921400", "8921460", "8921500"],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "8921465 rounded to the nearest hundred is 8921500."
+      ),
+      QuizQuestion(
+          question: "14. Write the number 34.1 in standard form.        (BECE 2008 Q36)",
+          options: ["3.41 x 10^2", "3.41 x 10^1", "3.41 x 10^0", "3.41 x 10"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "34.1 = 3.41 × 10¹."
+      ),
+      QuizQuestion(
+          question: "15. Which of the following is an even prime number?        (BECE 2023 Q7)",
+          options: ["1", "8", "4", "2"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "2 is the only even prime number."
+      ),
+      QuizQuestion(
+          question: "16. Write 2340000 in standard form.        (BECE 2009 Q2)",
+          options: ["2.34 x 10^-6", "2.34 x 10^5", "2.34 x 10^6", "2.34 x 10^-5"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "2340000 = 2.34 × 10⁶."
+      ),
+      QuizQuestion(
+          question: "17. Express 4037 in standard form.        (BECE 2010 Q36)",
+          options: ["4.037 x 10^4", "4.037 x 10^-3", "4.037 x 10^3", "4.037 x 10^-4"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "4037 = 4.037 × 10³."
+      ),
+      QuizQuestion(
+          question: "18. Write 3560 in standard form.        (BECE 2011 Q39)",
+          options: ["3.56 x 10^4", "3.56 x 10^-4", "3.56 x 10^3", "3.56 x 10^-4"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "3560 = 3.56 × 10³."
+      ),
+      QuizQuestion(
+          question: "19. Which of the following numbers is an integer?        (BECE 2012 Q2)",
+          options: [r"\frac{−5}{4}", r"\frac{−2}{3}", "0.5", "−1"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "−1 is an integer."
+      ),
+      QuizQuestion(
+          question: "20. Which of the following is arranged in ascending order?        (BECE 2016 Q9)",
+          options: [
+            "−10, −7, 4.2, 9",
+            "−10, 9, −7, 4.2",
+            "−4, −7, 10, 2.9",
+            "2, 4, −7, 9, 10"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Ascending order means smallest to largest."
+      ),
+      QuizQuestion(
+          question: "21. Express 134.78 correct to the nearest tenth.        (BECE 2021 Q8)",
+          options: ["130.0", "134.7", "134.8", "135.0"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "134.78 rounded to one decimal place is 134.8."
+      ),
+      QuizQuestion(
+          question: "22. Express 625.13 in standard form.        (BECE 2015 Q16)",
+          options: [
+            "6.2513 x 10^-2",
+            "6.2513 x 10^-4",
+            "6.2513 x 10^2",
+            "6.2513 x 10^4"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "625.13 = 6.2513 × 10²."
+      ),
+      QuizQuestion(
+          question: "23. Which of the following is the largest set?",
+          options: [
+            "{Composites}",
+            "{Integers}",
+            "{Natural numbers}",
+            "{Whole numbers}"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The set of integers includes negative numbers, whole numbers, and natural numbers."
+      ),
+      QuizQuestion(
+          question: "24. Correct 48,947.2547 to the nearest hundred.        (BECE 2016 Q6)",
+          options: ["490", "48,900", "48,950", "49,000"],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "48,947.2547 rounds to 48,900."
+      ),
+      QuizQuestion(
+          question: "25. Arrange the following integers from the least to the highest: 4, 9, −10, 7 and 2.        (BECE 2018 Q1)",
+          options: [
+            "−10, 2, 4, 7, 9",
+            "−64, −25, 4, 17",
+            "−64, −25, 17, 4",
+            "17, 4, −25, −64"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "The correct ascending order is −10, 2, 4, 7, 9."
+      ),
+      QuizQuestion(
+          question: "26. Which of the following is not an integer?        (BECE 2022 Q11)",
+          options: ["1", "−5", "0.5", "0"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "0.5 is not an integer."
+      ),
+      QuizQuestion(
+          question: "27. Which of the following numbers is the largest?       (BECE 2019 Q3)",
+          options: ["−70", "−50", "−3", "−2"],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "−2 is the largest because it is closest to zero."
+      ),
+      QuizQuestion(
+          question: "28. Find the largest value of these numbers: −1, 0, −6, −3.",
+          options: ["0", "−1", "3", "−6"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "0 is greater than all the negative numbers."
+      ),
     ],
   ),
 
