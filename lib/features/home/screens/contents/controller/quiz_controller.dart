@@ -3,6 +3,8 @@ import 'package:flutter_sarpongoy_twelve/core/services/sync_service.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/model/quiz_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/progress/models/progress_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/progress/repositories/progress_repository.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/models/bece_progress_model.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/repositories/bece_progress_repository.dart';
 import 'package:flutter_sarpongoy_twelve/features/sidebar/controller/sidebar_controller.dart';
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
@@ -10,6 +12,7 @@ import 'package:just_audio/just_audio.dart';
 class QuizController extends GetxController {
   final AudioPlayer _player = AudioPlayer();
   final ProgressRepository _progressRepo = Get.find<ProgressRepository>();
+  bool isBece = false;
 
   late QuizModel model;
   late String lessonId;
@@ -59,6 +62,13 @@ class QuizController extends GetxController {
   }
 
   Future<void> _startQuizFlow() async {
+    // For BECE activities, skip audio and go directly to the quiz
+    if (isBece) {
+      showBanner.value = false;
+      showQuiz.value = true;
+      return;
+    }
+
     try {
       await _player.setAsset(model.audioPath);
 
@@ -131,32 +141,58 @@ class QuizController extends GetxController {
     }
     correctAnswersCount.value = correct;
 
-    // Fetch existing progress to preserve original score
-    final existingProgress = await _progressRepo.getSpecificProgress(
-      lessonId,
-      'quiz',
-      'final_score',
-    );
+    if (isBece) {
+      final beceRepo = Get.find<BeceProgressRepository>();
+      final existing = await beceRepo.getProgress(
+        courseName: courseName ?? "",
+        strandName: strandName ?? "",
+        subStrandName: subStrandName ?? "",
+        gradeName: gradeName ?? "",
+        activityType: 'objectives',
+      );
 
-    // Save progress to database
-    final progress = ActivityProgress(
-      lessonId: lessonId,
-      courseName: courseName,
-      strandName: strandName,
-      subStrandName: subStrandName,
-      lessonNumber: lessonNumber,
-      gradeName: gradeName,
-      activityType: 'quiz',
-      subActivity: 'final_score',
-      isCompleted: true,
-      score: correct,
-      originalScore: existingProgress?.originalScore ?? correct,
-      totalQuestions: questions.length,
-      lastUpdated: DateTime.now(),
-    );
-    await _progressRepo.saveProgress(progress);
-    Get.find<SidebarController>().loadActualProgress();
-    Get.find<SyncService>().triggerSync();
+      final progress = BeceProgress(
+        courseName: courseName ?? "",
+        strandName: strandName ?? "",
+        subStrandName: subStrandName ?? "",
+        gradeName: gradeName ?? "",
+        activityType: 'objectives',
+        firstAttemptScore: existing?.firstAttemptScore ?? correct,
+        lastAttemptScore: correct,
+        totalQuestions: questions.length,
+        doneDate: DateTime.now(),
+      );
+
+      await beceRepo.saveProgress(progress);
+      Get.find<SidebarController>().loadActualProgress();
+    } else {
+      // Fetch existing progress to preserve original score
+      final existingProgress = await _progressRepo.getSpecificProgress(
+        lessonId,
+        'quiz',
+        'final_score',
+      );
+
+      // Save progress to database
+      final progress = ActivityProgress(
+        lessonId: lessonId,
+        courseName: courseName,
+        strandName: strandName,
+        subStrandName: subStrandName,
+        lessonNumber: lessonNumber,
+        gradeName: gradeName,
+        activityType: 'quiz',
+        subActivity: 'final_score',
+        isCompleted: true,
+        score: correct,
+        originalScore: existingProgress?.originalScore ?? correct,
+        totalQuestions: questions.length,
+        lastUpdated: DateTime.now(),
+      );
+      await _progressRepo.saveProgress(progress);
+      Get.find<SidebarController>().loadActualProgress();
+      Get.find<SyncService>().triggerSync();
+    }
   }
 
   String getFeedbackMessage() {

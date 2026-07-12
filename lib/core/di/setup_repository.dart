@@ -12,6 +12,7 @@ import 'package:get/get_instance/src/extension_instance.dart';
 import '../../features/auth/repositories/auth_repo.dart';
 import '../../features/auth/repositories/auth_repo_impl.dart';
 import '../../features/progress/repositories/progress_repository.dart';
+import '../../features/progress/repositories/bece_progress_repository.dart';
 import '../../features/progress/repositories/sync_repo.dart';
 
 Future<void> setupRepository() async {
@@ -26,6 +27,7 @@ Future<void> setupRepository() async {
   );
 
   Get.lazyPut<ProgressRepository>(() => ProgressRepository(), fenix: true);
+  Get.lazyPut<BeceProgressRepository>(() => BeceProgressRepository(), fenix: true);
 
   Get.lazyPut<SyncRepo>(() => SyncRepoImpl(apiClient: Get.find()), fenix: true);
   Get.getOrPutLazy<TeacherProfileRepository>(

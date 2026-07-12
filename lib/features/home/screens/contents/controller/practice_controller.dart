@@ -4,6 +4,8 @@ import 'package:flutter_sarpongoy_twelve/features/home/models/strand_model.dart'
 import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/independent_quiz_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/progress/models/progress_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/progress/repositories/progress_repository.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/models/bece_progress_model.dart';
+import 'package:flutter_sarpongoy_twelve/features/progress/repositories/bece_progress_repository.dart';
 import 'package:flutter_sarpongoy_twelve/features/sidebar/controller/sidebar_controller.dart';
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
@@ -11,6 +13,7 @@ import 'package:just_audio/just_audio.dart';
 class PracticeController extends GetxController {
   final AudioPlayer _player = AudioPlayer();
   final ProgressRepository _progressRepo = Get.find<ProgressRepository>();
+  bool isBece = false;
 
   late PracticeModel model;
   late Lesson lesson;
@@ -61,6 +64,13 @@ class PracticeController extends GetxController {
   }
 
   Future<void> startPracticeSequence() async {
+    // For BECE activities, skip audio and go directly to questions
+    if (isBece) {
+      showBanner.value = false;
+      await startQuestionFlow();
+      return;
+    }
+
     await loadAudio(model.audioPath);
 
     showBanner.value = true;
@@ -122,33 +132,60 @@ class PracticeController extends GetxController {
       currentQuestionIndex.value++;
       startQuestionFlow();
     } else {
-      // Save practice progress
-      final progress = ActivityProgress(
-        lessonId: lesson.topic,
-        courseName: courseName,
-        strandName: strandName,
-        subStrandName: subStrandName,
-        lessonNumber: lessonNumber,
-        gradeName: gradeName,
-        activityType: 'guided_practice',
-        subActivity: 'completion',
-        isCompleted: true,
-        lastUpdated: DateTime.now(),
-      );
-      await _progressRepo.saveProgress(progress);
-      Get.find<SidebarController>().loadActualProgress();
+      if (isBece) {
+        final beceRepo = Get.find<BeceProgressRepository>();
+        final progress = BeceProgress(
+          courseName: courseName ?? "",
+          strandName: strandName ?? "",
+          subStrandName: subStrandName ?? "",
+          gradeName: gradeName ?? "",
+          activityType: 'theory',
+          doneDate: DateTime.now(),
+        );
 
-      Get.snackbar(
-        "Complete",
-        "You have finished all practice scenarios.",
-        snackPosition: SnackPosition.BOTTOM,
-        duration: const Duration(seconds: 2),
-        backgroundColor: Colors.green,
-        colorText: Colors.white,
-      );
+        await beceRepo.saveProgress(progress);
+        Get.find<SidebarController>().loadActualProgress();
 
-      await Future.delayed(const Duration(seconds: 2));
-      Get.to(() => IndependentQuizScreen(lesson: lesson));
+        Get.snackbar(
+          "Complete",
+          "You have finished the Theory practice.",
+          snackPosition: SnackPosition.BOTTOM,
+          duration: const Duration(seconds: 2),
+          backgroundColor: Colors.green,
+          colorText: Colors.white,
+        );
+
+        await Future.delayed(const Duration(seconds: 2));
+        Get.back();
+      } else {
+        // Save practice progress
+        final progress = ActivityProgress(
+          lessonId: lesson.topic,
+          courseName: courseName,
+          strandName: strandName,
+          subStrandName: subStrandName,
+          lessonNumber: lessonNumber,
+          gradeName: gradeName,
+          activityType: 'guided_practice',
+          subActivity: 'completion',
+          isCompleted: true,
+          lastUpdated: DateTime.now(),
+        );
+        await _progressRepo.saveProgress(progress);
+        Get.find<SidebarController>().loadActualProgress();
+
+        Get.snackbar(
+          "Complete",
+          "You have finished all practice scenarios.",
+          snackPosition: SnackPosition.BOTTOM,
+          duration: const Duration(seconds: 2),
+          backgroundColor: Colors.green,
+          colorText: Colors.white,
+        );
+
+        await Future.delayed(const Duration(seconds: 2));
+        Get.to(() => IndependentQuizScreen(lesson: lesson));
+      }
     }
   }
 

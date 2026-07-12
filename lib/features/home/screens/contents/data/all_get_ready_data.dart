@@ -1517,7 +1517,7 @@ final GetReadyModel SSJHS2s1ss1Lesson2GetReadyData = GetReadyModel(
 );
 final GetReadyModel SSJHS2s1ss2Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS2 L1/Chapter Overview.jpg',
-  overviewAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/1. Chapter 1(updated).m4a',
+  overviewAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/1. Chapter 1.m4a',
   hookImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS2 S1 SS2 L1/HOOK.jpg',
   hookAudioPath: 'assets/audio/social_studies/3.SOCIAL STUDIES JHS2 S1 SS2 L1/2. Hook.m4a',
 );
