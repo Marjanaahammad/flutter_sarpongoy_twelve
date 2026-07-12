@@ -855,7 +855,7 @@ final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
   questions: [
     PracticeQuestion(
       scenario: "1. Question: What should go at the very top of a notice about a football match?",
-      answer: "Correct Answer: MThe Heading (e.g., NOTICE: FOOTBALL MATCH).",
+      answer: "Correct Answer: The Heading (e.g., NOTICE: FOOTBALL MATCH).",
       explanation: "Explanation: The heading tells the reader exactly what the text is about before they read the details.",
     ),
     PracticeQuestion(
@@ -945,7 +945,7 @@ final PracticeModel s4ss2Lesson4PracticeData = PracticeModel(
     ),
     PracticeQuestion(
       scenario: "3. Question: Rewrite this informal sentence to be formal: \"I want to come to the bank with my friends.\"",
-      answer: "Correct Answer: \"Thank you so much for the 100 Cedis you sent for my birthday; I was so happy to receive it!\"",
+      answer: "Correct Answer: \"I am writing to request permission for my class to visit the bank.\"",
       explanation: "Explanation: Formal writing uses \"request permission\" instead of \"I want\" and avoids informal words like \"friends\" when referring to a class group.",
     ),
   ],
@@ -1747,7 +1747,7 @@ final PracticeModel jhs2s3ss3Lesson1PracticeData = PracticeModel(
 );
 
 final PracticeModel jhs2s4ss1Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/4.Guidance Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/4.Guidance Practice(Updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Combine these sentences using a time connector: \"The bell rang. The students ran to the canteen.\"",
@@ -1767,7 +1767,7 @@ final PracticeModel jhs2s4ss1Lesson1PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss1Lesson2PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/4.GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/4.GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: If your topic is \"The Benefits of Regular Exercise,\" write a \"Fact\" hook.",
@@ -1787,7 +1787,7 @@ final PracticeModel jhs2s4ss1Lesson2PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss1Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/4.Guidance Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/4.Guidance Practice(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Expand this sentence using a relative clause starting with 'who': \"The teacher is very happy.\"",
@@ -1807,7 +1807,7 @@ final PracticeModel jhs2s4ss1Lesson3PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Rewrite the following sentence using the first-person point of view and add one descriptive adjective: \"The boy walked to the river.\"",
@@ -1827,7 +1827,7 @@ final PracticeModel jhs2s4ss2Lesson1PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson2PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Use an adjective and a prepositional phrase to improve this sentence: \"The bus stood.\"",
@@ -1847,7 +1847,7 @@ final PracticeModel jhs2s4ss2Lesson2PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Identify the imperative verb in this sentence: \"Go to the market and get your fresh yams now!\"",
@@ -1867,7 +1867,7 @@ final PracticeModel jhs2s4ss2Lesson3PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson4PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Identify the \"Issue\" and a possible \"Solution\" for the library problem.",
@@ -1887,7 +1887,7 @@ final PracticeModel jhs2s4ss2Lesson4PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson5PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Where do you place the date in a formal letter?",
@@ -1907,7 +1907,7 @@ final PracticeModel jhs2s4ss2Lesson5PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson6PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: What would be a catchy, eye-catching headline for this club's flyer?",
@@ -1927,7 +1927,7 @@ final PracticeModel jhs2s4ss2Lesson6PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson7PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: If you are writing for a school magazine, who is your primary audience?",
@@ -1947,7 +1947,7 @@ final PracticeModel jhs2s4ss2Lesson7PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson8PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: How should you write the names and the punctuation for Kwesi and Mrs. Appiah?",
@@ -1967,7 +1967,7 @@ final PracticeModel jhs2s4ss2Lesson8PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss2Lesson9PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/4. GUIDED PRACTICE(update).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: What should you include in your \"Introduction\" for a speech about the forest?",
@@ -1987,7 +1987,7 @@ final PracticeModel jhs2s4ss2Lesson9PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs2s4ss3Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/4. GUIDED PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/4. GUIDED PRACTICE(updated).m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Data: A map of Ghana shows three major hospitals in the Greater Accra Region but only one in a specific rural district.\n"
@@ -2025,7 +2025,7 @@ final PracticeModel jhs2s5ss1Lesson1PracticeData = PracticeModel(
     ),
     PracticeQuestion(
       scenario: "3. Question: Imagine the \"Old Man\" lived in a modern town in Ghana today. Instead of sticks, what is another local object he could use to teach the same lesson?",
-      answer: "Correct Answer: He could use a broom (sapre).",
+      answer: "Correct Answer: He could use a broom.",
       explanation: "Explanation: A single broomstraw is easy to snap, but a whole broom tied together is used to sweep the entire yard without breaking.",
     ),
   ],

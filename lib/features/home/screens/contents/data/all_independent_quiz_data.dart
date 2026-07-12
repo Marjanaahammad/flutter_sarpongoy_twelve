@@ -4316,7 +4316,7 @@ final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = Independent
 );
 
 final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which connector best completes this sentence? \"_____ the rain was heavy, the taxi driver arrived on time.\"",
@@ -4372,7 +4372,7 @@ final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is an example of an anecdote hook for an essay on \"Honesty\"?",
@@ -4428,7 +4428,7 @@ final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE(Updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following contains a relative clause?",
@@ -4470,7 +4470,7 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "4. In the sentence \"The girl with the long braids is my sister,\" the bold text is:",
+        question: "4. In the sentence \"The girl **with the long braids** is my sister,\" the bold text is:",
         options: [
           "A relative clause",
           "An adjectival phrase",
@@ -4479,12 +4479,12 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The phrase 'with the long braids' describes the noun 'girl', so it is an adjectival phrase."
+        explanation: "The phrase **with the long braids** describes the noun 'girl', so it is an adjectival phrase."
     ),
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these sentences is written in the first-person point of view?",
@@ -4540,7 +4540,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which word best describes a market that is full of people and activity?",
@@ -4609,7 +4609,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is a mental verb used to convey a viewpoint?",
@@ -4678,7 +4678,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the first thing you should do in a problem-solution paragraph?",
@@ -4747,7 +4747,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which salutation is most appropriate for a letter to a Headteacher whose name you do not know?",
@@ -4816,7 +4816,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which paper size is most common for a small, hand-held flyer?",
@@ -4885,7 +4885,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE(update).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which tool is best for sorting and classifying ideas before you start writing?",
@@ -4954,7 +4954,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Where do the names of the characters go in a dialogue script?",
@@ -5023,7 +5023,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What are the three main parts of a speech?",
@@ -5092,7 +5092,7 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE(Updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. A graph shows that plastic waste in the ocean has doubled in five years. Which sentence best uses this information?",

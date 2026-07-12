@@ -500,7 +500,7 @@ final GetReadyModel jhs2s4ss2Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS2 S4 SS2 L3/student_overview.jpg',
   overviewAudioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/1. CHAPTER .m4a',
   hookImagePath: 'assets/images/english/ENGLISH JHS2 S4 SS2 L3/hook.jpg',
-  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/2. HOOK.m4a',
+  hookAudioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/2. HOOK(updated).m4a',
 );
 final GetReadyModel jhs2s4ss2Lesson4GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS2 S4 SS2 L4/student_overview.jpg',

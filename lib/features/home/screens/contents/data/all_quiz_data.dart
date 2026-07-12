@@ -9104,7 +9104,7 @@ final QuizModel jhs2s4ss1Lesson3QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-          "7. \"The woman at the back of the room stood up.\" The bold part is an:",
+          "7. \"The woman **at the back of the room** stood up.\" The bold part is an:",
       options: [
         "Adverbial phrase of place",
         "Noun phrase",
