@@ -1219,6 +1219,140 @@ final QuizModel s2ss1Lesson3QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel s2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/7. quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which of these sentences represents a pure statement of fact?",
+        options: [
+          "High school education should focus only on science.",
+          "The capital city of the Greater Accra Region is Accra.",
+          "Living in the city is much more exciting than village life.",
+          "Our local football team has the most attractive jersey."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The location of the capital is a geographic fact that can be verified."
+    ),
+
+    QuizQuestion(
+        question: "2. An opinion is best defined as:",
+        options: [
+          "A statement that can be proven true through research.",
+          "A personal belief, feeling, or judgment that cannot be proven.",
+          "The main headline printed in bold capital letters.",
+          "A chart showing economic growth over five years."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Opinions are subjective and express individual attitudes."
+    ),
+
+    QuizQuestion(
+        question: "3. Read this paragraph: \"The government built a new clinic in the district. This wonderful project will automatically solve every health issue we face.\" What does the word \"wonderful\" signal to the reader?",
+        options: [
+          "A neutral, unbiased fact.",
+          "The author's positive attitude and personal opinion.",
+          "A chronological text structure.",
+          "A definition found in a glossary."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Descriptive words like \"wonderful\" reveal emotional evaluation and subjective attitude."
+    ),
+
+    QuizQuestion(
+        question: "4. Why is it important to research or identify an author's bias in an article?",
+        options: [
+          "To check if the text has any typographical features.",
+          "To find out how many pages the author wrote.",
+          "To understand if the information is presented fairly or one-sidedly.",
+          "To practice memorizing the main topic sentences."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Recognizing bias helps a reader assess the fairness and balance of non-fiction texts."
+    ),
+
+    QuizQuestion(
+        question: "5. What does it mean to give a \"personal response\" to a non-literary text?",
+        options: [
+          "Copying the entire text down by hand into your notebook.",
+          "Expressing your own critical thoughts and perspectives on the reading.",
+          "Rewriting the article using entirely different names.",
+          "Ignoring the facts to talk about a fiction story instead."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A personal response is the reader's active, critical engagement with the text's arguments."
+    ),
+
+    QuizQuestion(
+        question: "6. If you state that an author supports renewable energy, which of the following acts as the best textual evidence?",
+        options: [
+          "Pointing out that the text is printed in italics.",
+          "Explaining that the article has three main paragraphs.",
+          "Quoting the author's statement: \"Solar power is a clean, essential investment for our future.\"",
+          "Stating that you personally use solar power at home."
+        ],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Direct quotes that match the claim provide direct textual evidence."
+    ),
+
+    QuizQuestion(
+        question: "7. A text that presents an interview with a doctor, a patient, and a pharmaceutical manufacturer is showing:",
+        options: [
+          "A lack of structural pattern.",
+          "Different viewpoints on a health topic.",
+          "A simple sequence structure.",
+          "A fictional narrative framework."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Including multiple roles provides diverse viewpoints on the central issue."
+    ),
+
+    QuizQuestion(
+        question: "8. Which phrase contains a clear indicator of a writer's bias or opinion?",
+        options: [
+          "\"According to the national census data...\"",
+          "\"The construction project started in May...\"",
+          "\"In my view, this is a completely useless policy...\"",
+          "\"The library contains over five thousand books...\""
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "\"In my view\" and \"completely useless\" explicitly signal subjective opinion."
+    ),
+
+    QuizQuestion(
+        question: "9. How does an author's choice of words contribute to the meaning of a non-fiction text?",
+        options: [
+          "It only changes the typographical layout of the page.",
+          "It sets the tone, reveals their intentions, and displays their underlying attitude.",
+          "It guarantees that the text contains no factual errors.",
+          "It forces the reader to use a Venn diagram map."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Word choice transmits the author's emotional stance and perspective to the reader."
+    ),
+
+    QuizQuestion(
+        question: "10. If you read an article where the writer states facts but uses an angry tone, what should a skilled Reading Detective do?",
+        options: [
+          "Stop reading the text immediately.",
+          "Separate the factual information from the angry opinions and biases.",
+          "Assume that all the facts listed must be completely false.",
+          "Change the words to make the text sound cheerful."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Balanced critical reading means pulling apart objective facts from emotional delivery."
+    ),
+  ],
+);
 final QuizModel s2ss2Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/s2_ss2_l1/8. Quiz.m4a',
   questions: [
@@ -4057,6 +4191,140 @@ final QuizModel s4ss1Lesson6QuizData = QuizModel(
       difficulty: "Hard",
       explanation:
           "Coherence comes from logical organisation and clear links between ideas.",
+    ),
+  ],
+);
+final QuizModel s4ss2Lesson0QuizData = QuizModel(
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/8. quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. A personal narrative is a text type that describes:",
+        options: [
+          "An imagined future event on another planet.",
+          "A true experience from the writer's own past.",
+          "A set of rules for a local sports club.",
+          "A recipe for making groundnut soup."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Personal narratives focus on real, past personal events."
+    ),
+
+    QuizQuestion(
+        question: "2. Which pronoun are you most likely to see in a first-person narrative?",
+        options: [
+          "He",
+          "They",
+          "I",
+          "She"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "First-person narratives use 'I' to tell the speaker's own story."
+    ),
+
+    QuizQuestion(
+        question: "3. \"The hot, spicy aroma of fresh jollof rice drifted across the yard.\" This sentence appeals to which senses?",
+        options: [
+          "Touch and Sight",
+          "Sound and Taste",
+          "Smell and Taste",
+          "Sound and Touch"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "\"Aroma\" appeals to smell, and \"spicy\" implies taste."
+    ),
+
+    QuizQuestion(
+        question: "4. Which word is a precise verb describing how an action was carried out?",
+        options: [
+          "Did",
+          "Whispered",
+          "Went",
+          "Got"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "\"Whispered\" is a highly precise way of describing speaking quietly."
+    ),
+
+    QuizQuestion(
+        question: "5. Why are connectors of sequence vital in a personal narrative?",
+        options: [
+          "They make the sentences longer.",
+          "They maintain a logical, chronological flow of events for the reader.",
+          "They replace all the verbs in the paragraph.",
+          "They show that the story is formal."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Connectors guide the timeline of the story smoothly."
+    ),
+
+    QuizQuestion(
+        question: "6. In the phrase \"the old school building behind the tall church steeple,\" the bolded text is:",
+        options: [
+          "A first-person pronoun.",
+          "A precise technical verb.",
+          "A prepositional phrase.",
+          "A rhetorical question."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "It uses the preposition 'behind' to clarify the location."
+    ),
+
+    QuizQuestion(
+        question: "7. What should a writer do during the proofreading step?",
+        options: [
+          "Change the entire theme of the story.",
+          "Self-correct grammar, spelling, and punctuation errors.",
+          "Add three more body paragraphs.",
+          "Ask a friend to write a new headline."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Proofreading focuses on mechanical accuracy and self-correction."
+    ),
+
+    QuizQuestion(
+        question: "8. Which sentence creates the most vivid mental picture?",
+        options: [
+          "We had a really good time at the school festival last week.",
+          "The festival was fine and many people came to dance.",
+          "We danced under colourful banners while the dondo drums thudded rhythmically.",
+          "I saw a lot of things when I arrived at the festival ground."
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "It uses specific nouns, active verbs, and rich sensory details."
+    ),
+
+    QuizQuestion(
+        question: "9. If a narrative passage makes the reader feel deep excitement or suspense, it has succeeded in creating an effective:",
+        options: [
+          "Technical layout.",
+          "Audience reaction or emotional effect.",
+          "Formal salutation.",
+          "Note-taking trigger."
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "Good narratives aim to evoke a targeted emotional reaction from the audience."
+    ),
+
+    QuizQuestion(
+        question: "10. Which phrase is an example of an adjective phrase producing a vivid description?",
+        options: [
+          "Running very quickly",
+          "Over the moon",
+          "A shimmering, ice-cold bottle of Sobolo",
+          "Because of the heavy rain"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation: "\"Shimmering, ice-cold\" functions as a rich adjective phrase describing the noun."
     ),
   ],
 );

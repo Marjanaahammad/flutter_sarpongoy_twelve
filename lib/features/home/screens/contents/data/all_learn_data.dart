@@ -141,6 +141,16 @@ final LearnModel s2ss1Lesson3LearnData = LearnModel(parts: [
     audioPath: 'assets/audio/s2_ss1_l3/5. Teach - Part C.m4a',
   ),
 ]);
+final LearnModel s2ss1Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/english jhs1 s2 ss1 l4/partA.jpg',
+    audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/3. partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/english jhs1 s2 ss1 l4/partB.jpg',
+    audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/4. partB.m4a',
+  )
+]);
 final LearnModel s2ss2Lesson1LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/english/s2_ss2_l1/part_a.jpg',
@@ -521,6 +531,20 @@ final LearnModel s4ss1Lesson6LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/english/ENGLISH_JHS1_S4_SS1_L6/partC.jpg',
     audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (3. TEACH - Part C).m4a',
+  ),
+]);
+final LearnModel s4ss2Lesson0LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partA.jpg',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/3. partA.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partB.jpg',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/4. partB.m4a',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partC.jpg',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/5. partC.m4a',
   ),
 ]);
 final LearnModel s4ss2Lesson1LearnData = LearnModel(parts: [

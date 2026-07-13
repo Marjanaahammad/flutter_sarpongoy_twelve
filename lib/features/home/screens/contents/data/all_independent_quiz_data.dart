@@ -572,6 +572,62 @@ final IndependentPracticeModel s2ss1Lesson3IndependentQuizData = IndependentPrac
     ),
   ],
 );
+final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/6. independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following statements from a news article is a verifiable fact?",
+        options: [
+          "Cocoa farming is the most enjoyable job in Ghana.",
+          "Ghana is one of the leading exporters of cocoa beans in the world.",
+          "Every young student should study agricultural science in school.",
+          "Cocoa drinks taste far better than any other beverage."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A fact is a statement that can be checked and verified. Ghana's role as a leading cocoa exporter is a verifiable fact."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If an author writes a letter defending a factory that pollutes a local river but completely avoids mentioning the water pollution, the author is showing:",
+        options: [
+          "Textual evidence",
+          "Accurate sequencing",
+          "Personal visualisations",
+          "Bias by omission"
+        ],
+        correctIndex: 3,
+        difficulty: "Hard",
+        explanation: "Bias by omission happens when important facts are deliberately left out to influence the reader."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Read this statement: \"The headteacher spoke for forty-five minutes at the PTA meeting, which was an incredibly boring presentation.\" Which part of the statement is an opinion?",
+        options: [
+          "The headteacher spoke at a meeting.",
+          "The meeting was a PTA meeting.",
+          "The presentation was incredibly boring.",
+          "The speech lasted for forty-five minutes."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "\"The presentation was incredibly boring\" is an opinion because it expresses a personal judgment rather than a verifiable fact."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When providing a personal response to an article about community sanitation, what must you include to make your response valid?",
+        options: [
+          "A drawing of the setting",
+          "Specific textual evidence to support your views",
+          "A list of typographical features",
+          "The exact number of words in the article"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "A valid personal response should be supported with evidence from the text to justify your opinions."
+    ),
+  ],
+);
 final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss2_l1/7. Independent Practice.m4a',
   questions: [
@@ -2068,6 +2124,75 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
         correctIndex: 1,
         difficulty: "Easy",
         explanation: "B"
+    ),
+  ],
+);
+final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which of the following sentences is written from a first-person point of view?",
+        options: [
+          "Kwesi ran as fast as he could to catch the trotro.",
+          "They decided to visit the Kakum National Park.",
+          "I grabbed my school bag and dashed out the door.",
+          "You must always finish your homework on time."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A first-person point of view uses pronouns like 'I' or 'we'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which word is a precise verb that could replace the underlined word to show someone moving unsteadily: 'The injured player went off the pitch'?",
+        options: [
+          "Staggered",
+          "Ran",
+          "Strode",
+          "Walked"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "'Staggered' is a precise verb that shows unsteady movement, often because of injury or weakness."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Identify the phrase that appeals primarily to the sense of sound.",
+        options: [
+          "The bitter taste of the medicine",
+          "The piercing shriek of the whistle",
+          "The smooth surface of the wooden desk",
+          "The bright red cloth hanging on the wall"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'The piercing shriek of the whistle' appeals to the sense of hearing."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. What is the main goal of the revision stage in narrative writing?",
+        options: [
+          "To copy the text into a completely new notebook.",
+          "To improve the meaning, sensory details, and emotional impact of the text.",
+          "To count how many adjectives you have used.",
+          "To change the story from a true experience to a fictional fairy tale."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Revision improves the content by making the writing clearer, richer, and more engaging."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "5. Which word acts as a connector of sequence to show a sudden change in time?",
+        options: [
+          "Beautifully",
+          "Because",
+          "Instantly",
+          "Although"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Instantly' is a sequence connector that shows something happened immediately or suddenly."
     ),
   ],
 );

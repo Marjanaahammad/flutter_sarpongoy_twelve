@@ -275,6 +275,31 @@ final PracticeModel s2ss1Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel s2ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/5. guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Text: \"The new marketplace in Kumasi was completed in 2024. It features modern stalls and is undoubtedly the absolute best place for any Ghanaian to shop.\n"
+    "Task: Identify one fact and one opinion from this text.",
+      answer: "Correct Answer: Fact: The marketplace was completed in 2024. Opinion: It is the absolute best place for any Ghanaian to shop.",
+      explanation: "Explanation: The completion date can be checked and proven true. Calling it the \"absolute best place\" is a personal judgment that cannot be mathematically proven.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Text: \"Local fishermen are complaining that the big commercial trawlers are destroying their nets. However, the commercial fishing managers argue that they are bringing more revenue into the country.\n"
+    "Task: How do the different viewpoints in this text contribute to its meaning?",
+      answer: "Correct Answer: The text presents a conflict between local livelihood and national revenue.",
+      explanation: "Explanation: By showing both the fishermen's complaints and the managers' financial arguments, the text highlights a complex community issue through differing viewpoints.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Text: \"The regional director stated that closing the community library was a necessary budget adjustment. This cruel decision leaves hundreds of eager children without a quiet place to study.\"\n"
+              "Task: What is the author's attitude toward the library closure, and what is your evidence?",
+      answer: "Correct Answer: The author has a negative, disapproving attitude. The textual evidence is the word choice \"cruel decision.\"",
+      explanation:
+          "Explanation: The word \"cruel\" reveals the author's emotional bias and negative attitude toward the budget adjustment.",
+    ),
+  ],
+);
 final PracticeModel s2ss2Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/s2_ss2_l1/6. Guided Practice.m4a',
   questions: [
@@ -867,6 +892,26 @@ final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
       scenario: "3. Question: Where should the 'Venue' be placed in a notice?",
       answer: "Correct Answer: In the main body, along with the Date and Time.",
       explanation: "Explanation: Essential details like the location (Venue) must be easy to find in the middle of the notice.",
+    ),
+  ],
+);
+final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/6. guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Upgrade the general verb in this sentence to a more precise word that shows someone is walking slowly because they are exhausted: \"Kojo walked into the classroom after the long football match.\"",
+      answer: "Correct Answer: \"Kojo shuffled into the classroom after the long football match.\" (Or: \"staggered\" / \"plodded\")",
+      explanation: "Explanation: Words like \"shuffled\" or \"staggered\" are precise vocabulary options that tell the reader exactly how the action was carried out, conveying fatigue.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify the sensory details in the following sentence and name which sense they appeal to: \"The crunchy, golden-fried plantain chips tasted sweet.\"",
+      answer: "Correct Answer: \"crunchy\" (Touch/Sound), \"golden-fried\" (Sight), \"sweet\" (Taste).",
+      explanation: "Explanation: Advertisers and authors use these exact adjectives to create a real physical reaction in the reader's senses.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Add a prepositional phrase to this sentence to make the physical setting of the narrative clearer: \"We sat down to open our lunch boxes.\"",
+      answer: "Correct Answer: \"We sat down under the cool shade of the mango tree to open our lunch boxes.\"",
+      explanation: "Explanation: Prepositional phrases describe where or when an action takes place, anchoring the scene for the audience.",
     ),
   ],
 );
