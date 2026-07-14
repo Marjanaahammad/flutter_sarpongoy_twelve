@@ -9386,7 +9386,7 @@ final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = Independent
   ],
 );
 final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE) .m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Anansi tries to keep all the wisdom in the world in a pot, but the pot breaks and the wisdom spreads to everyone. What is the theme?",

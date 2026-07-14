@@ -19007,7 +19007,8 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       options: [
         "Tripling and emotive adjectives.",
         "Objective language.",
-        "A flashback."
+        "A flashback.",
+        "A case study"
       ],
       correctIndex: 0,
       difficulty: "High",
@@ -19658,8 +19659,7 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
   ],
 );
 final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
-  audioPath:
-      'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ) .m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the definition of a 'Theme' in literature?",

@@ -1001,7 +1001,7 @@ final GetReadyModel jhs3s4ss3Lesson5GetReadyData = GetReadyModel(
 );
 final GetReadyModel jhs3s4ss3Lesson6GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/english/ENGLISH JHS3 S4 SS3 L6/student_overview.jpg',
-  overviewAudioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 ( 1. Chapter).m4a',
+  overviewAudioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 ( 1. Chapter) .m4a',
   hookImagePath: 'assets/images/english/ENGLISH JHS3 S4 SS3 L6/hook.jpg',
   hookAudioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (2. Hook).m4a',
 );

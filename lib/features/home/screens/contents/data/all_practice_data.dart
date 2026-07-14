@@ -3563,7 +3563,7 @@ final PracticeModel jhs3s4ss3Lesson5PracticeData = PracticeModel(
   ],
 );
 final PracticeModel jhs3s4ss3Lesson6PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (4. GUIDED PRACTICE).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (4. GUIDED PRACTICE) .m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question:  A story describes a girl who works very hard on her farm every day and eventually saves enough money to buy a tractor for her village. What is a likely theme?",
