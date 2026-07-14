@@ -1112,7 +1112,19 @@ flutter:
     - assets/audio/english/english jhs1 s4 ss2 l1/
     - assets/images/english/english jhs1 s4 ss2 l1/
     - assets/audio/english/english jhs1 s2 ss1 l4/
-    - assets/images/english/english jhs1 s2 ss1 l4
+    - assets/images/english/english jhs1 s2 ss1 l4/
+    - assets/audio/english/eng jhs2 s3 ss1 l1/
+    - assets/images/english/eng jhs2 s3 ss1 l1/
+    - assets/audio/english/eng jhs2 s3 ss1 l2/
+    - assets/images/english/eng jhs2 s3 ss1 l2/
+    - assets/audio/english/eng jhs2 s3 ss1 l3/
+    - assets/images/english/eng jhs2 s3 ss1 l3/
+    - assets/audio/english/eng jhs2 s3 ss1 l4/
+    - assets/images/english/eng jhs2 s3 ss1 l4/
+    - assets/audio/english/eng jhs2 s2 ss1 l1/
+    - assets/images/english/eng jhs2 s2 ss1 l1/
+    - assets/audio/english/eng jhs2 s2 ss1 l12/
+    - assets/images/english/eng jhs2 s2 ss1 l12/
 
   #   - images/a_dot_ham.jpeg
 

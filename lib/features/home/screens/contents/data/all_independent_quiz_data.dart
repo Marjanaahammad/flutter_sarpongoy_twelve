@@ -3543,6 +3543,62 @@ final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData = Independent
 );
 
 final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. You are reading a text about \"The Smelting of Iron at Tatale.\" Which detail would create the strongest visual image in your mind?",
+        options: [
+          "Iron ore has been mined for many decades.",
+          "The process takes place in different regions of the country.",
+          "Red-hot, liquid iron flows out of the clay furnace like glowing lava.",
+          "The workers are paid at the end of every week."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The description of red-hot iron flowing like glowing lava creates the strongest mental image."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. If you are monitoring your understanding and realize you do not know the basic facts of a paragraph, what should you do?",
+        options: [
+          "Read faster to get to the end of the chapter.",
+          "Stop, re-read the section closely to find the basic information, and fix your mental picture.",
+          "Close the app and guess the answers.",
+          "Skip to the summary table at the back."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Good readers monitor their understanding by stopping and rereading when something is unclear."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Text: \"To stop coastal erosion in Keta, the government constructed a massive sea defense wall. They placed thousands of heavy, interlocking volcanic rocks along the shoreline to break the force of the giant Atlantic waves.\" Which is a complex detail explaining how the wall works?",
+        options: [
+          "The wall is located along the shoreline in Keta.",
+          "The government funded the project.",
+          "Heavy, interlocking volcanic rocks break the force of the giant waves.",
+          "Keta is near the Atlantic Ocean."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "This option explains the mechanism by which the sea defense wall reduces wave energy."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is underlining main ideas a helpful strategy when reading non-fiction?",
+        options: [
+          "It makes the text look colourful on your iPad screen.",
+          "It highlights the core ideas so you can track how the text is structured.",
+          "It allows you to skip reading the sentences that are not underlined.",
+          "It helps you memorize the page numbers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Underlining main ideas helps readers identify and organize the most important information."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3598,7 +3654,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3654,7 +3710,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3710,7 +3766,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3766,7 +3822,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3822,7 +3878,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3878,7 +3934,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3934,7 +3990,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -3990,7 +4046,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -4046,7 +4102,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s2ss1Lesson11IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -4102,8 +4158,288 @@ final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = Independen
     ),
   ],
 );
+final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l12/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. What should you do with examples and stories when writing an objective summary of a paragraph?",
+        options: [
+          "Copy them down exactly as they are written.",
+          "Leave them out because they are supporting details, not the main idea.",
+          "Make them longer by adding your own details.",
+          "Write them in capital letters."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A summary includes only the main ideas. Supporting examples and stories are usually omitted."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Passage: \"Traditional agriculture remains vital to Ghana's economy. Cocoa farming alone employs over eight hundred thousand farmers, while crops like cassava, yams, and plantains feed millions of families across the sixteen regions.\" What is the best central idea of this text?",
+        options: [
+          "Cassava is a delicious food used for making fufu.",
+          "Ghana has exactly sixteen administrative regions.",
+          "Traditional farming is a crucial part of Ghana's economy and food supply.",
+          "Cocoa is exported to other countries to make chocolate."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The paragraph focuses on the importance of traditional agriculture to Ghana's economy and food security."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Why should you use your own words when writing a summary?",
+        options: [
+          "To change the meaning of what the author wrote.",
+          "To show that you understand the main ideas.",
+          "To make the summary longer than the original text.",
+          "To practise creative writing skills."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Using your own words demonstrates that you understand the author's main ideas."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which detail from a passage about the Akosombo Dam is unnecessary for a short summary paragraph?",
+        options: [
+          "The dam generates electricity for Ghana.",
+          "The construction of the dam created the Volta Lake.",
+          "The chief engineer wore a blue hardhat on opening day.",
+          "The dam is located in the Eastern Region."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The engineer's hardhat is an unimportant detail that does not contribute to the main ideas of a summary."
+    ),
+  ],
+);
 
 final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l1/7. independent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The market women bought several new ________ to store their items.",
+        options: [
+          "toolboxes",
+          "toolsbox",
+          "toolboxex",
+          "toolsboxes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The correct plural of 'toolbox' is 'toolboxes'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Three ________ were direct witnesses to the trotro accident at the intersection.",
+        options: [
+          "passers-by",
+          "passer-bys",
+          "passers-bys",
+          "passer-byes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "In the compound noun 'passer-by', the main noun 'passer' takes the plural form: 'passers-by'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of the following sentences uses the correct plural form of an open compound noun?",
+        options: [
+          "All the bus drivers went on strike today.",
+          "All the buses driver went on strike today.",
+          "All the buses drivers went on strike today.",
+          "All the bus driverses went on strike today."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The correct plural compound noun is 'bus drivers'."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. My two ________ gathered at our family house for the Akwasidae festival.",
+        options: [
+          "brothers-in-laws",
+          "brother-in-laws",
+          "brothers-in-law",
+          "brothers-ins-law"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The correct plural of 'brother-in-law' is 'brothers-in-law'."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l2/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. The carpenter ________ repaired our school desks did an excellent job.",
+        options: [
+          "which",
+          "whom",
+          "whose",
+          "who"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Who' is the correct relative pronoun because it refers to the subject (the carpenter)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. This is the bicycle ________ my father bought for me from the market.",
+        options: [
+          "who",
+          "that",
+          "whom",
+          "whose"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'That' correctly introduces a relative clause referring to a thing (the bicycle)."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. The farmer, ________ tractor broke down yesterday, had to walk to his farm.",
+        options: [
+          "whose",
+          "which",
+          "that",
+          "who"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "'Whose' shows possession, indicating that the tractor belongs to the farmer."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Choose the correct relative pronoun to join these sentences: 'I found the key. It was lost.'",
+        options: [
+          "I found the key who was lost.",
+          "I found the key whom was lost.",
+          "I found the key whose was lost.",
+          "I found the key that was lost."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'That' is the correct relative pronoun for referring to the thing (the key)."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l3/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which sentence uses an adjective to describe a rural setting?",
+        options: [
+          "We walked through a noisy, congested street.",
+          "We walked through a green, peaceful valley.",
+          "We walked through a tall, concrete plaza.",
+          "We walked through a crowded, dark alleyway."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Green' and 'peaceful' are adjectives that describe a typical rural setting."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Identify the sentence that contrasts opposing sides using precise adjectives.",
+        options: [
+          "The tall player passed the football to the other tall player.",
+          "The aggressive attackers struggled against the disciplined defenders.",
+          "The football match was played on a large, grassy field.",
+          "Both teams wanted to win the championship trophy."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "'Aggressive' and 'disciplined' are precise adjectives that clearly contrast the two opposing sides."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. \"The chief sat majestically on a ________ stool.\" Choose the most appropriate material adjective.",
+        options: [
+          "heavy",
+          "golden",
+          "historic",
+          "beautiful"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Golden' is a material adjective describing what the stool is made of or its material appearance."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. In the sentence, \"The traditional priest wore a smock made of coarse fabric,\" the word \"coarse\" describes the:",
+        options: [
+          "Priest",
+          "Smock",
+          "Fabric",
+          "Traditional"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Coarse' describes the texture of the fabric, making 'fabric' the correct answer."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l4/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Choose the future progressive form to complete the sentence: \"At this time tomorrow, we ________ our final English exam.\"",
+        options: [
+          "will write",
+          "will be writing",
+          "will have written",
+          "will have been writing"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The future progressive ('will be writing') describes an action that will be in progress at a specific time in the future."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"By the time the headteacher arrives, the students ________ cleaning the compound.\" Fill in the blank with the future perfect form.",
+        options: [
+          "will have finished",
+          "will be finishing",
+          "shall finish",
+          "will have been finishing"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The future perfect ('will have finished') shows an action that will be completed before another future event."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Identify the tense of the bolded verb: \"By December, Ama will have been working at the bank for a whole year.\"",
+        options: [
+          "Future simple",
+          "Future progressive",
+          "Future perfect",
+          "Future perfect progressive"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "'Will have been working' is in the future perfect progressive tense because it emphasizes the duration of an action up to a future point."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Which sentence uses the future simple form correctly?",
+        options: [
+          "I will traveling to Kumasi next week.",
+          "I will travel to Kumasi next week.",
+          "I will have traveling to Kumasi next week.",
+          "I will be traveled to Kumasi next week."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The future simple tense is formed with 'will + base verb': 'will travel'."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs2s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -4159,7 +4495,7 @@ final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -4215,7 +4551,7 @@ final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -4271,7 +4607,7 @@ final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(

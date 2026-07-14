@@ -1460,6 +1460,28 @@ final PracticeModel jhs2s1ss3Lesson3PracticeData = PracticeModel(
 );
 
 final PracticeModel jhs2s2ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"Deep in the Kakum National Park, engineers built a narrow canopy walkway suspended one hundred feet above the forest floor. "
+          "The walkway consists of sturdy wooden planks held together by thick nets, connected tightly between giant, ancient silk-cotton trees.\n"
+    "Question: Describe the mental picture this text creates in your mind.",
+      answer: "Correct Answer: I see a high, narrow bridge made of wood and safety nets hanging way up in the air, connecting huge green trees together.",
+      explanation: "Explanation: This description uses the sensory and structural details in the text (narrow walkway, one hundred feet high, thick nets, giant trees) to build a clear visual image.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the basic information provided in the Kakum text, and what is the more complex engineering detail?",
+      answer: "Correct Answer: The basic information is that there is a canopy walkway in Kakum National Park. The complex detail is that it is suspended one hundred feet high using planks, nets, and giant silk-cotton trees.",
+      explanation: "Explanation: Monitoring requires separating the simple fact that the walkway exists from the structural details of how it was built.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why does the author use the words \"suspended one hundred feet above the forest floor\"? How does this add to the meaning?",
+      answer: "Correct Answer: It adds meaning by showing how high and thrilling the walkway is, which helps the reader picture the danger or excitement of walking on it.",
+      explanation: "Explanation: Explaining how specific phrases add meaning shows an active interaction with the text's purpose.",
+    ),
+  ],
+);
+final PracticeModel jhs2s2ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1479,7 +1501,7 @@ final PracticeModel jhs2s2ss1Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson2PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson3PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1501,7 +1523,7 @@ final PracticeModel jhs2s2ss1Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson3PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson4PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1521,7 +1543,7 @@ final PracticeModel jhs2s2ss1Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson4PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1544,7 +1566,7 @@ final PracticeModel jhs2s2ss1Lesson4PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson6PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1565,7 +1587,7 @@ final PracticeModel jhs2s2ss1Lesson5PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson6PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson7PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1587,7 +1609,7 @@ final PracticeModel jhs2s2ss1Lesson6PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson7PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson8PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1608,7 +1630,7 @@ final PracticeModel jhs2s2ss1Lesson7PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson8PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson9PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1629,7 +1651,7 @@ final PracticeModel jhs2s2ss1Lesson8PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson9PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1649,7 +1671,7 @@ final PracticeModel jhs2s2ss1Lesson9PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
+final PracticeModel jhs2s2ss1Lesson11PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1669,8 +1691,109 @@ final PracticeModel jhs2s2ss1Lesson10PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel jhs2s2ss1Lesson12PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l12/6. guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Passage: \"The JHS 2 students decided to start a recycling project at school. They collected plastic water bottles, pure water sachets, and old cardboard boxes every Friday afternoon to keep the compound clean.\"\n"
+          "Question: What is the central idea of this passage?",
+      answer: "Correct Answer: The JHS 2 students started a school recycling project to keep their campus clean.",
+      explanation: "Explanation: This states the main purpose and action without listing every single item collected.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Identify the unnecessary information in the passage that should be eliminated from a summary.",
+      answer: "Correct Answer: The list of specific items (\"plastic water bottles, pure water sachets, and old cardboard boxes\") and the specific time (\"every Friday afternoon\").",
+      explanation: "Explanation: These are minor details that support the main point but are not essential for the core summary.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Summarize this sentence in your own words: \"The Headteacher praised the students for their incredible dedication to the environment.\"",
+      answer: "Correct Answer: The school leader commended the pupils for protecting nature.",
+      explanation: "Explanation: This expresses the exact same meaning using different words (Headteacher -> school leader, praised -> commended, students -> pupils).",
+    ),
+  ],
+);
 
 final PracticeModel jhs2s3ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l1/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Change the compound noun in this sentence to a plural form: \"The headteacher attended the meeting.\"",
+      answer: "Correct Answer: The headteachers attended the meeting.",
+      explanation: "Explanation: \"Headteacher\" is a closed compound noun, so we simply add the plural suffix \"-s\" to the very end of the word.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: What is the correct plural form of the open compound noun \"washing machine\"?",
+      answer: "Correct Answer: Washing machines",
+      explanation: "Explanation: The principal word is \"machine\" because \"washing\" describes the type of machine it is. Therefore, we add the \"-s\" to \"machine.\"",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: If more than one runner-up received a prize at the school sports festival, how do we write the plural form?",
+      answer: "Correct Answer: Runners-up",
+      explanation: "Explanation: The word \"runner\" is the principal noun in this hyphenated compound, so the plural marker \"-s\" must be attached directly to it, making it \"runners-up\".",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l2/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Combine these two thoughts using the correct relative pronoun: \"The lady is a doctor. She lives next door.\"",
+      answer: "Correct Answer: The lady who lives next door is a doctor.",
+      explanation: "Explanation: Because \"the lady\" is a human being and the subject of the clause, we use the relative pronoun who to link the descriptions.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Fill in the blank with the right pronoun: \"The textbook _______ I bought at the shop has missing pages.\"",
+      answer: "Correct Answer: which / that",
+      explanation: "Explanation: A textbook is a non-human entity (an object), so we must use either which or that to describe it.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify the error in this sentence: \"The dog who barked all night belongs to Mr Mensah.\"",
+      answer: "Correct Answer: The word \"who\" should be replaced with \"which\" or \"that.\"",
+      explanation: "Explanation: We use who exclusively for human beings. Since a dog is an animal, it requires a non-human relative pronoun like which or that.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l3/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: In the sentence, \"The urban streets were completely clogged with trotros,\" identify the adjectives and state what they describe.",
+      answer: "Correct Answer: \"Urban\" describes the type of setting (the streets), and \"clogged\" describes the condition of those streets.",
+      explanation: "Explanation: Both words provide specific details about the noun \"streets,\" helping to establish a busy city environment.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Look at this sentence: \"The forward line of the visiting team faced a fierce and impenetrable defence.\" What do these adjectives tell us about the opposing sides?",
+      answer: "Correct Answer: They describe the strength and intensity of the defending side.",
+      explanation: "Explanation: \"Fierce\" and \"impenetrable\" modify the noun \"defence,\" illustrating how difficult it was for the opposing attackers to score.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: How can we improve this sentence using a material adjective: \"Abena bought a bag from the market\"?",
+      answer: "Correct Answer: Abena bought a leather bag from the market. (Or any other material adjective like straw, canvas, etc.)",
+      explanation: "Explanation: Adding the word \"leather\" specifies the material of the bag, making the description concrete.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l4/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Identify the future tense used in this statement: \"By next September, Abena will have completed her junior high school education.\"",
+      answer: "Correct Answer: Future Perfect",
+      explanation: "Explanation: The sentence uses the structure will have completed to show an action that will be finished before a specific future time (next September), making it future perfect.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Change the verb in the sentence \"Kofi plays football\" into the future progressive form to show he will be mid-action tomorrow afternoon.",
+      answer: "Correct Answer: Kofi will be playing football.",
+      explanation: "Explanation: The future progressive requires will be combined with the \"-ing\" verb form to show an ongoing action in the future.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Look at this sentence: \"By midnight, the driver will have been driving the trotro for six hours.\" What does this specific verb form tell us?",
+      answer: "Correct Answer: It emphasizes the continuous duration of the driving up until that future midnight deadline.",
+      explanation: "Explanation: The combination of will have been driving indicates a future perfect progressive action focused on ongoing time.",
+    ),
+  ],
+);
+final PracticeModel jhs2s3ss1Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1690,7 +1813,7 @@ final PracticeModel jhs2s3ss1Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s3ss1Lesson2PracticeData = PracticeModel(
+final PracticeModel jhs2s3ss1Lesson6PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1710,7 +1833,7 @@ final PracticeModel jhs2s3ss1Lesson2PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s3ss1Lesson3PracticeData = PracticeModel(
+final PracticeModel jhs2s3ss1Lesson7PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -1730,7 +1853,7 @@ final PracticeModel jhs2s3ss1Lesson3PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs2s3ss1Lesson4PracticeData = PracticeModel(
+final PracticeModel jhs2s3ss1Lesson8PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(

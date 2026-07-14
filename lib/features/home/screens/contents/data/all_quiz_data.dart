@@ -7202,6 +7202,140 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
+        question: "1. What is the main goal of mental visualisation?",
+        options: [
+          "To memorize every single word in a text.",
+          "To create pictures or a \"movie\" in your mind to aid understanding.",
+          "To count how many adjectives the author used.",
+          "To guess the name of the author's home town."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Visualisation transforms descriptive text into cognitive mental images."
+    ),
+
+    QuizQuestion(
+        question: "2. When monitoring a text, what should you look for first?",
+        options: [
+          "The most difficult vocabulary words.",
+          "The basic information, such as the core topic and setting.",
+          "The page numbers and chapters.",
+          "The bibliography at the end."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Comprehension builds from basic facts up to complex concepts."
+    ),
+
+    QuizQuestion(
+        question: "3. Which sentence contains the most descriptive words to help you form a mental picture?",
+        options: [
+          "The agriculture sector is very important.",
+          "Farmers grow crops in many districts.",
+          "Golden-yellow, ripe pineapples sat stacked in high pyramids under the thatched market stall.",
+          "Production increased by five percent last year."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Adjectives like golden-yellow, ripe, and high pyramids trigger sensory imagery."
+    ),
+
+    QuizQuestion(
+        question: "4. If a text introduces a complex scientific process, a master reader will:",
+        options: [
+          "Skip the paragraph entirely.",
+          "Ensure they understand the basic terms before analyzing the detailed steps.",
+          "Read the paragraph backwards to test their focus.",
+          "Assume the information is not important for the quiz."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Monitoring means managing cognitive load by step-by-step understanding."
+    ),
+
+    QuizQuestion(
+        question: "5. A text states: \"The Kejetia market was a sea of moving heads, bright umbrellas, and loud arguments.\" What is the main idea being added to the text's meaning?",
+        options: [
+          "The market is located in Kumasi.",
+          "The market was incredibly crowded, vibrant, and busy.",
+          "Umbrellas are necessary because it is raining.",
+          "People are angry at the market."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The visual metaphors add up to a meaning of high density and activity."
+    ),
+
+    QuizQuestion(
+        question: "6. What does \"meaningful interaction with text\" mean?",
+        options: [
+          "Turning the iPad screen on and off quickly.",
+          "Actively thinking, questioning, and visualizing while reading.",
+          "Copying the text onto a piece of paper without thinking.",
+          "Reading while listening to loud music."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Active engagement prevents passive reading and boosts recall."
+    ),
+
+    QuizQuestion(
+        question: "7. You read: \"The dry Harmattan wind blew fine, white dust across the savannah, making everyone's skin dry and itchy.\" Which sense is targeted by \"dry and itchy skin\"?",
+        options: [
+          "Sight",
+          "Touch/Feeling",
+          "Hearing",
+          "Taste"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Itchy skin is a tactile, physical sensation."
+    ),
+
+    QuizQuestion(
+        question: "8. When moving from basic to complex information, complex information usually explains:",
+        options: [
+          "The font style used in the book.",
+          "The 'how' and 'why' behind the basic facts.",
+          "The name of the main character only.",
+          "The total word count of the text."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Complex information deepens understanding by adding mechanics, causes, and structures."
+    ),
+
+    QuizQuestion(
+        question: "9. If your mental movie of a text becomes confused or blank, this is a sign that:",
+        options: [
+          "Your iPad is broken.",
+          "You need to pause, monitor your understanding, and re-read the last clear section.",
+          "The book is not worth reading.",
+          "You should read the text out loud as fast as possible."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "A broken mental image indicates a breakdown in comprehension that requires remediation."
+    ),
+
+    QuizQuestion(
+        question: "10. How do underlined main ideas \"add to meaning\" in a non-fiction text?",
+        options: [
+          "They make the summary much longer than necessary.",
+          "They show the logical connection between the different steps or points in the text.",
+          "They replace the need to look at diagrams.",
+          "They tell you which words are nouns."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Underlining main ideas exposes the structural framework of the text's argument."
+    ),
+  ],
+);
+final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
       question:
           "1. Which of these is the best definition of prediction in reading?",
       options: [
@@ -7342,7 +7476,7 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -7474,7 +7608,7 @@ final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson3QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -7590,7 +7724,7 @@ final QuizModel jhs2s2ss1Lesson3QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson4QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -7699,7 +7833,7 @@ final QuizModel jhs2s2ss1Lesson4QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson5QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson6QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -7834,7 +7968,7 @@ final QuizModel jhs2s2ss1Lesson5QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson6QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson7QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -7965,7 +8099,7 @@ final QuizModel jhs2s2ss1Lesson6QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson7QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson8QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8099,7 +8233,7 @@ final QuizModel jhs2s2ss1Lesson7QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson8QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson9QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8234,7 +8368,7 @@ final QuizModel jhs2s2ss1Lesson8QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson9QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson10QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8344,7 +8478,7 @@ final QuizModel jhs2s2ss1Lesson9QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s2ss1Lesson10QuizData = QuizModel(
+final QuizModel jhs2s2ss1Lesson11QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8460,8 +8594,677 @@ final QuizModel jhs2s2ss1Lesson10QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. The central idea of a paragraph is:",
+        options: [
+          "The very first word of the text.",
+          "The most important message or main point the author wants to convey.",
+          "A list of all the difficult vocabulary words.",
+          "The name of the person who printed the book."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The central idea represents the core focus of the writing."
+    ),
+
+    QuizQuestion(
+        question: "2. When writing a summary, you must eliminate:",
+        options: [
+          "All verbs and nouns.",
+          "Unnecessary information like minor details and repetitive examples.",
+          "The title of the text.",
+          "Your own name."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Summaries filter out decorative text to present only the key points."
+    ),
+
+    QuizQuestion(
+        question: "3. Stating details \"in your own words\" means you:",
+        options: [
+          "Translate the text into a different language entirely.",
+          "Paraphrase the author's ideas using your own sentence structure and vocabulary.",
+          "Make up completely new facts that are not in the text.",
+          "Skip the parts you do not know how to write."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Paraphrasing demonstrates processing and comprehension."
+    ),
+
+    QuizQuestion(
+        question: "4. \"Kofi woke up early, washed his uniform, polished his shoes, packed his notebooks, and walked quickly to school.\" What is the central idea?",
+        options: [
+          "Kofi washed his uniform carefully.",
+          "Kofi prepared himself and went to school.",
+          "Kofi has very clean shoes.",
+          "Kofi likes to walk instead of taking a tro-tro."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Going to school is the primary action that connects all the preparatory tasks."
+    ),
+
+    QuizQuestion(
+        question: "5. An objective summary should never include:",
+        options: [
+          "The main idea of the author.",
+          "Supporting evidence from the text.",
+          "Your personal opinion or bias about the topic.",
+          "Key terms from the passage."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Objective summaries must remain completely neutral and factual."
+    ),
+
+    QuizQuestion(
+        question: "6. Which of the following is considered \"unnecessary information\" in a text about cocoa production?",
+        options: [
+          "The total tons of cocoa exported annually.",
+          "A story about a specific farmer's dog named Bobby.",
+          "The economic impact of cocoa on national revenue.",
+          "The main regions where cocoa grows successfully."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "A personal story about a pet is an anecdotal detail that does not change the core topic."
+    ),
+
+    QuizQuestion(
+        question: "7. Where is the central idea of a paragraph most frequently located?",
+        options: [
+          "In the glossary at the back.",
+          "In a footnote at the bottom.",
+          "In the topic sentence at or near the beginning.",
+          "In the list of image captions."
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Topic sentences serve to introduce the main thought of the paragraph."
+    ),
+
+    QuizQuestion(
+        question: "8. Read this sentence: \"The market women protect their fresh vegetables from the blazing afternoon sun by using large umbrellas.\" Summarize this in your own words.",
+        options: [
+          "Umbrellas are sold in large numbers at the market.",
+          "Traders shield their produce from solar heat.",
+          "The sun is very dangerous in the afternoon.",
+          "Vegetables rot quickly without an umbrella."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "This accurately preserves the meaning while replacing vocabulary appropriately."
+    ),
+
+    QuizQuestion(
+        question: "9. If a summary is just as long as the original passage, what went wrong?",
+        options: [
+          "The student forgot to eliminate unnecessary details.",
+          "The student used too many synonyms.",
+          "The author wrote a very short book.",
+          "The student wrote in their own words."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Failure to filter out non-essential information keeps the text at its original length."
+    ),
+
+    QuizQuestion(
+        question: "10. Analyzing supporting ideas helps you to:",
+        options: [
+          "Figure out who the publisher is.",
+          "Understand how the author builds and proves the central idea.",
+          "Find the page numbers faster.",
+          "Avoid reading the whole paragraph."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Supporting ideas act as the structural pillars for the central thesis."
+    ),
+  ],
+);
 
 final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What is the correct plural form of the closed compound noun \"sunflower\"?",
+        options: [
+          "sunflowers",
+          "sunflower",
+          "sunsflowers",
+          "sunfloweres"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Closed compounds take the plural ending at the very end of the word."
+    ),
+
+    QuizQuestion(
+        question: "2. Identify the correct plural form: \"The office hired two new ________.\"",
+        options: [
+          "data analysts",
+          "datas analyst",
+          "data analystes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "\"Analyst\" is the principal noun, so it receives the plural suffix."
+    ),
+
+    QuizQuestion(
+        question: "3. Choose the sentence that contains a grammatically correct plural hyphenated noun.",
+        options: [
+          "We watched the beautiful sunsets-by the beach.",
+          "The commanders-in-chief held an emergency meeting.",
+          "He bought two new record-breakers players.",
+          "The runner-ups were given silver medals."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "\"Commander\" is the principal noun, so it correctly becomes \"commanders-in-chief\"."
+    ),
+
+    QuizQuestion(
+        question: "4. What is the plural form of \"post office\"?",
+        options: [
+          "posts office",
+          "post offices",
+          "posts offices",
+          "post officees"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "\"Office\" is the main noun being described, so it takes the plural \"-s.\""
+    ),
+
+    QuizQuestion(
+        question: "5. \"The compound was filled with dead ________.\" Fill in the blank.",
+        options: [
+          "rose-bushes",
+          "roses-bush",
+          "rose-bush",
+          "roses-bushes"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "\"Bush\" is the principal noun, which takes \"-es\" to form the plural \"bushes.\""
+    ),
+
+    QuizQuestion(
+        question: "6. Select the correct plural form for the word \"looker-on\".",
+        options: [
+          "looker-ons",
+          "lookers-on",
+          "lookers-ons",
+          "looker-ones"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "\"Looker\" is the noun performing the action, so it becomes \"lookers-on.\""
+    ),
+
+    QuizQuestion(
+        question: "7. \"All our ________ are clean and ready for the journey.\"",
+        options: [
+          "travel bags",
+          "travels bag",
+          "travels bags",
+          "travel bagges"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "\"Bag\" is the main item, making \"travel bags\" correct."
+    ),
+
+    QuizQuestion(
+        question: "8. Which of these is the correct plural spelling for \"blackboard\"?",
+        options: [
+          "blackboards",
+          "blacksboard",
+          "blackboardes",
+          "blacksboards"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "As a solid compound noun, the plural suffix goes at the end."
+    ),
+
+    QuizQuestion(
+        question: "9. \"We need to invite all the ________ to the family meeting.\"",
+        options: [
+          "sister-in-laws",
+          "sisters-in-law",
+          "sisters-in-laws",
+          "sister-in-law"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "\"Sister\" is the primary noun that must be pluralised."
+    ),
+
+    QuizQuestion(
+        question: "10. What is the plural form of the open compound \"ice cream\"?",
+        options: [
+          "ices cream",
+          "ice creams",
+          "ices creams",
+          "ice creames"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "\"Cream\" is the principal word modified by \"ice,\" so it takes the plural ending."
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. \"The woman ________ sells the sweet waakye is very friendly.\"",
+        options: [
+          "which",
+          "whose",
+          "who",
+          "that"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "The clause describes a human subject, so who is correct."
+    ),
+
+    QuizQuestion(
+        question: "2. \"The house ________ roof was destroyed by the storm belongs to the chief.\"",
+        options: [
+          "whose",
+          "who",
+          "which",
+          "that"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Whose indicates the house's possession of the roof."
+    ),
+
+    QuizQuestion(
+        question: "3. Which pronoun correctly completes this sentence: \"The pen ________ you lent me writes smoothly\"?",
+        options: [
+          "who",
+          "whom",
+          "whose",
+          "which"
+        ],
+        correctIndex: 3,
+        difficulty: "Low",
+        explanation: "A pen is an object, so it requires which."
+    ),
+
+    QuizQuestion(
+        question: "4. \"The children ________ came to the party played many games.\"",
+        options: [
+          "which",
+          "who",
+          "whose",
+          "whom"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Who is used for human plural subjects like children."
+    ),
+
+    QuizQuestion(
+        question: "5. Identify the correct sentence that joins: \"The phone is expensive. It is on the table.\"",
+        options: [
+          "The phone who is on the table is expensive.",
+          "The phone that is on the table is expensive.",
+          "The phone whom is on the table is expensive.",
+          "The phone whose is on the table is expensive."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "That correctly introduces the clause for the non-human object."
+    ),
+
+    QuizQuestion(
+        question: "6. \"The fisherman ________ boat capsized was saved by the villagers.\"",
+        options: [
+          "who",
+          "that",
+          "whose",
+          "which"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The boat belonged to the fisherman, requiring the possessive whose."
+    ),
+
+    QuizQuestion(
+        question: "7. \"I saw the elephant ________ escaped from the Mole National Park.\"",
+        options: [
+          "who",
+          "whom",
+          "which",
+          "whose"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Animals are categorized as non-human entities, requiring which."
+    ),
+
+    QuizQuestion(
+        question: "8. \"The uniform ________ I wore yesterday is now in the washing machine.\"",
+        options: [
+          "that",
+          "who",
+          "whom",
+          "whose"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "That is appropriate for an item of clothing."
+    ),
+
+    QuizQuestion(
+        question: "9. \"The driver ________ the police stopped was driving too fast.\"",
+        options: [
+          "which",
+          "whom",
+          "whose",
+          "that"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The driver is the object receiving the action of the police stopping them, making whom correct."
+    ),
+
+    QuizQuestion(
+        question: "10. Find the correct way to join: \"We love stories. They have happy endings.\"",
+        options: [
+          "We love stories who have happy endings.",
+          "We love stories whom have happy endings.",
+          "We love stories whose have happy endings.",
+          "We love stories that have happy endings."
+        ],
+        correctIndex: 3,
+        difficulty: "High",
+        explanation: "Stories are non-human concepts, so that joins the independent thoughts properly."
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. Which adjective best describes a serene setting?",
+        options: [
+          "Bustling",
+          "Peaceful",
+          "Industrial",
+          "Rowdy"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "\"Peaceful\" directly aligns with the calm nature of a serene environment."
+    ),
+
+    QuizQuestion(
+        question: "2. Identify the material adjective in this sentence: \"She packed the smoked tilapia into a plastic container.\"",
+        options: [
+          "Smoked",
+          "Tilapia",
+          "Plastic",
+          "Container"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "\"Plastic\" describes the physical material that the container is made of."
+    ),
+
+    QuizQuestion(
+        question: "3. \"The captain of the local team had a ________ expression, while the visiting captain looked terrified.\" Fill in the blank to contrast the opposing sides.",
+        options: [
+          "confident",
+          "tall",
+          "young",
+          "Ghanaian"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "\"Confident\" contrasts directly with the opponent's \"terrified\" expression."
+    ),
+
+    QuizQuestion(
+        question: "4. Which sentence describes an urban environment using precise adjectives?",
+        options: [
+          "The remote village had small mud houses.",
+          "The dense forest was full of ancient trees.",
+          "The crowded metropolis was filled with towering skyscrapers.",
+          "The calm beach was empty at sunrise."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "\"Crowded\" and \"towering\" accurately depict the characteristics of a city metropolis."
+    ),
+
+    QuizQuestion(
+        question: "5. In the text, \"The dancer wore a vibrant and flowery dress,\" the bolded words are describing a:",
+        options: [
+          "Participant",
+          "Material/Object",
+          "Setting",
+          "Conflict"
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The adjectives modify \"dress,\" which is a textile object worn by the participant."
+    ),
+
+    QuizQuestion(
+        question: "6. \"The two debate teams faced each other; one was exceptionally eloquent while the other was completely unprepared.\" The bolded words describe:",
+        options: [
+          "Opposing sides",
+          "Physical materials",
+          "Geographic settings",
+          "Spatial locations"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The terms compare the capabilities of the two competing groups."
+    ),
+
+    QuizQuestion(
+        question: "7. Find the sentence that uses a textile adjective correctly.",
+        options: [
+          "He bought a new electronic device.",
+          "She purchased a smooth silk scarf.",
+          "They walked along a rocky pathway.",
+          "We stayed in a very quiet room."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "\"Silk\" is a specific textile/fabric used to describe the scarf."
+    ),
+
+    QuizQuestion(
+        question: "8. \"We spent our holidays in a secluded and picturesque coastal village.\" These adjectives describe a:",
+        options: [
+          "Material item",
+          "Rival group",
+          "Rural setting",
+          "Corporate building"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "\"Secluded\" and \"picturesque\" establish a descriptive rural/natural background scene."
+    ),
+
+    QuizQuestion(
+        question: "9. Identify the word functioning as an adjective here: \"The wooden bridge broke under the weight of the truck.\"",
+        options: [
+          "Bridge",
+          "Weight",
+          "Wooden",
+          "Truck"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "\"Wooden\" specifies the material of the bridge, acting as an adjective."
+    ),
+
+    QuizQuestion(
+        question: "10. \"The bushy-haired wrestler easily overpowered his bald opponent.\" What are these adjectives highlighting?",
+        options: [
+          "The location of the match",
+          "The contrasting features of opposing participants",
+          "The value of the championship prize",
+          "The material composition of the ring"
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "They describe the physical head features of the two opposing athletes."
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. \"Next week, the president ________ the new school block.\" Use the future simple form.",
+        options: [
+          "will open",
+          "will be opening",
+          "will have opened",
+          "will have been opening"
+        ],
+        correctIndex: 0,
+        difficulty: "Low",
+        explanation: "Will open represents a straightforward future action."
+    ),
+
+    QuizQuestion(
+        question: "2. Identify the future progressive sentence:",
+        options: [
+          "They will visit the Kejetia Market.",
+          "They will be visiting the Kejetia Market.",
+          "They will have visited the Kejetia Market.",
+          "They will have been visiting the Kejetia Market."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Will be visiting shows a continuous action in future time."
+    ),
+
+    QuizQuestion(
+        question: "3. \"By six o'clock, Esi ________ cooking the jollof rice.\" Fill in the blank using the future perfect tense.",
+        options: [
+          "will cook",
+          "will be cooking",
+          "will have cooked",
+          "will have been cooking"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Will have cooked shows the action will be complete before the six o'clock deadline."
+    ),
+
+    QuizQuestion(
+        question: "4. What is the verb structure for the future perfect progressive tense?",
+        options: [
+          "will + base verb",
+          "will be + verb-ing",
+          "will have + past participle",
+          "will have been + verb-ing"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "Option D shows the correct combination of auxiliary elements for this continuous aspect."
+    ),
+
+    QuizQuestion(
+        question: "5. \"We shall be doing our homework when you return.\" The bolded verb is in the:",
+        options: [
+          "Future simple",
+          "Future progressive",
+          "Future perfect",
+          "Future perfect progressive"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Shall be doing matches the future progressive structure."
+    ),
+
+    QuizQuestion(
+        question: "6. \"By next month, my father ________ this old tractor for ten years.\" Use the future perfect progressive form.",
+        options: [
+          "will have been using",
+          "will be using",
+          "will have used",
+          "will use"
+        ],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "This form properly matches the duration marker \"for ten years\" looking up to a future point."
+    ),
+
+    QuizQuestion(
+        question: "7. Select the future perfect sentence:",
+        options: [
+          "Yaw will clear the weeds.",
+          "Yaw will be clearing the weeds.",
+          "Yaw will have cleared the weeds.",
+          "Yaw will have been clearing the weeds."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Will have cleared represents a completed action in the future."
+    ),
+
+    QuizQuestion(
+        question: "8. \"I will wash my clothes tonight.\" What type of future event does this describe?",
+        options: [
+          "A completed future milestone",
+          "An ongoing duration of time",
+          "A simple action happening later",
+          "A continuous process in the morning"
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "This is a future simple structure stating a basic intention or upcoming act."
+    ),
+
+    QuizQuestion(
+        question: "9. Complete the sentence: \"They ________ for three hours by the time the bus arrives.\"",
+        options: [
+          "will wait",
+          "will be waiting",
+          "will have been waiting",
+          "will have waited"
+        ],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "The presence of a duration (\"for three hours\") ending at a future event requires the future perfect progressive tense."
+    ),
+
+    QuizQuestion(
+        question: "10. \"He will have been washing his hands for a minute by then.\" Identify the tense.",
+        options: [
+          "Future perfect progressive",
+          "Future progressive",
+          "Future perfect",
+          "Future simple"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The construction uses will have been followed by an \"-ing\" action word."
+    ),
+  ],
+);
+final QuizModel jhs2s3ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8569,7 +9372,7 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
+final QuizModel jhs2s3ss1Lesson6QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8660,7 +9463,7 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
+final QuizModel jhs2s3ss1Lesson7QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -8780,7 +9583,7 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
+final QuizModel jhs2s3ss1Lesson8QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
