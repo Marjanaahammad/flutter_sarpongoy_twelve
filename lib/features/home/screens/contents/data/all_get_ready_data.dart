@@ -381,9 +381,9 @@ final GetReadyModel jhs2s1ss3Lesson3GetReadyData = GetReadyModel(
 );
 
 final GetReadyModel jhs2s2ss1Lesson1GetReadyData = GetReadyModel(
-  overviewImagePath: 'assets/images/english/eng jhs2 s2 ss1 l1 /chapter_overview.jpg',
+  overviewImagePath: 'assets/images/english/eng jhs2 s2 ss1 l1/chapter_overview.jpg',
   overviewAudioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/1. chapter_overview.m4a',
-  hookImagePath: 'assets/images/english/eng jhs2 s2 ss1 l1 /hook.jpg',
+  hookImagePath: 'assets/images/english/eng jhs2 s2 ss1 l1/hook.jpg',
   hookAudioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/2. hhook.m4a',
 );
 final GetReadyModel jhs2s2ss1Lesson2GetReadyData = GetReadyModel(

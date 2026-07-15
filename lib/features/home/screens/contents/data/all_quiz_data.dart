@@ -8750,7 +8750,8 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         options: [
           "data analysts",
           "datas analyst",
-          "data analystes"
+          "data analystes",
+          "Datas Analysts"
         ],
         correctIndex: 0,
         difficulty: "Medium",
@@ -17632,7 +17633,7 @@ final QuizModel jhs3s4ss1Lesson2QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-          "3. 'The old man with the walking stick crossed the road.' The bolded part is a:",
+          "3. 'The old man **with the walking stick** crossed the road.' The bolded part is a:",
       options: [
         "Relative clause",
         "Noun phrase",
@@ -18981,7 +18982,8 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
       options: [
         "Make the speaker sound bored.",
         "Emphasize an important point so the audience remembers it.",
-        "Make the speech exactly one hour long."
+        "Make the speech exactly one hour long.",
+            "Make it more annoying"
       ],
       correctIndex: 1,
       difficulty: "Medium",

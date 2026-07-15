@@ -809,15 +809,15 @@ final LearnModel jhs2s1ss3Lesson3LearnData = LearnModel(parts: [
 
 final LearnModel jhs2s2ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(
-    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1 /partA.jpg',
+    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1/partA.jpg',
     audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/3. partA.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1 /partB.jpg',
+    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1/partB.jpg',
     audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/4. partB.m4a',
   ),
   LearnPart(
-    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1 /partC.jpg',
+    imagePath: 'assets/images/english/eng jhs2 s2 ss1 l1/partC.jpg',
     audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/5. partC.m4a',
   ),
 ]);
@@ -2209,7 +2209,7 @@ final LearnModel jhs3s4ss3Lesson5LearnData = LearnModel(parts: [
 final LearnModel jhs3s4ss3Lesson6LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/english/ENGLISH JHS3 S4 SS3 L6/partA.jpg',
-    audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (3. TEACH - Part A).m4a',
+    audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (3. TEACH - Part A) .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/english/ENGLISH JHS3 S4 SS3 L6/partB.jpg',

@@ -8411,7 +8411,7 @@ final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData = Independent
     ),
 
     IndependentPracticeQuestion(
-        question: "3. Identify the non-defining relative clause in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
+        question: "3. Identify the **non-defining relative clause** in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
         options: [
           "My uncle is coming",
           "works at GCB Bank",
