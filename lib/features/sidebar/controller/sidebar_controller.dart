@@ -952,9 +952,9 @@ class SidebarController extends GetxController {
               "subtitle": "CONVERSATION / EVERYDAY DISCOURSE",
               "topics": [
                 "Conversation and Everyday Discourse",
-                "Giving and Following Direction",
-                "Using Appropriate Language to Describe Experiences",
                 "Asking Questions to Elicit Elaboration",
+                "Using Appropriate Language to Describe Experiences",
+                "Giving and Following Direction",
               ],
             },
             {
@@ -994,13 +994,6 @@ class SidebarController extends GetxController {
             {
               "subtitle": "GRAMMAR USAGE",
               "topics": [
-                "Mastering Conditional Sentences (Type 1)",
-                "Active and Passive Voice",
-                "Reported Speech (Direct and Indirect)",
-                "Question Tags",
-                "Subject and Predicate",
-                "Compound Sentences",
-                "Dependent and Independent Clauses",
                 "Nouns and Irregular Plurals",
                 "Types of Pronouns",
                 "Adjectives and Sense Verbs",
@@ -1010,6 +1003,13 @@ class SidebarController extends GetxController {
                 "Conjunctions and Linkers",
                 "Prepositions and Complex Prepositions",
                 "Determiners",
+                "Subject and Predicate",
+                "Compound Sentences",
+                "Dependent and Independent Clauses",
+                "Mastering Conditional Sentences (Type 1)",
+                "Active and Passive Voice",
+                "Reported Speech (Direct and Indirect)",
+                "Question Tags",
               ],
             },
             {
@@ -2685,59 +2685,39 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
-                getReadyData = s3ss1Lesson13GetReadyData;
-                learnData = s3ss1Lesson13LearnData;
-                practiceData = s3ss1Lesson13PracticeData;
-                independentPracticeData = s3ss1Lesson13IndependentQuizData;
-                quizData = s3ss1Lesson13QuizData;
+                getReadyData = s3ss1Lesson8GetReadyData;
+                learnData = s3ss1Lesson8LearnData;
+                practiceData = s3ss1Lesson8PracticeData;
+                independentPracticeData = s3ss1Lesson8IndependentQuizData;
+                quizData = s3ss1Lesson8QuizData;
               }
 
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
-                getReadyData = s3ss1Lesson14GetReadyData;
-                learnData = s3ss1Lesson14LearnData;
-                practiceData = s3ss1Lesson14PracticeData;
-                independentPracticeData = s3ss1Lesson14IndependentQuizData;
-                quizData = s3ss1Lesson14QuizData;
+                getReadyData = s3ss1Lesson9GetReadyData;
+                learnData = s3ss1Lesson9LearnData;
+                practiceData = s3ss1Lesson9PracticeData;
+                independentPracticeData = s3ss1Lesson9IndependentQuizData;
+                quizData = s3ss1Lesson9QuizData;
               }
 
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
-                getReadyData = s3ss1Lesson15GetReadyData;
-                learnData = s3ss1Lesson15LearnData;
-                practiceData = s3ss1Lesson15PracticeData;
-                independentPracticeData = s3ss1Lesson15IndependentQuizData;
-                quizData = s3ss1Lesson15QuizData;
-              }
-
-              if (courseTitle == "English" &&
-                  sIndex == 2 &&
-                  ssIndex == 0 &&
-                  lIndex == 3) {
-                getReadyData = s3ss1Lesson16GetReadyData;
-                learnData = s3ss1Lesson16LearnData;
-                practiceData = s3ss1Lesson16PracticeData;
-                independentPracticeData = s3ss1Lesson16IndependentQuizData;
-                quizData = s3ss1Lesson16QuizData;
-              }
-              if (courseTitle == "English" &&
-                  sIndex == 2 &&
-                  ssIndex == 0 &&
-                  lIndex == 4) {
                 getReadyData = s3ss1Lesson10GetReadyData;
                 learnData = s3ss1Lesson10LearnData;
                 practiceData = s3ss1Lesson10PracticeData;
                 independentPracticeData = s3ss1Lesson10IndependentQuizData;
                 quizData = s3ss1Lesson10QuizData;
               }
+
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
-                  lIndex == 5) {
+                  lIndex == 3) {
                 getReadyData = s3ss1Lesson11GetReadyData;
                 learnData = s3ss1Lesson11LearnData;
                 practiceData = s3ss1Lesson11PracticeData;
@@ -2747,7 +2727,7 @@ class SidebarController extends GetxController {
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
-                  lIndex == 6) {
+                  lIndex == 4) {
                 getReadyData = s3ss1Lesson12GetReadyData;
                 learnData = s3ss1Lesson12LearnData;
                 practiceData = s3ss1Lesson12PracticeData;
@@ -2757,47 +2737,47 @@ class SidebarController extends GetxController {
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
+                  lIndex == 5) {
+                getReadyData = s3ss1Lesson13GetReadyData;
+                learnData = s3ss1Lesson13LearnData;
+                practiceData = s3ss1Lesson13PracticeData;
+                independentPracticeData = s3ss1Lesson13IndependentQuizData;
+                quizData = s3ss1Lesson13QuizData;
+              }
+              if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 6) {
+                getReadyData = s3ss1Lesson14GetReadyData;
+                learnData = s3ss1Lesson14LearnData;
+                practiceData = s3ss1Lesson14PracticeData;
+                independentPracticeData = s3ss1Lesson14IndependentQuizData;
+                quizData = s3ss1Lesson14QuizData;
+              }
+              if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
                   lIndex == 7) {
-                getReadyData = s3ss1Lesson1GetReadyData;
-                learnData = s3ss1Lesson1LearnData;
-                practiceData = s3ss1Lesson1PracticeData;
-                independentPracticeData = s3ss1Lesson1IndependentQuizData;
-                quizData = s3ss1Lesson1QuizData;
+                getReadyData = s3ss1Lesson15GetReadyData;
+                learnData = s3ss1Lesson15LearnData;
+                practiceData = s3ss1Lesson15PracticeData;
+                independentPracticeData = s3ss1Lesson15IndependentQuizData;
+                quizData = s3ss1Lesson15QuizData;
               }
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 8) {
-                getReadyData = s3ss1Lesson2GetReadyData;
-                learnData = s3ss1Lesson2LearnData;
-                practiceData = s3ss1Lesson2PracticeData;
-                independentPracticeData = s3ss1Lesson2IndependentQuizData;
-                quizData = s3ss1Lesson2QuizData;
+                getReadyData = s3ss1Lesson16GetReadyData;
+                learnData = s3ss1Lesson16LearnData;
+                practiceData = s3ss1Lesson16PracticeData;
+                independentPracticeData = s3ss1Lesson16IndependentQuizData;
+                quizData = s3ss1Lesson16QuizData;
               }
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 9) {
-                getReadyData = s3ss1Lesson3GetReadyData;
-                learnData = s3ss1Lesson3LearnData;
-                practiceData = s3ss1Lesson3PracticeData;
-                independentPracticeData = s3ss1Lesson3IndependentQuizData;
-                quizData = s3ss1Lesson3QuizData;
-              }
-              if (courseTitle == "English" &&
-                  sIndex == 2 &&
-                  ssIndex == 0 &&
-                  lIndex == 10) {
-                getReadyData = s3ss1Lesson4GetReadyData;
-                learnData = s3ss1Lesson4LearnData;
-                practiceData = s3ss1Lesson4PracticeData;
-                independentPracticeData = s3ss1Lesson4IndependentQuizData;
-                quizData = s3ss1Lesson4QuizData;
-              }
-              if (courseTitle == "English" &&
-                  sIndex == 2 &&
-                  ssIndex == 0 &&
-                  lIndex == 11) {
                 getReadyData = s3ss1Lesson5GetReadyData;
                 learnData = s3ss1Lesson5LearnData;
                 practiceData = s3ss1Lesson5PracticeData;
@@ -2807,7 +2787,7 @@ class SidebarController extends GetxController {
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
-                  lIndex == 12) {
+                  lIndex == 10) {
                 getReadyData = s3ss1Lesson6GetReadyData;
                 learnData = s3ss1Lesson6LearnData;
                 practiceData = s3ss1Lesson6PracticeData;
@@ -2817,7 +2797,7 @@ class SidebarController extends GetxController {
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
-                  lIndex == 13) {
+                  lIndex == 11) {
                 getReadyData = s3ss1Lesson7GetReadyData;
                 learnData = s3ss1Lesson7LearnData;
                 practiceData = s3ss1Lesson7PracticeData;
@@ -2827,22 +2807,42 @@ class SidebarController extends GetxController {
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
+                  lIndex == 12) {
+                getReadyData = s3ss1Lesson1GetReadyData;
+                learnData = s3ss1Lesson1LearnData;
+                practiceData = s3ss1Lesson1PracticeData;
+                independentPracticeData = s3ss1Lesson1IndependentQuizData;
+                quizData = s3ss1Lesson1QuizData;
+              }
+              if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 13) {
+                getReadyData = s3ss1Lesson2GetReadyData;
+                learnData = s3ss1Lesson2LearnData;
+                practiceData = s3ss1Lesson2PracticeData;
+                independentPracticeData = s3ss1Lesson2IndependentQuizData;
+                quizData = s3ss1Lesson2QuizData;
+              }
+              if (courseTitle == "English" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
                   lIndex == 14) {
-                getReadyData = s3ss1Lesson8GetReadyData;
-                learnData = s3ss1Lesson8LearnData;
-                practiceData = s3ss1Lesson8PracticeData;
-                independentPracticeData = s3ss1Lesson8IndependentQuizData;
-                quizData = s3ss1Lesson8QuizData;
+                getReadyData = s3ss1Lesson3GetReadyData;
+                learnData = s3ss1Lesson3LearnData;
+                practiceData = s3ss1Lesson3PracticeData;
+                independentPracticeData = s3ss1Lesson3IndependentQuizData;
+                quizData = s3ss1Lesson3QuizData;
               }
               if (courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 15) {
-                getReadyData = s3ss1Lesson9GetReadyData;
-                learnData = s3ss1Lesson9LearnData;
-                practiceData = s3ss1Lesson9PracticeData;
-                independentPracticeData = s3ss1Lesson9IndependentQuizData;
-                quizData = s3ss1Lesson9QuizData;
+                getReadyData = s3ss1Lesson4GetReadyData;
+                learnData = s3ss1Lesson4LearnData;
+                practiceData = s3ss1Lesson4PracticeData;
+                independentPracticeData = s3ss1Lesson4IndependentQuizData;
+                quizData = s3ss1Lesson4QuizData;
               }
               if (courseTitle == "English" &&
                   sIndex == 2 &&
