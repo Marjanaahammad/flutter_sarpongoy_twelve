@@ -14934,369 +14934,542 @@ final QuizModel jhs3s1ss3Lesson2QuizData = QuizModel(
 );
 
 final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/8. Quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
-      options: ["Personification", "Simile", "Metaphor", "Symbolism"],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
+        question: "1. What is the main benefit of independent reading?",
+        options: [
+          "It guarantees you will never have to do homework again.",
+          "It helps you build vocabulary, knowledge, and reading confidence on your own terms.",
+          "It allows you to skip your regular classroom lessons.",
+          "It makes the school day much shorter."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Independent reading builds self-directed language skills and knowledge."
     ),
+
     QuizQuestion(
-      question:
-          '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
-      options: ["Sight", "Smell", "Touch", "Taste"],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
+        question: "2. Which of the following is a clear example of setting a reading purpose for information?",
+        options: [
+          "I am going to read this comic book to laugh at the jokes.",
+          "I am going to read this science chapter to find out how solar panels work.",
+          "I am going to skim this book because I am bored.",
+          "I am going to look at the pictures in this magazine."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Wanting to know how solar panels work is a clear informational goal."
     ),
+
     QuizQuestion(
-      question:
-          '3. "The moon was a silver cedi in the sky." This is an example of a:',
-      options: [
-        "Metaphor",
-        "Simile",
-        "Personification",
-        "Sensory imagery for sound"
-      ],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation:
-          'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
+        question: "3. What does it mean to choose an \"age-appropriate\" text?",
+        options: [
+          "Choosing a book that has exactly one hundred pages.",
+          "Choosing a book that matches your reading level and interests perfectly.",
+          "Choosing the oldest book in the school library.",
+          "Choosing a book that only contains pictures and no words."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Age-appropriate means the text complexity matches the student's developmental stage."
     ),
+
     QuizQuestion(
-      question:
-          '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
-      options: [
-        "The soldiers are hungry for birds",
-        "The weather is about to change",
-        "The fighting might soon end in peace",
-        "The soldiers should look at the sky"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
+        question: "4. If you come across a paragraph that you do not understand while reading alone, you should:",
+        options: [
+          "Close the book and stop reading completely.",
+          "Skip the paragraph and hope it wasn't important.",
+          "Pause, clear your mind, and re-read the paragraph slowly.",
+          "Cry out loud for help immediately."
+        ],
+        correctIndex: 2,
+        difficulty: "Low",
+        explanation: "Re-reading is the primary self-monitoring strategy for comprehension."
     ),
+
     QuizQuestion(
-      question:
-          '5. "The waves lashed out at the shore in anger." This is an example of:',
-      options: ["Simile", "Metaphor", "Personification", "Symbolism"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
+        question: "5. \"Kofi set a purpose to find the date of the independence match in a sports article.\" What strategy should he use?",
+        options: [
+          "Read every single word from the first page very slowly.",
+          "Scan the text quickly looking specifically for numbers and months.",
+          "Guess the date without looking at the article.",
+          "Look at the back cover of the magazine."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Scanning for specific formats (like dates) satisfies this specific purpose quickly."
     ),
+
     QuizQuestion(
-      question:
-          '6. Which sentence contains imagery that appeals to the sense of TASTE?',
-      options: [
-        "The drums beat a steady rhythm for the dancers",
-        "The bitter juice of the neem leaf made Abena gag",
-        "The smoke from the woodfire stung his eyes",
-        "The blue lorry was packed with heavy yams"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          '"Bitter" and the reaction to juice relate directly to the sense of taste.',
+        question: "6. Which of these is a reading purpose focused entirely on enjoyment?",
+        options: [
+          "Reading a manual to learn how to fix an iPad screen.",
+          "Reading an exciting folk tale about Ananse before bed.",
+          "Reading a dictionary to memorise twenty new words.",
+          "Reading a notice board to find exam timetables."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Folk tales read before bed are typically selected for entertainment and pleasure."
     ),
+
     QuizQuestion(
-      question:
-          '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
-      options: [
-        "The brother is actually a mythical creature",
-        "The brother is very tall or influential",
-        "The brother likes to eat a lot of food",
-        "The brother lives in a very large house"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          'As a metaphor, "giant" describes the brother\'s impressive height or status.',
+        question: "7. Why is it helpful to preview a text's title and illustrations before you begin reading?",
+        options: [
+          "It helps you activate your prior knowledge and prepare your mind for the topic.",
+          "It lets you finish the book without actually reading the text.",
+          "It tells you exactly how many questions will be on the quiz.",
+          "It changes the language of the text."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "Previewing sets expectations and frames comprehension."
     ),
+
     QuizQuestion(
-      question: '8. Why do writers use sensory imagery?',
-      options: [
-        "To make the book longer and more expensive",
-        "To hide the fact that they don\'t have a good story",
-        "To help the reader create a vivid mental picture of the scene",
-        "To teach readers how to use their five senses in real life"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
+        question: "8. If a comprehension question asks about the location of a story, what type of evidence are you scanning for?",
+        options: [
+          "Action verbs like running or jumping.",
+          "Numbers representing a specific year.",
+          "Proper nouns representing place names.",
+          "Adjectives describing how a character feels."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Locations are represented by geographical proper nouns."
     ),
+
     QuizQuestion(
-      question:
-          '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
-      options: ["Sight", "Sound", "Taste", "Smell"],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          '"Crunched" is an onomatopoeic word that describes a specific sound.',
+        question: "9. \"Mansa wanted to read a biography to find out how Efua Sutherland contributed to Ghanaian theatre.\" Mansa is reading for:",
+        options: [
+          "Pure entertainment only.",
+          "Knowledge and information.",
+          "Preparing for a maths test.",
+          "Fun visual illustrations."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Learning about a historical figure's contributions is an informational pursuit."
     ),
+
     QuizQuestion(
-      question:
-          '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
-      options: [
-        "A heavy weight she has to carry",
-        "Her connection to her grandmother’s faith and memory",
-        "That Abena is a very good student",
-        "That the grandmother forgot her book"
-      ],
-      correctIndex: 1,
-      difficulty: "High",
-      explanation:
-          'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
+        question: "10. What is the final step you should take to ensure you have answered a comprehension question accurately?",
+        options: [
+          "Pick the option that has the longest text.",
+          "Cross-check your answer directly with the evidence provided in the text.",
+          "Choose the same option letter you chose for the last question.",
+          "Ask your classmate what they think the answer is."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Verifying with textual evidence guarantees objective accuracy."
     ),
   ],
 );
 final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/8. Quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          "1. Which of these is a technical term for the money a person earns from work?",
-      options: ["Gift", "Pocket money", "Income", "Dash"],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation: '"Income" is the formal academic term for earnings.',
+        question: "1. What does it mean to determine the \"credibility\" of a text?",
+        options: [
+          "To measure how heavy the book is.",
+          "To evaluate how trustworthy and reliable the information is.",
+          "To find out how many copies of the book were sold.",
+          "To check if the text contains dialogue."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Credibility is the measure of accuracy and trustworthiness in a source."
     ),
+
     QuizQuestion(
-      question: "2. In a Science lesson, the word 'cell' refers to:",
-      options: [
-        "A small room in a prison",
-        "The basic unit of life",
-        "A button on a mobile phone",
-        "A place to buy credit"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          'In a scientific register, "cell" specifically refers to biological units.',
+        question: "2. Which of the following sources would be considered MOST credible for a report on malaria prevention?",
+        options: [
+          "A message forwarded on a family chat group.",
+          "An official publication by the World Health Organisation.",
+          "A fiction story about a boy who caught a mosquito.",
+          "An opinion piece written by a local musician."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The WHO is an authoritative international health body, making it highly credible."
     ),
+
     QuizQuestion(
-      question:
-          "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
-      options: ["Opinion", "Guess", "Verdict", "Story"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
+        question: "3. \"We must stop building roads because cars create noise, and noise makes everyone completely insane.\" This is an example of:",
+        options: [
+          "Strong, fact-based reasoning.",
+          "A balanced viewpoint.",
+          "Faulty reasoning based on extreme exaggeration.",
+          "A credible scientific study."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The claim that noise makes everyone completely insane is a massive, illogical leap."
     ),
+
     QuizQuestion(
-      question:
-          "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
-      options: [
-        "Agriculture",
-        "ICT",
-        "Home Economics",
-        "Religious and Moral Education"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          'Words like "router," "IP address," and "network" belong to the ICT domain.',
+        question: "4. Why is it useful to read texts that contain viewpoints different from your own?",
+        options: [
+          "It forces you to change your mind completely.",
+          "It helps you understand different perspectives and sharpens your critical thinking.",
+          "It helps you find spelling mistakes in other people's writing.",
+          "It makes you forget your own personal values."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Exposure to multiple perspectives builds comprehensive understanding and empathy."
     ),
+
     QuizQuestion(
-      question: "5. To 'hibernate' in the animal kingdom means to:",
-      options: [
-        "Run very fast from a predator",
-        "Eat only green plants",
-        "Spend the winter in a dormant or sleeping state",
-        "Travel to a different country for food"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          '"Hibernate" is a technical biological term for seasonal dormancy.',
+        question: "5. A text states: \"Plastic bags are convenient for carrying goods, but they clog our drainage networks and cause flooding.\" This text presents:",
+        options: [
+          "A one-sided attack on plastic manufacturers.",
+          "A balanced view showing both a benefit and a drawback.",
+          "Low credibility due to emotional words.",
+          "A set of procedural instructions."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It acknowledges the utility (convenience) alongside the environmental downside (flooding)."
     ),
+
     QuizQuestion(
-      question:
-          "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
-      options: ["Weather", "Hot", "Precipitation", "Rain"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          '"Precipitation" is the academic term for any form of water falling from the sky.',
+        question: "6. Which word in a text should make a reader cautious about the author's objectivity?",
+        options: [
+          "Furthermore",
+          "According to",
+          "Always",
+          "For instance"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Absolute words like \"Always\" or \"Never\" often signal a lack of objective nuance."
     ),
+
     QuizQuestion(
-      question:
-          "7. 'The President signed the amendment to the law.' What does amendment mean?",
-      options: [
-        "A picture of the law",
-        "A formal change or addition to a document",
-        "The end of a meeting",
-        "A speech given at a funeral"
-      ],
-      correctIndex: 1,
-      difficulty: "High",
-      explanation:
-          'In political and legal registers, an amendment is a formal change.',
+        question: "7. If an article about Ghanaian history does not list any dates, authors, or primary references, its credibility is:",
+        options: [
+          "Enhanced because it is clean.",
+          "Weakened due to lack of verifiable evidence.",
+          "Unchanged because facts don't need sources.",
+          "High because it is simple to read."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Trustworthy history depends on verifiable references and primary data."
     ),
+
     QuizQuestion(
-      question:
-          "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
-      options: [
-        "Put the stuff in the hot water",
-        "Submerge the vegetables in boiling water to blanch them",
-        "Throw the greens in the pot",
-        "Make the plants wet and hot"
-      ],
-      correctIndex: 1,
-      difficulty: "High",
-      explanation:
-          '"Submerge" and "blanch" are technical terms used in professional cooking.',
+        question: "8. An author writes an article arguing that school fees should be doubled, but hides the fact that they own five private schools. The author has a:",
+        options: [
+          "Very high credibility rating.",
+          "Conflict of interest that biases their viewpoint.",
+          "Procedural style of writing.",
+          "Scientific approach to education."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "A hidden personal benefit biases an author's objectivity."
     ),
+
     QuizQuestion(
-      question:
-          "9. The word 'inflation' is a technical term used in which subject?",
-      options: [
-        "Physical Education",
-        "Integrated Science",
-        "Social Studies/Economics",
-        "Creative Arts"
-      ],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation:
-          'Inflation refers to the rise in prices and is an economic term.',
+        question: "9. \"The government should support local weavers because it preserves our cultural heritage and creates economic stability for rural artisans.\" This argument uses:",
+        options: [
+          "Sound reasoning supported by clear cultural and economic benefits.",
+          "Faulty reasoning based on fear.",
+          "An anonymous viewpoint.",
+          "A narrative style to tell a folk tale."
+        ],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "The reasoning connects the policy directly to logical, positive outcomes."
     ),
+
     QuizQuestion(
-      question:
-          "10. Why is it important to use technical vocabulary in school assignments?",
-      options: [
-        "To make the teacher spend more time marking",
-        "To show that you are better than your classmates",
-        "To express complex ideas accurately and professionally",
-        "To fill up more space on the paper"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          'Technical vocabulary allows for precision and demonstrates subject mastery.',
+        question: "10. What is the ultimate goal of reflecting on how a text impacts self-understanding?",
+        options: [
+          "To legalise arguments in the classroom.",
+          "To become a passive consumer of information.",
+          "To develop independent judgment and become an informed citizen.",
+          "To memorise sentences for an English spelling test."
+        ],
+        correctIndex: 2,
+        difficulty: "High",
+        explanation: "Critical reflection transforms reading from simple decoding into active, independent thought."
     ),
   ],
 );
 final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/8. Quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
-      options: ["None", "One", "Many", "Small"],
-      correctIndex: 2,
-      difficulty: "Low",
-      explanation: '"Multi-" is a common prefix meaning many or multiple.',
+        question: "1. What is the meaning of the word \"disseminate\" in media studies?",
+        options: [
+          "To keep information completely secret.",
+          "To spread or distribute information widely to the public.",
+          "To delete old files from a device.",
+          "To read a book out loud in a quiet room."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Dissemination refers to the act of spreading information across channels."
     ),
+
     QuizQuestion(
-      question:
-          '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
-      options: ["Comfortable", "Rich", "Affluent", "Poor"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
+        question: "2. Which of the following represents a structural critique of a text?",
+        options: [
+          "The author misspelled the word \"receive.\"",
+          "The article is written as a wall of text and needs clear subheadings to be readable.",
+          "I do not agree with the author's personal opinion.",
+          "The story takes place in the Ashanti Region."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Structural critiques deal with the layout, formatting, and organization of the content."
     ),
+
     QuizQuestion(
-      question:
-          '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
-      options: [
-        "It is very delicious",
-        "It cannot be eaten",
-        "It is very sweet",
-        "It needs to be cooked"
-      ],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: 'The prefix "in-" often means "not."',
+        question: "3. Why do feature articles use a different style compared to standard news reports?",
+        options: [
+          "Because feature articles are written only for teachers.",
+          "To explore the deeper, personal human stories behind a topic rather than just the immediate facts.",
+          "To ensure the text can be read in under ten seconds.",
+          "Because news reports are not allowed to use adjectives."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Feature articles prioritize depth, context, and human elements over breaking news brevity."
     ),
+
     QuizQuestion(
-      question:
-          '4. If a character is described as cautious, how are they acting?',
-      options: [
-        "Very brave and reckless",
-        "Very angry and loud",
-        "Very careful to avoid danger",
-        "Very fast and hurried"
-      ],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation:
-          '"Cautious" is connected to the word "caution," which means care.',
+        question: "4. Imagine you need to disseminate information to JHS students on how to navigate our offline learning app. What is the BEST text type and approach?",
+        options: [
+          "A sixty-page legal document detailing software licensing.",
+          "A concise, procedural step-by-step guide with clear visual icons matching the app interface.",
+          "A highly emotional editorial article attacking old textbooks.",
+          "A long narrative story about a student who got lost in a forest."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Procedural text combined with visual aids perfectly matches an instructional goal for an app."
     ),
+
     QuizQuestion(
-      question: '5. What is the root word in "Unhappiness"?',
-      options: ["Un", "Happy", "Ness", "Happi"],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation: '"Happy" is the base word that carries the main meaning.',
+        question: "5. An article claims: \"A new study shows standard farming techniques are completely useless.\" Upon review, you see the study only tested three plants in a single box. You have just evaluated the text's:",
+        options: [
+          "Spelling accuracy.",
+          "Capitalisation choices.",
+          "Credibility and quality of evidence.",
+          "Font style."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Checking the sample size and scope of research directly measures the validity of the evidence."
     ),
+
     QuizQuestion(
-      question:
-          '6. Which word describes a small, gentle wind (a nuance of "wind")?',
-      options: ["Gale", "Hurricane", "Breeze", "Storm"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: 'A "breeze" is specifically a light or gentle wind.',
+        question: "6. Which media channel is best optimized for an audience of busy market traders who are constantly on the move?",
+        options: [
+          "A long, academic essay published on a university website.",
+          "Audio notices broadcast over market loudspeakers or clear local radio segments.",
+          "A dense financial table tracking equity markets.",
+          "A comprehensive operational sales training manual."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Audio messages cater perfectly to audiences who cannot look at screens while working."
     ),
+
     QuizQuestion(
-      question:
-          '7. "The girl was fearless during the storm." What does this tell us?',
-      options: [
-        "She was very afraid",
-        "She had no fear",
-        "She was hiding under the bed",
-        "She was crying loudly"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: 'The suffix "-less" means "without."',
+        question: "7. \"The daily newspaper published an article written by the chief editor explicitly supporting a new educational policy.\" This text type is an:",
+        options: [
+          "Expository science report.",
+          "Editorial / Opinion piece.",
+          "Procedural user manual.",
+          "Anatomy diagram layout."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Editorials reflect the specific perspectives and opinions of the publication's leadership."
     ),
+
     QuizQuestion(
-      question:
-          '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
-      options: [
-        "The study of the stars",
-        "The study of ancient kings",
-        "The study of the earth\'s surface and maps",
-        "The study of how to cook food"
-      ],
-      correctIndex: 2,
-      difficulty: "High",
-      explanation:
-          'Connecting the two Greek roots reveals the meaning of the subject.',
+        question: "8. What is a primary sign of low credibility in a digital media article?",
+        options: [
+          "The presence of a clear author name and publication date.",
+          "The use of extreme clickbait headlines that do not match the facts inside the text.",
+          "The integration of local examples and national data.",
+          "Highly organized formatting with multiple subheadings."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Clickbait headlines intentionally mislead readers, signaling low editorial integrity."
     ),
+
     QuizQuestion(
-      question: '9. Which word suggests a lack of hope?',
-      options: ["Hopeful", "Hopeless", "Hoping", "Rehope"],
-      correctIndex: 1,
-      difficulty: "Low",
-      explanation:
-          'Again, the suffix "-less" indicates the absence of the root word.',
+        question: "9. How can a writer improve a text-to-speech script designed for automated audio narration?",
+        options: [
+          "By adding complex mathematical formulas directly into the sentence.",
+          "By using natural, conversational language and removing awkward abbreviations or symbols.",
+          "By writing everything in one massive sentence without any full stops.",
+          "By avoiding all punctuation entirely."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "TTS optimization requires smooth, predictable prose that reads naturally to a listener."
     ),
+
     QuizQuestion(
-      question:
-          '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
-      options: [
-        "It means he is ready to play again",
-        "It means he is only a little bit sleepy",
-        "It means he is extremely tired and has no energy left",
-        "It means he is hungry for a big meal"
-      ],
-      correctIndex: 2,
-      difficulty: "High",
-      explanation: '"Exhausted" is a stronger nuance of "tired."',
+        question: "10. You notice a news article only interviews the owner of a company and completely ignores the complaints of the community workers. Your critique should highlight a lack of:",
+        options: [
+          "Font color variety.",
+          "Balance and multiple perspectives.",
+          "Narrative dialogue.",
+          "System controls."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "Fair journalism requires presenting multiple sides of a dispute to avoid single-source bias."
     ),
   ],
 );
 final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+        question: "1. What does it mean to \"expand an idea\" in reading comprehension?",
+        options: [
+          "To write the exact same sentence using a much larger font size.",
+          "To combine information from the text with other perspectives and personal knowledge to build a deeper understanding.",
+          "To delete the difficult paragraphs and read only the short ones.",
+          "To memorise the entire passage word-for-word."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Expansion involves building context and synthesis around core textual ideas."
+    ),
+
+    QuizQuestion(
+        question: "2. Why do authors have different perspectives on the same topic?",
+        options: [
+          "Because they are using different types of tablets.",
+          "Because their viewpoints are shaped by their unique backgrounds, interests, and experiences.",
+          "Because some authors do not know how to write in British English.",
+          "Because textbooks are not allowed to have the same opinions."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "Individual background and purpose directly shape a writer's point of view."
+    ),
+
+    QuizQuestion(
+        question: "3. Read this text: \"Tourism brings massive wealth and international attention to historical sites like the Elmina Castle.\" What is the author's perspective?",
+        options: [
+          "Tourism has zero benefits for Ghana.",
+          "Tourism is highly positive for our historic sites and economy.",
+          "Elmina Castle should be turned into a marketplace.",
+          "Tourists do not like visiting old buildings."
+        ],
+        correctIndex: 1,
+        difficulty: "Low",
+        explanation: "The use of \"massive wealth\" and \"attention\" signals a highly positive perspective."
+    ),
+
+    QuizQuestion(
+        question: "4. If the text says tourism is perfect, but you know that overcrowded tourist crowds sometimes leave plastic litter at Elmina Castle, your perspective:",
+        options: [
+          "Is completely wrong and should be ignored.",
+          "Contrasts with the text by highlighting a hidden problem.",
+          "Proves that the author cannot be trusted at all.",
+          "Means you need to read the text out loud."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Personal knowledge provides a counterpoint that builds a more critical view."
+    ),
+
+    QuizQuestion(
+        question: "5. What is the definition of \"synthesis\" in reading?",
+        options: [
+          "Copying a paragraph from a website into a notebook.",
+          "Putting different ideas and perspectives together to create a broader understanding.",
+          "Scanning a text to find a specific number or date.",
+          "Reading silently without moving your lips."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Synthesis is the creative assembly of multiple conceptual components."
+    ),
+
+    QuizQuestion(
+        question: "6. Which statement shows a successful synthesis of these two ideas: (1) Market trading brings income, (2) Market trading takes up time that children should use for school.",
+        options: [
+          "\"Market trading is completely bad and should be banned.\"",
+          "\"Children should only work and forget about going to school.\"",
+          "\"Market trading provides vital family income, but children's work hours must be limited so they can focus on school.\"",
+          "\"Markets in Accra are very large and colorful.\""
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "This option balances and integrates both structural points into a single solution."
+    ),
+
+    QuizQuestion(
+        question: "7. An article states that high-speed train networks are essential for Ghana's development. A student notes that building trains costs billions of Cedis that could fix local clinics. What is the student doing?",
+        options: [
+          "Skimming for specific definitions.",
+          "Evaluating the text by comparing its viewpoint with economic realities.",
+          "Writing an operational sales playbook.",
+          "Using an ICT domain-specific register."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The student is contrasting the text's ambition with practical budget limitations."
+    ),
+
+    QuizQuestion(
+        question: "8. Why is \"peer review\" highly effective for expanding ideas?",
+        options: [
+          "It allows one student to do all the work for the group.",
+          "It exposes you to different viewpoints and interpretations that you might not have considered yourself.",
+          "It guarantees you will get a perfect score on the final exam.",
+          "It stops the automated text-to-speech reader from talking."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Group discussion breaks individual bias and opens new analytical pathways."
+    ),
+
+    QuizQuestion(
+        question: "9. \"The author believes city life is superior because of entertainment, whereas I believe village life is better because of peace and community.\" This sentence demonstrates:",
+        options: [
+          "A faulty generalisation using absolute terms.",
+          "An analysis of contrasting perspectives.",
+          "A procedural instruction step.",
+          "A scientific register definition."
+        ],
+        correctIndex: 1,
+        difficulty: "High",
+        explanation: "The sentence explicitly structures a comparison between the author's view and the reader's view."
+    ),
+
+    QuizQuestion(
+        question: "10. When you add your own relevant life experiences to a text's main arguments to reach a mature conclusion, you are behaving like an:",
+        options: [
+          "Active, critical reader.",
+          "Offline application user who skips lessons.",
+          "Anonymous author with low credibility.",
+          "Inattentive student who monitors poorly."
+        ],
+        correctIndex: 0,
+        difficulty: "High",
+        explanation: "Critical, active reading requires moving beyond passivity to integrate text with life."
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -15424,7 +15597,7 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
     ),
   ],
 );
-final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
+final QuizModel jhs3s2ss1Lesson6QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -15555,7 +15728,7 @@ final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
             "Patterns provide a mental framework for understanding and remembering content.")
   ],
 );
-final QuizModel jhs3s2ss1Lesson6QuizData = QuizModel(
+final QuizModel jhs3s2ss1Lesson7QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -15678,7 +15851,7 @@ final QuizModel jhs3s2ss1Lesson6QuizData = QuizModel(
             "Modifying to fit 'realities of life' involves swapping unfamiliar contexts for local equivalents.")
   ],
 );
-final QuizModel jhs3s2ss1Lesson7QuizData = QuizModel(
+final QuizModel jhs3s2ss1Lesson8QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -15790,7 +15963,7 @@ final QuizModel jhs3s2ss1Lesson7QuizData = QuizModel(
             "In procedures, the sequence of actions is critical to achieving the result.")
   ],
 );
-final QuizModel jhs3s2ss1Lesson8QuizData = QuizModel(
+final QuizModel jhs3s2ss1Lesson9QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -15919,7 +16092,7 @@ final QuizModel jhs3s2ss1Lesson8QuizData = QuizModel(
             "Using context clues is an essential skill for complex comprehension.")
   ],
 );
-final QuizModel jhs3s2ss1Lesson9QuizData = QuizModel(
+final QuizModel jhs3s2ss1Lesson10QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/8. Quiz.m4a',
   questions: [
     QuizQuestion(
@@ -16044,108 +16217,367 @@ final QuizModel jhs3s2ss1Lesson9QuizData = QuizModel(
             "Repetition is used to drive home a central theme or emotion.")
   ],
 );
-final QuizModel jhs3s2ss1Lesson10QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/8. Quiz.m4a',
+final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question:
-            "1. 'The soup smelled like a garden of fresh peppers and onions.' Which technique is used here?",
-        options: ["Personification", "Simile", "Metaphor", "Symbolism"],
-        correctIndex: 1,
-        difficulty: "Low",
-        explanation: "The use of the word 'like' makes this a simile."),
+      question:
+      '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
+      options: ["Personification", "Simile", "Metaphor", "Symbolism"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
+    ),
     QuizQuestion(
-        question:
-            "2. If a writer describes the 'velvet softness of a Kente loom,' which sense are they appealing to?",
-        options: ["Sight", "Smell", "Touch", "Taste"],
-        correctIndex: 2,
-        difficulty: "Low",
-        explanation: "'Softness' is a texture perceived through touch."),
+      question:
+      '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
+      options: ["Sight", "Smell", "Touch", "Taste"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
+    ),
     QuizQuestion(
-        question:
-            "3. 'The moon was a silver cedi in the sky.' This is an example of a:",
-        options: [
-          "Metaphor",
-          "Simile",
-          "Personification",
-          "Sensory imagery for sound"
-        ],
-        correctIndex: 0,
-        difficulty: "Medium",
-        explanation: "It says the moon was a cedi, comparing them directly."),
+      question:
+      '3. "The moon was a silver cedi in the sky." This is an example of a:',
+      options: [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Sensory imagery for sound"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+      'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
+    ),
     QuizQuestion(
-        question:
-            "4. In many stories, a white dove is a symbol of peace. What would a dove flying over a school represent?",
-        options: [
-          "A change in the weather",
-          "A hope for harmony among students",
-          "That the school is near a forest",
-          "That it is time for lunch"
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation: "Symbols represent larger ideas like peace or harmony."),
+      question:
+      '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
+      options: [
+        "The soldiers are hungry for birds",
+        "The weather is about to change",
+        "The fighting might soon end in peace",
+        "The soldiers should look at the sky"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
+    ),
     QuizQuestion(
-        question:
-            "5. 'The waves lashed out at the shore in anger.' This is an example of:",
-        options: ["Simile", "Metaphor", "Personification", "Symbolism"],
-        correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-            "Giving human emotions like 'anger' to waves is personification."),
+      question:
+      '5. "The waves lashed out at the shore in anger." This is an example of:',
+      options: ["Simile", "Metaphor", "Personification", "Symbolism"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
+    ),
     QuizQuestion(
-        question:
-            "6. Which sentence contains imagery that appeals to the sense of TASTE?",
-        options: [
-          "The drums beat a steady rhythm",
-          "The bitter juice of the neem leaf made Abena gag",
-          "The smoke from the woodfire stung his eyes",
-          "The blue lorry was packed with heavy yams"
-        ],
-        correctIndex: 1,
-        difficulty: "Low",
-        explanation: "'Bitter' is a detail related to taste."),
+      question:
+      '6. Which sentence contains imagery that appeals to the sense of TASTE?',
+      options: [
+        "The drums beat a steady rhythm for the dancers",
+        "The bitter juice of the neem leaf made Abena gag",
+        "The smoke from the woodfire stung his eyes",
+        "The blue lorry was packed with heavy yams"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      '"Bitter" and the reaction to juice relate directly to the sense of taste.',
+    ),
     QuizQuestion(
-        question: "7. 'My brother is a giant.' Figuratively, this means:",
-        options: [
-          "The brother is a character in a movie",
-          "The brother is very tall or very important",
-          "The brother likes to eat a lot",
-          "The brother lives in a large house"
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation: "Metaphors use comparisons to show importance or size."),
+      question:
+      '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
+      options: [
+        "The brother is actually a mythical creature",
+        "The brother is very tall or influential",
+        "The brother likes to eat a lot of food",
+        "The brother lives in a very large house"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      'As a metaphor, "giant" describes the brother\'s impressive height or status.',
+    ),
     QuizQuestion(
-        question: "8. Why do writers use sensory imagery?",
-        options: [
-          "To make the text longer",
-          "To help the reader create a vivid mental picture",
-          "To hide the meaning of the story",
-          "To teach about the five senses"
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation: "Imagery makes scenes feel more real and immersive."),
+      question: '8. Why do writers use sensory imagery?',
+      options: [
+        "To make the book longer and more expensive",
+        "To hide the fact that they don\'t have a good story",
+        "To help the reader create a vivid mental picture of the scene",
+        "To teach readers how to use their five senses in real life"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
+    ),
     QuizQuestion(
-        question:
-            "9. 'The dry grass crunched under his sandals.' Which sense is this appealing to?",
-        options: ["Sight", "Sound", "Taste", "Smell"],
-        correctIndex: 1,
-        difficulty: "Low",
-        explanation: "'Crunched' describes a specific sound."),
+      question:
+      '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
+      options: ["Sight", "Sound", "Taste", "Smell"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      '"Crunched" is an onomatopoeic word that describes a specific sound.',
+    ),
     QuizQuestion(
-        question:
-            "10. Abena carries her grandmother’s old Bible everywhere. What might the Bible symbolise?",
-        options: [
-          "A heavy weight",
-          "Her connection to her grandmother’s memory and faith",
-          "That she likes to read",
-          "That she is going to church"
-        ],
-        correctIndex: 1,
-        difficulty: "High",
-        explanation: "Heirlooms often symbolise family connection and legacy.")
+      question:
+      '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
+      options: [
+        "A heavy weight she has to carry",
+        "Her connection to her grandmother’s faith and memory",
+        "That Abena is a very good student",
+        "That the grandmother forgot her book"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Which of these is a technical term for the money a person earns from work?",
+      options: ["Gift", "Pocket money", "Income", "Dash"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Income" is the formal academic term for earnings.',
+    ),
+    QuizQuestion(
+      question: "2. In a Science lesson, the word 'cell' refers to:",
+      options: [
+        "A small room in a prison",
+        "The basic unit of life",
+        "A button on a mobile phone",
+        "A place to buy credit"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      'In a scientific register, "cell" specifically refers to biological units.',
+    ),
+    QuizQuestion(
+      question:
+      "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
+      options: ["Opinion", "Guess", "Verdict", "Story"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
+    ),
+    QuizQuestion(
+      question:
+      "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
+      options: [
+        "Agriculture",
+        "ICT",
+        "Home Economics",
+        "Religious and Moral Education"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      'Words like "router," "IP address," and "network" belong to the ICT domain.',
+    ),
+    QuizQuestion(
+      question: "5. To 'hibernate' in the animal kingdom means to:",
+      options: [
+        "Run very fast from a predator",
+        "Eat only green plants",
+        "Spend the winter in a dormant or sleeping state",
+        "Travel to a different country for food"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      '"Hibernate" is a technical biological term for seasonal dormancy.',
+    ),
+    QuizQuestion(
+      question:
+      "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
+      options: ["Weather", "Hot", "Precipitation", "Rain"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      '"Precipitation" is the academic term for any form of water falling from the sky.',
+    ),
+    QuizQuestion(
+      question:
+      "7. 'The President signed the amendment to the law.' What does amendment mean?",
+      options: [
+        "A picture of the law",
+        "A formal change or addition to a document",
+        "The end of a meeting",
+        "A speech given at a funeral"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      'In political and legal registers, an amendment is a formal change.',
+    ),
+    QuizQuestion(
+      question:
+      "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
+      options: [
+        "Put the stuff in the hot water",
+        "Submerge the vegetables in boiling water to blanch them",
+        "Throw the greens in the pot",
+        "Make the plants wet and hot"
+      ],
+      correctIndex: 1,
+      difficulty: "High",
+      explanation:
+      '"Submerge" and "blanch" are technical terms used in professional cooking.',
+    ),
+    QuizQuestion(
+      question:
+      "9. The word 'inflation' is a technical term used in which subject?",
+      options: [
+        "Physical Education",
+        "Integrated Science",
+        "Social Studies/Economics",
+        "Creative Arts"
+      ],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation:
+      'Inflation refers to the rise in prices and is an economic term.',
+    ),
+    QuizQuestion(
+      question:
+      "10. Why is it important to use technical vocabulary in school assignments?",
+      options: [
+        "To make the teacher spend more time marking",
+        "To show that you are better than your classmates",
+        "To express complex ideas accurately and professionally",
+        "To fill up more space on the paper"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      'Technical vocabulary allows for precision and demonstrates subject mastery.',
+    ),
+  ],
+);
+final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/8. Quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
+      options: ["None", "One", "Many", "Small"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: '"Multi-" is a common prefix meaning many or multiple.',
+    ),
+    QuizQuestion(
+      question:
+      '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
+      options: ["Comfortable", "Rich", "Affluent", "Poor"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
+    ),
+    QuizQuestion(
+      question:
+      '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
+      options: [
+        "It is very delicious",
+        "It cannot be eaten",
+        "It is very sweet",
+        "It needs to be cooked"
+      ],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: 'The prefix "in-" often means "not."',
+    ),
+    QuizQuestion(
+      question:
+      '4. If a character is described as cautious, how are they acting?',
+      options: [
+        "Very brave and reckless",
+        "Very angry and loud",
+        "Very careful to avoid danger",
+        "Very fast and hurried"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+      '"Cautious" is connected to the word "caution," which means care.',
+    ),
+    QuizQuestion(
+      question: '5. What is the root word in "Unhappiness"?',
+      options: ["Un", "Happy", "Ness", "Happi"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: '"Happy" is the base word that carries the main meaning.',
+    ),
+    QuizQuestion(
+      question:
+      '6. Which word describes a small, gentle wind (a nuance of "wind")?',
+      options: ["Gale", "Hurricane", "Breeze", "Storm"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: 'A "breeze" is specifically a light or gentle wind.',
+    ),
+    QuizQuestion(
+      question:
+      '7. "The girl was fearless during the storm." What does this tell us?',
+      options: [
+        "She was very afraid",
+        "She had no fear",
+        "She was hiding under the bed",
+        "She was crying loudly"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: 'The suffix "-less" means "without."',
+    ),
+    QuizQuestion(
+      question:
+      '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
+      options: [
+        "The study of the stars",
+        "The study of ancient kings",
+        "The study of the earth\'s surface and maps",
+        "The study of how to cook food"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation:
+      'Connecting the two Greek roots reveals the meaning of the subject.',
+    ),
+    QuizQuestion(
+      question: '9. Which word suggests a lack of hope?',
+      options: ["Hopeful", "Hopeless", "Hoping", "Rehope"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation:
+      'Again, the suffix "-less" indicates the absence of the root word.',
+    ),
+    QuizQuestion(
+      question:
+      '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
+      options: [
+        "It means he is ready to play again",
+        "It means he is only a little bit sleepy",
+        "It means he is extremely tired and has no energy left",
+        "It means he is hungry for a big meal"
+      ],
+      correctIndex: 2,
+      difficulty: "High",
+      explanation: '"Exhausted" is a stronger nuance of "tired."',
+    ),
   ],
 );
 final QuizModel jhs3s2ss2Lesson1QuizData = QuizModel(

@@ -2755,66 +2755,90 @@ final PracticeModel jhs3s1ss3Lesson2PracticeData = PracticeModel(
 );
 
 final PracticeModel jhs3s2ss1Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/english/englsh jhs3 s2 ss1 l1/6. guided practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: \"The news was a bitter pill for Esi to swallow.\"",
-      answer: "Correct Answer: This is a metaphor. It means the news was very difficult for Esi to accept or deal with.",
-      explanation: "Explanation: By comparing the news to a \"bitter pill,\" the writer shows that even though it is \"medicine\" (information she needs to know), it is very unpleasant.",
+      scenario: "\"The local government in Tamale has launched a new tree-planting exercise. The project aims to plant ten thousand trees by the end of the year to provide shade and fight the hot dry weather. The community elders have asked all JHS students to volunteer on Saturdays.\""
+          "1. Question: Imagine your purpose is to find out who needs to help with the project. Which strategy do you use?",
+      answer: "Correct Answer: Scan the text for capital letters and group names near the end.",
+      explanation: "Explanation: Your purpose tells you to look for people. Scanning quickly reveals \"JHS students\" as the group asked to volunteer.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"The coconut trees danced in the strong sea breeze near the Elmina Castle.\"",
-      answer: "Correct Answer: This is personification. It means the trees were swaying or moving violently in the wind.",
-      explanation: "Explanation: Trees cannot actually \"dance.\" By giving them this human action, the writer makes the scene feel energetic and lively.",
+      scenario: "2. Question: What is the specific goal or aim of the tree-planting project according to the text?",
+      answer: "Correct Answer: To plant ten thousand trees to provide shade and fight the hot dry weather.",
+      explanation: "Explanation: By looking for the keyword \"aims,\" you immediately find the direct sentence that states the project's purpose.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: \"The old man's skin was like a piece of dried tilapia.\"",
-      answer: "Correct Answer: This is a simile. It describes the man's skin as being very rough, wrinkled, or dry.",
-      explanation: "Explanation: The word \"like\" tells us it is a simile. Comparing skin to dried tilapia creates a very clear mental image of texture using a local example we all know.",
+      scenario: "3. Question: If a student reads this text and thinks it is about planting cocoa trees, what strategy should they apply?",
+      answer: "Correct Answer: Monitor understanding and re-read the text carefully.",
+      explanation: "Explanation: The text does not mention cocoa trees; it says \"tree-planting exercise\" generally to fight the hot weather. Re-reading corrects the misunderstanding.",
     ),
   ],
 );
 final PracticeModel jhs3s2ss1Lesson2PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l2/6. guided practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: \"In Social Studies, we learned how the government spends and makes money.\" What is a technical term for \"money used by the government\"?",
-      answer: "Correct Answer: Revenue and Expenditure.",
-      explanation: "Explanation: In a Social Studies or Economics register, we use \"revenue\" for money coming in and \"expenditure\" for money going out.",
+      scenario: "Passage: \"Dr. Mensah, a leading researcher at the Council for Scientific and Industrial Research, states that solar energy is the best option for local schools because Ghana receives bright sunlight for most of the year. He notes that while solar panels have a high upfront cost, they save money over time.\""
+          "1. Question: What are the two contrasting elements mentioned regarding solar energy in the text?",
+      answer: "Correct Answer: Solar energy utilizes free, abundant sunlight, but the equipment has a high upfront cost.",
+      explanation: "Explanation: The text provides a balanced view by highlighting a major benefit (abundant sunlight) alongside a practical challenge (high initial cost).",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"The doctor used a tool to listen to my heart.\" What is the technical name for that tool?",
-      answer: "Correct Answer: Stethoscope.",
-      explanation: "Explanation: In the medical register, \"stethoscope\" is the specific name for the instrument used to listen to internal body sounds.",
+      scenario: "2. Question: Why is this passage considered to have high credibility?",
+      answer: "Correct Answer: It comes from a named expert working at a recognized national research institution.",
+      explanation: "Explanation: Dr. Mensah's professional background and affiliation with the Council for Scientific and Industrial Research give the statement authority and trustworthiness.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Identify the domain-specific word in this sentence: \"The protocol for entering the computer lab requires all students to remove their shoes.\"",
-      answer: "Correct Answer: Protocol.",
-      explanation: "Explanation: In this context, \"protocol\" is a technical term meaning a formal set of rules or procedures.",
+      scenario: "3. Question: Evaluate the author's reasoning: Is the claim that solar power fits Ghana logical based on the text?",
+      answer: "Correct Answer: Yes, because it links the choice of solar power directly to the geographical fact that Ghana receives bright sunlight most of the year.",
+      explanation: "Explanation: The argument is supported by a verifiable physical fact, making the reasoning sound and logical.",
     ),
   ],
 );
 final PracticeModel jhs3s2ss1Lesson3PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/6. Guided Practice.m4a',
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l3/6. guided practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: If you know that \"Tele\" means \"far away\" (like in telephone), what is a \"Telescope\" used for?",
-      answer: "Correct Answer: It is a tool used to see things that are far away, like stars.",
-      explanation: "Explanation: By connecting \"tele\" (far) and \"scope\" (to look), we can determine the function of the object even if we've never seen one.",
+      scenario: "Original Text:\"It is hereby announced for the information of the general public, particularly parents residing in the municipal area, that the scheduled vaccination exercise targeting childhood illnesses has been moved forward to next Wednesday due to unforeseen logistical challenges.\""
+          "1. Question: Critique the language and clarity of this media sample. What is the main problem?",
+      answer: "Correct Answer: The language is overly long, formal, and hides the most important fact (the new date) at the very end.",
+      explanation: "Explanation: Public health announcements need to be direct. Parents might stop reading before they reach the critical update about the day change.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: The word is \"Interstate.\" We know \"inter\" means \"between\" and \"state\" can mean a country or region. What is an \"interstate\" road?",
-      answer: "Correct Answer: A road that goes between different states or regions.",
-      explanation: "Explanation: This connection helps us understand that the road isn't just inside one town, but connects many places together.",
+      scenario: "2. Question: Identify two structural improvements you could make to this announcement to ensure it works well on a mobile screen.",
+      answer: "Correct Answer: Add a bold header like \"Important Health Notice\" and use bullet points for the date, time, and location.",
+      explanation: "Explanation: Bold headers and bullet points draw the reader's eye immediately to the vital logistics, preventing them from missing the change.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Which word is \"stronger\" or more intense: Cold or Frigid?",
-      answer: "Correct Answer: Frigid.",
-      explanation: "Explanation: While both mean a low temperature, \"frigid\" has the nuance of being extremely, dangerously cold—much colder than a normal \"cold\" day.",
+      scenario: "3. Question: What is a better way to disseminate this message if you want to reach parents who do not have internet access or smartphones?",
+      answer: "Correct Answer: Use a local radio announcement broadcast in local languages or share short SMS text messages.",
+      explanation: "Explanation: Matching the channel to the community's reality ensures the information actually reaches the target audience effectively.",
     ),
   ],
 );
 final PracticeModel jhs3s2ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l4/6. guided practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "Passage:\"Ride-sharing mobile applications have transformed transportation in major cities like Accra and Kumasi. They allow passengers to book cars instantly using smartphones, offering safety and fixed pricing. However, these services remain unavailable in small rural towns where road networks are poor.\"\n"
+          "1. Question: What is the author's primary perspective on ride-sharing applications?",
+      answer: "Correct Answer: They are highly innovative, safe, and convenient tools for city transportation, though limited by geography.",
+      explanation: "Explanation: The text focuses heavily on the benefits of immediate booking and safety in large cities while noting the limitation in rural areas.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How does your personal experience with transport in your local community compare or contrast with this passage?",
+      answer: "Correct Answer: In our local town, we rely heavily on shared tro-tros and motorbikes because ride-sharing apps do not operate here.",
+      explanation: "Explanation: This step requires looking at your actual surroundings in Ghana and identifying how it matches or differs from the city-focused text.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Combine the text's perspective with your own experience to state an expanded conclusion about transport technology.",
+      answer: "Correct Answer: Ride-sharing apps are excellent for urban centers, but transport development in Ghana must focus on improving rural roads and supporting local transport options so everyone benefits.",
+      explanation: "Explanation: By blending the factual benefit from the text with the reality of rural transport needs, you create a comprehensive statement.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2837,7 +2861,7 @@ final PracticeModel jhs3s2ss1Lesson4PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
+final PracticeModel jhs3s2ss1Lesson6PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2857,7 +2881,7 @@ final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson6PracticeData = PracticeModel(
+final PracticeModel jhs3s2ss1Lesson7PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2877,7 +2901,7 @@ final PracticeModel jhs3s2ss1Lesson6PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson7PracticeData = PracticeModel(
+final PracticeModel jhs3s2ss1Lesson8PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2897,7 +2921,7 @@ final PracticeModel jhs3s2ss1Lesson7PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson8PracticeData = PracticeModel(
+final PracticeModel jhs3s2ss1Lesson9PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2912,7 +2936,7 @@ final PracticeModel jhs3s2ss1Lesson8PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson9PracticeData = PracticeModel(
+final PracticeModel jhs3s2ss1Lesson10PracticeData = PracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
@@ -2932,23 +2956,63 @@ final PracticeModel jhs3s2ss1Lesson9PracticeData = PracticeModel(
     ),
   ],
 );
-final PracticeModel jhs3s2ss1Lesson10PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/6. Guided Practice.m4a',
+final PracticeModel jhs3s2ss1Lesson11PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. \"The news was a bitter pill for Esi to swallow.\"",
-      answer: "Correct Answer: This is a metaphor. It means the news was very difficult for Esi to accept.",
-      explanation: "Explanation: Even though the news isn't literal medicine, the writer uses \"bitter pill\" to show how unpleasant it was.",
+      scenario: "1. Question: \"The news was a bitter pill for Esi to swallow.\"",
+      answer: "Correct Answer: This is a metaphor. It means the news was very difficult for Esi to accept or deal with.",
+      explanation: "Explanation: By comparing the news to a \"bitter pill,\" the writer shows that even though it is \"medicine\" (information she needs to know), it is very unpleasant.",
     ),
     PracticeQuestion(
       scenario: "2. Question: \"The coconut trees danced in the strong sea breeze near the Elmina Castle.\"",
-      answer: "Correct Answer: This is personification.",
-      explanation: "Explanation: Trees cannot actually \"dance.\" By giving them a human action, the writer makes the scene feel lively and energetic.",
+      answer: "Correct Answer: This is personification. It means the trees were swaying or moving violently in the wind.",
+      explanation: "Explanation: Trees cannot actually \"dance.\" By giving them this human action, the writer makes the scene feel energetic and lively.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"The old man's skin was like a piece of dried tilapia.\"",
-      answer: "Correct Answer: This is a simile.",
-      explanation: "Explanation: The word \"like\" tells us it is a simile, creating a clear mental image of a rough or wrinkled texture using a local example.",
+      scenario: "3. Question: \"The old man's skin was like a piece of dried tilapia.\"",
+      answer: "Correct Answer: This is a simile. It describes the man's skin as being very rough, wrinkled, or dry.",
+      explanation: "Explanation: The word \"like\" tells us it is a simile. Comparing skin to dried tilapia creates a very clear mental image of texture using a local example we all know.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson12PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: \"In Social Studies, we learned how the government spends and makes money.\" What is a technical term for \"money used by the government\"?",
+      answer: "Correct Answer: Revenue and Expenditure.",
+      explanation: "Explanation: In a Social Studies or Economics register, we use \"revenue\" for money coming in and \"expenditure\" for money going out.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: \"The doctor used a tool to listen to my heart.\" What is the technical name for that tool?",
+      answer: "Correct Answer: Stethoscope.",
+      explanation: "Explanation: In the medical register, \"stethoscope\" is the specific name for the instrument used to listen to internal body sounds.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify the domain-specific word in this sentence: \"The protocol for entering the computer lab requires all students to remove their shoes.\"",
+      answer: "Correct Answer: Protocol.",
+      explanation: "Explanation: In this context, \"protocol\" is a technical term meaning a formal set of rules or procedures.",
+    ),
+  ],
+);
+final PracticeModel jhs3s2ss1Lesson13PracticeData = PracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/6. Guided Practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: If you know that \"Tele\" means \"far away\" (like in telephone), what is a \"Telescope\" used for?",
+      answer: "Correct Answer: It is a tool used to see things that are far away, like stars.",
+      explanation: "Explanation: By connecting \"tele\" (far) and \"scope\" (to look), we can determine the function of the object even if we've never seen one.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: The word is \"Interstate.\" We know \"inter\" means \"between\" and \"state\" can mean a country or region. What is an \"interstate\" road?",
+      answer: "Correct Answer: A road that goes between different states or regions.",
+      explanation: "Explanation: This connection helps us understand that the road isn't just inside one town, but connects many places together.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Which word is \"stronger\" or more intense: Cold or Frigid?",
+      answer: "Correct Answer: Frigid.",
+      explanation: "Explanation: While both mean a low temperature, \"frigid\" has the nuance of being extremely, dangerously cold—much colder than a normal \"cold\" day.",
     ),
   ],
 );
