@@ -197,25 +197,53 @@ final Map<String, PracticeModel> becePracticeData = {
             "• Shifting the decimal point 2 places to the left means we multiply the resulting number by 10^{2} to keep its value unchanged.",
       ),
       PracticeQuestion(
-        scenario: "BECE Theory Question 2\n\nA student scored 48 out of 80 in a maths test.\n(a) Express her score as a fraction in its lowest terms.\n(b) Convert this fraction to a percentage.\n(c) If the passing mark was 65%, did she pass?",
-        answer: "(a) 48/80 = 3/5 (dividing both by 16).\n(b) 3/5 = 0.6 = 60%.\n(c) 60% < 65%, so she did NOT pass the test.",
-        explanation: "Real-life contexts require converting between forms and comparing values to make decisions.",
+        scenario: "2. Question: Which of the following numbers is the prime number greater than 23?",
+        answer: "Correct Answer: 29",
+        explanation: "Explanation: A prime number is a number greater than 1 that has only two factors: 1 and itself.Let us examine the given options: \n"
+            "         - 17: This is a prime number, but it is less than 23.\n"
+            "         - 24: This is an even number greater than 2, so it is a composite number (factors include 1, 2, 3, 4, 6, 8, 12, 24).\n"
+            "         - 25: This is a composite number because it ends in 5 and has factors of 1, 5, 25.\n"
+            "         - 29: This number has only two factors (1 and 29), making it a prime number. Since 29 > 23, this is the correct choice.",
       ),
       PracticeQuestion(
-        scenario: "BECE Theory Question 3\n\nAn item costs GH₵150. The price is increased by 20%, then reduced by 10%. What is the final price?",
-        answer: "Step 1: 20% increase → 20% of 150 = 30. New price = 150 + 30 = GH₵180.\nStep 2: 10% reduction → 10% of 180 = 18. Final price = 180 − 18 = GH₵162.",
-        explanation: "Percentage problems must be applied sequentially and always to the current value, not the original.",
+        scenario: "3. Question: Write 4687.02 in standard form.",
+        answer: "Correct Answer: 4687.02 = 4.68702 x 10^{3}",
+        explanation: "Explanation: To write 4687.02 in standard form (A x 10^{n}), we move the decimal point 3 places to the left so that it lies between the 4 and the 6.\n"
+            "Moving the decimal point 3 places to the left requires multiplying by 10^{3} to maintain equivalent value.\n"
+            "This gives:4687.02 = 4.68702 x 10^{3}",
+      ),PracticeQuestion(
+        scenario: "4. Question: Correct 0.02751 to three decimal places.",
+        answer: "Correct Answer: 0.02751 corrected to three decimal places is 0.028",
+        explanation: "Explanation: To round a decimal to three decimal places, we examine the digit in the fourth decimal place.\n"
+            "In 0.02751, the digits are:\n"
+            "           1st decimal place: 0\n "
+            "           2nd decimal place: 2 \n "
+            "           3rd decimal place: 7 \n"
+            "           4th decimal place: 5 \n"
+            "Since the digit in the 4th decimal place is 5 (which is 5 or greater), we round up by adding 1 to the digit in the 3rd decimal place (7 + 1 = 8).\n"
+            "Therefore, 0.02751 corrected to three decimal places is 0.028.",
+      ),PracticeQuestion(
+        scenario: "5. Question: Write in standard form 1342.",
+        answer: "Correct Answer: 1342 = 1.342 x 10^{3}",
+        explanation: "Explanation: The whole number 1342 has an implicit decimal point at the very end (1342.0).\n"
+            "To express it in standard form, we shift the decimal point 3 places to the left to obtain a number between 1 and 10.\n"
+            "Because we moved the decimal point 3 places to the left, we multiply by 10^{3}.\n"
+            "This gives:1342 = 1.342 x 10^{3}",
+      ),PracticeQuestion(
+        scenario: "6. Question: Express 2345 in standard form.",
+        answer: "Correct Answer: 2.345 x 10^{3}",
+        explanation: "Explanation: For the whole number 2345, we locate the implicit decimal point at the end (2345.0).\n"
+            "We shift this decimal point 3 places to the left to position it immediately after the first digit (2).\n"
+            "To balance this shift, we multiply by 10^{3}.\n"
+            "This gives:2.345 x 10^{3}",
+      ),PracticeQuestion(
+        scenario: "7. Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+        answer: "Correct Answer:GH₵35,632.00 rounded to the nearest thousand is GH₵36,000.00.",
+        explanation: "Explanation: To round to the nearest thousand, we look at the digit in the hundreds place.\n"
+            "In the number 35,632, the digit in the thousands place is 5, and the digit in the hundreds place is 6.\n"
+            "Since the hundreds digit (6) is 5 or greater, we round up by adding 1 to the thousands digit (5 + 1 = 6) and replacing all subsequent digits with zeros.",
       ),
-      PracticeQuestion(
-        scenario: "BECE Theory Question 4\n\nArrange these values in DESCENDING ORDER (largest to smallest):\n3/5, 0.62, 65%, 0.6, 3/4",
-        answer: "Convert all to decimals:\n3/5 = 0.60\n0.62 = 0.62\n65% = 0.65\n0.6 = 0.60\n3/4 = 0.75\n\nDescending order: 3/4, 65%, 0.62, 3/5, 0.6\nor: 0.75, 0.65, 0.62, 0.60, 0.60",
-        explanation: "Converting all values to the same form (decimals) allows direct comparison.",
-      ),
-      PracticeQuestion(
-        scenario: "BECE Theory Question 5\n\nKwame earns GH₵3,600 per month. He spends 25% on rent, 15% on food, and saves the rest.\n(a) How much does he spend on rent?\n(b) How much does he spend on food?\n(c) How much does he save each month?",
-        answer: "(a) Rent: 25% of 3,600 = 0.25 × 3,600 = GH₵900.\n(b) Food: 15% of 3,600 = 0.15 × 3,600 = GH₵540.\n(c) Total spent = 900 + 540 = GH₵1,440. Savings = 3,600 − 1,440 = GH₵2,160.",
-        explanation: "Budgeting problems apply percentage calculations to practical financial situations.",
-      ),
+
     ],
   ),
 
