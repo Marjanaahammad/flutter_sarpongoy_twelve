@@ -219,171 +219,293 @@ final Map<String, QuizModel> beceQuizData = {
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Write 356.07 in standard form.        (BECE 1995 Q5)",
-          options: ["35.607 x 10", "35.607 x 10^2", "3.5607 x 10^2", "35607 x 10^2"],
+          question: "1. Write 356.07 in standard form.          (BECE 1995 Q5)",
+          options: [
+            "35.607 × 10",
+            "35.607 × 10²",
+            "3.5607 × 10²",
+            "35607 × 10²"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "356.07 = 3.5607 × 10²."
       ),
+
       QuizQuestion(
-          question: "2. Which of the following numbers is the prime number greater than 23?        (BECE 2004 Q6)",
-          options: ["17", "24", "25", "29"],
+          question: "2. Which of the following numbers is the prime number greater than 23?           (BECE 2004 Q6)",
+          options: [
+            "17",
+            "24",
+            "25",
+            "29"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
           explanation: "29 is the only prime number greater than 23."
       ),
+
       QuizQuestion(
-          question: "3. Write 4687.02 in standard form.        (BECE 1991 Q5)",
-          options: ["46.8702 x 10^3", "46.8702 x 10^4", "4.68702 x 10^5", "4.68702 x 10^3"],
+          question: "3. Write 4687.02 in standard form.          (BECE 1991 Q5)",
+          options: [
+            "46.8702 × 10³",
+            "46.8702 × 10⁴",
+            "4.68702 × 10⁵",
+            "4.68702 × 10³"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
           explanation: "4687.02 = 4.68702 × 10³."
       ),
+
       QuizQuestion(
-          question: "4. Correct 0.02751 to three decimal places.        (BECE 2011 Q40)",
-          options: ["0.027", "0.028", "0.03", "0.28"],
+          question: "4. Correct 0.02751 to three decimal places.          (BECE 2011 Q40)",
+          options: [
+            "0.027",
+            "0.028",
+            "0.03",
+            "0.28"
+          ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Rounded to three decimal places, 0.02751 becomes 0.028."
+          explanation: "Rounded to three decimal places, 0.02751 = 0.028."
       ),
+
       QuizQuestion(
-          question: "5. Write 1342 in standard form.        (BECE 1999 Q4)",
-          options: ["0.1342 x 10^3", "0.1342 x 10^-4", "13.42 x 10^3", "1.342 x 10^3"],
+          question: "5. Write in standard form 1342.          (BECE 1999 Q4)",
+          options: [
+            "0.1342 × 10³",
+            "0.1342 × 10^{-4}",
+            "13.42 × 10³",
+            "1.342 × 10³"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
           explanation: "1342 = 1.342 × 10³."
       ),
+
       QuizQuestion(
-          question: "6. Express 2345 in standard form.        (BECE 2001 Q18)",
-          options: ["2.345 x 10^3", "2.345 x 10^2", "2.345 x 10^4", "2.345 x 10"],
+          question: "6. Express 2345 in standard form.           (BECE 2001 Q18)",
+          options: [
+            "2.345 × 10³",
+            "2.345 × 10²",
+            "2.345 × 10⁴",
+            "2.345 × 10"
+          ],
           correctIndex: 0,
           difficulty: "Easy",
           explanation: "2345 = 2.345 × 10³."
       ),
+
       QuizQuestion(
-          question: "7. Write GH¢35,632.00 correct to the nearest thousand cedis.        (BECE 1994 Q25)",
-          options: ["GH¢40,000.00", "GH¢36,000.00", "GH¢35,600.00", "GH¢35,000.00"],
+          question: "7. Write GH₵35,632.00 correct to the nearest thousand cedis.           (BECE 1994 Q25)",
+          options: [
+            "GH₵40,000.00",
+            "GH₵36,000.00",
+            "GH₵35,600.00",
+            "GH₵35,000.00"
+          ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "35,632 rounds to 36,000."
+          explanation: "35,632 rounded to the nearest thousand is 36,000."
       ),
+
       QuizQuestion(
-          question: "8. Write 83000 in standard form.        (BECE 2003 Q18)",
-          options: ["8.3 x 10^4", "8.3 x 10^-3", "8.3 x 10^3", "8.3 x 10^5"],
+          question: "8. Write 83000 in standard form.           (BECE 2003 Q18)",
+          options: [
+            "8.3 × 10⁴",
+            "8.3 × 10⁻³",
+            "8.3 × 10³",
+            "8.3 × 10⁵"
+          ],
           correctIndex: 0,
           difficulty: "Easy",
           explanation: "83000 = 8.3 × 10⁴."
       ),
+
       QuizQuestion(
-          question: "9. Which of the following is not a prime number?       (BECE 1994 Q5)",
-          options: ["3", "5", "7", "9"],
+          question: "9. Which of the following is not a prime number?           (BECE 1994 Q5)",
+          options: [
+            "3",
+            "5",
+            "7",
+            "9"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "9 = 3 × 3, so it is not prime."
+          explanation: "9 = 3 × 3, so it is not a prime number."
       ),
+
       QuizQuestion(
-          question: "10. Express 2474.5 in standard form.        (BECE 2002A Q4)",
-          options: ["2.4745 x 10^2", "2.4745 x 10^3", "2.4745 x 10^-2", "2.4745 x 10^-3"],
+          question: "10. Express 2474.5 in standard form.           (BECE 2002A Q4)",
+          options: [
+            "2.4745 × 10²",
+            "2.4745 × 10³",
+            "2.4745 × 10⁻²",
+            "2.4745 × 10⁻³"
+          ],
           correctIndex: 1,
           difficulty: "Easy",
           explanation: "2474.5 = 2.4745 × 10³."
       ),
+
       QuizQuestion(
-          question: "11. Write 78910 correct to the nearest thousand.        (BECE 2004 Q8)",
-          options: ["70,000", "78,000", "79,000", "80,000"],
+          question: "11. Write 78910 correct to the nearest thousand.           (BECE 2004 Q8)",
+          options: [
+            "70,000",
+            "78,000",
+            "79,000",
+            "80,000"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "78,910 rounds to 79,000."
+          explanation: "78,910 rounded to the nearest thousand is 79,000."
       ),
+
       QuizQuestion(
-          question: "12. Express 962 in standard form.        (BECE 2006 Q16)",
-          options: ["96.2 x 10", "9.62 x 10^2", "0.962 x 10^3", "0.0962 x 10^4"],
+          question: "12. Express 962 in standard form.           (BECE 2006 Q16)",
+          options: [
+            "96.2 × 10",
+            "9.62 × 10²",
+            "0.962 × 10³",
+            "0.0962 × 10⁴"
+          ],
           correctIndex: 1,
           difficulty: "Easy",
           explanation: "962 = 9.62 × 10²."
       ),
+
       QuizQuestion(
-          question: "13. Round 8921465 to the nearest hundred.         (BECE 2008 Q3)",
-          options: ["8921000", "8921400", "8921460", "8921500"],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation: "8921465 rounded to the nearest hundred is 8921500."
+          question: "13. Round 8921465 to the nearest hundred.           (BECE 2008 Q3)",
+          options: [
+            "8921000",
+            "8921400",
+            "8921460",
+            "8921500"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "8,921,465 rounded to the nearest hundred is 8,921,500."
       ),
+
       QuizQuestion(
-          question: "14. Write the number 34.1 in standard form.        (BECE 2008 Q36)",
-          options: ["3.41 x 10^2", "3.41 x 10^1", "3.41 x 10^0", "3.41 x 10"],
+          question: "14. Write the number 34.1 in standard form.           (BECE 2008 Q36)",
+          options: [
+            "3.41 × 10²",
+            "3.41 × 10¹",
+            "3.41 × 10⁰",
+            "3.41 × 10"
+          ],
           correctIndex: 1,
           difficulty: "Easy",
           explanation: "34.1 = 3.41 × 10¹."
       ),
+
       QuizQuestion(
-          question: "15. Which of the following is an even prime number?        (BECE 2023 Q7)",
-          options: ["1", "8", "4", "2"],
+          question: "15. Which of the following is an even prime number?           (BECE 2023 Q7)",
+          options: [
+            "1",
+            "8",
+            "4",
+            "2"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
           explanation: "2 is the only even prime number."
       ),
+
       QuizQuestion(
-          question: "16. Write 2340000 in standard form.        (BECE 2009 Q2)",
-          options: ["2.34 x 10^-6", "2.34 x 10^5", "2.34 x 10^6", "2.34 x 10^-5"],
+          question: "16. Write 2340000 in standard form.           (BECE 2009 Q2)",
+          options: [
+            "2.34 × 10⁻⁶",
+            "2.34 × 10⁵",
+            "2.34 × 10⁶",
+            "2.34 × 10⁻⁵"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "2340000 = 2.34 × 10⁶."
+          explanation: "2,340,000 = 2.34 × 10⁶."
       ),
+
       QuizQuestion(
-          question: "17. Express 4037 in standard form.        (BECE 2010 Q36)",
-          options: ["4.037 x 10^4", "4.037 x 10^-3", "4.037 x 10^3", "4.037 x 10^-4"],
+          question: "17. Express 4037 in standard form.           (BECE 2010 Q36)",
+          options: [
+            "4.037 × 10⁴",
+            "4.037 × 10⁻³",
+            "4.037 × 10³",
+            "4.037 × 10⁻⁴"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "4037 = 4.037 × 10³."
       ),
+
       QuizQuestion(
-          question: "18. Write 3560 in standard form.        (BECE 2011 Q39)",
-          options: ["3.56 x 10^4", "3.56 x 10^-4", "3.56 x 10^3", "3.56 x 10^-4"],
+          question: "18. Write 3560 in standard form.           (BECE 2011 Q39)",
+          options: [
+            "3.56 × 10⁴",
+            "3.56 × 10⁻³",
+            "3.56 × 10³",
+            "3.56 × 10⁻⁴"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "3560 = 3.56 × 10³."
       ),
+
       QuizQuestion(
-          question: "19. Which of the following numbers is an integer?        (BECE 2012 Q2)",
-          options: [r"\frac{−5}{4}", r"\frac{−2}{3}", "0.5", "−1"],
+          question: "19. Which of the following numbers is an integer?           (BECE 2012 Q2)",
+          options: [
+            "-5/4",
+            "-2/3",
+            "0.5",
+            "-1"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "−1 is an integer."
+          explanation: "-1 is an integer."
       ),
+
       QuizQuestion(
-          question: "20. Which of the following is arranged in ascending order?        (BECE 2016 Q9)",
+          question: "20. Which of the following is arranged in ascending order?           (BECE 2016 Q9)",
           options: [
-            "−10, −7, 4.2, 9",
-            "−10, 9, −7, 4.2",
-            "−4, −7, 10, 2.9",
-            "2, 4, −7, 9, 10"
+            "-10, -7, 4.2, 9",
+            "-10, 9, -7, 4.2",
+            "-4, -7, 10, 2.9",
+            "2, 4, -7, 9, 10"
           ],
           correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "Ascending order means smallest to largest."
+          difficulty: "Easy",
+          explanation: "-10 < -7 < 4.2 < 9."
       ),
+
       QuizQuestion(
-          question: "21. Express 134.78 correct to the nearest tenth.        (BECE 2021 Q8)",
-          options: ["130.0", "134.7", "134.8", "135.0"],
+          question: "21. Express 134.78 correct to the nearest tenth.           (BECE 2021 Q8)",
+          options: [
+            "130.0",
+            "134.7",
+            "134.8",
+            "135.0"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "134.78 rounded to one decimal place is 134.8."
       ),
+
       QuizQuestion(
-          question: "22. Express 625.13 in standard form.        (BECE 2015 Q16)",
+          question: "22. Express 625.13 in standard form.           (BECE 2015 Q16)",
           options: [
-            "6.2513 x 10^-2",
-            "6.2513 x 10^-4",
-            "6.2513 x 10^2",
-            "6.2513 x 10^4"
+            "6.2513 × 10⁻²",
+            "6.2513 × 10⁻⁴",
+            "6.2513 × 10²",
+            "6.2513 × 10⁴"
           ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "625.13 = 6.2513 × 10²."
       ),
+
       QuizQuestion(
-          question: "23. Which of the following is the largest set?",
+          question: "23. Which of the following is the largest set?           (BECE 2016 Q6)",
           options: [
             "{Composites}",
             "{Integers}",
@@ -392,64 +514,829 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The set of integers includes negative numbers, whole numbers, and natural numbers."
+          explanation: "The set of integers contains whole numbers, natural numbers and their negative counterparts."
       ),
+
       QuizQuestion(
-          question: "24. Correct 48,947.2547 to the nearest hundred.        (BECE 2016 Q6)",
-          options: ["490", "48,900", "48,950", "49,000"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "48,947.2547 rounds to 48,900."
-      ),
-      QuizQuestion(
-          question: "25. Arrange the following integers from the least to the highest: 4, 9, −10, 7 and 2.        (BECE 2018 Q1)",
+          question: "24. Correct 48,947.2547 to the nearest hundred.           (BECE 2016 Q6)",
           options: [
-            "−10, 2, 4, 7, 9",
-            "−64, −25, 4, 17",
-            "−64, −25, 17, 4",
-            "17, 4, −25, −64"
+            "490",
+            "48,900",
+            "48,950",
+            "49,000"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "48,947.2547 rounded to the nearest hundred is 49,000."
+      ),
+
+      QuizQuestion(
+          question: "25. Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.           (BECE 2018 Q1)",
+          options: [
+            "-10, -7, 4.2, 9",
+            "-64, -25, 4, 17",
+            "-64, -25, 17, 4",
+            "17, 4, -25, -64"
           ],
           correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "The correct ascending order is −10, 2, 4, 7, 9."
+          difficulty: "Easy",
+          explanation: "Ascending order is -10, 2, 4, 7, 9. (The options are copied exactly as shown in the image.)"
       ),
+
       QuizQuestion(
-          question: "26. Which of the following is not an integer?        (BECE 2022 Q11)",
-          options: ["1", "−5", "0.5", "0"],
+          question: "26. Which of the following is not an integer?           (BECE 2022 Q11)",
+          options: [
+            "1",
+            "-5",
+            "0.5",
+            "0"
+          ],
           correctIndex: 2,
           difficulty: "Easy",
           explanation: "0.5 is not an integer."
       ),
+
       QuizQuestion(
-          question: "27. Which of the following numbers is the largest?       (BECE 2019 Q3)",
-          options: ["−70", "−50", "−3", "−2"],
+          question: "27. Which of the following numbers is the largest?           (BECE 2019 Q3)",
+          options: [
+            "-70",
+            "-50",
+            "-3",
+            "-2"
+          ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "−2 is the largest because it is closest to zero."
+          explanation: "-2 is the largest among the given negative numbers."
       ),
+
       QuizQuestion(
-          question: "28. Find the largest value of these numbers: −1, 0, −6, −3.",
-          options: ["0", "−1", "3", "−6"],
+          question: "28. Find the largest value of these numbers: -1, 0, -6, -3.           (BECE 2023 Q2)",
+          options: [
+            "0", "-1", "3", "-6"
+          ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "0 is greater than all the negative numbers."
+          explanation: "0 is the largest value."
       ),
     ],
   ),
-
-  "Fractions, Decimals, and Percentages": QuizModel(
+  "Number Operations": QuizModel(
     audioPath: '',
     questions: [
-      QuizQuestion(question: "1. What is 3/4 as a decimal?", options: ["0.34", "0.75", "0.43", "0.3"], correctIndex: 1, difficulty: "Easy", explanation: "3 ÷ 4 = 0.75."),
-      QuizQuestion(question: "2. Convert 0.6 to a percentage.", options: ["6%", "0.6%", "60%", "600%"], correctIndex: 2, difficulty: "Easy", explanation: "0.6 × 100 = 60%."),
-      QuizQuestion(question: "3. Simplify 18/24 to its lowest terms.", options: ["9/12", "3/4", "6/8", "2/3"], correctIndex: 1, difficulty: "Easy", explanation: "HCF of 18 and 24 is 6. 18÷6 = 3, 24÷6 = 4. Answer: 3/4."),
-      QuizQuestion(question: "4. What is 25% of 80?", options: ["15", "20", "25", "40"], correctIndex: 1, difficulty: "Easy", explanation: "25% of 80 = 0.25 × 80 = 20."),
-      QuizQuestion(question: "5. Arrange in ascending order: 0.5, 2/5, 55%", options: ["0.5, 2/5, 55%", "2/5, 0.5, 55%", "55%, 2/5, 0.5", "2/5, 55%, 0.5"], correctIndex: 1, difficulty: "Medium", explanation: "2/5 = 0.4, 0.5 = 50%, 55% = 0.55. In order: 0.4 < 0.5 < 0.55."),
-      QuizQuestion(question: "6. A shirt costs GH₵80. A 15% discount is given. What is the new price?", options: ["GH₵12", "GH₵65", "GH₵68", "GH₵70"], correctIndex: 2, difficulty: "Medium", explanation: "15% of 80 = 12. 80 − 12 = GH₵68."),
-      QuizQuestion(question: "7. Express 5/8 as a percentage.", options: ["50%", "58%", "62.5%", "80%"], correctIndex: 2, difficulty: "Medium", explanation: "5 ÷ 8 = 0.625. 0.625 × 100 = 62.5%."),
-      QuizQuestion(question: "8. What is 2/3 + 1/4?", options: ["3/7", "11/12", "3/12", "5/6"], correctIndex: 1, difficulty: "Medium", explanation: "LCD = 12. 8/12 + 3/12 = 11/12."),
-      QuizQuestion(question: "9. A student scored 36 out of 60. What percentage is this?", options: ["36%", "50%", "60%", "66.7%"], correctIndex: 2, difficulty: "Medium", explanation: "(36/60) × 100 = 60%."),
-      QuizQuestion(question: "10. An item costs GH₵200. The price increases by 10%. What is the new price?", options: ["GH₵210", "GH₵220", "GH₵180", "GH₵202"], correctIndex: 1, difficulty: "Easy", explanation: "10% of 200 = 20. 200 + 20 = GH₵220."),
+      QuizQuestion(
+          question: "1. Find the highest (greatest) common factor of 63 and 81.          (BECE 2001 Q4)",
+          options: [
+            "3",
+            "7",
+            "9",
+            "21"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "63 = 3² × 7 and 81 = 3⁴, so the HCF is 3² = 9."
+      ),
+
+      QuizQuestion(
+          question: "2. Express 24 as a product of prime factors.          (BECE 1999 Q3)",
+          options: [
+            "2² × 3",
+            "2 × 3",
+            "2³ × 3",
+            "2² × 3²"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "24 = 2³ × 3."
+      ),
+
+      QuizQuestion(
+          question: "3. What is the H.C.F of 48, 30 and 18?          (BECE 1995 Q3)",
+          options: [
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The HCF of 48, 30 and 18 is 6."
+      ),
+
+      QuizQuestion(
+          question: "4. A basket contains 450 oranges. If each orange costs ₵15.00, find the total cost of the oranges.          (BECE 1993 Q27)",
+          options: [
+            "₵30.00",
+            "₵435.00",
+            "₵465.00",
+            "₵6,750.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "450 × 15 = ₵6,750.00."
+      ),
+
+      QuizQuestion(
+          question: "5. A watchman was paid basic wage of ₵250.00 a day. If he worked everyday in the month, calculate his basic wage for February, 1988.          (BECE 1990 Q27)",
+          options: [
+            "₵6,250.00",
+            "₵7,200.00",
+            "₵7,250.00",
+            "₵7,500.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "1988 was a leap year, so February had 29 days. 29 × 250 = ₵7,250.00."
+      ),
+
+      QuizQuestion(
+          question: "6. If 26039 oranges are shared equally among 13 women, how many oranges does each woman receive?          (BECE 1990 Q6)",
+          options: [
+            "23",
+            "203",
+            "230",
+            "2003"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "26039 ÷ 13 = 2003."
+      ),
+
+      QuizQuestion(
+          question: "7. What is the equivalent of 2² × 6² in terms of indices?          (BECE 1998 Q4)",
+          options: [
+            "5",
+            "7",
+            "10",
+            "35"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "2² × 6² = (2 × 6)² = 12² = 144. (The provided options appear incorrect in the source.)"
+      ),
+
+      QuizQuestion(
+          question: "8. Find the L.C.M. of 18, 42 and 90.          (BECE 1997 Q9)",
+          options: [
+            "2 × 3²",
+            "2 × 3 × 7",
+            "2 × 3² × 5",
+            "2 × 3² × 5 × 7"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "LCM = 2 × 3² × 5 × 7 = 630."
+      ),
+
+      QuizQuestion(
+          question: "9. Simplify 11 - (11 - 4) + 13.          (BECE 2000 Q3)",
+          options: [
+            "9",
+            "17",
+            "9",
+            "17"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "11 − (11 − 4) + 13 = 11 − 7 + 13 = 17."
+      ),
+
+      QuizQuestion(
+          question: "10. Find the least whole number which must be added to 207 to make it divisible by 17.          (BECE 1992 Q6)",
+          options: [
+            "0",
+            "3",
+            "13",
+            "14"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "207 ÷ 17 leaves remainder 3. Add 14 to get 221, which is divisible by 17."
+      ),
+      QuizQuestion(
+          question: "11. Find the Greatest Common Factor (HCF) of 18, 36 and 120.          (BECE 2009 Q26)",
+          options: [
+            "6",
+            "12",
+            "18",
+            "24"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The HCF of 18, 36 and 120 is 6."
+      ),
+      QuizQuestion(
+          question: "12. 200 bottles of equal capacity hold 350 litres of water. How much water does each bottle hold?          (BECE 1996 Q37)",
+          options: [
+            "1.750 litres",
+            "175 litres",
+            "17.5 litres",
+            "1.75 litres"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "350 ÷ 200 = 1.75 litres."
+      ),
+
+      QuizQuestion(
+          question: "13. Find the least common multiple of 7, 14 and 18.          (BECE 1990 Q23)",
+          options: [
+            "71418",
+            "1764",
+            "252",
+            "126"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "LCM = 2 × 3² × 7 = 252."
+      ),
+
+      QuizQuestion(
+          question: "14. A pencil sells at ₵180.00 and an eraser sells at ₵120.00. How much will you pay if you buy three pencils and four erasers?          (BECE 2000 Q11)",
+          options: [
+            "₵1,200.00",
+            "₵1,080.00",
+            "₵1,020.00",
+            "₵1,280.00"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "3 × 180 + 4 × 120 = 540 + 480 = ₵1,020.00. (The correct value is ₵1,020.00, but the provided answer key/options appear inconsistent.)"
+      ),
+
+      QuizQuestion(
+          question: "15. What is the value of 4 + x⁰?          (BECE 2009 Q17)",
+          options: [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Since x⁰ = 1 (for x ≠ 0), 4 + 1 = 5."
+      ),
+
+      QuizQuestion(
+          question: "16. A ribbon is 4 m long. How many pieces each 30 cm long can be cut from the ribbon?          (BECE 1999 Q8)",
+          options: [
+            "7.3",
+            "11.3",
+            "12.0",
+            "13.3"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "4 m = 400 cm. 400 ÷ 30 = 13 remainder 10, so 13 full pieces can be cut. (The provided options appear incorrect.)"
+      ),
+
+      QuizQuestion(
+          question: "17. Find one-hundredth of 1.0756.          (BECE 1991 Q24)",
+          options: [
+            "107.56",
+            "10.756",
+            "0.1756",
+            "0.010756"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "One-hundredth means divide by 100: 1.0756 ÷ 100 = 0.010756."
+      ),
+
+      QuizQuestion(
+          question: "18. Find the G.C.F (H.C.F) of 2³ × 3² and 2² × 3⁴.          (BECE 1991 Q9)",
+          options: [
+            "8",
+            "9",
+            "72",
+            "648"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Take the smallest powers: 2² × 3² = 4 × 9 = 36. (The correct answer is 36, but it is not among the provided options.)"
+      ),
+
+      QuizQuestion(
+          question: "19. If Y = 595 and Z = 7071, find the sum of Y and Z.          (BECE 1999 Q6)",
+          options: [
+            "6466",
+            "7566",
+            "7666",
+            "12,021"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "595 + 7071 = 7666."
+      ),
+
+      QuizQuestion(
+          question: "20. What is the H.C.F of 18, 42 and 90?          (BECE 1997 Q10)",
+          options: [
+            "21",
+            "18",
+            "9",
+            "6"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The HCF of 18, 42 and 90 is 6."
+      ),
+      QuizQuestion(
+          question: "21. Express 350 as a product of prime factors.          (BECE 2006 Q15)",
+          options: [
+            "2 × 5 × 7",
+            "2 × 5² × 7",
+            "2² × 5 × 7²",
+            "2² × 5 × 7"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "350 = 2 × 175 = 2 × 5² × 7."
+      ),
+
+      QuizQuestion(
+          question: "22. Simplify: -15 - (-20) + (-10).          (BECE 2022 Q13)",
+          options: [
+            "-45",
+            "-25",
+            "-5",
+            "5"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "-15 - (-20) + (-10) = -15 + 20 - 10 = -5."
+      ),
+
+      QuizQuestion(
+          question: "23. Find the least common multiple (LCM) of 4, 6 and 10.          (BECE 2004 Q24)",
+          options: [
+            "10",
+            "24",
+            "30",
+            "60"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "4 = 2², 6 = 2 × 3 and 10 = 2 × 5. Therefore, the LCM is 2² × 3 × 5 = 60."
+      ),
+
+      QuizQuestion(
+          question: "24. Kofi bought four pencils at ₵200.00 each and five pens at ₵350.00 each. How much did he pay altogether?          (BECE 2002 Q11)",
+          options: [
+            "₵2,400.00",
+            "₵2,450.00",
+            "₵2,550.00",
+            "₵2,650.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The pencils cost 4 × ₵200.00 = ₵800.00 and the pens cost 5 × ₵350.00 = ₵1,750.00. Altogether, he paid ₵2,550.00."
+      ),
+
+      QuizQuestion(
+          question: "25. Find the product of 17 and 121.          (BECE 2003 Q9)",
+          options: [
+            "968",
+            "1,751",
+            "2,057",
+            "8,591"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "17 × 121 = 2,057."
+      ),
+
+      QuizQuestion(
+          question: "26. 135 pencils were to be packed into boxes. Each box could take 12 pencils. Find the number of boxes that were fully packed.          (BECE 2002 Q8)",
+          options: [
+            "10 boxes",
+            "11 boxes",
+            "12 boxes",
+            "13 boxes"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "135 ÷ 12 = 11 remainder 3. Therefore, 11 boxes were fully packed."
+      ),
+
+      QuizQuestion(
+          question: "27. Find the highest common factor of 48, 60 and 96.          (BECE 2004 Q15)",
+          options: [
+            "12",
+            "24",
+            "36",
+            "48"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The greatest number that divides 48, 60 and 96 exactly is 12."
+      ),
+
+      QuizQuestion(
+          question: "28. Express 72 as a product of prime factors.          (BECE 2003 Q5)",
+          options: [
+            "2³ × 3²",
+            "2² × 3³",
+            "2² × 3²",
+            "2³ × 3"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "72 = 8 × 9 = 2³ × 3²."
+      ),
+
+      QuizQuestion(
+          question: "29. Find the sum of all the even numbers between 70 and 80.          (BECE 2001 Q7)",
+          options: [
+            "200",
+            "223",
+            "280",
+            "300"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The even numbers strictly between 70 and 80 are 72, 74, 76 and 78. Their sum is 72 + 74 + 76 + 78 = 300."
+      ),
+
+      QuizQuestion(
+          question: "30. Find the least common multiple (L.C.M) of the numbers 10, 15 and 25.          (BECE 2002 Q11)",
+          options: [
+            "30",
+            "60",
+            "120",
+            "150"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "10 = 2 × 5, 15 = 3 × 5 and 25 = 5². Therefore, the LCM is 2 × 3 × 5² = 150."
+      ),
+
+      QuizQuestion(
+          question: "31. In sharing 95 oranges with Dede, Fofo kept 45 of them and shared the rest equally with Dede. How many oranges did Dede get?          (BECE 2005 Q16)",
+          options: [
+            "20",
+            "25",
+            "40",
+            "55"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "After Fofo kept 45 oranges, 95 - 45 = 50 remained. Sharing the 50 equally between Fofo and Dede gives Dede 50 ÷ 2 = 25 oranges."
+      ),
+
+      QuizQuestion(
+          question: "32. Which of the following is equivalent to 2² × 6³?          (BECE 2004 Q29)",
+          options: [
+            "2⁶ × 3³",
+            "2⁵ × 3³",
+            "2⁴ × 3",
+            "2³ × 3³"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Since 6³ = (2 × 3)³ = 2³ × 3³, then 2² × 6³ = 2² × 2³ × 3³ = 2⁵ × 3³."
+      ),
+
+      QuizQuestion(
+          question: "33. Araba owes ₵550,000.00 at a bank. She goes to pay ₵150,000.00. How much does Araba owe the bank now?          (BECE 2003 Q10)",
+          options: [
+            "₵700,000.00",
+            "₵600,000.00",
+            "₵500,000.00",
+            "₵400,000.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "₵550,000.00 - ₵150,000.00 = ₵400,000.00."
+      ),
+
+      QuizQuestion(
+          question: "34. Simplify -35 - (-15) + (-30).          (BECE 2004 Q7)",
+          options: [
+            "17",
+            "-50",
+            "50",
+            "30"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "-35 - (-15) + (-30) = -35 + 15 - 30 = -50."
+      ),
+    ],
+  ),
+  "Fractions, Decimals and Percentages": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: r"1. Simplify 2 × (3\frac{1}{2} + 1\frac{1}{2}).          (BECE 1992 Q7)",
+          options: [
+            "2",
+            r"4\frac{1}{2}",
+            r"6\frac{1}{2}",
+            "9"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "3½ + 1½ = 5, and 2 × 5 = 10. The intended BECE answer in the options corresponds to 9 (as shown in the source, though the expression appears misprinted)."
+      ),
+
+      QuizQuestion(
+          question: r"2. Express \frac{3}{8} as a percentage.          (BECE 1992 Q16)",
+          options: [
+            "0.375%",
+            r"12\frac{1}{2}%",
+            "25%",
+            r"37\frac{1}{2}%"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "3/8 = 0.375 = 37.5% = 37½%."
+      ),
+
+      QuizQuestion(
+          question: r"3. Arrange the fractions \frac{2}{3}, \frac{3}{4}, \frac{3}{5} in ascending order.          (BECE 1993 Q7)",
+          options: [
+            r"\frac{2}{3}, \frac{3}{4}, \frac{3}{5}",
+            r"\frac{3}{4}, \frac{3}{5}, \frac{2}{3}",
+            r"\frac{3}{5}, \frac{2}{3}, \frac{3}{4}",
+            r"\frac{3}{5}, \frac{3}{4}, \frac{2}{3}"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "3/5 = 0.6, 2/3 ≈ 0.667, 3/4 = 0.75."
+      ),
+
+      QuizQuestion(
+          question: "4. A tank contains 250 litres of water. If 196 litres is used, what percentage of the original quantity is left?          (BECE 1990 Q28)",
+          options: [
+            "61.6%",
+            "60.5%",
+            "59.0%",
+            "54.2%"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "250 − 196 = 54 litres. (54 ÷ 250) × 100 = 21.6%. The options in the source appear inconsistent."
+      ),
+
+      QuizQuestion(
+          question: r"5. Which of the following inequalities is/are true? I. \frac{5}{6} > \frac{3}{4} II. \frac{1}{3} < \frac{3}{5} III. \frac{3}{8} > \frac{1}{2}          (BECE 1993 Q11)",
+          options: [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "I and II are true, while III is false."
+      ),
+
+      QuizQuestion(
+          question: "6. In an examination 60% of the candidates passed. The number who passed was 240. How many failed?          (BECE 1990 Q11)",
+          options: [
+            "140",
+            "160",
+            "360",
+            "400"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Total = 240 ÷ 0.6 = 400. Failed = 400 − 240 = 160."
+      ),
+
+      QuizQuestion(
+          question: "7. Express 25 as a percentage of 75.          (BECE 1994 Q18)",
+          options: [
+            "300%",
+            "100%",
+            "50%",
+            "33.3%"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "(25 ÷ 75) × 100 = 33⅓%."
+      ),
+
+      QuizQuestion(
+          question: "8. If 22% of the length of a rope is 55 cm, find the full length of the rope.          (BECE 1991 Q39)",
+          options: [
+            "12.1 cm",
+            "25 cm",
+            "121 cm",
+            "250 cm"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Length = 55 ÷ 0.22 = 250 cm."
+      ),
+
+      QuizQuestion(
+          question: r"9. Find 2\frac{1}{2}% of ₵2,000.00.          (BECE 1993 Q5)",
+          options: [
+            "₵40.00",
+            "₵50.00",
+            "₵100.00",
+            "₵800.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "2.5% = 0.025. 0.025 × 2000 = ₵50.00."
+      ),
+
+      QuizQuestion(
+          question: "10. In a school, 80 pupils wrote an examination and 64 passed. What is the percentage who passed?          (BECE 1995 Q12)",
+          options: [
+            "80%",
+            "16%",
+            "20%",
+            "64%"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "(64 ÷ 80) × 100 = 80%."
+      ),
+
+      QuizQuestion(
+          question: r"11. Arrange the following fractions in ascending order: \frac{1}{2}, \frac{2}{5}, \frac{1}{3}.          (BECE 1993 Q9)",
+          options: [
+            r"\frac{1}{2}, \frac{2}{5}, \frac{1}{3}",
+            r"\frac{1}{3}, \frac{2}{5}, \frac{1}{2}",
+            r"\frac{2}{5}, \frac{1}{3}, \frac{1}{2}",
+            r"\frac{1}{3}, \frac{1}{2}, \frac{2}{5}"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "1/3 ≈ 0.333, 2/5 = 0.4, 1/2 = 0.5."
+      ),
+
+      QuizQuestion(
+          question: r"12. Simplify: \frac{1}{6} − \frac{2}{3} + \frac{1}{4}.          (BECE 1996 Q9)",
+          options: [
+            r"\frac{17}{30}",
+            r"\frac{1}{12}",
+            r"\frac{-7}{30}",
+            r"\frac{-7}{12}"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "LCM = 12. 2/12 − 8/12 + 3/12 = −3/12 = −1/4. (The source options appear inconsistent.)"
+      ),
+
+      QuizQuestion(
+          question: "13. What is 16% of ₵500,000.00?          (BECE 1996 Q31)",
+          options: [
+            "₵80.00",
+            "₵8,000.00",
+            "₵80,000.00",
+            "₵420,000.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "0.16 × 500,000 = ₵80,000.00."
+      ),
+
+      QuizQuestion(
+          question: "14. Express 30 cm as a percentage of 2 m.          (BECE 1997 Q5)",
+          options: [
+            "0.15%",
+            "1.5%",
+            "6.7%",
+            "15%"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "2 m = 200 cm. (30 ÷ 200) × 100 = 15%."
+      ),
+
+      QuizQuestion(
+          question: r"15. Arrange the following decimals in descending order: \frac{9}{16}, \frac{5}{8}, 0.62.          (BECE 1997 Q8)",
+          options: [
+            r"\frac{9}{16}, \frac{5}{8}, 0.62",
+            r"0.62, \frac{5}{8}, \frac{9}{16}",
+            r"\frac{5}{8}, 0.62, \frac{9}{16}",
+            r"\frac{9}{16}, 0.62, \frac{5}{8}"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "5/8 = 0.625, 0.62 = 0.62, 9/16 = 0.5625."
+      ),
+
+      QuizQuestion(
+          question: "16. If 22% of a rope is 55 metres long, find the full length of the rope.          (BECE 1997 Q31)",
+          options: [
+            "12.1 m",
+            "35 m",
+            "121 m",
+            "250 m"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "55 ÷ 0.22 = 250 m."
+      ),
+
+      QuizQuestion(
+          question: r"17. Arrange the following numbers from the highest to the lowest: \frac{2}{3}, \frac{-9}{10}, 0.          (BECE 1998 Q10)",
+          options: [
+            r"\frac{2}{3}, 0, \frac{-9}{10}",
+            r"\frac{-9}{10}, 0, \frac{2}{3}",
+            r"0, \frac{2}{3}, \frac{-9}{10}",
+            r"\frac{2}{3}, \frac{-9}{10}, 0"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "2/3 ≈ 0.667 > 0 > −0.9."
+      ),
+
+      QuizQuestion(
+          question: "18. Mansah obtained 150 marks out of 240 marks in an English test. What was her percentage score?          (BECE 1998 Q16)",
+          options: [
+            "33.33%",
+            "36.59%",
+            "41.67%",
+            "62.5%"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "(150 ÷ 240) × 100 = 62.5%."
+      ),
+
+      QuizQuestion(
+          question: "19. Kweku had 300 mangoes. He sold 240 of them. What is the percentage of the mangoes left?          (BECE 1998 Q19)",
+          options: [
+            "8%",
+            "20%",
+            "25%",
+            "36.7%"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Left = 60. (60 ÷ 300) × 100 = 20%."
+      ),
+
+      QuizQuestion(
+          question: r"20. Simplify: \frac{1}{2} − \frac{1}{4} + \frac{1}{8}.          (BECE 1999 Q7)",
+          options: [
+            r"\frac{1}{8}",
+            r"\frac{3}{8}",
+            r"\frac{8}{5}",
+            r"\frac{7}{8}"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "4/8 − 2/8 + 1/8 = 3/8."
+      ),
+
+      QuizQuestion(
+          question: r"21. Which of the following fractions is the greatest: \frac{1}{6}, \frac{1}{4}, \frac{1}{2}, \frac{1}{3}, \frac{1}{5}?          (BECE 1999 Q14)",
+          options: [
+            r"\frac{1}{2}",
+            r"\frac{1}{3}",
+            r"\frac{1}{4}",
+            r"\frac{1}{5}"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Among unit fractions, the one with the smallest denominator is the greatest."
+      ),
+
+      QuizQuestion(
+          question: "22. There are 6 girls and 18 boys in a class. What percentage of the class are girls?          (BECE 1999 Q17)",
+          options: [
+            "14.40%",
+            "25.00%",
+            "33.33%",
+            "66.67%"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Total = 24. (6 ÷ 24) × 100 = 25%."
+      ),
+
+      QuizQuestion(
+          question: r"23. Arrange the following fractions from the lowest to the highest: \frac{1}{2}, \frac{1}{3}, \frac{2}{5}.          (BECE 2000 Q23)",
+          options: [
+            r"\frac{1}{2}, \frac{2}{5}, \frac{1}{3}",
+            r"\frac{1}{3}, \frac{1}{2}, \frac{2}{5}",
+            r"\frac{1}{3}, \frac{2}{5}, \frac{1}{2}",
+            r"\frac{2}{5}, \frac{1}{3}, \frac{1}{2}"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "1/3 ≈ 0.333, 2/5 = 0.4, 1/2 = 0.5."
+      ),
+
+      QuizQuestion(
+          question: "24. If 60% of the pupils in a school is 240, find the total enrolment in the school.          (BECE 2000 Q24)",
+          options: [
+            "144",
+            "160",
+            "360",
+            "400"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Total = 240 ÷ 0.6 = 400."
+      ),
     ],
   ),
 

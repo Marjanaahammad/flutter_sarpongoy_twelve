@@ -639,7 +639,11 @@ class StrandScreen extends StatelessWidget {
                             (type == "Learn" && lesson.learnDoneDate != null) ||
                             (type == "Practice" &&
                                 lesson.practiceDoneDate != null) ||
-                            (type == "Quiz" && lesson.quizDoneDate != null)
+                            (type == "Quiz" && lesson.quizDoneDate != null) ||
+                            (type == "Objectives" &&
+                                lesson.quizDoneDate != null) ||
+                            (type == "Theory" &&
+                                lesson.practiceDoneDate != null)
                         ? const Color(0xFF019E2E)
                         : Colors.grey.shade300),
                     size: 25,
@@ -651,6 +655,8 @@ class StrandScreen extends StatelessWidget {
                 _buildDoneRow(lesson.getReadyDoneDate!),
               if (type == "Learn" && lesson.learnDoneDate != null)
                 _buildDoneRow(lesson.learnDoneDate!),
+              if (type == "Theory" && lesson.practiceDoneDate != null)
+                _buildDoneRow(lesson.practiceDoneDate!),
               if (type == "Practice" && lesson.practiceDoneDate != null)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -681,6 +687,43 @@ class StrandScreen extends StatelessWidget {
                           ),
                           Text(
                             _formatScore(lesson.practiceScore),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+              if (type == "Objectives" && lesson.quizDoneDate != null)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildDoneRow(lesson.quizDoneDate!),
+                    if (lesson.quizOriginalScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "First Attempt : ",
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.quizOriginalScore),
+                            style: const TextStyle(
+                                fontSize: 15, color: Color(0xFF3E3C3C)),
+                          ),
+                        ],
+                      ),
+                    if (lesson.quizScore != null)
+                      Row(
+                        children: [
+                          Text(
+                            "Latest Score : ",
+                            style: const TextStyle(
+                                fontSize: 15, color: Colors.black),
+                          ),
+                          Text(
+                            _formatScore(lesson.quizScore),
                             style: const TextStyle(
                                 fontSize: 15, color: Color(0xFF3E3C3C)),
                           ),

@@ -233,7 +233,8 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                           curve: Curves.easeOutCubic,
                                         )
                                         .fadeIn(),
-                                  if (controller.showExplanation.value)
+                                  if (controller.showExplanation.value &&
+                                      !controller.isBece)
                                     Padding(
                                       padding: const EdgeInsets.only(
                                         bottom: 40,
