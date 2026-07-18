@@ -486,21 +486,703 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
-  "Dealing with Sanitation Challenges": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. Which of the following is a major sanitation challenge in Ghana?", options: ["Too many hospitals", "Open defecation in communities", "Excess rainfall", "Overbuilding of schools"], correctIndex: 1, difficulty: "Easy", explanation: "Open defecation is a serious sanitation problem in many communities."),
-      QuizQuestion(question: "2. Improper disposal of waste leads to:", options: ["Improved air quality", "Spread of diseases like cholera", "Better drainage systems", "Reduced flooding"], correctIndex: 1, difficulty: "Easy", explanation: "Poor waste management creates breeding grounds for disease vectors."),
-      QuizQuestion(question: "3. Which body in Ghana is responsible for managing environmental sanitation?", options: ["Ghana Water Company", "Environmental Protection Agency (EPA)", "Ghana Education Service", "National Health Insurance Authority"], correctIndex: 1, difficulty: "Medium", explanation: "The EPA oversees environmental protection and sanitation policy in Ghana."),
-      QuizQuestion(question: "4. 'WASH' stands for:", options: ["Water, Agriculture, Sanitation, Health", "Water, Sanitation and Hygiene", "Waste and Sewage Handling", "Water and Soil Health"], correctIndex: 1, difficulty: "Medium", explanation: "WASH = Water, Sanitation and Hygiene — a global development framework."),
-      QuizQuestion(question: "5. Which of these is a sustainable solution to sanitation challenges?", options: ["Dumping waste into rivers", "Community-led programmes to build and use latrines", "Burning all rubbish openly", "Closing markets to reduce waste"], correctIndex: 1, difficulty: "Medium", explanation: "Community-built and maintained latrines provide a lasting sanitation solution."),
-      QuizQuestion(question: "6. Solid waste can best be managed through:", options: ["Burying it in forests", "The 3Rs — Reduce, Reuse, Recycle", "Dumping it in open spaces", "Burning it in schools"], correctIndex: 1, difficulty: "Easy", explanation: "The 3Rs principle promotes environmentally responsible waste management."),
-      QuizQuestion(question: "7. Cholera is caused by:", options: ["A bacterial infection from contaminated water or food", "A viral airborne disease", "Mosquito bites", "Lack of exercise"], correctIndex: 0, difficulty: "Medium", explanation: "Cholera is caused by the bacterium Vibrio cholerae spread through contaminated water."),
-      QuizQuestion(question: "8. A 'sanitation ladder' describes:", options: ["Different levels of sanitation service, from open defecation to full sanitation", "A device for climbing into sewage tanks", "A measure of rainfall in a region", "A ranking of Ghana's hospitals"], correctIndex: 0, difficulty: "Hard", explanation: "The sanitation ladder tracks improvement from no facility to safely managed sanitation."),
-      QuizQuestion(question: "9. Hand-washing with soap is effective because:", options: ["It makes hands soft", "It removes and kills germs that cause disease", "It is cheaper than medicine", "Soap smells nice"], correctIndex: 1, difficulty: "Easy", explanation: "Soap physically removes pathogens, significantly reducing disease transmission."),
-      QuizQuestion(question: "10. Which group in Ghana is most vulnerable to poor sanitation?", options: ["Adults over 60", "Young children under 5", "Male teenagers", "Educated professionals"], correctIndex: 1, difficulty: "Medium", explanation: "Young children have weaker immune systems and are most at risk from unsanitary conditions."),
-    ],
-  ),
+  "Environmental Issues": QuizModel(
+  audioPath: '',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following may help solve the problem of forest destruction in Ghana?",
+      options: [
+        "Bush burning",
+        "Lumbering",
+        "Mining",
+        "Afforestation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Afforestation involves planting trees to replace destroyed forests and restore vegetation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Protection of the environment in Ghana must be the responsibility of:",
+      options: [
+        "The government",
+        "The Environmental Protection Agency",
+        "All people within the community",
+        "The Forestry Department"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Everyone in the community has a responsibility to protect and preserve the environment.",
+    ),
+    QuizQuestion(
+      question: "3. Desertification is caused by:",
+      options: [
+        "Afforestation",
+        "Excessive rainfall",
+        "Overgrazing",
+        "Irrigation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Overgrazing removes vegetation and exposes the soil, contributing to desertification.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following human activities destroys habitats of animals?",
+      options: [
+        "Bush burning",
+        "Bush fallowing",
+        "Inter-cropping",
+        "Mixed farming"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Bush burning destroys vegetation, animal shelters and food sources.",
+    ),
+    QuizQuestion(
+      question: "5. Which of the following is NOT an agent of erosion?",
+      options: [
+        "Wind",
+        "River",
+        "Sun",
+        "Volcano"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Wind and running water are common agents of erosion, but the sun does not directly transport eroded materials.",
+    ),
+    QuizQuestion(
+      question: "6. Which of the following is a bad effect of heavy rainfall?",
+      options: [
+        "Provision of potable water",
+        "Provision of water for irrigation",
+        "Increasing the volume of streams",
+        "Causing erosion of soil"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Heavy rainfall can wash away the fertile topsoil and cause serious soil erosion.",
+    ),
+    QuizQuestion(
+      question: "7. Which of the following prevents desertification?",
+      options: [
+        "Overgrazing",
+        "Shortage of water",
+        "Excessive use of fuel",
+        "Afforestation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Afforestation protects the soil by restoring vegetation and reducing erosion.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following economic activities does not cause deforestation in Ghana?",
+      options: [
+        "Lumbering",
+        "Fishing",
+        "Crop growing",
+        "Mining"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fishing does not normally require the large-scale removal of trees.",
+    ),
+    QuizQuestion(
+      question: "9. The environment can best be described as:",
+      options: [
+        "Plants and animals",
+        "Roads and rivers",
+        "Natural and man-made things",
+        "Vegetation and climate"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The environment includes both natural features and things created by human beings.",
+    ),
+    QuizQuestion(
+      question: "10. Bush fires occur very often during the:",
+      options: [
+        "Rainy season",
+        "Harvesting season",
+        "Marketing days",
+        "Harmattan season"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Harmattan season is dry and windy, making vegetation more likely to catch fire.",
+    ),
+    QuizQuestion(
+      question:
+          "11. Which of the following cannot be considered an environmental hazard?",
+      options: [
+        "Desertification",
+        "Bush fires",
+        "Afforestation",
+        "Soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Afforestation protects the environment rather than creating an environmental hazard.",
+    ),
+    QuizQuestion(
+      question:
+          "12. Indiscriminate felling of trees causes the following except:",
+      options: [
+        "Soil erosion",
+        "Afforestation",
+        "Water pollution",
+        "Desertification"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tree felling causes deforestation, not afforestation, which means planting trees.",
+    ),
+    QuizQuestion(
+      question: "13. Our environment is made up of:",
+      options: [
+        "Plants and animals",
+        "Roads and rivers",
+        "Natural and man-made things",
+        "Vegetation and climate"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Our environment consists of natural features and human-made features.",
+    ),
+    QuizQuestion(
+      question:
+          "14. Environmental degradation in Tarkwa and Prestea is mainly due to:",
+      options: [
+        "Sand winning",
+        "Illegal mining",
+        "Timber lumbering",
+        "Palm wine tapping"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Illegal mining destroys vegetation, pollutes water bodies and degrades land in mining communities.",
+    ),
+    QuizQuestion(
+      question: "15. One of the causes of desertification is:",
+      options: [
+        "Excessive rainfall",
+        "Afforestation",
+        "Decrease in population",
+        "Overgrazing"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Overgrazing removes protective vegetation and leaves the land bare and vulnerable.",
+    ),
+    QuizQuestion(
+      question:
+          "16. The most economical way to dispose of domestic and industrial waste is:",
+      options: [
+        "Sieving",
+        "Burning",
+        "Recycling",
+        "Dumping"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recycling converts waste into useful materials and reduces disposal costs and pollution.",
+    ),
+    QuizQuestion(
+      question: "17. Floods in our communities can best be controlled through:",
+      options: [
+        "Harvesting rainwater",
+        "Planned layout",
+        "Tarring of roads",
+        "Construction of boreholes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A planned settlement layout provides proper drainage channels and prevents construction in waterways.",
+    ),
+    QuizQuestion(
+      question:
+          "18. Industries must be located outside residential areas to:",
+      options: [
+        "Avoid pollution",
+        "Encourage competition among firms",
+        "Reduce cost of production",
+        "Reduce industrial accidents"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Locating industries away from homes reduces residents' exposure to smoke, noise and harmful waste.",
+    ),
+    QuizQuestion(
+      question:
+          "19. Which of the following economic activities does not cause deforestation in Ghana?",
+      options: [
+        "Crop growing",
+        "Lumbering",
+        "Fishing",
+        "Charcoal burning"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Fishing does not generally involve cutting down large areas of forest.",
+    ),
+    QuizQuestion(
+      question: "20. The environment can best be described as:",
+      options: [
+        "Man and his surroundings",
+        "Animals and non-living things",
+        "Vegetation and non-living things",
+        "Man and the vegetation around him"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The environment refers to human beings and everything surrounding them.",
+    ),
+    QuizQuestion(
+      question: "21. The social environment includes:",
+      options: [
+        "Settlements, churches and rivers",
+        "Settlements, festivals and political parties",
+        "Festivals, political parties and religious groups",
+        "Festivals, churches and tourist sites"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Festivals, political parties and religious groups are all parts of human society and culture.",
+    ),
+    QuizQuestion(
+      question: "22. Which of the following statements is true?",
+      options: [
+        "The social and physical environments are inter-dependent",
+        "The physical environment is independent of the social environment",
+        "The physical environment is never affected by the social environment",
+        "The social environment is more important than the physical environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The social and physical environments affect and depend on each other.",
+    ),
+    QuizQuestion(
+      question:
+          "23. A major environmental problem facing municipal and metropolitan assemblies in Ghana is:",
+      options: [
+        "Waste management",
+        "Air pollution",
+        "Deforestation",
+        "Gully erosion"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Assemblies face major challenges in collecting, transporting and safely disposing of waste.",
+    ),
+    QuizQuestion(
+      question: "24. The physical environment of Ghana can be protected through:",
+      options: [
+        "Drying industrial waste",
+        "Practising traditional farming",
+        "Redirecting river channels",
+        "Recycling of waste materials"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Recycling reduces the amount of waste deposited in the environment and conserves resources.",
+    ),
+    QuizQuestion(
+      question:
+          "25. Which of the following features forms part of our social environment?",
+      options: [
+        "Atmosphere",
+        "Buildings",
+        "Land",
+        "Religion"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Religion is a social institution involving people's beliefs, values and practices.",
+    ),
+    QuizQuestion(
+      question:
+          "26. Habitats of endangered species of animals can be protected through the creation of:",
+      options: [
+        "Forest reserves",
+        "Land guards",
+        "Tourist centres",
+        "Veterinary clinics"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Forest reserves protect natural habitats from destruction and harmful human activities.",
+    ),
+    QuizQuestion(
+      question:
+          "27. Which of the following features is NOT part of the physical environment?",
+      options: [
+        "Air",
+        "Building",
+        "Water",
+        "Rivers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A building is constructed by people, while air, water and rivers are natural physical features.",
+    ),
+    QuizQuestion(
+      question: "28. A good social environment can be promoted through:",
+      options: [
+        "Bravery",
+        "Competition",
+        "Courtesy",
+        "Tolerance"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Courtesy promotes respectful behaviour and peaceful relationships among members of society.",
+    ),
+    QuizQuestion(
+      question:
+          "29. One major environmental problem facing municipal and metropolitan assemblies in Ghana is:",
+      options: [
+        "Air pollution",
+        "Deforestation",
+        "Road accident",
+        "Waste management"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Waste collection and disposal are major responsibilities and challenges for local assemblies.",
+    ),
+    QuizQuestion(
+      question:
+          "30. Which of the following human activities destroys habitats of animals?",
+      options: [
+        "Bush burning",
+        "Bush fallowing",
+        "Inter-cropping",
+        "Mixed farming"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Bush burning destroys the vegetation and shelters on which wild animals depend.",
+    ),
+    QuizQuestion(
+      question: "31. The environment can best be described as:",
+      options: [
+        "Animals and non-living things",
+        "Man and his surroundings",
+        "Man and vegetation around him",
+        "Vegetation and non-living things"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The environment includes people and all the living and non-living things around them.",
+    ),
+    QuizQuestion(
+      question:
+          "32. The most economical way of disposing domestic and industrial waste is by:",
+      options: [
+        "Burning",
+        "Dumping",
+        "Recycling",
+        "Sieving"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recycling turns waste into reusable products and reduces the need for new raw materials.",
+    ),
+    QuizQuestion(
+      question: "33. A good social environment can be promoted through:",
+      options: [
+        "Tolerance",
+        "Bravery",
+        "Competition",
+        "Individualism"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance encourages people to respect differences and live together peacefully.",
+    ),
+    QuizQuestion(
+      question:
+          "34. Which of the following is the main reason for the protection of the physical environment?",
+      options: [
+        "Survival of living things",
+        "Ensuring adequate rainfall",
+        "Improved standard of living",
+        "Ensuring environmental sanitation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Living things depend on a healthy physical environment for air, water, food and shelter.",
+    ),
+    QuizQuestion(
+      question:
+          "35. Habitats of endangered species of animals can be protected through the creation of:",
+      options: [
+        "Land guards",
+        "Forest reserves",
+        "Tourist centres",
+        "Veterinary clinics"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Forest reserves preserve natural habitats and protect endangered animals from human interference.",
+    ),
+    QuizQuestion(
+      question: "36. The physical environment of Ghana can be protected through:",
+      options: [
+        "Recycling of waste materials",
+        "Practising traditional farming",
+        "Redirecting river channels",
+        "Burning of industrial waste"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Recycling prevents waste accumulation and reduces pollution of land and water.",
+    ),
+    QuizQuestion(
+      question: "37. The social environment includes:",
+      options: [
+        "Festivals, political parties and religious groups",
+        "Festivals, churches and tourist sites",
+        "Settlements, churches and rivers",
+        "Settlements, festivals and political parties"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Festivals, political parties and religious groups are social and cultural institutions.",
+    ),
+    QuizQuestion(
+      question: "38. An effect of land degradation is:",
+      options: [
+        "Bad farming practices",
+        "Excessive quarrying",
+        "Improper layouts",
+        "Loss of soil fertility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Land degradation removes nutrients and reduces the soil's ability to support plant growth.",
+    ),
+    QuizQuestion(
+      question:
+          "39. Which of the following practices is the best way of conserving Ghana's forest?",
+      options: [
+        "Growing of cover crops",
+        "Replanting of trees",
+        "Promoting the use of charcoal",
+        "Deforestation"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Replanting trees replaces those that have been cut down and restores forest cover.",
+    ),
+    QuizQuestion(
+      question: "40. Environmental degradation is mainly caused by:",
+      options: [
+        "Natural disasters",
+        "Human activities",
+        "Civil war",
+        "Global warming"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Activities such as mining, deforestation, pollution and poor farming practices are major causes of environmental degradation.",
+    ),
+    QuizQuestion(
+      question: "41. Respiratory diseases can be caused by:",
+      options: [
+        "Water pollution",
+        "Land degradation",
+        "Air pollution",
+        "Deforestation"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Polluted air may contain smoke, dust and harmful gases that damage the respiratory system.",
+    ),
+    QuizQuestion(
+      question:
+          "42. Which of the following factors is mostly needed for the continuous existence of man?",
+      options: [
+        "Wealth",
+        "Family",
+        "Religion",
+        "Environment"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Humans depend on the environment for essential resources such as air, water, food and shelter.",
+    ),
+    QuizQuestion(
+      question:
+          "43. Which of the following does not constitute environmental degradation?",
+      options: [
+        "Deforestation",
+        "Bush burning",
+        "Air pollution",
+        "Mixed farming"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Mixed farming combines crop cultivation and animal rearing and does not necessarily degrade the environment.",
+    ),
+    QuizQuestion(
+      question: "44. The physical environment can best be protected through:",
+      options: [
+        "Building of dams",
+        "Burning of refuse",
+        "Recycling of waste",
+        "Underground mining"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recycling reduces pollution, conserves resources and limits the amount of waste entering the environment.",
+    ),
+    QuizQuestion(
+      question:
+          "45. There is an ongoing illegal mining activity in a community. The miners are using earth-moving machines, cyanide and mercury. Sixty acres of vegetation cover are pulled down every hour. Which of the following options best describes the long-term effect of their activities on the land?",
+      options: [
+        "Erosion",
+        "Depletion",
+        "Percolation",
+        "Degradation"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The destruction of vegetation and contamination of the soil cause long-term land degradation.",
+    ),
+    QuizQuestion(
+      question:
+          "46. The destruction of farmlands by cattle and the confrontation between herdsmen and farming communities in Ghana can best be resolved by:",
+      options: [
+        "Allowing the Game and Wildlife Department to take charge of cattle rearing in the communities",
+        "Encouraging the practice of cattle ranching in our communities",
+        "Seizing and distributing some of the cattle to the affected communities",
+        "Local farmers always standing by to drive away herdsmen"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Cattle ranching keeps animals within controlled areas and prevents them from destroying nearby farmlands.",
+    ),
+    QuizQuestion(
+      question:
+          "47. Which of the following agricultural practices helps to prevent soil erosion?",
+      options: [
+        "Cover cropping",
+        "Crop rotation",
+        "Shifting cultivation",
+        "Mono-culture"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cover crops protect the soil from direct rainfall and reduce the removal of topsoil by water and wind.",
+    ),
+    QuizQuestion(
+      question:
+          "48. A region experiences a significant decrease in temperature and rainfall over a few decades. What factor could be the most likely cause of this?",
+      options: [
+        "Deforestation",
+        "Increase in ocean current",
+        "Shift in wind pattern",
+        "Rise in global temperature"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A long-term shift in wind patterns can change the amount of moisture and heat reaching a region.",
+    ),
+    QuizQuestion(
+      question:
+          "49. Controlling plastic waste has become a major environmental concern to the city authorities in Ghana. Which of the following options is the best that helps minimize the negative impact of plastic waste disposal problem?",
+      options: [
+        "Arresting all plastic waste producers",
+        "Levying plastic waste producers",
+        "Using jute and paper bags",
+        "Placing a ban on single-use plastics"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Banning single-use plastics reduces the production and disposal of plastic items that are used briefly but remain in the environment for many years.",
+    ),
+        QuizQuestion(
+      question:
+          "50. A company is planning to build a soap factory in a rural area. The factory will provide jobs for the youth but may also pollute nearby rivers. Which of the following options best represents a sustainable development approach?",
+      options: [
+        "Build the factory without environmental considerations",
+        "Build the factory with some environmental consideration",
+        "Reject the factory proposal to protect the environment",
+        "Build the factory with environmental impact assessment"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "An environmental impact assessment identifies possible environmental risks and recommends measures to reduce pollution while allowing economic development.",
+    ),
+    QuizQuestion(
+      question:
+          "51. Which of the following actions is the most destructive effect of a volcanic eruption on the environment?",
+      options: [
+        "Gas emission",
+        "Water pollution",
+        "Lava flows on vegetation",
+        "Loss of lives and property"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The loss of human lives and property is the most destructive consequence because it causes permanent human loss and severe damage to communities.",
+    ),
+  ],
+),
 
   "WHAT IT MEANS TO BE A CITIZEN OF GHANA": QuizModel(
     audioPath: '',
@@ -552,13 +1234,431 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── JHS 2 / JHS 3: ENGLISH ────────────────────────────────────────────────
-  "EFFECTIVE TURN-TAKING IN CONVERSATION": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. Which of the following defines 'turn-taking' in conversation?", options: ["Changing the seat with another person", "Dividing speech opportunities among participants", "Interrupting the speaker continuously", "Speaking at the exact same time"], correctIndex: 1, difficulty: "Easy", explanation: "Turn-taking ensures everyone gets a fair opportunity to speak in turn."),
-      QuizQuestion(question: "2. An example of a non-verbal cue that signals a turn is complete is:", options: ["Continuing to speak louder", "A pause accompanied by eye contact looking at the listener", "Looking down at a watch", "Walking away from the circle"], correctIndex: 1, difficulty: "Medium", explanation: "Eye contact and a pause are standard signals for turn-completion."),
-    ],
-  ),
+  "Mapping Skills (Concept of Maps)": QuizModel(
+  audioPath: '',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following shows the relationship between distance on paper and actual distance on the ground?",
+      options: [
+        "Longitude",
+        "Key",
+        "Scale",
+        "Plan"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A scale shows the relationship between a distance measured on a map and the corresponding actual distance on the ground.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following is not an imaginary line drawn on maps?",
+      options: [
+        "Axis",
+        "Equator",
+        "A latitude",
+        "Longitude"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Equator, latitudes and longitudes are imaginary lines shown on maps, but the Earth's axis is an imaginary line through the Earth rather than a line drawn on maps.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When the scale of a map is expressed in the form of a ratio, it is known as:",
+      options: [
+        "Statement scale",
+        "Linear scale",
+        "Open divided scale",
+        "Representative fraction"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A scale written as a ratio, such as 1:50,000, is called a representative fraction.",
+    ),
+    QuizQuestion(
+      question:
+          "4. When the needle of a compass is at rest, it points to the:",
+      options: [
+        "Centre",
+        "South",
+        "East",
+        "North"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The magnetic needle of a compass settles in a north-south direction, with its marked end pointing north.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of the following is a cardinal point of the compass?",
+      options: [
+        "North-East",
+        "South-West",
+        "East",
+        "South-East"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The four cardinal points are North, South, East and West.",
+    ),
+    QuizQuestion(
+      question:
+          "6. The ratio between measurement on a map and the actual corresponding distance on the ground is:",
+      options: [
+        "A longitude",
+        "A scale",
+        "A latitude",
+        "An isotherm"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A map scale expresses the relationship between map distance and actual ground distance.",
+    ),
+    QuizQuestion(
+      question:
+          "7. The three main ways of expressing scales are linear, representative fraction and:",
+      options: [
+        "Kilometres",
+        "Longitude",
+        "Latitude",
+        "Statement"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The three main forms of map scale are statement scale, linear scale and representative fraction.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following imaginary lines on a map helps to determine time?",
+      options: [
+        "The Arctic Circle",
+        "The Antarctic Circle",
+        "The Equator",
+        "The Greenwich Meridian"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Greenwich Meridian is the starting point for calculating world time and time zones.",
+    ),
+    QuizQuestion(
+      question:
+          "9. The colour used for showing rivers and lakes on topographical maps is:",
+      options: [
+        "Red",
+        "Blue",
+        "Brown",
+        "Green"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Blue is conventionally used to represent water features such as rivers, lakes and seas on maps.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When the scale of a map is expressed as 1:50,000, it is known as:",
+      options: [
+        "Statement scale",
+        "Representative fraction scale",
+        "Linear scale",
+        "Vertical scale"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A numerical ratio such as 1:50,000 is a representative fraction scale.",
+    ),
+    QuizQuestion(
+      question:
+          "11. On maps, the sea is normally shown with the colour:",
+      options: [
+        "Green",
+        "Yellow",
+        "White",
+        "Blue"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The sea and other water bodies are normally represented with the colour blue on maps.",
+    ),
+    QuizQuestion(
+      question:
+          "12. The location of an object measured in degrees is known as:",
+      options: [
+        "Cardinal point",
+        "Bearing",
+        "Landmark",
+        "Survey beacon"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A bearing gives the direction of one place from another in degrees, measured clockwise from north.",
+    ),
+    QuizQuestion(
+      question:
+          "13. 1 cm to 1 km expressed as a representative fraction is:",
+      options: [
+        "1:100",
+        "1:1,000",
+        "1:10,000",
+        "1:100,000"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "One kilometre equals 100,000 centimetres, so 1 cm to 1 km is written as 1:100,000.",
+    ),
+    QuizQuestion(
+      question:
+          "14. If the scale of a map is 1:10,000 and the distance on the map is 20 cm, then the actual distance on the ground is:",
+      options: [
+        "20 km",
+        "0.2 km",
+        "2 km",
+        "20,000 km"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "At a scale of 1:10,000, 20 cm represents 200,000 cm, which is equal to 2 kilometres.",
+    ),
+    QuizQuestion(
+      question:
+          "15. A scale of a map expressed as a ratio is known as:",
+      options: [
+        "Linear scale",
+        "Simple fraction",
+        "Representative fraction",
+        "Statement scale"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A representative fraction expresses a map scale as a ratio, such as 1:10,000.",
+    ),
+    QuizQuestion(
+      question:
+          "16. The ratio between distance measured on a map and the actual distance on the ground is a:",
+      options: [
+        "Scale",
+        "Sketch",
+        "Statement",
+        "Layout"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A scale compares the distance on a map with the actual corresponding distance on the ground.",
+    ),
+    QuizQuestion(
+      question:
+          "17. Landmarks are important features used in finding:",
+      options: [
+        "Cardinal points",
+        "Compass points",
+        "Direction",
+        "Layout"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Landmarks are easily recognized features that help people identify places and find directions.",
+    ),
+    QuizQuestion(
+      question:
+          "18. The four cardinal points are:",
+      options: [
+        "East, South-West, North, West",
+        "North, South, North-East, South-West",
+        "North, South, East, West",
+        "West, South-East, North-West, South"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The four main cardinal points are North, South, East and West.",
+    ),
+    QuizQuestion(
+      question:
+          "19. The ratio between distance measured on a map and the actual distance on the ground is:",
+      options: [
+        "A sketch",
+        "A statement",
+        "A layout",
+        "A scale"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A map scale represents the relationship between map distance and actual ground distance.",
+    ),
+    QuizQuestion(
+      question:
+          "20. Which of the following is used to represent landmarks on maps?",
+      options: [
+        "Conventional signs",
+        "Histogram",
+        "Mathematical symbols",
+        "Plain sketches"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Conventional signs are standard symbols used to represent landmarks and other features on maps.",
+    ),
+    QuizQuestion(
+      question:
+          "21. Conventional signs enable map users to identify:",
+      options: [
+        "Planets",
+        "Rock profiles",
+        "Cardinal points",
+        "Landmarks"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Conventional signs help map users identify landmarks such as schools, roads, hospitals and rivers.",
+    ),
+    QuizQuestion(
+      question:
+          "22. The four cardinal points are:",
+      options: [
+        "N, E, SW, NE",
+        "N, S, NE, SW",
+        "N, E, W, S",
+        "NW, SE, NE, SW"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The abbreviations for the four cardinal points are N, S, E and W.",
+    ),
+    QuizQuestion(
+      question:
+          "23. A representation of the Earth's surface not drawn to scale is known as a:",
+      options: [
+        "Map",
+        "Plan",
+        "Sketch",
+        "Globe"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A sketch is a simple drawing of an area that is not necessarily drawn according to an exact scale.",
+    ),
+    QuizQuestion(
+      question:
+          "24. Which of the following is a sketch? A town drawn:",
+      options: [
+        "With arrangement of houses",
+        "Without the arrangement of houses",
+        "With reference to actual size on the ground",
+        "Without reference to actual size on the ground"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A sketch shows the main features of an area without maintaining their exact sizes or distances on the ground.",
+    ),
+    QuizQuestion(
+      question:
+          "25. Which of the following is not a feature of a sketched map?",
+      options: [
+        "Title",
+        "Key",
+        "Scale",
+        "Landmark"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A sketch map is not drawn to an exact scale, although it may have a title, key and landmarks.",
+    ),
+    QuizQuestion(
+      question:
+          "26. The statement scale 1 cm to 5 km can be converted to a representative fraction to read:",
+      options: [
+        "1:50",
+        "1:5,000",
+        "1:50,000",
+        "1:500,000"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Five kilometres equals 500,000 centimetres, so 1 cm to 5 km is written as 1:500,000.",
+    ),
+    QuizQuestion(
+      question:
+          "27. Which of the following is associated with a scale of a map?",
+      options: [
+        "Linear",
+        "Balanced",
+        "Tilted",
+        "Compass"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A linear scale is one of the main ways of expressing the scale of a map.",
+    ),
+    QuizQuestion(
+      question:
+          "28. A scale presented in a line form is known as:",
+      options: [
+        "Map scale",
+        "Statement scale",
+        "Representative scale",
+        "Linear scale"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A linear scale uses a divided line or bar to show the relationship between map distance and ground distance.",
+    ),
+    QuizQuestion(
+      question:
+          "29. Contours on a map indicate what phenomenon?",
+      options: [
+        "Elevation changes",
+        "Temperature changes",
+        "Pressure changes",
+        "Changes in rainfall"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Contour lines join places of equal height and therefore show changes in elevation and the shape of the land.",
+    ),
+    QuizQuestion(
+      question:
+          "30. Why is it useful to provide a legend on a map?",
+      options: [
+        "Display the title",
+        "Show the compass direction",
+        "Explain the symbols",
+        "Indicate the scale"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A map legend or key explains the meanings of the symbols and colours used on the map.",
+    ),
+  ],
+),
 
   "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)": QuizModel(
     audioPath: '',
