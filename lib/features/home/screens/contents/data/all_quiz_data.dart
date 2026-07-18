@@ -58202,7 +58202,7 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
           "Solve inside the brackets first to get 6x, then 12x - 6x = 6x",
     ),
     QuizQuestion(
-      question: r"10. Simplify \frac{(15x + 10)}{5}.",
+      question: r"10. Simplify \frac{15x + 10}{5}.",
       options: ["3x + 10", "15x + 2", "3x + 2", "5x"],
       correctIndex: 2,
       difficulty: "Low",
@@ -58657,8 +58657,7 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       explanation: "Diameter = 2 × Radius = 20 cm.",
     ),
     QuizQuestion(
-      question:
-          "3. Find the area of a triangle with base 10 cm and height 6 cm.",
+      question: "3. Find the area of a triangle with base 10 cm and height 6 cm.",
       options: ["60 cm²", "30 cm²", "16 cm²", "15 cm²"],
       correctIndex: 1,
       difficulty: "Easy",
