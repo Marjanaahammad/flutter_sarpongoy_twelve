@@ -281,35 +281,37 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "1.Question: Write 356.07 in standard form.",
-        answer: "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
+        answer:
+            "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
             "⦿ Shift the decimal point 2 places to the left to place it after the first non-zero digit (3).\n"
             "⦿ Multiplying the resulting number 3.5607 by 10² preserves its exact original value.\n\n"
             "356.07 = 3.5607 × 10²",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "2. Question: Which of the following numbers is the prime number greater than 23?",
-        answer: "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
+        scenario:
+            "2. Question: Which of the following numbers is the prime number greater than 23?",
+        answer:
+            "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
             "⦿ 17: Prime, but less than 23.\n"
             "⦿ 24: Even and composite (divisible by 2, 3, etc.).\n"
             "⦿ 25: Ends in 5 and composite (divisible by 5).\n"
             "⦿ 29: Only has factors 1 and 29. Since 29 is greater than 23, it is the correct answer.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "3.Question: Write 4687.02 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
             "⦿ Move the decimal point 3 positions to the left so that it rests between 4 and 6.\n"
             "⦿ Multiply the new decimal by 10³ to represent the three-place shift.\n\n"
             "4687.02 = 4.68702 × 10³",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "4.Question: Correct 0.02751 to three decimal places.",
-        answer: "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
             "⦿ Examine the critical target digit to its right in the fourth decimal place (5).\n"
             "⦿ Since this digit is 5 or greater, round the third decimal place digit up by adding 1 (7 + 1 = 8).\n"
             "⦿ This results in 0.028.",
@@ -317,7 +319,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario: "5. Question: Write 1342 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
             "⦿ Shift the decimal point 3 places to the left to place it after the leading digit.\n"
             "⦿ Multiply the resulting value by 10³ to maintain numeric equivalence.\n\n"
             "1342 = 1.342 × 10³",
@@ -325,15 +328,18 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario: "6. Question: Express 2345 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
             "⦿ Shift the decimal point 3 places to the left to obtain 2.345.\n"
             "⦿ Balance the shift by multiplying by 10³.\n\n"
             "2345 = 2.345 × 10³",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
-        answer: "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
+        scenario:
+            "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+        answer:
+            "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
             "⦿ Examine the adjacent digit to its right in the hundreds place (6).\n"
             "⦿ Because 6 is greater than or equal to 5, round the thousands place up by 1 (5 + 1 = 6) and replace all subsequent digits with zero.\n"
             "⦿ This gives GH₵36,000.00.",
@@ -341,13 +347,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario: "8. Question: Write 83000 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
             "⦿ This positions the decimal point to produce 8.3.\n"
             "⦿ Multiply by 10⁴ to account for the four-digit shift.\n\n"
             "83000 = 8.3 × 10⁴",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "9.Question: Which of the following is not a prime number?",
         answer: "**Correct Answer**\n\n⦿ Review the factors of each option:\n"
@@ -355,31 +361,30 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ 9: Has more than two factors (1, 3, and 9). Therefore, 9 is a composite number and is not prime.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "10.Question: Express 2474.5 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
             "⦿ This shift corresponds to a positive power factor of 10³.\n"
             "2474.5 = 2.4745 × 10³",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "11.Question: Write 78910 correct to the nearest thousand.",
-        answer: "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
             "⦿ Since 9 is 5 or greater, round up by adding 1 to the thousands place (8 + 1 = 9).\n"
             "⦿ Set the hundreds, tens, and units places to zero to yield 79,000.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "12.Question: Express 962 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
             "⦿ The resulting expression is scaled with an exponent value of 2.\n"
             "962 = 9.62 × 10²",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "13. Question: Round 8921465 to the nearest hundred.",
         answer: "**Correct Answer**\n\n⦿ Locate the hundreds place digit (4).\n"
@@ -388,67 +393,70 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Replace all subsequent digits with zero to obtain 8,921,500.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "14. Question: Write the number 34.1 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
             "⦿ This gives 3.41, which must be multiplied by 10¹ (equivalent to 10).\n"
             "34.1 = 3.41 × 10¹",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "15.Question: Which of the following is an even prime number?",
-        answer: "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
+        scenario:
+            "15.Question: Which of the following is an even prime number?",
+        answer:
+            "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
             "⦿ All even numbers greater than 2 are divisible by 2, meaning they have at least three factors (1, 2, and themselves) and are composite.\n"
             "⦿ Therefore, the number 2 is the only even prime number in existence.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "16. Question: Write 2340000 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
             "⦿ This corresponds directly to scaling the number by a factor of 10⁶.\n"
             "2340000 = 2.34 × 10⁶",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "17.Question: Express 4037 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
             "⦿ This results in 4.037 scaled by 10³.\n"
             "4037 = 4.037 × 10³",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "18.Question: Write 3560 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
             "⦿ The scale factor for this shift is represented by 10³.\n"
             "3560 = 3.56 × 10³",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "19.Question: Which of the following numbers is an integer?",
-        answer: "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
             "⦿ The values -5/4 and -2/3 are fractions, and 0.5 is a decimal.\n"
             "⦿ The value -1 is a whole negative number, which makes it a member of the set of integers.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "20. Question: Which of the following is arranged in ascending order?",
-        answer: "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
+        scenario:
+            "20. Question: Which of the following is arranged in ascending order?",
+        answer:
+            "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
             "⦿ Compare the values in option A: -10, -7, 4.2, 9.\n"
             "⦿ On a number line, -10 is further left than -7, so -10 < -7.\n"
             "⦿ Any negative number is smaller than a positive number, so -7 < 4.2.\n"
             "⦿ Finally, 4.2 < 9. Thus, option A is correctly sorted.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "21.Question: Express 134.78 correct to the nearest tenth.",
-        answer: "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
             "⦿ Look at the hundredths digit to its right (8).\n"
             "⦿ Since 8 ≥ 5, round up by adding 1 to the tenths place (7 + 1 = 8).\n"
             "⦿ Drop all trailing digits to get 134.8.",
@@ -456,59 +464,63 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario: "22. Question: Express 625.13 in standard form.",
-        answer: "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
             "⦿ This produces 6.2513, which must be multiplied by 10².\n\n"
             "625.13 = 6.2513 × 10²",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "23. Question: Which of the following is the largest set?",
-        answer: "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
             "⦿ The set of Natural Numbers ({1, 2, 3, ...}) and Whole Numbers ({0, 1, 2, ...}) are fully nested within the set of Integers.\n"
             "⦿ The set of Composite numbers is a small subset of the Natural Numbers.\n"
             "⦿ Because the set of Integers includes all positive whole numbers, negative whole numbers, and zero, it is the largest set among the choices.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "24. Question: Correct 48,947.2547 to the nearest hundred.",
-        answer: "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
             "⦿ Examine the digit in the tens place immediately to its right (4).\n"
             "⦿ Since 4 < 5, we round down. This means the hundreds digit remains 9, and the remaining whole number places are replaced with zero.\n"
             "⦿ Mathematically, this yields 48,900.\n"
             "⦿ Note on exam key: The book answer key lists Option D (49,000), which corresponds to rounding up to the nearest thousand instead of the nearest hundred, or carrying over a round-up.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
-        answer: "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
+        scenario:
+            "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
+        answer:
+            "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
             "⦿ The negative integer -10 is the smallest number.\n"
             "⦿ Arranging the remaining positive integers gives 2, 4, 7, 9.\n"
             "⦿ The complete ascending sequence is -10, 2, 4, 7, 9.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "26.Question: Which of the following is not an integer?",
-        answer: "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
+        answer:
+            "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
             "⦿ The values 1, -5, and 0 are all whole units.\n"
             "⦿ The value 0.5 is a decimal representing a half-fraction, so it is not an integer.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "27. Question: Which of the following numbers is the largest?",
-        answer: "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
+        scenario:
+            "27. Question: Which of the following numbers is the largest?",
+        answer:
+            "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
             "⦿ Among -70, -50, -3, and -2, the number -2 is furthest to the right.\n"
             "⦿ Thus, -2 has the largest value.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
-        answer: "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
+        scenario:
+            "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
+        answer:
+            "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
             "⦿ Because all other options (-1, -6, -3) lie to the left of zero on the number line, 0 is the largest of these numbers.",
         explanation: "",
       ),
@@ -518,10 +530,12 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
-        "(a) How many strips of length 14cm were cut?\n"
+        scenario:
+            "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
+            "(a) How many strips of length 14cm were cut?\n"
             "(b) What length of ribbon remained?",
-        answer: "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
+        answer:
+            "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
             "we must work with the same units. Since 1m = 100cm, we convert 3m as follows:\n"
             "Total length of ribbon = 3 x 100cm = 300cm\n\n"
             "⦿ Step 2: Determine the number of strips of length 14cm that can be cut.\nWe divide the total length of the ribbon in centimetres (300cm) by the length of one strip (14cm):\n\n"
@@ -534,21 +548,23 @@ final Map<String, PracticeModel> becePracticeData = {
             "Therefore, the length of ribbon that remained is 6 cm.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
-        "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
-        "Total number of sweets = 8 x 30 = 240 sweets\n\n"
+        scenario:
+            "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
+        answer:
+            "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
+            "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
+            "Total number of sweets = 8 x 30 = 240 sweets\n\n"
             "⦿ Step 2: Calculate how many sweets each child receives when shared among 12 children.\n"
-        "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
+            "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
             r"Sweets received per child = \frac{240}{12}"
-        "\nSweets received per child = 20 sweets""\nEach child will receive 20 sweets.",
+            "\nSweets received per child = 20 sweets"
+            "\nEach child will receive 20 sweets.",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
+        scenario:
+            "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
         answer: "**Correct Answer**\n\n"
             "⦿ Step 1: Write down the prime factorisation for each number.\n"
             "For 9:               9 = 3 x 3 = 3^2\n"
@@ -563,10 +579,11 @@ final Map<String, PracticeModel> becePracticeData = {
             "L.C.M = 144",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
+        scenario:
+            "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
+        answer:
+            "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
             "We find the value of each set of notes and sum them up:\n"
             "Three GH₵50.00 notes:3 x GH₵50.00 = GH₵150.00\n"
             "Seven GH₵20.00 notes:7 x GH₵20.00 = GH₵140.00\n"
@@ -592,19 +609,23 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
+        scenario:
+            "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
         answer: "**Correct Answer**\n\n⦿ Step 1: Find all the factors of 24.\n"
-        "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
+            "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
             "Factors = {1, 2, 3, 4, 6, 8, 12, 24}\n\n"
             "⦿ Step 2: Add all these factors together.\n"
             "Sum = 1 + 2 + 3 + 4 + 6 + 8 + 12 + 24\n"
             "Sum = 60\n"
             "The sum of all the factors of 24 is 60.\n",
         explanation: "",
-      ),PracticeQuestion(
-        scenario: "5. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
-        "For 3:  3 = 3^1\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "5. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
+        answer:
+            "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
+            "For 3:  3 = 3^1\n"
             "For 5:5 = 5^1\n"
             "For 9:9 = 3 x 3 = 3^2\n\n"
             "⦿ Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
@@ -623,7 +644,8 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
+        scenario:
+            "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
         answer: "⦿ (i) Total cost for original quantities:\n"
             "⦁ Find the total spent on pencils: Multiply 8 pencils by the individual cost of ₵500.00.\n"
             "Cost of pencils = 8 × ₵500.00 = ₵4,000.00\n\n"
@@ -631,7 +653,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "Cost of pens = 5 × ₵2,000.00 = ₵10,000.00\n\n"
             "⦁ Calculate the final sum:\n"
             "Total Paid = ₵4,000.00 + ₵10,000.00 = ₵14,000.00\n\n"
-
             "⦿ (ii) Total cost after price increases:\n"
             "⦁ Find the increased price of a pencil: Add 20% of the original price to itself.\n\n"
             r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
@@ -646,44 +667,60 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.\n(BECE 2006 Q6b(i))",
+        scenario:
+            r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.\n(BECE 2006 Q6b(i))",
         answer: "⦿ Convert the mixed numbers to improper fractions:\n"
-            r"5\frac{1}{15} = \frac{(5 x 15) + 1)}{15} = \frac{76}{15}""\n"
-            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}""\n"
-            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}""\n\n"
+            r"5\frac{1}{15} = \frac{(5 x 15) + 1)}{15} = \frac{76}{15}"
+            "\n"
+            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
+            "\n"
+            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
+            "\n\n"
             "⦿ Express the standard equation:\n"
-            r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}""\n"
+            r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
+            "\n"
             "⦿ Find the Lowest Common Multiple (LCM):\n"
             "⦿ The LCM of the denominators 15, 3, and 12 is 60.\n\n"
             "⦿ Combine fractions under a single denominator:\n\n"
-            r"\frac{76(4) − 8(20) + 17(5)}{60}""\n"
-            r"= \frac{304 − 160 + 85}{60}""\n"
-            r"= \frac{144 + 85}{60} = \frac{229}{60}""\n\n"
+            r"\frac{76(4) − 8(20) + 17(5)}{60}"
+            "\n"
+            r"= \frac{304 − 160 + 85}{60}"
+            "\n"
+            r"= \frac{144 + 85}{60} = \frac{229}{60}"
+            "\n\n"
             "⦿ Convert back to a mixed fraction:\n"
             r"\frac{229}{60} = 3\frac{49}{60}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
+        scenario:
+            r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
         answer: "⦿ Convert the mixed fractions into improper fractions:\n\n"
-            r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}""\n\n"
+            r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}"
+            "\n\n"
             "⦿ Write down the expression:\n\n"
-            r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}""\n\n"
+            r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}"
+            "\n\n"
             "⦿ Determine the LCM:\n"
             "⦿ The LCM of 3, 6, and 8 is 24.\n\n"
             "⦿ Adjust and simplify the numerators:\n\n"
-            r"\frac{22(8) − 29(4) + 19(3)}{24}""\n\n"
-            r"= \frac{176 − 116 + 57}{24}""\n\n"
-            r"= \frac{60 + 57}{24} = \frac{117}{24}""\n\n"
+            r"\frac{22(8) − 29(4) + 19(3)}{24}"
+            "\n\n"
+            r"= \frac{176 − 116 + 57}{24}"
+            "\n\n"
+            r"= \frac{60 + 57}{24} = \frac{117}{24}"
+            "\n\n"
             "⦿ Reduce the fraction and convert to a mixed number:\n"
             "⦿ Divide numerator and denominator by 3:\n"
-            r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}""\n"
+            r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}"
+            "\n"
             "⦿ Convert to mixed format:\n"
             r"\frac{39}{8} = 4\frac{7}{8}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
+        scenario:
+            r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
         answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
             "\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}\n\n"
             "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
@@ -695,23 +732,28 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
+        scenario:
+            r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
             "\n(i) How much did Kwame receive?\n"
             "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
         answer: "⦿ (i) Calculate Kwame's portion:\n"
             "⦿ Find Aba's share of the total:\n\n"
-            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00""\n\n"
+            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
+            "\n\n"
             "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
             "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
             "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
             "⦿ Construct the percentage fraction:\n\n"
-            r"Percentage = \frac{(Kwame’s share / Aba’s share)} x 100%""\n\n"
+            r"Percentage = \frac{(Kwame’s share / Aba’s share)} x 100%"
+            "\n\n"
             r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 6\n\nArrange 8/9, 2/18, 10/16 in ascending order of magnitude.\n(BECE 2012 Q6(a)(ii))",
-        answer: "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
+        scenario:
+            "Question 6\n\nArrange 8/9, 2/18, 10/16 in ascending order of magnitude.\n(BECE 2012 Q6(a)(ii))",
+        answer:
+            "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
             "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
             "⦿ Convert each fraction to have the common denominator of 144:\n"
             "⦿ Convert 8/9:\n\n"
@@ -726,10 +768,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "2/18, 10/16, 8/9",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario: "Question 7\n\nSimplify 6(3 5/6 − 1 1/4).\n(BECE 2013 Q5a)",
-        answer: "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
+        answer:
+            "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
             "3 5/6 = 23/6, 1 1/4 = 5/4\n\n"
             "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
             "23/6 − 5/4 = (23(2) − 5(3))/12 = (46 − 15)/12 = 31/12\n\n"
@@ -739,9 +781,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "31/2 = 15 1/2",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8\n\nA passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
+        scenario:
+            "Question 8\n\nA passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
         answer: "⦿ (i) Calculate the difference in allowed weight:\n"
             "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
             "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
@@ -750,9 +792,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "Percentage excess = 2.0/20 × 100% = 1/10 × 100% = 10%",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9\n\n(a) Express 250% as a fraction in its lowest term.\n\n(b) Simplify: 2 + (15/64 ÷ 6/7).\n(BECE 2019 Q4a and Q4c)",
+        scenario:
+            "Question 9\n\n(a) Express 250% as a fraction in its lowest term.\n\n(b) Simplify: 2 + (15/64 ÷ 6/7).\n(BECE 2019 Q4a and Q4c)",
         answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
             "⦿ Write the percentage out of 100:\n\n"
             "250/100\n\n"
@@ -767,9 +809,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "2 + 35/128 = 2 35/128",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 10\n\nExpress (13/15 − 7/10) as a percentage.\n(BECE 2020 Q3a)",
+        scenario:
+            "Question 10\n\nExpress (13/15 − 7/10) as a percentage.\n(BECE 2020 Q3a)",
         answer: "⦿ Simplify the subtraction of fractions:\n"
             "⦿ The Lowest Common Multiple of 15 and 10 is 30.\n"
             "⦿ Standardise the numerators:\n\n"
@@ -780,8 +822,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Multiply 1/6 by 100%:\n\n"
             "1/6 × 100% = 100/6% = 50/3% = 16 2/3% (or 16.67%)",
         explanation: "",
-      ),PracticeQuestion(
-        scenario: "Question 11\n\nAntwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?\n(BECE 2021 Q4a)",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 11\n\nAntwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?\n(BECE 2021 Q4a)",
         answer: "⦿ Identify the quantity of ripe mangoes:\n"
             "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
             "Ripe mangoes = 25 − 7 = 18\n\n"
@@ -790,9 +834,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "Percentage = 18/25 × 100% = 18 × 4% = 72%",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12\n\nSimplify: 1 3/4 − 2 5/6 − 1 9/10 + 4 7/8.\n(BECE 2023 Q1b)",
+        scenario:
+            "Question 12\n\nSimplify: 1 3/4 − 2 5/6 − 1 9/10 + 4 7/8.\n(BECE 2023 Q1b)",
         answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
             "1 3/4 = 7/4, 2 5/6 = 17/6, 1 9/10 = 19/10, 4 7/8 = 39/8\n\n"
             "⦿ Set up the structural expression:\n\n"
@@ -810,9 +854,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "227/120 = 1 107/120",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 13\n\nIf 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
+        scenario:
+            "Question 13\n\nIf 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
         answer: "⦿ Determine the total length (100%) of the rope first:\n"
             "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
             "Total length = (100%/15%) × 720 m = (100/15) × 720 m\n\n"
@@ -822,9 +866,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "Half length = 1/2 × 4,800 m = 2,400 m",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario: "Question 14\n\nA polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?\n(BECE 2025 Q3b)",
+        scenario:
+            "Question 14\n\nA polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?\n(BECE 2025 Q3b)",
         answer: "⦿ (i) Find the exact cleaning volume used:\n"
             "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
             "Volume used = 1/5 × 4,500 litres = 900 litres\n\n"
@@ -846,133 +890,879 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "BECE Theory Question 1\n\nDescribe THREE major sanitation challenges faced by communities in Ghana and suggest ONE solution for each.",
-        answer: "⦿ 1. Open defecation — Many communities lack toilets. Solution: Build and promote the use of community latrines.\n"
-            "⦿ 2. Poor garbage disposal — Waste is often dumped in open areas. Solution: Provide community dustbins and organise regular refuse collection.\n"
-            "⦿ 3. Contaminated water sources — Rivers used for washing and drinking get polluted. Solution: Dig boreholes and educate communities on protecting water bodies.",
+        scenario:
+            "Question 1 (BECE 1992 Q2)\n\n(a) Identify four environmental problems in Ghana.\n(b) Suggest two solutions to each of the four problems identified in (a).",
+        answer: "⦿ (a) Answers:\n\n"
+            "1. Deforestation\n"
+            "2. Air pollution\n "
+            "3. Water pollution\n"
+            "4. Soil erosion\n\n"
+            "⦿ (b) Answers:.\n"
+            "• Solutions to Deforestation:\n\n"
+            "   • Practice of afforestation: People must be encouraged and supported with funds by the government to grow plants or trees in areas where there were no previous tree cover. This increases plant populations and preserves vegetation.\n"
+            "   • Practice of re-afforestation: Planting trees to replace those cut for farming or lumbering helps regenerate depleted forests.\n\n"
+            "• Solutions to Air pollution:\n\n"
+            "   • Public education: Sensitize the public through media to stop actions like bush burning and improper disposal of industrial chemicals.\n"
+            "   • Banning over-aged vehicles: Restricting vehicles with weak engines that produce excessive carbon monoxide fumes.\n\n"
+            "• Solutions to Water pollution:\n\n"
+            "   • Public education: Educate people to stop using DDT for fishing and dumping refuse into water bodies.\n"
+            "   • Enforcement of laws: The EPA must identify and punish individuals or companies that contaminate water sources.\n\n"
+            "• Solutions to Soil erosion:\n\n"
+            "   • Practice of re-afforestation: Growing plants helps safeguard land against erosion and replenishes soil via organic matter.\n"
+            "   • Creation of fire belts: Guiding farmers to create fire belts prevents fires from destroying surrounding forest vegetation.\n\n",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "Question 2 (BECE 2001 Q5)\n"
             "(a) Mention four causes of desertification in West Africa.\n"
             "(b) What measures can be taken to control desertification in West Africa?",
-        answer: "Corrected Answers:\n\n(a) Causes of desertification:\n\n"
-            "• Deforestation.\n"
-            "• Overgrazing.\n"
-            "• Poor farming practices.\n"
-            "• Bush burning.\n\n"
-            "(b) Measures to control desertification in West Africa:\n\n"
-            "   • Practice of afforestation.\n"
-            "   • Reforestation.\n"
-            "   • Public education.\n"
-            "   • Proper farming practices",
-        explanation: "Explanation: \n\n **Causes of desertification:**\n\n"
-            "• Deforestation: Excessive felling of trees for charcoal production, lumbering, farming, etc. makes land become bare. This facilitates soil erosion, leaching and loss of soil fertility leading to desertification.\n\n"
-            "• Overgrazing: When animals such as sheep, cattle and goat feed on a particular farmland or grassland for a period of time, the vegetation cover and topsoil of the land gradually get removed to result in desertification.\n\n"
-            "• Poor farming practices:  Poor farming practices such as over-cultivation reduce the soil fertility of land. Such farming practices destroy soil nutrients that support plant growth to result in desertification.\n\n"
-            "• Bush burning: Indiscriminate bush burning for the purposes of farming, hunting, etc. destroys organisms and nutrients in the soil. This makes the soil less useful for plant growth and leads to desertification.\n\n"
-            "**Measures to control desertification in West Africa:**\n\n"
-            "• Practice of afforestation: Trees must be planted regularly in some areas to safeguard the physical environment against desertification.\n\n"
-            "• Reforestation: Plants must be planted to replace trees that have been cut off for farming, lumbering or charcoal production. This will help to regenerate the depleted forests and protect land against desertification.\n\n"
-            "• Public education: The public must be educated on the causes and effects associated with desertification. This will help to reduce practices such as improper farming, illegal mining, deforestation, etc. that render land useless and result in desertification.\n\n"
-            "• Proper farming practices: Proper farming practices such as agro-forestry, mixed farming, application of organic manure, etc. must be encouraged to prevent desertification. This is because such practices protect the fertility of soil and prevent desertification.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• Deforestation: Excessive tree felling for charcoal and lumbering makes the land bare and prone to erosion.\n"
+            "• Overgrazing: Constant feeding by livestock on a specific area removes vegetation cover and topsoil.\n"
+            "• Poor farming practices: Over-cultivation destroys the soil nutrients needed to support plant life.\n"
+            "• Bush burning: Indiscriminate burning destroys organic matter and soil organisms, rendering the land less useful.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "   • Afforestation: Planting trees regularly in new areas to protect the physical environment..\n"
+            "   • Reforestation: Replacing cut trees to regenerate depleted forest zones..\n"
+            "   • Public education: Using media to educate people on the dangers of illegal mining and improper farming..\n"
+            "   • Proper farming practices: Encouraging agro-forestry, mixed farming, and the use of organic manure to maintain soil fertility.\n\n",
+        explanation: " ",
       ),
       PracticeQuestion(
           scenario: "Question 3 (BECE 2010 Q2)\n"
               "(a) Mention four causes of environmental degradation.\n"
               "(b) Outline four ways by which the environment can be protected from degradation.",
-          answer:
-              "Corrected Answers:\n\n(a) Causes of environmental degradation:\n\n"
+          answer: " ⦿ (a) Answers:\n\n"
               "• Dumping of solid and liquid waste materials into\n water bodies render drinking water to become contaminated.\n"
               "• Using chemicals such as DDT for fishing cause drinking\nwater to become contaminated and aquatic life destroyed.\n"
               "• Releasing gases and fumes from industries or factories\n into the atmosphere renders breathing air to become polluted.\n"
               "• Human excreta and other waste materials from homes\n and industries that are dumped into gutters, refuse dump sites pollute the air because they produce bad odour.\n\n"
-              "(b) Ways by which the environment can be protected from degradation:\n\n"
-              "   • Enforcement of legislation against\nenvironmental degradation.\n"
-              "   • The use of appropriate farming methods.\n"
-              "   • Public education.\n"
-              "   • Practice of afforestation.",
-          explanation:
-              "Explanation: \n\n **Ways by which the environment can be protected from degradation:**\n\n"
-              "• Enforcement of legislation against environmental degradation: The Environmental Protection Agency (EPA) must enforce the laws against illegal mining, indiscriminate felling of trees, bush burning, etc. Offenders must be fined to pay money or sentenced to imprisonment.\n\n"
-              "• The use of appropriate farming methods: Farmers must be encouraged to adopt proper farming practices such as contour ploughing, shifting cultivation, agro-forestry, mixed farming, application of organic manure, etc. This will help to prevent land degradation because such practices protect the fertility of soil.\n\n"
-              "• Public education: The public must be educated on the causes and effects associated with environmental degradation through the mass media. This will help to reduce practices such as improper fishing, improper farming, illegal mining, deforestation, indiscriminate disposal of waste materials from homes and industries into gutters or water bodies and other activities that degrade the environment.\n\n"
-              "• Practice of afforestation: Trees must be planted regularly in some areas to safeguard the physical environment against degradation.\n\n"),
+              " ⦿ (b) Answers:\n\n"
+              "   • Enforcement of legislation: The EPA must enforce laws against illegal mining and bush burning, using fines or imprisonment as a deterrent.\n"
+              "   • Appropriate farming methods: Adopting contour ploughing, shifting cultivation, and mixed farming to preserve soil quality.\n"
+              "   • Mass public education: Educating the public on the long-term effects of activities like indiscriminate waste disposal.\n"
+              "   • Afforestation: Regularly planting trees to safeguard the physical environment.",
+          explanation: " "),
       PracticeQuestion(
         scenario: "Question 4 (BECE 2015 Q1)\n"
             "(a) Describe four bad effects of deforestation.\n"
             "(b) In what four ways can deforestation be minimized in Ghana?",
-        answer: "Corrected Answers:\n\n(a) Bad effects of deforestation:\n\n"
-            "• Exposes water bodies to excessive evaporation.\n"
-            "• Exposes the land to erosion/Reduction in soil fertility.\n"
-            "• It destroys medicinal plants.\n"
-            "• Destruction of habitat of wildlife.\n\n"
-            "(b) Ways deforestation can be minimized in Ghana:\n\n"
-            "   • Practice of afforestation.\n"
-            "   • Practice of re-afforestation.\n"
-            "   • Public education.\n"
-            "   • Creation of forest reserves",
-        explanation: "Explanation: \n\n **Bad effects of deforestation:**\n\n"
-            "• Exposes water bodies to excessive evaporation: Indiscriminate cutting down of trees along riverbanks exposes water bodies to direct sunshine.This causes water bodies to dry up through evaporation process.\n\n"
-            "• Exposes the land to erosion/Reduction in soil fertility: An indiscriminate cutting down of trees for farming, charcoal production, lumbering, etc.makes the land become bare and exposes it to agents of erosion such as wind, water, etc. This destroys the surface of the soil and renders the land less fertile for plant growth.\n\n"
-            "• It destroys medicinal plants: Deforestation causes plants in which their leaves, roots and barks are used for medicinal purposes to be destroyed and lost forever.\n\n"
-            "• Destruction of habitat of wildlife: Deforestation as a result of farming, charcoal production, mining or road construction destroys forests and habitat of wildlife. This leads to their extinction.\n\n"
-            "**Ways deforestation can be minimized in Ghana:**\n\n"
-            "• Practice of afforestation: People must be encouraged and supported with funds by the government to grow plants or trees in areas where there was no previous tree cover. This will help to increase plants population and preserve vegetation in the country.\n\n"
-            "• Practice of re-afforestation: People must be encouraged by the government to plant trees to replace those that are cut off for farming, lumbering and other purposes. This will help to regenerate the depleted forests in the country.\n\n"
-            "• Public education: The Environmental Protection Agency (EPA), through the media, must sensitize the public and create awareness on the effect of deforestation in the country. This will help to minimize practices such as improper farming, charcoal production, excessive lumbering, etc. that destroy forests in the country.\n\n"
-            "• Creation of forest reserves: People must be restricted and banned from entering into certain forests zones in the country for firewood or woodlot, logs or farming. This will help to preserve and protect the forests in the country.",
+        answer: " ⦿ (a) Answers:\n\n"
+            "• Excessive evaporation: Removing trees along riverbanks exposes water to direct sun, causing rivers to dry up.\n"
+            "• Soil erosion: Bare land is easily washed away by wind and water, leading to a loss of fertile topsoil.\n"
+            "• Destruction of medicinal plants: Loss of plant species used for traditional and modern medicine.\n"
+            "• Habitat loss: Destruction of the natural homes of wildlife, leading to animal extinction.\n\n"
+            " ⦿ (b) Answers:\n\n"
+            "   • Afforestation: Growing new forests in areas previously without trees.\n"
+            "   • Re-afforestation: Replacing trees harvested for timber or fuel.\n"
+            "   • Creation of forest reserves: Banning entry into specific zones to allow nature to thrive.\n"
+            "   • Public sensitization: Creating awareness of the environmental importance of forests via the EPA.",
+        explanation: " ",
       ),
       PracticeQuestion(
           scenario: "Question 5 (BECE 2018 Q1)\n"
               "(a) List five examples of natural disasters.\n"
               "(b) Outline five ways by which the physical environment can be protected from degradation.",
-          answer: "Corrected Answers:\n\n(a) Examples of natural disasters:\n\n"
+          answer: " ⦿ (a) Answers:\n\n"
               "• Flood / torrential rain.\n"
               "• Hurricane / typhoon.\n"
               "• Tsunamis / tidal waves.\n"
               "• Volcanic eruption.\n"
               "• Landslides / mud flow.\n\n"
-              "(b) Ways by which the environment can be protected from degradation:\n\n"
-              "   • Creation of fire belts around forest.\n"
-              "   • Enforcement of environmental laws.\n"
-              "   • Adoption of sedentary agricultural practices.\n"
-              "   • Finding alternative sources of fuel.\n"
-              "   • Finding substitute for wood for construction purposes.",
-          explanation:
-              "Explanation: \n\n **Ways by which the environment can be protected from degradation:**\n\n"
-              "• Creation of fire belts around forest: There must be creation of fire belts around forests to prevent them from being destroyed through bush burning.\n\n"
-              "• Enforcement of environmental laws: Environmental laws against deforestation must be enforced by Environmental Protection Agency and Forestry Commission to ensure protection and preservation of forests in the country.\n\n"
-              "• Adoption of sedentary agricultural practices: Farmers must adopt sedentary agricultural practices that prevent rotation of farmlands. These include practices such as crop rotation, mixed cropping, cover cropping, etc.\n\n"
-              "• Finding alternative sources of fuel: People must be encouraged to use alternative energy sources such as LPG gas. This will minimize the use of charcoal and firewood that results in deforestation.\n\n"
-              "• Finding substitute for wood for construction purposes: People must be encouraged to find substitute for wood for building and construction purposes. For instance, metals can be used for roofing houses, making pillars and window or door frames in buildings instead of pieces of timber."),
+              " ⦿ (b) Answers:\n\n"
+              "   • Creation of fire belts: Protecting forests from accidental bushfires.\n"
+              "   • Environmental law enforcement: Strict monitoring by the Forestry Commission.\n"
+              "   • Sedentary agriculture: Adopting crop rotation and cover cropping to prevent the need for shifting cultivation.\n"
+              "   • Alternative fuel sources: Promoting LPG gas to reduce dependence on firewood and charcoal.\n"
+              "   • Wood substitutes: Using metal or plastic for building frames and roofing instead of timber.",
+          explanation: ""),
       PracticeQuestion(
           scenario: "Question 6 (BECE 2024 Q1a)\n"
               "How will you explain the term environment to your study group?",
           answer:
-              "Corrected Answers:\n\nThe environment refers to both the physical and social surroundings. The physical surroundings include natural elements like climate, mountains, rivers, and vegetation. The social surroundings include man-made cultural, political, and religious beliefs and structures.",
-         explanation:
-    "The environment refers to everything that surrounds human beings and influences their lives. It consists of both physical and social surroundings. The physical environment includes natural features such as climate, mountains, rivers, land, air and vegetation. The social environment includes human-made institutions, beliefs and structures, such as culture, politics, religion, settlements and social relationships."),
+              "The environment refers to both the physical and social surroundings. The physical surroundings include natural elements like climate, mountains, rivers, and vegetation. The social surroundings include man-made cultural, political, and religious beliefs and structures.",
+          explanation: " "),
+    ],
+  ),
+  "Mapping Skills": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Explain the following:\n\n"
+            "(i) Cardinal points;\n"
+            "(ii) Scale of a map.",
+        answer:
+            "⦿ Cardinal points: These are the four major directions or geographical points on a compass used to locate places. The four cardinal points are North, East, West, and South.\n\n"
+            "⦿ Scale of a map: A scale of a map is the ratio or proportion of distance on a map to the actual distance on the ground. It can be expressed in linear form, statement form, or any fractional form (representative fraction).\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Describe how one can use the four cardinal points to determine direction without the use of a compass.",
+        answer:
+            "⦿ You can determine direction based on the position of the sun using the following steps:\n\n"
+            "• Step 1: Stretch out your hands sideways.\n"
+            "• Step 2: Point your right hand toward the direction of the sunrise, which is the East.\n"
+            "• Step 3: Point your left hand toward the direction of the sunset, which is the West.\n"
+            "• Step 4: The direction you are facing is the North.\n"
+            "• Step 5: The direction behind you is the South.\n\n"
+            "⦿ Alternatively, the Shadow Method can be used:\n\n"
+            "• Morning: Stand in the sun; your shadow points approximately North-West.\n"
+            "• Afternoon: Stand in the sun; your shadow points approximately South-East.\n"
+            "• Stick Method: Place a stick upright on level ground. Mark the shadow's tip. Wait 10–30 minutes and mark the new tip. The first mark is West and the second is East.\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+          scenario:
+              "(c) State three forms in which the scale of a map can be expressed with the aid of an example each.",
+          answer: " ⦿ Answers:\n\n"
+              "• Statement Scale: A scale expressed in words. Example: 1 cm to 20 km.\n"
+              "• Linear Scale: A line drawn on a map divided into equal parts representing ground distance.\n"
+              "• Releasing gases and fumes from industries or factories\n into the atmosphere renders breathing air to become polluted.\n"
+              "• Representative Fraction (R.F.): A scale expressed as a fraction or ratio showing the proportion of map distance to ground distance. Example: 1:50,000.",
+          explanation: " "),
+      PracticeQuestion(
+        scenario:
+            "(d) Describe any four methods used for showing relief features on maps.",
+        answer: " ⦿ Answers:\n\n"
+            "• Contours: Lines drawn to connect places of equal height above sea level. They are usually brown on topographical maps.\n"
+            "• Spot height: A black dot or small circle followed by a number (e.g., .200) representing the exact measured height of that specific spot.\n"
+            "• Trigonometrical stations: A triangle with a dot (∆) and figures representing a measured point above sea level.\n"
+            "• Hachures: Short lines showing the direction of water flow. Thicker, closer lines indicate steep slopes; thinner, wider lines indicate gentle slopes.\n\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+          scenario:
+              "(e) List the steps to be taken to draw a school compound map.",
+          answer: " ⦿ Answers:\n\n"
+              "• Reconnaissance: Perform a general survey of the area to identify boundaries and landmarks.\n"
+              "• Rough Sketch: Draw an initial sketch including identified features.\n"
+              "• Correction: Revisit the compound to correct any errors on the sketch.\n"
+              "• Measurement: Use a tape to measure the actual length and breadth of the compound.\n"
+              "• Scale Selection: Choose a scale based on measurements (e.g., 1cm to 10m).\n"
+              "• Outline: Draw the compound's perimeter to scale using a ruler and pencil.\n"
+              "• Feature Insertion: Place landmarks (trees, buildings) at their correct locations to scale.\n"
+              "• Labeling: Label each feature with its actual name.\n"
+              "• Orientation: Indicate the North direction with a north pole symbol.\n"
+              "• Key/Legend: Provide a key to explain the symbols and signs used.\n"
+              "• Title: Write a descriptive title at the top, such as 'Map of St. Peter's JHS'.\n",
+          explanation: ""),
+      PracticeQuestion(
+          scenario:
+              "(f) Outline the benefits that can be derived from the relief features of Ghana.",
+          answer: "⦿ Answers:\n\n"
+              " • Relief Rainfall: Mountains aid in rainfall formation, which supports local agriculture.\n"
+              " • Mineral Deposits: Highlands contain valuable minerals such as gold, bauxite, and diamonds.\n"
+              " • Water Sources: Mountains and plateaus serve as the source of major rivers (e.g., River Pra).\n"
+              " • Tourism: Relief features like Mt. Afadjato serve as tourist sites and recreational areas.\n"
+              " • Construction Materials: Sand, stones, and rocks for building are extracted from valleys and highlands.\n"
+              " • Fertile Farming Land: Lowlands provide suitable ground for mechanized and large-scale farming.\n"
+              " • Religious Sites: Certain mountains are used as sacred areas for prayer and worship.\n"
+              " • Windbreaks: High relief features act as barriers against destructive heavy winds.\n"
+              " • Infrastructure: Lowlands facilitate the easier construction of roads and railway lines.\n",
+          explanation: " "),
+    ],
+  ),
+  "Understanding Our Natural World": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2013 Q2)"
+            "(a) List four features of a slum.\n"
+            "(b) Enumerate four measures that can be taken to prevent slums in the urban towns of Ghana.",
+        answer: "⦿ (a)Answers:"
+            "• Overcrowded settlement.\n"
+            "• Filthy/dirty environment and poor sanitation.\n"
+            "• Buildings are not well arranged or orderly.\n"
+            "• Narrow streets or a complete lack of streets.\n"
+            "• Presence of criminals and social vices.\n"
+            "• Buildings constructed from inferior or scrap materials.\n"
+            "• Heavy pressure on limited social facilities.\n"
+            "• Frequent outbreaks of diseases such as cholera.\n"
+            "⦿ (b)Answers:\n\n"
+            "• Town planners to provide good layout: The Town and Country Planning Department must provide proper layouts with specific zoning and site plans to prevent overcrowding.\n"
+            "• Building plan approval: Citizens must obtain building permits from authorities before construction to ensure structures are authorized and properly placed.\n"
+            "• Demolishing unauthorized buildings: Pulling down structures without permits reduces overcrowding and improves the movement of people and vehicles.\n"
+            "• Provision of streets before settlement: Proper street patterns must be established before building begins to ensure orderly planning.\n"
+            "• Improvement in sanitation: Authorities must provide waste collection facilities like dustbins and gutters in high-density areas to prevent slum conditions.\n"
+            "• Orderly arrangement of buildings: Ensuring builders follow site plans prevents haphazard growth and the development of slums.\n"
+            "• Control of rural-urban migration: Developing rural areas reduces the number of people moving to cities, which lowers the demand for informal housing.\n"
+            "• Provision of affordable housing: Government and NGOs should build low-cost houses to provide decent accommodation for low-income earners.\n"
+            "• Public education: Using mass media to sensitize the public about the dangers of slums, such as crime and disease outbreaks.\n"
+            "• Enforcement of bye-laws: Strict enforcement of planning laws and sanctioning those who build in unauthorized places serves as a deterrent.\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2014 Q6)"
+            "(a) Explain the term natural disaster and give two examples.\n"
+            "(b) Outline four reasons why a good layout is necessary for a decent settlement.",
+        answer: "⦿ (a) Answers:\n\n"
+            " A natural disaster is any misfortune that occurs from a natural phenomenon leading to the destruction of the environment.\n"
+            "• Examples include:\n"
+            "   • Earthquakes and floods.\n"
+            "   • Droughts and volcanic eruptions.\n"
+            "   • Landslides, tsunamis, typhoons, or hurricanes.\n"
+            "⦿ (b) Answers:\n\n"
+            "• Easy movement: Proper arrangement of buildings and streets allows people and vehicles to move freely within the settlement.\n"
+            "• Easy supply of utilities: A good layout provides designated spaces for water pipes, electricity poles, and communication lines..\n"
+            "• Proper location of social facilities: It ensures that hospitals, schools, police stations, and markets are built in accessible and appropriate locations.\n"
+            "• Easy mail distribution: Clearly defined streets and house numbers allow for the easy identification and delivery of letters.\n"
+            "• Reduction of disaster effects: Proper drainage and spacing between buildings help minimize the impact of floods, earthquakes, and landslides.\n"
+            "• Crime minimization: Well-planned areas eliminate crowded hideouts, making it easier for security agents to monitor and check criminal activities.\n"
+            "• Aesthetic beauty: A well-planned settlement is visually attractive and appreciated for its architectural design.\n"
+            "• Improved sanitation: Dedicated areas for waste collection, gutters, and toilet facilities prevent the indiscriminate disposal of waste.\n"
+            "• Reduced disease spread: Adequate spacing between buildings reduces the overcrowding that leads to the rapid spread of contagious diseases.\n"
+            "• Slum prevention: A good layout discourages unauthorized construction and the formation of informal settlements.\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+          scenario: "QUESTION 3 (BECE 2022 Q5)"
+              "(a) Define the following:\n"
+              "(i) Human settlement;\n"
+              "(ii) A slum.\n"
+              "(b) State four uses of land in your community.",
+          answer: " ⦿ (a) Answers:\n\n"
+              "• (i) Settlement: A settlement is a place where people have put up their homes to live in.\n"
+              "• (ii) A slum: A slum is an overcrowded and filthy area where buildings are not arranged in any order and are inhabited by people.\n\n"
+              " ⦿ (b) Answers:\n\n"
+              "• Farming: To grow crops like plantain and cocoyam for food.\n"
+              "• Building houses: To provide places for people to live and rest.\n"
+              "• Transport: For the construction of roads to move people and goods.\n"
+              "• Mining: To extract minerals like gold from the earth.\n"
+              "• Rearing animals: To provide grazing land for cattle, sheep, and poultry.\n"
+              "• Recreational purposes: For building football fields and parks.\n"
+              "• Industries: To build factories that process raw materials into goods.\n"
+              "• Cultural/Religious purposes: For places of worship or traditional deities.\n"
+              "• Marketplaces: To facilitate trade, such as the Kejetia Market.\n"
+              "• Public Services: For building schools, hospitals, and cemeteries.\n",
+          explanation: " "),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2023 Q5a)\n\n"
+            "(i) What is settlement?\n"
+            "(ii) Explain four reasons for which bad layout of settlements must be prevented.",
+        answer:
+            " ⦿ (i) Settlement: A settlement is a place where people put up their houses and live in them (e.g., huts, villages, cottages).\n\n"
+            " ⦿ (ii) Reasons to prevent bad layouts:\n\n"
+            "• To stop the formation of slums and informal housing.\n"
+            "• To ensure easy access to social facilities like clinics and schools.\n"
+            "• To make efficient use of available land space.\n"
+            "• To improve ventilation and the flow of air between buildings.\n"
+            "• To control and check natural and man-made disasters.\n"
+            "• To reduce overcrowding, congestion, and the spread of diseases.\n"
+            "• To facilitate the easy location of addresses and help minimize crime.\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+          scenario: "(a) Name three types of rainfall.\n"
+              "(b) Describe how any one type of rainfall is formed.",
+          answer: " ⦿ (a) Answers:\n\n"
+              "• Convectional rainfall\n"
+              "• Relief (orographic) rainfall\n"
+              "• Cyclonic or frontal rainfall\n\n"
+              " ⦿ (b) Answers:\n\n"
+              "• Formation of relief or orographic rainfall:\n\n"
+              "   • It is the type of rainfall which falls from moist air which rises as a result of air blowing against mountains or highlands.\n"
+              "   • It is formed when moist air from the sea, lake or any water body blows against mountains.\n"
+              "   • The air is forced to rise above the mountain.\n"
+              "   • It becomes cooler in the upper atmosphere.\n"
+              "   • It condenses to form clouds.\n"
+              "   • The clouds become heavy or thicker as the cooling continues.\n"
+              "   • It then leads to much rainfall on the windward side of the highland.\n"
+              "   • And a very little or no rain falls on the leeward side of the highland.\n\n\n"
+              "• Formation of cyclonic/frontal rainfall:\n\n"
+              "   • It is formed when cold air masses and warm air from opposite directions meet at a front.\n"
+              "   • The warm air rises over the cold air because the warm air is lighter than the cold air.\n"
+              "   • The warm air mass rises into the upper atmosphere.\n"
+              "   • When it gets there, it cools and condenses and that leads to the formation of clouds.\n"
+              "   • When the clouds become heavy, they fall back as rain.\n"
+              "   • The rain falls in wider or large areas and falls for a long period of time.\n\n"
+              "• Formation of conventional rainfall:\n\n"
+              "   • It is a type of rain which falls from moist air rising as a result of heating.\n"
+              "   • It is formed when the heating of the land surface causes evaporation of warm moisture.\n"
+              "   • The warm moist air becomes light, and it is forced to rise by convection currents.\n"
+              "   • The moist air becomes cooler in the upper atmosphere.\n"
+              "   • The moist air condenses and forms clouds and rainfall.\n"
+              "   • Heavy rain often comes with thunder and lightning.\n"
+              "   • Convectional rainfall occurs mostly in the afternoon.\n",
+          explanation: ""),
+      PracticeQuestion(
+          scenario:
+              "(a) Calculate the mean monthly temperature for the first half of the year (Using Jan-Jun data: 25, 27, 27, 27, 26, 26).\n"
+              "(b) What is the annual temperature range?\n"
+              "(c) Find the total annual rainfall.\n"
+              "(d) Describe the pattern of rainfall distribution.",
+          answer: "⦿ (a) Answer:\n\n"
+              " • Total temperature for the first half of the year (i.e., Jan to June) = 25 + 27 + 27 + 27 + 26 + 26 = 158°C\n"
+              " • Mean monthly temperature for the first half of the year = Total temperature for the first half of the year ÷ Number of months in the first half of the year\n"
+              " • = 158°C ÷ 6 = 26.3°C\n\n"
+              "⦿ (b) Answer:\n\n"
+              " • Annual temperature range = Highest temperature − Lowest temperature\n"
+              " • = 27°C − 23°C = 4°C\n\n"
+              "⦿ (c) Answer:\n\n"
+              " • Total annual rainfall (i.e., from Jan to Dec) = 43 + 53 + 137 + 145 + 183 + 234 + 127 + 74 + 178 + 201 + 99 + 30\n"
+              " • = 1,504 mm\n"
+              "⦿ (d) Answer:\n\n"
+              " • The rainfall recorded a total of 1,504 mm from January to December which was very high distribution.\n"
+              " • The months of June and October recorded the highest or wettest rainfall with 234 and 201 respectively.\n"
+              " • December recorded 30 mm and that was the least rainfall.\n"
+              " • The rainfall pattern was not evenly distributed. This is because it was recorded highest in June (234mm) and October (201mm) but lowest in December (30mm) and January (43mm).\n"
+              " • The rainfall distribution in the month of August was sharply dropped to 74mm between the two peaks.\n"
+              " • Rainfall was recorded every month indicating that it rained in all twelve months.",
+          explanation: " "),
+      PracticeQuestion(
+        scenario: "(a) State five characteristics of the harmattan.\n"
+            "(b) In what two ways is the harmattan useful?\n"
+            "(c) Mention three disadvantages of the harmattan.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Another name is tropical continental air mass or north-east trade winds.\n"
+            "• It is dry and has low water vapour content or low humidity.\n"
+            "• It is hot during the day and cold during the night.\n"
+            "• It is accompanied or characterized by carrying a lot of dust particles.\n"
+            "• It blows from the north-east of Ghana to the south-west of Ghana in direction.\n"
+            "• It is mostly hazy and this reduces visibility both in the morning and evening.\n"
+            "• It is mostly severe from November to February.\n"
+            "• The winds do not bring rain.\n"
+            "• The winds are normally dry.\n"
+            "• Cloud cover is low.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Promotes harvest and drying of crops: The hot and dry nature of harmattan enables farmers to dry their harvested crops faster and preserve them for future use.\n"
+            "• Promotes salt production: It provides a favourable condition to support the production of salt. This is because there is high evaporation during the harmattan season due to its hot and dry nature.\n"
+            "• Promotes laundry services: The hot and dry nature of harmattan facilitates laundry activities. This is because washed clothes can dry faster during the period.\n"
+            "• Facilitates land preparation/clearing of farmlands: The dry nature of harmattan enables farmers to prepare their farmlands for the next farming period.\n"
+            "• Favours travelling and other social activities: The absence of rain during the harmattan season enables travelling, trading and social activities to be performed successfully without interruption by rain.\n"
+            "• Minimizes mosquito breeding: The dry nature of harmattan dries up stagnant water that serves as a mosquito breeding source and reduces malaria parasites.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Air pollution: Harmattan is accompanied by dust particles in the air and this pollutes the air or atmosphere.\n"
+            "• Diseases: Skin rashes, irritation and other airborne diseases spread rapidly due to the dry and hot nature of harmattan. It also causes bronchial-related illnesses such as asthma.\n"
+            "• Poor visibility: The hazy nature of harmattan seriously results in poor visibility. This affects drivers and other transporters, leading to a high rate of accidents.\n"
+            "• Decrease in volume of water bodies: The dry, hot and lack-of-rainfall nature of harmattan facilitates the rate of evaporation. This reduces the volume of water bodies and affects activities that depend on water bodies.\n"
+            "• Bushfires: The hot and dry nature of harmattan facilitates bushfires since the vegetation becomes very dry and can spread fire easily.\n"
+            "• It prevents rainfall: Harmattan is associated with low relative humidity, which does not support rainfall.\n"
+            "• Uncomfortable living/lips and feet bleed: People feel discomfort during the harmattan season. Their skin and lips become very dry and lose moisture, causing sores on the lips and skin.\n"
+            "• Delay in planting of crops: The hot, dry and lack-of-rainfall nature of harmattan disrupts farming activities, especially the planting of crops.\n"
+            "• Lack of pasture for animals: The dry nature of harmattan affects the growth of grasses used to feed animals.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Name the three types of rocks.\n"
+            "(b) State four importance of rocks.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Igneous rock\n"
+            "• Sedimentary rock\n"
+            "• Metamorphic rock\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• For building: Rocks are quarried and used for the construction of bridges, dams, and houses. Examples include granite, clay and limestone.\n"
+            "• As a source of precious minerals: Some rocks contain minerals. For instance, gold, coal, petroleum and diamonds are obtained from rocks.\n"
+            "• As a source of fuel: Some rocks serve as sources of fuel, such as petroleum, coal and natural gas. For example, oil and gas are obtained from shale rock.\n"
+            "• As a source of food or salt: Some salt rocks, such as sodium chloride from sedimentary rocks, serve as sources of salt that is mined for cooking.\n"
+            "• Serves as a tourist attraction: Some rocks have attractive features, such as their shapes or layers. These become tourist sites, for example, the Umbrella Rock at Boti Falls.\n"
+            "• Source of underground water: Springs, wells and other underground water take their sources from rocks.\n"
+            "• For construction of roads: Rocks such as granite and basalt are used to construct roads because they are strong and durable.\n"
+            "• Source of employment: Rocks provide employment through quarrying, mining industries and tourist sites.\n"
+            "• For ornamental uses: Some beautiful rocks, such as marble, can be polished as ornaments and used to decorate houses and floors.\n"
+            "• Source of revenue to the state: Some rock products, such as gold, are exported to other countries to earn foreign exchange.\n"
+            "• Source of materials for crafts: Rocks like marble and clay provide raw materials for sculpturing and ceramic activities.\n"
+            "• For soil formation: Soil is formed as a result of the breakdown or disintegration of rocks.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) Mention two areas in Ghana which experience relief rainfall.\n"
+            "(b) List two benefits of rainfall.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Abetifi in Kwahu District\n"
+            "• Aburi-Akwapim, located in the Akwapim-Togoland Ranges\n"
+            "• Kusa area, located near Fomena in the Atiwa Range\n"
+            "• Kwahu Range or mountainous area\n"
+            "• Parts of the Volta Region, especially the Amedzofe area\n"
+            "• Mampong area in the Ashanti Region\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• It provides water for domestic uses: Rainfall is harvested by people in their homes for cooking, bathing, drinking, washing, and other household activities.\n"
+            "• It provides water for industrial use: Rainfall provides water that is treated for industrial activities, such as mixing chemicals or cooling engines.\n"
+            "• It provides water to support agricultural activities: Rainfall improves soil moisture and enables farmers to plant and grow their crops.\n"
+            "• It improves weather conditions: Rainfall helps to reduce hot weather conditions to normal temperatures, thereby improving living conditions.\n"
+            "• It increases the volume of water bodies: Rainfall increases the volume of rivers and lakes used for hydroelectric power generation, such as Lake Volta.\n"
+            "• It supports the growth of pasture: Rainfall promotes the growth of grass used to feed livestock.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Outline five features of the rain forest.\n"
+            "(b) State any five benefits of the rain forest.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The forest is evergreen throughout the year with broad leaves.\n"
+            "• The forest is arranged in layers.\n"
+            "• The trees are tall and straight.\n"
+            "• There are many lianas and/or woody climbers which twist around the trees.\n"
+            "• The trees have inter-locking canopies.\n"
+            "• Dead leaves, trees and fungi are common in their undergrowth.\n"
+            "• The trees are not found in pure stands.\n"
+            "• The trees have thin barks with buttress roots.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Source of foreign exchange: Timber is exported abroad to earn foreign exchange.\n"
+            "• Provision of timber to feed sawmills: The forest provides timber used as raw materials by sawmills.\n"
+            "• Provision of logs for construction: The forest provides logs which are processed into wood for construction.\n"
+            "• Provision of wood for furniture making: Logs are processed into wood and plywood to make tables, chairs and other furniture.\n"
+            "• Provision of logs and wood for fuel: The forest provides wood used for firewood and charcoal.\n"
+            "• Conservation of soil fertility: Forest shade prevents erosion, while fallen leaves become manure that enriches the soil.\n"
+            "• Provision of food: The forest provides fruits and meat from game to sustain human life.\n"
+            "• Provision of tourist sites: Attractive forest features become tourist sites, such as Kakum National Park.\n"
+            "• Source of employment: Jobs are created for hunters, herbalists and chainsaw operators.\n"
+            "• Provision of medicine: Leaves and barks are used to produce traditional and orthodox medicines, such as those obtained from mahogany and neem trees.\n"
+            "• Conservation of water bodies: Forests protect water bodies from drying up through evaporation.\n"
+            "• Provision of habitat: The forest serves as a home for wildlife such as monkeys and elephants.\n"
+            "• Provision of cooking items: Wood logs are processed into pestles, mortars and wooden ladles.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) State the two main seasons and the periods in which they occur in Ghana.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The dry season: It occurs from November to February.\n"
+            "• The wet season: It occurs from March to October.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Describe the Solar System.\n"
+            "(b) Name four planets in the Solar System.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The Solar System consists of the Sun and the eight planets. It also includes moons, dwarf planets, comets, asteroids and other satellites.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Mercury\n"
+            "• Venus\n"
+            "• Earth\n"
+            "• Mars\n"
+            "• Jupiter\n"
+            "• Saturn\n"
+            "• Uranus\n"
+            "• Neptune\n"
+            "• Pluto (dwarf planet)",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "(a) State two major highlands in Ghana.\n"
+            "(b) State two major lowlands in Ghana.\n"
+            "(c) Outline two uses of the International Date Line.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Gambaga Scarp (Northeast Highlands)\n"
+            "• Mampong Scarp (Central Highlands)\n"
+            "• Wa Scarp (Northwest Highlands)\n"
+            "• The Akwapim-Togo Ranges\n"
+            "• Kwahu Scarp\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Volta Basin Lowlands\n"
+            "• Coastal Lowlands/Coastal Plains\n"
+            "• Afram Plains\n"
+            "• River Basins\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• It helps to avoid confusion resulting from differences in time between places.\n"
+            "• It helps to determine days and nights at various places at a specific time.\n"
+            "• It helps to determine dates in different parts of the world at the same time.\n"
+            "• It helps to determine local time and standard time with reference to GMT.\n"
+            "• It helps to determine the number of hours a traveller is ahead or behind.\n"
+            "• It helps a traveller to know when a day is lost or gained.",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) Calculate the time at town ‘A’ on a longitude 45° E if the time at town ‘B’ on longitude 0° is 9 a.m.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Difference in longitude between town A and town B = 45° − 0° = 45°\n"
+            "• Every 15° = 1 hour\n"
+            "• Time difference = (45° × 1 hour) ÷ 15° = 3 hours.\n"
+            "• Since town A is east of town B, the time at town A will be 3 hours ahead of the time in town B.\n"
+            "• Therefore, the time at town A will be 9 a.m. + 3 hours = 12 p.m. (noon).",
+        explanation: " ",
+      ),
+    ],
+  ),
+  "Adolescent Reproductive Health": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q1)\n"
+            "(a) State four causes of irresponsible adolescent behaviour.\n"
+            "(b) Explain four benefits of adolescent chastity.",
+        answer: "⦿ (a)Answers:"
+            "• Refusal of physical needs by parents: When parents refuse to provide children with their physical needs, it compels them to seek such needs elsewhere. This encourages them to engage in irresponsible behaviours such as armed robbery or prostitution.\n"
+            "• Negative peer pressure: Pressure and influences from the peers of adolescents can make them engage in bad behaviours such as prostitution, armed robbery, and drug abuse.\n"
+            "• Curiosity and adventure: The curiosity or adventurous nature of adolescents often leads them into bad behaviours such as drug abuse, prostitution, and pre-marital sex..\n"
+            "• Lack of parental love and respect: Parents who do not show love, care, and respect make their children feel rejected. These children then seek affection and respect from the opposite sex, leading them into early sexual relationships.\n"
+            "• Influence of parental examples: Parents who portray irresponsible behaviours such as drinking, smoking, or prostitution influence their children to copy them and practice such lifestyles.\n"
+            "• Media influence: Exposure to mass media (television, magazines, movies, pornographic material) influences adolescents to practice bad behaviours like drinking alcohol, drug abuse, and prostitution.\n"
+            "• Breakdown of the extended family: The reduction in control and discipline previously provided by elderly relatives like uncles and grandparents has led to a higher level of irresponsible behaviour.\n"
+            "• Broken homes: Broken marriages or homes often lead to a lack of parental control and responsibility, which can lead adolescents into irresponsible habits.\n"
+            "• Materialistic desires: The desire to possess material things like mobile phones, expensive shoes, or bags compels some to engage in robbery or prostitution to earn money.\n"
+            "• Lack of education: Children who lack knowledge about the consequences of certain irresponsible behaviours may unknowingly engage in them.\n"
+            "• Poverty: Financial difficulties on the part of parents make children lack basic needs, leading them to behaviours like prostitution to survive or support the family.\n"
+            "⦿ (b)Answers:\n\n"
+            "• Development of self-dignity: People who live a chaste life feel self-honoured and proud. They possess a sense of self-worth and feel valued and worthy of respect in society.\n"
+            "• Respect from adults: Adults in the community highly respect and honour adolescents who live a chaste life. They are seen as role models worthy of emulation because chastity is a cherished Ghanaian value.\n"
+            "• Attraction of responsible marriage partners: Chaste adolescents often find responsible partners. Because they wait for the right time, it allows parents to conduct necessary family background investigations before marriage is contracted.\n"
+            "• Uninterrupted education: Abstaining from premarital sex allows adolescents to focus on their studies and avoid unwanted pregnancies that could terminate their education.\n"
+            "• Prevention of STDs: Living a chaste life prevents individuals from contracting sexually transmitted diseases like HIV/AIDS, syphilis, or gonorrhoea because they abstain from all sexually related activities.\n"
+            "• Honour to parents: Chaste children bring respect to their parents. The parents become worthy of emulation for successfully raising their children to such a responsible status.\n"
+            "• Trust in future marriage: Those who practice chastity are often highly trusted by their future spouses. Keeping one's virginity until marriage minimizes suspicion of infidelity and helps promote a stable marriage.\n"
+            "• Prevention of early parenthood: Chastity prevents teenage pregnancies, ensuring that adolescents do not become parents before they are physically, emotionally, or financially ready.\n"
+            "• Prevention of abortion and its risks: By avoiding unwanted pregnancies, chastity removes the temptation to resort to unsafe abortions, which can lead to womb damage or loss of life.\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2020 Q2)\n"
+            "(a) Define the following terms:\n"
+            "(i) Adolescence;\n"
+            "(ii) Reproductive health;\n"
+            "(b) Outline four factors that can promote good adolescence reproductive health.",
+        answer: "⦿ (a) Answers:\n\n"
+            "   • (i) Adolescence is a stage of transition of an individual from childhood to adulthood.\n"
+            "   • (ii)  Reproductive health is the state of complete physical, mental, and social well-being of the entire reproductive system of an individual.\n"
+            "⦿ (b) Answers:\n\n"
+            "• Good parenting: Parents must provide for the physical and emotional needs of their children and guide them away from negative influences. This prevents children from seeking needs on the street and reduces exposure to sexual health risks.\n"
+            "• Chastity and moral values: Encouraging adolescents to stay away from sexual activities helps them avoid unwanted pregnancies and diseases like HIV that affect the reproductive system.\n"
+            "• Academic ambition: Developing a desire to complete Secondary and Tertiary education provides adolescents with the knowledge and focus needed to overcome reproductive health issues and secure a future career.\n"
+            "• Obedience to guardians: Following the advice of parents and guardians prevents adolescents from engaging in irresponsible behaviours like prostitution or activities leading to unsafe abortions.\n"
+            "• Respect for social values: Living according to societal norms (tolerance, hospitality, and respect for elders) helps adolescents stay away from illegal practices and maintain a healthy lifestyle.\n"
+            "• Avoidance of negative peer influence: Adolescents should be encouraged to reject influences from peers to watch pornography or engage in drug abuse and sexual relationships.\n"
+            "• Maintaining good hygiene: Practising regular health habits—such as bathing, brushing teeth, and shaving pubic parts—ensures that reproductive organs remain healthy and function well.\n"
+            "• Sex education: Formal education on reproductive organs and the dangers of indiscriminate sexual activity helps adolescents understand how to protect their bodies and minds.\n"
+            "• Good eating habits: Eating a balanced diet, drinking enough water, and avoiding excessive fatty foods or late-night eating ensures the proper functioning of the reproductive system.\n"
+            "• Physical exercise: Regular exercise maintains a healthy body and mind, promoting proper blood circulation which is essential for a healthy reproductive system.\n"
+            "• Guidance and counselling: Access to services from teachers, pastors, and experts provides adolescents with the information needed to navigate health issues and make responsible choices.\n",
+        explanation: " ",
+      ),
+    ],
+  ),
+
+  "Citizenship and Human Rights": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1996 Q4a)\n\n"
+            "Describe three duties of a citizen of Ghana.\n",
+        answer:
+            "• Payment of tax: A citizen of Ghana is expected to pay taxes to the state. This will enable the government to mobilize sufficient revenue to undertake development projects such as roads, provision of water, electricity, etc. in the country.\n"
+            "• Law abiding/obedience to the constitution: A citizen of Ghana is expected to obey all the rules and regulations and provisions of the constitution of the country. This will help to bring peace and stability in the country.\n"
+            "• Participate in communal labour: It is the responsibility of a citizen of Ghana to offer his or her skills, knowledge and experience to support the development of his or her community through communal labour. These include cleaning, weeding, construction, etc.\n"
+            "• Respect for the rights of others: A citizen must respect the right of other people to ensure harmonious living in the country.\n"
+            "• Protection of public properties: A citizen is expected to protect properties of the state to enable them function effectively in the country.\n"
+            "• Reporting criminals to the police: It is the responsibility of every citizen to report to the police people who indulge in criminal activities in the country to enhance the security of the country.\n"
+            "• Defending the state: A citizen is expected to always defend the name of Ghana especially in times of war.\n"
+            "• Exhibiting positive work attitudes: It is the responsibility of a citizen to exhibit positive work attitudes to increase productivity of the country. These include punctuality, hard work, and respect for authorities, etc. at workplaces.\n"
+            "• Defending the constitution of Ghana: It is the responsibility of every citizen of Ghana to uphold and defend the constitution of Ghana against a plot of military coup.\n"
+            "• Lack of education: Children who lack knowledge about the consequences of certain irresponsible behaviours may unknowingly engage in them.\n"
+            "• Poverty: Financial difficulties on the part of parents make children lack basic needs, leading them to behaviours like prostitution to survive or support the family.\n"
+            "• Offering voluntary service to the state: A citizen is expected to render a voluntary service such as national service, acting as a witness at the court etc. to the state.\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2010 Q4)\n\n"
+            "(a) What is citizenship?\n"
+            "(b) Describe four ways by which one could become a citizen of Ghana.",
+        answer: "⦿ (a) Citizenship definition:\n\n"
+            "   • Citizenship means membership of a country. A citizen is a person who has been accepted as a member of a country either by reason of birth, adoption, descent or by registration.\n"
+            "⦿ (b) Ways to become a citizen of Ghana:\n\n"
+            "• By birth: A person born anywhere in the world whose parents or grandparents are Ghanaians could become a citizen of Ghana.\n"
+            "• By adoption: A child who is not more than sixteen years and adopted by a Ghanaian through legal process could become a citizen of Ghana.\n"
+            "• By Naturalization: A foreigner who has stayed in Ghana for a certain number of years and shown good character could renounce his/her current citizenship and apply to become a citizen of Ghana. He/she must swear an oath of allegiance to his/her new country (Ghana) in the process.\n"
+            "• By Registration (Marriage): A foreigner married to a Ghanaian can apply to become a citizen of Ghana by registration.\n"
+            "• By honorary conferment: Citizenship may be conferred on a foreigner by the president of Ghana as a sign of appreciation of his/her contribution to humanity or development. (Example: Dr W.B Du Bois).\n"
+            "• By foundling: A foreigner whose parents are unknown and not more than seven years of age found in Ghana shall be presumed to be a citizen of Ghana.\n"
+            "• By descent: A person can become a citizen of Ghana by tracing the nationality or ancestry of his or her parents irrespective of his or her place of birth. (Example: Dede Ayew).\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2023 Q4a)\n\n"
+            "Differentiate between freedom and obligation.\n",
+        answer:
+            "• Freedoms are the benefits that an individual enjoys without any hindrance.\n"
+            "• Obligations are the duties and responsibilities of an individual in a state or country.\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2024 Q3b)\n\n"
+            "In what four ways can citizens contribute to the development of the state?\n",
+        answer:
+            "• By paying taxes: This enables the government to mobilize revenue for development projects such as roads, water, and electricity to improve lives.\n"
+            "• By reporting crime activities: Reporting people who indulge in criminal activities like armed robbery or rape to the police improves national security.\n"
+            "• Not getting involved in criminal activities: By avoiding crime, citizens ensure a comfortable environment that leads to higher productivity.\n"
+            "• Offering voluntary services: Rendering services such as national service or acting as a witness in court when called upon.\n"
+            "• Participating in national politics: Contributing through political education, campaigns, and voting during national elections.\n"
+            "• Exhibiting positive work ethics: Increasing national productivity through punctuality, hard work, and respect for authorities at workplaces.\n"
+            "• Honouring communal labour: Supporting community development by offering skills and labour for cleaning, weeding, and construction.\n"
+            "• Defending the constitution: Upholding the constitution against military takeovers and ensuring its provisions are not undermined.\n"
+            "• Being law abiding: Obeying all rules and regulations to ensure peace and stability in the country.\n"
+            "• Discouraging outmoded cultural practices: Helping to abolish practices like widowhood rites, trokosi, or FGM to safeguard human rights.\n"
+            "• Protecting national properties: Safeguarding state assets like hospitals, school buildings, and furniture so they function effectively.\n"
+            "• Engaging in public education: Sensitizing others to protect national properties and public facilities.\n"
+            "• Protection of the environment: Safeguarding water bodies, vegetation, and air to promote national health and development.\n"
+            "• Projecting the good image of the country: Promoting Ghana's name through music, sports, and culture to attract investors and create jobs.",
+        explanation: " ",
+      ),
+    ],
+  ),
+  "Human Resource Development": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2009 Q6)\n\n"
+            "(a) What is human resource?\n"
+            "(b) Explain three factors which can negatively affect human resource in Ghana.\n"
+            "(c) Describe four measures that can be taken to improve human resource in Ghana.\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "Human resource refers to the population, their skills and ability to use them to facilitate development.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Incidence of diseases: Diseases such as malaria, cholera, typhoid and HIV/AIDS that attack people make them weak and reduce their ability to work effectively.\n"
+            "• Incidence of accidents: Accidents can cause a person to lose his life or become disabled. As a result, his skills, knowledge and experiences cannot be utilized for production.\n"
+            "• Insecurity: People are not able to make good use of the skills, knowledge and experience they possess in production in an environment where they feel intimidated or insecure (e.g., armed robbery or ethnic conflicts).\n"
+            "• Disasters: Natural disasters such as droughts, floods, and bush fires can lead to loss of human power and limit a worker's efficiency.\n"
+            "• Rapid growth of population: This creates unemployment, making people unable to find jobs and put their skills and knowledge into efficient use.\n"
+            "• Bribery and corruption: Practices at the workplace result in inadequate tools because funds meant for provisions are diverted for personal use.\n"
+            "• Favouritism and Nepotism: These lead to the appointment of the wrong people to positions they cannot handle, rendering the workforce inefficient.\n"
+            "• Low level of Education and Training: A lack of requisite skills and knowledge prevents people from functioning efficiently in modern workplaces.\n"
+            "• Poor conditions of work/services: Lack of facilities and poor wages reduce worker motivation.\n"
+            "• Influence of traditional beliefs and practices: Taboos or norms, such as non-working days for traditional reasons, can make workers idle.\n"
+            "• Negative attitudes to work/apathy: Lateness, absenteeism, and irregularity reduce overall productivity.\n"
+            "• Absence of co-operant factors: A lack of working materials or tools at the workplace directly reduces the efficiency of the human resource.\n"
+            "⦿ (c) Answer:\n\n"
+            "• Improvement in welfare services: Providing enhanced remuneration, health insurance, and accommodation allowances to make workers more committed.\n"
+            "• Provision of quality education: Equipping people with the requisite knowledge and skills needed for professional roles like doctors, engineers, and teachers.\n"
+            "• Training: Offering technical, vocational, and entrepreneurial training to help individuals develop their full potential.\n"
+            "• Improved working conditions: Providing higher wages and better facilities to motivate workers to bring out their best.\n"
+            "• Proper supervision: Effective management supervision ensures workers exhibit positive attitudes and increase productivity.\n"
+            "• Good work ethics: Encouraging punctuality, honesty, and loyalty to enhance relationships between employers and workers.\n"
+            "• Provision of employment: Creating more opportunities so that people can put their acquired talents and skills to practical use.\n"
+            "• Provision of efficient tools: Supplying the right equipment, such as computers, to make work more efficient.\n"
+            "• Reduction of accidents: Putting measures in place to minimize loss of human resources through death or disability.\n"
+            "• Career guidance and counselling: Equipping workers with professional information regarding work ethics and career paths.\n"
+            "• Enforcement of laws: Implementing strict laws against corruption and nepotism to ensure qualified people are appointed.\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2011 Q6)\n\n"
+            "(a) Describe four ways through which human resources can be developed in Ghana.\n\n"
+            "(b) State two reasons why labour is not fully used in Ghana.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Refer to the measures listed in Question 1(c) above, such as Provision of quality education, Training, Improved working conditions, and Proper supervision.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Poor working conditions: Low wages and a lack of incentives discourage workers from putting in their best effort.\n"
+            "• Inadequate training facilities: A lack of facilities for on-the-job and off-the-job training prevents workers from improving their skills.\n"
+            "• Inadequate job opportunities: Many educated individuals remain jobless, meaning their skills and talents are not utilized.\n"
+            "• Limited welfare services: A lack of medical services, transport, and housing leads to a lukewarm attitude toward work.\n"
+            "• Low technical know-how: Low levels of education make it difficult for workers to efficiently exploit natural resources.\n",
+        explanation: " ",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2023 Q6)\n\n"
+            "(a) State the two classifications of human resource.\n"
+            "(b) Outline four measures the government can take to ensure efficient use of human resource in Ghana.\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Skilled\n"
+            "• Unskilled\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Refer to the measures listed in Question 1(c) above.\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2024 Q6)\n\n"
+            "Identify four challenges mostly associated with human resources development in Ghana.",
+        answer:
+            "• Brain drain: Trained professionals leave the country for \"greener pastures\" abroad, depriving Ghana of their skills.\n"
+            "• Inadequate training and retraining: Workers lack the updated knowledge needed for high productivity.\n"
+            "• Limited welfare services: Insufficient insurance, accommodation, and transport reduce worker morale.\n"
+            "• Poor conditions of service: Lack of materials and low motivation lead to a lack of commitment.\n"
+            "• Financial challenges: Government constraints make it difficult to provide tools and salary increments.\n"
+            "• Inconsistent government policies: Changing administrations may abandon existing development plans.\n"
+            "• Nepotism/favouritism: Hiring unqualified family members or friends over skilled individuals weakens development efforts.\n"
+            "• Improper implementation of educational policies: This leads to poor-quality education that does not meet market needs.\n"
+            "• Ineffective monitoring: Poor supervision at workplaces allows for shoddy work and inefficiency.",
+        explanation: " ",
+      ),
+    ],
+  ),
+  "Financial and Investment Issues": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2025 Q5)\n\n"
+            "(a) (i) How would you explain the concept of social security to parents?\n"
+            "(a) (ii) State any two national social security schemes available in Ghana.\n"
+            "(b) Suggest four reasons to convince any individual to join a Social Security Scheme in Ghana.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Social security is a program by society or the public designed to provide income, security, and protection against the future, old age, and unforeseen circumstances. These circumstances include invalidity, sickness, or the death of a breadwinner.\n\n"
+            "⦿ (a) (ii) Answer:\n\n"
+            "• Social Security and National Insurance Trust (SSNIT)\n"
+            "• National Health Insurance Scheme (NHIS)\n"
+            "• National Pension Scheme\n"
+            "• State Insurance Corporation (SIC)\n"
+            "• Micro insurance schemes (e.g., GLICO, Providence Life, LEAP, Tier II and III)\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Financial Security: Social security schemes such as SSNIT, SIC, and the National Pension Scheme provide financial security to policyholders. The beneficiaries or holders of the policy are assured of a lump sum of money they can claim in times of disability, death, or retirement.\n"
+            "• Medical Care and Sick Benefits: Schemes like the National Health Insurance Scheme (NHIS) provide cover against sickness. It allows the insured to attend the hospital for medical care or buy drugs from a pharmacy with the costs charged to the insurer. This enables people to seek medical care regularly without immediate financial strain.\n"
+            "• Poverty Prevention: Social security schemes, such as Providence Life and GLICO, protect holders against poverty by enabling them to plan against unforeseen circumstances and preventing them from forced borrowing. These policies help individuals keep money aside for future use or investment, thereby curbing unnecessary spending.\n"
+            "• Surviving and Death Benefits for Dependents: Social security providers like SSNIT or SIC Life provide relief packages for beneficiaries. It allows parents to plan against untimely death by saving money for their surviving children, dependents, and the family in the form of life insurance.\n"
+            "• Retirement and Old Age Benefits: Schemes provide opportunities for both government and private workers to plan for life after work. A certain percentage of their monthly salary is deducted and kept by institutions like SSNIT, which is then returned to the workers when they reach retirement age.\n"
+            "• Economic Stability: Social security ensures economic stability in the country by encouraging savings for retirement, profit gain, or investment capital. This minimizes excessive borrowing and provides a safety net against sickness or disability.\n"
+            "• Disability and Invalidity Benefits: Social security schemes provide opportunities for people to insure against disability in life. If an unfortunate incident such as an accident occurs, the individual can receive disability or invalidity benefits from the insurer to support their livelihood.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Independent Ghana": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1: The Achievements of Dr. Kwame Nkrumah\n\n"
+            "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
+        answer:
+            "• Leadership in Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957, becoming the first Prime Minister and later the first President.\n"
+            "• Infrastructure (Tema Harbour): Under his leadership, the Tema Harbour was constructed to boost international trade and maritime activities.\n"
+            "• Industrialization (State Enterprises): His government established numerous state enterprises to promote self-reliance, including VALCO, Rubber Manufacturing at Bonsa, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n"
+            "• Healthcare Expansion: He expanded healthcare by building new hospitals, notably the Okomfo Anokye Teaching Hospital in Kumasi, and established the University of Ghana Medical School at Korle Bu.\n"
+            "• Energy (Akosombo Dam): He oversaw the construction of the Akosombo Dam, providing electricity for domestic use and exporting power to neighbouring countries like Togo.\n"
+            "• Education Development: He built several second-cycle schools, such as Tweneboa Kodua SHS, and established higher-learning institutions like UCC, KNUST, and various polytechnics and teacher-training colleges.\n"
+            "• Free Education Policy: He introduced a compulsory free-tuition primary education scheme and provided free textbooks to Ghanaian children.\n"
+            "• Financial Institutions: He established key financial institutions, including the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation.\n"
+            "• Housing: He founded the State Housing Corporation to address the housing needs of the growing population by providing affordable homes.\n"
+            "• Agriculture: He set up state farms and irrigation facilities for rice and sugar, while diversifying crops to include cash crops and livestock rearing.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2: The Overthrow of Dr. Kwame Nkrumah\n\n"
+            "(a) Mention achievements of Dr. Kwame Nkrumah.\n"
+            "(b) What are the reasons that led to the overthrow of Dr. Kwame Nkrumah?",
+        answer: "⦿ (a) Achievements:\n\n"
+            "• Refer to the detailed points in Question 1.\n\n"
+            "⦿ (b) Reasons for Overthrow:\n\n"
+            "• One-party state: He declared Ghana a one-party state, making the CPP the only legal party and causing widespread political dissatisfaction.\n"
+            "• Dictatorial Rule: He was accused of ruling as a dictator, concentrating power within the CPP and ignoring the interests of other groups.\n"
+            "• Preventive Detention Act (PDA): The introduction of the PDA allowed for the detention of political opponents without trial, leading to human rights violations.\n"
+            "• Corruption and Mismanagement: Widespread bribery and the collapse of state-owned enterprises due to mismanagement led to a loss of public trust.\n"
+            "• Military Dissatisfaction: He provided preferential treatment to his Presidential Guards over the regular Armed Forces, inciting the military to plot a coup.\n"
+            "• Disrespect for Tradition: His government destooled some traditional chiefs and disrespected local institutions, making him unpopular among traditional leaders.\n"
+            "• Financial Mismanagement: Excessive spending on ambitious projects and foreign aid to countries like Guinea and Mali resulted in high inflation and national debt.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3: The 1948 Riots and Watson Commission\n\n"
+            "(a) Identify causes of the 1948 riots.\n"
+            "(b) Outline recommendations of the Watson Commission.",
+        answer: "⦿ (a) Causes of the 1948 Riots:\n\n"
+            "• Constitutional Shortcomings: The Burns Constitution of 1946 failed to meet the political aspirations of the people.\n"
+            "• Inequality in Civil Service: Most high-ranking civil service positions were held by Europeans, leaving few opportunities for Africans.\n"
+            "• Economic Monopolies: Local businesses were crippled by the dominance of the Association of West African Merchants (AWAM).\n"
+            "• Post-War Economic Slump: The country faced an economic downturn after World War II, leading to high unemployment.\n"
+            "• High Cost of Living: Shortages of essential goods led to inflated prices and general hardship.\n"
+            "• Swollen Shoot Disease Policy: The government's order to cut down infected cocoa trees without compensation angered farmers.\n"
+            "• The Shooting of Veterans: The immediate spark was the killing of three ex-servicemen—Sergeant Adjetey, Corporal Attipoe, and Private Odartey-Lamptey—at the Osu crossroads.\n\n"
+            "⦿ (b) Watson Commission Recommendations:\n\n"
+            "• New Constitution: Recommended drafting a new constitution to replace the Burns Constitution and grant more autonomy.\n"
+            "• Veteran Welfare: Recommended that the government fulfil promises made to ex-servicemen regarding pensions and housing.\n"
+            "• Africanization of Administration: Suggested that Ghanaians should be more involved in the governance and administration of the colony.\n"
+            "• Social Amenities: Recommended the provision of better social amenities, such as clean water and housing, for the local population.\n"
+            "• Educational Reform: Urged the expansion and improvement of primary, middle, and secondary education.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4: Impact of the 1948 Riots\n\n"
+            "Highlight ways in which the riots contributed to Ghana’s independence.",
+        answer:
+            "• Constitutional Reform: The riots led to the Watson and Coussey Committees, which paved the legal way for self-rule through constitutional changes.\n"
+            "• Birth of the CPP: The internal disagreements following the riots led Kwame Nkrumah to form the CPP, which demanded \"Self-government now.\"\n"
+            "• Nationalism: The events unified the people of the Gold Coast and heightened political awareness and the desire for freedom.\n"
+            "• The Big Six Popularity: The arrest of the UGCC leaders, known as the Big Six, made them national heroes and united the masses against colonial rule.\n"
+            "• Political Representation: The riots forced the British to increase the number of Africans in the Legislative and Executive Councils.\n"
+            "• International Awareness: The disturbances drew global attention to the anti-colonial struggle in West Africa, putting pressure on the British government.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+
+  "Environmental Issues": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1: The Achievements of Dr. Kwame Nkrumah\n\n"
+            "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
+        answer:
+            "• Leadership in Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957, becoming the first Prime Minister and later the first President.\n"
+            "• Infrastructure (Tema Harbour): Under his leadership, the Tema Harbour was constructed to boost international trade and maritime activities.\n"
+            "• Industrialization (State Enterprises): His government established numerous state enterprises to promote self-reliance, including VALCO, Rubber Manufacturing at Bonsa, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n"
+            "• Healthcare Expansion: He expanded healthcare by building new hospitals, notably the Okomfo Anokye Teaching Hospital in Kumasi, and established the University of Ghana Medical School at Korle Bu.\n"
+            "• Energy (Akosombo Dam): He oversaw the construction of the Akosombo Dam, providing electricity for domestic use and exporting power to neighbouring countries like Togo.\n"
+            "• Education Development: He built several second-cycle schools, such as Tweneboa Kodua SHS, and established higher-learning institutions like UCC, KNUST, and various polytechnics and teacher-training colleges.\n"
+            "• Free Education Policy: He introduced a compulsory free-tuition primary education scheme and provided free textbooks to Ghanaian children.\n"
+            "• Financial Institutions: He established key financial institutions, including the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation.\n"
+            "• Housing: He founded the State Housing Corporation to address the housing needs of the growing population by providing affordable homes.\n"
+            "• Agriculture: He set up state farms and irrigation facilities for rice and sugar, while diversifying crops to include cash crops and livestock rearing.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2: The Overthrow of Dr. Kwame Nkrumah\n\n"
+            "(a) Mention achievements of Dr. Kwame Nkrumah.\n"
+            "(b) What are the reasons that led to the overthrow of Dr. Kwame Nkrumah?",
+        answer: "⦿ (a) Achievements:\n\n"
+            "• Refer to the detailed points in Question 1.\n\n"
+            "⦿ (b) Reasons for Overthrow:\n\n"
+            "• One-party state: He declared Ghana a one-party state, making the CPP the only legal party and causing widespread political dissatisfaction.\n"
+            "• Dictatorial Rule: He was accused of ruling as a dictator, concentrating power within the CPP and ignoring the interests of other groups.\n"
+            "• Preventive Detention Act (PDA): The introduction of the PDA allowed for the detention of political opponents without trial, leading to human rights violations.\n"
+            "• Corruption and Mismanagement: Widespread bribery and the collapse of state-owned enterprises due to mismanagement led to a loss of public trust.\n"
+            "• Military Dissatisfaction: He provided preferential treatment to his Presidential Guards over the regular Armed Forces, inciting the military to plot a coup.\n"
+            "• Disrespect for Tradition: His government destooled some traditional chiefs and disrespected local institutions, making him unpopular among traditional leaders.\n"
+            "• Financial Mismanagement: Excessive spending on ambitious projects and foreign aid to countries like Guinea and Mali resulted in high inflation and national debt.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3: The 1948 Riots and Watson Commission\n\n"
+            "(a) Identify causes of the 1948 riots.\n"
+            "(b) Outline recommendations of the Watson Commission.",
+        answer: "⦿ (a) Causes of the 1948 Riots:\n\n"
+            "• Constitutional Shortcomings: The Burns Constitution of 1946 failed to meet the political aspirations of the people.\n"
+            "• Inequality in Civil Service: Most high-ranking civil service positions were held by Europeans, leaving few opportunities for Africans.\n"
+            "• Economic Monopolies: Local businesses were crippled by the dominance of the Association of West African Merchants (AWAM).\n"
+            "• Post-War Economic Slump: The country faced an economic downturn after World War II, leading to high unemployment.\n"
+            "• High Cost of Living: Shortages of essential goods led to inflated prices and general hardship.\n"
+            "• Swollen Shoot Disease Policy: The government's order to cut down infected cocoa trees without compensation angered farmers.\n"
+            "• The Shooting of Veterans: The immediate spark was the killing of three ex-servicemen—Sergeant Adjetey, Corporal Attipoe, and Private Odartey-Lamptey—at the Osu crossroads.\n\n"
+            "⦿ (b) Watson Commission Recommendations:\n\n"
+            "• New Constitution: Recommended drafting a new constitution to replace the Burns Constitution and grant more autonomy.\n"
+            "• Veteran Welfare: Recommended that the government fulfil promises made to ex-servicemen regarding pensions and housing.\n"
+            "• Africanization of Administration: Suggested that Ghanaians should be more involved in the governance and administration of the colony.\n"
+            "• Social Amenities: Recommended the provision of better social amenities, such as clean water and housing, for the local population.\n"
+            "• Educational Reform: Urged the expansion and improvement of primary, middle, and secondary education.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4: Impact of the 1948 Riots\n\n"
+            "Highlight ways in which the riots contributed to Ghana’s independence.",
+        answer:
+            "• Constitutional Reform: The riots led to the Watson and Coussey Committees, which paved the legal way for self-rule through constitutional changes.\n"
+            "• Birth of the CPP: The internal disagreements following the riots led Kwame Nkrumah to form the CPP, which demanded \"Self-government now.\"\n"
+            "• Nationalism: The events unified the people of the Gold Coast and heightened political awareness and the desire for freedom.\n"
+            "• The Big Six Popularity: The arrest of the UGCC leaders, known as the Big Six, made them national heroes and united the masses against colonial rule.\n"
+            "• Political Representation: The riots forced the British to increase the number of Africans in the Legislative and Executive Councils.\n"
+            "• International Awareness: The disturbances drew global attention to the anti-colonial struggle in West Africa, putting pressure on the British government.",
+        explanation: "",
+      ),
     ],
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Mapping Skills (Concept of Maps)": PracticeModel(
+  "Mapping ": PracticeModel(
     audioPath: '',
     questions: [
-       PracticeQuestion(
+      PracticeQuestion(
         scenario: "Question 1 (BECE 2019 Q1)\n"
             "(a) Explain the following:\n"
             "(i) Cardinal points;\n"
             "(ii) Scale of a map.",
-            
         answer: "Corrected Answers:\n\n (i) Cardinal points:\n\n"
             "• Cardinal points are the four major directions or geographical points on a compass used to locate places.\n"
             "• The four cardinal points are North, East, West, and South.\n\n"
             "(ii) Scale of a map:\n\n"
             " • A scale of a map is the ratio or proportion of distance on a map to the actual distance on the ground.\n"
-            " • A scale can be expressed in three main forms: linear form, statement form, or any fractional form (representative fraction)."
-            ,
+            " • A scale can be expressed in three main forms: linear form, statement form, or any fractional form (representative fraction).",
         explanation: "Explanation: \n\n **Bad effects of deforestation:**\n\n"
             "• Exposes water bodies to excessive evaporation: Indiscriminate cutting down of trees along riverbanks exposes water bodies to direct sunshine.This causes water bodies to dry up through evaporation process.\n\n"
             "• Exposes the land to erosion/Reduction in soil fertility: An indiscriminate cutting down of trees for farming, charcoal production, lumbering, etc.makes the land become bare and exposes it to agents of erosion such as wind, water, etc. This destroys the surface of the soil and renders the land less fertile for plant growth.\n\n"
