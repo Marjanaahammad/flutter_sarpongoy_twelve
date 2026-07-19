@@ -460,49 +460,51 @@ class _QuizScreenState extends State<QuizScreen> {
                                                   // Explanation Block
                                                   const SizedBox(height: 12),
 
-                                                  Container(
-                                                    padding:
-                                                        const EdgeInsets.all(
-                                                      10,
-                                                    ),
-                                                    decoration: BoxDecoration(
-                                                      color:
-                                                          Colors.grey.shade100,
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                        6,
+                                                  if (!controller.isBece)
+                                                    Container(
+                                                      padding:
+                                                          const EdgeInsets.all(
+                                                        10,
                                                       ),
-                                                      border: Border.all(
-                                                        color: Colors
-                                                            .grey.shade300,
-                                                      ),
-                                                    ),
-                                                    child: Row(
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .start,
-                                                      children: [
-                                                        //Icon(Icons.lightbulb_outline, size: 20, color: Colors.amber.shade700),
-                                                        const SizedBox(
-                                                          width: 8,
+                                                      decoration: BoxDecoration(
+                                                        color:
+                                                            Colors.grey.shade100,
+                                                        borderRadius:
+                                                            BorderRadius.circular(
+                                                          6,
                                                         ),
-                                                        Expanded(
-                                                          child:
-                                                              _buildFormattedText(
-                                                            'Difficulty: ${question.difficulty}',
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Colors
-                                                                  .black87,
-                                                              //fontStyle: FontStyle.italic,
+                                                        border: Border.all(
+                                                          color: Colors
+                                                              .grey.shade300,
+                                                        ),
+                                                      ),
+                                                      child: Row(
+                                                        crossAxisAlignment:
+                                                            CrossAxisAlignment
+                                                                .start,
+                                                        children: [
+                                                          //Icon(Icons.lightbulb_outline, size: 20, color: Colors.amber.shade700),
+                                                          const SizedBox(
+                                                            width: 8,
+                                                          ),
+                                                          Expanded(
+                                                            child:
+                                                                _buildFormattedText(
+                                                              'Difficulty: ${question.difficulty}',
+                                                              style: TextStyle(
+                                                                fontSize: 16,
+                                                                color: Colors
+                                                                    .black87,
+                                                                //fontStyle: FontStyle.italic,
+                                                              ),
                                                             ),
                                                           ),
-                                                        ),
-                                                      ],
+                                                        ],
+                                                      ),
                                                     ),
-                                                  ),
 
-                                                  SizedBox(height: 10),
+                                                  if (!controller.isBece)
+                                                    SizedBox(height: 10),
 
                                                   Container(
                                                     padding:

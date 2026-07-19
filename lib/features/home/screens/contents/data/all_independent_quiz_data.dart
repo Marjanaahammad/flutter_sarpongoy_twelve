@@ -7090,175 +7090,233 @@ final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData = Independent
 );
 
 final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath:
-  'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/7. Independent Practice.m4a',
+  audioPath: 'assets/audio/english/englsh jhs3 s2 ss1 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In a story, a character finally washes their dirty clothes after a long period of trouble. The clean white clothes most likely symbolise:",
+        question: "\"Kwame loved reading sports magazines. Last Saturday, he bought a new magazine at the market for 15 Cedis. His main goal was to learn about the training routine of Ghana's national football team. He spent two hours reading in his room and took notes on their daily exercises.\""
+            "1. What was Kwame's learning purpose when he started reading the magazine?",
         options: [
-          "The character's love for fashion.",
-          "A new beginning or a fresh start.",
-          "That the character has run out of money.",
-          "The arrival of a cold harmattan season."
+          "To find out the price of the magazine.",
+          "To look at the colourful pictures of football players.",
+          "To learn about the national team's training routine.",
+          "To practise reading aloud to his brother."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Kwame's purpose for reading was to learn about the national team's training routine."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Which detail from the text shows that Kwame was reading for knowledge and not just passing time?",
+        options: [
+          "He bought the magazine at the market.",
+          "He took notes on their daily exercises.",
+          "He spent 15 Cedis on the magazine.",
+          "He read the magazine on a Saturday."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Taking notes shows that Kwame was actively learning and trying to remember important information."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. If Kwame wants to check if he achieved his reading goal, what should he do?",
+        options: [
+          "Buy another magazine next Saturday.",
+          "Review the notes he took to see if they explain the training routine.",
+          "Ask his friend if they like the national team.",
+          "Count how many pages are in the magazine."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Reviewing his notes helps him confirm whether he learned what he intended to learn."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. Why is this text considered an example of independent reading?",
+        options: [
+          "Kwame's teacher forced him to write an essay about it.",
+          "Kwame chose to buy and read the magazine on his own for his own learning goals.",
+          "The magazine was given to him as a mandatory school assignment.",
+          "Kwame read the text together with a large group of classmates."
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A new beginning or a fresh start."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "2. Which of the following sentences uses sensory imagery for sound?",
-        options: [
-          "The fante kenkey was wrapped tightly in dried corn husks.",
-          "The sunset turned the sky into a sea of purple and gold.",
-          "The sharp clink-clink of the blacksmith’s hammer echoed through the village.",
-          "The shito was so spicy that Kwame reached for a bag of water."
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation: "The sharp clink-clink of the blacksmith’s hammer echoed through the village."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "3. 'The city of Accra never sleeps.' This sentence is an example of:",
-        options: [
-          "A simile.",
-          "Symbolism.",
-          "Sensory imagery for taste.",
-          "Personification."
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation: "Personification."
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. 'Kweku is a lion on the football pitch.' What does this metaphor suggest about Kweku?",
-        options: [
-          "Kweku likes to eat meat after a match.",
-          "Kweku is very fast but gets tired easily.",
-          "Kweku is brave and powerful when he plays.",
-          "Kweku has very long hair like a mane."
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation: "Kweku is brave and powerful when he plays."
+        explanation: "Independent reading happens when a person chooses reading materials and reads them for personal learning or enjoyment."
     ),
   ],
 );
 final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/7. Independent Practice.m4a',
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l2/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word belongs to the ICT register?",
+        question: "Passage:\"A flyer printed by an unknown group claims: 'Computers are destroying the minds of our youth! Anyone who uses a computer for more than ten minutes will completely lose the ability to read books. Parents must ban all screens immediately!'\"\n"
+            "1. What is the primary weakness in the reasoning of the flyer?",
         options: [
-          "Photosynthesis",
-          "Keyboard",
-          "Ingredient",
-          "Constitution"
+          "It doesn't mention the price of computers in Ghana.",
+          "It uses extreme exaggeration without scientific evidence.",
+          "It is printed on white paper instead of coloured paper.",
+          "It values reading books over playing sports."
         ],
         correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Keyboard"
+        difficulty: "Medium",
+        explanation: "The flyer relies on exaggerated claims that are not supported by reliable evidence."
     ),
 
     IndependentPracticeQuestion(
-        question: "2. \"The fisherman used a trawl to catch many tilapia at once.\" What does trawl most likely mean based on the context?",
+        question: "2. How would you rate the credibility of this flyer?",
         options: [
-          "A type of large fishing net",
-          "A very fast boat",
-          "A type of spice for fish",
-          "A song fishermen sing"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation: "A type of large fishing net"
-    ),
-
-    IndependentPracticeQuestion(
-        question: "3. Replace the underlined words with a technical term: \"The plant is making its own food using sunlight.\"",
-        options: [
-          "Respiration",
-          "Digestion",
-          "Photosynthesis",
-          "Fermentation"
+          "High, because it addresses an important topic about youth.",
+          "High, because it tells parents exactly what to do.",
+          "Low, because it is created by an unknown author and makes extreme, unverified claims.",
+          "Low, because it was not read aloud by a teacher."
         ],
         correctIndex: 2,
-        difficulty: "Easy",
-        explanation: "Photosynthesis"
+        difficulty: "Medium",
+        explanation: "A source with an unknown author and unsupported extreme claims has low credibility."
     ),
 
     IndependentPracticeQuestion(
-        question: "4. If you are writing an essay about the history of Ghana, which word are you most likely to use?",
+        question: "3. Which of the following statements represents a more balanced viewpoint on the same topic?",
         options: [
-          "Software",
-          "Colonisation",
-          "Molecule",
-          "Penalty"
+          "Computers are perfect and have absolutely no disadvantages.",
+          "Computers are highly useful tools for research, though excessive screen time can cause eye strain.",
+          "Banning all technology is the only way to save our schools.",
+          "Every single JHS student should use a computer twenty-four hours a day."
         ],
         correctIndex: 1,
-        difficulty: "Easy",
-        explanation: "Colonisation"
+        difficulty: "Medium",
+        explanation: "A balanced viewpoint recognizes both the benefits and the possible drawbacks of technology."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If a student reads this flyer and immediately throws away their school tablet, what critical reading step did they fail to perform?",
+        options: [
+          "Counting the number of exclamation marks.",
+          "Spelling all the words correctly in their mind.",
+          "Reflecting on the credibility and logic of the source before taking action.",
+          "Showing the flyer to their friends at school."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "Critical readers evaluate the credibility and reasoning of a source before making decisions based on it."
     ),
   ],
 );
 final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/7. Independent Practice.m4a',
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l3/7.independent practice',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. If \"cycle\" means wheel, what is a tricycle?",
+        question: "1. You are gathering research from various media sources for a school project. Which of the following would be considered the most credible source for an article on national economic growth?",
         options: [
-          "A bike with no wheels.",
-          "A bike with one wheel.",
-          "A bike with two wheels.",
-          "A bike with three wheels."
+          "A viral comment under a YouTube dance video.",
+          "An official, signed report from the Ghana Statistical Service.",
+          "A text message sent by an unknown number.",
+          "A personal blog post detailing someone's shopping trip."
         ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation: "A bike with three wheels."
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Official reports from recognized institutions are reliable, evidence-based sources of information."
     ),
 
     IndependentPracticeQuestion(
-        question: "2. \"The student was disrespectful to the elder.\" Based on the prefix \"dis-\", what does this mean?",
+        question: "2. Read this media snippet: \"The local council is terrible and completely corrupt! They never do anything right, and everyone hates their new plan.\" What is the main weakness of this text type?",
         options: [
-          "The student was very kind.",
-          "The student showed a lack of respect.",
-          "The student was acting like an elder.",
-          "The student was very quiet."
+          "It is too long to read.",
+          "It lacks headings.",
+          "It shows extreme bias and uses emotional attacks instead of objective facts.",
+          "It doesn't use any local names."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The statement relies on emotional language and unsupported claims rather than objective evidence."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. A health article contains five long paragraphs explaining how to prevent malaria, but it has no headings, no bold text, and no pictures. Which improvement would help a reader skim the text for details?",
+        options: [
+          "Translating the article into British English.",
+          "Adding bold subheadings like \"Use Mosquito Nets\" and \"Clear Standing Water\" above the relevant sections.",
+          "Making the font size much smaller to fit everything on one page.",
+          "Adding an extra paragraph detailing the history of medicine."
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The student showed a lack of respect."
+        explanation: "Clear subheadings help readers quickly locate key information when skimming."
     ),
 
     IndependentPracticeQuestion(
-        question: "3. Which word has the nuance of being very happy and excited?",
+        question: "4. Which text type is specifically designed to present a fast, objective, fact-based overview of an event that happened yesterday?",
         options: [
-          "Content",
-          "Okay",
-          "Jubilant",
-          "Calm"
+          "A feature article profile.",
+          "A traditional folktale narrative.",
+          "A standard news report.",
+          "A procedural recipe manual."
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Jubilant"
-    ),
-
-    IndependentPracticeQuestion(
-        question: "4. The word \"portable\" comes from the root \"port\" (to carry). What is a portable radio?",
-        options: [
-          "A radio that is very heavy.",
-          "A radio that only works at home.",
-          "A radio that can be easily carried around.",
-          "A radio that plays very loud music."
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation: "A radio that can be easily carried around."
+        explanation: "A news report presents recent events in a factual, objective, and timely manner."
     ),
   ],
 );
 final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l4/7. independent practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "Passage:\"An educational article argues: 'To protect our environment, all schools should go completely paperless. Students must do 100% of their reading, writing, and examinations on digital tablets. This will save thousands of trees every year.'\"\n"
+            "1. What is the author's main point of view in this passage?",
+        options: [
+          "Trees are not important for school compounds.",
+          "Total digitalisation is necessary to save trees and protect the environment.",
+          "Tablets are too expensive for school students.",
+          "Writing on paper helps students remember facts better."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "The author's main viewpoint is that digitalisation can help protect trees and the environment."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. Consider your personal experience with school infrastructure. What major challenge does the author's perspective ignore?",
+        options: [
+          "The name of the school principal.",
+          "The price of local uniform materials.",
+          "The reality of frequent power cuts and schools lacking regular electricity to charge tablets.",
+          "The number of sports matches played on Fridays."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "A practical challenge to full digitalisation is unreliable electricity and difficulty charging devices."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which of the following represents the most expanded and practical idea that combines the text's goal with real-life constraints?",
+        options: [
+          "Schools should completely reject all technology and only use paper.",
+          "Schools should use digital tablets where possible, but maintain paper books as backups to ensure learning continues during power cuts.",
+          "Every single tree in Ghana should be cut down immediately.",
+          "Tablets should only be used during weekend holidays."
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation: "This option balances environmental goals with practical challenges such as unreliable electricity."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. When you share your interpretation of this text with a classmate and they point out a new idea you missed, this process is called:",
+        options: [
+          "Direct app entry.",
+          "Peer review.",
+          "Independent scanning.",
+          "Technical vocabulary register."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Peer review involves discussing ideas with others to improve understanding and identify points you may have missed."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7314,7 +7372,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7370,7 +7428,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7426,7 +7484,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7482,7 +7540,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7539,7 +7597,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -7595,11 +7653,12 @@ final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L10/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+  'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In a story, a character finally washes their dirty clothes. These clean white clothes most likely symbolise:",
+        question: "1. In a story, a character finally washes their dirty clothes after a long period of trouble. The clean white clothes most likely symbolise:",
         options: [
           "The character's love for fashion.",
           "A new beginning or a fresh start.",
@@ -7625,7 +7684,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
     ),
 
     IndependentPracticeQuestion(
-        question: "3. \"The city of Accra never sleeps.\" This sentence is an example of:",
+        question: "3. 'The city of Accra never sleeps.' This sentence is an example of:",
         options: [
           "A simile.",
           "Symbolism.",
@@ -7638,16 +7697,128 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
     ),
 
     IndependentPracticeQuestion(
-        question: "4. \"Kweku is a lion on the football pitch.\" What does this metaphor suggest about Kweku?",
+        question: "4. 'Kweku is a lion on the football pitch.' What does this metaphor suggest about Kweku?",
         options: [
           "Kweku likes to eat meat after a match.",
           "Kweku is very fast but gets tired easily.",
           "Kweku is brave and powerful when he plays.",
-          "Kweku has very long hair."
+          "Kweku has very long hair like a mane."
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation: "Kweku is brave and powerful when he plays."
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson12IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. Which word belongs to the ICT register?",
+        options: [
+          "Photosynthesis",
+          "Keyboard",
+          "Ingredient",
+          "Constitution"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Keyboard"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The fisherman used a trawl to catch many tilapia at once.\" What does trawl most likely mean based on the context?",
+        options: [
+          "A type of large fishing net",
+          "A very fast boat",
+          "A type of spice for fish",
+          "A song fishermen sing"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "A type of large fishing net"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Replace the underlined words with a technical term: \"The plant is making its own food using sunlight.\"",
+        options: [
+          "Respiration",
+          "Digestion",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Photosynthesis"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. If you are writing an essay about the history of Ghana, which word are you most likely to use?",
+        options: [
+          "Software",
+          "Colonisation",
+          "Molecule",
+          "Penalty"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Colonisation"
+    ),
+  ],
+);
+final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData = IndependentPracticeModel(
+  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/7. Independent Practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question: "1. If \"cycle\" means wheel, what is a tricycle?",
+        options: [
+          "A bike with no wheels.",
+          "A bike with one wheel.",
+          "A bike with two wheels.",
+          "A bike with three wheels."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A bike with three wheels."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "2. \"The student was disrespectful to the elder.\" Based on the prefix \"dis-\", what does this mean?",
+        options: [
+          "The student was very kind.",
+          "The student showed a lack of respect.",
+          "The student was acting like an elder.",
+          "The student was very quiet."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The student showed a lack of respect."
+    ),
+
+    IndependentPracticeQuestion(
+        question: "3. Which word has the nuance of being very happy and excited?",
+        options: [
+          "Content",
+          "Okay",
+          "Jubilant",
+          "Calm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Jubilant"
+    ),
+
+    IndependentPracticeQuestion(
+        question: "4. The word \"portable\" comes from the root \"port\" (to carry). What is a portable radio?",
+        options: [
+          "A radio that is very heavy.",
+          "A radio that only works at home.",
+          "A radio that can be easily carried around.",
+          "A radio that plays very loud music."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A radio that can be easily carried around."
     ),
   ],
 );

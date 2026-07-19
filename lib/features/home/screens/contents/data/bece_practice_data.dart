@@ -280,90 +280,563 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "1. Question: Write 356.07 in standard form.",
-        answer: "Correct Answer: 356.07 = 3.5607 x 10^{2}",
-        explanation:
-            "Explanation: • Standard form is written in the format A x 10^n, where 1 ≤ A < 10 and n is an integer.\n"
-            "• To convert 356.07 into this format, the decimal point must be shifted 2 places to the left to place it after the first non-zero digit (3).\n"
-            "• Shifting the decimal point 2 places to the left means we multiply the resulting number by 10^{2} to keep its value unchanged.",
+        scenario: "1.Question: Write 356.07 in standard form.",
+        answer: "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
+            "⦿ Shift the decimal point 2 places to the left to place it after the first non-zero digit (3).\n"
+            "⦿ Multiplying the resulting number 3.5607 by 10² preserves its exact original value.\n\n"
+            "356.07 = 3.5607 × 10²",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "2. Question: Which of the following numbers is the prime number greater than 23?",
+        answer: "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
+            "⦿ 17: Prime, but less than 23.\n"
+            "⦿ 24: Even and composite (divisible by 2, 3, etc.).\n"
+            "⦿ 25: Ends in 5 and composite (divisible by 5).\n"
+            "⦿ 29: Only has factors 1 and 29. Since 29 is greater than 23, it is the correct answer.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "3.Question: Write 4687.02 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
+            "⦿ Move the decimal point 3 positions to the left so that it rests between 4 and 6.\n"
+            "⦿ Multiply the new decimal by 10³ to represent the three-place shift.\n\n"
+            "4687.02 = 4.68702 × 10³",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "4.Question: Correct 0.02751 to three decimal places.",
+        answer: "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
+            "⦿ Examine the critical target digit to its right in the fourth decimal place (5).\n"
+            "⦿ Since this digit is 5 or greater, round the third decimal place digit up by adding 1 (7 + 1 = 8).\n"
+            "⦿ This results in 0.028.",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 2\n\nA student scored 48 out of 80 in a maths test.\n(a) Express her score as a fraction in its lowest terms.\n(b) Convert this fraction to a percentage.\n(c) If the passing mark was 65%, did she pass?",
-        answer:
-            "(a) 48/80 = 3/5 (dividing both by 16).\n(b) 3/5 = 0.6 = 60%.\n(c) 60% < 65%, so she did NOT pass the test.",
-        explanation:
-            "Real-life contexts require converting between forms and comparing values to make decisions.",
+        scenario: "5. Question: Write 1342 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
+            "⦿ Shift the decimal point 3 places to the left to place it after the leading digit.\n"
+            "⦿ Multiply the resulting value by 10³ to maintain numeric equivalence.\n\n"
+            "1342 = 1.342 × 10³",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 3\n\nAn item costs GH₵150. The price is increased by 20%, then reduced by 10%. What is the final price?",
-        answer:
-            "Step 1: 20% increase → 20% of 150 = 30. New price = 150 + 30 = GH₵180.\nStep 2: 10% reduction → 10% of 180 = 18. Final price = 180 − 18 = GH₵162.",
-        explanation:
-            "Percentage problems must be applied sequentially and always to the current value, not the original.",
+        scenario: "6. Question: Express 2345 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
+            "⦿ Shift the decimal point 3 places to the left to obtain 2.345.\n"
+            "⦿ Balance the shift by multiplying by 10³.\n\n"
+            "2345 = 2.345 × 10³",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 4\n\nArrange these values in DESCENDING ORDER (largest to smallest):\n3/5, 0.62, 65%, 0.6, 3/4",
-        answer:
-            "Convert all to decimals:\n3/5 = 0.60\n0.62 = 0.62\n65% = 0.65\n0.6 = 0.60\n3/4 = 0.75\n\nDescending order: 3/4, 65%, 0.62, 3/5, 0.6\nor: 0.75, 0.65, 0.62, 0.60, 0.60",
-        explanation:
-            "Converting all values to the same form (decimals) allows direct comparison.",
+        scenario: "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+        answer: "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
+            "⦿ Examine the adjacent digit to its right in the hundreds place (6).\n"
+            "⦿ Because 6 is greater than or equal to 5, round the thousands place up by 1 (5 + 1 = 6) and replace all subsequent digits with zero.\n"
+            "⦿ This gives GH₵36,000.00.",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 5\n\nKwame earns GH₵3,600 per month. He spends 25% on rent, 15% on food, and saves the rest.\n(a) How much does he spend on rent?\n(b) How much does he spend on food?\n(c) How much does he save each month?",
-        answer:
-            "(a) Rent: 25% of 3,600 = 0.25 × 3,600 = GH₵900.\n(b) Food: 15% of 3,600 = 0.15 × 3,600 = GH₵540.\n(c) Total spent = 900 + 540 = GH₵1,440. Savings = 3,600 − 1,440 = GH₵2,160.",
-        explanation:
-            "Budgeting problems apply percentage calculations to practical financial situations.",
+        scenario: "8. Question: Write 83000 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
+            "⦿ This positions the decimal point to produce 8.3.\n"
+            "⦿ Multiply by 10⁴ to account for the four-digit shift.\n\n"
+            "83000 = 8.3 × 10⁴",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "9.Question: Which of the following is not a prime number?",
+        answer: "**Correct Answer**\n\n⦿ Review the factors of each option:\n"
+            "⦿ 3, 5, 7: Each of these numbers only has two factors (1 and itself). They are prime.\n"
+            "⦿ 9: Has more than two factors (1, 3, and 9). Therefore, 9 is a composite number and is not prime.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "10.Question: Express 2474.5 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
+            "⦿ This shift corresponds to a positive power factor of 10³.\n"
+            "2474.5 = 2.4745 × 10³",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "11.Question: Write 78910 correct to the nearest thousand.",
+        answer: "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
+            "⦿ Since 9 is 5 or greater, round up by adding 1 to the thousands place (8 + 1 = 9).\n"
+            "⦿ Set the hundreds, tens, and units places to zero to yield 79,000.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "12.Question: Express 962 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
+            "⦿ The resulting expression is scaled with an exponent value of 2.\n"
+            "962 = 9.62 × 10²",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "13. Question: Round 8921465 to the nearest hundred.",
+        answer: "**Correct Answer**\n\n⦿ Locate the hundreds place digit (4).\n"
+            "⦿ Look at the tens digit directly to its right (6).\n"
+            "⦿ Since 6 ≥ 5, round up by adding 1 to the hundreds place (4 + 1 = 5).\n"
+            "⦿ Replace all subsequent digits with zero to obtain 8,921,500.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "14. Question: Write the number 34.1 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
+            "⦿ This gives 3.41, which must be multiplied by 10¹ (equivalent to 10).\n"
+            "34.1 = 3.41 × 10¹",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "15.Question: Which of the following is an even prime number?",
+        answer: "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
+            "⦿ All even numbers greater than 2 are divisible by 2, meaning they have at least three factors (1, 2, and themselves) and are composite.\n"
+            "⦿ Therefore, the number 2 is the only even prime number in existence.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "16. Question: Write 2340000 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
+            "⦿ This corresponds directly to scaling the number by a factor of 10⁶.\n"
+            "2340000 = 2.34 × 10⁶",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "17.Question: Express 4037 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
+            "⦿ This results in 4.037 scaled by 10³.\n"
+            "4037 = 4.037 × 10³",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "18.Question: Write 3560 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
+            "⦿ The scale factor for this shift is represented by 10³.\n"
+            "3560 = 3.56 × 10³",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "19.Question: Which of the following numbers is an integer?",
+        answer: "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
+            "⦿ The values -5/4 and -2/3 are fractions, and 0.5 is a decimal.\n"
+            "⦿ The value -1 is a whole negative number, which makes it a member of the set of integers.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "20. Question: Which of the following is arranged in ascending order?",
+        answer: "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
+            "⦿ Compare the values in option A: -10, -7, 4.2, 9.\n"
+            "⦿ On a number line, -10 is further left than -7, so -10 < -7.\n"
+            "⦿ Any negative number is smaller than a positive number, so -7 < 4.2.\n"
+            "⦿ Finally, 4.2 < 9. Thus, option A is correctly sorted.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "21.Question: Express 134.78 correct to the nearest tenth.",
+        answer: "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
+            "⦿ Look at the hundredths digit to its right (8).\n"
+            "⦿ Since 8 ≥ 5, round up by adding 1 to the tenths place (7 + 1 = 8).\n"
+            "⦿ Drop all trailing digits to get 134.8.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "22. Question: Express 625.13 in standard form.",
+        answer: "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
+            "⦿ This produces 6.2513, which must be multiplied by 10².\n\n"
+            "625.13 = 6.2513 × 10²",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "23. Question: Which of the following is the largest set?",
+        answer: "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
+            "⦿ The set of Natural Numbers ({1, 2, 3, ...}) and Whole Numbers ({0, 1, 2, ...}) are fully nested within the set of Integers.\n"
+            "⦿ The set of Composite numbers is a small subset of the Natural Numbers.\n"
+            "⦿ Because the set of Integers includes all positive whole numbers, negative whole numbers, and zero, it is the largest set among the choices.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "24. Question: Correct 48,947.2547 to the nearest hundred.",
+        answer: "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
+            "⦿ Examine the digit in the tens place immediately to its right (4).\n"
+            "⦿ Since 4 < 5, we round down. This means the hundreds digit remains 9, and the remaining whole number places are replaced with zero.\n"
+            "⦿ Mathematically, this yields 48,900.\n"
+            "⦿ Note on exam key: The book answer key lists Option D (49,000), which corresponds to rounding up to the nearest thousand instead of the nearest hundred, or carrying over a round-up.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
+        answer: "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
+            "⦿ The negative integer -10 is the smallest number.\n"
+            "⦿ Arranging the remaining positive integers gives 2, 4, 7, 9.\n"
+            "⦿ The complete ascending sequence is -10, 2, 4, 7, 9.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "26.Question: Which of the following is not an integer?",
+        answer: "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
+            "⦿ The values 1, -5, and 0 are all whole units.\n"
+            "⦿ The value 0.5 is a decimal representing a half-fraction, so it is not an integer.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "27. Question: Which of the following numbers is the largest?",
+        answer: "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
+            "⦿ Among -70, -50, -3, and -2, the number -2 is furthest to the right.\n"
+            "⦿ Thus, -2 has the largest value.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
+        answer: "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
+            "⦿ Because all other options (-1, -6, -3) lie to the left of zero on the number line, 0 is the largest of these numbers.",
+        explanation: "",
       ),
     ],
   ),
-
-  "The Algebra Journey": PracticeModel(
+  "Number Operations": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nSolve the following equations:\n(a) 4x − 3 = 17\n(b) 5(2x + 1) = 35\n(c) x/3 + 2 = 7",
-        answer:
-            "(a) 4x = 20 → x = 5.\n(b) 10x + 5 = 35 → 10x = 30 → x = 3.\n(c) x/3 = 5 → x = 15.",
-        explanation:
-            "Solving equations requires isolating the variable using inverse operations in the correct order.",
+        scenario: "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
+        "(a) How many strips of length 14cm were cut?\n"
+            "(b) What length of ribbon remained?",
+        answer: "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
+            "we must work with the same units. Since 1m = 100cm, we convert 3m as follows:\n"
+            "Total length of ribbon = 3 x 100cm = 300cm\n\n"
+            "⦿ Step 2: Determine the number of strips of length 14cm that can be cut.\nWe divide the total length of the ribbon in centimetres (300cm) by the length of one strip (14cm):\n\n"
+            r"Number of strips = \frac{300}{14}"
+            "\nLet us perform the division: 300 ÷ 14 = 21 with a remainder of 6\n"
+            "Therefore, the number of complete strips cut is 21 strips.\n\n"
+            "⦿ Step 3: Determine the remaining length of the ribbon.\n"
+            "The remainder from our division represents the leftover piece of ribbon that is too short to make another full 14cm strip:\n"
+            "Leftover remainder = 6\n"
+            "Therefore, the length of ribbon that remained is 6 cm.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
+        answer: "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
+        "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
+        "Total number of sweets = 8 x 30 = 240 sweets\n\n"
+            "⦿ Step 2: Calculate how many sweets each child receives when shared among 12 children.\n"
+        "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
+            r"Sweets received per child = \frac{240}{12}"
+        "\nSweets received per child = 20 sweets""\nEach child will receive 20 sweets.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
+        answer: "**Correct Answer**\n\n"
+            "⦿ Step 1: Write down the prime factorisation for each number.\n"
+            "For 9:               9 = 3 x 3 = 3^2\n"
+            "For 18:              18 = 2 x 3 x 3 = 2 x 3^2\n"
+            "For 16:              16 = 2 x 2 x 2 x 2 = 2^4\n\n"
+            "⦿ Step 2: Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
+            "The prime factor 2 appears. The highest power of 2 is 2^4 (from 16).\n"
+            "The prime factor 3 appears. The highest power of 3 is 3^2 (from 9 and 18).\n\n"
+            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
+            "L.C.M = 2^4 x 3^2\n"
+            "L.C.M = 16 x 9\n"
+            "L.C.M = 144",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
+        answer: "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
+            "We find the value of each set of notes and sum them up:\n"
+            "Three GH₵50.00 notes:3 x GH₵50.00 = GH₵150.00\n"
+            "Seven GH₵20.00 notes:7 x GH₵20.00 = GH₵140.00\n"
+            "Five GH₵10.00 notes:5 x GH₵10.00 = GH₵50.00\n"
+            "Total amount in pocket = GH₵150.00 + GH₵140.00 + GH₵50.00 = GH₵340.00\n\n"
+            "⦿ Step 2: Calculate the total cost of the purchases.\n"
+            "One bicycle:   Cost = GH₵150.00\n"
+            "Two mobile phones at GH₵80.00 each:    Cost = 2 x GH₵80.00 = GH₵160.00\n"
+            "Total spending =     GH₵150.00 + GH₵160.00 = GH₵310.00\n\n"
+            "⦿ Step 3: Calculate the cash left over.\n"
+            "Remaining cash = Total amount in pocket - Total spending\n"
+            "Remaining cash = GH₵340.00 - GH₵310.00 = GH₵30.00\n\n"
+            "⦿ Step 4: Determine the combination of notes left.\n"
+            "     1. The bicycle cost exactly GH₵150.00. The man can pay for this using his three GH₵50.00 notes (3 x GH₵50.00 = GH₵150.00).\n"
+            "     2.The two mobile phones cost GH₵160.00. To pay this, he must use his remaining notes:He uses all seven of his GH₵20.00 notes:\n"
+            "       7 x GH₵20.00 = GH₵140.00\n"
+            "He still needs to pay: GH₵160.00 - GH₵140.00 = GH₵20.00\n"
+            "He covers this remaining GH₵20.00 by using two of his GH₵10.00 notes (2 x GH₵10.00 = GH₵20.00).\n\n"
+            "⦿ Step 5: Count the final notes left in his pocket.\n"
+            "⦁ He spent all 7 of his GH₵20.00 notes.\n"
+            "⦁ He spent 2 of his 5 GH₵10.00 notes, leaving 3 notes.\n"
+            "⦁ Therefore, the man was left with zero GH₵20.00 notes and three GH₵10.00 notes (which equals the remaining GH₵30.00).",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 2\n\n(a) Expand and simplify: 2(3x + 4) − (x − 5)\n(b) Factorise completely: 12y² − 8y",
-        answer:
-            "(a) 6x + 8 − x + 5 = 5x + 13.\n(b) HCF of 12y² and 8y is 4y. 12y² − 8y = 4y(3y − 2).",
-        explanation:
-            "Expanding removes brackets using distribution. Factorising extracts the highest common factor.",
+        scenario: "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
+        answer: "**Correct Answer**\n\n⦿ Step 1: Find all the factors of 24.\n"
+        "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
+            "Factors = {1, 2, 3, 4, 6, 8, 12, 24}\n\n"
+            "⦿ Step 2: Add all these factors together.\n"
+            "Sum = 1 + 2 + 3 + 4 + 6 + 8 + 12 + 24\n"
+            "Sum = 60\n"
+            "The sum of all the factors of 24 is 60.\n",
+        explanation: "",
+      ),PracticeQuestion(
+        scenario: "5. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
+        answer: "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
+        "For 3:  3 = 3^1\n"
+            "For 5:5 = 5^1\n"
+            "For 9:9 = 3 x 3 = 3^2\n\n"
+            "⦿ Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
+            "    ⦁ The prime factor 3 appears. The highest power is 3^2 (from 9).\n"
+            "    ⦁ The prime factor 5 appears. The highest power is 5^1 (from 5).\n\n"
+            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
+            "L.C.M = 3^2 x 5^1\n"
+            "L.C.M = 9 x 5\n"
+            "L.C.M} = 45\n"
+            "The Least Common Multiple of 3, 5, and 9 is 45.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Fractions, Decimals and Percentages": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
+        answer: "⦿ (i) Total cost for original quantities:\n"
+            "⦁ Find the total spent on pencils: Multiply 8 pencils by the individual cost of ₵500.00.\n"
+            "Cost of pencils = 8 × ₵500.00 = ₵4,000.00\n\n"
+            "⦁ Find the total spent on pens: Multiply 5 pens by the individual cost of ₵2,000.00.\n"
+            "Cost of pens = 5 × ₵2,000.00 = ₵10,000.00\n\n"
+            "⦁ Calculate the final sum:\n"
+            "Total Paid = ₵4,000.00 + ₵10,000.00 = ₵14,000.00\n\n"
+
+            "⦿ (ii) Total cost after price increases:\n"
+            "⦁ Find the increased price of a pencil: Add 20% of the original price to itself.\n\n"
+            r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
+            "\nNew price per pencil = ₵500.00 + ₵100.00 = ₵600.00\n\n"
+            "⦁ Find the increased price of a pen: Add 10% of the original price to itself.\n\n"
+            r"Increase amount = \frac{10}{100} × ₵2,000.00 = ₵200.00"
+            "\nNew price per pen = ₵2,000.00 + ₵200.00 = ₵2,200.00\n\n"
+            "⦁ Calculate the new total cost for 10 pencils and 8 pens:\n\n"
+            "Cost of 10 pencils = 10 × ₵600.00 = ₵6,000.00\n"
+            "Cost of 8 pens = 8 × ₵2,200.00 = ₵17,600.00\n"
+            "New Total Paid = ₵6,000.00 + ₵17,600.00 = ₵23,600.00",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 3\n\nThe perimeter of a rectangle is 54 cm. The length is (2x + 3) cm and the width is (x + 1) cm. Find the value of x and the dimensions of the rectangle.",
-        answer:
-            "Perimeter = 2(length + width)\n54 = 2[(2x + 3) + (x + 1)]\n54 = 2[3x + 4]\n54 = 6x + 8\n6x = 46 → x = 46/6 = 7⅔\n\nOr using whole numbers: checking again…\n27 = (2x+3)+(x+1) = 3x+4\n3x = 23 → x = 23/3\nLength = 2(23/3)+3 = 49/3+3 = 58/3 cm; Width = 23/3+1 = 26/3 cm.",
-        explanation:
-            "Algebraic equations model real-world geometry problems. Set up the equation from the given formula and solve for x.",
+        scenario: r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.\n(BECE 2006 Q6b(i))",
+        answer: "⦿ Convert the mixed numbers to improper fractions:\n"
+            r"5\frac{1}{15} = \frac{(5 x 15) + 1)}{15} = \frac{76}{15}""\n"
+            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}""\n"
+            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}""\n\n"
+            "⦿ Express the standard equation:\n"
+            r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}""\n"
+            "⦿ Find the Lowest Common Multiple (LCM):\n"
+            "⦿ The LCM of the denominators 15, 3, and 12 is 60.\n\n"
+            "⦿ Combine fractions under a single denominator:\n\n"
+            r"\frac{76(4) − 8(20) + 17(5)}{60}""\n"
+            r"= \frac{304 − 160 + 85}{60}""\n"
+            r"= \frac{144 + 85}{60} = \frac{229}{60}""\n\n"
+            "⦿ Convert back to a mixed fraction:\n"
+            r"\frac{229}{60} = 3\frac{49}{60}",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 4\n\nSolve the inequality 3x − 2 ≥ 10 and represent the solution on a number line (describe the number line).",
-        answer:
-            "3x ≥ 12 → x ≥ 4.\n\nNumber line: Draw an arrow pointing to the right starting from 4, with a closed circle (filled dot) at 4 to show that 4 is included in the solution set.",
-        explanation:
-            "Solving inequalities follows the same steps as equations, except when multiplying/dividing by a negative number (flip the sign). A closed circle on the number line means the endpoint is included.",
+        scenario: r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
+        answer: "⦿ Convert the mixed fractions into improper fractions:\n\n"
+            r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}""\n\n"
+            "⦿ Write down the expression:\n\n"
+            r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}""\n\n"
+            "⦿ Determine the LCM:\n"
+            "⦿ The LCM of 3, 6, and 8 is 24.\n\n"
+            "⦿ Adjust and simplify the numerators:\n\n"
+            r"\frac{22(8) − 29(4) + 19(3)}{24}""\n\n"
+            r"= \frac{176 − 116 + 57}{24}""\n\n"
+            r"= \frac{60 + 57}{24} = \frac{117}{24}""\n\n"
+            "⦿ Reduce the fraction and convert to a mixed number:\n"
+            "⦿ Divide numerator and denominator by 3:\n"
+            r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}""\n"
+            "⦿ Convert to mixed format:\n"
+            r"\frac{39}{8} = 4\frac{7}{8}",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 5\n\nIf p = 3 and q = −2, evaluate:\n(a) p² + 3q\n(b) 2p − q²\n(c) (p + q)²",
-        answer:
-            "(a) (3)² + 3(−2) = 9 − 6 = 3.\n(b) 2(3) − (−2)² = 6 − 4 = 2.\n(c) (3 + (−2))² = (1)² = 1.",
-        explanation:
-            "Substitution requires careful handling of negative numbers, especially when squaring (a negative squared is positive).",
+        scenario: r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
+        answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
+            "\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}\n\n"
+            "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
+            "\frac{(3 x 1260)}{2}\n\n"
+            "⦿ Complete the division of 1260 by 2:\n\n"
+            "3 x 630 = 1890\n\n"
+            "⦿ Convert the product into standard scientific notation:\n\n"
+            "1890 = 1.89 x 10³",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
+            "\n(i) How much did Kwame receive?\n"
+            "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
+        answer: "⦿ (i) Calculate Kwame's portion:\n"
+            "⦿ Find Aba's share of the total:\n\n"
+            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00""\n\n"
+            "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
+            "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
+            "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
+            "⦿ Construct the percentage fraction:\n\n"
+            r"Percentage = \frac{(Kwame’s share / Aba’s share)} x 100%""\n\n"
+            r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6\n\nArrange 8/9, 2/18, 10/16 in ascending order of magnitude.\n(BECE 2012 Q6(a)(ii))",
+        answer: "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
+            "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
+            "⦿ Convert each fraction to have the common denominator of 144:\n"
+            "⦿ Convert 8/9:\n\n"
+            "(8 × 16)/(9 × 16) = 128/144\n\n"
+            "⦿ Convert 2/18:\n\n"
+            "(2 × 8)/(18 × 8) = 16/144\n\n"
+            "⦿ Convert 10/16:\n\n"
+            "(10 × 9)/(16 × 9) = 90/144\n\n"
+            "⦿ Compare the numerators to order them from smallest to largest:\n\n"
+            "16 < 90 < 128 ⇒ 16/144 < 90/144 < 128/144\n\n"
+            "⦿ Rewrite with original fractions:\n\n"
+            "2/18, 10/16, 8/9",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 7\n\nSimplify 6(3 5/6 − 1 1/4).\n(BECE 2013 Q5a)",
+        answer: "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
+            "3 5/6 = 23/6, 1 1/4 = 5/4\n\n"
+            "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
+            "23/6 − 5/4 = (23(2) − 5(3))/12 = (46 − 15)/12 = 31/12\n\n"
+            "⦿ Multiply the resulting fraction by the coefficient of 6 outside the parentheses:\n\n"
+            "Result = 6 × (31/12) = 31/2\n\n"
+            "⦿ Convert the final improper fraction to a mixed number:\n\n"
+            "31/2 = 15 1/2",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 8\n\nA passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
+        answer: "⦿ (i) Calculate the difference in allowed weight:\n"
+            "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
+            "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
+            "⦿ (ii) Calculate the percentage value:\n"
+            "⦿ Set up the excess weight over the total permitted weight limit:\n\n"
+            "Percentage excess = 2.0/20 × 100% = 1/10 × 100% = 10%",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 9\n\n(a) Express 250% as a fraction in its lowest term.\n\n(b) Simplify: 2 + (15/64 ÷ 6/7).\n(BECE 2019 Q4a and Q4c)",
+        answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
+            "⦿ Write the percentage out of 100:\n\n"
+            "250/100\n\n"
+            "⦿ Simplify by dividing both parts by their greatest common factor (50):\n\n"
+            "(250 ÷ 50)/(100 ÷ 50) = 5/2 = 2 1/2\n\n"
+            "⦿ (b) Process the bracket operation first:\n"
+            "⦿ To divide by a fraction, multiply by its reciprocal:\n\n"
+            "15/64 ÷ 6/7 = 15/64 × 7/6\n\n"
+            "⦿ Simplify the fraction multiplication by dividing 15 and 6 by 3:\n\n"
+            "5/64 × 7/2 = 35/128\n\n"
+            "⦿ Add the integer 2 to the fraction:\n\n"
+            "2 + 35/128 = 2 35/128",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 10\n\nExpress (13/15 − 7/10) as a percentage.\n(BECE 2020 Q3a)",
+        answer: "⦿ Simplify the subtraction of fractions:\n"
+            "⦿ The Lowest Common Multiple of 15 and 10 is 30.\n"
+            "⦿ Standardise the numerators:\n\n"
+            "13/15 − 7/10 = (13(2) − 7(3))/30 = (26 − 21)/30 = 5/30\n\n"
+            "⦿ Simplify the fraction:\n\n"
+            "5/30 = 1/6\n\n"
+            "⦿ Convert the fraction to a percentage:\n"
+            "⦿ Multiply 1/6 by 100%:\n\n"
+            "1/6 × 100% = 100/6% = 50/3% = 16 2/3% (or 16.67%)",
+        explanation: "",
+      ),PracticeQuestion(
+        scenario: "Question 11\n\nAntwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?\n(BECE 2021 Q4a)",
+        answer: "⦿ Identify the quantity of ripe mangoes:\n"
+            "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
+            "Ripe mangoes = 25 − 7 = 18\n\n"
+            "⦿ Calculate the percentage representation:\n"
+            "⦿ Create the proportion of ripe mangoes over total mangoes and multiply by 100%:\n\n"
+            "Percentage = 18/25 × 100% = 18 × 4% = 72%",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 12\n\nSimplify: 1 3/4 − 2 5/6 − 1 9/10 + 4 7/8.\n(BECE 2023 Q1b)",
+        answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
+            "1 3/4 = 7/4, 2 5/6 = 17/6, 1 9/10 = 19/10, 4 7/8 = 39/8\n\n"
+            "⦿ Set up the structural expression:\n\n"
+            "7/4 − 17/6 − 19/10 + 39/8\n\n"
+            "⦿ Evaluate using the LCM of the denominators:\n"
+            "⦿ Find the LCM of 4, 6, 10, and 8, which is 120.\n"
+            "⦿ Apply multiplier adjustment to numerators:\n\n"
+            "(7(30) − 17(20) − 19(12) + 39(15))/120\n\n"
+            "= (210 − 340 − 228 + 585)/120\n\n"
+            "⦿ Consolidate values in the numerator:\n"
+            "⦿ 210 − 340 = −130\n"
+            "⦿ −130 − 228 = −358\n"
+            "⦿ −358 + 585 = 227\n\n"
+            "⦿ Express in final mixed fraction format:\n\n"
+            "227/120 = 1 107/120",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 13\n\nIf 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
+        answer: "⦿ Determine the total length (100%) of the rope first:\n"
+            "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
+            "Total length = (100%/15%) × 720 m = (100/15) × 720 m\n\n"
+            "⦿ Simplify the multiplication and division:\n\n"
+            "720 ÷ 15 = 48 ⇒ Total length = 100 × 48 = 4,800 m\n\n"
+            "⦿ Find half of this total length:\n\n"
+            "Half length = 1/2 × 4,800 m = 2,400 m",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 14\n\nA polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?\n(BECE 2025 Q3b)",
+        answer: "⦿ (i) Find the exact cleaning volume used:\n"
+            "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
+            "Volume used = 1/5 × 4,500 litres = 900 litres\n\n"
+            "⦿ (ii) Find the remaining volume percentage:\n"
+            "⦿ Calculate the volume remaining in the polytank:\n\n"
+            "Volume remaining = 4,500 litres − 900 litres = 3,600 litres\n\n"
+            "⦿ Convert the remaining volume to a percentage of the total original volume:\n\n"
+            "Percentage left = 3,600/4,500 × 100%\n\n"
+            "⦿ Simplify by dividing both parts by their common factor of 900:\n\n"
+            "Percentage left = 4/5 × 100% = 4 × 20% = 80%\n\n"
+            "⦿ Alternative verification: If 1/5 is used, then 1 − 1/5 = 4/5 remains. Converting 4/5 to a percentage yields 4/5 × 100% = 80%.",
+        explanation: "",
       ),
     ],
   ),
@@ -373,42 +846,11 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1 (BECE 1992 Q2)\n"
-            "(a) Identify four environmental problems in Ghana.\n"
-            "(b) Suggest two solutions to each of the four problems identified in (a).",
-        answer:
-            "Corrected Answers:\n\n(a) Four environmental problems in Ghana include:\n"
-            "• Deforestation.\n"
-            "• Air pollution.\n"
-            "• Water pollution.\n"
-            "• Soil erosion.\n"
-            "(b) Solutions to the environmental problems:\n"
-            "i. Solutions to Deforestation:\n"
-            "   • Practice of afforestation.\n"
-            "     • Practice of re-afforestation.\n\n"
-            "ii. Solutions to Air Pollution:\n"
-            "   • Public education.\n"
-            "     • Banning the use and\n importation of over-aged vehicles.\n\n"
-            "iii. Solutions to Water pollution:\n"
-            "   • Public education.\n"
-            "   • Enforcement of environmental laws.\n\n"
-            "iv. Solutions to Soil erosion:\n"
-            "   • Practice of re-afforestation.\n"
-            "   • Creation of fire belts.\n",
-        explanation:
-            "Explaantion: \n\n Solutions to the environmental problems:\n\n"
-            "**i. Solutions to Deforestation**\n\n"
-            "• Practice of afforestation: People must be encouraged and supported with funds by the government to grow plants or trees in areas where there were no previous tree cover. This will help to increase plants population and preserve vegetation in the country.\n\n"
-            "• Practice of re-afforestation: People must be encouraged by the government to plant trees to replace those that are cut off for farming, lumbering and other purposes. This will help to regenerate the depleted forests in the country.\n\n"
-            "**ii. Solutions to Air pollution**\n\n"
-            "• Public education: The public must be educated through the media by the government to stop actions that pollute the air. This will help to minimize activities such as excessive sand winning, bush burning, disposal of industrial chemicals and domestic waste materials that pollute the fresh air.\n\n"
-            "• Banning the use and importation of over-aged vehicles: Government must put a ban on vehicles that are not road worthy or over-aged in the country. Such vehicles have weak engines and produce excessive harmful fumes or gases such as carbon monoxide that pollute the fresh breathing air.\n\n"
-            "**iii. Solutions to Water pollution**\n\n"
-            "• Public education: People must be sensitized, through the mass media, to protect the water bodies in the country. They must be educated to stop using DDT for fishing as well as washing and dumping refuse in water bodies because they render water bodies to become contaminated and unsafe for human use.\n\n"
-            "• Enforcement of environmental laws: The Environmental Protection Agency (EPA) must enforce environmental laws against water pollution. Individuals and companies whose actions and activities pollute water bodies in the country must be identified and punished. This will deter others and minimize water pollution.\n\n"
-            "**iv. Solutions to Soil erosion**\n\n"
-            "• Practice of re-afforestation: People must be encouraged to grow plants to replace those that have been cut off for farming, charcoal production and other purposes. This will help to regenerate the depleted forests, safeguard land against soil erosion and replenish soil through decomposition of plant leaves.\n\n"
-            "• Creation of fire belts: Farmers must be guided to create fire belts around their farms or bush before setting fire on them. Through this, fire will not get out of control and destroy vegetation or forest around.",
+        scenario: "BECE Theory Question 1\n\nDescribe THREE major sanitation challenges faced by communities in Ghana and suggest ONE solution for each.",
+        answer: "⦿ 1. Open defecation — Many communities lack toilets. Solution: Build and promote the use of community latrines.\n"
+            "⦿ 2. Poor garbage disposal — Waste is often dumped in open areas. Solution: Provide community dustbins and organise regular refuse collection.\n"
+            "⦿ 3. Contaminated water sources — Rivers used for washing and drinking get polluted. Solution: Dig boreholes and educate communities on protecting water bodies.",
+        explanation: "",
       ),
       PracticeQuestion(
         scenario: "Question 2 (BECE 2001 Q5)\n"
