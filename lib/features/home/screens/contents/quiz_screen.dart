@@ -467,10 +467,11 @@ class _QuizScreenState extends State<QuizScreen> {
                                                         10,
                                                       ),
                                                       decoration: BoxDecoration(
-                                                        color:
-                                                            Colors.grey.shade100,
+                                                        color: Colors
+                                                            .grey.shade100,
                                                         borderRadius:
-                                                            BorderRadius.circular(
+                                                            BorderRadius
+                                                                .circular(
                                                           6,
                                                         ),
                                                         border: Border.all(
@@ -656,11 +657,13 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget _buildFormattedText(String text, {required TextStyle style}) {
     final List<InlineSpan> spans = [];
 
-    // Regex to find LaTeX environments, bold text, OR words separated by spaces
+    // Regex to find LaTeX environments, bold text, LaTeX brace command blocks (like \frac{...}{...}), OR words separated by spaces
     // Group 1: \begin{...} ... \end{...}
     // Group 2: **bold text**
-    // Group 3: Individual non-space tokens
-    final regex = RegExp(r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\*\*.*?\*\*)|(\S+)');
+    // Group 3: LaTeX commands with brace arguments (like \frac or \text)
+    // Group 4: Individual non-space tokens
+    final regex = RegExp(
+        r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\*\*.*?\*\*)|(\\[a-zA-Z]+(?:\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\})+)|(\S+)');
     final matches = regex.allMatches(text);
 
     int lastMatchEnd = 0;

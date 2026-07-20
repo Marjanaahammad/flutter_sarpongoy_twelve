@@ -167,7 +167,6 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                       ),
                                     ).animate().fadeIn(),
 
-                                 
                                   //   padding: const EdgeInsets.symmetric(vertical: 20.0),
                                   //   child: GestureDetector(
                                   //     onTap: () {
@@ -444,11 +443,13 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
   Widget _buildFormattedText(String text, {required TextStyle style}) {
     final List<InlineSpan> spans = [];
 
-    // Regex to find LaTeX environments, bold text, OR words separated by spaces
+    // Regex to find LaTeX environments, bold text, LaTeX brace command blocks (like \frac{...}{...}), OR words separated by spaces
     // Group 1: \begin{...} ... \end{...}
     // Group 2: **bold text**
-    // Group 3: Individual non-space tokens
-    final regex = RegExp(r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\*\*.*?\*\*)|(\S+)');
+    // Group 3: LaTeX commands with brace arguments (like \frac or \text)
+    // Group 4: Individual non-space tokens
+    final regex = RegExp(
+        r'(\\begin\{.*?\}.*?\\end\{.*?\})|(\*\*.*?\*\*)|(\\[a-zA-Z]+(?:\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\})+)|(\S+)');
     final matches = regex.allMatches(text);
 
     int lastMatchEnd = 0;

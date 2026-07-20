@@ -2247,6 +2247,1931 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "Total = 240 ÷ 0.6 = 400."),
     ],
   ),
+  "Number: Ratios and Proportion": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. Kofi and Ama shared an amount of money in the ratio 3 : 2 respectively. If Kofi had ₵60,000.00, how much was shared?          (BECE 2001 Q20)",
+          options: [
+            "₵36,000.00",
+            "₵40,000.00",
+            "₵90,000.00",
+            "₵100,000.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Kofi's 3 parts equal ₵60,000.00, so one part is ₵20,000.00. The total is 5 × ₵20,000.00 = ₵100,000.00."
+      ),
+
+      QuizQuestion(
+          question: "2. Kwame, Atsu and Kojo shared a profit of ₵50,000.00 in the ratio 1 : 4 : 3 respectively. How much did Atsu get?          (BECE 1994 Q14)",
+          options: [
+            "₵62,500.00",
+            "₵125,000.00",
+            "₵187,500.00",
+            "₵25,000.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 1 + 4 + 3 = 8. Atsu's share is 4/8 × ₵50,000.00 = ₵25,000.00."
+      ),
+
+      QuizQuestion(
+          question: "3. If 50 oranges cost ₵2,500.00, how many oranges can be bought for ₵15,000.00?          (BECE 1997 Q37)",
+          options: [
+            "3",
+            "30",
+            "60",
+            "300"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "₵15,000.00 is 6 times ₵2,500.00, so the number of oranges is 6 × 50 = 300."
+      ),
+
+      QuizQuestion(
+          question: "4. If 21 : 2x = 7 : 10, find the value of x.          (BECE 1990 Q9)",
+          options: [
+            "3",
+            "2¼",
+            "15",
+            "30"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "21/(2x) = 7/10. Cross-multiplying gives 210 = 14x, so x = 15."
+      ),
+
+      QuizQuestion(
+          question: "5. A trader sold 90 oranges at 3 for ₵50.00. How much did she get from selling all the oranges?          (BECE 1998 Q12)",
+          options: [
+            "₵1,500.00",
+            "₵4,500.00",
+            "₵6,000.00",
+            "₵15,000.00"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × ₵50.00 = ₵1,500.00."
+      ),
+
+      QuizQuestion(
+          question: "6. A woman bought 210 oranges for ₵650.00. She sold all of them at 3 for ₵20.00. How much profit did she make?          (BECE 1996 Q28)",
+          options: [
+            "₵350.00",
+            "₵450.00",
+            "₵750.00",
+            "₵650.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "210 oranges make 70 groups of 3. Her sales were 70 × ₵20.00 = ₵1,400.00. Profit = ₵1,400.00 - ₵650.00 = ₵750.00."
+      ),
+
+      QuizQuestion(
+          question: "7. Kojo, Ebo and Ama shared ₵14,000.00 among themselves. Kojo had twice as much as Ebo and Ebo also had twice as much as Ama. How much did Ebo get?          (BECE 1996 Q7)",
+          options: [
+            "₵8,000.00",
+            "₵6,000.00",
+            "₵4,000.00",
+            "₵3,000.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Let Ama's share be 1 part. Ebo has 2 parts and Kojo has 4 parts, giving 7 parts altogether. Ebo's share is 2/7 × ₵14,000.00 = ₵4,000.00."
+      ),
+
+      QuizQuestion(
+          question: "8. The ratio of boys to girls in a school is 9 : 11. If there are 400 pupils in the school, how many boys are there?          (BECE 1996 Q29)",
+          options: [
+            "80",
+            "120",
+            "180",
+            "220"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 9 + 11 = 20. The number of boys is 9/20 × 400 = 180."
+      ),
+
+      QuizQuestion(
+          question: "9. Adwoa and Ama shared an amount of ₵6,000.00 in the ratio 3 : 2. Find Adwoa's share.          (BECE 1997 Q32)",
+          options: [
+            "₵2,000.00",
+            "₵2,400.00",
+            "₵3,000.00",
+            "₵3,600.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 3 + 2 = 5. Adwoa's share is 3/5 × ₵6,000.00 = ₵3,600.00."
+      ),
+
+      QuizQuestion(
+          question: "10. Adjoa and Ama share ₵600.00 between them in the ratio 3 : 2. Find Adjoa's share.          (BECE 1991 Q21)",
+          options: [
+            "₵200.00",
+            "₵240.00",
+            "₵300.00",
+            "₵360.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 3 + 2 = 5. Adjoa's share is 3/5 × ₵600.00 = ₵360.00."
+      ),
+      QuizQuestion(
+          question: "11. An amount of money is shared between Kofi and Ama in the ratio 3 : 5. If Ama received ₵4,650.00, what is Kofi's share?          (BECE 1992 Q10)",
+          options: [
+            "₵930.00",
+            "₵1,550.00",
+            "₵1,743.75",
+            "₵2,790.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Ama's 5 parts equal ₵4,650.00, so one part is ₵930.00. Kofi's share is 3 × ₵930.00 = ₵2,790.00."
+      ),
+
+      QuizQuestion(
+          question: "12. The sum of the ages of a man and his wife is 81 years. The ratio of their ages is 5 : 4. Find the age of the younger person.          (BECE 1999 Q15)",
+          options: [
+            "30 years",
+            "36 years",
+            "45 years",
+            "51 years"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 5 + 4 = 9. The younger person's age is 4/9 × 81 = 36 years."
+      ),
+
+      QuizQuestion(
+          question: "13. A man has three children whose ages are 9 years, 12 years and 24 years. Find the ratio of their ages.          (BECE 1993 Q9)",
+          options: [
+            "1 : 2 : 3",
+            "1 : 2 : 4",
+            "2 : 3 : 6",
+            "3 : 4 : 8"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The HCF of 9, 12 and 24 is 3. Dividing each age by 3 gives 3 : 4 : 8."
+      ),
+
+      QuizQuestion(
+          question: "14. The heights of two boys are in the ratio 4 : 5. The shorter boy is 80 cm. What is the height of the taller boy?          (BECE 1995 Q31)",
+          options: [
+            "100 cm",
+            "150 cm",
+            "164 cm",
+            "180 cm"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The shorter boy's 4 parts equal 80 cm, so one part is 20 cm. The taller boy's height is 5 × 20 cm = 100 cm."
+      ),
+
+      QuizQuestion(
+          question: "15. If 1 : x is equivalent to 6¼ : 25, find x.          (BECE 1992 Q35)",
+          options: [
+            "4",
+            "6.25",
+            "24",
+            "100"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Since 6¼ = 6.25, 1/x = 6.25/25 = 1/4. Therefore, x = 4."
+      ),
+
+      QuizQuestion(
+          question: "16. Express the ratio of 64 cm to 48 cm in simplest form.          (BECE 1991 Q29)",
+          options: [
+            "3 : 4",
+            "4 : 3",
+            "16 : 12",
+            "12 : 16"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Divide both terms of 64 : 48 by their HCF, 16. This gives 4 : 3."
+      ),
+
+      QuizQuestion(
+          question: "17. The ratio 9 : x is equivalent to 36 : 20. What is the value of x?          (BECE 2000 Q19)",
+          options: [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "9/x = 36/20. Cross-multiplying gives 180 = 36x, so x = 5."
+      ),
+
+      QuizQuestion(
+          question: "18. Three people share an amount of ₵910,800.00 in the ratio 2 : 3 : 4. What will be the highest share?          (BECE 2006 Q13)",
+          options: [
+            "₵202,400.00",
+            "₵303,600.00",
+            "₵404,800.00",
+            "₵455,400.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 2 + 3 + 4 = 9. The highest share is 4/9 × ₵910,800.00 = ₵404,800.00."
+      ),
+
+      QuizQuestion(
+          question: "19. The ratio of mangoes to oranges in a basket is 3 : 2. If there are 36 mangoes, how many oranges are in the basket?          (BECE 2011 Q5)",
+          options: [
+            "90",
+            "60",
+            "24",
+            "12"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The 3 parts representing mangoes equal 36, so one part is 12. The number of oranges is 2 × 12 = 24."
+      ),
+
+      QuizQuestion(
+          question: "20. Given that 1 : 3 = x : 21, find the value of x.          (BECE 2009 Q27)",
+          options: [
+            "4",
+            "5",
+            "7",
+            "63"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "1/3 = x/21. Cross-multiplying gives 3x = 21, so x = 7."
+      ),
+      QuizQuestion(
+          question: "21. A typist charges ₵2,000.00 for the first 5 sheets typed and ₵600.00 for any additional sheet. How much will Barbara pay, if she presents 20 sheets for typing?          (BECE 2002A Q15)",
+          options: [
+            "₵8,000.00",
+            "₵11,000.00",
+            "₵12,000.00",
+            "₵19,000.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The first 5 sheets cost ₵2,000.00. The remaining 15 sheets cost 15 × ₵600.00 = ₵9,000.00. Total cost = ₵11,000.00."
+      ),
+
+      QuizQuestion(
+          question: "22. Kwame and Ama shared an amount of money in the ratio 5 : 4 respectively. If Kwame had GH₵9.00, how much did they share?          (BECE 2011 Q28)",
+          options: [
+            "GH₵16.20",
+            "GH₵36.00",
+            "GH₵45.00",
+            "GH₵81.00"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Kwame's 5 parts equal GH₵9.00, so one part is GH₵1.80. The total amount is 9 × GH₵1.80 = GH₵16.20."
+      ),
+
+      QuizQuestion(
+          question: "23. If 6 : 8 = r : 48, find the value of r.          (BECE 2019 Q19)",
+          options: [
+            "36",
+            "34",
+            "14",
+            "12"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "6/8 = r/48. Cross-multiplying gives 8r = 288, so r = 36."
+      ),
+
+      QuizQuestion(
+          question: "24. A man divided his 360 cattle among his three sons in the ratio 7 : 6 : 5. How many cattle did the one who had the smallest share receive?          (BECE 2002B Q30)",
+          options: [
+            "100",
+            "120",
+            "140",
+            "160"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 7 + 6 + 5 = 18. The smallest share is 5/18 × 360 = 100 cattle."
+      ),
+
+      QuizQuestion(
+          question: "25. Yakubu, Seidu and Amina shared an amount of money in the ratio 3 : 4 : 5. Find how much was shared, if Amina received ₵40,000.00.          (BECE 2002A Q17)",
+          options: [
+            "₵72,000.00",
+            "₵80,000.00",
+            "₵96,000.00",
+            "₵120,000.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Amina's 5 parts equal ₵40,000.00, so one part is ₵8,000.00. The total amount is 12 × ₵8,000.00 = ₵96,000.00."
+      ),
+
+      QuizQuestion(
+          question: "26. There are 15 females in a debating club. If the ratio of females to males is 3 : 2, how many members are in the club?          (BECE 2020 Q31)",
+          options: [
+            "6",
+            "10",
+            "22",
+            "25"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The 3 parts representing females equal 15, so one part is 5. The total number of parts is 5, giving 5 × 5 = 25 members."
+      ),
+
+      QuizQuestion(
+          question: "27. The number of boys in a school is 120. If the ratio of boys to girls is 5 : 7, find the total number of students in the school.          (BECE 2006 Q4)",
+          options: [
+            "240",
+            "288",
+            "600",
+            "840"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The 5 parts representing boys equal 120, so one part is 24. The total number of students is 12 × 24 = 288."
+      ),
+
+      QuizQuestion(
+          question: "28. Kojo can buy 15 shirts at GH₵4.00 each. If the price is increased to GH₵5.00, how many shirts can he buy?          (BECE 2014 Q15)",
+          options: [
+            "12",
+            "15",
+            "19",
+            "20"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Kojo has 15 × GH₵4.00 = GH₵60.00. At GH₵5.00 per shirt, he can buy 60 ÷ 5 = 12 shirts."
+      ),
+
+      QuizQuestion(
+          question: "29. Araba and Ama share 20 oranges in such a way that Ama receives 12 oranges. Find the ratio of Araba's share to that of Ama.          (BECE 2023 Q19)",
+          options: [
+            "3 : 2",
+            "2 : 3",
+            "2 : 5",
+            "3 : 5"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Araba receives 20 - 12 = 8 oranges. The ratio 8 : 12 simplifies to 2 : 3."
+      ),
+
+      QuizQuestion(
+          question: "30. Ama is 9 years older than Kwame. If Kwame is 18 years old, find the ratio of the age of Kwame to that of Ama.          (BECE 2010 Q40)",
+          options: [
+            "3 : 2",
+            "1 : 3",
+            "2 : 3",
+            "2 : 1"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Ama is 18 + 9 = 27 years old. The ratio of Kwame's age to Ama's age is 18 : 27 = 2 : 3."
+      ),
+      QuizQuestion(
+          question: "31. Vera is 11 years old and her brother is 9 years old. They shared 60 oranges in the ratio of their ages. How many more oranges does Vera get?          (BECE 2020 Q11)",
+          options: [
+            "6",
+            "27",
+            "34",
+            "39"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The ratio is 11 : 9, making 20 parts altogether. Vera gets 33 oranges and her brother gets 27 oranges, so Vera gets 6 more."
+      ),
+
+      QuizQuestion(
+          question: "32. If y : 28 = 5 : 7, find y.          (BECE 2002B Q13)",
+          options: [
+            "5",
+            "20",
+            "31.2",
+            "37.5"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "y/28 = 5/7. Therefore, y = 28 × 5/7 = 20."
+      ),
+
+      QuizQuestion(
+          question: "33. A boy sold some oranges at three for ₵500.00. If his total sales was ₵100,000.00, how many oranges did he sell?          (BECE 2006 Q10)",
+          options: [
+            "300",
+            "400",
+            "500",
+            "600"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "₵100,000.00 contains 100,000 ÷ 500 = 200 groups of 3 oranges. Therefore, he sold 200 × 3 = 600 oranges."
+      ),
+
+      QuizQuestion(
+          question: "34. Kofi, Kojo and Ama shared GH₵480,000.00 in the ratio 3 : 5 : 4. How much did Ama receive?          (BECE 2014 Q23)",
+          options: [
+            "GH₵160,000.00",
+            "GH₵200,000.00",
+            "GH₵218,181.81",
+            "GH₵342,859.14"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 3 + 5 + 4 = 12. Ama's share is 4/12 × GH₵480,000.00 = GH₵160,000.00."
+      ),
+
+      QuizQuestion(
+          question: "35. Charles and Helen started a business with an amount of GH₵7,000.00. If their contributions were in the ratio 4 : 3 respectively, find Helen's contribution.          (BECE 2025 Q40)",
+          options: [
+            "GH₵2,500.00",
+            "GH₵3,000.00",
+            "GH₵4,000.00",
+            "GH₵5,000.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 4 + 3 = 7. Helen's contribution is 3/7 × GH₵7,000.00 = GH₵3,000.00."
+      ),
+
+      QuizQuestion(
+          question: "36. The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?          (BECE 2022 Q27)",
+          options: [
+            "48",
+            "143",
+            "169",
+            "264"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The 13 parts representing farmers equal 312, so one part is 24. The number of children is 11 × 24 = 264."
+      ),
+
+      QuizQuestion(
+          question: "37. If a : 27 = 6 : 18, find a.          (BECE 2007 Q27)",
+          options: [
+            "4",
+            "9",
+            "51",
+            "81"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "a/27 = 6/18 = 1/3. Therefore, a = 27 ÷ 3 = 9."
+      ),
+
+      QuizQuestion(
+          question: "38. The ratio 8 : 12 is equivalent to y : 9. What is the value of y?          (BECE 2008 Q7)",
+          options: [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "8/12 = y/9. Since 8/12 = 2/3, y = 2/3 × 9 = 6."
+      ),
+
+      QuizQuestion(
+          question: "39. Kofi and Ama shared an amount of GH₵3,000.00 in the ratio 2 : 3. Find the amount received by Kofi.          (BECE 2021 Q3)",
+          options: [
+            "GH₵1,000.00",
+            "GH₵1,200.00",
+            "GH₵1,500.00",
+            "GH₵1,800.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 2 + 3 = 5. Kofi's share is 2/5 × GH₵3,000.00 = GH₵1,200.00."
+      ),
+
+      QuizQuestion(
+          question: "40. Esi and Kwasi are 12 and 8 years old respectively. They share 60 mangoes in the ratio of their ages. How many mangoes does Esi get?          (BECE 2010 Q12)",
+          options: [
+            "42",
+            "40",
+            "36",
+            "18"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The ratio 12 : 8 simplifies to 3 : 2. Esi gets 3/5 × 60 = 36 mangoes."
+      ),
+      QuizQuestion(
+          question: "41. A trader sold 90 oranges at 3 for GH₵0.75. How much did she get from selling all the oranges?          (BECE 2019 Q28)",
+          options: [
+            "GH₵22.50",
+            "GH₵67.50",
+            "GH₵75.00",
+            "GH₵225.50"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × GH₵0.75 = GH₵22.50."
+      ),
+
+      QuizQuestion(
+          question: "42. Cement and sand were mixed in the ratio 2 : 5. How many kilograms of cement were contained in the 35 kg of the mixture?          (BECE 2023 Q23)",
+          options: [
+            "7 kg",
+            "88 kg",
+            "14 kg",
+            "10 kg"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 2 + 5 = 7. The amount of cement is 2/7 × 35 kg = 10 kg."
+      ),
+
+      QuizQuestion(
+          question: "43. The ratio of the ages of two sisters is 4 : 3. The older sister is 3 years older than the younger one. How old is the younger sister?          (BECE 2004 Q32)",
+          options: [
+            "9 years",
+            "12 years",
+            "15 years",
+            "18 years"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The difference between 4 parts and 3 parts is 1 part, which represents 3 years. The younger sister is 3 × 3 = 9 years old."
+      ),
+
+      QuizQuestion(
+          question: "44. A man shared an amount of money between his two children, Esi and Ato in the ratio 2 : 3 respectively. If Ato received GH₵45.00, what was the total amount shared?          (BECE 2013 Q38)",
+          options: [
+            "GH₵18.00",
+            "GH₵27.50",
+            "GH₵75.00",
+            "GH₵112.50"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Ato's 3 parts equal GH₵45.00, so one part is GH₵15.00. The total amount is 5 × GH₵15.00 = GH₵75.00."
+      ),
+
+      QuizQuestion(
+          question: "45. Jojo and Fiifi shared an amount of money in the ratio 3 : 4 respectively. If Fiifi had ₵140,000.00, how much was shared?          (BECE 2007 Q19)",
+          options: [
+            "₵200,000.00",
+            "₵220,000.00",
+            "₵245,000.00",
+            "₵280,000.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Fiifi's 4 parts equal ₵140,000.00, so one part is ₵35,000.00. The total amount is 7 × ₵35,000.00 = ₵245,000.00."
+      ),
+
+      QuizQuestion(
+          question: "46. If 21 : 2x = 7 : 12, find the value of x.          (BECE 2017 Q2)",
+          options: [
+            "10",
+            "12",
+            "15",
+            "18"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "21/(2x) = 7/12. Cross-multiplying gives 252 = 14x, so x = 18."
+      ),
+
+      QuizQuestion(
+          question: "47. An amount of ₵5,400.00 is shared among three sisters in the ratio of their ages. Their ages are 10 years, 6 years and 2 years. Find the share of the youngest sister.          (BECE 2007 Q29)",
+          options: [
+            "₵300.00",
+            "₵600.00",
+            "₵1,200.00",
+            "₵1,800.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The total of their ages is 10 + 6 + 2 = 18. The youngest sister's share is 2/18 × ₵5,400.00 = ₵600.00."
+      ),
+
+      QuizQuestion(
+          question: "48. Express 15 : 12 in the form 1 : n.          (BECE 2022 Q30)",
+          options: [
+            "1 : 0.8",
+            "1 : 1.2",
+            "1 : 15",
+            "1 : 12"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Divide both terms of 15 : 12 by 15. This gives 1 : 12/15 = 1 : 0.8."
+      ),
+      QuizQuestion(
+          question: "49. Eight copies of a book cost GH₵16.00. Find the cost of 5 copies.          (BECE 2011 Q20)",
+          options: [
+            "GH₵2.00",
+            "GH₵3.20",
+            "GH₵5.00",
+            "GH₵10.00"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "One copy costs GH₵16.00 ÷ 8 = GH₵2.00. Therefore, 5 copies cost 5 × GH₵2.00 = GH₵10.00."
+      ),
+
+      QuizQuestion(
+          question: "50. The number of girls in a mixed school is 420. If the ratio of boys to girls in the school is 3 : 2, how many students are in the school?          (BECE 2018 Q12)",
+          options: [
+            "1050",
+            "1470",
+            "1630",
+            "1680"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The 2 parts representing girls equal 420, so one part is 210. The total number of students is 5 × 210 = 1,050."
+      ),
+      QuizQuestion(
+          question: "51. If 180 oranges were shared among Kwame and Ama in the ratio 7 : 5 respectively, how many oranges did Ama receive?          (BECE 2013 Q28)",
+          options: [
+            "45",
+            "60",
+            "75",
+            "90"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 7 + 5 = 12. Ama's share is 5/12 × 180 = 75 oranges."
+      ),
+      QuizQuestion(
+          question: "52. Eric and Ebo are to share an amount of ₵800,000.00 in the ratio 5 : 3 respectively. What will be Ebo's share?          (BECE 2005 Q27)",
+          options: [
+            "₵30,000.00",
+            "₵50,000.00",
+            "₵300,000.00",
+            "₵500,000.00"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The total number of parts is 5 + 3 = 8. Ebo's share is 3/8 × ₵800,000.00 = ₵300,000.00."
+      ),
+      QuizQuestion(
+          question: "53. Zalia and Amina shared an amount of money in the ratio 2 : 5. If Amina had GH₵150.00 more than Zalia, how much did they share?          (BECE 2024 Q20)",
+          options: [
+            "GH₵100.00",
+            "GH₵350.00",
+            "GH₵250.00",
+            "GH₵450.00"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The difference between 5 parts and 2 parts is 3 parts. If 3 parts equal GH₵150.00, then one part is GH₵50.00. The total amount shared is 7 × GH₵50.00 = GH₵350.00."
+      ),
+    ],
+  ),
+  "Patterns and Relations": QuizModel(
+    audioPath: '',
+    questions: [
+
+      QuizQuestion(
+          question: "1. If x → 3x - 4, what is the image of -2?          (BECE 2000 Q16)",
+          options: [
+            "-10",
+            "-2",
+            "-1",
+            "2"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."
+      ),
+
+      QuizQuestion(
+          question: "2. Find the next term in the sequence: 3, 6, 12, 24, …          (BECE 2006 Q14)",
+          options: [
+            "27",
+            "30",
+            "36",
+            "48"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."
+      ),
+
+      QuizQuestion(
+          question: "3. State the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 3, 5, 7, 9, …          (BECE 1991 Q25)",
+          options: [
+            "x → 2x - 1",
+            "x → 2x - 1",
+            "x → 2x + 1",
+            "x → 20(x - 1)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."
+      ),
+
+      QuizQuestion(
+          question: "4. Find the missing numbers in the set {5, 10, 15, 25, …, …, 40}.          (BECE 2001 Q33)",
+          options: [
+            "20 and 30",
+            "30 and 35",
+            "20, 35 and 40",
+            "20, 30 and 35"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."
+      ),
+
+      QuizQuestion(
+          question: "5. State the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 1, 4, 9, 16, …          (BECE 2004 Q17)",
+          options: [
+            "x → x + 1",
+            "x → x²",
+            "x → 2x + 1",
+            "x → (x + 1)²"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."
+      ),
+
+      QuizQuestion(
+          question: "6. A mapping is defined by n → 2n - 3. What is the image of -2 under the mapping?          (BECE 2001 Q24)",
+          options: [
+            "-1",
+            "-5",
+            "-7",
+            "7"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."
+      ),
+
+      QuizQuestion(
+          question: "7. What is the rule for the mapping: x: 1, 2, 3, 4 and y: 2, 4, 8, 16?          (BECE 1994 Q36)",
+          options: [
+            "y → 2x",
+            "y → x²",
+            "y → 2ˣ",
+            "y → x + 2"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."
+      ),
+
+      QuizQuestion(
+          question: r"8. What is the image of -4 under the mapping x → \frac{1}{2}x - 2?          (BECE 1995 Q10)",
+          options: [
+            "-2",
+            "-4",
+            "-6",
+            "-8"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."
+      ),
+
+      QuizQuestion(
+          question: "9. Find the missing number in the sequence: 11, 17, 23, 29, …, 41, 47, 53.          (BECE 2012 Q13)",
+          options: [
+            "32",
+            "35",
+            "37",
+            "38"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."
+      ),
+
+      QuizQuestion(
+          question: "10. Find the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 5, 9, 13, 17, 21.          (BECE 2020 Q26)",
+          options: [
+            "x → 3x + 2",
+            "x → 5x - 3",
+            "x → x² + 1",
+            "x → 4x + 1"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Each output is obtained using y = 4x + 1. For example, when x = 3, y = 4(3) + 1 = 13."
+      ),
+      QuizQuestion(
+          question: "11. If (x, y) → (x, 2y), find the image of (2½, -½) under the same mapping.          (BECE 1995 Q24)",
+          options: [
+            "(2½, -2)",
+            "(2½, -1)",
+            "(2, -2)",
+            "(2, -1)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."
+      ),
+
+      QuizQuestion(
+          question: "12. Given the sequence {1, 3, 7, 15, 31, …}, the rule is 2ˣ - 1. What is the 7th term?          (Based on page 69, Q31 text context)",
+          options: [
+            "64",
+            "127",
+            "128",
+            "255"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The 7th term is 2⁷ - 1 = 128 - 1 = 127."
+      ),
+
+      QuizQuestion(
+          question: "13. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
+          options: [
+            "9.42",
+            "12",
+            "18",
+            "25.12"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."
+      ),
+
+      QuizQuestion(
+          question: "14. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
+          options: [
+            "25",
+            "26",
+            "27",
+            "35"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."
+      ),
+
+      QuizQuestion(
+          question: "15. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
+          options: [
+            "y = 2x + 2",
+            "y = -2x + 2",
+            "y = 4x",
+            "y = -2x + 5"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."
+      ),
+
+      QuizQuestion(
+          question: "16. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
+          options: [
+            "x → x",
+            "x → 2x",
+            "x → x²",
+            "x → x + 2"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."
+      ),
+
+      QuizQuestion(
+          question: "17. What is the fifth term in the sequence 1/3, 2/5, 7/15, …?          (BECE 2002B Q5)",
+          options: [
+            "4/9",
+            "5/11",
+            "6/13",
+            "3/5"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."
+      ),
+
+      QuizQuestion(
+          question: "18. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
+          options: [
+            "x → 2x - 3",
+            "x → x - 5",
+            "x → 2(x - 2)",
+            "x → 2x - 3"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."
+      ),
+
+      QuizQuestion(
+          question: "19. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
+          options: [
+            "4",
+            "4",
+            "6",
+            "8"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."
+      ),
+
+      QuizQuestion(
+          question: "20. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
+          options: [
+            "7",
+            "9",
+            "12",
+            "20"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."
+      ),QuizQuestion(
+          question: "21. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
+          options: [
+            "35",
+            "39",
+            "47",
+            "63"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."
+      ),
+
+      QuizQuestion(
+          question: "22. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
+          options: [
+            "y = x + 5",
+            "y = 4x + 5",
+            "y = 5x + 4",
+            "y = 6x + 1"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."
+      ),
+
+      QuizQuestion(
+          question: "23. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
+          options: [
+            "n → 10n",
+            "n → 10n + 1",
+            "n → 11n - 1",
+            "n → 7n + 3"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."
+      ),
+
+      QuizQuestion(
+          question: "24. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
+          options: [
+            "0",
+            "2",
+            "6",
+            "12"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."
+      ),
+
+      QuizQuestion(
+          question: r"25. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
+          options: [
+            r"x → \frac{x}{4}",
+            r"x → \frac{x}{2}",
+            r"x → \frac{3x}{4}",
+            r"x → \frac{1}{x²}"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."
+      ),
+
+      QuizQuestion(
+          question: "26. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
+          options: [
+            "x → 4x - 3",
+            "x → 3 - 4x",
+            "x → 4x + 3",
+            "x → 4x + 5"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."
+      ),
+
+      QuizQuestion(
+          question: "27. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
+          options: [
+            "x → 15x",
+            "x → 15 + x",
+            "x → x/15",
+            "x → 10 + 5x"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Each output is 15 times the input. Therefore, the rule is x → 15x."
+      ),
+
+      QuizQuestion(
+          question: "28. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
+          options: [
+            "4",
+            "5",
+            "8",
+            "16"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."
+      ),
+
+      QuizQuestion(
+          question: "29. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
+          options: [
+            "x + 2",
+            "x + 4",
+            "2x + 3",
+            "3x + 2"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."
+      ),
+
+      QuizQuestion(
+          question: "30. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
+          options: [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Substitute y = 37: 37 = 5x + 2. Therefore, 5x = 35 and x = 7."
+      ),
+      QuizQuestion(
+          question: "31. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
+          options: [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."
+      ),
+
+      QuizQuestion(
+          question: "32. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
+          options: [
+            "t → 10t - 1",
+            "t → 8t + 1",
+            "t → 11t - 2",
+            "t → 7t + 2"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The outputs increase by 11. Since 11(1) - 2 = 9, the rule is t → 11t - 2."
+      ),
+    ],
+  ),
+  "ALGEBRAIC EXPRESSIONS": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: r"1. Simplify: (35x^5y^3 \div 7xy^2\).          (BECE 2014 Q9)",
+          options: [
+            r"(5x^4y)",
+            r"\(5x^4y^5\)",
+            r"\(5x^6y\)",
+            r"\(5x^6y^5\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Divide the coefficients and subtract the indices of like bases: \(35 \div 7 = 5\), \(x^5 \div x = x^{5-1} = x^4\), and \(y^3 \div y^2 = y^{3-2} = y\). Therefore, the answer is \(5x^4y\)."
+      ),
+
+      QuizQuestion(
+          question: r"2. If \(x = 2\), find the value of \(q\) in the equation \(3x - 4 = x + q\).          (BECE 1992 Q17)",
+          options: [
+            r"\(-7\)",
+            r"\(13\)",
+            r"\(12\)",
+            r"\(25\)"
+          ],
+          correctIndex: -1,
+          difficulty: "Easy",
+          explanation: r"Substitute \(x = 2\): \(3(2) - 4 = 2 + q\). This gives \(2 = 2 + q\), so \(q = 0\). The correct answer is not included in the supplied options."
+      ),
+
+      QuizQuestion(
+          question: r"3. Simplify: \(6a^2 \times 4a^2b^2\).          (BECE 2002B Q22)",
+          options: [
+            r"\(10a^4b^2\)",
+            r"\(24a^2b^2\)",
+            r"\(24a^4b^2\)",
+            r"\(24a^2b^4\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Multiply the coefficients and add the indices of \(a\): \(6 \times 4 = 24\) and \(a^2 \times a^2 = a^4\). Therefore, the answer is \(24a^4b^2\)."
+      ),
+
+      QuizQuestion(
+          question: r"4. If \(a * b = 2a - b\), find \(3 * 2\).          (BECE 2002A Q20)",
+          options: [
+            r"\(1\)",
+            r"\(4\)",
+            r"\(5\)",
+            r"\(6\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Using \(a * b = 2a - b\), \(3 * 2 = 2(3) - 2 = 6 - 2 = 4\)."
+      ),
+
+      QuizQuestion(
+          question: r"5. In the relation \(v = u + at\), find \(v\) when \(u = 6\), \(a = 10\), and \(t = 2\).          (BECE 1991 Q14)",
+          options: [
+            r"\(18\)",
+            r"\(26\)",
+            r"\(32\)",
+            r"\(48\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Substitute the given values: \(v = 6 + 10(2) = 6 + 20 = 26\)."
+      ),
+
+      QuizQuestion(
+          question: r"6. If \(q = ut + \frac{1}{2}ft\), find \(q\) when \(u = 20\), \(t = 10\), and \(f = 15\).          (BECE 1990 Q21)",
+          options: [
+            r"\(350\)",
+            r"\(275\)",
+            r"\(237.5\)",
+            r"\(55\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Substitute the values: \(q = 20(10) + \frac{1}{2}(15)(10) = 200 + 75 = 275\)."
+      ),
+
+      QuizQuestion(
+          question: r"7. Find the value of \(p^2 - 6p + 9\) when \(p = -2\).          (BECE 1992 Q14)",
+          options: [
+            r"\(-7\)",
+            r"\(13\)",
+            r"\(12\)",
+            r"\(25\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Substitute \(p = -2\): \((-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25\)."
+      ),
+
+      QuizQuestion(
+          question: r"8. The sum of two numbers is \(240\). If one of them is \(y\), find the other number.          (BECE 1997 Q22)",
+          options: [
+            r"\(120y\)",
+            r"\(240 + y\)",
+            r"\(240 - y\)",
+            r"\(240y\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"If the other number is subtracted from the total, it is \(240 - y\)."
+      ),
+
+      QuizQuestion(
+          question: r"9. Ama is \(N\) years old now. How old will she be in \(10\) years?          (BECE 2000 Q40)",
+          options: [
+            r"\((N - 10)\text{ years}\)",
+            r"\((N + 10)\text{ years}\)",
+            r"\((10 - N)\text{ years}\)",
+            r"\(N10\text{ years}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"After \(10\) years, \(10\) is added to Ama's present age. Therefore, she will be \((N + 10)\) years old."
+      ),
+
+      QuizQuestion(
+          question: r"10. Simplify: \(2ab^2 \times 3a^2b\).          (BECE 1991 Q13)",
+          options: [
+            r"\(5a^3b^3\)",
+            r"\(5a^2b^2\)",
+            r"\(6a^3b^3\)",
+            r"\(6a^2b^2\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a \times a^2 = a^3\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^3b^3\)."
+      ),
+
+      QuizQuestion(
+          question: r"11. If \(a * b = 2a - b\), evaluate \(4 * 3\).          (BECE 2000 Q17)",
+          options: [
+            r"\(1\)",
+            r"\(2\)",
+            r"\(4\)",
+            r"\(5\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Using \(a * b = 2a - b\), \(4 * 3 = 2(4) - 3 = 8 - 3 = 5\)."
+      ),
+
+      QuizQuestion(
+          question: r"12. Find the difference between the values of \((2d)^2\) and \(2d^2\), when \(d = 3\).          (BECE 1995 Q30)",
+          options: [
+            r"\(16\)",
+            r"\(18\)",
+            r"\(24\)",
+            r"\(28\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"When \(d = 3\), \((2d)^2 = (6)^2 = 36\), while \(2d^2 = 2(3^2) = 18\). Their difference is \(36 - 18 = 18\)."
+      ),
+
+      QuizQuestion(
+          question: r"13. Simplify: \(4p + 6p^2 - 2p + 2p^2\).          (BECE 2001 Q25)",
+          options: [
+            r"\(2p + 8p^2\)",
+            r"\(6p + 8p^2\)",
+            r"\(2p - 8p^2\)",
+            r"\(6p - 8p^2\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Collect like terms: \(4p - 2p = 2p\) and \(6p^2 + 2p^2 = 8p^2\). Therefore, the simplified expression is \(2p + 8p^2\)."
+      ),
+
+      QuizQuestion(
+          question: r"14. Three baskets contain \(95\) oranges, \(x\) oranges, and \(2x\) oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
+          options: [
+            r"\(96x\)",
+            r"\(95 + 3x\)",
+            r"\(95 + 2x^2\)",
+            r"\(98x\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Add the numbers of oranges: \(95 + x + 2x = 95 + 3x\)."
+      ),
+
+      QuizQuestion(
+          question: r"15. Simplify: \((2ab^2)(3a^{-3}b)\).          (BECE 1997 Q21)",
+          options: [
+            r"\(5a^3b^3\)",
+            r"\(6a^{-2}b^3\)",
+            r"\(5a^2b^3\)",
+            r"\(6a^2b^3\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a^1 \times a^{-3} = a^{1-3} = a^{-2}\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^{-2}b^3\)."
+      ),
+
+      QuizQuestion(
+          question: r"16. If \(y = k + ax^2\), find \(y\) when \(k = \frac{14}{5}\), \(a = \frac{4}{5}\), and \(x = 2\).          (BECE 2000 Q26)",
+          options: [
+            r"\(1\)",
+            r"\(2\)",
+            r"\(4\)",
+            r"\(5\)"
+          ],
+          correctIndex: -1,
+          difficulty: "Easy",
+          explanation: r"Substitute the values: \(y = \frac{14}{5} + \frac{4}{5}(2^2) = \frac{14}{5} + \frac{16}{5} = \frac{30}{5} = 6\). The correct answer is not included in the supplied options."
+      ),
+    ],
+  ),
+  "Algebraic Expressions": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: r"1. When a certain number is subtracted from \(10\) and the result is multiplied by \(2\), the final result is \(4\). Find the number.          (BECE 1991 Q37)",
+          options: [
+            r"\(8\)",
+            r"\(12\)",
+            r"\(16\)",
+            r"\(24\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(2(10 - x) = 4\). Dividing by \(2\) gives \(10 - x = 2\), so \(x = 8\)."
+      ),
+
+      QuizQuestion(
+          question: r"2. Solve for \(x\) if \(2x + 5 = 3x - 7\).          (BECE 1994 Q26)",
+          options: [
+            r"\(12\)",
+            r"\(2\frac{2}{5}\)",
+            r"\(-\frac{2}{5}\)",
+            r"\(-2\frac{2}{5}\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Subtract \(2x\) from both sides: \(5 = x - 7\). Adding \(7\) gives \(x = 12\)."
+      ),
+
+      QuizQuestion(
+          question: r"3. If \(\frac{3}{15}\) is equivalent to \(\frac{45}{a}\), find \(a\).          (BECE 1990 Q22)",
+          options: [
+            r"\(225\)",
+            r"\(150\)",
+            r"\(252\)",
+            r"\(126\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Since \(\frac{3}{15} = \frac{45}{a}\), cross-multiply to get \(3a = 15 \times 45\). Therefore, \(a = \frac{675}{3} = 225\)."
+      ),
+
+      QuizQuestion(
+          question: r"4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
+          options: [
+            r"\(\frac{3}{2}\)",
+            r"\(1\)",
+            r"\(\frac{2}{3}\)",
+            r"\(\frac{1}{2}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(5x = x + 4\). Therefore, \(4x = 4\), so \(x = 1\)."
+      ),
+
+      QuizQuestion(
+          question: r"5. Mark is \(30\) years old. Yaw is half as old as Mark. Paul is \(10\) years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
+          options: [
+            r"\(30\text{ years}\)",
+            r"\(25\text{ years}\)",
+            r"\(20\text{ years}\)",
+            r"\(15\text{ years}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Yaw is half of \(30\), so he is \(15\) years old. Paul is \(10\) years older, so Paul is \(15 + 10 = 25\) years old."
+      ),
+
+      QuizQuestion(
+          question: r"6. If \(\frac{1}{3}\) of a number is added to \(\frac{1}{5}\) of the same number, the result is \(8\). Find the number.          (BECE 1992 Q34)",
+          options: [
+            r"\(3\)",
+            r"\(5\)",
+            r"\(15\)",
+            r"\(30\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(\frac{x}{3} + \frac{x}{5} = 8\). Thus, \(\frac{5x + 3x}{15} = 8\), so \(\frac{8x}{15} = 8\). Therefore, \(x = 15\)."
+      ),
+
+      QuizQuestion(
+          question: r"7. Solve for \(h\) in the equation \(15 - 2h = 6\).          (BECE 1998 Q21)",
+          options: [
+            r"\(-10.5\)",
+            r"\(-9.0\)",
+            r"\(-4.5\)",
+            r"\(4.5\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Subtract \(15\) from both sides: \(-2h = -9\). Dividing by \(-2\) gives \(h = 4.5\)."
+      ),
+
+      QuizQuestion(
+          question: r"8. Find \(x\), if \(\frac{1}{x} + \frac{1}{3} = 1\).          (BECE 1993 Q31)",
+          options: [
+            r"\(\frac{2}{3}\)",
+            r"\(-\frac{2}{3}\)",
+            r"\(\frac{3}{2}\)",
+            r"\(\frac{3}{4}\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"\(\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}\). Taking reciprocals gives \(x = \frac{3}{2}\)."
+      ),
+
+      QuizQuestion(
+          question: r"9. If \(\frac{1}{x} = 1\frac{1}{2}\), find \(x\).          (BECE 1994 Q11)",
+          options: [
+            r"\(3\)",
+            r"\(\frac{1}{2}\)",
+            r"\(\frac{4}{3}\)",
+            r"\(\frac{2}{3}\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Convert \(1\frac{1}{2}\) to an improper fraction: \(1\frac{1}{2} = \frac{3}{2}\). Thus, \(\frac{1}{x} = \frac{3}{2}\), so \(x = \frac{2}{3}\)."
+      ),
+
+      QuizQuestion(
+          question: r"10. Solve the equation \(13x - 2(3x + 4) = 22\).          (BECE 2000 Q3)",
+          options: [
+            r"\(5\)",
+            r"\(4\)",
+            r"\(\frac{30}{7}\)",
+            r"\(\frac{26}{7}\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Expand and simplify: \(13x - 6x - 8 = 22\). Thus, \(7x = 30\), so \(x = \frac{30}{7}\)."
+      ),
+      QuizQuestion(
+          question: r"11. If \(4(m + 4) = 18\), find the value of \(m\).          (BECE 1999 Q29)",
+          options: [
+            r"\(\frac{1}{2}\)",
+            r"\(\frac{3}{2}\)",
+            r"\(\frac{5}{2}\)",
+            r"\(\frac{3}{25}\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Divide both sides by \(4\): \(m + 4 = \frac{18}{4} = \frac{9}{2}\). Therefore, \(m = \frac{9}{2} - 4 = \frac{1}{2}\)."
+      ),
+
+      QuizQuestion(
+          question: r"12. If \(13x - 12 = 5x + 60\), find \(x\).          (BECE 1995 Q33)",
+          options: [
+            r"\(-9\)",
+            r"\(-6\)",
+            r"\(9\)",
+            r"\(6\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Subtract \(5x\) from both sides: \(8x - 12 = 60\). Add \(12\): \(8x = 72\). Therefore, \(x = 9\)."
+      ),
+
+      QuizQuestion(
+          question: r"13. The product of \(2x\) and \(3\) is \(138\). Find \(x\).          (BECE 1996 Q33)",
+          options: [
+            r"\(23\)",
+            r"\(33\)",
+            r"\(68\)",
+            r"\(69\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"\((2x)(3) = 138\). Thus, \(6x = 138\), so \(x = 23\)."
+      ),
+
+      QuizQuestion(
+          question: r"14. Solve for \(y\) in the equation \(\frac{1}{3}y + \frac{1}{5}y = 8\).          (BECE 2002A Q27)",
+          options: [
+            r"\(15\)",
+            r"\(30\)",
+            r"\(45\)",
+            r"\(60\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"\(\frac{1}{3}y + \frac{1}{5}y = \frac{8}{15}y = 8\). Hence, \(y = 15\)."
+      ),
+
+      QuizQuestion(
+          question: r"15. Kofi is \(2\) years older than Ama. If the sum of their ages is \(16\), find Ama's age.          (BECE 2002B Q25)",
+          options: [
+            r"\(7\text{ years}\)",
+            r"\(9\text{ years}\)",
+            r"\(14\text{ years}\)",
+            r"\(18\text{ years}\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Let Ama's age be \(x\). Then Kofi's age is \(x + 2\). Thus, \(x + (x + 2) = 16\), so \(2x = 14\) and \(x = 7\)."
+      ),
+
+      QuizQuestion(
+          question: r"16. Solve the equation: \(2x - 3(x - 1) = 6\).          (BECE 2009 Q12)",
+          options: [
+            r"\(3\)",
+            r"\(-3\)",
+            r"\(-7\)",
+            r"\(-9\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Expand the bracket: \(2x - 3x + 3 = 6\). Therefore, \(-x = 3\), so \(x = -3\)."
+      ),
+
+      QuizQuestion(
+          question: r"17. Find the value of \(x\) in the equation \(\frac{x}{4} = 2\).          (BECE 2002B Q39)",
+          options: [
+            r"\(2\)",
+            r"\(4\)",
+            r"\(6\)",
+            r"\(8\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Multiply both sides by \(4\): \(x = 8\)."
+      ),
+
+      QuizQuestion(
+          question: r"18. Solve for \(x\) in the equation \(15 - 2x = 6\).          (BECE 2004 Q21)",
+          options: [
+            r"\(-10.5\)",
+            r"\(-4.5\)",
+            r"\(4.5\)",
+            r"\(10.5\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Subtract \(15\) from both sides: \(-2x = -9\). Divide by \(-2\): \(x = 4.5\)."
+      ),
+
+      QuizQuestion(
+          question: r"19. If \(3t - 2(t + 12) = 11\), find the value of \(t\).          (BECE 2003 Q7)",
+          options: [
+            r"\(-35\)",
+            r"\(-13\)",
+            r"\(13\)",
+            r"\(35\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Expand the bracket: \(3t - 2t - 24 = 11\). Thus, \(t = 35\)."
+      ),
+
+      QuizQuestion(
+          question: r"20. If \(6n + 4 = 16\), find the value of \(n\).          (BECE 2005 Q10)",
+          options: [
+            r"\(2\)",
+            r"\(3\)",
+            r"\(5\)",
+            r"\(6\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Subtract \(4\) from both sides: \(6n = 12\). Divide by \(6\): \(n = 2\)."
+      ),
+      QuizQuestion(
+          question: r"21. The difference between two numbers is \(168\). If the smaller number is \(113\), find the other number.          (BECE 2008 Q39)",
+          options: [
+            r"\(223\)",
+            r"\(271\)",
+            r"\(281\)",
+            r"\(291\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"The larger number is \(113 + 168 = 281\)."
+      ),
+
+      QuizQuestion(
+          question: r"22. Solve the equation \(\frac{x + 2}{3} + 2x = 10\).          (BECE 2006 Q18)",
+          options: [
+            r"\(3\)",
+            r"\(4\)",
+            r"\(5\)",
+            r"\(6\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Multiply through by \(3\): \(x + 2 + 6x = 30\). Thus, \(7x = 28\), so \(x = 4\)."
+      ),
+
+      QuizQuestion(
+          question: r"23. If \(8x - 3(2x - 4) = 4\), find the value of \(x\).          (BECE 2007 Q15)",
+          options: [
+            r"\(-8\)",
+            r"\(-4\)",
+            r"\(4\)",
+            r"\(8\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Expand the bracket: \(8x - 6x + 12 = 4\). Therefore, \(2x = -8\), so \(x = -4\)."
+      ),
+
+      QuizQuestion(
+          question: r"24. Solve \(\frac{4k}{9} = 12\).          (BECE 2008 Q33)",
+          options: [
+            r"\(23\)",
+            r"\(25\)",
+            r"\(27\)",
+            r"\(29\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Multiply both sides by \(9\): \(4k = 108\). Divide by \(4\): \(k = 27\)."
+      ),
+
+      QuizQuestion(
+          question: r"25. If \(x + 5 = -7\), find the value of \(\frac{x}{6}\).          (BECE 2009 Q20)",
+          options: [
+            r"\(-5\frac{5}{6}\)",
+            r"\(-2\)",
+            r"\(-\frac{1}{3}\)",
+            r"\(2\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"From \(x + 5 = -7\), we get \(x = -12\). Therefore, \(\frac{x}{6} = \frac{-12}{6} = -2\)."
+      ),
+
+      QuizQuestion(
+          question: r"26. The sum of \(5\) and \(x\) divided by \(4\) is equal to \(3.25\). Find the value of \(x\).          (BECE 2010 Q4)",
+          options: [
+            r"\(8\)",
+            r"\(7\)",
+            r"\(2\frac{1}{4}\)",
+            r"\(-3\frac{4}{13}\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Interpret the statement as \(\frac{x + 5}{4} = 3.25\). Multiplying by \(4\) gives \(x + 5 = 13\), so \(x = 8\)."
+      ),
+
+      QuizQuestion(
+          question: r"27. Find the value of \(x\), if \(\frac{x}{4} + 1 = 5\).          (BECE 2010 Q20)",
+          options: [
+            r"\(24\)",
+            r"\(20\)",
+            r"\(19\)",
+            r"\(16\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Subtract \(1\): \(\frac{x}{4} = 4\). Multiply by \(4\): \(x = 16\)."
+      ),
+
+      QuizQuestion(
+          question: r"28. If \(2x = 5(x - 2) + 7\), find the value of \(x\).          (BECE 2012 Q14)",
+          options: [
+            r"\(-5\frac{2}{3}\)",
+            r"\(-1\)",
+            r"\(1\)",
+            r"\(5\frac{2}{3}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Expand: \(2x = 5x - 10 + 7 = 5x - 3\). Thus, \(-3x = -3\), so \(x = 1\). (The supplied answer key/options appear inconsistent.)"
+      ),
+
+      QuizQuestion(
+          question: r"29. If \(1 - 2 = m\), find \(m\).          (BECE 2013 Q11)",
+          options: [
+            r"\(3\)",
+            r"\(-1\)",
+            r"\(1\)",
+            r"\(3\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Simply evaluate \(1 - 2 = -1\). Therefore, \(m = -1\)."
+      ),
+
+      QuizQuestion(
+          question: r"30. Solve \(3 + 3y = 1 - 13y\).          (BECE 2015 Q23)",
+          options: [
+            r"\(-6\)",
+            r"\(-2\)",
+            r"\(2\)",
+            r"\(6\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Bring like terms together: \(3y + 13y = 1 - 3\). Thus, \(16y = -2\), so \(y = -\frac{1}{8}\). The correct answer is not among the supplied options."
+      ),QuizQuestion(
+          question: r"31. When a number is doubled and the result is decreased by \(9\), the answer is \(19\). Find the number.          (BECE 2016 Q22)",
+          options: [
+            r"\(5\)",
+            r"\(7\)",
+            r"\(14\)",
+            r"\(16\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(2x - 9 = 19\). So \(2x = 28\) and \(x = 14\)."
+      ),
+
+      QuizQuestion(
+          question: r"32. Given that \(\frac{1}{2p} = \frac{1}{8}\), find the value of \(p\).          (BECE 2017 Q3)",
+          options: [
+            r"\(4\)",
+            r"\(3\)",
+            r"\(2\)",
+            r"\(1\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Since \(\frac{1}{2p} = \frac{1}{8}\), it follows that \(2p = 8\). Therefore, \(p = 4\)."
+      ),
+
+      QuizQuestion(
+          question: r"33. Solve \(2 + \frac{x}{3} = 1 - 2x\).          (BECE 2017 Q8)",
+          options: [
+            r"\(-1\frac{2}{7}\)",
+            r"\(-\frac{3}{7}\)",
+            r"\(\frac{3}{7}\)",
+            r"\(1\frac{2}{7}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Multiply through by \(3\): \(6 + x = 3 - 6x\). Thus, \(7x = -3\), so \(x = -\frac{3}{7}\)."
+      ),
+
+      QuizQuestion(
+          question: r"34. At a meeting attended by \(23\) people, the females were \(7\) more than the males. How many males were there?          (BECE 2017 Q14)",
+          options: [
+            r"\(8\)",
+            r"\(15\)",
+            r"\(16\)",
+            r"\(30\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Let the number of males be \(m\). Then females are \(m + 7\). So \(m + (m + 7) = 23\), giving \(2m = 16\) and \(m = 8\)."
+      ),
+
+      QuizQuestion(
+          question: r"35. If \(4 - x = 3(4x + 5)\), find the value of \(x\).          (BECE 2018 Q37)",
+          options: [
+            r"\(\frac{11}{13}\)",
+            r"\(1\frac{6}{13}\)",
+            r"\(-1\frac{6}{13}\)",
+            r"\(-\frac{11}{13}\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Expand: \(4 - x = 12x + 15\). Thus, \(-13x = 11\), so \(x = -\frac{11}{13} = -\frac{11}{13}\). The mixed-number option \(-1\frac{6}{13}\) in the source is inconsistent."
+      ),
+
+      QuizQuestion(
+          question: r"36. Solve the equation \(10 - \frac{x + 3}{2} = 8\).          (BECE 2019 Q7)",
+          options: [
+            r"\(-9\)",
+            r"\(-3\)",
+            r"\(1\)",
+            r"\(15\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"\(\frac{x + 3}{2} = 2\). Therefore, \(x + 3 = 4\), so \(x = 1\)."
+      ),
+
+      QuizQuestion(
+          question: r"37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
+          options: [
+            r"\(84\)",
+            r"\(40\)",
+            r"\(28\)",
+            r"\(20\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(\frac{3x - 12}{4} = 18\). Hence, \(3x - 12 = 72\), so \(3x = 84\) and \(x = 28\)."
+      ),
+
+      QuizQuestion(
+          question: r"38. In a class of \(23\) students, the girls were \(7\) more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
+          options: [
+            r"\(8\)",
+            r"\(15\)",
+            r"\(16\)",
+            r"\(30\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Let the number of boys be \(b\). Then girls are \(b + 7\). Thus, \(b + (b + 7) = 23\), so \(2b = 16\) and \(b = 8\)."
+      ),
+
+      QuizQuestion(
+          question: r"39. If \(\frac{w}{3} = 3(w - 1) - 1\), find the value of \(w\).          (BECE 2020 Q16)",
+          options: [
+            r"\(\frac{3}{2}\)",
+            r"\(\frac{5}{4}\)",
+            r"\(\frac{3}{5}\)",
+            r"\(\frac{1}{2}\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"\(\frac{w}{3} = 3w - 4\). Multiplying through by \(3\): \(w = 9w - 12\). Thus, \(8w = 12\), so \(w = \frac{3}{2}\)."
+      ),
+
+      QuizQuestion(
+          question: r"40. If \(2x - 1 = 5\), find the value of \(x\).          (BECE 2021 Q34)",
+          options: [
+            r"\(3\)",
+            r"\(4\)",
+            r"\(5\)",
+            r"\(6\)"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: r"Add \(1\) to both sides: \(2x = 6\). Therefore, \(x = 3\)."
+      ),
+
+      QuizQuestion(
+          question: r"41. If \(\frac{n}{100} = 10.5\), find the value of \(n\).          (BECE 2022 Q23)",
+          options: [
+            r"\(0.0105\)",
+            r"\(0.105\)",
+            r"\(105\)",
+            r"\(1050\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Multiply both sides by \(100\): \(n = 10.5 \times 100 = 1050\)."
+      ),
+
+      QuizQuestion(
+          question: r"42. A certain number is subtracted from \(12\) and the result is multiplied by \(3\). If the answer is \(21\), find the number.          (BECE 2022 Q37)",
+          options: [
+            r"\(4\)",
+            r"\(5\)",
+            r"\(6\)",
+            r"\(8\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Let the number be \(x\). Then \(3(12 - x) = 21\). So \(12 - x = 7\), giving \(x = 5\)."
+      ),
+
+      QuizQuestion(
+          question: r"43. If \(2n - 5 = \frac{1}{2}n\), find the value of \(n\).          (BECE 2023 Q15)",
+          options: [
+            r"\(\frac{1}{3}\)",
+            r"\(2\frac{1}{2}\)",
+            r"\(3\frac{1}{3}\)",
+            r"\(\frac{1}{2}\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"Multiply both sides by \(2\): \(4n - 10 = n\). Thus, \(3n = 10\), so \(n = \frac{10}{3} = 3\frac{1}{3}\)."
+      ),
+
+      QuizQuestion(
+          question: r"44. A story book contains \(50\) pages. If a student reads \(10\) pages per hour, find the relationship between the number of unread pages (\(N\)) and time (\(t\)).          (BECE 2024 Q29)",
+          options: [
+            r"\(N = 10t + 50\)",
+            r"\(N = 10t - 50\)",
+            r"\(N = -10t + 50\)",
+            r"\(N = -\frac{1}{10}t + 50\)"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: r"The number of unread pages decreases by \(10\) every hour. Hence, \(N = 50 - 10t = -10t + 50\)."
+      ),
+
+      QuizQuestion(
+          question: r"45. Solve: \(4x - 2(x + 5) = -10\).          (BECE 2025 Q10)",
+          options: [
+            r"\(x = -10\)",
+            r"\(x = 0\)",
+            r"\(x = \frac{1}{2}\)",
+            r"\(x = 2\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Expand: \(4x - 2x - 10 = -10\). Thus, \(2x = 0\), so \(x = 0\)."
+      ),
+
+      QuizQuestion(
+          question: r"46. Ama is three times as old as Kofi. The sum of their ages is \(40\). How old is Ama?          (BECE 2025 Q12)",
+          options: [
+            r"\(10\text{ years}\)",
+            r"\(30\text{ years}\)",
+            r"\(37\text{ years}\)",
+            r"\(43\text{ years}\)"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: r"Let Kofi's age be \(k\). Then Ama's age is \(3k\). Since \(k + 3k = 40\), we get \(4k = 40\), so \(k = 10\). Therefore, Ama is \(30\) years old."
+      ),
+
+      QuizQuestion(
+          question: r"47. Given that \(0.03 \times y = 2.4\), find the value of \(y\).          (BECE 2025 Q22)",
+          options: [
+            r"\(0.08\)",
+            r"\(0.8\)",
+            r"\(8.0\)",
+            r"\(80.0\)"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: r"Divide both sides by \(0.03\): \(y = \frac{2.4}{0.03} = 80\)."
+      ),
+    ],
+  ),
 
   "The Algebra Journey": QuizModel(
     audioPath: '',

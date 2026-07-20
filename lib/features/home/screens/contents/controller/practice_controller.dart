@@ -146,16 +146,6 @@ class PracticeController extends GetxController {
         await beceRepo.saveProgress(progress);
         Get.find<SidebarController>().loadActualProgress();
 
-        Get.snackbar(
-          "Complete",
-          "You have finished the Theory practice.",
-          snackPosition: SnackPosition.BOTTOM,
-          duration: const Duration(seconds: 2),
-          backgroundColor: Colors.green,
-          colorText: Colors.white,
-        );
-
-        await Future.delayed(const Duration(seconds: 2));
         Get.back();
       } else {
         // Save practice progress
