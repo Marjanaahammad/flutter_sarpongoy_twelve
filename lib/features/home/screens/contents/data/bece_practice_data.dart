@@ -1628,6 +1628,17 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── JHS 2 / JHS 3: ENGLISH theory ─────────────────────────────────────────
+
+  "JHS 2 - Environmental issues": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nState the difference between a homogeneous and a heterogeneous mixture.",
+        answer: "Homogeneous mixtures have a uniform composition and single phase throughout. Heterogeneous mixtures have visible, distinct phases.",
+        explanation: "For example, sugar solution vs. muddy water.",
+      ),
+    ],
+  ),
   "EFFECTIVE TURN-TAKING IN CONVERSATION": PracticeModel(
     audioPath: '',
     questions: [

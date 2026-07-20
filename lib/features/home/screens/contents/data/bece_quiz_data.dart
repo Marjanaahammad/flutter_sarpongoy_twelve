@@ -215,7 +215,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── MATH ──────────────────────────────────────────────────────────────
-  "Number and Numeration Systems": QuizModel(
+  "JHS 1 - Number and Numeration Systems": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -580,7 +580,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Number Operations": QuizModel(
+  "JHS 1 - Number Operations": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -1023,7 +1023,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Fractions, Decimals and Percentages": QuizModel(
+  "JHS 1 - Fractions, Decimals and Percentages": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -1339,7 +1339,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Number: Ratios and Proportion": QuizModel(
+  "JHS1 - Number: Ratios and Proportion": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -2024,7 +2024,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Patterns and Relations": QuizModel(
+  "JHS1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
 
@@ -3298,6 +3298,38 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
+
+  "JHS 1 - Environmental issues": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. Which of these is considered a good manner in Ghana?", options: ["Interrupting elders when they speak", "Greeting elders before speaking to them", "Refusing to eat offered food", "Speaking loudly in public places"], correctIndex: 1, difficulty: "Easy", explanation: "Greeting elders first is a sign of deep respect in Ghanaian culture."),
+      QuizQuestion(question: "2. 'Decency' in behaviour means:", options: ["Dressing to attract attention", "Acting appropriately and respectfully in all situations", "Speaking as loudly as possible", "Ignoring cultural values"], correctIndex: 1, difficulty: "Easy", explanation: "Decency involves proper, respectful conduct appropriate to context."),
+      QuizQuestion(question: "3. Which religious teaching emphasises treating others as you want to be treated?", options: ["The Golden Rule", "The Apostles' Creed", "The Five Pillars", "The Ten Commandments"], correctIndex: 0, difficulty: "Medium", explanation: "The Golden Rule is found across major religions and promotes mutual respect."),
+      QuizQuestion(question: "4. 'Chastity' in moral teaching refers to:", options: ["Fasting for long periods", "Abstaining from sexual immorality and maintaining purity", "Giving money to the poor", "Attending religious services"], correctIndex: 1, difficulty: "Medium", explanation: "Chastity involves sexual morality and purity as taught in many religions."),
+      QuizQuestion(question: "5. Which body language shows disrespect to an elder in Ghanaian culture?", options: ["Standing up when they enter", "Responding to a greeting", "Looking away or refusing eye contact when being corrected", "Greeting them with both hands"], correctIndex: 2, difficulty: "Medium", explanation: "Avoiding eye contact during communication is often culturally disrespectful."),
+      QuizQuestion(question: "6. The importance of good manners in society includes:", options: ["Creating conflict and misunderstanding", "Promoting peaceful coexistence and social harmony", "Making people feel superior", "Restricting freedom of expression"], correctIndex: 1, difficulty: "Easy", explanation: "Good manners create an environment of mutual respect and peaceful living."),
+      QuizQuestion(question: "7. Which of these is an example of decency in dressing?", options: ["Wearing very revealing clothes to a funeral", "Dressing appropriately for each occasion", "Wearing only expensive branded clothing", "Copying every fashion trend"], correctIndex: 1, difficulty: "Easy", explanation: "Decent dressing means choosing attire appropriate to the occasion and setting."),
+      QuizQuestion(question: "8. According to religious teaching, why should believers practice good manners?", options: ["To show off to others", "Because religious texts and leaders emphasise moral conduct", "To be popular in school", "To avoid punishment from society"], correctIndex: 1, difficulty: "Medium", explanation: "Religious scriptures and leaders teach that moral behaviour pleases God and benefits society."),
+      QuizQuestion(question: "9. Peer pressure can NEGATIVELY affect good manners by:", options: ["Encouraging regular prayer", "Pushing individuals toward bad behaviour to fit in", "Promoting academic excellence", "Teaching respect for elders"], correctIndex: 1, difficulty: "Medium", explanation: "Negative peer pressure can lead individuals to abandon moral values to gain acceptance."),
+      QuizQuestion(question: "10. Which practical skill helps a person RESIST pressure to behave badly?", options: ["Following every trend", "Saying 'No' confidently and walking away", "Keeping silent always", "Arguing back aggressively"], correctIndex: 1, difficulty: "Hard", explanation: "Confidently refusing and removing yourself from harmful situations is a key defensive skill."),
+    ],
+  ),
+
+  "JHS 2 - Environmental issues": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(question: "1. A citizen is a person who:", options: ["Lives in any country temporarily", "Has full legal membership of a country", "Works in a foreign country", "Travels frequently"], correctIndex: 1, difficulty: "Easy", explanation: "Citizenship grants full legal membership and rights within a nation-state."),
+      QuizQuestion(question: "2. By which means can a person become a citizen of Ghana?", options: ["By visiting Ghana for one week", "By birth, descent, or naturalisation", "By owning property in Ghana", "By winning a competition"], correctIndex: 1, difficulty: "Medium", explanation: "Ghanaian citizenship can be acquired by birth, descent, or naturalisation."),
+      QuizQuestion(question: "3. Which of the following is a RIGHT of a Ghanaian citizen?", options: ["Refusing to pay taxes", "Freedom of speech and expression", "Disobeying court orders", "Ignoring national service"], correctIndex: 1, difficulty: "Easy", explanation: "Freedom of expression is a fundamental right guaranteed in Ghana's Constitution."),
+      QuizQuestion(question: "4. Which of the following is a RESPONSIBILITY of a Ghanaian citizen?", options: ["Collecting free services without contributing", "Obeying the laws of Ghana", "Leaving Ghana permanently", "Paying taxes only when forced"], correctIndex: 1, difficulty: "Easy", explanation: "Obeying the law is a fundamental civic responsibility of every citizen."),
+      QuizQuestion(question: "5. The body of laws governing Ghana is called:", options: ["The Ghana Statute", "The 1992 Constitution of Ghana", "The National Code", "The Independence Act"], correctIndex: 1, difficulty: "Medium", explanation: "Ghana's Supreme Law is the 1992 Constitution."),
+      QuizQuestion(question: "6. Dual citizenship in Ghana means:", options: ["Holding two passports physically", "Being a citizen of Ghana and one other country simultaneously", "Being born to two Ghanaian parents", "Having two names in your birth certificate"], correctIndex: 1, difficulty: "Medium", explanation: "Dual citizenship allows a person to be a legal citizen of two countries."),
+      QuizQuestion(question: "7. Voting in national elections is an example of:", options: ["A duty only for adults over 50", "Active civic participation", "A punishment imposed by courts", "A privilege for the wealthy"], correctIndex: 1, difficulty: "Easy", explanation: "Voting is a key form of civic participation that upholds democracy."),
+      QuizQuestion(question: "8. Naturalisation is the process by which:", options: ["A citizen loses their rights", "A foreigner legally becomes a citizen of a country", "A government removes someone from office", "Citizens are listed in a voter register"], correctIndex: 1, difficulty: "Medium", explanation: "Naturalisation grants citizenship to foreign nationals who meet legal requirements."),
+      QuizQuestion(question: "9. The National Commission for Civic Education (NCCE) promotes:", options: ["Military training", "Knowledge of civic rights and responsibilities", "Foreign investment", "Agricultural development"], correctIndex: 1, difficulty: "Medium", explanation: "The NCCE educates citizens about their civic rights and responsibilities."),
+      QuizQuestion(question: "10. Which of the following promotes national unity in Ghana?", options: ["Tribalism and discrimination", "Respecting diverse cultures and cooperating as one people", "Ignoring civic responsibilities", "Speaking only one language"], correctIndex: 1, difficulty: "Easy", explanation: "Mutual respect and cooperation across Ghana's diverse communities build national unity."),
+    ],
+  ),
   "Dealing with Sanitation Challenges": QuizModel(
     audioPath: '',
     questions: [
@@ -3313,7 +3345,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. Which group in Ghana is most vulnerable to poor sanitation?", options: ["Adults over 60", "Young children under 5", "Male teenagers", "Educated professionals"], correctIndex: 1, difficulty: "Medium", explanation: "Young children have weaker immune systems and are most at risk from unsanitary conditions."),
     ],
   ),
-
   "WHAT IT MEANS TO BE A CITIZEN OF GHANA": QuizModel(
     audioPath: '',
     questions: [
@@ -3329,7 +3360,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. Which of the following promotes national unity in Ghana?", options: ["Tribalism and discrimination", "Respecting diverse cultures and cooperating as one people", "Ignoring civic responsibilities", "Speaking only one language"], correctIndex: 1, difficulty: "Easy", explanation: "Mutual respect and cooperation across Ghana's diverse communities build national unity."),
     ],
   ),
-
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "THE NATURE OF GOD THROUGH ATTRIBUTES": QuizModel(
     audioPath: '',
@@ -3346,7 +3376,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. How does believing God is omnipresent affect a believer's behaviour?", options: ["They feel free to do anything", "They believe their actions are always seen by God, so they act rightly", "They avoid going to public places", "They stop praying"], correctIndex: 1, difficulty: "Hard", explanation: "Belief in God's omnipresence motivates moral and responsible behaviour."),
     ],
   ),
-
   "Behaviours Considered as Good Manners": QuizModel(
     audioPath: '',
     questions: [
@@ -3364,6 +3393,8 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── JHS 2 / JHS 3: ENGLISH ────────────────────────────────────────────────
+
+
   "EFFECTIVE TURN-TAKING IN CONVERSATION": QuizModel(
     audioPath: '',
     questions: [
