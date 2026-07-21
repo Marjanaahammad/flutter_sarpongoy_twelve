@@ -1524,7 +1524,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── MATH ──────────────────────────────────────────────────────────────
-  "Number and Numeration Systems": QuizModel(
+  "JHS 1 - Number and Numeration Systems": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -1776,7 +1776,7 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "0 is the largest value."),
     ],
   ),
-  "Number Operations": QuizModel(
+  "JHS 1 - Number Operations": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -2031,7 +2031,7 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "-35 - (-15) + (-30) = -35 + 15 - 30 = -50."),
     ],
   ),
-  "Fractions, Decimals and Percentages": QuizModel(
+  "JHS 1 - Fractions, Decimals and Percentages": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -2247,7 +2247,7 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "Total = 240 ÷ 0.6 = 400."),
     ],
   ),
-  "Number: Ratios and Proportion": QuizModel(
+  "JHS1 - Number: Ratios and Proportion": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -2932,7 +2932,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Patterns and Relations": QuizModel(
+  "JHS1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
 
@@ -6839,7 +6839,6 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-
   "WHAT IT MEANS TO BE A CITIZEN OF GHANA": QuizModel(
     audioPath: '',
     questions: [
@@ -7785,7 +7784,6 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "THE NATURE OF GOD THROUGH ATTRIBUTES": QuizModel(
     audioPath: '',
@@ -7902,7 +7900,6 @@ final Map<String, QuizModel> beceQuizData = {
               "Belief in God's omnipresence motivates moral and responsible behaviour."),
     ],
   ),
-
   "Behaviours Considered as Good Manners": QuizModel(
     audioPath: '',
     questions: [

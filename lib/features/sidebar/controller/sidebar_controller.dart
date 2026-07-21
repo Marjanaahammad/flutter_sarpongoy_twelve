@@ -8059,22 +8059,38 @@ class SidebarController extends GetxController {
 
           final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim().toLowerCase();
 
-          // 1. Try to find quiz data matching the sub-strand title directly
+          // 1. Try to find quiz data matching the sub-strand title directly (with grade-specific prefixes/suffixes)
           QuizModel? matchedQuiz;
+          final String gradeSpecificPrefixed = "$grade - $normalizedSubStrandTitle";
+          final String gradeSpecificColoned = "$grade: $normalizedSubStrandTitle";
+          final String gradeSpecificSuffixed = "$normalizedSubStrandTitle ($grade)";
+
           for (var entry in beceQuizData.entries) {
-            if (entry.key.trim().toLowerCase() == normalizedSubStrandTitle) {
+            final String entryKeyLower = entry.key.trim().toLowerCase();
+            if (entryKeyLower == gradeSpecificPrefixed.toLowerCase() ||
+                entryKeyLower == gradeSpecificColoned.toLowerCase() ||
+                entryKeyLower == gradeSpecificSuffixed.toLowerCase() ||
+                entryKeyLower == normalizedSubStrandTitle) {
               matchedQuiz = entry.value;
               break;
             }
           }
 
-          // 2. If not found, try to find quiz data matching any of the lessons' topics inside this sub-strand
+          // 2. If not found, try to find quiz data matching any of the lessons' topics inside this sub-strand (with grade-specific options)
           if (matchedQuiz == null) {
             List<QuizQuestion> collectedQuestions = [];
             for (var normalLesson in normalSubStrand.lessons) {
               final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
+              final String lessonGradeSpecificPrefixed = "$grade - $normalizedLessonTopic";
+              final String lessonGradeSpecificColoned = "$grade: $normalizedLessonTopic";
+              final String lessonGradeSpecificSuffixed = "$normalizedLessonTopic ($grade)";
+
               for (var entry in beceQuizData.entries) {
-                if (entry.key.trim().toLowerCase() == normalizedLessonTopic) {
+                final String entryKeyLower = entry.key.trim().toLowerCase();
+                if (entryKeyLower == normalizedLessonTopic ||
+                    entryKeyLower == lessonGradeSpecificPrefixed.toLowerCase() ||
+                    entryKeyLower == lessonGradeSpecificColoned.toLowerCase() ||
+                    entryKeyLower == lessonGradeSpecificSuffixed.toLowerCase()) {
                   collectedQuestions.addAll(entry.value.questions);
                 }
               }
@@ -8093,22 +8109,34 @@ class SidebarController extends GetxController {
             matchedQuiz = QuizModel(audioPath: '', questions: fallbackQuestions);
           }
 
-          // 1. Try to find practice data matching the sub-strand title directly
+          // 1. Try to find practice data matching the sub-strand title directly (with grade-specific prefixes/suffixes)
           PracticeModel? matchedPractice;
           for (var entry in becePracticeData.entries) {
-            if (entry.key.trim().toLowerCase() == normalizedSubStrandTitle) {
+            final String entryKeyLower = entry.key.trim().toLowerCase();
+            if (entryKeyLower == gradeSpecificPrefixed.toLowerCase() ||
+                entryKeyLower == gradeSpecificColoned.toLowerCase() ||
+                entryKeyLower == gradeSpecificSuffixed.toLowerCase() ||
+                entryKeyLower == normalizedSubStrandTitle) {
               matchedPractice = entry.value;
               break;
             }
           }
 
-          // 2. If not found, try to find practice data matching any of the lessons' topics inside this sub-strand
+          // 2. If not found, try to find practice data matching any of the lessons' topics inside this sub-strand (with grade-specific options)
           if (matchedPractice == null) {
             List<PracticeQuestion> collectedPracticeQuestions = [];
             for (var normalLesson in normalSubStrand.lessons) {
               final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
+              final String lessonGradeSpecificPrefixed = "$grade - $normalizedLessonTopic";
+              final String lessonGradeSpecificColoned = "$grade: $normalizedLessonTopic";
+              final String lessonGradeSpecificSuffixed = "$normalizedLessonTopic ($grade)";
+
               for (var entry in becePracticeData.entries) {
-                if (entry.key.trim().toLowerCase() == normalizedLessonTopic) {
+                final String entryKeyLower = entry.key.trim().toLowerCase();
+                if (entryKeyLower == normalizedLessonTopic ||
+                    entryKeyLower == lessonGradeSpecificPrefixed.toLowerCase() ||
+                    entryKeyLower == lessonGradeSpecificColoned.toLowerCase() ||
+                    entryKeyLower == lessonGradeSpecificSuffixed.toLowerCase()) {
                   collectedPracticeQuestions.addAll(entry.value.questions);
                 }
               }
