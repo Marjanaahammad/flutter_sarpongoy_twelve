@@ -4,7 +4,7 @@ import '../model/quiz_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, QuizModel> beceQuizData = {
   // ─── ENGLISH: ORAL LANGUAGE ───────────────────────────────────────────────
-  "JHS1 s1 ss1 - Conversation Everyday Discourse": QuizModel(
+  "English JHS1 s1 ss1 - Conversation Everyday Discourse": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(question: "1. Before sharing your opinion on a text, you should first:", options: ["Decide what you think before listening", "Understand the key points made", "Ignore the speaker's evidence", "Wait for the test"], correctIndex: 1, difficulty: "Easy", explanation: "You must understand the content before forming a valid opinion."),
@@ -119,7 +119,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── MATH ──────────────────────────────────────────────────────────────
-  "Math JHS1 s1 ss1  - Number and Numeration Systems": QuizModel(
+  "Math JHS1 s1 ss1 - Number and Numeration Systems": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -484,7 +484,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 1 - Number Operations": QuizModel(
+  "Math JHS1 s1 ss2 - Number Operations": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -927,7 +927,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 1 - Fractions, Decimals and Percentages": QuizModel(
+  "Math JHS1 s1 ss3 - Fractions, Decimals and Percentages": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -1243,7 +1243,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS1 - Number: Ratios and Proportion": QuizModel(
+  "Math JHS1 s1 ss4 - Number: Ratios and Proportion": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -1928,7 +1928,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS1 - Patterns and Relations": QuizModel(
+  "Math JHS1 s2 ss1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
 
@@ -3201,7 +3201,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
+  ///─── SOCIAL STUDIES ────────────────────────────────────────────────────
 
   "JHS 1 - Environmental issues": QuizModel(
     audioPath: '',
@@ -3265,19 +3265,845 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "THE NATURE OF GOD THROUGH ATTRIBUTES": QuizModel(
+  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": QuizModel(
     audioPath: '',
     questions: [
-      QuizQuestion(question: "1. The attribute 'omniscient' means God is:", options: ["Present everywhere", "All-knowing", "All-powerful", "Eternal"], correctIndex: 1, difficulty: "Easy", explanation: "Omniscient means having unlimited knowledge and awareness."),
-      QuizQuestion(question: "2. 'Omnipotent' refers to God being:", options: ["All-knowing", "Eternal", "All-powerful", "Present everywhere"], correctIndex: 2, difficulty: "Easy", explanation: "Omnipotent means having infinite power over all things."),
-      QuizQuestion(question: "3. Which attribute means God is present everywhere at the same time?", options: ["Omniscient", "Omnipotent", "Omnipresent", "Immutable"], correctIndex: 2, difficulty: "Easy", explanation: "Omnipresent means God exists in all places simultaneously."),
-      QuizQuestion(question: "4. 'Immutable' as an attribute of God means:", options: ["God is always changing", "God is all-knowing", "God never changes", "God punishes wrongdoers"], correctIndex: 2, difficulty: "Medium", explanation: "Immutable means unchanging — God's nature remains constant."),
-      QuizQuestion(question: "5. Which religion believes in the Trinity (Father, Son, Holy Spirit)?", options: ["Islam", "Christianity", "Traditional African Religion", "Judaism"], correctIndex: 1, difficulty: "Easy", explanation: "The Trinity is a foundational Christian doctrine of God's threefold nature."),
-      QuizQuestion(question: "6. In Islam, the oneness of God is called:", options: ["Tawhid", "Salat", "Zakat", "Trinity"], correctIndex: 0, difficulty: "Medium", explanation: "Tawhid is the Islamic concept of the absolute oneness of Allah."),
-      QuizQuestion(question: "7. In Traditional Ghanaian Religion, the Supreme Being is known as:", options: ["Obosom", "Onyame / Nyame", "Asase Yaa", "Mpanyimfo"], correctIndex: 1, difficulty: "Medium", explanation: "Onyame (Nyame in Akan) refers to the Supreme God in Ghanaian traditional religion."),
-      QuizQuestion(question: "8. Which attribute describes God as the source and giver of life?", options: ["Immutable", "Omnipotent", "Creator and Sustainer", "Omniscient"], correctIndex: 2, difficulty: "Easy", explanation: "God as Creator and Sustainer brings all life into existence and maintains it."),
-      QuizQuestion(question: "9. 'Holy' as an attribute of God primarily means:", options: ["God is distant from humans", "God is morally perfect and separated from all evil", "God exists in heaven only", "God controls nature"], correctIndex: 1, difficulty: "Medium", explanation: "Holiness reflects God's perfect moral nature, free from all impurity."),
-      QuizQuestion(question: "10. How does believing God is omnipresent affect a believer's behaviour?", options: ["They feel free to do anything", "They believe their actions are always seen by God, so they act rightly", "They avoid going to public places", "They stop praying"], correctIndex: 1, difficulty: "Hard", explanation: "Belief in God's omnipresence motivates moral and responsible behaviour."),
+      QuizQuestion(
+          question: "1. When the last tree dies, the last man dies. This statement refers to the need to\n(BECE 2022 Q4)",
+          options: [
+            "Encourage farming",
+            "Irrigate forest vegetation",
+            "Manage the environment well",
+            "Stop making furniture out of wood"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Proper environmental management ensures the survival of humans and other living things."
+      ),
+      QuizQuestion(
+          question: "2. According to the Ewe myth on creation, God could not create more human beings because\n(BECE 2021 Q17)",
+          options: [
+            "Clay was scarce",
+            "He was very tired",
+            "Man was disobedient",
+            "People were too many on the earth"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "According to the Ewe creation myth, God stopped creating humans because He became very tired."
+      ),
+      QuizQuestion(
+          question: "3. Drought can easily be caused when there is\n(BECE 2022 Q3)",
+          options: [
+            "Surface mining",
+            "Sand weaning",
+            "Deforestation",
+            "Quarrying"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Deforestation reduces rainfall and contributes to drought."
+      ),
+      QuizQuestion(
+          question: "4. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
+          options: [
+            "Lesser gods",
+            "Angels",
+            "Ancestors",
+            "Supreme Being"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Traditional African Religion teaches that the Supreme Being created the world."
+      ),
+      QuizQuestion(
+          question: "5. Which of the following items is not a basic need for man's survival?\n(BECE 2023 Q34)",
+          options: [
+            "Medicine",
+            "Food",
+            "Air",
+            "Water"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Food, water and air are basic survival needs, while medicine is important but not a basic need."
+      ),
+      QuizQuestion(
+          question: "6. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
+          options: [
+            "Water pollution",
+            "Water shortage",
+            "Survival of fishes",
+            "Death of water gods"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Detergents and dirt pollute water bodies."
+      ),
+      QuizQuestion(
+          question: "7. As a result of God's ability to do all things, He is referred to\n(BECE 2022 Q15)",
+          options: [
+            "Omnipresent",
+            "Omnipotent",
+            "Omniscient",
+            "Omnivorous"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Omnipotent means all-powerful."
+      ),
+      QuizQuestion(
+          question: "8. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
+          options: [
+            "Justice",
+            "Power",
+            "Patience",
+            "Wisdom"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Omnipotence refers to Allah's unlimited power."
+      ),
+      QuizQuestion(
+          question: "9. Referring to God as the Alpha and Omega means that God is\n(BECE 2020 Q6)",
+          options: [
+            "Present everywhere",
+            "The beginning and the end",
+            "The provider of all needs",
+            "The ultimate reality"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Alpha and Omega signifies that God is eternal—the beginning and the end."
+      ),
+      QuizQuestion(
+          question: "10. Which of these creation of God provides security and protection for man?\n(BECE 2021 Q14)",
+          options: [
+            "Goat",
+            "Dog",
+            "Cock",
+            "Parrot"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Dogs are commonly used for security and protection."
+      ),
+      QuizQuestion(
+          question: "11. According to Islamic creation story, Allah created Adam followed by\n(BECE 2022 Q1)",
+          options: [
+            "Khadija",
+            "Aisha",
+            "Hawa",
+            "Mariam"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Allah created Hawa (Eve) after Adam."
+      ),
+      QuizQuestion(
+          question: "12. Human is considered as the most important creation in the Bible because he was\n(BECE 2022 Q2)",
+          options: [
+            "Created in the image of God",
+            "The last to be created",
+            "God's assistant in creation",
+            "The first to be created"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Humans were uniquely created in God's image."
+      ),
+      QuizQuestion(
+          question: "13. According to Christian teaching, God created man and woman on the\n(BECE 2013 Q1)",
+          options: [
+            "Third day",
+            "Fifth day",
+            "Sixth day",
+            "Fourth day"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Human beings were created on the sixth day."
+      ),
+      QuizQuestion(
+          question: "14. According to the Bible, lonely places where there is silence promote\n(BECE 2020 Q31)",
+          options: [
+            "General layout of things",
+            "Development of better relationship between them and God",
+            "Beginning of eternity",
+            "Hidden things that can be seen by everyone"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Quiet places encourage prayer and fellowship with God."
+      ),
+      QuizQuestion(
+          question: "15. The revelation of the whole Quran took\n(BECE 2000 Q7)",
+          options: [
+            "22 years",
+            "24 years",
+            "23 years",
+            "20 years"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The Holy Quran was revealed over a period of 23 years."
+      ),
+      QuizQuestion(
+          question: "16. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q2)",
+          options: [
+            "An angel",
+            "A holy spirit",
+            "God",
+            "A godly person"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "All three religions believe that God is the Creator."
+      ),
+      QuizQuestion(
+          question: "17. The snake as an animal was created by God to\n(BECE 2004 Q10)",
+          options: [
+            "Give man meat",
+            "Kill man",
+            "Lead man to sin",
+            "Tempt man"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "In the Bible, the serpent tempted Eve to disobey God."
+      ),
+      QuizQuestion(
+          question: "18. God commanded the earth to produce plants on the\n(BECE 2005 Q1)",
+          options: [
+            "Second day",
+            "Third day",
+            "Fourth day",
+            "Fifth day"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Plants were created on the third day."
+      ),
+      QuizQuestion(
+          question: "19. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q2)",
+          options: [
+            "Encourage small-scale mining",
+            "Cover the earth's surface with sand",
+            "Plant more trees",
+            "Burn refuse openly"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Tree planting helps conserve the environment."
+      ),
+      QuizQuestion(
+          question: "20. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2004 Q1)",
+          options: [
+            "All knowing",
+            "Ever forgiving",
+            "All powerful",
+            "Ever present"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "God's forgiveness is not demonstrated in the creation account."
+      ),
+      QuizQuestion(
+          question: "21. God revealed Himself in the Garden of Eden to\n(BECE 2007 Q1)",
+          options: [
+            "Moses",
+            "Abraham",
+            "Eve",
+            "Adam"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "According to Genesis, God spoke directly with Adam in the Garden of Eden."
+      ),
+
+      QuizQuestion(
+          question: "22. God is Omnipotent. This means that God is\n(BECE 2001 Q1)",
+          options: [
+            "All powerful",
+            "Knows everything",
+            "Is everywhere",
+            "Is very gracious"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Omnipotent means having unlimited power."
+      ),
+
+      QuizQuestion(
+          question: "23. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q9)",
+          options: [
+            "Israel defeated their enemies",
+            "For settling all disputes",
+            "The Israelites left Egypt",
+            "God rested from creation"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "God rested on the seventh day after completing creation."
+      ),
+
+      QuizQuestion(
+          question: "24. On the fifth day of creation, God commanded\n(BECE 2002 Q1)",
+          options: [
+            "The sky to appear to separate the water",
+            "Water and air to be filled with many kinds of living creatures",
+            "Water to come together in one place so that the land would appear",
+            "The water under the firmament to separate from that above it"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "On the fifth day, God created birds and sea creatures."
+      ),
+
+      QuizQuestion(
+          question: "25. The Omniscience of God portrays Him as\n(BECE 2006 Q2)",
+          options: [
+            "All powerful",
+            "Ever forgiving",
+            "Very gracious",
+            "All knowing"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Omniscience means possessing complete knowledge."
+      ),
+
+      QuizQuestion(
+          question: "26. Which of the following behaviours pollutes our environment?\n(BECE 2006 Q23)",
+          options: [
+            "Cutting down trees",
+            "Killing birds and animals",
+            "Throwing rubbish around",
+            "Clearing the land for building"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Improper disposal of waste pollutes the environment."
+      ),
+
+      QuizQuestion(
+          question: "27. Which of the following attributes of God shows that He has the whole world under His view?\n(BECE 2017 Q8)",
+          options: [
+            "Omnipotent",
+            "Creator",
+            "Omnipresent",
+            "Omniscient"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "God's omniscience means He knows everything happening everywhere."
+      ),
+
+      QuizQuestion(
+          question: "28. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q1)",
+          options: [
+            "Heavens or sky",
+            "Smaller animals",
+            "Plants and trees",
+            "Greater light"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "God created the sky (firmament) on the second day."
+      ),
+
+      QuizQuestion(
+          question: "29. According to the Bible, the first thing God created was\n(BECE 2018 Q3)",
+          options: [
+            "Sickness",
+            "Light",
+            "Plants",
+            "Darkness"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "God said, 'Let there be light,' on the first day."
+      ),
+
+      QuizQuestion(
+          question: "30. Cain's violent act against Abel shows\n(BECE 2018 Q2)",
+          options: [
+            "Greed",
+            "Jealousy",
+            "Selfishness",
+            "Misunderstanding"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Cain killed Abel because he was jealous of God's acceptance of Abel's offering."
+      ),
+
+      QuizQuestion(
+          question: "31. God's omniscience means that He\n(BECE 2018 Q1)",
+          options: [
+            "Loves His children",
+            "Protects His creatures",
+            "Knows whatever happens",
+            "Forgives us our sins"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "God's omniscience means He knows everything."
+      ),
+
+      QuizQuestion(
+          question: "32. By creating the world and everything in an orderly way, God wanted to show that He is\n(BECE 2009 Q3)",
+          options: [
+            "In a hurried way",
+            "Orderly",
+            "In a difficult way",
+            "Orderly"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The creation account shows God's orderliness and purpose."
+      ),
+
+      QuizQuestion(
+          question: "33. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
+          options: [
+            "Subdue and fill the earth",
+            "Take good care of Eve",
+            "Worship Him regularly",
+            "Eat all the fruit in the Garden"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "God commanded Adam to be fruitful, multiply, and have dominion over the earth."
+      ),
+
+      QuizQuestion(
+          question: "34. The Akans call God Ananse Kokroko because He is\n(BECE 2011 Q1)",
+          options: [
+            "Everlasting",
+            "Dependable",
+            "Omnipotent",
+            "Forgiving"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Ananse Kokroko emphasizes God's unmatched power."
+      ),
+
+      QuizQuestion(
+          question: "35. The Omnipresence of God means He is\n(BECE 2009 Q1)",
+          options: [
+            "All powerful",
+            "All knowing",
+            "Ever present",
+            "Always alive"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Omnipresence means God is present everywhere."
+      ),
+
+      QuizQuestion(
+          question: "36. Which of the following practices destroys our vegetation?\n(BECE 2013 Q2)",
+          options: [
+            "Cutting down trees randomly",
+            "Killing animals for food",
+            "Constructing drains",
+            "Killing disease vectors"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Indiscriminate tree felling destroys vegetation."
+      ),
+
+      QuizQuestion(
+          question: "37. By creating the environment, God wants us to\n(BECE 2009 Q8)",
+          options: [
+            "Make a mighty ocean",
+            "Control all things",
+            "Find Himself and others",
+            "Name all creation"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Adam was given the responsibility of naming God's creation."
+      ),
+
+      QuizQuestion(
+          question: "38. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
+          options: [
+            "Sovereign",
+            "Omnipresent",
+            "Omniscient",
+            "Omnipotent"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Only an all-knowing God can see every hidden deed."
+      ),
+
+      QuizQuestion(
+          question: "39. Adam described Eve as woman because she\n(BECE 2011 Q3)",
+          options: [
+            "Was made out of his rib",
+            "Was the mother of all living",
+            "Allowed the serpent to deceive her",
+            "Was made a helper fit for him"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Adam called her Woman because she was taken out of man."
+      ),
+
+      QuizQuestion(
+          question: "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q15)",
+          options: [
+            "Constructing buildings and roads",
+            "Polluting air and water bodies",
+            "Planting more trees and other plants",
+            "Killing snakes and other dangerous animals"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Tree planting helps preserve God's creation."
+      ),
+      QuizQuestion(
+          question: "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2012 Q1)",
+          options: [
+            "God's command",
+            "Natural orders",
+            "The lesser gods",
+            "Earth gods"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Christian teaching states that creation came into existence through God's command."
+      ),
+
+      QuizQuestion(
+          question: "42. According to Akan belief, the order of creation is\n(BECE 2012 Q4)",
+          options: [
+            "Earth, rivers, plants and sky",
+            "Rivers, plants, earth and sky",
+            "Sky, earth, rivers and plants",
+            "Plants, rivers, sky and earth"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "According to Akan belief, God created the sky, earth, rivers and plants in that order."
+      ),
+
+      QuizQuestion(
+          question: "43. One way by which humankind pollutes the air in the city is by\n(BECE 2012 Q10)",
+          options: [
+            "The use of insecticides",
+            "The use of detergents",
+            "Smoke from motor vehicles",
+            "Smoke from the burning of wood"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Exhaust fumes from motor vehicles contribute significantly to air pollution in cities."
+      ),
+
+      QuizQuestion(
+          question: "44. The power of God is seen in His\n(BECE 2017 Q4)",
+          options: [
+            "Omniscience",
+            "Omnipotence",
+            "Omnipresence",
+            "Sovereignty"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Omnipotence refers to God's unlimited power."
+      ),
+
+      QuizQuestion(
+          question: "45. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
+          options: [
+            "First day",
+            "Third day",
+            "Fifth day",
+            "Sixth day"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "God commanded the earth to produce plants on the third day of creation."
+      ),
+
+      QuizQuestion(
+          question: "46. Which of the following options is not a reason for which we must care for God's creation?\n(BECE 2018 Q1)",
+          options: [
+            "It makes us righteous people",
+            "To show respect for God's gift of nature",
+            "To preserve it for future generations",
+            "We are stewards of God's creation"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Caring for creation shows stewardship and respect and preserves nature, but it does not automatically make a person righteous."
+      ),
+
+      QuizQuestion(
+          question: "47. Traditional worshippers believe that the world was created by\n(BECE 2017 Q21)",
+          options: [
+            "An angel",
+            "A holy spirit",
+            "God",
+            "An ancestor"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Traditional worshippers believe that the Supreme Being, or God, created the world."
+      ),
+
+      QuizQuestion(
+          question: "48. Which of the following attributes of God shows that He rules the world?\n(BECE 2019 Q1)",
+          options: [
+            "All-powerful",
+            "Creator",
+            "Omnipresence",
+            "Omniscient"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "God's unlimited power enables Him to rule over the whole world."
+      ),
+
+      QuizQuestion(
+          question: "49. Plants were created by God mainly to\n(BECE 2019 Q2)",
+          options: [
+            "Provide oxygen to man",
+            "Allow fresh air into rooms",
+            "Provide decoration to homes",
+            "Serve as means of transportation"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Plants release oxygen, which humans and animals need for respiration."
+      ),
+
+      QuizQuestion(
+          question: "50. Muslims describe Allah as Al-Rahman because He is\n(BECE 2019 Q3)",
+          options: [
+            "All-knowing",
+            "Just",
+            "Merciful",
+            "The restorer"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Al-Rahman means the Most Merciful or the Most Compassionate."
+      ),
+
+      QuizQuestion(
+          question: "51. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
+          options: [
+            "Everywhere at all times",
+            "Gracious and merciful",
+            "Holy and immortal",
+            "The beginning and the end"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Alpha and Omega means that God is the beginning and the end."
+      ),
+
+      QuizQuestion(
+          question: "52. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
+          options: [
+            "God asked him to do so",
+            "God had appeared to him there",
+            "He wanted to worship God there",
+            "It was a Canaanite worship centre"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Abraham built an altar at the Oak of Moreh because God appeared to him there."
+      ),
+
+      QuizQuestion(
+          question: "53. The Omniscience of God portrays Him as\n(BECE 2012 Q1)",
+          options: [
+            "All-powerful",
+            "All-knowing",
+            "Ever-present",
+            "Ever-living"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Omniscience means having complete and unlimited knowledge."
+      ),
+
+      QuizQuestion(
+          question: "54. The attributes of God refer to His\n(BECE 2013 Q6)",
+          options: [
+            "Names and titles",
+            "Words and actions",
+            "Relationship with creation",
+            "Relationship with people"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "The attributes of God are the names and titles that describe His nature and qualities."
+      ),
+
+      QuizQuestion(
+          question: "55. According to Christian teachings, God created man on the\n(BECE 2011 Q4)",
+          options: [
+            "First day",
+            "Second day",
+            "Fifth day",
+            "Sixth day"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "According to the Bible, human beings were created on the sixth day."
+      ),
+
+      QuizQuestion(
+          question: "56. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
+          options: [
+            "Show His mercy",
+            "Separate night from day",
+            "Give life to the earth",
+            "Provide heat to the earth"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The sun and moon were created to govern and distinguish day from night."
+      ),
+
+      QuizQuestion(
+          question: "57. God created water bodies to provide humankind with\n(BECE 2014 Q3)",
+          options: [
+            "Air",
+            "Water",
+            "Plants",
+            "Salt"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Water bodies provide water for human use and survival."
+      ),
+
+      QuizQuestion(
+          question: "58. In the Islamic creation story, the creation of man is found in the\n(BECE 2013 Q10)",
+          options: [
+            "Hadith",
+            "Hijrah",
+            "Holy Quran",
+            "Tawrah"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The Islamic account of the creation of humankind is recorded in the Holy Quran."
+      ),
+
+      QuizQuestion(
+          question: "59. God created plants to provide\n(BECE 2013 Q21)",
+          options: [
+            "Air and plants to man",
+            "Medicine and beauty",
+            "Shelter and clothing",
+            "Water and beauty to the environment"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Plants provide medicinal materials and add beauty to the environment."
+      ),
+
+      QuizQuestion(
+          question: "60. Which of the following is provided by plants for humans?\n(BECE 2013 Q24)",
+          options: [
+            "Food",
+            "Fuel",
+            "Medicine",
+            "Salt"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Plants provide food for humans, while salt is not obtained from plants."
+      ),
+
+      QuizQuestion(
+          question: "61. According to the Bible, God created woman to\n(BECE 2015 Q1)",
+          options: [
+            "Control the family",
+            "Feed all mankind",
+            "Be a faithful worshipper",
+            "Keep man company"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "God created woman as a suitable companion and helper for man."
+      ),
+
+      QuizQuestion(
+          question: "62. One of the reasons for which God made the sea is to\n(BECE 2015 Q4)",
+          options: [
+            "Provide food",
+            "Support transportation",
+            "Provide water for domestic use",
+            "Serve as a home for aquatic animals"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The sea serves as a natural habitat for fish and other aquatic creatures."
+      ),
+
+      QuizQuestion(
+          question: "63. Creation according to Islamic tradition means\n(BECE 2015 Q3)",
+          options: [
+            "Command",
+            "Instruction",
+            "Prediction",
+            "Prophecy"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Islamic tradition teaches that Allah brings creation into existence through His command."
+      ),
+
+      QuizQuestion(
+          question: "64. Which of the following is a cause of bad environmental conditions?\n(BECE 2015 Q11)",
+          options: [
+            "Afforestation",
+            "Deforestation",
+            "Soil erosion",
+            "Global warming"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Deforestation destroys vegetation and contributes to poor environmental conditions."
+      ),
+
+      QuizQuestion(
+          question: "65. One of the reasons why the sea is salty is to\n(BECE 2015 Q13)",
+          options: [
+            "Prevent it from drying up",
+            "Make it beautiful",
+            "Preserve it from getting spoiled",
+            "Enable heavy ships to float on it"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "The salt content of seawater helps limit spoilage and the growth of certain harmful organisms."
+      ),
+
+      QuizQuestion(
+          question: "66. The attribute Al-Khaliq means the\n(BECE 2017 Q2)",
+          options: [
+            "Great",
+            "Sovereign",
+            "Creator",
+            "Merciful"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Al-Khaliq is an Arabic name of Allah meaning the Creator."
+      ),
     ],
   ),
   "Behaviours Considered as Good Manners": QuizModel(

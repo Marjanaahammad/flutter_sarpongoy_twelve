@@ -4,7 +4,37 @@ import '../model/practice_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, PracticeModel> becePracticeData = {
   // ─── ENGLISH: ORAL LANGUAGE ────────────────────────────────────────────
-  "JHS 1 ss1 - Conversation and Everyday Discourse": PracticeModel(
+  "English JHS1 s1 ss1 - Conversation and Everyday Discourse": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "BECE Theory Question 1\n\nYou are about to call your class prefect to discuss a school issue. Write TWO sentences: one using a formal greeting and one using an informal greeting. Then explain when each is appropriate.",
+        answer: "Formal: 'Good morning, Class Prefect. I would like to discuss an important school matter with you.'\nInformal (to a close friend): 'Hey Ama! What's up? I need to talk to you about something.'\n\nFormal register is used in official or school settings. Informal register is used with close friends in relaxed situations.",
+        explanation: "Register refers to the level of formality in language. Choosing the correct register shows social awareness and communication skill.",
+      ),
+      PracticeQuestion(
+        scenario: "BECE Theory Question 2\n\nExplain THREE features of an effective conversation. Give an example of each feature.",
+        answer: "1. Turn-taking — Each person waits for their turn to speak. Example: Kwame listens while Ama speaks, then responds.\n2. Active listening — Nodding and maintaining eye contact to show attention. Example: Nodding when the teacher explains.\n3. Appropriate language — Using correct register for the situation. Example: Using polite language when speaking to an elder.",
+        explanation: "Effective conversation involves balanced participation, attentive listening, and appropriate communication style.",
+      ),
+      PracticeQuestion(
+        scenario: "BECE Theory Question 3\n\nA new student from another country joins your class. They greet you informally, but you are in a classroom setting. Write a SHORT dialogue (4 lines) showing how you POLITELY correct the student's register and teach them the appropriate greeting.",
+        answer: "New student: 'Hey! What's going on?'\nYou: 'Hello! Welcome to our school. In class, we usually use more formal greetings.'\nNew student: 'Oh, I see. How should I say it?'\nYou: 'You could say: Good morning, class. It is more appropriate for the school setting.'",
+        explanation: "Helping someone use the correct register respectfully shows good communication skills and cultural awareness.",
+      ),
+      PracticeQuestion(
+        scenario: "BECE Theory Question 4\n\nWhat is the difference between VERBAL and NON-VERBAL communication? Give TWO examples of each.",
+        answer: "Verbal communication uses spoken or written words:\n• Example 1: Saying 'Thank you' to someone.\n• Example 2: Writing a text message.\n\nNon-verbal communication uses body language and gestures:\n• Example 1: Nodding your head to show agreement.\n• Example 2: Waving goodbye.",
+        explanation: "Both verbal and non-verbal communication are essential tools for sending and receiving messages effectively.",
+      ),
+      PracticeQuestion(
+        scenario: "BECE Theory Question 5\n\nYour friend says: 'I don't think you need to greet teachers — it wastes time.' Write a paragraph DISAGREEING with your friend and explaining why greetings are important in Ghanaian culture.",
+        answer: "I respectfully disagree with my friend's view. Greetings are a very important part of Ghanaian culture and social life. They show respect, especially to elders and those in authority. When we greet our teachers, we acknowledge their role and build a positive relationship with them. A simple 'Good morning, sir/madam' takes only a few seconds but makes a big difference in creating a respectful and welcoming classroom environment. Therefore, greetings should never be seen as a waste of time.",
+        explanation: "Giving reasons and using respectful disagreement language is a key communication skill tested in BECE.",
+      ),
+    ],
+  ),
+  "English JHS1 s1 ss2 - Conversation and Everyday Discourse": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -217,7 +247,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
   // ─── MATHEMATICS ───────────────────────────────────────────────────────
-  "Math JHS1 s1 ss1  - Number and Numeration Systems": PracticeModel(
+  "Math JHS1 s1 ss1 - Number and Numeration Systems": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -455,7 +485,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Number Operations": PracticeModel(
+  "Math JHS1 s1 ss2 - Number Operations": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -558,7 +588,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Fractions, Decimals and Percentages": PracticeModel(
+  "Math JHS1 s1 ss3 - Fractions, Decimals and Percentages": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -774,7 +804,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Number: Ratios and Proportion": PracticeModel(
+  "Math JHS1 s1 ss4 - Number: Ratios and Proportion": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -998,7 +1028,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Patterns and Relations": PracticeModel(
+  "Math JHS1 s2 ss1 - Patterns and Relations": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -1596,33 +1626,183 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "THE NATURE OF GOD THROUGH ATTRIBUTES": PracticeModel(
+  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "BECE Theory Question 1\n\nChoose THREE attributes of God and explain how a BELIEVER demonstrates each attribute in their daily life.",
-        answer: "1. Omnipresence — A believer who knows God is everywhere avoids wrongdoing even when alone, acting as if God is always watching.\n2. Omniscience — A believer who knows God sees all thoughts and actions strives to have pure intentions, not just outward good deeds.\n3. Love — A believer who understands God's love tries to love and care for others, helping the poor and showing kindness without expecting reward.",
-        explanation: "Understanding God's attributes should translate into practical, moral behaviour in everyday life.",
+        scenario: "Question 1: (a) State five things created by God. \n "
+            "(b) Explain the usefulness of any three of them to mankind.\n"
+            "(BECE 1999 Q1)",
+        answer: "Correct Answer: (a) Answer: Animals\n"
+            "⦿ Trees or Plants\n"
+            "⦿ Light (sun, moon and stars)\n"
+            "⦿ Water bodies\n"
+            "⦿ Land\n\n"
+            "Answer: \n"
+            "Animals:   ⦿ Some animals and their products serve as food for mankind.\n"
+            "   ⦿ Strong animals like donkeys and camels help to transport people and things to places.\n"
+            "   ⦿ Bulls help to plough farm lands.\n"
+            "   ⦿ Animals like dogs, monkeys, parrots and geese can be good security guards.\n\n"
+            "Trees or Plants: "
+            "   ⦿  Most plants and their fruits serve as sources of food for mankind.\n"
+            "   ⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
+            "   ⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
+            "   ⦿ Plants provide oxygen for mankind.\n"
+            "   ⦿ Plants serve as shelter for mankind.\n"
+            "   ⦿ Furniture and building materials are derived from plants.\n\n"
+            "Light (moon, sun and stars):"
+            "   ⦿ They help us to see the power of God.\n"
+            "   ⦿ They enable mankind to calculate times and seasons.\n"
+            "   ⦿ They help us to get directions.\n"
+            "   ⦿ They make it possible for mankind to see.\n\n"
+            "Water bodies:"
+            "   ⦿ They provide us with water for irrigation purposes.\n"
+            "   ⦿ Water bodies can serve as means of transportation.\n"
+            "   ⦿ Salt is generated from the sea water.\n"
+            "   ⦿ They serve as source of good drinking water for mankind.\n\n"
+            "Land:"
+            "   ⦿ They serve as living abode or place for mankind.\n"
+            "   ⦿ Precious minerals like gold, silver, diamond, bauxite, etc mined from the land are used to manufacture tools and ornaments.\n"
+            "   ⦿ It serves as source of habitat for animals that provide food for mankind.\n"
+            "   ⦿ It supports the growth of plants which further provides food and herbs for mankind.",
+        explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "BECE Theory Question 2\n\nCompare how CHRISTIANITY, ISLAM, and TRADITIONAL AFRICAN RELIGION each understand the NATURE OF GOD. Give ONE point of similarity and ONE difference.",
-        answer: "Similarity: All three religions believe in a Supreme Being who is all-powerful (omnipotent), who created the world and all people in it.\n\nDifference: Christians believe in the Trinity — God as Father, Son (Jesus), and Holy Spirit. Muslims believe strictly in the oneness of God (Tawhid) without any partners or equals. Traditional African Religion (e.g., Akan) believes in Onyame as the Supreme God, but also recognises lesser deities and ancestral spirits as intermediaries.",
-        explanation: "The three major religious traditions in Ghana share belief in a Supreme God but differ on the nature and form of that God.",
+        scenario: "Question 2: (a) Narrate the story of creation in the Bible.\n"
+            "(b) Mention three attributes of God which can be learnt from the story.\n"
+            "(BECE 2001 Q1)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "⦿ On the first day: God created Heaven and Earth filled with darkness. He separated the light, which He called day from the darkness He called night.\n"
+            "⦿ On the second day: He created the firmament (which is the sky) among the water on the earth. He used the sky to divide the waters above the sky and below it.\n"
+            "⦿ On the third day: He gathered the waters below the sky and called it the seas and created a dry land called the Earth, which He made plants of all kinds to grow on.\n"
+            "⦿ On the fourth day: He created the sun, moon and stars that produce light to control the days and the nights, seasons and years. The sun for the day, moon and stars for the night.\n"
+            "⦿ On the fifth day: He created the birds, all the winged animals and animals in the seas and blessed them to reproduce their kinds.\n"
+            "⦿ On the sixth day: He created other animals which were not created on the fifth day and created human being (male and female) and gave them dominion over all that He created and blessed them to reproduce to replenish the earth.\n"
+            "⦿ On the seventh day: He rested after seeing that all He created was good.\n\n"
+            "(b) Answer: \n"
+            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
+            "⦿ God is omniscient: God is all knowing.\n"
+            "⦿ God is all loving: God loves all that he has created.\n"
+            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
+        explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "BECE Theory Question 3\n\nA classmate says, 'If God is all-powerful and all-loving, why is there suffering in the world?' Write a RELIGIOUS RESPONSE to this question using ideas from any ONE religion you have studied.",
-        answer: "From a Christian perspective, suffering in the world is not evidence that God does not care. The Bible teaches that God gave humans free will — the freedom to choose between right and wrong. Much suffering comes from wrong choices made by people. Additionally, the Bible shows that even faithful believers faced suffering (e.g., Job), but God remained with them through it and brought good out of their trials. Christians believe suffering can build character, deepen faith, and draw people closer to God.",
-        explanation: "This type of question tests religious knowledge and the ability to articulate doctrinal positions clearly and respectfully.",
+        scenario: "Question 3: (a) What is revelation in Islam?\n"
+            "(b) Identify the importance of revelation to the Muslim.\n"
+            "(BECE 2002A Q3)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "⦿ In Islam, revelation simply means making known the hidden things about Allah and his will to mankind (Muslims). It is believed that this revelation comes through angels, divine inspiration, Allah's word and visions.\n\n"
+            "(b) Answer: \n"
+            "⦿ It reveals the Islamic values and virtues.\n"
+            "⦿ It reveals the truth about Allah and his will in the world in the form of commandment.\n"
+            "⦿ It teaches the Muslim how to worship and serve Allah.\n"
+            "⦿ It reveals the promise of Allah to Muslims.\n"
+            "⦿ It teaches Muslims how to treat others.",
+        explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "BECE Theory Question 4\n\nExplain what WORSHIP is and describe THREE MODES of worship practised by believers in Ghana.",
-        answer: "Worship is the act of showing reverence, devotion, and honour to God through various acts of religious expression.\n\nThree modes of worship:\n1. Prayer — Speaking to God privately or in a group, expressing gratitude, confession, and requests.\n2. Singing/Worship Songs — Praising God through hymns, gospel music, or Islamic devotional songs (nasheeds).\n3. Sacrifice/Offerings — Giving money (tithes and offerings in Christianity), or performing traditional libation (in African Traditional Religion) as an act of devotion.",
-        explanation: "Worship takes many forms across religious traditions; all are expressions of devotion to the divine.",
+        scenario: "Question 4: (a) Narrate one African Traditional story on creation.\n"
+            "(b) Explain any three attributes of God in the creation story.\n"
+            "(BECE 2003 Q3)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "An Ewe traditional myth on creation:\n"
+            "⦿ The Ewe traditionalists believe that God (Mawu) created all things in the world.\n"
+            "⦿ It is believed that before creation, the earth was void, without form and was filled with darkness.\n"
+            "⦿ God then created human beings out of clay and water after creating the earth.\n"
+            "⦿ He created the soul to give man life and to act as a guardian spirit. The soul of every human being was commanded to return to God after death to receive either a reward or punishment, depending on the life one lived on earth.\n"
+            "⦿ It is also believed by the Ewe tradition that after some time, God could not create any human beings because of scarcity of clay; therefore, he uses dead bodies to create new ones, thus the resemblance of children to their parents.\n"
+            "⦿ It is also believed that because of disturbances and troubles from human beings God moved up into the sky. After His departure, he sent his eldest son, Lisa with a sword to clear the forest to make tools. God used those tools made by Lisa to divide the world among his sons. One was to control the sky; that is, thunder and light. Another was to control all the creatures. "
+            "Specifically, the beasts, birds and trees were to be controlled by some of His sons.\n\n"
+            "OR\n\n"
+            "An Akan traditional myth on creation:\n"
+            "⦿ According to Akan traditionalists, God first created the Court Crier (Essen). He represents order.\n"
+            "⦿ He then created the earth and plants. He made the sky, the rivers and plants in that order. He made animals and all other living things.\n"
+            "⦿ Next to be created was human beings to feed on both plants and animals.\n"
+            "⦿ They also believe that because God wanted human beings to be protected, he created the spirits. These spirits are believed to be in the forests, water bodies and on mountains.\n"
+            "⦿ He then created the drummer (Okyerema) who represents knowledge.\n"
+            "⦿ He finally created death. Thus, the institution on the fact that death is the end of life on earth.\n\n"
+            "Answer: (b)\n"
+            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
+            "⦿ God is omniscient: God is all knowing.\n"
+            "⦿ God is all loving: God loves all that he has created.\n"
+            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
+        explanation: ".",
       ),
+
       PracticeQuestion(
-        scenario: "BECE Theory Question 5\n\nWhy is it important for young people in Ghana to learn about the attributes of God? Give FOUR reasons.",
-        answer: "1. Moral guidance — Understanding that God is just and holy motivates young people to behave honestly and avoid wrongdoing.\n2. Comfort in difficulty — Knowing God is omnipresent and loving reassures young people that they are not alone in challenges.\n3. Interreligious respect — Learning about God's attributes across religions helps students respect different faiths and promote peaceful coexistence.\n4. Identity and purpose — Belief in a Creator who made them intentionally gives young people a sense of worth, direction, and purpose in life.",
-        explanation: "Knowledge of God's attributes shapes values, character, and worldview in meaningful ways for young Ghanaians.",
+        scenario: "Question 5: (a) Explain the usefulness of the following as created by God:\n"
+            "(i) Plants\n"
+            "(ii) Sea, Moon and Stars\n"
+            "(b) What four steps can you take to preserve the plants in the environment?\n"
+            "(BECE 2004 Q1)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "Plants:\n"
+            "⦿ Source of food.\n"
+            "⦿ Source of medicine.\n"
+            "⦿ Beautify the environment.\n"
+            "⦿ Provide oxygen.\n"
+            "⦿ Provide shelter.\n"
+            "⦿ Source of furniture and building materials.\n\n"
+            "Sea:\n"
+            "⦿ Source of mineral salts.\n"
+            "⦿ Habitat for aquatic animals.\n"
+            "⦿ Means of transportation.\n"
+            "⦿ Source of food.\n\n"
+            "Moon and Stars:\n"
+            "⦿ Show God's power.\n"
+            "⦿ Help calculate seasons.\n"
+            "⦿ Help with direction.\n"
+            "⦿ Provide light.\n\n"
+            "Answer: (b)\n"
+            "⦿ Educate people on preserving trees.\n"
+            "⦿ Pass bye-laws against indiscriminate felling.\n"
+            "⦿ Prevent bush burning.\n"
+            "⦿ Reduce pollution.\n"
+            "⦿ Prevent overgrazing and sand winning.\n"
+            "⦿ Practise afforestation.",
+        explanation: ".",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
+            "(b) State four ways by which you can protect God's creation.\n"
+            "(BECE 2005 Q1)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "⦿ Using chemicals like D.D.T for fishing destroys aquatic life.\n"
+            "⦿ Indiscriminate cutting of trees causes desertification.\n"
+            "⦿ Uncontrolled mining destroys the landscape.\n"
+            "⦿ Bush burning pollutes the atmosphere.\n\n"
+            "Answer: (b)\n"
+            "⦿ Organise tree planting exercises.\n"
+            "⦿ Avoid indiscriminate bush burning.\n"
+            "⦿ Educate people on preserving forests.\n"
+            "⦿ Avoid polluting the environment with smoke and poisonous gases.",
+        explanation: ".",
+      ),
+
+      PracticeQuestion(
+        scenario: "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
+            "(b) State two moral implications of the attributes of God mentioned in (a).\n"
+            "(BECE 2006 Q1)",
+        answer: "Correct Answer: (a) Answer:\n"
+            "⦿ Eternal / Everlasting.\n"
+            "⦿ Omniscient.\n"
+            "⦿ Omnipresent.\n"
+            "⦿ Omnipotent.\n"
+            "⦿ Creator.\n"
+            "⦿ All-wise.\n"
+            "⦿ Loving.\n"
+            "⦿ Provider.\n"
+            "⦿ Sustainer.\n"
+            "⦿ Protector.\n\n"
+            "Answer: (b)\n"
+            "⦿ We should love and show kindness to others.\n"
+            "⦿ We should worship God because He owns life.\n"
+            "⦿ We should avoid sin because God is righteous.\n"
+            "⦿ We should trust God for protection.\n"
+            "⦿ We should avoid hypocrisy because God knows everything.\n"
+            "⦿ We should depend on God for our needs.",
+        explanation: ".",
       ),
     ],
   ),

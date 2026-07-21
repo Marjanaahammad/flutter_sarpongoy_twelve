@@ -8471,44 +8471,8 @@ class SidebarController extends GetxController {
     });
 
     if (includeBece) {
-      bool hasWordOverlap(String customName, String originalTitle) {
-        final stopWords = {'and', 'of', 'to', 'or', 'in', 'the', 'a', 'an', 'for', 'with', 'by', 'is', 'are', 'am'};
-        final customWords = customName.toLowerCase()
-            .split(RegExp(r'\s+'))
-            .map((w) => w.replaceAll(RegExp(r'[^a-z0-9]'), ''))
-            .where((w) => w.isNotEmpty && !stopWords.contains(w))
-            .toSet();
-        final originalWords = originalTitle.toLowerCase()
-            .split(RegExp(r'\s+'))
-            .map((w) => w.replaceAll(RegExp(r'[^a-z0-9]'), ''))
-            .where((w) => w.isNotEmpty && !stopWords.contains(w))
-            .toSet();
-        return customWords.intersection(originalWords).isNotEmpty;
-      }
-
-      bool courseMatches(String courseTitle, String entryKeyLower) {
-        final String normalizedCourse = courseTitle.toLowerCase();
-        if (normalizedCourse.contains("english") && entryKeyLower.contains("english")) {
-          return true;
-        }
-        if ((normalizedCourse.contains("math") || normalizedCourse.contains("mathematics")) && 
-            (entryKeyLower.contains("math") || entryKeyLower.contains("mathematics"))) {
-          return true;
-        }
-        if (normalizedCourse.contains("science") && entryKeyLower.contains("science")) {
-          return true;
-        }
-        if (normalizedCourse.contains("social") && entryKeyLower.contains("social")) {
-          return true;
-        }
-        if ((normalizedCourse.contains("religious") || normalizedCourse.contains("rme")) && 
-            (entryKeyLower.contains("religion") || entryKeyLower.contains("religious") || entryKeyLower.contains("rme"))) {
-          return true;
-        }
-        return false;
-      }
-
       List<SubStrand> beceSubStrands = [];
+
       for (int sIndex = 0; sIndex < generatedStrands.length; sIndex++) {
         final normalStrand = generatedStrands[sIndex];
 
@@ -8519,43 +8483,60 @@ class SidebarController extends GetxController {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
           final String gradeClean = grade.replaceAll(' ', '');
+          final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
           final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim();
 
-          final List<String> candidatePrefixes = [
-            "${gradeClean.toLowerCase()} ss$ssNumber -",
-            "${grade.toLowerCase()} ss$ssNumber -",
-            "${gradeClean.toLowerCase()} ss $ssNumber -",
-            "${grade.toLowerCase()} ss $ssNumber -",
+          // Subject name aliases
+          final List<String> subjectAliases = [
+            courseTitle.toLowerCase(),
+            courseTitle.split(' ').first.toLowerCase(),
           ];
 
+          // Grade+strand+substrand patterns: "JHS1 s1 ss1 -"
+          // These are the REQUIRED format. The strand number prevents cross-strand leaks.
+          final List<String> gradeStrandSsPatterns = [
+            "${gradeClean.toLowerCase()} s$sNumber ss$ssNumber -",
+            "${grade.toLowerCase()} s$sNumber ss$ssNumber -",
+            "${gradeClean.toLowerCase()} s $sNumber ss$ssNumber -",
+            "${grade.toLowerCase()} s $sNumber ss$ssNumber -",
+            "${gradeClean.toLowerCase()} s$sNumber ss $ssNumber -",
+            "${grade.toLowerCase()} s$sNumber ss $ssNumber -",
+          ];
+
+          // Build prefix list: ONLY subject-prefixed patterns.
+          // Plain "jhs1 s1 ss1 -" intentionally excluded — it would match any subject's data.
+          // Required key format: "[Subject] [Grade] s[N] ss[M] - [Name]"
+          final List<String> candidatePrefixes = [
+            for (final alias in subjectAliases)
+              for (final gp in gradeStrandSsPatterns)
+                "$alias $gp",
+          ];
+
+          // Exact match fallbacks using default sub-strand title
           final List<String> exactCandidates = [
-            "$gradeClean ss$ssNumber - $normalizedSubStrandTitle",
-            "$grade ss$ssNumber - $normalizedSubStrandTitle",
-            "$gradeClean ss $ssNumber - $normalizedSubStrandTitle",
-            "$grade ss $ssNumber - $normalizedSubStrandTitle",
-            "$grade - $normalizedSubStrandTitle",
-            "$grade: $normalizedSubStrandTitle",
-            "$normalizedSubStrandTitle ($grade)",
-            normalizedSubStrandTitle,
+            for (final alias in subjectAliases) ...[
+              "$alias ${gradeClean.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+              "$alias ${grade.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+            ],
+            "${gradeClean.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+            "${grade.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
           ].map((k) => k.trim().toLowerCase()).toList();
 
           QuizModel? matchedQuiz;
           String matchedQuizKey = "";
           for (var entry in beceQuizData.entries) {
             final String entryKeyLower = entry.key.trim().toLowerCase();
-            bool prefixMatch = false;
-            for (var prefix in candidatePrefixes) {
-              if (entryKeyLower.startsWith(prefix)) {
-                final String customName = entry.key.substring(prefix.length).trim();
-                if (hasWordOverlap(customName, normalizedSubStrandTitle) ||
-                    courseMatches(courseTitle, entryKeyLower)) {
-                  prefixMatch = true;
+            bool matched = exactCandidates.contains(entryKeyLower);
+            if (!matched) {
+              for (var prefix in candidatePrefixes) {
+                if (entryKeyLower.startsWith(prefix)) {
+                  matched = true;
+                  break;
                 }
-                break;
               }
             }
-            if (prefixMatch || exactCandidates.contains(entryKeyLower)) {
+            if (matched) {
               matchedQuiz = entry.value;
               matchedQuizKey = entry.key;
               break;
@@ -8569,18 +8550,16 @@ class SidebarController extends GetxController {
           String matchedPracticeKey = "";
           for (var entry in becePracticeData.entries) {
             final String entryKeyLower = entry.key.trim().toLowerCase();
-            bool prefixMatch = false;
-            for (var prefix in candidatePrefixes) {
-              if (entryKeyLower.startsWith(prefix)) {
-                final String customName = entry.key.substring(prefix.length).trim();
-                if (hasWordOverlap(customName, normalizedSubStrandTitle) ||
-                    courseMatches(courseTitle, entryKeyLower)) {
-                  prefixMatch = true;
+            bool matched = exactCandidates.contains(entryKeyLower);
+            if (!matched) {
+              for (var prefix in candidatePrefixes) {
+                if (entryKeyLower.startsWith(prefix)) {
+                  matched = true;
+                  break;
                 }
-                break;
               }
             }
-            if (prefixMatch || exactCandidates.contains(entryKeyLower)) {
+            if (matched) {
               matchedPractice = entry.value;
               matchedPracticeKey = entry.key;
               break;
@@ -8590,33 +8569,13 @@ class SidebarController extends GetxController {
             matchedPractice = PracticeModel(audioPath: '', questions: []);
           }
 
+          // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          if (matchedQuizKey.isNotEmpty || matchedPracticeKey.isNotEmpty) {
-            final String rawKey = matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
-            String cleaned = rawKey;
-            bool prefixCleaned = false;
-            for (var prefix in candidatePrefixes) {
-              if (cleaned.toLowerCase().startsWith(prefix)) {
-                cleaned = cleaned.substring(prefix.length).trim();
-                prefixCleaned = true;
-                break;
-              }
+          final String rawKey = matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          if (rawKey.isNotEmpty) {
+            if (rawKey.contains(" - ")) {
+              displaySubStrandName = rawKey.split(" - ").last.trim();
             }
-            if (!prefixCleaned) {
-              if (cleaned.contains(" - ")) {
-                cleaned = cleaned.split(" - ").sublist(1).join(" - ");
-              } else if (cleaned.contains("-")) {
-                cleaned = cleaned.split("-").sublist(1).join("-");
-              } else if (cleaned.contains(": ")) {
-                cleaned = cleaned.split(": ").sublist(1).join(": ");
-              } else if (cleaned.contains(":")) {
-                cleaned = cleaned.split(":").sublist(1).join(":");
-              }
-              if (cleaned.contains("(")) {
-                cleaned = cleaned.split("(")[0];
-              }
-            }
-            displaySubStrandName = cleaned.trim();
           }
 
           if (matchedQuiz.questions.isNotEmpty ||
