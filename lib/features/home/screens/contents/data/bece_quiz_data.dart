@@ -4,87 +4,7 @@ import '../model/quiz_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, QuizModel> beceQuizData = {
   // ─── ENGLISH: ORAL LANGUAGE ───────────────────────────────────────────────
-  "Conversation and Everyday Discourse": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. Which of the following is an example of a formal greeting?", options: ["Whaddup, dude?", "Good morning, sir.", "Hey, what's up?", "Yo, how far?"], correctIndex: 1, difficulty: "Easy", explanation: "'Good morning, sir.' uses formal register appropriate for official settings."),
-      QuizQuestion(question: "2. A conversation is said to be effective when:", options: ["Only one person speaks at length", "Both parties listen and respond appropriately", "There is no eye contact", "The speaker uses technical jargon only"], correctIndex: 1, difficulty: "Easy", explanation: "Effective conversation involves mutual listening and appropriate responses."),
-      QuizQuestion(question: "3. Which term describes the unwritten rules of conversation?", options: ["Grammar", "Discourse norms", "Register", "Vocabulary"], correctIndex: 1, difficulty: "Medium", explanation: "Discourse norms are the unwritten social rules that govern conversations."),
-      QuizQuestion(question: "4. 'Turn-taking' in conversation means:", options: ["Physically turning to face the speaker", "Allowing each person a chance to speak in order", "Turning the topic to something different", "Moving away when someone speaks"], correctIndex: 1, difficulty: "Easy", explanation: "Turn-taking ensures orderly exchange in a conversation."),
-      QuizQuestion(question: "5. Which body language signal shows you are listening attentively?", options: ["Folding your arms and looking away", "Nodding and making eye contact", "Yawning repeatedly", "Tapping your feet impatiently"], correctIndex: 1, difficulty: "Easy", explanation: "Nodding and eye contact are active listening signals."),
-      QuizQuestion(question: "6. The word 'discourse' most closely means:", options: ["A type of meal", "Written or spoken communication", "A musical instrument", "A form of exercise"], correctIndex: 1, difficulty: "Medium", explanation: "Discourse refers to written or spoken communication."),
-      QuizQuestion(question: "7. Kofi meets his teacher in the market. Which greeting is most appropriate?", options: ["Oi, teacher!", "Good afternoon, Mr. Mensah.", "What's good, teach?", "Hey, I know you!"], correctIndex: 1, difficulty: "Easy", explanation: "A respectful, formal greeting is appropriate for a teacher."),
-      QuizQuestion(question: "8. Which of these is NOT a feature of informal conversation?", options: ["Slang words", "Relaxed tone", "Technical vocabulary", "Shortened words"], correctIndex: 2, difficulty: "Medium", explanation: "Technical vocabulary is typically used in formal, not informal, conversations."),
-      QuizQuestion(question: "9. An 'aside' in a conversation refers to:", options: ["A main point of the discussion", "A comment addressed to one listener privately", "A loud exclamation", "A topic change"], correctIndex: 1, difficulty: "Hard", explanation: "An aside is a remark made quietly to one person, not the whole group."),
-      QuizQuestion(question: "10. Which skill helps you understand the emotional tone behind someone's words?", options: ["Speed reading", "Empathic listening", "Note-taking", "Vocabulary building"], correctIndex: 1, difficulty: "Medium", explanation: "Empathic listening helps you understand feelings behind words."),
-    ],
-  ),
-
-  "Giving and Following Direction": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. 'Turn left at the roundabout.' Which word describes the direction?", options: ["Turn", "At", "Left", "Roundabout"], correctIndex: 2, difficulty: "Easy", explanation: "'Left' is the directional word indicating which way to turn."),
-      QuizQuestion(question: "2. A good landmark for giving directions should be:", options: ["Moveable and small", "Permanent and easily recognised", "Invisible from the road", "Personal to the speaker"], correctIndex: 1, difficulty: "Easy", explanation: "Landmarks must be permanent and recognisable to everyone."),
-      QuizQuestion(question: "3. 'The school is adjacent to the clinic.' This means the school is:", options: ["Far from the clinic", "Opposite the clinic", "Next to the clinic", "Behind the clinic"], correctIndex: 2, difficulty: "Medium", explanation: "'Adjacent' means next to or beside."),
-      QuizQuestion(question: "4. Which imperative verb is most commonly used when giving directions?", options: ["Run", "Sing", "Turn", "Jump"], correctIndex: 2, difficulty: "Easy", explanation: "'Turn' is the standard word for changing direction."),
-      QuizQuestion(question: "5. 'Proceed straight for 200 metres.' The word 'proceed' means:", options: ["Stop", "Continue moving in the same direction", "Turn around", "Change speed"], correctIndex: 1, difficulty: "Medium", explanation: "'Proceed' means to continue or move forward."),
-      QuizQuestion(question: "6. Which type of language should be avoided when giving directions to a stranger?", options: ["Imperative verbs", "Local jargon and slang", "Distance measurements", "Landmarks"], correctIndex: 1, difficulty: "Medium", explanation: "Slang may confuse strangers unfamiliar with local expressions."),
-      QuizQuestion(question: "7. 'The junction' refers to:", options: ["A local food stall", "A place where two or more roads meet", "A type of building", "A bus stop"], correctIndex: 1, difficulty: "Easy", explanation: "A junction is where two or more roads intersect."),
-      QuizQuestion(question: "8. Giving directions in numbered steps (1, 2, 3…) helps to:", options: ["Make the speaker seem smart", "Ensure clarity and easy following", "Use more words unnecessarily", "Confuse the listener"], correctIndex: 1, difficulty: "Easy", explanation: "Numbering steps makes directions easier to follow in order."),
-      QuizQuestion(question: "9. 'Walk past the church, then take the first right.' Which word means 'beyond'?", options: ["Walk", "Then", "Past", "Take"], correctIndex: 2, difficulty: "Medium", explanation: "'Past' means beyond or further than a specific point."),
-      QuizQuestion(question: "10. Non-verbal cues when giving directions include:", options: ["Speaking slowly", "Using long phrases", "Pointing with one's hand", "Repeating addresses"], correctIndex: 2, difficulty: "Easy", explanation: "Pointing is a non-verbal way of indicating direction."),
-    ],
-  ),
-
-  "Using Appropriate Language to Describe Experiences": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. 'The market was buzzing with activity.' Which literary device is used?", options: ["Simile", "Metaphor", "Personification", "Oxymoron"], correctIndex: 2, difficulty: "Medium", explanation: "Attributing 'buzzing' (an action) to the market is personification."),
-      QuizQuestion(question: "2. Adjectives in descriptive language are used to:", options: ["Show action", "Describe nouns", "Replace nouns", "Describe verbs"], correctIndex: 1, difficulty: "Easy", explanation: "Adjectives modify nouns and help describe experiences vividly."),
-      QuizQuestion(question: "3. 'She ran as fast as a cheetah.' This sentence is an example of:", options: ["Metaphor", "Simile", "Alliteration", "Hyperbole"], correctIndex: 1, difficulty: "Easy", explanation: "A simile compares using 'as' or 'like'."),
-      QuizQuestion(question: "4. Which tense is most appropriate when narrating a past experience?", options: ["Simple present", "Simple past", "Future continuous", "Present perfect continuous"], correctIndex: 1, difficulty: "Easy", explanation: "Past experiences are described using the simple past tense."),
-      QuizQuestion(question: "5. 'I was over the moon when I passed my exams.' This is an example of:", options: ["An idiom", "A proverb", "A literal expression", "A command"], correctIndex: 0, difficulty: "Medium", explanation: "'Over the moon' is an idiomatic expression meaning very happy."),
-      QuizQuestion(question: "6. Sensory language appeals to:", options: ["Logic and facts only", "The five senses", "Mathematical reasoning", "Technical knowledge"], correctIndex: 1, difficulty: "Easy", explanation: "Sensory language paints pictures using sight, sound, touch, taste, and smell."),
-      QuizQuestion(question: "7. 'The old man's hands were rough like sandpaper.' The comparison word is:", options: ["Old", "Hands", "Like", "Rough"], correctIndex: 2, difficulty: "Easy", explanation: "'Like' signals a simile comparison."),
-      QuizQuestion(question: "8. Which sentence uses the most vivid descriptive language?", options: ["The rain fell.", "It rained yesterday.", "Heavy droplets drummed loudly on the tin roof.", "The weather was wet."], correctIndex: 2, difficulty: "Hard", explanation: "Vivid description uses sensory details and strong verbs."),
-      QuizQuestion(question: "9. Using specific nouns instead of general ones makes writing:", options: ["Longer and harder to read", "More precise and vivid", "Less interesting", "Grammatically incorrect"], correctIndex: 1, difficulty: "Medium", explanation: "Specific nouns add clarity and draw clearer mental images."),
-      QuizQuestion(question: "10. The primary purpose of descriptive language is to:", options: ["List facts", "Instruct the reader", "Create a clear picture in the reader's mind", "Argue a point"], correctIndex: 2, difficulty: "Medium", explanation: "Descriptive language helps readers visualise experiences."),
-    ],
-  ),
-
-  "Asking Questions to Elicit Elaboration": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. An open-ended question is one that:", options: ["Can only be answered with Yes or No", "Encourages a detailed, thoughtful answer", "Is rude or aggressive", "Is written on a test paper"], correctIndex: 1, difficulty: "Easy", explanation: "Open-ended questions invite explanation and detail."),
-      QuizQuestion(question: "2. 'Can you tell me more about that?' is an example of:", options: ["A closed question", "A leading question", "A follow-up elaboration question", "A rhetorical question"], correctIndex: 2, difficulty: "Easy", explanation: "It is a follow-up question that prompts more information."),
-      QuizQuestion(question: "3. Which question word is BEST for asking a reason?", options: ["Where", "When", "Why", "Who"], correctIndex: 2, difficulty: "Easy", explanation: "'Why' asks for a reason or cause."),
-      QuizQuestion(question: "4. A closed question is one that:", options: ["Opens a new topic", "Requires only a brief, specific answer", "Always starts with 'How'", "Is impossible to answer"], correctIndex: 1, difficulty: "Easy", explanation: "Closed questions typically get Yes/No or single-word answers."),
-      QuizQuestion(question: "5. Ama says, 'The trip was fun.' Which follow-up best elicits elaboration?", options: ["Was it?", "How was it fun?", "I know.", "Did you go?"], correctIndex: 1, difficulty: "Medium", explanation: "'How was it fun?' asks for specific details and reasons."),
-      QuizQuestion(question: "6. 'Elicit' means to:", options: ["Suppress or hide", "Draw out or obtain a response", "Refuse to answer", "Write a letter"], correctIndex: 1, difficulty: "Medium", explanation: "Elicit means to bring out a response or information."),
-      QuizQuestion(question: "7. Which of these is the most respectful way to ask for elaboration?", options: ["Tell me everything, now.", "Stop talking.", "Could you please explain further?", "That's boring."], correctIndex: 2, difficulty: "Easy", explanation: "'Could you please explain further?' is polite and invites more detail."),
-      QuizQuestion(question: "8. Why is elaboration important in a discussion?", options: ["It takes less time", "It gives more complete understanding of ideas", "It makes conversations shorter", "It confuses the listener"], correctIndex: 1, difficulty: "Medium", explanation: "Elaboration provides depth and ensures full understanding."),
-      QuizQuestion(question: "9. A 'leading question' is one that:", options: ["Leads the conversation to a new topic", "Suggests the expected answer within the question itself", "Is very long and detailed", "Begins every discussion"], correctIndex: 1, difficulty: "Hard", explanation: "A leading question guides the respondent toward a particular answer."),
-      QuizQuestion(question: "10. 'How did that make you feel?' is designed to elicit:", options: ["Facts and statistics", "Personal feelings and emotional response", "Directions and instructions", "Mathematical solutions"], correctIndex: 1, difficulty: "Medium", explanation: "'How did that make you feel?' targets emotions and experiences."),
-    ],
-  ),
-
-  "Identifying Key Information in Oral Texts": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. The 'main idea' of a speech is:", options: ["The last word spoken", "The central message the speaker wants to communicate", "A joke told during the speech", "The speaker's name"], correctIndex: 1, difficulty: "Easy", explanation: "The main idea is the core message the speaker aims to deliver."),
-      QuizQuestion(question: "2. 'Supporting details' in a speech are used to:", options: ["Distract the audience", "Prove or explain the main idea", "Change the subject", "Entertain only"], correctIndex: 1, difficulty: "Easy", explanation: "Supporting details provide evidence and explanation for the main idea."),
-      QuizQuestion(question: "3. When listening to an oral text, a useful strategy is to:", options: ["Daydream and relax", "Take brief notes on key points", "Interrupt the speaker often", "Look at your phone"], correctIndex: 1, difficulty: "Easy", explanation: "Taking brief notes captures essential information from oral text."),
-      QuizQuestion(question: "4. Which question helps identify the PURPOSE of an oral text?", options: ["Where was it recorded?", "What does the speaker want the listener to know or do?", "How long was the speech?", "Who introduced the speaker?"], correctIndex: 1, difficulty: "Medium", explanation: "Identifying purpose clarifies the speaker's intent."),
-      QuizQuestion(question: "5. A speaker who aims to PERSUADE will use language that:", options: ["Lists neutral facts only", "Urges agreement and action", "Confuses the audience", "Avoids all opinion"], correctIndex: 1, difficulty: "Medium", explanation: "Persuasive language encourages the audience to take a stance."),
-      QuizQuestion(question: "6. Cross-checking information means:", options: ["Writing it twice", "Verifying the facts from another source", "Deleting incorrect information", "Changing the topic"], correctIndex: 1, difficulty: "Medium", explanation: "Cross-checking involves confirming facts using multiple sources."),
-      QuizQuestion(question: "7. 'Infer' means to:", options: ["State a fact directly", "Draw a conclusion not explicitly stated", "Write a summary", "Repeat what was said"], correctIndex: 1, difficulty: "Medium", explanation: "Inferring is reaching a conclusion based on evidence and reasoning."),
-      QuizQuestion(question: "8. The 'tone' of a speaker refers to:", options: ["The volume of the microphone", "The emotion or attitude in the speaker's voice", "The length of the speech", "The topic discussed"], correctIndex: 1, difficulty: "Easy", explanation: "Tone reflects the speaker's feelings and attitude through voice."),
-      QuizQuestion(question: "9. Which listening skill involves mentally picturing what is being described?", options: ["Note-taking", "Visualising", "Cross-checking", "Summarising"], correctIndex: 1, difficulty: "Medium", explanation: "Visualising is forming mental images from what you hear."),
-      QuizQuestion(question: "10. A news bulletin and a weather forecast both aim to:", options: ["Persuade", "Entertain and amuse", "Inform the audience", "Give instructions"], correctIndex: 2, difficulty: "Easy", explanation: "Both aim to provide factual information to the public."),
-    ],
-  ),
-
-  "Sharing Opinions on Oral Texts": QuizModel(
+  "JHS1 s1 ss1 - Conversation Everyday Discourse": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(question: "1. Before sharing your opinion on a text, you should first:", options: ["Decide what you think before listening", "Understand the key points made", "Ignore the speaker's evidence", "Wait for the test"], correctIndex: 1, difficulty: "Easy", explanation: "You must understand the content before forming a valid opinion."),
@@ -97,22 +17,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "8. Sharing ideas in a group discussion requires:", options: ["Talking over everyone else", "Listening, then contributing once invited", "Staying silent throughout", "Shouting to be heard"], correctIndex: 1, difficulty: "Easy", explanation: "Taking turns and contributing constructively leads to effective discussion."),
       QuizQuestion(question: "9. Which skill is most important when you disagree with a speaker?", options: ["Emotional control and politeness", "Speaking as fast as possible", "Memorising every word of the speech", "Refusing to listen"], correctIndex: 0, difficulty: "Medium", explanation: "Staying calm and polite ensures productive disagreement."),
       QuizQuestion(question: "10. 'Level-appropriate text' means the reading or listening material:", options: ["Is written in a different language", "Matches the learner's grade and ability", "Only teachers can understand", "Has pictures only"], correctIndex: 1, difficulty: "Easy", explanation: "Level-appropriate texts suit the learner's comprehension level."),
-    ],
-  ),
-
-  "VOWELS AND DIPHTHONGS": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(question: "1. How many vowel sounds does the English language have?", options: ["5", "20", "26", "44"], correctIndex: 1, difficulty: "Medium", explanation: "English has approximately 20 vowel sounds, though there are only 5 vowel letters."),
-      QuizQuestion(question: "2. A diphthong is a vowel sound that:", options: ["Uses two consonants", "Glides from one vowel sound to another within one syllable", "Is silent", "Is always stressed"], correctIndex: 1, difficulty: "Medium", explanation: "A diphthong is a combination of two vowel sounds in a single syllable."),
-      QuizQuestion(question: "3. The word 'sheep' contains which type of vowel sound?", options: ["Short vowel", "Long vowel", "Diphthong", "Silent vowel"], correctIndex: 1, difficulty: "Easy", explanation: "'Sheep' contains the long /iː/ vowel sound."),
-      QuizQuestion(question: "4. Which word contains a diphthong?", options: ["Sit", "Cat", "Coin", "Bed"], correctIndex: 2, difficulty: "Medium", explanation: "'Coin' contains the diphthong /ɔɪ/, a gliding vowel sound."),
-      QuizQuestion(question: "5. The word 'bit' has which type of vowel sound?", options: ["Long /iː/", "Short /ɪ/", "Diphthong /aɪ/", "No vowel"], correctIndex: 1, difficulty: "Easy", explanation: "'Bit' contains the short /ɪ/ sound."),
-      QuizQuestion(question: "6. Which pair of words shows the difference between a long and short vowel?", options: ["Bit / bat", "Ship / sheep", "Cat / car", "Run / rain"], correctIndex: 1, difficulty: "Hard", explanation: "'Ship' has short /ɪ/ while 'sheep' has long /iː/."),
-      QuizQuestion(question: "7. The word 'now' contains which type of sound?", options: ["Short vowel", "Long vowel", "Closing diphthong /aʊ/", "Centring diphthong"], correctIndex: 2, difficulty: "Hard", explanation: "'Now' contains the closing diphthong /aʊ/."),
-      QuizQuestion(question: "8. A 'centring diphthong' moves toward which sound?", options: ["/iː/", "/uː/", "/ə/ (schwa)", "/æ/"], correctIndex: 2, difficulty: "Hard", explanation: "Centring diphthongs glide toward the schwa /ə/ sound."),
-      QuizQuestion(question: "9. In the word 'hate,' the vowel sound is:", options: ["Short /æ/", "Long /eɪ/", "Short /e/", "Silent"], correctIndex: 1, difficulty: "Medium", explanation: "'Hate' contains the long /eɪ/ diphthong sound (long 'a')."),
-      QuizQuestion(question: "10. Which word has the same vowel sound as 'moon'?", options: ["Book", "Flood", "Blue", "Blood"], correctIndex: 2, difficulty: "Medium", explanation: "'Blue' and 'moon' both contain the long /uː/ sound."),
     ],
   ),
 
@@ -215,7 +119,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── MATH ──────────────────────────────────────────────────────────────
-  "JHS 1 - Number and Numeration Systems": QuizModel(
+  "Math JHS1 s1 ss1  - Number and Numeration Systems": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(

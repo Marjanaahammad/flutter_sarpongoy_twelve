@@ -4,7 +4,7 @@ import '../model/practice_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, PracticeModel> becePracticeData = {
   // ─── ENGLISH: ORAL LANGUAGE ────────────────────────────────────────────
-  "Conversation and Everyday Discourse": PracticeModel(
+  "JHS 1 ss1 - Conversation and Everyday Discourse": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -34,6 +34,37 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
+  // "Conversation and Everyday Discourse": PracticeModel(
+  //   audioPath: '',
+  //   questions: [
+  //     PracticeQuestion(
+  //       scenario: "BECE Theory Question 1\n\nYou are about to call your class prefect to discuss a school issue. Write TWO sentences: one using a formal greeting and one using an informal greeting. Then explain when each is appropriate.",
+  //       answer: "Formal: 'Good morning, Class Prefect. I would like to discuss an important school matter with you.'\nInformal (to a close friend): 'Hey Ama! What's up? I need to talk to you about something.'\n\nFormal register is used in official or school settings. Informal register is used with close friends in relaxed situations.",
+  //       explanation: "Register refers to the level of formality in language. Choosing the correct register shows social awareness and communication skill.",
+  //     ),
+  //     PracticeQuestion(
+  //       scenario: "BECE Theory Question 2\n\nExplain THREE features of an effective conversation. Give an example of each feature.",
+  //       answer: "1. Turn-taking — Each person waits for their turn to speak. Example: Kwame listens while Ama speaks, then responds.\n2. Active listening — Nodding and maintaining eye contact to show attention. Example: Nodding when the teacher explains.\n3. Appropriate language — Using correct register for the situation. Example: Using polite language when speaking to an elder.",
+  //       explanation: "Effective conversation involves balanced participation, attentive listening, and appropriate communication style.",
+  //     ),
+  //     PracticeQuestion(
+  //       scenario: "BECE Theory Question 3\n\nA new student from another country joins your class. They greet you informally, but you are in a classroom setting. Write a SHORT dialogue (4 lines) showing how you POLITELY correct the student's register and teach them the appropriate greeting.",
+  //       answer: "New student: 'Hey! What's going on?'\nYou: 'Hello! Welcome to our school. In class, we usually use more formal greetings.'\nNew student: 'Oh, I see. How should I say it?'\nYou: 'You could say: Good morning, class. It is more appropriate for the school setting.'",
+  //       explanation: "Helping someone use the correct register respectfully shows good communication skills and cultural awareness.",
+  //     ),
+  //     PracticeQuestion(
+  //       scenario: "BECE Theory Question 4\n\nWhat is the difference between VERBAL and NON-VERBAL communication? Give TWO examples of each.",
+  //       answer: "Verbal communication uses spoken or written words:\n• Example 1: Saying 'Thank you' to someone.\n• Example 2: Writing a text message.\n\nNon-verbal communication uses body language and gestures:\n• Example 1: Nodding your head to show agreement.\n• Example 2: Waving goodbye.",
+  //       explanation: "Both verbal and non-verbal communication are essential tools for sending and receiving messages effectively.",
+  //     ),
+  //     PracticeQuestion(
+  //       scenario: "BECE Theory Question 5\n\nYour friend says: 'I don't think you need to greet teachers — it wastes time.' Write a paragraph DISAGREEING with your friend and explaining why greetings are important in Ghanaian culture.",
+  //       answer: "I respectfully disagree with my friend's view. Greetings are a very important part of Ghanaian culture and social life. They show respect, especially to elders and those in authority. When we greet our teachers, we acknowledge their role and build a positive relationship with them. A simple 'Good morning, sir/madam' takes only a few seconds but makes a big difference in creating a respectful and welcoming classroom environment. Therefore, greetings should never be seen as a waste of time.",
+  //       explanation: "Giving reasons and using respectful disagreement language is a key communication skill tested in BECE.",
+  //     ),
+  //   ],
+  // ),
   "Giving and Following Direction": PracticeModel(
     audioPath: '',
     questions: [
@@ -186,7 +217,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
   // ─── MATHEMATICS ───────────────────────────────────────────────────────
-  "Number and Numeration Systems": PracticeModel(
+  "Math JHS1 s1 ss1  - Number and Numeration Systems": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(

@@ -396,6 +396,11 @@ class StrandScreen extends StatelessWidget {
   ) {
     final bool isBece = strand.title == "BECE";
     if (isBece) {
+      final hasObjectives = lesson.quiz.questions.isNotEmpty;
+      final hasTheory = lesson.practice.questions.isNotEmpty;
+
+      final int crossAxisCount = (hasObjectives && hasTheory) ? 2 : 1;
+
       return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -417,51 +422,53 @@ class StrandScreen extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           GridView.count(
-            crossAxisCount: 2,
+            crossAxisCount: crossAxisCount,
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             mainAxisSpacing: 16,
             crossAxisSpacing: 16,
-            childAspectRatio: 1.2,
+            childAspectRatio: crossAxisCount == 2 ? 1.2 : 2.0,
             children: [
-              _buildActivityCard(
-                "OBJECTIVES MULTIPLE CHOICE QUIZ",
-                "Objectives",
-                lesson,
-                const Color(0xFFA264FE),
-                const Color(0xFF8B3EFF),
-                lesson.isLocked,
-                () => Get.to(
-                  () => QuizScreen(
-                    lesson: lesson,
-                    courseName: course.title,
-                    strandName: subStrand.title,
-                    subStrandName: lesson.topic,
-                    lessonNumber: lesson.lessonNumber,
-                    gradeName: controller.selectedGrade.value,
-                    isBece: true,
+              if (hasObjectives)
+                _buildActivityCard(
+                  "OBJECTIVES MULTIPLE CHOICE QUIZ",
+                  "Objectives",
+                  lesson,
+                  const Color(0xFFA264FE),
+                  const Color(0xFF8B3EFF),
+                  lesson.isLocked,
+                  () => Get.to(
+                    () => QuizScreen(
+                      lesson: lesson,
+                      courseName: course.title,
+                      strandName: subStrand.title,
+                      subStrandName: lesson.topic,
+                      lessonNumber: lesson.lessonNumber,
+                      gradeName: controller.selectedGrade.value,
+                      isBece: true,
+                    ),
                   ),
                 ),
-              ),
-              _buildActivityCard(
-                "THEORY QUESTIONS & ANSWERS",
-                "Theory",
-                lesson,
-                const Color(0xFFFE646F),
-                const Color(0xFFE14D58),
-                lesson.isLocked,
-                () => Get.to(
-                  () => PracticeContentScreen(
-                    lesson: lesson,
-                    courseName: course.title,
-                    strandName: subStrand.title,
-                    subStrandName: lesson.topic,
-                    lessonNumber: lesson.lessonNumber,
-                    gradeName: controller.selectedGrade.value,
-                    isBece: true,
+              if (hasTheory)
+                _buildActivityCard(
+                  "THEORY QUESTIONS & ANSWERS",
+                  "Theory",
+                  lesson,
+                  const Color(0xFFFE646F),
+                  const Color(0xFFE14D58),
+                  lesson.isLocked,
+                  () => Get.to(
+                    () => PracticeContentScreen(
+                      lesson: lesson,
+                      courseName: course.title,
+                      strandName: subStrand.title,
+                      subStrandName: lesson.topic,
+                      lessonNumber: lesson.lessonNumber,
+                      gradeName: controller.selectedGrade.value,
+                      isBece: true,
+                    ),
                   ),
                 ),
-              ),
             ],
           ),
           const SizedBox(height: 32),
