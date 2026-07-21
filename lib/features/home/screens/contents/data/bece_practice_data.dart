@@ -621,9 +621,11 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
-        "For 3:  3 = 3^1\n"
+        scenario:
+            "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
+        answer:
+            "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
+            "For 3:  3 = 3^1\n"
             "For 5:5 = 5^1\n"
             "For 9:9 = 3 x 3 = 3^2\n\n"
             "⦿ Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
@@ -665,20 +667,27 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
+        scenario:
+            r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
         answer: "⦿ Convert the mixed numbers to improper fractions:\n"
-            r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}""\n\n"
-            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}""\n\n"
-            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}""\n\n"
+            r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}"
+            "\n\n"
+            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
+            "\n\n"
+            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
+            "\n\n"
             "⦿ Express the standard equation:\n"
             r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
             "\n"
             "⦿ Find the Lowest Common Multiple (LCM):\n"
             "      The LCM of the denominators 15, 3, and 12 is 60.\n\n"
             "⦿ Combine fractions under a single denominator:\n\n"
-            r"\frac{76(4) − 8(20) + 17(5)}{60}""\n\n"
-            r"= \frac{304 − 160 + 85}{60}""\n\n"
-            r"= \frac{144 + 85}{60} = \frac{229}{60}""\n\n"
+            r"\frac{76(4) − 8(20) + 17(5)}{60}"
+            "\n\n"
+            r"= \frac{304 − 160 + 85}{60}"
+            "\n\n"
+            r"= \frac{144 + 85}{60} = \frac{229}{60}"
+            "\n\n"
             "⦿ Convert back to a mixed fraction:\n"
             r"\frac{229}{60} = 3\frac{49}{60}",
         explanation: "",
@@ -713,9 +722,11 @@ final Map<String, PracticeModel> becePracticeData = {
         scenario:
             r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
         answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
-            r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}""\n\n"
+            r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}"
+            "\n\n"
             "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
-            r"\frac{(3 x 1260)}{2}""\n\n"
+            r"\frac{(3 x 1260)}{2}"
+            "\n\n"
             "⦿ Complete the division of 1260 by 2:\n\n"
             "3 x 630 = 1890\n\n"
             "⦿ Convert the product into standard scientific notation:\n\n"
@@ -729,46 +740,63 @@ final Map<String, PracticeModel> becePracticeData = {
             "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
         answer: "⦿ (i) Calculate Kwame's portion:\n"
             "⦁ Find Aba's share of the total:\n\n"
-            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00""\n\n"
+            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
+            "\n\n"
             "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
             "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
             "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
             "⦿ Construct the percentage fraction:\n\n"
-            r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%""\n\n"
+            r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%"
+            "\n\n"
             r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
-        answer: "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
+        scenario:
+            r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
+        answer:
+            "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
             "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
             "⦿ Convert each fraction to have the common denominator of 144:\n"
-            r"⦁ Convert \frac{8}{9}:""\n\n"
-           r"\frac{8 x 16}{9 x 16} = \frac{128}{144}""\n\n"
-            r"⦿ Convert \frac{2}{18}:""\n\n"
-            r"\frac{2 x 8}{18 x 8} = \frac{16}{144}""\n\n"
-            r"⦿ Convert \frac{10}{16}:"'\n\n'
-            r"\frac{10 x 9}{16 x 9} = \frac{90}{144}""\n\n"
+            r"⦁ Convert \frac{8}{9}:"
+            "\n\n"
+            r"\frac{8 x 16}{9 x 16} = \frac{128}{144}"
+            "\n\n"
+            r"⦿ Convert \frac{2}{18}:"
+            "\n\n"
+            r"\frac{2 x 8}{18 x 8} = \frac{16}{144}"
+            "\n\n"
+            r"⦿ Convert \frac{10}{16}:"
+            '\n\n'
+            r"\frac{10 x 9}{16 x 9} = \frac{90}{144}"
+            "\n\n"
             "⦿ Compare the numerators to order them from smallest to largest:\n\n"
-            r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}""\n\n"
+            r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}"
+            "\n\n"
             "⦿ Rewrite with original fractions:\n\n"
             r"\frac{2}{18}, \frac{10}{16}, \frac{8}{9}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
-        answer: "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
-            r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}""\n\n"
+        scenario:
+            r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
+        answer:
+            "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
+            r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}"
+            "\n\n"
             "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
-            r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}""\n\n"
+            r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}"
+            "\n\n"
             "⦿ Multiply the resulting fraction by the coefficient of 6 outside the parentheses:\n\n"
-            r"Result = 6 x \frac{31}{12} = \frac{31}{2}""\n\n"
+            r"Result = 6 x \frac{31}{12} = \frac{31}{2}"
+            "\n\n"
             "⦿ Convert the final improper fraction to a mixed number:\n\n"
             r"\frac{31}{2} = 15\frac{1}{2}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
+        scenario:
+            "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
         answer: "⦿ (i) Calculate the difference in allowed weight:\n"
             "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
             "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
@@ -778,37 +806,46 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
+        scenario:
+            "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
             r"(b) Simplify: 2 + (\frac{15}{64} ÷ \frac{6}{7}).       (BECE 2019 Q4a and Q4c)",
         answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
             "     ⦁ Write the percentage out of 100:\n\n"
             "250/100\n\n"
             "⦿ Simplify by dividing both parts by their greatest common factor (50):\n\n"
-            r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}""\n\n"
+            r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}"
+            "\n\n"
             "⦿ (b) Process the bracket operation first:\n"
             "     ⦁ To divide by a fraction, multiply by its reciprocal:\n\n"
-            r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}""\n\n"
+            r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}"
+            "\n\n"
             "⦿ Simplify the fraction multiplication by dividing 15 and 6 by 3:\n\n"
-            r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}""\n\n"
+            r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}"
+            "\n\n"
             "⦿ Add the integer 2 to the fraction:\n\n"
             r"2 + \frac{35}{128} = 2\frac{35}{128}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
+        scenario:
+            r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
         answer: "⦿ Simplify the subtraction of fractions:\n"
             "     ⦁ The Lowest Common Multiple of 15 and 10 is 30.\n"
             "⦿ Standardise the numerators:\n\n"
-            r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}""\n\n"
+            r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}"
+            "\n\n"
             "⦿ Simplify the fraction:\n\n"
-            r"\frac{5}{30} = \frac{1}{6}""\n\n"
+            r"\frac{5}{30} = \frac{1}{6}"
+            "\n\n"
             "⦿ Convert the fraction to a percentage:\n"
-            r"⦿ Multiply \frac{1}{6} by 100%:""\n\n"
+            r"⦿ Multiply \frac{1}{6} by 100%:"
+            "\n\n"
             r"\frac{1}{6} x 100% = \frac{100}{6}% = \frac{50}{3}% = 16\frac{2}{3}% (or 16.67%)",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
+        scenario:
+            "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
         answer: "⦿ Identify the quantity of ripe mangoes:\n"
             "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
             "Ripe mangoes = 25 − 7 = 18\n\n"
@@ -818,16 +855,21 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
+        scenario:
+            r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
         answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
-            r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}""\n\n"
+            r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}"
+            "\n\n"
             "⦿ Set up the structural expression:\n\n"
-            r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}""\n"
+            r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}"
+            "\n"
             "⦿ Evaluate using the LCM of the denominators:\n"
             "⦿ Find the LCM of 4, 6, 10, and 8, which is 120.\n"
             "⦿ Apply multiplier adjustment to numerators:\n\n"
-            r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}""\n\n"
-            r"= \frac{210 − 340 − 228 + 585}{120}""\n\n"
+            r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}"
+            "\n\n"
+            r"= \frac{210 − 340 − 228 + 585}{120}"
+            "\n\n"
             "⦿ Consolidate values in the numerator:\n"
             "⦿ 210 − 340 = −130\n"
             "⦿ −130 − 228 = −358\n"
@@ -837,10 +879,12 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
+        scenario:
+            "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
         answer: "⦿ Determine the total length (100%) of the rope first:\n"
             "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
-            r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m""\n\n"
+            r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m"
+            "\n\n"
             "⦿ Simplify the multiplication and division:\n\n"
             "720 ÷ 15 = 48 ⇒ Total length = 100 x 48 = 4,800 m\n\n"
             "⦿ Find half of this total length:\n\n"
@@ -848,17 +892,21 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
+        scenario:
+            "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
         answer: "⦿ (i) Find the exact cleaning volume used:\n"
             "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
-            r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres""\n\n"
+            r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres"
+            "\n\n"
             "⦿ (ii) Find the remaining volume percentage:\n"
             "⦿ Calculate the volume remaining in the polytank:\n\n"
             "Volume remaining = 4,500 litres − 900 litres = 3,600 litres\n\n"
             "⦿ Convert the remaining volume to a percentage of the total original volume:\n\n"
-            r"Percentage left = \frac{3,600}{4,500} x 100%""\n\n"
+            r"Percentage left = \frac{3,600}{4,500} x 100%"
+            "\n\n"
             "⦿ Simplify by dividing both parts by their common factor of 900:\n\n"
-            r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%""\n\n"
+            r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%"
+            "\n\n"
             r"⦿ Alternative verification: If \frac{1}{5} is used, then 1 − \frac{1}{5} = \frac{4}{5} remains. Converting \frac{4}{5} to a percentage yields \frac{4}{5} x 100% = 80%.",
         explanation: "",
       ),
@@ -869,40 +917,38 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: Three school children share some oranges as follows: Akwasi gets 1/3 of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?\n(BECE 1991 Q1b)",
-        answer:
-        "⦿ Define the variable:\n"
+            "Question 1: Three school children share some oranges as follows: Akwasi gets 1/3 of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?\n(BECE 1991 Q1b)",
+        answer: "⦿ Define the variable:\n"
             "⦁ Let the total number of oranges be y.\n\n"
             "⦿ Calculate Akwasi's share:\n"
-        r"⦁ Akwasi's share = \frac{1}{3} × y"
-        "\n\n"
+            r"⦁ Akwasi's share = \frac{1}{3} × y"
+            "\n\n"
             "⦿ Find the remainder:\n"
-        r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
-        "\n\n"
+            r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
+            "\n\n"
             "⦿ Share the remainder:\n"
             "⦁ Abena : Jantuah = 3 : 2\n"
             "⦁ Total parts = 3 + 2 = 5\n"
-        r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
-        "\n\n"
+            r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
+            "\n\n"
             "⦿ Form the equation:\n"
-        r"\frac{2}{5} × \frac{2}{3}y = 24"
-        "\n"
-        r"\frac{4}{15}y = 24"
-        "\n\n"
+            r"\frac{2}{5} × \frac{2}{3}y = 24"
+            "\n"
+            r"\frac{4}{15}y = 24"
+            "\n\n"
             "⦿ Solve for y:\n"
             "4y = 24 × 15 = 360\n"
             "y = 360 ÷ 4 = 90 oranges\n\n"
             "⦿ Calculate Akwasi's share:\n"
-        r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
-        "\n\n"
+            r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
+            "\n\n"
             "Answer = 30 oranges",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
-        answer:
-        "⦿ Cost of the first 12 words:\n"
+            "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
+        answer: "⦿ Cost of the first 12 words:\n"
             "⦁ = ₵500.00\n\n"
             "⦿ Calculate the extra words:\n"
             "⦁ Extra words = 20 - 12 = 8 words\n\n"
@@ -915,21 +961,20 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got 1/4 of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively.\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
-        answer:
-        "⦿ Calculate Kwabena's share:\n"
-        r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
-        "\n\n"
+            "Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got 1/4 of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively.\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
+        answer: "⦿ Calculate Kwabena's share:\n"
+            r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
+            "\n\n"
             "⦿ Find the remainder:\n"
             "⦁ Remaining oranges = 160 - 40 = 120 oranges\n\n"
             "⦿ Total ratio parts:\n"
             "⦁ 3 + 2 = 5 parts\n\n"
             "⦿ (i) Find Esi's share:\n"
-        r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
-        "\n\n"
+            r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
+            "\n\n"
             "⦿ (ii) Find Yaw's share:\n"
-        r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
-        "\n\n"
+            r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
+            "\n\n"
             "⦁ Difference = 48 - 40 = 8 oranges\n\n"
             "(i) Answer = 72 oranges\n"
             "(ii) Answer = 8 oranges",
@@ -937,24 +982,22 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
-        answer:
-        "⦿ (i) Calculate the sum:\n"
+            "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
+        answer: "⦿ (i) Calculate the sum:\n"
             "⦁ Average = Sum ÷ 3\n"
             "⦁ Sum = 36 × 3 = 108\n\n"
             "⦿ (ii) Find the greatest number:\n"
             "⦁ Total ratio parts = 2 + 3 + 4 = 9\n"
-        r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
-        "\n\n"
+            r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
+            "\n\n"
             "(i) Answer = 108\n"
             "(ii) Answer = 48",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
-        answer:
-        "⦿ Calculate the total money:\n"
+            "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
+        answer: "⦿ Calculate the total money:\n"
             "⦁ Total money = 14 × ₵450.00 = ₵6,300.00\n\n"
             "⦿ Let y be the number of erasers.\n\n"
             "⦁ 300 × y = 6,300\n"
@@ -964,12 +1007,11 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
-        answer:
-        "⦿ (i) Find the number of women:\n"
+            "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
+        answer: "⦿ (i) Find the number of women:\n"
             "⦁ Let x represent the number of women.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
-        "\n\n"
+            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "\n\n"
             "⦁ 12x = 120 × 25\n"
             "⦁ x = (120 × 25) ÷ 12 = 250 women\n\n"
             "⦿ (ii) Find the total population:\n"
@@ -981,9 +1023,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
-        answer:
-        "⦿ Calculate the cost of the first 110 units:\n"
+            "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
+        answer: "⦿ Calculate the cost of the first 110 units:\n"
             "⦁ 110 × ₵150 = ₵16,500.00\n\n"
             "⦿ Calculate the remaining units:\n"
             "⦁ Remaining units = 173 - 110 = 63 units\n\n"
@@ -996,9 +1037,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
-        answer:
-        "⦿ Charge for the first 5 sheets:\n"
+            "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
+        answer: "⦿ Charge for the first 5 sheets:\n"
             "⦁ = 28Gp\n\n"
             "⦿ Calculate the additional sheets:\n"
             "⦁ 36 - 5 = 31 sheets\n\n"
@@ -1013,11 +1053,10 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
-        answer:
-        "⦿ Let y represent the number of goats.\n\n"
-        r"⦁ \frac{1428}{y} = \frac{4}{7}"
-        "\n\n"
+            "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
+        answer: "⦿ Let y represent the number of goats.\n\n"
+            r"⦁ \frac{1428}{y} = \frac{4}{7}"
+            "\n\n"
             "⦁ 4y = 1,428 × 7\n"
             "⦁ 4y = 9,996\n"
             "⦁ y = 9,996 ÷ 4 = 2,499 goats\n\n"
@@ -1026,11 +1065,10 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
-        answer:
-        "⦿ (i) Calculate the discount:\n"
-        r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
-        "\n\n"
+            "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
+        answer: "⦿ (i) Calculate the discount:\n"
+            r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
+            "\n\n"
             "⦿ (ii) Calculate the amount paid:\n"
             "⦁ Amount Paid = Selling Price - Discount\n"
             "⦁ Amount Paid = GH¢450.00 - GH¢90.00 = GH¢360.00\n\n"
@@ -1040,13 +1078,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 11: A property worth GH¢10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 11: A property worth GH¢10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 1 + 4 = 5 parts\n\n"
             "⦿ Calculate the children's total share:\n"
-        r"⦁ Children's share = \frac{4}{5} × GH¢10,480.00 = GH¢8,384.00"
-        "\n\n"
+            r"⦁ Children's share = \frac{4}{5} × GH¢10,480.00 = GH¢8,384.00"
+            "\n\n"
             "⦿ Calculate each child's share:\n"
             "⦁ Each child's share = GH¢8,384.00 ÷ 10 = GH¢838.40\n\n"
             "Answer = GH¢838.40",
@@ -1054,12 +1091,11 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
-        answer:
-        "⦿ (i) Find the number of girls:\n"
+            "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
+        answer: "⦿ (i) Find the number of girls:\n"
             "⦁ Let x represent the number of girls.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
-        "\n\n"
+            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "\n\n"
             "⦁ 12x = 120 × 25\n"
             "⦁ x = (120 × 25) ÷ 12 = 250 girls\n\n"
             "⦿ (ii) Calculate the total number of students:\n"
@@ -1071,16 +1107,15 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 13: Esi and Kofi shared an amount of GH¢21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 13: Esi and Kofi shared an amount of GH¢21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 2 + 5 = 7 parts\n\n"
             "⦿ Calculate Esi's share:\n"
-        r"⦁ Esi's share = \frac{2}{7} × GH¢21,000.00 = GH¢6,000.00"
-        "\n\n"
+            r"⦁ Esi's share = \frac{2}{7} × GH¢21,000.00 = GH¢6,000.00"
+            "\n\n"
             "⦿ Calculate Kofi's share:\n"
-        r"⦁ Kofi's share = \frac{5}{7} × GH¢21,000.00 = GH¢15,000.00"
-        "\n\n"
+            r"⦁ Kofi's share = \frac{5}{7} × GH¢21,000.00 = GH¢15,000.00"
+            "\n\n"
             "⦿ Calculate how much more Kofi received:\n"
             "⦁ Difference = GH¢15,000.00 - GH¢6,000.00 = GH¢9,000.00\n\n"
             "Answer = GH¢9,000.00",
@@ -1093,67 +1128,54 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: The mapping shows the relationship between x and y:\n\n"
+            "Question 1: The mapping shows the relationship between x and y:\n\n"
             "x : 1, 2, 3, 4, ..., 8, ..., n\n"
             "y : -1, 2, 5, 8, ..., m, ..., 29\n\n"
             "Find the:\n"
             "(i) Rule for the mapping.\n"
             "(ii) Values of m and n.\n"
             "(BECE 2021 Q4b)",
-        answer:
-        "⦿ (i) Find the rule for the mapping:\n"
+        answer: "⦿ (i) Find the rule for the mapping:\n"
             "⦁ The general linear rule is:\n"
             "y = ax + b\n\n"
-
             "⦿ Find the value of a:\n"
             "⦁ Difference between successive y-values:\n"
             "2 - (-1) = 3\n"
             "5 - 2 = 3\n"
             "⦁ Therefore, a = 3\n\n"
-
             "⦿ Find the value of b:\n"
             "⦁ Substitute x = 1 and y = -1 into y = ax + b.\n\n"
             "-1 = 3(1) + b\n"
             "-1 = 3 + b\n"
             "b = -4\n\n"
-
             "⦿ Therefore, the mapping rule is:\n"
             "y = 3x - 4\n\n"
-
             "⦿ (ii) Find m:\n"
             "⦁ Substitute x = 8 into the rule.\n\n"
             "m = 3(8) - 4\n"
             "m = 24 - 4 = 20\n\n"
-
             "⦿ Find n:\n"
             "⦁ Substitute y = 29 into the rule.\n\n"
             "29 = 3n - 4\n"
             "33 = 3n\n"
-        r"n = \frac{33}{3} = 11"
-        "\n\n"
-
+            r"n = \frac{33}{3} = 11"
+            "\n\n"
             "(i) Answer = y = 3x - 4\n"
             "(ii) Answer: m = 20, n = 11",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 2: Given the sequence 1, 4, 9, ...\n\n"
+        scenario: "Question 2: Given the sequence 1, 4, 9, ...\n\n"
             "Write down the next two terms of the sequence.\n"
             "(BECE 2022 Q1b)",
-        answer:
-        "⦿ Observe the pattern:\n"
+        answer: "⦿ Observe the pattern:\n"
             "⦁ The terms are perfect squares of consecutive natural numbers.\n\n"
-
             "1 = 1²\n"
             "4 = 2²\n"
             "9 = 3²\n\n"
-
             "⦿ Find the next two terms:\n"
             "⦁ 4² = 16\n"
             "⦁ 5² = 25\n\n"
-
             "Answer = 16, 25",
         explanation: "",
       ),
@@ -1164,44 +1186,41 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: Given that m = -2 and n = 1/4, find the value of:\n\n"
+            "Question 1: Given that m = -2 and n = 1/4, find the value of:\n\n"
             "(i) m²(n − 1)\n"
             "(ii) (n² − 3/m)/m\n"
             "(BECE 1991 Q3c)",
-        answer:
-        "⦿ (i) Find the value of m²(n − 1):\n"
+        answer: "⦿ (i) Find the value of m²(n − 1):\n"
             "⦁ Substitute m = -2 and n = 1/4.\n\n"
-        r"(-2)^2\left(\frac{1}{4}-1\right)"
-        "\n\n"
-        r"⦁ \frac{1}{4}-1=-\frac{3}{4}"
-        "\n"
+            r"(-2)^2\left(\frac{1}{4}-1\right)"
+            "\n\n"
+            r"⦁ \frac{1}{4}-1=-\frac{3}{4}"
+            "\n"
             "⦁ (-2)² = 4\n\n"
-        r"⦁ 4\times\left(-\frac{3}{4}\right)=-3"
-        "\n\n"
+            r"⦁ 4\times\left(-\frac{3}{4}\right)=-3"
+            "\n\n"
             "⦿ (ii) Find the value of (n² − 3/m)/m:\n"
             "⦁ Substitute the values.\n\n"
-        r"\frac{\left(\frac{1}{4}\right)^2-\frac{3}{-2}}{-2}"
-        "\n\n"
-        r"⦁ \left(\frac{1}{4}\right)^2=\frac{1}{16}"
-        "\n"
-        r"⦁ \frac{3}{-2}=-\frac{3}{2}"
-        "\n"
-        r"⦁ \frac{1}{16}+\frac{3}{2}=\frac{25}{16}"
-        "\n\n"
-        r"⦁ \frac{25}{16}\div(-2)=\frac{25}{16}\times\left(-\frac{1}{2}\right)=-\frac{25}{32}"
-        "\n\n"
+            r"\frac{\left(\frac{1}{4}\right)^2-\frac{3}{-2}}{-2}"
+            "\n\n"
+            r"⦁ \left(\frac{1}{4}\right)^2=\frac{1}{16}"
+            "\n"
+            r"⦁ \frac{3}{-2}=-\frac{3}{2}"
+            "\n"
+            r"⦁ \frac{1}{16}+\frac{3}{2}=\frac{25}{16}"
+            "\n\n"
+            r"⦁ \frac{25}{16}\div(-2)=\frac{25}{16}\times\left(-\frac{1}{2}\right)=-\frac{25}{32}"
+            "\n\n"
             "(i) Answer = -3\n"
-        r"(ii) Answer = -\frac{25}{32}",
+            r"(ii) Answer = -\frac{25}{32}",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 2: Given that π = 3.14 and g = 20, find the value of F in the relation:\n\n"
+            "Question 2: Given that π = 3.14 and g = 20, find the value of F in the relation:\n\n"
             "F = (3πg²)/4\n"
             "(BECE 1994 Q2b)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
+        answer: "⦿ Substitute the given values:\n\n"
             "F = (3 × 3.14 × 20²) ÷ 4\n\n"
             "⦁ 20² = 400\n\n"
             "⦁ F = (3 × 3.14 × 400) ÷ 4\n"
@@ -1211,31 +1230,26 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 942",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 3: If p = 7, a = 16, b = -5 and c = 3, evaluate:\n\n"
+            "Question 3: If p = 7, a = 16, b = -5 and c = 3, evaluate:\n\n"
             "(p² − (a − b))/c\n"
             "(BECE 1997 Q1a)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
+        answer: "⦿ Substitute the given values:\n\n"
             "(7² − (16 − (-5))) ÷ 3\n\n"
             "⦁ 16 − (-5) = 21\n"
             "⦁ 7² = 49\n"
             "⦁ 49 − 21 = 28\n\n"
-        r"⦁ \frac{28}{3}=9\frac{1}{3}"
-        "\n\n"
-        r"Answer = 9\frac{1}{3}",
+            r"⦁ \frac{28}{3}=9\frac{1}{3}"
+            "\n\n"
+            r"Answer = 9\frac{1}{3}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 4: Simplify the expression:\n\n"
+        scenario: "Question 4: Simplify the expression:\n\n"
             "3x² + 6xy − 3y² + 4x² − 8xy + 2y²\n"
             "(BECE 1998 Q1a)",
-        answer:
-        "⦿ Group like terms:\n\n"
+        answer: "⦿ Group like terms:\n\n"
             "(3x² + 4x²) + (6xy − 8xy) + (-3y² + 2y²)\n\n"
             "⦁ 3x² + 4x² = 7x²\n"
             "⦁ 6xy − 8xy = -2xy\n"
@@ -1245,51 +1259,43 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 7x² − 2xy − y²",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 5: If p = 7, a = 16, b = 4 and c = 3, evaluate:\n\n"
+        scenario: "Question 5: If p = 7, a = 16, b = 4 and c = 3, evaluate:\n\n"
             "(p² − (a − b))/c\n"
             "(BECE 1998 Q1c)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
+        answer: "⦿ Substitute the given values:\n\n"
             "(7² − (16 − 4)) ÷ 3\n\n"
             "⦁ 16 − 4 = 12\n"
             "⦁ 7² = 49\n"
             "⦁ 49 − 12 = 37\n\n"
-        r"⦁ \frac{37}{3}=12\frac{1}{3}"
-        "\n\n"
-        r"Answer = 12\frac{1}{3}",
+            r"⦁ \frac{37}{3}=12\frac{1}{3}"
+            "\n\n"
+            r"Answer = 12\frac{1}{3}",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 6: Find the value of the expression 2x − 3y if x = 1/3 and y = -1/2.\n(BECE 1999 Q2b)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
-        r"2\left(\frac{1}{3}\right)-3\left(-\frac{1}{2}\right)"
-        "\n\n"
-        r"⦁ 2\times\frac{1}{3}=\frac{2}{3}"
-        "\n"
-        r"⦁ -3\times\left(-\frac{1}{2}\right)=\frac{3}{2}"
-        "\n\n"
-        r"⦁ \frac{2}{3}+\frac{3}{2}=\frac{4}{6}+\frac{9}{6}=\frac{13}{6}"
-        "\n\n"
-        r"⦁ \frac{13}{6}=2\frac{1}{6}"
-        "\n\n"
-        r"Answer = 2\frac{1}{6}",
+            "Question 6: Find the value of the expression 2x − 3y if x = 1/3 and y = -1/2.\n(BECE 1999 Q2b)",
+        answer: "⦿ Substitute the given values:\n\n"
+            r"2\left(\frac{1}{3}\right)-3\left(-\frac{1}{2}\right)"
+            "\n\n"
+            r"⦁ 2\times\frac{1}{3}=\frac{2}{3}"
+            "\n"
+            r"⦁ -3\times\left(-\frac{1}{2}\right)=\frac{3}{2}"
+            "\n\n"
+            r"⦁ \frac{2}{3}+\frac{3}{2}=\frac{4}{6}+\frac{9}{6}=\frac{13}{6}"
+            "\n\n"
+            r"⦁ \frac{13}{6}=2\frac{1}{6}"
+            "\n\n"
+            r"Answer = 2\frac{1}{6}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 7: Given that\n\n"
+        scenario: "Question 7: Given that\n\n"
             "s = n/2[2a + (n − 1)d],\n"
             "a = 3, d = 4 and n = 10, find the value of s.\n"
             "(BECE 2017 Q2c)",
-        answer:
-        "⦿ Substitute the values:\n\n"
+        answer: "⦿ Substitute the values:\n\n"
             "s = (10 ÷ 2)[2(3) + (10 − 1)4]\n\n"
             "⦁ 2(3) = 6\n"
             "⦁ (10 − 1)4 = 9 × 4 = 36\n"
@@ -1299,18 +1305,16 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 210",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 8: Simplify:\n\n"
-            r"8x²y³\frac{3}{8xy⁴}""\n"
+        scenario: "Question 8: Simplify:\n\n"
+            r"8x²y³\frac{3}{8xy⁴}"
+            "\n"
             "(BECE 2019 Q2c)",
-        answer:
-        "⦿ Expand the expression:\n\n"
-        r"8\times\frac{3}{8}\times x^2\times x\times y^3\times y^4"
-        "\n\n"
-        r"⦁ 8\times\frac{3}{8}=3"
-        "\n"
+        answer: "⦿ Expand the expression:\n\n"
+            r"8\times\frac{3}{8}\times x^2\times x\times y^3\times y^4"
+            "\n\n"
+            r"⦁ 8\times\frac{3}{8}=3"
+            "\n"
             "⦁ x² × x = x³\n"
             "⦁ y³ × y⁴ = y⁷\n\n"
             "⦿ Therefore:\n"
@@ -1325,14 +1329,13 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.\n\n"
+            "Question 1: When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.\n\n"
             "A. 8\n"
             "B. 12\n"
             "C. 16\n"
             "D. 24\n"
             "(BECE 1991 Q37)",
-        answer:
-        "⦿ Let the number be x.\n\n"
+        answer: "⦿ Let the number be x.\n\n"
             "⦁ Subtract the number from 10:\n"
             "10 - x\n\n"
             "⦁ Multiply the result by 2:\n"
@@ -1345,17 +1348,14 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = A. 8",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 2: Solve for x if 2x + 5 = 3x - 7.\n\n"
+        scenario: "Question 2: Solve for x if 2x + 5 = 3x - 7.\n\n"
             "A. 12\n"
             "B. 2⅖\n"
             "C. -⅖\n"
             "D. -2⅖\n"
             "(BECE 1994 Q26)",
-        answer:
-        "⦿ Solve the equation:\n\n"
+        answer: "⦿ Solve the equation:\n\n"
             "2x + 5 = 3x - 7\n\n"
             "⦁ Subtract 2x from both sides:\n"
             "5 = x - 7\n\n"
@@ -1364,19 +1364,16 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = A. 12",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 3: If 3/15 is equivalent to 45/a, find a.\n\n"
+        scenario: "Question 3: If 3/15 is equivalent to 45/a, find a.\n\n"
             "A. 225\n"
             "B. 150\n"
             "C. 252\n"
             "D. 126\n"
             "(BECE 1990 Q22)",
-        answer:
-        "⦿ Form the proportion:\n\n"
-        r"\frac{3}{15}=\frac{45}{a}"
-        "\n\n"
+        answer: "⦿ Form the proportion:\n\n"
+            r"\frac{3}{15}=\frac{45}{a}"
+            "\n\n"
             "⦁ Cross-multiply:\n"
             "3a = 15 × 45\n"
             "3a = 675\n\n"
@@ -1385,17 +1382,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = A. 225",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 4: Five times a number is four more than the number. Find the number.\n\n"
+            "Question 4: Five times a number is four more than the number. Find the number.\n\n"
             "A. 3/2\n"
             "B. 1\n"
             "C. 2/3\n"
             "D. 1/2\n"
             "(BECE 1993 Q26)",
-        answer:
-        "⦿ Let the number be x.\n\n"
+        answer: "⦿ Let the number be x.\n\n"
             "⦁ Five times the number is 5x.\n"
             "⦁ Four more than the number is x + 4.\n\n"
             "5x = x + 4\n\n"
@@ -1406,43 +1401,39 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = B. 1",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 5: Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?\n\n"
+            "Question 5: Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?\n\n"
             "A. 30 years\n"
             "B. 25 years\n"
             "C. 20 years\n"
             "D. 15 years\n"
             "(BECE 1994 Q3)",
-        answer:
-        "⦿ Find Yaw's age:\n\n"
-        r"⦁ Yaw's age = \frac{1}{2} × 30 = 15 years"
-        "\n\n"
+        answer: "⦿ Find Yaw's age:\n\n"
+            r"⦁ Yaw's age = \frac{1}{2} × 30 = 15 years"
+            "\n\n"
             "⦿ Find Paul's age:\n"
             "⦁ Paul is 10 years older than Yaw.\n"
             "Paul's age = 15 + 10 = 25 years\n\n"
             "Answer = B. 25 years",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 6: If 1/3 of a number is added to 1/5 of the same number, the result is 8. Find the number.\n\n"
+            "Question 6: If 1/3 of a number is added to 1/5 of the same number, the result is 8. Find the number.\n\n"
             "A. 3\n"
             "B. 5\n"
             "C. 15\n"
             "D. 30\n"
             "(BECE 1992 Q34)",
-        answer:
-        "⦿ Let the number be x.\n\n"
-        r"\frac{1}{3}x+\frac{1}{5}x=8"
-        "\n\n"
+        answer: "⦿ Let the number be x.\n\n"
+            r"\frac{1}{3}x+\frac{1}{5}x=8"
+            "\n\n"
             "⦁ Use 15 as the common denominator:\n"
-        r"\frac{5}{15}x+\frac{3}{15}x=8"
-        "\n\n"
-        r"\frac{8}{15}x=8"
-        "\n\n"
+            r"\frac{5}{15}x+\frac{3}{15}x=8"
+            "\n\n"
+            r"\frac{8}{15}x=8"
+            "\n\n"
             "⦁ Multiply both sides by 15:\n"
             "8x = 120\n\n"
             "⦁ Divide both sides by 8:\n"
@@ -1450,17 +1441,14 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = C. 15",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 7: Solve for h in the equation 15 - 2h = 6.\n\n"
+        scenario: "Question 7: Solve for h in the equation 15 - 2h = 6.\n\n"
             "A. -10.5\n"
             "B. -9.0\n"
             "C. -4.5\n"
             "D. 4.5\n"
             "(BECE 1998 Q21)",
-        answer:
-        "⦿ Solve the equation:\n\n"
+        answer: "⦿ Solve the equation:\n\n"
             "15 - 2h = 6\n\n"
             "⦁ Subtract 15 from both sides:\n"
             "-2h = 6 - 15\n"
@@ -1470,63 +1458,54 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = D. 4.5",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 8: Find x, if 1/x + 1/3 = 1.\n\n"
+        scenario: "Question 8: Find x, if 1/x + 1/3 = 1.\n\n"
             "A. 2/3\n"
             "B. -2/3\n"
             "C. 3/2\n"
             "D. 3/4\n"
             "(BECE 1993 Q31)",
-        answer:
-        "⦿ Solve the equation:\n\n"
-        r"\frac{1}{x}+\frac{1}{3}=1"
-        "\n\n"
+        answer: "⦿ Solve the equation:\n\n"
+            r"\frac{1}{x}+\frac{1}{3}=1"
+            "\n\n"
             "⦁ Subtract 1/3 from both sides:\n"
-        r"\frac{1}{x}=1-\frac{1}{3}"
-        "\n"
-        r"\frac{1}{x}=\frac{2}{3}"
-        "\n\n"
+            r"\frac{1}{x}=1-\frac{1}{3}"
+            "\n"
+            r"\frac{1}{x}=\frac{2}{3}"
+            "\n\n"
             "⦁ Take the reciprocal of both sides:\n"
-        r"x=\frac{3}{2}"
-        "\n\n"
-        r"Answer = C. \frac{3}{2}",
+            r"x=\frac{3}{2}"
+            "\n\n"
+            r"Answer = C. \frac{3}{2}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 9: If 1/x = 1½, find x.\n\n"
+        scenario: "Question 9: If 1/x = 1½, find x.\n\n"
             "A. 3\n"
             "B. 1/2\n"
             "C. 4/3\n"
             "D. 2/3\n"
             "(BECE 1994 Q11)",
-        answer:
-        "⦿ Convert the mixed number to an improper fraction:\n\n"
-        r"1\frac{1}{2}=\frac{3}{2}"
-        "\n\n"
+        answer: "⦿ Convert the mixed number to an improper fraction:\n\n"
+            r"1\frac{1}{2}=\frac{3}{2}"
+            "\n\n"
             "⦿ Therefore:\n"
-        r"\frac{1}{x}=\frac{3}{2}"
-        "\n\n"
+            r"\frac{1}{x}=\frac{3}{2}"
+            "\n\n"
             "⦁ Take the reciprocal of both sides:\n"
-        r"x=\frac{2}{3}"
-        "\n\n"
-        r"Answer = D. \frac{2}{3}",
+            r"x=\frac{2}{3}"
+            "\n\n"
+            r"Answer = D. \frac{2}{3}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 10: Solve the equation 13x - 2(3x + 4) = 22.\n\n"
+        scenario: "Question 10: Solve the equation 13x - 2(3x + 4) = 22.\n\n"
             "A. 5\n"
             "B. 4\n"
             "C. 30/7\n"
             "D. 26/7\n"
             "(BECE 2000 Q3)",
-        answer:
-        "⦿ Expand the bracket:\n\n"
+        answer: "⦿ Expand the bracket:\n\n"
             "13x - 2(3x + 4) = 22\n"
             "13x - 6x - 8 = 22\n\n"
             "⦁ Collect like terms:\n"
@@ -1534,47 +1513,41 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦁ Add 8 to both sides:\n"
             "7x = 30\n\n"
             "⦁ Divide both sides by 7:\n"
-        r"x=\frac{30}{7}"
-        "\n\n"
-        r"Answer = C. \frac{30}{7}",
+            r"x=\frac{30}{7}"
+            "\n\n"
+            r"Answer = C. \frac{30}{7}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 11: If 4(m + 4) = 18, find the value of m.\n\n"
+        scenario: "Question 11: If 4(m + 4) = 18, find the value of m.\n\n"
             "A. 1/2\n"
             "B. 3/2\n"
             "C. 5/2\n"
             "D. 3/25\n"
             "(BECE 1999 Q29)",
-        answer:
-        "⦿ Solve the equation:\n\n"
+        answer: "⦿ Solve the equation:\n\n"
             "4(m + 4) = 18\n\n"
             "⦁ Divide both sides by 4:\n"
-        r"m+4=\frac{18}{4}=\frac{9}{2}"
-        "\n\n"
+            r"m+4=\frac{18}{4}=\frac{9}{2}"
+            "\n\n"
             "⦁ Subtract 4 from both sides:\n"
-        r"m=\frac{9}{2}-4"
-        "\n"
-        r"m=\frac{9}{2}-\frac{8}{2}"
-        "\n"
-        r"m=\frac{1}{2}"
-        "\n\n"
-        r"Answer = A. \frac{1}{2}",
+            r"m=\frac{9}{2}-4"
+            "\n"
+            r"m=\frac{9}{2}-\frac{8}{2}"
+            "\n"
+            r"m=\frac{1}{2}"
+            "\n\n"
+            r"Answer = A. \frac{1}{2}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 12: If 13x - 12 = 5x + 60, find x.\n\n"
+        scenario: "Question 12: If 13x - 12 = 5x + 60, find x.\n\n"
             "A. -9\n"
             "B. -6\n"
             "C. 9\n"
             "D. 6\n"
             "(BECE 1995 Q33)",
-        answer:
-        "⦿ Solve the equation:\n\n"
+        answer: "⦿ Solve the equation:\n\n"
             "13x - 12 = 5x + 60\n\n"
             "⦁ Subtract 5x from both sides:\n"
             "8x - 12 = 60\n\n"
@@ -1585,17 +1558,14 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = C. 9",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 13: The product of 2x and 3 is 138. Find x.\n\n"
+        scenario: "Question 13: The product of 2x and 3 is 138. Find x.\n\n"
             "A. 23\n"
             "B. 33\n"
             "C. 68\n"
             "D. 69\n"
             "(BECE 1996 Q33)",
-        answer:
-        "⦿ Form the equation:\n\n"
+        answer: "⦿ Form the equation:\n\n"
             "2x × 3 = 138\n"
             "6x = 138\n\n"
             "⦁ Divide both sides by 6:\n"
@@ -1603,24 +1573,22 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = A. 23",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 14: Solve for y in the equation 1/3y + 1/5y = 8.\n\n"
+            "Question 14: Solve for y in the equation 1/3y + 1/5y = 8.\n\n"
             "A. 15\n"
             "B. 30\n"
             "C. 45\n"
             "D. 60\n"
             "(BECE 2002A Q27)",
-        answer:
-        "⦿ Solve the equation:\n\n"
-        r"\frac{1}{3}y+\frac{1}{5}y=8"
-        "\n\n"
+        answer: "⦿ Solve the equation:\n\n"
+            r"\frac{1}{3}y+\frac{1}{5}y=8"
+            "\n\n"
             "⦁ Use 15 as the common denominator:\n"
-        r"\frac{5}{15}y+\frac{3}{15}y=8"
-        "\n\n"
-        r"\frac{8}{15}y=8"
-        "\n\n"
+            r"\frac{5}{15}y+\frac{3}{15}y=8"
+            "\n\n"
+            r"\frac{8}{15}y=8"
+            "\n\n"
             "⦁ Multiply both sides by 15:\n"
             "8y = 120\n\n"
             "⦁ Divide both sides by 8:\n"
@@ -1628,17 +1596,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = A. 15",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 15: Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.\n\n"
+            "Question 15: Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.\n\n"
             "A. 7 years\n"
             "B. 9 years\n"
             "C. 14 years\n"
             "D. 18 years\n"
             "(BECE 2002B Q25)",
-        answer:
-        "⦿ Let Ama's age be x years.\n\n"
+        answer: "⦿ Let Ama's age be x years.\n\n"
             "⦁ Kofi's age = x + 2\n\n"
             "⦁ Their ages add up to 16:\n"
             "x + (x + 2) = 16\n\n"
@@ -1652,7 +1618,7 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── SOCIAL STUDIES ───────────────────────────────────────────────────
-  "Environmental Issues": PracticeModel(
+  " JHS 1 - Environmental Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -1750,7 +1716,7 @@ final Map<String, PracticeModel> becePracticeData = {
           explanation: " "),
     ],
   ),
-  "Mapping Skills": PracticeModel(
+  "JHS 1 - Mapping Skills": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -1829,7 +1795,7 @@ final Map<String, PracticeModel> becePracticeData = {
           explanation: " "),
     ],
   ),
-  "Understanding Our Natural World": PracticeModel(
+  "JHS 1 - Understanding Our Natural World": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2141,7 +2107,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Adolescent Reproductive Health": PracticeModel(
+  "JHS 1 - Adolescent Reproductive Health": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2198,7 +2164,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Citizenship and Human Rights": PracticeModel(
+  "JHS 1 - Citizenship and Human Rights": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2265,7 +2231,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Human Resource Development": PracticeModel(
+  "JHS 1 - Human Resource Development": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2344,7 +2310,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Financial and Investment Issues": PracticeModel(
+  "JHS 1 - Financial and Investment Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2373,7 +2339,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Independent Ghana": PracticeModel(
+  "JHS 1 - Independent Ghana": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2443,72 +2409,755 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-
-  "Environmental Issues": PracticeModel(
+  "JHS 2 - Environmental Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1: The Achievements of Dr. Kwame Nkrumah\n\n"
-            "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
-        answer:
-            "• Leadership in Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957, becoming the first Prime Minister and later the first President.\n"
-            "• Infrastructure (Tema Harbour): Under his leadership, the Tema Harbour was constructed to boost international trade and maritime activities.\n"
-            "• Industrialization (State Enterprises): His government established numerous state enterprises to promote self-reliance, including VALCO, Rubber Manufacturing at Bonsa, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n"
-            "• Healthcare Expansion: He expanded healthcare by building new hospitals, notably the Okomfo Anokye Teaching Hospital in Kumasi, and established the University of Ghana Medical School at Korle Bu.\n"
-            "• Energy (Akosombo Dam): He oversaw the construction of the Akosombo Dam, providing electricity for domestic use and exporting power to neighbouring countries like Togo.\n"
-            "• Education Development: He built several second-cycle schools, such as Tweneboa Kodua SHS, and established higher-learning institutions like UCC, KNUST, and various polytechnics and teacher-training colleges.\n"
-            "• Free Education Policy: He introduced a compulsory free-tuition primary education scheme and provided free textbooks to Ghanaian children.\n"
-            "• Financial Institutions: He established key financial institutions, including the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation.\n"
-            "• Housing: He founded the State Housing Corporation to address the housing needs of the growing population by providing affordable homes.\n"
-            "• Agriculture: He set up state farms and irrigation facilities for rice and sugar, while diversifying crops to include cash crops and livestock rearing.",
+        scenario: "QUESTION 1 (BECE 2004 Q3)\n\n"
+            "(a) State any four ways by which water can be polluted in Ghana.\n"
+            "(b) Explain any three effects of water pollution.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Dumping of solid waste materials: This involves throwing refuse and animal faeces directly into water bodies.\n"
+            "• Washing, bathing, and urinating: When human beings and animals use water bodies for laundry, personal hygiene, or as a place to urinate, the water becomes contaminated.\n"
+            "• Animals drinking from human water sources: Water bodies intended for human use are polluted when livestock and other animals drink directly from them.\n"
+            "• Using chemicals for fishing: The use of harmful substances like DDT to catch fish introduces toxins into the water.\n"
+            "• Disposal of liquid waste: Industries often discharge liquid waste substances directly into nearby streams and rivers.\n"
+            "• Oil spillage: Leakages and spills during oil production contaminate the water environment.\n"
+            "• Spilling poisonous mining chemicals: Chemicals such as cyanide and mercury used in mining production often leak into water bodies.\n"
+            "• Farming along river banks: This practice allows loose sand and agro-chemicals, such as fertilizers, to drain into the water.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Destruction of aquatic life: Pollution destroys the habitats of aquatic animals like fish, crabs, and lobsters. These conditions deprive them of essential food and the quality oxygen needed to survive.\n"
+            "• Spread of diseases to humans: People depending on contaminated water suffer from waterborne diseases including cholera, typhoid, bilharzia, and dysentery.\n"
+            "• High cost of water treatment: Treating polluted water for human consumption requires huge sums of money, increasing the expenditure of the government, private firms, and individuals.\n"
+            "• Drying up of water bodies: The dumping of solid waste and sand causes rivers and lakes to silt up and eventually dry up, leading to a shortage of fresh water.\n"
+            "• Impure water for consumption: Polluted water contains harmful germs and bacteria, making it unsafe for both humans and animals to drink.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2: The Overthrow of Dr. Kwame Nkrumah\n\n"
-            "(a) Mention achievements of Dr. Kwame Nkrumah.\n"
-            "(b) What are the reasons that led to the overthrow of Dr. Kwame Nkrumah?",
-        answer: "⦿ (a) Achievements:\n\n"
-            "• Refer to the detailed points in Question 1.\n\n"
-            "⦿ (b) Reasons for Overthrow:\n\n"
-            "• One-party state: He declared Ghana a one-party state, making the CPP the only legal party and causing widespread political dissatisfaction.\n"
-            "• Dictatorial Rule: He was accused of ruling as a dictator, concentrating power within the CPP and ignoring the interests of other groups.\n"
-            "• Preventive Detention Act (PDA): The introduction of the PDA allowed for the detention of political opponents without trial, leading to human rights violations.\n"
-            "• Corruption and Mismanagement: Widespread bribery and the collapse of state-owned enterprises due to mismanagement led to a loss of public trust.\n"
-            "• Military Dissatisfaction: He provided preferential treatment to his Presidential Guards over the regular Armed Forces, inciting the military to plot a coup.\n"
-            "• Disrespect for Tradition: His government destooled some traditional chiefs and disrespected local institutions, making him unpopular among traditional leaders.\n"
-            "• Financial Mismanagement: Excessive spending on ambitious projects and foreign aid to countries like Guinea and Mali resulted in high inflation and national debt.",
+        scenario: "QUESTION 2 (BECE 2023 Q2a)\n\n"
+            "Outline four measures that can be taken to reduce the pollution of water bodies in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• Recycling of sewage: Industrial and domestic wastewater should be recycled for tasks like irrigation or flushing toilets. Even human excreta can be recycled into biogas for cooking, preventing waste from being dumped into rivers.\n"
+            "• Public education on water safety: People must be educated through television, radio, and community visits such as churches and markets to stop bathing or urinating in water bodies and keep them safe for drinking and cooking.\n"
+            "• Recycling of solid and liquid waste: Reusing materials, such as using recycled plastic bottles for construction, prevents these items from being dumped into the water.\n"
+            "• Formation of community watchdog groups: Communities should form groups to monitor activities like illegal mining, also known as galamsey, and report offenders to the authorities for sanctions.\n"
+            "• Proper disposal of industrial waste: Industry owners must be compelled to recycle their waste or use it as resources for other production instead of dumping it into water bodies.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3: The 1948 Riots and Watson Commission\n\n"
-            "(a) Identify causes of the 1948 riots.\n"
-            "(b) Outline recommendations of the Watson Commission.",
-        answer: "⦿ (a) Causes of the 1948 Riots:\n\n"
-            "• Constitutional Shortcomings: The Burns Constitution of 1946 failed to meet the political aspirations of the people.\n"
-            "• Inequality in Civil Service: Most high-ranking civil service positions were held by Europeans, leaving few opportunities for Africans.\n"
-            "• Economic Monopolies: Local businesses were crippled by the dominance of the Association of West African Merchants (AWAM).\n"
-            "• Post-War Economic Slump: The country faced an economic downturn after World War II, leading to high unemployment.\n"
-            "• High Cost of Living: Shortages of essential goods led to inflated prices and general hardship.\n"
-            "• Swollen Shoot Disease Policy: The government's order to cut down infected cocoa trees without compensation angered farmers.\n"
-            "• The Shooting of Veterans: The immediate spark was the killing of three ex-servicemen—Sergeant Adjetey, Corporal Attipoe, and Private Odartey-Lamptey—at the Osu crossroads.\n\n"
-            "⦿ (b) Watson Commission Recommendations:\n\n"
-            "• New Constitution: Recommended drafting a new constitution to replace the Burns Constitution and grant more autonomy.\n"
-            "• Veteran Welfare: Recommended that the government fulfil promises made to ex-servicemen regarding pensions and housing.\n"
-            "• Africanization of Administration: Suggested that Ghanaians should be more involved in the governance and administration of the colony.\n"
-            "• Social Amenities: Recommended the provision of better social amenities, such as clean water and housing, for the local population.\n"
-            "• Educational Reform: Urged the expansion and improvement of primary, middle, and secondary education.",
+        scenario: "QUESTION 3 (BECE 2024 Q1b & 1c)\n\n"
+            "(a) In what four ways are water bodies in your community polluted?\n"
+            "(b) Suggest four workable ways by which water bodies in your community can be made safe for use.",
+        answer: "⦿ (a) Ways water bodies in the community are polluted:\n\n"
+            "• Discharge of industrial waste: Dumping metals and chemicals like mercury or oil makes water unusable for household chores.\n"
+            "• Chemical fishing: Using DDT contaminates the water for both humans and animals.\n"
+            "• Oil spillage: Production spills introduce harmful chemicals that make water unhygienic.\n"
+            "• Defecating in water bodies: Direct defecation into or near streams makes the water dangerous for consumption.\n"
+            "• Mining pollution (Galamsey): Poisonous cyanide and mercury are introduced during mining, and the process of washing gold makes water muddy and harmful.\n"
+            "• Dumping solid and liquid waste: Throwing refuse, animal faeces, or used oil into the water leads to direct contamination.\n"
+            "• Washing and bathing: Chemicals from soaps and body infections are introduced into the water during these activities.\n"
+            "• Farming and construction near banks: Agro-chemicals, fertilizers, sand, and cement from nearby farms or building sites drain into the water.\n"
+            "• Radioactive materials: Waste from medical processes or nuclear operations can cause severe water pollution.\n"
+            "• Erosion and animals: Running water carries debris into rivers, and domestic animals sharing water sources with humans add to the pollution.\n\n"
+            "⦿ (b) Workable ways to make water bodies safe for use:\n\n"
+            "• Public education on cleanliness: Educating the public through mass media about the importance of clean water helps them understand why they must stop polluting activities.\n"
+            "• Provision of public convenience facilities: Building toilets in coastal and riverside communities prevents people from defecating in or near the water.\n"
+            "• Proper settlement layouts: Town planners must ensure houses and industries are built away from water bodies to prevent waste from being easily dumped into them.\n"
+            "• Prosecution of offenders: Authorities must prosecute those engaging in galamsey or illegal fishing to serve as a deterrent to others.\n"
+            "• Government mining policies: Licensing and strictly monitoring mining practices ensures that activities do not harm local water sources.\n"
+            "• Enforcement of environmental laws: Agencies like the EPA must enforce laws against pollution and use modern tools like drones and cameras to monitor firms and individuals.\n"
+            "• Afforestation and tree planting: Planting trees along river banks prevents erosion from transporting sand and debris into the water.\n"
+            "• Proper waste infrastructure: The government should provide dustbins at vantage points in schools and communities so people dump plastic and sachet bags properly.\n"
+            "• Siting factories away from water: Land owners and authorities must prevent the sale of land near water bodies for industrial use to stop the direct dumping of waste.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 2 - Understanding Our Natural World": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) List four features of a slum.\n"
+            "(b) Enumerate four measures that can be taken to prevent slums in the urban towns of Ghana.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Overcrowded settlement: High density of people living in a small space.\n"
+            "• Filthy environment: Poor sanitation and lack of waste management.\n"
+            "• Disorderly buildings: Structures are not arranged in any formal order.\n"
+            "• Narrow streets: Little to no access roads or streets for vehicles.\n"
+            "• Social vices: Presence of criminals and frequent outbreaks of diseases like cholera.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Town Planning Layouts: The Town and Country Planning Department must provide proper layouts with zoning and site plans to prevent overcrowding.\n"
+            "• Approval of Building Plans: Authorities must issue building permits before construction to ensure structures follow the approved city plan.\n"
+            "• Demolishing Unauthorized Buildings: Pulling down structures without permits helps reduce congestion and ensures free movement.\n"
+            "• Provision of Streets: Ensuring roads are laid out before settlement development improves planning and accessibility.\n"
+            "• Control of Rural-Urban Migration: Developing rural areas reduces the number of people moving to cities, easing the pressure on urban housing.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4: Impact of the 1948 Riots\n\n"
-            "Highlight ways in which the riots contributed to Ghana’s independence.",
-        answer:
-            "• Constitutional Reform: The riots led to the Watson and Coussey Committees, which paved the legal way for self-rule through constitutional changes.\n"
-            "• Birth of the CPP: The internal disagreements following the riots led Kwame Nkrumah to form the CPP, which demanded \"Self-government now.\"\n"
-            "• Nationalism: The events unified the people of the Gold Coast and heightened political awareness and the desire for freedom.\n"
-            "• The Big Six Popularity: The arrest of the UGCC leaders, known as the Big Six, made them national heroes and united the masses against colonial rule.\n"
-            "• Political Representation: The riots forced the British to increase the number of Africans in the Legislative and Executive Councils.\n"
-            "• International Awareness: The disturbances drew global attention to the anti-colonial struggle in West Africa, putting pressure on the British government.",
+        scenario: "QUESTION 2 (BECE 2014 Q6)\n\n"
+            "(a) Explain the term natural disaster and give two examples.\n"
+            "(b) Outline four reasons why a good layout is necessary for a decent settlement.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• A natural disaster is any misfortune that occurs from a natural phenomenon leading to the destruction of the environment.\n"
+            "• Examples: Floods, earthquakes, droughts, volcanic eruptions, or landslides.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Easy Movement: Proper arrangement of buildings and streets allows people and vehicles to move freely.\n"
+            "• Utility Supply: It creates designated spaces for water pipes, electricity poles, and communication lines, making utility connection easier.\n"
+            "• Location of Social Facilities: It ensures that hospitals, schools, and police stations are placed in accessible areas.\n"
+            "• Postal Delivery: Streets with names and houses with numbers make it easy to identify addresses for mail distribution.\n"
+            "• Sanitation Improvement: It provides areas for waste collection facilities and drainage systems to prevent indiscriminate waste disposal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2022 Q5)\n\n"
+            "(a) Define the following:\n"
+            "(i) Human settlement;\n"
+            " (ii) A slum.\n"
+            "(b) State four uses of land in your community.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• (i) Human settlement: A place where people have established their homes to live.\n"
+            "• (ii) A slum: An overcrowded, filthy area where buildings are disorderly and inhabited by people.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Farming: Growing crops like plantain and cocoyam for food.\n"
+            "• Housing: Building residential structures for shelter.\n"
+            "• Transport: Constructing roads to facilitate the movement of goods and people.\n"
+            "• Mining: Extracting minerals like gold from the earth.\n"
+            "• Industrialization: Building factories to process raw materials into goods.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2023 Q5a)\n\n"
+            "(i) What is settlement?\n"
+            "(ii) Explain four reasons for which bad layouts of settlements should be prevented.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Settlement: A place where people put up houses, such as huts or villages, and live in them.\n\n"
+            "⦿ (ii) Reasons to prevent bad layouts:\n\n"
+            "• To check and control disasters: Proper layouts prevent buildings from being cited on waterways, reducing flood risks.\n"
+            "• To improve ventilation: Correct spacing between buildings allows for better air circulation.\n"
+            "• To facilitate easy location of places: Well-planned streets make it easier to find specific buildings or facilities.\n"
+            "• To help minimize crime: Planned areas are easier for security agencies to patrol and monitor, removing criminal hideouts.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 2 - Mapping Skills": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) State four characteristics of a good map.\n"
+            "(b) Highlight the steps you will take to draw the map of your school compound.\n"
+            "(BECE 2017 Q2)",
+        answer: "⦿ (a) Characteristics of a good map:\n\n"
+            "• Title: Clearly states what the map represents.\n"
+            "• A date: Indicates when the map was drawn.\n"
+            "• A scale: Shows the relationship between distances on the map and actual distances on the ground.\n"
+            "• Key/legend: Explains the meaning of symbols and signs used on the map.\n"
+            "• Conventional signs: Standard symbols used to represent features.\n"
+            "• Direction: Usually shown with a North arrow to orient the map.\n\n"
+            "⦿ (b) Steps to be taken to draw a school compound:\n\n"
+            "• Step 1: Do a reconnaissance or a survey: Conduct a general survey or inspection around the area to be drawn. This enables you to get clear pictures of the boundaries, landmarks, and other features of the area.\n"
+            "• Step 2: Do a rough sketch map: Create a rough sketch map of the school compound after the survey. This sketch must include the boundaries, landmarks, and other features identified during the general survey.\n"
+            "• Step 3: Revisit the compound for correction: After making the rough sketch, the place must be revisited to make important corrections to any areas that appeared incorrect on the initial sketch.\n"
+            "• Step 4: Measure the length and breadth of the compound: Use a measuring tape to measure the length and breadth of the school compound. This provides the accurate measurements needed to draw the final map.\n"
+            "• Step 5: Choose and state the scale: Select a scale for the map based on the measurements taken and state it on the paper. This represents the ratio of the distance on the map to the actual distance on the ground.\n"
+            "• Step 6: Draw the outline of the compound using the scale: Convert the measured distances, length and breadth, on the ground using the chosen scale and draw the outline on paper using a ruler and pencil.\n"
+            "• Step 7: Insert the outline of the features in the compound: Insert the various identified features, such as trees and landmarks, into the map. Each feature must be drawn to scale and placed in its correct location.\n"
+            "• Step 8: Label the features on the compound: Label the inserted features by their actual names as they appear on the school compound.\n"
+            "• Step 9: Show the north pole: Indicate a north pole or North arrow pointing to the North direction of the earth beside the map. This shows the direction and position of the map when a person is facing it.\n"
+            "• Step 10: Show the key: Provide a key or legend to interpret and explain the signs or symbols representing the features, landmarks, or landforms on the map.\n"
+            "• Step 11: Write the title of the map: State the title on top of the map to provide information on what the map represents. For example, ‘The map of St. Peter’s Junior High School’.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 2 - Population": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Define the term population.",
+        answer: "⦿ Answer:\n\n"
+            "• Population refers to the number of people living in a geographical area at a specific period or time.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "(b) State any four effects of age distribution on development in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "Advantages of population structure:\n\n"
+            "• (i) Large labour force: The age distribution shows that there is a large labour force in the country constituting 42%. These are the people between the ages of eighteen (18) and fifty-nine (59) years.\n"
+            "• (ii) Large market: The age distribution of the population implies a large market base for producers. This is because the working population constitutes 42.0% and the dependency group is 58%. All these groups will increase the demand for goods and services in the country.\n\n"
+            "Disadvantages of the population structure:\n\n"
+            "• (iii) High government expenditure: The government is faced with higher expenditure on social services. These include the provision of basic and secondary education and healthcare for people below eighteen years (53.4%) and special medical care for people aged sixty years and above (4.6%).\n"
+            "• (iv) Slow development: Development of the country will be slow. This is because the government is going to divert the state resources meant for developmental projects to provide social services for the young and aged people who constitute more than half (58%) of the total population.\n"
+            "• (v) High dependency burden: There will be a high dependency burden of more than half (58%) of the total population on the working population (42%). This will result in a low standard of living in the country.\n"
+            "• (vi) Low savings and investment: As the dependency burden becomes high, more money will be spent on consumption. This will reduce the money that can be saved and invested by the working population.\n"
+            "• (vii) High government expenditure on pensioners: People who are 60 years and above and have retired from active services and receive pension pay will increase government expenditure. They constitute 4.6% of the total population.\n"
+            "• (viii) Low tax revenue: Since the working population is not high (42%), the tax revenue that can be generated by the government to undertake projects will be low.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(c) Outline four disadvantages of Ghana's population structure.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) High government expenditure: The government is faced with higher expenditure on social services. These include provision of basic and secondary education and healthcare for the people below eighteen years (52.5%) and special medical care for the sixty years and above people (4.6%).\n\n"
+            "• (ii) Slow of development: Development of the country will be slow. This is because the government is going to divert the state resources meant for developmental projects to provide social services for the young and aged people who constitute more than half (57.1%) of the total population.\n\n"
+            "• (iii) High dependency burden/low standard of living: There will be high dependency burden of more than half (57.1%) of the total population on the working population (42.9%). This will result in low standard of living in the country.\n\n"
+            "• (iv) Low savings and investment: As the dependency burden becomes high, more money will be spent on consumption. This will reduce the money that can be saved and invested in by the working population.\n\n"
+            "• (v) High government expenditure on pensioners: People who are 60 years and above and have retired from active services and receive pension pay will increase government expenditure. They constitute 4.6% of the total population.\n\n"
+            "• (vi) Low tax revenue: Since the working population is not high (42.9%), the tax revenue that can be generated by the government to undertake projects will be low.\n\n"
+            "• (vii) Low productivity: The working population constitutes 42.9% and this cannot produce enough to meet the needs of the whole population in the country. This will therefore result in low productivity in the agricultural sector, manufacturing sector as well as the service sector of the country.\n\n"
+            "• (viii) High expenditure on training and retraining of manpower: The structure indicates that government has to put in place vocational, technical and commercial training institutions to ensure that the working force (42.9%) gets adequate training to equip them with skills and periodic retraining to update the skills of those already in the service. This will increase the expenditure of the government.\n\n"
+            "• (ix) High government expenditure on the youth and the aged: The government will spend more to provide the needs of the youth and the aged. These needs include provision of employment avenues, recreational centers, schools, etc. for the youth as well as health facilities, etc. for the aged in the country.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 2 - Citizenship and Human Rights": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Describe three duties of a citizen of Ghana.\n"
+            "(b) Explain any two rights of a citizen of Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Duties of a citizen of Ghana:\n\n"
+            "• Payment of tax: A citizen of Ghana is expected to pay taxes to the state. This enables the government to mobilize sufficient revenue to undertake development projects such as roads, provision of water, and electricity.\n\n"
+            "• Law abiding/obedience to the constitution: A citizen is expected to obey all rules, regulations, and provisions of the constitution to ensure peace and stability.\n\n"
+            "• Participate in communal labour: Offering skills and knowledge to support community development through activities like cleaning, weeding, and construction.\n\n"
+            "• Respect for the rights of others: Respecting fellow citizens' rights to ensure harmonious living.\n\n"
+            "• Protection of public properties: Guarding state properties to ensure they function effectively for everyone.\n\n"
+            "• Reporting criminals to the police: Enhancing national security by reporting individuals involved in criminal activities.\n\n"
+            "• Defending the state: Being ready to defend the name of Ghana at all times, especially during conflict.\n\n"
+            "• Exhibiting positive work attitudes: Practicing punctuality, hard work, and respect for authority to increase national productivity.\n\n"
+            "• Defending the constitution: Upholding the constitution against illegal acts such as military coups.\n\n"
+            "• Offering voluntary service: Rendering services like national service or acting as a witness in court.\n\n"
+            "(b) Rights of a citizen of Ghana:\n\n"
+            "• Right to life: Every citizen has the right to live; this life is protected by the state and can only be restricted by a court of law.\n\n"
+            "• Right to personal liberty: The freedom to do things or express opinions in accordance with the laws and customs of the state.\n\n"
+            "• Right to fair trial: The guarantee of being heard as a plaintiff or defendant before a court of law.\n\n"
+            "• Right to equality before the law: Being treated equally regardless of political affiliation, social status, economic standing, or gender.\n\n"
+            "• Right to education: The right to attend a school of choice and acquire knowledge to become a responsible person.\n\n"
+            "• Right to work: The right to engage in legally and socially accepted work to earn a living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "Explain four responsibilities of the individual in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "1. Payment of Taxes: Regularly contributing financially to help the government provide social amenities and infrastructure.\n\n"
+            "2. Obedience to the Law: Following the rules and regulations set by the constitution to maintain order.\n\n"
+            "3. Protection of National Property: Taking care of public facilities like schools, hospitals, and parks.\n\n"
+            "4. Participation in Communal Labour: Engaging in community service to improve the local environment and development.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(a) What are human rights abuses?\n"
+            "(b) Give four examples of such abuses.\n"
+            "(c) Explain two ways by which human rights abuses can be prevented.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Definition: Human rights abuses are the infringement or violation of the fundamental rights and freedoms of an individual.\n\n"
+            "(b) Examples:\n\n"
+            "• Child labour and child trafficking.\n\n"
+            "• Domestic slavery and violence against women.\n\n"
+            "• Bullying by authority figures (soldiers, teachers, etc.).\n\n"
+            "• Mob action/justice.\n\n"
+            "(c) Prevention methods:\n\n"
+            "• Formal Education: Teaching citizens to recognize and avoid practices like slavery and child abuse. Knowledge empowers people to defend themselves.\n\n"
+            "• Effective Judiciary: Ensuring courts settle cases impartially. This encourages people to seek legal redress rather than taking the law into their own hands.\n\n"
+            "• Strengthening Institutions: Resourcing agencies like CHRAJ and DOVVSU to protect vulnerable groups at the local level.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(a) State three reasons why people suffer human rights abuses.\n"
+            "(b) Explain four ways by which human rights abuses may be prevented.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Reasons for suffering abuses:\n\n"
+            "• Illiteracy/Ignorance: Not knowing one's rights or where to seek help.\n\n"
+            "• Poverty: Financial hardship makes it difficult to afford legal representation.\n\n"
+            "• Fear of Intimidation: Fearing retaliation from the abuser or their followers.\n\n"
+            "• Apathy: A lack of will to fight for one's rights or reporting cases to the police.\n\n"
+            "(b) Prevention methods:\n\n"
+            "• Public Education (NCCE): Using media and community gatherings to inform people of their rights.\n\n"
+            "• Media Watchdogs: Allowing the mass media to expose cases of abuse to protect the vulnerable.\n\n"
+            "• Sanctioning Offenders: Courts must punish those who violate rights to serve as a deterrent.\n\n"
+            "• Upholding International Guarantees: Following international charters (like the UNO or Amnesty International) to bring global attention to local rights.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(a) List five examples of cases which can be reported to the office of Domestic Violence and Victim Support Unit (DOVVSU).\n"
+            "(b) Describe five functions of DOVVSU.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Reportable cases:\n\n"
+            "• Rape.\n"
+            "• Defilement.\n"
+            "• Child abuse.\n"
+            "• Domestic violence.\n"
+            "• Forced marriage.\n\n"
+            "(b) Functions of DOVVSU:\n\n"
+            "• Advising on Crime Prevention: Educating people in schools and churches to minimize crime.\n\n"
+            "• Counselling: Providing psychological support to victims of physical or sexual assault.\n\n"
+            "• Mediation: Resolving misunderstandings between victims and offenders to ensure peace.\n\n"
+            "• Prosecution: Representing the state in court to ensure fair judgment for victims.\n\n"
+            "• Arresting Offenders: Taking culprits into custody to ensure they are punished for their actions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6\n\n"
+            "Differentiate between freedom and obligation.",
+        answer: "⦿ Answer:\n\n"
+            "• Freedoms: These are the benefits and privileges that an individual is entitled to enjoy without hindrance under the law.\n\n"
+            "• Obligations: These are the duties and responsibilities that an individual is required to perform for the state or society.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7\n\n"
+            "(a) (i) How would you explain the term human rights in a class discussion?\n"
+            "    (ii) Identify two human right abuses in your community.\n"
+            "(b) Suggest four reasons why society must be educated on human rights.",
+        answer: "⦿ Answer:\n\n"
+            "(a) (i) Human Rights: These are inalienable fundamental freedoms and privileges that every person is born with and cannot be taken away without legal justification.\n\n"
+            "(a) (ii) Community Abuses: Child labour and mob action against suspected criminals.\n\n"
+            "(b) Reasons for Education:\n\n"
+            "1. To Prevent Corruption: When people know their rights, they will not pay bribes for services they are entitled to.\n\n"
+            "2. To Protect the Vulnerable: Education helps children and the disabled know how to seek redress if abused.\n\n"
+            "3. To Promote Peaceful Co-existence: Knowing rights fosters mutual respect for things like life, property, and freedom of speech.\n\n"
+            "4. To Prevent Crime: Educated citizens are more likely to report criminal activities to the police, reducing overall crime rates.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 2 - Conflict Prevention and Management": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2012 Q4)\n\n"
+            "(a) Identify four sources of conflict in Ghana.\n"
+            "(b) Explain four effects of conflicts in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Sources of conflict in Ghana:\n\n"
+            "• Intolerance of people: When individuals or groups refuse to accept the views, beliefs, or behaviors of others.\n\n"
+            "• Chieftaincy disputes/power struggle: Disputes arising from the selection or installation of traditional leaders.\n\n"
+            "• Dispute over property sharing or ownership: Disagreements regarding the inheritance or distribution of assets.\n\n"
+            "• Poor media report/irresponsible journalism: When media outlets publish false or inflammatory information that incites tension.\n\n"
+            "• Tribalism/ethnocentrism: Favoring one's own tribe over others or believing one's culture is superior.\n\n"
+            "• Land ownership: Frequent disputes over boundaries and the legal right to use or sell land.\n\n"
+            "(b) Effects of conflicts in Ghana:\n\n"
+            "• Loss of property: Conflict causes people to lose valuable property such as houses, cars, and companies. This occurs when weapons such as bombs and guns are involved.\n\n"
+            "• Loss of lives: People are killed or injured. This often affects vulnerable groups like children, women, and the aged who cannot easily defend themselves.\n\n"
+            "• Discourages foreign investors: Conflict zones become unattractive for investment because the area becomes lawless and capital is not protected.\n\n"
+            "• Increases government expenditure: Conflict compels the government to spend huge sums of money to resolve the issue or offer medical treatment to casualties, increasing the national financial burden.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2013 Q3b)\n\n"
+            "Outline four attitudes and values needed to prevent conflicts in the community.",
+        answer: "⦿ Answer:\n\n"
+            "• Respect for one another: Showing respect to others regardless of age, ethnic group, or social status brings understanding and peaceful co-existence.\n\n"
+            "• Need for tolerance: Accepting divergent views and actions of others helps establish peace and unity in the society.\n\n"
+            "• Need for forgiveness: Forgiving those who offend us eliminates the desire for revenge or retaliation.\n\n"
+            "• Attitude of fairness and justice: Ensuring everyone gets a fair share of what they deserve and fair hearing in matters of dispute prevents tension.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2018 Q3)\n\n"
+            "(a) (i) Define conflict management.\n"
+            "    (ii) List five sources of conflict in society.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Conflict management: This is the use of various measures to reduce tension during a period of misunderstanding to facilitate resolution.\n\n"
+            "• (ii) Sources: Chieftaincy disputes, land ownership disagreements, greed, partiality/injustice, and tribalism.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2021 Q4b)\n\n"
+            "Highlight four ways in which conflicts can be resolved in the society.",
+        answer: "⦿ Answer:\n\n"
+            "• Mediation: A voluntary and impartial person (like a religious leader or teacher) helps settle the misunderstanding by listening to both parties.\n\n"
+            "• Court action/adjudication: Using the legal system where a judge decides the case. The guilty party may pay compensation or serve a jail term.\n\n"
+            "• Arbitration: An out-of-court method where an impartial \"arbiter\" listens to a trial-like presentation and makes a decision based on law.\n\n"
+            "• Reconciliation: A method meant to repair broken relationships where the offended party is encouraged to forgive and may receive compensation.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2024 Q2a)\n\n"
+            "Write to the Assemblyman four ways in which tensions could calm down and also prevent conflicts.",
+        answer: "⦿ Answer:\n\n"
+            "• Honesty in all community activities: Ensuring truthfulness in all dealings prevents the hiding of facts that leads to violence.\n\n"
+            "• Engaging the youth in an open forum: Including the youth in community activities and decision-making processes fosters a sense of belonging and inclusiveness.\n\n"
+            "• Promoting the need to respect one another: Encouraging respect regardless of tribe or religion ensures that no personality or group feels undermined.\n\n"
+            "• Providing adequate security: The government must provide enough security agencies to enforce rules, ensuring that the rights of the people are respected.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 2 - Tourism & Financial Issues": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (General Tourism Knowledge)\n\n"
+            "(a) Name four areas of tourist attraction in Ghana.\n"
+            "(b) State the benefits of tourism in Ghana.\n"
+            "(c) Describe the negative effects of tourism in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Areas of tourist attraction in Ghana:\n\n"
+            "• Boti waterfall at Boti.\n\n"
+            "• Wli waterfall at Wli near Hohoe.\n\n"
+            "• Kintampo waterfall at Kintampo.\n\n"
+            "• Paga crocodile pond at Paga.\n\n"
+            "• Kakum National Park at Cape Coast.\n\n"
+            "• Mole National Park at Damango.\n\n"
+            "• Kwame Nkrumah Museum at Accra.\n\n"
+            "• Cape Coast Castle or Elmina Castle.\n\n"
+            "(b) Benefits of tourism in Ghana:\n\n"
+            "• It creates employment: The industry creates jobs for tourist guides, hotel staff, managers, accountants, and drivers.\n\n"
+            "• Source of foreign exchange: Foreigners bring in currencies like dollars and pounds when they visit.\n\n"
+            "• Source of government revenue: Money is generated through income taxes from workers and fees/royalties from sites.\n\n"
+            "• Infrastructure development: It leads to the provision of better roads, electricity, and telecommunications.\n\n"
+            "• Conservation of natural resources: It encourages the preservation of forests and wildlife, for example, Kakum National Park.\n\n"
+            "• Growth of local craft industries: Tourists buy locally made souvenirs, beads, and clothes.\n\n"
+            "(c) Negative effects of tourism in Ghana:\n\n"
+            "• Adulteration of culture: Local people may abandon their traditions to copy foreign lifestyles.\n\n"
+            "• Introduction of diseases: Increased travel can lead to the spread of STDs like HIV/AIDS.\n\n"
+            "• Social vices: It can foster irresponsible behaviors like prostitution, pickpocketing, or excessive drinking.\n\n"
+            "• Environmental pollution: Tourists may litter or pollute water bodies and air through smoking.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (Promotion and Reasons for Travel)\n\n"
+            "(a) State reasons why people embark on tours to different places.\n"
+            "(b) How can tourism be promoted in Ghana?",
+        answer: "⦿ Answer:\n\n"
+            "(a) Reasons why people embark on tours:\n\n"
+            "• For sight-seeing and enjoying nature.\n\n"
+            "• To learn new things such as history and foreign cultures.\n\n"
+            "• For enjoyment and relaxation, such as taking a break from work.\n\n"
+            "• For religious purposes, such as pilgrimages.\n\n"
+            "• For health reasons, such as seeking fresh air or reducing stress.\n\n"
+            "• To conduct research or for educational purposes.\n\n"
+            "(b) Ways tourism can be promoted in Ghana:\n\n"
+            "• Effective Publicity: Advertise sites on radio, TV, social media, and magazines.\n\n"
+            "• Improved Sanitation: Keep the environment around tourist sites clean and attractive.\n\n"
+            "• Beautification: Enhance sites with quality artifacts, paintings, and proper labeling.\n\n"
+            "• Security: Ensure safety against crime so tourists feel secure.\n\n"
+            "• Trained Staff: Ensure tour guides and hotel staff are respectful and professional.\n\n"
+            "• Affordable Fees: Keep entrance fees low to encourage local patronage.\n\n"
+            "• Infrastructure: Provide good roads and reliable electricity to all tourist destinations.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (Definitions and Locations)\n\n"
+            "(a) Differentiate between tourism and leisure.\n"
+            "(b) Match the tourist site to its regional capital/location.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Difference between tourism and leisure:\n\n"
+            "• Tourism: The practice of travelling to different places for enjoyment and pleasure.\n\n"
+            "• Leisure: Taking time off from normal work or duties to relax.\n\n"
+            "(b) Tourist sites and their regional capitals/locations:\n\n"
+            "1. Lake Bosomtwe: Kumasi.\n\n"
+            "2. Volta Estuary: Accra.\n\n"
+            "3. Mole National Park: Tamale/Damongo.\n\n"
+            "4. Ussher Fort: Accra.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 2 - The Republics": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Describe the achievements of Dr. Kwame Nkrumah.",
+        answer: "⦿ Answer:\n\n"
+            "• National Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957.\n\n"
+            "• Infrastructure (Ports & Energy): Under his leadership, the Tema Harbour and the Akosombo Dam were built, the latter providing power to Ghana and Togo.\n\n"
+            "• Industrialization: He established state enterprises like VALCO, Rubber Manufacturing (Bonsa), Nsawam Canaries, GIHOC, and Akosombo Textiles.\n\n"
+            "• Healthcare: He expanded existing health centres and built new facilities, including Okomfo Anokye Teaching Hospital and the University of Ghana's Medical School at Korle Bu.\n\n"
+            "• Education: He introduced compulsory free tuition for primary education and free textbooks. He built several secondary schools and established UCC, KNUST, and various polytechnics and teacher training colleges.\n\n"
+            "• Financial Institutions: He established the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation (SIC).\n\n"
+            "• Housing and Agriculture: He formed the State Housing Corporation for affordable homes and set up state farms and irrigation facilities to improve food production and crop diversity.\n\n"
+            "• Fisheries: He built the Tema Fishing Harbour and town storage facilities to boost the fishing industry.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "(a) Mention four achievements of Dr. Kwame Nkrumah.\n"
+            "(b) Explain four reasons that led to the overthrow of Dr. Kwame Nkrumah.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Achievements:\n\n"
+            "• Any four from Question 1 above, such as leading Ghana to independence, building the Akosombo Dam, establishing KNUST, and creating the Bank of Ghana.\n\n"
+            "(b) Reasons for Overthrow:\n\n"
+            "• One-Party State: He declared Ghana a one-party state, making the CPP the only recognized party. This caused dissatisfaction as CPP members controlled all aspects of governance.\n\n"
+            "• Dictatorship: He was regarded as a dictator who shared power only with CPP members and ignored the interests and decisions of those outside his party.\n\n"
+            "• Preventive Detention Act (PDA): The PDA allowed him to detain opponents without trial. This led to human rights violations and the deaths of many in detention.\n\n"
+            "• Bribery and Corruption: His government suffered from widespread corruption and mismanagement, leading to the collapse of several state-owned enterprises and a loss of public confidence.\n\n"
+            "• Army Dissatisfaction: He provided preferential treatment and better conditions for his Presidential Guards compared to the regular Armed Forces, motivating the military to plot a coup.\n\n"
+            "• Disrespect for Traditional Institutions: By destooling chiefs and disregarding traditional authority, he drove many local leaders to join the opposition, making his government unpopular.\n\n"
+            "• Unfavourable Foreign Policies: Some of his international stances infuriated global leaders, who then worked toward his removal.\n\n"
+            "• Economic Mismanagement: Huge national debts were incurred by funding projects in other countries, such as Guinea and Mali, and embarking on overly ambitious national projects, leading to high inflation.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 3 - Our Natural and Human Resources": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1991 Q4)\n\n"
+            "(a) Identify five important types of timber found in the forest of Ghana.\n"
+            "(b) Mention five uses of timber.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Important types of timber found in Ghana include:\n\n"
+            "• Wawa: A light wood used for plywood and furniture.\n\n"
+            "• Mahogany: A durable hardwood used for high-quality furniture.\n\n"
+            "• Odum: A strong wood resistant to termites, used in construction.\n\n"
+            "• Sapele: Decorative timber used for fine veneers.\n\n"
+            "• Utile: Hardwood used for interior and exterior joinery.\n\n"
+            "(b) Uses of timber:\n\n"
+            "• Medicinal purposes: Parts of trees like mahogany and nim are used to treat diseases such as malaria.\n\n"
+            "• Building and construction: Used for window frames, door frames, and roofing.\n\n"
+            "• Furniture production: Used by carpenters to make chairs, tables, and beds.\n\n"
+            "• Source of fuel: Processed into charcoal or used as firewood for cooking.\n\n"
+            "• Raw materials for tools: Used to make handles for hammers and saws, or carved into handicrafts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 1994 Q3)\n\n"
+            "(a) Mention four minerals in Ghana.\n"
+            "(b) Name one important town associated with each mineral mentioned above.\n"
+            "(c) Mention the method of extraction of any three of the minerals.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Minerals in Ghana:\n\n"
+            "• Gold.\n\n"
+            "• Bauxite.\n\n"
+            "• Manganese.\n\n"
+            "• Diamond.\n\n"
+            "(b) Important towns associated with the minerals:\n\n"
+            "• Gold: Obuasi.\n\n"
+            "• Bauxite: Awaso.\n\n"
+            "• Manganese: Nsuta.\n\n"
+            "• Diamond: Akwatia.\n\n"
+            "(c) Methods of extraction:\n\n"
+            "• Gold: Deep shaft (underground) mining or surface mining.\n\n"
+            "• Bauxite: Open cast method or strip mining.\n\n"
+            "• Diamond: Dredge mining method.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2000 Q4)\n\n"
+            "(c) Explain any four benefits of mining to Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• Source of job creation: Employs engineers, miners, drivers, and accountants.\n\n"
+            "• Revenue generation: Companies pay corporate taxes and royalties to the government.\n\n"
+            "• Source of foreign exchange: Minerals are exported to earn foreign currency like dollars.\n\n"
+            "• Provision of infrastructure: Mining companies build roads, schools, and hospitals in local communities.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2009 Q6)\n\n"
+            "(a) What is human resource?\n"
+            "(b) Explain three factors which can negatively affect human resource in Ghana.\n"
+            "(c) Describe four measures that can be taken to improve human resource in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Human resource refers to the population of a country, specifically their skills, knowledge, and abilities used to facilitate development.\n\n"
+            "(b) Factors which negatively affect human resource in Ghana:\n\n"
+            "• Incidence of diseases: Diseases like malaria make people weak and reduce their productivity.\n\n"
+            "• Low level of education: Lacking skills prevents people from functioning efficiently in jobs.\n\n"
+            "• Poor conditions of work: Low wages and poor facilities reduce worker motivation.\n\n"
+            "(c) Measures to improve human resource in Ghana:\n\n"
+            "• Provision of quality education: Equipping people with skills through schools and vocational centers.\n\n"
+            "• Improvement in welfare: Providing better pay, health insurance, and accommodation.\n\n"
+            "• Improved working conditions: Providing modern tools and facilities to motivate staff.\n\n"
+            "• Proper supervision: Ensuring workers maintain positive attitudes like punctuality and honesty.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2020 Q5)\n\n"
+            "(b) In what four ways can the use of natural resources in Ghana be sustained?",
+        answer: "⦿ Answer:\n\n"
+            "• Practice of re-afforestation: Encouraging people to plant trees to replace those cut down.\n\n"
+            "• Public education: Using media to teach the public about activities that destroy resources.\n\n"
+            "• Enforcing laws and sanctions: Enacting and enforcing laws against illegal mining (galamsey) and water pollution.\n\n"
+            "• Finding alternative sources: Using LPG instead of charcoal to reduce pressure on forests for firewood.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - The Family": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2004 Q5)\n\n"
+            "(a) Based on discussions and studies in class, define marriage in the context of Ghanaian society.\n"
+            "(b) State four reasons that will cause you to marry when the time is due.\n"
+            "(c) Mr. and Mrs. Mensah have been happily married for forty-seven years. Suggest four possible reasons that might have accounted for the longevity of their marriage.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Marriage is the union between a man and a woman who have agreed to live together as husband and wife and have gone through all the procedures recognized in their society.\n\n"
+            "(b) Reasons for marriage:\n\n"
+            "• Procreation: For childbearing to continue the family lineage.\n\n"
+            "• Companionship: To have a partner to share life with.\n\n"
+            "• Social status/respect: To gain recognition and respect within the community.\n\n"
+            "• Social cohesion: To create unity and bonds between different families.\n\n"
+            "• Mutual assistance: For partners to help each other in daily life.\n\n"
+            "• Security and protection: To provide a safe environment for the couple and children.\n\n"
+            "• Legitimate sexual avenue: To have a socially and legally accepted relationship.\n\n"
+            "• Family or societal pressure: Meeting the expectations of elders and the community.\n\n"
+            "• Love and affection: To express deep emotional commitment.\n\n"
+            "• Economic support: For partners to pool resources and support the household financially.\n\n"
+            "(c) Reasons for the longevity of their marriage:\n\n"
+            "• Faithfulness and Honesty: Married couples are required to be honest and faithful to each other to prevent misunderstandings or conflicts. This builds trust, which allows the couple to live happily together.\n\n"
+            "• Hard work: This is an essential factor for a successful marriage in Ghana. It enables couples to sustain their jobs and earn enough money to cater for the needs of the spouse and children, ensuring the marriage is sustained.\n\n"
+            "• Effective communication: Success is achieved when a couple can express themselves clearly without intimidation, disrespect, or arrogance. Good communication ensures the couple understands each other well over a long period.\n\n"
+            "• Showing love and affection: Couples should show love and care at all times, especially during difficulties. This makes both partners feel valued, loved, and important.\n\n"
+            "• Adequate preparation and background checks: Planning and performing background checks before marriage ensures compatibility. This helps avoid \"wrong mate selection\" and behaviours that could destroy the relationship.\n\n"
+            "• Peaceful conflict resolution: Adopting peaceful ways to resolve misunderstandings is vital for living harmoniously.\n\n"
+            "• Tolerance: Partners must learn to accept each other's views and opinions, even when they differ. This enhances mutual understanding.\n\n"
+            "• Sexual satisfaction: Couples should satisfy each other sexually to maintain happiness and prevent extra-marital affairs, which leads to a more sustainable marriage.\n\n"
+            "• Child bearing and fertility: Giving birth to children often helps ensure the sustainability of the marriage. Couples who cannot conceive may also adopt a child to maintain a happy home.\n\n"
+            "• Ignoring external influence: Couples must minimize interference from in-laws, relatives, and friends to enjoy their privacy and protect the bond of the marriage.\n\n"
+            "• Mutual assistance, trust, and commitment: Success also relies on supporting one another, maintaining complete trust, and being willing to make sacrifices for the sake of the union.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Population": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2005 Q4)\n\n"
+            "(a) Identify any four social problems of rapid population growth in Ghana.\n"
+            "(b) Suggest any four ways of reducing population growth in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Social problems of rapid population growth in Ghana:\n\n"
+            "• It leads to environmental pollution: As the number of people increases in Ghana, human activities such as farming, building of houses, and mining increase. These activities cause water bodies, land, and air to be polluted rapidly.\n\n"
+            "• It leads to high rate of unemployment: High population growth increases the number of people seeking jobs. Because jobs are not available in the country, more people become jobless.\n\n"
+            "• It brings poverty: High population growth brings a high poverty ratio because the dependency burden and rate of unemployment in the country become very high.\n\n"
+            "• It increases crime rate: As a result of unemployment and poverty, people are compelled to engage in criminal activities such as armed robbery and kidnapping to survive.\n\n"
+            "• It leads to proliferation of slums: High population growth causes people to live in unauthorised structures like kiosks and wooden structures because they cannot afford city rents.\n\n"
+            "• It results in overcrowding/congestion: Public places like streets, schools, hospitals, and churches become overcrowded, which affects free movement.\n\n"
+            "(b) Ways of reducing population growth in Ghana:\n\n"
+            "• Discouraging early marriages: This minimizes the tendency of girls giving birth to many children during their long fertility period.\n\n"
+            "• Family planning activities: Married couples should be encouraged to practise spacing and birth control to ensure they have only the number of children they can cater for.\n\n"
+            "• Public education: Educating people on the causes and effects of high population growth through media and churches discourages large family sizes.\n\n"
+            "• Encouraging girl-child education: Higher education informs females about family planning and prevents early marriage and unwanted pregnancies.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2006 Q4)\n\n"
+            "(a) Identify four negative effects of rural-urban migration on the villages of Ghana.\n"
+            "(b) Suggest any three ways of reducing rural-urban migration in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Negative effects of rural-urban migration on villages in Ghana:\n\n"
+            "• Low production in rural areas: Migration results in a decrease in the production of food and cash crops in rural communities.\n\n"
+            "• Increased number of broken homes: Marriages often break down when one partner moves to the city, sometimes leaving the spouse and children behind.\n\n"
+            "• Lack of supervision of children: Children are often poorly monitored when parents migrate, leaving them to survive without proper parental care.\n\n"
+            "• Under-development in rural communities: The educated and energetic youth who should drive development move away, leading to the neglect of their hometowns.\n\n"
+            "• Loss of labour force: The villages lose the energetic people required to support farming and other agricultural activities.\n\n"
+            "(b) Ways of reducing rural-urban migration in Ghana:\n\n"
+            "• Provision of job opportunities: Creating jobs in rural areas through government or NGO initiatives prevents people from moving to cities for work.\n\n"
+            "• Provision of social amenities: Providing pipe-borne water, electricity, and hospitals in rural areas improves living conditions and encourages residents to stay.\n\n"
+            "• Development of industries: Establishing small-scale industries like pottery or soap making in villages provides local employment.\n\n"
+            "• Modernizing agriculture: Supporting rural dwellers with tractors and fertilizers motivates the youth to stay and engage in commercial farming.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2008 Q4)\n\n"
+            "(a) Mention any four causes of urbanization.\n"
+            "(b) State four effects of urbanization.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Causes of urbanization:\n\n"
+            "• Access to educational facilities: The presence of higher educational institutions in cities influences people to move for quality schooling.\n\n"
+            "• Opportunities for commercial activities: Urban centers provide avenues for trading, banking, and diverse businesses.\n\n"
+            "• Better social amenities: Cities offer developed facilities like hospitals, stable electricity, and water supply.\n\n"
+            "• Availability of job opportunities: People settle in urban centers seeking greener pastures and better employment than what is available in rural areas.\n\n"
+            "(b) Effects of urbanization:\n\n"
+            "• Development of slums: Urbanization leads to unauthorised structures for those who cannot afford proper housing.\n\n"
+            "• Environmental pollution: Increased industries and vehicle congestion cause significant air and land pollution.\n\n"
+            "• Proliferation of social vices: The mix of diverse populations and economic hardship often leads to increased armed robbery, prostitution, and alcoholism.\n\n"
+            "• High cost of living: Increased demand for services causes high prices for rent, food, and education in the cities.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2009 Q5)\n\n"
+            "(a) State four causes of high birth rate in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• Teenage pregnancy: Pregnancies among those aged 13–19 significantly increase the national birth rate.\n\n"
+            "• Early marriages: Marrying at an early age allows for a longer period of reproduction, leading to more children per family.\n\n"
+            "• Poverty: Poor families often give birth rapidly because they cannot afford family planning services or because they see children as a form of future security.\n\n"
+            "• Prestige of large families: In some cultures, having many children is a source of social, economic, or religious prestige.\n\n"
+            "• Family labour: Some parents have many children specifically to provide manual labour for farming or fishing.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 3 - Culture and National Identity": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2015 Q2)\n\n"
+            "Outline five ways of fostering national unity in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) By showing patriotism and selflessness: National identity can be promoted if Ghanaians show more interest, love and sacrifice to the development of Ghana than their personal or tribal interests. This will make them live together as one people and one nation with one common interest.\n\n"
+            "• (ii) Tolerance of opposing views: Ghanaians must develop the culture of tolerance by accepting divergent views and beliefs of others. This will make them build and maintain unity among them as Ghanaians and foster national unity.\n\n"
+            "• (iii) Respect for country's national symbols: National identity can also be promoted if Ghanaians relate mainly to the national symbols and not their tribal traits or symbols. These symbols include the national flag, national anthem, our currency, etc. This will give them national identity.\n\n"
+            "• (iv) Celebration of national cultural festivals: Ghanaians must be encouraged to celebrate national cultural festivals as a way of promoting national identity. This is because such occasions will bring all Ghanaians together irrespective of their ethnic background, thereby making them united as one people and one nation. Example, National Festival of Arts and Culture (NAFAC).\n\n"
+            "• (v) Respect and appreciation of other people's culture: Ghanaians must respect and appreciate the culture of other people. This will enhance the sense of oneness in the country.\n\n"
+            "• (vi) Promotion of inter-ethnic marriages: Ghanaians must be encouraged to practise inter-ethnic marriages as a way of promoting national identity. This is because such practice will unite two families, friends and partners from different ethnic backgrounds to promote national identity.\n\n"
+            "• (vii) Public education: There must be public education to sensitize people on the need to promote national identity. It will enable people to see themselves as one people and one nation without divisions. This can be carried out by institutions such as NCCE, churches, media, schools, etc.\n\n"
+            "• (viii) Encouraging the boarding school systems: The boarding school system must be encouraged as a way of promoting national identity. This is because it helps to unite people from different ethnic backgrounds and makes them live together as Ghanaians.\n\n"
+            "• (ix) Discouraging stereotyping: Ghanaians must learn to avoid the attitude and practice of stereotyping. They must not be encouraged to define or stigmatize other people based on their ethnic, gender, religion, political and economic status. This will help to promote national unity.\n\n"
+            "• (x) Learning and speaking other people's language: Ghanaians must appreciate the languages of other cultural groups by making effort to learn and speak them. This enhances communication and understanding among people from different ethnic groups and minimizes national disintegration.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2019 Q2)\n\n"
+            "(a) Define the following:\n"
+            "    (i) National unity\n"
+            "    (ii) National integrity\n"
+            "(b) Outline four ways by which the integrity of the nation can be defended.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Definitions:\n\n"
+            "• (i) National unity is the situation in which the various ethnic groups of a country live together in peace.\n\n"
+            "• (ii) National integrity is the upholding of the good name of a country through uprightness anywhere and at any time.\n\n"
+            "(b) Ways by which one can defend the integrity of the nation Ghana:\n\n"
+            "• (i) Living by the constitution of the country: People must uphold and defend the constitution or laws of Ghana as a way of defending the integrity of the country. This makes them law-abiding citizens and enhances the respect they have for the country as a nation.\n\n"
+            "• (ii) Accepting responsibility of work: People of Ghana must accept and appreciate responsibility of work anywhere in the country. They must put interests for Ghana first and accept to work anywhere they will be posted to serve the people of Ghana.\n\n"
+            "• (iii) Reporting criminals to law enforcement agencies: People must report those who engage in criminal activities in the country to the law enforcement authorities such as police. This will prevent criminal activities such as armed robbery, kidnapping, etc. in the country.\n\n"
+            "• (iv) Taking part in national assignment: People must accept the national call to serve the country. They must be prepared to honour the invitation to be part of national security service, national team, special committee, etc. and make meaningful impact in such areas.\n\n"
+            "• (v) Protecting the symbols of national unity: People can defend the integrity of Ghana by respecting and protecting the symbols of Ghana such as coat of arms, national flag, our currency, etc. These symbols define us as Ghanaians and therefore must be respected at anywhere and at any time.\n\n"
+            "• (vi) Protecting national properties: The properties of Ghana such as public school buildings, state enterprises, forest, water bodies, etc. must be protected by us all. This enhances the respect people have for the country and its properties.\n\n"
+            "• (vii) Defending the nation at international fora: The name of Ghana must be respected and defended by every citizen of the country internationally. This portrays positive image about the country to the international communities and people.\n\n"
+            "• (viii) Being patriotic: People must have the sense of patriotism as a way of defending the good name of Ghana. They must sacrifice their personal interest and promote the interest of Ghana at anywhere and at any time.\n\n"
+            "• (ix) Patronizing made-in-Ghana goods: People must develop interest for made-in-Ghana goods such as shoes, cloth, cars, television, radio, etc. This enhances the love and respect people have for goods made in Ghana and collectively promotes local producers in the country.\n\n"
+            "• (x) Cultivating good character: People must cultivate and display good behaviours such as honesty, respect for authority, hard work, etc. to other people or at workplaces. This will help to promote unity and harmonious living among people in the country.\n\n"
+            "• (xi) Payment of taxes: National integrity must be defended through performance of our civic responsibilities. Ghanaians must pay their taxes to enable government raise funds to undertake projects in the country. This will help to bring development in the country.\n\n"
+            "• (xii) Upholding national virtues or values: People must uphold the national virtues or values that are cherished in the country. These include honesty, tolerance, love for one another, patriotism, hardworking, etc.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2021 Q2c)\n\n"
+            "State four symbols of national unity.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) The National Anthem.\n\n"
+            "• (ii) The National Pledge.\n\n"
+            "• (iii) The National Flag.\n\n"
+            "• (iv) The Coat of Arms.\n\n"
+            "• (v) The State Sword.\n\n"
+            "• (vi) The Parliamentary Mace.\n\n"
+            "• (vii) The Independence Arch.\n\n"
+            "• (viii) Our Currency (cedi).\n\n"
+            "• (ix) The state sceptre.\n\n"
+            "• (x) Postage stamp.",
         explanation: "",
       ),
     ],
@@ -2627,8 +3276,10 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "BECE Theory Question 1\n\nState the difference between a homogeneous and a heterogeneous mixture.",
-        answer: "Homogeneous mixtures have a uniform composition and single phase throughout. Heterogeneous mixtures have visible, distinct phases.",
+        scenario:
+            "BECE Theory Question 1\n\nState the difference between a homogeneous and a heterogeneous mixture.",
+        answer:
+            "Homogeneous mixtures have a uniform composition and single phase throughout. Heterogeneous mixtures have visible, distinct phases.",
         explanation: "For example, sugar solution vs. muddy water.",
       ),
     ],

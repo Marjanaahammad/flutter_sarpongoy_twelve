@@ -2247,437 +2247,274 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "Total = 240 ÷ 0.6 = 400."),
     ],
   ),
-  "JHS1 - Number: Ratios and Proportion": QuizModel(
+  "JHS 1 - Number: Ratios and Proportion": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Kofi and Ama shared an amount of money in the ratio 3 : 2 respectively. If Kofi had ₵60,000.00, how much was shared?          (BECE 2001 Q20)",
-          options: [
-            "₵36,000.00",
-            "₵40,000.00",
-            "₵90,000.00",
-            "₵100,000.00"
-          ],
+          question:
+              "1. Kofi and Ama shared an amount of money in the ratio 3 : 2 respectively. If Kofi had ₵60,000.00, how much was shared?          (BECE 2001 Q20)",
+          options: ["₵36,000.00", "₵40,000.00", "₵90,000.00", "₵100,000.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Kofi's 3 parts equal ₵60,000.00, so one part is ₵20,000.00. The total is 5 × ₵20,000.00 = ₵100,000.00."
-      ),
-
+          explanation:
+              "Kofi's 3 parts equal ₵60,000.00, so one part is ₵20,000.00. The total is 5 × ₵20,000.00 = ₵100,000.00."),
       QuizQuestion(
-          question: "2. Kwame, Atsu and Kojo shared a profit of ₵50,000.00 in the ratio 1 : 4 : 3 respectively. How much did Atsu get?          (BECE 1994 Q14)",
-          options: [
-            "₵62,500.00",
-            "₵125,000.00",
-            "₵187,500.00",
-            "₵25,000.00"
-          ],
+          question:
+              "2. Kwame, Atsu and Kojo shared a profit of ₵50,000.00 in the ratio 1 : 4 : 3 respectively. How much did Atsu get?          (BECE 1994 Q14)",
+          options: ["₵62,500.00", "₵125,000.00", "₵187,500.00", "₵25,000.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The total number of parts is 1 + 4 + 3 = 8. Atsu's share is 4/8 × ₵50,000.00 = ₵25,000.00."
-      ),
-
+          explanation:
+              "The total number of parts is 1 + 4 + 3 = 8. Atsu's share is 4/8 × ₵50,000.00 = ₵25,000.00."),
       QuizQuestion(
-          question: "3. If 50 oranges cost ₵2,500.00, how many oranges can be bought for ₵15,000.00?          (BECE 1997 Q37)",
-          options: [
-            "3",
-            "30",
-            "60",
-            "300"
-          ],
+          question:
+              "3. If 50 oranges cost ₵2,500.00, how many oranges can be bought for ₵15,000.00?          (BECE 1997 Q37)",
+          options: ["3", "30", "60", "300"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "₵15,000.00 is 6 times ₵2,500.00, so the number of oranges is 6 × 50 = 300."
-      ),
-
+          explanation:
+              "₵15,000.00 is 6 times ₵2,500.00, so the number of oranges is 6 × 50 = 300."),
       QuizQuestion(
-          question: "4. If 21 : 2x = 7 : 10, find the value of x.          (BECE 1990 Q9)",
-          options: [
-            "3",
-            "2¼",
-            "15",
-            "30"
-          ],
+          question:
+              "4. If 21 : 2x = 7 : 10, find the value of x.          (BECE 1990 Q9)",
+          options: ["3", "2¼", "15", "30"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "21/(2x) = 7/10. Cross-multiplying gives 210 = 14x, so x = 15."
-      ),
-
+          explanation:
+              "21/(2x) = 7/10. Cross-multiplying gives 210 = 14x, so x = 15."),
       QuizQuestion(
-          question: "5. A trader sold 90 oranges at 3 for ₵50.00. How much did she get from selling all the oranges?          (BECE 1998 Q12)",
-          options: [
-            "₵1,500.00",
-            "₵4,500.00",
-            "₵6,000.00",
-            "₵15,000.00"
-          ],
+          question:
+              "5. A trader sold 90 oranges at 3 for ₵50.00. How much did she get from selling all the oranges?          (BECE 1998 Q12)",
+          options: ["₵1,500.00", "₵4,500.00", "₵6,000.00", "₵15,000.00"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × ₵50.00 = ₵1,500.00."
-      ),
-
+          explanation:
+              "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × ₵50.00 = ₵1,500.00."),
       QuizQuestion(
-          question: "6. A woman bought 210 oranges for ₵650.00. She sold all of them at 3 for ₵20.00. How much profit did she make?          (BECE 1996 Q28)",
-          options: [
-            "₵350.00",
-            "₵450.00",
-            "₵750.00",
-            "₵650.00"
-          ],
+          question:
+              "6. A woman bought 210 oranges for ₵650.00. She sold all of them at 3 for ₵20.00. How much profit did she make?          (BECE 1996 Q28)",
+          options: ["₵350.00", "₵450.00", "₵750.00", "₵650.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "210 oranges make 70 groups of 3. Her sales were 70 × ₵20.00 = ₵1,400.00. Profit = ₵1,400.00 - ₵650.00 = ₵750.00."
-      ),
-
+          explanation:
+              "210 oranges make 70 groups of 3. Her sales were 70 × ₵20.00 = ₵1,400.00. Profit = ₵1,400.00 - ₵650.00 = ₵750.00."),
       QuizQuestion(
-          question: "7. Kojo, Ebo and Ama shared ₵14,000.00 among themselves. Kojo had twice as much as Ebo and Ebo also had twice as much as Ama. How much did Ebo get?          (BECE 1996 Q7)",
-          options: [
-            "₵8,000.00",
-            "₵6,000.00",
-            "₵4,000.00",
-            "₵3,000.00"
-          ],
+          question:
+              "7. Kojo, Ebo and Ama shared ₵14,000.00 among themselves. Kojo had twice as much as Ebo and Ebo also had twice as much as Ama. How much did Ebo get?          (BECE 1996 Q7)",
+          options: ["₵8,000.00", "₵6,000.00", "₵4,000.00", "₵3,000.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Let Ama's share be 1 part. Ebo has 2 parts and Kojo has 4 parts, giving 7 parts altogether. Ebo's share is 2/7 × ₵14,000.00 = ₵4,000.00."
-      ),
-
+          explanation:
+              "Let Ama's share be 1 part. Ebo has 2 parts and Kojo has 4 parts, giving 7 parts altogether. Ebo's share is 2/7 × ₵14,000.00 = ₵4,000.00."),
       QuizQuestion(
-          question: "8. The ratio of boys to girls in a school is 9 : 11. If there are 400 pupils in the school, how many boys are there?          (BECE 1996 Q29)",
-          options: [
-            "80",
-            "120",
-            "180",
-            "220"
-          ],
+          question:
+              "8. The ratio of boys to girls in a school is 9 : 11. If there are 400 pupils in the school, how many boys are there?          (BECE 1996 Q29)",
+          options: ["80", "120", "180", "220"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The total number of parts is 9 + 11 = 20. The number of boys is 9/20 × 400 = 180."
-      ),
-
+          explanation:
+              "The total number of parts is 9 + 11 = 20. The number of boys is 9/20 × 400 = 180."),
       QuizQuestion(
-          question: "9. Adwoa and Ama shared an amount of ₵6,000.00 in the ratio 3 : 2. Find Adwoa's share.          (BECE 1997 Q32)",
-          options: [
-            "₵2,000.00",
-            "₵2,400.00",
-            "₵3,000.00",
-            "₵3,600.00"
-          ],
+          question:
+              "9. Adwoa and Ama shared an amount of ₵6,000.00 in the ratio 3 : 2. Find Adwoa's share.          (BECE 1997 Q32)",
+          options: ["₵2,000.00", "₵2,400.00", "₵3,000.00", "₵3,600.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The total number of parts is 3 + 2 = 5. Adwoa's share is 3/5 × ₵6,000.00 = ₵3,600.00."
-      ),
-
+          explanation:
+              "The total number of parts is 3 + 2 = 5. Adwoa's share is 3/5 × ₵6,000.00 = ₵3,600.00."),
       QuizQuestion(
-          question: "10. Adjoa and Ama share ₵600.00 between them in the ratio 3 : 2. Find Adjoa's share.          (BECE 1991 Q21)",
-          options: [
-            "₵200.00",
-            "₵240.00",
-            "₵300.00",
-            "₵360.00"
-          ],
+          question:
+              "10. Adjoa and Ama share ₵600.00 between them in the ratio 3 : 2. Find Adjoa's share.          (BECE 1991 Q21)",
+          options: ["₵200.00", "₵240.00", "₵300.00", "₵360.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The total number of parts is 3 + 2 = 5. Adjoa's share is 3/5 × ₵600.00 = ₵360.00."
-      ),
+          explanation:
+              "The total number of parts is 3 + 2 = 5. Adjoa's share is 3/5 × ₵600.00 = ₵360.00."),
       QuizQuestion(
-          question: "11. An amount of money is shared between Kofi and Ama in the ratio 3 : 5. If Ama received ₵4,650.00, what is Kofi's share?          (BECE 1992 Q10)",
-          options: [
-            "₵930.00",
-            "₵1,550.00",
-            "₵1,743.75",
-            "₵2,790.00"
-          ],
+          question:
+              "11. An amount of money is shared between Kofi and Ama in the ratio 3 : 5. If Ama received ₵4,650.00, what is Kofi's share?          (BECE 1992 Q10)",
+          options: ["₵930.00", "₵1,550.00", "₵1,743.75", "₵2,790.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Ama's 5 parts equal ₵4,650.00, so one part is ₵930.00. Kofi's share is 3 × ₵930.00 = ₵2,790.00."
-      ),
-
+          explanation:
+              "Ama's 5 parts equal ₵4,650.00, so one part is ₵930.00. Kofi's share is 3 × ₵930.00 = ₵2,790.00."),
       QuizQuestion(
-          question: "12. The sum of the ages of a man and his wife is 81 years. The ratio of their ages is 5 : 4. Find the age of the younger person.          (BECE 1999 Q15)",
-          options: [
-            "30 years",
-            "36 years",
-            "45 years",
-            "51 years"
-          ],
+          question:
+              "12. The sum of the ages of a man and his wife is 81 years. The ratio of their ages is 5 : 4. Find the age of the younger person.          (BECE 1999 Q15)",
+          options: ["30 years", "36 years", "45 years", "51 years"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The total number of parts is 5 + 4 = 9. The younger person's age is 4/9 × 81 = 36 years."
-      ),
-
+          explanation:
+              "The total number of parts is 5 + 4 = 9. The younger person's age is 4/9 × 81 = 36 years."),
       QuizQuestion(
-          question: "13. A man has three children whose ages are 9 years, 12 years and 24 years. Find the ratio of their ages.          (BECE 1993 Q9)",
-          options: [
-            "1 : 2 : 3",
-            "1 : 2 : 4",
-            "2 : 3 : 6",
-            "3 : 4 : 8"
-          ],
+          question:
+              "13. A man has three children whose ages are 9 years, 12 years and 24 years. Find the ratio of their ages.          (BECE 1993 Q9)",
+          options: ["1 : 2 : 3", "1 : 2 : 4", "2 : 3 : 6", "3 : 4 : 8"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The HCF of 9, 12 and 24 is 3. Dividing each age by 3 gives 3 : 4 : 8."
-      ),
-
+          explanation:
+              "The HCF of 9, 12 and 24 is 3. Dividing each age by 3 gives 3 : 4 : 8."),
       QuizQuestion(
-          question: "14. The heights of two boys are in the ratio 4 : 5. The shorter boy is 80 cm. What is the height of the taller boy?          (BECE 1995 Q31)",
-          options: [
-            "100 cm",
-            "150 cm",
-            "164 cm",
-            "180 cm"
-          ],
+          question:
+              "14. The heights of two boys are in the ratio 4 : 5. The shorter boy is 80 cm. What is the height of the taller boy?          (BECE 1995 Q31)",
+          options: ["100 cm", "150 cm", "164 cm", "180 cm"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The shorter boy's 4 parts equal 80 cm, so one part is 20 cm. The taller boy's height is 5 × 20 cm = 100 cm."
-      ),
-
+          explanation:
+              "The shorter boy's 4 parts equal 80 cm, so one part is 20 cm. The taller boy's height is 5 × 20 cm = 100 cm."),
       QuizQuestion(
-          question: "15. If 1 : x is equivalent to 6¼ : 25, find x.          (BECE 1992 Q35)",
-          options: [
-            "4",
-            "6.25",
-            "24",
-            "100"
-          ],
+          question:
+              "15. If 1 : x is equivalent to 6¼ : 25, find x.          (BECE 1992 Q35)",
+          options: ["4", "6.25", "24", "100"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Since 6¼ = 6.25, 1/x = 6.25/25 = 1/4. Therefore, x = 4."
-      ),
-
+          explanation:
+              "Since 6¼ = 6.25, 1/x = 6.25/25 = 1/4. Therefore, x = 4."),
       QuizQuestion(
-          question: "16. Express the ratio of 64 cm to 48 cm in simplest form.          (BECE 1991 Q29)",
-          options: [
-            "3 : 4",
-            "4 : 3",
-            "16 : 12",
-            "12 : 16"
-          ],
+          question:
+              "16. Express the ratio of 64 cm to 48 cm in simplest form.          (BECE 1991 Q29)",
+          options: ["3 : 4", "4 : 3", "16 : 12", "12 : 16"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Divide both terms of 64 : 48 by their HCF, 16. This gives 4 : 3."
-      ),
-
+          explanation:
+              "Divide both terms of 64 : 48 by their HCF, 16. This gives 4 : 3."),
       QuizQuestion(
-          question: "17. The ratio 9 : x is equivalent to 36 : 20. What is the value of x?          (BECE 2000 Q19)",
-          options: [
-            "4",
-            "5",
-            "6",
-            "8"
-          ],
+          question:
+              "17. The ratio 9 : x is equivalent to 36 : 20. What is the value of x?          (BECE 2000 Q19)",
+          options: ["4", "5", "6", "8"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "9/x = 36/20. Cross-multiplying gives 180 = 36x, so x = 5."
-      ),
-
+          explanation:
+              "9/x = 36/20. Cross-multiplying gives 180 = 36x, so x = 5."),
       QuizQuestion(
-          question: "18. Three people share an amount of ₵910,800.00 in the ratio 2 : 3 : 4. What will be the highest share?          (BECE 2006 Q13)",
-          options: [
-            "₵202,400.00",
-            "₵303,600.00",
-            "₵404,800.00",
-            "₵455,400.00"
-          ],
+          question:
+              "18. Three people share an amount of ₵910,800.00 in the ratio 2 : 3 : 4. What will be the highest share?          (BECE 2006 Q13)",
+          options: ["₵202,400.00", "₵303,600.00", "₵404,800.00", "₵455,400.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The total number of parts is 2 + 3 + 4 = 9. The highest share is 4/9 × ₵910,800.00 = ₵404,800.00."
-      ),
-
+          explanation:
+              "The total number of parts is 2 + 3 + 4 = 9. The highest share is 4/9 × ₵910,800.00 = ₵404,800.00."),
       QuizQuestion(
-          question: "19. The ratio of mangoes to oranges in a basket is 3 : 2. If there are 36 mangoes, how many oranges are in the basket?          (BECE 2011 Q5)",
-          options: [
-            "90",
-            "60",
-            "24",
-            "12"
-          ],
+          question:
+              "19. The ratio of mangoes to oranges in a basket is 3 : 2. If there are 36 mangoes, how many oranges are in the basket?          (BECE 2011 Q5)",
+          options: ["90", "60", "24", "12"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The 3 parts representing mangoes equal 36, so one part is 12. The number of oranges is 2 × 12 = 24."
-      ),
-
+          explanation:
+              "The 3 parts representing mangoes equal 36, so one part is 12. The number of oranges is 2 × 12 = 24."),
       QuizQuestion(
-          question: "20. Given that 1 : 3 = x : 21, find the value of x.          (BECE 2009 Q27)",
-          options: [
-            "4",
-            "5",
-            "7",
-            "63"
-          ],
+          question:
+              "20. Given that 1 : 3 = x : 21, find the value of x.          (BECE 2009 Q27)",
+          options: ["4", "5", "7", "63"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "1/3 = x/21. Cross-multiplying gives 3x = 21, so x = 7."
-      ),
+          explanation:
+              "1/3 = x/21. Cross-multiplying gives 3x = 21, so x = 7."),
       QuizQuestion(
-          question: "21. A typist charges ₵2,000.00 for the first 5 sheets typed and ₵600.00 for any additional sheet. How much will Barbara pay, if she presents 20 sheets for typing?          (BECE 2002A Q15)",
-          options: [
-            "₵8,000.00",
-            "₵11,000.00",
-            "₵12,000.00",
-            "₵19,000.00"
-          ],
+          question:
+              "21. A typist charges ₵2,000.00 for the first 5 sheets typed and ₵600.00 for any additional sheet. How much will Barbara pay, if she presents 20 sheets for typing?          (BECE 2002A Q15)",
+          options: ["₵8,000.00", "₵11,000.00", "₵12,000.00", "₵19,000.00"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The first 5 sheets cost ₵2,000.00. The remaining 15 sheets cost 15 × ₵600.00 = ₵9,000.00. Total cost = ₵11,000.00."
-      ),
-
+          explanation:
+              "The first 5 sheets cost ₵2,000.00. The remaining 15 sheets cost 15 × ₵600.00 = ₵9,000.00. Total cost = ₵11,000.00."),
       QuizQuestion(
-          question: "22. Kwame and Ama shared an amount of money in the ratio 5 : 4 respectively. If Kwame had GH₵9.00, how much did they share?          (BECE 2011 Q28)",
-          options: [
-            "GH₵16.20",
-            "GH₵36.00",
-            "GH₵45.00",
-            "GH₵81.00"
-          ],
+          question:
+              "22. Kwame and Ama shared an amount of money in the ratio 5 : 4 respectively. If Kwame had GH₵9.00, how much did they share?          (BECE 2011 Q28)",
+          options: ["GH₵16.20", "GH₵36.00", "GH₵45.00", "GH₵81.00"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Kwame's 5 parts equal GH₵9.00, so one part is GH₵1.80. The total amount is 9 × GH₵1.80 = GH₵16.20."
-      ),
-
+          explanation:
+              "Kwame's 5 parts equal GH₵9.00, so one part is GH₵1.80. The total amount is 9 × GH₵1.80 = GH₵16.20."),
       QuizQuestion(
-          question: "23. If 6 : 8 = r : 48, find the value of r.          (BECE 2019 Q19)",
-          options: [
-            "36",
-            "34",
-            "14",
-            "12"
-          ],
+          question:
+              "23. If 6 : 8 = r : 48, find the value of r.          (BECE 2019 Q19)",
+          options: ["36", "34", "14", "12"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "6/8 = r/48. Cross-multiplying gives 8r = 288, so r = 36."
-      ),
-
+          explanation:
+              "6/8 = r/48. Cross-multiplying gives 8r = 288, so r = 36."),
       QuizQuestion(
-          question: "24. A man divided his 360 cattle among his three sons in the ratio 7 : 6 : 5. How many cattle did the one who had the smallest share receive?          (BECE 2002B Q30)",
-          options: [
-            "100",
-            "120",
-            "140",
-            "160"
-          ],
+          question:
+              "24. A man divided his 360 cattle among his three sons in the ratio 7 : 6 : 5. How many cattle did the one who had the smallest share receive?          (BECE 2002B Q30)",
+          options: ["100", "120", "140", "160"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The total number of parts is 7 + 6 + 5 = 18. The smallest share is 5/18 × 360 = 100 cattle."
-      ),
-
+          explanation:
+              "The total number of parts is 7 + 6 + 5 = 18. The smallest share is 5/18 × 360 = 100 cattle."),
       QuizQuestion(
-          question: "25. Yakubu, Seidu and Amina shared an amount of money in the ratio 3 : 4 : 5. Find how much was shared, if Amina received ₵40,000.00.          (BECE 2002A Q17)",
-          options: [
-            "₵72,000.00",
-            "₵80,000.00",
-            "₵96,000.00",
-            "₵120,000.00"
-          ],
+          question:
+              "25. Yakubu, Seidu and Amina shared an amount of money in the ratio 3 : 4 : 5. Find how much was shared, if Amina received ₵40,000.00.          (BECE 2002A Q17)",
+          options: ["₵72,000.00", "₵80,000.00", "₵96,000.00", "₵120,000.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Amina's 5 parts equal ₵40,000.00, so one part is ₵8,000.00. The total amount is 12 × ₵8,000.00 = ₵96,000.00."
-      ),
-
+          explanation:
+              "Amina's 5 parts equal ₵40,000.00, so one part is ₵8,000.00. The total amount is 12 × ₵8,000.00 = ₵96,000.00."),
       QuizQuestion(
-          question: "26. There are 15 females in a debating club. If the ratio of females to males is 3 : 2, how many members are in the club?          (BECE 2020 Q31)",
-          options: [
-            "6",
-            "10",
-            "22",
-            "25"
-          ],
+          question:
+              "26. There are 15 females in a debating club. If the ratio of females to males is 3 : 2, how many members are in the club?          (BECE 2020 Q31)",
+          options: ["6", "10", "22", "25"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The 3 parts representing females equal 15, so one part is 5. The total number of parts is 5, giving 5 × 5 = 25 members."
-      ),
-
+          explanation:
+              "The 3 parts representing females equal 15, so one part is 5. The total number of parts is 5, giving 5 × 5 = 25 members."),
       QuizQuestion(
-          question: "27. The number of boys in a school is 120. If the ratio of boys to girls is 5 : 7, find the total number of students in the school.          (BECE 2006 Q4)",
-          options: [
-            "240",
-            "288",
-            "600",
-            "840"
-          ],
+          question:
+              "27. The number of boys in a school is 120. If the ratio of boys to girls is 5 : 7, find the total number of students in the school.          (BECE 2006 Q4)",
+          options: ["240", "288", "600", "840"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The 5 parts representing boys equal 120, so one part is 24. The total number of students is 12 × 24 = 288."
-      ),
-
+          explanation:
+              "The 5 parts representing boys equal 120, so one part is 24. The total number of students is 12 × 24 = 288."),
       QuizQuestion(
-          question: "28. Kojo can buy 15 shirts at GH₵4.00 each. If the price is increased to GH₵5.00, how many shirts can he buy?          (BECE 2014 Q15)",
-          options: [
-            "12",
-            "15",
-            "19",
-            "20"
-          ],
+          question:
+              "28. Kojo can buy 15 shirts at GH₵4.00 each. If the price is increased to GH₵5.00, how many shirts can he buy?          (BECE 2014 Q15)",
+          options: ["12", "15", "19", "20"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Kojo has 15 × GH₵4.00 = GH₵60.00. At GH₵5.00 per shirt, he can buy 60 ÷ 5 = 12 shirts."
-      ),
-
+          explanation:
+              "Kojo has 15 × GH₵4.00 = GH₵60.00. At GH₵5.00 per shirt, he can buy 60 ÷ 5 = 12 shirts."),
       QuizQuestion(
-          question: "29. Araba and Ama share 20 oranges in such a way that Ama receives 12 oranges. Find the ratio of Araba's share to that of Ama.          (BECE 2023 Q19)",
-          options: [
-            "3 : 2",
-            "2 : 3",
-            "2 : 5",
-            "3 : 5"
-          ],
+          question:
+              "29. Araba and Ama share 20 oranges in such a way that Ama receives 12 oranges. Find the ratio of Araba's share to that of Ama.          (BECE 2023 Q19)",
+          options: ["3 : 2", "2 : 3", "2 : 5", "3 : 5"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Araba receives 20 - 12 = 8 oranges. The ratio 8 : 12 simplifies to 2 : 3."
-      ),
-
+          explanation:
+              "Araba receives 20 - 12 = 8 oranges. The ratio 8 : 12 simplifies to 2 : 3."),
       QuizQuestion(
-          question: "30. Ama is 9 years older than Kwame. If Kwame is 18 years old, find the ratio of the age of Kwame to that of Ama.          (BECE 2010 Q40)",
-          options: [
-            "3 : 2",
-            "1 : 3",
-            "2 : 3",
-            "2 : 1"
-          ],
+          question:
+              "30. Ama is 9 years older than Kwame. If Kwame is 18 years old, find the ratio of the age of Kwame to that of Ama.          (BECE 2010 Q40)",
+          options: ["3 : 2", "1 : 3", "2 : 3", "2 : 1"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Ama is 18 + 9 = 27 years old. The ratio of Kwame's age to Ama's age is 18 : 27 = 2 : 3."
-      ),
+          explanation:
+              "Ama is 18 + 9 = 27 years old. The ratio of Kwame's age to Ama's age is 18 : 27 = 2 : 3."),
       QuizQuestion(
-          question: "31. Vera is 11 years old and her brother is 9 years old. They shared 60 oranges in the ratio of their ages. How many more oranges does Vera get?          (BECE 2020 Q11)",
-          options: [
-            "6",
-            "27",
-            "34",
-            "39"
-          ],
+          question:
+              "31. Vera is 11 years old and her brother is 9 years old. They shared 60 oranges in the ratio of their ages. How many more oranges does Vera get?          (BECE 2020 Q11)",
+          options: ["6", "27", "34", "39"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The ratio is 11 : 9, making 20 parts altogether. Vera gets 33 oranges and her brother gets 27 oranges, so Vera gets 6 more."
-      ),
-
+          explanation:
+              "The ratio is 11 : 9, making 20 parts altogether. Vera gets 33 oranges and her brother gets 27 oranges, so Vera gets 6 more."),
       QuizQuestion(
           question: "32. If y : 28 = 5 : 7, find y.          (BECE 2002B Q13)",
-          options: [
-            "5",
-            "20",
-            "31.2",
-            "37.5"
-          ],
+          options: ["5", "20", "31.2", "37.5"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "y/28 = 5/7. Therefore, y = 28 × 5/7 = 20."
-      ),
-
+          explanation: "y/28 = 5/7. Therefore, y = 28 × 5/7 = 20."),
       QuizQuestion(
-          question: "33. A boy sold some oranges at three for ₵500.00. If his total sales was ₵100,000.00, how many oranges did he sell?          (BECE 2006 Q10)",
-          options: [
-            "300",
-            "400",
-            "500",
-            "600"
-          ],
+          question:
+              "33. A boy sold some oranges at three for ₵500.00. If his total sales was ₵100,000.00, how many oranges did he sell?          (BECE 2006 Q10)",
+          options: ["300", "400", "500", "600"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "₵100,000.00 contains 100,000 ÷ 500 = 200 groups of 3 oranges. Therefore, he sold 200 × 3 = 600 oranges."
-      ),
-
+          explanation:
+              "₵100,000.00 contains 100,000 ÷ 500 = 200 groups of 3 oranges. Therefore, he sold 200 × 3 = 600 oranges."),
       QuizQuestion(
-          question: "34. Kofi, Kojo and Ama shared GH₵480,000.00 in the ratio 3 : 5 : 4. How much did Ama receive?          (BECE 2014 Q23)",
+          question:
+              "34. Kofi, Kojo and Ama shared GH₵480,000.00 in the ratio 3 : 5 : 4. How much did Ama receive?          (BECE 2014 Q23)",
           options: [
             "GH₵160,000.00",
             "GH₵200,000.00",
@@ -2686,567 +2523,353 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The total number of parts is 3 + 5 + 4 = 12. Ama's share is 4/12 × GH₵480,000.00 = GH₵160,000.00."
-      ),
-
+          explanation:
+              "The total number of parts is 3 + 5 + 4 = 12. Ama's share is 4/12 × GH₵480,000.00 = GH₵160,000.00."),
       QuizQuestion(
-          question: "35. Charles and Helen started a business with an amount of GH₵7,000.00. If their contributions were in the ratio 4 : 3 respectively, find Helen's contribution.          (BECE 2025 Q40)",
-          options: [
-            "GH₵2,500.00",
-            "GH₵3,000.00",
-            "GH₵4,000.00",
-            "GH₵5,000.00"
-          ],
+          question:
+              "35. Charles and Helen started a business with an amount of GH₵7,000.00. If their contributions were in the ratio 4 : 3 respectively, find Helen's contribution.          (BECE 2025 Q40)",
+          options: ["GH₵2,500.00", "GH₵3,000.00", "GH₵4,000.00", "GH₵5,000.00"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The total number of parts is 4 + 3 = 7. Helen's contribution is 3/7 × GH₵7,000.00 = GH₵3,000.00."
-      ),
-
+          explanation:
+              "The total number of parts is 4 + 3 = 7. Helen's contribution is 3/7 × GH₵7,000.00 = GH₵3,000.00."),
       QuizQuestion(
-          question: "36. The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?          (BECE 2022 Q27)",
-          options: [
-            "48",
-            "143",
-            "169",
-            "264"
-          ],
+          question:
+              "36. The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?          (BECE 2022 Q27)",
+          options: ["48", "143", "169", "264"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The 13 parts representing farmers equal 312, so one part is 24. The number of children is 11 × 24 = 264."
-      ),
-
+          explanation:
+              "The 13 parts representing farmers equal 312, so one part is 24. The number of children is 11 × 24 = 264."),
       QuizQuestion(
           question: "37. If a : 27 = 6 : 18, find a.          (BECE 2007 Q27)",
-          options: [
-            "4",
-            "9",
-            "51",
-            "81"
-          ],
+          options: ["4", "9", "51", "81"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "a/27 = 6/18 = 1/3. Therefore, a = 27 ÷ 3 = 9."
-      ),
-
+          explanation: "a/27 = 6/18 = 1/3. Therefore, a = 27 ÷ 3 = 9."),
       QuizQuestion(
-          question: "38. The ratio 8 : 12 is equivalent to y : 9. What is the value of y?          (BECE 2008 Q7)",
-          options: [
-            "4",
-            "5",
-            "6",
-            "7"
-          ],
+          question:
+              "38. The ratio 8 : 12 is equivalent to y : 9. What is the value of y?          (BECE 2008 Q7)",
+          options: ["4", "5", "6", "7"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "8/12 = y/9. Since 8/12 = 2/3, y = 2/3 × 9 = 6."
-      ),
-
+          explanation: "8/12 = y/9. Since 8/12 = 2/3, y = 2/3 × 9 = 6."),
       QuizQuestion(
-          question: "39. Kofi and Ama shared an amount of GH₵3,000.00 in the ratio 2 : 3. Find the amount received by Kofi.          (BECE 2021 Q3)",
-          options: [
-            "GH₵1,000.00",
-            "GH₵1,200.00",
-            "GH₵1,500.00",
-            "GH₵1,800.00"
-          ],
+          question:
+              "39. Kofi and Ama shared an amount of GH₵3,000.00 in the ratio 2 : 3. Find the amount received by Kofi.          (BECE 2021 Q3)",
+          options: ["GH₵1,000.00", "GH₵1,200.00", "GH₵1,500.00", "GH₵1,800.00"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The total number of parts is 2 + 3 = 5. Kofi's share is 2/5 × GH₵3,000.00 = GH₵1,200.00."
-      ),
-
+          explanation:
+              "The total number of parts is 2 + 3 = 5. Kofi's share is 2/5 × GH₵3,000.00 = GH₵1,200.00."),
       QuizQuestion(
-          question: "40. Esi and Kwasi are 12 and 8 years old respectively. They share 60 mangoes in the ratio of their ages. How many mangoes does Esi get?          (BECE 2010 Q12)",
-          options: [
-            "42",
-            "40",
-            "36",
-            "18"
-          ],
+          question:
+              "40. Esi and Kwasi are 12 and 8 years old respectively. They share 60 mangoes in the ratio of their ages. How many mangoes does Esi get?          (BECE 2010 Q12)",
+          options: ["42", "40", "36", "18"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The ratio 12 : 8 simplifies to 3 : 2. Esi gets 3/5 × 60 = 36 mangoes."
-      ),
+          explanation:
+              "The ratio 12 : 8 simplifies to 3 : 2. Esi gets 3/5 × 60 = 36 mangoes."),
       QuizQuestion(
-          question: "41. A trader sold 90 oranges at 3 for GH₵0.75. How much did she get from selling all the oranges?          (BECE 2019 Q28)",
-          options: [
-            "GH₵22.50",
-            "GH₵67.50",
-            "GH₵75.00",
-            "GH₵225.50"
-          ],
+          question:
+              "41. A trader sold 90 oranges at 3 for GH₵0.75. How much did she get from selling all the oranges?          (BECE 2019 Q28)",
+          options: ["GH₵22.50", "GH₵67.50", "GH₵75.00", "GH₵225.50"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × GH₵0.75 = GH₵22.50."
-      ),
-
+          explanation:
+              "90 oranges make 90 ÷ 3 = 30 groups. The total amount is 30 × GH₵0.75 = GH₵22.50."),
       QuizQuestion(
-          question: "42. Cement and sand were mixed in the ratio 2 : 5. How many kilograms of cement were contained in the 35 kg of the mixture?          (BECE 2023 Q23)",
-          options: [
-            "7 kg",
-            "88 kg",
-            "14 kg",
-            "10 kg"
-          ],
+          question:
+              "42. Cement and sand were mixed in the ratio 2 : 5. How many kilograms of cement were contained in the 35 kg of the mixture?          (BECE 2023 Q23)",
+          options: ["7 kg", "88 kg", "14 kg", "10 kg"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The total number of parts is 2 + 5 = 7. The amount of cement is 2/7 × 35 kg = 10 kg."
-      ),
-
+          explanation:
+              "The total number of parts is 2 + 5 = 7. The amount of cement is 2/7 × 35 kg = 10 kg."),
       QuizQuestion(
-          question: "43. The ratio of the ages of two sisters is 4 : 3. The older sister is 3 years older than the younger one. How old is the younger sister?          (BECE 2004 Q32)",
-          options: [
-            "9 years",
-            "12 years",
-            "15 years",
-            "18 years"
-          ],
+          question:
+              "43. The ratio of the ages of two sisters is 4 : 3. The older sister is 3 years older than the younger one. How old is the younger sister?          (BECE 2004 Q32)",
+          options: ["9 years", "12 years", "15 years", "18 years"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The difference between 4 parts and 3 parts is 1 part, which represents 3 years. The younger sister is 3 × 3 = 9 years old."
-      ),
-
+          explanation:
+              "The difference between 4 parts and 3 parts is 1 part, which represents 3 years. The younger sister is 3 × 3 = 9 years old."),
       QuizQuestion(
-          question: "44. A man shared an amount of money between his two children, Esi and Ato in the ratio 2 : 3 respectively. If Ato received GH₵45.00, what was the total amount shared?          (BECE 2013 Q38)",
-          options: [
-            "GH₵18.00",
-            "GH₵27.50",
-            "GH₵75.00",
-            "GH₵112.50"
-          ],
+          question:
+              "44. A man shared an amount of money between his two children, Esi and Ato in the ratio 2 : 3 respectively. If Ato received GH₵45.00, what was the total amount shared?          (BECE 2013 Q38)",
+          options: ["GH₵18.00", "GH₵27.50", "GH₵75.00", "GH₵112.50"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Ato's 3 parts equal GH₵45.00, so one part is GH₵15.00. The total amount is 5 × GH₵15.00 = GH₵75.00."
-      ),
-
+          explanation:
+              "Ato's 3 parts equal GH₵45.00, so one part is GH₵15.00. The total amount is 5 × GH₵15.00 = GH₵75.00."),
       QuizQuestion(
-          question: "45. Jojo and Fiifi shared an amount of money in the ratio 3 : 4 respectively. If Fiifi had ₵140,000.00, how much was shared?          (BECE 2007 Q19)",
-          options: [
-            "₵200,000.00",
-            "₵220,000.00",
-            "₵245,000.00",
-            "₵280,000.00"
-          ],
+          question:
+              "45. Jojo and Fiifi shared an amount of money in the ratio 3 : 4 respectively. If Fiifi had ₵140,000.00, how much was shared?          (BECE 2007 Q19)",
+          options: ["₵200,000.00", "₵220,000.00", "₵245,000.00", "₵280,000.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Fiifi's 4 parts equal ₵140,000.00, so one part is ₵35,000.00. The total amount is 7 × ₵35,000.00 = ₵245,000.00."
-      ),
-
+          explanation:
+              "Fiifi's 4 parts equal ₵140,000.00, so one part is ₵35,000.00. The total amount is 7 × ₵35,000.00 = ₵245,000.00."),
       QuizQuestion(
-          question: "46. If 21 : 2x = 7 : 12, find the value of x.          (BECE 2017 Q2)",
-          options: [
-            "10",
-            "12",
-            "15",
-            "18"
-          ],
+          question:
+              "46. If 21 : 2x = 7 : 12, find the value of x.          (BECE 2017 Q2)",
+          options: ["10", "12", "15", "18"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "21/(2x) = 7/12. Cross-multiplying gives 252 = 14x, so x = 18."
-      ),
-
+          explanation:
+              "21/(2x) = 7/12. Cross-multiplying gives 252 = 14x, so x = 18."),
       QuizQuestion(
-          question: "47. An amount of ₵5,400.00 is shared among three sisters in the ratio of their ages. Their ages are 10 years, 6 years and 2 years. Find the share of the youngest sister.          (BECE 2007 Q29)",
-          options: [
-            "₵300.00",
-            "₵600.00",
-            "₵1,200.00",
-            "₵1,800.00"
-          ],
+          question:
+              "47. An amount of ₵5,400.00 is shared among three sisters in the ratio of their ages. Their ages are 10 years, 6 years and 2 years. Find the share of the youngest sister.          (BECE 2007 Q29)",
+          options: ["₵300.00", "₵600.00", "₵1,200.00", "₵1,800.00"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The total of their ages is 10 + 6 + 2 = 18. The youngest sister's share is 2/18 × ₵5,400.00 = ₵600.00."
-      ),
-
+          explanation:
+              "The total of their ages is 10 + 6 + 2 = 18. The youngest sister's share is 2/18 × ₵5,400.00 = ₵600.00."),
       QuizQuestion(
-          question: "48. Express 15 : 12 in the form 1 : n.          (BECE 2022 Q30)",
-          options: [
-            "1 : 0.8",
-            "1 : 1.2",
-            "1 : 15",
-            "1 : 12"
-          ],
+          question:
+              "48. Express 15 : 12 in the form 1 : n.          (BECE 2022 Q30)",
+          options: ["1 : 0.8", "1 : 1.2", "1 : 15", "1 : 12"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Divide both terms of 15 : 12 by 15. This gives 1 : 12/15 = 1 : 0.8."
-      ),
+          explanation:
+              "Divide both terms of 15 : 12 by 15. This gives 1 : 12/15 = 1 : 0.8."),
       QuizQuestion(
-          question: "49. Eight copies of a book cost GH₵16.00. Find the cost of 5 copies.          (BECE 2011 Q20)",
-          options: [
-            "GH₵2.00",
-            "GH₵3.20",
-            "GH₵5.00",
-            "GH₵10.00"
-          ],
+          question:
+              "49. Eight copies of a book cost GH₵16.00. Find the cost of 5 copies.          (BECE 2011 Q20)",
+          options: ["GH₵2.00", "GH₵3.20", "GH₵5.00", "GH₵10.00"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "One copy costs GH₵16.00 ÷ 8 = GH₵2.00. Therefore, 5 copies cost 5 × GH₵2.00 = GH₵10.00."
-      ),
-
+          explanation:
+              "One copy costs GH₵16.00 ÷ 8 = GH₵2.00. Therefore, 5 copies cost 5 × GH₵2.00 = GH₵10.00."),
       QuizQuestion(
-          question: "50. The number of girls in a mixed school is 420. If the ratio of boys to girls in the school is 3 : 2, how many students are in the school?          (BECE 2018 Q12)",
-          options: [
-            "1050",
-            "1470",
-            "1630",
-            "1680"
-          ],
+          question:
+              "50. The number of girls in a mixed school is 420. If the ratio of boys to girls in the school is 3 : 2, how many students are in the school?          (BECE 2018 Q12)",
+          options: ["1050", "1470", "1630", "1680"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The 2 parts representing girls equal 420, so one part is 210. The total number of students is 5 × 210 = 1,050."
-      ),
+          explanation:
+              "The 2 parts representing girls equal 420, so one part is 210. The total number of students is 5 × 210 = 1,050."),
       QuizQuestion(
-          question: "51. If 180 oranges were shared among Kwame and Ama in the ratio 7 : 5 respectively, how many oranges did Ama receive?          (BECE 2013 Q28)",
-          options: [
-            "45",
-            "60",
-            "75",
-            "90"
-          ],
+          question:
+              "51. If 180 oranges were shared among Kwame and Ama in the ratio 7 : 5 respectively, how many oranges did Ama receive?          (BECE 2013 Q28)",
+          options: ["45", "60", "75", "90"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The total number of parts is 7 + 5 = 12. Ama's share is 5/12 × 180 = 75 oranges."
-      ),
+          explanation:
+              "The total number of parts is 7 + 5 = 12. Ama's share is 5/12 × 180 = 75 oranges."),
       QuizQuestion(
-          question: "52. Eric and Ebo are to share an amount of ₵800,000.00 in the ratio 5 : 3 respectively. What will be Ebo's share?          (BECE 2005 Q27)",
-          options: [
-            "₵30,000.00",
-            "₵50,000.00",
-            "₵300,000.00",
-            "₵500,000.00"
-          ],
+          question:
+              "52. Eric and Ebo are to share an amount of ₵800,000.00 in the ratio 5 : 3 respectively. What will be Ebo's share?          (BECE 2005 Q27)",
+          options: ["₵30,000.00", "₵50,000.00", "₵300,000.00", "₵500,000.00"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The total number of parts is 5 + 3 = 8. Ebo's share is 3/8 × ₵800,000.00 = ₵300,000.00."
-      ),
+          explanation:
+              "The total number of parts is 5 + 3 = 8. Ebo's share is 3/8 × ₵800,000.00 = ₵300,000.00."),
       QuizQuestion(
-          question: "53. Zalia and Amina shared an amount of money in the ratio 2 : 5. If Amina had GH₵150.00 more than Zalia, how much did they share?          (BECE 2024 Q20)",
-          options: [
-            "GH₵100.00",
-            "GH₵350.00",
-            "GH₵250.00",
-            "GH₵450.00"
-          ],
+          question:
+              "53. Zalia and Amina shared an amount of money in the ratio 2 : 5. If Amina had GH₵150.00 more than Zalia, how much did they share?          (BECE 2024 Q20)",
+          options: ["GH₵100.00", "GH₵350.00", "GH₵250.00", "GH₵450.00"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The difference between 5 parts and 2 parts is 3 parts. If 3 parts equal GH₵150.00, then one part is GH₵50.00. The total amount shared is 7 × GH₵50.00 = GH₵350.00."
-      ),
+          explanation:
+              "The difference between 5 parts and 2 parts is 3 parts. If 3 parts equal GH₵150.00, then one part is GH₵50.00. The total amount shared is 7 × GH₵50.00 = GH₵350.00."),
     ],
   ),
-  "JHS1 - Patterns and Relations": QuizModel(
+  "JHS 1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
-
       QuizQuestion(
-          question: "1. If x → 3x - 4, what is the image of -2?          (BECE 2000 Q16)",
-          options: [
-            "-10",
-            "-2",
-            "-1",
-            "2"
-          ],
+          question:
+              "1. If x → 3x - 4, what is the image of -2?          (BECE 2000 Q16)",
+          options: ["-10", "-2", "-1", "2"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."
-      ),
-
+          explanation:
+              "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."),
       QuizQuestion(
-          question: "2. Find the next term in the sequence: 3, 6, 12, 24, …          (BECE 2006 Q14)",
-          options: [
-            "27",
-            "30",
-            "36",
-            "48"
-          ],
+          question:
+              "2. Find the next term in the sequence: 3, 6, 12, 24, …          (BECE 2006 Q14)",
+          options: ["27", "30", "36", "48"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."
-      ),
-
+          explanation:
+              "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."),
       QuizQuestion(
-          question: "3. State the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 3, 5, 7, 9, …          (BECE 1991 Q25)",
-          options: [
-            "x → 2x - 1",
-            "x → 2x - 1",
-            "x → 2x + 1",
-            "x → 20(x - 1)"
-          ],
+          question:
+              "3. State the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 3, 5, 7, 9, …          (BECE 1991 Q25)",
+          options: ["x → 2x - 1", "x → 2x - 1", "x → 2x + 1", "x → 20(x - 1)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."
-      ),
-
+          explanation:
+              "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."),
       QuizQuestion(
-          question: "4. Find the missing numbers in the set {5, 10, 15, 25, …, …, 40}.          (BECE 2001 Q33)",
-          options: [
-            "20 and 30",
-            "30 and 35",
-            "20, 35 and 40",
-            "20, 30 and 35"
-          ],
+          question:
+              "4. Find the missing numbers in the set {5, 10, 15, 25, …, …, 40}.          (BECE 2001 Q33)",
+          options: ["20 and 30", "30 and 35", "20, 35 and 40", "20, 30 and 35"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."
-      ),
-
+          explanation:
+              "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."),
       QuizQuestion(
-          question: "5. State the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 1, 4, 9, 16, …          (BECE 2004 Q17)",
-          options: [
-            "x → x + 1",
-            "x → x²",
-            "x → 2x + 1",
-            "x → (x + 1)²"
-          ],
+          question:
+              "5. State the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 1, 4, 9, 16, …          (BECE 2004 Q17)",
+          options: ["x → x + 1", "x → x²", "x → 2x + 1", "x → (x + 1)²"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."
-      ),
-
+          explanation:
+              "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."),
       QuizQuestion(
-          question: "6. A mapping is defined by n → 2n - 3. What is the image of -2 under the mapping?          (BECE 2001 Q24)",
-          options: [
-            "-1",
-            "-5",
-            "-7",
-            "7"
-          ],
+          question:
+              "6. A mapping is defined by n → 2n - 3. What is the image of -2 under the mapping?          (BECE 2001 Q24)",
+          options: ["-1", "-5", "-7", "7"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."
-      ),
-
+          explanation:
+              "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."),
       QuizQuestion(
-          question: "7. What is the rule for the mapping: x: 1, 2, 3, 4 and y: 2, 4, 8, 16?          (BECE 1994 Q36)",
-          options: [
-            "y → 2x",
-            "y → x²",
-            "y → 2ˣ",
-            "y → x + 2"
-          ],
+          question:
+              "7. What is the rule for the mapping: x: 1, 2, 3, 4 and y: 2, 4, 8, 16?          (BECE 1994 Q36)",
+          options: ["y → 2x", "y → x²", "y → 2ˣ", "y → x + 2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."
-      ),
-
+          explanation:
+              "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."),
       QuizQuestion(
-          question: r"8. What is the image of -4 under the mapping x → \frac{1}{2}x - 2?          (BECE 1995 Q10)",
-          options: [
-            "-2",
-            "-4",
-            "-6",
-            "-8"
-          ],
+          question:
+              r"8. What is the image of -4 under the mapping x → \frac{1}{2}x - 2?          (BECE 1995 Q10)",
+          options: ["-2", "-4", "-6", "-8"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."
-      ),
-
+          explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."),
       QuizQuestion(
-          question: "9. Find the missing number in the sequence: 11, 17, 23, 29, …, 41, 47, 53.          (BECE 2012 Q13)",
-          options: [
-            "32",
-            "35",
-            "37",
-            "38"
-          ],
+          question:
+              "9. Find the missing number in the sequence: 11, 17, 23, 29, …, 41, 47, 53.          (BECE 2012 Q13)",
+          options: ["32", "35", "37", "38"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."
-      ),
-
+          explanation:
+              "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."),
       QuizQuestion(
-          question: "10. Find the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 5, 9, 13, 17, 21.          (BECE 2020 Q26)",
-          options: [
-            "x → 3x + 2",
-            "x → 5x - 3",
-            "x → x² + 1",
-            "x → 4x + 1"
-          ],
+          question:
+              "10. Find the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 5, 9, 13, 17, 21.          (BECE 2020 Q26)",
+          options: ["x → 3x + 2", "x → 5x - 3", "x → x² + 1", "x → 4x + 1"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each output is obtained using y = 4x + 1. For example, when x = 3, y = 4(3) + 1 = 13."
-      ),
+          explanation:
+              "Each output is obtained using y = 4x + 1. For example, when x = 3, y = 4(3) + 1 = 13."),
       QuizQuestion(
-          question: "11. If (x, y) → (x, 2y), find the image of (2½, -½) under the same mapping.          (BECE 1995 Q24)",
-          options: [
-            "(2½, -2)",
-            "(2½, -1)",
-            "(2, -2)",
-            "(2, -1)"
-          ],
+          question:
+              "11. If (x, y) → (x, 2y), find the image of (2½, -½) under the same mapping.          (BECE 1995 Q24)",
+          options: ["(2½, -2)", "(2½, -1)", "(2, -2)", "(2, -1)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."
-      ),
-
+          explanation:
+              "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."),
       QuizQuestion(
-          question: "12. Given the sequence {1, 3, 7, 15, 31, …}, the rule is 2ˣ - 1. What is the 7th term?          (Based on page 69, Q31 text context)",
-          options: [
-            "64",
-            "127",
-            "128",
-            "255"
-          ],
+          question:
+              "12. Given the sequence {1, 3, 7, 15, 31, …}, the rule is 2ˣ - 1. What is the 7th term?          (Based on page 69, Q31 text context)",
+          options: ["64", "127", "128", "255"],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The 7th term is 2⁷ - 1 = 128 - 1 = 127."
-      ),
-
+          explanation: "The 7th term is 2⁷ - 1 = 128 - 1 = 127."),
       QuizQuestion(
-          question: "13. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
-          options: [
-            "9.42",
-            "12",
-            "18",
-            "25.12"
-          ],
+          question:
+              "13. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
+          options: ["9.42", "12", "18", "25.12"],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."
-      ),
-
+          explanation:
+              "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."),
       QuizQuestion(
-          question: "14. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
-          options: [
-            "25",
-            "26",
-            "27",
-            "35"
-          ],
+          question:
+              "14. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
+          options: ["25", "26", "27", "35"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."
-      ),
-
+          explanation:
+              "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."),
       QuizQuestion(
-          question: "15. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
-          options: [
-            "y = 2x + 2",
-            "y = -2x + 2",
-            "y = 4x",
-            "y = -2x + 5"
-          ],
+          question:
+              "15. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
+          options: ["y = 2x + 2", "y = -2x + 2", "y = 4x", "y = -2x + 5"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."
-      ),
-
+          explanation:
+              "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."),
       QuizQuestion(
-          question: "16. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
-          options: [
-            "x → x",
-            "x → 2x",
-            "x → x²",
-            "x → x + 2"
-          ],
+          question:
+              "16. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
+          options: ["x → x", "x → 2x", "x → x²", "x → x + 2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."
-      ),
-
+          explanation:
+              "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."),
       QuizQuestion(
-          question: "17. What is the fifth term in the sequence 1/3, 2/5, 7/15, …?          (BECE 2002B Q5)",
-          options: [
-            "4/9",
-            "5/11",
-            "6/13",
-            "3/5"
-          ],
+          question:
+              "17. What is the fifth term in the sequence 1/3, 2/5, 7/15, …?          (BECE 2002B Q5)",
+          options: ["4/9", "5/11", "6/13", "3/5"],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."
-      ),
-
+          explanation:
+              "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."),
       QuizQuestion(
-          question: "18. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
-          options: [
-            "x → 2x - 3",
-            "x → x - 5",
-            "x → 2(x - 2)",
-            "x → 2x - 3"
-          ],
+          question:
+              "18. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
+          options: ["x → 2x - 3", "x → x - 5", "x → 2(x - 2)", "x → 2x - 3"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."
-      ),
-
+          explanation:
+              "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."),
       QuizQuestion(
-          question: "19. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
-          options: [
-            "4",
-            "4",
-            "6",
-            "8"
-          ],
+          question:
+              "19. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
+          options: ["4", "4", "6", "8"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."
-      ),
-
+          explanation:
+              "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."),
       QuizQuestion(
-          question: "20. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
-          options: [
-            "7",
-            "9",
-            "12",
-            "20"
-          ],
+          question:
+              "20. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
+          options: ["7", "9", "12", "20"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."
-      ),QuizQuestion(
-          question: "21. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
-          options: [
-            "35",
-            "39",
-            "47",
-            "63"
-          ],
+          explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."),
+      QuizQuestion(
+          question:
+              "21. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
+          options: ["35", "39", "47", "63"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."
-      ),
-
+          explanation:
+              "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."),
       QuizQuestion(
-          question: "22. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
-          options: [
-            "y = x + 5",
-            "y = 4x + 5",
-            "y = 5x + 4",
-            "y = 6x + 1"
-          ],
+          question:
+              "22. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
+          options: ["y = x + 5", "y = 4x + 5", "y = 5x + 4", "y = 6x + 1"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."
-      ),
-
+          explanation:
+              "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."),
       QuizQuestion(
-          question: "23. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
-          options: [
-            "n → 10n",
-            "n → 10n + 1",
-            "n → 11n - 1",
-            "n → 7n + 3"
-          ],
+          question:
+              "23. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
+          options: ["n → 10n", "n → 10n + 1", "n → 11n - 1", "n → 7n + 3"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."
-      ),
-
+          explanation:
+              "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."),
       QuizQuestion(
-          question: "24. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
-          options: [
-            "0",
-            "2",
-            "6",
-            "12"
-          ],
+          question:
+              "24. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
+          options: ["0", "2", "6", "12"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."
-      ),
-
+          explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."),
       QuizQuestion(
-          question: r"25. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
+          question:
+              r"25. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
           options: [
             r"x → \frac{x}{4}",
             r"x → \frac{x}{2}",
@@ -3255,131 +2878,87 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."
-      ),
-
+          explanation:
+              "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."),
       QuizQuestion(
-          question: "26. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
-          options: [
-            "x → 4x - 3",
-            "x → 3 - 4x",
-            "x → 4x + 3",
-            "x → 4x + 5"
-          ],
+          question:
+              "26. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
+          options: ["x → 4x - 3", "x → 3 - 4x", "x → 4x + 3", "x → 4x + 5"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."
-      ),
-
+          explanation:
+              "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."),
       QuizQuestion(
-          question: "27. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
-          options: [
-            "x → 15x",
-            "x → 15 + x",
-            "x → x/15",
-            "x → 10 + 5x"
-          ],
+          question:
+              "27. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
+          options: ["x → 15x", "x → 15 + x", "x → x/15", "x → 10 + 5x"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Each output is 15 times the input. Therefore, the rule is x → 15x."
-      ),
-
+          explanation:
+              "Each output is 15 times the input. Therefore, the rule is x → 15x."),
       QuizQuestion(
-          question: "28. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
-          options: [
-            "4",
-            "5",
-            "8",
-            "16"
-          ],
+          question:
+              "28. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
+          options: ["4", "5", "8", "16"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."
-      ),
-
+          explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."),
       QuizQuestion(
-          question: "29. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
-          options: [
-            "x + 2",
-            "x + 4",
-            "2x + 3",
-            "3x + 2"
-          ],
+          question:
+              "29. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
+          options: ["x + 2", "x + 4", "2x + 3", "3x + 2"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."
-      ),
-
+          explanation:
+              "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."),
       QuizQuestion(
-          question: "30. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
-          options: [
-            "6",
-            "7",
-            "8",
-            "9"
-          ],
+          question:
+              "30. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
+          options: ["6", "7", "8", "9"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Substitute y = 37: 37 = 5x + 2. Therefore, 5x = 35 and x = 7."
-      ),
+          explanation:
+              "Substitute y = 37: 37 = 5x + 2. Therefore, 5x = 35 and x = 7."),
       QuizQuestion(
-          question: "31. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
-          options: [
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
+          question:
+              "31. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
+          options: ["2", "3", "4", "5"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."
-      ),
-
+          explanation:
+              "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."),
       QuizQuestion(
-          question: "32. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
-          options: [
-            "t → 10t - 1",
-            "t → 8t + 1",
-            "t → 11t - 2",
-            "t → 7t + 2"
-          ],
+          question:
+              "32. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
+          options: ["t → 10t - 1", "t → 8t + 1", "t → 11t - 2", "t → 7t + 2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The outputs increase by 11. Since 11(1) - 2 = 9, the rule is t → 11t - 2."
-      ),
+          explanation:
+              "The outputs increase by 11. Since 11(1) - 2 = 9, the rule is t → 11t - 2."),
     ],
   ),
   "ALGEBRAIC EXPRESSIONS": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: r"1. Simplify: (35x^5y^3 \div 7xy^2\).          (BECE 2014 Q9)",
-          options: [
-            r"(5x^4y)",
-            r"\(5x^4y^5\)",
-            r"\(5x^6y\)",
-            r"\(5x^6y^5\)"
-          ],
+          question:
+              r"1. Simplify: (35x^5y^3 \div 7xy^2\).          (BECE 2014 Q9)",
+          options: [r"(5x^4y)", r"\(5x^4y^5\)", r"\(5x^6y\)", r"\(5x^6y^5\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Divide the coefficients and subtract the indices of like bases: \(35 \div 7 = 5\), \(x^5 \div x = x^{5-1} = x^4\), and \(y^3 \div y^2 = y^{3-2} = y\). Therefore, the answer is \(5x^4y\)."
-      ),
-
+          explanation:
+              r"Divide the coefficients and subtract the indices of like bases: \(35 \div 7 = 5\), \(x^5 \div x = x^{5-1} = x^4\), and \(y^3 \div y^2 = y^{3-2} = y\). Therefore, the answer is \(5x^4y\)."),
       QuizQuestion(
-          question: r"2. If \(x = 2\), find the value of \(q\) in the equation \(3x - 4 = x + q\).          (BECE 1992 Q17)",
-          options: [
-            r"\(-7\)",
-            r"\(13\)",
-            r"\(12\)",
-            r"\(25\)"
-          ],
+          question:
+              r"2. If \(x = 2\), find the value of \(q\) in the equation \(3x - 4 = x + q\).          (BECE 1992 Q17)",
+          options: [r"\(-7\)", r"\(13\)", r"\(12\)", r"\(25\)"],
           correctIndex: -1,
           difficulty: "Easy",
-          explanation: r"Substitute \(x = 2\): \(3(2) - 4 = 2 + q\). This gives \(2 = 2 + q\), so \(q = 0\). The correct answer is not included in the supplied options."
-      ),
-
+          explanation:
+              r"Substitute \(x = 2\): \(3(2) - 4 = 2 + q\). This gives \(2 = 2 + q\), so \(q = 0\). The correct answer is not included in the supplied options."),
       QuizQuestion(
-          question: r"3. Simplify: \(6a^2 \times 4a^2b^2\).          (BECE 2002B Q22)",
+          question:
+              r"3. Simplify: \(6a^2 \times 4a^2b^2\).          (BECE 2002B Q22)",
           options: [
             r"\(10a^4b^2\)",
             r"\(24a^2b^2\)",
@@ -3388,76 +2967,51 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of \(a\): \(6 \times 4 = 24\) and \(a^2 \times a^2 = a^4\). Therefore, the answer is \(24a^4b^2\)."
-      ),
-
+          explanation:
+              r"Multiply the coefficients and add the indices of \(a\): \(6 \times 4 = 24\) and \(a^2 \times a^2 = a^4\). Therefore, the answer is \(24a^4b^2\)."),
       QuizQuestion(
-          question: r"4. If \(a * b = 2a - b\), find \(3 * 2\).          (BECE 2002A Q20)",
-          options: [
-            r"\(1\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
+          question:
+              r"4. If \(a * b = 2a - b\), find \(3 * 2\).          (BECE 2002A Q20)",
+          options: [r"\(1\)", r"\(4\)", r"\(5\)", r"\(6\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Using \(a * b = 2a - b\), \(3 * 2 = 2(3) - 2 = 6 - 2 = 4\)."
-      ),
-
+          explanation:
+              r"Using \(a * b = 2a - b\), \(3 * 2 = 2(3) - 2 = 6 - 2 = 4\)."),
       QuizQuestion(
-          question: r"5. In the relation \(v = u + at\), find \(v\) when \(u = 6\), \(a = 10\), and \(t = 2\).          (BECE 1991 Q14)",
-          options: [
-            r"\(18\)",
-            r"\(26\)",
-            r"\(32\)",
-            r"\(48\)"
-          ],
+          question:
+              r"5. In the relation \(v = u + at\), find \(v\) when \(u = 6\), \(a = 10\), and \(t = 2\).          (BECE 1991 Q14)",
+          options: [r"\(18\)", r"\(26\)", r"\(32\)", r"\(48\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Substitute the given values: \(v = 6 + 10(2) = 6 + 20 = 26\)."
-      ),
-
+          explanation:
+              r"Substitute the given values: \(v = 6 + 10(2) = 6 + 20 = 26\)."),
       QuizQuestion(
-          question: r"6. If \(q = ut + \frac{1}{2}ft\), find \(q\) when \(u = 20\), \(t = 10\), and \(f = 15\).          (BECE 1990 Q21)",
-          options: [
-            r"\(350\)",
-            r"\(275\)",
-            r"\(237.5\)",
-            r"\(55\)"
-          ],
+          question:
+              r"6. If \(q = ut + \frac{1}{2}ft\), find \(q\) when \(u = 20\), \(t = 10\), and \(f = 15\).          (BECE 1990 Q21)",
+          options: [r"\(350\)", r"\(275\)", r"\(237.5\)", r"\(55\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Substitute the values: \(q = 20(10) + \frac{1}{2}(15)(10) = 200 + 75 = 275\)."
-      ),
-
+          explanation:
+              r"Substitute the values: \(q = 20(10) + \frac{1}{2}(15)(10) = 200 + 75 = 275\)."),
       QuizQuestion(
-          question: r"7. Find the value of \(p^2 - 6p + 9\) when \(p = -2\).          (BECE 1992 Q14)",
-          options: [
-            r"\(-7\)",
-            r"\(13\)",
-            r"\(12\)",
-            r"\(25\)"
-          ],
+          question:
+              r"7. Find the value of \(p^2 - 6p + 9\) when \(p = -2\).          (BECE 1992 Q14)",
+          options: [r"\(-7\)", r"\(13\)", r"\(12\)", r"\(25\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Substitute \(p = -2\): \((-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25\)."
-      ),
-
+          explanation:
+              r"Substitute \(p = -2\): \((-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25\)."),
       QuizQuestion(
-          question: r"8. The sum of two numbers is \(240\). If one of them is \(y\), find the other number.          (BECE 1997 Q22)",
-          options: [
-            r"\(120y\)",
-            r"\(240 + y\)",
-            r"\(240 - y\)",
-            r"\(240y\)"
-          ],
+          question:
+              r"8. The sum of two numbers is \(240\). If one of them is \(y\), find the other number.          (BECE 1997 Q22)",
+          options: [r"\(120y\)", r"\(240 + y\)", r"\(240 - y\)", r"\(240y\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"If the other number is subtracted from the total, it is \(240 - y\)."
-      ),
-
+          explanation:
+              r"If the other number is subtracted from the total, it is \(240 - y\)."),
       QuizQuestion(
-          question: r"9. Ama is \(N\) years old now. How old will she be in \(10\) years?          (BECE 2000 Q40)",
+          question:
+              r"9. Ama is \(N\) years old now. How old will she be in \(10\) years?          (BECE 2000 Q40)",
           options: [
             r"\((N - 10)\text{ years}\)",
             r"\((N + 10)\text{ years}\)",
@@ -3466,11 +3020,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"After \(10\) years, \(10\) is added to Ama's present age. Therefore, she will be \((N + 10)\) years old."
-      ),
-
+          explanation:
+              r"After \(10\) years, \(10\) is added to Ama's present age. Therefore, she will be \((N + 10)\) years old."),
       QuizQuestion(
-          question: r"10. Simplify: \(2ab^2 \times 3a^2b\).          (BECE 1991 Q13)",
+          question:
+              r"10. Simplify: \(2ab^2 \times 3a^2b\).          (BECE 1991 Q13)",
           options: [
             r"\(5a^3b^3\)",
             r"\(5a^2b^2\)",
@@ -3479,37 +3033,27 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a \times a^2 = a^3\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^3b^3\)."
-      ),
-
+          explanation:
+              r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a \times a^2 = a^3\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^3b^3\)."),
       QuizQuestion(
-          question: r"11. If \(a * b = 2a - b\), evaluate \(4 * 3\).          (BECE 2000 Q17)",
-          options: [
-            r"\(1\)",
-            r"\(2\)",
-            r"\(4\)",
-            r"\(5\)"
-          ],
+          question:
+              r"11. If \(a * b = 2a - b\), evaluate \(4 * 3\).          (BECE 2000 Q17)",
+          options: [r"\(1\)", r"\(2\)", r"\(4\)", r"\(5\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Using \(a * b = 2a - b\), \(4 * 3 = 2(4) - 3 = 8 - 3 = 5\)."
-      ),
-
+          explanation:
+              r"Using \(a * b = 2a - b\), \(4 * 3 = 2(4) - 3 = 8 - 3 = 5\)."),
       QuizQuestion(
-          question: r"12. Find the difference between the values of \((2d)^2\) and \(2d^2\), when \(d = 3\).          (BECE 1995 Q30)",
-          options: [
-            r"\(16\)",
-            r"\(18\)",
-            r"\(24\)",
-            r"\(28\)"
-          ],
+          question:
+              r"12. Find the difference between the values of \((2d)^2\) and \(2d^2\), when \(d = 3\).          (BECE 1995 Q30)",
+          options: [r"\(16\)", r"\(18\)", r"\(24\)", r"\(28\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"When \(d = 3\), \((2d)^2 = (6)^2 = 36\), while \(2d^2 = 2(3^2) = 18\). Their difference is \(36 - 18 = 18\)."
-      ),
-
+          explanation:
+              r"When \(d = 3\), \((2d)^2 = (6)^2 = 36\), while \(2d^2 = 2(3^2) = 18\). Their difference is \(36 - 18 = 18\)."),
       QuizQuestion(
-          question: r"13. Simplify: \(4p + 6p^2 - 2p + 2p^2\).          (BECE 2001 Q25)",
+          question:
+              r"13. Simplify: \(4p + 6p^2 - 2p + 2p^2\).          (BECE 2001 Q25)",
           options: [
             r"\(2p + 8p^2\)",
             r"\(6p + 8p^2\)",
@@ -3518,24 +3062,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Collect like terms: \(4p - 2p = 2p\) and \(6p^2 + 2p^2 = 8p^2\). Therefore, the simplified expression is \(2p + 8p^2\)."
-      ),
-
+          explanation:
+              r"Collect like terms: \(4p - 2p = 2p\) and \(6p^2 + 2p^2 = 8p^2\). Therefore, the simplified expression is \(2p + 8p^2\)."),
       QuizQuestion(
-          question: r"14. Three baskets contain \(95\) oranges, \(x\) oranges, and \(2x\) oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
-          options: [
-            r"\(96x\)",
-            r"\(95 + 3x\)",
-            r"\(95 + 2x^2\)",
-            r"\(98x\)"
-          ],
+          question:
+              r"14. Three baskets contain \(95\) oranges, \(x\) oranges, and \(2x\) oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
+          options: [r"\(96x\)", r"\(95 + 3x\)", r"\(95 + 2x^2\)", r"\(98x\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Add the numbers of oranges: \(95 + x + 2x = 95 + 3x\)."
-      ),
-
+          explanation:
+              r"Add the numbers of oranges: \(95 + x + 2x = 95 + 3x\)."),
       QuizQuestion(
-          question: r"15. Simplify: \((2ab^2)(3a^{-3}b)\).          (BECE 1997 Q21)",
+          question:
+              r"15. Simplify: \((2ab^2)(3a^{-3}b)\).          (BECE 1997 Q21)",
           options: [
             r"\(5a^3b^3\)",
             r"\(6a^{-2}b^3\)",
@@ -3544,41 +3083,32 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a^1 \times a^{-3} = a^{1-3} = a^{-2}\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^{-2}b^3\)."
-      ),
-
+          explanation:
+              r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a^1 \times a^{-3} = a^{1-3} = a^{-2}\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^{-2}b^3\)."),
       QuizQuestion(
-          question: r"16. If \(y = k + ax^2\), find \(y\) when \(k = \frac{14}{5}\), \(a = \frac{4}{5}\), and \(x = 2\).          (BECE 2000 Q26)",
-          options: [
-            r"\(1\)",
-            r"\(2\)",
-            r"\(4\)",
-            r"\(5\)"
-          ],
+          question:
+              r"16. If \(y = k + ax^2\), find \(y\) when \(k = \frac{14}{5}\), \(a = \frac{4}{5}\), and \(x = 2\).          (BECE 2000 Q26)",
+          options: [r"\(1\)", r"\(2\)", r"\(4\)", r"\(5\)"],
           correctIndex: -1,
           difficulty: "Easy",
-          explanation: r"Substitute the values: \(y = \frac{14}{5} + \frac{4}{5}(2^2) = \frac{14}{5} + \frac{16}{5} = \frac{30}{5} = 6\). The correct answer is not included in the supplied options."
-      ),
+          explanation:
+              r"Substitute the values: \(y = \frac{14}{5} + \frac{4}{5}(2^2) = \frac{14}{5} + \frac{16}{5} = \frac{30}{5} = 6\). The correct answer is not included in the supplied options."),
     ],
   ),
   "Algebraic Expressions": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: r"1. When a certain number is subtracted from \(10\) and the result is multiplied by \(2\), the final result is \(4\). Find the number.          (BECE 1991 Q37)",
-          options: [
-            r"\(8\)",
-            r"\(12\)",
-            r"\(16\)",
-            r"\(24\)"
-          ],
+          question:
+              r"1. When a certain number is subtracted from \(10\) and the result is multiplied by \(2\), the final result is \(4\). Find the number.          (BECE 1991 Q37)",
+          options: [r"\(8\)", r"\(12\)", r"\(16\)", r"\(24\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(2(10 - x) = 4\). Dividing by \(2\) gives \(10 - x = 2\), so \(x = 8\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(2(10 - x) = 4\). Dividing by \(2\) gives \(10 - x = 2\), so \(x = 8\)."),
       QuizQuestion(
-          question: r"2. Solve for \(x\) if \(2x + 5 = 3x - 7\).          (BECE 1994 Q26)",
+          question:
+              r"2. Solve for \(x\) if \(2x + 5 = 3x - 7\).          (BECE 1994 Q26)",
           options: [
             r"\(12\)",
             r"\(2\frac{2}{5}\)",
@@ -3587,24 +3117,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Subtract \(2x\) from both sides: \(5 = x - 7\). Adding \(7\) gives \(x = 12\)."
-      ),
-
+          explanation:
+              r"Subtract \(2x\) from both sides: \(5 = x - 7\). Adding \(7\) gives \(x = 12\)."),
       QuizQuestion(
-          question: r"3. If \(\frac{3}{15}\) is equivalent to \(\frac{45}{a}\), find \(a\).          (BECE 1990 Q22)",
-          options: [
-            r"\(225\)",
-            r"\(150\)",
-            r"\(252\)",
-            r"\(126\)"
-          ],
+          question:
+              r"3. If \(\frac{3}{15}\) is equivalent to \(\frac{45}{a}\), find \(a\).          (BECE 1990 Q22)",
+          options: [r"\(225\)", r"\(150\)", r"\(252\)", r"\(126\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Since \(\frac{3}{15} = \frac{45}{a}\), cross-multiply to get \(3a = 15 \times 45\). Therefore, \(a = \frac{675}{3} = 225\)."
-      ),
-
+          explanation:
+              r"Since \(\frac{3}{15} = \frac{45}{a}\), cross-multiply to get \(3a = 15 \times 45\). Therefore, \(a = \frac{675}{3} = 225\)."),
       QuizQuestion(
-          question: r"4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
+          question:
+              r"4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
           options: [
             r"\(\frac{3}{2}\)",
             r"\(1\)",
@@ -3613,11 +3138,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(5x = x + 4\). Therefore, \(4x = 4\), so \(x = 1\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(5x = x + 4\). Therefore, \(4x = 4\), so \(x = 1\)."),
       QuizQuestion(
-          question: r"5. Mark is \(30\) years old. Yaw is half as old as Mark. Paul is \(10\) years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
+          question:
+              r"5. Mark is \(30\) years old. Yaw is half as old as Mark. Paul is \(10\) years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
           options: [
             r"\(30\text{ years}\)",
             r"\(25\text{ years}\)",
@@ -3626,37 +3151,27 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Yaw is half of \(30\), so he is \(15\) years old. Paul is \(10\) years older, so Paul is \(15 + 10 = 25\) years old."
-      ),
-
+          explanation:
+              r"Yaw is half of \(30\), so he is \(15\) years old. Paul is \(10\) years older, so Paul is \(15 + 10 = 25\) years old."),
       QuizQuestion(
-          question: r"6. If \(\frac{1}{3}\) of a number is added to \(\frac{1}{5}\) of the same number, the result is \(8\). Find the number.          (BECE 1992 Q34)",
-          options: [
-            r"\(3\)",
-            r"\(5\)",
-            r"\(15\)",
-            r"\(30\)"
-          ],
+          question:
+              r"6. If \(\frac{1}{3}\) of a number is added to \(\frac{1}{5}\) of the same number, the result is \(8\). Find the number.          (BECE 1992 Q34)",
+          options: [r"\(3\)", r"\(5\)", r"\(15\)", r"\(30\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(\frac{x}{3} + \frac{x}{5} = 8\). Thus, \(\frac{5x + 3x}{15} = 8\), so \(\frac{8x}{15} = 8\). Therefore, \(x = 15\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(\frac{x}{3} + \frac{x}{5} = 8\). Thus, \(\frac{5x + 3x}{15} = 8\), so \(\frac{8x}{15} = 8\). Therefore, \(x = 15\)."),
       QuizQuestion(
-          question: r"7. Solve for \(h\) in the equation \(15 - 2h = 6\).          (BECE 1998 Q21)",
-          options: [
-            r"\(-10.5\)",
-            r"\(-9.0\)",
-            r"\(-4.5\)",
-            r"\(4.5\)"
-          ],
+          question:
+              r"7. Solve for \(h\) in the equation \(15 - 2h = 6\).          (BECE 1998 Q21)",
+          options: [r"\(-10.5\)", r"\(-9.0\)", r"\(-4.5\)", r"\(4.5\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Subtract \(15\) from both sides: \(-2h = -9\). Dividing by \(-2\) gives \(h = 4.5\)."
-      ),
-
+          explanation:
+              r"Subtract \(15\) from both sides: \(-2h = -9\). Dividing by \(-2\) gives \(h = 4.5\)."),
       QuizQuestion(
-          question: r"8. Find \(x\), if \(\frac{1}{x} + \frac{1}{3} = 1\).          (BECE 1993 Q31)",
+          question:
+              r"8. Find \(x\), if \(\frac{1}{x} + \frac{1}{3} = 1\).          (BECE 1993 Q31)",
           options: [
             r"\(\frac{2}{3}\)",
             r"\(-\frac{2}{3}\)",
@@ -3665,11 +3180,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"\(\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}\). Taking reciprocals gives \(x = \frac{3}{2}\)."
-      ),
-
+          explanation:
+              r"\(\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}\). Taking reciprocals gives \(x = \frac{3}{2}\)."),
       QuizQuestion(
-          question: r"9. If \(\frac{1}{x} = 1\frac{1}{2}\), find \(x\).          (BECE 1994 Q11)",
+          question:
+              r"9. If \(\frac{1}{x} = 1\frac{1}{2}\), find \(x\).          (BECE 1994 Q11)",
           options: [
             r"\(3\)",
             r"\(\frac{1}{2}\)",
@@ -3678,11 +3193,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Convert \(1\frac{1}{2}\) to an improper fraction: \(1\frac{1}{2} = \frac{3}{2}\). Thus, \(\frac{1}{x} = \frac{3}{2}\), so \(x = \frac{2}{3}\)."
-      ),
-
+          explanation:
+              r"Convert \(1\frac{1}{2}\) to an improper fraction: \(1\frac{1}{2} = \frac{3}{2}\). Thus, \(\frac{1}{x} = \frac{3}{2}\), so \(x = \frac{2}{3}\)."),
       QuizQuestion(
-          question: r"10. Solve the equation \(13x - 2(3x + 4) = 22\).          (BECE 2000 Q3)",
+          question:
+              r"10. Solve the equation \(13x - 2(3x + 4) = 22\).          (BECE 2000 Q3)",
           options: [
             r"\(5\)",
             r"\(4\)",
@@ -3691,10 +3206,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Expand and simplify: \(13x - 6x - 8 = 22\). Thus, \(7x = 30\), so \(x = \frac{30}{7}\)."
-      ),
+          explanation:
+              r"Expand and simplify: \(13x - 6x - 8 = 22\). Thus, \(7x = 30\), so \(x = \frac{30}{7}\)."),
       QuizQuestion(
-          question: r"11. If \(4(m + 4) = 18\), find the value of \(m\).          (BECE 1999 Q29)",
+          question:
+              r"11. If \(4(m + 4) = 18\), find the value of \(m\).          (BECE 1999 Q29)",
           options: [
             r"\(\frac{1}{2}\)",
             r"\(\frac{3}{2}\)",
@@ -3703,50 +3219,35 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Divide both sides by \(4\): \(m + 4 = \frac{18}{4} = \frac{9}{2}\). Therefore, \(m = \frac{9}{2} - 4 = \frac{1}{2}\)."
-      ),
-
+          explanation:
+              r"Divide both sides by \(4\): \(m + 4 = \frac{18}{4} = \frac{9}{2}\). Therefore, \(m = \frac{9}{2} - 4 = \frac{1}{2}\)."),
       QuizQuestion(
-          question: r"12. If \(13x - 12 = 5x + 60\), find \(x\).          (BECE 1995 Q33)",
-          options: [
-            r"\(-9\)",
-            r"\(-6\)",
-            r"\(9\)",
-            r"\(6\)"
-          ],
+          question:
+              r"12. If \(13x - 12 = 5x + 60\), find \(x\).          (BECE 1995 Q33)",
+          options: [r"\(-9\)", r"\(-6\)", r"\(9\)", r"\(6\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Subtract \(5x\) from both sides: \(8x - 12 = 60\). Add \(12\): \(8x = 72\). Therefore, \(x = 9\)."
-      ),
-
+          explanation:
+              r"Subtract \(5x\) from both sides: \(8x - 12 = 60\). Add \(12\): \(8x = 72\). Therefore, \(x = 9\)."),
       QuizQuestion(
-          question: r"13. The product of \(2x\) and \(3\) is \(138\). Find \(x\).          (BECE 1996 Q33)",
-          options: [
-            r"\(23\)",
-            r"\(33\)",
-            r"\(68\)",
-            r"\(69\)"
-          ],
+          question:
+              r"13. The product of \(2x\) and \(3\) is \(138\). Find \(x\).          (BECE 1996 Q33)",
+          options: [r"\(23\)", r"\(33\)", r"\(68\)", r"\(69\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"\((2x)(3) = 138\). Thus, \(6x = 138\), so \(x = 23\)."
-      ),
-
+          explanation:
+              r"\((2x)(3) = 138\). Thus, \(6x = 138\), so \(x = 23\)."),
       QuizQuestion(
-          question: r"14. Solve for \(y\) in the equation \(\frac{1}{3}y + \frac{1}{5}y = 8\).          (BECE 2002A Q27)",
-          options: [
-            r"\(15\)",
-            r"\(30\)",
-            r"\(45\)",
-            r"\(60\)"
-          ],
+          question:
+              r"14. Solve for \(y\) in the equation \(\frac{1}{3}y + \frac{1}{5}y = 8\).          (BECE 2002A Q27)",
+          options: [r"\(15\)", r"\(30\)", r"\(45\)", r"\(60\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"\(\frac{1}{3}y + \frac{1}{5}y = \frac{8}{15}y = 8\). Hence, \(y = 15\)."
-      ),
-
+          explanation:
+              r"\(\frac{1}{3}y + \frac{1}{5}y = \frac{8}{15}y = 8\). Hence, \(y = 15\)."),
       QuizQuestion(
-          question: r"15. Kofi is \(2\) years older than Ama. If the sum of their ages is \(16\), find Ama's age.          (BECE 2002B Q25)",
+          question:
+              r"15. Kofi is \(2\) years older than Ama. If the sum of their ages is \(16\), find Ama's age.          (BECE 2002B Q25)",
           options: [
             r"\(7\text{ years}\)",
             r"\(9\text{ years}\)",
@@ -3755,127 +3256,81 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Let Ama's age be \(x\). Then Kofi's age is \(x + 2\). Thus, \(x + (x + 2) = 16\), so \(2x = 14\) and \(x = 7\)."
-      ),
-
+          explanation:
+              r"Let Ama's age be \(x\). Then Kofi's age is \(x + 2\). Thus, \(x + (x + 2) = 16\), so \(2x = 14\) and \(x = 7\)."),
       QuizQuestion(
-          question: r"16. Solve the equation: \(2x - 3(x - 1) = 6\).          (BECE 2009 Q12)",
-          options: [
-            r"\(3\)",
-            r"\(-3\)",
-            r"\(-7\)",
-            r"\(-9\)"
-          ],
+          question:
+              r"16. Solve the equation: \(2x - 3(x - 1) = 6\).          (BECE 2009 Q12)",
+          options: [r"\(3\)", r"\(-3\)", r"\(-7\)", r"\(-9\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Expand the bracket: \(2x - 3x + 3 = 6\). Therefore, \(-x = 3\), so \(x = -3\)."
-      ),
-
+          explanation:
+              r"Expand the bracket: \(2x - 3x + 3 = 6\). Therefore, \(-x = 3\), so \(x = -3\)."),
       QuizQuestion(
-          question: r"17. Find the value of \(x\) in the equation \(\frac{x}{4} = 2\).          (BECE 2002B Q39)",
-          options: [
-            r"\(2\)",
-            r"\(4\)",
-            r"\(6\)",
-            r"\(8\)"
-          ],
+          question:
+              r"17. Find the value of \(x\) in the equation \(\frac{x}{4} = 2\).          (BECE 2002B Q39)",
+          options: [r"\(2\)", r"\(4\)", r"\(6\)", r"\(8\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Multiply both sides by \(4\): \(x = 8\)."
-      ),
-
+          explanation: r"Multiply both sides by \(4\): \(x = 8\)."),
       QuizQuestion(
-          question: r"18. Solve for \(x\) in the equation \(15 - 2x = 6\).          (BECE 2004 Q21)",
-          options: [
-            r"\(-10.5\)",
-            r"\(-4.5\)",
-            r"\(4.5\)",
-            r"\(10.5\)"
-          ],
+          question:
+              r"18. Solve for \(x\) in the equation \(15 - 2x = 6\).          (BECE 2004 Q21)",
+          options: [r"\(-10.5\)", r"\(-4.5\)", r"\(4.5\)", r"\(10.5\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Subtract \(15\) from both sides: \(-2x = -9\). Divide by \(-2\): \(x = 4.5\)."
-      ),
-
+          explanation:
+              r"Subtract \(15\) from both sides: \(-2x = -9\). Divide by \(-2\): \(x = 4.5\)."),
       QuizQuestion(
-          question: r"19. If \(3t - 2(t + 12) = 11\), find the value of \(t\).          (BECE 2003 Q7)",
-          options: [
-            r"\(-35\)",
-            r"\(-13\)",
-            r"\(13\)",
-            r"\(35\)"
-          ],
+          question:
+              r"19. If \(3t - 2(t + 12) = 11\), find the value of \(t\).          (BECE 2003 Q7)",
+          options: [r"\(-35\)", r"\(-13\)", r"\(13\)", r"\(35\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Expand the bracket: \(3t - 2t - 24 = 11\). Thus, \(t = 35\)."
-      ),
-
+          explanation:
+              r"Expand the bracket: \(3t - 2t - 24 = 11\). Thus, \(t = 35\)."),
       QuizQuestion(
-          question: r"20. If \(6n + 4 = 16\), find the value of \(n\).          (BECE 2005 Q10)",
-          options: [
-            r"\(2\)",
-            r"\(3\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
+          question:
+              r"20. If \(6n + 4 = 16\), find the value of \(n\).          (BECE 2005 Q10)",
+          options: [r"\(2\)", r"\(3\)", r"\(5\)", r"\(6\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Subtract \(4\) from both sides: \(6n = 12\). Divide by \(6\): \(n = 2\)."
-      ),
+          explanation:
+              r"Subtract \(4\) from both sides: \(6n = 12\). Divide by \(6\): \(n = 2\)."),
       QuizQuestion(
-          question: r"21. The difference between two numbers is \(168\). If the smaller number is \(113\), find the other number.          (BECE 2008 Q39)",
-          options: [
-            r"\(223\)",
-            r"\(271\)",
-            r"\(281\)",
-            r"\(291\)"
-          ],
+          question:
+              r"21. The difference between two numbers is \(168\). If the smaller number is \(113\), find the other number.          (BECE 2008 Q39)",
+          options: [r"\(223\)", r"\(271\)", r"\(281\)", r"\(291\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"The larger number is \(113 + 168 = 281\)."
-      ),
-
+          explanation: r"The larger number is \(113 + 168 = 281\)."),
       QuizQuestion(
-          question: r"22. Solve the equation \(\frac{x + 2}{3} + 2x = 10\).          (BECE 2006 Q18)",
-          options: [
-            r"\(3\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
+          question:
+              r"22. Solve the equation \(\frac{x + 2}{3} + 2x = 10\).          (BECE 2006 Q18)",
+          options: [r"\(3\)", r"\(4\)", r"\(5\)", r"\(6\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Multiply through by \(3\): \(x + 2 + 6x = 30\). Thus, \(7x = 28\), so \(x = 4\)."
-      ),
-
+          explanation:
+              r"Multiply through by \(3\): \(x + 2 + 6x = 30\). Thus, \(7x = 28\), so \(x = 4\)."),
       QuizQuestion(
-          question: r"23. If \(8x - 3(2x - 4) = 4\), find the value of \(x\).          (BECE 2007 Q15)",
-          options: [
-            r"\(-8\)",
-            r"\(-4\)",
-            r"\(4\)",
-            r"\(8\)"
-          ],
+          question:
+              r"23. If \(8x - 3(2x - 4) = 4\), find the value of \(x\).          (BECE 2007 Q15)",
+          options: [r"\(-8\)", r"\(-4\)", r"\(4\)", r"\(8\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Expand the bracket: \(8x - 6x + 12 = 4\). Therefore, \(2x = -8\), so \(x = -4\)."
-      ),
-
+          explanation:
+              r"Expand the bracket: \(8x - 6x + 12 = 4\). Therefore, \(2x = -8\), so \(x = -4\)."),
       QuizQuestion(
-          question: r"24. Solve \(\frac{4k}{9} = 12\).          (BECE 2008 Q33)",
-          options: [
-            r"\(23\)",
-            r"\(25\)",
-            r"\(27\)",
-            r"\(29\)"
-          ],
+          question:
+              r"24. Solve \(\frac{4k}{9} = 12\).          (BECE 2008 Q33)",
+          options: [r"\(23\)", r"\(25\)", r"\(27\)", r"\(29\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Multiply both sides by \(9\): \(4k = 108\). Divide by \(4\): \(k = 27\)."
-      ),
-
+          explanation:
+              r"Multiply both sides by \(9\): \(4k = 108\). Divide by \(4\): \(k = 27\)."),
       QuizQuestion(
-          question: r"25. If \(x + 5 = -7\), find the value of \(\frac{x}{6}\).          (BECE 2009 Q20)",
+          question:
+              r"25. If \(x + 5 = -7\), find the value of \(\frac{x}{6}\).          (BECE 2009 Q20)",
           options: [
             r"\(-5\frac{5}{6}\)",
             r"\(-2\)",
@@ -3884,11 +3339,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"From \(x + 5 = -7\), we get \(x = -12\). Therefore, \(\frac{x}{6} = \frac{-12}{6} = -2\)."
-      ),
-
+          explanation:
+              r"From \(x + 5 = -7\), we get \(x = -12\). Therefore, \(\frac{x}{6} = \frac{-12}{6} = -2\)."),
       QuizQuestion(
-          question: r"26. The sum of \(5\) and \(x\) divided by \(4\) is equal to \(3.25\). Find the value of \(x\).          (BECE 2010 Q4)",
+          question:
+              r"26. The sum of \(5\) and \(x\) divided by \(4\) is equal to \(3.25\). Find the value of \(x\).          (BECE 2010 Q4)",
           options: [
             r"\(8\)",
             r"\(7\)",
@@ -3897,24 +3352,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Interpret the statement as \(\frac{x + 5}{4} = 3.25\). Multiplying by \(4\) gives \(x + 5 = 13\), so \(x = 8\)."
-      ),
-
+          explanation:
+              r"Interpret the statement as \(\frac{x + 5}{4} = 3.25\). Multiplying by \(4\) gives \(x + 5 = 13\), so \(x = 8\)."),
       QuizQuestion(
-          question: r"27. Find the value of \(x\), if \(\frac{x}{4} + 1 = 5\).          (BECE 2010 Q20)",
-          options: [
-            r"\(24\)",
-            r"\(20\)",
-            r"\(19\)",
-            r"\(16\)"
-          ],
+          question:
+              r"27. Find the value of \(x\), if \(\frac{x}{4} + 1 = 5\).          (BECE 2010 Q20)",
+          options: [r"\(24\)", r"\(20\)", r"\(19\)", r"\(16\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Subtract \(1\): \(\frac{x}{4} = 4\). Multiply by \(4\): \(x = 16\)."
-      ),
-
+          explanation:
+              r"Subtract \(1\): \(\frac{x}{4} = 4\). Multiply by \(4\): \(x = 16\)."),
       QuizQuestion(
-          question: r"28. If \(2x = 5(x - 2) + 7\), find the value of \(x\).          (BECE 2012 Q14)",
+          question:
+              r"28. If \(2x = 5(x - 2) + 7\), find the value of \(x\).          (BECE 2012 Q14)",
           options: [
             r"\(-5\frac{2}{3}\)",
             r"\(-1\)",
@@ -3923,61 +3373,42 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Expand: \(2x = 5x - 10 + 7 = 5x - 3\). Thus, \(-3x = -3\), so \(x = 1\). (The supplied answer key/options appear inconsistent.)"
-      ),
-
+          explanation:
+              r"Expand: \(2x = 5x - 10 + 7 = 5x - 3\). Thus, \(-3x = -3\), so \(x = 1\). (The supplied answer key/options appear inconsistent.)"),
       QuizQuestion(
-          question: r"29. If \(1 - 2 = m\), find \(m\).          (BECE 2013 Q11)",
-          options: [
-            r"\(3\)",
-            r"\(-1\)",
-            r"\(1\)",
-            r"\(3\)"
-          ],
+          question:
+              r"29. If \(1 - 2 = m\), find \(m\).          (BECE 2013 Q11)",
+          options: [r"\(3\)", r"\(-1\)", r"\(1\)", r"\(3\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Simply evaluate \(1 - 2 = -1\). Therefore, \(m = -1\)."
-      ),
-
+          explanation:
+              r"Simply evaluate \(1 - 2 = -1\). Therefore, \(m = -1\)."),
       QuizQuestion(
           question: r"30. Solve \(3 + 3y = 1 - 13y\).          (BECE 2015 Q23)",
-          options: [
-            r"\(-6\)",
-            r"\(-2\)",
-            r"\(2\)",
-            r"\(6\)"
-          ],
+          options: [r"\(-6\)", r"\(-2\)", r"\(2\)", r"\(6\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Bring like terms together: \(3y + 13y = 1 - 3\). Thus, \(16y = -2\), so \(y = -\frac{1}{8}\). The correct answer is not among the supplied options."
-      ),QuizQuestion(
-          question: r"31. When a number is doubled and the result is decreased by \(9\), the answer is \(19\). Find the number.          (BECE 2016 Q22)",
-          options: [
-            r"\(5\)",
-            r"\(7\)",
-            r"\(14\)",
-            r"\(16\)"
-          ],
+          explanation:
+              r"Bring like terms together: \(3y + 13y = 1 - 3\). Thus, \(16y = -2\), so \(y = -\frac{1}{8}\). The correct answer is not among the supplied options."),
+      QuizQuestion(
+          question:
+              r"31. When a number is doubled and the result is decreased by \(9\), the answer is \(19\). Find the number.          (BECE 2016 Q22)",
+          options: [r"\(5\)", r"\(7\)", r"\(14\)", r"\(16\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(2x - 9 = 19\). So \(2x = 28\) and \(x = 14\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(2x - 9 = 19\). So \(2x = 28\) and \(x = 14\)."),
       QuizQuestion(
-          question: r"32. Given that \(\frac{1}{2p} = \frac{1}{8}\), find the value of \(p\).          (BECE 2017 Q3)",
-          options: [
-            r"\(4\)",
-            r"\(3\)",
-            r"\(2\)",
-            r"\(1\)"
-          ],
+          question:
+              r"32. Given that \(\frac{1}{2p} = \frac{1}{8}\), find the value of \(p\).          (BECE 2017 Q3)",
+          options: [r"\(4\)", r"\(3\)", r"\(2\)", r"\(1\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Since \(\frac{1}{2p} = \frac{1}{8}\), it follows that \(2p = 8\). Therefore, \(p = 4\)."
-      ),
-
+          explanation:
+              r"Since \(\frac{1}{2p} = \frac{1}{8}\), it follows that \(2p = 8\). Therefore, \(p = 4\)."),
       QuizQuestion(
-          question: r"33. Solve \(2 + \frac{x}{3} = 1 - 2x\).          (BECE 2017 Q8)",
+          question:
+              r"33. Solve \(2 + \frac{x}{3} = 1 - 2x\).          (BECE 2017 Q8)",
           options: [
             r"\(-1\frac{2}{7}\)",
             r"\(-\frac{3}{7}\)",
@@ -3986,24 +3417,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Multiply through by \(3\): \(6 + x = 3 - 6x\). Thus, \(7x = -3\), so \(x = -\frac{3}{7}\)."
-      ),
-
+          explanation:
+              r"Multiply through by \(3\): \(6 + x = 3 - 6x\). Thus, \(7x = -3\), so \(x = -\frac{3}{7}\)."),
       QuizQuestion(
-          question: r"34. At a meeting attended by \(23\) people, the females were \(7\) more than the males. How many males were there?          (BECE 2017 Q14)",
-          options: [
-            r"\(8\)",
-            r"\(15\)",
-            r"\(16\)",
-            r"\(30\)"
-          ],
+          question:
+              r"34. At a meeting attended by \(23\) people, the females were \(7\) more than the males. How many males were there?          (BECE 2017 Q14)",
+          options: [r"\(8\)", r"\(15\)", r"\(16\)", r"\(30\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Let the number of males be \(m\). Then females are \(m + 7\). So \(m + (m + 7) = 23\), giving \(2m = 16\) and \(m = 8\)."
-      ),
-
+          explanation:
+              r"Let the number of males be \(m\). Then females are \(m + 7\). So \(m + (m + 7) = 23\), giving \(2m = 16\) and \(m = 8\)."),
       QuizQuestion(
-          question: r"35. If \(4 - x = 3(4x + 5)\), find the value of \(x\).          (BECE 2018 Q37)",
+          question:
+              r"35. If \(4 - x = 3(4x + 5)\), find the value of \(x\).          (BECE 2018 Q37)",
           options: [
             r"\(\frac{11}{13}\)",
             r"\(1\frac{6}{13}\)",
@@ -4012,50 +3438,35 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Expand: \(4 - x = 12x + 15\). Thus, \(-13x = 11\), so \(x = -\frac{11}{13} = -\frac{11}{13}\). The mixed-number option \(-1\frac{6}{13}\) in the source is inconsistent."
-      ),
-
+          explanation:
+              r"Expand: \(4 - x = 12x + 15\). Thus, \(-13x = 11\), so \(x = -\frac{11}{13} = -\frac{11}{13}\). The mixed-number option \(-1\frac{6}{13}\) in the source is inconsistent."),
       QuizQuestion(
-          question: r"36. Solve the equation \(10 - \frac{x + 3}{2} = 8\).          (BECE 2019 Q7)",
-          options: [
-            r"\(-9\)",
-            r"\(-3\)",
-            r"\(1\)",
-            r"\(15\)"
-          ],
+          question:
+              r"36. Solve the equation \(10 - \frac{x + 3}{2} = 8\).          (BECE 2019 Q7)",
+          options: [r"\(-9\)", r"\(-3\)", r"\(1\)", r"\(15\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"\(\frac{x + 3}{2} = 2\). Therefore, \(x + 3 = 4\), so \(x = 1\)."
-      ),
-
+          explanation:
+              r"\(\frac{x + 3}{2} = 2\). Therefore, \(x + 3 = 4\), so \(x = 1\)."),
       QuizQuestion(
-          question: r"37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
-          options: [
-            r"\(84\)",
-            r"\(40\)",
-            r"\(28\)",
-            r"\(20\)"
-          ],
+          question:
+              r"37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
+          options: [r"\(84\)", r"\(40\)", r"\(28\)", r"\(20\)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(\frac{3x - 12}{4} = 18\). Hence, \(3x - 12 = 72\), so \(3x = 84\) and \(x = 28\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(\frac{3x - 12}{4} = 18\). Hence, \(3x - 12 = 72\), so \(3x = 84\) and \(x = 28\)."),
       QuizQuestion(
-          question: r"38. In a class of \(23\) students, the girls were \(7\) more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
-          options: [
-            r"\(8\)",
-            r"\(15\)",
-            r"\(16\)",
-            r"\(30\)"
-          ],
+          question:
+              r"38. In a class of \(23\) students, the girls were \(7\) more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
+          options: [r"\(8\)", r"\(15\)", r"\(16\)", r"\(30\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Let the number of boys be \(b\). Then girls are \(b + 7\). Thus, \(b + (b + 7) = 23\), so \(2b = 16\) and \(b = 8\)."
-      ),
-
+          explanation:
+              r"Let the number of boys be \(b\). Then girls are \(b + 7\). Thus, \(b + (b + 7) = 23\), so \(2b = 16\) and \(b = 8\)."),
       QuizQuestion(
-          question: r"39. If \(\frac{w}{3} = 3(w - 1) - 1\), find the value of \(w\).          (BECE 2020 Q16)",
+          question:
+              r"39. If \(\frac{w}{3} = 3(w - 1) - 1\), find the value of \(w\).          (BECE 2020 Q16)",
           options: [
             r"\(\frac{3}{2}\)",
             r"\(\frac{5}{4}\)",
@@ -4064,50 +3475,35 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"\(\frac{w}{3} = 3w - 4\). Multiplying through by \(3\): \(w = 9w - 12\). Thus, \(8w = 12\), so \(w = \frac{3}{2}\)."
-      ),
-
+          explanation:
+              r"\(\frac{w}{3} = 3w - 4\). Multiplying through by \(3\): \(w = 9w - 12\). Thus, \(8w = 12\), so \(w = \frac{3}{2}\)."),
       QuizQuestion(
-          question: r"40. If \(2x - 1 = 5\), find the value of \(x\).          (BECE 2021 Q34)",
-          options: [
-            r"\(3\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
+          question:
+              r"40. If \(2x - 1 = 5\), find the value of \(x\).          (BECE 2021 Q34)",
+          options: [r"\(3\)", r"\(4\)", r"\(5\)", r"\(6\)"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Add \(1\) to both sides: \(2x = 6\). Therefore, \(x = 3\)."
-      ),
-
+          explanation:
+              r"Add \(1\) to both sides: \(2x = 6\). Therefore, \(x = 3\)."),
       QuizQuestion(
-          question: r"41. If \(\frac{n}{100} = 10.5\), find the value of \(n\).          (BECE 2022 Q23)",
-          options: [
-            r"\(0.0105\)",
-            r"\(0.105\)",
-            r"\(105\)",
-            r"\(1050\)"
-          ],
+          question:
+              r"41. If \(\frac{n}{100} = 10.5\), find the value of \(n\).          (BECE 2022 Q23)",
+          options: [r"\(0.0105\)", r"\(0.105\)", r"\(105\)", r"\(1050\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Multiply both sides by \(100\): \(n = 10.5 \times 100 = 1050\)."
-      ),
-
+          explanation:
+              r"Multiply both sides by \(100\): \(n = 10.5 \times 100 = 1050\)."),
       QuizQuestion(
-          question: r"42. A certain number is subtracted from \(12\) and the result is multiplied by \(3\). If the answer is \(21\), find the number.          (BECE 2022 Q37)",
-          options: [
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)",
-            r"\(8\)"
-          ],
+          question:
+              r"42. A certain number is subtracted from \(12\) and the result is multiplied by \(3\). If the answer is \(21\), find the number.          (BECE 2022 Q37)",
+          options: [r"\(4\)", r"\(5\)", r"\(6\)", r"\(8\)"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(3(12 - x) = 21\). So \(12 - x = 7\), giving \(x = 5\)."
-      ),
-
+          explanation:
+              r"Let the number be \(x\). Then \(3(12 - x) = 21\). So \(12 - x = 7\), giving \(x = 5\)."),
       QuizQuestion(
-          question: r"43. If \(2n - 5 = \frac{1}{2}n\), find the value of \(n\).          (BECE 2023 Q15)",
+          question:
+              r"43. If \(2n - 5 = \frac{1}{2}n\), find the value of \(n\).          (BECE 2023 Q15)",
           options: [
             r"\(\frac{1}{3}\)",
             r"\(2\frac{1}{2}\)",
@@ -4116,11 +3512,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"Multiply both sides by \(2\): \(4n - 10 = n\). Thus, \(3n = 10\), so \(n = \frac{10}{3} = 3\frac{1}{3}\)."
-      ),
-
+          explanation:
+              r"Multiply both sides by \(2\): \(4n - 10 = n\). Thus, \(3n = 10\), so \(n = \frac{10}{3} = 3\frac{1}{3}\)."),
       QuizQuestion(
-          question: r"44. A story book contains \(50\) pages. If a student reads \(10\) pages per hour, find the relationship between the number of unread pages (\(N\)) and time (\(t\)).          (BECE 2024 Q29)",
+          question:
+              r"44. A story book contains \(50\) pages. If a student reads \(10\) pages per hour, find the relationship between the number of unread pages (\(N\)) and time (\(t\)).          (BECE 2024 Q29)",
           options: [
             r"\(N = 10t + 50\)",
             r"\(N = 10t - 50\)",
@@ -4129,11 +3525,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: r"The number of unread pages decreases by \(10\) every hour. Hence, \(N = 50 - 10t = -10t + 50\)."
-      ),
-
+          explanation:
+              r"The number of unread pages decreases by \(10\) every hour. Hence, \(N = 50 - 10t = -10t + 50\)."),
       QuizQuestion(
-          question: r"45. Solve: \(4x - 2(x + 5) = -10\).          (BECE 2025 Q10)",
+          question:
+              r"45. Solve: \(4x - 2(x + 5) = -10\).          (BECE 2025 Q10)",
           options: [
             r"\(x = -10\)",
             r"\(x = 0\)",
@@ -4142,11 +3538,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Expand: \(4x - 2x - 10 = -10\). Thus, \(2x = 0\), so \(x = 0\)."
-      ),
-
+          explanation:
+              r"Expand: \(4x - 2x - 10 = -10\). Thus, \(2x = 0\), so \(x = 0\)."),
       QuizQuestion(
-          question: r"46. Ama is three times as old as Kofi. The sum of their ages is \(40\). How old is Ama?          (BECE 2025 Q12)",
+          question:
+              r"46. Ama is three times as old as Kofi. The sum of their ages is \(40\). How old is Ama?          (BECE 2025 Q12)",
           options: [
             r"\(10\text{ years}\)",
             r"\(30\text{ years}\)",
@@ -4155,21 +3551,16 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Let Kofi's age be \(k\). Then Ama's age is \(3k\). Since \(k + 3k = 40\), we get \(4k = 40\), so \(k = 10\). Therefore, Ama is \(30\) years old."
-      ),
-
+          explanation:
+              r"Let Kofi's age be \(k\). Then Ama's age is \(3k\). Since \(k + 3k = 40\), we get \(4k = 40\), so \(k = 10\). Therefore, Ama is \(30\) years old."),
       QuizQuestion(
-          question: r"47. Given that \(0.03 \times y = 2.4\), find the value of \(y\).          (BECE 2025 Q22)",
-          options: [
-            r"\(0.08\)",
-            r"\(0.8\)",
-            r"\(8.0\)",
-            r"\(80.0\)"
-          ],
+          question:
+              r"47. Given that \(0.03 \times y = 2.4\), find the value of \(y\).          (BECE 2025 Q22)",
+          options: [r"\(0.08\)", r"\(0.8\)", r"\(8.0\)", r"\(80.0\)"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: r"Divide both sides by \(0.03\): \(y = \frac{2.4}{0.03} = 80\)."
-      ),
+          explanation:
+              r"Divide both sides by \(0.03\): \(y = \frac{2.4}{0.03} = 80\)."),
     ],
   ),
 
@@ -4338,7 +3729,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
-  "Environmental Issues": QuizModel(
+  "JHS 1 - Environmental Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -4900,7 +4291,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Mapping Skills": QuizModel(
+  "JHS 1 - Mapping Skills": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -5228,7 +4619,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Understanding Our Natural World": QuizModel(
+  "JHS 1 - Understanding Our Natural World": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6253,7 +5644,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Adolescent Reproductive Health": QuizModel(
+  "JHS 1 - Adolescent Reproductive Health": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6526,7 +5917,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Socialization": QuizModel(
+  "JHS 1 - Socialization": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6583,7 +5974,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Self-Identity": QuizModel(
+  "JHS 1 - Self-Identity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6603,7 +5994,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Citizenship and Human Rights": QuizModel(
+  "JHS 1 - Citizenship and Human Rights": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6968,7 +6359,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Human Resource Development": QuizModel(
+  "JHS 1 - Human Resource Development": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7081,7 +6472,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Financial and Investment Issues": QuizModel(
+  "JHS 1 - Financial and Investment Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7156,7 +6547,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Independent Ghana": QuizModel(
+  "JHS 1 - Independent Ghana": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7784,6 +7175,2813 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+
+  // JHS2////////
+  "JHS 2 - ENVIRONMENTAL ISSUES": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Environmental pollution is caused by all the following except        (BECE 1999 Q24)",
+        options: [
+          "Smoking of cigarette",
+          "Making of loud noise",
+          "Dumping of refuse",
+          "Watering of flowers"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Watering flowers does not cause environmental pollution. Smoking, excessive noise and dumping of refuse pollute the environment.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following activities does not cause air pollution?        (BECE 2020 Q32)",
+        options: [
+          "Increase of industrial fumes",
+          "Indiscriminate disposal of solid waste",
+          "Poor disposal of human excreta",
+          "Fishing with chemicals"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Fishing with chemicals mainly causes water pollution rather than air pollution.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Respiratory diseases can be caused by        (BECE 2019 Q2)",
+        options: [
+          "Water pollution",
+          "Land degradation",
+          "Air pollution",
+          "Deforestation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Air pollution exposes people to smoke, dust and harmful gases that can cause respiratory diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "4. A major source of air pollution in the cities of Ghana is        (BECE 2007 Q10)",
+        options: [
+          "Fumes from car",
+          "Burning of rubbish",
+          "Use of pesticides",
+          "Odours from gutters"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Fumes from vehicles release harmful gases and particles into the atmosphere and are a major source of air pollution in cities.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Water pollution is caused by all the following except        (BECE 2001 Q39)",
+        options: [
+          "Oil spillage",
+          "Recycling of waste",
+          "Sewage disposal",
+          "Alluvial mining"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Recycling waste helps to reduce pollution, while oil spillage, sewage disposal and alluvial mining can contaminate water bodies.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Environmental pollution is caused by all the following except        (BECE 2016 Q32)",
+        options: ["Burning", "Dumping", "Recycling", "Sieving"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Recycling reduces waste and protects the environment instead of causing environmental pollution.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Industries must be located outside residential areas to        (BECE 2011 Q23)",
+        options: [
+          "Avoid pollution",
+          "Encourage competition among firms",
+          "Reduce cost of production",
+          "Reduce industrial accidents"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Locating industries away from residential areas protects residents from industrial smoke, fumes, noise and other forms of pollution.",
+      ),
+      QuizQuestion(
+        question:
+            "8. What is the major effect of illegal mining on the water bodies of Ghana?        (BECE 2025 Q33)",
+        options: [
+          "Destroys aquatic and plant life",
+          "Reduces the flow of water bodies"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Illegal mining pollutes water bodies with sediments and harmful chemicals, destroying aquatic organisms and plant life.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Sanitation has been a major challenge in some communities in Ghana. What is the most sustainable way to improve sanitation in your community?        (BECE 2025 Q8)",
+        options: [
+          "Building more landfills for waste disposal",
+          "Providing many incinerators in the community",
+          "Recycling education",
+          "Sweeping and collecting waste materials in the community"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation:
+            "Recycling education promotes long-term behavioural change by teaching community members how to reduce, separate, reuse and properly manage waste.",
+      ),
+    ],
+  ),
+  "JHS 2  - Understanding Our Natural World": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Poor drainage system in our cities result in        (BECE 2014 Q18 / BECE 2017 Q34)",
+        options: ["Erosion", "Floods", "Earthquake", "Land slide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Poor drainage prevents rainwater from flowing away properly, causing water to accumulate and flood communities.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Movement and supply of utilities in settlement become easier and faster when the        (BECE 2021 Q21)",
+        options: [
+          "Layout is good",
+          "Layout is haphazard",
+          "Settlement is compact",
+          "Settlement is linear"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A good settlement layout provides well-planned roads and spaces that make movement and the supply of utilities easier and faster.",
+      ),
+      QuizQuestion(
+        question:
+            "3. A good layout of a settlement includes all the following except        (BECE 2004 Q25)",
+        options: [
+          "Prevention",
+          "Easier movement",
+          "Good sanitation",
+          "Overcrowding"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A good settlement layout prevents overcrowding rather than encouraging it. It also promotes easier movement and good sanitation.",
+      ),
+      QuizQuestion(
+        question:
+            "4. A good layout and enforcement of Town Planning laws can help reduce        (BECE 2017 Q26)",
+        options: [
+          "Substance abuse",
+          "Influx of immigration",
+          "Emergence of slums",
+          "Population growth"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Proper town planning and the enforcement of building regulations prevent the unplanned development of slums.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Floods can be best controlled in our communities through        (BECE 2010 Q22)",
+        options: [
+          "Construction of boreholes",
+          "Planned layout",
+          "Harvesting of rainwater",
+          "Tarring of roads"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A planned layout provides proper drainage systems and prevents buildings from being constructed on waterways, thereby reducing flooding.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following settlements is a feature of a slum?        (BECE 2014 Q23)",
+        options: [
+          "Dispersed settlement",
+          "Linear settlement",
+          "Overcrowded settlement",
+          "Planned settlement"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Slums are commonly characterised by overcrowding, poorly arranged buildings and inadequate social amenities.",
+      ),
+      QuizQuestion(
+        question:
+            "7. One of the advantages of a good layout is that        (BECE 2007 Q21)",
+        options: [
+          "It allows for tall buildings",
+          "Floods are controlled",
+          "Streets are made durable",
+          "Hygiene is assured"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A good layout provides proper drainage, waste-disposal facilities and adequate spacing, which help to ensure good hygiene.",
+      ),
+      QuizQuestion(
+        question:
+            "8. A good layout and enforcement of town planning laws can help reduce        (BECE 2015 Q33)",
+        options: [
+          "Emergence of slums",
+          "Influx of immigrants",
+          "Population growth",
+          "Substance abuse"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Enforcing town planning laws prevents disorderly construction and helps reduce the development of slums.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Most Ghanaian communities experience flooding during the raining season due to        (BECE 2025 Q40)",
+        options: [
+          "Nature having its way",
+          "Power hygienic conditions",
+          "Long period of dry season",
+          "Siting of buildings on water ways"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Buildings constructed on waterways block the natural flow of rainwater and cause flooding during the rainy season.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An advantage of a good layout for settlement is that        (BECE 2012 Q35)",
+        options: [
+          "It reduces overcrowding of families",
+          "It promotes trading and church activities",
+          "It makes the inhabitants very rich",
+          "Modern houses and schools are built"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A good layout ensures adequate spacing between buildings and residential areas, thereby reducing overcrowding.",
+      ),
+      QuizQuestion(
+        question:
+            "11. A layout in which the houses are not orderly arranged is likely to        (BECE 2020 Q10)",
+        options: [
+          "Produce rainfall disasters",
+          "Provide water facility easily",
+          "Prevent development of slums",
+          "Prevent the spread of diseases"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A disorderly layout may block drainage channels and waterways, increasing the risk of flooding and other rain-related disasters.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The most convenient way of reducing slum in cities is to        (BECE 2017 Q40)",
+        options: [
+          "Remove badly laid out buildings",
+          "Building more estates",
+          "Increase wages and salaries",
+          "Supervise siting of structures"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Supervising the siting of structures prevents unauthorised and disorderly construction before slums can develop.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following conditions will occur when fire breaks out in a poor layout community?        (BECE 2019 Q36)",
+        options: [
+          "Selling in the streets",
+          "Evening markets may spring up",
+          "Loss of property and life",
+          "Armed robbery cases may rise"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Poor layouts often have narrow access routes and closely packed buildings, making fires difficult to control and resulting in loss of life and property.",
+      ),
+      QuizQuestion(
+        question:
+            "14. A major reason for developing a good layout settlement is to reduce        (BECE 2018 Q16)",
+        options: [
+          "Free movement and ethnic conflicts",
+          "Overcrowding and criminal activities",
+          "Rural-urban migration and street hawking",
+          "Truancy and illiteracy rate"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A good settlement layout provides adequate space, proper roads and organised residential areas, helping to reduce overcrowding and criminal activities.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Poor drainage system in our cities result in        (BECE 2014 Q18)",
+        options: ["Earthquakes", "Erosion", "Floods", "Landslides"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Poor drainage causes rainwater to accumulate instead of flowing away, resulting in floods in cities.",
+      ),
+    ],
+  ),
+
+  "JHS 2  - Mapping Skills": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. What makes it impossible to determine the actual distance from a sketch map? It        (BECE 2025 Q28)",
+        options: [
+          "Is roughly drawn",
+          "Covers a large area",
+          "Has no key",
+          "Has no scale"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A scale shows the relationship between distance on a map and the actual distance on the ground. Without a scale, the actual distance cannot be calculated.",
+      ),
+    ],
+  ),
+
+  "JHS 2  - Population": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The township of Asuabena has an aged population of 1,000 and a youthful population of 4,000. Which of the following amenities should be given the highest priority?        (BECE 2006 Q23)",
+        options: [
+          "Post Office",
+          "Recreational facilities",
+          "Radio station",
+          "Markets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Since the youthful population is much larger than the aged population, recreational facilities should be given the highest priority to meet the needs of the young people.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The large percentage of the youth in Ghana's population implies that Ghana has        (BECE 2017 Q8)",
+        options: [
+          "A free market economy",
+          "A lot of future labour force",
+          "Adequate supply of consumer goods",
+          "Equitable distribution of wealth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A large youthful population provides Ghana with many people who can enter the labour force in the future.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In what way does the ageing population of Ghana affect the country's health system? It        (BECE 2025 Q16)",
+        options: [
+          "Decreases the demand for healthcare service",
+          "Increases the burden on healthcare resources",
+          "Leads to a surplus of healthcare professionals",
+          "Reduces the supply of medication to children"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "An ageing population requires more medical care and long-term health support, which increases pressure on healthcare facilities, workers, and resources.",
+      ),
+    ],
+  ),
+  "JHS 2  - The Individual and the Community": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. What will be the best effect on the development of your community if you engage in voluntary activities? It will        (BECE 2025 Q32)",
+        options: [
+          "Encourage people to pay their taxes",
+          "Promote peace and harmony",
+          "Foster a sense of belonging and shared responsibility",
+          "Hinder social progress and development"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Engaging in voluntary activities encourages community members to work together, creating a sense of belonging and shared responsibility for the development of the community.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A market square in your community is in need of a clean-up and restoration. Which of the following options will best help address the challenge?        (BECE 2024 Q18)",
+        options: [
+          "Donating money to the market square but not getting involved personally",
+          "Ignoring the issue and hoping someone will take care of it",
+          "Organizing a solo clean-up exercise",
+          "Joining a community volunteer group to help in the clean-up exercise"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Joining a community volunteer group promotes collective action and allows community members to work together effectively to clean and restore the market square.",
+      ),
+    ],
+  ),
+  "JHS 2  - Citizenship and Human Rights": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. One duty of a citizen is        (BECE 2009 Q23)",
+        options: [
+          "Enjoy free education",
+          "Join a religious group",
+          "Assist the police in investigations",
+          "Support a political party"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Citizens have a duty to assist the police in investigations to help maintain law, order, and security in the country.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Foreigners in Ghana enjoy all the following rights except that of        (BECE 1999 Q23)",
+        options: ["Expression", "Worship", "Voting", "Association"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Foreigners may enjoy freedom of expression, worship, and association, but voting in Ghanaian elections is reserved for qualified Ghanaian citizens.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following can constitute human rights abuse in Ghana?        (BECE 2013 Q38)",
+        options: [
+          "Child labour",
+          "Employing an 18-year-old child",
+          "Dropping out of school",
+          "Drug abuse"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Child labour violates the rights of children by exposing them to work that may harm their health, education, and development.",
+      ),
+      QuizQuestion(
+        question:
+            "4. An individual whose rights have been infringed upon seeks justice from the        (BECE 2008 Q32)",
+        options: ["Court", "Police", "President", "Military"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The court interprets the law and provides justice when an individual's rights have been violated.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following constitutes human rights abuse?        (BECE 2009 Q25)",
+        options: [
+          "Being searched by a security agent",
+          "Interrogation by a security agent",
+          "Police detention beyond forty-eight hours",
+          "Lawful imprisonment beyond forty-eight hours"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Keeping a suspect in police detention beyond forty-eight hours without bringing the person before a court violates the person's rights.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Foreigners in Ghana enjoy all the following rights except that of        (BECE 2006 Q38)",
+        options: ["Expression", "Worship", "Voting", "Association"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The right to vote in Ghanaian elections is reserved for qualified Ghanaian citizens and is not granted to foreigners.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following is an abuse of human rights in Ghana?        (BECE 2005 Q6)",
+        options: [
+          "Assisting the police during investigations",
+          "Freedom from arrest and detention without trial",
+          "Pledging young people for money",
+          "Being a member of a religious group"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Pledging young people for money treats them as property and violates their freedom, dignity, and other fundamental rights.",
+      ),
+      QuizQuestion(
+        question:
+            "8. If a person suspected of being a thief is beaten by a mob, he is denied the right to        (BECE 2005 Q37)",
+        options: ["Speech", "Fair trial", "Work", "Life"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A suspected offender must be taken through the proper legal process. Mob action denies the person the right to a fair trial.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following constitutes human rights abuse?        (BECE 2008 Q37)",
+        options: ["Child labour", "Sex trade", "Truancy", "Favoritism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Child labour is a human rights abuse because it can deprive children of education, safety, and healthy development.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following are rights of a citizen in Ghana?\n\nI. Protection of one's life\nII. Payment of taxes\nIII. Protection of public property\nIV. Personal liberty        (BECE 2005 Q14)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I and IV only",
+          "II and III only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Protection of one's life and personal liberty are rights, while paying taxes and protecting public property are responsibilities.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following is a duty of a citizen?        (BECE 2008 Q4)",
+        options: [
+          "Joining a religious group",
+          "Helping the police financially",
+          "Paying taxes for development",
+          "Giving free medical care"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Paying taxes is a civic duty because tax revenue enables the government to provide services and undertake development projects.",
+      ),
+      QuizQuestion(
+        question: "12. Right to life means        (BECE 2012 Q20)",
+        options: [
+          "Living forever",
+          "Living without interference",
+          "Acquiring wealth",
+          "Sustaining the family life"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The right to life protects a person from unlawful actions or interference that may threaten or take away his or her life.",
+      ),
+      QuizQuestion(
+        question:
+            "13. One basic right of every Ghanaian is the right to        (BECE 2013 Q37)",
+        options: [
+          "Vote in general elections",
+          "Personal liberty",
+          "Fair wages",
+          "Stand for elections"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Personal liberty is a fundamental right enjoyed by every Ghanaian, while voting and standing for election have legal qualifications.",
+      ),
+      QuizQuestion(
+        question:
+            "14. One responsibility of a Ghanaian citizen is to        (BECE 2012 Q36)",
+        options: [
+          "Protect the police",
+          "Pay taxes",
+          "Work and earn a living",
+          "Worship freely"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Citizens are responsible for paying taxes to support national development and the provision of public services.",
+      ),
+      QuizQuestion(
+        question:
+            "15. The right to life is an example of        (BECE 2013 Q39)",
+        options: [
+          "Economic right",
+          "Natural right",
+          "Legal right",
+          "Political right"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The right to life is a natural right because every human being possesses it by virtue of being human.",
+      ),
+      QuizQuestion(
+        question:
+            "16. In order to protect one's rights, a citizen should be        (BECE 2012 Q37)",
+        options: [
+          "A law student",
+          "A youth leader",
+          "Educated on them",
+          "An observer in court sittings"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A citizen must be educated about his or her rights in order to recognize violations and take the correct steps to seek protection.",
+      ),
+      QuizQuestion(
+        question:
+            "17. When one behaves in an honest and just manner, one performs his/her        (BECE 2013 Q40)",
+        options: [
+          "Civic right",
+          "Civic responsibility",
+          "Natural responsibility",
+          "Social right"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Behaving honestly and justly is a civic responsibility because it contributes to peace, trust, and good citizenship.",
+      ),
+      QuizQuestion(
+        question:
+            "18. What a person is obliged to perform as a duty in the society constitutes his/her        (BECE 2014 Q5)",
+        options: ["Achievements", "Dignity", "Responsibilities", "Rights"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Responsibilities are the duties and obligations that a person is expected to perform in society.",
+      ),
+      QuizQuestion(
+        question:
+            "19. One basic right of every Ghanaian is the right to        (BECE 2014 Q33)",
+        options: [
+          "Fair wages",
+          "Personal liberty",
+          "Stand for election",
+          "Vote in general election"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Personal liberty is guaranteed to every Ghanaian, while voting and standing for election depend on specific legal requirements.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Protecting national property is the obligation of        (BECE 2014 Q37)",
+        options: [
+          "All citizens",
+          "Government officials",
+          "The fire service",
+          "The police"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "National property belongs to the entire country, so every citizen has a responsibility to protect and preserve it.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The basic right of every Ghanaian is the right to        (BECE 2015 Q25)",
+        options: [
+          "Fair wages",
+          "Personal liberty",
+          "Stand for election",
+          "Vote in general election"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Personal liberty is a fundamental right guaranteed to every Ghanaian regardless of age or electoral qualification.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following activities is a duty of a citizen?        (BECE 2016 Q1)",
+        options: [
+          "Giving free medical care",
+          "Helping the police financially",
+          "Joining religious groups",
+          "Paying taxes for development"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Paying taxes is a duty of citizens because the money supports public services and national development.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following activities can constitute human rights abuse in Ghana?        (BECE 2016 Q23)",
+        options: [
+          "Child labour",
+          "Dropping out of school",
+          "Drug abuse",
+          "Employing an 18-year-old girl"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Child labour abuses children's rights by exposing them to harmful work and interfering with their education and development.",
+      ),
+      QuizQuestion(
+        question:
+            "24. When an individual behaves in an honest and just manner, he/she performs a        (BECE 2016 Q24)",
+        options: [
+          "Civic responsibility",
+          "Civic right",
+          "Natural responsibility",
+          "Social right"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Honesty and fairness are civic responsibilities expected of a good citizen in his or her dealings with others.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Bullying of pupils in schools constitutes        (BECE 2017 Q14)",
+        options: [
+          "Sex discrimination",
+          "Child labour",
+          "Sexual harassment",
+          "Child abuse"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bullying causes physical or emotional harm to pupils and therefore constitutes child abuse.",
+      ),
+      QuizQuestion(
+        question:
+            "26. A person legally recognized to enjoy rights in a country is known as        (BECE 2017 Q27)",
+        options: ["Patriot", "Compatriot", "Politician", "Citizen"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A citizen is a person who is legally recognized as a member of a country and enjoys its rights and privileges.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The right to enjoy social amenities goes together with the responsibility of        (BECE 2018 Q13)",
+        options: [
+          "Attending communal labour",
+          "Offering voluntary service",
+          "Paying taxes regularly",
+          "Attending political meetings"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Citizens must pay taxes regularly because tax revenue is used to provide and maintain social amenities.",
+      ),
+      QuizQuestion(
+        question:
+            "28. An individual whose rights have been infringed upon seeks justice from the        (BECE 2018 Q29)",
+        options: ["Court", "President", "Police", "Teachers"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The court has the authority to hear cases, interpret the law, and provide remedies when a person's rights are violated.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The right of a citizen of Ghana does not include        (BECE 2019 Q3)",
+        options: [
+          "Equality before the law",
+          "Freedom from taxes",
+          "Right to life",
+          "Right to work"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Citizens do not have freedom from taxes because paying taxes is an obligation required for national development.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The right to be protected and heard at trials is an example of        (BECE 2019 Q5)",
+        options: [
+          "Social rights",
+          "Political rights",
+          "Legal rights",
+          "Natural rights"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Protection and the opportunity to be heard during a trial are legal rights guaranteed through the justice system.",
+      ),
+      QuizQuestion(
+        question:
+            "31. When one behaves in an honest and just manner one performs his/her        (BECE 2019 Q23)",
+        options: [
+          "Civic right",
+          "Civic responsibility",
+          "Natural responsibility",
+          "Social responsibility"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Behaving honestly and justly is a civic responsibility because it promotes fairness, trust, and peaceful coexistence.",
+      ),
+      QuizQuestion(
+        question:
+            "32. An individual who behaves in an honest and just manner is said to be performing        (BECE 2021 Q11)",
+        options: [
+          "Civic responsibility",
+          "Civic right",
+          "Natural responsibility",
+          "Political responsibility"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Honest and just behaviour is a civic responsibility expected of responsible members of society.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which of the following activities is a duty of a citizen of Ghana?        (BECE 2022 Q1)",
+        options: [
+          "Defending the 1992 Constitution",
+          "Instigating mass boycott of development",
+          "Attending religious meetings",
+          "Owning huge property"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Every citizen has a duty to uphold and defend the 1992 Constitution and protect Ghana's constitutional order.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following does not constitute a right of a Ghanaian according to the 1992 Constitution?        (BECE 2022 Q29)",
+        options: [
+          "Right to personal liberty",
+          "Freedom of association",
+          "Right to unlawful assembly",
+          "Right to life"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Constitution protects peaceful and lawful assembly, but it does not grant anyone the right to participate in an unlawful assembly.",
+      ),
+      QuizQuestion(
+        question:
+            "35. To prevent human rights abuse in Ghana, the courts must        (BECE 2023 Q7)",
+        options: [
+          "Allow their sittings to be telecast by TV stations",
+          "Be fair to all manner of persons",
+          "Extend their sitting hours to late evening",
+          "Set up a supreme court in every district"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Courts help prevent human rights abuse by treating every person fairly and administering justice without discrimination.",
+      ),
+      QuizQuestion(
+        question:
+            "36. Universal Adult Suffrage guarantees the right to        (BECE 2023 Q14)",
+        options: [
+          "Respect the laws of the land",
+          "Pay taxes on time",
+          "Vote to elect leaders",
+          "Register as a citizen"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Universal Adult Suffrage gives qualified adult citizens the right to vote and choose their leaders.",
+      ),
+      QuizQuestion(
+        question:
+            "37. Which of the following is a good measure for preventing human rights violation in Ghana?        (BECE 2023 Q33)",
+        options: [
+          "Extending formal education to all",
+          "Organizing free and fair elections",
+          "Making external travel more accessible",
+          "Establishing more human rights institutions"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Extending formal education helps people understand their rights and responsibilities and makes them less vulnerable to abuse.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Which of the following fundamental human rights is protected by the 1992 Constitution of Ghana? The right to        (BECE 2024 Q15)",
+        options: [
+          "Use arms",
+          "Full employment",
+          "Freedom of speech",
+          "Free education at tertiary level"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Freedom of speech is a fundamental human right protected by the 1992 Constitution of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "39. How does your role as an active citizen contribute to the development of your community? By        (BECE 2025 Q21)",
+        options: [
+          "Promoting self-interest and peace of mind",
+          "Fostering cooperation and collaboration",
+          "Encouraging isolation from others and staying aloof",
+          "Prioritizing personal interests over communal well-being"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An active citizen supports community development by encouraging people to cooperate, collaborate, and work toward shared goals.",
+      ),
+    ],
+  ),
+  "JHS 2  - Conflict Prevention and Management": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following should be identified as the major cause of ethnic conflicts in Ghana?\n\nI. Chieftaincy disputes\nII. Land disputes\nIII. Cultural similarities\nIV. Struggling for contracts        (BECE 2004 Q19)",
+        options: ["I and II", "II and III", "II and IV", "III and IV"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Chieftaincy and land disputes are major causes of ethnic conflicts because they often create disagreements over traditional authority, boundaries, and ownership.",
+      ),
+      QuizQuestion(
+        question:
+            "2. One way of preventing ethnic conflict in Ghana is through        (BECE 2012 Q22)",
+        options: [
+          "Payment of compensation",
+          "Creation of jobs",
+          "Celebration of festivals",
+          "Tolerance and dialogue"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tolerance and dialogue allow opposing groups to understand one another, discuss their differences peacefully, and reach acceptable solutions.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Ethnic conflicts must be avoided because they slow down        (BECE 2005 Q8)",
+        options: [
+          "Urban to rural migration",
+          "Rural to urban migration",
+          "Tribal integration",
+          "Economic growth"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Ethnic conflicts destroy property, interrupt businesses, discourage investment, and divert resources from development, thereby slowing economic growth.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The shared value which will promote unity among Ghanaians is        (BECE 2007 Q15)",
+        options: ["Loyalty", "Humility", "Hospitality", "Tolerance"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tolerance promotes unity by helping people accept and respect differences in culture, religion, ethnicity, and opinion.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Conflicts in our schools can be solved peacefully through        (BECE 2005 Q8)",
+        options: [
+          "Dismissals and suspensions",
+          "The assistance of a chief linguist",
+          "The intervention of a district pastor",
+          "Negotiation and mediation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Negotiation and mediation help the parties discuss their differences peacefully and reach a mutually acceptable agreement.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Peace, as one of the reasons for the migration of our ancestors to modern Ghana, cannot be sustained if we promote        (BECE 2007 Q1)",
+        options: [
+          "Ethnic conflict",
+          "Ethnic integration",
+          "Western democracy",
+          "Western education"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Ethnic conflict creates hostility, violence, and division among groups, making it impossible to sustain peace.",
+      ),
+      QuizQuestion(
+        question:
+            "7. People running away from Liberia because of the war to stay at Buduburam near Accra became ________ in Ghana.        (BECE 2003 Q15)",
+        options: ["Victims", "Armed robbers", "Soldiers", "Refugees"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Refugees are people who leave their country to seek safety in another country because of war, persecution, or danger.",
+      ),
+      QuizQuestion(
+        question:
+            "8. One major cause of conflicts in the Ghanaian society is        (BECE 2012 Q22)",
+        options: [
+          "The development of slums in the cities",
+          "Inadequate number of law enforcement agents",
+          "The encouragement of inter-ethnic marriages",
+          "The unacceptable way of choosing leaders"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "An unacceptable or unfair method of selecting leaders can create disputes, mistrust, and opposition among members of a community.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Community conflicts are best settled through        (BECE 2014 Q11)",
+        options: [
+          "Arbitration and reconciliation",
+          "Court ruling",
+          "Government intervention",
+          "Police action"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Arbitration and reconciliation help opposing parties settle their differences peacefully and restore good relationships within the community.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following conditions is an effect of ethnic conflicts?        (BECE 2014 Q12)",
+        options: [
+          "Decrease in government expenditure",
+          "Frequent interruption of electricity supply",
+          "Interruption of developmental projects",
+          "Overdependence on foreign goods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ethnic conflicts interrupt development projects because workers may flee, resources may be diverted, and construction activities may be suspended.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The best way to settle disputes is through the        (BECE 2018 Q14)",
+        options: [
+          "Electoral Commission",
+          "District Assembly",
+          "Parliamentary committee",
+          "Court system"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The court system settles disputes by examining evidence, interpreting the law, and delivering legally binding judgments.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Ethnic conflicts must be avoided because they slow down        (BECE 2012 Q26)",
+        options: [
+          "Economic development",
+          "Rural-urban migration",
+          "Tribal disintegration",
+          "Urban-rural migration"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Ethnic conflicts slow economic development by destroying property, discouraging investment, and diverting resources to security and relief efforts.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following is an effect of ethnic conflicts?        (BECE 2017 Q39)",
+        options: [
+          "Interruption of developmental projects",
+          "Decrease in government expenditure",
+          "Frequent interruption of electricity supply",
+          "Overdependence on foreign goods"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Developmental projects may be delayed or abandoned when ethnic conflicts create insecurity and force workers to leave affected areas.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Conflicts in the community can best be prevented when there is        (BECE 2020 Q11)",
+        options: [
+          "Love for one another",
+          "Tolerance of opposing views",
+          "Fairness in wealth distribution",
+          "Respect for one another"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Tolerance of opposing views helps community members accept differences and discuss disagreements without resorting to violence.",
+      ),
+      QuizQuestion(
+        question:
+            "15. One way of managing conflict in the Ghanaian society is        (BECE 2015 Q28)",
+        options: ["Arbitration", "Confrontation", "Consultation", "Meditation"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Arbitration manages conflict by allowing an impartial third party to listen to the parties and make a decision to settle the dispute.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following methods is not a way of managing conflicts?        (BECE 2016 Q27)",
+        options: [
+          "Arbitration",
+          "Negotiation",
+          "Reconciliation",
+          "Suppression"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Suppression does not resolve the underlying causes of a conflict; it merely forces the disagreement to remain hidden temporarily.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The best way to resolve conflicts in Ghana is through        (BECE 2019 Q15)",
+        options: [
+          "Peaceful demonstration",
+          "Law courts",
+          "Mediation",
+          "Harsh sanctions"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mediation allows a neutral person to help the conflicting parties communicate and reach a peaceful, mutually acceptable solution.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Conflicts that destroy lives and property must be prevented by        (BECE 2018 Q20)",
+        options: [
+          "Security agents",
+          "All citizens",
+          "Environmental Protection Agency (EPA)",
+          "National Disaster Management Organization (NADMO)"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Preventing destructive conflicts is the responsibility of all citizens because everyone must promote peace, tolerance, and lawful behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Two communities are claiming ownership of a river which serves as their livelihood. This has resulted in conflicts between the two communities for many years. Which of the following mediations will best help to resolve the conflict?        (BECE 2024 Q2)",
+        options: [
+          "Avoid future conflicts",
+          "Determine who is right or wrong",
+          "Impose a solution on the parties",
+          "Facilitate communication and mutually acceptable solution"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Effective mediation helps the communities communicate openly and develop a solution that is acceptable to both parties rather than imposing a decision.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The process of identifying signals of conflict and encouraging people to work out their differences is known as conflict        (BECE 2022 Q37)",
+        options: ["Involvement", "Management", "Prevention", "Resolution"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Conflict prevention involves recognizing early warning signs and helping people address their differences before the situation becomes violent.",
+      ),
+      QuizQuestion(
+        question:
+            "21. One of the many ways by which conflicts are reduced in the society is through        (BECE 2023 Q4)",
+        options: ["Prayers", "Meditation", "Mediation", "Punishment"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mediation reduces conflict by using a neutral third party to help opposing sides discuss their concerns and agree on a peaceful solution.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Conflicts in the community cannot be properly managed when there is        (BECE 2021 Q17)",
+        options: [
+          "Forgiveness",
+          "Mediation",
+          "Reconciliation",
+          "Land disputes"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Land disputes can create prolonged disagreements and hostility, while forgiveness, mediation, and reconciliation help manage conflicts peacefully.",
+      ),
+    ],
+  ),
+
+  "JHS 2  - Tourism & Financial Issues": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Tourism in Ghana promotes the growth of the        (BECE 2018 Q27)",
+        options: [
+          "Hotel industry",
+          "Film industry",
+          "Textile industry",
+          "Health service"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tourism promotes the hotel industry because tourists need accommodation, food, and other hospitality services during their visits.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The Cape Coast Castle is a valuable national asset because it promotes        (BECE 2008 Q34)",
+        options: ["Trade", "Education", "Tourism", "Civilization"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cape Coast Castle attracts local and international visitors because of its historical importance, thereby promoting tourism.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In which of the following regions in Ghana is the Boti Falls?        (BECE 1990 Q4)",
+        options: ["Ashanti", "Eastern", "Western", "Central"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Boti Falls is a tourist attraction located in the Eastern Region of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following tourist attractions is mostly associated with Kintampo in the Bono East Region?        (BECE 2021 Q35)",
+        options: [
+          "Monkey sanctuary",
+          "Bird viewing",
+          "Savannah vegetation",
+          "Waterfalls"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kintampo is well known for the Kintampo Waterfalls, one of the major tourist attractions in the Bono East Region.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Travelling to see and enjoy facilities and sceneries in other places is referred to as        (BECE 2010 Q32)",
+        options: ["Leisure", "Tourism", "Pleasure", "Entertainment"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling outside one's usual environment to visit and enjoy places, facilities, and attractive sceneries.",
+      ),
+      QuizQuestion(
+        question:
+            "6. A lot of foreigners visit Ghana yearly to see beautiful sceneries. By this, they contribute to the economy through        (BECE 2025 Q23)",
+        options: [
+          "Exploitation of natural resources",
+          "Exploitation of culture",
+          "Revenue generation and foreign exchange",
+          "Developing infrastructure only"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Foreign tourists spend money on accommodation, transport, food, and attractions, which generates revenue and brings foreign exchange into Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The main benefit of tourism to Ghana is that it        (BECE 2014 Q29)",
+        options: [
+          "Encourages inter-tribal marriages",
+          "Enriches our culture",
+          "Is a major foreign exchange earner",
+          "Promotes political stability"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism is a major foreign exchange earner because international visitors spend foreign currencies on goods and services in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The main benefit of tourism to Ghana is        (BECE 2018 Q2)",
+        options: [
+          "Political stability",
+          "Inter-tribal marriage",
+          "Foreign exchange",
+          "Cultural change"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism earns foreign exchange for Ghana when international tourists spend money during their visits.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following places of interest attracts most tourists to Ghana?        (BECE 1996 Q2)",
+        options: [
+          "Kotoka International Airport",
+          "Tema Harbour",
+          "Kakum National Park",
+          "Takoradi Harbour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Kakum National Park is a major tourist attraction known for its tropical forest, wildlife, and canopy walkway.",
+      ),
+      QuizQuestion(
+        question: "10. Tourism involves        (BECE 2017 Q17)",
+        options: [
+          "Taking time off normal duties",
+          "Painting beautiful sceneries",
+          "Buying new and beautiful artefacts",
+          "Travelling to see and enjoy sceneries"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling to other places to visit and enjoy their natural, cultural, or historical attractions.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Workers in Ghana are required by law to contribute towards their future upkeep through        (BECE 2012 Q33)",
+        options: [
+          "Company shares",
+          "Treasury bills",
+          "Government bonds",
+          "Social security schemes"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Workers contribute to social security schemes so that they can receive financial support during retirement or when they can no longer work.",
+      ),
+      QuizQuestion(
+        question:
+            "12. People who visit places of interest to enjoy the facilities are called        (BECE 2018 Q10)",
+        options: ["Experts", "Travellers", "Tourists", "Socialites"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourists are people who travel to places of interest for recreation, education, or enjoyment.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The Kakum Forest in Ghana promotes economic development through its        (BECE 2010 Q2)",
+        options: [
+          "Supply of firewood",
+          "Supply of timber",
+          "Suitable location",
+          "Tourist attraction"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kakum Forest promotes economic development by attracting tourists who spend money on entrance fees, transport, accommodation, and other services.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Pension benefits of Ghanaian workers are managed by the        (BECE 2014 Q25)",
+        options: [
+          "Bank of Ghana",
+          "Ghana Commercial Bank",
+          "Social Security and National Insurance Trust",
+          "State Insurance Company"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Social Security and National Insurance Trust, commonly known as SSNIT, manages pension contributions and benefits for workers under its scheme.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following entrepreneurial skills is most important for someone starting a business to acquire in order to help overcome unexpected challenges?        (BECE 2024 Q33)",
+        options: ["Leadership", "Adaptability", "Savings", "Risk taking"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Adaptability enables an entrepreneur to adjust plans, strategies, and operations when unexpected challenges or changes arise.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Your father intends to begin a new business by raising capital through the sale of shares. This type of business is known as        (BECE 2025 Q3)",
+        options: [
+          "Partnership",
+          "Sole proprietorship",
+          "Joint stock company",
+          "Co-operative society"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A joint stock company raises capital by selling shares to individuals who become shareholders in the business.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Your younger brother's homework requires him to identify types of business enterprise. Which of the following should not be part of his list?        (BECE 2025 Q7)",
+        options: [
+          "Rural banks",
+          "Joint Stock Companies",
+          "Non-Governmental Organizations - NGO's",
+          "Co-operative societies"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A non-governmental organization is generally established to provide social or humanitarian services rather than to operate as a profit-making business enterprise.",
+      ),
+      QuizQuestion(
+        question:
+            "18. A company is expanding globally and needs to socialize employees to new cultural norms. Which of the following approaches would be most effective?        (BECE 2024 Q6)",
+        options: [
+          "Encourage employees to adapt to the new culture on their own",
+          "Encourage employees to maintain their existing cultural practice",
+          "Provide employees with a detailed guide to world cultures",
+          "Provide employees with a cultural sensitivity training program"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Cultural sensitivity training prepares employees to understand, respect, and work effectively with people from different cultural backgrounds.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The productivity of a worker in an organization can be improved by        (BECE 2025 Q24)",
+        options: [
+          "Regular supervision and punishment",
+          "Engaging in short reading courses",
+          "Engaging in retraining workshops",
+          "Providing the necessary tools only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Retraining workshops update a worker's knowledge and skills, helping the person perform duties more efficiently and productively.",
+      ),
+    ],
+  ),
+
+  "JHS 2  - The Republics": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. General elections held in Ghana (Gold Coast) in 1956 ushered Ghana into        (BECE 2002 Q15)",
+        options: ["Independence", "Republic", "Socialism", "Colonialism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The 1956 general election confirmed the demand for independence and paved the way for Ghana to gain independence on 6th March 1957.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Who was the Head of State of Ghana between 1954 and 1960?        (BECE 1995 Q16)",
+        options: [
+          "Dr. Kwame Nkrumah",
+          "Dr. J. B. Danquah",
+          "The Queen of Britain",
+          "Dr. K. A. Busia"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The British monarch remained Ghana's formal Head of State until Ghana became a republic in 1960, while Kwame Nkrumah served as Prime Minister.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The struggle for Ghana's independence from 1951 to 1957 was led by        (BECE 1996 Q39)",
+        options: [
+          "Dr. J. B. Danquah",
+          "Mr. Ako Adjei",
+          "Dr. K. A. Busia",
+          "Dr. Kwame Nkrumah"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Dr. Kwame Nkrumah led the Convention People's Party and the final struggle that resulted in Ghana's independence in 1957.",
+      ),
+      QuizQuestion(
+        question:
+            "4. One of the founding members of the United Gold Coast Convention (U.G.C.C.) was        (BECE 2000 Q25)",
+        options: [
+          "Dr. Kwame Nkrumah",
+          "Dr. J. B. Danquah",
+          "Mr. Kojo Botsio",
+          "Mr. K. A. Gbedemah"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Dr. J. B. Danquah was one of the leading founding members of the United Gold Coast Convention.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Who was the Chairman of the United Gold Coast Convention (U.G.C.C.)?        (BECE 1991 Q26)",
+        options: [
+          "George Grant",
+          "Dr. J. B. Danquah",
+          "Ako Adjei",
+          "E. A. Akufo-Addo"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "George Alfred Grant, popularly known as Paa Grant, was the first chairman of the United Gold Coast Convention.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The first general election in the history of Ghana was held in        (BECE 1998 Q28)",
+        options: ["1949", "1951", "1955", "1957"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The first general election in the Gold Coast was held in 1951 under the new constitutional arrangements.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The struggle for the independence of Ghana from 1951 to 1957 was led by        (BECE 1993 Q28)",
+        options: [
+          "Dr. J. B. Danquah",
+          "Mr. Ako Adjei",
+          "Dr. K. A. Busia",
+          "Dr. Kwame Nkrumah"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Dr. Kwame Nkrumah led the nationalist struggle from 1951 until Ghana achieved independence in 1957.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The people of Ghana were freed from colonial rule on        (BECE 1997 Q17)",
+        options: [
+          "28th February, 1948",
+          "6th March, 1957",
+          "1st July, 1961",
+          "4th June, 1979"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Ghana gained independence from British colonial rule on 6th March 1957.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The first General Secretary of the United Gold Coast Convention (U.G.C.C.) was        (BECE 1998 Q27)",
+        options: [
+          "Kwame Nkrumah",
+          "J. B. Danquah",
+          "Ako Adjei",
+          "George Grant"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Kwame Nkrumah was invited to the Gold Coast in 1947 to serve as the first General Secretary of the U.G.C.C.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Who was the Head of State of Ghana between 1957 and 1960?        (BECE 1998 Q32)",
+        options: [
+          "Kwame Nkrumah",
+          "Queen Elizabeth II",
+          "Akufo-Addo",
+          "Lt General Ankrah"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Queen Elizabeth II was Ghana's formal Head of State from independence in 1957 until Ghana became a republic in 1960.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The first Chairman of the United Gold Coast Convention was        (BECE 2002 Q22)",
+        options: [
+          "Obetsebi Lamptey",
+          "E. A. Akufo-Addo",
+          "Dr. J. B. Danquah",
+          "George Grant"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "George Grant was the first chairman and an important financial supporter of the U.G.C.C.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Which of the following political parties advocated for federalism in Ghana in 1957?        (BECE 2003 Q29)",
+        options: [
+          "The National Liberation Movement (NLM)",
+          "The Convention People's Party (CPP)",
+          "The Northern People's Party (NPP)",
+          "The Togoland Congress (TC)"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The National Liberation Movement advocated a federal system of government before Ghana's independence.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The Head of State of Ghana at independence in 1957 was        (BECE 2013 Q28)",
+        options: [
+          "Kwame Nkrumah",
+          "The Queen of Britain",
+          "Gordon Guggisberg",
+          "Edward Akufo-Addo"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "At independence, the British monarch remained Ghana's formal Head of State, represented locally by a Governor-General.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following personalities was not a member of the Convention People's Party?        (BECE 2003 Q22)",
+        options: [
+          "Kojo Botsio",
+          "N. A. Welbeck",
+          "K. A. Gbedemah",
+          "Dr. K. A. Busia"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Dr. K. A. Busia was an opposition leader and was not a member of the Convention People's Party.",
+      ),
+      QuizQuestion(
+        question:
+            "15. The demand for self-government now was made in 1949 by        (BECE 2004 Q16)",
+        options: [
+          "Dr. J. B. Danquah",
+          "Dr. Kwame Nkrumah",
+          "Dr. K. A. Busia",
+          "Dr. Kwegyir Aggrey"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Kwame Nkrumah and the Convention People's Party demanded self-government now when the party was formed in 1949.",
+      ),
+      QuizQuestion(
+        question:
+            "16. One of the following was not a founding member of the United Gold Coast Convention (U.G.C.C.)        (BECE 2009 Q16)",
+        options: [
+          "J. B. Danquah",
+          "Ako Adjei",
+          "Kwame Nkrumah",
+          "George Grant"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Kwame Nkrumah was invited later to serve as General Secretary and was not one of the original founders of the U.G.C.C.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following personalities was a member of the United Gold Coast Convention?        (BECE 2012 Q38)",
+        options: [
+          "Kojo Botsio",
+          "J. B. Danquah",
+          "Krobo Edusei",
+          "K. A. Gbedemah"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "J. B. Danquah was a leading member and one of the founders of the United Gold Coast Convention.",
+      ),
+      QuizQuestion(
+        question:
+            "18. One of the founding fathers of Ghana who left the United Gold Coast Convention (U.G.C.C.) to form his own party was        (BECE 2023 Q37)",
+        options: [
+          "J. B. Danquah",
+          "Kwame Nkrumah",
+          "Ako Adjei",
+          "Nana William Ofori Atta"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Kwame Nkrumah left the U.G.C.C. and formed the Convention People's Party in 1949.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The 1951 general election granted Ghana        (BECE 2009 Q28)",
+        options: [
+          "Political independence",
+          "Republican status",
+          "Membership of the Commonwealth",
+          "Internal self-government"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The 1951 election increased African participation in government and marked an important step towards internal self-government.",
+      ),
+      QuizQuestion(
+        question:
+            "20. In 1966, a military coup d'état overthrew the government of Dr. Kwame Nkrumah. What was the main reason for the coup?        (BECE 2024 Q28)",
+        options: [
+          "Economic mismanagement and corruption",
+          "External interference from the Russian Government",
+          "Political instability and tribal conflicts",
+          "Failure to implement socialist policies"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Economic difficulties, alleged corruption, rising debt, and dissatisfaction with Nkrumah's government contributed to the 1966 coup.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following Ghanaian Heads of State passed the Preventive Detention Act?        (BECE 2006 Q19)",
+        options: [
+          "Kutu Acheampong",
+          "K. A. Busia",
+          "Hilla Limann",
+          "Kwame Nkrumah"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Preventive Detention Act was passed in 1958 under the government of Kwame Nkrumah.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The Head of State of Ghana from 1957 to 1960 was        (BECE 2010 Q28)",
+        options: [
+          "Kwame Nkrumah",
+          "Queen of Britain",
+          "K. A. Busia",
+          "Gordon Guggisberg"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The Queen of Britain remained Ghana's formal Head of State until the country became a republic on 1st July 1960.",
+      ),
+      QuizQuestion(
+        question:
+            "23. \"Positive Action\" proposed by Nkrumah in 1949 was a call for        (BECE 2008 Q38)",
+        options: [
+          "Hard work and honesty",
+          "Cooperation with the British",
+          "National strike and boycott",
+          "National unity"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Positive Action involved non-violent protests, strikes, and boycotts to press for immediate self-government.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The Prime Minister of the Second Republic of Ghana was        (BECE 2025 Q15)",
+        options: [
+          "Dr. Hilla Limann",
+          "Dr. K. A. Busia",
+          "Dr. Kwame Nkrumah",
+          "Prof. Evans Atta Mills"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Dr. Kofi Abrefa Busia served as Prime Minister during Ghana's Second Republic from 1969 to 1972.",
+      ),
+    ],
+  ),
+
+  // JHS 3 (Social Studies)/////////////
+
+  "JHS 3 - Environmental Issues": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Respiratory diseases can be caused by        (BECE 2019 Q2)",
+        options: [
+          "Water pollution",
+          "Land degradation",
+          "Air pollution",
+          "Deforestation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Air pollution introduces smoke, dust, and harmful gases into the atmosphere. Breathing these pollutants can cause respiratory diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The outbreak of cholera can be prevented by        (BECE 2021 Q26)",
+        options: [
+          "Supplying drugs",
+          "Improving nutrition",
+          "Providing clinics",
+          "Improving sanitation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Improved sanitation prevents the contamination of food and water with cholera-causing bacteria and reduces the spread of the disease.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following is not considered an environmental problem?        (BECE 1992 Q26)",
+        options: [
+          "Air pollution",
+          "Bush burning",
+          "Shortage of water",
+          "Afforestation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Afforestation is the planting of trees. It helps protect and restore the environment rather than causing an environmental problem.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following activities does not cause air pollution?        (BECE 2020 Q32)",
+        options: [
+          "Increase in industrial fumes",
+          "Indiscriminate disposal of solid waste",
+          "Poor disposal of human excreta",
+          "Fishing with chemicals"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Fishing with chemicals mainly pollutes water and harms aquatic organisms, while industrial fumes and poor waste disposal can release pollutants into the air.",
+      ),
+      QuizQuestion(
+        question:
+            "5. A major source of air pollution in the cities of Ghana is        (BECE 2007 Q10)",
+        options: [
+          "Fumes from cars",
+          "Burning of rubbish",
+          "Use of pesticides",
+          "Odours from gutters"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Vehicle exhaust fumes release smoke and harmful gases into the atmosphere, making them a major source of air pollution in Ghanaian cities.",
+      ),
+    ],
+  ),
+  "JHS 3 - Our Natural and Human Resources": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following towns in Ghana is well noted for the mining of diamond?        (BECE 1992 Q8)",
+        options: ["Konongo", "Akwatia", "Tarkwa", "Obuasi"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Akwatia is well known as an important diamond-mining town in Ghana.",
+      ),
+      QuizQuestion(
+        question: "2. Alluvial gold is found in        (BECE 1990 Q5)",
+        options: ["River Oti", "River Offin", "River Densu", "River Bia"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Alluvial gold is found in the River Offin and its surrounding river deposits.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following minerals can be used to improve upon the fertility of the soil?        (BECE 2004 Q26)",
+        options: ["Bauxite", "Iron", "Phosphate", "Diamond"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Phosphate is used in the production of fertilizers that improve soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "4. All the following locations in Ghana are important for salt mining except        (BECE 2005 Q31)",
+        options: [
+          "Songor Lagoon near Ada",
+          "Axim in the Western Region",
+          "Weija in Accra",
+          "Daboya in the Northern Region"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Axim is not a major salt-mining centre, while Songor, Weija, and Daboya are associated with salt production.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following towns in Ghana is important for mining of bauxite?        (BECE 1999 Q13)",
+        options: ["Obuasi", "Awaso", "Tarkwa", "Akwatia"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Awaso is an important bauxite-mining town in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following is not a man-made feature?        (BECE 1992 Q21)",
+        options: ["Mosque", "Road", "Borehole", "Waterfall"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A waterfall is a natural feature, while a mosque, road, and borehole are constructed by people.",
+      ),
+      QuizQuestion(
+        question:
+            "7. In Ghana deep shaft mining is generally associated with        (BECE 1990 Q21)",
+        options: ["Gold", "Salt", "Bauxite", "Diamond"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Deep shaft mining is commonly used to extract gold deposits found deep beneath the ground.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The most important mineral product of the Niger Delta is        (BECE 1995 Q28)",
+        options: ["Petroleum", "Tin", "Coal", "Bauxite"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Niger Delta is internationally known for its large petroleum and natural-gas deposits.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following minerals is not mined in Ghana?        (BECE 1996 Q30)",
+        options: ["Gold", "Bauxite", "Tin", "Manganese"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Gold, bauxite, and manganese are mined in Ghana, but tin is not a major mineral mined in the country.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following minerals is non-metallic?        (BECE 2003 Q38)",
+        options: ["Copper", "Bauxite", "Diamond", "Manganese"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Diamond is a non-metallic mineral, while copper, bauxite, and manganese are metallic minerals.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Motivation and supervision help in the efficient use of        (BECE 2010 Q35)",
+        options: [
+          "Human resources",
+          "National resources",
+          "Mineral resources",
+          "Capital resources"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Motivation and supervision improve workers' performance and therefore ensure the efficient use of human resources.",
+      ),
+      QuizQuestion(
+        question:
+            "12. All the following are metallic minerals except        (BECE 1996 Q37)",
+        options: ["Bauxite", "Copper", "Gold", "Diamond"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Diamond is a non-metallic mineral, while bauxite, copper, and gold are metallic minerals.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following is a human resource?        (BECE 2007 Q30)",
+        options: ["Labour", "Land", "Capital", "Timber"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Labour refers to the physical and mental efforts of people used in production, making it a human resource.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which mineral is mined in the basin of River Birim in Ghana?        (BECE 2005 Q12)",
+        options: ["Gold", "Diamond", "Bauxite", "Manganese"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Birim River basin is well known for alluvial diamond deposits, especially around Akwatia.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following factors is usually available in the rural areas of Ghana?        (BECE 2020 Q20)",
+        options: [
+          "Skilled labour",
+          "Capital",
+          "Entrepreneurs",
+          "Unskilled labour"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Unskilled labour is generally more readily available in rural areas than skilled labour, capital, or entrepreneurs.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The only West African country which produces more cocoa than Ghana is        (BECE 1996 Q32)",
+        options: ["Togo", "Cote d'Ivoire", "Benin", "Sierra Leone"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Cote d'Ivoire produces more cocoa than Ghana and is one of the world's leading cocoa producers.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The world's largest producer of cocoa is        (BECE 1990 Q30)",
+        options: ["Brazil", "La Cote d'Ivoire", "Ghana", "Argentina"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "La Cote d'Ivoire is the world's leading producer of cocoa.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following towns is noted for the production of gold in Ghana?        (BECE 2010 Q15)",
+        options: ["Awaso", "Nsuta", "Prestea", "Akwatia"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Prestea is a major gold-mining town in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following is not used as timber?        (BECE 1990 Q10)",
+        options: ["Wawa", "Odum", "Sapele", "Obeche"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Wawa, sapele, and obeche are commonly identified as commercial timber species, while odum is treated differently in this question.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Countries in North Africa are noted for the production of        (BECE 2003 Q1)",
+        options: ["Iron ore", "Gold", "Crude oil", "Diamond"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Several North African countries, including Libya and Algeria, are major producers of crude oil.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following towns is a manganese-producing centre in Ghana?        (BECE 2023 Q27)",
+        options: ["Nkwatia", "Nsuta", "Saltpond", "Mpraeso"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nsuta is Ghana's major manganese-mining centre.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following natural resources is being over-exploited in Ghana?        (BECE 2008 Q29)",
+        options: ["Mineral", "Water", "Timber", "Sand"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Timber resources are being over-exploited through excessive logging and deforestation.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following resources must be increasingly used for the rapid development of the nation?        (BECE 2020 Q21)",
+        options: [
+          "Natural resources",
+          "Human resources",
+          "Local markets",
+          "External markets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Skilled and productive human resources are essential for transforming other resources and accelerating national development.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following is important for the manufacture of cutting tools?        (BECE 1999 Q38)",
+        options: ["Tin", "Iron", "Silver", "Diamond"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Diamond is extremely hard and is therefore used in cutting and drilling tools.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Nsuta in Ghana is noted for the mining of        (BECE 1991 Q11)",
+        options: ["Diamond", "Manganese", "Bauxite", "Salt"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Nsuta is widely known for manganese mining in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "26. In order to fully develop our natural resources, we must        (BECE 2020 Q30)",
+        options: [
+          "Bring in experts from abroad",
+          "Go for loans from abroad",
+          "Train our human resource",
+          "Compel our youth to undertake farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Training the country's human resources provides the knowledge and skills required to develop natural resources effectively.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following is the raw material for the production of aluminium?        (BECE 1991 Q35)",
+        options: ["Brass", "Steel", "Aluminium", "Bauxite"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bauxite is the principal raw material from which aluminium is produced.",
+      ),
+      QuizQuestion(
+        question: "28. Alumina is obtained from        (BECE 1990 Q20)",
+        options: ["Gold", "Diamond", "Manganese", "Bauxite"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bauxite is refined to produce alumina, which is then processed into aluminium.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The human resource of a country refers to        (BECE 2008 Q15)",
+        options: [
+          "Members of parliament only",
+          "Skills of trade unions",
+          "Skills of workers and management",
+          "Members of local councils only"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Human resources include the skills, knowledge, abilities, and experience of workers and managers.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following countries in West Africa is a major exporter of groundnut?        (BECE 1990 Q24)",
+        options: ["Senegal", "Ghana", "La Cote D'Ivoire", "Liberia"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Senegal is well known in West Africa for the production and export of groundnuts.",
+      ),
+      QuizQuestion(
+        question: "31. The hardest mineral is        (BECE 2006 Q10)",
+        options: ["Gold", "Copper", "Diamond", "Tin"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Diamond is the hardest naturally occurring mineral.",
+      ),
+      QuizQuestion(
+        question: "32. Tin is mined in Nigeria at        (BECE 2000 Q30)",
+        options: ["Enugu", "Kaduna", "Jos", "Kano"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The Jos Plateau in Nigeria is well known for tin mining.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Gold in ancient Ghana was mined at        (BECE 2003 Q19)",
+        options: ["Wangara", "Timuktu", "Jenne", "Goa"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The Wangara people and area were associated with gold mining and trade in ancient Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following methods is used in the mining of crude oil?        (BECE 2000 Q31)",
+        options: ["Open cast", "Deep shaft", "Drilling", "Dredging"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Crude oil is extracted from underground or beneath the seabed by drilling wells.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Which of the following towns is well noted for manganese mining?        (BECE 1997 Q33)",
+        options: ["Obuasi", "Nyinahin", "Tarkwa", "Nsuta"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Nsuta is Ghana's best-known manganese-mining town.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The Mediterranean lands are well known for the production of        (BECE 1991 Q30)",
+        options: ["Minerals", "Textiles", "Citrus", "Metals"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Mediterranean climate supports the cultivation of citrus fruits such as oranges and lemons.",
+      ),
+      QuizQuestion(
+        question:
+            "37. Which of the following minerals is not mined in Ghana?        (BECE 2007 Q19)",
+        options: ["Diamond", "Gold", "Potassium", "Bauxite"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Diamond, gold, and bauxite are mined in Ghana, but potassium is not a major mineral mined in the country.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Which of the following is produced on a large scale in the Middle East?        (BECE 1994 Q17)",
+        options: ["Bauxite", "Coal", "Petroleum", "Gold"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Middle East contains some of the world's largest petroleum reserves and produces crude oil on a large scale.",
+      ),
+      QuizQuestion(
+        question:
+            "39. One major benefit Ghana derives from legal mining activities is        (BECE 2025 Q36)",
+        options: [
+          "Generation of revenue for development",
+          "Granting of loans for mining activities and employment",
+          "Availability of rocks for road construction",
+          "Presidential awards received by mining companies"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Legal mining generates revenue through taxes, royalties, and fees that can be used for national development.",
+      ),
+      QuizQuestion(
+        question:
+            "40. The following factors affect Ghana's ability to exploit its natural resources effectively except        (BECE 2024 Q14)",
+        options: [
+          "Low level technology",
+          "Limited technical expertise",
+          "Farming activities",
+          "Inadequate capital resource"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Low technology, limited technical expertise, and inadequate capital hinder resource exploitation, but farming activities are not a direct limiting factor.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - The Family": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. What is the most common form of marriage in Ghana?        (BECE 2024 Q19)",
+        options: [
+          "Arranged marriage",
+          "Common-law marriage",
+          "Polygamous marriage",
+          "Monogamous marriage"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Monogamous marriage, in which one person is married to only one spouse at a time, is the most common form of marriage in Ghana.",
+      ),
+    ],
+  ),
+  "JHS 3 - Population": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. One factor which results in high birth rate in Ghana is        (BECE 2021 Q20)",
+        options: [
+          "Effective use of contraceptives",
+          "Drifting of the youth to urban centres",
+          "Ineffective birth control measures",
+          "Failure of the youth to acquire skills"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ineffective birth control measures can result in unplanned pregnancies and contribute to a high birth rate.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The most effective measure for reducing the rapid population growth in Ghana is by promoting        (BECE 2017 Q21)",
+        options: [
+          "Gender equality",
+          "Girl-child education",
+          "Adolescent counselling",
+          "Women empowerment"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Girl-child education helps girls delay marriage and childbirth, make informed reproductive decisions, and understand family planning.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Ghana is described as a developing country because she has a high        (BECE 2005 Q24)",
+        options: [
+          "Per capita income",
+          "Population growth rate",
+          "Level of industrialization",
+          "Level of literacy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A high population growth rate is a common feature of developing countries and can place pressure on available resources and services.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The township of Asuabena has an aged population of 1,000 and a youthful population of 4,000. Which of the following amenities should be given the highest priority?        (BECE 2006 Q23)",
+        options: [
+          "Post Office",
+          "Recreational facilities",
+          "Radio station",
+          "Markets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Since the youthful population is much larger, recreational facilities should be prioritized to meet the needs of young people.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Encouraging greater participation of girls in education in Ghana will help reduce        (BECE 2015 Q16)",
+        options: [
+          "Adultery in society",
+          "Number of maternal healthcare centres",
+          "Population growth rate",
+          "Urban-rural drift"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Educated girls are more likely to delay marriage and childbirth and make informed decisions about family size.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following factors encourages rural-urban migration in Ghana?\n\nI. Fewer job opportunities in rural areas\nII. Fertile soils in the rural areas\nIII. High prices of farm produce\nIV. Higher educational institutions in urban centres        (BECE 2005 Q10)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "II and IV only",
+          "I and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Fewer job opportunities in rural areas push people away, while higher educational institutions in urban areas attract them to towns and cities.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Rapid population growth of any country will result in        (BECE 2025 Q26)",
+        options: [
+          "Better medical facilities",
+          "High family expectation of female adults",
+          "Pressure on social facilities in the community",
+          "Proper upbringing of many children"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Rapid population growth increases demand for schools, hospitals, housing, water, and other social facilities.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The growth rate of Ghana's population can be reduced mainly through        (BECE 2022 Q16)",
+        options: [
+          "Public education",
+          "Abortion",
+          "Family planning",
+          "Legislation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Family planning helps couples determine the number and spacing of their children, thereby reducing rapid population growth.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following situations is an effect of rapid population growth in Ghana?        (BECE 2014 Q9)",
+        options: [
+          "Decrease in food production",
+          "High dependency burden",
+          "High standard of living",
+          "Low productivity"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Rapid population growth often creates a large dependent population that relies on the smaller working population for support.",
+      ),
+      QuizQuestion(
+        question:
+            "10. People from various ethnic groups are found in the cities of Ghana because of        (BECE 2004 Q12)",
+        options: ["Tourism", "Trade", "Conflict", "Food"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Trade attracts people from different ethnic groups to cities where markets, businesses, and commercial opportunities are concentrated.",
+      ),
+      QuizQuestion(
+        question:
+            "11. One negative effect of rural-urban migration is        (BECE 2015 Q17)",
+        options: [
+          "Breakdown of family ties",
+          "Chieftaincy disputes",
+          "Ethnic conflicts",
+          "High infant mortality"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Rural-urban migration can separate family members for long periods and weaken family relationships and support systems.",
+      ),
+      QuizQuestion(
+        question:
+            "12. High birth rate in developing countries can lead to        (BECE 2016 Q34)",
+        options: [
+          "High income per head",
+          "Low income per head",
+          "Low dependency ratio",
+          "Skilled labour force"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A high birth rate increases the number of dependants and causes available family and national income to be shared among more people.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The high dependency problem of some families can be solved by        (BECE 2009 Q38)",
+        options: [
+          "Practising family planning",
+          "Sending children to school",
+          "Sharing the responsibilities with relatives",
+          "Encouraging parents to feed their children properly"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Family planning helps parents control family size and reduces the number of dependants supported by the working members.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Family planning is beneficial to Ghanaians because it        (BECE 2012 Q27)",
+        options: [
+          "Helps in giving respect and honour to fathers",
+          "Increases life expectancy of children",
+          "Helps restore the health of mothers",
+          "Brings about equitable distribution of income"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Proper spacing of births gives mothers enough time to recover physically and protects their health.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Pressure on social facilities in urban areas is mainly created by        (BECE 2014 Q10)",
+        options: [
+          "Decrease in imported goods",
+          "High cost of living",
+          "Rural-urban drift",
+          "Urban-rural drift"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Rural-urban drift increases the urban population and creates greater demand for housing, schools, hospitals, water, and sanitation.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Life in the rural areas can be improved through the setting up of        (BECE 2020 Q29)",
+        options: [
+          "Insurance companies",
+          "Heavy industries",
+          "Agro-based industries",
+          "Foreign banks"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Agro-based industries process local agricultural products, create jobs, raise incomes, and support development in rural communities.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following factors is a cause of unemployment in Ghana?        (BECE 2017 Q25)",
+        options: [
+          "Polygamy",
+          "Immigration",
+          "Rapid population growth",
+          "Rapid urbanization"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Rapid population growth increases the number of people seeking employment faster than available jobs can be created.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The large percentage of the youth in Ghana's population implies that Ghana has        (BECE 2017 Q8)",
+        options: [
+          "A free market economy",
+          "A lot of future labour force",
+          "Adequate supply of consumer goods",
+          "Equitable distribution of wealth"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A large youthful population provides many people who can enter the labour force when they reach working age.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following measures cannot improve the quality of life in the rural areas of Ghana?        (BECE 2022 Q10)",
+        options: [
+          "Unregulated family planning",
+          "Greater access to improved formal education",
+          "Extending good roads to the rural communities",
+          "Establishment of industries in the rural areas"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Unregulated family planning cannot improve rural living conditions, while education, roads, and industries promote development.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Rural-urban drift increases demand in the urban centres for        (BECE 2017 Q7)",
+        options: [
+          "Social facilities",
+          "Foreign exchange",
+          "Crude oil",
+          "Higher wages"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "People moving into urban areas increase demand for social facilities such as housing, schools, hospitals, water, and sanitation.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following is an effect of rapid population growth in Ghana?        (BECE 2020 Q31)",
+        options: [
+          "High dependency burden",
+          "Low productivity",
+          "High standard of living",
+          "Decreases in food production"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Rapid population growth commonly creates a high dependency burden because many children depend on the working population.",
+      ),
+      QuizQuestion(
+        question:
+            "22. What is the most likely effect of a large family size on the family's living conditions?        (BECE 2024 Q22)",
+        options: [
+          "Environment conditions enhanced",
+          "Improved housing conditions",
+          "Overcrowding and reduced space",
+          "Increased access to resources"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A large family living in limited accommodation is likely to experience overcrowding and reduced personal space.",
+      ),
+      QuizQuestion(
+        question:
+            "23. It has been observed that the population of Ghana has been rising rapidly over the years. What is the primary reason for the rapidly growing population?        (BECE 2024 Q37)",
+        options: [
+          "High birth rate and low death rate",
+          "Increased education and family planning",
+          "Increased immigration and emigration",
+          "Improved healthcare and sanitation"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "When many children are born while fewer people die, the total population increases rapidly.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Ghana's population can best be described as youthful because a large portion of its people are between ages        (BECE 2021 Q5)",
+        options: ["45–59", "30–44", "15–29", "0–14"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A youthful population has a large proportion of children and young dependants, especially those within the 0–14 age group.",
+      ),
+    ],
+  ),
+  "JHS 3 - Culture and National Identity": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Unity among ethnic groups in Ghana can be promoted through        (BECE 2004 Q6)",
+        options: [
+          "Formal education",
+          "Informal education",
+          "Inter-marriage",
+          "Opinion leaders"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Inter-marriage brings people and families from different ethnic groups together and promotes understanding, cooperation, and unity.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following is a symbol of national unity in Ghana? The        (BECE 2013 Q23)",
+        options: ["National Anthem", "Akosombo Dam", "Gye Nyame", "Judiciary"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The National Anthem is a national symbol that expresses Ghana's identity, shared values, and unity.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The integrity of the nation can be defended by        (BECE 2013 Q24)",
+        options: [
+          "Encouraging immigration",
+          "Reporting saboteurs",
+          "Educating the youth",
+          "Cleaning the environment"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Reporting saboteurs helps protect the nation from people whose actions may threaten its peace, security, and development.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The integrity of the nation can be defended by        (BECE 2014 Q32)",
+        options: [
+          "Educating the youth",
+          "Encouraging immigration",
+          "Cleaning the environment",
+          "Reporting saboteurs"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Citizens defend the integrity of the nation by reporting people who engage in activities that threaten national security.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The motto in Ghana's Coat of Arms is        (BECE 2014 Q40)",
+        options: [
+          "Freedom and love",
+          "Independence and freedom",
+          "Freedom and justice",
+          "Unity and integrity"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The official motto displayed on Ghana's Coat of Arms is \"Freedom and Justice.\"",
+      ),
+      QuizQuestion(
+        question:
+            "6. The most important national symbol which identifies Ghana as an independent sovereign state is the        (BECE 2017 Q18)",
+        options: ["State Stool", "State Sword", "Flag", "Mace"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The national flag represents Ghana's identity, independence, and sovereignty as a nation.",
+      ),
+      QuizQuestion(
+        question:
+            "7. To effectively build the nation, every Ghanaian must        (BECE 2019 Q21)",
+        options: [
+          "Be involved in the production process",
+          "Learn to speak at least one foreign language",
+          "Join the leading political party",
+          "Study the 1992 Constitution"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Participation in productive activities helps create goods, services, employment, and income needed for national development.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following can promote nation building in Ghana?        (BECE 2020 Q23)",
+        options: [
+          "Democratic living at all places",
+          "Defending one's religious beliefs",
+          "Allowing minors to vote at general elections",
+          "Reducing family size to prevent unemployment"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Democratic living promotes participation, fairness, respect for others, and peaceful decision-making, which support nation building.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following measures cannot provide integration among Ghanaians?        (BECE 2020 Q26)",
+        options: [
+          "Inter-ethnic marriages",
+          "Fair representation of ethnic groups in governance",
+          "The study of Ghanaian music and dance in schools",
+          "Minimizing rapid population growth"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Minimizing population growth may support development, but it does not directly promote integration among different ethnic groups.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following values promotes unity among Ghanaians?        (BECE 2021 Q14)",
+        options: ["Logic", "Tolerance", "Humility", "Hospitality"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tolerance helps people accept differences in culture, religion, ethnicity, and opinion, thereby promoting unity.",
+      ),
+      QuizQuestion(
+        question:
+            "11. National unity in Ghana can be promoted through        (BECE 2021 Q31)",
+        options: [
+          "Formal education",
+          "Freedom of worship",
+          "Use of made-in-Ghana goods",
+          "Religious tolerance"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Religious tolerance enables people of different faiths to respect one another and live together peacefully.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Ghana is made up of people with different cultures. What is the primary benefit if all the people unite? It will        (BECE 2024 Q16)",
+        options: [
+          "Improve national security",
+          "Improve international reputation",
+          "Strengthen social cohesion",
+          "Increase economic growth"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Unity strengthens social cohesion by creating stronger relationships, cooperation, and a sense of belonging among citizens.",
+      ),
+      QuizQuestion(
+        question:
+            "13. One major way you can defend the integrity of Ghana as a citizen is by        (BECE 2025 Q12)",
+        options: [
+          "Promoting inter-ethnic marriages",
+          "Respecting other people's culture",
+          "Obeying the laws of the country",
+          "Promoting national festivals"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Obeying the laws of Ghana protects peace, order, and the good name and integrity of the nation.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following cultural elements would you say identifies ethnic groups of Ghana the most?        (BECE 2025 Q35)",
+        options: ["Dance", "Food", "Language", "Music"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Language is a major cultural element used to distinguish and identify the different ethnic groups in Ghana.",
+      ),
+    ],
+  ),
+
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "THE NATURE OF GOD THROUGH ATTRIBUTES": QuizModel(
     audioPath: '',
