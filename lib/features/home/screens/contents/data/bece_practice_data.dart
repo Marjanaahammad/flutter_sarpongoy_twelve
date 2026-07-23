@@ -1836,7 +1836,7 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── SOCIAL STUDIES ───────────────────────────────────────────────────
-  " JHS 1 - Environmental Issues": PracticeModel(
+  " Social Studies JHS1 s1 ss1 - Environmental Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -1934,7 +1934,7 @@ final Map<String, PracticeModel> becePracticeData = {
           explanation: " "),
     ],
   ),
-  "JHS 1 - Mapping Skills": PracticeModel(
+  "Social Studies JHS1 s1 ss2 - Mapping Skills": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2013,7 +2013,7 @@ final Map<String, PracticeModel> becePracticeData = {
           explanation: " "),
     ],
   ),
-  "JHS 1 - Understanding Our Natural World": PracticeModel(
+  "Social Studies JHS1 s1 ss3 - Understanding Our Natural World": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2325,7 +2325,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 1 - Adolescent Reproductive Health": PracticeModel(
+  "Social Studies JHS1 s2 ss1 - Adolescent Reproductive Health": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2382,7 +2382,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 1 - Citizenship and Human Rights": PracticeModel(
+  "Social Studies JHS1 s4 ss1 - Citizenship and Human Rights": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2449,7 +2449,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 1 - Human Resource Development": PracticeModel(
+  "Social Studies JHS1 s5 ss1 - Human Resource Development": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2528,7 +2528,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 1 - Financial and Investment Issues": PracticeModel(
+  "Social Studies JHS1 s5 ss2 - Financial and Investment Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2557,7 +2557,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 1 - Independent Ghana": PracticeModel(
+  "Social Studies JHS1 s6 ss1 - Independent Ghana": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2627,7 +2627,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 2 - Environmental Issues": PracticeModel(
+  "Social Studies JHS2 s1 ss1 - Environmental Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2692,7 +2692,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 2 - Understanding Our Natural World": PracticeModel(
+  "Social Studies JHS2 s1 ss2 - Understanding Our Natural World": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2760,7 +2760,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 2 - Mapping Skills": PracticeModel(
+  "Social Studies JHS2 s1 ss3 - Mapping Skills": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2792,7 +2792,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 2 - Population": PracticeModel(
+  "Social Studies JHS2 s2 ss2 - Population": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2835,7 +2835,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 2 - Citizenship and Human Rights": PracticeModel(
+  "Social Studies JHS2 s4 ss1 - Citizenship and Human Rights": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -2953,7 +2953,8 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 2 - Conflict Prevention and Management": PracticeModel(
+  "Social Studies JHS2 s4 ss2 - Conflict Prevention and Management":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3016,7 +3017,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 2 - Tourism & Financial Issues": PracticeModel(
+  "Social Studies JHS2 s5 ss1 - Tourism & Financial Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3088,7 +3089,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 2 - The Republics": PracticeModel(
+  "Social Studies JHS2 s6 ss1 - The Republics": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3125,7 +3126,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 3 - Our Natural and Human Resources": PracticeModel(
+  "Social Studies JHS3 s1 ss2 - Our Natural and Human Resources": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3210,7 +3211,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - The Family": PracticeModel(
+  "Social Studies JHS3 s2 ss1 - The Family": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3248,7 +3249,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - Population": PracticeModel(
+  "Social Studies JHS3 s2 ss2 - Population": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3318,7 +3319,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 3 - Culture and National Identity": PracticeModel(
+  "Social Studies JHS3 s3 ss3 - Culture and National Identity": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3381,7 +3382,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - The 1992 Constitution": PracticeModel(
+  "Social Studies JHS3 s4 ss1 - The 1992 Constitution": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3455,7 +3456,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "JHS 3 - Peace and Security in Our Nation": PracticeModel(
+  "Social Studies JHS3 s4 ss2 - Peace and Security in Our Nation":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3494,7 +3496,8 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - Promoting Democracy and Political Stability": PracticeModel(
+  "Social Studies JHS3 s4 ss3 - Promoting Democracy and Political Stability":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3709,7 +3712,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - Financial and Investment Issues": PracticeModel(
+  "Social Studies JHS3 s5 ss2 - Financial and Investment Issues": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3739,7 +3742,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - Science and Technology": PracticeModel(
+  "Social Studies JHS3 s5 ss1 - Science and Technology": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3791,7 +3794,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "JHS 3 - Science and Technology": PracticeModel(
+  "Social Studies JHS3 s6 ss1 - The Republics": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -3851,6 +3854,1039 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
+//   Science///////////
+  "Science JHS1 s1 ss1 - Materials": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "(a) Explain why gases are more compressible than solids.\n\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Gases have large spaces between their particles or molecules.\n\n"
+            "• The particles or molecules in a gas have weak forces of attraction between them.\n\n"
+            "• Because of these spaces and weak forces, gas particles can easily be pushed or compressed closer together when pressure is applied.\n\n"
+            "• In contrast, particles in a solid are very closely packed together with strong forces of attraction, leaving almost no space for further compression.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Give three areas where the compressible nature of a gas is applied.\n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• In liquefied petroleum gas (LPG) cylinders used for cooking.\n\n"
+            "• In compressed-gas push-action cans such as air fresheners, insect sprays and aerosol sprays.\n\n"
+            "• In inflating or pumping car, bicycle and other vehicle tyres.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(c) Name three common solvents used in the home.\n\n",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Water\n\n"
+            "• Kerosene\n\n"
+            "• Vinegar\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Name two items commonly used in the home that are mixtures.",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Air\n\n"
+            "• Brass",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s1 ss2 - Living Cells": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2002a Q18)\n\n"
+            "State four characteristics of non-living things.",
+        answer: "⦿ Characteristics of non-living things:\n\n"
+            "• They do not reproduce.\n\n"
+            "• They do not feed.\n\n"
+            "• Non-living things do not grow.\n\n"
+            "• They do not respond to stimuli or feel.\n\n"
+            "• They do not excrete.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2002b Q16)\n\n"
+            "Give one difference between plants and animals in terms of:\n"
+            "(i) feeding;\n"
+            "(ii) excretion;\n"
+            "(iii) sensitivity.",
+        answer: "⦿ (i) Feeding:\n\n"
+            "• Plants: They are able to manufacture their own food from simple substances.\n\n"
+            "• Animals: They depend on plants and other animals for food.\n\n"
+            "⦿ (ii) Excretion:\n\n"
+            "• Plants: They store some of their excretory products in the bark.\n\n"
+            "• Animals: They remove their excretory products through excretory organs.\n\n"
+            "⦿ (iii) Sensitivity:\n\n"
+            "• Plants: They respond slowly to stimuli.\n\n"
+            "• Animals: They respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2006 Q5(a))\n\n"
+            "Mention five differences between plants and animals.",
+        answer: "⦿ Differences between plants and animals:\n\n"
+            "• Cells: Plant cells have large and permanent vacuoles, while animal cells possess small and temporary vacuoles.\n\n"
+            "• Cell wall: Plant cells have cell walls, whereas animal cells have no cell walls.\n\n"
+            "• Chloroplast: Plant cells contain chloroplasts, while animal cells have no chloroplasts.\n\n"
+            "• Movement: Plants do not move freely from place to place, whereas animals move freely from place to place.\n\n"
+            "• Feeding: Plants manufacture their own food and are autotrophic, while animals do not manufacture their own food and are heterotrophic.\n\n"
+            "• Sensitivity: Plants respond slowly to stimuli, whereas animals respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2007 Q1)\n\n"
+            "(a) What is a living cell?\n\n"
+            "(b) Give one function of each of the following components of a living cell:\n"
+            "(i) cell membrane;\n"
+            "(ii) chloroplast;\n"
+            "(iii) nucleus.",
+        answer: "⦿ (a) Living cell:\n\n"
+            "• A living cell is the fundamental unit of life that is capable of carrying out all life processes. It is the basic building block of all living organisms.\n\n"
+            "⦿ (b) Functions of the components:\n\n"
+            "• (i) Cell membrane: It controls the movement of substances into and out of the cell. It also protects the cell by acting as a barrier between the internal and external environments.\n\n"
+            "• (ii) Chloroplast: It carries out photosynthesis by trapping sunlight to produce food. It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "• (iii) Nucleus: It controls all cell activities, including growth and reproduction. It also stores genetic material that determines inherited traits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [BECE 2010 Q6(a)(i)]\n\n"
+            "What is the difference between unicellular organisms and multicellular organisms?",
+        answer:
+            "⦿ Difference between unicellular and multicellular organisms:\n\n"
+            "• Unicellular organisms consist of only one cell that carries out all life functions, while multicellular organisms have many cells that specialise in different functions for survival.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 [BECE 2012 Q2(a)]\n\n"
+            "State one function of each of the following components of a typical cell:\n"
+            "(i) nucleus;\n"
+            "(ii) chloroplast;\n"
+            "(iii) mitochondrion.",
+        answer: "⦿ (i) Nucleus:\n\n"
+            "• It controls all cell activities, including growth and reproduction.\n\n"
+            "• It stores genetic material that determines inherited traits.\n\n"
+            "⦿ (ii) Chloroplast:\n\n"
+            "• It carries out photosynthesis by trapping sunlight to produce food.\n\n"
+            "• It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "⦿ (iii) Mitochondrion:\n\n"
+            "• It helps to break down nutrients such as glucose and fatty acids to release energy.\n\n"
+            "• It provides energy for cell activities.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 [BECE 2012 Q5(b)]\n\n"
+            "State:\n"
+            "(i) two differences between plants and animals;\n"
+            "(ii) two similarities between plants and animals.",
+        answer: "⦿ (i) Differences between plants and animals:\n\n"
+            "• Plant cells contain cell walls and large permanent vacuoles, while animal cells lack cell walls and have small temporary vacuoles.\n\n"
+            "• Plants are autotrophic and manufacture their own food, whereas animals are heterotrophic and depend on other organisms for food.\n\n"
+            "⦿ (ii) Similarities between plants and animals:\n\n"
+            "• Both are made up of cells.\n\n"
+            "• Both require energy to survive.\n\n"
+            "• Both undergo respiration to break down food and release energy.\n\n"
+            "• Both reproduce to produce offspring.\n\n"
+            "• Both respond to stimuli and react to environmental changes.\n\n"
+            "• Both grow, develop and eventually die.\n\n"
+            "• Both excrete metabolic waste materials.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 [BECE 2017 Q3(c)]\n\n"
+            "Explain the following terms as associated with living organisms:\n"
+            "(i) unicellular;\n"
+            "(ii) multicellular.",
+        answer: "⦿ (i) Unicellular:\n\n"
+            "• It refers to an organism that consists of a single cell which performs all the necessary life functions.\n\n"
+            "⦿ (ii) Multicellular:\n\n"
+            "• It refers to an organism composed of many cells that work together and are organised into tissues, organs and systems.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 [BECE 2017 Q4(b)(i)]\n\n"
+            "What is chloroplast?",
+        answer: "⦿ Chloroplast:\n\n"
+            "• A chloroplast is a plant-cell organelle that contains chlorophyll and is the site where photosynthesis takes place.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 [BECE 2017 Q4(b)(ii)]\n\n"
+            "State three characteristics of living things.",
+        answer: "⦿ Characteristics of living things:\n\n"
+            "• Movement: The ability to change position or move from one point to another.\n\n"
+            "• Respiration: The breakdown of nutrients to release energy within living cells.\n\n"
+            "• Sensitivity: The ability to respond to internal or environmental stimuli.\n\n"
+            "• Growth: A permanent increase in structural size or cellular complexity.\n\n"
+            "• Reproduction: The biological process by which living organisms produce offspring.\n\n"
+            "• Excretion: The removal of waste substances produced by metabolic processes.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS1 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Give one example of hard water.\n\n"
+            "(b) Explain why it is advisable to drink water which is hard.",
+        answer: "⦿ (a) Example of hard water:\n\n"
+            "• Sea water, well water or borehole water.\n\n"
+            "⦿ (b) Why it is advisable to drink hard water:\n\n"
+            "• Hard water provides calcium and magnesium, which are essential for building strong bones and teeth.\n\n"
+            "• It helps to prevent heart diseases and can aid digestion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "State the properties of water in terms of:\n"
+            "(a) odour;\n"
+            "(b) taste;\n"
+            "(c) effect on litmus.",
+        answer: "⦿ (a) Odour:\n\n"
+            "• Water is odourless; it has no smell.\n\n"
+            "⦿ (b) Taste:\n\n"
+            "• Water is tasteless; it has no distinct taste.\n\n"
+            "⦿ (c) Effect on litmus:\n\n"
+            "• Water is neutral to litmus paper. It has no effect on either red or blue litmus paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(a) Name the two elements that combine to form water.\n\n"
+            "(b) Write a balanced chemical equation to show how water is formed from the named elements.",
+        answer: "⦿ (a) Elements that combine to form water:\n\n"
+            "• Hydrogen and oxygen.\n\n"
+            "⦿ (b) Balanced chemical equation:\n\n"
+            "• 2H₂ + O₂ → 2H₂O",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(a) State two physical properties of water.\n\n"
+            "(b) Using litmus paper, explain why water is neutral.",
+        answer: "⦿ (a) Physical properties of water:\n\n"
+            "• Water is colourless.\n\n"
+            "• Water is odourless.\n\n"
+            "• It is a universal solvent.\n\n"
+            "• It boils at 100°C and freezes at 0°C.\n\n"
+            "⦿ (b) Why water is neutral:\n\n"
+            "• When red litmus paper is dipped into pure water, it remains red.\n\n"
+            "• When blue litmus paper is dipped into pure water, it remains blue.\n\n"
+            "• This shows that pure water is neither acidic nor basic.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(a) List two properties of water.\n\n"
+            "(b) Explain why it is advisable to wash clothes with soft water.",
+        answer: "⦿ (a) Properties of water:\n\n"
+            "• It is a polar or universal solvent.\n\n"
+            "• It is colourless.\n\n"
+            "• It is odourless.\n\n"
+            "⦿ (b) Why it is advisable to wash clothes with soft water:\n\n"
+            "• Soft water forms lather easily with soap, which reduces the amount of soap used.\n\n"
+            "• It prevents soap scum from building up on clothes and in washing machines, keeping clothes softer and free from mineral deposits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6\n\n"
+            "State two methods of softening hard water.",
+        answer: "⦿ Methods of softening hard water:\n\n"
+            "• Boiling, especially for temporary hardness.\n\n"
+            "• Distillation.\n\n"
+            "• Deionisation.\n\n"
+            "• Addition of washing soda or sodium carbonate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7\n\n"
+            "Explain each of the following terms:\n"
+            "(i) soft water;\n"
+            "(ii) hard water.",
+        answer: "⦿ (i) Soft water:\n\n"
+            "• Soft water is water that does not contain large amounts of dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and forms lather easily with soap.\n\n"
+            "⦿ (ii) Hard water:\n\n"
+            "• Hard water is water that contains dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and does not form lather easily with soap.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8\n\n"
+            "(a) What is hardness of water?\n\n"
+            "(b) Give one example each of a natural source of water that is:\n"
+            "(i) hard water;\n"
+            "(ii) soft water.",
+        answer: "⦿ (a) Hardness of water:\n\n"
+            "• Hardness of water is the presence or measure of dissolved calcium, magnesium or iron ions in water which affects its ability to form lather with soap.\n\n"
+            "⦿ (b)(i) Natural sources of hard water:\n\n"
+            "• Groundwater, lagoon water, sea water or well water.\n\n"
+            "⦿ (b)(ii) Natural sources of soft water:\n\n"
+            "• Rainwater, stream water or pond water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9\n\n"
+            "(a) What is the water cycle?\n\n"
+            "(b) Describe three items of importance of the water cycle.",
+        answer: "⦿ (a) Water cycle:\n\n"
+            "• The water cycle is the continuous movement of water on Earth through processes such as evaporation, condensation and precipitation.\n\n"
+            "⦿ (b) Importance of the water cycle:\n\n"
+            "• It provides fresh water for plants, animals and humans.\n\n"
+            "• It helps to regulate the Earth's temperature.\n\n"
+            "• It replenishes natural water sources such as rivers, lakes and underground aquifers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10\n\n"
+            "(a) Mention two ways in which the carbon cycle can be maintained.\n\n"
+            "(b) State one environmental effect when the carbon cycle is disrupted.",
+        answer: "⦿ (a) Ways of maintaining the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Afforestation or replanting trees.\n\n"
+            "• Respiration.\n\n"
+            "• Animals feeding on plants.\n\n"
+            "⦿ (b) Environmental effects of disrupting the carbon cycle:\n\n"
+            "• Global warming or the greenhouse effect.\n\n"
+            "• A rise in sea level.\n\n"
+            "• Melting of icebergs.\n\n"
+            "• Extinction of certain plants or animals.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11\n\n"
+            "(a) State two human activities that disrupt the carbon cycle.\n\n"
+            "(b) State two effects of the disruption of the carbon cycle on the environment.",
+        answer: "⦿ (a) Human activities that disrupt the carbon cycle:\n\n"
+            "• Bush burning.\n\n"
+            "• Deforestation.\n\n"
+            "• Industrial activities that release fumes.\n\n"
+            "• Burning of fossil fuels.\n\n"
+            "⦿ (b) Environmental effects:\n\n"
+            "• Air pollution.\n\n"
+            "• Global warming or an increase in temperature.\n\n"
+            "• Reduction in rainfall.\n\n"
+            "• Reduction in oxygen levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12\n\n"
+            "(a) What is the carbon cycle?\n\n"
+            "(b) List four processes involved in the carbon cycle.",
+        answer: "⦿ (a) Carbon cycle:\n\n"
+            "• The carbon cycle is the natural process through which carbon circulates between the atmosphere, oceans, land and living organisms.\n\n"
+            "⦿ (b) Processes involved in the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Respiration.\n\n"
+            "• Combustion or burning.\n\n"
+            "• Decay or decomposition.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13\n\n"
+            "(a) Briefly describe the relationship between the carbon cycle and greenhouse gases.\n\n"
+            "(b) Name five greenhouse gases that are compounds of carbon.",
+        answer:
+            "⦿ (a) Relationship between the carbon cycle and greenhouse gases:\n\n"
+            "• The carbon cycle regulates the amount of carbon dioxide in the atmosphere. Carbon dioxide is a major greenhouse gas that traps heat and influences the Earth's temperature.\n\n"
+            "⦿ (b) Greenhouse gases that are compounds of carbon:\n\n"
+            "• Carbon dioxide (CO₂).\n\n"
+            "• Methane (CH₄).\n\n"
+            "• Chlorofluorocarbons (CFCs).\n\n"
+            "• Hydrofluorocarbons (HFCs).\n\n"
+            "• Perfluorocarbons (PFCs).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14\n\n"
+            "(a) State the processes of the nitrogen cycle.\n\n"
+            "(b) Explain why the nitrogen cycle is a repeated pattern in nature.",
+        answer: "⦿ (a) Processes of the nitrogen cycle:\n\n"
+            "• Nitrogen fixation.\n\n"
+            "• Nitrification.\n\n"
+            "• Assimilation.\n\n"
+            "• Ammonification.\n\n"
+            "• Denitrification.\n\n"
+            "⦿ (b) Why the nitrogen cycle is a repeated pattern:\n\n"
+            "• Nitrogen moves continuously between the atmosphere, soil and living organisms in a cyclic process in which it is constantly transformed but not lost.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15\n\n"
+            "(a) Distinguish between nitrification and denitrification.\n\n"
+            "(b) State three items of importance of nitrogen to the environment.",
+        answer:
+            "⦿ (a) Difference between nitrification and denitrification:\n\n"
+            "• Nitrification is the conversion of ammonia or ammonium compounds into nitrites and nitrates that plants can absorb.\n\n"
+            "• Denitrification is the conversion of nitrates in the soil into nitrogen gas, which is released into the atmosphere.\n\n"
+            "⦿ (b) Importance of nitrogen to the environment:\n\n"
+            "• It is essential for plant growth.\n\n"
+            "• It supports animal nutrition through protein formation.\n\n"
+            "• It improves overall soil fertility.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16\n\n"
+            "(a) State two factors necessary for photosynthesis.\n\n"
+            "(b) Explain the functions of each of the factors stated in (a).",
+        answer: "⦿ (a) Factors necessary for photosynthesis:\n\n"
+            "• Sunlight.\n\n"
+            "• Water.\n\n"
+            "• Carbon dioxide.\n\n"
+            "• Chlorophyll.\n\n"
+            "⦿ (b) Functions of the factors:\n\n"
+            "• Sunlight: It provides the energy needed for photosynthesis.\n\n"
+            "• Water: It acts as a raw material that combines with carbon dioxide to produce food.\n\n"
+            "• Carbon dioxide: It acts as a raw material that is converted into glucose.\n\n"
+            "• Chlorophyll: It absorbs or traps light energy from the sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17\n\n"
+            "What is photosynthesis?",
+        answer: "⦿ Photosynthesis:\n\n"
+            "• Photosynthesis is the process by which green plants use sunlight, water and carbon dioxide to manufacture food in the form of glucose and release oxygen as a by-product.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18\n\n"
+            "State what happens when photosynthesis occurs in a leaf.",
+        answer: "⦿ What happens during photosynthesis in a leaf:\n\n"
+            "• Water and carbon dioxide are used.\n\n"
+            "• Sunlight is absorbed by chlorophyll.\n\n"
+            "• Glucose is produced as food.\n\n"
+            "• Oxygen is released into the atmosphere.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19\n\n"
+            "State one function of each of the following factors in photosynthesis:\n"
+            "(a) chlorophyll;\n"
+            "(b) water.",
+        answer: "⦿ (a) Chlorophyll:\n\n"
+            "• It traps or absorbs sunlight needed for photosynthesis.\n\n"
+            "⦿ (b) Water:\n\n"
+            "• It provides the necessary raw material used in the production of glucose.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20\n\n"
+            "(a) Suggest an aim for an experiment in which leaves are tested with iodine after being kept in sunlight or darkness.\n\n"
+            "(b) Explain why the leaves are dipped in boiling water, then warm alcohol and finally washed in cold water.\n\n"
+            "(c) What conclusion is drawn if a leaf turns blue-black?",
+        answer: "⦿ (a) Aim of the experiment:\n\n"
+            "• To demonstrate that sunlight is necessary for photosynthesis to occur.\n\n"
+            "⦿ (b) Reasons for the different treatments:\n\n"
+            "• Boiling water: It kills the leaf cells and stops all chemical reactions.\n\n"
+            "• Warm alcohol: It removes chlorophyll and decolourises the leaf so that any colour change can be clearly observed.\n\n"
+            "• Cold water: It washes off the alcohol and softens the leaf.\n\n"
+            "⦿ (c) Conclusion:\n\n"
+            "• A blue-black colour shows that starch is present, proving that photosynthesis took place.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s2 ss2 - Life Cycle of Organisms": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 [BECE 2016 Q2(b)]\n\n"
+            "Name the stages in the life cycle of a mosquito.",
+        answer: "⦿ Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 [BECE 2022 Q4(a)]\n\n"
+            "(i) Name the stages in the life cycle of a mosquito.\n\n"
+            "(ii) Name the stage at which feeding does not take place.",
+        answer: "⦿ (i) Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago\n\n"
+            "⦿ (ii) Stage at which feeding does not take place:\n\n"
+            "• Pupa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 [BECE 2023 Q4(a)]\n\n"
+            "(i) Explain how the female Anopheles mosquito transmits malaria to humans.\n\n"
+            "(ii) State one chemical method of controlling mosquitoes.",
+        answer:
+            "⦿ (i) How the female Anopheles mosquito transmits malaria to humans:\n\n"
+            "• Bites an infected person: When a female Anopheles mosquito bites a person with malaria, it sucks blood containing the Plasmodium parasite.\n\n"
+            "• Parasite develops in the mosquito: Inside the mosquito, the Plasmodium parasite multiplies and matures.\n\n"
+            "• Bites a healthy person: When the infected mosquito bites another person, it injects the parasite into the person's bloodstream, causing malaria.\n\n"
+            "⦿ (ii) Chemical methods of controlling mosquitoes:\n\n"
+            "• Using mosquito coils.\n\n"
+            "• Applying oil or kerosene to the surface of stagnant water.\n\n"
+            "• Spraying insecticides.\n\n"
+            "• Using insecticide-treated mosquito nets.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 [Likely Examinable]\n\n"
+            "Explain briefly the impact of houseflies on humans.",
+        answer: "⦿ Impact of houseflies on humans:\n\n"
+            "• Houseflies carry germs from dirty places and transfer them to food and water, causing diseases such as cholera and typhoid.\n\n"
+            "• They contaminate food by leaving bacteria behind when they land on it.\n\n"
+            "• Houseflies also help in the breakdown and recycling of organic matter.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [Likely Examinable]\n\n"
+            "(a) Mention three ways of reducing the effects of housefly activities on humans.\n\n"
+            "(b) Explain briefly the stages in the life cycle of a housefly.",
+        answer:
+            "⦿ (a) Ways of reducing the effects of houseflies on humans:\n\n"
+            "• Dispose of waste properly to eliminate their breeding grounds.\n\n"
+            "• Cover food and drinks to prevent contamination by flies.\n\n"
+            "• Clean the surroundings regularly to reduce housefly infestation.\n\n"
+            "• Use fly traps or insecticides to kill adult flies.\n\n"
+            "• Maintain good hygiene by washing hands before eating food.\n\n"
+            "⦿ (b) Stages in the life cycle of a housefly:\n\n"
+            "• Egg: The female housefly lays eggs on decaying matter or waste.\n\n"
+            "• Larva or maggot: The eggs hatch into maggots, which feed on the decaying matter.\n\n"
+            "• Pupa: The maggots form protective cases and develop into pupae.\n\n"
+            "• Adult: The pupa develops into an adult housefly, which emerges and reproduces.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS1 s2 ss3 - Crop Production and Flowering Plants": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2013 Q4(a))\n\n"
+            "(a) State the difference between organic fertilizer and inorganic fertilizer.",
+        answer:
+            "• Organic fertilizer is obtained from living plants and animals' remains which undergo decay or decomposition.\n\n"
+            "• Inorganic fertilizer is manufactured from chemical materials or minerals through artificial or chemical processes.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2013 Q4(a))\n\n"
+            "(b) State two effects of inorganic fertilizer on the environment.",
+        answer:
+            "• Water pollution occurs when excess inorganic fertilizer leaches into the soil or washes off into water bodies, causing heavy algal growth and polluting water sources.\n\n"
+            "• Groundwater contamination results when the chemicals from chemical fertilizers seep deep into the underground water reserves, making it unsafe for consumption.\n\n"
+            "• Soil acidity or alteration of soil organisms can take place with continuous usage, changing the chemical balance of the soil and harming beneficial earthworms and other micro-organisms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q4(d))\n\n"
+            "(a) Give one function of each of the following nutrients in plants:\n"
+            "(i) Nitrogen\n"
+            "(ii) Potassium",
+        answer:
+            "(i) Nitrogen helps in plant development, is used to make chlorophyll, increases the yield of crops, and helps in plant growth.\n\n"
+            "(ii) Potassium helps in starch formation, helps reduce diseases in plants, and helps in the absorption of water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2015 Q4(d))\n\n"
+            "(b) Give one example of major plant nutrients (macro nutrients) in plants.",
+        answer:
+            "• Examples of major plant nutrients include Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), and Sulphur (S).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q4(d))\n\n"
+            "(a) State four methods of applying fertilizer to crops.",
+        answer:
+            "• Broadcasting involves the scattering of fertilizer uniformly over the entire surface area of the soil or field before planting.\n\n"
+            "• Band placement requires placing the fertilizer in bands or rows a few centimetres away from the seeds or plant rows.\n\n"
+            "• Ring placement consists of applying fertilizer in a continuous circular ring layout around the base of individual plants.\n\n"
+            "• Foliar application involves liquid fertilizer sprayed directly onto leaves for quick nutrient absorption.\n\n"
+            "• Side dressing means applying fertilizer along the sides of the growing plant rows during the cultivating season.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(b))\n\n"
+            "(a) List three factors that influence vegetable crop production.",
+        answer:
+            "• Soil quality determines the texture, fertility level, structure, and chemical properties of the cultivation ground.\n\n"
+            "• Pest control helps limit the presence, management, and reduction of destructive insects or plant-damaging entities.\n\n"
+            "• Water supply / Irrigation provides the regular availability and amount of water given to the vegetable crops.\n\n"
+            "• Nearness to market measures how close the production site is to the consumers to reduce crop spoilage after harvesting.\n\n"
+            "• Land topography evaluates the slope, layout, and nature of the surface terrain used for the farm.\n\n"
+            "• Weather conditions cover climatic factors like temperature, sunlight intensity, and rainfall distributions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2018 Q4(b))\n\n"
+            "(a) State three reasons why some seeds are nursed.",
+        answer:
+            "• To provide favourable growth conditions by protecting young and delicate seeds from extreme weather conditions, heavy rains, and intense heat until they grow strong.\n\n"
+            "• It helps in selection of healthy seedlings, allowing the farmer to choose only the most healthy and vigorous seedlings for transplanting.\n\n"
+            "• Improves crop growth uniformity to ensure that crops when transplanted grow evenly at the same rate and maturity time on the field.\n\n"
+            "• Helps in protecting and caring for seedlings which are delicate by allowing intensive management against pests, diseases, and weed competition during their initial fragile stage.\n\n"
+            "• To provide special treatment for some seeds that require specific dormancy-breaking treatments or strict moisture schedules that can be monitored easier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2020 Q4(b))\n\n"
+            "(a) State two uses of water in agriculture.",
+        answer:
+            "• Source of consumption for farm animals where it is provided as drinking water to sustain livestock and domestic farm animals.\n\n"
+            "• Used in fertilizer mixing and application as water acts as a solvent or medium to dissolve and spray chemical inputs and liquid treatments.\n\n"
+            "• Use for cleaning farm animals / Irrigation purpose helps with maintaining animal hygiene, washing equipment, and primary field watering to supplement rainfall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2019 Q4(f))\n\n"
+            "(a) State three methods of preventing the spread of the Swollen Shoot disease.",
+        answer:
+            "• Cutting down and burning infected plants involves systematically removing and destroying infected trees to completely stop the virus from moving to healthy ones.\n\n"
+            "• Using resistant varieties requires planting specially bred cocoa seedlings that can withstand or resist the Swollen Shoot virus attack.\n\n"
+            "• Control of insect vectors is managed by spraying or killing the mealybugs that act as the active biological transport carrying the disease.\n\n"
+            "• Quarantine measures enforce strict restrictions on moving cocoa plant materials from infected zones to clean areas.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q4(f))\n\n"
+            "(a) State three differences between organic and inorganic manures.",
+        answer:
+            "• Source of origin is different; organic manures are derived directly from natural plant and animal wastes, whereas inorganic fertilizers are derived from non-living synthetic chemicals and mineral deposits.\n\n"
+            "• Nutrient concentration differs because organic manure contains nutrients in lower concentrations and releases them slowly, while inorganic fertilizer contains specific plant nutrients in high, precise concentrations for fast release.\n\n"
+            "• Effect on soil structure shows that organic manure improves the physical structure, water retention, and microbial activity of the soil, while inorganic fertilizer does not improve soil structure and can lead to structural degradation or balance changes over extended use.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Explain the term 'staking' as used in crop production and give two examples of crops that require it.",
+        answer:
+            "• Explanation: Staking is a cultural husbandry practice where temporary wooden or bamboo sticks, poles, or metal supports are inserted into the ground near a climbing or weak-stemmed plant to provide structural support for upright growth. This keeps leaves and developing fruits off the damp ground, preventing rotting and improving air circulation.\n\n"
+            "• Examples of crops include Tomatoes, Yam, Sweet Pepper, Passiflora, and certain varieties of climbing beans.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2006 Q4(c))\n\n"
+            "(a) State two differences between sexual reproduction and vegetative reproduction.",
+        answer:
+            "• Sexual reproduction involves the fusion of male and female sex cells (gametes) and always involves seeds, whereas vegetative reproduction involves only a single parent plant where parts of the vegetative body (roots, stems, leaves, buds) develop into new individuals without seeds.\n\n"
+            "• Sexual reproduction results in offspring that show genetic variation from their parents, whereas vegetative reproduction produces offspring that are exact genetic clones of the parent plant.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2009 Q4(b))\n\n"
+            "(a) State two importance of seed dispersal.",
+        answer:
+            "• Prevents competition of food among plants by spreading seeds away from the mother plant to minimize overcrowding and intense competition for light, water, and soil nutrients.\n\n"
+            "• It introduces or spread plants to new areas, enabling plant species to colonise new geographical habitats and expand their distribution footprint.\n\n"
+            "• Prevents plants overcrowding, which ensures even distribution across land areas and limits the quick spread of localized plant diseases and pests.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2014 Q4(c))\n\n"
+            "(a) State two conditions necessary for the germination of seed.",
+        answer:
+            "• Water or moisture softens the hard seed coat and activates internal metabolic enzymes to trigger embryo development.\n\n"
+            "• Air or oxygen is required by the living embryo inside the seed for cellular respiration to generate energy for initial growth.\n\n"
+            "• Suitable temperature or warmth provides optimal thermal conditions for chemical reactions and cellular activities within the seed during growth.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2013 Q4(b))\n\n"
+            "(a) Name two types of fruits and state their mode of disposal.",
+        answer: "• Fruit 1: Coconut — Dispersed by water.\n\n"
+            "• Fruit 2: Mango / Tomato — Dispersed by animals (man).\n\n"
+            "• Fruit 3: Silk cotton / Tridax — Dispersed by wind.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s2 ss4 - Animal Production": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2018 Q2(a))\n\n"
+            "Explain weaning as used in animal production.",
+        answer:
+            "• Weaning is the process of gradually stopping young animals from drinking their mother's milk and introducing them to solid food.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2010 Q2(a)(ii))\n\n"
+            "(a) What are ruminants?\n"
+            "(b) Give two examples of ruminants.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Ruminants are animals or mammals with a four-chambered stomach.\n\n"
+            "⦿ (b) Examples of ruminants:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Giraffe\n\n"
+            "• Antelope",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2011 Q6(d))\n\n"
+            "(a) State two effects of malnutrition in farm animals.\n"
+            "(b) Mention one disease of farm animals caused by virus.",
+        answer: "⦿ (a) Effects of malnutrition in farm animals:\n\n"
+            "• Reduced growth rate or stunted growth.\n\n"
+            "• Lower reproductive performance.\n\n"
+            "• Weakness of immune system.\n\n"
+            "• Loss of weight.\n\n"
+            "• Dullness.\n\n"
+            "⦿ (b) Disease of farm animals caused by virus:\n\n"
+            "• Newcastle\n\n"
+            "• Gumboro\n\n"
+            "• Fowl pox\n\n"
+            "• Swine fever\n\n"
+            "• Rinderpest",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2011 Q6(e)(ii))\n\n"
+            "Explain the following terms as used in animal production:\n"
+            "(i) Ration;\n"
+            "(ii) Debeaking.",
+        answer: "• (i) Ration:\n\n"
+            "Ration is the amount of food given to an animal in a day to keep it healthy and productive.\n\n"
+            "• (ii) Debeaking:\n\n"
+            "Debeaking is the removal of horns from animals like cattle and goats to prevent injuries and make handling easier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q3(b)(ii))\n\n"
+            "State four methods used in identifying farm animals.",
+        answer: "• Branding\n\n"
+            "• Ear-notching\n\n"
+            "• Ear-tagging\n\n"
+            "• Tattooing\n\n"
+            "• Dyeing\n\n"
+            "• Banding",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2014 Q3(b)(ii))\n\n"
+            "(a) What is debeaking?\n"
+            "(b) Give two reasons why debeaking in poultry birds is important.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Debeaking is the partial removal of a poultry bird's beak.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Helps prevent cannibalism.\n\n"
+            "• Prevention of feather pecking.\n\n"
+            "• Helps check food wastage.\n\n"
+            "• Prevent egg eating.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2022 Q3(d)(ii))\n\n"
+            "State the components of a balanced ration for feeding poultry.",
+        answer: "• Protein\n\n"
+            "• Minerals\n\n"
+            "• Fats and oil\n\n"
+            "• Carbohydrates\n\n"
+            "• Vitamins\n\n"
+            "• Water",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (Likely Examinable)\n\n"
+            "(a) What is a monogastric animal?\n"
+            "(b) Give three examples of monogastric animals.\n"
+            "(c) Why is chicken considered as both poultry and monogastric?",
+        answer: "⦿ (a) Answer:\n\n"
+            "A monogastric animal is an animal with a simple or single-chambered stomach.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Pig\n\n"
+            "• Cat\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Rabbit\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Chicken are domesticated birds reared for meat, eggs, or feathers, and they have a single-chambered stomach.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (Likely Examinable)\n\n"
+            "(a) Explain briefly the difference between extensive and intensive animal housing systems.\n"
+            "(b) Suggest two ways farmers can improve the productivity of animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Extensive animal farming system is where the animals graze freely on large areas of land and depend on natural resources for food.\n\n"
+            "• Intensive animal farming system is animals are kept in confinement and much care provided with food, water and care by the farmer.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Provide animals with a balanced and nutritious diet.\n\n"
+            "• Ensure regular vaccination to prevent diseases in livestock.\n\n"
+            "• Maintain clean and well-ventilated housing for animals.\n\n"
+            "• Use improved breeds for higher productivity and growth.\n\n"
+            "• Practice proper hygiene and sanitation in animal houses.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (Likely Examinable)\n\n"
+            "(a) Mention three domestic and commercial useful use of animals.\n"
+            "(b) State three differences between ruminant and monogastric animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "⦿ Domestic use of animals:\n\n"
+            "• They provide security, example is dog.\n\n"
+            "• Source of food such as eggs, meat and milk.\n\n"
+            "• Some provide companionship (pets).\n\n"
+            "• They are used for hunting.\n\n"
+            "• Source of transportation.\n\n"
+            "⦿ Commercial use of animals:\n\n"
+            "• They provide employment for people.\n\n"
+            "• Source of raw materials for agricultural use.\n\n"
+            "• Source of income.\n\n"
+            "• Provision of meat, eggs and milk for the community.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Ruminants have a four-chamber stomach, whereas monogastric animals have a single-chamber stomach.\n\n"
+            "• Ruminants chew cud as part of digestion, whereas monogastric animals do not chew cud.\n\n"
+            "• Ruminants have a complex stomach setup, whereas monogastric animals have a simple stomach setup.\n\n"
+            "• Examples of ruminants include cattle, goats, and sheep, whereas examples of monogastric animals include pigs, dogs, and chickens.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Distinguish between herbivores and omnivores.\n"
+            "(b) Give three examples each of domestic animals that are herbivores and omnivores.\n"
+            "(c) Why do herbivores have a complex stomach?\n"
+            "(d) Name the four stomach chambers of a ruminant.",
+        answer: "⦿ (a) Distinguish between herbivores and omnivores:\n\n"
+            "• Herbivores are animals that feed on mainly plants while omnivores are animals that feed on both plants and meat.\n\n"
+            "⦿ (b) Examples of herbivore and omnivore animals:\n\n"
+            "⦿ Examples of herbivore animals:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Rabbit\n\n"
+            "⦿ Examples of omnivore animals:\n\n"
+            "• Human\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Pig\n\n"
+            "⦿ (c) Why do herbivores have a complex stomach:\n\n"
+            "• Herbivores have a complex stomach which helps them to efficiently digest and absorb the nutrients in their plant-based food.\n\n"
+            "⦿ (d) Chambers of a ruminant stomach:\n\n"
+            "• Rumen\n\n"
+            "• Abomasum\n\n"
+            "• Omasum\n\n"
+            "• Reticulum",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (Likely Examinable)\n\n"
+            "List three similarities among ruminants, monogastric and poultry.",
+        answer:
+            "• All are domesticated animals used for food and other purposes.\n\n"
+            "• All require proper nutrition to remain healthy and productive.\n\n"
+            "• All need clean water for survival and growth.\n\n"
+            "• They are all affected by diseases and require veterinary care.\n\n"
+            "• All reproduce sexually to increase their population.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s2 ss4 - Animal Production": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2011 Q5(a))\n\n"
+            "(a) State four diseases that occur due to deficiency of specific nutrients.",
+        answer: "⦿ Scurvy\n\n"
+            "⦿ Rickets\n\n"
+            "⦿ Goitre\n\n"
+            "⦿ Kwashiorkor\n\n"
+            "⦿ Anaemia\n\n"
+            "⦿ Beriberi\n\n"
+            "⦿ Pellagra",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
+            "(b) (i) What is a food substance?\n"
+            "(ii) Give two functions of proteins in each of the following parts of the human body:\n"
+            "    (α) Hair\n"
+            "    (β) Nail\n"
+            "    (γ) Skin.",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food substance is any chemical or organic compound in living organisms used for growth, energy release, tissue repair, or structural maintenance.\n\n"
+            "⦿ (ii) Functions of proteins:\n\n"
+            "• (α) Hair: Essential for the progressive structural growth of hair fibres and the immediate repair of broken or damaged hair strands.\n\n"
+            "• (β) Nail: Promotes natural nail cellular growth and provides essential structural strength to prevent brittleness.\n\n"
+            "• (γ) Skin: Drives the growth of fresh skin cells and accelerates the repair and healing of physical cuts or open wounds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2012 Q3(c))\n\n"
+            "(c) State two effects of lack of protein in the diet of humans.",
+        answer: "⦿ Effects of lack of protein in the diet of humans:\n\n"
+            "• Severely stunted or poor general body growth and development.\n\n"
+            "• Extremely slow or delayed healing of bodily cuts, wounds, and injuries.\n\n"
+            "• Development of critical nutritional deficiency conditions such as kwashiorkor.\n\n"
+            "• Progressive premature loss of hair fibres and degradation of teeth structural anchors.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2012 Q4(b))\n\n"
+            "(a) (i) What is respiration?\n"
+            "(ii) Name the types of respiration that occur in humans.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Respiration is the metabolic chemical process by which living organisms break down food in cells, with or without oxygen, to release energy, producing water vapour and carbon dioxide as secondary components.\n\n"
+            "⦿ (a) (ii) Types of respiration that occur in humans:\n\n"
+            "• Aerobic respiration\n\n"
+            "• Anaerobic respiration",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q5(a))\n\n"
+            "(b) (i) What is a respiratory organ?\n"
+            "(ii) Name two structures of the respiratory system of humans.",
+        answer: "⦿ (b) (i) Answer:\n\n"
+            "A respiratory organ is any distinct anatomical structure or tissue in living organisms used for regular breathing and biological gaseous exchange.\n\n"
+            "⦿ (b) (ii) Structures of the respiratory system of humans:\n\n"
+            "• Nose or nasal cavity\n\n"
+            "• Trachea or windpipe\n\n"
+            "• Bronchus\n\n"
+            "• Bronchioles\n\n"
+            "• Alveoli or air sacs\n\n"
+            "• Lungs\n\n"
+            "• Diaphragm\n\n"
+            "• Intercostal muscles",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(a))\n\n"
+            "(c) List four parts of the respiratory system in humans.",
+        answer: "⦿ Parts of the respiratory system in humans:\n\n"
+            "• Nose\n\n"
+            "• Trachea\n\n"
+            "• Bronchus\n\n"
+            "• Lungs",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q3(a))\n\n"
+            "(d) Differentiate between aerobic respiration and anaerobic respiration.",
+        answer: "⦿ Aerobic respiration:\n\n"
+            "Aerobic respiration relies on oxygen, completely breaks down glucose substances, and produces a large amount of energy.\n\n"
+            "⦿ Anaerobic respiration:\n\n"
+            "Anaerobic respiration occurs in the absence of oxygen, incompletely breaks down food molecules, and produces only a small amount of energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2022 Q4(b))\n\n"
+            "(e) (i) What is aerobic respiration?\n"
+            "(ii) State the main difference between aerobic and anaerobic respiration.",
+        answer: "⦿ (e) (i) Answer:\n\n"
+            "Aerobic respiration is the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water as by-products.\n\n"
+            "⦿ (e) (ii) Answer:\n\n"
+            "The main difference is that aerobic respiration requires oxygen to break down food substances, whereas anaerobic respiration occurs without oxygen.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (Likely Examinable)\n\n"
+            "(a) What is a monogastric animal?\n"
+            "(b) Give three examples of monogastric animals.\n"
+            "(c) Why is chicken considered as both poultry and monogastric?",
+        answer: "⦿ (a) Answer:\n\n"
+            "A monogastric animal is an animal with a simple or single-chambered stomach.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Pig\n\n"
+            "• Cat\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Rabbit\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Chicken are domesticated birds reared for meat, eggs, or feathers, and they have a single-chambered stomach.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (Likely Examinable)\n\n"
+            "(a) Explain briefly the difference between extensive and intensive animal housing systems.\n"
+            "(b) Suggest two ways farmers can improve the productivity of animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Extensive animal farming system is where the animals graze freely on large areas of land and depend on natural resources for food.\n\n"
+            "• Intensive animal farming system is animals are kept in confinement and much care provided with food, water and care by the farmer.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Provide animals with a balanced and nutritious diet.\n\n"
+            "• Ensure regular vaccination to prevent diseases in livestock.\n\n"
+            "• Maintain clean and well-ventilated housing for animals.\n\n"
+            "• Use improved breeds for higher productivity and growth.\n\n"
+            "• Practice proper hygiene and sanitation in animal houses.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (Likely Examinable)\n\n"
+            "(a) Mention three domestic and commercial useful use of animals.\n"
+            "(b) State three differences between ruminant and monogastric animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "⦿ Domestic use of animals:\n\n"
+            "• They provide security, example is dog.\n\n"
+            "• Source of food such as eggs, meat and milk.\n\n"
+            "• Some provide companionship (pets).\n\n"
+            "• They are used for hunting.\n\n"
+            "• Source of transportation.\n\n"
+            "⦿ Commercial use of animals:\n\n"
+            "• They provide employment for people.\n\n"
+            "• Source of raw materials for agricultural use.\n\n"
+            "• Source of income.\n\n"
+            "• Provision of meat, eggs and milk for the community.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Ruminants have a four-chamber stomach, whereas monogastric animals have a single-chamber stomach.\n\n"
+            "• Ruminants chew cud as part of digestion, whereas monogastric animals do not chew cud.\n\n"
+            "• Ruminants have a complex stomach setup, whereas monogastric animals have a simple stomach setup.\n\n"
+            "• Examples of ruminants include cattle, goats, and sheep, whereas examples of monogastric animals include pigs, dogs, and chickens.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Distinguish between herbivores and omnivores.\n"
+            "(b) Give three examples each of domestic animals that are herbivores and omnivores.\n"
+            "(c) Why do herbivores have a complex stomach?\n"
+            "(d) Name the four stomach chambers of a ruminant.",
+        answer: "⦿ (a) Distinguish between herbivores and omnivores:\n\n"
+            "• Herbivores are animals that feed on mainly plants while omnivores are animals that feed on both plants and meat.\n\n"
+            "⦿ (b) Examples of herbivore and omnivore animals:\n\n"
+            "⦿ Examples of herbivore animals:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Rabbit\n\n"
+            "⦿ Examples of omnivore animals:\n\n"
+            "• Human\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Pig\n\n"
+            "⦿ (c) Why do herbivores have a complex stomach:\n\n"
+            "• Herbivores have a complex stomach which helps them to efficiently digest and absorb the nutrients in their plant-based food.\n\n"
+            "⦿ (d) Chambers of a ruminant stomach:\n\n"
+            "• Rumen\n\n"
+            "• Abomasum\n\n"
+            "• Omasum\n\n"
+            "• Reticulum",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (Likely Examinable)\n\n"
+            "List three similarities among ruminants, monogastric and poultry.",
+        answer:
+            "• All are domesticated animals used for food and other purposes.\n\n"
+            "• All require proper nutrition to remain healthy and productive.\n\n"
+            "• All need clean water for survival and growth.\n\n"
+            "• They are all affected by diseases and require veterinary care.\n\n"
+            "• All reproduce sexually to increase their population.",
+        explanation: "",
+      ),
+    ],
+  ),
+
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": PracticeModel(
     audioPath: '',
@@ -3894,7 +4930,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 2: (a) Narrate the story of creation in the Bible.\n"
+        scenario:
+            "Question 2: (a) Narrate the story of creation in the Bible.\n"
             "(b) Mention three attributes of God which can be learnt from the story.\n"
             "(BECE 2001 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -3927,7 +4964,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) Narrate one African Traditional story on creation.\n"
+        scenario:
+            "Question 4: (a) Narrate one African Traditional story on creation.\n"
             "(b) Explain any three attributes of God in the creation story.\n"
             "(BECE 2003 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -3995,9 +5033,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Practising afforestation to replace any fallen tree.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
+        scenario:
+            "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
             "(b) State four ways by which you can protect God's creation.\n"
             "(BECE 2005 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -4012,7 +5050,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
             "(b) State two moral implication of the attributes of God mentioned in (a).\n"

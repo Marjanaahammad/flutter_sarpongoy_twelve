@@ -1995,7 +1995,6 @@ final Map<String, QuizModel> beceQuizData = {
               "The difference between 5 parts and 2 parts is 3 parts. If 3 parts equal GH₵150.00, then one part is GH₵50.00. The total amount shared is 7 × GH₵50.00 = GH₵350.00."),
     ],
   ),
-
   "Math JHS1 s2 ss1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
@@ -4383,7 +4382,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
-  "JHS 1 - Environmental Issues": QuizModel(
+  "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -4945,7 +4944,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 1 - Mapping Skills": QuizModel(
+  "Social Studies JHS1 s2 ss2 - Mapping Skills": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -5273,7 +5272,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 1 - Understanding Our Natural World": QuizModel(
+  "Social Studies JHS1 s2 ss3 - Understanding Our Natural World": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6298,7 +6297,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 1 - Adolescent Reproductive Health": QuizModel(
+  "Social Studies JHS1 s2 ss1 - Adolescent Reproductive Health": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6571,7 +6570,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Socialization": QuizModel(
+  "Social Studies JHS1 s2 ss2 - Socialization": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6628,7 +6627,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Self-Identity": QuizModel(
+  "Social Studies JHS1 s3 ss1 - Self-Identity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -6648,7 +6647,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Citizenship and Human Rights": QuizModel(
+  "Social Studies JHS1 s4 ss1 - Citizenship and Human Rights": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7013,7 +7012,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Human Resource Development": QuizModel(
+  "Social Studies JHS1 s5 ss1 - Human Resource Development": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7126,7 +7125,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Financial and Investment Issues": QuizModel(
+  "Social Studies JHS1 s5 ss2 - Financial and Investment Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7201,7 +7200,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 1 - Independent Ghana": QuizModel(
+  "Social Studies JHS1 s6 ss1 - Independent Ghana": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7831,7 +7830,7 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // JHS2////////
-  "JHS 2 - ENVIRONMENTAL ISSUES": QuizModel(
+  "Social Studies JHS2 s1 ss1 - ENVIRONMENTAL ISSUES": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7955,7 +7954,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 2  - Understanding Our Natural World": QuizModel(
+  "Social Studies JHS2 s1 ss2  - Understanding Our Natural World": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -8161,7 +8160,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 2  - Mapping Skills": QuizModel(
+  "Social Studies JHS2 s1 ss3  - Mapping Skills": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -8181,7 +8180,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 2  - Population": QuizModel(
+  "Social Studies JHS2 s2 ss2  - Population": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -8228,7 +8227,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 2  - The Individual and the Community": QuizModel(
+  "Social Studies JHS2 s3 ss1  - The Individual and the Community": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -8261,7 +8260,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 2  - Citizenship and Human Rights": QuizModel(
+  "Social Studies JHS2 s4 ss1  - Citizenship and Human Rights": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -8770,7 +8769,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 2  - Conflict Prevention and Management": QuizModel(
+  "Social Studies JHS2 s4 ss2  - Conflict Prevention and Management": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -9054,7 +9053,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 2  - Tourism & Financial Issues": QuizModel(
+  "Social Studies JHS2 s5 ss1  - Tourism & Financial Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -9300,7 +9299,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 2  - The Republics": QuizModel(
+  "Social Studies JHS2 s6 ss1  - The Republics": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -9634,7 +9633,7 @@ final Map<String, QuizModel> beceQuizData = {
 
   // JHS 3 (Social Studies)/////////////
 
-  "JHS 3 - Environmental Issues": QuizModel(
+  "Social Studies JHS3 s1 ss1 - Environmental Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -9709,7 +9708,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 3 - Our Natural and Human Resources": QuizModel(
+  "Social Studies JHS3 s1 ss2 - Our Natural and Human Resources": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -10104,7 +10103,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - The Family": QuizModel(
+  "Social Studies JHS3 s2 ss1 - The Family": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -10123,7 +10122,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 3 - Population": QuizModel(
+  "Social Studies JHS3 s2 ss2 - Population": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -10454,7 +10453,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "JHS 3 - Culture and National Identity": QuizModel(
+  "Social Studies JHS3 s3 ss3 - Culture and National Identity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -10636,7 +10635,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - The 1992 Constitution": QuizModel(
+  "Social Studies JHS3 s4 ss1 - The 1992 Constitution": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -11282,7 +11281,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - Peace and Security in Our Nation": QuizModel(
+  "Social Studies JHS3 s4 ss2 - Peace and Security in Our Nation": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -11449,7 +11448,8 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - Promoting Democracy and Political Stability": QuizModel(
+  "Social Studies JHS3 s4 ss3 - Promoting Democracy and Political Stability":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -11948,7 +11948,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - Financial and Investment Issues": QuizModel(
+  "Social Studies JHS3 s5 ss2 - Financial and Investment Issues": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -12010,7 +12010,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - Science and Technology": QuizModel(
+  "Social Studies JHS3 s5 ss1 - Science and Technology": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -12044,7 +12044,7 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "JHS 3 - The Republics": QuizModel(
+  "Social Studies JHS3 s6 ss1 - The Republics": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -12147,12 +12147,2349 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": QuizModel(
+  // Science/////
+  "Science JHS1 s1 ss1 - Materials": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. When the last tree dies, the last man dies. This statement refers to the need to\n(BECE 2022 Q4)",
+        question: "1. Chlorine gas is an example of        (BECE 2004 Q19)",
+        options: ["An atom", "An element", "A compound", "A molecule"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Chlorine gas exists as Cl₂. It consists of two chlorine atoms chemically joined together, so it is a molecule.",
+      ),
+      QuizQuestion(
+        question:
+            "2. When matter changes state from gas to liquid there is        (BECE 2007 Q6)",
+        options: [
+          "A decrease in mass",
+          "A decrease in volume",
+          "An increase in pressure",
+          "An increase in temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a gas condenses into a liquid, its particles move closer together. This causes a decrease in volume, while its mass remains unchanged.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following statements about the states of matter is correct?        (BECE 2002 Q3)",
+        options: [
+          "Molecules in a solid are disorderly arranged",
+          "Solids are highly compressible",
+          "Liquids have definite form and volume",
+          "Molecules in a gas move faster than those in a liquid"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Gas particles possess more kinetic energy and move more rapidly than particles in a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The physical change(s) that take(s) place when a piece of ice is heated continuously for a long time can be represented by        (BECE 2002 Q2)",
+        options: [
+          "Solid → vapour",
+          "Vapour → solid → liquid",
+          "Solid → liquid → vapour",
+          "Liquid → vapour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ice first melts from a solid into liquid water. Continued heating changes the liquid water into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The substance that sublimes when heated is        (BECE 2006 Q10)",
+        options: ["Baking powder", "Common salt", "Camphor", "Sugar"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Camphor undergoes sublimation, changing directly from a solid into vapour without first becoming a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following processes of conversion of the state of matter is correct?        (BECE 2004 Q1)",
+        options: [
+          "Solid → gas → liquid",
+          "Solid → liquid → gas",
+          "Gas → liquid → solid",
+          "Gas → liquid → solid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a solid is heated, it melts into a liquid. With further heating, the liquid changes into a gas.",
+      ),
+      QuizQuestion(
+        question: "7. The basic unit of matter is the        (BECE 2000 Q3)",
+        options: ["Atom", "Element", "Compound", "Electron"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An atom is the smallest basic unit of matter that retains the chemical properties of an element.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Hydrogen is represented by the chemical symbol H₂. This symbol represents        (BECE 2005 Q1)",
+        options: [
+          "Two molecules of hydrogen",
+          "Two atoms of hydrogen",
+          "Two elements of hydrogen",
+          "Two ions of hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The subscript 2 in H₂ shows that one hydrogen molecule contains two hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question: "9. The chemical formula H₂ represents        (BECE 2002 Q3)",
+        options: [
+          "Two atoms of hydrogen",
+          "Two neutrons of hydrogen",
+          "Two ions of hydrogen",
+          "Two molecules of hydrogen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "H₂ represents one molecule of hydrogen made up of two chemically bonded hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Atoms of the same element have the same        (BECE 1990 Q12)",
+        options: [
+          "Number of electrons",
+          "Chemical properties",
+          "Number of neutrons",
+          "Total electrical charge"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Atoms of the same element have the same number of protons and generally exhibit the same chemical properties.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following statements about elements is correct?        (BECE 2004 Q2)",
+        options: [
+          "Carbon is a metal",
+          "Iron is a non-metal",
+          "Sulphur is a liquid metal",
+          "Gold is a metal"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Gold is a metal. Carbon and sulphur are non-metals, while iron is also a metal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The chemical symbol for sodium is        (BECE 2005 Q35)",
+        options: ["K", "N", "Na", "S"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical symbol for sodium is Na, which is derived from its Latin name, natrium.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The element with chemical symbol P is        (BECE 2012 Q4)",
+        options: ["Phosphorus", "Potassium", "Platinum", "Potassium"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "P is the chemical symbol for phosphorus. Potassium is represented by K, while platinum is represented by Pt.",
+      ),
+      QuizQuestion(
+        question:
+            "14. A substance which is made up of identical atoms is a/an        (BECE 2011 Q1)",
+        options: ["Compound", "Element", "Mixture", "Molecule"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An element is a pure substance made up of only one type of atom.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following elements is a liquid at room temperature?        (BECE 1993 Q22)",
+        options: ["Carbon", "Mercury", "Iodine", "Iron"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metallic element that exists as a liquid at ordinary room temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The electronic configuration of an atom of an element is 2, 8, 2. How many electrons are in the outer shell of the atom?        (BECE 2021 Q4)",
+        options: ["12", "8", "4", "2"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the electronic configuration 2, 8, 2, the last number represents the number of electrons in the outermost shell. Therefore, the atom has two outer-shell electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "17. An atom has 8 protons and 8 neutrons. Its atomic number is        (BECE 1992 Q22)",
+        options: ["0", "8", "16", "64"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The atomic number of an element is equal to the number of protons in its nucleus. Therefore, the atomic number is 8.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An element has 11 protons and 12 neutrons. Its mass number is        (BECE 1994 Q13)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Mass number is calculated by adding the number of protons and neutrons. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "19. An atom has 11 electrons and 12 neutrons. Find its atomic number.        (BECE 2015 Q4)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "In a neutral atom, the number of electrons equals the number of protons. Since the atom has 11 electrons, it has 11 protons and an atomic number of 11.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The atomic number of an element is 17. Which of the following is its electronic configuration?        (BECE 2003 Q1)",
+        options: ["2, 8, 7", "2, 7, 8", "7, 8, 2", "8, 7, 2"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "An atom with atomic number 17 has 17 electrons. These are arranged in the shells as 2, 8 and 7.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Given that the atomic number of an atom is 11, find the number of electrons.        (BECE 2017 Q11)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A neutral atom has an equal number of protons and electrons. Therefore, an atom with atomic number 11 has 11 electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An atom of an element has 11 protons and 12 neutrons in its nucleus. Calculate its mass number.        (BECE 2011 Q3)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The mass number is the sum of the protons and neutrons in the nucleus. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "23. An element has 12 protons. What is its electronic configuration?        (BECE 2013 Q1)",
+        options: ["2, 8, 2", "2, 2, 8", "8, 2, 2", "2, 8, 4"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A neutral atom with 12 protons has 12 electrons. The electrons are arranged in the shells as 2, 8 and 2.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The atomic number of an element is 17. Find the number of electrons.        (BECE 2022 Q6)",
+        options: ["1", "17", "18", "35"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a neutral atom, the number of electrons is equal to the atomic number. Therefore, the element has 17 electrons.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s1 ss2 - Living Cells": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Plants are different from animals because they        (BECE 2004 Q13)",
+        options: ["Have protoplasm", "Have chlorophyll", "Respire", "Grow"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Plants contain chlorophyll, which enables them to absorb sunlight and manufacture food through photosynthesis. Animals do not have chlorophyll.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following features is found in both prokaryotic and eukaryotic cells?        (Likely Examinable Q10)",
+        options: [
+          "Nucleus",
+          "Cell membrane",
+          "Mitochondria",
+          "Golgi apparatus"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Both prokaryotic and eukaryotic cells have a cell membrane. Prokaryotic cells do not have a true nucleus or membrane-bound organelles.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following characteristics applies to only plants?        (BECE 2003 Q16)",
+        options: [
+          "Excretion of waste materials",
+          "Response to stimuli",
+          "Ability to manufacture food from simple substances",
+          "Ability to respire"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture their own food from simple substances through photosynthesis. Both plants and animals excrete, respire and respond to stimuli.",
+      ),
+      QuizQuestion(
+        question:
+            "4. One characteristic which is not common to all living things is the ability to        (BECE 2004 Q13)",
+        options: ["Grow", "Move about", "Respire", "Respond to stimuli"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "All living things grow, respire and respond to stimuli, but not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following processes about all living things is/are true?\n\n"
+            "I. Reproduction\n"
+            "II. Respiration\n"
+            "III. Locomotion\n"
+            "IV. Excretion        (BECE 2001 Q19)",
+        options: [
+          "I only",
+          "I and II only",
+          "I, II and IV only",
+          "I, II and III only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "All living things reproduce, respire and excrete. Locomotion is not performed by all living things because plants do not move freely from place to place.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following statements about a plant cell is correct? It        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mature plant cell normally contains a large permanent vacuole. It also has a nucleus, a cell membrane and a cell wall that gives it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following organisms is/are multicellular?\n\n"
+            "I. Amoeba\n"
+            "II. Paramecium\n"
+            "III. Onion        (BECE 2012 Q20)",
+        options: [
+          "I only",
+          "II and III only",
+          "I and II only",
+          "I, II and III only"
+        ],
+        correctIndex: -1,
+        difficulty: "Medium",
+        explanation:
+            "Only onion is multicellular. Amoeba and Paramecium are unicellular organisms. Therefore, none of the options provided is scientifically correct.",
+      ),
+      QuizQuestion(
+        question: "8. The basic unit of life is the        (BECE 2018 Q16)",
+        options: ["Cell", "Nucleus", "Organ", "Tissue"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cell is the smallest structural and functional unit capable of carrying out the processes of life.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following statements about all living things is/are true?\n\n"
+            "I. They manufacture their own food.\n"
+            "II. They respire.\n"
+            "III. They grow.        (BECE 2000 Q39)",
+        options: ["I only", "II only", "I and II only", "II and III only"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respire and grow. However, only autotrophic organisms such as green plants manufacture their own food.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The process which takes place in all living cells is        (BECE 2003 Q27)",
+        options: [
+          "Digestion",
+          "Fertilization",
+          "Photosynthesis",
+          "Respiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Respiration occurs in all living cells to release energy from food for cellular activities.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following is a feature of all living things except the ability to        (BECE 2003 Q16)",
+        options: [
+          "Bring forth young ones",
+          "Excrete",
+          "Grow",
+          "Move from place to place"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Living things reproduce, excrete and grow. However, not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The characteristic that distinguishes living things from non-living things is that living things        (BECE 2002a Q18)",
+        options: [
+          "Are able to move, while non-living things are not",
+          "Are of different sizes, while non-living things have the same size",
+          "Can manufacture their own food, while non-living things cannot",
+          "Have a definite form, while non-living things have an irregular form"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Living organisms obtain or manufacture food for energy and growth. Non-living things do not perform feeding as a life process.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following life processes is not performed by all living things?        (BECE 2011 Q17)",
+        options: ["Excretion", "Photosynthesis", "Reproduction", "Respiration"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis is performed mainly by green plants and some other organisms. It is not performed by all living things.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following features are common to all living things?\n\n"
+            "I. Response to stimuli\n"
+            "II. Respiration\n"
+            "III. Movement from place to place\n"
+            "IV. Growth        (BECE 2002b Q20)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and III only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respond to stimuli, respire and grow. Movement from one place to another is not common to all living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following life activities is common to both plants and animals?        (BECE 2002 Q42)",
+        options: ["Feeding", "Locomotion", "Respiration", "None of the above"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Both plants and animals carry out respiration to release energy. Animals move from place to place, while plants generally remain fixed.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plant cell wall is mainly made of cellulose, which provides strength, support and protection to the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following correctly shows the order of increasing complexity of structures in living organisms?        (BECE 2011 Q40)",
+        options: [
+          "Cells → organs → tissues → systems",
+          "Cells → tissues → organs → systems",
+          "Cells → systems → tissues → organs",
+          "Cells → tissues → systems → organs"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Similar cells form tissues, tissues form organs, and related organs work together to form organ systems.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following statements about a plant cell is correct?        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plant cell normally contains a large permanent vacuole. Its cell wall also helps to give it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The part of a living cell which is semi-permeable is the        (BECE 2017 Q28)",
+        options: ["Cytoplasm", "Cell membrane", "Nucleus", "Vacuole"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell membrane is selectively or semi-permeable because it controls which substances enter and leave the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Cellulose is the main structural material found in the cell walls of plant cells.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following parts or structures are present in animal cells?        (BECE 2019 Q18)",
+        options: [
+          "Mitochondrion and chloroplast",
+          "Cell wall and mitochondrion",
+          "Vacuole and nucleus",
+          "Nucleus and chloroplast"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Animal cells contain a nucleus and may contain small temporary vacuoles. They do not contain chloroplasts or a cell wall.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The jelly-like substance inside a cell is called        (BECE 2022 Q1)",
+        options: ["Cytoplasm", "Chloroplast", "Nucleus", "Ribosome"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cytoplasm is the jelly-like material inside the cell in which organelles are suspended and many chemical reactions occur.",
+      ),
+      QuizQuestion(
+        question:
+            "23. The organelle responsible for photosynthesis in plant cells is the        (Likely Examinable Q1)",
+        options: ["Nucleus", "Cell wall", "Chloroplast", "Mitochondrion"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chloroplast contains chlorophyll, which absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The function of ribosomes in a cell is to        (Likely Examinable Q3)",
+        options: [
+          "Store water",
+          "Break down food",
+          "Produce proteins",
+          "Generate energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ribosomes are the structures in cells where proteins are produced.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A group of similar cells working together is called a        (Likely Examinable Q4)",
+        options: ["Tissue", "Organ", "System", "Organism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A tissue is a group of similar cells that work together to perform a particular function.",
+      ),
+      QuizQuestion(
+        question:
+            "26. A scientist observed a single-celled organism without a nucleus under a microscope. What type of cell is this?        (Likely Examinable Q6)",
+        options: ["Eukaryotic", "Prokaryotic", "Plant cell", "Animal cell"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A prokaryotic cell does not have a true nucleus. Its genetic material is found freely within the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "27. If a cell has a nucleus, a cell membrane and mitochondria, what type of organism is it likely from?        (Likely Examinable Q7)",
+        options: ["Bacterium", "Virus", "Eukaryote", "Algae"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A cell with a true nucleus and membrane-bound organelles such as mitochondria is a eukaryotic cell.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following best explains why bacteria multiply faster than plant cells?        (Likely Examinable Q8)",
+        options: [
+          "Bacteria do not have mitochondria",
+          "Bacteria have simpler structures and divide quickly",
+          "Plant cells grow larger before dividing",
+          "Plant cells have more organelles than bacteria"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Bacteria are structurally simple organisms that reproduce rapidly through binary fission when conditions are favourable.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The epidermal cells of a dicotyledonous plant play an important role in        (Likely Examinable Q9)",
+        options: [
+          "Storing food for growth",
+          "Transporting water and minerals",
+          "Reducing excessive water loss",
+          "Supporting the plant stem"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Epidermal cells protect the plant and often produce a waxy cuticle that reduces excessive water loss.",
+      ),
+      QuizQuestion(
+        question:
+            "30. A farmer notices that a plant's leaves remain wilted even after watering. Which specialised cell is most likely not functioning properly?        (Likely Examinable Q10)",
+        options: ["Cambium", "Guard cells", "Epidermal cells", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels transport water and mineral salts from the roots to the leaves. Poor xylem function can cause the leaves to remain wilted.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Which of the following explains why xylem vessels are thick-walled?        (Likely Examinable Q11)",
+        options: [
+          "To store excess food",
+          "To provide strength and prevent collapse",
+          "To control the opening and closing of stomata",
+          "To absorb sunlight for photosynthesis"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels have thick, lignified walls that strengthen them and prevent them from collapsing during water transport.",
+      ),
+      QuizQuestion(
+        question:
+            "32. If the cambium of a dicotyledonous plant is removed, the plant will likely        (Likely Examinable Q12)",
+        options: [
+          "Stop producing new xylem and phloem",
+          "Lose its green colour",
+          "Stop absorbing water from the soil",
+          "Continue growing normally"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The cambium is a dividing tissue that produces new xylem and phloem during the secondary growth of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which specialised cell is responsible for carrying oxygen to all parts of the human body?        (Likely Examinable Q13)",
+        options: ["Nerve cell", "Sperm cell", "Red blood cell", "Muscle cell"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which binds with oxygen and transports it around the body.",
+      ),
+      QuizQuestion(
+        question:
+            "34. A person suffers a deep cut, but the bleeding stops after a few minutes. Which type of blood cell made this possible?        (Likely Examinable Q14)",
+        options: [
+          "Red blood cell",
+          "White blood cell",
+          "Platelets",
+          "Nerve cell"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help blood to clot at the site of an injury, reducing and eventually stopping bleeding.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Which of the following best explains why nerve cells are long and branched?        (Likely Examinable Q15)",
+        options: [
+          "To transport oxygen efficiently",
+          "To store food and nutrients",
+          "To transmit messages quickly",
+          "To produce energy for movement"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Nerve cells are long and branched so that they can connect with many cells and transmit electrical messages rapidly over long distances.",
+      ),
+    ],
+  ),
+  "Science JHS1 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following ways of treating water makes the water soft?        (BECE 2006 Q19)",
+        options: [
+          "Adding alum",
+          "Adding washing soda",
+          "Chlorinating",
+          "Filtering"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Washing soda removes calcium and magnesium ions that cause hardness in water, thereby making the water soft.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The taste of water changes when it is boiled because        (BECE 2008 Q19)",
+        options: [
+          "Heat is absorbed during boiling",
+          "Evaporation takes place during boiling",
+          "Air is lost during boiling",
+          "Steam is produced during boiling"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Boiling drives dissolved air out of water. The loss of dissolved gases causes the taste of the water to change.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The method of purification of water that produces water containing very little impurities is        (BECE 2009 Q19)",
+        options: ["Boiling", "Chlorination", "Distillation", "Filtration"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Distillation involves boiling water and condensing the vapour. Most dissolved and suspended impurities are left behind.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Water that forms lather readily with soap is said to be        (BECE 2010 Q1)",
+        options: ["Clean", "Hard", "Soapy", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily with soap because it contains little or no calcium and magnesium ions.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Arrange the following sources of water in the order of increasing contamination.\n\n"
+            "I. Rain\n"
+            "II. Stream\n"
+            "III. Well\n"
+            "IV. Borehole        (BECE 2005 Q20)",
+        options: [
+          "I, II, IV, III",
+          "III, II, I, IV",
+          "I, IV, III, II",
+          "III, II, IV, I"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Rainwater is generally the least contaminated, followed by borehole water, well water and stream water, which is usually the most exposed to pollutants.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Chlorine gas is passed through water during purification to        (BECE 2005 Q19)",
+        options: [
+          "Kill germs",
+          "Cause suspended particles to settle",
+          "Soften the water",
+          "Give taste to the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorine disinfects water by killing harmful microorganisms that may cause diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Water is sometimes referred to as a universal solvent because it        (BECE 2005 Q23)",
+        options: [
+          "Is the purest liquid on earth",
+          "Is the commonest liquid on earth",
+          "Is found in all living cells",
+          "Dissolves most substances"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Water is called a universal solvent because it can dissolve a greater variety of substances than most other liquids.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The method of separation used in the treatment of water at the water works is        (BECE 2000 Q20)",
+        options: [
+          "Decantation",
+          "Evaporation",
+          "Precipitation",
+          "Condensation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "During water treatment, chemicals such as alum cause suspended impurities to form larger particles that precipitate and settle.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following methods of treating water makes it soft?        (BECE 2013 Q21)",
+        options: [
+          "Addition of alum",
+          "Addition of sodium carbonate",
+          "Chlorination",
+          "Filtration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Sodium carbonate removes calcium and magnesium ions from hard water by forming insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Water that requires more soap in order to form lather is described as        (BECE 2007 Q19)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hard water contains calcium and magnesium ions that react with soap, so more soap is needed before lather forms.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Alum is added to water during treatment to        (BECE 2004 Q38)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Make the water colourless",
+          "Give taste to the water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Alum causes small suspended particles to join together into larger particles, making them settle more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Arrange the following types of water in order of increasing hardness.\n\n"
+            "I. Tap water\n"
+            "II. Sea water\n"
+            "III. Distilled water\n"
+            "IV. Rainwater        (BECE 2008 Q20)",
+        options: [
+          "IV, III, II, I",
+          "III, IV, I, II",
+          "II, I, IV, III",
+          "I, II, III, IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Distilled water contains almost no dissolved salts, followed by rainwater, tap water and sea water, which contains the greatest amount of dissolved salts.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Water that needs a small amount of soap to form lather is described as        (BECE 2006 Q20)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and therefore requires only a small amount of soap.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The simplest way of making well water suitable for laundry purposes is by        (BECE 2010 Q5)",
+        options: ["Adding alum", "Boiling", "Chlorination", "Filtering"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Boiling removes temporary hardness caused by dissolved hydrogencarbonates, making the water more suitable for washing.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Water contains two elements, hydrogen and oxygen, in the ratio of        (BECE 2013 Q31)",
+        options: ["1:2", "1:3", "2:1", "3:1"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical formula of water is H₂O, showing that hydrogen and oxygen atoms occur in a ratio of 2:1.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Boiling and chlorination are used in water purification to        (BECE 2009 Q20)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Remove suspended particles",
+          "Remove hardness of the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Both boiling and chlorination destroy harmful microorganisms and make water safer for drinking.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following statements about the properties of water are correct?\n\n"
+            "I. It is colourless and tasteless.\n"
+            "II. It is neutral to litmus paper.\n"
+            "III. It turns red litmus paper blue.\n"
+            "IV. It is a universal solvent.        (BECE 2014 Q28)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and IV only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pure water is colourless and tasteless, is neutral to litmus paper and dissolves many substances. It does not turn red litmus paper blue.",
+      ),
+      QuizQuestion(
+        question:
+            "18. One advantage of soft water over hard water is that soft water        (BECE 2015 Q22)",
+        options: [
+          "Has a pleasant taste",
+          "Can prevent heart diseases",
+          "Does not waste soap",
+          "Forms scales in kettles"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily and does not react with soap to form scum, so it saves soap during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The reason why alum is added to water during treatment is to        (BECE 2016 Q9)",
+        options: [
+          "Kill germs",
+          "Give taste to water",
+          "Make water colourless",
+          "Make suspended particles settle"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Alum acts as a coagulant, causing suspended particles to clump together and settle at the bottom.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following physical properties of water are correct? Water\n\n"
+            "I. is a colourless liquid.\n"
+            "II. is a universal solvent.\n"
+            "III. boils at 100°C at standard atmospheric pressure.\n"
+            "IV. has a density of 5 kg cm⁻³ at 4°C.        (BECE 2018 Q35)",
+        options: [
+          "I and II only",
+          "I, II and III only",
+          "I, II and III only",
+          "II, III and IV only"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Water is colourless, dissolves many substances and boils at 100°C at standard atmospheric pressure. Its density at 4°C is approximately 1 g cm⁻³, not 5 kg cm⁻³.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following chemical compounds is used in removing hardness in water?        (BECE 2019 Q18)",
+        options: ["NaCl", "NaOH", "Na₂CO₃", "NaHCO₃"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate, Na₂CO₃, removes hardness by precipitating calcium and magnesium ions as insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An advantage of soft water over hard water is that soft water        (BECE 2020 Q3)",
+        options: [
+          "Is good for the formation of strong bones in humans",
+          "Prevents heart diseases",
+          "Has a pleasant smell",
+          "Saves a lot of soap when used in washing"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and does not form scum with soap, so less soap is required during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following chemical substances can be used to remove permanent hardness in water?        (BECE 2021 Q13)",
+        options: ["NaHCO₃", "Na₂CO₃", "Ca(HCO₃)₂", "CaCO₃"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate removes permanent hardness by reacting with soluble calcium and magnesium salts to form insoluble precipitates.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The ion that causes hardness in water is        (BECE 2022 Q8)",
+        options: ["CO₃²⁻", "Mg²⁺", "Na⁺", "OH⁻"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hardness in water is mainly caused by dissolved calcium and magnesium ions. Among the options, Mg²⁺ is the ion responsible.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following human activities maintains the carbon cycle?        (BECE 2013 Q38)",
+        options: [
+          "Bush burning",
+          "Felling of trees",
+          "Release of fumes from factories",
+          "Replanting of trees felled as timber"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Replanting trees replaces those that were cut down and supports the continued removal of carbon dioxide through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following gases supports combustion?        (BECE 2016 Q38)",
+        options: ["Hydrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen supports combustion by allowing substances to continue burning.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following processes removes carbon dioxide from the atmosphere?        (BECE 2020 Q5)",
+        options: ["Respiration", "Burning", "Decomposition", "Photosynthesis"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants absorb carbon dioxide from the atmosphere during photosynthesis to manufacture food.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following natural cycles directly involves the sun?\n\n"
+            "I. Carbon cycle\n"
+            "II. Water cycle\n"
+            "III. Nitrogen cycle        (BECE 2024 Q5)",
+        options: [
+          "I and II only",
+          "I only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Solar energy drives photosynthesis in the carbon cycle and evaporation in the water cycle. The nitrogen cycle is not directly driven by the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The by-product of photosynthesis is        (BECE 2002 Q23)",
+        options: ["Carbon dioxide", "Starch", "Oxygen", "Water"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "During photosynthesis, plants manufacture glucose and release oxygen as a by-product.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following gases is given out during photosynthesis?        (BECE 2002 Q30)",
+        options: ["Nitrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen is produced and released into the atmosphere during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Food substances are transported from the leaves to various parts of a plant through the        (BECE 2003 Q14)",
+        options: ["Cambium", "Epidermis", "Phloem", "Xylem"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Phloem tissue transports manufactured food from the leaves to other parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The substance that enables green plants to trap sunlight for the manufacture of food is        (BECE 2005 Q16)",
+        options: ["Chlorophyll", "Chloroplast", "Phloem", "Xylem"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll is the green pigment that absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Water is absorbed by roots in plants and transported to the leaves through the        (BECE 2008 Q14)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Xylem vessels transport water and dissolved mineral salts from the roots to the leaves.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The food manufactured by a plant is distributed to all parts of the plant through the        (BECE 2009 Q37)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Phloem transports manufactured food from the leaves to growing and storage parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The process by which water vapour moves through the stomata of leaves into the atmosphere is known as        (BECE 2010 Q20)",
+        options: ["Absorption", "Diffusion", "Osmosis", "Transpiration"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from the aerial parts of a plant, mainly through the stomata.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The presence of chlorophyll in green plants is a necessary condition for photosynthesis because it        (BECE 2013 Q40)",
+        options: [
+          "Absorbs oxygen",
+          "Absorbs solar energy",
+          "Produces carbon dioxide",
+          "Produces water vapour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll absorbs light energy from the sun, which is needed to manufacture food during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When a green leaf is placed in a test tube containing ethanol and heated over a water bath, the leaf        (BECE 2014 Q29)",
+        options: [
+          "Becomes soft",
+          "Changes colour to brown",
+          "Changes colour to blue-black",
+          "Is decolourised"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Hot ethanol dissolves and removes chlorophyll from the leaf, causing the leaf to become decolourised.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Gases enter and leave the leaf of a plant through the        (BECE 2016 Q22)",
+        options: ["Mesophyll cells", "Stomata", "Pith", "Palisade cells"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Stomata are tiny pores on the leaf surface through which carbon dioxide, oxygen and water vapour pass.",
+      ),
+      QuizQuestion(
+        question:
+            "39. Photosynthesis is important to living organisms because it produces        (BECE 2016 Q29)",
+        options: [
+          "Glucose and oxygen",
+          "Glucose and carbon dioxide",
+          "Oxygen and carbon dioxide",
+          "Water and carbon dioxide"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis produces glucose as food and releases oxygen needed by most living organisms for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "40. To test for starch in a green leaf, it is initially boiled to        (BECE 2023 Q28)",
+        options: [
+          "Isolate the starch",
+          "Kill the leaf",
+          "Extract the chlorophyll",
+          "Make the leaf soft"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The leaf is initially boiled in water to kill it and stop all chemical reactions before the starch test continues.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s2 ss2 - Life Cycle of Organisms": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following practices will destroy the breeding grounds of mosquitoes?        (BECE 1999 Q35)",
+        options: [
+          "Sleeping in mosquito nets",
+          "Spraying with insecticides",
+          "Using insect repellent",
+          "Clearing all empty cans"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Empty cans can collect stagnant water where mosquitoes lay their eggs. Clearing them destroys potential mosquito-breeding grounds.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The insect which transmits the Plasmodium parasite is called        (BECE 2000 Q34)",
+        options: ["Mosquito", "Butterfly", "Housefly", "Cockroach"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The female Anopheles mosquito transmits the Plasmodium parasite that causes malaria.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following diseases is spread by a mosquito?        (BECE 2002 Q14)",
+        options: ["Blindness", "Cholera", "Elephantiasis", "Flybumisist"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Elephantiasis is transmitted by certain mosquitoes carrying parasitic worms. Cholera is mainly spread through contaminated food and water.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The second stage in the life cycle of a mosquito is the        (BECE 2015 Q14)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The mosquito undergoes complete metamorphosis in the order: egg, larva, pupa and adult or imago. Therefore, the larva is the second stage.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The second stage in the life cycle of a mosquito is the        (BECE 2018 Q19)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After the mosquito egg hatches, it develops into a larva. The larval stage is therefore the second stage in its life cycle.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many stages does the mosquito go through in its life cycle of development?        (BECE 2019 Q3)",
+        options: ["1", "2", "3", "4"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A mosquito passes through four stages of development: egg, larva, pupa and adult or imago.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A mosquito pupa breathes through what is called        (BECE 2021 Q23)",
+        options: ["Trachea", "Siphon", "Lungs", "Gills"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A mosquito pupa breathes atmospheric air through respiratory trumpets connected to its tracheal system.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Oil from a mechanic workshop accidentally spilled into a pool of water which was breeding mosquitoes. After some time, the pool of water was no longer breeding mosquitoes. Which control method may have been deployed?        (BECE 2021 Q25)",
+        options: [
+          "Chemical control",
+          "Biological control",
+          "Environmental control",
+          "Genetic control"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The oil forms a layer on the water surface and prevents mosquito larvae and pupae from obtaining air. This is classified as a chemical control method.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Grasshopper management is crucial because of all the following reasons except        (BECE 2024 Q27)",
+        options: [
+          "Incomplete metamorphosis",
+          "Damage to crops",
+          "Ecosystem disruption",
+          "Livestock harassment"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Incomplete metamorphosis describes the grasshopper's life cycle and is not itself a harmful effect requiring control. Grasshoppers may damage crops, disrupt ecosystems and disturb grazing livestock.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s2 ss3 - Crop Production and Flowering Plants": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Transplanting of young seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Seedlings require less nutrients",
+          "Transpiration is minimal",
+          "Pest attack is minimal"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is minimal in the evening because the temperature is lower. This reduces water loss and helps the transplanted seedlings recover.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The practice of reducing the number of seedlings per stand for better growth is known as        (BECE 2023 Q20)",
+        options: ["Thinning out", "Earthing up", "Pricking out", "Filling in"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Thinning out involves removing excess or weak seedlings to reduce competition for nutrients, water, light and space.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following nursery beds is suitable for a dry season?        (BECE 2024 Q23)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A sunken nursery bed retains moisture for a longer period, making it suitable for raising seedlings during the dry season.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Cultural practices are activities undertaken on a farm        (BECE 2019 Q40)",
+        options: [
+          "After harvesting and before processing",
+          "Before maturity and after harvesting",
+          "After planting and before harvesting",
+          "Before transplanting seedlings"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cultural practices are crop-management activities such as watering, weeding, mulching and pest control carried out after planting and before harvesting.",
+      ),
+      QuizQuestion(
+        question:
+            "5. An example of inorganic fertilizer is        (Likely Examinable Q4)",
+        options: ["NPK", "Farmyard manure", "Compost", "Mulch"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "NPK is a manufactured inorganic fertilizer containing nitrogen, phosphorus and potassium.",
+      ),
+      QuizQuestion(
+        question:
+            "6. When organic matter is thoroughly mixed into soil, what is the benefit to the crop?        (Likely Examinable Q8)",
+        options: [
+          "Destroy heavy soils",
+          "Reduce planting space",
+          "Retain plant nutrients",
+          "Clear empty spaces"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Organic matter improves soil fertility and helps the soil retain nutrients required for healthy crop growth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The main reason for staking tomato is to ensure        (BECE 2022 Q10)",
+        options: [
+          "Flower fruits to development",
+          "Air circulation on the farm",
+          "Upright growth of the plant",
+          "That fruits do not get rotten"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Staking supports the weak stems of tomato plants and keeps them growing upright.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The most appropriate practice to adopt when growing vegetables in the dry season is        (BECE 2018 Q18)",
+        options: [
+          "Watering",
+          "Transplanting",
+          "Pest control",
+          "Fertilizer application"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Vegetables need an adequate supply of water. Regular watering is therefore essential during the dry season.",
+      ),
+      QuizQuestion(
+        question: "9. Stirring of soil on vegetable beds is to\n\n"
+            "I. improve aeration of soil.\n"
+            "II. increase activities of soil organisms.\n"
+            "III. increase water penetration in the soil.\n"
+            "IV. reduce weed growth.        (BECE 2023 Q15)",
+        options: [
+          "I, II and IV only",
+          "I, III and IV only",
+          "I, II and III only",
+          "I and II only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Stirring loosens the soil, improves aeration, encourages the activities of soil organisms and allows water to penetrate more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The vegetable crop that requires staking during its growth is        (BECE 2019 Q35)",
+        options: ["Sweet pepper", "Garden eggs", "Tomatoes", "Hot pepper"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tomato plants commonly require staking because their weak stems need support as they grow and produce fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following activities are cultural practices in vegetable production?\n\n"
+            "I. Application of fertilizer\n"
+            "II. Harvesting\n"
+            "III. Mulching        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Fertilizer application and mulching are cultural practices carried out while crops are growing. Harvesting is not a cultural practice.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Which of the following activities are cultural practices used in tomato cultivation?\n\n"
+            "I. Pest control\n"
+            "II. Pricking out\n"
+            "III. Fertilizer application        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pest control, pricking out and fertilizer application are all important practices used in tomato cultivation.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following activities are cultural practices in the cultivation of cabbage?\n\n"
+            "I. Pruning\n"
+            "II. Weeding\n"
+            "III. Watering        (BECE 2017 Q38)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Weeding and watering are important cultural practices in cabbage cultivation. Pruning is not normally carried out on cabbage.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The first factor to be considered when deciding to cultivate a particular vegetable is        (BECE 2017 Q36)",
+        options: [
+          "Cultural practices",
+          "Selection of land",
+          "Harvesting",
+          "Method of propagation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Suitable land must first be selected because soil type, drainage, fertility and topography affect vegetable production.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Delinting and shelling are both activities carried out in the processing of        (BECE 2013 Q15)",
+        options: ["Cowpea", "Groundnut", "Cotton", "Sorghum"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Cotton processing includes shelling to remove the seeds and delinting to remove the fibres attached to the seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The practice in which excess branches of growing plants are removed is termed        (BECE 2020 Q28)",
+        options: ["Mulching", "Pruning", "Thinning", "Staking"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning is the removal of excess, unwanted, dead or diseased branches from a growing plant.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The following practices are cultural practices in crop production except        (BECE 2023 Q19)",
+        options: ["Mulching", "Pest control", "Weeding", "Nursing"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Mulching, pest control and weeding are cultural practices performed on growing crops. Nursing involves raising seedlings before transplanting.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Weeds on a school farm could be controlled by        (BECE 2014 Q16)",
+        options: ["Handpicking", "Mowing", "Ploughing", "Tilling"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Handpicking is an appropriate method of removing weeds from a small area such as a school farm.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following nursery beds is suitable for a rainy season?        (BECE 2024 Q24)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A raised nursery bed allows excess rainwater to drain away and protects seedlings from waterlogging.",
+      ),
+      QuizQuestion(
+        question:
+            "20. A husbandry practice which involves the removal of unwanted plant parts is known as        (BECE 2015 Q35)",
+        options: ["Mulching", "Pruning", "Thinning", "Pricking out"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning involves removing unwanted, excess, damaged or diseased parts of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following vegetable crops is cultivated for its leaves?        (BECE 2016 Q23)",
+        options: ["Carrot", "Lettuce", "Okro", "Pepper"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Lettuce is cultivated mainly for its edible leaves. Carrot is grown for its root, while okro and pepper are grown for their fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following factors has the greatest influence on vegetable crop production?        (BECE 2023 Q17)",
+        options: [
+          "Presence of pest",
+          "Availability of labour",
+          "Source of water",
+          "Nearness to market"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Vegetables require a reliable source of water because they need frequent watering for proper growth and development.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Transplanting of seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Pest attack is minimal",
+          "Transpiration is minimal",
+          "Seedlings require less nutrients"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The cooler evening conditions reduce transpiration and water loss, helping transplanted seedlings recover from transplanting shock.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following factors should be considered when selecting a site for vegetable crop production?\n\n"
+            "I. Nearness to the market\n"
+            "II. Topography of the land\n"
+            "III. Nearness to the sea        (BECE 2017 Q37)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Nearness to the market reduces transport costs and spoilage, while suitable topography supports proper drainage. Nearness to the sea is not required.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The part of the flower that develops into a fruit is the        (BECE 2016 Q7)",
+        options: ["Ovary", "Ovule", "Style", "Stamen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovary develops into a fruit, while the ovules develop into seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The part of the flower that produces pollen grains is the        (BECE 2020 Q21)",
+        options: ["Anther", "Stigma", "Filament", "Ovary"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The anther is the part of the stamen that produces and contains pollen grains.",
+      ),
+      QuizQuestion(
+        question:
+            "27. A fruit in which the pericarp has been modified into a parachute structure is dispersed by        (BECE 2020 Q40)",
+        options: ["Water", "Mammals", "Explosion", "Wind"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A parachute-like structure makes a fruit light and enables it to be carried away by the wind.",
+      ),
+      QuizQuestion(
+        question: "28. A viable seed is one that        (BECE 2010 Q12)",
+        options: [
+          "Germinates under suitable conditions",
+          "Is well protected inside the fruit",
+          "Has a bright colour",
+          "Develops from an ovary"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed contains a living embryo and can germinate when supplied with suitable conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The part of the plant where pollination occurs is the        (BECE 2015 Q23)",
+        options: ["Flowers", "Leaves", "Stems", "Roots"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Pollination takes place in flowers when pollen grains are transferred from the anther to the stigma.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The part of a flower that contains ovaries is called        (BECE 2011 Q24)",
+        options: ["Anther", "Pistil", "Sepal", "Ovary"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pistil is the female reproductive part of a flower and consists of the stigma, style and ovary.",
+      ),
+      QuizQuestion(
+        question:
+            "31. All flowering plants end their cycle with        (BECE 2022 Q2)",
+        options: [
+          "Seed formation",
+          "Seed development",
+          "Seed dispersal",
+          "Seed germination"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The reproductive cycle of a flowering plant ends when the mature seeds are dispersed to new locations.",
+      ),
+      QuizQuestion(
+        question:
+            "32. A beneficial effect of wind in the environment is        (BECE 2010 Q12)",
+        options: [
+          "Promotion of photosynthesis in green plants",
+          "Pollination in flowering plants",
+          "Leaching in soils",
+          "Erosion in soils"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Wind carries pollen grains from the anthers to the stigmas of flowers, helping pollination to occur.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The ovary, ovule and stigma are collectively known as        (BECE 2022 Q28)",
+        options: ["stamen", "pistil", "fruit", "seed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The ovary, ovule, stigma, and style together form the female reproductive part of a flower called the pistil (carpel).",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following fruits is dispersed by water?        (BECE 2021 Q29)",
+        options: ["Coconut", "Mango", "Cocoa", "Maize"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Coconut fruits float on water because of their fibrous husk, allowing them to be dispersed by water.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The shoot system of a flowering plant develops from the        (BECE 2022 Q31)",
+        options: ["radicle", "plumule", "endosperm", "cotyledon"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The plumule develops into the shoot system of a plant, while the radicle develops into the root system.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The carpel of a flower is made up of the following parts except        (BECE 2019 Q27)",
+        options: ["filament", "ovary", "stigma", "style"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The carpel consists of the stigma, style, and ovary. The filament is part of the stamen, the male reproductive organ.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The ovule in a flower develops to form the        (BECE 2019 Q23)",
+        options: ["fruit", "leaf", "seed", "wall"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovule develops into a seed, while the ovary develops into a fruit.",
+      ),
+      QuizQuestion(
+        question: "38. Viable seeds are ones that        (BECE 2013 Q30)",
+        options: [
+          "are able to germinate under suitable conditions",
+          "are eaten by animals after planting",
+          "contain a lot of oil",
+          "have hard seed coat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed is a living seed that can germinate and grow into a healthy plant when provided with suitable conditions.",
+      ),
+      QuizQuestion(
+        question: "39. Fruits dispersed by wind        (BECE 2015 Q27)",
+        options: ["have hairs", "are sticky", "are succulent", "have hooks"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits usually have hairs or wings that help them float and be carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "40. Fruits which are dispersed by wind are likely to be        (BECE 2013 Q29)",
+        options: ["dry", "hairy", "juicy", "sticky"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits are generally dry and lightweight, making it easier for the wind to carry them.",
+      ),
+      QuizQuestion(
+        question:
+            "41. One of the characteristics of wind-pollinated flowers is that they        (BECE 2017 Q29)",
+        options: [
+          "are large and conspicuous",
+          "are usually scented",
+          "develop from the ovary",
+          "have feathery stigma"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wind-pollinated flowers have large, feathery stigmas that trap pollen carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "42. In flowering plants, the stamen is made up of        (BECE 2011 Q10)",
+        options: [
+          "anther and stigma",
+          "anther and filament",
+          "stigma and filament",
+          "stigma and style"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The stamen, the male reproductive part of a flower, consists of the anther and the filament.",
+      ),
+    ],
+  ),
+  "Science JHS1 s2 ss4 - Animal Production": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. All the following are breeds of cattle except        (Likely Examinable Q2)",
+        options: ["N’dama", "White Fulani", "Muturu", "Sokoto Red"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Sokoto Red is a breed of goat, while N’dama, White Fulani, and Muturu are breeds of cattle.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following management practices greatly helps in record keeping?        (BECE 2012 Q25)",
+        options: ["Culling", "Debudding", "Dehorning", "Identification"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Identification allows farmers to distinguish individual animals, making record keeping accurate and effective.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The type of management system which allows farm animals to roam about freely is known as        (BECE 2013 Q9)",
+        options: [
+          "extensive system",
+          "intensive system",
+          "semi-intensive system",
+          "semi-extensive system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the extensive system, animals graze and roam freely over large areas of land.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Endoparasites in farm animals can be controlled by        (BECE 2011 Q29)",
+        options: ["drenching", "dipping", "dusting", "spraying"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Drenching administers deworming medicine orally to control internal parasites (endoparasites).",
+      ),
+      QuizQuestion(
+        question:
+            "5. In the digestive system of ruminants, vitamins are synthesized in the        (BECE 2011 Q28)",
+        options: ["abomasum", "omasum", "reticulum", "rumen"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Microorganisms in the rumen synthesize vitamins, especially B-complex vitamins and vitamin K.",
+      ),
+      QuizQuestion(
+        question:
+            "6. An example of intensive system of poultry keeping is the        (BECE 2010 Q21)",
+        options: [
+          "deep litter system",
+          "fold unit system",
+          "free range system",
+          "free running system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The deep litter system is an intensive poultry management system where birds are kept indoors on litter materials.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following farm animals is/are reared in a hutch?\nI. Goats\nII. Pigs\nIII. Rabbits        (BECE 2010 Q26)",
+        options: ["I only", "III only", "I and II only", "II and III only"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Rabbits are commonly reared in hutches, while goats and pigs are kept in pens or houses.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farm animal which has crop as part of its digestive system is the        (BECE 2010 Q11)",
+        options: ["fowl", "goat", "pig", "sheep"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A crop is a food storage organ found in birds such as fowls before food passes to the gizzard.",
+      ),
+      QuizQuestion(
+        question: "9. Chinchilla is a breed of        (BECE 2011 Q36)",
+        options: ["goats", "pigs", "rabbits", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Chinchilla is a well-known breed of rabbit commonly reared for meat and fur.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The food nutrient which ensures good health in farm animals is        (BECE 2011 Q38)",
+        options: ["carbohydrates", "minerals", "proteins", "vitamins"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Vitamins help maintain good health, support immunity, and regulate body functions in farm animals.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The use of resistant breeds of farm animals in controlling diseases is a        (BECE 2010 Q34)",
+        options: [
+          "biological control method",
+          "chemical control method",
+          "cultural control method",
+          "physical control method"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Using disease-resistant breeds is a biological method of disease control because it relies on the animals' natural genetic resistance.",
+      ),
+      QuizQuestion(
+        question: "12. Young rabbits are called        (BECE 2014 Q8)",
+        options: ["bunnies", "kids", "fingerlings", "cubs"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Young rabbits are commonly called bunnies (or kits).",
+      ),
+      QuizQuestion(
+        question: "13. Landrace is a breed of        (BECE 2011 Q9)",
+        options: ["cattle", "goats", "pigs", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Landrace is a popular breed of pig known for its excellent reproductive performance.",
+      ),
+      QuizQuestion(
+        question:
+            "14. In which part of the digestive system of a fowl does grinding of feed take place?        (BECE 2011 Q23)",
+        options: ["Crop", "Gizzard", "Oesophagus", "Proventriculus"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The gizzard is the muscular organ responsible for grinding food in birds.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A record of daily activities on a farm is termed        (BECE 2011 Q11)",
+        options: [
+          "labour record",
+          "inventory record",
+          "farm diary",
+          "production record"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A farm diary is used to record the day-to-day activities and events that take place on the farm.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Balanced ration enables animals to        (BECE 2019 Q39)",
+        options: [
+          "increase fertility rate",
+          "maintain normal growth",
+          "increase meat production",
+          "maintain energy level of work animals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A balanced ration provides all the nutrients needed for proper body maintenance, health, and normal growth.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The process of removing unproductive poultry birds from a flock is referred to as        (BECE 2014 Q20)",
+        options: ["culling", "dehorning", "debeaking", "identification"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Culling is the removal of weak, diseased, old, or unproductive birds from a flock to improve productivity.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Malnutrition is a condition that occurs when the body does not get the right balance of nutrients. It can cause:        (BECE 2012 Q1)",
+        options: ["obesity", "rickets", "scurvy", "kwashiorkor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kwashiorkor is a form of malnutrition caused by severe protein deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following is a symptom of night blindness?        (BECE 2014 Q6)",
+        options: [
+          "Poor night vision",
+          "Swollen legs",
+          "Bleeding gums",
+          "Weak bones"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Night blindness is characterized by poor vision in dim light and is commonly caused by vitamin A deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following food substances is not involved in respiration?        (BECE 2007 Q10)",
+        options: ["Vitamin", "Glucose", "Protein", "Fat"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Vitamins regulate body processes but do not serve as respiratory substrates for energy production.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Deficiency of iron in the diet leads to        (BECE 2018 Q3)",
+        options: ["rickets", "anemia", "scurvy", "goiter"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron deficiency reduces the production of haemoglobin, leading to anaemia.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Iodine deficiency in humans results in        (BECE 2016 Q2)",
+        options: ["anemia", "scurvy", "rickets", "goiter"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Iodine deficiency causes enlargement of the thyroid gland, resulting in goiter.",
+      ),
+      QuizQuestion(
+        question:
+            "6. External respiration in living organisms involves the        (BECE 2013 Q10)",
+        options: [
+          "production of energy",
+          "exhaling of carbon dioxide",
+          "inhaling of oxygen",
+          "intake of oxygen and expiration of carbon dioxide"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "External respiration is the exchange of gases with the environment by taking in oxygen and releasing carbon dioxide.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The gas produced when glucose is oxidized during aerobic respiration is        (BECE 2016 Q17)",
+        options: ["carbon dioxide", "nitrogen", "hydrogen", "oxygen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aerobic respiration produces carbon dioxide, water, and energy when glucose is completely oxidized.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following statements about aerobic and anaerobic respiration is not correct?        (BECE 2021 Q11)",
+        options: [
+          "Water is produced as a by-product in aerobic respiration.",
+          "Alcohol or lactic acid is produced in anaerobic respiration.",
+          "No oxygen is required in anaerobic respiration.",
+          "Very little energy is released in aerobic respiration."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Aerobic respiration releases a large amount of energy, not very little. Anaerobic respiration releases much less energy.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The function of the hair in the nose of humans is to        (BECE 2018 Q16)",
+        options: [
+          "make breathing easier",
+          "keep nose moist",
+          "filter dust from the air breathed in",
+          "keep the nose warm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The hairs in the nose trap dust, pollen, and other particles, preventing them from entering the respiratory tract.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Exchange of gases takes place in the respiratory system through the        (BECE 2005 Q10)",
+        options: ["alveoli", "bronchus", "trachea", "bronchioles"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The alveoli are tiny air sacs in the lungs where oxygen enters the blood and carbon dioxide leaves the blood.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The different types of teeth that an animal has gives an indication of the animal's        (BECE 2007 Q12)",
+        options: ["digestion", "growth", "feeding habit", "reproduction"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The type and arrangement of teeth show the kind of food an animal eats, indicating its feeding habit.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The type of teeth used for biting and cutting food items are the        (BECE 2013 Q6)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Incisors are the front teeth specialized for biting and cutting food.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The type of teeth used by mammals to crush food items is        (BECE 2010 Q31)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Molars are broad, flat teeth specialized for crushing and grinding food during chewing.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following types of teeth is used by mammals to tear food materials?        (BECE 2014 Q30)",
+        options: ["Incisors", "Canines", "Molars", "Premolars"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Canines are pointed teeth adapted for tearing and holding food, especially meat.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which part of the human tooth contains blood vessels and nerves?        (BECE 2022 Q13)",
+        options: ["Enamel", "Dentine", "Pulp cavity", "Cement"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pulp cavity contains blood vessels, nerves, and connective tissue that nourish the tooth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following blood vessels carries deoxygenated blood?        (BECE 2000 Q27)",
+        options: [
+          "Aorta",
+          "Pulmonary artery",
+          "Pulmonary vein",
+          "Renal artery"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Oxygen is made available to all cells of the human body by the        (BECE 2009 Q18)",
+        options: [
+          "plasma",
+          "red blood cells",
+          "white blood cells",
+          "platelets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which transports oxygen from the lungs to all body cells.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The function of the platelets in the circulatory system of humans is to        (BECE 2018 Q40)",
+        options: [
+          "transport oxygen",
+          "transport carbon dioxide",
+          "defend the body",
+          "clot the blood"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help stop bleeding by forming blood clots at the site of injury.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following substances are carried by the blood?\nI. Nutrients\nII. Oxygen\nIII. Urine\nIV. Carbon dioxide        (BECE 2019 Q27)",
+        options: [
+          "I and II only",
+          "I, II and IV only",
+          "II, III and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Blood transports nutrients, oxygen, and carbon dioxide. Urine is not carried by the blood as a transported substance; it is produced in the kidneys.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The function of the white blood cells in humans is to        (BECE 2018 Q36)",
+        options: [
+          "produce haemoglobin",
+          "ensure blood clot during an injury",
+          "produce antibodies to fight disease-causing organisms",
+          "produce digestive enzymes"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "White blood cells protect the body against infection by producing antibodies and destroying harmful microorganisms.",
+      ),
+      QuizQuestion(
+        question: "21. The male sex cell is the        (BECE 2002a Q30)",
+        options: ["penis", "scrotum", "sperm", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sperm is the male reproductive cell (gamete) responsible for fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The ovum of a mammal develops from        (BECE 2002b Q20)",
+        options: [
+          "eggs fertilized inside the body",
+          "eggs fertilized outside the body",
+          "unfertilized eggs",
+          "only female sex cells"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "An ovum is an unfertilized egg cell produced in the ovary before fertilization occurs.",
+      ),
+      QuizQuestion(
+        question: "23. The testes in mammals produce        (BECE 2004 Q36)",
+        options: ["blood", "fluid", "sperms", "urine"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The testes are the male reproductive organs that produce sperm cells.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The human sex cell that takes part in reproduction is the        (BECE 2005 Q14)",
+        options: ["penis", "scrotum", "sperms", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sperm is the male sex cell that fuses with the ovum during fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The process that takes place when the sperm and the egg of a human fuse together is referred to as        (BECE 2010 Q19)",
+        options: ["fertilization", "menstruation", "ovulation", "reproduction"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Fertilization is the fusion of the male and female gametes to form a zygote.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Male sex cells are produced in the        (BECE 2012 Q38)",
+        options: ["testes", "ovaries", "penis", "prostate gland"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The testes are responsible for producing sperm cells in males.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The organ where a mammalian embryo is safely retained during its development is the        (BECE 2015 Q26)",
+        options: ["Fallopian tube", "ovary", "uterus", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The uterus is the organ where the embryo implants and develops until birth.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Fertilization in humans usually takes place in the        (BECE 2015 Q30)",
+        options: ["ovary", "uterus", "Fallopian tube", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In humans, fertilization normally occurs in the Fallopian tube (oviduct).",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following factors contributes to early parenthood?\nI. Poverty\nII. Lack of parental care\nIII. Illiteracy\nIV. Peer pressure        (BECE 2012 Q33)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I, II and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Poverty, lack of parental care, illiteracy, and peer pressure can all contribute to early parenthood.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following factors does not lead to teenage pregnancy?\nI. Peer pressure\nII. Curiosity\nIII. Good parental care\nIV. Financial insecurity        (BECE 2018 Q29)",
+        options: [
+          "I and II only",
+          "III and IV only",
+          "III only",
+          "I, II and IV"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Good parental care helps prevent teenage pregnancy, while the other listed factors increase its risk.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A substance which helps in the digestion of food material is called        (BECE 2008 Q23)",
+        options: ["hormone", "enzyme", "plasma", "saliva"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Enzymes are biological catalysts that speed up the digestion of food.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The end product of the digestion of fats and oils is        (BECE 2008 Q21)",
+        options: [
+          "amino acids",
+          "glucose",
+          "fatty acids and glycerol",
+          "maltose"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Fats and oils are digested into fatty acids and glycerol by the action of lipase enzymes.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which of the following substances is an enzyme?        (BECE 2007 Q17)",
+        options: ["Insulin", "Pepsin", "Bile", "Maltose"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pepsin is a digestive enzyme that breaks down proteins in the stomach.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Digestion of starch starts from the        (BECE 2012 Q11)",
+        options: ["stomach", "duodenum", "mouth", "ileum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion of starch begins in the mouth where salivary amylase starts breaking down starch into maltose.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Digestion is completely ended in the        (BECE 2022 Q39)",
+        options: ["stomach", "large intestine", "small intestine", "rectum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion is completed in the small intestine before nutrients are absorbed into the bloodstream.",
+      ),
+    ],
+  ),
+
+  // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
+  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question:
+              "1. When the last tree dies, the last man dies. This statement refers to the need to\n(BECE 2022 Q4)",
           options: [
             "Encourage farming",
             "Irrigate forest vegetation",
@@ -12161,10 +14498,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Proper environmental management ensures the survival of humans and other living things."
-      ),
+          explanation:
+              "Proper environmental management ensures the survival of humans and other living things."),
       QuizQuestion(
-          question: "2. According to the Ewe myth on creation, God could not create more human beings because\n(BECE 2021 Q17)",
+          question:
+              "2. According to the Ewe myth on creation, God could not create more human beings because\n(BECE 2021 Q17)",
           options: [
             "Clay was scarce",
             "He was very tired",
@@ -12173,10 +14511,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "According to the Ewe creation myth, God stopped creating humans because He became very tired."
-      ),
+          explanation:
+              "According to the Ewe creation myth, God stopped creating humans because He became very tired."),
       QuizQuestion(
-          question: "3. Drought can easily be caused when there is\n(BECE 2022 Q3)",
+          question:
+              "3. Drought can easily be caused when there is\n(BECE 2022 Q3)",
           options: [
             "Surface mining",
             "Sand weaning",
@@ -12185,34 +14524,27 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Deforestation reduces rainfall and contributes to drought."
-      ),
+          explanation:
+              "Deforestation reduces rainfall and contributes to drought."),
       QuizQuestion(
-          question: "4. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
-          options: [
-            "Lesser gods",
-            "Angels",
-            "Ancestors",
-            "Supreme Being"
-          ],
+          question:
+              "4. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
+          options: ["Lesser gods", "Angels", "Ancestors", "Supreme Being"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Traditional African Religion teaches that the Supreme Being created the world."
-      ),
+          explanation:
+              "Traditional African Religion teaches that the Supreme Being created the world."),
       QuizQuestion(
-          question: "5. Which of the following items is not a basic need for man's survival?\n(BECE 2023 Q34)",
-          options: [
-            "Medicine",
-            "Food",
-            "Air",
-            "Water"
-          ],
+          question:
+              "5. Which of the following items is not a basic need for man's survival?\n(BECE 2023 Q34)",
+          options: ["Medicine", "Food", "Air", "Water"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Food, water and air are basic survival needs, while medicine is important but not a basic need."
-      ),
+          explanation:
+              "Food, water and air are basic survival needs, while medicine is important but not a basic need."),
       QuizQuestion(
-          question: "6. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
+          question:
+              "6. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
           options: [
             "Water pollution",
             "Water shortage",
@@ -12221,34 +14553,24 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Detergents and dirt pollute water bodies."
-      ),
+          explanation: "Detergents and dirt pollute water bodies."),
       QuizQuestion(
-          question: "7. As a result of God's ability to do all things, He is referred to\n(BECE 2022 Q15)",
-          options: [
-            "Omnipresent",
-            "Omnipotent",
-            "Omniscient",
-            "Omnivorous"
-          ],
+          question:
+              "7. As a result of God's ability to do all things, He is referred to\n(BECE 2022 Q15)",
+          options: ["Omnipresent", "Omnipotent", "Omniscient", "Omnivorous"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Omnipotent means all-powerful."
-      ),
+          explanation: "Omnipotent means all-powerful."),
       QuizQuestion(
-          question: "8. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
-          options: [
-            "Justice",
-            "Power",
-            "Patience",
-            "Wisdom"
-          ],
+          question:
+              "8. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
+          options: ["Justice", "Power", "Patience", "Wisdom"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Omnipotence refers to Allah's unlimited power."
-      ),
+          explanation: "Omnipotence refers to Allah's unlimited power."),
       QuizQuestion(
-          question: "9. Referring to God as the Alpha and Omega means that God is\n(BECE 2020 Q6)",
+          question:
+              "9. Referring to God as the Alpha and Omega means that God is\n(BECE 2020 Q6)",
           options: [
             "Present everywhere",
             "The beginning and the end",
@@ -12257,34 +14579,25 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Alpha and Omega signifies that God is eternal—the beginning and the end."
-      ),
+          explanation:
+              "Alpha and Omega signifies that God is eternal—the beginning and the end."),
       QuizQuestion(
-          question: "10. Which of these creation of God provides security and protection for man?\n(BECE 2021 Q14)",
-          options: [
-            "Goat",
-            "Dog",
-            "Cock",
-            "Parrot"
-          ],
+          question:
+              "10. Which of these creation of God provides security and protection for man?\n(BECE 2021 Q14)",
+          options: ["Goat", "Dog", "Cock", "Parrot"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Dogs are commonly used for security and protection."
-      ),
+          explanation: "Dogs are commonly used for security and protection."),
       QuizQuestion(
-          question: "11. According to Islamic creation story, Allah created Adam followed by\n(BECE 2022 Q1)",
-          options: [
-            "Khadija",
-            "Aisha",
-            "Hawa",
-            "Mariam"
-          ],
+          question:
+              "11. According to Islamic creation story, Allah created Adam followed by\n(BECE 2022 Q1)",
+          options: ["Khadija", "Aisha", "Hawa", "Mariam"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Allah created Hawa (Eve) after Adam."
-      ),
+          explanation: "Allah created Hawa (Eve) after Adam."),
       QuizQuestion(
-          question: "12. Human is considered as the most important creation in the Bible because he was\n(BECE 2022 Q2)",
+          question:
+              "12. Human is considered as the most important creation in the Bible because he was\n(BECE 2022 Q2)",
           options: [
             "Created in the image of God",
             "The last to be created",
@@ -12293,22 +14606,17 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Humans were uniquely created in God's image."
-      ),
+          explanation: "Humans were uniquely created in God's image."),
       QuizQuestion(
-          question: "13. According to Christian teaching, God created man and woman on the\n(BECE 2013 Q1)",
-          options: [
-            "Third day",
-            "Fifth day",
-            "Sixth day",
-            "Fourth day"
-          ],
+          question:
+              "13. According to Christian teaching, God created man and woman on the\n(BECE 2013 Q1)",
+          options: ["Third day", "Fifth day", "Sixth day", "Fourth day"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Human beings were created on the sixth day."
-      ),
+          explanation: "Human beings were created on the sixth day."),
       QuizQuestion(
-          question: "14. According to the Bible, lonely places where there is silence promote\n(BECE 2020 Q31)",
+          question:
+              "14. According to the Bible, lonely places where there is silence promote\n(BECE 2020 Q31)",
           options: [
             "General layout of things",
             "Development of better relationship between them and God",
@@ -12317,34 +14625,26 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Quiet places encourage prayer and fellowship with God."
-      ),
+          explanation:
+              "Quiet places encourage prayer and fellowship with God."),
       QuizQuestion(
-          question: "15. The revelation of the whole Quran took\n(BECE 2000 Q7)",
-          options: [
-            "22 years",
-            "24 years",
-            "23 years",
-            "20 years"
-          ],
+          question:
+              "15. The revelation of the whole Quran took\n(BECE 2000 Q7)",
+          options: ["22 years", "24 years", "23 years", "20 years"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The Holy Quran was revealed over a period of 23 years."
-      ),
+          explanation:
+              "The Holy Quran was revealed over a period of 23 years."),
       QuizQuestion(
-          question: "16. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q2)",
-          options: [
-            "An angel",
-            "A holy spirit",
-            "God",
-            "A godly person"
-          ],
+          question:
+              "16. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q2)",
+          options: ["An angel", "A holy spirit", "God", "A godly person"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "All three religions believe that God is the Creator."
-      ),
+          explanation: "All three religions believe that God is the Creator."),
       QuizQuestion(
-          question: "17. The snake as an animal was created by God to\n(BECE 2004 Q10)",
+          question:
+              "17. The snake as an animal was created by God to\n(BECE 2004 Q10)",
           options: [
             "Give man meat",
             "Kill man",
@@ -12353,22 +14653,17 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "In the Bible, the serpent tempted Eve to disobey God."
-      ),
+          explanation: "In the Bible, the serpent tempted Eve to disobey God."),
       QuizQuestion(
-          question: "18. God commanded the earth to produce plants on the\n(BECE 2005 Q1)",
-          options: [
-            "Second day",
-            "Third day",
-            "Fourth day",
-            "Fifth day"
-          ],
+          question:
+              "18. God commanded the earth to produce plants on the\n(BECE 2005 Q1)",
+          options: ["Second day", "Third day", "Fourth day", "Fifth day"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Plants were created on the third day."
-      ),
+          explanation: "Plants were created on the third day."),
       QuizQuestion(
-          question: "19. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q2)",
+          question:
+              "19. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q2)",
           options: [
             "Encourage small-scale mining",
             "Cover the earth's surface with sand",
@@ -12377,10 +14672,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Tree planting helps conserve the environment."
-      ),
+          explanation: "Tree planting helps conserve the environment."),
       QuizQuestion(
-          question: "20. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2004 Q1)",
+          question:
+              "20. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2004 Q1)",
           options: [
             "All knowing",
             "Ever forgiving",
@@ -12389,23 +14684,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "God's forgiveness is not demonstrated in the creation account."
-      ),
+          explanation:
+              "God's forgiveness is not demonstrated in the creation account."),
       QuizQuestion(
-          question: "21. God revealed Himself in the Garden of Eden to\n(BECE 2007 Q1)",
-          options: [
-            "Moses",
-            "Abraham",
-            "Eve",
-            "Adam"
-          ],
+          question:
+              "21. God revealed Himself in the Garden of Eden to\n(BECE 2007 Q1)",
+          options: ["Moses", "Abraham", "Eve", "Adam"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "According to Genesis, God spoke directly with Adam in the Garden of Eden."
-      ),
-
+          explanation:
+              "According to Genesis, God spoke directly with Adam in the Garden of Eden."),
       QuizQuestion(
-          question: "22. God is Omnipotent. This means that God is\n(BECE 2001 Q1)",
+          question:
+              "22. God is Omnipotent. This means that God is\n(BECE 2001 Q1)",
           options: [
             "All powerful",
             "Knows everything",
@@ -12414,11 +14705,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Omnipotent means having unlimited power."
-      ),
-
+          explanation: "Omnipotent means having unlimited power."),
       QuizQuestion(
-          question: "23. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q9)",
+          question:
+              "23. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q9)",
           options: [
             "Israel defeated their enemies",
             "For settling all disputes",
@@ -12427,11 +14717,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "God rested on the seventh day after completing creation."
-      ),
-
+          explanation:
+              "God rested on the seventh day after completing creation."),
       QuizQuestion(
-          question: "24. On the fifth day of creation, God commanded\n(BECE 2002 Q1)",
+          question:
+              "24. On the fifth day of creation, God commanded\n(BECE 2002 Q1)",
           options: [
             "The sky to appear to separate the water",
             "Water and air to be filled with many kinds of living creatures",
@@ -12440,11 +14730,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "On the fifth day, God created birds and sea creatures."
-      ),
-
+          explanation:
+              "On the fifth day, God created birds and sea creatures."),
       QuizQuestion(
-          question: "25. The Omniscience of God portrays Him as\n(BECE 2006 Q2)",
+          question:
+              "25. The Omniscience of God portrays Him as\n(BECE 2006 Q2)",
           options: [
             "All powerful",
             "Ever forgiving",
@@ -12453,11 +14743,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Omniscience means possessing complete knowledge."
-      ),
-
+          explanation: "Omniscience means possessing complete knowledge."),
       QuizQuestion(
-          question: "26. Which of the following behaviours pollutes our environment?\n(BECE 2006 Q23)",
+          question:
+              "26. Which of the following behaviours pollutes our environment?\n(BECE 2006 Q23)",
           options: [
             "Cutting down trees",
             "Killing birds and animals",
@@ -12466,24 +14755,18 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Improper disposal of waste pollutes the environment."
-      ),
-
+          explanation: "Improper disposal of waste pollutes the environment."),
       QuizQuestion(
-          question: "27. Which of the following attributes of God shows that He has the whole world under His view?\n(BECE 2017 Q8)",
-          options: [
-            "Omnipotent",
-            "Creator",
-            "Omnipresent",
-            "Omniscient"
-          ],
+          question:
+              "27. Which of the following attributes of God shows that He has the whole world under His view?\n(BECE 2017 Q8)",
+          options: ["Omnipotent", "Creator", "Omnipresent", "Omniscient"],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "God's omniscience means He knows everything happening everywhere."
-      ),
-
+          explanation:
+              "God's omniscience means He knows everything happening everywhere."),
       QuizQuestion(
-          question: "28. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q1)",
+          question:
+              "28. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q1)",
           options: [
             "Heavens or sky",
             "Smaller animals",
@@ -12492,35 +14775,21 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "God created the sky (firmament) on the second day."
-      ),
-
+          explanation: "God created the sky (firmament) on the second day."),
       QuizQuestion(
-          question: "29. According to the Bible, the first thing God created was\n(BECE 2018 Q3)",
-          options: [
-            "Sickness",
-            "Light",
-            "Plants",
-            "Darkness"
-          ],
+          question:
+              "29. According to the Bible, the first thing God created was\n(BECE 2018 Q3)",
+          options: ["Sickness", "Light", "Plants", "Darkness"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "God said, 'Let there be light,' on the first day."
-      ),
-
+          explanation: "God said, 'Let there be light,' on the first day."),
       QuizQuestion(
           question: "30. Cain's violent act against Abel shows\n(BECE 2018 Q2)",
-          options: [
-            "Greed",
-            "Jealousy",
-            "Selfishness",
-            "Misunderstanding"
-          ],
+          options: ["Greed", "Jealousy", "Selfishness", "Misunderstanding"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Cain killed Abel because he was jealous of God's acceptance of Abel's offering."
-      ),
-
+          explanation:
+              "Cain killed Abel because he was jealous of God's acceptance of Abel's offering."),
       QuizQuestion(
           question: "31. God's omniscience means that He\n(BECE 2018 Q1)",
           options: [
@@ -12531,11 +14800,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "God's omniscience means He knows everything."
-      ),
-
+          explanation: "God's omniscience means He knows everything."),
       QuizQuestion(
-          question: "32. By creating the world and everything in an orderly way, God wanted to show that He is\n(BECE 2009 Q3)",
+          question:
+              "32. By creating the world and everything in an orderly way, God wanted to show that He is\n(BECE 2009 Q3)",
           options: [
             "In a hurried way",
             "Orderly",
@@ -12544,11 +14812,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The creation account shows God's orderliness and purpose."
-      ),
-
+          explanation:
+              "The creation account shows God's orderliness and purpose."),
       QuizQuestion(
-          question: "33. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
+          question:
+              "33. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
           options: [
             "Subdue and fill the earth",
             "Take good care of Eve",
@@ -12557,22 +14825,15 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "God commanded Adam to be fruitful, multiply, and have dominion over the earth."
-      ),
-
+          explanation:
+              "God commanded Adam to be fruitful, multiply, and have dominion over the earth."),
       QuizQuestion(
-          question: "34. The Akans call God Ananse Kokroko because He is\n(BECE 2011 Q1)",
-          options: [
-            "Everlasting",
-            "Dependable",
-            "Omnipotent",
-            "Forgiving"
-          ],
+          question:
+              "34. The Akans call God Ananse Kokroko because He is\n(BECE 2011 Q1)",
+          options: ["Everlasting", "Dependable", "Omnipotent", "Forgiving"],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Ananse Kokroko emphasizes God's unmatched power."
-      ),
-
+          explanation: "Ananse Kokroko emphasizes God's unmatched power."),
       QuizQuestion(
           question: "35. The Omnipresence of God means He is\n(BECE 2009 Q1)",
           options: [
@@ -12583,11 +14844,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Omnipresence means God is present everywhere."
-      ),
-
+          explanation: "Omnipresence means God is present everywhere."),
       QuizQuestion(
-          question: "36. Which of the following practices destroys our vegetation?\n(BECE 2013 Q2)",
+          question:
+              "36. Which of the following practices destroys our vegetation?\n(BECE 2013 Q2)",
           options: [
             "Cutting down trees randomly",
             "Killing animals for food",
@@ -12596,11 +14856,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Indiscriminate tree felling destroys vegetation."
-      ),
-
+          explanation: "Indiscriminate tree felling destroys vegetation."),
       QuizQuestion(
-          question: "37. By creating the environment, God wants us to\n(BECE 2009 Q8)",
+          question:
+              "37. By creating the environment, God wants us to\n(BECE 2009 Q8)",
           options: [
             "Make a mighty ocean",
             "Control all things",
@@ -12609,24 +14868,18 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Adam was given the responsibility of naming God's creation."
-      ),
-
+          explanation:
+              "Adam was given the responsibility of naming God's creation."),
       QuizQuestion(
-          question: "38. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
-          options: [
-            "Sovereign",
-            "Omnipresent",
-            "Omniscient",
-            "Omnipotent"
-          ],
+          question:
+              "38. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
+          options: ["Sovereign", "Omnipresent", "Omniscient", "Omnipotent"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Only an all-knowing God can see every hidden deed."
-      ),
-
+          explanation: "Only an all-knowing God can see every hidden deed."),
       QuizQuestion(
-          question: "39. Adam described Eve as woman because she\n(BECE 2011 Q3)",
+          question:
+              "39. Adam described Eve as woman because she\n(BECE 2011 Q3)",
           options: [
             "Was made out of his rib",
             "Was the mother of all living",
@@ -12635,11 +14888,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Adam called her Woman because she was taken out of man."
-      ),
-
+          explanation:
+              "Adam called her Woman because she was taken out of man."),
       QuizQuestion(
-          question: "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q15)",
+          question:
+              "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q15)",
           options: [
             "Constructing buildings and roads",
             "Polluting air and water bodies",
@@ -12648,10 +14901,10 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Tree planting helps preserve God's creation."
-      ),
+          explanation: "Tree planting helps preserve God's creation."),
       QuizQuestion(
-          question: "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2012 Q1)",
+          question:
+              "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2012 Q1)",
           options: [
             "God's command",
             "Natural orders",
@@ -12660,11 +14913,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Christian teaching states that creation came into existence through God's command."
-      ),
-
+          explanation:
+              "Christian teaching states that creation came into existence through God's command."),
       QuizQuestion(
-          question: "42. According to Akan belief, the order of creation is\n(BECE 2012 Q4)",
+          question:
+              "42. According to Akan belief, the order of creation is\n(BECE 2012 Q4)",
           options: [
             "Earth, rivers, plants and sky",
             "Rivers, plants, earth and sky",
@@ -12673,11 +14926,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "According to Akan belief, God created the sky, earth, rivers and plants in that order."
-      ),
-
+          explanation:
+              "According to Akan belief, God created the sky, earth, rivers and plants in that order."),
       QuizQuestion(
-          question: "43. One way by which humankind pollutes the air in the city is by\n(BECE 2012 Q10)",
+          question:
+              "43. One way by which humankind pollutes the air in the city is by\n(BECE 2012 Q10)",
           options: [
             "The use of insecticides",
             "The use of detergents",
@@ -12686,9 +14939,8 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Exhaust fumes from motor vehicles contribute significantly to air pollution in cities."
-      ),
-
+          explanation:
+              "Exhaust fumes from motor vehicles contribute significantly to air pollution in cities."),
       QuizQuestion(
           question: "44. The power of God is seen in His\n(BECE 2017 Q4)",
           options: [
@@ -12699,24 +14951,18 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Omnipotence refers to God's unlimited power."
-      ),
-
+          explanation: "Omnipotence refers to God's unlimited power."),
       QuizQuestion(
-          question: "45. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
-          options: [
-            "First day",
-            "Third day",
-            "Fifth day",
-            "Sixth day"
-          ],
+          question:
+              "45. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
+          options: ["First day", "Third day", "Fifth day", "Sixth day"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "God commanded the earth to produce plants on the third day of creation."
-      ),
-
+          explanation:
+              "God commanded the earth to produce plants on the third day of creation."),
       QuizQuestion(
-          question: "46. Which of the following options is not a reason for which we must care for God's creation?\n(BECE 2018 Q1)",
+          question:
+              "46. Which of the following options is not a reason for which we must care for God's creation?\n(BECE 2018 Q1)",
           options: [
             "It makes us righteous people",
             "To show respect for God's gift of nature",
@@ -12725,35 +14971,24 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Caring for creation shows stewardship and respect and preserves nature, but it does not automatically make a person righteous."
-      ),
-
+          explanation:
+              "Caring for creation shows stewardship and respect and preserves nature, but it does not automatically make a person righteous."),
       QuizQuestion(
-          question: "47. Traditional worshippers believe that the world was created by\n(BECE 2017 Q21)",
-          options: [
-            "An angel",
-            "A holy spirit",
-            "God",
-            "An ancestor"
-          ],
+          question:
+              "47. Traditional worshippers believe that the world was created by\n(BECE 2017 Q21)",
+          options: ["An angel", "A holy spirit", "God", "An ancestor"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Traditional worshippers believe that the Supreme Being, or God, created the world."
-      ),
-
+          explanation:
+              "Traditional worshippers believe that the Supreme Being, or God, created the world."),
       QuizQuestion(
-          question: "48. Which of the following attributes of God shows that He rules the world?\n(BECE 2019 Q1)",
-          options: [
-            "All-powerful",
-            "Creator",
-            "Omnipresence",
-            "Omniscient"
-          ],
+          question:
+              "48. Which of the following attributes of God shows that He rules the world?\n(BECE 2019 Q1)",
+          options: ["All-powerful", "Creator", "Omnipresence", "Omniscient"],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "God's unlimited power enables Him to rule over the whole world."
-      ),
-
+          explanation:
+              "God's unlimited power enables Him to rule over the whole world."),
       QuizQuestion(
           question: "49. Plants were created by God mainly to\n(BECE 2019 Q2)",
           options: [
@@ -12764,24 +14999,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Plants release oxygen, which humans and animals need for respiration."
-      ),
-
+          explanation:
+              "Plants release oxygen, which humans and animals need for respiration."),
       QuizQuestion(
-          question: "50. Muslims describe Allah as Al-Rahman because He is\n(BECE 2019 Q3)",
-          options: [
-            "All-knowing",
-            "Just",
-            "Merciful",
-            "The restorer"
-          ],
+          question:
+              "50. Muslims describe Allah as Al-Rahman because He is\n(BECE 2019 Q3)",
+          options: ["All-knowing", "Just", "Merciful", "The restorer"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Al-Rahman means the Most Merciful or the Most Compassionate."
-      ),
-
+          explanation:
+              "Al-Rahman means the Most Merciful or the Most Compassionate."),
       QuizQuestion(
-          question: "51. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
+          question:
+              "51. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
           options: [
             "Everywhere at all times",
             "Gracious and merciful",
@@ -12790,11 +15020,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Alpha and Omega means that God is the beginning and the end."
-      ),
-
+          explanation:
+              "Alpha and Omega means that God is the beginning and the end."),
       QuizQuestion(
-          question: "52. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
+          question:
+              "52. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
           options: [
             "God asked him to do so",
             "God had appeared to him there",
@@ -12803,11 +15033,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Abraham built an altar at the Oak of Moreh because God appeared to him there."
-      ),
-
+          explanation:
+              "Abraham built an altar at the Oak of Moreh because God appeared to him there."),
       QuizQuestion(
-          question: "53. The Omniscience of God portrays Him as\n(BECE 2012 Q1)",
+          question:
+              "53. The Omniscience of God portrays Him as\n(BECE 2012 Q1)",
           options: [
             "All-powerful",
             "All-knowing",
@@ -12816,9 +15046,8 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Omniscience means having complete and unlimited knowledge."
-      ),
-
+          explanation:
+              "Omniscience means having complete and unlimited knowledge."),
       QuizQuestion(
           question: "54. The attributes of God refer to His\n(BECE 2013 Q6)",
           options: [
@@ -12829,24 +15058,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "The attributes of God are the names and titles that describe His nature and qualities."
-      ),
-
+          explanation:
+              "The attributes of God are the names and titles that describe His nature and qualities."),
       QuizQuestion(
-          question: "55. According to Christian teachings, God created man on the\n(BECE 2011 Q4)",
-          options: [
-            "First day",
-            "Second day",
-            "Fifth day",
-            "Sixth day"
-          ],
+          question:
+              "55. According to Christian teachings, God created man on the\n(BECE 2011 Q4)",
+          options: ["First day", "Second day", "Fifth day", "Sixth day"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "According to the Bible, human beings were created on the sixth day."
-      ),
-
+          explanation:
+              "According to the Bible, human beings were created on the sixth day."),
       QuizQuestion(
-          question: "56. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
+          question:
+              "56. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
           options: [
             "Show His mercy",
             "Separate night from day",
@@ -12855,35 +15079,24 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The sun and moon were created to govern and distinguish day from night."
-      ),
-
+          explanation:
+              "The sun and moon were created to govern and distinguish day from night."),
       QuizQuestion(
-          question: "57. God created water bodies to provide humankind with\n(BECE 2014 Q3)",
-          options: [
-            "Air",
-            "Water",
-            "Plants",
-            "Salt"
-          ],
+          question:
+              "57. God created water bodies to provide humankind with\n(BECE 2014 Q3)",
+          options: ["Air", "Water", "Plants", "Salt"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Water bodies provide water for human use and survival."
-      ),
-
+          explanation:
+              "Water bodies provide water for human use and survival."),
       QuizQuestion(
-          question: "58. In the Islamic creation story, the creation of man is found in the\n(BECE 2013 Q10)",
-          options: [
-            "Hadith",
-            "Hijrah",
-            "Holy Quran",
-            "Tawrah"
-          ],
+          question:
+              "58. In the Islamic creation story, the creation of man is found in the\n(BECE 2013 Q10)",
+          options: ["Hadith", "Hijrah", "Holy Quran", "Tawrah"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The Islamic account of the creation of humankind is recorded in the Holy Quran."
-      ),
-
+          explanation:
+              "The Islamic account of the creation of humankind is recorded in the Holy Quran."),
       QuizQuestion(
           question: "59. God created plants to provide\n(BECE 2013 Q21)",
           options: [
@@ -12894,24 +15107,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Plants provide medicinal materials and add beauty to the environment."
-      ),
-
+          explanation:
+              "Plants provide medicinal materials and add beauty to the environment."),
       QuizQuestion(
-          question: "60. Which of the following is provided by plants for humans?\n(BECE 2013 Q24)",
-          options: [
-            "Food",
-            "Fuel",
-            "Medicine",
-            "Salt"
-          ],
+          question:
+              "60. Which of the following is provided by plants for humans?\n(BECE 2013 Q24)",
+          options: ["Food", "Fuel", "Medicine", "Salt"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Plants provide food for humans, while salt is not obtained from plants."
-      ),
-
+          explanation:
+              "Plants provide food for humans, while salt is not obtained from plants."),
       QuizQuestion(
-          question: "61. According to the Bible, God created woman to\n(BECE 2015 Q1)",
+          question:
+              "61. According to the Bible, God created woman to\n(BECE 2015 Q1)",
           options: [
             "Control the family",
             "Feed all mankind",
@@ -12920,11 +15128,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "God created woman as a suitable companion and helper for man."
-      ),
-
+          explanation:
+              "God created woman as a suitable companion and helper for man."),
       QuizQuestion(
-          question: "62. One of the reasons for which God made the sea is to\n(BECE 2015 Q4)",
+          question:
+              "62. One of the reasons for which God made the sea is to\n(BECE 2015 Q4)",
           options: [
             "Provide food",
             "Support transportation",
@@ -12933,24 +15141,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The sea serves as a natural habitat for fish and other aquatic creatures."
-      ),
-
+          explanation:
+              "The sea serves as a natural habitat for fish and other aquatic creatures."),
       QuizQuestion(
-          question: "63. Creation according to Islamic tradition means\n(BECE 2015 Q3)",
-          options: [
-            "Command",
-            "Instruction",
-            "Prediction",
-            "Prophecy"
-          ],
+          question:
+              "63. Creation according to Islamic tradition means\n(BECE 2015 Q3)",
+          options: ["Command", "Instruction", "Prediction", "Prophecy"],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Islamic tradition teaches that Allah brings creation into existence through His command."
-      ),
-
+          explanation:
+              "Islamic tradition teaches that Allah brings creation into existence through His command."),
       QuizQuestion(
-          question: "64. Which of the following is a cause of bad environmental conditions?\n(BECE 2015 Q11)",
+          question:
+              "64. Which of the following is a cause of bad environmental conditions?\n(BECE 2015 Q11)",
           options: [
             "Afforestation",
             "Deforestation",
@@ -12959,11 +15162,11 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Deforestation destroys vegetation and contributes to poor environmental conditions."
-      ),
-
+          explanation:
+              "Deforestation destroys vegetation and contributes to poor environmental conditions."),
       QuizQuestion(
-          question: "65. One of the reasons why the sea is salty is to\n(BECE 2015 Q13)",
+          question:
+              "65. One of the reasons why the sea is salty is to\n(BECE 2015 Q13)",
           options: [
             "Prevent it from drying up",
             "Make it beautiful",
@@ -12972,9 +15175,8 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "The salt content of seawater helps limit spoilage and the growth of certain harmful organisms."
-      ),
-
+          explanation:
+              "The salt content of seawater helps limit spoilage and the growth of certain harmful organisms."),
       QuizQuestion(
           question: "66. The attribute Al-Khaliq means the\n(BECE 2017 Q2)",
           options: [
