@@ -36,7 +36,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. 'Every student in the class passed.' The predicate is:", options: ["Every student", "In the class", "Student in the class", "Passed"], correctIndex: 3, difficulty: "Medium", explanation: "'Passed' is the simple predicate (main verb) of the sentence."),
     ],
   ),
-
   "Active and Passive Voice": QuizModel(
     audioPath: '',
     questions: [
@@ -52,7 +51,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. In formal writing, which voice is preferred?", options: ["Active voice only", "Passive voice is often preferred", "Neither voice is used", "Imperative voice"], correctIndex: 1, difficulty: "Hard", explanation: "Passive voice is common in formal, academic, and scientific writing."),
     ],
   ),
-
   "Reported Speech (Direct and Indirect)": QuizModel(
     audioPath: '',
     questions: [
@@ -68,7 +66,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. 'This' changes to ______ and 'here' changes to ______ in reported speech.", options: ["That / There", "These / Those", "That / Now", "Here / There"], correctIndex: 0, difficulty: "Hard", explanation: "Demonstratives and place words shift in reported speech: this→that, here→there."),
     ],
   ),
-
   "Mastering Conditional Sentences (Type 1)": QuizModel(
     audioPath: '',
     questions: [
@@ -101,7 +98,6 @@ final Map<String, QuizModel> beceQuizData = {
       QuizQuestion(question: "10. Which property would you test to find out if a liquid boils easily?", options: ["Hardness", "Malleability", "Boiling point", "Magnetic strength"], correctIndex: 2, difficulty: "Medium", explanation: "The boiling point tells you at what temperature a liquid becomes a gas."),
     ],
   ),
-
   "Human Growth Stages": QuizModel(
     audioPath: '',
     questions: [
@@ -1928,10 +1924,10 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+
   "Math JHS1 s2 ss1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
-
       QuizQuestion(
           question: "1. If x → 3x - 4, what is the image of -2?          (BECE 2000 Q16)",
           options: [
@@ -1944,7 +1940,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."
       ),
-
       QuizQuestion(
           question: "2. Find the next term in the sequence: 3, 6, 12, 24, …          (BECE 2006 Q14)",
           options: [
@@ -1957,7 +1952,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."
       ),
-
       QuizQuestion(
           question: "3. State the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 3, 5, 7, 9, …          (BECE 1991 Q25)",
           options: [
@@ -1970,7 +1964,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."
       ),
-
       QuizQuestion(
           question: "4. Find the missing numbers in the set {5, 10, 15, 25, …, …, 40}.          (BECE 2001 Q33)",
           options: [
@@ -1983,7 +1976,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."
       ),
-
       QuizQuestion(
           question: "5. State the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 1, 4, 9, 16, …          (BECE 2004 Q17)",
           options: [
@@ -1996,7 +1988,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."
       ),
-
       QuizQuestion(
           question: "6. A mapping is defined by n → 2n - 3. What is the image of -2 under the mapping?          (BECE 2001 Q24)",
           options: [
@@ -2009,7 +2000,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."
       ),
-
       QuizQuestion(
           question: "7. What is the rule for the mapping: x: 1, 2, 3, 4 and y: 2, 4, 8, 16?          (BECE 1994 Q36)",
           options: [
@@ -2022,7 +2012,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."
       ),
-
       QuizQuestion(
           question: r"8. What is the image of -4 under the mapping x → \frac{1}{2}x - 2?          (BECE 1995 Q10)",
           options: [
@@ -2035,7 +2024,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."
       ),
-
       QuizQuestion(
           question: "9. Find the missing number in the sequence: 11, 17, 23, 29, …, 41, 47, 53.          (BECE 2012 Q13)",
           options: [
@@ -2048,7 +2036,6 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."
       ),
-
       QuizQuestion(
           question: "10. Find the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 5, 9, 13, 17, 21.          (BECE 2020 Q26)",
           options: [
@@ -2062,10 +2049,10 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "Each output is obtained using y = 4x + 1. For example, when x = 3, y = 4(3) + 1 = 13."
       ),
       QuizQuestion(
-          question: "11. If (x, y) → (x, 2y), find the image of (2½, -½) under the same mapping.          (BECE 1995 Q24)",
+          question: r"11. If (x, y) → (x, 2y), find the image of (2\frac{1}{2}, -\frac{1}{2}) under the same mapping.          (BECE 1995 Q24)",
           options: [
-            "(2½, -2)",
-            "(2½, -1)",
+            r"(2\frac{1}{2}, -2)",
+            r"(2\frac{1}{2}, -1)",
             "(2, -2)",
             "(2, -1)"
           ],
@@ -2073,22 +2060,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."
       ),
-
       QuizQuestion(
-          question: "12. Given the sequence {1, 3, 7, 15, 31, …}, the rule is 2ˣ - 1. What is the 7th term?          (Based on page 69, Q31 text context)",
-          options: [
-            "64",
-            "127",
-            "128",
-            "255"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "The 7th term is 2⁷ - 1 = 128 - 1 = 127."
-      ),
-
-      QuizQuestion(
-          question: "13. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
+          question: "12. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
           options: [
             "9.42",
             "12",
@@ -2099,9 +2072,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Medium",
           explanation: "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."
       ),
-
       QuizQuestion(
-          question: "14. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
+          question: "13. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
           options: [
             "25",
             "26",
@@ -2112,9 +2084,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."
       ),
-
       QuizQuestion(
-          question: "15. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
+          question: "14. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
           options: [
             "y = 2x + 2",
             "y = -2x + 2",
@@ -2125,9 +2096,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."
       ),
-
       QuizQuestion(
-          question: "16. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
+          question: "15. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
           options: [
             "x → x",
             "x → 2x",
@@ -2138,22 +2108,20 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."
       ),
-
       QuizQuestion(
-          question: "17. What is the fifth term in the sequence 1/3, 2/5, 7/15, …?          (BECE 2002B Q5)",
+          question: r"16. What is the fifth term in the sequence \frac{1}{3}, \frac{2}{5}, \frac{7}{15}, …?          (BECE 2002B Q5)",
           options: [
-            "4/9",
-            "5/11",
-            "6/13",
-            "3/5"
+           r"\frac{4}{9}",
+           r"\frac{5}{11}",
+            r"\frac{6}{13}",
+            r"\frac{3}{5}"
           ],
           correctIndex: 1,
           difficulty: "Medium",
           explanation: "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."
       ),
-
       QuizQuestion(
-          question: "18. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
+          question: "17. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
           options: [
             "x → 2x - 3",
             "x → x - 5",
@@ -2164,9 +2132,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."
       ),
-
       QuizQuestion(
-          question: "19. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
+          question: "18. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
           options: [
             "4",
             "4",
@@ -2177,9 +2144,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."
       ),
-
       QuizQuestion(
-          question: "20. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
+          question: "19. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
           options: [
             "7",
             "9",
@@ -2189,8 +2155,9 @@ final Map<String, QuizModel> beceQuizData = {
           correctIndex: 1,
           difficulty: "Easy",
           explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."
-      ),QuizQuestion(
-          question: "21. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
+      ),
+      QuizQuestion(
+          question: "20. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
           options: [
             "35",
             "39",
@@ -2201,9 +2168,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."
       ),
-
       QuizQuestion(
-          question: "22. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
+          question: "21. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
           options: [
             "y = x + 5",
             "y = 4x + 5",
@@ -2214,9 +2180,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."
       ),
-
       QuizQuestion(
-          question: "23. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
+          question: "22. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
           options: [
             "n → 10n",
             "n → 10n + 1",
@@ -2227,9 +2192,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."
       ),
-
       QuizQuestion(
-          question: "24. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
+          question: "23. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
           options: [
             "0",
             "2",
@@ -2240,9 +2204,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."
       ),
-
       QuizQuestion(
-          question: r"25. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
+          question: r"24. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
           options: [
             r"x → \frac{x}{4}",
             r"x → \frac{x}{2}",
@@ -2253,9 +2216,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."
       ),
-
       QuizQuestion(
-          question: "26. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
+          question: "25. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
           options: [
             "x → 4x - 3",
             "x → 3 - 4x",
@@ -2266,22 +2228,20 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."
       ),
-
       QuizQuestion(
-          question: "27. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
+          question: "26. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
           options: [
             "x → 15x",
             "x → 15 + x",
-            "x → x/15",
+            r"x → \frac{x}{15}",
             "x → 10 + 5x"
           ],
           correctIndex: 0,
           difficulty: "Easy",
           explanation: "Each output is 15 times the input. Therefore, the rule is x → 15x."
       ),
-
       QuizQuestion(
-          question: "28. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
+          question: "27. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
           options: [
             "4",
             "5",
@@ -2292,9 +2252,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."
       ),
-
       QuizQuestion(
-          question: "29. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
+          question: "28. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
           options: [
             "x + 2",
             "x + 4",
@@ -2305,9 +2264,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."
       ),
-
       QuizQuestion(
-          question: "30. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
+          question: "29. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
           options: [
             "6",
             "7",
@@ -2319,7 +2277,7 @@ final Map<String, QuizModel> beceQuizData = {
           explanation: "Substitute y = 37: 37 = 5x + 2. Therefore, 5x = 35 and x = 7."
       ),
       QuizQuestion(
-          question: "31. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
+          question: "30. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
           options: [
             "2",
             "3",
@@ -2330,9 +2288,8 @@ final Map<String, QuizModel> beceQuizData = {
           difficulty: "Easy",
           explanation: "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."
       ),
-
       QuizQuestion(
-          question: "32. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
+          question: "31. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
           options: [
             "t → 10t - 1",
             "t → 8t + 1",
@@ -2345,826 +2302,1887 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "ALGEBRAIC EXPRESSIONS": QuizModel(
+  "Math JHS1 s2 ss2 - Algebraic Expressions": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: r"1. Simplify: (35x^5y^3 \div 7xy^2\).          (BECE 2014 Q9)",
+          question: "1. Simplify: 35x^5y^3 ÷ 7xy^2          (BECE 2014 Q9)",
           options: [
-            r"(5x^4y)",
-            r"\(5x^4y^5\)",
-            r"\(5x^6y\)",
-            r"\(5x^6y^5\)"
+            "5x^4y",
+            "5x^4y^5",
+            "5x^6y",
+            "5x^6y^5"
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Divide the coefficients and subtract the indices of like bases: \(35 \div 7 = 5\), \(x^5 \div x = x^{5-1} = x^4\), and \(y^3 \div y^2 = y^{3-2} = y\). Therefore, the answer is \(5x^4y\)."
+          explanation: "35 ÷ 7 = 5. Subtract the powers of like bases: x^(5−1) = x^4 and y^(3−2) = y. Therefore, the answer is 5x^4y."
       ),
 
       QuizQuestion(
-          question: r"2. If \(x = 2\), find the value of \(q\) in the equation \(3x - 4 = x + q\).          (BECE 1992 Q17)",
+          question: "2. If x = 2, find the value of q in the equation 3x - 4 = x + q.          (BECE 1992 Q17)",
           options: [
-            r"\(-7\)",
-            r"\(13\)",
-            r"\(12\)",
-            r"\(25\)"
-          ],
-          correctIndex: -1,
-          difficulty: "Easy",
-          explanation: r"Substitute \(x = 2\): \(3(2) - 4 = 2 + q\). This gives \(2 = 2 + q\), so \(q = 0\). The correct answer is not included in the supplied options."
-      ),
-
-      QuizQuestion(
-          question: r"3. Simplify: \(6a^2 \times 4a^2b^2\).          (BECE 2002B Q22)",
-          options: [
-            r"\(10a^4b^2\)",
-            r"\(24a^2b^2\)",
-            r"\(24a^4b^2\)",
-            r"\(24a^2b^4\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of \(a\): \(6 \times 4 = 24\) and \(a^2 \times a^2 = a^4\). Therefore, the answer is \(24a^4b^2\)."
-      ),
-
-      QuizQuestion(
-          question: r"4. If \(a * b = 2a - b\), find \(3 * 2\).          (BECE 2002A Q20)",
-          options: [
-            r"\(1\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Using \(a * b = 2a - b\), \(3 * 2 = 2(3) - 2 = 6 - 2 = 4\)."
-      ),
-
-      QuizQuestion(
-          question: r"5. In the relation \(v = u + at\), find \(v\) when \(u = 6\), \(a = 10\), and \(t = 2\).          (BECE 1991 Q14)",
-          options: [
-            r"\(18\)",
-            r"\(26\)",
-            r"\(32\)",
-            r"\(48\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Substitute the given values: \(v = 6 + 10(2) = 6 + 20 = 26\)."
-      ),
-
-      QuizQuestion(
-          question: r"6. If \(q = ut + \frac{1}{2}ft\), find \(q\) when \(u = 20\), \(t = 10\), and \(f = 15\).          (BECE 1990 Q21)",
-          options: [
-            r"\(350\)",
-            r"\(275\)",
-            r"\(237.5\)",
-            r"\(55\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Substitute the values: \(q = 20(10) + \frac{1}{2}(15)(10) = 200 + 75 = 275\)."
-      ),
-
-      QuizQuestion(
-          question: r"7. Find the value of \(p^2 - 6p + 9\) when \(p = -2\).          (BECE 1992 Q14)",
-          options: [
-            r"\(-7\)",
-            r"\(13\)",
-            r"\(12\)",
-            r"\(25\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Substitute \(p = -2\): \((-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25\)."
-      ),
-
-      QuizQuestion(
-          question: r"8. The sum of two numbers is \(240\). If one of them is \(y\), find the other number.          (BECE 1997 Q22)",
-          options: [
-            r"\(120y\)",
-            r"\(240 + y\)",
-            r"\(240 - y\)",
-            r"\(240y\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"If the other number is subtracted from the total, it is \(240 - y\)."
-      ),
-
-      QuizQuestion(
-          question: r"9. Ama is \(N\) years old now. How old will she be in \(10\) years?          (BECE 2000 Q40)",
-          options: [
-            r"\((N - 10)\text{ years}\)",
-            r"\((N + 10)\text{ years}\)",
-            r"\((10 - N)\text{ years}\)",
-            r"\(N10\text{ years}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"After \(10\) years, \(10\) is added to Ama's present age. Therefore, she will be \((N + 10)\) years old."
-      ),
-
-      QuizQuestion(
-          question: r"10. Simplify: \(2ab^2 \times 3a^2b\).          (BECE 1991 Q13)",
-          options: [
-            r"\(5a^3b^3\)",
-            r"\(5a^2b^2\)",
-            r"\(6a^3b^3\)",
-            r"\(6a^2b^2\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a \times a^2 = a^3\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^3b^3\)."
-      ),
-
-      QuizQuestion(
-          question: r"11. If \(a * b = 2a - b\), evaluate \(4 * 3\).          (BECE 2000 Q17)",
-          options: [
-            r"\(1\)",
-            r"\(2\)",
-            r"\(4\)",
-            r"\(5\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Using \(a * b = 2a - b\), \(4 * 3 = 2(4) - 3 = 8 - 3 = 5\)."
-      ),
-
-      QuizQuestion(
-          question: r"12. Find the difference between the values of \((2d)^2\) and \(2d^2\), when \(d = 3\).          (BECE 1995 Q30)",
-          options: [
-            r"\(16\)",
-            r"\(18\)",
-            r"\(24\)",
-            r"\(28\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"When \(d = 3\), \((2d)^2 = (6)^2 = 36\), while \(2d^2 = 2(3^2) = 18\). Their difference is \(36 - 18 = 18\)."
-      ),
-
-      QuizQuestion(
-          question: r"13. Simplify: \(4p + 6p^2 - 2p + 2p^2\).          (BECE 2001 Q25)",
-          options: [
-            r"\(2p + 8p^2\)",
-            r"\(6p + 8p^2\)",
-            r"\(2p - 8p^2\)",
-            r"\(6p - 8p^2\)"
+            "-7",
+            "13",
+            "12",
+            "25"
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: r"Collect like terms: \(4p - 2p = 2p\) and \(6p^2 + 2p^2 = 8p^2\). Therefore, the simplified expression is \(2p + 8p^2\)."
+          explanation: "Substitute x = 2: 3(2) - 4 = 2. Hence 2 = 2 + q, so q = 0. The official key gives option A."
       ),
 
       QuizQuestion(
-          question: r"14. Three baskets contain \(95\) oranges, \(x\) oranges, and \(2x\) oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
+          question: "3. Simplify: 6a^2 × 4a^2b^2          (BECE 2002B Q22)",
           options: [
-            r"\(96x\)",
-            r"\(95 + 3x\)",
-            r"\(95 + 2x^2\)",
-            r"\(98x\)"
+            "10a^4b^2",
+            "24a^2b^2",
+            "24a^4b^2",
+            "24a^2b^4"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Multiply the coefficients: 6 × 4 = 24. Add the powers of a: a^(2+2) = a^4. Therefore, the result is 24a^4b^2."
+      ),
+
+      QuizQuestion(
+          question: "4. If a * b = 2a - b, find 3 * 2.          (BECE 2002A Q20)",
+          options: [
+            "1",
+            "4",
+            "5",
+            "6"
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Add the numbers of oranges: \(95 + x + 2x = 95 + 3x\)."
+          explanation: "Using the rule, 3 * 2 = 2(3) - 2 = 6 - 2 = 4."
       ),
 
       QuizQuestion(
-          question: r"15. Simplify: \((2ab^2)(3a^{-3}b)\).          (BECE 1997 Q21)",
+          question: "5. In the relation v = u + at, find v when u = 6, a = 10 and t = 2.          (BECE 1991 Q14)",
           options: [
-            r"\(5a^3b^3\)",
-            r"\(6a^{-2}b^3\)",
-            r"\(5a^2b^3\)",
-            r"\(6a^2b^3\)"
+            "18",
+            "26",
+            "32",
+            "48"
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Multiply the coefficients and add the indices of like bases: \(2 \times 3 = 6\), \(a^1 \times a^{-3} = a^{1-3} = a^{-2}\), and \(b^2 \times b = b^3\). Therefore, the answer is \(6a^{-2}b^3\)."
+          explanation: "v = u + at = 6 + (10 × 2) = 26."
       ),
 
       QuizQuestion(
-          question: r"16. If \(y = k + ax^2\), find \(y\) when \(k = \frac{14}{5}\), \(a = \frac{4}{5}\), and \(x = 2\).          (BECE 2000 Q26)",
+          question: r"6. If q = ut + \frac{1}{2]ft, find q when u = 20, t = 10 and f = 15.          (BECE 1990 Q21)",
           options: [
-            r"\(1\)",
-            r"\(2\)",
-            r"\(4\)",
-            r"\(5\)"
+            "350",
+            "275",
+            "237.5",
+            "55"
           ],
-          correctIndex: -1,
+          correctIndex: 1,
           difficulty: "Easy",
-          explanation: r"Substitute the values: \(y = \frac{14}{5} + \frac{4}{5}(2^2) = \frac{14}{5} + \frac{16}{5} = \frac{30}{5} = 6\). The correct answer is not included in the supplied options."
+          explanation: "Using the given formula: q = ut + 1/2ft = (20 × 10) + (1/2 × 15 × 10) = 200 + 75 = 275."
+      ),
+
+      QuizQuestion(
+          question: "7. Find the value of p^2 - 6p + 9 when p = -2.          (BECE 1992 Q14)",
+          options: [
+            "-7",
+            "13",
+            "12",
+            "25"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Substitute p = -2: (-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25."
+      ),
+
+      QuizQuestion(
+          question: "8. The sum of two numbers is 240. If one of them is y, find the other number.          (BECE 1997 Q22)",
+          options: [
+            "120y",
+            "240 + y",
+            "240 - y",
+            "240y"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The other number is obtained by subtracting y from the total: 240 - y."
+      ),
+
+      QuizQuestion(
+          question: "9. Ama is N years old now. How old will she be in 10 years?          (BECE 2000 Q40)",
+          options: [
+            "(N - 10) years",
+            "(N + 10) years",
+            "(10 - N) years",
+            "N10 years"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "After 10 years, Ama's age will increase by 10 years, giving N + 10 years."
+      ),
+
+      QuizQuestion(
+          question: "10. Simplify: 2ab^2 × 3a^2b          (BECE 1991 Q13)",
+          options: [
+            "5a^3b^3",
+            "5a^2b^2",
+            "6a^3b^3",
+            "6a^2b^2"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Multiply the coefficients: 2 × 3 = 6. Add the powers of like bases to get a^3b^3."
+      ),
+
+      QuizQuestion(
+          question: "11. If a * b = 2a - b, evaluate 4 * 3.          (BECE 2000 Q17)",
+          options: [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "4 * 3 = 2(4) - 3 = 8 - 3 = 5."
+      ),
+
+      QuizQuestion(
+          question: "12. Find the difference between the values of (2d)^2 and 2d^2, when d = 3.          (BECE 1995 Q30)",
+          options: [
+            "16",
+            "18",
+            "24",
+            "28"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "(2d)^2 = (6)^2 = 36 and 2d^2 = 2(9) = 18. Their difference is 18."
+      ),
+
+      QuizQuestion(
+          question: "13. Simplify: 4p + 6p^2 - 2p + 2p^2          (BECE 2001 Q25)",
+          options: [
+            "2p + 8p^2",
+            "6p + 8p^2",
+            "2p - 8p^2",
+            "6p - 8p^2"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Combine like terms: 4p - 2p = 2p and 6p^2 + 2p^2 = 8p^2."
+      ),
+
+      QuizQuestion(
+          question: "14. Three baskets contain 95 oranges, x oranges, and 2x oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
+          options: [
+            "96x",
+            "95 + 3x",
+            "95 + 2x^2",
+            "98x"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Total oranges = 95 + x + 2x = 95 + 3x."
+      ),
+
+      QuizQuestion(
+          question: "15. Simplify: (2ab^2)(3a^-3b)          (BECE 1997 Q21)",
+          options: [
+            "5a^3b^3",
+            "6a^-2b^3",
+            "5a^2b^3",
+            "6a^2b^3"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Multiply coefficients: 2 × 3 = 6. Add exponents of a: 1 + (-3) = -2 and of b: 2 + 1 = 3."
+      ),
+
+      QuizQuestion(
+          question: r"16. If y = k + ax^2, find y when k = \frac{14}{5}, a = \frac{4}{5} and x = 2.          (BECE 2000 Q26)",
+          options: [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          correctIndex: 5,
+          difficulty: "Easy",
+          explanation: "y = 14/5 + (4/5 × 4) = 14/5 + 16/5 = 30/5 = 6."
       ),
     ],
   ),
-  "Algebraic Expressions": QuizModel(
+  "Math JHS1 s2 ss3 - Variables and Equations": QuizModel(
+    audioPath: '',
+    questions: [
+  QuizQuestion(
+    question:
+    "1. When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.          (BECE 1991 Q37)",
+    options: [
+      "8",
+      "12",
+      "16",
+      "24",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "Let the number be x. Then 2(10 - x) = 4. Dividing by 2 gives 10 - x = 2, so x = 8.",
+  ),
+
+  QuizQuestion(
+    question:
+    "2. Solve for x if 2x + 5 = 3x - 7.          (BECE 1994 Q26)",
+    options: [
+      "12",
+      r"\frac{22}{5}",
+      r"-\frac{2}{5}",
+      r"-\frac{22}{5}",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "2x + 5 = 3x - 7. Subtract 2x from both sides to get 5 = x - 7. Therefore, x = 12.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"3. If \frac{3}{15} is equivalent to \frac{45}{a}, find a.          (BECE 1990 Q22)",
+    options: [
+      "225",
+      "150",
+      "252",
+      "126",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    r"Cross-multiply: 3a = 15 \times 45 = 675. Therefore, a = \frac{675}{3} = 225.",
+  ),
+
+  QuizQuestion(
+    question:
+    "4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
+    options: [
+      r"\frac{3}{2}",
+      "1",
+      r"\frac{2}{3}",
+      r"\frac{1}{2}",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation:
+    "Let the number be x. Then 5x = x + 4. Thus, 4x = 4 and x = 1.",
+  ),
+
+  QuizQuestion(
+    question:
+    "5. Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
+    options: [
+      "30 years",
+      "25 years",
+      "20 years",
+      "15 years",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation:
+    "Yaw is half of 30, so Yaw is 15 years old. Paul is 10 years older, so Paul is 15 + 10 = 25 years old.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"6. If \frac{1}{3} of a number is added to \frac{1}{5} of the same number, the result is 8. Find the number.          (BECE 1992 Q34)",
+    options: [
+      "3",
+      "5",
+      "15",
+      "30",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"Let the number be x. Then \frac{x}{3} + \frac{x}{5} = 8. This gives \frac{8x}{15} = 8, so x = 15.",
+  ),
+
+  QuizQuestion(
+    question:
+    "7. Solve for h in the equation 15 - 2h = 6.          (BECE 1998 Q21)",
+    options: [
+      "-10.5",
+      "-9.0",
+      "-4.5",
+      "4.5",
+    ],
+    correctIndex: 3,
+    difficulty: "Easy",
+    explanation:
+    "15 - 2h = 6. Subtract 15 from both sides to get -2h = -9. Therefore, h = 4.5.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"8. Find x, if \frac{1}{x} + \frac{1}{3} = 1.          (BECE 1993 Q31)",
+    options: [
+      r"\frac{2}{3}",
+      r"-\frac{2}{3}",
+      r"\frac{3}{2}",
+      r"\frac{3}{4}",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}. Taking reciprocals gives x = \frac{3}{2}.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"9. If \frac{1}{x} = 1\frac{1}{2}, find x.          (BECE 1994 Q11)",
+    options: [
+      "3",
+      r"\frac{1}{2}",
+      r"\frac{4}{3}",
+      r"\frac{2}{3}",
+    ],
+    correctIndex: 3,
+    difficulty: "Medium",
+    explanation:
+    r"Convert 1\frac{1}{2} to \frac{3}{2}. Thus, \frac{1}{x} = \frac{3}{2}, so x = \frac{2}{3}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "10. Solve the equation 13x - 2(3x + 4) = 22.          (BECE 2000 Q3)",
+    options: [
+      "5",
+      "4",
+      r"\frac{30}{7}",
+      r"\frac{26}{7}",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"Expand to get 13x - 6x - 8 = 22. Thus, 7x = 30 and x = \frac{30}{7}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "11. If 4(m + 4) = 18, find the value of m.          (BECE 1999 Q29)",
+    options: [
+      r"\frac{1}{2}",
+      r"\frac{3}{2}",
+      r"\frac{5}{2}",
+      r"\frac{3}{25}",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    r"Divide both sides by 4: m + 4 = \frac{18}{4} = \frac{9}{2}. Therefore, m = \frac{9}{2} - 4 = \frac{1}{2}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "12. If 13x - 12 = 5x + 60, find x.          (BECE 1995 Q33)",
+    options: [
+      "-9",
+      "-6",
+      "9",
+      "6",
+    ],
+    correctIndex: 2,
+    difficulty: "Easy",
+    explanation:
+    "13x - 5x = 60 + 12. Thus, 8x = 72 and x = 9.",
+  ),
+
+  QuizQuestion(
+    question:
+    "13. The product of 2x and 3 is 138. Find x.          (BECE 1996 Q33)",
+    options: [
+      "23",
+      "33",
+      "68",
+      "69",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "The product of 2x and 3 is 6x. Therefore, 6x = 138 and x = 23.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"14. Solve for y in the equation: \frac{1}{3}y + \frac{1}{5}y = 8.          (BECE 2002A Q27)",
+    options: [
+      "15",
+      "30",
+      "45",
+      "60",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    r"\frac{y}{3} + \frac{y}{5} = \frac{8y}{15}. Thus, \frac{8y}{15} = 8 and y = 15.",
+  ),
+
+  QuizQuestion(
+    question:
+    "15. Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.          (BECE 2002B Q25)",
+    options: [
+      "7 years",
+      "9 years",
+      "14 years",
+      "18 years",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "Let Ama's age be x. Kofi's age is x + 2. Then x + x + 2 = 16, so 2x = 14 and x = 7.",
+  ),
+
+  QuizQuestion(
+    question:
+    "16. Solve the equation: 2x - 3(x - 1) = 6.          (BECE 2009 Q12)",
+    options: [
+      "3",
+      "-3",
+      "-7",
+      "-9",
+    ],
+    correctIndex: 1,
+    difficulty: "Medium",
+    explanation:
+    "Expand to get 2x - 3x + 3 = 6. Thus, -x = 3 and x = -3.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"17. Find the value of x in the equation \frac{x}{4} = 2.          (BECE 2002B Q39)",
+    options: [
+      "2",
+      "4",
+      "6",
+      "8",
+    ],
+    correctIndex: 3,
+    difficulty: "Easy",
+    explanation:
+    r"Multiply both sides of \frac{x}{4} = 2 by 4. Therefore, x = 8.",
+  ),
+
+  QuizQuestion(
+    question:
+    "18. Solve for x in the equation 15 - 2x = 6.          (BECE 2004 Q21)",
+    options: [
+      "-10.5",
+      "-4.5",
+      "4.5",
+      "10.5",
+    ],
+    correctIndex: 2,
+    difficulty: "Easy",
+    explanation:
+    "Subtract 15 from both sides: -2x = -9. Dividing by -2 gives x = 4.5.",
+  ),
+
+  QuizQuestion(
+    question:
+    "19. If 3t - 2(t + 12) = 11, find the value of t.          (BECE 2003 Q7)",
+    options: [
+      "-35",
+      "-13",
+      "13",
+      "35",
+    ],
+    correctIndex: 3,
+    difficulty: "Medium",
+    explanation:
+    "Expand to get 3t - 2t - 24 = 11. Thus, t - 24 = 11 and t = 35.",
+  ),
+
+  QuizQuestion(
+    question:
+    "20. If 6n + 4 = 16, find the value of n.          (BECE 2005 Q10)",
+    options: [
+      "2",
+      "3",
+      "5",
+      "6",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "Subtract 4 from both sides to get 6n = 12. Therefore, n = 2.",
+  ),
+
+  QuizQuestion(
+    question:
+    "21. The difference between two numbers is 168. If the smaller number is 113, find the other number.          (BECE 2008 Q39)",
+    options: [
+      "223",
+      "271",
+      "281",
+      "291",
+    ],
+    correctIndex: 2,
+    difficulty: "Easy",
+    explanation:
+    "The larger number is 113 + 168 = 281.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"22. Solve the equation \frac{x + 2}{3} + 2x = 10.          (BECE 2006 Q18)",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6",
+    ],
+    correctIndex: 1,
+    difficulty: "Medium",
+    explanation:
+    "Multiply through by 3: x + 2 + 6x = 30. Thus, 7x = 28 and x = 4.",
+  ),
+
+  QuizQuestion(
+    question:
+    "23. If 8x - 3(2x - 4) = 4, find the value of x.          (BECE 2007 Q15)",
+    options: [
+      "-8",
+      "-4",
+      "4",
+      "8",
+    ],
+    correctIndex: 1,
+    difficulty: "Medium",
+    explanation:
+    "Expand to get 8x - 6x + 12 = 4. Thus, 2x = -8 and x = -4.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"24. Solve \frac{4k}{9} = 12.          (BECE 2008 Q33)",
+    options: [
+      "23",
+      "25",
+      "27",
+      "29",
+    ],
+    correctIndex: 2,
+    difficulty: "Easy",
+    explanation:
+    r"Multiply both sides by 9: 4k = 108. Therefore, k = \frac{108}{4} = 27.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"25. If x + 5 = -7, find the value of \frac{x}{6}.          (BECE 2009 Q20)",
+    options: [
+      r"-\frac{55}{6}",
+      "-2",
+      r"-\frac{1}{3}",
+      "2",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation:
+    r"From x + 5 = -7, x = -12. Therefore, \frac{x}{6} = \frac{-12}{6} = -2.",
+  ),
+
+  QuizQuestion(
+    question:
+    "26. The sum of 5 and x divided by 4 is equal to 3.25. Find the value of x.          (BECE 2010 Q4)",
+    options: [
+      "8",
+      "7",
+      r"2\frac{1}{4}",
+      r"-3\frac{4}{13}",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    r"The statement means \frac{5 + x}{4} = 3.25. Therefore, 5 + x = 13 and x = 8.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"27. Find the value of x, if \frac{x}{4} + 1 = 5.          (BECE 2010 Q20)",
+    options: [
+      "24",
+      "20",
+      "19",
+      "16",
+    ],
+    correctIndex: 3,
+    difficulty: "Easy",
+    explanation:
+    r"Subtract 1 to get \frac{x}{4} = 4. Multiplying by 4 gives x = 16.",
+  ),
+
+  QuizQuestion(
+    question:
+    "28. If 2x = 5(x - 2) + 7, find the value of x.          (BECE 2012 Q14)",
+    options: [
+      r"-5\frac{2}{3}",
+      "-1",
+      "1",
+      r"5\frac{2}{3}",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    "Expand the right-hand side: 2x = 5x - 10 + 7 = 5x - 3. Thus, -3x = -3 and x = 1.",
+  ),
+
+  QuizQuestion(
+    question:
+    "29. If 1 - 2 = m, find m.          (BECE 2013 Q11)",
+    options: [
+      "3",
+      "-1",
+      "1",
+      "3",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation: "Since 1 - 2 = -1, m = -1.",
+  ),
+
+  QuizQuestion(
+    question:
+    "30. Solve 3 + 3y = 1 - 13y.          (BECE 2015 Q23)",
+    options: [
+      r"-\frac{1}{8}",
+      "-2",
+      "2",
+      "6",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    r"Collect like terms: 3y + 13y = 1 - 3. Thus, 16y = -2 and y = -\frac{1}{8}. The original options appear to contain an error, so the first option has been corrected.",
+  ),
+
+  QuizQuestion(
+    question:
+    "31. When a number is doubled and the result is decreased by 9, the answer is 19. Find the number.          (BECE 2016 Q22)",
+    options: [
+      "5",
+      "7",
+      "14",
+      "16",
+    ],
+    correctIndex: 2,
+    difficulty: "Easy",
+    explanation:
+    "Let the number be x. Then 2x - 9 = 19. Thus, 2x = 28 and x = 14.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"32. Given that \frac{1}{2p} = \frac{1}{8}, find the value of p.          (BECE 2017 Q3)",
+    options: [
+      "4",
+      "3",
+      "2",
+      "1",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    r"Since \frac{1}{2p} = \frac{1}{8}, the denominators are equal. Therefore, 2p = 8 and p = 4.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"33. Solve 2 + \frac{x}{3} = 1 - 2x.          (BECE 2017 Q8)",
+    options: [
+      r"-1\frac{2}{7}",
+      r"-\frac{3}{7}",
+      r"\frac{3}{7}",
+      r"1\frac{2}{7}",
+    ],
+    correctIndex: 1,
+    difficulty: "Medium",
+    explanation:
+    r"Move the x-terms to one side: \frac{x}{3} + 2x = -1. Thus, \frac{7x}{3} = -1 and x = -\frac{3}{7}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "34. At a meeting attended by 23 people, the females were 7 more than the males. How many males were there?          (BECE 2017 Q14)",
+    options: [
+      "8",
+      "15",
+      "16",
+      "30",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    "Let the number of males be x. The number of females is x + 7. Then x + x + 7 = 23, so 2x = 16 and x = 8.",
+  ),
+
+  QuizQuestion(
+    question:
+    "35. If 4 - x = 3(4x + 5), find the value of x.          (BECE 2018 Q37)",
+    options: [
+      r"\frac{11}{13}",
+      r"1\frac{6}{13}",
+      r"-1\frac{6}{13}",
+      r"-\frac{11}{13}",
+    ],
+    correctIndex: 3,
+    difficulty: "Medium",
+    explanation:
+    r"Expand to get 4 - x = 12x + 15. Thus, -13x = 11 and x = -\frac{11}{13}.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"36. Solve the equation 10 - \frac{x + 3}{2} = 8.          (BECE 2019 Q7)",
+    options: [
+      "-9",
+      "-3",
+      "1",
+      "15",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"Subtract 8 from 10 to get \frac{x + 3}{2} = 2. Therefore, x + 3 = 4 and x = 1.",
+  ),
+
+  QuizQuestion(
+    question:
+    "37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
+    options: [
+      "84",
+      "40",
+      "28",
+      "20",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"Let the number be x. Then \frac{3x - 12}{4} = 18. Thus, 3x - 12 = 72, 3x = 84 and x = 28.",
+  ),
+
+  QuizQuestion(
+    question:
+    "38. In a class of 23 students, the girls were 7 more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
+    options: [
+      "8",
+      "15",
+      "16",
+      "30",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    "Let the number of boys be x. Then the number of girls is x + 7. Therefore, x + x + 7 = 23, so x = 8.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"39. If \frac{w}{3} = 3(w - 1) - 1, find the value of w.          (BECE 2020 Q16)",
+    options: [
+      r"\frac{3}{2}",
+      r"\frac{5}{4}",
+      r"\frac{3}{5}",
+      r"\frac{1}{2}",
+    ],
+    correctIndex: 0,
+    difficulty: "Medium",
+    explanation:
+    r"Simplify the right-hand side: \frac{w}{3} = 3w - 4. Multiply by 3 to get w = 9w - 12. Thus, 8w = 12 and w = \frac{3}{2}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "40. If 2x - 1 = 5, find the value of x.          (BECE 2021 Q34)",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6",
+    ],
+    correctIndex: 0,
+    difficulty: "Easy",
+    explanation:
+    "Add 1 to both sides to get 2x = 6. Therefore, x = 3.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"41. If \frac{n}{100} = 10.5, find the value of n.          (BECE 2022 Q23)",
+    options: [
+      "0.0105",
+      "0.105",
+      "105",
+      "1050",
+    ],
+    correctIndex: 3,
+    difficulty: "Easy",
+    explanation:
+    r"Multiply both sides of \frac{n}{100} = 10.5 by 100. Therefore, n = 1050.",
+  ),
+
+  QuizQuestion(
+    question:
+    "42. A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.          (BECE 2022 Q37)",
+    options: [
+      "4",
+      "5",
+      "6",
+      "8",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation:
+    "Let the number be x. Then 3(12 - x) = 21. Thus, 12 - x = 7 and x = 5.",
+  ),
+
+  QuizQuestion(
+    question:
+    r"43. If 2n - 5 = \frac{1}{2}n, find the value of n.          (BECE 2023 Q15)",
+    options: [
+      r"\frac{1}{3}",
+      r"2\frac{1}{2}",
+      r"3\frac{1}{3}",
+      r"\frac{1}{2}",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    r"Subtract \frac{1}{2}n from 2n to get \frac{3}{2}n = 5. Thus, n = \frac{10}{3} = 3\frac{1}{3}.",
+  ),
+
+  QuizQuestion(
+    question:
+    "44. A story book contains 50 pages. If a student reads 10 pages per hour, find the relationship between the number of unread pages (N) and time (t).          (BECE 2024 Q29)",
+    options: [
+      "N = 10t + 50",
+      "N = 10t - 50",
+      "N = -10t + 50",
+      r"N = -\frac{1}{10}t + 50",
+    ],
+    correctIndex: 2,
+    difficulty: "Medium",
+    explanation:
+    "The student starts with 50 unread pages. The number decreases by 10 pages each hour, so N = 50 - 10t, which is the same as N = -10t + 50.",
+  ),
+
+  QuizQuestion(
+    question:
+    "45. Solve: 4x - 2(x + 5) = -10.          (BECE 2025 Q10)",
+    options: [
+      "x = -10",
+      "x = 0",
+      r"x = \frac{1}{2}",
+      "x = 2",
+    ],
+    correctIndex: 1,
+    difficulty: "Medium",
+    explanation:
+    "Expand to get 4x - 2x - 10 = -10. Thus, 2x = 0 and x = 0.",
+  ),
+
+  QuizQuestion(
+    question:
+    "46. Ama is three times as old as Kofi. The sum of their ages is 40. How old is Ama?          (BECE 2025 Q12)",
+    options: [
+      "10 years",
+      "30 years",
+      "37 years",
+      "43 years",
+    ],
+    correctIndex: 1,
+    difficulty: "Easy",
+    explanation:
+    "Let Kofi's age be x. Ama's age is 3x. Then x + 3x = 40, so x = 10. Therefore, Ama is 3 × 10 = 30 years old.",
+  ),
+
+  QuizQuestion(
+    question:
+    "47. Given that 0.03 × y = 2.4, find the value of y.          (BECE 2025 Q22)",
+    options: [
+      "0.08",
+      "0.8",
+      "8.0",
+      "80.0",
+    ],
+    correctIndex: 3,
+    difficulty: "Easy",
+    explanation:
+    "Divide both sides by 0.03: y = 2.4 ÷ 0.03 = 80.",
+  ),
+    ],
+  ),
+
+  "Math JHS1 s3 ss1 - Shape and Space": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: r"1. When a certain number is subtracted from \(10\) and the result is multiplied by \(2\), the final result is \(4\). Find the number.          (BECE 1991 Q37)",
-          options: [
-            r"\(8\)",
-            r"\(12\)",
-            r"\(16\)",
-            r"\(24\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(2(10 - x) = 4\). Dividing by \(2\) gives \(10 - x = 2\), so \(x = 8\)."
+        question:
+        "1. Which of the following would you use to measure an angle?          (BECE 1991 Q28)",
+        options: [
+          "Ruler",
+          "A pair of compasses",
+          "A set square",
+          "A protractor",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A protractor is the instrument used to measure the size of an angle.",
       ),
 
       QuizQuestion(
-          question: r"2. Solve for \(x\) if \(2x + 5 = 3x - 7\).          (BECE 1994 Q26)",
-          options: [
-            r"\(12\)",
-            r"\(2\frac{2}{5}\)",
-            r"\(-\frac{2}{5}\)",
-            r"\(-2\frac{2}{5}\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Subtract \(2x\) from both sides: \(5 = x - 7\). Adding \(7\) gives \(x = 12\)."
+        question:
+        r"2. Which of the following statements is best described as constructing an angle of 180^\circ?          (BECE 2002B Q18)",
+        options: [
+          "Constructing an angle",
+          r"Constructing the perpendicular bisector of (AB)",
+          r"Constructing a circle about the midpoint of (AB)",
+          r"Constructing an angle of (180^{\circ)}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"An angle of \(180^\circ\) is a straight angle. Therefore, constructing an angle of \(180^\circ\) means constructing a straight angle.",
       ),
 
       QuizQuestion(
-          question: r"3. If \(\frac{3}{15}\) is equivalent to \(\frac{45}{a}\), find \(a\).          (BECE 1990 Q22)",
-          options: [
-            r"\(225\)",
-            r"\(150\)",
-            r"\(252\)",
-            r"\(126\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Since \(\frac{3}{15} = \frac{45}{a}\), cross-multiply to get \(3a = 15 \times 45\). Therefore, \(a = \frac{675}{3} = 225\)."
+        question:
+        "3. The value of an obtuse angle lies between:          (BECE 2003 Q33)",
+        options: [
+          r"0^{\circ} and 90^{\circ}",
+          r"90^{\circ} and 180^{\circ}",
+          r"90^{\circ} and 270^{\circ}",
+          r"180^{\circ} and 360^{\circ}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
-          options: [
-            r"\(\frac{3}{2}\)",
-            r"\(1\)",
-            r"\(\frac{2}{3}\)",
-            r"\(\frac{1}{2}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(5x = x + 4\). Therefore, \(4x = 4\), so \(x = 1\)."
+        question:
+        "4. The angle formed by one complete revolution is equivalent to:          (BECE 2004 Q4)",
+        options: [
+          "One right angle",
+          "Two right angles",
+          "Three right angles",
+          "Four right angles",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"One complete revolution is \(360^\circ\). Since one right angle is \(90^\circ\), \(360^\circ \div 90^\circ = 4\).",
       ),
 
       QuizQuestion(
-          question: r"5. Mark is \(30\) years old. Yaw is half as old as Mark. Paul is \(10\) years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
-          options: [
-            r"\(30\text{ years}\)",
-            r"\(25\text{ years}\)",
-            r"\(20\text{ years}\)",
-            r"\(15\text{ years}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Yaw is half of \(30\), so he is \(15\) years old. Paul is \(10\) years older, so Paul is \(15 + 10 = 25\) years old."
+        question:
+        "5. The angles of a triangle are in the ratio 3:2:1. Find the value of the smallest angle.          (BECE 2004 Q23)",
+        options: [
+          r"30^{\circ}",
+          r"45^\circ",
+          r"60^\circ",
+          r"90^\circ",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The angles of a triangle add up to \(180^\circ\). The total number of parts is \(3 + 2 + 1 = 6\). One part is \(180^\circ \div 6 = 30^\circ\), so the smallest angle is \(30^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"6. If \(\frac{1}{3}\) of a number is added to \(\frac{1}{5}\) of the same number, the result is \(8\). Find the number.          (BECE 1992 Q34)",
-          options: [
-            r"\(3\)",
-            r"\(5\)",
-            r"\(15\)",
-            r"\(30\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(\frac{x}{3} + \frac{x}{5} = 8\). Thus, \(\frac{5x + 3x}{15} = 8\), so \(\frac{8x}{15} = 8\). Therefore, \(x = 15\)."
+        question:
+        r"6. An angle which is more than 90^\circ but less than 180^\circ is:          (BECE 2004 Q34)",
+        options: [
+          "An acute angle",
+          "A right angle",
+          "An obtuse angle",
+          "A reflex angle",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"7. Solve for \(h\) in the equation \(15 - 2h = 6\).          (BECE 1998 Q21)",
-          options: [
-            r"\(-10.5\)",
-            r"\(-9.0\)",
-            r"\(-4.5\)",
-            r"\(4.5\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Subtract \(15\) from both sides: \(-2h = -9\). Dividing by \(-2\) gives \(h = 4.5\)."
+        question:
+        "7. Find the angle through which the minute hand of a clock moves from 5:15 p.m. to 5:25 p.m.          (BECE 2008 Q20)",
+        options: [
+          r"30^\circ",
+          r"45^\circ",
+          r"60^\circ",
+          r"120^\circ",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The minute hand moves \(360^\circ\) in 60 minutes, which is \(6^\circ\) per minute. From 5:15 p.m. to 5:25 p.m. is 10 minutes, so the angle moved is \(10 \times 6^\circ = 60^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"8. Find \(x\), if \(\frac{1}{x} + \frac{1}{3} = 1\).          (BECE 1993 Q31)",
-          options: [
-            r"\(\frac{2}{3}\)",
-            r"\(-\frac{2}{3}\)",
-            r"\(\frac{3}{2}\)",
-            r"\(\frac{3}{4}\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"\(\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}\). Taking reciprocals gives \(x = \frac{3}{2}\)."
+        question:
+        r"8. An angle which is greater than 180^\circ but less than 360^\circ is:          (BECE 2016 Q25)",
+        options: [
+          "A right angle",
+          "An acute angle",
+          "An obtuse angle",
+          "A reflex angle",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"A reflex angle is greater than \(180^\circ\) but less than \(360^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"9. If \(\frac{1}{x} = 1\frac{1}{2}\), find \(x\).          (BECE 1994 Q11)",
-          options: [
-            r"\(3\)",
-            r"\(\frac{1}{2}\)",
-            r"\(\frac{4}{3}\)",
-            r"\(\frac{2}{3}\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Convert \(1\frac{1}{2}\) to an improper fraction: \(1\frac{1}{2} = \frac{3}{2}\). Thus, \(\frac{1}{x} = \frac{3}{2}\), so \(x = \frac{2}{3}\)."
+        question:
+        "9. The instrument used to measure the angle between two lines that meet at a point is known as a:          (BECE 2016 Q40)",
+        options: [
+          "Pair of compasses",
+          "Set square",
+          "Protractor",
+          "Pair of dividers",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A protractor is used to measure the angle formed by two intersecting lines.",
       ),
 
       QuizQuestion(
-          question: r"10. Solve the equation \(13x - 2(3x + 4) = 22\).          (BECE 2000 Q3)",
-          options: [
-            r"\(5\)",
-            r"\(4\)",
-            r"\(\frac{30}{7}\)",
-            r"\(\frac{26}{7}\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Expand and simplify: \(13x - 6x - 8 = 22\). Thus, \(7x = 30\), so \(x = \frac{30}{7}\)."
-      ),
-      QuizQuestion(
-          question: r"11. If \(4(m + 4) = 18\), find the value of \(m\).          (BECE 1999 Q29)",
-          options: [
-            r"\(\frac{1}{2}\)",
-            r"\(\frac{3}{2}\)",
-            r"\(\frac{5}{2}\)",
-            r"\(\frac{3}{25}\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Divide both sides by \(4\): \(m + 4 = \frac{18}{4} = \frac{9}{2}\). Therefore, \(m = \frac{9}{2} - 4 = \frac{1}{2}\)."
+        question:
+        r"10. Given that (x = 8), what type of angle is ((9x + 8)^\circ)?          (BECE 2021 Q5)",
+        options: [
+          "Straight angle",
+          "Obtuse angle",
+          "Acute angle",
+          "Right angle",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Substitute \(x = 8\): \(9(8) + 8 = 72 + 8 = 80^\circ\). Since \(80^\circ\) is less than \(90^\circ\), it is an acute angle.",
       ),
 
       QuizQuestion(
-          question: r"12. If \(13x - 12 = 5x + 60\), find \(x\).          (BECE 1995 Q33)",
-          options: [
-            r"\(-9\)",
-            r"\(-6\)",
-            r"\(9\)",
-            r"\(6\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Subtract \(5x\) from both sides: \(8x - 12 = 60\). Add \(12\): \(8x = 72\). Therefore, \(x = 9\)."
+        question:
+        r"11. Two interior angles of a triangle are ((3x - 10)^\circ) and ((4x + 20)^\circ). Find an expression for the third angle.          (BECE 2025 Q24)",
+        options: [
+          r"(170 - 7x)^\circ",
+          r"(150 - 5x)^\circ",
+          r"(120 - 7x)^\circ",
+          r"(100 - 5x)^\circ",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The interior angles of a triangle add up to \(180^\circ\). The third angle is \(180^\circ - [(3x - 10)^\circ + (4x + 20)^\circ]\). Simplifying gives \(180 - (7x + 10) = (170 - 7x)^\circ\).",
+      ),
+    ],
+  ),
+  "Math JHS1 s3 ss2 - Measurement": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. What is the name of the line segment drawn to join any two points on the circumference of a circle?          (BECE 1990 Q32)",
+        options: [
+          "Radius",
+          "Segment",
+          "Sector",
+          "Chord",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A chord is a line segment whose two endpoints lie on the circumference of a circle.",
       ),
 
       QuizQuestion(
-          question: r"13. The product of \(2x\) and \(3\) is \(138\). Find \(x\).          (BECE 1996 Q33)",
-          options: [
-            r"\(23\)",
-            r"\(33\)",
-            r"\(68\)",
-            r"\(69\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"\((2x)(3) = 138\). Thus, \(6x = 138\), so \(x = 23\)."
+        question:
+        r"2. The area of a square is \(49\text{ cm}^2\). Find the perimeter of the square.          (BECE 1990 Q35)",
+        options: [
+          r"7\text{ cm}",
+          r"51\text{ cm}",
+          r"28\text{ cm}",
+          r"49\text{ cm}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The side of the square is \(\sqrt{49} = 7\text{ cm}\). Therefore, its perimeter is \(4 \times 7 = 28\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"14. Solve for \(y\) in the equation \(\frac{1}{3}y + \frac{1}{5}y = 8\).          (BECE 2002A Q27)",
-          options: [
-            r"\(15\)",
-            r"\(30\)",
-            r"\(45\)",
-            r"\(60\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"\(\frac{1}{3}y + \frac{1}{5}y = \frac{8}{15}y = 8\). Hence, \(y = 15\)."
+        question:
+        r"3. The circumference of a circular track is \(440\text{ m}\). Find the diameter of this track. Take \(\pi = \frac{22}{7}\).          (BECE 1991 Q26)",
+        options: [
+          r"70\text{ m}",
+          r"140\text{ m}",
+          r"280\text{ m}",
+          r"691\text{ m}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Using \(C = \pi d\), \(440 = \frac{22}{7}d\). Therefore, \(d = 440 \times \frac{7}{22} = 140\text{ m}\).",
       ),
 
       QuizQuestion(
-          question: r"15. Kofi is \(2\) years older than Ama. If the sum of their ages is \(16\), find Ama's age.          (BECE 2002B Q25)",
-          options: [
-            r"\(7\text{ years}\)",
-            r"\(9\text{ years}\)",
-            r"\(14\text{ years}\)",
-            r"\(18\text{ years}\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Let Ama's age be \(x\). Then Kofi's age is \(x + 2\). Thus, \(x + (x + 2) = 16\), so \(2x = 14\) and \(x = 7\)."
+        question:
+        "4. Which of these has the least number of lines of symmetry?          (BECE 1993 Q4)",
+        options: [
+          "An equilateral triangle",
+          "A rectangle",
+          "A square",
+          "A circle",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "An equilateral triangle has 3 lines of symmetry, a rectangle has 2, a square has 4 and a circle has infinitely many. Therefore, the rectangle has the least.",
       ),
 
       QuizQuestion(
-          question: r"16. Solve the equation: \(2x - 3(x - 1) = 6\).          (BECE 2009 Q12)",
-          options: [
-            r"\(3\)",
-            r"\(-3\)",
-            r"\(-7\)",
-            r"\(-9\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Expand the bracket: \(2x - 3x + 3 = 6\). Therefore, \(-x = 3\), so \(x = -3\)."
+        question:
+        r"5. The bearing of Aboku from Bebeka is \(055^\circ\). What is the bearing of Bebeka from Aboku?          (BECE 1993 Q32)",
+        options: [
+          r"235^\circ",
+          r"055^\circ",
+          r"125^\circ",
+          r"305^\circ",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"To find the reverse bearing, add \(180^\circ\): \(055^\circ + 180^\circ = 235^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"17. Find the value of \(x\) in the equation \(\frac{x}{4} = 2\).          (BECE 2002B Q39)",
-          options: [
-            r"\(2\)",
-            r"\(4\)",
-            r"\(6\)",
-            r"\(8\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Multiply both sides by \(4\): \(x = 8\)."
+        question:
+        "6. How many lines of symmetry does a rectangle have?          (BECE 1994 Q4)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A rectangle has two lines of symmetry: one horizontal and one vertical through its centre.",
       ),
 
       QuizQuestion(
-          question: r"18. Solve for \(x\) in the equation \(15 - 2x = 6\).          (BECE 2004 Q21)",
-          options: [
-            r"\(-10.5\)",
-            r"\(-4.5\)",
-            r"\(4.5\)",
-            r"\(10.5\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Subtract \(15\) from both sides: \(-2x = -9\). Divide by \(-2\): \(x = 4.5\)."
+        question:
+        "7. How many lines of symmetry has a square?          (BECE 1995 Q23)",
+        options: [
+          "0",
+          "1",
+          "2",
+          "4",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A square has four lines of symmetry: two through the midpoints of opposite sides and two along its diagonals.",
       ),
 
       QuizQuestion(
-          question: r"19. If \(3t - 2(t + 12) = 11\), find the value of \(t\).          (BECE 2003 Q7)",
-          options: [
-            r"\(-35\)",
-            r"\(-13\)",
-            r"\(13\)",
-            r"\(35\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Expand the bracket: \(3t - 2t - 24 = 11\). Thus, \(t = 35\)."
+        question:
+        r"8. A square of side \(6\text{ cm}\) has the same area as a rectangle of length \(9\text{ cm}\). Find the breadth of the rectangle.          (BECE 1999 Q32)",
+        options: [
+          r"3\text{ cm}",
+          r"4\text{ cm}",
+          r"6\text{ cm}",
+          r"24\text{ cm}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The area of the square is \(6 \times 6 = 36\text{ cm}^2\). Therefore, the breadth of the rectangle is \(36 \div 9 = 4\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"20. If \(6n + 4 = 16\), find the value of \(n\).          (BECE 2005 Q10)",
-          options: [
-            r"\(2\)",
-            r"\(3\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Subtract \(4\) from both sides: \(6n = 12\). Divide by \(6\): \(n = 2\)."
-      ),
-      QuizQuestion(
-          question: r"21. The difference between two numbers is \(168\). If the smaller number is \(113\), find the other number.          (BECE 2008 Q39)",
-          options: [
-            r"\(223\)",
-            r"\(271\)",
-            r"\(281\)",
-            r"\(291\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"The larger number is \(113 + 168 = 281\)."
+        question:
+        "9. How many lines of symmetry has a square?          (BECE 2000 Q13)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "6",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A square has four lines of symmetry.",
       ),
 
       QuizQuestion(
-          question: r"22. Solve the equation \(\frac{x + 2}{3} + 2x = 10\).          (BECE 2006 Q18)",
-          options: [
-            r"\(3\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Multiply through by \(3\): \(x + 2 + 6x = 30\). Thus, \(7x = 28\), so \(x = 4\)."
+        question:
+        "10. How many lines of symmetry has an isosceles triangle?          (BECE 2001 Q14)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "An isosceles triangle has one line of symmetry passing through its vertex and the midpoint of its base.",
       ),
 
       QuizQuestion(
-          question: r"23. If \(8x - 3(2x - 4) = 4\), find the value of \(x\).          (BECE 2007 Q15)",
-          options: [
-            r"\(-8\)",
-            r"\(-4\)",
-            r"\(4\)",
-            r"\(8\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Expand the bracket: \(8x - 6x + 12 = 4\). Therefore, \(2x = -8\), so \(x = -4\)."
+        question:
+        "11. Which of the following is not a quadrilateral?          (BECE 2001 Q17)",
+        options: [
+          "Square",
+          "Rectangle",
+          "Rhombus",
+          "Triangle",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A quadrilateral has four sides. A triangle has only three sides, so it is not a quadrilateral.",
       ),
 
       QuizQuestion(
-          question: r"24. Solve \(\frac{4k}{9} = 12\).          (BECE 2008 Q33)",
-          options: [
-            r"\(23\)",
-            r"\(25\)",
-            r"\(27\)",
-            r"\(29\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Multiply both sides by \(9\): \(4k = 108\). Divide by \(4\): \(k = 27\)."
+        question:
+        r"12. The area of a rectangle is \(18\text{ cm}^2\). One of its sides is \(9\text{ cm}\) long. Find its perimeter.          (BECE 2001 Q34)",
+        options: [
+          r"11\text{ cm}",
+          r"18\text{ cm}",
+          r"22\text{ cm}",
+          r"36\text{ cm}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The other side is \(18 \div 9 = 2\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"25. If \(x + 5 = -7\), find the value of \(\frac{x}{6}\).          (BECE 2009 Q20)",
-          options: [
-            r"\(-5\frac{5}{6}\)",
-            r"\(-2\)",
-            r"\(-\frac{1}{3}\)",
-            r"\(2\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"From \(x + 5 = -7\), we get \(x = -12\). Therefore, \(\frac{x}{6} = \frac{-12}{6} = -2\)."
+        question:
+        "13. How many lines of symmetry has a rhombus?          (BECE 1998 Q33)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A rhombus has two lines of symmetry, which lie along its diagonals.",
       ),
 
       QuizQuestion(
-          question: r"26. The sum of \(5\) and \(x\) divided by \(4\) is equal to \(3.25\). Find the value of \(x\).          (BECE 2010 Q4)",
-          options: [
-            r"\(8\)",
-            r"\(7\)",
-            r"\(2\frac{1}{4}\)",
-            r"\(-3\frac{4}{13}\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Interpret the statement as \(\frac{x + 5}{4} = 3.25\). Multiplying by \(4\) gives \(x + 5 = 13\), so \(x = 8\)."
+        question:
+        "14. A farmer left home at 4:35 a.m. and arrived on his farm at 6:18 a.m. How long did he take to get to his farm?          (BECE 2002A Q3)",
+        options: [
+          "1 hour 23 minutes",
+          "1 hour 43 minutes",
+          "2 hours 43 minutes",
+          "10 hours 53 minutes",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "From 4:35 a.m. to 5:35 a.m. is 1 hour, and from 5:35 a.m. to 6:18 a.m. is 43 minutes. The total time is 1 hour 43 minutes.",
       ),
 
       QuizQuestion(
-          question: r"27. Find the value of \(x\), if \(\frac{x}{4} + 1 = 5\).          (BECE 2010 Q20)",
-          options: [
-            r"\(24\)",
-            r"\(20\)",
-            r"\(19\)",
-            r"\(16\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Subtract \(1\): \(\frac{x}{4} = 4\). Multiply by \(4\): \(x = 16\)."
+        question:
+        r"15. The length of a rectangle is three times its width. If its perimeter is \(24\text{ cm}\), find its width.          (BECE 2002A Q35)",
+        options: [
+          r"3\text{ cm}",
+          r"4\text{ cm}",
+          r"6\text{ cm}",
+          r"8\text{ cm}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Let the width be \(w\). The length is \(3w\). Thus, \(2(3w + w) = 24\), so \(8w = 24\) and \(w = 3\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"28. If \(2x = 5(x - 2) + 7\), find the value of \(x\).          (BECE 2012 Q14)",
-          options: [
-            r"\(-5\frac{2}{3}\)",
-            r"\(-1\)",
-            r"\(1\)",
-            r"\(5\frac{2}{3}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Expand: \(2x = 5x - 10 + 7 = 5x - 3\). Thus, \(-3x = -3\), so \(x = 1\). (The supplied answer key/options appear inconsistent.)"
+        question:
+        "16. How many lines of symmetry has an equilateral triangle?          (BECE 2003 Q32)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "An equilateral triangle has three lines of symmetry, one from each vertex to the midpoint of the opposite side.",
       ),
 
       QuizQuestion(
-          question: r"29. If \(1 - 2 = m\), find \(m\).          (BECE 2013 Q11)",
-          options: [
-            r"\(3\)",
-            r"\(-1\)",
-            r"\(1\)",
-            r"\(3\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Simply evaluate \(1 - 2 = -1\). Therefore, \(m = -1\)."
+        question:
+        r"17. An equilateral triangle has side \(16\text{ cm}\). A square has the same perimeter as the equilateral triangle. What is the area of the square?          (BECE 2005 Q23)",
+        options: [
+          r"48\text{ cm}^2",
+          r"96\text{ cm}^2",
+          r"144\text{ cm}^2",
+          r"256\text{ cm}^2",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The triangle's perimeter is \(3 \times 16 = 48\text{ cm}\). Each side of the square is \(48 \div 4 = 12\text{ cm}\), so its area is \(12^2 = 144\text{ cm}^2\).",
       ),
 
       QuizQuestion(
-          question: r"30. Solve \(3 + 3y = 1 - 13y\).          (BECE 2015 Q23)",
-          options: [
-            r"\(-6\)",
-            r"\(-2\)",
-            r"\(2\)",
-            r"\(6\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Bring like terms together: \(3y + 13y = 1 - 3\). Thus, \(16y = -2\), so \(y = -\frac{1}{8}\). The correct answer is not among the supplied options."
-      ),QuizQuestion(
-          question: r"31. When a number is doubled and the result is decreased by \(9\), the answer is \(19\). Find the number.          (BECE 2016 Q22)",
-          options: [
-            r"\(5\)",
-            r"\(7\)",
-            r"\(14\)",
-            r"\(16\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(2x - 9 = 19\). So \(2x = 28\) and \(x = 14\)."
+        question:
+        r"18. The perimeter of a rectangle is \(24\text{ cm}\). If the breadth of the rectangle is \(4\text{ cm}\), find the area of the rectangle.          (BECE 2005 Q29)",
+        options: [
+          r"32\text{ cm}^2",
+          r"48\text{ cm}^2",
+          r"64\text{ cm}^2",
+          r"144\text{ cm}^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Since \(2(l + 4) = 24\), \(l + 4 = 12\) and \(l = 8\text{ cm}\). Therefore, the area is \(8 \times 4 = 32\text{ cm}^2\).",
       ),
 
       QuizQuestion(
-          question: r"32. Given that \(\frac{1}{2p} = \frac{1}{8}\), find the value of \(p\).          (BECE 2017 Q3)",
-          options: [
-            r"\(4\)",
-            r"\(3\)",
-            r"\(2\)",
-            r"\(1\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Since \(\frac{1}{2p} = \frac{1}{8}\), it follows that \(2p = 8\). Therefore, \(p = 4\)."
+        question:
+        r"19. The base of an isosceles triangle is \(7\text{ cm}\) long. Each of the other two sides is \(x\text{ cm}\) long. What will be the expression for its perimeter?          (BECE 2006 Q7)",
+        options: [
+          r"x + 7",
+          r"x + 14",
+          r"2x - 7",
+          r"2x + 7",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The perimeter is the sum of the three sides: \(x + x + 7 = 2x + 7\).",
       ),
 
       QuizQuestion(
-          question: r"33. Solve \(2 + \frac{x}{3} = 1 - 2x\).          (BECE 2017 Q8)",
-          options: [
-            r"\(-1\frac{2}{7}\)",
-            r"\(-\frac{3}{7}\)",
-            r"\(\frac{3}{7}\)",
-            r"\(1\frac{2}{7}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Multiply through by \(3\): \(6 + x = 3 - 6x\). Thus, \(7x = -3\), so \(x = -\frac{3}{7}\)."
+        question:
+        "20. The length of a rectangular playing field is 5 metres longer than its width. If the perimeter of the field is 150 metres, find its width.          (BECE 2007 Q39)",
+        options: [
+          "30 metres",
+          "35 metres",
+          "40 metres",
+          "45 metres",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Let the width be w metres. The length is w + 5. Thus, 2(w + w + 5) = 150, so 2w + 5 = 75, 2w = 70 and w = 35 metres.",
       ),
 
       QuizQuestion(
-          question: r"34. At a meeting attended by \(23\) people, the females were \(7\) more than the males. How many males were there?          (BECE 2017 Q14)",
-          options: [
-            r"\(8\)",
-            r"\(15\)",
-            r"\(16\)",
-            r"\(30\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Let the number of males be \(m\). Then females are \(m + 7\). So \(m + (m + 7) = 23\), giving \(2m = 16\) and \(m = 8\)."
+        question:
+        r"21. A football field is \(120\text{ m}\) long and \(75\text{ m}\) wide. What is the perimeter of the field?          (BECE 2008 Q14)",
+        options: [
+          r"195\text{ m}",
+          r"390\text{ m}",
+          r"780\text{ m}",
+          r"900\text{ m}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The perimeter is \(2(120 + 75) = 2 \times 195 = 390\text{ m}\).",
       ),
 
       QuizQuestion(
-          question: r"35. If \(4 - x = 3(4x + 5)\), find the value of \(x\).          (BECE 2018 Q37)",
-          options: [
-            r"\(\frac{11}{13}\)",
-            r"\(1\frac{6}{13}\)",
-            r"\(-1\frac{6}{13}\)",
-            r"\(-\frac{11}{13}\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Expand: \(4 - x = 12x + 15\). Thus, \(-13x = 11\), so \(x = -\frac{11}{13} = -\frac{11}{13}\). The mixed-number option \(-1\frac{6}{13}\) in the source is inconsistent."
+        question:
+        "22. How many lines of symmetry has an equilateral triangle?          (BECE 2008 Q28)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "An equilateral triangle has three lines of symmetry.",
       ),
 
       QuizQuestion(
-          question: r"36. Solve the equation \(10 - \frac{x + 3}{2} = 8\).          (BECE 2019 Q7)",
-          options: [
-            r"\(-9\)",
-            r"\(-3\)",
-            r"\(1\)",
-            r"\(15\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"\(\frac{x + 3}{2} = 2\). Therefore, \(x + 3 = 4\), so \(x = 1\)."
+        question:
+        "23. Which of the following is not a quadrilateral?          (BECE 2008 Q30)",
+        options: [
+          "Hexagon",
+          "Kite",
+          "Rectangle",
+          "Trapezium",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A hexagon has six sides, while a quadrilateral has four sides.",
       ),
 
       QuizQuestion(
-          question: r"37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
-          options: [
-            r"\(84\)",
-            r"\(40\)",
-            r"\(28\)",
-            r"\(20\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(\frac{3x - 12}{4} = 18\). Hence, \(3x - 12 = 72\), so \(3x = 84\) and \(x = 28\)."
+        question:
+        r"24. A rectangle has an area of \(36\text{ cm}^2\) and a width of \(3\text{ cm}\). Find its perimeter.          (BECE 2009 Q16)",
+        options: [
+          r"12\text{ cm}",
+          r"18\text{ cm}",
+          r"24\text{ cm}",
+          r"30\text{ cm}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The length is \(36 \div 3 = 12\text{ cm}\). Therefore, the perimeter is \(2(12 + 3) = 30\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"38. In a class of \(23\) students, the girls were \(7\) more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
-          options: [
-            r"\(8\)",
-            r"\(15\)",
-            r"\(16\)",
-            r"\(30\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Let the number of boys be \(b\). Then girls are \(b + 7\). Thus, \(b + (b + 7) = 23\), so \(2b = 16\) and \(b = 8\)."
+        question:
+        "25. How many lines of symmetry has a rectangle?          (BECE 2010 Q27)",
+        options: [
+          "4",
+          "3",
+          "2",
+          "1",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A rectangle has two lines of symmetry.",
       ),
 
       QuizQuestion(
-          question: r"39. If \(\frac{w}{3} = 3(w - 1) - 1\), find the value of \(w\).          (BECE 2020 Q16)",
-          options: [
-            r"\(\frac{3}{2}\)",
-            r"\(\frac{5}{4}\)",
-            r"\(\frac{3}{5}\)",
-            r"\(\frac{1}{2}\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"\(\frac{w}{3} = 3w - 4\). Multiplying through by \(3\): \(w = 9w - 12\). Thus, \(8w = 12\), so \(w = \frac{3}{2}\)."
+        question:
+        r"26. Find the area of a square, if its perimeter is \(28\text{ cm}\).          (BECE 2011 Q16)",
+        options: [
+          r"784\text{ cm}^2",
+          r"196\text{ cm}^2",
+          r"49\text{ cm}^2",
+          r"14\text{ cm}^2",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Each side of the square is \(28 \div 4 = 7\text{ cm}\). Therefore, its area is \(7^2 = 49\text{ cm}^2\).",
       ),
 
       QuizQuestion(
-          question: r"40. If \(2x - 1 = 5\), find the value of \(x\).          (BECE 2021 Q34)",
-          options: [
-            r"\(3\)",
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: r"Add \(1\) to both sides: \(2x = 6\). Therefore, \(x = 3\)."
+        question:
+        "27. How many diagonals are in a rectangle?          (BECE 2012 Q4)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A rectangle has two diagonals joining its opposite vertices.",
       ),
 
       QuizQuestion(
-          question: r"41. If \(\frac{n}{100} = 10.5\), find the value of \(n\).          (BECE 2022 Q23)",
-          options: [
-            r"\(0.0105\)",
-            r"\(0.105\)",
-            r"\(105\)",
-            r"\(1050\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Multiply both sides by \(100\): \(n = 10.5 \times 100 = 1050\)."
+        question:
+        r"28. The bearing of Atoru from Busase is \(275^\circ\). What is the bearing of Busase from Atoru?          (BECE 2012 Q31)",
+        options: [
+          r"180^\circ",
+          r"175^\circ",
+          r"095^\circ",
+          r"075^\circ",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Since \(275^\circ\) is greater than \(180^\circ\), subtract \(180^\circ\): \(275^\circ - 180^\circ = 095^\circ\).",
       ),
 
       QuizQuestion(
-          question: r"42. A certain number is subtracted from \(12\) and the result is multiplied by \(3\). If the answer is \(21\), find the number.          (BECE 2022 Q37)",
-          options: [
-            r"\(4\)",
-            r"\(5\)",
-            r"\(6\)",
-            r"\(8\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Let the number be \(x\). Then \(3(12 - x) = 21\). So \(12 - x = 7\), giving \(x = 5\)."
+        question:
+        r"29. The perimeter of a rectangle is \(48\text{ cm}\). If the length is \(14\text{ cm}\), find its width.          (BECE 2013 Q12)",
+        options: [
+          r"24\text{ cm}",
+          r"20\text{ cm}",
+          r"10\text{ cm}",
+          r"3.4\text{ cm}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Since \(2(l + w) = 48\), \(l + w = 24\). Therefore, \(w = 24 - 14 = 10\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"43. If \(2n - 5 = \frac{1}{2}n\), find the value of \(n\).          (BECE 2023 Q15)",
-          options: [
-            r"\(\frac{1}{3}\)",
-            r"\(2\frac{1}{2}\)",
-            r"\(3\frac{1}{3}\)",
-            r"\(\frac{1}{2}\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"Multiply both sides by \(2\): \(4n - 10 = n\). Thus, \(3n = 10\), so \(n = \frac{10}{3} = 3\frac{1}{3}\)."
+        question:
+        r"30. The length of a rectangular fence is \(25\text{ m}\). The ratio of the length to the width is \(5:3\). Find the width of the rectangular fence.          (BECE 2013 Q22)",
+        options: [
+          r"19\text{ m}",
+          r"13\text{ m}",
+          r"15\text{ m}",
+          r"16\text{ m}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The length represents 5 parts. One part is \(25 \div 5 = 5\text{ m}\). Therefore, the width is \(3 \times 5 = 15\text{ m}\).",
       ),
 
       QuizQuestion(
-          question: r"44. A story book contains \(50\) pages. If a student reads \(10\) pages per hour, find the relationship between the number of unread pages (\(N\)) and time (\(t\)).          (BECE 2024 Q29)",
-          options: [
-            r"\(N = 10t + 50\)",
-            r"\(N = 10t - 50\)",
-            r"\(N = -10t + 50\)",
-            r"\(N = -\frac{1}{10}t + 50\)"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: r"The number of unread pages decreases by \(10\) every hour. Hence, \(N = 50 - 10t = -10t + 50\)."
+        question:
+        "31. Jane arrived at work at 7:55 a.m. and left at 4:15 p.m. For how long was she at work?          (BECE 2014 Q17)",
+        options: [
+          "7 hr 20 min",
+          "7 hr 45 min",
+          "8 hr 20 min",
+          "8 hr 40 min",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "From 7:55 a.m. to 12:00 noon is 4 hours 5 minutes. From noon to 4:15 p.m. is 4 hours 15 minutes. The total is 8 hours 20 minutes.",
       ),
 
       QuizQuestion(
-          question: r"45. Solve: \(4x - 2(x + 5) = -10\).          (BECE 2025 Q10)",
-          options: [
-            r"\(x = -10\)",
-            r"\(x = 0\)",
-            r"\(x = \frac{1}{2}\)",
-            r"\(x = 2\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Expand: \(4x - 2x - 10 = -10\). Thus, \(2x = 0\), so \(x = 0\)."
+        question:
+        r"32. The perimeter of a rectangle is \(24\text{ cm}\). If the length is \(7\text{ cm}\), find the width.          (BECE 2014 Q28)",
+        options: [
+          r"3\text{ cm}",
+          r"5\text{ cm}",
+          r"10\text{ cm}",
+          r"12\text{ cm}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Since \(2(l + w) = 24\), \(l + w = 12\). Therefore, \(w = 12 - 7 = 5\text{ cm}\).",
       ),
 
       QuizQuestion(
-          question: r"46. Ama is three times as old as Kofi. The sum of their ages is \(40\). How old is Ama?          (BECE 2025 Q12)",
-          options: [
-            r"\(10\text{ years}\)",
-            r"\(30\text{ years}\)",
-            r"\(37\text{ years}\)",
-            r"\(43\text{ years}\)"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: r"Let Kofi's age be \(k\). Then Ama's age is \(3k\). Since \(k + 3k = 40\), we get \(4k = 40\), so \(k = 10\). Therefore, Ama is \(30\) years old."
+        question:
+        "33. What name is given to a triangle which has all its sides equal?          (BECE 2015 Q27)",
+        options: [
+          "Isosceles triangle",
+          "Scalene triangle",
+          "Equilateral triangle",
+          "Right-angle triangle",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A triangle with all three sides equal is called an equilateral triangle.",
       ),
 
       QuizQuestion(
-          question: r"47. Given that \(0.03 \times y = 2.4\), find the value of \(y\).          (BECE 2025 Q22)",
-          options: [
-            r"\(0.08\)",
-            r"\(0.8\)",
-            r"\(8.0\)",
-            r"\(80.0\)"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: r"Divide both sides by \(0.03\): \(y = \frac{2.4}{0.03} = 80\)."
+        question:
+        r"34. A rectangular field \(50\text{ m}\) wide and \(y\text{ m}\) long requires \(260\text{ m}\) of fencing. Find \(y\).          (BECE 2015 Q29)",
+        options: [
+          r"15\text{ m}",
+          r"40\text{ m}",
+          r"80\text{ m}",
+          r"105\text{ m}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The fencing represents the perimeter. Thus, \(2(50 + y) = 260\). Therefore, \(50 + y = 130\) and \(y = 80\text{ m}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "35. Kwame is facing west. Through how many degrees should he turn anti-clockwise to face north?          (BECE 2015 Q32)",
+        options: [
+          r"90^\circ",
+          r"180^\circ",
+          r"270^\circ",
+          r"360^\circ",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"An anti-clockwise turn from west passes through south and east before reaching north. This is a turn of \(270^\circ\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "36. How many lines of symmetry has a rectangle?          (BECE 2016 Q26)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rectangle has two lines of symmetry.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"37. The perimeter of an isosceles triangle is \(45\text{ cm}\). Find the length of the third side, if each of the equal sides is \(14\text{ cm}\) long.          (BECE 2016 Q27)",
+        options: [
+          r"11\text{ cm}",
+          r"14\text{ cm}",
+          r"17\text{ cm}",
+          r"31\text{ cm}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The two equal sides have a total length of \(14 + 14 = 28\text{ cm}\). The third side is \(45 - 28 = 17\text{ cm}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"38. The bearing of \(X\) from \(Y\) is \(196^\circ\). What is the bearing of \(Y\) from \(X\)?          (BECE 2016 Q37)",
+        options: [
+          r"016^\circ",
+          r"074^\circ",
+          r"106^\circ",
+          r"244^\circ",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Subtract \(180^\circ\) from the given bearing: \(196^\circ - 180^\circ = 016^\circ\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "39. How many lines of symmetry does a rhombus have?          (BECE 2017 Q1)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A rhombus has two lines of symmetry along its diagonals.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"40. The perimeter of a rectangle is \(26\text{ cm}\). If its length is \(10\text{ cm}\), find its area.          (BECE 2018 Q19)",
+        options: [
+          r"30\text{ cm}^2",
+          r"60\text{ cm}^2",
+          r"130\text{ cm}^2",
+          r"160\text{ cm}^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Since \(2(l + w) = 26\), \(l + w = 13\). Therefore, \(w = 13 - 10 = 3\text{ cm}\), and the area is \(10 \times 3 = 30\text{ cm}^2\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "41. How many lines of symmetry has a rhombus?          (BECE 2018 Q33)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A rhombus has two lines of symmetry along its diagonals.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"42. The bearing of \(P\) from \(Q\) is \(060^\circ\). Find the bearing of \(Q\) from \(P\).          (BECE 2018 Q39)",
+        options: [
+          r"120^\circ",
+          r"150^\circ",
+          r"210^\circ",
+          r"240^\circ",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Add \(180^\circ\) to find the reverse bearing: \(060^\circ + 180^\circ = 240^\circ\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "43. How many lines of symmetry has a square?          (BECE 2019 Q6)",
+        options: [
+          "0",
+          "1",
+          "2",
+          "4",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A square has four lines of symmetry.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"44. The two sides of a parallelogram are \(4.8\text{ m}\) and \(7.2\text{ m}\) long. Find its perimeter.          (BECE 2019 Q14)",
+        options: [
+          r"48.0\text{ m}",
+          r"34.6\text{ m}",
+          r"24.0\text{ m}",
+          r"17.3\text{ m}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The perimeter is \(2(4.8 + 7.2) = 2 \times 12 = 24.0\text{ m}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"45. If the bearing of \(A\) from \(B\) is \(240^\circ\), find the bearing of \(B\) from \(A\).          (BECE 2019 Q16)",
+        options: [
+          r"040^\circ",
+          r"060^\circ",
+          r"120^\circ",
+          r"300^\circ",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Subtract \(180^\circ\) from the given bearing: \(240^\circ - 180^\circ = 060^\circ\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "46. Which of the following polygons does not have a line of symmetry?          (BECE 2020 Q9)",
+        options: [
+          "Kite",
+          "Isosceles triangle",
+          "Trapezium",
+          "Rhombus",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A general trapezium does not have a line of symmetry. A kite and an isosceles triangle each have one, while a rhombus has two.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"47. Two sides of a parallelogram are \(5.8\text{ m}\) and \(8.2\text{ m}\) long. Find its perimeter.          (BECE 2020 Q22)",
+        options: [
+          r"14.0\text{ m}",
+          r"36.6\text{ m}",
+          r"28.0\text{ m}",
+          r"47.6\text{ m}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The perimeter is \(2(5.8 + 8.2) = 2 \times 14 = 28.0\text{ m}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"48. Two sides of a rectangle are \(10\text{ cm}\) and \(6\text{ cm}\). Calculate the area of a square with the same perimeter as that of the rectangle.          (BECE 2020 Q36)",
+        options: [
+          r"16\text{ cm}^2",
+          r"30\text{ cm}^2",
+          r"60\text{ cm}^2",
+          r"64\text{ cm}^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The rectangle's perimeter is \(2(10 + 6) = 32\text{ cm}\). The square's side is \(32 \div 4 = 8\text{ cm}\), so its area is \(8^2 = 64\text{ cm}^2\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"49. The area of a rectangle is \(18\text{ cm}^2\). If one of its sides is \(2\text{ cm}\) long, find its perimeter.          (BECE 2021 Q10)",
+        options: [
+          r"18\text{ cm}",
+          r"20\text{ cm}",
+          r"22\text{ cm}",
+          r"36\text{ cm}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The other side is \(18 \div 2 = 9\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"50. What is the length of the side of a square of area \(225\text{ cm}^2\)?          (BECE 2022 Q14)",
+        options: [
+          r"12.00\text{ cm}",
+          r"15.00\text{ cm}",
+          r"56.25\text{ cm}",
+          r"112.50\text{ cm}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The side length is the square root of the area: \(\sqrt{225} = 15\text{ cm}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "51. A football match starts at 2:20 p.m. and lasts for 1 hour 50 minutes. At what time will the game end?          (BECE 2022 Q21)",
+        options: [
+          "3:10 p.m.",
+          "4:10 p.m.",
+          "5:10 p.m.",
+          "6:10 p.m.",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Adding 1 hour to 2:20 p.m. gives 3:20 p.m. Adding another 50 minutes gives 4:10 p.m.",
+      ),
+
+      QuizQuestion(
+        question:
+        "52. Which of the following is not a quadrilateral?          (BECE 2022 Q35)",
+        options: [
+          "Parallelogram",
+          "Rhombus",
+          "Triangle",
+          "Rectangle",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A triangle has three sides, while a quadrilateral has four sides.",
+      ),
+
+      QuizQuestion(
+        question:
+        "53. A quadrilateral with one pair of opposite sides parallel is called a:          (BECE 2023 Q3)",
+        options: [
+          "Trapezium",
+          "Kite",
+          "Square",
+          "Rectangle",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "A trapezium is a quadrilateral with one pair of opposite sides parallel.",
       ),
     ],
   ),
@@ -4106,19 +5124,3951 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Behaviours Considered as Good Manners": QuizModel(
+  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance": QuizModel(
     audioPath: '',
     questions: [
-      QuizQuestion(question: "1. Which of these is considered a good manner in Ghana?", options: ["Interrupting elders when they speak", "Greeting elders before speaking to them", "Refusing to eat offered food", "Speaking loudly in public places"], correctIndex: 1, difficulty: "Easy", explanation: "Greeting elders first is a sign of deep respect in Ghanaian culture."),
-      QuizQuestion(question: "2. 'Decency' in behaviour means:", options: ["Dressing to attract attention", "Acting appropriately and respectfully in all situations", "Speaking as loudly as possible", "Ignoring cultural values"], correctIndex: 1, difficulty: "Easy", explanation: "Decency involves proper, respectful conduct appropriate to context."),
-      QuizQuestion(question: "3. Which religious teaching emphasises treating others as you want to be treated?", options: ["The Golden Rule", "The Apostles' Creed", "The Five Pillars", "The Ten Commandments"], correctIndex: 0, difficulty: "Medium", explanation: "The Golden Rule is found across major religions and promotes mutual respect."),
-      QuizQuestion(question: "4. 'Chastity' in moral teaching refers to:", options: ["Fasting for long periods", "Abstaining from sexual immorality and maintaining purity", "Giving money to the poor", "Attending religious services"], correctIndex: 1, difficulty: "Medium", explanation: "Chastity involves sexual morality and purity as taught in many religions."),
-      QuizQuestion(question: "5. Which body language shows disrespect to an elder in Ghanaian culture?", options: ["Standing up when they enter", "Responding to a greeting", "Looking away or refusing eye contact when being corrected", "Greeting them with both hands"], correctIndex: 2, difficulty: "Medium", explanation: "Avoiding eye contact during communication is often culturally disrespectful."),
-      QuizQuestion(question: "6. The importance of good manners in society includes:", options: ["Creating conflict and misunderstanding", "Promoting peaceful coexistence and social harmony", "Making people feel superior", "Restricting freedom of expression"], correctIndex: 1, difficulty: "Easy", explanation: "Good manners create an environment of mutual respect and peaceful living."),
-      QuizQuestion(question: "7. Which of these is an example of decency in dressing?", options: ["Wearing very revealing clothes to a funeral", "Dressing appropriately for each occasion", "Wearing only expensive branded clothing", "Copying every fashion trend"], correctIndex: 1, difficulty: "Easy", explanation: "Decent dressing means choosing attire appropriate to the occasion and setting."),
-      QuizQuestion(question: "8. According to religious teaching, why should believers practice good manners?", options: ["To show off to others", "Because religious texts and leaders emphasise moral conduct", "To be popular in school", "To avoid punishment from society"], correctIndex: 1, difficulty: "Medium", explanation: "Religious scriptures and leaders teach that moral behaviour pleases God and benefits society."),
-      QuizQuestion(question: "9. Peer pressure can NEGATIVELY affect good manners by:", options: ["Encouraging regular prayer", "Pushing individuals toward bad behaviour to fit in", "Promoting academic excellence", "Teaching respect for elders"], correctIndex: 1, difficulty: "Medium", explanation: "Negative peer pressure can lead individuals to abandon moral values to gain acceptance."),
-      QuizQuestion(question: "10. Which practical skill helps a person RESIST pressure to behave badly?", options: ["Following every trend", "Saying 'No' confidently and walking away", "Keeping silent always", "Arguing back aggressively"], correctIndex: 1, difficulty: "Hard", explanation: "Confidently refusing and removing yourself from harmful situations is a key defensive skill."),
+      QuizQuestion(
+          question: "1. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q18)",
+          options: [
+            "Acknowledge the presence of the gods",
+            "Bring the citizens together",
+            "Raise funds to develop the community",
+            "Contract marriages"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Traditional festivals have religious significance because they acknowledge the presence and influence of the gods and ancestors."
+      ),
+
+      QuizQuestion(
+          question: "2. Which of the following festivals is a harvest festival?\n(BECE 2005 Q39)",
+          options: [
+            "Adae",
+            "Hogbetsotso",
+            "Odwira",
+            "Aboakyer"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Odwira is celebrated partly to give thanks for the harvest and to purify the community."
+      ),
+
+      QuizQuestion(
+          question: "3. The festival celebrated by the people of Winneba is\n(BECE 2017 Q9)",
+          options: [
+            "Aboakyer",
+            "Bakatue",
+            "Durbar",
+            "Gmayem"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The Effutu people of Winneba celebrate the Aboakyer festival."
+      ),
+
+      QuizQuestion(
+          question: "4. The main purpose of the Odwira festival is to\n(BECE 2006 Q5)",
+          options: [
+            "Remember the dead",
+            "Purify the state",
+            "Strengthen the unity of the people",
+            "Pay homage to the chief"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Odwira is primarily a purification festival celebrated to cleanse the state and its people."
+      ),
+
+      QuizQuestion(
+          question: "5. The main reason for celebrating the Homowo festival is to\n(BECE 2012 Q10)",
+          options: [
+            "Look for twins",
+            "Hoot at hunger",
+            "Visit the shrines",
+            "Sprinkle spiritual food"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Homowo means 'hooting at hunger' and commemorates the end of a severe famine among the Ga people."
+      ),
+
+      QuizQuestion(
+          question: "6. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2016 Q11)",
+          options: [
+            "Mark Abraham's willingness to sacrifice his son to Allah",
+            "Remember the birth of Prophet Muhammad",
+            "Remember the death of Prophet Muhammad",
+            "Mark the end of Ramadan"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."
+      ),
+
+      QuizQuestion(
+          question: "7. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q8)",
+          options: [
+            "Christmas",
+            "Palm Sunday",
+            "Good Friday",
+            "Easter"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Easter commemorates the resurrection of Jesus Christ from the dead."
+      ),
+
+      QuizQuestion(
+          question: "8. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2017 Q10)",
+          options: [
+            "Christmas",
+            "Palm Sunday",
+            "Good Friday",
+            "Easter"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Easter celebrates Christ's resurrection, which represents victory over sin and death and the salvation of believers."
+      ),
+
+      QuizQuestion(
+          question: "9. The Damba festival is celebrated to mark the\n(BECE 2001 Q5)",
+          options: [
+            "End of the agricultural year",
+            "Migration of the ethnic group",
+            "Founder of the Mole-Dagbon",
+            "Birthday of the Holy Prophet"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The Damba festival is traditionally associated with the birth of Prophet Muhammad."
+      ),
+
+      QuizQuestion(
+          question: "10. One of the best advantages of celebrating festivals is to\n(BECE 2001 Q18)",
+          options: [
+            "Come together to fight one's enemies",
+            "Help organise funerals well",
+            "Train the youth in defending the community",
+            "Continue with the tradition"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Celebrating festivals helps preserve and transmit the customs and traditions of a community."
+      ),
+
+      QuizQuestion(
+          question: "11. Eid-ul-Fitr celebration teaches Muslims to\n(BECE 1999 Q18)",
+          options: [
+            "Submit to Allah",
+            "Give alms",
+            "Sacrifice themselves to God",
+            "Appreciate God's mercy"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Eid-ul-Fitr encourages Muslims to thank Allah and appreciate His mercy after completing the Ramadan fast."
+      ),
+
+      QuizQuestion(
+          question: "12. The Muslim festival of sacrifice is\n(BECE 2001 Q5)",
+          options: [
+            "Eid-ul-Fitr",
+            "Milad-un-Nabi",
+            "Ramadan",
+            "Eid-ul-Adha"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Eid-ul-Adha is known as the Festival of Sacrifice."
+      ),
+
+      QuizQuestion(
+          question: "13. The Denkyira Asafo Company is associated with the festival of\n(BECE 2001 Q17)",
+          options: [
+            "Homowo",
+            "Aboakyer",
+            "Odwira",
+            "Akwambo"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The Denkyira Asafo Company takes part in the Aboakyer festival celebrated by the Effutu people of Winneba."
+      ),
+
+      QuizQuestion(
+          question: "14. Which of the following festivals helps to develop the strength and vitality of the youth?\n(BECE 2001 Q17)",
+          options: [
+            "Hogbetsotso",
+            "Odwira",
+            "Damba",
+            "Aboakyer"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The deer-hunting activities of Aboakyer test and develop the strength, courage and vitality of the youth."
+      ),
+
+      QuizQuestion(
+          question: "15. Which of the following traditional festivals is used for cleansing and purification of the people?\n(BECE 2009 Q9)",
+          options: [
+            "Adae Kese",
+            "Akwambo",
+            "Kundum",
+            "Odwira"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Odwira is a purification festival used to cleanse the people and the traditional state."
+      ),
+
+      QuizQuestion(
+          question: "16. The Hogbetsotso festival is celebrated to mark the\n(BECE 2011 Q9)",
+          options: [
+            "Death of King Agorkorli",
+            "End of the farming season",
+            "Migration of the Ewes",
+            "End of famine among the Ga-Adangme"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Hogbetsotso commemorates the migration and escape of the Anlo-Ewe people from Notsie."
+      ),
+
+      QuizQuestion(
+          question: "17. An important religious value of traditional festivals is to\n(BECE 2011 Q13)",
+          options: [
+            "Acknowledge the presence of the ancestors",
+            "Settle disputes among families",
+            "Bring citizens together to sacrifice",
+            "Hoot at hunger"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Traditional festivals provide an opportunity to honour and acknowledge the presence of the ancestors."
+      ),
+
+      QuizQuestion(
+          question: "18. The 11th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar. During this period,Muslims the world over, which are financially sound are expected to make sacrifice of sheep to Allah.\n(BECE 2013 Q12)",
+          options: [
+            "Adae",
+            "Hogbetsotso",
+            "Odwira",
+            "Eid-ul-Adha"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Eid-ul-Adha is celebrated during Zul-Hijjah and involves the sacrifice of an animal by Muslims who can afford it."
+      ),
+
+      QuizQuestion(
+          question: "19. The most important rite in an Islamic marriage is the\n(BECE 2001 Q34)",
+          options: [
+            "Presentation of household utensils to the bride",
+            "Delivery of a wedding sermon during the feast",
+            "Payment of the dowry",
+            "Celebration of the marriage feast"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The payment of the mahr, or dowry, is an essential requirement of a valid Islamic marriage."
+      ),
+
+      QuizQuestion(
+          question: "20. A naming ceremony gives the new baby\n(BECE 2002 Q10)",
+          options: [
+            "Identity within the community",
+            "Reunion with the family",
+            "Reunion with the community",
+            "A position in the family"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A naming ceremony formally identifies and introduces the child to the family and community."
+      ),
+
+      QuizQuestion(
+          question: "21. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
+          options: [
+            "Helps the dead to join the ancestors",
+            "Avoids more deaths in the family",
+            "Opens the way for the dead to go to heaven",
+            "Enables the dead to resurrect on the last day"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "In traditional belief, properly performed funeral rites help the deceased enter the ancestral world."
+      ),
+
+      QuizQuestion(
+          question: "22. In traditional society, people with traditional authority perform the naming ceremony because it is believed that\n(BECE 2002B Q8)",
+          options: [
+            "They will get a lot of money from the family",
+            "The child will follow in their footsteps",
+            "They will help the parents of the child",
+            "It is their duty to ensure that the child is named"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Traditional authorities are responsible for formally naming and welcoming the child into the community."
+      ),
+
+      QuizQuestion(
+          question: "23. Gifts given to girls during puberty rites enable them to\n(BECE 2002B Q23)",
+          options: [
+            "Buy their clothing",
+            "Cook a meal for their husbands",
+            "Maintain their friends",
+            "Obtain cooking utensils"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Puberty-rite gifts often include household and cooking utensils to prepare girls for adult and family responsibilities."
+      ),
+
+      QuizQuestion(
+          question: "24. In traditional society, rites of passage involve a\n(BECE 2003 Q7)",
+          options: [
+            "Transition from death to becoming an ancestor",
+            "Life-cycle movement from one stage to another",
+            "Transition from death to reincarnation",
+            "Period during which health is tested"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Rites of passage mark important transitions from one stage of life to another."
+      ),
+
+      QuizQuestion(
+          question: "25. By creating Adam and Eve, God was establishing the institution of\n(BECE 2003 Q11)",
+          options: [
+            "Comportment",
+            "Brotherliness",
+            "Friendship",
+            "Marriage"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The creation and union of Adam and Eve established the institution of marriage."
+      ),
+
+      QuizQuestion(
+          question: "26. The cutlass given to a boy during puberty rites signifies\n(BECE 2003 Q32)",
+          options: [
+            "Acceptance into the military sector",
+            "Bravery and courage",
+            "Readiness to defend the community",
+            "Working to maintain himself and the family"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The cutlass represents the young person's responsibility to work and provide for himself and his future family."
+      ),
+
+      QuizQuestion(
+          question: "27. During naming ceremonies, the baby is given drops of water and wine to signify that he or she should be\n(BECE 2004 Q15)",
+          options: [
+            "Truthful",
+            "Patient",
+            "Brave",
+            "Obedient"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Water and wine are used to teach the child to distinguish truth from falsehood and always speak the truth."
+      ),
+
+      QuizQuestion(
+          question: "28. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
+          options: [
+            "She is between fifteen and seventeen years old",
+            "She first experiences menstruation",
+            "Her breasts develop",
+            "She finds a boyfriend"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Among the Akan, a girl's first menstruation indicates that she has reached puberty and qualifies for puberty rites."
+      ),
+
+      QuizQuestion(
+          question: "29. The most important prayer request during marriage rites is for\n(BECE 2004 Q30)",
+          options: [
+            "Prosperity and wealth",
+            "Protection and long life",
+            "Good health and protection",
+            "Long life and children"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Prayers during marriage rites commonly ask for long life and children for the couple."
+      ),
+
+      QuizQuestion(
+          question: "30. The transition between childhood and adulthood is termed\n(BECE 2005 Q20)",
+          options: [
+            "Outdooring",
+            "Adolescence",
+            "Puberty",
+            "Confirmation"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Adolescence is the transitional period between childhood and adulthood."
+      ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. The main role of the father is to\n(BECE 2003 Q21)",
+          options: [
+            "Cook for the family",
+            "Make sure the children work",
+            "Make sure the water in the house is kept clean",
+            "Provide shelter for the family"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "One of the main responsibilities of a father is to provide shelter and other basic needs for the family."
+      ),
+
+      QuizQuestion(
+          question: "2. Social conflicts can best be resolved by\n(BECE 2012 Q36)",
+          options: [
+            "Obeying the scriptures",
+            "Being principled and humble",
+            "Being authoritative and principled",
+            "Tolerating and forgiving others"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Tolerance and forgiveness help people settle disagreements peacefully and restore good relationships."
+      ),
+
+      QuizQuestion(
+          question: "3. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
+          options: [
+            "Grandfather",
+            "Mother",
+            "Uncle",
+            "Father"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Traditionally, the father is mainly responsible for providing the financial needs of the family."
+      ),
+
+      QuizQuestion(
+          question: "4. The best way to live in peace in a community is to\n(BECE 2000 Q33)",
+          options: [
+            "Understand and cooperate with others",
+            "Disagree with your enemies",
+            "Be afraid of those in authority",
+            "Enter into conflicts with neighbours"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Understanding and cooperating with others promote peaceful and harmonious community life."
+      ),
+
+      QuizQuestion(
+          question: "5. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
+          options: [
+            "Faithful",
+            "Obedient",
+            "Polite",
+            "Sincere"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Avoiding bad company shows obedience to good moral instruction from parents and other responsible adults."
+      ),
+
+      QuizQuestion(
+          question: "6. Which of the following is an advantage of the extended family?\n(BECE 2017 Q24)",
+          options: [
+            "Members have privacy",
+            "It provides security for its members",
+            "Over-reliance on a few rich people",
+            "Persistence of disputes"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The extended family provides support, care and security for its members."
+      ),
+
+      QuizQuestion(
+          question: "7. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
+          options: [
+            "The uncle inherits the father's property",
+            "The children are cared for by members of the family",
+            "Old people are sent to old people's homes",
+            "Girls become maidservants of their aunties"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Members of the extended family share responsibility for caring for children."
+      ),
+
+      QuizQuestion(
+          question: "8. The maintenance of law and order in the nuclear family is the responsibility of\n(BECE 2017 Q30)",
+          options: [
+            "Parents",
+            "Grandparents",
+            "Children",
+            "A diviner"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Parents establish and enforce rules that maintain order and discipline in the nuclear family."
+      ),
+
+      QuizQuestion(
+          question: "9. One can promote good relationships and peaceful living by being\n(BECE 2001 Q6)",
+          options: [
+            "Violent and respectful",
+            "Respectful and obedient",
+            "Helpful only to relatives",
+            "Kind and vocal"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Respect and obedience promote cooperation, harmony and peaceful relationships."
+      ),
+
+      QuizQuestion(
+          question: "10. In order to live in harmony with family members, we must be\n(BECE 2012 Q37)",
+          options: [
+            "Brave",
+            "Courageous",
+            "Dutiful",
+            "Faithful"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Being dutiful means carrying out one's responsibilities, which helps the family live in harmony."
+      ),
+
+      QuizQuestion(
+          question: "11. A child who apologizes for committing an offence is said to be\n(BECE 2011 Q28)",
+          options: [
+            "Knowledgeable",
+            "Intelligent",
+            "Law-abiding",
+            "Obedient"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Apologizing after wrongdoing shows obedience, humility and willingness to correct one's behaviour."
+      ),
+
+      QuizQuestion(
+          question: "12. Conflicts in our society can best be resolved by\n(BECE 2000 Q34)",
+          options: [
+            "Being obedient to truants",
+            "Obeying the scriptures",
+            "Being authoritative and proud",
+            "Tolerating and forgiving others"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Tolerance and forgiveness are important values for resolving conflicts peacefully."
+      ),
+
+      QuizQuestion(
+          question: "13. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
+          options: [
+            "That children attend school regularly",
+            "Good behaviour",
+            "Proper maintenance of school property",
+            "That children do their assignments"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "School rules guide pupils toward good behaviour and discipline."
+      ),
+
+      QuizQuestion(
+          question: "14. Children who are obedient and live a good life are\n(BECE 2011 Q31)",
+          options: [
+            "A joy to society",
+            "Praised by all people",
+            "Known to be sent to school",
+            "Sent to the elderly"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Obedient and morally upright children contribute positively to society."
+      ),
+
+      QuizQuestion(
+          question: "15. School rules are obeyed in order to\n(BECE 2008 Q28)",
+          options: [
+            "Achieve success in sports",
+            "Have good people in the community",
+            "Promote peace in the school",
+            "Achieve distinctions in examinations"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Obeying school rules promotes discipline, order and peace within the school."
+      ),
+
+      QuizQuestion(
+          question: "16. Which of the following does not promote progress in a society?\n(BECE 2001 Q21)",
+          options: [
+            "Conflicts",
+            "Reconciliation",
+            "Respect",
+            "Tolerance"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Conflict disrupts unity and development, while reconciliation, respect and tolerance promote progress."
+      ),
+
+      QuizQuestion(
+          question: "17. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
+          options: [
+            "Get pupils punished",
+            "Encourage people to become good citizens",
+            "Create good conditions for work",
+            "Reward obedient pupils"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "School rules create an orderly and disciplined environment that supports teaching and learning."
+      ),
+
+      QuizQuestion(
+          question: "18. The nuclear family system consists of\n(BECE 2003 Q23)",
+          options: [
+            "Parents and grandchildren",
+            "Children and parents",
+            "Uncles, aunts, children and other relations",
+            "Grandparents, children and parents"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A nuclear family consists mainly of parents and their children."
+      ),
+
+      QuizQuestion(
+          question: "19. To live a life of obedience means being\n(BECE 2004 Q21)",
+          options: [
+            "Gentle, loving and generous",
+            "Respectful to parents",
+            "An honest and generous person",
+            "Respectful to others"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Obedience includes respecting and following the lawful instructions of parents."
+      ),
+
+      QuizQuestion(
+          question: "20. Which of the following is not true about the nuclear family?\n(BECE 2018 Q30)",
+          options: [
+            "Parents, children and grandparents are members",
+            "Parents and children are members",
+            "Siblings and cousins are members",
+            "Grandparents, parents and other relatives are members"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Cousins belong to the extended family rather than the nuclear family."
+      ),
+
+      QuizQuestion(
+          question: "21. Running errands for those in authority portrays the child as\n(BECE 2017 Q34)",
+          options: [
+            "Honest",
+            "Humble",
+            "Obedient",
+            "Sincere"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Carrying out lawful instructions and errands shows obedience."
+      ),
+
+      QuizQuestion(
+          question: "22. A father shows commitment to the family by\n(BECE 2011 Q28)",
+          options: [
+            "Being punctual at work and helping others",
+            "Travelling with his wife outside the country",
+            "Being steadfast in prayers and sacrifices",
+            "Treating all dependants with patience and tolerance"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "A committed father cares for all family dependants with patience, fairness and tolerance."
+      ),
+
+      QuizQuestion(
+          question: "23. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q36)",
+          options: [
+            "Obedient",
+            "Sincere",
+            "Strong",
+            "Truthful"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Following lawful instructions from the elderly is a sign of obedience."
+      ),
+
+      QuizQuestion(
+          question: "24. A family made up of a father, mother and grandparents is described as an\n(BECE 2016 Q21)",
+          options: [
+            "Extended family",
+            "Monogamous family",
+            "Nuclear family",
+            "Polygamous family"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The inclusion of grandparents makes it an extended family."
+      ),
+
+      QuizQuestion(
+          question: "25. A home where members learn their religion through oral sources is known as a\n(BECE 2018 Q29)",
+          options: [
+            "Christian home",
+            "Islamic home",
+            "Traditional home",
+            "Jewish home"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Traditional religion is mainly transmitted orally through stories, songs, proverbs and customs."
+      ),
+
+      QuizQuestion(
+          question: "26. One of a child's responsibilities in the home is to\n(BECE 1999 Q30)",
+          options: [
+            "Sweep the compound",
+            "Provide his or her clothing",
+            "Pay school fees",
+            "Pay hospital fees"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Children can contribute to household cleanliness by sweeping the compound."
+      ),
+
+      QuizQuestion(
+          question: "27. Human rights include all the following except\n(BECE 2000 Q27)",
+          options: [
+            "The right to life",
+            "Freedom of association",
+            "Freedom of worship",
+            "Administering instant justice"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Administering instant justice is not a human right and may violate lawful procedures."
+      ),
+
+      QuizQuestion(
+          question: "28. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+          options: [
+            "Work harder for it",
+            "Become democratic",
+            "Develop good skills in it",
+            "Build good and happy homes"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Love for the community encourages people to work hard for its progress and development."
+      ),
+
+      QuizQuestion(
+          question: "29. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+          options: [
+            "National Commission on Children",
+            "National Council for Women and Development",
+            "Commission on Human Rights and Administrative Justice",
+            "National Commission for Civic Education"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The Commission on Human Rights and Administrative Justice handles human-rights and administrative-justice matters in Ghana."
+      ),
+
+      QuizQuestion(
+          question: "30. Which of the following does not constitute a moral responsibility of a child?\n(BECE 2001 Q38)",
+          options: [
+            "Sweeping the classroom",
+            "Working on his or her plot",
+            "Worshipping God",
+            "Paying school fees"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Paying school fees is mainly the responsibility of parents or guardians."
+      ),
+
+      QuizQuestion(
+          question: "31. What contribution can a child make when a community school is being built?\n(BECE 2001 Q39)",
+          options: [
+            "Roofing the building",
+            "Fetching water and sand",
+            "Drawing up the building plan",
+            "Cheering the workers with songs"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Fetching water and sand is a safe and practical way a child can support a community building project."
+      ),
+
+      QuizQuestion(
+          question: "32. A patriotic citizen is a person who\n(BECE 2005 Q40)",
+          options: [
+            "Always helps the family",
+            "Practises personal hygiene",
+            "Always defends the nation",
+            "Always worships the Creator"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Patriotism involves loyalty to and willingness to defend one's country."
+      ),
+
+      QuizQuestion(
+          question: "33. As a child, your duties include all these except\n(BECE 2006 Q34)",
+          options: [
+            "Fetching water",
+            "Weeding the compound",
+            "Preparing meals",
+            "Paying fees"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Paying school fees is normally the responsibility of parents or guardians."
+      ),
+
+      QuizQuestion(
+          question: "34. One who loves his or her country\n(BECE 2007 Q31)",
+          options: [
+            "Always helps the needy",
+            "Practises personal hygiene",
+            "Defends the nation",
+            "Always worships God"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "A patriotic person demonstrates love and loyalty by defending and supporting the nation."
+      ),
+
+      QuizQuestion(
+          question: "35. The best way to live in peace in a community is to\n(BECE 2012 Q31)",
+          options: [
+            "Sit on the fence",
+            "Keep to oneself always",
+            "Understand and cooperate with others",
+            "Enter into conflict with neighbours"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Understanding and cooperation help prevent conflict and promote peaceful coexistence."
+      ),
+
+      QuizQuestion(
+          question: "36. Youth camps are organized purposely for the youth to\n(BECE 1999 Q27)",
+          options: [
+            "Fend for themselves",
+            "Find their parents",
+            "Learn to socialize",
+            "Run away from household chores"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Youth camps help young people interact, cooperate and develop social skills."
+      ),
+
+      QuizQuestion(
+          question: "37. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+          options: [
+            "Serving God and the nation",
+            "Leading a disciplined life",
+            "Being law-abiding",
+            "Using violence to demand rights"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Religious youth organizations promote discipline and peaceful conduct, not violence."
+      ),
+
+      QuizQuestion(
+          question: "38. One important aim of a youth organization is to\n(BECE 2000 Q29)",
+          options: [
+            "Bring unity among the youth",
+            "Learn dancing and merry-making",
+            "Let the youth live on their own and look for jobs",
+            "Oppose the views of the elderly"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Youth organizations promote unity, cooperation and fellowship among young people."
+      ),
+
+      QuizQuestion(
+          question: "39. One good reason for the establishment of the Catholic Youth Organization is to\n(BECE 2005 Q15)",
+          options: [
+            "Serve as soldiers to defend the church",
+            "Foster unity among priests",
+            "Perform cultural dances in the church",
+            "Teach the youth about the traditions of the church"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The Catholic Youth Organization helps young Catholics learn the teachings, values and traditions of the Church."
+      ),
+
+      QuizQuestion(
+          question: "40. The spirit of patriotism is shown best by the youth of the\n(BECE 2009 Q32)",
+          options: [
+            "Young People's Guild",
+            "Catholic Youth Organization",
+            "Ahmadiyya Muslim Youth",
+            "Asafo Company"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Asafo companies traditionally defend and serve their communities, demonstrating courage and patriotism."
+      ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. Prophet Mohammed’s twelfth birthday is important because\n(BECE 2000 Q15)",
+          options: [
+            "There was a prophecy about his future.",
+            "Halimah returned him to his parents.",
+            "Amina passed away.",
+            "Abdul Mutalib died."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Abdul Mutalib, Prophet Mohammed's grandfather, died when Mohammed was twelve years old."
+      ),
+
+      QuizQuestion(
+          question: "2. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
+          options: [
+            "They are in the subsistence economy.",
+            "They use cowries for diagnosis.",
+            "Local herbs and plants are used.",
+            "It will weaken the power of the medicine."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Traditional healers mainly use locally available herbs and plants, making treatment inexpensive."
+      ),
+
+      QuizQuestion(
+          question: "3. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
+          options: [
+            "Abraham",
+            "Isaac",
+            "Jacob",
+            "Noah"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The biblical patriarchs are Abraham, Isaac and Jacob."
+      ),
+
+      QuizQuestion(
+          question: "4. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q2)",
+          options: [
+            "Halimah.",
+            "Abdul Mutalib.",
+            "Khadijah.",
+            "Abu Talib."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "After the death of Abdul Mutalib, Prophet Mohammed was cared for by his uncle Abu Talib."
+      ),
+
+      QuizQuestion(
+          question: "5. A Muslim is a person who\n(BECE 2001 Q12)",
+          options: [
+            "Is at peace with God and his neighbour.",
+            "Can recite the whole Qur’an.",
+            "Fasts during the Ramadan.",
+            "Visits Mecca every year."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A Muslim is one who submits to Allah and lives in peace with God and fellow human beings."
+      ),
+
+      QuizQuestion(
+          question: "6. The second Caliph was\n(BECE 2003 Q4)",
+          options: [
+            "Umar.",
+            "Abu Bakr.",
+            "Ali.",
+            "Uthman."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Umar ibn Al-Khattab was the second rightly guided Caliph."
+      ),
+
+      QuizQuestion(
+          question: "7. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
+          options: [
+            "A strong believer in the principles and teaching of Islam.",
+            "Lover of Islam.",
+            "Defender of faith.",
+            "One who can differentiate between right and wrong."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Al-Faruq means one who distinguishes between truth and falsehood."
+      ),
+
+      QuizQuestion(
+          question: "8. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
+          options: [
+            "See God.",
+            "Obtain mercy.",
+            "Inherit the earth.",
+            "Be called the children of God."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "According to the Beatitudes, the merciful shall obtain mercy."
+      ),
+
+      QuizQuestion(
+          question: "9. The blind man Jesus healed was called\n(BECE 2000 Q17)",
+          options: [
+            "Bartholomew.",
+            "Barabbas.",
+            "Bartimaeus.",
+            "Nicodemus."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Jesus healed blind Bartimaeus near Jericho."
+      ),
+
+      QuizQuestion(
+          question: "10. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
+          options: [
+            "12",
+            "25",
+            "30",
+            "33"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Jesus began His public ministry when He was about thirty years old."
+      ),
+
+      QuizQuestion(
+          question: "11. The sermon on the Mount was delivered by\n(BECE 2002B Q6)",
+          options: [
+            "Jesus.",
+            "Moses.",
+            "Joshua.",
+            "Paul."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Jesus delivered the famous Sermon on the Mount."
+      ),
+
+      QuizQuestion(
+          question: "12. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
+          options: [
+            "Ascension Day",
+            "Good Friday",
+            "Easter Sunday",
+            "Palm Sunday"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Jesus rose from the dead on Easter Sunday."
+      ),
+
+      QuizQuestion(
+          question: "13. ... can be found in the book of\n(BECE 2002A Q19)",
+          options: [
+            "Genesis, Exodus and Numbers.",
+            "Exodus, Deuteronomy and Leviticus.",
+            "Genesis, Deuteronomy and Numbers.",
+            "Exodus, Leviticus and Deuteronomy."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Answer based on the provided BECE source."
+      ),
+
+      QuizQuestion(
+          question: "14. In Islam if one is pious it means he\n(BECE 2002B Q13)",
+          options: [
+            "Sees God.",
+            "Reads about God.",
+            "Understands God.",
+            "Fears God."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Piety (Taqwa) means fearing Allah and obeying Him."
+      ),
+
+      QuizQuestion(
+          question: "15. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
+          options: [
+            "Jesus Christ",
+            "Paul",
+            "Peter",
+            "John the Baptist"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "John the Baptist preached repentance and urged people to bear fruits worthy of repentance."
+      ),
+
+      QuizQuestion(
+          question: "16. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
+          options: [
+            "Courage.",
+            "Tolerance.",
+            "Truthfulness.",
+            "Generosity."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "As-Siddiq means 'the truthful one'."
+      ),
+
+      QuizQuestion(
+          question: "17. All those who took custody of Prophet Mohammed were happy with him because he\n(BECE 2002B Q7)",
+          options: [
+            "Had a unique character.",
+            "Was a hardworking young man.",
+            "Was an orphan at a tender age.",
+            "Was prayerful."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Prophet Mohammed was loved because of his excellent character."
+      ),
+
+      QuizQuestion(
+          question: "18. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
+          options: [
+            "Visited the shrine always.",
+            "Offered sacrifices to the gods.",
+            "Died a natural death.",
+            "Married the widow of another man."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "In African Traditional Religion, dying a natural and honourable death is a requirement for becoming an ancestor."
+      ),
+
+      QuizQuestion(
+          question: "19. The moral lesson from the life of Prophet Mohammed that one should emulate is the habit of\n(BECE 2008 Q15)",
+          options: [
+            "Faithfulness.",
+            "Punctuality.",
+            "Truthfulness.",
+            "Sacrifice."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Prophet Mohammed was widely known for his truthfulness."
+      ),
+
+      QuizQuestion(
+          question: "20. Caliph Abubakar led prayers in the lifetime of Prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
+          options: [
+            "Was tired.",
+            "Was sick.",
+            "Wanted to test him.",
+            "Had travelled."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Prophet Mohammed asked Abu Bakr to lead the prayers during his illness."
+      ),
+      QuizQuestion(
+          question: "21. \"Blessed are the meek for they shall\"\n(BECE 2008 Q17)",
+          options: [
+            "Obtain mercy.",
+            "See God.",
+            "Inherit the earth.",
+            "Be satisfied."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "According to the Beatitudes, the meek shall inherit the earth."
+      ),
+
+      QuizQuestion(
+          question: "22. The washing of the feet of His disciples offers a lesson in\n(BECE 2008 Q20)",
+          options: [
+            "Expressing love to others.",
+            "Rendering service to others.",
+            "Being helpful to others.",
+            "Obedience to others."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Jesus washed His disciples' feet to teach humility and service."
+      ),
+
+      QuizQuestion(
+          question: "23. The dreams of Joseph focused on\n(BECE 2009 Q6)",
+          options: [
+            "Leadership.",
+            "Friendship.",
+            "Mastership.",
+            "Stewardship."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Joseph's dreams revealed that he would become a leader over his family."
+      ),
+
+      QuizQuestion(
+          question: "24. Torgbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
+          options: [
+            "Token to be worshipped.",
+            "Powerful instrument of divination.",
+            "Foundation stone for shrines.",
+            "Present to the kings for their fight."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Torgbe Tsali's jaws became a powerful instrument of divination."
+      ),
+
+      QuizQuestion(
+          question: "25. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
+          options: [
+            "Becomes a born-again Christian.",
+            "Takes many wives.",
+            "Does not give birth to children.",
+            "Misuses stool property."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "A chief may be destooled for misusing stool property."
+      ),
+
+      QuizQuestion(
+          question: "26. The immediate cause of Mohammed’s departure to Medina was\n(BECE 2009 Q13)",
+          options: [
+            "Invitation from Yathrib.",
+            "Harsh conditions in Mecca.",
+            "Plan to kill him.",
+            "Desire to spread Islam."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The Quraysh planned to kill Prophet Mohammed, leading to the Hijrah."
+      ),
+
+      QuizQuestion(
+          question: "27. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
+          options: [
+            "Matthew and James",
+            "Simon and Andrew",
+            "Peter and John",
+            "Paul and Barnabas"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Paul and Barnabas were not among Jesus' original twelve disciples."
+      ),
+
+      QuizQuestion(
+          question: "28. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
+          options: [
+            "Love for God and one's neighbour.",
+            "Obedience to parents and the elderly.",
+            "Observing the Sabbath and keeping it holy.",
+            "Worshipping only God and not gods."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Jesus summarized the commandments as loving God and loving one's neighbour."
+      ),
+
+      QuizQuestion(
+          question: "29. \"Blessed are the peacemakers for they shall\"\n(BECE 2011 Q7)",
+          options: [
+            "See God.",
+            "Be called sons of God.",
+            "Inherit the earth.",
+            "Obtain mercy."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The Beatitudes say peacemakers shall be called the children of God."
+      ),
+
+      QuizQuestion(
+          question: "30. The name Moses means\n(BECE 2011 Q8)",
+          options: [
+            "Washed in water.",
+            "Drawn out of water.",
+            "Abandoned with water.",
+            "Baptised with water."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Moses means 'drawn out of water' because Pharaoh's daughter drew him from the Nile."
+      ),
+
+      QuizQuestion(
+          question: "31. Which of the following disciples of Jesus was a tax collector?\n(BECE 2011 Q19)",
+          options: [
+            "Bartholomew",
+            "Joseph and John",
+            "Peter and Matthew",
+            "Judas and Thomas"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Matthew was a tax collector before becoming a disciple of Jesus."
+      ),
+
+      QuizQuestion(
+          question: "32. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
+          options: [
+            "Linguist",
+            "Gong-gong beater",
+            "Chief priest",
+            "Fetish priest"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "The chief priest is responsible for enforcing morality and religious customs."
+      ),
+
+      QuizQuestion(
+          question: "33. God made a covenant with\n(BECE 2003 Q6)",
+          options: [
+            "Isaac.",
+            "Abraham.",
+            "Jacob.",
+            "Joshua."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "God established His covenant with Abraham."
+      ),
+
+      QuizQuestion(
+          question: "34. Which of the following persons knew God 'face to face'?\n(BECE 2003 Q9)",
+          options: [
+            "Abraham.",
+            "Isaac.",
+            "Jacob.",
+            "Moses."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The Bible describes Moses as speaking with God face to face."
+      ),
+
+      QuizQuestion(
+          question: "35. Joseph was hated by his brothers because\n(BECE 2003 Q13)",
+          options: [
+            "Jacob promised him of inheritance.",
+            "He loved his father very much.",
+            "Of his prophetic dreams.",
+            "He was gentle and handsome."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Joseph's dreams made his brothers jealous and they hated him."
+      ),
+
+      QuizQuestion(
+          question: "36. The patriarch described as a 'great man of faith' was\n(BECE 2004 Q2)",
+          options: [
+            "Jacob.",
+            "David.",
+            "Moses.",
+            "Abraham."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Abraham is known as the father of faith."
+      ),
+
+      QuizQuestion(
+          question: "37. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q3)",
+          options: [
+            "Paul",
+            "Peter",
+            "Matthew",
+            "James"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Paul became an apostle after Jesus' resurrection and was not among the original disciples."
+      ),
+
+      QuizQuestion(
+          question: "38. Abraham was known for his great faith because he\n(BECE 2005 Q12)",
+          options: [
+            "Refused the idols of Canaan.",
+            "Was willing to sacrifice his son to God.",
+            "Built an altar to worship God.",
+            "Agreed to leave his homeland."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Abraham demonstrated great faith by being willing to sacrifice Isaac."
+      ),
+      QuizQuestion(
+          question: "39. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q18)",
+          options: [
+            "Abraham.",
+            "Jacob.",
+            "Joseph.",
+            "Isaac."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The twelve tribes of Israel were named after the sons of Jacob."
+      ),
+      QuizQuestion(
+          question: "40. Israel came out of slavery in Egypt under the leadership of\n(BECE 2005 Q19)",
+          options: [
+            "Joshua.",
+            "Joseph.",
+            "Abraham.",
+            "Moses."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Moses led the Israelites out of Egypt during the Exodus."
+      ),
+      QuizQuestion(
+          question: "41. Torgbe Tsali is remembered for\n(BECE 2006 Q6)",
+          options: [
+            "Cruelty to the Anlos.",
+            "Freeing his people from oppressions.",
+            "Selling his people into slavery.",
+            "Allowing missionaries to preach to his people."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Torgbe Tsali sacrificed himself to free the Anlo people from oppression."
+      ),
+
+      QuizQuestion(
+          question: "42. The second Caliph of Islam was\n(BECE 2006 Q6)",
+          options: [
+            "Abubakar.",
+            "Umar.",
+            "Ali.",
+            "Uthman."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Umar ibn Al-Khattab was the second rightly guided Caliph."
+      ),
+
+      QuizQuestion(
+          question: "43. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q9)",
+          options: [
+            "The earth would never again be destroyed by flood.",
+            "Idol worshippers would be destroyed.",
+            "Heavenly bodies would always give light.",
+            "Humankind would not speak the same language."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The rainbow was God's sign that He would never again destroy the earth with a flood."
+      ),
+
+      QuizQuestion(
+          question: "44. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q10)",
+          options: [
+            "Lived for more than forty years.",
+            "Died through an accident.",
+            "Married and had many children.",
+            "Died while defending his community."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "In African Traditional Religion, people who die unnatural deaths are generally not regarded as ancestors."
+      ),
+
+      QuizQuestion(
+          question: "45. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
+          options: [
+            "God spoke to him from it.",
+            "The place was a holy ground.",
+            "The fire was not consuming the bush.",
+            "God wanted to save Israel through him."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Moses was amazed because the bush burned without being consumed."
+      ),
+
+      QuizQuestion(
+          question: "46. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
+          options: [
+            "Ibrahim.",
+            "Mohammed.",
+            "Musa.",
+            "Ishmael."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Allah revealed the Torah to Prophet Musa (Moses)."
+      ),
+
+      QuizQuestion(
+          question: "47. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
+          options: [
+            "Inherit the Kingdom of heaven.",
+            "Be comforted.",
+            "Inherit the earth.",
+            "Be called the sons of God."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The first Beatitude states that the poor in spirit shall inherit the Kingdom of Heaven."
+      ),
+
+      QuizQuestion(
+          question: "48. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
+          options: [
+            "Abu Bakr.",
+            "Angel Jibril.",
+            "Torgbe Tsali.",
+            "Angel Mika-il."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Angel Jibril (Gabriel) revealed the Qur'an to Prophet Mohammed."
+      ),
+
+      QuizQuestion(
+          question: "49. God saved the believers from the flood through\n(BECE 2007 Q8)",
+          options: [
+            "Abraham.",
+            "Noah.",
+            "Moses.",
+            "Joseph."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "God instructed Noah to build the ark to save the believers."
+      ),
+
+      QuizQuestion(
+          question: "50. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
+          options: [
+            "Going on pilgrimage with the prophet.",
+            "Marrying the prophet’s daughter.",
+            "Compiling the Qur’an into a book.",
+            "Defending the prophet in Mecca."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "During Abu Bakr's caliphate, the Qur'an was compiled into one book."
+      ),
+
+      QuizQuestion(
+          question: "51. Jesus came into the world so that people may\n(BECE 2013 Q11)",
+          options: [
+            "Forgive their enemies.",
+            "Have eternal life.",
+            "Overcome problems.",
+            "Become wealthy."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Jesus came so that all who believe in Him may have eternal life."
+      ),
+
+      QuizQuestion(
+          question: "52. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
+          options: [
+            "Abraham.",
+            "Joseph.",
+            "Joshua.",
+            "Moses."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "God's covenant was made with Abraham."
+      ),
+
+      QuizQuestion(
+          question: "53. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
+          options: [
+            "Helped the poor in their community.",
+            "Led his people to defeat their enemies.",
+            "Risked his life for his people.",
+            "Preached peace to his people."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Toha Zie became famous for risking his life to save his people from a dangerous beast."
+      ),
+
+      QuizQuestion(
+          question: "54. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
+          options: [
+            "Abraham.",
+            "Joseph.",
+            "Joshua.",
+            "Moses."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Moses led the Israelites out of slavery in Egypt."
+      ),
+
+      QuizQuestion(
+          question: "55. Egbnor Abor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
+          options: [
+            "Ensure victory at war.",
+            "Free his people from slavery.",
+            "Save children from hunger.",
+            "Ward off an epidemic."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Egbnor Abor sacrificed his life to free his people from slavery."
+      ),
+
+      QuizQuestion(
+          question: "56. The twelfth son of Jacob was\n(BECE 2014 Q6)",
+          options: [
+            "Benjamin.",
+            "Joseph.",
+            "Dan.",
+            "Gad."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Benjamin was the youngest and twelfth son of Jacob."
+      ),
+
+      QuizQuestion(
+          question: "57. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
+          options: [
+            "Forty years.",
+            "Forty months.",
+            "Fifty years.",
+            "Fifty months."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The Israelites wandered in the wilderness for forty years."
+      ),
+
+      QuizQuestion(
+          question: "58. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
+          options: [
+            "Joseph",
+            "Jacob",
+            "Noah",
+            "David"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "God commanded Noah to build the ark before the flood."
+      ),
+
+      QuizQuestion(
+          question: "59. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
+          options: [
+            "Simon of Cyrene",
+            "Joseph of Arimathea",
+            "Nicodemus",
+            "Zebedee"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Joseph of Arimathea provided his own tomb for Jesus' burial."
+      ),
+
+      QuizQuestion(
+          question: "60. Egbnor Abor is fondly remembered by the Fante for\n(BECE 2018 Q8)",
+          options: [
+            "His miraculous powers.",
+            "Commanding the golden stool.",
+            "His resurrection from death.",
+            "Saving his people."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Egbnor Abor is remembered for sacrificing himself to save his people."
+      ),
+      QuizQuestion(
+          question: "61. The spiritual leader who was also a successor of Prophet Mohammed (SAW) was\n(BECE 2019 Q6)",
+          options: [
+            "Caliph.",
+            "Hafiz.",
+            "Imam.",
+            "Sheikh."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A Caliph is the political and spiritual successor to Prophet Mohammed."
+      ),
+
+      QuizQuestion(
+          question: "62. Egbnor Abor was honoured with the Aboakyer festival because of his\n(BECE 2019 Q7)",
+          options: [
+            "Magical deed.",
+            "Death for the land.",
+            "Killing of the beast.",
+            "Good leadership."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Egbnor Abor is honoured for sacrificing his life for the welfare of his people."
+      ),
+
+      QuizQuestion(
+          question: "63. Toha Zie became famous because\n(BECE 2019 Q8)",
+          options: [
+            "Of his exploits in war.",
+            "He was a hunter.",
+            "He was considered as a god.",
+            "He saved his people from beasts."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Toha Zie became famous for saving his people from dangerous wild beasts."
+      ),
+
+      QuizQuestion(
+          question: "64. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
+          options: [
+            "Character.",
+            "Complexion.",
+            "Kindness.",
+            "Wisdom."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Toha Zie was called the Red Hunter because of his reddish complexion."
+      ),
+
+      QuizQuestion(
+          question: "65. The major event that led to the conversion of Umar to Islam was his\n(BECE 2020 Q8)",
+          options: [
+            "Mohammed’s flight into Medina.",
+            "Hearing of the flight.",
+            "The death of Caliph Uthman.",
+            "The preaching of Abu Bakr."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "According to the provided BECE source, the correct answer is the preaching of Abu Bakr."
+      ),
+
+      QuizQuestion(
+          question: "66. The name Abraham means\n(BECE 2020 Q9)",
+          options: [
+            "Exalted father.",
+            "Favoured father.",
+            "Traditional father.",
+            "Father of a multitude."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "God changed Abram's name to Abraham, meaning 'father of a multitude'."
+      ),
+
+      QuizQuestion(
+          question: "67. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
+          options: [
+            "Blown away by the wind.",
+            "Eaten by birds.",
+            "Choked by thorns.",
+            "Scorched by the sun."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "In the Parable of the Sower, birds ate the seeds that fell along the path."
+      ),
+
+      QuizQuestion(
+          question: "68. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
+          options: [
+            "Justice.",
+            "Love.",
+            "Hard work.",
+            "Respect."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Both personalities demonstrated love and self-sacrifice for their people."
+      ),
+
+      QuizQuestion(
+          question: "69. The Patriarch who took his brother’s birth right and blessings was\n(BECE 2021 Q12)",
+          options: [
+            "Esau.",
+            "Joseph.",
+            "Jacob.",
+            "Isaac."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Jacob obtained Esau's birthright and later received his father's blessing."
+      ),
+
+      QuizQuestion(
+          question: "70. Muslims believe that God’s messages to His prophets were declared through His\n(BECE 2021 Q25)",
+          options: [
+            "Angels.",
+            "Caliphs.",
+            "Prophets.",
+            "Diviners."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Allah delivered His revelations to prophets through angels, especially Angel Jibril."
+      ),
+
+      QuizQuestion(
+          question: "71. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
+          options: [
+            "He was loved by his father very much.",
+            "He was gentle and handsome.",
+            "Jacob was a man of tolerance.",
+            "Of his prophetic dreams."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Joseph's dreams made his brothers jealous, causing them to hate him."
+      ),
+
+      QuizQuestion(
+          question: "72. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
+          options: [
+            "Joseph of Arimathea",
+            "Nicodemus",
+            "Simon of Cyrene",
+            "Zebedee"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Joseph of Arimathea gave his own new tomb for the burial of Jesus."
+      ),
+
+      QuizQuestion(
+          question: "73. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
+          options: [
+            "Abu Bakr Al Siddiq.",
+            "Umar Ibn Al-Khattab.",
+            "Uthman Ibn Affan.",
+            "Ali Ibn Abu Talib."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Umar Ibn Al-Khattab succeeded Abu Bakr as the second rightly guided Caliph."
+      ),
+
+      QuizQuestion(
+          question: "74. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
+          options: [
+            "Led his people to be defeated.",
+            "Preached peace to his people.",
+            "Helped the poor.",
+            "Risked his life for his people."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Toha Zie risked his own life in order to save his people."
+      ),
+
+      QuizQuestion(
+          question: "75. The teachings of Prophet Mohammed are found in the\n(BECE 2023 Q6)",
+          options: [
+            "Kalima.",
+            "Hadith.",
+            "Bible.",
+            "Quran."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The Hadith contains the sayings and teachings of Prophet Mohammed."
+      ),
+
+      QuizQuestion(
+          question: "76. Which of the following people was not a disciple of Jesus?\n(BECE 2023 Q12)",
+          options: [
+            "Paul",
+            "Peter",
+            "Matthew",
+            "James"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Paul became an apostle after Jesus' resurrection and was not among the original twelve disciples."
+      ),
+
+      QuizQuestion(
+          question: "77. God's covenant with the patriarch is associated with\n(BECE 2023 Q13)",
+          options: [
+            "Abraham.",
+            "Joseph.",
+            "Joshua.",
+            "Moses."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "God made His covenant with Abraham."
+      ),
+
+      QuizQuestion(
+          question: "78. Egya Ahor is remembered for sacrificing his life to\n(BECE 2023 Q19)",
+          options: [
+            "Ensure victory at war.",
+            "Free his people from slavery.",
+            "Save children from hunger.",
+            "Ward off an epidemic."
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Egya Ahor sacrificed his life to ensure victory for his people during war."
+      ),
+
+      QuizQuestion(
+          question: "79. The first Christian Martyr was\n(BECE 2017 Q15)",
+          options: [
+            "Ali.",
+            "Stephen.",
+            "Ibrahim.",
+            "Munah."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Stephen was the first Christian martyr recorded in the Bible."
+      ),
+
+      QuizQuestion(
+          question: "80. Moses led the Israelites through the wilderness for\n(BECE 2018 Q6)",
+          options: [
+            "Forty months.",
+            "Forty years.",
+            "Fifty years.",
+            "Fifty months."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The Israelites wandered in the wilderness for forty years before entering Canaan."
+      ),QuizQuestion(
+          question: "81. Holy Spirit\n(BECE 2022 Q34)",
+          options: [
+            "Holy Spirit",
+            "God",
+            "Neighbours",
+            "Religious leaders"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "According to the provided BECE source, the correct answer is Holy Spirit."
+      ),
+
+      QuizQuestion(
+          question: "82. Who provided the tomb in which Jesus Christ and mercy is the parable of\n(BECE 2022 Q35)",
+          options: [
+            "Mustard Seed",
+            "Lost Coin",
+            "Ten Virgins",
+            "Good Samaritan"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "According to the provided BECE source, the correct answer is Good Samaritan."
+      ),
+
+      QuizQuestion(
+          question: "83. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
+          options: [
+            "Fed the five thousand men.",
+            "Fasted for forty days.",
+            "Prayed in the night.",
+            "Was crucified."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Golgotha was the place where Jesus Christ was crucified."
+      ),
+
+      QuizQuestion(
+          question: "84. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
+          options: [
+            "Reconciliation.",
+            "Retribution.",
+            "Repentance.",
+            "Reformation."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Joseph forgave and reconciled with his brothers, teaching the virtue of reconciliation."
+      ),
+
+      QuizQuestion(
+          question: "\"85. And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
+          options: [
+            "Mustard seed.",
+            "Prodigal son.",
+            "Wicked Tenants.",
+            "Good Samaritan."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Jesus answered the question 'Who is my neighbour?' with the Parable of the Good Samaritan."
+      ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s5 ss1 - Religious Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
+          options: [
+            "Break relations with the dead.",
+            "Shows that they are among the living.",
+            "Announce their return from the cemetery.",
+            "Cleanse themselves from any curse."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Washing the hands after returning from the cemetery symbolizes breaking all relations with the dead."
+      ),
+
+      QuizQuestion(
+          question: "2. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
+          options: [
+            "Instill discipline.",
+            "Worship idols.",
+            "Preserve African culture.",
+            "Disregard other religions."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Traditional religion helps preserve African cultural values, beliefs and practices."
+      ),
+
+      QuizQuestion(
+          question: "3. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
+          options: [
+            "A day that marks the beginning of the month.",
+            "The first Sunday that marks the beginning of the month.",
+            "The Sunday that marks the 42nd day of the month.",
+            "A day on which the Golden Stool descended."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Akwasidae is celebrated every 42 days according to the Akan traditional calendar."
+      ),
+
+      QuizQuestion(
+          question: "4. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
+          options: [
+            "Birth and baptism of Christ.",
+            "Resurrection and appearance of Christ.",
+            "Joyful journey of Christ into Jerusalem.",
+            "Baptism of the Holy Spirit."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Palm Sunday commemorates Jesus Christ's triumphant entry into Jerusalem."
+      ),
+
+      QuizQuestion(
+          question: "5. The main role of angels in Islam is to\n(BECE 2001 Q15)",
+          options: [
+            "Reveal Allah's orders and messages to His Prophets.",
+            "Help Allah's Prophets to understand the Qur'an.",
+            "Explain dreams to the people.",
+            "Give spiritual power for the writing of the Qur'an."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Angels are Allah's messengers who convey His revelations and commands to His Prophets."
+      ),
+
+      QuizQuestion(
+          question: "6. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+          options: [
+            "Be tolerant and intelligent.",
+            "Become steadfast and patriotic.",
+            "Have humor and peace.",
+            "Become clean and upright in life."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Regular prayer promotes purity, discipline and righteous living."
+      ),
+
+      QuizQuestion(
+          question: "7. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
+          options: [
+            "There is life after death.",
+            "The spirit has contact with the living.",
+            "Lesser gods want the spirit.",
+            "Witches are powerful in one's hometown."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The practice signifies that the spirit of the deceased maintains contact with the living."
+      ),
+
+      QuizQuestion(
+          question: "8. The first book in the Bible is called\n(BECE 2000 Q20)",
+          options: [
+            "Genesis.",
+            "Deuteronomy.",
+            "Exodus.",
+            "Revelation."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Genesis is the first book of the Bible."
+      ),
+
+      QuizQuestion(
+          question: "9. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 2002A Q7)",
+          options: [
+            "Hajj.",
+            "Offers food and living things to the gods.",
+            "Sings dirges to the dead.",
+            "Wins a fortune."
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "The source text appears to contain OCR errors. The original BECE question refers to Zakat, but the options have been preserved exactly as provided."
+      ),
+
+      QuizQuestion(
+          question: "10. All the religions in Ghana believe in\n(BECE 1999 Q4)",
+          options: [
+            "Jesus Christ.",
+            "The Bible.",
+            "The prophet Mohammed.",
+            "The supreme God."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The major religions in Ghana believe in the existence of a Supreme Being."
+      ),
+
+      QuizQuestion(
+          question: "11. The third Islamic daily prayer is\n(BECE 2000 Q14)",
+          options: [
+            "Asr.",
+            "Zuhr.",
+            "Fajr.",
+            "Maghrib."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Asr is the third of the five compulsory daily prayers in Islam."
+      ),
+
+      QuizQuestion(
+          question: "12. To become a Christian, one must first\n(BECE 2000 Q16)",
+          options: [
+            "Say the Lord's prayer.",
+            "Recite the Apostle's creed.",
+            "Be confirmed.",
+            "Be baptized."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Baptism is the Christian rite of initiation into the faith."
+      ),
+
+      QuizQuestion(
+          question: "13. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q17)",
+          options: [
+            "Four times.",
+            "Five times.",
+            "Seven times.",
+            "Ten times."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Pilgrims perform Tawaf by circling the Ka'ba seven times."
+      ),
+
+      QuizQuestion(
+          question: "14. In traditional society, taboos help people to\n(BECE 2002B Q14)",
+          options: [
+            "Behave well.",
+            "Believe in their god.",
+            "Know their God.",
+            "Perform sacrifices."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Taboos regulate behaviour and promote discipline within society."
+      ),
+
+      QuizQuestion(
+          question: "15. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q13)",
+          options: [
+            "Christianity",
+            "Islam",
+            "Traditionalist",
+            "Hinduism"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "African Traditional Religion teaches that God withdrew from human beings because of their wrongdoing."
+      ),
+      QuizQuestion(
+          question: "16. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
+          options: [
+            "Salat.",
+            "Sawn.",
+            "Zakat.",
+            "Kalimat."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Zakat is the pillar of Islam that requires Muslims to give charity to the poor and needy."
+      ),
+
+      QuizQuestion(
+          question: "17. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
+          options: [
+            "Zakat",
+            "Shahadah",
+            "Sawn",
+            "Hajj"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Zakat refers to the compulsory giving of charity in Islam."
+      ),
+
+      QuizQuestion(
+          question: "18. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
+          options: [
+            "Zuhr",
+            "Jumu'ah",
+            "Idd",
+            "Maghrib"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Maghrib is the prayer offered immediately after sunset, between Asr and Isha."
+      ),
+
+      QuizQuestion(
+          question: "19. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
+          options: [
+            "Be known in the community.",
+            "Avoid evil and bad actions.",
+            "Dominate world affairs.",
+            "Be role models in society."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Regular prayer helps Muslims avoid sinful acts and remain conscious of Allah."
+      ),
+
+      QuizQuestion(
+          question: "20. Kente weaving is popular among the\n(BECE 1999 Q13)",
+          options: [
+            "Asante.",
+            "Kwebu.",
+            "Fante.",
+            "Akwapim."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Kente weaving originated among the Asante people of Ghana."
+      ),
+
+      QuizQuestion(
+          question: "21. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
+          options: [
+            "Bring it into one volume.",
+            "Avoid the omission of some verse.",
+            "Give the Qur'an the same reading.",
+            "Stop the fighting among Muslims."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Caliph Uthman standardized the Qur'an to ensure a uniform recitation throughout the Muslim community."
+      ),
+
+      QuizQuestion(
+          question: "22. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
+          options: [
+            "Sacrifice",
+            "Thankfulness",
+            "Worship",
+            "Libation"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Libation is the ritual pouring of drink as an offering to God, deities and ancestors."
+      ),
+
+      QuizQuestion(
+          question: "23. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
+          options: [
+            "Was given birth to by a virgin.",
+            "Came to save humankind from their sins.",
+            "Overcame death on the holy cross.",
+            "Could perform many miracle."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Christians believe Jesus came to save humanity from sin through His death and resurrection."
+      ),
+
+      QuizQuestion(
+          question: "24. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
+          options: [
+            "Birth of Christ.",
+            "Outpouring of the Holy Spirit.",
+            "Joyful journey of Jesus into Jerusalem.",
+            "Resurrection of Jesus from the dead."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."
+      ),
+
+      QuizQuestion(
+          question: "25. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
+          options: [
+            "Is born again into Christianity.",
+            "Could consult the gods.",
+            "Become a wizard.",
+            "Is well educated."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Traditional believers hold that consulting the gods can influence or change one's destiny."
+      ),
+
+      QuizQuestion(
+          question: "26. The best way to pray during worship is to\n(BECE 2002A Q17)",
+          options: [
+            "Face the east and in reverence.",
+            "Kneel with arms open.",
+            "Be humble and sincere.",
+            "Remove your sandals."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "True worship requires humility and sincerity rather than outward posture."
+      ),
+
+      QuizQuestion(
+          question: "27. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
+          options: [
+            "Tawaf",
+            "Zakat",
+            "Hajj",
+            "Salat"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Zakat is the compulsory charity that supports the poor and needy."
+      ),
+
+      QuizQuestion(
+          question: "28. A Muslim performs Tayammum when he\n(BECE 2002A Q20)",
+          options: [
+            "Is late to the mosque.",
+            "Is about to marry.",
+            "Cannot find water.",
+            "Meets the Imam in the mosque."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Tayammum is dry ablution performed when water is unavailable or cannot be used."
+      ),
+
+      QuizQuestion(
+          question: "29. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
+          options: [
+            "Hadith",
+            "Injil",
+            "Zabur",
+            "Taurah"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Hadith contains the sayings and actions of Prophet Muhammad and is not one of the revealed scriptures."
+      ),
+
+      QuizQuestion(
+          question: "30. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
+          options: [
+            "From dawn to sunshine.",
+            "When the sun is high in the sky.",
+            "Late in the afternoon.",
+            "An hour after sunset."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Zuhr is the midday prayer, observed after the sun passes its highest point."
+      ),
+      QuizQuestion(
+          question: "31. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
+          options: [
+            "In ancestral worship.",
+            "That God is everywhere.",
+            "In being saved for salvation.",
+            "That dwarfs exist in forests."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Christianity, Islam and African Traditional Religion all believe that God is omnipresent."
+      ),
+
+      QuizQuestion(
+          question: "32. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+          options: [
+            "Be tolerant and intelligent.",
+            "Become steadfast and patriotic.",
+            "Have humor and peace.",
+            "Become clean and upright in life."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Regular prayer develops spiritual discipline and encourages upright living."
+      ),
+
+      QuizQuestion(
+          question: "33. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
+          options: [
+            "Sacrifices.",
+            "Purification rites.",
+            "Libation.",
+            "Spirit possessions."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Libation is a common means by which traditional believers communicate with God, the gods and the ancestors."
+      ),
+
+      QuizQuestion(
+          question: "34. The essence of the holy communion is to\n(BECE 2002B Q17)",
+          options: [
+            "Give thanks to God.",
+            "Remember Christian fellowship.",
+            "Remember the saving act of Jesus.",
+            "Remember Jesus's teaching on sharing."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Holy Communion commemorates the sacrificial death of Jesus Christ for the salvation of humanity."
+      ),
+
+      QuizQuestion(
+          question: "35. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
+          options: [
+            "Hudah.",
+            "Hafiz.",
+            "Qurra.",
+            "Tadjwid."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "A Hafiz is a Muslim who has memorized the entire Qur'an."
+      ),
+
+      QuizQuestion(
+          question: "36. Traditional believers wear charms or talisman\n(BECE 2003 Q8)",
+          options: [
+            "To look attractive.",
+            "For special protection.",
+            "To be able to fight in the market.",
+            "For longer life."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Charms and talismans are traditionally believed to provide spiritual protection."
+      ),
+
+      QuizQuestion(
+          question: "37. Fishermen all over the country do not go to sea on\n(BECE 2003 Q9)",
+          options: [
+            "Tuesday.",
+            "Friday.",
+            "Saturday.",
+            "Sunday."
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "According to the provided BECE source, Friday is observed as the day fishermen do not go to sea."
+      ),
+
+      QuizQuestion(
+          question: "38. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
+          options: [
+            "Lesser gods.",
+            "Earth goddess.",
+            "Ancestral spirits.",
+            "Spirits in plants and animals."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "In African Traditional Religion, the lesser gods are regarded as next in importance after the Supreme Being."
+      ),
+
+      QuizQuestion(
+          question: "39. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
+          options: [
+            "Privilege.",
+            "Responsibility.",
+            "Right.",
+            "Virtue."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Having children is regarded as a privilege and a blessing in traditional society."
+      ),
+
+      QuizQuestion(
+          question: "40. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
+          options: [
+            "Worship God sincerely.",
+            "Write an examination together.",
+            "Run away from evil.",
+            "Share their wealth and poverty together."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "True friendship involves standing by one another in both prosperity and hardship."
+      ),
+
+      QuizQuestion(
+          question: "41. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
+          options: [
+            "Ask for water.",
+            "Remove his sandals.",
+            "Offer greetings.",
+            "Ask for a seat."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Greeting people upon entering a house is a sign of respect and good manners."
+      ),
+
+      QuizQuestion(
+          question: "42. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
+          options: [
+            "Anoint prophets and messengers of Allah.",
+            "Punish wrong doers on the judgment day.",
+            "Act on the orders of Allah.",
+            "Lead the faithful to observe the Hajj."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Angels are obedient servants of Allah who carry out His commands."
+      ),
+
+      QuizQuestion(
+          question: "43. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
+          options: [
+            "Hajj",
+            "Asr",
+            "Salat",
+            "Ramadan"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Congregational Salat promotes unity, brotherhood and good neighbourliness among Muslims."
+      ),
+
+      QuizQuestion(
+          question: "44. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
+          options: [
+            "Maghrib.",
+            "Asr.",
+            "Zuhr.",
+            "Fajr."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Maghrib is the obligatory prayer performed immediately after sunset."
+      ),
+
+      QuizQuestion(
+          question: "45. To the traditional believer, the transition from the physical to the spiritual world occurs through\n(BECE 2004 Q11)",
+          options: [
+            "Naming.",
+            "Birth.",
+            "Death.",
+            "Puberty."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Death marks the transition from the physical world to the spiritual world in African Traditional Religion."
+      ),QuizQuestion(
+          question: "46. All religions teach mankind to see the ______ of the earth and to\n(BECE 2004 Q13)",
+          options: [
+            "Farm on it.",
+            "Build on it.",
+            "Care for it.",
+            "Make it fertile."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "All religions teach that human beings are stewards of the earth and should care for it."
+      ),
+
+      QuizQuestion(
+          question: "47. There is no god but Allah and Muhammed is the messenger of Allah. This represents the\n(BECE 2004 Q14)",
+          options: [
+            "Shahadah.",
+            "Iqamah.",
+            "Adhan.",
+            "Sunnah."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The Shahadah is the Islamic declaration of faith."
+      ),
+
+      QuizQuestion(
+          question: "48. Capital punishment is meant to\n(BECE 2006 Q39)",
+          options: [
+            "Rehabilitate offenders.",
+            "Punishing offenders out of revenge.",
+            "Protecting the good people in society.",
+            "Helping offenders to become better persons."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Capital punishment is intended to protect society from dangerous offenders."
+      ),
+
+      QuizQuestion(
+          question: "49. The need for repentance is expressed in the parable of the\n(BECE 2007 Q31)",
+          options: [
+            "Sower.",
+            "Mustard seed.",
+            "Good Samaritan.",
+            "Prodigal son."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The Parable of the Prodigal Son teaches repentance, forgiveness and God's mercy."
+      ),
+
+      QuizQuestion(
+          question: "50. Which of the following is not a punishment in schools?\n(BECE 2008 Q25)",
+          options: [
+            "Bad testimonial",
+            "Banishment",
+            "Flogging",
+            "Reprimand"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Banishment is not a normal disciplinary measure used in schools."
+      ),
+
+      QuizQuestion(
+          question: "51. One effect of corruption in society is that it\n(BECE 2008 Q29)",
+          options: [
+            "Makes people rich.",
+            "Provides jobs for people.",
+            "Helps the country to develop.",
+            "Puts wrong people in positions."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Corruption often results in unqualified people occupying important positions."
+      ),
+
+      QuizQuestion(
+          question: "52. Dumping of refuse at residential areas is dangerous because it may\n(BECE 2008 Q32)",
+          options: [
+            "Result in soil erosion.",
+            "Reduce plant species.",
+            "Cause damage to houses.",
+            "Lead to disease outbreak."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Improper refuse disposal creates breeding grounds for disease-causing organisms, leading to disease outbreaks."
+      ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. Which of the following can be noticed in those who use drugs?\n(BECE 2008 Q38)",
+          options: [
+            "Quick response to questions in class",
+            "Disrespect for authority",
+            "Poor relationship with friends",
+            "Involvement in communal activities"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Drug abuse often leads to indiscipline and disrespect for authority."
+      ),
+
+      QuizQuestion(
+          question: "2. Refusal to follow medical prescription may lead to\n(BECE 2017 Q18)",
+          options: [
+            "Disrespect for authorities",
+            "Failure in life",
+            "Reduction in wealth",
+            "Substance abuse"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Ignoring medical prescriptions can result in misuse of drugs and substance abuse."
+      ),
+
+      QuizQuestion(
+          question: "3. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q36)",
+          options: [
+            "Truthful",
+            "Honest",
+            "Courteous",
+            "Brilliant"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Decent dressing is a sign of courtesy, self-respect and good manners."
+      ),
+
+      QuizQuestion(
+          question: "4. People lead decent lives in order to\n(BECE 2003 Q28)",
+          options: [
+            "Be praised for patriotism",
+            "Be seen as kind and generous",
+            "Promote health and peaceful conditions",
+            "Protect the user from the physical effects of drugs"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Living decently promotes healthy relationships and peaceful coexistence."
+      ),
+
+      QuizQuestion(
+          question: "5. Which type of substance is coffee?\n(BECE 2001 Q36)",
+          options: [
+            "Stimulant",
+            "Hard drug",
+            "Common drug",
+            "Beverage"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Coffee contains caffeine, which is a stimulant."
+      ),
+
+      QuizQuestion(
+          question: "6. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
+          options: [
+            "Develop their potentials",
+            "Stay healthy",
+            "Study hard",
+            "Be respected by society"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Avoiding harmful substances helps people maintain good health."
+      ),
+
+      QuizQuestion(
+          question: "7. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
+          options: [
+            "Chloroquine",
+            "Coffee",
+            "Alcohol",
+            "Cocaine"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Cocaine is classified as a hard drug because of its highly addictive nature."
+      ),
+
+      QuizQuestion(
+          question: "8. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
+          options: [
+            "Alcohol",
+            "Cocaine",
+            "Chloroquine",
+            "Marijuana"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Alcohol is a depressant, not a stimulant."
+      ),
+
+      QuizQuestion(
+          question: "9. Self-medication means\n(BECE 2004 Q37)",
+          options: [
+            "Taking medicine prescribed by the doctor",
+            "Buying drugs with prescription form",
+            "Taking medicine given at the hospital",
+            "Taking drugs without medical advice"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Self-medication is the use of drugs without professional medical advice."
+      ),
+
+      QuizQuestion(
+          question: "10. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
+          options: [
+            "Showing pictures of victims of drug abuse",
+            "Debate organized for students on hard drug abuse",
+            "Taking the drugs without knowing the side effect",
+            "Police dealing strictly with drug peddlers"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Taking drugs without knowing their side effects can encourage drug abuse."
+      ),
+
+      QuizQuestion(
+          question: "11. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
+          options: [
+            "Obedience",
+            "Truancy",
+            "Politeness",
+            "Truthfulness"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Drug abuse often leads to truancy and other forms of indiscipline."
+      ),
+
+      QuizQuestion(
+          question: "12. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
+          options: [
+            "That one is obedient to parents",
+            "The particular community one comes from",
+            "The level of training one has received",
+            "That one belongs to a traditional society"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Good dressing and eating habits reflect proper upbringing and training."
+      ),
+
+      QuizQuestion(
+          question: "13. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
+          options: [
+            "Cocaine",
+            "Laxatives",
+            "Tobacco",
+            "Paracetamol"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Tobacco is one of the most commonly abused substances worldwide."
+      ),
+
+      QuizQuestion(
+          question: "14. The basis for describing some drugs as sedative is that they\n(BECE 2002B Q39)",
+          options: [
+            "Stimulate the user",
+            "Tend to relax the nerves and reduce stress",
+            "Make the user feel high",
+            "Cause hallucinations"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Sedatives are drugs that calm the nervous system and reduce anxiety and stress."
+      ),
+
+      QuizQuestion(
+          question: "15. Substances that tend to relax the nerves and reduce stress are\n(BECE 2004 Q39)",
+          options: [
+            "Sedatives",
+            "Stimulants",
+            "Hard drugs",
+            "Common drugs"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Sedatives are substances that calm the nerves and reduce stress."
+      ),
+      QuizQuestion(
+          question: "16. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
+          options: [
+            "To earn the respect of people",
+            "To gain the trust of others",
+            "To receive prizes from others",
+            "To have a good name"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The purpose of living a decent life is to build good character, not to receive prizes from others."
+      ),
+
+      QuizQuestion(
+          question: "17. Smoking is discouraged because it\n(BECE 2007 Q36)",
+          options: [
+            "Results in respiratory problem",
+            "Attracts the HIV virus",
+            "Leads to sexual promiscuity",
+            "Destroys the blood group of people"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Smoking damages the lungs and can cause serious respiratory diseases."
+      ),
+
+      QuizQuestion(
+          question: "18. One danger associated with drug abuse is that it\n(BECE 2012 Q28)",
+          options: [
+            "Causes idleness",
+            "Makes a person arrogant",
+            "Destroys the blood group",
+            "Can deform a person"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Drug abuse can lead to laziness, lack of productivity and idleness."
+      ),
+
+      QuizQuestion(
+          question: "19. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
+          options: [
+            "To control one's temper",
+            "Living a chaste life",
+            "Refusing and saying no to drugs",
+            "Reporting drug peddlers to the police"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The best personal defense against drug abuse is to refuse and say no to drugs."
+      ),
+
+      QuizQuestion(
+          question: "20. People lead decent lives in order to\n(BECE 2013 Q23)",
+          options: [
+            "Be praised for patriotism",
+            "Be seen as being kind",
+            "Promote peaceful living",
+            "Qualify to be ancestors"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Living a decent life promotes peace, harmony and good relationships in society."
+      ),
+
+      QuizQuestion(
+          question: "21. A student must dress decently because it\n(BECE 2015 Q25)",
+          options: [
+            "Is a mark of intelligence",
+            "Shows respect and politeness",
+            "Enables one to gain favour from others",
+            "Helps one to obey school rules"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Decent dressing demonstrates respect for oneself and for others."
+      ),
+
+      QuizQuestion(
+          question: "22. People lead decent live in order to\n(BECE 2016 Q27)",
+          options: [
+            "Be praised for patriotism",
+            "Be seen as being kind",
+            "Promote peaceful living",
+            "Qualify to be an ancestor"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Decent living encourages peaceful coexistence within the community."
+      ),
+
+      QuizQuestion(
+          question: "23. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
+          options: [
+            "Obedience",
+            "Politeness",
+            "Truancy",
+            "Truthfulness"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Drug abuse commonly results in truancy and other forms of indiscipline."
+      ),
+
+      QuizQuestion(
+          question: "24. Looking simple and decent is a sign of\n(BECE 2016 Q28)",
+          options: [
+            "Comportment",
+            "Faithfulness",
+            "Repentance",
+            "Tolerance"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Looking simple and decent reflects good comportment and proper behaviour."
+      ),
+
+      QuizQuestion(
+          question: "25. A person must lead a decent life in order to\n(BECE 2018 Q33)",
+          options: [
+            "Be praised for patriotism",
+            "Be seen as being kind",
+            "Promote peaceful living",
+            "Qualify to be an ancestor"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Living a decent life promotes peace and harmony in society."
+      ),
+
+      QuizQuestion(
+          question: "26. People abuse substance because of\n(BECE 2020 Q33)",
+          options: [
+            "Happiness",
+            "Ignorance",
+            "Problems",
+            "Vengeance"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Ignorance about the harmful effects of drugs is a major cause of substance abuse."
+      ),
+
+      QuizQuestion(
+          question: "27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
+          options: [
+            "Exercise the body frequently",
+            "Keep off bad friends",
+            "Respect teachers and friends",
+            "Attend worship meetings regularly"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Avoiding bad company is one of the most effective ways to prevent drug abuse."
+      ),
+
+      QuizQuestion(
+          question: "28. Living a decent life can earn you\n(BECE 2021 Q23)",
+          options: [
+            "Promotion",
+            "Respect",
+            "Success",
+            "Wealth"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "People who live decent lives are respected and trusted by others."
+      ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s6 ss1 - Objective Questions": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+          question: "1. Leisure time is described as a time for\n(BECE 2001 Q30)",
+          options: [
+            "Scrubbing the toilet and the kitchen.",
+            "Going to church to worship God.",
+            "Attending school and doing homework.",
+            "Playing indoor and outdoor games."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Leisure time is free time used for relaxation and recreational activities such as indoor and outdoor games."
+      ),
+
+      QuizQuestion(
+          question: "2. The expression, work and happiness means\n(BECE 2002A Q24)",
+          options: [
+            "When one works, one becomes happy.",
+            "Enjoying the fruits of one's labour.",
+            "Singing whilst working.",
+            "Always working."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The expression means that hard work enables one to enjoy the rewards of one's labour."
+      ),
+
+      QuizQuestion(
+          question: "3. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
+          options: [
+            "Hare.",
+            "Ant.",
+            "Tortoise.",
+            "Bee."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "The ant is known for diligence, proper planning and making good use of time."
+      ),
+
+      QuizQuestion(
+          question: "4. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
+          options: [
+            "Keeping it under the breast.",
+            "Tying it in a handkerchief.",
+            "Crumpling it into a savings box.",
+            "Folding it neatly into the pocket."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Money should be handled neatly and carefully to keep it clean and in good condition."
+      ),
+
+      QuizQuestion(
+          question: "5. People normally save money in order to\n(BECE 1999 Q22)",
+          options: [
+            "Use their income wisely.",
+            "Help the government to generate more revenue.",
+            "Be generous to people.",
+            "Prepare for the future."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Saving money helps people prepare for future needs and emergencies."
+      ),
+
+      QuizQuestion(
+          question: "6. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
+          options: [
+            "Play games.",
+            "Do our homework.",
+            "Do household chores.",
+            "Go to church."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Students should use part of their leisure time productively by doing their homework."
+      ),
+
+      QuizQuestion(
+          question: "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
+          options: [
+            "Obedience.",
+            "Respect.",
+            "Courage.",
+            "Hard work."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Hard work is the foundation of a happy and prosperous life."
+      ),
+
+      QuizQuestion(
+          question: "8. One of the benefits of working hard is\n(BECE 2001 Q40)",
+          options: [
+            "Putting up good house.",
+            "Having leisure.",
+            "Becoming financially self-reliant.",
+            "Being popular and respectful."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Hard work enables people to become financially independent."
+      ),
+
+      QuizQuestion(
+          question: "9. We contribute to church dues and offering to\n(BECE 2001 Q33)",
+          options: [
+            "Enable the church to develop spiritually.",
+            "Promote deliverance service.",
+            "Help pastors preach well.",
+            "Help evangelize and care for the poor."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Church offerings support evangelism and provide assistance to the needy."
+      ),
+
+      QuizQuestion(
+          question: "10. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
+          options: [
+            "Reading a story book.",
+            "Telling stories.",
+            "Playing games.",
+            "Gossiping about friends."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Gossip is an unhealthy use of leisure time and should be avoided."
+      ),
+
+      QuizQuestion(
+          question: "11. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
+          options: [
+            "Book prizes.",
+            "Cash prize.",
+            "Testimonial.",
+            "Certificate."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Outstanding pupils are commonly recognized with certificates during prize-giving ceremonies."
+      ),
+
+      QuizQuestion(
+          question: "12. The importance of work is to help us to\n(BECE 2003 Q38)",
+          options: [
+            "Be honest in our daily activities.",
+            "Plan our duties at all time.",
+            "Be reliable in the society.",
+            "Keep healthy and active minds."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Working keeps both the body and mind active and healthy."
+      ),
+
+      QuizQuestion(
+          question: "13. Leisure time is used for\n(BECE 2004 Q28)",
+          options: [
+            "Playing games.",
+            "Congregational worship.",
+            "Doing house chores.",
+            "Weeding the house."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Leisure is free time mainly used for relaxation and recreation."
+      ),
+
+      QuizQuestion(
+          question: "14. Work help us to become\n(BECE 2004 Q24)",
+          options: [
+            "Reliable.",
+            "Sincere.",
+            "Healthy.",
+            "Courteous."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Working diligently builds reliability and responsibility."
+      ),
+
+      QuizQuestion(
+          question: "15. There is dignity in labour. This statement means\n(BECE 2004 Q25)",
+          options: [
+            "Only office work brings recognition.",
+            "Some jobs are more dignified than others.",
+            "We should work among all classes of people.",
+            "We need to be proud of our work."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The statement teaches that every honest job is valuable and people should take pride in their work."
+      ),
+      QuizQuestion(
+          question: "16. The term idleness in Religious and Moral Education means\n(BECE 2005 Q24)",
+          options: [
+            "Having fun.",
+            "Enjoying siesta.",
+            "Wasting time.",
+            "Playing games."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Idleness refers to wasting time instead of engaging in useful and productive activities."
+      ),
+
+      QuizQuestion(
+          question: "17. In which way can money help spread germs?\n(BECE 2005 Q34)",
+          options: [
+            "Keeping it in a purse for a long period.",
+            "Handling it with hands.",
+            "Crumpling it in one's pockets.",
+            "Keeping it in one's brassiere."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Keeping money in one's brassiere exposes it to sweat and germs, making it unhygienic."
+      ),
+
+      QuizQuestion(
+          question: "18. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
+          options: [
+            "Precious.",
+            "Limitless.",
+            "Life.",
+            "Everything."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "The saying emphasizes that time is valuable and should not be wasted."
+      ),
+
+      QuizQuestion(
+          question: "19. The most important requirement for a happy and prosperous life is\n(BECE 2006 Q25)",
+          options: [
+            "Loyalty.",
+            "Respect.",
+            "Courage.",
+            "Hard work."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Hard work is the key to achieving success and prosperity."
+      ),
+
+      QuizQuestion(
+          question: "20. The expression 'work and happiness' implies one\n(BECE 2006 Q28)",
+          options: [
+            "Likes working always.",
+            "Dances whilst working.",
+            "Works whilst playing.",
+            "Enjoys the fruit of his labour."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Work brings satisfaction because people enjoy the rewards of their labour."
+      ),
+
+      QuizQuestion(
+          question: "21. Good working habits include all the following except\n(BECE 2006 Q37)",
+          options: [
+            "Honesty.",
+            "Reliability.",
+            "Commitment.",
+            "Faith."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Honesty, reliability and commitment are work habits, while faith is not specifically a working habit."
+      ),
+
+      QuizQuestion(
+          question: "22. Hard work is most often crowned with\n(BECE 2007 Q21)",
+          options: [
+            "Favours.",
+            "Success.",
+            "Popularity.",
+            "Obedience."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hard work usually leads to success."
+      ),
+
+      QuizQuestion(
+          question: "23. The best way to enjoy peace and success in life is to\n(BECE 2007 Q24)",
+          options: [
+            "Accumulate wealth.",
+            "Fight for one's right always.",
+            "Be very strict on others.",
+            "Develop the spirit of responsibility."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Being responsible promotes peace, trust and success."
+      ),
+
+      QuizQuestion(
+          question: "24. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
+          options: [
+            "Owned by the state.",
+            "The accepted means of exchange.",
+            "The official currency of a country.",
+            "The exchange goods for goods."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Money is used to exchange goods and services, not 'exchange goods for goods,' which describes barter."
+      ),
+
+      QuizQuestion(
+          question: "25. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
+          options: [
+            "Negotiation.",
+            "Confrontation.",
+            "Strike.",
+            "Threat."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Negotiation is the proper and peaceful way to request better pay."
+      ),
+
+      QuizQuestion(
+          question: "26. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
+          options: [
+            "Playing games.",
+            "Telling stories.",
+            "Reading story books.",
+            "Gossiping about friends."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Gossiping is an unhealthy and irresponsible use of leisure time."
+      ),
+
+      QuizQuestion(
+          question: "27. A happy and prosperous life depends on\n(BECE 2011 Q39)",
+          options: [
+            "Obedience.",
+            "Hard work.",
+            "Respect.",
+            "Courage."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hard work is the foundation of a prosperous and successful life."
+      ),
+
+      QuizQuestion(
+          question: "28. The saying time is money, means\n(BECE 2012 Q31)",
+          options: [
+            "Time fetches money.",
+            "More time spent on work, brings profit.",
+            "Money is not gained without spending time.",
+            "Good use of time brings profit."
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "The saying emphasizes using time wisely because productive use of time leads to success and profit."
+      ),
+
+      QuizQuestion(
+          question: "29. Humankind work in order to\n(BECE 2012 Q39)",
+          options: [
+            "Go to heaven.",
+            "Be loved by everyone.",
+            "Win souls for Christ.",
+            "Cater for one's basic needs."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "People work primarily to provide for their basic needs and those of their families."
+      ),
+
+      QuizQuestion(
+          question: "30. Workers go on strike to\n(BECE 2013 Q21)",
+          options: [
+            "Have some rest.",
+            "Demand better conditions of service.",
+            "Destroy company property.",
+            "Attend political rallies."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Workers organize strikes to demand improved salaries, welfare and working conditions."
+      ),
+      QuizQuestion(
+          question: "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
+          options: [
+            "Hard working",
+            "Laziness",
+            "Punctuality",
+            "Truthfulness"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Laziness is a negative attitude to work, while hard work, punctuality and truthfulness are positive qualities."
+      ),
+
+      QuizQuestion(
+          question: "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
+          options: [
+            "Reading story books.",
+            "Gossiping.",
+            "Playing games.",
+            "Telling stories."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Gossiping is an improper use of leisure because it can harm relationships and waste time."
+      ),
+
+      QuizQuestion(
+          question: "33. A positive attitude towards work is\n(BECE 2014 Q31)",
+          options: [
+            "Commitment.",
+            "Graciousness.",
+            "Compliance.",
+            "Purity."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Commitment is an important positive attitude that promotes productivity and responsibility."
+      ),
+
+      QuizQuestion(
+          question: "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q25)",
+          options: [
+            "Courage.",
+            "Hard work.",
+            "Loyalty.",
+            "Respect."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hard work is the key to achieving success and prosperity."
+      ),
+
+      QuizQuestion(
+          question: "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
+          options: [
+            "Expenditure is more than income.",
+            "Income is more than expenditure.",
+            "Expenditure equals income.",
+            "Income is less than expenditure."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A good budget ensures that income is greater than expenditure so that savings can be made."
+      ),
+
+      QuizQuestion(
+          question: "36. Leisure is best used to\n(BECE 2014 Q38)",
+          options: [
+            "Perform house chores.",
+            "Attend church service.",
+            "Acquire new skills.",
+            "Attend extra classes."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Leisure can be used productively to acquire useful skills and talents."
+      ),
+
+      QuizQuestion(
+          question: "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
+          options: [
+            "Goat",
+            "Donkey",
+            "Dog",
+            "Cow"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Dogs are commonly kept to provide security by guarding homes and property."
+      ),
+
+      QuizQuestion(
+          question: "38. Money is used wisely when\n(BECE 2015 Q32)",
+          options: [
+            "Things are bought on credit.",
+            "It is spent on expensive things.",
+            "It is spent on things budgeted for.",
+            "It is spent on poor people."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Wise use of money involves spending according to a planned budget."
+      ),
+
+      QuizQuestion(
+          question: "39. Saving money helps the individual to\n(BECE 2015 Q35)",
+          options: [
+            "Plan for the future.",
+            "Become rich overnight.",
+            "Attend school regularly.",
+            "Make more friends."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Saving money prepares a person for future needs and emergencies."
+      ),
+
+      QuizQuestion(
+          question: "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
+          options: [
+            "Painting",
+            "Eating",
+            "Running",
+            "Reading"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Painting is a leisure activity that provides relaxation and recreation."
+      ),
+
+      QuizQuestion(
+          question: "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
+          options: [
+            "Home work.",
+            "Community work.",
+            "Occupational work.",
+            "School work."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Occupational work refers to work done to earn income or wages."
+      ),
+
+      QuizQuestion(
+          question: "42. Laziness always leads to\n(BECE 2016 Q33)",
+          options: [
+            "Misunderstanding.",
+            "Misuse of wealth.",
+            "Sickness.",
+            "Waste of time."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Laziness causes people to waste valuable time instead of engaging in productive work."
+      ),
+
+      QuizQuestion(
+          question: "43. Idleness means\n(BECE 2016 Q34)",
+          options: [
+            "Enjoying siesta.",
+            "Doing nothing.",
+            "Having fun.",
+            "Playing games."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Idleness is the habit of doing nothing useful or productive."
+      ),
+
+      QuizQuestion(
+          question: "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
+          options: [
+            "Hard work",
+            "Lateness",
+            "Punctuality",
+            "Truthfulness"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Lateness is a negative work habit because it reduces efficiency and reliability."
+      ),
+
+      QuizQuestion(
+          question: "45. Workers go on strike to\n(BECE 2016 Q36)",
+          options: [
+            "Attend political rallies.",
+            "Demand better conditions of service.",
+            "Destroy company property.",
+            "Have some rest."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Workers go on strike to demand improved salaries, welfare and working conditions."
+      ),
+      QuizQuestion(
+          question: "46. The best way of handling money is by\n(BECE 2016 Q38)",
+          options: [
+            "Writing scripture words on it.",
+            "Crumpling it into our pockets.",
+            "Holding it with wet hands.",
+            "Folding it with clean hands."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Money should be folded neatly and handled with clean hands to keep it clean and in good condition."
+      ),
+
+      QuizQuestion(
+          question: "47. The saying, time is money means\n(BECE 2016 Q40)",
+          options: [
+            "Luck comes with time.",
+            "Money can be made with time.",
+            "Opportunities lost cannot be recovered.",
+            "Wealth can be acquired with patience."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "The saying emphasizes that once opportunities are lost through poor use of time, they cannot easily be recovered."
+      ),
+
+      QuizQuestion(
+          question: "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
+          options: [
+            "Healthy.",
+            "Hard working.",
+            "Prayerful.",
+            "Responsible."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hard work is the key to earning a living and achieving financial independence."
+      ),
+
+      QuizQuestion(
+          question: "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
+          options: [
+            "Eating",
+            "Painting",
+            "Running",
+            "Reading"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Painting is a leisure activity that promotes relaxation and creativity."
+      ),
+
+      QuizQuestion(
+          question: "50. Saving money helps the individual to\n(BECE 2017 Q36)",
+          options: [
+            "Become rich overnight.",
+            "Attend school regularly.",
+            "Make more friends.",
+            "Plan for the future."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Saving prepares an individual for future needs and unforeseen emergencies."
+      ),
+
+      QuizQuestion(
+          question: "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
+          options: [
+            "Courage.",
+            "Hard work.",
+            "Loyalty.",
+            "Respect."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hard work is the foundation of a happy, responsible and prosperous life."
+      ),
+
+      QuizQuestion(
+          question: "52. A positive attitude towards work is\n(BECE 2017 Q38)",
+          options: [
+            "Commitment.",
+            "Graciousness.",
+            "Intelligence.",
+            "Purity."
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Commitment demonstrates dedication and responsibility towards one's work."
+      ),
+
+      QuizQuestion(
+          question: "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
+          options: [
+            "Expenditure is equal to income.",
+            "Expenditure is more than income.",
+            "Income is less than expenditure.",
+            "Income is more than expenditure."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "A sound personal budget ensures that income exceeds expenditure so savings can be made."
+      ),
+
+      QuizQuestion(
+          question: "54. Which of the following factors is a benefit of honest work?\n(BECE 2018 Q34)",
+          options: [
+            "Becoming financially sound",
+            "Becoming popular in town",
+            "Building the body size",
+            "Having time for leisure"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Honest work provides income that helps a person become financially stable."
+      ),
+
+      QuizQuestion(
+          question: "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
+          options: [
+            "Community work.",
+            "Home work.",
+            "Occupational activity.",
+            "School work."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Occupational activity refers to work done primarily to earn income."
+      ),
+
+      QuizQuestion(
+          question: "56. Lazy people get old very fast. This means that hard work brings about\n(BECE 2019 Q25)",
+          options: [
+            "Comfort.",
+            "Development.",
+            "Good health.",
+            "Great wealth."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Hard work keeps the body active and contributes to good health."
+      ),
+
+      QuizQuestion(
+          question: "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
+          options: [
+            "Farming.",
+            "Learning.",
+            "Prayers.",
+            "Discussions."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Academic success depends primarily on serious learning and study."
+      ),
+
+      QuizQuestion(
+          question: "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
+          options: [
+            "Become more adventurous.",
+            "Make more friends.",
+            "Overcome stress and boredom.",
+            "Pass their examinations."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Tourist visits provide recreation and help reduce stress and boredom."
+      ),
+
+      QuizQuestion(
+          question: "59. To work means using\n(BECE 2020 Q37)",
+          options: [
+            "Mental and moral power.",
+            "Mental and physical power.",
+            "Physical and moral effort.",
+            "Spiritual and will power."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Work involves the use of both mental and physical effort to achieve a goal."
+      ),
+
+      QuizQuestion(
+          question: "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
+          options: [
+            "Helps to make people popular.",
+            "Makes people become honest.",
+            "Helps in acquiring basic needs.",
+            "Promotes fear of God in people."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Money provides comfort by enabling people to obtain their basic needs."
+      ),
+      QuizQuestion(
+          question: "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
+          options: [
+            "Time cannot be recalled.",
+            "Time is very precious.",
+            "Opportunity missed is lost.",
+            "Punctuality leads to success."
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Once an opportunity is lost through poor use of time, it cannot be regained."
+      ),
+
+      QuizQuestion(
+          question: "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
+          options: [
+            "Check his or her pressure.",
+            "Eat a well-balanced diet.",
+            "Engage in healthy exercise.",
+            "Have enough leisure."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Adequate leisure allows the body and mind to rest and regain energy."
+      ),
+
+      QuizQuestion(
+          question: "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
+          options: [
+            "Fasting.",
+            "Hard work.",
+            "Prayers.",
+            "Smartness."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Success in examinations depends primarily on hard work and consistent study."
+      ),
+
+      QuizQuestion(
+          question: "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
+          options: [
+            "Do God's work.",
+            "Earn money.",
+            "Remove boredom.",
+            "Work hard."
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Proper use of leisure provides relaxation and helps remove boredom."
+      ),
+
+      QuizQuestion(
+          question: "65. The saying that money flies implies, money\n(BECE 2021 Q22)",
+          options: [
+            "Can be spent easily.",
+            "Can take you anywhere.",
+            "Is controlled by evil.",
+            "Should be used wisely."
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "The saying means money can easily disappear if it is not carefully managed."
+      ),
+
+      QuizQuestion(
+          question: "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
+          options: [
+            "Can buy expensive things.",
+            "Can easily get missing.",
+            "Can make a person happy.",
+            "Is expensive to print."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Money should be handled carefully because it can easily get lost or misplaced."
+      ),
+
+      QuizQuestion(
+          question: "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
+          options: [
+            "Poverty.",
+            "Dropping out of school.",
+            "Premature parenting.",
+            "High self-esteem."
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Immoral lifestyles lead to many negative consequences, but not to high self-esteem."
+      ),
+
+      QuizQuestion(
+          question: "68. Idleness can be associated with\n(BECE 2023 Q15)",
+          options: [
+            "Procrastination.",
+            "Laziness.",
+            "Mismanagement.",
+            "Leisure."
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Idleness is closely associated with laziness, which discourages productive work."
+      ),
     ],
   ),
 
