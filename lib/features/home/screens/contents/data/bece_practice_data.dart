@@ -3163,6 +3163,476 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
+  "JHS 3 - The 1992 Constitution": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2003 Q3)\n\n"
+            "(a) Name the three arms of government.\n\n"
+            "(b) State two functions of each of the three arms of government.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• (i) Executive\n\n"
+            "• (ii) Legislature\n\n"
+            "• (iii) Judiciary\n\n"
+            "⦿ (b) Answer:\n\n"
+            "⦿ Functions of the Executive arm of government:\n\n"
+            "• (i) Formulation of policies: The executive arm of government formulates policies for the socio-economic development of Ghana. These policies are formulated by the sector ministries and departments, and they include health policies, educational policies, employment policies, economic policies, etc.\n\n"
+            "• (ii) Preparation of national budget: The Executive branch of government prepares the national budget through the finance ministry and presents it for parliamentary approval.\n\n"
+            "• (iii) Assenting of bills: The President assents to bills prepared by the legislature to make them laws in the country.\n\n"
+            "• (iv) Nomination of judges and ministers: The President, as the head of the Executive arm of government, nominates ministers, judges, and other board members or Chief Executive Officers to run the affairs of institutions and ministries in the country.\n\n"
+            "• (v) Performance of ceremonial functions: The executive arm of government performs ceremonial functions by attending functions such as Independence Day celebrations.\n\n"
+            "⦿ Functions of the Legislature:\n\n"
+            "• (i) Making and amending laws: The Legislature makes laws and amends existing laws to reflect the needs of society.\n\n"
+            "• (ii) Approving budgets: The legislature approves the budget prepared and submitted to Parliament House by the finance minister.\n\n"
+            "• (iii) Vetting nominated judges and ministers: The legislature approves the judges, ministers, and other officers nominated by the Executive or the President through vetting.\n\n"
+            "• (iv) Impeachment of the President and Judges: The legislature can impeach the President, Vice President, judges, and other state officials if they misconduct themselves.\n\n"
+            "⦿ Functions of the Judiciary:\n\n"
+            "• (i) Settlement of disputes/cases: The Judiciary settles cases between people, groups of people, the state and individuals, or institutions to ensure unity in the country.\n\n"
+            "• (ii) Interpreting laws or the constitution: The Judiciary, through the Supreme Court, interprets the laws of the state to give a clear meaning to the provisions and clauses in the Constitution.\n\n"
+            "• (iii) Judicial review: The Judiciary, through the Supreme Court, reviews decisions of the legislature and the executive to determine whether they are constitutional or not.\n\n"
+            "• (iv) Protection of human rights: The Judiciary also ensures the protection of the fundamental human rights of people in the country.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2011 Q4)\n\n"
+            "(a) What is separation of powers?\n\n"
+            "(b) Outline four advantages of separation of powers.",
+        answer: "⦿ (a) Answer:\n\n"
+            " Separation of powers is the practice of governance whereby each of the three arms of government, namely the legislature, executive, and judiciary, works independently of each other.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• (i) It brings fairness in the administration of the country: Separation of powers helps to set out the duties and powers of each arm of government, and this prevents possible interference among them. This enhances fairness in governance.\n\n"
+            "• (ii) It helps to prevent dictatorship: Separation of powers does not allow for arbitrary rule by powerful leaders. It prevents dictatorship because power is never vested in one arm of government, one person, or a group of people.\n\n"
+            "• (iii) It preserves the constitution: Separation of powers helps to safeguard the constitution of the country. It ensures that all arms of government respect and abide by the constitution.\n\n"
+            "• (iv) It helps to protect the rights and freedom of citizens: Separation of powers enables the rights and freedoms of people in the country to be protected against abuse by powerful leaders. This is because it forces each arm of government to comply with the laws and provisions on fundamental human rights and freedoms under the 1992 Constitution.\n\n"
+            "• (v) It leads to efficiency and specialization: The practice of separation of powers makes each arm of government separated and their functions clearly defined and concentrated in one area. This leads to efficiency and specialization of the officials as they carry out the same duties repeatedly.\n\n"
+            "• (vi) It reduces the powers of the executive and the legislature: Separation of powers helps to limit the powers given to the executive and legislature by the constitution. For example, persons nominated as ministers by the executive must be approved by Parliament before they assume office.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2023 Q3a)\n\n"
+            "(i) State the three arms of government in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• Refer to the answer provided in Question 1(a) (BECE 2003 Q3).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2025 Q3)\n\n"
+            "(a) How would you explain the term constitution to your study group as you prepare for examination?\n\n"
+            "(b) As the principal speaker during a class debate on the Constitution of Ghana, what four points will you make to convince the audience on the contributions of the 1992 Constitution to the development of the nation?",
+        answer: "⦿ (a) Answer:\n\n"
+            " A constitution is a body of rules and regulations that govern the way a country is run. It is the highest law of the land to which all other laws must conform. A constitution can be written or unwritten. An example of a constitution is the 1992 Constitution of Ghana.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• (i) Prevention of dictatorial rule: The 1992 Constitution of Ghana serves as the guidelines for the ruling of the country by the government. This enforces the leaders of the state to govern the country according to the Constitution rather than their interests. It also ensures that the citizens are given the mandate to be part of the major decision-making processes through their representatives in Parliament. This prevents any form of dictatorial rule in the country.\n\n"
+            "• (ii) Serves as a guide for change of government: The Constitution serves as a guide to ensure peaceful change of government through elections. It has established and given power to the Electoral Commission to supervise general elections and declare the winner of the elections. This leads to a smooth change of government and development of the country.\n\n"
+            "• (iii) Serves as a reference to maintain law and order: The Constitution serves as the reference document to ensure the maintenance of law and order in the country. In view of this, any act of disobedience to the Constitution is deemed a serious breach of law, and the person is sent to court for a fair trial. This helps to ensure consistency and orderliness in judgement.\n\n"
+            "• (iv) Determines the type of political system used to run the country: The Constitution determines the type of political system used to run the country. This can be in the form of a democratic system, authoritarianism, monarchy, etc. For instance, Ghana is practising a democratic system of government, and the Constitution is the highest law of the land for the administration of the country.\n\n"
+            "• (v) Gives legitimacy to government and political institutions: The Constitution establishes and gives powers to the government and political institutions or agencies such as CHRAJ, NCCE, the Electoral Commission, etc., to govern the country. This makes them legitimate, and they are recognized as state institutions both in and outside the country.\n\n"
+            "• (vi) Gives Ghana the status of nationhood: The Constitution indicates the status of the country as an independent nation. This is because an independent nation is required to enact its own rules and regulations to govern the country as a sovereign state. For instance, Ghana got her own Constitution after gaining self-rule from her colonial masters in 1957.\n\n"
+            "• (vii) Ensures accountability and good governance: The Constitution prescribes how the nation must be governed. Any action or decision of the government that is not consistent with the Constitution is deemed as a breach of the Constitution, and the government can be impeached. In view of this, the government rules in accordance with the Constitution and always remains accountable to the citizens.\n\n"
+            "• (viii) Protects human rights: The Constitution guarantees and protects the fundamental human rights of the citizens of Ghana. These include the right to life, right to education, right to own property, etc. Through this, people are able to live comfortably and peacefully in the country.\n\n"
+            "• (ix) Establishes various organs/arms of government and their functions: The Constitution establishes organs of government—namely, legislature, executive, and judiciary—and describes how powers and functions are distributed among them. For instance, the executive implements laws and policies, the legislature makes, amends, and repeals laws, while the judiciary interprets laws. This helps to ensure peace or harmonious living among citizens and the smooth management of the affairs of the country.\n\n"
+            "• (x) Recognizes chieftaincy as an institution: The Constitution respects and protects the institution of chieftaincy. It provides guidelines for the enstoolment of chiefs and invests powers in them to lead their subjects in the country. This enables them to undertake projects in their communities, leading to the development of the nation.\n\n"
+            "• (xi) Allocates functions of the organs of government: The Constitution allocates powers and functions of the organs of government to govern the country under the principles of separation of powers and checks and balances. For instance, the executive formulates policies such as social intervention policies like Free SHS. This helps to ensure the development of the country.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "JHS 3 - Peace and Security in Our Nation": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2000 Q3a)\n\n"
+            "List four duties of the police in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• Keep and maintain law and order: It is the primary duty of the police to ensure that laws are respected and order is maintained within the country.\n\n"
+            "• Regulate traffic: The police manage the flow of vehicles and pedestrians to ensure easy movement and safety in major cities.\n\n"
+            "• Arrest criminals: They are responsible for catching individuals who break the law to combat criminal activities.\n\n"
+            "• Enforce road safety: The police ensure drivers follow road signs and regulations to prevent accidents caused by overspeeding, wrong parking, or overloading.\n\n"
+            "• Investigate cases: They look into civil and criminal matters such as theft, murder, and armed robbery to bring culprits to justice.\n\n"
+            "• Community peace-keeping: They prevent and control disruptive actions like stealing, fighting, or excessive noise-making in communities.\n\n"
+            "• Control public demonstrations: The police regulate sanctioned protests and prevent unauthorized ones to ensure public safety.\n\n"
+            "• Protect life and property: They safeguard the lives and belongings of both individual citizens and the State.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2024 Q2b)\n\n"
+            "Prepare a presentation using four major points on how peace and security can lead to development.",
+        answer: "⦿ Answer:\n\n"
+            "• Enable provision of economic facilities: A peaceful environment allows the government to mobilize and save funds to build factories and markets, which increases national productivity.\n\n"
+            "• Enable the provision of infrastructure: Peace ensures that tax revenue can be used for essential projects like roads, electricity, hospitals, and schools, improving the citizens' living conditions.\n\n"
+            "• Enable access to quality human resources: In a secure environment, citizens can focus on acquiring education and training, creating a skilled workforce for the nation.\n\n"
+            "• Enable job opportunities: Peace and security attract both foreign and local investors. When these investors establish businesses, they create more jobs for the people.\n\n"
+            "• Enable attraction of investments: When a country is stable, investors are more likely to set up businesses, which generates tax revenue for the government to fund further development.\n\n"
+            "• Build citizen confidence: Security removes fear and tension, giving citizens the confidence to express their opinions and participate in nation-building.\n\n"
+            "• Curtail brain drain: A stable country prevents skilled professionals from leaving for other countries, keeping valuable human resources at home to build the nation.\n\n"
+            "• Proper allocation of government expenditure: When there is peace, the government can spend money on building schools and roads instead of wasting resources on security and defence.\n\n"
+            "• Promote national cohesion and unity: Peace encourages people to live together harmoniously as one people, which is a key driver of national development.\n\n"
+            "• Promote human rights: A secure environment ensures that people can safely enjoy their rights to education, property, and life.\n\n"
+            "• Promote critical thinking and innovation: Stability provides people with the \"sound mind\" needed to think creatively and innovate, which leads to technological and social progress.\n\n"
+            "• Protect lives and property: Peace creates a conducive environment where people can live and work without the threat of violence or loss.\n\n"
+            "• Promote political stability: Peace prevents violence that could disrupt the administration and governance of the country, ensuring steady progress.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Promoting Democracy and Political Stability": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2003 Q3)\n\n"
+            "(a) Name the three arms of government.\n\n"
+            "(b) State two functions of each of the three arms of government.\n\n"
+            "(c) Mention four sources of revenue for the District Assemblies in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) The three arms of government are:\n\n"
+            "• (i) Executive: The branch responsible for implementing and enforcing laws.\n\n"
+            "• (ii) Legislature: The branch responsible for making and amending laws.\n\n"
+            "• (iii) Judiciary: The branch responsible for interpreting laws and administering justice.\n\n"
+            "(b) Functions of the three arms of government:\n\n"
+            "⦿ Functions of the Executive:\n\n"
+            "• (i) Formulation of policies: The executive arm of government formulates policies for the socio-economic development of Ghana. These policies are formulated by the sector ministries and departments, and they include health policies, educational policies, employment policies, economic policies, etc.\n\n"
+            "• (ii) Preparation of national budget: The Executive branch of government prepares the national budget through the finance ministry and presents it for parliamentary approval.\n\n"
+            "• (iii) Assenting of bills: The President assents to bills prepared by the legislature to make them laws in the country.\n\n"
+            "• (iv) Nomination of judges and ministers: The President, as the head of the Executive arm of government, nominates ministers, judges, and other board members or Chief Executive Officers to run the affairs of institutions and ministries in the country.\n\n"
+            "• (v) Performance of ceremonial functions: The executive arm of government performs ceremonial functions by attending functions such as Independence Day celebrations.\n\n"
+            "⦿ Functions of the Legislature:\n\n"
+            "• (i) Making and amending laws: The legislature makes laws and amends existing laws to reflect the needs of society.\n\n"
+            "• (ii) Approving budgets: The legislature approves the budget prepared and submitted to the Parliament House by the finance minister.\n\n"
+            "• (iii) Vetting nominated judges and ministers: The legislature approves the judges, ministers, and other officers nominated by the Executive or the President through vetting.\n\n"
+            "• (iv) Impeachment of the President and Judges: The legislature can impeach the President, Vice President, judges, and other state officials if they misconduct themselves.\n\n"
+            "⦿ Functions of the Judiciary:\n\n"
+            "• (i) Settlement of disputes/cases: The Judiciary settles cases between people, groups of people, the state and individuals, or institutions to ensure unity in the country.\n\n"
+            "• (ii) Interpreting laws or the constitution: The Judiciary, through the Supreme Court, interprets laws of the state to give a clear meaning to the provisions and clauses in the Constitution.\n\n"
+            "• (iii) Judicial review: The Judiciary, through the Supreme Court, reviews decisions of the legislature and the executive to determine whether they are constitutional or not.\n\n"
+            "• (iv) Protection of human rights: The Judiciary also ensures the protection of the fundamental human rights of people in the country.\n\n"
+            "(c) Sources of revenue for the District Assemblies in Ghana:\n\n"
+            "• (i) Tolls or fees: The District Assemblies generate revenue from tolls or fees from people operating in market centres, slaughterhouses, kiosks, etc.\n\n"
+            "• (ii) Property rates: The District Assemblies collect revenues from levies on landed property, buildings, and companies in the district.\n\n"
+            "• (iii) Issuing of licences: The District Assemblies issue licences to chop-bar operators, drinking-bar operators, hotel operators, sellers in kiosks, etc., to generate income for development in the districts.\n\n"
+            "• (iv) Engaging in economic ventures: The District Assemblies undertake economic activities to raise revenue for development, including farming, corn mills, sawmills, palm plantations, and transportation businesses.\n\n"
+            "• (v) Court fines: These are fines collected from people who misconduct themselves and are punished by the court to pay money to the state.\n\n"
+            "• (vi) Loans: These are bank loans applied for to undertake development projects in the districts.\n\n"
+            "• (vii) Royalties: These are payments from companies and industries operating in the districts.\n\n"
+            "• (viii) Special donations: These are contributions from companies, churches, and NGOs to enable the District Assemblies to undertake projects.\n\n"
+            "• (ix) Central government revenue: This is money in the form of the District Assemblies Common Fund given to the districts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2008 Q2)\n\n"
+            "(a) Mention four sources of revenue to District Assemblies in Ghana.\n\n"
+            "(b) Outline four contributions of the District Assemblies to the development of your area.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Sources of revenue to District Assemblies in Ghana:\n\n"
+            "• (i) Tolls or fees.\n\n"
+            "• (ii) Property rates.\n\n"
+            "• (iii) Issuing of licences.\n\n"
+            "• (iv) Economic ventures.\n\n"
+            "• (v) Court fines.\n\n"
+            "• (vi) Loans.\n\n"
+            "• (vii) Royalties.\n\n"
+            "• (viii) Special donations.\n\n"
+            "• (ix) District Assemblies Common Fund.\n\n"
+            "(b) Contributions of the District Assemblies to the development of an area:\n\n"
+            "• (i) Refuse collection and sanitation: They employ people to collect refuse and waste disposed of on streets or in gutters to ensure environmental cleanliness.\n\n"
+            "• (ii) Training and retraining of staff: They organize conferences and workshops to enable staff members to upgrade their skills to meet modern production methods.\n\n"
+            "• (iii) Construction and maintenance of feeder roads: They assist the central government in building feeder roads and maintaining poor roads in the districts.\n\n"
+            "• (iv) Civic education for residents: Through the NCCE, they offer education that enables people to know their rights and responsibilities.\n\n"
+            "• (v) Providing social amenities: They provide market centres, toilet facilities, clinics, pipe-borne water, lorry parks, and libraries to improve living standards.\n\n"
+            "• (vi) Development of tourist sites: They develop sites to promote the tourism industry, generating revenue and foreign exchange.\n\n"
+            "• (vii) Making and enforcing bye-laws: They pass and enforce regulations through the courts and the police to ensure proper behaviour of residents.\n\n"
+            "• (viii) Scholarships: They offer support to needy but brilliant students to encourage further education.\n\n"
+            "• (ix) Employment: They provide jobs as drivers, labourers, secretaries, accountants, and electricians.\n\n"
+            "• (x) Mobilization of resources: They collect tolls, fees, and property rates from local companies and residents for development projects.\n\n"
+            "• (xi) Preparation of leaders: They train people as Assemblymen and Unit Committee members who may later become Members of Parliament or Ministers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2009 Q1)\n\n"
+            "(a) What is a political party?\n\n"
+            "(b) Outline four ways in which political parties are important in the practice of democracy.\n\n"
+            "(c) Mention two problems facing political parties in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(a) A political party is a group of people with similar ideas about how a state should be governed and with the aim of winning political power.\n\n"
+            "(b) Importance of political parties in the practice of democracy:\n\n"
+            "• (i) Produce national leaders: They train and produce presidents, Members of Parliament, ministers, and District Chief Executives.\n\n"
+            "• (ii) Educate the electorate: They offer political education to help the public understand good governance and the need to use the ballot rather than violence to change government.\n\n"
+            "• (iii) Constructive criticism: Opposition parties help the ruling government stay effective by offering critiques of its policies.\n\n"
+            "• (iv) Link between people and government: They communicate the desires and opinions of the citizens to the government through feedback received from the public.\n\n"
+            "• (v) Alternative government: They provide standby programmes and policies that the public can vote into power if they accept them.\n\n"
+            "• (vi) Nominate candidates: They present presidential and parliamentary candidates to contest elections.\n\n"
+            "• (vii) Promote national unity: They create platforms for people from different ethnic groups to work together toward a common political goal.\n\n"
+            "(c) Problems facing political parties in Ghana:\n\n"
+            "• (i) Inadequate funds: Limited sources of money make it difficult to carry out campaigns and rallies.\n\n"
+            "• (ii) Bribery and corruption: Candidates may give out money to influence voters, resulting in the election of incompetent leaders.\n\n"
+            "• (iii) Power struggles: Internal conflicts for positions lead to disunity and hatred within the same party.\n\n"
+            "• (iv) Tribalism/Ethnicity: Parties aligned with a specific ethnic group may discourage others from joining.\n\n"
+            "• (v) Violence: Activities like rallies can be disrupted by opposing parties, resulting in injuries or loss of property.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2014 Q4)\n\n"
+            "Outline five contributions of the District Assemblies to the development of Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Refuse collection and sanitation: They employ people to collect refuse and waste disposed of on streets or in gutters to ensure environmental cleanliness.\n\n"
+            "• (ii) Training and retraining of staff: They organize conferences and workshops to enable staff members to upgrade their skills to meet modern production methods.\n\n"
+            "• (iii) Construction and maintenance of feeder roads: They assist the central government in building feeder roads and maintaining poor roads in the districts.\n\n"
+            "• (iv) Civic education for residents: Through the NCCE, they offer education that enables people to know their rights and responsibilities.\n\n"
+            "• (v) Providing social amenities: They provide market centres, toilet facilities, clinics, pipe-borne water, lorry parks, and libraries to improve living standards.\n\n"
+            "• (vi) Development of tourist sites: They develop sites to promote the tourism industry, generating revenue and foreign exchange.\n\n"
+            "• (vii) Making and enforcing bye-laws: They pass and enforce regulations through the courts and the police to ensure proper behaviour of residents.\n\n"
+            "• (viii) Scholarships: They offer support to needy but brilliant students to encourage further education.\n\n"
+            "• (ix) Employment: They provide jobs as drivers, labourers, secretaries, accountants, and electricians.\n\n"
+            "• (x) Mobilization of resources: They collect tolls, fees, and property rates from local companies and residents for development projects.\n\n"
+            "• (xi) Preparation of leaders: They train people as Assemblymen and Unit Committee members who may later become Members of Parliament or Ministers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2016 Q4)\n\n"
+            "(a) Describe the structure of government at the district level in Ghana.\n\n"
+            "(b) Identify four problems facing District Assemblies in Ghana.\n\n"
+            "(c) Suggest four ways by which the problems identified in (b) can be solved.",
+        answer: "⦿ Answer:\n\n"
+            "(a) Structure of government at the district level in Ghana:\n\n"
+            "• (i) District Chief Executive.\n\n"
+            "• (ii) District Assembly.\n\n"
+            "• (iii) Area Committee.\n\n"
+            "• (iv) Unit Committee.\n\n"
+            "(b) Problems facing District Assemblies in Ghana:\n\n"
+            "• (i) Revenue mobilization: Inability to collect enough revenue from local residents and companies.\n\n"
+            "• (ii) Over-reliance on common funds: Too much dependence on central government money because they cannot generate enough funds internally.\n\n"
+            "• (iii) Inefficient monitoring: Poor oversight of projects leading to shoddy work by contractors.\n\n"
+            "• (iv) Low capacity: Staff and members are often not adequately trained for their roles.\n\n"
+            "• (v) Contract irregularities: Inflated contract costs and the use of low-quality materials.\n\n"
+            "• (vi) Poor sanitation: Challenges with waste disposal and open defecation in districts.\n\n"
+            "• (vii) Government interference: Frequent changes to District Chief Executives when the central government changes.\n\n"
+            "(c) Ways of solving the problems facing District Assemblies:\n\n"
+            "• (i) Explore new revenue sources: Engaging in farming or imposing special levies to raise more developmental funds.\n\n"
+            "• (ii) Public education: Educating residents on sanitation and the importance of paying rates.\n\n"
+            "• (iii) Increase participation: Encouraging residents to take part in decision-making and social programmes.\n\n"
+            "• (iv) Regular capacity building: Organizing workshops to improve the skills of staff and managers.\n\n"
+            "• (v) Judicious use of funds: Ensuring that money generated is used wisely for designated projects.\n\n"
+            "• (vi) Improved infrastructure: Central government support to build roads, railways, and communication networks.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2017 Q4)\n\n"
+            "Highlight five ways of ensuring political stability in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Tolerance of divergent views: Ruling governments must tolerate opposition views to prevent military overthrows.\n\n"
+            "• (ii) Respect for human rights: Protecting rights to life and property prevents conflict.\n\n"
+            "• (iii) Freedom of the press: Allowing the media to expose wrong policies without intimidation.\n\n"
+            "• (iv) Rule of law: Enforcing laws fairly on all citizens regardless of their status.\n\n"
+            "• (v) Accountability and transparency: Making government policies clear and being answerable to the people.\n\n"
+            "• (vi) Avoiding dictatorship: Involving people in decision-making rather than ruling by personal interest.\n\n"
+            "• (vii) Ethnic integration: Promoting national festivals and inter-tribal marriages to prevent ethnic conflict.\n\n"
+            "• (viii) Periodic free and fair elections: Ensuring peaceful changes of government through the ballot box.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2020 Q3c)\n\n"
+            "Highlight four duties of an Assemblyman in your community.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Link between community and Assembly: Serving as the channel for local concerns and bringing feedback from Assembly meetings.\n\n"
+            "• (ii) Mobilizing community labour: Organizing people for communal work such as sanitation drives or building markets.\n\n"
+            "• (iii) Educating the people: Helping residents understand the decisions and programmes of the District Assembly.\n\n"
+            "• (iv) Initiating projects: Seeking assistance from NGOs and the government to provide water, schools, or toilets.\n\n"
+            "• (v) Reporting back: Informing community members about the progress of social infrastructural projects.\n\n"
+            "• (vi) Keeping peace: Collaborating with chiefs and elders to resolve disputes and maintain harmony.\n\n"
+            "• (vii) Serving on sub-committees: Contributing skills to areas like finance, sanitation, or security within the Assembly.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2021 Q4a)\n\n"
+            "(i) What is political stability?\n\n"
+            "(ii) List four factors that can promote political stability in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "(i) Political stability is the situation in a country where governance, peace, and security, as well as harmonious living, exist for a long time without any violent interruption.\n\n"
+            "(ii) Factors that can promote political stability in Ghana:\n\n"
+            "• (i) Freedom of speech.\n\n"
+            "• (ii) Periodic free and fair elections.\n\n"
+            "• (iii) Constructive criticism of government policies.\n\n"
+            "• (iv) Avoidance of dictatorial rule.\n\n"
+            "• (v) Respect for and tolerance of all ethnic groups.\n\n"
+            "• (vi) Independence of state institutions such as the Judiciary and Police.\n\n"
+            "• (vii) Observing the rule of law.\n\n"
+            "• (viii) Respect for fundamental human rights.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2023 Q3a)\n\n"
+            "(i) State the three arms of government in Ghana.\n\n"
+            "(ii) Highlight three functions of the District Chief Executive.",
+        answer: "⦿ (i) Answer:\n\n"
+            " Refer to Question 1(a) above.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• (i) Chairs the Executive Committee: Presides over meetings to ensure effective decisions on security, sanitation, and social amenities.\n\n"
+            "• (ii) Head of District Security Committee: Leads meetings to coordinate agencies like the police and fire service to maintain law and order.\n\n"
+            "• (iii) Day-to-day administration: Manages the smooth running of all institutions and agencies within the district.\n\n"
+            "• (iv) Liaises with chiefs: Works with traditional leaders to acquire land for markets, schools, and hospitals.\n\n"
+            "• (v) Propagates policies: Explains ongoing and intended government health, education, and agricultural projects to residents.\n\n"
+            "• (vi) Monitoring projects: Ensures school buildings and other projects are executed according to the original plan.\n\n"
+            "• (vii) Link to central government: Provides information about local needs to the central government for solutions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2024 Q3a)\n\n"
+            "Explain four ways by which national elections promote democracy.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Prevents dictatorship: Allows citizens to select their leaders through voting, stopping a few people from deciding for the majority.\n\n"
+            "• (ii) Mechanism for selection: Provides a peaceful way for registered citizens to choose the President and Parliamentarians.\n\n"
+            "• (iii) Healthy competition: Creates a platform for political parties to campaign based on ideas and policies peacefully.\n\n"
+            "• (iv) Mobilization and unity: Encourages people from different ethnic and religious backgrounds to join together in a political system.\n\n"
+            "• (v) Expresses the will of the people: Ensures that election results reflect the true choice of the majority through a transparent process.\n\n"
+            "• (vi) Promotes good governance: Keeps the government on its toes to provide for the needs of the people to secure future votes.\n\n"
+            "• (vii) Prevents civil wars: Establishes a trusted mechanism for change, making people resort to the ballot rather than violence.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Financial and Investment Issues": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2025 Q5)\n\n"
+            "(a) (i) How would you explain the concept of social security to the parents?\n\n"
+            "    (ii) State any two national social security schemes available in Ghana.\n\n"
+            "(b) Suggest four reasons to convince any individual to join a Social Security Scheme in Ghana.",
+        answer: "⦿ Answer:\n\n"
+            "⦿ (a) (i) Social security is a programme by society or the public to provide income, security, and protection against the future, old age, and unforeseen circumstances such as invalidity, sickness, or the death of a breadwinner.\n\n"
+            "⦿ (a) (ii) National social security schemes available in Ghana:\n\n"
+            "• Social Security and National Insurance Trust (SSNIT).\n\n"
+            "• National Health Insurance Scheme (NHIS).\n\n"
+            "• National Pension Scheme.\n\n"
+            "• State Insurance Corporation (SIC).\n\n"
+            "• Micro-insurance schemes, for example, GLICO, Providence Life, LEAP, Tier II, and Tier III.\n\n"
+            "Note: Use full names to attract full marks; abbreviations may only attract half marks.\n\n"
+            "⦿ (b) Reasons to convince an individual to join a Social Security Scheme in Ghana:\n\n"
+            "• Financial security: Social security schemes such as SSNIT, SIC, and the National Pension Scheme provide financial security to policyholders. This ensures that beneficiaries are assured of a lump sum of money they can claim during times of disability, death, or retirement.\n\n"
+            "• Medical care or sick benefit: Schemes like the National Health Insurance Scheme (NHIS) provide cover against sickness. This allows the insured to attend the hospital for medical care or obtain drugs from a pharmacy, with the costs charged to the insurer, enabling people to seek medical care regularly.\n\n"
+            "• Poverty prevention: Social security through providers like Providence Life or GLICO protects policyholders against poverty. It enables individuals to plan against unforeseen circumstances, prevents them from borrowing, and encourages them to keep money aside for future use or investment to curb unnecessary spending.\n\n"
+            "• Survivors' benefit or death benefit for dependants: Packages from SSNIT, SIC Life, or GLICO provide relief for beneficiaries. They allow parents to plan against untimely death by saving money for their surviving children or dependants in the form of life insurance.\n\n"
+            "• Retirement benefits and old age: These schemes provide opportunities for both government and private workers to plan for old age. A specific percentage of a worker's monthly salary is deducted and kept by SSNIT or similar bodies to be given back to the worker upon reaching retirement age.\n\n"
+            "• Economic stability: Social security ensures economic stability in the country by enabling people to save for the future, gain profit, or secure capital for investment. This minimizes excessive borrowing and stabilizes the national economy.\n\n"
+            "• Disability or invalidity benefit: These schemes provide an opportunity for people to insure against disability in life. If an unfortunate incident such as an accident occurs, the individual can receive disability or invalidity benefits from the insurer.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Science and Technology": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) (i) Define the term technology.\n\n"
+            "    (ii) Imagine you are on a trip to a village in Ghana. What four technological gadgets will you take with you to make your trip more comfortable and enjoyable?\n\n"
+            "    (iii) Explain how each technology stated in (a)(ii) will help you.\n\n"
+            "(b) List two challenges that you may encounter when using technology.",
+        answer: "⦿ (a)  Answer:\n\n"
+            "⦿ (i) Technology is the process whereby scientific knowledge is applied to work and solve problems.\n\n"
+            "⦿ (ii) Technological gadgets that can make the trip more comfortable and enjoyable:\n\n"
+            "• Mobile phone and accessories.\n\n"
+            "• Kettle/heater.\n\n"
+            "• Bicycle.\n\n"
+            "• Watch.\n\n"
+            "• Camera.\n\n"
+            "• Portable power bank.\n\n"
+            "• Hair clippers.\n\n"
+            "• Compass.\n\n"
+            "• Computer/laptop/tablet.\n\n"
+            "• Radio.\n\n"
+            "• Car.\n\n"
+            "• Motorbike.\n\n"
+            "• Torch.\n\n"
+            "⦿ (iii) How each technology will help during the trip:\n\n"
+            "• Mobile phone and charger: Mobile phones and the charger will help to make communication with friends and relations outside the location or village easier. The charger will be used to charge the battery in the phone when it runs down.\n\n"
+            "• Kettle/heater: The kettle or heater will be used to heat water and cook food in the village. This will prevent me from hunger and boil water for bathing or drinking.\n\n"
+            "• Watch: The watch will help me to check time in the village. It will assist me in the village to plan my activities and finish at the stipulated time.\n\n"
+            "• Hair clippers: The hair clippers will be used to shave or ensure maintenance and trimming of my hair. This will enable me to keep my hair neat and look nice in the village.\n\n"
+            "• Bicycle: A bicycle will make movement from one location to another in the village easier. This means I will not struggle to move to certain areas in the village.\n\n"
+            "• Portable power bank: A portable power bank will be used to store or save some electrical power in order to recharge other technological devices such as laptops and mobile phones in the village, especially when the light goes off for a longer period.\n\n"
+            "• Compass: A compass will be used to assist me to locate the direction of places in the village.\n\n"
+            "• Camera: The camera will be used to take pictures of places to be visited. This will enable me to capture memories and scenic views.\n\n"
+            "• Computer/laptop/tablet: Computers, laptops, or tablets will be used for recording and sending messages from the village to other people outside the village. Through this, people will be able to come to my aid if anything happens to me in the village.\n\n"
+            "• Radio: A radio will be used to listen to music and news in the village. This will enable me to follow what is happening in the country and keep me happy every day.\n\n"
+            "• Torch: The torch will be used to light my way about in the village. This will enable me to move comfortably within the village.\n\n"
+            "• Car: The car will be used to help transport items and make my movement from one place to another in the village easier.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Technological updates: Improvement in previous technology is made constantly, therefore requiring regular updates and retraining.\n\n"
+            "• Connectivity issues: There may be internet connectivity issues such as slow data speeds.\n\n"
+            "• Technical disruptions: Technical issues such as system crashes may occur and disrupt workflows.\n\n"
+            "• Security threats: There are security threats such as cyber-attacks that can breach data and compromise sensitive information or privacy.\n\n"
+            "• Resource consumption: Regular maintenance and updates can consume time and resources.\n\n"
+            "• Financial cost: Technology is expensive to acquire, upgrade, and maintain.\n\n"
+            "• Localized maintenance: Maintenance of the gadgets in the village may become a problem.\n\n"
+            "• Information loss: Loss of gadgets may lead to loss of information.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Science and Technology": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1990 Q4a)\n\n"
+            "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
+        answer: "⦿ Achievements of Dr. Kwame Nkrumah:\n\n"
+            "• Political Independence: He led Ghana to achieve independence from colonial rule on 6th March 1957.\n\n"
+            "• Infrastructure (Harbours): The Tema Harbour was built under his leadership to facilitate trade.\n\n"
+            "• Industrialisation: His government set up state enterprises such as VALCO, Rubber Manufacturing at Bonsa, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n\n"
+            "• Health Services: He expanded and equipped health centres and built new hospitals like Okomfo Anokye Teaching Hospital in Kumasi. He also established the University of Ghana’s Medical School at Korle Bu.\n\n"
+            "• Energy Production: He built the Akosombo Dam to improve power supply in Ghana and export electricity to neighbouring countries like Togo.\n\n"
+            "• Education (Secondary & Tertiary): He built many second-cycle schools (e.g., Tweneboa Kodua SHS, Konongo Odumase SHS) and established universities like UCC and KNUST.\n\n"
+            "• Educational Policy: He introduced compulsory free-tuition primary education, a free textbooks scheme, and non-formal education through the Department of Social Welfare.\n\n"
+            "• Financial Institutions: He established the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation (SIC).\n\n"
+            "• Housing: He established the State Housing Corporation to provide affordable housing for Ghanaians.\n\n"
+            "• Agriculture: He set up state farms and irrigation facilities for rice and sugar, helping to diversify agriculture into cash crops and livestock.\n\n"
+            "• Fishing Industry: He built the Tema Fishing Harbour and several storage facilities across the country.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 1999 Q3)\n\n"
+            "(a) Mention four achievements of Dr. Kwame Nkrumah.\n\n"
+            "(b) What are the four reasons that led to the overthrow of Dr. Kwame Nkrumah?",
+        answer: "⦿ (a) Achievements of Dr. Kwame Nkrumah:\n\n"
+            "• (See Question 1 for full detailed list. Key points include: Achievement of Independence, Construction of Akosombo Dam, Free Primary Education, and Establishment of KNUST/UCC.)\n\n"
+            "    ⦿ (b) Reasons why Dr. Kwame Nkrumah was overthrown:\n\n"
+            "• One-Party State: He made the Convention People’s Party (CPP) the only legal political party, creating dissatisfaction as CPP members controlled all aspects of governance.\n\n"
+            "• Dictatorship: He was regarded as a dictator who shared power only with CPP members and ignored the decisions and interests of those outside his party.\n\n"
+            "• Preventive Detention Act (PDA): This act allowed him to detain opponents without trial. Many people’s rights were violated, and some died while in detention.\n\n"
+            "• Bribery and Corruption: His government suffered from widespread corruption, which led to the collapse of several state-owned enterprises and a loss of public confidence.\n\n"
+            "• Army Dissatisfaction: He gave preferential treatment to his Presidential Guards, which angered the regular Armed Forces and led to the military coup.\n\n"
+            "• Disrespect for Tradition: He disrespected traditional institutions and destooled several chiefs, driving them to join the opposition (UGCC).\n\n"
+            "• Financial Institutions: He established the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation (SIC).\n\n"
+            "• Financial Mismanagement: He was accused of unwise spending, such as giving large financial gifts to other countries (Guinea, Mali), leading to high national debt and inflation.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 [BECE 2025 Q3(a)(ii)]\n\n"
+            "List four important reasons for which Ghana decided to practice republican system of government.\n\n",
+        answer:
+            "⦿ Important reasons Ghana decided to practice republican system of government:\n\n"
+            "• Sovereignty: To gain full sovereignty and break all remaining colonial ties with the British monarchy.\n\n"
+            "• Nationalism: To promote nationalism and Pan-African ideals.\n\n"
+            "• Human Rights: To guarantee the fundamental human rights of the Ghanaian people.\n\n"
+            "• Governance Structures: To establish independent institutions and organs of government.\n\n"
+            "• Accountability: To allow citizens to choose their own leaders and hold them accountable.\n\n"
+            "• Economic Stability: To foster economic prosperity and stability through self-management.\n\n"
+            "• Resource Management: To control and manage the country’s natural resources for the benefit of its own people.\n\n"
+            "• Nation Building: To establish a strong central executive government capable of nation-building.\n\n"
+            "• Peace and Unity: To maintain peace, stability, and promote a single national unity and identity.\n\n"
+            "• Democratic Ideals: To promote the rule of law and democratic accountability.\n\n"
+            "• Autonomy: To gain complete constitutional autonomy.\n\n"
+            "• Modernization: It was considered a more modern and progressive system compared to a constitutional monarchy.\n\n"
+            "• Legitimacy: To give the government popular legitimacy based on the will of the people.",
+        explanation: "",
+      ),
+    ],
+  ),
+
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "Mapping ": PracticeModel(
     audioPath: '',

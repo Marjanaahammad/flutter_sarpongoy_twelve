@@ -9982,6 +9982,1517 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
+  "JHS 3 - The 1992 Constitution": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The head of the judiciary in Ghana is the        (BECE 1998 Q34)",
+        options: [
+          "President",
+          "Attorney-General",
+          "Speaker of Parliament",
+          "Chief Justice"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice is the head of Ghana's judiciary and the highest-ranking judicial officer in the country.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A constitution popularly approved by the people ensures        (BECE 2015 Q27)",
+        options: [
+          "Ethnic balance",
+          "Good governance",
+          "Rapid development",
+          "Reduction in crime"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A constitution accepted by the people provides rules, responsibilities, and limits on power that promote good governance.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The principle of separation of powers prevents        (BECE 2004 Q18)",
+        options: [
+          "Ethnic conflicts",
+          "Coalition government",
+          "Dictatorial government",
+          "Political associations"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Separation of powers prevents one organ of government from controlling all state power and becoming dictatorial.",
+      ),
+      QuizQuestion(
+        question:
+            "4. A set of rules that protects the lives of the people and shows how a nation should be governed is known as        (BECE 1998 Q10)",
+        options: ["Conventions", "Constitutions", "Rules", "Regulations"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A constitution contains the fundamental rules and principles by which a country is governed and its citizens are protected.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main function of the executive organ of government is        (BECE 2005 Q40)",
+        options: [
+          "Law-making",
+          "Implementation of law",
+          "Interpretation of law",
+          "Impeachment of the law"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The executive organ is responsible for carrying out and enforcing the laws and policies of the country.",
+      ),
+      QuizQuestion(
+        question: "6. The highest court in Ghana is the        (BECE 1999 Q30)",
+        options: [
+          "Supreme Court",
+          "Magistrate Court",
+          "High Court",
+          "Tribunal Court"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Supreme Court is the highest and final court of appeal in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A constitution may be defined as the        (BECE 2012 Q34)",
+        options: [
+          "Bye-laws of a country",
+          "Decrees of a country",
+          "Customary laws of a country",
+          "Highest law of a country"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The constitution is the supreme or highest law from which all other laws in the country derive their authority.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The interpretation of the Constitution of Ghana is a function of the        (BECE 2011 Q21)",
+        options: ["Legislature", "Executive", "Judiciary", "Cabinet"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The judiciary interprets the Constitution and other laws when resolving legal disputes.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The constitution of a country is endorsed by the people through        (BECE 2004 Q15)",
+        options: ["Census", "Acclamation", "A referendum", "Bye-election"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A referendum allows citizens to vote directly to approve or reject a proposed constitution.",
+      ),
+      QuizQuestion(
+        question:
+            "10. A general pardon for an offence against the state is known as        (BECE 1992 Q7)",
+        options: ["Amnesty", "Freedom", "Permit", "Exeat"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Amnesty is an official pardon granted to a group of people for offences, especially offences against the state.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Who is the head of the judiciary in Ghana?        (BECE 1999 Q21)",
+        options: [
+          "The Speaker of Parliament",
+          "The President",
+          "The Chief Justice",
+          "The Vice President"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice heads the judiciary and supervises the administration of justice in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A constitutional obligation which ensures peace and harmony in Ghana is for the citizens to        (BECE 2005 Q4)",
+        options: [
+          "Arrest criminals",
+          "Pay their taxes",
+          "Attend communal labour",
+          "Be law-abiding"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Being law-abiding promotes order, peace, respect for others, and harmony in society.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following institutions can make laws to check smuggling and armed robbery in Ghana?        (BECE 2006 Q26)",
+        options: [
+          "The Police Service",
+          "High Court",
+          "Parliament",
+          "District Assembly"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Parliament is the national institution responsible for making laws to address crimes such as smuggling and armed robbery.",
+      ),
+      QuizQuestion(
+        question:
+            "14. A bill passed by Parliament becomes law when the President gives his        (BECE 2005 Q20)",
+        options: ["Accord", "Veto", "Advice", "Assent"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A bill passed by Parliament becomes law after the President gives presidential assent.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Writing a bill into a legal language is done by the        (BECE 2004 Q13)",
+        options: [
+          "Attorney-General's Department",
+          "Registrar-General Department",
+          "Judicial Council",
+          "Council of State"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The Attorney-General's Department prepares and drafts proposed laws in the proper legal language.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The President of Ghana is sworn into office by the        (BECE 1998 Q35)",
+        options: [
+          "Attorney-General",
+          "Chief Justice",
+          "Speaker of Parliament",
+          "Chief of Defence Staff"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice administers the oath of office to the President of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "17. A constitution is important for a country because it        (BECE 2005 Q21)",
+        options: [
+          "Allows criminals to be detained without trial",
+          "Serves as the basis for good governance",
+          "Is interpreted by the judiciary",
+          "Can be defended by the military"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A constitution provides the principles, institutions, rights, and procedures needed for good governance.",
+      ),
+      QuizQuestion(
+        question:
+            "18. If Afua Asantewaa is a judge, then she contributes to        (BECE 2006 Q12)",
+        options: [
+          "Law-making",
+          "Interpretation of the constitution",
+          "Land administration",
+          "Policy formulation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Judges are members of the judiciary, whose duties include interpreting the Constitution and other laws.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Who presides over debates in the Parliament of Ghana? The        (BECE 2007 Q12)",
+        options: ["Clerk", "Chief whip", "Majority leader", "Speaker"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Speaker of Parliament chairs parliamentary sittings and presides over debates.",
+      ),
+      QuizQuestion(
+        question: "20. A draft law is also known as        (BECE 2006 Q20)",
+        options: ["Bill", "Decree", "Ordinance", "Legislation"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A bill is a proposed or draft law presented for consideration and approval.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The highest judicial officer in Ghana is the        (BECE 2007 Q18)",
+        options: [
+          "Chief Justice",
+          "Ghana Bar Association President",
+          "Supreme Court Judge",
+          "Inspector General of Police"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice is the highest judicial officer and head of Ghana's judiciary.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following institutions of government protects the liberty and rights of the people? The        (BECE 2007 Q29)",
+        options: ["Legislature", "Police", "Executive", "Judiciary"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The judiciary protects individual rights and liberties by applying the Constitution and laws fairly.",
+      ),
+      QuizQuestion(
+        question:
+            "23. A set of rules by which a country is governed is referred to as        (BECE 2008 Q14)",
+        options: ["International law", "Bye-laws", "Constitution", "Manifesto"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A constitution is the set of fundamental rules and principles by which a country is governed.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The main work of members of Parliament under Ghana's 1992 Constitution is to        (BECE 2008 Q35)",
+        options: [
+          "Draw a manifesto",
+          "Execute laws",
+          "Interpret laws",
+          "Make laws"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Members of Parliament perform the legislative function of debating and making laws for Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A president who performs judicial functions abuses the principle of        (BECE 2009 Q4)",
+        options: [
+          "Checks and balances",
+          "Separation of powers",
+          "Fundamental human rights",
+          "Collective responsibility"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Judicial functions belong to the judiciary, so a president performing them violates the separation of powers.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The organ of government that initiates policies to be passed into law is the        (BECE 2009 Q36)",
+        options: ["Media", "Judiciary", "Parliament", "Executive"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The executive develops and initiates government policies, which may then be presented to Parliament as bills.",
+      ),
+      QuizQuestion(
+        question: "27. One duty of a citizen is        (BECE 2009 Q23)",
+        options: [
+          "Enjoy free education",
+          "Join a religious group",
+          "Assist the police in investigations",
+          "Support a political party"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Citizens have a duty to cooperate with security agencies by providing information and assisting lawful investigations.",
+      ),
+      QuizQuestion(
+        question:
+            "28. The main institution that helps the executive arm of government to implement its policies is the        (BECE 2010 Q19)",
+        options: [
+          "Civil Service",
+          "Judicial Service",
+          "Audit Service",
+          "Statistical Service"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Civil Service supports ministries and government departments in implementing executive policies and programmes.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The Supreme Court of Ghana mainly        (BECE 2010 Q29)",
+        options: [
+          "Runs courses for judges and magistrates",
+          "Remands criminals in prison custody",
+          "Interprets the Constitution and law for the country",
+          "Makes and implements laws in the country"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Supreme Court has the highest authority in interpreting Ghana's Constitution and laws.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The practice of checks and balances prevents        (BECE 2010 Q34)",
+        options: ["Dictatorship", "Favouritism", "Ethnicity", "Sectionalism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Checks and balances limit the powers of each organ of government and help prevent dictatorship.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Which of the following officials is not elected in Ghana?        (BECE 2011 Q2)",
+        options: [
+          "Member of Parliament",
+          "President of Ghana",
+          "Assembly member",
+          "Minister of State"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Ministers of State are appointed by the President, while the other officials listed are elected.",
+      ),
+      QuizQuestion(
+        question:
+            "32. Independence of the judiciary implies that judges        (BECE 2012 Q21)",
+        options: [
+          "Should get everything free",
+          "Should not pay taxes",
+          "Can do whatever they like",
+          "Should be free from political interference"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Judicial independence means judges must make decisions according to the law without political pressure or interference.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The executive arm of government comprises the President, the Cabinet and        (BECE 2012 Q25)",
+        options: [
+          "Civil servants",
+          "Lawyers",
+          "The Speaker",
+          "The Chief Justice"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The executive includes the President, ministers in the Cabinet, and civil servants who help implement government policies.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The principle of checks and balances prevents        (BECE 2013 Q20)",
+        options: [
+          "Constitutionalism",
+          "Democracy",
+          "Dictatorship",
+          "Patriotism"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Checks and balances prevent excessive concentration and abuse of power, thereby reducing the risk of dictatorship.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The set of guidelines for governing a nation is provided by the        (BECE 2014 Q4)",
+        options: [
+          "Constitution",
+          "Council of State",
+          "Judiciary",
+          "Legislature"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The constitution provides the fundamental guidelines and principles used to govern a nation.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The head of the judiciary in Ghana is the        (BECE 2015 Q26)",
+        options: [
+          "Attorney General",
+          "Chief Justice",
+          "Director of Public Prosecution",
+          "Inspector General of Police"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice is the head of Ghana's judiciary and supervises the judicial system.",
+      ),
+      QuizQuestion(
+        question: "37. The Supreme Court of Ghana        (BECE 2016 Q25)",
+        options: [
+          "Interprets the Constitution and the laws of Ghana",
+          "Makes and implements laws",
+          "Remands criminals in custody",
+          "Runs courses for judges and magistrates"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Supreme Court interprets the Constitution and laws and serves as Ghana's final court of appeal.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Which of the following institutions can make laws to check smuggling and armed robbery in Ghana?        (BECE 2016 Q30)",
+        options: [
+          "District Assembly",
+          "The Police Service",
+          "Parliament",
+          "High Court"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Parliament has the authority to make national laws dealing with offences such as smuggling and armed robbery.",
+      ),
+      QuizQuestion(
+        question:
+            "39. The main function of the executive organ of government is        (BECE 2016 Q40)",
+        options: [
+          "Interpretation of laws",
+          "Impeachment of the laws",
+          "Implementation of laws",
+          "Law-making"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The executive is responsible for implementing and enforcing the laws and policies of the country.",
+      ),
+      QuizQuestion(
+        question:
+            "40. Bullying of pupils in schools constitutes        (BECE 2017 Q14)",
+        options: [
+          "Sex discrimination",
+          "Child labour",
+          "Sexual harassment",
+          "Child abuse"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bullying causes physical or emotional harm to children and is therefore a form of child abuse.",
+      ),
+      QuizQuestion(
+        question:
+            "41. The principle of separation of powers ensures that        (BECE 2018 Q11)",
+        options: [
+          "Political parties do not work together",
+          "The police and military do not work together",
+          "The President appoints different ministers",
+          "Various organs of government work independently"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Separation of powers assigns different responsibilities to the executive, legislature, and judiciary so they can operate independently.",
+      ),
+      QuizQuestion(
+        question:
+            "42. The fundamental laws by which a country is governed is known as        (BECE 2018 Q21)",
+        options: [
+          "Bye-laws",
+          "Legislative instruments",
+          "Constitution",
+          "Court ruling"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The constitution contains the fundamental laws and principles used to govern a country.",
+      ),
+      QuizQuestion(
+        question:
+            "43. The main work of the members of Parliament under the 1992 Constitution is to        (BECE 2018 Q28)",
+        options: [
+          "Execute laws",
+          "Draw manifestos",
+          "Interpret laws",
+          "Make laws"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The main responsibility of Parliament is to debate, amend, and make laws for the country.",
+      ),
+      QuizQuestion(
+        question:
+            "44. People are elected into office of Parliament through a process called        (BECE 2019 Q13)",
+        options: [
+          "Presidential election",
+          "Appointment taking",
+          "Referendum",
+          "Voting"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Citizens choose their representatives in Parliament by voting during parliamentary elections.",
+      ),
+      QuizQuestion(
+        question:
+            "45. The application of checks and balances in democratic governments helps to prevent        (BECE 2019 Q29)",
+        options: ["Plebiscite", "Dictatorship", "Voting", "Unemployment"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Checks and balances prevent one person or institution from gaining unlimited power and becoming dictatorial.",
+      ),
+      QuizQuestion(
+        question:
+            "46. Which institution is responsible for making the main laws of Ghana?        (BECE 2019 Q30)",
+        options: ["District Assembly", "Parliament", "Supreme Court", "Jury"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Parliament is the legislative institution responsible for making the main national laws of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "47. Which of the following officials is not elected?        (BECE 2020 Q3)",
+        options: [
+          "Assemblyman",
+          "President",
+          "Chief Justice",
+          "Member of Parliament"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Chief Justice is appointed by the President in consultation with the Council of State and with Parliament's approval.",
+      ),
+      QuizQuestion(
+        question:
+            "48. A general pardon for an offence against the state is known as        (BECE 2021 Q29)",
+        options: ["Amnesty", "Freedom", "Permit", "Plebiscite"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Amnesty is an official pardon granted for offences, especially political or state-related offences.",
+      ),
+      QuizQuestion(
+        question:
+            "49. Which principle is used to check abuse of power in governance?        (BECE 2022 Q6)",
+        options: [
+          "Executive veto",
+          "Parliamentary immunity",
+          "Separation of powers",
+          "Rule of law"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Separation of powers divides authority among the organs of government and helps prevent the abuse of power.",
+      ),
+      QuizQuestion(
+        question:
+            "50. Which of the following best promotes the smooth operation of separation of powers in Ghana? The        (BECE 2023 Q13)",
+        options: [
+          "Presidency",
+          "Chief Justice",
+          "Constitution",
+          "Speaker of Parliament"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The Constitution defines the powers and responsibilities of each organ of government and supports their smooth operation.",
+      ),
+      QuizQuestion(
+        question:
+            "51. The constitution of a country is important because it        (BECE 2025 Q17)",
+        options: [
+          "Punishes criminals and politicians",
+          "Allows the Speaker to become the Head of State",
+          "Serves as basis for the practice of good governance",
+          "Can be amended anytime and has fixed term"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The constitution provides the legal framework, principles, and institutions required for the practice of good governance.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Peace and Security in Our Nation": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following is not a function of the Police Service?        (BECE 2001 Q16)",
+        options: [
+          "Arresting criminals",
+          "Controlling traffic",
+          "Maintaining peace",
+          "Judging cases in court"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Judging cases in court is a function of the judiciary. The Police Service arrests criminals, controls traffic, and maintains peace and order.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The main duty of the Police Service is to        (BECE 1994 Q40)",
+        options: [
+          "Collect debts for creditors",
+          "Maintain law and order",
+          "Arrest and judge thieves",
+          "Protect national property"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The primary duty of the Police Service is to maintain law and order and protect people and property.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Criminal activities in the society can best be minimized if there is effective        (BECE 2025 Q22)",
+        options: [
+          "Arbitration",
+          "Law enforcement",
+          "Parental care",
+          "Prison service"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Effective law enforcement discourages criminal behaviour by ensuring that laws are obeyed and offenders are arrested and prosecuted.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Life and property are protected in the community by the        (BECE 2020 Q14)",
+        options: [
+          "Chief and his elders",
+          "Law and order",
+          "School authorities",
+          "Family heads"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The maintenance of law and order creates a safe environment in which the lives and property of community members are protected.",
+      ),
+      QuizQuestion(
+        question:
+            "5. One way to maintain peace and security in your community is by        (BECE 2024 Q11)",
+        options: [
+          "Ignoring your neighbours",
+          "Joining a gang",
+          "Volunteering for community service",
+          "Starting a fight"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Volunteering for community service encourages cooperation, responsibility, and unity, which help maintain peace and security.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Who are often called Peace Officers?        (BECE 1992 Q35)",
+        options: ["Soldiers", "Policemen", "Lawyers", "Doctors"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Policemen are often called peace officers because they maintain law and order and protect lives and property.",
+      ),
+      QuizQuestion(
+        question: "7. Why are laws made? For        (BECE 2022 Q32)",
+        options: [
+          "Better education",
+          "Conformity",
+          "Family unity",
+          "Instant justice"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Laws are made to ensure conformity by guiding people to behave according to accepted rules and standards in society.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The main duty of the police in a community is to        (BECE 1997 Q4)",
+        options: [
+          "Arrest criminals",
+          "Terrorize little children",
+          "Direct traffic",
+          "Keep law and order"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The main duty of the police is to keep law and order. Arresting criminals and directing traffic are part of this broader responsibility.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following is not a function of the Police Service?        (BECE 2016 Q17)",
+        options: [
+          "Arresting criminals",
+          "Controlling traffic",
+          "Judging cases in court",
+          "Maintaining peace and order"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Judging cases in court is performed by judges in the judiciary, not by the Police Service.",
+      ),
+      QuizQuestion(
+        question: "10. Laws are mainly made to ensure        (BECE 2011 Q17)",
+        options: [
+          "Better education",
+          "Instant justice",
+          "Social conformity",
+          "Family unity"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Laws promote social conformity by requiring members of society to follow accepted rules and standards of behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The main duty of the police in a community is to        (BECE 2023 Q1)",
+        options: [
+          "Arrest criminals",
+          "Intimidate people",
+          "Direct traffic",
+          "Keep law and order"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The main responsibility of the police in a community is to keep law and order and ensure the safety of the people.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The maintenance of law and order in traditional societies in Ghana is the responsibility of        (BECE 2016 Q26)",
+        options: [
+          "Chiefs and their elders",
+          "Priests and their elders",
+          "Teachers and family heads",
+          "Police and soldiers"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In traditional Ghanaian societies, chiefs and their elders are responsible for maintaining law, order, and peace within their communities.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Promoting Democracy and Political Stability": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Government of the people, by the people and for the people is referred to as        (BECE 2003 Q16)",
+        options: ["Socialism", "Monarchy", "Democracy", "Apartheid"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Democracy is a system of government in which the people participate directly or through elected representatives.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The central government supports District Assemblies through        (BECE 2005 Q38)",
+        options: [
+          "Market tolls",
+          "Basic rates",
+          "Property rates",
+          "The Common Fund"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The District Assemblies Common Fund provides financial support from the central government for development at the district level.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Sources of revenue for District Assemblies in Ghana include        (BECE 1999 Q18)",
+        options: ["Sales tax", "Purchase tax", "Basic rates", "Income tax"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Basic rates are locally generated revenues collected by District Assemblies from eligible residents.",
+      ),
+      QuizQuestion(
+        question:
+            "4. At the district level, an assemblyman is equivalent to a        (BECE 2005 Q15)",
+        options: ["Minister", "Judge", "Parliamentarian", "Lawyer"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An assemblyman represents an electoral area in the District Assembly, just as a parliamentarian represents a constituency at the national level.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Laws made by the District Assemblies are called        (BECE 2008 Q40)",
+        options: ["Bye-laws", "Decrees", "Ordinance", "Bills"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "District Assemblies make bye-laws to regulate activities and maintain order within their districts.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following institutions is most useful in the provision of social amenities in Ghana?        (BECE 2005 Q39)",
+        options: [
+          "The Bank of Ghana",
+          "Ghana Highway Authority",
+          "District Assemblies",
+          "Internal Revenue Service"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "District Assemblies provide local social amenities such as schools, markets, clinics, sanitation facilities, and feeder roads.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following is the lowest level of decentralization in Ghana?        (BECE 2007 Q25)",
+        options: [
+          "District Assemblies",
+          "Regional Co-ordinating Council",
+          "Area Committee",
+          "Unit Committee"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Unit Committee is the lowest structure in Ghana's decentralized local government system.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The District Assemblies perform all the following except to        (BECE 2008 Q27)",
+        options: [
+          "Build school blocks",
+          "Build markets",
+          "Maintain feeder roads",
+          "Construct trunk roads"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The construction of trunk roads is mainly a responsibility of the central government, while District Assemblies may maintain feeder roads.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Government revenue for developmental projects is raised mainly through        (BECE 2004 Q17)",
+        options: [
+          "Minting of currency",
+          "Inflation",
+          "Over-invoicing",
+          "Taxation"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Taxation is the major means through which the government raises revenue to finance development projects and public services.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The chief representative of the central government in the district is the        (BECE 2009 Q17)",
+        options: [
+          "Parliamentarian of the District",
+          "District Co-ordinating Director",
+          "Presiding Member of the District Assembly",
+          "District Chief Executive"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The District Chief Executive represents the central government and oversees the implementation of government policies in the district.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Democracy in our nation could be sustained by        (BECE 2009 Q40)",
+        options: [
+          "Teaching the people information technology",
+          "Operating one-party system of government",
+          "Holding general elections every decade",
+          "Giving the people political education"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Political education helps citizens understand their rights, responsibilities, and democratic processes, thereby sustaining democracy.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The development of communities in your area is the responsibility of the        (BECE 2009 Q21)",
+        options: [
+          "Member of Parliament",
+          "Traditional Council",
+          "Unit Committee",
+          "District Assembly"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The District Assembly is responsible for planning and implementing development projects within the district.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The functions of a presiding member of a District Assembly are likened to those of the        (BECE 2010 Q25)",
+        options: [
+          "Clerk of Parliament",
+          "Chief Justice",
+          "Speaker of Parliament",
+          "Appeal Court Judge"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Presiding Member chairs District Assembly meetings, just as the Speaker presides over proceedings in Parliament.",
+      ),
+      QuizQuestion(
+        question:
+            "14. An important source of locally generated revenue for District Assemblies in Ghana is        (BECE 2011 Q12)",
+        options: [
+          "The Common Fund",
+          "Court fines",
+          "Market tolls",
+          "Road tolls"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Market tolls are collected locally by District Assemblies and form part of their internally generated funds.",
+      ),
+      QuizQuestion(
+        question:
+            "15. One problem hindering the effective functioning of District Assemblies in Ghana is        (BECE 2011 Q36)",
+        options: [
+          "Rapid population growth",
+          "Mobilizing funds for development",
+          "Interference by traditional rulers",
+          "Maintaining law and order"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "District Assemblies often face difficulties raising enough funds to finance development projects and provide essential services.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The primary function of the legislature is to        (BECE 2012 Q39)",
+        options: [
+          "Administer justice",
+          "Make laws",
+          "Register citizens",
+          "Protect wrongdoers"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The legislature is the organ of government responsible for making, amending, and repealing laws.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Government policies are implemented at the district levels by the        (BECE 2014 Q13)",
+        options: [
+          "Chief Executive",
+          "Co-ordinating Director",
+          "Presiding Member",
+          "Regional Minister"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The District Chief Executive supervises the implementation of central government policies and programmes at the district level.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following factors promotes political stability in a country?        (BECE 2014 Q16)",
+        options: [
+          "Food security",
+          "Free education",
+          "Rigid constitution",
+          "Rule of law"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The rule of law promotes political stability by ensuring that everyone, including leaders, is subject to the law.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following features is not an efficient way of sustaining political stability in a country?        (BECE 2014 Q17)",
+        options: [
+          "Avoidance of dictatorship",
+          "Free and fair elections",
+          "One-party system",
+          "Press freedom"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A one-party system limits political choice and participation and may encourage dictatorship rather than political stability.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following situations may not create instability in the Ghanaian society?        (BECE 2014 Q34)",
+        options: [
+          "Denial of justice",
+          "Gender equality",
+          "Party rivalry",
+          "Workers' demonstration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Gender equality promotes fairness, inclusion, and social harmony and therefore does not create instability.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The two main levels of government in Ghana are        (BECE 2017 Q3)",
+        options: [
+          "District and municipal",
+          "National and district",
+          "National and regional",
+          "Regional and districts"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Government in Ghana operates mainly at the national level and the district or local level.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Political conflicts in Ghana can best be minimized through        (BECE 2017 Q36)",
+        options: [
+          "Tolerating opposing views",
+          "Adopting a common language",
+          "Banning private newspapers",
+          "Voting for a very strong President"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tolerance of opposing views promotes peaceful dialogue, mutual respect, and the settlement of political disagreements without violence.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following factors promote political stability in a country?        (BECE 2017 Q37)",
+        options: [
+          "Food security",
+          "Rule of law",
+          "Free education",
+          "Rigid constitution"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The rule of law promotes political stability by ensuring fairness, accountability, and equal application of the law.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following mostly influences the type of facility provided by District Assemblies?        (BECE 2020 Q13)",
+        options: [
+          "The Central Government",
+          "The needs of the people",
+          "The general needs of the nation",
+          "Desire to generate revenue"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "District Assemblies provide facilities according to the specific needs and priorities of people within their local communities.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Ghana can improve upon her political stability by        (BECE 2020 Q18)",
+        options: [
+          "Organizing public education on drug abuse",
+          "Educating the youth against sex trade",
+          "Organizing free and credible election",
+          "Promoting the use of locally manufactured goods"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Free and credible elections promote public confidence, peaceful transfer of power, and political stability.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The major problem of District Assemblies in Ghana is their inability to        (BECE 2020 Q40)",
+        options: [
+          "Generate more funds for development",
+          "Educate their people on government policies",
+          "Absorb all the available skilled labour in their community",
+          "Reduce their expenditure in relation to revenue"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Many District Assemblies struggle to generate sufficient revenue to undertake development projects and provide public services.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Political conflicts in Ghana can best be minimized through        (BECE 2021 Q12)",
+        options: [
+          "Tolerating opposing views",
+          "Adopting a common language",
+          "Banning private newspaper",
+          "Voting for a strong President"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tolerating opposing views encourages peaceful political participation and reduces hostility between individuals and political groups.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following factors cannot promote political stability in Ghana?        (BECE 2021 Q36)",
+        options: [
+          "Dictatorship in administration",
+          "Freedom of speech",
+          "Multiparty democracy",
+          "Open government"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Dictatorship suppresses participation and rights and can create fear, conflict, and political instability.",
+      ),
+      QuizQuestion(
+        question:
+            "29. District Assemblies of Ghana construct the following projects except        (BECE 2021 Q39)",
+        options: ["School buildings", "Feeder roads", "Trunk roads", "Clinics"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "District Assemblies may construct schools, clinics, and feeder roads, but trunk roads are mainly handled by the central government.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The local government system is meant to        (BECE 2023 Q11)",
+        options: [
+          "Provide resources for all",
+          "Elect leaders",
+          "Support the traditional justice system",
+          "Bring government closer to the people"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Local government brings decision-making and development administration closer to people in their communities.",
+      ),
+      QuizQuestion(
+        question:
+            "31. The best approach to help resolve the difference between political parties during general election is        (BECE 2024 Q12)",
+        options: [
+          "Allowing the formation of more political parties",
+          "Encouraging traditional leaders to play partisan politics",
+          "Strengthening the judiciary",
+          "Encouraging youth participation in national politics"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A strong and independent judiciary can resolve electoral disputes fairly according to the Constitution and electoral laws.",
+      ),
+      QuizQuestion(
+        question:
+            "32. Every Ghanaian citizen is expected to demonstrate commitment to democratic values. Which of the following actions best demonstrates the above expectations?        (BECE 2024 Q27)",
+        options: [
+          "Voting in national elections",
+          "Volunteering for community service",
+          "Participating in peaceful protests",
+          "Criticizing the government on social media"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Voting in national elections is a direct exercise of democratic participation and allows citizens to choose their leaders.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The main function of the executive organ of government is        (BECE 2025 Q10)",
+        options: [
+          "Approval of budget",
+          "Implementation of policies",
+          "Interpretation of the law",
+          "Law making and arbitration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The executive organ is responsible for implementing government policies, programmes, and laws.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following would you advise against by way of reducing dependence on foreign financial support?        (BECE 2025 Q30)",
+        options: [
+          "Developing the human resources",
+          "Patronizing Ghanaian products",
+          "Adding value to our primary products",
+          "Borrowing from the international markets"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Borrowing from international markets increases dependence on foreign financial support rather than reducing it.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Apart from law making, Ghana legislature also        (BECE 2025 Q34)",
+        options: [
+          "Ensures accountability of the Executive to the people",
+          "Formulates and implements policies for development",
+          "Protects powerful entities in the state",
+          "Assents bills to become laws"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Parliament holds the Executive accountable through debates, questions, investigations, approval processes, and oversight of public expenditure.",
+      ),
+      QuizQuestion(
+        question:
+            "36. To ensure the survival of private enterprises, the government of Ghana must support        (BECE 2025 Q37)",
+        options: [
+          "Advertising products and providing tax exemptions",
+          "Controlling and providing vital services and strict control",
+          "Payment of their tax obligation and other commitment",
+          "Providing efficient management"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Government supports private enterprises by providing essential services and an effective regulatory system that enables businesses to operate successfully.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The primary aim of elections in Ghana is to        (BECE 2025 Q39)",
+        options: [
+          "Allow the powerful to govern without restraint",
+          "Protect the rights of children and mothers only",
+          "Provide tax reliefs to groups of people with common interests",
+          "Change governments peacefully and orderly"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Elections allow citizens to choose leaders and make it possible for governments to change peacefully and in an orderly manner.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Financial and Investment Issues": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Pension benefits of Ghanaian workers are managed by the        (BECE 2014 Q25)",
+        options: [
+          "Bank of Ghana",
+          "Ghana Commercial Bank",
+          "Social Security and National Insurance Trust",
+          "State Insurance Company"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Social Security and National Insurance Trust (SSNIT) manages pension contributions and pays pension benefits to qualified Ghanaian workers.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Workers in Ghana are required by law to contribute towards their future upkeep through        (BECE 2012 Q33)",
+        options: [
+          "Company shares",
+          "Treasury bills",
+          "Government bonds",
+          "Social security schemes"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Workers contribute to social security schemes so that they can receive financial support after retirement or when they can no longer work.",
+      ),
+      QuizQuestion(
+        question:
+            "3. What role does Social Security and National Insurance Trust (SSNIT) play in the life of pensioners?        (BECE 2025 Q19)",
+        options: [
+          "Payment of social benefits and all health needs",
+          "Provision of a source of income after retirement",
+          "Promotion of independence in old age",
+          "Promotion of reliance on government welfare programme"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "SSNIT provides pensioners with a regular source of income after retirement to support their upkeep.",
+      ),
+      QuizQuestion(
+        question:
+            "4. People join social security pension schemes in order to        (BECE 2024 Q39)",
+        options: [
+          "Ensure retirement income",
+          "Maintain standard of living in the cities",
+          "Supplement income for relations in the village",
+          "Raise money to satisfy political ambitions"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "People join social security pension schemes to receive income after retirement and maintain their basic needs.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - Science and Technology": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following scenarios explains the main purpose of the internet?        (BECE 2024 Q29)",
+        options: [
+          "Connecting electronic devices and making lives more convenient",
+          "Developing new medicine kits",
+          "Scientists going to space and other planets",
+          "Robots building several vehicles at a time"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The internet connects electronic devices and allows people to communicate, share information, and access online services more conveniently.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A farmer is preparing to plant crops next week. Why is it important for the farmer to check the weather forecast? To        (BECE 2024 Q21)",
+        options: [
+          "Prepare for a storm",
+          "Determine the ideal time for planting",
+          "Predict the best time for irrigation",
+          "Plan a harvest festival"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Checking the weather forecast helps the farmer determine whether conditions such as rainfall and temperature will be suitable for planting.",
+      ),
+    ],
+  ),
+
+  "JHS 3 - The Republics": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following military rulers of Ghana implemented the Economic Recovery Programme (ERP)?        (BECE 2024 Q1)",
+        options: [
+          "Frederick K. Akuffo",
+          "Ignatius K. Acheampong",
+          "Joseph A. Ankrah",
+          "Jerry J. Rawlings"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The Economic Recovery Programme was implemented under the military government of Flt. Lt. Jerry John Rawlings to improve Ghana's economy.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Two political events occurred in Ghana in 1960. One of the events was a presidential election. Which of the following political developments happened after the presidential election in 1960?        (BECE 2024 Q30)",
+        options: [
+          "Ghana became a colony again",
+          "Ghana became a republic",
+          "Ghana was divided into a northern and southern territory",
+          "Ghana remained a monarch"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After the 1960 presidential election, Ghana became a republic on 1st July 1960, with Dr. Kwame Nkrumah as the first President.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In which Republic was Dr. Hilla Limann President of Ghana?        (BECE 2002 Q16)",
+        options: ["First", "Second", "Third", "Fourth"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Dr. Hilla Limann served as President of Ghana during the Third Republic.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The Committee for the Defence of the Revolution (C.D.R.) in Ghana was introduced by        (BECE 1992 Q37)",
+        options: [
+          "Dr. Kwame Nkrumah",
+          "Dr. K. A. Busia",
+          "Mr. Victor Owusu",
+          "Flt. Lt. J. J. Rawlings"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The Committees for the Defence of the Revolution were introduced under the leadership of Flt. Lt. Jerry John Rawlings.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Ghana was ushered into the Fourth Republican government in        (BECE 2025 Q27)",
+        options: ["1981", "1966", "1979", "1992"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The 1992 Constitution established Ghana's Fourth Republic, although the first government under it assumed office in January 1993.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Ghana became a republic within the Commonwealth of Nations in        (BECE 1999 Q9)",
+        options: ["1948", "1954", "1957", "1960"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Ghana became a republic within the Commonwealth of Nations on 1st July 1960.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Who was the President of the Third Republic of Ghana?        (BECE 1992 Q20)",
+        options: [
+          "Dr. K. Abrefa Busia",
+          "Dr. L. B. Danquah",
+          "Mr. Victor Owusu",
+          "Dr. Hilla Limann"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Dr. Hilla Limann was the President of Ghana during the Third Republic from 1979 to 1981.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which one of the following took place after the 27th April, 1960 referendum?        (BECE 2024 Q17)",
+        options: [
+          "Ghana became a democratic state",
+          "Kwame Nkrumah was inaugurated as Prime Minister",
+          "Queen Elizabeth II was inaugurated as Prime Minister",
+          "The first political party was formed"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The referendum approved a republican Constitution, helping Ghana become a republic governed under a democratic constitutional system.",
+      ),
+    ],
+  ),
+
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "THE NATURE OF GOD THROUGH ATTRIBUTES": QuizModel(
     audioPath: '',
