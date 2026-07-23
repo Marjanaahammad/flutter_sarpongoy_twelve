@@ -333,21 +333,23 @@ class SidebarController extends GetxController {
               final String normalStrandTitle = subStrand.title;
               final String normalSubStrandTitle = lesson.topic;
 
-              final beceObjectives = allBeceProgress.firstWhereOrNull(
-                (p) => p.courseName.toLowerCase() == course.title.toLowerCase() &&
-                       p.strandName.toLowerCase() == normalStrandTitle.toLowerCase() &&
-                       p.subStrandName.toLowerCase() == normalSubStrandTitle.toLowerCase() &&
-                       p.gradeName == selectedGrade.value &&
-                       p.activityType == 'objectives'
-              );
+              final beceObjectives = allBeceProgress.firstWhereOrNull((p) =>
+                  p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                  p.strandName.toLowerCase() ==
+                      normalStrandTitle.toLowerCase() &&
+                  p.subStrandName.toLowerCase() ==
+                      normalSubStrandTitle.toLowerCase() &&
+                  p.gradeName == selectedGrade.value &&
+                  p.activityType == 'objectives');
 
-              final beceTheory = allBeceProgress.firstWhereOrNull(
-                (p) => p.courseName.toLowerCase() == course.title.toLowerCase() &&
-                       p.strandName.toLowerCase() == normalStrandTitle.toLowerCase() &&
-                       p.subStrandName.toLowerCase() == normalSubStrandTitle.toLowerCase() &&
-                       p.gradeName == selectedGrade.value &&
-                       p.activityType == 'theory'
-              );
+              final beceTheory = allBeceProgress.firstWhereOrNull((p) =>
+                  p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                  p.strandName.toLowerCase() ==
+                      normalStrandTitle.toLowerCase() &&
+                  p.subStrandName.toLowerCase() ==
+                      normalSubStrandTitle.toLowerCase() &&
+                  p.gradeName == selectedGrade.value &&
+                  p.activityType == 'theory');
 
               String? quizScoreStr;
               String? quizOriginalScoreStr;
@@ -356,26 +358,43 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                int percentage = ((beceObjectives.lastAttemptScore! / beceObjectives.totalQuestions!) * 100).round();
+                int percentage = ((beceObjectives.lastAttemptScore! /
+                            beceObjectives.totalQuestions!) *
+                        100)
+                    .round();
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  int originalPercentage = ((beceObjectives.firstAttemptScore! / beceObjectives.totalQuestions!) * 100).round();
+                  int originalPercentage = ((beceObjectives.firstAttemptScore! /
+                              beceObjectives.totalQuestions!) *
+                          100)
+                      .round();
                   quizOriginalScoreStr = "$originalPercentage%";
                 }
               }
 
-              final isLessonCompleted = beceObjectives != null && beceTheory != null;
+              final bool hasQuiz = lesson.quiz.questions.isNotEmpty;
+              final bool hasPractice = lesson.practice.questions.isNotEmpty;
+
+              final isLessonCompleted = (hasQuiz || hasPractice)
+                  ? ((!hasQuiz || beceObjectives != null) &&
+                      (!hasPractice || beceTheory != null))
+                  : true;
+
               if (!isLessonCompleted) {
                 allLessonsInStrandCompleted = false;
               }
 
               updatedLessons.add(
                 lesson.copyWith(
-                  quizDoneDate: beceObjectives != null ? dateFormat.format(beceObjectives.doneDate) : null,
+                  quizDoneDate: beceObjectives != null
+                      ? dateFormat.format(beceObjectives.doneDate)
+                      : null,
                   quizScore: quizScoreStr,
                   quizOriginalScore: quizOriginalScoreStr,
-                  practiceDoneDate: beceTheory != null ? dateFormat.format(beceTheory.doneDate) : null,
+                  practiceDoneDate: beceTheory != null
+                      ? dateFormat.format(beceTheory.doneDate)
+                      : null,
                   courseName: course.title,
                   strandName: strand.title,
                   subStrandName: subStrand.title,
@@ -942,7 +961,8 @@ class SidebarController extends GetxController {
     return dailyStats;
   }
 
-  List<Strand> _generateDummyStrands(String courseTitle, String grade, {bool includeBece = true}) {
+  List<Strand> _generateDummyStrands(String courseTitle, String grade,
+      {bool includeBece = true}) {
     final Map<String, List<Map<String, dynamic>>> courseData = {
       "English": [
         {
@@ -1032,10 +1052,14 @@ class SidebarController extends GetxController {
             {
               "subtitle": "PRODUCTION AND DISTRIBUTION OF WRITING",
               "topics": [
-                "USING COHESIVE DEVICES TO LINK IDEAS", "DESCRIPTIVE WRITING – PAINTING WITH WORDS", "NARRATIVE WRITING – TELLING A STORY", "GIVING DIRECTIONS AND INSTRUCTIONS", "PERSUASIVE WRITING – THE POWER OF ARGUMENT", "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS"
+                "USING COHESIVE DEVICES TO LINK IDEAS",
+                "DESCRIPTIVE WRITING – PAINTING WITH WORDS",
+                "NARRATIVE WRITING – TELLING A STORY",
+                "GIVING DIRECTIONS AND INSTRUCTIONS",
+                "PERSUASIVE WRITING – THE POWER OF ARGUMENT",
+                "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS"
               ],
             },
-
             {
               "subtitle": "TEXT TYPES AND PURPOSES",
               "topics": [
@@ -1229,19 +1253,37 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "WASTE MANAGEMENT",
-              "topics": ["Introduction to Waste and Management Practices", "Planning and Reporting a Clean-up Project", 'The Science of Waste and Disposal'],
-            },{
+              "topics": [
+                "Introduction to Waste and Management Practices",
+                "Planning and Reporting a Clean-up Project",
+                'The Science of Waste and Disposal'
+              ],
+            },
+            {
               "subtitle": "HUMAN HEALTH",
-              "topics": ["Food Nutrients and Deficiency Diseases","Viral Diseases (COVID-19, Ebola, and H1N1)"],
-            },{
+              "topics": [
+                "Food Nutrients and Deficiency Diseases",
+                "Viral Diseases (COVID-19, Ebola, and H1N1)"
+              ],
+            },
+            {
               "subtitle": "SCIENCE AND INDUSTRY",
               "topics": ["Careers in Science and Great Scientists"],
-            },{
+            },
+            {
               "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
-              "topics": ["Sustainable Energy Choices and Scientific Ideas", "The Greenhouse Effect and How to Minimise It", "Designing a Project for Local Energy Sustainability"],
-            },{
+              "topics": [
+                "Sustainable Energy Choices and Scientific Ideas",
+                "The Greenhouse Effect and How to Minimise It",
+                "Designing a Project for Local Energy Sustainability"
+              ],
+            },
+            {
               "subtitle": "UNDERSTANDING THE ENVIRONMENT",
-              "topics": ["Plants and Animals in Different Landforms", "Nature of Associations among Plants and Animals"],
+              "topics": [
+                "Plants and Animals in Different Landforms",
+                "Nature of Associations among Plants and Animals"
+              ],
             },
           ],
         },
@@ -1405,7 +1447,12 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "INDEPENDENT GHANA",
-              "topics": ["THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,", "THE FORMATION OF THE CONVENTION PEOPLE'S PARTY (1949)", "THE COUSSEY COMMITTEE AND THE ELECTIONS OF 1951, 1954, AND 1956", "THE NATURE OF GOVERNMENT FROM 1957 TO 1960"],
+              "topics": [
+                "THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,",
+                "THE FORMATION OF THE CONVENTION PEOPLE'S PARTY (1949)",
+                "THE COUSSEY COMMITTEE AND THE ELECTIONS OF 1951, 1954, AND 1956",
+                "THE NATURE OF GOVERNMENT FROM 1957 TO 1960"
+              ],
             },
           ],
         },
@@ -1571,8 +1618,14 @@ class SidebarController extends GetxController {
             {
               "subtitle": "GRAMMAR",
               "topics": [
-                "SINGULAR AND PLURAL FORMS OF COMPOUND NOUNS","RELATIVE PRONOUNS","DEMONSTRATE COMMAND OF THE USE OF ADJECTIVES IN DISCOURSE","VERB FORMS FOR FUTURE EVENTS", "KNOWLEDGE OF ADVERBS",
-                "USE OF PREPOSITIONS", "REPORTED SPEECH", "QUESTION TAGS"
+                "SINGULAR AND PLURAL FORMS OF COMPOUND NOUNS",
+                "RELATIVE PRONOUNS",
+                "DEMONSTRATE COMMAND OF THE USE OF ADJECTIVES IN DISCOURSE",
+                "VERB FORMS FOR FUTURE EVENTS",
+                "KNOWLEDGE OF ADVERBS",
+                "USE OF PREPOSITIONS",
+                "REPORTED SPEECH",
+                "QUESTION TAGS"
               ],
             },
             {
@@ -1590,12 +1643,27 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "PRODUCTION AND DISTRIBUTION OF WRITING",
-              "topics": ["CREATING COHESIVE PARAGRAPHS", "INTRODUCTORY PARAGRAPHS AND HOOKS", "EXPANDING SENTENCES WITH PHRASES AND CLAUSES"],
+              "topics": [
+                "CREATING COHESIVE PARAGRAPHS",
+                "INTRODUCTORY PARAGRAPHS AND HOOKS",
+                "EXPANDING SENTENCES WITH PHRASES AND CLAUSES"
+              ],
             },
             {
               "subtitle": "TEXT TYPES AND PURPOSES",
-              "topics": ["WRITING PERSONAL NARRATIVES", "USING SENSORY LANGUAGE TO DESCRIBE PLACES AND EVENTS", "CREATING SHORTER TRANSACTIONAL TEXTS (ADVERTISEMENTS AND DIARIES)", "PROBLEM AND SOLUTION PARAGRAPHS", "FORMAL WRITING (BUSINESS LETTERS AND EMAILS)", "COMPOSING NOTES, BROCHURES, AND FLYERS", "WRITING ARTICLES FOR SCHOOL MAGAZINES", "CREATING DIALOGUES", "COMPOSING SPEECHES"],
-            },{
+              "topics": [
+                "WRITING PERSONAL NARRATIVES",
+                "USING SENSORY LANGUAGE TO DESCRIBE PLACES AND EVENTS",
+                "CREATING SHORTER TRANSACTIONAL TEXTS (ADVERTISEMENTS AND DIARIES)",
+                "PROBLEM AND SOLUTION PARAGRAPHS",
+                "FORMAL WRITING (BUSINESS LETTERS AND EMAILS)",
+                "COMPOSING NOTES, BROCHURES, AND FLYERS",
+                "WRITING ARTICLES FOR SCHOOL MAGAZINES",
+                "CREATING DIALOGUES",
+                "COMPOSING SPEECHES"
+              ],
+            },
+            {
               "subtitle": "BUILDING AND PRESENT KNOWLEDGE",
               "topics": ["USING NON-TEXT SOURCES IN WRITING"],
             },
@@ -1606,12 +1674,30 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "NARRATIVE",
-              "topics": ["THE POWER OF UNITY IN THE OLD MAN AND HIS CHILDREN", " EXPLORING \"THE COLOUR OF GOD\" BY V. B. AAKYE","ANANSE THE TRICKSTER IN THE MARRIAGE OF ANANSEWA","FEMALE EMPOWERMENT IN \"THE GIRL WHO CAN\"",
-                "HIDDEN POTENTIAL IN \"DESERT RIVERS\" BY LADE WOSORNU", "UNIVERSAL LOVE IN \"THE COLOUR OF GOD\" BY V. B. AAKYE","OVERCOMING PROCRASTINATION IN \"SCRIBBLER’S DREAM\" BY LAWRENCE DARMANI", "CULTURAL CONFLICT IN \"THE DILEMMA OF A GHOST\" BY AMA ATA AIDOO",
-                "INDEPENDENCE AND TRADITION IN \"ANOWA\" BY AMA ATA AIDOO", "THE POWER OF UNITY IN \"THE OLD MAN AND HIS CHILDREN\"","CONSEQUENCES IN \"RIPPLES\" BY PETER PAUL ADOLINAMA",
-                "SENSORY IMAGERY IN \"MAKOLA\" BY THERESA ENNIN", "STOICISM AND MISUNDERSTANDING IN \"A DAY’S WAIT\"", "METAPHORICAL TRIBUTES IN \"MAMA IS A SUNRISE\" BY EVELYN TOOLEY HUNT", "KINDNESS REWARDED IN \"THE GENEROUS HUNTER\"",
-                "TOLERANCE AND NATURE IN \"A MINOR BIRD\" BY ROBERT FROST", "INTEGRITY AND HONESTY IN \"SOSU AND THE BUKARI BOYS\"","GRIEF AND MEMORY IN \"A WREATH OF TEARS\" BY KOBENA EYI ACQUAH",
-                "MOURNING A MOTHER IN \"SLEEP WITHOUT WAKE\" BY A. A. AMOAKO", "SURVIVAL AND RESILIENCE IN \"OLIVER TWIST\"", "RETURNING TO ROOTS IN \"HOME SWEET HOME\" BY KEN SARO-WIWA","COMPASSION IN \"DEBBIE, SANDY AND PEPE\""],
+              "topics": [
+                "THE POWER OF UNITY IN THE OLD MAN AND HIS CHILDREN",
+                " EXPLORING \"THE COLOUR OF GOD\" BY V. B. AAKYE",
+                "ANANSE THE TRICKSTER IN THE MARRIAGE OF ANANSEWA",
+                "FEMALE EMPOWERMENT IN \"THE GIRL WHO CAN\"",
+                "HIDDEN POTENTIAL IN \"DESERT RIVERS\" BY LADE WOSORNU",
+                "UNIVERSAL LOVE IN \"THE COLOUR OF GOD\" BY V. B. AAKYE",
+                "OVERCOMING PROCRASTINATION IN \"SCRIBBLER’S DREAM\" BY LAWRENCE DARMANI",
+                "CULTURAL CONFLICT IN \"THE DILEMMA OF A GHOST\" BY AMA ATA AIDOO",
+                "INDEPENDENCE AND TRADITION IN \"ANOWA\" BY AMA ATA AIDOO",
+                "THE POWER OF UNITY IN \"THE OLD MAN AND HIS CHILDREN\"",
+                "CONSEQUENCES IN \"RIPPLES\" BY PETER PAUL ADOLINAMA",
+                "SENSORY IMAGERY IN \"MAKOLA\" BY THERESA ENNIN",
+                "STOICISM AND MISUNDERSTANDING IN \"A DAY’S WAIT\"",
+                "METAPHORICAL TRIBUTES IN \"MAMA IS A SUNRISE\" BY EVELYN TOOLEY HUNT",
+                "KINDNESS REWARDED IN \"THE GENEROUS HUNTER\"",
+                "TOLERANCE AND NATURE IN \"A MINOR BIRD\" BY ROBERT FROST",
+                "INTEGRITY AND HONESTY IN \"SOSU AND THE BUKARI BOYS\"",
+                "GRIEF AND MEMORY IN \"A WREATH OF TEARS\" BY KOBENA EYI ACQUAH",
+                "MOURNING A MOTHER IN \"SLEEP WITHOUT WAKE\" BY A. A. AMOAKO",
+                "SURVIVAL AND RESILIENCE IN \"OLIVER TWIST\"",
+                "RETURNING TO ROOTS IN \"HOME SWEET HOME\" BY KEN SARO-WIWA",
+                "COMPASSION IN \"DEBBIE, SANDY AND PEPE\""
+              ],
             },
           ],
         },
@@ -1708,21 +1794,42 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "ENERGY",
-              "topics": ["Energy Conversion", "The Importance of Energy Conversion", "Renewable and Non-Renewable Energy", "Managing Renewable Energy Sustainably", "Heat and Temperature"],
+              "topics": [
+                "Energy Conversion",
+                "The Importance of Energy Conversion",
+                "Renewable and Non-Renewable Energy",
+                "Managing Renewable Energy Sustainably",
+                "Heat and Temperature"
+              ],
             },
             {
               "subtitle": "ELECTRICITY AND ELECTRONICS",
-              "topics": ["Electricity Transmission", "Capacitors and Electronic Components"],
-            },{
+              "topics": [
+                "Electricity Transmission",
+                "Capacitors and Electronic Components"
+              ],
+            },
+            {
               "subtitle": "CONVERSION AND CONSERVATION OF ENERGY",
-              "topics": ["Importance of Energy Conversion and Conservation", "Environmental Impact and Energy Auditing"],
-            },{
+              "topics": [
+                "Importance of Energy Conversion and Conservation",
+                "Environmental Impact and Energy Auditing"
+              ],
+            },
+            {
               "subtitle": "FORCES AND MOTION",
-              "topics": ["Understanding Complex Machines", "Making Magnets and Their Applications", "Magnetic Force and Newton’s Second Law of Motion"],
+              "topics": [
+                "Understanding Complex Machines",
+                "Making Magnets and Their Applications",
+                "Magnetic Force and Newton’s Second Law of Motion"
+              ],
             },
             {
               "subtitle": "AGRICULTURAL TOOLS",
-              "topics": ["Identifying Basic Agricultural Tools", "Using Basic Agricultural Tools Effectively"],
+              "topics": [
+                "Identifying Basic Agricultural Tools",
+                "Using Basic Agricultural Tools Effectively"
+              ],
             },
           ],
         },
@@ -1731,15 +1838,26 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "WASTE MANAGEMENT",
-              "topics": ["Sustainable Waste Management Practices", "Applying Waste Management in the Community"],
+              "topics": [
+                "Sustainable Waste Management Practices",
+                "Applying Waste Management in the Community"
+              ],
             },
             {
               "subtitle": "HUMAN HEALTH",
-              "topics": ["Common Communicable Diseases", "Risk Factors of Communicable Diseases", "The Nature of Bacterial Diseases", "Prevention and Management of Bacterial Diseases"],
+              "topics": [
+                "Common Communicable Diseases",
+                "Risk Factors of Communicable Diseases",
+                "The Nature of Bacterial Diseases",
+                "Prevention and Management of Bacterial Diseases"
+              ],
             },
             {
               "subtitle": "SCIENCE AND INDUSTRY",
-              "topics": ["The Link Between Science, Technology, and Innovation", "Technological Advancements and the Ghanaian Environment"],
+              "topics": [
+                "The Link Between Science, Technology, and Innovation",
+                "Technological Advancements and the Ghanaian Environment"
+              ],
             },
             {
               "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
@@ -1747,7 +1865,11 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "UNDERSTANDING THE ENVIRONMENT",
-              "topics": ["Physical Properties of Soils", "How Plants Absorb Water and Nutrients", "Rocks as Origins of Soil"],
+              "topics": [
+                "Physical Properties of Soils",
+                "How Plants Absorb Water and Nutrients",
+                "Rocks as Origins of Soil"
+              ],
             },
           ],
         },
@@ -2042,7 +2164,10 @@ class SidebarController extends GetxController {
             {
               "subtitle": "COMPREHENSION",
               "topics": [
-                "INDEPENDENT READING FOR PURPOSE AND ENJOYMENT","REFLECTING ON VIEWPOINTS AND CREDIBILITY", "EVALUATING MEDIA AND INFORMATION", "EXPANDING IDEAS AND PERSPECTIVES",
+                "INDEPENDENT READING FOR PURPOSE AND ENJOYMENT",
+                "REFLECTING ON VIEWPOINTS AND CREDIBILITY",
+                "EVALUATING MEDIA AND INFORMATION",
+                "EXPANDING IDEAS AND PERSPECTIVES",
                 "SPEED READING FOR SPECIFIC INFORMATION",
                 "PREDICTIONS, PATTERNS, AND RELATIONSHIPS",
                 "MAKING GENERALISATIONS AND REAL-LIFE LINKS",
@@ -2052,7 +2177,6 @@ class SidebarController extends GetxController {
                 "INTERPRETING FIGURATIVE AND SENSORY LANGUAGE",
                 "ACADEMIC AND TECHNICAL VOCABULARY",
                 "MAKING CONNECTIONS BETWEEN WORDS",
-
               ],
             },
             {
@@ -2096,15 +2220,36 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "PRODUCTION AND DISTRIBUTION OF WRITING",
-              "topics": ["BUILDING COHESIVE PARAGRAPHS", "TELLING TALES: WRITING NARRATIVE ESSAYS", "LETTER WRITING WITH COHESION", "THE ART OF SUMMARISING"],
+              "topics": [
+                "BUILDING COHESIVE PARAGRAPHS",
+                "TELLING TALES: WRITING NARRATIVE ESSAYS",
+                "LETTER WRITING WITH COHESION",
+                "THE ART OF SUMMARISING"
+              ],
             },
             {
               "subtitle": "TEXT TYPES AND PURPOSES",
-              "topics": ["WRITING EFFECTIVE DESCRIPTIONS", "NARRATIVE TECHNIQUES", "PERSUASIVE WRITING AND REJOINDERS", "INFORMATIVE AND EXPLANATORY TEXTS", "FORMAL WRITING FOR SPECIFIC LIFE SITUATIONS","CREATING SHORT TEXTS FOR DIFFERENT AUDIENCES", "WRITING ARTICLES FOR PUBLICATION", "COMPOSING SPEECHES"],
+              "topics": [
+                "WRITING EFFECTIVE DESCRIPTIONS",
+                "NARRATIVE TECHNIQUES",
+                "PERSUASIVE WRITING AND REJOINDERS",
+                "INFORMATIVE AND EXPLANATORY TEXTS",
+                "FORMAL WRITING FOR SPECIFIC LIFE SITUATIONS",
+                "CREATING SHORT TEXTS FOR DIFFERENT AUDIENCES",
+                "WRITING ARTICLES FOR PUBLICATION",
+                "COMPOSING SPEECHES"
+              ],
             },
             {
               "subtitle": "BUILDING AND PRESENTING KNOWLEDGE",
-              "topics": ["CONDUCTING SHORT RESEARCH PROJECTS","ANALYSING CHARACTERISATION IN TEXTS AND MEDIA", "MONOLOGUES AND DIALOGUES IN PLAY SCRIPTS","SEQUENCING EVENTS IN TEXTS AND MEDIA", "USING LITERARY DEVICES (IMAGERY) IN TEXTS", "ANALYSING COMMON THEMES IN TEXTS"]
+              "topics": [
+                "CONDUCTING SHORT RESEARCH PROJECTS",
+                "ANALYSING CHARACTERISATION IN TEXTS AND MEDIA",
+                "MONOLOGUES AND DIALOGUES IN PLAY SCRIPTS",
+                "SEQUENCING EVENTS IN TEXTS AND MEDIA",
+                "USING LITERARY DEVICES (IMAGERY) IN TEXTS",
+                "ANALYSING COMMON THEMES IN TEXTS"
+              ]
             }
           ],
         },
@@ -2214,21 +2359,45 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "ENERGY",
-              "topics": ["Strategies for Conserving Energy", "The Importance of Energy Conservation", "Calculating Energy Consumed", "Image Formation in Cameras", "The Formation of Shadows", "The Formation of an Eclipse", "The Application of Light Energy (Refraction)"],
+              "topics": [
+                "Strategies for Conserving Energy",
+                "The Importance of Energy Conservation",
+                "Calculating Energy Consumed",
+                "Image Formation in Cameras",
+                "The Formation of Shadows",
+                "The Formation of an Eclipse",
+                "The Application of Light Energy (Refraction)"
+              ],
             },
             {
               "subtitle": "ELECTRICITY AND ELECTRONICS",
-              "topics": ["Energy Transformation and Ohm’s Law", "Electronic Components (Diodes, LEDs, and Capacitors)"],
+              "topics": [
+                "Energy Transformation and Ohm’s Law",
+                "Electronic Components (Diodes, LEDs, and Capacitors)"
+              ],
             },
             {
               "subtitle": "CONVERSION AND CONSERVATION OF ENERGY",
-              "topics": ["Energy Conversion and the Law of Conservation", "Applications of Energy Conversion and Conservation"],
-            },{
+              "topics": [
+                "Energy Conversion and the Law of Conservation",
+                "Applications of Energy Conversion and Conservation"
+              ],
+            },
+            {
               "subtitle": "FORCE AND MOTION",
-              "topics": ["Understanding Pressure", "Newton’s Third Law of Motion", "Newton's Second Law and Momentum (F = ma)"],
-            },{
+              "topics": [
+                "Understanding Pressure",
+                "Newton’s Third Law of Motion",
+                "Newton's Second Law and Momentum (F = ma)"
+              ],
+            },
+            {
               "subtitle": "AGRICULTURAL TOOLS",
-              "topics": ["Materials for Making Agricultural Tools", "Processes and Precautions in Making Tools", "Manufacturing Simple Agricultural Tools"],
+              "topics": [
+                "Materials for Making Agricultural Tools",
+                "Processes and Precautions in Making Tools",
+                "Manufacturing Simple Agricultural Tools"
+              ],
             },
           ],
         },
@@ -2237,22 +2406,45 @@ class SidebarController extends GetxController {
           "subStrands": [
             {
               "subtitle": "WASTE MANAGEMENT",
-              "topics": ["Scientific Methods of Waste Management (Recycling and Composting)", "Scientific Principles Underlying Waste Management Methods", "Auditing and Assessing Waste Management Effectiveness","The Environmental Impact of Waste",
-                "Innovative Waste Management for Sustainable Development", "Waste Types and Management Practices in Ghana"],
+              "topics": [
+                "Scientific Methods of Waste Management (Recycling and Composting)",
+                "Scientific Principles Underlying Waste Management Methods",
+                "Auditing and Assessing Waste Management Effectiveness",
+                "The Environmental Impact of Waste",
+                "Innovative Waste Management for Sustainable Development",
+                "Waste Types and Management Practices in Ghana"
+              ],
             },
             {
               "subtitle": "HUMAN HEALTH",
-              "topics": ["Non-Communicable Diseases (NCDs)", "Concepts of Health and Common Diseases", "Fungal Diseases (Ringworm and Candidiasis)"],
-            },{
+              "topics": [
+                "Non-Communicable Diseases (NCDs)",
+                "Concepts of Health and Common Diseases",
+                "Fungal Diseases (Ringworm and Candidiasis)"
+              ],
+            },
+            {
               "subtitle": "SCIENCE AND INDUSTRY",
-              "topics": ["Scientific Concepts in Local Industries", "Modern vs. Indigenous Industries", "Scientific Processes in Indigenous Industries"],
+              "topics": [
+                "Scientific Concepts in Local Industries",
+                "Modern vs. Indigenous Industries",
+                "Scientific Processes in Indigenous Industries"
+              ],
             },
             {
               "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
-              "topics": ["Factors Influencing Climate Change", "Climate Change Actions in Ghana and the World"],
-            },{
+              "topics": [
+                "Factors Influencing Climate Change",
+                "Climate Change Actions in Ghana and the World"
+              ],
+            },
+            {
               "subtitle": "UNDERSTANDING THE ENVIRONMENT",
-              "topics": ["Agricultural Uses of Plant Parts", "Non-Agricultural Uses of Plant Parts", "Creating and Demonstrating Plant Part Uses"],
+              "topics": [
+                "Agricultural Uses of Plant Parts",
+                "Non-Agricultural Uses of Plant Parts",
+                "Creating and Demonstrating Plant Part Uses"
+              ],
             },
           ],
         },
@@ -2661,7 +2853,8 @@ class SidebarController extends GetxController {
                 practiceData = s2ss1Lesson3PracticeData;
                 independentPracticeData = s2ss1Lesson3IndependentQuizData;
                 quizData = s2ss1Lesson3QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
                   lIndex == 3) {
@@ -2895,7 +3088,8 @@ class SidebarController extends GetxController {
                 practiceData = s3ss3Lesson3PracticeData;
                 independentPracticeData = s3ss3Lesson3IndependentQuizData;
                 quizData = s3ss3Lesson3QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
@@ -2904,7 +3098,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson1PracticeData;
                 independentPracticeData = s4ss1Lesson1IndependentQuizData;
                 quizData = s4ss1Lesson1QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
@@ -2913,7 +3108,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson2PracticeData;
                 independentPracticeData = s4ss1Lesson2IndependentQuizData;
                 quizData = s4ss1Lesson2QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
@@ -2922,7 +3118,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson3PracticeData;
                 independentPracticeData = s4ss1Lesson3IndependentQuizData;
                 quizData = s4ss1Lesson3QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 3) {
@@ -2931,7 +3128,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson4PracticeData;
                 independentPracticeData = s4ss1Lesson4IndependentQuizData;
                 quizData = s4ss1Lesson4QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 4) {
@@ -2940,7 +3138,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson5PracticeData;
                 independentPracticeData = s4ss1Lesson5IndependentQuizData;
                 quizData = s4ss1Lesson5QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 5) {
@@ -2949,7 +3148,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss1Lesson6PracticeData;
                 independentPracticeData = s4ss1Lesson6IndependentQuizData;
                 quizData = s4ss1Lesson6QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
@@ -2968,7 +3168,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson1PracticeData;
                 independentPracticeData = s4ss2Lesson1IndependentQuizData;
                 quizData = s4ss2Lesson1QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 2) {
@@ -2977,7 +3178,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson2PracticeData;
                 independentPracticeData = s4ss2Lesson2IndependentQuizData;
                 quizData = s4ss2Lesson2QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 3) {
@@ -2986,7 +3188,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson3PracticeData;
                 independentPracticeData = s4ss2Lesson3IndependentQuizData;
                 quizData = s4ss2Lesson3QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 4) {
@@ -2995,7 +3198,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson4PracticeData;
                 independentPracticeData = s4ss2Lesson4IndependentQuizData;
                 quizData = s4ss2Lesson4QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 5) {
@@ -3004,7 +3208,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson5PracticeData;
                 independentPracticeData = s4ss2Lesson5IndependentQuizData;
                 quizData = s4ss2Lesson5QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 6) {
@@ -3013,7 +3218,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson6PracticeData;
                 independentPracticeData = s4ss2Lesson6IndependentQuizData;
                 quizData = s4ss2Lesson6QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 7) {
@@ -3022,7 +3228,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson7PracticeData;
                 independentPracticeData = s4ss2Lesson7IndependentQuizData;
                 quizData = s4ss2Lesson7QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 8) {
@@ -3031,7 +3238,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss2Lesson8PracticeData;
                 independentPracticeData = s4ss2Lesson8IndependentQuizData;
                 quizData = s4ss2Lesson8QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
@@ -3040,7 +3248,8 @@ class SidebarController extends GetxController {
                 practiceData = s4ss3Lesson1PracticeData;
                 independentPracticeData = s4ss3Lesson1IndependentQuizData;
                 quizData = s4ss3Lesson1QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
@@ -3049,7 +3258,8 @@ class SidebarController extends GetxController {
                 practiceData = s5ss1Lesson1PracticeData;
                 independentPracticeData = s5ss1Lesson1IndependentQuizData;
                 quizData = s5ss1Lesson1QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
@@ -3058,7 +3268,8 @@ class SidebarController extends GetxController {
                 practiceData = s5ss1Lesson2PracticeData;
                 independentPracticeData = s5ss1Lesson2IndependentQuizData;
                 quizData = s5ss1Lesson2QuizData;
-              }if (courseTitle == "English" &&
+              }
+              if (courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
@@ -3288,7 +3499,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s2ss1Lesson10PracticeData;
                 independentPracticeData = jhs2s2ss1Lesson10IndependentQuizData;
                 quizData = jhs2s2ss1Lesson10QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -3298,7 +3510,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s2ss1Lesson11PracticeData;
                 independentPracticeData = jhs2s2ss1Lesson11IndependentQuizData;
                 quizData = jhs2s2ss1Lesson11QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -3352,7 +3565,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s3ss1Lesson4PracticeData;
                 independentPracticeData = jhs2s3ss1Lesson4IndependentQuizData;
                 quizData = jhs2s3ss1Lesson4QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
@@ -3362,7 +3576,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s3ss1Lesson5PracticeData;
                 independentPracticeData = jhs2s3ss1Lesson5IndependentQuizData;
                 quizData = jhs2s3ss1Lesson5QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
@@ -3372,7 +3587,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s3ss1Lesson6PracticeData;
                 independentPracticeData = jhs2s3ss1Lesson6IndependentQuizData;
                 quizData = jhs2s3ss1Lesson6QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
@@ -3382,7 +3598,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s3ss1Lesson7PracticeData;
                 independentPracticeData = jhs2s3ss1Lesson7IndependentQuizData;
                 quizData = jhs2s3ss1Lesson7QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
@@ -3414,7 +3631,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s3ss3Lesson1PracticeData;
                 independentPracticeData = jhs2s3ss3Lesson1IndependentQuizData;
                 quizData = jhs2s3ss3Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -3424,7 +3642,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss1Lesson1PracticeData;
                 independentPracticeData = jhs2s4ss1Lesson1IndependentQuizData;
                 quizData = jhs2s4ss1Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -3434,7 +3653,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss1Lesson2PracticeData;
                 independentPracticeData = jhs2s4ss1Lesson2IndependentQuizData;
                 quizData = jhs2s4ss1Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -3444,7 +3664,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss1Lesson3PracticeData;
                 independentPracticeData = jhs2s4ss1Lesson3IndependentQuizData;
                 quizData = jhs2s4ss1Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3454,7 +3675,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson1PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson1IndependentQuizData;
                 quizData = jhs2s4ss2Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3464,7 +3686,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson2PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson2IndependentQuizData;
                 quizData = jhs2s4ss2Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3474,7 +3697,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson3PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson3IndependentQuizData;
                 quizData = jhs2s4ss2Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3484,7 +3708,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson4PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson4IndependentQuizData;
                 quizData = jhs2s4ss2Lesson4QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3494,7 +3719,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson5PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson5IndependentQuizData;
                 quizData = jhs2s4ss2Lesson5QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3504,7 +3730,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson6PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson6IndependentQuizData;
                 quizData = jhs2s4ss2Lesson6QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3514,7 +3741,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson7PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson7IndependentQuizData;
                 quizData = jhs2s4ss2Lesson7QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3524,7 +3752,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson8PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson8IndependentQuizData;
                 quizData = jhs2s4ss2Lesson8QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -3534,7 +3763,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss2Lesson9PracticeData;
                 independentPracticeData = jhs2s4ss2Lesson9IndependentQuizData;
                 quizData = jhs2s4ss2Lesson9QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -3544,7 +3774,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s4ss3Lesson1PracticeData;
                 independentPracticeData = jhs2s4ss3Lesson1IndependentQuizData;
                 quizData = jhs2s4ss3Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3554,7 +3785,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson1PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson1IndependentQuizData;
                 quizData = jhs2s5ss1Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3564,7 +3796,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson2PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson2IndependentQuizData;
                 quizData = jhs2s5ss1Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3574,7 +3807,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson3PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson3IndependentQuizData;
                 quizData = jhs2s5ss1Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3584,7 +3818,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson4PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson4IndependentQuizData;
                 quizData = jhs2s5ss1Lesson4QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3594,7 +3829,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson5PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson5IndependentQuizData;
                 quizData = jhs2s5ss1Lesson5QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3604,7 +3840,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson6PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson6IndependentQuizData;
                 quizData = jhs2s5ss1Lesson6QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3614,7 +3851,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson7PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson7IndependentQuizData;
                 quizData = jhs2s5ss1Lesson7QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3624,7 +3862,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson8PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson8IndependentQuizData;
                 quizData = jhs2s5ss1Lesson8QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3634,7 +3873,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson9PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson9IndependentQuizData;
                 quizData = jhs2s5ss1Lesson9QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3644,7 +3884,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson10PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson10IndependentQuizData;
                 quizData = jhs2s5ss1Lesson10QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3654,7 +3895,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson11PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson11IndependentQuizData;
                 quizData = jhs2s5ss1Lesson11QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3664,7 +3906,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson12PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson12IndependentQuizData;
                 quizData = jhs2s5ss1Lesson12QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3674,7 +3917,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson13PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson13IndependentQuizData;
                 quizData = jhs2s5ss1Lesson13QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3684,7 +3928,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson14PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson14IndependentQuizData;
                 quizData = jhs2s5ss1Lesson14QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3694,7 +3939,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson15PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson15IndependentQuizData;
                 quizData = jhs2s5ss1Lesson15QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3704,7 +3950,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson16PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson16IndependentQuizData;
                 quizData = jhs2s5ss1Lesson16QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3714,7 +3961,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson17PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson17IndependentQuizData;
                 quizData = jhs2s5ss1Lesson17QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3724,7 +3972,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson18PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson18IndependentQuizData;
                 quizData = jhs2s5ss1Lesson18QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3734,7 +3983,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson19PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson19IndependentQuizData;
                 quizData = jhs2s5ss1Lesson19QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3744,7 +3994,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson20PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson20IndependentQuizData;
                 quizData = jhs2s5ss1Lesson20QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3754,7 +4005,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs2s5ss1Lesson21PracticeData;
                 independentPracticeData = jhs2s5ss1Lesson21IndependentQuizData;
                 quizData = jhs2s5ss1Lesson21QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "English" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -3919,7 +4171,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s2ss1Lesson9PracticeData;
                 independentPracticeData = jhs3s2ss1Lesson9IndependentQuizData;
                 quizData = jhs3s2ss1Lesson9QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -3929,7 +4182,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s2ss1Lesson10PracticeData;
                 independentPracticeData = jhs3s2ss1Lesson10IndependentQuizData;
                 quizData = jhs3s2ss1Lesson10QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -3939,7 +4193,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s2ss1Lesson11PracticeData;
                 independentPracticeData = jhs3s2ss1Lesson11IndependentQuizData;
                 quizData = jhs3s2ss1Lesson11QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -3949,7 +4204,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s2ss1Lesson12PracticeData;
                 independentPracticeData = jhs3s2ss1Lesson12IndependentQuizData;
                 quizData = jhs3s2ss1Lesson12QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 1 &&
                   ssIndex == 0 &&
@@ -4113,7 +4369,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s3ss3Lesson2PracticeData;
                 independentPracticeData = jhs3s3ss3Lesson2IndependentQuizData;
                 quizData = jhs3s3ss3Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -4123,7 +4380,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss1Lesson1PracticeData;
                 independentPracticeData = jhs3s4ss1Lesson1IndependentQuizData;
                 quizData = jhs3s4ss1Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -4133,7 +4391,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss1Lesson2PracticeData;
                 independentPracticeData = jhs3s4ss1Lesson2IndependentQuizData;
                 quizData = jhs3s4ss1Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -4143,7 +4402,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss1Lesson3PracticeData;
                 independentPracticeData = jhs3s4ss1Lesson3IndependentQuizData;
                 quizData = jhs3s4ss1Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -4153,7 +4413,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss1Lesson4PracticeData;
                 independentPracticeData = jhs3s4ss1Lesson4IndependentQuizData;
                 quizData = jhs3s4ss1Lesson4QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4163,7 +4424,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson1PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson1IndependentQuizData;
                 quizData = jhs3s4ss2Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4173,7 +4435,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson2PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson2IndependentQuizData;
                 quizData = jhs3s4ss2Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4183,7 +4446,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson3PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson3IndependentQuizData;
                 quizData = jhs3s4ss2Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4193,7 +4457,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson4PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson4IndependentQuizData;
                 quizData = jhs3s4ss2Lesson4QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4203,7 +4468,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson5PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson5IndependentQuizData;
                 quizData = jhs3s4ss2Lesson5QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4213,7 +4479,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson6PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson6IndependentQuizData;
                 quizData = jhs3s4ss2Lesson6QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4223,7 +4490,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson7PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson7IndependentQuizData;
                 quizData = jhs3s4ss2Lesson7QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -4233,7 +4501,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss2Lesson8PracticeData;
                 independentPracticeData = jhs3s4ss2Lesson8IndependentQuizData;
                 quizData = jhs3s4ss2Lesson8QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4243,7 +4512,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss3Lesson1PracticeData;
                 independentPracticeData = jhs3s4ss3Lesson1IndependentQuizData;
                 quizData = jhs3s4ss3Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4253,7 +4523,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss3Lesson2PracticeData;
                 independentPracticeData = jhs3s4ss3Lesson2IndependentQuizData;
                 quizData = jhs3s4ss3Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4263,7 +4534,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss3Lesson3PracticeData;
                 independentPracticeData = jhs3s4ss3Lesson3IndependentQuizData;
                 quizData = jhs3s4ss3Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4273,7 +4545,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss3Lesson4PracticeData;
                 independentPracticeData = jhs3s4ss3Lesson4IndependentQuizData;
                 quizData = jhs3s4ss3Lesson4QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4283,7 +4556,8 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s4ss3Lesson5PracticeData;
                 independentPracticeData = jhs3s4ss3Lesson5IndependentQuizData;
                 quizData = jhs3s4ss3Lesson5QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -4511,7 +4785,8 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS1s3ss1Lesson2GetReadyData;
                 learnData = Scijh1s3ss1Lesson2LearnData;
                 practiceData = Scijhs1s3ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs1s3ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s3ss1Lesson2IndependentQuizData;
                 quizData = Scijhs1s3ss1Lesson2QuizData;
               }
               if (courseTitle == "Science" &&
@@ -4521,7 +4796,8 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS1s3ss1Lesson3GetReadyData;
                 learnData = Scijh1s3ss1Lesson3LearnData;
                 practiceData = Scijhs1s3ss1Lesson3PracticeData;
-                independentPracticeData = Scijhs1s3ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s3ss1Lesson3IndependentQuizData;
                 quizData = Scijhs1s3ss1Lesson3QuizData;
               }
               if (courseTitle == "Science" &&
@@ -4908,104 +5184,126 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     Scijhs1s4ss5Lesson2IndependentQuizData;
                 quizData = Scijhs1s4ss5Lesson2QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss1Lesson1GetReadyData;
                 learnData = Scijh1s5ss1Lesson1LearnData;
                 practiceData = Scijhs1s5ss1Lesson1PracticeData;
-                independentPracticeData = Scijhs1s5ss1Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss1Lesson1IndependentQuizData;
                 quizData = Scijhs1s5ss1Lesson1QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
                 getReadyData = SciJHS1s5ss1Lesson2GetReadyData;
                 learnData = Scijh1s5ss1Lesson2LearnData;
                 practiceData = Scijhs1s5ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs1s5ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss1Lesson2IndependentQuizData;
                 quizData = Scijhs1s5ss1Lesson2QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
                 getReadyData = SciJHS1s5ss1Lesson3GetReadyData;
                 learnData = Scijh1s5ss1Lesson3LearnData;
                 practiceData = Scijhs1s5ss1Lesson3PracticeData;
-                independentPracticeData = Scijhs1s5ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss1Lesson3IndependentQuizData;
                 quizData = Scijhs1s5ss1Lesson3QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss2Lesson1GetReadyData;
                 learnData = Scijh1s5ss2Lesson1LearnData;
                 practiceData = Scijhs1s5ss2Lesson1PracticeData;
-                independentPracticeData = Scijhs1s5ss2Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss2Lesson1IndependentQuizData;
                 quizData = Scijhs1s5ss2Lesson1QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
                   lIndex == 1) {
                 getReadyData = SciJHS1s5ss2Lesson2GetReadyData;
                 learnData = Scijh1s5ss2Lesson2LearnData;
                 practiceData = Scijhs1s5ss2Lesson2PracticeData;
-                independentPracticeData = Scijhs1s5ss2Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss2Lesson2IndependentQuizData;
                 quizData = Scijhs1s5ss2Lesson2QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss3Lesson1GetReadyData;
                 learnData = Scijh1s5ss3Lesson1LearnData;
                 practiceData = Scijhs1s5ss3Lesson1PracticeData;
-                independentPracticeData = Scijhs1s5ss3Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss3Lesson1IndependentQuizData;
                 quizData = Scijhs1s5ss3Lesson1QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss4Lesson1GetReadyData;
                 learnData = Scijh1s5ss4Lesson1LearnData;
                 practiceData = Scijhs1s5ss4Lesson1PracticeData;
-                independentPracticeData = Scijhs1s5ss4Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss4Lesson1IndependentQuizData;
                 quizData = Scijhs1s5ss4Lesson1QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
                   lIndex == 1) {
                 getReadyData = SciJHS1s5ss4Lesson2GetReadyData;
                 learnData = Scijh1s5ss4Lesson2LearnData;
                 practiceData = Scijhs1s5ss4Lesson2PracticeData;
-                independentPracticeData = Scijhs1s5ss4Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss4Lesson2IndependentQuizData;
                 quizData = Scijhs1s5ss4Lesson2QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
                   lIndex == 2) {
                 getReadyData = SciJHS1s5ss4Lesson3GetReadyData;
                 learnData = Scijh1s5ss4Lesson3LearnData;
                 practiceData = Scijhs1s5ss4Lesson3PracticeData;
-                independentPracticeData = Scijhs1s5ss4Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss4Lesson3IndependentQuizData;
                 quizData = Scijhs1s5ss4Lesson3QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
                   lIndex == 0) {
                 getReadyData = SciJHS1s5ss5Lesson1GetReadyData;
                 learnData = Scijh1s5ss5Lesson1LearnData;
                 practiceData = Scijhs1s5ss5Lesson1PracticeData;
-                independentPracticeData = Scijhs1s5ss5Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss5Lesson1IndependentQuizData;
                 quizData = Scijhs1s5ss5Lesson1QuizData;
-              }if (courseTitle == "Science" &&
+              }
+              if (courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
                   lIndex == 1) {
                 getReadyData = SciJHS1s5ss5Lesson2GetReadyData;
                 learnData = Scijh1s5ss5Lesson2LearnData;
                 practiceData = Scijhs1s5ss5Lesson2PracticeData;
-                independentPracticeData = Scijhs1s5ss5Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs1s5ss5Lesson2IndependentQuizData;
                 quizData = Scijhs1s5ss5Lesson2QuizData;
               }
 
@@ -5293,9 +5591,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss1Lesson1GetReadyData;
                 learnData = Scijh2s4ss1Lesson1LearnData;
                 practiceData = Scijhs2s4ss1Lesson1PracticeData;
-                independentPracticeData = Scijhs2s4ss1Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss1Lesson1IndependentQuizData;
                 quizData = Scijhs2s4ss1Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5303,9 +5603,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss1Lesson2GetReadyData;
                 learnData = Scijh2s4ss1Lesson2LearnData;
                 practiceData = Scijhs2s4ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs2s4ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss1Lesson2IndependentQuizData;
                 quizData = Scijhs2s4ss1Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5313,9 +5615,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss1Lesson3GetReadyData;
                 learnData = Scijh2s4ss1Lesson3LearnData;
                 practiceData = Scijhs2s4ss1Lesson3PracticeData;
-                independentPracticeData = Scijhs2s4ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss1Lesson3IndependentQuizData;
                 quizData = Scijhs2s4ss1Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5323,9 +5627,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss1Lesson4GetReadyData;
                 learnData = Scijh2s4ss1Lesson4LearnData;
                 practiceData = Scijhs2s4ss1Lesson4PracticeData;
-                independentPracticeData = Scijhs2s4ss1Lesson4IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss1Lesson4IndependentQuizData;
                 quizData = Scijhs2s4ss1Lesson4QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5333,9 +5639,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss1Lesson5GetReadyData;
                 learnData = Scijh2s4ss1Lesson5LearnData;
                 practiceData = Scijhs2s4ss1Lesson5PracticeData;
-                independentPracticeData = Scijhs2s4ss1Lesson5IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss1Lesson5IndependentQuizData;
                 quizData = Scijhs2s4ss1Lesson5QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -5343,9 +5651,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss2Lesson1GetReadyData;
                 learnData = Scijh2s4ss2Lesson1LearnData;
                 practiceData = Scijhs2s4ss2Lesson1PracticeData;
-                independentPracticeData = Scijhs2s4ss2Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss2Lesson1IndependentQuizData;
                 quizData = Scijhs2s4ss2Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -5353,9 +5663,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss2Lesson2GetReadyData;
                 learnData = Scijh2s4ss2Lesson2LearnData;
                 practiceData = Scijhs2s4ss2Lesson2PracticeData;
-                independentPracticeData = Scijhs2s4ss2Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss2Lesson2IndependentQuizData;
                 quizData = Scijhs2s4ss2Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -5363,9 +5675,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss3Lesson1GetReadyData;
                 learnData = Scijh2s4ss3Lesson1LearnData;
                 practiceData = Scijhs2s4ss3Lesson1PracticeData;
-                independentPracticeData = Scijhs2s4ss3Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss3Lesson1IndependentQuizData;
                 quizData = Scijhs2s4ss3Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -5373,9 +5687,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss3Lesson2GetReadyData;
                 learnData = Scijh2s4ss3Lesson2LearnData;
                 practiceData = Scijhs2s4ss3Lesson2PracticeData;
-                independentPracticeData = Scijhs2s4ss3Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss3Lesson2IndependentQuizData;
                 quizData = Scijhs2s4ss3Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -5383,9 +5699,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss4Lesson1GetReadyData;
                 learnData = Scijh2s4ss4Lesson1LearnData;
                 practiceData = Scijhs2s4ss4Lesson1PracticeData;
-                independentPracticeData = Scijhs2s4ss4Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss4Lesson1IndependentQuizData;
                 quizData = Scijhs2s4ss4Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -5393,9 +5711,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss4Lesson2GetReadyData;
                 learnData = Scijh2s4ss4Lesson2LearnData;
                 practiceData = Scijhs2s4ss4Lesson2PracticeData;
-                independentPracticeData = Scijhs2s4ss4Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss4Lesson2IndependentQuizData;
                 quizData = Scijhs2s4ss4Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -5403,9 +5723,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss4Lesson3GetReadyData;
                 learnData = Scijh2s4ss4Lesson3LearnData;
                 practiceData = Scijhs2s4ss4Lesson3PracticeData;
-                independentPracticeData = Scijhs2s4ss4Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss4Lesson3IndependentQuizData;
                 quizData = Scijhs2s4ss4Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 4 &&
@@ -5413,9 +5735,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss5Lesson1GetReadyData;
                 learnData = Scijh2s4ss5Lesson1LearnData;
                 practiceData = Scijhs2s4ss5Lesson1PracticeData;
-                independentPracticeData = Scijhs2s4ss5Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss5Lesson1IndependentQuizData;
                 quizData = Scijhs2s4ss5Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 4 &&
@@ -5423,9 +5747,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s4ss5Lesson2GetReadyData;
                 learnData = Scijh2s4ss5Lesson2LearnData;
                 practiceData = Scijhs2s4ss5Lesson2PracticeData;
-                independentPracticeData = Scijhs2s4ss5Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s4ss5Lesson2IndependentQuizData;
                 quizData = Scijhs2s4ss5Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -5433,9 +5759,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss1Lesson1GetReadyData;
                 learnData = Scijh2s5ss1Lesson1LearnData;
                 practiceData = Scijhs2s5ss1Lesson1PracticeData;
-                independentPracticeData = Scijhs2s5ss1Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss1Lesson1IndependentQuizData;
                 quizData = Scijhs2s5ss1Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -5443,9 +5771,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss1Lesson2GetReadyData;
                 learnData = Scijh2s5ss1Lesson2LearnData;
                 practiceData = Scijhs2s5ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs2s5ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss1Lesson2IndependentQuizData;
                 quizData = Scijhs2s5ss1Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -5453,9 +5783,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss2Lesson1GetReadyData;
                 learnData = Scijh2s5ss2Lesson1LearnData;
                 practiceData = Scijhs2s5ss2Lesson1PracticeData;
-                independentPracticeData = Scijhs2s5ss2Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss2Lesson1IndependentQuizData;
                 quizData = Scijhs2s5ss2Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -5463,9 +5795,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss2Lesson2GetReadyData;
                 learnData = Scijh2s5ss2Lesson2LearnData;
                 practiceData = Scijhs2s5ss2Lesson2PracticeData;
-                independentPracticeData = Scijhs2s5ss2Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss2Lesson2IndependentQuizData;
                 quizData = Scijhs2s5ss2Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -5473,9 +5807,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss2Lesson3GetReadyData;
                 learnData = Scijh2s5ss2Lesson3LearnData;
                 practiceData = Scijhs2s5ss2Lesson3PracticeData;
-                independentPracticeData = Scijhs2s5ss2Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss2Lesson3IndependentQuizData;
                 quizData = Scijhs2s5ss2Lesson3QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -5483,9 +5819,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss2Lesson4GetReadyData;
                 learnData = Scijh2s5ss2Lesson4LearnData;
                 practiceData = Scijhs2s5ss2Lesson4PracticeData;
-                independentPracticeData = Scijhs2s5ss2Lesson4IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss2Lesson4IndependentQuizData;
                 quizData = Scijhs2s5ss2Lesson4QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
@@ -5493,9 +5831,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss3Lesson1GetReadyData;
                 learnData = Scijh2s5ss3Lesson1LearnData;
                 practiceData = Scijhs2s5ss3Lesson1PracticeData;
-                independentPracticeData = Scijhs2s5ss3Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss3Lesson1IndependentQuizData;
                 quizData = Scijhs2s5ss3Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
@@ -5503,9 +5843,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss3Lesson2GetReadyData;
                 learnData = Scijh2s5ss3Lesson2LearnData;
                 practiceData = Scijhs2s5ss3Lesson2PracticeData;
-                independentPracticeData = Scijhs2s5ss3Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss3Lesson2IndependentQuizData;
                 quizData = Scijhs2s5ss3Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
@@ -5513,9 +5855,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss4Lesson1GetReadyData;
                 learnData = Scijh2s5ss4Lesson1LearnData;
                 practiceData = Scijhs2s5ss4Lesson1PracticeData;
-                independentPracticeData = Scijhs2s5ss4Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss4Lesson1IndependentQuizData;
                 quizData = Scijhs2s5ss4Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -5523,9 +5867,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss5Lesson1GetReadyData;
                 learnData = Scijh2s5ss5Lesson1LearnData;
                 practiceData = Scijhs2s5ss5Lesson1PracticeData;
-                independentPracticeData = Scijhs2s5ss5Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss5Lesson1IndependentQuizData;
                 quizData = Scijhs2s5ss5Lesson1QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -5533,9 +5879,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss5Lesson2GetReadyData;
                 learnData = Scijh2s5ss5Lesson2LearnData;
                 practiceData = Scijhs2s5ss5Lesson2PracticeData;
-                independentPracticeData = Scijhs2s5ss5Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss5Lesson2IndependentQuizData;
                 quizData = Scijhs2s5ss5Lesson2QuizData;
-              }if (grade == "JHS 2" &&
+              }
+              if (grade == "JHS 2" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -5543,7 +5891,8 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS2s5ss5Lesson3GetReadyData;
                 learnData = Scijh2s5ss5Lesson3LearnData;
                 practiceData = Scijhs2s5ss5Lesson3PracticeData;
-                independentPracticeData = Scijhs2s5ss5Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs2s5ss5Lesson3IndependentQuizData;
                 quizData = Scijhs2s5ss5Lesson3QuizData;
               }
 
@@ -5954,7 +6303,8 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     Scijhs3s3ss4Lesson3IndependentQuizData;
                 quizData = Scijhs3s3ss4Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5962,9 +6312,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson1GetReadyData;
                 learnData = Scijh3s4ss1Lesson1LearnData;
                 practiceData = Scijhs3s4ss1Lesson1PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson1IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5972,9 +6324,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson2GetReadyData;
                 learnData = Scijh3s4ss1Lesson2LearnData;
                 practiceData = Scijhs3s4ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson2IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5982,9 +6336,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson3GetReadyData;
                 learnData = Scijh3s4ss1Lesson3LearnData;
                 practiceData = Scijhs3s4ss1Lesson3PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson3IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -5992,9 +6348,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson4GetReadyData;
                 learnData = Scijh3s4ss1Lesson4LearnData;
                 practiceData = Scijhs3s4ss1Lesson4PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson4IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson4IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson4QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -6002,9 +6360,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson5GetReadyData;
                 learnData = Scijh3s4ss1Lesson5LearnData;
                 practiceData = Scijhs3s4ss1Lesson5PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson5IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson5IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson5QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -6012,9 +6372,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson6GetReadyData;
                 learnData = Scijh3s4ss1Lesson6LearnData;
                 practiceData = Scijhs3s4ss1Lesson6PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson6IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson6IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson6QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
@@ -6022,9 +6384,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss1Lesson7GetReadyData;
                 learnData = Scijh3s4ss1Lesson7LearnData;
                 practiceData = Scijhs3s4ss1Lesson7PracticeData;
-                independentPracticeData = Scijhs3s4ss1Lesson7IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss1Lesson7IndependentQuizData;
                 quizData = Scijhs3s4ss1Lesson7QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -6032,9 +6396,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss2Lesson1GetReadyData;
                 learnData = Scijh3s4ss2Lesson1LearnData;
                 practiceData = Scijhs3s4ss2Lesson1PracticeData;
-                independentPracticeData = Scijhs3s4ss2Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss2Lesson1IndependentQuizData;
                 quizData = Scijhs3s4ss2Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 1 &&
@@ -6042,9 +6408,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss2Lesson2GetReadyData;
                 learnData = Scijh3s4ss2Lesson2LearnData;
                 practiceData = Scijhs3s4ss2Lesson2PracticeData;
-                independentPracticeData = Scijhs3s4ss2Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss2Lesson2IndependentQuizData;
                 quizData = Scijhs3s4ss2Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -6052,9 +6420,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss3Lesson1GetReadyData;
                 learnData = Scijh3s4ss3Lesson1LearnData;
                 practiceData = Scijhs3s4ss3Lesson1PracticeData;
-                independentPracticeData = Scijhs3s4ss3Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss3Lesson1IndependentQuizData;
                 quizData = Scijhs3s4ss3Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 2 &&
@@ -6062,9 +6432,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss3Lesson2GetReadyData;
                 learnData = Scijh3s4ss3Lesson2LearnData;
                 practiceData = Scijhs3s4ss3Lesson2PracticeData;
-                independentPracticeData = Scijhs3s4ss3Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss3Lesson2IndependentQuizData;
                 quizData = Scijhs3s4ss3Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -6072,9 +6444,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss4Lesson1GetReadyData;
                 learnData = Scijh3s4ss4Lesson1LearnData;
                 practiceData = Scijhs3s4ss4Lesson1PracticeData;
-                independentPracticeData = Scijhs3s4ss4Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss4Lesson1IndependentQuizData;
                 quizData = Scijhs3s4ss4Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -6082,9 +6456,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss4Lesson2GetReadyData;
                 learnData = Scijh3s4ss4Lesson2LearnData;
                 practiceData = Scijhs3s4ss4Lesson2PracticeData;
-                independentPracticeData = Scijhs3s4ss4Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss4Lesson2IndependentQuizData;
                 quizData = Scijhs3s4ss4Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 3 &&
@@ -6092,9 +6468,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss4Lesson3GetReadyData;
                 learnData = Scijh3s4ss4Lesson3LearnData;
                 practiceData = Scijhs3s4ss4Lesson3PracticeData;
-                independentPracticeData = Scijhs3s4ss4Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss4Lesson3IndependentQuizData;
                 quizData = Scijhs3s4ss4Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 4 &&
@@ -6102,9 +6480,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss5Lesson1GetReadyData;
                 learnData = Scijh3s4ss5Lesson1LearnData;
                 practiceData = Scijhs3s4ss5Lesson1PracticeData;
-                independentPracticeData = Scijhs3s4ss5Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss5Lesson1IndependentQuizData;
                 quizData = Scijhs3s4ss5Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 4 &&
@@ -6112,9 +6492,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss5Lesson2GetReadyData;
                 learnData = Scijh3s4ss5Lesson2LearnData;
                 practiceData = Scijhs3s4ss5Lesson2PracticeData;
-                independentPracticeData = Scijhs3s4ss5Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss5Lesson2IndependentQuizData;
                 quizData = Scijhs3s4ss5Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 3 &&
                   ssIndex == 4 &&
@@ -6122,9 +6504,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s4ss5Lesson3GetReadyData;
                 learnData = Scijh3s4ss5Lesson3LearnData;
                 practiceData = Scijhs3s4ss5Lesson3PracticeData;
-                independentPracticeData = Scijhs3s4ss5Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s4ss5Lesson3IndependentQuizData;
                 quizData = Scijhs3s4ss5Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6132,9 +6516,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson1GetReadyData;
                 learnData = Scijh3s5ss1Lesson1LearnData;
                 practiceData = Scijhs3s5ss1Lesson1PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson1IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6142,9 +6528,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson2GetReadyData;
                 learnData = Scijh3s5ss1Lesson2LearnData;
                 practiceData = Scijhs3s5ss1Lesson2PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson2IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6152,9 +6540,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson3GetReadyData;
                 learnData = Scijh3s5ss1Lesson3LearnData;
                 practiceData = Scijhs3s5ss1Lesson3PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson3IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6162,9 +6552,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson4GetReadyData;
                 learnData = Scijh3s5ss1Lesson4LearnData;
                 practiceData = Scijhs3s5ss1Lesson4PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson4IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson4IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson4QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6172,9 +6564,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson5GetReadyData;
                 learnData = Scijh3s5ss1Lesson5LearnData;
                 practiceData = Scijhs3s5ss1Lesson5PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson5IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson5IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson5QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 0 &&
@@ -6182,9 +6576,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss1Lesson6GetReadyData;
                 learnData = Scijh3s5ss1Lesson6LearnData;
                 practiceData = Scijhs3s5ss1Lesson6PracticeData;
-                independentPracticeData = Scijhs3s5ss1Lesson6IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss1Lesson6IndependentQuizData;
                 quizData = Scijhs3s5ss1Lesson6QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -6192,9 +6588,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss2Lesson1GetReadyData;
                 learnData = Scijh3s5ss2Lesson1LearnData;
                 practiceData = Scijhs3s5ss2Lesson1PracticeData;
-                independentPracticeData = Scijhs3s5ss2Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss2Lesson1IndependentQuizData;
                 quizData = Scijhs3s5ss2Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -6202,9 +6600,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss2Lesson2GetReadyData;
                 learnData = Scijh3s5ss2Lesson2LearnData;
                 practiceData = Scijhs3s5ss2Lesson2PracticeData;
-                independentPracticeData = Scijhs3s5ss2Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss2Lesson2IndependentQuizData;
                 quizData = Scijhs3s5ss2Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
@@ -6212,9 +6612,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss2Lesson3GetReadyData;
                 learnData = Scijh3s5ss2Lesson3LearnData;
                 practiceData = Scijhs3s5ss2Lesson3PracticeData;
-                independentPracticeData = Scijhs3s5ss2Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss2Lesson3IndependentQuizData;
                 quizData = Scijhs3s5ss2Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
@@ -6222,9 +6624,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss3Lesson1GetReadyData;
                 learnData = Scijh3s5ss3Lesson1LearnData;
                 practiceData = Scijhs3s5ss3Lesson1PracticeData;
-                independentPracticeData = Scijhs3s5ss3Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss3Lesson1IndependentQuizData;
                 quizData = Scijhs3s5ss3Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
@@ -6232,9 +6636,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss3Lesson2GetReadyData;
                 learnData = Scijh3s5ss3Lesson2LearnData;
                 practiceData = Scijhs3s5ss3Lesson2PracticeData;
-                independentPracticeData = Scijhs3s5ss3Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss3Lesson2IndependentQuizData;
                 quizData = Scijhs3s5ss3Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 2 &&
@@ -6242,9 +6648,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss3Lesson3GetReadyData;
                 learnData = Scijh3s5ss3Lesson3LearnData;
                 practiceData = Scijhs3s5ss3Lesson3PracticeData;
-                independentPracticeData = Scijhs3s5ss3Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss3Lesson3IndependentQuizData;
                 quizData = Scijhs3s5ss3Lesson3QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
@@ -6252,9 +6660,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss4Lesson1GetReadyData;
                 learnData = Scijh3s5ss4Lesson1LearnData;
                 practiceData = Scijhs3s5ss4Lesson1PracticeData;
-                independentPracticeData = Scijhs3s5ss4Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss4Lesson1IndependentQuizData;
                 quizData = Scijhs3s5ss4Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 3 &&
@@ -6262,9 +6672,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss4Lesson2GetReadyData;
                 learnData = Scijh3s5ss4Lesson2LearnData;
                 practiceData = Scijhs3s5ss4Lesson2PracticeData;
-                independentPracticeData = Scijhs3s5ss4Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss4Lesson2IndependentQuizData;
                 quizData = Scijhs3s5ss4Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -6272,9 +6684,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss5Lesson1GetReadyData;
                 learnData = Scijh3s5ss5Lesson1LearnData;
                 practiceData = Scijhs3s5ss5Lesson1PracticeData;
-                independentPracticeData = Scijhs3s5ss5Lesson1IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss5Lesson1IndependentQuizData;
                 quizData = Scijhs3s5ss5Lesson1QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -6282,9 +6696,11 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss5Lesson2GetReadyData;
                 learnData = Scijh3s5ss5Lesson2LearnData;
                 practiceData = Scijhs3s5ss5Lesson2PracticeData;
-                independentPracticeData = Scijhs3s5ss5Lesson2IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss5Lesson2IndependentQuizData;
                 quizData = Scijhs3s5ss5Lesson2QuizData;
-              }if (grade == "JHS 3" &&
+              }
+              if (grade == "JHS 3" &&
                   courseTitle == "Science" &&
                   sIndex == 4 &&
                   ssIndex == 4 &&
@@ -6292,7 +6708,8 @@ class SidebarController extends GetxController {
                 getReadyData = SciJHS3s5ss5Lesson3GetReadyData;
                 learnData = Scijh3s5ss5Lesson3LearnData;
                 practiceData = Scijhs3s5ss5Lesson3PracticeData;
-                independentPracticeData = Scijhs3s5ss5Lesson3IndependentQuizData;
+                independentPracticeData =
+                    Scijhs3s5ss5Lesson3IndependentQuizData;
                 quizData = Scijhs3s5ss5Lesson3QuizData;
               }
 
@@ -6801,7 +7218,8 @@ class SidebarController extends GetxController {
                 practiceData = SSjhs1s5ss2Lesson1PracticeData;
                 independentPracticeData = SSjhs1s5ss2Lesson1IndependentQuizData;
                 quizData = SSjhs1s5ss2Lesson1QuizData;
-              }if (courseTitle == "Social Studies" &&
+              }
+              if (courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
@@ -6810,7 +7228,8 @@ class SidebarController extends GetxController {
                 practiceData = SSjhs1s6ss1Lesson1PracticeData;
                 independentPracticeData = SSjhs1s6ss1Lesson1IndependentQuizData;
                 quizData = SSjhs1s6ss1Lesson1QuizData;
-              }if (courseTitle == "Social Studies" &&
+              }
+              if (courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
@@ -6819,7 +7238,8 @@ class SidebarController extends GetxController {
                 practiceData = SSjhs1s6ss1Lesson2PracticeData;
                 independentPracticeData = SSjhs1s6ss1Lesson2IndependentQuizData;
                 quizData = SSjhs1s6ss1Lesson2QuizData;
-              }if (courseTitle == "Social Studies" &&
+              }
+              if (courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
@@ -6828,7 +7248,8 @@ class SidebarController extends GetxController {
                 practiceData = SSjhs1s6ss1Lesson3PracticeData;
                 independentPracticeData = SSjhs1s6ss1Lesson3IndependentQuizData;
                 quizData = SSjhs1s6ss1Lesson3QuizData;
-              }if (courseTitle == "Social Studies" &&
+              }
+              if (courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
                   lIndex == 3) {
@@ -7884,7 +8305,8 @@ class SidebarController extends GetxController {
                 getReadyData = RMEJHS3s2ss1Lesson3GetReadyData;
                 learnData = RMEjhs3s2ss1Lesson3LearnData;
                 practiceData = RMEjhs3s2ss1Lesson3PracticeData;
-                independentPracticeData = RMEjhs3s2ss1Lesson3IndependentQuizData;
+                independentPracticeData =
+                    RMEjhs3s2ss1Lesson3IndependentQuizData;
                 quizData = RMEjhs3s2ss1Lesson3QuizData;
               }
               if (grade == "JHS 3" &&
@@ -8050,136 +8472,142 @@ class SidebarController extends GetxController {
 
     if (includeBece) {
       List<SubStrand> beceSubStrands = [];
+
       for (int sIndex = 0; sIndex < generatedStrands.length; sIndex++) {
         final normalStrand = generatedStrands[sIndex];
 
         List<Lesson> beceLessonsForStrand = [];
-        for (int ssIndex = 0; ssIndex < normalStrand.subStrands.length; ssIndex++) {
+        for (int ssIndex = 0;
+            ssIndex < normalStrand.subStrands.length;
+            ssIndex++) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
-          final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim().toLowerCase();
+          final String gradeClean = grade.replaceAll(' ', '');
+          final int sNumber = sIndex + 1;
+          final int ssNumber = ssIndex + 1;
+          final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim();
 
-          // 1. Try to find quiz data matching the sub-strand title directly (with grade-specific prefixes/suffixes)
+          // Subject name aliases
+          final List<String> subjectAliases = [
+            courseTitle.toLowerCase(),
+            courseTitle.split(' ').first.toLowerCase(),
+          ];
+
+          // Grade+strand+substrand patterns: "JHS1 s1 ss1 -"
+          // These are the REQUIRED format. The strand number prevents cross-strand leaks.
+          final List<String> gradeStrandSsPatterns = [
+            "${gradeClean.toLowerCase()} s$sNumber ss$ssNumber -",
+            "${grade.toLowerCase()} s$sNumber ss$ssNumber -",
+            "${gradeClean.toLowerCase()} s $sNumber ss$ssNumber -",
+            "${grade.toLowerCase()} s $sNumber ss$ssNumber -",
+            "${gradeClean.toLowerCase()} s$sNumber ss $ssNumber -",
+            "${grade.toLowerCase()} s$sNumber ss $ssNumber -",
+          ];
+
+          // Build prefix list: ONLY subject-prefixed patterns.
+          // Plain "jhs1 s1 ss1 -" intentionally excluded — it would match any subject's data.
+          // Required key format: "[Subject] [Grade] s[N] ss[M] - [Name]"
+          final List<String> candidatePrefixes = [
+            for (final alias in subjectAliases)
+              for (final gp in gradeStrandSsPatterns)
+                "$alias $gp",
+          ];
+
+          // Exact match fallbacks using default sub-strand title
+          final List<String> exactCandidates = [
+            for (final alias in subjectAliases) ...[
+              "$alias ${gradeClean.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+              "$alias ${grade.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+            ],
+            "${gradeClean.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+            "${grade.toLowerCase()} s$sNumber ss$ssNumber - $normalizedSubStrandTitle",
+          ].map((k) => k.trim().toLowerCase()).toList();
+
           QuizModel? matchedQuiz;
-          final String gradeSpecificPrefixed = "$grade - $normalizedSubStrandTitle";
-          final String gradeSpecificColoned = "$grade: $normalizedSubStrandTitle";
-          final String gradeSpecificSuffixed = "$normalizedSubStrandTitle ($grade)";
-
+          String matchedQuizKey = "";
           for (var entry in beceQuizData.entries) {
             final String entryKeyLower = entry.key.trim().toLowerCase();
-            if (entryKeyLower == gradeSpecificPrefixed.toLowerCase() ||
-                entryKeyLower == gradeSpecificColoned.toLowerCase() ||
-                entryKeyLower == gradeSpecificSuffixed.toLowerCase() ||
-                entryKeyLower == normalizedSubStrandTitle) {
-              matchedQuiz = entry.value;
-              break;
-            }
-          }
-
-          // 2. If not found, try to find quiz data matching any of the lessons' topics inside this sub-strand (with grade-specific options)
-          if (matchedQuiz == null) {
-            List<QuizQuestion> collectedQuestions = [];
-            for (var normalLesson in normalSubStrand.lessons) {
-              final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
-              final String lessonGradeSpecificPrefixed = "$grade - $normalizedLessonTopic";
-              final String lessonGradeSpecificColoned = "$grade: $normalizedLessonTopic";
-              final String lessonGradeSpecificSuffixed = "$normalizedLessonTopic ($grade)";
-
-              for (var entry in beceQuizData.entries) {
-                final String entryKeyLower = entry.key.trim().toLowerCase();
-                if (entryKeyLower == normalizedLessonTopic ||
-                    entryKeyLower == lessonGradeSpecificPrefixed.toLowerCase() ||
-                    entryKeyLower == lessonGradeSpecificColoned.toLowerCase() ||
-                    entryKeyLower == lessonGradeSpecificSuffixed.toLowerCase()) {
-                  collectedQuestions.addAll(entry.value.questions);
+            bool matched = exactCandidates.contains(entryKeyLower);
+            if (!matched) {
+              for (var prefix in candidatePrefixes) {
+                if (entryKeyLower.startsWith(prefix)) {
+                  matched = true;
+                  break;
                 }
               }
             }
-            if (collectedQuestions.isNotEmpty) {
-              matchedQuiz = QuizModel(audioPath: '', questions: collectedQuestions);
+            if (matched) {
+              matchedQuiz = entry.value;
+              matchedQuizKey = entry.key;
+              break;
             }
           }
-
-          // 3. Fallback: Aggregate the normal lesson quizzes under this sub-strand
           if (matchedQuiz == null) {
-            List<QuizQuestion> fallbackQuestions = [];
-            for (var normalLesson in normalSubStrand.lessons) {
-              fallbackQuestions.addAll(normalLesson.quiz.questions);
-            }
-            matchedQuiz = QuizModel(audioPath: '', questions: fallbackQuestions);
+            matchedQuiz = QuizModel(audioPath: '', questions: []);
           }
 
-          // 1. Try to find practice data matching the sub-strand title directly (with grade-specific prefixes/suffixes)
           PracticeModel? matchedPractice;
+          String matchedPracticeKey = "";
           for (var entry in becePracticeData.entries) {
             final String entryKeyLower = entry.key.trim().toLowerCase();
-            if (entryKeyLower == gradeSpecificPrefixed.toLowerCase() ||
-                entryKeyLower == gradeSpecificColoned.toLowerCase() ||
-                entryKeyLower == gradeSpecificSuffixed.toLowerCase() ||
-                entryKeyLower == normalizedSubStrandTitle) {
-              matchedPractice = entry.value;
-              break;
-            }
-          }
-
-          // 2. If not found, try to find practice data matching any of the lessons' topics inside this sub-strand (with grade-specific options)
-          if (matchedPractice == null) {
-            List<PracticeQuestion> collectedPracticeQuestions = [];
-            for (var normalLesson in normalSubStrand.lessons) {
-              final String normalizedLessonTopic = normalLesson.topic.trim().toLowerCase();
-              final String lessonGradeSpecificPrefixed = "$grade - $normalizedLessonTopic";
-              final String lessonGradeSpecificColoned = "$grade: $normalizedLessonTopic";
-              final String lessonGradeSpecificSuffixed = "$normalizedLessonTopic ($grade)";
-
-              for (var entry in becePracticeData.entries) {
-                final String entryKeyLower = entry.key.trim().toLowerCase();
-                if (entryKeyLower == normalizedLessonTopic ||
-                    entryKeyLower == lessonGradeSpecificPrefixed.toLowerCase() ||
-                    entryKeyLower == lessonGradeSpecificColoned.toLowerCase() ||
-                    entryKeyLower == lessonGradeSpecificSuffixed.toLowerCase()) {
-                  collectedPracticeQuestions.addAll(entry.value.questions);
+            bool matched = exactCandidates.contains(entryKeyLower);
+            if (!matched) {
+              for (var prefix in candidatePrefixes) {
+                if (entryKeyLower.startsWith(prefix)) {
+                  matched = true;
+                  break;
                 }
               }
             }
-            if (collectedPracticeQuestions.isNotEmpty) {
-              matchedPractice = PracticeModel(audioPath: '', questions: collectedPracticeQuestions);
+            if (matched) {
+              matchedPractice = entry.value;
+              matchedPracticeKey = entry.key;
+              break;
             }
           }
-
-          // 3. Fallback: Aggregate the normal lesson practices under this sub-strand
           if (matchedPractice == null) {
-            List<PracticeQuestion> fallbackPracticeQuestions = [];
-            for (var normalLesson in normalSubStrand.lessons) {
-              fallbackPracticeQuestions.addAll(normalLesson.practice.questions);
-            }
-            matchedPractice = PracticeModel(audioPath: '', questions: fallbackPracticeQuestions);
+            matchedPractice = PracticeModel(audioPath: '', questions: []);
           }
 
-          beceLessonsForStrand.add(
-            Lesson(
-              title: "Sub-strand ${ssIndex + 1}",
-              topic: normalSubStrand.subtitle,
-              courseName: courseTitle,
-              strandName: "BECE",
-              subStrandName: normalStrand.title,
-              lessonNumber: (beceLessonsForStrand.length + 1).toString(),
-              gradeName: grade,
-              getReady: defaultGetReadyData,
-              learn: defaultLearnData,
-              quiz: matchedQuiz,
-              practice: matchedPractice,
-              independentPractice: defaultIndependentQuizData,
+          // Extract display name: strip all prefix tokens, keep only the custom name after " - "
+          String displaySubStrandName = normalSubStrand.subtitle;
+          final String rawKey = matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          if (rawKey.isNotEmpty) {
+            if (rawKey.contains(" - ")) {
+              displaySubStrandName = rawKey.split(" - ").last.trim();
+            }
+          }
+
+          if (matchedQuiz.questions.isNotEmpty ||
+              matchedPractice.questions.isNotEmpty) {
+            beceLessonsForStrand.add(
+              Lesson(
+                title: "Sub-strand ${beceLessonsForStrand.length + 1}",
+                topic: displaySubStrandName,
+                courseName: courseTitle,
+                strandName: "BECE",
+                subStrandName: normalStrand.title,
+                lessonNumber: (beceLessonsForStrand.length + 1).toString(),
+                gradeName: grade,
+                getReady: defaultGetReadyData,
+                learn: defaultLearnData,
+                quiz: matchedQuiz,
+                practice: matchedPractice,
+                independentPractice: defaultIndependentQuizData,
+              ),
+            );
+          }
+        }
+
+        if (beceLessonsForStrand.isNotEmpty) {
+          beceSubStrands.add(
+            SubStrand(
+              title: normalStrand.title,
+              subtitle: normalStrand.subtitle,
+              lessons: beceLessonsForStrand,
             ),
           );
         }
-
-        beceSubStrands.add(
-          SubStrand(
-            title: normalStrand.title,
-            subtitle: normalStrand.subtitle,
-            lessons: beceLessonsForStrand,
-          ),
-        );
       }
 
       generatedStrands.add(
