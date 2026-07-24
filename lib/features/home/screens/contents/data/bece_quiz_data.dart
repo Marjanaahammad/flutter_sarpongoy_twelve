@@ -1995,6 +1995,7 @@ final Map<String, QuizModel> beceQuizData = {
               "The difference between 5 parts and 2 parts is 3 parts. If 3 parts equal GH₵150.00, then one part is GH₵50.00. The total amount shared is 7 × GH₵50.00 = GH₵350.00."),
     ],
   ),
+
   "Math JHS1 s2 ss1 - Patterns and Relations": QuizModel(
     audioPath: '',
     questions: [
@@ -4814,169 +4815,943 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "The Algebra Journey": QuizModel(
+
+  "Math JHS2 s1 ss1 - NUMBER AND NUMERATION SYSTEMS": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Solve for x: 3x + 5 = 20",
-          options: ["x = 3", "x = 5", "x = 8", "x = 15"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "3x = 15 → x = 5."),
+        question:
+        r"1. Given that 2^2 \times 3^2 \times 7 = 252, find the least number that should be multiplied by 252 to make the product a perfect square.          (BECE 1991 Q4)",
+        options: [
+          "2",
+          "3",
+          "6",
+          "7",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"In 2^2 \times 3^2 \times 7, only 7 has an odd power. Multiplying by 7 gives 2^2 \times 3^2 \times 7^2, which is a perfect square.",
+      ),
+
       QuizQuestion(
-          question: "2. Simplify: 4a + 3b − 2a + b",
-          options: ["2a + 4b", "6a + 2b", "2a + 2b", "6a + 4b"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "(4a − 2a) + (3b + b) = 2a + 4b."),
+        question:
+        r"2. If Y = \{house, tree\} and V = \{cat, house, tree\}, which of the following is true of Y and V?          (BECE 1991 Q2)",
+        options: [
+          r"Y = V",
+          r"Y \subseteq V",
+          r"V \subseteq Y",
+          r"V \in Y",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Every member of Y is also a member of V. Therefore, Y \subseteq V.",
+      ),
+
       QuizQuestion(
-          question: "3. Expand: 3(x + 4)",
-          options: ["3x + 4", "3x + 7", "3x + 12", "x + 12"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Distribute 3: 3×x + 3×4 = 3x + 12."),
+        question:
+        "3. Write 39.9748 km, correct to three significant figures.          (BECE 1993 Q30)",
+        options: [
+          "39.9 km",
+          "39.975 km",
+          "40 km",
+          "40.0 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The first three significant digits are 3, 9 and 9. The next digit is 7, so the number rounds to 40.0 km.",
+      ),
+
       QuizQuestion(
-          question: "4. Factorise: 6x + 9",
-          options: ["3(2x + 3)", "2(3x + 9)", "6(x + 9)", "9(x + 3)"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "HCF of 6 and 9 is 3. 6x + 9 = 3(2x + 3)."),
+        question:
+        r"4. If P = \{7, 11, 13\} and Q = \{9, 11, 13\}, find P \cup Q.          (BECE 1992 Q2)",
+        options: [
+          r"\{7\}",
+          r"\{9\}",
+          r"\{7, 9\}",
+          r"\{7, 9, 11, 13\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains every member found in P or Q. Therefore, P \cup Q = \{7, 9, 11, 13\}.",
+      ),
+
       QuizQuestion(
-          question: "5. Solve: 2(x − 3) = 10",
-          options: ["x = 4", "x = 7", "x = 8", "x = 10"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "2x − 6 = 10 → 2x = 16 → x = 8."),
+        question:
+        "5. Find the set of prime factors of 12.          (BECE 1992 Q1)",
+        options: [
+          r"\{3\}",
+          r"\{2, 3\}",
+          r"\{3, 4\}",
+          r"\{2, 6\}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
+      ),
+
       QuizQuestion(
-          question: "6. What is the value of y in: y/4 = 7?",
-          options: ["y = 1.75", "y = 11", "y = 28", "y = 3"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "y = 7 × 4 = 28."),
+        question:
+        "6. Two sets which have no common member or members are known as:          (BECE 1998 Q1)",
+        options: [
+          "Equal sets",
+          "Intersecting sets",
+          "Empty sets",
+          "Disjoint sets",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Disjoint sets are sets that have no members in common.",
+      ),
+
       QuizQuestion(
-          question: "7. Solve the inequality: 2x + 3 > 11",
-          options: ["x > 4", "x > 7", "x < 4", "x < 7"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "2x > 8 → x > 4."),
+        question:
+        "7. Which of the following is the set of factors of 12?          (BECE 1994 Q1)",
+        options: [
+          r"\{12, 6, 4, 3, 2, 1\}",
+          r"\{12, 6, 4, 3, 2\}",
+          r"\{12, 6, 4, 2\}",
+          r"\{6, 4, 2, 1\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The positive factors of 12 are 1, 2, 3, 4, 6 and 12.",
+      ),
+
       QuizQuestion(
-          question: "8. If a = 2, b = 3, find the value of 2a² − b.",
-          options: ["5", "8", "11", "13"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "2(2²) − 3 = 2(4) − 3 = 8 − 3 = 5."),
+        question:
+        "8. Set A is called ........ of set B when all the members of set A are also members of set B.          (BECE 1999 Q1)",
+        options: [
+          "The universal set",
+          "The union set",
+          "The null set",
+          "A subset",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A is a subset of B when every member of A is also a member of B.",
+      ),
+
       QuizQuestion(
-          question: "9. Simplify: (3x)(4x)",
-          options: ["7x", "12x", "12x²", "7x²"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Multiply coefficients and add exponents: 3×4 = 12, x×x = x². Answer: 12x²."),
+        question:
+        "9. The distance between two towns is 12875 km. Express this distance in standard form.          (BECE 1990 Q14)",
+        options: [
+          r"1.2875 \times 10^3 km",
+          r"1.2875 \times 10^4 km",
+          r"12.875 \times 10^3 km",
+          r"128.75 \times 10^2 km",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"In standard form, the first number must be at least 1 but less than 10. Therefore, 12875 = 1.2875 \times 10^4.",
+      ),
+
       QuizQuestion(
-          question: "10. Which of these is a linear equation?",
-          options: ["x² + 2 = 10", "3x + 2 = 14", "x³ = 8", "x² − 4 = 0"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "A linear equation has variables to the power of 1 only."),
+        question:
+        r"10. If P = \{7, 9, 13\} and Q = \{1, 7, 13\}, find P \cap Q.          (BECE 1990 Q1)",
+        options: [
+          r"\{1, 7, 13\}",
+          r"\{1, 9, 13\}",
+          r"\{7, 13\}",
+          r"\{7, 9, 13\}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The members common to both P and Q are 7 and 13. Therefore, P \cap Q = \{7, 13\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "11. Write two hundred thousand and fifty-seven in figures.          (BECE 1996 Q5)",
+        options: [
+          "20057",
+          "200057",
+          "2000057",
+          "20000057",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Two hundred thousand and fifty-seven is written as 200,057.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. M = \{1, 2, 3, 8, 10\} and N = \{8, 1, x, 3, 2\}. If M = N, what is the value of x?          (BECE 2000 Q1)",
+        options: [
+          "10",
+          "2",
+          "3",
+          "8",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Equal sets contain exactly the same members. The missing member in N is 10, so x = 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        "13. Express 0.0043216 in standard form.          (BECE 1994 Q20)",
+        options: [
+          r"4.3216 \times 10^{-4}",
+          r"4.3216 \times 10^{-3}",
+          r"4.3216 \times 10^4",
+          r"4.3216 \times 10^3",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Moving the decimal point three places to the right gives 4.3216. Therefore, 0.0043216 = 4.3216 \times 10^{-3}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. P = \{1, 2, 3, 8, 10\} and Q = \{8, 1, x, 3, 2\}. If P = Q, what is the value of x?          (BECE 1991 Q1)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "10",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "For P and Q to be equal, Q must contain 10. Therefore, x = 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        "15. What is the value of 4 in the number 2 043 507?          (BECE 2000 Q4)",
+        options: [
+          "Forty",
+          "Four hundred",
+          "Four thousand",
+          "Forty thousand",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The digit 4 is in the ten-thousands place, so its value is 40,000.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. P = \{0, 2, 4, 6\} and Q = \{1, 2, 4, 5\}. Find P \cap Q.          (BECE 1998 Q2)",
+        options: [
+          r"\{0, 6\}",
+          r"\{2, 4\}",
+          r"\{0, 2, 4\}",
+          r"\{0, 2, 6\}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. U = \{0, 1\}. How many subsets has U?          (BECE 1996 Q1)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"A set with n members has 2^n subsets. Since U has 2 members, it has 2^2 = 4 subsets.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"18. R = \{1, 3, 5, 7\} and S = \{2, 4, 6, 8\}. Find R \cup S.          (BECE 2001 Q1)",
+        options: [
+          r"\{\}",
+          r"\{1, 2, 3, 5, 6, 8\}",
+          r"\{1, 2, 3, 4, 5, 7, 8\}",
+          r"\{1, 2, 3, 4, 5, 6, 7, 8\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains all the members of R and S. Therefore, R \cup S = \{1, 2, 3, 4, 5, 6, 7, 8\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"19. Find the missing numbers in the set \{5, 10, 15, \_, 25, \_, \_, 40\}.          (BECE 2001 Q2)",
+        options: [
+          "20 and 30",
+          "30 and 35",
+          "20, 35 and 40",
+          "20, 30 and 35",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The numbers increase by 5. The missing numbers are 20, 30 and 35.",
+      ),
+
+      QuizQuestion(
+        question:
+        "20. Correct 0.00025 to one significant figure.          (BECE 2002 Q12)",
+        options: [
+          "0.2",
+          "0.003",
+          "0.0002",
+          "0.0003",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The first significant digit is 2 and the next digit is 5, so 2 is rounded up to 3. The answer is 0.0003.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. If Q = \{2, 4, 6, 7, 8, 10\} and R = \{3, 5, 7, 9, 10, 11\}, find Q \cap R.          (BECE 2003 Q2)",
+        options: [
+          r"\{3, 5, 7, 9, 10, 11\}",
+          r"\{7, 10\}",
+          r"\{10\}",
+          r"\{7\}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The common members of Q and R are 7 and 10. Therefore, Q \cap R = \{7, 10\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "22. What is the value of the digit 8 in the number 78000?          (BECE 2003 Q8)",
+        options: [
+          "8 ten thousands",
+          "8 thousands",
+          "8 hundreds",
+          "8 tens",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The digit 8 is in the thousands place, so its value is 8 thousands, or 8,000.",
+      ),
+
+      QuizQuestion(
+        question:
+        "23. Which of the following is not a factor of 18?          (BECE 2005 Q2)",
+        options: [
+          "3",
+          "4",
+          "6",
+          "9",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The factors of 18 include 1, 2, 3, 6, 9 and 18. Therefore, 4 is not a factor of 18.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"24. Given that A = \{b, c, i\} and B = \{a, e, f, i\}, find A \cap B.          (BECE 2005 Q4)",
+        options: [
+          r"\{a, b, c, e, f, i\}",
+          r"\{f, i\}",
+          r"\{a\}",
+          r"\{i\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The only member common to A and B is i. Therefore, A \cap B = \{i\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"25. Arrange the following numbers from the highest to the lowest: \frac{2}{3}, -7, 0.          (BECE 2005 Q6)",
+        options: [
+          r"-7, 0, \frac{2}{3}",
+          r"-7, \frac{2}{3}, 0",
+          r"0, \frac{2}{3}, -7",
+          r"\frac{2}{3}, 0, -7",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Since \frac{2}{3} is positive, it is greater than 0, while -7 is negative. Therefore, the order is \frac{2}{3}, 0, -7.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"26. If Q = \{1, 3, 5, 7, 9, 11, 13, 15\} and R = \{1, 2, 3, 5, 6, 7, 10, 11, 12\}, find Q \cap R.          (BECE 2006 Q1)",
+        options: [
+          r"\{1, 3, 5, 7, 11\}",
+          r"\{1, 3, 5, 7, 9, 11\}",
+          r"\{2, 4, 8, 9, 13, 14\}",
+          r"\{1, 2, 3, 5, 6, 7, 9, 10, 11, 12\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The members common to Q and R are 1, 3, 5, 7 and 11.",
+      ),
+
+      QuizQuestion(
+        question:
+        "27. Which of the following is the set of prime factors of 12?          (BECE 2006 Q6)",
+        options: [
+          r"\{1, 3\}",
+          r"\{2, 3\}",
+          r"\{2, 4, 6, 12\}",
+          r"\{2, 3, 4, 6\}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        "28. Correct 0.003858 to three significant figures.          (BECE 2006 Q8)",
+        options: [
+          "0.00385",
+          "0.00386",
+          "0.0039",
+          "386",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The first three significant digits are 3, 8 and 5. The next digit is 8, so 5 is rounded up to 6, giving 0.00386.",
+      ),
+
+      QuizQuestion(
+        question:
+        "29. What is the value of the digit 9 in the number 624.93?          (BECE 2006 Q36)",
+        options: [
+          "9 hundreds",
+          "9 tens",
+          "9 units",
+          "9 tenths",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The digit 9 is the first digit after the decimal point, so its value is 9 tenths.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"30. List the members of the set P = \{factors of 30 which are odd\}.          (BECE 2007 Q1)",
+        options: [
+          r"P = \{2, 3, 5\}",
+          r"P = \{1, 2, 3, 5\}",
+          r"P = \{1, 3, 5, 15\}",
+          r"P = \{2, 6, 10, 30\}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The odd factors of 30 are 1, 3, 5 and 15.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"31. M = \{g, o, q, s\} and P = \{h, p, r, t\}. Find M \cup P.          (BECE 2007 Q2)",
+        options: [
+          r"\{q, r, s, t\}",
+          r"\{g, h, o, p, r\}",
+          r"\{g, h, o, q, r, t\}",
+          r"\{g, h, o, p, q, r, s, t\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains every member in M and P. Therefore, M \cup P = \{g, h, o, p, q, r, s, t\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"32. List the members of the set \{2 \leq x \leq 5\}.          (BECE 2008 Q2)",
+        options: [
+          r"\{2, 5\}",
+          r"\{2, 3, 4\}",
+          r"\{2, 3, 5\}",
+          r"\{2, 3, 4, 5\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The whole numbers from 2 to 5 inclusive are 2, 3, 4 and 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"33. Given that A = \{1, 2, 3, 4, 5, 6\} and B = \{3, 6, 9, 12\}, find A \cup B.          (BECE 2009 Q1)",
+        options: [
+          r"\{3, 6\}",
+          r"\{6, 12\}",
+          r"\{2, 3, 4, 5, 9, 12\}",
+          r"\{1, 2, 3, 4, 5, 6, 9, 12\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains all distinct members in A and B: \{1, 2, 3, 4, 5, 6, 9, 12\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"34. Which of the following sets is equal to \{1, 2, 3, 4\}?          (BECE 2009 Q6)",
+        options: [
+          r"\{2, 4, 1, 5\}",
+          r"\{2, 1, 4, 3\}",
+          r"\{1, 2, 3, 4, \ldots\}",
+          r"\{2, 3, 4, 5, \ldots\}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The order of members in a set does not matter. The second set contains exactly 1, 2, 3 and 4.",
+      ),
+
+      QuizQuestion(
+        question:
+        "35. What is the value of four in the number 7073.48?          (BECE 2009 Q34)",
+        options: [
+          "Four tenths",
+          "Four",
+          "Forty",
+          "Four hundred",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The digit 4 is the first digit after the decimal point, so its value is four tenths.",
+      ),
+
+      QuizQuestion(
+        question:
+        "36. Which of the following sets is well defined?          (BECE 2010 Q1)",
+        options: [
+          r"\{Man, Kofi, Red, 14\}",
+          r"\{Ink, Mango, Green, Nail\}",
+          r"\{Car, Road, Glass, Book\}",
+          r"\{Seth, Mary, Jacob, Evelyn\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The fourth option clearly consists of names of people, so membership of the set can be determined without ambiguity.",
+      ),
+
+      QuizQuestion(
+        question:
+        "37. If set B is a subset of set A, then:          (BECE 2010 Q2)",
+        options: [
+          "Sets A and B have the same number of elements.",
+          "Some members of set B can be found in set A.",
+          "No member of set B is in set A.",
+          "All the members of set B are in set A.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "B is a subset of A when every member of B is also a member of A.",
+      ),
+
+      QuizQuestion(
+        question:
+        "38. Arrange the following numbers from the lowest to the highest: 0.5, 3, -5, 0.          (BECE 2010 Q9)",
+        options: [
+          "0, 0.5, -5, 3",
+          "0, -5, 0.5, 3",
+          "-5, 0, 0.5, 3",
+          "-5, 0.5, 0, 3",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A negative number is less than zero, and 0.5 is less than 3. Therefore, the order is -5, 0, 0.5, 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        "39. Which of the following is the set of prime factors of 12?          (BECE 2011 Q1)",
+        options: [
+          r"\{2, 3\}",
+          r"\{1, 2, 3\}",
+          r"\{1, 2, 4, 6\}",
+          r"\{2, 3, 4, 6\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Since 12 = 2^2 \times 3, the prime factors of 12 are 2 and 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"40. If A = \{18, 19, 20\} and B = \{15, 16, 17\}, find A \cap B.          (BECE 2011 Q8)",
+        options: [
+          r"\{15, 16, 17, 18, 19, 20\}",
+          r"\{15, 16, 18, 19\}",
+          r"\{18, 19\}",
+          r"\{\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"A and B have no common members. Therefore, A \cap B = \{\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "41. What is the value of 7 in the number 832713?          (BECE 2011 Q38)",
+        options: [
+          "Seven thousand",
+          "Seven hundred",
+          "Seventy",
+          "Seven",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The digit 7 is in the hundreds place, so its value is seven hundred.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"42. If P = \{2, 3, 5, 7\} and Q = \{2, 4, 6, 8\}, find P \cap Q.          (BECE 2012 Q1)",
+        options: [
+          r"\{2\}",
+          r"\{3\}",
+          r"\{4\}",
+          r"\{5\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The only member common to P and Q is 2. Therefore, P \cap Q = \{2\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"43. If A = \{5, 10, 15, 20, 25, 125\} and B = \{5, 10, 15, 20, 25, 625\}, list the elements of A \cup B.          (BECE 2013 Q1)",
+        options: [
+          r"\{5, 25\}",
+          r"\{10, 20, 125, 625\}",
+          r"\{5, 15, 25, 125, 625\}",
+          r"\{5, 10, 15, 20, 25, 125, 625\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains every distinct member in A or B. Therefore, A \cup B = \{5, 10, 15, 20, 25, 125, 625\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "44. Two sets whose intersection is an empty set are:          (BECE 2013 Q40)",
+        options: [
+          "Disjoint sets",
+          "Equivalent sets",
+          "Finite sets",
+          "Empty sets",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Disjoint sets have no members in common, so their intersection is empty.",
+      ),
+
+      QuizQuestion(
+        question:
+        "45. If set N is a subset of set M, then:          (BECE 2014 Q1)",
+        options: [
+          "Sets M and N have the same number of elements.",
+          "Some members of set N can be found in set M.",
+          "No member of set N is in set M.",
+          "All members of set N are in set M.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "N is a subset of M when every member of N is also a member of M.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"46. List the members of the set Q = \{prime factors of 30\}.          (BECE 2015 Q1)",
+        options: [
+          r"\{2, 3, 5\}",
+          r"\{2, 6, 10\}",
+          r"\{3, 5, 15\}",
+          r"\{3, 6, 15\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Since 30 = 2 \times 3 \times 5, its prime factors are 2, 3 and 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        "47. What is the place value of 7 in 24.376?          (BECE 2015 Q4)",
+        options: [
+          "Unit",
+          "Ten",
+          "Tenth",
+          "Hundredth",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The digit 7 is the second digit after the decimal point, so it is in the hundredths place.",
+      ),
+
+      QuizQuestion(
+        question:
+        "48. Which of the following is a finite set?          (BECE 2016 Q1)",
+        options: [
+          r"\{2, 4, 6, 8, \ldots\}",
+          r"\{1, 2, 3, 4, \ldots\}",
+          r"\{\ldots, 2, 3, 5, 7\}",
+          r"\{3, 6, 9, 12\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A finite set has a fixed number of members. The set containing 3, 6, 9 and 12 has exactly four members.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"49. Given that M = \{a, b, c\}, find the number of subsets of M.          (BECE 2016 Q2)",
+        options: [
+          "3",
+          "4",
+          "6",
+          "8",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"A set with n members has 2^n subsets. Since M has 3 members, it has 2^3 = 8 subsets.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"50. If P = \{2, 4, 6, 8\} and Q = \{1, 2, 3, 4\}, find P \cap Q.          (BECE 2016 Q3)",
+        options: [
+          r"\{2, 4\}",
+          r"\{7, 9, 10\}",
+          r"\{2, 3, 4, 6, 8\}",
+          r"\{1, 2, 3, 4, 6, 8\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "51. Correct 5178.3426 to two decimal places.          (BECE 2016 Q11)",
+        options: [
+          "5178.00",
+          "5178.30",
+          "5178.34",
+          "5178.35",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The hundredths digit is 4 and the next digit is 2. Since 2 is less than 5, the answer remains 5178.34.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"52. If Q = \{1, 3, 5, 7, 10, 11, 15\} and T = \{1, 2, 3, 5, 6, 7, 11, 12\}, find Q \cup T.          (BECE 2016 Q3)",
+        options: [
+          r"\{1, 2, 3, 5, 7, 10, 11\}",
+          r"\{1, 3, 5, 7, 9, 11, 13, 15\}",
+          r"\{1, 2, 3, 5, 6, 7, 10, 11, 12, 15\}",
+          r"\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15\}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains all distinct members in Q and T: \{1, 2, 3, 5, 6, 7, 10, 11, 12, 15\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "53. Which of the following is an infinite set?          (BECE 2018 Q3)",
+        options: [
+          r"\{1, 2, \ldots, 5, 6, 7\}",
+          r"\{4, 6, 8, 10, 12\}",
+          r"\{2, 3, 5, 7, 11, \ldots\}",
+          r"\{3, 6, \ldots, 18, 21, \ldots, 33, 36\}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The third set represents the prime numbers and continues without an end, so it is infinite.",
+      ),
+
+      QuizQuestion(
+        question:
+        "54. Write two hundred and two million, two thousand and two in figures.          (BECE 2018 Q5)",
+        options: [
+          "202,002,202",
+          "202,020,202",
+          "202,022,202",
+          "202,200,202",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "The wording gives 202,002,002, but that number is not among the supplied options. Option A is the likely intended answer, although it represents 202,002,202.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"55. Given that A = \{2, 4, 6, 8, 10\} and B = \{4, 8, 12\}, find A \cup B.          (BECE 2019 Q1)",
+        options: [
+          r"\{4, 8\}",
+          r"\{2, 8, 12\}",
+          r"\{4, 6, 8, 12\}",
+          r"\{2, 4, 6, 8, 10, 12\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains all distinct members in A and B: \{2, 4, 6, 8, 10, 12\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "56. Express 0.000344 in standard form.          (BECE 2019 Q2)",
+        options: [
+          r"3.44 \times 10^{-6}",
+          r"3.44 \times 10^{-5}",
+          r"3.44 \times 10^{-4}",
+          r"3.44 \times 10^{-3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Moving the decimal point four places to the right gives 3.44. Therefore, 0.000344 = 3.44 \times 10^{-4}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "57. Correct 0.024561 to three significant figures.          (BECE 2019 Q4)",
+        options: [
+          "0.03",
+          "0.025",
+          "0.0245",
+          "0.0246",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The first three significant digits are 2, 4 and 5. The next digit is 6, so 5 is rounded up to 6, giving 0.0246.",
+      ),
+
+      QuizQuestion(
+        question:
+        "58. Express 4382.93 in standard form.          (BECE 2020 Q3)",
+        options: [
+          r"4382.93 \times 10^4",
+          r"43.8293 \times 10^2",
+          r"4.38293 \times 10^4",
+          r"4.38293 \times 10^3",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"In standard form, the first number must be at least 1 but less than 10. Therefore, 4382.93 = 4.38293 \times 10^3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"59. If P = \{7, 11, 13\} and Q = \{9, 11, 13\}, find P \cup Q.          (BECE 2020 Q40)",
+        options: [
+          r"\{7, 9, 11, 13\}",
+          r"\{7, 9\}",
+          r"\{11, 13\}",
+          r"\{9, 13\}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains all distinct members in P and Q: \{7, 9, 11, 13\}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"60. If P = \{4, 8, 12, 16, 20\}, Q = \{16, 4, 12, k, 20\} and P = Q, find the value of k.          (BECE 2021 Q28)",
+        options: [
+          "20",
+          "16",
+          "8",
+          "4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Equal sets contain the same members. The missing member in Q is 8, so k = 8.",
+      ),
+
+      QuizQuestion(
+        question:
+        "61. The population of a town is 56782. What is this number to three significant figures?          (BECE 2025 Q31)",
+        options: [
+          "567",
+          "568",
+          "56700",
+          "56800",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The first three significant digits are 5, 6 and 7. The next digit is 8, so 567 is rounded up to 568, giving 56,800.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"62. Given that P = \{4, 8, 12, 16, 20\} and Q = \{2, 4, 6, 8, 10\}, find the product of the members of P \cap Q.          (BECE 2025 Q37)",
+        options: [
+          "12",
+          "18",
+          "24",
+          "32",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The common members are P \cap Q = \{4, 8\}. Their product is 4 \times 8 = 32.",
+      ),
     ],
   ),
 
-  "THE ARCHITECTURE OF ANGLES": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. An acute angle measures:",
-          options: [
-            "Exactly 90°",
-            "More than 90° but less than 180°",
-            "Less than 90°",
-            "Exactly 180°"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Acute angles are less than 90°."),
-      QuizQuestion(
-          question: "2. What is the sum of angles in a triangle?",
-          options: ["90°", "180°", "270°", "360°"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The interior angles of any triangle always sum to 180°."),
-      QuizQuestion(
-          question: "3. Complementary angles add up to:",
-          options: ["90°", "180°", "270°", "360°"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Complementary angles sum to exactly 90°."),
-      QuizQuestion(
-          question: "4. Supplementary angles add up to:",
-          options: ["90°", "180°", "270°", "360°"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Supplementary angles sum to exactly 180°."),
-      QuizQuestion(
-          question: "5. A reflex angle measures:",
-          options: [
-            "Less than 90°",
-            "Between 90° and 180°",
-            "Exactly 180°",
-            "Between 180° and 360°"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Reflex angles are greater than 180° but less than 360°."),
-      QuizQuestion(
-          question: "6. In a parallelogram, opposite angles are:",
-          options: [
-            "Supplementary",
-            "Complementary",
-            "Equal (congruent)",
-            "Right angles"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "Opposite angles in a parallelogram are always equal."),
-      QuizQuestion(
-          question: "7. The sum of interior angles of a quadrilateral is:",
-          options: ["180°", "270°", "360°", "540°"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "Any quadrilateral's interior angles sum to 360°."),
-      QuizQuestion(
-          question: "8. Alternate angles are equal when:",
-          options: [
-            "Lines are perpendicular",
-            "Two parallel lines are cut by a transversal",
-            "Angles are adjacent",
-            "Lines intersect"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "When a transversal crosses parallel lines, alternate angles are equal."),
-      QuizQuestion(
-          question:
-              "9. Two angles are vertically opposite. One measures 65°. What is the other?",
-          options: ["25°", "65°", "115°", "180°"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Vertically opposite angles are always equal."),
-      QuizQuestion(
-          question: "10. An exterior angle of a triangle equals:",
-          options: [
-            "The sum of the two opposite interior angles",
-            "The adjacent interior angle",
-            "90°",
-            "180° minus all three interior angles"
-          ],
-          correctIndex: 0,
-          difficulty: "Hard",
-          explanation:
-              "Exterior angle = sum of the two non-adjacent interior angles."),
-    ],
-  ),
+
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
   "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(

@@ -1804,6 +1804,176 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
+
+  "Math JHS1 s4 ss2 - NUMBER AND NUMERATION SYSTEMS": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: Let B = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
+            "(i) B ∩ D\n"
+            "(ii) B ∪ D\n"
+            "(BECE 1990 Q1a)",
+        answer:
+        "⦿ List the members of B:\n"
+            "B = {20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}\n\n"
+            "⦿ List the factors of 63:\n"
+            "D = {1, 3, 7, 9, 21, 63}\n\n"
+            "⦿ (i) Find the intersection:\n"
+            "⦁ The element common to both sets is 21.\n"
+            "B ∩ D = {21}\n\n"
+            "⦿ (ii) Find the union:\n"
+            "⦁ Combine all distinct elements from both sets.\n"
+            "B ∪ D = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}\n\n"
+            "(i) Answer = {21}\n"
+            "(ii) Answer = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
+            "(i) List the members of X and Y.\n"
+            "(ii) List the members of X ∩ Y and X ∪ Y.\n"
+            "(BECE 1991 Q1a)",
+        answer:
+        "⦿ List the prime numbers less than 13:\n"
+            "X = {2, 3, 5, 7, 11}\n\n"
+            "⦿ List the odd numbers less than 13:\n"
+            "Y = {1, 3, 5, 7, 9, 11}\n\n"
+            "⦿ Find the intersection:\n"
+            "⦁ Select the elements common to both sets.\n"
+            "X ∩ Y = {3, 5, 7, 11}\n\n"
+            "⦿ Find the union:\n"
+            "⦁ Combine all distinct elements from both sets.\n"
+            "X ∪ Y = {1, 2, 3, 5, 7, 9, 11}\n\n"
+            "(i) Answer:\n"
+            "X = {2, 3, 5, 7, 11}\n"
+            "Y = {1, 3, 5, 7, 9, 11}\n\n"
+            "(ii) Answer:\n"
+            "X ∩ Y = {3, 5, 7, 11}\n"
+            "X ∪ Y = {1, 2, 3, 5, 7, 9, 11}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
+            "(BECE 2019 Q1a)",
+        answer:
+        "⦿ List the members of X:\n"
+            "X = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}\n\n"
+            "⦿ List the multiples of 3 between 2 and 20:\n"
+            "Y = {3, 6, 9, 12, 15, 18}\n\n"
+            "⦿ Find the elements common to both sets:\n"
+            "X ∩ Y = {6, 9, 12}\n\n"
+            "Answer = {6, 9, 12}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
+            "(i) M ∪ N\n"
+            "(ii) M ∩ N\n"
+            "(BECE 2020 Q1a)",
+        answer:
+        "⦿ List the prime integers between 1 and 11:\n"
+            "M = {2, 3, 5, 7}\n\n"
+            "⦿ List the factors of 12:\n"
+            "N = {1, 2, 3, 4, 6, 12}\n\n"
+            "⦿ (i) Find the union:\n"
+            "M ∪ N = {1, 2, 3, 4, 5, 6, 7, 12}\n\n"
+            "⦿ (ii) Find the intersection:\n"
+            "M ∩ N = {2, 3}\n\n"
+            "(i) Answer = {1, 2, 3, 4, 5, 6, 7, 12}\n"
+            "(ii) Answer = {2, 3}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
+            "(i) List the members of P and Q.\n"
+            "(ii) Find:\n"
+            "(α) P ∩ Q\n"
+            "(β) n(P ∩ Q)\n"
+            "(γ) the Highest Common Factor of 36 and 54.\n"
+            "(BECE 2022 Q1a)",
+        answer:
+        "⦿ List the factors of 36:\n"
+            "P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n\n"
+            "⦿ List the factors of 54:\n"
+            "Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
+            "⦿ (α) Find the intersection:\n"
+            "P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
+            "⦿ (β) Count the elements in the intersection:\n"
+            "n(P ∩ Q) = 6\n\n"
+            "⦿ (γ) Find the HCF:\n"
+            "⦁ The greatest element in P ∩ Q is 18.\n"
+            "HCF = 18\n\n"
+            "(i) Answer:\n"
+            "P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
+            "Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
+            "(ii)\n"
+            "(α) Answer = {1, 2, 3, 6, 9, 18}\n"
+            "(β) Answer = 6\n"
+            "(γ) Answer = 18",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
+            "(i) A ∩ B\n"
+            "(ii) (A ∪ B) ∩ C\n"
+            "(iii) (A ∩ B) ∪ C\n"
+            "(BECE 2023 Q1a)",
+        answer:
+        "⦿ List the members of each set:\n"
+            "A = {3, 6, 9}\n"
+            "B = {5, 6, 7}\n"
+            "C = {4, 5, 7}\n\n"
+            "⦿ (i) Find A ∩ B:\n"
+            "⦁ The common element is 6.\n"
+            "A ∩ B = {6}\n\n"
+            "⦿ (ii) Find (A ∪ B) ∩ C:\n"
+            "A ∪ B = {3, 5, 6, 7, 9}\n\n"
+            "{3, 5, 6, 7, 9} ∩ {4, 5, 7} = {5, 7}\n\n"
+            "⦿ (iii) Find (A ∩ B) ∪ C:\n"
+            "A ∩ B = {6}\n\n"
+            "{6} ∪ {4, 5, 7} = {4, 5, 6, 7}\n\n"
+            "(i) Answer = {6}\n"
+            "(ii) Answer = {5, 7}\n"
+            "(iii) Answer = {4, 5, 6, 7}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 7: Given that P = {multiples of 3} and Q = {positive even numbers} are subsets of μ = {x : 1 < x ≤ 20, where x is a counting number}:\n"
+            "(i) List the elements in P ∩ Q.\n"
+            "(ii) List all the subsets of P ∩ Q.\n"
+            "(BECE 2025 Q1a)",
+        answer:
+        "⦿ List the elements of the universal set:\n"
+            "μ = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\n\n"
+            "⦿ List the multiples of 3 in μ:\n"
+            "P = {3, 6, 9, 12, 15, 18}\n\n"
+            "⦿ List the positive even numbers in μ:\n"
+            "Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
+            "⦿ (i) Find the intersection:\n"
+            "P ∩ Q = {6, 12, 18}\n\n"
+            "⦿ (ii) List all the subsets:\n"
+            "⦁ A set with 3 elements has 2³ = 8 subsets.\n\n"
+            "{{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n"
+            "(i) Answer = {6, 12, 18}\n"
+            "(ii) Answer = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}",
+        explanation: "",
+      ),
+    ],
+  ),
+
   // ─── SOCIAL STUDIES ───────────────────────────────────────────────────
   " Social Studies JHS1 s1 ss1 - Environmental Issues": PracticeModel(
     audioPath: '',
