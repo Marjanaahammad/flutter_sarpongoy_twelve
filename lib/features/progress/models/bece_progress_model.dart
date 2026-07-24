@@ -10,6 +10,8 @@ class BeceProgress {
   final int? firstAttemptScore;
   final int? lastAttemptScore;
   final int? totalQuestions;
+  final int? lastQuestionIndex;
+  final String? userAnswersJson;
   final DateTime doneDate;
 
   BeceProgress({
@@ -22,6 +24,8 @@ class BeceProgress {
     this.firstAttemptScore,
     this.lastAttemptScore,
     this.totalQuestions,
+    this.lastQuestionIndex,
+    this.userAnswersJson,
     required this.doneDate,
   });
 
@@ -36,6 +40,8 @@ class BeceProgress {
       'first_attempt_score': firstAttemptScore,
       'last_attempt_score': lastAttemptScore,
       'total_questions': totalQuestions,
+      'last_question_index': lastQuestionIndex,
+      'user_answers_json': userAnswersJson,
       'done_date': doneDate.toIso8601String(),
     };
   }
@@ -51,6 +57,8 @@ class BeceProgress {
       firstAttemptScore: map['first_attempt_score'],
       lastAttemptScore: map['last_attempt_score'],
       totalQuestions: map['total_questions'],
+      lastQuestionIndex: map['last_question_index'],
+      userAnswersJson: map['user_answers_json'],
       doneDate: map['done_date'] != null
           ? DateTime.parse(map['done_date'])
           : DateTime.now(),

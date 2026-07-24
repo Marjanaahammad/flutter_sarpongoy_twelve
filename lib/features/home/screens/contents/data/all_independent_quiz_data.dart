@@ -26878,8 +26878,7 @@ final IndependentPracticeModel MATHjhs1s3ss1IndependentQuizData =
         explanation: "A compass is used to draw arcs in constructions."),
   ],
 );
-final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/2. JHS1 S3 SS2/4. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(

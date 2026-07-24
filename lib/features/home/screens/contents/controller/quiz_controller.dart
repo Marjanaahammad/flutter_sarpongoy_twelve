@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_sarpongoy_twelve/core/services/sync_service.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/model/quiz_model.dart';
@@ -66,6 +67,35 @@ class QuizController extends GetxController {
     if (isBece) {
       showBanner.value = false;
       showQuiz.value = true;
+      try {
+        final beceRepo = Get.find<BeceProgressRepository>();
+        final progress = await beceRepo.getProgress(
+          courseName: courseName ?? "",
+          strandName: strandName ?? "",
+          subStrandName: subStrandName ?? "",
+          gradeName: gradeName ?? "",
+          activityType: 'objectives',
+        );
+        if (progress != null) {
+          if (progress.userAnswersJson != null && progress.userAnswersJson!.isNotEmpty) {
+            try {
+              final Map<String, dynamic> decoded = json.decode(progress.userAnswersJson!);
+              userAnswers.clear();
+              decoded.forEach((key, val) {
+                userAnswers[int.parse(key)] = val as int;
+              });
+            } catch (e) {
+              debugPrint("Error parsing userAnswersJson: $e");
+            }
+          }
+          if (progress.lastQuestionIndex != null && progress.lastQuestionIndex! < questions.length) {
+            currentQuestionIndex.value = progress.lastQuestionIndex!;
+          }
+          resetQuestionState();
+        }
+      } catch (e) {
+        debugPrint("Error loading BECE objectives progress: $e");
+      }
       return;
     }
 
@@ -92,10 +122,33 @@ class QuizController extends GetxController {
     }
   }
 
+  Future<void> saveBeceProgress() async {
+    if (!isBece) return;
+    try {
+      final beceRepo = Get.find<BeceProgressRepository>();
+      final userAnswersMap = userAnswers.map((k, v) => MapEntry(k.toString(), v));
+      final progress = BeceProgress(
+        courseName: courseName ?? "",
+        strandName: strandName ?? "",
+        subStrandName: subStrandName ?? "",
+        gradeName: gradeName ?? "",
+        activityType: 'objectives',
+        totalQuestions: questions.length,
+        lastQuestionIndex: currentQuestionIndex.value,
+        userAnswersJson: json.encode(userAnswersMap),
+        doneDate: DateTime.now(),
+      );
+      await beceRepo.saveProgress(progress);
+    } catch (e) {
+      debugPrint("Error saving BECE objectives progress: $e");
+    }
+  }
+
   void selectOption(int index) {
     selectedOptionIndex.value = index;
     userAnswers[currentQuestionIndex.value] = index;
     showNextButton.value = true;
+    saveBeceProgress();
   }
 
   void nextQuestion() {
@@ -106,6 +159,7 @@ class QuizController extends GetxController {
     if (currentQuestionIndex.value < questions.length - 1) {
       currentQuestionIndex.value++;
       resetQuestionState();
+      saveBeceProgress();
     } else {
       _calculateFinalScore();
       showFinalResults.value = true;
@@ -116,6 +170,7 @@ class QuizController extends GetxController {
     if (currentQuestionIndex.value > 0) {
       currentQuestionIndex.value--;
       resetQuestionState();
+      saveBeceProgress();
     }
   }
 
@@ -151,6 +206,7 @@ class QuizController extends GetxController {
         activityType: 'objectives',
       );
 
+      final userAnswersMap = userAnswers.map((k, v) => MapEntry(k.toString(), v));
       final progress = BeceProgress(
         courseName: courseName ?? "",
         strandName: strandName ?? "",
@@ -160,6 +216,8 @@ class QuizController extends GetxController {
         firstAttemptScore: existing?.firstAttemptScore ?? correct,
         lastAttemptScore: correct,
         totalQuestions: questions.length,
+        lastQuestionIndex: questions.length,
+        userAnswersJson: json.encode(userAnswersMap),
         doneDate: DateTime.now(),
       );
 

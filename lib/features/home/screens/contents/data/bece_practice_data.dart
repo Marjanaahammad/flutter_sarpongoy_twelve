@@ -1563,94 +1563,26 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: One-fourth of a number is added to one-fifth of the number. If the result is 18, find the number.\n"
-            "(BECE 2002A Q1c)",
+        "Question 1: The following are the angles formed at the centre of a circle: 40°, 60°, 100°, 3x° and 5x°. Find the value of x.\n"
+            "(BECE 2021 Q5b)",
         answer:
-        "⦿ Define the variable:\n"
-            "⦁ Let the unknown number be x.\n\n"
-            "⦿ Translate the statement into an equation:\n"
-        r"\frac{1}{4}x+\frac{1}{5}x=18"
-        "\n\n"
-            "⦿ Find the LCM of 4 and 5:\n"
-            "⦁ LCM = 20\n\n"
-            "⦿ Multiply every term by 20 to clear the fractions:\n"
-        r"20\left(\frac{1}{4}x\right)+20\left(\frac{1}{5}x\right)=20(18)"
-        "\n\n"
-            "⦁ Simplify:\n"
-            "5x + 4x = 360\n"
-            "9x = 360\n\n"
-            "⦁ Divide both sides by 9:\n"
-        r"x=\frac{360}{9}=40"
-        "\n\n"
-            "Answer = 40",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 2: If 5(n + 6)/n = 1, find n.\n"
-            "(BECE 2005 Q1d)",
-        answer:
-        "⦿ Write the given equation:\n\n"
-        r"\frac{5(n+6)}{n}=1"
-        "\n\n"
-            "⦿ Multiply both sides by n:\n"
-            "5(n + 6) = n\n\n"
-            "⦿ Expand the bracket:\n"
-            "5n + 30 = n\n\n"
-            "⦿ Collect the variable terms:\n"
-            "5n - n = -30\n"
-            "4n = -30\n\n"
-            "⦿ Divide both sides by 4:\n"
-        r"n=\frac{-30}{4}"
-        "\n"
-        r"n=-\frac{15}{2}"
-        "\n"
-        r"n=-7\frac{1}{2}"
-        "\n\n"
-        r"Answer = -\frac{15}{2} or -7\frac{1}{2}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 3: When 12 is added to a certain number and the sum is multiplied by 4, the result is 60. Find the number.\n"
-            "(BECE 2007 Q6b)",
-        answer:
-        "⦿ Define the variable:\n"
-            "⦁ Let the unknown number be x.\n\n"
-            "⦿ Translate the statement into an equation:\n"
-            "4(x + 12) = 60\n\n"
-            "⦿ Expand the bracket:\n"
-            "4x + 48 = 60\n\n"
-            "⦿ Subtract 48 from both sides:\n"
-            "4x = 60 - 48\n"
-            "4x = 12\n\n"
-            "⦿ Divide both sides by 4:\n"
-        r"x=\frac{12}{4}=3"
-        "\n\n"
-            "Answer = 3",
-        explanation: "",
-      ),
-
-      PracticeQuestion(
-        scenario:
-        "Question 4: The sum of two numbers is 81. If the second number is twice the first, find the second number.\n"
-            "(BECE 2021 Q3b)",
-        answer:
-        "⦿ Define the variables:\n"
-            "⦁ Let the first number be x.\n"
-            "⦁ The second number is 2x.\n\n"
+        "⦿ Identify the geometric principle:\n"
+            "⦁ Angles around a point add up to 360°.\n\n"
             "⦿ Form the equation:\n"
-            "x + 2x = 81\n\n"
-            "⦿ Combine like terms:\n"
-            "3x = 81\n\n"
-            "⦿ Find the first number:\n"
-        r"x=\frac{81}{3}=27"
+            "40 + 60 + 100 + 3x + 5x = 360\n\n"
+            "⦿ Combine the constant terms:\n"
+            "40 + 60 + 100 = 200\n\n"
+            "⦿ Combine the variable terms:\n"
+            "3x + 5x = 8x\n\n"
+            "⦿ Simplify the equation:\n"
+            "200 + 8x = 360\n\n"
+            "⦿ Subtract 200 from both sides:\n"
+            "8x = 360 - 200\n"
+            "8x = 160\n\n"
+            "⦿ Divide both sides by 8:\n"
+        r"x=\frac{160}{8}=20"
         "\n\n"
-            "⦿ Find the second number:\n"
-            "Second number = 2x\n"
-            "Second number = 2(27)\n"
-            "Second number = 54\n\n"
-            "Answer = 54",
+            "Answer = 20",
         explanation: "",
       ),
     ],
@@ -1674,7 +1606,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 236 m²",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 2: The perimeter of a rectangular plot of land whose length is (2x + 5) m and width (x - 10) m is 80 m. Find the:\n"
@@ -1734,7 +1665,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 42.25 km²",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 5: The sides of a triangle are in the ratio 6 : 8 : 10. If the perimeter of the triangle is 288 cm, find the:\n"
@@ -1758,7 +1688,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "(iii) Answer = 48 cm",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 6: Juliet bought 1.756 kg of frozen chicken, 675 g of vegetables and 95 g of corn oil. What is the total weight of the items she bought in kilograms?\n"
@@ -1773,7 +1702,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 2.526 kg",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 7: An aeroplane left the Kotoka International Airport on Wednesday at 7:26 p.m. and reached its destination after nine hours thirty minutes. Find the day and time the aeroplane reached its destination.\n"
@@ -1789,7 +1717,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = Thursday, 4:56 a.m.",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 8: The floor of a rectangular hall is of length 9 m and width 8 m. How many tiles of 20 cm by 30 cm can be used to cover the floor completely?\n"
@@ -1807,10 +1734,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer = 1,200 tiles",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 9: The perimeter of a rectangular cocoa farm is 497 km. The length of the farm is 2½ times the width. Find the:\n"
+        r"Question 9: The perimeter of a rectangular cocoa farm is 497 km. The length of the farm is 2\frac{1}{2} times the width. Find the:"
+        "\n"
             "(i) width;\n"
             "(ii) length of the farm.\n"
             "(BECE 2022 Q4b)",
@@ -1819,8 +1746,8 @@ final Map<String, PracticeModel> becePracticeData = {
         r"⦁ Length = \frac{5}{2}w = 2.5w"
         "\n\n"
             "⦿ Use the perimeter formula:\n"
-            "497 = 2(length + width)\n\n"
-        r"497 = 2\left(\frac{5}{2}w + w\right)"
+            "P = 2(length + width)\n\n"
+        r"497 = 2(\frac{5}{2}w + w)"
         "\n"
             "497 = 5w + 2w\n"
             "497 = 7w\n"
@@ -1830,6 +1757,48 @@ final Map<String, PracticeModel> becePracticeData = {
             "Length = 177.5 km\n\n"
             "(i) Answer = 71 km\n"
             "(ii) Answer = 177.5 km",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Math JHS1 s4 ss2 - Chance or Probability": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: A fair die is thrown once.\n\n"
+            "(a) Write down the set of all possible outcomes.\n"
+            "(b) Find the probability of obtaining a multiple of 2.\n"
+            "(c) Find the probability of obtaining a prime number.",
+        answer:
+        "⦿ (a) Write down the sample space:\n"
+            "⦁ A fair die has six faces numbered from 1 to 6.\n\n"
+            "S = {1, 2, 3, 4, 5, 6}\n"
+            "n(S) = 6\n\n"
+
+            "⦿ (b) Find the probability of obtaining a multiple of 2:\n"
+            "⦁ The multiples of 2 are:\n"
+            "M = {2, 4, 6}\n"
+            "n(M) = 3\n\n"
+        r"P(M)=\frac{n(M)}{n(S)}"
+        "\n"
+        r"P(M)=\frac{3}{6}=\frac{1}{2}"
+        "\n\n"
+
+            "⦿ (c) Find the probability of obtaining a prime number:\n"
+            "⦁ The prime numbers are:\n"
+            "N = {2, 3, 5}\n"
+            "n(N) = 3\n\n"
+        r"P(N)=\frac{n(N)}{n(S)}"
+        "\n"
+        r"P(N)=\frac{3}{6}=\frac{1}{2}"
+        "\n\n"
+
+            "(a) Answer = {1, 2, 3, 4, 5, 6}\n"
+        r"(b) Answer = \frac{1}{2}"
+        "\n\n"
+        r"(c) Answer = \frac{1}{2}",
         explanation: "",
       ),
     ],

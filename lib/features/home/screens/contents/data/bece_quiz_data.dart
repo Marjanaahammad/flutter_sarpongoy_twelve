@@ -3270,7 +3270,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "A protractor is the instrument used to measure the size of an angle.",
       ),
-
       QuizQuestion(
         question:
         r"2. Which of the following statements is best described as constructing an angle of 180^\circ?          (BECE 2002B Q18)",
@@ -3285,7 +3284,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"An angle of \(180^\circ\) is a straight angle. Therefore, constructing an angle of \(180^\circ\) means constructing a straight angle.",
       ),
-
       QuizQuestion(
         question:
         "3. The value of an obtuse angle lies between:          (BECE 2003 Q33)",
@@ -3300,7 +3298,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
-
       QuizQuestion(
         question:
         "4. The angle formed by one complete revolution is equivalent to:          (BECE 2004 Q4)",
@@ -3315,7 +3312,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"One complete revolution is \(360^\circ\). Since one right angle is \(90^\circ\), \(360^\circ \div 90^\circ = 4\).",
       ),
-
       QuizQuestion(
         question:
         "5. The angles of a triangle are in the ratio 3:2:1. Find the value of the smallest angle.          (BECE 2004 Q23)",
@@ -3330,7 +3326,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"The angles of a triangle add up to \(180^\circ\). The total number of parts is \(3 + 2 + 1 = 6\). One part is \(180^\circ \div 6 = 30^\circ\), so the smallest angle is \(30^\circ\).",
       ),
-
       QuizQuestion(
         question:
         r"6. An angle which is more than 90^\circ but less than 180^\circ is:          (BECE 2004 Q34)",
@@ -3345,7 +3340,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
-
       QuizQuestion(
         question:
         "7. Find the angle through which the minute hand of a clock moves from 5:15 p.m. to 5:25 p.m.          (BECE 2008 Q20)",
@@ -3360,7 +3354,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"The minute hand moves \(360^\circ\) in 60 minutes, which is \(6^\circ\) per minute. From 5:15 p.m. to 5:25 p.m. is 10 minutes, so the angle moved is \(10 \times 6^\circ = 60^\circ\).",
       ),
-
       QuizQuestion(
         question:
         r"8. An angle which is greater than 180^\circ but less than 360^\circ is:          (BECE 2016 Q25)",
@@ -3375,7 +3368,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"A reflex angle is greater than \(180^\circ\) but less than \(360^\circ\).",
       ),
-
       QuizQuestion(
         question:
         "9. The instrument used to measure the angle between two lines that meet at a point is known as a:          (BECE 2016 Q40)",
@@ -3390,7 +3382,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "A protractor is used to measure the angle formed by two intersecting lines.",
       ),
-
       QuizQuestion(
         question:
         r"10. Given that (x = 8), what type of angle is ((9x + 8)^\circ)?          (BECE 2021 Q5)",
@@ -3405,7 +3396,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Substitute \(x = 8\): \(9(8) + 8 = 72 + 8 = 80^\circ\). Since \(80^\circ\) is less than \(90^\circ\), it is an acute angle.",
       ),
-
       QuizQuestion(
         question:
         r"11. Two interior angles of a triangle are ((3x - 10)^\circ) and ((4x + 20)^\circ). Find an expression for the third angle.          (BECE 2025 Q24)",
@@ -3439,30 +3429,28 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "A chord is a line segment whose two endpoints lie on the circumference of a circle.",
       ),
-
       QuizQuestion(
         question:
-        r"2. The area of a square is \(49\text{ cm}^2\). Find the perimeter of the square.          (BECE 1990 Q35)",
+        r"2. The area of a square is 49 cm^2. Find the perimeter of the square.          (BECE 1990 Q35)",
         options: [
-          r"7\text{ cm}",
-          r"51\text{ cm}",
-          r"28\text{ cm}",
-          r"49\text{ cm}",
+          "7 cm",
+          "51 cm",
+          r"28 cm",
+          r"49 cm",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
         r"The side of the square is \(\sqrt{49} = 7\text{ cm}\). Therefore, its perimeter is \(4 \times 7 = 28\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        r"3. The circumference of a circular track is \(440\text{ m}\). Find the diameter of this track. Take \(\pi = \frac{22}{7}\).          (BECE 1991 Q26)",
+        r"3. The circumference of a circular track is 440m. Find the diameter of this track. Take \pi = \frac{22}{7}.          (BECE 1991 Q26)",
         options: [
-          r"70\text{ m}",
-          r"140\text{ m}",
-          r"280\text{ m}",
-          r"691\text{ m}",
+          r"70 m",
+          r"140 m",
+          r"280 m",
+          r"691 m",
         ],
         correctIndex: 1,
         difficulty: "Medium",
@@ -3487,7 +3475,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"5. The bearing of Aboku from Bebeka is \(055^\circ\). What is the bearing of Bebeka from Aboku?          (BECE 1993 Q32)",
+        r"5. The bearing of Aboku from Bebeka is 055^\circ. What is the bearing of Bebeka from Aboku?          (BECE 1993 Q32)",
         options: [
           r"235^\circ",
           r"055^\circ",
@@ -3532,12 +3520,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"8. A square of side \(6\text{ cm}\) has the same area as a rectangle of length \(9\text{ cm}\). Find the breadth of the rectangle.          (BECE 1999 Q32)",
+        r"8. A square of side 6 cm has the same area as a rectangle of length 9 cm. Find the breadth of the rectangle.          (BECE 1999 Q32)",
         options: [
-          r"3\text{ cm}",
-          r"4\text{ cm}",
-          r"6\text{ cm}",
-          r"24\text{ cm}",
+          r"3 cm",
+          r"4 cm",
+          r"6 cm",
+          r"24 cm",
         ],
         correctIndex: 1,
         difficulty: "Medium",
@@ -3591,12 +3579,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"12. The area of a rectangle is \(18\text{ cm}^2\). One of its sides is \(9\text{ cm}\) long. Find its perimeter.          (BECE 2001 Q34)",
+        r"12. The area of a rectangle is 18 cm^2. One of its sides is 9 cm long. Find its perimeter.          (BECE 2001 Q34)",
         options: [
-          r"11\text{ cm}",
-          r"18\text{ cm}",
-          r"22\text{ cm}",
-          r"36\text{ cm}",
+          r"11 cm",
+          r"18 cm",
+          r"22 cm",
+          r"36 cm",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -3636,12 +3624,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"15. The length of a rectangle is three times its width. If its perimeter is \(24\text{ cm}\), find its width.          (BECE 2002A Q35)",
+        r"15. The length of a rectangle is three times its width. If its perimeter is 24 cm, find its width.          (BECE 2002A Q35)",
         options: [
-          r"3\text{ cm}",
-          r"4\text{ cm}",
-          r"6\text{ cm}",
-          r"8\text{ cm}",
+          r"3 cm",
+          r"4 cm",
+          r"6 cm",
+          r"8 cm",
         ],
         correctIndex: 0,
         difficulty: "Medium",
@@ -3666,12 +3654,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"17. An equilateral triangle has side \(16\text{ cm}\). A square has the same perimeter as the equilateral triangle. What is the area of the square?          (BECE 2005 Q23)",
+        r"17. An equilateral triangle has side 16 cm. A square has the same perimeter as the equilateral triangle. What is the area of the square?          (BECE 2005 Q23)",
         options: [
-          r"48\text{ cm}^2",
-          r"96\text{ cm}^2",
-          r"144\text{ cm}^2",
-          r"256\text{ cm}^2",
+          r"48 cm^2",
+          r"96 cm^2",
+          r"144 cm^2",
+          r"256 cm^2",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -3681,12 +3669,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"18. The perimeter of a rectangle is \(24\text{ cm}\). If the breadth of the rectangle is \(4\text{ cm}\), find the area of the rectangle.          (BECE 2005 Q29)",
+        r"18. The perimeter of a rectangle is 24 cm. If the breadth of the rectangle is 4cm, find the area of the rectangle.          (BECE 2005 Q29)",
         options: [
-          r"32\text{ cm}^2",
-          r"48\text{ cm}^2",
-          r"64\text{ cm}^2",
-          r"144\text{ cm}^2",
+          r"32 cm^2",
+          r"48 cm^2",
+          r"64 cm^2",
+          r"144 cm^2",
         ],
         correctIndex: 0,
         difficulty: "Medium",
@@ -3696,7 +3684,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"19. The base of an isosceles triangle is \(7\text{ cm}\) long. Each of the other two sides is \(x\text{ cm}\) long. What will be the expression for its perimeter?          (BECE 2006 Q7)",
+        r"19. The base of an isosceles triangle is 7 cm long. Each of the other two sides is x cm long. What will be the expression for its perimeter?          (BECE 2006 Q7)",
         options: [
           r"x + 7",
           r"x + 14",
@@ -3726,12 +3714,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"21. A football field is \(120\text{ m}\) long and \(75\text{ m}\) wide. What is the perimeter of the field?          (BECE 2008 Q14)",
+        r"21. A football field is 120 m long and 75 m wide. What is the perimeter of the field?          (BECE 2008 Q14)",
         options: [
-          r"195\text{ m}",
-          r"390\text{ m}",
-          r"780\text{ m}",
-          r"900\text{ m}",
+          r"195 m",
+          r"390 m",
+          r"780 m",
+          r"900 m",
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -3770,12 +3758,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"24. A rectangle has an area of \(36\text{ cm}^2\) and a width of \(3\text{ cm}\). Find its perimeter.          (BECE 2009 Q16)",
+        r"24. A rectangle has an area of 36 cm^2 and a width of 3 cm. Find its perimeter.          (BECE 2009 Q16)",
         options: [
-          r"12\text{ cm}",
-          r"18\text{ cm}",
-          r"24\text{ cm}",
-          r"30\text{ cm}",
+          r"12 cm",
+          r"18 cm",
+          r"24 cm",
+          r"30 cm",
         ],
         correctIndex: 3,
         difficulty: "Medium",
@@ -3799,12 +3787,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"26. Find the area of a square, if its perimeter is \(28\text{ cm}\).          (BECE 2011 Q16)",
+        r"26. Find the area of a square, if its perimeter is 28 cm.          (BECE 2011 Q16)",
         options: [
-          r"784\text{ cm}^2",
-          r"196\text{ cm}^2",
-          r"49\text{ cm}^2",
-          r"14\text{ cm}^2",
+          r"784 cm^2",
+          r"196 cm^2",
+          r"49 cm^2",
+          r"14 cm^2",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -3829,7 +3817,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"28. The bearing of Atoru from Busase is \(275^\circ\). What is the bearing of Busase from Atoru?          (BECE 2012 Q31)",
+        r"28. The bearing of Atoru from Busase is 275^\circ. What is the bearing of Busase from Atoru?          (BECE 2012 Q31)",
         options: [
           r"180^\circ",
           r"175^\circ",
@@ -3844,12 +3832,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"29. The perimeter of a rectangle is \(48\text{ cm}\). If the length is \(14\text{ cm}\), find its width.          (BECE 2013 Q12)",
+        r"29. The perimeter of a rectangle is 48 cm. If the length is 14 cm, find its width.          (BECE 2013 Q12)",
         options: [
-          r"24\text{ cm}",
-          r"20\text{ cm}",
-          r"10\text{ cm}",
-          r"3.4\text{ cm}",
+          r"24 cm",
+          r"20 cm",
+          r"10 cm",
+          r"3.4 cm",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -3859,12 +3847,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"30. The length of a rectangular fence is \(25\text{ m}\). The ratio of the length to the width is \(5:3\). Find the width of the rectangular fence.          (BECE 2013 Q22)",
+        r"30. The length of a rectangular fence is 25 m. The ratio of the length to the width is 5:3. Find the width of the rectangular fence.          (BECE 2013 Q22)",
         options: [
-          r"19\text{ m}",
-          r"13\text{ m}",
-          r"15\text{ m}",
-          r"16\text{ m}",
+          r"19 m",
+          r"13 m",
+          r"15 m",
+          r"16 m",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -3889,12 +3877,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"32. The perimeter of a rectangle is \(24\text{ cm}\). If the length is \(7\text{ cm}\), find the width.          (BECE 2014 Q28)",
+        r"32. The perimeter of a rectangle is 24 cm. If the length is 7 cm, find the width.          (BECE 2014 Q28)",
         options: [
-          r"3\text{ cm}",
-          r"5\text{ cm}",
-          r"10\text{ cm}",
-          r"12\text{ cm}",
+          r"3 cm",
+          r"5 cm",
+          r"10 cm",
+          r"12 cm",
         ],
         correctIndex: 1,
         difficulty: "Medium",
@@ -3919,12 +3907,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"34. A rectangular field \(50\text{ m}\) wide and \(y\text{ m}\) long requires \(260\text{ m}\) of fencing. Find \(y\).          (BECE 2015 Q29)",
+        r"34. A rectangular field 50 m wide and y m long requires 260 m of fencing. Find y.          (BECE 2015 Q29)",
         options: [
-          r"15\text{ m}",
-          r"40\text{ m}",
-          r"80\text{ m}",
-          r"105\text{ m}",
+          r"15 m",
+          r"40 m",
+          r"80 m",
+          r"105 m",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -3963,12 +3951,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"37. The perimeter of an isosceles triangle is \(45\text{ cm}\). Find the length of the third side, if each of the equal sides is \(14\text{ cm}\) long.          (BECE 2016 Q27)",
+        r"37. The perimeter of an isosceles triangle is 45 cm. Find the length of the third side, if each of the equal sides is 14 cm long.          (BECE 2016 Q27)",
         options: [
-          r"11\text{ cm}",
-          r"14\text{ cm}",
-          r"17\text{ cm}",
-          r"31\text{ cm}",
+          r"11 cm",
+          r"14 cm",
+          r"17 cm",
+          r"31 cm",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -3978,7 +3966,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"38. The bearing of \(X\) from \(Y\) is \(196^\circ\). What is the bearing of \(Y\) from \(X\)?          (BECE 2016 Q37)",
+        r"38. The bearing of X from Y is 196^\circ. What is the bearing of Y from X?          (BECE 2016 Q37)",
         options: [
           r"016^\circ",
           r"074^\circ",
@@ -4008,12 +3996,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"40. The perimeter of a rectangle is \(26\text{ cm}\). If its length is \(10\text{ cm}\), find its area.          (BECE 2018 Q19)",
+        r"40. The perimeter of a rectangle is 26cm. If its length is 10 cm, find its area.          (BECE 2018 Q19)",
         options: [
-          r"30\text{ cm}^2",
-          r"60\text{ cm}^2",
-          r"130\text{ cm}^2",
-          r"160\text{ cm}^2",
+          r"30 cm^2",
+          r"60 cm^2",
+          r"130 cm^2",
+          r"160 cm^2",
         ],
         correctIndex: 0,
         difficulty: "Medium",
@@ -4038,7 +4026,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"42. The bearing of \(P\) from \(Q\) is \(060^\circ\). Find the bearing of \(Q\) from \(P\).          (BECE 2018 Q39)",
+        r"42. The bearing of P from Q is 060^\circ. Find the bearing of Q from P.          (BECE 2018 Q39)",
         options: [
           r"120^\circ",
           r"150^\circ",
@@ -4067,12 +4055,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"44. The two sides of a parallelogram are \(4.8\text{ m}\) and \(7.2\text{ m}\) long. Find its perimeter.          (BECE 2019 Q14)",
+        r"44. The two sides of a parallelogram are 4.8 m and 7.2 m long. Find its perimeter.          (BECE 2019 Q14)",
         options: [
-          r"48.0\text{ m}",
-          r"34.6\text{ m}",
-          r"24.0\text{ m}",
-          r"17.3\text{ m}",
+          r"48.0 m",
+          r"34.6 m",
+          r"24.0 m",
+          r"17.3 m",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -4082,7 +4070,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"45. If the bearing of \(A\) from \(B\) is \(240^\circ\), find the bearing of \(B\) from \(A\).          (BECE 2019 Q16)",
+        r"45. If the bearing of A from B is 240^\circ, find the bearing of B from A.          (BECE 2019 Q16)",
         options: [
           r"040^\circ",
           r"060^\circ",
@@ -4112,12 +4100,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"47. Two sides of a parallelogram are \(5.8\text{ m}\) and \(8.2\text{ m}\) long. Find its perimeter.          (BECE 2020 Q22)",
+        r"47. Two sides of a parallelogram are 5.8 m and 8.2 mlong. Find its perimeter.          (BECE 2020 Q22)",
         options: [
-          r"14.0\text{ m}",
-          r"36.6\text{ m}",
-          r"28.0\text{ m}",
-          r"47.6\text{ m}",
+          r"14.0 m",
+          r"36.6 m",
+          r"28.0 m",
+          r"47.6 m",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -4127,12 +4115,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"48. Two sides of a rectangle are \(10\text{ cm}\) and \(6\text{ cm}\). Calculate the area of a square with the same perimeter as that of the rectangle.          (BECE 2020 Q36)",
+        r"48. Two sides of a rectangle are 10 cm and 6 cm. Calculate the area of a square with the same perimeter as that of the rectangle.          (BECE 2020 Q36)",
         options: [
-          r"16\text{ cm}^2",
-          r"30\text{ cm}^2",
-          r"60\text{ cm}^2",
-          r"64\text{ cm}^2",
+          r"16 cm^2",
+          r"30 cm^2",
+          r"60 cm^2",
+          r"64 cm^2",
         ],
         correctIndex: 3,
         difficulty: "Medium",
@@ -4142,12 +4130,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"49. The area of a rectangle is \(18\text{ cm}^2\). If one of its sides is \(2\text{ cm}\) long, find its perimeter.          (BECE 2021 Q10)",
+        r"49. The area of a rectangle is 18 cm^2. If one of its sides is 2 cm long, find its perimeter.          (BECE 2021 Q10)",
         options: [
-          r"18\text{ cm}",
-          r"20\text{ cm}",
-          r"22\text{ cm}",
-          r"36\text{ cm}",
+          r"18 cm",
+          r"20 cm",
+          r"22 cm",
+          r"36 cm",
         ],
         correctIndex: 2,
         difficulty: "Medium",
@@ -4157,12 +4145,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"50. What is the length of the side of a square of area \(225\text{ cm}^2\)?          (BECE 2022 Q14)",
+        r"50. What is the length of the side of a square of area 225 cm^2?          (BECE 2022 Q14)",
         options: [
-          r"12.00\text{ cm}",
-          r"15.00\text{ cm}",
-          r"56.25\text{ cm}",
-          r"112.50\text{ cm}",
+          r"12.00 cm",
+          r"15.00 cm",
+          r"56.25 cm",
+          r"112.50 cm",
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -4213,6 +4201,615 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation:
         "A trapezium is a quadrilateral with one pair of opposite sides parallel.",
+      ),
+    ],
+  ),
+  "Math JHS1 s3 ss3 - Position and Transformation": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. The point P(3, 4) is translated by the vector \begin{pmatrix} 3 \\ -2 \end{pmatrix} to a new position P'. Find the coordinates of the image P'.          (BECE 2006 Q38)",
+        options: [
+          "(0, 2)",
+          "(6, -2)",
+          "(6, 2)",
+          "(6, 6)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A translation adds the vector to the coordinates: (3 + 3, 4 - 2) = (6, 2).",
+      ),
+      QuizQuestion(
+        question:
+        "2. The point D(4, 3) is reflected in the y-axis. Find the coordinates of its image.          (BECE 2017 Q25)",
+        options: [
+          "(-4, -3)",
+          "(-3, 4)",
+          "(-4, 3)",
+          "(3, -4)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes the sign of the x-coordinate only: (4, 3) → (-4, 3).",
+      ),
+      QuizQuestion(
+        question:
+        r"3. Find the image of the point (2, 5) under the transformation \begin{pmatrix} x \\ y \end{pmatrix} → \begin{pmatrix} x \\ 2 - y \end{pmatrix}.          (BECE 2018 Q29)",
+        options: [
+          "(2, -3)",
+          "(2, 2)",
+          "(2, 3)",
+          "(2, 7)",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Keep x the same and replace y with 2 − y: (2, 5) → (2, 2 − 5) = (2, -3).",
+      ),
+      QuizQuestion(
+        question:
+        "4. Find the vector which translates the point (2, 6) to (5, 4).          (BECE 2023 Q5)",
+        options: [
+          r"\begin{pmatrix} 3 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 4 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Translation vector = (5 − 2, 4 − 6) = (3, -2).",
+      ),
+      QuizQuestion(
+        question:
+        "5. A point (2, 1) is reflected in the y-axis. Find its image.          (BECE 2002A Q24)",
+        options: [
+          "(-1, 2)",
+          "(1, -2)",
+          "(-2, 1)",
+          "(2, -1)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes (x, y) to (-x, y): (2, 1) → (-2, 1).",
+      ),
+      QuizQuestion(
+        question:
+        "6. The point S(4, 3) is reflected in the y-axis. Find the coordinates of the image of S.          (BECE 2022 Q8)",
+        options: [
+          "(-3, 4)",
+          "(3, -4)",
+          "(-4, 3)",
+          "(4, -3)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes the x-coordinate only: (4, 3) → (-4, 3).",
+      ),
+      QuizQuestion(
+        question:
+        "7. Find the image of the point (-2, 3) under a reflection in the y-axis.          (BECE 2020 Q13)",
+        options: [
+          "(2, -3)",
+          "(-3, 2)",
+          "(2, 3)",
+          "(3, 2)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes (-2, 3) to (2, 3).",
+      ),
+      QuizQuestion(
+        question:
+        "8. The point P(-3, 7) is reflected in the x-axis. Find its image.          (BECE 2016 Q39)",
+        options: [
+          "(-3, -7)",
+          "(-3, 7)",
+          "(-7, 3)",
+          "(3, -7)",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the x-axis changes (x, y) to (x, -y): (-3, 7) → (-3, -7).",
+      ),
+      QuizQuestion(
+        question:
+        "9. Find the vector which translates the point A(4, -5) to B(3, -2).          (BECE 2013 Q18)",
+        options: [
+          r"\begin{pmatrix} -1 \\ -3 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 7 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ 3 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Translation vector = (3 − 4, -2 − (-5)) = (-1, 3).",
+      ),
+      QuizQuestion(
+        question:
+        "10. Find the image of the point K(3, 5) when it is reflected in the x-axis.          (BECE 2002B Q19)",
+        options: [
+          "(3, 5)",
+          "(5, 3)",
+          "(3, -5)",
+          "(-3, -5)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the x-axis changes (3, 5) to (3, -5).",
+      ),
+      QuizQuestion(
+        question:
+        "11. Find the image of the point S(-2, 2) when it is reflected in the y-axis.          (BECE 2023 Q6)",
+        options: [
+          "(2, 2)",
+          "(2, -2)",
+          "(-2, 2)",
+          "(-2, -2)",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes (-2, 2) to (2, 2).",
+      ),
+      QuizQuestion(
+        question:
+        "12. The point P(5, 4) is reflected in the y-axis. Find its image.          (BECE 2014 Q37)",
+        options: [
+          "(-5, 4)",
+          "(5, -4)",
+          "(-4, 5)",
+          "(4, -5)",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the y-axis changes the sign of the x-coordinate only.",
+      ),
+      QuizQuestion(
+        question:
+        "13. The image of P(10, -3) when translated by the vector r is P'(4, 5). Find r.          (BECE 2021 Q4)",
+        options: [
+          r"\begin{pmatrix} 14 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \\ -8 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \\ 8 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Translation vector = (4 − 10, 5 − (-3)) = (-6, 8).",
+      ),
+      QuizQuestion(
+        question:
+        r"14. Find the image of the point (6, 3) when translated by the vector \begin{pmatrix} -4 \\ -1 \end{pmatrix}.          (BECE 1997 Q15)",
+        options: [
+          "(-2, -2)",
+          "(2, -2)",
+          "(-2, 2)",
+          "(2, 2)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Add the vector to the coordinates: (6 − 4, 3 − 1) = (2, 2).",
+      ),
+      QuizQuestion(
+        question:
+        "15. The point (4, 5) is translated to the point (3, 1). What is the translation vector?          (BECE 2010 Q33)",
+        options: [
+          r"\begin{pmatrix} -1 \\ -4 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ 4 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -4 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -4 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Translation vector = (3 − 4, 1 − 5) = (-1, -4).",
+      ),
+      QuizQuestion(
+        question:
+        r"16. If P'(4, -5) is the image of P(x, y) translated by r = \begin{pmatrix} -2 \\ 3 \end{pmatrix}(-2, 3), find the values of x and y.          (BECE 2020 Q32)",
+        options: [
+          "(-6, 8)",
+          "(-6, -8)",
+          "(6, -8)",
+          "(6, 8)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Since (x − 2, y + 3) = (4, -5), then x = 6 and y = -8. (Note: the published options appear to contain an error; the correct answer should be (6, -8).)",
+      ),
+      QuizQuestion(
+        question:
+        "17. A point (-2, 3) is reflected in the x-axis. Find the image of the point.          (BECE 2025 Q13)",
+        options: [
+          "(-3, -2)",
+          "(-3, 2)",
+          "(-2, -3)",
+          "(-2, 3)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Reflection in the x-axis changes the sign of the y-coordinate: (-2, 3) → (-2, -3).",
+      ),
+    ],
+  ),
+
+  "Math JHS1 s4 ss1 - Data": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. The scores of 10 students in an examination are given as follows: 45, 12, 75, 81, 54, 51, 24, 67, 19 and 39. What is the median of the scores?          (BECE 2010 Q17)",
+        options: [
+          "39",
+          "48",
+          "51",
+          "54",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Arrange the scores in ascending order: 12, 19, 24, 39, 45, 51, 54, 67, 75, 81. Since there are 10 scores, the median is the average of the 5th and 6th scores: (45 + 51) ÷ 2 = 48.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. The ages in years of eight boys are 14, 14.5, 12, 11.5, 15, 13, 10.5 and 13.5. What is their average age?          (BECE 1995 Q25)",
+        options: [
+          "14",
+          "13",
+          "12",
+          "11",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Add the ages: 14 + 14.5 + 12 + 11.5 + 15 + 13 + 10.5 + 13.5 = 104. The average age is 104 ÷ 8 = 13 years.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. The marks obtained by six boys in a test are 20, 25, 15, 30, 28 and 16. Find the mean mark.          (BECE 1998 Q17)",
+        options: [
+          "19.33",
+          "22.33",
+          "23.20",
+          "26.40",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Add the marks: 20 + 25 + 15 + 30 + 28 + 16 = 134. The mean mark is 134 ÷ 6 = 22.33, correct to two decimal places.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Find the mean of the following set of numbers: 10, 12, 14 and 16.          (BECE 2005 Q12)",
+        options: [
+          "12",
+          "13",
+          "14",
+          "15",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Add the numbers: 10 + 12 + 14 + 16 = 52. The mean is 52 ÷ 4 = 13.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. Find the median of the following marks: 2, 4, 10, 3, 6 and 12.          (BECE 2005 Q13)",
+        options: [
+          "4",
+          "5",
+          "6",
+          "10",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "Arrange the marks in ascending order: 2, 3, 4, 6, 10, 12. The median is the average of the two middle marks: (4 + 6) ÷ 2 = 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. The marks obtained by 5 girls in a test are 10, 15, 8, 18 and 12. Find the median mark.          (BECE 2006 Q18)",
+        options: [
+          "10",
+          "11",
+          "12",
+          "15",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Arrange the marks in ascending order: 8, 10, 12, 15, 18. The middle mark is 12, so the median is 12.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. The ages of the members of a social club are 20 years, 55 years, 60 years and 25 years. Find the mean age of the members of the club.          (BECE 2017 Q9)",
+        options: [
+          "20 years",
+          "30 years",
+          "40 years",
+          "50 years",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Add the ages: 20 + 55 + 60 + 25 = 160 years. The mean age is 160 ÷ 4 = 40 years.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. What is the mode of the following set of numbers: 4, 5, 3, 3, 4, 2, 7, 6, 5, 4, 4 and 1?          (BECE 1995 Q9)",
+        options: [
+          "3",
+          "4",
+          "5",
+          "6",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The mode is the number that occurs most frequently. The number 4 occurs four times, more than any other number, so the mode is 4.",
+      ),
+    ],
+  ),
+  "Math JHS1 s4 ss2 - Chance or Probability": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. A boy throws a die once. What is the probability of getting the number 4?          (BECE 2007 Q12)",
+        options: [
+          r"\frac{1}{6}",
+          r"\frac{1}{3}",
+          r"\frac{1}{2}",
+          r"\frac{5}{6}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"A die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
+      ),
+      QuizQuestion(
+        question:
+        "2. Five cards are numbered one to five. A card is picked at random. What is the probability that it has an even number?          (BECE 1995 Q20)",
+        options: [
+          "1",
+          r"\frac{4}{5}",
+          r"\frac{1}{5}",
+          r"\frac{2}{5}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The even numbers from 1 to 5 are 2 and 4. Therefore, there are 2 favourable outcomes out of 5 possible outcomes, so the probability is \(\frac{2}{5}\).",
+      ),
+      QuizQuestion(
+        question:
+        r"3. If S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, find the probability that a number selected at random from S is odd.          (BECE 2010 Q11)",
+        options: [
+          "1",
+          r"\frac{2}{3}",
+          r"\frac{1}{2}",
+          r"\frac{1}{6}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The odd numbers are 1, 3, 5, 7 and 9. There are 5 odd numbers out of 10 numbers, so the probability is \(\frac{5}{10} = \frac{1}{2}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. What is the probability of obtaining a prime number when a fair die is thrown once?          (BECE 1994 Q16)",
+        options: [
+          r"\frac{1}{4}",
+          r"\frac{1}{2}",
+          r"\frac{1}{3}",
+          r"\frac{1}{6}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The prime numbers on a die are 2, 3 and 5. There are 3 favourable outcomes out of 6 possible outcomes, so the probability is \(\frac{3}{6} = \frac{1}{2}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. What is the number of all possible outcomes of tossing a die?          (BECE 2005 Q38)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "6",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "A die has six faces numbered 1, 2, 3, 4, 5 and 6. Therefore, there are 6 possible outcomes.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. The following are the scores obtained by girls in a beauty contest: 12, 16, 19, 14, 17, 8, 11 and 19. What is the probability of obtaining a score of 19?          (BECE 1994 Q17)",
+        options: [
+          r"\frac{1}{9}",
+          r"\frac{1}{8}",
+          r"\frac{1}{4}",
+          r"\frac{19}{53}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The score 19 occurs twice among the 8 scores. Therefore, the probability is \frac{2}{8} = \frac{1}{4}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Kofi throws a die. What is the probability that he throws the number 2?          (BECE 1994 Q5)",
+        options: [
+          "1",
+          r"\frac{2}{3}",          r"\frac{1}{2}",
+          r"\frac{1}{6}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"A die has 6 equally likely outcomes, and only one outcome is 2. Therefore, the probability is \(\frac{1}{6}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Eighteen cards are numbered from 11 to 29. If one card is chosen at random, what is the probability that it contains the digit 2?          (BECE 2010 Q19)",
+        options: [
+          r"\frac{3}{9}",
+          r"\frac{7}{18}",
+          r"\frac{5}{9}",
+          r"\frac{11}{19}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The numbers from 11 to 29 that contain the digit 2 are 12 and 20 to 29, giving 11 numbers. Since there are 19 numbers from 11 to 29 inclusive, the probability is \(\frac{11}{19}\). The statement saying there are 18 cards appears to be an error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. The probability of obtaining a head when a coin is tossed is \frac{1}{3}. What is the probability of obtaining a tail?          (BECE 1993 Q19)",
+        options: [
+          "1",
+          r"\frac{2}{3}",
+          r"\frac{1}{2}",
+          r"\frac{1}{3}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The probabilities of obtaining a head and a tail add up to 1. Therefore, the probability of a tail is \(1 - \frac{1}{3} = \frac{2}{3}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. The letters in the word HIPPOPOTAMUS are placed in a box. What is the probability of taking out a letter that is a vowel?          (BECE 2008 Q25)",
+        options: [
+          r"\frac{1}{12}",
+          r"\frac{3}{12}",
+          r"\frac{5}{12}",
+          r"\frac{7}{12}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The word HIPPOPOTAMUS has 12 letters. Its vowels are I, O, O, A and U, giving 5 vowels. Therefore, the probability is \(\frac{5}{12}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "11. What is the probability of obtaining 4 when a fair die is tossed once?          (BECE 2016 Q18)",
+        options: [
+          r"\frac{1}{6}",
+          r"\frac{1}{2}",
+          r"\frac{3}{2}",
+          r"\frac{5}{6}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"A fair die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "12. Mary had a chance to select a number from 1 to 20 randomly. What is the probability that the number is divisible by 3?          (BECE 2018 Q13)",
+        options: [
+          r"\frac{3}{20}",
+          r"\frac{1}{5}",
+          r"\frac{3}{10}",
+          r"\frac{7}{20}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The numbers from 1 to 20 that are divisible by 3 are 3, 6, 9, 12, 15 and 18. There are 6 favourable outcomes out of 20, so the probability is \(\frac{6}{20} = \frac{3}{10}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Given that P = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, what is the probability of selecting a prime number from the set?          (BECE 2020 Q34)",
+        options: [
+          r"\frac{2}{3}",
+          r"\frac{7}{12}",
+          r"\frac{1}{2}",
+          r"\frac{5}{12}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The prime numbers in the set are 2, 3, 5, 7 and 11. There are 5 prime numbers out of 12 numbers, so the probability is \(\frac{5}{12}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. What is the probability that a number greater than 5 shows up when a die is thrown?          (BECE 2022 Q12)",
+        options: [
+          r"\frac{1}{6}",
+          r"\frac{1}{3}",
+          r"\frac{2}{3}",
+          r"\frac{5}{6}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The only number greater than 5 on a standard die is 6. Therefore, there is 1 favourable outcome out of 6, so the probability is \(\frac{1}{6}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "15. A number is selected at random from: 25, 26, 27, 28, ..., 35. Find the probability that the number selected is a prime number.          (BECE 2019 Q22)",
+        options: [
+          r"\frac{6}{11}",
+          r"\frac{3}{11}",
+          r"\frac{2}{11}",
+          r"\frac{1}{11}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"There are 11 numbers from 25 to 35 inclusive. The prime numbers are 29 and 31, giving 2 favourable outcomes. Therefore, the probability is \(\frac{2}{11}\).",
+      ),
+
+      QuizQuestion(
+        question:
+        "16. The ages in years of 10 children at a party are 2, 3, 3, 3, 4, 4, 5, 5, 5 and 6. If a child is chosen at random, what is the probability that he or she is not less than 5 years old?          (BECE 2015 Q18)",
+        options: [
+          r"\frac{2}{3}",
+          r"\frac{2}{5}",
+          r"\frac{3}{10}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Not less than 5 means greater than or equal to 5. The qualifying ages are 5, 5, 5 and 6, giving 4 children out of 10. Therefore, the probability is \(\frac{4}{10} = \frac{2}{5}\).",
       ),
     ],
   ),

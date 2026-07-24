@@ -32,8 +32,10 @@ class BeceProgressRepository {
         gradeName: progress.gradeName,
         activityType: progress.activityType,
         firstAttemptScore: existingRecord.firstAttemptScore ?? progress.firstAttemptScore,
-        lastAttemptScore: progress.lastAttemptScore,
-        totalQuestions: progress.totalQuestions,
+        lastAttemptScore: progress.lastAttemptScore ?? existingRecord.lastAttemptScore,
+        totalQuestions: progress.totalQuestions ?? existingRecord.totalQuestions,
+        lastQuestionIndex: progress.lastQuestionIndex ?? existingRecord.lastQuestionIndex,
+        userAnswersJson: progress.userAnswersJson ?? existingRecord.userAnswersJson,
         doneDate: progress.doneDate,
       );
 
