@@ -267,6 +267,9 @@ class QuizController extends GetxController {
   @override
   void onClose() {
     _player.dispose();
+    try {
+      Get.find<SidebarController>().loadActualProgress();
+    } catch (_) {}
     super.onClose();
   }
 }

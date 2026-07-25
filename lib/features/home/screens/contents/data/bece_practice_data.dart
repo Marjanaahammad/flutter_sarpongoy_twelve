@@ -1805,92 +1805,89 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
 
-  "Math JHS1 s4 ss2 - NUMBER AND NUMERATION SYSTEMS": PracticeModel(
+  "Math JHS2 s1 ss1 - NUMBER AND NUMERATION SYSTEMS": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: Let B = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
+        "Question 1: a) List the members of each of the following sets:\n"
+            "LB = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
             "(i) B ∩ D\n"
             "(ii) B ∪ D\n"
             "(BECE 1990 Q1a)",
-        answer:
-        "⦿ List the members of B:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing set B\n"
+            "The whole numbers starting comprehensively from 20 up to and including 30 are:\n"
             "B = {20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}\n\n"
-            "⦿ List the factors of 63:\n"
+            "⦿ Step 2: Listing set D\n"
+            "Find all clean positive integers that divide 63 perfectly without leaving any remainder:\n"
             "D = {1, 3, 7, 9, 21, 63}\n\n"
-            "⦿ (i) Find the intersection:\n"
-            "⦁ The element common to both sets is 21.\n"
-            "B ∩ D = {21}\n\n"
-            "⦿ (ii) Find the union:\n"
-            "⦁ Combine all distinct elements from both sets.\n"
-            "B ∪ D = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}\n\n"
-            "(i) Answer = {21}\n"
-            "(ii) Answer = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}",
+            "⦿ Step 3: Finding the Intersection (B ∩ D)\n"
+            "⦁ Identify values common to both lists. The only number matching both sets is 21.\n"
+            "**Answer i:** B ∩ D = {21}\n\n"
+            "⦿ Step 4: Finding the Union (B ∪ D)\n"
+            "⦁ Combine every unique element present across both groups sorted sequentially:\n"
+            "**Answer ii:** B ∪ D = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
             "(i) List the members of X and Y.\n"
             "(ii) List the members of X ∩ Y and X ∪ Y.\n"
             "(BECE 1991 Q1a)",
-        answer:
-        "⦿ List the prime numbers less than 13:\n"
+        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing Prime elements of X\n"
+            "Prime numbers are numbers strictly greater than 1 possessing exactly two factors (1 and itself). Primes below 13 are:\n"
             "X = {2, 3, 5, 7, 11}\n\n"
-            "⦿ List the odd numbers less than 13:\n"
+            "⦿ Step 2: Listing Odd integers of Y\n"
+            "Odd integers below 13 starting from 1 are:\n"
             "Y = {1, 3, 5, 7, 9, 11}\n\n"
-            "⦿ Find the intersection:\n"
-            "⦁ Select the elements common to both sets.\n"
-            "X ∩ Y = {3, 5, 7, 11}\n\n"
-            "⦿ Find the union:\n"
-            "⦁ Combine all distinct elements from both sets.\n"
-            "X ∪ Y = {1, 2, 3, 5, 7, 9, 11}\n\n"
-            "(i) Answer:\n"
-            "X = {2, 3, 5, 7, 11}\n"
-            "Y = {1, 3, 5, 7, 9, 11}\n\n"
-            "(ii) Answer:\n"
-            "X ∩ Y = {3, 5, 7, 11}\n"
-            "X ∪ Y = {1, 2, 3, 5, 7, 9, 11}",
+            "⦿ Step 3: Finding X ∩ Y\n"
+            "⦁ Extract the matching values contained simultaneously inside both subsets:\n"
+            "**Answer i**: X ∩ Y = {3, 5, 7, 11}\n\n"
+            "⦿ Step 4: Finding X ∪ Y\n"
+            "⦁ Merge the members of both sets together seamlessly without any item duplicates:\n"
+            "**Answer ii**: X ∪ Y = {1, 2, 3, 5, 7, 9, 11}\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
             "(BECE 2019 Q1a)",
-        answer:
-        "⦿ List the members of X:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Write down members of set X\n"
             "X = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}\n\n"
-            "⦿ List the multiples of 3 between 2 and 20:\n"
+            "⦿ Step 2: Write down multiples of 3 for set Y\n"
+            "List values produced by multiplying 3 by progressive positive integers within the boundary of 2 and 20:\n"
             "Y = {3, 6, 9, 12, 15, 18}\n\n"
-            "⦿ Find the elements common to both sets:\n"
-            "X ∩ Y = {6, 9, 12}\n\n"
-            "Answer = {6, 9, 12}",
+            "⦿ Step 3: Find the intersection boundaries\n"
+            "Compare elements to isolate items that exist in both groups simultaneously:\n"
+            "The common numbers are 6, 9, and 12.\n"
+            "Answer: X ∩ Y = {6, 9, 12}\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
             "(i) M ∪ N\n"
             "(ii) M ∩ N\n"
             "(BECE 2020 Q1a)",
-        answer:
-        "⦿ List the prime integers between 1 and 11:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Enumerate Set M elements\n"
+            "Prime elements strictly between boundary limits 1 and 11 are:\n"
             "M = {2, 3, 5, 7}\n\n"
-            "⦿ List the factors of 12:\n"
+            "⦿ Step 2: Enumerate Set N factors\n"
+            "All precise whole numbers dividing 12 without any fraction remainder:\n"
             "N = {1, 2, 3, 4, 6, 12}\n\n"
-            "⦿ (i) Find the union:\n"
-            "M ∪ N = {1, 2, 3, 4, 5, 6, 7, 12}\n\n"
-            "⦿ (ii) Find the intersection:\n"
-            "M ∩ N = {2, 3}\n\n"
-            "(i) Answer = {1, 2, 3, 4, 5, 6, 7, 12}\n"
-            "(ii) Answer = {2, 3}",
+            "⦿ Step 3: Calculate the Union (M ∪ N)\n"
+            "Join all elements from both domains sequentially:\n"
+            "Answer i: M ∪ N = {1, 2, 3, 4, 5, 6, 7, 12}\n\n"
+            "⦿ Step 4: Calculate the Intersection (M ∩ N)\n"
+            "Isolate common values shared directly by sets M and N:"
+            "Answer ii: M ∩ N = {2, 3}\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
@@ -1900,28 +1897,22 @@ final Map<String, PracticeModel> becePracticeData = {
             "(β) n(P ∩ Q)\n"
             "(γ) the Highest Common Factor of 36 and 54.\n"
             "(BECE 2022 Q1a)",
-        answer:
-        "⦿ List the factors of 36:\n"
-            "P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n\n"
-            "⦿ List the factors of 54:\n"
-            "Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
-            "⦿ (α) Find the intersection:\n"
-            "P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
-            "⦿ (β) Count the elements in the intersection:\n"
-            "n(P ∩ Q) = 6\n\n"
-            "⦿ (γ) Find the HCF:\n"
-            "⦁ The greatest element in P ∩ Q is 18.\n"
-            "HCF = 18\n\n"
-            "(i) Answer:\n"
-            "P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
-            "Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
-            "(ii)\n"
-            "(α) Answer = {1, 2, 3, 6, 9, 18}\n"
-            "(β) Answer = 6\n"
-            "(γ) Answer = 18",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing the elements for P and Q\n"
+            "Factors of 36: P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
+        "Factors of 54: Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
+            "⦿ Step 2: Extracting intersection list (α)\n"
+            "Collect numbers appearing matching in both structural arrays:\n"
+            "QAnswer α: P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
+            "⦿ Step 3: Calculating cardinality size value (β)\n"
+            "Count the total count number of unique elements within the intersection group:\n"
+            "The intersection contains exactly 6 elements.\n"
+            "Answer β: n(P ∩ Q) = 6\n\n"
+            "⦿ Step 4: Isolating HCF value (γ)\n"
+            "Identify the maximum largest integer inside the mutual collection set {1, 2, 3, 6, 9, 18}, which evaluates directly to 18.\n"
+            "Answer γ: The Highest Common Factor (HCF) is 18.\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
@@ -1929,23 +1920,22 @@ final Map<String, PracticeModel> becePracticeData = {
             "(ii) (A ∪ B) ∩ C\n"
             "(iii) (A ∩ B) ∪ C\n"
             "(BECE 2023 Q1a)",
-        answer:
-        "⦿ List the members of each set:\n"
-            "A = {3, 6, 9}\n"
-            "B = {5, 6, 7}\n"
-            "C = {4, 5, 7}\n\n"
-            "⦿ (i) Find A ∩ B:\n"
-            "⦁ The common element is 6.\n"
-            "A ∩ B = {6}\n\n"
-            "⦿ (ii) Find (A ∪ B) ∩ C:\n"
-            "A ∪ B = {3, 5, 6, 7, 9}\n\n"
-            "{3, 5, 6, 7, 9} ∩ {4, 5, 7} = {5, 7}\n\n"
-            "⦿ (iii) Find (A ∩ B) ∪ C:\n"
-            "A ∩ B = {6}\n\n"
-            "{6} ∪ {4, 5, 7} = {4, 5, 6, 7}\n\n"
-            "(i) Answer = {6}\n"
-            "(ii) Answer = {5, 7}\n"
-            "(iii) Answer = {4, 5, 6, 7}",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Define base sets correctly via text properties\n"
+            "Multiples of 3 below 12: A = {3, 6, 9}\n"
+            "Integers strictly falling inside 4 and 8 boundaries: B = {5, 6, 7}\n"
+            "Set C is explicitly given as: C = {4, 5, 7}\n\n"
+            "⦿ Step 2: Solve first parameter expression A ∩ B\n"
+            "Isolate mutual values existing concurrently in A and B. The value is 6.\n"
+            "Answer part 1: A ∩ B = {6}\n\n"
+            "⦿ Step 3: Solve second multi-operation block (A ∪ B) ∩ C\n"
+            "First combine A and B: A ∪ B = {3, 5, 6, 7, 9}\n"
+            "Intersect this compound set with base set C: {3, 5, 6, 7, 9} ∩ {4, 5, 7} = {5, 7}\n"
+            "Answer part 2: (A ∪ B) ∩ C = {5, 7}\n\n"
+            "⦿ Step 4: Solve third multi-operation block (A ∩ B) ∪ C\n"
+            "Take pre-calculated set intersection outcome {6} and perform full union with set C:\n"
+            "{6} ∪ {4, 5, 7} = {4, 5, 6, 7}\n"
+            "Answer part 3: (A ∩ B) ∪ C = {4, 5, 6, 7}\n\n",
         explanation: "",
       ),
 
@@ -1955,20 +1945,184 @@ final Map<String, PracticeModel> becePracticeData = {
             "(i) List the elements in P ∩ Q.\n"
             "(ii) List all the subsets of P ∩ Q.\n"
             "(BECE 2025 Q1a)",
-        answer:
-        "⦿ List the elements of the universal set:\n"
+        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Determine universal space μ scope\n"
+            "μ consists of integers from 2 up to 20:\n"
             "μ = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\n\n"
-            "⦿ List the multiples of 3 in μ:\n"
-            "P = {3, 6, 9, 12, 15, 18}\n\n"
-            "⦿ List the positive even numbers in μ:\n"
-            "Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
-            "⦿ (i) Find the intersection:\n"
-            "P ∩ Q = {6, 12, 18}\n\n"
-            "⦿ (ii) List all the subsets:\n"
-            "⦁ A set with 3 elements has 2³ = 8 subsets.\n\n"
-            "{{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n"
-            "(i) Answer = {6, 12, 18}\n"
-            "(ii) Answer = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}",
+            "⦿ Step 2: Find sets P and Q boundaries inside μ domain\n"
+            "Multiples of 3 inside range: P = {3, 6, 9, 12, 15, 18}\n"
+        "Even values inside range: Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
+            "⦿ Step 3: Identify common matching intersecting numbers (i)\n"
+            "Values shared across both listings are 6, 12, and 18.\n"
+            "Answer i: P ∩ Q = {6, 12, 18}\n\n"
+            "⦿ Step 4: Generate mathematical subset permutations list (ii)\n"
+            "A set with 3 elements yields exactly 2^3 = 8 complete subsets. They are structured accurately below:"
+        "1. Empty set: {}\n"
+        "2. Single-element subsets: {6}, {12}, {18}\n"
+        "3. Two-element subsets: {6, 12}, {6, 18}, {12, 18}\n"
+        "4. Full self set subset: {6, 12, 18}\n"
+            "Answer ii: Subsets = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss2 - Number Operations": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: a) List the members of each of the following sets:\n"
+            "LB = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
+            "(i) B ∩ D\n"
+            "(ii) B ∪ D\n"
+            "(BECE 1990 Q1a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing set B\n"
+            "The whole numbers starting comprehensively from 20 up to and including 30 are:\n"
+            "B = {20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}\n\n"
+            "⦿ Step 2: Listing set D\n"
+            "Find all clean positive integers that divide 63 perfectly without leaving any remainder:\n"
+            "D = {1, 3, 7, 9, 21, 63}\n\n"
+            "⦿ Step 3: Finding the Intersection (B ∩ D)\n"
+            "⦁ Identify values common to both lists. The only number matching both sets is 21.\n"
+            "**Answer i:** B ∩ D = {21}\n\n"
+            "⦿ Step 4: Finding the Union (B ∪ D)\n"
+            "⦁ Combine every unique element present across both groups sorted sequentially:\n"
+            "**Answer ii:** B ∪ D = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
+            "(i) List the members of X and Y.\n"
+            "(ii) List the members of X ∩ Y and X ∪ Y.\n"
+            "(BECE 1991 Q1a)",
+        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing Prime elements of X\n"
+            "Prime numbers are numbers strictly greater than 1 possessing exactly two factors (1 and itself). Primes below 13 are:\n"
+            "X = {2, 3, 5, 7, 11}\n\n"
+            "⦿ Step 2: Listing Odd integers of Y\n"
+            "Odd integers below 13 starting from 1 are:\n"
+            "Y = {1, 3, 5, 7, 9, 11}\n\n"
+            "⦿ Step 3: Finding X ∩ Y\n"
+            "⦁ Extract the matching values contained simultaneously inside both subsets:\n"
+            "**Answer i**: X ∩ Y = {3, 5, 7, 11}\n\n"
+            "⦿ Step 4: Finding X ∪ Y\n"
+            "⦁ Merge the members of both sets together seamlessly without any item duplicates:\n"
+            "**Answer ii**: X ∪ Y = {1, 2, 3, 5, 7, 9, 11}\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
+            "(BECE 2019 Q1a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Write down members of set X\n"
+            "X = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}\n\n"
+            "⦿ Step 2: Write down multiples of 3 for set Y\n"
+            "List values produced by multiplying 3 by progressive positive integers within the boundary of 2 and 20:\n"
+            "Y = {3, 6, 9, 12, 15, 18}\n\n"
+            "⦿ Step 3: Find the intersection boundaries\n"
+            "Compare elements to isolate items that exist in both groups simultaneously:\n"
+            "The common numbers are 6, 9, and 12.\n"
+            "Answer: X ∩ Y = {6, 9, 12}\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
+            "(i) M ∪ N\n"
+            "(ii) M ∩ N\n"
+            "(BECE 2020 Q1a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Enumerate Set M elements\n"
+            "Prime elements strictly between boundary limits 1 and 11 are:\n"
+            "M = {2, 3, 5, 7}\n\n"
+            "⦿ Step 2: Enumerate Set N factors\n"
+            "All precise whole numbers dividing 12 without any fraction remainder:\n"
+            "N = {1, 2, 3, 4, 6, 12}\n\n"
+            "⦿ Step 3: Calculate the Union (M ∪ N)\n"
+            "Join all elements from both domains sequentially:\n"
+            "Answer i: M ∪ N = {1, 2, 3, 4, 5, 6, 7, 12}\n\n"
+            "⦿ Step 4: Calculate the Intersection (M ∩ N)\n"
+            "Isolate common values shared directly by sets M and N:"
+            "Answer ii: M ∩ N = {2, 3}\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
+            "(i) List the members of P and Q.\n"
+            "(ii) Find:\n"
+            "(α) P ∩ Q\n"
+            "(β) n(P ∩ Q)\n"
+            "(γ) the Highest Common Factor of 36 and 54.\n"
+            "(BECE 2022 Q1a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Listing the elements for P and Q\n"
+            "Factors of 36: P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
+        "Factors of 54: Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
+            "⦿ Step 2: Extracting intersection list (α)\n"
+            "Collect numbers appearing matching in both structural arrays:\n"
+            "QAnswer α: P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
+            "⦿ Step 3: Calculating cardinality size value (β)\n"
+            "Count the total count number of unique elements within the intersection group:\n"
+            "The intersection contains exactly 6 elements.\n"
+            "Answer β: n(P ∩ Q) = 6\n\n"
+            "⦿ Step 4: Isolating HCF value (γ)\n"
+            "Identify the maximum largest integer inside the mutual collection set {1, 2, 3, 6, 9, 18}, which evaluates directly to 18.\n"
+            "Answer γ: The Highest Common Factor (HCF) is 18.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
+            "(i) A ∩ B\n"
+            "(ii) (A ∪ B) ∩ C\n"
+            "(iii) (A ∩ B) ∪ C\n"
+            "(BECE 2023 Q1a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Define base sets correctly via text properties\n"
+            "Multiples of 3 below 12: A = {3, 6, 9}\n"
+            "Integers strictly falling inside 4 and 8 boundaries: B = {5, 6, 7}\n"
+            "Set C is explicitly given as: C = {4, 5, 7}\n\n"
+            "⦿ Step 2: Solve first parameter expression A ∩ B\n"
+            "Isolate mutual values existing concurrently in A and B. The value is 6.\n"
+            "Answer part 1: A ∩ B = {6}\n\n"
+            "⦿ Step 3: Solve second multi-operation block (A ∪ B) ∩ C\n"
+            "First combine A and B: A ∪ B = {3, 5, 6, 7, 9}\n"
+            "Intersect this compound set with base set C: {3, 5, 6, 7, 9} ∩ {4, 5, 7} = {5, 7}\n"
+            "Answer part 2: (A ∪ B) ∩ C = {5, 7}\n\n"
+            "⦿ Step 4: Solve third multi-operation block (A ∩ B) ∪ C\n"
+            "Take pre-calculated set intersection outcome {6} and perform full union with set C:\n"
+            "{6} ∪ {4, 5, 7} = {4, 5, 6, 7}\n"
+            "Answer part 3: (A ∩ B) ∪ C = {4, 5, 6, 7}\n\n",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 7: Given that P = {multiples of 3} and Q = {positive even numbers} are subsets of μ = {x : 1 < x ≤ 20, where x is a counting number}:\n"
+            "(i) List the elements in P ∩ Q.\n"
+            "(ii) List all the subsets of P ∩ Q.\n"
+            "(BECE 2025 Q1a)",
+        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
+        "⦿ Step 1: Determine universal space μ scope\n"
+            "μ consists of integers from 2 up to 20:\n"
+            "μ = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\n\n"
+            "⦿ Step 2: Find sets P and Q boundaries inside μ domain\n"
+            "Multiples of 3 inside range: P = {3, 6, 9, 12, 15, 18}\n"
+        "Even values inside range: Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
+            "⦿ Step 3: Identify common matching intersecting numbers (i)\n"
+            "Values shared across both listings are 6, 12, and 18.\n"
+            "Answer i: P ∩ Q = {6, 12, 18}\n\n"
+            "⦿ Step 4: Generate mathematical subset permutations list (ii)\n"
+            "A set with 3 elements yields exactly 2^3 = 8 complete subsets. They are structured accurately below:"
+        "1. Empty set: {}\n"
+        "2. Single-element subsets: {6}, {12}, {18}\n"
+        "3. Two-element subsets: {6, 12}, {6, 18}, {12, 18}\n"
+        "4. Full self set subset: {6, 12, 18}\n"
+            "Answer ii: Subsets = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n",
         explanation: "",
       ),
     ],

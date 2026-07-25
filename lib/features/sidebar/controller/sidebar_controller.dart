@@ -70,17 +70,18 @@ class SidebarController extends GetxController {
               .toList();
 
           final hasGetReady = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'get_ready');
+              .any((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
           final hasLearn = lessonProgress.any((p) =>
               p.activityType.toLowerCase() == 'learn' &&
               p.subActivity ==
-                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
+                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+              p.isCompleted);
           final hasPractice = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'guided_practice');
+              .any((p) => p.activityType.toLowerCase() == 'guided_practice' && p.isCompleted);
           final hasIndependent = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'independent');
-          final hasQuiz =
-              lessonProgress.any((p) => p.activityType.toLowerCase() == 'quiz');
+              .any((p) => p.activityType.toLowerCase() == 'independent' && p.isCompleted);
+          final hasQuiz = lessonProgress
+              .any((p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
           if (hasGetReady &&
               hasLearn &&
@@ -165,17 +166,18 @@ class SidebarController extends GetxController {
                   .toList();
 
               final hasGetReady = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'get_ready');
+                  .any((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
               final hasLearn = lessonProgress.any((p) =>
                   p.activityType.toLowerCase() == 'learn' &&
                   p.subActivity ==
-                      'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
+                      'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+                  p.isCompleted);
               final hasPractice = lessonProgress.any(
-                  (p) => p.activityType.toLowerCase() == 'guided_practice');
+                  (p) => p.activityType.toLowerCase() == 'guided_practice' && p.isCompleted);
               final hasIndependent = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'independent');
+                  .any((p) => p.activityType.toLowerCase() == 'independent' && p.isCompleted);
               final hasQuiz = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'quiz');
+                  .any((p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
               if (hasGetReady &&
                   hasLearn &&
@@ -340,7 +342,12 @@ class SidebarController extends GetxController {
                   p.subStrandName.toLowerCase() ==
                       normalSubStrandTitle.toLowerCase() &&
                   p.gradeName == selectedGrade.value &&
-                  p.activityType == 'objectives');
+                  p.activityType == 'objectives' &&
+                  p.lastAttemptScore != null &&
+                  p.lastQuestionIndex != null &&
+                  p.totalQuestions != null &&
+                  p.totalQuestions! > 0 &&
+                  p.lastQuestionIndex! >= p.totalQuestions!);
 
               final beceTheory = allBeceProgress.firstWhereOrNull((p) =>
                   p.courseName.toLowerCase() == course.title.toLowerCase() &&
@@ -349,7 +356,11 @@ class SidebarController extends GetxController {
                   p.subStrandName.toLowerCase() ==
                       normalSubStrandTitle.toLowerCase() &&
                   p.gradeName == selectedGrade.value &&
-                  p.activityType == 'theory');
+                  p.activityType == 'theory' &&
+                  p.lastQuestionIndex != null &&
+                  p.totalQuestions != null &&
+                  p.totalQuestions! > 0 &&
+                  p.lastQuestionIndex! >= p.totalQuestions!);
 
               String? quizScoreStr;
               String? quizOriginalScoreStr;
@@ -417,10 +428,10 @@ class SidebarController extends GetxController {
 
               // Filter for each activity type (case-insensitive check for safety)
               final getReadyProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'get_ready')
+                  .where((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted)
                   .toList();
               final learnProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'learn')
+                  .where((p) => p.activityType.toLowerCase() == 'learn' && p.isCompleted)
                   .toList();
 
               ActivityProgress? practice;
@@ -428,6 +439,7 @@ class SidebarController extends GetxController {
               ActivityProgress? quiz;
 
               for (var p in lessonProgress) {
+                if (!p.isCompleted) continue;
                 final type = p.activityType.toLowerCase();
                 if (type == 'guided_practice') {
                   if (practice == null ||

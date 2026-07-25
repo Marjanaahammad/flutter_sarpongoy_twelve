@@ -4833,10 +4833,9 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"In 2^2 \times 3^2 \times 7, only 7 has an odd power. Multiplying by 7 gives 2^2 \times 3^2 \times 7^2, which is a perfect square.",
       ),
-
       QuizQuestion(
         question:
-        r"2. If Y = \{house, tree\} and V = \{cat, house, tree\}, which of the following is true of Y and V?          (BECE 1991 Q2)",
+        r"2. If Y = {house, tree} and V = {cat, house, tree}, which of the following is true of Y and V?          (BECE 1991 Q2)",
         options: [
           r"Y = V",
           r"Y \subseteq V",
@@ -4848,7 +4847,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Every member of Y is also a member of V. Therefore, Y \subseteq V.",
       ),
-
       QuizQuestion(
         question:
         "3. Write 39.9748 km, correct to three significant figures.          (BECE 1993 Q30)",
@@ -4863,37 +4861,34 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The first three significant digits are 3, 9 and 9. The next digit is 7, so the number rounds to 40.0 km.",
       ),
-
       QuizQuestion(
         question:
-        r"4. If P = \{7, 11, 13\} and Q = \{9, 11, 13\}, find P \cup Q.          (BECE 1992 Q2)",
+        r"4. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 1992 Q2)",
         options: [
-          r"\{7\}",
-          r"\{9\}",
-          r"\{7, 9\}",
-          r"\{7, 9, 11, 13\}",
+          r"{7}",
+          r"{9}",
+          r"{7, 9}",
+          r"{7, 9, 11, 13}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The union contains every member found in P or Q. Therefore, P \cup Q = \{7, 9, 11, 13\}.",
       ),
-
       QuizQuestion(
         question:
         "5. Find the set of prime factors of 12.          (BECE 1992 Q1)",
         options: [
-          r"\{3\}",
-          r"\{2, 3\}",
-          r"\{3, 4\}",
-          r"\{2, 6\}",
+          r"{3}",
+          r"{2, 3}",
+          r"{3, 4}",
+          r"{2, 6}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
       ),
-
       QuizQuestion(
         question:
         "6. Two sets which have no common member or members are known as:          (BECE 1998 Q1)",
@@ -4908,15 +4903,14 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "Disjoint sets are sets that have no members in common.",
       ),
-
       QuizQuestion(
         question:
         "7. Which of the following is the set of factors of 12?          (BECE 1994 Q1)",
         options: [
-          r"\{12, 6, 4, 3, 2, 1\}",
-          r"\{12, 6, 4, 3, 2\}",
-          r"\{12, 6, 4, 2\}",
-          r"\{6, 4, 2, 1\}",
+          r"{12, 6, 4, 3, 2, 1}",
+          r"{12, 6, 4, 3, 2}",
+          r"{12, 6, 4, 2}",
+          r"{6, 4, 2, 1}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
@@ -4943,10 +4937,10 @@ final Map<String, QuizModel> beceQuizData = {
         question:
         "9. The distance between two towns is 12875 km. Express this distance in standard form.          (BECE 1990 Q14)",
         options: [
-          r"1.2875 \times 10^3 km",
-          r"1.2875 \times 10^4 km",
-          r"12.875 \times 10^3 km",
-          r"128.75 \times 10^2 km",
+          r"1.2875 x 10^3 km",
+          r"1.2875 x 10^4 km",
+          r"12.875 x 10^3 km",
+          r"128.75 x 10^2 km",
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -4956,12 +4950,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"10. If P = \{7, 9, 13\} and Q = \{1, 7, 13\}, find P \cap Q.          (BECE 1990 Q1)",
+        r"10. If P = {7, 9, 13} and Q = {1, 7, 13}, find P \cap Q.          (BECE 1990 Q1)",
         options: [
-          r"\{1, 7, 13\}",
-          r"\{1, 9, 13\}",
-          r"\{7, 13\}",
-          r"\{7, 9, 13\}",
+          r"{1, 7, 13}",
+          r"{1, 9, 13}",
+          r"{7, 13}",
+          r"{7, 9, 13}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -4986,7 +4980,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"12. M = \{1, 2, 3, 8, 10\} and N = \{8, 1, x, 3, 2\}. If M = N, what is the value of x?          (BECE 2000 Q1)",
+        r"12. M = {1, 2, 3, 8, 10} and N = {8, 1, x, 3, 2}. If M = N, what is the value of x?          (BECE 2000 Q1)",
         options: [
           "10",
           "2",
@@ -5003,10 +4997,10 @@ final Map<String, QuizModel> beceQuizData = {
         question:
         "13. Express 0.0043216 in standard form.          (BECE 1994 Q20)",
         options: [
-          r"4.3216 \times 10^{-4}",
-          r"4.3216 \times 10^{-3}",
-          r"4.3216 \times 10^4",
-          r"4.3216 \times 10^3",
+          r"4.3216 x 10^{-4}",
+          r"4.3216 x 10^{-3}",
+          r"4.3216 x 10^4",
+          r"4.3216 x 10^3",
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -5016,7 +5010,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"14. P = \{1, 2, 3, 8, 10\} and Q = \{8, 1, x, 3, 2\}. If P = Q, what is the value of x?          (BECE 1991 Q1)",
+        r"14. P = {1, 2, 3, 8, 10} and Q = {8, 1, x, 3, 2}. If P = Q, what is the value of x?          (BECE 1991 Q1)",
         options: [
           "1",
           "2",
@@ -5046,12 +5040,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"16. P = \{0, 2, 4, 6\} and Q = \{1, 2, 4, 5\}. Find P \cap Q.          (BECE 1998 Q2)",
+        r"16. P = {0, 2, 4, 6} and Q = {1, 2, 4, 5}. Find P \cap Q.          (BECE 1998 Q2)",
         options: [
-          r"\{0, 6\}",
-          r"\{2, 4\}",
-          r"\{0, 2, 4\}",
-          r"\{0, 2, 6\}",
+          r"{0, 6}",
+          r"{2, 4}",
+          r"{0, 2, 4}",
+          r"{0, 2, 6}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -5061,7 +5055,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"17. U = \{0, 1\}. How many subsets has U?          (BECE 1996 Q1)",
+        r"17. U = {0, 1}. How many subsets has U?          (BECE 1996 Q1)",
         options: [
           "1",
           "2",
@@ -5076,22 +5070,21 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"18. R = \{1, 3, 5, 7\} and S = \{2, 4, 6, 8\}. Find R \cup S.          (BECE 2001 Q1)",
+        r"18. R = {1, 3, 5, 7} and S = {2, 4, 6, 8}. Find R \cup S.          (BECE 2001 Q1)",
         options: [
-          r"\{\}",
-          r"\{1, 2, 3, 5, 6, 8\}",
-          r"\{1, 2, 3, 4, 5, 7, 8\}",
-          r"\{1, 2, 3, 4, 5, 6, 7, 8\}",
+          r"{}",
+          r"{1, 2, 3, 5, 6, 8}",
+          r"{1, 2, 3, 4, 5, 7, 8}",
+          r"{1, 2, 3, 4, 5, 6, 7, 8}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The union contains all the members of R and S. Therefore, R \cup S = \{1, 2, 3, 4, 5, 6, 7, 8\}.",
       ),
-
       QuizQuestion(
         question:
-        r"19. Find the missing numbers in the set \{5, 10, 15, \_, 25, \_, \_, 40\}.          (BECE 2001 Q2)",
+        r"19. Find the missing numbers in the set {5, 10, 15, _, 25, _, _, 40}.          (BECE 2001 Q2)",
         options: [
           "20 and 30",
           "30 and 35",
@@ -5103,7 +5096,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The numbers increase by 5. The missing numbers are 20, 30 and 35.",
       ),
-
       QuizQuestion(
         question:
         "20. Correct 0.00025 to one significant figure.          (BECE 2002 Q12)",
@@ -5118,22 +5110,20 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The first significant digit is 2 and the next digit is 5, so 2 is rounded up to 3. The answer is 0.0003.",
       ),
-
       QuizQuestion(
         question:
-        r"21. If Q = \{2, 4, 6, 7, 8, 10\} and R = \{3, 5, 7, 9, 10, 11\}, find Q \cap R.          (BECE 2003 Q2)",
+        r"21. If Q = {2, 4, 6, 7, 8, 10} and R = {3, 5, 7, 9, 10, 11}, find Q \cap R.          (BECE 2003 Q2)",
         options: [
-          r"\{3, 5, 7, 9, 10, 11\}",
-          r"\{7, 10\}",
-          r"\{10\}",
-          r"\{7\}",
+          r"{3, 5, 7, 9, 10, 11}",
+          r"{7, 10}",
+          r"{10}",
+          r"{7}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"The common members of Q and R are 7 and 10. Therefore, Q \cap R = \{7, 10\}.",
       ),
-
       QuizQuestion(
         question:
         "22. What is the value of the digit 8 in the number 78000?          (BECE 2003 Q8)",
@@ -5148,7 +5138,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The digit 8 is in the thousands place, so its value is 8 thousands, or 8,000.",
       ),
-
       QuizQuestion(
         question:
         "23. Which of the following is not a factor of 18?          (BECE 2005 Q2)",
@@ -5163,22 +5152,20 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The factors of 18 include 1, 2, 3, 6, 9 and 18. Therefore, 4 is not a factor of 18.",
       ),
-
       QuizQuestion(
         question:
-        r"24. Given that A = \{b, c, i\} and B = \{a, e, f, i\}, find A \cap B.          (BECE 2005 Q4)",
+        r"24. Given that A = {b, c, i} and B = {a, e, f, i}, find A \cap B.          (BECE 2005 Q4)",
         options: [
-          r"\{a, b, c, e, f, i\}",
-          r"\{f, i\}",
-          r"\{a\}",
-          r"\{i\}",
+          r"{a, b, c, e, f, i}",
+          r"{f, i}",
+          r"{a}",
+          r"{i}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The only member common to A and B is i. Therefore, A \cap B = \{i\}.",
       ),
-
       QuizQuestion(
         question:
         r"25. Arrange the following numbers from the highest to the lowest: \frac{2}{3}, -7, 0.          (BECE 2005 Q6)",
@@ -5193,37 +5180,34 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Since \frac{2}{3} is positive, it is greater than 0, while -7 is negative. Therefore, the order is \frac{2}{3}, 0, -7.",
       ),
-
       QuizQuestion(
         question:
-        r"26. If Q = \{1, 3, 5, 7, 9, 11, 13, 15\} and R = \{1, 2, 3, 5, 6, 7, 10, 11, 12\}, find Q \cap R.          (BECE 2006 Q1)",
+        r"26. If Q = {1, 3, 5, 7, 9, 11, 13, 15} and R = {1, 2, 3, 5, 6, 7, 10, 11, 12}, find Q \cap R.          (BECE 2006 Q1)",
         options: [
-          r"\{1, 3, 5, 7, 11\}",
-          r"\{1, 3, 5, 7, 9, 11\}",
-          r"\{2, 4, 8, 9, 13, 14\}",
-          r"\{1, 2, 3, 5, 6, 7, 9, 10, 11, 12\}",
+          r"{1, 3, 5, 7, 11}",
+          r"{1, 3, 5, 7, 9, 11}",
+          r"{2, 4, 8, 9, 13, 14}",
+          r"{1, 2, 3, 5, 6, 7, 9, 10, 11, 12}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"The members common to Q and R are 1, 3, 5, 7 and 11.",
       ),
-
       QuizQuestion(
         question:
         "27. Which of the following is the set of prime factors of 12?          (BECE 2006 Q6)",
         options: [
-          r"\{1, 3\}",
-          r"\{2, 3\}",
-          r"\{2, 4, 6, 12\}",
-          r"\{2, 3, 4, 6\}",
+          r"{1, 3}",
+          r"{2, 3}",
+          r"{2, 4, 6, 12}",
+          r"{2, 3, 4, 6}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
       ),
-
       QuizQuestion(
         question:
         "28. Correct 0.003858 to three significant figures.          (BECE 2006 Q8)",
@@ -5238,7 +5222,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The first three significant digits are 3, 8 and 5. The next digit is 8, so 5 is rounded up to 6, giving 0.00386.",
       ),
-
       QuizQuestion(
         question:
         "29. What is the value of the digit 9 in the number 624.93?          (BECE 2006 Q36)",
@@ -5253,82 +5236,76 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The digit 9 is the first digit after the decimal point, so its value is 9 tenths.",
       ),
-
       QuizQuestion(
         question:
-        r"30. List the members of the set P = \{factors of 30 which are odd\}.          (BECE 2007 Q1)",
+        r"30. List the members of the set P = {factors of 30 which are odd}.          (BECE 2007 Q1)",
         options: [
-          r"P = \{2, 3, 5\}",
-          r"P = \{1, 2, 3, 5\}",
-          r"P = \{1, 3, 5, 15\}",
-          r"P = \{2, 6, 10, 30\}",
+          r"P = {2, 3, 5}",
+          r"P = {1, 2, 3, 5}",
+          r"P = {1, 3, 5, 15}",
+          r"P = {2, 6, 10, 30}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
         "The odd factors of 30 are 1, 3, 5 and 15.",
       ),
-
       QuizQuestion(
         question:
-        r"31. M = \{g, o, q, s\} and P = \{h, p, r, t\}. Find M \cup P.          (BECE 2007 Q2)",
+        r"31. M = {g, o, q, s} and P = {h, p, r, t}. Find M \cup P.          (BECE 2007 Q2)",
         options: [
-          r"\{q, r, s, t\}",
-          r"\{g, h, o, p, r\}",
-          r"\{g, h, o, q, r, t\}",
-          r"\{g, h, o, p, q, r, s, t\}",
+          r"{q, r, s, t}",
+          r"{g, h, o, p, r}",
+          r"{g, h, o, q, r, t}",
+          r"{g, h, o, p, q, r, s, t}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The union contains every member in M and P. Therefore, M \cup P = \{g, h, o, p, q, r, s, t\}.",
       ),
-
       QuizQuestion(
         question:
-        r"32. List the members of the set \{2 \leq x \leq 5\}.          (BECE 2008 Q2)",
+        r"32. List the members of the set {2 \leq x \leq 5}.          (BECE 2008 Q2)",
         options: [
-          r"\{2, 5\}",
-          r"\{2, 3, 4\}",
-          r"\{2, 3, 5\}",
-          r"\{2, 3, 4, 5\}",
+          r"{2, 5}",
+          r"{2, 3, 4}",
+          r"{2, 3, 5}",
+          r"{2, 3, 4, 5}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The whole numbers from 2 to 5 inclusive are 2, 3, 4 and 5.",
       ),
-
       QuizQuestion(
         question:
-        r"33. Given that A = \{1, 2, 3, 4, 5, 6\} and B = \{3, 6, 9, 12\}, find A \cup B.          (BECE 2009 Q1)",
+        r"33. Given that A = {1, 2, 3, 4, 5, 6} and B = {3, 6, 9, 12}, find A \cup B.          (BECE 2009 Q1)",
         options: [
-          r"\{3, 6\}",
-          r"\{6, 12\}",
-          r"\{2, 3, 4, 5, 9, 12\}",
-          r"\{1, 2, 3, 4, 5, 6, 9, 12\}",
+          r"{3, 6}",
+          r"{6, 12}",
+          r"{2, 3, 4, 5, 9, 12}",
+          r"{1, 2, 3, 4, 5, 6, 9, 12}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The union contains all distinct members in A and B: \{1, 2, 3, 4, 5, 6, 9, 12\}.",
       ),
-
       QuizQuestion(
         question:
-        r"34. Which of the following sets is equal to \{1, 2, 3, 4\}?          (BECE 2009 Q6)",
+        r"34. Which of the following sets is equal to {1, 2, 3, 4}?          (BECE 2009 Q6)",
         options: [
-          r"\{2, 4, 1, 5\}",
-          r"\{2, 1, 4, 3\}",
-          r"\{1, 2, 3, 4, \ldots\}",
-          r"\{2, 3, 4, 5, \ldots\}",
+          r"{2, 4, 1, 5}",
+          r"{2, 1, 4, 3}",
+          r"{1, 2, 3, 4, ...}",
+          r"{2, 3, 4, 5, ...}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         "The order of members in a set does not matter. The second set contains exactly 1, 2, 3 and 4.",
       ),
-
       QuizQuestion(
         question:
         "35. What is the value of four in the number 7073.48?          (BECE 2009 Q34)",
@@ -5343,22 +5320,20 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The digit 4 is the first digit after the decimal point, so its value is four tenths.",
       ),
-
       QuizQuestion(
         question:
         "36. Which of the following sets is well defined?          (BECE 2010 Q1)",
         options: [
-          r"\{Man, Kofi, Red, 14\}",
-          r"\{Ink, Mango, Green, Nail\}",
-          r"\{Car, Road, Glass, Book\}",
-          r"\{Seth, Mary, Jacob, Evelyn\}",
+          r"{Man, Kofi, Red, 14}",
+          r"{Ink, Mango, Green, Nail}",
+          r"{Car, Road, Glass, Book}",
+          r"{Seth, Mary, Jacob, Evelyn}",
         ],
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
         "The fourth option clearly consists of names of people, so membership of the set can be determined without ambiguity.",
       ),
-
       QuizQuestion(
         question:
         "37. If set B is a subset of set A, then:          (BECE 2010 Q2)",
@@ -5373,7 +5348,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "B is a subset of A when every member of B is also a member of A.",
       ),
-
       QuizQuestion(
         question:
         "38. Arrange the following numbers from the lowest to the highest: 0.5, 3, -5, 0.          (BECE 2010 Q9)",
@@ -5388,37 +5362,34 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "A negative number is less than zero, and 0.5 is less than 3. Therefore, the order is -5, 0, 0.5, 3.",
       ),
-
       QuizQuestion(
         question:
         "39. Which of the following is the set of prime factors of 12?          (BECE 2011 Q1)",
         options: [
-          r"\{2, 3\}",
-          r"\{1, 2, 3\}",
-          r"\{1, 2, 4, 6\}",
-          r"\{2, 3, 4, 6\}",
+          r"{2, 3}",
+          r"{1, 2, 3}",
+          r"{1, 2, 4, 6}",
+          r"{2, 3, 4, 6}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"Since 12 = 2^2 \times 3, the prime factors of 12 are 2 and 3.",
       ),
-
       QuizQuestion(
         question:
-        r"40. If A = \{18, 19, 20\} and B = \{15, 16, 17\}, find A \cap B.          (BECE 2011 Q8)",
+        r"40. If A = {18, 19, 20} and B = {15, 16, 17}, find A \cap B.          (BECE 2011 Q8)",
         options: [
-          r"\{15, 16, 17, 18, 19, 20\}",
-          r"\{15, 16, 18, 19\}",
-          r"\{18, 19\}",
-          r"\{\}",
+          r"{15, 16, 17, 18, 19, 20}",
+          r"{15, 16, 18, 19}",
+          r"{18, 19}",
+          r"{}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"A and B have no common members. Therefore, A \cap B = \{\}.",
       ),
-
       QuizQuestion(
         question:
         "41. What is the value of 7 in the number 832713?          (BECE 2011 Q38)",
@@ -5433,37 +5404,34 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The digit 7 is in the hundreds place, so its value is seven hundred.",
       ),
-
       QuizQuestion(
         question:
-        r"42. If P = \{2, 3, 5, 7\} and Q = \{2, 4, 6, 8\}, find P \cap Q.          (BECE 2012 Q1)",
+        r"42. If P = {2, 3, 5, 7} and Q = {2, 4, 6, 8}, find P \cap Q.          (BECE 2012 Q1)",
         options: [
-          r"\{2\}",
-          r"\{3\}",
-          r"\{4\}",
-          r"\{5\}",
+          r"{2}",
+          r"{3}",
+          r"{4}",
+          r"{5}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"The only member common to P and Q is 2. Therefore, P \cap Q = \{2\}.",
       ),
-
       QuizQuestion(
         question:
-        r"43. If A = \{5, 10, 15, 20, 25, 125\} and B = \{5, 10, 15, 20, 25, 625\}, list the elements of A \cup B.          (BECE 2013 Q1)",
+        r"43. If A = {5, 10, 15, 20, 25, 125} and B = {5, 10, 15, 20, 25, 625}, list the elements of A \cup B.          (BECE 2013 Q1)",
         options: [
-          r"\{5, 25\}",
-          r"\{10, 20, 125, 625\}",
-          r"\{5, 15, 25, 125, 625\}",
-          r"\{5, 10, 15, 20, 25, 125, 625\}",
+          r"{5, 25}",
+          r"{10, 20, 125, 625}",
+          r"{5, 15, 25, 125, 625}",
+          r"{5, 10, 15, 20, 25, 125, 625}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The union contains every distinct member in A or B. Therefore, A \cup B = \{5, 10, 15, 20, 25, 125, 625\}.",
       ),
-
       QuizQuestion(
         question:
         "44. Two sets whose intersection is an empty set are:          (BECE 2013 Q40)",
@@ -5478,7 +5446,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "Disjoint sets have no members in common, so their intersection is empty.",
       ),
-
       QuizQuestion(
         question:
         "45. If set N is a subset of set M, then:          (BECE 2014 Q1)",
@@ -5493,22 +5460,20 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "N is a subset of M when every member of N is also a member of M.",
       ),
-
       QuizQuestion(
         question:
-        r"46. List the members of the set Q = \{prime factors of 30\}.          (BECE 2015 Q1)",
+        r"46. List the members of the set Q = {prime factors of 30}.          (BECE 2015 Q1)",
         options: [
-          r"\{2, 3, 5\}",
-          r"\{2, 6, 10\}",
-          r"\{3, 5, 15\}",
-          r"\{3, 6, 15\}",
+          r"{2, 3, 5}",
+          r"{2, 6, 10}",
+          r"{3, 5, 15}",
+          r"{3, 6, 15}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"Since 30 = 2 \times 3 \times 5, its prime factors are 2, 3 and 5.",
       ),
-
       QuizQuestion(
         question:
         "47. What is the place value of 7 in 24.376?          (BECE 2015 Q4)",
@@ -5523,15 +5488,14 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The digit 7 is the second digit after the decimal point, so it is in the hundredths place.",
       ),
-
       QuizQuestion(
         question:
         "48. Which of the following is a finite set?          (BECE 2016 Q1)",
         options: [
-          r"\{2, 4, 6, 8, \ldots\}",
-          r"\{1, 2, 3, 4, \ldots\}",
-          r"\{\ldots, 2, 3, 5, 7\}",
-          r"\{3, 6, 9, 12\}",
+          r"{2, 4, 6, 8, ...}",
+          r"{1, 2, 3, 4, ...}",
+          r"{.... , 2, 3, 5, 7}",
+          r"{3, 6, 9, 12}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
@@ -5541,7 +5505,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"49. Given that M = \{a, b, c\}, find the number of subsets of M.          (BECE 2016 Q2)",
+        r"49. Given that M = {a, b, c}, find the number of subsets of M.          (BECE 2016 Q2)",
         options: [
           "3",
           "4",
@@ -5556,12 +5520,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"50. If P = \{2, 4, 6, 8\} and Q = \{1, 2, 3, 4\}, find P \cap Q.          (BECE 2016 Q3)",
+        r"50. If P = {2, 4, 6, 8} and Q = {1, 2, 3, 4}, find P \cap Q.          (BECE 2016 Q3)",
         options: [
-          r"\{2, 4\}",
-          r"\{7, 9, 10\}",
-          r"\{2, 3, 4, 6, 8\}",
-          r"\{1, 2, 3, 4, 6, 8\}",
+          r"{2, 4}",
+          r"{7, 9, 10}",
+          r"{2, 3, 4, 6, 8}",
+          r"{1, 2, 3, 4, 6, 8}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
@@ -5586,12 +5550,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"52. If Q = \{1, 3, 5, 7, 10, 11, 15\} and T = \{1, 2, 3, 5, 6, 7, 11, 12\}, find Q \cup T.          (BECE 2016 Q3)",
+        r"52. If Q = {1, 3, 5, 7, 10, 11, 15} and T = {1, 2, 3, 5, 6, 7, 11, 12}, find Q \cup T.          (BECE 2016 Q3)",
         options: [
-          r"\{1, 2, 3, 5, 7, 10, 11\}",
-          r"\{1, 3, 5, 7, 9, 11, 13, 15\}",
-          r"\{1, 2, 3, 5, 6, 7, 10, 11, 12, 15\}",
-          r"\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15\}",
+          r"{1, 2, 3, 5, 7, 10, 11}",
+          r"{1, 3, 5, 7, 9, 11, 13, 15}",
+          r"{1, 2, 3, 5, 6, 7, 10, 11, 12, 15}",
+          r"{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -5603,10 +5567,10 @@ final Map<String, QuizModel> beceQuizData = {
         question:
         "53. Which of the following is an infinite set?          (BECE 2018 Q3)",
         options: [
-          r"\{1, 2, \ldots, 5, 6, 7\}",
-          r"\{4, 6, 8, 10, 12\}",
-          r"\{2, 3, 5, 7, 11, \ldots\}",
-          r"\{3, 6, \ldots, 18, 21, \ldots, 33, 36\}",
+          r"{1, 2, ..., 5, 6, 7}",
+          r"{4, 6, 8, 10, 12}",
+          r"{2, 3, 5, 7, 11, ...}",
+          r"{3, 6, ...., 18, 21, ..., 33, 36}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -5631,12 +5595,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"55. Given that A = \{2, 4, 6, 8, 10\} and B = \{4, 8, 12\}, find A \cup B.          (BECE 2019 Q1)",
+        r"55. Given that A = {2, 4, 6, 8, 10} and B = {4, 8, 12}, find A \cup B.          (BECE 2019 Q1)",
         options: [
-          r"\{4, 8\}",
-          r"\{2, 8, 12\}",
-          r"\{4, 6, 8, 12\}",
-          r"\{2, 4, 6, 8, 10, 12\}",
+          r"{4, 8}",
+          r"{2, 8, 12}",
+          r"{4, 6, 8, 12}",
+          r"{2, 4, 6, 8, 10, 12}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
@@ -5648,10 +5612,10 @@ final Map<String, QuizModel> beceQuizData = {
         question:
         "56. Express 0.000344 in standard form.          (BECE 2019 Q2)",
         options: [
-          r"3.44 \times 10^{-6}",
-          r"3.44 \times 10^{-5}",
-          r"3.44 \times 10^{-4}",
-          r"3.44 \times 10^{-3}",
+          r"3.44 x 10^{-6}",
+          r"3.44 x 10^{-5}",
+          r"3.44 x 10^{-4}",
+          r"3.44 x 10^{-3}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
@@ -5678,10 +5642,10 @@ final Map<String, QuizModel> beceQuizData = {
         question:
         "58. Express 4382.93 in standard form.          (BECE 2020 Q3)",
         options: [
-          r"4382.93 \times 10^4",
-          r"43.8293 \times 10^2",
-          r"4.38293 \times 10^4",
-          r"4.38293 \times 10^3",
+          r"4382.93 x 10^4",
+          r"43.8293 x 10^2",
+          r"4.38293 x 10^4",
+          r"4.38293 x 10^3",
         ],
         correctIndex: 3,
         difficulty: "Easy",
@@ -5691,12 +5655,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"59. If P = \{7, 11, 13\} and Q = \{9, 11, 13\}, find P \cup Q.          (BECE 2020 Q40)",
+        r"59. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 2020 Q40)",
         options: [
-          r"\{7, 9, 11, 13\}",
-          r"\{7, 9\}",
-          r"\{11, 13\}",
-          r"\{9, 13\}",
+          r"{7, 9, 11, 13}",
+          r"{7, 9}",
+          r"{11, 13}",
+          r"{9, 13}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
@@ -5706,7 +5670,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"60. If P = \{4, 8, 12, 16, 20\}, Q = \{16, 4, 12, k, 20\} and P = Q, find the value of k.          (BECE 2021 Q28)",
+        r"60. If P = {4, 8, 12, 16, 20}, Q = {16, 4, 12, k, 20} and P = Q, find the value of k.          (BECE 2021 Q28)",
         options: [
           "20",
           "16",
@@ -5736,7 +5700,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"62. Given that P = \{4, 8, 12, 16, 20\} and Q = \{2, 4, 6, 8, 10\}, find the product of the members of P \cap Q.          (BECE 2025 Q37)",
+        r"62. Given that P = {4, 8, 12, 16, 20} and Q = {2, 4, 6, 8, 10}, find the product of the members of P \cap Q.          (BECE 2025 Q37)",
         options: [
           "12",
           "18",
@@ -5747,6 +5711,646 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Medium",
         explanation:
         r"The common members are P \cap Q = \{4, 8\}. Their product is 4 \times 8 = 32.",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss2 - Number Operations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. If n^2 + 1 = 50, find n.          (BECE 1998 Q7)",
+        options: [
+          "7",
+          "24.5",
+          "25",
+          "49",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Subtract 1 from both sides: n^2 = 49. Therefore, n = 7, which is the value among the options.",
+      ),
+      QuizQuestion(
+        question:
+        r"2. Simplify 15^9 \div 15^7.          (BECE 1994 Q10)",
+        options: [
+          "30",
+          "63",
+          "225",
+          "244",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"When dividing powers with the same base, subtract the indices: 15^9 \div 15^7 = 15^{9-7} = 15^2 = 225.",
+      ),
+      QuizQuestion(
+        question:
+        r"3. Evaluate \frac{0.63 \times 0.70}{9.00}.          (BECE 1998 Q8)",
+        options: [
+          "0.0049",
+          "0.049",
+          "0.49",
+          "4.9",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"First, 0.63 \times 0.70 = 0.441. Then 0.441 \div 9 = 0.049.",
+      ),
+      QuizQuestion(
+        question:
+        r"4. If a = 2^2 \times 2^3 \times 2^4, find the value of a.          (BECE 1990 Q13)",
+        options: [
+          r"2^9",
+          r"2^5",
+          r"2^2",
+          "2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"When multiplying powers with the same base, add the indices: 2^2 \times 2^3 \times 2^4 = 2^{2+3+4} = 2^9.",
+      ),
+      QuizQuestion(
+        question:
+        r"5. Find the set of integers within the interval -2 < x < 2.          (BECE 2003 Q26)",
+        options: [
+          r"{-2, -1, 2}",
+          r"{-2, -1, 0}",
+          r"{-1, 0, 1}",
+          r"{-1, 1, 2}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The integers greater than -2 and less than 2 are -1, 0 and 1.",
+      ),
+      QuizQuestion(
+        question:
+        r"6. What is the value of x in the relation 5^x = 125?          (BECE 1995 Q18)",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Since 125 = 5^3, it follows that x = 3.",
+      ),
+      QuizQuestion(
+        question:
+        r"7. Simplify 2 x 3^2 x 3^4.          (BECE 1999 Q13)",
+        options: [
+          r"2 x 3^5",
+          r"2 x 3^6",
+          r"2 x 3^8",
+          r"2 x 9^6",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Add the indices of the powers with base 3: 3^2 \times 3^4 = 3^6. Therefore, the expression is 2 \times 3^6.",
+      ),
+      QuizQuestion(
+        question:
+        r"8. If a^6 \div a^4 = 64, find a.          (BECE 1991 Q23)",
+        options: [
+          "8",
+          "10",
+          "16",
+          "20",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Simplify the left side: a^6 \div a^4 = a^2. Thus, a^2 = 64, so a = 8 among the given options.",
+      ),
+      QuizQuestion(
+        question:
+        "9. The least number in a set of real numbers is 24 and the greatest is 30. Which of the following is the correct interpretation of the statement?          (BECE 1990 Q36)",
+        options: [
+          r"24 \leq x \leq 30",
+          r"24 < x \leq 30",
+          r"23 < x < 29",
+          r"24 < x < 30",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Since 24 and 30 are included as the least and greatest values, the interval is 24 \leq x \leq 30.",
+      ),
+      QuizQuestion(
+        question:
+        r"10. List all members of the set {x : 2 < x < 8, x is an integer}.          (BECE 1995 Q28)",
+        options: [
+          r"{3, 4, 5, 6, 7}",
+          r"{2, 3, 4, 5, 6, 7, 8}",
+          r"{2, 2\frac{1}{2}, 3, 4, 5, 6, 7, 8}",
+          r"{3, 3\frac{1}{2}, 4, 4\frac{1}{2}, 5, 5\frac{1}{2}, 6, 6\frac{1}{2}, 7}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The integers greater than 2 and less than 8 are 3, 4, 5, 6 and 7.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. Evaluate \frac{0.036}{0.02}.          (BECE 2004 Q3)",
+        options: [
+          "0.018",
+          "0.18",
+          "1.8",
+          "18.0",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Dividing 0.036 by 0.02 gives 1.8.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. Simplify 0.1 x 0.02 x 0.003, leaving your answer in standard form.          (BECE 2002B Q2)",
+        options: [
+          r"6 x 10^{-7}",
+          r"6 x 10^{-6}",
+          r"6 x 10^5",
+          r"6 x 10^6",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"0.1 \times 0.02 \times 0.003 = 0.000006 = 6 \times 10^{-6}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Simplify \frac{6^2}{2^2 x 3}.          (BECE 1996 Q20)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "6",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"6^2 = 36 and 2^2 \times 3 = 4 \times 3 = 12. Therefore, 36 \div 12 = 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. Simplify 2^8 \div 2^3.          (BECE 2002B Q6)",
+        options: [
+          r"2^{24}",
+          r"2^{10}",
+          r"2^5",
+          r"2^3",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"When dividing powers with the same base, subtract the indices: 2^8 \div 2^3 = 2^{8-3} = 2^5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. Simplify \frac{0.12 \times 0.08}{2.40}.          (BECE 2000 Q12)",
+        options: [
+          "0.4",
+          "0.04",
+          "0.004",
+          "0.0004",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"First, 0.12 \times 0.08 = 0.0096. Then 0.0096 \div 2.40 = 0.004.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. Find the value of M given that M = (3^6 \div 3^4) \times 27.          (BECE 1994 Q19)",
+        options: [
+          r"3^1",
+          r"3^2",
+          r"3^5",
+          r"3^6",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"3^6 \div 3^4 = 3^2 and 27 = 3^3. Therefore, M = 3^2 \times 3^3 = 3^5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. Find the integers within the interval 5 < x < 9.          (BECE 1999 Q9)",
+        options: [
+          r"\{5, 6, 7\}",
+          r"\{5, 6, 7, 8\}",
+          r"\{5, 6, 7, 8, 9\}",
+          r"\{6, 7, 8\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The integers greater than 5 and less than 9 are 6, 7 and 8.",
+      ),
+
+      QuizQuestion(
+        question:
+        "18. Calculate, correct to two decimal places, 0.61 ÷ 0.8.          (BECE 1999 Q10)",
+        options: [
+          "0.07",
+          "0.08",
+          "0.76",
+          "0.83",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "0.61 ÷ 0.8 = 0.7625. Correct to two decimal places, this is 0.76.",
+      ),
+
+      QuizQuestion(
+        question:
+        "19. Evaluate 0.25 × 0.06, correct to three decimal places.          (BECE 2001 Q9)",
+        options: [
+          "0.001",
+          "0.002",
+          "0.015",
+          "0.075",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "0.25 × 0.06 = 0.015, which is already written to three decimal places.",
+      ),
+
+      QuizQuestion(
+        question:
+        "20. If 7.2 and 7.9 are two points on a number line, find the number in the middle of these points.          (BECE 2003 Q4)",
+        options: [
+          "7.35",
+          "7.45",
+          "7.55",
+          "7.65",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The midpoint is the average of the two numbers: (7.2 + 7.9) ÷ 2 = 15.1 ÷ 2 = 7.55.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. Simplify \frac{2^{10} \times 3^2}{3^6 \times 2^8}.          (BECE 2004 Q9)",
+        options: [
+          r"\frac{2^2}{3^4}",
+          r"\frac{3^4}{2^2}",
+          r"3^3 \times 2^4",
+          r"\frac{2^4}{3^4}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Subtract the indices of like bases: 2^{10-8} = 2^2 and 3^{2-6} = \frac{1}{3^4}. Therefore, the result is \frac{2^2}{3^4}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. If n^2 + 4 = 40, find n.          (BECE 2004 Q33)",
+        options: [
+          "6",
+          "18",
+          "22",
+          "44",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Subtract 4 from both sides: n^2 = 36. Therefore, n = 6, which is the value among the options.",
+      ),
+
+      QuizQuestion(
+        question:
+        "23. Multiply 0.014 by 0.2.          (BECE 2005 Q3)",
+        options: [
+          "0.00028",
+          "0.0028",
+          "0.028",
+          "0.28",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "0.014 × 0.2 = 0.0028.",
+      ),
+
+      QuizQuestion(
+        question:
+        "24. Simplify 348.94 - 188.34.          (BECE 1995 Q29)",
+        options: [
+          "60.60",
+          "60.68",
+          "160.60",
+          "200.60",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Subtracting gives 348.94 - 188.34 = 160.60.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"25. If 2^{2x} = 8, what is the value of x?          (BECE 1996 Q10)",
+        options: [
+          r"\frac{2}{3}",
+          "1",
+          r"\frac{3}{2}",
+          "2",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Since 8 = 2^3, equate the indices: 2x = 3. Therefore, x = \frac{3}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "26. Express the product 162.5 × 0.5 in standard form.          (BECE 1996 Q30)",
+        options: [
+          r"81.25 \times 10^{-1}",
+          r"81.25 \times 10",
+          r"8.125 \times 10^{-1}",
+          r"8.125 \times 10",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"162.5 \times 0.5 = 81.25. In standard form, 81.25 = 8.125 \times 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"27. Simplify \frac{0.24 \times 14.3}{5.2}.          (BECE 1996 Q32)",
+        options: [
+          "66",
+          "6.60",
+          "0.70",
+          "0.66",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"0.24 \times 14.3 = 3.432, and 3.432 \div 5.2 = 0.66.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"28. Evaluate \frac{1}{2}\{(4 - 1) - (5 - 6)\}.          (BECE 1998 Q3)",
+        options: [
+          "-4",
+          "1.0",
+          "2.0",
+          "3.0",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"(4 - 1) = 3 and (5 - 6) = -1. Therefore, \frac{1}{2}\{3 - (-1)\} = \frac{1}{2} \times 4 = 2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"29. How many integers are within the interval -5 < x < 7?          (BECE 2015 Q8)",
+        options: [
+          "10",
+          "11",
+          "12",
+          "13",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The integers are -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 and 6. There are 11 integers.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"30. What is the value of x if 10^x = 1000?          (BECE 2015 Q15)",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Since 1000 = 10^3, it follows that x = 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"31. Simplify 5^2 \times 2^2 \times 5^2 \times 2.          (BECE 2016 Q15)",
+        options: [
+          r"2^2 \times 5^2",
+          r"2^2 \times 5^4",
+          r"2^3 \times 5^2",
+          r"2^3 \times 5^4",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Combine powers with the same base: 5^2 \times 5^2 = 5^4 and 2^2 \times 2 = 2^3. Therefore, the result is 2^3 \times 5^4.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"32. Evaluate \frac{0.0049}{0.041}.          (BECE 2017 Q11)",
+        options: [
+          "0.012",
+          "0.12",
+          "1.2",
+          "12.0",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"0.0049 \div 0.041 is approximately 0.12.",
+      ),
+
+      QuizQuestion(
+        question:
+        "33. Divide 64.5 by 0.015, leaving your answer in standard form.          (BECE 2017 Q27)",
+        options: [
+          r"4.3 \times 10^4",
+          r"4.3 \times 10^3",
+          r"4.3 \times 10^2",
+          r"4.3 \times 10",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"64.5 \div 0.015 = 4300. In standard form, 4300 = 4.3 \times 10^3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"34. If P = \{x : x \text{ is an even number greater than two and less than or equal to twelve}\}, list the members of P.          (BECE 2018 Q2)",
+        options: [
+          r"\{2, 4, 6, 8, 10, 12\}",
+          r"\{3, 4, 6, 8, 10, 12\}",
+          r"\{2, 4, 6, 8, 10\}",
+          r"\{4, 6, 8, 10, 12\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The even numbers greater than 2 and less than or equal to 12 are 4, 6, 8, 10 and 12.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"35. Simplify 16^2 \times 8^2.          (BECE 2018 Q26)",
+        options: [
+          r"2^{10}",
+          r"2^{14}",
+          r"2^{15}",
+          r"2^{16}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Since 16 = 2^4 and 8 = 2^3, 16^2 \times 8^2 = 2^8 \times 2^6 = 2^{14}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"36. Simplify (7^5 \times 7^3) \div 7^6.          (BECE 2019 Q5)",
+        options: [
+          r"7^9",
+          r"7^4",
+          r"7^3",
+          r"7^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Add the indices in the numerator and subtract the denominator's index: 7^{5+3-6} = 7^2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"37. Evaluate (0.07 \times 0.02) \div 14.          (BECE 2019 Q33)",
+        options: [
+          "0.01",
+          "0.001",
+          "0.0001",
+          "0.00001",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "0.07 × 0.02 = 0.0014, and 0.0014 ÷ 14 = 0.0001.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"38. If (x - 3)^2 = 16, find the positive value of x.          (BECE 2020 Q12)",
+        options: [
+          "1",
+          "3",
+          "4",
+          "7",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Taking square roots gives x - 3 = \pm 4. Thus, x = 7 or x = -1. The positive value is 7.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"39. Solve 4^x = 32.          (BECE 2020 Q29)",
+        options: [
+          r"2\frac{1}{2}",
+          r"3\frac{1}{2}",
+          "5",
+          "7",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Write both sides as powers of 2: 4^x = 2^{2x} and 32 = 2^5. Thus, 2x = 5, so x = \frac{5}{2} = 2\frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"40. Simplify 2^2 \times 2^7 \div 2^4.          (BECE 2020 Q39)",
+        options: [
+          r"2^{-1}",
+          r"2^5",
+          r"2^{11}",
+          r"2^{13}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Add the indices when multiplying and subtract when dividing: 2^{2+7-4} = 2^5.",
+      ),
+
+      QuizQuestion(
+        question:
+        "41. Divide 0.5445 by 0.09.          (BECE 2021 Q23)",
+        options: [
+          "5.05",
+          "6.05",
+          "6.50",
+          "60.50",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "0.5445 ÷ 0.09 = 6.05.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"42. Simplify \frac{5^7 \times 5^4}{5^3}.          (BECE 2023 Q39)",
+        options: [
+          "0",
+          "25",
+          "1",
+          "5",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Using the laws of indices gives 5^{7+4-3} = 5^8. However, 5^8 is not among the supplied options. The original question or options appear to contain an error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"43. Solve 2^x = 8 \times 2^0.          (BECE 2025 Q17)",
+        options: [
+          r"x = 3",
+          r"x = 2",
+          r"x = -2",
+          r"x = -3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Since 2^0 = 1, the right side is 8. Also, 8 = 2^3. Therefore, x = 3.",
       ),
     ],
   ),
