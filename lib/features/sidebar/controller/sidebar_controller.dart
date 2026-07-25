@@ -69,19 +69,20 @@ class SidebarController extends GetxController {
               .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
               .toList();
 
-          final hasGetReady = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
+          final hasGetReady = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
           final hasLearn = lessonProgress.any((p) =>
               p.activityType.toLowerCase() == 'learn' &&
               p.subActivity ==
                   'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
               p.isCompleted);
-          final hasPractice = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'guided_practice' && p.isCompleted);
-          final hasIndependent = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'independent' && p.isCompleted);
-          final hasQuiz = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
+          final hasPractice = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'guided_practice' &&
+              p.isCompleted);
+          final hasIndependent = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'independent' && p.isCompleted);
+          final hasQuiz = lessonProgress.any(
+              (p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
           if (hasGetReady &&
               hasLearn &&
@@ -165,19 +166,21 @@ class SidebarController extends GetxController {
                       (p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
                   .toList();
 
-              final hasGetReady = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
+              final hasGetReady = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
               final hasLearn = lessonProgress.any((p) =>
                   p.activityType.toLowerCase() == 'learn' &&
                   p.subActivity ==
                       'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
                   p.isCompleted);
-              final hasPractice = lessonProgress.any(
-                  (p) => p.activityType.toLowerCase() == 'guided_practice' && p.isCompleted);
-              final hasIndependent = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'independent' && p.isCompleted);
-              final hasQuiz = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
+              final hasPractice = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'guided_practice' &&
+                  p.isCompleted);
+              final hasIndependent = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'independent' &&
+                  p.isCompleted);
+              final hasQuiz = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
               if (hasGetReady &&
                   hasLearn &&
@@ -428,10 +431,13 @@ class SidebarController extends GetxController {
 
               // Filter for each activity type (case-insensitive check for safety)
               final getReadyProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted)
+                  .where((p) =>
+                      p.activityType.toLowerCase() == 'get_ready' &&
+                      p.isCompleted)
                   .toList();
               final learnProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'learn' && p.isCompleted)
+                  .where((p) =>
+                      p.activityType.toLowerCase() == 'learn' && p.isCompleted)
                   .toList();
 
               ActivityProgress? practice;
@@ -8497,7 +8503,8 @@ class SidebarController extends GetxController {
           final String gradeClean = grade.replaceAll(' ', '');
           final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
-          final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim();
+          final String normalizedSubStrandTitle =
+              normalSubStrand.subtitle.trim();
 
           // Subject name aliases
           final List<String> subjectAliases = [
@@ -8521,8 +8528,7 @@ class SidebarController extends GetxController {
           // Required key format: "[Subject] [Grade] s[N] ss[M] - [Name]"
           final List<String> candidatePrefixes = [
             for (final alias in subjectAliases)
-              for (final gp in gradeStrandSsPatterns)
-                "$alias $gp",
+              for (final gp in gradeStrandSsPatterns) "$alias $gp",
           ];
 
           // Exact match fallbacks using default sub-strand title
@@ -8583,7 +8589,8 @@ class SidebarController extends GetxController {
 
           // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          final String rawKey = matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          final String rawKey =
+              matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
           if (rawKey.isNotEmpty) {
             if (rawKey.contains(" - ")) {
               displaySubStrandName = rawKey.split(" - ").last.trim();

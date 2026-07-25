@@ -5789,7 +5789,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
       QuizQuestion(
         question:
-        r"6. What is the value of x in the relation 5^x = 125?          (BECE 1995 Q18)",
+        r"6. What is the value of x in the relation 5^{\times} = 125?          (BECE 1995 Q18)",
         options: [
           "2",
           "3",
@@ -5857,7 +5857,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"The integers greater than 2 and less than 8 are 3, 4, 5, 6 and 7.",
       ),
-
       QuizQuestion(
         question:
         r"11. Evaluate \frac{0.036}{0.02}.          (BECE 2004 Q3)",
@@ -5872,7 +5871,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Dividing 0.036 by 0.02 gives 1.8.",
       ),
-
       QuizQuestion(
         question:
         r"12. Simplify 0.1 x 0.02 x 0.003, leaving your answer in standard form.          (BECE 2002B Q2)",
@@ -5890,7 +5888,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"13. Simplify \frac{6^2}{2^2 x 3}.          (BECE 1996 Q20)",
+        r"13. Simplify \frac{6^2}{2^2 \times 3}.          (BECE 1996 Q20)",
         options: [
           "1",
           "2",
@@ -5947,7 +5945,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"3^6 \div 3^4 = 3^2 and 27 = 3^3. Therefore, M = 3^2 \times 3^3 = 3^5.",
       ),
-
       QuizQuestion(
         question:
         r"17. Find the integers within the interval 5 < x < 9.          (BECE 1999 Q9)",
@@ -5962,7 +5959,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"The integers greater than 5 and less than 9 are 6, 7 and 8.",
       ),
-
       QuizQuestion(
         question:
         "18. Calculate, correct to two decimal places, 0.61 ÷ 0.8.          (BECE 1999 Q10)",
@@ -5977,7 +5973,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "0.61 ÷ 0.8 = 0.7625. Correct to two decimal places, this is 0.76.",
       ),
-
       QuizQuestion(
         question:
         "19. Evaluate 0.25 × 0.06, correct to three decimal places.          (BECE 2001 Q9)",
@@ -5992,7 +5987,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "0.25 × 0.06 = 0.015, which is already written to three decimal places.",
       ),
-
       QuizQuestion(
         question:
         "20. If 7.2 and 7.9 are two points on a number line, find the number in the middle of these points.          (BECE 2003 Q4)",
@@ -6007,7 +6001,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "The midpoint is the average of the two numbers: (7.2 + 7.9) ÷ 2 = 15.1 ÷ 2 = 7.55.",
       ),
-
       QuizQuestion(
         question:
         r"21. Simplify \frac{2^{10} \times 3^2}{3^6 \times 2^8}.          (BECE 2004 Q9)",
@@ -6022,7 +6015,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Subtract the indices of like bases: 2^{10-8} = 2^2 and 3^{2-6} = \frac{1}{3^4}. Therefore, the result is \frac{2^2}{3^4}.",
       ),
-
       QuizQuestion(
         question:
         r"22. If n^2 + 4 = 40, find n.          (BECE 2004 Q33)",
@@ -6037,7 +6029,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         r"Subtract 4 from both sides: n^2 = 36. Therefore, n = 6, which is the value among the options.",
       ),
-
       QuizQuestion(
         question:
         "23. Multiply 0.014 by 0.2.          (BECE 2005 Q3)",
@@ -6052,7 +6043,6 @@ final Map<String, QuizModel> beceQuizData = {
         explanation:
         "0.014 × 0.2 = 0.0028.",
       ),
-
       QuizQuestion(
         question:
         "24. Simplify 348.94 - 188.34.          (BECE 1995 Q29)",
@@ -6070,7 +6060,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"25. If 2^{2x} = 8, what is the value of x?          (BECE 1996 Q10)",
+        r"25. If 2^{2\times} = 8, what is the value of x?          (BECE 1996 Q10)",
         options: [
           r"\frac{2}{3}",
           "1",
@@ -6205,12 +6195,12 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"34. If P = \{x : x \text{ is an even number greater than two and less than or equal to twelve}\}, list the members of P.          (BECE 2018 Q2)",
+        r"34. If P = {x : x is an even number greater than two and less than or equal to twelve}, list the members of P.          (BECE 2018 Q2)",
         options: [
-          r"\{2, 4, 6, 8, 10, 12\}",
-          r"\{3, 4, 6, 8, 10, 12\}",
-          r"\{2, 4, 6, 8, 10\}",
-          r"\{4, 6, 8, 10, 12\}",
+          r"{2, 4, 6, 8, 10, 12}",
+          r"{3, 4, 6, 8, 10, 12}",
+          r"{2, 4, 6, 8, 10}",
+          r"{4, 6, 8, 10, 12}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
@@ -6280,7 +6270,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"39. Solve 4^x = 32.          (BECE 2020 Q29)",
+        r"39. Solve 4^{\times} = 32.          (BECE 2020 Q29)",
         options: [
           r"2\frac{1}{2}",
           r"3\frac{1}{2}",
@@ -6340,7 +6330,7 @@ final Map<String, QuizModel> beceQuizData = {
 
       QuizQuestion(
         question:
-        r"43. Solve 2^x = 8 \times 2^0.          (BECE 2025 Q17)",
+        r"43. Solve 2^{\times} = 8 \times 2^0.          (BECE 2025 Q17)",
         options: [
           r"x = 3",
           r"x = 2",

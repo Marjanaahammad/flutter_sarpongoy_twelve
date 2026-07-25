@@ -498,6 +498,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                       : MathStyle.text,
                   textStyle: style.copyWith(
                     fontSize: (style.fontSize ?? 16) * 1.2,
+                    fontWeight: FontWeight.normal,
                   ),
                 ),
               ),
@@ -532,6 +533,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                         : MathStyle.text,
                     textStyle: style.copyWith(
                       fontSize: (style.fontSize ?? 16) * 1.2,
+                      fontWeight: FontWeight.normal,
                     ),
                   ),
                 ),

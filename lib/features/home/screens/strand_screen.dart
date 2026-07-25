@@ -706,27 +706,12 @@ class StrandScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     _buildDoneRow(lesson.quizDoneDate!),
-                    if (lesson.quizOriginalScore != null)
-                      Row(
-                        children: [
-                          Text(
-                            "First Attempt : ",
-                            style: const TextStyle(
-                                fontSize: 15, color: Colors.black),
-                          ),
-                          Text(
-                            _formatScore(lesson.quizOriginalScore),
-                            style: const TextStyle(
-                                fontSize: 15, color: Color(0xFF3E3C3C)),
-                          ),
-                        ],
-                      ),
                     if (lesson.quizScore != null)
                       Row(
                         children: [
-                          Text(
+                          const Text(
                             "Latest Score : ",
-                            style: const TextStyle(
+                            style: TextStyle(
                                 fontSize: 15, color: Colors.black),
                           ),
                           Text(

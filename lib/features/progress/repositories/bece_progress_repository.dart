@@ -31,11 +31,16 @@ class BeceProgressRepository {
         subStrandName: progress.subStrandName,
         gradeName: progress.gradeName,
         activityType: progress.activityType,
-        firstAttemptScore: existingRecord.firstAttemptScore ?? progress.firstAttemptScore,
-        lastAttemptScore: progress.lastAttemptScore ?? existingRecord.lastAttemptScore,
-        totalQuestions: progress.totalQuestions ?? existingRecord.totalQuestions,
-        lastQuestionIndex: progress.lastQuestionIndex ?? existingRecord.lastQuestionIndex,
-        userAnswersJson: progress.userAnswersJson ?? existingRecord.userAnswersJson,
+        firstAttemptScore:
+            existingRecord.firstAttemptScore ?? progress.firstAttemptScore,
+        lastAttemptScore:
+            progress.lastAttemptScore ?? existingRecord.lastAttemptScore,
+        totalQuestions:
+            progress.totalQuestions ?? existingRecord.totalQuestions,
+        lastQuestionIndex:
+            progress.lastQuestionIndex ?? existingRecord.lastQuestionIndex,
+        userAnswersJson:
+            progress.userAnswersJson ?? existingRecord.userAnswersJson,
         doneDate: progress.doneDate,
       );
 

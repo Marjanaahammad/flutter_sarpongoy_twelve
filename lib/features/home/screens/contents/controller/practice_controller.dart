@@ -77,9 +77,13 @@ class PracticeController extends GetxController {
           activityType: 'theory',
         );
         if (progress != null && progress.lastQuestionIndex != null) {
-          if (progress.lastQuestionIndex! < questions.length) {
+          if (progress.lastQuestionIndex! >= questions.length) {
+            currentQuestionIndex.value = 0;
+          } else {
             currentQuestionIndex.value = progress.lastQuestionIndex!;
           }
+        } else {
+          currentQuestionIndex.value = 0;
         }
       } catch (e) {
         debugPrint("Error loading BECE theory progress: $e");

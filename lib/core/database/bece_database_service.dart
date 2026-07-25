@@ -50,8 +50,10 @@ class BeceDatabaseService {
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     if (oldVersion < 2) {
-      await db.execute('ALTER TABLE bece_progress ADD COLUMN last_question_index INTEGER');
-      await db.execute('ALTER TABLE bece_progress ADD COLUMN user_answers_json TEXT');
+      await db.execute(
+          'ALTER TABLE bece_progress ADD COLUMN last_question_index INTEGER');
+      await db.execute(
+          'ALTER TABLE bece_progress ADD COLUMN user_answers_json TEXT');
       DPrint.info('BECE progress database upgraded to v2');
     }
   }

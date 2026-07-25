@@ -77,21 +77,38 @@ class QuizController extends GetxController {
           activityType: 'objectives',
         );
         if (progress != null) {
-          if (progress.userAnswersJson != null && progress.userAnswersJson!.isNotEmpty) {
-            try {
-              final Map<String, dynamic> decoded = json.decode(progress.userAnswersJson!);
-              userAnswers.clear();
-              decoded.forEach((key, val) {
-                userAnswers[int.parse(key)] = val as int;
-              });
-            } catch (e) {
-              debugPrint("Error parsing userAnswersJson: $e");
+          if (progress.lastQuestionIndex != null &&
+              progress.lastQuestionIndex! >= questions.length) {
+            // Already completed previously; start fresh for re-attempt
+            currentQuestionIndex.value = 0;
+            userAnswers.clear();
+            selectedOptionIndex.value = -1;
+            showNextButton.value = false;
+          } else {
+            if (progress.userAnswersJson != null &&
+                progress.userAnswersJson!.isNotEmpty) {
+              try {
+                final Map<String, dynamic> decoded =
+                    json.decode(progress.userAnswersJson!);
+                userAnswers.clear();
+                decoded.forEach((key, val) {
+                  userAnswers[int.parse(key)] = val as int;
+                });
+              } catch (e) {
+                debugPrint("Error parsing userAnswersJson: $e");
+              }
             }
+            if (progress.lastQuestionIndex != null &&
+                progress.lastQuestionIndex! < questions.length) {
+              currentQuestionIndex.value = progress.lastQuestionIndex!;
+            }
+            resetQuestionState();
           }
-          if (progress.lastQuestionIndex != null && progress.lastQuestionIndex! < questions.length) {
-            currentQuestionIndex.value = progress.lastQuestionIndex!;
-          }
-          resetQuestionState();
+        } else {
+          currentQuestionIndex.value = 0;
+          userAnswers.clear();
+          selectedOptionIndex.value = -1;
+          showNextButton.value = false;
         }
       } catch (e) {
         debugPrint("Error loading BECE objectives progress: $e");
@@ -126,7 +143,8 @@ class QuizController extends GetxController {
     if (!isBece) return;
     try {
       final beceRepo = Get.find<BeceProgressRepository>();
-      final userAnswersMap = userAnswers.map((k, v) => MapEntry(k.toString(), v));
+      final userAnswersMap =
+          userAnswers.map((k, v) => MapEntry(k.toString(), v));
       final progress = BeceProgress(
         courseName: courseName ?? "",
         strandName: strandName ?? "",
@@ -206,7 +224,8 @@ class QuizController extends GetxController {
         activityType: 'objectives',
       );
 
-      final userAnswersMap = userAnswers.map((k, v) => MapEntry(k.toString(), v));
+      final userAnswersMap =
+          userAnswers.map((k, v) => MapEntry(k.toString(), v));
       final progress = BeceProgress(
         courseName: courseName ?? "",
         strandName: strandName ?? "",

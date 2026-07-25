@@ -1971,158 +1971,484 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: a) List the members of each of the following sets:\n"
-            "LB = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
-            "(i) B ∩ D\n"
-            "(ii) B ∪ D\n"
-            "(BECE 1990 Q1a)",
-        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing set B\n"
-            "The whole numbers starting comprehensively from 20 up to and including 30 are:\n"
-            "B = {20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}\n\n"
-            "⦿ Step 2: Listing set D\n"
-            "Find all clean positive integers that divide 63 perfectly without leaving any remainder:\n"
-            "D = {1, 3, 7, 9, 21, 63}\n\n"
-            "⦿ Step 3: Finding the Intersection (B ∩ D)\n"
-            "⦁ Identify values common to both lists. The only number matching both sets is 21.\n"
-            "**Answer i:** B ∩ D = {21}\n\n"
-            "⦿ Step 4: Finding the Union (B ∪ D)\n"
-            "⦁ Combine every unique element present across both groups sorted sequentially:\n"
-            "**Answer ii:** B ∪ D = {1, 3, 7, 9, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 63}\n\n",
+        r"Question 1: Evaluate \frac{0.07 \times 0.6}{0.014 \times 0.03}, leaving your answer in standard form."
+        "\n"
+        "BECE 2001 Q5b)",
+        answer:
+        "Correct Answer: \n"
+            "⦿ First, convert all decimal numbers into standard fractions or scientific notation forms to make cancellation straightforward:\n"
+        r"0.07 = 7 \times 10^{-2}"
+        "\n"
+        r"0.6 = 6 \times 10^{-1}"
+        "\n"
+        r"0.014 = 14 \times 10^{-3}"
+        "\n"
+        r"0.03 = 3 \times 10^{-2}"
+        "\n\n"
+            "⦿ Substitute these values into the original expression:\n"
+        r"\frac{(7 \times 10^{-2}) \times (6 \times 10^{-1})}{(14 \times 10^{-3}) \times (3 \times 10^{-2})}"
+        "\n\n"
+            "⦿ Group the whole numbers together and the powers of 10 together:\n"
+        r"\frac{7 \times 6}{14 \times 3} \times \frac{10^{-2} \times 10^{-1}}{10^{-3} \times 10^{-2}}"
+        "\n\n"
+            "⦿ Simplify the whole number part:\n"
+        r"\frac{42}{42} = 1"
+        "\n\n"
+            "⦿ Simplify the index parts by adding the exponents in the numerator and the denominator:\n"
+        "Numerator: 10^{-2+(-1)} = 10^{-3}"
+        "\n"
+        r"Denominator: 10^{-3+(-2)} = 10^{-5}"
+        "\n\n"
+        r"⦿ Apply the division law of indices (10^{-3} \div 10^{-5} = 10^{-3-(-5)}):"
+        "\n"
+        r"10^{-3+5} = 10^2"
+        "\n\n"
+            "⦿ Combine the results to state the final answer clearly in standard form:\n"
+        r"1.0 \times 10^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
-            "(i) List the members of X and Y.\n"
-            "(ii) List the members of X ∩ Y and X ∪ Y.\n"
-            "(BECE 1991 Q1a)",
-        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing Prime elements of X\n"
-            "Prime numbers are numbers strictly greater than 1 possessing exactly two factors (1 and itself). Primes below 13 are:\n"
-            "X = {2, 3, 5, 7, 11}\n\n"
-            "⦿ Step 2: Listing Odd integers of Y\n"
-            "Odd integers below 13 starting from 1 are:\n"
-            "Y = {1, 3, 5, 7, 9, 11}\n\n"
-            "⦿ Step 3: Finding X ∩ Y\n"
-            "⦁ Extract the matching values contained simultaneously inside both subsets:\n"
-            "**Answer i**: X ∩ Y = {3, 5, 7, 11}\n\n"
-            "⦿ Step 4: Finding X ∪ Y\n"
-            "⦁ Merge the members of both sets together seamlessly without any item duplicates:\n"
-            "**Answer ii**: X ∪ Y = {1, 2, 3, 5, 7, 9, 11}\n\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
-            "(BECE 2019 Q1a)",
-        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Write down members of set X\n"
-            "X = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}\n\n"
-            "⦿ Step 2: Write down multiples of 3 for set Y\n"
-            "List values produced by multiplying 3 by progressive positive integers within the boundary of 2 and 20:\n"
-            "Y = {3, 6, 9, 12, 15, 18}\n\n"
-            "⦿ Step 3: Find the intersection boundaries\n"
-            "Compare elements to isolate items that exist in both groups simultaneously:\n"
-            "The common numbers are 6, 9, and 12.\n"
-            "Answer: X ∩ Y = {6, 9, 12}\n\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
-            "(i) M ∪ N\n"
-            "(ii) M ∩ N\n"
-            "(BECE 2020 Q1a)",
-        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Enumerate Set M elements\n"
-            "Prime elements strictly between boundary limits 1 and 11 are:\n"
-            "M = {2, 3, 5, 7}\n\n"
-            "⦿ Step 2: Enumerate Set N factors\n"
-            "All precise whole numbers dividing 12 without any fraction remainder:\n"
-            "N = {1, 2, 3, 4, 6, 12}\n\n"
-            "⦿ Step 3: Calculate the Union (M ∪ N)\n"
-            "Join all elements from both domains sequentially:\n"
-            "Answer i: M ∪ N = {1, 2, 3, 4, 5, 6, 7, 12}\n\n"
-            "⦿ Step 4: Calculate the Intersection (M ∩ N)\n"
-            "Isolate common values shared directly by sets M and N:"
-            "Answer ii: M ∩ N = {2, 3}\n\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
-            "(i) List the members of P and Q.\n"
-            "(ii) Find:\n"
-            "(α) P ∩ Q\n"
-            "(β) n(P ∩ Q)\n"
-            "(γ) the Highest Common Factor of 36 and 54.\n"
-            "(BECE 2022 Q1a)",
-        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing the elements for P and Q\n"
-            "Factors of 36: P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
-        "Factors of 54: Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
-            "⦿ Step 2: Extracting intersection list (α)\n"
-            "Collect numbers appearing matching in both structural arrays:\n"
-            "QAnswer α: P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
-            "⦿ Step 3: Calculating cardinality size value (β)\n"
-            "Count the total count number of unique elements within the intersection group:\n"
-            "The intersection contains exactly 6 elements.\n"
-            "Answer β: n(P ∩ Q) = 6\n\n"
-            "⦿ Step 4: Isolating HCF value (γ)\n"
-            "Identify the maximum largest integer inside the mutual collection set {1, 2, 3, 6, 9, 18}, which evaluates directly to 18.\n"
-            "Answer γ: The Highest Common Factor (HCF) is 18.\n\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
-            "(i) A ∩ B\n"
-            "(ii) (A ∪ B) ∩ C\n"
-            "(iii) (A ∩ B) ∪ C\n"
-            "(BECE 2023 Q1a)",
-        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Define base sets correctly via text properties\n"
-            "Multiples of 3 below 12: A = {3, 6, 9}\n"
-            "Integers strictly falling inside 4 and 8 boundaries: B = {5, 6, 7}\n"
-            "Set C is explicitly given as: C = {4, 5, 7}\n\n"
-            "⦿ Step 2: Solve first parameter expression A ∩ B\n"
-            "Isolate mutual values existing concurrently in A and B. The value is 6.\n"
-            "Answer part 1: A ∩ B = {6}\n\n"
-            "⦿ Step 3: Solve second multi-operation block (A ∪ B) ∩ C\n"
-            "First combine A and B: A ∪ B = {3, 5, 6, 7, 9}\n"
-            "Intersect this compound set with base set C: {3, 5, 6, 7, 9} ∩ {4, 5, 7} = {5, 7}\n"
-            "Answer part 2: (A ∪ B) ∩ C = {5, 7}\n\n"
-            "⦿ Step 4: Solve third multi-operation block (A ∩ B) ∪ C\n"
-            "Take pre-calculated set intersection outcome {6} and perform full union with set C:\n"
-            "{6} ∪ {4, 5, 7} = {4, 5, 6, 7}\n"
-            "Answer part 3: (A ∩ B) ∪ C = {4, 5, 6, 7}\n\n",
+        r"Question 2: Simplify \frac{6.4 \times 0.25 \times 16}{0.8 \times 0.5} leaving your answer in standard form."
+        "\n"
+            "(BECE 2003 Q2b)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Convert the decimal components into standard scientific fractions to manage values reliably:\n"
+        r"6.4 = 64 \times 10^{-1}"
+        "\n"
+        r"0.25 = 25 \times 10^{-2}"
+        "\n"
+        r"0.8 = 8 \times 10^{-1}"
+        "\n"
+        r"0.5 = 5 \times 10^{-1}"
+        "\n\n"
+            "⦿ Rewrite the expression with these expanded powers:\n"
+        r"\frac{64 \times 10^{-1} \times 25 \times 10^{-2} \times 16}{8 \times 10^{-1} \times 5 \times 10^{-1}}"
+        "\n\n"
+            "⦿ Group the numbers and the powers of 10 separately:\n"
+        r"\frac{64 \times 25 \times 16}{8 \times 5} \times \frac{10^{-1} \times 10^{-2}}{10^{-1} \times 10^{-1}}"
+        "\n\n"
+            "⦿ Perform direct calculations and cancellations on the whole numbers:\n"
+        r"\frac{64}{8} = 8"
+        "\n\n"
+        r"\frac{25}{5} = 5"
+        "\n"
+        r"This leaves 8 \times 5 \times 16 = 40 \times 16 = 640"
+        "\n\n"
+            "⦿ Simplify the exponent components:\n"
+        r"Numerator index: 10^{-1+(-2)} = 10^{-3}"
+        "\n"
+        r"Denominator index: 10^{-1+(-1)} = 10^{-2}"
+        "\n"
+        r"Combined index using subtraction rules: 10^{-3-(-2)} = 10^{-3+2} = 10^{-1}"
+        "\n\n"
+            "⦿ Combine the simplified parts:\n"
+        r"640 \times 10^{-1} = 64"
+        "\n\n"
+            "⦿ Convert the final integer result into standard form layout:\n"
+        r"6.4 \times 10^1",
         explanation: "",
       ),
 
       PracticeQuestion(
         scenario:
-        "Question 7: Given that P = {multiples of 3} and Q = {positive even numbers} are subsets of μ = {x : 1 < x ≤ 20, where x is a counting number}:\n"
-            "(i) List the elements in P ∩ Q.\n"
-            "(ii) List all the subsets of P ∩ Q.\n"
-            "(BECE 2025 Q1a)",
-        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Determine universal space μ scope\n"
-            "μ consists of integers from 2 up to 20:\n"
-            "μ = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\n\n"
-            "⦿ Step 2: Find sets P and Q boundaries inside μ domain\n"
-            "Multiples of 3 inside range: P = {3, 6, 9, 12, 15, 18}\n"
-        "Even values inside range: Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
-            "⦿ Step 3: Identify common matching intersecting numbers (i)\n"
-            "Values shared across both listings are 6, 12, and 18.\n"
-            "Answer i: P ∩ Q = {6, 12, 18}\n\n"
-            "⦿ Step 4: Generate mathematical subset permutations list (ii)\n"
-            "A set with 3 elements yields exactly 2^3 = 8 complete subsets. They are structured accurately below:"
-        "1. Empty set: {}\n"
-        "2. Single-element subsets: {6}, {12}, {18}\n"
-        "3. Two-element subsets: {6, 12}, {6, 18}, {12, 18}\n"
-        "4. Full self set subset: {6, 12, 18}\n"
-            "Answer ii: Subsets = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n",
+        r"Question 3: Evaluate \frac{2^7 \times 3^4 \times 5^3}{2^3 \times 3^2 \times 5^2}, leaving your answer in standard form. "
+        "\n"
+            "(BECE 2010 Q3a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        r"⦿ Apply the quotient law of indices (\frac{a^m}{a^n} = a^{m-n}) to each base variable individually:"
+        "\n"
+        r"For base 2: 2^{7-3} = 2^4"
+        "\n"
+        r"For base 3: 3^{4-2} = 3^2"
+        "\n"
+        r"For base 5: 5^{3-2} = 5^1"
+        "\n\n"
+            "⦿ Set up the remaining basic multiplication problem:\n"
+        r"2^4 \times 3^2 \times 5^1"
+        "\n\n"
+            "⦿ Calculate the numerical values of each individual power component:\n"
+        r"2^4 = 16"
+        "\n"
+        r"3^2 = 9"
+        "\n"
+        r"5^1 = 5"
+        "\n\n"
+            "⦿ Multiply the evaluated values together step-by-step:\n"
+        r"16 \times 9 = 144"
+        "\n"
+        r"144 \times 5 = 720"
+        "\n\n"
+            "⦿ Convert the final integer value into clean, scientific standard form structure:\n"
+        r"7.20 \times 10^2",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 4: Evaluate \frac{0.035 \times 1.02}{0.00015}, leaving the answer in standard form."
+        "\n"
+            "(BECE 2012 Q1a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Convert each decimal cleanly into integer values multiplied by matching powers of 10:\n"
+        r"0.035 = 35 \times 10^{-3}"
+        "\n"
+        r"1.02 = 102 \times 10^{-2}"
+        "\n"
+        r"0.00015 = 15 \times 10^{-5}"
+        "\n\n"
+            "⦿ Substitute these configurations directly into the equation:\n"
+        r"\frac{35 \times 10^{-3} \times 102 \times 10^{-2}}{15 \times 10^{-5}}"
+        "\n\n"
+            "⦿ Reorganise the expression to process numbers and indices separately:\n"
+        r"\frac{35 \times 102}{15} \times \frac{10^{-3} \times 10^{-2}}{10^{-5}}"
+        "\n\n"
+            "⦿ Simplify the numerical fraction by dividing both 35 and 15 by their common factor of 5:\n"
+        r"\frac{35}{5} = 7"
+        "\n"
+        r"\frac{15}{5} = 3"
+        "\n"
+        r"This yields \frac{7 \times 102}{3}"
+        "\n\n"
+        r"⦿ Complete the remaining numerical division by calculating \frac{102}{3}:"
+        "\n"
+        r"\frac{102}{3} = 34"
+        "\n"
+        r"Multiply by the remaining factor: 7 \times 34 = 238"
+        "\n\n"
+            "⦿ Combine and evaluate the total indices component using fundamental index rules:\n"
+        r"Numerator index: 10^{-3+(-2)} = 10^{-5}"
+        "\n"
+        r"Denominator index: 10^{-5}"
+        "\n"
+        r"Division calculation: \frac{10^{-5}}{10^{-5}} = 10^{-5-(-5)} = 10^0 = 1"
+        "\n\n"
+            "⦿ Multiply the numeric result with the index evaluation:\n"
+        r"238 \times 1 = 238"
+        "\n\n"
+            "⦿ Shift the decimal position to display the final answer in scientific standard form:\n"
+        r"2.38 \times 10^2",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 5: Evaluate \frac{4.56 \times 3.6}{0.12} and leave your answer in standard form."
+        "\n"
+            "(BECE 2014 Q1c)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Restructure the decimal values into easier integer power formats:\n"
+        r"4.56 = 456 \times 10^{-2}"
+        "\n"
+        r"3.6 = 36 \times 10^{-1}"
+        "\n"
+        r"0.12 = 12 \times 10^{-2}"
+        "\n\n"
+            "⦿ Set up the calculation with the structured parts:\n"
+        r"\frac{456 \times 10^{-2} \times 36 \times 10^{-1}}{12 \times 10^{-2}}"
+        "\n\n"
+            "⦿ Isolate the coefficients away from the base-10 indices:\n"
+        r"\frac{456 \times 36}{12} \times \frac{10^{-2} \times 10^{-1}}{10^{-2}}"
+        "\n\n"
+            "⦿ Divide 36 by 12 inside the coefficient grouping to simplify the math:\n"
+        r"\frac{36}{12} = 3"
+        "\n"
+        r"Multiply the remaining values: 456 \times 3 = 1368"
+        "\n\n"
+            "⦿ Resolve the index powers using addition and subtraction rules:\n"
+        r"Cancel out the identical 10^{-2} terms present on both sides of the fraction."
+        "\n"
+        r"This leaves behind a single index multiplier value of 10^{-1}."
+        "\n\n"
+            "⦿ Bring both pieces back together:\n"
+        r"1368 \times 10^{-1} = 136.8"
+        "\n\n"
+            "⦿ Format the final output to follow standard scientific documentation criteria:\n"
+        r"1.368 \times 10^2",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 6: Find the difference between the product of 2.5 and 7.5 and the sum of 2.75 and 9.55.\n"
+            " (BECE 2015A Q1a)"
+            "",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        r"⦿ First, calculate the product of the first pair of numbers (2.5 \times 7.5):"
+        "\n"
+        r"Write out the multiplication: 2.5 \times 7.5 = 18.75"
+        "\n\n"
+        r"⦿ Next, determine the sum of the second pair of numbers (2.75 + 9.55):"
+        "\n"
+            "Align decimals and add: 2.75 + 9.55 = 12.30\n\n"
+            "⦿ Finally, subtract the calculated sum value from the initial product value to find the total difference:\n"
+            "18.75 - 12.30 = 6.45",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 7: Simplify \frac{0.084 \times 0.81}{0.027 \times 0.04}, leaving the answer in standard form. "
+        "\n"
+        "(BECE 2018 Q3a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Convert all individual decimal components into integers matched with appropriate power values:\n"
+        r"0.084 = 84 \times 10^{-3}"
+        "\n"
+        r"0.81 = 81 \times 10^{-2}"
+        "\n"
+        r"0.027 = 27 \times 10^{-3}"
+        "\n"
+        r"0.04 = 4 \times 10^{-2}"
+        "\n\n"
+            "⦿ Reassemble the fraction with these structured component parts:\n"
+        r"\frac{84 \times 10^{-3} \times 81 \times 10^{-2}}{27 \times 10^{-3} \times 4 \times 10^{-2}}"
+        "\n\n"
+            "⦿ Isolate the whole numbers away from the matching index power sets:\n"
+        r"\frac{84 \times 81}{27 \times 4} \times \frac{10^{-3} \times 10^{-2}}{10^{-3} \times 10^{-2}}"
+        "\n\n"
+            "⦿ Simplify the numbers through direct division and common factors:\n"
+        r"\frac{81}{27} = 3"
+        "\n"
+        r"\frac{84}{4} = 21"
+        "\n"
+        r"Multiply remaining terms: 21 \times 3 = 63"
+        "\n\n"
+            "⦿ Evaluate the matching exponent blocks:\n"
+        r"Since the numerator index expression (10^{-3} \times 10^{-2}) matches the denominator index expression perfectly, they cancel out to leave 10^0 = 1."
+        "\n\n"
+            "⦿ Combine the remaining components:\n"
+        r"63 \times 1 = 63"
+        "\n\n"
+            "⦿ Adjust the spacing layout format to meet standard scientific requirements:\n"
+        r"6.3 \times 10^1",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 8: Simplify: 32 \times 8 \times 4 \times 2, leaving the answer in the form 2^n. "
+        "\n"
+            "(BECE 2019 Q5b)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Express every integer value base in terms of prime base 2 components:\n"
+        r"32 = 2^5"
+        "\n"
+        r"8 = 2^3"
+        "\n"
+        r"4 = 2^2"
+        "\n"
+        r"2 = 2^1"
+        "\n\n"
+            "⦿ Rewrite the initial multiplication challenge using these matching base indices:\n"
+        r"2^5 \times 2^3 \times 2^2 \times 2^1"
+        "\n\n"
+        r"⦿ Apply the multiplication law of indices by adding all exponent numbers together (2^{m+n+p+q}):"
+        "\n"
+        r"2^{5+3+2+1}"
+        "\n\n"
+            "⦿ Calculate the total sum value inside the exponent position:\n"
+        r"2^{11}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 9: Simplify: 45 \div 3 + 2 \times 8 - 12 + 42. "
+        "\n"
+            "(BECE 2020 Q1b)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Apply order of operations rule hierarchy (BODMAS / PEMDAS) systematically across the line:\n"
+            "⦿ Step 1: Perform the division operation first:\n"
+        r"45 \div 3 = 15"
+        "\n\n"
+            "⦿ Step 2: Complete the multiplication step next:\n"
+        r"2 \times 8 = 16"
+        "\n\n"
+            "⦿ Update the line with these processed operational values:\n"
+            "15 + 16 - 12 + 42\n\n"
+            "⦿ Step 3: Work through the remaining addition steps:\n"
+            "15 + 16 = 31\n"
+            "31 + 42 = 73\n\n"
+            "⦿ Step 4: Execute the final subtraction step to finish:\n"
+            "73 - 12 = 61",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 10: Multiply 0.03858 by 0.03, leaving the answer in standard form."
+            "\n"
+            "(BECE 2020 Q4b)"
+            ,
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Isolate the base decimal values into whole scientific component sets:\n"
+        r"0.03858 = 3858 \times 10^{-5}"
+        "\n"
+        r"0.03 = 3 \times 10^{-2}"
+        "\n\n"
+            "⦿ Set up the calculation expression:\n"
+        r"(3858 \times 10^{-5}) \times (3 \times 10^{-2})"
+        "\n\n"
+            "⦿ Multiply the core integer figures together first:\n"
+        r"3858 \times 3 = 11574"
+        "\n\n"
+        r"⦿ Combine the exponent index values using addition rules (10^{-5+(-2)}):"
+        "\n"
+        r"10^{-7}"
+        "\n\n"
+            "⦿ Bring both evaluated pieces together into one value:\n"
+        r"11574 \times 10^{-7}"
+        "\n\n"
+            "⦿ Shift the decimal position to convert this value into standard form format:\n"
+        r"1.1574 \times 10^4 \times 10^{-7} = 1.1574 \times 10^{-3}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 11: List the integers within the interval 7 < x ≤ 14."
+            "\n"
+            "(BECE 2020 Q6b)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Identify the boundary conditions specified by the mathematical inequality operators:\n"
+            "The lower boundary operator (<) specifies that 7 is excluded.\n"
+            "The upper boundary operator (≤) specifies that 14 is included.\n\n"
+            "⦿ List out every whole integer step value sequentially between these bounds:\n"
+            "{8, 9, 10, 11, 12, 13, 14}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 12: Simplify: 2^6 \div (2^2 \times 2^1) + 2^5.""\n"
+            "(BECE 2021 Q1c)"
+       ,
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Process the inside of the parentheses grouping first by applying matching index addition rules:\n"
+        r"2^2 \times 2^1 = 2^{2+1} = 2^3"
+        "\n\n"
+            "⦿ Update the statement expression layout:\n"
+        r"2^6 \div 2^3 + 2^5"
+        "\n\n"
+            "⦿ Execute the division step next using exponent subtraction index rules:\n"
+        r"2^6 \div 2^3 = 2^{6-3} = 2^3"
+        "\n\n"
+            "⦿ Update the expression with this value:\n"
+        r"2^3 + 2^5"
+        "\n\n"
+            "⦿ Calculate the values of these base components to complete the final addition steps:\n"
+        r"2^3 = 8"
+        "\n"
+        r"2^5 = 32"
+        "\n\n"
+            "⦿ Add the final integers together:\n"
+            "8 + 32 = 40",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 13: Simplify: 15(4 - 6) \times 49 \div 7.""\n"
+            "(BECE 2023 Q2a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Follow standard operational order rules (BODMAS) systematically across the terms:\n"
+            "⦿ Step 1: Simplify the value inside the parentheses first:\n"
+            "4 - 6 = -2\n\n"
+            "⦿ Update the expression:\n"
+        r"15(-2) \times 49 \div 7"
+        "\n\n"
+            "⦿ Step 2: Carry out the multiplication on the left:\n"
+        r"15 \times (-2) = -30"
+        "\n\n"
+            "⦿ Update the expression:\n"
+        r"-30 \times 49 \div 7"
+        "\n\n"
+            "⦿ Step 3: Run the division operation on the right side:\n"
+        r"49 \div 7 = 7"
+        "\n\n"
+            "⦿ Step 4: Execute the final multiplication step to finish:\n"
+        r"-30 \times 7 = -210",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 14: (i) Express 8 \times 32 \times 4 \times 2 in the form 2^m."
+        "\n"
+            "(ii) Using your answer in (i), state the value of m.\n"
+        "(BECE 2023 Q3a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ (i) Convert each individual base value into prime base 2 indices format:\n"
+        r"8 = 2^3"
+        "\n"
+        r"32 = 2^5"
+        "\n"
+        r"4 = 2^2"
+        "\n"
+        r"2 = 2^1"
+        "\n\n"
+            "⦿ Rewrite the initial product chain using these indices values:\n"
+        r"2^3 \times 2^5 \times 2^2 \times 2^1"
+        "\n\n"
+        r"⦿ Apply the index addition multiplication rule across the entire set (2^{3+5+2+1}):"
+        "\n"
+        r"2^{11}"
+        "\n\n"
+        r"⦿ (ii) Match this final index output expression directly against the goal form format (2^m):"
+        "\n"
+        r"2^{11} = 2^m \implies m = 11",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        r"Question 15: Evaluate \frac{4000 \times 0.35}{0.05}, leaving the answer in standard form."
+        "\n"
+            "(BECE 2025 Q2a)",
+        answer:
+        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Reorganise the individual components into clean scientific integer styles:\n"
+        r"4000 = 4 \times 10^3"
+        "\n"
+        r"0.35 = 35 \times 10^{-2}"
+        "\n"
+        r"0.05 = 5 \times 10^{-2}"
+        "\n\n"
+            "⦿ Rebuild the fraction format template using these values:\n"
+        r"\frac{4 \times 10^3 \times 35 \times 10^{-2}}{5 \times 10^{-2}}"
+        "\n\n"
+            "⦿ Isolate the numerical components from the exponent factors:\n"
+        r"\frac{4 \times 35}{5} \times \frac{10^3 \times 10^{-2}}{10^{-2}}"
+        "\n\n"
+            "⦿ Simplify the integers group by dividing 35 by 5:\n"
+        r"\frac{35}{5} = 7"
+        "\n"
+        r"Multiply the remaining terms: 4 \times 7 = 28"
+        "\n\n"
+            "⦿ Resolve the index powers using addition and subtraction rules:\n"
+        r"Cancel out the identical 10^{-2} terms from the top and bottom sections."
+        "\n"
+        r"This leaves behind the index power component value 10^3."
+        "\n\n"
+            "⦿ Combine the evaluated components together:\n"
+        r"28 \times 10^3"
+        "\n\n"
+            "⦿ Shift the decimal point position to finish formatting the final answer into standard form layout:\n"
+        r"2.8 \times 10^1 \times 10^3 = 2.8 \times 10^4",
         explanation: "",
       ),
     ],
