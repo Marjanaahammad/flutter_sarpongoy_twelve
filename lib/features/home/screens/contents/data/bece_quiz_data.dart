@@ -4,130 +4,130 @@ import '../model/quiz_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, QuizModel> beceQuizData = {
   // ─── ENGLISH: ORAL LANGUAGE ───────────────────────────────────────────────
-  "Conversation and Everyday Discourse": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Which of the following is an example of a formal greeting?",
-          options: [
-            "Whaddup, dude?",
-            "Good morning, sir.",
-            "Hey, what's up?",
-            "Yo, how far?"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "'Good morning, sir.' uses formal register appropriate for official settings."),
-      QuizQuestion(
-          question: "2. A conversation is said to be effective when:",
-          options: [
-            "Only one person speaks at length",
-            "Both parties listen and respond appropriately",
-            "There is no eye contact",
-            "The speaker uses technical jargon only"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Effective conversation involves mutual listening and appropriate responses."),
-      QuizQuestion(
-          question:
-              "3. Which term describes the unwritten rules of conversation?",
-          options: ["Grammar", "Discourse norms", "Register", "Vocabulary"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Discourse norms are the unwritten social rules that govern conversations."),
-      QuizQuestion(
-          question: "4. 'Turn-taking' in conversation means:",
-          options: [
-            "Physically turning to face the speaker",
-            "Allowing each person a chance to speak in order",
-            "Turning the topic to something different",
-            "Moving away when someone speaks"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Turn-taking ensures orderly exchange in a conversation."),
-      QuizQuestion(
-          question:
-              "5. Which body language signal shows you are listening attentively?",
-          options: [
-            "Folding your arms and looking away",
-            "Nodding and making eye contact",
-            "Yawning repeatedly",
-            "Tapping your feet impatiently"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Nodding and eye contact are active listening signals."),
-      QuizQuestion(
-          question: "6. The word 'discourse' most closely means:",
-          options: [
-            "A type of meal",
-            "Written or spoken communication",
-            "A musical instrument",
-            "A form of exercise"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "Discourse refers to written or spoken communication."),
-      QuizQuestion(
-          question:
-              "7. Kofi meets his teacher in the market. Which greeting is most appropriate?",
-          options: [
-            "Oi, teacher!",
-            "Good afternoon, Mr. Mensah.",
-            "What's good, teach?",
-            "Hey, I know you!"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "A respectful, formal greeting is appropriate for a teacher."),
-      QuizQuestion(
-          question:
-              "8. Which of these is NOT a feature of informal conversation?",
-          options: [
-            "Slang words",
-            "Relaxed tone",
-            "Technical vocabulary",
-            "Shortened words"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Technical vocabulary is typically used in formal, not informal, conversations."),
-      QuizQuestion(
-          question: "9. An 'aside' in a conversation refers to:",
-          options: [
-            "A main point of the discussion",
-            "A comment addressed to one listener privately",
-            "A loud exclamation",
-            "A topic change"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "An aside is a remark made quietly to one person, not the whole group."),
-      QuizQuestion(
-          question:
-              "10. Which skill helps you understand the emotional tone behind someone's words?",
-          options: [
-            "Speed reading",
-            "Empathic listening",
-            "Note-taking",
-            "Vocabulary building"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Empathic listening helps you understand feelings behind words."),
-    ],
-  ),
+  // "Conversation and Everyday Discourse": QuizModel(
+  //   audioPath: '',
+  //   questions: [
+  //     QuizQuestion(
+  //         question:
+  //             "1. Which of the following is an example of a formal greeting?",
+  //         options: [
+  //           "Whaddup, dude?",
+  //           "Good morning, sir.",
+  //           "Hey, what's up?",
+  //           "Yo, how far?"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "'Good morning, sir.' uses formal register appropriate for official settings."),
+  //     QuizQuestion(
+  //         question: "2. A conversation is said to be effective when:",
+  //         options: [
+  //           "Only one person speaks at length",
+  //           "Both parties listen and respond appropriately",
+  //           "There is no eye contact",
+  //           "The speaker uses technical jargon only"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "Effective conversation involves mutual listening and appropriate responses."),
+  //     QuizQuestion(
+  //         question:
+  //             "3. Which term describes the unwritten rules of conversation?",
+  //         options: ["Grammar", "Discourse norms", "Register", "Vocabulary"],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Discourse norms are the unwritten social rules that govern conversations."),
+  //     QuizQuestion(
+  //         question: "4. 'Turn-taking' in conversation means:",
+  //         options: [
+  //           "Physically turning to face the speaker",
+  //           "Allowing each person a chance to speak in order",
+  //           "Turning the topic to something different",
+  //           "Moving away when someone speaks"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "Turn-taking ensures orderly exchange in a conversation."),
+  //     QuizQuestion(
+  //         question:
+  //             "5. Which body language signal shows you are listening attentively?",
+  //         options: [
+  //           "Folding your arms and looking away",
+  //           "Nodding and making eye contact",
+  //           "Yawning repeatedly",
+  //           "Tapping your feet impatiently"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation: "Nodding and eye contact are active listening signals."),
+  //     QuizQuestion(
+  //         question: "6. The word 'discourse' most closely means:",
+  //         options: [
+  //           "A type of meal",
+  //           "Written or spoken communication",
+  //           "A musical instrument",
+  //           "A form of exercise"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation: "Discourse refers to written or spoken communication."),
+  //     QuizQuestion(
+  //         question:
+  //             "7. Kofi meets his teacher in the market. Which greeting is most appropriate?",
+  //         options: [
+  //           "Oi, teacher!",
+  //           "Good afternoon, Mr. Mensah.",
+  //           "What's good, teach?",
+  //           "Hey, I know you!"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "A respectful, formal greeting is appropriate for a teacher."),
+  //     QuizQuestion(
+  //         question:
+  //             "8. Which of these is NOT a feature of informal conversation?",
+  //         options: [
+  //           "Slang words",
+  //           "Relaxed tone",
+  //           "Technical vocabulary",
+  //           "Shortened words"
+  //         ],
+  //         correctIndex: 2,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Technical vocabulary is typically used in formal, not informal, conversations."),
+  //     QuizQuestion(
+  //         question: "9. An 'aside' in a conversation refers to:",
+  //         options: [
+  //           "A main point of the discussion",
+  //           "A comment addressed to one listener privately",
+  //           "A loud exclamation",
+  //           "A topic change"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Hard",
+  //         explanation:
+  //             "An aside is a remark made quietly to one person, not the whole group."),
+  //     QuizQuestion(
+  //         question:
+  //             "10. Which skill helps you understand the emotional tone behind someone's words?",
+  //         options: [
+  //           "Speed reading",
+  //           "Empathic listening",
+  //           "Note-taking",
+  //           "Vocabulary building"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Empathic listening helps you understand feelings behind words."),
+  //   ],
+  // ),
 
   "Giving and Following Direction": QuizModel(
     audioPath: '',
@@ -733,251 +733,251 @@ final Map<String, QuizModel> beceQuizData = {
   ),
 
   // ─── ENGLISH: GRAMMAR ────────────────────────────────────────────────────
-  "Subject and Predicate": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. The subject of a sentence is:",
-          options: [
-            "What the sentence says about the noun",
-            "The action performed",
-            "Who or what the sentence is about",
-            "The verb of the sentence"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The subject is the main noun or pronoun the sentence is about."),
-      QuizQuestion(
-          question:
-              "2. Identify the subject in: 'The tall teacher explained the lesson.'",
-          options: ["Explained", "The lesson", "The tall teacher", "Clearly"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "'The tall teacher' is who the sentence is about — the subject."),
-      QuizQuestion(
-          question: "3. The predicate of a sentence:",
-          options: [
-            "Names the subject",
-            "Contains the verb and everything said about the subject",
-            "Is always a single word",
-            "Comes before the subject"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The predicate contains the verb and all that is said about the subject."),
-      QuizQuestion(
-          question:
-              "4. In 'Ama and Kwame play football every Friday,' what is the subject?",
-          options: ["Play", "Football", "Every Friday", "Ama and Kwame"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "'Ama and Kwame' is a compound subject — two nouns joined by 'and'."),
-      QuizQuestion(
-          question: "5. A simple predicate is:",
-          options: [
-            "All the words after the subject",
-            "Only the verb or verb phrase",
-            "The entire subject of the sentence",
-            "A describing word"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The simple predicate is just the main verb or verb phrase."),
-      QuizQuestion(
-          question: "6. Which sentence has a compound subject?",
-          options: [
-            "The boy ran fast.",
-            "Ama read a book.",
-            "Kofi and Ama went to school.",
-            "She is clever."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "Two subjects joined by 'and' form a compound subject."),
-      QuizQuestion(
-          question:
-              "7. 'The farmers in the north grow maize.' What is the complete subject?",
-          options: [
-            "The farmers",
-            "The farmers in the north",
-            "Grow maize",
-            "In the north"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The complete subject includes the noun and all its modifiers."),
-      QuizQuestion(
-          question: "8. 'Ran quickly down the street.' This is:",
-          options: [
-            "A complete sentence",
-            "A sentence with only a predicate (fragment)",
-            "A question",
-            "A command"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "It has no subject — it is a sentence fragment (predicate only)."),
-      QuizQuestion(
-          question: "9. In an interrogative sentence, the subject:",
-          options: [
-            "Is always at the beginning",
-            "Often comes after the auxiliary verb",
-            "Is never present",
-            "Replaces the verb"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "In questions, the subject usually follows the auxiliary (e.g., 'Is **she** going?')."),
-      QuizQuestion(
-          question:
-              "10. 'Every student in the class passed.' The predicate is:",
-          options: [
-            "Every student",
-            "In the class",
-            "Student in the class",
-            "Passed"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "'Passed' is the simple predicate (main verb) of the sentence."),
-    ],
-  ),
+  // "Subject and Predicate": QuizModel(
+  //   audioPath: '',
+  //   questions: [
+  //     QuizQuestion(
+  //         question: "1. The subject of a sentence is:",
+  //         options: [
+  //           "What the sentence says about the noun",
+  //           "The action performed",
+  //           "Who or what the sentence is about",
+  //           "The verb of the sentence"
+  //         ],
+  //         correctIndex: 2,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "The subject is the main noun or pronoun the sentence is about."),
+  //     QuizQuestion(
+  //         question:
+  //             "2. Identify the subject in: 'The tall teacher explained the lesson.'",
+  //         options: ["Explained", "The lesson", "The tall teacher", "Clearly"],
+  //         correctIndex: 2,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "'The tall teacher' is who the sentence is about — the subject."),
+  //     QuizQuestion(
+  //         question: "3. The predicate of a sentence:",
+  //         options: [
+  //           "Names the subject",
+  //           "Contains the verb and everything said about the subject",
+  //           "Is always a single word",
+  //           "Comes before the subject"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "The predicate contains the verb and all that is said about the subject."),
+  //     QuizQuestion(
+  //         question:
+  //             "4. In 'Ama and Kwame play football every Friday,' what is the subject?",
+  //         options: ["Play", "Football", "Every Friday", "Ama and Kwame"],
+  //         correctIndex: 3,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "'Ama and Kwame' is a compound subject — two nouns joined by 'and'."),
+  //     QuizQuestion(
+  //         question: "5. A simple predicate is:",
+  //         options: [
+  //           "All the words after the subject",
+  //           "Only the verb or verb phrase",
+  //           "The entire subject of the sentence",
+  //           "A describing word"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "The simple predicate is just the main verb or verb phrase."),
+  //     QuizQuestion(
+  //         question: "6. Which sentence has a compound subject?",
+  //         options: [
+  //           "The boy ran fast.",
+  //           "Ama read a book.",
+  //           "Kofi and Ama went to school.",
+  //           "She is clever."
+  //         ],
+  //         correctIndex: 2,
+  //         difficulty: "Medium",
+  //         explanation: "Two subjects joined by 'and' form a compound subject."),
+  //     QuizQuestion(
+  //         question:
+  //             "7. 'The farmers in the north grow maize.' What is the complete subject?",
+  //         options: [
+  //           "The farmers",
+  //           "The farmers in the north",
+  //           "Grow maize",
+  //           "In the north"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "The complete subject includes the noun and all its modifiers."),
+  //     QuizQuestion(
+  //         question: "8. 'Ran quickly down the street.' This is:",
+  //         options: [
+  //           "A complete sentence",
+  //           "A sentence with only a predicate (fragment)",
+  //           "A question",
+  //           "A command"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Hard",
+  //         explanation:
+  //             "It has no subject — it is a sentence fragment (predicate only)."),
+  //     QuizQuestion(
+  //         question: "9. In an interrogative sentence, the subject:",
+  //         options: [
+  //           "Is always at the beginning",
+  //           "Often comes after the auxiliary verb",
+  //           "Is never present",
+  //           "Replaces the verb"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Hard",
+  //         explanation:
+  //             "In questions, the subject usually follows the auxiliary (e.g., 'Is **she** going?')."),
+  //     QuizQuestion(
+  //         question:
+  //             "10. 'Every student in the class passed.' The predicate is:",
+  //         options: [
+  //           "Every student",
+  //           "In the class",
+  //           "Student in the class",
+  //           "Passed"
+  //         ],
+  //         correctIndex: 3,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "'Passed' is the simple predicate (main verb) of the sentence."),
+  //   ],
+  // ),
 
-  "Active and Passive Voice": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. In an active voice sentence, the subject:",
-          options: [
-            "Receives the action",
-            "Performs the action",
-            "Is always omitted",
-            "Comes after the verb"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "In active voice, the subject does the action."),
-      QuizQuestion(
-          question: "2. Which sentence is in the passive voice?",
-          options: [
-            "The girl kicked the ball.",
-            "The ball was kicked by the girl.",
-            "She answered the question.",
-            "He loves football."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The ball (object) becomes the subject in passive voice."),
-      QuizQuestion(
-          question: "3. The passive voice is formed using:",
-          options: [
-            "A verb + infinitive",
-            "A form of 'be' + past participle",
-            "A modal verb alone",
-            "The present participle"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Passive constructions use 'be' (is/was/were) + past participle."),
-      QuizQuestion(
-          question:
-              "4. Change to passive voice: 'The teacher marked the papers.'",
-          options: [
-            "The papers is marked by the teacher.",
-            "The papers marked by the teacher.",
-            "The papers were marked by the teacher.",
-            "The teacher were marking the papers."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Passive: The papers (subject) + were marked (past passive) + by the teacher."),
-      QuizQuestion(
-          question: "5. When is passive voice used?",
-          options: [
-            "When the doer is known and important",
-            "When the action is more important than who performed it",
-            "When simpler grammar is needed",
-            "Only in spoken English"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Passive voice emphasises the action or the object, not the doer."),
-      QuizQuestion(
-          question: "6. 'The bridge was built in 1956.' Who built the bridge?",
-          options: [
-            "Unknown or unimportant",
-            "The government",
-            "A famous engineer",
-            "The bridge itself"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "The agent is omitted because it is unknown or unimportant."),
-      QuizQuestion(
-          question:
-              "7. Convert to active voice: 'The cake was eaten by the children.'",
-          options: [
-            "The cake ate the children.",
-            "The children ate the cake.",
-            "Eaten by the children was the cake.",
-            "The children were eating cake."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Active: Children (subject) + ate (verb) + the cake (object)."),
-      QuizQuestion(
-          question: "8. Which verb form is used in the passive with 'is'?",
-          options: [
-            "Base form",
-            "Past participle",
-            "Present participle",
-            "Infinitive"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "'Is + past participle' forms the present simple passive."),
-      QuizQuestion(
-          question:
-              "9. 'The news was announced on the radio.' What tense is this passive?",
-          options: [
-            "Present passive",
-            "Past passive",
-            "Future passive",
-            "Present perfect passive"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation: "'was announced' is the past simple passive."),
-      QuizQuestion(
-          question: "10. In formal writing, which voice is preferred?",
-          options: [
-            "Active voice only",
-            "Passive voice is often preferred",
-            "Neither voice is used",
-            "Imperative voice"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "Passive voice is common in formal, academic, and scientific writing."),
-    ],
-  ),
+  // "Active and Passive Voice": QuizModel(
+  //   audioPath: '',
+  //   questions: [
+  //     QuizQuestion(
+  //         question: "1. In an active voice sentence, the subject:",
+  //         options: [
+  //           "Receives the action",
+  //           "Performs the action",
+  //           "Is always omitted",
+  //           "Comes after the verb"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation: "In active voice, the subject does the action."),
+  //     QuizQuestion(
+  //         question: "2. Which sentence is in the passive voice?",
+  //         options: [
+  //           "The girl kicked the ball.",
+  //           "The ball was kicked by the girl.",
+  //           "She answered the question.",
+  //           "He loves football."
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "The ball (object) becomes the subject in passive voice."),
+  //     QuizQuestion(
+  //         question: "3. The passive voice is formed using:",
+  //         options: [
+  //           "A verb + infinitive",
+  //           "A form of 'be' + past participle",
+  //           "A modal verb alone",
+  //           "The present participle"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Passive constructions use 'be' (is/was/were) + past participle."),
+  //     QuizQuestion(
+  //         question:
+  //             "4. Change to passive voice: 'The teacher marked the papers.'",
+  //         options: [
+  //           "The papers is marked by the teacher.",
+  //           "The papers marked by the teacher.",
+  //           "The papers were marked by the teacher.",
+  //           "The teacher were marking the papers."
+  //         ],
+  //         correctIndex: 2,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Passive: The papers (subject) + were marked (past passive) + by the teacher."),
+  //     QuizQuestion(
+  //         question: "5. When is passive voice used?",
+  //         options: [
+  //           "When the doer is known and important",
+  //           "When the action is more important than who performed it",
+  //           "When simpler grammar is needed",
+  //           "Only in spoken English"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "Passive voice emphasises the action or the object, not the doer."),
+  //     QuizQuestion(
+  //         question: "6. 'The bridge was built in 1956.' Who built the bridge?",
+  //         options: [
+  //           "Unknown or unimportant",
+  //           "The government",
+  //           "A famous engineer",
+  //           "The bridge itself"
+  //         ],
+  //         correctIndex: 0,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "The agent is omitted because it is unknown or unimportant."),
+  //     QuizQuestion(
+  //         question:
+  //             "7. Convert to active voice: 'The cake was eaten by the children.'",
+  //         options: [
+  //           "The cake ate the children.",
+  //           "The children ate the cake.",
+  //           "Eaten by the children was the cake.",
+  //           "The children were eating cake."
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Easy",
+  //         explanation:
+  //             "Active: Children (subject) + ate (verb) + the cake (object)."),
+  //     QuizQuestion(
+  //         question: "8. Which verb form is used in the passive with 'is'?",
+  //         options: [
+  //           "Base form",
+  //           "Past participle",
+  //           "Present participle",
+  //           "Infinitive"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Medium",
+  //         explanation:
+  //             "'Is + past participle' forms the present simple passive."),
+  //     QuizQuestion(
+  //         question:
+  //             "9. 'The news was announced on the radio.' What tense is this passive?",
+  //         options: [
+  //           "Present passive",
+  //           "Past passive",
+  //           "Future passive",
+  //           "Present perfect passive"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Hard",
+  //         explanation: "'was announced' is the past simple passive."),
+  //     QuizQuestion(
+  //         question: "10. In formal writing, which voice is preferred?",
+  //         options: [
+  //           "Active voice only",
+  //           "Passive voice is often preferred",
+  //           "Neither voice is used",
+  //           "Imperative voice"
+  //         ],
+  //         correctIndex: 1,
+  //         difficulty: "Hard",
+  //         explanation:
+  //             "Passive voice is common in formal, academic, and scientific writing."),
+  //   ],
+  // ),
 
   "Reported Speech (Direct and Indirect)": QuizModel(
     audioPath: '',
@@ -11672,6 +11672,265 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+   "Science JHS2 s1 ss1 - Materials": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. Chlorine gas is an example of        (BECE 2004 Q19)",
+        options: ["An atom", "An element", "A compound", "A molecule"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Chlorine gas exists as Cl₂. It consists of two chlorine atoms chemically joined together, so it is a molecule.",
+      ),
+      QuizQuestion(
+        question:
+            "2. When matter changes state from gas to liquid there is        (BECE 2007 Q6)",
+        options: [
+          "A decrease in mass",
+          "A decrease in volume",
+          "An increase in pressure",
+          "An increase in temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a gas condenses into a liquid, its particles move closer together. This causes a decrease in volume, while its mass remains unchanged.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following statements about the states of matter is correct?        (BECE 2002 Q3)",
+        options: [
+          "Molecules in a solid are disorderly arranged",
+          "Solids are highly compressible",
+          "Liquids have definite form and volume",
+          "Molecules in a gas move faster than those in a liquid"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Gas particles possess more kinetic energy and move more rapidly than particles in a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The physical change(s) that take(s) place when a piece of ice is heated continuously for a long time can be represented by        (BECE 2002 Q2)",
+        options: [
+          "Solid → vapour",
+          "Vapour → solid → liquid",
+          "Solid → liquid → vapour",
+          "Liquid → vapour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ice first melts from a solid into liquid water. Continued heating changes the liquid water into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The substance that sublimes when heated is        (BECE 2006 Q10)",
+        options: ["Baking powder", "Common salt", "Camphor", "Sugar"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Camphor undergoes sublimation, changing directly from a solid into vapour without first becoming a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following processes of conversion of the state of matter is correct?        (BECE 2004 Q1)",
+        options: [
+          "Solid → gas → liquid",
+          "Solid → liquid → gas",
+          "Gas → liquid → solid",
+          "Gas → liquid → solid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a solid is heated, it melts into a liquid. With further heating, the liquid changes into a gas.",
+      ),
+      QuizQuestion(
+        question: "7. The basic unit of matter is the        (BECE 2000 Q3)",
+        options: ["Atom", "Element", "Compound", "Electron"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An atom is the smallest basic unit of matter that retains the chemical properties of an element.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Hydrogen is represented by the chemical symbol H₂. This symbol represents        (BECE 2005 Q1)",
+        options: [
+          "Two molecules of hydrogen",
+          "Two atoms of hydrogen",
+          "Two elements of hydrogen",
+          "Two ions of hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The subscript 2 in H₂ shows that one hydrogen molecule contains two hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question: "9. The chemical formula H₂ represents        (BECE 2002 Q3)",
+        options: [
+          "Two atoms of hydrogen",
+          "Two neutrons of hydrogen",
+          "Two ions of hydrogen",
+          "Two molecules of hydrogen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "H₂ represents one molecule of hydrogen made up of two chemically bonded hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Atoms of the same element have the same        (BECE 1990 Q12)",
+        options: [
+          "Number of electrons",
+          "Chemical properties",
+          "Number of neutrons",
+          "Total electrical charge"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Atoms of the same element have the same number of protons and generally exhibit the same chemical properties.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following statements about elements is correct?        (BECE 2004 Q2)",
+        options: [
+          "Carbon is a metal",
+          "Iron is a non-metal",
+          "Sulphur is a liquid metal",
+          "Gold is a metal"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Gold is a metal. Carbon and sulphur are non-metals, while iron is also a metal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The chemical symbol for sodium is        (BECE 2005 Q35)",
+        options: ["K", "N", "Na", "S"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical symbol for sodium is Na, which is derived from its Latin name, natrium.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The element with chemical symbol P is        (BECE 2012 Q4)",
+        options: ["Phosphorus", "Potassium", "Platinum", "Potassium"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "P is the chemical symbol for phosphorus. Potassium is represented by K, while platinum is represented by Pt.",
+      ),
+      QuizQuestion(
+        question:
+            "14. A substance which is made up of identical atoms is a/an        (BECE 2011 Q1)",
+        options: ["Compound", "Element", "Mixture", "Molecule"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An element is a pure substance made up of only one type of atom.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following elements is a liquid at room temperature?        (BECE 1993 Q22)",
+        options: ["Carbon", "Mercury", "Iodine", "Iron"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metallic element that exists as a liquid at ordinary room temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The electronic configuration of an atom of an element is 2, 8, 2. How many electrons are in the outer shell of the atom?        (BECE 2021 Q4)",
+        options: ["12", "8", "4", "2"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the electronic configuration 2, 8, 2, the last number represents the number of electrons in the outermost shell. Therefore, the atom has two outer-shell electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "17. An atom has 8 protons and 8 neutrons. Its atomic number is        (BECE 1992 Q22)",
+        options: ["0", "8", "16", "64"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The atomic number of an element is equal to the number of protons in its nucleus. Therefore, the atomic number is 8.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An element has 11 protons and 12 neutrons. Its mass number is        (BECE 1994 Q13)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Mass number is calculated by adding the number of protons and neutrons. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "19. An atom has 11 electrons and 12 neutrons. Find its atomic number.        (BECE 2015 Q4)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "In a neutral atom, the number of electrons equals the number of protons. Since the atom has 11 electrons, it has 11 protons and an atomic number of 11.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The atomic number of an element is 17. Which of the following is its electronic configuration?        (BECE 2003 Q1)",
+        options: ["2, 8, 7", "2, 7, 8", "7, 8, 2", "8, 7, 2"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "An atom with atomic number 17 has 17 electrons. These are arranged in the shells as 2, 8 and 7.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Given that the atomic number of an atom is 11, find the number of electrons.        (BECE 2017 Q11)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A neutral atom has an equal number of protons and electrons. Therefore, an atom with atomic number 11 has 11 electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An atom of an element has 11 protons and 12 neutrons in its nucleus. Calculate its mass number.        (BECE 2011 Q3)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The mass number is the sum of the protons and neutrons in the nucleus. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "23. An element has 12 protons. What is its electronic configuration?        (BECE 2013 Q1)",
+        options: ["2, 8, 2", "2, 2, 8", "8, 2, 2", "2, 8, 4"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A neutral atom with 12 protons has 12 electrons. The electrons are arranged in the shells as 2, 8 and 2.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The atomic number of an element is 17. Find the number of electrons.        (BECE 2022 Q6)",
+        options: ["1", "17", "18", "35"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a neutral atom, the number of electrons is equal to the atomic number. Therefore, the element has 17 electrons.",
+      ),
+    ],
+  ),
+
 
   "Science JHS1 s1 ss2 - Living Cells": QuizModel(
     audioPath: '',
@@ -12101,6 +12360,1121 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+   "Science JHS3 s1 ss2 - Living Cells": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Plants are different from animals because they        (BECE 2004 Q13)",
+        options: ["Have protoplasm", "Have chlorophyll", "Respire", "Grow"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Plants contain chlorophyll, which enables them to absorb sunlight and manufacture food through photosynthesis. Animals do not have chlorophyll.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following features is found in both prokaryotic and eukaryotic cells?        (Likely Examinable Q10)",
+        options: [
+          "Nucleus",
+          "Cell membrane",
+          "Mitochondria",
+          "Golgi apparatus"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Both prokaryotic and eukaryotic cells have a cell membrane. Prokaryotic cells do not have a true nucleus or membrane-bound organelles.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following characteristics applies to only plants?        (BECE 2003 Q16)",
+        options: [
+          "Excretion of waste materials",
+          "Response to stimuli",
+          "Ability to manufacture food from simple substances",
+          "Ability to respire"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture their own food from simple substances through photosynthesis. Both plants and animals excrete, respire and respond to stimuli.",
+      ),
+      QuizQuestion(
+        question:
+            "4. One characteristic which is not common to all living things is the ability to        (BECE 2004 Q13)",
+        options: ["Grow", "Move about", "Respire", "Respond to stimuli"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "All living things grow, respire and respond to stimuli, but not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following processes about all living things is/are true?\n\n"
+            "I. Reproduction\n"
+            "II. Respiration\n"
+            "III. Locomotion\n"
+            "IV. Excretion        (BECE 2001 Q19)",
+        options: [
+          "I only",
+          "I and II only",
+          "I, II and IV only",
+          "I, II and III only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "All living things reproduce, respire and excrete. Locomotion is not performed by all living things because plants do not move freely from place to place.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following statements about a plant cell is correct? It        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mature plant cell normally contains a large permanent vacuole. It also has a nucleus, a cell membrane and a cell wall that gives it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following organisms is/are multicellular?\n\n"
+            "I. Amoeba\n"
+            "II. Paramecium\n"
+            "III. Onion        (BECE 2012 Q20)",
+        options: [
+          "I only",
+          "II and III only",
+          "I and II only",
+          "I, II and III only"
+        ],
+        correctIndex: -1,
+        difficulty: "Medium",
+        explanation:
+            "Only onion is multicellular. Amoeba and Paramecium are unicellular organisms. Therefore, none of the options provided is scientifically correct.",
+      ),
+      QuizQuestion(
+        question: "8. The basic unit of life is the        (BECE 2018 Q16)",
+        options: ["Cell", "Nucleus", "Organ", "Tissue"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cell is the smallest structural and functional unit capable of carrying out the processes of life.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following statements about all living things is/are true?\n\n"
+            "I. They manufacture their own food.\n"
+            "II. They respire.\n"
+            "III. They grow.        (BECE 2000 Q39)",
+        options: ["I only", "II only", "I and II only", "II and III only"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respire and grow. However, only autotrophic organisms such as green plants manufacture their own food.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The process which takes place in all living cells is        (BECE 2003 Q27)",
+        options: [
+          "Digestion",
+          "Fertilization",
+          "Photosynthesis",
+          "Respiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Respiration occurs in all living cells to release energy from food for cellular activities.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following is a feature of all living things except the ability to        (BECE 2003 Q16)",
+        options: [
+          "Bring forth young ones",
+          "Excrete",
+          "Grow",
+          "Move from place to place"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Living things reproduce, excrete and grow. However, not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The characteristic that distinguishes living things from non-living things is that living things        (BECE 2002a Q18)",
+        options: [
+          "Are able to move, while non-living things are not",
+          "Are of different sizes, while non-living things have the same size",
+          "Can manufacture their own food, while non-living things cannot",
+          "Have a definite form, while non-living things have an irregular form"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Living organisms obtain or manufacture food for energy and growth. Non-living things do not perform feeding as a life process.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following life processes is not performed by all living things?        (BECE 2011 Q17)",
+        options: ["Excretion", "Photosynthesis", "Reproduction", "Respiration"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis is performed mainly by green plants and some other organisms. It is not performed by all living things.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following features are common to all living things?\n\n"
+            "I. Response to stimuli\n"
+            "II. Respiration\n"
+            "III. Movement from place to place\n"
+            "IV. Growth        (BECE 2002b Q20)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and III only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respond to stimuli, respire and grow. Movement from one place to another is not common to all living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following life activities is common to both plants and animals?        (BECE 2002 Q42)",
+        options: ["Feeding", "Locomotion", "Respiration", "None of the above"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Both plants and animals carry out respiration to release energy. Animals move from place to place, while plants generally remain fixed.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plant cell wall is mainly made of cellulose, which provides strength, support and protection to the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following correctly shows the order of increasing complexity of structures in living organisms?        (BECE 2011 Q40)",
+        options: [
+          "Cells → organs → tissues → systems",
+          "Cells → tissues → organs → systems",
+          "Cells → systems → tissues → organs",
+          "Cells → tissues → systems → organs"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Similar cells form tissues, tissues form organs, and related organs work together to form organ systems.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following statements about a plant cell is correct?        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plant cell normally contains a large permanent vacuole. Its cell wall also helps to give it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The part of a living cell which is semi-permeable is the        (BECE 2017 Q28)",
+        options: ["Cytoplasm", "Cell membrane", "Nucleus", "Vacuole"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell membrane is selectively or semi-permeable because it controls which substances enter and leave the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Cellulose is the main structural material found in the cell walls of plant cells.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following parts or structures are present in animal cells?        (BECE 2019 Q18)",
+        options: [
+          "Mitochondrion and chloroplast",
+          "Cell wall and mitochondrion",
+          "Vacuole and nucleus",
+          "Nucleus and chloroplast"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Animal cells contain a nucleus and may contain small temporary vacuoles. They do not contain chloroplasts or a cell wall.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The jelly-like substance inside a cell is called        (BECE 2022 Q1)",
+        options: ["Cytoplasm", "Chloroplast", "Nucleus", "Ribosome"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cytoplasm is the jelly-like material inside the cell in which organelles are suspended and many chemical reactions occur.",
+      ),
+      QuizQuestion(
+        question:
+            "23. The organelle responsible for photosynthesis in plant cells is the        (Likely Examinable Q1)",
+        options: ["Nucleus", "Cell wall", "Chloroplast", "Mitochondrion"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chloroplast contains chlorophyll, which absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The function of ribosomes in a cell is to        (Likely Examinable Q3)",
+        options: [
+          "Store water",
+          "Break down food",
+          "Produce proteins",
+          "Generate energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ribosomes are the structures in cells where proteins are produced.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A group of similar cells working together is called a        (Likely Examinable Q4)",
+        options: ["Tissue", "Organ", "System", "Organism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A tissue is a group of similar cells that work together to perform a particular function.",
+      ),
+      QuizQuestion(
+        question:
+            "26. A scientist observed a single-celled organism without a nucleus under a microscope. What type of cell is this?        (Likely Examinable Q6)",
+        options: ["Eukaryotic", "Prokaryotic", "Plant cell", "Animal cell"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A prokaryotic cell does not have a true nucleus. Its genetic material is found freely within the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "27. If a cell has a nucleus, a cell membrane and mitochondria, what type of organism is it likely from?        (Likely Examinable Q7)",
+        options: ["Bacterium", "Virus", "Eukaryote", "Algae"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A cell with a true nucleus and membrane-bound organelles such as mitochondria is a eukaryotic cell.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following best explains why bacteria multiply faster than plant cells?        (Likely Examinable Q8)",
+        options: [
+          "Bacteria do not have mitochondria",
+          "Bacteria have simpler structures and divide quickly",
+          "Plant cells grow larger before dividing",
+          "Plant cells have more organelles than bacteria"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Bacteria are structurally simple organisms that reproduce rapidly through binary fission when conditions are favourable.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The epidermal cells of a dicotyledonous plant play an important role in        (Likely Examinable Q9)",
+        options: [
+          "Storing food for growth",
+          "Transporting water and minerals",
+          "Reducing excessive water loss",
+          "Supporting the plant stem"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Epidermal cells protect the plant and often produce a waxy cuticle that reduces excessive water loss.",
+      ),
+      QuizQuestion(
+        question:
+            "30. A farmer notices that a plant's leaves remain wilted even after watering. Which specialised cell is most likely not functioning properly?        (Likely Examinable Q10)",
+        options: ["Cambium", "Guard cells", "Epidermal cells", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels transport water and mineral salts from the roots to the leaves. Poor xylem function can cause the leaves to remain wilted.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Which of the following explains why xylem vessels are thick-walled?        (Likely Examinable Q11)",
+        options: [
+          "To store excess food",
+          "To provide strength and prevent collapse",
+          "To control the opening and closing of stomata",
+          "To absorb sunlight for photosynthesis"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels have thick, lignified walls that strengthen them and prevent them from collapsing during water transport.",
+      ),
+      QuizQuestion(
+        question:
+            "32. If the cambium of a dicotyledonous plant is removed, the plant will likely        (Likely Examinable Q12)",
+        options: [
+          "Stop producing new xylem and phloem",
+          "Lose its green colour",
+          "Stop absorbing water from the soil",
+          "Continue growing normally"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The cambium is a dividing tissue that produces new xylem and phloem during the secondary growth of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which specialised cell is responsible for carrying oxygen to all parts of the human body?        (Likely Examinable Q13)",
+        options: ["Nerve cell", "Sperm cell", "Red blood cell", "Muscle cell"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which binds with oxygen and transports it around the body.",
+      ),
+      QuizQuestion(
+        question:
+            "34. A person suffers a deep cut, but the bleeding stops after a few minutes. Which type of blood cell made this possible?        (Likely Examinable Q14)",
+        options: [
+          "Red blood cell",
+          "White blood cell",
+          "Platelets",
+          "Nerve cell"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help blood to clot at the site of an injury, reducing and eventually stopping bleeding.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Which of the following best explains why nerve cells are long and branched?        (Likely Examinable Q15)",
+        options: [
+          "To transport oxygen efficiently",
+          "To store food and nutrients",
+          "To transmit messages quickly",
+          "To produce energy for movement"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Nerve cells are long and branched so that they can connect with many cells and transmit electrical messages rapidly over long distances.",
+      ),
+    ],
+  ),
+   "Science JHS2 s1 ss2 - Living Cells": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Plants are different from animals because they        (BECE 2004 Q13)",
+        options: ["Have protoplasm", "Have chlorophyll", "Respire", "Grow"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Plants contain chlorophyll, which enables them to absorb sunlight and manufacture food through photosynthesis. Animals do not have chlorophyll.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following features is found in both prokaryotic and eukaryotic cells?        (Likely Examinable Q10)",
+        options: [
+          "Nucleus",
+          "Cell membrane",
+          "Mitochondria",
+          "Golgi apparatus"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Both prokaryotic and eukaryotic cells have a cell membrane. Prokaryotic cells do not have a true nucleus or membrane-bound organelles.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following characteristics applies to only plants?        (BECE 2003 Q16)",
+        options: [
+          "Excretion of waste materials",
+          "Response to stimuli",
+          "Ability to manufacture food from simple substances",
+          "Ability to respire"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture their own food from simple substances through photosynthesis. Both plants and animals excrete, respire and respond to stimuli.",
+      ),
+      QuizQuestion(
+        question:
+            "4. One characteristic which is not common to all living things is the ability to        (BECE 2004 Q13)",
+        options: ["Grow", "Move about", "Respire", "Respond to stimuli"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "All living things grow, respire and respond to stimuli, but not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following processes about all living things is/are true?\n\n"
+            "I. Reproduction\n"
+            "II. Respiration\n"
+            "III. Locomotion\n"
+            "IV. Excretion        (BECE 2001 Q19)",
+        options: [
+          "I only",
+          "I and II only",
+          "I, II and IV only",
+          "I, II and III only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "All living things reproduce, respire and excrete. Locomotion is not performed by all living things because plants do not move freely from place to place.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following statements about a plant cell is correct? It        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mature plant cell normally contains a large permanent vacuole. It also has a nucleus, a cell membrane and a cell wall that gives it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following organisms is/are multicellular?\n\n"
+            "I. Amoeba\n"
+            "II. Paramecium\n"
+            "III. Onion        (BECE 2012 Q20)",
+        options: [
+          "I only",
+          "II and III only",
+          "I and II only",
+          "I, II and III only"
+        ],
+        correctIndex: -1,
+        difficulty: "Medium",
+        explanation:
+            "Only onion is multicellular. Amoeba and Paramecium are unicellular organisms. Therefore, none of the options provided is scientifically correct.",
+      ),
+      QuizQuestion(
+        question: "8. The basic unit of life is the        (BECE 2018 Q16)",
+        options: ["Cell", "Nucleus", "Organ", "Tissue"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cell is the smallest structural and functional unit capable of carrying out the processes of life.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following statements about all living things is/are true?\n\n"
+            "I. They manufacture their own food.\n"
+            "II. They respire.\n"
+            "III. They grow.        (BECE 2000 Q39)",
+        options: ["I only", "II only", "I and II only", "II and III only"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respire and grow. However, only autotrophic organisms such as green plants manufacture their own food.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The process which takes place in all living cells is        (BECE 2003 Q27)",
+        options: [
+          "Digestion",
+          "Fertilization",
+          "Photosynthesis",
+          "Respiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Respiration occurs in all living cells to release energy from food for cellular activities.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following is a feature of all living things except the ability to        (BECE 2003 Q16)",
+        options: [
+          "Bring forth young ones",
+          "Excrete",
+          "Grow",
+          "Move from place to place"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Living things reproduce, excrete and grow. However, not all living things move freely from one place to another.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The characteristic that distinguishes living things from non-living things is that living things        (BECE 2002a Q18)",
+        options: [
+          "Are able to move, while non-living things are not",
+          "Are of different sizes, while non-living things have the same size",
+          "Can manufacture their own food, while non-living things cannot",
+          "Have a definite form, while non-living things have an irregular form"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Living organisms obtain or manufacture food for energy and growth. Non-living things do not perform feeding as a life process.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following life processes is not performed by all living things?        (BECE 2011 Q17)",
+        options: ["Excretion", "Photosynthesis", "Reproduction", "Respiration"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis is performed mainly by green plants and some other organisms. It is not performed by all living things.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following features are common to all living things?\n\n"
+            "I. Response to stimuli\n"
+            "II. Respiration\n"
+            "III. Movement from place to place\n"
+            "IV. Growth        (BECE 2002b Q20)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and III only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "All living things respond to stimuli, respire and grow. Movement from one place to another is not common to all living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following life activities is common to both plants and animals?        (BECE 2002 Q42)",
+        options: ["Feeding", "Locomotion", "Respiration", "None of the above"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Both plants and animals carry out respiration to release energy. Animals move from place to place, while plants generally remain fixed.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plant cell wall is mainly made of cellulose, which provides strength, support and protection to the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following correctly shows the order of increasing complexity of structures in living organisms?        (BECE 2011 Q40)",
+        options: [
+          "Cells → organs → tissues → systems",
+          "Cells → tissues → organs → systems",
+          "Cells → systems → tissues → organs",
+          "Cells → tissues → systems → organs"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Similar cells form tissues, tissues form organs, and related organs work together to form organ systems.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following statements about a plant cell is correct?        (BECE 2014 Q5)",
+        options: [
+          "Does not have a nucleus",
+          "Contains large vacuoles",
+          "Is surrounded by a cell membrane only",
+          "Does not have a definite shape"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plant cell normally contains a large permanent vacuole. Its cell wall also helps to give it a definite shape.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The part of a living cell which is semi-permeable is the        (BECE 2017 Q28)",
+        options: ["Cytoplasm", "Cell membrane", "Nucleus", "Vacuole"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell membrane is selectively or semi-permeable because it controls which substances enter and leave the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following structures contains cellulose?        (BECE 2018 Q2)",
+        options: ["Cell wall", "Cell membrane", "Chloroplast", "Mitochondrion"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Cellulose is the main structural material found in the cell walls of plant cells.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following parts or structures are present in animal cells?        (BECE 2019 Q18)",
+        options: [
+          "Mitochondrion and chloroplast",
+          "Cell wall and mitochondrion",
+          "Vacuole and nucleus",
+          "Nucleus and chloroplast"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Animal cells contain a nucleus and may contain small temporary vacuoles. They do not contain chloroplasts or a cell wall.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The jelly-like substance inside a cell is called        (BECE 2022 Q1)",
+        options: ["Cytoplasm", "Chloroplast", "Nucleus", "Ribosome"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The cytoplasm is the jelly-like material inside the cell in which organelles are suspended and many chemical reactions occur.",
+      ),
+      QuizQuestion(
+        question:
+            "23. The organelle responsible for photosynthesis in plant cells is the        (Likely Examinable Q1)",
+        options: ["Nucleus", "Cell wall", "Chloroplast", "Mitochondrion"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chloroplast contains chlorophyll, which absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The function of ribosomes in a cell is to        (Likely Examinable Q3)",
+        options: [
+          "Store water",
+          "Break down food",
+          "Produce proteins",
+          "Generate energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ribosomes are the structures in cells where proteins are produced.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A group of similar cells working together is called a        (Likely Examinable Q4)",
+        options: ["Tissue", "Organ", "System", "Organism"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A tissue is a group of similar cells that work together to perform a particular function.",
+      ),
+      QuizQuestion(
+        question:
+            "26. A scientist observed a single-celled organism without a nucleus under a microscope. What type of cell is this?        (Likely Examinable Q6)",
+        options: ["Eukaryotic", "Prokaryotic", "Plant cell", "Animal cell"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A prokaryotic cell does not have a true nucleus. Its genetic material is found freely within the cell.",
+      ),
+      QuizQuestion(
+        question:
+            "27. If a cell has a nucleus, a cell membrane and mitochondria, what type of organism is it likely from?        (Likely Examinable Q7)",
+        options: ["Bacterium", "Virus", "Eukaryote", "Algae"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A cell with a true nucleus and membrane-bound organelles such as mitochondria is a eukaryotic cell.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following best explains why bacteria multiply faster than plant cells?        (Likely Examinable Q8)",
+        options: [
+          "Bacteria do not have mitochondria",
+          "Bacteria have simpler structures and divide quickly",
+          "Plant cells grow larger before dividing",
+          "Plant cells have more organelles than bacteria"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Bacteria are structurally simple organisms that reproduce rapidly through binary fission when conditions are favourable.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The epidermal cells of a dicotyledonous plant play an important role in        (Likely Examinable Q9)",
+        options: [
+          "Storing food for growth",
+          "Transporting water and minerals",
+          "Reducing excessive water loss",
+          "Supporting the plant stem"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Epidermal cells protect the plant and often produce a waxy cuticle that reduces excessive water loss.",
+      ),
+      QuizQuestion(
+        question:
+            "30. A farmer notices that a plant's leaves remain wilted even after watering. Which specialised cell is most likely not functioning properly?        (Likely Examinable Q10)",
+        options: ["Cambium", "Guard cells", "Epidermal cells", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels transport water and mineral salts from the roots to the leaves. Poor xylem function can cause the leaves to remain wilted.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Which of the following explains why xylem vessels are thick-walled?        (Likely Examinable Q11)",
+        options: [
+          "To store excess food",
+          "To provide strength and prevent collapse",
+          "To control the opening and closing of stomata",
+          "To absorb sunlight for photosynthesis"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Xylem vessels have thick, lignified walls that strengthen them and prevent them from collapsing during water transport.",
+      ),
+      QuizQuestion(
+        question:
+            "32. If the cambium of a dicotyledonous plant is removed, the plant will likely        (Likely Examinable Q12)",
+        options: [
+          "Stop producing new xylem and phloem",
+          "Lose its green colour",
+          "Stop absorbing water from the soil",
+          "Continue growing normally"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The cambium is a dividing tissue that produces new xylem and phloem during the secondary growth of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which specialised cell is responsible for carrying oxygen to all parts of the human body?        (Likely Examinable Q13)",
+        options: ["Nerve cell", "Sperm cell", "Red blood cell", "Muscle cell"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which binds with oxygen and transports it around the body.",
+      ),
+      QuizQuestion(
+        question:
+            "34. A person suffers a deep cut, but the bleeding stops after a few minutes. Which type of blood cell made this possible?        (Likely Examinable Q14)",
+        options: [
+          "Red blood cell",
+          "White blood cell",
+          "Platelets",
+          "Nerve cell"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help blood to clot at the site of an injury, reducing and eventually stopping bleeding.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Which of the following best explains why nerve cells are long and branched?        (Likely Examinable Q15)",
+        options: [
+          "To transport oxygen efficiently",
+          "To store food and nutrients",
+          "To transmit messages quickly",
+          "To produce energy for movement"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Nerve cells are long and branched so that they can connect with many cells and transmit electrical messages rapidly over long distances.",
+      ),
+    ],
+  ),
+   "Science JHS3 s1 ss1 - Materials": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. Chlorine gas is an example of        (BECE 2004 Q19)",
+        options: ["An atom", "An element", "A compound", "A molecule"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Chlorine gas exists as Cl₂. It consists of two chlorine atoms chemically joined together, so it is a molecule.",
+      ),
+      QuizQuestion(
+        question:
+            "2. When matter changes state from gas to liquid there is        (BECE 2007 Q6)",
+        options: [
+          "A decrease in mass",
+          "A decrease in volume",
+          "An increase in pressure",
+          "An increase in temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a gas condenses into a liquid, its particles move closer together. This causes a decrease in volume, while its mass remains unchanged.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following statements about the states of matter is correct?        (BECE 2002 Q3)",
+        options: [
+          "Molecules in a solid are disorderly arranged",
+          "Solids are highly compressible",
+          "Liquids have definite form and volume",
+          "Molecules in a gas move faster than those in a liquid"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Gas particles possess more kinetic energy and move more rapidly than particles in a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The physical change(s) that take(s) place when a piece of ice is heated continuously for a long time can be represented by        (BECE 2002 Q2)",
+        options: [
+          "Solid → vapour",
+          "Vapour → solid → liquid",
+          "Solid → liquid → vapour",
+          "Liquid → vapour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ice first melts from a solid into liquid water. Continued heating changes the liquid water into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The substance that sublimes when heated is        (BECE 2006 Q10)",
+        options: ["Baking powder", "Common salt", "Camphor", "Sugar"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Camphor undergoes sublimation, changing directly from a solid into vapour without first becoming a liquid.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following processes of conversion of the state of matter is correct?        (BECE 2004 Q1)",
+        options: [
+          "Solid → gas → liquid",
+          "Solid → liquid → gas",
+          "Gas → liquid → solid",
+          "Gas → liquid → solid"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When a solid is heated, it melts into a liquid. With further heating, the liquid changes into a gas.",
+      ),
+      QuizQuestion(
+        question: "7. The basic unit of matter is the        (BECE 2000 Q3)",
+        options: ["Atom", "Element", "Compound", "Electron"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An atom is the smallest basic unit of matter that retains the chemical properties of an element.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Hydrogen is represented by the chemical symbol H₂. This symbol represents        (BECE 2005 Q1)",
+        options: [
+          "Two molecules of hydrogen",
+          "Two atoms of hydrogen",
+          "Two elements of hydrogen",
+          "Two ions of hydrogen"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The subscript 2 in H₂ shows that one hydrogen molecule contains two hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question: "9. The chemical formula H₂ represents        (BECE 2002 Q3)",
+        options: [
+          "Two atoms of hydrogen",
+          "Two neutrons of hydrogen",
+          "Two ions of hydrogen",
+          "Two molecules of hydrogen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "H₂ represents one molecule of hydrogen made up of two chemically bonded hydrogen atoms.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Atoms of the same element have the same        (BECE 1990 Q12)",
+        options: [
+          "Number of electrons",
+          "Chemical properties",
+          "Number of neutrons",
+          "Total electrical charge"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Atoms of the same element have the same number of protons and generally exhibit the same chemical properties.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following statements about elements is correct?        (BECE 2004 Q2)",
+        options: [
+          "Carbon is a metal",
+          "Iron is a non-metal",
+          "Sulphur is a liquid metal",
+          "Gold is a metal"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Gold is a metal. Carbon and sulphur are non-metals, while iron is also a metal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The chemical symbol for sodium is        (BECE 2005 Q35)",
+        options: ["K", "N", "Na", "S"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical symbol for sodium is Na, which is derived from its Latin name, natrium.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The element with chemical symbol P is        (BECE 2012 Q4)",
+        options: ["Phosphorus", "Potassium", "Platinum", "Potassium"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "P is the chemical symbol for phosphorus. Potassium is represented by K, while platinum is represented by Pt.",
+      ),
+      QuizQuestion(
+        question:
+            "14. A substance which is made up of identical atoms is a/an        (BECE 2011 Q1)",
+        options: ["Compound", "Element", "Mixture", "Molecule"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An element is a pure substance made up of only one type of atom.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following elements is a liquid at room temperature?        (BECE 1993 Q22)",
+        options: ["Carbon", "Mercury", "Iodine", "Iron"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metallic element that exists as a liquid at ordinary room temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The electronic configuration of an atom of an element is 2, 8, 2. How many electrons are in the outer shell of the atom?        (BECE 2021 Q4)",
+        options: ["12", "8", "4", "2"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the electronic configuration 2, 8, 2, the last number represents the number of electrons in the outermost shell. Therefore, the atom has two outer-shell electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "17. An atom has 8 protons and 8 neutrons. Its atomic number is        (BECE 1992 Q22)",
+        options: ["0", "8", "16", "64"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The atomic number of an element is equal to the number of protons in its nucleus. Therefore, the atomic number is 8.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An element has 11 protons and 12 neutrons. Its mass number is        (BECE 1994 Q13)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Mass number is calculated by adding the number of protons and neutrons. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "19. An atom has 11 electrons and 12 neutrons. Find its atomic number.        (BECE 2015 Q4)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "In a neutral atom, the number of electrons equals the number of protons. Since the atom has 11 electrons, it has 11 protons and an atomic number of 11.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The atomic number of an element is 17. Which of the following is its electronic configuration?        (BECE 2003 Q1)",
+        options: ["2, 8, 7", "2, 7, 8", "7, 8, 2", "8, 7, 2"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "An atom with atomic number 17 has 17 electrons. These are arranged in the shells as 2, 8 and 7.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Given that the atomic number of an atom is 11, find the number of electrons.        (BECE 2017 Q11)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A neutral atom has an equal number of protons and electrons. Therefore, an atom with atomic number 11 has 11 electrons.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An atom of an element has 11 protons and 12 neutrons in its nucleus. Calculate its mass number.        (BECE 2011 Q3)",
+        options: ["1", "11", "12", "23"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The mass number is the sum of the protons and neutrons in the nucleus. Therefore, 11 + 12 = 23.",
+      ),
+      QuizQuestion(
+        question:
+            "23. An element has 12 protons. What is its electronic configuration?        (BECE 2013 Q1)",
+        options: ["2, 8, 2", "2, 2, 8", "8, 2, 2", "2, 8, 4"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A neutral atom with 12 protons has 12 electrons. The electrons are arranged in the shells as 2, 8 and 2.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The atomic number of an element is 17. Find the number of electrons.        (BECE 2022 Q6)",
+        options: ["1", "17", "18", "35"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a neutral atom, the number of electrons is equal to the atomic number. Therefore, the element has 17 electrons.",
+      ),
+    ],
+  ),
+
   "Science JHS1 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
       QuizModel(
     audioPath: '',
@@ -12591,6 +13965,987 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+   "Science JHS2 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following ways of treating water makes the water soft?        (BECE 2006 Q19)",
+        options: [
+          "Adding alum",
+          "Adding washing soda",
+          "Chlorinating",
+          "Filtering"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Washing soda removes calcium and magnesium ions that cause hardness in water, thereby making the water soft.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The taste of water changes when it is boiled because        (BECE 2008 Q19)",
+        options: [
+          "Heat is absorbed during boiling",
+          "Evaporation takes place during boiling",
+          "Air is lost during boiling",
+          "Steam is produced during boiling"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Boiling drives dissolved air out of water. The loss of dissolved gases causes the taste of the water to change.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The method of purification of water that produces water containing very little impurities is        (BECE 2009 Q19)",
+        options: ["Boiling", "Chlorination", "Distillation", "Filtration"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Distillation involves boiling water and condensing the vapour. Most dissolved and suspended impurities are left behind.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Water that forms lather readily with soap is said to be        (BECE 2010 Q1)",
+        options: ["Clean", "Hard", "Soapy", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily with soap because it contains little or no calcium and magnesium ions.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Arrange the following sources of water in the order of increasing contamination.\n\n"
+            "I. Rain\n"
+            "II. Stream\n"
+            "III. Well\n"
+            "IV. Borehole        (BECE 2005 Q20)",
+        options: [
+          "I, II, IV, III",
+          "III, II, I, IV",
+          "I, IV, III, II",
+          "III, II, IV, I"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Rainwater is generally the least contaminated, followed by borehole water, well water and stream water, which is usually the most exposed to pollutants.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Chlorine gas is passed through water during purification to        (BECE 2005 Q19)",
+        options: [
+          "Kill germs",
+          "Cause suspended particles to settle",
+          "Soften the water",
+          "Give taste to the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorine disinfects water by killing harmful microorganisms that may cause diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Water is sometimes referred to as a universal solvent because it        (BECE 2005 Q23)",
+        options: [
+          "Is the purest liquid on earth",
+          "Is the commonest liquid on earth",
+          "Is found in all living cells",
+          "Dissolves most substances"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Water is called a universal solvent because it can dissolve a greater variety of substances than most other liquids.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The method of separation used in the treatment of water at the water works is        (BECE 2000 Q20)",
+        options: [
+          "Decantation",
+          "Evaporation",
+          "Precipitation",
+          "Condensation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "During water treatment, chemicals such as alum cause suspended impurities to form larger particles that precipitate and settle.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following methods of treating water makes it soft?        (BECE 2013 Q21)",
+        options: [
+          "Addition of alum",
+          "Addition of sodium carbonate",
+          "Chlorination",
+          "Filtration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Sodium carbonate removes calcium and magnesium ions from hard water by forming insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Water that requires more soap in order to form lather is described as        (BECE 2007 Q19)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hard water contains calcium and magnesium ions that react with soap, so more soap is needed before lather forms.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Alum is added to water during treatment to        (BECE 2004 Q38)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Make the water colourless",
+          "Give taste to the water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Alum causes small suspended particles to join together into larger particles, making them settle more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Arrange the following types of water in order of increasing hardness.\n\n"
+            "I. Tap water\n"
+            "II. Sea water\n"
+            "III. Distilled water\n"
+            "IV. Rainwater        (BECE 2008 Q20)",
+        options: [
+          "IV, III, II, I",
+          "III, IV, I, II",
+          "II, I, IV, III",
+          "I, II, III, IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Distilled water contains almost no dissolved salts, followed by rainwater, tap water and sea water, which contains the greatest amount of dissolved salts.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Water that needs a small amount of soap to form lather is described as        (BECE 2006 Q20)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and therefore requires only a small amount of soap.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The simplest way of making well water suitable for laundry purposes is by        (BECE 2010 Q5)",
+        options: ["Adding alum", "Boiling", "Chlorination", "Filtering"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Boiling removes temporary hardness caused by dissolved hydrogencarbonates, making the water more suitable for washing.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Water contains two elements, hydrogen and oxygen, in the ratio of        (BECE 2013 Q31)",
+        options: ["1:2", "1:3", "2:1", "3:1"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical formula of water is H₂O, showing that hydrogen and oxygen atoms occur in a ratio of 2:1.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Boiling and chlorination are used in water purification to        (BECE 2009 Q20)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Remove suspended particles",
+          "Remove hardness of the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Both boiling and chlorination destroy harmful microorganisms and make water safer for drinking.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following statements about the properties of water are correct?\n\n"
+            "I. It is colourless and tasteless.\n"
+            "II. It is neutral to litmus paper.\n"
+            "III. It turns red litmus paper blue.\n"
+            "IV. It is a universal solvent.        (BECE 2014 Q28)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and IV only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pure water is colourless and tasteless, is neutral to litmus paper and dissolves many substances. It does not turn red litmus paper blue.",
+      ),
+      QuizQuestion(
+        question:
+            "18. One advantage of soft water over hard water is that soft water        (BECE 2015 Q22)",
+        options: [
+          "Has a pleasant taste",
+          "Can prevent heart diseases",
+          "Does not waste soap",
+          "Forms scales in kettles"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily and does not react with soap to form scum, so it saves soap during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The reason why alum is added to water during treatment is to        (BECE 2016 Q9)",
+        options: [
+          "Kill germs",
+          "Give taste to water",
+          "Make water colourless",
+          "Make suspended particles settle"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Alum acts as a coagulant, causing suspended particles to clump together and settle at the bottom.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following physical properties of water are correct? Water\n\n"
+            "I. is a colourless liquid.\n"
+            "II. is a universal solvent.\n"
+            "III. boils at 100°C at standard atmospheric pressure.\n"
+            "IV. has a density of 5 kg cm⁻³ at 4°C.        (BECE 2018 Q35)",
+        options: [
+          "I and II only",
+          "I, II and III only",
+          "I, II and III only",
+          "II, III and IV only"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Water is colourless, dissolves many substances and boils at 100°C at standard atmospheric pressure. Its density at 4°C is approximately 1 g cm⁻³, not 5 kg cm⁻³.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following chemical compounds is used in removing hardness in water?        (BECE 2019 Q18)",
+        options: ["NaCl", "NaOH", "Na₂CO₃", "NaHCO₃"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate, Na₂CO₃, removes hardness by precipitating calcium and magnesium ions as insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An advantage of soft water over hard water is that soft water        (BECE 2020 Q3)",
+        options: [
+          "Is good for the formation of strong bones in humans",
+          "Prevents heart diseases",
+          "Has a pleasant smell",
+          "Saves a lot of soap when used in washing"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and does not form scum with soap, so less soap is required during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following chemical substances can be used to remove permanent hardness in water?        (BECE 2021 Q13)",
+        options: ["NaHCO₃", "Na₂CO₃", "Ca(HCO₃)₂", "CaCO₃"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate removes permanent hardness by reacting with soluble calcium and magnesium salts to form insoluble precipitates.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The ion that causes hardness in water is        (BECE 2022 Q8)",
+        options: ["CO₃²⁻", "Mg²⁺", "Na⁺", "OH⁻"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hardness in water is mainly caused by dissolved calcium and magnesium ions. Among the options, Mg²⁺ is the ion responsible.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following human activities maintains the carbon cycle?        (BECE 2013 Q38)",
+        options: [
+          "Bush burning",
+          "Felling of trees",
+          "Release of fumes from factories",
+          "Replanting of trees felled as timber"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Replanting trees replaces those that were cut down and supports the continued removal of carbon dioxide through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following gases supports combustion?        (BECE 2016 Q38)",
+        options: ["Hydrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen supports combustion by allowing substances to continue burning.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following processes removes carbon dioxide from the atmosphere?        (BECE 2020 Q5)",
+        options: ["Respiration", "Burning", "Decomposition", "Photosynthesis"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants absorb carbon dioxide from the atmosphere during photosynthesis to manufacture food.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following natural cycles directly involves the sun?\n\n"
+            "I. Carbon cycle\n"
+            "II. Water cycle\n"
+            "III. Nitrogen cycle        (BECE 2024 Q5)",
+        options: [
+          "I and II only",
+          "I only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Solar energy drives photosynthesis in the carbon cycle and evaporation in the water cycle. The nitrogen cycle is not directly driven by the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The by-product of photosynthesis is        (BECE 2002 Q23)",
+        options: ["Carbon dioxide", "Starch", "Oxygen", "Water"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "During photosynthesis, plants manufacture glucose and release oxygen as a by-product.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following gases is given out during photosynthesis?        (BECE 2002 Q30)",
+        options: ["Nitrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen is produced and released into the atmosphere during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Food substances are transported from the leaves to various parts of a plant through the        (BECE 2003 Q14)",
+        options: ["Cambium", "Epidermis", "Phloem", "Xylem"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Phloem tissue transports manufactured food from the leaves to other parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The substance that enables green plants to trap sunlight for the manufacture of food is        (BECE 2005 Q16)",
+        options: ["Chlorophyll", "Chloroplast", "Phloem", "Xylem"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll is the green pigment that absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Water is absorbed by roots in plants and transported to the leaves through the        (BECE 2008 Q14)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Xylem vessels transport water and dissolved mineral salts from the roots to the leaves.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The food manufactured by a plant is distributed to all parts of the plant through the        (BECE 2009 Q37)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Phloem transports manufactured food from the leaves to growing and storage parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The process by which water vapour moves through the stomata of leaves into the atmosphere is known as        (BECE 2010 Q20)",
+        options: ["Absorption", "Diffusion", "Osmosis", "Transpiration"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from the aerial parts of a plant, mainly through the stomata.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The presence of chlorophyll in green plants is a necessary condition for photosynthesis because it        (BECE 2013 Q40)",
+        options: [
+          "Absorbs oxygen",
+          "Absorbs solar energy",
+          "Produces carbon dioxide",
+          "Produces water vapour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll absorbs light energy from the sun, which is needed to manufacture food during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When a green leaf is placed in a test tube containing ethanol and heated over a water bath, the leaf        (BECE 2014 Q29)",
+        options: [
+          "Becomes soft",
+          "Changes colour to brown",
+          "Changes colour to blue-black",
+          "Is decolourised"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Hot ethanol dissolves and removes chlorophyll from the leaf, causing the leaf to become decolourised.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Gases enter and leave the leaf of a plant through the        (BECE 2016 Q22)",
+        options: ["Mesophyll cells", "Stomata", "Pith", "Palisade cells"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Stomata are tiny pores on the leaf surface through which carbon dioxide, oxygen and water vapour pass.",
+      ),
+      QuizQuestion(
+        question:
+            "39. Photosynthesis is important to living organisms because it produces        (BECE 2016 Q29)",
+        options: [
+          "Glucose and oxygen",
+          "Glucose and carbon dioxide",
+          "Oxygen and carbon dioxide",
+          "Water and carbon dioxide"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis produces glucose as food and releases oxygen needed by most living organisms for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "40. To test for starch in a green leaf, it is initially boiled to        (BECE 2023 Q28)",
+        options: [
+          "Isolate the starch",
+          "Kill the leaf",
+          "Extract the chlorophyll",
+          "Make the leaf soft"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The leaf is initially boiled in water to kill it and stop all chemical reactions before the starch test continues.",
+      ),
+    ],
+  ),
+ "Science JHS3 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following ways of treating water makes the water soft?        (BECE 2006 Q19)",
+        options: [
+          "Adding alum",
+          "Adding washing soda",
+          "Chlorinating",
+          "Filtering"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Washing soda removes calcium and magnesium ions that cause hardness in water, thereby making the water soft.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The taste of water changes when it is boiled because        (BECE 2008 Q19)",
+        options: [
+          "Heat is absorbed during boiling",
+          "Evaporation takes place during boiling",
+          "Air is lost during boiling",
+          "Steam is produced during boiling"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Boiling drives dissolved air out of water. The loss of dissolved gases causes the taste of the water to change.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The method of purification of water that produces water containing very little impurities is        (BECE 2009 Q19)",
+        options: ["Boiling", "Chlorination", "Distillation", "Filtration"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Distillation involves boiling water and condensing the vapour. Most dissolved and suspended impurities are left behind.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Water that forms lather readily with soap is said to be        (BECE 2010 Q1)",
+        options: ["Clean", "Hard", "Soapy", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily with soap because it contains little or no calcium and magnesium ions.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Arrange the following sources of water in the order of increasing contamination.\n\n"
+            "I. Rain\n"
+            "II. Stream\n"
+            "III. Well\n"
+            "IV. Borehole        (BECE 2005 Q20)",
+        options: [
+          "I, II, IV, III",
+          "III, II, I, IV",
+          "I, IV, III, II",
+          "III, II, IV, I"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Rainwater is generally the least contaminated, followed by borehole water, well water and stream water, which is usually the most exposed to pollutants.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Chlorine gas is passed through water during purification to        (BECE 2005 Q19)",
+        options: [
+          "Kill germs",
+          "Cause suspended particles to settle",
+          "Soften the water",
+          "Give taste to the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorine disinfects water by killing harmful microorganisms that may cause diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Water is sometimes referred to as a universal solvent because it        (BECE 2005 Q23)",
+        options: [
+          "Is the purest liquid on earth",
+          "Is the commonest liquid on earth",
+          "Is found in all living cells",
+          "Dissolves most substances"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Water is called a universal solvent because it can dissolve a greater variety of substances than most other liquids.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The method of separation used in the treatment of water at the water works is        (BECE 2000 Q20)",
+        options: [
+          "Decantation",
+          "Evaporation",
+          "Precipitation",
+          "Condensation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "During water treatment, chemicals such as alum cause suspended impurities to form larger particles that precipitate and settle.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following methods of treating water makes it soft?        (BECE 2013 Q21)",
+        options: [
+          "Addition of alum",
+          "Addition of sodium carbonate",
+          "Chlorination",
+          "Filtration"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Sodium carbonate removes calcium and magnesium ions from hard water by forming insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Water that requires more soap in order to form lather is described as        (BECE 2007 Q19)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hard water contains calcium and magnesium ions that react with soap, so more soap is needed before lather forms.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Alum is added to water during treatment to        (BECE 2004 Q38)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Make the water colourless",
+          "Give taste to the water"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Alum causes small suspended particles to join together into larger particles, making them settle more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Arrange the following types of water in order of increasing hardness.\n\n"
+            "I. Tap water\n"
+            "II. Sea water\n"
+            "III. Distilled water\n"
+            "IV. Rainwater        (BECE 2008 Q20)",
+        options: [
+          "IV, III, II, I",
+          "III, IV, I, II",
+          "II, I, IV, III",
+          "I, II, III, IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Distilled water contains almost no dissolved salts, followed by rainwater, tap water and sea water, which contains the greatest amount of dissolved salts.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Water that needs a small amount of soap to form lather is described as        (BECE 2006 Q20)",
+        options: ["Clean", "Hard", "Pure", "Soft"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and therefore requires only a small amount of soap.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The simplest way of making well water suitable for laundry purposes is by        (BECE 2010 Q5)",
+        options: ["Adding alum", "Boiling", "Chlorination", "Filtering"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Boiling removes temporary hardness caused by dissolved hydrogencarbonates, making the water more suitable for washing.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Water contains two elements, hydrogen and oxygen, in the ratio of        (BECE 2013 Q31)",
+        options: ["1:2", "1:3", "2:1", "3:1"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The chemical formula of water is H₂O, showing that hydrogen and oxygen atoms occur in a ratio of 2:1.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Boiling and chlorination are used in water purification to        (BECE 2009 Q20)",
+        options: [
+          "Kill germs",
+          "Help suspended particles to settle",
+          "Remove suspended particles",
+          "Remove hardness of the water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Both boiling and chlorination destroy harmful microorganisms and make water safer for drinking.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following statements about the properties of water are correct?\n\n"
+            "I. It is colourless and tasteless.\n"
+            "II. It is neutral to litmus paper.\n"
+            "III. It turns red litmus paper blue.\n"
+            "IV. It is a universal solvent.        (BECE 2014 Q28)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "I, II and IV only",
+          "I, II and IV only"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pure water is colourless and tasteless, is neutral to litmus paper and dissolves many substances. It does not turn red litmus paper blue.",
+      ),
+      QuizQuestion(
+        question:
+            "18. One advantage of soft water over hard water is that soft water        (BECE 2015 Q22)",
+        options: [
+          "Has a pleasant taste",
+          "Can prevent heart diseases",
+          "Does not waste soap",
+          "Forms scales in kettles"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather readily and does not react with soap to form scum, so it saves soap during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The reason why alum is added to water during treatment is to        (BECE 2016 Q9)",
+        options: [
+          "Kill germs",
+          "Give taste to water",
+          "Make water colourless",
+          "Make suspended particles settle"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Alum acts as a coagulant, causing suspended particles to clump together and settle at the bottom.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following physical properties of water are correct? Water\n\n"
+            "I. is a colourless liquid.\n"
+            "II. is a universal solvent.\n"
+            "III. boils at 100°C at standard atmospheric pressure.\n"
+            "IV. has a density of 5 kg cm⁻³ at 4°C.        (BECE 2018 Q35)",
+        options: [
+          "I and II only",
+          "I, II and III only",
+          "I, II and III only",
+          "II, III and IV only"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Water is colourless, dissolves many substances and boils at 100°C at standard atmospheric pressure. Its density at 4°C is approximately 1 g cm⁻³, not 5 kg cm⁻³.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following chemical compounds is used in removing hardness in water?        (BECE 2019 Q18)",
+        options: ["NaCl", "NaOH", "Na₂CO₃", "NaHCO₃"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate, Na₂CO₃, removes hardness by precipitating calcium and magnesium ions as insoluble carbonates.",
+      ),
+      QuizQuestion(
+        question:
+            "22. An advantage of soft water over hard water is that soft water        (BECE 2020 Q3)",
+        options: [
+          "Is good for the formation of strong bones in humans",
+          "Prevents heart diseases",
+          "Has a pleasant smell",
+          "Saves a lot of soap when used in washing"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Soft water forms lather easily and does not form scum with soap, so less soap is required during washing.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Which of the following chemical substances can be used to remove permanent hardness in water?        (BECE 2021 Q13)",
+        options: ["NaHCO₃", "Na₂CO₃", "Ca(HCO₃)₂", "CaCO₃"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Sodium carbonate removes permanent hardness by reacting with soluble calcium and magnesium salts to form insoluble precipitates.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The ion that causes hardness in water is        (BECE 2022 Q8)",
+        options: ["CO₃²⁻", "Mg²⁺", "Na⁺", "OH⁻"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Hardness in water is mainly caused by dissolved calcium and magnesium ions. Among the options, Mg²⁺ is the ion responsible.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following human activities maintains the carbon cycle?        (BECE 2013 Q38)",
+        options: [
+          "Bush burning",
+          "Felling of trees",
+          "Release of fumes from factories",
+          "Replanting of trees felled as timber"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Replanting trees replaces those that were cut down and supports the continued removal of carbon dioxide through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following gases supports combustion?        (BECE 2016 Q38)",
+        options: ["Hydrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen supports combustion by allowing substances to continue burning.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following processes removes carbon dioxide from the atmosphere?        (BECE 2020 Q5)",
+        options: ["Respiration", "Burning", "Decomposition", "Photosynthesis"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants absorb carbon dioxide from the atmosphere during photosynthesis to manufacture food.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following natural cycles directly involves the sun?\n\n"
+            "I. Carbon cycle\n"
+            "II. Water cycle\n"
+            "III. Nitrogen cycle        (BECE 2024 Q5)",
+        options: [
+          "I and II only",
+          "I only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Solar energy drives photosynthesis in the carbon cycle and evaporation in the water cycle. The nitrogen cycle is not directly driven by the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The by-product of photosynthesis is        (BECE 2002 Q23)",
+        options: ["Carbon dioxide", "Starch", "Oxygen", "Water"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "During photosynthesis, plants manufacture glucose and release oxygen as a by-product.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following gases is given out during photosynthesis?        (BECE 2002 Q30)",
+        options: ["Nitrogen", "Oxygen", "Carbon dioxide", "Carbon monoxide"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Oxygen is produced and released into the atmosphere during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Food substances are transported from the leaves to various parts of a plant through the        (BECE 2003 Q14)",
+        options: ["Cambium", "Epidermis", "Phloem", "Xylem"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Phloem tissue transports manufactured food from the leaves to other parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The substance that enables green plants to trap sunlight for the manufacture of food is        (BECE 2005 Q16)",
+        options: ["Chlorophyll", "Chloroplast", "Phloem", "Xylem"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll is the green pigment that absorbs sunlight for photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Water is absorbed by roots in plants and transported to the leaves through the        (BECE 2008 Q14)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Xylem vessels transport water and dissolved mineral salts from the roots to the leaves.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The food manufactured by a plant is distributed to all parts of the plant through the        (BECE 2009 Q37)",
+        options: ["Chlorophyll", "Phloem", "Stomata", "Xylem"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Phloem transports manufactured food from the leaves to growing and storage parts of the plant.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The process by which water vapour moves through the stomata of leaves into the atmosphere is known as        (BECE 2010 Q20)",
+        options: ["Absorption", "Diffusion", "Osmosis", "Transpiration"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from the aerial parts of a plant, mainly through the stomata.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The presence of chlorophyll in green plants is a necessary condition for photosynthesis because it        (BECE 2013 Q40)",
+        options: [
+          "Absorbs oxygen",
+          "Absorbs solar energy",
+          "Produces carbon dioxide",
+          "Produces water vapour"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Chlorophyll absorbs light energy from the sun, which is needed to manufacture food during photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When a green leaf is placed in a test tube containing ethanol and heated over a water bath, the leaf        (BECE 2014 Q29)",
+        options: [
+          "Becomes soft",
+          "Changes colour to brown",
+          "Changes colour to blue-black",
+          "Is decolourised"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Hot ethanol dissolves and removes chlorophyll from the leaf, causing the leaf to become decolourised.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Gases enter and leave the leaf of a plant through the        (BECE 2016 Q22)",
+        options: ["Mesophyll cells", "Stomata", "Pith", "Palisade cells"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Stomata are tiny pores on the leaf surface through which carbon dioxide, oxygen and water vapour pass.",
+      ),
+      QuizQuestion(
+        question:
+            "39. Photosynthesis is important to living organisms because it produces        (BECE 2016 Q29)",
+        options: [
+          "Glucose and oxygen",
+          "Glucose and carbon dioxide",
+          "Oxygen and carbon dioxide",
+          "Water and carbon dioxide"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Photosynthesis produces glucose as food and releases oxygen needed by most living organisms for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "40. To test for starch in a green leaf, it is initially boiled to        (BECE 2023 Q28)",
+        options: [
+          "Isolate the starch",
+          "Kill the leaf",
+          "Extract the chlorophyll",
+          "Make the leaf soft"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The leaf is initially boiled in water to kill it and stop all chemical reactions before the starch test continues.",
+      ),
+    ],
+  ),
+
 
   "Science JHS1 s2 ss2 - Life Cycle of Organisms": QuizModel(
     audioPath: '',
@@ -12693,8 +15048,1190 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+  "Science JHS2 s2 ss2 - Life Cycle of Organisms": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following practices will destroy the breeding grounds of mosquitoes?        (BECE 1999 Q35)",
+        options: [
+          "Sleeping in mosquito nets",
+          "Spraying with insecticides",
+          "Using insect repellent",
+          "Clearing all empty cans"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Empty cans can collect stagnant water where mosquitoes lay their eggs. Clearing them destroys potential mosquito-breeding grounds.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The insect which transmits the Plasmodium parasite is called        (BECE 2000 Q34)",
+        options: ["Mosquito", "Butterfly", "Housefly", "Cockroach"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The female Anopheles mosquito transmits the Plasmodium parasite that causes malaria.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following diseases is spread by a mosquito?        (BECE 2002 Q14)",
+        options: ["Blindness", "Cholera", "Elephantiasis", "Flybumisist"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Elephantiasis is transmitted by certain mosquitoes carrying parasitic worms. Cholera is mainly spread through contaminated food and water.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The second stage in the life cycle of a mosquito is the        (BECE 2015 Q14)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The mosquito undergoes complete metamorphosis in the order: egg, larva, pupa and adult or imago. Therefore, the larva is the second stage.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The second stage in the life cycle of a mosquito is the        (BECE 2018 Q19)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After the mosquito egg hatches, it develops into a larva. The larval stage is therefore the second stage in its life cycle.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many stages does the mosquito go through in its life cycle of development?        (BECE 2019 Q3)",
+        options: ["1", "2", "3", "4"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A mosquito passes through four stages of development: egg, larva, pupa and adult or imago.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A mosquito pupa breathes through what is called        (BECE 2021 Q23)",
+        options: ["Trachea", "Siphon", "Lungs", "Gills"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A mosquito pupa breathes atmospheric air through respiratory trumpets connected to its tracheal system.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Oil from a mechanic workshop accidentally spilled into a pool of water which was breeding mosquitoes. After some time, the pool of water was no longer breeding mosquitoes. Which control method may have been deployed?        (BECE 2021 Q25)",
+        options: [
+          "Chemical control",
+          "Biological control",
+          "Environmental control",
+          "Genetic control"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The oil forms a layer on the water surface and prevents mosquito larvae and pupae from obtaining air. This is classified as a chemical control method.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Grasshopper management is crucial because of all the following reasons except        (BECE 2024 Q27)",
+        options: [
+          "Incomplete metamorphosis",
+          "Damage to crops",
+          "Ecosystem disruption",
+          "Livestock harassment"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Incomplete metamorphosis describes the grasshopper's life cycle and is not itself a harmful effect requiring control. Grasshoppers may damage crops, disrupt ecosystems and disturb grazing livestock.",
+      ),
+    ],
+  ),
+  "Science JHS3 s2 ss2 - Life Cycle of Organisms": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following practices will destroy the breeding grounds of mosquitoes?        (BECE 1999 Q35)",
+        options: [
+          "Sleeping in mosquito nets",
+          "Spraying with insecticides",
+          "Using insect repellent",
+          "Clearing all empty cans"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Empty cans can collect stagnant water where mosquitoes lay their eggs. Clearing them destroys potential mosquito-breeding grounds.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The insect which transmits the Plasmodium parasite is called        (BECE 2000 Q34)",
+        options: ["Mosquito", "Butterfly", "Housefly", "Cockroach"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The female Anopheles mosquito transmits the Plasmodium parasite that causes malaria.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following diseases is spread by a mosquito?        (BECE 2002 Q14)",
+        options: ["Blindness", "Cholera", "Elephantiasis", "Flybumisist"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Elephantiasis is transmitted by certain mosquitoes carrying parasitic worms. Cholera is mainly spread through contaminated food and water.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The second stage in the life cycle of a mosquito is the        (BECE 2015 Q14)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The mosquito undergoes complete metamorphosis in the order: egg, larva, pupa and adult or imago. Therefore, the larva is the second stage.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The second stage in the life cycle of a mosquito is the        (BECE 2018 Q19)",
+        options: ["Egg", "Imago", "Larva", "Pupa"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After the mosquito egg hatches, it develops into a larva. The larval stage is therefore the second stage in its life cycle.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many stages does the mosquito go through in its life cycle of development?        (BECE 2019 Q3)",
+        options: ["1", "2", "3", "4"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A mosquito passes through four stages of development: egg, larva, pupa and adult or imago.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A mosquito pupa breathes through what is called        (BECE 2021 Q23)",
+        options: ["Trachea", "Siphon", "Lungs", "Gills"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A mosquito pupa breathes atmospheric air through respiratory trumpets connected to its tracheal system.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Oil from a mechanic workshop accidentally spilled into a pool of water which was breeding mosquitoes. After some time, the pool of water was no longer breeding mosquitoes. Which control method may have been deployed?        (BECE 2021 Q25)",
+        options: [
+          "Chemical control",
+          "Biological control",
+          "Environmental control",
+          "Genetic control"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The oil forms a layer on the water surface and prevents mosquito larvae and pupae from obtaining air. This is classified as a chemical control method.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Grasshopper management is crucial because of all the following reasons except        (BECE 2024 Q27)",
+        options: [
+          "Incomplete metamorphosis",
+          "Damage to crops",
+          "Ecosystem disruption",
+          "Livestock harassment"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Incomplete metamorphosis describes the grasshopper's life cycle and is not itself a harmful effect requiring control. Grasshoppers may damage crops, disrupt ecosystems and disturb grazing livestock.",
+      ),
+    ],
+  ),
 
   "Science JHS1 s2 ss3 - Crop Production and Flowering Plants": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Transplanting of young seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Seedlings require less nutrients",
+          "Transpiration is minimal",
+          "Pest attack is minimal"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is minimal in the evening because the temperature is lower. This reduces water loss and helps the transplanted seedlings recover.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The practice of reducing the number of seedlings per stand for better growth is known as        (BECE 2023 Q20)",
+        options: ["Thinning out", "Earthing up", "Pricking out", "Filling in"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Thinning out involves removing excess or weak seedlings to reduce competition for nutrients, water, light and space.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following nursery beds is suitable for a dry season?        (BECE 2024 Q23)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A sunken nursery bed retains moisture for a longer period, making it suitable for raising seedlings during the dry season.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Cultural practices are activities undertaken on a farm        (BECE 2019 Q40)",
+        options: [
+          "After harvesting and before processing",
+          "Before maturity and after harvesting",
+          "After planting and before harvesting",
+          "Before transplanting seedlings"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cultural practices are crop-management activities such as watering, weeding, mulching and pest control carried out after planting and before harvesting.",
+      ),
+      QuizQuestion(
+        question:
+            "5. An example of inorganic fertilizer is        (Likely Examinable Q4)",
+        options: ["NPK", "Farmyard manure", "Compost", "Mulch"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "NPK is a manufactured inorganic fertilizer containing nitrogen, phosphorus and potassium.",
+      ),
+      QuizQuestion(
+        question:
+            "6. When organic matter is thoroughly mixed into soil, what is the benefit to the crop?        (Likely Examinable Q8)",
+        options: [
+          "Destroy heavy soils",
+          "Reduce planting space",
+          "Retain plant nutrients",
+          "Clear empty spaces"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Organic matter improves soil fertility and helps the soil retain nutrients required for healthy crop growth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The main reason for staking tomato is to ensure        (BECE 2022 Q10)",
+        options: [
+          "Flower fruits to development",
+          "Air circulation on the farm",
+          "Upright growth of the plant",
+          "That fruits do not get rotten"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Staking supports the weak stems of tomato plants and keeps them growing upright.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The most appropriate practice to adopt when growing vegetables in the dry season is        (BECE 2018 Q18)",
+        options: [
+          "Watering",
+          "Transplanting",
+          "Pest control",
+          "Fertilizer application"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Vegetables need an adequate supply of water. Regular watering is therefore essential during the dry season.",
+      ),
+      QuizQuestion(
+        question: "9. Stirring of soil on vegetable beds is to\n\n"
+            "I. improve aeration of soil.\n"
+            "II. increase activities of soil organisms.\n"
+            "III. increase water penetration in the soil.\n"
+            "IV. reduce weed growth.        (BECE 2023 Q15)",
+        options: [
+          "I, II and IV only",
+          "I, III and IV only",
+          "I, II and III only",
+          "I and II only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Stirring loosens the soil, improves aeration, encourages the activities of soil organisms and allows water to penetrate more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The vegetable crop that requires staking during its growth is        (BECE 2019 Q35)",
+        options: ["Sweet pepper", "Garden eggs", "Tomatoes", "Hot pepper"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tomato plants commonly require staking because their weak stems need support as they grow and produce fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following activities are cultural practices in vegetable production?\n\n"
+            "I. Application of fertilizer\n"
+            "II. Harvesting\n"
+            "III. Mulching        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Fertilizer application and mulching are cultural practices carried out while crops are growing. Harvesting is not a cultural practice.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Which of the following activities are cultural practices used in tomato cultivation?\n\n"
+            "I. Pest control\n"
+            "II. Pricking out\n"
+            "III. Fertilizer application        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pest control, pricking out and fertilizer application are all important practices used in tomato cultivation.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following activities are cultural practices in the cultivation of cabbage?\n\n"
+            "I. Pruning\n"
+            "II. Weeding\n"
+            "III. Watering        (BECE 2017 Q38)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Weeding and watering are important cultural practices in cabbage cultivation. Pruning is not normally carried out on cabbage.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The first factor to be considered when deciding to cultivate a particular vegetable is        (BECE 2017 Q36)",
+        options: [
+          "Cultural practices",
+          "Selection of land",
+          "Harvesting",
+          "Method of propagation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Suitable land must first be selected because soil type, drainage, fertility and topography affect vegetable production.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Delinting and shelling are both activities carried out in the processing of        (BECE 2013 Q15)",
+        options: ["Cowpea", "Groundnut", "Cotton", "Sorghum"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Cotton processing includes shelling to remove the seeds and delinting to remove the fibres attached to the seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The practice in which excess branches of growing plants are removed is termed        (BECE 2020 Q28)",
+        options: ["Mulching", "Pruning", "Thinning", "Staking"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning is the removal of excess, unwanted, dead or diseased branches from a growing plant.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The following practices are cultural practices in crop production except        (BECE 2023 Q19)",
+        options: ["Mulching", "Pest control", "Weeding", "Nursing"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Mulching, pest control and weeding are cultural practices performed on growing crops. Nursing involves raising seedlings before transplanting.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Weeds on a school farm could be controlled by        (BECE 2014 Q16)",
+        options: ["Handpicking", "Mowing", "Ploughing", "Tilling"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Handpicking is an appropriate method of removing weeds from a small area such as a school farm.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following nursery beds is suitable for a rainy season?        (BECE 2024 Q24)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A raised nursery bed allows excess rainwater to drain away and protects seedlings from waterlogging.",
+      ),
+      QuizQuestion(
+        question:
+            "20. A husbandry practice which involves the removal of unwanted plant parts is known as        (BECE 2015 Q35)",
+        options: ["Mulching", "Pruning", "Thinning", "Pricking out"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning involves removing unwanted, excess, damaged or diseased parts of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following vegetable crops is cultivated for its leaves?        (BECE 2016 Q23)",
+        options: ["Carrot", "Lettuce", "Okro", "Pepper"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Lettuce is cultivated mainly for its edible leaves. Carrot is grown for its root, while okro and pepper are grown for their fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following factors has the greatest influence on vegetable crop production?        (BECE 2023 Q17)",
+        options: [
+          "Presence of pest",
+          "Availability of labour",
+          "Source of water",
+          "Nearness to market"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Vegetables require a reliable source of water because they need frequent watering for proper growth and development.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Transplanting of seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Pest attack is minimal",
+          "Transpiration is minimal",
+          "Seedlings require less nutrients"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The cooler evening conditions reduce transpiration and water loss, helping transplanted seedlings recover from transplanting shock.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following factors should be considered when selecting a site for vegetable crop production?\n\n"
+            "I. Nearness to the market\n"
+            "II. Topography of the land\n"
+            "III. Nearness to the sea        (BECE 2017 Q37)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Nearness to the market reduces transport costs and spoilage, while suitable topography supports proper drainage. Nearness to the sea is not required.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The part of the flower that develops into a fruit is the        (BECE 2016 Q7)",
+        options: ["Ovary", "Ovule", "Style", "Stamen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovary develops into a fruit, while the ovules develop into seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The part of the flower that produces pollen grains is the        (BECE 2020 Q21)",
+        options: ["Anther", "Stigma", "Filament", "Ovary"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The anther is the part of the stamen that produces and contains pollen grains.",
+      ),
+      QuizQuestion(
+        question:
+            "27. A fruit in which the pericarp has been modified into a parachute structure is dispersed by        (BECE 2020 Q40)",
+        options: ["Water", "Mammals", "Explosion", "Wind"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A parachute-like structure makes a fruit light and enables it to be carried away by the wind.",
+      ),
+      QuizQuestion(
+        question: "28. A viable seed is one that        (BECE 2010 Q12)",
+        options: [
+          "Germinates under suitable conditions",
+          "Is well protected inside the fruit",
+          "Has a bright colour",
+          "Develops from an ovary"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed contains a living embryo and can germinate when supplied with suitable conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The part of the plant where pollination occurs is the        (BECE 2015 Q23)",
+        options: ["Flowers", "Leaves", "Stems", "Roots"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Pollination takes place in flowers when pollen grains are transferred from the anther to the stigma.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The part of a flower that contains ovaries is called        (BECE 2011 Q24)",
+        options: ["Anther", "Pistil", "Sepal", "Ovary"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pistil is the female reproductive part of a flower and consists of the stigma, style and ovary.",
+      ),
+      QuizQuestion(
+        question:
+            "31. All flowering plants end their cycle with        (BECE 2022 Q2)",
+        options: [
+          "Seed formation",
+          "Seed development",
+          "Seed dispersal",
+          "Seed germination"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The reproductive cycle of a flowering plant ends when the mature seeds are dispersed to new locations.",
+      ),
+      QuizQuestion(
+        question:
+            "32. A beneficial effect of wind in the environment is        (BECE 2010 Q12)",
+        options: [
+          "Promotion of photosynthesis in green plants",
+          "Pollination in flowering plants",
+          "Leaching in soils",
+          "Erosion in soils"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Wind carries pollen grains from the anthers to the stigmas of flowers, helping pollination to occur.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The ovary, ovule and stigma are collectively known as        (BECE 2022 Q28)",
+        options: ["stamen", "pistil", "fruit", "seed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The ovary, ovule, stigma, and style together form the female reproductive part of a flower called the pistil (carpel).",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following fruits is dispersed by water?        (BECE 2021 Q29)",
+        options: ["Coconut", "Mango", "Cocoa", "Maize"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Coconut fruits float on water because of their fibrous husk, allowing them to be dispersed by water.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The shoot system of a flowering plant develops from the        (BECE 2022 Q31)",
+        options: ["radicle", "plumule", "endosperm", "cotyledon"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The plumule develops into the shoot system of a plant, while the radicle develops into the root system.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The carpel of a flower is made up of the following parts except        (BECE 2019 Q27)",
+        options: ["filament", "ovary", "stigma", "style"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The carpel consists of the stigma, style, and ovary. The filament is part of the stamen, the male reproductive organ.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The ovule in a flower develops to form the        (BECE 2019 Q23)",
+        options: ["fruit", "leaf", "seed", "wall"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovule develops into a seed, while the ovary develops into a fruit.",
+      ),
+      QuizQuestion(
+        question: "38. Viable seeds are ones that        (BECE 2013 Q30)",
+        options: [
+          "are able to germinate under suitable conditions",
+          "are eaten by animals after planting",
+          "contain a lot of oil",
+          "have hard seed coat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed is a living seed that can germinate and grow into a healthy plant when provided with suitable conditions.",
+      ),
+      QuizQuestion(
+        question: "39. Fruits dispersed by wind        (BECE 2015 Q27)",
+        options: ["have hairs", "are sticky", "are succulent", "have hooks"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits usually have hairs or wings that help them float and be carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "40. Fruits which are dispersed by wind are likely to be        (BECE 2013 Q29)",
+        options: ["dry", "hairy", "juicy", "sticky"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits are generally dry and lightweight, making it easier for the wind to carry them.",
+      ),
+      QuizQuestion(
+        question:
+            "41. One of the characteristics of wind-pollinated flowers is that they        (BECE 2017 Q29)",
+        options: [
+          "are large and conspicuous",
+          "are usually scented",
+          "develop from the ovary",
+          "have feathery stigma"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wind-pollinated flowers have large, feathery stigmas that trap pollen carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "42. In flowering plants, the stamen is made up of        (BECE 2011 Q10)",
+        options: [
+          "anther and stigma",
+          "anther and filament",
+          "stigma and filament",
+          "stigma and style"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The stamen, the male reproductive part of a flower, consists of the anther and the filament.",
+      ),
+    ],
+  ),
+    "Science JHS2 s2 ss3 - Crop Production and Flowering Plants": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Transplanting of young seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Seedlings require less nutrients",
+          "Transpiration is minimal",
+          "Pest attack is minimal"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is minimal in the evening because the temperature is lower. This reduces water loss and helps the transplanted seedlings recover.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The practice of reducing the number of seedlings per stand for better growth is known as        (BECE 2023 Q20)",
+        options: ["Thinning out", "Earthing up", "Pricking out", "Filling in"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Thinning out involves removing excess or weak seedlings to reduce competition for nutrients, water, light and space.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following nursery beds is suitable for a dry season?        (BECE 2024 Q23)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A sunken nursery bed retains moisture for a longer period, making it suitable for raising seedlings during the dry season.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Cultural practices are activities undertaken on a farm        (BECE 2019 Q40)",
+        options: [
+          "After harvesting and before processing",
+          "Before maturity and after harvesting",
+          "After planting and before harvesting",
+          "Before transplanting seedlings"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cultural practices are crop-management activities such as watering, weeding, mulching and pest control carried out after planting and before harvesting.",
+      ),
+      QuizQuestion(
+        question:
+            "5. An example of inorganic fertilizer is        (Likely Examinable Q4)",
+        options: ["NPK", "Farmyard manure", "Compost", "Mulch"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "NPK is a manufactured inorganic fertilizer containing nitrogen, phosphorus and potassium.",
+      ),
+      QuizQuestion(
+        question:
+            "6. When organic matter is thoroughly mixed into soil, what is the benefit to the crop?        (Likely Examinable Q8)",
+        options: [
+          "Destroy heavy soils",
+          "Reduce planting space",
+          "Retain plant nutrients",
+          "Clear empty spaces"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Organic matter improves soil fertility and helps the soil retain nutrients required for healthy crop growth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The main reason for staking tomato is to ensure        (BECE 2022 Q10)",
+        options: [
+          "Flower fruits to development",
+          "Air circulation on the farm",
+          "Upright growth of the plant",
+          "That fruits do not get rotten"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Staking supports the weak stems of tomato plants and keeps them growing upright.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The most appropriate practice to adopt when growing vegetables in the dry season is        (BECE 2018 Q18)",
+        options: [
+          "Watering",
+          "Transplanting",
+          "Pest control",
+          "Fertilizer application"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Vegetables need an adequate supply of water. Regular watering is therefore essential during the dry season.",
+      ),
+      QuizQuestion(
+        question: "9. Stirring of soil on vegetable beds is to\n\n"
+            "I. improve aeration of soil.\n"
+            "II. increase activities of soil organisms.\n"
+            "III. increase water penetration in the soil.\n"
+            "IV. reduce weed growth.        (BECE 2023 Q15)",
+        options: [
+          "I, II and IV only",
+          "I, III and IV only",
+          "I, II and III only",
+          "I and II only"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Stirring loosens the soil, improves aeration, encourages the activities of soil organisms and allows water to penetrate more easily.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The vegetable crop that requires staking during its growth is        (BECE 2019 Q35)",
+        options: ["Sweet pepper", "Garden eggs", "Tomatoes", "Hot pepper"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tomato plants commonly require staking because their weak stems need support as they grow and produce fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following activities are cultural practices in vegetable production?\n\n"
+            "I. Application of fertilizer\n"
+            "II. Harvesting\n"
+            "III. Mulching        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Fertilizer application and mulching are cultural practices carried out while crops are growing. Harvesting is not a cultural practice.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Which of the following activities are cultural practices used in tomato cultivation?\n\n"
+            "I. Pest control\n"
+            "II. Pricking out\n"
+            "III. Fertilizer application        (BECE 2021 Q10)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Pest control, pricking out and fertilizer application are all important practices used in tomato cultivation.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following activities are cultural practices in the cultivation of cabbage?\n\n"
+            "I. Pruning\n"
+            "II. Weeding\n"
+            "III. Watering        (BECE 2017 Q38)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Weeding and watering are important cultural practices in cabbage cultivation. Pruning is not normally carried out on cabbage.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The first factor to be considered when deciding to cultivate a particular vegetable is        (BECE 2017 Q36)",
+        options: [
+          "Cultural practices",
+          "Selection of land",
+          "Harvesting",
+          "Method of propagation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Suitable land must first be selected because soil type, drainage, fertility and topography affect vegetable production.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Delinting and shelling are both activities carried out in the processing of        (BECE 2013 Q15)",
+        options: ["Cowpea", "Groundnut", "Cotton", "Sorghum"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Cotton processing includes shelling to remove the seeds and delinting to remove the fibres attached to the seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The practice in which excess branches of growing plants are removed is termed        (BECE 2020 Q28)",
+        options: ["Mulching", "Pruning", "Thinning", "Staking"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning is the removal of excess, unwanted, dead or diseased branches from a growing plant.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The following practices are cultural practices in crop production except        (BECE 2023 Q19)",
+        options: ["Mulching", "Pest control", "Weeding", "Nursing"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Mulching, pest control and weeding are cultural practices performed on growing crops. Nursing involves raising seedlings before transplanting.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Weeds on a school farm could be controlled by        (BECE 2014 Q16)",
+        options: ["Handpicking", "Mowing", "Ploughing", "Tilling"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Handpicking is an appropriate method of removing weeds from a small area such as a school farm.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following nursery beds is suitable for a rainy season?        (BECE 2024 Q24)",
+        options: ["Sunken bed", "Raised bed", "Surface bed", "Ruined bed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A raised nursery bed allows excess rainwater to drain away and protects seedlings from waterlogging.",
+      ),
+      QuizQuestion(
+        question:
+            "20. A husbandry practice which involves the removal of unwanted plant parts is known as        (BECE 2015 Q35)",
+        options: ["Mulching", "Pruning", "Thinning", "Pricking out"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pruning involves removing unwanted, excess, damaged or diseased parts of a plant.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following vegetable crops is cultivated for its leaves?        (BECE 2016 Q23)",
+        options: ["Carrot", "Lettuce", "Okro", "Pepper"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Lettuce is cultivated mainly for its edible leaves. Carrot is grown for its root, while okro and pepper are grown for their fruits.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following factors has the greatest influence on vegetable crop production?        (BECE 2023 Q17)",
+        options: [
+          "Presence of pest",
+          "Availability of labour",
+          "Source of water",
+          "Nearness to market"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Vegetables require a reliable source of water because they need frequent watering for proper growth and development.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Transplanting of seedlings is usually done in the evening because        (BECE 2013 Q27)",
+        options: [
+          "Darkness promotes rapid growth",
+          "Pest attack is minimal",
+          "Transpiration is minimal",
+          "Seedlings require less nutrients"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The cooler evening conditions reduce transpiration and water loss, helping transplanted seedlings recover from transplanting shock.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following factors should be considered when selecting a site for vegetable crop production?\n\n"
+            "I. Nearness to the market\n"
+            "II. Topography of the land\n"
+            "III. Nearness to the sea        (BECE 2017 Q37)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Nearness to the market reduces transport costs and spoilage, while suitable topography supports proper drainage. Nearness to the sea is not required.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The part of the flower that develops into a fruit is the        (BECE 2016 Q7)",
+        options: ["Ovary", "Ovule", "Style", "Stamen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovary develops into a fruit, while the ovules develop into seeds.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The part of the flower that produces pollen grains is the        (BECE 2020 Q21)",
+        options: ["Anther", "Stigma", "Filament", "Ovary"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The anther is the part of the stamen that produces and contains pollen grains.",
+      ),
+      QuizQuestion(
+        question:
+            "27. A fruit in which the pericarp has been modified into a parachute structure is dispersed by        (BECE 2020 Q40)",
+        options: ["Water", "Mammals", "Explosion", "Wind"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A parachute-like structure makes a fruit light and enables it to be carried away by the wind.",
+      ),
+      QuizQuestion(
+        question: "28. A viable seed is one that        (BECE 2010 Q12)",
+        options: [
+          "Germinates under suitable conditions",
+          "Is well protected inside the fruit",
+          "Has a bright colour",
+          "Develops from an ovary"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed contains a living embryo and can germinate when supplied with suitable conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The part of the plant where pollination occurs is the        (BECE 2015 Q23)",
+        options: ["Flowers", "Leaves", "Stems", "Roots"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Pollination takes place in flowers when pollen grains are transferred from the anther to the stigma.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The part of a flower that contains ovaries is called        (BECE 2011 Q24)",
+        options: ["Anther", "Pistil", "Sepal", "Ovary"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pistil is the female reproductive part of a flower and consists of the stigma, style and ovary.",
+      ),
+      QuizQuestion(
+        question:
+            "31. All flowering plants end their cycle with        (BECE 2022 Q2)",
+        options: [
+          "Seed formation",
+          "Seed development",
+          "Seed dispersal",
+          "Seed germination"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The reproductive cycle of a flowering plant ends when the mature seeds are dispersed to new locations.",
+      ),
+      QuizQuestion(
+        question:
+            "32. A beneficial effect of wind in the environment is        (BECE 2010 Q12)",
+        options: [
+          "Promotion of photosynthesis in green plants",
+          "Pollination in flowering plants",
+          "Leaching in soils",
+          "Erosion in soils"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Wind carries pollen grains from the anthers to the stigmas of flowers, helping pollination to occur.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The ovary, ovule and stigma are collectively known as        (BECE 2022 Q28)",
+        options: ["stamen", "pistil", "fruit", "seed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The ovary, ovule, stigma, and style together form the female reproductive part of a flower called the pistil (carpel).",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following fruits is dispersed by water?        (BECE 2021 Q29)",
+        options: ["Coconut", "Mango", "Cocoa", "Maize"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Coconut fruits float on water because of their fibrous husk, allowing them to be dispersed by water.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The shoot system of a flowering plant develops from the        (BECE 2022 Q31)",
+        options: ["radicle", "plumule", "endosperm", "cotyledon"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The plumule develops into the shoot system of a plant, while the radicle develops into the root system.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The carpel of a flower is made up of the following parts except        (BECE 2019 Q27)",
+        options: ["filament", "ovary", "stigma", "style"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The carpel consists of the stigma, style, and ovary. The filament is part of the stamen, the male reproductive organ.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The ovule in a flower develops to form the        (BECE 2019 Q23)",
+        options: ["fruit", "leaf", "seed", "wall"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After fertilization, the ovule develops into a seed, while the ovary develops into a fruit.",
+      ),
+      QuizQuestion(
+        question: "38. Viable seeds are ones that        (BECE 2013 Q30)",
+        options: [
+          "are able to germinate under suitable conditions",
+          "are eaten by animals after planting",
+          "contain a lot of oil",
+          "have hard seed coat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A viable seed is a living seed that can germinate and grow into a healthy plant when provided with suitable conditions.",
+      ),
+      QuizQuestion(
+        question: "39. Fruits dispersed by wind        (BECE 2015 Q27)",
+        options: ["have hairs", "are sticky", "are succulent", "have hooks"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits usually have hairs or wings that help them float and be carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "40. Fruits which are dispersed by wind are likely to be        (BECE 2013 Q29)",
+        options: ["dry", "hairy", "juicy", "sticky"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind-dispersed fruits are generally dry and lightweight, making it easier for the wind to carry them.",
+      ),
+      QuizQuestion(
+        question:
+            "41. One of the characteristics of wind-pollinated flowers is that they        (BECE 2017 Q29)",
+        options: [
+          "are large and conspicuous",
+          "are usually scented",
+          "develop from the ovary",
+          "have feathery stigma"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wind-pollinated flowers have large, feathery stigmas that trap pollen carried by the wind.",
+      ),
+      QuizQuestion(
+        question:
+            "42. In flowering plants, the stamen is made up of        (BECE 2011 Q10)",
+        options: [
+          "anther and stigma",
+          "anther and filament",
+          "stigma and filament",
+          "stigma and style"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The stamen, the male reproductive part of a flower, consists of the anther and the filament.",
+      ),
+    ],
+  ),
+    "Science JHS3 s2 ss3 - Crop Production and Flowering Plants": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -13363,8 +16900,367 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+   "Science JHS2 s2 ss4 - Animal Production": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. All the following are breeds of cattle except        (Likely Examinable Q2)",
+        options: ["N’dama", "White Fulani", "Muturu", "Sokoto Red"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Sokoto Red is a breed of goat, while N’dama, White Fulani, and Muturu are breeds of cattle.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following management practices greatly helps in record keeping?        (BECE 2012 Q25)",
+        options: ["Culling", "Debudding", "Dehorning", "Identification"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Identification allows farmers to distinguish individual animals, making record keeping accurate and effective.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The type of management system which allows farm animals to roam about freely is known as        (BECE 2013 Q9)",
+        options: [
+          "extensive system",
+          "intensive system",
+          "semi-intensive system",
+          "semi-extensive system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the extensive system, animals graze and roam freely over large areas of land.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Endoparasites in farm animals can be controlled by        (BECE 2011 Q29)",
+        options: ["drenching", "dipping", "dusting", "spraying"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Drenching administers deworming medicine orally to control internal parasites (endoparasites).",
+      ),
+      QuizQuestion(
+        question:
+            "5. In the digestive system of ruminants, vitamins are synthesized in the        (BECE 2011 Q28)",
+        options: ["abomasum", "omasum", "reticulum", "rumen"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Microorganisms in the rumen synthesize vitamins, especially B-complex vitamins and vitamin K.",
+      ),
+      QuizQuestion(
+        question:
+            "6. An example of intensive system of poultry keeping is the        (BECE 2010 Q21)",
+        options: [
+          "deep litter system",
+          "fold unit system",
+          "free range system",
+          "free running system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The deep litter system is an intensive poultry management system where birds are kept indoors on litter materials.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following farm animals is/are reared in a hutch?\nI. Goats\nII. Pigs\nIII. Rabbits        (BECE 2010 Q26)",
+        options: ["I only", "III only", "I and II only", "II and III only"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Rabbits are commonly reared in hutches, while goats and pigs are kept in pens or houses.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farm animal which has crop as part of its digestive system is the        (BECE 2010 Q11)",
+        options: ["fowl", "goat", "pig", "sheep"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A crop is a food storage organ found in birds such as fowls before food passes to the gizzard.",
+      ),
+      QuizQuestion(
+        question: "9. Chinchilla is a breed of        (BECE 2011 Q36)",
+        options: ["goats", "pigs", "rabbits", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Chinchilla is a well-known breed of rabbit commonly reared for meat and fur.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The food nutrient which ensures good health in farm animals is        (BECE 2011 Q38)",
+        options: ["carbohydrates", "minerals", "proteins", "vitamins"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Vitamins help maintain good health, support immunity, and regulate body functions in farm animals.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The use of resistant breeds of farm animals in controlling diseases is a        (BECE 2010 Q34)",
+        options: [
+          "biological control method",
+          "chemical control method",
+          "cultural control method",
+          "physical control method"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Using disease-resistant breeds is a biological method of disease control because it relies on the animals' natural genetic resistance.",
+      ),
+      QuizQuestion(
+        question: "12. Young rabbits are called        (BECE 2014 Q8)",
+        options: ["bunnies", "kids", "fingerlings", "cubs"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Young rabbits are commonly called bunnies (or kits).",
+      ),
+      QuizQuestion(
+        question: "13. Landrace is a breed of        (BECE 2011 Q9)",
+        options: ["cattle", "goats", "pigs", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Landrace is a popular breed of pig known for its excellent reproductive performance.",
+      ),
+      QuizQuestion(
+        question:
+            "14. In which part of the digestive system of a fowl does grinding of feed take place?        (BECE 2011 Q23)",
+        options: ["Crop", "Gizzard", "Oesophagus", "Proventriculus"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The gizzard is the muscular organ responsible for grinding food in birds.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A record of daily activities on a farm is termed        (BECE 2011 Q11)",
+        options: [
+          "labour record",
+          "inventory record",
+          "farm diary",
+          "production record"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A farm diary is used to record the day-to-day activities and events that take place on the farm.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Balanced ration enables animals to        (BECE 2019 Q39)",
+        options: [
+          "increase fertility rate",
+          "maintain normal growth",
+          "increase meat production",
+          "maintain energy level of work animals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A balanced ration provides all the nutrients needed for proper body maintenance, health, and normal growth.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The process of removing unproductive poultry birds from a flock is referred to as        (BECE 2014 Q20)",
+        options: ["culling", "dehorning", "debeaking", "identification"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Culling is the removal of weak, diseased, old, or unproductive birds from a flock to improve productivity.",
+      ),
+    ],
+  ),
+   "Science JHS3 s2 ss4 - Animal Production": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. All the following are breeds of cattle except        (Likely Examinable Q2)",
+        options: ["N’dama", "White Fulani", "Muturu", "Sokoto Red"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Sokoto Red is a breed of goat, while N’dama, White Fulani, and Muturu are breeds of cattle.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following management practices greatly helps in record keeping?        (BECE 2012 Q25)",
+        options: ["Culling", "Debudding", "Dehorning", "Identification"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Identification allows farmers to distinguish individual animals, making record keeping accurate and effective.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The type of management system which allows farm animals to roam about freely is known as        (BECE 2013 Q9)",
+        options: [
+          "extensive system",
+          "intensive system",
+          "semi-intensive system",
+          "semi-extensive system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the extensive system, animals graze and roam freely over large areas of land.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Endoparasites in farm animals can be controlled by        (BECE 2011 Q29)",
+        options: ["drenching", "dipping", "dusting", "spraying"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Drenching administers deworming medicine orally to control internal parasites (endoparasites).",
+      ),
+      QuizQuestion(
+        question:
+            "5. In the digestive system of ruminants, vitamins are synthesized in the        (BECE 2011 Q28)",
+        options: ["abomasum", "omasum", "reticulum", "rumen"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Microorganisms in the rumen synthesize vitamins, especially B-complex vitamins and vitamin K.",
+      ),
+      QuizQuestion(
+        question:
+            "6. An example of intensive system of poultry keeping is the        (BECE 2010 Q21)",
+        options: [
+          "deep litter system",
+          "fold unit system",
+          "free range system",
+          "free running system"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The deep litter system is an intensive poultry management system where birds are kept indoors on litter materials.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following farm animals is/are reared in a hutch?\nI. Goats\nII. Pigs\nIII. Rabbits        (BECE 2010 Q26)",
+        options: ["I only", "III only", "I and II only", "II and III only"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Rabbits are commonly reared in hutches, while goats and pigs are kept in pens or houses.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farm animal which has crop as part of its digestive system is the        (BECE 2010 Q11)",
+        options: ["fowl", "goat", "pig", "sheep"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A crop is a food storage organ found in birds such as fowls before food passes to the gizzard.",
+      ),
+      QuizQuestion(
+        question: "9. Chinchilla is a breed of        (BECE 2011 Q36)",
+        options: ["goats", "pigs", "rabbits", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Chinchilla is a well-known breed of rabbit commonly reared for meat and fur.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The food nutrient which ensures good health in farm animals is        (BECE 2011 Q38)",
+        options: ["carbohydrates", "minerals", "proteins", "vitamins"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Vitamins help maintain good health, support immunity, and regulate body functions in farm animals.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The use of resistant breeds of farm animals in controlling diseases is a        (BECE 2010 Q34)",
+        options: [
+          "biological control method",
+          "chemical control method",
+          "cultural control method",
+          "physical control method"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Using disease-resistant breeds is a biological method of disease control because it relies on the animals' natural genetic resistance.",
+      ),
+      QuizQuestion(
+        question: "12. Young rabbits are called        (BECE 2014 Q8)",
+        options: ["bunnies", "kids", "fingerlings", "cubs"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Young rabbits are commonly called bunnies (or kits).",
+      ),
+      QuizQuestion(
+        question: "13. Landrace is a breed of        (BECE 2011 Q9)",
+        options: ["cattle", "goats", "pigs", "sheep"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Landrace is a popular breed of pig known for its excellent reproductive performance.",
+      ),
+      QuizQuestion(
+        question:
+            "14. In which part of the digestive system of a fowl does grinding of feed take place?        (BECE 2011 Q23)",
+        options: ["Crop", "Gizzard", "Oesophagus", "Proventriculus"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The gizzard is the muscular organ responsible for grinding food in birds.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A record of daily activities on a farm is termed        (BECE 2011 Q11)",
+        options: [
+          "labour record",
+          "inventory record",
+          "farm diary",
+          "production record"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A farm diary is used to record the day-to-day activities and events that take place on the farm.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Balanced ration enables animals to        (BECE 2019 Q39)",
+        options: [
+          "increase fertility rate",
+          "maintain normal growth",
+          "increase meat production",
+          "maintain energy level of work animals"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A balanced ration provides all the nutrients needed for proper body maintenance, health, and normal growth.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The process of removing unproductive poultry birds from a flock is referred to as        (BECE 2014 Q20)",
+        options: ["culling", "dehorning", "debeaking", "identification"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Culling is the removal of weak, diseased, old, or unproductive birds from a flock to improve productivity.",
+      ),
+    ],
+  ),
 
-  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)": QuizModel(
+  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -13744,6 +17640,15133 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation:
             "Digestion is completed in the small intestine before nutrients are absorbed into the bloodstream.",
+      ),
+    ],
+  ),
+  "Science JHS2 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Malnutrition is a condition that occurs when the body does not get the right balance of nutrients. It can cause:        (BECE 2012 Q1)",
+        options: ["obesity", "rickets", "scurvy", "kwashiorkor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kwashiorkor is a form of malnutrition caused by severe protein deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following is a symptom of night blindness?        (BECE 2014 Q6)",
+        options: [
+          "Poor night vision",
+          "Swollen legs",
+          "Bleeding gums",
+          "Weak bones"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Night blindness is characterized by poor vision in dim light and is commonly caused by vitamin A deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following food substances is not involved in respiration?        (BECE 2007 Q10)",
+        options: ["Vitamin", "Glucose", "Protein", "Fat"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Vitamins regulate body processes but do not serve as respiratory substrates for energy production.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Deficiency of iron in the diet leads to        (BECE 2018 Q3)",
+        options: ["rickets", "anemia", "scurvy", "goiter"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron deficiency reduces the production of haemoglobin, leading to anaemia.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Iodine deficiency in humans results in        (BECE 2016 Q2)",
+        options: ["anemia", "scurvy", "rickets", "goiter"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Iodine deficiency causes enlargement of the thyroid gland, resulting in goiter.",
+      ),
+      QuizQuestion(
+        question:
+            "6. External respiration in living organisms involves the        (BECE 2013 Q10)",
+        options: [
+          "production of energy",
+          "exhaling of carbon dioxide",
+          "inhaling of oxygen",
+          "intake of oxygen and expiration of carbon dioxide"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "External respiration is the exchange of gases with the environment by taking in oxygen and releasing carbon dioxide.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The gas produced when glucose is oxidized during aerobic respiration is        (BECE 2016 Q17)",
+        options: ["carbon dioxide", "nitrogen", "hydrogen", "oxygen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aerobic respiration produces carbon dioxide, water, and energy when glucose is completely oxidized.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following statements about aerobic and anaerobic respiration is not correct?        (BECE 2021 Q11)",
+        options: [
+          "Water is produced as a by-product in aerobic respiration.",
+          "Alcohol or lactic acid is produced in anaerobic respiration.",
+          "No oxygen is required in anaerobic respiration.",
+          "Very little energy is released in aerobic respiration."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Aerobic respiration releases a large amount of energy, not very little. Anaerobic respiration releases much less energy.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The function of the hair in the nose of humans is to        (BECE 2018 Q16)",
+        options: [
+          "make breathing easier",
+          "keep nose moist",
+          "filter dust from the air breathed in",
+          "keep the nose warm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The hairs in the nose trap dust, pollen, and other particles, preventing them from entering the respiratory tract.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Exchange of gases takes place in the respiratory system through the        (BECE 2005 Q10)",
+        options: ["alveoli", "bronchus", "trachea", "bronchioles"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The alveoli are tiny air sacs in the lungs where oxygen enters the blood and carbon dioxide leaves the blood.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The different types of teeth that an animal has gives an indication of the animal's        (BECE 2007 Q12)",
+        options: ["digestion", "growth", "feeding habit", "reproduction"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The type and arrangement of teeth show the kind of food an animal eats, indicating its feeding habit.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The type of teeth used for biting and cutting food items are the        (BECE 2013 Q6)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Incisors are the front teeth specialized for biting and cutting food.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The type of teeth used by mammals to crush food items is        (BECE 2010 Q31)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Molars are broad, flat teeth specialized for crushing and grinding food during chewing.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following types of teeth is used by mammals to tear food materials?        (BECE 2014 Q30)",
+        options: ["Incisors", "Canines", "Molars", "Premolars"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Canines are pointed teeth adapted for tearing and holding food, especially meat.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which part of the human tooth contains blood vessels and nerves?        (BECE 2022 Q13)",
+        options: ["Enamel", "Dentine", "Pulp cavity", "Cement"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pulp cavity contains blood vessels, nerves, and connective tissue that nourish the tooth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following blood vessels carries deoxygenated blood?        (BECE 2000 Q27)",
+        options: [
+          "Aorta",
+          "Pulmonary artery",
+          "Pulmonary vein",
+          "Renal artery"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Oxygen is made available to all cells of the human body by the        (BECE 2009 Q18)",
+        options: [
+          "plasma",
+          "red blood cells",
+          "white blood cells",
+          "platelets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which transports oxygen from the lungs to all body cells.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The function of the platelets in the circulatory system of humans is to        (BECE 2018 Q40)",
+        options: [
+          "transport oxygen",
+          "transport carbon dioxide",
+          "defend the body",
+          "clot the blood"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help stop bleeding by forming blood clots at the site of injury.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following substances are carried by the blood?\nI. Nutrients\nII. Oxygen\nIII. Urine\nIV. Carbon dioxide        (BECE 2019 Q27)",
+        options: [
+          "I and II only",
+          "I, II and IV only",
+          "II, III and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Blood transports nutrients, oxygen, and carbon dioxide. Urine is not carried by the blood as a transported substance; it is produced in the kidneys.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The function of the white blood cells in humans is to        (BECE 2018 Q36)",
+        options: [
+          "produce haemoglobin",
+          "ensure blood clot during an injury",
+          "produce antibodies to fight disease-causing organisms",
+          "produce digestive enzymes"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "White blood cells protect the body against infection by producing antibodies and destroying harmful microorganisms.",
+      ),
+      QuizQuestion(
+        question: "21. The male sex cell is the        (BECE 2002a Q30)",
+        options: ["penis", "scrotum", "sperm", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sperm is the male reproductive cell (gamete) responsible for fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The ovum of a mammal develops from        (BECE 2002b Q20)",
+        options: [
+          "eggs fertilized inside the body",
+          "eggs fertilized outside the body",
+          "unfertilized eggs",
+          "only female sex cells"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "An ovum is an unfertilized egg cell produced in the ovary before fertilization occurs.",
+      ),
+      QuizQuestion(
+        question: "23. The testes in mammals produce        (BECE 2004 Q36)",
+        options: ["blood", "fluid", "sperms", "urine"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The testes are the male reproductive organs that produce sperm cells.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The human sex cell that takes part in reproduction is the        (BECE 2005 Q14)",
+        options: ["penis", "scrotum", "sperms", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sperm is the male sex cell that fuses with the ovum during fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The process that takes place when the sperm and the egg of a human fuse together is referred to as        (BECE 2010 Q19)",
+        options: ["fertilization", "menstruation", "ovulation", "reproduction"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Fertilization is the fusion of the male and female gametes to form a zygote.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Male sex cells are produced in the        (BECE 2012 Q38)",
+        options: ["testes", "ovaries", "penis", "prostate gland"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The testes are responsible for producing sperm cells in males.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The organ where a mammalian embryo is safely retained during its development is the        (BECE 2015 Q26)",
+        options: ["Fallopian tube", "ovary", "uterus", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The uterus is the organ where the embryo implants and develops until birth.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Fertilization in humans usually takes place in the        (BECE 2015 Q30)",
+        options: ["ovary", "uterus", "Fallopian tube", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In humans, fertilization normally occurs in the Fallopian tube (oviduct).",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following factors contributes to early parenthood?\nI. Poverty\nII. Lack of parental care\nIII. Illiteracy\nIV. Peer pressure        (BECE 2012 Q33)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I, II and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Poverty, lack of parental care, illiteracy, and peer pressure can all contribute to early parenthood.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following factors does not lead to teenage pregnancy?\nI. Peer pressure\nII. Curiosity\nIII. Good parental care\nIV. Financial insecurity        (BECE 2018 Q29)",
+        options: [
+          "I and II only",
+          "III and IV only",
+          "III only",
+          "I, II and IV"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Good parental care helps prevent teenage pregnancy, while the other listed factors increase its risk.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A substance which helps in the digestion of food material is called        (BECE 2008 Q23)",
+        options: ["hormone", "enzyme", "plasma", "saliva"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Enzymes are biological catalysts that speed up the digestion of food.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The end product of the digestion of fats and oils is        (BECE 2008 Q21)",
+        options: [
+          "amino acids",
+          "glucose",
+          "fatty acids and glycerol",
+          "maltose"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Fats and oils are digested into fatty acids and glycerol by the action of lipase enzymes.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which of the following substances is an enzyme?        (BECE 2007 Q17)",
+        options: ["Insulin", "Pepsin", "Bile", "Maltose"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pepsin is a digestive enzyme that breaks down proteins in the stomach.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Digestion of starch starts from the        (BECE 2012 Q11)",
+        options: ["stomach", "duodenum", "mouth", "ileum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion of starch begins in the mouth where salivary amylase starts breaking down starch into maltose.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Digestion is completely ended in the        (BECE 2022 Q39)",
+        options: ["stomach", "large intestine", "small intestine", "rectum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion is completed in the small intestine before nutrients are absorbed into the bloodstream.",
+      ),
+    ],
+  ),
+
+  "Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Malnutrition is a condition that occurs when the body does not get the right balance of nutrients. It can cause:        (BECE 2012 Q1)",
+        options: ["obesity", "rickets", "scurvy", "kwashiorkor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kwashiorkor is a form of malnutrition caused by severe protein deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following is a symptom of night blindness?        (BECE 2014 Q6)",
+        options: [
+          "Poor night vision",
+          "Swollen legs",
+          "Bleeding gums",
+          "Weak bones"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Night blindness is characterized by poor vision in dim light and is commonly caused by vitamin A deficiency.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following food substances is not involved in respiration?        (BECE 2007 Q10)",
+        options: ["Vitamin", "Glucose", "Protein", "Fat"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Vitamins regulate body processes but do not serve as respiratory substrates for energy production.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Deficiency of iron in the diet leads to        (BECE 2018 Q3)",
+        options: ["rickets", "anemia", "scurvy", "goiter"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron deficiency reduces the production of haemoglobin, leading to anaemia.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Iodine deficiency in humans results in        (BECE 2016 Q2)",
+        options: ["anemia", "scurvy", "rickets", "goiter"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Iodine deficiency causes enlargement of the thyroid gland, resulting in goiter.",
+      ),
+      QuizQuestion(
+        question:
+            "6. External respiration in living organisms involves the        (BECE 2013 Q10)",
+        options: [
+          "production of energy",
+          "exhaling of carbon dioxide",
+          "inhaling of oxygen",
+          "intake of oxygen and expiration of carbon dioxide"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "External respiration is the exchange of gases with the environment by taking in oxygen and releasing carbon dioxide.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The gas produced when glucose is oxidized during aerobic respiration is        (BECE 2016 Q17)",
+        options: ["carbon dioxide", "nitrogen", "hydrogen", "oxygen"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aerobic respiration produces carbon dioxide, water, and energy when glucose is completely oxidized.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following statements about aerobic and anaerobic respiration is not correct?        (BECE 2021 Q11)",
+        options: [
+          "Water is produced as a by-product in aerobic respiration.",
+          "Alcohol or lactic acid is produced in anaerobic respiration.",
+          "No oxygen is required in anaerobic respiration.",
+          "Very little energy is released in aerobic respiration."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Aerobic respiration releases a large amount of energy, not very little. Anaerobic respiration releases much less energy.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The function of the hair in the nose of humans is to        (BECE 2018 Q16)",
+        options: [
+          "make breathing easier",
+          "keep nose moist",
+          "filter dust from the air breathed in",
+          "keep the nose warm"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The hairs in the nose trap dust, pollen, and other particles, preventing them from entering the respiratory tract.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Exchange of gases takes place in the respiratory system through the        (BECE 2005 Q10)",
+        options: ["alveoli", "bronchus", "trachea", "bronchioles"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The alveoli are tiny air sacs in the lungs where oxygen enters the blood and carbon dioxide leaves the blood.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The different types of teeth that an animal has gives an indication of the animal's        (BECE 2007 Q12)",
+        options: ["digestion", "growth", "feeding habit", "reproduction"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The type and arrangement of teeth show the kind of food an animal eats, indicating its feeding habit.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The type of teeth used for biting and cutting food items are the        (BECE 2013 Q6)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Incisors are the front teeth specialized for biting and cutting food.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The type of teeth used by mammals to crush food items is        (BECE 2010 Q31)",
+        options: ["incisors", "canines", "premolars", "molars"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Molars are broad, flat teeth specialized for crushing and grinding food during chewing.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following types of teeth is used by mammals to tear food materials?        (BECE 2014 Q30)",
+        options: ["Incisors", "Canines", "Molars", "Premolars"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Canines are pointed teeth adapted for tearing and holding food, especially meat.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which part of the human tooth contains blood vessels and nerves?        (BECE 2022 Q13)",
+        options: ["Enamel", "Dentine", "Pulp cavity", "Cement"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pulp cavity contains blood vessels, nerves, and connective tissue that nourish the tooth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following blood vessels carries deoxygenated blood?        (BECE 2000 Q27)",
+        options: [
+          "Aorta",
+          "Pulmonary artery",
+          "Pulmonary vein",
+          "Renal artery"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Oxygen is made available to all cells of the human body by the        (BECE 2009 Q18)",
+        options: [
+          "plasma",
+          "red blood cells",
+          "white blood cells",
+          "platelets"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Red blood cells contain haemoglobin, which transports oxygen from the lungs to all body cells.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The function of the platelets in the circulatory system of humans is to        (BECE 2018 Q40)",
+        options: [
+          "transport oxygen",
+          "transport carbon dioxide",
+          "defend the body",
+          "clot the blood"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Platelets help stop bleeding by forming blood clots at the site of injury.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following substances are carried by the blood?\nI. Nutrients\nII. Oxygen\nIII. Urine\nIV. Carbon dioxide        (BECE 2019 Q27)",
+        options: [
+          "I and II only",
+          "I, II and IV only",
+          "II, III and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Blood transports nutrients, oxygen, and carbon dioxide. Urine is not carried by the blood as a transported substance; it is produced in the kidneys.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The function of the white blood cells in humans is to        (BECE 2018 Q36)",
+        options: [
+          "produce haemoglobin",
+          "ensure blood clot during an injury",
+          "produce antibodies to fight disease-causing organisms",
+          "produce digestive enzymes"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "White blood cells protect the body against infection by producing antibodies and destroying harmful microorganisms.",
+      ),
+      QuizQuestion(
+        question: "21. The male sex cell is the        (BECE 2002a Q30)",
+        options: ["penis", "scrotum", "sperm", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sperm is the male reproductive cell (gamete) responsible for fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The ovum of a mammal develops from        (BECE 2002b Q20)",
+        options: [
+          "eggs fertilized inside the body",
+          "eggs fertilized outside the body",
+          "unfertilized eggs",
+          "only female sex cells"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "An ovum is an unfertilized egg cell produced in the ovary before fertilization occurs.",
+      ),
+      QuizQuestion(
+        question: "23. The testes in mammals produce        (BECE 2004 Q36)",
+        options: ["blood", "fluid", "sperms", "urine"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The testes are the male reproductive organs that produce sperm cells.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The human sex cell that takes part in reproduction is the        (BECE 2005 Q14)",
+        options: ["penis", "scrotum", "sperms", "testes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sperm is the male sex cell that fuses with the ovum during fertilization.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The process that takes place when the sperm and the egg of a human fuse together is referred to as        (BECE 2010 Q19)",
+        options: ["fertilization", "menstruation", "ovulation", "reproduction"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Fertilization is the fusion of the male and female gametes to form a zygote.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Male sex cells are produced in the        (BECE 2012 Q38)",
+        options: ["testes", "ovaries", "penis", "prostate gland"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The testes are responsible for producing sperm cells in males.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The organ where a mammalian embryo is safely retained during its development is the        (BECE 2015 Q26)",
+        options: ["Fallopian tube", "ovary", "uterus", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The uterus is the organ where the embryo implants and develops until birth.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Fertilization in humans usually takes place in the        (BECE 2015 Q30)",
+        options: ["ovary", "uterus", "Fallopian tube", "vagina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In humans, fertilization normally occurs in the Fallopian tube (oviduct).",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following factors contributes to early parenthood?\nI. Poverty\nII. Lack of parental care\nIII. Illiteracy\nIV. Peer pressure        (BECE 2012 Q33)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I, II and IV only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Poverty, lack of parental care, illiteracy, and peer pressure can all contribute to early parenthood.",
+      ),
+      QuizQuestion(
+        question:
+            "30. Which of the following factors does not lead to teenage pregnancy?\nI. Peer pressure\nII. Curiosity\nIII. Good parental care\nIV. Financial insecurity        (BECE 2018 Q29)",
+        options: [
+          "I and II only",
+          "III and IV only",
+          "III only",
+          "I, II and IV"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Good parental care helps prevent teenage pregnancy, while the other listed factors increase its risk.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A substance which helps in the digestion of food material is called        (BECE 2008 Q23)",
+        options: ["hormone", "enzyme", "plasma", "saliva"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Enzymes are biological catalysts that speed up the digestion of food.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The end product of the digestion of fats and oils is        (BECE 2008 Q21)",
+        options: [
+          "amino acids",
+          "glucose",
+          "fatty acids and glycerol",
+          "maltose"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Fats and oils are digested into fatty acids and glycerol by the action of lipase enzymes.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Which of the following substances is an enzyme?        (BECE 2007 Q17)",
+        options: ["Insulin", "Pepsin", "Bile", "Maltose"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Pepsin is a digestive enzyme that breaks down proteins in the stomach.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Digestion of starch starts from the        (BECE 2012 Q11)",
+        options: ["stomach", "duodenum", "mouth", "ileum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion of starch begins in the mouth where salivary amylase starts breaking down starch into maltose.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Digestion is completely ended in the        (BECE 2022 Q39)",
+        options: ["stomach", "large intestine", "small intestine", "rectum"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Digestion is completed in the small intestine before nutrients are absorbed into the bloodstream.",
+      ),
+    ],
+  ),
+
+
+  "Science JHS1 s3 ss2 - Solar System": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The heavenly body that produces and emits its own light is        (BECE 2006 Q15)",
+        options: ["Galaxy", "Meteoroid", "The moon", "The sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star that produces and emits its own light and heat. The moon only reflects light from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following heavenly bodies is at the centre of the planetary system?        (BECE 2008 Q2)",
+        options: ["Ceres", "Mercury", "Pluto", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar or planetary system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question: "3. The sun and the planets form the        (BECE 2001 Q6)",
+        options: ["Atmosphere", "Constellation", "Milky Way", "Solar system"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun, the planets and other heavenly bodies that move around the sun collectively form the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Seasonal changes are the result of the        (BECE 2001 Q17)",
+        options: [
+          "Rotation and tilting of the earth",
+          "Revolution and tilting of the earth",
+          "Revolution and tilting of the moon",
+          "Revolution and rotation of the moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Seasons occur because the earth revolves around the sun while its axis remains tilted.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The farther away a planet is from the sun, the        (BECE 2001 Q33)",
+        options: [
+          "Colder the planet",
+          "Hotter the planet",
+          "Shorter the time it takes to go round the sun",
+          "Shorter the length between day and night"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Planets farther from the sun generally receive less heat and light, making them colder than planets nearer the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many days does the moon take to go round the earth?        (BECE 2012 Q29)",
+        options: ["31", "30", "29", "27"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 27 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following heavenly bodies is a star?        (BECE 2005 Q29)",
+        options: ["Earth", "Moon", "Sun", "Milky Way"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces its own light and heat. The earth and moon do not produce their own light.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The planet in our solar system which has the largest orbit is        (BECE 2002 Q42)",
+        options: ["Jupiter", "Mars", "Pluto", "Venus"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Among the heavenly bodies listed, Pluto is the farthest from the sun and therefore has the largest orbit.",
+      ),
+      QuizQuestion(
+        question:
+            "9. How many days in a month does the moon appear?        (BECE 2002 Q43)",
+        options: ["7 days", "14 days", "21 days", "28 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon goes through its main phases over approximately 28 days, making up a lunar month.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The earth moves completely round the sun once in every        (BECE 2003 Q37)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The earth takes approximately 365 days, or one year, to complete one revolution around the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "11. A smaller heavenly body which orbits a bigger one could be described as a        (BECE 2003 Q38)",
+        options: ["Comet", "Meteor", "Moon", "Sun"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A moon is a natural satellite that moves around a larger heavenly body such as a planet.",
+      ),
+      QuizQuestion(
+        question:
+            "12. How long does it take the moon to move completely around the earth?        (BECE 2003 Q39)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to move completely around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The planet which is farthest away from the sun is        (BECE 2005 Q31)",
+        options: ["Earth", "Mercury", "Jupiter", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Among the planets provided in the options, Jupiter is the farthest away from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following bodies is at the centre of the solar system?        (BECE 2007 Q31)",
+        options: ["Earth", "Moon", "Mars", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is located at the centre of the solar system, while the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "15. How long does it take the moon to move completely around the earth?        (BECE 2008 Q31)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Day and night occur because the earth        (BECE 2005 Q11)",
+        options: [
+          "Moves round the sun",
+          "Moves from east to west",
+          "Moves round the moon",
+          "Rotates on its axis"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "As the earth rotates on its axis, the side facing the sun experiences day while the side facing away experiences night.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The fifth planet from the sun in the solar system is        (BECE 2010 Q18)",
+        options: ["Jupiter", "Mars", "Neptune", "Venus"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Jupiter is the fifth planet from the sun, coming after Mercury, Venus, Earth and Mars.",
+      ),
+      QuizQuestion(
+        question: "18. The solar system is made up of        (BECE 2013 Q8)",
+        options: [
+          "Sun, planets and other heavenly bodies",
+          "Sun, comets and meteors",
+          "Sun, earth and moon",
+          "Sun, planets and other heavenly bodies"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The solar system consists of the sun, planets, moons, asteroids, comets and other heavenly bodies that move within it.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following heavenly bodies is a star?        (BECE 2015 Q21)",
+        options: ["Jupiter", "Moon", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces and emits its own light and heat.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The nearest planet to the sun in the solar system is        (BECE 2009 Q31)",
+        options: ["Earth", "Mars", "Mercury", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is the first and nearest planet to the sun in the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following planets is at the centre of the solar system?        (BECE 2021 Q34)",
+        options: ["Earth", "Mars", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following planets are closer to the sun than the Earth?        (BECE 2022 Q13)",
+        options: [
+          "Venus and Mercury",
+          "Venus and Mars",
+          "Mercury and Mars",
+          "Venus and Saturn"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mercury and Venus are the first and second planets from the sun, while Earth is the third.",
+      ),
+      QuizQuestion(
+        question:
+            "23. People who travel in space are called        (BECE 2022 Q12)",
+        options: ["Ecologists", "Astronauts", "Space shuttles", "Astronomers"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Astronauts are specially trained people who travel and work in space.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The brightest of all the planets is        (BECE 2023 Q10)",
+        options: ["Saturn", "Uranus", "Venus", "Mars"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Venus is the brightest planet as seen from Earth because its thick clouds reflect a large amount of sunlight.",
+      ),
+      QuizQuestion(
+        question: "25. Artificial satellites can be used for\n"
+            "I. communication\n"
+            "II. oil and gas exploration\n"
+            "III. meteorological studies        (BECE 2023 Q11)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Artificial satellites are used for communication, gathering information for resource exploration and studying weather conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The grouping together of many stars is known as        (BECE 2023 Q18)",
+        options: ["Galaxy", "Comet", "Solar system", "Astronomy"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A galaxy is a very large collection of stars, gas and dust held together by gravity.",
+      ),
+    ],
+  ),
+   "Science JHS2 s3 ss2 - Solar System": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The heavenly body that produces and emits its own light is        (BECE 2006 Q15)",
+        options: ["Galaxy", "Meteoroid", "The moon", "The sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star that produces and emits its own light and heat. The moon only reflects light from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following heavenly bodies is at the centre of the planetary system?        (BECE 2008 Q2)",
+        options: ["Ceres", "Mercury", "Pluto", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar or planetary system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question: "3. The sun and the planets form the        (BECE 2001 Q6)",
+        options: ["Atmosphere", "Constellation", "Milky Way", "Solar system"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun, the planets and other heavenly bodies that move around the sun collectively form the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Seasonal changes are the result of the        (BECE 2001 Q17)",
+        options: [
+          "Rotation and tilting of the earth",
+          "Revolution and tilting of the earth",
+          "Revolution and tilting of the moon",
+          "Revolution and rotation of the moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Seasons occur because the earth revolves around the sun while its axis remains tilted.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The farther away a planet is from the sun, the        (BECE 2001 Q33)",
+        options: [
+          "Colder the planet",
+          "Hotter the planet",
+          "Shorter the time it takes to go round the sun",
+          "Shorter the length between day and night"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Planets farther from the sun generally receive less heat and light, making them colder than planets nearer the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many days does the moon take to go round the earth?        (BECE 2012 Q29)",
+        options: ["31", "30", "29", "27"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 27 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following heavenly bodies is a star?        (BECE 2005 Q29)",
+        options: ["Earth", "Moon", "Sun", "Milky Way"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces its own light and heat. The earth and moon do not produce their own light.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The planet in our solar system which has the largest orbit is        (BECE 2002 Q42)",
+        options: ["Jupiter", "Mars", "Pluto", "Venus"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Among the heavenly bodies listed, Pluto is the farthest from the sun and therefore has the largest orbit.",
+      ),
+      QuizQuestion(
+        question:
+            "9. How many days in a month does the moon appear?        (BECE 2002 Q43)",
+        options: ["7 days", "14 days", "21 days", "28 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon goes through its main phases over approximately 28 days, making up a lunar month.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The earth moves completely round the sun once in every        (BECE 2003 Q37)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The earth takes approximately 365 days, or one year, to complete one revolution around the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "11. A smaller heavenly body which orbits a bigger one could be described as a        (BECE 2003 Q38)",
+        options: ["Comet", "Meteor", "Moon", "Sun"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A moon is a natural satellite that moves around a larger heavenly body such as a planet.",
+      ),
+      QuizQuestion(
+        question:
+            "12. How long does it take the moon to move completely around the earth?        (BECE 2003 Q39)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to move completely around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The planet which is farthest away from the sun is        (BECE 2005 Q31)",
+        options: ["Earth", "Mercury", "Jupiter", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Among the planets provided in the options, Jupiter is the farthest away from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following bodies is at the centre of the solar system?        (BECE 2007 Q31)",
+        options: ["Earth", "Moon", "Mars", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is located at the centre of the solar system, while the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "15. How long does it take the moon to move completely around the earth?        (BECE 2008 Q31)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Day and night occur because the earth        (BECE 2005 Q11)",
+        options: [
+          "Moves round the sun",
+          "Moves from east to west",
+          "Moves round the moon",
+          "Rotates on its axis"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "As the earth rotates on its axis, the side facing the sun experiences day while the side facing away experiences night.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The fifth planet from the sun in the solar system is        (BECE 2010 Q18)",
+        options: ["Jupiter", "Mars", "Neptune", "Venus"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Jupiter is the fifth planet from the sun, coming after Mercury, Venus, Earth and Mars.",
+      ),
+      QuizQuestion(
+        question: "18. The solar system is made up of        (BECE 2013 Q8)",
+        options: [
+          "Sun, planets and other heavenly bodies",
+          "Sun, comets and meteors",
+          "Sun, earth and moon",
+          "Sun, planets and other heavenly bodies"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The solar system consists of the sun, planets, moons, asteroids, comets and other heavenly bodies that move within it.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following heavenly bodies is a star?        (BECE 2015 Q21)",
+        options: ["Jupiter", "Moon", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces and emits its own light and heat.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The nearest planet to the sun in the solar system is        (BECE 2009 Q31)",
+        options: ["Earth", "Mars", "Mercury", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is the first and nearest planet to the sun in the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following planets is at the centre of the solar system?        (BECE 2021 Q34)",
+        options: ["Earth", "Mars", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following planets are closer to the sun than the Earth?        (BECE 2022 Q13)",
+        options: [
+          "Venus and Mercury",
+          "Venus and Mars",
+          "Mercury and Mars",
+          "Venus and Saturn"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mercury and Venus are the first and second planets from the sun, while Earth is the third.",
+      ),
+      QuizQuestion(
+        question:
+            "23. People who travel in space are called        (BECE 2022 Q12)",
+        options: ["Ecologists", "Astronauts", "Space shuttles", "Astronomers"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Astronauts are specially trained people who travel and work in space.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The brightest of all the planets is        (BECE 2023 Q10)",
+        options: ["Saturn", "Uranus", "Venus", "Mars"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Venus is the brightest planet as seen from Earth because its thick clouds reflect a large amount of sunlight.",
+      ),
+      QuizQuestion(
+        question: "25. Artificial satellites can be used for\n"
+            "I. communication\n"
+            "II. oil and gas exploration\n"
+            "III. meteorological studies        (BECE 2023 Q11)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Artificial satellites are used for communication, gathering information for resource exploration and studying weather conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The grouping together of many stars is known as        (BECE 2023 Q18)",
+        options: ["Galaxy", "Comet", "Solar system", "Astronomy"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A galaxy is a very large collection of stars, gas and dust held together by gravity.",
+      ),
+    ],
+  ),
+   "Science JHS3 s3 ss2 - Solar System": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The heavenly body that produces and emits its own light is        (BECE 2006 Q15)",
+        options: ["Galaxy", "Meteoroid", "The moon", "The sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star that produces and emits its own light and heat. The moon only reflects light from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Which of the following heavenly bodies is at the centre of the planetary system?        (BECE 2008 Q2)",
+        options: ["Ceres", "Mercury", "Pluto", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar or planetary system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question: "3. The sun and the planets form the        (BECE 2001 Q6)",
+        options: ["Atmosphere", "Constellation", "Milky Way", "Solar system"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun, the planets and other heavenly bodies that move around the sun collectively form the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Seasonal changes are the result of the        (BECE 2001 Q17)",
+        options: [
+          "Rotation and tilting of the earth",
+          "Revolution and tilting of the earth",
+          "Revolution and tilting of the moon",
+          "Revolution and rotation of the moon"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Seasons occur because the earth revolves around the sun while its axis remains tilted.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The farther away a planet is from the sun, the        (BECE 2001 Q33)",
+        options: [
+          "Colder the planet",
+          "Hotter the planet",
+          "Shorter the time it takes to go round the sun",
+          "Shorter the length between day and night"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Planets farther from the sun generally receive less heat and light, making them colder than planets nearer the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "6. How many days does the moon take to go round the earth?        (BECE 2012 Q29)",
+        options: ["31", "30", "29", "27"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 27 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following heavenly bodies is a star?        (BECE 2005 Q29)",
+        options: ["Earth", "Moon", "Sun", "Milky Way"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces its own light and heat. The earth and moon do not produce their own light.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The planet in our solar system which has the largest orbit is        (BECE 2002 Q42)",
+        options: ["Jupiter", "Mars", "Pluto", "Venus"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Among the heavenly bodies listed, Pluto is the farthest from the sun and therefore has the largest orbit.",
+      ),
+      QuizQuestion(
+        question:
+            "9. How many days in a month does the moon appear?        (BECE 2002 Q43)",
+        options: ["7 days", "14 days", "21 days", "28 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon goes through its main phases over approximately 28 days, making up a lunar month.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The earth moves completely round the sun once in every        (BECE 2003 Q37)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The earth takes approximately 365 days, or one year, to complete one revolution around the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "11. A smaller heavenly body which orbits a bigger one could be described as a        (BECE 2003 Q38)",
+        options: ["Comet", "Meteor", "Moon", "Sun"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A moon is a natural satellite that moves around a larger heavenly body such as a planet.",
+      ),
+      QuizQuestion(
+        question:
+            "12. How long does it take the moon to move completely around the earth?        (BECE 2003 Q39)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to move completely around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The planet which is farthest away from the sun is        (BECE 2005 Q31)",
+        options: ["Earth", "Mercury", "Jupiter", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Among the planets provided in the options, Jupiter is the farthest away from the sun.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following bodies is at the centre of the solar system?        (BECE 2007 Q31)",
+        options: ["Earth", "Moon", "Mars", "Sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The sun is located at the centre of the solar system, while the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "15. How long does it take the moon to move completely around the earth?        (BECE 2008 Q31)",
+        options: ["1 day", "28 days", "30 days", "365 days"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The moon takes approximately 28 days to complete one revolution around the earth.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Day and night occur because the earth        (BECE 2005 Q11)",
+        options: [
+          "Moves round the sun",
+          "Moves from east to west",
+          "Moves round the moon",
+          "Rotates on its axis"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "As the earth rotates on its axis, the side facing the sun experiences day while the side facing away experiences night.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The fifth planet from the sun in the solar system is        (BECE 2010 Q18)",
+        options: ["Jupiter", "Mars", "Neptune", "Venus"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Jupiter is the fifth planet from the sun, coming after Mercury, Venus, Earth and Mars.",
+      ),
+      QuizQuestion(
+        question: "18. The solar system is made up of        (BECE 2013 Q8)",
+        options: [
+          "Sun, planets and other heavenly bodies",
+          "Sun, comets and meteors",
+          "Sun, earth and moon",
+          "Sun, planets and other heavenly bodies"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The solar system consists of the sun, planets, moons, asteroids, comets and other heavenly bodies that move within it.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Which of the following heavenly bodies is a star?        (BECE 2015 Q21)",
+        options: ["Jupiter", "Moon", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is a star because it produces and emits its own light and heat.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The nearest planet to the sun in the solar system is        (BECE 2009 Q31)",
+        options: ["Earth", "Mars", "Mercury", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is the first and nearest planet to the sun in the solar system.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following planets is at the centre of the solar system?        (BECE 2021 Q34)",
+        options: ["Earth", "Mars", "Sun", "Venus"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The sun is at the centre of the solar system, and the planets revolve around it.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following planets are closer to the sun than the Earth?        (BECE 2022 Q13)",
+        options: [
+          "Venus and Mercury",
+          "Venus and Mars",
+          "Mercury and Mars",
+          "Venus and Saturn"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mercury and Venus are the first and second planets from the sun, while Earth is the third.",
+      ),
+      QuizQuestion(
+        question:
+            "23. People who travel in space are called        (BECE 2022 Q12)",
+        options: ["Ecologists", "Astronauts", "Space shuttles", "Astronomers"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Astronauts are specially trained people who travel and work in space.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The brightest of all the planets is        (BECE 2023 Q10)",
+        options: ["Saturn", "Uranus", "Venus", "Mars"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Venus is the brightest planet as seen from Earth because its thick clouds reflect a large amount of sunlight.",
+      ),
+      QuizQuestion(
+        question: "25. Artificial satellites can be used for\n"
+            "I. communication\n"
+            "II. oil and gas exploration\n"
+            "III. meteorological studies        (BECE 2023 Q11)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Artificial satellites are used for communication, gathering information for resource exploration and studying weather conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The grouping together of many stars is known as        (BECE 2023 Q18)",
+        options: ["Galaxy", "Comet", "Solar system", "Astronomy"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A galaxy is a very large collection of stars, gas and dust held together by gravity.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s3 ss3 - Ecosystem": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following statements about bushfires is/are true?\n\n"
+            "I. They deplete vegetation cover.\n"
+            "II. They contribute to global warming.\n"
+            "III. They cause air pollution.        (BECE 2010 Q11)",
+        options: ["I only", "II only", "I and III only", "I, II and III"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bushfires destroy vegetation, release greenhouse gases that contribute to global warming, and produce smoke that pollutes the air. Therefore, statements I, II and III are all true.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A bill and claws are protective structures of a        (BECE 2002a Q13)",
+        options: ["crab", "hawk", "lion", "snake"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A hawk has a strong bill and sharp claws that help it catch prey, tear flesh and protect itself.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The food chain that exists in nature is        (BECE 2003 Q6)",
+        options: [
+          "green plants → lizards → hawks → snakes",
+          "grasshoppers → green plants → lizards → hawks",
+          "green plants → snakes → hawks → man",
+          "green plants → grasshopper → lizards → snakes"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Green plants are eaten by grasshoppers, grasshoppers are eaten by lizards, and lizards may be eaten by snakes. This gives the correct feeding sequence.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following human activities pollutes the environment?\n\n"
+            "I. Release of cement dust into the atmosphere.\n"
+            "II. Dumping of refuse into water bodies.\n"
+            "III. Burning of rubbish.        (BECE 2007 Q29)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Cement dust pollutes the air, refuse contaminates water bodies, and burning rubbish releases smoke and harmful gases. All three activities pollute the environment.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main pollutant from domestic fires is        (BECE 2001 Q11)",
+        options: [
+          "carbon monoxide",
+          "sulphur dioxide",
+          "water vapour",
+          "oxygen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Domestic fires may burn fuel incompletely and release carbon monoxide, a poisonous gas that pollutes the air.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following substances causes acid rain when released into the atmosphere?        (BECE 2009 Q33)",
+        options: [
+          "Carbon dioxide",
+          "Water vapour",
+          "Sulphur dioxide",
+          "Cement dust"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sulphur dioxide reacts with water vapour in the atmosphere to form acids that fall to the ground as acid rain.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following arrangements is a probable food chain?        (BECE 2002b Q18)",
+        options: [
+          "Grass → Grasshopper → Toad → Snake",
+          "Grasshopper → Grass → Goat → Lion → Man",
+          "Crow → Snake → Toad → Grasshopper → Grass",
+          "Grass → Goat → Lion → Man → Snake"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Grass is eaten by the grasshopper, the grasshopper is eaten by the toad, and the toad may be eaten by the snake.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Some plants shed their leaves during the dry season to prevent        (BECE 2008 Q29)",
+        options: [
+          "water loss",
+          "heat loss",
+          "catching fire",
+          "loss of nutrients"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Plants lose water mainly through their leaves. Shedding leaves during the dry season reduces transpiration and helps conserve water.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Tendrils in plants are adaptations that enable the plant to        (BECE 2001 Q20)",
+        options: ["climb", "expire", "store food", "reproduce"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tendrils coil around nearby supports and help weak-stemmed plants climb towards sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "10. One way of protecting organisms so that they are not endangered is to        (BECE 2012 Q28)",
+        options: [
+          "allow them to be hunted",
+          "allow their predators to outnumber them",
+          "protect their habitats",
+          "pollute their habitat"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Protecting natural habitats provides organisms with food, shelter and suitable conditions for survival and reproduction.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The structures found on some plants are used for        (BECE 2001 Q14)",
+        options: [
+          "breathing",
+          "protection",
+          "absorbing water from the air",
+          "receiving sunlight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Protective structures such as thorns and spines discourage animals from feeding on or damaging plants.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Desert plants shed their leaves to reduce the rate of        (BECE 2000 Q16)",
+        options: [
+          "absorption of minerals",
+          "diffusion",
+          "osmosis",
+          "transpiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from plant leaves. Shedding leaves reduces the surface area through which water is lost.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Humans are examples of omnivores because they eat        (BECE 2002b Q10)",
+        options: [
+          "both cooked and raw food",
+          "only flesh",
+          "only fruits",
+          "both plants and animals"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Omnivores feed on both plant materials and animals. Humans therefore belong to this feeding group.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about mammals is true?        (BECE 2010 Q28)",
+        options: [
+          "They lay eggs",
+          "They have hairs",
+          "They have feathers",
+          "They have beaks"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The presence of hair or fur is a distinguishing characteristic of mammals.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following substances is an air pollutant?        (BECE 2008 Q27)",
+        options: ["Water vapour", "Oxygen", "Nitrogen", "Hydrogen sulphide"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Hydrogen sulphide is a poisonous, foul-smelling gas that contaminates the air and can harm living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Animals depend on plants for food because        (BECE 2002a Q10)",
+        options: [
+          "animals do not need to drink water with the food",
+          "only plants can make their own food",
+          "all plants are green",
+          "plants are available everywhere"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture food through photosynthesis. Animals depend directly or indirectly on this food.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Producers in an ecosystem are plants that        (BECE 2015 Q37)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Producers are green plants that manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An omnivore is an animal that feeds on        (BECE 2005 Q12)",
+        options: [
+          "raw food",
+          "fresh foods",
+          "cooked food",
+          "all kinds of food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "An omnivore feeds on both plant and animal materials and can therefore eat different kinds of food.",
+      ),
+      QuizQuestion(
+        question:
+            "19. A place where an organism can live and interbreed successfully is called a        (BECE 2013 Q21)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A habitat is the natural place where an organism lives, obtains its needs and reproduces successfully.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The lion is a carnivore because it eats        (BECE 2003 Q11)",
+        options: ["flesh", "grass", "fruits", "cooked food"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Carnivores are animals that feed on the flesh of other animals. A lion is therefore a carnivore.",
+      ),
+      QuizQuestion(
+        question:
+            "21. A fish is able to swim with little resistance in water because it has        (BECE 2015 Q37)",
+        options: [
+          "a streamlined body",
+          "gills",
+          "fins",
+          "the ability to make use of a limited oxygen supply"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body allows water to flow smoothly around a fish, reducing resistance as it swims.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The structure which helps a fish to breathe under water is the        (BECE 2001 Q34)",
+        options: ["gill", "fin", "air sac", "tail fin"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Gills absorb dissolved oxygen from water and remove carbon dioxide from the fish's body.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Producers in an ecosystem are plants that        (BECE 2014 Q9)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question: "24. A food web shows how        (BECE 2019 Q33)",
+        options: [
+          "food produced by plants is distributed to other parts of the plant",
+          "an organism protects itself in its environment",
+          "organisms depend on one another for shelter",
+          "food produced by green plants is distributed among other organisms in a community"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A food web consists of interconnected food chains and shows how food energy moves among organisms in a community.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following organisms is at the beginning of a food chain?        (BECE 2009 Q13)",
+        options: ["Fish", "Grass", "Locust", "Mosquito"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food chains normally begin with producers such as grass, which manufacture their own food using sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following organisms is likely to increase the oxygen content of the water in a pond?        (BECE 2001 Q25)",
+        options: ["Fish", "Tadpole", "Mosquito larva", "Water lily"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A water lily releases oxygen into pond water during photosynthesis, thereby increasing its oxygen content.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The greatest danger faced by organisms living on land is        (BECE 2012 Q18)",
+        options: [
+          "becoming too cold",
+          "becoming too hot",
+          "losing water through evaporation",
+          "fighting for much water for absorption"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Terrestrial organisms are exposed to air and may lose excessive water through evaporation, leading to dehydration.",
+      ),
+      QuizQuestion(
+        question:
+            "28. All the living and non-living things that surround an organism constitute its        (BECE 2010 Q28)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The environment consists of all the living and non-living things surrounding and affecting an organism.",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following members in a food chain will receive the least energy?        (BECE 2018 Q35)",
+        options: ["Lizard", "Bird", "Grasshopper", "Hawk"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Energy decreases at each feeding level in a food chain. The hawk, as the highest-level consumer listed, receives the least energy.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The structure which enables a fish to breathe in water is        (BECE 2020 Q19)",
+        options: ["buccal cavity", "gills", "swim bladder", "lungs"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Fish use their gills to extract dissolved oxygen from water for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Green plants have the ability to make their own food; hence, they are known as        (BECE 2022 Q25)",
+        options: ["producers", "parasites", "consumers", "decomposers"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are called producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "32. Which of the following body shapes facilitates movement in a fluid?        (BECE 2023 Q29)",
+        options: ["Spherical", "Streamlined", "Triangular", "Rectangular"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body shape reduces resistance and allows an organism or object to move easily through water or air.",
+      ),
+      QuizQuestion(
+        question:
+            "33. A fish swims in water with little resistance because it possesses a        (BECE 2015 Q11)",
+        options: ["gills", "scales", "caudal fins", "streamlined body"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The streamlined body of a fish reduces water resistance and enables it to move smoothly through water.",
+      ),
+    ],
+  ),
+  "Science JHS2 s3 ss3 - Ecosystem": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following statements about bushfires is/are true?\n\n"
+            "I. They deplete vegetation cover.\n"
+            "II. They contribute to global warming.\n"
+            "III. They cause air pollution.        (BECE 2010 Q11)",
+        options: ["I only", "II only", "I and III only", "I, II and III"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bushfires destroy vegetation, release greenhouse gases that contribute to global warming, and produce smoke that pollutes the air. Therefore, statements I, II and III are all true.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A bill and claws are protective structures of a        (BECE 2002a Q13)",
+        options: ["crab", "hawk", "lion", "snake"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A hawk has a strong bill and sharp claws that help it catch prey, tear flesh and protect itself.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The food chain that exists in nature is        (BECE 2003 Q6)",
+        options: [
+          "green plants → lizards → hawks → snakes",
+          "grasshoppers → green plants → lizards → hawks",
+          "green plants → snakes → hawks → man",
+          "green plants → grasshopper → lizards → snakes"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Green plants are eaten by grasshoppers, grasshoppers are eaten by lizards, and lizards may be eaten by snakes. This gives the correct feeding sequence.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following human activities pollutes the environment?\n\n"
+            "I. Release of cement dust into the atmosphere.\n"
+            "II. Dumping of refuse into water bodies.\n"
+            "III. Burning of rubbish.        (BECE 2007 Q29)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Cement dust pollutes the air, refuse contaminates water bodies, and burning rubbish releases smoke and harmful gases. All three activities pollute the environment.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main pollutant from domestic fires is        (BECE 2001 Q11)",
+        options: [
+          "carbon monoxide",
+          "sulphur dioxide",
+          "water vapour",
+          "oxygen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Domestic fires may burn fuel incompletely and release carbon monoxide, a poisonous gas that pollutes the air.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following substances causes acid rain when released into the atmosphere?        (BECE 2009 Q33)",
+        options: [
+          "Carbon dioxide",
+          "Water vapour",
+          "Sulphur dioxide",
+          "Cement dust"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sulphur dioxide reacts with water vapour in the atmosphere to form acids that fall to the ground as acid rain.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following arrangements is a probable food chain?        (BECE 2002b Q18)",
+        options: [
+          "Grass → Grasshopper → Toad → Snake",
+          "Grasshopper → Grass → Goat → Lion → Man",
+          "Crow → Snake → Toad → Grasshopper → Grass",
+          "Grass → Goat → Lion → Man → Snake"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Grass is eaten by the grasshopper, the grasshopper is eaten by the toad, and the toad may be eaten by the snake.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Some plants shed their leaves during the dry season to prevent        (BECE 2008 Q29)",
+        options: [
+          "water loss",
+          "heat loss",
+          "catching fire",
+          "loss of nutrients"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Plants lose water mainly through their leaves. Shedding leaves during the dry season reduces transpiration and helps conserve water.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Tendrils in plants are adaptations that enable the plant to        (BECE 2001 Q20)",
+        options: ["climb", "expire", "store food", "reproduce"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tendrils coil around nearby supports and help weak-stemmed plants climb towards sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "10. One way of protecting organisms so that they are not endangered is to        (BECE 2012 Q28)",
+        options: [
+          "allow them to be hunted",
+          "allow their predators to outnumber them",
+          "protect their habitats",
+          "pollute their habitat"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Protecting natural habitats provides organisms with food, shelter and suitable conditions for survival and reproduction.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The structures found on some plants are used for        (BECE 2001 Q14)",
+        options: [
+          "breathing",
+          "protection",
+          "absorbing water from the air",
+          "receiving sunlight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Protective structures such as thorns and spines discourage animals from feeding on or damaging plants.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Desert plants shed their leaves to reduce the rate of        (BECE 2000 Q16)",
+        options: [
+          "absorption of minerals",
+          "diffusion",
+          "osmosis",
+          "transpiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from plant leaves. Shedding leaves reduces the surface area through which water is lost.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Humans are examples of omnivores because they eat        (BECE 2002b Q10)",
+        options: [
+          "both cooked and raw food",
+          "only flesh",
+          "only fruits",
+          "both plants and animals"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Omnivores feed on both plant materials and animals. Humans therefore belong to this feeding group.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about mammals is true?        (BECE 2010 Q28)",
+        options: [
+          "They lay eggs",
+          "They have hairs",
+          "They have feathers",
+          "They have beaks"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The presence of hair or fur is a distinguishing characteristic of mammals.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following substances is an air pollutant?        (BECE 2008 Q27)",
+        options: ["Water vapour", "Oxygen", "Nitrogen", "Hydrogen sulphide"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Hydrogen sulphide is a poisonous, foul-smelling gas that contaminates the air and can harm living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Animals depend on plants for food because        (BECE 2002a Q10)",
+        options: [
+          "animals do not need to drink water with the food",
+          "only plants can make their own food",
+          "all plants are green",
+          "plants are available everywhere"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture food through photosynthesis. Animals depend directly or indirectly on this food.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Producers in an ecosystem are plants that        (BECE 2015 Q37)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Producers are green plants that manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An omnivore is an animal that feeds on        (BECE 2005 Q12)",
+        options: [
+          "raw food",
+          "fresh foods",
+          "cooked food",
+          "all kinds of food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "An omnivore feeds on both plant and animal materials and can therefore eat different kinds of food.",
+      ),
+      QuizQuestion(
+        question:
+            "19. A place where an organism can live and interbreed successfully is called a        (BECE 2013 Q21)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A habitat is the natural place where an organism lives, obtains its needs and reproduces successfully.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The lion is a carnivore because it eats        (BECE 2003 Q11)",
+        options: ["flesh", "grass", "fruits", "cooked food"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Carnivores are animals that feed on the flesh of other animals. A lion is therefore a carnivore.",
+      ),
+      QuizQuestion(
+        question:
+            "21. A fish is able to swim with little resistance in water because it has        (BECE 2015 Q37)",
+        options: [
+          "a streamlined body",
+          "gills",
+          "fins",
+          "the ability to make use of a limited oxygen supply"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body allows water to flow smoothly around a fish, reducing resistance as it swims.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The structure which helps a fish to breathe under water is the        (BECE 2001 Q34)",
+        options: ["gill", "fin", "air sac", "tail fin"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Gills absorb dissolved oxygen from water and remove carbon dioxide from the fish's body.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Producers in an ecosystem are plants that        (BECE 2014 Q9)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question: "24. A food web shows how        (BECE 2019 Q33)",
+        options: [
+          "food produced by plants is distributed to other parts of the plant",
+          "an organism protects itself in its environment",
+          "organisms depend on one another for shelter",
+          "food produced by green plants is distributed among other organisms in a community"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A food web consists of interconnected food chains and shows how food energy moves among organisms in a community.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following organisms is at the beginning of a food chain?        (BECE 2009 Q13)",
+        options: ["Fish", "Grass", "Locust", "Mosquito"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food chains normally begin with producers such as grass, which manufacture their own food using sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following organisms is likely to increase the oxygen content of the water in a pond?        (BECE 2001 Q25)",
+        options: ["Fish", "Tadpole", "Mosquito larva", "Water lily"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A water lily releases oxygen into pond water during photosynthesis, thereby increasing its oxygen content.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The greatest danger faced by organisms living on land is        (BECE 2012 Q18)",
+        options: [
+          "becoming too cold",
+          "becoming too hot",
+          "losing water through evaporation",
+          "fighting for much water for absorption"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Terrestrial organisms are exposed to air and may lose excessive water through evaporation, leading to dehydration.",
+      ),
+      QuizQuestion(
+        question:
+            "28. All the living and non-living things that surround an organism constitute its        (BECE 2010 Q28)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The environment consists of all the living and non-living things surrounding and affecting an organism.",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following members in a food chain will receive the least energy?        (BECE 2018 Q35)",
+        options: ["Lizard", "Bird", "Grasshopper", "Hawk"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Energy decreases at each feeding level in a food chain. The hawk, as the highest-level consumer listed, receives the least energy.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The structure which enables a fish to breathe in water is        (BECE 2020 Q19)",
+        options: ["buccal cavity", "gills", "swim bladder", "lungs"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Fish use their gills to extract dissolved oxygen from water for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Green plants have the ability to make their own food; hence, they are known as        (BECE 2022 Q25)",
+        options: ["producers", "parasites", "consumers", "decomposers"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are called producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "32. Which of the following body shapes facilitates movement in a fluid?        (BECE 2023 Q29)",
+        options: ["Spherical", "Streamlined", "Triangular", "Rectangular"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body shape reduces resistance and allows an organism or object to move easily through water or air.",
+      ),
+      QuizQuestion(
+        question:
+            "33. A fish swims in water with little resistance because it possesses a        (BECE 2015 Q11)",
+        options: ["gills", "scales", "caudal fins", "streamlined body"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The streamlined body of a fish reduces water resistance and enables it to move smoothly through water.",
+      ),
+    ],
+  ),
+  "Science JHS3 s3 ss3 - Ecosystem": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following statements about bushfires is/are true?\n\n"
+            "I. They deplete vegetation cover.\n"
+            "II. They contribute to global warming.\n"
+            "III. They cause air pollution.        (BECE 2010 Q11)",
+        options: ["I only", "II only", "I and III only", "I, II and III"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bushfires destroy vegetation, release greenhouse gases that contribute to global warming, and produce smoke that pollutes the air. Therefore, statements I, II and III are all true.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A bill and claws are protective structures of a        (BECE 2002a Q13)",
+        options: ["crab", "hawk", "lion", "snake"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A hawk has a strong bill and sharp claws that help it catch prey, tear flesh and protect itself.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The food chain that exists in nature is        (BECE 2003 Q6)",
+        options: [
+          "green plants → lizards → hawks → snakes",
+          "grasshoppers → green plants → lizards → hawks",
+          "green plants → snakes → hawks → man",
+          "green plants → grasshopper → lizards → snakes"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Green plants are eaten by grasshoppers, grasshoppers are eaten by lizards, and lizards may be eaten by snakes. This gives the correct feeding sequence.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following human activities pollutes the environment?\n\n"
+            "I. Release of cement dust into the atmosphere.\n"
+            "II. Dumping of refuse into water bodies.\n"
+            "III. Burning of rubbish.        (BECE 2007 Q29)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Cement dust pollutes the air, refuse contaminates water bodies, and burning rubbish releases smoke and harmful gases. All three activities pollute the environment.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main pollutant from domestic fires is        (BECE 2001 Q11)",
+        options: [
+          "carbon monoxide",
+          "sulphur dioxide",
+          "water vapour",
+          "oxygen"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Domestic fires may burn fuel incompletely and release carbon monoxide, a poisonous gas that pollutes the air.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following substances causes acid rain when released into the atmosphere?        (BECE 2009 Q33)",
+        options: [
+          "Carbon dioxide",
+          "Water vapour",
+          "Sulphur dioxide",
+          "Cement dust"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sulphur dioxide reacts with water vapour in the atmosphere to form acids that fall to the ground as acid rain.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following arrangements is a probable food chain?        (BECE 2002b Q18)",
+        options: [
+          "Grass → Grasshopper → Toad → Snake",
+          "Grasshopper → Grass → Goat → Lion → Man",
+          "Crow → Snake → Toad → Grasshopper → Grass",
+          "Grass → Goat → Lion → Man → Snake"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Grass is eaten by the grasshopper, the grasshopper is eaten by the toad, and the toad may be eaten by the snake.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Some plants shed their leaves during the dry season to prevent        (BECE 2008 Q29)",
+        options: [
+          "water loss",
+          "heat loss",
+          "catching fire",
+          "loss of nutrients"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Plants lose water mainly through their leaves. Shedding leaves during the dry season reduces transpiration and helps conserve water.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Tendrils in plants are adaptations that enable the plant to        (BECE 2001 Q20)",
+        options: ["climb", "expire", "store food", "reproduce"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tendrils coil around nearby supports and help weak-stemmed plants climb towards sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "10. One way of protecting organisms so that they are not endangered is to        (BECE 2012 Q28)",
+        options: [
+          "allow them to be hunted",
+          "allow their predators to outnumber them",
+          "protect their habitats",
+          "pollute their habitat"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Protecting natural habitats provides organisms with food, shelter and suitable conditions for survival and reproduction.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The structures found on some plants are used for        (BECE 2001 Q14)",
+        options: [
+          "breathing",
+          "protection",
+          "absorbing water from the air",
+          "receiving sunlight"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Protective structures such as thorns and spines discourage animals from feeding on or damaging plants.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Desert plants shed their leaves to reduce the rate of        (BECE 2000 Q16)",
+        options: [
+          "absorption of minerals",
+          "diffusion",
+          "osmosis",
+          "transpiration"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Transpiration is the loss of water vapour from plant leaves. Shedding leaves reduces the surface area through which water is lost.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Humans are examples of omnivores because they eat        (BECE 2002b Q10)",
+        options: [
+          "both cooked and raw food",
+          "only flesh",
+          "only fruits",
+          "both plants and animals"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Omnivores feed on both plant materials and animals. Humans therefore belong to this feeding group.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about mammals is true?        (BECE 2010 Q28)",
+        options: [
+          "They lay eggs",
+          "They have hairs",
+          "They have feathers",
+          "They have beaks"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The presence of hair or fur is a distinguishing characteristic of mammals.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following substances is an air pollutant?        (BECE 2008 Q27)",
+        options: ["Water vapour", "Oxygen", "Nitrogen", "Hydrogen sulphide"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Hydrogen sulphide is a poisonous, foul-smelling gas that contaminates the air and can harm living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Animals depend on plants for food because        (BECE 2002a Q10)",
+        options: [
+          "animals do not need to drink water with the food",
+          "only plants can make their own food",
+          "all plants are green",
+          "plants are available everywhere"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Green plants manufacture food through photosynthesis. Animals depend directly or indirectly on this food.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Producers in an ecosystem are plants that        (BECE 2015 Q37)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Producers are green plants that manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "18. An omnivore is an animal that feeds on        (BECE 2005 Q12)",
+        options: [
+          "raw food",
+          "fresh foods",
+          "cooked food",
+          "all kinds of food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "An omnivore feeds on both plant and animal materials and can therefore eat different kinds of food.",
+      ),
+      QuizQuestion(
+        question:
+            "19. A place where an organism can live and interbreed successfully is called a        (BECE 2013 Q21)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A habitat is the natural place where an organism lives, obtains its needs and reproduces successfully.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The lion is a carnivore because it eats        (BECE 2003 Q11)",
+        options: ["flesh", "grass", "fruits", "cooked food"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Carnivores are animals that feed on the flesh of other animals. A lion is therefore a carnivore.",
+      ),
+      QuizQuestion(
+        question:
+            "21. A fish is able to swim with little resistance in water because it has        (BECE 2015 Q37)",
+        options: [
+          "a streamlined body",
+          "gills",
+          "fins",
+          "the ability to make use of a limited oxygen supply"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body allows water to flow smoothly around a fish, reducing resistance as it swims.",
+      ),
+      QuizQuestion(
+        question:
+            "22. The structure which helps a fish to breathe under water is the        (BECE 2001 Q34)",
+        options: ["gill", "fin", "air sac", "tail fin"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Gills absorb dissolved oxygen from water and remove carbon dioxide from the fish's body.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Producers in an ecosystem are plants that        (BECE 2014 Q9)",
+        options: [
+          "attract insects",
+          "feed on other plants",
+          "feed on dead materials",
+          "manufacture their own food"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question: "24. A food web shows how        (BECE 2019 Q33)",
+        options: [
+          "food produced by plants is distributed to other parts of the plant",
+          "an organism protects itself in its environment",
+          "organisms depend on one another for shelter",
+          "food produced by green plants is distributed among other organisms in a community"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A food web consists of interconnected food chains and shows how food energy moves among organisms in a community.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following organisms is at the beginning of a food chain?        (BECE 2009 Q13)",
+        options: ["Fish", "Grass", "Locust", "Mosquito"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food chains normally begin with producers such as grass, which manufacture their own food using sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following organisms is likely to increase the oxygen content of the water in a pond?        (BECE 2001 Q25)",
+        options: ["Fish", "Tadpole", "Mosquito larva", "Water lily"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A water lily releases oxygen into pond water during photosynthesis, thereby increasing its oxygen content.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The greatest danger faced by organisms living on land is        (BECE 2012 Q18)",
+        options: [
+          "becoming too cold",
+          "becoming too hot",
+          "losing water through evaporation",
+          "fighting for much water for absorption"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Terrestrial organisms are exposed to air and may lose excessive water through evaporation, leading to dehydration.",
+      ),
+      QuizQuestion(
+        question:
+            "28. All the living and non-living things that surround an organism constitute its        (BECE 2010 Q28)",
+        options: ["community", "ecosystem", "environment", "habitat"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The environment consists of all the living and non-living things surrounding and affecting an organism.",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following members in a food chain will receive the least energy?        (BECE 2018 Q35)",
+        options: ["Lizard", "Bird", "Grasshopper", "Hawk"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Energy decreases at each feeding level in a food chain. The hawk, as the highest-level consumer listed, receives the least energy.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The structure which enables a fish to breathe in water is        (BECE 2020 Q19)",
+        options: ["buccal cavity", "gills", "swim bladder", "lungs"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Fish use their gills to extract dissolved oxygen from water for respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "31. Green plants have the ability to make their own food; hence, they are known as        (BECE 2022 Q25)",
+        options: ["producers", "parasites", "consumers", "decomposers"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Green plants are called producers because they manufacture their own food through photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "32. Which of the following body shapes facilitates movement in a fluid?        (BECE 2023 Q29)",
+        options: ["Spherical", "Streamlined", "Triangular", "Rectangular"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A streamlined body shape reduces resistance and allows an organism or object to move easily through water or air.",
+      ),
+      QuizQuestion(
+        question:
+            "33. A fish swims in water with little resistance because it possesses a        (BECE 2015 Q11)",
+        options: ["gills", "scales", "caudal fins", "streamlined body"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The streamlined body of a fish reduces water resistance and enables it to move smoothly through water.",
+      ),
+    ],
+  ),
+
+ 
+  "Science JHS1 s3 ss4 - Land and Crop Management Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following crops should be planted after cassava in crop rotation?        (BECE 2011 Q28)",
+        options: ["Cocoyam", "Cowpea", "Yam", "Onion"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Cowpea is a legume that fixes atmospheric nitrogen in the soil. Planting it after cassava helps restore soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A farming system which requires at least three years programme is        (BECE 2015 Q29)",
+        options: [
+          "mixed cropping",
+          "crop rotation",
+          "organic farming",
+          "mixed farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation involves growing different crops on the same land in a planned sequence over several years, usually for at least three years.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The cultivation of different crops on different plots of farmland in a definite cycle is called        (BECE 2016 Q13)",
+        options: [
+          "land rotation",
+          "shifting cultivation",
+          "crop rotation",
+          "mixed cropping"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation is the planned cultivation of different crops on different plots of land in a definite sequence or cycle.",
+      ),
+      QuizQuestion(
+        question: "4. An example of a legume is        (BECE 2020 Q12)",
+        options: ["groundnut", "millet", "sorghum", "sweet potato"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Groundnut is a leguminous crop. It has root nodules containing bacteria that help fix atmospheric nitrogen in the soil.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following practices is not a principle of crop rotation?        (BECE 2017 Q34)",
+        options: [
+          "Legumes should be added to the rotation programme",
+          "Deep-rooted crops should be followed by shallow-rooted crops",
+          "Crops that are closely related should follow each other",
+          "Fallow period should be allowed during the time of rotation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Closely related crops should not follow one another because they usually require similar nutrients and may be attacked by the same pests and diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2010 Q17)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the repeated cultivation of one type of crop on the same piece of land during successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A system of farming that leads to continuous destruction of virgin forests is        (BECE 2014 Q12)",
+        options: [
+          "mixed farming",
+          "mixed cropping",
+          "pastoral farming",
+          "shifting farming"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Shifting farming involves clearing new areas of land when the fertility of previously cultivated land declines. This can lead to the continuous destruction of virgin forests.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farming system that makes effective use of available soil nutrients in a growing season is        (BECE 2018 Q4)",
+        options: [
+          "crop rotation",
+          "land rotation",
+          "mixed cropping",
+          "mixed farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping allows crops with different nutrient requirements and rooting depths to grow together, making effective use of available soil nutrients.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Legumes are generally included in crop rotation because they        (BECE 2000 Q33)",
+        options: [
+          "are easy to uproot in preparation for the next planting season",
+          "are able to fix atmospheric nitrogen in the soil",
+          "have short life span",
+          "are good cover crops"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Leguminous plants have nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into forms that improve soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An advantage of practising organic farming is that it        (BECE 2021 Q12)",
+        options: [
+          "increases soil fertility",
+          "reduces pest infestation",
+          "reduces toxicity levels in plants",
+          "increases resistance to plant disease"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Organic farming uses materials such as compost and animal manure, which add nutrients and organic matter to the soil and increase its fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2013 Q39)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the practice of growing the same type of crop on the same piece of land in successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A farming system which involves the growing of rice and the rearing of fish is known as        (BECE 2021 Q38)",
+        options: [
+          "crop rotation",
+          "mixed farming",
+          "mixed cropping",
+          "organic farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mixed farming involves growing crops and rearing animals on the same farm. Growing rice and rearing fish together is therefore mixed farming.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The practice of growing cowpea and maize on a piece of land at the same time is known as        (BECE 2022 Q33)",
+        options: [
+          "mixed cropping",
+          "land rotation",
+          "mixed farming",
+          "crop rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mixed cropping is the cultivation of two or more crops on the same piece of land during the same growing season.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The farming system that makes the most effective use of land is        (BECE 2023 Q19)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "land rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping makes effective use of land because two or more crops are grown together on the same piece of land during the same season.",
+      ),
+    ],
+  ),
+   "Science JHS2 s3 ss4 - Land and Crop Management Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following crops should be planted after cassava in crop rotation?        (BECE 2011 Q28)",
+        options: ["Cocoyam", "Cowpea", "Yam", "Onion"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Cowpea is a legume that fixes atmospheric nitrogen in the soil. Planting it after cassava helps restore soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A farming system which requires at least three years programme is        (BECE 2015 Q29)",
+        options: [
+          "mixed cropping",
+          "crop rotation",
+          "organic farming",
+          "mixed farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation involves growing different crops on the same land in a planned sequence over several years, usually for at least three years.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The cultivation of different crops on different plots of farmland in a definite cycle is called        (BECE 2016 Q13)",
+        options: [
+          "land rotation",
+          "shifting cultivation",
+          "crop rotation",
+          "mixed cropping"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation is the planned cultivation of different crops on different plots of land in a definite sequence or cycle.",
+      ),
+      QuizQuestion(
+        question: "4. An example of a legume is        (BECE 2020 Q12)",
+        options: ["groundnut", "millet", "sorghum", "sweet potato"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Groundnut is a leguminous crop. It has root nodules containing bacteria that help fix atmospheric nitrogen in the soil.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following practices is not a principle of crop rotation?        (BECE 2017 Q34)",
+        options: [
+          "Legumes should be added to the rotation programme",
+          "Deep-rooted crops should be followed by shallow-rooted crops",
+          "Crops that are closely related should follow each other",
+          "Fallow period should be allowed during the time of rotation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Closely related crops should not follow one another because they usually require similar nutrients and may be attacked by the same pests and diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2010 Q17)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the repeated cultivation of one type of crop on the same piece of land during successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A system of farming that leads to continuous destruction of virgin forests is        (BECE 2014 Q12)",
+        options: [
+          "mixed farming",
+          "mixed cropping",
+          "pastoral farming",
+          "shifting farming"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Shifting farming involves clearing new areas of land when the fertility of previously cultivated land declines. This can lead to the continuous destruction of virgin forests.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farming system that makes effective use of available soil nutrients in a growing season is        (BECE 2018 Q4)",
+        options: [
+          "crop rotation",
+          "land rotation",
+          "mixed cropping",
+          "mixed farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping allows crops with different nutrient requirements and rooting depths to grow together, making effective use of available soil nutrients.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Legumes are generally included in crop rotation because they        (BECE 2000 Q33)",
+        options: [
+          "are easy to uproot in preparation for the next planting season",
+          "are able to fix atmospheric nitrogen in the soil",
+          "have short life span",
+          "are good cover crops"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Leguminous plants have nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into forms that improve soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An advantage of practising organic farming is that it        (BECE 2021 Q12)",
+        options: [
+          "increases soil fertility",
+          "reduces pest infestation",
+          "reduces toxicity levels in plants",
+          "increases resistance to plant disease"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Organic farming uses materials such as compost and animal manure, which add nutrients and organic matter to the soil and increase its fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2013 Q39)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the practice of growing the same type of crop on the same piece of land in successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A farming system which involves the growing of rice and the rearing of fish is known as        (BECE 2021 Q38)",
+        options: [
+          "crop rotation",
+          "mixed farming",
+          "mixed cropping",
+          "organic farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mixed farming involves growing crops and rearing animals on the same farm. Growing rice and rearing fish together is therefore mixed farming.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The practice of growing cowpea and maize on a piece of land at the same time is known as        (BECE 2022 Q33)",
+        options: [
+          "mixed cropping",
+          "land rotation",
+          "mixed farming",
+          "crop rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mixed cropping is the cultivation of two or more crops on the same piece of land during the same growing season.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The farming system that makes the most effective use of land is        (BECE 2023 Q19)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "land rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping makes effective use of land because two or more crops are grown together on the same piece of land during the same season.",
+      ),
+    ],
+  ),
+   "Science JHS3 s3 ss4 - Land and Crop Management Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following crops should be planted after cassava in crop rotation?        (BECE 2011 Q28)",
+        options: ["Cocoyam", "Cowpea", "Yam", "Onion"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Cowpea is a legume that fixes atmospheric nitrogen in the soil. Planting it after cassava helps restore soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A farming system which requires at least three years programme is        (BECE 2015 Q29)",
+        options: [
+          "mixed cropping",
+          "crop rotation",
+          "organic farming",
+          "mixed farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation involves growing different crops on the same land in a planned sequence over several years, usually for at least three years.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The cultivation of different crops on different plots of farmland in a definite cycle is called        (BECE 2016 Q13)",
+        options: [
+          "land rotation",
+          "shifting cultivation",
+          "crop rotation",
+          "mixed cropping"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Crop rotation is the planned cultivation of different crops on different plots of land in a definite sequence or cycle.",
+      ),
+      QuizQuestion(
+        question: "4. An example of a legume is        (BECE 2020 Q12)",
+        options: ["groundnut", "millet", "sorghum", "sweet potato"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Groundnut is a leguminous crop. It has root nodules containing bacteria that help fix atmospheric nitrogen in the soil.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following practices is not a principle of crop rotation?        (BECE 2017 Q34)",
+        options: [
+          "Legumes should be added to the rotation programme",
+          "Deep-rooted crops should be followed by shallow-rooted crops",
+          "Crops that are closely related should follow each other",
+          "Fallow period should be allowed during the time of rotation"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Closely related crops should not follow one another because they usually require similar nutrients and may be attacked by the same pests and diseases.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2010 Q17)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the repeated cultivation of one type of crop on the same piece of land during successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A system of farming that leads to continuous destruction of virgin forests is        (BECE 2014 Q12)",
+        options: [
+          "mixed farming",
+          "mixed cropping",
+          "pastoral farming",
+          "shifting farming"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Shifting farming involves clearing new areas of land when the fertility of previously cultivated land declines. This can lead to the continuous destruction of virgin forests.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The farming system that makes effective use of available soil nutrients in a growing season is        (BECE 2018 Q4)",
+        options: [
+          "crop rotation",
+          "land rotation",
+          "mixed cropping",
+          "mixed farming"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping allows crops with different nutrient requirements and rooting depths to grow together, making effective use of available soil nutrients.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Legumes are generally included in crop rotation because they        (BECE 2000 Q33)",
+        options: [
+          "are easy to uproot in preparation for the next planting season",
+          "are able to fix atmospheric nitrogen in the soil",
+          "have short life span",
+          "are good cover crops"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Leguminous plants have nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into forms that improve soil fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An advantage of practising organic farming is that it        (BECE 2021 Q12)",
+        options: [
+          "increases soil fertility",
+          "reduces pest infestation",
+          "reduces toxicity levels in plants",
+          "increases resistance to plant disease"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Organic farming uses materials such as compost and animal manure, which add nutrients and organic matter to the soil and increase its fertility.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The farming system which involves the growing of one type of crop on the same piece of land every season is known as        (BECE 2013 Q39)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "monoculture"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Monocropping is the practice of growing the same type of crop on the same piece of land in successive seasons.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A farming system which involves the growing of rice and the rearing of fish is known as        (BECE 2021 Q38)",
+        options: [
+          "crop rotation",
+          "mixed farming",
+          "mixed cropping",
+          "organic farming"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mixed farming involves growing crops and rearing animals on the same farm. Growing rice and rearing fish together is therefore mixed farming.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The practice of growing cowpea and maize on a piece of land at the same time is known as        (BECE 2022 Q33)",
+        options: [
+          "mixed cropping",
+          "land rotation",
+          "mixed farming",
+          "crop rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mixed cropping is the cultivation of two or more crops on the same piece of land during the same growing season.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The farming system that makes the most effective use of land is        (BECE 2023 Q19)",
+        options: [
+          "mixed cropping",
+          "mixed farming",
+          "monocropping",
+          "land rotation"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Mixed cropping makes effective use of land because two or more crops are grown together on the same piece of land during the same season.",
+      ),
+    ],
+  ),
+  "Science JHS1 s4 ss1 - Source, Forms, and Related Properties of Energy":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following examples is a source of energy?        (BECE 2011 Q3)",
+        options: ["Energy", "Food", "Light", "Wood"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food is a source of chemical energy that living organisms use to carry out their activities.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The unit of measurement of energy is the        (BECE 2017 Q5)",
+        options: ["joule", "kelvin", "newton", "watt"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The joule is the standard unit used to measure energy and work.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The source of all forms of energy can be traced to the        (BECE 2005 Q6)",
+        options: ["clouds", "earthquakes", "tides", "sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Sun is the main source of energy for the Earth. It provides solar energy and drives processes such as wind, rainfall and photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following sources of energy is non-renewable?        (BECE 2010 Q22)",
+        options: ["Sun", "Wave", "Wind", "Wood"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wood may become non-renewable when trees are used faster than they can be replaced through replanting and natural regeneration.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following sources of energy is renewable?        (BECE 2016 Q45)",
+        options: ["Coal", "Crude oil", "Sun", "Wood"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Solar energy from the Sun is naturally replenished and cannot be exhausted through ordinary use.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Energy stored in food is referred to as        (BECE 2013 Q10)",
+        options: [
+          "chemical energy",
+          "electrical energy",
+          "kinetic energy",
+          "solar energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores energy in chemical bonds. This stored energy is released during respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following forms of energy is/are renewable?\n\n"
+            "I. Solar\n"
+            "II. Crude oil\n"
+            "III. Wind        (BECE 2019 Q7)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Solar and wind energy are renewable, but crude oil is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following sources of energy is/are renewable?\n\n"
+            "I. Wind\n"
+            "II. Coal\n"
+            "III. Solar        (BECE 2020 Q4)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Wind and solar energy are renewable, while coal is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
+        options: [
+          "chemical energy",
+          "gravitational energy",
+          "nuclear energy",
+          "thermal energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Nuclear energy is released from changes that occur in the nucleus of an atom.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An example of a source of energy which is non-renewable is        (BECE 2011 Q6)",
+        options: ["petroleum", "sun", "tide", "wind"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly after use.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
+        options: ["253 K", "293 K", "273 K", "313 K"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Temperature in Kelvin is found by adding 273 to the Celsius temperature. Therefore, 20 + 273 = 293 K.",
+      ),
+      QuizQuestion(
+        question: "12. The transfer of heat through a solid medium is by\n\n"
+            "I. conduction\n"
+            "II. timely\n"
+            "III. convection\n"
+            "IV. radiation        (BECE 2000 Q28)",
+        options: ["I only", "II only", "III only", "I and III only"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred mainly through solids by conduction, in which particles pass energy to neighbouring particles.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The gaps left between railway lines are to allow for        (BECE 2001 Q49)",
+        options: ["expansion", "cooling", "maintenance", "easy stopping"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Railway lines expand when heated. Gaps are provided to prevent the rails from bending or buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements is true about the boiling point of water?        (BECE 2002 Q3)",
+        options: [
+          "The mass of the water remains the same",
+          "The temperature increases",
+          "The temperature remains constant",
+          "The volume of the water decreases"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "At the boiling point, the temperature of water remains constant while the supplied heat changes the liquid into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Gaps are left between railway lines to        (BECE 2007 Q11)",
+        options: [
+          "prevent contraction",
+          "prevent rusting",
+          "allow for expansion",
+          "enable a train to stop"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The gaps provide space for the metal rails to expand when their temperature rises.",
+      ),
+      QuizQuestion(
+        question:
+            "16. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2007 Q3)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer tube.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The modes of heat transfer involved in the process of heating water in a bucket from the bottom until it boils are        (BECE 2001 Q1)",
+        options: [
+          "conduction and convection",
+          "conduction and radiation",
+          "convection and radiation",
+          "conduction, convection and radiation"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heat reaches the bucket by radiation, passes through the metal by conduction and circulates through the water by convection.",
+      ),
+      QuizQuestion(
+        question: "18. A metal expands when there is        (BECE 2005 Q22)",
+        options: [
+          "an increase in heat energy",
+          "an increase in number of electrons",
+          "a decrease in potential energy",
+          "a decrease in distance between atoms"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a metal gains heat energy, its particles vibrate more strongly and move slightly farther apart, causing expansion.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Wood is used to make the handles of cooking utensils because it is a        (BECE 2006 Q23)",
+        options: [
+          "bad conductor of heat",
+          "good conductor of heat",
+          "good reflector of heat",
+          "bad radiator of heat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wood is a poor conductor of heat, so it reduces the amount of heat transferred to the user's hand.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2007 Q24)",
+        options: ["convection", "conduction", "radiation", "evaporation"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Warm air becomes less dense and rises. This movement of air is called convection.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The process by which heat travels along a metal rod is called        (BECE 2000 Q2)",
+        options: ["convection", "conduction", "expansion", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Conduction transfers heat through the particles of a solid without the solid moving as a whole.",
+      ),
+      QuizQuestion(
+        question: "22. Heat travels through a vacuum by        (BECE 2008 Q23)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "convection and radiation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation does not require particles or a material medium, so it can transfer heat through a vacuum.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Heat is transferred from the bottom of a water-heating container to the top by        (BECE 2009 Q44)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "conduction and radiation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heated water becomes less dense and rises while cooler water sinks, forming convection currents.",
+      ),
+      QuizQuestion(
+        question:
+            "24. A mercury thermometer works on the principle that        (BECE 2009 Q15)",
+        options: [
+          "solids expand on heating and contract on cooling",
+          "liquids expand on heating and contract on cooling",
+          "gases expand on heating and contract on cooling",
+          "liquids evaporate when heated to a certain temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a liquid that expands when heated and contracts when cooled, causing its level in the thermometer to change.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The type of liquid suitable for constructing a thermometer to read temperatures of about 150°C is        (BECE 2010 Q29)",
+        options: ["alcohol", "mercury", "turpentine", "water"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Mercury has a high boiling point and can therefore be used to measure temperatures around 150°C.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following properties of alcohol as a thermometer liquid is correct?        (BECE 2011 Q15)",
+        options: [
+          "It is opaque",
+          "It does not wet glass",
+          "It has a very low freezing point",
+          "It has a high boiling point"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Alcohol has a very low freezing point, making it suitable for measuring very low temperatures.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following modes of heat transfer does not require a material medium?\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2011 Q22)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "III only"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation can travel through a vacuum, while conduction and convection require a material medium.",
+      ),
+      QuizQuestion(
+        question: "28. A good thermos flask must have        (BECE 2013 Q14)",
+        options: [
+          "hot air fixed at 0°C",
+          "a silver coating on the wall of the flask",
+          "an exchangeable small plastic case",
+          "expansion"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The silvered surfaces of a thermos flask reflect heat radiation and reduce heat loss or gain.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The reason why gaps are left in the joints of railway lines is to allow for        (BECE 2015 Q17)",
+        options: ["cooling", "contraction", "expansion", "application"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Metal rails expand when heated. The gaps provide space for this expansion and prevent buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The transfer of heat from the bottom to the top of a beaker containing water is by        (BECE 2015 Q18)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred through the water by convection currents caused by differences in density.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A metal that is used as a thermometric liquid is        (BECE 2016 Q36)",
+        options: ["aluminium", "copper", "mercury", "silver"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metal that remains liquid at room temperature and expands uniformly when heated.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The form of energy which flows from one point to another due to temperature differences is known as        (BECE 2016 Q39)",
+        options: [
+          "mechanical energy",
+          "heat energy",
+          "solar energy",
+          "nuclear energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heat energy flows from a region of higher temperature to a region of lower temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Heat is transferred along an iron bar by        (BECE 2018 Q38)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron is a solid and a good conductor, so heat travels through it mainly by conduction.",
+      ),
+      QuizQuestion(
+        question:
+            "34. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2019 Q19)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The mode of heat transfer in which no material medium is involved is known as        (BECE 2019 Q24)",
+        options: ["conduction", "convection", "expansion", "radiation"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
+      ),
+      QuizQuestion(
+        question: "36. Heat from the Sun reaches the Earth by\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2021 Q35)",
+        options: ["I only", "II only", "III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The space between the Sun and Earth is largely a vacuum, so heat reaches Earth through radiation.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When gases are heated quickly, they        (BECE 2022 Q36)",
+        options: [
+          "melt",
+          "sublime",
+          "decrease in volume",
+          "decrease in intermolecular forces"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heating gives gas particles more kinetic energy and causes them to move farther apart, reducing the intermolecular forces between them.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
+        options: ["cataract", "glaucoma", "headache", "long-sightedness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A converging or convex lens brings light rays together and is used to correct long-sightedness.",
+      ),
+      QuizQuestion(
+        question:
+            "39. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2001 Q18)",
+        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A plane mirror forms an image the same distance behind the mirror as the object is in front. The total distance is therefore 20 cm + 20 cm = 40 cm.",
+      ),
+      QuizQuestion(
+        question:
+            "40. A plane mirror can be described as opaque because it        (BECE 2005 Q2)",
+        options: [
+          "absorbs all the light incident on it",
+          "reflects all the light incident on it",
+          "allows all the light incident on it to pass through it",
+          "partly absorbs and partly allows the light incident on it to pass through it"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object does not allow light to pass through it. A plane mirror reflects most of the light that falls on it.",
+      ),
+      QuizQuestion(
+        question:
+            "41. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
+        options: [
+          "loss of accommodation",
+          "total blindness",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Concave or diverging lenses are used to correct short-sightedness by spreading light rays before they enter the eye.",
+      ),
+      QuizQuestion(
+        question:
+            "42. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q16)",
+        options: ["dispersed", "displaced", "refracted", "reflected"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "43. A plane mirror could be described as opaque because it        (BECE 2007 Q1)",
+        options: [
+          "reflects all the light incident on it",
+          "absorbs all the light incident on it",
+          "allows the light incident on it to pass through it and absorbs the rest",
+          "allows some of the light incident on it to pass through it"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror does not allow light to pass through it. Instead, it reflects the light incident on its surface.",
+      ),
+      QuizQuestion(
+        question:
+            "44. A mirror is used to direct sunlight onto the wall of a classroom by        (BECE 2007 Q7)",
+        options: ["dispersion", "reflection", "refraction", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mirror changes the direction of sunlight by reflecting it onto another surface.",
+      ),
+      QuizQuestion(
+        question:
+            "45. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Firefly        (BECE 2008 Q8)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and firefly produce their own light. The Moon only reflects sunlight, so statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "46. Which of the following statements describes the nature of light?        (BECE 2008 Q12)",
+        options: [
+          "It passes through all objects",
+          "It is absorbed at a polished surface",
+          "It travels in a straight line",
+          "It is always reflected in a medium"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light travels in straight lines through a uniform transparent medium.",
+      ),
+      QuizQuestion(
+        question:
+            "47. The amount of light that enters the eye is regulated by the size of the        (BECE 2005 Q17)",
+        options: ["lens", "iris", "pupil", "retina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pupil is the opening through which light enters the eye. Its size is controlled by the iris.",
+      ),
+      QuizQuestion(
+        question:
+            "48. The type of image formed in a plane mirror is always        (BECE 2012 Q13)",
+        options: ["diminished", "enlarged", "real", "virtual"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror forms a virtual image because the reflected rays only appear to meet behind the mirror.",
+      ),
+      QuizQuestion(
+        question:
+            "49. Which of the following sources of light is natural?        (BECE 2012 Q21)",
+        options: ["Firefly", "Fluorescent tube", "Glow worm", "Fire cracker"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A firefly is a living organism that naturally produces light through bioluminescence.",
+      ),
+      QuizQuestion(
+        question:
+            "50. An example of a body that does not produce its own light is the        (BECE 2016 Q24)",
+        options: ["sun", "moon", "star", "firefly"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it reflects light from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "51. A stick which is partially immersed in water appears to be bent due to        (BECE 2016 Q11)",
+        options: ["absorption", "reflection", "refraction", "transmission"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The stick appears bent because light changes direction as it moves between water and air. This effect is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "52. Which of the following statements about an opaque object is correct? An opaque object        (BECE 2017 Q3)",
+        options: [
+          "allows light to pass through it completely",
+          "allows light to pass through it partially",
+          "forms a shadow",
+          "does not form a shadow"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object blocks light from passing through it and therefore forms a shadow.",
+      ),
+      QuizQuestion(
+        question:
+            "53. Which of the following statements about shadow formation is correct? It shows that light rays can        (BECE 2018 Q12)",
+        options: [
+          "be diffused",
+          "travel in a straight line",
+          "be refracted",
+          "be reflected"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Shadows form when an opaque object blocks light travelling in straight lines.",
+      ),
+      QuizQuestion(
+        question:
+            "54. Which of the following statements shows that the Moon is a non-luminous object?        (BECE 2022 Q27)",
+        options: [
+          "It is a transparent object",
+          "It is an opaque object",
+          "It only reflects light",
+          "It absorbs all light"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it only reflects sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "55. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Glow worm        (BECE 2022 Q20)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and glow worm produce their own light, while the Moon reflects light from the Sun. Therefore, statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "56. The image formed by a plane mirror is always        (BECE 2022 Q23)",
+        options: ["inverted", "virtual", "magnified", "real"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror always forms a virtual, upright image that is the same size as the object.",
+      ),
+    ],
+  ),
+   "Science JHS2 s4 ss1 - Source, Forms, and Related Properties of Energy":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following examples is a source of energy?        (BECE 2011 Q3)",
+        options: ["Energy", "Food", "Light", "Wood"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food is a source of chemical energy that living organisms use to carry out their activities.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The unit of measurement of energy is the        (BECE 2017 Q5)",
+        options: ["joule", "kelvin", "newton", "watt"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The joule is the standard unit used to measure energy and work.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The source of all forms of energy can be traced to the        (BECE 2005 Q6)",
+        options: ["clouds", "earthquakes", "tides", "sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Sun is the main source of energy for the Earth. It provides solar energy and drives processes such as wind, rainfall and photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following sources of energy is non-renewable?        (BECE 2010 Q22)",
+        options: ["Sun", "Wave", "Wind", "Wood"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wood may become non-renewable when trees are used faster than they can be replaced through replanting and natural regeneration.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following sources of energy is renewable?        (BECE 2016 Q45)",
+        options: ["Coal", "Crude oil", "Sun", "Wood"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Solar energy from the Sun is naturally replenished and cannot be exhausted through ordinary use.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Energy stored in food is referred to as        (BECE 2013 Q10)",
+        options: [
+          "chemical energy",
+          "electrical energy",
+          "kinetic energy",
+          "solar energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores energy in chemical bonds. This stored energy is released during respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following forms of energy is/are renewable?\n\n"
+            "I. Solar\n"
+            "II. Crude oil\n"
+            "III. Wind        (BECE 2019 Q7)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Solar and wind energy are renewable, but crude oil is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following sources of energy is/are renewable?\n\n"
+            "I. Wind\n"
+            "II. Coal\n"
+            "III. Solar        (BECE 2020 Q4)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Wind and solar energy are renewable, while coal is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
+        options: [
+          "chemical energy",
+          "gravitational energy",
+          "nuclear energy",
+          "thermal energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Nuclear energy is released from changes that occur in the nucleus of an atom.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An example of a source of energy which is non-renewable is        (BECE 2011 Q6)",
+        options: ["petroleum", "sun", "tide", "wind"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly after use.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
+        options: ["253 K", "293 K", "273 K", "313 K"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Temperature in Kelvin is found by adding 273 to the Celsius temperature. Therefore, 20 + 273 = 293 K.",
+      ),
+      QuizQuestion(
+        question: "12. The transfer of heat through a solid medium is by\n\n"
+            "I. conduction\n"
+            "II. timely\n"
+            "III. convection\n"
+            "IV. radiation        (BECE 2000 Q28)",
+        options: ["I only", "II only", "III only", "I and III only"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred mainly through solids by conduction, in which particles pass energy to neighbouring particles.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The gaps left between railway lines are to allow for        (BECE 2001 Q49)",
+        options: ["expansion", "cooling", "maintenance", "easy stopping"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Railway lines expand when heated. Gaps are provided to prevent the rails from bending or buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements is true about the boiling point of water?        (BECE 2002 Q3)",
+        options: [
+          "The mass of the water remains the same",
+          "The temperature increases",
+          "The temperature remains constant",
+          "The volume of the water decreases"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "At the boiling point, the temperature of water remains constant while the supplied heat changes the liquid into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Gaps are left between railway lines to        (BECE 2007 Q11)",
+        options: [
+          "prevent contraction",
+          "prevent rusting",
+          "allow for expansion",
+          "enable a train to stop"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The gaps provide space for the metal rails to expand when their temperature rises.",
+      ),
+      QuizQuestion(
+        question:
+            "16. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2007 Q3)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer tube.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The modes of heat transfer involved in the process of heating water in a bucket from the bottom until it boils are        (BECE 2001 Q1)",
+        options: [
+          "conduction and convection",
+          "conduction and radiation",
+          "convection and radiation",
+          "conduction, convection and radiation"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heat reaches the bucket by radiation, passes through the metal by conduction and circulates through the water by convection.",
+      ),
+      QuizQuestion(
+        question: "18. A metal expands when there is        (BECE 2005 Q22)",
+        options: [
+          "an increase in heat energy",
+          "an increase in number of electrons",
+          "a decrease in potential energy",
+          "a decrease in distance between atoms"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a metal gains heat energy, its particles vibrate more strongly and move slightly farther apart, causing expansion.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Wood is used to make the handles of cooking utensils because it is a        (BECE 2006 Q23)",
+        options: [
+          "bad conductor of heat",
+          "good conductor of heat",
+          "good reflector of heat",
+          "bad radiator of heat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wood is a poor conductor of heat, so it reduces the amount of heat transferred to the user's hand.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2007 Q24)",
+        options: ["convection", "conduction", "radiation", "evaporation"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Warm air becomes less dense and rises. This movement of air is called convection.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The process by which heat travels along a metal rod is called        (BECE 2000 Q2)",
+        options: ["convection", "conduction", "expansion", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Conduction transfers heat through the particles of a solid without the solid moving as a whole.",
+      ),
+      QuizQuestion(
+        question: "22. Heat travels through a vacuum by        (BECE 2008 Q23)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "convection and radiation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation does not require particles or a material medium, so it can transfer heat through a vacuum.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Heat is transferred from the bottom of a water-heating container to the top by        (BECE 2009 Q44)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "conduction and radiation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heated water becomes less dense and rises while cooler water sinks, forming convection currents.",
+      ),
+      QuizQuestion(
+        question:
+            "24. A mercury thermometer works on the principle that        (BECE 2009 Q15)",
+        options: [
+          "solids expand on heating and contract on cooling",
+          "liquids expand on heating and contract on cooling",
+          "gases expand on heating and contract on cooling",
+          "liquids evaporate when heated to a certain temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a liquid that expands when heated and contracts when cooled, causing its level in the thermometer to change.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The type of liquid suitable for constructing a thermometer to read temperatures of about 150°C is        (BECE 2010 Q29)",
+        options: ["alcohol", "mercury", "turpentine", "water"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Mercury has a high boiling point and can therefore be used to measure temperatures around 150°C.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following properties of alcohol as a thermometer liquid is correct?        (BECE 2011 Q15)",
+        options: [
+          "It is opaque",
+          "It does not wet glass",
+          "It has a very low freezing point",
+          "It has a high boiling point"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Alcohol has a very low freezing point, making it suitable for measuring very low temperatures.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following modes of heat transfer does not require a material medium?\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2011 Q22)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "III only"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation can travel through a vacuum, while conduction and convection require a material medium.",
+      ),
+      QuizQuestion(
+        question: "28. A good thermos flask must have        (BECE 2013 Q14)",
+        options: [
+          "hot air fixed at 0°C",
+          "a silver coating on the wall of the flask",
+          "an exchangeable small plastic case",
+          "expansion"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The silvered surfaces of a thermos flask reflect heat radiation and reduce heat loss or gain.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The reason why gaps are left in the joints of railway lines is to allow for        (BECE 2015 Q17)",
+        options: ["cooling", "contraction", "expansion", "application"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Metal rails expand when heated. The gaps provide space for this expansion and prevent buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The transfer of heat from the bottom to the top of a beaker containing water is by        (BECE 2015 Q18)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred through the water by convection currents caused by differences in density.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A metal that is used as a thermometric liquid is        (BECE 2016 Q36)",
+        options: ["aluminium", "copper", "mercury", "silver"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metal that remains liquid at room temperature and expands uniformly when heated.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The form of energy which flows from one point to another due to temperature differences is known as        (BECE 2016 Q39)",
+        options: [
+          "mechanical energy",
+          "heat energy",
+          "solar energy",
+          "nuclear energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heat energy flows from a region of higher temperature to a region of lower temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Heat is transferred along an iron bar by        (BECE 2018 Q38)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron is a solid and a good conductor, so heat travels through it mainly by conduction.",
+      ),
+      QuizQuestion(
+        question:
+            "34. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2019 Q19)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The mode of heat transfer in which no material medium is involved is known as        (BECE 2019 Q24)",
+        options: ["conduction", "convection", "expansion", "radiation"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
+      ),
+      QuizQuestion(
+        question: "36. Heat from the Sun reaches the Earth by\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2021 Q35)",
+        options: ["I only", "II only", "III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The space between the Sun and Earth is largely a vacuum, so heat reaches Earth through radiation.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When gases are heated quickly, they        (BECE 2022 Q36)",
+        options: [
+          "melt",
+          "sublime",
+          "decrease in volume",
+          "decrease in intermolecular forces"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heating gives gas particles more kinetic energy and causes them to move farther apart, reducing the intermolecular forces between them.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
+        options: ["cataract", "glaucoma", "headache", "long-sightedness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A converging or convex lens brings light rays together and is used to correct long-sightedness.",
+      ),
+      QuizQuestion(
+        question:
+            "39. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2001 Q18)",
+        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A plane mirror forms an image the same distance behind the mirror as the object is in front. The total distance is therefore 20 cm + 20 cm = 40 cm.",
+      ),
+      QuizQuestion(
+        question:
+            "40. A plane mirror can be described as opaque because it        (BECE 2005 Q2)",
+        options: [
+          "absorbs all the light incident on it",
+          "reflects all the light incident on it",
+          "allows all the light incident on it to pass through it",
+          "partly absorbs and partly allows the light incident on it to pass through it"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object does not allow light to pass through it. A plane mirror reflects most of the light that falls on it.",
+      ),
+      QuizQuestion(
+        question:
+            "41. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
+        options: [
+          "loss of accommodation",
+          "total blindness",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Concave or diverging lenses are used to correct short-sightedness by spreading light rays before they enter the eye.",
+      ),
+      QuizQuestion(
+        question:
+            "42. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q16)",
+        options: ["dispersed", "displaced", "refracted", "reflected"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "43. A plane mirror could be described as opaque because it        (BECE 2007 Q1)",
+        options: [
+          "reflects all the light incident on it",
+          "absorbs all the light incident on it",
+          "allows the light incident on it to pass through it and absorbs the rest",
+          "allows some of the light incident on it to pass through it"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror does not allow light to pass through it. Instead, it reflects the light incident on its surface.",
+      ),
+      QuizQuestion(
+        question:
+            "44. A mirror is used to direct sunlight onto the wall of a classroom by        (BECE 2007 Q7)",
+        options: ["dispersion", "reflection", "refraction", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mirror changes the direction of sunlight by reflecting it onto another surface.",
+      ),
+      QuizQuestion(
+        question:
+            "45. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Firefly        (BECE 2008 Q8)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and firefly produce their own light. The Moon only reflects sunlight, so statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "46. Which of the following statements describes the nature of light?        (BECE 2008 Q12)",
+        options: [
+          "It passes through all objects",
+          "It is absorbed at a polished surface",
+          "It travels in a straight line",
+          "It is always reflected in a medium"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light travels in straight lines through a uniform transparent medium.",
+      ),
+      QuizQuestion(
+        question:
+            "47. The amount of light that enters the eye is regulated by the size of the        (BECE 2005 Q17)",
+        options: ["lens", "iris", "pupil", "retina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pupil is the opening through which light enters the eye. Its size is controlled by the iris.",
+      ),
+      QuizQuestion(
+        question:
+            "48. The type of image formed in a plane mirror is always        (BECE 2012 Q13)",
+        options: ["diminished", "enlarged", "real", "virtual"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror forms a virtual image because the reflected rays only appear to meet behind the mirror.",
+      ),
+      QuizQuestion(
+        question:
+            "49. Which of the following sources of light is natural?        (BECE 2012 Q21)",
+        options: ["Firefly", "Fluorescent tube", "Glow worm", "Fire cracker"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A firefly is a living organism that naturally produces light through bioluminescence.",
+      ),
+      QuizQuestion(
+        question:
+            "50. An example of a body that does not produce its own light is the        (BECE 2016 Q24)",
+        options: ["sun", "moon", "star", "firefly"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it reflects light from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "51. A stick which is partially immersed in water appears to be bent due to        (BECE 2016 Q11)",
+        options: ["absorption", "reflection", "refraction", "transmission"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The stick appears bent because light changes direction as it moves between water and air. This effect is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "52. Which of the following statements about an opaque object is correct? An opaque object        (BECE 2017 Q3)",
+        options: [
+          "allows light to pass through it completely",
+          "allows light to pass through it partially",
+          "forms a shadow",
+          "does not form a shadow"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object blocks light from passing through it and therefore forms a shadow.",
+      ),
+      QuizQuestion(
+        question:
+            "53. Which of the following statements about shadow formation is correct? It shows that light rays can        (BECE 2018 Q12)",
+        options: [
+          "be diffused",
+          "travel in a straight line",
+          "be refracted",
+          "be reflected"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Shadows form when an opaque object blocks light travelling in straight lines.",
+      ),
+      QuizQuestion(
+        question:
+            "54. Which of the following statements shows that the Moon is a non-luminous object?        (BECE 2022 Q27)",
+        options: [
+          "It is a transparent object",
+          "It is an opaque object",
+          "It only reflects light",
+          "It absorbs all light"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it only reflects sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "55. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Glow worm        (BECE 2022 Q20)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and glow worm produce their own light, while the Moon reflects light from the Sun. Therefore, statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "56. The image formed by a plane mirror is always        (BECE 2022 Q23)",
+        options: ["inverted", "virtual", "magnified", "real"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror always forms a virtual, upright image that is the same size as the object.",
+      ),
+    ],
+  ),
+   "Science JHS3 s4 ss1 - Source, Forms, and Related Properties of Energy":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following examples is a source of energy?        (BECE 2011 Q3)",
+        options: ["Energy", "Food", "Light", "Wood"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food is a source of chemical energy that living organisms use to carry out their activities.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The unit of measurement of energy is the        (BECE 2017 Q5)",
+        options: ["joule", "kelvin", "newton", "watt"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The joule is the standard unit used to measure energy and work.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The source of all forms of energy can be traced to the        (BECE 2005 Q6)",
+        options: ["clouds", "earthquakes", "tides", "sun"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Sun is the main source of energy for the Earth. It provides solar energy and drives processes such as wind, rainfall and photosynthesis.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following sources of energy is non-renewable?        (BECE 2010 Q22)",
+        options: ["Sun", "Wave", "Wind", "Wood"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Wood may become non-renewable when trees are used faster than they can be replaced through replanting and natural regeneration.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following sources of energy is renewable?        (BECE 2016 Q45)",
+        options: ["Coal", "Crude oil", "Sun", "Wood"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Solar energy from the Sun is naturally replenished and cannot be exhausted through ordinary use.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Energy stored in food is referred to as        (BECE 2013 Q10)",
+        options: [
+          "chemical energy",
+          "electrical energy",
+          "kinetic energy",
+          "solar energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores energy in chemical bonds. This stored energy is released during respiration.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following forms of energy is/are renewable?\n\n"
+            "I. Solar\n"
+            "II. Crude oil\n"
+            "III. Wind        (BECE 2019 Q7)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Solar and wind energy are renewable, but crude oil is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following sources of energy is/are renewable?\n\n"
+            "I. Wind\n"
+            "II. Coal\n"
+            "III. Solar        (BECE 2020 Q4)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Wind and solar energy are renewable, while coal is a non-renewable fossil fuel. Therefore, statements I and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
+        options: [
+          "chemical energy",
+          "gravitational energy",
+          "nuclear energy",
+          "thermal energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Nuclear energy is released from changes that occur in the nucleus of an atom.",
+      ),
+      QuizQuestion(
+        question:
+            "10. An example of a source of energy which is non-renewable is        (BECE 2011 Q6)",
+        options: ["petroleum", "sun", "tide", "wind"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly after use.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
+        options: ["253 K", "293 K", "273 K", "313 K"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Temperature in Kelvin is found by adding 273 to the Celsius temperature. Therefore, 20 + 273 = 293 K.",
+      ),
+      QuizQuestion(
+        question: "12. The transfer of heat through a solid medium is by\n\n"
+            "I. conduction\n"
+            "II. timely\n"
+            "III. convection\n"
+            "IV. radiation        (BECE 2000 Q28)",
+        options: ["I only", "II only", "III only", "I and III only"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred mainly through solids by conduction, in which particles pass energy to neighbouring particles.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The gaps left between railway lines are to allow for        (BECE 2001 Q49)",
+        options: ["expansion", "cooling", "maintenance", "easy stopping"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Railway lines expand when heated. Gaps are provided to prevent the rails from bending or buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements is true about the boiling point of water?        (BECE 2002 Q3)",
+        options: [
+          "The mass of the water remains the same",
+          "The temperature increases",
+          "The temperature remains constant",
+          "The volume of the water decreases"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "At the boiling point, the temperature of water remains constant while the supplied heat changes the liquid into vapour.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Gaps are left between railway lines to        (BECE 2007 Q11)",
+        options: [
+          "prevent contraction",
+          "prevent rusting",
+          "allow for expansion",
+          "enable a train to stop"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The gaps provide space for the metal rails to expand when their temperature rises.",
+      ),
+      QuizQuestion(
+        question:
+            "16. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2007 Q3)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer tube.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The modes of heat transfer involved in the process of heating water in a bucket from the bottom until it boils are        (BECE 2001 Q1)",
+        options: [
+          "conduction and convection",
+          "conduction and radiation",
+          "convection and radiation",
+          "conduction, convection and radiation"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heat reaches the bucket by radiation, passes through the metal by conduction and circulates through the water by convection.",
+      ),
+      QuizQuestion(
+        question: "18. A metal expands when there is        (BECE 2005 Q22)",
+        options: [
+          "an increase in heat energy",
+          "an increase in number of electrons",
+          "a decrease in potential energy",
+          "a decrease in distance between atoms"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a metal gains heat energy, its particles vibrate more strongly and move slightly farther apart, causing expansion.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Wood is used to make the handles of cooking utensils because it is a        (BECE 2006 Q23)",
+        options: [
+          "bad conductor of heat",
+          "good conductor of heat",
+          "good reflector of heat",
+          "bad radiator of heat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wood is a poor conductor of heat, so it reduces the amount of heat transferred to the user's hand.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2007 Q24)",
+        options: ["convection", "conduction", "radiation", "evaporation"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Warm air becomes less dense and rises. This movement of air is called convection.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The process by which heat travels along a metal rod is called        (BECE 2000 Q2)",
+        options: ["convection", "conduction", "expansion", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Conduction transfers heat through the particles of a solid without the solid moving as a whole.",
+      ),
+      QuizQuestion(
+        question: "22. Heat travels through a vacuum by        (BECE 2008 Q23)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "convection and radiation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation does not require particles or a material medium, so it can transfer heat through a vacuum.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Heat is transferred from the bottom of a water-heating container to the top by        (BECE 2009 Q44)",
+        options: [
+          "conduction",
+          "convection",
+          "radiation",
+          "conduction and radiation"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heated water becomes less dense and rises while cooler water sinks, forming convection currents.",
+      ),
+      QuizQuestion(
+        question:
+            "24. A mercury thermometer works on the principle that        (BECE 2009 Q15)",
+        options: [
+          "solids expand on heating and contract on cooling",
+          "liquids expand on heating and contract on cooling",
+          "gases expand on heating and contract on cooling",
+          "liquids evaporate when heated to a certain temperature"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a liquid that expands when heated and contracts when cooled, causing its level in the thermometer to change.",
+      ),
+      QuizQuestion(
+        question:
+            "25. The type of liquid suitable for constructing a thermometer to read temperatures of about 150°C is        (BECE 2010 Q29)",
+        options: ["alcohol", "mercury", "turpentine", "water"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Mercury has a high boiling point and can therefore be used to measure temperatures around 150°C.",
+      ),
+      QuizQuestion(
+        question:
+            "26. Which of the following properties of alcohol as a thermometer liquid is correct?        (BECE 2011 Q15)",
+        options: [
+          "It is opaque",
+          "It does not wet glass",
+          "It has a very low freezing point",
+          "It has a high boiling point"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Alcohol has a very low freezing point, making it suitable for measuring very low temperatures.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following modes of heat transfer does not require a material medium?\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2011 Q22)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "III only"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation can travel through a vacuum, while conduction and convection require a material medium.",
+      ),
+      QuizQuestion(
+        question: "28. A good thermos flask must have        (BECE 2013 Q14)",
+        options: [
+          "hot air fixed at 0°C",
+          "a silver coating on the wall of the flask",
+          "an exchangeable small plastic case",
+          "expansion"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The silvered surfaces of a thermos flask reflect heat radiation and reduce heat loss or gain.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The reason why gaps are left in the joints of railway lines is to allow for        (BECE 2015 Q17)",
+        options: ["cooling", "contraction", "expansion", "application"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Metal rails expand when heated. The gaps provide space for this expansion and prevent buckling.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The transfer of heat from the bottom to the top of a beaker containing water is by        (BECE 2015 Q18)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Heat is transferred through the water by convection currents caused by differences in density.",
+      ),
+      QuizQuestion(
+        question:
+            "31. A metal that is used as a thermometric liquid is        (BECE 2016 Q36)",
+        options: ["aluminium", "copper", "mercury", "silver"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury is a metal that remains liquid at room temperature and expands uniformly when heated.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The form of energy which flows from one point to another due to temperature differences is known as        (BECE 2016 Q39)",
+        options: [
+          "mechanical energy",
+          "heat energy",
+          "solar energy",
+          "nuclear energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Heat energy flows from a region of higher temperature to a region of lower temperature.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Heat is transferred along an iron bar by        (BECE 2018 Q38)",
+        options: ["absorption", "conduction", "convection", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Iron is a solid and a good conductor, so heat travels through it mainly by conduction.",
+      ),
+      QuizQuestion(
+        question:
+            "34. When a thermometer is put in hot water, the mercury level rises because the mercury increases in        (BECE 2019 Q19)",
+        options: ["density", "mass", "volume", "weight"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mercury expands when heated, causing its volume to increase and its level to rise in the thermometer.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The mode of heat transfer in which no material medium is involved is known as        (BECE 2019 Q24)",
+        options: ["conduction", "convection", "expansion", "radiation"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
+      ),
+      QuizQuestion(
+        question: "36. Heat from the Sun reaches the Earth by\n\n"
+            "I. Conduction\n"
+            "II. Convection\n"
+            "III. Radiation        (BECE 2021 Q35)",
+        options: ["I only", "II only", "III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The space between the Sun and Earth is largely a vacuum, so heat reaches Earth through radiation.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When gases are heated quickly, they        (BECE 2022 Q36)",
+        options: [
+          "melt",
+          "sublime",
+          "decrease in volume",
+          "decrease in intermolecular forces"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Heating gives gas particles more kinetic energy and causes them to move farther apart, reducing the intermolecular forces between them.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
+        options: ["cataract", "glaucoma", "headache", "long-sightedness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A converging or convex lens brings light rays together and is used to correct long-sightedness.",
+      ),
+      QuizQuestion(
+        question:
+            "39. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2001 Q18)",
+        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A plane mirror forms an image the same distance behind the mirror as the object is in front. The total distance is therefore 20 cm + 20 cm = 40 cm.",
+      ),
+      QuizQuestion(
+        question:
+            "40. A plane mirror can be described as opaque because it        (BECE 2005 Q2)",
+        options: [
+          "absorbs all the light incident on it",
+          "reflects all the light incident on it",
+          "allows all the light incident on it to pass through it",
+          "partly absorbs and partly allows the light incident on it to pass through it"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object does not allow light to pass through it. A plane mirror reflects most of the light that falls on it.",
+      ),
+      QuizQuestion(
+        question:
+            "41. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
+        options: [
+          "loss of accommodation",
+          "total blindness",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Concave or diverging lenses are used to correct short-sightedness by spreading light rays before they enter the eye.",
+      ),
+      QuizQuestion(
+        question:
+            "42. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q16)",
+        options: ["dispersed", "displaced", "refracted", "reflected"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "43. A plane mirror could be described as opaque because it        (BECE 2007 Q1)",
+        options: [
+          "reflects all the light incident on it",
+          "absorbs all the light incident on it",
+          "allows the light incident on it to pass through it and absorbs the rest",
+          "allows some of the light incident on it to pass through it"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror does not allow light to pass through it. Instead, it reflects the light incident on its surface.",
+      ),
+      QuizQuestion(
+        question:
+            "44. A mirror is used to direct sunlight onto the wall of a classroom by        (BECE 2007 Q7)",
+        options: ["dispersion", "reflection", "refraction", "radiation"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A mirror changes the direction of sunlight by reflecting it onto another surface.",
+      ),
+      QuizQuestion(
+        question:
+            "45. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Firefly        (BECE 2008 Q8)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and firefly produce their own light. The Moon only reflects sunlight, so statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "46. Which of the following statements describes the nature of light?        (BECE 2008 Q12)",
+        options: [
+          "It passes through all objects",
+          "It is absorbed at a polished surface",
+          "It travels in a straight line",
+          "It is always reflected in a medium"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light travels in straight lines through a uniform transparent medium.",
+      ),
+      QuizQuestion(
+        question:
+            "47. The amount of light that enters the eye is regulated by the size of the        (BECE 2005 Q17)",
+        options: ["lens", "iris", "pupil", "retina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pupil is the opening through which light enters the eye. Its size is controlled by the iris.",
+      ),
+      QuizQuestion(
+        question:
+            "48. The type of image formed in a plane mirror is always        (BECE 2012 Q13)",
+        options: ["diminished", "enlarged", "real", "virtual"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror forms a virtual image because the reflected rays only appear to meet behind the mirror.",
+      ),
+      QuizQuestion(
+        question:
+            "49. Which of the following sources of light is natural?        (BECE 2012 Q21)",
+        options: ["Firefly", "Fluorescent tube", "Glow worm", "Fire cracker"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A firefly is a living organism that naturally produces light through bioluminescence.",
+      ),
+      QuizQuestion(
+        question:
+            "50. An example of a body that does not produce its own light is the        (BECE 2016 Q24)",
+        options: ["sun", "moon", "star", "firefly"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it reflects light from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "51. A stick which is partially immersed in water appears to be bent due to        (BECE 2016 Q11)",
+        options: ["absorption", "reflection", "refraction", "transmission"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The stick appears bent because light changes direction as it moves between water and air. This effect is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "52. Which of the following statements about an opaque object is correct? An opaque object        (BECE 2017 Q3)",
+        options: [
+          "allows light to pass through it completely",
+          "allows light to pass through it partially",
+          "forms a shadow",
+          "does not form a shadow"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An opaque object blocks light from passing through it and therefore forms a shadow.",
+      ),
+      QuizQuestion(
+        question:
+            "53. Which of the following statements about shadow formation is correct? It shows that light rays can        (BECE 2018 Q12)",
+        options: [
+          "be diffused",
+          "travel in a straight line",
+          "be refracted",
+          "be reflected"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Shadows form when an opaque object blocks light travelling in straight lines.",
+      ),
+      QuizQuestion(
+        question:
+            "54. Which of the following statements shows that the Moon is a non-luminous object?        (BECE 2022 Q27)",
+        options: [
+          "It is a transparent object",
+          "It is an opaque object",
+          "It only reflects light",
+          "It absorbs all light"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Moon is non-luminous because it does not produce its own light; it only reflects sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "55. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n"
+            "II. Sun\n"
+            "III. Glow worm        (BECE 2022 Q20)",
+        options: [
+          "I and II only",
+          "II and III only",
+          "I and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The Sun and glow worm produce their own light, while the Moon reflects light from the Sun. Therefore, statements II and III are correct.",
+      ),
+      QuizQuestion(
+        question:
+            "56. The image formed by a plane mirror is always        (BECE 2022 Q23)",
+        options: ["inverted", "virtual", "magnified", "real"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror always forms a virtual, upright image that is the same size as the object.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss2 - Electricity & Electronics": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following substances can be used as an electrical insulator?        (BECE 2002a Q11)",
+        options: ["Copper", "Graphite", "Plastic", "Zinc"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Plastic is an electrical insulator because it does not allow electric current to pass through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
+        options: ["earth wire", "lightning conductor", "fuse", "switch"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A fuse melts and opens the circuit when excessive current flows, thereby protecting the circuit and electrical appliances.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The instrument used to measure current in an electric circuit is the        (BECE 2001 Q38)",
+        options: ["ammeter", "anemometer", "barometer", "thermometer"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is the instrument used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "4. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
+        options: [
+          "prevent electric shock",
+          "protect appliances",
+          "provide more current",
+          "increase the heat generated"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects electrical appliances by breaking the circuit when the current becomes dangerously high.",
+      ),
+      QuizQuestion(
+        question:
+            "5. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2022 Q31)",
+        options: ["capacitor", "fuse", "resistor", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects appliances by melting and interrupting the circuit when excessive current passes through it.",
+      ),
+      QuizQuestion(
+        question:
+            "6. A rheostat is used in an electrical circuit in order to        (BECE 2017 Q5)",
+        options: [
+          "increase electric current only",
+          "decrease electric current only",
+          "keep electric current constant",
+          "increase and decrease electric current"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A rheostat is a variable resistor used to increase or decrease the current flowing through an electrical circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2009 Q2)",
+        options: [
+          "The circuit should be closed",
+          "A battery must be present",
+          "There must be connecting wires",
+          "A bulb must be connected in the circuit"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A bulb is not essential for current to flow. A closed conducting path and a source of potential difference are required.",
+      ),
+      QuizQuestion(
+        question:
+            "8. In modern electrical wiring, the colour code for the live wire is        (BECE 2012 Q30)",
+        options: ["blue", "brown", "green", "greenish-yellow"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In modern electrical wiring, the live wire is identified by the colour brown.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following materials allows electric current to pass through easily?        (BECE 2013 Q16)",
+        options: ["Aluminium", "Carbon", "Glass", "Water"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aluminium is a metal and a good electrical conductor, so it allows electric current to pass through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2014 Q21)",
+        options: [
+          "lead to fire outbreaks",
+          "lead to frequent power cut-offs",
+          "insulate the lines and make them safe to climb",
+          "cause damage to electrical appliances"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Illegal electrical connections can cause fires, power interruptions and damage to appliances. They do not insulate power lines or make them safe to climb.",
+      ),
+      QuizQuestion(
+        question:
+            "11. What is the colour of the neutral wire in a three-pin plug?        (BECE 2016 Q5)",
+        options: ["blue", "brown", "green", "yellow"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in a modern three-pin plug is identified by the colour blue.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q3)",
+        options: ["ammeter", "photometer", "thermometer", "voltmeter"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter measures the amount of electric current flowing through a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The colour of the neutral wire in an electrical circuit is        (BECE 2019 Q14)",
+        options: ["blue", "brown", "green", "yellow"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire is coloured blue according to the modern electrical wiring colour code.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The unit of potential difference is the        (BECE 2020 Q16)",
+        options: ["ampere", "watt", "ohm", "volt"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Potential difference is measured in volts using a voltmeter.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2021 Q3)",
+        options: ["ammeter", "voltmeter", "ohmmeter", "galvanometer"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "A voltmeter is connected in parallel across a resistor or component to measure the potential difference across it.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The current flowing through a resistor of resistance 10 Ω is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q7)",
+        options: ["1 V", "12.5 V", "25 V", "50 V"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Using Ohm's law, V = IR. Therefore, V = 2.5 A × 10 Ω = 25 V.",
+      ),
+      QuizQuestion(
+        question:
+            "17. It is not advisable to use old electrical gadgets because they        (BECE 2022 Q12)",
+        options: [
+          "are not efficient",
+          "are dangerous",
+          "produce sparks",
+          "waste energy"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Old electrical gadgets are often less energy-efficient and may consume more electricity than necessary, causing energy wastage.",
+      ),
+    ],
+  ),
+  "Science JHS1 s4 ss3 - Forces and Energy": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The type of energy obtained in food is referred to as        (BECE 2000 Q24)",
+        options: [
+          "chemical energy",
+          "electrical energy",
+          "heat energy",
+          "kinetic energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores chemical energy in its chemical bonds. This energy is released during respiration for use by the body.",
+      ),
+      QuizQuestion(
+        question:
+            "2. A ball is dropped from a height to the ground. The energy possessed by the ball just before it strikes the ground is called        (BECE 2002a Q8)",
+        options: [
+          "heat energy",
+          "kinetic energy",
+          "potential energy",
+          "sound energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Just before the ball strikes the ground, it is moving rapidly. The energy possessed by a moving object is kinetic energy.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Which of the following appliances transform(s) electrical energy into heat energy?\n\n"
+            "I. Swish oven\n"
+            "II. Hair drier\n"
+            "III. Refrigerator motor        (BECE 2001 Q15)",
+        options: [
+          "I only",
+          "I and II only",
+          "II and III only",
+          "I and III only"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "An electric oven and a hair drier convert electrical energy mainly into heat energy. A refrigerator motor mainly converts electrical energy into mechanical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "4. When the brakes of a bicycle in motion are applied for a long time, the wheels become hot. This is because of a change of energy from        (BECE 2002b Q6)",
+        options: [
+          "kinetic energy to potential energy",
+          "potential energy to kinetic energy",
+          "potential energy to heat energy",
+          "kinetic energy to heat energy"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Friction between the brake pads and the wheel converts the bicycle's kinetic energy into heat energy.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following materials transforms electrical energy into light energy?        (BECE 2000 Q17)",
+        options: ["Electric bell", "Filament", "Electric guitar", "Lantern"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The filament in an electric bulb becomes very hot when current passes through it and produces light.",
+      ),
+      QuizQuestion(
+        question:
+            "6. A body of mass 50 kg falls through a height of 5 m. If the acceleration due to gravity is 10 m/s², calculate the potential energy.        (BECE 2002a Q10)",
+        options: ["50 J", "250 J", "500 J", "2500 J"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Potential energy = mass × gravitational acceleration × height. Therefore, PE = 50 kg × 10 m/s² × 5 m = 2500 J.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The energy that causes the turbine of a hydroelectric plant to rotate is        (BECE 2000 Q23)",
+        options: [
+          "chemical energy",
+          "potential energy",
+          "electrical energy",
+          "kinetic energy"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Moving water possesses kinetic energy. This kinetic energy turns the turbine in a hydroelectric power plant.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Which of the following energy transformations takes place at a hydroelectric power station?        (BECE 2003 Q6)",
+        options: [
+          "Potential energy → kinetic energy → electrical energy",
+          "Potential energy → sound energy → electrical energy",
+          "Kinetic energy → electrical energy → light energy",
+          "Electrical energy → light energy → heat energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Stored water has potential energy. As it flows, this becomes kinetic energy, which is then converted into electrical energy by a generator.",
+      ),
+      QuizQuestion(
+        question: "9. The energy stored in food is        (BECE 2002b Q9)",
+        options: [
+          "electrostatic energy",
+          "chemical energy",
+          "solar energy",
+          "thermal energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Food stores chemical energy, which is released through respiration and used by living organisms.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The energy possessed by a compressed spring is        (BECE 2002a Q7)",
+        options: [
+          "chemical energy",
+          "kinetic energy",
+          "magnetic energy",
+          "potential energy"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A compressed spring stores elastic potential energy because of its changed shape.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following devices converts chemical energy into electrical energy?        (BECE 2004 Q8)",
+        options: ["Dry cell", "Electric bulb", "Loudspeaker", "Microphone"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A dry cell converts stored chemical energy into electrical energy through chemical reactions.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Electricity is used by appliances to do work. This means that electricity is a form of        (BECE 2005 Q8)",
+        options: ["energy", "force", "generator", "machine"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Energy is the capacity to do work. Since electricity enables appliances to perform work, it is a form of energy.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Which of the following energy changes takes place in a ringing bell?        (BECE 2008 Q4)",
+        options: [
+          "Potential energy to kinetic energy",
+          "Potential energy to sound energy",
+          "Mechanical energy to sound energy",
+          "Sound energy to light energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The vibrating parts of a bell possess mechanical energy, which is converted into sound energy.",
+      ),
+      QuizQuestion(
+        question:
+            "14. What kind of energy transformation takes place in an electric motor?        (BECE 2010 Q25)",
+        options: [
+          "Chemical energy to electrical energy",
+          "Chemical energy to mechanical energy",
+          "Electrical energy to heat energy",
+          "Electrical energy to mechanical energy"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "An electric motor uses electrical energy to produce movement, which is mechanical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "15. In which of the following devices is electrical energy transformed into light energy?        (BECE 2006 Q32)",
+        options: ["Electric bell", "Fluorescent tube", "Heater", "Radio"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fluorescent tube converts electrical energy mainly into light energy.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following devices converts electrical energy into sound energy?        (BECE 2016 Q25)",
+        options: [
+          "Electrical heater",
+          "Electric fan",
+          "Washing machine",
+          "Loudspeaker"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A loudspeaker converts electrical signals into vibrations that produce sound energy.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The types of energy obtained when atoms are split or combined are        (BECE 2004 Q12)",
+        options: [
+          "chemical and electrical energy",
+          "heat and sound energy",
+          "heat and light energy",
+          "electrical and light energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Nuclear reactions release large amounts of energy, mainly in the forms of heat and light.",
+      ),
+      QuizQuestion(
+        question:
+            "18. When a mango is falling from a tree, its potential energy is changed to        (BECE 2005 Q7)",
+        options: [
+          "sound energy",
+          "heat energy",
+          "kinetic energy",
+          "chemical energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "As the mango falls, its gravitational potential energy decreases and is converted into kinetic energy.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The type of energy stored when an electric bulb is connected to a battery is        (BECE 2007 Q2)",
+        options: [
+          "chemical energy",
+          "electrical energy",
+          "heat energy",
+          "magnetic energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A battery stores chemical energy, which is converted into electrical energy when the circuit is completed.",
+      ),
+      QuizQuestion(
+        question:
+            "20. The energy transformation that takes place in a car battery is        (BECE 2010 Q28)",
+        options: [
+          "electrical energy → chemical energy → light energy",
+          "electrical energy → chemical energy → electrical energy",
+          "chemical energy → electrical energy → light energy",
+          "chemical energy → electrical energy → mechanical energy"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "During charging, a car battery converts electrical energy into chemical energy. During use, the stored chemical energy is converted back into electrical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Electricity produced directly from sunlight is obtained using devices known as solar cells. The energy transformation involved is        (BECE 2012 Q1)",
+        options: [
+          "light energy to electrical energy",
+          "electrical energy to heat energy",
+          "electrostatic energy to light energy",
+          "chemical energy to electrical energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Solar cells convert light energy from the Sun directly into electrical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following statements is true about a device that performs work?        (BECE 2012 Q18)",
+        options: [
+          "Its potential energy must increase",
+          "It increases the efficiency of energy",
+          "It produces less energy than it receives",
+          "It must be efficient"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "A useful device should operate efficiently by converting as much of its input energy as possible into useful output energy.",
+      ),
+      QuizQuestion(
+        question:
+            "23. An object of mass 70 kg is raised through a vertical height of 15 m. Determine the object's potential energy at the top of the building. [g = 10 m/s²]        (BECE 2021 Q16)",
+        options: ["5,250 J", "1,050 J", "1,050 J", "10,500 J"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Potential energy = mass × gravitational acceleration × height. Therefore, PE = 70 kg × 10 m/s² × 15 m = 10,500 J.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss4 - Forces and Motion": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following statements about force is true?\n\n"
+            "I. It causes moving objects to stop.\n"
+            "II. It causes stationary objects to move.\n"
+            "III. It can change the direction of motion.\n"
+            "IV. It can change the shape of an object.        (BECE 2002 Q5)",
+        options: [
+          "I and II only",
+          "III and IV only",
+          "I, II and III only",
+          "I, II, III and IV"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Force can stop a moving object, set a stationary object in motion, change the direction of motion and change the shape of an object. Therefore, all four statements are true.",
+      ),
+      QuizQuestion(
+        question:
+            "2. When a person jumps up, he or she is able to come down because of the        (BECE 2005 Q38)",
+        options: [
+          "pull of the Earth's gravitational force",
+          "pull of the Earth's magnetic force",
+          "resistance of the Earth's atmosphere to upward motion",
+          "pressure of the Earth's atmosphere on the person"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The Earth's gravitational force pulls the person back towards the ground after jumping.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The force which opposes the motion of one body on another body is called        (BECE 2004 Q31)",
+        options: ["adhesion", "cohesion", "friction", "tension"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Friction is the force that opposes the relative motion of two surfaces that are in contact.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following statements about friction is not true?        (BECE 2006 Q37)",
+        options: [
+          "It wears off materials",
+          "It produces heat",
+          "It opposes motion",
+          "It increases speed"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Friction opposes motion and generally reduces speed. It can also produce heat and cause surfaces to wear away.",
+      ),
+      QuizQuestion(
+        question:
+            "5. A boy stepped on a banana peel on the ground and fell because the        (BECE 2003 Q10)",
+        options: [
+          "boy was not wearing shoes",
+          "ground was too hard",
+          "banana peel reduced the friction on the ground",
+          "banana peel increased the friction on the ground"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The banana peel reduced the friction between the boy's foot and the ground, causing him to slip and fall.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The force which opposes the motion of one object on another object is known as        (BECE 2002 Q9)",
+        options: ["friction", "gravity", "tension", "weight"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Friction acts between surfaces in contact and opposes their movement relative to each other.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The force that opposes the motion of an object on another object is called        (BECE 2007 Q38)",
+        options: [
+          "electrical force",
+          "frictional force",
+          "gravitational force",
+          "magnetic force"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Frictional force resists the movement of one surface over another surface.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The property of water that causes mosquito larvae to float on it is        (BECE 2000 Q35)",
+        options: ["density", "viscosity", "surface tension", "volume"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Surface tension makes the surface of water behave like a stretched membrane, enabling mosquito larvae to remain on it.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The process by which kerosene rises up in the wick of a lantern is known as        (BECE 2006 Q36)",
+        options: ["capillarity", "diffusion", "surface tension", "osmosis"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Capillarity causes kerosene to rise through the tiny spaces in the fibres of the lantern wick.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following is the SI unit of density?        (BECE 2022 Q15)",
+        options: ["kg m⁻³", "g cm⁻³", "kg m⁻²", "g cm⁻²"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Density is mass divided by volume. Its SI unit is kilogram per cubic metre, written as kg m⁻³.",
+      ),
+      QuizQuestion(
+        question: "11. The SI unit that is derived is        (BECE 2023 Q1)",
+        options: ["mass", "kilogram", "volume", "kg"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Volume is a derived quantity because it is obtained by multiplying length by breadth and height. Its SI unit is the cubic metre.",
+      ),
+      QuizQuestion(
+        question:
+            "12. If all the products have equal volumes, which of the products would have the highest density?        (BECE 2023 Q30)",
+        options: ["V", "Z", "X", "W and X"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "For equal volumes, the product with the greatest mass has the highest density. Product Z has the greatest mass and therefore has the highest density.",
+      ),
+      QuizQuestion(
+        question:
+            "13. A herbal mixture has a volume of 200 cm³ and a mass of 10,000 mg. Determine the density of the mixture.        (BECE 2023 Q31)",
+        options: ["10,200 kg m⁻³", "50 kg m⁻³", "800 kg m⁻³", "203 kg m⁻³"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Density = mass ÷ volume. Convert 10,000 mg to 0.01 kg and 200 cm³ to 0.0002 m³. Therefore, density = 0.01 ÷ 0.0002 = 50 kg m⁻³.",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss5 - Agricultural Tools": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. A sickle is mainly used for        (BECE 2013 Q25)",
+        options: [
+          "cutting grass and harvesting crops",
+          "digging the soil",
+          "pruning trees",
+          "fetching water"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A sickle has a curved blade and is mainly used for cutting grass and harvesting crops.",
+      ),
+    ],
+  ),
+
+  // English ////////////
+
+  "English JHS1 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from letters to anyone.\n\n"
+            "Bako’s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell down unconscious. His friends carried him to Adom Hospital.\n\n"
+            "The accident changed Bako’s life. His handsome face became permanently scarred. He lost his strength and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.\n\n"
+            "1. According to the passage, Garba taught Bako to …        (BECE 1993 Q1)",
+        options: [
+          "use a matchet.",
+          "fell trees.",
+          "read and write.",
+          "gossip and laugh."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that Garba taught Bako the art of reading and writing.",
+      ),
+      QuizQuestion(
+        question: "2. Bako got additional income by …        (BECE 1993 Q2)",
+        options: [
+          "cutting down trees.",
+          "going to the hospital.",
+          "meeting his friends on Monday.",
+          "working as a letter-writer and reader."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bako earned extra income by reading and writing letters for his fellow illiterate labourers.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The people trusted Bako because he …        (BECE 1993 Q3)",
+        options: [
+          "kept what he knew about them secretly.",
+          "wrote and read their letters.",
+          "gossiped and laughed with them.",
+          "was hardworking and clever."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The people trusted Bako because he never revealed information from their letters to anyone.",
+      ),
+      QuizQuestion(
+        question: "4. How did the accident affect Bako?        (BECE 1993 Q4)",
+        options: [
+          "He lost his senses and job.",
+          "He could not read and write again.",
+          "He became weak and jobless.",
+          "His face was stitched."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After the accident, Bako lost his strength and his job, and he continued to grow weaker.",
+      ),
+      QuizQuestion(
+        question: "5. Bako liked Monday because …        (BECE 1993 Q5)",
+        options: [
+          "Monday started the week.",
+          "he met all his friends again.",
+          "he received his pay.",
+          "he heard news from other villages."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Bako enjoyed Mondays because the returning labourers brought gossip, laughter and news from their villages.",
+      ),
+      QuizQuestion(
+        question: "6. He fell unconscious means he …        (BECE 1993 Q6)",
+        options: [
+          "fell asleep.",
+          "became mad.",
+          "lost his confidence.",
+          "lost awareness of his surroundings."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To fall unconscious means to lose awareness of oneself and one’s surroundings.",
+      ),
+      QuizQuestion(
+        question:
+            "When Mr. Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.\n\n"
+            "It was a long time he had walked so much. Like many other successful men, Mr. Appiah had acquired the habit of going everywhere in his car; so that day’s sight-seeing expedition had worn him out.\n\n"
+            "‘Well, what do you think of Accra?’ He asked the boys.\n\n"
+            "‘Oh!’ exclaimed Attah. ‘It’s a wonderful place!’\n\n"
+            "‘I didn’t imagine any place could be like this, Uncle,’ said Asare, ‘Everything is so splendid and the buildings magnificent.’\n\n"
+            "‘Boys, don’t get the wrong impression. Today you’ve seen the best parts of our city; but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished’, said Mr. Appiah.\n\n"
+            "7. Mr. Appiah was hot, tired and dusty because …        (BECE 1991 Q1)",
+        options: [
+          "he had gone to bring his nephews from the village.",
+          "he had taken his nephews to the high buildings.",
+          "he had shown the boys around the city of Accra.",
+          "he had helped them to demolish the buildings."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Appiah was hot, tired and dusty because he had spent the whole day showing the boys around Accra.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Where were the boys living before visiting Accra?        (BECE 1991 Q2)",
+        options: [
+          "In the high buildings.",
+          "In the village.",
+          "In the big house.",
+          "In the public gardens."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that Asare and Attah had come from the village.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Everything is so splendid means everything is …        (BECE 1991 Q3)",
+        options: ["satisfactory.", "magnificent.", "important.", "brilliant."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, the word “splendid” means magnificent or extremely impressive.",
+      ),
+      QuizQuestion(
+        question:
+            "10. According to the passage many successful men are used to …        (BECE 1991 Q4)",
+        options: [
+          "walking around Accra.",
+          "bringing their nephews from the village to Accra.",
+          "going sightseeing in the city of Accra.",
+          "riding in cars wherever they go."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that many successful men, like Mr. Appiah, had acquired the habit of going everywhere in their cars.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Which of the following statements is not true according to the passage?        (BECE 1991 Q5)",
+        options: [
+          "Every part of the city is wonderful and splendid.",
+          "Mr. Appiah normally rides in his car.",
+          "Asare and Attah are in Accra for the first time.",
+          "The boys rested in the public garden."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Not every part of Accra was wonderful and splendid. Mr. Appiah explained that some areas had dilapidated buildings, narrow streets and insanitary conditions.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Insanitary conditions in the last paragraph means …        (BECE 1991 Q6)",
+        options: [
+          "some people in Accra are insane.",
+          "some places in Accra are dirty and unclean.",
+          "insanitary is seen in all conditions in the city.",
+          "unsatisfactory reports about the city."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Insanitary conditions are dirty and unclean conditions that may be harmful to people’s health.",
+      ),
+      QuizQuestion(
+        question:
+            "13. Demolished as used in the passage means …        (BECE 1991 Q7)",
+        options: ["replaced.", "repaired.", "painted.", "pulled down."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “demolished” means that the buildings were being pulled down or destroyed.",
+      ),
+      QuizQuestion(
+        question:
+            "A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because of King Eagle, who was the custodian of the sun, moon, stars, water and fire, and had bullied them into accepting that situation.\n\n"
+            "Meanwhile, Eagle had a charming daughter who had fallen in love with Crow — a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle’s hidden treasure that consisted of light, water and fire and flew away with it.\n\n"
+            "As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided up and swerved in a beautiful display in the sky.\n\n"
+            "While he was doing this, the water fell to the ground and formed rivers, lakes and streams. He still held fast unto the fire with his beak.\n\n"
+            "Suddenly, some strong and violent winds blew smoke from the fire over Crow’s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.\n\n"
+            "14. Why did men not complain about their condition? Because they …        (BECE 1994 Q1)",
+        options: [
+          "thought fire was too hot.",
+          "were afraid of Eagle.",
+          "were satisfied with what they had.",
+          "enjoyed darkness."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The men did not complain because King Eagle had bullied and frightened them into accepting their condition.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Crow released the stolen treasure to the world in the following order:        (BECE 1994 Q2)",
+        options: [
+          "sun, moon, water, fire.",
+          "sun, fire, water, moon.",
+          "moon, water, fire, sun.",
+          "sun, water, moon, fire."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Crow first placed the sun in the sky, then fixed the moon and stars, released the water, and continued holding the fire in his beak.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following actions was a deliberate one by Crow? The …        (BECE 1994 Q3)",
+        options: [
+          "dropping of water to the ground.",
+          "appearance of violent winds.",
+          "burning of his beak.",
+          "hanging of the sun in the sky."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Crow deliberately hung the sun in the sky, while the water fell accidentally and the violent winds occurred unexpectedly.",
+      ),
+      QuizQuestion(
+        question: "17. Thrilled in the passage means …        (BECE 1994 Q4)",
+        options: ["afraid.", "excited.", "surprised.", "thankful."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “thrilled” means extremely excited and pleased about an achievement.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Eagle’s action can best be described as …        (BECE 1994 Q5)",
+        options: ["clever.", "dangerous.", "famous.", "selfish."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Eagle acted selfishly by keeping the sun, moon, stars, water and fire away from everyone else.",
+      ),
+      QuizQuestion(
+        question:
+            "It was an English Lesson and our classroom was quiet. The blackboard was covered with sentences on clauses and we went through such different forms as:\n\n"
+            "(1) If he comes, I shall be happy;\n"
+            "(2) If you abused him, he would beat you;\n"
+            "(3) Amo could have won the race if he had trained harder.\n\n"
+            "We all found it difficult to understand the formula for each sentence. We had problems with the tenses too as our final examination were so near we really had to master them. We were, however, interrupted by the noise of a bucket and heavy footsteps on the veranda. Then Mr. Odumba’s big head came round the door.\n\n"
+            "“Sorry to interrupt”, he told our teacher. We all looked up, highly pleased at the welcomed interruption. Who knows, Mr. Odumba might fall down again and what could be more pleasing than in the middle of a difficult lesson?\n\n"
+            "Finally, he asked our teacher, ‘Would you mind if I went to find which of your pupils’ hands smell of pawpaw?’\n\n"
+            "19. The classroom was quiet because the pupils …        (BECE 1990 Q1)",
+        options: [
+          "wanted the lesson to end quickly.",
+          "did not understand the lesson.",
+          "were preparing for their final examination.",
+          "had stolen some pawpaw."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The pupils were quiet because they were finding the lesson difficult and did not understand the formulas and tenses being taught.",
+      ),
+      QuizQuestion(
+        question: "20. Mr. Odumba came to the school …        (BECE 1990 Q2)",
+        options: [
+          "because he wanted to beat one of the pupils.",
+          "to search for those who had stolen his pawpaw.",
+          "to return the bucket to the school.",
+          "to converse with one of the teachers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Odumba wanted to identify the pupils whose hands smelt of pawpaw because he suspected that they had stolen his pawpaw.",
+      ),
+      QuizQuestion(
+        question:
+            "21. How did Mr. Odumba’s visit to the school affect the pupils?        (BECE 1990 Q3)",
+        options: [
+          "They were frightened.",
+          "He disturbed them.",
+          "They were happy.",
+          "They felt sorry for him."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pupils were happy because Mr. Odumba’s arrival interrupted the difficult English lesson.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Which of the following statements is not true according to the passage?        (BECE 1990 Q4)",
+        options: [
+          "The pupils were weak in grammar.",
+          "Mr. Odumba fell down once.",
+          "The lesson was not understood.",
+          "The pupils’ hands smelt of pawpaw."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The passage does not state that all the pupils’ hands smelt of pawpaw. Mr. Odumba only wanted to find out which pupils had hands that smelt of pawpaw.",
+      ),
+      QuizQuestion(
+        question:
+            "23. Mr. Odumba’s big head came round the door. This means Mr. Odumba’s head …        (BECE 1990 Q5)",
+        options: [
+          "appeared at the entrance.",
+          "hit the door.",
+          "blocked the entrance.",
+          "pushed the door open."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression means that Mr. Odumba’s head appeared around the doorway or at the entrance.",
+      ),
+      QuizQuestion(
+        question:
+            "24. The expression, Can I have a word with you means, let me …        (BECE 1990 Q6)",
+        options: [
+          "help you teach.",
+          "teach you a word.",
+          "give you something.",
+          "speak to you."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression “Can I have a word with you?” means asking to speak briefly and privately with someone.",
+      ),
+      QuizQuestion(
+        question:
+            "Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there.\n\n"
+            "Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.\n\n"
+            "‘Hello, Ragini,’ she said, pretending not to know why he waited there with his best friend. ‘Hello, Njoman,’ Njoma said as he stood up. ‘What did you buy in the market?’ ‘Mostly fruits for rujaks (spicy salad).’ ‘Wait, Ragini,’ Njoma said. ‘Putu will carry them for you. It is time for us to go off together and marry.’ Njoman took Ragini by the hand and said, ‘We shall go to my cousin’s house in the next village.’\n\n"
+            "As they were walking, Ragini turned to the women and feigned distress. ‘Njoman is taking me away. What can I do?’ In this way, according to Balinese tradition, Ragini submitted to her abductor.\n\n"
+            "25. Njoman was on the path because he wanted to …        (BECE 1992 Q1)",
+        options: [
+          "cross the stream.",
+          "bath in the stream.",
+          "spy on the woman.",
+          "meet Ragini."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Njoman waited on the path because he knew Ragini would pass there and he wanted to meet her.",
+      ),
+      QuizQuestion(
+        question:
+            "26. How did Ragini behave when she was invited by Njoman?        (BECE 1992 Q2)",
+        options: [
+          "She pretended she was in great pain and misery.",
+          "She talked to the women furiously.",
+          "She just walked off with her basket of fruits.",
+          "She greeted the women noisily."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Ragini feigned distress by pretending that she was in pain and misery as Njoman took her away.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Which of the following is not true according to the passage?        (BECE 1992 Q3)",
+        options: [
+          "The women teased Njoman.",
+          "Putu held Ragini’s hand.",
+          "All the women definitely knew his reason for coming.",
+          "Njoman waited for sometime before Ragini arrived."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "It was Njoman, not Putu, who took Ragini by the hand.",
+      ),
+      QuizQuestion(
+        question:
+            "28. The expression pretending not to know means …        (BECE 1992 Q4)",
+        options: [
+          "not knowing what to do.",
+          "behaving well after knowing.",
+          "behaving as if everybody knew what to say.",
+          "behaving as if one did not know something was happening."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Pretending not to know means acting as though one is unaware of something that is actually known.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The expression feigned distress means …        (BECE 1992 Q5)",
+        options: [
+          "fainted upon seeing the woman.",
+          "pretended to be upset and having pain.",
+          "pretended to be very hungry on seeing the fruits.",
+          "fell down with flushed face."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To feign distress means to pretend to be upset, troubled or in pain.",
+      ),
+      QuizQuestion(
+        question: "30. The word abductor means …        (BECE 1992 Q6)",
+        options: [
+          "a thief.",
+          "an armed robber.",
+          "a hijacker.",
+          "a kidnapper."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "An abductor is a person who takes someone away by force or without permission; that is, a kidnapper.",
+      ),
+      QuizQuestion(
+        question:
+            "As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard a loud knock on the door. Papa opened the door to let in a fast-talking handsome stranger.\n\n"
+            "According to him, he was passing to the next village but there were no vehicles. Therefore, he was stranded. My parents with their customary generosity allowed him to stay for the rest of the day with us. Soon after, supper was ready. We, the younger children, had to eat in the kitchen, whilst my parents and the others ate in the dining room.\n\n"
+            "From where we were eating we could hear and see the adults. ‘Now, Mr. Anang,’ said my father, ‘you being the last to arrive will share the chicken.’ ‘Very well said,’ agreed Mr. Anang. He began by cutting the head of the chicken, which he gave to Papa saying, ‘You are the head of the family so you get the head.’ To my mother, he said, ‘You are the next to the head; therefore, get the neck.’ My elder brother, Yoofi, and sister, Aba, had wings because they were of age and would need wings to fly away from the family nest. The other two guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, ‘I, a poor wandering man, who must treat my kwashiorkor once and forever, will take the rest!’ There was a long silence after this around the dining table.\n\n"
+            "31. The writer’s family were preparing for …        (BECE 1994 Q6)",
+        options: [
+          "a birthday party.",
+          "an extraordinary supper.",
+          "a celebration.",
+          "their usual supper."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The family was preparing a special supper of roasted chicken, pepper sauce and fried yam, making it an extraordinary supper.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The handsome stranger stopped at the writer’s house because …        (BECE 1994 Q7)",
+        options: [
+          "he did not know the way to his village.",
+          "he was hungry.",
+          "it was very late in the night.",
+          "there was no transport."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The stranger was stranded because there were no vehicles to take him to the next village.",
+      ),
+      QuizQuestion(
+        question:
+            "33. Their customary generosity in the passage tells us that the parents were usually …        (BECE 1994 Q8)",
+        options: ["proud.", "strict.", "attentive.", "kind."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The parents showed kindness by allowing the stranded stranger to stay and share their meal.",
+      ),
+      QuizQuestion(
+        question:
+            "34. How many people had their meal in the dining room?        (BECE 1994 Q9)",
+        options: ["six.", "eight.", "five.", "seven."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Five family members were identified in the sharing: Papa, the mother, Yoofi, Aba and the narrator.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Which of the following is true according to the order in which the roasted chicken was shared?        (BECE 1994 Q10)",
+        options: [
+          "head, feet, wings, body, neck.",
+          "head, wings, neck, body, feet.",
+          "head, neck, body, feet, wings.",
+          "head, neck, wings, feet, body."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The chicken was shared in this order: the head, the neck, the wings, the feet and then the remaining body.",
+      ),
+      QuizQuestion(
+        question:
+            "36. Mr. Anang’s behaviour can best be described as …        (BECE 1994 Q11)",
+        options: [
+          "mean and clever.",
+          "talkative but generous.",
+          "honest and generous.",
+          "jovial but proud."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Mr. Anang spoke humorously while sharing the chicken but proudly kept the largest remaining portion for himself.",
+      ),
+      QuizQuestion(
+        question:
+            "37. How did the writer’s family respond to the way the roasted chicken was shared?        (BECE 1994 Q12)",
+        options: [
+          "They were annoyed.",
+          "They wept over it.",
+          "They were shocked.",
+          "They disagreed."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The long silence around the dining table shows that the family was shocked by the stranger’s unfair sharing.",
+      ),
+      QuizQuestion(
+        question:
+            "Have you ever watched two dogs fighting? The scene is both interesting and terrifying. I once watched two dogs, Whisky and Sandy fighting. Whisky was a brown dog with white hair around his eyes. This made him look very fearful. He was often running after lizards and barking at strange things and visitors. Sandy, on the other hand, was a black dog with white legs and face. He was gentle and friendly to both adults and children.\n\n"
+            "When the fight started, everyone thought Sandy would be no match for Whisky. Whisky was the first to attack. He jumped up with his fore-legs raised, mouth wide open, and gripped the back of Sandy’s neck with his sharp teeth. Sandy went down with Whisky on top of him. Sandy played it cool as if he did not feel any pain. The spectators believed the more aggressive Whisky had won the fight.\n\n"
+            "Suddenly, the tide turned. Sandy got hold of one of Whisky’s hind legs and bit it hard as if breaking a bone. Whisky felt the pain and as he opened his mouth to yelp, Sandy broke free.\n\n"
+            "As Whisky was about to attack again, Sandy jumped on his back and held his throat. Down he went on his back. The crowd then cheered, Sandy! Sandy!! Sandy!!!\n\n"
+            "Feeling very proud, Sandy released Whisky and he ran away with his tail between his legs. Sandy had won the fight.\n\n"
+            "38. According to the passage when one comes across two dogs fighting, one …        (BECE 1990 Q7)",
+        options: [
+          "becomes both attracted and frightened.",
+          "must run away from them.",
+          "must hit their necks with a stick.",
+          "must shout to separate them."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage describes the sight of two dogs fighting as both interesting and terrifying, meaning it attracts and frightens the observer.",
+      ),
+      QuizQuestion(
+        question:
+            "39. The spectators thought Whisky had won the fight because he …        (BECE 1990 Q8)",
+        options: [
+          "had once attacked and defeated a lizard.",
+          "knew how to fight.",
+          "was able to jump higher than Sandy.",
+          "pushed Sandy to the ground."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The spectators believed Whisky had won because he attacked Sandy and brought him down to the ground.",
+      ),
+      QuizQuestion(
+        question:
+            "40. Whisky was defeated because Sandy …        (BECE 1990 Q9)",
+        options: [
+          "had the support of the crowd.",
+          "bit his legs.",
+          "held his throat.",
+          "turned the tide."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sandy defeated Whisky by jumping on his back and holding his throat until he fell down.",
+      ),
+      QuizQuestion(
+        question:
+            "41. Sandy played it cool means that Sandy …        (BECE 1990 Q10)",
+        options: [
+          "enjoyed the fight.",
+          "felt very cold.",
+          "did not bark.",
+          "remained undisturbed."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Sandy played it cool by remaining calm and acting as though he did not feel any pain.",
+      ),
+      QuizQuestion(
+        question:
+            "42. The tide turned as used in the passage means …        (BECE 1990 Q11)",
+        options: [
+          "the situation changed.",
+          "it became windy.",
+          "the weather became more violent.",
+          "the fight became more violent."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression “the tide turned” means that the situation changed in Sandy’s favour.",
+      ),
+      QuizQuestion(
+        question:
+            "We can have close friends for a very long time. But when friendship and duty come into conflict, as I once experienced, many problems may occur.\n\n"
+            "Almost all my friends and I were leading members of our school’s Supporters Club. In the beginning of our final year, it was time to elect new officers for the club. Everyone stood the chance of being elected.\n\n"
+            "When I was elected the President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.\n\n"
+            "Just as I imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that is exactly what I did.\n\n"
+            "Many of my friends could not understand this. While some of them stopped coming to the games, others were not talking to me at all.\n\n"
+            "I finally decided to have a talk with everyone. I frankly admitted that I did not like it because since I had it, my friends were talking to me at all — I was determined to do my best. I also told them to leave sports matters on the field more important to me than the job. From that little talk, I had everything resolved.\n\n"
+            "43. Why did the writer think his job would be difficult?        (BECE 1993 Q7)",
+        options: [
+          "The other members were final year students.",
+          "He had to control his closest friends.",
+          "He was inexperienced.",
+          "He had to work with new officers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The writer knew the job would be difficult because, as president, he had to control and discipline his closest friends.",
+      ),
+      QuizQuestion(
+        question:
+            "44. Which of the following words best describes the behaviour of the writer’s friends?        (BECE 1993 Q8)",
+        options: ["Uncooperative.", "Jealous.", "Insulting.", "Funny."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The writer’s friends were uncooperative because they refused to listen to him and did not support his efforts to maintain discipline.",
+      ),
+      QuizQuestion(
+        question:
+            "45. According to the passage which of the following statements is true? The writer …        (BECE 1993 Q9)",
+        options: [
+          "settled the misunderstanding between him and his friends.",
+          "stopped talking to his friends.",
+          "lost all his closest friends.",
+          "appointed only his friends as officers."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The writer resolved the misunderstanding by talking openly with his friends and explaining his position.",
+      ),
+      QuizQuestion(
+        question: "46. The word disputes means …        (BECE 1993 Q10)",
+        options: ["misgiving.", "debates.", "insults.", "differences."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “disputes” means disagreements or differences between people.",
+      ),
+      QuizQuestion(
+        question:
+            "Apart from food which supply us with energy, we need certain substances called protein to help us grow, and when we are fully grown, we maintain our strength. These proteins are found in meat, fish, eggs, milk, green vegetables and to a much lesser extent in grains like millet, wheat, guinea corn, rice etc.\n\n"
+            "Children fed chiefly on roots will, therefore, stop growing. They get very ill and die while children who are given milk and eggs grow well and live longer.\n\n"
+            "However, cow milk is expensive in West Africa and in many places there is a wrong tradition about eggs. Some old people say that if eggs are given to children they become liars. This is not true. Eggs do not make children either tell the truth or lie. They are simply good food which will help the children to grow well. Also, the tradition that boys become thieves when they eat meat is not true. Both are bad traditions which have been repeated in some villages from one generation to another.\n\n"
+            "So, the intelligent mother who wishes to bring up healthy children must discard them.\n\n"
+            "47. According to the passage, proteins …        (BECE 1992 Q7)",
+        options: [
+          "make us well satisfied.",
+          "help us grow well.",
+          "fill our bodies.",
+          "give us energy."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that proteins help children grow and help fully grown people maintain their strength.",
+      ),
+      QuizQuestion(
+        question:
+            "48. Which of the following statements is not true according to the passage?        (BECE 1992 Q8)",
+        options: [
+          "Children must eat roots only.",
+          "Old people think meat makes boys thieves.",
+          "Children who are given milk and eggs will grow well.",
+          "The intelligent mother has to do away with some bad traditions."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The passage does not recommend feeding children only on roots. It explains that children fed mainly on roots may stop growing and become ill.",
+      ),
+      QuizQuestion(
+        question:
+            "49. Cow milk is expensive means it is …        (BECE 1992 Q9)",
+        options: ["sweet.", "white.", "good.", "dear."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "In this context, “dear” means expensive or costly.",
+      ),
+      QuizQuestion(
+        question:
+            "50. What happens to children who are not given food containing proteins regularly?        (BECE 1992 Q10)",
+        options: [
+          "They often become liars.",
+          "They often become thieves.",
+          "They often become ill.",
+          "They should preserve tradition."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that children who do not receive enough protein may stop growing, become very ill and even die.",
+      ),
+      QuizQuestion(
+        question:
+            "51. What advice did the writer give to mothers?        (BECE 1992 Q11)",
+        options: [
+          "They should eat foods containing proteins.",
+          "They should accept traditions.",
+          "They should do away with bad traditions.",
+          "They should preserve traditions."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The writer advises mothers to discard harmful traditions that prevent children from eating nutritious foods such as eggs and meat.",
+      ),
+      QuizQuestion(
+        question:
+            "The Akosombo Dam and Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium bauxite.\n\n"
+            "Aluminium is used throughout the world; so both the production of electricity and aluminium are of great value to Ghana.\n\n"
+            "It may seem strange talk about producing electricity by the building of the dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that the water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing. But of course the building of the dam and fixing of the machines costs a great deal of money.\n\n"
+            "Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed is, in fact, the biggest man-made lake in the world.\n\n"
+            "52. The main reasons why Akosombo Dam was built were …        (BECE 1991 Q8)",
+        options: [
+          "to produce electricity and to use it to manufacture aluminium.",
+          "to produce electricity from aluminium and bauxite.",
+          "to find the mineral called bauxite and use it.",
+          "to use aluminium and electricity."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that the dam was built to generate electricity and use that electricity in the production of aluminium.",
+      ),
+      QuizQuestion(
+        question: "53. Aluminium is produced from …        (BECE 1991 Q9)",
+        options: ["dams.", "electricity.", "bauxite.", "machines."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Aluminium is produced from the mineral bauxite.",
+      ),
+      QuizQuestion(
+        question:
+            "54. From the passage, dams are built all over the world mainly to …        (BECE 1991 Q10)",
+        options: [
+          "produce aluminium from bauxite.",
+          "provide water for the generation of electricity.",
+          "extract bauxite from lakes.",
+          "provide water for drinking."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Dams store water whose powerful flow is used to turn turbines and generate electricity.",
+      ),
+      QuizQuestion(
+        question:
+            "55. Which of the following statements is not true according to the passage?        (BECE 1991 Q11)",
+        options: [
+          "The Akosombo Dam is the biggest in the world.",
+          "The production of both electricity and aluminium is of great value to Ghana.",
+          "Water from the lake runs fiercely through tunnels.",
+          "The Akosombo Dam is valuable to Ghana."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The passage says that Akosombo Dam is one of the biggest dams, not the biggest dam in the world. It is the Volta Lake that is described as the biggest man-made lake.",
+      ),
+      QuizQuestion(
+        question:
+            "56. According to the passage which of the following statements is true?        (BECE 1991 Q12)",
+        options: [
+          "In building dams rivers are blocked at their broadest points.",
+          "Water is used to produce electricity.",
+          "Building the dam and fixing machines to produce electricity cost nothing at all.",
+          "In producing electricity engineers need a lot of petrol to drive the machines."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage explains that flowing water is used to drive turbines which generate electricity.",
+      ),
+      QuizQuestion(
+        question:
+            "57. The most suitable title for the passage is …        (BECE 1991 Q13)",
+        options: [
+          "Akosombo and Bauxite.",
+          "Electricity from water.",
+          "Dams of the world.",
+          "Electricity and power."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The main idea of the passage is how dams use flowing water to generate electricity.",
+      ),
+      QuizQuestion(
+        question:
+            "Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from this place that the little feathered creatures blend their voices in one of the most delightful songs in the world.\n\n"
+            "Songbirds do not just make noise. The male voices in the choir, for instance, have two messages. First, it is a warning to other males not to come here. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress ladybirds.\n\n"
+            "Songbirds are very remarkable. They can sing three or four notes at once. To the human ear these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.\n\n"
+            "Just how birds learn and invent their songs is an interesting subject. Some birds have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never know what they hear others sing.\n\n"
+            "58. According to the passage, members of the chorus can sing without any difficulty because they …        (BECE 1995 Q1)",
+        options: [
+          "have to sing.",
+          "easily learn to sing.",
+          "have good songs.",
+          "are born good singers."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that some birds have their songs fixed in their brains from birth, so they are naturally able to sing.",
+      ),
+      QuizQuestion(
+        question: "59. The male songbirds sing to …        (BECE 1995 Q2)",
+        options: [
+          "encourage others.",
+          "attract the females.",
+          "entertain others.",
+          "praise nature."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Male songbirds sing partly as an invitation to female birds, especially during the breeding season.",
+      ),
+      QuizQuestion(
+        question:
+            "60. The most interesting songs are produced …        (BECE 1995 Q3)",
+        options: [
+          "during competitions.",
+          "in the morning.",
+          "during mating periods.",
+          "in the evening."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage says the most vigorous and interesting songs are heard during the breeding season.",
+      ),
+      QuizQuestion(
+        question: "61. Unique in the passage means …        (BECE 1995 Q4)",
+        options: ["suitable.", "similar.", "exciting.", "special."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The word “unique” means special or unlike anything else.",
+      ),
+      QuizQuestion(
+        question:
+            "62. According to the passage which of the following is true? Birds …        (BECE 1995 Q5)",
+        options: [
+          "are impressive.",
+          "are awesome.",
+          "make too much noise.",
+          "are ridiculous."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage describes songbirds as remarkable and capable of producing delightful and complex songs, showing that they are impressive.",
+      ),
+      QuizQuestion(
+        question:
+            "‘Locusts are descending’ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.\n\n"
+            "At first, a fairly small swarm came. And then appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.\n\n"
+            "Everyone was now about praying that the locusts should stay in the village for the night. For although most people had never seen locusts before they knew their instinct that they were good to eat. At last they descended. They settled on roofs and the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.\n\n"
+            "Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning, they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten relish.\n\n"
+            "63. Most of the village people were excited about the coming of the locusts because they …        (BECE 1995 Q6)",
+        options: [
+          "were moving slowly.",
+          "had come in a swarm.",
+          "were not common.",
+          "had covered the sky."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The villagers were excited because locusts had not visited the village for many years, making their appearance uncommon.",
+      ),
+      QuizQuestion(
+        question:
+            "64. Why was it easier to catch the locusts in the night? Because the locusts …        (BECE 1995 Q7)",
+        options: [
+          "were moving slowly.",
+          "had come in a swarm.",
+          "were not common.",
+          "were feeling sleepy."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The locusts had settled in the bushes for the night, and their wings were wet with dew, making it difficult for them to fly away.",
+      ),
+      QuizQuestion(
+        question:
+            "65. According to the passage, the locusts were …        (BECE 1995 Q8)",
+        options: ["brown.", "black.", "blind.", "bold."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that the village turned to a brown earth colour when the locusts settled everywhere.",
+      ),
+      QuizQuestion(
+        question: "66. Turned out in the passage means …        (BECE 1995 Q9)",
+        options: ["played outside.", "slept out.", "cried aloud.", "came out."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “turned out” means that all the villagers came out of their homes to collect the locusts.",
+      ),
+      QuizQuestion(
+        question:
+            "67. Which of the following expressions from the passage indicates that there were a lot of locusts?        (BECE 1995 Q10)",
+        options: [
+          "amazing sight.",
+          "fairly small swarm.",
+          "unfamiliar sight.",
+          "slow-moving mass."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The expression “slow-moving mass” describes a very large number of locusts moving together like a black cloud.",
+      ),
+      QuizQuestion(
+        question:
+            "68. According to the passage, which of the following is not true?        (BECE 1995 Q11)",
+        options: [
+          "Locusts are delicious.",
+          "Only the aged knew about the locusts.",
+          "The locusts come only in the dry season.",
+          "The locusts created a beautiful sight."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The passage mentions the cold harmattan but does not state that locusts come only during the dry season.",
+      ),
+      QuizQuestion(
+        question:
+            "The class was very quiet when suddenly Mr. Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.\n\n"
+            "Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the big boys passing on a magazine to the boy next to him.\n\n"
+            "With the speed of lightning, Mr. Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr. Mensah nearly gave up. It was perhaps an exercise book he had seen, not a magazine. When he looked through the window and saw that it was full of obscenities Mr. Mensah fumed. He walked quickly to the back of the class and demanded the boys give it to him.\n\n"
+            "69. According to the passage, Mr. Mensah was determined to …        (BECE 1996 Q1)",
+        options: [
+          "find the trouble makers.",
+          "write on the board.",
+          "insult the class.",
+          "talk to the three big boys."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Mensah was determined to discover which pupils were causing the giggling and murmuring and discipline them.",
+      ),
+      QuizQuestion(
+        question:
+            "70. The children giggled and murmured because …        (BECE 1996 Q2)",
+        options: [
+          "Mr. Mensah turned to write on the board.",
+          "they thought Mr. Mensah was funny.",
+          "of what they saw in the magazine.",
+          "the boy near the window threw the magazine away."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The boys were giggling and murmuring because they were looking at the obscene material in the magazine.",
+      ),
+      QuizQuestion(
+        question:
+            "71. The boys threw the magazine away because …        (BECE 1996 Q3)",
+        options: [
+          "they were murmuring and giggling.",
+          "the window was open.",
+          "the teacher turned quickly.",
+          "they did not want the teacher to see it."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The magazine was thrown onto the veranda to prevent Mr. Mensah from finding and seeing it.",
+      ),
+      QuizQuestion(
+        question:
+            "72. The teacher found the magazine because …        (BECE 1996 Q4)",
+        options: [
+          "it was thrown onto the veranda.",
+          "of his many years of teaching experience.",
+          "he walked quickly to the back of the class.",
+          "the children gave it to him."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Mensah found the magazine after looking through the window and seeing it lying on the veranda.",
+      ),
+      QuizQuestion(
+        question:
+            "73. The expression have reared their ugly heads in the passage means have become unpleasant …        (BECE 1996 Q5)",
+        options: ["common.", "funny.", "troublesome.", "ugly."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The expression means that the unpleasant behaviour had appeared and become troublesome in the class.",
+      ),
+      QuizQuestion(
+        question:
+            "74. The word fumed in the passage means …        (BECE 1996 Q6)",
+        options: [
+          "exclaimed.",
+          "left the room.",
+          "smoked.",
+          "became very angry."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “fumed” means that Mr. Mensah became extremely angry after seeing the obscene magazine.",
+      ),
+      QuizQuestion(
+        question:
+            "Kwadwo’s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.\n\n"
+            "“The ceremony will start at 5:30 am,” Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 am, when the ceremony was about to begin, there were about seventy people already in the house.\n\n"
+            "“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.\n\n"
+            "The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong alias Koo Kra”.\n\n"
+            "75. The people gathered in order to …        (BECE 1996 Q7)",
+        options: [
+          "settle a serious case.",
+          "drink gin.",
+          "witness a ceremony.",
+          "hear Mr. Aboagye."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The people gathered at Aboagye’s house to witness Kwadwo’s naming ceremony.",
+      ),
+      QuizQuestion(
+        question:
+            "76. The expression of all shapes and sizes tells us the pieces of furniture were …        (BECE 1996 Q8)",
+        options: [
+          "big.",
+          "long.",
+          "measured differently.",
+          "of different types."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression means that the chairs and benches were of different forms and sizes.",
+      ),
+      QuizQuestion(
+        question: "77. Aboagye was a …        (BECE 1996 Q9)",
+        options: ["teacher.", "lawyer.", "counsellor.", "trader."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The passage mentions that Aboagye informed people who passed his shop, indicating that he was a trader.",
+      ),
+      QuizQuestion(
+        question: "78. The word grand means …        (BECE 1996 Q10)",
+        options: ["smooth.", "solemn.", "happy.", "noise."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, “grand” describes the naming ceremony as an important and solemn occasion.",
+      ),
+      QuizQuestion(
+        question:
+            "79. Which of the following is not true according to the passage?        (BECE 1996 Q11)",
+        options: [
+          "The ceremony must be performed before sunrise.",
+          "The elder dipped the head of the child into the calabash.",
+          "The first elder did not know the name of the child.",
+          "The ceremony was well attended."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The elder did not dip the child’s head into the calabash. He dipped his finger into the gin after raising the child’s head.",
+      ),
+    ],
+  ),
+
+  "English JHS1 s3 ss1 - Lexis and Structure": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. At my last interview, I faced ………… panel.        (BECE 2024 Q10)",
+        options: [
+          "a seven-member",
+          "a seven-member's",
+          "seven-members",
+          "seven-members'"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The singular compound adjective before the noun is written as “seven-member”.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Amira prepared a delicious meal for her …………        (BECE 2025 Q9)",
+        options: [
+          "sisters-in-law",
+          "sister's-in-law",
+          "sisters-in-laws",
+          "sisters'-in-law"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plural of “sister-in-law” is formed by pluralising the main noun: “sisters-in-law”.",
+      ),
+      QuizQuestion(
+        question: "3. Last month, there was …………        (BECE 2024 Q4)",
+        options: [
+          "an eclipse of a sun",
+          "an eclipse of the sun",
+          "the eclipse of a sun",
+          "the eclipse of the sun"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The natural expression is “an eclipse of the sun” when mentioning the event for the first time.",
+      ),
+      QuizQuestion(
+        question: "4. She lives in her ………… house.        (BECE 2023 Q15)",
+        options: [
+          "father-in-law's",
+          "father-in-laws'",
+          "fathers-in-laws'",
+          "father's-in-law's"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The possessive form of “father-in-law” is “father-in-law's”.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The chief praised the ………… during the students' demonstration.        (BECE 2012 Q9)",
+        options: [
+          "policemen's behaviours",
+          "policemen behaviours",
+          "policemen's behavior",
+          "policemens' behavior"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The behaviour belongs to the policemen, so the possessive form is “policemen's behaviour”.",
+      ),
+      QuizQuestion(
+        question:
+            "6. I have discovered a new ………… rhyme.        (BECE 2003 Q35)",
+        options: ["children", "childrens'", "children's", "childrens"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The possessive form of the irregular plural noun “children” is “children's”.",
+      ),
+      QuizQuestion(
+        question:
+            "7. The accused person refused to appear before the ………… panel.        (BECE 2019 Q11)",
+        options: ["five-man's", "five-man", "five-men", "five-men's"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A compound adjective before a noun remains singular: “five-man panel”.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The girls asserted that both tennis racquets were …………        (BECE 2012 Q6)",
+        options: ["of Akologo", "Akologo's", "Akologo's own", "Akologo"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive noun “Akologo's” correctly shows ownership of the racquets.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The ………… centre is located on the hill.        (BECE 2010 Q11)",
+        options: ["womens'", "woman", "womans", "woman's"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The centre belongs to or is intended for a woman, so “woman's” is the correct possessive form.",
+      ),
+      QuizQuestion(
+        question:
+            "10. My dream school is for ………… only.        (BECE 2005 Q34)",
+        options: ["boys", "boy's", "boys'", "boys'"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "No possession is required; the plural noun “boys” completes the sentence.",
+      ),
+      QuizQuestion(
+        question:
+            "11. This phone is not mine; it is …………        (BECE 2019 Q4)",
+        options: ["mine uncle's", "my uncle's", "my uncles", "mine uncle"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The correct possessive expression is “my uncle's”.",
+      ),
+      QuizQuestion(
+        question: "12. The ………… met at the mess.        (BECE 2014 Q2)",
+        options: [
+          "commander-in-chief",
+          "commander-in-chiefs",
+          "commanders-in-chief",
+          "commanders-in-chiefs"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The plural of “commander-in-chief” is “commanders-in-chief”.",
+      ),
+      QuizQuestion(
+        question:
+            "13. That troublesome friend of ………… is here again.        (BECE 2013 Q4)",
+        options: ["him", "he", "himself", "his"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The double possessive construction requires the possessive pronoun “his”.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Selfish people always consider ………… first.        (BECE 2021 Q13)",
+        options: ["themselves", "themself", "herself", "myself"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plural subject “people” takes the plural reflexive pronoun “themselves”.",
+      ),
+      QuizQuestion(
+        question:
+            "15. In attempting to control us, the teacher gave ………… a great deal of trouble.        (BECE 2006 Q34)",
+        options: ["our", "their", "ourselves", "themselves"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The object refers back to “us”, so the reflexive pronoun “ourselves” is required.",
+      ),
+      QuizQuestion(
+        question:
+            "16. To ………… did you deliver the message?        (BECE 2025 Q13)",
+        options: ["who", "whom", "whoever", "whomever"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After the preposition “to”, the object pronoun “whom” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "17. This book is mine and that is …………        (BECE 2005 Q36)",
+        options: ["your", "yours", "your's", "yours'"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive pronoun “yours” stands alone and does not take an apostrophe.",
+      ),
+      QuizQuestion(
+        question: "18. I prefer oranges ………… mangoes.        (BECE 2021 Q6)",
+        options: ["than", "from", "with", "to"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The verb “prefer” is followed by “to” when comparing two things.",
+      ),
+      QuizQuestion(
+        question:
+            "19. This is the book ………… I picked from the floor.        (BECE 1994 Q34)",
+        options: ["whom", "whose", "which", "that"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“That” correctly introduces the defining relative clause referring to “book”.",
+      ),
+      QuizQuestion(
+        question:
+            "20. This is the boy ………… book I took.        (BECE 1999 Q32)",
+        options: ["whom", "which", "who", "whose"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "“Whose” shows that the book belongs to the boy.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Money and Kofi shook hands with …………        (BECE 1995 Q30)",
+        options: ["each other", "each one", "one another", "themselves"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” is used for a reciprocal action involving two people.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Selfish people always consider ………… first.        (BECE 2025 Q11)",
+        options: ["themselves", "myself", "herself", "whoever"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The plural subject “people” takes the reflexive pronoun “themselves”.",
+      ),
+      QuizQuestion(
+        question:
+            "23. They have not bought ………… prescribed books.        (BECE 2019 Q1)",
+        options: ["none", "either", "neither", "all"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Not all” means that only some of the prescribed books have been bought.",
+      ),
+      QuizQuestion(
+        question:
+            "24. He showed me the car ………… knocked him down.        (BECE 1997 Q38)",
+        options: ["whom", "which", "who", "what"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Which” is the appropriate relative pronoun for the noun “car”.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Yesterday I met the man ………… I bought his car.        (BECE 2009 Q39)",
+        options: ["whose", "whom", "which", "that"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "“Whose” shows possession: the car belonged to the man.",
+      ),
+      QuizQuestion(
+        question:
+            "26. My neighbour's dog barks at every night; has left town.        (BECE 2021 Q9)",
+        options: ["which", "who", "whose", "that"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "“Which” correctly refers to the dog in the relative clause.",
+      ),
+      QuizQuestion(
+        question:
+            "27. Kofi and Anna love ………… faithfully.        (BECE 2014 Q6)",
+        options: ["your", "yours", "yours'", "your's"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive pronoun “yours” is the grammatically correct form among the options.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Julie wants to visit a relative of …………        (BECE 1998 Q36)",
+        options: ["hers", "herself", "themselves", "ourselves"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The double possessive construction requires “hers”: “a relative of hers”.",
+      ),
+      QuizQuestion(
+        question:
+            "29. ‘I think you know the host to all the participants,’ said Kwaku.        (BECE 2011 Q5)",
+        options: ["himself", "that", "which", "this"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "“Himself” is the suitable emphatic pronoun referring to the host.",
+      ),
+      QuizQuestion(
+        question:
+            "30. This is the boy ………… voice it was.        (BECE 2023 Q12)",
+        options: ["whom", "who", "whose", "which"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "“Whose” shows that the voice belonged to the boy.",
+      ),
+      QuizQuestion(
+        question:
+            "31. I have forgotten all ………… you told me.        (BECE 2000 Q29)",
+        options: ["that", "which", "what", "this"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After “all”, the relative pronoun “that” is normally used.",
+      ),
+      QuizQuestion(
+        question:
+            "32. The coach advised the two players to cooperate with …………        (BECE 2024 Q10)",
+        options: ["each other", "themselves", "ourselves", "each one"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” expresses a reciprocal action between two players.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The kind woman gave ………… a box of sweets.        (BECE 1996 Q37)",
+        options: ["all and each one", "each other", "one another", "whom"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The phrase “all and each one” indicates that every person received a box of sweets.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Kwesi and Anna are in love with …………        (BECE 2009 Q35)",
+        options: ["one another", "each other", "themselves", "ourselves"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” is used for a reciprocal relationship between two people.",
+      ),
+      QuizQuestion(
+        question:
+            "35. This amount is all ………… I have on me.        (BECE 2018 Q3)",
+        options: ["that", "this", "what", "which"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After “all”, the defining relative pronoun “that” is appropriate.",
+      ),
+      QuizQuestion(
+        question:
+            "36. This troublesome friend of ………… is here again.        (BECE 2011 Q5)",
+        options: ["him", "he", "himself", "his"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The double possessive construction requires “his”.",
+      ),
+      QuizQuestion(
+        question:
+            "37. After the fight, the two boxers congratulated …………        (BECE 1999 Q34)",
+        options: ["one another", "each other", "that other", "what I need"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” correctly shows reciprocal action between two boxers.",
+      ),
+      QuizQuestion(
+        question:
+            "38. You know very well that it was no fault of …………        (BECE 2000 Q31)",
+        options: ["myself", "yourself", "himself", "this"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The expression refers back to “you”, so “yourself” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "39. He was not sure to which somebody he was pointing.        (BECE 1999 Q40)",
+        options: ["anyone", "someone", "which", "what"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "“Anyone” is suitable in a statement expressing uncertainty about an unspecified person.",
+      ),
+      QuizQuestion(
+        question:
+            "40. I am not told the boy is a friend of …………        (BECE 2018 Q9)",
+        options: ["he", "him", "his", "he's"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The double possessive expression is “a friend of his”.",
+      ),
+      QuizQuestion(
+        question: "41. The dresses are …………        (BECE 2013 Q11)",
+        options: ["your", "yours", "yours'", "ours"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive pronoun “yours” stands alone after the verb.",
+      ),
+      QuizQuestion(
+        question:
+            "42. ………… boys are very happy with the toys.        (BECE 1994 Q36)",
+        options: ["They", "This", "That", "These"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "“These” correctly modifies the plural noun “boys”.",
+      ),
+      QuizQuestion(
+        question:
+            "43. This is the man ………… I met at the bus stop.        (BECE 2007 Q39)",
+        options: ["who", "whose", "whom", "which"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The man is the object of “met”, so “whom” is grammatically correct.",
+      ),
+      QuizQuestion(
+        question:
+            "44. The boys swore that the books were …………        (BECE 1992 Q37)",
+        options: ["his", "theirs", "their", "theirs'"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive pronoun “theirs” stands alone and refers to the boys.",
+      ),
+      QuizQuestion(
+        question:
+            "45. Given the book, ………… I lent you yesterday.        (BECE 1995 Q29)",
+        options: ["whom", "what", "whose", "which"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Which” refers to the book and introduces the relative clause.",
+      ),
+      QuizQuestion(
+        question:
+            "46. John and Asia have always loved …………        (BECE 2006 Q34)",
+        options: ["each other", "one another", "themselves", "yours'"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” expresses reciprocal love between two people.",
+      ),
+      QuizQuestion(
+        question:
+            "47. It is not easy to identify the voice it was.        (BECE 2023 Q5)",
+        options: ["whom", "whose", "who", "which"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Whose” asks about the person to whom the voice belonged.",
+      ),
+      QuizQuestion(
+        question:
+            "48. This is my book, that one is …………        (BECE 1997 Q29)",
+        options: ["your's", "yours", "yours'", "your"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The possessive pronoun “yours” does not take an apostrophe.",
+      ),
+      QuizQuestion(
+        question: "49. The man is a good friend of …………        (BECE 1998 Q31)",
+        options: ["my", "me", "mine", "myself"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The double possessive construction is “a friend of mine”.",
+      ),
+      QuizQuestion(
+        question:
+            "50. She ended the letter, ‘Yours sincerely.’        (BECE 2017 Q10)",
+        options: [
+          "Years sincerely",
+          "Your's sincerely",
+          "Yours' sincerely",
+          "Yours sincerely"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The correct complimentary close is “Yours sincerely”.",
+      ),
+      QuizQuestion(
+        question:
+            "51. My mum and ………… visited Joseph our neighbour.        (BECE 2019 Q3)",
+        options: ["I", "me", "myself", "mine"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The pronoun forms part of the compound subject, so “I” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "52. Selfish people always consider …………        (BECE 2000 Q30)",
+        options: ["oneself", "yourself", "themselves", "himself"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The plural subject “people” takes the plural reflexive pronoun “themselves”.",
+      ),
+      QuizQuestion(
+        question: "53. I don't mind ………… home early.        (BECE 2000 Q36)",
+        options: ["you go", "your going", "you going", "mine"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Before a gerund, the possessive form “your” is traditionally preferred: “your going”.",
+      ),
+      QuizQuestion(
+        question:
+            "54. Araba and Osei are a devoted couple who love …………        (BECE 2018 Q2)",
+        options: ["each other", "one another", "themselves", "the other"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Each other” expresses reciprocal love between two people.",
+      ),
+      QuizQuestion(
+        question:
+            "55. There was not much sense in all …………        (BECE 2004 Q39)",
+        options: ["that", "which", "what", "whose"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression “all that” correctly refers to everything previously mentioned.",
+      ),
+      QuizQuestion(
+        question: "56. I am ………… wondering.        (BECE 2014 Q11)",
+        options: ["your", "yours", "yours'", "ours"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Among the options, the possessive pronoun “yours” is the grammatically valid standalone form.",
+      ),
+      QuizQuestion(
+        question: "57. All ………… is good health.        (BECE 2000 Q38)",
+        options: ["my", "me", "your", "mine"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "“Mine” is the possessive pronoun that can stand alone after “all”.",
+      ),
+      QuizQuestion(
+        question:
+            "58. Give that book of ………… to Mensah.        (BECE 2008 Q35)",
+        options: ["mine", "my", "yours", "whose"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The double possessive construction is “that book of mine”.",
+      ),
+      QuizQuestion(
+        question:
+            "59. Afful's aunt lives in Tamale in ………… very courteously.        (BECE 2024 Q8)",
+        options: ["which", "whom", "who", "that"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "“Which” is the appropriate relative pronoun referring to Tamale as a place.",
+      ),
+      QuizQuestion(
+        question:
+            "60. Kofi is the boy to ………… I gave the pen.        (BECE 2007 Q29)",
+        options: ["whom", "which", "whose", "who"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After the preposition “to”, the object pronoun “whom” is required.",
+      ),
+      QuizQuestion(
+        question:
+            "61. Clara understood all ………… her teacher taught.        (BECE 2004 Q38)",
+        options: ["what", "which", "that", "this"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After “all”, the relative pronoun “that” is the standard choice.",
+      ),
+      QuizQuestion(
+        question:
+            "62. Bola is the ………… beautiful of the three girls.        (BECE 2024 Q34)",
+        options: ["more", "most", "much", "better"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The superlative “most beautiful” is used when comparing three people.",
+      ),
+      QuizQuestion(
+        question: "63. Newspapers are ………… magazines.        (BECE 2003 Q34)",
+        options: ["cheap as", "cheaper than", "cheapest of", "cheap than"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The comparative form is “cheaper than”.",
+      ),
+      QuizQuestion(
+        question:
+            "64. Mary and Comfort are ………… arriving this weekend.        (BECE 2006 Q26)",
+        options: ["both", "all", "either", "neither"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "“Both” is used to refer to two people together.",
+      ),
+      QuizQuestion(
+        question:
+            "65. They boy found the assignment ………… to do.        (BECE 2019 Q14)",
+        options: [
+          "much too difficult",
+          "difficult too much",
+          "too much difficult",
+          "much difficult too"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The correct word order is “much too difficult”.",
+      ),
+      QuizQuestion(
+        question:
+            "66. The book was ………… difficult to read.        (BECE 2003 Q40)",
+        options: ["much", "too", "little", "so"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Too difficult to read” means excessively difficult.",
+      ),
+      QuizQuestion(
+        question: "67. The minister is my ………… brother.        (BECE 2016 Q13)",
+        options: ["senior", "older", "elder", "junior"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Elder” is commonly used before a family noun such as “brother”.",
+      ),
+      QuizQuestion(
+        question: "68. She is my ………… sister.        (BECE 2020 Q8)",
+        options: ["senior", "older", "elder", "matured"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Elder sister” is the correct expression for an older female sibling.",
+      ),
+      QuizQuestion(
+        question:
+            "69. All girls were supposed to wear ………… during the Speech Day.        (BECE 2012 Q4)",
+        options: [
+          "new, white, long, dresses",
+          "new, long, white, dresses",
+          "long, white, new, dresses",
+          "white, new, long, dresses"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order is age, size or length, then colour: “new, long, white dresses”.",
+      ),
+      QuizQuestion(
+        question:
+            "70. Kofi ate ………… food than anyone else.        (BECE 1993 Q40)",
+        options: ["more", "much", "too much", "confident enough"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The comparative phrase is “more food than”.",
+      ),
+      QuizQuestion(
+        question:
+            "71. She will not give us ………… more money.        (BECE 2021 Q8)",
+        options: ["any", "even", "much", "little"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Any more money” is the natural expression in a negative sentence.",
+      ),
+      QuizQuestion(
+        question: "72. My father has bought a …………        (BECE 2016 Q4)",
+        options: [
+          "private brand new",
+          "new brand private",
+          "private new brand",
+          "brand new private"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order is “brand new private” before the omitted noun.",
+      ),
+      QuizQuestion(
+        question:
+            "73. Mensah is ………… beautiful than any of her three sisters.        (BECE 2005 Q31)",
+        options: ["very", "most", "more", "much"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The comparative form is “more beautiful than”.",
+      ),
+      QuizQuestion(
+        question:
+            "74. I hope you are not ………… tired to run an errand for me.        (BECE 2005 Q40)",
+        options: ["very", "so", "as", "too"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The structure is “too tired to run”.",
+      ),
+      QuizQuestion(
+        question:
+            "75. The harder you study, ………… your chance of success.        (BECE 2018 Q11)",
+        options: ["greater", "greatest", "the great", "the greater"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The correlative comparative structure is “the harder…, the greater…”.",
+      ),
+      QuizQuestion(
+        question:
+            "76. The book you gave me was not ………… than the one I had before.        (BECE 1995 Q28)",
+        options: ["any better", "much better", "any good", "very better"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Not any better than” is the correct comparative expression.",
+      ),
+      QuizQuestion(
+        question:
+            "77. Find out who is the ………… of the two boys.        (BECE 1996 Q31)",
+        options: ["most tall", "taller", "more tall", "tallest"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When comparing two people, the comparative form “taller” is used.",
+      ),
+      QuizQuestion(
+        question: "78. Joseph is the ………… in the class.        (BECE 2015 Q6)",
+        options: ["cleverer", "cleverest", "more clever", "very clever"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The superlative form “cleverest” is required after “the” when comparing the whole class.",
+      ),
+      QuizQuestion(
+        question: "79. Your writing is ………… than mine.        (BECE 2020B Q38)",
+        options: ["worst", "worse", "bad", "poor"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The comparative form of “bad” is “worse”.",
+      ),
+      QuizQuestion(
+        question:
+            "80. Of all the Brown children, Ato is …………        (BECE 2007 Q26)",
+        options: ["the short", "the shorter", "the shortest", "short"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The phrase “of all” requires the superlative form “the shortest”.",
+      ),
+      QuizQuestion(
+        question:
+            "81. I was given ………… money than you were given.        (BECE 1995 Q27)",
+        options: ["much more", "many", "much", "many more"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Money” is uncountable, so the correct comparative phrase is “much more money”.",
+      ),
+      QuizQuestion(
+        question:
+            "82. Tokyo is the ………… expensive city in the world.        (BECE 1996 Q30)",
+        options: ["most", "much", "more", "very"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The superlative phrase is “the most expensive”.",
+      ),
+      QuizQuestion(
+        question: "83. He is ………… to fight with a fool.        (BECE 1996 Q28)",
+        options: [
+          "too wise a man",
+          "a too wise man",
+          "too wise a man",
+          "a man too wise"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The correct structure is “too + adjective + a + noun”: “too wise a man”.",
+      ),
+      QuizQuestion(
+        question:
+            "84. My boss says you are ………… for his liking.        (BECE 2006 Q29)",
+        options: ["slow", "much slow", "slower", "too slow"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Too slow for his liking” means slower than he finds acceptable.",
+      ),
+      QuizQuestion(
+        question:
+            "85. Akua was ………… that she won four prizes.        (BECE 2016 Q3)",
+        options: [
+          "a girl so brilliant",
+          "so brilliant a girl",
+          "so brilliant a girl",
+          "a brilliant so girl"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The correct pattern is “so + adjective + a + noun”: “so brilliant a girl”.",
+      ),
+      QuizQuestion(
+        question:
+            "86. Of the three girls, Awo is the …………        (BECE 1995 Q31)",
+        options: ["shorter", "more shortest", "most short", "shortest"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A comparison among three requires the superlative “shortest”.",
+      ),
+      QuizQuestion(
+        question:
+            "87. Our pastor is now the ………… senior of the pastors in the church.        (BECE 2008 Q38)",
+        options: ["much", "more", "most", "far"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "The superlative expression is “the most senior”.",
+      ),
+      QuizQuestion(
+        question:
+            "88. This bag is ………… heavy for a child to carry.        (BECE 1999 Q35)",
+        options: ["so", "very", "too", "more"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The structure “too heavy for a child to carry” expresses excessive weight.",
+      ),
+      QuizQuestion(
+        question:
+            "89. The soldier was promoted because he was the ………… among the lot.        (BECE 1995 Q32)",
+        options: [
+          "most courageous",
+          "courageous",
+          "more courageous",
+          "much courageous"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A comparison with the whole group requires the superlative “most courageous”.",
+      ),
+      QuizQuestion(
+        question: "90. Korkoi is a ………… twelve.        (BECE 2005 Q29)",
+        options: [
+          "tall, shapely, girl",
+          "shapely, tall, girl",
+          "girl, shapely, tall",
+          "tall, girl, shapely"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order places size before shape and then the noun: “tall, shapely girl”.",
+      ),
+      QuizQuestion(
+        question: "91. Can I borrow your ………… hat?        (BECE 2021 Q10)",
+        options: [
+          "blue new straw",
+          "new blue straw",
+          "new straw blue",
+          "straw new blue"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order is age, colour, then material: “new blue straw hat”.",
+      ),
+      QuizQuestion(
+        question:
+            "92. The white horse is ………… than the black one.        (BECE 2009 Q28)",
+        options: ["faster", "very fast", "fast", "more fast"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The comparative form of “fast” is “faster”.",
+      ),
+      QuizQuestion(
+        question: "93. Yaw is ………… clever to be cheated.        (BECE 2018 Q5)",
+        options: ["quite", "so", "too", "very"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Too clever to be cheated” means sufficiently clever to avoid being cheated.",
+      ),
+      QuizQuestion(
+        question:
+            "94. I know you are much ………… than Esi.        (BECE 2025 Q2)",
+        options: ["tall", "taller", "tallest", "the taller"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Much” can modify the comparative adjective “taller”.",
+      ),
+      QuizQuestion(
+        question:
+            "95. Salifu was ………… surprised that he could not talk.        (BECE 2018 Q1)",
+        options: ["enough", "so", "what", "which"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The result structure is “so surprised that…”.",
+      ),
+      QuizQuestion(
+        question: "96. I know you are ………… Esi.        (BECE 2022 Q12)",
+        options: ["tallest", "taller", "the taller", "the tall"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "When identifying the taller of two people, “the taller” is appropriate.",
+      ),
+      QuizQuestion(
+        question:
+            "97. Willie has malaria and is not …………        (BECE 2010 Q4)",
+        options: ["good", "well", "fine", "free"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Well” describes a person's state of health.",
+      ),
+      QuizQuestion(
+        question:
+            "98. Their sister wore a ………… dress to the party.        (BECE 2019 Q5)",
+        options: [
+          "silk blue beautiful",
+          "beautiful blue silk",
+          "blue beautiful silk",
+          "beautiful silk blue"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order is opinion, colour, then material: “beautiful blue silk dress”.",
+      ),
+      QuizQuestion(
+        question:
+            "99. Ali agrees that the rice project is …………        (BECE 2004 Q34)",
+        options: ["so", "much", "too", "very"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Very” is the suitable intensifier before an adjective understood from the context.",
+      ),
+      QuizQuestion(
+        question:
+            "100. Of all the pupils in the class, Ekua is …………        (BECE 2018 Q7)",
+        options: ["prettier", "prettiest", "the prettier", "the prettiest"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The phrase “of all” requires the superlative form “the prettiest”.",
+      ),
+      QuizQuestion(
+        question:
+            "101. The school organized a ………… exhibition.        (BECE 1996 Q29)",
+        options: ["two days", "two-day", "two-day's", "two days'"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A compound adjective before a noun is singular and hyphenated: “two-day exhibition”.",
+      ),
+      QuizQuestion(
+        question: "102. Adjo is ………… young to marry.        (BECE 2007 Q36)",
+        options: ["so", "very", "too", "much"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "“Too young to marry” means not old enough to marry.",
+      ),
+      QuizQuestion(
+        question:
+            "103. Your nephew could not pass the interview because he was not ………… before the panel members.        (BECE 1993 Q40)",
+        options: [
+          "confident much",
+          "confident quite",
+          "confident enough",
+          "confident somehow"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The adjective is followed by “enough”: “confident enough”.",
+      ),
+      QuizQuestion(
+        question:
+            "104. We were served a ………… meal at that cosy restaurant.        (BECE 2024 Q1)",
+        options: [
+          "delicious Spanish",
+          "delicious spicy Spanish",
+          "Spanish delicious spicy",
+          "spicy Spanish delicious"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The natural adjective order is opinion, quality, then origin: “delicious spicy Spanish meal”.",
+      ),
+      QuizQuestion(
+        question:
+            "105. Our teacher is ………… man that we all like him.        (BECE 2020B Q39)",
+        options: ["such kind a", "such a kind", "a such kind", "a kind such"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The correct structure is “such a kind man that…”.",
+      ),
+      QuizQuestion(
+        question:
+            "106. The harder you study …………, your chance of success.        (BECE 2011 Q11)",
+        options: ["greater", "greatest", "the great", "the greater"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The correct paired comparative structure is “the harder…, the greater…”.",
+      ),
+      QuizQuestion(
+        question: "107. The boy likes his ………… dog.        (BECE 2018 Q6)",
+        options: [
+          "little pretty brown",
+          "pretty brown little",
+          "pretty little brown",
+          "brown little pretty"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The normal adjective order is opinion, size, then colour: “pretty little brown dog”.",
+      ),
+      QuizQuestion(
+        question:
+            "108. Everybody said my father was the ………… hardworking man in the village.        (BECE 1996 Q32)",
+        options: ["very most", "two-day", "most", "more"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The superlative phrase is “the most hardworking man”.",
+      ),
+      QuizQuestion(
+        question:
+            "109. It is ………… too long and difficult a journey.        (BECE 2009 Q36)",
+        options: [
+          "too long and difficult a journey",
+          "the journey too long and difficult",
+          "long and difficult too a journey",
+          "too long and difficult the journey"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "The correct structure is “too + adjective + a + noun”.",
+      ),
+      QuizQuestion(
+        question:
+            "110. Among the participants for the Eugena got here ………… where we kept the gold chain.        (BECE 2023 Q1)",
+        options: ["most", "often", "only", "very"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "“Only” appropriately limits the person or place being referred to.",
+      ),
+      QuizQuestion(
+        question:
+            "111. Kofi told the court that he had met the suspect two days …………        (BECE 2008 Q33)",
+        options: ["before", "ago", "now", "then"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In reported speech with a past perfect verb, “two days before” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "112. Their gardener was ………… old to work.        (BECE 2024 Q5)",
+        options: ["even", "so", "very", "too"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Too old to work” means excessively old for the activity.",
+      ),
+      QuizQuestion(
+        question:
+            "113. Their gardener was ………… old to work.        (BECE 2020 Q9)",
+        options: ["even", "so", "very", "too"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The correct structure is “too old to work”.",
+      ),
+      QuizQuestion(
+        question:
+            "114. The crowd was ………… large that the Director became frightened.        (BECE 2016 Q7)",
+        options: ["so", "even", "rather", "ever"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The result construction is “so large that…”.",
+      ),
+      QuizQuestion(
+        question:
+            "115. Isn't that girl ………… old to play with toys?        (BECE 2014 Q10)",
+        options: ["as", "so", "too", "very"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Too old to play with toys” expresses that her age is beyond what is suitable.",
+      ),
+      QuizQuestion(
+        question:
+            "116. I can ………… time for my homework.        (BECE 2024 Q32)",
+        options: [
+          "find enough easily",
+          "find easily enough",
+          "easily enough find",
+          "easily find enough"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "The natural word order is “easily find enough time”.",
+      ),
+      QuizQuestion(
+        question:
+            "117. It was ………… careful about what you say.        (BECE 2017 Q2)",
+        options: ["less", "very", "least", "a little"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "“Very careful” is the grammatically complete intensifier-adjective combination.",
+      ),
+      QuizQuestion(
+        question: "118. Kofi travelled five days …………        (BECE 2011 Q7)",
+        options: ["ago", "hence", "now", "since"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Ago” is used to refer to a completed time before the present.",
+      ),
+      QuizQuestion(
+        question:
+            "119. Look carefully around for those books; they must be ………… in this room.        (BECE 1998 Q34)",
+        options: ["somehow", "everywhere", "somewhere", "anywhere"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Somewhere” refers to an unspecified place in an affirmative statement.",
+      ),
+      QuizQuestion(
+        question:
+            "120. You walk ………… fast that I cannot catch up with you.        (BECE 2020B Q28)",
+        options: ["quite", "very", "so", "to"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The result structure is “so fast that…”.",
+      ),
+      QuizQuestion(
+        question:
+            "121. He is ………… poor that he cannot pay his bills.        (BECE 2016 Q11)",
+        options: ["so", "too", "very", "rather"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The correct result construction is “so poor that…”.",
+      ),
+      QuizQuestion(
+        question:
+            "122. The hall was so small that it could ………… contain all of us.        (BECE 2010 Q14)",
+        options: ["rarely", "comfortably", "conveniently", "hardly"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Hardly contain” means it was almost unable to hold everyone.",
+      ),
+      QuizQuestion(
+        question:
+            "123. It was ………… late to go out alone.        (BECE 2021 Q1)",
+        options: ["so", "as", "much", "too"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Too late to go out” means the time was later than was safe or suitable.",
+      ),
+      QuizQuestion(
+        question:
+            "124. His neighbour complained that the radio was ………… loud.        (BECE 2015 Q7)",
+        options: ["far", "too", "much", "enough"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Too loud” means louder than was acceptable.",
+      ),
+      QuizQuestion(
+        question:
+            "125. Panyin is ………… taller than Kakra.        (BECE 2006 Q30)",
+        options: ["more", "much", "so", "too"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Much” correctly intensifies the comparative adjective “taller”.",
+      ),
+      QuizQuestion(
+        question:
+            "126. We cannot make tea because we have ………… sugar left.        (BECE 2018 Q9)",
+        options: ["a little", "very little", "a few", "so"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Very little” indicates an insufficient amount of the uncountable noun “sugar”.",
+      ),
+      QuizQuestion(
+        question:
+            "127. I was ………… tired that I couldn't go any further.        (BECE 2014 Q17)",
+        options: ["so", "too", "much", "very"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The result construction is “so tired that…”.",
+      ),
+      QuizQuestion(
+        question:
+            "128. Nii isn't in his office; he is ………… near this place.        (BECE 1999 Q37)",
+        options: ["thereby", "sometimes", "somewhat", "nowhere"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Nowhere near this place” means he is not anywhere close to the location.",
+      ),
+      QuizQuestion(
+        question:
+            "129. Mama is never ………… ready for anything.        (BECE 2016 Q13)",
+        options: ["quite", "so", "too", "very"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "“Never quite ready” means never completely ready.",
+      ),
+      QuizQuestion(
+        question: "130. My friend is good ………… English.        (BECE 2008 Q34)",
+        options: ["for", "on", "with", "at"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The correct preposition after “good” when referring to a subject or skill is “at”.",
+      ),
+      QuizQuestion(
+        question:
+            "131. The chief went to the durbar grounds ………… horseback.        (BECE 1998 Q33)",
+        options: ["on", "by", "with", "for"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The fixed expression is “on horseback”.",
+      ),
+      QuizQuestion(
+        question:
+            "132. The candidates were called ………… turns.        (BECE 1998 Q33)",
+        options: ["by", "on", "in", "at"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The fixed expression is “in turns”, meaning one after another.",
+      ),
+      QuizQuestion(
+        question:
+            "133. The bell will go ………… the next ten minutes.        (BECE 2002B Q36)",
+        options: ["between", "under", "within", "from"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Within the next ten minutes” means before the stated period of ten minutes ends.",
+      ),
+      QuizQuestion(
+        question:
+            "134. John's father brought him ………… his success in the examination.        (BECE 1992 Q35)",
+        options: ["on", "to", "at", "with"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The expression “bring someone to success” means to help the person achieve success.",
+      ),
+      QuizQuestion(
+        question:
+            "135. This secret should remain ………… you and me.        (BECE 1991 Q27)",
+        options: ["with", "of", "between", "for"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Between” is used when referring to two people: “between you and me”.",
+      ),
+      QuizQuestion(
+        question:
+            "136. Ben is having a meeting ………… going out.        (BECE 1997 Q28)",
+        options: ["for", "from", "by", "to"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The expression “from going out” indicates that the meeting is preventing or delaying him from going out.",
+      ),
+      QuizQuestion(
+        question:
+            "137. I was introduced to his co-worker by the directors ………… him.        (BECE 2009 Q37)",
+        options: ["from", "above", "into", "to"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "“The directors above him” refers to directors who hold higher positions than he does.",
+      ),
+      QuizQuestion(
+        question:
+            "138. The final match was played ………… five o'clock in the afternoon.        (BECE 1999 Q36)",
+        options: ["by", "toward", "through", "between"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "“By five o'clock” means at or before five o'clock.",
+      ),
+      QuizQuestion(
+        question:
+            "139. Two people persisted ………… the spot.        (BECE 2003 Q29)",
+        options: ["in", "through", "on", "at"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The verb “persist” is commonly followed by the preposition “in” or “on”; among the given options, “on” best completes the expression.",
+      ),
+      QuizQuestion(
+        question:
+            "140. The relationship ………… group A and group B is cordial.        (BECE 2011 Q2)",
+        options: ["of", "among", "between", "with"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Between” is used to describe a relationship involving two groups.",
+      ),
+      QuizQuestion(
+        question:
+            "141. It is necessary sometimes to resort ………… violence.        (BECE 2015 Q5)",
+        options: ["through", "with", "between", "to"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The correct expression is “resort to”, meaning to turn to something as a last option.",
+      ),
+      QuizQuestion(
+        question: "142. This vase is made ………… glass.        (BECE 2004 Q31)",
+        options: ["of", "by", "on", "from"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Made of” is used when the original material remains recognisable in the finished object.",
+      ),
+      QuizQuestion(
+        question:
+            "143. The suspect was charged ………… pickpocketing.        (BECE 2013 Q13)",
+        options: ["of", "for", "with", "for"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The correct expression is “charged with” an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "144. The accident occurred ………… the driver's mistakes.        (BECE 2016 Q16)",
+        options: ["by", "through", "from", "of"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "“Through the driver's mistakes” means the accident happened as a result of those mistakes.",
+      ),
+      QuizQuestion(
+        question:
+            "145. The doctor advised the patient to stay away ………… alcohol.        (BECE 2021 Q2)",
+        options: ["with", "from", "through", "by"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The fixed expression is “stay away from”, meaning to avoid something.",
+      ),
+      QuizQuestion(
+        question:
+            "146. For one week I went to school ………… foot.        (BECE 2004 Q27)",
+        options: ["by", "in", "at", "on"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The correct expression is “on foot”.",
+      ),
+      QuizQuestion(
+        question:
+            "147. Kofi insisted on painting the house …………        (BECE 2004 Q17)",
+        options: ["at", "on", "for", "by"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The verb “insist” is followed by “on” before a noun or gerund.",
+      ),
+      QuizQuestion(
+        question:
+            "148. Nana Yaa was suffering ………… measles.        (BECE 2006 Q33)",
+        options: ["with", "from", "by", "through"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The correct expression is “suffer from” an illness.",
+      ),
+      QuizQuestion(
+        question: "149. Can I have a chat ………… you?        (BECE 2016 Q3)",
+        options: ["to", "on", "with", "for"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The natural expression is “have a chat with someone”.",
+      ),
+      QuizQuestion(
+        question:
+            "150. Uncle Ebo brought a carpenter who easily climbed ………… the roof to repair the leakage.        (BECE 1995 Q36)",
+        options: ["to", "onto", "at", "in"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Onto” indicates movement from a lower position to the surface of the roof.",
+      ),
+      QuizQuestion(
+        question:
+            "151. Ama's essay is superior ………… the spot.        (BECE 2004 Q30)",
+        options: ["to", "on", "over", "between"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The adjective “superior” is followed by the preposition “to”.",
+      ),
+      QuizQuestion(
+        question:
+            "152. He has sat in the box. He is ………… which we always kept the gold chain.        (BECE 2010 Q3)",
+        options: [
+          "curly",
+          "which we kept the gold chain",
+          "where we kept the gold chain",
+          "in"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "“Where we kept the gold chain” correctly refers to the place in which the chain was kept.",
+      ),
+      QuizQuestion(
+        question:
+            "153. The youth are advised to abstain ………… swimming.        (BECE 1991 Q22)",
+        options: ["by", "om", "for", "from"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The verb “abstain” is followed by “from”.",
+      ),
+      QuizQuestion(
+        question:
+            "154. Ama's father asked her to move away ………… that of Adzo.        (BECE 2005 Q39)",
+        options: ["from", "of", "between", "to"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The expression “move away from” means to increase the distance from something.",
+      ),
+      QuizQuestion(
+        question: "155. I prefer oranges ………… mangoes.        (BECE 2009 Q38)",
+        options: ["to", "from", "with", "against"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The verb “prefer” takes “to” when two things are being compared.",
+      ),
+      QuizQuestion(
+        question:
+            "156. The students were congratulated ………… their brilliant management.        (BECE 2008 Q36)",
+        options: ["against", "upon", "about", "on"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The standard expression is “congratulated on” an achievement.",
+      ),
+      QuizQuestion(
+        question:
+            "157. She bakes bread as a means ………… making an extra income.        (BECE 2014 Q8)",
+        options: ["to", "of", "for", "in"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The fixed expression is “a means of doing something”.",
+      ),
+      QuizQuestion(
+        question: "158. Habib goes to school ………… train.        (BECE 2022 Q9)",
+        options: ["by", "in", "on", "with"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The preposition “by” is used to indicate a means of transport: “by train”.",
+      ),
+      QuizQuestion(
+        question:
+            "159. Bulky goods are transported ………… sea.        (BECE 2018 Q3)",
+        options: ["by", "through", "on", "since"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The correct expression for transport using ships is “by sea”.",
+      ),
+      QuizQuestion(
+        question:
+            "160. Adwoa's daughter is allergic ………… dust.        (BECE 2003 Q27)",
+        options: ["about", "against", "to", "with"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The adjective “allergic” is followed by the preposition “to”.",
+      ),
+      QuizQuestion(
+        question:
+            "161. Everybody was pleased ………… the pastor's sermon.        (BECE 2024 Q7)",
+        options: ["for", "in", "at", "with"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression “pleased with” means satisfied or happy about something.",
+      ),
+      QuizQuestion(
+        question:
+            "162. I object ………… joining our school team.        (BECE 1991 Q26)",
+        options: ["on", "in", "to", "by"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The verb “object” is followed by “to” before a noun or gerund.",
+      ),
+      QuizQuestion(
+        question:
+            "163. These days, students are not keen ………… improving their English.        (BECE 1997 Q27)",
+        options: ["with", "of", "about", "on"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The adjective “keen” is followed by “on” before a noun or gerund.",
+      ),
+      QuizQuestion(
+        question:
+            "164. Our national team is preparing ………… their next match.        (BECE 1992 Q33)",
+        options: ["in", "with", "for", "by"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The correct expression is “prepare for” an event.",
+      ),
+      QuizQuestion(
+        question:
+            "165. I have been in this country ………… three years.        (BECE 1998 Q33)",
+        options: ["for", "of", "to", "since"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“For” is used with a period of time, such as three years.",
+      ),
+      QuizQuestion(
+        question:
+            "166. The doctor advised the patient to abstain ………… smoking.        (BECE 2022 Q9)",
+        options: ["by", "from", "with", "upon"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The correct expression is “abstain from”, meaning to avoid an activity.",
+      ),
+      QuizQuestion(
+        question:
+            "167. We've been living here ………… 2001.        (BECE 2015 Q4)",
+        options: ["since", "by", "for", "from"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "“Since” is used with a specific starting point in time.",
+      ),
+      QuizQuestion(
+        question:
+            "168. Kwame has been accused ………… stealing the money.        (BECE 2008 Q31)",
+        options: ["by", "with", "of", "for"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The correct expression is “accused of” committing an offence.",
+      ),
+    ],
+  ),
+
+  "English JHS1 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. The porter could not endure his insults.        (BECE 2021 Q20)",
+        options: ["accept", "agree", "approve", "bear"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To endure something means to bear, tolerate or put up with it.",
+      ),
+      QuizQuestion(
+        question:
+            "2. Do not despise poor people because you are rich.        (BECE 2003 Q23)",
+        options: ["cheat", "avoid", "admire", "annoy"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To despise people means to dislike, reject or avoid them because one considers them inferior.",
+      ),
+      QuizQuestion(
+        question:
+            "3. The welfare of students should be the concern of teachers.        (BECE 2017 Q16)",
+        options: ["growth", "joy", "wealth", "well-being"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Welfare means the health, happiness, safety and general well-being of a person.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Some people prefer to eat lean meat.        (BECE 1991 Q38)",
+        options: ["uncooked", "fatty", "spoilt", "bloody"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Lean meat contains little fat, so it contrasts with fatty meat.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The prefect was punished for being dishonest.        (BECE 1998 Q21)",
+        options: ["rough", "respectful", "sincere", "tactful"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Dishonest is the opposite of sincere or truthful.",
+      ),
+      QuizQuestion(
+        question:
+            "6. There are guards on our border because the government wants to eliminate smuggling.        (BECE 1994 Q27)",
+        options: ["notice", "encourage", "manage with", "investigate"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To eliminate smuggling means to stop it, which is the opposite of encouraging it.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Dallies is the pick of the bunch. This means that Dallies …………        (BECE 2018 Q25)",
+        options: [
+          "is a farmer",
+          "is an athlete",
+          "is preferred to all the others",
+          "works on a banana plantation"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The pick of the bunch is the best or most preferred person in a group.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Board members are paid five Ghana Cedis a day across the board. This means that …………        (BECE 2013 Q24)",
+        options: [
+          "every member receives five Ghana Cedis",
+          "some members receive five Ghana Cedis",
+          "members are given five Ghana Cedis for food",
+          "only deserving members are given five Ghana Cedis"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Across the board means equally applying to every person in the group.",
+      ),
+      QuizQuestion(
+        question: "9. Farming is lucrative.        (BECE 2013 Q20)",
+        options: ["easy", "profitable", "necessary", "good"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Lucrative means profitable or capable of producing a large income.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Were it not for the policemen the workers would have gone on strike. From this we know that the policemen …………        (BECE 1993 Q19)",
+        options: [
+          "didn't go on strike",
+          "saw the workers on strike",
+          "forced the workers to go on strike",
+          "prevented the workers from going on strike"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The sentence means that the policemen stopped the workers from going on strike.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The employees saw eye to eye with their manager. This means that the employees …………        (BECE 2016 Q24)",
+        options: [
+          "agreed completely with him",
+          "were very close to him",
+          "rarely saw him",
+          "greatly respected him"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To see eye to eye with someone means to agree fully with that person.",
+      ),
+      QuizQuestion(
+        question:
+            "12. Ama was persuaded by her brother to change her course.        (BECE 2008 Q11)",
+        options: ["convinced", "commanded", "told", "advised"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Persuaded means convinced to do or accept something.",
+      ),
+      QuizQuestion(
+        question:
+            "13. If we hadn't gone to the beach so early we would have met our visitor. This means that …………        (BECE 1995 Q20)",
+        options: [
+          "we went to the beach late",
+          "we did not meet our visitor",
+          "our visitor waited for us",
+          "we met our visitor at the beach"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "They went to the beach early and therefore did not meet the visitor.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Araba's visit was a bolt from the blue. This means that the visit was …………        (BECE 2019 Q21)",
+        options: [
+          "a most welcome one",
+          "short",
+          "a complete surprise",
+          "timely"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A bolt from the blue is something completely unexpected or surprising.",
+      ),
+      QuizQuestion(
+        question:
+            "15. The teacher's stern looks helped maintain discipline in the class.        (BECE 2004 Q22)",
+        options: ["proud", "indifferent", "friendly", "concerned"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Stern means strict or severe, which contrasts with friendly.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Abiola complained that the work was tedious.        (BECE 2006 Q22)",
+        options: ["boring", "dirty", "good", "easy"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Tedious work is tiring, repetitive and boring.",
+      ),
+      QuizQuestion(
+        question:
+            "17. This baby is very energetic for its age.        (BECE 1994 Q24)",
+        options: ["dull", "simple", "bulky", "tall"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Energetic means active and lively, while dull means lacking energy.",
+      ),
+      QuizQuestion(
+        question:
+            "18. When the old woman heard the sound of the gun-shots, her hair stood on end. This means that the old woman …………        (BECE 2022 Q21)",
+        options: [
+          "was frightened",
+          "started crying",
+          "was worried",
+          "became inactive"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When someone's hair stands on end, the person is extremely frightened.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Arming the police does not halt crime.        (BECE 2021 Q18)",
+        options: ["avoid", "prevent", "suspend", "continue"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To halt something means to stop or prevent it from continuing.",
+      ),
+      QuizQuestion(
+        question:
+            "20. His failure in the examination came out of the blue. This means his failure was …………        (BECE 1996 Q20)",
+        options: ["destined", "obvious", "surprising", "sent from the blue"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Out of the blue means unexpectedly or surprisingly.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Most Ghanaians were optimistic about the Black Stars winning the African Cup.        (BECE 2009 Q12)",
+        options: ["reasonable", "happy", "concerned", "hopeful"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Optimistic means hopeful and expecting a favourable outcome.",
+      ),
+      QuizQuestion(
+        question:
+            "22. Some of the guests at the party were rude.        (BECE 2010 Q26)",
+        options: ["courteous", "bold", "friendly", "shy"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Courteous means polite and is the opposite of rude.",
+      ),
+      QuizQuestion(
+        question:
+            "23. He loves taking hasty decisions so he never makes ………… moves.        (BECE 2025 Q27)",
+        options: ["calculated", "smart", "delayed", "final"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A calculated move is carefully planned, unlike a hasty decision.",
+      ),
+      QuizQuestion(
+        question:
+            "24. “Put this money aside against a rainy day, Kwesi.” Kwesi is being told …………        (BECE 1990 Q21)",
+        options: [
+          "to keep the money until he really needs it",
+          "to keep the money until it rains",
+          "not to waste money when it rains",
+          "to put all his money in the bank"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Saving for a rainy day means keeping money for a future time of need.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Armed robbery is a very risky undertaking.        (BECE 2011 Q22)",
+        options: ["dangerous", "dreadful", "unacceptable", "uncertain"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Risky means dangerous or likely to result in harm.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The flag was hoisted during the golden jubilee celebration.        (BECE 2013 Q31)",
+        options: ["unclear in image", "opaque", "lowered", "dropped"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Hoisted means raised, while lowered is its opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "27. The judge turned a deaf ear to what the murderer said. This means the judge …………        (BECE 1993 Q17)",
+        options: [
+          "was partially deaf",
+          "ignored what the murderer said",
+          "favoured the murderer when he heard his story",
+          "pretended that he was listening to the murderer's story"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To turn a deaf ear means to deliberately ignore what someone says.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Sindi was brought up by a very strict woman.        (BECE 1992 Q13)",
+        options: ["saved", "reared", "born", "taught"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Brought up means reared or raised from childhood.",
+      ),
+      QuizQuestion(
+        question:
+            "29. John had to eat his words when our team won the match. This means that John …………        (BECE 2019 Q25)",
+        options: [
+          "became very much surprised",
+          "admitted he was wrong",
+          "denied all that he had said",
+          "lost appetite"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To eat one's words means to admit that something one said was wrong.",
+      ),
+      QuizQuestion(
+        question:
+            "30. When the armed robbers could no longer fight the police, they gave in. This means the armed robbers …………        (BECE 2004 Q20)",
+        options: ["fled", "surrendered", "shot themselves", "cried for help"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "To give in means to surrender or stop resisting.",
+      ),
+      QuizQuestion(
+        question:
+            "31. We knew it was a cock and bull story. This means that the story was …………        (BECE 2014 Q24)",
+        options: [
+          "difficult to believe",
+          "about a cock and a bull",
+          "real",
+          "false"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A cock-and-bull story is an invented and unbelievable false story.",
+      ),
+      QuizQuestion(
+        question:
+            "32. After serving ten years in prison he returned home under a cloud.        (BECE 2001 Q17)",
+        options: [
+          "in dull weather",
+          "very depressed",
+          "in disgrace",
+          "very secretly"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To be under a cloud means to be in disgrace or under suspicion.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The Member of Parliament is very generous: he has done much for his people.        (BECE 2007 Q21)",
+        options: ["honourable", "proud", "talkative", "unkind"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Generous contrasts with unkind or unwilling to help others.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The teacher's abrupt question threw the pupil off balance. This means that the pupil was …………        (BECE 2015 Q27)",
+        options: ["hurt", "annoyed", "worried", "confused"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To throw someone off balance means to confuse or unsettle the person.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The rampant destruction of property must be checked.        (BECE 2024 Q20)",
+        options: ["common", "regular", "uncontrolled", "unpleasant"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Rampant means widespread and uncontrolled.",
+      ),
+      QuizQuestion(
+        question:
+            "36. The director engaged Mary as a sales woman.        (BECE 2000 Q23)",
+        options: ["disqualified", "exempted", "dismissed", "excused"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Engaged means employed or hired. Its opposite in this context is dismissed.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The youth should be ruled by the fundamental ideals of courtesy.        (BECE 2021 Q19)",
+        options: ["essential", "known", "popular", "realistic"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Fundamental means basic, essential or forming the main foundation of something.",
+      ),
+      QuizQuestion(
+        question:
+            "38. This means that her daughter was ………… the television.        (BECE 2011 Q27)",
+        options: ["smiling at", "dismantling", "intently watching", "cleaning"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression indicates that the daughter was watching the television with close attention.",
+      ),
+      QuizQuestion(
+        question:
+            "39. The driver passed out soon after the accident occurred. This means that the driver …………        (BECE 2020 Q23)",
+        options: ["ran away", "died", "fainted", "vomited"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To pass out means to lose consciousness or faint.",
+      ),
+      QuizQuestion(
+        question:
+            "40. “Do not be such a wet blanket, Afua. Your brother needs all the support you can give him,” Auntie Araba chided her daughter. This means that Afua …………        (BECE 2024 Q24)",
+        options: [
+          "couldn't wash for her brother",
+          "didn't care about her brother",
+          "liked to discourage her brother",
+          "was too weak to help"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A wet blanket is a person who discourages others or spoils their enthusiasm.",
+      ),
+      QuizQuestion(
+        question:
+            "41. The chosen poems are very relatable.        (BECE 2021 Q16)",
+        options: ["preferred", "selected", "prescribed", "given"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Chosen means selected from a number of available options.",
+      ),
+      QuizQuestion(
+        question:
+            "42. She did her best to keep on the right side of her teacher. This means she did her best not to ………… her teacher.        (BECE 1995 Q18)",
+        options: ["interrupt", "mislead", "misunderstand", "offend"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To keep on someone's right side means to avoid offending or displeasing the person.",
+      ),
+      QuizQuestion(
+        question:
+            "43. The Disciplinary Committee was asked to investigate the theft.        (BECE 1999 Q13)",
+        options: ["condemn", "go into", "determine", "look for"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To investigate means to examine or go into a matter carefully.",
+      ),
+      QuizQuestion(
+        question:
+            "44. This is made from artificial materials.        (BECE 1997 Q26)",
+        options: ["new", "preserved", "wonderful", "natural"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Artificial means man-made, while natural means produced by nature.",
+      ),
+      QuizQuestion(
+        question:
+            "45. The headmaster thanked his teachers for a wonderful job done.        (BECE 1991 Q36)",
+        options: ["quick", "difficult", "big", "bad"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Wonderful means excellent or very good. Its opposite is bad.",
+      ),
+      QuizQuestion(
+        question:
+            "46. The minister publicly rebukes his assistant and always ………… his secretary.        (BECE 2023 Q30)",
+        options: ["advises", "commends", "embraces", "harasses"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To rebuke means to criticise, while to commend means to praise.",
+      ),
+      QuizQuestion(
+        question:
+            "47. The excessive speeding made the accident inevitable.        (BECE 2002B Q14)",
+        options: ["fatal", "certain", "likely", "unfortunate"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Inevitable means certain to happen or impossible to avoid.",
+      ),
+      QuizQuestion(
+        question:
+            "48. Samantha's main problem is that she can see no further than her nose. This means that Samantha …………        (BECE 2023 Q25)",
+        options: [
+          "lacks foresight",
+          "cannot think",
+          "is easily deceived",
+          "has a long nose"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To see no further than one's nose means to lack foresight or fail to think about future consequences.",
+      ),
+      QuizQuestion(
+        question:
+            "49. The prefect rebuked the student for his behaviour.        (BECE 2021 Q2)",
+        options: ["defended", "justified", "pardoned", "praised"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Rebuked means criticised or scolded. Its opposite is praised.",
+      ),
+      QuizQuestion(
+        question:
+            "50. Your dress material is inferior to what I bought from the shop. This means that your dress material is …………        (BECE 1991 Q14)",
+        options: [
+          "of poor quality",
+          "very beautiful",
+          "brightly coloured",
+          "expensive"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Inferior means lower in quality or not as good as something else.",
+      ),
+      QuizQuestion(
+        question:
+            "51. King David was the heir to the throne while the brother was the …………        (BECE 2016 Q31)",
+        options: ["usurper", "successor", "claimant", "descendant"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A claimant is a person who asserts a right to a position, title or property.",
+      ),
+      QuizQuestion(
+        question:
+            "52. The Headmaster asked the school prefect to summon a meeting of the Students' Council.        (BECE 2000 Q11)",
+        options: ["chair", "call", "cancel", "postpone"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To summon a meeting means to call or arrange for it to take place.",
+      ),
+      QuizQuestion(
+        question:
+            "53. When mother returned, Kwame let the cat out of the bag. This means that Kwame …………        (BECE 1994 Q22)",
+        options: [
+          "told mother to go out",
+          "took the cat from the bag",
+          "told mother what had happened",
+          "removed the cat from the bag"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To let the cat out of the bag means to reveal a secret or disclose what happened.",
+      ),
+      QuizQuestion(
+        question:
+            "54. Our teacher advised us to be courteous always.        (BECE 2004 Q13)",
+        options: ["punctual", "mannerly", "hard-working", "kind"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Courteous means polite and well-mannered.",
+      ),
+      QuizQuestion(
+        question:
+            "55. Joseph lives within a stone's throw from the station. This means that Joseph …………        (BECE 2009 Q19)",
+        options: [
+          "lives in a stony house",
+          "lives very close to the station",
+          "goes to the station",
+          "often throws stones at the station"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Within a stone's throw means very close or a short distance away.",
+      ),
+      QuizQuestion(
+        question:
+            "56. The internet is of enormous benefit to education.        (BECE 2018 Q20)",
+        options: ["enviable", "great", "much", "suitable"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Enormous means very great or extremely large.",
+      ),
+      QuizQuestion(
+        question:
+            "57. The quarrel got out of hand. This means that the quarrel …………        (BECE 2009 Q17)",
+        options: [
+          "became uncontrollable",
+          "was prolonged",
+          "became boring",
+          "was unhealthy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "To get out of hand means to become uncontrollable.",
+      ),
+      QuizQuestion(
+        question:
+            "58. Paul shed crocodile tears when his friend failed the exam. This means that Paul …………        (BECE 2022 Q25)",
+        options: [
+          "cried uncontrollably",
+          "felt very sad but did not cry",
+          "was genuinely sorry for his friend",
+          "pretended he was sorry for his friend"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Crocodile tears are false or insincere expressions of sadness.",
+      ),
+      QuizQuestion(
+        question:
+            "59. This thief will have to plead for mercy.        (BECE 1994 Q17)",
+        options: ["beg", "speak", "apply", "stand"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To plead means to beg earnestly or make an urgent request.",
+      ),
+      QuizQuestion(
+        question:
+            "60. The thieves were armed to the teeth when they entered the house. This means that the thieves were …………        (BECE 2014 Q25)",
+        options: ["well trained", "experienced", "fully armed", "violent"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Armed to the teeth means carrying many weapons or being fully armed.",
+      ),
+      QuizQuestion(
+        question:
+            "61. Our headmaster has purchased a lot of books for the library.        (BECE 1998 Q23)",
+        options: ["selected", "collected", "sold", "lent"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Purchased means bought, while sold is its opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "62. The new headmaster met the staff and made his maiden speech.        (BECE 2014 Q22)",
+        options: ["first", "fresh", "official", "original"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A maiden speech is a person's first formal speech in a new position.",
+      ),
+      QuizQuestion(
+        question:
+            "63. Though her friend asked for some water, Divine callously drank all of it.        (BECE 2004 Q24)",
+        options: ["mercifully", "greedily", "playfully", "intentionally"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Callously means without concern for another person's feelings; in this context, greedily is the closest option.",
+      ),
+      QuizQuestion(
+        question:
+            "64. We tried all we could to amuse her but she kept a straight face. This means that she …………        (BECE 2023 Q21)",
+        options: [
+          "refused to laugh",
+          "cried all the more",
+          "did not listen to us",
+          "looked straight ahead"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To keep a straight face means to avoid laughing or showing amusement.",
+      ),
+      QuizQuestion(
+        question:
+            "65. Amale does not earn much, but she has some money put by. This means Amale has some money …………        (BECE 2004 Q18)",
+        options: [
+          "to live on",
+          "for charity",
+          "saved for the future",
+          "to pay her children's fees"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Money put by is money saved for future use.",
+      ),
+      QuizQuestion(
+        question:
+            "66. Our friends gave us a warm welcome.        (BECE 2002B Q25)",
+        options: ["plain", "calm", "hostile", "steady"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A warm welcome is friendly and pleasant, while hostile is the opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "67. The auditor's job was to go over the accounts carefully.        (BECE 2000 Q14)",
+        options: ["present", "calculate", "settle", "inspect"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To go over accounts means to inspect or examine them carefully.",
+      ),
+      QuizQuestion(
+        question:
+            "68. It was a red-letter day. This means it was a …………        (BECE 1996 Q18)",
+        options: [
+          "day I got a red letter",
+          "day I was sad",
+          "memorable day",
+          "real day"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A red-letter day is a memorable, important or especially happy day.",
+      ),
+      QuizQuestion(
+        question:
+            "69. Issa was very rude to his teacher.        (BECE 1993 Q23)",
+        options: ["respectful", "polite", "obedient", "true"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Polite is the opposite of rude.",
+      ),
+      QuizQuestion(
+        question:
+            "70. Nimo worked hard after his business had collapsed and soon found his feet. This means that …………        (BECE 2017 Q21)",
+        options: [
+          "he bought a new fleet of cars",
+          "he could walk again",
+          "he revived the business",
+          "he sold the rest of the business"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To find one's feet means to recover, become stable or succeed after a difficult period.",
+      ),
+      QuizQuestion(
+        question:
+            "71. The girl is a spendthrift: she used all her pocket money to buy a pair of shoes. This means …………        (BECE 1991 Q15)",
+        options: ["careless", "bold", "extravagant", "kind"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A spendthrift is a person who spends money carelessly or extravagantly.",
+      ),
+      QuizQuestion(
+        question:
+            "72. His expressions are rather colloquial.        (BECE 2020 Q27)",
+        options: ["informal", "archaic", "formal", "modern"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Colloquial language is informal language commonly used in ordinary conversation.",
+      ),
+      QuizQuestion(
+        question:
+            "73. Her ambition is to own a private jet.        (BECE 2022 Q18)",
+        options: ["joy", "target", "plan", "desire"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Ambition means a strong desire to achieve or possess something.",
+      ),
+      QuizQuestion(
+        question:
+            "74. Mrs. Vesa has a heart of gold. This means that Mrs. Vesa is very …………        (BECE 2005 Q20)",
+        options: ["bright", "clever", "kind", "smart"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A person with a heart of gold is extremely kind, generous and caring.",
+      ),
+      QuizQuestion(
+        question:
+            "75. These simple rules were infringed.        (BECE 2020 Q26)",
+        options: ["observed", "violated", "changed", "formulated"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Infringed means broken, disobeyed or violated.",
+      ),
+      QuizQuestion(
+        question:
+            "76. The radio is a potent medium of communication.        (BECE 2020 Q17)",
+        options: ["fast", "necessary", "powerful", "sound"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Potent means powerful, strong or capable of producing a great effect.",
+      ),
+      QuizQuestion(
+        question:
+            "77. When asked about the theft, Kwame said he was guilty.        (BECE 2007 Q23)",
+        options: ["surprised", "afraid", "absent", "innocent"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Innocent is the opposite of guilty.",
+      ),
+      QuizQuestion(
+        question:
+            "78. It is good to get a cure for a disease, but it is better to ………… the disease.        (BECE 2024 Q30)",
+        options: ["avoid", "counter", "prevent", "protect"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To prevent a disease means to stop it from occurring or spreading.",
+      ),
+      QuizQuestion(
+        question:
+            "79. Abla made an ass of herself at the party. This means that Abla behaved …………        (BECE 2011 Q25)",
+        options: ["foolishly", "shamefully", "uncontrollably", "unpleasantly"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To make an ass of oneself means to behave foolishly and become embarrassed.",
+      ),
+      QuizQuestion(
+        question:
+            "80. While the majority voted for a change, the ………… were against any change.        (BECE 2015 Q28)",
+        options: ["rivals", "members", "minority", "opposition"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The minority is the smaller group, in contrast with the majority.",
+      ),
+      QuizQuestion(
+        question:
+            "81. The radio is a very potent means of communication.        (BECE 2013 Q18)",
+        options: ["necessary", "powerful", "widespread", "sound"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Potent means powerful or highly effective.",
+      ),
+      QuizQuestion(
+        question:
+            "82. Those children were born with a silver spoon in their mouth. This means that the children were born …………        (BECE 2020 Q22)",
+        options: [
+          "with their mouths full of silver",
+          "in good health",
+          "in happy homes",
+          "in wealth and luxury"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To be born with a silver spoon in one's mouth means to be born into a wealthy and privileged family.",
+      ),
+      QuizQuestion(
+        question:
+            "83. A sharp cutlass is one of the items on the prospectus.        (BECE 2005 Q23)",
+        options: ["new", "used", "short", "blunt"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Blunt is the opposite of sharp.",
+      ),
+      QuizQuestion(
+        question:
+            "84. The candidate worked the problem with a great deal of precision.        (BECE 1995 Q22)",
+        options: ["sense", "energy", "inaccuracy", "detail"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Precision means great accuracy and careful attention to detail.",
+      ),
+      QuizQuestion(
+        question:
+            "85. When they reached the frontier, the customs officer stopped the car.        (BECE 2012 Q22)",
+        options: ["fence", "gate", "entrance", "border"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A frontier is the border separating two countries or territories.",
+      ),
+      QuizQuestion(
+        question:
+            "86. The P.T.A. meeting has been postponed.        (BECE 2006 Q14)",
+        options: ["delayed", "cancelled", "adjourned", "held"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Postponed means delayed or moved to a later time or date.",
+      ),
+      QuizQuestion(
+        question:
+            "87. Mr. Taiwoo took the clerk to task for losing the letters. This means that Mr. Taiwoo …………        (BECE 2009 Q16)",
+        options: [
+          "sacked the clerk",
+          "blamed the clerk",
+          "dismissed the clerk",
+          "gave the clerk another work"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To take someone to task means to blame, criticise or reprimand the person.",
+      ),
+      QuizQuestion(
+        question:
+            "88. Mary described the occasion as a red-letter day. This means that the occasion was very …………        (BECE 2017 Q23)",
+        options: ["bloody", "enjoyable", "memorable", "rough"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A red-letter day is an important, special or memorable day.",
+      ),
+      QuizQuestion(
+        question:
+            "89. Florence performs creditably in all examinations.        (BECE 2010 Q16)",
+        options: ["fairly", "well", "graciously", "good"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Creditably means in a satisfactory, successful or commendable manner; that is, well.",
+      ),
+      QuizQuestion(
+        question:
+            "90. He said the practice was alien to him.        (BECE 2017 Q17)",
+        options: ["boring", "new", "modern", "unfamiliar"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Something alien to a person is strange or unfamiliar to that person.",
+      ),
+      QuizQuestion(
+        question:
+            "91. I don't like Ben. He is always pulling my leg. This means Ben is always …………        (BECE 1993 Q16)",
+        options: [
+          "pulling me down",
+          "gossiping about me",
+          "borrowing my shoes",
+          "teasing me"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To pull someone's leg means to tease or jokingly deceive the person.",
+      ),
+      QuizQuestion(
+        question:
+            "92. The feeble old man spoke for about three hours.        (BECE 2009 Q23)",
+        options: ["bold", "strong", "bright", "successful"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Feeble means physically weak; its opposite is strong.",
+      ),
+      QuizQuestion(
+        question:
+            "93. Even though I don't talk to her, I give the devil his due. This means I will ………… her.        (BECE 1994 Q19)",
+        options: ["agree with", "confess to", "be kind to", "reward"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To give the devil his due means to acknowledge a person's good qualities or treat the person fairly despite disliking them.",
+      ),
+      QuizQuestion(
+        question:
+            "94. All the accused persons were convicted.        (BECE 1994 Q26)",
+        options: ["executed", "identified", "addressed", "freed"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Convicted means found guilty. Freed is the closest opposite among the options.",
+      ),
+      QuizQuestion(
+        question:
+            "95. The paint used for the outside of the building was durable.        (BECE 2000 Q15)",
+        options: ["lasting", "expensive", "attractive", "decorative"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Durable means long-lasting and able to remain in good condition for a long time.",
+      ),
+      QuizQuestion(
+        question:
+            "96. The inquisitive stranger asked many questions.        (BECE 2010 Q20)",
+        options: ["curious", "pompous", "intelligent", "cowardly"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Inquisitive means curious and eager to obtain information.",
+      ),
+      QuizQuestion(
+        question:
+            "97. Kofi Mensah found it difficult to do away with his habits. This means that Kofi Mensah could not ………… his bad habits.        (BECE 2001 Q19)",
+        options: ["continue", "hide", "stop", "talk about"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To do away with a habit means to stop or abandon it.",
+      ),
+      QuizQuestion(
+        question:
+            "98. Yesterday my cousin looked very depressed.        (BECE 2001 Q25)",
+        options: ["contented", "active", "surprised", "happy"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Depressed means very sad or unhappy; happy is its opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "99. His father's death, which was a bolt from the blue, greatly affected his education.        (BECE 2001 Q18)",
+        options: [
+          "a disastrous event",
+          "a complete surprise",
+          "a mournful affair",
+          "a blessing in disguise"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A bolt from the blue is a completely unexpected and surprising event.",
+      ),
+      QuizQuestion(
+        question:
+            "100. The health officer advised the people not to contaminate the water any further.        (BECE 2001 Q22)",
+        options: ["fetch", "store", "purify", "use"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To contaminate water means to make it dirty or impure; to purify it means to make it clean.",
+      ),
+      QuizQuestion(
+        question:
+            "101. The students rushed towards the nearest entrance.        (BECE 2006 Q23)",
+        options: ["closure", "opening", "exit", "departure"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An entrance is a way into a place, while an exit is a way out.",
+      ),
+      QuizQuestion(
+        question:
+            "102. The salient points of the topic have been thoroughly discussed.        (BECE 2024 Q17)",
+        options: ["chosen", "highlighted", "important", "interesting"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Salient means important, noticeable or most relevant.",
+      ),
+      QuizQuestion(
+        question: "103. Elorm's decision was superb.        (BECE 2014 Q20)",
+        options: ["right", "good", "excellent", "wonderful"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Superb means excellent or exceptionally good.",
+      ),
+      QuizQuestion(
+        question:
+            "104. Kuuki's dream is to become a celebrated musician.        (BECE 2005 Q14)",
+        options: ["gospel", "rich", "famous", "reggae"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "A celebrated person is famous and widely admired.",
+      ),
+      QuizQuestion(
+        question:
+            "105. Andy returned to school after playing truant for three days. This means that Andy was …………        (BECE 2005 Q16)",
+        options: ["expelled", "kidnapped", "deliberately absent", "very sick"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Playing truant means deliberately staying away from school without permission.",
+      ),
+      QuizQuestion(
+        question:
+            "106. About fifty houses were demolished to make way for the new road.        (BECE 2012 Q18)",
+        options: ["removed", "attacked", "destroyed", "displayed"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Demolished means completely pulled down or destroyed.",
+      ),
+      QuizQuestion(
+        question:
+            "107. On the doctor's advice, Mr. Smith cut out smoking altogether.        (BECE 1990 Q38)",
+        options: ["stopped", "dismissed", "postponed", "decreased"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To cut out an activity means to stop doing it completely.",
+      ),
+      QuizQuestion(
+        question:
+            "108. It is impolite to talk loudly in the presence of the elderly.        (BECE 2019 Q18)",
+        options: ["incorrect", "improper", "unwise", "rude"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Impolite means rude or lacking good manners.",
+      ),
+      QuizQuestion(
+        question:
+            "109. Kofi spent all his time staring at the madman.        (BECE 1994 Q15)",
+        options: ["smiling", "shouting", "laughing", "gazing"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Staring means gazing steadily or looking at something for a long time.",
+      ),
+      QuizQuestion(
+        question:
+            "110. Araba was saddened because she failed to win the beauty contest.        (BECE 2008 Q13)",
+        options: ["furious", "amazed", "excited", "sorrowful"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Saddened means made sorrowful or unhappy.",
+      ),
+      QuizQuestion(
+        question:
+            "111. In spite of the chairman's harsh words, Kwame kept his head throughout the meeting. This means Kwame …………        (BECE 2002B Q17)",
+        options: [
+          "was bold and confident",
+          "was alert",
+          "remained silent",
+          "remained calm"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To keep one's head means to remain calm and think clearly in a difficult situation.",
+      ),
+      QuizQuestion(
+        question:
+            "112. That box contains very expensive jewellery.        (BECE 1997 Q23)",
+        options: ["beautiful", "cheap", "better", "fine"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cheap is the opposite of expensive.",
+      ),
+      QuizQuestion(
+        question:
+            "113. If you don't want to regret, cut your coat according to your cloth. This means …………        (BECE 1993 Q18)",
+        options: [
+          "live within your means",
+          "use the coat cut from your cloth",
+          "sew your own coat",
+          "put on your cloth and coat"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To cut your coat according to your cloth means to live within your means and spend only what you can afford.",
+      ),
+      QuizQuestion(
+        question:
+            "114. Some of our customs are old-fashioned.        (BECE 2007 Q25)",
+        options: ["modern", "attractive", "interesting", "funny"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Modern is the opposite of old-fashioned.",
+      ),
+      QuizQuestion(
+        question:
+            "115. The boxer displayed a high degree of bravery in the fight.        (BECE 1990 Q13)",
+        options: ["speed", "cowardice", "alertness", "competence"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cowardice is the opposite of bravery.",
+      ),
+      QuizQuestion(
+        question:
+            "116. My mother is very enthusiastic about my success.        (BECE 2008 Q15)",
+        options: ["anxious", "frank", "aware", "hopeful"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Enthusiastic means showing strong interest, excitement and hope about something.",
+      ),
+      QuizQuestion(
+        question:
+            "117. Akweley was taken aback on seeing a stranger in her room. This means Akweley was very …………        (BECE 2016 Q23)",
+        options: ["angry", "afraid", "confused", "surprised"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To be taken aback means to be greatly surprised or shocked.",
+      ),
+      QuizQuestion(
+        question:
+            "118. Before I left for the market, I asked my neighbour to keep an eye on my children. This means my neighbour should …………        (BECE 2000 Q20)",
+        options: [
+          "play with the children",
+          "look after the children",
+          "follow the children around",
+          "look at the children"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To keep an eye on someone means to watch and look after that person.",
+      ),
+      QuizQuestion(
+        question:
+            "119. It will serve her right if she does not meet her friends at the airport. This means that …………        (BECE 1998 Q16)",
+        options: [
+          "she will have what she likes",
+          "it will be too much for her",
+          "she will have what she deserves",
+          "it will be her right to travel"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To serve someone right means that the person receives the result or punishment they deserve.",
+      ),
+      QuizQuestion(
+        question:
+            "120. The bully was ordered to leave his younger brother alone. This means that the bully was told …………        (BECE 2010 Q25)",
+        options: [
+          "not to accompany him anywhere",
+          "to accompany him everywhere",
+          "not to disturb him",
+          "to teach him well"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To leave someone alone means not to disturb, trouble or interfere with the person.",
+      ),
+      QuizQuestion(
+        question:
+            "121. The robbers ransacked the house.        (BECE 2023 Q17)",
+        options: ["invaded", "destroyed", "looted", "torched"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ransacked means searched violently and looted while leaving the place in disorder.",
+      ),
+      QuizQuestion(
+        question:
+            "122. Mother buys the best clothes for Patrick because he is the apple of her eye. This means that Patrick is …………        (BECE 2000 Q17)",
+        options: [
+          "the one she loves most",
+          "the most hard-working son",
+          "her most respectable son",
+          "her last child"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The apple of someone's eye is the person they love and value most.",
+      ),
+      QuizQuestion(
+        question:
+            "123. The man was disgraced in public.        (BECE 2014 Q28)",
+        options: ["respected", "honoured", "welcomed", "accepted"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Honoured is the opposite of disgraced.",
+      ),
+      QuizQuestion(
+        question:
+            "124. The shop has been temporarily closed down.        (BECE 2021 Q2)",
+        options: ["constantly", "deliberately", "legally", "permanently"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Permanently is the opposite of temporarily.",
+      ),
+      QuizQuestion(
+        question:
+            "125. Hearing is an involuntary action.        (BECE 2003 Q24)",
+        options: ["difficult", "slow", "quick", "intentional"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Intentional is the opposite of involuntary.",
+      ),
+      QuizQuestion(
+        question:
+            "126. Applying cocoa butter to the skin makes it smooth.        (BECE 2003 Q22)",
+        options: ["soft", "rough", "warm", "dark"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Rough is the opposite of smooth.",
+      ),
+      QuizQuestion(
+        question:
+            "127. The Police Inspector asked all drivers to obey the speed-limit regulation.        (BECE 1992 Q16)",
+        options: ["understand", "notice", "recognize", "observe"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "To obey a regulation means to observe or comply with it.",
+      ),
+      QuizQuestion(
+        question:
+            "128. The wall clock in the assembly hall is a white elephant. This means that the clock …………        (BECE 2002A Q17)",
+        options: [
+          "does not work accurately",
+          "is very big",
+          "does not work any longer",
+          "is very strong"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A white elephant is an expensive but useless possession that no longer serves a useful purpose.",
+      ),
+      QuizQuestion(
+        question: "129. Serwaa's dress was decent.        (BECE 2011 Q30)",
+        options: ["dirty", "old", "shabby", "ugly"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Shabby means untidy and in poor condition, making it the closest opposite of decent.",
+      ),
+      QuizQuestion(
+        question:
+            "130. The teacher poured cold water on Sena's suggestion.        (BECE 2012 Q27)",
+        options: [
+          "challenged Sena's suggestion",
+          "approved of Sena's suggestion",
+          "discouraged Sena",
+          "provoked Sena"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To pour cold water on an idea means to discourage it or express disapproval.",
+      ),
+      QuizQuestion(
+        question:
+            "131. Prices of goods have been fairly controlled.        (BECE 1993 Q12)",
+        options: ["kept down", "kept away", "kept off", "kept out"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Controlled prices are kept down or prevented from rising excessively.",
+      ),
+      QuizQuestion(
+        question:
+            "132. Dave walked briskly to the meeting.        (BECE 2020 Q30)",
+        options: ["slowly", "carefully", "reluctantly", "clumsily"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Briskly means quickly and energetically; slowly is its opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "133. In spite of the boasting, Mensah proved to be a chicken-hearted fellow. This means that Mensah was …………        (BECE 2011 Q26)",
+        options: ["cowardly", "mean", "stupid", "weak"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Chicken-hearted means cowardly or lacking courage.",
+      ),
+      QuizQuestion(
+        question:
+            "134. Lance only talks about trivial matters.        (BECE 2023 Q19)",
+        options: ["unexciting", "unacceptable", "unpleasant", "unimportant"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Trivial means unimportant or of little value.",
+      ),
+      QuizQuestion(
+        question: "135. Celia shook with fright.        (BECE 2020 Q16)",
+        options: ["excitement", "cheerfulness", "hope", "fear"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Fright means fear.",
+      ),
+      QuizQuestion(
+        question:
+            "136. Mr. Abban instructed his wife to keep an eye on their daughter. This means that their daughter should be …………        (BECE 2014 Q26)",
+        options: [
+          "pampered",
+          "disciplined",
+          "controlled properly",
+          "watched closely"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To keep an eye on someone means to watch that person closely.",
+      ),
+      QuizQuestion(
+        question:
+            "137. Awuni normally feels at home in my house. This means that Awuni ………… in my house.        (BECE 2012 Q23)",
+        options: ["feels comfortable", "lives", "moves about", "eats"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "To feel at home means to feel comfortable and relaxed.",
+      ),
+      QuizQuestion(
+        question:
+            "138. Sam was appointed the office boy because of his faithfulness.        (BECE 2002A Q14)",
+        options: ["honesty", "cleverness", "punctuality", "neatness"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Faithfulness means honesty, loyalty and reliability.",
+      ),
+      QuizQuestion(
+        question:
+            "139. They said the film was ancient but I found it modern.        (BECE 2022 Q30)",
+        options: ["relaxing", "modern", "difficult", "interesting"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Modern is the opposite of ancient.",
+      ),
+      QuizQuestion(
+        question:
+            "140. All latecomers were promptly punished.        (BECE 2004 Q14)",
+        options: ["immediately", "mercilessly", "roughly", "severely"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Promptly means immediately or without delay.",
+      ),
+      QuizQuestion(
+        question:
+            "141. The results will be released very soon.        (BECE 2019 Q29)",
+        options: ["withheld", "confirmed", "withdrawn", "cancelled"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Released means made available or announced. Its opposite is “withheld”.",
+      ),
+      QuizQuestion(
+        question:
+            "142. Kwasi is head over heels in love with Ama. This means …………        (BECE 1994 Q20)",
+        options: [
+          "Kwasi looks at his heels when he sees Ama",
+          "Kwasi's love for Ama is abnormal",
+          "Kwasi can't control himself when he sees Ama",
+          "Kwasi is deeply in love with Ama"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To be head over heels in love means to be deeply and completely in love with someone.",
+      ),
+      QuizQuestion(
+        question:
+            "143. The diligent students won a prize.        (BECE 2009 Q25)",
+        options: ["careless", "lucky", "playful", "proud"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Diligent means hardworking and careful. Its opposite is “careless”.",
+      ),
+      QuizQuestion(
+        question:
+            "144. The aroma of Kate's food made everyone hungry. This means the food …………        (BECE 1991 Q17)",
+        options: ["smells", "is tasty", "is spicy", "is valuable"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Aroma refers to the pleasant smell of food.",
+      ),
+      QuizQuestion(
+        question:
+            "145. The fraudster was paid back in his own coins. This means that he was …………        (BECE 2024 Q23)",
+        options: [
+          "given a hot chase",
+          "given new coins",
+          "punished",
+          "swindled"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To pay someone back in their own coin means to treat or punish the person in the same unpleasant way they treated others.",
+      ),
+      QuizQuestion(
+        question: "146. Akosua accepted the offer.        (BECE 2014 Q29)",
+        options: ["disliked", "declined", "withdrew", "ignored"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Declined means refused and is the opposite of accepted.",
+      ),
+      QuizQuestion(
+        question:
+            "147. She is very sincere with the people she works with.        (BECE 1997 Q12)",
+        options: ["free", "careful", "good", "honest"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Sincere means honest, genuine and truthful.",
+      ),
+      QuizQuestion(
+        question:
+            "148. The traders agreed to pay extra money to the Council.        (BECE 1990 Q12)",
+        options: ["tried", "struggled", "refused", "remembered"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Refused is the opposite of agreed.",
+      ),
+      QuizQuestion(
+        question:
+            "149. The officials made a sudden visit to the school.        (BECE 2019 Q16)",
+        options: ["an unusual", "a strange", "a quick", "an unexpected"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "A sudden visit is one that happens unexpectedly.",
+      ),
+      QuizQuestion(
+        question: "150. The current is slow downhill.        (BECE 2018 Q27)",
+        options: ["abrupt", "fresh", "running", "swift"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Swift means fast-moving and is the opposite of slow.",
+      ),
+      QuizQuestion(
+        question:
+            "151. It is very unlikely that he will report before Saturday.        (BECE 1997 Q25)",
+        options: ["similar", "credible", "close", "possible"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Possible is the opposite of unlikely.",
+      ),
+      QuizQuestion(
+        question:
+            "152. The parent who donated the books to school wants to remain anonymous.        (BECE 2006 Q12)",
+        options: ["quiet", "rich", "unimportant", "unknown"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Anonymous means unnamed or unknown.",
+      ),
+      QuizQuestion(
+        question:
+            "153. The new school is ideal for Mr. Mensah's children.        (BECE 2018 Q19)",
+        options: ["good", "perfect", "satisfactory", "suitable"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Ideal means highly suitable or appropriate for a particular purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "154. Imported rice is expensive these days.        (BECE 2015 Q29)",
+        options: ["free", "cheap", "tasty", "scarce"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Cheap is the opposite of expensive.",
+      ),
+      QuizQuestion(
+        question:
+            "155. They are waiting in the arrival hall.        (BECE 1997 Q24)",
+        options: ["departure", "return", "acceptance", "common"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Departure is the opposite of arrival.",
+      ),
+      QuizQuestion(
+        question:
+            "156. A neutral referee handled the final match.        (BECE 2005 Q12)",
+        options: ["foreign", "local", "impartial", "athletic"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Neutral means impartial and not supporting either side.",
+      ),
+      QuizQuestion(
+        question:
+            "157. A desperate man may clutch at straws to save himself. This means that he may …………        (BECE 2021 Q25)",
+        options: [
+          "decide to act bravely",
+          "seize any opportunity",
+          "try all clever means",
+          "use a secret strategy"
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To clutch at straws means to seize any possible opportunity, however unlikely, when one is in a desperate situation.",
+      ),
+      QuizQuestion(
+        question:
+            "158. The town was deserted after the war.        (BECE 2003 Q13)",
+        options: ["destroyed", "built", "quiet", "abandoned"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Deserted means abandoned or left without people.",
+      ),
+      QuizQuestion(
+        question:
+            "159. The Education Ministry takes the lion's share of the budget. This means that the Education Ministry …………        (BECE 2006 Q20)",
+        options: [
+          "uses all the money",
+          "is given the largest amount of the money",
+          "is given the smallest amount of the money",
+          "borrows money"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The lion's share means the largest portion of something.",
+      ),
+      QuizQuestion(
+        question:
+            "160. Afua celebrates her birthday today but I cannot make it. This means the speaker …………        (BECE 2018 Q21)",
+        options: [
+          "does not want to be there",
+          "feels it is not necessary to attend",
+          "has no birthday gift for her friend",
+          "will not be able to attend"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To say “I cannot make it” means that one will be unable to attend.",
+      ),
+      QuizQuestion(
+        question:
+            "161. The students rejected the prefect chosen by the staff.        (BECE 1990 Q15)",
+        options: ["admired", "advised", "relied", "accepted"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Accepted is the opposite of rejected.",
+      ),
+      QuizQuestion(
+        question:
+            "162. The student was caught red-handed breaking the louvres. This means that the student was caught …………        (BECE 2014 Q23)",
+        options: [
+          "while committing the offence",
+          "with blood on his hands",
+          "before the act",
+          "after the act"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To be caught red-handed means to be caught while committing an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "163. We shall have the final rehearsal for the play tonight.        (BECE 2016 Q21)",
+        options: ["meeting", "practice", "trial", "household"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "A rehearsal is a practice held before a performance.",
+      ),
+      QuizQuestion(
+        question:
+            "164. Many people dislike Abugri because he enjoys blowing his own trumpet. This means that Abugri is …………        (BECE 2001 Q20)",
+        options: ["boastful", "greedy", "disrespectful", "shameful"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To blow one's own trumpet means to boast about one's abilities or achievements.",
+      ),
+      QuizQuestion(
+        question:
+            "165. When I went to Accra Mr. Asah put me up for the night. This means Mr. Asah …………        (BECE 2006 Q19)",
+        options: [
+          "received me",
+          "entertained me very well",
+          "gave me a place to sleep",
+          "was angry with me"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To put someone up means to provide the person with accommodation.",
+      ),
+      QuizQuestion(
+        question:
+            "166. I have heard from the horse's own mouth that he will be transferred. This means ………… that he will be transferred.        (BECE 2002B Q19)",
+        options: [
+          "people are saying",
+          "it is rumoured",
+          "he himself says",
+          "it has been announced"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To hear something from the horse's mouth means to receive the information directly from the person concerned.",
+      ),
+      QuizQuestion(
+        question:
+            "167. When Susan was caught stealing money, she shed crocodile tears. This means Susan …………        (BECE 2001 Q21)",
+        options: [
+          "pretended she was sorry",
+          "was annoyed",
+          "was embarrassed",
+          "cried like a crocodile"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Crocodile tears are false or insincere expressions of sadness.",
+      ),
+      QuizQuestion(
+        question:
+            "168. Our school is now famous throughout the district.        (BECE 1993 Q21)",
+        options: ["popular", "anonymous", "unknown", "irrelevant"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Famous means well-known or popular.",
+      ),
+      QuizQuestion(
+        question: "169. The bread is stale.        (BECE 2018 Q28)",
+        options: ["burnt", "delicious", "fresh", "mouldy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Fresh is the opposite of stale.",
+      ),
+      QuizQuestion(
+        question:
+            "170. His dubious attitude has made him lose all his good friends.        (BECE 2025 Q20)",
+        options: ["deceitful", "disrespectful", "untrue", "unforgiving"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Dubious describes behaviour that is doubtful, dishonest or deceitful.",
+      ),
+      QuizQuestion(
+        question:
+            "171. Mr. Mensah was worn out after walking up the hill.        (BECE 1990 Q36)",
+        options: ["tired", "sweating", "hungry", "worried"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Worn out means extremely tired or exhausted.",
+      ),
+      QuizQuestion(
+        question:
+            "172. There is no need to do rash work.        (BECE 1994 Q14)",
+        options: ["speedy", "lazy", "busy", "hasty"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Rash means hasty, careless or done without sufficient thought.",
+      ),
+      QuizQuestion(
+        question:
+            "173. The workers wanted their director to hold the meeting.        (BECE 1991 Q40)",
+        options: ["continue", "delay", "cancel", "support"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "To cancel a meeting means not to hold it.",
+      ),
+      QuizQuestion(
+        question:
+            "174. Food is abundant in the rural areas.        (BECE 2014 Q30)",
+        options: ["scarce", "less", "few", "cheap"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Scarce is the opposite of abundant.",
+      ),
+      QuizQuestion(
+        question:
+            "175. All the pupils are skilful at using the computer.        (BECE 2006 Q11)",
+        options: ["interested", "lazy", "expert", "happy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Skilful means expert or highly competent at doing something.",
+      ),
+      QuizQuestion(
+        question:
+            "176. The story was written in simple language.        (BECE 2023 Q30)",
+        options: ["foreign", "local", "complex", "strange"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Complex is the opposite of simple.",
+      ),
+      QuizQuestion(
+        question:
+            "177. The arrogant storekeeper lost all his customers.        (BECE 2023 Q26)",
+        options: ["modest", "respectful", "obedient", "sympathetic"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Modest is the opposite of arrogant.",
+      ),
+      QuizQuestion(
+        question:
+            "178. Adzo's bad manners make her the black sheep of the family. This means Adzo is a …………        (BECE 2006 Q18)",
+        options: ["bully", "destroyer", "disgrace", "liar"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The black sheep of a family is a person whose behaviour brings shame or disgrace to the family.",
+      ),
+      QuizQuestion(
+        question:
+            "179. Board members are paid five Ghana Cedis a day across the board. This means that …………        (BECE 2013 Q24)",
+        options: [
+          "every member receives five Ghana Cedis",
+          "some members receive five Ghana Cedis",
+          "members are given five Ghana Cedis for food",
+          "only deserving members are given five Ghana Cedis"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Across the board means equally applying to every member of the group.",
+      ),
+      QuizQuestion(
+        question:
+            "180. The visitor's timidity surprised us.        (BECE 2020 Q28)",
+        options: ["hostility", "sincerity", "boldness", "carelessness"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Boldness is the opposite of timidity or shyness.",
+      ),
+      QuizQuestion(
+        question:
+            "181. Fishes are plentiful in the pond.        (BECE 2017 Q27)",
+        options: ["little", "scarce", "small", "unusual"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Scarce is the opposite of plentiful.",
+      ),
+    ],
+  ),
+
+  "English JHS2 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr. Opiah’s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.\n\n"
+            "Akwasi Seth, Mr. Opiah’s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the Whiteman. Everybody was prepared to give him a rousing welcome.\n\n"
+            "Fervent preparations started there and then; however, the children’s only anxiety was to see what the man had brought and listen to what he had to say.\n\n"
+            "Meanwhile, Mr. Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at 7am but by 1pm there was still no sign of him. So when they also heard the screeching of the car, they heaved sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing to his praises.\n\n"
+            "Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his father’s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.\n\n"
+            "80. The children ran helter-skelter because …        (BECE 1997 Q1)",
+        options: [
+          "they were expecting a car.",
+          "of the sudden screeching of the car.",
+          "they hadn’t seen a car before.",
+          "the car was marvellous."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The children ran in different directions because they were startled by the sudden screeching sound of the car.",
+      ),
+      QuizQuestion(
+        question:
+            "81. The villagers got to know that Akwasi Seth was arriving on that day because …        (BECE 1997 Q2)",
+        options: [
+          "the car stopped in front of Mr. Opiah’s house.",
+          "the gong-gong beater had announced it.",
+          "Mr. Opiah had told them about it.",
+          "the children ran to Mr. Opiah’s house."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that the gong-gong had been beaten the previous day to announce Akwasi Seth’s arrival.",
+      ),
+      QuizQuestion(
+        question:
+            "82. Mr. Opiah’s family members were anxious because they …        (BECE 1997 Q3)",
+        options: [
+          "were afraid he might not come.",
+          "were planning what to do for him.",
+          "thought Akwasi Seth would not recognize them.",
+          "were surprised at how greatly Akwasi Seth had changed."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Akwasi Seth was expected at 7am, but by 1pm he had not arrived, so the family feared that he might not come.",
+      ),
+      QuizQuestion(
+        question:
+            "83. According to the passage, Akwasi Seth …        (BECE 1997 Q4)",
+        options: [
+          "was a truant.",
+          "was immaculately dressed.",
+          "shed tears of joy.",
+          "was loved very much."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Akwasi Seth was described as the darling boy of the village, showing that he was greatly loved.",
+      ),
+      QuizQuestion(
+        question: "84. Marvelled in the passage means …        (BECE 1997 Q5)",
+        options: ["laughed.", "surrounded.", "wondered.", "entered."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To marvel at something means to look at it with great wonder or admiration.",
+      ),
+      QuizQuestion(
+        question:
+            "85. Akwasi’s mother shed tears of joy because …        (BECE 1997 Q6)",
+        options: [
+          "Akwasi looked strange.",
+          "she was ill.",
+          "she was very happy.",
+          "Akwasi remembered his culture."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "She cried because she was extremely happy to see her son return safely.",
+      ),
+      QuizQuestion(
+        question:
+            "At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr. Kodwo Twum. Surrounded by shady trees and large games field to one side, it was one of the best schools in the area.\n\n"
+            "Mr. Twum himself was a teacher of the old school, of the days when education had to be fought for, the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such high esteem by both parents and teachers that no one resented his discipline. He took personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.\n\n"
+            "The compound round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as a part of their lesson.\n\n"
+            "Master Twum’s house was across the road from the school and next to that belonging to John Agyeman the catechist, so the two men were often seen gossiping together in the evenings, or going into the small village church to discuss parish affairs.\n\n"
+            "86. The school was to be found …        (BECE 1997 Q7)",
+        options: [
+          "on the outskirts of the village.",
+          "in the centre of the village.",
+          "near Mr. Kodwo Twum.",
+          "with the houses."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The school stood at the far end of the village, beyond the houses, which means it was on the outskirts.",
+      ),
+      QuizQuestion(
+        question:
+            "87. According to the passage the school was surrounded by …        (BECE 1997 Q8)",
+        options: [
+          "shady trees.",
+          "the games field.",
+          "the best schools.",
+          "the village."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage directly states that the village school was surrounded by shady trees.",
+      ),
+      QuizQuestion(
+        question:
+            "88. Which of the following is not true of Mr. Twum?        (BECE 1997 Q9)",
+        options: [
+          "He was respected.",
+          "He was a disciplinarian.",
+          "He was hated by many people.",
+          "He was liked by all his people."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Mr. Twum was highly respected, and no one resented his discipline. Therefore, it is not true that many people hated him.",
+      ),
+      QuizQuestion(
+        question: "89. Insolent in the passage means …        (BECE 1997 Q10)",
+        options: ["ruffian.", "difficult.", "disrespectful.", "lazy."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "An insolent person behaves rudely and disrespectfully towards others.",
+      ),
+      QuizQuestion(
+        question:
+            "90. Mr. Twum and the catechist were able to gossip most of the time because they were …        (BECE 1997 Q11)",
+        options: [
+          "adults.",
+          "free.",
+          "very good neighbours.",
+          "members of the church."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Their houses were next to each other, making them very close neighbours who could frequently meet and talk.",
+      ),
+      QuizQuestion(
+        question:
+            "Nwakibie cleared his throat. ‘It pleases me to see a determined young man like you these days when our youth have gone so soft. Many young men have come to me to ask for yams but I have refused because I knew they would just dump them in the earth and leave them to be choked by weeds. When I say no to them they think I am hard-hearted. But it is not so. As the bird says that since men have learnt to shoot without perching, he has learnt to fly without perching. As our fathers said, you can tell a ripe corn by its look. I shall give you twice four hundred yams. Go ahead and prepare your farm.’\n\n"
+            "91. The full form of if no one … will be, is ‘if no one …’        (BECE 1998 Q1)",
+        options: ["jumped.", "looked.", "was afraid.", "praised him."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The shortened expression refers to the complete form containing “will be,” which matches the intended affirmative construction in the passage.",
+      ),
+      QuizQuestion(
+        question:
+            "92. I began to fend for myself means the speaker …        (BECE 1998 Q2)",
+        options: [
+          "defended himself.",
+          "protected his family.",
+          "looked after himself.",
+          "looked for yams."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To fend for oneself means to provide for and look after oneself without depending on others.",
+      ),
+      QuizQuestion(
+        question: "93. Being hard-hearted is to …        (BECE 1998 Q3)",
+        options: [
+          "be solid.",
+          "have no kind feeling.",
+          "be wild.",
+          "refuse to smile."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A hard-hearted person is unkind and shows little or no sympathy for others.",
+      ),
+      QuizQuestion(
+        question:
+            "94. Nwakibie refused to give yams to some young men because they were …        (BECE 1998 Q4)",
+        options: [
+          "lazy.",
+          "stingy.",
+          "unable to shoot well.",
+          "unable to trust him."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "He believed the young men would neglect the yams and allow weeds to choke them, showing that they were lazy.",
+      ),
+      QuizQuestion(
+        question:
+            "95. According to the passage one can say that Okonkwo is …        (BECE 1998 Q5)",
+        options: [
+          "always praising himself.",
+          "a determined hardworking young farmer.",
+          "always sucking his mother’s breasts.",
+          "very stingy with yams."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Nwakibie praised Okonkwo as a determined young man and agreed to give him yams because of his hardworking attitude.",
+      ),
+      QuizQuestion(
+        question:
+            "We were suddenly awakened at dawn by the screams of the tenants in the house. Daddy quickly jumped from his bed and made for the door. Not long after we heard him screaming. We ran to the hall, switched on the light and saw him lying flat on his back, holding his forehead.\n\n"
+            "In his haste to get to the hall door, he must have forgotten to switch on the light thus running straight and crashing his head against a pillar in the middle of the hall. When we examined his forehead, we saw a big lump and blood oozing from a deep cut near his eyebrow. Mother, a retired nursing sister, shouted instructions at me to get the first aid box, some ice cubes and Daddy’s towel.\n\n"
+            "When the items were brought, she then sat to work first on the cut. She put some ice-cubes in the towel and pressed them on the cut for about two minutes. She then wiped the blood gently. Afterwards, she put a little iodine on gauze, placed it on the cut and bandaged it. Then turning to the lump, she massaged it with some ice-cubes, which reduced the swelling. She then opened the door and we were confronted with a pathetic scene. Lying in the middle of the house was the body of one of the tenants. Trying to resist an attack by armed robbers, he had been butchered mercilessly and his body left in the middle of the house.\n\n"
+            "96. What made the writer wake up?        (BECE 1998 Q6)",
+        options: [
+          "The noise made by his father.",
+          "The shouting of people in the house.",
+          "His father’s jumping out of bed.",
+          "His father crashing into the pillar."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The writer and the family were awakened by the screams of the tenants in the house.",
+      ),
+      QuizQuestion(
+        question:
+            "97. The father was holding his forehead because he …        (BECE 1998 Q7)",
+        options: [
+          "ran.",
+          "lay on his back.",
+          "did not put on the light.",
+          "hit his head against the pillar."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "He crashed his head against a pillar while rushing through the dark hall.",
+      ),
+      QuizQuestion(
+        question:
+            "98. Which of the following statements, according to the passage, is not true?        (BECE 1998 Q8)",
+        options: [
+          "Mother retired as a nursing sister.",
+          "Mother used Daddy’s towel.",
+          "Mother used iodine and ice-cubes.",
+          "Mother applied warm water."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The mother used ice-cubes, a towel, gauze and iodine. The passage does not say that she applied warm water.",
+      ),
+      QuizQuestion(
+        question: "99. How did the tenant die?        (BECE 1998 Q9)",
+        options: [
+          "He was a pathetic scene.",
+          "He was killed by armed robbers.",
+          "He was merciless.",
+          "He had resisted armed robbers."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The tenant was butchered and killed while trying to resist an attack by armed robbers.",
+      ),
+      QuizQuestion(
+        question: "100. Pathetic in the passage means …        (BECE 1998 Q10)",
+        options: ["sad.", "strange.", "mighty.", "merciless."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Pathetic describes something that causes sadness, pity or sympathy.",
+      ),
+      QuizQuestion(
+        question:
+            "The persistent sound of the doorbell at that time of the day surprised everybody. What could be the matter? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr. Amoh, the headmaster, stood with a glimpse face before them. He raised his hand and everybody was quiet.\n\n"
+            "‘Children,’ he began. ‘The reason why I have summoned you here is to tell you that, at long last, we have found the students who stole the school’s microphones. Bring them here!’ he commanded.\n\n"
+            "Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. ‘Shiee!’ exclaimed the students. Next was Akwasi Ameko. ‘What………!’ blurted out someone from the back. ‘Is he the Form Two Class Prefect?’ As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a clutch.\n\n"
+            "The students exploded into uncontrolled laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.\n\n"
+            "101. Why was everybody surprised when the bell rang? Because …        (BECE 1999 Q1)",
+        options: [
+          "the students bumped into each other.",
+          "they ran to the assembly hall.",
+          "the students saw the headmaster standing before them.",
+          "they did not expect the bell to ring at that time."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The persistent ringing surprised everyone because the bell rang at an unusual time of the day.",
+      ),
+      QuizQuestion(
+        question:
+            "102. The students raced to the assembly hall because the …        (BECE 1999 Q2)",
+        options: [
+          "headmaster was annoyed.",
+          "headmaster asked them to come.",
+          "bell rang many times.",
+          "bell rang at the normal time."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The headmaster had summoned the pupils to the assembly hall by ringing the bell.",
+      ),
+      QuizQuestion(
+        question:
+            "103. There was laughter in the assembly hall because …        (BECE 1999 Q3)",
+        options: [
+          "Mr. Amoah stood before them with a glimpse face.",
+          "Kofi Smith the footballer was involved.",
+          "Akwasi Ameko surprised them.",
+          "Akwasi Osei the cripple was also involved."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The pupils burst into laughter when Akwasi Osei, who had a withered leg and used a crutch, appeared as one of the thieves.",
+      ),
+      QuizQuestion(
+        question: "104. The expression at a loss means …        (BECE 1999 Q4)",
+        options: ["dissatisfied.", "angry.", "confused.", "surprised."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To be at a loss means to be confused and unable to understand or decide what to do.",
+      ),
+      QuizQuestion(
+        question:
+            "105. What did the headmaster do to the thieves? He …        (BECE 1999 Q5)",
+        options: [
+          "warned them not to repeat the offence.",
+          "asked a teacher to cane them.",
+          "sent them home to call their parents.",
+          "asked them to stay away from school."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The headmaster punished the students by asking them to stay away from school.",
+      ),
+      QuizQuestion(
+        question:
+            "Before Obu left the house this morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to see the most suitable one.\n\n"
+            "During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from his clothes to his shoes, nicknamed “Stand by”, his first pair ever. He was not alone. Even choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.\n\n"
+            "Obu’s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one’s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he displayed his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the warden that he wanted to relieve himself outside.\n\n"
+            "106. Obu was inattentive in church because of …        (BECE 1999 Q6)",
+        options: [
+          "the Christmas.",
+          "the harmattan.",
+          "his new dress.",
+          "his embroidery."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Obu was distracted because he kept admiring his new clothes, shoes and embroidered cap during the service.",
+      ),
+      QuizQuestion(
+        question:
+            "107. Obu’s shoes were special to him because they …        (BECE 1999 Q7)",
+        options: [
+          "were called “Stand by”.",
+          "were his first.",
+          "made noise.",
+          "looked very beautiful."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage describes the shoes as Obu’s first pair ever.",
+      ),
+      QuizQuestion(
+        question:
+            "108. According to the passage, the choristers …        (BECE 1999 Q8)",
+        options: [
+          "disliked their robes.",
+          "did not like singing.",
+          "wanted to display their dresses.",
+          "preferred sitting to standing."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The choristers sat with the congregation instead of joining the procession because they wanted to show off their new clothes.",
+      ),
+      QuizQuestion(
+        question: "109. Obu went outside because …        (BECE 1999 Q9)",
+        options: [
+          "it was so warm inside.",
+          "he did not like the catechist.",
+          "he wanted to relieve himself.",
+          "he wanted to wear his cap."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Obu lied about relieving himself so that he could go outside and display his cap.",
+      ),
+      QuizQuestion(
+        question:
+            "110. He was not alone tells us that Obu was not the only one who was …        (BECE 1999 Q10)",
+        options: [
+          "in church that day.",
+          "happy.",
+          "wearing new clothes.",
+          "celebrating."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Other people, including the choristers, were also wearing and displaying new clothes.",
+      ),
+      QuizQuestion(
+        question:
+            "111. The word relieve in the passage means …        (BECE 1999 Q11)",
+        options: [
+          "lessen his suffering.",
+          "show his new clothes.",
+          "play happily.",
+          "sing melodiously."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To relieve oneself means to attend to a bodily need and thereby lessen discomfort.",
+      ),
+      QuizQuestion(
+        question:
+            "Mr. Kobi, the next speaker, said that although he left the school so many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were prepared for life. He was sorry that the headmaster had decided to retire at so early a time before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of high esteem in which his pupils held him.\n\n"
+            "After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.\n\n"
+            "112. Mr. Kobi was sorry about the headmaster’s early retirement because …        (BECE 2000 Q1)",
+        options: [
+          "it was necessary to do so.",
+          "he would deny the pupils of his help.",
+          "he had done a lot.",
+          "the pupils were well prepared for life."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Kobi believed that the headmaster was retiring before it was necessary and that the pupils would lose his valuable help.",
+      ),
+      QuizQuestion(
+        question:
+            "113. Which of the following is not true of the headmaster?        (BECE 2000 Q2)",
+        options: [
+          "He was hated by the people.",
+          "He had worked hard.",
+          "He was happy.",
+          "He had worked for a long time."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The headmaster was held in high esteem and respected by his former pupils, so it is not true that people hated him.",
+      ),
+      QuizQuestion(
+        question: "114. Brief in the passage means …        (BECE 2000 Q3)",
+        options: ["necessary.", "good.", "true.", "short."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A brief summary is a short summary containing only the main points.",
+      ),
+      QuizQuestion(
+        question:
+            "115. According to the passage, Mr. Smith …        (BECE 2000 Q4)",
+        options: [
+          "was liked by many people.",
+          "was a disciplinarian.",
+          "was a gentleman.",
+          "was liked by the headmaster only."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Mr. Smith was generally admired and respected by everyone who knew him.",
+      ),
+      QuizQuestion(
+        question:
+            "116. The retiring headmaster said he would ………… the school.        (BECE 2000 Q5)",
+        options: ["praise.", "teach in.", "visit.", "do his best for."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "He promised to continue taking an interest in the school and doing his best for it after retirement.",
+      ),
+      QuizQuestion(
+        question:
+            "It is easy to see why television is so attractive to both children and adults. It was available in the home whenever we please and it in comfort. Besides, it provides entertainment after a day’s work. Television also enables us to see places and people and their ways of life. Even people with little or no education can watch and enjoy the programmes.\n\n"
+            "Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as the programme lasts, and do little else. This exclusive aspect of television, in fact, prevents us doing other things. While television may provide more serious problems than is commonly realized. While it robs children of the time they must use in an acceptable form of relaxation for adults after a day’s work. Even when children learn other things. In addition, not everything that television offers is good. Even when children learn programmes are provided, we are not sure these are the ones they will watch more programmes meant for adults than for them.\n\n"
+            "One likely outcome of this is that children may learn about the adult world too soon at a time when it can easily be influenced.\n\n"
+            "117. People like to watch television because it …        (BECE 2000 Q6)",
+        options: [
+          "is very beautiful.",
+          "solves serious problems.",
+          "is available.",
+          "provides relaxation."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Television is attractive partly because it is readily available in the home whenever people wish to watch it.",
+      ),
+      QuizQuestion(
+        question:
+            "118. The writer feels that children should …        (BECE 2000 Q7)",
+        options: [
+          "watch television with parents.",
+          "do nothing while watching television.",
+          "not watch all programmes.",
+          "learn about adult life."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The writer warns that not every television programme is suitable for children, especially programmes intended for adults.",
+      ),
+      QuizQuestion(
+        question: "119. Poses in the passage means …        (BECE 2000 Q8)",
+        options: ["solves.", "increases.", "presents.", "determines."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To pose a problem means to present or create a problem.",
+      ),
+      QuizQuestion(
+        question:
+            "120. According to the passage, which of the following is not true about television?        (BECE 2000 Q9)",
+        options: [
+          "It is a source of entertainment.",
+          "It helps us to see unknown places and people.",
+          "People with little education can watch it.",
+          "Everybody has one."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The passage discusses the accessibility and benefits of television but does not state that everybody owns one.",
+      ),
+      QuizQuestion(
+        question:
+            "121. From the passage, we realize that the writer …        (BECE 2000 Q10)",
+        options: [
+          "dislikes adult programmes.",
+          "is not happy about the present situation.",
+          "produces television programmes.",
+          "wants television to be banned."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The writer is concerned that children may watch unsuitable adult programmes and spend too much time watching television.",
+      ),
+      QuizQuestion(
+        question:
+            "There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooks the road entering the town. From there they could see the market, the lorry park and the main street.\n\n"
+            "As they watched, a large bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.\n\n"
+            "122. According to the passage, the elders sit under the tree to …        (BECE 2001 Q1)",
+        options: [
+          "travel outside.",
+          "buy and sell.",
+          "discuss matters.",
+          "drink palm wine."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The elders used the tree as a meeting place where they gossiped and discussed serious affairs of the town.",
+      ),
+      QuizQuestion(
+        question:
+            "123. Which of the following could the old men not see from where they sat?        (BECE 2001 Q2)",
+        options: [
+          "The benches.",
+          "The market.",
+          "The lorry park.",
+          "The main street."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "From their position, the old men could see the market, the lorry park and the main street, but the passage does not list the benches among the distant places they observed.",
+      ),
+      QuizQuestion(
+        question: "124. Uproar in the passage means …        (BECE 2001 Q3)",
+        options: ["fight.", "movement.", "selling.", "confusion."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Uproar means a noisy disturbance, disorder or confusion.",
+      ),
+      QuizQuestion(
+        question:
+            "125. Some people in the bus tried to alight because they wanted to …        (BECE 2001 Q4)",
+        options: ["buy things.", "gossip.", "rest.", "go home."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Some passengers tried to get down from the bus so that they could buy food and other goods from the sellers.",
+      ),
+      QuizQuestion(
+        question:
+            "126. Some of the passengers blocked the way because they …        (BECE 2001 Q5)",
+        options: [
+          "did not like the food sellers.",
+          "did not want to lose their seats.",
+          "wanted to stop the new passengers.",
+          "wanted to see the old men."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "They remained in the doorway because they feared that someone else would take their seats.",
+      ),
+      QuizQuestion(
+        question:
+            "As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian in my own capital and should not fear anything.\n\n"
+            "Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old school mate must have spotted me, James Cudjoe, and he decided to play our old game on me. How welcome! The good old days are here again.\n\n"
+            "I turned to look at the fellow in the face but the more I turned to my left, the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly this was not how to welcome a friend. People of the city were surely strange!\n\n"
+            "Totally confused, I made my way towards the lorry park to leave for my brother’s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone.\n\n"
+            "The rascal had made away with it. It was hardly new, not even expensive, yet the rogue found it worth stealing.\n\n"
+            "127. The writer thought he was safe in Accra because …        (BECE 2001 Q6)",
+        options: [
+          "he saw people rushing home from work.",
+          "he had just arrived from his village.",
+          "Ghanaians would welcome him.",
+          "Ghanaians are famous for their kindness."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "He felt safe because he believed Ghanaians were generally kind and hospitable, especially towards strangers.",
+      ),
+      QuizQuestion(
+        question: "128. Spotted in the passage means …        (BECE 2001 Q7)",
+        options: ["looked at.", "recognized.", "marked.", "pointed at."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In the passage, spotted means noticed or recognized someone.",
+      ),
+      QuizQuestion(
+        question:
+            "129. The writer turned to his left because he wanted to …        (BECE 2001 Q8)",
+        options: [
+          "see the person behind.",
+          "keep his wrist watch safe.",
+          "welcome his old friend.",
+          "play with his schoolmate."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "He turned to the left to see the person who had grabbed him from behind.",
+      ),
+      QuizQuestion(
+        question:
+            "130. According to the passage, the fellow grabbed Cudjoe’s arm because …        (BECE 2001 Q9)",
+        options: [
+          "he wanted to embrace him.",
+          "they were mates.",
+          "he wanted to steal the watch.",
+          "they stood together."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The man held Cudjoe’s arm so that he could remove and steal his wristwatch.",
+      ),
+      QuizQuestion(
+        question:
+            "131. Rogue in the passage refers to …        (BECE 2001 Q10)",
+        options: ["a worker.", "the schoolmate.", "the thief.", "a citizen."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Rogue refers to a dishonest person; in this passage, it refers to the thief who stole the watch.",
+      ),
+      QuizQuestion(
+        question:
+            "132. Which of the following is not true according to the passage?        (BECE 2001 Q11)",
+        options: [
+          "People in Accra are strange.",
+          "People in Accra are classmates.",
+          "There are thieves in Accra.",
+          "Workers in Accra return home in the evening."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The passage does not state that people in Accra are classmates. It only says the writer mistakenly thought the thief was an old schoolmate.",
+      ),
+      QuizQuestion(
+        question:
+            "Antobam’s first day in the senior secondary school was the day he would never forget. That morning, he got up earlier than usual ready for his father to take him to his new school. With the help of his father’s houseboy, his trunk and chop box were packed into his father’s car. At exactly eleven o’clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.\n\n"
+            "After an hour and half hours’ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administrative block. Some huge boys rushed to the car shouting, “Hommo, welcome, hommo welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.\n\n"
+            "From the list of the newcomers displayed on the notice board, Antobam’s father saw his son’s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam’s head. He had never carried any load on his head before. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.\n\n"
+            "133. Antobam got up early that morning because he …        (BECE 2002A Q1)",
+        options: [
+          "was very happy.",
+          "was anxious to go to his new school.",
+          "would never forget that day.",
+          "was woken up by his father."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Antobam woke earlier than usual because he was eager and ready to go to his new school.",
+      ),
+      QuizQuestion(
+        question:
+            "134. Antobam arrived at his new school at half past …        (BECE 2002A Q2)",
+        options: ["ten.", "eleven.", "twelve.", "two."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "They left at eleven o’clock and travelled for one and a half hours, so they arrived at half past twelve.",
+      ),
+      QuizQuestion(
+        question:
+            "135. The senior boys made Antobam carry his boxes because they …        (BECE 2002A Q3)",
+        options: [
+          "welcomed his father.",
+          "were following tradition.",
+          "thought he was strong.",
+          "tried to seize his provisions."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "One of the senior boys explained that making newcomers carry their luggage was a tradition at the school.",
+      ),
+      QuizQuestion(
+        question: "136. Arduous in the passage means …        (BECE 2002A Q4)",
+        options: ["strange.", "new.", "additional.", "difficult."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Arduous describes something that is difficult, tiring and demanding.",
+      ),
+      QuizQuestion(
+        question:
+            "137. Antobam’s father left the school …        (BECE 2002A Q5)",
+        options: [
+          "a happy man.",
+          "crying for his son.",
+          "a worried man.",
+          "promising to come back."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "He left the school deeply disturbed and worried about what might happen to his son.",
+      ),
+      QuizQuestion(
+        question:
+            "Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.\n\n"
+            "Most of our youth regard agriculture as a poor man’s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the township. Lack of money and jobs force them to join bad companies, break houses at night or snatch people’s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.\n\n"
+            "One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities in rural areas.\n\n"
+            "These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.\n\n"
+            "138. School leavers migrate to the cities and towns to …        (BECE 2002A Q6)",
+        options: [
+          "seek enjoyment.",
+          "look for work.",
+          "look for amenities.",
+          "continue their education."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that school leavers move from rural areas to urban areas mainly to seek employment.",
+      ),
+      QuizQuestion(
+        question:
+            "139. One of the results of the movement of the youth into the rural areas is that the …        (BECE 2002A Q7)",
+        options: [
+          "towns are overcrowded.",
+          "rural areas lack money.",
+          "youth are greatly disappointed.",
+          "rural areas lose their people."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The movement of young people into cities causes overcrowding in urban areas.",
+      ),
+      QuizQuestion(
+        question:
+            "140. White-collar jobs as used in the passage means …        (BECE 2002A Q8)",
+        options: [
+          "working in the cities.",
+          "working in offices.",
+          "wearing white-collar shirts.",
+          "working for white-men."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "White-collar jobs are professional, administrative or office-based jobs.",
+      ),
+      QuizQuestion(
+        question: "141. The word snatch means …        (BECE 2002A Q9)",
+        options: ["carry.", "steal.", "push.", "damage."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To snatch something means to seize or steal it suddenly and quickly.",
+      ),
+      QuizQuestion(
+        question:
+            "142. When the youth come into the cities …        (BECE 2002A Q10)",
+        options: [
+          "there is over-population.",
+          "amenities are provided.",
+          "jobs are created.",
+          "they become very happy."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The arrival of many young people in the cities increases the population and causes overcrowding.",
+      ),
+      QuizQuestion(
+        question:
+            "143. When the youth remain in the rural areas they can help produce …        (BECE 2002A Q11)",
+        options: ["electricity.", "food.", "libraries.", "water."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage explains that young people who remain in rural areas can help grow food and cash crops.",
+      ),
+      QuizQuestion(
+        question:
+            "When Suzzie’s mother told her that she would attend school in Ghana, she wept bitterly because she had learned that Ghana was a backward country with no good schools, no good roads and little food. She would miss not only her parents but also her friends and wonderful things in America. But her father insisted that she must leave for Ghana because it was necessary for her to learn the culture and language of her motherland, in addition to those of her fatherland if she should have a balanced education. So Suzzie left for school in Ghana.\n\n"
+            "Suzzie had been enrolled in an international school for only a year but she already had a lot of influence on her schoolmates. Her arrival on the first day caused so much excitement. Although her mother was black, her skin was as white as her father’s. In fact, she was the only white girl in the school and this attracted many of the girls to her, while some of the boys avoided her. In the early days, her mates found it difficult to understand her American brand of English while she also wondered how they could so easily dance to the beat of the local drums. But as time passed they learned from one another and enjoyed school together.\n\n"
+            "Soon Suzzie began to dread the thought that she might be asked to go back to her parents. She became a complete Ghanaian and hoped that they would not ask her to return to America.\n\n"
+            "144. Suzzie did not want to leave America because she believed that …        (BECE 2002B Q1)",
+        options: [
+          "Ghana was not her country.",
+          "she would not be accepted.",
+          "she might not be able to return to America.",
+          "Ghana was underdeveloped."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Suzzie initially believed that Ghana was backward, with poor schools, roads and little food.",
+      ),
+      QuizQuestion(
+        question: "145. Which of the following is true?        (BECE 2002B Q2)",
+        options: [
+          "The boys did not like Suzzie.",
+          "Ghana was Suzzie’s fatherland.",
+          "Suzzie enjoyed Ghana very much.",
+          "Suzzie’s mates found dancing difficult."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Suzzie eventually enjoyed school in Ghana and became so comfortable that she did not want to return to America.",
+      ),
+      QuizQuestion(
+        question: "146. Odd in the passage means …        (BECE 2002B Q3)",
+        options: ["strange.", "bad.", "beautiful.", "natural."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Odd means unusual or strange.",
+      ),
+      QuizQuestion(
+        question:
+            "147. From the passage, we learned that …        (BECE 2002B Q4)",
+        options: [
+          "Suzzie’s classmates influenced her.",
+          "Suzzie’s parents wanted her to return to Ghana.",
+          "Suzzie was eager to make friends.",
+          "Suzzie’s parents wanted her to have a good education."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Suzzie and her classmates learned from one another, and their influence helped her become comfortable with Ghanaian life.",
+      ),
+      QuizQuestion(
+        question:
+            "148. Suzzie and her classmates learnt to …        (BECE 2002B Q5)",
+        options: [
+          "play the drums.",
+          "live in harmony.",
+          "like the country.",
+          "dance together."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "As time passed, Suzzie and her classmates understood one another and enjoyed school together peacefully.",
+      ),
+      QuizQuestion(
+        question:
+            "Boham woke up from a deep sleep in a hospital bed. A young doctor was examining him while another man stood near. A nurse was also beside his bed. Boham looked at the doctor, then gazed painfully at the other man whom he gradually but happily recognized as Kamkam, his own brother.\n\n"
+            "“Brother, what has happened? Why am I here?”\n\n"
+            "“Calm down, I’ll tell you.”\n\n"
+            "“Then do so at once!”\n\n"
+            "“Listen, brother, the results of the lotto draw gave you a great shock as you and Joe had staked heavily. The tension had been built in you before the announcement made you faint on hearing the winning numbers. Luckily, a good Samaritan brought you to this hospital.”\n\n"
+            "“And Joe? Where’s he then?”\n\n"
+            "“Joe went crazy upon hearing the results. He walked up and down the streets like a mad man and got himself into some trouble.”\n\n"
+            "“How? What trouble?”\n\n"
+            "“As Joe walked about in despair, throwing his arms about, he hit somebody’s breast pocket. Thinking that Joe was about to snatch his money, the man shouted, ‘Thief!’ Joe was instantly surrounded by many people who took him for a pick-pocket and nearly lynched him. A policeman intervened, arrested and sent him to the police station where he is still being detained for his own safety.”\n\n"
+            "149. Boham was in hospital because he had …        (BECE 2002B Q6)",
+        options: [
+          "suddenly fallen ill.",
+          "fallen into a deep sleep.",
+          "fainted upon hearing the news.",
+          "been under severe tension."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Boham fainted after hearing the lotto results and was taken to the hospital by a good Samaritan.",
+      ),
+      QuizQuestion(
+        question:
+            "150. Boham could not at first recognize his brother because …        (BECE 2002B Q7)",
+        options: [
+          "he was still in great pain.",
+          "the doctor was examining him.",
+          "he had not woken up fully.",
+          "he had not totally regained consciousness."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Boham had only just awakened after fainting and had not completely regained consciousness.",
+      ),
+      QuizQuestion(
+        question:
+            "151. Joe was in trouble because he had …        (BECE 2002B Q8)",
+        options: [
+          "been walking about the streets.",
+          "heard a man shout, “Thief, thief”.",
+          "been suspected of attempting to steal money.",
+          "thrown his arms about carelessly."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Joe carelessly threw his arms about and struck a man’s pocket, causing people to mistake him for a thief.",
+      ),
+      QuizQuestion(
+        question:
+            "152. A policeman saved Joe from possible …        (BECE 2002B Q9)",
+        options: [
+          "taking him away.",
+          "warning him.",
+          "beating him.",
+          "pleading with his attackers."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The policeman intervened before the crowd could lynch or severely beat Joe.",
+      ),
+      QuizQuestion(
+        question:
+            "153. The word lynched means to be killed …        (BECE 2002B Q10)",
+        options: ["slowly.", "for stealing.", "instantly.", "without a trial."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To lynch a person means for a mob to kill the person without a lawful trial.",
+      ),
+    ],
+  ),
+  "English JHS2 s3 ss1 - Lexis and Structure": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "169. Akwesi's mother was not satisfied ………… his explanation.        (BECE 2022 Q6)",
+        options: ["with", "on", "in", "by"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The adjective “satisfied” is followed by the preposition “with”.",
+      ),
+      QuizQuestion(
+        question:
+            "170. Abukari prefers dancing ………… sex.        (BECE 2005 Q39)",
+        options: ["to", "by", "om", "on"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The verb “prefer” takes the preposition “to” when comparing two things.",
+      ),
+      QuizQuestion(
+        question: "171. Amba goes to school ………… foot.        (BECE 2015 Q3)",
+        options: ["by", "with", "on", "in"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The fixed expression is “on foot”.",
+      ),
+      QuizQuestion(
+        question: "172. That girl is allergic ………… dust.        (BECE 2019 Q8)",
+        options: ["of", "to", "about", "from"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The adjective “allergic” is followed by the preposition “to”.",
+      ),
+      QuizQuestion(
+        question:
+            "173. My uncle's property has been robbed ………… his mattress.        (BECE 1994 Q32)",
+        options: ["of", "in", "from", "at"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The expression “robbed of” means deprived of something through theft.",
+      ),
+      QuizQuestion(
+        question: "174. Jane fell ill ………… measles.        (BECE 2018 Q15)",
+        options: ["of", "with", "by", "through"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The expression “ill with” is used to name the illness affecting a person.",
+      ),
+      QuizQuestion(
+        question:
+            "175. The workers are congratulated ………… their brilliant performance.        (BECE 2014 Q3)",
+        options: ["on", "with", "about", "for"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The standard expression is “congratulated on” an achievement.",
+      ),
+      QuizQuestion(
+        question: "176. Habib goes to school ………… train.        (BECE 2021 Q6)",
+        options: ["by", "on", "in", "with"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The preposition “by” is used to indicate a means of transport.",
+      ),
+      QuizQuestion(
+        question:
+            "177. My father does not object ………… my going abroad.        (BECE 2004 Q39)",
+        options: ["at", "onto", "into", "to"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The verb “object” is followed by “to”.",
+      ),
+      QuizQuestion(
+        question:
+            "178. Nini's careless driving resulted ………… a fatal road accident.        (BECE 2014 Q1)",
+        options: ["in", "with", "to", "by"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression “resulted in” means caused or produced a particular outcome.",
+      ),
+      QuizQuestion(
+        question:
+            "179. Many countries prefer sugar transported ………… sea.        (BECE 2004 Q17)",
+        options: ["across", "inside", "by", "with"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The fixed expression for transport using ships is “by sea”.",
+      ),
+      QuizQuestion(
+        question:
+            "180. These students are not interested ………… improving their English.        (BECE 1993 Q39)",
+        options: ["on", "about", "within", "from"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Among the given options, “about” best completes the expression describing interest in an activity.",
+      ),
+      QuizQuestion(
+        question:
+            "181. The mechanic succeeded ………… repairing the watch of the watchman.        (BECE 2007 Q38)",
+        options: ["with", "at", "of", "in"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The verb “succeed” is followed by “in” before a gerund.",
+      ),
+      QuizQuestion(
+        question:
+            "182. This flower pot is made ………… clay.        (BECE 2020 Q12)",
+        options: ["with", "of", "in", "by"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Made of” is used when the original material remains recognisable.",
+      ),
+      QuizQuestion(
+        question:
+            "183. Mrs. Akwesi is blind ………… the faults of her children.        (BECE 2013 Q12)",
+        options: ["by", "to", "over", "of"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The expression “blind to” means unwilling or unable to notice something.",
+      ),
+      QuizQuestion(
+        question:
+            "184. Although there were ten beautiful bags in the shop, Sandra liked ………… of them.        (BECE 2025 Q3)",
+        options: ["both", "each", "none", "neither"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“None” is used to show that Sandra did not like any of the ten bags.",
+      ),
+      QuizQuestion(
+        question:
+            "185. It's a pity I have hardly ………… food to give you.        (BECE 2006 Q39)",
+        options: ["little", "few", "some", "any"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "“Hardly any” means almost no food.",
+      ),
+      QuizQuestion(
+        question:
+            "186. The doctor gave ………… to the patient.        (BECE 2012 Q3)",
+        options: [
+          "some good advice",
+          "much good advices",
+          "many good advice",
+          "some good advices"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Advice” is an uncountable noun, so it does not take a plural form.",
+      ),
+      QuizQuestion(
+        question:
+            "187. Ali's parents have not bought ………… of the two recommended books.        (BECE 2024 Q12)",
+        options: ["any", "either", "neither", "none"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Not either” means that neither one of the two books has been bought.",
+      ),
+      QuizQuestion(
+        question:
+            "188. We haven't had ………… rice to eat this week.        (BECE 2012 Q8)",
+        options: ["some", "little", "any", "many"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Any” is commonly used with uncountable nouns in negative sentences.",
+      ),
+      QuizQuestion(
+        question:
+            "189. Although all the dresses were beautiful, she liked ………… of them.        (BECE 2009 Q34)",
+        options: ["any", "none", "neither", "both"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“None” means she did not like any of the dresses.",
+      ),
+      QuizQuestion(
+        question:
+            "190. Afote gave his friend ………… of his bread.        (BECE 2001 Q35)",
+        options: ["little", "few", "some", "any"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Some” is used for an unspecified amount of the uncountable noun “bread”.",
+      ),
+      QuizQuestion(
+        question:
+            "191. Which of the ………… fragrance(s) is milder?        (BECE 2024 Q3)",
+        options: ["all", "most", "one", "two"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The comparative adjective “milder” is used when comparing two fragrances.",
+      ),
+      QuizQuestion(
+        question:
+            "192. ………… the arable land was under cultivation.        (BECE 2001 Q30)",
+        options: ["Most of", "Many of", "More of", "Much of"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Most of” is correctly used before the definite noun phrase “the arable land”.",
+      ),
+      QuizQuestion(
+        question:
+            "193. You have put too ………… sugar in the porridge.        (BECE 2007 Q35)",
+        options: ["many", "much", "few", "small"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Sugar” is uncountable, so the correct expression is “too much sugar”.",
+      ),
+      QuizQuestion(
+        question:
+            "194. The woman refused to sell me ………… kerosene.        (BECE 2017 Q11)",
+        options: ["any", "little", "plenty", "some"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "“Any” is appropriate after the negative verb “refused”.",
+      ),
+      QuizQuestion(
+        question:
+            "195. Teye asked me how ………… French I knew.        (BECE 2000 Q33)",
+        options: ["many", "few", "little", "much"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“French” refers to an uncountable amount of knowledge, so “much” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "196. Aberewa has ………… friends who often visit.        (BECE 2007 Q28)",
+        options: ["few", "much", "a little", "a few"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Friends” is countable and the sentence has a positive meaning, so “a few” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "197. There is ………… water in the fridge.        (BECE 2022 Q15)",
+        options: ["few", "a lot", "a few", "a little"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Water” is uncountable, so “a little” is the grammatically correct option.",
+      ),
+      QuizQuestion(
+        question:
+            "198. Please, can I have ………… salt in my soup?        (BECE 2011 Q11)",
+        options: ["little more", "a few more", "a little more", "few more"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Salt” is uncountable, so the correct phrase is “a little more”.",
+      ),
+      QuizQuestion(
+        question:
+            "199. We have ………… sugar, so we cannot have breakfast.        (BECE 2012 Q8)",
+        options: ["a few", "little", "few", "a little"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Little” means an insufficient amount of the uncountable noun “sugar”.",
+      ),
+      QuizQuestion(
+        question:
+            "200. The farmer had saved ………… money for his son's education.        (BECE 1997 Q36)",
+        options: ["few", "enough", "most", "plenty"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Enough money” means a sufficient amount for the purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "201. The students complained that there was ………… sugar in their tea.        (BECE 2001 Q35)",
+        options: ["plenty", "few", "little", "small"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Little” is used with the uncountable noun “sugar” to indicate an insufficient amount.",
+      ),
+      QuizQuestion(
+        question:
+            "202. There were ………… cars at the beach.        (BECE 1996 Q34)",
+        options: ["plenty", "most", "very more", "many"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "“Cars” is a plural countable noun, so “many” is correct.",
+      ),
+      QuizQuestion(
+        question: "203. We saw ………… people in the room.        (BECE 2025 Q7)",
+        options: ["a little", "much", "plenty", "many"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“People” is a plural countable noun, so “many” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "204. Many people have been invited, but ………… will be employed.        (BECE 2016 Q4)",
+        options: ["few", "a few", "little", "a little"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Few” means only a small number of the invited people will be employed.",
+      ),
+      QuizQuestion(
+        question: "205. I think we ………… Kwesi's offer.        (BECE 2001 Q29)",
+        options: [
+          "better taking",
+          "had better taken",
+          "had better take",
+          "better to take"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The correct structure is “had better” followed by the base form of the verb.",
+      ),
+      QuizQuestion(
+        question: "206. It's no good ………… to him.        (BECE 2014 Q15)",
+        options: ["to be talking", "talked", "talking", "about talking"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is no good” is followed by a gerund, so “talking” is correct.",
+      ),
+      QuizQuestion(
+        question: "207. The leader ………… suffer alone.        (BECE 2020 Q11)",
+        options: ["needs not", "need not", "needs not to", "need not to"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The modal expression is “need not” followed by the base form of the verb.",
+      ),
+      QuizQuestion(
+        question:
+            "208. The prefect made the boy ………… the assembly hall.        (BECE 1990 Q33)",
+        options: ["swept", "sweeps", "to sweep", "sweep"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After “made”, the bare infinitive is used: “made the boy sweep”.",
+      ),
+      QuizQuestion(
+        question:
+            "209. Aunt Ekuwa ………… be able to solve the problem.        (BECE 2005 Q37)",
+        options: ["can", "has", "will", "ought"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "“Will be able to” correctly expresses future ability.",
+      ),
+      QuizQuestion(
+        question:
+            "210. Anto should ………… his teeth before eating.        (BECE 1998 Q26)",
+        options: ["have cleaned", "has cleaned", "cleaned", "cleans"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Among the options, “should have cleaned” is the only grammatically correct modal construction.",
+      ),
+      QuizQuestion(
+        question:
+            "211. The messenger did not ………… anyone in the house.        (BECE 2023 Q2)",
+        options: ["meeting", "meet", "meets", "met"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After “did not”, the base form of the verb is required: “meet”.",
+      ),
+      QuizQuestion(
+        question:
+            "212. Afua ………… her clothes on the line to dry.        (BECE 2004 Q28)",
+        options: ["hung", "folder", "hang", "stretched"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The past tense of “hang” when referring to clothes is “hung”.",
+      ),
+      QuizQuestion(
+        question:
+            "213. I am ………… to walking to school every day.        (BECE 2007 Q37)",
+        options: ["using", "users", "use", "used"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression “be used to” means to be accustomed to something.",
+      ),
+      QuizQuestion(
+        question:
+            "214. Sam, have you ever ………… in this river?        (BECE 2005 Q35)",
+        options: ["swam", "swum", "swim", "swims"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "After “have”, the past participle “swum” is required.",
+      ),
+      QuizQuestion(
+        question:
+            "215. Deon said he heard the parrot …………        (BECE 2022 Q13)",
+        options: ["sang", "to sing", "sung", "sing"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After a verb of perception such as “heard”, the bare infinitive may be used: “heard the parrot sing”.",
+      ),
+      QuizQuestion(
+        question:
+            "216. ………… as Musah did, he could not get the correct answer.        (BECE 2002B Q35)",
+        options: ["Tried", "Trying", "Try", "To try"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The participial phrase “Trying as Musah did” correctly introduces the sentence.",
+      ),
+      QuizQuestion(
+        question:
+            "217. Appiah is not playing table tennis today because he doesn't want …………        (BECE 2002B Q33)",
+        options: ["it", "so", "to", "that"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Doesn't want to” is the correct shortened form when the main verb is understood.",
+      ),
+      QuizQuestion(
+        question: "218. ………… frankly, I hate the idea.        (BECE 2001 Q28)",
+        options: ["Speak", "Spoken", "To speak", "For speaking"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The fixed introductory expression is “To speak frankly”.",
+      ),
+      QuizQuestion(
+        question:
+            "219. Araba could not resist ………… the food while it was still on the fire.        (BECE 2021 Q14)",
+        options: ["by opening", "open", "to open", "opening"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The verb “resist” is followed by a gerund, so “opening” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "220. It is no use ………… over spilt milk.        (BECE 2023 Q13)",
+        options: ["crying", "of crying", "cry", "to cry"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is no use” is followed by a gerund: “crying”.",
+      ),
+      QuizQuestion(
+        question:
+            "221. The farmer was ………… by a poisonous snake.        (BECE 2007 Q34)",
+        options: ["bitten", "beaten", "bit", "beat"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passive construction requires the past participle “bitten”.",
+      ),
+      QuizQuestion(
+        question:
+            "222. Dauda saw the thief ………… out of the shop.        (BECE 2024 Q11)",
+        options: ["is running", "ran", "run", "was running"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "After “saw”, the bare infinitive “run” correctly describes the complete action.",
+      ),
+      QuizQuestion(
+        question:
+            "223. Remy looks forward to ………… Jane at the party.        (BECE 2022 Q11)",
+        options: ["see", "seeing", "be seeing", "have been seeing"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The expression “look forward to” is followed by a gerund: “seeing”.",
+      ),
+      QuizQuestion(
+        question:
+            "224. Atsu is looking forward to ………… his friends at the party.        (BECE 2018 Q10)",
+        options: ["see", "seeing", "be seeing", "have seen"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Looking forward to” must be followed by the gerund “seeing”.",
+      ),
+      QuizQuestion(
+        question:
+            "225. I saw the dog ………… out of the house.        (BECE 2019 Q2)",
+        options: ["run", "is running", "ran", "was running"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After “saw”, the bare infinitive “run” can be used to describe the complete action.",
+      ),
+      QuizQuestion(
+        question:
+            "226. Kwame asked his friend to ………… him a pen.        (BECE 2017 Q9)",
+        options: ["borrow", "excuse", "lend", "spare"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To lend means to give something temporarily to another person.",
+      ),
+      QuizQuestion(
+        question:
+            "227. Atsu is looking forward to ………… his friend at the party.        (BECE 2013 Q8)",
+        options: ["see", "be seeing", "seeing", "have seen"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The preposition “to” in “look forward to” is followed by a gerund.",
+      ),
+      QuizQuestion(
+        question:
+            "228. Ashia is used to ………… her parents every weekend.        (BECE 2005 Q26)",
+        options: ["visit", "have visited", "visited", "visiting"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Be used to” is followed by a noun or gerund, so “visiting” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "229. He decided to ………… the entrance examination again.        (BECE 2001 Q37)",
+        options: ["have sat", "sit", "be sitting", "have been sitting"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The verb “decide” is followed by the infinitive: “decided to sit”.",
+      ),
+      QuizQuestion(
+        question:
+            "230. Have you heard the national anthem ………… in your language?        (BECE 2002A Q33)",
+        options: ["sing", "sung", "sang", "sings"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The passive meaning requires the past participle “sung”.",
+      ),
+      QuizQuestion(
+        question:
+            "231. Enyonam asked her friend to ………… her a pen.        (BECE 2022 Q1)",
+        options: ["lend", "excuse", "borrow", "spare"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "“Lend” means to give someone something temporarily.",
+      ),
+      QuizQuestion(
+        question:
+            "232. The booking clerk made him ………… a deposit.        (BECE 2009 Q31)",
+        options: ["to pay", "paid", "to be paying", "pay"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After “made”, the base form of the verb is used without “to”: “made him pay”.",
+      ),
+      QuizQuestion(
+        question:
+            "233. The lion ………… under the tree waiting for its prey.        (BECE 2013 Q1)",
+        options: ["lie", "lain", "lay", "laid"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The past tense of the intransitive verb “lie” is “lay”.",
+      ),
+      QuizQuestion(
+        question:
+            "234. Kweku discovered later that ………… has many advantages.        (BECE 1999 Q38)",
+        options: [
+          "to be telling the truth",
+          "tell the truth",
+          "having told the truth",
+          "telling the truth"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The gerund phrase “telling the truth” functions as the subject of the clause.",
+      ),
+      QuizQuestion(
+        question: "235. ‘Yes, ………… a book,’ he said.        (BECE 2017 Q12)",
+        options: ["is", "its", "it's", "it"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“It's” is the contraction of “it is”: “Yes, it is a book.”",
+      ),
+      QuizQuestion(
+        question: "236. You had better ………… now.        (BECE 2017 Q8)",
+        options: ["left", "leave", "be leaving", "to leave"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "“Had better” is followed by the base form of the verb.",
+      ),
+      QuizQuestion(
+        question:
+            "237. The nurse made me ………… a lot of water.        (BECE 2023 Q8)",
+        options: ["drink", "drunk", "to drink", "drank"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "After “made”, the bare infinitive “drink” is required.",
+      ),
+      QuizQuestion(
+        question:
+            "238. Charles does not expect ………… his teacher today.        (BECE 2004 Q35)",
+        options: ["seeing", "having seen", "being seen", "to see"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The verb “expect” is followed by the infinitive: “expect to see”.",
+      ),
+      QuizQuestion(
+        question: "239. We are not allowed …………        (BECE 1991 Q25)",
+        options: [
+          "to walk at the lawn",
+          "to be walking across the lawn",
+          "walking across the lawn",
+          "to walk across the lawn"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The passive expression “are not allowed” is followed by the infinitive “to walk”.",
+      ),
+      QuizQuestion(
+        question:
+            "240. Have you ever heard Kwesi ………… a lie?        (BECE 2002B Q31)",
+        options: ["to tell", "told", "tells", "tell"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After a verb of perception such as “heard”, the bare infinitive may be used: “heard Kwesi tell a lie”.",
+      ),
+      QuizQuestion(
+        question: "241. She does not like ………… letters.        (BECE 2021 Q7)",
+        options: ["to be writing", "to write", "write", "writing"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The verb “like” can be followed by a gerund, so “writing letters” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "242. The headmistress said they could not postpone ………… the school any longer.        (BECE 2000 Q35)",
+        options: [
+          "re-opening",
+          "re-open",
+          "to have re-opened",
+          "having re-opened"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The verb “postpone” is followed by a noun or gerund, so “re-opening” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "243. I saw Esi ………… a new pair of shoes.        (BECE 2011 Q16)",
+        options: ["bought", "buy", "buys", "to buy"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After “saw”, the bare infinitive “buy” may be used to describe the complete action.",
+      ),
+      QuizQuestion(
+        question:
+            "244. People who live in unhygienic environments easily ………… cholera.        (BECE 2022 Q7)",
+        options: ["catch", "capture", "attract", "contract"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "To contract a disease means to become infected with it.",
+      ),
+      QuizQuestion(
+        question:
+            "245. ………… failed the examination, Doris was dismissed from the school.        (BECE 2014 Q4)",
+        options: ["Having", "In having", "On having", "To having"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Having failed” correctly shows that failing the examination happened before the dismissal.",
+      ),
+      QuizQuestion(
+        question:
+            "246. The stories her children told her made her …………        (BECE 2019 Q12)",
+        options: ["to laugh", "laughing", "laughed", "laugh"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After “made”, the bare infinitive is required: “made her laugh”.",
+      ),
+      QuizQuestion(
+        question:
+            "247. We always look ………… our parents for help.        (BECE 1999 Q27)",
+        options: ["about", "up to", "at", "up for"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "“Look up to” means to respect and depend on someone regarded as a guide or example.",
+      ),
+      QuizQuestion(
+        question:
+            "248. His writing is so bad that I can't make it …………        (BECE 1993 Q32)",
+        options: ["on", "out", "down", "in"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To make something out means to understand, read or identify it with difficulty.",
+      ),
+      QuizQuestion(
+        question:
+            "249. I am afraid I cannot make you …………        (BECE 2011 Q9)",
+        options: ["in", "on", "out", "up"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To make someone out means to identify or understand the person clearly.",
+      ),
+      QuizQuestion(
+        question:
+            "250. The factory had to ………… many workers because of the fall in production.        (BECE 2000 Q27)",
+        options: ["lay down", "put off", "put away", "lay off"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To lay off workers means to stop employing them, usually because there is insufficient work.",
+      ),
+      QuizQuestion(
+        question:
+            "251. Our ancestors ………… to us a lot of knowledge about our culture.        (BECE 1993 Q26)",
+        options: ["handed in", "passed out", "passed through", "handed down"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To hand knowledge down means to pass it from one generation to another.",
+      ),
+      QuizQuestion(
+        question:
+            "252. The head teacher advised the students to ………… if they wanted to do well in their examination.        (BECE 1990 Q30)",
+        options: ["sit back", "sit by", "sit on", "sit up"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To sit up means to become serious, alert and hardworking.",
+      ),
+      QuizQuestion(
+        question:
+            "253. The teacher advised us to go over our work before submitting it. This means the teacher asked us to ………… our work.        (BECE 2008 Q17)",
+        options: ["rewrite", "remember", "repeat", "review"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "To go over work means to review or examine it carefully.",
+      ),
+      QuizQuestion(
+        question:
+            "254. The government has set ………… a committee on education.        (BECE 1993 Q27)",
+        options: ["apart", "up", "in", "by"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "To set up a committee means to establish or organise it.",
+      ),
+      QuizQuestion(
+        question:
+            "255. My uncle will go on a short course before he ………… his new job.        (BECE 1990 Q32)",
+        options: ["takes to", "takes up", "takes out", "takes in"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To take up a job means to begin or accept the employment.",
+      ),
+      QuizQuestion(
+        question:
+            "256. Can you make ………… Issaka in the crowd?        (BECE 1998 Q28)",
+        options: ["of", "up", "out", "away"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To make someone out means to recognise or identify the person, especially from a distance.",
+      ),
+      QuizQuestion(
+        question:
+            "257. No one can be expected to ………… such bad behaviour.        (BECE 1990 Q27)",
+        options: [
+          "put up with",
+          "put in for",
+          "put across to",
+          "put down against"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "To put up with something means to tolerate or endure it.",
+      ),
+      QuizQuestion(
+        question:
+            "258. The referee's partial decision sparked ………… the fighting.        (BECE 1995 Q35)",
+        options: ["off", "in out", "through", "ahead"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To spark off something means to cause it to begin suddenly.",
+      ),
+      QuizQuestion(
+        question:
+            "259. It would be unwise to ………… the chance of making extra money.        (BECE 1991 Q30)",
+        options: ["throw away", "throw in", "throw over", "throw by"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To throw away a chance means to waste or fail to use the opportunity.",
+      ),
+      QuizQuestion(
+        question:
+            "260. We saw the plane ………… for Kumasi.        (BECE 2012 Q12)",
+        options: ["take on", "take of", "take off", "take out"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A plane takes off when it leaves the ground and begins to fly.",
+      ),
+      QuizQuestion(
+        question:
+            "261. Abibatu takes ………… her mother in many ways.        (BECE 2015 Q2)",
+        options: ["by", "on", "up", "after"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To take after someone means to resemble that person in appearance or behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "262. The patient went ………… a lot of body exercises.        (BECE 1995 Q35)",
+        options: ["in out", "out", "through", "ahead"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To go through exercises means to perform or complete them.",
+      ),
+      QuizQuestion(
+        question:
+            "263. That pair of trousers is worn …………        (BECE 2013 Q7)",
+        options: ["in", "out", "into", "on"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Something that is worn out has become damaged or unusable through long use.",
+      ),
+      QuizQuestion(
+        question:
+            "264. Aba took ………… her mother in many ways.        (BECE 2019 Q7)",
+        options: ["after", "up", "on", "by"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "To take after a parent means to resemble the parent.",
+      ),
+      QuizQuestion(
+        question:
+            "265. ………… these words in your dictionary.        (BECE 1991 Q32)",
+        options: ["Look around", "Look on", "Look up", "Look about"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To look up a word means to search for its meaning in a dictionary.",
+      ),
+      QuizQuestion(
+        question:
+            "266. We always ………… the lights before going to bed.        (BECE 2025 Q6)",
+        options: ["off", "put off", "put out", "out"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To put out the lights means to switch them off.",
+      ),
+      QuizQuestion(
+        question:
+            "267. Finish the work quickly and ………… your exercise books.        (BECE 1999 Q28)",
+        options: ["hand up", "hand out", "hand down", "hand over"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To hand over the exercise books means to submit or give them to the teacher.",
+      ),
+      QuizQuestion(
+        question:
+            "268. In wrestling it is not wise to take ………… someone twice your size.        (BECE 1996 Q40)",
+        options: ["off", "in", "on", "over"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To take someone on means to challenge or compete against the person.",
+      ),
+      QuizQuestion(
+        question: "269. John has given ………… smoking.        (BECE 2002B Q29)",
+        options: ["in", "off", "up", "out"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To give up smoking means to stop the habit.",
+      ),
+      QuizQuestion(
+        question:
+            "270. The heavy rains have ………… early this year.        (BECE 1992 Q40)",
+        options: ["set in", "set out", "set up", "set on"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a season or weather condition sets in, it begins and is likely to continue.",
+      ),
+      QuizQuestion(
+        question:
+            "271. The football match was put ………… until next week.        (BECE 1992 Q34)",
+        options: ["in", "out", "off", "away"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To put an event off means to postpone it to a later date.",
+      ),
+      QuizQuestion(
+        question:
+            "272. Koku was sad when he lost his mother but he will soon ………… it.        (BECE 1991 Q31)",
+        options: ["get along", "get on", "get by", "get over"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To “get over” a sad experience means to recover from it emotionally.",
+      ),
+      QuizQuestion(
+        question:
+            "273. ………… Joe scored the first goal, he was injured in the process.        (BECE 2010 Q9)",
+        options: ["But", "Nevertheless", "Although", "Furthermore"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Although” introduces a contrast between scoring the goal and being injured.",
+      ),
+      QuizQuestion(
+        question:
+            "274. The students set ………… early on their journey.        (BECE 2015 Q17)",
+        options: ["after", "up", "out", "about"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To “set out” means to begin a journey.",
+      ),
+      QuizQuestion(
+        question:
+            "275. Children usually take ………… their parents in appearance.        (BECE 1995 Q35)",
+        options: ["off", "after", "up", "over"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To “take after” someone means to resemble that person in appearance or behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "276. At these words, the students ………… laughter.        (BECE 1990 Q31)",
+        options: ["burst with", "burst into", "burst for", "burst in"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The correct expression is “burst into laughter”.",
+      ),
+      QuizQuestion(
+        question:
+            "277. My father wanted to find out how Abu was getting ………… at school.        (BECE 2009 Q26)",
+        options: ["on", "down", "back", "up"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To “get on” means to progress or perform in a particular situation.",
+      ),
+      QuizQuestion(
+        question: "278. Atia has given ………… smoking.        (BECE 2007 Q40)",
+        options: ["off", "out", "up", "in"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To “give up” smoking means to stop the habit.",
+      ),
+      QuizQuestion(
+        question:
+            "279. We told the stranger we would put him ………… if he wanted.        (BECE 1996 Q39)",
+        options: ["down", "up", "on", "over"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To “put someone up” means to provide the person with accommodation.",
+      ),
+      QuizQuestion(
+        question: "280. The plane takes ………… at noon.        (BECE 2011 Q10)",
+        options: ["from", "of", "off", "to"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A plane “takes off” when it leaves the ground and begins to fly.",
+      ),
+      QuizQuestion(
+        question:
+            "281. When Daddy arrived, Mummy ………… finished cooking.        (BECE 2007 Q32)",
+        options: ["had", "has", "have", "having"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect “had finished” shows that the cooking was completed before Daddy arrived.",
+      ),
+      QuizQuestion(
+        question:
+            "282. We had dinner at a Chinese restaurant where I ………… fried chicken.        (BECE 2010 Q2)",
+        options: ["am enjoying", "will enjoy", "enjoyed", "would enjoy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “enjoyed” agrees with the completed past action “had dinner”.",
+      ),
+      QuizQuestion(
+        question:
+            "283. Ghana is over forty years, therefore she ………… of age.        (BECE 2002A Q36)",
+        options: ["came", "come", "has come", "is coming"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect expression “has come of age” means Ghana has reached maturity.",
+      ),
+      QuizQuestion(
+        question:
+            "284. I will wash my clothes when I …………        (BECE 1997 Q33)",
+        options: ["went", "have gone", "could go", "go"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In a future time clause beginning with “when”, the simple present “go” is used.",
+      ),
+      QuizQuestion(
+        question:
+            "285. Our dog ………… barking since the stranger entered the house.        (BECE 2025 Q5)",
+        options: ["has been", "is", "was", "would be"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Has been barking” describes an action that began in the past and has continued until now.",
+      ),
+      QuizQuestion(
+        question:
+            "286. Ibrahim visited the zoo after he ………… his breakfast.        (BECE 2002B Q40)",
+        options: ["had", "have had", "have", "had had"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The past perfect “had had” shows that he ate breakfast before visiting the zoo.",
+      ),
+      QuizQuestion(
+        question:
+            "287. John has gone to bed early because he ………… a headache.        (BECE 2002B Q32)",
+        options: ["has", "has been having", "will be having", "is having"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Has a headache” correctly describes John's present condition.",
+      ),
+      QuizQuestion(
+        question:
+            "288. The students can go home when they ………… the work.        (BECE 2004 Q26)",
+        options: ["had finished", "finished", "finish", "will finish"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The simple present “finish” is used in a future time clause introduced by “when”.",
+      ),
+      QuizQuestion(
+        question:
+            "289. Seth has bought and ………… a loaf of bread.        (BECE 2020 Q1)",
+        options: ["ate", "eats", "eaten", "eating"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The auxiliary “has” requires the past participle “eaten”.",
+      ),
+      QuizQuestion(
+        question:
+            "290. The building he bought ………… millions of cedis.        (BECE 2014 Q5)",
+        options: ["cost", "costs", "costed", "costing"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The past tense of “cost” remains “cost”.",
+      ),
+      QuizQuestion(
+        question:
+            "291. The tiger ………… in wait for its prey.        (BECE 2020 Q3)",
+        options: ["lie", "lain", "laid", "lay"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Lay” is the simple past form of “lie”, meaning to rest in a horizontal position.",
+      ),
+      QuizQuestion(
+        question:
+            "292. I hope the team ………… perform better next year.        (BECE 2008 Q40)",
+        options: ["would", "will", "should", "shall"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Will” correctly expresses the hoped-for future performance of the team.",
+      ),
+      QuizQuestion(
+        question:
+            "293. Kwesi learnt harder so he ………… the examination.        (BECE 1995 Q37)",
+        options: ["passed", "would have passed", "can pass", "passes"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “passed” matches the completed past action “learnt harder”.",
+      ),
+      QuizQuestion(
+        question:
+            "294. The Oseis are our neighbours; they ………… near us for twenty years now.        (BECE 1999 Q39)",
+        options: ["stay", "were stayed", "stayed", "have stayed"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect “have stayed” describes a situation that began in the past and continues now.",
+      ),
+      QuizQuestion(
+        question:
+            "295. He came in while I ………… my dinner.        (BECE 2006 Q37)",
+        options: ["am having", "had", "have", "was having"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous “was having” describes an ongoing action interrupted by his arrival.",
+      ),
+      QuizQuestion(
+        question:
+            "296. Mrs. Mensah ………… in Saltpond since 1970.        (BECE 2009 Q32)",
+        options: ["was living", "has been living", "has lived", "is living"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Has been living” describes an action that began in 1970 and has continued to the present.",
+      ),
+      QuizQuestion(
+        question:
+            "297. Anytime Ata went to school she ………… into trouble.        (BECE 2005 Q33)",
+        options: ["got", "gets", "is getting", "has got"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “got” agrees with the past-tense clause “went to school”.",
+      ),
+      QuizQuestion(
+        question:
+            "298. By this time next year I ………… school.        (BECE 2014 Q9)",
+        options: ["will leave", "would leave", "might leave", "will have left"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The future perfect “will have left” describes an action that will be completed before a specified future time.",
+      ),
+      QuizQuestion(
+        question:
+            "299. Kwabena often ………… his grandfather after school.        (BECE 1997 Q36)",
+        options: ["had visited", "visited", "has visited", "visit"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “visited” correctly describes the repeated past activity.",
+      ),
+      QuizQuestion(
+        question:
+            "300. ‘Has Sister Edith ………… her glass of water this evening?’        (BECE 2003 Q32)",
+        options: ["drunk", "drink", "drinks", "drank"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The auxiliary “has” requires the past participle “drunk”.",
+      ),
+      QuizQuestion(
+        question:
+            "301. I am free to sleep now, I ………… my work.        (BECE 1996 Q27)",
+        options: ["completed", "do complete", "have completed", "complete"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect “have completed” shows that the work has just been finished.",
+      ),
+      QuizQuestion(
+        question:
+            "302. When the lights went off I ………… my supper.        (BECE 2012 Q10)",
+        options: ["have eaten", "have been eating", "am eating", "was eating"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous “was eating” describes the action in progress when the lights went off.",
+      ),
+      QuizQuestion(
+        question:
+            "303. The earlier we ………… the work, the better.        (BECE 1998 Q29)",
+        options: ["have done", "do", "did", "had done"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The correlative structure takes the simple present: “The earlier we do the work, the better.”",
+      ),
+      QuizQuestion(
+        question:
+            "304. Since our last meeting, I ………… ill.        (BECE 2014 Q16)",
+        options: ["am", "was", "had been", "have been"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Since” refers to a period beginning in the past and continuing to the present, so the present perfect “have been” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "305. By September 2007, I ………… school for nine years.        (BECE 2011 Q13)",
+        options: [
+          "had attended",
+          "have attended",
+          "have been attending",
+          "shall have attended"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The past perfect “had attended” describes an action completed over a period before a specified time in the past.",
+      ),
+      QuizQuestion(
+        question:
+            "306. Was it not your sister who ………… this hole yesterday?        (BECE 1998 Q39)",
+        options: ["dig", "dug", "has dug", "digs"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Yesterday” indicates a completed past action, so the simple past form “dug” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "307. By the end of the day I ………… the house.        (BECE 2015 Q10)",
+        options: [
+          "shall paint",
+          "shall be painting",
+          "shall have painted",
+          "shall have been painting"
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The future perfect “shall have painted” shows that the painting will be completed by the stated future time.",
+      ),
+      QuizQuestion(
+        question:
+            "308. Our teacher was late for school because he ………… a flat tyre.        (BECE 2010 Q11)",
+        options: ["had", "will have", "is having", "has"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “had” correctly explains the reason the teacher was late.",
+      ),
+      QuizQuestion(
+        question:
+            "309. The plumber turned the pipe so hard that it …………        (BECE 2001 Q39)",
+        options: ["will break", "breaks", "had broken", "broke"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The completed past action “turned” is followed by the simple past result “broke”.",
+      ),
+      QuizQuestion(
+        question:
+            "310. When we got there, the buses ………… left.        (BECE 2017 Q3)",
+        options: ["are", "had", "have", "were"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect “had left” shows that the buses departed before the speakers arrived.",
+      ),
+      QuizQuestion(
+        question:
+            "311. I can go to bed now because I ………… my assignment.        (BECE 1990 Q26)",
+        options: ["am finishing", "will finished", "finished", "have finished"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect “have finished” shows that the assignment has just been completed.",
+      ),
+      QuizQuestion(
+        question:
+            "312. Before he entered the classroom, we ………… the chalkboard.        (BECE 2016 Q9)",
+        options: ["cleaned", "have cleaned", "had cleaned", "are cleaning"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect “had cleaned” shows that the chalkboard was cleaned before he entered.",
+      ),
+      QuizQuestion(
+        question:
+            "313. Kwesi went to school after he ………… his teeth.        (BECE 2004 Q29)",
+        options: ["had brushed", "has brushed", "brushing", "brushed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect “had brushed” shows that brushing his teeth happened before he went to school.",
+      ),
+      QuizQuestion(
+        question:
+            "314. We ………… to play a return match last Friday.        (BECE 2000 Q28)",
+        options: ["have", "were", "ought", "are"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Were to play” expresses an arrangement or plan made for a time in the past.",
+      ),
+      QuizQuestion(
+        question:
+            "315. I ………… him; then changed my mind.        (BECE 2015 Q9)",
+        options: ["had told", "have told", "am telling", "was going to tell"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "“Was going to tell” describes an intended past action that was not carried out because the speaker changed their mind.",
+      ),
+      QuizQuestion(
+        question: "316. He said that he ………… come.        (BECE 2007 Q31)",
+        options: ["will", "would", "has", "have"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In reported speech, “will” normally changes to “would” after the past reporting verb “said”.",
+      ),
+      QuizQuestion(
+        question:
+            "317. I told mum I ………… take my breakfast later.        (BECE 2003 Q36)",
+        options: ["will", "can", "would", "shall"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In reported speech after “told”, the future auxiliary “will” changes to “would”.",
+      ),
+      QuizQuestion(
+        question:
+            "318. When the lights went off, I ………… my supper.        (BECE 2000 Q26)",
+        options: ["have eaten", "am eating", "have been eating", "was eating"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous “was eating” describes the action that was in progress when the lights went off.",
+      ),
+      QuizQuestion(
+        question:
+            "319. The rains had ………… stopped when we set off.        (BECE 1997 Q40)",
+        options: ["yet", "either", "already", "now"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Already” is correctly used with the past perfect to show that the rain had stopped before they set off.",
+      ),
+      QuizQuestion(
+        question:
+            "320. The antelope ………… when the hunter fired.        (BECE 1996 Q33)",
+        options: ["is eating", "is eaten", "was ate", "was eating"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous form “was eating” describes the action that was in progress when the hunter fired.",
+      ),
+      QuizQuestion(
+        question:
+            "321. She ………… when her father called her.        (BECE 1990 Q33)",
+        options: ["swept", "is sweeping", "has swept", "was speaking"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous “was speaking” describes an action that was taking place when her father called her.",
+      ),
+      QuizQuestion(
+        question:
+            "322. What ………… Kwadwo and Adwoa doing when you left the shop?        (BECE 2022 Q14)",
+        options: ["are", "were", "was", "is"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The plural subject “Kwadwo and Adwoa” takes “were” in the past continuous question.",
+      ),
+      QuizQuestion(
+        question:
+            "323. Life Skills ………… my favourite subject when I was in school.        (BECE 2003 Q30)",
+        options: ["has been", "were", "was", "have been"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Life Skills” is treated as the name of one school subject, so the singular verb “was” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "324. After Roderick ………… the dress, he looked round for a pair of shoes that would match it.        (BECE 1996 Q28)",
+        options: ["has bought", "is buying", "had bought", "was buying"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect “had bought” shows that he bought the dress before he looked for matching shoes.",
+      ),
+      QuizQuestion(
+        question:
+            "325. I saw him while he ………… the cloth.        (BECE 1996 Q29)",
+        options: [
+          "is folding",
+          "has been folding",
+          "was folding",
+          "had been folding"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The past continuous “was folding” describes the action that was in progress when the speaker saw him.",
+      ),
+      QuizQuestion(
+        question:
+            "326. When the plane arrived Kofi ………… nowhere to be found.        (BECE 1992 Q36)",
+        options: ["will be", "had been", "was", "would have been"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The simple past “was” agrees with the completed past event “the plane arrived”.",
+      ),
+      QuizQuestion(
+        question:
+            "327. I promised my parents that I ………… study very hard.        (BECE 2008 Q26)",
+        options: ["would", "should", "will", "can"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In reported speech after the past verb “promised”, “will” changes to “would”.",
+      ),
+      QuizQuestion(
+        question:
+            "328. I suggest that they ………… the piano instead.        (BECE 2001 Q27)",
+        options: ["are playing", "play", "playing", "will play"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After “suggest that”, the base form of the verb is used: “they play”.",
+      ),
+      QuizQuestion(
+        question:
+            "329. Aba insisted that Adjoa ………… to the party.        (BECE 2001 Q33)",
+        options: ["to have come", "has come", "to come", "should come"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Insisted that” can be followed by “should” and the base verb: “should come”.",
+      ),
+      QuizQuestion(
+        question:
+            "330. I wish I ………… my friend next week.        (BECE 2019 Q6)",
+        options: ["can visit", "am visiting", "shall visit", "could"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "After “I wish”, “could” is used to express a desired possibility, with “visit” understood from the sentence.",
+      ),
+      QuizQuestion(
+        question:
+            "331. I wish Ato ………… come to see us tomorrow.        (BECE 2013 Q2)",
+        options: ["will", "is to", "would", "may"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“I wish Ato would come” expresses the speaker’s desire for Ato to come in the future.",
+      ),
+      QuizQuestion(
+        question:
+            "332. It's high time we ………… the items out.        (BECE 2013 Q3)",
+        options: ["move", "are moving", "moved", "were moving"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is high time” is followed by the simple past: “we moved”.",
+      ),
+      QuizQuestion(
+        question:
+            "333. Please, I would rather you ………… not disturb me.        (BECE 2013 Q6)",
+        options: ["did", "will", "may", "do"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Would rather” followed by another subject takes the simple past: “I would rather you did not disturb me”.",
+      ),
+      QuizQuestion(
+        question:
+            "334. I can't hear him; I wish he ………… louder.        (BECE 1990 Q28)",
+        options: ["will speak", "is speaking", "would speak", "had spoken"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“I wish he would speak louder” expresses a desire for him to change his present behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "335. It's about time we ………… studying hard.        (BECE 2020 Q4)",
+        options: ["start", "should start", "started", "are starting"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is about time” is followed by the simple past: “we started”.",
+      ),
+      QuizQuestion(
+        question: "336. It is high time Adzo ………… home.        (BECE 2018 Q8)",
+        options: ["came", "comes", "has come", "will come"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is high time” takes the simple past form “came”.",
+      ),
+    ],
+  ),
+
+  "English JHS3 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "The children rushed out of school that afternoon innocently singing the song they had just learned:\n\n"
+            "Rain, rain, go away. Go and come another day. Little children want to play. Rain, rain, go away.\n\n"
+            "But they stopped abruptly when they looked up and saw dark clouds racing across the sky. These were signs of rain and children were beside themselves with joy. Then they burst into yet another song.\n\n"
+            "The rains will soon come. The sky will be bright. And the guns will boom.\n\n"
+            "As they sang and danced, they were soon joined by their parents in their happiness. It was six months since it had last rained and all that time the farmers prayed for the rain that would not come. The result was famine in the country for the land became so dry that new crops could not be sown and cassava could not be uprooted. The streams and the wells had also dried up and the people could find very little water for themselves and their livestock. Was it then strange that adults danced and sang like children in the hope that their troubles would soon be over?\n\n"
+            "They were sure that the fetish priest’s sacrifices would not be in vain. But they woke up the next morning to find that the land was still dry; there was not a drop of rain water anywhere.\n\n"
+            "Then they became angry and ran after the fetish priest. But he was gone before they could lynch him.\n\n"
+            "154. The children changed their song because …        (BECE 2003 Q1)",
+        options: [
+          "the guns would be fired.",
+          "it was going to rain.",
+          "their parents had seen the fetish priest.",
+          "they did not like their teacher’s song."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The children saw dark clouds, which were signs that rain was about to fall, so they changed to a song welcoming the rain.",
+      ),
+      QuizQuestion(
+        question:
+            "155. The parents also sang and danced because …        (BECE 2003 Q2)",
+        options: [
+          "they wanted to be happy.",
+          "the children were returning from school.",
+          "it started to rain.",
+          "they believed it would rain."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The parents joined the celebration because they believed that the dark clouds meant the long-awaited rain would finally come.",
+      ),
+      QuizQuestion(
+        question: "156. Which of the following is true?        (BECE 2003 Q3)",
+        options: [
+          "The people beat the fetish priest.",
+          "It had rained for six months.",
+          "There was little water to drink.",
+          "The children did not want the rain."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that the streams and wells had dried up, leaving the people with very little water.",
+      ),
+      QuizQuestion(
+        question: "157. Abruptly in the passage means …        (BECE 2003 Q4)",
+        options: ["soon.", "totally.", "slowly.", "suddenly."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Abruptly means suddenly or unexpectedly.",
+      ),
+      QuizQuestion(
+        question:
+            "158. The people wanted to lynch the fetish priest because …        (BECE 2003 Q5)",
+        options: [
+          "there was famine.",
+          "the streams had dried up.",
+          "they did not perform the sacrifices.",
+          "he had deceived them."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The people believed the priest’s sacrifices would bring rain, but no rain came, so they felt that he had deceived them.",
+      ),
+      QuizQuestion(
+        question:
+            "159. From the passage we learnt that …        (BECE 2003 Q6)",
+        options: [
+          "the children were innocent.",
+          "man cannot fully rely on nature.",
+          "adults play like children.",
+          "it had not rained for several days."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Although the dark clouds appeared to promise rain, no rain fell, showing that people cannot always depend on signs in nature.",
+      ),
+      QuizQuestion(
+        question:
+            "Teacher Amu never lost the opportunity to give pep-talks to his students. “Variety is the spice of life,” he often began. Then he would tell them how life has opposites, like good and bad. He would talk about the variety of birds, the different kinds of fish and species of trees. His students could always tell when Teacher Amu’s sermons were about to end. He would raise his voice and look up as he made his point: “God made them all and He said, ‘It is good!’”\n\n"
+            "These words had a lasting effect on his students. When the class was over, they would go on reeling with laughter as they recited these words. Soon, it was not surprising when they began to call Teacher Amu, “God made them all” whenever his back was turned.\n\n"
+            "But one of them, Kofi Abre, did not consider Teacher Amu’s pep-talk funny at all. He was not amused that his classmates joked with his teacher’s words. Teacher Amu has said that the world was made up of different things, different people and different habits. So why did they bother when he, Abre, acted differently?\n\n"
+            "The other day, he shouted down a schoolmate who called him lazy. He almost bloodied a friend’s nose when this friend scolded him for not doing his homework. It was an act of indiscipline. Kofi Abre shook his head. It was his friend who offended him, yet teacher would punish him for being violent and different.\n\n"
+            "160. The expression, Variety is the spice of life means life …        (BECE 2003 Q7)",
+        options: [
+          "has its ups and downs.",
+          "is like a tasty food.",
+          "should be taken seriously.",
+          "is full of different and interesting things."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression means that differences and variety make life more interesting.",
+      ),
+      QuizQuestion(
+        question:
+            "161. The students called Teacher Amu ‘God made them all’ because …        (BECE 2003 Q8)",
+        options: [
+          "it was his favourite saying.",
+          "he always looked up.",
+          "his pep-talks were funny.",
+          "he liked preaching."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Teacher Amu repeatedly ended his talks with the words “God made them all,” so the students used the expression as his nickname.",
+      ),
+      QuizQuestion(
+        question:
+            "162. Kofi Abre did not like the jokes because he …        (BECE 2003 Q9)",
+        options: [
+          "hated his classmates.",
+          "was afraid of his teacher.",
+          "loved his teacher’s words.",
+          "was lazy."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Kofi Abre was displeased with his classmates for turning the teacher’s words into jokes and using them as a nickname.",
+      ),
+      QuizQuestion(
+        question:
+            "163. The word scolded in the passage means …        (BECE 2003 Q10)",
+        options: ["reminded.", "annoyed.", "rebuked.", "questioned."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Scolded means rebuked or spoke angrily to someone because of wrongdoing.",
+      ),
+      QuizQuestion(
+        question:
+            "164. Teacher Amu punished Kofi Abre because he …        (BECE 2003 Q11)",
+        options: [
+          "did not do his homework.",
+          "did not behave well.",
+          "did not like pep-talks.",
+          "shook his head."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Kofi behaved violently and nearly injured another student, so he was punished for misconduct.",
+      ),
+      QuizQuestion(
+        question:
+            "Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise’s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.\n\n"
+            "He would go to the next village when he heard there was food to steal. He would still some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.\n\n"
+            "How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud ‘kpom! kpom!’ noise.\n\n"
+            "When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.\n\n"
+            "Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much food as he could carry and returned home.\n\n"
+            "165. There was famine means that …        (BECE 2004 Q1)",
+        options: [
+          "all the animals died.",
+          "food was scarce.",
+          "there were no farmers.",
+          "food was not sold."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Famine is a period when food is extremely scarce.",
+      ),
+      QuizQuestion(
+        question:
+            "166. Which of the following statements is true?        (BECE 2004 Q2)",
+        options: [
+          "Tortoise had not eaten for three months.",
+          "The villagers gave food to tortoise.",
+          "Tortoise got food from his own farm.",
+          "Tortoise stole the villagers’ food."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tortoise tricked the villagers into leaving their homes and then stole their food.",
+      ),
+      QuizQuestion(
+        question:
+            "167. Tortoise arrived at the nearby village …        (BECE 2004 Q3)",
+        options: [
+          "at sunset.",
+          "in the night.",
+          "at dawn.",
+          "in the afternoon."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that Tortoise arrived after sunset, which means it was already night.",
+      ),
+      QuizQuestion(
+        question:
+            "168. The villagers went to the playground because …        (BECE 2004 Q4)",
+        options: [
+          "they wanted to find out who made the noise.",
+          "they wanted to hear an announcement.",
+          "tortoise had fallen.",
+          "the drum had fallen."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The drum was normally used to summon villagers for important announcements, so they believed they had been called.",
+      ),
+      QuizQuestion(
+        question:
+            "169. The villagers did not see Tortoise at the playground because he …        (BECE 2004 Q5)",
+        options: [
+          "ate fast.",
+          "hid in the drum.",
+          "stole their food.",
+          "hid in the bush."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tortoise quickly disappeared into a nearby bush before the villagers reached the playground.",
+      ),
+      QuizQuestion(
+        question:
+            "In the centre of the town, the town clock chimed two o’clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal Sergeant Abora and Abaidoo to wake up from their slumber.\n\n"
+            "They had patrolled the town for hours and were heavily with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeants were chattering. He was about to speak when he heard a faint sound down the road which led to the town.\n\n"
+            "Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of the tree.\n\n"
+            "Then Constable Abaidoo quickly flashed his torchlight and bawled out, ‘Stop or I shoot!’ Abora’s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.\n\n"
+            "‘Who are you? Where are you from? What’s in your bag? Speak or I shoot! We’ve got you at last!’ Abora exclaimed.\n\n"
+            "Trembling with fear and stammering for words, the traveller gave his name as Nsiah. He was returning from Fosa with a bag of plantain and cassava.\n\n"
+            "But his cutlass and bag, both dripping with blood, gave him away. After a search, the police found a human head and triumphantly marched him to the police station.\n\n"
+            "170. Abora’s teeth chattered because …        (BECE 2004 Q6)",
+        options: [
+          "he had a toothache.",
+          "the night was cold.",
+          "he wore a clock.",
+          "the owl hooted."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "His teeth chattered because the night was extremely cold.",
+      ),
+      QuizQuestion(
+        question:
+            "171. From the beginning the police knew where the traveller was when …        (BECE 2004 Q7)",
+        options: [
+          "he made a noise.",
+          "the blood dripped.",
+          "he stammered.",
+          "the torchlight flashed."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The torchlight revealed the traveller’s exact position when he reached the place where the police were hiding.",
+      ),
+      QuizQuestion(
+        question:
+            "172. Sergeant Abora and Corporal Abaidoo hid themselves in order to …        (BECE 2004 Q8)",
+        options: [
+          "keep warm.",
+          "avoid being seen.",
+          "load their guns.",
+          "have some sleep."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "They took cover behind trees so that the approaching traveller would not see them.",
+      ),
+      QuizQuestion(
+        question:
+            "173. The police arrested the late traveller …        (BECE 2004 Q9)",
+        options: [
+          "behind the trees.",
+          "near the police station.",
+          "in the centre of the town.",
+          "near the town."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The traveller was intercepted on the road leading to the town, near its outskirts.",
+      ),
+      QuizQuestion(
+        question:
+            "174. ‘……… gave him away’ in the passage means he was …        (BECE 2004 Q10)",
+        options: ["frightened.", "warned.", "exposed.", "disgraced."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The blood on his cutlass and bag exposed him and revealed that he had committed a crime.",
+      ),
+      QuizQuestion(
+        question:
+            "They were approaching the school building, holding hands as they walked to the school. Today, Ayele is not talking, though were friends who attend the same school and are in the same class. Esinam expects her to say something about her new bag. ‘So is that how you are? You are not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.’ Ayele’s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend’s mood, she breaks into a song about her parents’ many acts of love. ‘Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!’\n\n"
+            "Ayele is strapping on her back an old schoolbag once used by her elder sister. The brown colour had faded because she washes it too many times. When she breaks her silence, she speaks solemnly and without regret. ‘I’ve grown used to the old dresses, bags and shoes mum buys. She says she can’t do more. I trust her and love her!’ There is a tremble in her voice as though she is about to cry. But her eyes brighten gradually as she speaks on. ‘I’m in J.S.S. 3 like you, and we are both doing well. It’s great to look into the future with hope.’ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.\n\n"
+            "175. Why is Ayele not talking today? She …        (BECE 2005 Q1)",
+        options: [
+          "does not like Esinam’s new bag.",
+          "wants to get to school early.",
+          "is moody.",
+          "Esinam is making her angry."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Ayele is quiet and emotionally troubled because she is comparing her old belongings with Esinam’s new schoolbag.",
+      ),
+      QuizQuestion(
+        question:
+            "176. For Esinam, it’s great to be young means …        (BECE 2005 Q2)",
+        options: [
+          "having everything one wants.",
+          "being able to go to school.",
+          "having a mum and dad.",
+          "being cheerful."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Esinam associates being young with receiving dresses, shoes and anything else she requests from her parents.",
+      ),
+      QuizQuestion(
+        question:
+            "177. We learn from the passage that Ayele’s parents are …        (BECE 2005 Q3)",
+        options: [
+          "sort of poor.",
+          "rich but miserly.",
+          "hardworking.",
+          "honest and cheerful."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Ayele’s mother says she cannot afford to do more, and Ayele uses old clothes and bags, suggesting that the family has limited means.",
+      ),
+      QuizQuestion(
+        question:
+            "178. In the passage, Ayele comes across as one who is …        (BECE 2005 Q4)",
+        options: ["proud.", "hard to please.", "hardworking.", "thoughtful."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Ayele appreciates her mother’s efforts and focuses hopefully on education and the future, showing that she is thoughtful.",
+      ),
+      QuizQuestion(
+        question: "179. The word tremble means …        (BECE 2005 Q5)",
+        options: ["disturbance.", "quiver.", "drop.", "loudness."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A tremble is a slight shake or quiver caused by emotion, fear or weakness.",
+      ),
+      QuizQuestion(
+        question:
+            "There are two questions that people often ask about laughter. These are: what makes people laugh and what laughter does to them.\n\n"
+            "When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in another person?\n\n"
+            "The explanation is quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won’t you? These things are funny and queer.\n\n"
+            "Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter, you invite good company. Indeed, in most cities, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is used as a way of ensuring discipline.\n\n"
+            "180. According to the passage, people laugh when they …        (BECE 2005 Q6)",
+        options: [
+          "wear new clothes.",
+          "see something funny.",
+          "are at a party.",
+          "are going to school."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage explains that people laugh when they see something strange, odd or funny.",
+      ),
+      QuizQuestion(
+        question:
+            "181. From the passage we learn that laughter makes people look …        (BECE 2005 Q7)",
+        options: ["strange.", "healthy.", "queer.", "ugly."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that laughter is good for the body, health and lungs.",
+      ),
+      QuizQuestion(
+        question: "182. People who laugh a lot …        (BECE 2005 Q8)",
+        options: [
+          "look strange.",
+          "blame others.",
+          "hurt their bodies.",
+          "make friends easily."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The passage says that people who enjoy laughter invite good company, meaning they make friends easily.",
+      ),
+      QuizQuestion(
+        question: "183. Societies can use laughter to …        (BECE 2005 Q9)",
+        options: [
+          "create fun.",
+          "annoy people.",
+          "correct behaviour.",
+          "praise people."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Laughter may be used to keep people who behave wrongly in check and to encourage discipline.",
+      ),
+      QuizQuestion(
+        question:
+            "184. The word awkwardly in the passage means …        (BECE 2005 Q10)",
+        options: ["foolishly.", "happily.", "respectably.", "eagerly."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Awkwardly means in a clumsy, odd or foolish manner.",
+      ),
+      QuizQuestion(
+        question:
+            "“Ama, Amma, get up and sweep the compound!” Maa Tee shouted. However, Amma had decided she was going to work that day.\n\n"
+            "“What do I do to escape these chores?” she asked. “I’ll pretend to be ill, then Mama can’t insist I do any work. This is a brilliant idea. I’m not so daft after all,” she said.\n\n"
+            "When Amma told Maa Tee about her headache, Maa Tee suspended everything she was doing and ordered that she get ready for the hospital. Poor Amma, her plan had backfired.\n\n"
+            "On the way to the hospital Amma prayed that the doctor would be absent, but she was out of luck that day. The doctor examined Amma and found her as fit as a fiddle. He then guessed that Amma had feigned the illness because she had wanted to dodge her usual Saturday morning chores.\n\n"
+            "“Sorry Maa Tee, Amma is very ill. Take her to the injection room for three injections. They will…” Before the doctor could finish speaking, Amma rushed out of the consulting room with lightning speed and did not stop anywhere till she reached home. The doctor looked at Maa Tee and burst out laughing as he advised Maa Tee to go home. By the time Maa Tee got home Amma had finished all the household chores.\n\n"
+            "185. Maa Tee suspended everything she was doing because …        (BECE 2006 Q1)",
+        options: [
+          "she did not believe what Amma said.",
+          "Amma had annoyed her.",
+          "she wanted to take Amma to the hospital.",
+          "Amma wanted to go to the hospital."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Maa Tee stopped what she was doing because she believed Amma was ill and wanted to take her to the hospital.",
+      ),
+      QuizQuestion(
+        question:
+            "186. The word daft in the passage means …        (BECE 2006 Q2)",
+        options: ["disobedient.", "good.", "strange.", "unintelligent."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Daft means foolish or unintelligent.",
+      ),
+      QuizQuestion(
+        question: "187. According to the passage Amma …        (BECE 2006 Q3)",
+        options: [
+          "was very ill.",
+          "enjoyed sweeping.",
+          "was ordered to go and sweep.",
+          "was really not ill."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Amma only pretended to be ill so that she could avoid doing her household chores.",
+      ),
+      QuizQuestion(
+        question:
+            "188. From the passage it can be said that Maa Tee was a ………… mother.        (BECE 2006 Q4)",
+        options: ["bad", "caring", "strong", "weak"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Maa Tee showed concern by immediately preparing to take Amma to the hospital.",
+      ),
+      QuizQuestion(
+        question:
+            "189. Amma rushed out of the consulting room because she …        (BECE 2006 Q5)",
+        options: [
+          "was afraid of the doctor.",
+          "wanted to do her work at home.",
+          "pitied her mother.",
+          "was afraid of the injection."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Amma ran away when the doctor said she would receive three injections.",
+      ),
+      QuizQuestion(
+        question:
+            "Grandpa is a robust centenarian. At his age, his eyesight was as clear as a child’s and his memory as equally sharp. We have always wondered what has kept him going all these years. “I’ll have a secret theory of life” is the reply he gives to anyone who asks.\n\n"
+            "Grandpa’s secret theory is, after all, quite simple when he explains it. He talks of a joyful attitude to life. He says that joy begets enthusiasm and a burning desire to encourage others. He never walks anyone away who needs help, even though Grandpa can never be described as rich.\n\n"
+            "Grandpa believes that as we see ourselves in a mirror, so do others see us. The mirror merely reflects what is before it. So if we are wicked, people will see us as wicked and if we are honest, we will not suspect others of being deceitful.\n\n"
+            "One part of Grandpa’s secret theory that he holds dearest is love for truth. He thinks that truth enables one to live a free life devoid of stress and worries. “Let your nay be nay,” he says, whenever he finds one of us telling a lie in order to avoid trouble. He believes that if we tell lies, we will have to create more lies to cover them. On the other hand, truth never changes.\n\n"
+            "Grandpa never ends his explanation without rolling his eyes excitedly and advising us to be true to ourselves so that we can’t be false to others.\n\n"
+            "190. Which of the following is true? Grandpa is a ………… man.        (BECE 2006 Q6)",
+        options: ["poor", "sick", "old", "lonely"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A centenarian is a person who is one hundred years old or older.",
+      ),
+      QuizQuestion(
+        question: "191. People ………… Grandpa.        (BECE 2006 Q7)",
+        options: ["fear", "admire", "dislike", "tolerate"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Grandpa’s wisdom, kindness and positive attitude make people admire him.",
+      ),
+      QuizQuestion(
+        question: "192. Devoid of in the passage means …        (BECE 2006 Q8)",
+        options: ["unless", "despite", "against", "without"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Devoid of means completely without something.",
+      ),
+      QuizQuestion(
+        question:
+            "193. According to the passage the mirror ………… what a person is.        (BECE 2006 Q9)",
+        options: ["reproduces", "changes", "enlarges", "extends"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The mirror reflects or reproduces the image of whatever is placed before it.",
+      ),
+      QuizQuestion(
+        question:
+            "194. Grandpa advises us to be true to ourselves in order …        (BECE 2006 Q10)",
+        options: [
+          "not to be poor.",
+          "to be a man.",
+          "to be kind.",
+          "not to lie."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Grandpa teaches that people should be truthful and avoid telling lies.",
+      ),
+      QuizQuestion(
+        question:
+            "“Help! Help! Fire!” This and other noises like banging of doors and crunching footsteps woke Barimah and his wife Fosua who was already awake. He dressed up quickly. “Something must be done,” he exclaimed to his wife, advising his wife not to leave the house.\n\n"
+            "It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah opened the door and went out there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.\n\n"
+            "Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house and quickly returned to fight the flames.\n\n"
+            "Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house Agya Atta had toiled to build.\n\n"
+            "195. Barimah asked Fosua to stay indoors because …        (BECE 2007 Q1)",
+        options: [
+          "people were running helter-skelter.",
+          "there was a terrible noise.",
+          "he suspected danger outside.",
+          "the place was very dark."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Barimah told his wife to remain indoors because the fire and confusion outside could be dangerous.",
+      ),
+      QuizQuestion(
+        question:
+            "196. What did Barimah find immediately he went out?        (BECE 2007 Q2)",
+        options: [
+          "Araba fighting the flames.",
+          "People packing things.",
+          "People shouting.",
+          "Agya Atta’s house burning."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "When Barimah went outside, he found Agya Atta’s house in flames.",
+      ),
+      QuizQuestion(
+        question: "197. Put out in the passage means …        (BECE 2007 Q3)",
+        options: ["control.", "extinguish.", "reduce.", "destroy."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "To put out a fire means to extinguish it.",
+      ),
+      QuizQuestion(
+        question:
+            "198. From the passage we can infer that the Barimahs and the Agya Attas are …        (BECE 2007 Q4)",
+        options: ["classmates.", "good neighbours.", "in-laws.", "age mates."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Barimah immediately helped to fight the fire and protect their belongings, showing that the families were good neighbours.",
+      ),
+      QuizQuestion(
+        question:
+            "199. People sympathized with Araba because she …        (BECE 2007 Q5)",
+        options: [
+          "had been left by her husband.",
+          "toiled with her husband.",
+          "was a good woman.",
+          "was sad."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Araba was loved for her good deeds and kindness, so people felt sorry for her loss.",
+      ),
+      QuizQuestion(
+        question:
+            "Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.\n\n"
+            "The story is told of a young man who became addicted to smoking. In no time, he developed smoking-related diseases and died miserably, leaving behind his wife and children in poverty.\n\n"
+            "Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.\n\n"
+            "It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.\n\n"
+            "What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke from other people’s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.\n\n"
+            "If smokers knew how non-smokers felt about them, they would give up the habit. The smoker in a crowded bus is a social misfit—one who does not consider the welfare of others but his own interest in smoking, no matter where he is.\n\n"
+            "200. What has society done about smoking? It has …        (BECE 2007 Q6)",
+        options: [
+          "sent smokers to court.",
+          "given medical treatment to smokers.",
+          "ignored it.",
+          "opposed it."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Society has opposed smoking through national campaigns and a special international day against the habit.",
+      ),
+      QuizQuestion(
+        question:
+            "201. According to the passage, which of the following is caused by smoking?        (BECE 2007 Q7)",
+        options: ["Malaria", "Measles", "Cancer of the lungs", "Tuberculosis"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage specifically identifies lung cancer as one of the major diseases caused by smoking.",
+      ),
+      QuizQuestion(
+        question:
+            "202. Which of the following is true about pregnant women who smoke? They …        (BECE 2007 Q8)",
+        options: [
+          "are likely to give birth to dead babies.",
+          "are not able to breastfeed.",
+          "are likely to have twins.",
+          "lose weight."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The passage says pregnant smokers may miscarry or give birth to still-born babies.",
+      ),
+      QuizQuestion(
+        question: "203. Passive smokers are those who …        (BECE 2007 Q9)",
+        options: [
+          "befriend smokers.",
+          "are addicted to smoking.",
+          "do not smoke at all.",
+          "inhale smoke from smokers’ cigarettes."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Passive smokers are non-smokers who breathe in smoke produced by other people.",
+      ),
+      QuizQuestion(
+        question:
+            "204. According to the passage, smokers are …        (BECE 2007 Q10)",
+        options: ["fearless.", "selfish.", "proud.", "disrespectful."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage describes smokers as people who often ignore the welfare of others and focus on their own desire to smoke.",
+      ),
+      QuizQuestion(
+        question:
+            "Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be one of those.\n\n"
+            "When Mr. Akpaloo thought he was ready to put up his own building, one of the things he did was to look for a plan of the houses that he so admired. He went to the office of Dr. Agbetor, the Hospital Administrator, to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.\n\n"
+            "Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr. Akpaloo could make a sketch of the building.\n\n"
+            "To the site Mr. Akpaloo went. When he arrived, the caretaker took him around. What had looked like a two-bedroom house from afar was at close quarters a four-bedroom affair. The difference that distance can make.\n\n"
+            "205. When were residential structures built at Kpota?        (BECE 2008 Q1)",
+        options: [
+          "When the hospital was begun.",
+          "Long before the hospital was started.",
+          "After the hospital had been built.",
+          "They were built together with the hospital."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The passage states that residential structures appeared after the District Hospital had been built.",
+      ),
+      QuizQuestion(
+        question:
+            "206. Dr. Grant did not give the plan to Mr. Akpaloo because …        (BECE 2008 Q2)",
+        options: [
+          "the houses belonged to him.",
+          "Mr. Akpaloo could make a design for himself.",
+          "it was not a wise thing to do.",
+          "the caretaker had the plan."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Dr. Grant advised Mr. Akpaloo to inspect the building and prepare his own sketch instead.",
+      ),
+      QuizQuestion(
+        question:
+            "207. What did Mr. Akpaloo do when he was ready to build a house? He …        (BECE 2008 Q3)",
+        options: [
+          "made a sketch of the building.",
+          "sent a plan to Dr. Grant.",
+          "looked for the plan of the house.",
+          "made sure he had enough money."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The first thing Mr. Akpaloo did was search for the plan of the houses he admired.",
+      ),
+      QuizQuestion(
+        question: "208. The word magnificent means …        (BECE 2008 Q4)",
+        options: ["massive.", "beautiful.", "good.", "expensive."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Magnificent means extremely impressive, grand or beautiful.",
+      ),
+      QuizQuestion(
+        question:
+            "209. One particular cluster of houses took the fancy of Mr. Akpaloo. This means Mr. Akpaloo …        (BECE 2008 Q5)",
+        options: [
+          "laughed at the houses.",
+          "was confused by the houses.",
+          "found the houses attractive.",
+          "detested the houses."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To take someone’s fancy means to attract or strongly appeal to that person.",
+      ),
+      QuizQuestion(
+        question:
+            "One day a poor fisherman went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and, feeling sure it contained something valuable, he took his knife out, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.\n\n"
+            "“Bow down,” said the genie, “and let me kill you.”\n\n"
+            "“Why?” asked the fisherman. “Have you forgotten I set you free?”\n\n"
+            "“Yes, but I have sworn to kill you,” said the genie. “I am a spirit that rebelled against the Creator to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy.”\n\n"
+            "“Well, die I must,” said the fisherman, “but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.”\n\n"
+            "“See then and believe,” said the genie.\n\n"
+            "He slowly changed back into smoke and entered the pot. The fisherman immediately put back the lead cover and threw it into the sea.\n\n"
+            "210. According to the passage, the fisherman caught …        (BECE 2008 Q6)",
+        options: ["a pot of gold.", "a lead pot.", "a big fish.", "no fish."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The fisherman did not catch a fish; he pulled up a copper pot sealed with lead.",
+      ),
+      QuizQuestion(
+        question: "211. What is the genie?        (BECE 2008 Q7)",
+        options: ["A big fish", "A copper pot", "Smoke", "A spirit"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The genie describes himself as a spirit.",
+      ),
+      QuizQuestion(
+        question:
+            "212. The word captivity in the passage means …        (BECE 2008 Q8)",
+        options: ["loss.", "birth.", "imprisonment.", "defeat."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Captivity means being imprisoned or confined.",
+      ),
+      QuizQuestion(
+        question:
+            "213. How many times did the genie swear?        (BECE 2008 Q9)",
+        options: ["Once", "Twice", "Three times", "Four times"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "He first swore to make his liberator rich, then to grant three wishes, and finally to kill whoever freed him.",
+      ),
+      QuizQuestion(
+        question: "214. According to the passage, the …        (BECE 2008 Q10)",
+        options: [
+          "fisherman freed himself.",
+          "fisherman killed the genie.",
+          "genie made many people rich.",
+          "genie saved the fisherman from troubles."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The fisherman used his intelligence to trap the genie again and save his own life.",
+      ),
+      QuizQuestion(
+        question:
+            "We were suddenly awakened at dawn by the screams of the tenants in our house. They were making a lot of commotion in the yard. Daddy quickly jumped from his bed and made for the door. Not long after, we heard him scream. We ran to the hall, switched on the lights and saw him lying flat on his back, holding his forehead.\n\n"
+            "In his haste to get to the hall door, he must have forgotten to switch on the lights thus running straight and crashing his head into the pillar in the middle of the hall. When we examined his forehead, we saw a big lump and blood oozing from a deep cut near his eyebrow.\n\n"
+            "Mummy, a retired nursing sister, shouted instructions to me to get the first-aid box, some ice cubes and Daddy’s towel. When the items were brought, she set to work first on the cut. She put some ice cubes in the towel and pressed them on the cut for about two minutes. She then wiped the blood gently. Afterwards, she put a little iodine on a piece of gauze, placed it on the cut and bandaged it. Turning to the lump, she massaged it with some ice cubes, which reduced the swelling.\n\n"
+            "She then opened the front door and we beheld a pathetic scene. Lying in the middle of the house was the motionless body of one of the tenants. Trying to resist an attack from armed robbers, he had been butchered mercilessly and his body left in the middle of the house.\n\n"
+            "215. What made the writer wake up?        (BECE 2009 Q1)",
+        options: [
+          "The father crashing into the pillar.",
+          "The noise made by his father.",
+          "The attack by the armed robbers.",
+          "The shouting of the tenants."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The writer was awakened by the screams and commotion made by the tenants.",
+      ),
+      QuizQuestion(
+        question:
+            "216. The writer’s father was holding his forehead because he …        (BECE 2009 Q2)",
+        options: [
+          "had fallen flat on his back.",
+          "had hit his head against the pillar.",
+          "wanted to stop the blood from flowing.",
+          "was thinking of what to do."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "He injured his forehead when he crashed into a pillar in the dark hall.",
+      ),
+      QuizQuestion(
+        question:
+            "217. The purpose of ice cubes was to …        (BECE 2009 Q3)",
+        options: [
+          "stop the bleeding.",
+          "heal the cut.",
+          "manage the cut.",
+          "reduce the swelling."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The ice cubes were used to reduce the lump and swelling on his forehead.",
+      ),
+      QuizQuestion(
+        question: "218. Pathetic in the passage means …        (BECE 2009 Q4)",
+        options: ["naughty.", "merciless.", "sad.", "strange."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Pathetic describes a scene that causes sadness, pity or sympathy.",
+      ),
+      QuizQuestion(
+        question: "219. What happened to the tenant?        (BECE 2009 Q5)",
+        options: [
+          "He opened the door.",
+          "He was killed by the robbers.",
+          "He fell down heavily.",
+          "He saw a pathetic scene."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The tenant was butchered and killed while resisting the armed robbers.",
+      ),
+      QuizQuestion(
+        question:
+            "Where is the musical performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that little feathered creatures blend their voices in some of the most melodious songs sung in the world.\n\n"
+            "Songbirds do not just make noise. The male voices in the choir, for instance, have two different messages. Firstly, it is a warning to other males not to come near their partners. Secondly, it is an invitation from the bachelors to the female birds. The most interesting songs which are sung with a lot of vigour are produced during the breeding season by the males to impress the lady birds.\n\n"
+            "Songbirds are very remarkable. They sing three or four notes at a time. To the human ear it sounds like one continuous note, but the birds can identify the different notes because of their keen sense of hearing. At times, what is heard may not be a song of our winged friends but simply an instruction to keep the flock together. It may also be a warning of an approaching danger.\n\n"
+            "Just how birds compose their songs is an interesting subject. Some birds have their songs fixed in their brains at birth. Whilst some imitate others, other birds try to compose songs which are unique. They will never copy what they hear others sing.\n\n"
+            "220. According to the passage, members of the chorus can sing without any difficulty because they …        (BECE 2009 Q6)",
+        options: [
+          "are born good singers.",
+          "easily learn to sing.",
+          "have good songs.",
+          "have to sing."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Some songbirds have their songs naturally fixed in their brains from birth.",
+      ),
+      QuizQuestion(
+        question: "221. The male songbirds sing to …        (BECE 2009 Q7)",
+        options: [
+          "instruct others.",
+          "sing four notes at a time.",
+          "attract the females.",
+          "copy what others have composed."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Male birds sing during the breeding season to attract and impress female birds.",
+      ),
+      QuizQuestion(
+        question:
+            "222. Which of the following is true according to the passage?        (BECE 2009 Q8)",
+        options: [
+          "Songbirds sing only in the morning.",
+          "Songbirds produce some of the sweetest songs.",
+          "Songbirds sing to invite the bachelors.",
+          "Songbirds sing only one note."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The passage describes songbirds as producing some of the most melodious songs in the world.",
+      ),
+      QuizQuestion(
+        question: "223. Unique in the passage means …        (BECE 2009 Q9)",
+        options: ["suitable.", "similar.", "exciting.", "special."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Unique means special, distinctive or unlike anything else.",
+      ),
+      QuizQuestion(
+        question: "224. The writer suggests that …        (BECE 2009 Q10)",
+        options: [
+          "human beings sing better than birds.",
+          "birds can interpret notes better.",
+          "birds make louder noise than human beings.",
+          "birds compose more interesting songs."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The writer presents the way birds create and combine their songs as a particularly interesting subject.",
+      ),
+    ],
+  ),
+
+  "English JHS3 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "337. Ben now wishes he ………… his studies early.        (BECE 2020 Q5)",
+        options: ["began", "begun", "begins", "has begun"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "After “wishes”, the simple past “began” expresses regret about a present situation resulting from an earlier action.",
+      ),
+      QuizQuestion(
+        question:
+            "338. I hear the programme was interesting; I wish I ………… there.        (BECE 2008 Q37)",
+        options: ["am", "were", "was", "have been"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "After “I wish”, “were” is traditionally used to express an unreal or contrary-to-fact situation.",
+      ),
+      QuizQuestion(
+        question:
+            "339. Konlaŋ suggested that it was time they ………… for the meeting.        (BECE 2024 Q9)",
+        options: ["leave", "had to leave", "left", "have to leave"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it was time” is followed by the simple past form “left”.",
+      ),
+      QuizQuestion(
+        question:
+            "340. It is high time we ………… for the meeting.        (BECE 2019 Q10)",
+        options: ["left", "leave", "have to leave", "will leave"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“It is high time” is followed by the simple past, so “left” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "341. I wish I ………… my friend next week.        (BECE 2011 Q12)",
+        options: ["can visit", "am visiting", "shall visit", "could visit"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Could visit” expresses a desired but uncertain possibility in the future.",
+      ),
+      QuizQuestion(
+        question:
+            "342. I can't hear her; I wish she ………… louder.        (BECE 1998 Q40)",
+        options: ["was speaking", "would speak", "had spoken", "might speak"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“I wish she would speak louder” expresses a desire for her to change her present behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "343. Would you rather we ………… tomorrow?        (BECE 2020 Q7)",
+        options: ["should leave", "are leaving", "leave", "left"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "After “would rather” followed by a different subject, the simple past is used: “we left”.",
+      ),
+      QuizQuestion(
+        question:
+            "344. It is high time we ………… the journey.        (BECE 2021 Q12)",
+        options: ["are starting", "shall start", "start", "started"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The expression “it is high time” takes the simple past form “started”.",
+      ),
+      QuizQuestion(
+        question:
+            "345. If Kofi ………… me, I would have helped him.        (BECE 2008 Q27)",
+        options: ["had asked", "asks", "has asked", "asked"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "This is a third conditional sentence, so the if-clause takes the past perfect: “had asked”.",
+      ),
+      QuizQuestion(
+        question:
+            "346. If Asi had gone to Bescesi, she ………… her mother.        (BECE 2006 Q35)",
+        options: ["would meet", "would have met", "will meet", "had met"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The third conditional structure is “if + past perfect” followed by “would have + past participle”.",
+      ),
+      QuizQuestion(
+        question:
+            "347. If he ………… the elections he would have become an assemblyman.        (BECE 1991 Q33)",
+        options: ["won", "has won", "had won", "should win"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The result clause “would have become” requires the past perfect “had won” in the if-clause.",
+      ),
+      QuizQuestion(
+        question:
+            "348. The doctor said she ………… if she had not kept strictly to her diet.        (BECE 2012 Q11)",
+        options: ["has died", "will die", "would die", "would have died"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The sentence describes an unreal past result, so “would have died” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "349. If we had not closed down the market, the traders ………… there.        (BECE 1993 Q35)",
+        options: [
+          "shall still be",
+          "will still be",
+          "are still going",
+          "would have still been"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The past unreal condition requires “would have still been” in the result clause.",
+      ),
+      QuizQuestion(
+        question:
+            "350. If he continues to work hard, he ………… his examination with ease.        (BECE 1991 Q34)",
+        options: ["will pass", "is passing", "has passed", "would pass"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "This is a first conditional sentence: present simple in the if-clause and “will” in the result clause.",
+      ),
+      QuizQuestion(
+        question:
+            "351. Only by working hard ………… this examination well.        (BECE 2002B Q37)",
+        options: [
+          "a candidate can pass",
+          "can pass a candidate",
+          "a candidate pass can",
+          "can a candidate pass"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "When a sentence begins with “Only by”, subject–auxiliary inversion is required: “can a candidate pass”.",
+      ),
+      QuizQuestion(
+        question:
+            "352. If the boat had been maintained properly it ………… capsized.        (BECE 2009 Q27)",
+        options: [
+          "had not",
+          "will not have",
+          "would not have",
+          "might have not"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The correct third conditional result is “would not have capsized”.",
+      ),
+      QuizQuestion(
+        question:
+            "353. If my uncle had come I ………… have had some money.        (BECE 2003 Q31)",
+        options: ["may", "will", "shall", "would"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A third conditional result uses “would have”, so “would” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "354. If Sampson had spoken the truth the teacher ………… him.        (BECE 1990 Q29)",
+        options: [
+          "shouldn't have punished",
+          "won't have punished",
+          "wouldn't have punished",
+          "wouldn't punish"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The unreal past condition requires “would not have punished”.",
+      ),
+      QuizQuestion(
+        question:
+            "355. If the family house had been maintained properly, it ………… collapsed.        (BECE 2022 Q4)",
+        options: ["will not have", "had not", "has not", "would not have"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The third conditional result is “would not have collapsed”.",
+      ),
+      QuizQuestion(
+        question: "356. If it rains I ………… my crops.        (BECE 2002A Q39)",
+        options: [
+          "have planted",
+          "had planted",
+          "will have planted",
+          "shall plant"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "This is a first conditional sentence, so “shall plant” correctly expresses the future result.",
+      ),
+      QuizQuestion(
+        question:
+            "357. If it ………… necessary, I shall see you again at six o'clock.        (BECE 1993 Q34)",
+        options: ["is", "had been", "is being", "was"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A real future condition takes the simple present in the if-clause: “if it is necessary”.",
+      ),
+      QuizQuestion(
+        question:
+            "358. ………… Aso runs short of money, what would she do?        (BECE 2011 Q14)",
+        options: ["If", "In case", "Should", "Were"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "“Should Aso run short of money” is an inverted conditional meaning “If Aso should run short of money”.",
+      ),
+      QuizQuestion(
+        question:
+            "359. You will be ill if you ………… raw meat.        (BECE 2021 Q11)",
+        options: ["ate", "eat", "had eaten", "have eaten"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The first conditional uses the simple present “eat” after “if”.",
+      ),
+      QuizQuestion(
+        question:
+            "360. Sarah would have passed her examination ………… she studied hard.        (BECE 2010 Q17)",
+        options: ["should", "had", "has", "could"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The correct inverted third conditional form is “had she studied hard”.",
+      ),
+      QuizQuestion(
+        question:
+            "361. Unless your father reports at the police station we ………… all be whipped.        (BECE 1992 Q38)",
+        options: ["will", "shall", "should", "would"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "With the first-person plural subject “we”, “shall” expresses the future result.",
+      ),
+      QuizQuestion(
+        question:
+            "362. If it rained, the farmer ………… his seeds.        (BECE 2025 Q1)",
+        options: [
+          "will sow",
+          "will have sowed",
+          "would have sowed",
+          "would sow"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "This is a second conditional sentence, so “would sow” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "363. If I were a manager, I ………… satisfy my customers.        (BECE 2010 Q15)",
+        options: ["will", "shall", "would", "must"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The second conditional uses “would” in the result clause.",
+      ),
+      QuizQuestion(
+        question:
+            "364. I would study hard for the examination if I ………… you.        (BECE 2011 Q3)",
+        options: ["will", "am", "was", "were"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The standard expression is “if I were you”.",
+      ),
+      QuizQuestion(
+        question:
+            "365. If I ………… with my grandmother, I would have enjoyed village life.        (BECE 2007 Q39)",
+        options: ["had lived", "have lived", "have been living", "am living"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The result “would have enjoyed” requires the past perfect “had lived”.",
+      ),
+      QuizQuestion(
+        question:
+            "366. I would have told you about the wedding if I …………        (BECE 1993 Q31)",
+        options: ["have known", "know", "had known", "have been knowing"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A third conditional if-clause takes the past perfect: “had known”.",
+      ),
+      QuizQuestion(
+        question:
+            "367. If you ………… more attentive you wouldn't have been in such a bad situation.        (BECE 1997 Q35)",
+        options: ["are", "were", "had been", "could be"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The past result “wouldn't have been” requires the past perfect “had been”.",
+      ),
+      QuizQuestion(
+        question:
+            "368. Kofi will not meet his father at home if he ………… not here by 5:00 pm.        (BECE 1994 Q39)",
+        options: ["was", "were", "isn't", "is"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The first conditional uses the simple present in the if-clause, so “is” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "369. If Azameti had won gold, Ghanaians …………        (BECE 2024 Q2)",
+        options: [
+          "will jubilate",
+          "will have jubilated",
+          "would have jubilated",
+          "would jubilate"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The past perfect condition “had won” requires the third conditional result “would have jubilated”.",
+      ),
+      QuizQuestion(
+        question:
+            "370. You will be ill if you ………… too much.        (BECE 1993 Q33)",
+        options: ["are eating", "eat", "had eaten", "ate"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The first conditional takes the simple present “eat” in the if-clause.",
+      ),
+      QuizQuestion(
+        question:
+            "371. If you had asked me, I ………… you.        (BECE 2018 Q12)",
+        options: [
+          "will help",
+          "would help",
+          "will have helped",
+          "would have helped"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The third conditional structure requires “would have helped” in the result clause.",
+      ),
+      QuizQuestion(
+        question:
+            "372. Philomina ………… passed the examination if she had tried harder.        (BECE 2010 Q6)",
+        options: ["could have", "will have", "may have", "could"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Could have passed” correctly expresses a possible past result of an unreal past condition.",
+      ),
+      QuizQuestion(
+        question:
+            "373. You would be hungry if you ………… to eat.        (BECE 2021 Q5)",
+        options: ["are refusing", "refuse", "refused", "were refusing"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The second conditional uses the simple past “refused” in the if-clause.",
+      ),
+      QuizQuestion(
+        question:
+            "374. If Kofi had studied hard, he ………… his examination.        (BECE 2013 Q16)",
+        options: [
+          "would pass",
+          "would be passing",
+          "will be passing",
+          "would have passed"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The condition “had studied” requires the result “would have passed”.",
+      ),
+      QuizQuestion(
+        question:
+            "375. Her clothes would look better if she ………… them.        (BECE 2023 Q10)",
+        options: ["washes", "would wash", "will wash", "washed"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The second conditional uses the simple past “washed” after “if”.",
+      ),
+      QuizQuestion(
+        question:
+            "376. Neither Kwesi nor Yaw ………… there when I got to the house.        (BECE 2004 Q40)",
+        options: ["are", "is", "was", "were"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The verb agrees with the singular noun closest to it, “Yaw”, and the past-time context requires “was”.",
+      ),
+      QuizQuestion(
+        question:
+            "377. There are only two of us who ………… any idea of the answer.        (BECE 2009 Q30)",
+        options: ["have", "had", "has", "would have"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The relative pronoun “who” refers to the plural expression “two of us”, so “have” is correct.",
+      ),
+      QuizQuestion(
+        question: "378. The news he brought ………… bad.        (BECE 1991 Q35)",
+        options: ["are", "were", "has been", "was"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“News” is grammatically singular, so it takes the singular verb “was”.",
+      ),
+      QuizQuestion(
+        question:
+            "379. The chief with his linguists ………… coming to the durbar ground.        (BECE 1992 Q32)",
+        options: ["is", "are", "were", "have been"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The main subject is the singular noun “chief”; the phrase “with his linguists” does not change the verb to plural.",
+      ),
+      QuizQuestion(
+        question:
+            "380. The book, as well as several others, ………… interesting read.        (BECE 2010 Q8)",
+        options: ["makes", "are to make", "are making", "make"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The main subject is the singular noun “book”, so the singular verb “makes” is required.",
+      ),
+      QuizQuestion(
+        question:
+            "381. My brother, with his wife and children, ………… travelling to Salaga next weekend.        (BECE 2021 Q2)",
+        options: ["are", "is", "was", "were"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The main subject “my brother” is singular, so it takes “is”.",
+      ),
+      QuizQuestion(
+        question:
+            "382. Kwaku's evidence ………… to be checked.        (BECE 2000 Q34)",
+        options: ["needing", "needs", "is needing", "will have need"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“Evidence” is singular and the correct simple present verb is “needs”.",
+      ),
+      QuizQuestion(
+        question:
+            "383. My brother, with his children, ………… travelling to Salaga next week.        (BECE 2019 Q9)",
+        options: ["is", "are", "was", "were"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The singular subject “my brother” determines the verb, so “is” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "384. A bag of money, with some documents, ………… stolen from the car.        (BECE 2004 Q31)",
+        options: ["were", "are", "was", "have been"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The main subject is the singular noun “bag”, so the singular verb “was” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "385. Rice and beans ………… a good meal for children.        (BECE 2018 Q4)",
+        options: ["are", "have been", "is", "is being"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Rice and beans” refers to one combined dish, so it takes the singular verb “is”.",
+      ),
+      QuizQuestion(
+        question:
+            "386. Mr. Tawiah regularly ………… late in the night.        (BECE 1998 Q27)",
+        options: ["eat", "eats", "eaten", "eating"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The singular subject “Mr. Tawiah” takes the simple present form “eats”.",
+      ),
+      QuizQuestion(
+        question:
+            "387. The school band ………… two days a week.        (BECE 2010 Q5)",
+        options: ["practice", "are practising", "practices", "were practising"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The collective noun “band” is treated as singular here, so “practices” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "388. One of the cows ………… from the herd.        (BECE 2010 Q12)",
+        options: [
+          "has strayed",
+          "have strayed",
+          "have been strayed",
+          "has been strayed"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The subject is “one”, which is singular, so “has strayed” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "389. None of the suspects ………… his guilt.        (BECE 1993 Q28)",
+        options: ["admit", "admits", "are admitting", "have admitted"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "“None” is treated as singular in this sentence, and the pronoun “his” also supports the singular verb “admits”.",
+      ),
+      QuizQuestion(
+        question:
+            "390. One of the bulls ………… from the herd.        (BECE 2019 Q1)",
+        options: [
+          "have been strayed",
+          "has been strayed",
+          "have strayed",
+          "has strayed"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The singular subject “one” takes “has”, and “stray” is intransitive, so “has strayed” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "391. The Headmaster, with his assistant, ………… inspecting the new school library.        (BECE 1993 Q30)",
+        options: ["will have been", "are", "have been", "is"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The main subject “Headmaster” is singular, so it takes the singular verb “is”.",
+      ),
+      QuizQuestion(
+        question: "392. His pair of trousers ………… torn.        (BECE 2024 Q29)",
+        options: ["is", "are", "have", "has"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The subject is the singular expression “pair”, so the correct verb is “is”.",
+      ),
+      QuizQuestion(
+        question:
+            "393. Neither the headmaster nor his assistant ………… today.        (BECE 1996 Q32)",
+        options: ["is working", "do work", "have worked", "are working"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The verb agrees with the nearest singular subject, “assistant”, so “is working” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "394. Kwame's uncle, with his three friends, ………… coming home tomorrow.        (BECE 2011 Q8)",
+        options: ["are", "is", "were", "would be"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The main subject “Kwame's uncle” is singular, so the correct verb is “is”.",
+      ),
+      QuizQuestion(
+        question:
+            "395. Neither John nor his friend, ………… a play to the end.        (BECE 2017 Q14)",
+        options: ["watch", "watches", "was watching", "were watching"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The nearest subject “friend” is singular, so the simple present verb is “watches”.",
+      ),
+      QuizQuestion(
+        question:
+            "396. Neither the parents nor the child ………… at home yesterday.        (BECE 2023 Q4)",
+        options: ["is", "are", "were", "was"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The verb agrees with the nearest singular subject “child”, and “yesterday” requires the past tense “was”.",
+      ),
+      QuizQuestion(
+        question:
+            "397. Neither Kojo nor his friend ………… the issue clearly.        (BECE 2010 Q10)",
+        options: [
+          "understands",
+          "have understood",
+          "understand",
+          "is understanding"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Both subjects are singular, so the singular verb “understands” is correct.",
+      ),
+      QuizQuestion(
+        question:
+            "398. Where ………… Asana and Betty spending their next holidays?        (BECE 2023 Q9)",
+        options: ["is", "was", "were", "are"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The plural subject “Asana and Betty” takes the present continuous auxiliary “are”.",
+      ),
+      QuizQuestion(
+        question:
+            "399. He wasn't at the scene of the accident …………?        (BECE 1991 Q18)",
+        options: ["wasn't he", "isn't it", "did he", "was he"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A negative statement takes a positive question tag using the same auxiliary: “was he?”",
+      ),
+      QuizQuestion(
+        question:
+            "400. Shika was absent yesterday, …………?        (BECE 2013 Q14)",
+        options: ["isn't she", "has she", "didn't she", "wasn't she"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement uses the past form “was”, so the negative question tag is “wasn't she?”",
+      ),
+      QuizQuestion(
+        question:
+            "401. Mr. Adu has never been pleased with his children's performance, …………?        (BECE 1993 Q36)",
+        options: ["hasn't he", "didn't he", "has he", "did he"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Never” gives the statement a negative meaning, so it takes the positive tag “has he?”",
+      ),
+      QuizQuestion(
+        question:
+            "402. Human beings will not live forever, …………?        (BECE 2011 Q15)",
+        options: ["will they", "isn't it", "does it", "shall they"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A negative statement with “will not” takes the positive question tag “will they?”",
+      ),
+      QuizQuestion(
+        question:
+            "403. Go over your work carefully, ………… you?        (BECE 2012 Q17)",
+        options: ["do", "will", "may", "shall"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A positive imperative commonly takes the question tag “will you?”",
+      ),
+      QuizQuestion(
+        question:
+            "404. Kwame looks very handsome, …………?        (BECE 2016 Q15)",
+        options: ["isn't he", "does he", "doesn't he", "does he"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The statement uses the simple present verb “looks”, so the negative tag is “doesn't he?”",
+      ),
+      QuizQuestion(
+        question:
+            "405. You have not paid your fees, …………?        (BECE 2024 Q28)",
+        options: ["will you", "won't you", "hadn't you", "have you"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A negative present perfect statement takes the positive tag “have you?”",
+      ),
+      QuizQuestion(
+        question:
+            "406. Come and see me tomorrow, ………… you?        (BECE 2013 Q15)",
+        options: ["shall", "will", "may", "don't"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A request or command in the imperative normally takes the tag “will you?”",
+      ),
+      QuizQuestion(
+        question:
+            "407. If Mary had known she wouldn't have come, …………?        (BECE 1992 Q29)",
+        options: ["wasn't it", "hadn't she", "did she", "would she"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The main clause is negative and uses “would”, so the positive tag is “would she?”",
+      ),
+      QuizQuestion(
+        question: "408. You are tired, …………?        (BECE 2007 Q30)",
+        options: ["aren't you", "don't you", "isn't it", "not so"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement with “are” takes the negative tag “aren't you?”",
+      ),
+      QuizQuestion(
+        question: "409. You aren't hungry, are you?        (BECE 1995 Q40)",
+        options: [
+          "No, you aren't",
+          "Yes, I am not",
+          "No, I am not",
+          "No, I am"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To confirm that the speaker is not hungry, the correct response is “No, I am not.”",
+      ),
+      QuizQuestion(
+        question:
+            "410. J.S.S. students work hard, …………?        (BECE 1992 Q31)",
+        options: ["don't they", "shouldn't they", "can't they", "haven't they"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple present statement “students work” takes the negative tag “don't they?”",
+      ),
+      QuizQuestion(
+        question:
+            "411. Daddy writes beautifully ………… he?        (BECE 2003 Q28)",
+        options: ["would", "wouldn't", "doesn't", "didn't"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The simple present verb “writes” takes the auxiliary “does” in the tag: “doesn't he?”",
+      ),
+      QuizQuestion(
+        question: "412. Do you believe in witches? …………        (BECE 2001 Q32)",
+        options: ["Yes, I don't", "No, I won't", "Yes, I won't", "No, I don't"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A negative answer to a simple present question with “do” is “No, I don't.”",
+      ),
+      QuizQuestion(
+        question:
+            "413. You have to help your parents, …………?        (BECE 1997 Q31)",
+        options: ["have you", "you do", "isn't it", "don't you"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "In “have to”, “have” functions as an ordinary verb, so the question tag uses “do”: “don't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "414. Our captain is not a very reliable person, …………?        (BECE 2015 Q12)",
+        options: ["is he", "isn't he", "does he", "doesn't he"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The statement is negative and uses “is”, so it takes the positive tag “is he?”",
+      ),
+      QuizQuestion(
+        question:
+            "415. You are not afraid of snakes, …………?        (BECE 1990 Q25)",
+        options: ["aren't you", "are you", "do you", "won't you"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A negative statement with “are not” takes the positive tag “are you?”",
+      ),
+      QuizQuestion(
+        question:
+            "416. You usually come to school early, …………?        (BECE 2014 Q11)",
+        options: ["can you", "will you", "aren't you", "don't you"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The simple present verb “come” takes the negative tag “don't you?”",
+      ),
+      QuizQuestion(
+        question: "417. Help him to pay his fees, …………?        (BECE 1992 Q27)",
+        options: ["will you", "must you", "can't you", "won't you"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A positive imperative commonly takes the question tag “will you?”",
+      ),
+      QuizQuestion(
+        question:
+            "418. I don't really know what you want, ………… I?        (BECE 2018 Q13)",
+        options: ["am", "aren't", "do", "did"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The negative simple present statement “I don't know” takes the positive tag “do I?”",
+      ),
+      QuizQuestion(
+        question:
+            "419. Kay: You didn't go to Accra, did you? Lee: …………        (BECE 2017 Q7)",
+        options: ["No, I did", "No, I didn't", "Yes, did I", "Yes, I didn't"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To confirm that Lee did not go to Accra, the correct response is “No, I didn't.”",
+      ),
+      QuizQuestion(
+        question: "420. Birds fly, don't they? …………        (BECE 1997 Q39)",
+        options: [
+          "Yes, they don't",
+          "No, they do",
+          "Yes, they do",
+          "Yes, they can't"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The correct affirmative response is “Yes, they do.”",
+      ),
+      QuizQuestion(
+        question:
+            "421. They thought he would become a businessman, …………?        (BECE 2009 Q29)",
+        options: ["wouldn't they", "didn't they", "wasn't they", "isn't they"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The main verb is “thought”, so the question tag is formed with “did”: “didn't they?”",
+      ),
+      QuizQuestion(
+        question:
+            "422. She arrived at the party late, …………?        (BECE 2002B Q34)",
+        options: ["didn't she", "isn't it", "didn't it", "wasn't she"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple past verb “arrived” takes the negative tag “didn't she?”",
+      ),
+      QuizQuestion(
+        question: "423. Let's go out and play, …………?        (BECE 1994 Q38)",
+        options: ["shall we", "do we", "will we", "would we"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A suggestion beginning with “Let's” takes the question tag “shall we?”",
+      ),
+      QuizQuestion(
+        question: "424. He had boarded a taxi, …………?        (BECE 2009 Q31)",
+        options: ["wouldn't he", "hadn't he", "isn't it", "won't he"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative past perfect statement takes the negative tag “hadn't he?”",
+      ),
+      QuizQuestion(
+        question:
+            "425. She dances so beautifully, …………?        (BECE 1992 Q30)",
+        options: ["not so", "can't she", "doesn't she", "isn't it"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The simple present verb “dances” takes the negative tag “doesn't she?”",
+      ),
+      QuizQuestion(
+        question: "426. Let's go out and play, …………?        (BECE 2020 Q13)",
+        options: ["will you", "shall we", "can you", "would we"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "The standard question tag after “Let's” is “shall we?”",
+      ),
+      QuizQuestion(
+        question: "427. Let's leave now, Akosua, …………?        (BECE 2008 Q28)",
+        options: ["may we", "can we", "must we", "shall we"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A suggestion introduced by “Let's” takes the tag “shall we?”",
+      ),
+      QuizQuestion(
+        question:
+            "428. The cashier was rude to his boss, …………?        (BECE 1993 Q38)",
+        options: ["was he", "wasn't he", "did he", "didn't he"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement uses “was”, so the negative tag is “wasn't he?”",
+      ),
+      QuizQuestion(
+        question:
+            "429. There are many big houses in our area, …………?        (BECE 2012 Q13)",
+        options: ["isn't it", "aren't they", "weren't there", "aren't there"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A statement beginning with “There are” takes the tag “aren't there?”",
+      ),
+      QuizQuestion(
+        question: "430. You have seen them, ………… you?        (BECE 2021 Q3)",
+        options: ["did", "didn't", "had", "haven't"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect statement “have seen” takes the negative tag “haven't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "431. I told you to leave my office, ………… I?        (BECE 2011 Q6)",
+        options: ["aren't", "didn't", "don't", "wasn't"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The simple past statement “I told you” takes the negative tag “didn't I?”",
+      ),
+      QuizQuestion(
+        question:
+            "432. The visitors don't know Krokrobite, …………?        (BECE 1998 Q38)",
+        options: ["is it", "haven't they", "do they", "isn't it"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The negative simple present statement takes the positive question tag “do they?”",
+      ),
+      QuizQuestion(
+        question:
+            "433. Would you mind if I borrowed your pen?        (BECE 2003 Q31)",
+        options: ["Yes, I do", "Yes, I don't", "No, I don't", "No, I wouldn't"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“No, I wouldn't” politely shows that the speaker does not object to the request.",
+      ),
+      QuizQuestion(
+        question:
+            "434. Most people are not kind to animals, …………?        (BECE 2004 Q27)",
+        options: ["weren't it", "isn't it", "wasn't", "are they"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The statement is negative and uses “are”, so the positive question tag is “are they?”",
+      ),
+      QuizQuestion(
+        question:
+            "435. Appiah was appointed prefect of his class, …………?        (BECE 2005 Q32)",
+        options: ["wasn't it", "didn't he", "isn't it", "wasn't he"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement uses “was”, so the negative tag is “wasn't he?”",
+      ),
+      QuizQuestion(
+        question: "436. They have lost the match, …………?        (BECE 1991 Q21)",
+        options: ["didn't they", "haven't they", "isn't it", "is it"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect statement “have lost” takes the negative tag “haven't they?”",
+      ),
+      QuizQuestion(
+        question: "437. He's your friend, …………?        (BECE 2017 Q6)",
+        options: ["doesn't he", "does he", "isn't he", "isn't it"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“He's” means “he is”, so the correct negative question tag is “isn't he?”",
+      ),
+      QuizQuestion(
+        question:
+            "438. All work and no play make Jack a dull boy, …………?        (BECE 2023 Q6)",
+        options: ["can't it", "isn't it", "shan't it", "doesn't it"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The simple present verb “make” takes the auxiliary “does” in the tag: “doesn't it?”",
+      ),
+      QuizQuestion(
+        question:
+            "439. Have a bottle of coke, will you? No, …………        (BECE 1994 Q37)",
+        options: ["I don't", "please", "thank you", "I won't"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The polite response when declining an offer is “No, thank you.”",
+      ),
+      QuizQuestion(
+        question:
+            "440. You will pass this examination, …………?        (BECE 1998 Q30)",
+        options: ["don't you", "have you", "may you", "won't you"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement with “will” takes the negative tag “won't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "441. To be a teenager is indeed great, …………?        (BECE 2002A Q37)",
+        options: ["isn't it", "aren't you", "it is", "does it"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The statement uses the verb “is” and the subject is represented by “it”, giving the tag “isn't it?”",
+      ),
+      QuizQuestion(
+        question:
+            "442. The baby needs a bath, doesn't it? …………        (BECE 1994 Q40)",
+        options: [
+          "No, it needs",
+          "No, it does",
+          "Yes, it doesn't",
+          "Yes, it does"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The correct affirmative response is “Yes, it does.”",
+      ),
+      QuizQuestion(
+        question:
+            "443. Walking in the rain is not good, …………?        (BECE 2012 Q16)",
+        options: ["is not", "is it", "must not", "must it"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A negative statement with “is not” takes the positive tag “is it?”",
+      ),
+      QuizQuestion(
+        question:
+            "444. The oxen lay on the bare floor, …………?        (BECE 2019 Q15)",
+        options: ["didn't they", "don't they", "didn't it", "isn't it"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The simple past verb “lay” takes the negative tag “didn't they?”",
+      ),
+      QuizQuestion(
+        question: "445. You had too much to eat, …………?        (BECE 2006 Q36)",
+        options: ["didn't you", "don't you", "haven't you", "isn't it"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Here, “had” is a simple past main verb, so the tag uses “did”: “didn't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "446. You prefer playing soccer to volleyball, …………?        (BECE 1993 Q37)",
+        options: ["do you", "will you", "won't you", "don't you"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative simple present verb “prefer” takes the negative tag “don't you?”",
+      ),
+      QuizQuestion(
+        question: "447. You can't eat all, …………        (BECE 1996 Q30)",
+        options: ["can't you?", "do you?", "can you?", "don't you?"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The negative statement with “can't” takes the positive tag “can you?”",
+      ),
+      QuizQuestion(
+        question: "448. You have been to Lagos, …………?        (BECE 2015 Q13)",
+        options: [
+          "did you",
+          "have you didn't you",
+          "didn't you",
+          "haven't you"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect statement “have been” takes the negative tag “haven't you?”",
+      ),
+      QuizQuestion(
+        question: "449. We won the school debate, …………?        (BECE 2001 Q38)",
+        options: ["hadn't we", "isn't it", "couldn't we", "didn't we"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The simple past verb “won” takes the negative question tag “didn't we?”",
+      ),
+      QuizQuestion(
+        question: "450. You don't believe that, …………?        (BECE 1999 Q29)",
+        options: ["isn't it", "do you", "won't you", "don't you"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The negative simple present statement takes the positive tag “do you?”",
+      ),
+      QuizQuestion(
+        question:
+            "451. We worked hard in our final year, …………?        (BECE 1991 Q20)",
+        options: ["did we", "isn't it", "aren't we", "didn't we"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative simple past verb “worked” takes the negative tag “didn't we?”",
+      ),
+      QuizQuestion(
+        question:
+            "452. You are a member of the society, …………?        (BECE 2015 Q11)",
+        options: ["isn't it", "are you", "aren't you", "weren't you"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement with “are” takes the negative tag “aren't you?”",
+      ),
+      QuizQuestion(
+        question: "453. You have cut the grass, …………?        (BECE 2012 Q14)",
+        options: ["haven't you", "did you", "didn't you", "had you"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The present perfect statement “have cut” takes the negative tag “haven't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "454. Kwasi, you are coming to see me tomorrow, …………?        (BECE 1992 Q28)",
+        options: ["isn't it", "aren't you", "won't you", "don't you"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative present continuous statement takes the negative tag “aren't you?”",
+      ),
+      QuizQuestion(
+        question:
+            "455. You shouldn't work so late, …………?        (BECE 1990 Q23)",
+        options: ["won't you", "do you", "should you", "don't you"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The negative statement with “shouldn't” takes the positive tag “should you?”",
+      ),
+      QuizQuestion(
+        question: "456. You don't speak Chinese, …………?        (BECE 1991 Q19)",
+        options: ["do you", "can you", "don't you", "won't you"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The negative simple present statement takes the positive tag “do you?”",
+      ),
+      QuizQuestion(
+        question:
+            "457. We won the school debating contest, ………… we?        (BECE 2016 Q14)",
+        options: ["hadn't", "didn't", "couldn't", "did"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The simple past verb “won” takes the negative tag “didn't we?”",
+      ),
+      QuizQuestion(
+        question: "458. Let's go out and play, …………?        (BECE 1995 Q38)",
+        options: ["will we", "do we", "would we", "shall we"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A suggestion beginning with “Let's” takes the question tag “shall we?”",
+      ),
+      QuizQuestion(
+        question: "459. Let us have a cup of tea, …………?        (BECE 2011 Q17)",
+        options: ["do we", "shall we", "should we", "would we"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The inclusive suggestion “Let us” takes the question tag “shall we?”",
+      ),
+      QuizQuestion(
+        question:
+            "460. You'll travel by train to Kumasi, …………?        (BECE 1990 Q24)",
+        options: ["won't you", "can't you", "shouldn't you", "wouldn't you"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“You'll” means “you will”, so the negative question tag is “won't you?”",
+      ),
+      QuizQuestion(
+        question: "461. You are not hurt, …………?        (BECE 2000 Q37)",
+        options: ["were you", "did you", "are you", "do you"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The negative statement with “are not” takes the positive tag “are you?”",
+      ),
+      QuizQuestion(
+        question: "462. Amina is a good girl, …………?        (BECE 1999 Q30)",
+        options: ["isn't it", "doesn't she", "does she", "isn't she"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement with “is” takes the negative tag “isn't she?”",
+      ),
+      QuizQuestion(
+        question: "463. Eshun is a good singer, …………?        (BECE 1990 Q22)",
+        options: ["isn't it", "wasn't he", "is he", "isn't he"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The affirmative statement with “is” takes the negative tag “isn't he?”",
+      ),
+      QuizQuestion(
+        question:
+            "464. She is very jovial ………… she is an orphan.        (BECE 1997 Q34)",
+        options: ["since", "as", "though", "even"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Though” introduces a contrast between her being cheerful and being an orphan.",
+      ),
+      QuizQuestion(
+        question: "465. You will be late ………… you hurry.        (BECE 2016 Q2)",
+        options: ["if", "or", "unless", "while"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Unless” means “if not”: you will be late if you do not hurry.",
+      ),
+      QuizQuestion(
+        question:
+            "466. Amma was so frightened ………… she fainted.        (BECE 2007 Q27)",
+        options: ["few", "as", "that", "so"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The correct result structure is “so frightened that she fainted”.",
+      ),
+      QuizQuestion(
+        question:
+            "467. ………… hard he tried, Adansi came last in the test.        (BECE 1991 Q23)",
+        options: ["Whatever", "How", "Whenever", "However"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“However hard he tried” means no matter how hard he tried.",
+      ),
+      QuizQuestion(
+        question:
+            "468. No sooner had we arrived ………… he came back from work.        (BECE 2014 Q13)",
+        options: ["than", "then", "when", "before"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The fixed correlative expression is “no sooner … than”.",
+      ),
+      QuizQuestion(
+        question:
+            "469. No sooner had my uncle left the house ………… my aunt arrived.        (BECE 2002B Q30)",
+        options: ["when", "before", "than", "then"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The expression “no sooner” is correctly completed with “than”.",
+      ),
+      QuizQuestion(
+        question:
+            "470. Not only was she pretty ………… intelligent.        (BECE 1996 Q31)",
+        options: ["or", "nor", "but also", "and also"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The correct paired conjunction is “not only … but also”.",
+      ),
+      QuizQuestion(
+        question:
+            "471. ………… the challenges, we succeeded.        (BECE 2021 Q1)",
+        options: ["As such", "However", "In spite of", "Nevertheless"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“In spite of” is followed by a noun phrase and expresses contrast.",
+      ),
+      QuizQuestion(
+        question:
+            "472. ………… the watch is old, it is still working.        (BECE 2015 Q16)",
+        options: ["Since", "Besides", "Although", "However"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“Although” introduces the contrast between the watch being old and still working.",
+      ),
+      QuizQuestion(
+        question:
+            "473. ………… I joined the class late I could pass the examination.        (BECE 2003 Q39)",
+        options: ["Since", "As", "Despite", "Although"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Although” correctly introduces the contrast between joining late and passing.",
+      ),
+      QuizQuestion(
+        question:
+            "474. Last Wednesday, it rained heavily ………… the match was played.        (BECE 2024 Q6)",
+        options: ["and", "for", "so", "yet"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "“Yet” expresses the unexpected contrast that the match was played despite the heavy rain.",
+      ),
+      QuizQuestion(
+        question:
+            "475. Enrolment has increased ………… the new classroom was built.        (BECE 2025 Q4)",
+        options: ["since", "until", "when", "while"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Since” shows that enrolment began increasing after the classroom was built.",
+      ),
+      QuizQuestion(
+        question:
+            "476. Kweku thinks that life is difficult ………… you are old.        (BECE 2004 Q36)",
+        options: ["if", "while", "when", "as"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "“When” correctly refers to the period in which a person is old.",
+      ),
+      QuizQuestion(
+        question:
+            "477. No sooner had the Minister opened the bank ………… the bank was filled to capacity.        (BECE 2009 Q40)",
+        options: ["when", "for", "as", "than"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The fixed construction is “no sooner … than”.",
+      ),
+      QuizQuestion(
+        question:
+            "478. Alf and Pat look so identical that it is difficult to pick the ………… of the two.        (BECE 2002A Q38)",
+        options: ["oldest", "old", "elder", "eldest"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "“Elder” is used when comparing the ages of two people.",
+      ),
+      QuizQuestion(
+        question:
+            "479. ………… you dislike the girl, you shouldn't beat her.        (BECE 2002A Q35)",
+        options: ["Even if", "Since", "As", "However"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "“Even if” means that disliking the girl is not a valid reason to beat her.",
       ),
     ],
   ),

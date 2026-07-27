@@ -17955,7 +17955,7 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-          "3. 'The boy who won the race is my cousin.' The bolded part is a:",
+          "3. 'The boy **who won the race** is my cousin.' The bolded part is a:",
       options: [
         "Adverbial phrase",
         "Relative clause",

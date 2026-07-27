@@ -4,127 +4,7 @@ import '../model/practice_model.dart';
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, PracticeModel> becePracticeData = {
   // ─── ENGLISH: ORAL LANGUAGE ────────────────────────────────────────────
-  "English JHS1 s1 ss1 - Conversation and Everyday Discourse": PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nYou are about to call your class prefect to discuss a school issue. Write TWO sentences: one using a formal greeting and one using an informal greeting. Then explain when each is appropriate.",
-        answer:
-            "Formal: 'Good morning, Class Prefect. I would like to discuss an important school matter with you.'\nInformal (to a close friend): 'Hey Ama! What's up? I need to talk to you about something.'\n\nFormal register is used in official or school settings. Informal register is used with close friends in relaxed situations.",
-        explanation:
-            "Register refers to the level of formality in language. Choosing the correct register shows social awareness and communication skill.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 2\n\nExplain THREE features of an effective conversation. Give an example of each feature.",
-        answer:
-            "1. Turn-taking — Each person waits for their turn to speak. Example: Kwame listens while Ama speaks, then responds.\n2. Active listening — Nodding and maintaining eye contact to show attention. Example: Nodding when the teacher explains.\n3. Appropriate language — Using correct register for the situation. Example: Using polite language when speaking to an elder.",
-        explanation:
-            "Effective conversation involves balanced participation, attentive listening, and appropriate communication style.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 3\n\nA new student from another country joins your class. They greet you informally, but you are in a classroom setting. Write a SHORT dialogue (4 lines) showing how you POLITELY correct the student's register and teach them the appropriate greeting.",
-        answer:
-            "New student: 'Hey! What's going on?'\nYou: 'Hello! Welcome to our school. In class, we usually use more formal greetings.'\nNew student: 'Oh, I see. How should I say it?'\nYou: 'You could say: Good morning, class. It is more appropriate for the school setting.'",
-        explanation:
-            "Helping someone use the correct register respectfully shows good communication skills and cultural awareness.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 4\n\nWhat is the difference between VERBAL and NON-VERBAL communication? Give TWO examples of each.",
-        answer:
-            "Verbal communication uses spoken or written words:\n• Example 1: Saying 'Thank you' to someone.\n• Example 2: Writing a text message.\n\nNon-verbal communication uses body language and gestures:\n• Example 1: Nodding your head to show agreement.\n• Example 2: Waving goodbye.",
-        explanation:
-            "Both verbal and non-verbal communication are essential tools for sending and receiving messages effectively.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 5\n\nYour friend says: 'I don't think you need to greet teachers — it wastes time.' Write a paragraph DISAGREEING with your friend and explaining why greetings are important in Ghanaian culture.",
-        answer:
-            "I respectfully disagree with my friend's view. Greetings are a very important part of Ghanaian culture and social life. They show respect, especially to elders and those in authority. When we greet our teachers, we acknowledge their role and build a positive relationship with them. A simple 'Good morning, sir/madam' takes only a few seconds but makes a big difference in creating a respectful and welcoming classroom environment. Therefore, greetings should never be seen as a waste of time.",
-        explanation:
-            "Giving reasons and using respectful disagreement language is a key communication skill tested in BECE.",
-      ),
-    ],
-  ),
-  "English JHS1 s1 ss2 - Conversation and Everyday Discourse": PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nYou are about to call your class prefect to discuss a school issue. Write TWO sentences: one using a formal greeting and one using an informal greeting. Then explain when each is appropriate.",
-        answer:
-            "Formal: 'Good morning, Class Prefect. I would like to discuss an important school matter with you.'\nInformal (to a close friend): 'Hey Ama! What's up? I need to talk to you about something.'\n\nFormal register is used in official or school settings. Informal register is used with close friends in relaxed situations.",
-        explanation:
-            "Register refers to the level of formality in language. Choosing the correct register shows social awareness and communication skill.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 2\n\nExplain THREE features of an effective conversation. Give an example of each feature.",
-        answer:
-            "1. Turn-taking — Each person waits for their turn to speak. Example: Kwame listens while Ama speaks, then responds.\n2. Active listening — Nodding and maintaining eye contact to show attention. Example: Nodding when the teacher explains.\n3. Appropriate language — Using correct register for the situation. Example: Using polite language when speaking to an elder.",
-        explanation:
-            "Effective conversation involves balanced participation, attentive listening, and appropriate communication style.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 3\n\nA new student from another country joins your class. They greet you informally, but you are in a classroom setting. Write a SHORT dialogue (4 lines) showing how you POLITELY correct the student's register and teach them the appropriate greeting.",
-        answer:
-            "New student: 'Hey! What's going on?'\nYou: 'Hello! Welcome to our school. In class, we usually use more formal greetings.'\nNew student: 'Oh, I see. How should I say it?'\nYou: 'You could say: Good morning, class. It is more appropriate for the school setting.'",
-        explanation:
-            "Helping someone use the correct register respectfully shows good communication skills and cultural awareness.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 4\n\nWhat is the difference between VERBAL and NON-VERBAL communication? Give TWO examples of each.",
-        answer:
-            "Verbal communication uses spoken or written words:\n• Example 1: Saying 'Thank you' to someone.\n• Example 2: Writing a text message.\n\nNon-verbal communication uses body language and gestures:\n• Example 1: Nodding your head to show agreement.\n• Example 2: Waving goodbye.",
-        explanation:
-            "Both verbal and non-verbal communication are essential tools for sending and receiving messages effectively.",
-      ),
-      PracticeQuestion(
-        scenario:
-            "BECE Theory Question 5\n\nYour friend says: 'I don't think you need to greet teachers — it wastes time.' Write a paragraph DISAGREEING with your friend and explaining why greetings are important in Ghanaian culture.",
-        answer:
-            "I respectfully disagree with my friend's view. Greetings are a very important part of Ghanaian culture and social life. They show respect, especially to elders and those in authority. When we greet our teachers, we acknowledge their role and build a positive relationship with them. A simple 'Good morning, sir/madam' takes only a few seconds but makes a big difference in creating a respectful and welcoming classroom environment. Therefore, greetings should never be seen as a waste of time.",
-        explanation:
-            "Giving reasons and using respectful disagreement language is a key communication skill tested in BECE.",
-      ),
-    ],
-  ),
 
-  // "Conversation and Everyday Discourse": PracticeModel(
-  //   audioPath: '',
-  //   questions: [
-  //     PracticeQuestion(
-  //       scenario: "BECE Theory Question 1\n\nYou are about to call your class prefect to discuss a school issue. Write TWO sentences: one using a formal greeting and one using an informal greeting. Then explain when each is appropriate.",
-  //       answer: "Formal: 'Good morning, Class Prefect. I would like to discuss an important school matter with you.'\nInformal (to a close friend): 'Hey Ama! What's up? I need to talk to you about something.'\n\nFormal register is used in official or school settings. Informal register is used with close friends in relaxed situations.",
-  //       explanation: "Register refers to the level of formality in language. Choosing the correct register shows social awareness and communication skill.",
-  //     ),
-  //     PracticeQuestion(
-  //       scenario: "BECE Theory Question 2\n\nExplain THREE features of an effective conversation. Give an example of each feature.",
-  //       answer: "1. Turn-taking — Each person waits for their turn to speak. Example: Kwame listens while Ama speaks, then responds.\n2. Active listening — Nodding and maintaining eye contact to show attention. Example: Nodding when the teacher explains.\n3. Appropriate language — Using correct register for the situation. Example: Using polite language when speaking to an elder.",
-  //       explanation: "Effective conversation involves balanced participation, attentive listening, and appropriate communication style.",
-  //     ),
-  //     PracticeQuestion(
-  //       scenario: "BECE Theory Question 3\n\nA new student from another country joins your class. They greet you informally, but you are in a classroom setting. Write a SHORT dialogue (4 lines) showing how you POLITELY correct the student's register and teach them the appropriate greeting.",
-  //       answer: "New student: 'Hey! What's going on?'\nYou: 'Hello! Welcome to our school. In class, we usually use more formal greetings.'\nNew student: 'Oh, I see. How should I say it?'\nYou: 'You could say: Good morning, class. It is more appropriate for the school setting.'",
-  //       explanation: "Helping someone use the correct register respectfully shows good communication skills and cultural awareness.",
-  //     ),
-  //     PracticeQuestion(
-  //       scenario: "BECE Theory Question 4\n\nWhat is the difference between VERBAL and NON-VERBAL communication? Give TWO examples of each.",
-  //       answer: "Verbal communication uses spoken or written words:\n• Example 1: Saying 'Thank you' to someone.\n• Example 2: Writing a text message.\n\nNon-verbal communication uses body language and gestures:\n• Example 1: Nodding your head to show agreement.\n• Example 2: Waving goodbye.",
-  //       explanation: "Both verbal and non-verbal communication are essential tools for sending and receiving messages effectively.",
-  //     ),
-  //     PracticeQuestion(
-  //       scenario: "BECE Theory Question 5\n\nYour friend says: 'I don't think you need to greet teachers — it wastes time.' Write a paragraph DISAGREEING with your friend and explaining why greetings are important in Ghanaian culture.",
-  //       answer: "I respectfully disagree with my friend's view. Greetings are a very important part of Ghanaian culture and social life. They show respect, especially to elders and those in authority. When we greet our teachers, we acknowledge their role and build a positive relationship with them. A simple 'Good morning, sir/madam' takes only a few seconds but makes a big difference in creating a respectful and welcoming classroom environment. Therefore, greetings should never be seen as a waste of time.",
-  //       explanation: "Giving reasons and using respectful disagreement language is a key communication skill tested in BECE.",
-  //     ),
-  //   ],
-  // ),
   "Giving and Following Direction": PracticeModel(
     audioPath: '',
     questions: [
@@ -3753,8 +3633,355 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+  "Science JHS2 s1 ss1 - Materials": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "(a) Explain why gases are more compressible than solids.\n\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Gases have large spaces between their particles or molecules.\n\n"
+            "• The particles or molecules in a gas have weak forces of attraction between them.\n\n"
+            "• Because of these spaces and weak forces, gas particles can easily be pushed or compressed closer together when pressure is applied.\n\n"
+            "• In contrast, particles in a solid are very closely packed together with strong forces of attraction, leaving almost no space for further compression.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Give three areas where the compressible nature of a gas is applied.\n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• In liquefied petroleum gas (LPG) cylinders used for cooking.\n\n"
+            "• In compressed-gas push-action cans such as air fresheners, insect sprays and aerosol sprays.\n\n"
+            "• In inflating or pumping car, bicycle and other vehicle tyres.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(c) Name three common solvents used in the home.\n\n",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Water\n\n"
+            "• Kerosene\n\n"
+            "• Vinegar\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Name two items commonly used in the home that are mixtures.",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Air\n\n"
+            "• Brass",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS3 s1 ss1 - Materials": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "(a) Explain why gases are more compressible than solids.\n\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Gases have large spaces between their particles or molecules.\n\n"
+            "• The particles or molecules in a gas have weak forces of attraction between them.\n\n"
+            "• Because of these spaces and weak forces, gas particles can easily be pushed or compressed closer together when pressure is applied.\n\n"
+            "• In contrast, particles in a solid are very closely packed together with strong forces of attraction, leaving almost no space for further compression.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Give three areas where the compressible nature of a gas is applied.\n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• In liquefied petroleum gas (LPG) cylinders used for cooking.\n\n"
+            "• In compressed-gas push-action cans such as air fresheners, insect sprays and aerosol sprays.\n\n"
+            "• In inflating or pumping car, bicycle and other vehicle tyres.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(c) Name three common solvents used in the home.\n\n",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Water\n\n"
+            "• Kerosene\n\n"
+            "• Vinegar\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Name two items commonly used in the home that are mixtures.",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Air\n\n"
+            "• Brass",
+        explanation: "",
+      ),
+    ],
+  ),
 
   "Science JHS1 s1 ss2 - Living Cells": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2002a Q18)\n\n"
+            "State four characteristics of non-living things.",
+        answer: "⦿ Characteristics of non-living things:\n\n"
+            "• They do not reproduce.\n\n"
+            "• They do not feed.\n\n"
+            "• Non-living things do not grow.\n\n"
+            "• They do not respond to stimuli or feel.\n\n"
+            "• They do not excrete.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2002b Q16)\n\n"
+            "Give one difference between plants and animals in terms of:\n"
+            "(i) feeding;\n"
+            "(ii) excretion;\n"
+            "(iii) sensitivity.",
+        answer: "⦿ (i) Feeding:\n\n"
+            "• Plants: They are able to manufacture their own food from simple substances.\n\n"
+            "• Animals: They depend on plants and other animals for food.\n\n"
+            "⦿ (ii) Excretion:\n\n"
+            "• Plants: They store some of their excretory products in the bark.\n\n"
+            "• Animals: They remove their excretory products through excretory organs.\n\n"
+            "⦿ (iii) Sensitivity:\n\n"
+            "• Plants: They respond slowly to stimuli.\n\n"
+            "• Animals: They respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2006 Q5(a))\n\n"
+            "Mention five differences between plants and animals.",
+        answer: "⦿ Differences between plants and animals:\n\n"
+            "• Cells: Plant cells have large and permanent vacuoles, while animal cells possess small and temporary vacuoles.\n\n"
+            "• Cell wall: Plant cells have cell walls, whereas animal cells have no cell walls.\n\n"
+            "• Chloroplast: Plant cells contain chloroplasts, while animal cells have no chloroplasts.\n\n"
+            "• Movement: Plants do not move freely from place to place, whereas animals move freely from place to place.\n\n"
+            "• Feeding: Plants manufacture their own food and are autotrophic, while animals do not manufacture their own food and are heterotrophic.\n\n"
+            "• Sensitivity: Plants respond slowly to stimuli, whereas animals respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2007 Q1)\n\n"
+            "(a) What is a living cell?\n\n"
+            "(b) Give one function of each of the following components of a living cell:\n"
+            "(i) cell membrane;\n"
+            "(ii) chloroplast;\n"
+            "(iii) nucleus.",
+        answer: "⦿ (a) Living cell:\n\n"
+            "• A living cell is the fundamental unit of life that is capable of carrying out all life processes. It is the basic building block of all living organisms.\n\n"
+            "⦿ (b) Functions of the components:\n\n"
+            "• (i) Cell membrane: It controls the movement of substances into and out of the cell. It also protects the cell by acting as a barrier between the internal and external environments.\n\n"
+            "• (ii) Chloroplast: It carries out photosynthesis by trapping sunlight to produce food. It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "• (iii) Nucleus: It controls all cell activities, including growth and reproduction. It also stores genetic material that determines inherited traits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [BECE 2010 Q6(a)(i)]\n\n"
+            "What is the difference between unicellular organisms and multicellular organisms?",
+        answer:
+            "⦿ Difference between unicellular and multicellular organisms:\n\n"
+            "• Unicellular organisms consist of only one cell that carries out all life functions, while multicellular organisms have many cells that specialise in different functions for survival.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 [BECE 2012 Q2(a)]\n\n"
+            "State one function of each of the following components of a typical cell:\n"
+            "(i) nucleus;\n"
+            "(ii) chloroplast;\n"
+            "(iii) mitochondrion.",
+        answer: "⦿ (i) Nucleus:\n\n"
+            "• It controls all cell activities, including growth and reproduction.\n\n"
+            "• It stores genetic material that determines inherited traits.\n\n"
+            "⦿ (ii) Chloroplast:\n\n"
+            "• It carries out photosynthesis by trapping sunlight to produce food.\n\n"
+            "• It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "⦿ (iii) Mitochondrion:\n\n"
+            "• It helps to break down nutrients such as glucose and fatty acids to release energy.\n\n"
+            "• It provides energy for cell activities.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 [BECE 2012 Q5(b)]\n\n"
+            "State:\n"
+            "(i) two differences between plants and animals;\n"
+            "(ii) two similarities between plants and animals.",
+        answer: "⦿ (i) Differences between plants and animals:\n\n"
+            "• Plant cells contain cell walls and large permanent vacuoles, while animal cells lack cell walls and have small temporary vacuoles.\n\n"
+            "• Plants are autotrophic and manufacture their own food, whereas animals are heterotrophic and depend on other organisms for food.\n\n"
+            "⦿ (ii) Similarities between plants and animals:\n\n"
+            "• Both are made up of cells.\n\n"
+            "• Both require energy to survive.\n\n"
+            "• Both undergo respiration to break down food and release energy.\n\n"
+            "• Both reproduce to produce offspring.\n\n"
+            "• Both respond to stimuli and react to environmental changes.\n\n"
+            "• Both grow, develop and eventually die.\n\n"
+            "• Both excrete metabolic waste materials.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 [BECE 2017 Q3(c)]\n\n"
+            "Explain the following terms as associated with living organisms:\n"
+            "(i) unicellular;\n"
+            "(ii) multicellular.",
+        answer: "⦿ (i) Unicellular:\n\n"
+            "• It refers to an organism that consists of a single cell which performs all the necessary life functions.\n\n"
+            "⦿ (ii) Multicellular:\n\n"
+            "• It refers to an organism composed of many cells that work together and are organised into tissues, organs and systems.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 [BECE 2017 Q4(b)(i)]\n\n"
+            "What is chloroplast?",
+        answer: "⦿ Chloroplast:\n\n"
+            "• A chloroplast is a plant-cell organelle that contains chlorophyll and is the site where photosynthesis takes place.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 [BECE 2017 Q4(b)(ii)]\n\n"
+            "State three characteristics of living things.",
+        answer: "⦿ Characteristics of living things:\n\n"
+            "• Movement: The ability to change position or move from one point to another.\n\n"
+            "• Respiration: The breakdown of nutrients to release energy within living cells.\n\n"
+            "• Sensitivity: The ability to respond to internal or environmental stimuli.\n\n"
+            "• Growth: A permanent increase in structural size or cellular complexity.\n\n"
+            "• Reproduction: The biological process by which living organisms produce offspring.\n\n"
+            "• Excretion: The removal of waste substances produced by metabolic processes.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s1 ss2 - Living Cells": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2002a Q18)\n\n"
+            "State four characteristics of non-living things.",
+        answer: "⦿ Characteristics of non-living things:\n\n"
+            "• They do not reproduce.\n\n"
+            "• They do not feed.\n\n"
+            "• Non-living things do not grow.\n\n"
+            "• They do not respond to stimuli or feel.\n\n"
+            "• They do not excrete.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2002b Q16)\n\n"
+            "Give one difference between plants and animals in terms of:\n"
+            "(i) feeding;\n"
+            "(ii) excretion;\n"
+            "(iii) sensitivity.",
+        answer: "⦿ (i) Feeding:\n\n"
+            "• Plants: They are able to manufacture their own food from simple substances.\n\n"
+            "• Animals: They depend on plants and other animals for food.\n\n"
+            "⦿ (ii) Excretion:\n\n"
+            "• Plants: They store some of their excretory products in the bark.\n\n"
+            "• Animals: They remove their excretory products through excretory organs.\n\n"
+            "⦿ (iii) Sensitivity:\n\n"
+            "• Plants: They respond slowly to stimuli.\n\n"
+            "• Animals: They respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2006 Q5(a))\n\n"
+            "Mention five differences between plants and animals.",
+        answer: "⦿ Differences between plants and animals:\n\n"
+            "• Cells: Plant cells have large and permanent vacuoles, while animal cells possess small and temporary vacuoles.\n\n"
+            "• Cell wall: Plant cells have cell walls, whereas animal cells have no cell walls.\n\n"
+            "• Chloroplast: Plant cells contain chloroplasts, while animal cells have no chloroplasts.\n\n"
+            "• Movement: Plants do not move freely from place to place, whereas animals move freely from place to place.\n\n"
+            "• Feeding: Plants manufacture their own food and are autotrophic, while animals do not manufacture their own food and are heterotrophic.\n\n"
+            "• Sensitivity: Plants respond slowly to stimuli, whereas animals respond quickly to stimuli.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2007 Q1)\n\n"
+            "(a) What is a living cell?\n\n"
+            "(b) Give one function of each of the following components of a living cell:\n"
+            "(i) cell membrane;\n"
+            "(ii) chloroplast;\n"
+            "(iii) nucleus.",
+        answer: "⦿ (a) Living cell:\n\n"
+            "• A living cell is the fundamental unit of life that is capable of carrying out all life processes. It is the basic building block of all living organisms.\n\n"
+            "⦿ (b) Functions of the components:\n\n"
+            "• (i) Cell membrane: It controls the movement of substances into and out of the cell. It also protects the cell by acting as a barrier between the internal and external environments.\n\n"
+            "• (ii) Chloroplast: It carries out photosynthesis by trapping sunlight to produce food. It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "• (iii) Nucleus: It controls all cell activities, including growth and reproduction. It also stores genetic material that determines inherited traits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [BECE 2010 Q6(a)(i)]\n\n"
+            "What is the difference between unicellular organisms and multicellular organisms?",
+        answer:
+            "⦿ Difference between unicellular and multicellular organisms:\n\n"
+            "• Unicellular organisms consist of only one cell that carries out all life functions, while multicellular organisms have many cells that specialise in different functions for survival.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 [BECE 2012 Q2(a)]\n\n"
+            "State one function of each of the following components of a typical cell:\n"
+            "(i) nucleus;\n"
+            "(ii) chloroplast;\n"
+            "(iii) mitochondrion.",
+        answer: "⦿ (i) Nucleus:\n\n"
+            "• It controls all cell activities, including growth and reproduction.\n\n"
+            "• It stores genetic material that determines inherited traits.\n\n"
+            "⦿ (ii) Chloroplast:\n\n"
+            "• It carries out photosynthesis by trapping sunlight to produce food.\n\n"
+            "• It contains chlorophyll, which gives plants their green colour and helps in light absorption.\n\n"
+            "⦿ (iii) Mitochondrion:\n\n"
+            "• It helps to break down nutrients such as glucose and fatty acids to release energy.\n\n"
+            "• It provides energy for cell activities.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 [BECE 2012 Q5(b)]\n\n"
+            "State:\n"
+            "(i) two differences between plants and animals;\n"
+            "(ii) two similarities between plants and animals.",
+        answer: "⦿ (i) Differences between plants and animals:\n\n"
+            "• Plant cells contain cell walls and large permanent vacuoles, while animal cells lack cell walls and have small temporary vacuoles.\n\n"
+            "• Plants are autotrophic and manufacture their own food, whereas animals are heterotrophic and depend on other organisms for food.\n\n"
+            "⦿ (ii) Similarities between plants and animals:\n\n"
+            "• Both are made up of cells.\n\n"
+            "• Both require energy to survive.\n\n"
+            "• Both undergo respiration to break down food and release energy.\n\n"
+            "• Both reproduce to produce offspring.\n\n"
+            "• Both respond to stimuli and react to environmental changes.\n\n"
+            "• Both grow, develop and eventually die.\n\n"
+            "• Both excrete metabolic waste materials.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 [BECE 2017 Q3(c)]\n\n"
+            "Explain the following terms as associated with living organisms:\n"
+            "(i) unicellular;\n"
+            "(ii) multicellular.",
+        answer: "⦿ (i) Unicellular:\n\n"
+            "• It refers to an organism that consists of a single cell which performs all the necessary life functions.\n\n"
+            "⦿ (ii) Multicellular:\n\n"
+            "• It refers to an organism composed of many cells that work together and are organised into tissues, organs and systems.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 [BECE 2017 Q4(b)(i)]\n\n"
+            "What is chloroplast?",
+        answer: "⦿ Chloroplast:\n\n"
+            "• A chloroplast is a plant-cell organelle that contains chlorophyll and is the site where photosynthesis takes place.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 [BECE 2017 Q4(b)(ii)]\n\n"
+            "State three characteristics of living things.",
+        answer: "⦿ Characteristics of living things:\n\n"
+            "• Movement: The ability to change position or move from one point to another.\n\n"
+            "• Respiration: The breakdown of nutrients to release energy within living cells.\n\n"
+            "• Sensitivity: The ability to respond to internal or environmental stimuli.\n\n"
+            "• Growth: A permanent increase in structural size or cellular complexity.\n\n"
+            "• Reproduction: The biological process by which living organisms produce offspring.\n\n"
+            "• Excretion: The removal of waste substances produced by metabolic processes.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s1 ss2 - Living Cells": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -4150,6 +4377,533 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+  "Science JHS2 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Give one example of hard water.\n\n"
+            "(b) Explain why it is advisable to drink water which is hard.",
+        answer: "⦿ (a) Example of hard water:\n\n"
+            "• Sea water, well water or borehole water.\n\n"
+            "⦿ (b) Why it is advisable to drink hard water:\n\n"
+            "• Hard water provides calcium and magnesium, which are essential for building strong bones and teeth.\n\n"
+            "• It helps to prevent heart diseases and can aid digestion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "State the properties of water in terms of:\n"
+            "(a) odour;\n"
+            "(b) taste;\n"
+            "(c) effect on litmus.",
+        answer: "⦿ (a) Odour:\n\n"
+            "• Water is odourless; it has no smell.\n\n"
+            "⦿ (b) Taste:\n\n"
+            "• Water is tasteless; it has no distinct taste.\n\n"
+            "⦿ (c) Effect on litmus:\n\n"
+            "• Water is neutral to litmus paper. It has no effect on either red or blue litmus paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(a) Name the two elements that combine to form water.\n\n"
+            "(b) Write a balanced chemical equation to show how water is formed from the named elements.",
+        answer: "⦿ (a) Elements that combine to form water:\n\n"
+            "• Hydrogen and oxygen.\n\n"
+            "⦿ (b) Balanced chemical equation:\n\n"
+            "• 2H₂ + O₂ → 2H₂O",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(a) State two physical properties of water.\n\n"
+            "(b) Using litmus paper, explain why water is neutral.",
+        answer: "⦿ (a) Physical properties of water:\n\n"
+            "• Water is colourless.\n\n"
+            "• Water is odourless.\n\n"
+            "• It is a universal solvent.\n\n"
+            "• It boils at 100°C and freezes at 0°C.\n\n"
+            "⦿ (b) Why water is neutral:\n\n"
+            "• When red litmus paper is dipped into pure water, it remains red.\n\n"
+            "• When blue litmus paper is dipped into pure water, it remains blue.\n\n"
+            "• This shows that pure water is neither acidic nor basic.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(a) List two properties of water.\n\n"
+            "(b) Explain why it is advisable to wash clothes with soft water.",
+        answer: "⦿ (a) Properties of water:\n\n"
+            "• It is a polar or universal solvent.\n\n"
+            "• It is colourless.\n\n"
+            "• It is odourless.\n\n"
+            "⦿ (b) Why it is advisable to wash clothes with soft water:\n\n"
+            "• Soft water forms lather easily with soap, which reduces the amount of soap used.\n\n"
+            "• It prevents soap scum from building up on clothes and in washing machines, keeping clothes softer and free from mineral deposits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6\n\n"
+            "State two methods of softening hard water.",
+        answer: "⦿ Methods of softening hard water:\n\n"
+            "• Boiling, especially for temporary hardness.\n\n"
+            "• Distillation.\n\n"
+            "• Deionisation.\n\n"
+            "• Addition of washing soda or sodium carbonate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7\n\n"
+            "Explain each of the following terms:\n"
+            "(i) soft water;\n"
+            "(ii) hard water.",
+        answer: "⦿ (i) Soft water:\n\n"
+            "• Soft water is water that does not contain large amounts of dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and forms lather easily with soap.\n\n"
+            "⦿ (ii) Hard water:\n\n"
+            "• Hard water is water that contains dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and does not form lather easily with soap.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8\n\n"
+            "(a) What is hardness of water?\n\n"
+            "(b) Give one example each of a natural source of water that is:\n"
+            "(i) hard water;\n"
+            "(ii) soft water.",
+        answer: "⦿ (a) Hardness of water:\n\n"
+            "• Hardness of water is the presence or measure of dissolved calcium, magnesium or iron ions in water which affects its ability to form lather with soap.\n\n"
+            "⦿ (b)(i) Natural sources of hard water:\n\n"
+            "• Groundwater, lagoon water, sea water or well water.\n\n"
+            "⦿ (b)(ii) Natural sources of soft water:\n\n"
+            "• Rainwater, stream water or pond water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9\n\n"
+            "(a) What is the water cycle?\n\n"
+            "(b) Describe three items of importance of the water cycle.",
+        answer: "⦿ (a) Water cycle:\n\n"
+            "• The water cycle is the continuous movement of water on Earth through processes such as evaporation, condensation and precipitation.\n\n"
+            "⦿ (b) Importance of the water cycle:\n\n"
+            "• It provides fresh water for plants, animals and humans.\n\n"
+            "• It helps to regulate the Earth's temperature.\n\n"
+            "• It replenishes natural water sources such as rivers, lakes and underground aquifers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10\n\n"
+            "(a) Mention two ways in which the carbon cycle can be maintained.\n\n"
+            "(b) State one environmental effect when the carbon cycle is disrupted.",
+        answer: "⦿ (a) Ways of maintaining the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Afforestation or replanting trees.\n\n"
+            "• Respiration.\n\n"
+            "• Animals feeding on plants.\n\n"
+            "⦿ (b) Environmental effects of disrupting the carbon cycle:\n\n"
+            "• Global warming or the greenhouse effect.\n\n"
+            "• A rise in sea level.\n\n"
+            "• Melting of icebergs.\n\n"
+            "• Extinction of certain plants or animals.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11\n\n"
+            "(a) State two human activities that disrupt the carbon cycle.\n\n"
+            "(b) State two effects of the disruption of the carbon cycle on the environment.",
+        answer: "⦿ (a) Human activities that disrupt the carbon cycle:\n\n"
+            "• Bush burning.\n\n"
+            "• Deforestation.\n\n"
+            "• Industrial activities that release fumes.\n\n"
+            "• Burning of fossil fuels.\n\n"
+            "⦿ (b) Environmental effects:\n\n"
+            "• Air pollution.\n\n"
+            "• Global warming or an increase in temperature.\n\n"
+            "• Reduction in rainfall.\n\n"
+            "• Reduction in oxygen levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12\n\n"
+            "(a) What is the carbon cycle?\n\n"
+            "(b) List four processes involved in the carbon cycle.",
+        answer: "⦿ (a) Carbon cycle:\n\n"
+            "• The carbon cycle is the natural process through which carbon circulates between the atmosphere, oceans, land and living organisms.\n\n"
+            "⦿ (b) Processes involved in the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Respiration.\n\n"
+            "• Combustion or burning.\n\n"
+            "• Decay or decomposition.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13\n\n"
+            "(a) Briefly describe the relationship between the carbon cycle and greenhouse gases.\n\n"
+            "(b) Name five greenhouse gases that are compounds of carbon.",
+        answer:
+            "⦿ (a) Relationship between the carbon cycle and greenhouse gases:\n\n"
+            "• The carbon cycle regulates the amount of carbon dioxide in the atmosphere. Carbon dioxide is a major greenhouse gas that traps heat and influences the Earth's temperature.\n\n"
+            "⦿ (b) Greenhouse gases that are compounds of carbon:\n\n"
+            "• Carbon dioxide (CO₂).\n\n"
+            "• Methane (CH₄).\n\n"
+            "• Chlorofluorocarbons (CFCs).\n\n"
+            "• Hydrofluorocarbons (HFCs).\n\n"
+            "• Perfluorocarbons (PFCs).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14\n\n"
+            "(a) State the processes of the nitrogen cycle.\n\n"
+            "(b) Explain why the nitrogen cycle is a repeated pattern in nature.",
+        answer: "⦿ (a) Processes of the nitrogen cycle:\n\n"
+            "• Nitrogen fixation.\n\n"
+            "• Nitrification.\n\n"
+            "• Assimilation.\n\n"
+            "• Ammonification.\n\n"
+            "• Denitrification.\n\n"
+            "⦿ (b) Why the nitrogen cycle is a repeated pattern:\n\n"
+            "• Nitrogen moves continuously between the atmosphere, soil and living organisms in a cyclic process in which it is constantly transformed but not lost.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15\n\n"
+            "(a) Distinguish between nitrification and denitrification.\n\n"
+            "(b) State three items of importance of nitrogen to the environment.",
+        answer:
+            "⦿ (a) Difference between nitrification and denitrification:\n\n"
+            "• Nitrification is the conversion of ammonia or ammonium compounds into nitrites and nitrates that plants can absorb.\n\n"
+            "• Denitrification is the conversion of nitrates in the soil into nitrogen gas, which is released into the atmosphere.\n\n"
+            "⦿ (b) Importance of nitrogen to the environment:\n\n"
+            "• It is essential for plant growth.\n\n"
+            "• It supports animal nutrition through protein formation.\n\n"
+            "• It improves overall soil fertility.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16\n\n"
+            "(a) State two factors necessary for photosynthesis.\n\n"
+            "(b) Explain the functions of each of the factors stated in (a).",
+        answer: "⦿ (a) Factors necessary for photosynthesis:\n\n"
+            "• Sunlight.\n\n"
+            "• Water.\n\n"
+            "• Carbon dioxide.\n\n"
+            "• Chlorophyll.\n\n"
+            "⦿ (b) Functions of the factors:\n\n"
+            "• Sunlight: It provides the energy needed for photosynthesis.\n\n"
+            "• Water: It acts as a raw material that combines with carbon dioxide to produce food.\n\n"
+            "• Carbon dioxide: It acts as a raw material that is converted into glucose.\n\n"
+            "• Chlorophyll: It absorbs or traps light energy from the sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17\n\n"
+            "What is photosynthesis?",
+        answer: "⦿ Photosynthesis:\n\n"
+            "• Photosynthesis is the process by which green plants use sunlight, water and carbon dioxide to manufacture food in the form of glucose and release oxygen as a by-product.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18\n\n"
+            "State what happens when photosynthesis occurs in a leaf.",
+        answer: "⦿ What happens during photosynthesis in a leaf:\n\n"
+            "• Water and carbon dioxide are used.\n\n"
+            "• Sunlight is absorbed by chlorophyll.\n\n"
+            "• Glucose is produced as food.\n\n"
+            "• Oxygen is released into the atmosphere.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19\n\n"
+            "State one function of each of the following factors in photosynthesis:\n"
+            "(a) chlorophyll;\n"
+            "(b) water.",
+        answer: "⦿ (a) Chlorophyll:\n\n"
+            "• It traps or absorbs sunlight needed for photosynthesis.\n\n"
+            "⦿ (b) Water:\n\n"
+            "• It provides the necessary raw material used in the production of glucose.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20\n\n"
+            "(a) Suggest an aim for an experiment in which leaves are tested with iodine after being kept in sunlight or darkness.\n\n"
+            "(b) Explain why the leaves are dipped in boiling water, then warm alcohol and finally washed in cold water.\n\n"
+            "(c) What conclusion is drawn if a leaf turns blue-black?",
+        answer: "⦿ (a) Aim of the experiment:\n\n"
+            "• To demonstrate that sunlight is necessary for photosynthesis to occur.\n\n"
+            "⦿ (b) Reasons for the different treatments:\n\n"
+            "• Boiling water: It kills the leaf cells and stops all chemical reactions.\n\n"
+            "• Warm alcohol: It removes chlorophyll and decolourises the leaf so that any colour change can be clearly observed.\n\n"
+            "• Cold water: It washes off the alcohol and softens the leaf.\n\n"
+            "⦿ (c) Conclusion:\n\n"
+            "• A blue-black colour shows that starch is present, proving that photosynthesis took place.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS3 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) Give one example of hard water.\n\n"
+            "(b) Explain why it is advisable to drink water which is hard.",
+        answer: "⦿ (a) Example of hard water:\n\n"
+            "• Sea water, well water or borehole water.\n\n"
+            "⦿ (b) Why it is advisable to drink hard water:\n\n"
+            "• Hard water provides calcium and magnesium, which are essential for building strong bones and teeth.\n\n"
+            "• It helps to prevent heart diseases and can aid digestion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "State the properties of water in terms of:\n"
+            "(a) odour;\n"
+            "(b) taste;\n"
+            "(c) effect on litmus.",
+        answer: "⦿ (a) Odour:\n\n"
+            "• Water is odourless; it has no smell.\n\n"
+            "⦿ (b) Taste:\n\n"
+            "• Water is tasteless; it has no distinct taste.\n\n"
+            "⦿ (c) Effect on litmus:\n\n"
+            "• Water is neutral to litmus paper. It has no effect on either red or blue litmus paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(a) Name the two elements that combine to form water.\n\n"
+            "(b) Write a balanced chemical equation to show how water is formed from the named elements.",
+        answer: "⦿ (a) Elements that combine to form water:\n\n"
+            "• Hydrogen and oxygen.\n\n"
+            "⦿ (b) Balanced chemical equation:\n\n"
+            "• 2H₂ + O₂ → 2H₂O",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(a) State two physical properties of water.\n\n"
+            "(b) Using litmus paper, explain why water is neutral.",
+        answer: "⦿ (a) Physical properties of water:\n\n"
+            "• Water is colourless.\n\n"
+            "• Water is odourless.\n\n"
+            "• It is a universal solvent.\n\n"
+            "• It boils at 100°C and freezes at 0°C.\n\n"
+            "⦿ (b) Why water is neutral:\n\n"
+            "• When red litmus paper is dipped into pure water, it remains red.\n\n"
+            "• When blue litmus paper is dipped into pure water, it remains blue.\n\n"
+            "• This shows that pure water is neither acidic nor basic.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(a) List two properties of water.\n\n"
+            "(b) Explain why it is advisable to wash clothes with soft water.",
+        answer: "⦿ (a) Properties of water:\n\n"
+            "• It is a polar or universal solvent.\n\n"
+            "• It is colourless.\n\n"
+            "• It is odourless.\n\n"
+            "⦿ (b) Why it is advisable to wash clothes with soft water:\n\n"
+            "• Soft water forms lather easily with soap, which reduces the amount of soap used.\n\n"
+            "• It prevents soap scum from building up on clothes and in washing machines, keeping clothes softer and free from mineral deposits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6\n\n"
+            "State two methods of softening hard water.",
+        answer: "⦿ Methods of softening hard water:\n\n"
+            "• Boiling, especially for temporary hardness.\n\n"
+            "• Distillation.\n\n"
+            "• Deionisation.\n\n"
+            "• Addition of washing soda or sodium carbonate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7\n\n"
+            "Explain each of the following terms:\n"
+            "(i) soft water;\n"
+            "(ii) hard water.",
+        answer: "⦿ (i) Soft water:\n\n"
+            "• Soft water is water that does not contain large amounts of dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and forms lather easily with soap.\n\n"
+            "⦿ (ii) Hard water:\n\n"
+            "• Hard water is water that contains dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions and does not form lather easily with soap.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8\n\n"
+            "(a) What is hardness of water?\n\n"
+            "(b) Give one example each of a natural source of water that is:\n"
+            "(i) hard water;\n"
+            "(ii) soft water.",
+        answer: "⦿ (a) Hardness of water:\n\n"
+            "• Hardness of water is the presence or measure of dissolved calcium, magnesium or iron ions in water which affects its ability to form lather with soap.\n\n"
+            "⦿ (b)(i) Natural sources of hard water:\n\n"
+            "• Groundwater, lagoon water, sea water or well water.\n\n"
+            "⦿ (b)(ii) Natural sources of soft water:\n\n"
+            "• Rainwater, stream water or pond water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9\n\n"
+            "(a) What is the water cycle?\n\n"
+            "(b) Describe three items of importance of the water cycle.",
+        answer: "⦿ (a) Water cycle:\n\n"
+            "• The water cycle is the continuous movement of water on Earth through processes such as evaporation, condensation and precipitation.\n\n"
+            "⦿ (b) Importance of the water cycle:\n\n"
+            "• It provides fresh water for plants, animals and humans.\n\n"
+            "• It helps to regulate the Earth's temperature.\n\n"
+            "• It replenishes natural water sources such as rivers, lakes and underground aquifers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10\n\n"
+            "(a) Mention two ways in which the carbon cycle can be maintained.\n\n"
+            "(b) State one environmental effect when the carbon cycle is disrupted.",
+        answer: "⦿ (a) Ways of maintaining the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Afforestation or replanting trees.\n\n"
+            "• Respiration.\n\n"
+            "• Animals feeding on plants.\n\n"
+            "⦿ (b) Environmental effects of disrupting the carbon cycle:\n\n"
+            "• Global warming or the greenhouse effect.\n\n"
+            "• A rise in sea level.\n\n"
+            "• Melting of icebergs.\n\n"
+            "• Extinction of certain plants or animals.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11\n\n"
+            "(a) State two human activities that disrupt the carbon cycle.\n\n"
+            "(b) State two effects of the disruption of the carbon cycle on the environment.",
+        answer: "⦿ (a) Human activities that disrupt the carbon cycle:\n\n"
+            "• Bush burning.\n\n"
+            "• Deforestation.\n\n"
+            "• Industrial activities that release fumes.\n\n"
+            "• Burning of fossil fuels.\n\n"
+            "⦿ (b) Environmental effects:\n\n"
+            "• Air pollution.\n\n"
+            "• Global warming or an increase in temperature.\n\n"
+            "• Reduction in rainfall.\n\n"
+            "• Reduction in oxygen levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12\n\n"
+            "(a) What is the carbon cycle?\n\n"
+            "(b) List four processes involved in the carbon cycle.",
+        answer: "⦿ (a) Carbon cycle:\n\n"
+            "• The carbon cycle is the natural process through which carbon circulates between the atmosphere, oceans, land and living organisms.\n\n"
+            "⦿ (b) Processes involved in the carbon cycle:\n\n"
+            "• Photosynthesis.\n\n"
+            "• Respiration.\n\n"
+            "• Combustion or burning.\n\n"
+            "• Decay or decomposition.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13\n\n"
+            "(a) Briefly describe the relationship between the carbon cycle and greenhouse gases.\n\n"
+            "(b) Name five greenhouse gases that are compounds of carbon.",
+        answer:
+            "⦿ (a) Relationship between the carbon cycle and greenhouse gases:\n\n"
+            "• The carbon cycle regulates the amount of carbon dioxide in the atmosphere. Carbon dioxide is a major greenhouse gas that traps heat and influences the Earth's temperature.\n\n"
+            "⦿ (b) Greenhouse gases that are compounds of carbon:\n\n"
+            "• Carbon dioxide (CO₂).\n\n"
+            "• Methane (CH₄).\n\n"
+            "• Chlorofluorocarbons (CFCs).\n\n"
+            "• Hydrofluorocarbons (HFCs).\n\n"
+            "• Perfluorocarbons (PFCs).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14\n\n"
+            "(a) State the processes of the nitrogen cycle.\n\n"
+            "(b) Explain why the nitrogen cycle is a repeated pattern in nature.",
+        answer: "⦿ (a) Processes of the nitrogen cycle:\n\n"
+            "• Nitrogen fixation.\n\n"
+            "• Nitrification.\n\n"
+            "• Assimilation.\n\n"
+            "• Ammonification.\n\n"
+            "• Denitrification.\n\n"
+            "⦿ (b) Why the nitrogen cycle is a repeated pattern:\n\n"
+            "• Nitrogen moves continuously between the atmosphere, soil and living organisms in a cyclic process in which it is constantly transformed but not lost.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15\n\n"
+            "(a) Distinguish between nitrification and denitrification.\n\n"
+            "(b) State three items of importance of nitrogen to the environment.",
+        answer:
+            "⦿ (a) Difference between nitrification and denitrification:\n\n"
+            "• Nitrification is the conversion of ammonia or ammonium compounds into nitrites and nitrates that plants can absorb.\n\n"
+            "• Denitrification is the conversion of nitrates in the soil into nitrogen gas, which is released into the atmosphere.\n\n"
+            "⦿ (b) Importance of nitrogen to the environment:\n\n"
+            "• It is essential for plant growth.\n\n"
+            "• It supports animal nutrition through protein formation.\n\n"
+            "• It improves overall soil fertility.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16\n\n"
+            "(a) State two factors necessary for photosynthesis.\n\n"
+            "(b) Explain the functions of each of the factors stated in (a).",
+        answer: "⦿ (a) Factors necessary for photosynthesis:\n\n"
+            "• Sunlight.\n\n"
+            "• Water.\n\n"
+            "• Carbon dioxide.\n\n"
+            "• Chlorophyll.\n\n"
+            "⦿ (b) Functions of the factors:\n\n"
+            "• Sunlight: It provides the energy needed for photosynthesis.\n\n"
+            "• Water: It acts as a raw material that combines with carbon dioxide to produce food.\n\n"
+            "• Carbon dioxide: It acts as a raw material that is converted into glucose.\n\n"
+            "• Chlorophyll: It absorbs or traps light energy from the sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17\n\n"
+            "What is photosynthesis?",
+        answer: "⦿ Photosynthesis:\n\n"
+            "• Photosynthesis is the process by which green plants use sunlight, water and carbon dioxide to manufacture food in the form of glucose and release oxygen as a by-product.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18\n\n"
+            "State what happens when photosynthesis occurs in a leaf.",
+        answer: "⦿ What happens during photosynthesis in a leaf:\n\n"
+            "• Water and carbon dioxide are used.\n\n"
+            "• Sunlight is absorbed by chlorophyll.\n\n"
+            "• Glucose is produced as food.\n\n"
+            "• Oxygen is released into the atmosphere.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19\n\n"
+            "State one function of each of the following factors in photosynthesis:\n"
+            "(a) chlorophyll;\n"
+            "(b) water.",
+        answer: "⦿ (a) Chlorophyll:\n\n"
+            "• It traps or absorbs sunlight needed for photosynthesis.\n\n"
+            "⦿ (b) Water:\n\n"
+            "• It provides the necessary raw material used in the production of glucose.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20\n\n"
+            "(a) Suggest an aim for an experiment in which leaves are tested with iodine after being kept in sunlight or darkness.\n\n"
+            "(b) Explain why the leaves are dipped in boiling water, then warm alcohol and finally washed in cold water.\n\n"
+            "(c) What conclusion is drawn if a leaf turns blue-black?",
+        answer: "⦿ (a) Aim of the experiment:\n\n"
+            "• To demonstrate that sunlight is necessary for photosynthesis to occur.\n\n"
+            "⦿ (b) Reasons for the different treatments:\n\n"
+            "• Boiling water: It kills the leaf cells and stops all chemical reactions.\n\n"
+            "• Warm alcohol: It removes chlorophyll and decolourises the leaf so that any colour change can be clearly observed.\n\n"
+            "• Cold water: It washes off the alcohol and softens the leaf.\n\n"
+            "⦿ (c) Conclusion:\n\n"
+            "• A blue-black colour shows that starch is present, proving that photosynthesis took place.",
+        explanation: "",
+      ),
+    ],
+  ),
 
   "Science JHS1 s2 ss2 - Life Cycle of Organisms": PracticeModel(
     audioPath: '',
@@ -4222,7 +4976,435 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+  "Science JHS2 s2 ss2 - Life Cycle of Organisms": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 [BECE 2016 Q2(b)]\n\n"
+            "Name the stages in the life cycle of a mosquito.",
+        answer: "⦿ Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 [BECE 2022 Q4(a)]\n\n"
+            "(i) Name the stages in the life cycle of a mosquito.\n\n"
+            "(ii) Name the stage at which feeding does not take place.",
+        answer: "⦿ (i) Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago\n\n"
+            "⦿ (ii) Stage at which feeding does not take place:\n\n"
+            "• Pupa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 [BECE 2023 Q4(a)]\n\n"
+            "(i) Explain how the female Anopheles mosquito transmits malaria to humans.\n\n"
+            "(ii) State one chemical method of controlling mosquitoes.",
+        answer:
+            "⦿ (i) How the female Anopheles mosquito transmits malaria to humans:\n\n"
+            "• Bites an infected person: When a female Anopheles mosquito bites a person with malaria, it sucks blood containing the Plasmodium parasite.\n\n"
+            "• Parasite develops in the mosquito: Inside the mosquito, the Plasmodium parasite multiplies and matures.\n\n"
+            "• Bites a healthy person: When the infected mosquito bites another person, it injects the parasite into the person's bloodstream, causing malaria.\n\n"
+            "⦿ (ii) Chemical methods of controlling mosquitoes:\n\n"
+            "• Using mosquito coils.\n\n"
+            "• Applying oil or kerosene to the surface of stagnant water.\n\n"
+            "• Spraying insecticides.\n\n"
+            "• Using insecticide-treated mosquito nets.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 [Likely Examinable]\n\n"
+            "Explain briefly the impact of houseflies on humans.",
+        answer: "⦿ Impact of houseflies on humans:\n\n"
+            "• Houseflies carry germs from dirty places and transfer them to food and water, causing diseases such as cholera and typhoid.\n\n"
+            "• They contaminate food by leaving bacteria behind when they land on it.\n\n"
+            "• Houseflies also help in the breakdown and recycling of organic matter.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [Likely Examinable]\n\n"
+            "(a) Mention three ways of reducing the effects of housefly activities on humans.\n\n"
+            "(b) Explain briefly the stages in the life cycle of a housefly.",
+        answer:
+            "⦿ (a) Ways of reducing the effects of houseflies on humans:\n\n"
+            "• Dispose of waste properly to eliminate their breeding grounds.\n\n"
+            "• Cover food and drinks to prevent contamination by flies.\n\n"
+            "• Clean the surroundings regularly to reduce housefly infestation.\n\n"
+            "• Use fly traps or insecticides to kill adult flies.\n\n"
+            "• Maintain good hygiene by washing hands before eating food.\n\n"
+            "⦿ (b) Stages in the life cycle of a housefly:\n\n"
+            "• Egg: The female housefly lays eggs on decaying matter or waste.\n\n"
+            "• Larva or maggot: The eggs hatch into maggots, which feed on the decaying matter.\n\n"
+            "• Pupa: The maggots form protective cases and develop into pupae.\n\n"
+            "• Adult: The pupa develops into an adult housefly, which emerges and reproduces.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s2 ss2 - Life Cycle of Organisms": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 [BECE 2016 Q2(b)]\n\n"
+            "Name the stages in the life cycle of a mosquito.",
+        answer: "⦿ Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 [BECE 2022 Q4(a)]\n\n"
+            "(i) Name the stages in the life cycle of a mosquito.\n\n"
+            "(ii) Name the stage at which feeding does not take place.",
+        answer: "⦿ (i) Stages in the life cycle of a mosquito:\n\n"
+            "• Egg\n\n"
+            "• Larva\n\n"
+            "• Pupa\n\n"
+            "• Adult mosquito or imago\n\n"
+            "⦿ (ii) Stage at which feeding does not take place:\n\n"
+            "• Pupa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 [BECE 2023 Q4(a)]\n\n"
+            "(i) Explain how the female Anopheles mosquito transmits malaria to humans.\n\n"
+            "(ii) State one chemical method of controlling mosquitoes.",
+        answer:
+            "⦿ (i) How the female Anopheles mosquito transmits malaria to humans:\n\n"
+            "• Bites an infected person: When a female Anopheles mosquito bites a person with malaria, it sucks blood containing the Plasmodium parasite.\n\n"
+            "• Parasite develops in the mosquito: Inside the mosquito, the Plasmodium parasite multiplies and matures.\n\n"
+            "• Bites a healthy person: When the infected mosquito bites another person, it injects the parasite into the person's bloodstream, causing malaria.\n\n"
+            "⦿ (ii) Chemical methods of controlling mosquitoes:\n\n"
+            "• Using mosquito coils.\n\n"
+            "• Applying oil or kerosene to the surface of stagnant water.\n\n"
+            "• Spraying insecticides.\n\n"
+            "• Using insecticide-treated mosquito nets.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 [Likely Examinable]\n\n"
+            "Explain briefly the impact of houseflies on humans.",
+        answer: "⦿ Impact of houseflies on humans:\n\n"
+            "• Houseflies carry germs from dirty places and transfer them to food and water, causing diseases such as cholera and typhoid.\n\n"
+            "• They contaminate food by leaving bacteria behind when they land on it.\n\n"
+            "• Houseflies also help in the breakdown and recycling of organic matter.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 [Likely Examinable]\n\n"
+            "(a) Mention three ways of reducing the effects of housefly activities on humans.\n\n"
+            "(b) Explain briefly the stages in the life cycle of a housefly.",
+        answer:
+            "⦿ (a) Ways of reducing the effects of houseflies on humans:\n\n"
+            "• Dispose of waste properly to eliminate their breeding grounds.\n\n"
+            "• Cover food and drinks to prevent contamination by flies.\n\n"
+            "• Clean the surroundings regularly to reduce housefly infestation.\n\n"
+            "• Use fly traps or insecticides to kill adult flies.\n\n"
+            "• Maintain good hygiene by washing hands before eating food.\n\n"
+            "⦿ (b) Stages in the life cycle of a housefly:\n\n"
+            "• Egg: The female housefly lays eggs on decaying matter or waste.\n\n"
+            "• Larva or maggot: The eggs hatch into maggots, which feed on the decaying matter.\n\n"
+            "• Pupa: The maggots form protective cases and develop into pupae.\n\n"
+            "• Adult: The pupa develops into an adult housefly, which emerges and reproduces.",
+        explanation: "",
+      ),
+    ],
+  ),
   "Science JHS1 s2 ss3 - Crop Production and Flowering Plants": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2013 Q4(a))\n\n"
+            "(a) State the difference between organic fertilizer and inorganic fertilizer.",
+        answer:
+            "• Organic fertilizer is obtained from living plants and animals' remains which undergo decay or decomposition.\n\n"
+            "• Inorganic fertilizer is manufactured from chemical materials or minerals through artificial or chemical processes.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2013 Q4(a))\n\n"
+            "(b) State two effects of inorganic fertilizer on the environment.",
+        answer:
+            "• Water pollution occurs when excess inorganic fertilizer leaches into the soil or washes off into water bodies, causing heavy algal growth and polluting water sources.\n\n"
+            "• Groundwater contamination results when the chemicals from chemical fertilizers seep deep into the underground water reserves, making it unsafe for consumption.\n\n"
+            "• Soil acidity or alteration of soil organisms can take place with continuous usage, changing the chemical balance of the soil and harming beneficial earthworms and other micro-organisms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q4(d))\n\n"
+            "(a) Give one function of each of the following nutrients in plants:\n"
+            "(i) Nitrogen\n"
+            "(ii) Potassium",
+        answer:
+            "(i) Nitrogen helps in plant development, is used to make chlorophyll, increases the yield of crops, and helps in plant growth.\n\n"
+            "(ii) Potassium helps in starch formation, helps reduce diseases in plants, and helps in the absorption of water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2015 Q4(d))\n\n"
+            "(b) Give one example of major plant nutrients (macro nutrients) in plants.",
+        answer:
+            "• Examples of major plant nutrients include Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), and Sulphur (S).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q4(d))\n\n"
+            "(a) State four methods of applying fertilizer to crops.",
+        answer:
+            "• Broadcasting involves the scattering of fertilizer uniformly over the entire surface area of the soil or field before planting.\n\n"
+            "• Band placement requires placing the fertilizer in bands or rows a few centimetres away from the seeds or plant rows.\n\n"
+            "• Ring placement consists of applying fertilizer in a continuous circular ring layout around the base of individual plants.\n\n"
+            "• Foliar application involves liquid fertilizer sprayed directly onto leaves for quick nutrient absorption.\n\n"
+            "• Side dressing means applying fertilizer along the sides of the growing plant rows during the cultivating season.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(b))\n\n"
+            "(a) List three factors that influence vegetable crop production.",
+        answer:
+            "• Soil quality determines the texture, fertility level, structure, and chemical properties of the cultivation ground.\n\n"
+            "• Pest control helps limit the presence, management, and reduction of destructive insects or plant-damaging entities.\n\n"
+            "• Water supply / Irrigation provides the regular availability and amount of water given to the vegetable crops.\n\n"
+            "• Nearness to market measures how close the production site is to the consumers to reduce crop spoilage after harvesting.\n\n"
+            "• Land topography evaluates the slope, layout, and nature of the surface terrain used for the farm.\n\n"
+            "• Weather conditions cover climatic factors like temperature, sunlight intensity, and rainfall distributions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2018 Q4(b))\n\n"
+            "(a) State three reasons why some seeds are nursed.",
+        answer:
+            "• To provide favourable growth conditions by protecting young and delicate seeds from extreme weather conditions, heavy rains, and intense heat until they grow strong.\n\n"
+            "• It helps in selection of healthy seedlings, allowing the farmer to choose only the most healthy and vigorous seedlings for transplanting.\n\n"
+            "• Improves crop growth uniformity to ensure that crops when transplanted grow evenly at the same rate and maturity time on the field.\n\n"
+            "• Helps in protecting and caring for seedlings which are delicate by allowing intensive management against pests, diseases, and weed competition during their initial fragile stage.\n\n"
+            "• To provide special treatment for some seeds that require specific dormancy-breaking treatments or strict moisture schedules that can be monitored easier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2020 Q4(b))\n\n"
+            "(a) State two uses of water in agriculture.",
+        answer:
+            "• Source of consumption for farm animals where it is provided as drinking water to sustain livestock and domestic farm animals.\n\n"
+            "• Used in fertilizer mixing and application as water acts as a solvent or medium to dissolve and spray chemical inputs and liquid treatments.\n\n"
+            "• Use for cleaning farm animals / Irrigation purpose helps with maintaining animal hygiene, washing equipment, and primary field watering to supplement rainfall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2019 Q4(f))\n\n"
+            "(a) State three methods of preventing the spread of the Swollen Shoot disease.",
+        answer:
+            "• Cutting down and burning infected plants involves systematically removing and destroying infected trees to completely stop the virus from moving to healthy ones.\n\n"
+            "• Using resistant varieties requires planting specially bred cocoa seedlings that can withstand or resist the Swollen Shoot virus attack.\n\n"
+            "• Control of insect vectors is managed by spraying or killing the mealybugs that act as the active biological transport carrying the disease.\n\n"
+            "• Quarantine measures enforce strict restrictions on moving cocoa plant materials from infected zones to clean areas.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q4(f))\n\n"
+            "(a) State three differences between organic and inorganic manures.",
+        answer:
+            "• Source of origin is different; organic manures are derived directly from natural plant and animal wastes, whereas inorganic fertilizers are derived from non-living synthetic chemicals and mineral deposits.\n\n"
+            "• Nutrient concentration differs because organic manure contains nutrients in lower concentrations and releases them slowly, while inorganic fertilizer contains specific plant nutrients in high, precise concentrations for fast release.\n\n"
+            "• Effect on soil structure shows that organic manure improves the physical structure, water retention, and microbial activity of the soil, while inorganic fertilizer does not improve soil structure and can lead to structural degradation or balance changes over extended use.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Explain the term 'staking' as used in crop production and give two examples of crops that require it.",
+        answer:
+            "• Explanation: Staking is a cultural husbandry practice where temporary wooden or bamboo sticks, poles, or metal supports are inserted into the ground near a climbing or weak-stemmed plant to provide structural support for upright growth. This keeps leaves and developing fruits off the damp ground, preventing rotting and improving air circulation.\n\n"
+            "• Examples of crops include Tomatoes, Yam, Sweet Pepper, Passiflora, and certain varieties of climbing beans.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2006 Q4(c))\n\n"
+            "(a) State two differences between sexual reproduction and vegetative reproduction.",
+        answer:
+            "• Sexual reproduction involves the fusion of male and female sex cells (gametes) and always involves seeds, whereas vegetative reproduction involves only a single parent plant where parts of the vegetative body (roots, stems, leaves, buds) develop into new individuals without seeds.\n\n"
+            "• Sexual reproduction results in offspring that show genetic variation from their parents, whereas vegetative reproduction produces offspring that are exact genetic clones of the parent plant.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2009 Q4(b))\n\n"
+            "(a) State two importance of seed dispersal.",
+        answer:
+            "• Prevents competition of food among plants by spreading seeds away from the mother plant to minimize overcrowding and intense competition for light, water, and soil nutrients.\n\n"
+            "• It introduces or spread plants to new areas, enabling plant species to colonise new geographical habitats and expand their distribution footprint.\n\n"
+            "• Prevents plants overcrowding, which ensures even distribution across land areas and limits the quick spread of localized plant diseases and pests.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2014 Q4(c))\n\n"
+            "(a) State two conditions necessary for the germination of seed.",
+        answer:
+            "• Water or moisture softens the hard seed coat and activates internal metabolic enzymes to trigger embryo development.\n\n"
+            "• Air or oxygen is required by the living embryo inside the seed for cellular respiration to generate energy for initial growth.\n\n"
+            "• Suitable temperature or warmth provides optimal thermal conditions for chemical reactions and cellular activities within the seed during growth.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2013 Q4(b))\n\n"
+            "(a) Name two types of fruits and state their mode of disposal.",
+        answer: "• Fruit 1: Coconut — Dispersed by water.\n\n"
+            "• Fruit 2: Mango / Tomato — Dispersed by animals (man).\n\n"
+            "• Fruit 3: Silk cotton / Tridax — Dispersed by wind.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s2 ss3 - Crop Production and Flowering Plants": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2013 Q4(a))\n\n"
+            "(a) State the difference between organic fertilizer and inorganic fertilizer.",
+        answer:
+            "• Organic fertilizer is obtained from living plants and animals' remains which undergo decay or decomposition.\n\n"
+            "• Inorganic fertilizer is manufactured from chemical materials or minerals through artificial or chemical processes.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2013 Q4(a))\n\n"
+            "(b) State two effects of inorganic fertilizer on the environment.",
+        answer:
+            "• Water pollution occurs when excess inorganic fertilizer leaches into the soil or washes off into water bodies, causing heavy algal growth and polluting water sources.\n\n"
+            "• Groundwater contamination results when the chemicals from chemical fertilizers seep deep into the underground water reserves, making it unsafe for consumption.\n\n"
+            "• Soil acidity or alteration of soil organisms can take place with continuous usage, changing the chemical balance of the soil and harming beneficial earthworms and other micro-organisms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q4(d))\n\n"
+            "(a) Give one function of each of the following nutrients in plants:\n"
+            "(i) Nitrogen\n"
+            "(ii) Potassium",
+        answer:
+            "(i) Nitrogen helps in plant development, is used to make chlorophyll, increases the yield of crops, and helps in plant growth.\n\n"
+            "(ii) Potassium helps in starch formation, helps reduce diseases in plants, and helps in the absorption of water.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2015 Q4(d))\n\n"
+            "(b) Give one example of major plant nutrients (macro nutrients) in plants.",
+        answer:
+            "• Examples of major plant nutrients include Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), and Sulphur (S).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q4(d))\n\n"
+            "(a) State four methods of applying fertilizer to crops.",
+        answer:
+            "• Broadcasting involves the scattering of fertilizer uniformly over the entire surface area of the soil or field before planting.\n\n"
+            "• Band placement requires placing the fertilizer in bands or rows a few centimetres away from the seeds or plant rows.\n\n"
+            "• Ring placement consists of applying fertilizer in a continuous circular ring layout around the base of individual plants.\n\n"
+            "• Foliar application involves liquid fertilizer sprayed directly onto leaves for quick nutrient absorption.\n\n"
+            "• Side dressing means applying fertilizer along the sides of the growing plant rows during the cultivating season.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(b))\n\n"
+            "(a) List three factors that influence vegetable crop production.",
+        answer:
+            "• Soil quality determines the texture, fertility level, structure, and chemical properties of the cultivation ground.\n\n"
+            "• Pest control helps limit the presence, management, and reduction of destructive insects or plant-damaging entities.\n\n"
+            "• Water supply / Irrigation provides the regular availability and amount of water given to the vegetable crops.\n\n"
+            "• Nearness to market measures how close the production site is to the consumers to reduce crop spoilage after harvesting.\n\n"
+            "• Land topography evaluates the slope, layout, and nature of the surface terrain used for the farm.\n\n"
+            "• Weather conditions cover climatic factors like temperature, sunlight intensity, and rainfall distributions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2018 Q4(b))\n\n"
+            "(a) State three reasons why some seeds are nursed.",
+        answer:
+            "• To provide favourable growth conditions by protecting young and delicate seeds from extreme weather conditions, heavy rains, and intense heat until they grow strong.\n\n"
+            "• It helps in selection of healthy seedlings, allowing the farmer to choose only the most healthy and vigorous seedlings for transplanting.\n\n"
+            "• Improves crop growth uniformity to ensure that crops when transplanted grow evenly at the same rate and maturity time on the field.\n\n"
+            "• Helps in protecting and caring for seedlings which are delicate by allowing intensive management against pests, diseases, and weed competition during their initial fragile stage.\n\n"
+            "• To provide special treatment for some seeds that require specific dormancy-breaking treatments or strict moisture schedules that can be monitored easier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2020 Q4(b))\n\n"
+            "(a) State two uses of water in agriculture.",
+        answer:
+            "• Source of consumption for farm animals where it is provided as drinking water to sustain livestock and domestic farm animals.\n\n"
+            "• Used in fertilizer mixing and application as water acts as a solvent or medium to dissolve and spray chemical inputs and liquid treatments.\n\n"
+            "• Use for cleaning farm animals / Irrigation purpose helps with maintaining animal hygiene, washing equipment, and primary field watering to supplement rainfall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2019 Q4(f))\n\n"
+            "(a) State three methods of preventing the spread of the Swollen Shoot disease.",
+        answer:
+            "• Cutting down and burning infected plants involves systematically removing and destroying infected trees to completely stop the virus from moving to healthy ones.\n\n"
+            "• Using resistant varieties requires planting specially bred cocoa seedlings that can withstand or resist the Swollen Shoot virus attack.\n\n"
+            "• Control of insect vectors is managed by spraying or killing the mealybugs that act as the active biological transport carrying the disease.\n\n"
+            "• Quarantine measures enforce strict restrictions on moving cocoa plant materials from infected zones to clean areas.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q4(f))\n\n"
+            "(a) State three differences between organic and inorganic manures.",
+        answer:
+            "• Source of origin is different; organic manures are derived directly from natural plant and animal wastes, whereas inorganic fertilizers are derived from non-living synthetic chemicals and mineral deposits.\n\n"
+            "• Nutrient concentration differs because organic manure contains nutrients in lower concentrations and releases them slowly, while inorganic fertilizer contains specific plant nutrients in high, precise concentrations for fast release.\n\n"
+            "• Effect on soil structure shows that organic manure improves the physical structure, water retention, and microbial activity of the soil, while inorganic fertilizer does not improve soil structure and can lead to structural degradation or balance changes over extended use.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Explain the term 'staking' as used in crop production and give two examples of crops that require it.",
+        answer:
+            "• Explanation: Staking is a cultural husbandry practice where temporary wooden or bamboo sticks, poles, or metal supports are inserted into the ground near a climbing or weak-stemmed plant to provide structural support for upright growth. This keeps leaves and developing fruits off the damp ground, preventing rotting and improving air circulation.\n\n"
+            "• Examples of crops include Tomatoes, Yam, Sweet Pepper, Passiflora, and certain varieties of climbing beans.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2006 Q4(c))\n\n"
+            "(a) State two differences between sexual reproduction and vegetative reproduction.",
+        answer:
+            "• Sexual reproduction involves the fusion of male and female sex cells (gametes) and always involves seeds, whereas vegetative reproduction involves only a single parent plant where parts of the vegetative body (roots, stems, leaves, buds) develop into new individuals without seeds.\n\n"
+            "• Sexual reproduction results in offspring that show genetic variation from their parents, whereas vegetative reproduction produces offspring that are exact genetic clones of the parent plant.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2009 Q4(b))\n\n"
+            "(a) State two importance of seed dispersal.",
+        answer:
+            "• Prevents competition of food among plants by spreading seeds away from the mother plant to minimize overcrowding and intense competition for light, water, and soil nutrients.\n\n"
+            "• It introduces or spread plants to new areas, enabling plant species to colonise new geographical habitats and expand their distribution footprint.\n\n"
+            "• Prevents plants overcrowding, which ensures even distribution across land areas and limits the quick spread of localized plant diseases and pests.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2014 Q4(c))\n\n"
+            "(a) State two conditions necessary for the germination of seed.",
+        answer:
+            "• Water or moisture softens the hard seed coat and activates internal metabolic enzymes to trigger embryo development.\n\n"
+            "• Air or oxygen is required by the living embryo inside the seed for cellular respiration to generate energy for initial growth.\n\n"
+            "• Suitable temperature or warmth provides optimal thermal conditions for chemical reactions and cellular activities within the seed during growth.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2013 Q4(b))\n\n"
+            "(a) Name two types of fruits and state their mode of disposal.",
+        answer: "• Fruit 1: Coconut — Dispersed by water.\n\n"
+            "• Fruit 2: Mango / Tomato — Dispersed by animals (man).\n\n"
+            "• Fruit 3: Silk cotton / Tridax — Dispersed by wind.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s2 ss3 - Crop Production and Flowering Plants": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -4550,102 +5732,92 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
-  "Science JHS1 s2 ss4 - Animal Production": PracticeModel(
+  "Science JHS2 s2 ss4 - Animal Production": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 14 (BECE 2011 Q5(a))\n\n"
-            "(a) State four diseases that occur due to deficiency of specific nutrients.",
-        answer: "⦿ Scurvy\n\n"
-            "⦿ Rickets\n\n"
-            "⦿ Goitre\n\n"
-            "⦿ Kwashiorkor\n\n"
-            "⦿ Anaemia\n\n"
-            "⦿ Beriberi\n\n"
-            "⦿ Pellagra",
+        scenario: "QUESTION 1 (BECE 2018 Q2(a))\n\n"
+            "Explain weaning as used in animal production.",
+        answer:
+            "• Weaning is the process of gradually stopping young animals from drinking their mother's milk and introducing them to solid food.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
-            "(b) (i) What is a food substance?\n"
-            "(ii) Give two functions of proteins in each of the following parts of the human body:\n"
-            "    (α) Hair\n"
-            "    (β) Nail\n"
-            "    (γ) Skin.",
-        answer: "⦿ (i) Answer:\n\n"
-            "A food substance is any chemical or organic compound in living organisms used for growth, energy release, tissue repair, or structural maintenance.\n\n"
-            "⦿ (ii) Functions of proteins:\n\n"
-            "• (α) Hair: Essential for the progressive structural growth of hair fibres and the immediate repair of broken or damaged hair strands.\n\n"
-            "• (β) Nail: Promotes natural nail cellular growth and provides essential structural strength to prevent brittleness.\n\n"
-            "• (γ) Skin: Drives the growth of fresh skin cells and accelerates the repair and healing of physical cuts or open wounds.",
+        scenario: "QUESTION 2 (BECE 2010 Q2(a)(ii))\n\n"
+            "(a) What are ruminants?\n"
+            "(b) Give two examples of ruminants.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Ruminants are animals or mammals with a four-chambered stomach.\n\n"
+            "⦿ (b) Examples of ruminants:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Giraffe\n\n"
+            "• Antelope",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2012 Q3(c))\n\n"
-            "(c) State two effects of lack of protein in the diet of humans.",
-        answer: "⦿ Effects of lack of protein in the diet of humans:\n\n"
-            "• Severely stunted or poor general body growth and development.\n\n"
-            "• Extremely slow or delayed healing of bodily cuts, wounds, and injuries.\n\n"
-            "• Development of critical nutritional deficiency conditions such as kwashiorkor.\n\n"
-            "• Progressive premature loss of hair fibres and degradation of teeth structural anchors.",
+        scenario: "QUESTION 3 (BECE 2011 Q6(d))\n\n"
+            "(a) State two effects of malnutrition in farm animals.\n"
+            "(b) Mention one disease of farm animals caused by virus.",
+        answer: "⦿ (a) Effects of malnutrition in farm animals:\n\n"
+            "• Reduced growth rate or stunted growth.\n\n"
+            "• Lower reproductive performance.\n\n"
+            "• Weakness of immune system.\n\n"
+            "• Loss of weight.\n\n"
+            "• Dullness.\n\n"
+            "⦿ (b) Disease of farm animals caused by virus:\n\n"
+            "• Newcastle\n\n"
+            "• Gumboro\n\n"
+            "• Fowl pox\n\n"
+            "• Swine fever\n\n"
+            "• Rinderpest",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2012 Q4(b))\n\n"
-            "(a) (i) What is respiration?\n"
-            "(ii) Name the types of respiration that occur in humans.",
-        answer: "⦿ (a) (i) Answer:\n\n"
-            "Respiration is the metabolic chemical process by which living organisms break down food in cells, with or without oxygen, to release energy, producing water vapour and carbon dioxide as secondary components.\n\n"
-            "⦿ (a) (ii) Types of respiration that occur in humans:\n\n"
-            "• Aerobic respiration\n\n"
-            "• Anaerobic respiration",
+        scenario: "QUESTION 4 (BECE 2011 Q6(e)(ii))\n\n"
+            "Explain the following terms as used in animal production:\n"
+            "(i) Ration;\n"
+            "(ii) Debeaking.",
+        answer: "• (i) Ration:\n\n"
+            "Ration is the amount of food given to an animal in a day to keep it healthy and productive.\n\n"
+            "• (ii) Debeaking:\n\n"
+            "Debeaking is the removal of horns from animals like cattle and goats to prevent injuries and make handling easier.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2012 Q5(a))\n\n"
-            "(b) (i) What is a respiratory organ?\n"
-            "(ii) Name two structures of the respiratory system of humans.",
-        answer: "⦿ (b) (i) Answer:\n\n"
-            "A respiratory organ is any distinct anatomical structure or tissue in living organisms used for regular breathing and biological gaseous exchange.\n\n"
-            "⦿ (b) (ii) Structures of the respiratory system of humans:\n\n"
-            "• Nose or nasal cavity\n\n"
-            "• Trachea or windpipe\n\n"
-            "• Bronchus\n\n"
-            "• Bronchioles\n\n"
-            "• Alveoli or air sacs\n\n"
-            "• Lungs\n\n"
-            "• Diaphragm\n\n"
-            "• Intercostal muscles",
+        scenario: "QUESTION 5 (BECE 2014 Q3(b)(ii))\n\n"
+            "State four methods used in identifying farm animals.",
+        answer: "• Branding\n\n"
+            "• Ear-notching\n\n"
+            "• Ear-tagging\n\n"
+            "• Tattooing\n\n"
+            "• Dyeing\n\n"
+            "• Banding",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2016 Q4(a))\n\n"
-            "(c) List four parts of the respiratory system in humans.",
-        answer: "⦿ Parts of the respiratory system in humans:\n\n"
-            "• Nose\n\n"
-            "• Trachea\n\n"
-            "• Bronchus\n\n"
-            "• Lungs",
+        scenario: "QUESTION 6 (BECE 2014 Q3(b)(ii))\n\n"
+            "(a) What is debeaking?\n"
+            "(b) Give two reasons why debeaking in poultry birds is important.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Debeaking is the partial removal of a poultry bird's beak.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Helps prevent cannibalism.\n\n"
+            "• Prevention of feather pecking.\n\n"
+            "• Helps check food wastage.\n\n"
+            "• Prevent egg eating.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2017 Q3(a))\n\n"
-            "(d) Differentiate between aerobic respiration and anaerobic respiration.",
-        answer: "⦿ Aerobic respiration:\n\n"
-            "Aerobic respiration relies on oxygen, completely breaks down glucose substances, and produces a large amount of energy.\n\n"
-            "⦿ Anaerobic respiration:\n\n"
-            "Anaerobic respiration occurs in the absence of oxygen, incompletely breaks down food molecules, and produces only a small amount of energy.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2022 Q4(b))\n\n"
-            "(e) (i) What is aerobic respiration?\n"
-            "(ii) State the main difference between aerobic and anaerobic respiration.",
-        answer: "⦿ (e) (i) Answer:\n\n"
-            "Aerobic respiration is the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water as by-products.\n\n"
-            "⦿ (e) (ii) Answer:\n\n"
-            "The main difference is that aerobic respiration requires oxygen to break down food substances, whereas anaerobic respiration occurs without oxygen.",
+        scenario: "QUESTION 7 (BECE 2022 Q3(d)(ii))\n\n"
+            "State the components of a balanced ration for feeding poultry.",
+        answer: "• Protein\n\n"
+            "• Minerals\n\n"
+            "• Fats and oil\n\n"
+            "• Carbohydrates\n\n"
+            "• Vitamins\n\n"
+            "• Water",
         explanation: "",
       ),
       PracticeQuestion(
@@ -4740,6 +5912,2245 @@ final Map<String, PracticeModel> becePracticeData = {
             "• All need clean water for survival and growth.\n\n"
             "• They are all affected by diseases and require veterinary care.\n\n"
             "• All reproduce sexually to increase their population.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s2 ss4 - Animal Production": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2018 Q2(a))\n\n"
+            "Explain weaning as used in animal production.",
+        answer:
+            "• Weaning is the process of gradually stopping young animals from drinking their mother's milk and introducing them to solid food.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2010 Q2(a)(ii))\n\n"
+            "(a) What are ruminants?\n"
+            "(b) Give two examples of ruminants.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Ruminants are animals or mammals with a four-chambered stomach.\n\n"
+            "⦿ (b) Examples of ruminants:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Giraffe\n\n"
+            "• Antelope",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2011 Q6(d))\n\n"
+            "(a) State two effects of malnutrition in farm animals.\n"
+            "(b) Mention one disease of farm animals caused by virus.",
+        answer: "⦿ (a) Effects of malnutrition in farm animals:\n\n"
+            "• Reduced growth rate or stunted growth.\n\n"
+            "• Lower reproductive performance.\n\n"
+            "• Weakness of immune system.\n\n"
+            "• Loss of weight.\n\n"
+            "• Dullness.\n\n"
+            "⦿ (b) Disease of farm animals caused by virus:\n\n"
+            "• Newcastle\n\n"
+            "• Gumboro\n\n"
+            "• Fowl pox\n\n"
+            "• Swine fever\n\n"
+            "• Rinderpest",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2011 Q6(e)(ii))\n\n"
+            "Explain the following terms as used in animal production:\n"
+            "(i) Ration;\n"
+            "(ii) Debeaking.",
+        answer: "• (i) Ration:\n\n"
+            "Ration is the amount of food given to an animal in a day to keep it healthy and productive.\n\n"
+            "• (ii) Debeaking:\n\n"
+            "Debeaking is the removal of horns from animals like cattle and goats to prevent injuries and make handling easier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q3(b)(ii))\n\n"
+            "State four methods used in identifying farm animals.",
+        answer: "• Branding\n\n"
+            "• Ear-notching\n\n"
+            "• Ear-tagging\n\n"
+            "• Tattooing\n\n"
+            "• Dyeing\n\n"
+            "• Banding",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2014 Q3(b)(ii))\n\n"
+            "(a) What is debeaking?\n"
+            "(b) Give two reasons why debeaking in poultry birds is important.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Debeaking is the partial removal of a poultry bird's beak.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Helps prevent cannibalism.\n\n"
+            "• Prevention of feather pecking.\n\n"
+            "• Helps check food wastage.\n\n"
+            "• Prevent egg eating.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2022 Q3(d)(ii))\n\n"
+            "State the components of a balanced ration for feeding poultry.",
+        answer: "• Protein\n\n"
+            "• Minerals\n\n"
+            "• Fats and oil\n\n"
+            "• Carbohydrates\n\n"
+            "• Vitamins\n\n"
+            "• Water",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (Likely Examinable)\n\n"
+            "(a) What is a monogastric animal?\n"
+            "(b) Give three examples of monogastric animals.\n"
+            "(c) Why is chicken considered as both poultry and monogastric?",
+        answer: "⦿ (a) Answer:\n\n"
+            "A monogastric animal is an animal with a simple or single-chambered stomach.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Pig\n\n"
+            "• Cat\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Rabbit\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Chicken are domesticated birds reared for meat, eggs, or feathers, and they have a single-chambered stomach.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (Likely Examinable)\n\n"
+            "(a) Explain briefly the difference between extensive and intensive animal housing systems.\n"
+            "(b) Suggest two ways farmers can improve the productivity of animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Extensive animal farming system is where the animals graze freely on large areas of land and depend on natural resources for food.\n\n"
+            "• Intensive animal farming system is animals are kept in confinement and much care provided with food, water and care by the farmer.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Provide animals with a balanced and nutritious diet.\n\n"
+            "• Ensure regular vaccination to prevent diseases in livestock.\n\n"
+            "• Maintain clean and well-ventilated housing for animals.\n\n"
+            "• Use improved breeds for higher productivity and growth.\n\n"
+            "• Practice proper hygiene and sanitation in animal houses.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (Likely Examinable)\n\n"
+            "(a) Mention three domestic and commercial useful use of animals.\n"
+            "(b) State three differences between ruminant and monogastric animals.",
+        answer: "⦿ (a) Answer:\n\n"
+            "⦿ Domestic use of animals:\n\n"
+            "• They provide security, example is dog.\n\n"
+            "• Source of food such as eggs, meat and milk.\n\n"
+            "• Some provide companionship (pets).\n\n"
+            "• They are used for hunting.\n\n"
+            "• Source of transportation.\n\n"
+            "⦿ Commercial use of animals:\n\n"
+            "• They provide employment for people.\n\n"
+            "• Source of raw materials for agricultural use.\n\n"
+            "• Source of income.\n\n"
+            "• Provision of meat, eggs and milk for the community.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Ruminants have a four-chamber stomach, whereas monogastric animals have a single-chamber stomach.\n\n"
+            "• Ruminants chew cud as part of digestion, whereas monogastric animals do not chew cud.\n\n"
+            "• Ruminants have a complex stomach setup, whereas monogastric animals have a simple stomach setup.\n\n"
+            "• Examples of ruminants include cattle, goats, and sheep, whereas examples of monogastric animals include pigs, dogs, and chickens.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (Likely Examinable)\n\n"
+            "(a) Distinguish between herbivores and omnivores.\n"
+            "(b) Give three examples each of domestic animals that are herbivores and omnivores.\n"
+            "(c) Why do herbivores have a complex stomach?\n"
+            "(d) Name the four stomach chambers of a ruminant.",
+        answer: "⦿ (a) Distinguish between herbivores and omnivores:\n\n"
+            "• Herbivores are animals that feed on mainly plants while omnivores are animals that feed on both plants and meat.\n\n"
+            "⦿ (b) Examples of herbivore and omnivore animals:\n\n"
+            "⦿ Examples of herbivore animals:\n\n"
+            "• Cattle\n\n"
+            "• Sheep\n\n"
+            "• Goat\n\n"
+            "• Rabbit\n\n"
+            "⦿ Examples of omnivore animals:\n\n"
+            "• Human\n\n"
+            "• Chicken\n\n"
+            "• Dog\n\n"
+            "• Pig\n\n"
+            "⦿ (c) Why do herbivores have a complex stomach:\n\n"
+            "• Herbivores have a complex stomach which helps them to efficiently digest and absorb the nutrients in their plant-based food.\n\n"
+            "⦿ (d) Chambers of a ruminant stomach:\n\n"
+            "• Rumen\n\n"
+            "• Abomasum\n\n"
+            "• Omasum\n\n"
+            "• Reticulum",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (Likely Examinable)\n\n"
+            "List three similarities among ruminants, monogastric and poultry.",
+        answer:
+            "• All are domesticated animals used for food and other purposes.\n\n"
+            "• All require proper nutrition to remain healthy and productive.\n\n"
+            "• All need clean water for survival and growth.\n\n"
+            "• They are all affected by diseases and require veterinary care.\n\n"
+            "• All reproduce sexually to increase their population.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2011 Q5(a))\n\n"
+            "(a) State four diseases that occur due to deficiency of specific nutrients.",
+        answer: "⦿ Scurvy\n\n"
+            "⦿ Rickets\n\n"
+            "⦿ Goitre\n\n"
+            "⦿ Kwashiorkor\n\n"
+            "⦿ Anaemia\n\n"
+            "⦿ Beriberi\n\n"
+            "⦿ Pellagra",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
+            "(b) (i) What is a food substance?\n"
+            "(ii) Give two functions of proteins in each of the following parts of the human body:\n"
+            "    (α) Hair\n"
+            "    (β) Nail\n"
+            "    (γ) Skin.",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food substance is any chemical or organic compound in living organisms used for growth, energy release, tissue repair, or structural maintenance.\n\n"
+            "⦿ (ii) Functions of proteins:\n\n"
+            "• (α) Hair: Essential for the progressive structural growth of hair fibres and the immediate repair of broken or damaged hair strands.\n\n"
+            "• (β) Nail: Promotes natural nail cellular growth and provides essential structural strength to prevent brittleness.\n\n"
+            "• (γ) Skin: Drives the growth of fresh skin cells and accelerates the repair and healing of physical cuts or open wounds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2012 Q3(c))\n\n"
+            "(c) State two effects of lack of protein in the diet of humans.",
+        answer: "⦿ Effects of lack of protein in the diet of humans:\n\n"
+            "• Severely stunted or poor general body growth and development.\n\n"
+            "• Extremely slow or delayed healing of bodily cuts, wounds, and injuries.\n\n"
+            "• Development of critical nutritional deficiency conditions such as kwashiorkor.\n\n"
+            "• Progressive premature loss of hair fibres and degradation of teeth structural anchors.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2012 Q4(b))\n\n"
+            "(a) (i) What is respiration?\n"
+            "(ii) Name the types of respiration that occur in humans.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Respiration is the metabolic chemical process by which living organisms break down food in cells, with or without oxygen, to release energy, producing water vapour and carbon dioxide as secondary components.\n\n"
+            "⦿ (a) (ii) Types of respiration that occur in humans:\n\n"
+            "• Aerobic respiration\n\n"
+            "• Anaerobic respiration",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q5(a))\n\n"
+            "(b) (i) What is a respiratory organ?\n"
+            "(ii) Name two structures of the respiratory system of humans.",
+        answer: "⦿ (b) (i) Answer:\n\n"
+            "A respiratory organ is any distinct anatomical structure or tissue in living organisms used for regular breathing and biological gaseous exchange.\n\n"
+            "⦿ (b) (ii) Structures of the respiratory system of humans:\n\n"
+            "• Nose or nasal cavity\n\n"
+            "• Trachea or windpipe\n\n"
+            "• Bronchus\n\n"
+            "• Bronchioles\n\n"
+            "• Alveoli or air sacs\n\n"
+            "• Lungs\n\n"
+            "• Diaphragm\n\n"
+            "• Intercostal muscles",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(a))\n\n"
+            "(c) List four parts of the respiratory system in humans.",
+        answer: "⦿ Parts of the respiratory system in humans:\n\n"
+            "• Nose\n\n"
+            "• Trachea\n\n"
+            "• Bronchus\n\n"
+            "• Lungs",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q3(a))\n\n"
+            "(d) Differentiate between aerobic respiration and anaerobic respiration.",
+        answer: "⦿ Aerobic respiration:\n\n"
+            "Aerobic respiration relies on oxygen, completely breaks down glucose substances, and produces a large amount of energy.\n\n"
+            "⦿ Anaerobic respiration:\n\n"
+            "Anaerobic respiration occurs in the absence of oxygen, incompletely breaks down food molecules, and produces only a small amount of energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2022 Q4(b))\n\n"
+            "(e) (i) What is aerobic respiration?\n"
+            "(ii) State the main difference between aerobic and anaerobic respiration.",
+        answer: "⦿ (e) (i) Answer:\n\n"
+            "Aerobic respiration is the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water as by-products.\n\n"
+            "⦿ (e) (ii) Answer:\n\n"
+            "The main difference is that aerobic respiration requires oxygen to break down food substances, whereas anaerobic respiration occurs without oxygen.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2013 Q5(b))\n\n"
+            "(a) (i) State two diseases which affect the teeth of humans.\n"
+            "(ii) Name two common diseases of the teeth.",
+        answer: "⦿ (a) (i) Diseases which affect the teeth of humans:\n\n"
+            "• Periodontitis\n\n"
+            "• Gingivitis\n\n"
+            "⦿ (a) (ii) Common diseases of the teeth:\n\n"
+            "• Dental caries or tooth decay\n\n"
+            "• Chronic gum disease",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2012 Q4(a))\n\n"
+            "(a) (i) Give two differences between a vein and an artery.\n"
+            "(ii) Mention four illnesses associated with the circulatory system.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "• Veins transport blood towards the heart, while arteries transport blood away from the heart.\n\n"
+            "• Veins have thin muscular walls, while arteries have thick muscular walls.\n\n"
+            "• Veins have wide lumens, while arteries have narrow lumens.\n\n"
+            "• Veins carry blood under low pressure, while arteries carry blood under high pressure.\n\n"
+            "• Veins contain valves to prevent the backward flow of blood, while arteries do not contain valves.\n\n"
+            "⦿ (a) (ii) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Cardiac arrest\n\n"
+            "• Chronic heart failure\n\n"
+            "• Hypertension or high blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11.  (BECE 2015 Q3(b))\n\n"
+            "(b) State one function of each of the following parts of the human circulatory system:\n"
+            "    (α) Blood\n"
+            "    (β) Blood vessel\n"
+            "    (γ) Heart. \n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• (α) Blood: Transports oxygen and nutrients to body cells and carries waste products away from the cells.\n\n"
+            "• (β) Blood vessel: Provides a pathway through which blood flows throughout the body.\n\n"
+            "• (γ) Heart: Pumps blood continuously throughout the body.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12  (BECE 2016 Q2(c))\n\n"
+            "(c) Mention three diseases of the circulatory system in humans. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Heart failure\n\n"
+            "• Hypertension or high blood pressure\n\n"
+            "• Hypotension or low blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2017 Q6(a))\n\n"
+            "(d) State four functions of the circulatory system in humans.",
+        answer: "⦿ Functions of the circulatory system in humans:\n\n"
+            "• Transports blood platelets to injured parts of the body to help clot the blood and seal wounds.\n\n"
+            "• Regulates and distributes body heat to maintain a uniform body temperature.\n\n"
+            "• Maintains the continuous circulation of blood throughout the body.\n\n"
+            "• Transports oxygen to body tissues and cells.\n\n"
+            "• Carries metabolic waste and excretory products away from body tissues.\n\n"
+            "• Transports hormones from endocrine glands to their target organs.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2013 Q1(a))\n\n"
+            "(a) (i) What is indiscriminate sex?\n"
+            "(ii) State two reasons why teenagers indulge in indiscriminate sex.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Indiscriminate sex is the practice of engaging in casual and frequent sexual activities with different partners without protection or stable relationships.\n\n"
+            "⦿ (a) (ii) Answer :\n\n"
+            "• Lack of parental care, guidance and supervision at home.\n\n"
+            "• Peer pressure and influence from friends.\n\n"
+            "• Inadequate or lack of reproductive health and sex education.\n\n"
+            "• Poverty and financial difficulties.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15   (BECE 2013 Q4(c))\n\n"
+            "(b) State one function of each of the following parts of the human reproductive system:\n"
+            "    (α) Penis\n"
+            "    (β) Testis\n"
+            "    (γ) Ovary\n"
+            "    (δ) Oviduct\n"
+            "    (ε) Uterus. \n\n",
+        answer: "⦿ (b) Functions of parts of the human reproductive system:\n\n"
+            "• (α) Penis: Transfers semen containing sperm cells into the female reproductive tract during sexual intercourse.\n\n"
+            "• (β) Testis: Produces sperm cells and male sex hormones.\n\n"
+            "• (γ) Ovary: Produces ova or egg cells and female sex hormones.\n\n"
+            "• (δ) Oviduct or Fallopian tube: It is the site where fertilisation normally occurs.\n\n"
+            "• (ε) Uterus or womb: Provides a suitable environment for the implantation, growth and development of an embryo.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16   (BECE 2018 Q3(c) / Q5(c))\n\n"
+            "(c) Explain briefly the term teenage pregnancy. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "Teenage pregnancy is a condition in which a girl between the ages of 13 and 19 becomes pregnant and carries a developing embryo or foetus.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17   (BECE 2018 Q4(c))\n\n"
+            "(d) State three functions of the female reproductive system in humans. ",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Produces and releases mature female egg cells or ova.\n\n"
+            "• Provides a suitable internal environment for fertilisation.\n\n"
+            "• Produces female reproductive hormones.\n\n"
+            "• Provides a suitable site for the implantation, growth and development of an embryo or foetus.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18   (BECE 2018 Q5(c))\n\n"
+            "(e) State four causes of teenage pregnancy. ",
+        answer: "⦿ (e) Answer:\n\n"
+            "• Lack of parental care, guidance and sex education.\n\n"
+            "• Peer pressure that encourages early sexual activity.\n\n"
+            "• Premature exposure to sexually explicit or adult content.\n\n"
+            "• Poverty and the absence of responsible parental figures.\n\n"
+            "• Sexual abuse or rape.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19  (BECE 2001 Q2) \n\n"
+            "(a) State four ways by which constipation can be avoided. ",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Consistently consuming meal plans rich in high dietary fiber.\n\n"
+            "• Drinking clean water fluids in high abundance daily.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20  (BECE 2011 Q3b)\n\n"
+            "(b) What is an enzyme? Give three examples of digestive enzymes found in the human body. ",
+        answer: "⦿ (b) Answer:\n\n"
+            "• An enzyme is a specialized biological protein catalyst produced by living cells that selectively accelerates or drives specific chemical breakdown reactions without being permanently altered itself.\n\n"
+            "• Examples of digestive enzymes include Salivary amylase (Ptyalin), Pepsin, Rennin (Rennet), and Lipase.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21  (BECE 2014 Q5b)\n\n"
+            "(c) (i) Give three examples of digestive enzymes found in the human body.\n\n "
+            "(ii) For each of the examples of digestive enzymes given in (i), name the part of the human body where the enzyme is produced.",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Salivary Amylase (Ptyalin): Synthesized and secreted by the salivary glands directly into the oral cavity.\n\n"
+            "• Pepsin: Generated and activated within the specialized gastric glands located in the muscular stomach wall lining.\n\n"
+            "• Lipase: Fabricated by the structural pancreas and released directly into the duodenum segment of the small intestine.\n\n",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2011 Q5(a))\n\n"
+            "(a) State four diseases that occur due to deficiency of specific nutrients.",
+        answer: "⦿ Scurvy\n\n"
+            "⦿ Rickets\n\n"
+            "⦿ Goitre\n\n"
+            "⦿ Kwashiorkor\n\n"
+            "⦿ Anaemia\n\n"
+            "⦿ Beriberi\n\n"
+            "⦿ Pellagra",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
+            "(b) (i) What is a food substance?\n"
+            "(ii) Give two functions of proteins in each of the following parts of the human body:\n"
+            "    (α) Hair\n"
+            "    (β) Nail\n"
+            "    (γ) Skin.",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food substance is any chemical or organic compound in living organisms used for growth, energy release, tissue repair, or structural maintenance.\n\n"
+            "⦿ (ii) Functions of proteins:\n\n"
+            "• (α) Hair: Essential for the progressive structural growth of hair fibres and the immediate repair of broken or damaged hair strands.\n\n"
+            "• (β) Nail: Promotes natural nail cellular growth and provides essential structural strength to prevent brittleness.\n\n"
+            "• (γ) Skin: Drives the growth of fresh skin cells and accelerates the repair and healing of physical cuts or open wounds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2012 Q3(c))\n\n"
+            "(c) State two effects of lack of protein in the diet of humans.",
+        answer: "⦿ Effects of lack of protein in the diet of humans:\n\n"
+            "• Severely stunted or poor general body growth and development.\n\n"
+            "• Extremely slow or delayed healing of bodily cuts, wounds, and injuries.\n\n"
+            "• Development of critical nutritional deficiency conditions such as kwashiorkor.\n\n"
+            "• Progressive premature loss of hair fibres and degradation of teeth structural anchors.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2012 Q4(b))\n\n"
+            "(a) (i) What is respiration?\n"
+            "(ii) Name the types of respiration that occur in humans.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Respiration is the metabolic chemical process by which living organisms break down food in cells, with or without oxygen, to release energy, producing water vapour and carbon dioxide as secondary components.\n\n"
+            "⦿ (a) (ii) Types of respiration that occur in humans:\n\n"
+            "• Aerobic respiration\n\n"
+            "• Anaerobic respiration",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q5(a))\n\n"
+            "(b) (i) What is a respiratory organ?\n"
+            "(ii) Name two structures of the respiratory system of humans.",
+        answer: "⦿ (b) (i) Answer:\n\n"
+            "A respiratory organ is any distinct anatomical structure or tissue in living organisms used for regular breathing and biological gaseous exchange.\n\n"
+            "⦿ (b) (ii) Structures of the respiratory system of humans:\n\n"
+            "• Nose or nasal cavity\n\n"
+            "• Trachea or windpipe\n\n"
+            "• Bronchus\n\n"
+            "• Bronchioles\n\n"
+            "• Alveoli or air sacs\n\n"
+            "• Lungs\n\n"
+            "• Diaphragm\n\n"
+            "• Intercostal muscles",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(a))\n\n"
+            "(c) List four parts of the respiratory system in humans.",
+        answer: "⦿ Parts of the respiratory system in humans:\n\n"
+            "• Nose\n\n"
+            "• Trachea\n\n"
+            "• Bronchus\n\n"
+            "• Lungs",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q3(a))\n\n"
+            "(d) Differentiate between aerobic respiration and anaerobic respiration.",
+        answer: "⦿ Aerobic respiration:\n\n"
+            "Aerobic respiration relies on oxygen, completely breaks down glucose substances, and produces a large amount of energy.\n\n"
+            "⦿ Anaerobic respiration:\n\n"
+            "Anaerobic respiration occurs in the absence of oxygen, incompletely breaks down food molecules, and produces only a small amount of energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2022 Q4(b))\n\n"
+            "(e) (i) What is aerobic respiration?\n"
+            "(ii) State the main difference between aerobic and anaerobic respiration.",
+        answer: "⦿ (e) (i) Answer:\n\n"
+            "Aerobic respiration is the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water as by-products.\n\n"
+            "⦿ (e) (ii) Answer:\n\n"
+            "The main difference is that aerobic respiration requires oxygen to break down food substances, whereas anaerobic respiration occurs without oxygen.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2013 Q5(b))\n\n"
+            "(a) (i) State two diseases which affect the teeth of humans.\n"
+            "(ii) Name two common diseases of the teeth.",
+        answer: "⦿ (a) (i) Diseases which affect the teeth of humans:\n\n"
+            "• Periodontitis\n\n"
+            "• Gingivitis\n\n"
+            "⦿ (a) (ii) Common diseases of the teeth:\n\n"
+            "• Dental caries or tooth decay\n\n"
+            "• Chronic gum disease",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2012 Q4(a))\n\n"
+            "(a) (i) Give two differences between a vein and an artery.\n"
+            "(ii) Mention four illnesses associated with the circulatory system.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "• Veins transport blood towards the heart, while arteries transport blood away from the heart.\n\n"
+            "• Veins have thin muscular walls, while arteries have thick muscular walls.\n\n"
+            "• Veins have wide lumens, while arteries have narrow lumens.\n\n"
+            "• Veins carry blood under low pressure, while arteries carry blood under high pressure.\n\n"
+            "• Veins contain valves to prevent the backward flow of blood, while arteries do not contain valves.\n\n"
+            "⦿ (a) (ii) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Cardiac arrest\n\n"
+            "• Chronic heart failure\n\n"
+            "• Hypertension or high blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11.  (BECE 2015 Q3(b))\n\n"
+            "(b) State one function of each of the following parts of the human circulatory system:\n"
+            "    (α) Blood\n"
+            "    (β) Blood vessel\n"
+            "    (γ) Heart. \n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• (α) Blood: Transports oxygen and nutrients to body cells and carries waste products away from the cells.\n\n"
+            "• (β) Blood vessel: Provides a pathway through which blood flows throughout the body.\n\n"
+            "• (γ) Heart: Pumps blood continuously throughout the body.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12  (BECE 2016 Q2(c))\n\n"
+            "(c) Mention three diseases of the circulatory system in humans. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Heart failure\n\n"
+            "• Hypertension or high blood pressure\n\n"
+            "• Hypotension or low blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2017 Q6(a))\n\n"
+            "(d) State four functions of the circulatory system in humans.",
+        answer: "⦿ Functions of the circulatory system in humans:\n\n"
+            "• Transports blood platelets to injured parts of the body to help clot the blood and seal wounds.\n\n"
+            "• Regulates and distributes body heat to maintain a uniform body temperature.\n\n"
+            "• Maintains the continuous circulation of blood throughout the body.\n\n"
+            "• Transports oxygen to body tissues and cells.\n\n"
+            "• Carries metabolic waste and excretory products away from body tissues.\n\n"
+            "• Transports hormones from endocrine glands to their target organs.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2013 Q1(a))\n\n"
+            "(a) (i) What is indiscriminate sex?\n"
+            "(ii) State two reasons why teenagers indulge in indiscriminate sex.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Indiscriminate sex is the practice of engaging in casual and frequent sexual activities with different partners without protection or stable relationships.\n\n"
+            "⦿ (a) (ii) Answer :\n\n"
+            "• Lack of parental care, guidance and supervision at home.\n\n"
+            "• Peer pressure and influence from friends.\n\n"
+            "• Inadequate or lack of reproductive health and sex education.\n\n"
+            "• Poverty and financial difficulties.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15   (BECE 2013 Q4(c))\n\n"
+            "(b) State one function of each of the following parts of the human reproductive system:\n"
+            "    (α) Penis\n"
+            "    (β) Testis\n"
+            "    (γ) Ovary\n"
+            "    (δ) Oviduct\n"
+            "    (ε) Uterus. \n\n",
+        answer: "⦿ (b) Functions of parts of the human reproductive system:\n\n"
+            "• (α) Penis: Transfers semen containing sperm cells into the female reproductive tract during sexual intercourse.\n\n"
+            "• (β) Testis: Produces sperm cells and male sex hormones.\n\n"
+            "• (γ) Ovary: Produces ova or egg cells and female sex hormones.\n\n"
+            "• (δ) Oviduct or Fallopian tube: It is the site where fertilisation normally occurs.\n\n"
+            "• (ε) Uterus or womb: Provides a suitable environment for the implantation, growth and development of an embryo.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16   (BECE 2018 Q3(c) / Q5(c))\n\n"
+            "(c) Explain briefly the term teenage pregnancy. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "Teenage pregnancy is a condition in which a girl between the ages of 13 and 19 becomes pregnant and carries a developing embryo or foetus.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17   (BECE 2018 Q4(c))\n\n"
+            "(d) State three functions of the female reproductive system in humans. ",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Produces and releases mature female egg cells or ova.\n\n"
+            "• Provides a suitable internal environment for fertilisation.\n\n"
+            "• Produces female reproductive hormones.\n\n"
+            "• Provides a suitable site for the implantation, growth and development of an embryo or foetus.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18   (BECE 2018 Q5(c))\n\n"
+            "(e) State four causes of teenage pregnancy. ",
+        answer: "⦿ (e) Answer:\n\n"
+            "• Lack of parental care, guidance and sex education.\n\n"
+            "• Peer pressure that encourages early sexual activity.\n\n"
+            "• Premature exposure to sexually explicit or adult content.\n\n"
+            "• Poverty and the absence of responsible parental figures.\n\n"
+            "• Sexual abuse or rape.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19  (BECE 2001 Q2) \n\n"
+            "(a) State four ways by which constipation can be avoided. ",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Consistently consuming meal plans rich in high dietary fiber.\n\n"
+            "• Drinking clean water fluids in high abundance daily.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20  (BECE 2011 Q3b)\n\n"
+            "(b) What is an enzyme? Give three examples of digestive enzymes found in the human body. ",
+        answer: "⦿ (b) Answer:\n\n"
+            "• An enzyme is a specialized biological protein catalyst produced by living cells that selectively accelerates or drives specific chemical breakdown reactions without being permanently altered itself.\n\n"
+            "• Examples of digestive enzymes include Salivary amylase (Ptyalin), Pepsin, Rennin (Rennet), and Lipase.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21  (BECE 2014 Q5b)\n\n"
+            "(c) (i) Give three examples of digestive enzymes found in the human body.\n\n "
+            "(ii) For each of the examples of digestive enzymes given in (i), name the part of the human body where the enzyme is produced.",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Salivary Amylase (Ptyalin): Synthesized and secreted by the salivary glands directly into the oral cavity.\n\n"
+            "• Pepsin: Generated and activated within the specialized gastric glands located in the muscular stomach wall lining.\n\n"
+            "• Lipase: Fabricated by the structural pancreas and released directly into the duodenum segment of the small intestine.\n\n",
+        explanation: "",
+      ),
+    ],
+  ),
+
+"Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2011 Q5(a))\n\n"
+            "(a) State four diseases that occur due to deficiency of specific nutrients.",
+        answer: "⦿ Scurvy\n\n"
+            "⦿ Rickets\n\n"
+            "⦿ Goitre\n\n"
+            "⦿ Kwashiorkor\n\n"
+            "⦿ Anaemia\n\n"
+            "⦿ Beriberi\n\n"
+            "⦿ Pellagra",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
+            "(b) (i) What is a food substance?\n"
+            "(ii) Give two functions of proteins in each of the following parts of the human body:\n"
+            "    (α) Hair\n"
+            "    (β) Nail\n"
+            "    (γ) Skin.",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food substance is any chemical or organic compound in living organisms used for growth, energy release, tissue repair, or structural maintenance.\n\n"
+            "⦿ (ii) Functions of proteins:\n\n"
+            "• (α) Hair: Essential for the progressive structural growth of hair fibres and the immediate repair of broken or damaged hair strands.\n\n"
+            "• (β) Nail: Promotes natural nail cellular growth and provides essential structural strength to prevent brittleness.\n\n"
+            "• (γ) Skin: Drives the growth of fresh skin cells and accelerates the repair and healing of physical cuts or open wounds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2012 Q3(c))\n\n"
+            "(c) State two effects of lack of protein in the diet of humans.",
+        answer: "⦿ Effects of lack of protein in the diet of humans:\n\n"
+            "• Severely stunted or poor general body growth and development.\n\n"
+            "• Extremely slow or delayed healing of bodily cuts, wounds, and injuries.\n\n"
+            "• Development of critical nutritional deficiency conditions such as kwashiorkor.\n\n"
+            "• Progressive premature loss of hair fibres and degradation of teeth structural anchors.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2012 Q4(b))\n\n"
+            "(a) (i) What is respiration?\n"
+            "(ii) Name the types of respiration that occur in humans.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Respiration is the metabolic chemical process by which living organisms break down food in cells, with or without oxygen, to release energy, producing water vapour and carbon dioxide as secondary components.\n\n"
+            "⦿ (a) (ii) Types of respiration that occur in humans:\n\n"
+            "• Aerobic respiration\n\n"
+            "• Anaerobic respiration",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q5(a))\n\n"
+            "(b) (i) What is a respiratory organ?\n"
+            "(ii) Name two structures of the respiratory system of humans.",
+        answer: "⦿ (b) (i) Answer:\n\n"
+            "A respiratory organ is any distinct anatomical structure or tissue in living organisms used for regular breathing and biological gaseous exchange.\n\n"
+            "⦿ (b) (ii) Structures of the respiratory system of humans:\n\n"
+            "• Nose or nasal cavity\n\n"
+            "• Trachea or windpipe\n\n"
+            "• Bronchus\n\n"
+            "• Bronchioles\n\n"
+            "• Alveoli or air sacs\n\n"
+            "• Lungs\n\n"
+            "• Diaphragm\n\n"
+            "• Intercostal muscles",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q4(a))\n\n"
+            "(c) List four parts of the respiratory system in humans.",
+        answer: "⦿ Parts of the respiratory system in humans:\n\n"
+            "• Nose\n\n"
+            "• Trachea\n\n"
+            "• Bronchus\n\n"
+            "• Lungs",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q3(a))\n\n"
+            "(d) Differentiate between aerobic respiration and anaerobic respiration.",
+        answer: "⦿ Aerobic respiration:\n\n"
+            "Aerobic respiration relies on oxygen, completely breaks down glucose substances, and produces a large amount of energy.\n\n"
+            "⦿ Anaerobic respiration:\n\n"
+            "Anaerobic respiration occurs in the absence of oxygen, incompletely breaks down food molecules, and produces only a small amount of energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2022 Q4(b))\n\n"
+            "(e) (i) What is aerobic respiration?\n"
+            "(ii) State the main difference between aerobic and anaerobic respiration.",
+        answer: "⦿ (e) (i) Answer:\n\n"
+            "Aerobic respiration is the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water as by-products.\n\n"
+            "⦿ (e) (ii) Answer:\n\n"
+            "The main difference is that aerobic respiration requires oxygen to break down food substances, whereas anaerobic respiration occurs without oxygen.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2013 Q5(b))\n\n"
+            "(a) (i) State two diseases which affect the teeth of humans.\n"
+            "(ii) Name two common diseases of the teeth.",
+        answer: "⦿ (a) (i) Diseases which affect the teeth of humans:\n\n"
+            "• Periodontitis\n\n"
+            "• Gingivitis\n\n"
+            "⦿ (a) (ii) Common diseases of the teeth:\n\n"
+            "• Dental caries or tooth decay\n\n"
+            "• Chronic gum disease",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2012 Q4(a))\n\n"
+            "(a) (i) Give two differences between a vein and an artery.\n"
+            "(ii) Mention four illnesses associated with the circulatory system.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "• Veins transport blood towards the heart, while arteries transport blood away from the heart.\n\n"
+            "• Veins have thin muscular walls, while arteries have thick muscular walls.\n\n"
+            "• Veins have wide lumens, while arteries have narrow lumens.\n\n"
+            "• Veins carry blood under low pressure, while arteries carry blood under high pressure.\n\n"
+            "• Veins contain valves to prevent the backward flow of blood, while arteries do not contain valves.\n\n"
+            "⦿ (a) (ii) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Cardiac arrest\n\n"
+            "• Chronic heart failure\n\n"
+            "• Hypertension or high blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11.  (BECE 2015 Q3(b))\n\n"
+            "(b) State one function of each of the following parts of the human circulatory system:\n"
+            "    (α) Blood\n"
+            "    (β) Blood vessel\n"
+            "    (γ) Heart. \n\n",
+        answer: "⦿ (b) Answer:\n\n"
+            "• (α) Blood: Transports oxygen and nutrients to body cells and carries waste products away from the cells.\n\n"
+            "• (β) Blood vessel: Provides a pathway through which blood flows throughout the body.\n\n"
+            "• (γ) Heart: Pumps blood continuously throughout the body.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12  (BECE 2016 Q2(c))\n\n"
+            "(c) Mention three diseases of the circulatory system in humans. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Anaemia\n\n"
+            "• Leukaemia\n\n"
+            "• Heart failure\n\n"
+            "• Hypertension or high blood pressure\n\n"
+            "• Hypotension or low blood pressure",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2017 Q6(a))\n\n"
+            "(d) State four functions of the circulatory system in humans.",
+        answer: "⦿ Functions of the circulatory system in humans:\n\n"
+            "• Transports blood platelets to injured parts of the body to help clot the blood and seal wounds.\n\n"
+            "• Regulates and distributes body heat to maintain a uniform body temperature.\n\n"
+            "• Maintains the continuous circulation of blood throughout the body.\n\n"
+            "• Transports oxygen to body tissues and cells.\n\n"
+            "• Carries metabolic waste and excretory products away from body tissues.\n\n"
+            "• Transports hormones from endocrine glands to their target organs.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 2013 Q1(a))\n\n"
+            "(a) (i) What is indiscriminate sex?\n"
+            "(ii) State two reasons why teenagers indulge in indiscriminate sex.",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "Indiscriminate sex is the practice of engaging in casual and frequent sexual activities with different partners without protection or stable relationships.\n\n"
+            "⦿ (a) (ii) Answer :\n\n"
+            "• Lack of parental care, guidance and supervision at home.\n\n"
+            "• Peer pressure and influence from friends.\n\n"
+            "• Inadequate or lack of reproductive health and sex education.\n\n"
+            "• Poverty and financial difficulties.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15   (BECE 2013 Q4(c))\n\n"
+            "(b) State one function of each of the following parts of the human reproductive system:\n"
+            "    (α) Penis\n"
+            "    (β) Testis\n"
+            "    (γ) Ovary\n"
+            "    (δ) Oviduct\n"
+            "    (ε) Uterus. \n\n",
+        answer: "⦿ (b) Functions of parts of the human reproductive system:\n\n"
+            "• (α) Penis: Transfers semen containing sperm cells into the female reproductive tract during sexual intercourse.\n\n"
+            "• (β) Testis: Produces sperm cells and male sex hormones.\n\n"
+            "• (γ) Ovary: Produces ova or egg cells and female sex hormones.\n\n"
+            "• (δ) Oviduct or Fallopian tube: It is the site where fertilisation normally occurs.\n\n"
+            "• (ε) Uterus or womb: Provides a suitable environment for the implantation, growth and development of an embryo.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16   (BECE 2018 Q3(c) / Q5(c))\n\n"
+            "(c) Explain briefly the term teenage pregnancy. ",
+        answer: "⦿ (c) Answer:\n\n"
+            "Teenage pregnancy is a condition in which a girl between the ages of 13 and 19 becomes pregnant and carries a developing embryo or foetus.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17   (BECE 2018 Q4(c))\n\n"
+            "(d) State three functions of the female reproductive system in humans. ",
+        answer: "⦿ (d) Answer:\n\n"
+            "• Produces and releases mature female egg cells or ova.\n\n"
+            "• Provides a suitable internal environment for fertilisation.\n\n"
+            "• Produces female reproductive hormones.\n\n"
+            "• Provides a suitable site for the implantation, growth and development of an embryo or foetus.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18   (BECE 2018 Q5(c))\n\n"
+            "(e) State four causes of teenage pregnancy. ",
+        answer: "⦿ (e) Answer:\n\n"
+            "• Lack of parental care, guidance and sex education.\n\n"
+            "• Peer pressure that encourages early sexual activity.\n\n"
+            "• Premature exposure to sexually explicit or adult content.\n\n"
+            "• Poverty and the absence of responsible parental figures.\n\n"
+            "• Sexual abuse or rape.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19  (BECE 2001 Q2) \n\n"
+            "(a) State four ways by which constipation can be avoided. ",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Consistently consuming meal plans rich in high dietary fiber.\n\n"
+            "• Drinking clean water fluids in high abundance daily.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20  (BECE 2011 Q3b)\n\n"
+            "(b) What is an enzyme? Give three examples of digestive enzymes found in the human body. ",
+        answer: "⦿ (b) Answer:\n\n"
+            "• An enzyme is a specialized biological protein catalyst produced by living cells that selectively accelerates or drives specific chemical breakdown reactions without being permanently altered itself.\n\n"
+            "• Examples of digestive enzymes include Salivary amylase (Ptyalin), Pepsin, Rennin (Rennet), and Lipase.\n\n"
+            "• Engaging in routine physical bodily exercise to stimulate regular muscle movement.\n\n"
+            "• Maintaining regular bowel habits.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21  (BECE 2014 Q5b)\n\n"
+            "(c) (i) Give three examples of digestive enzymes found in the human body.\n\n "
+            "(ii) For each of the examples of digestive enzymes given in (i), name the part of the human body where the enzyme is produced.",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Salivary Amylase (Ptyalin): Synthesized and secreted by the salivary glands directly into the oral cavity.\n\n"
+            "• Pepsin: Generated and activated within the specialized gastric glands located in the muscular stomach wall lining.\n\n"
+            "• Lipase: Fabricated by the structural pancreas and released directly into the duodenum segment of the small intestine.\n\n",
+        explanation: "",
+      ),
+    ],
+  ),
+
+
+  "Science JHS1 s3 ss2 - Solar System": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q2(d))\n\n"
+            "(a) What is a Milky Way?\n"
+            "(b) State one use of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• Alternatively, the Milky Way is the group of planets and stars to which the Earth belongs.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They enable radio and television transmission.\n\n"
+            "• They assist in weather forecasting.\n\n"
+            "• They help scientists in space research.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2012 Q5(f))\n\n"
+            "(a) What are stars?\n"
+            "(b) Arrange in order, starting from the Sun, the first four planets in the solar system.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Stars are natural heavenly bodies in space that produce heat and light.\n\n"
+            "⦿ (b) The first four planets in order from the Sun:\n\n"
+            "• Mercury\n\n"
+            "• Venus\n\n"
+            "• Earth\n\n"
+            "• Mars",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2016 Q4(d))\n\n"
+            "(a) What is a satellite?\n"
+            "(b) Give three uses of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A satellite is an object that moves or revolves around another heavenly body, such as a planet or the Earth.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They are used for space exploration.\n\n"
+            "• They are used for the transmission of radio and television signals.\n\n"
+            "• They are used for taking photographs of objects in space.\n\n"
+            "• They enable international internet communication.\n\n"
+            "• They help scientists to study the universe.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2017 Q4(d))\n\n"
+            "(a) What is a planet?\n"
+            "(b) Name two planets between the Sun and the Earth.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A planet is a heavenly body that moves around the Sun or another star.\n\n"
+            "⦿ (b) Planets between the Sun and the Earth:\n\n"
+            "• Mercury\n\n"
+            "• Venus",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2023 Q5(b))\n\n"
+            "(a) What is a galaxy?\n"
+            "(b) State the relationship between stars and galaxies.\n"
+            "(c) Explain briefly the term Milky Way.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A galaxy is a large group of stars, planets, gas and dust held together by gravity.\n\n"
+            "⦿ (b) Relationship between stars and galaxies:\n\n"
+            "• Stars are the main components of galaxies.\n\n"
+            "• Galaxies contain billions of stars within them.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• It appears as a band of light across the night sky.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s3 ss3 - Ecosystem": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q2(c))\n\n"
+            "Construct a food chain using any four of the organisms listed below:\n\n"
+            "Grass, lizard, hawk, snail, earthworm, grasshopper, toad, cat, cassava.",
+        answer: "⦿ Food chains:\n\n"
+            "• Grass → Grasshopper → Toad → Hawk\n\n"
+            "• Or: Cassava → Grasshopper → Lizard → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2014 Q2(b))\n\n"
+            "State two ways of maintaining balance in the ecosystem.",
+        answer: "⦿ Ways of maintaining balance in the ecosystem:\n\n"
+            "• Avoid bush burning: Refraining from setting uncontrolled fires preserves vegetation and protects the habitats of organisms.\n\n"
+            "• Practise afforestation: Planting new trees and restoring forests help maintain a healthy balance of gases in the atmosphere.\n\n"
+            "• Avoid air and water pollution: Proper disposal of harmful industrial and domestic waste keeps life-supporting resources clean.\n\n"
+            "• Avoid overgrazing: Controlling the feeding of livestock prevents the destruction of vegetation and soil degradation.\n\n"
+            "• Educate farmers on the proper use of agrochemicals: Correct application of fertilisers and other chemicals protects wildlife and prevents chemical run-off.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q5(d))\n\n"
+            "(i) What is air pollution?\n"
+            "(ii) Name two human activities that lead to air pollution.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Air pollution is the introduction of harmful substances or pollutants into the atmosphere, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Human activities that lead to air pollution:\n\n"
+            "• Bush burning\n\n"
+            "• Mining and construction activities\n\n"
+            "• Open burning of waste or refuse\n\n"
+            "• Agricultural activities and deforestation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2019 Q2(a))\n\n"
+            "(i) What is a food chain?\n"
+            "(ii) Why is the sun important to the other organisms in a food chain?\n"
+            "(iii) Why is the plant in a food chain referred to as a producer?\n"
+            "(iv) Describe the movement of energy in a food chain.\n"
+            "(v) State the role of plants in a food chain.\n"
+            "(vi) What are consumers?",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food chain is a linear sequence that shows how food and energy move from one organism to another in an ecosystem.\n\n"
+            "⦿ (ii) Role of the Sun:\n\n"
+            "The sun is the ultimate source of light energy used by green plants to manufacture food through photosynthesis.\n\n"
+            "⦿ (iii) Why plants are called producers:\n\n"
+            "Plants are called producers because they manufacture their own food through photosynthesis.\n\n"
+            "⦿ (iv) Movement of energy:\n\n"
+            "Energy flows in one direction along the food chain as one organism feeds on another.\n\n"
+            "⦿ (v) Role of plants:\n\n"
+            "Plants form the first feeding level and provide food for other organisms in the ecosystem.\n\n"
+            "⦿ (vi) Answer:\n\n"
+            "Consumers are organisms that cannot manufacture their own food and therefore depend on plants or other animals for food.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2019 Q3(a))\n\n"
+            "(i) What is pollution?\n"
+            "(ii) Name one air pollutant.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Pollution is the introduction of harmful materials or contaminants into the environment, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Air pollutants:\n\n"
+            "• Dust\n\n"
+            "• Carbon monoxide or carbon(II) oxide\n\n"
+            "• Nitrogen dioxide or nitrogen(IV) oxide\n\n"
+            "• Wood smoke\n\n"
+            "• Vehicle exhaust fumes\n\n"
+            "• Sulphur dioxide or sulphur(IV) oxide",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2020 Q1(c))\n\n"
+            "(a) State three external features of the weaver bird that enable it to live successfully in its environment.\n"
+            "(b) List four harmful effects of air pollution.",
+        answer: "⦿ (a) Adaptive external features of the weaver bird:\n\n"
+            "• Forelimbs modified into wings for flight, enabling it to move quickly, search for food and escape predators.\n\n"
+            "• Its body is covered with feathers that help to retain heat and regulate body temperature.\n\n"
+            "• It has legs with claws for gripping branches and handling food.\n\n"
+            "• It has a beak adapted for breaking seeds and gathering materials.\n\n"
+            "⦿ (b) Harmful effects of air pollution:\n\n"
+            "• It causes respiratory diseases such as asthma.\n\n"
+            "• It contributes to the formation of acid rain.\n\n"
+            "• It contributes to climate change and rising temperatures.\n\n"
+            "• It contaminates water bodies and damages vegetation.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2020 Q3(a))\n\n"
+            "State two differences between an ecosystem and a habitat.",
+        answer: "⦿ Differences between an ecosystem and a habitat:\n\n"
+            "• An ecosystem consists of a community of living organisms interacting with one another and with the non-living components of their environment, whereas a habitat is the particular place where an organism lives.\n\n"
+            "• An ecosystem involves broad processes such as energy flow and nutrient cycling, whereas a habitat mainly provides the shelter, water, food and other immediate needs of a particular organism.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2021 Q4(c))\n\n"
+            "Use any three of the following organisms to construct a food chain:\n\n"
+            "Hawk, grasshopper, toad, green plant.",
+        answer: "⦿ Food chains:\n\n"
+            "• Green plant → Grasshopper → Hawk\n\n"
+            "• Or: Green plant → Toad → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q6(a))\n\n"
+            "State three ways by which the atmosphere in an industrial area is polluted.",
+        answer:
+            "⦿ Ways by which the atmosphere in an industrial area is polluted:\n\n"
+            "• Release of carbon dioxide from combustion engines and industrial machinery.\n\n"
+            "• Discharge of smoke from factory chimneys.\n\n"
+            "• Release of excessive heat from industrial plants.\n\n"
+            "• Release of industrial dust particles during crushing, processing and sorting of materials.\n\n"
+            "• Release of carbon monoxide through the incomplete combustion of fuels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q6(c))\n\n"
+            "State three effects of dumping waste materials into water bodies.",
+        answer: "⦿ Effects of dumping waste materials into water bodies:\n\n"
+            "• It causes the death of fish and other aquatic organisms.\n\n"
+            "• It promotes the spread of water-borne diseases such as cholera and typhoid.\n\n"
+            "• It makes the water unsafe for drinking, cooking and other domestic activities.\n\n"
+            "• It disrupts food chains and food webs in aquatic ecosystems.\n\n"
+            "• It produces offensive odours as organic waste decomposes.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s3 ss2 - Solar System": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q2(d))\n\n"
+            "(a) What is a Milky Way?\n"
+            "(b) State one use of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• Alternatively, the Milky Way is the group of planets and stars to which the Earth belongs.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They enable radio and television transmission.\n\n"
+            "• They assist in weather forecasting.\n\n"
+            "• They help scientists in space research.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2012 Q5(f))\n\n"
+            "(a) What are stars?\n"
+            "(b) Arrange in order, starting from the Sun, the first four planets in the solar system.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Stars are natural heavenly bodies in space that produce heat and light.\n\n"
+            "⦿ (b) The first four planets in order from the Sun:\n\n"
+            "• Mercury\n\n"
+            "• Venus\n\n"
+            "• Earth\n\n"
+            "• Mars",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2016 Q4(d))\n\n"
+            "(a) What is a satellite?\n"
+            "(b) Give three uses of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A satellite is an object that moves or revolves around another heavenly body, such as a planet or the Earth.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They are used for space exploration.\n\n"
+            "• They are used for the transmission of radio and television signals.\n\n"
+            "• They are used for taking photographs of objects in space.\n\n"
+            "• They enable international internet communication.\n\n"
+            "• They help scientists to study the universe.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2017 Q4(d))\n\n"
+            "(a) What is a planet?\n"
+            "(b) Name two planets between the Sun and the Earth.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A planet is a heavenly body that moves around the Sun or another star.\n\n"
+            "⦿ (b) Planets between the Sun and the Earth:\n\n"
+            "• Mercury\n\n"
+            "• Venus",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2023 Q5(b))\n\n"
+            "(a) What is a galaxy?\n"
+            "(b) State the relationship between stars and galaxies.\n"
+            "(c) Explain briefly the term Milky Way.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A galaxy is a large group of stars, planets, gas and dust held together by gravity.\n\n"
+            "⦿ (b) Relationship between stars and galaxies:\n\n"
+            "• Stars are the main components of galaxies.\n\n"
+            "• Galaxies contain billions of stars within them.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• It appears as a band of light across the night sky.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS2 s3 ss3 - Ecosystem": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q2(c))\n\n"
+            "Construct a food chain using any four of the organisms listed below:\n\n"
+            "Grass, lizard, hawk, snail, earthworm, grasshopper, toad, cat, cassava.",
+        answer: "⦿ Food chains:\n\n"
+            "• Grass → Grasshopper → Toad → Hawk\n\n"
+            "• Or: Cassava → Grasshopper → Lizard → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2014 Q2(b))\n\n"
+            "State two ways of maintaining balance in the ecosystem.",
+        answer: "⦿ Ways of maintaining balance in the ecosystem:\n\n"
+            "• Avoid bush burning: Refraining from setting uncontrolled fires preserves vegetation and protects the habitats of organisms.\n\n"
+            "• Practise afforestation: Planting new trees and restoring forests help maintain a healthy balance of gases in the atmosphere.\n\n"
+            "• Avoid air and water pollution: Proper disposal of harmful industrial and domestic waste keeps life-supporting resources clean.\n\n"
+            "• Avoid overgrazing: Controlling the feeding of livestock prevents the destruction of vegetation and soil degradation.\n\n"
+            "• Educate farmers on the proper use of agrochemicals: Correct application of fertilisers and other chemicals protects wildlife and prevents chemical run-off.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q5(d))\n\n"
+            "(i) What is air pollution?\n"
+            "(ii) Name two human activities that lead to air pollution.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Air pollution is the introduction of harmful substances or pollutants into the atmosphere, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Human activities that lead to air pollution:\n\n"
+            "• Bush burning\n\n"
+            "• Mining and construction activities\n\n"
+            "• Open burning of waste or refuse\n\n"
+            "• Agricultural activities and deforestation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2019 Q2(a))\n\n"
+            "(i) What is a food chain?\n"
+            "(ii) Why is the sun important to the other organisms in a food chain?\n"
+            "(iii) Why is the plant in a food chain referred to as a producer?\n"
+            "(iv) Describe the movement of energy in a food chain.\n"
+            "(v) State the role of plants in a food chain.\n"
+            "(vi) What are consumers?",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food chain is a linear sequence that shows how food and energy move from one organism to another in an ecosystem.\n\n"
+            "⦿ (ii) Role of the Sun:\n\n"
+            "The sun is the ultimate source of light energy used by green plants to manufacture food through photosynthesis.\n\n"
+            "⦿ (iii) Why plants are called producers:\n\n"
+            "Plants are called producers because they manufacture their own food through photosynthesis.\n\n"
+            "⦿ (iv) Movement of energy:\n\n"
+            "Energy flows in one direction along the food chain as one organism feeds on another.\n\n"
+            "⦿ (v) Role of plants:\n\n"
+            "Plants form the first feeding level and provide food for other organisms in the ecosystem.\n\n"
+            "⦿ (vi) Answer:\n\n"
+            "Consumers are organisms that cannot manufacture their own food and therefore depend on plants or other animals for food.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2019 Q3(a))\n\n"
+            "(i) What is pollution?\n"
+            "(ii) Name one air pollutant.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Pollution is the introduction of harmful materials or contaminants into the environment, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Air pollutants:\n\n"
+            "• Dust\n\n"
+            "• Carbon monoxide or carbon(II) oxide\n\n"
+            "• Nitrogen dioxide or nitrogen(IV) oxide\n\n"
+            "• Wood smoke\n\n"
+            "• Vehicle exhaust fumes\n\n"
+            "• Sulphur dioxide or sulphur(IV) oxide",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2020 Q1(c))\n\n"
+            "(a) State three external features of the weaver bird that enable it to live successfully in its environment.\n"
+            "(b) List four harmful effects of air pollution.",
+        answer: "⦿ (a) Adaptive external features of the weaver bird:\n\n"
+            "• Forelimbs modified into wings for flight, enabling it to move quickly, search for food and escape predators.\n\n"
+            "• Its body is covered with feathers that help to retain heat and regulate body temperature.\n\n"
+            "• It has legs with claws for gripping branches and handling food.\n\n"
+            "• It has a beak adapted for breaking seeds and gathering materials.\n\n"
+            "⦿ (b) Harmful effects of air pollution:\n\n"
+            "• It causes respiratory diseases such as asthma.\n\n"
+            "• It contributes to the formation of acid rain.\n\n"
+            "• It contributes to climate change and rising temperatures.\n\n"
+            "• It contaminates water bodies and damages vegetation.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2020 Q3(a))\n\n"
+            "State two differences between an ecosystem and a habitat.",
+        answer: "⦿ Differences between an ecosystem and a habitat:\n\n"
+            "• An ecosystem consists of a community of living organisms interacting with one another and with the non-living components of their environment, whereas a habitat is the particular place where an organism lives.\n\n"
+            "• An ecosystem involves broad processes such as energy flow and nutrient cycling, whereas a habitat mainly provides the shelter, water, food and other immediate needs of a particular organism.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2021 Q4(c))\n\n"
+            "Use any three of the following organisms to construct a food chain:\n\n"
+            "Hawk, grasshopper, toad, green plant.",
+        answer: "⦿ Food chains:\n\n"
+            "• Green plant → Grasshopper → Hawk\n\n"
+            "• Or: Green plant → Toad → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q6(a))\n\n"
+            "State three ways by which the atmosphere in an industrial area is polluted.",
+        answer:
+            "⦿ Ways by which the atmosphere in an industrial area is polluted:\n\n"
+            "• Release of carbon dioxide from combustion engines and industrial machinery.\n\n"
+            "• Discharge of smoke from factory chimneys.\n\n"
+            "• Release of excessive heat from industrial plants.\n\n"
+            "• Release of industrial dust particles during crushing, processing and sorting of materials.\n\n"
+            "• Release of carbon monoxide through the incomplete combustion of fuels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q6(c))\n\n"
+            "State three effects of dumping waste materials into water bodies.",
+        answer: "⦿ Effects of dumping waste materials into water bodies:\n\n"
+            "• It causes the death of fish and other aquatic organisms.\n\n"
+            "• It promotes the spread of water-borne diseases such as cholera and typhoid.\n\n"
+            "• It makes the water unsafe for drinking, cooking and other domestic activities.\n\n"
+            "• It disrupts food chains and food webs in aquatic ecosystems.\n\n"
+            "• It produces offensive odours as organic waste decomposes.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s3 ss2 - Solar System": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q2(d))\n\n"
+            "(a) What is a Milky Way?\n"
+            "(b) State one use of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• Alternatively, the Milky Way is the group of planets and stars to which the Earth belongs.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They enable radio and television transmission.\n\n"
+            "• They assist in weather forecasting.\n\n"
+            "• They help scientists in space research.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2012 Q5(f))\n\n"
+            "(a) What are stars?\n"
+            "(b) Arrange in order, starting from the Sun, the first four planets in the solar system.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Stars are natural heavenly bodies in space that produce heat and light.\n\n"
+            "⦿ (b) The first four planets in order from the Sun:\n\n"
+            "• Mercury\n\n"
+            "• Venus\n\n"
+            "• Earth\n\n"
+            "• Mars",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2016 Q4(d))\n\n"
+            "(a) What is a satellite?\n"
+            "(b) Give three uses of artificial satellites.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A satellite is an object that moves or revolves around another heavenly body, such as a planet or the Earth.\n\n"
+            "⦿ (b) Uses of artificial satellites:\n\n"
+            "• They are used in communication networks.\n\n"
+            "• They are used for space exploration.\n\n"
+            "• They are used for the transmission of radio and television signals.\n\n"
+            "• They are used for taking photographs of objects in space.\n\n"
+            "• They enable international internet communication.\n\n"
+            "• They help scientists to study the universe.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2017 Q4(d))\n\n"
+            "(a) What is a planet?\n"
+            "(b) Name two planets between the Sun and the Earth.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A planet is a heavenly body that moves around the Sun or another star.\n\n"
+            "⦿ (b) Planets between the Sun and the Earth:\n\n"
+            "• Mercury\n\n"
+            "• Venus",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2023 Q5(b))\n\n"
+            "(a) What is a galaxy?\n"
+            "(b) State the relationship between stars and galaxies.\n"
+            "(c) Explain briefly the term Milky Way.",
+        answer: "⦿ (a) Answer:\n\n"
+            "A galaxy is a large group of stars, planets, gas and dust held together by gravity.\n\n"
+            "⦿ (b) Relationship between stars and galaxies:\n\n"
+            "• Stars are the main components of galaxies.\n\n"
+            "• Galaxies contain billions of stars within them.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The Milky Way is the galaxy that contains our solar system.\n\n"
+            "• It appears as a band of light across the night sky.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS3 s3 ss3 - Ecosystem": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q2(c))\n\n"
+            "Construct a food chain using any four of the organisms listed below:\n\n"
+            "Grass, lizard, hawk, snail, earthworm, grasshopper, toad, cat, cassava.",
+        answer: "⦿ Food chains:\n\n"
+            "• Grass → Grasshopper → Toad → Hawk\n\n"
+            "• Or: Cassava → Grasshopper → Lizard → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2014 Q2(b))\n\n"
+            "State two ways of maintaining balance in the ecosystem.",
+        answer: "⦿ Ways of maintaining balance in the ecosystem:\n\n"
+            "• Avoid bush burning: Refraining from setting uncontrolled fires preserves vegetation and protects the habitats of organisms.\n\n"
+            "• Practise afforestation: Planting new trees and restoring forests help maintain a healthy balance of gases in the atmosphere.\n\n"
+            "• Avoid air and water pollution: Proper disposal of harmful industrial and domestic waste keeps life-supporting resources clean.\n\n"
+            "• Avoid overgrazing: Controlling the feeding of livestock prevents the destruction of vegetation and soil degradation.\n\n"
+            "• Educate farmers on the proper use of agrochemicals: Correct application of fertilisers and other chemicals protects wildlife and prevents chemical run-off.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2015 Q5(d))\n\n"
+            "(i) What is air pollution?\n"
+            "(ii) Name two human activities that lead to air pollution.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Air pollution is the introduction of harmful substances or pollutants into the atmosphere, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Human activities that lead to air pollution:\n\n"
+            "• Bush burning\n\n"
+            "• Mining and construction activities\n\n"
+            "• Open burning of waste or refuse\n\n"
+            "• Agricultural activities and deforestation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2019 Q2(a))\n\n"
+            "(i) What is a food chain?\n"
+            "(ii) Why is the sun important to the other organisms in a food chain?\n"
+            "(iii) Why is the plant in a food chain referred to as a producer?\n"
+            "(iv) Describe the movement of energy in a food chain.\n"
+            "(v) State the role of plants in a food chain.\n"
+            "(vi) What are consumers?",
+        answer: "⦿ (i) Answer:\n\n"
+            "A food chain is a linear sequence that shows how food and energy move from one organism to another in an ecosystem.\n\n"
+            "⦿ (ii) Role of the Sun:\n\n"
+            "The sun is the ultimate source of light energy used by green plants to manufacture food through photosynthesis.\n\n"
+            "⦿ (iii) Why plants are called producers:\n\n"
+            "Plants are called producers because they manufacture their own food through photosynthesis.\n\n"
+            "⦿ (iv) Movement of energy:\n\n"
+            "Energy flows in one direction along the food chain as one organism feeds on another.\n\n"
+            "⦿ (v) Role of plants:\n\n"
+            "Plants form the first feeding level and provide food for other organisms in the ecosystem.\n\n"
+            "⦿ (vi) Answer:\n\n"
+            "Consumers are organisms that cannot manufacture their own food and therefore depend on plants or other animals for food.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2019 Q3(a))\n\n"
+            "(i) What is pollution?\n"
+            "(ii) Name one air pollutant.",
+        answer: "⦿ (i) Answer:\n\n"
+            "Pollution is the introduction of harmful materials or contaminants into the environment, making it dirty and unsafe for living organisms.\n\n"
+            "⦿ (ii) Air pollutants:\n\n"
+            "• Dust\n\n"
+            "• Carbon monoxide or carbon(II) oxide\n\n"
+            "• Nitrogen dioxide or nitrogen(IV) oxide\n\n"
+            "• Wood smoke\n\n"
+            "• Vehicle exhaust fumes\n\n"
+            "• Sulphur dioxide or sulphur(IV) oxide",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2020 Q1(c))\n\n"
+            "(a) State three external features of the weaver bird that enable it to live successfully in its environment.\n"
+            "(b) List four harmful effects of air pollution.",
+        answer: "⦿ (a) Adaptive external features of the weaver bird:\n\n"
+            "• Forelimbs modified into wings for flight, enabling it to move quickly, search for food and escape predators.\n\n"
+            "• Its body is covered with feathers that help to retain heat and regulate body temperature.\n\n"
+            "• It has legs with claws for gripping branches and handling food.\n\n"
+            "• It has a beak adapted for breaking seeds and gathering materials.\n\n"
+            "⦿ (b) Harmful effects of air pollution:\n\n"
+            "• It causes respiratory diseases such as asthma.\n\n"
+            "• It contributes to the formation of acid rain.\n\n"
+            "• It contributes to climate change and rising temperatures.\n\n"
+            "• It contaminates water bodies and damages vegetation.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2020 Q3(a))\n\n"
+            "State two differences between an ecosystem and a habitat.",
+        answer: "⦿ Differences between an ecosystem and a habitat:\n\n"
+            "• An ecosystem consists of a community of living organisms interacting with one another and with the non-living components of their environment, whereas a habitat is the particular place where an organism lives.\n\n"
+            "• An ecosystem involves broad processes such as energy flow and nutrient cycling, whereas a habitat mainly provides the shelter, water, food and other immediate needs of a particular organism.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2021 Q4(c))\n\n"
+            "Use any three of the following organisms to construct a food chain:\n\n"
+            "Hawk, grasshopper, toad, green plant.",
+        answer: "⦿ Food chains:\n\n"
+            "• Green plant → Grasshopper → Hawk\n\n"
+            "• Or: Green plant → Toad → Hawk",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q6(a))\n\n"
+            "State three ways by which the atmosphere in an industrial area is polluted.",
+        answer:
+            "⦿ Ways by which the atmosphere in an industrial area is polluted:\n\n"
+            "• Release of carbon dioxide from combustion engines and industrial machinery.\n\n"
+            "• Discharge of smoke from factory chimneys.\n\n"
+            "• Release of excessive heat from industrial plants.\n\n"
+            "• Release of industrial dust particles during crushing, processing and sorting of materials.\n\n"
+            "• Release of carbon monoxide through the incomplete combustion of fuels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2021 Q6(c))\n\n"
+            "State three effects of dumping waste materials into water bodies.",
+        answer: "⦿ Effects of dumping waste materials into water bodies:\n\n"
+            "• It causes the death of fish and other aquatic organisms.\n\n"
+            "• It promotes the spread of water-borne diseases such as cholera and typhoid.\n\n"
+            "• It makes the water unsafe for drinking, cooking and other domestic activities.\n\n"
+            "• It disrupts food chains and food webs in aquatic ecosystems.\n\n"
+            "• It produces offensive odours as organic waste decomposes.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s3 ss4 - Land and Crop Management Practices": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q1(d))\n\n"
+            "Name four farming systems used in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• Organic farming\n\n"
+            "• Mixed cropping\n\n"
+            "• Shifting cultivation\n\n"
+            "• Crop rotation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q6(d)(ii))\n\n"
+            "Define crop rotation.",
+        answer: "⦿ Answer:\n\n"
+            "Crop rotation is a system where a farmer grows different crops on different plots of farmland in a definite cycle or on the same piece of land.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q6(d)(ii))\n\n"
+            "State three ways in which crop rotation is important in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• It helps in controlling pest infestation.\n\n"
+            "• It helps to reduce diseases.\n\n"
+            "• It helps to check soil erosion.\n\n"
+            "• It improves soil quality.\n\n"
+            "• It helps to control weeds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5(b)(ii))\n\n"
+            "State two advantages and two disadvantages of land rotation.",
+        answer: "⦿ (i) Advantages of land rotation:\n\n"
+            "• It prevents the spread of pests.\n\n"
+            "• It helps the land to regain lost nutrients after a fallow period.\n\n"
+            "• It prevents the spread of diseases.\n\n"
+            "⦿ (ii) Disadvantages of land rotation:\n\n"
+            "• It discourages large-scale farming.\n\n"
+            "• It is not suitable where land is scarce.\n\n"
+            "• It destroys virgin forests.\n\n"
+            "• It encourages soil erosion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2020 Q5(b)(iii))\n\n"
+            "Name two crops that are deep-rooted.",
+        answer: "⦿ Answer:\n\n"
+            "• Yam\n\n"
+            "• Cocoyam\n\n"
+            "• Watermelon\n\n"
+            "• Tomato\n\n"
+            "• Carrot\n\n"
+            "• Cassava",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2021 Q6(d))\n\n"
+            "(i) Explain the term mixed farming.\n\n"
+            "(ii) State two advantages of mixed farming.",
+        answer: "⦿ (i) Explanation:\n\n"
+            "Mixed farming is a system of farming where both crops and animals are produced on the same farm.\n\n"
+            "⦿ (ii) Advantages of mixed farming:\n\n"
+            "• Manure is obtained from animal droppings.\n\n"
+            "• Animals can be used to plough the land.\n\n"
+            "• It increases the income of the farmer.\n\n"
+            "• It ensures effective use of land.\n\n"
+            "• Residue from crops can be used to feed animals.",
+        explanation: "",
+      ),
+    ],
+  ),
+   "Science JHS2 s3 ss4 - Land and Crop Management Practices": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q1(d))\n\n"
+            "Name four farming systems used in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• Organic farming\n\n"
+            "• Mixed cropping\n\n"
+            "• Shifting cultivation\n\n"
+            "• Crop rotation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q6(d)(ii))\n\n"
+            "Define crop rotation.",
+        answer: "⦿ Answer:\n\n"
+            "Crop rotation is a system where a farmer grows different crops on different plots of farmland in a definite cycle or on the same piece of land.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q6(d)(ii))\n\n"
+            "State three ways in which crop rotation is important in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• It helps in controlling pest infestation.\n\n"
+            "• It helps to reduce diseases.\n\n"
+            "• It helps to check soil erosion.\n\n"
+            "• It improves soil quality.\n\n"
+            "• It helps to control weeds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5(b)(ii))\n\n"
+            "State two advantages and two disadvantages of land rotation.",
+        answer: "⦿ (i) Advantages of land rotation:\n\n"
+            "• It prevents the spread of pests.\n\n"
+            "• It helps the land to regain lost nutrients after a fallow period.\n\n"
+            "• It prevents the spread of diseases.\n\n"
+            "⦿ (ii) Disadvantages of land rotation:\n\n"
+            "• It discourages large-scale farming.\n\n"
+            "• It is not suitable where land is scarce.\n\n"
+            "• It destroys virgin forests.\n\n"
+            "• It encourages soil erosion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2020 Q5(b)(iii))\n\n"
+            "Name two crops that are deep-rooted.",
+        answer: "⦿ Answer:\n\n"
+            "• Yam\n\n"
+            "• Cocoyam\n\n"
+            "• Watermelon\n\n"
+            "• Tomato\n\n"
+            "• Carrot\n\n"
+            "• Cassava",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2021 Q6(d))\n\n"
+            "(i) Explain the term mixed farming.\n\n"
+            "(ii) State two advantages of mixed farming.",
+        answer: "⦿ (i) Explanation:\n\n"
+            "Mixed farming is a system of farming where both crops and animals are produced on the same farm.\n\n"
+            "⦿ (ii) Advantages of mixed farming:\n\n"
+            "• Manure is obtained from animal droppings.\n\n"
+            "• Animals can be used to plough the land.\n\n"
+            "• It increases the income of the farmer.\n\n"
+            "• It ensures effective use of land.\n\n"
+            "• Residue from crops can be used to feed animals.",
+        explanation: "",
+      ),
+    ],
+  ),
+   "Science JHS3 s3 ss4 - Land and Crop Management Practices": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q1(d))\n\n"
+            "Name four farming systems used in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• Organic farming\n\n"
+            "• Mixed cropping\n\n"
+            "• Shifting cultivation\n\n"
+            "• Crop rotation",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q6(d)(ii))\n\n"
+            "Define crop rotation.",
+        answer: "⦿ Answer:\n\n"
+            "Crop rotation is a system where a farmer grows different crops on different plots of farmland in a definite cycle or on the same piece of land.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q6(d)(ii))\n\n"
+            "State three ways in which crop rotation is important in crop production.",
+        answer: "⦿ Answer:\n\n"
+            "• It helps in controlling pest infestation.\n\n"
+            "• It helps to reduce diseases.\n\n"
+            "• It helps to check soil erosion.\n\n"
+            "• It improves soil quality.\n\n"
+            "• It helps to control weeds.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5(b)(ii))\n\n"
+            "State two advantages and two disadvantages of land rotation.",
+        answer: "⦿ (i) Advantages of land rotation:\n\n"
+            "• It prevents the spread of pests.\n\n"
+            "• It helps the land to regain lost nutrients after a fallow period.\n\n"
+            "• It prevents the spread of diseases.\n\n"
+            "⦿ (ii) Disadvantages of land rotation:\n\n"
+            "• It discourages large-scale farming.\n\n"
+            "• It is not suitable where land is scarce.\n\n"
+            "• It destroys virgin forests.\n\n"
+            "• It encourages soil erosion.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2020 Q5(b)(iii))\n\n"
+            "Name two crops that are deep-rooted.",
+        answer: "⦿ Answer:\n\n"
+            "• Yam\n\n"
+            "• Cocoyam\n\n"
+            "• Watermelon\n\n"
+            "• Tomato\n\n"
+            "• Carrot\n\n"
+            "• Cassava",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2021 Q6(d))\n\n"
+            "(i) Explain the term mixed farming.\n\n"
+            "(ii) State two advantages of mixed farming.",
+        answer: "⦿ (i) Explanation:\n\n"
+            "Mixed farming is a system of farming where both crops and animals are produced on the same farm.\n\n"
+            "⦿ (ii) Advantages of mixed farming:\n\n"
+            "• Manure is obtained from animal droppings.\n\n"
+            "• Animals can be used to plough the land.\n\n"
+            "• It increases the income of the farmer.\n\n"
+            "• It ensures effective use of land.\n\n"
+            "• Residue from crops can be used to feed animals.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss1 - Source, Forms, and Related Properties of Energy":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(i) What is energy?\n\n"
+            "(ii) Give two reasons why it is necessary to conserve energy.",
+        answer: "⦿ (i) What is energy?\n\n"
+            "Energy is defined as the ability or capacity to do work.\n\n"
+            "⦿ (ii) Reasons for conserving energy:\n\n"
+            "• It helps to lower household electricity and fuel bills.\n\n"
+            "• It reduces domestic electricity consumption and expenditure.\n\n"
+            "• It ensures that energy resources remain available for sustainable future use.\n\n"
+            "• It reduces a country's economic dependence on costly imported fuels.\n\n"
+            "• It minimises overloads and reduces mechanical strain on national power grids.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2021 Q5(b))\n\n"
+            "(i) Explain how energy from a windmill is obtained.\n\n"
+            "(ii) State one source of renewable energy.",
+        answer: "⦿ (i) How energy from a windmill is obtained:\n\n"
+            "• The energy in the wind is trapped by the blades of the windmill, causing them to turn.\n\n"
+            "• The rotating windmill is connected to an internal generator or turbine.\n\n"
+            "• The turbine converts the kinetic energy of the rotating blades into usable electrical energy.\n\n"
+            "⦿ (ii) Sources of renewable energy:\n\n"
+            "• Solar energy\n\n"
+            "• Wind energy\n\n"
+            "• Hydropower\n\n"
+            "• Biomass energy\n\n"
+            "• Tidal energy\n\n"
+            "• Wave energy",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2013 Q1(b))\n\n"
+            "State the effect of heat on each of the following substances:\n\n"
+            "(i) plastics;\n\n"
+            "(ii) alcohol;\n\n"
+            "(iii) metal rod.",
+        answer: "⦿ (i) Plastics:\n\n"
+            "• Exposure to heat causes plastics to soften, melt or burn.\n\n"
+            "⦿ (ii) Alcohol:\n\n"
+            "• Exposure to heat causes alcohol to expand and evaporate rapidly.\n\n"
+            "⦿ (iii) Metal rod:\n\n"
+            "• Exposure to heat causes the metal rod to expand and conduct thermal energy along its length.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2014 Q4(d))\n\n"
+            "State two properties of a good thermometric liquid.",
+        answer: "⦿ Properties of a good thermometric liquid:\n\n"
+            "• It must be opaque or highly visible inside the capillary tube.\n\n"
+            "• It must expand and contract uniformly with changes in temperature.\n\n"
+            "• It must possess a wide temperature range, with a high boiling point and a low freezing point.\n\n"
+            "• It must not wet or cling to the walls of the glass tube.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2021 Q4(b))\n\n"
+            "(i) Explain the term convection as applied to heat transfer.\n\n"
+            "(ii) Give two reasons why convection does not occur in solids.",
+        answer: "⦿ (i) Explanation of convection:\n\n"
+            "Convection is the transfer of heat through the actual bulk movement of particles in a fluid, such as a liquid or gas.\n\n"
+            "⦿ (ii) Reasons why convection does not occur in solids:\n\n"
+            "• Convection requires the free movement of matter, which is absent in solids.\n\n"
+            "• Particles in solids cannot flow or change positions like particles in liquids and gases.\n\n"
+            "• Solid particles are tightly packed in fixed positions and cannot move freely from place to place.\n\n"
+            "• Particles in solids transfer heat by vibrating and passing energy to neighbouring particles.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2012 Q3(b))\n\n"
+            "State two effects of heat on a substance.",
+        answer: "⦿ Effects of heat on a substance:\n\n"
+            "• It causes the substance to expand.\n\n"
+            "• It may cause a change of state, such as melting, boiling or evaporation.\n\n"
+            "• It increases the temperature and average kinetic energy of the particles of the substance.\n\n"
+            "• It may decrease the density of the substance as its volume increases.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2005 Q3(b))\n\n"
+            "State the laws of reflection.",
+        answer: "⦿ Laws of reflection:\n\n"
+            "• The angle of incidence is equal to the angle of reflection.\n\n"
+            "• The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2016 Q2(a))\n\n"
+            "(i) State the distinction between an opaque object and a translucent object.\n\n"
+            "(ii) Give one example each of an opaque object and a translucent object.",
+        answer:
+            "⦿ (i) Difference between an opaque object and a translucent object:\n\n"
+            "• Opaque object: An object that completely blocks light from passing through it. Objects cannot be seen through it, and it forms a dark shadow.\n\n"
+            "• Translucent object: An object that allows only some light to pass through it. Objects viewed through it appear blurred or unclear.\n\n"
+            "⦿ (ii) Examples of opaque objects:\n\n"
+            "• Brick wall\n\n"
+            "• Dense wood\n\n"
+            "• Human body\n\n"
+            "• Solid stone\n\n"
+            "• Unpolished metal\n\n"
+            "⦿ Examples of translucent objects:\n\n"
+            "• Frosted glass\n\n"
+            "• Thin plastic sheet\n\n"
+            "• Tracing paper\n\n"
+            "• Muddy water\n\n"
+            "• Oiled paper",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2009 Q4(c))\n\n"
+            "A certain pupil in a classroom can see clearly on the blackboard only when he sits at the front.\n\n"
+            "(i) State the eye defect the child is suffering from.\n\n"
+            "(ii) Explain why the child is unable to see clearly when he is far from the blackboard.\n\n"
+            "(iii) How can the eye defect be corrected?",
+        answer: "⦿ (i) Eye defect:\n\n"
+            "• Short-sightedness or myopia.\n\n"
+            "⦿ (ii) Explanation:\n\n"
+            "• The child is unable to see distant objects clearly because light rays from distant objects are focused in front of the retina instead of directly on it.\n\n"
+            "⦿ (iii) How the eye defect can be corrected:\n\n"
+            "• The child should wear spectacles fitted with diverging or concave lenses. These lenses diverge the light rays so that the image is focused correctly on the retina.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2011 Q3(b))\n\n"
+            "(i) What is reflection of light?\n\n"
+            "(ii) State two characteristics of the images formed by plane mirrors.",
+        answer: "⦿ (i) Reflection of light:\n\n"
+            "Reflection of light is the bouncing back of light rays when they strike a reflecting surface.\n\n"
+            "⦿ (ii) Characteristics of images formed by plane mirrors:\n\n"
+            "• The image is erect or upright.\n\n"
+            "• The image is virtual and cannot be formed on a screen.\n\n"
+            "• The image is laterally inverted.\n\n"
+            "• The image distance behind the mirror is equal to the object distance in front of the mirror.\n\n"
+            "• The image is the same size as the object.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 2013 Q4(b))\n\n"
+            "Name two sources each of:\n\n"
+            "(i) natural light;\n\n"
+            "(ii) artificial light.",
+        answer: "⦿ (i) Sources of natural light:\n\n"
+            "• The Sun\n\n"
+            "• Stars\n\n"
+            "• Lightning\n\n"
+            "• Fireflies\n\n"
+            "• Deep-sea luminous organisms\n\n"
+            "⦿ (ii) Sources of artificial light:\n\n"
+            "• Burning coal\n\n"
+            "• Flashlight or torchlight\n\n"
+            "• Lighted match or wood fire\n\n"
+            "• Kerosene lamp\n\n"
+            "• Electric light bulb",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2022 Q4b)\n\n"
+            "(i) What an eclipse occurs?\n\n"
+            "(ii) Explain briefly why an eclipse occurs.\n\n"
+            "(iii) Name the two types of eclipse.",
+        answer: "⦿ (i) Meaning of an eclipse:\n\n"
+            "• An eclipse occurs when an astronomical body moves into the shadow of another body or has its light blocked by an intervening object.\n\n"
+            "⦿ (ii) Why an eclipse occurs:\n\n"
+            "• An eclipse occurs because light travels in a straight line (rectilinear propagation of light). When an opaque cosmic body (like the Earth or the Moon) passes directly between a light source and another body, it blocks the light rays and casts a dark shadow.\n\n"
+            "⦿ (iii) Two types of eclipse:\n\n"
+            "• Eclipse of the Moon (Lunar eclipse)\n\n"
+            "• Eclipse of the Sun (Solar eclipse)\n\n",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss2 - Electricity & Electronics": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q2(a))\n\n"
+            "What is a fuse?",
+        answer: "⦿ Answer:\n\n"
+            "A fuse is a thin wire or metal strip that melts and breaks the circuit when too much current flows through it.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
+            "(a) What is an electrical conductor?\n\n"
+            "(b) List two substances that are insulators.",
+        answer: "⦿ (a) Electrical conductor:\n\n"
+            "An electrical conductor is a material that allows electric current to flow through it easily.\n\n"
+            "⦿ (b) Substances that are insulators:\n\n"
+            "• Paper\n\n"
+            "• Rubber",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2023 Q2(a))\n\n"
+            "(a) What is the importance of a fuse in an electrical appliance?\n\n"
+            "(b) State two household appliances that have a fuse.",
+        answer: "⦿ (a) Importance of a fuse:\n\n"
+            "A fuse protects an electrical appliance from damage and prevents electrical fires by melting and cutting off excessive current.\n\n"
+            "⦿ (b) Household appliances that have a fuse:\n\n"
+            "• Microwave\n\n"
+            "• Television",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2023 Q3(d))\n\n"
+            "Explain the term potential difference.",
+        answer: "⦿ Answer:\n\n"
+            "Potential difference is the amount of work done to move a unit charge from one point to another in an electrical circuit.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q4(a))\n\n"
+            "Give two uses of a transistor.",
+        answer: "⦿ Uses of a transistor:\n\n"
+            "• Signal amplification: It is used to amplify weak electrical signals.\n\n"
+            "• Electronic switching: It acts as an electronic switch in digital circuits.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2013 Q4(c))\n\n"
+            "Name two types of transistors.",
+        answer: "⦿ Types of transistors:\n\n"
+            "• NPN transistor\n\n"
+            "• PNP transistor",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2020 Q4(d)(ii))\n\n"
+            "What is the role of a capacitor in a circuit?",
+        answer: "⦿ Answer:\n\n"
+            "A capacitor stores electrical energy and releases it when needed. It can also be used to smooth current or voltage fluctuations in a circuit.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2022 Q2(b))\n\n"
+            "(a) Explain the term active region as applied to transistors.\n\n"
+            "(b) State what happens in the active region of a transistor.",
+        answer: "⦿ (a) Active region:\n\n"
+            "The active region is the operating region of a transistor in which the base-emitter junction is forward biased and the base-collector junction is reverse biased.\n\n"
+            "⦿ (b) What happens in the active region:\n\n"
+            "The transistor behaves as an amplifier in the active region.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss3 - Forces and Energy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2010 Q2)\n\n"
+            "(a) State the name of the energy possessed by moving water.\n\n"
+            "(b) State the type of energy possessed by a body of mass 10 kg raised 15 m above the ground.\n\n"
+            "(c) Calculate the value of the energy.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Kinetic energy\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Potential energy\n\n"
+            "⦿ (c) Calculation:\n\n"
+            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
+            "• P.E. = 10 kg × 10 m/s² × 15 m\n\n"
+            "• P.E. = 1500 J",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2012 Q4)\n\n"
+            "State the energy changes that take place in each of the following activities:\n\n"
+            "(i) A candle is lit with a matchstick.\n\n"
+            "(ii) An orange falls from a tree to the ground.\n\n"
+            "(iii) A battery is used in an electric circuit with a lighted filament.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Chemical energy → Heat energy + Light energy\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Potential energy → Kinetic energy → Sound energy\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Chemical energy → Electrical energy → Light energy + Heat energy",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2013 Q4)\n\n"
+            "Name four sources of chemical energy.",
+        answer: "⦿ Answer:\n\n"
+            "• Food\n\n"
+            "• Fossil fuel\n\n"
+            "• Dry-cell battery\n\n"
+            "• Chemical reactor",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2013 Q6)\n\n"
+            "State the energy transformation that takes place when a dry cell is in use.",
+        answer: "⦿ Answer:\n\n"
+            "• Chemical energy → Electrical energy",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2015 Q4)\n\n"
+            "What energy transformations take place in each of the following activities?\n\n"
+            "(i) Using a flashlight battery to produce light.\n\n"
+            "(ii) Using a microphone.\n\n"
+            "(iii) Using electrical energy to operate a bell.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Chemical energy → Electrical energy → Light energy + Heat energy\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Sound energy → Electrical energy\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Electrical energy → Mechanical energy → Sound energy",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2018 Q3)\n\n"
+            "(i) Define potential energy.\n\n"
+            "(ii) An object of mass 10 kg is moving with a velocity of 2 m/s. Calculate the kinetic energy of the object.",
+        answer: "⦿ (i) Definition of potential energy:\n\n"
+            "Potential energy is the energy possessed by a body by virtue of its position relative to other objects.\n\n"
+            "⦿ (ii) Calculation:\n\n"
+            "• Kinetic Energy (K.E.) = ½ × mass × velocity²\n\n"
+            "• K.E. = ½ × 10 kg × 2 m/s × 2 m/s\n\n"
+            "• K.E. = 20 J",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2019 Q3)\n\n"
+            "A body of mass 100 kg is raised to a height of 2 m above the ground.\n\n"
+            "(i) State the name of the energy possessed by the object because of its new position.\n\n"
+            "(ii) Calculate the value of this energy. [g = 10 m/s²]",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Potential energy\n\n"
+            "⦿ (ii) Calculation:\n\n"
+            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
+            "• P.E. = m × g × h\n\n"
+            "• P.E. = 100 kg × 10 m/s² × 2 m\n\n"
+            "• P.E. = 2000 J",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss4 - Forces and Motion": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) State the SI unit of pressure.\n\n",
+        answer: "⦿ (a) Answer:\n\n"
+            "The SI unit of pressure is the pascal (Pa), which is equivalent to newton per square metre (N/m²).\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "(b) Give three applications of pressure in everyday life.\n\n",
+        answer: "⦿ (b) Answer :\n\n"
+            "• Sharp knives have small cutting edges, which produce high pressure and make cutting easier.\n\n"
+            "• Heavy vehicles and tractors have wide tyres to spread their weight over a larger area and reduce pressure on the ground.\n\n"
+            "• Buildings are constructed on wide foundations to spread their weight over a large area and prevent sinking or collapse.\n\n"
+            "• School bags have wide, padded straps to spread the load over the shoulders and reduce pressure.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(c) Explain why it is easier to cut meat with a sharp knife than with a blunt one.\n\n",
+        answer: "⦿ (c) Answer:\n\n"
+            "A sharp knife has a smaller cutting-edge area than a blunt knife. When the same force is applied, the smaller area produces greater pressure, allowing the knife to cut through the meat more easily.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(d) Explain why a wide belt is worn by an athlete when lifting heavy weights.",
+        answer: "⦿ (d) Answer:\n\n"
+            "A wide belt spreads the force over a larger area of the abdomen and lower back. This reduces pressure on the body, supports the spine and helps prevent injury.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(a) State two ways in which friction can be reduced.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Apply lubricants such as oil, grease or graphite between surfaces in contact.\n\n"
+            "• Use rollers, wheels or ball bearings between moving surfaces.\n\n"
+            "• Streamline vehicles, aircraft and boats to reduce air or water resistance.\n\n"
+            "• Polish or smoothen surfaces in contact.\n\n",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6\n\n"
+            "(b) State three ways in which force can affect a body.",
+        answer: "⦿ (b) Answer:\n\n"
+            "• It can cause a stationary body to start moving.\n\n"
+            "• It can cause a moving body to slow down or stop.\n\n"
+            "• It can increase or decrease the speed of a moving body.\n\n"
+            "• It can change the direction of motion of a body.\n\n"
+            "• It can change the shape or size of a body.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1\n\n"
+            "(a) List five garden tools.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Rake\n\n"
+            "• Hoe\n\n"
+            "• Shears\n\n"
+            "• Axe\n\n"
+            "• Watering can\n\n"
+            "• Hand fork\n\n"
+            "• Dibber\n\n"
+            "• Secateurs",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2\n\n"
+            "(b) Explain why a hoe is more suitable for weeding than a cutlass in crop farming.",
+        answer: "⦿ (b) Answer:\n\n"
+            "A hoe is more suitable for weeding because its wide blade helps to remove weeds from their roots, preventing them from growing back quickly.\n\n"
+            "A cutlass mainly cuts weeds at the surface, allowing them to regrow faster.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3\n\n"
+            "(c) State four ways of maintaining agricultural tools.",
+        answer: "⦿ (c) Answer:\n\n"
+            "• Use the right tool for the right purpose.\n\n"
+            "• Wash and clean tools after use.\n\n"
+            "• Sharpen tools with blades regularly.\n\n"
+            "• Apply oil to metal parts to prevent rust.\n\n"
+            "• Store tools in a dry place after cleaning.\n\n"
+            "• Regularly inspect broken or damaged handles and repair them.\n\n"
+            "• Fix or replace broken handles.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4\n\n"
+            "(d) A farmer wants to dig holes for planting maize. Which tool should the farmer use and why?",
+        answer: "⦿ (d) Answer:\n\n"
+            "The farmer should use a dibber because it is designed to make small holes at the required depth.\n\n"
+            "It helps to place seeds at the correct depth without disturbing the surrounding soil.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5\n\n"
+            "(e) Suggest two ways farmers can improve the efficiency of their cutlasses and hoes.",
+        answer: "⦿ (e) Answer:\n\n"
+            "• Sharpen the blades regularly to make cutting and digging easier.\n\n"
+            "• Use strong and durable handles to improve grip and control during use.\n\n"
+            "• Use the tools for their intended purposes.\n\n"
+            "• Wash and clean the tools immediately after use.",
         explanation: "",
       ),
     ],
@@ -4930,53 +8341,725 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Behaviours Considered as Good Manners": PracticeModel(
+  // ─── JHS 2 / JHS 3: ENGLISH theory ─────────────────────────────────────────
+  "English JHS1 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nDescribe FOUR examples of good manners in Ghanaian culture. For each, explain why it is considered respectful.",
-        answer:
-            "1. Greeting elders first — In Ghana, it is respectful to greet older people before speaking to them. It acknowledges their seniority and shows honour.\n2. Receiving gifts or food with both hands — Accepting things with two hands shows gratitude and respect to the giver.\n3. Not interrupting when an elder speaks — It shows patience, attentiveness, and respect for authority.\n4. Kneeling or bowing when speaking to chiefs or elders — It is a sign of submission and deep respect in many Ghanaian communities.",
-        explanation:
-            "Good manners in Ghanaian culture are deeply rooted in communal values of respect, honour, and social harmony.",
+        scenario: "QUESTION 1. (BECE 2010)\n\n\n"
+            "When I was about eleven years old, I was unable to stay at one place for long; I was always on the move. Many people thought and said I was troublesome. Prominent among those who described me as such was my aunt, Araba Oboshea.\n\n"
+            "Aunt Araba was particularly mean. She would sit on her stool under the gum tree in front of the house and wait for me to return from wherever I had gone. As soon as I arrived, she would call me and, without asking me any question or telling me anything, take my left ear between the forefinger and the thumb of her right hand and give my ear a silent, violent and painful twist. I cannot describe the pain I endured. She would do the same to my right ear. She explained that she was paying for my absence that I had sold to her! Aunt Araba would continue to twist both ears of mine simultaneously with her forefingers and thumbs.\n\n"
+            "I would scream silently, gritting my teeth so that I could not utter any sound because of pain. That way I was spared the next stage of being given countless strokes of any stick she could lay hands on. One strange thing about Aunt Araba was that she would never hit me with her hands.\n\n"
+            "Aunt Araba went on treating me this way because she could hardly understand why I was always on the move. I could also not have the courage to explain why it was so because I was afraid of her and began to hate her.\n\n"
+            "On Thursday evening when I was going through my usual ordeal, an elderly man, Agya Manu, who usually visited her appeared on the scene. He pleaded with her to leave me, and asked for the reason for such punishment. After he had been told of my ‘sin’, Agya Manu, who knew me very well, explained to my aunt that I was always on the move not because I was in any bad company, but because I was the favourite for the errand. I had been running several errands for him and many other people. Agya Manu then advised me not to spend all my time running errands for others but rather, do all my duties at home.\n\n"
+            "(a) What was the writer’s behaviour when he was about eleven years old?\n\n"
+            "(b) ‘…I was always on the move.’ What is the meaning of this expression?\n\n"
+            "(c) From the passage, what is the character of Aunt Araba?\n\n"
+            "(d) Why did Aunt Araba keep punishing the writer?\n\n"
+            "(e) How did Agya Manu rescue the writer?\n\n"
+            "(f) For each of the following words, give one word or phrase which means the same:\n"
+            "    (i) endured;\n"
+            "    (ii) countless.",
+        answer: "⦿ (a) Answer:\n\n"
+            "As a young boy of about eleven, he found it difficult to settle anywhere for any length of time; he was constantly wandering from one place to another.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "The phrase describes someone who kept shifting from one location to another rather than staying put; in short, he never remained still.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Aunt Araba comes across as harsh, unkind and heavy-handed in the way she dealt with him; she was a strict disciplinarian who punished him repeatedly.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "Her punishments continued simply because she had never worked out the real reason behind his constant wandering; she was acting out of ignorance of his true circumstances.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "Agya Manu stepped in and clarified matters for the aunt, pointing out that the boy had not fallen in with troublemakers at all; rather, people, including Agya Manu himself, kept sending him on errands because he was so reliable at it.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Endured: suffered, went through or bore\n\n"
+            "• (ii) Countless: numerous, uncountable or very many",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 2\n\nA student sees their peer cheating in an exam. Describe what GOOD MANNERS and MORAL INTEGRITY would require them to do. Include religious teaching in your answer.",
-        answer:
-            "Good manners and moral integrity require the student to act honestly, even when it is difficult. They should not assist in the cheating or pretend not to notice, as this would make them complicit. Ideally, they should quietly advise their peer to stop, reminding them of the consequences (disqualification, failure, shame).\n\nReligiously, Christianity, Islam, and African Traditional Religion all teach honesty and integrity. For example, the Bible states, 'Do not steal' (Exodus 20:15), and Islam values 'Amanah' (trustworthiness). Encouraging honesty is an act of true friendship and moral responsibility.",
-        explanation:
-            "Good manners go beyond politeness — they include moral courage to uphold what is right even under social pressure.",
+        scenario: "QUESTION 2   (BECE 2011)\n\n"
+            "Ali set out from the house that morning in high spirits knowing well that he was going to meet his childhood friend Kofi. He had heard that his friend was occupying a very high position in a reputable company. Kofi could hardly recognize Ali when the latter entered the former’s office.\n\n"
+            "‘So you can’t recognize me, Kofi, your classmate, Sikakrom JHS? Does money blind people and erase their memory? Can ten short years change you so completely as to make you forget an intimate friend?’\n\n"
+            "Kofi suddenly recognized him. ‘Sorry, Ali, you’ve changed so much I couldn’t make you out. Please, sit down. What can I do for you?’\n\n"
+            "Ali reluctantly sat down. He admired Kofi’s tidy office and person — the well-groomed hair, the attractive shirt and tie. Ali removed a small bottle from the breast pocket of his dust-covered shirt, poured out some white substance in his palm and sniffed it greedily.\n\n"
+            "Kofi noticed all that but suppressed his anger. ‘I learn that luck has given you great wealth, Kofi!’ Ali said. ‘Indeed, some people are lucky!’ he added, and pulled out a crumpled cigarette and a box of matches.\n\n"
+            "‘I’d rather you didn’t smoke here. I keep my air fresh,’ Kofi politely ordered. Ali was shocked. ‘Hei, Kofi, what a complete change! What bird must have lent you its wings for you to soar so high? Oh, you can really change people! Just ten short years!’\n\n"
+            "‘Look here, Ali, leave luck out of this. I worked very hard for seven years to acquire a good degree and a job. I never relied on luck for success.’\n\n"
+            "(a) What did Ali expect as he left the house to meet Kofi?\n\n"
+            "(b) Why did Kofi fail to recognize Ali?\n\n"
+            "(c) What does the passage tell us about Ali’s habits?\n\n"
+            "(d) (i) According to the passage, what has made Kofi successful?\n"
+            "    (ii) What actually helped Kofi to succeed?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) in high spirits;\n"
+            "    (ii) erase their memory;\n"
+            "    (iii) I couldn’t make you out.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) reputable;\n"
+            "    (ii) intimate;\n"
+            "    (iii) tidy;\n"
+            "    (iv) attractive;\n"
+            "    (v) acquire.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Ali was hoping Kofi would welcome him back enthusiastically; he anticipated a friendly, warm reunion.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "It was Ali, not Kofi, who had altered so drastically over the years that his old friend struggled to place him.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• (i) He is a habitual smoker.\n\n"
+            "• (ii) He also sniffs a substance from a small bottle.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) Ali attributes Kofi’s success to good fortune.\n\n"
+            "• (ii) In truth, it was years of dedicated effort, not chance, that brought Kofi his success.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) In high spirits: feeling cheerful and full of enthusiasm.\n\n"
+            "• (ii) Erase their memory: cause someone to forget entirely.\n\n"
+            "• (iii) I couldn’t make you out: I found it impossible to identify you.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Reputable: respectable, well-known, famous or respected\n\n"
+            "• (ii) Intimate: close or very good\n\n"
+            "• (iii) Tidy: clean, neat, well-kept\n\n"
+            "• (iv) Attractive: beautiful, nice or fine\n\n"
+            "• (v) Acquire: get, obtain, secure, earn or have",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 3\n\nExplain the concept of CHASTITY as taught in any ONE religion you have studied. Why is it important for young people today?",
-        answer:
-            "In Christianity, chastity means remaining sexually pure outside of marriage. The Bible teaches that the body is the temple of the Holy Spirit (1 Corinthians 6:19–20) and that sexual immorality dishonours God and damages the person.\n\nFor young people today, chastity is important for several reasons:\n1. It protects against sexually transmitted infections (STIs) and unplanned pregnancies.\n2. It preserves emotional and mental health, avoiding the consequences of unstable relationships.\n3. It maintains personal dignity and self-respect, which are the foundations of future stable families and relationships.",
-        explanation:
-            "Chastity, as taught across religions, has both spiritual and practical benefits for the well-being of young people.",
+        scenario: "QUESTION 3     (BECE 2012)\n\n"
+            "Cholera is a very dangerous disease which can kill many people within a short time. Indeed, it has ruined several communities particularly in developing countries. It must therefore be prevented at all costs.\n\n"
+            "The disease is generally spread by germs which thrive in filthy and unhygienic areas. There could be an outbreak of cholera when drinking water becomes polluted by floods after a downpour. Human carriers also cause the disease to spread from place to place. For example, a person carrying the cholera germs would vomit or pass frequent stools. Flies would then carry the germs on their hairy legs and deposit them on exposed food or in water. When a person eats this contaminated food or drinks the polluted water, he or she is likely to contract the disease unknowingly.\n\n"
+            "On the whole, the main symptoms of cholera are severe diarrhoea and vomiting, which may result in loss of weight. The stool tends to be watery. As a lot of fluid is lost from the body, the patient quickly becomes dehydrated, thin and weak. The rapid loss of body fluid can soon result in death, unless the lost fluid is replaced immediately.\n\n"
+            "The first thing for the patient to do is to replenish as much fluid as is lost by taking, from time to time, boiled water which has been allowed to cool and mixed with salt and sugar. Then, he should seek medical attention.\n\n"
+            "(a) Where do cholera germs usually breed?\n\n"
+            "(b) Mention the two main carriers of cholera germs.\n\n"
+            "(c) (i) State the two signs of cholera.\n"
+            "    (ii) Give one effect of the disease.\n\n"
+            "(d) What advice does the writer give to the cholera patient?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) It has ruined several communities.\n"
+            "    (ii) At all costs.\n"
+            "    (iii) After a downpour.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) Thrive\n"
+            "    (ii) Deposit\n"
+            "    (iii) Rapid\n"
+            "    (iv) Replenish\n"
+            "    (v) Seek.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Cholera germs usually breed and multiply in dirty, poorly kept surroundings that lack proper hygiene.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "The two main carriers of cholera germs are:\n\n"
+            "• Flies\n\n"
+            "• Infected people\n\n"
+            "⦿ (c) Answer:\n\n"
+            "(i) Two signs of cholera are:\n\n"
+            "• Watery, frequent stools\n\n"
+            "• Repeated vomiting\n\n"
+            "(ii) One effect of the disease is that the patient may lose body weight, become dehydrated or die in severe cases.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "The writer advises the patient to take boiled and cooled water mixed with salt and sugar, and then seek medical attention without delay.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "(i) It has ruined several communities: It has caused widespread damage or completely destroyed entire communities.\n\n"
+            "(ii) At all costs: By whatever means necessary, no matter the cost.\n\n"
+            "(iii) After a downpour: After a heavy rainstorm.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "(i) Thrive: Breed, grow, live, flourish or do well.\n\n"
+            "(ii) Deposit: Drop, put, place or leave.\n\n"
+            "(iii) Rapid: Quick or fast.\n\n"
+            "(iv) Replenish: Replace, restore or get back.\n\n"
+            "(v) Seek: Go for, get, obtain, receive or look for.",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 4\n\nYour younger sibling is being pressured by friends to skip school and go to a party. Write a short advice (5 sentences) you would give them, drawing on moral values and religious teaching.",
-        answer:
-            "My dear sibling, I understand that peer pressure can be very hard to resist, especially when friends are involved. However, our religious teachings remind us that we must make wise choices that honour God and build our future. Skipping school is dishonest to your teachers, parents, and yourself — and it damages your education. True friends will respect your decision to do what is right. Remember: the choices you make today shape the person you will become tomorrow.",
-        explanation:
-            "Religious and moral values provide a framework for making difficult decisions and resisting peer pressure.",
+        scenario: "QUESTION 4 (BECE 2013)\n\n"
+            "Nobody wanted Ananse to succeed in drinking the cup of hot water and win Adiefe, the Chief’s beautiful daughter.\n\n"
+            "Ananse grabbed the cup of hot water, bowed as gracefully as possible and smiled confidently. He lifted the cup and said, slowly and calmly, ‘Nana, look...!’ Nana Apo barked, ‘yes, it’s hot. Drink it right now!’ But Ananse kept a cool head. Then, in the full glare of all present, he shook the cup vigorously for some time in order to cool its content. After this, he began to sip the now-lukewarm water as if it was still hot. Between the sips, the pain he seemed to be going through made him frown. He shut the left eye and his right eye shone brightly. He deliberately let his left hand drop loosely by his side.\n\n"
+            "Nana Apo smiled. Queen Amola grinned. Adiefe giggled—all in happy anticipation of Ananse’s failure.\n\n"
+            "Suddenly, Ananse began to drink the warm water more quickly and noisily. Soon, all was gone. He turned the cup upside down towards Nana and, indeed, there was not a single drop in it. Lo and behold, Kweku Ananse, the notorious trickster, had succeeded where all others had failed. There was a complete silence. Even the wind seemed to have stopped blowing. The impossible had happened and people’s expectation that Kweku Ananse would lose the contest had failed. Eventually, Kweku Ananse’s victory had won him the hand of pretty Princess Adiefe.\n\n"
+            "Nana Apo and Queen Amola, with great reluctance, led their daughter, Adiefe, and handed her over to victorious Kweku Ananse.\n\n"
+            "(a) What was the attitude of the people present before the contest?\n\n"
+            "(b) Why do you think Ananse shook the cup?\n\n"
+            "(c) State the three tricks Ananse used to show that he was in pain.\n\n"
+            "(d) (i) Why did Ananse turn the cup upside down?\n"
+            "    (ii) What was the mood of Nana Apo and Queen Amola in the end?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) ‘Ananse kept a cool head’;\n"
+            "    (ii) ‘all was gone’;\n"
+            "    (iii) ‘the impossible had happened.’\n\n"
+            "(f) For each of the following words, give one word or phrase that means the same and can fit into the passage:\n"
+            "    (i) grabbed;\n"
+            "    (ii) barked;\n"
+            "    (iii) deliberately;\n"
+            "    (iv) eventually;\n"
+            "    (v) pretty.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Everyone present was hoping he would not manage it; they had little regard for Ananse and wanted to see him fail.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "He was swirling the water around in order to bring its temperature down before drinking it.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He put on a frown.\n\n"
+            "• He closed one eye tightly.\n\n"
+            "• He allowed his hand to hang limply at his side.\n\n"
+            "These actions were intended to give the appearance that he was suffering.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) By turning the cup upside down, he demonstrated conclusively that not a single drop remained inside.\n\n"
+            "• (ii) By the end, the royal family were clearly disheartened and unhappy with the outcome.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) ‘Ananse kept a cool head’: Ananse stayed composed and showed no sign of panic throughout the ordeal.\n\n"
+            "• (ii) ‘All was gone’: The cup had been completely emptied.\n\n"
+            "• (iii) ‘The impossible had happened’: Something everyone had assumed could not be done had, against all expectation, actually taken place.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Grabbed: gripped, held, took, seized or took hold of\n\n"
+            "• (ii) Barked: shouted, exclaimed, screamed, spoke loudly, yelled or thundered\n\n"
+            "• (iii) Deliberately: intentionally, knowingly, consciously or purposely\n\n"
+            "• (iv) Eventually: finally, lastly, in the end, at last or in the long run\n\n"
+            "• (v) Pretty: beautiful, lovely, attractive, nice or good-looking",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 5\n\nWrite a short essay (one paragraph) on the topic: 'The Importance of Good Manners in Ghanaian Society.'",
-        answer:
-            "Good manners are the backbone of peaceful and harmonious living in Ghanaian society. They reflect the deep cultural values of respect, humility, and consideration for others that have been passed down through generations. When individuals greet one another, help those in need, speak politely, and dress decently, they contribute to a society built on mutual respect and dignity. Good manners also promote unity across Ghana's diverse ethnic groups, as shared values of decency and respect create a common foundation for peaceful coexistence. Ultimately, a society that practises good manners is one where every member — young or old, rich or poor — is treated with dignity and care.",
-        explanation:
-            "A well-structured essay on good manners should cover their cultural, social, and moral significance with specific examples.",
+        scenario: "QUESTION 5 (BECE 2014)\n\n"
+            "Fatimeh was always silent. She learnt a lot within a short time. In one month, she could milk cows, separate butter and cheese from the milk, ferment the milk and cook nearly as well as Rikku’s mother. At first, she went with Rikku’s mother to hawk the sour milk; she was beginning to find her way to and from town.\n\n"
+            "Fatimeh was always chewing tobacco flower and so her lips, teeth and gums became red. Hodio noticed that her looks had improved since she came to live with the family. Her skin was smooth and shiny; she had also put on more flesh.\n\n"
+            "Towards nightfall, when Fatimeh came home, she would take a pot and go down to the stream where she bathed and drew water. Sometimes, she went with Leibe or Shaitu; she was never alone.\n\n"
+            "One evening, Hodio followed Fatimeh quietly to the stream when the place was quiet and he could hear the sound of his own footsteps on the dusty road. When he caught up with Fatimeh, he suggested to her to run away with him because he loved her dearly and wanted her to be his wife. Fatimeh refused. She knew very well that, as a slave, she could never hope to marry a freeborn and proud Fulani like Hodio Sunsaye.\n\n"
+            "Hodio did not give up. He spoke to her again. He tried to persuade her to run away with him and live in a town where no one cared about tradition and custom. Eventually, Fatimeh agreed to consider his proposal.\n\n"
+            "Hodio’s father, old Sunsaye, was the first person who missed Fatimeh. He called his wife, Shaitu, and asked her if she had seen Fatimeh. She replied in the negative. He asked Rikku and Leibe. No one could tell him where Hodio and Fatimeh were. They then looked behind the hut; the horse was not there.\n\n"
+            "(a) What two things did the girl learn to do in one month?\n\n"
+            "(b) Give two adjectives that describe Fatimeh as presented in the first paragraph.\n\n"
+            "(c) What was Hodio’s main reason for following Fatimeh to the stream?\n\n"
+            "(d) Fatimeh refused.\n"
+            "    (i) What did Fatimeh refuse to do at first?\n"
+            "    (ii) Why did she refuse Hodio’s proposal?\n\n"
+            "(e) Why did Hodio want to live in a town?\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) silent;\n"
+            "    (ii) sour;\n"
+            "    (iii) improved;\n"
+            "    (iv) drew;\n"
+            "    (v) proposal.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Within just a month, she had picked up how to milk cows and how to separate butter and cheese from milk, as well as how to ferment milk and cook almost as skilfully as Rikku’s mother.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "She could be described as reserved, sharp-witted, cooperative and hardworking.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "He was in love with her and hoped to persuade her to elope and become his wife.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) At the outset, she turned down his offer to run away together.\n\n"
+            "• (ii) Being a slave herself, she believed marriage to a freeborn Fulani man was simply out of reach for someone in her position.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "He hoped to settle somewhere that traditional customs and social expectations would not stand in the way of their relationship.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Silent: quiet\n\n"
+            "• (ii) Sour: bitter, unpleasant or tangy\n\n"
+            "• (iii) Improved: become better, become nicer, become more attractive or become more beautiful\n\n"
+            "• (iv) Drew: fetched, collected or obtained\n\n"
+            "• (v) Proposal: offer, suggestion or request",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2015)\n\n"
+            "The dry season was very long. The people waited anxiously for the rains to plant their seeds. The rain clouds that appeared occasionally were deceptive. To while away the time, they wove baskets and kente; others carved stools or sat under trees, playing games and drinking palm wine.\n\n"
+            "Sentu and his family were on the verge of starvation. They had just one cassava farm left to feed on. The maize in the barn was all gone. In fact, they had started eating the seed maize. Sentu kept wondering how he would get seeds to plant when the rainy season eventually started. He went to inspect the traps he had set for the rodents that had been feasting on the cassava. If the traps caught any animals, it would be a double blessing; he would get meat and reduce the population of ‘his enemies’, the pests. While inspecting the traps, he saw some smoke. He dashed towards it. He tried to put out the fire but could not. He shouted for help. In a twinkling of an eye, the whole farm had been destroyed. Sentu wept uncontrollably.\n\n"
+            "When he reached the village, his neighbours rushed to his house to console him. They gave him food and promised to help him get back on his feet. Tutu, the palm-wine tapper, visited Sentu that evening. He was accompanied by two elderly and highly respected men in the village. Their mission was simple: Tutu had asked them to apologise to Sentu on his behalf. It was the fire from Tutu’s torch that had caused such havoc and brought such agony to Sentu’s family. What could Sentu do or say?\n\n"
+            "(a) (i) What was the main occupation of the people?\n"
+            "    (ii) State two other things they did that could earn them an income.\n\n"
+            "(b) (i) What does ‘pests’ refer to?\n"
+            "    (ii) Why did the writer refer to the pests as ‘his enemies’?\n\n"
+            "(c) (i) How did Sentu feel when his farm was burnt?\n"
+            "    (ii) Why did he feel that way?\n\n"
+            "(d) For what two reasons did Tutu choose the elderly and highly respected men to accompany him to visit Sentu?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) a double blessing;\n"
+            "    (ii) wept uncontrollably;\n"
+            "    (iii) get back on his feet.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) anxiously;\n"
+            "    (ii) deceptive;\n"
+            "    (iii) dashed;\n"
+            "    (iv) mission;\n"
+            "    (v) agony.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• (i) The villagers mainly earned their living through farming.\n\n"
+            "• (ii) They also earned income by weaving baskets and kente cloth and by carving stools.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• (i) The pests refer to the rodents that were feeding on the crops.\n\n"
+            "• (ii) He called them his enemies because they kept destroying his cassava farm.\n\n"
+            "⦿ (c) Answers:\n\n"
+            "• (i) He was devastated, heartbroken and unable to console himself.\n\n"
+            "• (ii) The farm was his family’s only remaining source of food, so its destruction left him worried about how they would survive.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• Tutu genuinely felt remorseful about what had happened.\n\n"
+            "• He hoped the presence and status of the elderly and highly respected men would persuade Sentu to accept his apology.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) A double blessing: an extra gain, two benefits, two gains or twin benefits.\n\n"
+            "• (ii) Wept uncontrollably: cried bitterly, broke down in tears or cried inconsolably.\n\n"
+            "• (iii) Get back on his feet: recover or regain what was lost.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Anxiously: worriedly, impatiently, expectantly or with expectation\n\n"
+            "• (ii) Deceptive: deceitful or misleading\n\n"
+            "• (iii) Dashed: rushed, hurried or sped\n\n"
+            "• (iv) Mission: purpose, objective or aim\n\n"
+            "• (v) Agony: suffering, hardship, pain or anguish",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS2 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2016)\n\n"
+            "One major cause of environmental degradation in Ghana is gold mining. In the name of natural resource development, land is given to mining companies owned by foreigners. These foreigners milk the country dry and destroy the heritage of the people.\n\n"
+            "From the vast concessions granted them by the government, they extract the gold, destroy the rivers and other water bodies in the communities before going home, leaving the land worthless. Yet their operations are legal.\n\n"
+            "Approved mining is, however, not the sole gold mining activity. There is also what is regarded as unauthorized mining, called galamsey. In this enterprise, adventurous Ghanaians set out to do private mining as a livelihood. They dig up the earth with tools that are not as sophisticated as those of foreigners who also dig for the precious metal.\n\n"
+            "Mining activities destroy the environment. So far, it appears that nothing can be done to reclaim the land degraded by miners; the damage is irreversible. Vast tracts of arable land have become desolate mounds because of gold digging. Nothing can grow where galamsey has taken place.\n\n"
+            "Besides, the main water sources of communities have been polluted by the activities of both legal and illegal miners. The gold extracted from dirt requires cleaning with chemicals and rinsing in water. By the time the gold searchers succeed in producing a glittering handful, large stretches of rivers, ponds of water and some lakes have become poisoned.\n\n"
+            "Pollution leaves little drinking water for man and beast. Fishes die and humans contract various diseases.\n\n"
+            "(a) Name the types of mining activities discussed in the passage.\n\n"
+            "(b) (i) Which groups of people engage in mining?\n"
+            "    (ii) Why does the government give licences to miners?\n\n"
+            "(c) How are the people and the land affected by the mining activities?\n\n"
+            "(d) (i) How does the writer feel about mining?\n"
+            "    (ii) Why does the writer think that nothing can be done about the effects of mining?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) milk the country dry;\n"
+            "    (ii) leaving the land worthless.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) vast;\n"
+            "    (ii) sole;\n"
+            "    (iii) reclaim;\n"
+            "    (iv) mounds;\n"
+            "    (v) glittering.",
+        answer: "⦿ (a) Answer:\n\n"
+            "The passage discusses both licensed or official mining and unlicensed or informal mining known locally as galamsey.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• (i) Both foreign companies and local Ghanaians take part in mining.\n\n"
+            "• (ii) The government issues licences because it wants the country’s natural resources to be developed and turned into economic advantage.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Effects on the people: Communities lose access to clean drinking water, fall ill with various diseases and are deprived of their farmland.\n\n"
+            "• Effects on the land: The land becomes barren and unproductive, loses its plant life entirely, its rivers disappear, and fish populations die off.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) The writer clearly takes a negative view of mining and shows disapproval throughout the passage.\n\n"
+            "• (ii) The writer believes that the harm caused is permanent; once degraded, the land cannot be restored to its original state.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Milk the country dry: take away the country’s wealth or resources, or make the country poor.\n\n"
+            "• (ii) Leaving the land worthless: taking away the nutrients of the land, making the land infertile, or rendering the land useless and unproductive.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Vast: large, big, extensive, expansive or very wide\n\n"
+            "• (ii) Sole: only, lone, exclusive or main\n\n"
+            "• (iii) Reclaim: redeem, restore, recover, salvage or replenish\n\n"
+            "• (iv) Mounds: piles, heaps or hills\n\n"
+            "• (v) Glittering: shining, sparkling, glistening or glistering",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2017)\n\n"
+            "My desire to win gold and also see the sea drove me to a small coastal village. Though I had little food and drink, I covered a great distance. Towards dusk, I could sight the sea from a distance. Its immense size stretched as far as the eyes could see.\n\n"
+            "As the stars appeared in the sky, I ascended the hill and saw the village of my quest. I was dead with fatigue. To worsen my plight, there were blisters on my heel so I had to take a rest. But as I descended the hill, I was welcomed by the quietness of the place.\n\n"
+            "The villagers were enjoying the cool evening air. From the lagoon came the croaking of frogs. Children played and ran about excitedly. The village life was natural and simple. I sat on a bench close by. How good it was to rest!\n\n"
+            "I resolved to rest on the bench. As I lay there, a sheet of mist rolled in from the sea and settled upon the village. In a few minutes, the village was filled with mist and everybody was running helter-skelter. I was drenched to the skin. I had decided to move to the next village when a woman suddenly walked up to me. For some time, I had seen her gazing at me with pity. Now, as if she read my thoughts, she said, “If you would accept my hospitality, you will be sheltered till the morning. Just charity”. She was about thirty years of age, dressed in black with a pale face and dark eyes.\n\n"
+            "Papaya hut held special appeal for me for its serene environment. For many days, I was well catered for in this hut. This enabled me to replenish my energy. It was with a heavy heart, when the time for departure arrived, that I bade farewell to my benefactress.\n\n"
+            "(a) State why the writer went to the coast.\n\n"
+            "(b) (i) How did the writer find life in the village?\n"
+            "    (ii) Why did the writer decide to go to the next village?\n\n"
+            "(c) (i) “…my plight.” What does this refer to?\n"
+            "    (ii) “…everybody was running helter-skelter.” What do you think had happened?\n\n"
+            "(d) (i) What two adjectives would you use to describe the character of the woman?\n"
+            "    (ii) What does the appearance of the woman suggest?\n\n"
+            "(e) Explain the following expressions in your own words:\n"
+            "    (i) drenched to the skin;\n"
+            "    (ii) she read my thoughts;\n"
+            "    (iii) with a heavy heart.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) immense;\n"
+            "    (ii) ascended;\n"
+            "    (iii) resolved;\n"
+            "    (iv) serene;\n"
+            "    (v) replenish.",
+        answer: "⦿ (a) Answer:\n\n"
+            "He travelled to the coast in the hope of finding gold and also wanted to catch sight of the sea for himself.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• (i) He experienced village life as natural, unspoilt, simple and peaceful.\n\n"
+            "• (ii) A sense of loneliness pushed him to consider moving on to another village where he could seek somewhere to rest and stay.\n\n"
+            "⦿ (c) Answers:\n\n"
+            "• (i) It refers to how utterly exhausted and worn out he was, together with the blisters on his heel.\n\n"
+            "• (ii) A thick mist had rolled in and covered the entire village, causing everyone to run about in confusion.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) The woman could be described as warm-hearted, welcoming, generous, sympathetic and caring towards a stranger.\n\n"
+            "• (ii) Her black clothing and pale, sorrowful appearance suggest that she was grieving the loss of someone close to her.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Drenched to the skin: very wet, completely wet or soaked.\n\n"
+            "• (ii) She read my thoughts: she knew what was in his mind, understood what he wanted without being told, or knew what he was about to say.\n\n"
+            "• (iii) With a heavy heart: with sadness, sorrow, unhappiness or deep regret.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Immense: expansive, vast, very large, very big or enormous\n\n"
+            "• (ii) Ascended: climbed, climbed up or went up\n\n"
+            "• (iii) Resolved: decided or made up my mind\n\n"
+            "• (iv) Serene: quiet, calm, cool, undisturbed, peaceful or tranquil\n\n"
+            "• (v) Replenish: regain, renew or restore",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2018)\n\n"
+            "When Pozo adopted Abate and Ali, he vowed to take great care of them. And he did his best. But Abate and Ali did exactly as they were told not to. Their greatest passion was snail-hunting.\n\n"
+            "As he left home for an important meeting one afternoon, Pozo told the boys that he would be particularly pleased if they did not join any snail-hunting group or go snail-hunting by themselves. He even promised surprise presents if they abstained from snail-hunting for once. It was quite obvious to everyone that there would be snail-hunting as there had been a heavy downpour that morning.\n\n"
+            "Pozo’s meeting was a marathon. When he arrived home at 8:30 that night, neither of the boys was at home. He felt that something grave might have happened. He stood still for some time confused. He switched on his radio and tuned in to his favourite station, Hiawa FM and the breaking news was: “Five snail-hunters have been run over at Yaaobi by the early evening in-coming Densuano-bound train”. As the dreadful news hit him, Pozo winced.\n\n"
+            "Pozo was so stupefied that he did not notice Ali enter the house, sweating and breathless, carrying a head-load of snails. But where was Abate?\n\n"
+            "Furtively, the back door squeaked open. In stole the other boy, also sweating and breathless under the weight of the head-load of snails. On seeing him, Pozo sighed, relieved. He shook his head. “These boys will surely be the death of me”, he murmured to himself. “When will they do exactly as they are told?”\n\n"
+            "(a) (i) Why was Pozo taking care of the boys?\n"
+            "    (ii) Why do you think Pozo did not want the boys to go snail-hunting?\n\n"
+            "(b) State the two reasons why Pozo was sure that the boys would go snail-hunting.\n\n"
+            "(c) What is the meaning of the sentence, “Pozo’s meeting was a marathon”?\n\n"
+            "(d) (i) Why was Pozo so worried when he returned from the meeting?\n"
+            "    (ii) How did the news of the rail accident affect Pozo?\n\n"
+            "(e) Explain in your own words the following expressions as used in the passage:\n"
+            "    (i) have been run over;\n"
+            "    (ii) in stole the other boy;\n"
+            "    (iii) be the death of me.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) vowed;\n"
+            "    (ii) passion;\n"
+            "    (iii) abstained;\n"
+            "    (iv) grave;\n"
+            "    (v) breathless.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• (i) Pozo had formally adopted the two boys, so they had become his children and he was responsible for looking after them.\n\n"
+            "• (ii) He feared for their safety because he knew that snail-hunting could be dangerous.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• The boys were passionate snail-hunters who loved the activity.\n\n"
+            "• There had been heavy rainfall that morning, which usually made snails plentiful and attracted snail-hunters.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "It means the meeting lasted or dragged on for an unusually long period.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) He returned home to find both boys missing and had no idea where they had gone.\n\n"
+            "• (ii) The report left him shaken, disturbed and deeply troubled because he feared that the boys might have been involved.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Have been run over: were knocked down or killed by a moving vehicle or train.\n\n"
+            "• (ii) In stole the other boy: the other boy entered quietly, secretly or unnoticed.\n\n"
+            "• (iii) Be the death of me: will worry or upset me greatly, or will make me lose my mind.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Vowed: promised, pledged or swore\n\n"
+            "• (ii) Passion: love, desire or strong interest\n\n"
+            "• (iii) Abstained: stayed away, refrained, held themselves back or kept away\n\n"
+            "• (iv) Grave: serious, terrible, worrying, dreadful, grievous, fearful or frightening\n\n"
+            "• (v) Breathless: gasping, panting, out of breath, puffing or breathing fast",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2019)\n\n"
+            "Friends are meant to help each other when the need arises. At school, some people develop friendly relationships which continue throughout their lives. One thing which helps people to stay together as intimate friends is the ability to communicate freely among themselves and endeavour to be each other’s keeper. What destroys friendships mostly is friends being suspicious of each other. That is why a popular adage says, “Suspicion is the bane of friendship.”\n\n"
+            "People attend school not only because they want to make friends but also to acquire knowledge and skills for employment. Education helps people to be polished in their manners. The school prepares its students to become useful citizens.\n\n"
+            "At school, Tono was not in the good books of the teachers because he behaved in an unruly manner. Initially, everyone avoided his company; he could be violent at times. Worst of all, he would refuse to do his assignment and was a habitual latecomer. With the passage of time, he was subjected to strict discipline. He began to mend his ways and obey the school’s rules and regulations. He realised the need to work diligently in order to have a bright future. His academic work therefore improved by leaps and bounds.\n\n"
+            "Fortune separated us. I travelled abroad for further studies. I stayed away for two decades. On my return, I went to my former school for my certificate. There, I met a middle-aged gentleman who also came to the office for the same purpose. I could not recognize him because time had wiped off all memories of school life. However, the names on the certificates revealed that we were classmates.\n\n"
+            "After further discussions, Tono invited me to be his business partner.\n\n"
+            "(a) (i) State one thing which helps people to be close.\n"
+            "    (ii) How can friendships get destroyed?\n\n"
+            "(b) Give two reasons why people go to school.\n\n"
+            "(c) (i) Why did people avoid Tono’s company?\n"
+            "    (ii) State Tono’s reason for visiting his former school.\n\n"
+            "(d) Why could the writer not recognize Tono?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) was not in the good books of the teachers;\n"
+            "    (ii) with the passage of time;\n"
+            "    (iii) by leaps and bounds.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) intimate;\n"
+            "    (ii) adage;\n"
+            "    (iii) acquire;\n"
+            "    (iv) polished;\n"
+            "    (v) initially.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• (i) Being open and honest with one another, communicating freely and looking out for each other help people to remain close.\n\n"
+            "• (ii) Friendships break down when people become suspicious of, doubt or distrust one another.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• People go to school to gain knowledge and skills that will help them secure employment and a promising future.\n\n"
+            "• They also go to school to become polished, well-mannered, responsible and useful citizens.\n\n"
+            "⦿ (c) Answers:\n\n"
+            "• (i) People avoided Tono because of his disorderly conduct. He could become aggressive, refused to do assignments and was frequently late.\n\n"
+            "• (ii) He returned to his former school to collect his certificate.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "So many years had passed since they last saw each other that the writer’s memories of Tono’s appearance had faded completely.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Was not in the good books of the teachers: he was disliked by the teachers or the teachers were displeased with him.\n\n"
+            "• (ii) With the passage of time: as time went on, as time passed, in due course, later on, or as the years went by.\n\n"
+            "• (iii) By leaps and bounds: greatly, very much, rapidly, significantly, immensely or tremendously.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Intimate: very close, very good, bosom, tight or best\n\n"
+            "• (ii) Adage: proverb, wise saying or maxim\n\n"
+            "• (iii) Acquire: get, obtain, receive or gain\n\n"
+            "• (iv) Polished: cultured, civilised, refined, well-mannered, well-behaved, well-trained or well-bred\n\n"
+            "• (v) Initially: at first, in the beginning, at the outset or from the beginning",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2020)\n\n"
+            "The academic performance of students in the olden days was golden. Students knew the essence of education and made efforts to achieve excellence. Reading whatever material they came across not only helped in their mental development but also made them self-reliant and confident. Students burned the midnight oil in order to make good grades and to come out of school as better people.\n\n"
+            "Unfortunately, the same cannot be said of students today. Whatever students achieved in the past is considered archaic. The emergence of improved technology has bedevilled the society. Students prefer staying in touch with their friends and loved ones. The use of social media, such as Facebook, Twitter, WhatsApp and Instagram, has taken over their entire being. Reading useful materials like dailies, storybooks and others is now a thing of the past.\n\n"
+            "The negative influence of social media has deprived students of achieving excellence. Examination malpractices, mass failure in examinations and bad language have become the order of the day.\n\n"
+            "Modern technology has its own benefits. In addition to serving as a great tool for businesses, it enables students to access information easily. What is more, it enables easy interaction between friends and loved ones. As much as these are important, students should realize that, without good education and reading, the future remains blurred. Students can eradicate the negative effects modern technology has on them if only they remain focused on their academic work.\n\n"
+            "(a) State two benefits of reading mentioned in the passage.\n\n"
+            "(b) For what two reasons did students study late into the night in the past?\n\n"
+            "(c) State two benefits of modern technology.\n\n"
+            "(d) How can students get rid of the harmful influence of social media?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) burn the midnight oil;\n"
+            "    (ii) taken over their entire being;\n"
+            "    (iii) the order of the day.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) golden;\n"
+            "    (ii) excellence;\n"
+            "    (iii) archaic;\n"
+            "    (iv) blurred;\n"
+            "    (v) eradicate.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• Reading contributes to students’ intellectual or mental development.\n\n"
+            "• It also builds their independence, self-reliance and self-confidence.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• They studied late into the night to achieve good examination results.\n\n"
+            "• They also wanted to graduate as accomplished and better individuals.\n\n"
+            "⦿ (c) Answers:\n\n"
+            "• Modern technology gives people quick and easy access to information.\n\n"
+            "• It serves as a valuable tool for businesses and helps people communicate easily with friends and family.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "Students can overcome the harmful influence of social media by remaining focused on their schoolwork and studying seriously.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Burn the midnight oil: stay up late for long hours studying, working or reading.\n\n"
+            "• (ii) Taken over their entire being: completely occupied their minds, controlled their lives or made them preoccupied with social media.\n\n"
+            "• (iii) The order of the day: a usual occurrence, a customary practice or a common phenomenon.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Golden: excellent, superb, splendid, special, unique, exceptional, remarkable, outstanding, impressive, very good or extremely good\n\n"
+            "• (ii) Excellence: distinction, eminence, brilliance, greatness or superiority\n\n"
+            "• (iii) Archaic: outmoded, dated, out-of-date, outdated, obsolete, old-fashioned or antiquated\n\n"
+            "• (iv) Blurred: uncertain, unclear, undetermined or bleak\n\n"
+            "• (v) Eradicate: eliminate, obliterate, uproot, get rid of, root out, stamp out or do away with",
+        explanation: "",
       ),
     ],
   ),
 
-  // ─── JHS 2 / JHS 3: ENGLISH theory ─────────────────────────────────────────
+  "English JHS3 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2021)\n\n"
+            "The tiger, the cheetah and the cat belong to the same family. The tiger is the largest member of the family. Although it is a wild animal, it is sometimes trained to assist acrobats in entertaining people. The cheetah is the fastest animal on land. It can be trained to hunt other animals. Cats are found in many homes but there are wild ones too.\n\n"
+            "Although cats are found in homes, man did not intentionally domesticate them. Before man learnt to grow crops and rear animals, he used to depend on plants and animals in the bush for food. When he gathered grains which were the seeds of grass, he accidentally took away the food of rodents such as mice and rats. These followed their food indoors. The wild cat, the natural enemy of the rats and mice, also followed them into the domestic granaries.\n\n"
+            "Cats did not eat the grains that were becoming the main source of nourishment for man. Therefore, they were encouraged to remain at home in order to get rid of the rodents. Man also probably found out that cats were neater and quieter than dogs.\n\n"
+            "When ships were invented and man began to trade farther, grains were very important commodities. They were used not only as provisions but also as items of barter. The mice and the rats went along, once again followed by the cats. In this way, a food chain that began in the grasslands to the south and east of the Mediterranean Sea has spread to all corners of the world.\n\n"
+            "(a) (i) What two types of cats are mentioned in the passage?\n"
+            "    (ii) How did the cat become a domestic animal?\n\n"
+            "(b) For what two reasons did man prefer cats to dogs?\n\n"
+            "(c) What human activity led to the spread of cats to all corners of the world?\n\n"
+            "(d) “…a food chain.” What is referred to as a food chain in the passage?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) the domestic granaries;\n"
+            "    (ii) items of barter;\n"
+            "    (iii) all corners of the world.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) sometimes;\n"
+            "    (ii) intentionally;\n"
+            "    (iii) gathered;\n"
+            "    (iv) nourishment;\n"
+            "    (v) probably.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• (i) The passage distinguishes between wild cats and domestic cats living in people’s homes.\n\n"
+            "• (ii) Cats followed rats and mice into people’s dwellings. Humans allowed the cats to remain indoors because they controlled the rodents.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• Cats kept themselves cleaner than dogs.\n\n"
+            "• Cats made much less noise than dogs.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "The spread of cats was caused by international trade and the transportation of goods by ships across the seas.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "The food chain refers to rodents feeding on stored grain and cats, in turn, preying on the rodents.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) The domestic granaries: household storerooms for grains, storage facilities for harvested grains, or places where grains are kept at home.\n\n"
+            "• (ii) Items of barter: commodities or goods exchanged for other goods.\n\n"
+            "• (iii) All corners of the world: everywhere, every part of the earth or throughout the world.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Sometimes: at times, occasionally, now and then, from time to time or periodically\n\n"
+            "• (ii) Intentionally: deliberately, wilfully, consciously, purposely or on purpose\n\n"
+            "• (iii) Gathered: collected, garnered, picked, harvested or reaped\n\n"
+            "• (iv) Nourishment: food, sustenance, feeding, nutrition or nutriment\n\n"
+            "• (v) Probably: likely, possibly, presumably, perhaps or in all probability",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2022)\n\n"
+            "Ogboo was a very successful businessman. He owned a fleet of vehicles. He was very generous and highly respected in his village. His children were very dear to him but he did not pamper them. He considered some modern gadgets dangerous, too expensive and a way of encouraging laziness among children. Therefore, no labour-saving gadgets were found in his kitchen. He insisted that food tasted better when prepared in the traditional way. He was also his children’s barber.\n\n"
+            "At school, his children were the only pupils who received letters, popularly called snail mail. Akwei, his eldest child, was always the object of ridicule among his peers. He patiently bore all the humiliation. When he completed school and his father made him manage the business, he decided to do things differently. He bought a cellular phone for his mother and equipped the house with modern gadgets. He also installed tracking devices on his father’s vehicles and insisted on the drivers using mobile money transfer services. He swore the drivers to secrecy.\n\n"
+            "In an era when car snatching, drivers cheating their employers and armed robbery were the order of the day, Ogboo’s transport business continued to flourish. He seemed to be insulated against theft. This amazed everyone. Soon, tongues began to wag. Ogboo was accused of possessing magical powers. Others insinuated that he was in league with the armed robbers. People shunned his company. One day, at a meeting organized by the transport owners, Akwei let the cat out of the bag.\n\n"
+            "(a) Write two things Ogboo did that showed that he did not pamper his children.\n\n"
+            "(b) (i) Identify two of the things that Akwei did differently.\n"
+            "    (ii) List two adjectives that can be used to describe Akwei’s drivers.\n\n"
+            "(c) What were two of the problems that car owners faced?\n\n"
+            "(d) Akwei let the cat out of the bag.\n"
+            "    (i) What did Akwei do?\n"
+            "    (ii) Why did he let the cat out of the bag?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) order of the day;\n"
+            "    (ii) tongues began to wag;\n"
+            "    (iii) in league with.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) highly;\n"
+            "    (ii) pamper;\n"
+            "    (iii) manage;\n"
+            "    (iv) installed;\n"
+            "    (v) flourish.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• Ogboo kept his kitchen free of modern labour-saving gadgets and insisted that food should be prepared in the traditional way.\n\n"
+            "• He cut his children’s hair himself instead of allowing them to enjoy fashionable hairstyles.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• (i) Akwei bought his mother a mobile phone, modernized the house, installed tracking devices on the vehicles and required the drivers to use mobile money transfers.\n\n"
+            "• (ii) The drivers could be described as dependable and obedient, but also sworn to confidentiality or secrecy.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Transport owners faced vehicle theft or car snatching, dishonest drivers who cheated their employers and armed robbery.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) Akwei revealed to the other transport owners the real reason his father’s business had survived theft: the use of tracking devices and mobile money transfers.\n\n"
+            "• (ii) He did so to protect his father’s reputation and stop the rumours circulating about him.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) Order of the day: the usual practice, a regular occurrence or something very common.\n\n"
+            "• (ii) Tongues began to wag: people began gossiping, talking or spreading rumours.\n\n"
+            "• (iii) In league with: working together with, being connected with or belonging to the same group.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Highly: very much, greatly, deeply, extremely well or immensely\n\n"
+            "• (ii) Pamper: spoil, indulge, coddle, baby or cosset\n\n"
+            "• (iii) Manage: take charge of, head, preside over, supervise or oversee\n\n"
+            "• (iv) Installed: put, placed, fixed, set, planted or fitted\n\n"
+            "• (v) Flourish: grow, thrive, prosper, improve, progress or be successful",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2023)\n\n"
+            "The new Headmistress of Beso Junior High School was impressed with the infrastructure and equipment in the school. She was also pleased with the staff and student population. However, one thing puzzled her. The students’ performance was very poor, according to the records. She had a discussion with the staff who complained of student absenteeism due to ill health. A nurse in the community told her that the children were often under the weather.\n\n"
+            "They had malaria, although every family had been given insecticide-treated mosquito nets. It seemed, however, that the people did not use these nets as they should and therefore the numerous mosquitoes in the environment continued to bite them. While visiting some of the sick children in the community, the Headmistress noticed that there were several pits filled with water. At a general PTA meeting, she explained how mosquitoes could breed in the stagnant water in the pits. She also pointed out the effects of the poor health of the children on their academic performance. She then appealed for help to destroy the breeding places of the mosquitoes so that the children would become healthier and perform better in school.\n\n"
+            "Although some of the parents did not understand the connection between the water in the pits and the performance of the students, they agreed to help her. During the next dry season, work started. All hands were on deck. The people worked very hard and the pits were filled. Trees and flowers were planted on the reclaimed land. The community now looked more beautiful than before. Soon, the children’s health improved and, later, their performance in the final examinations became better.\n\n"
+            "(a) Mention two things the Headmistress liked about the school.\n\n"
+            "(b) In which two ways did the children’s poor health affect them?\n\n"
+            "(c) Why did the Headmistress involve the parents in solving the problem?\n\n"
+            "(d) (i) What made the community succeed in filling the pits?\n"
+            "    (ii) What two benefits did the filling of the pits bring to the community?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) one thing puzzled her;\n"
+            "    (ii) often under the weather;\n"
+            "    (iii) all hands were on deck.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) noticed;\n"
+            "    (ii) pits;\n"
+            "    (iii) appealed;\n"
+            "    (iv) perform;\n"
+            "    (v) connection.",
+        answer: "⦿ (a) Answers:\n\n"
+            "• She admired the school’s well-equipped infrastructure and facilities.\n\n"
+            "• She was also pleased with the staff and student population.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• Poor health caused the pupils to be absent from school regularly.\n\n"
+            "• Their academic performance suffered as a result.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "She involved the parents because the problem affected the wider community and could not realistically be solved by the school staff alone.\n\n"
+            "⦿ (d) Answers:\n\n"
+            "• (i) The entire community cooperated and worked hard together to fill the pits.\n\n"
+            "• (ii) The area became healthier and more attractive, and the pupils’ examination results improved.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) One thing puzzled her: she was confused, baffled or unable to understand something.\n\n"
+            "• (ii) Often under the weather: frequently ill, unwell, sick or indisposed.\n\n"
+            "• (iii) All hands were on deck: everybody was involved, active and working together.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Noticed: saw, observed, realized, discovered, detected or became aware of\n\n"
+            "• (ii) Pits: holes, gullies, abandoned quarries or trenches\n\n"
+            "• (iii) Appealed: asked, pleaded, begged, requested or prayed\n\n"
+            "• (iv) Perform: do, work, learn, study or pass examinations\n\n"
+            "• (v) Connection: link, relationship, association, affinity or interconnection",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2024)\n\n"
+            "Migration is a common practice among animals: birds, fish and human beings. Migration of human beings has both positive and negative effects on individuals in the society.\n\n"
+            "When Bello migrated to the city, he left his wife, Aisha, an enterprising traditional caterer, to fend for herself and their two children. During one of his occasional visits home, his father asked him to take his wife and children to live with him in the city. Reluctantly, Bello gave in.\n\n"
+            "Aisha had imagined that she would be living in a neat, beautiful and comfortable house in the city. Instead, she, her husband and their children were accommodated in a single room. Washroom facilities were shared with other families. To worsen her plight, her housekeeping allowance was so meagre that she could hardly feed her family properly. She wanted to work, but like the other female migrants, she could not find any job. She wondered how they would survive, be able to send money to their parents and save for a rainy day.\n\n"
+            "One day, she decided to give her husband a treat and also socialize with their friends. She prepared one of the most inexpensive but tasty delicacies of her people and shared it with their neighbours. Even passers-by popped in for a bite. It was a very successful get-together. Her labour was not in vain. Soon, other women asked her to teach them how to cook some local dishes. She also provided catering services at many events. She was handsomely rewarded. Gradually, Aisha Catering Services became a household name and there was remarkable improvement in their lives.\n\n"
+            "(a) What was Aisha’s occupation before she went to the city?\n\n"
+            "(b) In which two ways did the migrant workers spend their money?\n\n"
+            "(c) In one adjective, describe how Aisha felt when she arrived in the city.\n\n"
+            "(d) “Reluctantly, Bello gave in.” Why was Bello reluctant?\n\n"
+            "(e) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) to fend for;\n"
+            "    (ii) save for a rainy day;\n"
+            "    (iii) was not in vain.\n\n"
+            "(f) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) occasional;\n"
+            "    (ii) prepared;\n"
+            "    (iii) handsomely;\n"
+            "    (iv) improvement.\n\n"
+            "(g) In two sentences of not more than ten words each, summarize two problems that migrants face as expressed in the third paragraph.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Aisha earned a living as a traditional caterer who cooked and sold food.\n\n"
+            "⦿ (b) Answers:\n\n"
+            "• Migrant workers spent their earnings on daily living expenses and basic needs.\n\n"
+            "• They also sent money to relatives and saved some for the future.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "Aisha felt disappointed, unhappy or disheartened.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "Bello was reluctant because he knew he had no decent accommodation to offer his family and understood how difficult city life would be for them.\n\n"
+            "⦿ (e) Answers:\n\n"
+            "• (i) To fend for: take care of oneself, provide for one’s needs or look after oneself.\n\n"
+            "• (ii) Save for a rainy day: keep money aside for future emergencies or needs.\n\n"
+            "• (iii) Was not in vain: produced good results, was worthwhile or was not wasted.\n\n"
+            "⦿ (f) Answers:\n\n"
+            "• (i) Occasional: rare, random, infrequent, periodic or intermittent\n\n"
+            "• (ii) Prepared: cooked, made or provided\n\n"
+            "• (iii) Handsomely: very well, adequately, sufficiently, generously or abundantly\n\n"
+            "• (iv) Improvement: enhancement, development, progress, advancement, upliftment or upgrade\n\n"
+            "⦿ (g) Answers:\n\n"
+            "• Migrants face serious accommodation and housing challenges.\n\n"
+            "• Migrants may struggle to find suitable employment.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2025)\n\n"
+            "I was twelve years old when I came across the words “loyalty” and “decorum”. I asked my father to explain them to me. His explanation impressed me so much I resolved to make them my hallmarks. I tried to be as good as my words. Anytime I was rude or showed disloyalty to someone, I promptly regretted it. Soon loyalty and decorum became characteristic of me.\n\n"
+            "Having completed Junior High School, my uncle, Gidi, approached my father and requested that I lived with him temporarily as his children were in America in search of greener pastures. With Daddy’s consent, I went and stayed with him. However, he refused to let me return to my parents after Senior High School. Why? Daddy impressed on me the value of hard work, so I lived up to expectation.\n\n"
+            "Uncle decided to visit his children for the best part of a year and left his mansion and other properties under the stewardship of Lugu, his security man, and me due to the trust he reposed in us. This notwithstanding, Lugu suggested that we connive with some miscreants to burgle Uncle Gidi’s house and share the proceeds with them. Though he persistently attempted to persuade me, I never bought into that idea. Eventually, he fled the mansion sensing I might expose him as a traitor.\n\n"
+            "Uncle returned and heard about Lugu’s plan which I did not succumb to and promised to reward me substantially. However, this never materialized until the unexpected happened. His children returned and told me that when Uncle Gidi was about to go to eternity, he instructed them to reward me with a three-bedroom house and a car. All I said was, “Oh! Loyalty.”\n\n"
+            "(h) What is the difference between the narrator and Lugu, according to the passage?\n\n"
+            "(i) Why didn’t the narrator’s uncle let him or her go back to his or her parents’ house after Senior High School?\n\n"
+            "(j) Why didn’t the narrator agree to Lugu’s suggestion?\n\n"
+            "(k) “Until the unexpected happened.” What do you think happened?\n\n"
+            "(l) Explain, in your own words, the following expressions as used in the passage:\n"
+            "    (i) be as good as my words;\n"
+            "    (ii) in search of greener pastures;\n"
+            "    (iii) the best part of a year.\n\n"
+            "(m) For each of the following words, give another word or phrase that means the same and can fit into the passage:\n"
+            "    (i) promptly;\n"
+            "    (ii) stewardship;\n"
+            "    (iii) burgle;\n"
+            "    (iv) substantially.\n\n"
+            "(n) In two sentences of not more than ten words each:\n"
+            "    (i) summarize a lesson the narrator learnt based on the last paragraph;\n"
+            "    (ii) give a suitable title to the passage.",
+        answer: "⦿ (h) Answer:\n\n"
+            "Unlike Lugu, who was disloyal and untrustworthy, the narrator remained faithful, loyal and trustworthy throughout.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "The uncle kept the narrator because the narrator had proved hardworking, respectful and consistently lived up to expectations.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "The narrator refused Lugu’s suggestion because loyalty and proper conduct had become deeply rooted in the narrator’s character, making betrayal unthinkable.\n\n"
+            "⦿ (k) Answer:\n\n"
+            "The expression is a gentle way of saying that Uncle Gidi died or passed away.\n\n"
+            "⦿ (l) Answers:\n\n"
+            "• (i) Be as good as my words: live according to what I say, keep my promises or follow my principles.\n\n"
+            "• (ii) In search of greener pastures: looking for better opportunities, better-paid work or a more rewarding life.\n\n"
+            "• (iii) The best part of a year: most of a year, nearly a year, more than six months or close to twelve months.\n\n"
+            "⦿ (m) Answers:\n\n"
+            "• (i) Promptly: instantly, immediately, at once, quickly or without delay\n\n"
+            "• (ii) Stewardship: control, care, protection, supervision, custody, responsibility or charge\n\n"
+            "• (iii) Burgle: rob, steal from or break into\n\n"
+            "• (iv) Substantially: considerably, greatly, very much, abundantly or generously\n\n"
+            "⦿ (n) Answers:\n\n"
+            "• (i) Loyalty and honesty eventually bring valuable rewards.\n\n"
+            "• (ii) The Reward for Loyalty.",
+        explanation: "",
+      ),
+    ],
+  ),
 
   "JHS 2 - Environmental issues": PracticeModel(
     audioPath: '',
