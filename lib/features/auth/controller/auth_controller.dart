@@ -1,4 +1,7 @@
 import 'dart:developer' as DPrint;
+import 'dart:io';
+
+import 'package:device_info_plus/device_info_plus.dart';
 
 import 'package:flutter_sarpongoy_twelve/features/auth/controller/rememberme_controller.dart';
 import 'package:flutter_sarpongoy_twelve/features/auth/controller/security_check_controller.dart';
@@ -33,13 +36,37 @@ class AuthController extends BaseController {
   final AuthStorageService _authStorageService = AuthStorageService();
   final securityCheckController = Get.put(SecurityCheckController());
 
+  /// Returns a unique device identifier (Android ID / iOS identifierForVendor).
+  Future<String> _getDeviceAddress() async {
+    try {
+      final deviceInfo = DeviceInfoPlugin();
+      if (Platform.isAndroid) {
+        final info = await deviceInfo.androidInfo;
+        return info.id; // Android hardware ID
+      } else if (Platform.isIOS) {
+        final info = await deviceInfo.iosInfo;
+        return info.identifierForVendor ?? '';
+      }
+    } catch (e) {
+      DPrint.log('Failed to get device address: $e');
+    }
+    return '';
+  }
+
   Future<void> login(
       RememberMeController? rememberMeController, {
         required String userId,
         required String password,
         required String label,
       }) async {
-    final request = LoginRequestModel(userId: userId, password: password);
+    final mac_id = await _getDeviceAddress();
+    DPrint.log('Device MAC ID: $mac_id');
+
+    final request = LoginRequestModel(
+      userId: userId,
+      password: password,
+      mac_id: mac_id,
+    );
 
     final result = await _authRepo.login(request);
 

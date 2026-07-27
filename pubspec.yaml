@@ -58,6 +58,8 @@ dependencies:
   cached_network_image: ^3.4.1
   google_fonts: ^6.2.1
   fl_chart: ^0.68.0
+  device_info_plus: ^11.3.0
+
 
   # Video
   just_audio: ^0.9.42
@@ -1133,6 +1135,8 @@ flutter:
     - assets/images/english/eng jhs3 s2 ss1 L3/
     - assets/audio/english/eng jhs3 s2 ss1 l4/
     - assets/images/english/eng jhs3 s2 ss1 L4/
+    - assets/images/social_studies/social studies jhs2 s5 ss3 l1/
+    - assets/audio/social_studies/social studies jhs2 s5 ss3 l1/
 
   #   - images/a_dot_ham.jpeg
 

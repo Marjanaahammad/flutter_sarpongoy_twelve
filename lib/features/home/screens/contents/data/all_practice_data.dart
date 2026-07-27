@@ -6135,6 +6135,32 @@ final PracticeModel SSjhs2s5ss2Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel SSjhs2s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs2 s5 ss3 l1/6. guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Which of these is a major economic benefit of tourism to Ghana?",
+      answer: "It provides foreign exchange earnings.",
+      explanation:
+          "Explanation: Tourism brings in foreign currencies like the US Dollar, which helps strengthen the Ghanaian Cedi.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. What is one way the government can improve tourist sites in Ghana?",
+      answer: "By building better roads leading to the sites.",
+      explanation:
+          "Good road networks make it easier and safer for tourists to travel to different attractions.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Which site is famous for its canopy walkway?",
+      answer: "Kakum National Park",
+      explanation:
+          "Kakum National Park is world-famous for its canopy walkway suspended high above the forest floor.",
+    ),
+  ],
+);
 
 final PracticeModel SSjhs2s6ss1Lesson1PracticeData = PracticeModel(
   audioPath:
