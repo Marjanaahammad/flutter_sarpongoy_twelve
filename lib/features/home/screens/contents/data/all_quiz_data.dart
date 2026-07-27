@@ -4195,7 +4195,7 @@ final QuizModel s4ss1Lesson6QuizData = QuizModel(
   ],
 );
 final QuizModel s4ss2Lesson0QuizData = QuizModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/8. quiz.m4a',
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/8. quiz .m4a',
   questions: [
     QuizQuestion(
         question: "1. A personal narrative is a text type that describes:",
@@ -4330,7 +4330,7 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
 );
 final QuizModel s4ss2Lesson1QuizData = QuizModel(
   audioPath:
-      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (6. QUIZ).m4a',
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (6. QUIZ).m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the primary purpose of an advertisement?",
@@ -58202,7 +58202,7 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
           "Solve inside the brackets first to get 6x, then 12x - 6x = 6x",
     ),
     QuizQuestion(
-      question: r"10. Simplify \frac{15x + 10}{5}.",
+      question: r"10. Simplify \frac{15\times + 10}{5}.",
       options: ["3x + 10", "15x + 2", "3x + 2", "5x"],
       correctIndex: 2,
       difficulty: "Low",
@@ -58259,7 +58259,7 @@ final QuizModel MATHjhs1s2ss2QuizData = QuizModel(
       explanation: "Perimeter = 5a + 2a + 5a + 2a = 14a.",
     ),
     QuizQuestion(
-      question: "17. Simplify X × X × y × y × y.",
+      question: "17. Simplify X × X × Y × Y × Y × X.",
       options: [r"x^2y^2", r"2x^3y", "5xy", r"x^3y^3"],
       correctIndex: 3,
       difficulty: "Low",
@@ -59297,7 +59297,7 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
     ),
     QuizQuestion(
       question: "12. Express the probability 0.75 as a simplified fraction.",
-      options: [r"\frac{1}{4}", r"\farc{1}{2}", r"\farc{3}{4}", r"\frac{4}{3}"],
+      options: [r"\frac{1}{4}", r"\frac{1}{2}", r"\frac{3}{4}", r"\frac{4}{3}"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation: r"0.75 = \frac{75}{100} = \farc{3}{4}.",
@@ -60215,165 +60215,183 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
   audioPath: 'assets/audio/math/2. JHS2 S2 SS2/5. Quiz.m4a',
   questions: [
     QuizQuestion(
-      question:
-          "1. What is the gradient of the line passing through (2, 5) and (4, 9)?",
-      options: ["2", "4", "1", "7"],
+      question: "1. Expand x(x + 5)",
+      options: ["x² + 5x", "2x + 5", "x² + 5", "x + 5x"],
       correctIndex: 0,
-      difficulty: "Easy",
-      explanation: r"(9 − 5)/(4 − 2) = \frac{4}{2} = 2.",
+      difficulty: "Low",
+      explanation: "Multiply x by both x and 5.",
     ),
+
     QuizQuestion(
-      question: "2. In the equation y = 15x + 30, what does 30 represent?",
-      options: ["The gradient", "The x-axis", "The y-intercept", "The slope"],
+      question: r"2. Simplify \frac{3p}{4} − \frac{p}{4}",
+      options: [r"\frac{p}{4}", r"p", r"\frac{p}{2}", "2p"],
       correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "The constant term is the y-intercept.",
+      difficulty: "Low",
+      explanation: r"\frac{2p}{4} reduces to \frac{p}{2}.",
     ),
+
     QuizQuestion(
-      question:
-          "3. If 10 litres of fuel cost 140 Cedis, what is the cost of 2.5 litres?",
-      options: ["14 Cedis", "28 Cedis", "35 Cedis", "70 Cedis"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: r"\frac{140}{10} = 14 per litre. 14 x 2.5 = 35.",
-    ),
-    QuizQuestion(
-      question:
-          "4. Which equation matches a line with gradient 3 and intercept -2?",
-      options: ["y = -2x + 3", "y = 3x - 2", "y = 3x + 2", "y = 2x - 3"],
+      question: "3. Evaluate 3k − 10 if k = 4.",
+      options: ["12", "2", "-2", "7"],
       correctIndex: 1,
-      difficulty: "Easy",
-      explanation: "Use y = mx + c with m = 3 and c = -2.",
+      difficulty: "Low",
+      explanation: "3(4) − 10 = 12 − 10 = 2.",
     ),
+
     QuizQuestion(
-      question: "5. A car travels at 60km/h. How many hours to travel 150km?",
-      options: ["2.0 hours", "3.0 hours", "1.5 hours", "2.5 hours"],
-      correctIndex: 3,
-      difficulty: "Easy",
-      explanation: "150 ÷ 60 = 2.5.",
-    ),
-    QuizQuestion(
-      question: "6. What is the gradient of a vertical line?",
-      options: ["0", "1", "100", "Undefined"],
-      correctIndex: 3,
-      difficulty: "Easy",
-      explanation: "No change in x makes the slope undefined.",
-    ),
-    QuizQuestion(
-      question:
-          "7. A plumber charges 40 Cedis to visit and 20 per hour. What is the cost for 3 hours?",
-      options: ["60 Cedis", "100 Cedis", "80 Cedis", "120 Cedis"],
-      correctIndex: 1,
-      difficulty: "Easy",
-      explanation: "40 + (20 x 3) = 100.",
-    ),
-    QuizQuestion(
-      question: "8. If x = 0 in a linear relation, what is the value of y?",
-      options: ["The gradient", "The origin", "The intercept", "The x-axis"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "When x = 0, y = c (the intercept).",
-    ),
-    QuizQuestion(
-      question:
-          "9. A student saves 5 Cedis a day. How much is saved in 3 weeks?",
-      options: ["15 Cedis", "35 Cedis", "105 Cedis", "150 Cedis"],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "3 weeks = 21 days. 21 x 5 = 105.",
-    ),
-    QuizQuestion(
-      question:
-          "10. A line passes through (0, 0) and (5, 10). What is the y-value when x is 3?",
-      options: ["6", "5", "8", "4"],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation: r"Gradient = \farc{10}{5} = 2. So y = 2 x 3 = 6.",
-    ),
-    QuizQuestion(
-      question: "11. Identify the gradient from the equation y = -5x + 12.",
-      options: ["12", "5", "-5", "-12"],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "Coefficient of x is the gradient.",
-    ),
-    QuizQuestion(
-      question:
-          "12. A tailor charges a base fee of 15 Cedis and 10 Cedis per shirt. What is the equation?",
-      options: ["y = 15x + 10", "y = 10x + 15", "y = 25x + 0", "y = 10x - 15"],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "10 is rate (m), 15 is base (c).",
-    ),
-    QuizQuestion(
-      question:
-          "13. Find the y-intercept of the line passing through (0, -4) and (3, 5).",
-      options: ["3", "5", "-4", "0"],
-      correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "y-intercept is y when x = 0.",
-    ),
-    QuizQuestion(
-      question:
-          "14. If a graph shows 4kg of rice costs 80 Cedis, what is the cost of 6kg?",
-      options: ["120 Cedis", "100 Cedis", "140 Cedis", "160 Cedis"],
-      correctIndex: 0,
-      difficulty: "Medium",
-      explanation: r"\frac{80}{4} = 20 per kg. 20 x 6 = 120.",
-    ),
-    QuizQuestion(
-      question: "15. What is the gradient of a horizontal line?",
-      options: ["0", "1", "10", "Undefined"],
-      correctIndex: 0,
-      difficulty: "Easy",
-      explanation: "No vertical change means slope = 0.",
-    ),
-    QuizQuestion(
-      question: "16. In y = mx + c, what happens to the line if m increases?",
+      question: "4. Factorise 15xy + 10x",
       options: [
-        "It gets flatter",
-        "It gets steeper",
-        "It moves down",
-        "It moves right"
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "Higher gradient = steeper line.",
-    ),
-    QuizQuestion(
-      question: "17. Calculate the gradient between (1, 2) and (3, 8).",
-      options: ["2", "4", "3", "6"],
-      correctIndex: 2,
-      difficulty: "Medium",
-      explanation: r"\frac{8 − 2}{3 − 1} = \frac{6}{2} = 3.",
-    ),
-    QuizQuestion(
-      question:
-          "18. A water tank has 100L and loses 5L per hour. What is the equation?",
-      options: [
-        "y = 5x + 100",
-        "y = 100x - 5",
-        "y = -5x + 100",
-        "y = 5x - 100"
+        "10x(y + 1)",
+        "5(3xy + 2)",
+        "5x(3y + 2)",
+        "5x(3y + 5)"
       ],
       correctIndex: 2,
-      difficulty: "Medium",
-      explanation: "-5 is rate (loss), 100 is starting value.",
+      difficulty: "Med",
+      explanation: "5x is the HCF of both terms.",
     ),
+
     QuizQuestion(
-      question:
-          "19. If a line passes through (0, 0) and (4, 20), what is x when y = 10?",
-      options: ["1", "2", "5", "4"],
+      question: "5. What is the value of (a + 4)(a + 1)?",
+      options: [
+        "a² + 4a + 4",
+        "a² + 5a + 5",
+        "a² + 4a + 5",
+        "a² + 5a + 4"
+      ],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "Using FOIL: a² + 1a + 4a + 4.",
+    ),
+
+    QuizQuestion(
+      question: r"6. Simplify \frac{2}{x} ÷ \frac{x}{5}",
+      options: [r"\frac{2x}{5}", r"\frac{2}{5}", r"\frac{x}{10}", r"\frac{2}{5x}"],
       correctIndex: 1,
-      difficulty: "Medium",
-      explanation: "y = 5x. So 10 = 5x, which means x=2.",
+      difficulty: "Med",
+      explanation: "The x terms cancel out.",
     ),
+
     QuizQuestion(
-      question: "20. Which point is the y-intercept for y = 2x − 6?",
-      options: ["(0, 2)", "(0, 6)", "(0, −6)", "(2, 0)"],
+      question: "7. If x = −2, what is x²?",
+      options: ["-4", "2", "-2", "4"],
+      correctIndex: 3,
+      difficulty: "High",
+      explanation: "A negative number squared is always positive.",
+    ),
+
+    QuizQuestion(
+      question: "8. Factorise by grouping: ax + ay + bx + by",
+      options: [
+        "(a + b)(x + y)",
+        "(a + x)(b + y)",
+        "(a − b)(x − y)",
+        "(ax + by)"
+      ],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "a(x + y) + b(x + y) = (a + b)(x + y).",
+    ),
+
+    QuizQuestion(
+      question: r"9. Simplify \frac{10a}{3} ÷ \frac{5a}{6}",
+      options: ["4", "2", r"\frac{1}{4}", "5"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: r"\frac{10a}{3} × \frac{6}{5a} = \frac{60a}{15a} = 4.",
+    ),
+
+    QuizQuestion(
+      question: "10. What is 2(L + W) when L = 10, W = 5?",
+      options: ["25", "15", "20", "30"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "2(15) = 30.",
+    ),
+
+    QuizQuestion(
+      question: "11. Expand (x − 5)(x + 5)",
+      options: ["x² − 25", "x² + 25", "x² − 10", "x² + 10"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: "The middle terms −5x and +5x cancel.",
+    ),
+
+    QuizQuestion(
+      question: "12. Factorise 49 − 7k",
+      options: ["7k(7 − 1)", "7(7 + k)", "7(7 − k)", "49(1 − k)"],
       correctIndex: 2,
-      difficulty: "Easy",
-      explanation: "y-intercept is (0, c). Here c = −6.",
+      difficulty: "Low",
+      explanation: "7 is the common factor.",
+    ),
+
+    QuizQuestion(
+      question: r"13. Find the value of \frac{20}{x} + 5 when x = 2",
+      options: ["10", "15", "25", "30"],
+      correctIndex: 1,
+      difficulty: "Low",
+      explanation: "10 + 5 = 15.",
+    ),
+
+    QuizQuestion(
+      question: "14. Multiply m/3 × 6/m²",
+      options: [r"\frac{2}{m}", "2m", r"\frac{m}{2}", r"\frac{6m}{3}"],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "\frac{6m}{3m²} simplifies to \frac{2}{m}.",
+    ),
+
+    QuizQuestion(
+      question: "15. Factorise y² − 3y",
+      options: ["3(y − 1)", "y(y + 3)", "y²(1 − 3)", "y(y − 3)"],
+      correctIndex: 3,
+      difficulty: "Low",
+      explanation: "y is the common factor.",
+    ),
+
+    QuizQuestion(
+      question: "16. If a = 3, b = 2, find a² + b²",
+      options: ["10", "25", "13", "12"],
+      correctIndex: 2,
+      difficulty: "Med",
+      explanation: "9 + 4 = 13.",
+    ),
+
+    QuizQuestion(
+      question: r"17. Simplify \frac{x}{2} − \frac{x}{4}",
+      options: [r"\frac{x}{4}", r"\frac{x}{2}", "0", "x"],
+      correctIndex: 0,
+      difficulty: "Med",
+      explanation: r"\frac{2x}{4} − \frac{x}{4} = \frac{x}{4}.",
+    ),
+
+    QuizQuestion(
+      question: "18. Expand 2(3x − 4y)",
+      options: ["6x − 4y", "5x − 6y", "6x − 8y", "6x + 8y"],
+      correctIndex: 2,
+      difficulty: "Low",
+      explanation: "Multiply 2 by both terms.",
+    ),
+
+    QuizQuestion(
+      question: "19. Factorise ab + ac + b + c",
+      options: [
+        "(a + 1)(b + c)",
+        "(a + b)(c + 1)",
+        "(a + c)(b + 1)",
+        "(a − 1)(b − c)"
+      ],
+      correctIndex: 0,
+      difficulty: "High",
+      explanation: "a(b + c) + 1(b + c) = (a + 1)(b + c).",
+    ),
+
+    QuizQuestion(
+      question: "20. Evaluate 10 − (x + 2) when x = 5",
+      options: ["7", "13", "5", "3"],
+      correctIndex: 3,
+      difficulty: "Med",
+      explanation: "10 − (7) = 3.",
     ),
   ],
 );

@@ -916,7 +916,7 @@ final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s4ss2Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (4. GUIDED PRACTICE).m4a',
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/6. guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Write a catchy title for an advertisement for a new school bag called the \"JHS Pro-Pack.\"",

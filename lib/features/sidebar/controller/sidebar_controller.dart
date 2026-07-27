@@ -2210,8 +2210,8 @@ class SidebarController extends GetxController {
               "subtitle": "GRAMMAR",
               "topics": [
                 "NOUN PHRASES AND THEIR FUNCTIONS",
-                "COMPLEX PHRASAL VERBS",
-                "COMPLEX PHRASAL VERBS",
+            "COMPLEX PHRASAL VERBS",
+                "ADJECTIVE PHRASES AND THEIR ORDER",
                 "ADVERBIAL PHRASES AND THEIR FUNCTIONS",
                 "CONDITIONAL SENTENCES (TYPE 3)",
                 "DEFINING AND NON-DEFINING RELATIVE CLAUSES",
@@ -4272,22 +4272,23 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
-                getReadyData = jhs3s3ss1Lesson2GetReadyData;
-                learnData = jhs3s3ss1Lesson2LearnData;
-                practiceData = jhs3s3ss1Lesson2PracticeData;
-                independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
-                quizData = jhs3s3ss1Lesson2QuizData;
+                getReadyData = jhs3s3ss1Lesson3GetReadyData;
+                learnData = jhs3s3ss1Lesson3LearnData;
+                practiceData = jhs3s3ss1Lesson3PracticeData;
+                independentPracticeData = jhs3s3ss1Lesson3IndependentQuizData;
+                quizData = jhs3s3ss1Lesson3QuizData;
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
-                getReadyData = jhs3s3ss1Lesson3GetReadyData;
-                learnData = jhs3s3ss1Lesson3LearnData;
-                practiceData = jhs3s3ss1Lesson3PracticeData;
-                independentPracticeData = jhs3s3ss1Lesson3IndependentQuizData;
-                quizData = jhs3s3ss1Lesson3QuizData;
+                getReadyData = jhs3s3ss1Lesson2GetReadyData;
+                learnData = jhs3s3ss1Lesson2LearnData;
+                practiceData = jhs3s3ss1Lesson2PracticeData;
+                independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
+                quizData = jhs3s3ss1Lesson2QuizData;
+
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&

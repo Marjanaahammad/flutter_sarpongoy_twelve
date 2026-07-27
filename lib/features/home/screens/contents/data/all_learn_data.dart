@@ -536,15 +536,15 @@ final LearnModel s4ss1Lesson6LearnData = LearnModel(parts: [
 final LearnModel s4ss2Lesson0LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partA.jpg',
-    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/3. partA.m4a',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/3. partA .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partB.jpg',
-    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/4. partB.m4a',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/4. partB .m4a',
   ),
   LearnPart(
     imagePath: 'assets/images/english/english jhs1 s4 ss2 l1/partC.jpg',
-    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/5. partC.m4a',
+    audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/5. partC .m4a',
   ),
 ]);
 final LearnModel s4ss2Lesson1LearnData = LearnModel(parts: [
@@ -6500,7 +6500,7 @@ final LearnModel MATHjhs1s4ss2LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: '',
     audioPath: '',
-    videoPath: 'assets/images/MATH/MATH_JHS1_S4_SS2/JHS1 S4 SS2.mp4',
+    videoPath: 'assets/images/MATH/MATH_JHS1_S4_SS2/JHS1_S4_SS2.mp4',
   ),
 ]);
 

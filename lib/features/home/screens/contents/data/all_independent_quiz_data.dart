@@ -1792,7 +1792,7 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
 );
 
 final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
