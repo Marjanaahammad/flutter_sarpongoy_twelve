@@ -14235,6 +14235,63 @@ final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = Independe
             "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years.")
   ],
 );
+final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/8. indepent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question:
+        "1. What is the main difference between tourism and leisure?",
+        options: [
+          "Tourism is only for rich people, while leisure is for everyone.",
+          "Tourism involves travelling, while leisure is about how you use your free time.",
+          "Tourism is always for work, while leisure is only for sleep.",
+          "Tourism lasts for years, while leisure lasts for one hour."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Tourism involves travelling, while leisure is about how you use your free time."),
+    IndependentPracticeQuestion(
+        question:
+        "2. Which of the following is a challenge facing the tourism industry in Ghana?",
+        options: [
+          "Having too many beautiful waterfalls",
+          "High patronage by all Ghanaians",
+          "Poor infrastructure like bad roads to sites",
+          "Too many trained tour guides"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Poor infrastructure like bad roads to sites is a challenge facing the tourism industry in Ghana."),
+    IndependentPracticeQuestion(
+        question:
+        "3. Why would a group of Muslims travel from Kumasi to Larabanga?",
+        options: [
+          "For medical surgery",
+          "For religious purposes",
+          "To buy new cars",
+          "To go swimming in the ocean"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A group of Muslims would travel from Kumasi to Larabanga for religious purposes."),
+    IndependentPracticeQuestion(
+        question:
+        "4. How does tourism promote local craft industries?",
+        options: [
+          "It forces artists to stop carving",
+          "It provides a market for tourists to buy carvings and Kente",
+          "It makes local crafts illegal",
+          "It replaces local crafts with plastic toys"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Tourism promotes local craft industries by providing a market for tourists to buy carvings and Kente."),
+  ],
+);
 
 final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/independent_practice.m4a',

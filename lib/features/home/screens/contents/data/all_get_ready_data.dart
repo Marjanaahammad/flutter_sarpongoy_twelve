@@ -1543,6 +1543,12 @@ final GetReadyModel SSJHS1s5ss2Lesson1GetReadyData = GetReadyModel(
   hookImagePath: 'assets/images/social_studies/SOCIAL STUDIES JHS1 S5 SS2 L1/hook.jpg',
   hookAudioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/2. Hook.m4a',
 );
+final GetReadyModel SSJHS1s5ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: 'assets/images/social_studies/social studies jhs1 s5 ss3 l1/chapter_overview.png',
+  overviewAudioPath: 'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/1. chapter_overview.m4a',
+  hookImagePath: 'assets/images/social_studies/social studies jhs1 s5 ss3 l1/hook.png',
+  hookAudioPath: 'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/2. hook.m4a',
+);
 
 final GetReadyModel SSJHS1s6ss1Lesson1GetReadyData = GetReadyModel(
   overviewImagePath: 'assets/images/social_studies/social studies jhs1 s6 ss1 l1/chapter_overview.jpg',

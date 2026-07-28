@@ -1458,6 +1458,10 @@ class SidebarController extends GetxController {
               "subtitle": "FINANCIAL AND INVESTMENT ISSUES",
               "topics": ["Examining Social Security in Ghana"],
             },
+            {
+              "subtitle": "TOURISM",
+              "topics": ["THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"],
+            },
           ],
         },
         {
@@ -1920,7 +1924,7 @@ class SidebarController extends GetxController {
           "subtitle": "ALGEBRA",
           "subStrands": [
             {
-              "subtitle": "PATTERNS AND RELATIONSs",
+              "subtitle": "PATTERNS AND RELATIONS",
               "topics": ["The Master Class on Linear Relations"],
             },
             {
@@ -7231,6 +7235,16 @@ class SidebarController extends GetxController {
               if (courseTitle == "Social Studies" &&
                   sIndex == 4 &&
                   ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = SSJHS1s5ss3Lesson1GetReadyData;
+                learnData = SSjhs1s5ss3Lesson1LearnData;
+                practiceData = SSjhs1s5ss3Lesson1PracticeData;
+                independentPracticeData = SSjhs1s5ss3Lesson1IndependentQuizData;
+                quizData = SSjhs1s5ss3Lesson1QuizData;
+              }
+              if (courseTitle == "Social Studies" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
                   lIndex == 0) {
                 getReadyData = SSJHS1s5ss2Lesson1GetReadyData;
                 learnData = SSjhs1s5ss2Lesson1LearnData;

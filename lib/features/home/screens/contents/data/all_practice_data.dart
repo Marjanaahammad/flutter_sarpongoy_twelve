@@ -5707,6 +5707,33 @@ final PracticeModel SSjhs1s5ss2Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel SSjhs1s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/7.guided_practicea',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Kofi lives in Tamale but travels to Accra to see the Independence Arch during his holidays. What type of tourist is Kofi?",
+      answer: "Domestic tourist",
+      explanation:
+          "Since Kofi is a Ghanaian travelling within his own country, he is a domestic tourist.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Which of these is a major social importance of tourism in Ghana?",
+      answer: "It helps preserve our cultural heritage",
+      explanation:
+          "Tourism encourages us to keep our festivals and historic buildings in good shape, which preserves our culture.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Which government body is responsible for regulating tourism in Ghana?",
+      answer: "Ministry of Tourism, Arts and Culture",
+      explanation:
+          "The Ministry of Tourism, Arts and Culture oversees and regulates all tourism activities in Ghana.",
+    ),
+  ],
+);
 
 final PracticeModel SSjhs1s6ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/guided_practice.m4a',

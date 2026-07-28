@@ -34962,6 +34962,138 @@ final QuizModel SSjhs3s5ss2Lesson1QuizData = QuizModel(
     ),
   ],
 );
+final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/9. quiz.m4a',
+  questions: [
+    QuizQuestion(
+      question:
+      "1. Tourism is the ______ highest foreign exchange earner for Ghana.",
+      options: ["First", "Second", "Third", "Fourth"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+      "According to the textbook, tourism ranks as the fourth highest earner of foreign exchange.",
+    ),
+    QuizQuestion(
+      question: "2. Which site is famous for its canopy walkway?",
+      options: [
+        "Boti Falls",
+        "Kakum National Park",
+        "Mole National Park",
+        "Lake Bosomtwe"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+      "Kakum National Park is well-known for its suspended canopy walkway.",
+    ),
+    QuizQuestion(
+      question:
+      "3. A person who travels from Germany to visit the Elmina Castle is a/an:",
+      options: [
+        "Internal tourist",
+        "Domestic tourist",
+        "International tourist",
+        "Local tourist"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Someone travelling from another country is an international tourist.",
+    ),
+    QuizQuestion(
+      question: "4. In which region can we find the Boti Falls?",
+      options: [
+        "Central Region",
+        "Western Region",
+        "Eastern Region",
+        "Ashanti Region"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Boti Falls is located in the Eastern Region.",
+    ),
+    QuizQuestion(
+      question: "5. Which of these is a way to promote tourism in Ghana?",
+      options: [
+        "Increasing the price of water at sites",
+        "Closing down all hotels",
+        "Keeping tourist sites clean and beautiful",
+        "Discouraging people from taking photos"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+      "Maintaining cleanliness makes sites more attractive to visitors.",
+    ),
+    QuizQuestion(
+      question: "6. What is \"Leisure\"?",
+      options: [
+        "Working overtime at the office",
+        "Time off normal duty for relaxation",
+        "Travelling to a foreign country for a year",
+        "Studying for a final exam"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Leisure is time spent away from work or duties for rest.",
+    ),
+    QuizQuestion(
+      question: "7. Which tourist site is Ghana's only natural lake?",
+      options: [
+        "Lake Volta",
+        "Lake Bosomtwe",
+        "Weija Dam",
+        "Akosombo Dam"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Lake Bosomtwe in the Ashanti Region is the only natural lake in Ghana.",
+    ),
+    QuizQuestion(
+      question: "8. Tourism helps the government because it generates:",
+      options: [
+        "Free food for everyone",
+        "Revenue through taxes",
+        "More homework for students",
+        "Natural rainfall"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "The government earns revenue from taxes paid by businesses in the tourism sector.",
+    ),
+    QuizQuestion(
+      question: "9. The Larabanga Mosque is located in which region?",
+      options: [
+        "Savannah Region",
+        "Northern Region",
+        "Upper West Region",
+        "Bono East Region"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+      "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
+    ),
+    QuizQuestion(
+      question: "10. What can happen if tourists are cheated or treated poorly?",
+      options: [
+        "More tourists will come to help",
+        "It will discourage others from visiting",
+        "The price of cocoa will go up",
+        "The tourist will become a citizen"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+      "Poor treatment of tourists gives the country a bad reputation and stops others from coming.",
+    ),
+  ],
+);
 
 final QuizModel SSjhs3s6ss1Lesson1QuizData = QuizModel(
   audioPath:
@@ -59348,7 +59480,7 @@ final QuizModel MATHjhs1s4ss2QuizData = QuizModel(
     ),
     QuizQuestion(
       question: "19. If P(E) = 0.2, what is it as a fraction?",
-      options: [r"\frac{1}{2}", r"\farc{1}{4}", r"\frac{2}{5}", r"\farc{1}{5}"],
+      options: [r"\frac{1}{2}", r"\frac{1}{4}", r"\frac{2}{5}", r"\frac{1}{5}"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation: r"0.2 = \frac{2}{10} = \farc{1}/{5}.",
