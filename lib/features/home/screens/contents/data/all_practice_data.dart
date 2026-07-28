@@ -896,7 +896,7 @@ final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/6. guided_practice.m4a',
+  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/6. guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Upgrade the general verb in this sentence to a more precise word that shows someone is walking slowly because they are exhausted: \"Kojo walked into the classroom after the long football match.\"",
@@ -916,7 +916,7 @@ final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s4ss2Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/6. guided_practice.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/5. guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Write a catchy title for an advertisement for a new school bag called the \"JHS Pro-Pack.\"",

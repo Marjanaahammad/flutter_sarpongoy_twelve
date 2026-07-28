@@ -2128,7 +2128,7 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
   ],
 );
 final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
+  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following sentences is written from a first-person point of view?",
@@ -2197,7 +2197,7 @@ final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPrac
   ],
 );
 final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (5. INDEPENDENT PRACTICE).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/6. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is an example of an imperative used in an advert?",

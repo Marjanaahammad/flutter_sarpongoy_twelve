@@ -4195,7 +4195,7 @@ final QuizModel s4ss1Lesson6QuizData = QuizModel(
   ],
 );
 final QuizModel s4ss2Lesson0QuizData = QuizModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/8. quiz .m4a',
+  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/8. quiz.m4a',
   questions: [
     QuizQuestion(
         question: "1. A personal narrative is a text type that describes:",
@@ -4330,7 +4330,7 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
 );
 final QuizModel s4ss2Lesson1QuizData = QuizModel(
   audioPath:
-      'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (6. QUIZ).m4a',
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/7. quiz.m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the primary purpose of an advertisement?",
@@ -17955,7 +17955,7 @@ final QuizModel jhs3s4ss1Lesson1QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-          "3. 'The boy who won the race is my cousin.' The bolded part is a:",
+          "3. 'The boy **who won the race** is my cousin.' The bolded part is a:",
       options: [
         "Adverbial phrase",
         "Relative clause",
