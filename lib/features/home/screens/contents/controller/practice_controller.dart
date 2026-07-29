@@ -67,6 +67,27 @@ class PracticeController extends GetxController {
     // For BECE activities, skip audio and go directly to questions
     if (isBece) {
       showBanner.value = false;
+      try {
+        final beceRepo = Get.find<BeceProgressRepository>();
+        final progress = await beceRepo.getProgress(
+          courseName: courseName ?? "",
+          strandName: strandName ?? "",
+          subStrandName: subStrandName ?? "",
+          gradeName: gradeName ?? "",
+          activityType: 'theory',
+        );
+        if (progress != null && progress.lastQuestionIndex != null) {
+          if (progress.lastQuestionIndex! >= questions.length) {
+            currentQuestionIndex.value = 0;
+          } else {
+            currentQuestionIndex.value = progress.lastQuestionIndex!;
+          }
+        } else {
+          currentQuestionIndex.value = 0;
+        }
+      } catch (e) {
+        debugPrint("Error loading BECE theory progress: $e");
+      }
       await startQuestionFlow();
       return;
     }
@@ -75,6 +96,26 @@ class PracticeController extends GetxController {
 
     showBanner.value = true;
     _player.play();
+  }
+
+  Future<void> saveBeceProgress() async {
+    if (!isBece) return;
+    try {
+      final beceRepo = Get.find<BeceProgressRepository>();
+      final progress = BeceProgress(
+        courseName: courseName ?? "",
+        strandName: strandName ?? "",
+        subStrandName: subStrandName ?? "",
+        gradeName: gradeName ?? "",
+        activityType: 'theory',
+        totalQuestions: questions.length,
+        lastQuestionIndex: currentQuestionIndex.value,
+        doneDate: DateTime.now(),
+      );
+      await beceRepo.saveProgress(progress);
+    } catch (e) {
+      debugPrint("Error saving BECE theory progress: $e");
+    }
   }
 
   Future<void> loadAudio(String assetPath) async {
@@ -130,6 +171,7 @@ class PracticeController extends GetxController {
   Future<void> nextQuestion() async {
     if (currentQuestionIndex.value < questions.length - 1) {
       currentQuestionIndex.value++;
+      await saveBeceProgress();
       startQuestionFlow();
     } else {
       if (isBece) {
@@ -140,6 +182,8 @@ class PracticeController extends GetxController {
           subStrandName: subStrandName ?? "",
           gradeName: gradeName ?? "",
           activityType: 'theory',
+          totalQuestions: questions.length,
+          lastQuestionIndex: questions.length,
           doneDate: DateTime.now(),
         );
 
@@ -179,9 +223,10 @@ class PracticeController extends GetxController {
     }
   }
 
-  void previousQuestion() {
+  void previousQuestion() async {
     if (currentQuestionIndex.value > 0) {
       currentQuestionIndex.value--;
+      await saveBeceProgress();
       startQuestionFlow();
     }
   }
@@ -246,6 +291,9 @@ class PracticeController extends GetxController {
   @override
   void onClose() {
     _player.dispose();
+    try {
+      Get.find<SidebarController>().loadActualProgress();
+    } catch (_) {}
     super.onClose();
   }
 }

@@ -1792,7 +1792,7 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
 );
 
 final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L1/ENGLISH JHS1 S4 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
@@ -2128,7 +2128,7 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
   ],
 );
 final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
+  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following sentences is written from a first-person point of view?",
@@ -2197,7 +2197,7 @@ final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPrac
   ],
 );
 final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (5. INDEPENDENT PRACTICE).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/6. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is an example of an imperative used in an advert?",
@@ -14233,6 +14233,63 @@ final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = Independe
         difficulty: "Easy",
         explanation:
             "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years.")
+  ],
+);
+final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+      audioPath: 'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/8. indepent_practice.m4a',
+  questions: [
+    IndependentPracticeQuestion(
+        question:
+        "1. What is the main difference between tourism and leisure?",
+        options: [
+          "Tourism is only for rich people, while leisure is for everyone.",
+          "Tourism involves travelling, while leisure is about how you use your free time.",
+          "Tourism is always for work, while leisure is only for sleep.",
+          "Tourism lasts for years, while leisure lasts for one hour."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Tourism involves travelling, while leisure is about how you use your free time."),
+    IndependentPracticeQuestion(
+        question:
+        "2. Which of the following is a challenge facing the tourism industry in Ghana?",
+        options: [
+          "Having too many beautiful waterfalls",
+          "High patronage by all Ghanaians",
+          "Poor infrastructure like bad roads to sites",
+          "Too many trained tour guides"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Poor infrastructure like bad roads to sites is a challenge facing the tourism industry in Ghana."),
+    IndependentPracticeQuestion(
+        question:
+        "3. Why would a group of Muslims travel from Kumasi to Larabanga?",
+        options: [
+          "For medical surgery",
+          "For religious purposes",
+          "To buy new cars",
+          "To go swimming in the ocean"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "A group of Muslims would travel from Kumasi to Larabanga for religious purposes."),
+    IndependentPracticeQuestion(
+        question:
+        "4. How does tourism promote local craft industries?",
+        options: [
+          "It forces artists to stop carving",
+          "It provides a market for tourists to buy carvings and Kente",
+          "It makes local crafts illegal",
+          "It replaces local crafts with plastic toys"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Tourism promotes local craft industries by providing a market for tourists to buy carvings and Kente."),
   ],
 );
 
@@ -26878,8 +26935,7 @@ final IndependentPracticeModel MATHjhs1s3ss1IndependentQuizData =
         explanation: "A compass is used to draw arcs in constructions."),
   ],
 );
-final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData =
-    IndependentPracticeModel(
+final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData = IndependentPracticeModel(
   audioPath: 'assets/audio/math/2. JHS1 S3 SS2/4. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(

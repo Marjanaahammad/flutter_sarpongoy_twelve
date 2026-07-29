@@ -69,18 +69,20 @@ class SidebarController extends GetxController {
               .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
               .toList();
 
-          final hasGetReady = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'get_ready');
+          final hasGetReady = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
           final hasLearn = lessonProgress.any((p) =>
               p.activityType.toLowerCase() == 'learn' &&
               p.subActivity ==
-                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
-          final hasPractice = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'guided_practice');
-          final hasIndependent = lessonProgress
-              .any((p) => p.activityType.toLowerCase() == 'independent');
-          final hasQuiz =
-              lessonProgress.any((p) => p.activityType.toLowerCase() == 'quiz');
+                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+              p.isCompleted);
+          final hasPractice = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'guided_practice' &&
+              p.isCompleted);
+          final hasIndependent = lessonProgress.any((p) =>
+              p.activityType.toLowerCase() == 'independent' && p.isCompleted);
+          final hasQuiz = lessonProgress.any(
+              (p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
           if (hasGetReady &&
               hasLearn &&
@@ -164,18 +166,21 @@ class SidebarController extends GetxController {
                       (p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
                   .toList();
 
-              final hasGetReady = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'get_ready');
+              final hasGetReady = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
               final hasLearn = lessonProgress.any((p) =>
                   p.activityType.toLowerCase() == 'learn' &&
                   p.subActivity ==
-                      'part_${String.fromCharCode(96 + lesson.learn.parts.length)}');
-              final hasPractice = lessonProgress.any(
-                  (p) => p.activityType.toLowerCase() == 'guided_practice');
-              final hasIndependent = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'independent');
-              final hasQuiz = lessonProgress
-                  .any((p) => p.activityType.toLowerCase() == 'quiz');
+                      'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+                  p.isCompleted);
+              final hasPractice = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'guided_practice' &&
+                  p.isCompleted);
+              final hasIndependent = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'independent' &&
+                  p.isCompleted);
+              final hasQuiz = lessonProgress.any((p) =>
+                  p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
 
               if (hasGetReady &&
                   hasLearn &&
@@ -340,7 +345,12 @@ class SidebarController extends GetxController {
                   p.subStrandName.toLowerCase() ==
                       normalSubStrandTitle.toLowerCase() &&
                   p.gradeName == selectedGrade.value &&
-                  p.activityType == 'objectives');
+                  p.activityType == 'objectives' &&
+                  p.lastAttemptScore != null &&
+                  p.lastQuestionIndex != null &&
+                  p.totalQuestions != null &&
+                  p.totalQuestions! > 0 &&
+                  p.lastQuestionIndex! >= p.totalQuestions!);
 
               final beceTheory = allBeceProgress.firstWhereOrNull((p) =>
                   p.courseName.toLowerCase() == course.title.toLowerCase() &&
@@ -349,7 +359,11 @@ class SidebarController extends GetxController {
                   p.subStrandName.toLowerCase() ==
                       normalSubStrandTitle.toLowerCase() &&
                   p.gradeName == selectedGrade.value &&
-                  p.activityType == 'theory');
+                  p.activityType == 'theory' &&
+                  p.lastQuestionIndex != null &&
+                  p.totalQuestions != null &&
+                  p.totalQuestions! > 0 &&
+                  p.lastQuestionIndex! >= p.totalQuestions!);
 
               String? quizScoreStr;
               String? quizOriginalScoreStr;
@@ -417,10 +431,13 @@ class SidebarController extends GetxController {
 
               // Filter for each activity type (case-insensitive check for safety)
               final getReadyProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'get_ready')
+                  .where((p) =>
+                      p.activityType.toLowerCase() == 'get_ready' &&
+                      p.isCompleted)
                   .toList();
               final learnProgress = lessonProgress
-                  .where((p) => p.activityType.toLowerCase() == 'learn')
+                  .where((p) =>
+                      p.activityType.toLowerCase() == 'learn' && p.isCompleted)
                   .toList();
 
               ActivityProgress? practice;
@@ -428,6 +445,7 @@ class SidebarController extends GetxController {
               ActivityProgress? quiz;
 
               for (var p in lessonProgress) {
+                if (!p.isCompleted) continue;
                 final type = p.activityType.toLowerCase();
                 if (type == 'guided_practice') {
                   if (practice == null ||
@@ -1440,6 +1458,10 @@ class SidebarController extends GetxController {
               "subtitle": "FINANCIAL AND INVESTMENT ISSUES",
               "topics": ["Examining Social Security in Ghana"],
             },
+            {
+              "subtitle": "TOURISM",
+              "topics": ["THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"],
+            },
           ],
         },
         {
@@ -1902,7 +1924,7 @@ class SidebarController extends GetxController {
           "subtitle": "ALGEBRA",
           "subStrands": [
             {
-              "subtitle": "PATTERNS AND RELATIONSs",
+              "subtitle": "PATTERNS AND RELATIONS",
               "topics": ["The Master Class on Linear Relations"],
             },
             {
@@ -2192,8 +2214,8 @@ class SidebarController extends GetxController {
               "subtitle": "GRAMMAR",
               "topics": [
                 "NOUN PHRASES AND THEIR FUNCTIONS",
-                "COMPLEX PHRASAL VERBS",
-                "COMPLEX PHRASAL VERBS",
+            "COMPLEX PHRASAL VERBS",
+                "ADJECTIVE PHRASES AND THEIR ORDER",
                 "ADVERBIAL PHRASES AND THEIR FUNCTIONS",
                 "CONDITIONAL SENTENCES (TYPE 3)",
                 "DEFINING AND NON-DEFINING RELATIVE CLAUSES",
@@ -4254,22 +4276,23 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
-                getReadyData = jhs3s3ss1Lesson2GetReadyData;
-                learnData = jhs3s3ss1Lesson2LearnData;
-                practiceData = jhs3s3ss1Lesson2PracticeData;
-                independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
-                quizData = jhs3s3ss1Lesson2QuizData;
+                getReadyData = jhs3s3ss1Lesson3GetReadyData;
+                learnData = jhs3s3ss1Lesson3LearnData;
+                practiceData = jhs3s3ss1Lesson3PracticeData;
+                independentPracticeData = jhs3s3ss1Lesson3IndependentQuizData;
+                quizData = jhs3s3ss1Lesson3QuizData;
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
-                getReadyData = jhs3s3ss1Lesson3GetReadyData;
-                learnData = jhs3s3ss1Lesson3LearnData;
-                practiceData = jhs3s3ss1Lesson3PracticeData;
-                independentPracticeData = jhs3s3ss1Lesson3IndependentQuizData;
-                quizData = jhs3s3ss1Lesson3QuizData;
+                getReadyData = jhs3s3ss1Lesson2GetReadyData;
+                learnData = jhs3s3ss1Lesson2LearnData;
+                practiceData = jhs3s3ss1Lesson2PracticeData;
+                independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
+                quizData = jhs3s3ss1Lesson2QuizData;
+
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&
@@ -7220,6 +7243,16 @@ class SidebarController extends GetxController {
                 quizData = SSjhs1s5ss2Lesson1QuizData;
               }
               if (courseTitle == "Social Studies" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = SSJHS1s5ss3Lesson1GetReadyData;
+                learnData = SSjhs1s5ss3Lesson1LearnData;
+                practiceData = SSjhs1s5ss3Lesson1PracticeData;
+                independentPracticeData = SSjhs1s5ss3Lesson1IndependentQuizData;
+                quizData = SSjhs1s5ss3Lesson1QuizData;
+              }
+              if (courseTitle == "Social Studies" &&
                   sIndex == 5 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
@@ -8485,7 +8518,8 @@ class SidebarController extends GetxController {
           final String gradeClean = grade.replaceAll(' ', '');
           final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
-          final String normalizedSubStrandTitle = normalSubStrand.subtitle.trim();
+          final String normalizedSubStrandTitle =
+              normalSubStrand.subtitle.trim();
 
           // Subject name aliases
           final List<String> subjectAliases = [
@@ -8509,8 +8543,7 @@ class SidebarController extends GetxController {
           // Required key format: "[Subject] [Grade] s[N] ss[M] - [Name]"
           final List<String> candidatePrefixes = [
             for (final alias in subjectAliases)
-              for (final gp in gradeStrandSsPatterns)
-                "$alias $gp",
+              for (final gp in gradeStrandSsPatterns) "$alias $gp",
           ];
 
           // Exact match fallbacks using default sub-strand title
@@ -8571,7 +8604,8 @@ class SidebarController extends GetxController {
 
           // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          final String rawKey = matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          final String rawKey =
+              matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
           if (rawKey.isNotEmpty) {
             if (rawKey.contains(" - ")) {
               displaySubStrandName = rawKey.split(" - ").last.trim();
@@ -8582,12 +8616,12 @@ class SidebarController extends GetxController {
               matchedPractice.questions.isNotEmpty) {
             beceLessonsForStrand.add(
               Lesson(
-                title: "Sub-strand ${beceLessonsForStrand.length + 1}",
+                title: "Sub-strand $ssNumber",
                 topic: displaySubStrandName,
                 courseName: courseTitle,
                 strandName: "BECE",
                 subStrandName: normalStrand.title,
-                lessonNumber: (beceLessonsForStrand.length + 1).toString(),
+                lessonNumber: ssNumber.toString(),
                 gradeName: grade,
                 getReady: defaultGetReadyData,
                 learn: defaultLearnData,

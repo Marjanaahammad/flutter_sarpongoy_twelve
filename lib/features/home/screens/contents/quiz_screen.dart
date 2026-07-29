@@ -712,6 +712,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       : MathStyle.text,
                   textStyle: style.copyWith(
                     fontSize: (style.fontSize ?? 16) * 1.2,
+                    fontWeight: FontWeight.normal,
                   ),
                 ),
               ),
@@ -749,6 +750,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         : MathStyle.text,
                     textStyle: style.copyWith(
                       fontSize: (style.fontSize ?? 16) * 1.2,
+                      fontWeight: FontWeight.normal,
                     ),
                   ),
                 ),

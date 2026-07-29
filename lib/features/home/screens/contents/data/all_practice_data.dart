@@ -896,7 +896,7 @@ final PracticeModel s4ss1Lesson6PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/6. guided_practice.m4a',
+  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/6. guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Upgrade the general verb in this sentence to a more precise word that shows someone is walking slowly because they are exhausted: \"Kojo walked into the classroom after the long football match.\"",
@@ -916,7 +916,7 @@ final PracticeModel s4ss2Lesson0PracticeData = PracticeModel(
   ],
 );
 final PracticeModel s4ss2Lesson1PracticeData = PracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/ENGLISH JHS1 S4 SS2 L1 (4. GUIDED PRACTICE).m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/5. guided_practice.m4a',
   questions: [
     PracticeQuestion(
       scenario: "1. Question: Write a catchy title for an advertisement for a new school bag called the \"JHS Pro-Pack.\"",
@@ -5707,6 +5707,33 @@ final PracticeModel SSjhs1s5ss2Lesson1PracticeData = PracticeModel(
     ),
   ],
 );
+final PracticeModel SSjhs1s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/7.guided_practicea',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Kofi lives in Tamale but travels to Accra to see the Independence Arch during his holidays. What type of tourist is Kofi?",
+      answer: "Domestic tourist",
+      explanation:
+          "Since Kofi is a Ghanaian travelling within his own country, he is a domestic tourist.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Which of these is a major social importance of tourism in Ghana?",
+      answer: "It helps preserve our cultural heritage",
+      explanation:
+          "Tourism encourages us to keep our festivals and historic buildings in good shape, which preserves our culture.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Which government body is responsible for regulating tourism in Ghana?",
+      answer: "Ministry of Tourism, Arts and Culture",
+      explanation:
+          "The Ministry of Tourism, Arts and Culture oversees and regulates all tourism activities in Ghana.",
+    ),
+  ],
+);
 
 final PracticeModel SSjhs1s6ss1Lesson1PracticeData = PracticeModel(
   audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/guided_practice.m4a',
@@ -6119,6 +6146,32 @@ final PracticeModel SSjhs2s5ss2Lesson1PracticeData = PracticeModel(
       answer: "It provides foreign exchange earnings.",
       explanation:
           "Tourism brings in foreign currencies like the US Dollar, which helps strengthen the Ghanaian Cedi.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. What is one way the government can improve tourist sites in Ghana?",
+      answer: "By building better roads leading to the sites.",
+      explanation:
+          "Good road networks make it easier and safer for tourists to travel to different attractions.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Which site is famous for its canopy walkway?",
+      answer: "Kakum National Park",
+      explanation:
+          "Kakum National Park is world-famous for its canopy walkway suspended high above the forest floor.",
+    ),
+  ],
+);
+final PracticeModel SSjhs2s5ss3Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs2 s5 ss3 l1/6. guided_practice.m4a',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Which of these is a major economic benefit of tourism to Ghana?",
+      answer: "It provides foreign exchange earnings.",
+      explanation:
+          "Explanation: Tourism brings in foreign currencies like the US Dollar, which helps strengthen the Ghanaian Cedi.",
     ),
     PracticeQuestion(
       scenario:

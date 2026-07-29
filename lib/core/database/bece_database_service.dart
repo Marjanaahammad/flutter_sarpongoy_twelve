@@ -7,7 +7,7 @@ class BeceDatabaseService {
   static final BeceDatabaseService instance = BeceDatabaseService._init();
   static Database? _database;
 
-  static const int _version = 1;
+  static const int _version = 2;
 
   BeceDatabaseService._init();
 
@@ -23,6 +23,7 @@ class BeceDatabaseService {
       path,
       version: _version,
       onCreate: _createDB,
+      onUpgrade: _onUpgrade,
     );
   }
 
@@ -38,10 +39,22 @@ class BeceDatabaseService {
         first_attempt_score INTEGER,
         last_attempt_score INTEGER,
         total_questions INTEGER,
+        last_question_index INTEGER,
+        user_answers_json TEXT,
         done_date TEXT
       )
     ''');
 
     DPrint.info('BECE progress database table created');
+  }
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    if (oldVersion < 2) {
+      await db.execute(
+          'ALTER TABLE bece_progress ADD COLUMN last_question_index INTEGER');
+      await db.execute(
+          'ALTER TABLE bece_progress ADD COLUMN user_answers_json TEXT');
+      DPrint.info('BECE progress database upgraded to v2');
+    }
   }
 }

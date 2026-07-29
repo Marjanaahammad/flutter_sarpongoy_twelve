@@ -474,7 +474,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
           style: style.copyWith(
             fontWeight: FontWeight.w800,
             fontSize: 24,
-            color: Colors.black, // Temporary test color
+            color: const Color(0xFF14357A), // Temporary test color
           ),
         ));
       } else {
@@ -498,6 +498,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                       : MathStyle.text,
                   textStyle: style.copyWith(
                     fontSize: (style.fontSize ?? 16) * 1.2,
+                    fontWeight: FontWeight.normal,
                   ),
                 ),
               ),
@@ -532,6 +533,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                         : MathStyle.text,
                     textStyle: style.copyWith(
                       fontSize: (style.fontSize ?? 16) * 1.2,
+                      fontWeight: FontWeight.normal,
                     ),
                   ),
                 ),
