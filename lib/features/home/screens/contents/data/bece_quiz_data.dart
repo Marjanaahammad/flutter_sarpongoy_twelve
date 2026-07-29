@@ -6530,7 +6530,7 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
-  "Math JHS2 s2 ss2 - Patterns and Relations": QuizModel(
+  "Math JHS2 s2 ss2 - Algebraic Expressions": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -7032,10 +7032,10 @@ QuizQuestion(
   question:
       r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
   options: [
-    r"\frac{1}{4}px(x + 2)",
-    r"\frac{1}{4}px\left(x + \frac{1}{2}\right)",
-    r"\frac{1}{8}px\left(\frac{1}{2}x + 2\right)",
-    r"\frac{1}{8}px(2x + 1)",
+    r"\frac{1}{4} px (x + 2)",
+    r"\frac{1}{4} px (x + \frac{1}{2})",
+    r"\frac{1}{8} px (\frac{1}{2} x + 2)",
+    r"\frac{1}{8} px (2x + 1)",
   ],
   correctIndex: 3,
   difficulty: "Medium",
@@ -7319,8 +7319,8 @@ QuizQuestion(
   options: [
     r"10y + 3",
     r"10y - 3",
-    r"\frac{10y - 3}{4}",
-    r"\frac{10y + 3}{4}",
+    r"\frac{10 y - 3}{4}",
+    r"\frac{10 y + 3}{4}",
   ],
   correctIndex: 3,
   difficulty: "Medium",
@@ -7539,7 +7539,964 @@ QuizQuestion(
 ),
     ],
   ),
+  "Math JHS2 s2 ss3 - Variables and Equations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. If x \in {1, 3, 5, 7, 9, 11, 13, 15}, find the truth set of x - 3 \geq 10. (BECE 1993 Q3)",
+        options: [
+          r"{15}",
+          r"{13, 15}",
+          r"{11, 13, 15}",
+          r"{9, 11, 14, 15}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"x - 3 \geq 10 gives x \geq 13. The values in the given set that satisfy this are 13 and 15.",
+      ),
 
+      QuizQuestion(
+        question:
+        r"2. Solve 4x - 6 < -2. (BECE 1995 Q11)",
+        options: [
+          r"x < 1",
+          r"x > 1",
+          r"x < -1",
+          r"x > -1",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"4x - 6 < -2 gives 4x < 4. Dividing by 4 gives x < 1.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. Find the truth set of 5x - 8 \leq 2x + 4. (BECE 1997 Q33)",
+        options: [
+          r"{x : x \geq 4}",
+          r"{x : x \geq -4}",
+          r"{x : x \leq 4}",
+          r"{x : x \leq -4}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"5x - 8 \leq 2x + 4 gives 3x \leq 12. Therefore, x \leq 4.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Which of the following statements is true? (BECE 2003 Q25)",
+        options: [
+          r"8 + 4 < 10",
+          r"7 + 4 < 10",
+          r"6 + 4 < 10",
+          r"5 + 4 < 10",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Only 5 + 4 = 9 is less than 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. Solve for x if \frac{1}{2}x - 4x > 20. (BECE 2004 Q28)",
+        options: [
+          r"x < -13\frac{1}{3}",
+          r"x < -5\frac{4}{5}",
+          r"x < 5\frac{4}{5}",
+          r"x < 13\frac{1}{3}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The given inequality simplifies to -\frac{7}{2}x > 20, so x < -\frac{40}{7} = -5\frac{5}{7}. None of the supplied options matches exactly; option B appears to be the intended answer.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. Find the truth set of the inequality 2x + 5 < 4y - 5. (BECE 2019 Q17)",
+        options: [
+          r"{y : y > 5}",
+          r"{y : y < 5}",
+          r"{y : y > 1}",
+          r"{y : y > 0}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Rearranging gives 4y > 2x + 10, so y > \frac{x + 5}{2}. A value of x is missing from the supplied question. If x = 5, the intended answer is y > 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"7. Find the solution set of n - \frac{2}{3} > \frac{1}{3} - n. (BECE 1993 Q24)",
+        options: [
+          r"{n : n > -1}",
+          r"{n : n = 0}",
+          r"{n : n > \frac{1}{3}}",
+          r"{n : n > \frac{1}{2}}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"n - \frac{2}{3} > \frac{1}{3} - n gives 2n > 1. Therefore, n > \frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. If x \in {1, 2, 3, 4, 5}, find the truth set of 2x + 1 < 7. (BECE 1994 Q6)",
+        options: [
+          r"{1, 2}",
+          r"{2, 3}",
+          r"{1, 2, 3}",
+          r"{3}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"2x + 1 < 7 gives 2x < 6, so x < 3. The values in the domain are 1 and 2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. Find the solution set of 2x + 4 > -6. (BECE 1996 Q38)",
+        options: [
+          r"{x = -5}",
+          r"{x < 5}",
+          r"{x > -5}",
+          r"{x < -5}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"2x + 4 > -6 gives 2x > -10. Therefore, x > -5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. Solve the inequality 3(x - 1) \leq 12. (BECE 2001 Q19)",
+        options: [
+          r"x \leq -5",
+          r"x \leq -3",
+          r"x \leq 3",
+          r"x \leq 5",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"3(x - 1) \leq 12 gives x - 1 \leq 4. Therefore, x \leq 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. Find the solution set of 2x + 1 < 5 in the domain {-1, 0, 1, 2, 3}. (BECE 2004 Q14)",
+        options: [
+          r"{-1, 1, 3}",
+          r"{-1, 0, 1}",
+          r"{-1, 1, 2}",
+          r"{0, 1, 2}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"2x + 1 < 5 gives x < 2. The values in the domain that satisfy this are -1, 0 and 1.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. If x \in {2, 3, 4, 5}, find the truth set of 2x + 1 < 8. (BECE 2010 Q22)",
+        options: [
+          r"{2, 3, 4}",
+          r"{2, 3}",
+          r"{3, 4}",
+          r"{4, 5}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"2x + 1 < 8 gives 2x < 7, so x < 3.5. The values in the domain are 2 and 3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Solve the inequality 7x - (10x + 3) \geq -9. (BECE 2010 Q23)",
+        options: [
+          r"x \geq 2",
+          r"x \leq 4",
+          r"x \geq 4",
+          r"x \leq 2",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"7x - 10x - 3 \geq -9 gives -3x \geq -6. Dividing by -3 reverses the inequality, giving x \leq 2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. Solve the inequality x - \frac{1}{3} \geq \frac{2}{3} - x. (BECE 2011 Q15)",
+        options: [
+          r"x \leq \frac{1}{2}",
+          r"x \leq \frac{2}{3}",
+          r"x \geq \frac{1}{2}",
+          r"x \geq \frac{2}{3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"x - \frac{1}{3} \geq \frac{2}{3} - x gives 2x \geq 1. Therefore, x \geq \frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. Solve the inequality 2x + 10 \geq \frac{7x}{2} - 5. (BECE 2014 Q36)",
+        options: [
+          r"x \leq 10",
+          r"x \geq 10",
+          r"x \leq 40",
+          r"x \geq 40",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Thus, 30 \geq 3x, so x \leq 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. Solve the inequality 2x + 10 \geq \frac{7}{2}x - 5. (BECE 2015 Q36)",
+        options: [
+          r"x \geq 10",
+          r"x \leq 10",
+          r"x \leq 40",
+          r"x \geq 40",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Therefore, 30 \geq 3x and x \leq 10.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. Solve 25x + 450 \leq 3000. (BECE 2017 Q19)",
+        options: [
+          r"x \geq 102",
+          r"x \leq 102",
+          r"x \geq 138",
+          r"x \leq 138",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"25x + 450 \leq 3000 gives 25x \leq 2550. Therefore, x \leq 102.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"18. Solve 3 - (3x + 4) \leq -4. (BECE 2020 Q35)",
+        options: [
+          r"x \leq 1",
+          r"x \geq 1",
+          r"x \geq 1\frac{1}{3}",
+          r"x < 1\frac{1}{3}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"3 - 3x - 4 \leq -4 gives -3x - 1 \leq -4, so -3x \leq -3. Dividing by -3 reverses the inequality, giving x \geq 1.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"19. Solve \frac{1 - x}{3} < 4. (BECE 2021 Q20)",
+        options: [
+          r"x < -11",
+          r"x > -11",
+          r"x < 11",
+          r"x > 11",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1 - x}{3} < 4 gives 1 - x < 12. Thus, -x < 11, and dividing by -1 reverses the inequality to give x > -11.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"20. Solve 5x - (7x - 3) \leq 9. (BECE 2022 Q38)",
+        options: [
+          r"x \leq -3",
+          r"x \geq -3",
+          r"x \geq -6",
+          r"x \leq 3",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"5x - 7x + 3 \leq 9 gives -2x \leq 6. Dividing by -2 reverses the inequality, giving x \geq -3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. Find the truth set of 2x - 4 < 6 + 3x. (BECE 2024 Q39)",
+        options: [
+          r"{x : x < 2}",
+          r"{x : x < 10}",
+          r"{x : x > -2}",
+          r"{x : x > -10}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"2x - 4 < 6 + 3x gives -10 < x. Therefore, x > -10.",
+      ),
+    ],
+  ),
+
+  "Math JHS2 s3 ss1 - Shapes and Space": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. Calculate the size of an exterior angle of a regular pentagon. (BECE 1994 Q12)",
+        options: [
+          "72°",
+          "90°",
+          "108°",
+          "360°",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The exterior angles of a regular polygon sum to 360°. Therefore, each exterior angle is 360° ÷ 5 = 72°.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. A polygon has 10 sides. Which of the following gives the sum of its interior angles? (BECE 1992 Q23)",
+        options: [
+          "2 × 180°",
+          "4 × 180°",
+          "6 × 180°",
+          "8 × 180°",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The sum of the interior angles is (n - 2) × 180°. For 10 sides, this is (10 - 2) × 180° = 8 × 180°.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. Which of the following best describes the statement “the locus of points 6 cm from a fixed point O”? (BECE 1998 Q39)",
+        options: [
+          "A parallel line 6 cm from point O.",
+          "A vertical line 6 cm from point O.",
+          "A horizontal line 6 cm from point O.",
+          "A circle with centre O and radius 6 cm.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "All points at a fixed distance of 6 cm from O form a circle with centre O and radius 6 cm.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. The point P moves in a plane such that it is always at equal distance from two fixed points A and B in the same plane. Which of these is the locus of the point P? (BECE 2003 Q40)",
+        options: [
+          "The bisector of angle PAB.",
+          "A circle with centre B and radius AB.",
+          "A circle with AB as the diameter.",
+          "The perpendicular bisector of line AB.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. Angle NTZ and QZT are: (BECE 2007 Q17)",
+        options: [
+          "Alternate angles.",
+          "Corresponding angles.",
+          "Complementary angles.",
+          "Supplementary angles.",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The question states that angles NTZ and QZT are supplementary, so their sum is 180°.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. Which of the following best describes the statement: “The locus of a point which moves so that its distances from two fixed points are always equal”? (BECE 2015 Q30)",
+        options: [
+          "Bisector of an angle",
+          "Perpendicular bisector",
+          "Circle",
+          "Two parallel lines",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Points that are equally distant from two fixed points lie on the perpendicular bisector of the line joining the points.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. The sum of the interior angles of a regular polygon with 10 sides is: (BECE 2017 Q7)",
+        options: [
+          "144°",
+          "900°",
+          "1,440°",
+          "1,800°",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The sum is (10 - 2) × 180° = 8 × 180° = 1,440°.",
+      ),
+    ],
+  ),
+  "Math JHS2 s3 ss2 - Vectors and Measurement": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Simplify \begin{pmatrix} 2 \ -3 \end{pmatrix} - \begin{pmatrix} -1 \ 5 \end{pmatrix}. (BECE 1990 Q40)",
+        options: [
+          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \ -8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \ -8 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \ 8 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. If r = \begin{pmatrix} 3 \ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
+        options: [
+          r"\begin{pmatrix} -1 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \ 18 \end{pmatrix}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. Given that a = \begin{pmatrix} -2 \ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
+        options: [
+          r"\begin{pmatrix} 2 \ -7 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \ 13 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
+        options: [
+          "Ama's only",
+          "Adjoa's only",
+          "Adjoa's and Abena's",
+          "Ama's and Adjoa's",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. If u = \begin{pmatrix} 2 \ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
+        options: [
+          r"\begin{pmatrix} 8 \ 9 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ 9 \end{pmatrix}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. Simplify \begin{pmatrix} 4 \ 5 \end{pmatrix} + \begin{pmatrix} -2 \ 2 \end{pmatrix} + \begin{pmatrix} 1 \ 6 \end{pmatrix}. (BECE 1997 Q11)",
+        options: [
+          r"\begin{pmatrix} 2 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \ 13 \end{pmatrix}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
+        options: [
+          r"71.4\text{ cm}^2",
+          r"31.8\text{ cm}^2",
+          r"40.0\text{ cm}^2",
+          r"51.4\text{ cm}^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. Given that a = \begin{pmatrix} -3 \ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
+        options: [
+          r"\begin{pmatrix} -2 \ 6 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \ 2 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. Given L = \begin{pmatrix} 3 \ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
+        options: [
+          r"\begin{pmatrix} -1 \ -1 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \ -1 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \ 1 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. Simplify \begin{pmatrix} -2 \ 3 \end{pmatrix} - \begin{pmatrix} 1 \ 5 \end{pmatrix}. (BECE 2000 Q10)",
+        options: [
+          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \ -2 \end{pmatrix}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"\begin{pmatrix} -2-1 \ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \ -2 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
+        options: [
+          "4.9 m",
+          "24.5 m",
+          "24 m",
+          "22 m",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
+        options: [
+          r"44\text{ cm}^2",
+          r"88\text{ cm}^2",
+          r"352\text{ cm}^2",
+          r"616\text{ cm}^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
+        options: [
+          "11 cm",
+          "22 cm",
+          "35 cm",
+          "38.5 cm",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
+        options: [
+          "3 cm, 4 cm, 6 cm",
+          "3 cm, 5 cm, 7 cm",
+          "5 cm, 13 cm, 17 cm",
+          "5 cm, 12 cm, 13 cm",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. If r = \begin{pmatrix} 2 \ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
+        options: [
+          r"\begin{pmatrix} 0 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \ 8 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"r+t = \begin{pmatrix} 2-2 \ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \ 2 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
+        options: [
+          r"{20^\circ, 50^\circ, 90^\circ}",
+          r"{80^\circ, 60^\circ, 90^\circ}",
+          r"{45^\circ, 45^\circ, 90^\circ}",
+          r"{65^\circ, 90^\circ, 35^\circ}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. If r = \begin{pmatrix} -10 \ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
+        options: [
+          r"\begin{pmatrix} -2 \ -9 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \ -9 \end{pmatrix}",
+          r"\begin{pmatrix} 18 \ 9 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \ -3 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"18. Find the circumference of a circle whose area is 64\pi\text{ cm}^2. (BECE 2010 Q25)",
+        options: [
+          r"32\pi\text{ cm}",
+          r"16\pi\text{ cm}",
+          r"8\pi\text{ cm}",
+          r"4\pi\text{ cm}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi\text{ cm}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"19. Given that a = \begin{pmatrix} -5 \ 12 \end{pmatrix} and b = \begin{pmatrix} 10x \ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
+        options: [
+          "-2",
+          r"-\frac{1}{2}",
+          r"\frac{1}{2}",
+          "2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"20. Given that a = \begin{pmatrix} 5 \ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
+        options: [
+          "6",
+          "3",
+          "2",
+          "1",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. If r = \begin{pmatrix} 2 \ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
+        options: [
+          r"\begin{pmatrix} -10 \ -25 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \ -25 \end{pmatrix}",
+          r"\begin{pmatrix} 10 \ -25 \end{pmatrix}",
+          r"\begin{pmatrix} 10 \ 25 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. Given that r = \begin{pmatrix} -3 \ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
+        options: [
+          r"\begin{pmatrix} -5 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -7 \ -11 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \ -11 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
+        options: [
+          r"11\text{ cm}^2",
+          r"38\frac{1}{2}\text{ cm}^2",
+          r"44\frac{1}{2}\text{ cm}^2",
+          r"54\text{ cm}^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5\text{ cm}^2.",
+      ),
+
+      QuizQuestion(
+        question:
+        "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
+        options: [
+          "2 cm",
+          "3 cm",
+          "5 cm",
+          "6 cm",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"25. Simplify \begin{pmatrix} -3 \ 5 \end{pmatrix} + \begin{pmatrix} 2 \ -7 \end{pmatrix}. (BECE 2016 Q36)",
+        options: [
+          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \ 12 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \ -12 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"\begin{pmatrix} -3+2 \ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \ -2 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"26. Given that a = \begin{pmatrix} 4 \ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
+        options: [
+          r"\begin{pmatrix} 0 \ 0 \end{pmatrix}",
+          r"\begin{pmatrix} -8 \ 12 \end{pmatrix}",
+          r"\begin{pmatrix} 8 \ -12 \end{pmatrix}",
+          r"\begin{pmatrix} -8 \ 0 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"a+b = \begin{pmatrix} 4-4 \ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \ 0 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
+        options: [
+          "14 cm",
+          "22 cm",
+          "28 cm",
+          "82 cm",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28\text{ cm}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"28. If u = \begin{pmatrix} 3 \ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
+        options: [
+          r"\begin{pmatrix} -1 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \ 8 \end{pmatrix}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"6v+2u = \begin{pmatrix} -12 \ 6 \end{pmatrix} + \begin{pmatrix} 6 \ 2 \end{pmatrix} = \begin{pmatrix} -6 \ 8 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"29. Given that r = \begin{pmatrix} -3 \ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
+        options: [
+          r"\begin{pmatrix} -6 \ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \ -10 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \ -10 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \ 10 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"r+t = \begin{pmatrix} -3+3 \ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \ -10 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"30. Simplify \begin{pmatrix} -2 \ 3 \end{pmatrix} + \begin{pmatrix} -1 \ 5 \end{pmatrix}. (BECE 2019 Q31)",
+        options: [
+          r"\begin{pmatrix} -3 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ -2 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"\begin{pmatrix} -2-1 \ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \ 8 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
+        options: [
+          "7 km",
+          "13 km",
+          "17 km",
+          "60 km",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"32. If a = \begin{pmatrix} 2 \ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
+        options: [
+          r"\begin{pmatrix} 4 \ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \ 6 \end{pmatrix}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"a+b = \begin{pmatrix} 2-2 \ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \ 0 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"33. If q = \begin{pmatrix} -2 \ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
+        options: [
+          r"\begin{pmatrix} -5 \ 5 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \ 5 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \ 1 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"q-r = \begin{pmatrix} -2-3 \ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \ 5 \end{pmatrix}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
+        options: [
+          "44 m",
+          "88 m",
+          "176 m",
+          "252 m",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176\text{ m}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"35. If a = \begin{pmatrix} -2 \ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
+        options: [
+          r"\begin{pmatrix} 1 \ 5 \end{pmatrix}",
+          r"\begin{pmatrix} -9 \ -1 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \ -1 \end{pmatrix}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"2a-b = \begin{pmatrix} -4 \ 2 \end{pmatrix} - \begin{pmatrix} -5 \ -3 \end{pmatrix} = \begin{pmatrix} 1 \ 5 \end{pmatrix}.",
+      ),
+    ],
+  ),
 
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
