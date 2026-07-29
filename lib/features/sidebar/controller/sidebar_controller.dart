@@ -8616,12 +8616,12 @@ class SidebarController extends GetxController {
               matchedPractice.questions.isNotEmpty) {
             beceLessonsForStrand.add(
               Lesson(
-                title: "Sub-strand ${beceLessonsForStrand.length + 1}",
+                title: "Sub-strand $ssNumber",
                 topic: displaySubStrandName,
                 courseName: courseTitle,
                 strandName: "BECE",
                 subStrandName: normalStrand.title,
-                lessonNumber: (beceLessonsForStrand.length + 1).toString(),
+                lessonNumber: ssNumber.toString(),
                 gradeName: grade,
                 getReady: defaultGetReadyData,
                 learn: defaultLearnData,

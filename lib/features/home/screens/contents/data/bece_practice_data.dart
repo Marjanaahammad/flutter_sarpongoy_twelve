@@ -2120,7 +2120,7 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1\n"
+        "Question 1: "
             "Olu bought a radio for φ65,000.00. After one year the radio was valued at 75% of the cost price.\n"
             "(a) What was the value of the radio after one year?\n"
             "(b) If he sold the radio for φ55,700.00, calculate his profit or loss over the cost price.\n"
@@ -2313,194 +2313,375 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-        "Question 1\n"
-            "Olu bought a radio for φ65,000.00. After one year the radio was valued at 75% of the cost price.\n"
-            "(a) What was the value of the radio after one year?\n"
-            "(b) If he sold the radio for φ55,700.00, calculate his profit or loss over the cost price.\n"
-            "(BECE 1993 Q1)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Identify cost baseline): State the original cost price of the radio, which is φ65,000.00.\n\n"
-            "⦿ Point 2 (State percentage drop value): Identify that the new value is 75% of the initial cost price.\n\n"
-            "⦿ Point 3 (Calculate absolute value): Set up the value product relation:\n"
-        r"\text{Value} = \frac{75}{100} \times \phi65,000.00 = 75 \times \phi650.00 = \phi48,750.00"
-        "\n\n"
-            "⦿ Point 4 (Compare selling metrics): State the subsequent selling price of φ55,700.00 and compare it with the original cost price (φ65,000.00). Because the selling price is less than the cost price, a net financial loss occurred relative to the initial cost.\n\n"
-            "⦿ Point 5 (Deduct for final loss outcome): Calculate the absolute loss by subtracting the selling price from the cost price:\n"
-        r"\text{Loss} = \phi65,000.00 - \phi55,700.00 = \phi9,250.00",
-        explanation: "",
-      ),
+  scenario:
+      "Question 1: "
+      "A man travelled from Bakwa to Pabam, the distance between the two towns is 510 km. At Pabam he covered an additional 40 km on official duties. He returned to Bakwa the next day.\n"
+      "(a) Find the total distance covered by the man.\n"
+      "(b) If the car used one litre of petrol to cover 20 km, find the amount of petrol used for the whole journey.\n"
+      "(c) If a litre of petrol cost ¢522.00, calculate the total cost of petrol used for the journey.\n"
+          "(BECE 1998 Q14)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Total distance calculation:\n"
+      "The forward travel from Bakwa to Pabam equals 510 km.\n"
+      "The local duties at Pabam require an additional 40 km.\n"
+      "The return trip from Pabam back to Bakwa equals 510 km.\n"
+      r"Summing these up gives \text{Total distance} = 510 km + 40 km + 510 km = 1060 km."
+      "\n\n"
+      "⦿ Petrol consumption calculation:\n"
+      "The vehicle uses 1 litre for every 20 km covered.\n"
+      r"Dividing total kilometres by the consumption index gives \text{Total volume} = \frac{1060}{20} \times 1 = 53 litres."
+      "\n\n"
+      "⦿ Total cost calculation:\n"
+      "The financial cost per unit litre stands at ¢522.00.\n"
+      r"Multiplying total units consumed by unit rate gives \text{Total cost} = 53 \times \text{¢}522 = \text{¢}27,666.00.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 2: "
+      "A car runs on the average at 45 km to 5 litres of fuel. Calculate how many litres of fuel are required for a journey of 117 km.\n (BECE 2004 Q4a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Rate evaluation:\n"
+      "The car consumes 5 litres for every stretch of 45 km.\n\n"
+      "⦿ Proportional step:\n"
+      "For a longer path of 117 km, fuel needs expand fractionally.\n"
+      r"Setting up direct proportion: \text{Fuel required} = \frac{117}{45} \times 5 = 13 litres.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 3: "
+      "Express 4 hours in seconds leaving your answer in standard form.\n (BECE 2007 Q5b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Time base conversion:\n"
+      "One hour comprises exactly 3600 seconds.\n"
+      r"Thus, four hours equal 4 \times 3600 = 14400 seconds."
+      "\n\n"
+      "⦿ Scientific representation notation:\n"
+      "Shifts the decimal point four places to the left to match standard form requirements.\n"
+      r"Final value: 1.44 \times 10^{4} seconds.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 4: "
+      r"Kwame rode a bicycle for a distance of x km and walked for another \frac{1}{2} hour at a rate of 6 km per hour. If Kwame covered a total distance of 10 km, find the distance x he covered by bicycle."
+      "\n (BECE 2010 Q3b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking segment computation:\n"
+      "Speed of walking is given as 6 km/h over a timeframe of 0.5 hours.\n"
+      r"Walking component distance: \text{Speed} \times \text{Time} = 6 \times 0.5 = 3 km."
+      "\n\n"
+      "⦿ Linear breakdown configuration:\n"
+      "Total combined movement yields a value of 10 km.\n"
+      r"Statement representation: x + 3 = 10."
+      "\n\n"
+      r"⦿ Isolating variable: x = 10 - 3 = 7 km.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 5: "
+      "A car consumes a gallon of petrol for every 30 km drive. The driver of the car set out on a journey of 420 km with 10 gallons of petrol in the fuel tank.\n"
+      "(a) How many more gallons of petrol will be needed to complete the journey?\n"
+      "(b) Find the cost of the petrol for the journey of 420 km if a gallon of petrol cost GH¢5.50.\n (BECE 2012 Q2a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Gross supply estimation:\n"
+      "The vehicle drives a 30 km distance per single unit gallon.\n"
+      r"Requirement for full trip: \frac{420}{30} = 14 gallons."
+      "\n\n"
+      "⦿ Deficit structural balancing:\n"
+      "The starting inventory shows 10 gallons present.\n"
+      r"Deficit adjustment calculation: 14 - 10 = 4 gallons."
+      "\n\n"
+      "⦿ Financial layout computation:\n"
+      "Total operational usage matches 14 gallons across the full run.\n"
+      "Unit pricing per gallon equals GH¢5.50.\n"
+      r"Multiplicative expense total: 14 \times 5.50 = \text{GH¢}77.00.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 6: "
+      r"Mr. Mensah's farm is 20 km from his house. He uses his car to travel y km of the distance from his house and then walks 1\frac{1}{2} hours at the rate of 3 km per hour to get to his farm. Find y."
+      "\n(BECE 2015B Q3a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking component evaluation:\n"
+      "Walking progress relies on a speed rate of 3 km/h for a span of 1.5 hours.\n"
+      r"Distance advanced on foot: 3 \times 1.5 = 4.5 km."
+      "\n\n"
+      "⦿ Component balance isolating step:\n"
+      "Total journey length boundary equals exactly 20 km.\n"
+      r"Balancing linear configuration: y + 4.5 = 20."
+      "\n\n"
+      r"⦿ Deductive solution: y = 20 - 4.5 = 15.5 km.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 7: "
+      "A paint manufacturing company has a machine which fills 24 tins with paints in 5 minutes.\n"
+      "(a) How many tins will the machine fill in 1 minute, correct to the nearest whole number?\n"
+      "(b) How many tins will the machine fill in 1 hour?\n"
+      "(c) How many hours will it take to fill 1440 tins?"
+          "\n (BECE 2017 Q2b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Minute efficiency division:\n"
+      "Standard five-minute generation is 24 tins.\n"
+      r"Minute yield baseline: \frac{24}{5} = 4.8 tins."
+      "\n"
+      "Integer rounding protocol brings the value up to 5 tins.\n\n"
+      "⦿ Hourly output multiplier:\n"
+      "One hour contains 60 operational minutes.\n"
+      r"Scaling output factor: \frac{60}{5} \times 24 = 12 \times 24 = 288 tins."
+      "\n\n"
+      "⦿ Time frame distribution:\n"
+      "Targets production goal size of 1440 tins.\n"
+      r"Division rate structure calculation: \frac{1440}{288} = 5 hours.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 8: "
+      "A bus left town X at 6:30 am and arrived at town Y at 1:00 pm. If the bus travelled at an average speed of 100 km per hour, calculate the distance from town X to town Y.\n (BECE 2021 Q4c)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Time duration evaluation:\n"
+      "Counts elapsed hours from standard 06:30 to 13:00 timeline marks.\n"
+      r"Determined processing window: 6 hours 30 minutes, which represents 6.5 hours (or \frac{13}{2} hours)."
+      "\n\n"
+      "⦿ Distance motion rule application:\n"
+      "Speed vector remains fixed at 100 km/h.\n"
+      r"Calculation: \text{Distance} = 100 \times 6.5 = 650 km.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 9: "
+      r"Akosua walked for 3 hours at the rate of 1\frac{1}{2} km per hour from her village to Paamu to take a bus to Quamu. If the bus travelling at 15\frac{1}{2} km per hour takes 2 hours to travel from Paamu to Quamu,"
+      "\n"
+      "(a) what is the distance from Akosua's village to Quamu?\n"
+      "(b) how long would it take a man, riding a bicycle at 5 km per hour, to travel from Akosua's village to Quamu?\n (BECE 2023 Q2c)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking path determination:\n"
+      r"Step pace values track at 1.5 km/h across an active 3-hour stretch."
+      "\n"
+      r"Foot journey sub-total: 1.5 \times 3 = 4.5 km."
+      "\n\n"
+      "⦿ Vehicular step determination:\n"
+      r"Commute speed via bus checks at 15.5 km/h for a 2-hour road run."
+      "\n"
+      r"Bus journey sub-total: 15.5 \times 2 = 31 km."
+      "\n\n"
+      "⦿ Gross distance summation:\n"
+      "Integrates both route components for full network length.\n"
+      r"Total tracking: 4.5 km + 31 km = 35.5 km."
+      "\n\n"
+      "⦿ Cyclist duration breakdown:\n"
+      "Evaluates performance across the 35.5 km path with a 5 km/h motion profile.\n"
+      r"Division rate mapping step: \frac{35.5}{5} = 7.1 hours."
+      "\n\n"
+      r"⦿ Fractional time transformation step: 0.1 \times 60 minutes = 6 minutes."
+      "\n\n"
+      "⦿ Final operational timeline result: 7 hours 6 minutes.",
+  explanation: "",
+),
+    ],
+  ),
 
+  "Math JHS2 s2 ss2 - Ratios and Proportion": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario:
-        "Question 2\n"
-            "Mansah earns a salary of φ10,000.00 per month as a sales girl. In addition to the salary, she is given a commission of 1.5% of whatever sales she makes in a month. In January, this year, she makes sales of φ7,500,000.00. What is the total amount Mansah earned at the end of January?\n"
-            "(BECE 1995 Q3a)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Establish base figures): Note the fixed monthly basic salary parameter (φ10,000.00) and the variable incentive commission rate (1.5%).\n\n"
-            "⦿ Point 2 (Note seasonal reference activity): State the volume of sales recorded by Mansah during January, which equals φ7,500,000.00.\n\n"
-            "⦿ Point 3 (Evaluate total commission accrued): Compute the specific commission earned from the volume of sales:\n"
-        r"\text{Commission} = \frac{1.5}{100} \times \phi7,500,000.00 = 1.5 \times \phi75,000.00 = \phi112,500.00"
-        "\n\n"
-            "⦿ Point 4 (Consolidate total compensation package): Add the fixed monthly basic salary to the calculated commission components to compute the absolute month-end compensation:\n"
-        r"\text{Total Earnings} = \phi10,000.00 + \phi112,500.00 = \phi122,500.00",
-        explanation: "",
-      ),
-
+  scenario:
+      "Question 1: "
+      "A man travelled from Bakwa to Pabam, the distance between the two towns is 510 km. At Pabam he covered an additional 40 km on official duties. He returned to Bakwa the next day.\n"
+      "(a) Find the total distance covered by the man.\n"
+      "(b) If the car used one litre of petrol to cover 20 km, find the amount of petrol used for the whole journey.\n"
+      "(c) If a litre of petrol cost ¢522.00, calculate the total cost of petrol used for the journey.\n"
+          "(BECE 1998 Q14)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Total distance calculation:\n"
+      "The forward travel from Bakwa to Pabam equals 510 km.\n"
+      "The local duties at Pabam require an additional 40 km.\n"
+      "The return trip from Pabam back to Bakwa equals 510 km.\n"
+      r"Summing these up gives \text{Total distance} = 510 km + 40 km + 510 km = 1060 km."
+      "\n\n"
+      "⦿ Petrol consumption calculation:\n"
+      "The vehicle uses 1 litre for every 20 km covered.\n"
+      r"Dividing total kilometres by the consumption index gives \text{Total volume} = \frac{1060}{20} \times 1 = 53 litres."
+      "\n\n"
+      "⦿ Total cost calculation:\n"
+      "The financial cost per unit litre stands at ¢522.00.\n"
+      r"Multiplying total units consumed by unit rate gives \text{Total cost} = 53 \times \text{¢}522 = \text{¢}27,666.00.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 3\n"
-            "A woman sold an article for φ200,000.00 and made a profit of 25%. Find the cost price of the article.\n"
-            "(BECE 1998 Q3b)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Set variable definitions): Note the final transaction selling price (φ200,000.00) alongside the declared profit margin (25%).\n\n"
-            "⦿ Point 2 (Formulate proportion equations): Frame the cost price as the 100% baseline value. Express the total transaction selling price as a relative percentage value:\n"
-        r"\text{Selling Price Percentage} = 100\% + 25\% = 125\%"
-        "\n\n"
-            "⦿ Point 3 (Equate relative value constants): Relate the transaction value directly to its percentage representation, establishing that 125% = φ200,000.00.\n\n"
-            "⦿ Point 4 (Compute initial resource cost): Solve for the original 100% base cost price value using ratio methods:\n"
-        r"\text{Cost Price} = \frac{100\%}{125\%} \times \phi200,000.00 = \frac{4}{5} \times \phi200,000.00 = \phi160,000.00",
-        explanation: "",
-      ),
-
+  scenario:
+      "Question 2: "
+      "A car runs on the average at 45 km to 5 litres of fuel. Calculate how many litres of fuel are required for a journey of 117 km.\n (BECE 2004 Q4a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Rate evaluation:\n"
+      "The car consumes 5 litres for every stretch of 45 km.\n\n"
+      "⦿ Proportional step:\n"
+      "For a longer path of 117 km, fuel needs expand fractionally.\n"
+      r"Setting up direct proportion: \text{Fuel required} = \frac{117}{45} \times 5 = 13 litres.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 4\n"
-            "A trader paid φ1,500.00 for 6 drinking cups. One of the cups got broken. He sold the remaining 5, making a profit of 10%. Calculate,\n"
-            "(i) the cost price of each of the six cups.\n"
-            "(ii) the selling price of each of the five cups.\n"
-            "(iii) the profit made on each cup sold.\n"
-            "(BECE 1999 Q1b)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Isolate single unit baseline cost): Set the aggregate bulk cost configuration (φ1,500.00 for 6 units). Divide the aggregate cost by 6 to find the single-item cost price:\n"
-        r"\text{Cost price per individual cup} = \frac{\phi1,500.00}{6} = \phi250.00"
-        "\n\n"
-            "⦿ Point 2 (Evaluate bulk revenue requirements): Note that the total cost baseline is φ1,500.00 and a profit of 10% is required. Calculate the gross revenue target (110% of total cost):\n"
-        r"\text{Gross Revenue Target} = \frac{110}{100} \times \phi1,500.00 = \phi1,650.00"
-        "\n\n"
-            "⦿ Point 3 (Distribute revenue over sound assets): Divide the calculated gross revenue target across the remaining 5 intact cups to find the required individual selling price:\n"
-        r"\text{Selling price per individual cup} = \frac{\phi1,650.00}{5} = \phi330.00"
-        "\n\n"
-            "⦿ Point 4 (Determine individual net gains): Deduct the original single-item cost price from the final single-item selling price to isolate the profit made per unit sold:\n"
-        r"\text{Profit per individual cup} = \phi330.00 - \phi250.00 = \phi80.00",
-        explanation: "",
-      ),
+  scenario:
+      "Question 3: "
+      "Express 4 hours in seconds leaving your answer in standard form.\n (BECE 2007 Q5b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Time base conversion:\n"
+      "One hour comprises exactly 3600 seconds.\n"
+      r"Thus, four hours equal 4 \times 3600 = 14400 seconds."
+      "\n\n"
+      "⦿ Scientific representation notation:\n"
+      "Shifts the decimal point four places to the left to match standard form requirements.\n"
+      r"Final value: 1.44 \times 10^{4} seconds.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 5\n"
-        r"Simplify 2\frac{1}{4} \div (3\frac{1}{8} - 1\frac{1}{12})"
-        "\n"
-            "(BECE 2002A Q1a)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Convert to improper fractions): Convert all mixed fractions into improper fractions:\n"
-        r"2\frac{1}{4} = \frac{9}{4}, \quad 3\frac{1}{8} = \frac{25}{8}, \quad 1\frac{1}{12} = \frac{13}{12}"
-        "\n\n"
-            "⦿ Point 2 (Apply operational precedence rules): Substitute the values back into the expression:\n"
-        r"\frac{9}{4} \div (\frac{25}{8} - \frac{13}{12})"
-        "\n\n"
-            "⦿ Point 3 (Find common denominator for inner bracket): Find the Lowest Common Multiple (LCM) of 8 and 12, which is 24. Perform the subtraction inside the bracket:\n"
-        r"\frac{25}{8} - \frac{13}{12} = \frac{3(25) - 2(13)}{24} = \frac{75 - 26}{24} = \frac{49}{24}"
-        "\n\n"
-            "⦿ Point 4 (Apply reciprocal multiplication operations): Substitute the result back and rewrite the division as multiplication by the reciprocal of the divisor fraction:\n"
-        r"\frac{9}{4} \div \frac{49}{24} = \frac{9}{4} \times \frac{24}{49}"
-        "\n\n"
-            "⦿ Point 5 (Simplify cross-fraction terms): Simplify the factors (24 ÷ 4 = 6) and multiply across to find the final mixed fraction value:\n"
-        r"\frac{9}{1} \times \frac{6}{49} = \frac{54}{49} = 1\frac{5}{49}",
-        explanation: "",
-      ),
+  scenario:
+      "Question 4: "
+      r"Kwame rode a bicycle for a distance of x km and walked for another \frac{1}{2} hour at a rate of 6 km per hour. If Kwame covered a total distance of 10 km, find the distance x he covered by bicycle."
+      "\n (BECE 2010 Q3b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking segment computation:\n"
+      "Speed of walking is given as 6 km/h over a timeframe of 0.5 hours.\n"
+      r"Walking component distance: \text{Speed} \times \text{Time} = 6 \times 0.5 = 3 km."
+      "\n\n"
+      "⦿ Linear breakdown configuration:\n"
+      "Total combined movement yields a value of 10 km.\n"
+      r"Statement representation: x + 3 = 10."
+      "\n\n"
+      r"⦿ Isolating variable: x = 10 - 3 = 7 km.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 6\n"
-        r"Simplify 2\frac{1}{2} \div (3\frac{1}{2} - 1\frac{1}{4})"
-        "\n"
-            "(BECE 2002B Q1a)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Convert to improper fractions): Transform the mixed terms into improper fractions:\n"
-        r"2\frac{1}{2} = \frac{5}{2}, \quad 3\frac{1}{2} = \frac{7}{2}, \quad 1\frac{1}{4} = \frac{5}{4}"
-        "\n\n"
-            "⦿ Point 2 (Structure primary layout): Arrange the operational expressions sequentially:\n"
-        r"\frac{5}{2} \div (\frac{7}{2} - \frac{5}{4})"
-        "\n\n"
-            "⦿ Point 3 (Execute internal bracket terms): Use an LCM of 4 to evaluate the inner bracket subtraction:\n"
-        r"\frac{7}{2} - \frac{5}{4} = \frac{2(7) - 1(5)}{4} = \frac{14 - 5}{4} = \frac{9}{4}"
-        "\n\n"
-            "⦿ Point 4 (Invert divisor and evaluate): Change the division operator into multiplication by inverting the divisor fraction:\n"
-        r"\frac{5}{2} \div \frac{9}{4} = \frac{5}{2} \times \frac{4}{9}"
-        "\n\n"
-            "⦿ Point 5 (Reduce terms to final form): Simplify the cross factors (4 ÷ 2 = 2) and express the final improper fraction as a mixed number:\n"
-        r"\frac{5}{1} \times \frac{2}{9} = \frac{10}{9} = 1\frac{1}{9}",
-        explanation: "",
-      ),
+  scenario:
+      "Question 5: "
+      "A car consumes a gallon of petrol for every 30 km drive. The driver of the car set out on a journey of 420 km with 10 gallons of petrol in the fuel tank.\n"
+      "(a) How many more gallons of petrol will be needed to complete the journey?\n"
+      "(b) Find the cost of the petrol for the journey of 420 km if a gallon of petrol cost GH¢5.50.\n (BECE 2012 Q2a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Gross supply estimation:\n"
+      "The vehicle drives a 30 km distance per single unit gallon.\n"
+      r"Requirement for full trip: \frac{420}{30} = 14 gallons."
+      "\n\n"
+      "⦿ Deficit structural balancing:\n"
+      "The starting inventory shows 10 gallons present.\n"
+      r"Deficit adjustment calculation: 14 - 10 = 4 gallons."
+      "\n\n"
+      "⦿ Financial layout computation:\n"
+      "Total operational usage matches 14 gallons across the full run.\n"
+      "Unit pricing per gallon equals GH¢5.50.\n"
+      r"Multiplicative expense total: 14 \times 5.50 = \text{GH¢}77.00.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 7\n"
-        r"A factory increased its production by 22\frac{1}{2}\% and produced 49,000 tonnes. How many tonnes was it producing before?"
-        "\n"
-            "(BECE 2004 Q4c)",
-        answer:
-        "Correct Answer:\n"
-        r"⦿ Point 1 (Note target outcomes): State the final post-increase output value (49,000 tonnes) and the scale of growth (22\frac{1}{2}\% = 22.5\%)."
-        "\n\n"
-            "⦿ Point 2 (Establish proportional reference points): Set the original production volume baseline to 100%. Calculate the new total percentage representation value:\n"
-        r"\text{New Percentage Level} = 100\% + 22.5\% = 122.5\%"
-        "\n\n"
-        r"⦿ Point 3 (Map percentage values to scale dimensions): Define the direct relation where 122.5\% = 49,000 tonnes."
-        "\n\n"
-            "⦿ Point 4 (Isolate initial capacity scales): Calculate the original production capacity (100%) by evaluating the inverse ratio:\n"
-        r"\text{Initial Production} = \frac{100\%}{122.5\%} \times 49,000 tonnes = \frac{100}{122.5} \times 49,000 = 40,000 tonnes",
-        explanation: "",
-      ),
+  scenario:
+      "Question 6: "
+      r"Mr. Mensah's farm is 20 km from his house. He uses his car to travel y km of the distance from his house and then walks 1\frac{1}{2} hours at the rate of 3 km per hour to get to his farm. Find y."
+      "\n(BECE 2015B Q3a)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking component evaluation:\n"
+      "Walking progress relies on a speed rate of 3 km/h for a span of 1.5 hours.\n"
+      r"Distance advanced on foot: 3 \times 1.5 = 4.5 km."
+      "\n\n"
+      "⦿ Component balance isolating step:\n"
+      "Total journey length boundary equals exactly 20 km.\n"
+      r"Balancing linear configuration: y + 4.5 = 20."
+      "\n\n"
+      r"⦿ Deductive solution: y = 20 - 4.5 = 15.5 km.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 8\n"
-        r"Simplify (2\frac{1}{4} - 1\frac{5}{8}) \div 3\frac{7}{16}"
-        "\n"
-            "(BECE 2005 Q1c)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Convert fractions to improper forms): Rewrite the components as improper fractions:\n"
-        r"2\frac{1}{4} = \frac{9}{4}, \quad 1\frac{5}{8} = \frac{13}{8}, \quad 3\frac{7}{16} = \frac{55}{16}"
-        "\n\n"
-            "⦿ Point 2 (Set up operational strings): Place the simplified values into the bracketed statement format:\n"
-        r"(\frac{9}{4} - \frac{13}{8}) \div \frac{55}{16}"
-        "\n\n"
-            "⦿ Point 3 (Resolve primary group brackets): Calculate the inner bracket subtraction using an LCM of 8:\n"
-        r"\frac{9}{4} - \frac{13}{8} = \frac{2(9) - 1(13)}{8} = \frac{18 - 13}{8} = \frac{5}{8}"
-        "\n\n"
-            "⦿ Point 4 (Apply reciprocal operation inversion rules): Convert the remaining outer division operation into multiplication by taking the reciprocal of the divisor fraction:\n"
-        r"\frac{5}{8} \div \frac{55}{16} = \frac{5}{8} \times \frac{16}{55}"
-        "\n\n"
-            "⦿ Point 5 (Reduce factors to lowest forms): Cancel out common factors across numerators and denominators (16 ÷ 8 = 2 and 55 ÷ 5 = 11) to obtain the final simplified answer:\n"
-        r"\frac{1}{1} \times \frac{2}{11} = \frac{2}{11}",
-        explanation: "",
-      ),
+  scenario:
+      "Question 7: "
+      "A paint manufacturing company has a machine which fills 24 tins with paints in 5 minutes.\n"
+      "(a) How many tins will the machine fill in 1 minute, correct to the nearest whole number?\n"
+      "(b) How many tins will the machine fill in 1 hour?\n"
+      "(c) How many hours will it take to fill 1440 tins?"
+          "\n (BECE 2017 Q2b)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Minute efficiency division:\n"
+      "Standard five-minute generation is 24 tins.\n"
+      r"Minute yield baseline: \frac{24}{5} = 4.8 tins."
+      "\n"
+      "Integer rounding protocol brings the value up to 5 tins.\n\n"
+      "⦿ Hourly output multiplier:\n"
+      "One hour contains 60 operational minutes.\n"
+      r"Scaling output factor: \frac{60}{5} \times 24 = 12 \times 24 = 288 tins."
+      "\n\n"
+      "⦿ Time frame distribution:\n"
+      "Targets production goal size of 1440 tins.\n"
+      r"Division rate structure calculation: \frac{1440}{288} = 5 hours.",
+  explanation: "",
+),
       PracticeQuestion(
-        scenario:
-        "Question 9\n"
-            "A trader sold 250 articles for φ525,000.00 at a profit of 25%.\n"
-            "i) Calculate the cost price of each article.\n"
-            "ii) If the trader had wanted 45% profit on the cost price, how much should he have sold each of the articles?\n"
-            "(BECE 2006 Q1a)",
-        answer:
-        "Correct Answer:\n"
-            "⦿ Point 1 (Document bulk variables): List the parameters for the item count (250 articles), total sales revenue (φ525,000.00), and the profit margin achieved (25%).\n\n"
-            "⦿ Point 2 (Evaluate gross baseline cost): Since the gross revenue represents 125% of the original cost, calculate the total cost price for all items:\n"
-        r"\text{Total Cost Price} = \frac{100\%}{125\%} \times \phi525,000.00 = \frac{100}{125} \times \phi525,000.00 = \phi420,000.00"
-        "\n\n"
-            "⦿ Point 3 (Find individual unit cost prices): Divide the total cost price by the item count to determine the individual cost price per article:\n"
-        r"\text{Cost Price per Article} = \frac{\phi420,000.00}{250} = \phi1,680.00"
-        "\n\n"
-            "⦿ Point 4 (Apply alternative profit targets): Identify the new target profit margin profile of 45%. This means the target unit selling price must represent 145% of its original individual cost price.\n\n"
-            "⦿ Point 5 (Compute updated item pricing): Calculate the new individual target selling price using the unit cost baseline:\n"
-        r"\text{Target Selling Price per Article} = \frac{145}{100} \times \phi1,680.00 = 1.45 \times \phi1,680.00 = \phi2,436.00",
-        explanation: "",
-      ),
+  scenario:
+      "Question 8: "
+      "A bus left town X at 6:30 am and arrived at town Y at 1:00 pm. If the bus travelled at an average speed of 100 km per hour, calculate the distance from town X to town Y.\n (BECE 2021 Q4c)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Time duration evaluation:\n"
+      "Counts elapsed hours from standard 06:30 to 13:00 timeline marks.\n"
+      r"Determined processing window: 6 hours 30 minutes, which represents 6.5 hours (or \frac{13}{2} hours)."
+      "\n\n"
+      "⦿ Distance motion rule application:\n"
+      "Speed vector remains fixed at 100 km/h.\n"
+      r"Calculation: \text{Distance} = 100 \times 6.5 = 650 km.",
+  explanation: "",
+),
+      PracticeQuestion(
+  scenario:
+      "Question 9: "
+      r"Akosua walked for 3 hours at the rate of 1\frac{1}{2} km per hour from her village to Paamu to take a bus to Quamu. If the bus travelling at 15\frac{1}{2} km per hour takes 2 hours to travel from Paamu to Quamu,"
+      "\n"
+      "(a) what is the distance from Akosua's village to Quamu?\n"
+      "(b) how long would it take a man, riding a bicycle at 5 km per hour, to travel from Akosua's village to Quamu?\n (BECE 2023 Q2c)",
+  answer:
+      "Correct Answer:\n"
+      "⦿ Walking path determination:\n"
+      r"Step pace values track at 1.5 km/h across an active 3-hour stretch."
+      "\n"
+      r"Foot journey sub-total: 1.5 \times 3 = 4.5 km."
+      "\n\n"
+      "⦿ Vehicular step determination:\n"
+      r"Commute speed via bus checks at 15.5 km/h for a 2-hour road run."
+      "\n"
+      r"Bus journey sub-total: 15.5 \times 2 = 31 km."
+      "\n\n"
+      "⦿ Gross distance summation:\n"
+      "Integrates both route components for full network length.\n"
+      r"Total tracking: 4.5 km + 31 km = 35.5 km."
+      "\n\n"
+      "⦿ Cyclist duration breakdown:\n"
+      "Evaluates performance across the 35.5 km path with a 5 km/h motion profile.\n"
+      r"Division rate mapping step: \frac{35.5}{5} = 7.1 hours."
+      "\n\n"
+      r"⦿ Fractional time transformation step: 0.1 \times 60 minutes = 6 minutes."
+      "\n\n"
+      "⦿ Final operational timeline result: 7 hours 6 minutes.",
+  explanation: "",
+),
     ],
   ),
 

@@ -5746,234 +5746,602 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        r"1. Kofi received \phi800.00 commission on the sales he made on a particular day. The commission is 20\% of the sales he made. Calculate his total sales for the day.          (BECE 1998 Q27)",
+        "1. On a map, 1 cm represents 4.5 km. What is the actual distance between two towns which are 4 cm apart on the map?          (BECE 2001 Q12)",
         options: [
-          r"\phi1,200.00",
-          r"\phi2,400.00",
-          r"\phi3,200.00",
-          r"\phi4,000.00",
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-        r"Let the total sales be x. Since 20\% of x is \phi800.00, x = \frac{800 \times 100}{20} = \phi4,000.00.",
-      ),
-      QuizQuestion(
-        question:
-        r"2. A shop increased all its prices by 10\%. Calculate the new price of an article which was previously sold for \phi7,500.00.          (BECE 1999 Q19)",
-        options: [
-          r"\phi6,750.00",
-          r"\phi7,500.00",
-          r"\phi7,800.00",
-          r"\phi8,250.00",
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-        r"The increase is 10\% of \phi7,500.00, which is \phi750.00. Therefore, the new price is \phi7,500.00 + \phi750.00 = \phi8,250.00.",
-      ),
-      QuizQuestion(
-        question:
-        r"3. Amina spent \frac{17}{35} of her pocket money on transport and food. If she spent \frac{2}{7} on transport only, what fraction did she spend on food?          (BECE 2000 Q15)",
-        options: [
-          r"\frac{2}{5}",
-          r"\frac{1}{5}",
-          r"\frac{4}{7}",
-          r"\frac{5}{7}",
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation:
-        r"The fraction spent on food is \frac{17}{35} - \frac{2}{7}. Since \frac{2}{7} = \frac{10}{35}, the answer is \frac{17}{35} - \frac{10}{35} = \frac{7}{35} = \frac{1}{5}.",
-      ),
-      QuizQuestion(
-        question:
-        r"4. By how much is \frac{5}{6} greater than \frac{3}{4}?          (BECE 2001 Q8)",
-        options: [
-          r"\frac{1}{12}",
-          r"\frac{1}{6}",
-          r"\frac{5}{12}",
-          r"\frac{7}{12}",
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-        r"Find the difference: \frac{5}{6} - \frac{3}{4} = \frac{10}{12} - \frac{9}{12} = \frac{1}{12}.",
-      ),
-      QuizQuestion(
-        question:
-        r"5. Out of \phi550,000.00 given to a school, an amount of \phi325,000.00 was used. What fraction of the total amount was used?          (BECE 2002A Q10)",
-        options: [
-          r"\frac{4}{13}",
-          r"\frac{9}{13}",
-          r"\frac{9}{22}",
-          r"\frac{13}{22}",
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-        r"The fraction used is \frac{325,000}{550,000}. Dividing the numerator and denominator by 25,000 gives \frac{13}{22}.",
-      ),
-      QuizQuestion(
-        question:
-        r"6. What fraction of 3 weeks is 18 days?          (BECE 2020 Q14)",
-        options: [
-          r"\frac{6}{7}",
-          r"\frac{1}{6}",
-          r"\frac{6}{11}",
-          r"\frac{9}{11}",
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-        r"Three weeks is 3 \times 7 = 21 days. Therefore, the required fraction is \frac{18}{21} = \frac{6}{7}.",
-      ),
-      QuizQuestion(
-        question:
-        r"7. If a trader made a profit of 10\% in selling a shirt for GH\phi44.00, find the cost price.          (BECE 2022 Q3)",
-        options: [
-          r"GH\phi38.50",
-          r"GH\phi39.60",
-          r"GH\phi40.00",
-          r"GH\phi48.40",
-        ],
-        correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-        r"The selling price is 110\% of the cost price. Therefore, the cost price is \frac{44 \times 100}{110} = GH\phi40.00.",
-      ),
-      QuizQuestion(
-        question:
-        r"8. Express 0.725 as a fraction in its lowest terms.          (BECE 2020 Q38)",
-        options: [
-          r"\frac{19}{10}",
-          r"\frac{21}{10}",
-          r"\frac{29}{40}",
-          r"\frac{39}{40}",
+          "9 km",
+          "16 km",
+          "18 km",
+          "19 km",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"0.725 = \frac{725}{1000}. Dividing the numerator and denominator by 25 gives \frac{29}{40}.",
+        "Since 1 cm represents 4.5 km, 4 cm represents 4 × 4.5 = 18 km.",
       ),
+
       QuizQuestion(
         question:
-        r"9. Simplify (1\frac{1}{2} - \frac{5}{6}) \times \frac{9}{10}.          (BECE 2023 Q10)",
+        "2. Ten students in Kwamekrom J.S.S. took 9 days to weed the school compound. How long would 15 students take to weed the same compound if they worked at the same rate?          (BECE 1993 Q10)",
         options: [
-          r"\frac{3}{10}",
-          r"\frac{1}{5}",
-          r"\frac{3}{5}",
-          r"\frac{2}{3}",
+          "5 days",
+          "6 days",
+          r"13\frac{1}{2} days",
+          "14 days",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 10 × 9 = 90 student-days. Therefore, 15 students will take 90 ÷ 15 = 6 days.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. Ama covered a distance of 100 m in 12 seconds. Express her speed in kilometres per hour.          (BECE 2002A Q16)",
+        options: [
+          "5 km/h",
+          "10 km/h",
+          "20 km/h",
+          "30 km/h",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Her speed is 100 ÷ 12 metres per second. Converting to kilometres per hour gives (100 ÷ 12) × 3.6 = 30 km/h.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. A map of a large town is drawn to the scale of 1:100,000. What distance in kilometres is represented by a line segment 4 cm long on the map?          (BECE 1991 Q20)",
+        options: [
+          "0.04 km",
+          "0.4 km",
+          "4 km",
+          "40 km",
         ],
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"Convert 1\frac{1}{2} to \frac{3}{2}. Then \frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}. Therefore, \frac{2}{3} \times \frac{9}{10} = \frac{3}{5}.",
+        "At a scale of 1:100,000, 1 cm represents 100,000 cm, which is 1 km. Therefore, 4 cm represents 4 km.",
       ),
 
       QuizQuestion(
         question:
-        r"10. John's uncle sent him \phi120,000.00 through a bank which charges 5\% commission. How much commission was paid?          (BECE 2002A Q11)",
+        "5. It takes 15 men 48 days to weed a plot of land. How many men can weed the same plot of land in 16 days if they work at the same rate?          (BECE 2000 Q18)",
         options: [
-          r"\phi5,000.00",
-          r"\phi6,000.00",
-          r"\phi7,000.00",
-          r"\phi7,200.00",
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-        r"The commission is 5\% of \phi120,000.00. Therefore, the commission is \frac{5}{100} \times \phi120,000.00 = \phi6,000.00.",
-      ),
-
-      QuizQuestion(
-        question:
-        r"11. An article which cost GH\phi600.00 was sold at a discount of 10\%. Find the selling price.          (BECE 2024 Q22)",
-        options: [
-          r"GH\phi60.00",
-          r"GH\phi540.00",
-          r"GH\phi504.00",
-          r"GH\phi560.00",
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-        r"The discount is 10\% of GH\phi600.00, which is GH\phi60.00. Therefore, the selling price is GH\phi600.00 - GH\phi60.00 = GH\phi540.00.",
-      ),
-
-      QuizQuestion(
-        question:
-        r"12. A man bought a car for \phi5.5 million and sold it for \phi6.5 million. Find the percentage gain.          (BECE 1998 Q13)",
-        options: [
-          r"1.54\%",
-          r"1.82\%",
-          r"15.38\%",
-          r"18.18\%",
+          "5",
+          "18",
+          "32",
+          "45",
         ],
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The gain is \phi6.5 million - \phi5.5 million = \phi1 million. The percentage gain is \frac{1}{5.5} \times 100\% = 18.18\%, approximately.",
+        "The total work is 15 × 48 = 720 man-days. The number of men required is 720 ÷ 16 = 45.",
       ),
 
       QuizQuestion(
         question:
-        r"13. A book was sold for GH\phi48.00 at a profit of 20\%. Find the cost price.          (BECE 2023 Q18)",
+        "6. Express 34 m 5 cm 6 mm in millimetres.          (BECE 1995 Q4)",
         options: [
-          r"GH\phi40.00",
-          r"GH\phi57.60",
-          r"GH\phi60.00",
-          r"GH\phi38.40",
+          "340506 mm",
+          "34506 mm",
+          "34056 mm",
+          "304607 mm",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. The length of a field, 1.2 km long, is represented on a map by a line 40 mm long. What is the scale of the map?          (BECE 1990 Q38)",
+        options: [
+          "1:100",
+          "1:300",
+          "1:1000",
+          "1:30000",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Convert 1.2 km to millimetres: 1.2 km = 1,200,000 mm. The scale is 40:1,200,000, which simplifies to 1:30,000.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. The scale of a map is 1:100,000. What is the distance in kilometres between two towns 4 cm apart on the map?          (BECE 1997 Q30)",
+        options: [
+          "0.04",
+          "0.4",
+          "4.0",
+          "400",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "A scale of 1:100,000 means 1 cm represents 1 km. Therefore, 4 cm represents 4 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. Three boys weeded a piece of land in 4 hours. How long would it take 18 boys to weed the same piece of land, working at the same rate?          (BECE 1994 Q33)",
+        options: [
+          r"\frac{2}{3} hr",
+          r"3\frac{1}{3} hr",
+          r"4\frac{2}{3} hr",
+          "22 hr",
         ],
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"The selling price is 120\% of the cost price. Therefore, the cost price is \frac{48 \times 100}{120} = GH\phi40.00.",
+        r"The total work is 3 × 4 = 12 boy-hours. Therefore, 18 boys will take \frac{12}{18} = \frac{2}{3} hour.",
       ),
 
       QuizQuestion(
         question:
-        r"14. A trader received a commission of 25\% on the sales he made in a month. His commission was \phi180,000.00. Find his total sales for the month.          (BECE 1999 Q27)",
+        r"10. A car is travelling at 40 km per hour. How far does it travel in 2\frac{1}{2} hours?          (BECE 1999 Q16)",
         options: [
-          r"\phi135,000.00",
-          r"\phi150,000.00",
-          r"\phi240,000.00",
-          r"\phi720,000.00",
+          "16 km",
+          "80 km",
+          "90 km",
+          "100 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Distance = speed × time. Therefore, the distance is 40 × 2\frac{1}{2} = 40 × 2.5 = 100 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "11. Thirty men can dig a pit in 21 days. How many days will 14 men take to dig the pit, working at the same rate?          (BECE 2002B Q23)",
+        options: [
+          "20",
+          "25",
+          "30",
+          "45",
         ],
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Since \phi180,000.00 is 25\% of the total sales, the total sales are \frac{180,000 \times 100}{25} = \phi720,000.00.",
+        "The total work is 30 × 21 = 630 man-days. Therefore, 14 men will take 630 ÷ 14 = 45 days.",
       ),
 
       QuizQuestion(
         question:
-        r"15. The marked price of a radio set is \phi450,000.00. A discount of 5\% of the marked price is allowed. What is the selling price of the radio?          (BECE 2000 Q24)",
+        r"12. If \$1 = ¢340.00, what was the cedi value of an article which cost \$6.50?          (BECE 1992 Q11)",
         options: [
-          r"\phi427,000",
-          r"\phi427,500",
-          r"\phi428,571",
-          r"\phi472,500",
+          "¢2,630.00",
+          "¢2,380.00",
+          "¢2,210.00",
+          "¢346.50",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The cedi value is 6.50 × ¢340.00 = ¢2,210.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        "13. On a map, two towns P and Q are 15.5 cm apart. The scale of the map is 1 cm : 4 km. Calculate the actual distance between P and Q.          (BECE 1998 Q14)",
+        options: [
+          "15.5 km",
+          "31 km",
+          "46 km",
+          "62 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Since 1 cm represents 4 km, 15.5 cm represents 15.5 × 4 = 62 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. Eight girls can weed a plot of land in 10 days. How many days will 5 girls take to weed the same plot of land if they work at the same rate?          (BECE 2002A Q13)",
+        options: [
+          "6 days",
+          "8 days",
+          "12 days",
+          "16 days",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 8 × 10 = 80 girl-days. Therefore, 5 girls will take 80 ÷ 5 = 16 days.",
+      ),
+
+      QuizQuestion(
+        question:
+        "15. A man travelled a distance of 1.2 km in 30 minutes. What distance can he cover in 55 minutes, travelling at the same speed?          (BECE 1995 Q39)",
+        options: [
+          "1.375 km",
+          "2.02 km",
+          "2.2 km",
+          "12.02 km",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The distance covered per minute is 1.2 ÷ 30 km. In 55 minutes, he covers (1.2 ÷ 30) × 55 = 2.2 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "16. A car travels 72 kilometres in an hour. Find its speed in metres per second.          (BECE 2000 Q36)",
+        options: [
+          r"5 \text{ ms}^{-1}",
+          r"20 \text{ ms}^{-1}",
+          r"50 \text{ ms}^{-1}",
+          r"2000 \text{ ms}^{-1}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 72 ÷ 3.6 = 20 \text{ ms}^{-1}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "17. A car travelled a distance of 50 km in an hour. What distance did it travel in 30 minutes at the same speed?          (BECE 1993 Q13)",
+        options: [
+          "1,500 km",
+          "100 km",
+          "80 km",
+          "25 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Thirty minutes is half an hour. Therefore, the distance travelled is 50 ÷ 2 = 25 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "18. Express 34 m 5 cm and 6 mm in millimetres.          (BECE 2002A Q40)",
+        options: [
+          "3,456 mm",
+          "34,056 mm",
+          "34,506 mm",
+          "340,506 mm",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The discount is 5\% of \phi450,000.00, which is \phi22,500.00. Therefore, the selling price is \phi450,000.00 - \phi22,500.00 = \phi427,500.00.",
+        "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
       ),
 
       QuizQuestion(
         question:
-        r"16. Araba bought an electric cooker for \phi540,000.00 at a discount of 10\%. Find the actual price of the electric cooker.          (BECE 2001 Q22)",
+        "19. A car travels at an average speed of 45 km per hour. What distance does it cover in 12 hours?          (BECE 2003 Q14)",
         options: [
-          r"\phi486,000.00",
-          r"\phi496,000.00",
-          r"\phi594,000.00",
-          r"\phi600,000.00",
+          "450 km",
+          "480 km",
+          "540 km",
+          "500 km",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Distance = speed × time. Therefore, the distance covered is 45 × 12 = 540 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "20. A train travels at a speed of 80 km per hour. How long will it take to travel a distance of 320 km?          (BECE 2006 Q11)",
+        options: [
+          "2 hours",
+          "3 hours",
+          "4 hours",
+          "5 hours",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Time = distance ÷ speed. Therefore, the time taken is 320 ÷ 80 = 4 hours.",
+      ),
+
+      QuizQuestion(
+        question:
+        "21. Express 6 days is to 3 weeks as a ratio in its simplest form.          (BECE 2008 Q24)",
+        options: [
+          "1:2",
+          "2:1",
+          "2:7",
+          "7:2",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Three weeks is 21 days. Therefore, the ratio is 6:21, which simplifies to 2:7.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. A van travels 154 km in 1\frac{3}{4} hours. Find its speed in km/h.          (BECE 2009 Q18)",
+        options: [
+          "77 km/h",
+          "88 km/h",
+          "100 km/h",
+          "269.5 km/h",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Speed = distance ÷ time. Since 1\frac{3}{4} = 1.75, the speed is 154 ÷ 1.75 = 88 km/h.",
+      ),
+
+      QuizQuestion(
+        question:
+        "23. It takes 6 students 1 hour to sweep their school compound. How long will it take 15 students to sweep the same compound?          (BECE 2010 Q13)",
+        options: [
+          "24 minutes",
+          "12 minutes",
+          "3 hours",
+          "2 hours",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 6 student-hours. For 15 students, the time is 6 ÷ 15 hours, which is 0.4 hour. Converting to minutes gives 0.4 × 60 = 24 minutes.",
+      ),
+
+      QuizQuestion(
+        question:
+        "24. A map is drawn to the scale 1:100,000. What distance in kilometres is represented by 5 cm on the map?          (BECE 2012 Q26)",
+        options: [
+          "0.5 km",
+          "5.0 km",
+          "50.0 km",
+          "500.0 km",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "At a scale of 1:100,000, 1 cm represents 1 km. Therefore, 5 cm represents 5 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"25. A watch gains 1\frac{1}{2} minutes per hour. What is the total time gained from 12 noon to 12 midnight in a day?          (BECE 2012 Q29)",
+        options: [
+          "9 minutes",
+          "15 minutes",
+          "18 minutes",
+          "36 minutes",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"From 12 noon to 12 midnight is 12 hours. Therefore, the time gained is 12 × 1\frac{1}{2} = 18 minutes.",
+      ),
+
+      QuizQuestion(
+        question:
+        "26. A printing machine prints 600 books in 3 hours. How many books will the machine print in 5 hours?          (BECE 2012 Q30)",
+        options: [
+          "360 books",
+          "1000 books",
+          "1800 books",
+          "3000 books",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The machine prints 600 ÷ 3 = 200 books per hour. In 5 hours, it prints 200 × 5 = 1000 books.",
+      ),
+
+      QuizQuestion(
+        question:
+        "27. A car uses 150 litres of petrol in 45 minutes. How many litres of petrol will it use in 1 hour?          (BECE 2013 Q8)",
+        options: [
+          "375 litres",
+          "230 litres",
+          "225 litres",
+          "200 litres",
         ],
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"After a 10\% discount, Araba paid 90\% of the actual price. Therefore, the actual price is \frac{540,000 \times 100}{90} = \phi600,000.00.",
+        "One hour is 60 minutes. The petrol used is (150 ÷ 45) × 60 = 200 litres.",
+      ),
+
+      QuizQuestion(
+        question:
+        "28. Mame Esi rides her bicycle to school and back every day. If the distance from her home to the school is 2345 m, how many kilometres does she cover every day?          (BECE 2013 Q21)",
+        options: [
+          "4.98 km",
+          "4.69 km",
+          "3.96 km",
+          "3.68 km",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The return distance is 2345 × 2 = 4690 m. Since 1000 m = 1 km, she covers 4.69 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "29. If 5 boys took 14 days to cultivate a piece of land, how long will it take 7 boys working at the same rate to cultivate the land?          (BECE 2015 Q12)",
+        options: [
+          "14 days",
+          "12 days",
+          "10 days",
+          "8 days",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 5 × 14 = 70 boy-days. Therefore, 7 boys will take 70 ÷ 7 = 10 days.",
+      ),
+
+      QuizQuestion(
+        question:
+        "30. Fifteen boys took 12 hours to weed a plot of land. If nine boys work at the same rate, how long will it take them to weed the plot of land?          (BECE 2016 Q13)",
+        options: [
+          "6 hours",
+          r"7\frac{1}{5} hours",
+          r"11\frac{1}{5} hours",
+          "20 hours",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 15 × 12 = 180 boy-hours. Therefore, 9 boys will take 180 ÷ 9 = 20 hours.",
+      ),
+
+      QuizQuestion(
+        question:
+        "31. A man travelled a distance of 1.5 km in 30 minutes. What distance can he cover in 50 minutes, travelling at the same speed?          (BECE 2017 Q22)",
+        options: [
+          "2.2 km",
+          "2.5 km",
+          "2.8 km",
+          "3.2 km",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The distance covered per minute is 1.5 ÷ 30 km. In 50 minutes, he covers (1.5 ÷ 30) × 50 = 2.5 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "32. Eight men can do a piece of work in 12 days. How long will 6 men take to do the same work if they work at the same rate?          (BECE 2018 Q15)",
+        options: [
+          "14 days",
+          "16 days",
+          "18 days",
+          "20 days",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        "The total work is 8 × 12 = 96 man-days. Therefore, 6 men will take 96 ÷ 6 = 16 days.",
+      ),
+
+      QuizQuestion(
+        question:
+        "33. A man travelled a distance of 8 km in an hour. How long will it take him to cover a distance of 12 km, travelling at the same speed?          (BECE 2019 Q21)",
+        options: [
+          r"1\frac{1}{5} hrs",
+          r"1\frac{1}{2} hrs",
+          r"1\frac{1}{4} hrs",
+          "2 hrs",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Time = distance ÷ speed. Therefore, the time is 12 ÷ 8 = \frac{3}{2} = 1\frac{1}{2} hours.",
+      ),
+
+      QuizQuestion(
+        question:
+        "34. A car used 8 hours to travel from town A to town B at a speed of 18 km/h. Find the distance.          (BECE 2020 Q19)",
+        options: [
+          "22.5 km",
+          "135 km",
+          "140 km",
+          "144 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Distance = speed × time. Therefore, the distance is 18 × 8 = 144 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"35. On a map, \frac{1}{3} cm represents 5 km. If two towns A and B are 18 cm apart on the map, what is the actual distance between them?          (BECE 2021 Q7)",
+        options: [
+          "27 km",
+          "30 km",
+          "240 km",
+          "270 km",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"If \frac{1}{3} cm represents 5 km, then 1 cm represents 15 km. Therefore, 18 cm represents 18 × 15 = 270 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "36. A car covered a distance of 150 km at a speed of 18 km/h. Find the time taken.          (BECE 2021 Q40)",
+        options: [
+          "7 hours 33 minutes",
+          "7 hours 53 minutes",
+          "8 hours 13 minutes",
+          "8 hours 20 minutes",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Time = distance ÷ speed = \frac{150}{18} = 8\frac{1}{3} hours. One-third of an hour is 20 minutes, so the time is 8 hours 20 minutes.",
+      ),
+
+      QuizQuestion(
+        question:
+        "37. A car travels 36 kilometres in an hour. Find its speed in metres per second.          (BECE 2022 Q17)",
+        options: [
+          r"10 \text{ ms}^{-1}",
+          r"20 \text{ ms}^{-1}",
+          r"100 \text{ ms}^{-1}",
+          r"200 \text{ ms}^{-1}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 36 ÷ 3.6 = 10 \text{ ms}^{-1}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "38. Convert 12.03 metres to centimetres.          (BECE 2023 Q20)",
+        options: [
+          "0.1203 cm",
+          "120.3 cm",
+          "12030 cm",
+          "1203 cm",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "Since 1 metre equals 100 centimetres, 12.03 × 100 = 1203 cm.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"39. Given that 1 kilometre = \frac{5}{8} mile, what is 240 miles in kilometres?          (BECE 2023 Q34)",
+        options: [
+          "384 km",
+          "190 km",
+          "150 km",
+          "390 km",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"If 1 kilometre equals \frac{5}{8} mile, then 1 mile equals \frac{8}{5} kilometres. Therefore, 240 miles equals 240 × \frac{8}{5} = 384 km.",
+      ),
+
+      QuizQuestion(
+        question:
+        "40. A farmer feeds 20 goats with 500 kg of cassava. How many goats can be fed with 200 kg of cassava?          (BECE 2025 Q14)",
+        options: [
+          "2",
+          "5",
+          "8",
+          "10",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The number of goats is directly proportional to the quantity of cassava. Therefore, the number is (20 × 200) ÷ 500 = 8 goats.",
       ),
     ],
   ),
