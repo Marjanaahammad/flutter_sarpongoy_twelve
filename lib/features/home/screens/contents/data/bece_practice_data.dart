@@ -1717,7 +1717,6 @@ final Map<String, PracticeModel> becePracticeData = {
         r"6.4 \times 10^1",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         r"Question 3: Evaluate \frac{2^7 \times 3^4 \times 5^3}{2^3 \times 3^2 \times 5^2}, leaving your answer in standard form. "
@@ -1752,7 +1751,6 @@ final Map<String, PracticeModel> becePracticeData = {
         r"7.20 \times 10^2",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         r"Question 4: Evaluate \frac{0.035 \times 1.02}{0.00015}, leaving the answer in standard form."
@@ -1800,7 +1798,6 @@ final Map<String, PracticeModel> becePracticeData = {
         r"2.38 \times 10^2",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         r"Question 5: Evaluate \frac{4.56 \times 3.6}{0.12} and leave your answer in standard form."
@@ -1838,7 +1835,6 @@ final Map<String, PracticeModel> becePracticeData = {
         r"1.368 \times 10^2",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 6: Find the difference between the product of 2.5 and 7.5 and the sum of 2.75 and 9.55.\n"
@@ -1857,7 +1853,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "18.75 - 12.30 = 6.45",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         r"Question 7: Simplify \frac{0.084 \times 0.81}{0.027 \times 0.04}, leaving the answer in standard form. "
@@ -1882,7 +1877,7 @@ final Map<String, PracticeModel> becePracticeData = {
         "\n\n"
             "⦿ Simplify the numbers through direct division and common factors:\n"
         r"\frac{81}{27} = 3"
-        "\n"
+        "\n\n"
         r"\frac{84}{4} = 21"
         "\n"
         r"Multiply remaining terms: 21 \times 3 = 63"
@@ -2116,6 +2111,394 @@ final Map<String, PracticeModel> becePracticeData = {
         "\n\n"
             "⦿ Shift the decimal point position to finish formatting the final answer into standard form layout:\n"
         r"2.8 \times 10^1 \times 10^3 = 2.8 \times 10^4",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss3 - Fractions, Decimals and Percentages": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1\n"
+            "Olu bought a radio for φ65,000.00. After one year the radio was valued at 75% of the cost price.\n"
+            "(a) What was the value of the radio after one year?\n"
+            "(b) If he sold the radio for φ55,700.00, calculate his profit or loss over the cost price.\n"
+            "(BECE 1993 Q1)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Identify cost baseline): State the original cost price of the radio, which is φ65,000.00.\n\n"
+            "⦿ Point 2 (State percentage drop value): Identify that the new value is 75% of the initial cost price.\n\n"
+            "⦿ Point 3 (Calculate absolute value): Set up the value product relation:\n"
+        r"\text{Value} = \frac{75}{100} \times \phi65,000.00 = 75 \times \phi650.00 = \phi48,750.00"
+        "\n\n"
+            "⦿ Point 4 (Compare selling metrics): State the subsequent selling price of φ55,700.00 and compare it with the original cost price (φ65,000.00). Because the selling price is less than the cost price, a net financial loss occurred relative to the initial cost.\n\n"
+            "⦿ Point 5 (Deduct for final loss outcome): Calculate the absolute loss by subtracting the selling price from the cost price:\n"
+        r"\text{Loss} = \phi65,000.00 - \phi55,700.00 = \phi9,250.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2\n"
+            "Mansah earns a salary of φ10,000.00 per month as a sales girl. In addition to the salary, she is given a commission of 1.5% of whatever sales she makes in a month. In January, this year, she makes sales of φ7,500,000.00. What is the total amount Mansah earned at the end of January?\n"
+            "(BECE 1995 Q3a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Establish base figures): Note the fixed monthly basic salary parameter (φ10,000.00) and the variable incentive commission rate (1.5%).\n\n"
+            "⦿ Point 2 (Note seasonal reference activity): State the volume of sales recorded by Mansah during January, which equals φ7,500,000.00.\n\n"
+            "⦿ Point 3 (Evaluate total commission accrued): Compute the specific commission earned from the volume of sales:\n"
+        r"\text{Commission} = \frac{1.5}{100} \times \phi7,500,000.00 = 1.5 \times \phi75,000.00 = \phi112,500.00"
+        "\n\n"
+            "⦿ Point 4 (Consolidate total compensation package): Add the fixed monthly basic salary to the calculated commission components to compute the absolute month-end compensation:\n"
+        r"\text{Total Earnings} = \phi10,000.00 + \phi112,500.00 = \phi122,500.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3\n"
+            "A woman sold an article for φ200,000.00 and made a profit of 25%. Find the cost price of the article.\n"
+            "(BECE 1998 Q3b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Set variable definitions): Note the final transaction selling price (φ200,000.00) alongside the declared profit margin (25%).\n\n"
+            "⦿ Point 2 (Formulate proportion equations): Frame the cost price as the 100% baseline value. Express the total transaction selling price as a relative percentage value:\n"
+        r"\text{Selling Price Percentage} = 100\% + 25\% = 125\%"
+        "\n\n"
+            "⦿ Point 3 (Equate relative value constants): Relate the transaction value directly to its percentage representation, establishing that 125% = φ200,000.00.\n\n"
+            "⦿ Point 4 (Compute initial resource cost): Solve for the original 100% base cost price value using ratio methods:\n"
+        r"\text{Cost Price} = \frac{100\%}{125\%} \times \phi200,000.00 = \frac{4}{5} \times \phi200,000.00 = \phi160,000.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 4\n"
+            "A trader paid φ1,500.00 for 6 drinking cups. One of the cups got broken. He sold the remaining 5, making a profit of 10%. Calculate,\n"
+            "(i) the cost price of each of the six cups.\n"
+            "(ii) the selling price of each of the five cups.\n"
+            "(iii) the profit made on each cup sold.\n"
+            "(BECE 1999 Q1b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Isolate single unit baseline cost): Set the aggregate bulk cost configuration (φ1,500.00 for 6 units). Divide the aggregate cost by 6 to find the single-item cost price:\n"
+        r"\text{Cost price per individual cup} = \frac{\phi1,500.00}{6} = \phi250.00"
+        "\n\n"
+            "⦿ Point 2 (Evaluate bulk revenue requirements): Note that the total cost baseline is φ1,500.00 and a profit of 10% is required. Calculate the gross revenue target (110% of total cost):\n"
+        r"\text{Gross Revenue Target} = \frac{110}{100} \times \phi1,500.00 = \phi1,650.00"
+        "\n\n"
+            "⦿ Point 3 (Distribute revenue over sound assets): Divide the calculated gross revenue target across the remaining 5 intact cups to find the required individual selling price:\n"
+        r"\text{Selling price per individual cup} = \frac{\phi1,650.00}{5} = \phi330.00"
+        "\n\n"
+            "⦿ Point 4 (Determine individual net gains): Deduct the original single-item cost price from the final single-item selling price to isolate the profit made per unit sold:\n"
+        r"\text{Profit per individual cup} = \phi330.00 - \phi250.00 = \phi80.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5\n"
+        r"Simplify 2\frac{1}{4} \div (3\frac{1}{8} - 1\frac{1}{12})"
+        "\n"
+            "(BECE 2002A Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert to improper fractions): Convert all mixed fractions into improper fractions:\n"
+        r"2\frac{1}{4} = \frac{9}{4}, \quad 3\frac{1}{8} = \frac{25}{8}, \quad 1\frac{1}{12} = \frac{13}{12}"
+        "\n\n"
+            "⦿ Point 2 (Apply operational precedence rules): Substitute the values back into the expression:\n"
+        r"\frac{9}{4} \div (\frac{25}{8} - \frac{13}{12})"
+        "\n\n"
+            "⦿ Point 3 (Find common denominator for inner bracket): Find the Lowest Common Multiple (LCM) of 8 and 12, which is 24. Perform the subtraction inside the bracket:\n"
+        r"\frac{25}{8} - \frac{13}{12} = \frac{3(25) - 2(13)}{24} = \frac{75 - 26}{24} = \frac{49}{24}"
+        "\n\n"
+            "⦿ Point 4 (Apply reciprocal multiplication operations): Substitute the result back and rewrite the division as multiplication by the reciprocal of the divisor fraction:\n"
+        r"\frac{9}{4} \div \frac{49}{24} = \frac{9}{4} \times \frac{24}{49}"
+        "\n\n"
+            "⦿ Point 5 (Simplify cross-fraction terms): Simplify the factors (24 ÷ 4 = 6) and multiply across to find the final mixed fraction value:\n"
+        r"\frac{9}{1} \times \frac{6}{49} = \frac{54}{49} = 1\frac{5}{49}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6\n"
+        r"Simplify 2\frac{1}{2} \div (3\frac{1}{2} - 1\frac{1}{4})"
+        "\n"
+            "(BECE 2002B Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert to improper fractions): Transform the mixed terms into improper fractions:\n"
+        r"2\frac{1}{2} = \frac{5}{2}, \quad 3\frac{1}{2} = \frac{7}{2}, \quad 1\frac{1}{4} = \frac{5}{4}"
+        "\n\n"
+            "⦿ Point 2 (Structure primary layout): Arrange the operational expressions sequentially:\n"
+        r"\frac{5}{2} \div (\frac{7}{2} - \frac{5}{4})"
+        "\n\n"
+            "⦿ Point 3 (Execute internal bracket terms): Use an LCM of 4 to evaluate the inner bracket subtraction:\n"
+        r"\frac{7}{2} - \frac{5}{4} = \frac{2(7) - 1(5)}{4} = \frac{14 - 5}{4} = \frac{9}{4}"
+        "\n\n"
+            "⦿ Point 4 (Invert divisor and evaluate): Change the division operator into multiplication by inverting the divisor fraction:\n"
+        r"\frac{5}{2} \div \frac{9}{4} = \frac{5}{2} \times \frac{4}{9}"
+        "\n\n"
+            "⦿ Point 5 (Reduce terms to final form): Simplify the cross factors (4 ÷ 2 = 2) and express the final improper fraction as a mixed number:\n"
+        r"\frac{5}{1} \times \frac{2}{9} = \frac{10}{9} = 1\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7\n"
+        r"A factory increased its production by 22\frac{1}{2}\% and produced 49,000 tonnes. How many tonnes was it producing before?"
+        "\n"
+            "(BECE 2004 Q4c)",
+        answer:
+        "Correct Answer:\n"
+        r"⦿ Point 1 (Note target outcomes): State the final post-increase output value (49,000 tonnes) and the scale of growth (22\frac{1}{2}\% = 22.5\%)."
+        "\n\n"
+            "⦿ Point 2 (Establish proportional reference points): Set the original production volume baseline to 100%. Calculate the new total percentage representation value:\n"
+        r"\text{New Percentage Level} = 100\% + 22.5\% = 122.5\%"
+        "\n\n"
+        r"⦿ Point 3 (Map percentage values to scale dimensions): Define the direct relation where 122.5\% = 49,000 tonnes."
+        "\n\n"
+            "⦿ Point 4 (Isolate initial capacity scales): Calculate the original production capacity (100%) by evaluating the inverse ratio:\n"
+        r"\text{Initial Production} = \frac{100\%}{122.5\%} \times 49,000 tonnes = \frac{100}{122.5} \times 49,000 = 40,000 tonnes",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8\n"
+        r"Simplify (2\frac{1}{4} - 1\frac{5}{8}) \div 3\frac{7}{16}"
+        "\n"
+            "(BECE 2005 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert fractions to improper forms): Rewrite the components as improper fractions:\n"
+        r"2\frac{1}{4} = \frac{9}{4}, \quad 1\frac{5}{8} = \frac{13}{8}, \quad 3\frac{7}{16} = \frac{55}{16}"
+        "\n\n"
+            "⦿ Point 2 (Set up operational strings): Place the simplified values into the bracketed statement format:\n"
+        r"(\frac{9}{4} - \frac{13}{8}) \div \frac{55}{16}"
+        "\n\n"
+            "⦿ Point 3 (Resolve primary group brackets): Calculate the inner bracket subtraction using an LCM of 8:\n"
+        r"\frac{9}{4} - \frac{13}{8} = \frac{2(9) - 1(13)}{8} = \frac{18 - 13}{8} = \frac{5}{8}"
+        "\n\n"
+            "⦿ Point 4 (Apply reciprocal operation inversion rules): Convert the remaining outer division operation into multiplication by taking the reciprocal of the divisor fraction:\n"
+        r"\frac{5}{8} \div \frac{55}{16} = \frac{5}{8} \times \frac{16}{55}"
+        "\n\n"
+            "⦿ Point 5 (Reduce factors to lowest forms): Cancel out common factors across numerators and denominators (16 ÷ 8 = 2 and 55 ÷ 5 = 11) to obtain the final simplified answer:\n"
+        r"\frac{1}{1} \times \frac{2}{11} = \frac{2}{11}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9\n"
+            "A trader sold 250 articles for φ525,000.00 at a profit of 25%.\n"
+            "i) Calculate the cost price of each article.\n"
+            "ii) If the trader had wanted 45% profit on the cost price, how much should he have sold each of the articles?\n"
+            "(BECE 2006 Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Document bulk variables): List the parameters for the item count (250 articles), total sales revenue (φ525,000.00), and the profit margin achieved (25%).\n\n"
+            "⦿ Point 2 (Evaluate gross baseline cost): Since the gross revenue represents 125% of the original cost, calculate the total cost price for all items:\n"
+        r"\text{Total Cost Price} = \frac{100\%}{125\%} \times \phi525,000.00 = \frac{100}{125} \times \phi525,000.00 = \phi420,000.00"
+        "\n\n"
+            "⦿ Point 3 (Find individual unit cost prices): Divide the total cost price by the item count to determine the individual cost price per article:\n"
+        r"\text{Cost Price per Article} = \frac{\phi420,000.00}{250} = \phi1,680.00"
+        "\n\n"
+            "⦿ Point 4 (Apply alternative profit targets): Identify the new target profit margin profile of 45%. This means the target unit selling price must represent 145% of its original individual cost price.\n\n"
+            "⦿ Point 5 (Compute updated item pricing): Calculate the new individual target selling price using the unit cost baseline:\n"
+        r"\text{Target Selling Price per Article} = \frac{145}{100} \times \phi1,680.00 = 1.45 \times \phi1,680.00 = \phi2,436.00",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss4 - Ratios and Proportion": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1\n"
+            "Olu bought a radio for φ65,000.00. After one year the radio was valued at 75% of the cost price.\n"
+            "(a) What was the value of the radio after one year?\n"
+            "(b) If he sold the radio for φ55,700.00, calculate his profit or loss over the cost price.\n"
+            "(BECE 1993 Q1)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Identify cost baseline): State the original cost price of the radio, which is φ65,000.00.\n\n"
+            "⦿ Point 2 (State percentage drop value): Identify that the new value is 75% of the initial cost price.\n\n"
+            "⦿ Point 3 (Calculate absolute value): Set up the value product relation:\n"
+        r"\text{Value} = \frac{75}{100} \times \phi65,000.00 = 75 \times \phi650.00 = \phi48,750.00"
+        "\n\n"
+            "⦿ Point 4 (Compare selling metrics): State the subsequent selling price of φ55,700.00 and compare it with the original cost price (φ65,000.00). Because the selling price is less than the cost price, a net financial loss occurred relative to the initial cost.\n\n"
+            "⦿ Point 5 (Deduct for final loss outcome): Calculate the absolute loss by subtracting the selling price from the cost price:\n"
+        r"\text{Loss} = \phi65,000.00 - \phi55,700.00 = \phi9,250.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2\n"
+            "Mansah earns a salary of φ10,000.00 per month as a sales girl. In addition to the salary, she is given a commission of 1.5% of whatever sales she makes in a month. In January, this year, she makes sales of φ7,500,000.00. What is the total amount Mansah earned at the end of January?\n"
+            "(BECE 1995 Q3a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Establish base figures): Note the fixed monthly basic salary parameter (φ10,000.00) and the variable incentive commission rate (1.5%).\n\n"
+            "⦿ Point 2 (Note seasonal reference activity): State the volume of sales recorded by Mansah during January, which equals φ7,500,000.00.\n\n"
+            "⦿ Point 3 (Evaluate total commission accrued): Compute the specific commission earned from the volume of sales:\n"
+        r"\text{Commission} = \frac{1.5}{100} \times \phi7,500,000.00 = 1.5 \times \phi75,000.00 = \phi112,500.00"
+        "\n\n"
+            "⦿ Point 4 (Consolidate total compensation package): Add the fixed monthly basic salary to the calculated commission components to compute the absolute month-end compensation:\n"
+        r"\text{Total Earnings} = \phi10,000.00 + \phi112,500.00 = \phi122,500.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3\n"
+            "A woman sold an article for φ200,000.00 and made a profit of 25%. Find the cost price of the article.\n"
+            "(BECE 1998 Q3b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Set variable definitions): Note the final transaction selling price (φ200,000.00) alongside the declared profit margin (25%).\n\n"
+            "⦿ Point 2 (Formulate proportion equations): Frame the cost price as the 100% baseline value. Express the total transaction selling price as a relative percentage value:\n"
+        r"\text{Selling Price Percentage} = 100\% + 25\% = 125\%"
+        "\n\n"
+            "⦿ Point 3 (Equate relative value constants): Relate the transaction value directly to its percentage representation, establishing that 125% = φ200,000.00.\n\n"
+            "⦿ Point 4 (Compute initial resource cost): Solve for the original 100% base cost price value using ratio methods:\n"
+        r"\text{Cost Price} = \frac{100\%}{125\%} \times \phi200,000.00 = \frac{4}{5} \times \phi200,000.00 = \phi160,000.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 4\n"
+            "A trader paid φ1,500.00 for 6 drinking cups. One of the cups got broken. He sold the remaining 5, making a profit of 10%. Calculate,\n"
+            "(i) the cost price of each of the six cups.\n"
+            "(ii) the selling price of each of the five cups.\n"
+            "(iii) the profit made on each cup sold.\n"
+            "(BECE 1999 Q1b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Isolate single unit baseline cost): Set the aggregate bulk cost configuration (φ1,500.00 for 6 units). Divide the aggregate cost by 6 to find the single-item cost price:\n"
+        r"\text{Cost price per individual cup} = \frac{\phi1,500.00}{6} = \phi250.00"
+        "\n\n"
+            "⦿ Point 2 (Evaluate bulk revenue requirements): Note that the total cost baseline is φ1,500.00 and a profit of 10% is required. Calculate the gross revenue target (110% of total cost):\n"
+        r"\text{Gross Revenue Target} = \frac{110}{100} \times \phi1,500.00 = \phi1,650.00"
+        "\n\n"
+            "⦿ Point 3 (Distribute revenue over sound assets): Divide the calculated gross revenue target across the remaining 5 intact cups to find the required individual selling price:\n"
+        r"\text{Selling price per individual cup} = \frac{\phi1,650.00}{5} = \phi330.00"
+        "\n\n"
+            "⦿ Point 4 (Determine individual net gains): Deduct the original single-item cost price from the final single-item selling price to isolate the profit made per unit sold:\n"
+        r"\text{Profit per individual cup} = \phi330.00 - \phi250.00 = \phi80.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5\n"
+        r"Simplify 2\frac{1}{4} \div (3\frac{1}{8} - 1\frac{1}{12})"
+        "\n"
+            "(BECE 2002A Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert to improper fractions): Convert all mixed fractions into improper fractions:\n"
+        r"2\frac{1}{4} = \frac{9}{4}, \quad 3\frac{1}{8} = \frac{25}{8}, \quad 1\frac{1}{12} = \frac{13}{12}"
+        "\n\n"
+            "⦿ Point 2 (Apply operational precedence rules): Substitute the values back into the expression:\n"
+        r"\frac{9}{4} \div (\frac{25}{8} - \frac{13}{12})"
+        "\n\n"
+            "⦿ Point 3 (Find common denominator for inner bracket): Find the Lowest Common Multiple (LCM) of 8 and 12, which is 24. Perform the subtraction inside the bracket:\n"
+        r"\frac{25}{8} - \frac{13}{12} = \frac{3(25) - 2(13)}{24} = \frac{75 - 26}{24} = \frac{49}{24}"
+        "\n\n"
+            "⦿ Point 4 (Apply reciprocal multiplication operations): Substitute the result back and rewrite the division as multiplication by the reciprocal of the divisor fraction:\n"
+        r"\frac{9}{4} \div \frac{49}{24} = \frac{9}{4} \times \frac{24}{49}"
+        "\n\n"
+            "⦿ Point 5 (Simplify cross-fraction terms): Simplify the factors (24 ÷ 4 = 6) and multiply across to find the final mixed fraction value:\n"
+        r"\frac{9}{1} \times \frac{6}{49} = \frac{54}{49} = 1\frac{5}{49}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6\n"
+        r"Simplify 2\frac{1}{2} \div (3\frac{1}{2} - 1\frac{1}{4})"
+        "\n"
+            "(BECE 2002B Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert to improper fractions): Transform the mixed terms into improper fractions:\n"
+        r"2\frac{1}{2} = \frac{5}{2}, \quad 3\frac{1}{2} = \frac{7}{2}, \quad 1\frac{1}{4} = \frac{5}{4}"
+        "\n\n"
+            "⦿ Point 2 (Structure primary layout): Arrange the operational expressions sequentially:\n"
+        r"\frac{5}{2} \div (\frac{7}{2} - \frac{5}{4})"
+        "\n\n"
+            "⦿ Point 3 (Execute internal bracket terms): Use an LCM of 4 to evaluate the inner bracket subtraction:\n"
+        r"\frac{7}{2} - \frac{5}{4} = \frac{2(7) - 1(5)}{4} = \frac{14 - 5}{4} = \frac{9}{4}"
+        "\n\n"
+            "⦿ Point 4 (Invert divisor and evaluate): Change the division operator into multiplication by inverting the divisor fraction:\n"
+        r"\frac{5}{2} \div \frac{9}{4} = \frac{5}{2} \times \frac{4}{9}"
+        "\n\n"
+            "⦿ Point 5 (Reduce terms to final form): Simplify the cross factors (4 ÷ 2 = 2) and express the final improper fraction as a mixed number:\n"
+        r"\frac{5}{1} \times \frac{2}{9} = \frac{10}{9} = 1\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7\n"
+        r"A factory increased its production by 22\frac{1}{2}\% and produced 49,000 tonnes. How many tonnes was it producing before?"
+        "\n"
+            "(BECE 2004 Q4c)",
+        answer:
+        "Correct Answer:\n"
+        r"⦿ Point 1 (Note target outcomes): State the final post-increase output value (49,000 tonnes) and the scale of growth (22\frac{1}{2}\% = 22.5\%)."
+        "\n\n"
+            "⦿ Point 2 (Establish proportional reference points): Set the original production volume baseline to 100%. Calculate the new total percentage representation value:\n"
+        r"\text{New Percentage Level} = 100\% + 22.5\% = 122.5\%"
+        "\n\n"
+        r"⦿ Point 3 (Map percentage values to scale dimensions): Define the direct relation where 122.5\% = 49,000 tonnes."
+        "\n\n"
+            "⦿ Point 4 (Isolate initial capacity scales): Calculate the original production capacity (100%) by evaluating the inverse ratio:\n"
+        r"\text{Initial Production} = \frac{100\%}{122.5\%} \times 49,000 tonnes = \frac{100}{122.5} \times 49,000 = 40,000 tonnes",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8\n"
+        r"Simplify (2\frac{1}{4} - 1\frac{5}{8}) \div 3\frac{7}{16}"
+        "\n"
+            "(BECE 2005 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Convert fractions to improper forms): Rewrite the components as improper fractions:\n"
+        r"2\frac{1}{4} = \frac{9}{4}, \quad 1\frac{5}{8} = \frac{13}{8}, \quad 3\frac{7}{16} = \frac{55}{16}"
+        "\n\n"
+            "⦿ Point 2 (Set up operational strings): Place the simplified values into the bracketed statement format:\n"
+        r"(\frac{9}{4} - \frac{13}{8}) \div \frac{55}{16}"
+        "\n\n"
+            "⦿ Point 3 (Resolve primary group brackets): Calculate the inner bracket subtraction using an LCM of 8:\n"
+        r"\frac{9}{4} - \frac{13}{8} = \frac{2(9) - 1(13)}{8} = \frac{18 - 13}{8} = \frac{5}{8}"
+        "\n\n"
+            "⦿ Point 4 (Apply reciprocal operation inversion rules): Convert the remaining outer division operation into multiplication by taking the reciprocal of the divisor fraction:\n"
+        r"\frac{5}{8} \div \frac{55}{16} = \frac{5}{8} \times \frac{16}{55}"
+        "\n\n"
+            "⦿ Point 5 (Reduce factors to lowest forms): Cancel out common factors across numerators and denominators (16 ÷ 8 = 2 and 55 ÷ 5 = 11) to obtain the final simplified answer:\n"
+        r"\frac{1}{1} \times \frac{2}{11} = \frac{2}{11}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9\n"
+            "A trader sold 250 articles for φ525,000.00 at a profit of 25%.\n"
+            "i) Calculate the cost price of each article.\n"
+            "ii) If the trader had wanted 45% profit on the cost price, how much should he have sold each of the articles?\n"
+            "(BECE 2006 Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Document bulk variables): List the parameters for the item count (250 articles), total sales revenue (φ525,000.00), and the profit margin achieved (25%).\n\n"
+            "⦿ Point 2 (Evaluate gross baseline cost): Since the gross revenue represents 125% of the original cost, calculate the total cost price for all items:\n"
+        r"\text{Total Cost Price} = \frac{100\%}{125\%} \times \phi525,000.00 = \frac{100}{125} \times \phi525,000.00 = \phi420,000.00"
+        "\n\n"
+            "⦿ Point 3 (Find individual unit cost prices): Divide the total cost price by the item count to determine the individual cost price per article:\n"
+        r"\text{Cost Price per Article} = \frac{\phi420,000.00}{250} = \phi1,680.00"
+        "\n\n"
+            "⦿ Point 4 (Apply alternative profit targets): Identify the new target profit margin profile of 45%. This means the target unit selling price must represent 145% of its original individual cost price.\n\n"
+            "⦿ Point 5 (Compute updated item pricing): Calculate the new individual target selling price using the unit cost baseline:\n"
+        r"\text{Target Selling Price per Article} = \frac{145}{100} \times \phi1,680.00 = 1.45 \times \phi1,680.00 = \phi2,436.00",
         explanation: "",
       ),
     ],

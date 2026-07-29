@@ -3,1318 +3,6 @@ import '../model/quiz_model.dart';
 /// BECE Past Exam – Objectives (Multiple Choice) questions.
 /// Keyed by the lesson topic string (matches the topic field in Lesson).
 final Map<String, QuizModel> beceQuizData = {
-
-  "Giving and Following Direction": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. 'Turn left at the roundabout.' Which word describes the direction?",
-          options: ["Turn", "At", "Left", "Roundabout"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "'Left' is the directional word indicating which way to turn."),
-      QuizQuestion(
-          question: "2. A good landmark for giving directions should be:",
-          options: [
-            "Moveable and small",
-            "Permanent and easily recognised",
-            "Invisible from the road",
-            "Personal to the speaker"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Landmarks must be permanent and recognisable to everyone."),
-      QuizQuestion(
-          question:
-              "3. 'The school is adjacent to the clinic.' This means the school is:",
-          options: [
-            "Far from the clinic",
-            "Opposite the clinic",
-            "Next to the clinic",
-            "Behind the clinic"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "'Adjacent' means next to or beside."),
-      QuizQuestion(
-          question:
-              "4. Which imperative verb is most commonly used when giving directions?",
-          options: ["Run", "Sing", "Turn", "Jump"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "'Turn' is the standard word for changing direction."),
-      QuizQuestion(
-          question:
-              "5. 'Proceed straight for 200 metres.' The word 'proceed' means:",
-          options: [
-            "Stop",
-            "Continue moving in the same direction",
-            "Turn around",
-            "Change speed"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "'Proceed' means to continue or move forward."),
-      QuizQuestion(
-          question:
-              "6. Which type of language should be avoided when giving directions to a stranger?",
-          options: [
-            "Imperative verbs",
-            "Local jargon and slang",
-            "Distance measurements",
-            "Landmarks"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Slang may confuse strangers unfamiliar with local expressions."),
-      QuizQuestion(
-          question: "7. 'The junction' refers to:",
-          options: [
-            "A local food stall",
-            "A place where two or more roads meet",
-            "A type of building",
-            "A bus stop"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "A junction is where two or more roads intersect."),
-      QuizQuestion(
-          question:
-              "8. Giving directions in numbered steps (1, 2, 3…) helps to:",
-          options: [
-            "Make the speaker seem smart",
-            "Ensure clarity and easy following",
-            "Use more words unnecessarily",
-            "Confuse the listener"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Numbering steps makes directions easier to follow in order."),
-      QuizQuestion(
-          question:
-              "9. 'Walk past the church, then take the first right.' Which word means 'beyond'?",
-          options: ["Walk", "Then", "Past", "Take"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "'Past' means beyond or further than a specific point."),
-      QuizQuestion(
-          question: "10. Non-verbal cues when giving directions include:",
-          options: [
-            "Speaking slowly",
-            "Using long phrases",
-            "Pointing with one's hand",
-            "Repeating addresses"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Pointing is a non-verbal way of indicating direction."),
-    ],
-  ),
-
-  "Using Appropriate Language to Describe Experiences": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. 'The market was buzzing with activity.' Which literary device is used?",
-          options: ["Simile", "Metaphor", "Personification", "Oxymoron"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Attributing 'buzzing' (an action) to the market is personification."),
-      QuizQuestion(
-          question: "2. Adjectives in descriptive language are used to:",
-          options: [
-            "Show action",
-            "Describe nouns",
-            "Replace nouns",
-            "Describe verbs"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Adjectives modify nouns and help describe experiences vividly."),
-      QuizQuestion(
-          question:
-              "3. 'She ran as fast as a cheetah.' This sentence is an example of:",
-          options: ["Metaphor", "Simile", "Alliteration", "Hyperbole"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "A simile compares using 'as' or 'like'."),
-      QuizQuestion(
-          question:
-              "4. Which tense is most appropriate when narrating a past experience?",
-          options: [
-            "Simple present",
-            "Simple past",
-            "Future continuous",
-            "Present perfect continuous"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Past experiences are described using the simple past tense."),
-      QuizQuestion(
-          question:
-              "5. 'I was over the moon when I passed my exams.' This is an example of:",
-          options: [
-            "An idiom",
-            "A proverb",
-            "A literal expression",
-            "A command"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "'Over the moon' is an idiomatic expression meaning very happy."),
-      QuizQuestion(
-          question: "6. Sensory language appeals to:",
-          options: [
-            "Logic and facts only",
-            "The five senses",
-            "Mathematical reasoning",
-            "Technical knowledge"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Sensory language paints pictures using sight, sound, touch, taste, and smell."),
-      QuizQuestion(
-          question:
-              "7. 'The old man's hands were rough like sandpaper.' The comparison word is:",
-          options: ["Old", "Hands", "Like", "Rough"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "'Like' signals a simile comparison."),
-      QuizQuestion(
-          question:
-              "8. Which sentence uses the most vivid descriptive language?",
-          options: [
-            "The rain fell.",
-            "It rained yesterday.",
-            "Heavy droplets drummed loudly on the tin roof.",
-            "The weather was wet."
-          ],
-          correctIndex: 2,
-          difficulty: "Hard",
-          explanation:
-              "Vivid description uses sensory details and strong verbs."),
-      QuizQuestion(
-          question:
-              "9. Using specific nouns instead of general ones makes writing:",
-          options: [
-            "Longer and harder to read",
-            "More precise and vivid",
-            "Less interesting",
-            "Grammatically incorrect"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Specific nouns add clarity and draw clearer mental images."),
-      QuizQuestion(
-          question: "10. The primary purpose of descriptive language is to:",
-          options: [
-            "List facts",
-            "Instruct the reader",
-            "Create a clear picture in the reader's mind",
-            "Argue a point"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Descriptive language helps readers visualise experiences."),
-    ],
-  ),
-
-  "Asking Questions to Elicit Elaboration": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. An open-ended question is one that:",
-          options: [
-            "Can only be answered with Yes or No",
-            "Encourages a detailed, thoughtful answer",
-            "Is rude or aggressive",
-            "Is written on a test paper"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Open-ended questions invite explanation and detail."),
-      QuizQuestion(
-          question: "2. 'Can you tell me more about that?' is an example of:",
-          options: [
-            "A closed question",
-            "A leading question",
-            "A follow-up elaboration question",
-            "A rhetorical question"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "It is a follow-up question that prompts more information."),
-      QuizQuestion(
-          question: "3. Which question word is BEST for asking a reason?",
-          options: ["Where", "When", "Why", "Who"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "'Why' asks for a reason or cause."),
-      QuizQuestion(
-          question: "4. A closed question is one that:",
-          options: [
-            "Opens a new topic",
-            "Requires only a brief, specific answer",
-            "Always starts with 'How'",
-            "Is impossible to answer"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Closed questions typically get Yes/No or single-word answers."),
-      QuizQuestion(
-          question:
-              "5. Ama says, 'The trip was fun.' Which follow-up best elicits elaboration?",
-          options: ["Was it?", "How was it fun?", "I know.", "Did you go?"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "'How was it fun?' asks for specific details and reasons."),
-      QuizQuestion(
-          question: "6. 'Elicit' means to:",
-          options: [
-            "Suppress or hide",
-            "Draw out or obtain a response",
-            "Refuse to answer",
-            "Write a letter"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "Elicit means to bring out a response or information."),
-      QuizQuestion(
-          question:
-              "7. Which of these is the most respectful way to ask for elaboration?",
-          options: [
-            "Tell me everything, now.",
-            "Stop talking.",
-            "Could you please explain further?",
-            "That's boring."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "'Could you please explain further?' is polite and invites more detail."),
-      QuizQuestion(
-          question: "8. Why is elaboration important in a discussion?",
-          options: [
-            "It takes less time",
-            "It gives more complete understanding of ideas",
-            "It makes conversations shorter",
-            "It confuses the listener"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Elaboration provides depth and ensures full understanding."),
-      QuizQuestion(
-          question: "9. A 'leading question' is one that:",
-          options: [
-            "Leads the conversation to a new topic",
-            "Suggests the expected answer within the question itself",
-            "Is very long and detailed",
-            "Begins every discussion"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "A leading question guides the respondent toward a particular answer."),
-      QuizQuestion(
-          question: "10. 'How did that make you feel?' is designed to elicit:",
-          options: [
-            "Facts and statistics",
-            "Personal feelings and emotional response",
-            "Directions and instructions",
-            "Mathematical solutions"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "'How did that make you feel?' targets emotions and experiences."),
-    ],
-  ),
-
-  "Identifying Key Information in Oral Texts": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. The 'main idea' of a speech is:",
-          options: [
-            "The last word spoken",
-            "The central message the speaker wants to communicate",
-            "A joke told during the speech",
-            "The speaker's name"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The main idea is the core message the speaker aims to deliver."),
-      QuizQuestion(
-          question: "2. 'Supporting details' in a speech are used to:",
-          options: [
-            "Distract the audience",
-            "Prove or explain the main idea",
-            "Change the subject",
-            "Entertain only"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Supporting details provide evidence and explanation for the main idea."),
-      QuizQuestion(
-          question:
-              "3. When listening to an oral text, a useful strategy is to:",
-          options: [
-            "Daydream and relax",
-            "Take brief notes on key points",
-            "Interrupt the speaker often",
-            "Look at your phone"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Taking brief notes captures essential information from oral text."),
-      QuizQuestion(
-          question:
-              "4. Which question helps identify the PURPOSE of an oral text?",
-          options: [
-            "Where was it recorded?",
-            "What does the speaker want the listener to know or do?",
-            "How long was the speech?",
-            "Who introduced the speaker?"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "Identifying purpose clarifies the speaker's intent."),
-      QuizQuestion(
-          question: "5. A speaker who aims to PERSUADE will use language that:",
-          options: [
-            "Lists neutral facts only",
-            "Urges agreement and action",
-            "Confuses the audience",
-            "Avoids all opinion"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Persuasive language encourages the audience to take a stance."),
-      QuizQuestion(
-          question: "6. Cross-checking information means:",
-          options: [
-            "Writing it twice",
-            "Verifying the facts from another source",
-            "Deleting incorrect information",
-            "Changing the topic"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Cross-checking involves confirming facts using multiple sources."),
-      QuizQuestion(
-          question: "7. 'Infer' means to:",
-          options: [
-            "State a fact directly",
-            "Draw a conclusion not explicitly stated",
-            "Write a summary",
-            "Repeat what was said"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Inferring is reaching a conclusion based on evidence and reasoning."),
-      QuizQuestion(
-          question: "8. The 'tone' of a speaker refers to:",
-          options: [
-            "The volume of the microphone",
-            "The emotion or attitude in the speaker's voice",
-            "The length of the speech",
-            "The topic discussed"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Tone reflects the speaker's feelings and attitude through voice."),
-      QuizQuestion(
-          question:
-              "9. Which listening skill involves mentally picturing what is being described?",
-          options: [
-            "Note-taking",
-            "Visualising",
-            "Cross-checking",
-            "Summarising"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Visualising is forming mental images from what you hear."),
-      QuizQuestion(
-          question: "10. A news bulletin and a weather forecast both aim to:",
-          options: [
-            "Persuade",
-            "Entertain and amuse",
-            "Inform the audience",
-            "Give instructions"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Both aim to provide factual information to the public."),
-    ],
-  ),
-
-  "Sharing Opinions on Oral Texts": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Before sharing your opinion on a text, you should first:",
-          options: [
-            "Decide what you think before listening",
-            "Understand the key points made",
-            "Ignore the speaker's evidence",
-            "Wait for the test"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "You must understand the content before forming a valid opinion."),
-      QuizQuestion(
-          question: "2. Which phrase shows a respectful disagreement?",
-          options: [
-            "That is completely wrong!",
-            "You make no sense.",
-            "I see your point, but I believe...",
-            "Nobody agrees with you."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Acknowledging the point before disagreeing shows respect."),
-      QuizQuestion(
-          question:
-              "3. An opinion is different from a fact because an opinion:",
-          options: [
-            "Cannot be proven right or wrong",
-            "Is always incorrect",
-            "Can be proven with data",
-            "Never changes"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "An opinion is a personal view, not necessarily verifiable."),
-      QuizQuestion(
-          question:
-              "4. When you say 'I believe the speaker is correct because…', you are:",
-          options: [
-            "Summarising",
-            "Questioning",
-            "Expressing and justifying an opinion",
-            "Giving instructions"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Using 'because' to support your view makes your opinion justified."),
-      QuizQuestion(
-          question: "5. 'Bias' in a speech means:",
-          options: [
-            "A fair and balanced view",
-            "An unfair preference or prejudice",
-            "A type of poetry",
-            "A form of grammar"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Bias is a leaning toward one side that affects fairness."),
-      QuizQuestion(
-          question:
-              "6. A speaker who uses only emotional appeals without facts is:",
-          options: [
-            "Using good evidence",
-            "Using propaganda techniques",
-            "Being perfectly objective",
-            "Giving balanced arguments"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "Emotional appeal without facts can be a propaganda technique."),
-      QuizQuestion(
-          question: "7. Which of these is a valid, well-supported opinion?",
-          options: [
-            "I dislike the speaker.",
-            "The speech was too long.",
-            "The speaker's plan will fail because similar plans have failed before.",
-            "I was bored."
-          ],
-          correctIndex: 2,
-          difficulty: "Hard",
-          explanation:
-              "A valid opinion provides logical reasoning based on evidence."),
-      QuizQuestion(
-          question: "8. Sharing ideas in a group discussion requires:",
-          options: [
-            "Talking over everyone else",
-            "Listening, then contributing once invited",
-            "Staying silent throughout",
-            "Shouting to be heard"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Taking turns and contributing constructively leads to effective discussion."),
-      QuizQuestion(
-          question:
-              "9. Which skill is most important when you disagree with a speaker?",
-          options: [
-            "Emotional control and politeness",
-            "Speaking as fast as possible",
-            "Memorising every word of the speech",
-            "Refusing to listen"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Staying calm and polite ensures productive disagreement."),
-      QuizQuestion(
-          question:
-              "10. 'Level-appropriate text' means the reading or listening material:",
-          options: [
-            "Is written in a different language",
-            "Matches the learner's grade and ability",
-            "Only teachers can understand",
-            "Has pictures only"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Level-appropriate texts suit the learner's comprehension level."),
-    ],
-  ),
-
-  // ─── ENGLISH: GRAMMAR ────────────────────────────────────────────────────
-  // "Subject and Predicate": QuizModel(
-  //   audioPath: '',
-  //   questions: [
-  //     QuizQuestion(
-  //         question: "1. The subject of a sentence is:",
-  //         options: [
-  //           "What the sentence says about the noun",
-  //           "The action performed",
-  //           "Who or what the sentence is about",
-  //           "The verb of the sentence"
-  //         ],
-  //         correctIndex: 2,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "The subject is the main noun or pronoun the sentence is about."),
-  //     QuizQuestion(
-  //         question:
-  //             "2. Identify the subject in: 'The tall teacher explained the lesson.'",
-  //         options: ["Explained", "The lesson", "The tall teacher", "Clearly"],
-  //         correctIndex: 2,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "'The tall teacher' is who the sentence is about — the subject."),
-  //     QuizQuestion(
-  //         question: "3. The predicate of a sentence:",
-  //         options: [
-  //           "Names the subject",
-  //           "Contains the verb and everything said about the subject",
-  //           "Is always a single word",
-  //           "Comes before the subject"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "The predicate contains the verb and all that is said about the subject."),
-  //     QuizQuestion(
-  //         question:
-  //             "4. In 'Ama and Kwame play football every Friday,' what is the subject?",
-  //         options: ["Play", "Football", "Every Friday", "Ama and Kwame"],
-  //         correctIndex: 3,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "'Ama and Kwame' is a compound subject — two nouns joined by 'and'."),
-  //     QuizQuestion(
-  //         question: "5. A simple predicate is:",
-  //         options: [
-  //           "All the words after the subject",
-  //           "Only the verb or verb phrase",
-  //           "The entire subject of the sentence",
-  //           "A describing word"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "The simple predicate is just the main verb or verb phrase."),
-  //     QuizQuestion(
-  //         question: "6. Which sentence has a compound subject?",
-  //         options: [
-  //           "The boy ran fast.",
-  //           "Ama read a book.",
-  //           "Kofi and Ama went to school.",
-  //           "She is clever."
-  //         ],
-  //         correctIndex: 2,
-  //         difficulty: "Medium",
-  //         explanation: "Two subjects joined by 'and' form a compound subject."),
-  //     QuizQuestion(
-  //         question:
-  //             "7. 'The farmers in the north grow maize.' What is the complete subject?",
-  //         options: [
-  //           "The farmers",
-  //           "The farmers in the north",
-  //           "Grow maize",
-  //           "In the north"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "The complete subject includes the noun and all its modifiers."),
-  //     QuizQuestion(
-  //         question: "8. 'Ran quickly down the street.' This is:",
-  //         options: [
-  //           "A complete sentence",
-  //           "A sentence with only a predicate (fragment)",
-  //           "A question",
-  //           "A command"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Hard",
-  //         explanation:
-  //             "It has no subject — it is a sentence fragment (predicate only)."),
-  //     QuizQuestion(
-  //         question: "9. In an interrogative sentence, the subject:",
-  //         options: [
-  //           "Is always at the beginning",
-  //           "Often comes after the auxiliary verb",
-  //           "Is never present",
-  //           "Replaces the verb"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Hard",
-  //         explanation:
-  //             "In questions, the subject usually follows the auxiliary (e.g., 'Is **she** going?')."),
-  //     QuizQuestion(
-  //         question:
-  //             "10. 'Every student in the class passed.' The predicate is:",
-  //         options: [
-  //           "Every student",
-  //           "In the class",
-  //           "Student in the class",
-  //           "Passed"
-  //         ],
-  //         correctIndex: 3,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "'Passed' is the simple predicate (main verb) of the sentence."),
-  //   ],
-  // ),
-
-  // "Active and Passive Voice": QuizModel(
-  //   audioPath: '',
-  //   questions: [
-  //     QuizQuestion(
-  //         question: "1. In an active voice sentence, the subject:",
-  //         options: [
-  //           "Receives the action",
-  //           "Performs the action",
-  //           "Is always omitted",
-  //           "Comes after the verb"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Easy",
-  //         explanation: "In active voice, the subject does the action."),
-  //     QuizQuestion(
-  //         question: "2. Which sentence is in the passive voice?",
-  //         options: [
-  //           "The girl kicked the ball.",
-  //           "The ball was kicked by the girl.",
-  //           "She answered the question.",
-  //           "He loves football."
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "The ball (object) becomes the subject in passive voice."),
-  //     QuizQuestion(
-  //         question: "3. The passive voice is formed using:",
-  //         options: [
-  //           "A verb + infinitive",
-  //           "A form of 'be' + past participle",
-  //           "A modal verb alone",
-  //           "The present participle"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "Passive constructions use 'be' (is/was/were) + past participle."),
-  //     QuizQuestion(
-  //         question:
-  //             "4. Change to passive voice: 'The teacher marked the papers.'",
-  //         options: [
-  //           "The papers is marked by the teacher.",
-  //           "The papers marked by the teacher.",
-  //           "The papers were marked by the teacher.",
-  //           "The teacher were marking the papers."
-  //         ],
-  //         correctIndex: 2,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "Passive: The papers (subject) + were marked (past passive) + by the teacher."),
-  //     QuizQuestion(
-  //         question: "5. When is passive voice used?",
-  //         options: [
-  //           "When the doer is known and important",
-  //           "When the action is more important than who performed it",
-  //           "When simpler grammar is needed",
-  //           "Only in spoken English"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "Passive voice emphasises the action or the object, not the doer."),
-  //     QuizQuestion(
-  //         question: "6. 'The bridge was built in 1956.' Who built the bridge?",
-  //         options: [
-  //           "Unknown or unimportant",
-  //           "The government",
-  //           "A famous engineer",
-  //           "The bridge itself"
-  //         ],
-  //         correctIndex: 0,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "The agent is omitted because it is unknown or unimportant."),
-  //     QuizQuestion(
-  //         question:
-  //             "7. Convert to active voice: 'The cake was eaten by the children.'",
-  //         options: [
-  //           "The cake ate the children.",
-  //           "The children ate the cake.",
-  //           "Eaten by the children was the cake.",
-  //           "The children were eating cake."
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Easy",
-  //         explanation:
-  //             "Active: Children (subject) + ate (verb) + the cake (object)."),
-  //     QuizQuestion(
-  //         question: "8. Which verb form is used in the passive with 'is'?",
-  //         options: [
-  //           "Base form",
-  //           "Past participle",
-  //           "Present participle",
-  //           "Infinitive"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Medium",
-  //         explanation:
-  //             "'Is + past participle' forms the present simple passive."),
-  //     QuizQuestion(
-  //         question:
-  //             "9. 'The news was announced on the radio.' What tense is this passive?",
-  //         options: [
-  //           "Present passive",
-  //           "Past passive",
-  //           "Future passive",
-  //           "Present perfect passive"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Hard",
-  //         explanation: "'was announced' is the past simple passive."),
-  //     QuizQuestion(
-  //         question: "10. In formal writing, which voice is preferred?",
-  //         options: [
-  //           "Active voice only",
-  //           "Passive voice is often preferred",
-  //           "Neither voice is used",
-  //           "Imperative voice"
-  //         ],
-  //         correctIndex: 1,
-  //         difficulty: "Hard",
-  //         explanation:
-  //             "Passive voice is common in formal, academic, and scientific writing."),
-  //   ],
-  // ),
-
-  "Reported Speech (Direct and Indirect)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Direct speech uses:",
-          options: [
-            "Reported forms of verbs",
-            "Quotation marks to show exact words",
-            "No punctuation",
-            "Only past tense verbs"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Direct speech records exact words and uses quotation marks."),
-      QuizQuestion(
-          question: "2. Convert to reported speech: She said, 'I am happy.'",
-          options: [
-            "She said she was happy.",
-            "She said I am happy.",
-            "She says she is happy.",
-            "She told she was happy."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "'Am' shifts to 'was' in reported speech (backshifting)."),
-      QuizQuestion(
-          question: "3. When reporting speech, 'will' becomes:",
-          options: ["Shall", "Would", "Can", "Must"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "'Will' shifts to 'would' when converting to reported speech."),
-      QuizQuestion(
-          question:
-              "4. 'He said, \"I can drive.\"' In reported speech, this becomes:",
-          options: [
-            "He said he could drive.",
-            "He said he can drive.",
-            "He told he could drive.",
-            "He says he could drive."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "'Can' shifts to 'could' in reported speech."),
-      QuizQuestion(
-          question: "5. Convert: 'She asked, \"Are you coming?\"'",
-          options: [
-            "She asked if I was coming.",
-            "She asked am I coming.",
-            "She asked whether I am coming.",
-            "She asked that I come."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Questions shift to 'if/whether + subject + past verb' in reported speech."),
-      QuizQuestion(
-          question: "6. The pronoun 'I' in reported speech usually changes to:",
-          options: [
-            "He / She (depending on the speaker)",
-            "They",
-            "I (no change)",
-            "We"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "First-person pronouns change to third-person in reported speech."),
-      QuizQuestion(
-          question:
-              "7. 'Today' in direct speech becomes ______ in reported speech.",
-          options: ["Yesterday", "That day", "Now", "Tomorrow"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "'Today' shifts to 'that day' in reported speech."),
-      QuizQuestion(
-          question: "8. 'He ordered me, \"Sit down!\"' In reported speech:",
-          options: [
-            "He ordered me to sit down.",
-            "He ordered me sat down.",
-            "He told me sit down.",
-            "He said to me that sit down."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Commands use 'ordered/told + object + to + infinitive' in reported speech."),
-      QuizQuestion(
-          question: "9. Which tense shift occurs in reported speech?",
-          options: [
-            "No change",
-            "All verbs move one tense back (backshifting)",
-            "All verbs become present tense",
-            "Only future verbs change"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "Backshifting moves verbs one tense into the past in reported speech."),
-      QuizQuestion(
-          question:
-              "10. 'This' changes to ______ and 'here' changes to ______ in reported speech.",
-          options: [
-            "That / There",
-            "These / Those",
-            "That / Now",
-            "Here / There"
-          ],
-          correctIndex: 0,
-          difficulty: "Hard",
-          explanation:
-              "Demonstratives and place words shift in reported speech: this→that, here→there."),
-    ],
-  ),
-  "Mastering Conditional Sentences (Type 1)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. A Type 1 (First) Conditional sentence expresses:",
-          options: [
-            "An unreal past situation",
-            "A real and possible future condition",
-            "An impossible situation",
-            "A past habit"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Type 1 conditionals talk about likely or possible future events."),
-      QuizQuestion(
-          question: "2. The correct structure of a Type 1 conditional is:",
-          options: [
-            "If + past simple, would + verb",
-            "If + present simple, will + verb",
-            "If + past perfect, would have + verb",
-            "If + present perfect, shall + verb"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Type 1: If + present simple, will + base verb."),
-      QuizQuestion(
-          question: "3. Which sentence is a correct Type 1 conditional?",
-          options: [
-            "If it rained, I would go out.",
-            "If she studies, she will pass.",
-            "If I had money, I bought a car.",
-            "If he were here, he would help."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Present simple in the 'if' clause and 'will' in the main clause."),
-      QuizQuestion(
-          question:
-              "4. 'Unless you study, you ______ fail.' Fill in the blank.",
-          options: ["Will", "Would", "Could have", "Had"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "'Unless' means 'if not,' so the Type 1 rule still applies."),
-      QuizQuestion(
-          question: "5. The 'if' clause in a conditional sentence:",
-          options: [
-            "Always comes first",
-            "Must come second",
-            "Can come before or after the main clause",
-            "Is optional"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "The 'if' clause can appear before or after the main clause."),
-      QuizQuestion(
-          question:
-              "6. 'If you heat ice, it melts.' What type of conditional is this?",
-          options: ["Type 1", "Type 2", "Zero conditional", "Type 3"],
-          correctIndex: 2,
-          difficulty: "Hard",
-          explanation:
-              "Zero conditional expresses universal truths and scientific facts."),
-      QuizQuestion(
-          question:
-              "7. What is the negative form of: 'If she passes, she will celebrate.'?",
-          options: [
-            "If she won't pass, she won't celebrate.",
-            "If she doesn't pass, she won't celebrate.",
-            "If she didn't pass, she would not celebrate.",
-            "If she not pass, she will not celebrate."
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The negative of present simple in 'if' clause is 'doesn't/don't'."),
-      QuizQuestion(
-          question:
-              "8. 'If she studies hard, ______ pass her BECE.' Select the correct option.",
-          options: ["She will", "She would", "She has", "She had"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "'Will' is used in the result clause of a Type 1 conditional."),
-      QuizQuestion(
-          question:
-              "9. Which modal can replace 'will' in a Type 1 conditional?",
-          options: [
-            "Would (without change in meaning)",
-            "Might (to show possibility)",
-            "Had (to show past)",
-            "Were (to show formality)"
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "'Might' can replace 'will' to show possibility rather than certainty."),
-      QuizQuestion(
-          question:
-              "10. 'If it rains tomorrow, the match ______.' Best completion:",
-          options: [
-            "Was cancelled",
-            "Will be cancelled",
-            "Would be cancelled",
-            "Had been cancelled"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Type 1: future action uses 'will + base/passive form'."),
-    ],
-  ),
-
-  // ─── SCIENCE: DIVERSITY OF MATTER ──────────────────────────────────────
-  "Classification of Materials": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Materials are classified based on:",
-          options: [
-            "Their colour only",
-            "Their properties such as hardness, conductivity and flexibility",
-            "Their price in the market",
-            "How old they are"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Classification is based on physical and chemical properties."),
-      QuizQuestion(
-          question: "2. Which of these is a conductor of electricity?",
-          options: ["Wood", "Rubber", "Copper", "Glass"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Copper is a metal and an excellent conductor of electricity."),
-      QuizQuestion(
-          question:
-              "3. A material that does NOT allow electricity to pass through is called:",
-          options: [
-            "A conductor",
-            "A semiconductor",
-            "An insulator",
-            "A reactor"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Insulators do not allow the flow of electric current."),
-      QuizQuestion(
-          question:
-              "4. Which property describes how easily a material can be scratched?",
-          options: ["Density", "Hardness", "Malleability", "Conductivity"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Hardness measures a material's resistance to scratching."),
-      QuizQuestion(
-          question: "5. Metals are generally:",
-          options: [
-            "Dull and brittle",
-            "Good conductors and shiny",
-            "Insulators and soft",
-            "Light and transparent"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Metals are typically shiny, strong, and good conductors."),
-      QuizQuestion(
-          question:
-              "6. Which material is both strong and flexible, making it useful in construction?",
-          options: ["Glass", "Steel", "Chalk", "Wax"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Steel combines strength with some flexibility, ideal for buildings and bridges."),
-      QuizQuestion(
-          question: "7. 'Malleability' means a material can be:",
-          options: [
-            "Dissolved easily",
-            "Hammered or rolled into thin sheets",
-            "Heated to high temperatures",
-            "Stretched into wires"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "A malleable material can be shaped by hammering or pressing."),
-      QuizQuestion(
-          question: "8. Which classification describes wood?",
-          options: [
-            "Metal",
-            "Ceramic",
-            "Natural material",
-            "Synthetic polymer"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Wood is a naturally occurring material derived from trees."),
-      QuizQuestion(
-          question: "9. Plastics are classified as:",
-          options: [
-            "Metals",
-            "Natural materials",
-            "Synthetic (man-made) materials",
-            "Ceramics"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Plastics are synthetic polymers manufactured through chemical processes."),
-      QuizQuestion(
-          question:
-              "10. Which property would you test to find out if a liquid boils easily?",
-          options: [
-            "Hardness",
-            "Malleability",
-            "Boiling point",
-            "Magnetic strength"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "The boiling point tells you at what temperature a liquid becomes a gas."),
-    ],
-  ),
-  "Human Growth Stages": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. What is the correct order of human growth stages?",
-          options: [
-            "Adolescence, Infancy, Childhood, Adulthood",
-            "Infancy, Childhood, Adolescence, Adulthood",
-            "Childhood, Infancy, Adulthood, Adolescence",
-            "Adulthood, Childhood, Infancy, Adolescence"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Humans develop: Infancy → Childhood → Adolescence → Adulthood."),
-      QuizQuestion(
-          question:
-              "2. Which gland controls most physical changes during puberty?",
-          options: ["Pancreas", "Pituitary gland", "Liver", "Kidney"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The pituitary gland releases growth hormones that drive puberty."),
-      QuizQuestion(
-          question: "3. Adolescence is characterised by:",
-          options: [
-            "Rapid physical and emotional development",
-            "Very slow growth",
-            "Complete development of the body",
-            "Only mental changes"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Adolescence involves rapid physical, emotional, and social changes."),
-      QuizQuestion(
-          question: "4. 'Puberty' describes:",
-          options: [
-            "The ageing process",
-            "The period when a child's body develops into an adult body",
-            "A disease of the bones",
-            "The process of learning to walk"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Puberty is the biological transition from childhood to adulthood."),
-      QuizQuestion(
-          question:
-              "5. Which of these is a PRIMARY sex characteristic in males?",
-          options: [
-            "Deepening voice",
-            "Growth of facial hair",
-            "Production of sperm",
-            "Widening of hips"
-          ],
-          correctIndex: 2,
-          difficulty: "Hard",
-          explanation:
-              "Primary sex characteristics are directly related to reproduction."),
-      QuizQuestion(
-          question: "6. During old age, the human body:",
-          options: [
-            "Grows rapidly",
-            "Experiences a gradual decline in physical functions",
-            "Stops producing hormones completely",
-            "Becomes stronger"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Ageing involves gradual reduction in physical and cognitive functions."),
-      QuizQuestion(
-          question:
-              "7. Which nutrient is most important for growth and tissue repair?",
-          options: ["Carbohydrates", "Fats", "Proteins", "Vitamins"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Proteins are the building blocks for growth and tissue repair."),
-      QuizQuestion(
-          question: "8. The period between birth and 2 years of age is called:",
-          options: ["Adolescence", "Childhood", "Infancy", "Adulthood"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Infancy refers to the earliest stage of human development."),
-      QuizQuestion(
-          question: "9. Emotional changes during adolescence include:",
-          options: [
-            "Loss of all emotions",
-            "Increased self-awareness and mood swings",
-            "Complete emotional stability",
-            "Lack of interest in peers"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Adolescents experience heightened emotions and identity development."),
-      QuizQuestion(
-          question:
-              "10. Which practice promotes healthy growth during childhood?",
-          options: [
-            "Skipping meals",
-            "Regular exercise and balanced nutrition",
-            "Staying indoors always",
-            "Avoiding sleep"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Exercise and proper nutrition are essential for healthy development."),
-    ],
-  ),
-
   // ─── MATH ──────────────────────────────────────────────────────────────
   "Math JHS1 s1 ss1 - Number and Numeration Systems": QuizModel(
     audioPath: '',
@@ -6814,6 +5502,478 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation:
         r"Since 2^0 = 1, the right side is 8. Also, 8 = 2^3. Therefore, x = 3.",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss3 - Fractions, Decimals and Percentages": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Kofi received \phi800.00 commission on the sales he made on a particular day. The commission is 20\% of the sales he made. Calculate his total sales for the day.          (BECE 1998 Q27)",
+        options: [
+          r"\phi1,200.00",
+          r"\phi2,400.00",
+          r"\phi3,200.00",
+          r"\phi4,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Let the total sales be x. Since 20\% of x is \phi800.00, x = \frac{800 \times 100}{20} = \phi4,000.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"2. A shop increased all its prices by 10\%. Calculate the new price of an article which was previously sold for \phi7,500.00.          (BECE 1999 Q19)",
+        options: [
+          r"\phi6,750.00",
+          r"\phi7,500.00",
+          r"\phi7,800.00",
+          r"\phi8,250.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The increase is 10\% of \phi7,500.00, which is \phi750.00. Therefore, the new price is \phi7,500.00 + \phi750.00 = \phi8,250.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"3. Amina spent \frac{17}{35} of her pocket money on transport and food. If she spent \frac{2}{7} on transport only, what fraction did she spend on food?          (BECE 2000 Q15)",
+        options: [
+          r"\frac{2}{5}",
+          r"\frac{1}{5}",
+          r"\frac{4}{7}",
+          r"\frac{5}{7}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The fraction spent on food is \frac{17}{35} - \frac{2}{7}. Since \frac{2}{7} = \frac{10}{35}, the answer is \frac{17}{35} - \frac{10}{35} = \frac{7}{35} = \frac{1}{5}.",
+      ),
+      QuizQuestion(
+        question:
+        r"4. By how much is \frac{5}{6} greater than \frac{3}{4}?          (BECE 2001 Q8)",
+        options: [
+          r"\frac{1}{12}",
+          r"\frac{1}{6}",
+          r"\frac{5}{12}",
+          r"\frac{7}{12}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Find the difference: \frac{5}{6} - \frac{3}{4} = \frac{10}{12} - \frac{9}{12} = \frac{1}{12}.",
+      ),
+      QuizQuestion(
+        question:
+        r"5. Out of \phi550,000.00 given to a school, an amount of \phi325,000.00 was used. What fraction of the total amount was used?          (BECE 2002A Q10)",
+        options: [
+          r"\frac{4}{13}",
+          r"\frac{9}{13}",
+          r"\frac{9}{22}",
+          r"\frac{13}{22}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The fraction used is \frac{325,000}{550,000}. Dividing the numerator and denominator by 25,000 gives \frac{13}{22}.",
+      ),
+      QuizQuestion(
+        question:
+        r"6. What fraction of 3 weeks is 18 days?          (BECE 2020 Q14)",
+        options: [
+          r"\frac{6}{7}",
+          r"\frac{1}{6}",
+          r"\frac{6}{11}",
+          r"\frac{9}{11}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Three weeks is 3 \times 7 = 21 days. Therefore, the required fraction is \frac{18}{21} = \frac{6}{7}.",
+      ),
+      QuizQuestion(
+        question:
+        r"7. If a trader made a profit of 10\% in selling a shirt for GH\phi44.00, find the cost price.          (BECE 2022 Q3)",
+        options: [
+          r"GH\phi38.50",
+          r"GH\phi39.60",
+          r"GH\phi40.00",
+          r"GH\phi48.40",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The selling price is 110\% of the cost price. Therefore, the cost price is \frac{44 \times 100}{110} = GH\phi40.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"8. Express 0.725 as a fraction in its lowest terms.          (BECE 2020 Q38)",
+        options: [
+          r"\frac{19}{10}",
+          r"\frac{21}{10}",
+          r"\frac{29}{40}",
+          r"\frac{39}{40}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"0.725 = \frac{725}{1000}. Dividing the numerator and denominator by 25 gives \frac{29}{40}.",
+      ),
+      QuizQuestion(
+        question:
+        r"9. Simplify (1\frac{1}{2} - \frac{5}{6}) \times \frac{9}{10}.          (BECE 2023 Q10)",
+        options: [
+          r"\frac{3}{10}",
+          r"\frac{1}{5}",
+          r"\frac{3}{5}",
+          r"\frac{2}{3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Convert 1\frac{1}{2} to \frac{3}{2}. Then \frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}. Therefore, \frac{2}{3} \times \frac{9}{10} = \frac{3}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. John's uncle sent him \phi120,000.00 through a bank which charges 5\% commission. How much commission was paid?          (BECE 2002A Q11)",
+        options: [
+          r"\phi5,000.00",
+          r"\phi6,000.00",
+          r"\phi7,000.00",
+          r"\phi7,200.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The commission is 5\% of \phi120,000.00. Therefore, the commission is \frac{5}{100} \times \phi120,000.00 = \phi6,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. An article which cost GH\phi600.00 was sold at a discount of 10\%. Find the selling price.          (BECE 2024 Q22)",
+        options: [
+          r"GH\phi60.00",
+          r"GH\phi540.00",
+          r"GH\phi504.00",
+          r"GH\phi560.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The discount is 10\% of GH\phi600.00, which is GH\phi60.00. Therefore, the selling price is GH\phi600.00 - GH\phi60.00 = GH\phi540.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. A man bought a car for \phi5.5 million and sold it for \phi6.5 million. Find the percentage gain.          (BECE 1998 Q13)",
+        options: [
+          r"1.54\%",
+          r"1.82\%",
+          r"15.38\%",
+          r"18.18\%",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The gain is \phi6.5 million - \phi5.5 million = \phi1 million. The percentage gain is \frac{1}{5.5} \times 100\% = 18.18\%, approximately.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. A book was sold for GH\phi48.00 at a profit of 20\%. Find the cost price.          (BECE 2023 Q18)",
+        options: [
+          r"GH\phi40.00",
+          r"GH\phi57.60",
+          r"GH\phi60.00",
+          r"GH\phi38.40",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The selling price is 120\% of the cost price. Therefore, the cost price is \frac{48 \times 100}{120} = GH\phi40.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. A trader received a commission of 25\% on the sales he made in a month. His commission was \phi180,000.00. Find his total sales for the month.          (BECE 1999 Q27)",
+        options: [
+          r"\phi135,000.00",
+          r"\phi150,000.00",
+          r"\phi240,000.00",
+          r"\phi720,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Since \phi180,000.00 is 25\% of the total sales, the total sales are \frac{180,000 \times 100}{25} = \phi720,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. The marked price of a radio set is \phi450,000.00. A discount of 5\% of the marked price is allowed. What is the selling price of the radio?          (BECE 2000 Q24)",
+        options: [
+          r"\phi427,000",
+          r"\phi427,500",
+          r"\phi428,571",
+          r"\phi472,500",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The discount is 5\% of \phi450,000.00, which is \phi22,500.00. Therefore, the selling price is \phi450,000.00 - \phi22,500.00 = \phi427,500.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. Araba bought an electric cooker for \phi540,000.00 at a discount of 10\%. Find the actual price of the electric cooker.          (BECE 2001 Q22)",
+        options: [
+          r"\phi486,000.00",
+          r"\phi496,000.00",
+          r"\phi594,000.00",
+          r"\phi600,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"After a 10\% discount, Araba paid 90\% of the actual price. Therefore, the actual price is \frac{540,000 \times 100}{90} = \phi600,000.00.",
+      ),
+    ],
+  ),
+  "Math JHS2 s1 ss4 - Ratios and Proportion": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Kofi received \phi800.00 commission on the sales he made on a particular day. The commission is 20\% of the sales he made. Calculate his total sales for the day.          (BECE 1998 Q27)",
+        options: [
+          r"\phi1,200.00",
+          r"\phi2,400.00",
+          r"\phi3,200.00",
+          r"\phi4,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Let the total sales be x. Since 20\% of x is \phi800.00, x = \frac{800 \times 100}{20} = \phi4,000.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"2. A shop increased all its prices by 10\%. Calculate the new price of an article which was previously sold for \phi7,500.00.          (BECE 1999 Q19)",
+        options: [
+          r"\phi6,750.00",
+          r"\phi7,500.00",
+          r"\phi7,800.00",
+          r"\phi8,250.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The increase is 10\% of \phi7,500.00, which is \phi750.00. Therefore, the new price is \phi7,500.00 + \phi750.00 = \phi8,250.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"3. Amina spent \frac{17}{35} of her pocket money on transport and food. If she spent \frac{2}{7} on transport only, what fraction did she spend on food?          (BECE 2000 Q15)",
+        options: [
+          r"\frac{2}{5}",
+          r"\frac{1}{5}",
+          r"\frac{4}{7}",
+          r"\frac{5}{7}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The fraction spent on food is \frac{17}{35} - \frac{2}{7}. Since \frac{2}{7} = \frac{10}{35}, the answer is \frac{17}{35} - \frac{10}{35} = \frac{7}{35} = \frac{1}{5}.",
+      ),
+      QuizQuestion(
+        question:
+        r"4. By how much is \frac{5}{6} greater than \frac{3}{4}?          (BECE 2001 Q8)",
+        options: [
+          r"\frac{1}{12}",
+          r"\frac{1}{6}",
+          r"\frac{5}{12}",
+          r"\frac{7}{12}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Find the difference: \frac{5}{6} - \frac{3}{4} = \frac{10}{12} - \frac{9}{12} = \frac{1}{12}.",
+      ),
+      QuizQuestion(
+        question:
+        r"5. Out of \phi550,000.00 given to a school, an amount of \phi325,000.00 was used. What fraction of the total amount was used?          (BECE 2002A Q10)",
+        options: [
+          r"\frac{4}{13}",
+          r"\frac{9}{13}",
+          r"\frac{9}{22}",
+          r"\frac{13}{22}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The fraction used is \frac{325,000}{550,000}. Dividing the numerator and denominator by 25,000 gives \frac{13}{22}.",
+      ),
+      QuizQuestion(
+        question:
+        r"6. What fraction of 3 weeks is 18 days?          (BECE 2020 Q14)",
+        options: [
+          r"\frac{6}{7}",
+          r"\frac{1}{6}",
+          r"\frac{6}{11}",
+          r"\frac{9}{11}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Three weeks is 3 \times 7 = 21 days. Therefore, the required fraction is \frac{18}{21} = \frac{6}{7}.",
+      ),
+      QuizQuestion(
+        question:
+        r"7. If a trader made a profit of 10\% in selling a shirt for GH\phi44.00, find the cost price.          (BECE 2022 Q3)",
+        options: [
+          r"GH\phi38.50",
+          r"GH\phi39.60",
+          r"GH\phi40.00",
+          r"GH\phi48.40",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"The selling price is 110\% of the cost price. Therefore, the cost price is \frac{44 \times 100}{110} = GH\phi40.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"8. Express 0.725 as a fraction in its lowest terms.          (BECE 2020 Q38)",
+        options: [
+          r"\frac{19}{10}",
+          r"\frac{21}{10}",
+          r"\frac{29}{40}",
+          r"\frac{39}{40}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"0.725 = \frac{725}{1000}. Dividing the numerator and denominator by 25 gives \frac{29}{40}.",
+      ),
+      QuizQuestion(
+        question:
+        r"9. Simplify (1\frac{1}{2} - \frac{5}{6}) \times \frac{9}{10}.          (BECE 2023 Q10)",
+        options: [
+          r"\frac{3}{10}",
+          r"\frac{1}{5}",
+          r"\frac{3}{5}",
+          r"\frac{2}{3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Convert 1\frac{1}{2} to \frac{3}{2}. Then \frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}. Therefore, \frac{2}{3} \times \frac{9}{10} = \frac{3}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. John's uncle sent him \phi120,000.00 through a bank which charges 5\% commission. How much commission was paid?          (BECE 2002A Q11)",
+        options: [
+          r"\phi5,000.00",
+          r"\phi6,000.00",
+          r"\phi7,000.00",
+          r"\phi7,200.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The commission is 5\% of \phi120,000.00. Therefore, the commission is \frac{5}{100} \times \phi120,000.00 = \phi6,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. An article which cost GH\phi600.00 was sold at a discount of 10\%. Find the selling price.          (BECE 2024 Q22)",
+        options: [
+          r"GH\phi60.00",
+          r"GH\phi540.00",
+          r"GH\phi504.00",
+          r"GH\phi560.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The discount is 10\% of GH\phi600.00, which is GH\phi60.00. Therefore, the selling price is GH\phi600.00 - GH\phi60.00 = GH\phi540.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. A man bought a car for \phi5.5 million and sold it for \phi6.5 million. Find the percentage gain.          (BECE 1998 Q13)",
+        options: [
+          r"1.54\%",
+          r"1.82\%",
+          r"15.38\%",
+          r"18.18\%",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The gain is \phi6.5 million - \phi5.5 million = \phi1 million. The percentage gain is \frac{1}{5.5} \times 100\% = 18.18\%, approximately.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. A book was sold for GH\phi48.00 at a profit of 20\%. Find the cost price.          (BECE 2023 Q18)",
+        options: [
+          r"GH\phi40.00",
+          r"GH\phi57.60",
+          r"GH\phi60.00",
+          r"GH\phi38.40",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The selling price is 120\% of the cost price. Therefore, the cost price is \frac{48 \times 100}{120} = GH\phi40.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. A trader received a commission of 25\% on the sales he made in a month. His commission was \phi180,000.00. Find his total sales for the month.          (BECE 1999 Q27)",
+        options: [
+          r"\phi135,000.00",
+          r"\phi150,000.00",
+          r"\phi240,000.00",
+          r"\phi720,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Since \phi180,000.00 is 25\% of the total sales, the total sales are \frac{180,000 \times 100}{25} = \phi720,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. The marked price of a radio set is \phi450,000.00. A discount of 5\% of the marked price is allowed. What is the selling price of the radio?          (BECE 2000 Q24)",
+        options: [
+          r"\phi427,000",
+          r"\phi427,500",
+          r"\phi428,571",
+          r"\phi472,500",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The discount is 5\% of \phi450,000.00, which is \phi22,500.00. Therefore, the selling price is \phi450,000.00 - \phi22,500.00 = \phi427,500.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. Araba bought an electric cooker for \phi540,000.00 at a discount of 10\%. Find the actual price of the electric cooker.          (BECE 2001 Q22)",
+        options: [
+          r"\phi486,000.00",
+          r"\phi496,000.00",
+          r"\phi594,000.00",
+          r"\phi600,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"After a 10\% discount, Araba paid 90\% of the actual price. Therefore, the actual price is \frac{540,000 \times 100}{90} = \phi600,000.00.",
       ),
     ],
   ),
